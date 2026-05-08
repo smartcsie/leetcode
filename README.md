@@ -18,7 +18,7 @@
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Array | [C++](./solution/Solution_0048.cpp) |
-| 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟡 Medium | Array<br> Bit Manipulation | [C++](./solution/Solution_0136.cpp) |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟡 Medium | Array | [C++](./solution/Solution_0136.cpp) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](./solution/Solution_0189.cpp) |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | Array | [C++](./solution/Solution_1886.cpp) |
 
