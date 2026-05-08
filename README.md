@@ -120,7 +120,7 @@
 - [doocs](https://github.com/doocs/leetcode/tree/main/solution)
 - [Top 10 Algorithms in Interview Questions](https://www.geeksforgeeks.org/dsa/top-10-algorithms-in-interview-questions/)
 - [九章基础班.md](https://github.com/cookieisaac/leetcode/blob/master/%E4%B9%9D%E7%AB%A0%E5%9F%BA%E7%A1%80%E7%8F%AD.md)
-
+- [leetcode-patterns](https://seanprashad.com/leetcode-patterns/)
 ---
 
 © 2026 Laurence Chang. 保持思考，持續進化。
