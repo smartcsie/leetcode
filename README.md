@@ -35,6 +35,7 @@
 ---
 
 ## <a name="math"></a>🔢 Math (數學)
+
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) |
@@ -49,6 +50,7 @@
 ---
 
 ## <a name="binary-search"></a>🔍 Binary Search (二分查找)
+<<<<<<< HEAD
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
 | 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Binary Search | [C++](./solution/Solution_0004.cpp) |
@@ -59,6 +61,7 @@
 | 0367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0367.cpp) |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0374.cpp) |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0704.cpp) |
+
 
 ---
 
@@ -96,6 +99,7 @@
 ---
 
 ## <a name="linked-list"></a>🔗 Linked List (鏈表)
+
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](./solution/Solution_0021.cpp) |
@@ -103,7 +107,6 @@
 ---
 
 © 2026 Laurence Chang.
-
 
 ---
 
