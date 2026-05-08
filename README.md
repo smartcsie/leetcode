@@ -111,7 +111,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](./solution/Solution_0021.cpp) |
 
-## <a name="stack"></a>🔗 Stack (鏈表)
+## <a name="stack"></a>🔗 Stack (堆疊)
 
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
