@@ -124,7 +124,7 @@
 - [leetcode-patterns](https://seanprashad.com/leetcode-patterns/)
 ---
 ## 🤖 電子書
-- [Cracking the Coding Interview 6th 中文](https://bytebytego.com/courses/coding-patterns/two-pointers/introduction-to-two-pointers](https://github.com/F8F-1BearCat/CtCI-6th-Edition-CN/tree/master)
+- [Cracking the Coding Interview 6th 中文](https://github.com/F8F-1BearCat/CtCI-6th-Edition-CN/tree/master)
 
 
 © 2026 Laurence Chang. 保持思考，持續進化。
