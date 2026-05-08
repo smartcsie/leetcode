@@ -10,15 +10,15 @@
 
 ## 🚀 快速導覽
 
-[#bit-manipulation](#bit-manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list)   
+[#Bit-manipulation](#Bit-manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list)   
 
 ---
 
 
-## <a name="bit-manipulation"></a>📊 Bit Manipulation (位元運算)
+## <a name="Bit-manipulation"></a>📊 Bit Manipulation (位元運算)
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
-| 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0136.cpp) |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟡 Medium | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) |
 
 ## <a name="array"></a>📊 Array (數組)
 | # | 題目 | 難度 | 標籤 | 程式碼 |
