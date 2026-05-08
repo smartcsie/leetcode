@@ -10,15 +10,21 @@
 
 ## 🚀 快速導覽
 
-[#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list)   
+[#Bit Manipulation](#Bit Manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list)   
 
 ---
+
+
+## <a name="Bit Manipulation"></a>📊 Bit Manipulation (位元運算)
+| # | 題目 | 難度 | 標籤 | 程式碼 |
+| :--- | :--- | :--- | :--- | :--- |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0136.cpp) |
 
 ## <a name="array"></a>📊 Array (數組)
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Array | [C++](./solution/Solution_0048.cpp) |
-| 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟡 Medium | Array | [C++](./solution/Solution_0136.cpp) |
+
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](./solution/Solution_0189.cpp) |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | Array | [C++](./solution/Solution_1886.cpp) |
 
