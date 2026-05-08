@@ -40,12 +40,6 @@
 
 ---
 
-## 🛠️ 工程師的堅持 (Self-Imposed Constraints)
-
-在解題時，我會額外關注以下幾點以符合工業界標準：
-1. **Cache Locality:** 在數據量大時，優先考慮連續內存操作（如 Vector 排序）而非分散節點（如 List/Map）。
-2. **Modern C++:** 運用 C++17/20 特性（如 Structured Bindings, `std::views`, `contains()`）。
-3. **Complexity Analysis:** 每一題皆附上最壞情況下的時間與空間複雜度分析。
 
 ---
 
