@@ -10,7 +10,7 @@
 
 ## 🚀 快速導覽
 
-[#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list) | [#Bit Manipulation](#Bit Manipulation)   
+[#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list)   
 
 ---
 
