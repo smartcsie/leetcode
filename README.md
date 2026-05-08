@@ -19,6 +19,7 @@
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) |
+| 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_1.cpp) |
 
 ## <a name="array"></a>📊 Array (數組)
 | # | 題目 | 難度 | 標籤 | 程式碼 |
