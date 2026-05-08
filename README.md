@@ -35,7 +35,6 @@
 ---
 
 ## <a name="math"></a>🔢 Math (數學)
-
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) |
@@ -50,7 +49,6 @@
 ---
 
 ## <a name="binary-search"></a>🔍 Binary Search (二分查找)
-<<<<<<< HEAD
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
 | 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Binary Search | [C++](./solution/Solution_0004.cpp) |
