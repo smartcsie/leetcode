@@ -1,4 +1,4 @@
-# LeetCode 演算法精鍊筆記 (C++ / Python)
+# LeetCode 演算法精鍊筆記 (C++)
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/laurence?theme=nord) <!-- 註：將 laurence 換成你的 LeetCode ID -->
 
