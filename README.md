@@ -123,5 +123,8 @@
 - [九章基础班.md](https://github.com/cookieisaac/leetcode/blob/master/%E4%B9%9D%E7%AB%A0%E5%9F%BA%E7%A1%80%E7%8F%AD.md)
 - [leetcode-patterns](https://seanprashad.com/leetcode-patterns/)
 ---
+## 🤖 電子書
+- [Cracking the Coding Interview 6th 中文](https://bytebytego.com/courses/coding-patterns/two-pointers/introduction-to-two-pointers](https://github.com/F8F-1BearCat/CtCI-6th-Edition-CN/tree/master)
+
 
 © 2026 Laurence Chang. 保持思考，持續進化。
