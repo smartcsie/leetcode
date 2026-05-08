@@ -115,7 +115,7 @@
 - [meyr543](https://hackmd.io/@meyr543/ryUhMY4zY)
 - [grandyang](https://www.cnblogs.com/grandyang/p/4389572.html)
 - [youngyangyang04](https://github.com/youngyangyang04/leetcode-master)
-- [算法模板](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)**
+- [算法模板](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)
 - [Ji0m0](https://hackmd.io/@Ji0m0/B1dUOaRjN/https%3A%2F%2Fhackmd.io%2F%40Ji0m0%2FHyAgG6bU_)
 - [algo.monster](http://algo.monsterhttps://algo.monster/liteproblems/662)
 - [doocs](https://github.com/doocs/leetcode/tree/main/solution)
