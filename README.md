@@ -10,7 +10,7 @@
 
 ## 🚀 快速導覽
 
-[#Bit-manipulation](#Bit-manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Stack](#stack) | [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list)   
+[#Bit-manipulation](#Bit-manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Stack](#stack) | [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list) | [#String](#string)  
 
 ---
 
@@ -121,6 +121,12 @@
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 | :--- | :--- | :--- | :--- | :--- |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](./solution/Solution_0020.cpp) |
+
+---
+
+## <a name="string"></a>🔗 String (字串)
+| 0459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 Easy | String / KMP | [C++](./solution/Solution_0459.cpp) |
+
 ---
 
 © 2026 Laurence Chang.
