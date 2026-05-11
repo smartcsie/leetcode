@@ -125,6 +125,9 @@
 ---
 
 ## <a name="string"></a>🔗 String (字串)
+
+| # | 題目 | 難度 | 標籤 | 程式碼 |
+| :--- | :--- | :--- | :--- | :--- |
 | 0459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 Easy | String / KMP | [C++](./solution/Solution_0459.cpp) |
 
 ---
