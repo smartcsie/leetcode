@@ -144,4 +144,9 @@
 - [Cracking the Coding Interview 6th 中文](https://github.com/F8F-1BearCat/CtCI-6th-Edition-CN/tree/master)
 
 
+## 🤖 面試考題
+- [Google](https://github.com/liquidslr/interview-company-wise-problems/tree/main/Google)
+- [Nvidia](https://github.com/liquidslr/interview-company-wise-problems/tree/main/Nvidia)
+- [Amazon](https://github.com/liquidslr/interview-company-wise-problems/tree/main/Amazon)
+
 © 2026 Laurence Chang. 保持思考，持續進化。
