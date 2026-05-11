@@ -139,6 +139,7 @@
 - [Top 10 Algorithms in Interview Questions](https://www.geeksforgeeks.org/dsa/top-10-algorithms-in-interview-questions/)
 - [九章基础班.md](https://github.com/cookieisaac/leetcode/blob/master/%E4%B9%9D%E7%AB%A0%E5%9F%BA%E7%A1%80%E7%8F%AD.md)
 - [leetcode-patterns](https://seanprashad.com/leetcode-patterns/)
+- [youngyangyang04]([https://seanprashad.com/leetcode-patterns/](https://github.com/youngyangyang04/leetcode-master))
 ---
 ## 🤖 電子書
 - [Cracking the Coding Interview 6th 中文](https://github.com/F8F-1BearCat/CtCI-6th-Edition-CN/tree/master)
