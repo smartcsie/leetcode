@@ -136,8 +136,8 @@
 
 
 <details>
-<summary>點擊展開詳細內容</summary>
-- 項目 1
+<summary>下拉是選單</summary>
+- 項目 1<br>
 - 項目 2
 </details>
 
