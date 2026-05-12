@@ -134,6 +134,13 @@
 
 © 2026 Laurence Chang.
 
+
+<details>
+<summary>點擊展開詳細內容</summary>
+- 項目 1
+- 項目 2
+</details>
+
 ---
 
 ## 🤖 Resource
