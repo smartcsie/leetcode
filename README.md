@@ -109,6 +109,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](./solution/Solution_0021.cpp) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Linked List <br> Two Pointers <br> Fast-slow Pointers | [C++](./solution/Solution_0141.cpp) |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](./solution/Solution_0206.cpp) |
 
 ---
 
