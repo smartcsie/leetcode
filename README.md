@@ -17,8 +17,8 @@
 ---
 
 ## <a name="Bit-manipulation"></a>📊 Bit Manipulation (位元運算)
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit-Manipulation | [C++](./solution/Solution_0137.cpp) |
 | 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0190.cpp) |
@@ -28,8 +28,8 @@
 ---
 
 ## <a name="math"></a>🔢 Math (數學)
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) |
 | 0041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | Math | [C++](./solution/Solution_0041.cpp) |
@@ -42,8 +42,8 @@
 ---
 
 ## <a name="binary-search"></a>🔍 Binary Search (二分查找)
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Binary Search | [C++](./solution/Solution_0004.cpp) |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0035.cpp) |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0069.cpp) |
@@ -57,8 +57,8 @@
 ---
 
 ## <a name="hash-table"></a>🔑 Hash Table (哈希表)
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0001.cpp) |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0217.cpp) |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table / Sliding Window | [C++](./solution/Solution_0219.cpp) |
@@ -74,15 +74,15 @@
 
 ## <a name="string"></a>🔗 String (字串)
 
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 Easy | String / KMP | [C++](./solution/Solution_0459.cpp) |
 
 ---
 
 ## <a name="array"></a>📊 Array (數組)
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Array | [C++](./solution/Solution_0048.cpp) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](./solution/Solution_0189.cpp) |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array | [C++](./solution/Solution_0442.cpp) |
@@ -92,8 +92,8 @@
 ---
 
 ## <a name="two-pointers"></a>👥 Two Pointers (雙指針)
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_0026.cpp) |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Two Pointers <br> Fast-slow Pointers  | [C++](./solution/Solution_0027.cpp) |
 | 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium | Two Pointers | [C++](./solution/Solution_0080.cpp) |
@@ -107,9 +107,8 @@
 ---
 
 ## <a name="linked-list"></a>🔗 Linked List (鏈表)
-
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](./solution/Solution_0021.cpp) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Linked List <br> Two Pointers <br> Fast-slow Pointers | [C++](./solution/Solution_0141.cpp) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](./solution/Solution_0206.cpp) |
@@ -117,16 +116,15 @@
 ---
 
 ## <a name="stack"></a>🔗 Stack (堆疊)
-
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](./solution/Solution_0020.cpp) |
 
 ---
 
 ## <a name="tree"></a>🌳 Tree (樹結構)
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Tree | [C++](./solution/Solution_0098.cpp) |
 | 0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | Tree | [C++](./solution/Solution_0100.cpp) |
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Tree, BFS | [C++](./solution/Solution_0102.cpp) |
@@ -148,8 +146,8 @@
 ---
 
 ## <a name="dynamic-programming"></a>📊 Dynamic Programming (動態規劃)
-| # | 題目 | 難度 | 標籤 | 程式碼 |
-| :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Array / Dynamic Programming | [C++](./solution/Solution_0053.cpp) |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Math / Dynamic Programming | [C++](./solution/Solution_0070.cpp) |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Array / Dynamic Programming | [C++](./solution/Solution_0300.cpp) |
