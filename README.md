@@ -10,7 +10,9 @@
 
 ## 🚀 快速導覽
 
-[#Bit-manipulation](#Bit-manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Stack](#stack) | [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list) | [#String](#string)  
+[#Bit-manipulation](#Bit-manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Stack](#stack) 
+[#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list) | [#String](#string) 
+[#Dynamic Programming](#dynamic-programming)
 
 ---
 
@@ -143,6 +145,12 @@
 | 0662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 Medium | Tree, BFS | [C++](./solution/Solution_0662.cpp) |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree, BFS | [C++](./solution/Solution_1609.cpp) |
 
+---
+
+## <a name="dynamic-programming"></a>📊 BDynamic Programming (動態規劃)
+| # | 題目 | 難度 | 標籤 | 程式碼 |
+
+| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Array / Dynamic Programming | [C++](./solution/Solution_0053.cpp) |
 ---
 
 © 2026 Laurence Chang.
