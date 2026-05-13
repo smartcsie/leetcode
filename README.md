@@ -79,7 +79,7 @@
 
 ---
 
-## <a name="array"></a>📊 Array (數組)
+## <a name="array"></a>🍱 Array (數組)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 備註 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Array | [C++](./solution/Solution_0048.cpp) | O(n²) | O(1) | 轉置 + 左右翻轉 |
@@ -105,7 +105,7 @@
 
 ---
 
-## <a name="linked-list"></a>🔗 Linked List (鏈表)
+## <a name="linked-list"></a>⛓️ Linked List (鏈表)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 備註 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](./solution/Solution_0021.cpp) | O(n+m) | O(1) | 虛擬頭節點法 |
@@ -114,7 +114,7 @@
 
 ---
 
-## <a name="stack"></a>🔗 Stack (堆疊)
+## <a name="stack"></a>📚 Stack (堆疊)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 備註 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](./solution/Solution_0020.cpp) | O(n) | O(n) | 括號匹配壓棧 |
@@ -144,7 +144,7 @@
 
 ---
 
-## <a name="dynamic-programming"></a>📊 Dynamic Programming (動態規劃)
+## <a name="dynamic-programming"></a>🧩 Dynamic Programming (動態規劃)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 備註 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Array / DP | [C++](./solution/Solution_0053.cpp) | O(n) | O(1) | Kadane's Algorithm |
