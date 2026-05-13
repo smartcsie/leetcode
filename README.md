@@ -151,6 +151,7 @@
 | # | 題目 | 難度 | 標籤 | 程式碼 |
 
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Array / Dynamic Programming | [C++](./solution/Solution_0053.cpp) |
+| 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Math / Dynamic Programming | [C++](./solution/Solution_0509.cpp) |
 ---
 
 © 2026 Laurence Chang.
