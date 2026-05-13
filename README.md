@@ -73,7 +73,6 @@
 ---
 
 ## <a name="string"></a>🔗 String (字串)
-
 | # | 題目 | 難度 | 標籤 | 程式碼 | 備註 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 Easy | String / KMP | [C++](./solution/Solution_0459.cpp) |
@@ -150,7 +149,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Array / Dynamic Programming | [C++](./solution/Solution_0053.cpp) |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Math / Dynamic Programming | [C++](./solution/Solution_0070.cpp) |
-| 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Array / Dynamic Programming | [C++](./solution/Solution_0300.cpp) |
+| 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Array / Dynamic Programming | [C++](./solution/Solution_0300.cpp) |<b>Binary Search + Greedy <br> 最佳</b>|
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Math / Dynamic Programming | [C++](./solution/Solution_0509.cpp) |
 | 0583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_0583.cpp) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_1143.cpp) |
