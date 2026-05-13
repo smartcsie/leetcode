@@ -66,7 +66,7 @@
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0349.cpp) | O(n+m) | O(n) | 集合求交集 |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0350.cpp) | O(n+m) | O(min(n,m)) | 哈希計數器 |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | Hash Table / String | [C++](./solution/Solution_0387.cpp) | O(n) | O(1) | 兩次遍歷法 |
-| 0454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 Medium | Hash Table | [C++](./solution/Solution_0454.cpp) | O(n²) | O(n²) | 拆分兩兩求和 |
+| 0454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡&nbsp;Medium | Hash Table | [C++](./solution/Solution_0454.cpp) | O(n²) | O(n²) | 拆分兩兩求和 |
 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2215.cpp) | O(n+m) | O(n+m) | 雙 Set 差集運算 |
 | 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2248.cpp) | O(n*m) | O(n) | 多數組計數過濾 |
 
@@ -82,7 +82,7 @@
 ## <a name="array"></a>🍱 Array (數組)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 備註 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Array | [C++](./solution/Solution_0048.cpp) | O(n²) | O(1) | 轉置 + 左右翻轉 |
+| 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡&nbsp;Medium | Array | [C++](./solution/Solution_0048.cpp) | O(n²) | O(1) | 轉置 + 左右翻轉 |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](./solution/Solution_0189.cpp) | O(n) | O(1) | 三步翻轉法 |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array | [C++](./solution/Solution_0442.cpp) | O(n) | O(1) | 符號標記法 |
 | 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Array | [C++](./solution/Solution_0448.cpp) | O(n) | O(1) | 索引映射標記 |
@@ -95,7 +95,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_0026.cpp) | O(n) | O(1) | 快慢指標去重 |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_0027.cpp) | O(n) | O(1) | 快慢指標覆蓋 |
-| 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium | Two Pointers | [C++](./solution/Solution_0080.cpp) | O(n) | O(1) | 容許重複兩次指標控制 |
+| 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡&nbsp;Medium | Two Pointers | [C++](./solution/Solution_0080.cpp) | O(n) | O(1) | 容許重複兩次指標控制 |
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟢 Medium | Two Pointers | [C++](./solution/Solution_0167.cpp) | O(n) | O(1) | 左右指標向中間逼近 |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_0283.cpp) | O(n) | O(1) | 快慢指標交換元素 |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_0344.cpp) | O(n) | O(1) | 左右交換 |
