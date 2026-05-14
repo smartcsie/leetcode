@@ -111,7 +111,7 @@
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 備註 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](./solution/Solution_0021.cpp) | O(n+m) | O(1) | 虛擬頭節點法 |
-| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Linked List | [C++](./solution/Solution_0141.cpp) | O(n) | O(1) | 快慢指標 (龜兔賽跑) |
+| 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Linked List <br> Fast-Slow Pointers| [C++](./solution/Solution_0141.cpp) | O(n) | O(1) | 快慢指標 (龜兔賽跑) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](./solution/Solution_0206.cpp) | O(n) | O(1) | 迭代三指針法 |
 
 ---
