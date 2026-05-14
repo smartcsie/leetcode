@@ -61,6 +61,7 @@
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 備註 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0001.cpp) | O(n) | O(n) | 邊遍歷邊查找補數 |
+| 0202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table <br> Two Pointers | [C++](./solution/Solution_0202.cpp) | O(log n) | O(1) | 使用快慢指標或 HashSet 偵測循環 |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0217.cpp) | O(n) | O(n) | unordered_set 去重 |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table / Sliding Window | [C++](./solution/Solution_0219.cpp) | O(n) | O(min(n,k)) | 固定窗口哈希 |
 | 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | Hash Table / String | [C++](./solution/Solution_0242.cpp) | O(n) | O(1) | 26 位頻率陣列 |
