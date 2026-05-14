@@ -95,7 +95,7 @@
 ## <a name="two-pointers"></a>👥 Two Pointers (雙指針)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 備註 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_0026.cpp) | O(n) | O(1) | 快慢指標去重 |
+| 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Two Pointers <br> Fast-Slow Pointers | [C++](./solution/Solution_0026.cpp) | O(n) | O(1) | 快慢指標去重 |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_0027.cpp) | O(n) | O(1) | 快慢指標覆蓋 |
 | 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡&nbsp;Medium | Two Pointers | [C++](./solution/Solution_0080.cpp) | O(n) | O(1) | 容許重複兩次指標控制 |
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟢 Medium | Two Pointers | [C++](./solution/Solution_0167.cpp) | O(n) | O(1) | 左右指標向中間逼近 |
