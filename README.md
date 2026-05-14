@@ -12,7 +12,7 @@
 
 [#Bit-manipulation](#Bit-manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Stack](#stack) <br>
 [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list) | [#String](#string) <br>
-[#Dynamic Programming](#dynamic-programming)
+[#Dynamic Programming](#dynamic-programming) | [#Greedy](#greedy)
 
 ---
 
@@ -155,7 +155,15 @@
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Array <br> Dynamic Programming | [C++](./solution/Solution_0300.cpp) | O(n log n) | O(n) |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Math <br> Dynamic Programming | [C++](./solution/Solution_0509.cpp) | O(n) | O(1) | 
 | 0583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_0583.cpp) | O(m*n) | O(m*n) |
+
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_1143.cpp) | O(m*n) | O(m*n) |
+
+---
+
+## <a name="greedy"></a>🧩 Greedy (貪婪法)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array / Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 
 ---
 
