@@ -30,7 +30,7 @@
 ## <a name="math"></a>🔢 Math (數學)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 備註 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0007 | <div style="width: 600px"> [Reverse Integer](https://leetcode.com/problems/reverse-integer/) </div> | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(log n) | O(1) | 注意數值溢位 |
+| 0007 | <div style="width: 600px">[Reverse Integer](https://leetcode.com/problems/reverse-integer/)</div> | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(log n) | O(1) | 注意數值溢位 |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) | O(log n) | O(1) | 負數直接回傳 false |
 | 0041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | Math | [C++](./solution/Solution_0041.cpp) | O(n) | O(1) | 原地哈希 (In-place Hash) |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](./solution/Solution_0066.cpp) | O(n) | O(1) | 考慮進位與長度增加 |
