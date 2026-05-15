@@ -17,7 +17,6 @@ class Solution {
 public:
     int maxFrequencyElements(vector<int>& nums) {
         int n =nums.size();
-        if(n == 1) return 1;
         vector<int> counts(101,0);
         int max = 0;
         int res = 0;
