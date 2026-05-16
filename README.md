@@ -44,7 +44,7 @@
 ## <a name="binary-search"></a>🔍 Binary Search (二分查找)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0004 | <div style="width: 600px"> **<span style="color:red;">[Median of Two Sorted Arrays]</span>**(https://leetcode.com/problems/median-of-two-sorted-arrays/) </div> | 🔴 Hard | Binary Search | [C++](./solution/Solution_0004.cpp) | O(log(m+n)) | O(1) |
+| 0004 | <div style="width: 600px, color:red; font-weight:bold;"> [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) </div> | 🔴 Hard | Binary Search | [C++](./solution/Solution_0004.cpp) | O(log(m+n)) | O(1) |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0035.cpp) | O(log n) | O(1) |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0069.cpp) | O(log n) | O(1) |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡&nbsp;Medium | Binary&nbsp;Search | [C++](./solution/Solution_0153.cpp) | O(log n) | O(1) |
