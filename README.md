@@ -89,6 +89,7 @@
 ## <a name="string"></a>🔗 String (字串)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String <br> Trie | [C++](./solution/Solution_0014.cpp) | O(S) | O(1) |
 | 0459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 Easy | String <br> KMP | [C++](./solution/Solution_0459.cpp) | O(n) | O(n) |
 
 ---
