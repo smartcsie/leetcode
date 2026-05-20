@@ -14,6 +14,7 @@
  * 4. 基底情況 (Base Case)：當其中一個串列為空時，直接回傳另一個串列。
  */
 
+
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
