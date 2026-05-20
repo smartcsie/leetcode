@@ -19,7 +19,6 @@
  *    - 若否，則將該位設為 1 (set)。
  */
 
-
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
