@@ -1,17 +1,3 @@
-
-
-class Solution {
-public:
-    int removeElement(vector<int>& nums, int val) {
-        int res=0;
-        for(int i=0; i < nums.size(); i++) {
-            if(nums[i] != val) nums[res++] = nums[i];
-        }
-        return res;
-    }
-};
-
-
 /**
  * 解題思路：快慢指標法 (Fast-slow Pointers)
  * 1. 我們需要「原地」移除所有數值等於 val 的元素。
@@ -26,6 +12,7 @@ public:
  * Time Complexity: O(n) - 只需要遍歷陣列一次。
  * Space Complexity: O(1) - 原地修改，僅使用兩個額外的整數指標。
  */
+
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
