@@ -209,6 +209,25 @@
 © 2026 Laurence Chang.
 
 
+Algorithm
+Kadane's Algoritm
+Quick Select
+Sliding Window
+Two Pointers
+Prefix Sum
+Binary Search
+Merge Sort
+Quick Sort
+Topological Sort
+BFS (Breadth-First Search)
+DFS (Depth-First Search)
+Backtracking（回溯法）
+Union Find（並查集）
+Knapsack Problem
+Longest Common Subsequence (LCS)
+Dijkstra's Algorithm
+
+
 <details>
 <summary>下拉是選單</summary>
 - 項目 1<br>
