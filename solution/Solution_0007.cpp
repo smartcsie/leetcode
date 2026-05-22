@@ -25,13 +25,12 @@ public:
         while (x != 0) {
             int pop = x % 10;
             x /= 10;
-
             // 檢查正向溢位
-            // 如果 res 已經大於 214748364，乘以 10 至少是 2147483640
-            if (res > INT_MAX / 10) return 0;
+            // 當 res == INT_MAX / 10 時，pop 若 > 7 也會溢位
+            if (res > INT_MAX / 10 || (res == INT_MAX / 10 && pop > 7)) return 0;
             // 檢查負向溢位
-            if (res < INT_MIN / 10) return 0;
-
+            // 當 res == INT_MIN / 10 時，pop 若 < -8 也會溢位
+            if (res < INT_MIN / 10 || (res == INT_MIN / 10 && pop < -8)) return 0;
             res = res * 10 + pop;
         }
         return res;
