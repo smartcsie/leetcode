@@ -27,6 +27,11 @@
 | 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) |
 
+> [!NOTE]
+> [0260 Single Number III](./solution/Solution_0201.cpp) 是 Bit Manipulation 經典題目，目前只有neetcode.io有最佳解<br>
+> 關於溢位處理：許多常見的解法 (如 meyr543, doocs) 使用 `long long` 來處理 `INT_MIN` 的溢位，這在工程上屬於一種 **Workaround**。建議優先使用邏輯位移（`while` 迴圈）來避免對負數進行取補數運算，從而徹底解決溢位風險。
+
+
 ---
 
 ## <a name="math"></a>🔢 Math (數學)
