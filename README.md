@@ -105,7 +105,7 @@
 > [!NOTE]
 > [Two Sum](./solution/Solution_0001.cpp) 因為**尚未排序**過，所以Complexity **O(n),O(n)**<br>
 > [Two Sum II - Input Array Is Sorted](./solution/Solution_0167.cpp) 因為**排序**過，所以Complexity **O(n),O(1)**<br>
-> Two Sum 排序與為排序省了 Space Complexity O(n)
+> Two Sum 排序與未排序省了 Space Complexity O(n)
 
 ---
 
