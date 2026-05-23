@@ -263,7 +263,7 @@ Dijkstra's Algorithm<br>
 Morris Traversal<br>
 
 > [!NOTE]
-> [!Brian Kernighan's Algorithm]
+> [Brian Kernighan's Algorithm]<br>
 > n &= (n - 1)<br>
 
 
