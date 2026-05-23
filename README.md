@@ -262,6 +262,9 @@ Longest Common Subsequence (LCS)<br>
 Dijkstra's Algorithm<br>
 Morris Traversal<br>
 
+> [!Brian Kernighan's Algorithm]
+> n &= (n - 1)<br>
+
 
 <details>
 <summary>下拉是選單</summary>
