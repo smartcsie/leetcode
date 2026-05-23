@@ -268,6 +268,10 @@ Morris Traversal<br>
 > [Brian Kernighan's Algorithm]<br>
 > n &= (n - 1)<br>
 
+> [!NOTE]
+> [Boyer-Moore Voting Algorithm]<br>
+
+
 
 <details>
 <summary>下拉是選單</summary>
