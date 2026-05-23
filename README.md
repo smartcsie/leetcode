@@ -222,6 +222,7 @@
 ## <a name="greedy"></a>🧩 Greedy (貪婪法)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Array <br> Greedy | [C++](./solution/Solution_0624.cpp) | O(n) | O(1) |
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 
 ---
