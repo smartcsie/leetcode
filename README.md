@@ -26,6 +26,7 @@
 | 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0201.cpp) | O(log n) | O(1) |
 | 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) |
+| 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0461.cpp) | O(k) | O(1) |
 | 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2220.cpp) | O(log(max(start, goal))) | O(1) |
 | 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) |
 
