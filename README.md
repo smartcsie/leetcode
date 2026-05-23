@@ -102,6 +102,11 @@
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Array <br> Hash Table <br> Sorting | [C++](./solution/Solution_2784.cpp) | O(n) | O(n) |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_3005.cpp) | O(n) | O(1) |
 
+> [!NOTE]
+> [Two Sum](./solution/Solution_0001.cpp) 因為**尚未排序**過，所以Complexity **O(n),O(n)**<br>
+> [Two Sum II - Input Array Is Sorted](./solution/Solution_0167.cpp) 因為**排序**過，所以Complexity **O(n),O(1)**<br>
+> Two Sum 排序與為排序省了 Space Complexity O(n)
+
 ---
 
 ## <a name="string"></a>🔗 String (字串)
