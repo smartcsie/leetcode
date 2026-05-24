@@ -279,6 +279,7 @@ Morris Traversal<br>
 
 > [!NOTE]
 > [Boyer-Moore Voting Algorithm]<br>
+> Majority Element
 
 
 
