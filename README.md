@@ -285,6 +285,13 @@ Morris Traversal<br>
 > [Boyer-Moore Voting Algorithm]<br>
 > Majority Element
 
+> [!NOTE]
+> [Negative Marking]<br>
+> 41. First Missing Positive (進階題)<br>
+> 442. Find All Duplicates in an Array<br>
+> 448. Find All Numbers Disappeared in an Array<br>
+> 645. Set Mismatch<br>
+
 
 
 <details>
