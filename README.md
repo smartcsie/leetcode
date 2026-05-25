@@ -162,7 +162,7 @@
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_0557.cpp) | O(n) | O(1) |
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0905.cpp) | O(n) | O(1) |
 | 0922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0922.cpp) | O(n) | O(1) |
-| 0941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | Array / Two Pointers | [C++](./solution/Solution_0941.cpp) | O(n) | O(1) |
+| 0941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0941.cpp) | O(n) | O(1) |
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0977.cpp) | O(n) | O(n) |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table / Two Pointers / Sorting | [C++](./solution/Solution_2441_1.cpp) | O(n) | O(n) |
 
@@ -292,13 +292,20 @@ Morris Traversal<br>
 > 448. Find All Numbers Disappeared in an Array<br>
 > 645. Set Mismatch<br>
 
-
-
-<details>
-<summary>下拉是選單</summary>
-- 項目 1<br>
-- 項目 2
-</details>
+> [!NOTE]
+> [Fast-Slow Pointers]<br>
+> 0019. Remove Nth Node From End of List<br>
+> 0026. Remove Duplicates from Sorted Array<br>
+> 0027. Remove Element<br>
+> 0080. Remove Duplicates from Sorted Array II<br>
+> 0141. Linked List Cycle (Easy)<br>
+> 0142. Linked List Cycle II (Medium)<br>
+> 0143. Reorder List (Medium)<br>
+> 0202. Happy Number (Easy)<br>
+> 0283. Move Zeroes<br>
+> 0287. Find the Duplicate Number (Medium)<br>
+> 0442. Find All Duplicates in an Array<br>
+> 0876. Middle of the Linked List (Easy)<br>
 
 ---
 
