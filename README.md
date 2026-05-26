@@ -169,6 +169,12 @@
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0977.cpp) | O(n) | O(n) |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table / Two Pointers / Sorting | [C++](./solution/Solution_2441_1.cpp) | O(n) | O(n) |
 
+
+> [!NOTE]
+> [0392 Is Subsequence](./solution/Solution_0392.cpp)<br>
+> 此題如果用Dynamic Programming LCS Complexity會是 O(nm), O(nm)<br>
+> 但是如果是用Two Pointers 會是 O(n), O(1)。<br>
+
 ---
 
 ## <a name="linked-list"></a>⛓️ Linked List (鏈表)
