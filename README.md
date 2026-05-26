@@ -321,13 +321,13 @@ Morris Traversal<br>
 > 0442. Find All Duplicates in an Array<br>
 
 > [!NOTE]
-> [Finite State Machine<br>
+> [Finite State Machine]<br>
 > 137. Single Number II<br>
 > 260. Single Number III<br>
 > 696. Count Binary Substrings<br>
 
-> [!NOTE]
-> [Negative Marking<br>
+> [!NOTE Test]
+> [Negative Marking]<br>
 > 41. First Missing Positive (Hard)<br>
 > 442. Find All Duplicates in an Array (Medium)<br>
 > 645. Set Mismatch (Easy)<br>
