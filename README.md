@@ -326,7 +326,7 @@ Morris Traversal<br>
 > 260. Single Number III<br>
 > 696. Count Binary Substrings<br>
 
-> [!NOTE Test]
+> [!NOTE]Test
 > [Negative Marking]<br>
 > 41. First Missing Positive (Hard)<br>
 > 442. Find All Duplicates in an Array (Medium)<br>
