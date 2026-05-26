@@ -304,18 +304,35 @@ Morris Traversal<br>
 
 > [!NOTE]
 > [Fast-Slow Pointers]<br>
-> 0019. Remove Nth Node From End of List<br>
-> 0026. Remove Duplicates from Sorted Array<br>
-> 0027. Remove Element<br>
-> 0080. Remove Duplicates from Sorted Array II<br>
 > 0141. Linked List Cycle (Easy)<br>
 > 0142. Linked List Cycle II (Medium)<br>
 > 0143. Reorder List (Medium)<br>
 > 0202. Happy Number (Easy)<br>
-> 0283. Move Zeroes<br>
 > 0287. Find the Duplicate Number (Medium)<br>
-> 0442. Find All Duplicates in an Array<br>
 > 0876. Middle of the Linked List (Easy)<br>
+
+> [!NOTE]
+> [Two Pointers]<br>
+> 0019. Remove Nth Node From End of List<br>
+> 0026. Remove Duplicates from Sorted Array<br>
+> 0027. Remove Element<br>
+> 0080. Remove Duplicates from Sorted Array II<br>
+> 0283. Move Zeroes<br>
+> 0442. Find All Duplicates in an Array<br>
+
+> [!NOTE]
+> [Finite State Machine<br>
+> 137. Single Number II<br>
+> 260. Single Number III<br>
+> 696. Count Binary Substrings<br>
+
+> [!NOTE]
+> [Negative Marking<br>
+> 41. First Missing Positive (Hard)<br>
+> 442. Find All Duplicates in an Array (Medium)<br>
+> 645. Set Mismatch (Easy)<br>
+
+
 
 ---
 
