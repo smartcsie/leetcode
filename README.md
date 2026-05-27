@@ -111,6 +111,18 @@ Morris Traversal<br>
 > O(n²) 通常足夠：LeetCode 上大部分回文題的字串長度 N 通常不超過 1000 或 2000，這使得 O(n²) 的簡單中心擴展法足以通過測試。<br>
 > 考點差異：面試官通常更傾向於考「動態規劃 (DP)」或「雙指標」，因為這些方法在邏輯思維上更具普遍性。<br>
 
+> [!NOTE]
+> [Knuth-Morris-Pratt (KMP) Algorithm]<br>
+
+> [!NOTE]
+> [Rabin-Karp Algorithm (Rolling Hash)]<br>
+
+> [!NOTE]
+> [Z-Algorithm)]<br>
+
+> [!NOTE]
+> [Trie]<br>
+
 ---
 
 
