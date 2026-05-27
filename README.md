@@ -101,10 +101,10 @@ Morris Traversal<br>
 
 > [!NOTE]
 > [Manacher's Algorithm]<br>
-> 5. Longest Palindromic Substring
-> 214. Shortest Palindrome (困難)
-> 647. Palindromic Substrings (中等)
-> 1312. Minimum Insertion Steps to Make a String Palindrome (困難)
+> 5. Longest Palindromic Substring<br>
+> 214. Shortest Palindrome (困難)<br>
+> 647. Palindromic Substrings (中等)<br>
+> 1312. Minimum Insertion Steps to Make a String Palindrome (困難)<br><br>
 > 為什麼 Manacher's 在 LeetCode 這麼稀少？你會發現 Manacher's Algorithm 在 LeetCode 的「推薦程度」其實不高，主要原因如下：
 > 實作難度高：Manacher 涉及到字串預處理（插入 # 符號）以及狀態陣列的更新，在緊張的面試環境中容易寫錯。
 > O(n²) 通常足夠：LeetCode 上大部分回文題的字串長度 N 通常不超過 1000 或 2000，這使得 O(n²) 的簡單中心擴展法足以通過測試。
