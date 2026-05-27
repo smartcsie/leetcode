@@ -105,10 +105,10 @@ Morris Traversal<br>
 > 214. Shortest Palindrome (困難)<br>
 > 647. Palindromic Substrings (中等)<br>
 > 1312. Minimum Insertion Steps to Make a String Palindrome (困難)<br><br>
-> 為什麼 Manacher's 在 LeetCode 這麼稀少？你會發現 Manacher's Algorithm 在 LeetCode 的「推薦程度」其實不高，主要原因如下：
-> 實作難度高：Manacher 涉及到字串預處理（插入 # 符號）以及狀態陣列的更新，在緊張的面試環境中容易寫錯。
-> O(n²) 通常足夠：LeetCode 上大部分回文題的字串長度 N 通常不超過 1000 或 2000，這使得 O(n²) 的簡單中心擴展法足以通過測試。
-> 考點差異：面試官通常更傾向於考「動態規劃 (DP)」或「雙指標」，因為這些方法在邏輯思維上更具普遍性。
+> 為什麼 Manacher's 在 LeetCode 這麼稀少？你會發現 Manacher's Algorithm 在 LeetCode 的「推薦程度」其實不高<br>
+> 主要原因如下：實作難度高：Manacher 涉及到字串預處理（插入 # 符號）以及狀態陣列的更新，在緊張的面試環境中容易寫錯。<br>
+> O(n²) 通常足夠：LeetCode 上大部分回文題的字串長度 N 通常不超過 1000 或 2000，這使得 O(n²) 的簡單中心擴展法足以通過測試。<br>
+> 考點差異：面試官通常更傾向於考「動態規劃 (DP)」或「雙指標」，因為這些方法在邏輯思維上更具普遍性。<br>
 
 ---
 
