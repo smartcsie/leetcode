@@ -14,30 +14,19 @@ class Solution {
 public:
     int myAtoi(string s) {
         int i = 0, n = s.size();
-        
-        // 1. 跳過前導空格
         while (i < n && s[i] == ' ') i++;
-        if (i == n) return 0;
-        
-        // 2. 處理符號
         int sign = 1;
         if (s[i] == '+' || s[i] == '-') {
             sign = (s[i++] == '-') ? -1 : 1;
         }
-        
-        // 3. 轉換數字並處理溢位
-        long res = 0; // 使用 long 方便檢查溢位，也可使用 int 直接比較
+        int res = 0;
         while (i < n && isdigit(s[i])) {
             int digit = s[i++] - '0';
-            
-            // 溢位檢查：利用當前結果與邊界比較
-            // 注意：這裡直接判斷若 res * 10 + digit > INT_MAX 即可
+            if (res > (INT_MAX - digit) / 10) {
+                return (sign == 1) ? INT_MAX : INT_MIN;
+            }
             res = res * 10 + digit;
-            
-            if (sign == 1 && res > INT_MAX) return INT_MAX;
-            if (sign == -1 && (-res) < INT_MIN) return INT_MIN;
         }
-        
-        return (int)(res * sign);
+        return res * sign;
     }
 };
