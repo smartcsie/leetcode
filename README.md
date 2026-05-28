@@ -399,7 +399,7 @@ Morris Traversal<br>
 
 > [!NOTE]
 > Array or HashMap ?<br>
-> 通常 Range 範圍在 幾百 例如  [1636][Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency)<br>
+> 通常 Range 範圍在 幾百 例如 [1636 Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency)<br>
 > 計數範圍-100 <= nums[i] <= 100<br>
 > 會用Array, 因為是連續記憶體<br>
 > 這是難得[doocs](https://github.com/doocs/leetcode/blob/main/solution/1600-1699/1636.Sort%20Array%20by%20Increasing%20Frequency/README_EN.md)優於[neetcode.io](https://neetcode.io/solutions/sort-array-by-increasing-frequency)<br>
