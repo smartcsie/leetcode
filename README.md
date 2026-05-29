@@ -285,7 +285,7 @@ Morris Traversal<br>
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Two Pointers <br> Fast-Slow Pointers | [C++](./solution/Solution_0027.cpp) | O(n) | O(1) |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 Medium | Array <br> Two Pointers <br> Sorting | [C++](./solution/Solution_0075.cpp) | O(n) | O(1) |
 | 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡&nbsp;Medium | Two Pointers <br> Fast-Slow Pointers | [C++](./solution/Solution_0080.cpp) | O(n) | O(1) |
-| 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 Easy | Two Pointers / String | [C++](./solution/Solution_0125.cpp) | O(n) | O(1) |
+| 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 Easy | Two Pointers <br> String | [C++](./solution/Solution_0125.cpp) | O(n) | O(1) |
 | 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy  | Linked List | [C++](./solution/Solution_0160.cpp) | O(n+m) | O(1) |
 | 0167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟢 Medium | Two Pointers | [C++](./solution/Solution_0167.cpp) | O(n) | O(1) |
 | 0202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table <br> Two Pointers | [C++](./solution/Solution_0202_1.cpp) | O(log n) | O(1) |
@@ -294,7 +294,8 @@ Morris Traversal<br>
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_0344.cpp) | O(n) | O(1) |
 | 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_0392.cpp) | O(n) | O(1) |
 | 0540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_0540.cpp) | O(n+m) | O(1) |
-| 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_0557.cpp) | O(n) | O(1) |
+| 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String <br> Two Pointers | [C++](./solution/Solution_0557.cpp) | O(n) | O(1) |
+| 0844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | String <br> Two Pointers | [C++](./solution/Solution_0844.cpp) | O(N+M) | O(1) |
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0905.cpp) | O(n) | O(1) |
 | 0922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0922.cpp) | O(n) | O(1) |
 | 0941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0941.cpp) | O(n) | O(1) |
