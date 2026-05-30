@@ -353,6 +353,7 @@ Morris Traversal<br>
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Stack <br> Queue | [C++](./solution/Solution_0225.cpp) | O(N) push <br> O(1) pop | O(N) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | 🟢 Easy | Stack <br> Queue | [C++](./solution/Solution_0232.cpp) | O(1) amortized | O(N) |
 | 0445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Linked List / Stack | [C++](./solution/Solution_0445.cpp) | O(N + M) | O(N + M) |
+| 0496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | Array  <br> Hash Table  <br> Stack  <br> Monotonic Stack | [C++](./solution/Solution_0496.cpp) | O(N + M) | O(N) |
 | 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Array <br> Stack <br> Simulation | [C++](./solution/Solution_0682.cpp) | O(N) | O(N) |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 Easy | String <br> Stack | [C++](./solution/Solution_1047.cpp) | O(n) | O(n) |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 Medium | String <br> Stack | [C++](./solution/Solution_1209.cpp) | O(n) | O(n) |
