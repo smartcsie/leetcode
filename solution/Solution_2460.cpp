@@ -9,27 +9,18 @@
 class Solution {
 public:
     vector<int> applyOperations(vector<int>& nums) {
-        int n = nums.size();
-        
-        // 第一階段：模擬操作，處理相鄰元素
-        for (int i = 0; i < n - 1; ++i) {
-            if (nums[i] == nums[i + 1]) {
+        for(int i = 0; i < nums.size() - 1; i++) {
+            if(nums[i] == nums[i+1]) {
                 nums[i] *= 2;
-                nums[i + 1] = 0;
+                nums[i+1] = 0;
             }
         }
-        
-        // 第二階段：原地將所有非零元素移至陣列前端 (雙指標法)
-        // pos 記錄下一個非零元素要存放的位置
-        int pos = 0;
-        for (int i = 0; i < n; ++i) {
-            if (nums[i] != 0) {
-                // 將非零元素交換到前面
-                swap(nums[pos], nums[i]);
-                pos++;
+        for(int fast = 0 , slow = 0; fast < nums.size(); fast++) {
+            if(nums[fast] != 0) {
+                swap(nums[fast], nums[slow]);
+                slow++;
             }
         }
-        
         return nums;
     }
 };
