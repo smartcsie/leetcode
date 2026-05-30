@@ -151,6 +151,7 @@ Morris Traversal<br>
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | DP / Bit Manipulation | [C++](./solution/Solution_0338.cpp) | O(n) | O(n) |
 | 0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp) | O(1) | O(1) |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0461.cpp) | O(k) | O(1) |
+| 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array / Hash Table / Bit Manipulation | [C++](./solution/Solution_1684.cpp) | O(N * M) | O(1) |
 | 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2220.cpp) | O(log(max(start, goal))) | O(1) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2235.cpp) | O(1) | O(1) |
 | 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) |
@@ -162,7 +163,13 @@ Morris Traversal<br>
 > [0260 Single Number III](./solution/Solution_0201.cpp) 是 Bit Manipulation 經典題目，目前只有**neetcode.io**有最佳解<br>
 > 溢位處理有許多常見的解法，如 [meyr543](https://hackmd.io/@meyr543/rkSRWnXPK), [grandyang](https://www.cnblogs.com/grandyang/p/4741122.html),[doocs](https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0260.Single%20Number%20III/Solution.cpp),[BylwiCXPt](https://hackmd.io/@Inversionpeter/BylwiCXPt)<br>
 > 使用 'unsigned',`long long` 來處理 `INT_MIN` 的溢位，這在工程上屬於一種 **Workaround**<br>
-> 建議優先使用邏輯位移（`while` 迴圈）來避免對負數進行取補數運算，從而徹底解決溢位風險。
+> 建議優先使用邏輯位移（`while` 迴圈）來避免對負數進行取補數運算，從而徹底解決溢位風險。<br>
+
+> [!NOTE]
+> [1684 Count the Number of Consistent Strings](./solution/Solution_1684.cpp)<br>
+> 為什麼選擇 int mask 而非 bitset？<br>
+> int (或 long) 的運算直接對應 CPU 的暫存器指令，在這種極小範圍 (26 bits) 的情況下，<br>
+> 它的運算速度幾乎是瞬間完成，且不需要引入額外的標頭檔 (<bitset>)，代碼更簡潔。<br>
 
 
 ---
