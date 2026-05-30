@@ -315,6 +315,11 @@ Morris Traversal<br>
 > 此題如果用Dynamic Programming LCS Complexity會是 O(nm), O(nm)<br>
 > 但是如果是用Two Pointers 會是 O(n), O(1)。<br>
 
+> [!NOTE]
+> [2149. Rearrange Array Elements by Sign ](./solution/Solution_2149.cpp)<br>
+> 此題的要求是將正數與負數交替排列，同時**維持各自原本的相對順序**,所以**空間複雜度無法O(1)**。<br>
+> 目前的解法已經是最優的時間複雜度O(N)與空間複雜度O(N), 。
+
 ---
 
 ## <a name="linked-list"></a>⛓️ Linked List (鏈表)
