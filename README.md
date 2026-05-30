@@ -264,6 +264,7 @@ Morris Traversal<br>
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) | 🟢 Easy | String | [C++](./solution/Solution_2264.cpp) | O(N) | O(1) |
 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_2460.cpp) | O(N) | O(1) |
+| 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String | [C++](./solution/Solution_2490.cpp) | O(N) | O(1) |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2586.cpp) | O(n) | O(1) |
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp) | O(n) | O(1) |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2828.cpp) | O(n) | O(1) |
