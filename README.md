@@ -266,9 +266,9 @@ Morris Traversal<br>
 > [!NOTE]
 > [2001 Number of Pairs of Interchangeable Rectangles](./solution/Solution_2001.cpp) 和 [1512. Number of Good Pairs](./solution/Solution_1512.cpp)<br>
 > 同時用到了Greedy Math Pattern，(1+n)/2<br>
-> [2001 Number of Pairs of Interchangeable Rectangles](./solution/Solution_2001.cpp)同時也在考
+> [2001 Number of Pairs of Interchangeable Rectangles](./solution/Solution_2001_1.cpp)同時也在考<br>
 > **浮點數精度問題(Floating-point precision)-某些比例可能在運算中產生微小的誤差（例如1/3在某些計算環境下可能不完全相等）**<br>
-> 導致原本應該視為相同的比例被誤判為不同。<br>
+> **導致原本應該視為相同的比例被誤判為不同。**<br>
 
 ---
 
