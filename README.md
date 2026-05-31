@@ -244,6 +244,7 @@ Morris Traversal<br>
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_1436.cpp) | O(N) | O(N) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 Easy | Array <br> Hash Table <br> Math | [C++](./solution/Solution_1512.cpp) | O(N) | O(N) |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 Easy | Hash Table <br> String <br> Counting | [C++](./solution/Solution_1941.cpp) | O(n) | O(1) |
+| 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | Hash Table <br> Math | [C++](./solution/Solution_2001.cpp) | O(N) | O(N) | 利用雜湊表記錄寬高比出現的次數，並透過組合數學（將寬高比約分以避免浮點誤差）快速累加配對數 |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array <br> Hash Table <br> Bitset | [C++](./solution/Solution_2133.cpp) | O(n²) | O(n) |
 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table <br> Counting | [C++](./solution/Solution_2150.cpp) | O(n) | O(n) |
 | 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 Easy | Array <br> Hash Table <br> Simulation | [C++](./solution/Solution_2154.cpp) | O(n) | O(n) |
@@ -261,6 +262,13 @@ Morris Traversal<br>
 > [Two Sum](./solution/Solution_0001.cpp) 因為**尚未排序**過，所以Complexity **O(n),O(n)**<br>
 > [Two Sum II - Input Array Is Sorted](./solution/Solution_0167.cpp) 因為**排序**過，所以Complexity **O(n),O(1)**<br>
 > Two Sum 排序與未排序省了 Space Complexity O(n)
+
+> [!NOTE]
+> [2001 Number of Pairs of Interchangeable Rectangles](./solution/Solution_2001.cpp) 和 [1512. Number of Good Pairs](./solution/Solution_1512.cpp)<br>
+> 同時用到了Greedy Math Pattern，(1+n)/2<br>
+> [2001 Number of Pairs of Interchangeable Rectangles](./solution/Solution_2001.cpp)同時也在考
+> **浮點數精度問題(Floating-point precision)-某些比例可能在運算中產生微小的誤差（例如1/3在某些計算環境下可能不完全相等）**<br>
+> 導致原本應該視為相同的比例被誤判為不同。<br>
 
 ---
 
