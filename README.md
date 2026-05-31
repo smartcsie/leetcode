@@ -131,10 +131,10 @@ Morris Traversal<br>
 > [!NOTE]
 > [Prefix Sum]<br>
 > 303. Range Sum Query - Immutable<br>
-> 304. Range Sum Query 2D - Immutable
-> 560. Subarray Sum Equals K
-> 724. Find Pivot Index
-> 2559. Count Vowel Strings in Ranges
+> 304. Range Sum Query 2D - Immutable<br>
+> 560. Subarray Sum Equals K<br>
+> 724. Find Pivot Index<br>
+> 2559. Count Vowel Strings in Ranges<br>
 
 
 
