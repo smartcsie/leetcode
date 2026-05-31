@@ -40,7 +40,6 @@ Kadane's Algoritm<br>
 Quick Select<br>
 Sliding Window<br>
 Two Pointers<br>
-Prefix Sum<br>
 Binary Search<br>
 Merge Sort<br>
 Quick Sort<br>
@@ -124,7 +123,19 @@ Morris Traversal<br>
 > [Trie]<br>
 
 > [!NOTE]
-> [MonotonicStack]<br>
+> [Monotonic Stack]<br>
+> 496. Next Greater Element I<br>
+> 503. Next Greater Element II<br>
+> 1475. Final Prices With a Special Discount in a Shop<br>
+
+> [!NOTE]
+> [Prefix Sum]<br>
+> 303. Range Sum Query - Immutable<br>
+> 304. Range Sum Query 2D - Immutable
+> 560. Subarray Sum Equals K
+> 724. Find Pivot Index
+> 2559. Count Vowel Strings in Ranges
+
 
 
 ---
