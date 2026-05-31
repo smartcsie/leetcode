@@ -145,7 +145,7 @@ Morris Traversal<br>
 
 [#Bit-manipulation](#Bit-manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Stack](#stack) <br>
 [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list) | [#String](#string) <br>
-[#Dynamic Programming](#dynamic-programming) | [#Greedy](#greedy) | [#Sorting](#sorting)
+[#Dynamic Programming](#dynamic-programming) | [#Greedy](#greedy) | [#Sorting](#sorting) | [#Backtracking](#backtracking)
 
 ---
 
@@ -458,6 +458,14 @@ Morris Traversal<br>
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 
 ---
+
+## <a name="backtracking"></a>🔢 Backtracking (回朔法)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking / Recursion <br> Bit Manipulation | [C++](./solution/Solution_0078.cpp) | O(N * 2^N) | O(N) |
+
+---
+
 
 ## <a name="Sorting"></a>📊 Sorting (排序)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
