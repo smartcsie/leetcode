@@ -42,7 +42,7 @@ Sliding Window<br>
 Two Pointers<br>
 Binary Search<br>
 Merge Sort<br>
-Quick Sort<br>
+
 Topological Sort<br>
 BFS (Breadth-First Search)<br>
 DFS (Depth-First Search)<br>
@@ -136,6 +136,14 @@ Morris Traversal<br>
 > 724. Find Pivot Index<br>
 > 2559. Count Vowel Strings in Ranges<br>
 
+
+> [!NOTE]
+> [Quick Select]<br>
+> 215. Kth Largest Element in an Array<br>
+> 1636. Sort Array by Increasing Frequency<br>
+> 手寫 QuickSelect, Average case O(n), **Worse case O(n²)**<br>
+> std::nth_element, Average case O(n), Worse case O(n)<br>
+> 靜態資料使用QuickSelect(std::nth_element),動態資料使用Min heap<br>
 
 
 ---
@@ -484,6 +492,7 @@ Morris Traversal<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Array <br> Sorting <br> QuickSelect | [C++](./solution/Solution_0215.cpp) | O(N) 平均 | O(1) |
+| 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Hash Table <br> QuickSelect | [C++](./solution/Solution_0347.cpp) | O(N) | O(N) |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Array <br> Divide and Conquer <br> Sorting | [C++](./solution/Solution_0912.cpp) | O(nlogn) | O(logn) |
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | Array / Hash Table / Sorting | [C++](./solution/Solution_1636.cpp) | O(N log N) | O(1) |
 
