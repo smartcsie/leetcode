@@ -140,6 +140,7 @@ Morris Traversal<br>
 > [!NOTE]
 > [Quick Select]<br>
 > 215. Kth Largest Element in an Array<br>
+> 973. K Closest Points to Origin<br>
 > 1636. Sort Array by Increasing Frequency<br>
 > 手寫 QuickSelect, Average case O(n), **Worse case O(n²)**<br>
 > std::nth_element, Average case O(n), Worse case O(n)<br>
@@ -494,7 +495,8 @@ Morris Traversal<br>
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Array <br> Sorting <br> QuickSelect | [C++](./solution/Solution_0215.cpp) | O(N) 平均 | O(1) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Hash Table <br> QuickSelect | [C++](./solution/Solution_0347.cpp) | O(N) | O(N) |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Array <br> Divide and Conquer <br> Sorting | [C++](./solution/Solution_0912.cpp) | O(nlogn) | O(logn) |
-| 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | Array / Hash Table / Sorting | [C++](./solution/Solution_1636.cpp) | O(N log N) | O(1) |
+| 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Math <br> QuickSelect | [C++](./solution/Solution_0973.cpp) | O(N) | O(1) |
+| 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | Array <br> Hash Table <br> Sorting | [C++](./solution/Solution_1636.cpp) | O(N log N) | O(1) |
 
 > [!NOTE]
 > Array or HashMap ?<br>
