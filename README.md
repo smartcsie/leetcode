@@ -247,6 +247,7 @@ Morris Traversal<br>
 | 0645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | Array / Hash Table / Math | [C++](./solution/Solution_0645.cpp) | O(N) | O(1) |
 | 0884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0884.cpp) | O(N + M) | O(N + M) |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Array <br> Hash Table <br> String | [C++](./solution/Solution_1002.cpp) | O(N*K) | O(1) |
+| 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_1207.cpp) | O(N) | O(N) |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_1346.cpp) | O(n) | O(n) |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 Easy | Array <br> Hash Table <br> Counting | [C++](./solution/Solution_1394.cpp) | O(N) | O(1) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_1436.cpp) | O(N) | O(N) |
