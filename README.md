@@ -148,9 +148,11 @@ Morris Traversal<br>
 
 
 > [!NOTE]
-> [Sliding Window]<br>
+> [Fixed Size Sliding Window]<br>
 > 3.Longest Substring Without Repeating Characters<br>
 > 643.Maximum Average Subarray I<br>
+> [Variable Size Sliding Window]<br>
+> 209. Minimum Size Subarray Sum<br>
 
 ---
 
@@ -326,6 +328,7 @@ Morris Traversal<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡&nbsp;Medium | Array | [C++](./solution/Solution_0048.cpp) | O(n²) | O(1) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](./solution/Solution_0189.cpp) | O(n) | O(1) |
+| 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 Medium | Array <br> Sliding Window <br> Binary Search | [C++](./solution/Solution_0209.cpp) | O(N) | O(1) |
 | 0303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Array <br> Prefix Sum | [C++](./solution/Solution_0303.cpp) | O(N) | O(N) |
 | 0304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array <br> Matrix <br> Prefix Sum | [C++](./solution/Solution_0304.cpp) | O(M * N) 初始化 / O(1) 查詢 | O(M * N) |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array <br> Fast-Slow Pointers | [C++](./solution/Solution_0442.cpp) | O(n) | O(1) |
