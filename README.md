@@ -220,6 +220,10 @@ Morris Traversal<br>
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0704.cpp) | O(logn) | O(1) |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0852.cpp) | O(logn) | O(1) |
 
+> [!NOTE]
+> mid 取法<br>
+> int mid = (left + right)/2; **本身有overflow的風險**<br>
+> int mid = left + ((right - left) >> 1); 本身比較安全<br>
 ---
 
 ## <a name="hash-table"></a>🔑 Hash Table (哈希表)
