@@ -38,7 +38,7 @@
 Algorithm<br>
 Kadane's Algoritm<br>
 Quick Select<br>
-Sliding Window<br>
+
 Two Pointers<br>
 Binary Search<br>
 Merge Sort<br>
@@ -147,6 +147,10 @@ Morris Traversal<br>
 > 靜態資料使用QuickSelect(std::nth_element),動態資料使用Min heap<br>
 
 
+> [!NOTE]
+> [Sliding Window]<br>
+> 3.Longest Substring Without Repeating Characters<br>
+
 ---
 
 
@@ -241,6 +245,7 @@ Morris Traversal<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0001.cpp) | O(n) | O(n) |
+| 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 🟡 Medium | Sliding Window / Hash Table | [C++](./solution/Solution_0003.cpp) | O(N) | O(1) |
 | 0012 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 Medium | Math <br> Hash Table <br> String | [C++](./solution/Solution_0012.cpp) | O(1) | O(1) |
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 Easy | Hash Table <br> Math <br> String | [C++](./solution/Solution_0013.cpp) | O(N) | O(1) |
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | Array <br> Hash Table <br> Bitset | [C++](./solution/Solution_0036.cpp) | O(1) | O(1) |
