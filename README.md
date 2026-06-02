@@ -470,7 +470,8 @@ __builtin_popcount(x)<br>
 
 ## <a name="priority-queue"></a>📚 Priority Queue (優先佇列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Heap (Priority Queue) | [C++](./solution/Solution_1046.cpp) | O(N log N) | O(N) | 利用最大堆 (Max-Heap) 模擬石頭碰撞過程，每次取出兩顆最重的石頭進行運算，達成對數級別的插入與刪除複雜度 |
+| 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | Heap <br> Linked List | [C++](./solution/Solution_0023.cpp) | O(N log k) | O(k) |
+| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Heap (Priority Queue) | [C++](./solution/Solution_1046.cpp) | O(N log N) | O(N) |
 
 
 ---
