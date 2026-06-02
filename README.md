@@ -179,7 +179,8 @@ __builtin_popcount(x)<br>
 
 [#Bit-manipulation](#Bit-manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Stack](#stack) <br>
 [#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list) | [#String](#string) <br>
-[#Dynamic Programming](#dynamic-programming) | [#Greedy](#greedy) | [#Sorting](#sorting) | [#Backtracking](#backtracking)
+[#Dynamic Programming](#dynamic-programming) | [#Greedy](#greedy) | [#Sorting](#sorting) | [#Backtracking](#backtracking)<br>
+[#Priority Queue](#priority-queue)
 
 ---
 
@@ -467,6 +468,12 @@ __builtin_popcount(x)<br>
 
 ---
 
+## <a name="priority-queue"></a>📚 Priority Queue (優先佇列)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Heap (Priority Queue) | [C++](./solution/Solution_1046.cpp) | O(N log N) | O(N) | 利用最大堆 (Max-Heap) 模擬石頭碰撞過程，每次取出兩顆最重的石頭進行運算，達成對數級別的插入與刪除複雜度 |
+
+
+---
 ## <a name="tree"></a>🌳 Tree (樹結構)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
