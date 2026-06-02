@@ -270,6 +270,7 @@ Morris Traversal<br>
 | 0290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_0291.cpp) | O(N + M) | O(N + M) |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0349.cpp) | O(n+m) | O(n) |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0350.cpp) | O(n+m) | O(min(n,m)) |
+| 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_0383.cpp) | O(M + N) | O(1) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_0387.cpp) | O(n) | O(1) |
 | 0454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡&nbsp;Medium | Hash Table | [C++](./solution/Solution_0454.cpp) | O(n²) | O(n²) |
 | 0645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | Array / Hash Table / Math | [C++](./solution/Solution_0645.cpp) | O(N) | O(1) |
