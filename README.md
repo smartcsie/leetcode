@@ -478,6 +478,7 @@ Morris Traversal<br>
 | 0783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 Easy | Tree <br> DFS <br> BST | [C++](./solution/Solution_0783.cpp) | O(N) | O(H) |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0872.cpp) | O(N+M) | O(N+M) |
 | 0938 | [Range Sum of BST]((https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | Tree <br> DFS <br> BST | [C++](./solution/Solution_0938.cpp) | O(N) | O(H) |
+| 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 Medium | Tree <br> BFS <br> Level Order Traversal | [C++](./solution/Solution_1161.cpp) | O(N) | O(W) | 
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree <br> BFS | [C++](./solution/Solution_1609.cpp) | O(n) | O(w) |
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree) | 🟢 Easy | Tree <br> DFS <br> Recursion | [C++](./solution/Solution_2331.cpp) | O(n) | O(h) |
 ---
