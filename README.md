@@ -161,6 +161,17 @@ Morris Traversal<br>
 > 424. Longest Repeating Character Replacement<br>
 > 1004. Max Consecutive Ones III<br>
 
+> [!NOTE]
+> C++ build in function<br>
+> (1) **1的個數**<br>
+__builtin_popcount(x)<br>
+> (2) **Binary search**<br>
+> auto it_low = std::lower_bound(nums.begin(), nums.end(), 4); //找第一個 >= 4 的位置 (lower_bound)<br>
+> auto it_up = std::upper_bound(nums.begin(), nums.end(), 4);  //找第一個 > 4 的位置 (upper_bound)<br>
+> (3) **Quick Select**<br>
+> 語法：nth_element(起點, 目標位置, 終點)<br>
+> std::nth_element(nums.begin(), nums.begin() + 2, nums.end()); // 找出第 3 小的元素 (索引為 2，從 0 開始算)<br>
+
 ---
 
 
