@@ -158,6 +158,7 @@ Morris Traversal<br>
 > 1876.Substrings of Size Three with Distinct Characters<br>
 > [Variable Size Sliding Window]<br>
 > 209. Minimum Size Subarray Sum<br>
+> 1004. Max Consecutive Ones III<br>
 
 ---
 
@@ -347,6 +348,7 @@ Morris Traversal<br>
 | 0643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | Array <br> Sliding Window | [C++](./solution/Solution_0643.cpp) | O(N) | O(1) |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | Array <br> Prefix Sum | [C++](./solution/Solution_0724.cpp) | O(N) | O(1) |
 | 0896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | Array | [C++](./solution/Solution_0896.cpp) | O(N) | O(1) |
+| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | 🟡 Medium | Sliding Window | [C++](./solution/Solution_1004.cpp) | O(N) | O(1) |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | Array | [C++](./solution/Solution_1299.cpp) | O(N) | O(1) |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | 🟡 Medium | String <br> Sliding Window | [C++](./solution/Solution_1456.cpp) | O(N) | O(1) |
 
