@@ -512,6 +512,7 @@ Morris Traversal<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Array <br> Sorting <br> QuickSelect | [C++](./solution/Solution_0215.cpp) | O(N) 平均 | O(1) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Hash Table <br> QuickSelect | [C++](./solution/Solution_0347.cpp) | O(N) | O(N) |
+| 0451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | Hash Table <br> Bucket Sort | [C++](./solution/Solution_0451.cpp) | O(N) | O(N) |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Array <br> Divide and Conquer <br> Sorting | [C++](./solution/Solution_0912.cpp) | O(nlogn) | O(logn) |
 | 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Math <br> QuickSelect | [C++](./solution/Solution_0973.cpp) | O(N) | O(1) |
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Bit Manipulation <br>  Sorting | [C++](./solution/Solution_1356.cpp) | O(N log N) | O(1) |
