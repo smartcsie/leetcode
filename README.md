@@ -528,7 +528,7 @@ __builtin_popcount(x)<br>
 > 空間複雜度 O(w)，w 為最寬的一層節點數，最壞情況 O(n/2) = O(n)。<br>
 
 > [!NOTE]
-> [107. Binary Tree Level Order Traversal II](./solution/Solution_0107.cpp)只有比<br>[102. Binary Tree Level Order Traversal](./solution/Solution_0102.cpp)<br>
+> [107. Binary Tree Level Order Traversal II](./solution/Solution_0107.cpp)只有比[102. Binary Tree Level Order Traversal](./solution/Solution_0102.cpp)<br>
 > 多一行 Reverse 結果<br>
 
 
