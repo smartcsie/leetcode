@@ -625,6 +625,14 @@ __builtin_popcount(x)<br>
 > std::nth_element, Average case O(n), Worse case O(n)<br>
 > 靜態資料使用QuickSelect(std::nth_element),動態資料使用Min heap<br>
 
+> [!NOTE]
+> [1985. Find the Kth Largest Integer in the Array](./solution/Solution_1985.cpp)<br>
+> 雖然 nth_element 是最佳解，但在極少數情境下會有變體：**如果K非常小** (例如 K=1 或 K=3)：你可以使用 **Min-Heap(優先佇列)** 維護一個大小為 K 的堆。<br>
+> 雖然時間複雜度為 O(NlogK)，但在K遠小於N時，這能讓你不需要移動整個陣列的元素（如果是**串流數據或唯讀資料**，這會比修改原陣列更好）。<br>
+> 如果資料是**唯讀且不能修改原陣列**，則不能使用 nth_element，因為它會改變陣列順序。<br>
+> 這時候必須使用**std::priority_queue**複製一份資料進行計算，此時空間複雜度會提升到 O(K)。<br>
+> 總結在 LeetCode 這一題的環境下，題目允許修**改 nums。輸入為整個陣列。目標是找第K大**。
+
 <br><br>
 ---
 
