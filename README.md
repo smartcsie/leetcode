@@ -116,9 +116,8 @@ __builtin_popcount(x)<br>
 **Advanced**<br>
 [🧩 Dynamic Programming](#dynamic-programming) | [🧩 Greedy](#greedy) | [🔢 Backtracking](#backtracking) | [🔢 Negative Marking](#negative-marking)<br>
 
-<br>
+<br><br>
 ---
-<br>
 
 ## <a name="math"></a>🔢 Math (數學)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
