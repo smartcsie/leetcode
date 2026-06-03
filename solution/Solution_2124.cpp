@@ -29,21 +29,23 @@ public:
 
 /*
 class Solution {
-class Solution {
 public:
     bool checkString(string s) {
-        bool b_found = false;
-        
-        for (char c : s) {
-            if (c == 'b') {
-                b_found = true;
-            } else if (c == 'a' && b_found) {
-                // 如果已經找到過 'b'，後面卻又出現 'a'，則違規
-                return false;
+        int aIdx = -1;
+        int bIdx = 101;
+        for(int i = 0; i < s.size(); i++) {
+            if(s[i] == 'b') {
+                bIdx = i;
+                break;
             }
         }
-        
-        return true;
+        for(int i = s.size() - 1; i >= 0 ; i--) {
+            if(s[i] == 'a') {
+                aIdx = i;
+                break;
+            }
+        }
+        return aIdx < bIdx;
     }
 };
 */
