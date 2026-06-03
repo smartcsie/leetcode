@@ -116,7 +116,9 @@ __builtin_popcount(x)<br>
 **Advanced**<br>
 [🧩 Dynamic Programming](#dynamic-programming) | [🧩 Greedy](#greedy) | [🔢 Backtracking](#backtracking) | [🔢 Negative Marking](#negative-marking)<br>
 
+<br>
 ---
+<br>
 
 ## <a name="math"></a>🔢 Math (數學)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -136,7 +138,9 @@ __builtin_popcount(x)<br>
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) |
 
+<br>
 ---
+<br>
 
 ## <a name="Bit-manipulation"></a>📊 Bit Manipulation (位元運算)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -172,7 +176,9 @@ __builtin_popcount(x)<br>
 > int (或 long) 的運算直接對應 CPU 的暫存器指令，在這種極小範圍 (26 bits) 的情況下，<br>
 > 它的運算速度幾乎是瞬間完成，且不需要引入額外的標頭檔 (<bitset>)，代碼更簡潔。<br>
 
+<br>
 ---
+<br>
 
 ## <a name="string"></a>🔗 String (字串)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -196,7 +202,9 @@ __builtin_popcount(x)<br>
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_3498.cpp) | O(n) | O(1) |
 
+<br>
 ---
+<br>
 
 ## <a name="array"></a>🍱 Array (陣列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -215,7 +223,9 @@ __builtin_popcount(x)<br>
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | Array <br> Matrix <br> Simulation | [C++](./solution/Solution_2022.cpp) | O(m*n) | O(1) |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array | [C++](./solution/Solution_2239.cpp) | O(N) | O(1) |
 
+<br>
 ---
+<br>
 
 ## <a name="binary-search"></a>🔍 Binary Search (二分查找)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -240,7 +250,9 @@ __builtin_popcount(x)<br>
 > int mid = (left + right)/2; **本身有overflow的風險**<br>
 > int mid = left + ((right - left) >> 1); 本身比較安全<br>
 
+<br>
 ---
+<br>
 
 ## <a name="prefix-sum"></a>🔍 Prefix Sum (前綴和)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -251,7 +263,9 @@ __builtin_popcount(x)<br>
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | Array <br> Prefix Sum | [C++](./solution/Solution_0724.cpp) | O(N) | O(1) |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | Array <br> Prefix Sum | [C++](./solution/Solution_2559.cpp) | O(N + Q) | O(N) |
 
+<br>
 ---
+<br>
 
 ## <a name="fast-slow-pointers"></a>👥 Fast-Slow Pointers (快慢指針)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -275,7 +289,10 @@ __builtin_popcount(x)<br>
 > Floyd's Cycle Detection（龜兔賽跑）偵測環：0141、0142、0202、0287<br>
 > 快慢找中點後再處理：0143、0876<br>
 
+<br>
 ---
+<br>
+
 ## <a name="two-pointers-opposite"></a>👥 Two Pointers - Opposite Direction (對撞型)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -297,7 +314,9 @@ __builtin_popcount(x)<br>
 > 通常需要**排序**作為前提（0015、0016、0167、0977）。<br>
 > 回文判斷（0125、0344、0345）：左右同時往中間收斂，不符合就提早返回。<br>
 
+<br>
 ---
+<br>
 
 ## <a name="two-pointers-same"></a>👥 Two Pointers - Same Direction (同向型)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -320,7 +339,9 @@ __builtin_popcount(x)<br>
 > 此題如果用 Dynamic Programming LCS，Complexity 會是 O(nm), O(nm)<br>
 > 但如果用 Two Pointers 會是 O(n), O(1)<br>
 
+<br>
 ---
+<br>
 
 ## <a name="two-pointers-partition"></a>👥 Two Pointers - Partition (分割型)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -341,7 +362,9 @@ __builtin_popcount(x)<br>
 > 此題要求將正數與負數交替排列，同時**維持各自原本的相對順序**，所以**空間複雜度無法 O(1)**<br>
 > 目前解法已是最優：時間 O(N)、空間 O(N)<br>
 
+<br>
 ---
+<br>
 
 ## <a name="two-pointers-other"></a>👥 Two Pointers - Other (變形型)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -358,7 +381,9 @@ __builtin_popcount(x)<br>
 > 0557 區段內反轉：先找到每個單字的邊界，再對撞交換字元。<br>
 > 2441 排序後對撞：先排序，left 從頭找正數，right 從尾找對應負數。<br>
 
+<br>
 ---
+<br>
 
 ## <a name="hash-table-counting"></a>🔑 Hash Table - Counting (頻率統計)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -374,7 +399,9 @@ __builtin_popcount(x)<br>
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_2404.cpp) | O(n) | O(n) |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_3005.cpp) | O(n) | O(1) |
 
+<br>
 ---
+<br>
 
 ## <a name="hash-table-mapping"></a>🔑 Hash Table - Mapping (映射 / 異位詞 / 同構)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -409,7 +436,9 @@ __builtin_popcount(x)<br>
 > **浮點數精度問題(Floating-point precision)-某些比例可能在運算中產生微小的誤差（例如1/3在某些計算環境下可能不完全相等）**<br>
 > **導致原本應該視為相同的比例被誤判為不同。**<br>
 
+<br>
 ---
+<br>
 
 ## <a name="hash-table-set"></a>🔑 Hash Table - Set (集合 / 存在性判斷)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -423,7 +452,9 @@ __builtin_popcount(x)<br>
 | 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2248.cpp) | O(n*m) | O(n) |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Array <br> Hash Table <br> Sorting | [C++](./solution/Solution_2784.cpp) | O(n) | O(n) |
 
+<br>
 ---
+<br>
 
 ## <a name="linked-list"></a>⛓️ Linked List (鏈表)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -438,7 +469,9 @@ __builtin_popcount(x)<br>
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List / Two Pointers / Vector | [C++](./solution/Solution_0234.cpp) | O(n) | O(n) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 Easy | Linked List <br> Two Pointers  <br> Fast-Slow Pointers | [C++](./solution/Solution_0876.cpp) | O(n) | O(1) |
 
+<br>
 ---
+<br>
 
 ## <a name="stack"></a>📚 Stack (堆疊)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -458,7 +491,9 @@ __builtin_popcount(x)<br>
 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | Stack <br> Greedy | [C++](./solution/Solution_1963.cpp) | O(N) | O(1) |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 Medium | String <br> Stack | [C++](./solution/Solution_2390.cpp) | O(n) | O(n) |
 
+<br>
 ---
+<br>
 
 ## <a name="monotonic-stack"></a>📚 Monotonic Stack (堆疊)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -468,7 +503,9 @@ __builtin_popcount(x)<br>
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | Stack / Monotonic Stack | [C++](./solution/Solution_0739.cpp) | O(N) | O(N) |
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 Easy | Array <br> Stack <br> Monotonic Stack | [C++](./solution/Solution_1475.cpp) | O(N) | O(N) |
 
+<br>
 ---
+<br>
 
 ## <a name="tree"></a>🌳 Tree (樹結構)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -483,7 +520,9 @@ __builtin_popcount(x)<br>
 | 0590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | 🟢 Easy | Tree | [C++](./solution/Solution_0590.cpp) | O(n) | O(h) |
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree) | 🟢 Easy | Tree <br> DFS <br> Recursion | [C++](./solution/Solution_2331.cpp) | O(n) | O(h) |
 
+<br>
 ---
+<br>
 
 ## <a name="tree-bfs-level-order"></a>🌳 Tree - BFS / Level Order (層序遍歷)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -501,7 +540,9 @@ __builtin_popcount(x)<br>
 > BFS Level Order 標準模板：用 queue，每層開始時記錄 `size = q.size()`，再跑 size 次。<br>
 > 空間複雜度 O(w)，w 為最寬的一層節點數，最壞情況 O(n/2) = O(n)。<br>
 
+<br>
 ---
+<br>
 
 ## <a name="tree-dfs-path"></a>🌳 Tree - DFS / Path (深度優先 / 路徑)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -524,7 +565,9 @@ __builtin_popcount(x)<br>
 > DFS 路徑題標準模板：後序（postorder）回傳子樹資訊給父節點，用於計算高度、直徑、路徑和。<br>
 > 空間複雜度 O(h)，h 為樹高；平衡樹 O(log n)，最壞（歪斜樹）O(n)。<br>
 
+<br>
 ---
+<br>
 
 ## <a name="binary-search-tree"></a>🌳 Binary Search Tree (二元搜尋樹)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -539,7 +582,9 @@ __builtin_popcount(x)<br>
 | 0783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 Easy | Tree <br> DFS <br> BST | [C++](./solution/Solution_0783.cpp) | O(N) | O(H) |
 | 0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | Tree <br> DFS <br> BST | [C++](./solution/Solution_0938.cpp) | O(N) | O(H) |
 
+<br>
 ---
+<br>
 
 ## <a name="Sorting"></a>📊 Sorting (排序)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -557,14 +602,18 @@ __builtin_popcount(x)<br>
 > 會用Array, 因為是連續記憶體<br>
 > 這是難得[doocs](https://github.com/doocs/leetcode/blob/main/solution/1600-1699/1636.Sort%20Array%20by%20Increasing%20Frequency/README_EN.md)優於[neetcode.io](https://neetcode.io/solutions/sort-array-by-increasing-frequency)<br>
 
+<br>
 ---
+<br>
 
 ## <a name="priority-queue"></a>📚 Priority Queue (優先佇列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | Heap <br> Linked List | [C++](./solution/Solution_0023.cpp) | O(N log k) | O(k) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Heap (Priority Queue) | [C++](./solution/Solution_1046.cpp) | O(N log N) | O(N) |
 
+<br>
 ---
+<br>
 
 ## <a name="quick-select"></a>📚 Quick Select(快速選擇)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -576,7 +625,9 @@ __builtin_popcount(x)<br>
 > std::nth_element, Average case O(n), Worse case O(n)<br>
 > 靜態資料使用QuickSelect(std::nth_element),動態資料使用Min heap<br>
 
+<br>
 ---
+<br>
 
 ## <a name="dynamic-programming"></a>🧩 Dynamic Programming (動態規劃)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -588,7 +639,9 @@ __builtin_popcount(x)<br>
 | 0583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_0583.cpp) | O(m*n) | O(m*n) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_1143.cpp) | O(m*n) | O(m*n) |
 
+<br>
 ---
+<br>
 
 ## <a name="greedy"></a>🧩 Greedy (貪婪法)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -596,14 +649,18 @@ __builtin_popcount(x)<br>
 | 0624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Array <br> Greedy | [C++](./solution/Solution_0624.cpp) | O(n) | O(1) |
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 
+<br>
 ---
+<br>
 
 ## <a name="backtracking"></a>🔢 Backtracking (回朔法)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking / Recursion <br> Bit Manipulation | [C++](./solution/Solution_0078.cpp) | O(N * 2^N) | O(N) |
 
+<br>
 ---
+<br>
 
 > [!NOTE]
 ## <a name="negative-marking"></a>🔢 Negative Marking 
@@ -614,7 +671,9 @@ __builtin_popcount(x)<br>
 | 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Array | [C++](./solution/Solution_0448.cpp) | O(n) | O(1) |
 | 0645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | Array / Hash Table / Math | [C++](./solution/Solution_0645.cpp) | O(N) | O(1) |
 
+<br>
 ---
+<br>
 
 ## <a name="fixed-size-sliding-window"></a>🔢Fixed Size Sliding Window
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -624,7 +683,9 @@ __builtin_popcount(x)<br>
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | 🟡 Medium | String <br> Sliding Window | [C++](./solution/Solution_1456.cpp) | O(N) | O(1) |
 | 1876 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | 🟢 Easy | String <br> Sliding Window | [C++](./solution/Solution_1876.cpp) | O(N) | O(1) |
 
+<br>
 ---
+<br>
 
 ## <a name="variable-size-sliding-window"></a>🔢Variable Size Sliding Window
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
@@ -633,7 +694,9 @@ __builtin_popcount(x)<br>
 | 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | 🟡 Medium | Sliding Window / Hash Table | [C++](./solution/Solution_0424.cpp) | O(N) | O(1) |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | 🟡 Medium | Sliding Window | [C++](./solution/Solution_1004.cpp) | O(N) | O(1) |
 
+<br>
 ---
+<br>
 
 © 2026 Laurence Chang.
 
