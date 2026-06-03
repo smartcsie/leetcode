@@ -607,6 +607,7 @@ __builtin_popcount(x)<br>
 
 ## <a name="priority-queue"></a>📚 Priority Queue (優先佇列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | Heap <br> Linked List | [C++](./solution/Solution_0023.cpp) | O(Nlogk) | O(k) |
 | 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 Easy | Heap (Priority Queue) | [C++](./solution/Solution_0703.cpp) | O(N log K) / O(log K) | O(K) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Heap (Priority Queue) | [C++](./solution/Solution_1046.cpp) | O(NlogN) | O(N) |
@@ -616,6 +617,7 @@ __builtin_popcount(x)<br>
 
 ## <a name="quick-select"></a>📚 Quick Select(快速選擇)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Array <br> Sorting <br> QuickSelect | [C++](./solution/Solution_0215.cpp) | O(N) 平均 | O(1) |
 | 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Math <br> QuickSelect | [C++](./solution/Solution_0973.cpp) | O(N) | O(1) |
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | Array <br> Hash Table <br> Sorting | [C++](./solution/Solution_1636.cpp) | O(N log N) | O(1) |
