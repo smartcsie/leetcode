@@ -126,6 +126,7 @@ __builtin_popcount(x)<br>
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) | O(logn) | O(1) |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math <br> Binary Exponentiation | [C++](./solution/Solution_0050.cpp) | O(log N) | O(1) |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](./solution/Solution_0066.cpp) | O(n) | O(1) |
+| 0067 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0067.cpp) | O(max(M, N)) | O(1) |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math <br> Hash Set | [C++](./solution/Solution_0137_1.cpp) | O(n) | O(n) |
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](./solution/Solution_0231.cpp) | O(1) | O(1) |
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](./solution/Solution_0263.cpp) | O(log n) | O(1) |
