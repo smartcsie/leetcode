@@ -139,7 +139,7 @@ Morris Traversal<br>
 > 2559. Count Vowel Strings in Ranges<br>
 
 
-> [!NOTE]
+
 > [Quick Select]<br>
 > 215. Kth Largest Element in an Array<br>
 > 973. K Closest Points to Origin<br>
@@ -158,7 +158,7 @@ Morris Traversal<br>
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | 🟡 Medium | String <br> Sliding Window | [C++](./solution/Solution_1456.cpp) | O(N) | O(1) |
 | 1876 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | 🟢 Easy | String <br> Sliding Window | [C++](./solution/Solution_1876.cpp) | O(N) | O(1) |
 
-> [!NOTE]
+
 ## <a name="variable-size-sliding-window"></a>🔢Variable Size Sliding Window
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
