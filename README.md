@@ -95,10 +95,26 @@ __builtin_popcount(x)<br>
 
 ## 🚀 快速導覽
 
-[#Bit-manipulation](#Bit-manipulation) | [#Array](#array) | [#Hash-Table](#hash-table) | [#Math](#math) | [#Binary-Search](#binary-search) | [#Stack](#stack) <br>
-[#Tree](#tree) | [#Two-Pointers](#two-pointers) | [#Linked-List](#linked-list) | [#String](#string) <br>
-[#Dynamic Programming](#dynamic-programming) | [#Greedy](#greedy) | [#Sorting](#sorting) | [#Backtracking](#backtracking)<br>
-[#Priority Queue](#priority-queue)
+**Basics**<br>
+[🔢 Math](#math) | [📊 Bit Manipulation](#Bit-manipulation) | [🔗 String](#string) | [🍱 Array](#array) | [🔑 Hash Table - Counting](#hash-table-counting) | [🔑 Hash Table - Mapping](#hash-table-mapping) | [🔑 Hash Table - Set](#hash-table-set)<br>
+
+**Search & Sort**<br>
+[🔍 Binary Search](#binary-search) | [🔍 Prefix Sum](#prefix-sum) | [📊 Sorting](#Sorting) | [📚 Quick Select](#quick-select)<br>
+
+**Pointers**<br>
+[👥 Fast-Slow Pointers](#fast-slow-pointers) | [👥 Two Pointers - Opposite](#two-pointers-opposite) | [👥 Two Pointers - Same](#two-pointers-same) | [👥 Two Pointers - Partition](#two-pointers-partition) | [👥 Two Pointers - Other](#two-pointers-other)<br>
+
+**Linear Structures**<br>
+[⛓️ Linked List](#linked-list) | [📚 Stack](#stack) | [📚 Monotonic Stack](#monotonic-stack) | [📚 Priority Queue](#priority-queue)<br>
+
+**Tree**<br>
+[🌳 Tree](#tree) | [🌳 Tree - BFS / Level Order](#tree-bfs-level-order) | [🌳 Tree - DFS / Path](#tree-dfs-path) | [🌳 Binary Search Tree](#binary-search-tree)<br>
+
+**Sliding Window**<br>
+[🔢 Fixed Size Sliding Window](#fixed-size-sliding-window) | [🔢 Variable Size Sliding Window](#variable-size-sliding-window)<br>
+
+**Advanced**<br>
+[🧩 Dynamic Programming](#dynamic-programming) | [🧩 Greedy](#greedy) | [🔢 Backtracking](#backtracking) | [🔢 Negative Marking](#negative-marking)<br>
 
 ---
 
