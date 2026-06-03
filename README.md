@@ -619,6 +619,7 @@ __builtin_popcount(x)<br>
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Array <br> Sorting <br> QuickSelect | [C++](./solution/Solution_0215.cpp) | O(N) 平均 | O(1) |
 | 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Math <br> QuickSelect | [C++](./solution/Solution_0973.cpp) | O(N) | O(1) |
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | Array <br> Hash Table <br> Sorting | [C++](./solution/Solution_1636.cpp) | O(N log N) | O(1) |
+| 1985 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Array <br> Sorting <br> String | [C++](./solution/Solution_1985.cpp) | O(N) | O(1) |
 > [!NOTE]
 > 手寫 QuickSelect, Average case O(n), **Worse case O(n²)**<br>
 > std::nth_element, Average case O(n), Worse case O(n)<br>
