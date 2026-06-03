@@ -609,6 +609,7 @@ __builtin_popcount(x)<br>
 ## <a name="priority-queue"></a>📚 Priority Queue (優先佇列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | Heap <br> Linked List | [C++](./solution/Solution_0023.cpp) | O(N log k) | O(k) |
+| 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 Easy | Heap (Priority Queue) | [C++](./solution/Solution_0703.cpp) | O(N log K) / O(log K) | O(K) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Heap (Priority Queue) | [C++](./solution/Solution_1046.cpp) | O(N log N) | O(N) |
 
 <br>
