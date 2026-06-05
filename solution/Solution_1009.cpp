@@ -13,14 +13,11 @@
 
 class Solution {
 public:
-    int bitwiseComplement(int n) {
-        if( n == 0 || n == 1) return 1^n;
-        int num = n;
-        int mask = 0;
-        while(num > 0) {
-            mask = (mask << 1) | 1;
-            num >>= 1;
+    int findComplement(int num) {
+        int mask = ~0;
+        while(mask & num) {
+            mask <<= 1;
         }
-        return mask ^ n;
+        return ~mask ^ num;
     }
 };
