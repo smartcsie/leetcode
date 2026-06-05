@@ -357,6 +357,8 @@ __builtin_popcount(x)<br>
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_2109.cpp) | O(N+M) | O(N+M) |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_2540.cpp) | O(N+M) | O(1) |
 
+
+
 > [!NOTE]
 > [Same Direction 核心概念]<br>
 > 兩個指針同方向前進，各自掃描不同陣列或字串（0392、1768、2540）。<br>
@@ -493,6 +495,14 @@ __builtin_popcount(x)<br>
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](./solution/Solution_0206.cpp) | O(n) | O(1) | 
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List / Two Pointers / Vector | [C++](./solution/Solution_0234.cpp) | O(n) | O(n) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 Easy | Linked List <br> Two Pointers  <br> Fast-Slow Pointers | [C++](./solution/Solution_0876.cpp) | O(n) | O(1) |
+
+<br><br>
+---
+
+## <a name="linked-list-circular"></a>⛓️ Linked List - Circular / Cycle Management (環狀處理)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 Medium | Linked List <br>  Two Pointers | [C++](./solution/Solution_0061.cpp) | O(N) | O(1) |
 
 <br><br>
 ---
