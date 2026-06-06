@@ -297,7 +297,7 @@ __builtin_popcount(x)<br>
 ---
 ## <a name="binary-search-build-in"></a>🔍 Binary Search Build in Function (二分查找)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0034.cpp) | O(log N) | O(1) |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0035.cpp) | O(logn) | O(1) |
 | 0744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0744.cpp) | O(logN) | O(1) |
