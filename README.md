@@ -242,6 +242,7 @@ __builtin_popcount(x)<br>
 | 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | Array / Interval | [C++](./solution/Solution_0057.cpp) | O(N) | O(N) |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array / Voting Algorithm | [C++](./solution/Solution_0169.cpp) | O(N) | O(1) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](./solution/Solution_0189.cpp) | O(n) | O(1) |
+| 0229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | Array / Voting Algorithm | [C++](./solution/Solution_0229.cpp) | O(N) | O(1) |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) |
 | 0896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | Array | [C++](./solution/Solution_0896.cpp) | O(N) | O(1) |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | Array | [C++](./solution/Solution_1299.cpp) | O(N) | O(1) |
