@@ -312,7 +312,7 @@ __builtin_popcount(x)<br>
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Array <br> Fast-Slow Pointers | [C++](./solution/Solution_0283.cpp) | O(n) | O(1) |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array <br> Fast-Slow Pointers | [C++](./solution/Solution_0287.cpp) | O(n) | O(1) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 Easy | Linked List <br> Fast-Slow Pointers | [C++](./solution/Solution_0876.cpp) | O(n) | O(1) |
-
+| 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | Linked List / Fast-Slow Pointers | [C++](./solution/Solution_2095.cpp) | O(N) | O(1) |
 > [!NOTE]
 > [Fast-Slow Pointers 核心概念]<br>
 > 慢指針（slow）當「寫入游標」，快指針（fast）當「掃描游標」：0026、0027、0080、0283<br>
