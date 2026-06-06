@@ -239,6 +239,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | Array / Interval | [C++](./solution/Solution_0057.cpp) | O(N) | O(N) |
+| 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array / Voting Algorithm | [C++](./solution/Solution_0169.cpp) | O(N) | O(1) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](./solution/Solution_0189.cpp) | O(n) | O(1) |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) |
 | 0896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | Array | [C++](./solution/Solution_0896.cpp) | O(N) | O(1) |
