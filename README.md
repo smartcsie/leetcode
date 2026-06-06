@@ -96,7 +96,7 @@ __builtin_popcount(x)<br>
 ## 🚀 快速導覽
 
 **Basics**<br>
-[🔢 Math](#math) | [📊 Bit Manipulation](#Bit-manipulation) | [🔗 String](#string) | [🍱 Array](#array) | [🔑 Hash Table - Counting](#hash-table-counting) | [🔑 Hash Table - Mapping](#hash-table-mapping) | [🔑 Hash Table - Set](#hash-table-set)<br>
+[🔢 Math](#math) | [📊 Bit Manipulation](#Bit-manipulation) | [🔗 String](#string) | [🍱 Array](#array) | [🍱 2D Array](#2d-array) | [🔑 Hash Table - Counting](#hash-table-counting) | [🔑 Hash Table - Mapping](#hash-table-mapping) | [🔑 Hash Table - Set](#hash-table-set)<br>
 
 **Search & Sort**<br>
 [🔍 Binary Search](#binary-search) | [🔍 Prefix Sum](#prefix-sum) | [📊 Sorting](#Sorting) | [📚 Quick Select](#quick-select)<br>
@@ -238,7 +238,6 @@ __builtin_popcount(x)<br>
 ## <a name="array"></a>🍱 Array (陣列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡&nbsp;Medium | Array | [C++](./solution/Solution_0048.cpp) | O(n²) | O(1) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](./solution/Solution_0189.cpp) | O(n) | O(1) |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) |
 | 0896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | Array | [C++](./solution/Solution_0896.cpp) | O(N) | O(1) |
@@ -246,15 +245,26 @@ __builtin_popcount(x)<br>
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1662.cpp) | O(N + M) | O(1) |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](./solution/Solution_1752.cpp) | O(N) | O(1) |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 Easy | Array | [C++](./solution/Solution_1800.cpp) | O(N) | O(1) |
-| 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | Array | [C++](./solution/Solution_1886.cpp) | O(n²) | O(1) |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | 🟢 Easy | Array <br> Sorting | [C++](./solution/Solution_1913.cpp) | O(N) | O(1) |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array | [C++](./solution/Solution_1929.cpp) | O(N) | O(1)* |
-| 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | Array <br> Matrix <br> Simulation | [C++](./solution/Solution_2022.cpp) | O(m*n) | O(1) |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array | [C++](./solution/Solution_2239.cpp) | O(N) | O(1) |
 
-<br>
+<br><br>
 ---
-<br>
+
+## <a name="2d-array"></a>🍱 2D Array (二維陣列)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡&nbsp;Medium | Array | [C++](./solution/Solution_0048.cpp) | O(n²) | O(1) |
+| 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | Array / Matrix | [C++](./solution/Solution_0073.cpp) | O(M * N) | O(1) |
+| 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | Array | [C++](./solution/Solution_1886.cpp) | O(n²) | O(1) |
+| 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | Array <br> Matrix <br> Simulation | [C++](./solution/Solution_2022.cpp) | O(m*n) | O(1) |
+
+
+<br><br>
+---
+
+
 
 ## <a name="binary-search"></a>🔍 Binary Search (二分查找)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
