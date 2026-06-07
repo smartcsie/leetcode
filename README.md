@@ -373,7 +373,6 @@ __builtin_popcount(x)<br>
 | 0080 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium | Array <br> Fast-Slow Pointers | [C++](./solution/Solution_0080.cpp) | O(n) | O(1) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Linked List <br> Fast-Slow Pointers | [C++](./solution/Solution_0141.cpp) | O(n) | O(1) |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 Medium | Linked List <br> Fast-Slow Pointers | [C++](./solution/Solution_0142.cpp) | O(n) | O(1) |
-| 0143 | [Reorder List](https://leetcode.com/problems/reorder-list) | 🟡 Medium | Linked List <br> Fast-Slow Pointers | [C++](./solution/Solution_0143.cpp) | O(n) | O(1) |
 | 0202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table <br> Fast-Slow Pointers | [C++](./solution/Solution_0202.cpp) | O(logn) | O(1) |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Array <br> Fast-Slow Pointers | [C++](./solution/Solution_0283.cpp) | O(n) | O(1) |
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array <br> Fast-Slow Pointers | [C++](./solution/Solution_0287.cpp) | O(n) | O(1) |
