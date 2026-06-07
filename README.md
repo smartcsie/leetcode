@@ -382,7 +382,11 @@ __builtin_popcount(x)<br>
 > [Fast-Slow Pointers 核心概念]<br>
 > 慢指針（slow）當「寫入游標」，快指針（fast）當「掃描游標」：0026、0027、0080、0283<br>
 > 快指針先走 N 步，再同步移動找倒數位置：0019<br>
-> Floyd's Cycle Detection（龜兔賽跑）偵測環：0141、0142、0202、0287<br>
+> **Floyd's Cycle Detection(龜兔賽跑)** 偵測環
+> [0141. Linked List Cycle](./solution/Solution_0141.cpp)<br>
+> [0142. Linked List Cycle II](./solution/Solution_0142.cpp)<br>
+> [0202. Happy Number](./solution/Solution_0202.cpp)<br>
+> [0287. Find the Duplicate Number](./solution/Solution_0287.cpp)<br>
 > 快慢找中點後再處理：0143、0876<br>
 
 <br><br>
