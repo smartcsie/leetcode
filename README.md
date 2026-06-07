@@ -96,7 +96,10 @@ __builtin_popcount(x)<br>
 ## 🚀 快速導覽
 
 **Basics**<br>
-[🔢 Math](#math) | [📊 Bit Manipulation](#Bit-manipulation) | [🔗 String](#string) | [🍱 Array](#array) | [🍱 2D Array](#2d-array) | [🔑 Hash Table - Counting](#hash-table-counting) | [🔑 Hash Table - Mapping](#hash-table-mapping) | [🔑 Hash Table - Set](#hash-table-set)<br>
+[🔢 Math](#math) | [📊 Bit Manipulation](#Bit-manipulation) | [🔗 String](#string) | [🔑 Hash Table - Counting](#hash-table-counting) | [🔑 Hash Table - Mapping](#hash-table-mapping) | [🔑 Hash Table - Set](#hash-table-set)<br>
+
+**Array**<br>
+[🍱 Array](#array)  | 🍱 Array Boyer-Moore Voting Algorithm(陣列多數投票演算法) | [🍱 2D Array](#2d-array) |
 
 **Search & Sort**<br>
 [🔍 Binary Search](#binary-search) | [🔍 Prefix Sum](#prefix-sum) | [📊 Sorting](#Sorting) | [📚 Quick Select](#quick-select)<br>
@@ -258,7 +261,7 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
-## <a name="array-boyer-moore"></a>🍱 Array Boyer-Moore Voting Algorithm(陣列)
+## <a name="array-boyer-moore"></a>🍱 Array Boyer-Moore Voting Algorithm(陣列多數投票演算法)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array / Voting Algorithm | [C++](./solution/Solution_0169.cpp) | O(N) | O(1) |
