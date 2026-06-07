@@ -804,6 +804,11 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
+## <a name="sql"></a>🔢SQL
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 Easy | Database | [SQL](./solution/Solution_0182.sql) | O(N) | O(N) | 使用 GROUP BY 聚合相同 Email，並透過 HAVING 過濾出計數大於 1 的項目，達成簡潔的重複項篩選 |
+
 © 2026 Laurence Chang.
 
 
