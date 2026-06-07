@@ -138,6 +138,7 @@ __builtin_popcount(x)<br>
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0268.cpp) | O(n) | O(1) |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](./solution/Solution_0326.cpp) | O(log₃n) | O(1) |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](./solution/Solution_0342.cpp) | O(1) | O(1) |
+| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math / String | [C++](./solution/Solution_0412.cpp) | O(N) | O(1)* |
 | 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br>  String | [C++](./solution/Solution_0504.cpp) | O(log7 N) | O(1) |
 | 0633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Math / Two Pointers | [C++](./solution/Solution_0633.cpp) | O(sqrt(c)) | O(1) |
 | 0628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_0628.cpp) | O(N) | O(1) |
