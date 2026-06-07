@@ -680,13 +680,11 @@ __builtin_popcount(x)<br>
 ## <a name="Sorting"></a>📊 Sorting (排序)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 Medium | Array / Sorting | [C++](./solution/Solution_0056.cpp) | O(NlogN) | O(logN) |
-| 0179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Sorting / String | [C++](./solution/Solution_0179.cpp) | O(NlogN * k) | O(N * k) |
+| 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 Medium | Array <br> Sorting | [C++](./solution/Solution_0056.cpp) | O(NlogN) | O(logN) |
+| 0179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Sorting <br> String | [C++](./solution/Solution_0179.cpp) | O(NlogN * k) | O(N * k) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Hash Table <br> QuickSelect | [C++](./solution/Solution_0347.cpp) | O(N) | O(N) |
-| 0451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | Hash Table <br> Bucket Sort | [C++](./solution/Solution_0451.cpp) | O(N) | O(N) |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Array <br> Divide and Conquer <br> Sorting | [C++](./solution/Solution_0912.cpp) | O(nlogn) | O(logn) |
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Bit Manipulation <br>  Sorting | [C++](./solution/Solution_1356.cpp) | O(N log N) | O(1) |
-| 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String <br> Sorting <br> Bucket Sort | [C++](./solution/Solution_1859.cpp) | O(N) | O(N) |
 
 > [!NOTE]
 > Array or HashMap ?<br>
@@ -697,6 +695,17 @@ __builtin_popcount(x)<br>
 
 <br><br>
 ---
+
+## <a name="Sorting"></a>📊 Sorting - Counting Sort, Bucket Sort (排序)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | Hash Table <br> Bucket Sort | [C++](./solution/Solution_0451.cpp) | O(N) | O(N) |
+| 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Array / Counting Sort | [C++](./solution/Solution_1051.cpp) | O(N) | O(1) |
+| 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String <br> Sorting <br> Bucket Sort | [C++](./solution/Solution_1859.cpp) | O(N) | O(N) |
+
+<br><br>
+---
+
 
 ## <a name="priority-queue"></a>📚 Priority Queue (優先佇列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
