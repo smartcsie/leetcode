@@ -690,6 +690,14 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
+## <a name="dfs-bfs"></a>🌳 DFS、BFS (深度搜尋、廣度搜尋)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | DFS <br> BFS <br> Union-Find | [C++](./solution/Solution_0200.cpp) | O(M×N) | O(1)* |
+
+<br><br>
+---
+
 ## <a name="Sorting"></a>📊 Sorting (排序)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
