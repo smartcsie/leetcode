@@ -816,6 +816,8 @@ __builtin_popcount(x)<br>
 | 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0047.cpp) | O(N*N!) | O(N) |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking / Recursion <br> Bit Manipulation | [C++](./solution/Solution_0078.cpp) | O(N*2ᴺ) | O(N) |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0090.cpp) | O(N*2ᴺ) | O(N) |
+| 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0039.cpp) | O(N^(T/M)) | O(T/M) |
+| 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0040.cpp) | O(2ᴺ) | O(N) |
 <br><br>
 ---
 
