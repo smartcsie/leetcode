@@ -632,6 +632,7 @@ __builtin_popcount(x)<br>
 | 0513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 Medium | Tree <br> BFS <br> DFS | [C++](./solution/Solution_0513.cpp) | O(n) | O(w) |
 | 0637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | Tree <br> BFS | [C++](./solution/Solution_0637.cpp) | O(N) | O(W) |
 | 0662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 Medium | Tree <br> BFS | [C++](./solution/Solution_0662.cpp) | O(n) | O(w) |
+| 0958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | BFS <br> Level Order Traversal | [C++](./solution/Solution_0958.cpp) | O(N) | O(W) |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 Medium | Tree <br> BFS | [C++](./solution/Solution_1161.cpp) | O(N) | O(W) |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree <br> BFS | [C++](./solution/Solution_1609.cpp) | O(n) | O(w) |
 
