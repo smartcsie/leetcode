@@ -17,30 +17,31 @@
  */
 
 class Solution {
-public:
-    int mostFreq = INT_MIN;
-    int currFreq = 0;
-    TreeNode* prev = nullptr;
-    vector<int> res;
-    void inorder(TreeNode* root) {
+private:
+    void dfs(TreeNode* root, int& prev ,int& localCount, int& max, vector<int>& res) {
         if(!root) return;
-        inorder(root->left);
-        if(prev && root->val == prev->val) {
-            currFreq++;
-        } else {
-            currFreq = 1;
-        }
-        prev = root;
-        if(currFreq > mostFreq) {
-            mostFreq = currFreq;
-            res = {root->val};
-        } else if(currFreq == mostFreq){
+        dfs(root->left, prev, localCount, max, res);
+        if(root->val == prev) localCount++;
+        else localCount = 1;
+        if(localCount > max) {
+            max = localCount;
+            res.clear();
             res.push_back(root->val);
         }
-        inorder(root->right);
+        else if(localCount == max) {
+            res.push_back(root->val);
+        }
+        prev = root->val;
+        dfs(root->right, prev, localCount, max, res);
     }
+public:
     vector<int> findMode(TreeNode* root) {
-        inorder(root);
+        vector<int> res;
+        int localCount = 1;
+        int max = INT_MIN;
+        int prev = INT_MIN;
+        dfs(root, prev, localCount, max, res);
         return res;
     }
 };
+
