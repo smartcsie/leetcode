@@ -690,6 +690,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Tree <br> DFS <br> BST | [C++](./solution/Solution_0098.cpp) | O(n) | O(h) |
+| 0099 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | BST <br> In-order Traversal | [C++](./solution/Solution_0099.cpp) | O(N) | O(1) |
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Tree <br> DFS <br> Binary Search | [C++](./solution/Solution_0108.cpp) | O(N) | O(logN) |
 | 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 Medium | Tree <br> DFS <br> BST | [C++](./solution/Solution_0230.cpp) | O(k) | O(h) |
 | 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Tree <br> DFS <br> BST | [C++](./solution/Solution_0235.cpp) | O(h) | O(h) |
