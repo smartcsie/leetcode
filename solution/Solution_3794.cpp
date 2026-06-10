@@ -1,25 +1,18 @@
 /**
- * 題目：Reverse Prefix of Word (反轉單字前綴)
+ * 題目：3794. Reverse String Prefix (字串前綴反轉)
  * 難度：簡單 (Easy)
- * 描述：給定一個字串 s 和一個字元 ch，反轉從字串開頭到 ch 第一次出現位置之間的字串。
- * * 時間複雜度：O(N) - 字串掃描一次。
- * 空間複雜度：O(1) - 原地修改。
+ * 描述：將字串 s 的前 k 個字元進行反轉並返回結果。
+ * * 時間複雜度：O(k) - 僅處理前 k 個字元，整體視為 O(N)。
+ * 空間複雜度：O(1) - 原地操作 (若不計字串本身)。
  * * 優化思路：
- * 1. 使用 std::reverse：STL 提供的反轉函數是最佳化過的，直接使用可以降低手寫指標錯誤風險。
+ * 1. 使用 std::reverse：STL 函式庫已針對不同長度優化，且語意明確，能大幅減少指標偏移與判斷錯誤的機率。
  */
 
 class Solution {
 public:
-    string reversePrefix(string s, char ch) {
-        // 1. 尋找目標字元 ch 的位置
-        size_t pos = s.find(ch);
-        
-        // 2. 如果找到了，反轉 [0, pos] 的區間
-        if (pos != string::npos) {
-            // reverse 區間為左閉右開 [first, last)
-            reverse(s.begin(), s.begin() + pos + 1);
-        }
-        
+    string reversePrefix(string s, int k) {
+        if(s.size() <= 1) return s;
+        reverse(s.begin(), s.begin() + k);
         return s;
     }
 };
