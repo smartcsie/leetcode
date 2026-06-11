@@ -9,6 +9,7 @@
 ## 🤖 Solutions
 - [doocs](https://github.com/doocs/leetcode/tree/main/solution)
 - [walkccc](https://github.com/walkccc/LeetCode/tree/main/solutions)
+- [花花醬](https://zxi.mytechroad.com/blog/leetcode-problem-categories/#google_vignette)
 
 ---
 
