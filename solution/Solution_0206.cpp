@@ -20,10 +20,10 @@ public:
         ListNode* prev = nullptr;
         ListNode* cur = head;
         while(cur) {
-            ListNode* next = cur->next;
-            cur->next = prev;
-            prev = cur;
-            cur = next;
+            ListNode* next = cur->next; \\暫時儲存 現在的下一個節點
+            cur->next = prev;  \\把現在的next 指向前面
+            prev = cur;  \\前面(pre) 往後走一步,指向cur
+            cur = next;  \\現在(cur) 往後走一步,指向next (剛才第一次的儲存)
         }
         return prev;
     }
