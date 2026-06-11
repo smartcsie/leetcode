@@ -365,6 +365,7 @@ __builtin_popcount(x)<br>
 | 0082 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | 🟡 Medium | Linked List / Two Pointers | [C++](./solution/Solution_0082.cpp) | O(n) | O(1) |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 🟢 Easy | Linked List | [C++](./solution/Solution_0083.cpp) | O(n) | O(1) |
 | 0092 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 Medium | Linked List | [C++](./solution/Solution_0092.cpp) | O(N) | O(1) |
+| 0143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | Linked List | [C++](./solution/Solution_0143.cpp) | O(N) | O(1) |
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | 🟢 Easy | Linked List | [C++](./solution/Solution_0203.cpp) | O(N) | O(1) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](./solution/Solution_0206.cpp) | O(n) | O(1) | 
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List / Two Pointers / Vector | [C++](./solution/Solution_0234.cpp) | O(n) | O(n) |
@@ -400,15 +401,17 @@ __builtin_popcount(x)<br>
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 Easy | Linked List <br> Fast-Slow Pointers | [C++](./solution/Solution_0876.cpp) | O(n) | O(1) |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | Linked List / Fast-Slow Pointers | [C++](./solution/Solution_2095.cpp) | O(N) | O(1) |
 > [!NOTE]
-> [Fast-Slow Pointers 核心概念]<br>
-> 慢指針（slow）當「寫入游標」，快指針（fast）當「掃描游標」：0026、0027、0080、0283<br>
-> 快指針先走 N 步，再同步移動找倒數位置：0019<br>
 > **Floyd's Cycle Detection(龜兔賽跑)** 偵測環
 > [0141. Linked List Cycle](./solution/Solution_0141.cpp)<br>
 > [0142. Linked List Cycle II](./solution/Solution_0142.cpp)<br>
 > [0202. Happy Number](./solution/Solution_0202.cpp)<br>
 > [0287. Find the Duplicate Number](./solution/Solution_0287.cpp)<br>
-> 快慢找中點後再處理：0143、0876<br>
+> [!NOTE]
+**Fast slow pointer找中間節點**
+> [0109. Convert Sorted List to Binary Search Tree](./solution/Solution_0109.cpp)，分成左右兩個List，遞迴建立左右子樹<br>
+> [0143. Reorder List](./solution/Solution_0143.cpp)，分成左右兩個List，slow->next是右邊的head，右邊的List Reverse，再合併<br>
+> [0876. Middle of the Linked List](./solution/Solution_0876.cpp)，slow 就是 middle<br>
+> [0148. Sort List](./solution/Solution_0148.cpp)，分成左右兩個List，做Merge Sort<br>
 
 <br><br>
 ---
@@ -723,12 +726,6 @@ __builtin_popcount(x)<br>
 > [!NOTE]
 > [1382. Balance a Binary Search Tree](./solution/Solution_1382.cpp) 有解法是 Day-Stout-Warren algorith，Space Complexity可以到O(1)<br>
 
-> [!NOTE]
-> fast slow pointer 有好幾題
-> [0109. Convert Sorted List to Binary Search Tree](./solution/Solution_0109.cpp)，分成左右兩個List，遞迴建立左右子樹<br>
-> [0876. Middle of the Linked List](./solution/Solution_0876.cpp)，slow 就是 middle<br>
-> [0148. Sort List](./solution/Solution_0148.cpp)，分成左右兩個List，做Merge Sort<br>
-
 <br><br>
 ---
 
@@ -758,7 +755,7 @@ __builtin_popcount(x)<br>
 > 這是難得[doocs](https://github.com/doocs/leetcode/blob/main/solution/1600-1699/1636.Sort%20Array%20by%20Increasing%20Frequency/README_EN.md)優於[neetcode.io](https://neetcode.io/solutions/sort-array-by-increasing-frequency)<br>
 
 > [!NOTE]
-> [0148. Sort List](./solution/Solution_0148.cpp) 和 [0004. Median of Two Sorted Arrays](./solution/Solution_0004.cpp)<br>
+> [0148. Sort List](./solution/Solution_0148.cpp) [0004. Median of Two Sorted Arrays](./solution/Solution_0004.cpp)<br>
 > 是一樣的核心概念，都是Two Way merge sort<br>
 <br><br>
 ---
