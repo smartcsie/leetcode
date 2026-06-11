@@ -910,7 +910,7 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 Easy | Database | [SQL](./solution/Solution_0182.sql) | O(N) | O(N) | 使用 GROUP BY 聚合相同 Email，並透過 HAVING 過濾出計數大於 1 的項目，達成簡潔的重複項篩選 |
 
-<img src="https://github.com/smartcsie/leetcode/blob/main/206Reverse_Linked_List.png" width="114" height="141">
+<img src="https://github.com/smartcsie/leetcode/blob/main/206Reverse_Linked_List.png" width="570" height="705">
 
 
 © 2026 Laurence Chang.
