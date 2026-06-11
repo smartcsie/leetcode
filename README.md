@@ -712,7 +712,7 @@ __builtin_popcount(x)<br>
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 Medium | Tree / BST | [C++](./solution/Solution_1382.cpp) | O(N) | O(N) |
 
 > [!NOTE]
-> [01382. alance a Binary Search Tree](./solution/Solution_1382.cpp) 有解法是 Day-Stout-Warren algorith，Space Complexity可以到O(1)<br>
+> [1382. Balance a Binary Search Tree](./solution/Solution_1382.cpp) 有解法是 Day-Stout-Warren algorith，Space Complexity可以到O(1)<br>
 
 > [!NOTE]
 > fast slow pointer 有好幾題
