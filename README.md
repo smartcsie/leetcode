@@ -697,6 +697,7 @@ __builtin_popcount(x)<br>
 | 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Tree <br> DFS <br> BST | [C++](./solution/Solution_0098.cpp) | O(n) | O(h) |
 | 0099 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | BST <br> In-order Traversal | [C++](./solution/Solution_0099.cpp) | O(N) | O(1) |
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Tree <br> DFS <br> Binary Search | [C++](./solution/Solution_0108.cpp) | O(N) | O(logN) |
+| 0109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟠 Medium | Linked List / Tree | [C++](./solution/Solution_0109.cpp) | O(N log N) | O(log N) |
 | 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 Medium | Tree <br> DFS <br> BST | [C++](./solution/Solution_0230.cpp) | O(k) | O(h) |
 | 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Tree <br> DFS <br> BST | [C++](./solution/Solution_0235.cpp) | O(h) | O(h) |
 | 0501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 Easy | Tree <br> DFS <br> BST | [C++](./solution/Solution_0501.cpp) | O(n) | O(h) |
@@ -713,6 +714,12 @@ __builtin_popcount(x)<br>
 > [!NOTE]
 > [01382. alance a Binary Search Tree](./solution/Solution_1382.cpp) 有解法是 Day-Stout-Warren algorith，Space Complexity可以到O(1)<br>
 
+> [!NOTE]
+> fast slow pointer 有好幾題
+> [0109. Convert Sorted List to Binary Search Tree](./solution/Solution_0109.cpp)，分成左右兩個List，遞迴建立左右子樹<br>
+> [0876. Middle of the Linked List](./solution/Solution_0876.cpp)，slow 就是 middle<br>
+> [0148. Sort List](./solution/Solution_0148.cpp)，分成左右兩個List，做Merge Sort<br>
+
 <br><br>
 ---
 
@@ -728,7 +735,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 Medium | Array <br> Sorting | [C++](./solution/Solution_0056.cpp) | O(NlogN) | O(logN) |
-| 0148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List / Merge Sort | [C++](./solution/Solution_0148.cpp) | O(NlogN) | O(logN) | |
+| 0148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List <br> Merge Sort | [C++](./solution/Solution_0148.cpp) | O(NlogN) | O(logN) | |
 | 0179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Sorting <br> String | [C++](./solution/Solution_0179.cpp) | O(NlogN * k) | O(N * k) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Hash Table <br> QuickSelect | [C++](./solution/Solution_0347.cpp) | O(N) | O(N) |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Array <br> Divide and Conquer <br> Sorting | [C++](./solution/Solution_0912.cpp) | O(nlogn) | O(logn) |
@@ -740,7 +747,6 @@ __builtin_popcount(x)<br>
 > 計數範圍-100 <= nums[i] <= 100<br>
 > 會用Array，因為是連續記憶體<br>
 > 這是難得[doocs](https://github.com/doocs/leetcode/blob/main/solution/1600-1699/1636.Sort%20Array%20by%20Increasing%20Frequency/README_EN.md)優於[neetcode.io](https://neetcode.io/solutions/sort-array-by-increasing-frequency)<br>
-
 
 > [!NOTE]
 > [0148. Sort List](./solution/Solution_0148.cpp) 和 [0004. Median of Two Sorted Arrays](./solution/Solution_0004.cpp)<br>
