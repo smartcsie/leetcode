@@ -6,6 +6,12 @@
 
 ---
 
+## 🤖 Solutions
+- [doocs](https://github.com/doocs/leetcode/tree/main/solution)
+- [walkccc](https://github.com/walkccc/LeetCode/tree/main/solutions)
+
+---
+
 ## 🤖 Resource
 - **<span>[youngyangyang04](https://github.com/youngyangyang04/leetcode-master)</span>**
 - [BytebyteGo](https://bytebytego.com/courses/coding-patterns/two-pointers/introduction-to-two-pointers)
@@ -17,11 +23,11 @@
 - [算法模板](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)
 - [Ji0m0](https://hackmd.io/@Ji0m0/B1dUOaRjN/https%3A%2F%2Fhackmd.io%2F%40Ji0m0%2FHyAgG6bU_)
 - [algo.monster](http://algo.monsterhttps://algo.monster/liteproblems/662)
-- [doocs](https://github.com/doocs/leetcode/tree/main/solution)
 - [Top 10 Algorithms in Interview Questions](https://www.geeksforgeeks.org/dsa/top-10-algorithms-in-interview-questions/)
 - [九章基础班.md](https://github.com/cookieisaac/leetcode/blob/master/%E4%B9%9D%E7%AB%A0%E5%9F%BA%E7%A1%80%E7%8F%AD.md)
 - [leetcode-patterns](https://seanprashad.com/leetcode-patterns/)
 - **<span>[neetcode.io</span>](https://neetcode.io/solutions/concatenation-of-array)</span>**
+
 ---
 ## 🤖 電子書
 - [Cracking the Coding Interview 6th 中文](https://github.com/F8F-1BearCat/CtCI-6th-Edition-CN/tree/master)
