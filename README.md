@@ -772,6 +772,7 @@ __builtin_popcount(x)<br>
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Array / Counting Sort | [C++](./solution/Solution_1051.cpp) | O(N) | O(1) |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | Counting Sort | [C++](./solution/Solution_1122.cpp) | O(N + M) | O(1) |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String <br> Sorting <br> Bucket Sort | [C++](./solution/Solution_1859.cpp) | O(N) | O(N) |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | String <br> Counting Sort | [C++](./solution/Solution_2785.cpp) | O(N) | O(1) | 
 | 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | Greedy <br> Counting Sort | [C++](./solution/Solution_3517.cpp) | O(N) | O(1) | 
 
 <br><br>
