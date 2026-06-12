@@ -770,6 +770,7 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | Hash Table <br> Bucket Sort | [C++](./solution/Solution_0451.cpp) | O(N) | O(N) |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Array / Counting Sort | [C++](./solution/Solution_1051.cpp) | O(N) | O(1) |
+| 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | Counting Sort | [C++](./solution/Solution_1122.cpp) | O(N + M) | O(1) |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String <br> Sorting <br> Bucket Sort | [C++](./solution/Solution_1859.cpp) | O(N) | O(N) |
 | 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | Greedy <br> Counting Sort | [C++](./solution/Solution_3517.cpp) | O(N) | O(1) | 
 
