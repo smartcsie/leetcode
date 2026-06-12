@@ -354,6 +354,7 @@ __builtin_popcount(x)<br>
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array <br> Hash Table <br> Prefix Sum | [C++](./solution/Solution_0560.cpp) | O(N) | O(N) |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | Array <br> Prefix Sum | [C++](./solution/Solution_0724.cpp) | O(N) | O(1) |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 Easy | Array <br> Prefix Sum | [C++](./solution/Solution_1480.cpp) | O(N) | O(1) |
+| 1685 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | 🟡 Medium | Array <br> Prefix Sum <br> Math | [C++](./solution/Solution_1685.cpp) | O(N) | O(N) |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | Array <br> Prefix Sum | [C++](./solution/Solution_2559.cpp) | O(N + Q) | O(N) |
 
 <br><br>
