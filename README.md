@@ -268,6 +268,7 @@ __builtin_popcount(x)<br>
 ## <a name="array"></a>🍱 Array (陣列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array / Simulation | [C++](./solution/Solution_0054.cpp) | O(M * N) | O(1) | 
 | 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | Array <br> Interval | [C++](./solution/Solution_0057.cpp) | O(N) | O(N) |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array / Simulation | [C++](./solution/Solution_0059.cpp) | O(N²) | O(1) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](./solution/Solution_0189.cpp) | O(n) | O(1) |
