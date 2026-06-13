@@ -629,7 +629,7 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
-## <a name="monotonic-stack"></a>📚 Monotonic Stack (堆疊)
+## <a name="monotonic-stack"></a>📚 Monotonic Stack (單調堆疊)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | Array  <br> Hash Table  <br> Stack  <br> Monotonic Stack | [C++](./solution/Solution_0496.cpp) | O(N + M) | O(N) |
@@ -639,6 +639,16 @@ __builtin_popcount(x)<br>
 
 <br><br>
 ---
+
+## <a name="monotonic-queue"></a>📚 Monotonic Queue (單調柱列)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Monotonic Queue / Sliding Window | [C++](./solution/Solution_0239.cpp) | O(N) | O(K) |
+
+<br><br>
+---
+
+
 
 ## <a name="tree"></a>🌳 Tree (樹結構)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
