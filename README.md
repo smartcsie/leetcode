@@ -880,9 +880,19 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | DP <br> Unbounded Knapsack (Permutation) | [C++](./solution/Solution_0070.cpp) | O(N) | O(N) |
+| 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0279.cpp) | O(N * √N) | O(N) |
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0322.cpp) | O(A * N) | O(A) |
 | 0377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium |  DP <br> Unbounded Knapsack (Permutation | [C++](./solution/Solution_0377.cpp) | O(A * N) | O(A) |
 | 0518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0518.cpp) | O(N * A) | O(A) |
+
+> [!NOTE]
+> [0279.Perfect Squares](./solution/Solution_0279.cpp)和[0322.Coin Change](./solution/Solution_0322.cpp)<br>
+> 279. Perfect Squares 本質上就是「湊出金額 n 所需的最少物品數」，與 322. Coin Change 完全一致，<br>
+> 差別僅在於「硬幣」變成了一組「完全平方數」{1, 4, 9, 16,....\}。<br>
+> <br>
+
+
+
 <br><br>
 ---
 
