@@ -858,7 +858,6 @@ __builtin_popcount(x)<br>
 | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | Dynamic Programming <br> Math | [C++](./solution/Solution_0264.cpp) | O(n) | O(n) |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Array <br> Dynamic Programming | [C++](./solution/Solution_0300.cpp) | O(nlogn) | O(n) |
 | 0337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | Tree <br> DP | [C++](./solution/Solution_0337.cpp) | O(N) | O(H) |
-| 0377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | DP <br> Permutation | [C++](./solution/Solution_0377.cpp) | O(A * N) | O(A) |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Math <br> Dynamic Programming | [C++](./solution/Solution_0509.cpp) | O(n) | O(1) | 
 | 0583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_0583.cpp) | O(m*n) | O(m*n) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_1143.cpp) | O(m*n) | O(m*n) |
@@ -880,6 +879,7 @@ __builtin_popcount(x)<br>
 ## <a name="knapsack-problem"></a>🧩 Unbounded Knapsack Problem (無限大小背包問題)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium |  DP <br> Unbounded Knapsack (Permutation | [C++](./solution/Solution_0377.cpp) | O(A * N) | O(A) |
 | 0518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0518.cpp) | O(N * A) | O(A) |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | DP <br> Unbounded Knapsack (Permutation) | [C++](./solution/Solution_0070.cpp) | O(N) | O(N) |
 <br><br>
