@@ -866,14 +866,22 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
-## <a name="knapsack-problem"></a>🧩 0/1 Knapsack Problem 、Fractional Knapsack Problem (背包問題)
+## <a name="knapsack-problem"></a>🧩 0/1 Knapsack Problem  (0/1背包問題)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | DP <br> Bit Manipulation | [C++](./solution/Solution_0416.cpp) | O(N * S/W) | O(S/W) |
-| 0474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | DP / 0-1 Knapsack | [C++](./solution/Solution_0474.cpp) | O(L * m * n) | O(m * n) |
-| 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | DP / 0-1 Knapsack | [C++](./solution/Solution_0494.cpp) | O(N * S) | O(S) |
-| 0518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP / Unbounded Knapsack | [C++](./solution/Solution_0518.cpp) | O(N * A) | O(A) |
+| 0474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | DP <br> 0-1 Knapsack | [C++](./solution/Solution_0474.cpp) | O(L * m * n) | O(m * n) |
+| 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | DP <br> 0-1 Knapsack | [C++](./solution/Solution_0494.cpp) | O(N * S) | O(S) |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | DP <br> 0-1 Knapsack | [C++](./solution/Solution_1049.cpp) | O(N * S) | O(S) |
+<br><br>
+---
+
+
+## <a name="knapsack-problem"></a>🧩 Unbounded Knapsack Problem (無限大小背包問題)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0518.cpp) | O(N * A) | O(A) |
+| 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | DP <br> Unbounded Knapsack (Permutation) | [C++](./solution/Solution_0070.cpp) | O(N) | O(N) |
 <br><br>
 ---
 
