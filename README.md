@@ -884,6 +884,7 @@ __builtin_popcount(x)<br>
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0322.cpp) | O(A * N) | O(A) |
 | 0377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium |  DP <br> Unbounded Knapsack (Permutation | [C++](./solution/Solution_0377.cpp) | O(A * N) | O(A) |
 | 0518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0518.cpp) | O(N * A) | O(A) |
+| 0139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | DP  <br> Unbounded Knapsack | [C++](./solution/Solution_0139.cpp) | O(N^3) | O(N) | 
 
 > [!NOTE]
 > [0279.Perfect Squares](./solution/Solution_0279.cpp)和[0322.Coin Change](./solution/Solution_0322.cpp)<br>
