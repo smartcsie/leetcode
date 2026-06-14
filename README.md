@@ -880,6 +880,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | DP <br> Unbounded Knapsack (Permutation) | [C++](./solution/Solution_0070.cpp) | O(N) | O(N) |
+| 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0322.cpp) | O(A * N) | O(A) |
 | 0377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium |  DP <br> Unbounded Knapsack (Permutation | [C++](./solution/Solution_0377.cpp) | O(A * N) | O(A) |
 | 0518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0518.cpp) | O(N * A) | O(A) |
 <br><br>
