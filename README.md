@@ -415,6 +415,8 @@ __builtin_popcount(x)<br>
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array <br> Fast-Slow Pointers | [C++](./solution/Solution_0287.cpp) | O(n) | O(1) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 Easy | Linked List <br> Fast-Slow Pointers | [C++](./solution/Solution_0876.cpp) | O(n) | O(1) |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | Linked List <br> Fast-Slow Pointers | [C++](./solution/Solution_2095.cpp) | O(N) | O(1) |
+| 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | Linked List <br> Two Pointers | [C++](./solution/Solution_2130.cpp) | O(N) | O(1) |
+
 > [!NOTE]
 > **Floyd's Cycle Detection(龜兔賽跑)** 偵測環
 > [0141. Linked List Cycle](./solution/Solution_0141.cpp)<br>
