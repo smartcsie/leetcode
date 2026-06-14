@@ -871,6 +871,7 @@ __builtin_popcount(x)<br>
 | 0416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | DP <br> Bit Manipulation | [C++](./solution/Solution_0416.cpp) | O(N * S/W) | O(S/W) |
 | 0474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | DP / 0-1 Knapsack | [C++](./solution/Solution_0474.cpp) | O(L * m * n) | O(m * n) |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | DP / 0-1 Knapsack | [C++](./solution/Solution_0494.cpp) | O(N * S) | O(S) |
+| 0518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP / Unbounded Knapsack | [C++](./solution/Solution_0518.cpp) | O(N * A) | O(A) |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | DP <br> 0-1 Knapsack | [C++](./solution/Solution_1049.cpp) | O(N * S) | O(S) |
 <br><br>
 ---
