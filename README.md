@@ -171,12 +171,12 @@ __builtin_popcount(x)<br>
 
 
 ### 0066. Plus One <br>
-[Plus One](https://leetcode.com/problems/plus-one/)<br>
+> [Plus One](https://leetcode.com/problems/plus-one/)<br>
 > **從最後一個digit，digit[n-1]往digit[0]，如果小於9 +1 return，否則設成0 往下個loop，最後在front insert 1 <br>
 ---
 
 ### 0172 Factorial Trailing Zeroes <br>
-[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
+> [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
 > **勒讓德定理 (Legendre's Formula)<br>
 ---
 
