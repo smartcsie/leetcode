@@ -134,7 +134,6 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0007 | <div style="width: 600px">[Reverse Integer](https://leetcode.com/problems/reverse-integer/)</div> | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) |
-| - | **以下是插入的跨欄說明內容以下是插入的跨欄說明內容以下是插入的跨欄說明內容** | - | - | - | - | - |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) | O(logn) | O(1) |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math <br> Binary Exponentiation | [C++](./solution/Solution_0050.cpp) | O(log N) | O(1) |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](./solution/Solution_0066.cpp) | O(n) | O(1) |
