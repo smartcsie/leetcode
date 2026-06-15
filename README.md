@@ -186,10 +186,12 @@ __builtin_popcount(x)<br>
 
 
 ---
-> [3340] 奇數index和偶數index數字相加要相等br>
+> 3340.[Check Balanced String](https://leetcode.com/problems/check-balanced-string/)<br>
+> 奇數index和偶數index數字相加要相等<br>
 
 ---
-> [3512] 全部加起來除以k取餘數，可以一邊加，一邊取餘數br>
+> 3512.[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/)<br>
+> 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>
 > 
 <br><br>
 ---
