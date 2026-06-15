@@ -1,32 +1,28 @@
-
 /**
- * 解題思路：動態規劃 (Dynamic Programming)
- * 1. 狀態定義：dp[i] 代表以 nums[i] 這個數字作為「結尾」的最長遞增子序列長度。
- * 2. 初始狀態：每個數字本身都能構成一個長度為 1 的子序列，故 dp 陣列初始化全為 1。
- * 3. 狀態轉移方程：
- *    - 對於當前數字 nums[i]，我們遍歷它之前的所有數字 nums[j] (0 <= j < i)。
- *    - 如果 nums[i] > nums[j]，說明 nums[i] 可以接在以 nums[j] 結尾的遞增序列後面。
- *    - 此時長度會變成 dp[j] + 1。
- *    - 我們要取所有可能情況的最大值：dp[i] = max(dp[i], dp[j] + 1)。
- * 4. 最終結果：整個 dp 陣列中的最大值即為答案。
+ * 題目：300. Longest Increasing Subsequence (最長遞增子序列)
+ * 難度：中等 (Medium)
+ * 描述：給你一個整數陣列 nums，找到其中最長嚴格遞增子序列的長度。
  * 
- * Time Complexity: O(n^2) - 雙重迴圈遍歷。
- * Space Complexity: O(n) - 需要一個長度為 n 的 dp 陣列。
+ * 時間複雜度：O(n log n) - 遍歷陣列一次 O(n)，每次處理使用二分搜尋 O(log n)。
+ * 空間複雜度：O(n) - 最壞情況下需要儲存與原陣列等長的序列。
+ * 
+ * 解法：耐心排序 (Patience Sorting) / 二分搜尋優化
+ * 維護一個 tails 陣列，tails[i] 代表長度為 i+1 的遞增子序列中，結尾最小的數字。
+ * 透過不斷更新這個陣列，我們可以確保子序列增長得最慢，從而留下更多空間給後面的數字。
  */
-
 
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> dp(n, 1);
-        int lis = 1;
-        for(int i = 1; i < n ;i++) {
-            for(int j = 0; j < i ;j++) {
-                if(nums[i] > nums[j]) dp[i] = max(dp[i], dp[j] + 1);
+        vector<int> tails;
+        for (int x : nums) {
+            auto it = lower_bound(tails.begin(), tails.end(), x);
+            if (it == tails.end()) {
+                tails.push_back(x);
+            } else {
+                *it = x;
             }
-            lis = max(lis, dp[i]);
         }
-        return lis;
+        return tails.size();
     }
 };
