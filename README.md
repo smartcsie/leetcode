@@ -167,7 +167,7 @@ __builtin_popcount(x)<br>
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) |
 
-> [!NOTE]
+
 > 172.[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
 > **勒讓德定理 (Legendre's Formula)<br>
 
@@ -175,20 +175,20 @@ __builtin_popcount(x)<br>
 > 1572.[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum)<br>
 > 如果 i == (n-1-i) 則sum只加matrix[i][i] 否則sum加matrix[i][i]和matrix[i][n-1-i]，為了奇術矩陣去中重中間元素<br>
 
-> [!NOTE] 
+---
 > 1952.[Three Divisors](https://leetcode.com/problems/three-divisors)<br>
 > 一個整數若恰好有三個正因數，這個數字必然是一個「質數的平方」。<br>
 
-> [!NOTE]
+---
 > 1980.[ Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string)<br>
 > **康托爾對角線證明 (Cantor's Diagonal Argument)**，第i個binary string的第i個character反轉，能產生不重覆的binary string<br>
 
 
 
-> [!NOTE] 
+---
 > [3340] 奇數index和偶數index數字相加要相等br>
 
-> [!NOTE] 
+---
 > [3512] 全部加起來除以k取餘數，可以一邊加，一邊取餘數br>
 > 
 <br><br>
