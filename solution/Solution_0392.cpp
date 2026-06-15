@@ -13,14 +13,14 @@
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
+        if(s.empty()) return true;
         int i = 0;
-        int j = 0;
-        while( i < s.length() &&  j < t.length()) {
-            if(s[i] == t[j]) {
+        for(const char& c : t) {
+            if(s[i] == c) {
                 i++;
-            }  
-            j++;
+            }
+            if(i == s.size()) return true;
         }
-        return (i == s.length());
+        return false;
     }
 };
