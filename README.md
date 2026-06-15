@@ -273,10 +273,8 @@ __builtin_popcount(x)<br>
 ---
 
 > 0191.[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)<br>
-> 使用 **Brian Kernighan's Algorithm**<br>
-> 有 build in function可以用<br>
-> C++20，std::popcount(static_cast<unsigned int>(n))<br>
-> 若編譯器(GCC/Clang)支援， __builtin_popcount(n) <br>
+> 使用 **Brian Kernighan's Algorithm** ， 有 build in function可以用<br>
+> **(1)** C++20，std::popcount(static_cast<unsigned int>(n)) 或  **(2)** 若編譯器(GCC/Clang)支援， __builtin_popcount(n) <br>
 ---
 
 > 0260.[Single Number III](https://leetcode.com/problems/single-number-iii) 
@@ -286,8 +284,7 @@ __builtin_popcount(x)<br>
 ---
 > 1684. [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)<br>
 > 為什麼選擇 int mask 而非 bitset？<br>
-> int (或 long) 的運算直接對應 CPU 的暫存器指令，在這種極小範圍 (26 bits) 的情況下，<br>
-> 它的運算速度幾乎是瞬間完成，且不需要引入額外的標頭檔 (<bitset>)，代碼更簡潔。<br>
+> int (或 long) 的運算直接對應 CPU 的暫存器指令，在這種極小範圍 (26 bits) 的情況下，它的運算速度幾乎是瞬間完成，且不需要引入額外的標頭檔 (<bitset>)，代碼更簡潔。<br>
 > [1684 Number Complement](./solution/Solution_0476.cpp)和[1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp)<br>
 > 本質上是相同的題目。<br>
 
