@@ -170,7 +170,7 @@ __builtin_popcount(x)<br>
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) ||
 
 
-> ### 0066. Plus One.[Plus One](https://leetcode.com/problems/plus-one/)<br>
+### 0066. Plus One.[Plus One](https://leetcode.com/problems/plus-one/)<br>
 > **從最後一個digit，digit[n-1]往digit[0]，如果小於9 +1 return，否則設成0 往下個loop，最後在front insert 1 <br>
 ---
 
