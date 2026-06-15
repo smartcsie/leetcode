@@ -185,6 +185,11 @@ __builtin_popcount(x)<br>
 > (num - 1) % 9 + 1<br>
 ---
 
+
+> 258.[Ugly Number](https://leetcode.com/problems/ugly-number)
+> n如果可被2整除，n除以2，n如果可被3整除，n除以3，n如果可被5整除，n除以5，最後是否等於1<br>
+---
+
 > 326.[Power of Three](https://leetcode.com/problems/power-of-three/)<br>
 > (n > 0) && static_cast<int>(pow(3, 19)) % n == 0<br>
 ---
