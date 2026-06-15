@@ -157,8 +157,8 @@ __builtin_popcount(x)<br>
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | Matrix | [C++](./solution/Solution_1572.cpp) | O(N) | O(1) |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1822.cpp) | O(N) | O(1) |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logKN) | O(1) |
-| 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math <br>  String | [C++](./solution/Solution_1980.cpp) | O(N²) | O(N) |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math | [C++](./solution/Solution_1952.cpp) | O(sqrt(N)) | O(1) |
+| 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math <br>  String | [C++](./solution/Solution_1980.cpp) | O(N²) | O(N) |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](./solution/Solution_2177.cpp) | O(1) | O(1) |
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math <br> Brainteaser | [C++](./solution/Solution_2396.cpp) | O(1) | O(1) | 
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) |
@@ -168,15 +168,19 @@ __builtin_popcount(x)<br>
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) |
 
 > [!NOTE]
+> 172.[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
 > **勒讓德定理 (Legendre's Formula)<br>
->  [172. Factorial Trailing Zeroes](./solution/Solution_0172.cpp)<br>
-
-> [!NOTE]
-> **康托爾對角線證明 (Cantor's Diagonal Argument)**<br>
->  [1980. Find Unique Binary String](./solution/Solution_1980.cpp)<br>
 
 > [!NOTE] 
-> [1952] 一個整數若恰好有三個正因數，這個數字必然是一個「質數的平方」。<br>
+> 1952.[Three Divisors](https://leetcode.com/problems/three-divisors)<br>
+> 一個整數若恰好有三個正因數，這個數字必然是一個「質數的平方」。<br>
+
+> [!NOTE]
+> 1980.[ Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string)<br>
+> **康托爾對角線證明 (Cantor's Diagonal Argument)**，第i個binary string的第i個character反轉，能產生不重覆的binary string<br>
+
+
+
 > [!NOTE] 
 > [3340] 奇數index和偶數index數字相加要相等br>
 
