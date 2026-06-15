@@ -170,20 +170,32 @@ __builtin_popcount(x)<br>
 
 > 66.[Plus One](https://leetcode.com/problems/plus-one/)<br>
 > **從最後一個digit，digit[n-1]往digit[0]，如果小於9 +1 return，否則設成0 往下個loop，最後在front insert 1 <br>
-
 ---
+
 > 172.[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
 > **勒讓德定理 (Legendre's Formula)<br>
-
 ---
+
+> 231.[Power of Two](https://leetcode.com/problems/power-of-two/)<br>
+> (n > 0) && (n & (n-1)) == 0 <br>
+---
+
+> 326.[Power of Three](https://leetcode.com/problems/power-of-three/)<br>
+> (n > 0) && static_cast<int>(pow(3, 19)) % n == 0<br>
+---
+
+> 342.[Power of Four](https://leetcode.com/problems/power-of-four/)<br>
+> (n > 0) && (n & (n-1)) == 0 && (n & 0x55555555) != 0，Power of Two多加 **(n & 0x55555555) != 0**<br>
+---
+
 > 1017.[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2)<br>
 > while(n != 0) {    res = to_string(n & 1) + res;   n  = -(n>>1);}，不等於0是因為有正負<br>
-
 ---
+
 > 1572.[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum)<br>
 > 如果 i == (n-1-i) 則sum只加matrix[i][i] 否則sum加matrix[i][i]和matrix[i][n-1-i]，為了奇術矩陣去中重中間元素<br>
-
 ---
+
 > 1952.[Three Divisors](https://leetcode.com/problems/three-divisors)<br>
 > 一個整數若恰好有三個正因數，這個數字必然是一個「質數的平方」。<br>
 
