@@ -172,6 +172,10 @@ __builtin_popcount(x)<br>
 > **勒讓德定理 (Legendre's Formula)<br>
 
 > [!NOTE] 
+> 1572.[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum)<br>
+> 如果 i == (n-1-i) 則sum只加matrix[i][i] 否則sum加matrix[i][i]和matrix[i][n-1-i]，為了奇術矩陣去中重中間元素<br>
+
+> [!NOTE] 
 > 1952.[Three Divisors](https://leetcode.com/problems/three-divisors)<br>
 > 一個整數若恰好有三個正因數，這個數字必然是一個「質數的平方」。<br>
 
