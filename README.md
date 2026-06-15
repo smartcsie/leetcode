@@ -168,13 +168,21 @@ __builtin_popcount(x)<br>
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) |
 
 > [!NOTE]
-> **康托爾對角線證明 (Cantor's Diagonal Argument)**<br>
->  [1980. Find Unique Binary String](./solution/Solution_1980.cpp)<br>
-
-> [!NOTE]
 > **勒讓德定理 (Legendre's Formula)<br>
 >  [172. Factorial Trailing Zeroes](./solution/Solution_0172.cpp)<br>
 
+> [!NOTE]
+> **康托爾對角線證明 (Cantor's Diagonal Argument)**<br>
+>  [1980. Find Unique Binary String](./solution/Solution_1980.cpp)<br>
+
+> [!NOTE] 
+> [1952] 一個整數若恰好有三個正因數，這個數字必然是一個「質數的平方」。<br>
+> [!NOTE] 
+> [3340] 奇數index和偶數index數字相加要相等br>
+
+> [!NOTE] 
+> [3512] 全部加起來除以k取餘數，可以一邊加，一邊取餘數br>
+> 
 <br><br>
 ---
 
