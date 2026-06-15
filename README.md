@@ -141,7 +141,7 @@ __builtin_popcount(x)<br>
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](./solution/Solution_0066.cpp) | O(n) | O(1) |[查看詳解](#0066-plus-one) |
 | 0067 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0067.cpp) | O(max(M, N)) | O(1) ||
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math <br> Hash Set | [C++](./solution/Solution_0137_1.cpp) | O(n) | O(n) ||
-| 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 Medium | Math | [C++](./solution/Solution_0172.cpp) | O(log5 N) | O(1) ||
+| 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 Medium | Math | [C++](./solution/Solution_0172.cpp) | O(log5 N) | O(1) ||[查看詳解](#0172-factorial-trailing-zeroes|
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](./solution/Solution_0231.cpp) | O(1) | O(1) ||
 | 0258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](./solution/Solution_0258.cpp) | O(1) | O(1) ||
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](./solution/Solution_0263.cpp) | O(logn) | O(1) ||
@@ -170,11 +170,13 @@ __builtin_popcount(x)<br>
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) ||
 
 
-### 0066. Plus One.[Plus One](https://leetcode.com/problems/plus-one/)<br>
+### 0066. Plus One <br>
+[Plus One](https://leetcode.com/problems/plus-one/)<br>
 > **從最後一個digit，digit[n-1]往digit[0]，如果小於9 +1 return，否則設成0 往下個loop，最後在front insert 1 <br>
 ---
 
-> 172.[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
+### 0172 Factorial Trailing Zeroes <br>
+[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
 > **勒讓德定理 (Legendre's Formula)<br>
 ---
 
