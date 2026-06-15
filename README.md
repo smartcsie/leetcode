@@ -180,6 +180,11 @@ __builtin_popcount(x)<br>
 > (n > 0) && (n & (n-1)) == 0 <br>
 ---
 
+
+> 258.[Add Digits](https://leetcode.com/problems/add-digits)<br>
+> (num - 1) % 9 + 1<br>
+---
+
 > 326.[Power of Three](https://leetcode.com/problems/power-of-three/)<br>
 > (n > 0) && static_cast<int>(pow(3, 19)) % n == 0<br>
 ---
