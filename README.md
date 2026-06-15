@@ -198,6 +198,10 @@ __builtin_popcount(x)<br>
 > (n > 0) && (n & (n-1)) == 0 && (n & 0x55555555) != 0，Power of Two多加 **(n & 0x55555555) != 0**<br>
 ---
 
+> 504.[Base 7](https://leetcode.com/problems/base-7) <br>
+> 先用bool紀錄正負號，因為有正負號，while(n != 0)，餘數mod 7，如果為負乘上-1，＋'0'轉char push_back到string尾端，最後reverse<br>
+---
+
 > 1017.[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2)<br>
 > while(n != 0) {    res = to_string(n & 1) + res;   n  = -(n>>1);}，不等於0是因為有正負<br>
 ---
