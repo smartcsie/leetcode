@@ -873,6 +873,7 @@ __builtin_popcount(x)<br>
 ## <a name="dynamic-programming"></a>🧩 Dynamic Programming - LCS (最長共同子序列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | DP <br> String | [C++](./solution/Solution_0072.cpp) | O(N * M) | O(N * M) |
 | 0115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | DP / String | [C++](./solution/Solution_0115.cpp) | O(S * T) | O(T) | 
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Array <br> Dynamic Programming | [C++](./solution/Solution_0300_1.cpp) | O(N²) | O(n) |
 | 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | DP / LCS | [C++](./solution/Solution_0392_1.cpp) | O(S * T) | O(S * T) |
