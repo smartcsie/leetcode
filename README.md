@@ -167,7 +167,7 @@ __builtin_popcount(x)<br>
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) |
 
-
+> [!ABC]
 > 172.[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
 > **勒讓德定理 (Legendre's Formula)<br>
 
