@@ -9,18 +9,13 @@
  * 這等同於 x = S % k。
  */
 
-#include <vector>
-#include <numeric>
-
 class Solution {
 public:
     int minOperations(vector<int>& nums, int k) {
-        long long sum = 0;
-        for (int num : nums) {
-            sum += num;
+        int sum = 0;
+        for(const int& num : nums) {
+            sum += num % k;
         }
-        
-        // 總和對 k 取餘數，即為最少需要減去的次數
         return sum % k;
     }
 };
