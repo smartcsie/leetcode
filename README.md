@@ -171,7 +171,7 @@ __builtin_popcount(x)<br>
 > 172.[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
 > **勒讓德定理 (Legendre's Formula)<br>
 
-> [!NOTE] 
+---
 > 1572.[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum)<br>
 > 如果 i == (n-1-i) 則sum只加matrix[i][i] 否則sum加matrix[i][i]和matrix[i][n-1-i]，為了奇術矩陣去中重中間元素<br>
 
