@@ -886,6 +886,7 @@ __builtin_popcount(x)<br>
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Array <br> Dynamic Programming | [C++](./solution/Solution_0300_1.cpp) | O(N²) | O(n) |
 | 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | DP / LCS | [C++](./solution/Solution_0392_1.cpp) | O(S * T) | O(S * T) |
 | 0583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_0583.cpp) | O(m*n) | O(m*n) |
+| 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | DP / String | [C++](./solution/Solution_0647.cpp) | O(N²) | O(N²) | 
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | DP <br> Array | [C++](./solution/Solution_0674_1.cpp) | O(N) | O(N) |
 | 0718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | DP <br> Array | [C++](./solution/Solution_0718.cpp) | O(N * M) | O(M) |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | DP <br> LCS | [C++](./solution/Solution_1035.cpp) | O(N * M) | O(M) |
