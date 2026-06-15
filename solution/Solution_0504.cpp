@@ -1,31 +1,29 @@
 /**
  * 題目：504. Base 7 (七進位轉換)
  * 難度：簡單 (Easy)
- * 描述：將給定的整數轉換為七進位字串。
- * * 時間複雜度：O(log7 N) - 每次除以 7，對數級別的時間複雜度。
- * 空間複雜度：O(1) - 僅使用常數額外空間儲存結果字串。
+ * 描述：將整數轉換為七進位字串。
+ * * 時間複雜度：O(log7(N)) - 每次除以 7，位數隨指數遞減。
+ * 空間複雜度：O(log7(N)) - 用於儲存結果字串。
  * * 優化思路：
- * 1. 處理 0 的特殊情況。
- * 2. 使用 long long 處理絕對值，防止 INT_MIN 轉正數時發生溢位。
- * 3. 採用 `res = to_string(n % 7) + res` 的方式正確拼接位數。
+ * 1. 處理負數：先記錄正負號，將 num 轉為正數進行轉換。
+ * 2. 進位轉換：利用 num % 7 取得餘數，num /= 7 進入下一位。
+ * 3. 輸出：反轉字串後加上正負號。
  */
 
 class Solution {
 public:
     string convertToBase7(int num) {
-        if (num == 0) return "0";
-        
+        if(num == 0) return "0";
         string res = "";
-        bool is_negative = num < 0;
-        
-        // 使用 long long 防止 abs(INT_MIN) 溢位
-        long long n = abs((long long)num);
-        
-        while (n > 0) {
-            res = to_string(n % 7) + res;
+        bool neg = (num < 0);
+        int n = num;
+        while(n != 0) {
+            int reminder = (n % 7) < 0 ? -(n % 7) : (n % 7);
+            res.push_back(reminder + '0');
             n /= 7;
         }
-        
-        return is_negative ? "-" + res : res;
+        if(neg) res.push_back('-');
+        reverse(res.begin(), res.end());
+        return res;
     }
 };
