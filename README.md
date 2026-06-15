@@ -131,6 +131,7 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
+<div style="width: 100%;">
 ## <a name="math"></a>🔢 Math (數學)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -167,7 +168,7 @@ __builtin_popcount(x)<br>
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) |
-
+</div>
 
 > 66.[Plus One](https://leetcode.com/problems/plus-one/)<br>
 > **從最後一個digit，digit[n-1]往digit[0]，如果小於9 +1 return，否則設成0 往下個loop，最後在front insert 1 <br>
