@@ -263,25 +263,31 @@ __builtin_popcount(x)<br>
 | 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2917.cpp) | O(N * log(max_val)) | O(1) |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) |
 
-> [!NOTE]
-> [0029 Divide Two Integers](./solution/Solution_0029.cpp) 是處理邊界的魔王題，這一題網路上掛一片，大部分偷用long long<br>
+---
 
-> [!NOTE]
-> [0260 Single Number III](./solution/Solution_0201.cpp) 是 Bit Manipulation 經典題目，目前只有**neetcode.io**有最佳解<br>
+> 0029.[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)<br>
+> 此題是處理邊界的魔王題，這一題網路上掛一片，大部分偷用long long<br>
 > 溢位處理有許多常見的解法，如 [meyr543](https://hackmd.io/@meyr543/rkSRWnXPK), [grandyang](https://www.cnblogs.com/grandyang/p/4741122.html),[doocs](https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0260.Single%20Number%20III/Solution.cpp),[BylwiCXPt](https://hackmd.io/@Inversionpeter/BylwiCXPt)<br>
 > 使用 'unsigned',`long long` 來處理 `INT_MIN` 的溢位，這在工程上屬於一種 **Workaround**<br>
-> 建議優先使用邏輯位移（`while` 迴圈）來避免對負數進行取補數運算，從而徹底解決溢位風險。<br>
+---
 
-> [!NOTE]
-> [1684 Count the Number of Consistent Strings](./solution/Solution_1684.cpp)<br>
+> 0191.[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)<br>
+> 使用 **Brian Kernighan's Algorithm**<br>
+> 有 build in function可以用<br>
+> C++20，std::popcount(static_cast<unsigned int>(n))<br>
+> 若編譯器(GCC/Clang)支援， __builtin_popcount(n) <br>
+---
+
+> 0260.[Single Number III](https://leetcode.com/problems/single-number-iii) 
+>  是 Bit Manipulation 經典題目，目前只有**neetcode.io**有最佳解<br>
+---
+
+---
+> 1684. [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)<br>
 > 為什麼選擇 int mask 而非 bitset？<br>
 > int (或 long) 的運算直接對應 CPU 的暫存器指令，在這種極小範圍 (26 bits) 的情況下，<br>
 > 它的運算速度幾乎是瞬間完成，且不需要引入額外的標頭檔 (<bitset>)，代碼更簡潔。<br>
-
-> [!NOTE]
-> [1684 Number Complement](./solution/Solution_0476.cpp)<br>
-> 和
-> [1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp)<br>
+> [1684 Number Complement](./solution/Solution_0476.cpp)和[1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp)<br>
 > 本質上是相同的題目。<br>
 
 <br><br>
