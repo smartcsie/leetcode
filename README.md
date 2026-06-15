@@ -176,6 +176,10 @@ __builtin_popcount(x)<br>
 > **勒讓德定理 (Legendre's Formula)<br>
 
 ---
+> 1017.[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2)<br>
+> while(n != 0) {    res = to_string(n & 1) + res;   n  = -(n>>1);}，不等於0是因為有正負<br>
+
+---
 > 1572.[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum)<br>
 > 如果 i == (n-1-i) 則sum只加matrix[i][i] 否則sum加matrix[i][i]和matrix[i][n-1-i]，為了奇術矩陣去中重中間元素<br>
 
