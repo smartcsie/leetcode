@@ -351,13 +351,14 @@ __builtin_popcount(x)<br>
 ## <a name="array"></a>🍱 Array (陣列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array / Simulation | [C++](./solution/Solution_0054.cpp) | O(M * N) | O(1) | 
+| 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array / Simulation | [C++](./solution/Solution_0054.cpp) | O(M*N) | O(1) | 
 | 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | Array <br> Interval | [C++](./solution/Solution_0057.cpp) | O(N) | O(N) |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array / Simulation | [C++](./solution/Solution_0059.cpp) | O(N²) | O(1) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](./solution/Solution_0189.cpp) | O(n) | O(1) |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) |
 | 0896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | Array | [C++](./solution/Solution_0896.cpp) | O(N) | O(1) |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | Array | [C++](./solution/Solution_1299.cpp) | O(N) | O(1) |
+| 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 Easy | Array / Simulation | [C++](./solution/Solution_1389.cpp) | O(N²) | O(N) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy | Array | [C++](./solution/Solution_1431.cpp) | O(N) | O(1)* |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | Array | [C++](./solution/Solution_1470.cpp) | O(N) | O(N) |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1662.cpp) | O(N + M) | O(1) |
