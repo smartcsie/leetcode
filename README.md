@@ -149,7 +149,7 @@ __builtin_popcount(x)<br>
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](./solution/Solution_0326.cpp) | O(log₃n) | O(1) | [Note](#0326-power-of-three) |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](./solution/Solution_0342.cpp) | O(1) | O(1) | [Note](#0342-power-of-four) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math / String | [C++](./solution/Solution_0412.cpp) | O(N) | O(1)* | |
-| 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0504.cpp) | O(log7N) | O(1) | [Note](#0504-base-7) |
+| 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0504.cpp) | O(log₇N) | O(1) | [Note](#0504-base-7) |
 | 0507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0507.cpp) | O(√N) | O(1) | |
 | 0633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Math / Two Pointers | [C++](./solution/Solution_0633.cpp) | O(sqrt(c)) | O(1) | |
 | 0628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_0628.cpp) | O(N) | O(1) | |
@@ -158,7 +158,7 @@ __builtin_popcount(x)<br>
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1295.cpp) | O(N) | O(1) | [Note](#1295-find-numbers-with-even-number-of-digits) |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | Matrix | [C++](./solution/Solution_1572.cpp) | O(N) | O(1) | [Note](#1572-matrix-diagonal-sum) |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1822.cpp) | O(N) | O(1) | |
-| 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logKN) | O(1) | |
+| 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logₖN) | O(1) | |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math | [C++](./solution/Solution_1952.cpp) | O(sqrt(N)) | O(1) | [Note](#1952-three-divisors) |
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math <br> String | [C++](./solution/Solution_1980.cpp) | O(N²) | O(N) | [Note](#1980-find-unique-binary-string) |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](./solution/Solution_2177.cpp) | O(1) | O(1) | |
@@ -594,7 +594,7 @@ __builtin_popcount(x)<br>
 ## <a name="two-pointers-center-expansion"></a>👥 Two Pointers - Center Expansion (中心擴展型)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | DP / String | [C++](./solution/Solution_0647.cpp) | O(N^2) | O(N) | 
+| 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | DP / String | [C++](./solution/Solution_0647.cpp) | O(N²) | O(N) | 
 
 <br><br>
 ---
@@ -1042,7 +1042,7 @@ __builtin_popcount(x)<br>
 | 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0047.cpp) | O(N*N!) | O(N) |
 | 0077 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0077.cpp) | O(k * C(n, k)) | O(k) |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking / Recursion <br> Bit Manipulation | [C++](./solution/Solution_0078.cpp) | O(N*2ᴺ) | O(N) |
-| 0079 |[Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | DFS / Backtracking | [C++](./solution/Solution_0079.cpp) | O(N * 3^L) | O(L) |
+| 0079 |[Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | DFS / Backtracking | [C++](./solution/Solution_0079.cpp) | O(N*3ᴸ) | O(L) |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0090.cpp) | O(N*2ᴺ) | O(N) |
 | 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0039.cpp) | O(N^(T/M)) | O(T/M) |
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0040.cpp) | O(2ᴺ) | O(N) |
