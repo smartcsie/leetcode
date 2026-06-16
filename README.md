@@ -135,39 +135,39 @@ __builtin_popcount(x)<br>
 ## <a name="math"></a>🔢 Math (數學)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0007 | <div style="width: 600px">[Reverse Integer](https://leetcode.com/problems/reverse-integer/)</div> | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) ||
-| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) | O(logn) | O(1) ||
-| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math <br> Binary Exponentiation | [C++](./solution/Solution_0050.cpp) | O(log N) | O(1) ||
-| 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](./solution/Solution_0066.cpp) | O(n) | O(1) |[詳解](#0066-plus-one) |
-| 0067 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0067.cpp) | O(max(M, N)) | O(1) ||
-| 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math <br> Hash Set | [C++](./solution/Solution_0137_1.cpp) | O(n) | O(n) ||
-| 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 Medium | Math | [C++](./solution/Solution_0172.cpp) | O(log₅N) | O(1) |[詳解](#0172-factorial-trailing-zeroes)   |
-| 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](./solution/Solution_0231.cpp) | O(1) | O(1) ||
-| 0258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](./solution/Solution_0258.cpp) | O(1) | O(1) ||
-| 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](./solution/Solution_0263.cpp) | O(logn) | O(1) ||
-| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0268.cpp) | O(n) | O(1) ||
-| 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](./solution/Solution_0326.cpp) | O(log₃n) | O(1) ||
-| 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](./solution/Solution_0342.cpp) | O(1) | O(1) ||
-| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math / String | [C++](./solution/Solution_0412.cpp) | O(N) | O(1)* ||
-| 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br>  String | [C++](./solution/Solution_0504.cpp) | O(log7N) | O(1) ||
-| 0507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0507.cpp) | O(√N) | O(1) ||
-| 0633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Math / Two Pointers | [C++](./solution/Solution_0633.cpp) | O(sqrt(c)) | O(1) ||
-| 0628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_0628.cpp) | O(N) | O(1) ||
-| 0970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math / Hash Table | [C++](./solution/Solution_0970.cpp) | O(log_x(bound) * log_y(bound)) | O(S) ||
-| 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math | [C++](./solution/Solution_1017.cpp) | O(logN) | O(1) ||
-| 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Array <br>  Math | [C++](./solution/Solution_1295.cpp) | O(N) | O(1) ||
-| 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | Matrix | [C++](./solution/Solution_1572.cpp) | O(N) | O(1) ||
-| 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1822.cpp) | O(N) | O(1) ||
-| 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logKN) | O(1) ||
-| 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math | [C++](./solution/Solution_1952.cpp) | O(sqrt(N)) | O(1) ||
-| 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math <br>  String | [C++](./solution/Solution_1980.cpp) | O(N²) | O(N) ||
-| 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](./solution/Solution_2177.cpp) | O(1) | O(1) ||
-| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math <br> Brainteaser | [C++](./solution/Solution_2396.cpp) | O(1) | O(1) ||
-| 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) ||
-| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) ||
-| 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) ||
-| 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) ||
-| 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) ||
+| 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) | |
+| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) | O(logn) | O(1) | |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math <br> Binary Exponentiation | [C++](./solution/Solution_0050.cpp) | O(log N) | O(1) | |
+| 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](./solution/Solution_0066.cpp) | O(n) | O(1) | [Note](#0066-plus-one) |
+| 0067 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0067.cpp) | O(max(M, N)) | O(1) | |
+| 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math <br> Hash Set | [C++](./solution/Solution_0137_1.cpp) | O(n) | O(n) | |
+| 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 Medium | Math | [C++](./solution/Solution_0172.cpp) | O(log₅N) | O(1) | [Note](#0172-factorial-trailing-zeroes) |
+| 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](./solution/Solution_0231.cpp) | O(1) | O(1) | [Note](#0231-power-of-two) |
+| 0258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](./solution/Solution_0258.cpp) | O(1) | O(1) | [Note](#0258-add-digits) |
+| 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](./solution/Solution_0263.cpp) | O(logn) | O(1) | [Note](#0263-ugly-number) |
+| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0268.cpp) | O(n) | O(1) | |
+| 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](./solution/Solution_0326.cpp) | O(log₃n) | O(1) | [Note](#0326-power-of-three) |
+| 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](./solution/Solution_0342.cpp) | O(1) | O(1) | [Note](#0342-power-of-four) |
+| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math / String | [C++](./solution/Solution_0412.cpp) | O(N) | O(1)* | |
+| 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0504.cpp) | O(log7N) | O(1) | [Note](#0504-base-7) |
+| 0507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0507.cpp) | O(√N) | O(1) | |
+| 0633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Math / Two Pointers | [C++](./solution/Solution_0633.cpp) | O(sqrt(c)) | O(1) | |
+| 0628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_0628.cpp) | O(N) | O(1) | |
+| 0970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math / Hash Table | [C++](./solution/Solution_0970.cpp) | O(log_x(bound) * log_y(bound)) | O(S) | |
+| 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math | [C++](./solution/Solution_1017.cpp) | O(logN) | O(1) | [Note](#1017-convert-to-base-2) |
+| 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1295.cpp) | O(N) | O(1) | [Note](#1295-find-numbers-with-even-number-of-digits) |
+| 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | Matrix | [C++](./solution/Solution_1572.cpp) | O(N) | O(1) | [Note](#1572-matrix-diagonal-sum) |
+| 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1822.cpp) | O(N) | O(1) | |
+| 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logKN) | O(1) | |
+| 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math | [C++](./solution/Solution_1952.cpp) | O(sqrt(N)) | O(1) | [Note](#1952-three-divisors) |
+| 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math <br> String | [C++](./solution/Solution_1980.cpp) | O(N²) | O(N) | [Note](#1980-find-unique-binary-string) |
+| 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](./solution/Solution_2177.cpp) | O(1) | O(1) | |
+| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math <br> Brainteaser | [C++](./solution/Solution_2396.cpp) | O(1) | O(1) | |
+| 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) | |
+| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) | |
+| 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) | |
+| 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
+| 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) | [Note](#3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 
 
 ### 0066. Plus One 
@@ -180,63 +180,74 @@ __builtin_popcount(x)<br>
 > **勒讓德定理 (Legendre's Formula)<br>
 ---
 
-> 231.[Power of Two](https://leetcode.com/problems/power-of-two/)<br>
+### 0231 Power of Two
+> [Power of Two](https://leetcode.com/problems/power-of-two/)<br>
 > (n > 0) && (n & (n-1)) == 0 <br>
 ---
 
-
-> 258.[Add Digits](https://leetcode.com/problems/add-digits)<br>
+### 0258 Add Digits
+> [Add Digits](https://leetcode.com/problems/add-digits)<br>
 > (num - 1) % 9 + 1<br>
 ---
 
-
-> 258.[Ugly Number](https://leetcode.com/problems/ugly-number)
+### 0263 Ugly Number
+> Ugly Number](https://leetcode.com/problems/ugly-number)
 > n如果可被2整除，n除以2，n如果可被3整除，n除以3，n如果可被5整除，n除以5，最後是否等於1<br>
 ---
 
-> 326.[Power of Three](https://leetcode.com/problems/power-of-three/)<br>
+### 0326 Power of Three
+> [Power of Three](https://leetcode.com/problems/power-of-three/)<br>
 > (n > 0) && static_cast<int>(pow(3, 19)) % n == 0<br>
 ---
 
-> 342.[Power of Four](https://leetcode.com/problems/power-of-four/)<br>
+### 0342 Power of Four
+> [Power of Four](https://leetcode.com/problems/power-of-four/)<br>
 > (n > 0) && (n & (n-1)) == 0 && (n & 0x55555555) != 0，Power of Two多加 **(n & 0x55555555) != 0**<br>
 ---
 
-> 504.[Base 7](https://leetcode.com/problems/base-7) <br>
+### 0504 Base 7
+> [Base 7](https://leetcode.com/problems/base-7) <br>
 > 先用bool紀錄正負號，因為有正負號，while(n != 0)，餘數mod 7，如果為負乘上-1，＋'0'轉char push_back到string尾端，最後reverse<br>
 ---
 
-> 1017.[Convert to Base -2](https://leetcode.com/problems/convert-to-base-2)<br>
+### 1017 Convert to Base -2
+> [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2)<br>
 > while(n != 0) {    res = to_string(n & 1) + res;   n  = -(n>>1);}，不等於0是因為有正負<br>
 ---
 
-> 1295.[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)
+### 1295 Find Numbers with Even Number of Digits
+> [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)
 > static_cast<int>(log10(num) + 1) % 2 == 0<br>
 ---
 
-> 1572.[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum)<br>
+### 1572 Matrix Diagonal Sum
+> [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum)<br>
 > 如果 i == (n-1-i) 則sum只加matrix[i][i] 否則sum加matrix[i][i]和matrix[i][n-1-i]，為了奇術矩陣去中重中間元素<br>
 ---
 
+### 1952 Three Divisors
 > 1952.[Three Divisors](https://leetcode.com/problems/three-divisors)<br>
 > 一個整數若恰好有三個正因數，這個數字必然是一個「質數的平方」。<br>
 
 ---
-> 1980.[ Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string)<br>
+### 1980 Find Unique Binary String
+> [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string)<br>
 > **康托爾對角線證明 (Cantor's Diagonal Argument)**，第i個binary string的第i個character反轉，能產生不重覆的binary string<br>
 
-
-
 ---
-> 3340.[Check Balanced String](https://leetcode.com/problems/check-balanced-string/)<br>
+### 3340 Check Balanced String
+> [Check Balanced String](https://leetcode.com/problems/check-balanced-string/)<br>
 > 奇數index和偶數index數字相加要相等<br>
 
 ---
-> 3512.[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/)<br>
+### 3512 Minimum Operations to Make Array Sum Divisible by K
+> [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/)<br>
 > 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>
 > 
 <br><br>
 ---
+
+
 
 ## <a name="math"></a>🔢 Math Combination(數學 組合)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
