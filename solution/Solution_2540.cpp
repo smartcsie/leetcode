@@ -15,21 +15,12 @@
 class Solution {
 public:
     int getCommon(vector<int>& nums1, vector<int>& nums2) {
-        // 使用 size_t 與陣列的 size() 型別一致，避免編譯器潛在警告
-        size_t i = 0, j = 0;
-        const size_t n1 = nums1.size();
-        const size_t n2 = nums2.size();
-        
-        while (i < n1 && j < n2) {
-            if (nums1[i] == nums2[j]) {
-                return nums1[i];
-            } else if (nums1[i] < nums2[j]) {
-                i++;
-            } else {
-                j++;
-            }
+        int i = 0, j = 0;
+        while(i < nums1.size() && j < nums2.size()) {
+            if(nums1[i] == nums2[j]) return nums1[i];
+            else if (nums1[i] > nums2[j]) j++;
+            else i++;
         }
-        
         return -1;
     }
 };
