@@ -778,6 +778,8 @@ __builtin_popcount(x)<br>
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 Medium | Tree <br> BFS | [C++](./solution/Solution_1161.cpp) | O(N) | O(W) |
 | 1302 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | 🟡 Medium | Tree / BFS | [C++](./solution/Solution_1302.cpp) | O(N) | O(W) |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree <br> BFS | [C++](./solution/Solution_1609.cpp) | O(n) | O(w) |
+| 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 Medium | Tree <br> BFS <br> Math | [C++](./solution/Solution_2583.cpp) | O(N) | O(N) | 
+
 
 > [!NOTE]
 > BFS Level Order 標準模板：用 queue，每層開始時記錄 `size = q.size()`，再跑 size 次。<br>
