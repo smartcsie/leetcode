@@ -877,6 +877,7 @@ __builtin_popcount(x)<br>
 | 0148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List <br> Merge Sort | [C++](./solution/Solution_0148.cpp) | O(NlogN) | O(logN) | |
 | 0179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Sorting <br> String | [C++](./solution/Solution_0179.cpp) | O(NlogN*k) | O(N*k) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Hash Table <br> QuickSelect | [C++](./solution/Solution_0347.cpp) | O(N) | O(N) |
+| 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Math <br> Sorting | [C++](./solution/Solution_539.cpp) | O(NlogN) | O(N) |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Array <br> Divide and Conquer <br> Sorting | [C++](./solution/Solution_0912.cpp) | O(nlogn) | O(logn) |
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Bit Manipulation <br>  Sorting | [C++](./solution/Solution_1356.cpp) | O(NlogN) | O(1) |
 | 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting | [C++](./solution/Solution_2164.cpp) | O(NlogN) | O(N) | 
