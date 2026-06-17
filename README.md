@@ -712,9 +712,6 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](./solution/Solution_0020.cpp) | O(n) | O(n) |
 | 0032 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 🔴 Hard | String <br> Stack / DP | [C++](./solution/Solution_0032.cpp) | O(n) | O(n) |
-| 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree <br> DFS<br> Stack | [C++](./solution/Solution_0094_1.cpp) | O(n) | O(h) |
-| 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0144_1.cpp) | O(n) | O(h) |
-| 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0145_1.cpp) | O(n) | O(h) |
 | 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | Stack | [C++](./solution/Solution_0150.cpp) | O(N) | O(N) |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack) | 🟡 Medium | Stack / Design | [C++](./solution/Solution_0155.cpp) | O(1) | O(N) |
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Stack <br> Queue | [C++](./solution/Solution_0225.cpp) | O(N) push <br> O(1) pop | O(N) |
@@ -724,6 +721,7 @@ __builtin_popcount(x)<br>
 | 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Array <br> Stack <br> Simulation | [C++](./solution/Solution_0682.cpp) | O(N) | O(N) |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 Easy | String <br> Stack | [C++](./solution/Solution_1047.cpp) | O(n) | O(n) |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 Medium | String <br> Stack | [C++](./solution/Solution_1209.cpp) | O(n) | O(n) |
+| 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 Easy | String <br> Stack | [C++](./solution/Solution_1544.cpp) | O(N) | O(N) |
 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | Stack <br> Greedy | [C++](./solution/Solution_1963.cpp) | O(N) | O(1) |
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | Linked List <br> Stack | [C++](./solution/Solution_2130.cpp) | O(N) | O(N) |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 Medium | String <br> Stack | [C++](./solution/Solution_2390.cpp) | O(n) | O(n) |
@@ -807,8 +805,11 @@ __builtin_popcount(x)<br>
 ## <a name="tree-dfs-path"></a>🌳 Tree - DFS / Path (深度優先 / 路徑)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree <br> DFS<br> Stack | [C++](./solution/Solution_0094_1.cpp) | O(n) | O(h) |
 | 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 Easy | Tree / DFS | [C++](./solution/Solution_0101.cpp) | O(N) | O(H) |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0104.cpp) | O(n) | O(h) |
+| 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0144_1.cpp) | O(n) | O(h) |
+| 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0145_1.cpp) | O(n) | O(h) |
 | 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0110.cpp) | O(n) | O(h) |
 | 0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 Easy | Tree <br> BFS <br> DFS | [C++](./solution/Solution_0111.cpp) | O(n) | O(h) |
 | 0112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0112.cpp) | O(n) | O(h) |
