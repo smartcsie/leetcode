@@ -652,6 +652,7 @@ __builtin_popcount(x)<br>
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2351.cpp) | O(N) | O(1) |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_2404.cpp) | O(n) | O(n) |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_3005.cpp) | O(n) | O(1) |
+| 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3866.cpp) | O(N) | O(1) |
 
 <br><br>
 ---
