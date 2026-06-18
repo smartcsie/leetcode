@@ -12,7 +12,7 @@
 - [kamyu104(github)](https://github.com/kamyu104/LeetCode-Solutions)
 - [花花醬](https://zxi.mytechroad.com/blog/leetcode-problem-categories/#google_vignette)
 ---
-## 🤖 Solutions
+## 🤖 Algorithm(Leetcode)
 - [algoruthm(azl397985856)](https://sourcegraph.com/r/github.com/azl397985856/leetcode/-/tree/thinkings))
 - [algoruthm(gavin0507)](https://github.com/gavin0507/fucking-algorithm/tree/master)
 ---
