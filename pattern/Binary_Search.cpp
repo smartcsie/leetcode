@@ -3,7 +3,7 @@ int binarySearch(vector<int>& nums, int target) {
         
     // 區間閉合 [left, right]，因此使用 <=
     while (left <= right) {
-        int mid = left + ((right - left) >> 1);
+        int mid = left + ((right - left) / 2);
         if (nums[mid] == target) {
              return mid; // 找到目標
         } else if (nums[mid] > target) {
