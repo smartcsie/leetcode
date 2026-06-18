@@ -10,6 +10,7 @@
 - [doocs(github)](https://github.com/doocs/leetcode/tree/main/solution)
 - [walkccc(github)](https://github.com/walkccc/LeetCode/tree/main/solutions)
 - [kamyu104(github)](https://github.com/kamyu104/LeetCode-Solutions)
+- [leetcode algorithm fucking-algorithm](https://github.com/gavin0507/fucking-algorithm/tree/master)
 - [花花醬](https://zxi.mytechroad.com/blog/leetcode-problem-categories/#google_vignette)
 
 ---
