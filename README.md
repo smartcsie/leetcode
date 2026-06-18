@@ -373,7 +373,8 @@ __builtin_popcount(x)<br>
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_1848.cpp) | O(N) | O(1) |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | 🟢 Easy | Array <br> Sorting | [C++](./solution/Solution_1913.cpp) | O(N) | O(1) |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array | [C++](./solution/Solution_1929.cpp) | O(N) | O(1)* |
-| 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array <br> Counting | [C++](./solution/Solution_2089.cpp) | O(N) | O(1) | 
+| 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array <br> Counting | [C++](./solution/Solution_2089.cpp) | O(N) | O(1) |
+| 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | Array <br> Sorting | [C++](./solution/Solution_2148.cpp) | O(N) | O(1) |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array | [C++](./solution/Solution_2239.cpp) | O(N) | O(1) |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_3925.cpp) | O(N) | O(N) |
 
