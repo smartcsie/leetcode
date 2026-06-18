@@ -10,10 +10,15 @@
 - [doocs(github)](https://github.com/doocs/leetcode/tree/main/solution)
 - [walkccc(github)](https://github.com/walkccc/LeetCode/tree/main/solutions)
 - [kamyu104(github)](https://github.com/kamyu104/LeetCode-Solutions)
-- [leetcode algorithm fucking-algorithm](https://github.com/gavin0507/fucking-algorithm/tree/master)
 - [花花醬](https://zxi.mytechroad.com/blog/leetcode-problem-categories/#google_vignette)
-
 ---
+## 🤖 Solutions
+- [algoruthm(azl397985856)](https://sourcegraph.com/r/github.com/azl397985856/leetcode/-/tree/thinkings))
+- [algoruthm(gavin0507)](https://github.com/gavin0507/fucking-algorithm/tree/master)
+---
+
+
+
 
 ## 🤖 Resource
 - **<span>[youngyangyang04](https://github.com/youngyangyang04/leetcode-master)</span>**
