@@ -13,8 +13,8 @@
 - [花花醬](https://zxi.mytechroad.com/blog/leetcode-problem-categories/#google_vignette)
 ---
 ## 🤖 Algorithm(Leetcode)
-- [algoruthm(azl397985856)](https://sourcegraph.com/r/github.com/azl397985856/leetcode/-/tree/thinkings))
-- [algoruthm(gavin0507)](https://github.com/gavin0507/fucking-algorithm/tree/master)
+- [thinkings (azl397985856)](https://github.com/azl397985856/leetcode/tree/master/thinkings)
+- [fucking algoruthms(gavin0507)](https://github.com/gavin0507/fucking-algorithm/tree/master)
 ---
 
 
