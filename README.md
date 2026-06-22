@@ -466,8 +466,8 @@ __builtin_popcount(x)<br>
 > int mid = left + ((right - left) / 2); 本身比較安全<br>
 
 ### 0069. Sqrt(x)
-> [Sqrt(x)](https://leetcode.com/problems/sqrtx/) 
-> **尋找右側邊界**，最後 **return right**
+> [Sqrt(x)](https://leetcode.com/problems/sqrtx/) <br>
+> **尋找右側邊界**，最後 **return right**<br>
 
 ---
 ### 0074. Search a 2D Matrix
@@ -487,7 +487,7 @@ __builtin_popcount(x)<br>
 ---
 ### 0852. Peak Index in a Mountain Array
 > [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)
-> 標準Binary Search
+> 標準Binary Search <br>
 > **尋找左側邊界**，用while (left < right)，同 0162 [Find Peak Element](https://leetcode.com/problems/find-peak-element) <br>
 > 
 <br><br>
