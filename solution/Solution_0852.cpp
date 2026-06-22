@@ -10,20 +10,15 @@
  * 2. 若 arr[m] > arr[m+1]，代表 m 可能是峰頂，或者峰頂在 m 的左側。
  */
 
-#include <vector>
-
-using namespace std;
-
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& arr) {
         int left = 0;
         int right = arr.size() - 1;
         
-        // 使用 l < r 的循環，當 l 與 r 重合時即為峰頂
+        // 使用 left < right 的循環，當 left 與 right 重合時即為峰頂
         while (left < right) {
-            int mid = l + (right - left) / 2;
-            
+            int mid = left + (right - left) / 2;
             // 如果當前處於遞增坡道，則峰頂在右側
             if (arr[mid] < arr[mid + 1]) {
                 left = mid + 1;
@@ -33,7 +28,6 @@ public:
                 right = mid;
             }
         }
-        
-        return right; // 或回傳 l，因為 l == r
+        return left; // 或回傳 left，因為 left == right
     }
 };
