@@ -448,7 +448,7 @@ __builtin_popcount(x)<br>
 | 0081 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0081.cpp) | O(N) | O(1) |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡&nbsp;Medium | Binary&nbsp;Search | [C++](./solution/Solution_0153.cpp) | O(logn) | O(1) |
 | 0154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | 🔴 Hard | Binary Search | [C++](./solution/Solution_0154.cpp) | O(N) | O(1) |
-| 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0162.cpp) | O(logN) | O(1) |
+| 0162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0162.cpp) | O(logN) | O(1) | [Note](#0162-find-peak-element) |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0278.cpp) | O(logn) | O(1) |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Dynamic Programming <br> Binary Search | [C++](./solution/Solution_0300.cpp) | O(nlogn) | O(n) |
 | 0367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0367.cpp) | O(logn) | O(1) | 
@@ -456,7 +456,7 @@ __builtin_popcount(x)<br>
 | 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | Binary Search / Matrix | [C++](./solution/Solution_0378.cpp) | O(Nlog(max-min)) | O(1) |
 | 0540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0540.cpp) | O(logN) | O(1) |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0704.cpp) | O(logn) | O(1) | [Note](#0704-binary-search) |
-| 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0852.cpp) | O(logn) | O(1) |
+| 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0852.cpp) | O(logn) | O(1) | [Note](#0852-peak-index-in-a-mountain-array) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | Array <br> Matrix <br> Binary Search | [C++](./solution/Solution_1351.cpp) | O(R + C) | O(1) |
 
 | 2529 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer) | 🟢 Easy | Binary Search | [C++](./solution/Solution_2529.cpp) | O(logN) | O(1) |
@@ -475,11 +475,24 @@ __builtin_popcount(x)<br>
 > 把二維陣列index mapping到一維，right = m * n -1，matrix[mid /n][mid % n]<br>
 ---
 
+### 0162. Find Peak Element
+> [Find Peak Element](https://leetcode.com/problems/find-peak-element) <br>
+> **尋找左側邊界**，用while (left < right)，同 0852 [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)<br>
+
+---
 ### 0704. Binary Search
 > [Binary Search](https://leetcode.com/problems/binary-search/)
 > 標準Binary Search
+
+---
+### 0852. Peak Index in a Mountain Array
+> [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)
+> 標準Binary Search
+> **尋找左側邊界**，用while (left < right)，同 0162 [Find Peak Element](https://leetcode.com/problems/find-peak-element) <br>
+> 
 <br><br>
 ---
+
 ## <a name="binary-search-build-in"></a>🔍 Binary Search Build in Function (內建函數二分查找)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
