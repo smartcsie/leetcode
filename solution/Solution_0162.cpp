@@ -9,31 +9,23 @@
  * 說明右側一定存在一個峰值；反之，左側一定存在。
  */
 
-#include <vector>
-
-using namespace std;
-
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {
         int left = 0;
         int right = nums.size() - 1;
-        
-        // 進行二分搜尋
+        // 使用 left < right 的循環，當 left 與 right 重合時即為峰頂
         while (left < right) {
             int mid = left + (right - left) / 2;
-            
-            // 比較 mid 和 mid + 1 的值
+            // 如果當前處於遞增坡道，則峰頂在右側
             if (nums[mid] < nums[mid + 1]) {
-                // 如果右邊比較大，說明峰值在右側 (不包含 mid)
                 left = mid + 1;
-            } else {
-                // 如果左邊比較大或相等，說明峰值在左側 (包含 mid)
+            } 
+            // 如果當前處於遞減坡道或位於頂部，則峰頂在左側（包含當前 m）
+            else {
                 right = mid;
             }
         }
-        
-        // 當 left == right 時，即為峰值的位置
-        return left;
+        return left; // 或回傳 left，因為 left == right
     }
 };
