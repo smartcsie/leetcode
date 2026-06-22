@@ -283,11 +283,12 @@ __builtin_popcount(x)<br>
 | 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0201.cpp) | O(logn) | O(1) |
 | 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) |
-| 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | DP / Bit Manipulation | [C++](./solution/Solution_0338.cpp) | O(n) | O(n) |
+| 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | DP <br> Bit Manipulation | [C++](./solution/Solution_0338.cpp) | O(n) | O(n) |
 | 0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp) | O(1) | O(1) |
+| 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Hash Table <br> Bit Manipulation | [C++](./solution/Solution_0389.cpp) | O(N) | O(1) | 
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0461.cpp) | O(k) | O(1) |
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0476.cpp) | O(log N) | O(1) |
-| 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0693.cpp) | O(1) | O(1) 
+| 0693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0693.cpp) | O(1) | O(1) 
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1009.cpp) | O(log N) | O(1) |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array <br> Hash Table <br> Bit Manipulation | [C++](./solution/Solution_1684.cpp) | O(N * M) | O(1) |
 | 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2220.cpp) | O(log(max(start, goal))) | O(1) |
