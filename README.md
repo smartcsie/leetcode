@@ -481,12 +481,12 @@ __builtin_popcount(x)<br>
 
 ---
 ### 0704. Binary Search
-> [Binary Search](https://leetcode.com/problems/binary-search/)
+> [Binary Search](https://leetcode.com/problems/binary-search/) <br>
 > 標準Binary Search
 
 ---
 ### 0852. Peak Index in a Mountain Array
-> [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)
+> [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) <br>
 > 標準Binary Search <br>
 > **尋找左側邊界**，用while (left < right)，同 0162 [Find Peak Element](https://leetcode.com/problems/find-peak-element) <br>
 > 
