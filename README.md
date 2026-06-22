@@ -424,12 +424,12 @@ __builtin_popcount(x)<br>
 ---
 
 ### 1886. Determine Whether Matrix Can Be Obtained By Rotation
-> | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)<br>
+> [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)<br>
 > 0048 Rotate Image的延伸，比對target matrix，rotate 比對4次<br>
 ---
 
 ### 2022. Convert 1D Array Into 2D Array
-> | 1886 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array)<br>
+> [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array)<br>
 > 注意邊界條件 **if(m * n != original.size()) return {};** <br>
 
 
@@ -443,8 +443,8 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Binary Search | [C++](./solution/Solution_0004.cpp) | O(log(m+n)) | O(1) |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 🟡 Medium | Array <br> Binary Search | [C++](./solution/Solution_0033.cpp) | O(logN) | O(1) |
-| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0069.cpp) | O(logn) | O(1) |
-| 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 Medium | Binary Search <br> Matrix | [C++](./solution/Solution_0074.cpp) | O(log(MN)) | O(1) |
+| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0069.cpp) | O(logn) | O(1) | [Note](#0069-sqrtx) |
+| 0074 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 Medium | Binary Search <br> Matrix | [C++](./solution/Solution_0074.cpp) | O(log(MN)) | O(1) |[Note](#0074-search-a-2d-matrix) |
 | 0081 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0081.cpp) | O(N) | O(1) |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡&nbsp;Medium | Binary&nbsp;Search | [C++](./solution/Solution_0153.cpp) | O(logn) | O(1) |
 | 0154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | 🔴 Hard | Binary Search | [C++](./solution/Solution_0154.cpp) | O(N) | O(1) |
@@ -455,7 +455,7 @@ __builtin_popcount(x)<br>
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0374.cpp) | O(logn) | O(1) |
 | 0378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | Binary Search / Matrix | [C++](./solution/Solution_0378.cpp) | O(Nlog(max-min)) | O(1) |
 | 0540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0540.cpp) | O(logN) | O(1) |
-| 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0704.cpp) | O(logn) | O(1) |
+| 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0704.cpp) | O(logn) | O(1) | [Note](#0704-binary-search) |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | Binary Search | [C++](./solution/Solution_0852.cpp) | O(logn) | O(1) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | Array <br> Matrix <br> Binary Search | [C++](./solution/Solution_1351.cpp) | O(R + C) | O(1) |
 
@@ -463,8 +463,21 @@ __builtin_popcount(x)<br>
 > [!NOTE]
 > mid 取法<br>
 > int mid = (left + right)/2; **本身有overflow的風險**<br>
-> int mid = left + ((right - left) >> 1); 本身比較安全<br>
+> int mid = left + ((right - left) / 2); 本身比較安全<br>
 
+### 0069. Sqrt(x)
+> [Sqrt(x)](https://leetcode.com/problems/sqrtx/) 
+> 因為 left <= right，例如sqrt(8)，left 會停在3，
+
+---
+### 0074. Search a 2D Matrix
+> [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) <br>
+> 把二維陣列index mapping到一維，right = m * n -1，matrix[mid /n][mid % n]<br>
+---
+
+### 0704. Binary Search
+> [Binary Search](https://leetcode.com/problems/binary-search/)
+> 標準Binary Search
 <br><br>
 ---
 ## <a name="binary-search-build-in"></a>🔍 Binary Search Build in Function (內建函數二分查找)
