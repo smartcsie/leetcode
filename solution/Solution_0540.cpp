@@ -13,24 +13,13 @@ class Solution {
 public:
     int singleNonDuplicate(vector<int>& nums) {
         int left = 0, right = nums.size() - 1;
-        
         while (left < right) {
             int mid = left + (right - left) / 2;
-            
-            // 確保 mid 位於偶數位置，方便檢查下一位是否相同
-            // 如果 mid 是奇數，就把它變成前一個偶數
-            if (mid % 2 == 1) mid--;
-            
-            // 檢查這一對是否匹配
-            if (nums[mid] == nums[mid + 1]) {
-                // 如果匹配，代表單一元素在右半邊
-                left = mid + 2;
-            } else {
-                // 如果不匹配，代表單一元素在左半邊或就是 mid
+            if (nums[mid ^ 1] == nums[mid])
+                left = mid + 1;
+            else
                 right = mid;
-            }
         }
-        
         return nums[left];
     }
 };
