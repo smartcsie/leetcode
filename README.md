@@ -472,7 +472,7 @@ __builtin_popcount(x)<br>
 ---
 ### 0074. Search a 2D Matrix
 > [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) <br>
-> 把二維陣列index mapping到一維，right = m * n -1，matrix[mid /n][mid % n]<br>
+> **標準Binary Search**，把二維陣列index mapping到一維，right = m * n -1，matrix[mid /n][mid % n]<br>
 ---
 
 ### 0162. Find Peak Element
@@ -487,7 +487,7 @@ __builtin_popcount(x)<br>
 ---
 ### 0852. Peak Index in a Mountain Array
 > [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) <br>
-> 標準Binary Search <br>
+> **標準Binary Search** <br>
 > **尋找左側邊界**，用while (left < right)，同 0162 [Find Peak Element](https://leetcode.com/problems/find-peak-element) <br>
 > 
 <br><br>
