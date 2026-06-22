@@ -13,16 +13,9 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        // 使用 lower_bound 分別定位起點與區間的開端
-        auto it_l = lower_bound(nums.begin(), nums.end(), target);
-        auto it_r = lower_bound(nums.begin(), nums.end(), target + 1);
-        
-        // 檢查是否存在：如果 it_l 指向陣列結尾，或者指向的值不是 target
-        if (it_l == nums.end() || *it_l != target) {
-            return {-1, -1};
-        }
-        
-        // it_r 指向的是第一個大於 target 的元素，所以 r - 1 即為終點
-        return {static_cast<int>(it_l - nums.begin()), static_cast<int>(it_r - nums.begin() - 1)};
+        auto lower = lower_bound(nums.begin(), nums.end(), target);
+        if(lower == nums.end() || *lower != target) return { -1, -1};
+        auto upper = upper_bound(lower, nums.end(), target);
+        return {static_cast<int>(lower - nums.begin()), static_cast<int>(upper - nums.begin() - 1)};
     }
 };
