@@ -467,7 +467,7 @@ __builtin_popcount(x)<br>
 
 ### 0069. Sqrt(x)
 > [Sqrt(x)](https://leetcode.com/problems/sqrtx/) 
-> 因為 left <= right，例如sqrt(8)，left 會停在3，
+> **尋找右側邊界**，最後 **return right**
 
 ---
 ### 0074. Search a 2D Matrix
