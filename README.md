@@ -183,6 +183,7 @@ __builtin_popcount(x)<br>
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math | [C++](./solution/Solution_3099.cpp) | O(logN) | O(1) |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp) | O(logN) | O(1) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) | [Note](#3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_3701.cpp) | O(N) | O(1) |
 | 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math <br> Digit Manipulation | [C++](./solution/Solution_3908.cpp) | O(log N) | O(1) |
