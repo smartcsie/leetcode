@@ -716,7 +716,7 @@ __builtin_popcount(x)<br>
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 Easy | Hash Table <br> String <br> Counting | [C++](./solution/Solution_1941.cpp) | O(n) | O(1) |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | Hash Table <br> Math | [C++](./solution/Solution_2001.cpp) | O(N) | O(N) |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2053.cpp) | O(N) | O(N) |
-| 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | Hash Table / Frequency Counting | [C++](./solution/Solution_3541.cpp) | O(N) | O(1) |
+| 2094 | [Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/) | 🟢 Easy | Hash Table <br> Math | [C++](./solution/Solution_2094.cpp) | O(N) | O(1) |
 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table <br> Counting | [C++](./solution/Solution_2150.cpp) | O(n) | O(n) |
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 Easy | Array <br> Hash Table <br> Counting | [C++](./solution/Solution_2206.cpp) | O(n) | O(1) |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 Medium | Hash Table <br> Counting <br> Sorting | [C++](./solution/Solution_2225.cpp) | O(nlogn) | O(n) |
@@ -724,8 +724,9 @@ __builtin_popcount(x)<br>
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2395.cpp) | O(N) | O(N) | Note |[Note](#2395-find-subarrays-with-equal-sum) |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_2404.cpp) | O(n) | O(n) |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_3005.cpp) | O(n) | O(1) |
-| 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array / Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) |
-| 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table / Frequency Counting | [C++](./solution/Solution_3663.cpp) | O(log N) | O(1) |
+| 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | Hash Table <br> Frequency Counting | [C++](./solution/Solution_3541.cpp) | O(N) | O(1) |
+| 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) |
+| 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table <br> Frequency Counting | [C++](./solution/Solution_3663.cpp) | O(log N) | O(1) |
 | 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3866.cpp) | O(N) | O(1) |
 
 ### 2395. Find Subarrays With Equal Sum
