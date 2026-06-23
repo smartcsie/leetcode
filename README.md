@@ -269,8 +269,8 @@ __builtin_popcount(x)<br>
 
 
 ## <a name="math"></a>🔢 Math Combination(數學 組合)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math / Combinatorics / DP | [C++](./solution/Solution_0062.cpp) | O(min(m, n)) | O(1) |
 
 <br><br>
@@ -278,8 +278,8 @@ __builtin_popcount(x)<br>
 
 
 ## <a name="Bit-manipulation"></a>📊 Bit Manipulation (位元運算)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_0029.cpp) | O(log²N) | O(1) |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) | O(n) | O(1) |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit-Manipulation | [C++](./solution/Solution_0137.cpp) | O(n) | O(1) |
@@ -335,8 +335,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="string"></a>🔗 String (字串)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | String <br> Math | [C++](./solution/Solution_0008.cpp) | O(N) | O(1) |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String <br> Trie | [C++](./solution/Solution_0014.cpp) | O(S) | O(1) |
 | 0028 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String <br> KMP | [C++](./solution/Solution_0028.cpp) | O(N * M) | O(1) |
@@ -373,8 +373,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="array"></a>🍱 Array (陣列)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array / Simulation | [C++](./solution/Solution_0054.cpp) | O(M*N) | O(1) | 
 | 0057 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | Array <br> Interval | [C++](./solution/Solution_0057.cpp) | O(N) | O(N) |
 | 0059 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array / Simulation | [C++](./solution/Solution_0059.cpp) | O(N²) | O(1) |
@@ -401,8 +401,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="array-boyer-moore"></a>🍱 Array Boyer-Moore Voting Algorithm(陣列多數投票演算法)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array <br> Voting Algorithm | [C++](./solution/Solution_0169.cpp) | O(N) | O(1) |
 | 0229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | Array <br> Voting Algorithm | [C++](./solution/Solution_0229.cpp) | O(N) | O(1) |
 
@@ -520,8 +520,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="prefix-sum"></a>🔍 Prefix Sum (前綴和)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array <br> Prefix Sum | [C++](./solution/Solution_0238.cpp) | O(N) | O(1) |
 | 0303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Array <br> Prefix Sum | [C++](./solution/Solution_0303.cpp) | O(N) | O(N) |
 | 0304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array <br> Matrix <br> Prefix Sum | [C++](./solution/Solution_0304.cpp) | O(M * N) 初始化 / O(1) 查詢 | O(M * N) |
@@ -537,8 +537,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="linked-list"></a>⛓️ Linked List (鏈表)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 Medium | Linked List <br> Math | [C++](./solution/Solution_0002.cpp) | O(max(N, M)) | O(max(N, M)) |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](./solution/Solution_0021.cpp) | O(n+m) | O(1) |
 | 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 Medium | Linked List <br> Recursion | [C++](./solution/Solution_0024.cpp) | O(N) | O(N) |
@@ -558,8 +558,8 @@ __builtin_popcount(x)<br>
 
 
 ## <a name="linked-list-circular"></a>⛓️ Linked List - Circular / Cycle Management (環狀處理)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0061 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 Medium | Linked List <br> Two Pointers | [C++](./solution/Solution_0061.cpp) | O(N) | O(1) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Linked List <br> Fast-Slow Pointers| [C++](./solution/Solution_0141.cpp) | O(n) | O(1) |
 
@@ -568,8 +568,8 @@ __builtin_popcount(x)<br>
 
 
 ## <a name="fast-slow-pointers"></a>👥 Fast-Slow Pointers (快慢指針)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 Medium | Linked List <br> Fast-Slow Pointers | [C++](./solution/Solution_0019.cpp) | O(n) | O(1) |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Array <br> Fast-Slow Pointers | [C++](./solution/Solution_0026.cpp) | O(n) | O(1) |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Array <br> Fast-Slow Pointers | [C++](./solution/Solution_0027.cpp) | O(n) | O(1) |
@@ -600,8 +600,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="two-pointers-opposite"></a>👥 Two Pointers - Opposite Direction (對撞型)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 Medium | Array <br> Two Pointers <br> Greedy | [C++](./solution/Solution_0011.cpp) | O(n) | O(1) |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 Medium | Array <br> Two Pointers <br> Sorting | [C++](./solution/Solution_0015.cpp) | O(n²) | O(logn) |
 | 0016 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 Medium | Array <br> Two Pointers <br> Sorting | [C++](./solution/Solution_0016.cpp) | O(n²) | O(1) |
@@ -628,8 +628,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="two-pointers-same"></a>👥 Two Pointers - Same Direction (同向型)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0031 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | Array / Two Pointers | [C++](./solution/Solution_0031.cpp) | O(N) | O(1) |
 | 0086 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | Linked List / Two Pointers | [C++](./solution/Solution_0086.cpp) | O(N) | O(1) |
 | 0228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0228.cpp) | O(N) | O(1) |
@@ -661,8 +661,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="two-pointers-partition"></a>👥 Two Pointers - Partition (分割型)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 Medium | Array <br> Two Pointers <br> Sorting | [C++](./solution/Solution_0075.cpp) | O(n) | O(1) |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0088.cpp) | O(M + N) | O(1) |
 | 0922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0922.cpp) | O(n) | O(1) |
@@ -683,16 +683,16 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="two-pointers-center-expansion"></a>👥 Two Pointers - Center Expansion (中心擴展型)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | DP / String | [C++](./solution/Solution_0647.cpp) | O(N²) | O(N) | 
 
 <br><br>
 ---
 
 ## <a name="two-pointers-other"></a>👥 Two Pointers - Other (變形型)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Linked List <br> Two Pointers | [C++](./solution/Solution_0160.cpp) | O(n+m) | O(1) |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array <br> Two Pointers | [C++](./solution/Solution_0442.cpp) | O(n) | O(1) |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String <br> Two Pointers | [C++](./solution/Solution_0557.cpp) | O(n) | O(1) |
@@ -742,8 +742,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="hash-table-mapping"></a>🔑 Hash Table - Mapping (映射 / 異位詞 / 同構)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0001.cpp) | O(n) | O(n) |
 | 0012 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 Medium | Math <br> Hash Table <br> String | [C++](./solution/Solution_0012.cpp) | O(1) | O(1) |
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 Easy | Hash Table <br> Math <br> String | [C++](./solution/Solution_0013.cpp) | O(N) | O(1) |
@@ -780,8 +780,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="hash-table-set"></a>🔑 Hash Table - Set (集合 / 存在性判斷)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0217.cpp) | O(n) | O(n) |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table <br> Sliding Window | [C++](./solution/Solution_0219.cpp) | O(n) | O(min(n,k)) |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0349.cpp) | O(n+m) | O(n) |
@@ -799,8 +799,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="stack"></a>📚 Stack (堆疊)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](./solution/Solution_0020.cpp) | O(n) | O(n) |
 | 0032 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 🔴 Hard | String <br> Stack / DP | [C++](./solution/Solution_0032.cpp) | O(n) | O(n) |
 | 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | Stack | [C++](./solution/Solution_0150.cpp) | O(N) | O(N) |
@@ -821,8 +821,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="monotonic-stack"></a>📚 Monotonic Stack (單調堆疊)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | Array  <br> Hash Table  <br> Stack  <br> Monotonic Stack | [C++](./solution/Solution_0496.cpp) | O(N + M) | O(N) |
 | 0503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 Medium | Array <br> Stack <br> Monotonic Stack | [C++](./solution/Solution_0503.cpp) | O(N) | O(N) |
 | 0739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | Stack / Monotonic Stack | [C++](./solution/Solution_0739.cpp) | O(N) | O(N) |
@@ -832,8 +832,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="monotonic-queue"></a>📚 Monotonic Queue (單調柱列)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Monotonic Queue / Sliding Window | [C++](./solution/Solution_0239.cpp) | O(N) | O(K) |
 
 <br><br>
@@ -842,8 +842,8 @@ __builtin_popcount(x)<br>
 
 
 ## <a name="tree"></a>🌳 Tree (樹結構)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0094.cpp) | O(n) | O(h) |
 | 0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | Tree | [C++](./solution/Solution_0100.cpp) | O(n) | O(h) |
 | 0105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | Tree <br> Recursion | [C++](./solution/Solution_105.cpp) | O(N) | O(N) |
@@ -862,8 +862,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="tree-bfs-level-order"></a>🌳 Tree - BFS / Level Order (層序遍歷)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Tree <br> BFS | [C++](./solution/Solution_0102.cpp) | O(n) | O(w) |
 | 0103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree <br> BFS | [C++](./solution/Solution_0103.cpp) | O(N) | O(W) |
 | 0107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | 🟢 Easy | Tree / BFS | [C++](./solution/Solution_0107.cpp) | O(N) | O(W) |
@@ -894,8 +894,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="tree-dfs-path"></a>🌳 Tree - DFS / Path (深度優先 / 路徑)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree <br> DFS<br> Stack | [C++](./solution/Solution_0094_1.cpp) | O(n) | O(h) |
 | 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 Easy | Tree / DFS | [C++](./solution/Solution_0101.cpp) | O(N) | O(H) |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0104.cpp) | O(n) | O(h) |
@@ -932,8 +932,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="binary-search-tree"></a>🌳 Binary Search Tree (二元搜尋樹)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Tree <br> DFS <br> BST | [C++](./solution/Solution_0098.cpp) | O(n) | O(h) |
 | 0099 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | BST <br> In-order Traversal | [C++](./solution/Solution_0099.cpp) | O(N) | O(1) |
 | 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Tree <br> DFS <br> Binary Search | [C++](./solution/Solution_0108.cpp) | O(N) | O(logN) |
@@ -959,16 +959,16 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="dfs-bfs"></a>🌳 DFS、BFS (深度搜尋、廣度搜尋)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | DFS <br> BFS <br> Union-Find | [C++](./solution/Solution_0200.cpp) | O(M×N) | O(1)* |
 
 <br><br>
 ---
 
 ## <a name="Sorting"></a>📊 Sorting (排序)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 Medium | Array <br> Sorting | [C++](./solution/Solution_0056.cpp) | O(NlogN) | O(logN) |
 | 0148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List <br> Merge Sort | [C++](./solution/Solution_0148.cpp) | O(NlogN) | O(logN) | |
 | 0179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Sorting <br> String | [C++](./solution/Solution_0179.cpp) | O(NlogN*k) | O(N*k) |
@@ -1000,8 +1000,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="Sorting"></a>📊 Sorting - Counting Sort , Radix Sort , Bucket Sort (排序)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | Hash Table <br> Bucket Sort | [C++](./solution/Solution_0451.cpp) | O(N) | O(N) |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Array / Counting Sort | [C++](./solution/Solution_1051.cpp) | O(N) | O(1) |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | Counting Sort | [C++](./solution/Solution_1122.cpp) | O(N + M) | O(1) |
@@ -1014,8 +1014,8 @@ __builtin_popcount(x)<br>
 
 
 ## <a name="priority-queue"></a>📚 Priority Queue (優先佇列)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | Heap <br> Linked List | [C++](./solution/Solution_0023.cpp) | O(Nlogk) | O(k) |
 | 0373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sum/) | 🟡 Medium | Heap <br> Greedy | [C++](./solution/Solution_0373.cpp) | O(KlogK) | O(K) |
 | 0692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | Hash Table <br> Heap | [C++](./solution/Solution_0692.cpp) | O(NlogK) | O(N) |
@@ -1033,8 +1033,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="quick-select"></a>📚 Quick Select(快速選擇)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Array <br> Sorting <br> QuickSelect | [C++](./solution/Solution_0215.cpp) | O(N) 平均 | O(1) |
 | 0324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | 🟡 Medium | Sorting / Quickselect | [C++](./solution/Solution_0324.cpp) | O(N) | O(1) |
 | 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Math <br> QuickSelect | [C++](./solution/Solution_0973.cpp) | O(N) | O(1) |
@@ -1057,8 +1057,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="dynamic-programming"></a>🧩 Dynamic Programming (動態規劃)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | DP | [C++](./solution/Solution_0064.cpp) | O(M*N) | O(1) |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Math <br> Dynamic Programming | [C++](./solution/Solution_0070.cpp) | O(n) | O(1) |
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming <br> Math | [C++](./solution/Solution_0096.cpp) | O(N²) | O(N) |
@@ -1070,8 +1070,8 @@ __builtin_popcount(x)<br>
 
 
 ## <a name="dynamic-programming"></a>🧩 Dynamic Programming - House Robber (打家劫舍)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟢 Medium | DP <br> Linear Optimization | [C++](./solution/Solution_0198.cpp) | O(N) | O(1) |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | DP | [C++](./solution/Solution_0213.cpp) | O(N) | O(1) |
 | 0337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | Tree <br> DP | [C++](./solution/Solution_0337.cpp) | O(N) | O(H) |
@@ -1080,8 +1080,8 @@ __builtin_popcount(x)<br>
 
 
 ## <a name="dynamic-programming"></a>🧩 Dynamic Programming - LCS (最長共同子序列)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | DP <br> String | [C++](./solution/Solution_0072.cpp) | O(N * M) | O(N * M) |
 | 0115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | DP / String | [C++](./solution/Solution_0115.cpp) | O(S * T) | O(T) | 
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Array <br> Dynamic Programming | [C++](./solution/Solution_0300_1.cpp) | O(N²) | O(n) |
@@ -1103,8 +1103,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="knapsack-problem"></a>🧩 Dynamic Programming - 0/1 Knapsack Problem  (0/1背包問題)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | DP <br> Bit Manipulation | [C++](./solution/Solution_0416.cpp) | O(N * S/W) | O(S/W) |
 | 0474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | DP <br> 0-1 Knapsack | [C++](./solution/Solution_0474.cpp) | O(L * m * n) | O(m * n) |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | DP <br> 0-1 Knapsack | [C++](./solution/Solution_0494.cpp) | O(N * S) | O(S) |
@@ -1114,8 +1114,8 @@ __builtin_popcount(x)<br>
 
 
 ## <a name="knapsack-problem"></a>🧩 Dynamic Programming - Unbounded Knapsack Problem (無限大小背包問題)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | DP <br> Unbounded Knapsack (Permutation) | [C++](./solution/Solution_0070.cpp) | O(N) | O(N) |
 | 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0279.cpp) | O(N * √N) | O(N) |
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0322.cpp) | O(A * N) | O(A) |
@@ -1135,8 +1135,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="dynamic-programming-kadane-algorithm"></a>🧩 Dynamic Programming - Kadane's Algorithm(動態規劃)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Array <br> Dynamic Programming | [C++](./solution/Solution_0053.cpp) | O(n) | O(1) |
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | Array <br> DP | [C++](./solution/Solution_0118.cpp) | O(N^2) | O(1)* |
 | 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | Dynamic Programming <br> Array | [C++](./solution/Solution_0152.cpp) | O(N) | O(1) |
@@ -1147,8 +1147,8 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="greedy"></a>🧩 Greedy (貪婪法)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Greedy <br> Interval | [C++](./solution/Solution_0435.cpp) | O(NlogN) | O(1) |
 | 0624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Array <br> Greedy | [C++](./solution/Solution_0624.cpp) | O(n) | O(1) |
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
@@ -1160,18 +1160,26 @@ __builtin_popcount(x)<br>
 ---
 
 ## <a name="backtracking"></a>🔢 Backtracking (回朔法)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | Backtracking / String | [C++](./solution/Solution_0022.cpp) | O(4ᴺ/√N) | O(N) |
-| 0046 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0046.cpp) | O(N*N!) | O(N) |
+| 0046 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0046.cpp) | O(N*N!) | O(N) | [Note](#0046-permutations) |
 | 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0047.cpp) | O(N*N!) | O(N) |
 | 0077 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0077.cpp) | O(k * C(n, k)) | O(k) |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking / Recursion <br> Bit Manipulation | [C++](./solution/Solution_0078.cpp) | O(N*2ᴺ) | O(N) |
-| 0079 |[Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | DFS / Backtracking | [C++](./solution/Solution_0079.cpp) | O(N*3ᴸ) | O(L) |
+| 0079 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | DFS / Backtracking | [C++](./solution/Solution_0079.cpp) | O(N*3ᴸ) | O(L) |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0090.cpp) | O(N*2ᴺ) | O(N) |
 | 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0039.cpp) | O(N^(T/M)) | O(T/M) |
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0040.cpp) | O(2ᴺ) | O(N) |
 | 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0216.cpp) | O(C(9, k)) | O(k) |
+
+
+### 0046. Permutations
+> [Permutations](https://leetcode.com/problems/permutations/)<br>
+> start == size，則一組排列結果完成，for loop i，從 start 到size - 1，先swap start 和 i，start + 1 帶入遞迴，再swap start 和 i做恢復<br>
+---
+
+
 <br><br>
 ---
 
