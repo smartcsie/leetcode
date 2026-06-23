@@ -12,26 +12,20 @@
 class Solution {
 public:
     int alternateDigitSum(int n) {
-        // 先計算總位數，以決定第一位的正負號
-        // 也可以直接算出最高位的除數 (divisor)
-        int divisor = 1;
+        int digit = 0;
         int temp = n;
-        while (temp >= 10) {
+        while(temp > 0) {
+            digit++;
             temp /= 10;
-            divisor *= 10;
         }
-        
+        int sign = (digit % 2 == 0) ? -1 : 1;
         int sum = 0;
-        int sign = 1; // 第一位預設為正
         
-        // 由高位向低位逐一取出數字
-        while (divisor > 0) {
-            int digit = (n / divisor) % 10;
-            sum += sign * digit;
-            sign *= -1; // 切換正負號
-            divisor /= 10;
+        while(n > 0) {
+            sum += sign * (n % 10);
+            n /= 10;
+            sign *= -1;
         }
-        
         return sum;
     }
 };
