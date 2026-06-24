@@ -890,7 +890,7 @@ __builtin_popcount(x)<br>
 | 0106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | Tree <br> Recursion | [C++](./solution/Solution_106.cpp) | O(N) | O(N) |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 🟢 Easy | Tree | [C++](./solution/Solution_0144.cpp) | O(n) | O(h) | [Note](#0144-binary-tree-preorder-traversal) |
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 🟢 Easy | Tree | [C++](./solution/Solution_0145.cpp) | O(n) | O(h) | [Note](#0145-binary-tree-postorder-traversal) |
-| 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 Easy | Tree | [C++](./solution/Solution_0226.cpp) | O(n) | O(h) |
+| 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 Easy | Tree | [C++](./solution/Solution_0226.cpp) | O(n) | O(h) | [Note](#0226-binary-invert-binary-tree) |
 | 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | Tree <br> DFS <br> Recursion | [C++](./solution/Solution_0236.cpp) | O(n) | O(h) |
 | 0589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | 🟢 Easy | Tree | [C++](./solution/Solution_0589.cpp) | O(n) | O(h) |
 | 0590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | 🟢 Easy | Tree | [C++](./solution/Solution_0590.cpp) | O(n) | O(h) |
@@ -917,6 +917,12 @@ root為空則return，把root->val加入到result vector，遞迴左子樹，遞
 ### 0145 Binary Tree Postorder Traversal
 > [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) <br>
 root為空則return，遞迴左子樹，遞迴右子樹，把root->val加入到result vector<br>
+
+---
+
+### 0226 Binary Invert Binary Tree
+> [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) <br>
+root為空則return，swap左右子樹的node，invertTree遞迴左子樹，invertTree遞迴右子樹<br>
 
 ---
 
