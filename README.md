@@ -265,7 +265,7 @@ __builtin_popcount(x)<br>
 
 ### 3340 Check Balanced String
 > [Check Balanced String](https://leetcode.com/problems/check-balanced-string/)<br>
-> 奇數index和偶數index數字相加要相等<br>
+> 奇數index所有num之sum和偶數index所有num之sum要相等<br>
 
 ---
 ### 3512 Minimum Operations to Make Array Sum Divisible by K
