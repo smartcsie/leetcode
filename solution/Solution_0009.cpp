@@ -22,22 +22,15 @@
 class Solution {
 public:
     bool isPalindrome(int x) {
-        // 1. 邊界情況：
-        // 負數不是回文；最後一位是 0 的數，除非是 0 本身，否則不是回文
-        if (x < 0 || (x % 10 == 0 && x != 0)) {
-            return false;
+        if(x < 0) return false;
+        if(x == 0) return true;
+        int reverse = 0;
+        int y = x;
+        while(y > 0) {
+            if (reverse > INT_MAX / 10 || (reverse == INT_MAX / 10 && (x % 10) > 7)) return 0;
+            reverse = reverse * 10 + (y % 10);
+            y /= 10;
         }
-        int revertedNumber = 0;
-        // 2. 只反轉一半的數字
-        // 例如：1221 -> x 變成 12, revertedNumber 變成 12
-        // 例如：12321 -> x 變成 12, revertedNumber 變成 123
-        while (x > revertedNumber) {
-            revertedNumber = revertedNumber * 10 + x % 10;
-            x /= 10;
-        }
-        // 3. 比較結果
-        // 對於奇數位數 12321，迴圈結束時 x=12, revertedNumber=123
-        // 我們可以透過 revertedNumber / 10 去掉中間的 3
-        return x == revertedNumber || x == revertedNumber / 10;
+        return x == reverse;
     }
 };
