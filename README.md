@@ -180,8 +180,6 @@ __builtin_popcount(x)<br>
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_3701.cpp) | O(N) | O(1) | [Note](#3701-compute-alternating-sum) |
 
 
-
-
 ### 0066. Plus One 
 > [Plus One](https://leetcode.com/problems/plus-one/)<br>
 > 從最後一個digit，digit[n-1]往digit[0]，如果小於9 +1 return，否則設成0 往下個loop，最後在front insert 1 <br>
@@ -502,7 +500,7 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
-## <a name="Hamming Distance"></a>📊 Bit Manipulation - Hamming Distance (位元運算漢明距離)
+## <a name="Hamming Distance"></a>📊 Bit Manipulation - Hamming Distance (位元運算 漢明距離)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0461.cpp) | O(k) | O(1) | [Note](#0461-hamming-distance) |
@@ -596,7 +594,7 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
-## <a name="array-continuous-counting"></a>🍱 Array - Continuous counting (連續計數)
+## <a name="array-continuous-counting"></a>🍱 Array - Continuous counting (陣列 連續計數)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) |
@@ -604,7 +602,7 @@ __builtin_popcount(x)<br>
 
 
 
-## <a name="array-boyer-moore"></a>🍱 Array - Boyer-Moore Voting Algorithm(陣列多數投票演算法)
+## <a name="array-boyer-moore"></a>🍱 Array - Boyer-Moore Voting Algorithm(陣列 多數投票演算法)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array <br> Voting Algorithm | [C++](./solution/Solution_0169.cpp) | O(N) | O(1) |
@@ -613,13 +611,13 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
-## <a name="2d-array"></a>🍱 2D Array (二維陣列)
+## <a name="2d-array"></a>🍱 Array - 2D Array (陣列 二維陣列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡&nbsp;Medium | Array | [C++](./solution/Solution_0048.cpp) | O(n²) | O(1) | [Note](#0048-rotate-image) |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | Array <br> Matrix | [C++](./solution/Solution_0073.cpp) | O(M*N) | O(1) | [Note](#0073-set-matrix-zeros) |
 | 0867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 Easy | Matrix | [C++](./solution/Solution_0867.cpp) | O(M*N) | O(M*N) |[Note](#0867-tranpose-matrix) |
-| 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 Easy | Array <br> Matrix | [C++](./solution/Solution_1582.cpp) | O(m * n) | O(m + n) |
+| **1582** | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 Easy | Array <br> Matrix | [C++](./solution/Solution_1582.cpp) | O(m * n) | O(m + n) |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | Array | [C++](./solution/Solution_1886.cpp) | O(n²) | O(1) |[Note](#1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | Array <br> Matrix <br> Simulation | [C++](./solution/Solution_2022.cpp) | O(m*n) | O(1) | [Note](#2022-convert-1d-array-into-2d-array) |
 
