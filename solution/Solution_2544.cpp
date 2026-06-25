@@ -12,20 +12,12 @@
 class Solution {
 public:
     int alternateDigitSum(int n) {
-        int digit = 0;
-        int temp = n;
-        while(temp > 0) {
-            digit++;
-            temp /= 10;
-        }
-        int sign = (digit % 2 == 0) ? -1 : 1;
         int sum = 0;
-        
-        while(n > 0) {
+        int sign = 1;
+        for(; n > 0; n /= 10, sign *= -1) {
             sum += sign * (n % 10);
-            n /= 10;
-            sign *= -1;
+            
         }
-        return sum;
+        return sign == 1 ? -sum : sum;
     }
 };
