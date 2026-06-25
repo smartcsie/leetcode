@@ -40,6 +40,7 @@
 ---
 ## 🤖 電子書
 - [Cracking the Coding Interview 6th 中文](https://github.com/F8F-1BearCat/CtCI-6th-Edition-CN/tree/master)
+- [Cracking The Coding Interview 6th Edition Mapping 到 LeetCode 的題目](https://leetcode.com/discuss/post/1152824/cracking-the-coding-interview-6th-editio-97nm/)
 
 
 ## 🤖 面試考題
