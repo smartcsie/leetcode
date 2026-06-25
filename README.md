@@ -388,7 +388,7 @@ __builtin_popcount(x)<br>
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) | [Note](#3151-special-array-i) |
 | **3226** | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3226.cpp) | O(1) | O(1) | [Note](#3226-number-of-bit-changes-to-make-two-integers-equal) |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp) | O(logN) | O(1) | [Note](#3370-smallest-number-with-all-set-bits) |
-| 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3950.cpp) | O(log N) | O(1) |
+| 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3950.cpp) | O(log N) | O(1) | [Note](#3950-exactly-one-consecutive-set-bits-pair) |
 
 ---
 
@@ -485,6 +485,12 @@ __builtin_popcount(x)<br>
 > int mask = ~0; while(n & mask) { mask <<= 1; } return ~mask;<br>
 > [476 Number Complement](./solution/Solution_0476.cpp)和[1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp)<br>
 > 類似上面這兩個的題目，只是直接回傳mask。<br>
+---
+
+### 3950 Exactly One Consecutive Set Bits Pair
+> [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/)<br>
+> 如果 (n & 3) == 3，count++，如果count > 1  return false，n >>= 1，迴圈出來，return count == 1<br>
+
 ---
 
       
