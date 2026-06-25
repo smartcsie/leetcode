@@ -282,7 +282,7 @@ __builtin_popcount(x)<br>
 
 ### 2544 Alternating Digit Sum
 > [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)  <br>
-> 先算位數，位數偶數sign=-1，位數奇數sign=1，每一次加MSB後，sign*=-1。<br>
+> sign=1，每一次加sign*MSB(n % 10)後，sign*=-1，**最後出迴圈，sign如果是1，sum多一個負號**。<br>
 
 ---
 
