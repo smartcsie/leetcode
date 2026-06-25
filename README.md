@@ -201,7 +201,7 @@ __builtin_popcount(x)<br>
 ---
 
 ### 0263 Ugly Number
-> Ugly Number](https://leetcode.com/problems/ugly-number)<br>
+> [Ugly Number](https://leetcode.com/problems/ugly-number)<br>
 > n如果可被2整除，n除以2，n如果可被3整除，n除以3，n如果可被5整除，n除以5，最後是否等於1<br>
 ---
 
