@@ -153,7 +153,7 @@ __builtin_popcount(x)<br>
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](./solution/Solution_0231.cpp) | O(1) | O(1) | [Note](#0231-power-of-two) |
 | 0258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](./solution/Solution_0258.cpp) | O(1) | O(1) | [Note](#0258-add-digits) |
 | 0263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](./solution/Solution_0263.cpp) | O(logn) | O(1) | [Note](#0263-ugly-number) |
-| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0268.cpp) | O(n) | O(1) | |
+| 0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0268.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](./solution/Solution_0326.cpp) | O(log₃n) | O(1) | [Note](#0326-power-of-three) |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](./solution/Solution_0342.cpp) | O(1) | O(1) | [Note](#0342-power-of-four) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math / String | [C++](./solution/Solution_0412.cpp) | O(N) | O(1)* | |
@@ -229,9 +229,16 @@ __builtin_popcount(x)<br>
 ---
 
 ### 0263 Ugly Number
-> Ugly Number](https://leetcode.com/problems/ugly-number)
+> Ugly Number](https://leetcode.com/problems/ugly-number)<br>
 > n如果可被2整除，n除以2，n如果可被3整除，n除以3，n如果可被5整除，n除以5，最後是否等於1<br>
 ---
+
+### 0268 Missing Number
+> [Missing Number](https://leetcode.com/problems/missing-number/)<br>
+> n = nums.size()，accumulate算出sum，回傳 n * (n + 1) / 2 - sum<br>
+---
+
+
 
 ### 0326 Power of Three
 > [Power of Three](https://leetcode.com/problems/power-of-three/)<br>
