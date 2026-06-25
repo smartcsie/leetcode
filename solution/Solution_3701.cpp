@@ -13,13 +13,8 @@ class Solution {
 public:
     int alternatingSum(vector<int>& nums) {
         int sum = 0;
-        for (int i = 0; i < nums.size(); ++i) {
-            // 位元運算 (i & 1) 等同於 (i % 2 != 0)
-            if (i & 1) {
-                sum -= nums[i];
-            } else {
-                sum += nums[i];
-            }
+        for(int i = 0; i < nums.size(); i++) {
+            sum += (i & 1) ? -nums[i] : nums[i];
         }
         return sum;
     }
