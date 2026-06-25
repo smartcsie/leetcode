@@ -292,7 +292,7 @@ __builtin_popcount(x)<br>
 
 
 
-## <a name="math-digit Decomposition"></a>🔢 Math- Digit Decomposition(數學)
+## <a name="math-digit Decomposition"></a>🔢 Math- Digit Decomposition(數學 數字拆解)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) | [Note](#0007-reverse-integer) |
