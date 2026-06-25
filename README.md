@@ -373,12 +373,11 @@ __builtin_popcount(x)<br>
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | DP <br> Bit Manipulation | [C++](./solution/Solution_0338.cpp) | O(n) | O(n) |
 | 0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp) | O(1) | O(1) |
 | 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Hash Table <br> Bit Manipulation | [C++](./solution/Solution_0389.cpp) | O(N) | O(1) | [Note](#0389-find-the-difference) |
-| 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0461.cpp) | O(k) | O(1) | [Note](#0461-hamming-distance) |
+
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0476.cpp) | O(log N) | O(1) | [Note](#0476-number-complement) | 
 | 0693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0693.cpp) | O(1) | O(1) 
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1009.cpp) | O(log N) | O(1) | [Note](#1009-complement-of-base-10-integer)|
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array <br> Hash Table <br> Bit Manipulation | [C++](./solution/Solution_1684.cpp) | O(N * M) | O(1) | [Note](#1684-count-the-number-of-consistent-strings) |
-| 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2220.cpp) | O(log(max(start, goal))) | O(1) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2235.cpp) | O(1) | O(1) |
 | 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) |
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2595.cpp) | O(log N) | O(1) | [Note](#2595-number-of-even-and-odd-bits) |
@@ -386,7 +385,6 @@ __builtin_popcount(x)<br>
 | 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2917.cpp) | O(N * log(max_val)) | O(1) |
 | 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | 🟢 Easy | Bit Manipulation <br> Math | [C++](./solution/Solution_2980.cpp) | O(N) | O(1) | [Note](#2980-check-if-bitwise-or-has-trailing-zeros) |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) | [Note](#3151-special-array-i) |
-| **3226** | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3226.cpp) | O(1) | O(1) | [Note](#3226-number-of-bit-changes-to-make-two-integers-equal) |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp) | O(logN) | O(1) | [Note](#3370-smallest-number-with-all-set-bits) |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3950.cpp) | O(log N) | O(1) | [Note](#3950-exactly-one-consecutive-set-bits-pair) |
 
@@ -426,12 +424,6 @@ __builtin_popcount(x)<br>
 ---
 
 
-
-### 0461 Hamming Distance
-> [Hamming Distance](https://leetcode.com/problems/hamming-distance)<br>
-> x和y做互斥或成為z，取z的2進制1的個數<br>
-
----
 ### 0476 Number Complement
 > [Number Complement](https://leetcode.com/problems/number-complement)<br>
 > temp = num， while(temp > 0)，mask Or 1 一直左移動，最後mask ^ num<br>
@@ -473,12 +465,6 @@ __builtin_popcount(x)<br>
 > 相鄰兩數的lsb相同 if((nums[i] & 1) ^ (nums[i + 1] & 1) == 0) 則return false<br>
 ---
 
-### 3226 Number of Bit Changes to Make Two Integers Equal
-> [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) <br>
-> **先確認k是n的binary子集合，也就是 n&k == k，如果沒有return -1**<br>
-> 接下來找n和k的hamming distance(n ^ k找1的個數)，回傳結果<br>
----
-
 
 ### 3370 Smallest Number With All Set Bits
 > [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)<br>
@@ -491,12 +477,40 @@ __builtin_popcount(x)<br>
 > [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/)<br>
 > 如果 (n & 3) == 3，count++，如果count > 1  return false，n >>= 1，迴圈出來，return count == 1<br>
 
----
 
       
 
 <br><br>
 ---
+
+## <a name="Hamming Distance"></a>📊 Bit Manipulation - Hamming Distance (位元運算漢明距離)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0461.cpp) | O(k) | O(1) | [Note](#0461-hamming-distance) |
+| 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2220.cpp) | O(log(max(start, goal))) | O(1) | [Note](#2220-minimum-bit-flips-to-convert-number) |
+| **3226** | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3226.cpp) | O(1) | O(1) | [Note](#3226-number-of-bit-changes-to-make-two-integers-equal) |
+
+### 0461 Hamming Distance
+> [Hamming Distance](https://leetcode.com/problems/hamming-distance)<br>
+> x和y做互斥或成為z，取z的2進制1的個數<br>
+
+---
+
+### 2220 Minimum Bit Flips to Convert Number
+> [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) <br>
+> x和y做互斥或成為z，取z的2進制1的個數<br>
+> start和goal做互斥或成為n，取n的2進制1的個數<br>
+<br><br>
+---
+
+### 3226 Number of Bit Changes to Make Two Integers Equal
+> [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) <br>
+> **先確認k是n的binary子集合，也就是 n&k == k，如果沒有return -1**<br>
+> 接下來找n和k的hamming distance(n ^ k找1的個數)，回傳結果<br>
+
+<br><br>
+---
+
 
 ## <a name="string"></a>🔗 String (字串)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
@@ -563,7 +577,7 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
-## <a name="Continuous-counting"></a>🍱 Continuous counting (連續計數)
+## <a name="array-continuous-counting"></a>🍱 Array - Continuous counting (連續計數)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) |
@@ -571,7 +585,7 @@ __builtin_popcount(x)<br>
 
 
 
-## <a name="array-boyer-moore"></a>🍱 Array Boyer-Moore Voting Algorithm(陣列多數投票演算法)
+## <a name="array-boyer-moore"></a>🍱 Array - Boyer-Moore Voting Algorithm(陣列多數投票演算法)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array <br> Voting Algorithm | [C++](./solution/Solution_0169.cpp) | O(N) | O(1) |
