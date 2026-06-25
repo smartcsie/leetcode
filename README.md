@@ -143,8 +143,6 @@ __builtin_popcount(x)<br>
 ## <a name="math"></a>🔢 Math (數學)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) | [Note](#0007-reverse-integer) |
-| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) | O(logn) | O(1) | [Note](#0009-palindrome-number) |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math <br> Binary Exponentiation | [C++](./solution/Solution_0050.cpp) | O(log N) | O(1) | |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](./solution/Solution_0066.cpp) | O(n) | O(1) | [Note](#0066-plus-one) |
 | 0067 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0067.cpp) | O(max(M, N)) | O(1) | |
@@ -179,33 +177,12 @@ __builtin_popcount(x)<br>
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) | |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](./solution/Solution_2485.cpp) | O(1) | O(1) |   |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) | |
-| 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_2544.cpp) | O(logN) | O(logN) | [Note](#2544-alternating-digit-sum) |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) | |
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) |
-| 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math | [C++](./solution/Solution_3099.cpp) | O(logN) | O(1) |
-| 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) | [Note](#3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_3701.cpp) | O(N) | O(1) | [Note](#3701-compute-alternating-sum) |
-| 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math <br> Digit Manipulation | [C++](./solution/Solution_3908.cpp) | O(log N) | O(1) | [Note](#3908-valid-digit-number) |
-| 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math | [C++](./solution/Solution_3945.cpp) | O(logN) | O(1) | [Note](#3945-digit-frequency-score) |
-| 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_3959.cpp) | O(log N) | O(1) | [Note](#3959-check-good-integer) |
 
-### 0007. Reverse Integer
-> [Reverse Integer](https://leetcode.com/problems/reverse-integer/)<br>
-> 不用管正負號，因為有正負，所以while(x != 0) <br>
-> **while回圈內，邊界條件如下** <br>
-> **if (reverse > INT_MAX / 10 || (reverse == INT_MAX / 10 && (x % 10) > 7)) return 0;** <br>
-> **if (reverse < INT_MIN / 10 || (reverse == INT_MIN / 10 && (x % 10) < -8)) return 0;** <br>
 
----
-
-### 0009. Palindrome Number
->  [Palindrome Number](https://leetcode.com/problems/palindrome-number/)<br>
-> x < 0 則 return false <br>
-> x == 0 則 return true <br>
-> **while回圈內，邊界條件如下** <br>
-> **if (reverse > INT_MAX / 10 || (reverse == INT_MAX / 10 && (x % 10) > 7)) return 0;** <br>
----
 
 
 ### 0066. Plus One 
@@ -301,17 +278,6 @@ __builtin_popcount(x)<br>
 
 ---
 
-### 2544 Alternating Digit Sum
-> [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)  <br>
-> sign=1，每一次加sign*MSB(n % 10)後，sign*=-1，**最後出迴圈，sign如果是1，sum多一個負號**。<br>
-
----
-
-### 3340 Check Balanced String
-> [Check Balanced String](https://leetcode.com/problems/check-balanced-string/)<br>
-> 奇數index所有num之sum和偶數index所有num之sum要相等<br>
-
----
 ### 3512 Minimum Operations to Make Array Sum Divisible by K
 > [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/)<br>
 > 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>
@@ -323,22 +289,79 @@ __builtin_popcount(x)<br>
 > [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) <br>
 > for(int i = 0; i < nums.size(); i++) {  sum += (i & 1) ? -nums[i] : nums[i];  } <br>
 
+
+<br><br>
+---
+
+
+
+## <a name="math-combination"></a>🔢 Math Combination(數學 組合)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math / Combinatorics / DP | [C++](./solution/Solution_0062.cpp) | O(min(m, n)) | O(1) |
+
+<br><br>
+---
+
+
+
+## <a name="math-digit Decomposition"></a>🔢 Math- Digit Decomposition(數學)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) | [Note](#0007-reverse-integer) |
+| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) | O(logn) | O(1) | [Note](#0009-palindrome-number) |
+| 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_2544.cpp) | O(logN) | O(logN) | [Note](#2544-alternating-digit-sum) |
+| 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math | [C++](./solution/Solution_3099.cpp) | O(logN) | O(1) | [Note](#3099-harshad-number) |
+| 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
+| 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math <br> Digit Manipulation | [C++](./solution/Solution_3908.cpp) | O(log N) | O(1) | [Note](#3908-valid-digit-number) |
+| 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math | [C++](./solution/Solution_3945.cpp) | O(logN) | O(1) | [Note](#3945-digit-frequency-score) |
+| 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_3959.cpp) | O(log N) | O(1) | [Note](#3959-check-good-integer) |
+
+### 0007. Reverse Integer
+> [Reverse Integer](https://leetcode.com/problems/reverse-integer/)<br>
+> 不用管正負號，因為有正負，所以while(x != 0) <br>
+> **while回圈內，邊界條件如下** <br>
+> **if (reverse > INT_MAX / 10 || (reverse == INT_MAX / 10 && (x % 10) > 7)) return 0;** <br>
+> **if (reverse < INT_MIN / 10 || (reverse == INT_MIN / 10 && (x % 10) < -8)) return 0;** <br>
+
+---
+
+### 0009. Palindrome Number
+>  [Palindrome Number](https://leetcode.com/problems/palindrome-number/)<br>
+> x < 0 則 return false <br>
+> x == 0 則 return true <br>
+> **while回圈內，邊界條件如下** <br>
+> **if (reverse > INT_MAX / 10 || (reverse == INT_MAX / 10 && (x % 10) > 7)) return 0;** <br>
+---
+
+### 2544 Alternating Digit Sum
+> [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)  <br>
+> sign=1，每一次加sign*MSB(n % 10)後，sign*=-1，**最後出迴圈，sign如果是1，sum多一個負號**。<br>
+
+---
+
+### 3099. Harshad Number
+> [Harshad Number](https://leetcode.com/problems/harshad-number/)<br>
+> 用sum把十進制每個digit相加，最後return (x % sum) == 0 ? sum : -1;<br>
+
+---
+
+### 3340 Check Balanced String
+> [Check Balanced String](https://leetcode.com/problems/check-balanced-string/)<br>
+> 奇數index所有num之sum和偶數index所有num之sum要相等<br>
+
 ---
 
 ### 3908 Valid Digit Number
 > [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) <br>
 > 用一個bool紀錄digit是否有x，最後return digit != x && findX; <br>
->
 
 ---
 
 ### 3945 Digit Frequency Score
 > [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) <br>
-> while(n > 0) { sum += n % 10;  n /= 10; }<br>
->
-
+> 用sum把十進制每個digit相加，最後return sum<br>
 ---
-
 
 ### 3959 Check Good Integer
 > [Check Good Integer](https://leetcode.com/problems/check-good-integer/)<br>
@@ -348,15 +371,6 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
-
-
-## <a name="math"></a>🔢 Math Combination(數學 組合)
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math / Combinatorics / DP | [C++](./solution/Solution_0062.cpp) | O(min(m, n)) | O(1) |
-
-<br><br>
----
 
 
 ## <a name="Bit-manipulation"></a>📊 Bit Manipulation (位元運算)
