@@ -15,8 +15,8 @@ public:
         if(s.size() == 1) return 1;
         int maxLen = 1;
         int localLen = 1;
-        for(int i = 0; i < s.size() - 1; i++) {
-            if(s[i] == s[i + 1])  localLen++;
+        for(int i = 1; i < s.size(); i++) {
+            if(s[i] == s[i - 1])  localLen++;
             else localLen = 1;
             maxLen = std::max(maxLen, localLen);
         }
