@@ -314,7 +314,7 @@ __builtin_popcount(x)<br>
 
 ### 3701 Compute Alternating Sum
 > [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) <br>
-> for(int i = 0, sign = 1; i < nums.size(); i++, sign *=-1) { sum += sign * nums[i]; } <br>
+> for(int i = 0; i < nums.size(); i++) {  sum += (i & 1) ? -nums[i] : nums[i];  } <br>
 
 ---
 
