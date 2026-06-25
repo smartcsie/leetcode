@@ -473,6 +473,11 @@ __builtin_popcount(x)<br>
 > 相鄰兩數的lsb相同 if((nums[i] & 1) ^ (nums[i + 1] & 1) == 0) 則return false<br>
 ---
 
+### 3226 Number of Bit Changes to Make Two Integers Equal
+> [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) <br>
+> **先確認k是n的binary子集合，也就是 n&k == k，如果沒有return -1**<br>
+> 接下來找n和k的hamming distance(n ^ k找1的個數)，回傳結果<br>
+---
 
 
 ### 3370 Smallest Number With All Set Bits
