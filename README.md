@@ -417,6 +417,7 @@ __builtin_popcount(x)<br>
 | 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | 🟢 Easy | Bit Manipulation <br> Math | [C++](./solution/Solution_2980.cpp) | O(N) | O(1) | [Note](#2980-check-if-bitwise-or-has-trailing-zeros) |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) | [Note](#3151-special-array-i) |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp) | O(logN) | O(1) | [Note](#3370-smallest-number-with-all-set-bits) |
+| 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3688.cpp) | O(N) | O(1) |
 
 ---
 
