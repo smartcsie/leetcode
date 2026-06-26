@@ -412,6 +412,7 @@ __builtin_popcount(x)<br>
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array <br> Hash Table <br> Bit Manipulation | [C++](./solution/Solution_1684.cpp) | O(N * M) | O(1) | [Note](#1684-count-the-number-of-consistent-strings) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2235.cpp) | O(1) | O(1) |
 | 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) |
+| 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟠 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2425.cpp) | O(N + M) | O(1) |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Hash Set <br> Bit Manipulation | [C++](./solution/Solution_2716.cpp) | O(N) | O(1) | [Note](#2716-minimize-string-length) |
 | 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2917.cpp) | O(N * log(max_val)) | O(1) |
 | 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | 🟢 Easy | Bit Manipulation <br> Math | [C++](./solution/Solution_2980.cpp) | O(N) | O(1) | [Note](#2980-check-if-bitwise-or-has-trailing-zeros) |
