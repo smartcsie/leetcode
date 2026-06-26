@@ -175,7 +175,6 @@ __builtin_popcount(x)<br>
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](./solution/Solution_2485.cpp) | O(1) | O(1) |   |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) | |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) | |
-| 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) | [Note](#3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_3701.cpp) | O(N) | O(1) | [Note](#3701-compute-alternating-sum) |
 
@@ -389,7 +388,14 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
-
+## <a name="primw"></a>🔢 Math Combination(數學 質數)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math / Sieve | [C++](./solution/Solution_0204.cpp) | O(N log log N) | O(N) |
+| 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) |
+| 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) |
+<br><br>
+---
 
 ## <a name="Bit-manipulation"></a>📊 Bit Manipulation (位元運算)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
@@ -952,7 +958,6 @@ __builtin_popcount(x)<br>
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_2404.cpp) | O(n) | O(n) |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_3005.cpp) | O(n) | O(1) |
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | Hash Table <br> Frequency Counting | [C++](./solution/Solution_3541.cpp) | O(N) | O(1) |
-| 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) |
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table <br> Frequency Counting | [C++](./solution/Solution_3663.cpp) | O(log N) | O(1) |
 | 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3866.cpp) | O(N) | O(1) | [Note](#3866-first-unique-even-element) |
 
