@@ -400,8 +400,8 @@ __builtin_popcount(x)<br>
 
 ### 0204 Count Primes
 > [Count Primes](https://leetcode.com/problems/count-primes/)<br>
-> 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>
->
+> 起一組 bitset<50001> isPrime，執行Sieve of Eratosthenes演算法，一個for loop 2 ~ **(n-1)**，看prime有幾個<br>
+
 
 
 <br><br>
