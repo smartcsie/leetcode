@@ -415,30 +415,20 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_0029.cpp) | O(log²N) | O(1) |
-| 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) | O(n) | O(1) | [Note](#0136-single-number) |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit-Manipulation | [C++](./solution/Solution_0137.cpp) | O(n) | O(1) |
 | 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0190.cpp) | O(1) | O(1) | [Note](#0190-reverse-bits) |
-| 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0191.cpp) | O(1) | O(1) | [Note](#0191-number-of-1-bits) |
-| 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0201.cpp) | O(logn) | O(1) |
-| 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) |
-| 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | DP <br> Bit Manipulation | [C++](./solution/Solution_0338.cpp) | O(n) | O(n) |
 | 0371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp) | O(1) | O(1) |
 | 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Hash Table <br> Bit Manipulation | [C++](./solution/Solution_0389.cpp) | O(N) | O(1) | [Note](#0389-find-the-difference) |
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0476.cpp) | O(log N) | O(1) | [Note](#0476-number-complement) | 
 | 0693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0693.cpp) | O(1) | O(1) 
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1009.cpp) | O(log N) | O(1) | [Note](#1009-complement-of-base-10-integer)|
-| 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_1318.cpp) | O(1) | O(1) |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array <br> Hash Table <br> Bit Manipulation | [C++](./solution/Solution_1684.cpp) | O(N * M) | O(1) | [Note](#1684-count-the-number-of-consistent-strings) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2235.cpp) | O(1) | O(1) |
-| 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) |
-| 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2425.cpp) | O(N + M) | O(1) |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Hash Set <br> Bit Manipulation | [C++](./solution/Solution_2716.cpp) | O(N) | O(1) | [Note](#2716-minimize-string-length) |
-| **2917** | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2917.cpp) | O(N * log(max_val)) | O(1) |
-| 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | 🟢 Easy | Bit Manipulation <br> Math | [C++](./solution/Solution_2980.cpp) | O(N) | O(1) | [Note](#2980-check-if-bitwise-or-has-trailing-zeros) |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) | [Note](#3151-special-array-i) |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp) | O(logN) | O(1) | [Note](#3370-smallest-number-with-all-set-bits) |
-| 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3688.cpp) | O(N) | O(1) | [Note](#3688-bitwise-or-of-even-numbers-in-an-array) |
+
 
 ---
 
@@ -448,13 +438,6 @@ __builtin_popcount(x)<br>
 > 使用 'unsigned',`long long` 來處理 `INT_MIN` 的溢位，這在工程上屬於一種 **Workaround**<br>
 ---
 
-### 0136 Single Number
-> [Single Number](https://leetcode.com/problems/single-number)<br>
-> 所有num出現兩次，目標num出現一次，全部的數字XOR起來就是答案<br>
-
----
-
-
 
 ### 0190 Reverse Bits
 > [Reverse Bits](https://leetcode.com/problems/reverse-bits)<br>
@@ -462,18 +445,9 @@ __builtin_popcount(x)<br>
 
 ---
 
-### 0191 Number of 1 Bits
-> 0191.[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)<br>
-> 使用 **Brian Kernighan's Algorithm** ，**n = n & (n - 1)**，有 build in function可以用<br>
-> **(1)** C++20，std::popcount(static_cast<unsigned int>(n)) 或  **(2)** 若編譯器(GCC/Clang)支援， __builtin_popcount(n) <br>
----
 
 > 0260.[Single Number III](https://leetcode.com/problems/single-number-iii) 
 >  是 Bit Manipulation 經典題目，目前只有**neetcode.io**有最佳解<br>
-
-### 0268 Missing Number
-> [Missing Number](https://leetcode.com/problems/missing-number) <br>
-> for loop 從0 ~ (size - 1) ， missing ^= (i + 1) ^ nums[i]<br>
 
 ---
 
@@ -519,10 +493,6 @@ __builtin_popcount(x)<br>
 ---
 
 
-### 2980 Check if Bitwise OR Has Trailing Zeros
-> [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)<br>
-> travsal nums，出現兩個even number，return true<br>
----
 
 ### 3151 Special Array I
 > [Special Array I](https://leetcode.com/problems/special-array-i)<br>
@@ -537,15 +507,74 @@ __builtin_popcount(x)<br>
 > [476 Number Complement](./solution/Solution_0476.cpp)和[1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp)<br>
 > 類似上面這兩個的題目，只是直接回傳mask。<br>
 
+
+
+
+<br><br>
+---
+
+## <a name="Bit-manipulation-or"></a>📊 Bit Manipulation - OR operation (位元運算 - 或運算)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_1318.cpp) | O(1) | O(1) |
+| **2917** | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2917.cpp) | O(N * log(max_val)) | O(1) |
+| 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | 🟢 Easy | Bit Manipulation <br> Math | [C++](./solution/Solution_2980.cpp) | O(N) | O(1) | [Note](#2980-check-if-bitwise-or-has-trailing-zeros) |
+| 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3688.cpp) | O(N) | O(1) | [Note](#3688-bitwise-or-of-even-numbers-in-an-array) |
+
+---
+
+### 2980 Check if Bitwise OR Has Trailing Zeros
+> [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)<br>
+> travsal nums，出現兩個even number，return true<br>
+
 ---
 
 ### 3688 Bitwise OR of Even Numbers in an Array
 > [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) <br>
 > int res = 0，把所有even number OR 到res上<br>
 
+<br><br>
+---
+
+## <a name="Bit-manipulation-and"></a>📊 Bit Manipulation - AND operation (位元運算 - 及運算)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0191.cpp) | O(1) | O(1) | [Note](#0191-number-of-1-bits) |
+| 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0201.cpp) | O(logn) | O(1) |
+
+### 0191 Number of 1 Bits
+> 0191.[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)<br>
+> 使用 **Brian Kernighan's Algorithm** ，**n = n & (n - 1)**，有 build in function可以用<br>
+> **(1)** C++20，std::popcount(static_cast<unsigned int>(n)) 或  **(2)** 若編譯器(GCC/Clang)支援， __builtin_popcount(n) <br>
+---
 
 <br><br>
 ---
+
+## <a name="Bit-manipulation-xor"></a>📊 Bit Manipulation - XOR operation (位元運算 - 互斥或運算)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) | O(n) | O(1) | [Note](#0136-single-number) |
+| 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) |
+| 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
+| 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) |
+| 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2425.cpp) | O(N + M) | O(1) |
+
+### 0136 Single Number
+> [Single Number](https://leetcode.com/problems/single-number)<br>
+> 所有num出現兩次，目標num出現一次，全部的數字XOR起來就是答案<br>
+
+---
+
+### 0268 Missing Number
+> [Missing Number](https://leetcode.com/problems/missing-number) <br>
+> for loop 從0 ~ (size - 1) ， missing ^= (i + 1) ^ nums[i]<br>
+
+---
+
+<br><br>
+---
+
 
 ## <a name="Hamming Distance"></a>📊 Bit Manipulation - Hamming Distance (位元運算 漢明距離)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
