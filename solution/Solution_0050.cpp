@@ -12,13 +12,10 @@
 class Solution {
 public:
     double myPow(double x, int n) {
-        double res = 1;
-        long num = abs((double)n);
-        while (num != 0) {
-            if (num % 2 != 0) res *= x;
-            x *= x;
-            num >>= 1;
-        }
-        return n >= 0 ? res : 1 / res;
+        if (n == 0) return 1;
+        if (n == INT_MIN) return myPow(x * x, n / 2); // 單獨處理
+        if (n < 0) return 1 / myPow(x, -n);
+        if (n % 2 == 1) return x * myPow(x, n - 1);
+        return myPow(x * x, n / 2);
     }
 };
