@@ -392,7 +392,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math / Sieve | [C++](./solution/Solution_0204.cpp) | O(N log log N) | O(N) | [Note](#0204-count-primes) |
-| 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math / Trial Division | [C++](./solution/Solution_2614.cpp) | O(N * sqrt(M)) | O(1) | 
+| 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math / Trial Division | [C++](./solution/Solution_2614.cpp) | O(N * sqrt(M)) | O(1) | [Note](#2614-prime-in-diagonal) |
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) |
 
@@ -401,8 +401,12 @@ __builtin_popcount(x)<br>
 ### 0204 Count Primes
 > [Count Primes](https://leetcode.com/problems/count-primes/)<br>
 > 起一組 bitset<50001> isPrime，執行Sieve of Eratosthenes演算法，一個for loop 2 ~ **(n-1)**，看prime有幾個<br>
+---
 
-
+### 2614 Prime In Diagonal
+> [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)<br>
+> 實作isPrime，兩邊對角線一一代入，紀錄Max Prime<br>
+---
 
 <br><br>
 ---
