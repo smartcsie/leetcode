@@ -274,7 +274,7 @@ __builtin_popcount(x)<br>
 
 ### 1822 Sign of the Product of an Array
 > [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array)<br>
-> 如果 nums.size() == 0，return 0，尋訪nums，有0，return 0，計算負數個數，奇數回傳-1，偶數回傳1<br>
+> 如果 nums.size() == 0，return 0，起一個變數sign = 1，尋訪nums，如果num < 0，sign = -sign<br>
 
  
 ---
