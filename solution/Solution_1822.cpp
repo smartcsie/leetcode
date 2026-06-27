@@ -9,22 +9,15 @@
  * 2. 乘積的符號僅取決於負數的個數：負數個數為偶數則為正，奇數則為負。
  */
 
-#include <vector>
-
-using namespace std;
-
 class Solution {
 public:
     int arraySign(vector<int>& nums) {
-        int sign = 1; // 使用 1 代表正，-1 代表負
-        
-        for (int num : nums) {
-            if (num == 0) return 0;
-            if (num < 0) {
-                sign = -sign; // 每遇到一個負數，符號翻轉一次
-            }
+        if(nums.size() == 0) return 0;
+        int sign = 1;
+        for(const int& num : nums) {
+            if(num == 0) return 0;
+            else if(num < 0) sign = -sign;
         }
-        
         return sign;
     }
 };
