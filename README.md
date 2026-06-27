@@ -592,8 +592,8 @@ __builtin_popcount(x)<br>
 | 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) | O(n) | O(1) | [Note](#0136-single-number) |
 | 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) |
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
-| 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) |
-| 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2425.cpp) | O(N + M) | O(1) |
+| **2317** | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) | [Note](#2317-maximum-xor-after-operations) |
+| 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2425.cpp) | O(N + M) | O(1) | [Note](#2425-bitwise-xor-of-all-pairings) |
 
 ### 0136 Single Number
 > [Single Number](https://leetcode.com/problems/single-number)<br>
@@ -606,6 +606,21 @@ __builtin_popcount(x)<br>
 > for loop 從0 ~ (size - 1) ， missing ^= (i + 1) ^ nums[i]<br>
 
 ---
+
+
+### 2317 Maximum XOR After Operations
+> [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) <br>
+> 所有元素之間AND，再把所有結果XOR，等於所有元素直接OR
+
+---
+
+### 2425 Bitwise XOR of All Pairings
+> [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) <br>
+> xor1 = 0 ， xor2 = 0，
+> 如果nums1 size是奇數，把所有nums2的element xor到 xor2<br>
+> 如果nums2 size是奇數，把所有nums1的element xor到 xor1<br>
+> 回傳 xor1 ^ xor2<br>
+
 
 <br><br>
 ---
