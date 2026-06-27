@@ -156,10 +156,8 @@ __builtin_popcount(x)<br>
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](./solution/Solution_0342.cpp) | O(1) | O(1) | [Note](#0342-power-of-four) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math / String | [C++](./solution/Solution_0412.cpp) | O(N) | O(1)* | [Note](#0412-fizz-buzz) |
 | 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math / Binary Search | [C++](./solution/Solution_0441.cpp) | O(logN) | O(1) |
-| **0507** | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0507.cpp) | O(√N) | O(1) | [Note](#0507-perfect-number) |
 | 0628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_0628.cpp) | O(N) | O(1) |[Note](#0628-maximum-product-of-three-numbers) |
 | 0633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Math / Two Pointers | [C++](./solution/Solution_0633.cpp) | O(√c) | O(1) | |
-| 0970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math / Hash Table | [C++](./solution/Solution_0970.cpp) | O(log_x(bound) * log_y(bound)) | O(S) | |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1295.cpp) | O(N) | O(1) | [Note](#1295-find-numbers-with-even-number-of-digits) |
 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟢 Medium | Math | [C++](./solution/Solution_1492.cpp) | O(√N) | O(1) | 
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | Matrix | [C++](./solution/Solution_1572.cpp) | O(N) | O(1) | [Note](#1572-matrix-diagonal-sum) |
@@ -260,16 +258,6 @@ __builtin_popcount(x)<br>
 > else res.push_back(to_string(i));<br>
 ---
 
-### 0507 Perfect Number
-> [Perfect Number](https://leetcode.com/problems/perfect-number/)<br>
-> 法一<br>
-> int res = 1;<br>
-> for(int i = 2; i * i < sqrt(num); i++) if(num % i == 0) res += i + num / i;<br>
-> return res == num;<br>
-> 法二<br>
-> return num == 6 || num == 28 || num == 496 || num == 8128 || num == 33550336;<br>
-
----
 
 ### 0628 Maximum Product of Three Numbers
 > [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) <br>
@@ -357,6 +345,24 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
+
+## <a name="math-prime-factorization"></a>🔢 Math - Prime Factorization(數學 質因素分解)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **0507** | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0507.cpp) | O(√N) | O(1) | [Note](#0507-perfect-number) |
+| 0970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math / Hash Table | [C++](./solution/Solution_0970.cpp) | O(log_x(bound) * log_y(bound)) | O(S) | |
+
+### 0507 Perfect Number
+> [Perfect Number](https://leetcode.com/problems/perfect-number/)<br>
+> 法一<br>
+> int res = 1;<br>
+> for(int i = 2; i * i < sqrt(num); i++) if(num % i == 0) res += i + num / i;<br>
+> return res == num;<br>
+> 法二<br>
+> return num == 6 || num == 28 || num == 496 || num == 8128 || num == 33550336;<br>
+
+<br><br>
+---
 
 
 ## <a name="math-digit Decomposition"></a>🔢 Math- Digit Decomposition(數學 數字拆解)
