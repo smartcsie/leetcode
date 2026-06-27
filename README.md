@@ -154,7 +154,7 @@ __builtin_popcount(x)<br>
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0268.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
 | 0326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](./solution/Solution_0326.cpp) | O(log₃n) | O(1) | [Note](#0326-power-of-three) |
 | 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](./solution/Solution_0342.cpp) | O(1) | O(1) | [Note](#0342-power-of-four) |
-| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math / String | [C++](./solution/Solution_0412.cpp) | O(N) | O(1)* | |
+| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math / String | [C++](./solution/Solution_0412.cpp) | O(N) | O(1)* | [Note](#0412-fizz-buzz) |
 | 0441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math / Binary Search | [C++](./solution/Solution_0441.cpp) | O(logN) | O(1) |
 | 0507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0507.cpp) | O(√N) | O(1) | |
 | 0633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Math / Two Pointers | [C++](./solution/Solution_0633.cpp) | O(√c) | O(1) | |
@@ -249,6 +249,18 @@ __builtin_popcount(x)<br>
 > [Power of Four](https://leetcode.com/problems/power-of-four/)<br>
 > (n > 0) && (n & (n-1)) == 0 && (n & 0x55555555) != 0，Power of Two多加 **(n & 0x55555555) != 0**<br>
 ---
+
+
+### 0412 Fizz Buzz
+> [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)<br>
+> 起一個for loop i 從 1 ~ n<br>
+> if(i % 3 == 0 && i % 5 != 0) res.push_back("Fizz");<br>
+> else if(i % 3 != 0 && i % 5 == 0) res.push_back("Buzz");<br>
+> else if(i % 3 == 0 && i % 5 == 0) res.push_back("FizzBuzz");<br>
+> else res.push_back(to_string(i));<br>
+---
+
+
 
 ### 1295 Find Numbers with Even Number of Digits
 > [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)
