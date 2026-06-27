@@ -553,13 +553,20 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0191.cpp) | O(1) | O(1) | [Note](#0191-number-of-1-bits) |
-| 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0201.cpp) | O(logn) | O(1) |
+| 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0201.cpp) | O(logn) | O(1) | [Note](#0201-bitwise-and-of-numbers-range)|
 
 ### 0191 Number of 1 Bits
 > 0191.[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)<br>
 > 使用 **Brian Kernighan's Algorithm** ，**n = n & (n - 1)**，有 build in function可以用<br>
 > **(1)** C++20，std::popcount(static_cast<unsigned int>(n)) 或  **(2)** 若編譯器(GCC/Clang)支援， __builtin_popcount(n) <br>
 ---
+
+### 0201 Bitwise AND of Numbers Range
+> [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range)<br>
+> 使用 **Brian Kernighan's Algorithm** ，**right = right & (right - 1)**， while(right > left) <br>
+---
+
+
 
 <br><br>
 ---
