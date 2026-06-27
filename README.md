@@ -169,7 +169,7 @@ __builtin_popcount(x)<br>
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math <br> Brainteaser | [C++](./solution/Solution_2396.cpp) | O(1) | O(1) | [Note](#2396-strictly-palindromic-number) |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | Math | [C++](./solution/Solution_2413.cpp) | O(1) | O(1) |[Note](#2413-smallest-even-multiple) |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | Math / Simulation | [C++](./solution/Solution_2443.cpp) | O(NlogN) | O(1) |
-| 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) | |
+| 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) | [Note](#2469-convert-the-temperature) |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](./solution/Solution_2485.cpp) | O(1) | O(1) |   |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) | |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) | |
@@ -319,6 +319,13 @@ __builtin_popcount(x)<br>
 > return (n & 1) == 0 ? n : 2 * n;。<br>
 
 ---
+
+### 2469 Convert the Temperature
+> [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) <br>
+> return { celsius + 273.15, celsius * 1.80 + 32.00 };<br>
+
+---
+
 
 ### 3512 Minimum Operations to Make Array Sum Divisible by K
 > [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/)<br>
