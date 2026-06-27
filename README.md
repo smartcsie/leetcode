@@ -168,7 +168,7 @@ __builtin_popcount(x)<br>
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math <br> String | [C++](./solution/Solution_1980.cpp) | O(N²) | O(N) | [Note](#1980-find-unique-binary-string) |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](./solution/Solution_2119.cpp) | O(1) | O(1) |[Note](#2119-three-divisors) |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](./solution/Solution_2177.cpp) | O(1) | O(1) | [Note](#2177-find-three-consecutive-integers-that-sum-to-a-given-number) |
-| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math <br> Brainteaser | [C++](./solution/Solution_2396.cpp) | O(1) | O(1) | |
+| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math <br> Brainteaser | [C++](./solution/Solution_2396.cpp) | O(1) | O(1) | [Note](#2396-strictly-palindromic-number) |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | Math | [C++](./solution/Solution_2413.cpp) | O(1) | O(1) |[Note](#2413-smallest-even-multiple) |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | Math / Simulation | [C++](./solution/Solution_2443.cpp) | O(NlogN) | O(1) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) | |
@@ -296,6 +296,11 @@ __builtin_popcount(x)<br>
 
 ---
 
+### 2396 Strictly Palindromic Number
+> [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) 
+> return false;
+
+---
 
 ### 2413 Smallest Even Multiple
 > [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) <br>
