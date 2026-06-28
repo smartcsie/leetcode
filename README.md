@@ -377,7 +377,14 @@ __builtin_popcount(x)<br>
 ## <a name="math-combination"></a>🔢 Math Combination(數學 組合)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math / Combinatorics / DP | [C++](./solution/Solution_0062.cpp) | O(min(m, n)) | O(1) |
+| 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math / Combinatorics / DP | [C++](./solution/Solution_0062.cpp) | O(min(m, n)) | O(1) | [Note](#0062-unique-paths) |
+
+
+
+### 0062. Unique Paths
+> [Unique Paths](https://leetcode.com/problems/unique-paths/)<br>
+> 在 **mxn** 的網格中，計算從左上角到右下角的總路徑數，**總步數為 (m-1) + (n-1)，從中選取 m-1 步向下走**。
+> **C(m + n - 2, m - 1)** <br>
 
 <br><br>
 ---
