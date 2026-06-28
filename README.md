@@ -844,7 +844,7 @@ __builtin_popcount(x)<br>
 | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](./solution/Solution_0058.cpp) | O(n) | O(1) | [Note](#0058-length-of-last-word) |
 | **0151** | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_0151.cpp) | O(N) | O(N) |
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | String / Math | [C++](./solution/Solution_0415.cpp) | O(max(N, M)) | O(max(N, M)) | [Note](#0415-add-strings) |
-| 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](./solution/Solution_0434.cpp) | O(N) | O(1) |
+| 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](./solution/Solution_0434.cpp) | O(N) | O(1) | [Note](#0434-number-of-segments-in-a-string) |
 | 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String | [C++](./solution/Solution_0520.cpp) | O(N) | O(1) |
 | 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String | [C++](./solution/Solution_0709.cpp) | O(N) | O(1) |
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | String | [C++](./solution/Solution_0796.cpp) | O(N) | O(N) |
@@ -909,6 +909,14 @@ __builtin_popcount(x)<br>
 > carry /= 10;<br>
 > }<br>
 > 最後reverse，reverse(res.begin(), res.end());<br>
+
+---
+
+
+### 0434. Number of Segments in a String
+> [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) <br>
+> 第一次開頭也要算segment，char lastChar = ' ';<br>
+> 上一個char是空白，這個char不是空白就count++，for(char c : s) if(c != ' ' && lastChar == ' ')  count++;
 
 ---
 
