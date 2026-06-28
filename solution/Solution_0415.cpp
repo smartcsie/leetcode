@@ -19,25 +19,15 @@ public:
         int i = num1.size() - 1;
         int j = num2.size() - 1;
         int carry = 0;
-        
-        // 只要任一字串尚未遍歷完，或還有進位，則繼續計算
-        while (i >= 0 || j >= 0 || carry != 0) {
-            // 若指標小於 0 則補 0，否則取當前字元轉為數字
-            int a = (i >= 0) ? num1[i--] - '0' : 0;
-            int b = (j >= 0) ? num2[j--] - '0' : 0;
-            
-            int sum = a + b + carry;
-            
-            // 將 sum 的個位數轉回字元加入結果字串
-            res.push_back((sum % 10) + '0');
-            
-            // 更新進位
-            carry = sum / 10;
+        while(i >= 0 || j >= 0 || carry !=0) {
+            if(i >=0) carry += num1[i--] - '0';
+            if(j >=0) carry += num2[j--] - '0';
+            res.push_back((carry % 10) + '0');
+            carry /= 10;
         }
-        
-        // 將結果反轉回正確順序
         reverse(res.begin(), res.end());
-        
         return res;
     }
 };
+
+
