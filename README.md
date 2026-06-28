@@ -383,7 +383,8 @@ __builtin_popcount(x)<br>
 
 ### 0062. Unique Paths
 > [Unique Paths](https://leetcode.com/problems/unique-paths/)<br>
-> 在 **mxn** 的網格中，計算從左上角到右下角的總路徑數，**總步數為 (m-1) + (n-1)，從中選取 m-1 步向下走**。
+> 在 **mxn** 的網格中，計算從左上角到右下角的總路徑數，<br>
+> **總步數為 (m-1) + (n-1)，從中選取 m-1 步向下走**。<br>
 > **C(m + n - 2, m - 1)** <br>
 
 <br><br>
