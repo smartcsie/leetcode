@@ -746,7 +746,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) | O(n) | O(1) | [Note](#0136-single-number) |
-| 0260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) |
+| **0260** | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) | [Note](#0260-single-number-iii)
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
 | **2317** | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) | [Note](#2317-maximum-xor-after-operations) |
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2425.cpp) | O(N + M) | O(1) | [Note](#2425-bitwise-xor-of-all-pairings) |
@@ -754,6 +754,14 @@ __builtin_popcount(x)<br>
 ### 0136 Single Number
 > [Single Number](https://leetcode.com/problems/single-number)<br>
 > 所有num出現兩次，目標num出現一次，全部的數字XOR起來就是答案<br>
+
+---
+
+### 0260 Single Number III
+> [Single Number III](https://leetcode.com/problems/single-number-iii) <br>
+> 兩數出現1次，其他出現兩次，xor_ab等於所有數XOR的結果<br>
+> 算diff_bit，為a和b比較大的數的MSB，int diff_bit = 1;  while((xor_ab & diff_bit) == 0)  diff_bit <<= 1;<br>
+> 再travsal nums，如果num和diff_bit AND > 0，num XOR 到a，否則b<br>
 
 ---
 
