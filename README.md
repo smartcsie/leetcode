@@ -146,7 +146,7 @@ __builtin_popcount(x)<br>
 | **0050** | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math <br> Binary Exponentiation | [C++](./solution/Solution_0050.cpp) | O(log N) | O(1) | [Note](#0050-powx-n) |
 | **0066** | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](./solution/Solution_0066.cpp) | O(n) | O(1) | [Note](#0066-plus-one) | [Note](#0066-plus-one)  |
 | **0067** | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0067.cpp) | O(max(M, N)) | O(1) | [Note](#0067-add-binary) |
-| 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math <br> Hash Set | [C++](./solution/Solution_0137_1.cpp) | O(n) | O(n) | [Note](#0137-single-number-ii) |
+| 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math <br> Hash Set | [C++](./solution/Solution_0137_1.cpp) | O(n) | O(n) | [Note](#0137-1-single-number-ii) |
 | 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 Medium | Math | [C++](./solution/Solution_0172.cpp) | O(log₅N) | O(1) | [Note](#0172-factorial-trailing-zeroes) |
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](./solution/Solution_0231.cpp) | O(1) | O(1) | [Note](#0231-power-of-two) |
 | 0258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](./solution/Solution_0258.cpp) | O(1) | O(1) | [Note](#0258-add-digits) |
@@ -170,7 +170,6 @@ __builtin_popcount(x)<br>
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | Math | [C++](./solution/Solution_2413.cpp) | O(1) | O(1) |[Note](#2413-smallest-even-multiple) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) | [Note](#2469-convert-the-temperature) |
 | **2485** | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](./solution/Solution_2485.cpp) | O(1) | O(1) | [Note](#2485-find-the-pivot-integer)  |
-| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) | [Note](#2553-separate-the-digits-in-an-array) |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) | |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) | [Note](#3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_3701.cpp) | O(N) | O(1) | [Note](#3701-compute-alternating-sum) |
@@ -209,7 +208,7 @@ __builtin_popcount(x)<br>
 > reverse(res.begin(), res.end());<br>
 ---
 
-### 0137. Single Number II
+### 0137-1. Single Number II
 > [Single Number II](https://leetcode.com/problems/single-number-ii)<br>
 > 先travsal nums，num加到sum_all，num順便insert到unique_set(unordered_set<int>)<br>
 > (3 * sum_unique - sum_all) / 2<br>
@@ -347,25 +346,6 @@ __builtin_popcount(x)<br>
 
 ---
 
-### 2553 Separate the Digits in an Array
-> [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) <br>
-> 方法一<br>
-> for(int i = nums.size() - 1 ; i >= 0; i--) {<br>
->  int temp = nums[i];<br>
-> while(temp > 0) {<br>
->  res.push_back(temp % 10);<br>
-> temp /= 10;<br>
->  }<br>
-> }<br>
-> reverse(res.begin(), res.end());<br>
-> 方法二<br>
-> for(const int& num : nums) {<br>
->  for(char c : to_string(num)) res.push_back(c - '0');<br>
-> }<br>
-
----
-
-
 ### 3512 Minimum Operations to Make Array Sum Divisible by K
 > [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/)<br>
 > 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>
@@ -421,6 +401,7 @@ __builtin_popcount(x)<br>
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logₖN) | O(1) | [Note](#1837-sum-of-digits-in-base-k) |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | Math / Simulation | [C++](./solution/Solution_2443.cpp) | O(NlogN) | O(1) | [Note](#2443-sum-of-number-and-its-reverse)
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_2544.cpp) | O(logN) | O(logN) | [Note](#2544-alternating-digit-sum) |
+| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) | [Note](#2553-separate-the-digits-in-an-array) |
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2595.cpp) | O(log N) | O(1) | [Note](#2595-number-of-even-and-odd-bits) |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math | [C++](./solution/Solution_3099.cpp) | O(logN) | O(1) | [Note](#3099-harshad-number) |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
@@ -471,6 +452,24 @@ __builtin_popcount(x)<br>
 ### 2544 Alternating Digit Sum
 > [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)  <br>
 > sign=1，每一次加sign*MSB(n % 10)後，sign*=-1，**最後出迴圈，sign如果是1，sum多一個負號**。<br>
+
+---
+
+### 2553 Separate the Digits in an Array
+> [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) <br>
+> 方法一<br>
+> for(int i = nums.size() - 1 ; i >= 0; i--) {<br>
+>  int temp = nums[i];<br>
+> while(temp > 0) {<br>
+>  res.push_back(temp % 10);<br>
+> temp /= 10;<br>
+>  }<br>
+> }<br>
+> reverse(res.begin(), res.end());<br>
+> 方法二<br>
+> for(const int& num : nums) {<br>
+>  for(char c : to_string(num)) res.push_back(c - '0');<br>
+> }<br>
 
 ---
 
@@ -557,7 +556,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_0029.cpp) | O(log²N) | O(1) |
-| 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit-Manipulation | [C++](./solution/Solution_0137.cpp) | O(n) | O(1) |
+| 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit-Manipulation | [C++](./solution/Solution_0137.cpp) | O(n) | O(1) | [Note](#0137-2-single-number-ii)  |
 | 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0190.cpp) | O(1) | O(1) | [Note](#0190-reverse-bits) |
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | DP <br> Bit Manipulation | [C++](./solution/Solution_0338.cpp) | O(n) | O(n) |
 | **0371** | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp) | O(1) | O(1) | [Note](#0371-sum-of-two-integers)
@@ -577,6 +576,17 @@ __builtin_popcount(x)<br>
 > 此題是處理邊界的魔王題，這一題網路上掛一片，大部分偷用long long<br>
 > 溢位處理有許多常見的解法，如 [meyr543](https://hackmd.io/@meyr543/rkSRWnXPK), [grandyang](https://www.cnblogs.com/grandyang/p/4741122.html),[doocs](https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0260.Single%20Number%20III/Solution.cpp),[BylwiCXPt](https://hackmd.io/@Inversionpeter/BylwiCXPt)<br>
 > 使用 'unsigned',`long long` 來處理 `INT_MIN` 的溢位，這在工程上屬於一種 **Workaround**<br>
+---
+
+### 0137-2. Single Number II
+> [Single Number II](https://leetcode.com/problems/single-number-ii)<br>
+>  int one = 0, two = 0;<br>
+> for(const int& num : nums) {<br>
+> one = one^num & ~two;<br>
+> two = two^num & ~one;<br>
+> }<br>
+> return one;<br>
+> 此題有三種解法，位元有限狀態機是最佳解<br>
 ---
 
 
