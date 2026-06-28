@@ -170,7 +170,7 @@ __builtin_popcount(x)<br>
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | Math | [C++](./solution/Solution_2413.cpp) | O(1) | O(1) |[Note](#2413-smallest-even-multiple) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) | [Note](#2469-convert-the-temperature) |
 | **2485** | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](./solution/Solution_2485.cpp) | O(1) | O(1) | [Note](#2485-find-the-pivot-integer)  |
-| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) | |
+| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) | [Note](#2553-separate-the-digits-in-an-array) |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) | |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) | [Note](#3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_3701.cpp) | O(N) | O(1) | [Note](#3701-compute-alternating-sum) |
@@ -337,6 +337,24 @@ __builtin_popcount(x)<br>
 > int x = static_cast<int>(sqrt(sum));<br>
 > if(x * x == sum) return x;<br>
 > return -1;<br>
+
+---
+
+### 2553 Separate the Digits in an Array
+> [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) <br>
+> 方法一<br>
+> for(int i = nums.size() - 1 ; i >= 0; i--) {<br>
+>  int temp = nums[i];<br>
+> while(temp > 0) {<br>
+>  res.push_back(temp % 10);<br>
+> temp /= 10;<br>
+>  }<br>
+> }<br>
+> reverse(res.begin(), res.end());<br>
+> 方法二<br>
+> for(const int& num : nums) {<br>
+>  for(char c : to_string(num)) res.push_back(c - '0');<br>
+> }<br>
 
 ---
 
