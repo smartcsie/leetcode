@@ -170,7 +170,7 @@ __builtin_popcount(x)<br>
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | Math | [C++](./solution/Solution_2413.cpp) | O(1) | O(1) |[Note](#2413-smallest-even-multiple) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) | [Note](#2469-convert-the-temperature) |
 | **2485** | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](./solution/Solution_2485.cpp) | O(1) | O(1) | [Note](#2485-find-the-pivot-integer)  |
-| 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) | |
+| 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples) | 🟢 Easy | Math | [C++](./solution/Solution_2652.cpp) | O(n) | O(1) | [Note](#2652-find-the-pivot-integer) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Math | [C++](./solution/Solution_3512.cpp) | O(N) | O(1) | [Note](#3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_3701.cpp) | O(N) | O(1) | [Note](#3701-compute-alternating-sum) |
 
@@ -345,6 +345,17 @@ __builtin_popcount(x)<br>
 > return -1;<br>
 
 ---
+
+### 2652 Find the Pivot Integer
+> [Sum Multiples](https://leetcode.com/problems/sum-multiples)
+> travsal 1~n，如果是3或5或7能整除，則加到sum，最後回傳sum <br>
+> for(int i = 1 ;i <= n; i++) { <br>
+> if(i % 3 == 0 || i % 5 == 0 || i % 7 == 0) sum += i; <br>
+> }<br>
+
+---
+
+
 
 ### 3512 Minimum Operations to Make Array Sum Divisible by K
 > [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/)<br>
