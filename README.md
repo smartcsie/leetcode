@@ -837,7 +837,7 @@ __builtin_popcount(x)<br>
 ## <a name="string"></a>🔗 String (字串)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | String <br> Math | [C++](./solution/Solution_0008.cpp) | O(N) | O(1) |
+| **0008** | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | String <br> Math | [C++](./solution/Solution_0008.cpp) | O(N) | O(1) | [Note](#0008-string-to-integer-atoi) |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String <br> Trie | [C++](./solution/Solution_0014.cpp) | O(S) | O(1) |
 | 0028 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String <br> KMP | [C++](./solution/Solution_0028.cpp) | O(N * M) | O(1) |
 | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](./solution/Solution_0058.cpp) | O(n) | O(1) |
@@ -870,6 +870,18 @@ __builtin_popcount(x)<br>
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_3498.cpp) | O(n) | O(1) |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3775.cpp) | O(N*L) | O(N) |
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3931.cpp) | O(N) | O(1) |
+
+
+### 0008. String to Integer (atoi)
+> [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)<br>
+> 處裡多餘空白，while(i < n && s[i] == ' ') i++;<br>
+> 處裡正負號，int sign = 1;  if(s[i] == '+' || s[i] == '-' ) sign = (s[i++] == '+') ? 1 : -1;<br>
+> while(i < n && isdigit(s[i])) {<br>
+> int digit = s[i++] - '0';<br>
+> if(res > (INT_MAX - digit) / 10) return sign == 1 ? INT_MAX : INT_MIN;<br>
+> res = res * 10 + digit;<br>
+} <br>
+
 
 <br><br>
 ---
