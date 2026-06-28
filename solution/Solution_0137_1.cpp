@@ -23,22 +23,19 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        // 使用 long long 防止計算過程中的整數溢位 (int 可能會超過範圍)
-        long long sum_all = 0;
-        unordered_set<long long> s;
+        long sum_all = 0;
+        unordered_set<int> unique_set;
         
-        for (int num : nums) {
+        for(const int& num : nums) {
             sum_all += num;
-            s.insert(num);
+            unique_set.insert(num);
         }
-        
-        long long sum_unique = 0;
-        for (long long num : s) {
+
+        long sum_unique = 0; 
+        for(const int& num : unique_set) {
             sum_unique += num;
         }
-        
-        // 根據公式 target = (3 * sum_unique - sum_all) / 2
-        // 強制將所有運算轉為 long long 進行，最後再轉回 int 返回
-        return (int)((3 * sum_unique - sum_all) / 2);
+
+        return static_cast<int>((3 * sum_unique - sum_all) / 2);
     }
 };
