@@ -839,7 +839,7 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **0008** | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | String <br> Math | [C++](./solution/Solution_0008.cpp) | O(N) | O(1) | [Note](#0008-string-to-integer-atoi) |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String <br> Trie | [C++](./solution/Solution_0014.cpp) | O(S) | O(1) | [Note](#0014-longest-common-prefix) |
-| 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](./solution/Solution_0058.cpp) | O(n) | O(1) |
+| 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](./solution/Solution_0058.cpp) | O(n) | O(1) | [Note](#0058-length-of-last-word) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_0151.cpp) | O(N) | O(N) |
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | String / Math | [C++](./solution/Solution_0415.cpp) | O(max(N, M)) | O(max(N, M)) |
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](./solution/Solution_0434.cpp) | O(N) | O(1) |
@@ -887,6 +887,13 @@ __builtin_popcount(x)<br>
 > 如果比較的字串比較長 strs[j].size() < i或是發現第i個char不一樣(strs[j][i] != strs[0][i]<br>
 > return strs[0].substr(0, i);<br>
 > 或最後  return strs[0];<br>
+---
+
+### 0058. Length of Last Word
+> [Length of Last Word](https://leetcode.com/problems/length-of-last-word) <br>
+> 頭尾都有可能有空白<br>
+> 先把right調過尾巴的空白，指到最後一個word的最後一個char，while (right >= 0 && s[right] == ' ') {right--;}<br>
+> 開始算最後一組word長度，while (right >= 0 && s[right] != ' ') { right--; length++;}<br>
 ---
 
 
