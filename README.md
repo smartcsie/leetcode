@@ -871,7 +871,7 @@ __builtin_popcount(x)<br>
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_0944.cpp) | O(N * M) | O(M) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1528.cpp) | O(N) | O(N) | [Note](#1528-shuffle-string) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](./solution/Solution_1758.cpp) | O(N) | O(1) |
-| 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) |
+| 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) | [Note](#2042-check-if-numbers-are-ascending-in-a-sentence) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_2114.cpp) | O(N * M) | O(1) | [Note](#2114-maximum-number-of-words-found-in-sentences) |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String | [C++](./solution/Solution_2124.cpp) | O(N) | O(1) | [Note](#2124-check-if-all-as-appears-before-all-bs) |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) | 🟢 Easy | String | [C++](./solution/Solution_2264.cpp) | O(N) | O(1) | [Note](#2264-largest-3-same-digit-number-in-string) |
@@ -936,6 +936,18 @@ __builtin_popcount(x)<br>
 > [Shuffle String](https://leetcode.com/problems/shuffle-string)<br>
 > string res(s.size(), ' ');<br>
 >  for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];<br>
+
+---
+
+### 2042.Check if Numbers Are Ascending in a Sentence
+> [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence)<br>
+> 用一個 istringstream iss(s)<br>
+> while(iss >> word) <br>
+> if(isdigit(word[0])) { <br>
+> int num = stoi(word); <br>
+> if(num <= prev) return false; <br>
+> prev = num; <br>
+> }<br>
 
 ---
 
