@@ -853,7 +853,7 @@ __builtin_popcount(x)<br>
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1528.cpp) | O(N) | O(N) | [Note](#1528-shuffle-string) |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | String | [C++](./solution/Solution_1668.cpp) | O(N*M²) | O(M) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](./solution/Solution_1758.cpp) | O(N) | O(1) |
-| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String <br> Hash Table | [C++](./solution/Solution_1796.cpp) | O(N) | O(1) | 
+| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String <br> Hash Table | [C++](./solution/Solution_1796.cpp) | O(N) | O(1) |[Note](#1796-second-largest-digit-in-a-string) |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String | [C++](./solution/Solution_1903.cpp) | O(N) | O(1) | [Note](#1903-largest-odd-number-in-string) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_2114.cpp) | O(N * M) | O(1) |
@@ -947,6 +947,17 @@ __builtin_popcount(x)<br>
 >  for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];<br>
 
 ---
+
+
+### 1796. Second Largest Digit in a String
+> [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) <br>
+> 可能有重覆的數<br>
+> if(digit > large) { second = large; large = digit;} 
+> else if( **digit < large** && digit > second) { second = digit;}
+                
+---
+
+
 
 ### 1903. Largest Odd Number in String
 > [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) <br>
