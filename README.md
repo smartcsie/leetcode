@@ -870,7 +870,7 @@ __builtin_popcount(x)<br>
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](./solution/Solution_0434.cpp) | O(N) | O(1) | [Note](#0434-number-of-segments-in-a-string) |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_0944.cpp) | O(N * M) | O(M) | [Note](#0944-delete-columns-to-make-sorted) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1528.cpp) | O(N) | O(N) | [Note](#1528-shuffle-string) |
-| 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](./solution/Solution_1758.cpp) | O(N) | O(1) |
+| 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](./solution/Solution_1758.cpp) | O(N) | O(1) | [Note](#1758-minimum-changes-to-make-alternating-binary-string) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) | [Note](#2042-check-if-numbers-are-ascending-in-a-sentence) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_2114.cpp) | O(N * M) | O(1) | [Note](#2114-maximum-number-of-words-found-in-sentences) |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String | [C++](./solution/Solution_2124.cpp) | O(N) | O(1) | [Note](#2124-check-if-all-as-appears-before-all-bs) |
@@ -945,6 +945,13 @@ __builtin_popcount(x)<br>
 > [Shuffle String](https://leetcode.com/problems/shuffle-string)<br>
 > string res(s.size(), ' ');<br>
 >  for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];<br>
+
+---
+
+### 1758. Minimum Changes To Make Alternating Binary String
+> [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string)<br>
+> for(int i = 0 ; i < s.size(); i++) if(i % 2 == s[i]-'0') count++;<br>
+> return min(count, static_cast<int>(s.size()) - count);<br>
 
 ---
 
