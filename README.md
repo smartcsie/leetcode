@@ -987,6 +987,7 @@ __builtin_popcount(x)<br>
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp) | O(n) | O(1) | [Note](#2678-number-of-senior-citizens) |
 | 3083 | [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_3083.cpp) | O(N) | O(1) |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
+| 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String / Validation | [C++](./solution/Solution_3136.cpp) | O(N) | O(1) | [Note](#3136-valid-word) |
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3931.cpp) | O(N) | O(1) |
 
 
@@ -1021,6 +1022,16 @@ __builtin_popcount(x)<br>
 
 ---
 
+
+
+### 3136. Valid Word
+> [Valid Word](https://leetcode.com/problems/valid-word/) <br>
+> 如果是數字continue， if(isdigit(c)) continue<br>
+> 如果是大小寫字母，代入isVowel，計數vowel或consonant<br>
+> 不是前兩種，return false<br>
+> 最後 (vowel >= 1) && (consonant >= 1)<br>
+
+---
 
 
 ### 2678. Number of Senior Citizens
