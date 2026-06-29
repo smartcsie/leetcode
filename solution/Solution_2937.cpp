@@ -11,14 +11,14 @@
 class Solution {
 public:
     int findMinimumOperations(string s1, string s2, string s3) {
-        int n1 = s1.size(), n2 = s2.size(), n3= s3.size();
-        int minLen = std::min({n1, n2, n3});
-        int sameCh = 0;
-        while (sameCh < minLen && 
-                s1[sameCh] == s2[sameCh] && 
-                s1[sameCh] == s3[sameCh]){
-            sameCh++;
+        int prefix = 0;
+        int n1 = s1.size(), n2 = s2.size(), n3 = s3.size();
+        int minLen = min({n1, n2, n3});
+        for(int i = 0 ; i < minLen; i++) {
+            if((s1[i] == s2[i]) && (s1[i] == s3[i])) prefix++;
+            else break;
         }
-        return  (sameCh == 0) ? -1 : (n1 + n2 + n3 - 3 * sameCh);
+        if(prefix == 0) return -1;
+        return (n1 + n2 + n3 - prefix - prefix - prefix);
     }
 };
