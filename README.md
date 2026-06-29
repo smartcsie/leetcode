@@ -847,8 +847,6 @@ __builtin_popcount(x)<br>
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](./solution/Solution_0434.cpp) | O(N) | O(1) | [Note](#0434-number-of-segments-in-a-string) |
 | 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String | [C++](./solution/Solution_0520.cpp) | O(N) | O(1) | [Note](#0520-detect-capital) |
 | 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String | [C++](./solution/Solution_0709.cpp) | O(N) | O(1) | [Note](#0709-to-lower-case) |
-| 0796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | String | [C++](./solution/Solution_0796.cpp) | O(N) | O(N) | [Note](#0796-rotate-string) |
-| **0833** | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | String | [C++](./solution/Solution_833.cpp) | O(N+M*K) | O(N) |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_0944.cpp) | O(N * M) | O(M) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1528.cpp) | O(N) | O(N) | [Note](#1528-shuffle-string) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](./solution/Solution_1758.cpp) | O(N) | O(1) |
@@ -864,7 +862,6 @@ __builtin_popcount(x)<br>
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp) | O(n) | O(1) |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2828.cpp) | O(n) | O(1) |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](./solution/Solution_2937.cpp) | O(min(L1, L2, L3)) | O(1) |
-| 3083 | [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_3083.cpp) | O(N) | O(1) |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_3498.cpp) | O(n) | O(1) |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3775.cpp) | O(N*L) | O(N) |
@@ -930,12 +927,6 @@ __builtin_popcount(x)<br>
 ### 0709. To Lower Case
 > [To Lower Case](https://leetcode.com/problems/to-lower-case) <br>
 > for(char& c : s ) if(isupper(c)) c += 32; <br>
-
----
-
-### 0796. Rotate String
-> [Rotate String](https://leetcode.com/problems/rotate-string) <br>
-> return (s + s).find(goal) != string::npos; <br>
 
 ---
 
@@ -1013,6 +1004,33 @@ __builtin_popcount(x)<br>
 
 <br><br>
 ---
+
+
+## <a name="string-substring"></a>🔗 String - Substring (字串 子字串)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | String | [C++](./solution/Solution_0796.cpp) | O(N) | O(N) | [Note](#0796-rotate-string) |
+| **0833** | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | String | [C++](./solution/Solution_833.cpp) | O(N+M*K) | O(N) |
+| 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 Easy | String / Search | [C++](./solution/Solution_1967.cpp) | O(N * M * K) | O(1) | [Note](#1967-number-of-strings-that-appear-as-substrings-in-word) |
+| 3083 | [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_3083.cpp) | O(N) | O(1) |
+
+
+
+### 0796. Rotate String
+> [Rotate String](https://leetcode.com/problems/rotate-string) <br>
+> return (s + s).find(goal) != string::npos; <br>
+
+---
+
+### 1967. Number of Strings That Appear as Substrings in Word
+> [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) <br>
+> 用word去find vector<string> patterns<br>
+
+---
+
+<br><br>
+---
+
 
 ## <a name="string-kmp"></a>🔗 String - Knuth Morris Pratt (字串 KMP)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
