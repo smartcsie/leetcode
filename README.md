@@ -936,6 +936,17 @@ __builtin_popcount(x)<br>
 
 ---
 
+### 2937. Make Three Strings Equal
+> [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)  <br>
+> 跟0014.[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)很像，此題三字串，0014多字串
+> int minLen = min({n1, n2, n3});<br>
+> for(int i = 0 ; i < minLen; i++) if((s1[i] == s2[i]) && (s1[i] == s3[i])) prefix++;<br>
+> 計算前綴長度 prefix，用個別長度減去前綴長度，return (n1 + n2 + n3 - prefix - prefix - prefix);<br>
+
+
+---
+
+
 
 
 <br><br>
