@@ -845,27 +845,19 @@ __builtin_popcount(x)<br>
 | **0151** | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_0151.cpp) | O(N) | O(N) |
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | String / Math | [C++](./solution/Solution_0415.cpp) | O(max(N, M)) | O(max(N, M)) | [Note](#0415-add-strings) |
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](./solution/Solution_0434.cpp) | O(N) | O(1) | [Note](#0434-number-of-segments-in-a-string) |
-| 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String | [C++](./solution/Solution_0520.cpp) | O(N) | O(1) | [Note](#0520-detect-capital) |
-| 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String | [C++](./solution/Solution_0709.cpp) | O(N) | O(1) | [Note](#0709-to-lower-case) |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_0944.cpp) | O(N * M) | O(M) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1528.cpp) | O(N) | O(N) | [Note](#1528-shuffle-string) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](./solution/Solution_1758.cpp) | O(N) | O(1) |
-| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String <br> Hash Table | [C++](./solution/Solution_1796.cpp) | O(N) | O(1) |[Note](#1796-second-largest-digit-in-a-string) |
-| 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String | [C++](./solution/Solution_1903.cpp) | O(N) | O(1) | [Note](#1903-largest-odd-number-in-string) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_2114.cpp) | O(N * M) | O(1) | [Note](#2114-maximum-number-of-words-found-in-sentences) |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String | [C++](./solution/Solution_2124.cpp) | O(N) | O(1) | [Note](#2124-check-if-all-as-appears-before-all-bs) |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) | 🟢 Easy | String | [C++](./solution/Solution_2264.cpp) | O(N) | O(1) | [Note](#2264-largest-3-same-digit-number-in-string) |
 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_2460.cpp) | O(N) | O(1) |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String | [C++](./solution/Solution_2490.cpp) | O(N) | O(1) |
-| 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2586.cpp) | O(n) | O(1) |
-| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp) | O(n) | O(1) | [Note](#2678-number-of-senior-citizens) |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2828.cpp) | O(n) | O(1) | [Note](#2828-check-if-a-string-is-an-acronym-of-words) |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](./solution/Solution_2937.cpp) | O(min(L1, L2, L3)) | O(1) |
-| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_3498.cpp) | O(n) | O(1) |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3775.cpp) | O(N*L) | O(N) |
-| 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3931.cpp) | O(N) | O(1) |
 
 
 ### 0008. String to Integer (atoi)
@@ -917,20 +909,6 @@ __builtin_popcount(x)<br>
 ---
 
 
-### 0520. Detect Capital
-> [Detect Capital](https://leetcode.com/problems/detect-capital/) <br>
-> count計算uppercase個數<br>
-> 全部小寫 count == 0，全部大寫 count == word.size()，第一個char大寫 count == 1 && isupper(word[0])<br>
-
----
-
-### 0709. To Lower Case
-> [To Lower Case](https://leetcode.com/problems/to-lower-case) <br>
-> for(char& c : s ) if(isupper(c)) c += 32; <br>
-
----
-
-
 ### 1528. Shuffle String
 > [Shuffle String](https://leetcode.com/problems/shuffle-string)<br>
 > string res(s.size(), ' ');<br>
@@ -939,23 +917,6 @@ __builtin_popcount(x)<br>
 ---
 
 
-### 1796. Second Largest Digit in a String
-> [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) <br>
-> 可能有重覆的數<br>
-> if(digit > large) { second = large; large = digit;} 
-> else if( **digit < large** && digit > second) { second = digit;}
-                
----
-
-
-
-### 1903. Largest Odd Number in String
-> [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) <br>
-> 一直檢查最後一個digit是否是odd<br>
-> for(int i = num.size() - 1; i >= 0; i--) if(num[i] & 1) return num.substr(0, i + 1);<br>
-
-
----
 
 
 ### 2114. Maximum Number of Words Found in Sentences
@@ -997,19 +958,6 @@ __builtin_popcount(x)<br>
 ---
 
 
-### 2678. Number of Senior Citizens
-> [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)  <br>
-> Index 11和12是age <br>
-> int age = 10 * (detail[11] - '0') + (detail[12] - '0');<br>
-> if( age > 60) citizens++;<br>
-
-
-
----
-
-
-
-
 
 ### 2937. Make Three Strings Equal
 > [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)  <br>
@@ -1026,6 +974,66 @@ __builtin_popcount(x)<br>
 
 <br><br>
 ---
+
+
+## <a name="string-character-classification "></a>🔗 String - Character Classification (字串 字元識別)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String | [C++](./solution/Solution_0520.cpp) | O(N) | O(1) | [Note](#0520-detect-capital) |
+| 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String | [C++](./solution/Solution_0709.cpp) | O(N) | O(1) | [Note](#0709-to-lower-case) |
+| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String <br> Hash Table | [C++](./solution/Solution_1796.cpp) | O(N) | O(1) |[Note](#1796-second-largest-digit-in-a-string) |
+| 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String | [C++](./solution/Solution_1903.cpp) | O(N) | O(1) | [Note](#1903-largest-odd-number-in-string) |
+| 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2586.cpp) | O(n) | O(1) |
+| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp) | O(n) | O(1) | [Note](#2678-number-of-senior-citizens) |
+| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
+| 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3931.cpp) | O(N) | O(1) |
+
+
+### 0520. Detect Capital
+> [Detect Capital](https://leetcode.com/problems/detect-capital/) <br>
+> count計算uppercase個數<br>
+> 全部小寫 count == 0，全部大寫 count == word.size()，第一個char大寫 count == 1 && isupper(word[0])<br>
+
+---
+
+
+### 0709. To Lower Case
+> [To Lower Case](https://leetcode.com/problems/to-lower-case) <br>
+> for(char& c : s ) if(isupper(c)) c += 32; <br>
+
+---
+
+
+### 1796. Second Largest Digit in a String
+> [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) <br>
+> 可能有重覆的數<br>
+> if(digit > large) { second = large; large = digit;} 
+> else if( **digit < large** && digit > second) { second = digit;}
+                
+---
+
+
+### 1903. Largest Odd Number in String
+> [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) <br>
+> 一直檢查最後一個digit是否是odd<br>
+> for(int i = num.size() - 1; i >= 0; i--) if(num[i] & 1) return num.substr(0, i + 1);<br>
+
+---
+
+
+
+### 2678. Number of Senior Citizens
+> [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)  <br>
+> Index 11和12是age <br>
+> int age = 10 * (detail[11] - '0') + (detail[12] - '0');<br>
+> if( age > 60) citizens++;<br>
+
+---
+
+
+<br><br>
+---
+
 
 
 ## <a name="string-substring"></a>🔗 String - Substring (字串 子字串)
