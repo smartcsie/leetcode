@@ -859,7 +859,7 @@ __builtin_popcount(x)<br>
 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_2460.cpp) | O(N) | O(1) |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String | [C++](./solution/Solution_2490.cpp) | O(N) | O(1) |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2586.cpp) | O(n) | O(1) |
-| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp) | O(n) | O(1) |
+| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp) | O(n) | O(1) | [Note](#2678-number-of-senior-citizens) |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2828.cpp) | O(n) | O(1) |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](./solution/Solution_2937.cpp) | O(min(L1, L2, L3)) | O(1) |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
@@ -981,6 +981,17 @@ __builtin_popcount(x)<br>
 > 檢查連續三個字元是否相等，如果相等，maxChar = max(maxChar,num[i])<br>
 > return (maxChar == 0) ? "" : string(3, maxChar);<br>
 > <br>
+
+
+---
+
+
+### 2678. Number of Senior Citizens
+> [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)  <br>
+> Index 11和12是age <br>
+> int age = 10 * (detail[11] - '0') + (detail[12] - '0');<br>
+> if( age > 60) citizens++;<br>
+
 
 
 ---
