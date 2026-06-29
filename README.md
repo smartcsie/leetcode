@@ -850,7 +850,7 @@ __builtin_popcount(x)<br>
 | 0796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | String | [C++](./solution/Solution_0796.cpp) | O(N) | O(N) |
 | 0833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | String | [C++](./solution/Solution_833.cpp) | O(N+M*K) | O(N) |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_0944.cpp) | O(N * M) | O(M) |
-| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1528.cpp) | O(N) | O(N) |
+| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1528.cpp) | O(N) | O(N) | [Note](#1528-number-of-segments-in-a-string) |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | String | [C++](./solution/Solution_1668.cpp) | O(N*M²) | O(M) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](./solution/Solution_1758.cpp) | O(N) | O(1) |
 | 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String <br> Hash Table | [C++](./solution/Solution_1796.cpp) | O(N) | O(1) | 
@@ -916,10 +916,17 @@ __builtin_popcount(x)<br>
 ### 0434. Number of Segments in a String
 > [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) <br>
 > 第一次開頭也要算segment，char lastChar = ' ';<br>
-> 上一個char是空白，這個char不是空白就count++，for(char c : s) if(c != ' ' && lastChar == ' ')  count++;
+> 上一個char是空白，這個char不是空白就count++，for(char c : s) if(c != ' ' && lastChar == ' ')  count++;<br>
 
 ---
 
+
+### 1528. Number of Segments in a String
+> [Shuffle String](https://leetcode.com/problems/shuffle-string)<br>
+> string res(s.size(), ' ');<br>
+>  for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];<br>
+
+---
 
 
 <br><br>
