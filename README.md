@@ -853,7 +853,7 @@ __builtin_popcount(x)<br>
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String | [C++](./solution/Solution_2124.cpp) | O(N) | O(1) | [Note](#2124-check-if-all-as-appears-before-all-bs) |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) | 🟢 Easy | String | [C++](./solution/Solution_2264.cpp) | O(N) | O(1) | [Note](#2264-largest-3-same-digit-number-in-string) |
 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_2460.cpp) | O(N) | O(1) |
-| 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String | [C++](./solution/Solution_2490.cpp) | O(N) | O(1) |
+| 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String | [C++](./solution/Solution_2490.cpp) | O(N) | O(1) | [Note](#2490-circular-sentence) |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2828.cpp) | O(n) | O(1) | [Note](#2828-check-if-a-string-is-an-acronym-of-words) |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](./solution/Solution_2937.cpp) | O(min(L1, L2, L3)) | O(1) | [Note](#2937-make-three-strings-equal) |
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_3498.cpp) | O(n) | O(1) | [Note](#3498-reverse-degree-of-a-string) |
@@ -936,13 +936,6 @@ __builtin_popcount(x)<br>
 ---
 
 
-### 2828. Check if a String Is an Acronym of Words
-> [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) <br>
-> 如果vector<string> words size和 s size不同，return false<br>
-> for loop i 從 0 ~ s.size() - 1，if(words[i][0] != s[i]) return false;<br>
-
-
----
 
 
 
@@ -957,6 +950,26 @@ __builtin_popcount(x)<br>
 
 ---
 
+
+
+
+### 2490. Circular Sentence
+> [Circular Sentence](https://leetcode.com/problems/circular-sentence) <br>
+> 先檢查第一個和最後一個char是否相等，segment 1或多同時處理，if(sentence.front() != sentence.back()) return false;<br>
+> travsal string中每一個char，檢查是否是 x空格x的pattern<br>
+
+---
+
+
+
+
+### 2828. Check if a String Is an Acronym of Words
+> [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) <br>
+> 如果vector<string> words size和 s size不同，return false<br>
+> for loop i 從 0 ~ s.size() - 1，if(words[i][0] != s[i]) return false;<br>
+
+
+---
 
 
 ### 2937. Make Three Strings Equal
