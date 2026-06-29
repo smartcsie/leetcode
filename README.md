@@ -857,7 +857,7 @@ __builtin_popcount(x)<br>
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_2114.cpp) | O(N * M) | O(1) | [Note](#2114-maximum-number-of-words-found-in-sentences) |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String | [C++](./solution/Solution_2124.cpp) | O(N) | O(1) | [Note](#2124-check-if-all-as-appears-before-all-bs) |
-| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) | 🟢 Easy | String | [C++](./solution/Solution_2264.cpp) | O(N) | O(1) |
+| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) | 🟢 Easy | String | [C++](./solution/Solution_2264.cpp) | O(N) | O(1) | [Note](#2264-largest-3-same-digit-number-in-string) |
 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_2460.cpp) | O(N) | O(1) |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String | [C++](./solution/Solution_2490.cpp) | O(N) | O(1) |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2586.cpp) | O(n) | O(1) |
@@ -982,6 +982,19 @@ __builtin_popcount(x)<br>
 
 
 ---
+
+
+### 2264. Largest 3-Same-Digit Number in String
+> [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) <br>
+> 先設定maxChar = 0<br>
+> 檢查連續三個字元是否相等，如果相等，maxChar = max(maxChar,num[i])<br>
+> return (maxChar == 0) ? "" : string(3, maxChar);<br>
+> <br>
+
+
+---
+
+
 
 
 
