@@ -783,6 +783,7 @@ __builtin_popcount(x)<br>
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
 | **2317** | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) | [Note](#2317-maximum-xor-after-operations) |
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2425.cpp) | O(N + M) | O(1) | [Note](#2425-bitwise-xor-of-all-pairings) |
+| 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | Bit Manipulation / Array | [C++](./solution/Solution_3158.cpp) | O(N) | O(1) | |
 
 ### 0136 Single Number
 > [Single Number](https://leetcode.com/problems/single-number)<br>
