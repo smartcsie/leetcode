@@ -166,7 +166,6 @@ __builtin_popcount(x)<br>
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math <br> String | [C++](./solution/Solution_1980.cpp) | O(N²) | O(N) | [Note](#1980-find-unique-binary-string) |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](./solution/Solution_2119.cpp) | O(1) | O(1) |[Note](#2119-three-divisors) |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](./solution/Solution_2177.cpp) | O(1) | O(1) | [Note](#2177-find-three-consecutive-integers-that-sum-to-a-given-number) |
-| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math <br> Brainteaser | [C++](./solution/Solution_2396.cpp) | O(1) | O(1) | [Note](#2396-strictly-palindromic-number) |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | Math | [C++](./solution/Solution_2413.cpp) | O(1) | O(1) |[Note](#2413-smallest-even-multiple) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](./solution/Solution_2469.cpp) | O(1) | O(1) | [Note](#2469-convert-the-temperature) |
 | **2485** | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](./solution/Solution_2485.cpp) | O(1) | O(1) | [Note](#2485-find-the-pivot-integer)  |
@@ -320,12 +319,6 @@ __builtin_popcount(x)<br>
 
 ---
 
-### 2396 Strictly Palindromic Number
-> [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) 
-> return false;
-
----
-
 ### 2413 Smallest Even Multiple
 > [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) <br>
 > return (n & 1) == 0 ? n : 2 * n;。<br>
@@ -424,7 +417,6 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) | [Note](#0007-reverse-integer) |
-| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) | O(logn) | O(1) | [Note](#0009-palindrome-number) |
 | 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0504.cpp) | O(log₇N) | O(1) | [Note](#0504-base-7) |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math | [C++](./solution/Solution_1017.cpp) | O(logN) | O(1) | [Note](#1017-convert-to-base-2) |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logₖN) | O(1) | [Note](#1837-sum-of-digits-in-base-k) |
@@ -448,13 +440,6 @@ __builtin_popcount(x)<br>
 
 ---
 
-### 0009. Palindrome Number
->  [Palindrome Number](https://leetcode.com/problems/palindrome-number/)<br>
-> x < 0 則 return false <br>
-> x == 0 則 return true <br>
-> **while回圈內，邊界條件如下** <br>
-> **if (reverse > INT_MAX / 10 || (reverse == INT_MAX / 10 && (x % 10) > 7)) return 0;** <br>
----
 
 ### 0504 Base 7
 > [Base 7](https://leetcode.com/problems/base-7) <br>
@@ -584,7 +569,24 @@ __builtin_popcount(x)<br>
 ## <a name="math-palindrome"></a>🔢 Math Palindrome(數學-回文)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math / Palindrome | [C++](./solution/Solution_0866.cpp) | O(sqrt(P) * 10^(L/2)) | O(1) |
+| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) | O(logn) | O(1) | [Note](#0009-palindrome-number) |
+| 0866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math / Palindrome | [C++](./solution/Solution_0866.cpp) | O(sqrt(P) * 10^(L/2)) | O(1) |
+| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math <br> Brainteaser | [C++](./solution/Solution_2396.cpp) | O(1) | O(1) | [Note](#2396-strictly-palindromic-number) |
+
+
+### 0009. Palindrome Number
+>  [Palindrome Number](https://leetcode.com/problems/palindrome-number/)<br>
+> x < 0 則 return false <br>
+> x == 0 則 return true <br>
+> **while回圈內，邊界條件如下** <br>
+> **if (reverse > INT_MAX / 10 || (reverse == INT_MAX / 10 && (x % 10) > 7)) return 0;** <br>
+---
+
+### 2396 Strictly Palindromic Number
+> [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) 
+> return false;
+
+---
 
 
 <br><br>
