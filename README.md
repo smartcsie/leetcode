@@ -534,6 +534,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math / Sieve | [C++](./solution/Solution_0204.cpp) | O(N log log N) | O(N) | [Note](#0204-count-primes) |
+| 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | 🟡 Medium | Math / Sieve | [C++](./solution/Solution_2523.cpp) | O(N log log N) | O(N) | [Note](#2523-closest-prime-numbers-in-range) | 
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math / Trial Division | [C++](./solution/Solution_2614.cpp) | O(N * sqrt(M)) | O(1) | [Note](#2614-prime-in-diagonal) |
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) | [Note](#2716-prime-pairs-with-target-sum)|
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) | [Note](#3591-check-if-any-element-has-prime-frequency) |
@@ -543,6 +544,14 @@ __builtin_popcount(x)<br>
 ### 0204 Count Primes
 > [Count Primes](https://leetcode.com/problems/count-primes/)<br>
 > 起一組 bitset<50001> isPrime，執行Sieve of Eratosthenes演算法，一個for loop 2 ~ **(n-1)**，看prime有幾個<br>
+---
+
+### 2523 Closest Prime Numbers in Range
+> [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)<br>
+> 先用Sieve Algorithm 算出 1 ~ right<br>
+> 初始化變數 vector<int> result = {-1, -1};  int prevPrime = -1; int minDiff = INT_MAX;<br>
+> for loop i = left ~ right，更新prevPrime，更新diff最小，更新result<br>
+
 ---
 
 ### 2614 Prime In Diagonal
