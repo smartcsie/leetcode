@@ -581,6 +581,16 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
+## <a name="math-palindrome"></a>🔢 Math Palindrome(數學-回文)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math / Palindrome | [C++](./solution/Solution_0866.cpp) | O(sqrt(P) * 10^(L/2)) | O(1) |
+
+
+<br><br>
+---
+
+
 ## <a name="Bit-manipulation"></a>📊 Bit Manipulation (位元運算)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
