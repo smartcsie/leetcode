@@ -539,7 +539,7 @@ __builtin_popcount(x)<br>
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) | [Note](#2761-prime-pairs-with-target-sum)|
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟠 Medium | Math / Brute Force | [C++](./solution/Solution_3556.cpp) | O(N^2 * sqrt(M)) | O(1) | [Note](#3556-sum-of-largest-prime-substrings) |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) | [Note](#3591-check-if-any-element-has-prime-frequency) |
-
+| 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | Math / Sieve | [C++](./solution/Solution_3618.cpp) | O(N + R log log R) | O(R) | [Note](#3618-split-array-by-prime-indices) |
 
 
 ### 0204 Count Primes
@@ -573,14 +573,17 @@ __builtin_popcount(x)<br>
 ---
 
 
-
-
 ### 3591 Check if Any Element Has Prime Frequency
 > [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) <br>
 > 起一組 bitset<101> isPrime，執行Sieve of Eratosthenes演算法，用vector<int> count(101, 0)計算每個numt出現頻率，檢查哪個頻率prime<br>
 ---
 
+### 3618 Split Array by Prime Indices
+> [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/)<br>
+> 執行Sieve of Eratosthenes演算法，travsal nums 1 ~ size() - 1，if(isPrime[i]) { sum += nums[i]; } else { sum -= nums[i]; }<br>
+---
 
+            
 <br><br>
 ---
 
