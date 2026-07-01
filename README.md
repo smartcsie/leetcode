@@ -540,6 +540,7 @@ __builtin_popcount(x)<br>
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟠 Medium | Math / Brute Force | [C++](./solution/Solution_3556.cpp) | O(N^2 * sqrt(M)) | O(1) | [Note](#3556-sum-of-largest-prime-substrings) |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) | [Note](#3591-check-if-any-element-has-prime-frequency) |
 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | Math / Sieve | [C++](./solution/Solution_3618.cpp) | O(N + R log log R) | O(R) | [Note](#3618-split-array-by-prime-indices) |
+| 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟠 Medium | Math / Sieve | [C++](./solution/Solution_3918.cpp) | O(R log log R) | O(R) | [Note](#3918-sum-of-primes-between-number-and-its-reverse) |
 
 
 ### 0204 Count Primes
@@ -583,6 +584,11 @@ __builtin_popcount(x)<br>
 > 執行Sieve of Eratosthenes演算法，travsal nums 1 ~ size() - 1，if(isPrime[i]) { sum += nums[i]; } else { sum -= nums[i]; }<br>
 ---
 
+### 3918 Sum of Primes Between Number and Its Reverse
+> [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/)<br>
+> 先求n的reverse，int left = min(n, reversed);int right = max(n, reversed);<br>
+> 執行Sieve of Eratosthenes演算法，left到right區間，if(isPrime[i])sum += i;<br>
+---
             
 <br><br>
 ---
