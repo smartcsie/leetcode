@@ -536,7 +536,8 @@ __builtin_popcount(x)<br>
 | 0204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math / Sieve | [C++](./solution/Solution_0204.cpp) | O(N log log N) | O(N) | [Note](#0204-count-primes) |
 | **2523** | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | 🟡 Medium | Math / Sieve | [C++](./solution/Solution_2523.cpp) | O(N log log N) | O(N) | [Note](#2523-closest-prime-numbers-in-range) | 
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math / Trial Division | [C++](./solution/Solution_2614.cpp) | O(N * sqrt(M)) | O(1) | [Note](#2614-prime-in-diagonal) |
-| 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) | [Note](#2716-prime-pairs-with-target-sum)|
+| 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) | [Note](#2761-prime-pairs-with-target-sum)|
+| 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟠 Medium | Math / Brute Force | [C++](./solution/Solution_3556.cpp) | O(N^2 * sqrt(M)) | O(1) | [Note](#3556-sum-of-largest-prime-substrings) |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) | [Note](#3591-check-if-any-element-has-prime-frequency) |
 
 
@@ -560,10 +561,18 @@ __builtin_popcount(x)<br>
 ---
 
 
-### 2716 Prime Pairs With Target Sum
+### 2761 Prime Pairs With Target Sum
 > [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) <br>
 > 起一組 bitset<100001> isPrime，執行Sieve of Eratosthenes演算法，i 從 1 ~ n/2，i和 n - 1都是prime，則放入result vector<br>
 ---
+
+### 3556 Sum of Largest Prime Substrings
+> [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) <br>
+> 雙層迴圈計算列出子字串，轉成數字，for(int i = 0;i < n; i++)  for(int j = i;j < n; j++) curNum = curNum * 10 + (s[j] - '0');<br>
+> 如果curNum是prime，curNum更新到前三大的數，if(isPrime(curNum)) updateMax(curNum, max1, max2, max3); <br>
+---
+
+
 
 
 ### 3591 Check if Any Element Has Prime Frequency
