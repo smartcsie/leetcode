@@ -633,6 +633,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_0029.cpp) | O(log²N) | O(1) |
+| 0089 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_0089.cpp) | O(2ᴺ) | O(1) | |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit-Manipulation | [C++](./solution/Solution_0137.cpp) | O(n) | O(1) | [Note](#0137-2-single-number-ii)  |
 | 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0190.cpp) | O(1) | O(1) | [Note](#0190-reverse-bits) |
 | **0371** | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp) | O(1) | O(1) | [Note](#0371-sum-of-two-integers)
@@ -653,6 +654,13 @@ __builtin_popcount(x)<br>
 > 溢位處理有許多常見的解法，如 [meyr543](https://hackmd.io/@meyr543/rkSRWnXPK), [grandyang](https://www.cnblogs.com/grandyang/p/4741122.html),[doocs](https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0260.Single%20Number%20III/Solution.cpp),[BylwiCXPt](https://hackmd.io/@Inversionpeter/BylwiCXPt)<br>
 > 使用 'unsigned',`long long` 來處理 `INT_MIN` 的溢位，這在工程上屬於一種 **Workaround**<br>
 ---
+
+### 0089 Gray Code
+> [Gray Code](https://leetcode.com/problems/gray-code/)<br>
+> 數字i的Gray code為 i ⊕ (i >> 1) <br>
+
+---
+
 
 ### 0137-2. Single Number II
 > [Single Number II](https://leetcode.com/problems/single-number-ii)<br>
@@ -1863,7 +1871,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Sorting <br> String | [C++](./solution/Solution_0179.cpp) | O(NlogN*k) | O(N*k) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Hash Table <br> QuickSelect | [C++](./solution/Solution_0347.cpp) | O(N) | O(N) |
 | 0539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Math <br> Sorting | [C++](./solution/Solution_539.cpp) | O(NlogN) | O(N) |
-| 0524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟠 Medium | Two Pointers / Sorting | [C++](./solution/Solution_0524.cpp) | O(D log D + D * M) | O(1) |
+| 0524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | Two Pointers / Sorting | [C++](./solution/Solution_0524.cpp) | O(D log D + D * M) | O(1) |
 | 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Array <br> Divide and Conquer <br> Sorting | [C++](./solution/Solution_0912.cpp) | O(nlogn) | O(logn) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Array <br> Sorting | [C++](./solution/Solution_1200.cpp) | O(NlogN) | O(N) | 
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Bit Manipulation <br>  Sorting | [C++](./solution/Solution_1356.cpp) | O(NlogN) | O(1) |
