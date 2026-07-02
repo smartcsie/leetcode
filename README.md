@@ -936,6 +936,7 @@ __builtin_popcount(x)<br>
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | String / Math | [C++](./solution/Solution_0415.cpp) | O(max(N, M)) | O(max(N, M)) | [Note](#0415-add-strings) |
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](./solution/Solution_0434.cpp) | O(N) | O(1) | [Note](#0434-number-of-segments-in-a-string) |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_0944.cpp) | O(N * M) | O(M) | [Note](#0944-delete-columns-to-make-sorted) |
+| 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 Easy | String Parsing | [Solution](./solution/Solution_1078.cpp) | O(N) | O(N) | [Note](#1078-occurrences-after-bigram) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1528.cpp) | O(N) | O(N) | [Note](#1528-shuffle-string) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](./solution/Solution_1758.cpp) | O(N) | O(1) | [Note](#1758-minimum-changes-to-make-alternating-binary-string) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) | [Note](#2042-check-if-numbers-are-ascending-in-a-sentence) |
@@ -1003,6 +1004,16 @@ __builtin_popcount(x)<br>
 > 外迴圈i為column(string的第幾個char) 0 ~ cols，內迴圈j為row(第幾個string) 1 ~ rows<br>
 > 發現前面string第i個char比後面string第i個char大，bitset那個位置，往下一個char檢查，if(strs[j-1][i] > strs[j][i]) { bits.set(i);  break;}
 > return static_cast<int>(bits.count())<br>
+
+---
+
+### 1078. Occurrences After Bigram
+> [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)<br>
+> 用istringstream拆解text成為vector<string> words;<br>
+> for(int i = 0; i < words.size() - 2; i++) {<br>
+> if(words[i] == first && words[i + 1] == second) res.push_back(words[i + 2]);<br>
+> }<br>
+
 
 ---
 
