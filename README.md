@@ -1053,10 +1053,6 @@ __builtin_popcount(x)<br>
 ---
 
 
-
-
-
-
 ### 2264. Largest 3-Same-Digit Number in String
 > [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) <br>
 > 先設定maxChar = 0<br>
@@ -1068,16 +1064,12 @@ __builtin_popcount(x)<br>
 ---
 
 
-
-
 ### 2490. Circular Sentence
 > [Circular Sentence](https://leetcode.com/problems/circular-sentence) <br>
 > 先檢查第一個和最後一個char是否相等，segment 1或多同時處理，if(sentence.front() != sentence.back()) return false;<br>
 > travsal string中每一個char，檢查是否是 x空格x的pattern<br>
 
 ---
-
-
 
 
 ### 2828. Check if a String Is an Acronym of Words
@@ -1507,6 +1499,7 @@ __builtin_popcount(x)<br>
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | 🟢 Easy | String <br> Two Pointers | [C++](./solution/Solution_1768.cpp) | O(N+M) | O(1) |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_2109.cpp) | O(N+M) | O(N+M) |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_2540.cpp) | O(N+M) | O(1) |
+| 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | Array / Two Pointers | [C++](./solution/Solution_3819.cpp) | O(N) | O(N) |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_3940.cpp) | O(N) | O(1) |
 
 
