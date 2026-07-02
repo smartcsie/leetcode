@@ -374,7 +374,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math / Combinatorics / DP | [C++](./solution/Solution_0062.cpp) | O(min(m, n)) | O(1) | [Note](#0062-unique-paths) |
-
+| 0357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | Math / Combinatorics | [C++](./solution/Solution_0357.cpp) | O(N) | O(1) |  |
 
 
 ### 0062. Unique Paths
