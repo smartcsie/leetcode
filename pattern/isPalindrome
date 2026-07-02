@@ -1,0 +1,11 @@
+bool isPalindrome(const std::string &s) {
+    if (s.empty()) return true; // 空字串通常被定義為回文
+    int left = 0;
+    int right = static_cast<int>(s.length()) - 1;
+    while (left < right) {
+        if (s[left++] != s[right--]) {
+            return false;
+        }
+    }
+    return true;
+}
