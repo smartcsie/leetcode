@@ -1223,6 +1223,7 @@ __builtin_popcount(x)<br>
 | 0717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | 🟢 Easy | Array / Simulation | [C++](./solution/Solution_0717.cpp) | O(N) | O(1) | 
 | 0896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | Array | [C++](./solution/Solution_0896.cpp) | O(N) | O(1) |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | Array | [C++](./solution/Solution_1299.cpp) | O(N) | O(1) |
+| 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 Easy | Math / Array | [Solution](./solution/Solution_1304.cpp) | O(N) | O(1) | markdown[Note](#1304-find-n-unique-integers-sum-up-to-zero) |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 Easy | Array / Simulation | [C++](./solution/Solution_1389.cpp) | O(N²) | O(N) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy | Array | [C++](./solution/Solution_1431.cpp) | O(N) | O(1)* |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | Array | [C++](./solution/Solution_1470.cpp) | O(N) | O(N) |
@@ -1239,6 +1240,12 @@ __builtin_popcount(x)<br>
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array | [C++](./solution/Solution_2239.cpp) | O(N) | O(1) |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_3925.cpp) | O(N) | O(N) |
 
+
+### 1304.Find N Unique Integers Sum up to Zero
+>  [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) <br>
+>  產生n個數，使其sum為0，起一個loop，i從 1 ~/2，ans.push_back(i);ans.push_back(-i);，如果n是奇數，多放0，if(n & 1) ans.push_back(0);<br>
+
+---
 
 ### 1550. Three Consecutive Odds
 > [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) <br>
@@ -1288,7 +1295,7 @@ __builtin_popcount(x)<br>
 
 ### 0867. Transpose Matrix
 > [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)<br>
-> Size mxn, New 一個 Vector nxm<br>
+> Size mxn，New 一個 Vector nxm<br>
 ---
 
 ### 1886. Determine Whether Matrix Can Be Obtained By Rotation
