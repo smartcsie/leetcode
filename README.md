@@ -1663,6 +1663,7 @@ __builtin_popcount(x)<br>
 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2215.cpp) | O(n+m) | O(n+m) |
 | 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2248.cpp) | O(n*m) | O(n) |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Array <br> Hash Table <br> Sorting | [C++](./solution/Solution_2784.cpp) | O(n) | O(n) |
+| 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | Brute Force | [Solution](./solution/Solution_3483.cpp) | O(N³) | O(U) |
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3718.cpp) | O(N+M) | O(M) |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | Array / Hash Table | [C++](./solution/Solution_3731.cpp) | O(N+K) | O(K) |
 
@@ -2022,7 +2023,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0322.cpp) | O(A * N) | O(A) |
 | 0377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium |  DP <br> Unbounded Knapsack (Permutation | [C++](./solution/Solution_0377.cpp) | O(A * N) | O(A) |
 | 0518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0518.cpp) | O(N * A) | O(A) |
-| 0139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | DP  <br> Unbounded Knapsack | [C++](./solution/Solution_0139.cpp) | O(N^3) | O(N) | 
+| 0139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | DP  <br> Unbounded Knapsack | [C++](./solution/Solution_0139.cpp) | O(N³) | O(N) | 
 
 > [!NOTE]
 > [0279.Perfect Squares](./solution/Solution_0279.cpp)和[0322.Coin Change](./solution/Solution_0322.cpp)<br>
@@ -2039,7 +2040,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Array <br> Dynamic Programming | [C++](./solution/Solution_0053.cpp) | O(n) | O(1) |
-| 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | Array <br> DP | [C++](./solution/Solution_0118.cpp) | O(N^2) | O(1)* |
+| 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | Array <br> DP | [C++](./solution/Solution_0118.cpp) | O(N²) | O(1)* |
 | 0152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | Dynamic Programming <br> Array | [C++](./solution/Solution_0152.cpp) | O(N) | O(1) |
 | 0918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | Array <br> Kadane's Algorithm | [C++](./solution/Solution_0918.cpp) | O(N) | O(1) |
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | Math <br> Dynamic Programming | [C++](./solution/Solution_1641.cpp) | O(1) | O(1) |
