@@ -1589,6 +1589,7 @@ __builtin_popcount(x)<br>
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_3005.cpp) | O(n) | O(1) |
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | Hash Table <br> Frequency Counting | [C++](./solution/Solution_3541.cpp) | O(N) | O(1) |
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table <br> Frequency Counting | [C++](./solution/Solution_3663.cpp) | O(log N) | O(1) |
+| 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 Easy | Hash Table | [Solution](./solution/Solution_3843.cpp) | O(N) | O(N) | [Note](#3843-first-element-with-unique-frequency) |
 | 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3866.cpp) | O(N) | O(1) | [Note](#3866-first-unique-even-element) |
 
 ### 2150. Find All Lonely Numbers in the Array
@@ -1600,6 +1601,13 @@ __builtin_popcount(x)<br>
 ### 2395. Find Subarrays With Equal Sum
 > [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) <br>
 > 從 index 1 開始，左右兩數的sum，unordered map存在，回傳false，不存在，則存入unordered map<br>
+---
+
+### 3843. First Element with Unique Frequency
+> [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/)<br>
+> travsal nums, 用unordered_map<int, int> counts紀錄數字出現的次數<br>
+> travsal counts, 用 unordered_map<int, int> countFreq;紀錄出現次數的頻率<br>
+> travsal nums, if(countFreq[counts[num]] == 1) return num;<br>
 ---
 
 ### 3866. First Unique Even Element
