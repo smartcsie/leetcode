@@ -2167,23 +2167,51 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ## <a name="backtracking"></a>🔢 Backtracking (回朔法)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **17** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Backtracking | [Solution](./solution/Solution_0017.cpp) | O(4^N) | O(N) | |
+| **0017** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Backtracking | [Solution](./solution/Solution_0017.cpp) | O(4^N) | O(N) | [Note](#0017-letter-combinations-of-a-phone-number) |
 | 0022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | Backtracking / String | [C++](./solution/Solution_0022.cpp) | O(4ᴺ/√N) | O(N) |
+| 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0039.cpp) | O(N^(T/M)) | O(T/M) | [Note](#0039-combination-sum) |
+| 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0040.cpp) | O(2ᴺ) | O(N) | [Note](#0040-combination-sum-ii) |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0046.cpp) | O(N*N!) | O(N) | [Note](#0046-permutations) |
 | 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0047.cpp) | O(N*N!) | O(N) |
 | 0077 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0077.cpp) | O(k * C(n, k)) | O(k) |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking / Recursion <br> Bit Manipulation | [C++](./solution/Solution_0078.cpp) | O(N*2ᴺ) | O(N) |
 | 0079 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | DFS / Backtracking | [C++](./solution/Solution_0079.cpp) | O(N*3ᴸ) | O(L) |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0090.cpp) | O(N*2ᴺ) | O(N) |
-| 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0039.cpp) | O(N^(T/M)) | O(T/M) |
-| 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0040.cpp) | O(2ᴺ) | O(N) |
 | 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0216.cpp) | O(C(9, k)) | O(k) |
 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | Backtracking | [Solution](./solution/Solution_3483_1.cpp) | O(P(N, 3)) | O(N) | |
+
+
+### 0017. Letter Combinations of a Phone Number
+> [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)<br>
+> vector<string> phone = {"abc", "def", "ghi","jkl", "mno", "pqrs", "tuv", "wxyz"};<br>
+> index為digits目前走到第index個char，phone[digits[index]-'2']為digits[index]所對應到的phone string<br>
+---
+
+### 0039. Combination Sum
+> [Combination Sum](https://leetcode.com/problems/combination-sum/)<br>
+> 先對candidates做排序，sort(candidates.begin(), candidates.end());<br>
+> 副程式combinationSum，多int start call by value，vector<vector<int>> res; vector<int> cur; call by reference<br>
+> for(int i = start; i < candidates.size(); i++)內要判斷 if(candidates[i] > target) break;否則跑不出來<br>
+> 因為此題允許元素重覆使用，遞迴呼叫**i不用+1**，combinationSum(candidates, target , **i**, cur, res);<br>
+---
+
+### 0040. Combination Sum II
+> [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) <br>
+> 先對candidates做排序，sort(candidates.begin(), candidates.end());<br>
+> 副程式combinationSum2，多int start call by value，vector<vector<int>> res; vector<int> cur; call by reference<br>
+> 去重覆，**if(i > start && candidates[i] == candidates[i - 1]) continue;**<br>
+> 因為此題**不**允許元素重覆使用，遞迴呼叫**i需用+1**， combinationSum2(candidates, target - candidates[i], **i+1**, cur, res);<br>
+---
+
 
 ### 0046. Permutations
 > [Permutations](https://leetcode.com/problems/permutations/)<br>
 > start == size，則一組排列結果完成，for loop i，從 start 到size - 1，先swap start 和 i，start + 1 帶入遞迴，再swap start 和 i做恢復<br>
 ---
+
+
+
+
 
 
 <br><br>
