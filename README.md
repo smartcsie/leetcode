@@ -2164,21 +2164,19 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 <br><br>
 ---
 
-## <a name="backtracking"></a>🔢 Backtracking (回朔法)
+## <a name="backtracking-combination"></a>🔢 Backtracking Combination(回朔法 組合)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **0017** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Backtracking | [Solution](./solution/Solution_0017.cpp) | O(4^N) | O(N) | [Note](#0017-letter-combinations-of-a-phone-number) |
 | 0022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | Backtracking / String | [C++](./solution/Solution_0022.cpp) | O(4ᴺ/√N) | O(N) |
 | 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0039.cpp) | O(N^(T/M)) | O(T/M) | [Note](#0039-combination-sum) |
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0040.cpp) | O(2ᴺ) | O(N) | [Note](#0040-combination-sum-ii) |
-| 0046 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0046.cpp) | O(N*N!) | O(N) | [Note](#0046-permutations) |
-| 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0047.cpp) | O(N*N!) | O(N) |
 | 0077 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0077.cpp) | O(k * C(n, k)) | O(k) |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking / Recursion <br> Bit Manipulation | [C++](./solution/Solution_0078.cpp) | O(N*2ᴺ) | O(N) |
 | 0079 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | DFS / Backtracking | [C++](./solution/Solution_0079.cpp) | O(N*3ᴸ) | O(L) |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0090.cpp) | O(N*2ᴺ) | O(N) |
 | 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0216.cpp) | O(C(9, k)) | O(k) |
-| 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | Backtracking | [Solution](./solution/Solution_3483_1.cpp) | O(P(N, 3)) | O(N) | |
+
 
 
 ### 0017. Letter Combinations of a Phone Number
@@ -2204,10 +2202,6 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ---
 
 
-### 0046. Permutations
-> [Permutations](https://leetcode.com/problems/permutations/)<br>
-> start == size，則一組排列結果完成，for loop i，從 start 到size - 1，先swap start 和 i，start + 1 帶入遞迴，再swap start 和 i做恢復<br>
----
 
 
 
@@ -2217,7 +2211,37 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 <br><br>
 ---
 
+## <a name="backtracking-permutation"></a>🔢 Backtracking Permutation(回朔法 排列)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0046 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0046.cpp) | O(N*N!) | O(N) | [Note](#0046-permutations) |
+| 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0047.cpp) | O(N*N!) | O(N) |
+| 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | Backtracking | [Solution](./solution/Solution_3483_1.cpp) | O(P(N, 3)) | O(N) | |
+
+
+### 0046. Permutations
+> [Permutations](https://leetcode.com/problems/permutations/)<br>
+> start == size，則一組排列結果完成，for loop i，從 start 到size - 1，先swap start 和 i，start + 1 帶入遞迴，再swap start 和 i做恢復<br>
+---
+
+
+<br><br>
+---
+
 > [!NOTE]
+一個實用的分類判斷法則<br>
+遇到新題目時可以這樣快速判斷：<br>
+**[1,2] 和 [2,1] 算不算同一個答案？**
+算同一個 → Combination<br>
+不算同一個 → Permutation<br>
+**同一個元素能不能重複選？**
+不行 → 用 used[]（排列）或 start+1（組合)<br>
+可以 → 排列時用 visited 但允許同層重複跳過；組合時遞迴呼叫用 start 而非 start+1<br>
+**陣列本身有沒有重複數字，且要求結果不能重複？**
+有 → 先排序，遞迴時 if (i > start && nums[i] == nums[i-1]) continue; 做去重<br>
+
+
+
 ## <a name="negative-marking"></a>🔢 Negative Marking 
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
