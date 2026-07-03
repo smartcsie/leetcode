@@ -12,36 +12,25 @@
 
 class Solution {
 private:
-    void dfs(const vector<int>& candidates, int target, int start, vector<int>& cur, vector<vector<int>>& res) {
-        // 目標達成，儲存當前路徑組合
-        if (target == 0) {
+    void combinationSum2(vector<int>& candidates, int target, int start, vector<int>& cur, vector<vector<int>>& res) {
+        if(target == 0) {
             res.push_back(cur);
             return;
         }
-
-        for (int i = start; i < candidates.size(); ++i) {
-            // 剪枝：若當前數字已大於目標值，後續數字更大，無需繼續搜尋
-            if (candidates[i] > target) break;
-            
-            // 去重：同一層遞迴中，若當前數值與前一個相同，則跳過，防止產生重複組合
-            if (i > start && candidates[i] == candidates[i - 1]) continue;
-
+        for(int i = start; i < candidates.size(); i++) {
+            if(candidates[i] > target) break;
+            if(i > start && candidates[i] == candidates[i - 1]) continue;
             cur.push_back(candidates[i]);
-            // 傳入 i + 1，確保下一層遞迴不會重複使用當前元素
-            dfs(candidates, target - candidates[i], i + 1, cur, res);
-            cur.pop_back(); // 回溯
+            combinationSum2(candidates, target - candidates[i], i+1, cur, res);
+            cur.pop_back();
         }
     }
-
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
         vector<vector<int>> res;
         vector<int> cur;
-        
-        // 必須先排序，這是正確使用去重邏輯的前提
         sort(candidates.begin(), candidates.end());
-        
-        dfs(candidates, target, 0, cur, res);
-        return res; 
+        combinationSum2(candidates, target, 0, cur, res);
+        return res;
     }
 };
