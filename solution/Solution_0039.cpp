@@ -10,33 +10,24 @@
  */
 
 class Solution {
-private:
-    void dfs(const vector<int>& candidates, int target, int start, vector<int>& cur, vector<vector<int>>& res) {
-        if (target == 0) {
+    void combinationSum(vector<int>& candidates, int target, int start, vector<int>& cur, vector<vector<int>>& res) {
+        if(target == 0) {
             res.push_back(cur);
             return;
         }
-        
-        for (int i = start; i < candidates.size(); ++i) {
-            // 優化：剪枝，若當前數字已超過 target，後續更大的數字亦不符合
-            if (candidates[i] > target) break;
-            
+        for(int i = start; i < candidates.size(); i++) {
+            if(candidates[i] > target) break;
             cur.push_back(candidates[i]);
-            // 注意：這裡傳入 i 而非 i + 1，因為允許重複選取當前元素
-            dfs(candidates, target - candidates[i], i, cur, res);
+            combinationSum(candidates, target - candidates[i] , i, cur, res);
             cur.pop_back();
         }
     }
-
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> res;
         vector<int> cur;
-        
-        // 必須先排序以支援剪枝邏輯
         sort(candidates.begin(), candidates.end());
-        
-        dfs(candidates, target, 0, cur, res);
+        combinationSum(candidates, target, 0, cur, res);
         return res;
     }
 };
