@@ -666,6 +666,7 @@ __builtin_popcount(x)<br>
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1009.cpp) | O(log N) | O(1) | [Note](#1009-complement-of-base-10-integer)|
 | **1680** | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Math / Bit Manipulation | [C++](./solution/Solution_1680.cpp) | O(N) | O(1) | |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array <br> Hash Table <br> Bit Manipulation | [C++](./solution/Solution_1684.cpp) | O(N * M) | O(1) | [Note](#1684-count-the-number-of-consistent-strings) |
+| 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [Solution](./solution/Solution_2032.cpp) | O(N1+N2+N3) | O(1) | [Note](#2032-two-out-of-three) |
 | **2235** | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2235.cpp) | O(1) | O(1) | [Note](#2235-add-two-integers) |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Hash Set <br> Bit Manipulation | [C++](./solution/Solution_2716.cpp) | O(N) | O(1) | [Note](#2716-minimize-string-length) |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) | [Note](#3151-special-array-i) |
@@ -739,11 +740,20 @@ __builtin_popcount(x)<br>
 ---
 
 ### 1684 Count the Number of Consistent Strings
-> 1684. [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)<br>
+> [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)<br>
 > 先用一個int mask 紀錄哪些字元出現過(| 1 << c-'a')，檢查每個string的每個char(1 << c-'a')和msk &，為0則是沒有在字典中<br>
 > 為什麼選擇 int mask 而非 bitset？
 > int (或 long) 的運算直接對應 CPU 的暫存器指令，在這種極小範圍 (26 bits) 的情況下，它的運算速度幾乎是瞬間完成，且不需要引入額外的標頭檔 (<bitset>)，代碼更簡潔。<br>
 ---
+
+
+### 2032 Two Out of Three
+> [Two Out of Three](https://leetcode.com/problems/two-out-of-three/)<br>
+> 起一組vector<int> counts(101, 0)，nums1 數字 counts[num] |= 1，nums2 數字 counts[num] |= 2，nums3 數字 counts[num] |= 4<br>
+> 因為三組陣列都有可能有重覆值，OR 就不用考慮重覆，最後算if (popcount((unsigned int)counts[i]) >= 2) res.push_back(i);<br>
+
+---
+
 
 ### 2235 Add Two Integers
 > [Add Two Integers](https://leetcode.com/problems/add-two-integers) 
