@@ -278,6 +278,7 @@ __builtin_popcount(x)<br>
 
 ---
 
+
 ### 1018. Binary Prefix Divisible By 5
 > [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)
 > sum = ((sum << 1) + num) % 5;divisible.push_back((sum == 0));<br>
@@ -424,6 +425,7 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) | [Note](#0007-reverse-integer) |
 | 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0504.cpp) | O(log₇N) | O(1) | [Note](#0504-base-7) |
+| 0728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Simulation | [Solution](./solution/Solution_0728.cpp) | O(N * D) | O(1) | [Note](#0728-self-dividing-numbers) |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math | [C++](./solution/Solution_1017.cpp) | O(logN) | O(1) | [Note](#1017-convert-to-base-2) |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logₖN) | O(1) | [Note](#1837-sum-of-digits-in-base-k) |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | Math / Simulation | [C++](./solution/Solution_2443.cpp) | O(NlogN) | O(1) | [Note](#2443-sum-of-number-and-its-reverse)
@@ -451,6 +453,14 @@ __builtin_popcount(x)<br>
 > [Base 7](https://leetcode.com/problems/base-7) <br>
 > 先用bool紀錄正負號，因為有正負號，while(n != 0)，餘數mod 7，如果為負乘上-1，＋'0'轉char push_back到string尾端，最後reverse<br>
 ---
+
+
+### 0728 Self Dividing Numbers
+> [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)  <br>
+> 每個數做Base 10 Digit Decomposition，如果digit == 0或 n % figit != 0 ，return false<br>
+
+---
+
 
 ### 1017 Convert to Base -2
 > [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2)<br>
