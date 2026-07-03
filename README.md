@@ -1502,6 +1502,7 @@ __builtin_popcount(x)<br>
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0977.cpp) | O(n) | O(n) |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_1750.cpp) | O(N) | O(1) |
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 Easy | Two Pointers / String | [C++](./solution/Solution_2000.cpp) | O(N) | O(1) |
+| 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | Two Pointers | [Solution](./solution/Solution_2108.cpp) | O(N * L) | O(1) | [Note](#2108-find-first-palindromic-string-in-the-array) |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3794.cpp) | O(N) | O(1) |
 
 > [!NOTE]
@@ -1509,6 +1510,11 @@ __builtin_popcount(x)<br>
 > left 從頭、right 從尾，條件不符時移動較劣的那側。<br>
 > 通常需要**排序**作為前提（0015、0016、0167、0977）。<br>
 > 回文判斷（0125、0344、0345）：左右同時往中間收斂，不符合就提早返回。<br>
+
+
+### 2108. Find First Palindromic String in the Array
+> [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) <br>
+> 實做string isPalindromic，travsal vector<string>& words，第一個Palindromic回傳<br>
 
 <br><br>
 ---
@@ -1541,8 +1547,8 @@ __builtin_popcount(x)<br>
 
 > [!NOTE]
 > [0392 Is Subsequence](./solution/Solution_0392.cpp)<br>
-> 此題如果用 Dynamic Programming LCS，Complexity 會是 O(nm), O(nm)<br>
-> 但如果用 Two Pointers 會是 O(n), O(1)<br>
+> 此題如果用 Dynamic Programming LCS，Complexity 會是 O(nm)，O(nm)<br>
+> 但如果用 Two Pointers 會是 O(n)，O(1)<br>
 
 <br><br>
 ---
