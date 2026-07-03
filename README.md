@@ -1669,6 +1669,7 @@ __builtin_popcount(x)<br>
 | 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_0383.cpp) | O(M + N) | O(1) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_0387.cpp) | O(n) | O(1) |
 | 0454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 Medium | Hash Table | [C++](./solution/Solution_0454.cpp) | O(n²) | O(n²) |
+| 0804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | 🟢 Easy | Hash Set | [Solution](./solution/Solution_0804.cpp) | O(S) | O(S) | [Note](#0804-unique-morse-code-words) |
 | 0884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0884.cpp) | O(N + M) | O(N + M) |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Array <br> Hash Table <br> String | [C++](./solution/Solution_1002.cpp) | O(N*K) | O(1) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_1436.cpp) | O(N) | O(N) |
@@ -1688,6 +1689,15 @@ __builtin_popcount(x)<br>
 > [2001 Number of Pairs of Interchangeable Rectangles](./solution/Solution_2001_1.cpp)同時也在考<br>
 > **浮點數精度問題(Floating-point precision)-某些比例可能在運算中產生微小的誤差（例如1/3在某些計算環境下可能不完全相等）**<br>
 > **導致原本應該視為相同的比例被誤判為不同。**<br>
+
+### 0804. Unique Morse Code Words
+> [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) <br>
+> 用一組 vector<string> morse 定義morse code mapping<br>
+> 針對words每個string，轉為morsecode，放入unordered_set<string> unique_codes;<br>
+> 因為unordered_set會去重覆，最後unique_codes.size();<br>
+
+
+
 
 <br><br>
 ---
