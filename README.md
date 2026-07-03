@@ -1923,6 +1923,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Array <br> Sorting | [C++](./solution/Solution_1200.cpp) | O(NlogN) | O(N) | 
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Bit Manipulation <br>  Sorting | [C++](./solution/Solution_1356.cpp) | O(NlogN) | O(1) |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | String <br> Sorting | [C++](./solution/Solution_1408.cpp) | O(N²*K) | O(N) |
+| 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | Greedy / Sorting | [Solution](./solution/Solution_1481.cpp) | O(N log N) | O(N) | [Note](#1481-least-number-of-unique-integers-after-k-removals) |
 | 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting | [C++](./solution/Solution_2164.cpp) | O(NlogN) | O(N) | 
 | 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟢 Medium | Array <br> Sorting | [C++](./solution/Solution_2545.cpp) | O(NlogN) | O(1) |
 
@@ -1940,6 +1941,14 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > [!NOTE]
 > [0148. Sort List](./solution/Solution_0148.cpp) [0004. Median of Two Sorted Arrays](./solution/Solution_0004.cpp)<br>
 > 是一樣的核心概念，都是Two Way merge sort<br>
+
+
+### 1481. Least Number of Unique Integers after K Removals
+> [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)<br>
+> 用 std::unordered_map<int, int> counts;;統計數字出現頻率<br>
+> 把頻率，寫入std::vector<int> freq; 對freq做sort<br>
+> 用k去減頻率，同時紀錄山除了幾個數<br>
+
 <br><br>
 ---
 
@@ -2107,8 +2116,8 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ### 0409. Longest Palindrome
 > [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)<br>
 > 用 unordered_map<char, int> counts;統計大小寫出現頻率<br>
-> 對每個頻率，如果是偶數，直接加到res，如果是奇數，減1加到res
-> 如果頻率有奇數，最後res再+1
+> 對每個頻率，如果是偶數，直接加到res，如果是奇數，減1加到res<br>
+> 如果頻率有奇數，最後res再+1<br>
 
 
 <br><br>
