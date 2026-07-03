@@ -2167,6 +2167,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ## <a name="backtracking"></a>🔢 Backtracking (回朔法)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **17** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Backtracking | [Solution](./solution/Solution_0017.cpp) | O(4^N) | O(N) | |
 | 0022 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | Backtracking / String | [C++](./solution/Solution_0022.cpp) | O(4ᴺ/√N) | O(N) |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0046.cpp) | O(N*N!) | O(N) | [Note](#0046-permutations) |
 | 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0047.cpp) | O(N*N!) | O(N) |
