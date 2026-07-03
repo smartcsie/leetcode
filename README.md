@@ -1698,6 +1698,7 @@ __builtin_popcount(x)<br>
 | 0884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0884.cpp) | O(N + M) | O(N + M) |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Array <br> Hash Table <br> String | [C++](./solution/Solution_1002.cpp) | O(N*K) | O(1) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_1436.cpp) | O(N) | O(N) |
+| 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Map | [Solution](./solution/Solution_1640.cpp) | O(N) | O(N) | [Note](#1640-check-array-formation-through-concatenation) |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array <br> Hash Table <br> Bitset | [C++](./solution/Solution_2133.cpp) | O(n²) | O(n) |
 | 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 Easy | Array <br> Hash Table <br> Simulation | [C++](./solution/Solution_2154.cpp) | O(n) | O(n) |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Array <br> Sorting <br> Hash Table | [C++](./solution/Solution_2418.cpp) | O(NlogN) | O(N) |
@@ -1720,6 +1721,11 @@ __builtin_popcount(x)<br>
 > 用一組 vector<string> morse 定義morse code mapping<br>
 > 針對words每個string，轉為morsecode，放入unordered_set<string> unique_codes;<br>
 > 因為unordered_set會去重覆，最後unique_codes.size();<br>
+
+### 1640. Check Array Formation Through Concatenation
+> [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) <br>
+> 用一組  unordered_map<int,vector<int>> map 紀錄每組vector第一個int和該組vector <br>
+> 對arr 使用index i，如果arr[i]在map中找到，取出來，每個int開始比對，i往後走<br>
 
 
 
