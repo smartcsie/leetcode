@@ -1530,6 +1530,7 @@ __builtin_popcount(x)<br>
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_1750.cpp) | O(N) | O(1) |
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 Easy | Two Pointers / String | [C++](./solution/Solution_2000.cpp) | O(N) | O(1) |
 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | Two Pointers | [Solution](./solution/Solution_2108.cpp) | O(N * L) | O(1) | [Note](#2108-find-first-palindromic-string-in-the-array) |
+| 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | Two Pointers | [Solution](./solution/Solution_2562.cpp) | O(N * D) | O(1) | [Note](#2562-find-the-array-concatenation-value) |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3794.cpp) | O(N) | O(1) |
 
 > [!NOTE]
@@ -1544,6 +1545,20 @@ __builtin_popcount(x)<br>
 > 實做string isPalindromic，travsal vector<string>& words，第一個Palindromic回傳<br>
 
 <br><br>
+
+---
+### 2562. Find the Array Concatenation Value
+> [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) <br>
+> 兩個index 往中間走，int left = 0; int right = nums.size() - 1;<br>
+> 每次要加到sum 的數字為 nums[left] * (nums[right]的10位數)<br>
+> nums[right]的10位數算法，log10效率太低，static_cast<int>(log10(nums[right])) + 1<br>
+> 直接計算nums[right]右移次數，每次次數直接*10，當作nums[left]的multiplier<br>
+
+
+
+<br><br>
+
+
 ---
 
 ## <a name="two-pointers-same"></a>👥 Two Pointers - Same Direction (同向型)
