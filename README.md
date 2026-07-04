@@ -2207,6 +2207,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Greedy <br> Interval | [C++](./solution/Solution_0435.cpp) | O(NlogN) | O(1) |
 | 0409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | 🟢 Easy | Hash Table / Greedy | [C++](./solution/Solution_0409.cpp) | O(N) | O(K) | [Note](#0409-longest-palindrome) |
 | 0624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Array <br> Greedy | [C++](./solution/Solution_0624.cpp) | O(n) | O(1) |
+| **0670** | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy | [C++](./solution/Solution_0670.cpp) | O(N) | O(1) | |
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy <br> String | [C++](./solution/Solution_0678.cpp) | O(N) | O(1) |
 | 0961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Math/Greedy | [C++](./solution/Solution_0961.cpp) | O(N) | O(1) | [Note](#0961-n-repeated-element)  |
