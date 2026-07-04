@@ -2167,6 +2167,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy <br> String | [C++](./solution/Solution_0678.cpp) | O(N) | O(1) |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy <br> Math | [C++](./solution/Solution_1323.cpp) | O(D) | O(D) |
+| 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy | [Solution](./solution/Solution_1576.cpp) | O(N) | O(1) | [Note](#1576-replace-all-s) |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy / Hashing | [Solution](./solution/Solution_2815.cpp) | O(N * D) | O(1) | [Note](#2815-max-pair-sum-in-an-array) |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array <br> Greedy <br> Bit Manipulation | [C++](./solution/Solution_3011.cpp) | O(N) | O(1) | 
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_3798.cpp) | O(N) | O(1) |
@@ -2178,6 +2179,18 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > 對每個頻率，如果是偶數，直接加到res，如果是奇數，減1加到res<br>
 > 如果頻率有奇數，最後res再+1<br>
 ---
+
+### 1576. Replace All ?'s
+> [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)<br>
+> 將字串中的 '?' 替換為合法字元，保證相鄰字元不重複遍歷字串，當遇到 '?' 時，從 'a', 'b', 'c' 中選出一個與左右相鄰皆不同的字元替換<br>
+> for(char c = 'a'; c <= 'c'; c++) {<br>
+> if(i > 0 && s[i - 1] == c) continue;<br>
+> if(i < s.size() && s[i + 1] == c) continue;<br>
+> s[i] = c;<br>
+> }<br>
+
+---
+
 
 
 
