@@ -435,6 +435,7 @@ __builtin_popcount(x)<br>
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2595.cpp) | O(log N) | O(1) | [Note](#2595-number-of-even-and-odd-bits) |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math | [C++](./solution/Solution_3099.cpp) | O(logN) | O(1) | [Note](#3099-harshad-number) |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
+| 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math / Digit Extraction | O(log N) | O(log N) | [Note](#3697-compute-decimal-representation) |
 | 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math <br> Digit Manipulation | [C++](./solution/Solution_3908.cpp) | O(log N) | O(1) | [Note](#3908-valid-digit-number) |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math | [C++](./solution/Solution_3945.cpp) | O(logN) | O(1) | [Note](#3945-digit-frequency-score) |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3950.cpp) | O(log N) | O(1) | [Note](#3950-exactly-one-consecutive-set-bits-pair) |
@@ -521,6 +522,14 @@ __builtin_popcount(x)<br>
 > 奇數index所有num之sum和偶數index所有num之sum要相等<br>
 
 ---
+
+
+### 3697 Compute Decimal Representation
+> [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/)  <br>
+> n一路往右除10，base初始1，一路*10，每次擷取digit = n % 10;，如果digit != 0，digit*base push_back到res<br>
+> **注意base ovewrflow的問題，先 n/=10 ;，再來if(n > 0) base*=10;** <br>
+---
+
 
 ### 3908 Valid Digit Number
 > [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) <br>
