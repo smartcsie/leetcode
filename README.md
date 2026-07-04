@@ -2189,7 +2189,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0079 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | DFS / Backtracking | [C++](./solution/Solution_0079.cpp) | O(N*3ᴸ) | O(L) |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0090.cpp) | O(N*2ᴺ) | O(N) |
 | 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0216.cpp) | O(C(9, k)) | O(k) |
-
+| 0784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | Backtracking | [Solution](./solution/Solution_0784.cpp) | O(2^N) | O(N) | [Note](#0784-letter-case-permutation) |
 
 
 ### 0017. Letter Combinations of a Phone Number
@@ -2216,6 +2216,13 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 
 
 
+### 0784. Letter Case Permutation
+> [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) <br>
+> index從開始傳進backtrack，因為只要處理大小寫，index先跳過不是大小寫，while (index < s.size() && isdigit(s[index])) index++<br>
+> 終止遞迴條件， if(index == s.size()) { res.push_back(s); return;}<br>
+> index目標字元轉lowercase遞迴， s[index] = tolower(s[index]); backtrack(s, index + 1, res);<br>
+> index目標字元轉uppercase遞迴， s[index] = toupper(s[index]); backtrack(s, index + 1, res);<br>
+---
 
 
 
