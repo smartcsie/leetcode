@@ -962,6 +962,7 @@ __builtin_popcount(x)<br>
 | **0151** | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_0151.cpp) | O(N) | O(N) |
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | String / Math | [C++](./solution/Solution_0415.cpp) | O(max(N, M)) | O(max(N, M)) | [Note](#0415-add-strings) |
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](./solution/Solution_0434.cpp) | O(N) | O(1) | [Note](#0434-number-of-segments-in-a-string) |
+| **0648** | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Hash Table <br> Sorting | [Solution](./solution/Solution_0648_2.cpp) | O(N * L + M * K) | O(D * L) |  |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_0944.cpp) | O(N * M) | O(M) | [Note](#0944-delete-columns-to-make-sorted) |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 Easy | String Parsing | [Solution](./solution/Solution_1078.cpp) | O(N) | O(N) | [Note](#1078-occurrences-after-bigram) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1528.cpp) | O(N) | O(N) | [Note](#1528-shuffle-string) |
@@ -1024,6 +1025,13 @@ __builtin_popcount(x)<br>
 > [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) <br>
 > 第一次開頭也要算segment，char lastChar = ' ';<br>
 > 上一個char是空白，這個char不是空白就count++，for(char c : s) if(c != ' ' && lastChar == ' ')  count++;<br>
+
+---
+
+### 0648. Replace Words
+> [Replace Words](https://leetcode.com/problems/replace-words/)<br>
+> 最佳解是用Trie<br>
+
 
 ---
 
@@ -1970,6 +1978,13 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 
 <br><br>
 ---
+
+
+## <a name="trie"></a>🔗 Trie (前綴樹)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie | [Solution](./solution/Solution_0648_1.cpp) | O(N * L) | O(M * L) |  |
+
 
 ## <a name="dfs-bfs"></a>🌳 DFS、BFS (深度搜尋、廣度搜尋)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
