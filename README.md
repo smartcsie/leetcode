@@ -2177,6 +2177,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Array <br> Greedy | [C++](./solution/Solution_0624.cpp) | O(n) | O(1) |
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy <br> String | [C++](./solution/Solution_0678.cpp) | O(N) | O(1) |
+| 0961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Math/Greedy | [Solution](./solution/Solution_0961.cpp) | O(N) | O(1) | [Note](#0961-n-repeated-element)  |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy <br> Math | [C++](./solution/Solution_1323.cpp) | O(D) | O(D) |
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy | [Solution](./solution/Solution_1576.cpp) | O(N) | O(1) | [Note](#1576-replace-all-s) |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy / Hashing | [Solution](./solution/Solution_2815.cpp) | O(N * D) | O(1) | [Note](#2815-max-pair-sum-in-an-array) |
@@ -2190,6 +2191,16 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > 對每個頻率，如果是偶數，直接加到res，如果是奇數，減1加到res<br>
 > 如果頻率有奇數，最後res再+1<br>
 ---
+
+
+### 0961. N-Repeated Element
+> [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)<br>
+> if (i + 1 < n && nums[i] == nums[i + 1]) return nums[i];<br>
+> if (i + 2 < n && nums[i] == nums[i + 2]) return nums[i];<br>
+> if (i + 3 < n && nums[i] == nums[i + 3]) return nums[i];<br>
+---
+
+
 
 ### 1576. Replace All ?'s
 > [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)<br>
