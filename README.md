@@ -2139,6 +2139,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Math <br> Dynamic Programming | [C++](./solution/Solution_0070.cpp) | O(n) | O(1) |
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming <br> Math | [C++](./solution/Solution_0096.cpp) | O(N²) | O(N) |
 | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | Dynamic Programming <br> Math | [C++](./solution/Solution_0264.cpp) | O(n) | O(n) |
+| 0313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dynamic Programming <br> Multi-pointers | [C++](./solution/Solution_0313.cpp) | O(N * K) | O(N + K) | [Note](#313-super-ugly) |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Math <br> Dynamic Programming | [C++](./solution/Solution_0509.cpp) | O(n) | O(1) | 
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | DP <br> Math | [C++](./solution/Solution_1137.cpp) | O(N) | O(1) |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | String | [C++](./solution/Solution_1668.cpp) | O(N*M²) | O(M) |
@@ -2154,6 +2155,10 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > &emsp;&emsp;&emsp;&emsp;}<br>
 > }<br>
 ---
+
+### 0313. Super Ugly Number
+> [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)
+> [264 Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)的擴展題<br>
 
 
 <br><br>
