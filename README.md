@@ -2126,10 +2126,10 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > 先取得size，int m = obstacleGrid.size(); int n = obstacleGrid[0].size();<br>
 > 起一個vector紀錄，vector<long> dp(n); dp[0] = 1;<br>
 > for(int i = 0; i < m;i++) {<br>
->      for(int j = 0; j < n;j++) {<br>
->           if(obstacleGrid[i][j]) dp[j] = 0;<br>
->           else if(j > 0) dp[j] += dp[j - 1];<br>
->       }<br>
+> &emsp;&emsp;&emsp;&emsp;for(int j = 0; j < n;j++) {<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;if(obstacleGrid[i][j]) dp[j] = 0;<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;else if(j > 0) dp[j] += dp[j - 1];<br>
+> &emsp;&emsp;&emsp;&emsp;}<br>
 > }<br>
 ---
 
