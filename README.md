@@ -143,8 +143,8 @@ __builtin_popcount(x)<br>
 ## <a name="math"></a>🔢 Math (數學)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **0050** | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math <br> Binary Exponentiation | [C++](./solution/Solution_0050.cpp) | O(log N) | O(1) | [Note](#0050-powx-n) |
-| **0060** | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math  <br> Factorial | [C++](./solution/Solution_0060.cpp) | O(N^2) | O(N) |舉 |
+| **0050** | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math <br> Binary Exponentiation | [C++](./solution/Solution_0050.cpp) | O(logN) | O(1) | [Note](#0050-powx-n) |
+| **0060** | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math  <br> Factorial | [C++](./solution/Solution_0060.cpp) | O(N²) | O(N) | [Note](#0060-plus-one) |
 | **0066** | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](./solution/Solution_0066.cpp) | O(n) | O(1) | [Note](#0066-plus-one) | [Note](#0066-plus-one)  |
 | **0067** | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0067.cpp) | O(max(M, N)) | O(1) | [Note](#0067-add-binary) |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math <br> Hash Set | [C++](./solution/Solution_0137_1.cpp) | O(n) | O(n) | [Note](#0137-1-single-number-ii) |
@@ -426,7 +426,7 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) | [Note](#0007-reverse-integer) |
 | 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0504.cpp) | O(log₇N) | O(1) | [Note](#0504-base-7) |
-| 0728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Simulation | [C++](./solution/Solution_0728.cpp) | O(N * D) | O(1) | [Note](#0728-self-dividing-numbers) |
+| 0728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Simulation | [C++](./solution/Solution_0728.cpp) | O(N*D) | O(1) | [Note](#0728-self-dividing-numbers) |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math | [C++](./solution/Solution_1017.cpp) | O(logN) | O(1) | [Note](#1017-convert-to-base-2) |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logₖN) | O(1) | [Note](#1837-sum-of-digits-in-base-k) |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | Math / Simulation | [C++](./solution/Solution_2443.cpp) | O(NlogN) | O(1) | [Note](#2443-sum-of-number-and-its-reverse)
@@ -567,11 +567,11 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math / Sieve | [C++](./solution/Solution_0204.cpp) | O(N log log N) | O(N) | [Note](#0204-count-primes) |
-| 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | Math / Prime Factorization | [C++](./solution/Solution_2521.cpp) | O(N * sqrt(M)) | O(K) |[Note](#2521-distinct-prime-factors-of-product-of-array) |
+| 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | Math / Prime Factorization | [C++](./solution/Solution_2521.cpp) | O(N*sqrt(M)) | O(K) |[Note](#2521-distinct-prime-factors-of-product-of-array) |
 | **2523** | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | 🟡 Medium | Math / Sieve | [C++](./solution/Solution_2523.cpp) | O(N log log N) | O(N) | [Note](#2523-closest-prime-numbers-in-range) | 
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math / Trial Division | [C++](./solution/Solution_2614.cpp) | O(N * sqrt(M)) | O(1) | [Note](#2614-prime-in-diagonal) |
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) | [Note](#2761-prime-pairs-with-target-sum)|
-| 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math / Brute Force | [C++](./solution/Solution_3556.cpp) | O(N^2 * sqrt(M)) | O(1) | [Note](#3556-sum-of-largest-prime-substrings) |
+| 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math / Brute Force | [C++](./solution/Solution_3556.cpp) | O(N²*sqrt(M)) | O(1) | [Note](#3556-sum-of-largest-prime-substrings) |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) | [Note](#3591-check-if-any-element-has-prime-frequency) |
 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | Math / Sieve | [C++](./solution/Solution_3618.cpp) | O(N + R log log R) | O(R) | [Note](#3618-split-array-by-prime-indices) |
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math / Prefix Sum | [C++](./solution/Solution_3770.cpp) | O(R log log R) | O(R) | [Note](#3770-largest-prime-from-consecutive-prime-sum) |
