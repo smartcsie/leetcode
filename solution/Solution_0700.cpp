@@ -11,17 +11,13 @@
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
-        TreeNode* curr = root;
-        
-        // 迭代遍歷樹，直到找到節點或確認節點不存在
-        while (curr != nullptr && curr->val != val) {
-            if (val < curr->val) {
-                curr = curr->left;
+        while (root && val != root->val) {
+            if (val < root->val) {
+                root = root->left;
             } else {
-                curr = curr->right;
+                root = root->right;
             }
         }
-        
-        return curr;
+        return root;
     }
 };
