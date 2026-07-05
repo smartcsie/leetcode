@@ -2047,7 +2047,6 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | Greedy / Sorting | [C++](./solution/Solution_1481.cpp) | O(N log N) | O(N) | [Note](#1481-least-number-of-unique-integers-after-k-removals) |
 | 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting | [C++](./solution/Solution_2164.cpp) | O(NlogN) | O(N) | 
 | 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟢 Medium | Array <br> Sorting | [C++](./solution/Solution_2545.cpp) | O(NlogN) | O(1) |
-
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | Bit Manipulation <br> Sorting | [C++](./solution/Solution_3769.cpp) | O(NlogN) | O(N) |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting <br> Hash | [C++](./solution/Solution_3913.cpp) | O(NlogN) | O(N) | 
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting <br> Set | [C++](./solution/Solution_3684.cpp) | O(N logN) | O(N) |
@@ -2149,10 +2148,10 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > 先取得size，int m = obstacleGrid.size(); int n = obstacleGrid[0].size();<br>
 > 起一個vector紀錄，vector<long> dp(n); dp[0] = 1;<br>
 > for(int i = 0; i < m;i++) {<br>
-> &emsp;&emsp;&emsp;&emsp;for(int j = 0; j < n;j++) {<br>
-> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;if(obstacleGrid[i][j]) dp[j] = 0;<br>
-> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;else if(j > 0) dp[j] += dp[j - 1];<br>
-> &emsp;&emsp;&emsp;&emsp;}<br>
+> &emsp;&emsp;&emsp;&emsp;**for(int j = 0; j < n;j++) {** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**if(obstacleGrid[i][j]) dp[j] = 0;** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**else if(j > 0) dp[j] += dp[j - 1];** <br>
+> &emsp;&emsp;&emsp;&emsp;**}** <br>
 > }<br>
 ---
 
@@ -2281,9 +2280,13 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 
 ### 0961. N-Repeated Element
 > [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)<br>
-> if (i + 1 < n && nums[i] == nums[i + 1]) return nums[i];<br>
-> if (i + 2 < n && nums[i] == nums[i + 2]) return nums[i];<br>
-> if (i + 3 < n && nums[i] == nums[i + 3]) return nums[i];<br>
+> **for (int i = 0; i < n; ++i) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**if (i + 1 < n && nums[i] == nums[i + 1]) return nums[i];** <br>
+> &emsp;&emsp;&emsp;&emsp;**if (i + 2 < n && nums[i] == nums[i + 2]) return nums[i];** <br>
+> &emsp;&emsp;&emsp;&emsp;**if (i + 3 < n && nums[i] == nums[i + 3]) return nums[i];** <br>
+> **}** <br>
+
+
 ---
 
 
@@ -2291,11 +2294,11 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ### 1576. Replace All ?'s
 > [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)<br>
 > 將字串中的 '?' 替換為合法字元，保證相鄰字元不重複遍歷字串，當遇到 '?' 時，從 'a', 'b', 'c' 中選出一個與左右相鄰皆不同的字元替換<br>
-> for(char c = 'a'; c <= 'c'; c++) {<br>
-> if(i > 0 && s[i - 1] == c) continue;<br>
-> if(i < s.size() && s[i + 1] == c) continue;<br>
-> s[i] = c;<br>
-> }<br>
+> **for(char c = 'a'; c <= 'c'; c++) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(i > 0 && s[i - 1] == c) continue;** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(i < s.size() && s[i + 1] == c) continue;** <br>
+> &emsp;&emsp;&emsp;&emsp;**s[i] = c;** <br>
+> **}** <br>
 
 ---
 
