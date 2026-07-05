@@ -699,6 +699,7 @@ __builtin_popcount(x)<br>
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2032.cpp) | O(N1+N2+N3) | O(1) | [Note](#2032-two-out-of-three) |
 | **2235** | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2235.cpp) | O(1) | O(1) | [Note](#2235-add-two-integers) |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Hash Set <br> Bit Manipulation | [C++](./solution/Solution_2716.cpp) | O(N) | O(1) | [Note](#2716-minimize-string-length) |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3120.cpp) | O(N) | O(1) | [Note](#3120-special-chars) |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) | [Note](#3151-special-array-i) |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp) | O(logN) | O(1) | [Note](#3370-smallest-number-with-all-set-bits) |
 
@@ -811,7 +812,15 @@ __builtin_popcount(x)<br>
 > if(count >= k) res |= 1 << i;<br>
 ---
 
-
+### Count the Number of Special Characters I
+> [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/)<br>
+> 要記錄char大小寫都有出現的字元數
+> **for(char c : word) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(islower(c)) lower |= 1 << (c-'a');** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(isupper(c)) upper |= 1 << (c-'A');** <br>
+> **}** <br>
+> **return __builtin_popcount(lower & upper);** <br>
+---
 
 ### 3151 Special Array I
 > [Special Array I](https://leetcode.com/problems/special-array-i)<br>
