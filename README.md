@@ -47,6 +47,7 @@
 - [Google](https://github.com/liquidslr/interview-company-wise-problems/tree/main/Google)
 - [Nvidia](https://github.com/liquidslr/interview-company-wise-problems/tree/main/Nvidia)
 - [Amazon](https://github.com/liquidslr/interview-company-wise-problems/tree/main/Amazon)
+- [Google Frequency](https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/Google/5.%20All.csv)
 
 ## 🤖 重要
 - **[Leetcode Hot 100](https://leetcode.com/problem-list/arw5ns9e/)**
