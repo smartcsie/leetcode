@@ -1949,6 +1949,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟢 Easy | Tree <br> DFS <br> Binary Search | [C++](./solution/Solution_0222.cpp) | O(log²n) | O(log n) |
 | 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-path) | 🟢 Easy | Tree / DFS | [C++](./solution/Solution_0257.cpp) | O(N²) | O(H²) |
 | 0404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0404.cpp) | O(N) | O(H) |
+| **0437** | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | DFS / Prefix Sum | [C++](./solution/Solution_0437.cpp) | O(N) | O(H) | |
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0543.cpp) | O(n) | O(h) |
 | 0559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | Tree <br> DFS <br> BFS | [C++](./solution/Solution_0559.cpp) | O(N) | O(H) |
 | 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0572.cpp) | O(n*m) | O(h) |
