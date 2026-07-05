@@ -2203,6 +2203,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ## <a name="greedy"></a>🧩 Greedy (貪婪法)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0055 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | Greedy | [C++](./solution/Solution_0055.cpp) | O(N) | O(1) | [Note](#0055-jump-game) | 
 | **0397** | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy / Bit Manipulation | O(log N) | O(1) | |
 | 0435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Greedy <br> Interval | [C++](./solution/Solution_0435.cpp) | O(NlogN) | O(1) |
 | 0409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | 🟢 Easy | Hash Table / Greedy | [C++](./solution/Solution_0409.cpp) | O(N) | O(K) | [Note](#0409-longest-palindrome) |
@@ -2216,6 +2217,14 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy / Hashing | [C++](./solution/Solution_2815.cpp) | O(N * D) | O(1) | [Note](#2815-max-pair-sum-in-an-array) |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array <br> Greedy <br> Bit Manipulation | [C++](./solution/Solution_3011.cpp) | O(N) | O(1) | 
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_3798.cpp) | O(N) | O(1) |
+
+
+### 0055. Jump Game
+> [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)<br>
+> 用一個maxReach更新最大能到達，maxReach = max(maxReach, i + nums[i]);<br>
+> 如果 i > maxReach表示不可到達，if(i > maxReach) return false;<br>
+> 如果到了結尾，可以先回傳，if(maxReach >= n - 1) return true;<br>
+---
 
 
 ### 0409. Longest Palindrome
