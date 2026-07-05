@@ -1952,11 +1952,12 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0543.cpp) | O(n) | O(h) |
 | 0559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | Tree <br> DFS <br> BFS | [C++](./solution/Solution_0559.cpp) | O(N) | O(H) |
 | 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0572.cpp) | O(n*m) | O(h) |
-| 0606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree / DFS | [C++](./solution/Solution_0606.cpp) | O(N) | O(H) |
+| 0606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0606.cpp) | O(N) | O(H) |
 | 0617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | Tree <br> DFS <br> Recursion | [C++](./solution/Solution_0617.cpp) | O(min(N, M)) | O(min(N, M)) |
 | 0671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 Easy | Tree / DFS | [C++](./solution/Solution_0671.cpp) | O(N) | O(H) |
+| **0687** | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 Medium | DFS <br> Tree | [C++](./solution/Solution_0687.cpp) | O(N) | O(H) | |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0872.cpp) | O(N+M) | O(N+M) |
-| 0965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 Easy | Tree / DFS | [C++](./solution/Solution_0965.cpp) | O(N) | O(H) |
+| 0965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 Easy | Tree <br> DFS | [C++](./solution/Solution_0965.cpp) | O(N) | O(H) |
 | 0988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | 🟡 Medium | Tree <br> DFS | [C++](./solution/Solution_988.cpp) | O(N) | O(H) |
 | 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees) | 🟡 Medium | Tree <br> In-order Traversal <br> Two Pointers | [C++](./solution/Solution_1305.cpp) | O(N+M) | O(N+M) |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree <br> DFS | [C++](./solution/Solution_2415.cpp) | O(N) | O(H) |
