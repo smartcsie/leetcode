@@ -163,6 +163,7 @@ __builtin_popcount(x)<br>
 | **0970**| [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math / Hash Table | [C++](./solution/Solution_0970.cpp) | O(log_x(bound) * log_y(bound)) | O(S) | |
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math / Modulo | [C++](./solution/Solution_1018.cpp) | O(N) | O(1) | [Note](#1018-binary-prefix-divisible-by-5) |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1295.cpp) | O(N) | O(1) | [Note](#1295-find-numbers-with-even-number-of-digits) |
+| 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](./solution/Solution_1344.cpp) | O(1) | O(1) | [Note](#1344-angle-clock) |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | Matrix | [C++](./solution/Solution_1572.cpp) | O(N) | O(1) | [Note](#1572-matrix-diagonal-sum) |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1822.cpp) | O(N) | O(1) | [Note](#1822-sign-of-the-product-of-an-array) |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math | [C++](./solution/Solution_1952.cpp) | O(√N) | O(1) | [Note](#1952-three-divisors) |
@@ -281,13 +282,21 @@ __builtin_popcount(x)<br>
 
 
 ### 1018. Binary Prefix Divisible By 5
-> [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)
+> [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)  <br>
 > sum = ((sum << 1) + num) % 5;divisible.push_back((sum == 0));<br>
 
 
 ### 1295 Find Numbers with Even Number of Digits
-> [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)
+> [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)  <br>
 > static_cast<int>(log10(num) + 1) % 2 == 0<br>
+---
+
+### 1344 Angle Between Hands of a Clock
+> [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)  <br>
+> double hourAngle =  12 * 30.0 + minutes * 0.5; // 時針角度：hour * 30 + 分鐘帶來的偏移 (每分鐘 0.5 度)
+> double minAngle = minutes * 6.0; // 分針角度：每分鐘 6 度
+> double angle = std::abs(hourAngle - minAngle); // 計算兩者差值
+> return std::min(360.0 - angle, angle); // 返回較小的夾角
 ---
 
 ### 1572 Matrix Diagonal Sum
