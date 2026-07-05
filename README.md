@@ -2076,6 +2076,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sum/) | 🟡 Medium | Heap <br> Greedy | [C++](./solution/Solution_0373.cpp) | O(KlogK) | O(K) |
 | 0692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | Hash Table <br> Heap | [C++](./solution/Solution_0692.cpp) | O(NlogK) | O(N) |
 | 0703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 Easy | Heap (Priority Queue) | [C++](./solution/Solution_0703.cpp) | O(NlogK) / O(log K) | O(K) |
+| 0786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Priority Queue / Binary Search | [C++](./solution/Solution_0786.cpp) | O(N log N) | O(N) | |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Heap (Priority Queue) | [C++](./solution/Solution_1046.cpp) | O(NlogN) | O(N) |
 
 > [!NOTE]
