@@ -681,6 +681,7 @@ __builtin_popcount(x)<br>
 | **0371** | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp) | O(1) | O(1) | [Note](#0371-sum-of-two-integers)
 | 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Hash Table <br> Bit Manipulation | [C++](./solution/Solution_0389.cpp) | O(N) | O(1) | [Note](#0389-find-the-difference) |
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0476.cpp) | O(log N) | O(1) | [Note](#0476-number-complement) | 
+| 0762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0762.cpp) | O(N log K) | O(1) | [Note](#762-prime-bits) |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1009.cpp) | O(log N) | O(1) | [Note](#1009-complement-of-base-10-integer)|
 | **1680** | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Math / Bit Manipulation | [C++](./solution/Solution_1680.cpp) | O(N) | O(1) | |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array <br> Hash Table <br> Bit Manipulation | [C++](./solution/Solution_1684.cpp) | O(N * M) | O(1) | [Note](#1684-count-the-number-of-consistent-strings) |
@@ -750,6 +751,13 @@ __builtin_popcount(x)<br>
 > temp = num， while(temp > 0)，mask Or 1 一直左移動，最後mask ^ num<br>
 > [476 Number Complement](./solution/Solution_0476.cpp)和[1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp)<br>
 > 本質上是相同的題目。<br>
+---
+
+### 0762 Prime Number of Set Bits
+> [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)<br>
+> 對於範圍在 [1, 1e6] 的數字，其二進位長度最多不超過 20 位（因為 2^20 > 1e6) <br>
+> isPrime只要判斷 if(n == 2 || n == 3 || n == 5 || n == 7 || n == 11 || n == 13 || n == 17 || n == 19) <br>
+> [left , right]範圍內 int bits = __builtin_popcount(i); if(isPrime(bits)) count++;<br>
 ---
 
 ### 1009 Complement of Base 10 Integer
