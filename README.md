@@ -398,7 +398,8 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **0507** | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0507.cpp) | O(√N) | O(1) | [Note](#0507-perfect-number) |
-| **1492** | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟢 Medium | Math | [C++](./solution/Solution_1492.cpp) | O(√N) | O(1) |  [Note](#1492-the-kth-factor-of-n)|
+| **1492** | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | Math | [C++](./solution/Solution_1492.cpp) | O(√N) | O(1) |  [Note](#1492-the-kth-factor-of-n)|
+| **2507** | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 Medium | Math / Prime Factorization | [C++](./solution/Solution_2507.cpp) | O(log N * sqrt(N)) | O(1) ||
 
 ### 0507 Perfect Number
 > [Perfect Number](https://leetcode.com/problems/perfect-number/)<br>
