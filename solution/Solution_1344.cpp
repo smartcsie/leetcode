@@ -1,20 +1,30 @@
 /**
- * 題目：1344. Angle Between Hands of a Clock (時鐘指針的夾角)
+ * 題目：1344. Angle Between Hands of a Clock
  * 難度：中等 (Medium)
- * 描述：計算時針與分針在指定時間下的夾角。
- * * 時間複雜度：O(1)
- * 空間複雜度：O(1)
- * * 優化思路：
- * 1. 處理 12 點鐘重置：將 hour % 12 轉為 0，避免 hour=12 時計算出 360 度偏移。
- * 2. 精確度處理：保持使用 double 進行計算，最後取絕對值與 360 度取餘。
+ * 描述：計算時鐘上時針與分針之間較小的夾角。
+ * * 優化重點：
+ * 1. 角度轉換：時針每小時轉 30 度，每分鐘轉 0.5 度；分針每分鐘轉 6 度。
+ * 2. 邊界處理：確保時針角度在 360 度範圍內 (處理 12 點情況)。
+ * 3. 夾角計算：取兩者差值的絕對值，並確保夾角為較小的那個 (min(angle, 360 - angle))。
  */
+
+#include <algorithm>
+#include <cmath>
 
 class Solution {
 public:
     double angleClock(int hour, int minutes) {
-        double hourAngle = hour * 30.0 + minutes * 0.5;
+        // 時針角度：hour * 30 + 分鐘帶來的偏移 (每分鐘 0.5 度)
+        // hour % 12 處理 12 點與 0 點的等價性
+        double hourAngle = (hour % 12) * 30.0 + minutes * 0.5;
+        
+        // 分針角度：每分鐘 6 度
         double minAngle = minutes * 6.0;
-        double angle = abs(hourAngle - minAngle);
-        return min(360 - angle, angle);
+        
+        // 計算兩者差值
+        double angle = std::abs(hourAngle - minAngle);
+        
+        // 返回較小的夾角
+        return std::min(360.0 - angle, angle);
     }
 };
