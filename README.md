@@ -266,15 +266,15 @@ __builtin_popcount(x)<br>
 ### 0412 Fizz Buzz
 > [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)<br>
 > 起一個for loop i 從 1 ~ n<br>
-> if(i % 3 == 0 && i % 5 != 0) res.push_back("Fizz");<br>
-> else if(i % 3 != 0 && i % 5 == 0) res.push_back("Buzz");<br>
-> else if(i % 3 == 0 && i % 5 == 0) res.push_back("FizzBuzz");<br>
-> else res.push_back(to_string(i));<br>
+> **if(i % 3 == 0 && i % 5 != 0) res.push_back("Fizz");** <br>
+> **else if(i % 3 != 0 && i % 5 == 0) res.push_back("Buzz");** <br>
+> **else if(i % 3 == 0 && i % 5 == 0) res.push_back("FizzBuzz");** <br>
+> **else res.push_back(to_string(i));** <br>
 ---
 
 ### 0441 Arranging Coins
 > [Arranging Coins](https://leetcode.com/problems/arranging-coins/) <br>
-> return (int)((-1 + sqrt(1 + 8 * (long)n)) / 2);<br>
+> **return (int)((-1 + sqrt(1 + 8 * (long)n)) / 2);** <br>
 ---
 
 
@@ -287,20 +287,20 @@ __builtin_popcount(x)<br>
 
 ### 1018. Binary Prefix Divisible By 5
 > [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)  <br>
-> sum = ((sum << 1) + num) % 5;divisible.push_back((sum == 0));<br>
+> **sum = ((sum << 1) + num) % 5;divisible.push_back((sum == 0));** <br>
 
 
 ### 1295 Find Numbers with Even Number of Digits
 > [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)  <br>
-> static_cast<int>(log10(num) + 1) % 2 == 0<br>
+> **static_cast<int>(log10(num) + 1) % 2 == 0** <br>
 ---
 
 ### 1344 Angle Between Hands of a Clock
 > [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)  <br>
-> double hourAngle =  12 * 30.0 + minutes * 0.5; // 時針角度：hour * 30 + 分鐘帶來的偏移 (每分鐘 0.5 度)
-> double minAngle = minutes * 6.0; // 分針角度：每分鐘 6 度
-> double angle = std::abs(hourAngle - minAngle); // 計算兩者差值
-> return std::min(360.0 - angle, angle); // 返回較小的夾角
+> **double hourAngle =  12 * 30.0 + minutes * 0.5;**  // 時針角度：hour * 30 + 分鐘帶來的偏移 (每分鐘 0.5 度)<br>
+> **double minAngle = minutes * 6.0;**  // 分針角度：每分鐘 6 度<br>
+> **double angle = std::abs(hourAngle - minAngle);**  // 計算兩者差值<br>
+> **return std::min(360.0 - angle, angle);**  // 返回較小的夾角<br>
 ---
 
 ### 1572 Matrix Diagonal Sum
