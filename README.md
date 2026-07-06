@@ -1152,14 +1152,6 @@ __builtin_popcount(x)<br>
 
 ---
 
-### 2124. Check if All A's Appears Before All B's
-> [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs)<br>
-> 檢查是否存在"ba"的case，如果有，return false<br>
-> if(s[i] == 'b' && s[i + 1] == 'a') return false;<br>
-
-
----
-
 
 ### 2264. Largest 3-Same-Digit Number in String
 > [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) <br>
@@ -1231,7 +1223,7 @@ __builtin_popcount(x)<br>
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2586.cpp) | O(n) | O(1) |
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp) | O(n) | O(1) | [Note](#2678-number-of-senior-citizens) |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
-| 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Processing | [C++](./solution/Solution_3121.cpp) | O(N) | O(1) | [Note](#3121-special-chars-ii) |
+| 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Processing | [C++](./solution/Solution_3121.cpp) | O(N) | O(1) | [Note](#3121-special-chars-ii) | [Note](#3121-count-the-number-of-special-characters-ii) | 
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String / Validation | [C++](./solution/Solution_3136.cpp) | O(N) | O(1) | [Note](#3136-valid-word) |
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3931.cpp) | O(N) | O(1) |
 
@@ -1266,6 +1258,23 @@ __builtin_popcount(x)<br>
 > for(int i = num.size() - 1; i >= 0; i--) if(num[i] & 1) return num.substr(0, i + 1);<br>
 
 ---
+
+### 2124. Check if All A's Appears Before All B's
+> [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs)<br>
+> 檢查是否存在"ba"的case，如果有，return false<br>
+> **return s.find("ba") == string::npos;** <br>
+
+
+---
+
+### 3121. Count the Number of Special Characters II
+> [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)  <br>
+> 用一組vector紀錄26個大小寫char出現的位置vector<pair<int, int>> indices(26, {-1, -1});<br>
+> 大寫紀錄最左邊，小寫紀錄最右邊<br>
+> 最後count計算所有char，小寫index在大寫前面(小於)
+
+---
+
 
 
 
