@@ -721,19 +721,19 @@ __builtin_popcount(x)<br>
 
 ### 0089 Gray Code
 > [Gray Code](https://leetcode.com/problems/gray-code/)<br>
-> 數字i的Gray code為 i ⊕ (i >> 1) <br>
+> 數字i的Gray code為 **i ⊕ (i >> 1)** <br>
 
 ---
 
 
 ### 0137-2. Single Number II
 > [Single Number II](https://leetcode.com/problems/single-number-ii)<br>
->  int one = 0, two = 0;<br>
-> for(const int& num : nums) {<br>
-> one = one^num & ~two;<br>
-> two = two^num & ~one;<br>
-> }<br>
-> return one;<br>
+> **int one = 0, two = 0;** <br>
+> **for(const int& num : nums) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**one = one^num & ~two;** <br>
+> &emsp;&emsp;&emsp;&emsp;**two = two^num & ~one;** <br>
+> **}** <br>
+> return one;** <br>
 > 此題有三種解法，位元有限狀態機是最佳解<br>
 ---
 
@@ -752,7 +752,11 @@ __builtin_popcount(x)<br>
 
 ### 0371 Find the Difference
 > [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) <br>
-> while(b != 0) { int carry = (a  & b) << 1; a = a ^ b; b = carry; } return a; <br>
+> **while(b != 0) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**int carry = (a  & b) << 1;** <br>
+> &emsp;&emsp;&emsp;&emsp;**a = a ^ b; b = carry;** <br>
+> **}** <br>
+> **return a;** <br>
 > 同 2235.  [Add Two Integers](https://leetcode.com/problems/add-two-integers) <br>
 
 ---
@@ -801,8 +805,13 @@ __builtin_popcount(x)<br>
 
 
 ### 2235 Add Two Integers
-> [Add Two Integers](https://leetcode.com/problems/add-two-integers) 
-> while(num2 != 0) { int carry = (num1  & num2) << 1; num1 = num1 ^ num2; num2 = carry; } return num1; <br>
+> [Add Two Integers](https://leetcode.com/problems/add-two-integers) <br>
+> **while(num2 != 0) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**unsigned int carry = (num1  & num2) << 1;** <br>
+> &emsp;&emsp;&emsp;&emsp;**num1 = num1 ^ num2;** <br>
+> &emsp;&emsp;&emsp;&emsp;**num2 = carry;** <br>
+> **}** <br>
+> **return num1; ** <br>
 > 同 0371. [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)  <br>
 
 
@@ -813,10 +822,11 @@ __builtin_popcount(x)<br>
 
 ### 2917 Single Number
 > [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array)<br>
-> for(int i = 0; i < 32; i++)<br>
-> int count = 0;<br>
-> for(const int& num : nums) count += (num >> i) & 1<br>
-> if(count >= k) res |= 1 << i;<br>
+> **for(int i = 0; i < 32; i++) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**int count = 0;** <br>
+> &emsp;&emsp;&emsp;&emsp;**for(const int& num : nums) count += (num >> i) & 1** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(count >= k) res |= 1 << i;** <br>
+> **}**  <br>
 ---
 
 ### Count the Number of Special Characters I
@@ -832,7 +842,10 @@ __builtin_popcount(x)<br>
 ### 3151 Special Array I
 > [Special Array I](https://leetcode.com/problems/special-array-i)<br>
 > **邊界條件 nums.size() == 1  return true** <br>
-> 相鄰兩數的lsb相同 if((nums[i] & 1) ^ (nums[i + 1] & 1) == 0) 則return false<br>
+> 相鄰兩數的lsb相同則return false<br>
+> **for(int i = 0 ; i < nums.size() - 1; i++) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**if((nums[i] & 1) ^ (nums[i + 1] & 1) == 0) return false;** <br>
+> **}** <br>
 ---
 
 
@@ -858,8 +871,8 @@ __builtin_popcount(x)<br>
 
 ### 1318 Minimum Flips to Make a OR b Equal to c
 > [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)<br>
-> int diff = (a | b) ^ c;<br>
-> int flips = __builtin_popcount(diff & ~c) + __builtin_popcount(a & b & diff);<br>
+> **int diff = (a | b) ^ c;** <br>
+> **int flips = __builtin_popcount(diff & ~c) + __builtin_popcount(a & b & diff);** <br>
 
 ---
 
@@ -1027,6 +1040,7 @@ __builtin_popcount(x)<br>
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2828.cpp) | O(n) | O(1) | [Note](#2828-check-if-a-string-is-an-acronym-of-words) |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](./solution/Solution_2937.cpp) | O(min(L1, L2, L3)) | O(1) | [Note](#2937-make-three-strings-equal) |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | String Search | [C++](./solution/Solution_2942.cpp) | O(N * L) | O(1) | [Note](#2942-find-words) |
+| 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 Easy | Simulation / Recursion | [C++](./solution/Solution_3304.cpp) | O(K) | O(K) | [Note](#3304-kth-char) |
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_3498.cpp) | O(n) | O(1) | [Note](#3498-reverse-degree-of-a-string) |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3775.cpp) | O(N*L) | O(N) |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Processing | [C++](./solution/Solution_3813.cpp) | O(N) | O(1) | |
@@ -1194,6 +1208,17 @@ __builtin_popcount(x)<br>
 ### 2942. Find Words Containing Character
 > [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)  <br>
 > 對 vector<string> words中每個word，找尋char x是否存在，如果有，把index i push到result vector<br>
+
+---
+
+### 3304. Find the K-th Character in String Game I
+> [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) <br>
+> 要return第k個char，先算iterations，int iterations = static_cast<int>(ceil(std::log2(k)));<br>
+> apend 原本string到尾巴，每個char多+1，判斷如果原本是'z'，要變成'a'<br>
+> **for(int j = 0; j < n; j++) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**char nextCh = (s[j] == 'z') ? 'a' : s[j] + 1;** <br>
+> &emsp;&emsp;&emsp;&emsp;**s.push_back(nextCh);** <br>
+> **}** <br>
 
 ---
 
