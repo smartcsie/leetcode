@@ -180,11 +180,11 @@ __builtin_popcount(x)<br>
 
 ### 0050. Pow(x, n)
 > [Pow(x, n)](https://leetcode.com/problems/powx-n)<br>
-> if (n == 0) return 1;<br>
-> if (n == INT_MIN) return myPow(x * x, n / 2);<br>
-> if (n < 0) return 1 / myPow(x, -n);<br>
-> double half = myPow(x, n / 2);<br>
-> return n % 2 == 0 ? half * half : half * half * x;<br>
+> **if (n == 0) return 1;** <br>
+> **if (n == INT_MIN) return myPow(x * x, n / 2);** <br>
+> **if (n < 0) return 1 / myPow(x, -n);** <br>
+> **double half = myPow(x, n / 2);** <br>
+> **return n % 2 == 0 ? half * half : half * half * x;** <br>
 > **overflow handing** <br>
 
 ---
@@ -192,12 +192,12 @@ __builtin_popcount(x)<br>
 ### 0066. Plus One 
 > [Plus One](https://leetcode.com/problems/plus-one/)<br>
 > 從最後一個digit，digit[n-1]往digit[0]，如果小於9 +1 return，否則設成0 往下個loop，最後在front insert 1 <br>
-> for(int i = digits.size() - 1; i >= 0 ; i--) {<br>
-> if(digits[i]++ < 9) return digits;<br>
-> digits[i] = 0;<br>
-> }<br>
-> digits.insert(digits.begin(), 1);<br>
-> return digits;<br>
+> **for(int i = digits.size() - 1; i >= 0 ; i--) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(digits[i]++ < 9) return digits;** <br>
+> &emsp;&emsp;&emsp;&emsp;**digits[i] = 0;** <br>
+> **}** <br>
+> **digits.insert(digits.begin(), 1);** <br>
+> **return digits;** <br>
 
 ---
 
@@ -229,12 +229,12 @@ __builtin_popcount(x)<br>
 
 ### 0231 Power of Two
 > [Power of Two](https://leetcode.com/problems/power-of-two/)<br>
-> (n > 0) && (n & (n-1)) == 0 <br>
+> **(n > 0) && (n & (n-1)) == 0** <br>
 ---
 
 ### 0258 Add Digits
 > [Add Digits](https://leetcode.com/problems/add-digits)<br>
-> (num - 1) % 9 + 1<br>
+> **(num - 1) % 9 + 1** <br>
 ---
 
 ### 0263 Ugly Number
@@ -251,12 +251,12 @@ __builtin_popcount(x)<br>
 
 ### 0326 Power of Three
 > [Power of Three](https://leetcode.com/problems/power-of-three/)<br>
-> (n > 0) && static_cast<int>(pow(3, 19)) % n == 0<br>
+> **(n > 0) && static_cast<int>(pow(3, 19)) % n == 0**<br>
 ---
 
 ### 0342 Power of Four
 > [Power of Four](https://leetcode.com/problems/power-of-four/)<br>
-> (n > 0) && (n & (n-1)) == 0 && (n & 0x55555555) != 0，Power of Two多加 **(n & 0x55555555) != 0**<br>
+> **(n > 0) && (n & (n-1)) == 0 && (n & 0x55555555) != 0**，Power of Two多加 **(n & 0x55555555) != 0**<br>
 ---
 
 
@@ -1340,6 +1340,7 @@ __builtin_popcount(x)<br>
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1662.cpp) | O(N+ M) | O(1) |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](./solution/Solution_1752.cpp) | O(N) | O(1) |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 Easy | Array | [C++](./solution/Solution_1800.cpp) | O(N) | O(1) |
+| 1844 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | 🟢 Easy | In-place Manipulation | [C++](./solution/Solution_1844.cpp) | O(N) | O(1) | [Note](#1844-replace-digits) |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_1848.cpp) | O(N) | O(1) |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | 🟢 Easy | Array <br> Sorting | [C++](./solution/Solution_1913.cpp) | O(N) | O(1) |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array | [C++](./solution/Solution_1929.cpp) | O(N) | O(1)* |
@@ -1360,6 +1361,14 @@ __builtin_popcount(x)<br>
 > [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) <br>
 >  if (num & 1) { count++; if (count == 3) return true; } 
 >  else { count = 0;}
+---
+
+
+### 1844. Replace All Digits with Characters
+> [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) <br>
+>  **for(int i = 1; i <s.size(); i += 2) {** <br>
+>  &emsp;&emsp;&emsp;&emsp;**s[i] = s[i - 1] + s[i] - '0';** <br>
+>  **}** <br>
 ---
 
 <br><br>
