@@ -708,8 +708,8 @@ __builtin_popcount(x)<br>
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Hash Set <br> Bit Manipulation | [C++](./solution/Solution_2716.cpp) | O(N) | O(1) | [Note](#2716-minimize-string-length) |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3120.cpp) | O(N) | O(1) | [Note](#3120-special-chars) |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) | [Note](#3151-special-array-i) |
-| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp) | O(logN) | O(1) | [Note](#3370-smallest-number-with-all-set-bits) |
-
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp) | O(log N) | O(1) | [Note](#3370-smallest-number-with-all-set-bits) |
+| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3827.cpp) | O(1) | O(1) | [Note](#3827-count-monobit-integers) |
 
 ---
 
@@ -829,7 +829,7 @@ __builtin_popcount(x)<br>
 > **}**  <br>
 ---
 
-### Count the Number of Special Characters I
+### 3120 Count the Number of Special Characters I
 > [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/)<br>
 > 要記錄char大小寫都有出現的字元數
 > **for(char c : word) {** <br>
@@ -854,8 +854,12 @@ __builtin_popcount(x)<br>
 > int mask = ~0; while(n & mask) { mask <<= 1; } return ~mask;<br>
 > [476 Number Complement](./solution/Solution_0476.cpp)和[1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp)<br>
 > 類似上面這兩個的題目，只是直接回傳mask。<br>
+---
 
-
+### 3827 Count Monobit Integers
+> [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/)<br>
+> 0->1，1->2，2->2，3->3...，6->3，7->4，**等於算(n+1)的bit數目**<br>
+> **return bit_width(static_cast<uint32_t>(n + 1));** <br>
 
 
 <br><br>
