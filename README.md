@@ -439,6 +439,16 @@ __builtin_popcount(x)<br>
 ---
 
 
+## <a name="simulation"></a>🔢 Simulation (模擬)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 Easy | Logic Control | [C++](./solution/Solution_3894.cpp) | O(1) | O(1) |  |
+
+<br><br>
+---
+
+
+
 ## <a name="math-digit Decomposition"></a>🔢 Math- Digit Decomposition(數學 數字拆解)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
