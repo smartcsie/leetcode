@@ -166,6 +166,7 @@ __builtin_popcount(x)<br>
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1295.cpp) | O(N) | O(1) | [Note](#1295-find-numbers-with-even-number-of-digits) |
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](./solution/Solution_1344.cpp) | O(1) | O(1) | [Note](#1344-angle-clock) |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | Matrix | [C++](./solution/Solution_1572.cpp) | O(N) | O(1) | [Note](#1572-matrix-diagonal-sum) |
+| 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | Math / Base-3 | [C++](./solution/Solution_1780.cpp) | O(log₃ N) | O(1) | [Note](#1780-powers-of-three) |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1822.cpp) | O(N) | O(1) | [Note](#1822-sign-of-the-product-of-an-array) |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math | [C++](./solution/Solution_1952.cpp) | O(√N) | O(1) | [Note](#1952-three-divisors) |
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math <br> String | [C++](./solution/Solution_1980.cpp) | O(N²) | O(N) | [Note](#1980-find-unique-binary-string) |
@@ -304,6 +305,12 @@ __builtin_popcount(x)<br>
 > [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum)<br>
 > 如果 i == (n-1-i) 則sum只加matrix[i][i] 否則sum加matrix[i][i]和matrix[i][n-1-i]，為了奇術矩陣去中重中間元素<br>
 ---
+
+### 1780 Check if Number is a Sum of Powers of Three
+> [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)<br>
+> 連除3，過程中，if(n % 3 == 2) return false;<br>
+---
+
 
 ### 1822 Sign of the Product of an Array
 > [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array)<br>
