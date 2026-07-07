@@ -499,6 +499,7 @@ __builtin_popcount(x)<br>
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2595.cpp) | O(log N) | O(1) | [Note](#2595-number-of-even-and-odd-bits) |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math | [C++](./solution/Solution_3099.cpp) | O(logN) | O(1) | [Note](#3099-harshad-number) |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
+| 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | Brute Force / Digit Manipulation | [C++](./solution/Solution_3345.cpp) | O(K × D) | O(1) | [Note](#3345-smallest-divisible-digit-product-i) |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math / Digit Extraction | O(log N) | O(log N) | [Note](#3697-compute-decimal-representation) | [Note](#3726-remove-zeros-in-decimal-representation)|
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math / Digit Extraction | [C++](./solution/Solution_3726.cpp) | O(log N) | O(1) |  |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](./solution/Solution_3895.cpp) | O(N × D) | O(1) | [Note](#3895-count-digit-appearances) |
@@ -588,6 +589,13 @@ __builtin_popcount(x)<br>
 > 奇數index所有num之sum和偶數index所有num之sum要相等<br>
 
 ---
+
+### 3345 Smallest Divisible Digit Product I
+> [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/)<br>
+> 針對每個num，digit decomposition取得每個digit，做product，看是否可被t整除<br>
+
+---
+
 
 
 ### 3697 Compute Decimal Representation
