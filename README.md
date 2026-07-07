@@ -149,7 +149,6 @@ __builtin_popcount(x)<br>
 | **0050** | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math <br> Binary Exponentiation | [C++](./solution/Solution_0050.cpp) | O(logN) | O(1) | [Note](#0050-powx-n) |
 | **0060** | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math  <br> Factorial | [C++](./solution/Solution_0060.cpp) | O(N²) | O(N) | [Note](#0060-plus-one) |
 | **0066** | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](./solution/Solution_0066.cpp) | O(n) | O(1) | [Note](#0066-plus-one) | [Note](#0066-plus-one)  |
-| **0067** | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0067.cpp) | O(max(M, N)) | O(1) | [Note](#0067-add-binary) |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math <br> Hash Set | [C++](./solution/Solution_0137_1.cpp) | O(n) | O(n) | [Note](#0137-1-single-number-ii) |
 | 0172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 Medium | Math | [C++](./solution/Solution_0172.cpp) | O(log₅N) | O(1) | [Note](#0172-factorial-trailing-zeroes) |
 | 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](./solution/Solution_0231.cpp) | O(1) | O(1) | [Note](#0231-power-of-two) |
@@ -205,18 +204,7 @@ __builtin_popcount(x)<br>
 
 ---
 
-### 0067. Add Binary
-> [Add Binary](https://leetcode.com/problems/add-binary)<br>
-> 和 0415[Add Strings](https://leetcode.com/problems/add-strings) 幾乎一樣<br>
-> i和j設定為a和b最後的index，i = a.size() - 1，j = b.size() - 1
-> 只要a和b都沒處理完或是有carry，while(i >= 0 || j >= 0 || carry == 1) {<br>
-> 把a的digit加到carry，if(i >= 0) carry += a[i--] - '0';<br>
-> 把b的digit加到carry，if(j >= 0) carry += b[j--] - '0';<br>
-> 處理carry，res.push_back((carry % 2) + '0');<br>
-> carry /= 2;<br>
-> }<br>
-> 最後reverse，reverse(res.begin(), res.end());<br>
----
+
 
 ### 0137-1. Single Number II
 > [Single Number II](https://leetcode.com/problems/single-number-ii)<br>
@@ -458,8 +446,39 @@ __builtin_popcount(x)<br>
 ## <a name="math-simulation"></a>🔢 Math - Simulation (數學模擬)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **0067** | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0067.cpp) | O(max(M, N)) | O(1) | [Note](#0067-add-binary) |
+| 0415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | String / Math | [C++](./solution/Solution_0415.cpp) | O(max(N, M)) | O(max(N, M)) | [Note](#0415-add-strings) |
 | 0989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Simulation / Carry Propagation | [C++](./solution/Solution_0989.cpp) | O(max(N, log K)) | O(max(N, log K)) | |
 | 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 Easy | Logic Control | [C++](./solution/Solution_3894.cpp) | O(1) | O(1) |  |
+
+
+### 0067. Add Binary
+> [Add Binary](https://leetcode.com/problems/add-binary)<br>
+> 和 0415[Add Strings](https://leetcode.com/problems/add-strings) 幾乎一樣<br>
+> i和j設定為a和b最後的index，i = a.size() - 1，j = b.size() - 1<br>
+> **while(i >= 0 || j >= 0 || carry == 1) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(i >= 0) carry += a[i--] - '0';** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(j >= 0) carry += b[j--] - '0';** <br>
+> &emsp;&emsp;&emsp;&emsp;**res.push_back((carry % 2) + '0');** <br>
+> &emsp;&emsp;&emsp;&emsp;**carry /= 2;** <br>
+> **}** <br>
+> **reverse(res.begin(), res.end());** <br>
+---
+
+### 0415. Add Strings
+> [Add Strings](https://leetcode.com/problems/add-strings) <br>
+> 和 0067[Add Binary](https://leetcode.com/problems/add-binary) 幾乎一樣<br>
+> i和j設定為num1和num2最後的index，i = num1.size() - 1，j = num2.size() - 1 <br>
+> **while(i >= 0 || j >= 0 || carry !=0) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**f(i >=0) carry += num1[i--] - '0';** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(j >=0) carry += num2[j--] - '0';** <br>
+> &emsp;&emsp;&emsp;&emsp;**res.push_back((carry % 10) + '0');** <br>
+> &emsp;&emsp;&emsp;&emsp;**carry /= 10;** <br>
+> **}** <br>
+> **reverse(res.begin(), res.end());** <br>
+
+---
+
 
 <br><br>
 ---
@@ -1055,7 +1074,6 @@ __builtin_popcount(x)<br>
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String <br> Trie | [C++](./solution/Solution_0014.cpp) | O(S) | O(1) | [Note](#0014-longest-common-prefix) |
 | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](./solution/Solution_0058.cpp) | O(n) | O(1) | [Note](#0058-length-of-last-word) |
 | **0151** | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_0151.cpp) | O(N) | O(N) |
-| 0415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | String / Math | [C++](./solution/Solution_0415.cpp) | O(max(N, M)) | O(max(N, M)) | [Note](#0415-add-strings) |
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](./solution/Solution_0434.cpp) | O(N) | O(1) | [Note](#0434-number-of-segments-in-a-string) |
 | **0648** | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Hash Table <br> Sorting | [C++](./solution/Solution_0648_2.cpp) | O(N * L + M * K) | O(D * L) |  |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_0944.cpp) | O(N * M) | O(M) | [Note](#0944-delete-columns-to-make-sorted) |
@@ -1102,19 +1120,6 @@ __builtin_popcount(x)<br>
 > 開始算最後一組word長度，while (right >= 0 && s[right] != ' ') { right--; length++;}<br>
 ---
 
-### 0415. Add Strings
-> [Add Strings](https://leetcode.com/problems/add-strings) <br>
-> 和 0067[Add Binary](https://leetcode.com/problems/add-binary) 幾乎一樣<br>
-> i和j設定為num1和num2最後的index，i = num1.size() - 1，j = num2.size() - 1
-> 只要a和b都沒處理完或是有carry，while(i >= 0 || j >= 0 || carry == 1) {<br>
-> 把num1的digit加到carry，if(i >= 0) carry += num1[i--] - '0';<br>
-> 把num2的digit加到carry，if(j >= 0) carry += num2[j--] - '0';<br>
-> 處理carry，res.push_back((carry % 10) + '0');<br>
-> carry /= 10;<br>
-> }<br>
-> 最後reverse，reverse(res.begin(), res.end());<br>
-
----
 
 
 ### 0434. Number of Segments in a String
