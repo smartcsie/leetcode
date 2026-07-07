@@ -499,6 +499,7 @@ __builtin_popcount(x)<br>
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) | [Note](#2553-separate-the-digits-in-an-array) |
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2595.cpp) | O(log N) | O(1) | [Note](#2595-number-of-even-and-odd-bits) |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math | [C++](./solution/Solution_3099.cpp) | O(logN) | O(1) | [Note](#3099-harshad-number) |
+| 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Math / Simulation | [C++](./solution/Solution_3300.cpp) | O(N * log M) | O(1) | [Note](#3300-digit-sum) |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | Brute Force / Digit Manipulation | [C++](./solution/Solution_3345.cpp) | O(K × D) | O(1) | [Note](#3345-smallest-divisible-digit-product-i) |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math / Digit Extraction | O(log N) | O(log N) | [Note](#3697-compute-decimal-representation) | [Note](#3726-remove-zeros-in-decimal-representation)|
@@ -605,6 +606,16 @@ __builtin_popcount(x)<br>
 > 奇數index所有num之sum和偶數index所有num之sum要相等<br>
 
 ---
+
+
+### 3340 Minimum Element After Replacement With Digit Sum
+> [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)<br>
+> Travsal vector<int>& nums，sum算出digit之和，用min紀錄最小的digit sum<br>
+
+---
+
+
+
 
 ### 3345 Smallest Divisible Digit Product I
 > [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/)<br>
