@@ -455,9 +455,10 @@ __builtin_popcount(x)<br>
 ---
 
 
-## <a name="simulation"></a>🔢 Simulation (模擬)
+## <a name="math-simulation"></a>🔢 Math - Simulation (數學模擬)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Simulation / Carry Propagation | [C++](./solution/Solution_0989.cpp) | O(max(N, log K)) | O(max(N, log K)) | |
 | 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 Easy | Logic Control | [C++](./solution/Solution_3894.cpp) | O(1) | O(1) |  |
 
 <br><br>
