@@ -957,7 +957,11 @@ __builtin_popcount(x)<br>
 
 ### 2605 Form Smallest Number From Two Digit Arrays
 > [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) <br>
-> **此題總共有四種作法**
+> **此題總共有四種作法**<br>
+> [法一 int mask](./solution/Solution_2605.cpp)<br>
+> [法二 雙迴圈暴力法](./solution/Solution_2605_1.cpp)<br>
+> [法三 bitset](./solution/Solution_2605_2.cpp)<br>
+> [法四 unordered_map](./solution/Solution_2605_3.cpp)<br>
 > 因為只有0~9，兩個mask 紀錄數字出現位置，int mask1 = 0, mask2 = 0;<br>
 > **for(const int& num : nums1) mask1 |= 1 << num;** <br>
 > **for(const int& num : nums2) mask2 |= 1 << num;** <br>
