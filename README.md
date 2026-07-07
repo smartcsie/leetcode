@@ -164,6 +164,7 @@ __builtin_popcount(x)<br>
 | 0628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_0628.cpp) | O(N) | O(1) |[Note](#0628-maximum-product-of-three-numbers) |
 | **0633** | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Math / Two Pointers | [C++](./solution/Solution_0633.cpp) | O(√c) | O(1) | |
 | **0970**| [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math / Hash Table | [C++](./solution/Solution_0970.cpp) | O(log_x(bound) * log_y(bound)) | O(S) | |
+| 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | Modular Arithmetic | [C++](./solution/Solution_1015.cpp) | O(K) | O(1) | [Note](#1015-smallest-integer-divisible-by-k) |
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math / Modulo | [C++](./solution/Solution_1018.cpp) | O(N) | O(1) | [Note](#1018-binary-prefix-divisible-by-5) |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1295.cpp) | O(N) | O(1) | [Note](#1295-find-numbers-with-even-number-of-digits) |
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](./solution/Solution_1344.cpp) | O(1) | O(1) | [Note](#1344-angle-clock) |
@@ -285,10 +286,23 @@ __builtin_popcount(x)<br>
 ---
 
 
+### 1015. Smallest Integer Divisible by K
+> [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)  <br>
+> **for (int length = 1, remainder = 0; length <= k; ++length) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**remainder = (remainder * 10 + 1) % K** <br>
+> &emsp;&emsp;&emsp;&emsp;**if (remainder == 0) {** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**return length;** <br>
+> &emsp;&emsp;&emsp;&emsp;**}** <br>
+> **}** <br>
+
+---
+
+
+
 ### 1018. Binary Prefix Divisible By 5
 > [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)  <br>
 > **sum = ((sum << 1) + num) % 5;divisible.push_back((sum == 0));** <br>
-
+---
 
 ### 1295 Find Numbers with Even Number of Digits
 > [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)  <br>
