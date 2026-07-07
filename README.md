@@ -493,6 +493,7 @@ __builtin_popcount(x)<br>
 | 0728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Simulation | [C++](./solution/Solution_0728.cpp) | O(N*D) | O(1) | [Note](#0728-self-dividing-numbers) |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math | [C++](./solution/Solution_1017.cpp) | O(logN) | O(1) | [Note](#1017-convert-to-base-2) |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logₖN) | O(1) | [Note](#1837-sum-of-digits-in-base-k) |
+| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_2180.cpp) | O(D) | O(1) | [Note](#2180-count-integers-with-even-digit-sum) |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | Math / Simulation | [C++](./solution/Solution_2443.cpp) | O(NlogN) | O(1) | [Note](#2443-sum-of-number-and-its-reverse)
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_2544.cpp) | O(logN) | O(logN) | [Note](#2544-alternating-digit-sum) |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_2553.cpp) | O(n * log(max_val)) | O(n * log(max_val)) | [Note](#2553-separate-the-digits-in-an-array) |
@@ -540,6 +541,21 @@ __builtin_popcount(x)<br>
 > [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k)<br>
 > K進制的位數和，一直 % k加到sum，while(n > 0) {  sum = n % k + sum; n /= k; }  return sum <br>
 ---
+
+
+
+
+### 2180 Count Integers With Even Digit Sum
+> [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) <br>
+> 回傳 num/2，如果digit sum不是0且是偶數，num/2要再-1{<br>
+> **while(temp > 0) { digitSum += temp % 10; temp /= 10; }** {<br>
+> **int answer = num / 2;** {<br>
+> &emsp;&emsp;&emsp;&emsp;**if (num % 2 == 0 && digitSum % 2 != 0) {** {<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**answer -= 1;** {<br>
+> **}** {<br>
+
+---
+
 
 ### 2443 Sum of Number and Its Reverse
 > [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) <br>
