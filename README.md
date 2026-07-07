@@ -501,6 +501,7 @@ __builtin_popcount(x)<br>
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math / Digit Extraction | O(log N) | O(log N) | [Note](#3697-compute-decimal-representation) | [Note](#3726-remove-zeros-in-decimal-representation)|
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math / Digit Extraction | [C++](./solution/Solution_3726.cpp) | O(log N) | O(1) |  |
+| 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](./solution/Solution_3895.cpp) | O(N × D) | O(1) | [Note](#3895-count-digit-appearances) |
 | 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math <br> Digit Manipulation | [C++](./solution/Solution_3908.cpp) | O(log N) | O(1) | [Note](#3908-valid-digit-number) |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math | [C++](./solution/Solution_3945.cpp) | O(logN) | O(1) | [Note](#3945-digit-frequency-score) |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3950.cpp) | O(log N) | O(1) | [Note](#3950-exactly-one-consecutive-set-bits-pair) |
@@ -555,18 +556,18 @@ __builtin_popcount(x)<br>
 ### 2553 Separate the Digits in an Array
 > [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) <br>
 > 方法一<br>
-> for(int i = nums.size() - 1 ; i >= 0; i--) {<br>
->  int temp = nums[i];<br>
-> while(temp > 0) {<br>
->  res.push_back(temp % 10);<br>
-> temp /= 10;<br>
->  }<br>
-> }<br>
+> **for(int i = nums.size() - 1 ; i >= 0; i--)** {<br>
+> &emsp;&emsp;&emsp;&emsp;**int temp = nums[i];** <br>
+> &emsp;&emsp;&emsp;&emsp;**while(temp > 0) {** {<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**res.push_back(temp % 10);** {<br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**temp /= 10;** {<br>
+> &emsp;&emsp;&emsp;&emsp;**}** {<br>
+> **}<br>
 > reverse(res.begin(), res.end());<br>
 > 方法二<br>
-> for(const int& num : nums) {<br>
->  for(char c : to_string(num)) res.push_back(c - '0');<br>
-> }<br>
+> **for(const int& num : nums) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**for(char c : to_string(num)) res.push_back(c - '0');** <br>
+> **}** <br>
 
 ---
 
@@ -598,6 +599,19 @@ __builtin_popcount(x)<br>
 ### 3726 Remove Zeros in Decimal Representation
 > [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) <br>
 > 跟 3697很像，差異是digit != 0 才 res += base * digit; base *= 10;<br>
+---
+
+
+
+
+### 3895 Count Digit Appearances
+> [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/)  <br>
+> 檢查nums中每一位是否等於digit<br>
+> **int temp = num;** <br>
+> **while(temp > 0) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(temp% 10 == digit) count++;** <br>
+> &emsp;&emsp;&emsp;&emsp;**temp /= 10;** <br>
+> **}** <br>
 ---
 
 
