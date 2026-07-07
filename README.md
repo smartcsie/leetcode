@@ -2434,6 +2434,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy <br> Math | [C++](./solution/Solution_1323.cpp) | O(D) | O(D) |
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy | [C++](./solution/Solution_1576.cpp) | O(N) | O(1) | [Note](#1576-replace-all-s) |
 | **1930** | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | 🟡 Medium | Greedy <br> Hash | [C++](./solution/Solution_1930.cpp) | O(N) | O(1) | |
+| 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy / Partition by Parity | [C++](./solution/Solution_2231.cpp) | O(D log D) | O(D) | [Note](#2231-largest-number-after-digit-swaps-by-parity) |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy / Hashing | [C++](./solution/Solution_2815.cpp) | O(N * D) | O(1) | [Note](#2815-max-pair-sum-in-an-array) |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array <br> Greedy <br> Bit Manipulation | [C++](./solution/Solution_3011.cpp) | O(N) | O(1) | 
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_3798.cpp) | O(N) | O(1) |
@@ -2476,10 +2477,17 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > &emsp;&emsp;&emsp;&emsp;**if(i < s.size() && s[i + 1] == c) continue;** <br>
 > &emsp;&emsp;&emsp;&emsp;**s[i] = c;** <br>
 > **}** <br>
-
 ---
 
-
+### 2231. Largest Number After Digit Swaps by Parity
+> [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)<br>
+> 用to_string把int num轉成string s<br>
+> 初始化bucket vector<vector<char>> buckets(2);，travsal char，分成奇數，偶數<br>
+> 把char分到bucket，for(const char& c : s) buckets[c & 1].push_back(c); <br>
+> 兩組bucket直接排序，由大到小 <br>
+> 擺回s，for(char& c : s)  c = buckets[c & 1][index[c & 1]++];<br>
+> return stoi(s);
+---
 
 
 
