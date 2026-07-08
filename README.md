@@ -542,6 +542,7 @@ __builtin_popcount(x)<br>
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math | [C++](./solution/Solution_3945.cpp) | O(logN) | O(1) | [Note](#3945-digit-frequency-score) |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3950.cpp) | O(log N) | O(1) | [Note](#3950-exactly-one-consecutive-set-bits-pair) |
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_3959.cpp) | O(log N) | O(1) | [Note](#3959-check-good-integer) |
+| 3982 | Sum of Integers with Maximum Digit Range | 🟢 Easy | Math / Array | [C++](./solution/Solution_3982.cpp) | O(N * D) | O(N) | |
 
 ### 0007. Reverse Integer
 > [Reverse Integer](https://leetcode.com/problems/reverse-integer/)<br>
