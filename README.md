@@ -1572,8 +1572,20 @@ __builtin_popcount(x)<br>
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | String | [C++](./solution/Solution_1446.cpp) | O(N) | O(1) | 利用單次掃描記錄當前連續字元長度並更新最大值，有效解決連續模式查找問題 |
 
+<br><br>
+---
 
 
+
+
+## <a name="array-difference-array"></a>🍱 Array - Difference Array (陣列 差分陣列)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 Easy | Difference Array / Sweep Line | [C++](./solution/Solution_1854.cpp) | O(N + Y) | O(Y) |  |
+
+
+<br><br>
+---
 ## <a name="array-boyer-moore"></a>🍱 Array - Boyer-Moore Voting Algorithm(陣列 多數投票演算法)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
