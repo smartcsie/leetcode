@@ -1253,16 +1253,16 @@ __builtin_popcount(x)<br>
 > [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/)<br>
 > 外迴圈i為column(string的第幾個char) 0 ~ cols，內迴圈j為row(第幾個string) 1 ~ rows<br>
 > 發現前面string第i個char比後面string第i個char大，bitset那個位置，往下一個char檢查，if(strs[j-1][i] > strs[j][i]) { bits.set(i);  break;}
-> return static_cast<int>(bits.count())<br>
+> **return static_cast<int>(bits.count())** <br>
 
 ---
 
 ### 1078. Occurrences After Bigram
 > [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)<br>
 > 用istringstream拆解text成為vector<string> words;<br>
-> for(int i = 0; i < words.size() - 2; i++) {<br>
-> if(words[i] == first && words[i + 1] == second) res.push_back(words[i + 2]);<br>
-> }<br>
+> **for(int i = 0; i < words.size() - 2; i++) {** <br>
+> &emsp;&emsp;&emsp;&emsp;> &emsp;&emsp;&emsp;&emsp;**if(words[i] == first && words[i + 1] == second) res.push_back(words[i + 2]);** <br>
+> **}** <br>
 
 
 ---
@@ -1271,15 +1271,15 @@ __builtin_popcount(x)<br>
 
 ### 1528. Shuffle String
 > [Shuffle String](https://leetcode.com/problems/shuffle-string)<br>
-> string res(s.size(), ' ');<br>
->  for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];<br>
+> **string res(s.size(), ' ');** <br>
+> **for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];** <br>
 
 ---
 
 ### 1758. Minimum Changes To Make Alternating Binary String
 > [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string)<br>
-> for(int i = 0 ; i < s.size(); i++) if(i % 2 == s[i]-'0') count++;<br>
-> return min(count, static_cast<int>(s.size()) - count);<br>
+> **for(int i = 0 ; i < s.size(); i++) if(i % 2 == s[i]-'0') count++;** <br>
+> **return min(count, static_cast<int>(s.size()) - count);** <br>
 
 ---
 
@@ -1295,12 +1295,13 @@ __builtin_popcount(x)<br>
 ### 2042.Check if Numbers Are Ascending in a Sentence
 > [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence)<br>
 > 用一個 istringstream iss(s)<br>
-> while(iss >> word) <br>
-> if(isdigit(word[0])) { <br>
-> int num = stoi(word); <br>
-> if(num <= prev) return false; <br>
-> prev = num; <br>
-> }<br>
+> **while(iss >> word) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(isdigit(word[0])) {** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**int num = stoi(word);** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**if(num <= prev) return false;** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**prev = num;** <br>
+> &emsp;&emsp;&emsp;&emsp;**}** <br>
+> **}** <br>
 
 ---
 
@@ -1412,7 +1413,7 @@ __builtin_popcount(x)<br>
 
 ### 0709. To Lower Case
 > [To Lower Case](https://leetcode.com/problems/to-lower-case) <br>
-> for(char& c : s ) if(isupper(c)) c += 32; <br>
+> **for(char& c : s ) if(isupper(c)) c += 32;** <br>
 
 ---
 
@@ -1420,8 +1421,8 @@ __builtin_popcount(x)<br>
 ### 1796. Second Largest Digit in a String
 > [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) <br>
 > 可能有重覆的數<br>
-> if(digit > large) { second = large; large = digit;} 
-> else if( **digit < large** && digit > second) { second = digit;}
+> **if(digit > large) { second = large; large = digit;}** <br>
+> **else if( **digit < large** && digit > second) { second = digit;}** <br>
                 
 ---
 
@@ -1488,7 +1489,7 @@ __builtin_popcount(x)<br>
 
 ### 0796. Rotate String
 > [Rotate String](https://leetcode.com/problems/rotate-string) <br>
-> return (s + s).find(goal) != string::npos; <br>
+> **return (s + s).find(goal) != string::npos;** <br>
 
 ---
 
@@ -1550,8 +1551,8 @@ __builtin_popcount(x)<br>
 
 ### 1550. Three Consecutive Odds
 > [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) <br>
->  if (num & 1) { count++; if (count == 3) return true; } 
->  else { count = 0;}
+>  **if (num & 1) { count++; if (count == 3) return true; }** <br> 
+>  **else { count = 0;}** <br>
 ---
 
 
@@ -2004,6 +2005,7 @@ __builtin_popcount(x)<br>
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Map | [C++](./solution/Solution_1640.cpp) | O(N) | O(N) | [Note](#1640-check-array-formation-through-concatenation) |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array <br> Hash Table <br> Bitset | [C++](./solution/Solution_2133.cpp) | O(n²) | O(n) |
 | 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 Easy | Array <br> Hash Table <br> Simulation | [C++](./solution/Solution_2154.cpp) | O(n) | O(n) |
+| 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 Medium | Hash Table / Math | [C++](./solution/Solution_2342.cpp) | O(N * log M) | O(N) | |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Array <br> Sorting <br> Hash Table | [C++](./solution/Solution_2418.cpp) | O(NlogN) | O(N) |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table <br> Two Pointers <br> Sorting | [C++](./solution/Solution_2441.cpp) | O(n) | O(n) |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Array <br> Hash Set | [C++](./solution/Solution_3678.cpp) | O(N) | O(N) |
@@ -2030,7 +2032,15 @@ __builtin_popcount(x)<br>
 > 用一組  unordered_map<int,vector<int>> map 紀錄每組vector第一個int和該組vector <br>
 > 對arr 使用index i，如果arr[i]在map中找到，取出來，每個int開始比對，i往後走<br>
 
-
+### 2342. Max Sum of a Pair With Equal Sum of Digits
+> [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) <br>
+> **int digit_sum = digitSum(num);** <br>
+> **if(digit_max_map.count(digit_sum)) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**maximum  = std::max(maximum, digit_max_map[digit_sum] + num );** <br>
+> &emsp;&emsp;&emsp;&emsp;**digit_max_map[digit_sum] = std::max(digit_max_map[digit_sum], num);** <br>
+> **} else {** <br>
+> &emsp;&emsp;&emsp;&emsp;**digit_max_map[digit_sum] = num;** <br>
+> **}** <br>
 
 
 <br><br>
