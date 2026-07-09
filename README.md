@@ -1540,7 +1540,7 @@ __builtin_popcount(x)<br>
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | Array <br> Sorting | [C++](./solution/Solution_2148.cpp) | O(N) | O(1) |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array | [C++](./solution/Solution_2239.cpp) | O(N) | O(1) |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_3925.cpp) | O(N) | O(N) |
-
+| 3969 | Valid Subarrays With Matching Sum Digits I | 🟢 Easy | Array / Brute Force | [C++](./solution/Solution_3969.cpp) | O(N^2) | O(1) | |
 
 ### 1304.Find N Unique Integers Sum up to Zero
 >  [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) <br>
