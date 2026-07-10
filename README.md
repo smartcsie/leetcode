@@ -2546,6 +2546,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | **0670** | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy | [C++](./solution/Solution_0670.cpp) | O(N) | O(1) | |
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy <br> String | [C++](./solution/Solution_0678.cpp) | O(N) | O(1) |
+| **0696** | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String / Greedy | [C++](./solution/Solution_696.cpp) | O(N) | O(1) ||
 | **0945** | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting <br> Greedy | [C++](./solution/Solution_0945.cpp) | O(NlogN) | O(1) | |
 | 0961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Math/Greedy | [C++](./solution/Solution_0961.cpp) | O(N) | O(1) | [Note](#0961-n-repeated-element)  |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy <br> Math | [C++](./solution/Solution_1323.cpp) | O(D) | O(D) |
