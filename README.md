@@ -2541,6 +2541,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Math/Greedy | [C++](./solution/Solution_0961.cpp) | O(N) | O(1) | [Note](#0961-n-repeated-element)  |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy <br> Math | [C++](./solution/Solution_1323.cpp) | O(D) | O(D) |
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy | [C++](./solution/Solution_1576.cpp) | O(N) | O(1) | [Note](#1576-replace-all-s) |
+| 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy / String | [C++](./solution/Solution_1881.cpp) | O(N) | O(1) | |
 | **1930** | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | 🟡 Medium | Greedy <br> Hash | [C++](./solution/Solution_1930.cpp) | O(N) | O(1) | |
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy / Partition by Parity | [C++](./solution/Solution_2231.cpp) | O(D log D) | O(D) | [Note](#2231-largest-number-after-digit-swaps-by-parity) |
 | 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_2259.cpp) | O(N) | O(N) | |
