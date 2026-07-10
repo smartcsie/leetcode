@@ -2553,6 +2553,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy / Partition by Parity | [C++](./solution/Solution_2231.cpp) | O(D log D) | O(D) | [Note](#2231-largest-number-after-digit-swaps-by-parity) |
 | 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_2259.cpp) | O(N) | O(N) | |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy / Hashing | [C++](./solution/Solution_2815.cpp) | O(N * D) | O(1) | [Note](#2815-max-pair-sum-in-an-array) |
+| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_2864.cpp) | O(N) | O(1) | |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array <br> Greedy <br> Bit Manipulation | [C++](./solution/Solution_3011.cpp) | O(N) | O(1) | 
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) | 🟢 Easy | Math / Greedy | [C++](./solution/Solution_3536.cpp) | O(log N) | O(1) | [Note](#3536-maximum-product-of-two-digits)|
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_3798.cpp) | O(N) | O(1) |
