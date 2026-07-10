@@ -722,6 +722,7 @@ __builtin_popcount(x)<br>
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math / Brute Force | [C++](./solution/Solution_3556.cpp) | O(N²*sqrt(M)) | O(1) | [Note](#3556-sum-of-largest-prime-substrings) |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) | [Note](#3591-check-if-any-element-has-prime-frequency) |
 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | Math / Sieve | [C++](./solution/Solution_3618.cpp) | O(N + R log log R) | O(R) | [Note](#3618-split-array-by-prime-indices) |
+| 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | Math / Prime Number | [C++](./solution/Solution_3765.cpp) | O(D * sqrt(N)) | O(D) | [Note](#3765-complete-prime-number) |
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math / Prefix Sum | [C++](./solution/Solution_3770.cpp) | O(R log log R) | O(R) | [Note](#3770-largest-prime-from-consecutive-prime-sum) |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math / Sieve | [C++](./solution/Solution_3918.cpp) | O(R log log R) | O(R) | [Note](#3918-sum-of-primes-between-number-and-its-reverse) |
 
@@ -774,6 +775,21 @@ __builtin_popcount(x)<br>
 > [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/)<br>
 > 執行Sieve of Eratosthenes演算法，travsal nums 1 ~ size() - 1，if(isPrime[i]) { sum += nums[i]; } else { sum -= nums[i]; }<br>
 ---
+
+### 3765 Complete Prime Number
+> [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/)<br>
+> **string s = to_string(num);** <br>
+> **int n = s.size();** <br>
+> **for(int i = 1; i <= n; i++) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**int prefix = stoi(s.substr(0, i));** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(!isPrime(prefix)) return false;** <br>
+> &emsp;&emsp;&emsp;&emsp;**int suffix = stoi(s.substr(n - i,i));** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(!isPrime(suffix)) return false;** <br>
+> **}** <br>
+> **return true;** <br>
+
+---
+
 
 ### 3770 Largest Prime from Consecutive Prime Sum
 > [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/)<br>
