@@ -13,21 +13,13 @@
 class Solution {
 public:
     int findClosestNumber(vector<int>& nums) {
-        int closest = INT_MAX;
-        int res = INT_MIN;
-        
-        for (const int num : nums) {
-            int abs_val = abs(num);
-            
-            // 更新條件：1. 發現絕對值更小的數；2. 絕對值相等但數值更大
-            if (abs_val < closest) {
-                closest = abs_val;
-                res = num;
-            } else if (abs_val == closest) {
-                res = max(res, num);
-            }
+        if(nums.size() == 1) return nums[0];
+        int min_val = INT_MAX;
+        for(const int& num : nums) {
+            if(num == 0) return 0;
+            else if(abs(num) < abs(min_val)) min_val = num;
+            else if(abs(num) == abs(min_val) && num > 0) min_val = num;
         }
-        
-        return res;
+        return min_val;
     }
 };
