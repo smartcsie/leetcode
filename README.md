@@ -521,6 +521,7 @@ __builtin_popcount(x)<br>
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) | [Note](#0007-reverse-integer) |
 | 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0504.cpp) | O(log₇N) | O(1) | [Note](#0504-base-7) |
 | 0728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Simulation | [C++](./solution/Solution_0728.cpp) | O(N*D) | O(1) | [Note](#0728-self-dividing-numbers) |
+| 0868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_868.cpp) | O(log N) | O(1) | [Note](#0868-binary-gap) |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math | [C++](./solution/Solution_1017.cpp) | O(logN) | O(1) | [Note](#1017-convert-to-base-2) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_1281.cpp) | O(log N) | O(1) ||
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math | [C++](./solution/Solution_1837.cpp) | O(logₖN) | O(1) | [Note](#1837-sum-of-digits-in-base-k) |
@@ -566,6 +567,14 @@ __builtin_popcount(x)<br>
 > 每個數做Base 10 Digit Decomposition，如果digit == 0或 n % figit != 0 ，return false<br>
 
 ---
+
+
+### 0868 Binary Gap
+> [Binary Gap](https://leetcode.com/problems/binary-gap/)  <br>
+> pre_one_idx 紀錄上一次1的index，max_gap紀錄相鄰1的index最大值<br>
+
+---
+
 
 
 ### 1017 Convert to Base -2
