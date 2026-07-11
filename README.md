@@ -1128,6 +1128,7 @@ __builtin_popcount(x)<br>
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
 | **2317** | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) | [Note](#2317-maximum-xor-after-operations) |
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2425.cpp) | O(N + M) | O(1) | [Note](#2425-bitwise-xor-of-all-pairings) |
+| 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | Bit Manipulation / Greedy | [C++](./solution/Solution_2429.cpp) | O(1) | O(1) | [Note](#2429-minimize-xor) |
 | 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | Bit Manipulation / Array | [C++](./solution/Solution_3158.cpp) | O(N) | O(1) | |
 
 ### 0136 Single Number
@@ -1163,6 +1164,15 @@ __builtin_popcount(x)<br>
 > 如果nums1 size是奇數，把所有nums2的element xor到 xor2<br>
 > 如果nums2 size是奇數，把所有nums1的element xor到 xor1<br>
 > 回傳 xor1 ^ xor2<br>
+---
+
+### 2429 Minimize XOR
+> [Minimize XOR](https://leetcode.com/problems/minimize-xor/) <br>
+> 要找一個和num2 set bit樹目相等，且和num2 XOR 最小的數<br>
+> 先計算bits數目，int bits = __builtin_popcount(num2);<br>
+> 起一個 int res，把num1 有1的先set到res，bits一邊減<br>
+> 把剩下的bits由低到高set到res<br>
+---
 
 
 <br><br>
