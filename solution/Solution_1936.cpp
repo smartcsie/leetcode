@@ -9,19 +9,17 @@
 
 class Solution {
 public:
-    int addRungs(std::vector<int>& rungs, int dist) {
+    int addRungs(vector<int>& rungs, int dist) {
         int count = 0;
-        int current_pos = 0; // 起始點從地面 0 開始
-        
-        for (int rung : rungs) {
-            int diff = rung - current_pos;
-            if (diff > dist) {
-                // (diff - 1) / dist 為需要的補梯數量
-                count += (diff - 1) / dist;
+        count += ceil(rungs[0]/ (double)dist) - 1;
+        for(int i = 0; i < rungs.size() - 1; i++) {
+            int diff = rungs[i+ 1] - rungs[i];
+            if(diff > dist) {
+                // 數學上的 ceil(diff / dist)
+                // 在整數除法中即為 (diff + dist - 1) / dist
+                count += (diff + dist - 1) / dist - 1;
             }
-            current_pos = rung;
         }
-        
         return count;
     }
 };
