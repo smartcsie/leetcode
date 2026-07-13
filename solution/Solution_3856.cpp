@@ -12,8 +12,6 @@ private:
     // 利用位元遮罩快速檢查字元是否為母音
     // 數字 2130466 在二進位中，對應 a, e, i, o, u 的位置皆為 1
     static bool isVowel(char c) {
-        // 將大寫轉小寫以統一處理，位元檢查範圍對應 'a' ~ 'u'
-        c = std::tolower(c);
         return (2130466 >> (c - 'a' + 1)) & 1;
     }
 
