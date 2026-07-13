@@ -2795,6 +2795,10 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 1876 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | 🟢 Easy | String <br> Sliding Window | [C++](./solution/Solution_1876.cpp) | O(N) | O(1) |
 | 1287 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | 🟢 Easy | Array <br> Sliding Window | [C++](./solution/Solution_1287.cpp) | O(N) | O(1) |
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | Sorting / Sliding Window | [C++](./solution/Solution_1984.cpp) | O(NlogN) | O(1) |
+| 3090 | [Maximum Length Substring](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 Easy | Sliding Window | [C++](./solution/Solution_3090.cpp) | O(N) | O(1) ||
+
+
+
 <br><br>
 ---
 
