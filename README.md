@@ -2616,6 +2616,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | **0945** | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting <br> Greedy | [C++](./solution/Solution_0945.cpp) | O(NlogN) | O(1) | |
 | 0961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Math/Greedy | [C++](./solution/Solution_0961.cpp) | O(N) | O(1) | [Note](#0961-n-repeated-element)  |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy <br> Math | [C++](./solution/Solution_1323.cpp) | O(D) | O(D) |
+| **1529** | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 Medium | Greedy / State Machine | [C++](./solution/Solution_1529.cpp) | O(N) | O(1) | |
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy | [C++](./solution/Solution_1576.cpp) | O(N) | O(1) | [Note](#1576-replace-all-s) |
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | Math / Greedy | [C++](./solution/Solution_1785.cpp) | O(N) | O(1) | |
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy / String | [C++](./solution/Solution_1881.cpp) | O(N) | O(1) | |
