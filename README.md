@@ -2612,7 +2612,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy <br> String | [C++](./solution/Solution_0678.cpp) | O(N) | O(1) |
 | **0696** | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String / Greedy | [C++](./solution/Solution_696.cpp) | O(N) | O(1) ||
-| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | Stack / Greedy | [C++](./solution/Solution_921.cpp) | O(N) | O(1) | |
+| 0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | Stack / Greedy | [C++](./solution/Solution_921.cpp) | O(N) | O(1) | |
 | **0945** | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting <br> Greedy | [C++](./solution/Solution_0945.cpp) | O(NlogN) | O(1) | |
 | 0961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Math/Greedy | [C++](./solution/Solution_0961.cpp) | O(N) | O(1) | [Note](#0961-n-repeated-element)  |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy <br> Math | [C++](./solution/Solution_1323.cpp) | O(D) | O(D) |
@@ -2621,6 +2621,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | Math / Greedy | [C++](./solution/Solution_1785.cpp) | O(N) | O(1) | |
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy / String | [C++](./solution/Solution_1881.cpp) | O(N) | O(1) | |
 | **1936** | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | Greedy / Math | [C++](./solution/Solution_1936.cpp) | O(N) | O(1) | |
+| 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | N/A | O(N) | O(1) | [Note](#2027-minimum-moves-to-convert-string) |
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy / Partition by Parity | [C++](./solution/Solution_2231.cpp) | O(D log D) | O(D) | [Note](#2231-largest-number-after-digit-swaps-by-parity) |
 | 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_2259.cpp) | O(N) | O(N) | |
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy / Sorting | [C++](./solution/Solution_2578.cpp) | O(NlogN) | O(N) | [Note](#2578-split-with-minimum-sum)|
@@ -2668,6 +2669,20 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > &emsp;&emsp;&emsp;&emsp;**s[i] = c;** <br>
 > **}** <br>
 ---
+
+### 2027. Minimum Moves to Convert String
+> [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/)<br>
+> 起一個for loop ，遇到O，index i遞增1，遇到X，index i遞增3 且count + 1<br>
+> **for(int i = 0; i < s.size();) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**while(i < s.size() && s[i] == 'O') i++;** <br>
+> &emsp;&emsp;&emsp;&emsp;**if(i < s.size() && s[i] == 'X') {** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**i += 3;** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;** count++;** <br>
+> &emsp;&emsp;&emsp;&emsp;**}** <br>
+> **}** <br>
+---
+
+
 
 ### 2231. Largest Number After Digit Swaps by Parity
 > [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)<br>
