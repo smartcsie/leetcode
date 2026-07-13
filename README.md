@@ -1240,6 +1240,7 @@ __builtin_popcount(x)<br>
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String Manipulation / Bit Format | [C++](./solution/Solution_3280.cpp) | O(1) | O(1) | |
 | 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 Easy | Simulation / Recursion | [C++](./solution/Solution_3304.cpp) | O(K) | O(K) | [Note](#3304-kth-char) |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String / Pattern Matching | [C++](./solution/Solution_3407.cpp) | O(N + M) | O(M) ||
+| 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | String / Block-Skipping | N/A | O(N) | O(1) ||
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_3498.cpp) | O(n) | O(1) | [Note](#3498-reverse-degree-of-a-string) |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3775.cpp) | O(N*L) | O(N) |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Processing | [C++](./solution/Solution_3813.cpp) | O(N) | O(1) | |
