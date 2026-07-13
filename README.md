@@ -768,11 +768,7 @@ __builtin_popcount(x)<br>
 > 起一組 bitset<100001> isPrime，執行Sieve of Eratosthenes演算法，i 從 1 ~ n/2，i和 n - 1都是prime，則放入result vector<br>
 ---
 
-### 3556 Sum of Largest Prime Substrings
-> [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) <br>
-> 雙層迴圈計算列出子字串，轉成數字，for(int i = 0;i < n; i++)  for(int j = i;j < n; j++) curNum = curNum * 10 + (s[j] - '0');<br>
-> 如果curNum是prime，curNum更新到前三大的數，if(isPrime(curNum)) updateMax(curNum, max1, max2, max3); <br>
----
+
 
 
 ### 3591 Check if Any Element Has Prime Frequency
@@ -1429,6 +1425,14 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math / Brute Force | [C++](./solution/Solution_3556.cpp) | O(N²*sqrt(M)) | O(1) | [Note](#3556-sum-of-largest-prime-substrings) |
+
+### 3556 Sum of Largest Prime Substrings
+> [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) <br>
+> 雙層迴圈計算列出子字串，轉成數字，for(int i = 0;i < n; i++)  for(int j = i;j < n; j++) curNum = curNum * 10 + (s[j] - '0');<br>
+> 如果curNum是prime，curNum更新到前三大的數，if(isPrime(curNum)) updateMax(curNum, max1, max2, max3); <br>
+---
+
+
 <br><br>
 ---
 
