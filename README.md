@@ -1452,6 +1452,7 @@ __builtin_popcount(x)<br>
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Processing | [C++](./solution/Solution_3121.cpp) | O(N) | O(1) | [Note](#3121-special-chars-ii) | [Note](#3121-count-the-number-of-special-characters-ii) | 
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String / Validation | [C++](./solution/Solution_3136.cpp) | O(N) | O(1) | [Note](#3136-valid-word) |
+| 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | String / Two Pointers | N/A | O(N) | O(1) | [Note](#3856-trim-trailing-vowels) |
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3931.cpp) | O(N) | O(1) |
 
 
@@ -1494,6 +1495,15 @@ __builtin_popcount(x)<br>
 
 ---
 
+### 2678. Number of Senior Citizens
+> [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)  <br>
+> Index 11和12是age <br>
+> int age = 10 * (detail[11] - '0') + (detail[12] - '0');<br>
+> if( age > 60) citizens++;<br>
+
+---
+
+
 ### 3121. Count the Number of Special Characters II
 > [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)  <br>
 > 用一組vector紀錄26個大小寫char出現的位置vector<pair<int, int>> indices(26, {-1, -1});<br>
@@ -1514,12 +1524,13 @@ __builtin_popcount(x)<br>
 
 ---
 
+### 3856. Trim Trailing Vowels
+> [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) <br>
+> while loop檢查 s.back()是不是Vowel，如果是，移除<br>
+> **while (!s.empty() && isVowel(s.back())) {** <br>
+> **&emsp;&emsp;&emsp;&emsp;s.pop_back();** <br>
+> **}** <br>
 
-### 2678. Number of Senior Citizens
-> [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)  <br>
-> Index 11和12是age <br>
-> int age = 10 * (detail[11] - '0') + (detail[12] - '0');<br>
-> if( age > 60) citizens++;<br>
 
 ---
 
