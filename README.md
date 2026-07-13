@@ -1439,7 +1439,7 @@ __builtin_popcount(x)<br>
 ### 3713 Longest Balanced Substring I
 > [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) <br>
 > 對於 3713. Longest Balanced Substring I，這題通常不能直接用單一的「滑動視窗」來解，原因在於它的定義要求「所有出現過的字元頻率必須相等」。<br>
-> 3090. Maximum Length Substring With Two Occurrences
+> [3090 Maximum Length Substring](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/)是Sliding window的一個例子<br>
 > 為什麼滑動視窗很難用在這裡？<br>
 > 典型的滑動視窗（如上一題 3090）適用於「頻率上限檢查」（例如 count <= 2），當條件不滿足時，我們可以透過移動 left 來快速縮小視窗直到條件再次滿足。<br>
 > 然而，「平衡」的定義要求的是「各字元頻率相等」。如果視窗內有 'a': 2, 'b': 1，當你滑動時，這個條件極不穩定。這導致你無法單純地透過移動 left 來保證平衡，因為「平衡」是一個非常脆弱的狀態。<br>
