@@ -15,9 +15,8 @@
 class Solution {
     // 定義為成員函式，避免重複建立 Lambda
     static bool isVowel(char c) {
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
+        return (2130466 >> (c - '`')) & 1;
     }
-
 public:
     int vowelStrings(vector<string>& words, int left, int right) {
         // 使用 STL count_if + 迭代器區間
