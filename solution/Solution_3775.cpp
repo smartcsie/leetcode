@@ -8,15 +8,13 @@
 
 class Solution {
 private:
+    static bool isVowel(char c) {
+        return (2130466 >> (c - '`')) & 1;
+    }
     int countVowels(const std::string& s) {
-        int count = 0;
-        const std::string_view vowels = "aeiou";
-        for (char c : s) {
-            if (vowels.find(c) != std::string_view::npos) {
-                count++;
-            }
-        }
-        return count;
+        return count_if(s.begin(), s.end(), [](char c) {
+            return isVowel(c);
+        });
     }
 public:
     string reverseWords(string s) {
