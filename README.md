@@ -2623,6 +2623,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | **1936** | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | Greedy / Math | [C++](./solution/Solution_1936.cpp) | O(N) | O(1) | |
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy / Partition by Parity | [C++](./solution/Solution_2231.cpp) | O(D log D) | O(D) | [Note](#2231-largest-number-after-digit-swaps-by-parity) |
 | 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_2259.cpp) | O(N) | O(N) | |
+| 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy / Sorting | [C++](./solution/Solution_2578.cpp) | O(NlogN) | O(N) | [Note](#2578-split-with-minimum-sum)|
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy / Hashing | [C++](./solution/Solution_2815.cpp) | O(N * D) | O(1) | [Note](#2815-max-pair-sum-in-an-array) |
 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_2864.cpp) | O(N) | O(1) | |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array <br> Greedy <br> Bit Manipulation | [C++](./solution/Solution_3011.cpp) | O(N) | O(1) | 
@@ -2658,7 +2659,6 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ---
 
 
-
 ### 1576. Replace All ?'s
 > [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)<br>
 > 將字串中的 '?' 替換為合法字元，保證相鄰字元不重複遍歷字串，當遇到 '?' 時，從 'a', 'b', 'c' 中選出一個與左右相鄰皆不同的字元替換<br>
@@ -2677,6 +2677,12 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > 兩組bucket直接排序，由大到小 <br>
 > 擺回s，for(char& c : s)  c = buckets[c & 1][index[c & 1]++];<br>
 > return stoi(s);
+---
+
+### 2578. Split With Minimum Sum
+> [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)<br>
+> 用to_string把int num轉成string s，對s排序<br>
+> 取穿插字元成為兩數，兩樹相加即是答案<br>
 ---
 
 
