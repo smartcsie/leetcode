@@ -2019,6 +2019,7 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table / String | [C++](./solution/Solution_0049.cpp) | O(N*K) | O(N*K) | 
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Set <br> String | [C++](./solution/Solution_0771.cpp) | O(J + S) | O(J) |
+| 0819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | String / Hash Table | N/A | O(M + N) | O(M + N) | |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_1207.cpp) | O(N) | O(N) |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 Easy | Array <br> Hash Table <br> Counting | [C++](./solution/Solution_1394.cpp) | O(N) | O(1) |
 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 Easy | Array / Hash Table | [C++](./solution/Solution_1460.cpp) | O(N) | O(K) |
