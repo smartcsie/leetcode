@@ -1234,7 +1234,6 @@ __builtin_popcount(x)<br>
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) | 🟢 Easy | String | [C++](./solution/Solution_2264.cpp) | O(N) | O(1) | [Note](#2264-largest-3-same-digit-number-in-string) |
 | **2460** | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_2460.cpp) | O(N) | O(1) |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String | [C++](./solution/Solution_2490.cpp) | O(N) | O(1) | [Note](#2490-circular-sentence) |
-| 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String / Two Pointers | N/A | O(N) | O(1) | [Note](#2710-check-if-a-string-is-an-acronym-of-words) |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2828.cpp) | O(n) | O(1) | [Note](#2828-check-if-a-string-is-an-acronym-of-words) |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](./solution/Solution_2937.cpp) | O(min(L1, L2, L3)) | O(1) | [Note](#2937-make-three-strings-equal) |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | String Search | [C++](./solution/Solution_2942.cpp) | O(N * L) | O(1) | [Note](#2942-find-words) |
@@ -1376,16 +1375,6 @@ __builtin_popcount(x)<br>
 
 
 
-### 2710. Check if a String Is an Acronym of Words
-> [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)
-> **while (!num.empty() && num.back() == '0'){** <br>
-> &emsp;&emsp;&emsp;&emsp;**num.pop_back();** <br>
-> **}** <br>
-
-
----
-
-
 ### 2828. Check if a String Is an Acronym of Words
 > [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) <br>
 > 如果vector<string> words size和 s size不同，return false<br>
@@ -1478,6 +1467,7 @@ __builtin_popcount(x)<br>
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String | [C++](./solution/Solution_2124.cpp) | O(N) | O(1) | [Note](#2124-check-if-all-as-appears-before-all-bs) |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2586.cpp) | O(n) | O(1) |
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp) | O(n) | O(1) | [Note](#2678-number-of-senior-citizens) |
+| 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String / Two Pointers |  [C++](./solution/Solution_2710.cpp) | O(N) | O(1) | [Note](#2710-check-if-a-string-is-an-acronym-of-words) |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Processing | [C++](./solution/Solution_3121.cpp) | O(N) | O(1) | [Note](#3121-special-chars-ii) | [Note](#3121-count-the-number-of-special-characters-ii) | 
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String / Validation | [C++](./solution/Solution_3136.cpp) | O(N) | O(1) | [Note](#3136-valid-word) |
@@ -1541,6 +1531,16 @@ __builtin_popcount(x)<br>
 
 ---
 
+### 2710. Check if a String Is an Acronym of Words
+> [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)<br>
+> 類似 3856[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) <br>
+> **while (!num.empty() && num.back() == '0'){** <br>
+> &emsp;&emsp;&emsp;&emsp;**num.pop_back();** <br>
+> **}** <br>
+
+
+---
+
 
 ### 3121. Count the Number of Special Characters II
 > [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/)  <br>
@@ -1564,6 +1564,7 @@ __builtin_popcount(x)<br>
 
 ### 3856. Trim Trailing Vowels
 > [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) <br>
+> 類似 [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)<br>
 > while loop檢查 s.back()是不是Vowel，如果是，移除<br>
 > **while (!s.empty() && isVowel(s.back())) {** <br>
 > **&emsp;&emsp;&emsp;&emsp;s.pop_back();** <br>
