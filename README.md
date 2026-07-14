@@ -1231,6 +1231,7 @@ __builtin_popcount(x)<br>
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) | [Note](#2042-check-if-numbers-are-ascending-in-a-sentence) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_2114.cpp) | O(N * M) | O(1) | [Note](#2114-maximum-number-of-words-found-in-sentences) |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | Simulation / String | [C++](./solution/Solution_2243.cpp) | O(N * log N) | O(N) | |
+| 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 Easy | String / Simulation | N/A | O(N * M) | O(1) | [Note](#2255-count-prefixes-of-a-given-string) |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string) | 🟢 Easy | String | [C++](./solution/Solution_2264.cpp) | O(N) | O(1) | [Note](#2264-largest-3-same-digit-number-in-string) |
 | **2460** | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_2460.cpp) | O(N) | O(1) |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String | [C++](./solution/Solution_2490.cpp) | O(N) | O(1) | [Note](#2490-circular-sentence) |
@@ -1353,6 +1354,18 @@ __builtin_popcount(x)<br>
 
 
 ---
+
+
+### 2255. Count Prefixes of a Given String
+> [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)<br>
+> **for(const string& word : words) {**
+> &emsp;&emsp;&emsp;&emsp**if(s.find(word) == 0) count++;**
+> **}**
+
+
+---
+
+
 
 
 ### 2264. Largest 3-Same-Digit Number in String
