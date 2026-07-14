@@ -1243,8 +1243,7 @@ __builtin_popcount(x)<br>
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String / Pattern Matching | [C++](./solution/Solution_3407.cpp) | O(N + M) | O(M) ||
 | 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | String / Block-Skipping | N/A | O(N) | O(1) ||
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_3498.cpp) | O(n) | O(1) | [Note](#3498-reverse-degree-of-a-string) |
-| 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3775.cpp) | O(N*L) | O(N) |
-| 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Processing | [C++](./solution/Solution_3813.cpp) | O(N) | O(1) | |
+
 
 ### 0008. String to Integer (atoi)
 > [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)<br>
@@ -1470,6 +1469,8 @@ __builtin_popcount(x)<br>
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Processing | [C++](./solution/Solution_3121.cpp) | O(N) | O(1) | [Note](#3121-special-chars-ii) | [Note](#3121-count-the-number-of-special-characters-ii) | 
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String / Validation | [C++](./solution/Solution_3136.cpp) | O(N) | O(1) | [Note](#3136-valid-word) |
+| 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3775.cpp) | O(N*L) | O(N) |
+| 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Processing | [C++](./solution/Solution_3813.cpp) | O(N) | O(1) | |
 | 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | String / Two Pointers | N/A | O(N) | O(1) | [Note](#3856-trim-trailing-vowels) |
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3931.cpp) | O(N) | O(1) |
 
