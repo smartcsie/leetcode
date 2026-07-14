@@ -1934,6 +1934,7 @@ __builtin_popcount(x)<br>
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 Easy | Two Pointers / String | [C++](./solution/Solution_2000.cpp) | O(N) | O(1) |
 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_2108.cpp) | O(N * L) | O(1) | [Note](#2108-find-first-palindromic-string-in-the-array) |
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_2562.cpp) | O(N * D) | O(1) | [Note](#2562-find-the-array-concatenation-value) |
+| 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | Two Pointers | N/A | O(N) | O(1) | |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | Two-Pointers | [C++](./solution/Solution_3884.cpp) | O(N) | O(1) | [Note](#3884-first-match) |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3794.cpp) | O(N) | O(1) |
 
