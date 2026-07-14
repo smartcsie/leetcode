@@ -1237,6 +1237,7 @@ __builtin_popcount(x)<br>
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2828.cpp) | O(n) | O(1) | [Note](#2828-check-if-a-string-is-an-acronym-of-words) |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](./solution/Solution_2937.cpp) | O(min(L1, L2, L3)) | O(1) | [Note](#2937-make-three-strings-equal) |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | String Search | [C++](./solution/Solution_2942.cpp) | O(N * L) | O(1) | [Note](#2942-find-words) |
+| 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 Easy | String / Cyclic Shift | N/A | O(N) | O(N) | |
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String Manipulation / Bit Format | [C++](./solution/Solution_3280.cpp) | O(1) | O(1) | |
 | 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 Easy | Simulation / Recursion | [C++](./solution/Solution_3304.cpp) | O(K) | O(K) | [Note](#3304-kth-char) |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String / Pattern Matching | [C++](./solution/Solution_3407.cpp) | O(N + M) | O(M) ||
