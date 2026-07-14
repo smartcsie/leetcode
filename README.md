@@ -1944,6 +1944,7 @@ __builtin_popcount(x)<br>
 | 0541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_0541.cpp) | O(N) | O(1) |
 | 0844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | String <br> Two Pointers | [C++](./solution/Solution_0844.cpp) | O(N+M) | O(1) |
 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 Easy | Array / Two Pointers | [C++](./solution/Solution_1089.cpp) | O(N) | O(1) |
+| 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | String / Two Pointers | N/A | O(N) | O(N) | |
 | 1721 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list) | 🟡 Medium | Linked List <br> Two Pointers | [C++](./solution/Solution_1721.cpp) | O(N) | O(1) |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | 🟢 Easy | String <br> Two Pointers | [C++](./solution/Solution_1768.cpp) | O(N+M) | O(1) |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_2109.cpp) | O(N+M) | O(N+M) |
