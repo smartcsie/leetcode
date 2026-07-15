@@ -1862,6 +1862,7 @@ __builtin_popcount(x)<br>
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array <br> Prefix Sum | [C++](./solution/Solution_0238.cpp) | O(N) | O(1) |
 | 0303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Array <br> Prefix Sum | [C++](./solution/Solution_0303.cpp) | O(N) | O(N) |
 | 0304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array <br> Matrix <br> Prefix Sum | [C++](./solution/Solution_0304.cpp) | O(M * N) 初始化 / O(1) 查詢 | O(M * N) |
+| 0523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | Prefix Sum / Hash Map | [C++](./solution/Solution_0523.cpp) | O(N) | O(min(N, K)) |  |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array <br> Hash Table <br> Prefix Sum | [C++](./solution/Solution_0560.cpp) | O(N) | O(N) |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | Array <br> Prefix Sum | [C++](./solution/Solution_0724.cpp) | O(N) | O(1) |
 | 0930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array <br> Prefix Sum | [C++](./solution/Solution_930.cpp) | O(N) | O(N) |
