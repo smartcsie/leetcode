@@ -13,21 +13,15 @@
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
-        int max_count = 0;
-        int current_count = 0;
-        
-        // 使用範圍迴圈 (Range-based for loop) 提升效能與可讀性
-        for (const int num : nums) {
-            if (num == 1) {
-                current_count++;
-            } else {
-                // 將最大值更新移至重置前，確保連續 1 在陣列末尾時也能正確計算
-                max_count = max(max_count, current_count);
-                current_count = 0;
+        int max_ones = 0;
+        int ones = 0;
+        for(int i = 0; i < nums.size(); i++ ) {
+            if(nums[i] & 1) {
+                if(i > 0 && !(nums[i - 1] & 1)) ones = 1;
+                else ones++;
+                max_ones = max(max_ones, ones);
             }
         }
-        
-        // 最後一次檢查：若陣列以 1 結尾，需要補上最後的比較
-        return max(max_count, current_count);
+        return max_ones;
     }
 };
