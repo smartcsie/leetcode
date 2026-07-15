@@ -1227,6 +1227,7 @@ __builtin_popcount(x)<br>
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 Easy | String | [C++](./solution/Solution_1108.cpp) | O(N) | O(N) | |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1528.cpp) | O(N) | O(N) | [Note](#1528-shuffle-string) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](./solution/Solution_1758.cpp) | O(N) | O(1) | [Note](#1758-minimum-changes-to-make-alternating-binary-string) |
+| 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 Easy | String / Simulation | [C++](./solution/Solution_1790.cpp) | O(N) | O(1) | [Note](#1790-check-if-one-string-swap-can-make-strings-equal) |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 Medium | Stack / String | [C++](./solution/Solution_1910.cpp) | O(N * M) | O(N) | [Note](#1910-remove-all-occurrences-of-a-substring) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) | [Note](#2042-check-if-numbers-are-ascending-in-a-sentence) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_2114.cpp) | O(N * M) | O(1) | [Note](#2114-maximum-number-of-words-found-in-sentences) |
@@ -1321,6 +1322,17 @@ __builtin_popcount(x)<br>
 > **return min(count, static_cast<int>(s.size()) - count);** <br>
 
 ---
+
+
+### 1790. Check if One String Swap Can Make Strings Equal
+> [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)<br>
+> 找出限定一個character swap，兩字串能否相等<br>
+> 如果兩字串長度不一樣，return false<br>
+> 直接比較兩字串相同index之character，放入vector<pair<char, char>> diff;<br>
+> 比較期間，如果diff大小超過2，表示無法緊用一次swap，return false<br>
+> 最後產生兩種結果，一種是兩字串已經相等，一種是((diff.size() == 2) && (diff[0].first == diff[1].second) && (diff[0].second == diff[1].first));<br>
+---
+
 
 ### 1910. Remove All Occurrences of a Substring
 > [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)<br>
