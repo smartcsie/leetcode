@@ -16,13 +16,12 @@ public:
     bool areAlmostEqual(string s1, string s2) {
         vector<pair<char, char>> diff;
         if(s1.size() != s2.size()) return false;
+        if(s1 == s2)  return true;
         for(int i = 0; i < s1.size(); i++) {
             if(s1[i] != s2[i]) diff.push_back({s1[i], s2[i]});
             if(diff.size() > 2) return false;
         }
-        if(diff.size() == 0)  return true;
-        return ((diff.size() == 2) && 
-                (diff[0].first == diff[1].second) && 
-                (diff[0].second == diff[1].first));
+        if(diff.size() == 1) return false;
+        return (diff[0].first == diff[1].second) && (diff[0].second == diff[1].first);
     }
 };
