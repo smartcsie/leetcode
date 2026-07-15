@@ -2697,6 +2697,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy / Hashing | [C++](./solution/Solution_2815.cpp) | O(N * D) | O(1) | [Note](#2815-max-pair-sum-in-an-array) |
 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_2864.cpp) | O(N) | O(1) | |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array <br> Greedy <br> Bit Manipulation | [C++](./solution/Solution_3011.cpp) | O(N) | O(1) | 
+| 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | Greedy / String | N/A | O(N) | O(1) | [Note](#3216-lexicographically-smallest-string-after-a-swap) |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) | 🟢 Easy | Math / Greedy | [C++](./solution/Solution_3536.cpp) | O(log N) | O(1) | [Note](#3536-maximum-product-of-two-digits)|
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_3798.cpp) | O(N) | O(1) |
 
@@ -2778,6 +2779,21 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > travsal maxDigit 0~9;，如果max和第二max都在，second~=-1，相加後，如果比res大，更新到res<br>
 > <br>
 ---
+
+### 3216. Lexicographically Smallest String After a Swap
+> [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/)<br>
+> 前後兩個character找到相同parity且前面character比較大，做swap<br>
+> **for(int i = 1; i < s.size(); i++) {** <br>
+> &emsp;&emsp;&emsp;&emsp;**if((s[i-1] & 1) == (s[i] & 1) && s[i-1] > s[i]) {** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**swap(s[i], s[i-1]);** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**break;** <br>
+> &emsp;&emsp;&emsp;&emsp;**}** <br>
+> **}** <br>
+
+---
+
+
+
 
 ### 3536. Maximum Product of Two Digits
 > [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) <br>
