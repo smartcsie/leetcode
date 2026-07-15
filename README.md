@@ -2125,6 +2125,7 @@ __builtin_popcount(x)<br>
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_3005.cpp) | O(n) | O(1) |
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 Easy | Hash Table / Bit Manipulation | [C++](./solution/Solution_3289.cpp) | O(N) | O(1) | |
 | 3438 | Find Valid Pair of Adjacent Digits in String | 🟢 Easy | String / Hash Map | [C++](./solution/Solution_3438.cpp) | O(N) | O(1) | |
+| 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | String / Hash Map | [C++](./solution/Solution_3442.cpp) | O(N) | O(1) | [Note](#3442-max-diff-note) |
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | Hash Table <br> Frequency Counting | [C++](./solution/Solution_3541.cpp) | O(N) | O(1) |
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table <br> Frequency Counting | [C++](./solution/Solution_3663.cpp) | O(log N) | O(1) |
 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_3843.cpp) | O(N) | O(N) | [Note](#3843-first-element-with-unique-frequency) |
