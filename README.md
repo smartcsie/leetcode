@@ -1874,6 +1874,7 @@ __builtin_popcount(x)<br>
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Prefix Sum / Math | [C++](./solution/Solution_2256.cpp) | O(N) | O(1) | |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | Array <br> Prefix Sum | [C++](./solution/Solution_2559.cpp) | O(N + Q) | O(N) |
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array <br> Prefix Sum | [C++](./solution/Solution_2574.cpp) | O(N) | O(N) | 
+| 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | Prefix Sum / Math | [C++](./solution/Solution_3432.cpp) | O(N) | O(N) | [Note](#3432-partition-note) |
 
 <br><br>
 ---
