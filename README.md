@@ -1746,6 +1746,7 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡&nbsp;Medium | Array | [C++](./solution/Solution_0048.cpp) | O(n²) | O(1) | [Note](#0048-rotate-image) |
 | 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | Array <br> Matrix | [C++](./solution/Solution_0073.cpp) | O(M*N) | O(1) | [Note](#0073-set-matrix-zeros) |
+| 0832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 Easy | Array / Two Pointers | [C++](./solution/Solution_0832.cpp) | O(N * M) | O(1) | |
 | 0867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 Easy | Matrix | [C++](./solution/Solution_0867.cpp) | O(M*N) | O(M*N) |[Note](#0867-tranpose-matrix) |
 | 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 Easy | Array / Math | [C++](./solution/Solution_1252.cpp) | O(K + MN) | O(M + N) | |
 | **1582** | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 Easy | Array <br> Matrix | [C++](./solution/Solution_1582.cpp) | O(m * n) | O(m + n) |
