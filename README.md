@@ -2077,6 +2077,7 @@ __builtin_popcount(x)<br>
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0905.cpp) | O(n) | O(1) |
 | 0922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0922.cpp) | O(n) | O(1) |
 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_3467.cpp) | O(N) | O(1) | [Note](#3467-transform-array-by-parity) |
+| 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two-Pointer | [C++](./solution/Solution_3823.cpp)  | O(N) | O(1) | [Note](#3823-reverse-note) |
 
 
 ### 3467. Transform Array by Parity
