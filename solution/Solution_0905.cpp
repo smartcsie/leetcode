@@ -31,10 +31,8 @@ public:
             }
             // 此時 left 停在一個奇數，right 停在一個偶數
             if (left < right) {
-                swap(nums[left], nums[right]);
+                swap(nums[left++], nums[right--]);
                 // 交換後，這兩個位置都已經正確，可以手動縮小範圍（可寫可不寫）
-                left++;
-                right--;
             }
         }
         return nums;
