@@ -1699,11 +1699,19 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
-## <a name="array-continuous-counting"></a>🍱 Array - Continuous counting (陣列 連續計數)
+## <a name="array-continuous-counting"></a>🍱 Array - Continuous Counting (陣列 連續計數)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | String | [C++](./solution/Solution_1446.cpp) | O(N) | O(1) | 利用單次掃描記錄當前連續字元長度並更新最大值，有效解決連續模式查找問題 |
+
+<br><br>
+---
+
+## <a name="array-continuous-counting"></a>🍱 Array - Dual Counter Switch (陣列 雙計數切換)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 2609 | [Find the Longest Balanced Substring](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 🟢 Easy | Greedy / Two Counters | N/A | O(N) | O(1) | |
 
 <br><br>
 ---
