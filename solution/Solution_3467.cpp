@@ -19,7 +19,7 @@ public:
         while(left < right) {
             while(left < right && ((nums[left] & 1) == 0)) left++;
             while(left < right && ((nums[right] & 1) == 1)) right--;
-            if(left < right) swap(nums[left], nums[right]);
+            if(left < right) swap(nums[left++], nums[right--]);
         }
         for(int& num : nums) {
             num &= 1;
