@@ -1730,6 +1730,7 @@ __builtin_popcount(x)<br>
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array | [C++](./solution/Solution_2239.cpp) | O(N) | O(1) |
 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 Easy | Matrix / Linear Scan | [C++](./solution/Solution_2643.cpp) | O(M * N) | O(1) |  |
 | 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 Easy | Math / Array | [C++](./solution/Solution_2733.cpp) | O(N) | O(1) |  |
+| 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 Easy | Simulation | [C++](./solution/Solution_3168.cpp) | O(N) | O(1) | |
 | 3861 | [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/) | 🟢 Easy | Array / Linear Search | [C++](./solution/Solution_3861.cpp) | O(N) | O(1) | [Note](#3861-min-capacity) |
 
 <br><br>
