@@ -1,31 +1,28 @@
 /**
- * 題目：897. Increasing Order Search Tree
- * 描述：重新排列二元搜尋樹，使其成為一個遞增的單鏈樹 (只有右子節點)。
+ * 題目：1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+ * 描述：在兩棵結構完全相同的樹中，找到原樹 target 節點在複製樹中的對應位置。
  * 
  * 解法思路：
- * 1. 使用中序遍歷 (In-order Traversal)。
- * 2. 遞迴函數 `inorder(root, pre)`：
- *    - `pre` 代表當前節點處理完後，右側應該連接的後繼節點。
- *    - 在處理每個節點時，將其 `left` 指向 `nullptr`，並將其 `right` 指向遞迴返回的結果。
+ * 1. 同步遍歷兩棵樹 (original 與 cloned)。
+ * 2. 遞迴終止條件：若 original 為空則返回 nullptr；若找到 target 則返回 cloned 當前節點。
+ * 3. 利用遞迴回傳機制：若左子樹找到結果則直接回傳，否則返回右子樹的搜尋結果。
  */
 
-class Solution {
-    // 遞迴函數：回傳轉換後的子樹之頭節點，pre 為右側後繼節點
-    TreeNode* inorder(TreeNode* root, TreeNode* pre) {
-        if (!root) return pre;
-        
-        // 處理左子樹，並將當前節點作為該左子樹的後繼
-        TreeNode* res = inorder(root->left, root);
-        
-        // 切斷左鏈，將右側連接到右子樹遞迴處理後的結果
-        root->left = nullptr;
-        root->right = inorder(root->right, pre);
-        
-        return res;
-    }
 
+
+class Solution {
 public:
-    TreeNode* increasingBST(TreeNode* root) {
-        return inorder(root, nullptr);
+    TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target) {
+        // 1. 基本終止條件
+        if (!original) return nullptr;
+        
+        // 2. 找到目標：原樹與 target 指標相等時，即為解答
+        if (original == target) return cloned;
+        
+        // 3. 遞迴遍歷：同時走訪兩棵樹的左子樹與右子樹
+        TreeNode* left = getTargetCopy(original->left, cloned->left, target);
+        if (left) return left; // 若左側已找到則提前返回
+        
+        return getTargetCopy(original->right, cloned->right, target);
     }
 };
