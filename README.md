@@ -1769,6 +1769,7 @@ __builtin_popcount(x)<br>
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | Array | [C++](./solution/Solution_1886.cpp) | O(n²) | O(1) |[Note](#1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | Array <br> Matrix <br> Simulation | [C++](./solution/Solution_2022.cpp) | O(m*n) | O(1) | [Note](#2022-convert-1d-array-into-2d-array) |
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | Simulation <br> Array | [C++](./solution/Solution_3142.cpp)  | O(M * N) | O(1) | [Note](#3142-grid-note) |
+| 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | Simulation | [C++](./solution/Solution_3417.cpp) | O(M * N) | O(M * N) | [Note](#3417-zigzag-note) |
 
 ### 0048. Rotate Image
 > [Rotate Image](https://leetcode.com/problems/rotate-image/)<br>
