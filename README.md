@@ -1468,6 +1468,14 @@ __builtin_popcount(x)<br>
 <br><br>
 ---
 
+## <a name="string-state-machine"></a>🔗 String - State Machine (字串 有限狀態機)
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| **0065** | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 Hard | String / State Machine | [C++](./solution/Solution_0065.cpp) | O(N) | O(1) | |
+
+<br><br>
+---
+
+
 ## <a name="string-substring-enumeration"></a>🔗 String - Substring Enumeration (字串 子字串列舉)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
