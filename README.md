@@ -533,6 +533,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](./solution/Solution_0007.cpp) | O(logn) | O(1) | [Note](#0007-reverse-integer) |
+| 0168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math / Base Conversion | [C++](./solution/Solution_0168.cpp) | O(log26 N) | O(1) |  |
 | 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0504.cpp) | O(log₇N) | O(1) | [Note](#0504-base-7) |
 | 0728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Simulation | [C++](./solution/Solution_0728.cpp) | O(N*D) | O(1) | [Note](#0728-self-dividing-numbers) |
 | 0868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_868.cpp) | O(log N) | O(1) | [Note](#0868-binary-gap) |
