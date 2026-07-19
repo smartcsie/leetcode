@@ -2331,6 +2331,7 @@ __builtin_popcount(x)<br>
 | 0316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | Stack <br> Greedy <br> String | [C++](./solution/Solution_0316.cpp) | O(N) | O(1) |
 | 0445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Linked List <br> Stack | [C++](./solution/Solution_0445.cpp) | O(N + M) | O(N + M) |
 | 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Array <br> Stack <br> Simulation | [C++](./solution/Solution_0682.cpp) | O(N) | O(N) |
+| 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | Stack / Counter | [C++](./solution/Solution_1021.cpp) | O(N) | O(1) | [Note](#1021-outer-note) |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 Easy | String <br> Stack | [C++](./solution/Solution_1047.cpp) | O(n) | O(n) |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 Medium | String <br> Stack | [C++](./solution/Solution_1209.cpp) | O(n) | O(n) |
 | 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 Easy | String <br> Stack | [C++](./solution/Solution_1544.cpp) | O(N) | O(N) |
