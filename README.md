@@ -2152,6 +2152,7 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table <br> String | [C++](./solution/Solution_0049.cpp) | O(N*K) | O(N*K) | 
+| 0697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 Easy | Hash Map / One-pass |  [C++](./solution/Solution_0697.cpp) | O(N) | O(N) | |
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Set <br> String | [C++](./solution/Solution_0771.cpp) | O(J + S) | O(J) |
 | 0819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | String <br> Hash Table | [C++](./solution/Solution_0819.cpp)| O(M + N) | O(M + N) | |
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 Easy | Frequency Count | [C++](./solution/Solution_1160.cpp)  | O(N) | O(1) |
