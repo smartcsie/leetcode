@@ -2308,6 +2308,7 @@ __builtin_popcount(x)<br>
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table <br> Sliding Window | [C++](./solution/Solution_0219.cpp) | O(n) | O(min(n,k)) |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0349.cpp) | O(n+m) | O(n) |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0350.cpp) | O(n+m) | O(min(n,m)) |
+| 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | Hash Table / Array | [C++](./solution/Solution_0599.cpp) | O(N + M) | O(N) | |
 | 0705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | 🟢 Easy | Hash Table <br> Design | [C++](./solution/Solution_0705.cpp) | O(1) | O(N) |
 | **0706** | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Hash Table / Linked List | [C++](./solution/Solution_0706.cpp) | O(N/K) | O(M+K) | [Note](#706-hashmap-note) |
 | 0888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Set / Math | [C++](./solution/Solution_0888.cpp) | O(A + B) | O(B) | |
