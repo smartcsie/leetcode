@@ -1891,6 +1891,7 @@ __builtin_popcount(x)<br>
 | 0744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | 🟢 Easy | Binary Search | [C++](./solution/Solution_0744.cpp) | O(logN) | O(1) |
 | **1170** | [Compare Strings by Frequency](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | 🟡 Medium | Sorting / Binary Search | [C++](./solution/Solution_1170.cpp) | O(NlogN + MlogN) | O(N) | |
 | 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | 🟢 Easy | Binary Search | [C++](./solution/Solution_1539.cpp) | O(log N) | O(1) |
+| **1818** | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | Binary Search / Greedy | [C++](./solution/Solution_1818.cpp) | O(N log N) | O(N) |  |
 | 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | 🟡 Medium | BST / Binary Search | [C++](./solution/Solution_2476.cpp) | O(N+QlogN) | O(N) |
 
 ### 0034. Find First and Last Position of Element in Sorted Array
