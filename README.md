@@ -559,7 +559,7 @@ __builtin_popcount(x)<br>
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | Brute Force / Digit Manipulation | [C++](./solution/Solution_3345.cpp) | O(K × D) | O(1) | [Note](#3345-smallest-divisible-digit-product-i) |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_3622.cpp) | O(log N) | O(1) | |
-| 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math / Digit Extraction | O(log N) | O(log N) | [Note](#3697-compute-decimal-representation) | [Note](#3726-remove-zeros-in-decimal-representation)|
+| 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math / Digit Extraction | O(log N) | O(logN) | [Note](#3697-compute-decimal-representation) | [Note](#3726-remove-zeros-in-decimal-representation)|
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math / Digit Extraction | [C++](./solution/Solution_3726.cpp) | O(log N) | O(1) |  |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](./solution/Solution_3895.cpp) | O(N × D) | O(1) | [Note](#3895-count-digit-appearances) |
 | 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math <br> Digit Manipulation | [C++](./solution/Solution_3908.cpp) | O(log N) | O(1) | [Note](#3908-valid-digit-number) |
@@ -751,7 +751,7 @@ __builtin_popcount(x)<br>
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math / Trial Division | [C++](./solution/Solution_2614.cpp) | O(N * sqrt(M)) | O(1) | [Note](#2614-prime-in-diagonal) |
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math <br> Sieve | [C++](./solution/Solution_2761.cpp) | O(NloglogN) | O(N) | [Note](#2761-prime-pairs-with-target-sum)|
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3591.cpp) | O(N + Kloglog K) | O(K) | [Note](#3591-check-if-any-element-has-prime-frequency) |
-| 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | Math / Sieve | [C++](./solution/Solution_3618.cpp) | O(N + R log log R) | O(R) | [Note](#3618-split-array-by-prime-indices) |
+| 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | Math / Sieve | [C++](./solution/Solution_3618.cpp) | O(N + RloglogR) | O(R) | [Note](#3618-split-array-by-prime-indices) |
 | 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | Math / Prime Number | [C++](./solution/Solution_3765.cpp) | O(D * sqrt(N)) | O(D) | [Note](#3765-complete-prime-number) |
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math / Prefix Sum | [C++](./solution/Solution_3770.cpp) | O(R log log R) | O(R) | [Note](#3770-largest-prime-from-consecutive-prime-sum) |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math / Sieve | [C++](./solution/Solution_3918.cpp) | O(R log log R) | O(R) | [Note](#3918-sum-of-primes-between-number-and-its-reverse) |
@@ -2528,7 +2528,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ## <a name="trie"></a>🔗 Trie (前綴樹)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie | [C++](./solution/Solution_0648_1.cpp) | O(N * L) | O(M * L) |  |
+| 0648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie | [C++](./solution/Solution_0648_1.cpp) | O(N * L) | O(M * L) |  |
 
 
 ## <a name="dfs-bfs"></a>🌳 DFS、BFS (深度搜尋、廣度搜尋)
@@ -2662,6 +2662,8 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | **0926** | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_0926.cpp) | O(N) | O(1) | |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | DP <br> Math | [C++](./solution/Solution_1137.cpp) | O(N) | O(1) |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | String | [C++](./solution/Solution_1668.cpp) | O(N*M²) | O(M) |
+| 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | Dynamic Programming / Hash Set | [C++](./solution/Solution_2707.cpp) | O(N³ + M*L) | O(N + M * L) | |
+
 
 ### 0063. Unique Paths II
 > [Unique Paths II](https://leetcode.com/problems/unique-paths-ii)<br>
@@ -2730,7 +2732,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | DP <br> Bit Manipulation | [C++](./solution/Solution_0416.cpp) | O(N * S/W) | O(S/W) |
-| 0474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | DP <br> 0-1 Knapsack | [C++](./solution/Solution_0474.cpp) | O(L * m * n) | O(m * n) |
+| 0474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | DP <br> 0-1 Knapsack | [C++](./solution/Solution_0474.cpp) | O(L m*n) | O(m * n) |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | DP <br> 0-1 Knapsack | [C++](./solution/Solution_0494.cpp) | O(N * S) | O(S) |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | DP <br> 0-1 Knapsack | [C++](./solution/Solution_1049.cpp) | O(N * S) | O(S) |
 <br><br>
@@ -2741,10 +2743,10 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | DP <br> Unbounded Knapsack (Permutation) | [C++](./solution/Solution_0070.cpp) | O(N) | O(N) |
-| 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0279.cpp) | O(N * √N) | O(N) |
+| 0279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0279.cpp) | O(N*√N) | O(N) |
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0322.cpp) | O(A * N) | O(A) |
 | 0377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium |  DP <br> Unbounded Knapsack (Permutation | [C++](./solution/Solution_0377.cpp) | O(A * N) | O(A) |
-| 0518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0518.cpp) | O(N * A) | O(A) |
+| 0518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP <br> Unbounded Knapsack | [C++](./solution/Solution_0518.cpp) | O(N*A) | O(A) |
 | 0139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | DP  <br> Unbounded Knapsack | [C++](./solution/Solution_0139.cpp) | O(N³) | O(N) | 
 
 > [!NOTE]
@@ -2798,7 +2800,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy / Partition by Parity | [C++](./solution/Solution_2231.cpp) | O(D log D) | O(D) | [Note](#2231-largest-number-after-digit-swaps-by-parity) |
 | 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_2259.cpp) | O(N) | O(N) | |
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy / Sorting | [C++](./solution/Solution_2578.cpp) | O(NlogN) | O(N) | [Note](#2578-split-with-minimum-sum)|
-| 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy / Hashing | [C++](./solution/Solution_2815.cpp) | O(N * D) | O(1) | [Note](#2815-max-pair-sum-in-an-array) |
+| 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy / Hashing | [C++](./solution/Solution_2815.cpp) | O(N*D) | O(1) | [Note](#2815-max-pair-sum-in-an-array) |
 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_2864.cpp) | O(N) | O(1) | |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array <br> Greedy <br> Bit Manipulation | [C++](./solution/Solution_3011.cpp) | O(N) | O(1) | 
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | Greedy / String |  [C++](./solution/Solution_3114.cpp) | O(1) | O(1) |  |
@@ -2924,7 +2926,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0079 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | DFS / Backtracking | [C++](./solution/Solution_0079.cpp) | O(N*3ᴸ) | O(L) |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Backtracking / Sorting | [C++](./solution/Solution_0090.cpp) | O(N*2ᴺ) | O(N) |
 | 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0216.cpp) | O(C(9, k)) | O(k) |
-| 0784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0784.cpp) | O(2^N) | O(N) | [Note](#0784-letter-case-permutation) |
+| 0784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | Backtracking | [C++](./solution/Solution_0784.cpp) | O(2ᴺ) | O(N) | [Note](#0784-letter-case-permutation) |
 
 
 ### 0017. Letter Combinations of a Phone Number
