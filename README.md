@@ -1112,6 +1112,8 @@ __builtin_popcount(x)<br>
 | 0201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0201.cpp) | O(logn) | O(1) | [Note](#0201-bitwise-and-of-numbers-range)|
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | DP <br> Bit Manipulation | [C++](./solution/Solution_0338.cpp) | O(n) | O(n) | [Note](#0338-counting-bits) |
 | 0693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0693.cpp) | O(1) | O(1) | [Note](#0693-binary-number-with-alternating-bits) |
+| 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | Bit Manipulation / Greedy / Array | [C++](./solution/Solution_2419.cpp) | O(N) | O(1) | |
+
 
 ### 0191 Number of 1 Bits
 > [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)<br>
