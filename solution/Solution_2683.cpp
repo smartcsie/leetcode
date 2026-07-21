@@ -14,13 +14,6 @@
 class Solution {
 public:
     bool doesValidArrayExist(std::vector<int>& derived) {
-        bool ans = true; // 初始布林值代表累積的 XOR 結果為 0 (false 的反向或直接用 int 亦可)
-        
-        for (const int& bit : derived) {
-            ans ^= bit; // 持續進行 XOR 運算
-        }
-        
-        // 若最後 ans 為 true（等同於最終 XOR 結果為 0），代表合法
-        return ans;
+        return !reduce(derived.begin(), derived.end(), 0, bit_xor<int>());
     }
 };
