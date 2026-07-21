@@ -18,10 +18,6 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int res = 0;
-        for(int num: nums) {
-            res ^= num;
-        }
-        return res;
+        return reduce(nums.begin(), nums.end(), 0 , bit_xor<int>());
     }
 };
