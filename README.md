@@ -1149,6 +1149,7 @@ __builtin_popcount(x)<br>
 | 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) | O(n) | O(1) | [Note](#0136-single-number) |
 | **0260** | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) | [Note](#0260-single-number-iii)
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 Easy | Simulation / Bit Manipulation | [C++](./solution/Solution_1486.cpp) | O(N) | O(1) |  |
 | **2317** | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp) | O(n) | O(1) | [Note](#2317-maximum-xor-after-operations) |
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2425.cpp) | O(N + M) | O(1) | [Note](#2425-bitwise-xor-of-all-pairings) |
 | 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | Bit Manipulation / Greedy | [C++](./solution/Solution_2429.cpp) | O(1) | O(1) | [Note](#2429-minimize-xor) |
