@@ -17,20 +17,15 @@
 
 class Solution {
 public:
-    int largestCombination(std::vector<int>& candidates) {
-        int bits = 24; // 題目數字上限 10^7 大約在 2^24 以內
+    int largestCombination(vector<int>& candidates) {
         int ans = 0;
-        // 枚舉每一個二進位位元
-        for (int i = 0; i <= bits; i++) {
+        for(int i = 0; i < 24; i++) {
             int count = 0;
-            // 計算當前位元為 1 的數字個數
-            for (const int& num : candidates) {
-                if ((num >> i) & 1) {
-                    count++;
-                }
+            for(int num : candidates) {
+                num >>= i;
+                count += num & 1;
             }
-            // 更新最大組合大小
-            ans = std::max(ans, count);
+            ans = max(ans, count);
         }
         return ans;
     }
