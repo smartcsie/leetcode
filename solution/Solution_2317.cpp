@@ -21,11 +21,6 @@
 class Solution {
 public:
     int maximumXOR(vector<int>& nums) {
-        int res = 0;
-        // 只要陣列中任意數的位元為 1，OR 操作就會保留該位元
-        for (int num : nums) {
-            res |= num;
-        }
-        return res;
+        return reduce(nums.begin(), nums.end(), 0 , bit_or<int>());
     }
 };
