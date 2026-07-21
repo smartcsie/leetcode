@@ -26,10 +26,7 @@ public:
             return 0;
         }
         
-        int mask = 0;
-        for (int num : nums) {
-            mask ^= num;
-        }
+        int mask = reduce(nums.begin(), nums.end(), 0, bit_xor<int>());
         
         // 2. 若全體 XOR 不為 0，直接拿全部；若為 0，拿掉一個元素即可
         return (mask != 0) ? nums.size() : nums.size() - 1;
