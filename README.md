@@ -887,6 +887,7 @@ __builtin_popcount(x)<br>
 | **2235** | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2235.cpp) | O(1) | O(1) | [Note](#2235-add-two-integers) |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Hash Set <br> Bit Manipulation | [C++](./solution/Solution_2716.cpp) | O(N) | O(1) | [Note](#2716-minimize-string-length) |
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 Easy | Bit Manipulation / Built-in Function |  [C++](./solution/Solution_2859.cpp)  | O(N) | O(1) | [Note](#2859-set-bits-note) |
+| 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Array / Hash Table / Bitset | [C++](./solution/Solution_2956.cpp) | O(N + M) | O(1)* |  |
 | 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3019.cpp) | O(N) | O(1) | |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3120.cpp) | O(N) | O(1) | [Note](#3120-special-chars) |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) | [Note](#3151-special-array-i) |
