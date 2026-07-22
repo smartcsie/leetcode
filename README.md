@@ -498,6 +498,7 @@ __builtin_popcount(x)<br>
 | 0415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | String / Math | [C++](./solution/Solution_0415.cpp) | O(max(N, M)) | O(max(N, M)) | [Note](#0415-add-strings) |
 | 0989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Simulation / Carry Propagation | [C++](./solution/Solution_0989.cpp) | O(max(N, log K)) | O(max(N, log K)) | |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | Math / GCD | [C++](./solution/Solution_1979.cpp) | O(N) | O(1) | |
+| 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 Easy | Array / Simulation | [C++](./solution/Solution_2293.cpp) | O(N) | O(N) |  |
 | 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 Easy | Logic Control | [C++](./solution/Solution_3894.cpp) | O(1) | O(1) |  |
 
 
