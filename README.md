@@ -2284,6 +2284,7 @@ __builtin_popcount(x)<br>
 | 0804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | 🟢 Easy | Hash Set | [C++](./solution/Solution_0804.cpp) | O(S) | O(S) | [Note](#0804-unique-morse-code-words) |
 | 0884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0884.cpp) | O(N + M) | O(N + M) |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Array <br> Hash Table <br> String | [C++](./solution/Solution_1002.cpp) | O(N*K) | O(1) |
+| 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | 🟢 Easy | Hash Table / String Parsing | [C++](./solution/Solution_1309.cpp)  | O(N) | O(1) | |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_1436.cpp) | O(N) | O(N) |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Map | [C++](./solution/Solution_1640.cpp) | O(N) | O(N) | [Note](#1640-check-array-formation-through-concatenation) |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array <br> Hash Table <br> Bitset | [C++](./solution/Solution_2133.cpp) | O(n²) | O(n) |
