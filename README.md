@@ -564,6 +564,7 @@ __builtin_popcount(x)<br>
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_3622.cpp) | O(log N) | O(1) | |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math / Digit Extraction | O(log N) | O(logN) | [Note](#3697-compute-decimal-representation) | [Note](#3726-remove-zeros-in-decimal-representation)|
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math / Digit Extraction | [C++](./solution/Solution_3726.cpp) | O(log N) | O(1) |  |
+| 3783 | Mirror Distance of an Integer | 🟢 Easy | Math / Simulation | [C++](./solution/Solution_3783.cpp) | O(log10(N)) | O(1) |  |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](./solution/Solution_3895.cpp) | O(N × D) | O(1) | [Note](#3895-count-digit-appearances) |
 | 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math <br> Digit Manipulation | [C++](./solution/Solution_3908.cpp) | O(log N) | O(1) | [Note](#3908-valid-digit-number) |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math | [C++](./solution/Solution_3945.cpp) | O(logN) | O(1) | [Note](#3945-digit-frequency-score) |
