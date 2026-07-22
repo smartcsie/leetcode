@@ -467,6 +467,7 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **0507** | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0507.cpp) | O(√N) | O(1) | [Note](#0507-perfect-number) |
 | **1492** | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | Math | [C++](./solution/Solution_1492.cpp) | O(√N) | O(1) |  [Note](#1492-the-kth-factor-of-n)|
+| 2169 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | 🟢 Easy | Euclidean Algorithm / Simulation | [C++](./solution/Solution_2169.cpp)  | O(log(min(num1, num2))) | O(1) ||
 | **2507** | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 Medium | Math / Prime Factorization | [C++](./solution/Solution_2507.cpp) | O(log N * sqrt(N)) | O(1) ||
 
 ### 0507 Perfect Number
