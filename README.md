@@ -1165,6 +1165,7 @@ __builtin_popcount(x)<br>
 | 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) | O(n) | O(1) | [Note](#0136-single-number) |
 | **0260** | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) | [Note](#0260-single-number-iii)
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
+| **0477** | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Math / Bit Manipulation / Array | [C++](./solution/Solution_477.cpp) | O(31 * N) | O(1) | [Note](#477-hamming-distance-note) |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 Easy | Simulation / Bit Manipulation | [C++](./solution/Solution_1486.cpp) | O(N) | O(1) |  |
 | 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 Easy | Bit Manipulation / Simulation | [C++](./solution/Solution_1720.cpp)| O(N) | O(N) | |
 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | Bit Manipulation / Math / Combinatorics | [C++](./solution/Solution_1863.cpp)  | O(N) | O(1) |  |
