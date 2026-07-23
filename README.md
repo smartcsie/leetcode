@@ -2015,6 +2015,7 @@ __builtin_popcount(x)<br>
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 Easy | Linked List <br> Fast-Slow Pointers | [C++](./solution/Solution_0876.cpp) | O(n) | O(1) |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | Linked List <br> Fast-Slow Pointers | [C++](./solution/Solution_2095.cpp) | O(N) | O(1) |
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | Linked List <br> Two Pointers | [C++](./solution/Solution_2130.cpp) | O(N) | O(1) |
+| 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | Array / Two Pointers / Sorting | [C++](./solution/Solution_2824.cpp) | O(N²) | O(1) | |
 
 > [!NOTE]
 > **Floyd's Cycle Detection(龜兔賽跑)** 偵測環
