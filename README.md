@@ -1172,6 +1172,7 @@ __builtin_popcount(x)<br>
 | 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | Bit Manipulation / Greedy | [C++](./solution/Solution_2429.cpp) | O(1) | O(1) | [Note](#2429-minimize-xor) |
 | 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2683.cpp)  | O(N) | O(1) |  |
 | 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | Bit Manipulation / Array | [C++](./solution/Solution_3158.cpp) | O(N) | O(1) | |
+| 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Math / Bit Manipulation / Brainteaser | [C++](./solution/Solution_3513.cpp) | O(log N) | O(1) ||
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 Medium | Bit Manipulation / Greedy | [C++](./solution/Solution_3702.cpp) | O(N) | O(1) | [Note](#3702-longest-subsequence-with-non-zero-bitwise-xor) |
 
 ### 0136 Single Number
