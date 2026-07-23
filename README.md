@@ -165,6 +165,7 @@ __builtin_popcount(x)<br>
 | **0970**| [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math / Hash Table | [C++](./solution/Solution_0970.cpp) | O(log_x(bound) * log_y(bound)) | O(S) | |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | Modular Arithmetic | [C++](./solution/Solution_1015.cpp) | O(K) | O(1) | [Note](#1015-smallest-integer-divisible-by-k) |
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math / Modulo | [C++](./solution/Solution_1018.cpp) | O(N) | O(1) | [Note](#1018-binary-prefix-divisible-by-5) |
+| 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | 🟢 Easy | Geometry / Math | [C++](./solution/Solution_1232.cpp) | O(N) | O(1) | |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1295.cpp) | O(N) | O(1) | [Note](#1295-find-numbers-with-even-number-of-digits) |
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](./solution/Solution_1344.cpp) | O(1) | O(1) | [Note](#1344-angle-clock) |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 Easy | Math | [C++](./solution/Solution_1523.cpp)| O(1) | O(1) | [Note](#1523-count-odds) |
