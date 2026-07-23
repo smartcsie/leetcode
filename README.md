@@ -2202,6 +2202,7 @@ __builtin_popcount(x)<br>
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Set <br> String | [C++](./solution/Solution_0771.cpp) | O(J + S) | O(J) |
 | 0819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | String <br> Hash Table | [C++](./solution/Solution_0819.cpp)| O(M + N) | O(M + N) | |
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 Easy | Frequency Count | [C++](./solution/Solution_1160.cpp)  | O(N) | O(1) |
+| 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | Hash Table / String / Counting | [C++](./solution/Solution_1189.cpp) | O(N) | O(1)* ||
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_1207.cpp) | O(N) | O(N) |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 Easy | Array <br> Hash Table <br> Counting | [C++](./solution/Solution_1394.cpp) | O(N) | O(1) |
 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_1460.cpp) | O(N) | O(K) |
