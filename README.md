@@ -2714,6 +2714,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | **0898** | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | Bit Manipulation / Dynamic Programming | [C++](./solution/Solution_0898.cpp) | O(N * 30) | O(N * 30) | [Note](#898-bitwise-ors-note) |
 | **0926** | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_0926.cpp) | O(N) | O(1) | |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | DP <br> Math | [C++](./solution/Solution_1137.cpp) | O(N) | O(1) |
+| 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 Medium | Matrix / Dynamic Programming | [C++](./solution/Solution_1277.cpp) | O(M * N) | O(1)* |  |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | String | [C++](./solution/Solution_1668.cpp) | O(N*M²) | O(M) |
 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | Dynamic Programming / Hash Set | [C++](./solution/Solution_2707.cpp) | O(N³ + M*L) | O(N + M * L) | |
 
