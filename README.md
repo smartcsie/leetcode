@@ -3088,6 +3088,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 Medium | Array <br> Sliding Window <br> Binary Search | [C++](./solution/Solution_0209.cpp) | O(N) | O(1) |
 | 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | 🟡 Medium | Sliding Window / Hash Table | [C++](./solution/Solution_0424.cpp) | O(N) | O(1) |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | 🟡 Medium | Sliding Window | [C++](./solution/Solution_1004.cpp) | O(N) | O(1) |
+| 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | 🟡 Medium | Array / Two Pointers / Sliding Window | [C++](./solution/Solution_1248.cpp) | O(N) | O(1) | 
 | 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | Sliding Window | [C++](./solution/Solution_1358.cpp) | O(N) | O(1) |
 | 2062 | [Count Vowel Substrings](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) | 🟢 Easy | Sliding Window / Math | [C++](./solution/Solution_2062.cpp) | O(N) | O(1) | |
 
