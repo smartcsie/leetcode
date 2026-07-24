@@ -549,7 +549,7 @@ __builtin_popcount(x)<br>
 | 0504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_0504.cpp) | O(log₇N) | O(1) | [Note](#0504-base-7) |
 | 0728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Simulation | [C++](./solution/Solution_0728.cpp) | O(N*D) | O(1) | [Note](#0728-self-dividing-numbers) |
 | 0868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_868.cpp) | O(log N) | O(1) | [Note](#0868-binary-gap) |
-| 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math | [C++](./solution/Solution_1017.cpp) | O(logN) | O(1) | [Note](#1017-convert-to-base-2) |
+| 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math | [C++](./solution/Solution_1017.cpp) | O(logN) | O(1) | |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_1281.cpp) | O(log N) | O(1) ||
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 Easy | Math / Simulation | [C++](./solution/Solution_1317.cpp) | O(N*log N) | O(1) | |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 Easy | Math / Simulation / Hash Table | [C++](./solution/Solution_1742.cpp) | O(N * D) | O(1)* | |
@@ -565,7 +565,7 @@ __builtin_popcount(x)<br>
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2595.cpp) | O(logN) | O(1) | [Note](#2595-number-of-even-and-odd-bits) |
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Simulation <br> Math | [C++](./solution/Solution_2843.cpp) | O(N * D) | O(1) | |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math | [C++](./solution/Solution_3099.cpp) | O(logN) | O(1) | [Note](#3099-harshad-number) |
-| 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Math / Simulation | [C++](./solution/Solution_3300.cpp) | O(N * log M) | O(1) | [Note](#3300-digit-sum) |
+| 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Math / Simulation | [C++](./solution/Solution_3300.cpp) | O(N * log M) | O(1) | |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3340.cpp) | O(N) | O(1) | [Note](#3340-check-balanced-string) |
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | Brute Force / Digit Manipulation | [C++](./solution/Solution_3345.cpp) | O(K × D) | O(1) | [Note](#3345-smallest-divisible-digit-product-i) |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math / Digit Manipulation | [C++](./solution/Solution_3622.cpp) | O(log N) | O(1) | |
@@ -878,11 +878,11 @@ __builtin_popcount(x)<br>
 | 0089 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_0089.cpp) | O(2ᴺ) | O(1) | |
 | 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit-Manipulation | [C++](./solution/Solution_0137.cpp) | O(n) | O(1) | [Note](#0137-2-single-number-ii)  |
 | 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0190.cpp) | O(1) | O(1) | [Note](#0190-reverse-bits) |
-| **0371** | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp) | O(1) | O(1) | [Note](#0371-sum-of-two-integers)
+| **0371** | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp) | O(1) | O(1) | | 
 | 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Hash Table <br> Bit Manipulation | [C++](./solution/Solution_0389.cpp) | O(N) | O(1) | [Note](#0389-find-the-difference) |
 | 0401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation / Brute Force | [C++](./solution/Solution_401.cpp) | O(1) | O(1) ||
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0476.cpp) | O(log N) | O(1) | [Note](#0476-number-complement) | 
-| 0762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0762.cpp) | O(N log K) | O(1) | [Note](#762-prime-bits) |
+| 0762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0762.cpp) | O(N log K) | O(1) |  |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1009.cpp) | O(log N) | O(1) | [Note](#1009-complement-of-base-10-integer)|
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | String / Bit Manipulation / Sliding Window | [C++](./solution/Solution_1016.cpp) | O(N * len) | O(1) | |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 Medium | Bit Manipulation / Backtracking / Bitset | [C++](./solution/Solution_1239.cpp) | O(2ᴺ) | O(2ᴺ) ||
@@ -898,10 +898,10 @@ __builtin_popcount(x)<br>
 | **2235** | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2235.cpp) | O(1) | O(1) | [Note](#2235-add-two-integers) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 Medium | Array / Hash Table / Math / Bitset | [C++](./solution/Solution_2442.cpp) | O(N * D) | O(M)* || 
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Hash Set <br> Bit Manipulation | [C++](./solution/Solution_2716.cpp) | O(N) | O(1) | [Note](#2716-minimize-string-length) |
-| 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 Easy | Bit Manipulation / Built-in Function |  [C++](./solution/Solution_2859.cpp)  | O(N) | O(1) | [Note](#2859-set-bits-note) |
+| 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 Easy | Bit Manipulation / Built-in Function |  [C++](./solution/Solution_2859.cpp)  | O(N) | O(1) | |
 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Array / Hash Table / Bitset | [C++](./solution/Solution_2956.cpp) | O(N + M) | O(1)* |  |
 | 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3019.cpp) | O(N) | O(1) | |
-| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3120.cpp) | O(N) | O(1) | [Note](#3120-special-chars) |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3120.cpp) | O(N) | O(1) | |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) | [Note](#3151-special-array-i) |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp) | O(log N) | O(1) | [Note](#3370-smallest-number-with-all-set-bits) |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3827.cpp) | O(1) | O(1) | [Note](#3827-count-monobit-integers) |
@@ -1169,7 +1169,7 @@ __builtin_popcount(x)<br>
 | 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp) | O(n) | O(1) | [Note](#0136-single-number) |
 | **0260** | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp) | O(n) | O(1) | [Note](#0260-single-number-iii)
 | 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp) | O(n) | O(1) | [Note](#0268-missing-number) |
-| **0477** | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Math / Bit Manipulation / Array | [C++](./solution/Solution_477.cpp) | O(31 * N) | O(1) | [Note](#477-hamming-distance-note) |
+| **0477** | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Math / Bit Manipulation / Array | [C++](./solution/Solution_477.cpp) | O(31 * N) | O(1) | |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 Easy | Simulation / Bit Manipulation | [C++](./solution/Solution_1486.cpp) | O(N) | O(1) |  |
 | 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 Easy | Bit Manipulation / Simulation | [C++](./solution/Solution_1720.cpp)| O(N) | O(N) | |
 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | Bit Manipulation / Math / Combinatorics | [C++](./solution/Solution_1863.cpp)  | O(N) | O(1) |  |
@@ -1297,7 +1297,7 @@ __builtin_popcount(x)<br>
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 Medium | Stack / String | [C++](./solution/Solution_1910.cpp) | O(N * M) | O(N) | [Note](#1910-remove-all-occurrences-of-a-substring) |
 | 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 Easy | String / Simulation | [C++](./solution/Solution_1945.cpp) | O(N + K * log(Sum)) | O(1) ||
 | 1961 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | 🟢 Easy | String / Simulation |  [C++](./solution/Solution_1961.cpp) | O(S) | O(S) |  |
-| 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) | [Note](#2042-check-if-numbers-are-ascending-in-a-sentence) |
+| 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String <br> Parsing | [C++](./solution/Solution_2042.cpp) | O(n) | O(1) |  |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_2114.cpp) | O(N * M) | O(1) | [Note](#2114-maximum-number-of-words-found-in-sentences) |
 | 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 Easy | String / Simulation / Math | [C++](./solution/Solution_2138.cpp) | O(N) | O(N) | |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 Easy | String / Simulation | [C++](./solution/Solution_2185.cpp) | O(N * M) | O(1) |  |
@@ -1309,10 +1309,10 @@ __builtin_popcount(x)<br>
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String | [C++](./solution/Solution_2490.cpp) | O(N) | O(1) | [Note](#2490-circular-sentence) |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2828.cpp) | O(n) | O(1) | [Note](#2828-check-if-a-string-is-an-acronym-of-words) |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](./solution/Solution_2937.cpp) | O(min(L1, L2, L3)) | O(1) | [Note](#2937-make-three-strings-equal) |
-| 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | String Search | [C++](./solution/Solution_2942.cpp) | O(N * L) | O(1) | [Note](#2942-find-words) |
+| 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | String Search | [C++](./solution/Solution_2942.cpp) | O(N * L) | O(1) | |
 | 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 Easy | String / Cyclic Shift | [C++](./solution/Solution_3210.cpp) | O(N) | O(N) | |
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String Manipulation / Bit Format | [C++](./solution/Solution_3280.cpp) | O(1) | O(1) | |
-| 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 Easy | Simulation / Recursion | [C++](./solution/Solution_3304.cpp) | O(K) | O(K) | [Note](#3304-kth-char) |
+| 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 Easy | Simulation / Recursion | [C++](./solution/Solution_3304.cpp) | O(K) | O(K) | |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String / Pattern Matching | [C++](./solution/Solution_3407.cpp) | O(N + M) | O(M) ||
 | 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | String / Block-Skipping | [C++](./solution/Solution_3456.cpp)| O(N) | O(1) ||
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_3498.cpp) | O(n) | O(1) | [Note](#3498-reverse-degree-of-a-string) |
@@ -1523,6 +1523,7 @@ __builtin_popcount(x)<br>
 
 ## <a name="string-state-machine"></a>🔗 String - State Machine (字串 有限狀態機)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **0065** | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 Hard | String / State Machine | [C++](./solution/Solution_0065.cpp) | O(N) | O(1) | |
 
 <br><br>
@@ -1534,7 +1535,7 @@ __builtin_popcount(x)<br>
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1291 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | 🟡 Medium | Brute Force / String | [C++](./solution/Solution_1291.cpp) | O(1) | O(1) | |
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math / Brute Force | [C++](./solution/Solution_3556.cpp) | O(N²*sqrt(M)) | O(1) | [Note](#3556-sum-of-largest-prime-substrings) |
-| 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | Brute Force / Math | [C++](./solution/Solution_3713.cpp) | O(N^2) | O(1) | [Note](#3713-longest-balanced-substring) |
+| 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | Brute Force / Math | [C++](./solution/Solution_3713.cpp) | O(N^2) | O(1) |  |
 
 ### 3556 Sum of Largest Prime Substrings
 > [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) <br>
@@ -1576,7 +1577,7 @@ __builtin_popcount(x)<br>
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp) | O(n) | O(1) | [Note](#2678-number-of-senior-citizens) |
 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String / Two Pointers |  [C++](./solution/Solution_2710.cpp) | O(N) | O(1) | [Note](#2710-check-if-a-string-is-an-acronym-of-words) |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp) | O(N) | O(1) |
-| 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Processing | [C++](./solution/Solution_3121.cpp) | O(N) | O(1) | [Note](#3121-special-chars-ii) | [Note](#3121-count-the-number-of-special-characters-ii) | 
+| 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Processing | [C++](./solution/Solution_3121.cpp) | O(N) | O(1) | [Note](#3121-special-chars-ii) | | 
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String / Validation | [C++](./solution/Solution_3136.cpp) | O(N) | O(1) | [Note](#3136-valid-word) |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3775.cpp) | O(N*L) | O(N) |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Processing | [C++](./solution/Solution_3813.cpp) | O(N) | O(1) | |
@@ -1732,7 +1733,7 @@ __builtin_popcount(x)<br>
 | 0821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | Two-Pass Scan | [C++](./solution/Solution_0821.cpp) | O(N) | O(1) | |
 | 0896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | Array | [C++](./solution/Solution_0896.cpp) | O(N) | O(1) |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | Array | [C++](./solution/Solution_1299.cpp) | O(N) | O(1) |
-| 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 Easy | Math / Array | [C++](./solution/Solution_1304.cpp) | O(N) | O(1) | markdown[Note](#1304-find-n-unique-integers-sum-up-to-zero) |
+| 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 Easy | Math / Array | [C++](./solution/Solution_1304.cpp) | O(N) | O(1) | [Note](#1304-find-n-unique-integers-sum-up-to-zero) |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 Easy | Array / Simulation | [C++](./solution/Solution_1389.cpp) | O(N²) | O(N) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | Array | [C++](./solution/Solution_1470.cpp) | O(N) | O(N) |
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 Easy | Array / Sorting / Math | [C++](./solution/Solution_1491.cpp) | O(N) | O(1) ||
@@ -1740,7 +1741,7 @@ __builtin_popcount(x)<br>
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String <br> Array | [C++](./solution/Solution_1662.cpp) | O(N+ M) | O(1) |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](./solution/Solution_1752.cpp) | O(N) | O(1) |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 Easy | Array | [C++](./solution/Solution_1800.cpp) | O(N) | O(1) |
-| 1844 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | 🟢 Easy | In-place Manipulation | [C++](./solution/Solution_1844.cpp) | O(N) | O(1) | [Note](#1844-replace-digits) |
+| 1844 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | 🟢 Easy | In-place Manipulation | [C++](./solution/Solution_1844.cpp) | O(N) | O(1) | |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | 🟢 Easy | Array <br> Sorting | [C++](./solution/Solution_1913.cpp) | O(N) | O(1) |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array | [C++](./solution/Solution_1929.cpp) | O(N) | O(1)* |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array <br> Counting | [C++](./solution/Solution_2089.cpp) | O(N) | O(1) |
@@ -1807,7 +1808,7 @@ __builtin_popcount(x)<br>
 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 Easy | Matrix / Linear Scan | [C++](./solution/Solution_2643.cpp) | O(M*N) | O(1) |  |
 | 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 Easy | Math / Array | [C++](./solution/Solution_2733.cpp) | O(N) | O(1) |  |
 | 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 Easy | Simulation | [C++](./solution/Solution_3168.cpp) | O(N) | O(1) | |
-| 3861 | [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/) | 🟢 Easy | Array / Linear Search | [C++](./solution/Solution_3861.cpp) | O(N) | O(1) | [Note](#3861-min-capacity) |
+| 3861 | [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/) | 🟢 Easy | Array / Linear Search | [C++](./solution/Solution_3861.cpp) | O(N) | O(1) | |
 
 <br><br>
 ---
@@ -1835,11 +1836,11 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡&nbsp;Medium | Array | [C++](./solution/Solution_0048.cpp) | O(n²) | O(1) | [Note](#0048-rotate-image) |
-| 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | Array <br> Matrix | [C++](./solution/Solution_0073.cpp) | O(M*N) | O(1) | [Note](#0073-set-matrix-zeros) |
+| 0073 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | Array <br> Matrix | [C++](./solution/Solution_0073.cpp) | O(M*N) | O(1) | |
 | 0832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 Easy | Array / Two Pointers | [C++](./solution/Solution_0832.cpp) | O(N * M) | O(1) | |
-| 0867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 Easy | Matrix | [C++](./solution/Solution_0867.cpp) | O(M*N) | O(M*N) |[Note](#0867-tranpose-matrix) |
+| 0867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 Easy | Matrix | [C++](./solution/Solution_0867.cpp) | O(M*N) | O(M*N) | |
 | 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 Easy | Array / Math | [C++](./solution/Solution_1252.cpp) | O(K + MN) | O(M + N) | |
-| 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 Easy | Array / Simulation | [C++](./solution/Solution_1260.cpp) | O(M * N) | O(K) | [Note](#1260-shift-note) |
+| 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 Easy | Array / Simulation | [C++](./solution/Solution_1260.cpp) | O(M * N) | O(K) |  |
 | **1582** | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 Easy | Array <br> Matrix | [C++](./solution/Solution_1582.cpp) | O(m * n) | O(m + n) |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 Easy | Array / Simulation / Manhattan Distance | [C++](./solution/Solution_1779.cpp) | O(N) | O(1) |  |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | Array | [C++](./solution/Solution_1886.cpp) | O(n²) | O(1) |[Note](#1886-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -1973,7 +1974,7 @@ __builtin_popcount(x)<br>
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | Array <br> Prefix Sum | [C++](./solution/Solution_2559.cpp) | O(N + Q) | O(N) |
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array <br> Prefix Sum | [C++](./solution/Solution_2574.cpp) | O(N) | O(N) | 
 | **3364** | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | Prefix Sum / Sliding Window / Multiset | [C++](./solution/Solution_3364.cpp) | O(NlogN) | O(N) |  |
-| 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | Prefix Sum / Math | [C++](./solution/Solution_3432.cpp) | O(N) | O(N) | [Note](#3432-partition-note) |
+| 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | Prefix Sum / Math | [C++](./solution/Solution_3432.cpp) | O(N) | O(N) | |
 
 <br><br>
 ---
@@ -2064,7 +2065,7 @@ __builtin_popcount(x)<br>
 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_2108.cpp) | O(N * L) | O(1) | [Note](#2108-find-first-palindromic-string-in-the-array) |
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_2562.cpp) | O(N * D) | O(1) | [Note](#2562-find-the-array-concatenation-value) |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3794.cpp) | O(N) | O(1) |
-| 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | Two-Pointers | [C++](./solution/Solution_3884.cpp) | O(N) | O(1) | [Note](#3884-first-match) |
+| 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | Two-Pointers | [C++](./solution/Solution_3884.cpp) | O(N) | O(1) | |
 
 > [!NOTE]
 > [Opposite Direction 核心概念]<br>
@@ -2167,9 +2168,9 @@ __builtin_popcount(x)<br>
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0905.cpp) | O(n) | O(1) |
 | 0922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 Easy | Array <br> Two Pointers | [C++](./solution/Solution_0922.cpp) | O(n) | O(1) |
 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | Two Pointers | [C++](./solution/Solution_3467.cpp) | O(N) | O(1) | [Note](#3467-transform-array-by-parity) |
-| 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two-Pointer | [C++](./solution/Solution_3823.cpp)  | O(N) | O(1) | [Note](#3823-reverse-note) |
+| 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two-Pointer | [C++](./solution/Solution_3823.cpp)  | O(N) | O(1) |  |
 | 3936 | Minimum Swaps to Move Zeros to End | 🟢 Easy | Two Pointers / Simulation |[C++](./solution/Solution_3936.cpp) | O(N) | O(1) | |
-| 3992 | Rearrange String to Avoid Character Pair | 🟡 Medium | Two Pointers / Swap |[C++](./solution/Solution_3992.cpp) | O(N) | O(1) | [Note](#3992-rearrange-note) |
+| 3992 | Rearrange String to Avoid Character Pair | 🟡 Medium | Two Pointers / Swap |[C++](./solution/Solution_3992.cpp) | O(N) | O(1) |  |
 
 
 ### 3467. Transform Array by Parity
@@ -2236,18 +2237,18 @@ __builtin_popcount(x)<br>
 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table <br> Counting | [C++](./solution/Solution_2150.cpp) | O(n) | O(n) | [Note](#2150-find-all-lonely-numbers-in-the-array) |
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 Easy | Array <br> Hash Table <br> Counting | [C++](./solution/Solution_2206.cpp) | O(n) | O(1) |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 Medium | Hash Table <br> Counting <br> Sorting | [C++](./solution/Solution_2225.cpp) | O(nlogn) | O(n) |
-| 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 Easy | Hash Map / Counting | [C++](./solution/Solution_2283.cpp) | O(N) | O(1) | [Note](#2283-digit-count) |
+| 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 Easy | Hash Map / Counting | [C++](./solution/Solution_2283.cpp) | O(N) | O(1) |  |
 | 2287 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | 🟢 Easy | Hash Table / String / Counting | [C++](./solution/Solution_2287.cpp) | O(N + M) | O(1) ||
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 Easy | Array / Hash Table / Counting | [C++](./solution/Solution_2341.cpp) | O(N) | O(1)* | |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2351.cpp) | O(N) | O(1) |
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2395.cpp) | O(N) | O(N) | [Note](#2395-find-subarrays-with-equal-sum) |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_2404.cpp) | O(n) | O(n) |
-| 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | Hash Map / Difference Array |[C++](./solution/Solution_2451.cpp) | O(N * M) | O(N * M) | [Note](#2451-odd-note) |
+| 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | Hash Map / Difference Array |[C++](./solution/Solution_2451.cpp) | O(N * M) | O(N * M) | |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 Easy | Hashing | [C++](./solution/Solution_2965.cpp) | O(N²) | O(N²) | [Note](#2965-find-missing-and-repeated-values) |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_3005.cpp) | O(n) | O(1) |
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 Easy | Hash Table / Bit Manipulation | [C++](./solution/Solution_3289.cpp) | O(N) | O(1) | |
 | 3438 | Find Valid Pair of Adjacent Digits in String | 🟢 Easy | String / Hash Map | [C++](./solution/Solution_3438.cpp) | O(N) | O(1) | |
-| 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | String / Hash Map | [C++](./solution/Solution_3442.cpp) | O(N) | O(1) | [Note](#3442-max-diff-note) |
+| 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | String / Hash Map | [C++](./solution/Solution_3442.cpp) | O(N) | O(1) |  |
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | Hash Table <br> Frequency Counting | [C++](./solution/Solution_3541.cpp) | O(N) | O(1) |
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table <br> Frequency Counting | [C++](./solution/Solution_3663.cpp) | O(log N) | O(1) |
 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_3843.cpp) | O(N) | O(N) | [Note](#3843-first-element-with-unique-frequency) |
@@ -2325,7 +2326,7 @@ __builtin_popcount(x)<br>
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Array <br> Sorting <br> Hash Table | [C++](./solution/Solution_2418.cpp) | O(NlogN) | O(N) |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table <br> Two Pointers <br> Sorting | [C++](./solution/Solution_2441.cpp) | O(n) | O(n) |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Array <br> Hash Set | [C++](./solution/Solution_3678.cpp) | O(N) | O(N) |
-| 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | Hash Mapping / Simulation | [C++](./solution/Solution_3828.cpp) | O(N * L) | O(1) | [Note](#3838-weight-note) |
+| 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | Hash Mapping / Simulation | [C++](./solution/Solution_3828.cpp) | O(N * L) | O(1) | |
 
 
 > [!NOTE]
@@ -2373,7 +2374,7 @@ __builtin_popcount(x)<br>
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0350.cpp) | O(n+m) | O(min(n,m)) |
 | 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | Hash Table / Array | [C++](./solution/Solution_0599.cpp) | O(N + M) | O(N) | |
 | 0705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | 🟢 Easy | Hash Table <br> Design | [C++](./solution/Solution_0705.cpp) | O(1) | O(N) |
-| **0706** | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Hash Table / Linked List | [C++](./solution/Solution_0706.cpp) | O(N/K) | O(M+K) | [Note](#706-hashmap-note) |
+| **0706** | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Hash Table / Linked List | [C++](./solution/Solution_0706.cpp) | O(N/K) | O(M+K) | |
 | 0859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | String / Hash Table / Two Pointers | [C++](./solution/Solution_859.cpp) | O(N) | O(1)* | |
 | 0888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Set / Math | [C++](./solution/Solution_0888.cpp) | O(A + B) | O(B) | |
 | 0939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | Array <br> Hash Table | [C++](./solution/Solution_939.cpp) | O(N²) | O(N) |
@@ -2406,7 +2407,7 @@ __builtin_popcount(x)<br>
 | 0316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | Stack <br> Greedy <br> String | [C++](./solution/Solution_0316.cpp) | O(N) | O(1) |
 | 0445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Linked List <br> Stack | [C++](./solution/Solution_0445.cpp) | O(N + M) | O(N + M) |
 | 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Array <br> Stack <br> Simulation | [C++](./solution/Solution_0682.cpp) | O(N) | O(N) |
-| 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | Stack / Counter | [C++](./solution/Solution_1021.cpp) | O(N) | O(1) | [Note](#1021-outer-note) |
+| 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | Stack / Counter | [C++](./solution/Solution_1021.cpp) | O(N) | O(1) | |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 Easy | String <br> Stack | [C++](./solution/Solution_1047.cpp) | O(n) | O(n) |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 Medium | String <br> Stack | [C++](./solution/Solution_1209.cpp) | O(n) | O(n) |
 | 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 Easy | String <br> Stack | [C++](./solution/Solution_1544.cpp) | O(N) | O(N) |
@@ -2621,14 +2622,13 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | Greedy / Sorting | [C++](./solution/Solution_1481.cpp) | O(N log N) | O(N) | [Note](#1481-least-number-of-unique-integers-after-k-removals) |
 | 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting | [C++](./solution/Solution_2164.cpp) | O(NlogN) | O(N) | 
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 Medium | Array / Two Pointers / Sorting | [C++](./solution/Solution_2491.cpp) | O(N log N) | O(1)或O(N)* | |
-*\*註：N 為 skill 陣列長度；空間複雜度取決於排序演算法的實作*
 | 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟢 Medium | Array <br> Sorting | [C++](./solution/Solution_2545.cpp) | O(NlogN) | O(1) |
-| 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | 🟢 Easy | Sorting / Brute Force | [C++](./solution/Solution_2932.cpp) | O(NlogN +N²) | O(logN) | [Note](#2932-strong-pair-note) |
+| 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | 🟢 Easy | Sorting / Brute Force | [C++](./solution/Solution_2932.cpp) | O(NlogN +N²) | O(logN) |  |
 | 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | Array / Greedy / Sorting | [C++](./solution/Solution_2966.cpp) | O(N log N) | O(1)或O(N)* | |
+| 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting <br> Set | [C++](./solution/Solution_3684.cpp) | O(N logN) | O(N) |
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | Bit Manipulation <br> Sorting | [C++](./solution/Solution_3769.cpp) | O(NlogN) | O(N) |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting <br> Hash | [C++](./solution/Solution_3913.cpp) | O(NlogN) | O(N) | 
-| 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting <br> Set | [C++](./solution/Solution_3684.cpp) | O(N logN) | O(N) |
-| 3867 | [Sum of GCD of Formed Pairs](leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | GCD <br> Sorting | [C++](./solution/Solution_3867.cpp)  | O(NlogN) | O(N) | [Note](#3867-gcd-note) |
+| 3867 | [Sum of GCD of Formed Pairs](leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | GCD <br> Sorting | [C++](./solution/Solution_3867.cpp)  | O(NlogN) | O(N) | |
 
 > [!NOTE]
 > Array or HashMap ?<br>
@@ -2727,9 +2727,9 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Math <br> Dynamic Programming | [C++](./solution/Solution_0070.cpp) | O(n) | O(1) |
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming <br> Math | [C++](./solution/Solution_0096.cpp) | O(N²) | O(N) |
 | 0264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | Dynamic Programming <br> Math | [C++](./solution/Solution_0264.cpp) | O(n) | O(n) |
-| 0313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dynamic Programming <br> Multi-pointers | [C++](./solution/Solution_0313.cpp) | O(N * K) | O(N + K) | [Note](#313-super-ugly) |
+| 0313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dynamic Programming <br> Multi-pointers | [C++](./solution/Solution_0313.cpp) | O(N * K) | O(N + K) | |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Math <br> Dynamic Programming | [C++](./solution/Solution_0509.cpp) | O(n) | O(1) | 
-| **0898** | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | Bit Manipulation / Dynamic Programming | [C++](./solution/Solution_0898.cpp) | O(N * 30) | O(N * 30) | [Note](#898-bitwise-ors-note) |
+| **0898** | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | Bit Manipulation / Dynamic Programming | [C++](./solution/Solution_0898.cpp) | O(N * 30) | O(N * 30) ||
 | **0926** | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | Dynamic Programming | [C++](./solution/Solution_0926.cpp) | O(N) | O(1) | |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | DP <br> Math | [C++](./solution/Solution_1137.cpp) | O(N) | O(1) |
 | 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 Medium | Matrix / Dynamic Programming | [C++](./solution/Solution_1277.cpp) | O(M * N) | O(1)* |  |
@@ -2764,13 +2764,15 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 0198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟢 Medium | DP <br> Linear Optimization | [C++](./solution/Solution_0198.cpp) | O(N) | O(1) |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | DP | [C++](./solution/Solution_0213.cpp) | O(N) | O(1) |
 | 0337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | Tree <br> DP | [C++](./solution/Solution_0337.cpp) | O(N) | O(H) |
+
 <br><br>
 ---
 
 ## <a name="dynamic-programming"></a>🧩 Dynamic Programming - Stock (股票)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Dynamic Programming | [C++](./solution/Solution_0121.cpp) | O(N) | O(1) | [Note](#121-stock-note) |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Dynamic Programming | [C++](./solution/Solution_0121.cpp) | O(N) | O(1) |  |
+
 <br><br>
 ---
 
@@ -3073,8 +3075,8 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 
 
 ## <a name="negative-marking"></a>🔢 Negative Marking 
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0041 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | Math | [C++](./solution/Solution_0041.cpp) | O(n) | O(1) |
 | 0442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array <br> Fast-Slow Pointers | [C++](./solution/Solution_0442.cpp) | O(n) | O(1) |
 | 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Array | [C++](./solution/Solution_0448.cpp) | O(n) | O(1) |
@@ -3084,8 +3086,8 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ---
 
 ## <a name="fixed-size-sliding-window"></a>🔢Fixed Size Sliding Window
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | Sliding Window / Hash Table | [C++](./solution/Solution_0003.cpp) | O(N) | O(1) |
 | 0220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | 🔴 Hard | Sliding Window / Ordered Map / Bucket | [C++](./solution/Solution_0220.cpp) | O(Nlog(min(N,k))) | O(min(N,k)) |
 | 0567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 Medium | Sliding Window / Frequency Array | [C++](./solution/Solution_0567.cpp) | O(L1 + L2) | O(1) |
@@ -3102,8 +3104,8 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ---
 
 ## <a name="variable-size-sliding-window"></a>🔢Variable Size Sliding Window
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 Medium | Array <br> Sliding Window <br> Binary Search | [C++](./solution/Solution_0209.cpp) | O(N) | O(1) |
 | 0424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | 🟡 Medium | Sliding Window / Hash Table | [C++](./solution/Solution_0424.cpp) | O(N) | O(1) |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | 🟡 Medium | Sliding Window | [C++](./solution/Solution_1004.cpp) | O(N) | O(1) |
@@ -3115,8 +3117,8 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ---
 
 ## <a name="sql"></a>🔢SQL
-| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 Easy | Database | [SQL](./solution/Solution_0182.sql) | O(N) | O(N) | 使用 GROUP BY 聚合相同 Email，並透過 HAVING 過濾出計數大於 1 的項目，達成簡潔的重複項篩選 |
 
 <img src="https://github.com/smartcsie/leetcode/blob/main/images/206Reverse_Linked_List.png" width="570" height="705">
