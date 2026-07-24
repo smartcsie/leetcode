@@ -1281,6 +1281,7 @@ __builtin_popcount(x)<br>
 | **0151** | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String <br> Two Pointers | [C++](./solution/Solution_0151.cpp) | O(N) | O(N) |
 | 0434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](./solution/Solution_0434.cpp) | O(N) | O(1) | [Note](#0434-number-of-segments-in-a-string) |
 | **0648** | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Hash Table <br> Sorting | [C++](./solution/Solution_0648_2.cpp) | O(N * L + M * K) | O(D * L) |  |
+| 0806 | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | 🟢 Easy | Array / String / Simulation | [C++](./solution/Solution_806.cpp) | O(N) | O(1) |  |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_0944.cpp) | O(N * M) | O(M) | [Note](#0944-delete-columns-to-make-sorted) |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 Easy | String Parsing | [C++](./solution/Solution_1078.cpp) | O(N) | O(N) | [Note](#1078-occurrences-after-bigram) |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 Easy | String | [C++](./solution/Solution_1108.cpp) | O(N) | O(N) | |
