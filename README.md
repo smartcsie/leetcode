@@ -1572,6 +1572,7 @@ __builtin_popcount(x)<br>
 | 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 Easy | String / Stream | [C++](./solution/Solution_1935.cpp) | O(N * M) | O(1) | |
 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_1957.cpp) | O(N) | O(N) | |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String | [C++](./solution/Solution_2124.cpp) | O(N) | O(1) | [Note](#2124-check-if-all-as-appears-before-all-bs) |
+| 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | String / Counting | [C++](./solution/Solution_2278.cpp) | O(N) | O(1) | |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | Hash Table / String / Array | [C++](./solution/Solution_2399.cpp) | O(N) | O(1) ||
 | 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 Easy | Array / String / Simulation | [C++](./solution/Solution_2496.cpp) | O(N * L) | O(1) | |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2586.cpp) | O(n) | O(1) |
