@@ -2368,6 +2368,7 @@ __builtin_popcount(x)<br>
 | 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | Hash Table / Array | [C++](./solution/Solution_0599.cpp) | O(N + M) | O(N) | |
 | 0705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | 🟢 Easy | Hash Table <br> Design | [C++](./solution/Solution_0705.cpp) | O(1) | O(N) |
 | **0706** | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Hash Table / Linked List | [C++](./solution/Solution_0706.cpp) | O(N/K) | O(M+K) | [Note](#706-hashmap-note) |
+| 0859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | String / Hash Table / Two Pointers | [C++](./solution/Solution_859.cpp) | O(N) | O(1)* | |
 | 0888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Set / Math | [C++](./solution/Solution_0888.cpp) | O(A + B) | O(B) | |
 | 0939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | Array <br> Hash Table | [C++](./solution/Solution_939.cpp) | O(N²) | O(N) |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_1346.cpp) | O(n) | O(n) |
