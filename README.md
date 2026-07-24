@@ -1317,7 +1317,7 @@ __builtin_popcount(x)<br>
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String / Pattern Matching | [C++](./solution/Solution_3407.cpp) | O(N + M) | O(M) ||
 | 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | String / Block-Skipping | [C++](./solution/Solution_3456.cpp)| O(N) | O(1) ||
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math <br> String | [C++](./solution/Solution_3498.cpp) | O(n) | O(1) | [Note](#3498-reverse-degree-of-a-string) |
-
+| 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 Easy | String / Simulation / Math | [C++](./solution/Solution_3986.cpp) | O(1) | O(1) | |
 
 ### 0008. String to Integer (atoi)
 > [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)<br>
