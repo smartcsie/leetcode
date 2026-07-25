@@ -3124,7 +3124,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | Sliding Window | [C++](./solution/Solution_1358.cpp) | O(N) | O(1) |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | 🟡 Medium | Sliding Window / Hash Set / Bit Manipulation | [C++](./solution/Solution_1461.cpp) | O(N * K) | |
 | 2062 | [Count Vowel Substrings](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) | 🟢 Easy | Sliding Window / Math | [C++](./solution/Solution_2062.cpp) | O(N) | O(1) | |
-
+| 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) | 🟡 Medium | Sliding Window / Two Pointers / Difference Technique | [C++](./solution/Solution_3306.cpp) | O(N) | O(1) | |
 <br><br>
 ---
 
