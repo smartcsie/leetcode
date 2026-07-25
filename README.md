@@ -1751,6 +1751,7 @@ __builtin_popcount(x)<br>
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array | [C++](./solution/Solution_1929.cpp) | O(N) | O(1)* |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array <br> Counting | [C++](./solution/Solution_2089.cpp) | O(N) | O(1) |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | Array <br> Sorting | [C++](./solution/Solution_2148.cpp) | O(N) | O(1) |
+| 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | Simulation / Brute Force | [C++](./solution/Solution_3477.cpp) | O(N^2) | O(1) | [Note](#3477-fruits-into-baskets-note) |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array <br> Simulation | [C++](./solution/Solution_3925.cpp) | O(N) | O(N) |
 | 3969 | Valid Subarrays With Matching Sum Digits I | 🟢 Easy | Array / Brute Force | [C++](./solution/Solution_3969.cpp) | O(N²) | O(1) | |
 
@@ -1773,6 +1774,10 @@ __builtin_popcount(x)<br>
 >  &emsp;&emsp;&emsp;&emsp;**s[i] = s[i - 1] + s[i] - '0';** <br>
 >  **}** <br>
 ---
+
+### 3477.Fruits Into Baskets II
+> [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) <br>
+> 這一題有O(nlong)解法，SegmentTree
 
 <br><br>
 ---
