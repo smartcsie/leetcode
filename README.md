@@ -165,6 +165,7 @@ __builtin_popcount(x)<br>
 | **0970**| [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math / Hash Table | [C++](./solution/Solution_0970.cpp) | O(log_x(bound) * log_y(bound)) | O(S) | |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | Modular Arithmetic | [C++](./solution/Solution_1015.cpp) | O(K) | O(1) | [Note](#1015-smallest-integer-divisible-by-k) |
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math / Modulo | [C++](./solution/Solution_1018.cpp) | O(N) | O(1) | [Note](#1018-binary-prefix-divisible-by-5) |
+| 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | Math / Zeller's Congruence | [C++](./solution/Solution_1185.cpp) | O(1) | O(1) | |
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | 🟢 Easy | Geometry / Math | [C++](./solution/Solution_1232.cpp) | O(N) | O(1) | |
 | 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | 🟡 Medium | Greedy / Math / String | [C++](./solution/Solution_1247.cpp) | O(N) | O(1) | |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Array <br> Math | [C++](./solution/Solution_1295.cpp) | O(N) | O(1) | [Note](#1295-find-numbers-with-even-number-of-digits) |
