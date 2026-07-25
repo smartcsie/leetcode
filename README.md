@@ -2885,6 +2885,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | **2571** | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy / Bit Manipulation / Dynamic Programming | [C++](./solution/Solution_2571.cpp) | O(log N) | O(1) | |
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy / Sorting | [C++](./solution/Solution_2578.cpp) | O(NlogN) | O(N) | [Note](#2578-split-with-minimum-sum)|
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | Greedy / Simulation | [C++](./solution/Solution_2645.cpp) | O(N) | O(1) |  |
+| 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy / Math / Brainteaser | [C++](./solution/Solution_2745.cpp) | O(1) | O(1) |  |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy / Hashing | [C++](./solution/Solution_2815.cpp) | O(N*D) | O(1) | [Note](#2815-max-pair-sum-in-an-array) |
 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy / String | [C++](./solution/Solution_2864.cpp) | O(N) | O(1) | |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array <br> Greedy <br> Bit Manipulation | [C++](./solution/Solution_3011.cpp) | O(N) | O(1) | 
