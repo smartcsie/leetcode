@@ -16,15 +16,9 @@ public:
     bool containsDuplicate(std::vector<int>& nums) {
         // 步驟 1：對陣列進行排序，使相同元素相鄰
         std::ranges::sort(nums);
-        
         //步驟 2：利用 std::unique 將相鄰重複元素移到後方
-        auto it = std::unique(nums.begin(), nums.end());
-        
         // 步驟 3：若迭代器不等於 end()，代表有重複元素
-        if (it != nums.end()) {
-            return true;
-        }
-        
+        if (unique(nums.begin(), nums.end()) != nums.end()) return true;
         return false;
     }
 };
