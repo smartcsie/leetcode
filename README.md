@@ -2403,7 +2403,7 @@ __builtin_popcount(x)<br>
 ## <a name="hash-table-set"></a>🔑 Hash Table - Set (集合 / 存在性判斷)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0217.cpp) | O(n) | O(n) |
+| 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0217.cpp) | O(n) | O(n) | [Note](#0217-contains-duplicate)  |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table <br> Sliding Window | [C++](./solution/Solution_0219.cpp) | O(n) | O(min(n,k)) |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0349.cpp) | O(n+m) | O(n) |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_0350.cpp) | O(n+m) | O(min(n,m)) |
@@ -2426,6 +2426,16 @@ __builtin_popcount(x)<br>
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | Array / Hash Set / Greedy | [C++](./solution/Solution_3487.cpp) | O(N) | O(N) |  |
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3718.cpp) | O(N+M) | O(M) |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_3731.cpp) | O(N+K) | O(K) |
+
+### 0217. Contains Duplicate
+> [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)<br>
+ **此題總共有四種作法**<br>
+> [法一 Hashset Insert](./solution/Solution_0217.cpp)，一邊Insert，一邊檢查，Time:O(N)，Time:O(N)<br>
+> [法二 Hashset 去重](./solution/Solution_0217_1.cpp)，全部塞入unordered_set，檢查個數和原nums個數，Time:O(N)，Time:O(N)<br>
+> [法三 Unique 去重](./solution/Solution_0217_2.cpp)，用std::unique判斷，檢查it != nums.end()，Time:O(NlogN)，Time:O(logN)<br>
+> [法四 排序](./solution/Solution_0217_3.cpp)，排序，檢查相鄰元素是否相等，Time:O(NlogN)，Time:O(logN)<br>
+---
+
 
 <br><br>
 ---
