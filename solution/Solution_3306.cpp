@@ -1,0 +1,62 @@
+/**
+ * 題目：3306. Count of Substrings Containing Every Vowel and K Consonants II
+ * 描述：給你一個字串 word 和一個非負整數 k。返回 word 中包含所有母音（'a'、'e'、'i'、'o'、'u' 
+ *       各至少一次）且子音數量「剛好」為 k 的子字串的總數。
+ * 
+ * 解法思路：
+ * 1. 轉化為「至少 k 個」的差分技巧（At Least K Difference Trick）：
+ *    - 直接計算「剛好 k 個子音」在滑動視窗中較難直接收斂。
+ *    - 利用數學邏輯：`剛好 k 個` = `大於或等於 k 個` - `大於或等於 (k + 1) 個`。
+ * 2. 滑動視窗（Sliding Window）：
+ *    - 使用右指標 `right` 擴展視窗，並用雜湊表紀錄 5 個母音各自出現的次數，以及變數紀錄子音數量。
+ *    - 當視窗滿足條件（5個母音皆至少出現1次，且子音數量 $\ge k$）時：
+ *      - 以 `right` 為結尾、大於等於當前左邊界的有效子字串數量為 `(word.size() - right)`。
+ *      - 嘗試向右收縮左指標 `left` 來尋找更多可能的合法子字串。
+ */
+
+class Solution {
+private:
+    // 計算母音齊全且子音數量「大於或等於」k 的子字串數量
+    long long atLeastK(std::string word, int k) {
+        long long ans = 0;
+        int left = 0;
+        int consonants = 0;
+        std::unordered_map<char, int> vowelCount;
+        
+        for (int right = 0; right < word.size(); ++right) {
+            char c = word[right];
+            
+            // 判斷當前字元是母音還是子音
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                vowelCount[c]++;
+            } else {
+                consonants++;
+            }
+            
+            // 當滿足「5個母音都至少出現1次」且「子音數量大於或等於 k」時
+            while (vowelCount.size() == 5 && consonants >= k) {
+                // 以 right 為結尾的有效子字串有 (word.size() - right) 個
+                ans += (word.size() - right);
+                
+                // 嘗試縮減左邊界，收縮視窗
+                char leftChar = word[left];
+                if (leftChar == 'a' || leftChar == 'e' || leftChar == 'i' || leftChar == 'o' || leftChar == 'u') {
+                    vowelCount[leftChar]--;
+                    if (vowelCount[leftChar] == 0) {
+                        vowelCount.erase(leftChar);
+                    }
+                } else {
+                    consonants--;
+                }
+                left++; // 移動左指標
+            }
+        }
+        return ans;
+    }
+
+public:
+    long long countOfSubstrings(std::string word, int k) {
+        // 剛好 k 個 = (大於或等於 k 個) - (大於或等於 k + 1 個)
+        return atLeastK(word, k) - atLeastK(word, k + 1);
+    }
+};
