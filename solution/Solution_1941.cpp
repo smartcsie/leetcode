@@ -18,7 +18,7 @@
 class Solution {
 public:
     bool areOccurrencesEqual(string s) {
-        int count[26] = {0};
+        vector<int> count(26, 0);
         for(char c : s) {
             count[c-'a']++;
         }
@@ -29,6 +29,5 @@ public:
             }
         }
         return true;
-
     }
 };
