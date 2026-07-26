@@ -1068,7 +1068,10 @@ __builtin_popcount(x)<br>
 ## <a name="Bit-manipulation-mask"></a>📊 Bit Manipulation - Mask (位元運算 - 遮罩)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | 🟡 Medium | Bit Manipulation / Bitmask | [C++](./solution/Solution_318.cpp) | O(N * L + N^2) | O(N) |  |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation / Bitmask | [C++](./solution/Solution_2605.cpp) | O(N + M) | O(1) | [Note](#2605-form-smallest-number-from-two-digit-arrays) |
+
+
 
 ### 2605 Form Smallest Number From Two Digit Arrays
 > [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) <br>
