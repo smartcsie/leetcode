@@ -1697,11 +1697,23 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | Hash Table <br> String | [C++](./solution/Solution_0387.cpp) | O(n) | O(1) | [Note](#0387-first-unique-character-in-a-string) |
-
+| 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 Easy | Hash Table <br> String <br> Counting | [C++](./solution/Solution_1941.cpp) | O(n) | O(1) |
+[Note](#1941-first-unique-character-in-a-string) |
 ### 0387. First Unique Character in a String
 > [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) <br>
 > 第1個loop，統計字元出現頻頻率， **for(char c : s)  count[c-'a']++**; <br>
 > 第2個loop，檢查頻率=1，return; <br>
+
+---
+
+### 1941. First Unique Character in a String
+> [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) <br>
+> 第1個loop，統計字元出現頻頻率，**for(char c : s)  count[c-'a']++;** <br>
+> 因為要確認所有char頻率都一樣，所以以第一個字元為頻率比較基準，**int freq =   count[s[0]-'a'];** <br>
+> 第2個loop， 檢查所有非0頻率都相等
+
+---
+
 
 
 <br><br>
@@ -2277,7 +2289,6 @@ __builtin_popcount(x)<br>
 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 Medium | Greedy / Hash Set | [C++](./solution/Solution_1647.cpp) | O(N + K log K) | O(K) |  |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | Array <br> Hash Table | [C++](./solution/Solution_1748.cpp) | O(N) | O(N) |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | Hash Table / Counting | [C++](./solution/Solution_1897.cpp) | O(N * M) | O(1) |  |
-| 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 Easy | Hash Table <br> String <br> Counting | [C++](./solution/Solution_1941.cpp) | O(n) | O(1) |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | Hash Table <br> Math | [C++](./solution/Solution_2001.cpp) | O(N) | O(N) |
 | **2006** | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 Easy | Hash Table / Frequency Map | [C++](./solution/Solution_2006_Hash.cpp) | O(N) | O(N) | |
 | **2023** | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 Medium | Hash Table / String / Single-Pass | [C++](./solution/Solution_2023.cpp) | O(N * L) | |
