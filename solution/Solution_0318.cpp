@@ -1,0 +1,50 @@
+/**
+ * 題目：318. Maximum Product of Word Lengths
+ * 描述：給你一個字串陣列 words，請你計算兩字串 word[i] 和 word[j] 不包含任何相同字元時，
+ *       其長度乘積的最大值（length(word[i]) * length(word[j])）。如果找不到這樣的兩個字元不重複的字串，返回 0。
+ * 
+ * 解法思路（位元遮罩與位元運算 Bitmask & Bitwise Operation）：
+ * 1. 字元狀態壓縮（Bitmask）：
+ *    - 由於題目只包含小寫英文字母（26個），我們可以用一個 32 位元的整數（`int`）來作為位元遮罩（Bitmask）。
+ *    - 利用 `1 << (c - 'a')` 將字串中出現過的字元對應到整數的特定位元上（例如 'a' 對應第 0 位，'b' 對應第 1 位）。
+ * 2. 快速不重複檢查：
+ *    - 兩個字串如果沒有共同字元，代表它們的位元遮罩進行「位元及（AND）」運算後的結果會是 0（即 `(masks[i] & masks[j]) == 0`）。
+ * 3. 遍歷配對與最大值更新：
+ *    - 預先計算好所有字串的 `masks` 後，透過巢狀迴圈兩兩配對，若符合無交集條件，則更新最大長度乘積。
+ */
+
+#include <vector>
+#include <string>
+#include <algorithm>
+
+class Solution {
+private:
+    // 將字串轉換為 26 個小寫字母的對應位元遮罩
+    int getMask(const std::string& s) {
+        int mask = 0;
+        for (const char& c : s) {
+            mask |= (1 << (c - 'a')); 
+        }
+        return mask;
+    }
+public:
+    int maxProduct(std::vector<std::string>& words) {
+        int n = words.size();
+        std::vector<int> masks(n, 0);
+        // 預先計算每個單字的 Bitmask
+        for (int i = 0; i < n; i++) {
+            masks[i] = getMask(words[i]); 
+        }
+        int ans = 0;
+        // 兩兩配對檢查是否有共同字元
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                // 若位元及為 0，代表無共同字元，計算長度乘積並更新最大值
+                if ((masks[i] & masks[j]) == 0) {
+                    ans = std::max(ans, static_cast<int>(words[i].size() * words[j].size()));
+                }
+            }
+        }
+        return ans;
+    }
+};
