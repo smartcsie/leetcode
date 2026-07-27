@@ -1,6 +1,9 @@
 # Solution_0268
 
 ```cpp
+/**
+ * 註解：待補充
+ */
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {

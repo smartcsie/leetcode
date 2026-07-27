@@ -1,13 +1,15 @@
 /**
  * 題目：1161. Maximum Level Sum of a Binary Tree
  * 難度：中等 (Medium)
- * * 優化思路：
+ * 描述：待補充
+ *
+ * 時間複雜度：O(N) - BFS 層序遍歷，累加每層總和。
+ * 空間複雜度：O(W) - Queue 最多存最寬一層 W 個節點。
+ *
+ * 解法思路：
  * 1. 使用 BFS 層序遍歷。
  * 2. 在每一層處理時累加 `levelSum`。
  * 3. 即時更新 `maxSum` 與對應的 `minLevel`，無需額外空間存儲與排序。
- * 時間複雜度：O(N) - BFS 層序遍歷，累加每層總和。
- * 空間複雜度：O(W) - Queue 最多存最寬一層 W 個節點。
-
  */
 
 public:

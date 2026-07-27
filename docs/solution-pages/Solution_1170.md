@@ -1,6 +1,9 @@
 # Solution_1170
 
 ```cpp
+/**
+ * 註解：待補充
+ */
 **
  * 題目：1170. Compare Strings by Frequency of the Smallest Character
  * 難度：中等 (Medium)

@@ -1,6 +1,9 @@
 # Solution_0342
 
 ```cpp
+/**
+ * 註解：待補充
+ */
 class Solution {
 public:
     bool isPowerOfFour(int n) {

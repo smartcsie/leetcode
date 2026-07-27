@@ -2,12 +2,12 @@
  * 題目：3827. Count Monobit Integers
  * 難度：簡單 (Easy)
  * 描述：計算整數 n + 1 的二進位位元寬度。
- * * 優化重點：
+ * 優化重點：
  * 1. 標準庫函數：使用 C++20 <bit> 中的 std::bit_width，直接調用 CPU 的位元掃描指令。
  * 2. 類型安全：使用 static_cast<uint32_t> 確保符合位元運算的型別要求。
+ *
  * 時間複雜度：O(1) - bit_width(n+1) 計算最小全 1 二進位數。
  * 空間複雜度：O(1) - 無額外空間。
-
  */
 
 class Solution {

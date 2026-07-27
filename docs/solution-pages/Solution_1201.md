@@ -5,16 +5,16 @@
  * 題目：1201. Ugly Number III
  * 難度：中等 (Medium)
  * 描述：找到第 n 個能被 a, b, 或 c 整除的數字。
- * 
+ *
+ * 時間複雜度：O(log(2e9)) - 二分搜尋答案，搭配容斥原理計算個數。
+ * 空間複雜度：O(1) - 無額外空間。
+ *
  * 解法思路：
  * 1. 二分搜尋答案範圍 [1, 2e9]。
  * 2. 排容原理 (Inclusion-Exclusion Principle)：
- *    一個數 x 以下能被 a, b, 或 c 整除的個數 =
- *    (x/a + x/b + x/c) - (x/lcm(a,b) + x/lcm(b,c) + x/lcm(a,c)) + (x/lcm(a,b,c))
+ * 一個數 x 以下能被 a, b, 或 c 整除的個數 =
+ * (x/a + x/b + x/c) - (x/lcm(a,b) + x/lcm(b,c) + x/lcm(a,c)) + (x/lcm(a,b,c))
  * 3. 調整範圍：若 cnt < n，說明該數太小，縮小搜尋區間。
- * 時間複雜度：O(log(2e9)) - 二分搜尋答案，搭配容斥原理計算個數。
- * 空間複雜度：O(1) - 無額外空間。
-
  */
 
 class Solution {

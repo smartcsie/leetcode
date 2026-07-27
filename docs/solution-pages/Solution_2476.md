@@ -5,9 +5,11 @@
  * 題目：2476. Closest Nodes Queries in a Binary Search Tree
  * 難度：中等 (Medium)
  * 描述：在 BST 中針對每個查詢找出小於等於該數的最大值 (min) 與大於等於該數的最小值 (max)。
- * * 時間複雜度：O(N + Q log N) - N 為節點數，Q 為查詢數。
+ *
+ * 時間複雜度：O(N + Q log N) - N 為節點數，Q 為查詢數。
  * 空間複雜度：O(N) - 用於儲存有序陣列。
- * * 優化思路：
+ *
+ * 解法思路：
  * 1. 展平 (Flattening)：中序遍歷得到遞增陣列。
  * 2. 二分搜尋 (Binary Search)：使用 STL 內建函數進行高效查詢。
  */

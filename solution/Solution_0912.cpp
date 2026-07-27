@@ -2,10 +2,10 @@
  * 題目：912. Sort an Array (排序陣列)
  * 難度：中等 (Medium)
  * 描述：給你一個整數陣列 nums，請你將該陣列升序排列。
- * 
+ *
  * 時間複雜度：平均 O(n log n)，最壞 O(n^2)（但在取中間值或隨機 pivot 下極難發生）。
  * 空間複雜度：O(log n) - 遞迴產生的棧空間。
- * 
+ *
  * 解法思路：
  * 採用快速排序 (Quick Sort) 的 Hoare Partition 實作：
  * 1. 選擇 Pivot：這裡選擇中間位置的元素 nums[(left + right) / 2]。

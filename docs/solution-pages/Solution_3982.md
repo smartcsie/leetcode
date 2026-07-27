@@ -5,12 +5,12 @@
  * 題目：3982. Sum of Integers with Maximum Digit Range
  * 難度：簡單 (Easy)
  * 描述：計算陣列中擁有「最大數位極差」的所有整數之和。
- * * 優化重點：
+ * 優化重點：
  * 1. 數位拆解：使用 while 迴圈配合取模運算。
  * 2. 邊界條件：使用 INT_MAX 與 INT_MIN 初始化比較基準。
+ *
  * 時間複雜度：O(N * D) - 遍歷每個數字，計算 digit range，分組取最大。
  * 空間複雜度：O(N) - 結果陣列大小為 N。
-
  */
 
 class Solution {

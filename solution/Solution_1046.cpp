@@ -2,9 +2,11 @@
  * 題目：1046. Last Stone Weight (最後一顆石頭的重量)
  * 難度：簡單 (Easy)
  * 描述：每次選取兩顆最重的石頭進行碰撞，若重量相等則皆粉碎，不相等則餘數留回堆中。
- * * 時間複雜度：O(N log N) - 建堆 O(N)，每次彈出/壓入 O(log N)。
+ *
+ * 時間複雜度：O(N log N) - 建堆 O(N)，每次彈出/壓入 O(log N)。
  * 空間複雜度：O(N) - 儲存所有石頭的重量。
- * * 優化思路：
+ *
+ * 解法思路：
  * 利用 priority_queue 的建構子 `priority_queue<int>(stones.begin(), stones.end())`，
  * 這比逐一呼叫 `push` 更快，因為這會觸發線性時間的建堆演算法。
  */

@@ -2,16 +2,16 @@
  * 題目：1880. Check if Word Equals Summation of Two Words
  * 難度：簡單 (Easy)
  * 描述：將每個字母映射為對應的數值 ('a'=0, 'b'=1, ..., 'j'=9)，
- *       判斷 firstWord 的數值與 secondWord 的數值之和，是否等於 targetWord 的數值。
- * 
- * 解法思路：
- * 1. 建立一個輔助函數 `wordToNum`，利用 `ans = ans * 10 + (c - 'a')` 的方式，
- *    將字串依序轉換為對應的整數。
- * 2. 分別計算三個字串的數值。
- * 3. 判斷 `first + second == target` 是否成立。
+ * 判斷 firstWord 的數值與 secondWord 的數值之和，是否等於 targetWord 的數值。
+ *
  * 時間複雜度：O(N) - 遍歷兩個字串，字母轉數字後累加比較。
  * 空間複雜度：O(1) - 僅使用常數空間。
-
+ *
+ * 解法思路：
+ * 1. 建立一個輔助函數 `wordToNum`，利用 `ans = ans * 10 + (c - 'a')` 的方式，
+ * 將字串依序轉換為對應的整數。
+ * 2. 分別計算三個字串的數值。
+ * 3. 判斷 `first + second == target` 是否成立。
  */
 
 class Solution {

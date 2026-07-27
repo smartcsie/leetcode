@@ -2,14 +2,14 @@
  * 題目：3894. Traffic Signal Color
  * 難度：簡單 (Easy)
  * 描述：根據輸入的 timer 數值返回對應的交通燈號字串。
- * * 規則：
+ * 規則：
  * - 0: Green
  * - 30: Orange
  * - 31 ~ 90: Red
  * - 其他: Invalid
+ *
  * 時間複雜度：O(1) - 根據秒數模 90 判斷紅綠黃燈。
  * 空間複雜度：O(1) - 無額外空間。
-
  */
 
 #include <string>

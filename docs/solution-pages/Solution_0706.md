@@ -1,6 +1,9 @@
 # Solution_0706
 
 ```cpp
+/**
+ * 註解：待補充
+ */
 class MyHashMap {
 private:
     // 使用一個陣列，每個陣列元素是一個「桶子」(Bucket)，桶子用 vector 儲存 key-value pair

@@ -2,9 +2,11 @@
  * 題目：347. Top K Frequent Elements (前 K 個高頻元素)
  * 難度：中等 (Medium)
  * 描述：找出陣列中出現頻率最高的前 K 個元素。
- * * 時間複雜度：O(N) - 統計頻率 O(N)，nth_element 選擇 O(N)。
+ *
+ * 時間複雜度：O(N) - 統計頻率 O(N)，nth_element 選擇 O(N)。
  * 空間複雜度：O(N) - 儲存頻率 Map 與 Vector。
- * * 優化思路：
+ *
+ * 解法思路：
  * 1. 使用 unordered_map 統計頻率。
  * 2. 使用 nth_element 在線性時間內將頻率前 K 高的元素移至容器後段。
  * 3. 預先 reserve 結果空間，減少 vector 動態擴展次數。

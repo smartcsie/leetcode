@@ -2,12 +2,12 @@
  * 題目：2259. Remove Digit From Number to Maximize Result
  * 難度：簡單 (Easy)
  * 描述：移除字串中指定的一個 digit，使得剩餘字串代表的數值最大。
- * * 優化重點：
+ * 優化重點：
  * 1. 貪婪搜索：O(N) 單次掃描決定移除位置。
  * 2. 字串操作：利用 string::erase 與 string::rfind 簡潔處理字串變動。
+ *
  * 時間複雜度：O(N) - 單次遍歷找最後一個出現的 digit，或貪婪找更大後繼。
  * 空間複雜度：O(N) - 結果字串大小為 N-1。
-
  */
 
 #include <string>

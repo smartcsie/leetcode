@@ -2,12 +2,12 @@
  * 題目：2507. Smallest Value After Replacing With Sum of Prime Factors
  * 難度：中等 (Medium)
  * 描述：重複將數字替換為其質因數之和，直到數字不再改變。
- * * 優化重點：
+ * 優化重點：
  * 1. 分解優化：質因數分解只需遍歷到 sqrt(n)，大幅提升效能。
  * 2. 邊界檢查：若 n 為質數，質因數分解會直接回傳 n 本身，迴圈條件即自動終止。
+ *
  * 時間複雜度：O(log N * sqrt(N)) - 反覆質因數分解並累加，直到收斂。
  * 空間複雜度：O(1) - 僅使用常數空間。
-
  */
 
 class Solution {

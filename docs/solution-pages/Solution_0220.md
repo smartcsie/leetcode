@@ -5,9 +5,11 @@
  * 題目：220. Contains Duplicate III
  * 難度：困難 (Hard)
  * 描述：判斷陣列中是否存在兩個索引 i 和 j，使得 |nums[i] - nums[j]| <= valueDiff 且 |i - j| <= indexDiff。
- * * 時間複雜度：O(N log(min(N, k))) - k 為 indexDiff，在視窗內進行樹狀搜尋。
+ *
+ * 時間複雜度：O(N log(min(N, k))) - k 為 indexDiff，在視窗內進行樹狀搜尋。
  * 空間複雜度：O(min(N, k)) - 維護一個大小為 k 的滑動視窗。
- * * 優化思路：
+ *
+ * 解法思路：
  * 1. 使用 `std::set` 維護滑動視窗，其底層為紅黑樹，支援 O(log K) 範圍搜尋。
  * 2. 每次窗口大小超過 `indexDiff`，移除最舊的元素。
  * 3. 搜尋 `[nums[i] - valueDiff, nums[i] + valueDiff]` 的元素。

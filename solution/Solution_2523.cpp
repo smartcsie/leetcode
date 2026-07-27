@@ -2,9 +2,11 @@
  * 題目：2523. Closest Prime Numbers in Range (範圍內最近的質數對)
  * 難度：中等 (Medium)
  * 描述：在 [left, right] 區間內找出兩個質數，使其差值最小。
- * * 時間複雜度：O(R log log R)，R 為 right 的值。
+ *
+ * 時間複雜度：O(R log log R)，R 為 right 的值。
  * 空間複雜度：O(R)，使用 bitset 儲存質數狀態。
- * * 優化思路：
+ *
+ * 解法思路：
  * 1. 使用 static 篩表（若多次呼叫此函數，可避免重複篩選）。
  * 2. 篩選時直接處理偶數，將速度提升兩倍。
  */

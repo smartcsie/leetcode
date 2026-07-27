@@ -1,23 +1,25 @@
 /**
  * 題目：2482. Difference Between Ones and Zeros in Row and Column
+ * 難度：待補充
  * 描述：給你一個大小為 m x n 的二進位矩陣 grid。
- *       請你返回一個同樣大小的矩陣 diff，其中 diff[i][j] 等於：
- *       (第 i 行的 1 的數量 + 第 j 列的 1 的數量) - (第 i 行的 0 的數量 + 第 j 列的 0 的數量)
- * 
- * 解法思路（預先計算與數學轉換 Precomputation & Math Simplification）：
- * 1. 簡化公式：
- *    - 題目要求計算：`(onesRow_i + onesCol_j) - (zerosRow_i + zerosCol_j)`。
- *    - 由於每一行的總元素個數為 `n`，因此 `zerosRow_i = n - onesRow_i`。同理，每一列的總元素個數為 `m`，`zerosCol_j = m - onesCol_j`。
- *    - 代入後可將公式簡化為：`onesRow_i + onesCol_j - (n - onesRow_i) - (m - onesCol_j) = 2 * (onesRow_i + onesCol_j) - m - n`。
- *    - 另一種更直覺的寫法是將 `0` 視為 `-1`，則每行每列的總和直接就是 `ones - zeros` 的淨分數。
- * 2. 實作技巧（將 0 視為 -1 進行累加）：
- *    - 在遍歷矩陣時，若遇到 `1` 加 `1`，若遇到 `0` 減 `1`（即 `grid[i][j] ? 1 : -1`）。
- *    - 透過 `rowSum` 與 `colSum` 記錄每一行與每一列的淨得分。
- * 3. 組合答案：
- *    - 最終對矩陣每個位置 `(i, j)`，其差值直接等於 `rowSum[i] + colSum[j]`。
+ * 請你返回一個同樣大小的矩陣 diff，其中 diff[i][j] 等於：
+ * (第 i 行的 1 的數量 + 第 j 列的 1 的數量) - (第 i 行的 0 的數量 + 第 j 列的 0 的數量)
+ *
  * 時間複雜度：O(M * N) - 遍歷每個格子，根據行號奇偶決定方向。
  * 空間複雜度：O(M * N) - 結果矩陣大小為 M * N。
-
+ *
+ * 解法思路：
+ * （預先計算與數學轉換 Precomputation & Math Simplification）：
+ * 1. 簡化公式：
+ * - 題目要求計算：`(onesRow_i + onesCol_j) - (zerosRow_i + zerosCol_j)`。
+ * - 由於每一行的總元素個數為 `n`，因此 `zerosRow_i = n - onesRow_i`。同理，每一列的總元素個數為 `m`，`zerosCol_j = m - onesCol_j`。
+ * - 代入後可將公式簡化為：`onesRow_i + onesCol_j - (n - onesRow_i) - (m - onesCol_j) = 2 * (onesRow_i + onesCol_j) - m - n`。
+ * - 另一種更直覺的寫法是將 `0` 視為 `-1`，則每行每列的總和直接就是 `ones - zeros` 的淨分數。
+ * 2. 實作技巧（將 0 視為 -1 進行累加）：
+ * - 在遍歷矩陣時，若遇到 `1` 加 `1`，若遇到 `0` 減 `1`（即 `grid[i][j] ? 1 : -1`）。
+ * - 透過 `rowSum` 與 `colSum` 記錄每一行與每一列的淨得分。
+ * 3. 組合答案：
+ * - 最終對矩陣每個位置 `(i, j)`，其差值直接等於 `rowSum[i] + colSum[j]`。
  */
 
 class Solution {

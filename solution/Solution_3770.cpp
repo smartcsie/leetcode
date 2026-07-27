@@ -2,9 +2,11 @@
  * 題目：3770. Largest Prime from Consecutive Prime Sum
  * 難度：中等 (Medium)
  * 描述：在小於等於 n 的範圍內，找出由連續質數相加而成的最大質數。
- * * 時間複雜度：O(MAX_SIZE * log log MAX_SIZE)，預處理後查詢為 O(pi(MAX_SIZE))。
+ *
+ * 時間複雜度：O(MAX_SIZE * log log MAX_SIZE)，預處理後查詢為 O(pi(MAX_SIZE))。
  * 空間複雜度：O(MAX_SIZE)。
- * * 優化思路：
+ *
+ * 解法思路：
  * 1. 使用 static 變數快取篩選結果，避免多次呼叫時重複運算。
  * 2. 移除錯誤的重複 sieve 調用，確保資料一致性。
  */

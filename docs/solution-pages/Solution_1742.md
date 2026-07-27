@@ -3,20 +3,21 @@
 ```cpp
 /**
  * 題目：1742. Maximum Number of Balls in a Box
+ * 難度：待補充
  * 描述：給你 lowLimit 與 highLimit，將編號在此範圍內的球放入各位數字和對應的箱子中，
- *       返回擁有最多球的箱子裡面的球數。
- * 
- * 解法思路：
- * 1. 根據題意，球的最大編號不超過 10^5（LeetCode 1742 的測資範圍），
- *    因此各位數字和的最大值不會超過 9 + 9 + 9 + 9 + 9 = 45。
- * 2. 宣告一個大小為 46 的 `std::vector<int> counts(46, 0)` 作為箱子計數器。
- * 3. 走訪從 lowLimit 到 highLimit 的每一個球編號 i：
- *    - 利用迴圈計算 i 的各位數字總和 num。
- *    - 將對應箱子的計數器加 1：`counts[num]++`。
- * 4. 走訪完畢後，使用 `std::max_element` 找出 counts 陣列中的最大值並回傳。
+ * 返回擁有最多球的箱子裡面的球數。
+ *
  * 時間複雜度：O(N * D) - 對每個球做 digit sum，D 為位數，統計到 bucket。
  * 空間複雜度：O(1) - 固定大小 bucket 陣列。
-
+ *
+ * 解法思路：
+ * 1. 根據題意，球的最大編號不超過 10^5（LeetCode 1742 的測資範圍），
+ * 因此各位數字和的最大值不會超過 9 + 9 + 9 + 9 + 9 = 45。
+ * 2. 宣告一個大小為 46 的 `std::vector<int> counts(46, 0)` 作為箱子計數器。
+ * 3. 走訪從 lowLimit 到 highLimit 的每一個球編號 i：
+ * - 利用迴圈計算 i 的各位數字總和 num。
+ * - 將對應箱子的計數器加 1：`counts[num]++`。
+ * 4. 走訪完畢後，使用 `std::max_element` 找出 counts 陣列中的最大值並回傳。
  */
 
 class Solution {

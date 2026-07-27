@@ -1,6 +1,9 @@
 # Solution_0199
 
 ```cpp
+/**
+ * 註解：待補充
+ */
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {

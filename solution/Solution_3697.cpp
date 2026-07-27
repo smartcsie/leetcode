@@ -2,12 +2,12 @@
  * 題目：Compute Decimal Representation
  * 難度：簡單 (Easy)
  * 描述：將整數拆解為十進位下的位值加總陣列 (例如 504 -> [500, 4])。
- * * 優化重點：
+ * 優化重點：
  * 1. 防禦性編程：在迴圈末端檢查 n > 0，避免最後一輪 base 溢位。
  * 2. 空間效率：僅儲存非零位值，符合題目常見需求。
+ *
  * 時間複雜度：O(log N) - digit decomposition，跳過零位元。
  * 空間複雜度：O(log N) - 結果陣列大小為 O(log N)。
-
  */
 
 class Solution {

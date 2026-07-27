@@ -5,9 +5,11 @@
  * 題目：2001. Number of Pairs of Interchangeable Rectangles (可互換矩形的對數)
  * 難度：中等 (Medium)
  * 描述：找出寬高比相同的矩形對數量。
- * * 時間複雜度：O(N * log(min(w, h))) - log 部分來自 GCD 計算。
+ *
+ * 時間複雜度：O(N * log(min(w, h))) - log 部分來自 GCD 計算。
  * 空間複雜度：O(N) - 儲存每個比例的出現次數。
- * * 優化思路：
+ *
+ * 解法思路：
  * 將寬高比 (width/height) 透過 GCD 約分至最簡分數，避免浮點數運算帶來的誤差風險。
  */
 

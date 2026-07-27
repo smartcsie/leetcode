@@ -1,3 +1,6 @@
+/**
+ * 註解：待補充
+ */
 **
  * 題目：2108. Find First Palindromic String in the Array
  * 難度：簡單 (Easy)

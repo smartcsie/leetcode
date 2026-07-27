@@ -5,12 +5,12 @@
  * 題目：1109. Corporate Flight Bookings
  * 難度：中等 (Medium)
  * 描述：計算每一架航班在所有預訂請求後的總座位數。
- * * 優化重點：
+ * 優化重點：
  * 1. 差分標記：`diff[first - 1] += seats` 與 `diff[last] -= seats`。
  * 2. 前綴和還原：透過累加差分陣列得出最終結果。
+ *
  * 時間複雜度：O(N + K) - 差分陣列，N 為航班數，K 為預訂數。
  * 空間複雜度：O(N) - 差分陣列大小為 N+1。
-
  */
 
 class Solution {

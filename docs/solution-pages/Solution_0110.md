@@ -1,6 +1,9 @@
 # Solution_0110
 
 ```cpp
+/**
+ * 註解：待補充
+ */
 class Solution {
 public:
     int depth(TreeNode* root) {

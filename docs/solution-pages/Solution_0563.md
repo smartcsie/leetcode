@@ -2,18 +2,12 @@
 
 ```cpp
 /**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
+ * 題目：待補充
+ * 難度：待補充
+ * 描述：待補充
+ *
  * 時間複雜度：O(N) - 後序遍歷，計算每個節點子樹和。
  * 空間複雜度：O(H) - 遞迴深度為樹高 H。
-
  */
 
 class Solution {

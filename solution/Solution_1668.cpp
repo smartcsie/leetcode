@@ -2,9 +2,11 @@
  * 題目：1668. Maximum Repeating Substring (最大重複子字串)
  * 難度：簡單 (Easy)
  * 描述：計算 word 在 sequence 中連續重複出現的最大次數。
- * * 時間複雜度：O(N * M)，N 為 sequence 長度，M 為 word 長度。
+ *
+ * 時間複雜度：O(N * M)，N 為 sequence 長度，M 為 word 長度。
  * 空間複雜度：O(N)。
- * * 優化思路：
+ *
+ * 解法思路：
  * 1. 使用 string_view 避免 substr 產生的字串拷貝，提升效能。
  * 2. 簡潔化狀態更新。
  */

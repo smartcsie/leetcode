@@ -1,6 +1,9 @@
 # Solution_2248
 
 ```cpp
+/**
+ * 註解：待補充
+ */
 class Solution {
 public:
     vector<int> intersection(vector<vector<int>>& nums) {

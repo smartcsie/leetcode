@@ -1,21 +1,22 @@
 /**
  * 題目：1239. Maximum Length of a Concatenated String with Unique Characters
+ * 難度：待補充
  * 描述：給定一個字串陣列 arr，請找出一個字串序列，其串接起來的字串包含唯一字元，
- *       並返回該串接字串的最大可能長度。
- * 
+ * 並返回該串接字串的最大可能長度。
+ *
+ * 時間複雜度：O(2^N * N) - Bitmask 枚舉所有子集。
+ * 空間複雜度：O(2^N) - 儲存每個字串的 bitmask。
+ *
  * 解法思路：
  * 1. 使用 `std::bitset<26>` 將 26 個英文字母的出現狀態壓縮成二進位位元。
  * 2. 宣告 `allBits` 儲存目前所有合法的不重複字元組合狀態（初始為一個空集合）。
  * 3. 走訪 `arr` 中的每一個字串 word：
- *    - 先將 word 轉成 `wordBits`。若 word 本身有重複字元（即 `wordBits.count() < word.size()`），則直接跳過。
- *    - 倒序走訪目前的 `allBits` 陣列，嘗試將當前 word 的 bitset 與已存在的組合進行合併。
- *    - 利用 `(wordBits & bits).any()` 檢查是否有字元衝突（交集）：
- *      - 若有衝突則跳過。
- *      - 若無衝突，則將 `bits | wordBits` 透過 `push_back` 加入 `allBits` 中，並更新最大長度 `ans`。
+ * - 先將 word 轉成 `wordBits`。若 word 本身有重複字元（即 `wordBits.count() < word.size()`），則直接跳過。
+ * - 倒序走訪目前的 `allBits` 陣列，嘗試將當前 word 的 bitset 與已存在的組合進行合併。
+ * - 利用 `(wordBits & bits).any()` 檢查是否有字元衝突（交集）：
+ * - 若有衝突則跳過。
+ * - 若無衝突，則將 `bits | wordBits` 透過 `push_back` 加入 `allBits` 中，並更新最大長度 `ans`。
  * 4. 迴圈結束後返回 `ans`。
- * 時間複雜度：O(2^N * N) - Bitmask 枚舉所有子集。
- * 空間複雜度：O(2^N) - 儲存每個字串的 bitmask。
-
  */
 
 class Solution {

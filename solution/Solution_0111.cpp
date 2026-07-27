@@ -1,3 +1,6 @@
+/**
+ * 註解：待補充
+ */
 class Solution {
 public:
     int minDepth(TreeNode* root) {

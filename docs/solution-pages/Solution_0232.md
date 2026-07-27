@@ -5,9 +5,8 @@
  * 題目：232. Implement Queue using Stacks (用堆疊實作佇列)
  * 難度：簡單 (Easy)
  * 描述：使用兩個堆疊來模擬佇列的 FIFO (先進先出) 操作。
- * * 時間複雜度：
- * - push: O(1)
- * - pop / peek: O(1) 攤提時間 (Amortized)，每個元素最多從 sIn 移到 sOut 一次。
+ *
+ * 時間複雜度：- push: O(1) - pop / peek: O(1) 攤提時間 (Amortized)，每個元素最多從 sIn 移到 sOut 一次。
  * 空間複雜度：O(N) - 儲存所有元素。
  */
 

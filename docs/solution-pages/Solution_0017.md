@@ -5,13 +5,13 @@
  * 題目：17. Letter Combinations of a Phone Number
  * 難度：中等 (Medium)
  * 描述：找出電話號碼所有可能的字母組合。
- * * 優化重點：
+ * 優化重點：
  * 1. 預判邊界：若輸入 digits 為空，直接返回空陣列。
  * 2. 減少記憶體配置：使用 `reserve` 預先配置結果陣列空間，避免多次 reallocation。
  * 3. 簡化映射表：直接使用字串常數，減少 vector<char> 的嵌套與空間佔用。
+ *
  * 時間複雜度：O(4^N * N) - N 為 digits 長度，每個數字最多對應 4 個字母，每條路徑長度為 N。
  * 空間複雜度：O(N) - 遞迴深度與當前組合字串各佔 O(N)。
-
  */
 
 class Solution {

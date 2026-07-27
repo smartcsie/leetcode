@@ -2,12 +2,12 @@
  * 題目：3726. Remove Zeros in Decimal Representation
  * 難度：簡單 (Easy)
  * 描述：移除整數中所有的 0，並將剩餘數字組成新整數。
- * * 優化重點：
+ * 優化重點：
  * 1. 效率提升：直接使用數學累加，避免字串轉換帶來的開銷。
  * 2. 邊界檢查：使用 long long 確保運算過程中位數擴增不會溢位。
+ *
  * 時間複雜度：O(log N) - digit decomposition，跳過零位元累加。
  * 空間複雜度：O(1) - 僅使用常數空間。
-
  */
 
 class Solution {

@@ -1,17 +1,18 @@
 /**
  * 題目：3364. Minimum Positive Sum Subarray
+ * 難度：待補充
  * 描述：尋找長度在 [l, r] 之間的子陣列，使得其總和 > 0，並求出所有符合條件的總和中的最小值。
- *       若不存在任何正數總和的子陣列，則回傳 -1。
- * 
+ * 若不存在任何正數總和的子陣列，則回傳 -1。
+ *
+ * 時間複雜度：O(N log N) - 前綴和 + 排序多重集，滑動視窗。
+ * 空間複雜度：O(N) - multiset 大小最多為 N。
+ *
  * 解法思路：
  * 1. 前綴和 (Prefix Sum)：子陣列和可以用 psum[i] - psum[j] 來表示（其中 i - j 介於 [l, r] 之間）。
  * 2. 轉換為不等式：我們希望 psum[i] - psum[j] > 0 且盡量小，也就是希望 psum[j] < psum[i]，
- *    並且讓 psum[j] 越接近 psum[i] 越好。
+ * 並且讓 psum[j] 越接近 psum[i] 越好。
  * 3. 滑動視窗 + Multiset：利用 std::multiset 維護符合長度限制的 psum[j]，
- *    並透過 lower_bound 快速尋找小於且最接近 psum[i] 的前綴和。
- * 時間複雜度：O(N log N) - 前綴和 + 排序多重集，滑動視窗。
- * 空間複雜度：O(N) - multiset 大小最多為 N。
-
+ * 並透過 lower_bound 快速尋找小於且最接近 psum[i] 的前綴和。
  */
 
 class Solution {

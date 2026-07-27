@@ -1,17 +1,19 @@
 /**
  * 題目：2085. Count Common Words With One Occurrence
+ * 難度：待補充
  * 描述：計算在 words1 與 words2 中，皆「恰好出現一次」的單字數量。
- * 
- * 解法思路 (位元遮罩法)：
- * 1. 使用 unordered_map<string, int> 記錄單字狀態：
- *    - IN_W1 (1): 單字在 words1 出現過。
- *    - IN_W2 (2): 單字在 words2 出現過。
- *    - DUPLICATED (4): 單字在同一個陣列內重複出現 (或跨陣列累加後出現多次)。
- * 2. 遍歷兩個陣列，若單字再次出現，則使用 OR 運算將該單字的標記設為 DUPLICATED。
- * 3. 最後只需檢查 map 中滿足 mask == (IN_W1 | IN_W2) (即值為 3) 的單字個數。
+ *
  * 時間複雜度：O(N + M) - 兩次遍歷分別統計頻率，bitmask 記錄出現一次的字母。
  * 空間複雜度：O(N + M) - hash map 大小為 N + M。
-
+ *
+ * 解法思路：
+ * (位元遮罩法)：
+ * 1. 使用 unordered_map<string, int> 記錄單字狀態：
+ * - IN_W1 (1): 單字在 words1 出現過。
+ * - IN_W2 (2): 單字在 words2 出現過。
+ * - DUPLICATED (4): 單字在同一個陣列內重複出現 (或跨陣列累加後出現多次)。
+ * 2. 遍歷兩個陣列，若單字再次出現，則使用 OR 運算將該單字的標記設為 DUPLICATED。
+ * 3. 最後只需檢查 map 中滿足 mask == (IN_W1 | IN_W2) (即值為 3) 的單字個數。
  */
 
 class Solution {

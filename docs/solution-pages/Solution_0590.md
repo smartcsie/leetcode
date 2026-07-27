@@ -1,6 +1,9 @@
 # Solution_0590
 
 ```cpp
+/**
+ * 註解：待補充
+ */
 class Solution {
 public:
     void post(Node* root, vector<int>& res) {
