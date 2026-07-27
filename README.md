@@ -1814,9 +1814,38 @@ __builtin_popcount(x)<br>
 ## <a name="array-continuous-counting"></a>🍱 Array - Continuous Counting (陣列 連續計數)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) |
-| 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | String | [C++](./solution/Solution_1446.cpp) | O(N) | O(1) | |
+| 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) | [Note](#0485-max-consecutive-ones)  |
+| 0696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String / Greedy | [C++](./solution/Solution_696.cpp) | O(N) | O(1) | [Note](#0696-count-binary-substrings) |
+| 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | String | [C++](./solution/Solution_1446.cpp) | O(N) | O(1) | [Note](#1446-consecutive-characters) |
 | 1759 | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟢 Medium | Math / String | N/A | O(N) | O(1) | |
+
+### 0485. Max Consecutive Ones
+> [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)<br>
+>  travsal  nums ， num為1，count +1，否則為0，每次都更新ans值，ans為max<br>
+>  **for(const int& num : nums) {** <br>
+>  &emsp;&emsp;&emsp;&emsp;**count = (num & 1) ? count + 1 : 0;** <br>
+>  &emsp;&emsp;&emsp;&emsp;**ans = max(ans, count);** <br>
+>  **}** <br>
+
+
+### 0696. Count Binary Substrings
+> [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)<br>
+> 如果前後字元相等，用curEquals計數目前連續個0或1的個數，**if(s[i] == s[i - 1]) curEquals++;** <br>
+> 如果前後字元不相等，找出比較短那一半的長度， **min(preEquals, curEquals)** ，0001111 =3 ，111100 = 2<br>
+> ans計算總共字串，**ans += min(preEquals, curEquals);**， 因為如果 0011 = 2，字串有 01和0011剛好2種<br>
+> **preEquals = curEquals;curEquals = 1;** <br>
+
+### 1446. Consecutive Characters
+> [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)<br>
+>  travsal s，s[i] == s[i - 1]，count +1，否則為1，每次都更新ans值，ans為max<br>
+>  注意與 [485 Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)的差異是本題count初始值為1<br>
+>  **for(int i = 1; i < s.size(); i++) {** <br>
+>  &emsp;&emsp;&emsp;&emsp;**count = (s[i] == s[i - 1]) ? count + 1 : 1;** <br>
+>  &emsp;&emsp;&emsp;&emsp;**ans = max(ans, count);** <br>
+>  **}** <br>
+
+
+---
 
 <br><br>
 ---
@@ -2931,7 +2960,6 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | **0670** | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy | [C++](./solution/Solution_0670.cpp) | O(N) | O(1) | |
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy <br> String | [C++](./solution/Solution_0678.cpp) | O(N) | O(1) |
-| 0696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String / Greedy | [C++](./solution/Solution_696.cpp) | O(N) | O(1) | [Note](#0696-count-binary-substrings) |
 | 0860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 Easy | Greedy / Simulation |  [C++](./solution/Solution_0860.cpp) | O(N) | O(1) | |
 | 0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | Stack / Greedy | [C++](./solution/Solution_0921.cpp) | O(N) | O(1) | |
 | **0945** | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting <br> Greedy | [C++](./solution/Solution_0945.cpp) | O(NlogN) | O(1) | |
@@ -2977,17 +3005,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 ---
 
 
-### 0696. Count Binary Substrings
-> [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)<br>
-> 如果前後字元相等，用curEquals計數目前連續個0或1的個數，**if(s[i] == s[i - 1]) curEquals++;** <br>
-> 如果前後字元不相等，找出比較短那一半的長度， **min(preEquals, curEquals)** ，0001111 =3 ，111100 = 2<br>
-> ans計算總共字串，**ans += min(preEquals, curEquals);**， 因為如果 0011 = 2，字串有 01和0011剛好2種
-> **preEquals = curEquals;curEquals = 1;** <br>
 
-
-
-
----
 
 
 ### 0961. N-Repeated Element
