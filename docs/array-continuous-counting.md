@@ -1,10 +1,10 @@
 ## <a name="array-continuous-counting"></a>🍱 Array - Continuous Counting (陣列 連續計數)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp.md) | O(N) | O(1) | [Note](#0485-max-consecutive-ones)  |
-| 0696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String / Greedy | [C++](./solution/Solution_0696.cpp.md) | O(N) | O(1) | [Note](#0696-count-binary-substrings) |
-| 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | String | [C++](./solution/Solution_1446.cpp.md) | O(N) | O(1) | [Note](#1446-consecutive-characters) |
-| **1759** | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟢 Medium | Math / String | [C++](./solution/Solution_1759.cpp.md)  | O(N) | O(1) | |
+| 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution-pages/Solution_0485.md) | O(N) | O(1) | [Note](#0485-max-consecutive-ones)  |
+| 0696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String / Greedy | [C++](./solution-pages/Solution_0696.md) | O(N) | O(1) | [Note](#0696-count-binary-substrings) |
+| 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | String | [C++](./solution-pages/Solution_1446.md) | O(N) | O(1) | [Note](#1446-consecutive-characters) |
+| **1759** | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟢 Medium | Math / String | [C++](./solution-pages/Solution_1759.md)  | O(N) | O(1) | |
 
 ### 0485. Max Consecutive Ones
 > [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)<br>

@@ -1,21 +1,21 @@
 ## <a name="Bit-manipulation-xor"></a>📊 Bit Manipulation - XOR operation (位元運算 - 互斥或運算)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0136.cpp.md) | O(n) | O(1) | [Note](#0136-single-number) |
-| **0260** | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0260.cpp.md) | O(n) | O(1) | [Note](#0260-single-number-iii)
-| 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0268_2.cpp.md) | O(n) | O(1) | [Note](#0268-missing-number) |
-| **0477** | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Math / Bit Manipulation / Array | [C++](./solution/Solution_477.cpp.md) | O(31 * N) | O(1) | |
-| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 Easy | Simulation / Bit Manipulation | [C++](./solution/Solution_1486.cpp.md) | O(N) | O(1) |  |
-| 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 Easy | Bit Manipulation / Simulation | [C++](./solution/Solution_1720.cpp.md)| O(N) | O(N) | |
-| 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | Bit Manipulation / Math / Combinatorics | [C++](./solution/Solution_1863.cpp.md)  | O(N) | O(1) |  |
-| **2317** | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_2317.cpp.md) | O(n) | O(1) | [Note](#2317-maximum-xor-after-operations) |
-| 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2425.cpp.md) | O(N + M) | O(1) | [Note](#2425-bitwise-xor-of-all-pairings) |
-| 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | Bit Manipulation / Greedy | [C++](./solution/Solution_2429.cpp.md) | O(1) | O(1) | [Note](#2429-minimize-xor) |
-| 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 Medium | Bit Manipulation / Prefix XOR Inverse | [C++](./solution/Solution_2433.cpp.md) | O(N) | O(N) | |
-| 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_2683.cpp.md)  | O(N) | O(1) |  |
-| 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | Bit Manipulation / Array | [C++](./solution/Solution_3158.cpp.md) | O(N) | O(1) | |
-| 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Math / Bit Manipulation / Brainteaser | [C++](./solution/Solution_3513.cpp.md) | O(log N) | O(1) ||
-| 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 Medium | Bit Manipulation / Greedy | [C++](./solution/Solution_3702.cpp.md) | O(N) | O(1) | [Note](#3702-longest-subsequence-with-non-zero-bitwise-xor) |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution-pages/Solution_0136.md) | O(n) | O(1) | [Note](#0136-single-number) |
+| **0260** | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](./solution-pages/Solution_0260.md) | O(n) | O(1) | [Note](#0260-single-number-iii)
+| 0268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](./solution-pages/Solution_0268_2.md) | O(n) | O(1) | [Note](#0268-missing-number) |
+| **0477** | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Math / Bit Manipulation / Array | [C++](./solution-pages/Solution_477.md) | O(31 * N) | O(1) | |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 Easy | Simulation / Bit Manipulation | [C++](./solution-pages/Solution_1486.md) | O(N) | O(1) |  |
+| 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 Easy | Bit Manipulation / Simulation | [C++](./solution-pages/Solution_1720.md)| O(N) | O(N) | |
+| 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | Bit Manipulation / Math / Combinatorics | [C++](./solution-pages/Solution_1863.md)  | O(N) | O(1) |  |
+| **2317** | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](./solution-pages/Solution_2317.md) | O(n) | O(1) | [Note](#2317-maximum-xor-after-operations) |
+| 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution-pages/Solution_2425.md) | O(N + M) | O(1) | [Note](#2425-bitwise-xor-of-all-pairings) |
+| 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | Bit Manipulation / Greedy | [C++](./solution-pages/Solution_2429.md) | O(1) | O(1) | [Note](#2429-minimize-xor) |
+| 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 Medium | Bit Manipulation / Prefix XOR Inverse | [C++](./solution-pages/Solution_2433.md) | O(N) | O(N) | |
+| 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution-pages/Solution_2683.md)  | O(N) | O(1) |  |
+| 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | Bit Manipulation / Array | [C++](./solution-pages/Solution_3158.md) | O(N) | O(1) | |
+| 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Math / Bit Manipulation / Brainteaser | [C++](./solution-pages/Solution_3513.md) | O(log N) | O(1) ||
+| 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 Medium | Bit Manipulation / Greedy | [C++](./solution-pages/Solution_3702.md) | O(N) | O(1) | [Note](#3702-longest-subsequence-with-non-zero-bitwise-xor) |
 
 ### 0136 Single Number
 > [Single Number](https://leetcode.com/problems/single-number)<br>

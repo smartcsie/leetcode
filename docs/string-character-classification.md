@@ -1,28 +1,28 @@
 ## <a name="string-character-classification "></a>🔗 String - Character Classification (字串 字元識別)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String | [C++](./solution/Solution_0520.cpp.md) | O(N) | O(1) | [Note](#0520-detect-capital) |
-| 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String | [C++](./solution/Solution_0709.cpp.md) | O(N) | O(1) | [Note](#0709-to-lower-case) |
-| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 Medium | Hash Table / String / Counting | [C++](./solution/Solution_1347.cpp.md) | O(N) | O(1) | |
-| 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 Easy | String / Bit Manipulation | [C++](./solution/Solution_1704.cpp.md) | O(N) | O(1) | [Note](#1704-second-largest-digit-in-a-string) |
-| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String <br> Hash Table | [C++](./solution/Solution_1796.cpp.md) | O(N) | O(1) |[Note](#1796-second-largest-digit-in-a-string) |
-| 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String | [C++](./solution/Solution_1903.cpp.md) | O(N) | O(1) | [Note](#1903-largest-odd-number-in-string) |
-| 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 Easy | String / Stream | [C++](./solution/Solution_1935.cpp.md) | O(N * M) | O(1) | |
-| 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_1957.cpp.md) | O(N) | O(N) | |
-| 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String | [C++](./solution/Solution_2124.cpp.md) | O(N) | O(1) | [Note](#2124-check-if-all-as-appears-before-all-bs) |
-| 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | String / Counting | [C++](./solution/Solution_2278.cpp.md) | O(N) | O(1) | |
-| 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | Hash Table / String / Array | [C++](./solution/Solution_2399.cpp.md) | O(N) | O(1) ||
-| 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 Easy | Array / String / Simulation | [C++](./solution/Solution_2496.cpp.md) | O(N * L) | O(1) | |
-| 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array <br> String | [C++](./solution/Solution_2586.cpp.md) | O(n) | O(1) |
-| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution/Solution_2678.cpp.md) | O(n) | O(1) | [Note](#2678-number-of-senior-citizens) |
-| 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String / Two Pointers |  [C++](./solution/Solution_2710.cpp.md) | O(N) | O(1) | [Note](#2710-check-if-a-string-is-an-acronym-of-words) |
-| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution/Solution_3110.cpp.md) | O(N) | O(1) |
-| 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Processing | [C++](./solution/Solution_3121.cpp.md) | O(N) | O(1) | [Note](#3121-special-chars-ii) | | 
-| 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String / Validation | [C++](./solution/Solution_3136.cpp.md) | O(N) | O(1) | [Note](#3136-valid-word) |
-| 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3775.cpp.md) | O(N*L) | O(N) |
-| 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Processing | [C++](./solution/Solution_3813.cpp.md) | O(N) | O(1) | |
-| 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | String / Two Pointers | [C++](./solution/Solution_3856.cpp.md) | O(N) | O(1) | [Note](#3856-trim-trailing-vowels) |
-| 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String <br> Math | [C++](./solution/Solution_3931.cpp.md) | O(N) | O(1) |
+| 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String | [C++](./solution-pages/Solution_0520.md) | O(N) | O(1) | [Note](#0520-detect-capital) |
+| 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String | [C++](./solution-pages/Solution_0709.md) | O(N) | O(1) | [Note](#0709-to-lower-case) |
+| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 Medium | Hash Table / String / Counting | [C++](./solution-pages/Solution_1347.md) | O(N) | O(1) | |
+| 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 Easy | String / Bit Manipulation | [C++](./solution-pages/Solution_1704.md) | O(N) | O(1) | [Note](#1704-second-largest-digit-in-a-string) |
+| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String <br> Hash Table | [C++](./solution-pages/Solution_1796.md) | O(N) | O(1) |[Note](#1796-second-largest-digit-in-a-string) |
+| 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String | [C++](./solution-pages/Solution_1903.md) | O(N) | O(1) | [Note](#1903-largest-odd-number-in-string) |
+| 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 Easy | String / Stream | [C++](./solution-pages/Solution_1935.md) | O(N * M) | O(1) | |
+| 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 Easy | String / Two Pointers | [C++](./solution-pages/Solution_1957.md) | O(N) | O(N) | |
+| 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String | [C++](./solution-pages/Solution_2124.md) | O(N) | O(1) | [Note](#2124-check-if-all-as-appears-before-all-bs) |
+| 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | String / Counting | [C++](./solution-pages/Solution_2278.md) | O(N) | O(1) | |
+| 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | Hash Table / String / Array | [C++](./solution-pages/Solution_2399.md) | O(N) | O(1) ||
+| 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 Easy | Array / String / Simulation | [C++](./solution-pages/Solution_2496.md) | O(N * L) | O(1) | |
+| 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array <br> String | [C++](./solution-pages/Solution_2586.md) | O(n) | O(1) |
+| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](./solution-pages/Solution_2678.md) | O(n) | O(1) | [Note](#2678-number-of-senior-citizens) |
+| 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String / Two Pointers |  [C++](./solution-pages/Solution_2710.md) | O(N) | O(1) | [Note](#2710-check-if-a-string-is-an-acronym-of-words) |
+| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](./solution-pages/Solution_3110.md) | O(N) | O(1) |
+| 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Processing | [C++](./solution-pages/Solution_3121.md) | O(N) | O(1) | [Note](#3121-special-chars-ii) | | 
+| 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String / Validation | [C++](./solution-pages/Solution_3136.md) | O(N) | O(1) | [Note](#3136-valid-word) |
+| 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String / Two Pointers | [C++](./solution-pages/Solution_3775.md) | O(N*L) | O(N) |
+| 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Processing | [C++](./solution-pages/Solution_3813.md) | O(N) | O(1) | |
+| 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | String / Two Pointers | [C++](./solution-pages/Solution_3856.md) | O(N) | O(1) | [Note](#3856-trim-trailing-vowels) |
+| 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String <br> Math | [C++](./solution-pages/Solution_3931.md) | O(N) | O(1) |
 
 
 ### 0520. Detect Capital

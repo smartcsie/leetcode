@@ -1,7 +1,7 @@
 ## <a name="math-permutation"></a>🔢 Math Permutation(數學 排列)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | Permutation / Math | [C++](./solution/Solution_949.cpp.md) | O(1) | O(1) | [Note](#0949-largest-time-for-given-digits)|
+| 0949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | Permutation / Math | [C++](./solution-pages/Solution_949.md) | O(1) | O(1) | [Note](#0949-largest-time-for-given-digits)|
 
 
 ### 0949. Largest Time for Given Digits

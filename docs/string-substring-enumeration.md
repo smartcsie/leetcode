@@ -1,9 +1,9 @@
 ## <a name="string-substring-enumeration"></a>🔗 String - Substring Enumeration (字串 子字串列舉)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1291 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | 🟡 Medium | Brute Force / String | [C++](./solution/Solution_1291.cpp.md) | O(1) | O(1) | |
-| 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math / Brute Force | [C++](./solution/Solution_3556.cpp.md) | O(N²*sqrt(M)) | O(1) | [Note](#3556-sum-of-largest-prime-substrings) |
-| 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | Brute Force / Math | [C++](./solution/Solution_3713.cpp.md) | O(N^2) | O(1) |  |
+| 1291 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | 🟡 Medium | Brute Force / String | [C++](./solution-pages/Solution_1291.md) | O(1) | O(1) | |
+| 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math / Brute Force | [C++](./solution-pages/Solution_3556.md) | O(N²*sqrt(M)) | O(1) | [Note](#3556-sum-of-largest-prime-substrings) |
+| 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | Brute Force / Math | [C++](./solution-pages/Solution_3713.md) | O(N^2) | O(1) |  |
 
 ### 3556 Sum of Largest Prime Substrings
 > [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) <br>
