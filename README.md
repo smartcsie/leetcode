@@ -2931,7 +2931,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 | **0670** | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy | [C++](./solution/Solution_0670.cpp) | O(N) | O(1) | |
 | 0674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | 🟢 Easy | Array <br> Greedy | [C++](./solution/Solution_0674.cpp) | O(n) | O(1) |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy <br> String | [C++](./solution/Solution_0678.cpp) | O(N) | O(1) |
-| **0696** | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String / Greedy | [C++](./solution/Solution_696.cpp) | O(N) | O(1) ||
+| 0696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String / Greedy | [C++](./solution/Solution_696.cpp) | O(N) | O(1) | [Note](#0696-count-binary-substrings) |
 | 0860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 Easy | Greedy / Simulation |  [C++](./solution/Solution_0860.cpp) | O(N) | O(1) | |
 | 0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | Stack / Greedy | [C++](./solution/Solution_0921.cpp) | O(N) | O(1) | |
 | **0945** | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting <br> Greedy | [C++](./solution/Solution_0945.cpp) | O(NlogN) | O(1) | |
@@ -2974,6 +2974,19 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > 用 unordered_map<char, int> counts;統計大小寫出現頻率<br>
 > 對每個頻率，如果是偶數，直接加到res，如果是奇數，減1加到res<br>
 > 如果頻率有奇數，最後res再+1<br>
+---
+
+
+### 0696. Count Binary Substrings
+> [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)<br>
+> 如果前後字元相等，用curEquals計數目前連續個0或1的個數，**if(s[i] == s[i - 1]) curEquals++;** <br>
+> 如果前後字元不相等，找出比較短那一半的長度， **min(preEquals, curEquals)** ，0001111 =3 ，111100 = 2<br>
+> ans計算總共字串，**ans += min(preEquals, curEquals);**， 因為如果 0011 = 2，字串有 01和0011剛好2種
+> **preEquals = curEquals;curEquals = 1;** <br>
+
+
+
+
 ---
 
 
