@@ -3006,7 +3006,7 @@ root為空則return，swap左右子樹的node，invertTree遞迴左子樹，inve
 > &emsp;&emsp;&emsp;&emsp;**while(i < s.size() && s[i] == 'O') i++;** <br>
 > &emsp;&emsp;&emsp;&emsp;**if(i < s.size() && s[i] == 'X') {** <br>
 > &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**i += 3;** <br>
-> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;** count++;** <br>
+> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**count++;** <br>
 > &emsp;&emsp;&emsp;&emsp;**}** <br>
 > **}** <br>
 ---
