@@ -1,36 +1,36 @@
 ## <a name="Bit-manipulation"></a>📊 Bit Manipulation (位元運算)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_0029.cpp) | O(log²N) | O(1) |
-| 0089 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_0089.cpp) | O(2ᴺ) | O(1) | |
-| 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit-Manipulation | [C++](./solution/Solution_0137.cpp) | O(n) | O(1) | [Note](#0137-2-single-number-ii)  |
-| 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0190.cpp) | O(1) | O(1) | [Note](#0190-reverse-bits) |
-| **0371** | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp) | O(1) | O(1) | | 
-| 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Hash Table <br> Bit Manipulation | [C++](./solution/Solution_0389.cpp) | O(N) | O(1) | [Note](#0389-find-the-difference) |
-| 0401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation / Brute Force | [C++](./solution/Solution_401.cpp) | O(1) | O(1) ||
-| 0476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0476.cpp) | O(log N) | O(1) | [Note](#0476-number-complement) | 
-| 0762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0762.cpp) | O(N log K) | O(1) |  |
-| 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1009.cpp) | O(log N) | O(1) | [Note](#1009-complement-of-base-10-integer)|
-| 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | String / Bit Manipulation / Sliding Window | [C++](./solution/Solution_1016.cpp) | O(N * len) | O(1) | |
-| 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 Easy | Bit Manipulation / Math | [C++](./solution/Solution_1342.cpp) | O(1) | O(1) |  |
-| **1680** | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Math / Bit Manipulation | [C++](./solution/Solution_1680.cpp) | O(N) | O(1) | |
-| 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array <br> Hash Table <br> Bit Manipulation | [C++](./solution/Solution_1684.cpp) | O(N * M) | O(1) | [Note](#1684-count-the-number-of-consistent-strings) |
-| 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 Easy | Math / String / Bit Manipulation | [C++](./solution/Solution_1812.cpp) | O(1) | O(1) | |
-| 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 Easy | Hash Table / Bit Manipulation / String | [C++](./solution/Solution_1832.cpp) | O(N) | O(1) | |
-| 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 Easy | Array / Bitset / Simulation | [C++](./solution/Solution_1893.cpp) | O(N * L) | O(1)* ||
-| **1920** | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1920.cpp) | O(N) | O(1) | |
-| 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2032.cpp) | O(N1+N2+N3) | O(1) | [Note](#2032-two-out-of-three) |
-| 2085 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | 🟢 Easy | Hash Map / Bitmask | [C++](./solution/Solution_2085.cpp) | O(N + M) | O(N + M) | |
-| **2235** | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2235.cpp) | O(1) | O(1) | [Note](#2235-add-two-integers) |
-| 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 Medium | Array / Hash Table / Math / Bitset | [C++](./solution/Solution_2442.cpp) | O(N * D) | O(M)* || 
-| 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Hash Set <br> Bit Manipulation | [C++](./solution/Solution_2716.cpp) | O(N) | O(1) | [Note](#2716-minimize-string-length) |
-| 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 Easy | Bit Manipulation / Built-in Function |  [C++](./solution/Solution_2859.cpp)  | O(N) | O(1) | |
-| 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Array / Hash Table / Bitset | [C++](./solution/Solution_2956.cpp) | O(N + M) | O(1)* |  |
-| 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3019.cpp) | O(N) | O(1) | |
-| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3120.cpp) | O(N) | O(1) | |
-| 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp) | O(N) | O(1) | [Note](#3151-special-array-i) |
-| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp) | O(log N) | O(1) | [Note](#3370-smallest-number-with-all-set-bits) |
-| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3827.cpp) | O(1) | O(1) | [Note](#3827-count-monobit-integers) |
+| 0029 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_0029.cpp.md) | O(log²N) | O(1) |
+| 0089 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Bit Manipulation / Math | [C++](./solution/Solution_0089.cpp.md) | O(2ᴺ) | O(1) | |
+| 0137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit-Manipulation | [C++](./solution/Solution_0137.cpp.md) | O(n) | O(1) | [Note](#0137-2-single-number-ii)  |
+| 0190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit-Manipulation | [C++](./solution/Solution_0190.cpp.md) | O(1) | O(1) | [Note](#0190-reverse-bits) |
+| **0371** | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_0371.cpp.md) | O(1) | O(1) | | 
+| 0389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Hash Table <br> Bit Manipulation | [C++](./solution/Solution_0389.cpp.md) | O(N) | O(1) | [Note](#0389-find-the-difference) |
+| 0401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation / Brute Force | [C++](./solution/Solution_401.cpp.md) | O(1) | O(1) ||
+| 0476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0476.cpp.md) | O(log N) | O(1) | [Note](#0476-number-complement) | 
+| 0762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0762.cpp.md) | O(N log K) | O(1) |  |
+| 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1009.cpp.md) | O(log N) | O(1) | [Note](#1009-complement-of-base-10-integer)|
+| 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | String / Bit Manipulation / Sliding Window | [C++](./solution/Solution_1016.cpp.md) | O(N * len) | O(1) | |
+| 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 Easy | Bit Manipulation / Math | [C++](./solution/Solution_1342.cpp.md) | O(1) | O(1) |  |
+| **1680** | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Math / Bit Manipulation | [C++](./solution/Solution_1680.cpp.md) | O(N) | O(1) | |
+| 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array <br> Hash Table <br> Bit Manipulation | [C++](./solution/Solution_1684.cpp.md) | O(N * M) | O(1) | [Note](#1684-count-the-number-of-consistent-strings) |
+| 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 Easy | Math / String / Bit Manipulation | [C++](./solution/Solution_1812.cpp.md) | O(1) | O(1) | |
+| 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 Easy | Hash Table / Bit Manipulation / String | [C++](./solution/Solution_1832.cpp.md) | O(N) | O(1) | |
+| 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 Easy | Array / Bitset / Simulation | [C++](./solution/Solution_1893.cpp.md) | O(N * L) | O(1)* ||
+| **1920** | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1920.cpp.md) | O(N) | O(1) | |
+| 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2032.cpp.md) | O(N1+N2+N3) | O(1) | [Note](#2032-two-out-of-three) |
+| 2085 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | 🟢 Easy | Hash Map / Bitmask | [C++](./solution/Solution_2085.cpp.md) | O(N + M) | O(N + M) | |
+| **2235** | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2235.cpp.md) | O(1) | O(1) | [Note](#2235-add-two-integers) |
+| 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 Medium | Array / Hash Table / Math / Bitset | [C++](./solution/Solution_2442.cpp.md) | O(N * D) | O(M)* || 
+| 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Hash Set <br> Bit Manipulation | [C++](./solution/Solution_2716.cpp.md) | O(N) | O(1) | [Note](#2716-minimize-string-length) |
+| 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 Easy | Bit Manipulation / Built-in Function |  [C++](./solution/Solution_2859.cpp.md)  | O(N) | O(1) | |
+| 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Array / Hash Table / Bitset | [C++](./solution/Solution_2956.cpp.md) | O(N + M) | O(1)* |  |
+| 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3019.cpp.md) | O(N) | O(1) | |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3120.cpp.md) | O(N) | O(1) | |
+| 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array <br> Bit Manipulation | [C++](./solution/Solution_3151.cpp.md) | O(N) | O(1) | [Note](#3151-special-array-i) |
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3370.cpp.md) | O(log N) | O(1) | [Note](#3370-smallest-number-with-all-set-bits) |
+| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_3827.cpp.md) | O(1) | O(1) | [Note](#3827-count-monobit-integers) |
 
 ---
 
@@ -92,7 +92,7 @@
 ### 0476 Number Complement
 > [Number Complement](https://leetcode.com/problems/number-complement)<br>
 > temp = num， while(temp > 0)，mask Or 1 一直左移動，最後mask ^ num<br>
-> [476 Number Complement](./solution/Solution_0476.cpp)和[1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp)<br>
+> [476 Number Complement](./solution/Solution_0476.cpp.md)和[1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp.md)<br>
 > 本質上是相同的題目。<br>
 ---
 
@@ -173,7 +173,7 @@
 ### 3370 Smallest Number With All Set Bits
 > [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)<br>
 > int mask = ~0; while(n & mask) { mask <<= 1; } return ~mask;<br>
-> [476 Number Complement](./solution/Solution_0476.cpp)和[1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp)<br>
+> [476 Number Complement](./solution/Solution_0476.cpp.md)和[1009 Complement of Base 10 Integer](./solution/Solution_1009.cpp.md)<br>
 > 類似上面這兩個的題目，只是直接回傳mask。<br>
 ---
 

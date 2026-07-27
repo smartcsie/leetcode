@@ -1,0 +1,45 @@
+# Solution_1461
+
+```cpp
+/**
+ * 題目：1461. Check If a String Contains All Binary Codes of Size K
+ * 描述：給你一個二進位字串 s 和一個整數 k。如果所有長度為 k 的二進位字串都是 s 的子字串，請返回 true，否則返回 false。
+ * 
+ * 解法思路：
+ * 1. 避免 TLE 的反向思考（從 s 收集子字串）：
+ *    - 如果主動去產生 $2^k$ 種二進位碼並在 s 中用 find 尋找，時間複雜度會太高（TLE）。
+ *    - 正確做法是：單次走訪字串 s，用滑動視窗切出所有長度為 k 的子字串，並放入 `unordered_set` 中去重。
+ * 2. 邊界快速剪枝（Early Pruning）：
+ *    - 長度為 $k$ 的所有二進位代碼總共有 $2^k$ 種。
+ *    - 若字串 s 的長度小於 $k + 2^k - 1$，代表 s 絕對容納不下所有可能的組合，可直接返回 false。
+ * 3. 提早結束優化：
+ *    - 在迴圈中若 `seen.size()` 已經達到 $2^k$（即 `total`），可直接返回 true，不必跑完全程。
+ */
+
+class Solution {
+public:
+    bool hasAllCodes(std::string s, int k) {
+        int total = 1 << k; // 2^k 種可能的二進位代碼
+        
+        // 快速剪枝：字串長度不足以容納所有組合時直接返回 false
+        if (s.length() < k + total - 1) {
+            return false;
+        }
+        
+        std::unordered_set<std::string> seen;
+        
+        // 滑動視窗：從頭到尾切出所有長度為 k 的子字串
+        for (int i = 0; i + k <= s.length(); i++) {
+            seen.insert(s.substr(i, k));
+            
+            // 若已蒐集滿所有可能的組合，提早返回 true
+            if (seen.size() == total) {
+                return true;
+            }
+        }
+        
+        return seen.size() == total;
+    }
+};
+
+```

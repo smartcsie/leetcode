@@ -1,9 +1,9 @@
 ## <a name="math-palindrome"></a>🔢 Math Palindrome(數學-回文)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp) | O(logn) | O(1) | [Note](#0009-palindrome-number) |
-| 0866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math / Palindrome | [C++](./solution/Solution_0866.cpp) | O(sqrt(P) * 10^(L/2)) | O(1) |
-| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math <br> Brainteaser | [C++](./solution/Solution_2396.cpp) | O(1) | O(1) | [Note](#2396-strictly-palindromic-number) |
+| 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](./solution/Solution_0009.cpp.md) | O(logn) | O(1) | [Note](#0009-palindrome-number) |
+| 0866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math / Palindrome | [C++](./solution/Solution_0866.cpp.md) | O(sqrt(P) * 10^(L/2)) | O(1) |
+| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math <br> Brainteaser | [C++](./solution/Solution_2396.cpp.md) | O(1) | O(1) | [Note](#2396-strictly-palindromic-number) |
 
 
 ### 0009. Palindrome Number

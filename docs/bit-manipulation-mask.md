@@ -1,18 +1,18 @@
 ## <a name="Bit-manipulation-mask"></a>📊 Bit Manipulation - Mask (位元運算 - 遮罩)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | 🟡 Medium | Bit Manipulation / Bitmask | [C++](./solution/Solution_318.cpp) | O(N * L + N^2) | O(N) |  |
-| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation / Bitmask | [C++](./solution/Solution_2605.cpp) | O(N + M) | O(1) | [Note](#2605-form-smallest-number-from-two-digit-arrays) |
+| 0318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | 🟡 Medium | Bit Manipulation / Bitmask | [C++](./solution/Solution_318.cpp.md) | O(N * L + N^2) | O(N) |  |
+| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation / Bitmask | [C++](./solution/Solution_2605.cpp.md) | O(N + M) | O(1) | [Note](#2605-form-smallest-number-from-two-digit-arrays) |
 
 
 
 ### 2605 Form Smallest Number From Two Digit Arrays
 > [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) <br>
 > **此題總共有四種作法**<br>
-> [法一 int mask](./solution/Solution_2605.cpp)，Time:O(N+M)，Time:O(1)<br>
-> [法二 雙迴圈暴力法](./solution/Solution_2605_1.cpp)，Time:O(N*M)，Time:O(1)<br>
-> [法三 bitset](./solution/Solution_2605_2.cpp)，Time:O(N+M)，Time:O(1)<br>
-> [法四 unordered_map](./solution/Solution_2605_3.cpp)，Time:O(N+M)，Time:O(M)<br>
+> [法一 int mask](./solution/Solution_2605.cpp.md)，Time:O(N+M)，Time:O(1)<br>
+> [法二 雙迴圈暴力法](./solution/Solution_2605_1.cpp.md)，Time:O(N*M)，Time:O(1)<br>
+> [法三 bitset](./solution/Solution_2605_2.cpp.md)，Time:O(N+M)，Time:O(1)<br>
+> [法四 unordered_map](./solution/Solution_2605_3.cpp.md)，Time:O(N+M)，Time:O(M)<br>
 > 因為只有0~9，兩個mask 紀錄數字出現位置，int mask1 = 0, mask2 = 0;<br>
 > **for(const int& num : nums1) mask1 |= 1 << num;** <br>
 > **for(const int& num : nums2) mask2 |= 1 << num;** <br>
