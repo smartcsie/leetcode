@@ -2355,6 +2355,7 @@ __builtin_popcount(x)<br>
 | 2287 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | 🟢 Easy | Hash Table / String / Counting | [C++](./solution/Solution_2287.cpp) | O(N + M) | O(1) ||
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 Easy | Array / Hash Table / Counting | [C++](./solution/Solution_2341.cpp) | O(N) | O(1)* | |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2351.cpp) | O(N) | O(1) |
+| 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium | Hash Map / Matrix Simulation | [C++](./solution/Solution_2352.cpp) | O(N³logN) 或 O(N²log N)* | O(N²) | |
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | Hash Table | [C++](./solution/Solution_2395.cpp) | O(N) | O(N) | [Note](#2395-find-subarrays-with-equal-sum) |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table <br> Counting | [C++](./solution/Solution_2404.cpp) | O(n) | O(n) |
 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | Hash Map / Difference Array |[C++](./solution/Solution_2451.cpp) | O(N * M) | O(N * M) | |
