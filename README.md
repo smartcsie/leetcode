@@ -890,7 +890,6 @@ __builtin_popcount(x)<br>
 | 0762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_0762.cpp) | O(N log K) | O(1) |  |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_1009.cpp) | O(log N) | O(1) | [Note](#1009-complement-of-base-10-integer)|
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | String / Bit Manipulation / Sliding Window | [C++](./solution/Solution_1016.cpp) | O(N * len) | O(1) | |
-| 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 Medium | Bit Manipulation / Backtracking / Bitset | [C++](./solution/Solution_1239.cpp) | O(2ᴺ) | O(2ᴺ) ||
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 Easy | Bit Manipulation / Math | [C++](./solution/Solution_1342.cpp) | O(1) | O(1) |  |
 | **1680** | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Math / Bit Manipulation | [C++](./solution/Solution_1680.cpp) | O(N) | O(1) | |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array <br> Hash Table <br> Bit Manipulation | [C++](./solution/Solution_1684.cpp) | O(N * M) | O(1) | [Note](#1684-count-the-number-of-consistent-strings) |
@@ -1099,6 +1098,7 @@ __builtin_popcount(x)<br>
 ## <a name="Bit-manipulation-or"></a>📊 Bit Manipulation - OR operation (位元運算 - 或運算)
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1239** | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 Medium | Bit Manipulation / Backtracking / Bitset | [C++](./solution/Solution_1239.cpp) | O(2ᴺ) | O(2ᴺ) ||
 | **1318** | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | Bit Manipulation | [C++](./solution/Solution_1318.cpp) | O(1) | O(1) | [Note](#1318-minimum-flips-to-make-a-or-b-equal-to-c) |
 | **2397** | [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/) | 🟡 Medium | Bit Manipulation / Bitmask / Combinatorics | [C++](./solution/Solution_2397.cpp) | O(2ᴺ*M + M*N) | O(M) |  |
 | **2917** | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 Easy | Bit Manipulation | [C++](./solution/Solution_2917.cpp) | O(N * log(max_val)) | O(1) | [Note](#2917-find-the-k-or-of-an-array) |
@@ -1110,6 +1110,13 @@ __builtin_popcount(x)<br>
 > [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)<br>
 > **int diff = (a | b) ^ c;** <br>
 > **int flips = __builtin_popcount(diff & ~c) + __builtin_popcount(a & b & diff);** <br>
+
+---
+
+
+### 2397 Maximum Rows Covered by Columns
+> [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/)<br>
+> 跟 [1239 Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)類似
 
 ---
 
