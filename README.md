@@ -1815,9 +1815,9 @@ __builtin_popcount(x)<br>
 | # | 題目 | 難度 | 標籤 | 程式碼 | 時間 | 空間 | 詳解 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](./solution/Solution_0485.cpp) | O(N) | O(1) | [Note](#0485-max-consecutive-ones)  |
-| 0696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String / Greedy | [C++](./solution/Solution_696.cpp) | O(N) | O(1) | [Note](#0696-count-binary-substrings) |
+| 0696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String / Greedy | [C++](./solution/Solution_0696.cpp) | O(N) | O(1) | [Note](#0696-count-binary-substrings) |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | String | [C++](./solution/Solution_1446.cpp) | O(N) | O(1) | [Note](#1446-consecutive-characters) |
-| 1759 | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟢 Medium | Math / String | N/A | O(N) | O(1) | |
+| **1759** | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟢 Medium | Math / String | [C++](./solution/Solution_1759.cpp)  | O(N) | O(1) | |
 
 ### 0485. Max Consecutive Ones
 > [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)<br>
