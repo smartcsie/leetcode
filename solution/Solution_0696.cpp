@@ -7,25 +7,21 @@
  * 2. 邏輯簡潔：利用相鄰分組的長度限制，將問題轉化為 min(prev, curr) 的累加。
  */
 
-#include <string>
-#include <vector>
-#include <algorithm>
-
 class Solution {
 public:
-    int countBinarySubstrings(std::string s) {
+    int countBinarySubstrings(string s) {
         int ans = 0;
-        int prev = 0, curr = 0;
-        
-        for (int i = 0; i < s.size(); i++) {
-            curr++;
-            // 當發現字元改變，或者到達最後一個字元時計算
-            if (i + 1 == s.size() || s[i] != s[i + 1]) {
-                ans += std::min(prev, curr);
-                prev = curr;
-                curr = 0;
+        int preEquals = 0;
+        int curEquals = 1;
+        for(int i = 1 ; i < s.size(); i++) {
+            if(s[i] == s[i - 1]) {
+                curEquals++;
+            } else {
+                ans += min(preEquals, curEquals);
+                preEquals = curEquals;
+                curEquals = 1;
             }
         }
-        return ans;
+        return ans + min(preEquals, curEquals);
     }
 };
