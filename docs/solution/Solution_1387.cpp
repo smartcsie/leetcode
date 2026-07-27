@@ -1,0 +1,38 @@
+/**
+ * 題目：1387. Sort Integers by The Power Value
+ * 描述：一個整數 x 的權重值（Power Value）定義為將 x 依據考拉茲猜想（Collatz Conjecture）轉換為 1 所需的步數：
+ *       - 若 x 為偶數，則 x = x / 2
+ *       - 若 x 為奇數，則 x = 3 * x + 1
+ *       給定區間 [lo, hi] 與整數 k，請將區間內的數字依據「權重值升冪」排序；
+ *       若權重值相同，則依據「數字本身升冪」排序。最後回傳排序後第 k 個數字（從 1 開始計數）。
+ * 
+ * 解法思路（遞迴計算 + std::nth_element 快速選擇）：
+ * 1. 權重計算（Collatz 遞迴）：
+ *    - 寫一個輔助函式 `getPow(n)`，利用位元運算 `!(n & 1)` 判斷奇偶性並遞迴累加步數，基底條件為 `n == 1` 時回傳 0。
+ * 2. 數對儲存（Pair Auto-Sorting）：
+ *    - 將 `{getPow(i), i}` 存入 `pows` 陣列。利用 `std::pair` 預設先比對 `.first` 再比對 `.second` 的特性，巧妙處理平手狀況。
+ * 3. 快速選擇優化（Quickselect）：
+ *    - 題目只需取得第 k 個元素，使用 `std::nth_element` 取代完整排序（`std::sort`），能將排序的時間複雜度從 O(N log N) 降至平均 O(N)。
+ */
+
+class Solution {
+private:
+    // 計算 Collatz 轉換步數 (Power Value)
+    int getPow(int n) {
+        if (n == 1) return 0;
+        return 1 + (!(n & 1) ? getPow(n / 2) : getPow(3 * n + 1));
+    }
+public:
+    int getKth(int lo, int hi, int k) {
+        std::vector<std::pair<int, int>> pows;
+        pows.reserve(hi - lo + 1);
+        // 收集區間內每個數字的權重與數值
+        for (int i = lo; i <= hi; i++) {
+            pows.push_back({getPow(i), i});
+        }
+        // 使用 nth_element 在平均 O(N) 時間內將第 k-1 小的元素放在正確位置
+        std::nth_element(pows.begin(), pows.begin() + k - 1, pows.end());
+        // 回傳第 k 小元素的原始數字 (.second)
+        return pows[k - 1].second;
+    }
+};

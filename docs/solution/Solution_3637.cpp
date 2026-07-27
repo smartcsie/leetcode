@@ -1,0 +1,49 @@
+/**
+ * 題目：3637. Trionic Array I
+ * 描述：檢查給定的整數陣列 nums 是否為 Trionic 陣列。
+ *       所謂 Trionic 陣列，通常指陣列元素呈現「先嚴格遞增、再嚴格遞減、最後再嚴格遞增」的三段式變化。
+ * 
+ * 解法思路（三階段指標掃描法 Three-Phase Scan）：
+ * 1. 第一階段（遞增）：
+ *    - 從頭開始尋找，只要 `nums[idx1] < nums[idx1 + 1]` 就持續向右推進。
+ *    - 若 `idx1 == 0`，代表一開始就沒有遞增段，直接返回 `false`。
+ * 2. 第二階段（遞減）：
+ *    - 接續第一階段的結尾，只要 `nums[idx2] > nums[idx2 + 1]` 就持續向右推進。
+ *    - 若 `idx2 == idx1`（代表沒有遞減段）或 `idx2 == n - 1`（代表遞減直到結尾而沒有第三階段），返回 `false`。
+ * 3. 第三階段（遞增）：
+ *    - 接續第二階段的結尾，只要 `nums[idx3] < nums[idx3 + 1]` 就持續向右推進。
+ *    - 最後檢查 `idx3` 是否剛好走到陣列的最後一個元素（即 `n - 1`），若是則返回 `true`，否則代表中途斷掉或未完全涵蓋，返回 `false`。
+ * 時間複雜度：O(N) - 兩個指針追蹤 0 和正數位置，狀態轉移。
+ * 空間複雜度：O(1) - 僅使用常數空間。
+
+ */
+
+class Solution {
+public:
+    bool isTrionic(std::vector<int>& nums) {
+        int n = nums.size();
+        int idx1 = 0;
+        
+        // 階段 1：尋找嚴格遞增段
+        while (idx1 < n - 2 && nums[idx1] < nums[idx1 + 1]) {
+            idx1++;
+        }
+        if (idx1 == 0) return false;
+
+        // 階段 2：尋找嚴格遞減段
+        int idx2 = idx1;
+        while (idx2 < n - 1 && nums[idx2] > nums[idx2 + 1]) {
+            idx2++;
+        }
+        if (idx2 == idx1 || idx2 == n - 1) return false;
+
+        // 階段 3：尋找結尾的嚴格遞增段
+        int idx3 = idx2;
+        while (idx3 < n - 1 && nums[idx3] < nums[idx3 + 1]) {
+            idx3++;
+        }
+
+        // 檢查是否完整掃描到陣列結尾
+        return idx3 == (n - 1);
+    }
+};
