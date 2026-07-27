@@ -7,6 +7,9 @@
  * 1. 遍歷陣列的每個索引 i（從 0 到 nums.size() - 1）。
  * 2. 使用 GCC 內建函數 __builtin_popcount(i) 計算索引 i 的二進位中有多少個 1。
  * 3. 若計數等於 k，則將該索引對應的 nums[i] 累加到總和中。
+ * 時間複雜度：O(N) - 單次遍歷，__builtin_popcount 計算 set bits。
+ * 空間複雜度：O(1) - 僅使用常數空間。
+
  */
 
 class Solution {

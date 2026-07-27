@@ -2,6 +2,9 @@
  * 題目：2027. Minimum Moves to Convert String
  * 難度：簡單 (Easy)
  * 描述：計算將所有 'X' 轉換為 'O' 的最少翻轉次數。
+ * 時間複雜度：O(N) - 單次遍歷，每遇到 X 跳過 3 格並計數。
+ * 空間複雜度：O(1) - 僅使用常數空間。
+
  */
 
 class Solution {

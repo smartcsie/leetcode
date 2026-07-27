@@ -11,6 +11,9 @@
  * 
  * Time Complexity: O(n) - 只需要遍歷陣列一次。
  * Space Complexity: O(1) - 僅使用兩個整數變數。
+ * 時間複雜度：O(N) - 單次遍歷，Kadane's Algorithm。
+ * 空間複雜度：O(1) - 僅維護常數個變數。
+
  */
 // neetcode.io solution
 

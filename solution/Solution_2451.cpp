@@ -7,6 +7,9 @@
  * 1. 定義輔助函數 getDiff：計算相鄰字元的 ASCII 差值並轉為字串。
  * 2. 使用 unordered_multimap 紀錄 {差異陣列: 原字串} 的映射關係。
  * 3. 遍歷 map，找到計數為 1 的那個差異陣列，即為目標字串。
+ * 時間複雜度：O(N * M) - 計算每個字串的差分陣列，hash map 分組。
+ * 空間複雜度：O(N * M) - hash map 大小為 N。
+
  */
 
 class Solution {

@@ -10,6 +10,9 @@
  * 4. 走訪 `text` 的每個字元，填入 `ballons`。
  * 5. 針對 "balloon" 內有出現的字母（counts[i] > 0），計算 `ballons[i] / counts[i]`，
  *    並找出所有字母中的最小值 (`minBallons`)，此即為能組出的最大單字數量。
+ * 時間複雜度：O(N) - 統計字母頻率，取各字母需求量的最小倍數。
+ * 空間複雜度：O(1) - 固定大小計數陣列。
+
  */
 
 class Solution {

@@ -6,6 +6,9 @@
  * 1. 窮舉全排列：利用 std::next_permutation 遍歷所有 24 種組合。
  * 2. 條件過濾：確保 hour < 24 且 minute < 60。
  * 3. 狀態記錄：維護當前找到的最大小時與分鐘。
+ * 時間複雜度：O(1) - 固定 4 個數字，next_permutation 枚舉 24 種排列。
+ * 空間複雜度：O(1) - 固定大小陣列。
+
  */
 
 class Solution {

@@ -13,6 +13,9 @@
  * 4. 題目要求計算 `num1 - num2`：
  *    num1 - num2 = (total_sum - divisible_sum) - divisible_sum
  *                = total_sum - 2 * divisible_sum。
+ * 時間複雜度：O(1) - 等差數列公式計算可被 n 整除的總和。
+ * 空間複雜度：O(1) - 無額外空間。
+
  */
 
 class Solution {

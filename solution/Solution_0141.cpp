@@ -12,6 +12,9 @@
  * 
  * Time Complexity: O(n) - 最壞情況下快指標遍歷兩次鏈表。
  * Space Complexity: O(1) - 僅使用兩個指標，不需額外空間。
+ * 時間複雜度：O(N) - 快慢指針，最多遍歷一圈。
+ * 空間複雜度：O(1) - 僅使用兩個指針。
+
  */
 
 class Solution {

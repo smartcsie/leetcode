@@ -11,6 +11,9 @@
  * 
  * Time Complexity: O(n) - 只需要遍歷陣列一次。
  * Space Complexity: O(1) - 原地修改，僅使用兩個額外的整數指標。
+ * 時間複雜度：O(N) - 單次遍歷陣列。
+ * 空間複雜度：O(1) - 僅使用兩個指針，無額外空間。
+
  */
 
 class Solution {

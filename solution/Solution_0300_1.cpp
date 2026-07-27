@@ -11,6 +11,9 @@
  * 
  * Time Complexity: O(n^2) - 雙重迴圈遍歷。
  * Space Complexity: O(n) - 需要一個長度為 n 的 dp 陣列。
+ * 時間複雜度：O(N^2) - 雙層迴圈 DP。
+ * 空間複雜度：O(N) - dp 陣列大小為 N。
+
  */
 
 

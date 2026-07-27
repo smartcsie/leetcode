@@ -7,6 +7,9 @@
  * 1. 使用 `istringstream` 將句子依照空白分割成一個個單字。
  * 2. 遍歷每個單字，並使用 `word.find(searchWord) == 0` 來判斷 `searchWord` 是否出現於單字的開頭位置 (即索引 0)。
  * 3. 維護一個 `index` 計數器從 1 開始，一旦符合條件立即回傳。
+ * 時間複雜度：O(N) - 用 istringstream 逐字拆分後比對前綴。
+ * 空間複雜度：O(W) - 儲存當前單字。
+
  */
 
 class Solution {

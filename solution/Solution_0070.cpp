@@ -12,6 +12,9 @@
  * 
  * Time Complexity: O(n)
  * Space Complexity: O(1)
+ * 時間複雜度：O(N) - 單次遍歷，滾動兩個變數。
+ * 空間複雜度：O(1) - 僅使用兩個變數儲存前兩步結果。
+
  */
 
 class Solution {

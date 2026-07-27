@@ -12,6 +12,9 @@
  * 4. 再次走訪 nums1，檢查每個數字是否存在於 bits2 中（`bits2.test(num)`），若存在則 ans[0]++。
  * 5. 同理，走訪 nums2，檢查每個數字是否存在於 bits1 中，若存在則 ans[1]++。
  * 6. 返回結果向量 ans。
+ * 時間複雜度：O(N + M) - 兩個 bitset 分別記錄，AND 後計 popcount。
+ * 空間複雜度：O(1) - 固定大小 bitset。
+
  */
 
 class Solution {

@@ -13,6 +13,9 @@
  *      - 若有衝突則跳過。
  *      - 若無衝突，則將 `bits | wordBits` 透過 `push_back` 加入 `allBits` 中，並更新最大長度 `ans`。
  * 4. 迴圈結束後返回 `ans`。
+ * 時間複雜度：O(2^N * N) - Bitmask 枚舉所有子集。
+ * 空間複雜度：O(2^N) - 儲存每個字串的 bitmask。
+
  */
 
 class Solution {

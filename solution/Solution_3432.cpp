@@ -8,6 +8,9 @@
  * 2. 總和 `totalSum` 減去 `leftSum` 即為 `rightSum`。
  * 3. 檢查 `abs(leftSum - rightSum)` 是否為偶數。
  * 4. 注意：題目要求分割成非空兩部分，因此迴圈範圍為 0 到 n-2。
+ * 時間複雜度：O(N) - 前綴和，計算每個分割點左右差是否為偶數。
+ * 空間複雜度：O(N) - 前綴和陣列大小為 N。
+
  */
 
 class Solution {

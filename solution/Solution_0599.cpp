@@ -9,6 +9,9 @@
  * 3. 維護一個 minIdx 記錄目前最小的索引和：
  *    - 若小於 minIdx，更新 minIdx 並清空舊答案，放入新字串。
  *    - 若等於 minIdx，將該字串加入答案陣列中。
+ * 時間複雜度：O(N + M) - hash map 存 list1 的索引，遍歷 list2 查詢。
+ * 空間複雜度：O(N) - 儲存 list1 所有元素。
+
  */
 
 class Solution {

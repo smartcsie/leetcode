@@ -10,6 +10,9 @@
  *    - 將 reverse 乘以 10 並加上該位數，逐步組合出反轉後的數字。
  *    - 將 temp 除以 10 進入下一位。
  * 3. 迴圈結束後，計算 abs(n - reverse) 並回傳結果。
+ * 時間複雜度：O(log10(N)) - digit decomposition，計算與鏡像 digit 的差距。
+ * 空間複雜度：O(1) - 僅使用常數空間。
+
  */
 
 class Solution {

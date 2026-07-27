@@ -10,6 +10,9 @@
  * 
  * Time Complexity: O(n) - 僅需遍歷陣列一次，且常數極低。
  * Space Complexity: O(1) - 僅使用兩個變數。
+ * 時間複雜度：O(N) - 位元有限狀態機，單次遍歷。
+ * 空間複雜度：O(1) - 僅使用兩個狀態變數。
+
  */
 
 class Solution {

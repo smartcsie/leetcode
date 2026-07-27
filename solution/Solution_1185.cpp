@@ -12,6 +12,9 @@
  * 3. 公式計算：
  *    - $W = (year2 + \lfloor year2 / 4 \rfloor + \lfloor year1 / 4 \rfloor - 2 \cdot year1 + \lfloor 13(month + 1) / 5 \rfloor + day - 1) \pmod 7$
  *    - 透過處理餘數可能為負數的情況（`+7`），對應到正確的星期字串陣列。
+ * 時間複雜度：O(1) - Zeller 公式，常數時間計算。
+ * 空間複雜度：O(1) - 無額外空間。
+
  */
 
 class Solution {

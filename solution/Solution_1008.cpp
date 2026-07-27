@@ -3,6 +3,9 @@
  * 難度：中等
  * 優化思路：利用 BST 的性質 (Left < Root < Right)，
  * 為每個節點設定允許的數值範圍 [min, max]。
+ * 時間複雜度：O(N) - 前序序列建 BST，hash map 記錄中序位置。
+ * 空間複雜度：O(N) - hash map 大小為 N。
+
  */
 
 class Solution {

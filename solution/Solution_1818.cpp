@@ -8,6 +8,9 @@
  * 3. 利用 lower_bound 尋找 nums1 中最接近 nums2[i] 的元素（檢查其左側與右側）。
  * 4. 計算替換後能省下的最大差值 (maxDecrement)。
  * 5. 最終回傳 (sumDiff - maxDecrement) 並對 10^9 + 7 取模。
+ * 時間複雜度：O(N log N) - 排序副本後二分搜尋每個元素的最近值。
+ * 空間複雜度：O(N) - 排序副本大小為 N。
+
  */
 
 class Solution {

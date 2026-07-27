@@ -13,6 +13,9 @@
  * 
  * Time Complexity: O(m * n) - 其中 m, n 分別為兩棵樹的節點數。最壞情況下需比對每個節點。
  * Space Complexity: O(h) - h 為樹的高度，遞迴呼叫堆疊的深度。
+ * 時間複雜度：O(N * M) - 對每個節點呼叫 isSameTree，N 為主樹節點數，M 為子樹節點數。
+ * 空間複雜度：O(H) - 遞迴深度為樹高 H。
+
  */
 
 class Solution {

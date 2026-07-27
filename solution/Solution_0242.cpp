@@ -8,6 +8,9 @@
  * 
  * Time Complexity: O(n) - 其中 n 是字串長度。
  * Space Complexity: O(1) - 使用了固定長度 (26) 的陣列，與字串長度無關。
+ * 時間複雜度：O(N) - 統計兩字串字元頻率，比較。
+ * 空間複雜度：O(1) - 固定 26 個字母的計數陣列。
+
  */
 
 class Solution {

@@ -10,6 +10,9 @@
  * 
  * Time Complexity: O(m * n) - 需要填滿 m x n 的 DP 表格。
  * Space Complexity: O(m * n) - 二維 DP 陣列空間。
+ * 時間複雜度：O(M * N) - LCS DP，M、N 為兩字串長度。
+ * 空間複雜度：O(M * N) - DP 表大小為 M * N。
+
  */
 
 class Solution {

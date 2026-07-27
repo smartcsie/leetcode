@@ -11,6 +11,9 @@
  *    - 將其餘元素向後平移 k 個位置。
  *    - 將暫存的元素填入空出來的前 k 個位置。
  * 4. 使用一維轉二維公式：row = idx / colCount, col = idx % colCount。
+ * 時間複雜度：O(M * N) - 線性映射計算新位置。
+ * 空間複雜度：O(K) - 結果網格大小為 M * N。
+
  */
 
 class Solution {

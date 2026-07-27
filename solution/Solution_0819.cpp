@@ -2,6 +2,9 @@
  * 題目：819. Most Common Word
  * 難度：簡單 (Easy)
  * 描述：找出段落中未被禁用的最常用單詞。
+ * 時間複雜度：O(M + N) - M 為 paragraph 長度，N 為 banned 總長度。
+ * 空間複雜度：O(M + N) - hash set 與 map 各佔 O(N) 和 O(M)。
+
  */
 
 class Solution {

@@ -8,6 +8,9 @@
  * 
  * Time Complexity: O(n) - 遍歷半個陣列，進行 n/2 次交換。
  * Space Complexity: O(1) - 僅使用兩個整數變數作為指標，原地修改。
+ * 時間複雜度：O(N) - 三次 reverse，in-place 旋轉。
+ * 空間複雜度：O(1) - 不使用額外陣列。
+
  */
 
 class Solution {

@@ -10,6 +10,9 @@
  * 3. 最終的操作次數，就是「不重複正整數的個數」。
  *    - 如果 set 中包含 0，則需要減去 0 的存在（即 `unique.count(0)`）。
  *    - 總次數 = `unique.size() - unique.count(0)`。
+ * 時間複雜度：O(N) - set 記錄不同非零值的個數即為答案。
+ * 空間複雜度：O(N) - set 大小最多為 N。
+
  */
 
 class Solution {

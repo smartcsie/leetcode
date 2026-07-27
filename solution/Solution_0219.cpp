@@ -11,6 +11,9 @@
  * 
  * Time Complexity: O(n) - 遍歷陣列一次。
  * Space Complexity: O(min(n, k)) - 哈希表最多存儲 n 個元素；若用滑動窗口邏輯實作則為 k。
+ * 時間複雜度：O(N) - 滑動視窗大小為 k 的 hash set。
+ * 空間複雜度：O(min(N,k)) - 最多存 k 個元素。
+
  */
 
 class Solution {

@@ -11,6 +11,9 @@
  * 3. 條件篩選與更新：
  *    - 若滿足 nums[j] - nums[i] <= nums[i]，則計算 XOR 並更新全域最大值 xorMax。
  *    - 若不滿足（由於陣列已排序，當前 i 的後續 j 會更大），可以直接提早結束內層迴圈（Optimization）。
+ * 時間複雜度：O(N log N + N^2) - 排序後雙層枚舉，找最大 XOR。
+ * 空間複雜度：O(log N) - 排序堆疊空間。
+
  */
 
 class Solution {

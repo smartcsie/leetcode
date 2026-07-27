@@ -11,6 +11,9 @@
  * 3. 設置左右雙指針 `left = 0` 與 `right = nums.size() - 1`。
  * 4. 在 `left < right` 的迴圈中，計算當前雙指針相加的和 `val = nums[left++] + nums[right--]`。
  * 5. 用 `maxVal` 動態記錄並更新所有配對中的最大值，迴圈結束後返回 `maxVal`。
+ * 時間複雜度：O(N log N) - 排序後對撞雙指針配對。
+ * 空間複雜度：O(1) - in-place 排序。
+
  */
 
 class Solution {

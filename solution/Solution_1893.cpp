@@ -10,6 +10,9 @@
  * 3. 走訪 ranges 中的每一個區間 [start, end]，使用內建的迴圈將對應的 bit 位置設為 1（bits.set(i)）。
  * 4. 檢查目標區間 [left, right]，若其中有任何一個整數的 bit 檢查為 0（即未被覆蓋），直接返回 false。
  * 5. 若檢查完畢皆為 1，則返回 true。
+ * 時間複雜度：O(N * L) - bitset 標記覆蓋範圍，L 為最大值。
+ * 空間複雜度：O(1) - 固定大小 bitset。
+
  */
 
 class Solution {

@@ -9,6 +9,9 @@
  * 
  * Time Complexity: O(n) - 其中 n 是主字串 t 的長度，最壞情況下需遍歷 t 一次。
  * Space Complexity: O(1) - 僅使用兩個整數指標。
+ * 時間複雜度：O(N) - 雙指針，s 指針只前進不後退。
+ * 空間複雜度：O(1) - 僅使用兩個指針。
+
  */
 class Solution {
 public:

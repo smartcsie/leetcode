@@ -9,6 +9,9 @@
  *    並且讓 psum[j] 越接近 psum[i] 越好。
  * 3. 滑動視窗 + Multiset：利用 std::multiset 維護符合長度限制的 psum[j]，
  *    並透過 lower_bound 快速尋找小於且最接近 psum[i] 的前綴和。
+ * 時間複雜度：O(N log N) - 前綴和 + 排序多重集，滑動視窗。
+ * 空間複雜度：O(N) - multiset 大小最多為 N。
+
  */
 
 class Solution {

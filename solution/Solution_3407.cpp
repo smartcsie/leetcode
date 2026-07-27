@@ -5,6 +5,9 @@
  * * 優化重點：
  * 1. find API：利用 string::find(str, pos) 指定搜索起點，簡化邏輯。
  * 2. 邊界檢查：利用 string::npos 檢查是否成功匹配。
+ * 時間複雜度：O(N + M) - 拆分 pattern 為前後綴，搜尋中間部分。
+ * 空間複雜度：O(M) - 前後綴字串大小為 M。
+
  */
 
 class Solution {

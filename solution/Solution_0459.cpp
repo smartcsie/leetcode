@@ -11,6 +11,9 @@
  * 
  * Time Complexity: O(n) - string::find 的平均複雜度與拼接字串長度成正比。
  * Space Complexity: O(n) - 建立了一個兩倍長度的暫時字串。
+ * 時間複雜度：O(N) - KMP 建構 LPS 表後判斷。
+ * 空間複雜度：O(N) - LPS 表大小為 N。
+
  */
 
 class Solution {

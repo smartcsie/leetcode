@@ -13,6 +13,9 @@
  *      - 若超過，代表當前行裝不下了，必須將 `linePixel` 歸零，並將總行數 `lineCount` 加 1。
  *    - 將當前字元的寬度累加到 `linePixel` 中。
  * 3. 走訪結束後，回傳 `{lineCount, linePixel}`。
+ * 時間複雜度：O(N) - 單次遍歷累加寬度。
+ * 空間複雜度：O(1) - 僅使用常數空間。
+
  */
 
 class Solution {

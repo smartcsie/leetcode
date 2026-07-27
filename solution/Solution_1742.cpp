@@ -11,6 +11,9 @@
  *    - 利用迴圈計算 i 的各位數字總和 num。
  *    - 將對應箱子的計數器加 1：`counts[num]++`。
  * 4. 走訪完畢後，使用 `std::max_element` 找出 counts 陣列中的最大值並回傳。
+ * 時間複雜度：O(N * D) - 對每個球做 digit sum，D 為位數，統計到 bucket。
+ * 空間複雜度：O(1) - 固定大小 bucket 陣列。
+
  */
 
 class Solution {

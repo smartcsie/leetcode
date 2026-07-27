@@ -11,6 +11,9 @@
  * 
  * Time Complexity: O(M * N) - M, N 分別為兩字串長度，需填滿整個 DP 表格。
  * Space Complexity: O(M * N) - 用於存儲二維 dp 陣列。
+ * 時間複雜度：O(M * N) - 標準 LCS DP。
+ * 空間複雜度：O(M * N) - DP 表大小為 M * N。
+
  */
 
 class Solution {

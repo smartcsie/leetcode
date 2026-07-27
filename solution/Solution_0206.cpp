@@ -12,6 +12,9 @@
  * 
  * Time Complexity: O(n) - 遍歷鏈表一次。
  * Space Complexity: O(1) - 僅使用常數個指標變數。
+ * 時間複雜度：O(N) - 單次遍歷，迭代反轉。
+ * 空間複雜度：O(1) - 僅使用三個指針。
+
  */
 
 class Solution {

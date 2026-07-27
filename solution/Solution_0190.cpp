@@ -10,6 +10,9 @@
  * 
  * Time Complexity: O(1) - 固定執行 32 次。
  * Space Complexity: O(1) - 僅使用常數空間。
+ * 時間複雜度：O(1) - 固定 32 位元運算。
+ * 空間複雜度：O(1) - 僅使用常數空間。
+
  */
 
 class Solution {

@@ -14,6 +14,9 @@
  * 3. 檢查涵蓋狀態與計數：
  *    - 對於每一個符合條件的 `col_mask`，檢查每一個 row 的遮罩是否被其完全涵蓋：`(row_masks[i] & col_mask) == row_masks[i]`。
  *    - 若成立代表該 row 被涵蓋，將計數器加 1，並持續更新最大涵蓋列數 `max_covered`。
+ * 時間複雜度：O(2^N * N) - Bitmask 枚舉所有列選法，M 為行數。
+ * 空間複雜度：O(M + N) - row bitmask 陣列大小為 M。
+
  */
 
 

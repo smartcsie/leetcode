@@ -9,6 +9,9 @@
  * 2. 逐一提取並比對列：
  *    - 接著，針對矩陣的每一列（Column）建構出對應的整數陣列 `col`。
  *    - 利用 `counts[col]` 直接查詢這個列是否與哪幾行相同，並將對應的出現次數累加到答案 `ans` 中。
+ * 時間複雜度：O(N^2 log N) - hash map 記錄每個 row，遍歷每個 column 查詢。
+ * 空間複雜度：O(N^2) - map 儲存 N 個向量。
+
  */
 
 class Solution {
