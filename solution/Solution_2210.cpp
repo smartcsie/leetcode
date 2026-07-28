@@ -1,0 +1,45 @@
+/**
+ * 題目：2210. Count Hills and Valleys in an Array (統計陣列中的山峰和山谷數量)
+ * 難度：簡單 (Easy)
+ * 描述：給你一個下標從 0 開始的整數陣列 nums。如果陣列中的某個子陣列滿足特定的鄰居條件，
+ *       則稱其為山峰（Hill）或山谷（Valley）。請你返回陣列中山峰和山谷的總數。
+ * 
+ * 時間複雜度：O(n) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的判斷為常數時間。
+ * 空間複雜度：O(1) - 僅使用常數個變數（ans, prev, 迴圈變數）來追蹤狀態，不需額外配置記憶體。
+ * 
+ * 解法思路：
+ * 1. 相鄰重複元素的略過：
+ *    - 題目定義中，平坦的斜坡不影響山峰/山谷判定。若當前元素等於右側鄰居（`nums[i] == nums[i + 1]`），則直接跳過，不作為轉折點。
+ * 2. 追蹤有效左側鄰居 (`prev`)：
+ *    - 因為可能存在連續相同高度的數字，真正的「左側轉折點」應該是上一個**與當前不同高度**的元素位置。
+ *    - 當我們確認當前元素不是重複值且完成山峰/山谷判斷後，才更新 `prev = i`。
+ * 3. 判斷山峰與山谷：
+ *    - 山峰 (Hill)：當前元素大於左右兩側（`nums[i] > nums[prev] && nums[i] > nums[i + 1]`）。
+ *    - 山谷 (Valley)：當前元素小於左右兩側（`nums[i] < nums[prev] && nums[i] < nums[i + 1]`）。
+ */
+
+class Solution {
+public:
+    int countHillValley(std::vector<int>& nums) {
+        int ans = 0;
+        // i 從 1 開始，prev 初始為 0，尋找中間的轉折點
+        for (int i = 1, prev = 0; i < i + 1 && i < nums.size() - 1; i++) {
+            // 若當前元素與右側相等，則屬於平坦區，直接跳過以避免重複計算
+            if (nums[i] == nums[i + 1]) continue;
+            
+            // 判斷是否為山峰
+            if (nums[i] > nums[prev] && nums[i] > nums[i + 1]) {
+                ans++;
+            }
+            // 判斷是否為山谷
+            if (nums[i] < nums[prev] && nums[i] < nums[i + 1]) {
+                ans++;
+            }
+            
+            // 只有在完成判定後，才把 prev 更新為當前位置，以跳過後續連續相同的值
+            prev = i;
+        }
+        
+        return ans;
+    }
+};

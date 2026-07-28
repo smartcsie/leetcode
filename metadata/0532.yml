@@ -1,0 +1,11 @@
+number: 532
+title: K-diff Pairs in an Array
+url: https://leetcode.com/problems/k-diff-pairs-in-an-array/
+solutions:
+- file: Solution_0532.cpp
+  difficulty: 待補充
+  tags: []
+  topics:
+  - uncategorized
+  time: O(N log N) - 排序後雙指針或二分搜尋。
+  space: O(N) - 排序空間 O(log N)，set O(N)。

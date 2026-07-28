@@ -1,0 +1,11 @@
+number: 2656
+title: Maximum Sum With Exactly K Elements
+url: https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/
+solutions:
+- file: Solution_2656.cpp
+  difficulty: 簡單 (Easy)
+  tags: []
+  topics:
+  - uncategorized
+  time: O(n) - 只需要遍歷一次 `nums` 陣列來尋找最大值，其中 n 為陣列長度。
+  space: O(1) - 僅使用常數個變數來儲存最大值與計算結果，不需額外配置動態記憶體。

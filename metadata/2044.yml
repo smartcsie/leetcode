@@ -1,0 +1,11 @@
+number: 2044
+title: Count Number of Maximum Bitwise-OR Subsets
+url: https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/
+solutions:
+- file: Solution_2044.cpp
+  difficulty: 中等 (Medium)
+  tags: []
+  topics:
+  - uncategorized
+  time: O(2^N) - 遍歷所有子集。
+  space: O(N) - 遞迴堆疊深度。

@@ -1,0 +1,42 @@
+/**
+ * 題目：1022. Sum of Root To Leaf Binary Numbers (從根到葉的二進制數字之和)
+ * 難度：簡單 (Easy)
+ * 描述：給出一棵二元樹，其上每個節點的值都是 0 或 1。每一條從根到葉子的路徑都代表一個二進制數。
+ *       例如，若路徑為 0 -> 1 -> 1，則它代表二進制數字 011（即十進制的 3）。
+ *       請你返回這些從根到葉子之路徑所代表的數字之總和。
+ * 
+ * 時間複雜度：O(n) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。
+ * 空間複雜度：O(h) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(n)，在平衡樹下為 O(log n)。
+ * 
+ * 解法思路：
+ * 1. 前序走訪與位元運算 (Preorder Traversal & Bit Manipulation)：
+ *    - 在往下遞迴的過程中，利用 `cur = cur * 2 + root->val`（或 `(cur << 1) | root->val`）將當前節點的值拼接到二進制數字的尾端。
+ * 2. 葉子節點的判斷 (Leaf Node Identification)：
+ *    - 當遇到 `!root->left && !root->right`（即左右子樹皆為空）時，代表已經抵達葉子節點。此時將累積的 `cur` 值加到總答案 `ans` 中。
+ * 3. 遞迴搜尋：
+ *    - 若左子樹或右子樹存在，則繼續向下傳遞更新後的 `cur` 進行 DFS。
+ */
+
+class Solution {
+private:
+    void dfs(TreeNode* root, int cur, int& ans) {
+        if (!root) return;
+        // 將當前節點的值合併到位元組中（等同於左移一位後加上當前 val）
+        cur = cur * 2 + root->val;
+        // 若為葉子節點，將累積的數字加到總和 ans 中
+        if (!root->left && !root->right) {
+            ans += cur;
+            return;
+        }
+        // 遞迴走訪左右子樹
+        if (root->left) dfs(root->left, cur, ans);
+        if (root->right) dfs(root->right, cur, ans);
+    }
+
+public:
+    int sumRootToLeaf(TreeNode* root) {
+        int ans = 0;
+        dfs(root, 0, ans);
+        return ans;
+    }
+};

@@ -1,0 +1,11 @@
+number: 1953
+title: 1952. Three Divisors
+url: https://leetcode.com/problems/1952-three-divisors/
+solutions:
+- file: Solution_1953.cpp
+  difficulty: 簡單 (Easy)
+  tags: []
+  topics:
+  - uncategorized
+  time: O(sqrt(sqrt(N))) 或 O(sqrt(N)) 取決於實現。
+  space: O(1)。

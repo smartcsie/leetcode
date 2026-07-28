@@ -1,0 +1,43 @@
+/**
+ * 題目：1738. Find Kth Largest XOR Coordinate Value (找出第 K 大的異或座標值)
+ * 難度：中等 (Medium)
+ * 描述：給你一個 m x n 的二進位矩陣 matrix 和一個整數 k，矩陣座標 (i, j) 的值為從 (0, 0) 到 (i, j) 所有元素的按位異或（XOR）和。
+ *       請你找出所有座標值中第 k 大的值（注意：是第 k 大，而非第 k 小）。
+ * 
+ * 時間複雜度：O(M * N) - 雙層迴圈遍歷矩陣計算 2D 前綴 XOR 需要 O(M * N)；使用 std::nth_element 尋找第 k 大元素的平均時間為 O(M * N)。
+ * 空間複雜度：O(M * N) - 需要額外的 prefix 矩陣（大小 (M+1) x (N+1)）與儲存所有 XOR 值的 xorVal 陣列。
+ * 
+ * 解法思路：
+ * 1. 二維前綴異或 (2D Prefix XOR)：
+ *    - 類似於二維前綴和，但運算子改為 XOR (^)。
+ *    - 狀態轉移方程式：prefix[i+1][j+1] = matrix[i][j] ^ prefix[i][j+1] ^ prefix[i+1][j] ^ prefix[i][j]。
+ * 2. 收集所有 XOR 值：
+ *    - 在計算前綴的過程中，將每個座標的 XOR 座標值推入 `xorVal` 陣列中儲存。
+ * 3. 利用 std::nth_element 尋找第 K 大：
+ *    - 題目要求「第 k 大」，若將陣列由小到大排序，第 k 大的元素其索引會落在 `xorVal.end() - k`。
+ *    - 使用 `std::nth_element` 在平均線性時間內將該元素就位，直接回傳 `xorVal[xorVal.size() - k]`。
+ */
+
+
+class Solution {
+public:
+    int kthLargestValue(std::vector<std::vector<int>>& matrix, int k) {
+        int m = matrix.size();
+        int n = matrix[0].size();
+        // 建立大小為 (m+1) x (n+1) 的前綴異或矩陣，預設為 0
+        std::vector<std::vector<int>> prefix(m + 1, std::vector<int>(n + 1, 0));
+        std::vector<int> xorVal;
+        xorVal.reserve(m * n);
+        // 計算 2D 前綴 XOR 並收集所有座標值
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                prefix[i + 1][j + 1] = matrix[i][j] ^ prefix[i][j] 
+                                     ^ prefix[i + 1][j] ^ prefix[i][j + 1];
+                xorVal.push_back(prefix[i + 1][j + 1]);
+            }
+        }
+        // 利用 std::nth_element 尋找倒數第 k 個元素（即第 k 大）
+        std::nth_element(xorVal.begin(), xorVal.end() - k, xorVal.end());
+        return xorVal[xorVal.size() - k];
+    }
+};

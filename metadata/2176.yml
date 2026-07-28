@@ -1,0 +1,11 @@
+number: 2176
+title: Count Equal and Divisible Pairs in an Array
+url: https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
+solutions:
+- file: Solution_2176.cpp
+  difficulty: 簡單 (Easy)
+  tags: []
+  topics:
+  - uncategorized
+  time: O(n^2) - 使用雙重迴圈遍歷所有可能的索引對 (i, j)，在資料規模較小（通常 N <= 100）時能高效執行。
+  space: O(1) - 僅使用常數個變數來記錄計數與迴圈索引，不需額外配置動態記憶體。

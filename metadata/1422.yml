@@ -1,0 +1,11 @@
+number: 1422
+title: Maximum Score After Splitting a String
+url: https://leetcode.com/problems/maximum-score-after-splitting-a-string/
+solutions:
+- file: Solution_1422.cpp
+  difficulty: 簡單 (Easy)
+  tags: []
+  topics:
+  - uncategorized
+  time: O(n) - 先使用 std::count 花費 O(n) 計算總 1 數量，接著用單一迴圈花費 O(n) 掃描分割點。
+  space: O(1) - 僅使用常數個變數（zeros, ones, ans）來追蹤狀態，不需額外配置動態記憶體。

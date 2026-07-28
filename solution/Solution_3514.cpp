@@ -1,0 +1,77 @@
+/**
+ * 題目：3514. Number of Unique XOR Triplets II (唯一異或三元組數量 II)
+ * 難度：困難 (Hard)
+ * 描述：給定一個整數陣列 nums，請計算可以形成多少種不同的 XOR 三元組結果。
+ * 
+ * 時間複雜度：O(M log M) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。
+ * 空間複雜度：O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。
+ * 
+ * 解法思路：
+ * 1. 快速沃爾什-阿達馬轉換 (Fast Walsh-Hadamard Transform, FWHT)：
+ *    - FWHT 是處理 XOR 卷积（XOR Convolution）的利器，能在 O(M log M) 時間內將頻率陣列轉換到點值域，進行乘法後再逆轉換回來。
+ * 2. 步驟拆解：
+ *    - 步驟一：先計算陣列中任選兩數的所有可能 XOR 組合（透過頻率自乘再做 FWHT 逆轉換）。
+ *    - 步驟二：將兩數 XOR 的結果去重（形成一組代表所有可能 XOR 配對值的布林/計數集合 pairSet）。
+ *    - 步驟三：將這個 pairSet 與原陣列 a 進行第二次 XOR 卷积，找出所有可能的第三個數與前兩數 XOR 的組合。
+ *    - 步驟四：統計最後產生的結果中有多少個非零值，即為不同的唯一 XOR 三元組總數。
+ */
+
+#include <vector>
+#include <algorithm>
+
+class Solution {
+private:
+    int V;   // 把 V 提升為成員變數，這樣 fwht() 才能存取到它
+
+    void fwht(std::vector<long long>& f) {
+        for (int len = 1; len < V; len <<= 1) {
+            for (int i = 0; i < V; i += (len << 1)) {
+                for (int j = i; j < i + len; j++) {
+                    long long u = f[j], v = f[j + len];
+                    f[j] = u + v;
+                    f[j + len] = u - v;
+                }
+            }
+        }
+    }
+
+public:
+    int uniqueXorTriplets(std::vector<int>& nums) {
+        int maxVal = 0;
+        for (int x : nums) maxVal = std::max(maxVal, x);
+
+        V = 1;                        // 直接賦值給成員變數
+        while (V <= maxVal) V <<= 1;
+
+        std::vector<long long> a(V, 0);
+        for (int x : nums) a[x] = 1;
+
+        // 1. 計算兩數 XOR 的所有可能結果
+        std::vector<long long> A = a;
+        fwht(A);
+
+        std::vector<long long> B(V);
+        for (int i = 0; i < V; i++) B[i] = A[i] * A[i];
+        fwht(B);
+        for (int i = 0; i < V; i++) B[i] /= V;
+
+        // 2. 對兩數 XOR 結果進行去重（形成 pairSet）
+        std::vector<long long> pairSet(V);
+        for (int i = 0; i < V; i++) pairSet[i] = (B[i] != 0);
+
+        // 3. 將 pairSet 與原陣列 a 進行 XOR 卷积，得到三元組結果
+        std::vector<long long> P = pairSet;
+        fwht(P);
+        for (int i = 0; i < V; i++) P[i] *= A[i]; // 這裡 A 實際上是原陣列 a 做完 fwht 的結果
+        fwht(P);
+        for (int i = 0; i < V; i++) P[i] /= V;
+
+        // 4. 統計相異的結果數量
+        int ans = 0;
+        for (int i = 0; i < V; i++) {
+            if (P[i] != 0) ans++;
+        }
+        
+        return ans;
+    }
+};

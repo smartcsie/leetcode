@@ -1,0 +1,11 @@
+number: 3514
+title: Number of Unique XOR Triplets II
+url: https://leetcode.com/problems/number-of-unique-xor-triplets-ii/
+solutions:
+- file: Solution_3514.cpp
+  difficulty: 困難 (Hard)
+  tags: []
+  topics:
+  - uncategorized
+  time: O(M log M) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。
+  space: O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。

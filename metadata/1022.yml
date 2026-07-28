@@ -1,0 +1,11 @@
+number: 1022
+title: Sum of Root To Leaf Binary Numbers
+url: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
+solutions:
+- file: Solution_1022.cpp
+  difficulty: 簡單 (Easy)
+  tags: []
+  topics:
+  - uncategorized
+  time: O(n) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。
+  space: O(h) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(n)，在平衡樹下為 O(log n)。

@@ -40,6 +40,7 @@ markdown_extensions:
   - attr_list
 
 
+
 nav:
   - 首頁: index.md
   - 🔑 Hash Table:
@@ -120,6 +121,7 @@ nav:
       - interval: topics/interval.md
   - 📄 Other:
       - bit-bitmask-subset-enumeration: topics/bit-bitmask-subset-enumeration.md
+      - uncategorized: topics/uncategorized.md
   - 🌳 Tree:
       - tree-dfs-path: topics/tree-dfs-path.md
       - tree: topics/tree.md
