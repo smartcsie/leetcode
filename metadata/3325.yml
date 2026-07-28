@@ -1,0 +1,12 @@
+number: 3325
+title: Count Substrings With K-Frequency Characters I
+url: https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/
+solutions:
+- file: Solution_3325.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sliding Window / Two Pointers
+  topics:
+  - variable-size-sliding-window
+  time: O(N)
+  space: O(1)

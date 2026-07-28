@@ -1,0 +1,12 @@
+number: 2351
+title: First Letter to Appear Twice
+url: https://leetcode.com/problems/first-letter-to-appear-twice
+solutions:
+- file: Solution_2351.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(1)

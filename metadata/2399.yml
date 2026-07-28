@@ -1,0 +1,12 @@
+number: 2399
+title: Check Distances Between Same Letters
+url: https://leetcode.com/problems/check-distances-between-same-letters/
+solutions:
+- file: Solution_2399.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table / String / Array
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

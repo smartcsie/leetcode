@@ -1,0 +1,13 @@
+number: 687
+title: Longest Univalue Path
+url: https://leetcode.com/problems/longest-univalue-path/
+solutions:
+- file: Solution_0687.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DFS
+  - Tree
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(H)

@@ -1,0 +1,13 @@
+number: 572
+title: Subtree of Another Tree
+url: https://leetcode.com/problems/subtree-of-another-tree
+solutions:
+- file: Solution_0572.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  topics:
+  - tree-dfs-path
+  time: O(n*m)
+  space: O(h)

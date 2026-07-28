@@ -1,0 +1,13 @@
+number: 3541
+title: Find Most Frequent Vowel and Consonant
+url: https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/
+solutions:
+- file: Solution_3541.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - Frequency Counting
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(1)

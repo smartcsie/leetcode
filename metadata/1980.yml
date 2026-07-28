@@ -1,0 +1,13 @@
+number: 1980
+title: Find Unique Binary String
+url: https://leetcode.com/problems/find-unique-binary-string
+solutions:
+- file: Solution_1980.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - String
+  topics:
+  - math
+  time: O(N²)
+  space: O(N)

@@ -1,0 +1,12 @@
+number: 201
+title: Bitwise AND of Numbers Range
+url: https://leetcode.com/problems/bitwise-and-of-numbers-range
+solutions:
+- file: Solution_0201.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation-and
+  time: O(logn)
+  space: O(1)

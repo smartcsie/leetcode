@@ -1,0 +1,12 @@
+number: 1013
+title: Partition Array Into Three Parts With Equal Sum
+url: https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/
+solutions:
+- file: Solution_1013.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Prefix Sum / Greedy
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)

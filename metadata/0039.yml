@@ -1,0 +1,12 @@
+number: 39
+title: Combination Sum
+url: https://leetcode.com/problems/combination-sum/
+solutions:
+- file: Solution_0039.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking
+  topics:
+  - backtracking-combination
+  time: O(N^(T/M))
+  space: O(T/M)

@@ -1,0 +1,13 @@
+number: 74
+title: Search a 2D Matrix
+url: https://leetcode.com/problems/search-a-2d-matrix
+solutions:
+- file: Solution_0074.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary Search
+  - Matrix
+  topics:
+  - binary-search
+  time: O(log(MN))
+  space: O(1)

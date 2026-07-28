@@ -1,0 +1,12 @@
+number: 2482
+title: Difference Between Ones and Zeros in Row and Column
+url: https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/
+solutions:
+- file: Solution_2482.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Matrix / Prefix Sum / Precomputation
+  topics:
+  - 2d-array
+  time: O(M * N)
+  space: O(M + N)

@@ -1,0 +1,13 @@
+number: 872
+title: Leaf-Similar Trees
+url: https://leetcode.com/problems/leaf-similar-trees
+solutions:
+- file: Solution_0872.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  topics:
+  - tree-dfs-path
+  time: O(N+M)
+  space: O(N+M)

@@ -1,0 +1,13 @@
+number: 61
+title: Rotate List
+url: https://leetcode.com/problems/rotate-list
+solutions:
+- file: Solution_0061.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Two Pointers
+  topics:
+  - linked-list-circular
+  time: O(N)
+  space: O(1)

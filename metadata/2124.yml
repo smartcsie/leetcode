@@ -1,0 +1,12 @@
+number: 2124
+title: Check if All A's Appears Before All B's
+url: https://leetcode.com/problems/check-if-all-as-appears-before-all-bs
+solutions:
+- file: Solution_2124.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

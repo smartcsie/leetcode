@@ -1,0 +1,12 @@
+number: 2523
+title: Closest Prime Numbers in Range
+url: https://leetcode.com/problems/closest-prime-numbers-in-range/
+solutions:
+- file: Solution_2523.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Sieve
+  topics:
+  - prime
+  time: O(Nloglog N)
+  space: O(N)

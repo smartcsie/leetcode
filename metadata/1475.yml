@@ -1,0 +1,14 @@
+number: 1475
+title: Final Prices With a Special Discount in a Shop
+url: https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop
+solutions:
+- file: Solution_1475.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Stack
+  - Monotonic Stack
+  topics:
+  - monotonic-stack
+  time: O(N)
+  space: O(N)

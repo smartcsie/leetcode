@@ -1,0 +1,12 @@
+number: 896
+title: Monotonic Array
+url: https://leetcode.com/problems/monotonic-array
+solutions:
+- file: Solution_0896.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

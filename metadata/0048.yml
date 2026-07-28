@@ -1,0 +1,12 @@
+number: 48
+title: Rotate Image
+url: https://leetcode.com/problems/rotate-image/
+solutions:
+- file: Solution_0048.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  topics:
+  - 2d-array
+  time: O(n²)
+  space: O(1)

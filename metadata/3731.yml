@@ -1,0 +1,13 @@
+number: 3731
+title: Find Missing Elements
+url: https://leetcode.com/problems/find-missing-elements/
+solutions:
+- file: Solution_3731.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  topics:
+  - hash-table-set
+  time: O(N+K)
+  space: O(K)

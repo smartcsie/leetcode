@@ -1,0 +1,12 @@
+number: 589
+title: N-ary Tree Preorder Traversal
+url: https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+solutions:
+- file: Solution_0589.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  topics:
+  - tree
+  time: O(n)
+  space: O(h)

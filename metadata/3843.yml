@@ -1,0 +1,12 @@
+number: 3843
+title: First Element with Unique Frequency
+url: https://leetcode.com/problems/first-element-with-unique-frequency/
+solutions:
+- file: Solution_3843.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(N)

@@ -1,0 +1,12 @@
+number: 1437
+title: Check If All 1's Are at Least Length K Places Away
+url: https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/
+solutions:
+- file: Solution_1437.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Simulation
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)

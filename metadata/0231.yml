@@ -1,0 +1,12 @@
+number: 231
+title: Power of Two
+url: https://leetcode.com/problems/power-of-two/
+solutions:
+- file: Solution_0231.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)

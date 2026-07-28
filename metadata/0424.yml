@@ -1,0 +1,12 @@
+number: 424
+title: Longest Repeating Character Replacement
+url: https://leetcode.com/problems/longest-repeating-character-replacement
+solutions:
+- file: Solution_0424.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sliding Window / Hash Table
+  topics:
+  - variable-size-sliding-window
+  time: O(N)
+  space: O(1)

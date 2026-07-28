@@ -1,0 +1,14 @@
+number: 200
+title: Number of Islands
+url: https://leetcode.com/problems/number-of-islands/
+solutions:
+- file: Solution_0200.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DFS
+  - BFS
+  - Union-Find
+  topics:
+  - dfs-bfs
+  time: O(M×N)
+  space: O(1)*

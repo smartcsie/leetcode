@@ -1,0 +1,12 @@
+number: 2275
+title: Largest Combination With Bitwise AND Greater Than Zero
+url: https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/
+solutions:
+- file: Solution_2275.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Greedy
+  topics:
+  - bit-manipulation-and
+  time: O(32 * N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 1925
+title: Count Square Sum Triples
+url: https://leetcode.com/problems/count-square-sum-triples/
+solutions:
+- file: Solution_1925.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Brute Force
+  topics:
+  - math
+  time: O(N²)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 2442
+title: Count Number of Distinct Integers After Reverse Operations
+url: https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/
+solutions:
+- file: Solution_2442.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array / Hash Table / Math / Bitset
+  topics:
+  - bit-manipulation
+  time: O(N * D)
+  space: O(M)*

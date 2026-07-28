@@ -1,0 +1,12 @@
+number: 1929
+title: Concatenation of Array
+url: https://leetcode.com/problems/concatenation-of-array
+solutions:
+- file: Solution_1929.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array
+  time: O(N)
+  space: O(1)*

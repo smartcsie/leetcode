@@ -1,0 +1,12 @@
+number: 349
+title: Intersection of Two Arrays
+url: https://leetcode.com/problems/intersection-of-two-arrays/
+solutions:
+- file: Solution_0349.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  topics:
+  - hash-table-set
+  time: O(n+m)
+  space: O(n)

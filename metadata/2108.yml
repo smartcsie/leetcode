@@ -1,0 +1,12 @@
+number: 2108
+title: Find First Palindromic String in the Array
+url: https://leetcode.com/problems/find-first-palindromic-string-in-the-array/
+solutions:
+- file: Solution_2108.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(N * L)
+  space: O(1)

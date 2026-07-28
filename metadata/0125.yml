@@ -1,0 +1,13 @@
+number: 125
+title: Valid Palindrome
+url: https://leetcode.com/problems/valid-palindrome
+solutions:
+- file: Solution_0125.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(n)
+  space: O(1)

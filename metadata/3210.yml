@@ -1,0 +1,12 @@
+number: 3210
+title: Find the Encrypted String
+url: https://leetcode.com/problems/find-the-encrypted-string/
+solutions:
+- file: Solution_3210.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Cyclic Shift
+  topics:
+  - string
+  time: O(N)
+  space: O(N)

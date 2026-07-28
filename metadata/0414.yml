@@ -1,0 +1,12 @@
+number: 414
+title: Third Maximum Number
+url: https://leetcode.com/problems/third-maximum-number/
+solutions:
+- file: Solution_414.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)

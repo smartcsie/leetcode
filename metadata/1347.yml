@@ -1,0 +1,12 @@
+number: 1347
+title: Minimum Number of Steps to Make Two Strings Anagram
+url: https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
+solutions:
+- file: Solution_1347.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table / String / Counting
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

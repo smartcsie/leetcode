@@ -1,0 +1,14 @@
+number: 36
+title: Valid Sudoku
+url: https://leetcode.com/problems/valid-sudoku
+solutions:
+- file: Solution_0036.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Hash Table
+  - Bitset
+  topics:
+  - hash-table-mapping
+  time: O(1)
+  space: O(1)

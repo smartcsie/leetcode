@@ -1,0 +1,12 @@
+number: 1967
+title: Number of Strings That Appear as Substrings in Word
+url: https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/
+solutions:
+- file: Solution_1967.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Search
+  topics:
+  - string-substring-2
+  time: O(N * M * K)
+  space: O(1)

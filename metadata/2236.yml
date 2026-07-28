@@ -1,0 +1,12 @@
+number: 2236
+title: Root Equals Sum of Children
+url: https://leetcode.com/problems/root-equals-sum-of-children/
+solutions:
+- file: Solution_2236.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  topics:
+  - tree
+  time: O(1)
+  space: O(1)

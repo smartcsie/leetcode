@@ -1,0 +1,13 @@
+number: 939
+title: Minimum Area Rectangle
+url: https://leetcode.com/problems/minimum-area-rectangle/
+solutions:
+- file: Solution_939.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Hash Table
+  topics:
+  - hash-table-set
+  time: O(N²)
+  space: O(N)

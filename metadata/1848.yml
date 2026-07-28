@@ -1,0 +1,13 @@
+number: 1848
+title: Minimum Distance to the Target Element
+url: https://leetcode.com/problems/minimum-distance-to-the-target-element/
+solutions:
+- file: Solution_1848.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Simulation
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)

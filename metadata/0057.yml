@@ -1,0 +1,13 @@
+number: 57
+title: Insert Interval
+url: https://leetcode.com/problems/insert-interval
+solutions:
+- file: Solution_0057.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Interval
+  topics:
+  - interval
+  time: O(N)
+  space: O(N)

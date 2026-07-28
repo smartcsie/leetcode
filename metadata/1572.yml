@@ -1,0 +1,12 @@
+number: 1572
+title: Matrix Diagonal Sum
+url: https://leetcode.com/problems/matrix-diagonal-sum
+solutions:
+- file: Solution_1572.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Matrix
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

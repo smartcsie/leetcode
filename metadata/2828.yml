@@ -1,0 +1,13 @@
+number: 2828
+title: Check if a String Is an Acronym of Words
+url: https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words
+solutions:
+- file: Solution_2828.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - String
+  topics:
+  - string
+  time: O(n)
+  space: O(1)

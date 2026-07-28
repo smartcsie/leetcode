@@ -1,0 +1,20 @@
+number: 90
+title: Subsets II
+url: https://leetcode.com/problems/subsets-ii/
+solutions:
+- file: Solution_0090.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking / Sorting
+  topics:
+  - backtracking-combination
+  time: O(N*2ᴺ)
+  space: O(N)
+- file: Solution_90.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Sorting / Hash Set (Duplicate De-duplication)
+  topics:
+  - bit-bitmask-subset-enumeration
+  time: O(2ᴺ*N log(2ᴺ))*
+  space: O(2ᴺ*N)

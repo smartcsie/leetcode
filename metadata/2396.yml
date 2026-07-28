@@ -1,0 +1,13 @@
+number: 2396
+title: Strictly Palindromic Number
+url: https://leetcode.com/problems/strictly-palindromic-number/
+solutions:
+- file: Solution_2396.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - Brainteaser
+  topics:
+  - math-palindrome
+  time: O(1)
+  space: O(1)

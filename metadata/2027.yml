@@ -1,0 +1,12 @@
+number: 2027
+title: Minimum Moves to Convert String
+url: https://leetcode.com/problems/minimum-moves-to-convert-string/
+solutions:
+- file: Solution_2027.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 3769
+title: Sort Integers by Binary Reflection
+url: https://leetcode.com/problems/sort-integers-by-binary-reflection/
+solutions:
+- file: Solution_3769.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation
+  - Sorting
+  topics:
+  - sorting
+  time: O(NlogN)
+  space: O(N)

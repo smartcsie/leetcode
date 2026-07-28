@@ -1,0 +1,13 @@
+number: 1460
+title: Make Two Arrays Equal by Reversing Subarrays
+url: https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/
+solutions:
+- file: Solution_1460.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(K)

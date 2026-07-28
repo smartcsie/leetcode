@@ -1,0 +1,13 @@
+number: 941
+title: Valid Mountain Array
+url: https://leetcode.com/problems/valid-mountain-array
+solutions:
+- file: Solution_0941.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(n)
+  space: O(1)

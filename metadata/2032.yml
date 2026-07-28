@@ -1,0 +1,12 @@
+number: 2032
+title: Two Out of Three
+url: https://leetcode.com/problems/two-out-of-three/
+solutions:
+- file: Solution_2032.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N1+N2+N3)
+  space: O(1)

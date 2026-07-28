@@ -1,0 +1,12 @@
+number: 1081
+title: Smallest Subsequence of Distinct Characters
+url: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
+solutions:
+- file: Solution_1081.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Monotonic Stack / Greedy
+  topics:
+  - monotonic-stack
+  time: O(N)
+  space: O(1)

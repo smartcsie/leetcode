@@ -1,0 +1,12 @@
+number: 3477
+title: Fruits Into Baskets II
+url: https://leetcode.com/problems/fruits-into-baskets-ii/
+solutions:
+- file: Solution_3477.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Simulation / Brute Force
+  topics:
+  - array
+  time: O(N^2)
+  space: O(1)

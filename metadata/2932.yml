@@ -1,0 +1,12 @@
+number: 2932
+title: Maximum Strong Pair XOR I
+url: https://leetcode.com/problems/maximum-strong-pair-xor-i/
+solutions:
+- file: Solution_2932.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Sorting / Brute Force
+  topics:
+  - sorting
+  time: O(NlogN +N²)
+  space: O(logN)

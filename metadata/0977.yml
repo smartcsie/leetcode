@@ -1,0 +1,13 @@
+number: 977
+title: Squares of a Sorted Array
+url: https://leetcode.com/problems/squares-of-a-sorted-array
+solutions:
+- file: Solution_0977.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(n)
+  space: O(n)

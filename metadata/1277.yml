@@ -1,0 +1,12 @@
+number: 1277
+title: Count Square Submatrices with All Ones
+url: https://leetcode.com/problems/count-square-submatrices-with-all-ones/
+solutions:
+- file: Solution_1277.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Matrix / Dynamic Programming
+  topics:
+  - dynamic-programming
+  time: O(M * N)
+  space: O(1)*

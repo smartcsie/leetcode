@@ -1,0 +1,12 @@
+number: 2317
+title: Maximum XOR After Operations
+url: https://leetcode.com/problems/maximum-xor-after-operations
+solutions:
+- file: Solution_2317.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation-xor
+  time: O(n)
+  space: O(1)

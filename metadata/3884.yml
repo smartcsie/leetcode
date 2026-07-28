@@ -1,0 +1,12 @@
+number: 3884
+title: First Matching Character From Both Ends
+url: https://leetcode.com/problems/first-matching-character-from-both-ends/description/
+solutions:
+- file: Solution_3884.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two-Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 2733
+title: Neither Minimum nor Maximum
+url: https://leetcode.com/problems/neither-minimum-nor-maximum/
+solutions:
+- file: Solution_2733.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Array
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)

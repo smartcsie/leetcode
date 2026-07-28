@@ -1,0 +1,12 @@
+number: 2185
+title: Counting Words With a Given Prefix
+url: https://leetcode.com/problems/counting-words-with-a-given-prefix/
+solutions:
+- file: Solution_2185.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Simulation
+  topics:
+  - string
+  time: O(N * M)
+  space: O(1)

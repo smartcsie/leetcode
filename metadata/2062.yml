@@ -1,0 +1,12 @@
+number: 2062
+title: Count Vowel Substrings
+url: https://leetcode.com/problems/count-vowel-substrings-of-a-string/
+solutions:
+- file: Solution_2062.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Sliding Window / Math
+  topics:
+  - variable-size-sliding-window
+  time: O(N)
+  space: O(1)

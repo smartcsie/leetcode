@@ -1,0 +1,12 @@
+number: 921
+title: Minimum Add to Make Parentheses Valid
+url: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+solutions:
+- file: Solution_0921.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Stack / Greedy
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

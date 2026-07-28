@@ -1,0 +1,13 @@
+number: 2094
+title: Finding 3-Digit Even Numbers
+url: https://leetcode.com/problems/finding-3-digit-even-numbers/
+solutions:
+- file: Solution_2094.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - Math
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(1)

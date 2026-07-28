@@ -1,0 +1,12 @@
+number: 162
+title: Find Peak Element
+url: https://leetcode.com/problems/find-peak-element
+solutions:
+- file: Solution_0162.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(logN)
+  space: O(1)

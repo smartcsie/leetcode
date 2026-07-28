@@ -1,0 +1,12 @@
+number: 203
+title: Remove Linked List Elements
+url: https://leetcode.com/problems/remove-linked-list-elements
+solutions:
+- file: Solution_0203.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Linked List
+  topics:
+  - linked-list
+  time: O(N)
+  space: O(1)

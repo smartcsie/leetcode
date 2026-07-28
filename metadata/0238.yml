@@ -1,0 +1,13 @@
+number: 238
+title: Product of Array Except Self
+url: https://leetcode.com/problems/product-of-array-except-self/
+solutions:
+- file: Solution_0238.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Prefix Sum
+  topics:
+  - prefix-sum
+  time: O(N)
+  space: O(1)

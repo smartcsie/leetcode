@@ -1,0 +1,12 @@
+number: 2894
+title: Divisible and Non-divisible Sums Difference
+url: https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/
+solutions:
+- file: Solution_2894.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Arithmetic Progression
+  topics:
+  - math
+  time: O(1)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 1822
+title: Sign of the Product of an Array
+url: https://leetcode.com/problems/sign-of-the-product-of-an-array
+solutions:
+- file: Solution_1822.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Math
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

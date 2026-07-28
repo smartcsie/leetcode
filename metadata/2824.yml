@@ -1,0 +1,12 @@
+number: 2824
+title: Count Pairs Whose Sum is Less than Target
+url: https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/
+solutions:
+- file: Solution_2824.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Two Pointers / Sorting
+  topics:
+  - fast-slow-pointers
+  time: O(N²)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 2195
+title: Append K Integers With Minimal Sum
+url: https://leetcode.com/problems/append-k-integers-with-minimal-sum/
+solutions:
+- file: Solution_2195.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Binary Search
+  topics:
+  - binary-search
+  time: O(NlogN)
+  space: O(1)

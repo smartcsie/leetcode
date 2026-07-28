@@ -1,0 +1,12 @@
+number: 7
+title: Reverse Integer
+url: https://leetcode.com/problems/reverse-integer/
+solutions:
+- file: Solution_0007.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  topics:
+  - math-digit-decomposition
+  time: O(logn)
+  space: O(1)

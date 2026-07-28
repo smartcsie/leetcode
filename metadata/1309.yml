@@ -1,0 +1,12 @@
+number: 1309
+title: Decrypt String from Alphabet to Integer Mapping
+url: https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/
+solutions:
+- file: Solution_1309.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table / String Parsing
+  topics:
+  - hash-table-mapping
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 2965
+title: Find Missing and Repeated Values
+url: https://leetcode.com/problems/find-missing-and-repeated-values/
+solutions:
+- file: Solution_2965.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hashing
+  topics:
+  - hash-table-counting
+  time: O(N²)
+  space: O(N²)

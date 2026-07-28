@@ -1,0 +1,12 @@
+number: 1523
+title: Count Odd Numbers in an Interval Range
+url: https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
+solutions:
+- file: Solution_1523.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)

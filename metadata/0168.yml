@@ -1,0 +1,12 @@
+number: 168
+title: Excel Sheet Column Title
+url: https://leetcode.com/problems/excel-sheet-column-title/
+solutions:
+- file: Solution_0168.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Base Conversion
+  topics:
+  - math-digit-decomposition
+  time: O(log26 N)
+  space: O(1)

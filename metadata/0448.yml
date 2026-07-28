@@ -1,0 +1,12 @@
+number: 448
+title: Find All Numbers Disappeared in an Array
+url: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array
+solutions:
+- file: Solution_0448.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - negative-marking
+  time: O(n)
+  space: O(1)

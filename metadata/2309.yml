@@ -1,0 +1,12 @@
+number: 2309
+title: Greatest English Letter in Upper and Lower Case
+url: https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/
+solutions:
+- file: Solution_2309.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table / String / Bit Manipulation
+  topics:
+  - bit-manipulation-and
+  time: O(N)
+  space: O(1)

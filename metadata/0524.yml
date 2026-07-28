@@ -1,0 +1,12 @@
+number: 524
+title: Longest Word in Dictionary through Deleting
+url: https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/
+solutions:
+- file: Solution_0524.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Two Pointers / Sorting
+  topics:
+  - sorting
+  time: O(D log D + D * M)
+  space: O(1)

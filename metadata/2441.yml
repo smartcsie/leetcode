@@ -1,0 +1,24 @@
+number: 2441
+title: Largest Positive Integer That Exists With Its Negative
+url: https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative
+solutions:
+- file: Solution_2441.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - Two Pointers
+  - Sorting
+  topics:
+  - hash-table-mapping
+  time: O(n)
+  space: O(n)
+- file: Solution_2441_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - Two Pointers
+  - Sorting
+  topics:
+  - two-pointers-other
+  time: O(n)
+  space: O(n)

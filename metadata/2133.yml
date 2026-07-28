@@ -1,0 +1,14 @@
+number: 2133
+title: Check if Every Row and Column Contains All Numbers
+url: https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers
+solutions:
+- file: Solution_2133.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  - Bitset
+  topics:
+  - hash-table-mapping
+  time: O(n²)
+  space: O(n)

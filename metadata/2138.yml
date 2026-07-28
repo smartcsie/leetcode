@@ -1,0 +1,12 @@
+number: 2138
+title: Divide a String Into Groups of Size k
+url: https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/
+solutions:
+- file: Solution_2138.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Simulation / Math
+  topics:
+  - string
+  time: O(N)
+  space: O(N)

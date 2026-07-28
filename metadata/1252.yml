@@ -1,0 +1,12 @@
+number: 1252
+title: Cells with Odd Values...
+url: https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/
+solutions:
+- file: Solution_1252.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Math
+  topics:
+  - 2d-array
+  time: O(K + MN)
+  space: O(M + N)

@@ -1,0 +1,12 @@
+number: 523
+title: Continuous Subarray Sum
+url: https://leetcode.com/problems/continuous-subarray-sum/
+solutions:
+- file: Solution_0523.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Prefix Sum / Hash Map
+  topics:
+  - prefix-sum
+  time: O(N)
+  space: O(min(N, K))

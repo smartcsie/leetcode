@@ -1,0 +1,12 @@
+number: 2578
+title: Split With Minimum Sum
+url: https://leetcode.com/problems/split-with-minimum-sum/
+solutions:
+- file: Solution_2578.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy / Sorting
+  topics:
+  - greedy
+  time: O(NlogN)
+  space: O(N)

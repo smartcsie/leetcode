@@ -1,0 +1,12 @@
+number: 89
+title: Gray Code
+url: https://leetcode.com/problems/gray-code/
+solutions:
+- file: Solution_0089.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Math
+  topics:
+  - bit-manipulation
+  time: O(2ᴺ)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 1768
+title: Merge Strings Alternately
+url: https://leetcode.com/problems/merge-strings-alternately
+solutions:
+- file: Solution_1768.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N+M)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 2404
+title: Most Frequent Even Element
+url: https://leetcode.com/problems/most-frequent-even-element
+solutions:
+- file: Solution_2404.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - Counting
+  topics:
+  - hash-table-counting
+  time: O(n)
+  space: O(n)

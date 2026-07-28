@@ -1,0 +1,12 @@
+number: 762
+title: Prime Number of Set Bits
+url: https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/
+solutions:
+- file: Solution_0762.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N log K)
+  space: O(1)

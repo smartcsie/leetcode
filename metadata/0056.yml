@@ -1,0 +1,13 @@
+number: 56
+title: Merge Intervals
+url: https://leetcode.com/problems/merge-intervals
+solutions:
+- file: Solution_0056.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Sorting
+  topics:
+  - interval
+  time: O(NlogN)
+  space: O(logN)

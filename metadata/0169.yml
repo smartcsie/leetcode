@@ -1,0 +1,13 @@
+number: 169
+title: Majority Element
+url: https://leetcode.com/problems/majority-element/
+solutions:
+- file: Solution_0169.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Voting Algorithm
+  topics:
+  - array-boyer-moore
+  time: O(N)
+  space: O(1)

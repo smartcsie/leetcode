@@ -1,0 +1,13 @@
+number: 3925
+title: Concatenate Array With Reverse
+url: https://example.com/problems/3925
+solutions:
+- file: Solution_3925.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Simulation
+  topics:
+  - array
+  time: O(N)
+  space: O(N)

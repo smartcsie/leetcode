@@ -1,0 +1,13 @@
+number: 228
+title: Summary Ranges
+url: https://leetcode.com/problems/summary-ranges
+solutions:
+- file: Solution_0228.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N)
+  space: O(1)

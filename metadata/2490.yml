@@ -1,0 +1,12 @@
+number: 2490
+title: Circular Sentence
+url: https://leetcode.com/problems/circular-sentence
+solutions:
+- file: Solution_2490.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: O(N)
+  space: O(1)

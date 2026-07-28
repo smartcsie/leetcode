@@ -1,0 +1,12 @@
+number: 1800
+title: Maximum Ascending Subarray Sum
+url: https://leetcode.com/problems/maximum-ascending-subarray-sum
+solutions:
+- file: Solution_1800.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

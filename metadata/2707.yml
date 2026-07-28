@@ -1,0 +1,12 @@
+number: 2707
+title: Extra Characters in a String
+url: https://leetcode.com/problems/extra-characters-in-a-string/
+solutions:
+- file: Solution_2707.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming / Hash Set
+  topics:
+  - dynamic-programming
+  time: O(N³ + M*L)
+  space: O(N + M * L)

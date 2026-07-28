@@ -1,0 +1,14 @@
+number: 202
+title: Happy Number
+url: https://leetcode.com/problems/happy-number
+solutions:
+- file: Solution_0202.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - Fast-Slow Pointers
+  topics:
+  - fast-slow-pointers
+  - hash-table-mapping
+  time: O(logn)
+  space: O(1)

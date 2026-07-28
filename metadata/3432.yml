@@ -1,0 +1,12 @@
+number: 3432
+title: Count Partitions with Even Sum Difference
+url: https://leetcode.com/problems/count-partitions-with-even-sum-difference/
+solutions:
+- file: Solution_3432.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Prefix Sum / Math
+  topics:
+  - prefix-sum
+  time: O(N)
+  space: O(N)

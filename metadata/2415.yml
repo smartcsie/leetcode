@@ -1,0 +1,13 @@
+number: 2415
+title: Reverse Odd Levels of Binary Tree
+url: https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/
+solutions:
+- file: Solution_2415.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - DFS
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(H)

@@ -1,0 +1,12 @@
+number: 852
+title: Peak Index in a Mountain Array
+url: https://leetcode.com/problems/peak-index-in-a-mountain-array
+solutions:
+- file: Solution_0852.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(logn)
+  space: O(1)

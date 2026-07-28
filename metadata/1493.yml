@@ -1,0 +1,12 @@
+number: 1493
+title: Longest Subarray of 1's After Deleting One Element
+url: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
+solutions:
+- file: Solution_1493.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sliding Window / Two Pointers
+  topics:
+  - fixed-size-sliding-window
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 1108
+title: Defanging an IP Address
+url: https://leetcode.com/problems/defanging-an-ip-address/
+solutions:
+- file: Solution_1108.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: O(N)
+  space: O(N)

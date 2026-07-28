@@ -1,0 +1,12 @@
+number: 1668
+title: Maximum Repeating Substring
+url: https://leetcode.com/problems/maximum-repeating-substring/
+solutions:
+- file: Solution_1668.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - dynamic-programming
+  time: O(N*M²)
+  space: O(M)

@@ -1,0 +1,13 @@
+number: 3866
+title: First Unique Even Element
+url: https://leetcode.com/problems/first-unique-even-element/
+solutions:
+- file: Solution_3866.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(1)

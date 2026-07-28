@@ -1,0 +1,12 @@
+number: 2160
+title: Minimum Sum of Four Digit Number After Splitting Digits
+url: https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
+solutions:
+- file: Solution_2160.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Greedy / Sorting
+  topics:
+  - math-digit-decomposition
+  time: O(1)
+  space: O(1)

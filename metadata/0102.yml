@@ -1,0 +1,13 @@
+number: 102
+title: Binary Tree Level Order Traversal
+url: https://leetcode.com/problems/binary-tree-level-order-traversal/
+solutions:
+- file: Solution_0102.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - BFS
+  topics:
+  - tree-bfs-level-order
+  time: O(n)
+  space: O(w)

@@ -1,0 +1,13 @@
+number: 2148
+title: Count Elements With Strictly Smaller and Greater Elements
+url: https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/
+solutions:
+- file: Solution_2148.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Sorting
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

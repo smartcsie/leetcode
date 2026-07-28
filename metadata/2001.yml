@@ -1,0 +1,13 @@
+number: 2001
+title: Number of Pairs of Interchangeable Rectangles
+url: https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles
+solutions:
+- file: Solution_2001.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table
+  - Math
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(N)

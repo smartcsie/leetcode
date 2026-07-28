@@ -1,0 +1,12 @@
+number: 3114
+title: Latest Time You Can Obtain After Replacing Characters
+url: https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/
+solutions:
+- file: Solution_3114.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy / String
+  topics:
+  - greedy
+  time: O(1)
+  space: O(1)

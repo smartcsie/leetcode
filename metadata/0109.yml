@@ -1,0 +1,12 @@
+number: 109
+title: Convert Sorted List to Binary Search Tree
+url: https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+solutions:
+- file: Solution_0109.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List / Tree
+  topics:
+  - binary-search-tree
+  time: O(N log N)
+  space: O(logN)

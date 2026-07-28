@@ -1,0 +1,13 @@
+number: 2553
+title: Separate the Digits in an Array
+url: https://leetcode.com/problems/separate-the-digits-in-an-array
+solutions:
+- file: Solution_2553.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Math
+  topics:
+  - math-digit-decomposition
+  time: O(n * log(max_val))
+  space: O(n * log(max_val))

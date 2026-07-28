@@ -1,0 +1,12 @@
+number: 2341
+title: Maximum Number of Pairs in Array
+url: https://leetcode.com/problems/maximum-number-of-pairs-in-array/
+solutions:
+- file: Solution_2341.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Hash Table / Counting
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(1)*

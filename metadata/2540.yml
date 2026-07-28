@@ -1,0 +1,13 @@
+number: 2540
+title: Minimum Common Value
+url: https://leetcode.com/problems/minimum-common-value
+solutions:
+- file: Solution_2540.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N+M)
+  space: O(1)

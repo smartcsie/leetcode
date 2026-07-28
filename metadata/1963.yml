@@ -1,0 +1,13 @@
+number: 1963
+title: Minimum Number of Swaps to Make the String Balanced
+url: https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced
+solutions:
+- file: Solution_1963.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Stack
+  - Greedy
+  topics:
+  - stack
+  time: O(N)
+  space: O(1)

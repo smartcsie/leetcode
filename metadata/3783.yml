@@ -1,0 +1,12 @@
+number: 3783
+title: Mirror Distance of an Integer
+url: ''
+solutions:
+- file: Solution_3783.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Simulation
+  topics:
+  - math-digit-decomposition
+  time: O(log10(N))
+  space: O(1)

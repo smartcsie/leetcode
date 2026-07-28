@@ -1,0 +1,12 @@
+number: 2395
+title: Find Subarrays With Equal Sum
+url: https://leetcode.com/problems/find-subarrays-with-equal-sum/
+solutions:
+- file: Solution_2395.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(N)

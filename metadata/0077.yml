@@ -1,0 +1,12 @@
+number: 77
+title: Combinations
+url: https://leetcode.com/problems/combinations/
+solutions:
+- file: Solution_0077.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking
+  topics:
+  - backtracking-combination
+  time: O(k * C(n, k))
+  space: O(k)

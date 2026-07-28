@@ -1,0 +1,12 @@
+number: 476
+title: Number Complement
+url: https://leetcode.com/problems/number-complement
+solutions:
+- file: Solution_0476.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(log N)
+  space: O(1)

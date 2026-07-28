@@ -1,0 +1,13 @@
+number: 844
+title: Backspace String Compare
+url: https://leetcode.com/problems/backspace-string-compare
+solutions:
+- file: Solution_0844.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N+M)
+  space: O(1)

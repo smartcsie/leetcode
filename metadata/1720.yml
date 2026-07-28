@@ -1,0 +1,12 @@
+number: 1720
+title: Decode XORed Array
+url: https://leetcode.com/problems/decode-xored-array/
+solutions:
+- file: Solution_1720.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation / Simulation
+  topics:
+  - bit-manipulation-xor
+  time: O(N)
+  space: O(N)

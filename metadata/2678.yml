@@ -1,0 +1,12 @@
+number: 2678
+title: Number of Senior Citizens
+url: https://leetcode.com/problems/number-of-senior-citizens
+solutions:
+- file: Solution_2678.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string-character-classification
+  time: O(n)
+  space: O(1)

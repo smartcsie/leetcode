@@ -1,0 +1,12 @@
+number: 2535
+title: Difference Between Element Sum and Digit Sum of an Array
+url: https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/
+solutions:
+- file: Solution_2535.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Array
+  topics:
+  - math-digit-decomposition
+  time: O(N * log M)
+  space: O(1)

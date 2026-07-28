@@ -1,0 +1,12 @@
+number: 3090
+title: Maximum Length Substring
+url: https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/
+solutions:
+- file: Solution_3090.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Sliding Window
+  topics:
+  - fixed-size-sliding-window
+  time: O(N)
+  space: O(1)

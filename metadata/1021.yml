@@ -1,0 +1,12 @@
+number: 1021
+title: Remove Outermost Parentheses
+url: https://leetcode.com/problems/remove-outermost-parentheses/
+solutions:
+- file: Solution_1021.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Stack / Counter
+  topics:
+  - stack
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 2496
+title: Maximum Value of a String in an Array
+url: https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/
+solutions:
+- file: Solution_2496.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / String / Simulation
+  topics:
+  - string-character-classification
+  time: O(N * L)
+  space: O(1)

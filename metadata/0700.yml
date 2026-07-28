@@ -1,0 +1,14 @@
+number: 700
+title: Search in a Binary Search Tree
+url: https://leetcode.com/problems/search-in-a-binary-search-tree
+solutions:
+- file: Solution_0700.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - BST
+  - Binary Search
+  topics:
+  - binary-search-tree
+  time: O(H)
+  space: O(H)

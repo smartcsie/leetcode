@@ -1,0 +1,12 @@
+number: 35
+title: Search Insert Position
+url: https://leetcode.com/problems/search-insert-position/
+solutions:
+- file: Solution_0035.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search
+  topics:
+  - binary-search-build-in
+  time: O(logn)
+  space: O(1)

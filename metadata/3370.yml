@@ -1,0 +1,12 @@
+number: 3370
+title: Smallest Number With All Set Bits
+url: https://leetcode.com/problems/smallest-number-with-all-set-bits/
+solutions:
+- file: Solution_3370.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(log N)
+  space: O(1)

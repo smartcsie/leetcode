@@ -1,0 +1,12 @@
+number: 326
+title: Power of Three
+url: https://leetcode.com/problems/power-of-three/
+solutions:
+- file: Solution_0326.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(log₃n)
+  space: O(1)

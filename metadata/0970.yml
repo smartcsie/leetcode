@@ -1,0 +1,12 @@
+number: 970
+title: Powerful Integers
+url: https://leetcode.com/problems/powerful-integers/
+solutions:
+- file: Solution_0970.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Hash Table
+  topics:
+  - math
+  time: O(log_x(bound) * log_y(bound))
+  space: O(S)

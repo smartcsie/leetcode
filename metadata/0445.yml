@@ -1,0 +1,13 @@
+number: 445
+title: Add Two Numbers II
+url: https://leetcode.com/problems/add-two-numbers-ii
+solutions:
+- file: Solution_0445.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Stack
+  topics:
+  - stack
+  time: O(N + M)
+  space: O(N + M)

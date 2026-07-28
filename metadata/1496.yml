@@ -1,0 +1,13 @@
+number: 1496
+title: Path Crossing
+url: https://leetcode.com/problems/path-crossing/
+solutions:
+- file: Solution_1496.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Set
+  - Coordinates
+  topics:
+  - hash-table-set
+  time: O(N)
+  space: O(N)

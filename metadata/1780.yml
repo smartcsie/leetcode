@@ -1,0 +1,12 @@
+number: 1780
+title: Check if Number is a Sum of Powers of Three
+url: https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/
+solutions:
+- file: Solution_1780.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Base-3
+  topics:
+  - math
+  time: O(log₃ N)
+  space: O(1)

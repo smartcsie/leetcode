@@ -1,0 +1,13 @@
+number: 3083
+title: Existence of a Substring in a String and Its Reverse
+url: https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/
+solutions:
+- file: Solution_3083.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Array
+  topics:
+  - string-substring-2
+  time: O(N)
+  space: O(1)

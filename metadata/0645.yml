@@ -1,0 +1,12 @@
+number: 645
+title: Set Mismatch
+url: https://leetcode.com/problems/set-mismatch
+solutions:
+- file: Solution_0645.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Hash Table / Math
+  topics:
+  - negative-marking
+  time: O(N)
+  space: O(1)

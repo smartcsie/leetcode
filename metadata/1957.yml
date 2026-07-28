@@ -1,0 +1,12 @@
+number: 1957
+title: Delete Characters...
+url: https://leetcode.com/problems/delete-characters-to-make-fancy-string/
+solutions:
+- file: Solution_1957.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Two Pointers
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(N)

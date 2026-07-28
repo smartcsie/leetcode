@@ -1,0 +1,12 @@
+number: 434
+title: Number of Segments in a String
+url: https://leetcode.com/problems/number-of-segments-in-a-string
+solutions:
+- file: Solution_0434.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: O(N)
+  space: O(1)

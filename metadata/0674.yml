@@ -1,0 +1,22 @@
+number: 674
+title: Longest Continuous Increasing Subsequence
+url: https://leetcode.com/problems/longest-continuous-increasing-subsequence/
+solutions:
+- file: Solution_0674_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - DP
+  - Array
+  topics:
+  - dynamic-programming-4
+  time: O(N)
+  space: O(N)
+- file: Solution_0674.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Greedy
+  topics:
+  - greedy
+  time: O(n)
+  space: O(1)

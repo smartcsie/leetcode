@@ -1,0 +1,13 @@
+number: 199
+title: Binary Tree Right Side View
+url: https://leetcode.com/problems/binary-tree-right-side-view/
+solutions:
+- file: Solution_0199.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - BFS
+  topics:
+  - tree-bfs-level-order
+  time: O(n)
+  space: O(w)

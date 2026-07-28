@@ -1,0 +1,12 @@
+number: 3618
+title: Split Array by Prime Indices
+url: https://leetcode.com/problems/split-array-by-prime-indices/
+solutions:
+- file: Solution_3618.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Sieve
+  topics:
+  - prime
+  time: O(N + RloglogR)
+  space: O(R)

@@ -1,0 +1,14 @@
+number: 12
+title: Integer to Roman
+url: https://leetcode.com/problems/integer-to-roman
+solutions:
+- file: Solution_0012.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - Hash Table
+  - String
+  topics:
+  - hash-table-mapping
+  time: O(1)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 216
+title: Combination Sum III
+url: https://leetcode.com/problems/combination-sum-iii/
+solutions:
+- file: Solution_0216.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking
+  topics:
+  - backtracking-combination
+  time: O(C(9, k))
+  space: O(k)

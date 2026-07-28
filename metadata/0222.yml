@@ -1,0 +1,14 @@
+number: 222
+title: Count Complete Tree Nodes
+url: https://leetcode.com/problems/count-complete-tree-nodes
+solutions:
+- file: Solution_0222.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  - Binary Search
+  topics:
+  - tree-dfs-path
+  time: O(log²n)
+  space: O(log n)

@@ -1,0 +1,12 @@
+number: 3216
+title: Lexicographically Smallest String After a Swap
+url: https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/
+solutions:
+- file: Solution_3216.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy / String
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

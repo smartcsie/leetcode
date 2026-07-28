@@ -1,0 +1,13 @@
+number: 3931
+title: Check Adjacent Digit Differences
+url: https://leetcode.com/problems/check-adjacent-digit-differences/
+solutions:
+- file: Solution_3931.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Math
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

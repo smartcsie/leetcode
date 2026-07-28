@@ -1,0 +1,13 @@
+number: 692
+title: Top K Frequent Words
+url: https://leetcode.com/problems/top-k-frequent-words
+solutions:
+- file: Solution_0692.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table
+  - Heap
+  topics:
+  - priority-queue
+  time: O(NlogK)
+  space: O(N)

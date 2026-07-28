@@ -1,0 +1,13 @@
+number: 152
+title: Maximum Product Subarray
+url: https://leetcode.com/problems/maximum-product-subarray/
+solutions:
+- file: Solution_0152.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming
+  - Array
+  topics:
+  - dynamic-programming-kadane-algorithm
+  time: O(N)
+  space: O(1)

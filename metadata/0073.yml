@@ -1,0 +1,13 @@
+number: 73
+title: Set Matrix Zeroes
+url: https://leetcode.com/problems/set-matrix-zeroes
+solutions:
+- file: Solution_0073.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Matrix
+  topics:
+  - 2d-array
+  time: O(M*N)
+  space: O(1)

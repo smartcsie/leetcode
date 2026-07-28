@@ -1,0 +1,12 @@
+number: 2169
+title: Count Operations to Obtain Zero
+url: https://leetcode.com/problems/count-operations-to-obtain-zero/
+solutions:
+- file: Solution_2169.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Euclidean Algorithm / Simulation
+  topics:
+  - math-factor-enumeration
+  time: O(log(min(num1, num2)))
+  space: O(1)

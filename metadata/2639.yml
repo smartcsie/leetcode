@@ -1,0 +1,12 @@
+number: 2639
+title: Find the Width of Columns of a Grid
+url: https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/
+solutions:
+- file: Solution_2639.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Simulation
+  topics:
+  - 2d-array
+  time: O(M * N * D)
+  space: O(1)*

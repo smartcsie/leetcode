@@ -1,0 +1,12 @@
+number: 58
+title: Length of Last Word
+url: https://leetcode.com/problems/length-of-last-word
+solutions:
+- file: Solution_0058.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: O(n)
+  space: O(1)

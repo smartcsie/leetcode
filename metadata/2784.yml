@@ -1,0 +1,14 @@
+number: 2784
+title: Check if Array is Good
+url: https://leetcode.com/problems/check-if-array-is-good
+solutions:
+- file: Solution_2784.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  - Sorting
+  topics:
+  - hash-table-set
+  time: O(n)
+  space: O(n)

@@ -1,0 +1,12 @@
+number: 3487
+title: Maximum Unique Subarray Sum After Deletion
+url: https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/
+solutions:
+- file: Solution_3487.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array / Hash Set / Greedy
+  topics:
+  - hash-table-set
+  time: O(N)
+  space: O(N)

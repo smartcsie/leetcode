@@ -1,0 +1,12 @@
+number: 1910
+title: Remove All Occurrences of a Substring
+url: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/
+solutions:
+- file: Solution_1910.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Stack / String
+  topics:
+  - string
+  time: O(N * M)
+  space: O(N)

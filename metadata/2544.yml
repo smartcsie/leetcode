@@ -1,0 +1,12 @@
+number: 2544
+title: Alternating Digit Sum
+url: https://leetcode.com/problems/alternating-digit-sum/
+solutions:
+- file: Solution_2544.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Digit Manipulation
+  topics:
+  - math-digit-decomposition
+  time: O(logN)
+  space: O(logN)

@@ -1,0 +1,12 @@
+number: 1005
+title: Maximize Sum Of Array After K Negations
+url: https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/
+solutions:
+- file: Solution_1005.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy / Sorting
+  topics:
+  - greedy
+  time: O(N log N)
+  space: O(1)

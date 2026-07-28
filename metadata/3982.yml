@@ -1,0 +1,12 @@
+number: 3982
+title: Sum of Integers with Maximum Digit Range
+url: ''
+solutions:
+- file: Solution_3982.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Array
+  topics:
+  - math-digit-decomposition
+  time: O(N * D)
+  space: O(N)

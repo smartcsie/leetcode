@@ -1,0 +1,13 @@
+number: 429
+title: N-ary Tree Level Order Traversal
+url: https://leetcode.com/problems/n-ary-tree-level-order-traversal
+solutions:
+- file: Solution_0429.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - BFS
+  topics:
+  - tree-bfs-level-order
+  time: O(N)
+  space: O(W)

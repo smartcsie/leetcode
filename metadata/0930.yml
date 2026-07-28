@@ -1,0 +1,13 @@
+number: 930
+title: Binary Subarrays With Sum
+url: https://leetcode.com/problems/binary-subarrays-with-sum/
+solutions:
+- file: Solution_930.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Prefix Sum
+  topics:
+  - prefix-sum
+  time: O(N)
+  space: O(N)

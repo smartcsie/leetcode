@@ -1,0 +1,12 @@
+number: 897
+title: Increasing Order Search Tree
+url: https://leetcode.com/problems/increasing-order-search-tree/
+solutions:
+- file: Solution_0897.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - DFS / In-order
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(H)

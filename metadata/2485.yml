@@ -1,0 +1,12 @@
+number: 2485
+title: Find the Pivot Integer
+url: https://leetcode.com/problems/pivot-integer/
+solutions:
+- file: Solution_2485.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)

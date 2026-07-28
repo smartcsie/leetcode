@@ -1,0 +1,12 @@
+number: 2068
+title: Check Whether Two Strings are Almost Equivalent
+url: https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/
+solutions:
+- file: Solution_2068.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table / String / Counting
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(1)

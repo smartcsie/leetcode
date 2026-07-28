@@ -1,0 +1,14 @@
+number: 141
+title: Linked List Cycle
+url: https://leetcode.com/problems/linked-list-cycle
+solutions:
+- file: Solution_0141.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Linked List
+  - Fast-Slow Pointers
+  topics:
+  - fast-slow-pointers
+  - linked-list-circular
+  time: O(n)
+  space: O(1)

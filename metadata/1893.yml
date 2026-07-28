@@ -1,0 +1,12 @@
+number: 1893
+title: Check if All the Integers in a Range Are Covered
+url: https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/
+solutions:
+- file: Solution_1893.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Bitset / Simulation
+  topics:
+  - bit-manipulation
+  time: O(N * L)
+  space: O(1)*

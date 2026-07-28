@@ -1,0 +1,12 @@
+number: 3
+title: Longest Substring Without Repeating Characters
+url: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+solutions:
+- file: Solution_0003.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sliding Window / Hash Table
+  topics:
+  - fixed-size-sliding-window
+  time: O(N)
+  space: O(1)

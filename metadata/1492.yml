@@ -1,0 +1,12 @@
+number: 1492
+title: The kth Factor of n
+url: https://leetcode.com/problems/the-kth-factor-of-n/
+solutions:
+- file: Solution_1492.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  topics:
+  - math-factor-enumeration
+  time: O(√N)
+  space: O(1)

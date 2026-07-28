@@ -1,0 +1,12 @@
+number: 1550
+title: Three Consecutive Odds
+url: https://leetcode.com/problems/three-consecutive-odds/
+solutions:
+- file: Solution_1550.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

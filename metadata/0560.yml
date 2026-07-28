@@ -1,0 +1,14 @@
+number: 560
+title: Subarray Sum Equals K
+url: https://leetcode.com/problems/subarray-sum-equals-k
+solutions:
+- file: Solution_0560.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Hash Table
+  - Prefix Sum
+  topics:
+  - prefix-sum
+  time: O(N)
+  space: O(N)

@@ -1,0 +1,12 @@
+number: 3794
+title: Reverse String Prefix
+url: https://leetcode.com/problems/reverse-string-prefix/
+solutions:
+- file: Solution_3794.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,14 @@
+number: 1351
+title: Count Negative Numbers in a Sorted Matrix
+url: https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/
+solutions:
+- file: Solution_1351.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Matrix
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(R + C)
+  space: O(1)

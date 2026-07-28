@@ -1,0 +1,12 @@
+number: 2023
+title: Number of Pairs of Strings With Concatenation Equal to Target
+url: https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/
+solutions:
+- file: Solution_2023.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table / String / Single-Pass
+  topics:
+  - hash-table-counting
+  time: O(N * L)
+  space: ''

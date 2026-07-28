@@ -1,0 +1,12 @@
+number: 3084
+title: Count Substrings...
+url: https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/
+solutions:
+- file: Solution_3084.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Combinatorics
+  topics:
+  - math-combination
+  time: O(N)
+  space: O(1)

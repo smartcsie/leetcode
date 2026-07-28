@@ -1,0 +1,14 @@
+number: 501
+title: Find Mode in Binary Search Tree
+url: https://leetcode.com/problems/find-mode-in-binary-search-tree
+solutions:
+- file: Solution_0501.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  - BST
+  topics:
+  - binary-search-tree
+  time: O(n)
+  space: O(h)

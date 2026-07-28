@@ -1,0 +1,13 @@
+number: 110
+title: Balanced Binary Tree
+url: https://leetcode.com/problems/balanced-binary-tree/
+solutions:
+- file: Solution_0110.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  topics:
+  - tree-dfs-path
+  time: O(n)
+  space: O(h)

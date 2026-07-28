@@ -1,0 +1,12 @@
+number: 2319
+title: Check if Matrix Is X-Matrix
+url: https://leetcode.com/problems/check-if-matrix-is-x-matrix/
+solutions:
+- file: Solution_2319.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Matrix
+  topics:
+  - 2d-array
+  time: O(n²)
+  space: O(1)

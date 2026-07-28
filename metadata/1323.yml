@@ -1,0 +1,13 @@
+number: 1323
+title: Maximum 69 Number
+url: https://leetcode.com/problems/maximum-69-number/
+solutions:
+- file: Solution_1323.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy
+  - Math
+  topics:
+  - greedy
+  time: O(D)
+  space: O(D)

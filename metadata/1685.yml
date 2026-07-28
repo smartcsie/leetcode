@@ -1,0 +1,14 @@
+number: 1685
+title: Sum of Absolute Differences in a Sorted Array
+url: https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/
+solutions:
+- file: Solution_1685.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Prefix Sum
+  - Math
+  topics:
+  - prefix-sum
+  time: O(N)
+  space: O(N)

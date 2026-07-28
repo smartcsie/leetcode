@@ -1,0 +1,12 @@
+number: 2520
+title: Count the Digits That Divide a Number
+url: https://leetcode.com/problems/count-the-digits-that-divide-a-number/
+solutions:
+- file: Solution_2520.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Digit Manipulation
+  topics:
+  - math-digit-decomposition
+  time: O(log N)
+  space: O(1)

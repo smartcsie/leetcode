@@ -1,0 +1,12 @@
+number: 2243
+title: Calculate Digit Sum of a String
+url: https://leetcode.com/problems/calculate-digit-sum-of-a-string/
+solutions:
+- file: Solution_2243.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Simulation / String
+  topics:
+  - string
+  time: O(N * log N)
+  space: O(N)

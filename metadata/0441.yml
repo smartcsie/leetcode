@@ -1,0 +1,12 @@
+number: 441
+title: Arranging Coins
+url: https://leetcode.com/problems/arranging-coins/
+solutions:
+- file: Solution_0441.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Binary Search
+  topics:
+  - math
+  time: O(logN)
+  space: O(1)

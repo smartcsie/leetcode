@@ -1,0 +1,12 @@
+number: 3637
+title: Trionic Array I
+url: https://leetcode.com/problems/trionic-array-i/
+solutions:
+- file: Solution_3637.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers / State Transition
+  topics:
+  - two-pointers-same
+  time: O(N)
+  space: O(1)

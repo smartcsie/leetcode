@@ -1,0 +1,13 @@
+number: 373
+title: Find K Pairs with Smallest Sums
+url: https://leetcode.com/problems/find-k-pairs-with-smallest-sum/
+solutions:
+- file: Solution_0373.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Heap
+  - Greedy
+  topics:
+  - priority-queue
+  time: O(KlogK)
+  space: O(K)

@@ -1,0 +1,12 @@
+number: 1854
+title: Maximum Population Year
+url: https://leetcode.com/problems/maximum-population-year/
+solutions:
+- file: Solution_1854.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Difference Array / Sweep Line
+  topics:
+  - array-difference-array
+  time: O(N + Y)
+  space: O(Y)

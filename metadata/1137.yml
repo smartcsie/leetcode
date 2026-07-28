@@ -1,0 +1,13 @@
+number: 1137
+title: N-th Tribonacci Number
+url: https://leetcode.com/problems/n-th-tribonacci-number/
+solutions:
+- file: Solution_1137.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - DP
+  - Math
+  topics:
+  - dynamic-programming
+  time: O(N)
+  space: O(1)

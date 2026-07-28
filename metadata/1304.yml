@@ -1,0 +1,12 @@
+number: 1304
+title: Find N Unique Integers Sum up to Zero
+url: https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/
+solutions:
+- file: Solution_1304.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Array
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

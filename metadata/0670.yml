@@ -1,0 +1,12 @@
+number: 670
+title: Maximum Swap
+url: https://leetcode.com/problems/maximum-swap/
+solutions:
+- file: Solution_0670.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

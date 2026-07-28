@@ -1,0 +1,12 @@
+number: 563
+title: Binary Tree Tilt
+url: https://leetcode.com/problems/binary-tree-tilt/
+solutions:
+- file: Solution_0563.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - DFS / Post-order
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(H)

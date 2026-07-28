@@ -1,0 +1,12 @@
+number: 239
+title: Sliding Window Maximum
+url: https://leetcode.com/problems/sliding-window-maximum/
+solutions:
+- file: Solution_0239.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Monotonic Queue / Sliding Window
+  topics:
+  - monotonic-queue
+  time: O(N)
+  space: O(K)

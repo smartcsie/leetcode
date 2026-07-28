@@ -1,0 +1,12 @@
+number: 744
+title: Find Smallest Letter Greater Than Target
+url: https://leetcode.com/problems/find-smallest-letter-greater-than-target
+solutions:
+- file: Solution_0744.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search
+  topics:
+  - binary-search-build-in
+  time: O(logN)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 3079
+title: Find the Sum of Encrypted Integers
+url: https://leetcode.com/problems/find-the-sum-of-encrypted-integers/
+solutions:
+- file: Solution_3079.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Simulation / Math
+  topics:
+  - math-digit-decomposition
+  time: O(N * D)
+  space: O(1)

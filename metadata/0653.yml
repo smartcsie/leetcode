@@ -1,0 +1,12 @@
+number: 653
+title: Two Sum IV - Input is a BST
+url: https://leetcode.com/problems/two-sum-iv-input-is-a-bst
+solutions:
+- file: Solution_0653.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree / Hash Table
+  topics:
+  - binary-search-tree
+  time: O(N)
+  space: O(N)

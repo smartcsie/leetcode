@@ -1,0 +1,13 @@
+number: 160
+title: Intersection of Two Linked Lists
+url: https://leetcode.com/problems/intersection-of-two-linked-lists
+solutions:
+- file: Solution_0160.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Linked List
+  - Two Pointers
+  topics:
+  - two-pointers-other
+  time: O(n+m)
+  space: O(1)

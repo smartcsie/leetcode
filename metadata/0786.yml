@@ -1,0 +1,12 @@
+number: 786
+title: K-th Smallest Prime Fraction
+url: https://leetcode.com/problems/k-th-smallest-prime-fraction/
+solutions:
+- file: Solution_0786.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Priority Queue / Binary Search
+  topics:
+  - priority-queue
+  time: O(N log N)
+  space: O(N)

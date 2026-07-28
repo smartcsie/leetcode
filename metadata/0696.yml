@@ -1,0 +1,12 @@
+number: 696
+title: Count Binary Substrings
+url: https://leetcode.com/problems/count-binary-substrings/
+solutions:
+- file: Solution_0696.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Greedy
+  topics:
+  - array-continuous-counting
+  time: O(N)
+  space: O(1)

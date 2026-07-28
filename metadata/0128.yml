@@ -1,0 +1,13 @@
+number: 128
+title: Longest Consecutive Sequence
+url: https://leetcode.com/problems/longest-consecutive-sequence/
+solutions:
+- file: Solution_0128.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Hash Table
+  topics:
+  - hash-table-mapping
+  time: O(N)
+  space: O(N)

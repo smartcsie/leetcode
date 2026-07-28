@@ -1,0 +1,12 @@
+number: 2652
+title: Sum Multiples
+url: https://leetcode.com/problems/sum-multiples
+solutions:
+- file: Solution_2652.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(n)
+  space: O(1)

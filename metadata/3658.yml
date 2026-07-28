@@ -1,0 +1,12 @@
+number: 3658
+title: GCD of Odd and Even Sums
+url: https://leetcode.com/problems/gcd-of-odd-and-even-sums
+solutions:
+- file: Solution_3658.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)

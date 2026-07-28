@@ -1,0 +1,14 @@
+number: 503
+title: Next Greater Element II
+url: https://leetcode.com/problems/next-greater-element-ii
+solutions:
+- file: Solution_0503.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Stack
+  - Monotonic Stack
+  topics:
+  - monotonic-stack
+  time: O(N)
+  space: O(N)

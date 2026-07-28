@@ -1,0 +1,12 @@
+number: 1732
+title: Find the Highest Altitude
+url: https://leetcode.com/problems/find-the-highest-altitude/
+solutions:
+- file: null
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Prefix Sum
+  topics:
+  - prefix-sum
+  time: O(N)
+  space: O(1)

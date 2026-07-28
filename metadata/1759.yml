@@ -1,0 +1,12 @@
+number: 1759
+title: Count Number of Homogenous Substrings
+url: https://leetcode.com/problems/count-number-of-homogenous-substrings/
+solutions:
+- file: Solution_1759.cpp
+  difficulty: 🟢 Medium
+  tags:
+  - Math / String
+  topics:
+  - array-continuous-counting
+  time: O(N)
+  space: O(1)

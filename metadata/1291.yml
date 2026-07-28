@@ -1,0 +1,12 @@
+number: 1291
+title: Sequential Digits
+url: https://leetcode.com/problems/sequential-digits/
+solutions:
+- file: Solution_1291.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Brute Force / String
+  topics:
+  - string-substring-enumeration
+  time: O(1)
+  space: O(1)

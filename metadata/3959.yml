@@ -1,0 +1,12 @@
+number: 3959
+title: Check Good Integer
+url: https://leetcode.com/problems/check-good-integer/
+solutions:
+- file: Solution_3959.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Digit Manipulation
+  topics:
+  - math-digit-decomposition
+  time: O(log N)
+  space: O(1)

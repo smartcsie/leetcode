@@ -1,0 +1,13 @@
+number: 105
+title: Construct Binary Tree from Preorder and Inorder Traversal
+url: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+solutions:
+- file: Solution_105.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - Recursion
+  topics:
+  - tree
+  time: O(N)
+  space: O(N)

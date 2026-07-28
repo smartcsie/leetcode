@@ -1,0 +1,13 @@
+number: 347
+title: Top K Frequent Elements
+url: https://leetcode.com/problems/top-k-frequent-elements
+solutions:
+- file: Solution_0347.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table
+  - QuickSelect
+  topics:
+  - sorting
+  time: O(N)
+  space: O(N)

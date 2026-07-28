@@ -1,0 +1,13 @@
+number: 14
+title: Longest Common Prefix
+url: https://leetcode.com/problems/longest-common-prefix
+solutions:
+- file: Solution_0014.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Trie
+  topics:
+  - string
+  time: O(S)
+  space: O(1)

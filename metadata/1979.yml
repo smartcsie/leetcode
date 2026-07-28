@@ -1,0 +1,12 @@
+number: 1979
+title: Find Greatest Common Divisor of Array
+url: https://leetcode.com/problems/find-greatest-common-divisor-of-array/
+solutions:
+- file: Solution_1979.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / GCD
+  topics:
+  - math-simulation
+  time: O(N)
+  space: O(1)

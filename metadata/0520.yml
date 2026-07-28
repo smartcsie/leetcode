@@ -1,0 +1,12 @@
+number: 520
+title: Detect Capital
+url: https://leetcode.com/problems/detect-capital/
+solutions:
+- file: Solution_0520.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

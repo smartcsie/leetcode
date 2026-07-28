@@ -1,0 +1,12 @@
+number: 1143
+title: Longest Common Subsequence
+url: https://leetcode.com/problems/longest-common-subsequence
+solutions:
+- file: Solution_1143.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming
+  topics:
+  - dynamic-programming-4
+  time: O(m*n)
+  space: O(m*n)

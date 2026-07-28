@@ -1,0 +1,12 @@
+number: 3110
+title: Score of a String
+url: https://leetcode.com/problems/score-of-a-string
+solutions:
+- file: Solution_3110.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

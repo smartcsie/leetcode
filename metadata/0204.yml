@@ -1,0 +1,12 @@
+number: 204
+title: Count Primes
+url: https://leetcode.com/problems/count-primes/
+solutions:
+- file: Solution_0204.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Sieve
+  topics:
+  - prime
+  time: O(NloglogN)
+  space: O(N)

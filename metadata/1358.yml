@@ -1,0 +1,12 @@
+number: 1358
+title: Number of Substrings Containing All Three Characters
+url: https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
+solutions:
+- file: Solution_1358.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sliding Window
+  topics:
+  - variable-size-sliding-window
+  time: O(N)
+  space: O(1)

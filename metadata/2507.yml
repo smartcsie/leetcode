@@ -1,0 +1,12 @@
+number: 2507
+title: Smallest Value After Replacing With Sum of Prime Factors
+url: https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/
+solutions:
+- file: Solution_2507.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Prime Factorization
+  topics:
+  - math-factor-enumeration
+  time: O(log N * sqrt(N))
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 69
+title: Sqrt(x)
+url: https://leetcode.com/problems/sqrtx/
+solutions:
+- file: Solution_0069.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(logn)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 2231
+title: Largest Number After Digit Swaps by Parity
+url: https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/
+solutions:
+- file: Solution_2231.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy / Partition by Parity
+  topics:
+  - greedy
+  time: O(D log D)
+  space: O(D)

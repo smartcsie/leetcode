@@ -1,0 +1,13 @@
+number: 28
+title: Find the Index of the First Occurrence in a String
+url: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string
+solutions:
+- file: Solution_0028.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - KMP
+  topics:
+  - string-kmp
+  time: O(N * M)
+  space: O(1)

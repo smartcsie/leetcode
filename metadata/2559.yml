@@ -1,0 +1,13 @@
+number: 2559
+title: Count Vowel Strings in Ranges
+url: https://leetcode.com/problems/count-vowel-strings-in-ranges
+solutions:
+- file: Solution_2559.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Prefix Sum
+  topics:
+  - prefix-sum
+  time: O(N + Q)
+  space: O(N)

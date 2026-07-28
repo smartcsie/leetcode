@@ -1,0 +1,12 @@
+number: 1863
+title: Sum of All Subset XOR Totals
+url: https://leetcode.com/problems/sum-of-all-subset-xor-totals/
+solutions:
+- file: Solution_1863.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation / Math / Combinatorics
+  topics:
+  - bit-manipulation-xor
+  time: O(N)
+  space: O(1)

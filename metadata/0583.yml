@@ -1,0 +1,12 @@
+number: 583
+title: Delete Operation for Two Strings
+url: https://leetcode.com/problems/delete-operation-for-two-strings
+solutions:
+- file: Solution_0583.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming
+  topics:
+  - dynamic-programming-4
+  time: O(m*n)
+  space: O(m*n)

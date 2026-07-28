@@ -1,0 +1,12 @@
+number: 2956
+title: Find Common Elements Between Two Arrays
+url: https://leetcode.com/problems/find-common-elements-between-two-arrays/
+solutions:
+- file: Solution_2956.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Hash Table / Bitset
+  topics:
+  - bit-manipulation
+  time: O(N + M)
+  space: O(1)*

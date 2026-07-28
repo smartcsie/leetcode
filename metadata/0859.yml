@@ -1,0 +1,12 @@
+number: 859
+title: Buddy Strings
+url: https://leetcode.com/problems/buddy-strings/
+solutions:
+- file: Solution_859.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Hash Table / Two Pointers
+  topics:
+  - hash-table-set
+  time: O(N)
+  space: O(1)*

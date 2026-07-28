@@ -1,0 +1,12 @@
+number: 143
+title: Reorder List
+url: https://leetcode.com/problems/reorder-list/
+solutions:
+- file: Solution_0143.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  topics:
+  - linked-list
+  time: O(N)
+  space: O(1)

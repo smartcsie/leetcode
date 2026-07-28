@@ -1,0 +1,12 @@
+number: 1470
+title: Shuffle the Array
+url: https://leetcode.com/problems/shuffle-the-array/
+solutions:
+- file: Solution_1470.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array
+  time: O(N)
+  space: O(N)

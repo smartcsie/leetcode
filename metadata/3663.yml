@@ -1,0 +1,13 @@
+number: 3663
+title: Find The Least Frequent Digit
+url: https://leetcode.com/problems/find-the-least-frequent-digit/
+solutions:
+- file: Solution_3663.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - Frequency Counting
+  topics:
+  - hash-table-counting
+  time: O(log N)
+  space: O(1)

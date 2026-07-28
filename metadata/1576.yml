@@ -1,0 +1,12 @@
+number: 1576
+title: Replace All ?'s
+url: https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/
+solutions:
+- file: Solution_1576.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

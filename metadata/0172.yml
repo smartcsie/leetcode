@@ -1,0 +1,12 @@
+number: 172
+title: Factorial Trailing Zeroes
+url: https://leetcode.com/problems/factorial-trailing-zeroes
+solutions:
+- file: Solution_0172.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(log₅N)
+  space: O(1)

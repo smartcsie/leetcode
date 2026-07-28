@@ -1,0 +1,12 @@
+number: 2433
+title: Find The Original Array of Prefix Xor
+url: https://leetcode.com/problems/find-the-original-array-of-prefix-xor/
+solutions:
+- file: Solution_2433.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Prefix XOR Inverse
+  topics:
+  - bit-manipulation-xor
+  time: O(N)
+  space: O(N)

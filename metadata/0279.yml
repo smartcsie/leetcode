@@ -1,0 +1,13 @@
+number: 279
+title: Perfect Squares
+url: https://leetcode.com/problems/perfect-squares/
+solutions:
+- file: Solution_0279.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP
+  - Unbounded Knapsack
+  topics:
+  - knapsack-problem-2
+  time: O(N*√N)
+  space: O(N)

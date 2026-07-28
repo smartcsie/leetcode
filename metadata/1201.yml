@@ -1,0 +1,13 @@
+number: 1201
+title: Ugly Number III
+url: https://leetcode.com/problems/ugly-number-iii/
+solutions:
+- file: Solution_1201.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary Search
+  - Math
+  topics:
+  - binary-search
+  time: O(log(2e9))
+  space: O(1)

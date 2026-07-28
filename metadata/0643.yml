@@ -1,0 +1,13 @@
+number: 643
+title: Maximum Average Subarray I
+url: https://leetcode.com/problems/maximum-average-subarray-i
+solutions:
+- file: Solution_0643.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Sliding Window
+  topics:
+  - fixed-size-sliding-window
+  time: O(N)
+  space: O(1)

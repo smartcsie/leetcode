@@ -1,0 +1,37 @@
+# Solution_2574
+
+```cpp
+/**
+ * 題目：2574. Left and Right Sum Differences
+ * 難度：待補充
+ * 描述：待補充
+ *
+ * 時間複雜度：O(N) - 兩次前綴掃描計算左右前綴和差異。
+ * 空間複雜度：O(N) - 結果陣列大小為 N。
+ */
+
+class Solution {
+public:
+    vector<int> leftRightDifference(vector<int>& nums) {
+        int n = nums.size();
+
+        vector<int> prefix(n + 1, 0);
+        for(int i = 0; i < n; i++) {
+            prefix[i + 1] = nums[i] + prefix[i]; 
+        }
+
+        vector<int> res;
+        res.reserve(n);
+
+        for(int i = 0; i < n; i++) { 
+            int left = prefix[i];
+            int right =  prefix[n] - prefix[i + 1];
+            res.push_back(abs(right - left));
+        }
+        
+        return res;
+        
+    }
+};
+
+```

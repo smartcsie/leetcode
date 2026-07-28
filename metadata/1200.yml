@@ -1,0 +1,13 @@
+number: 1200
+title: Minimum Absolute Difference
+url: https://leetcode.com/problems/minimum-absolute-difference/
+solutions:
+- file: Solution_1200.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Sorting
+  topics:
+  - sorting
+  time: O(NlogN)
+  space: O(N)

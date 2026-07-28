@@ -1,0 +1,12 @@
+number: 1375
+title: Number of Times Binary String Is Prefix-Aligned
+url: https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/
+solutions:
+- file: Solution_1375.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array / Simulation / Greedy
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

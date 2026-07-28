@@ -1,0 +1,13 @@
+number: 1035
+title: Uncrossed Lines
+url: https://leetcode.com/problems/uncrossed-lines/
+solutions:
+- file: Solution_1035.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP
+  - LCS
+  topics:
+  - dynamic-programming-4
+  time: O(N * M)
+  space: O(M)

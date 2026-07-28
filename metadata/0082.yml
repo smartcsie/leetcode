@@ -1,0 +1,13 @@
+number: 82
+title: Remove Duplicates from Sorted List II
+url: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii
+solutions:
+- file: Solution_0082.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Two Pointers
+  topics:
+  - linked-list
+  time: O(n)
+  space: O(1)

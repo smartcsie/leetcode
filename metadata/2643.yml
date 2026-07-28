@@ -1,0 +1,12 @@
+number: 2643
+title: Row With Maximum Ones
+url: https://leetcode.com/problems/row-with-maximum-ones/
+solutions:
+- file: Solution_2643.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Matrix / Linear Scan
+  topics:
+  - array-linear-scan
+  time: O(M*N)
+  space: O(1)

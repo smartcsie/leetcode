@@ -1,0 +1,13 @@
+number: 1528
+title: Shuffle String
+url: https://leetcode.com/problems/shuffle-string
+solutions:
+- file: Solution_1528.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Array
+  topics:
+  - string
+  time: O(N)
+  space: O(N)

@@ -1,0 +1,12 @@
+number: 1961
+title: Check If String Is a Prefix of Array
+url: https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/
+solutions:
+- file: Solution_1961.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Simulation
+  topics:
+  - string
+  time: O(S)
+  space: O(S)

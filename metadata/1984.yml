@@ -1,0 +1,12 @@
+number: 1984
+title: Minimum Difference Between Highest and Lowest of K Scores
+url: https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/
+solutions:
+- file: Solution_1984.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Sorting / Sliding Window
+  topics:
+  - fixed-size-sliding-window
+  time: O(NlogN)
+  space: O(1)

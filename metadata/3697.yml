@@ -1,0 +1,12 @@
+number: 3697
+title: Compute Decimal Representation
+url: https://leetcode.com/problems/compute-decimal-representation/
+solutions:
+- file: null
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Digit Extraction
+  topics:
+  - math-digit-decomposition
+  time: O(logN)
+  space: '[Note](#3697-compute-decimal-representation)'

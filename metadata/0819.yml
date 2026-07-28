@@ -1,0 +1,13 @@
+number: 819
+title: Most Common Word
+url: https://leetcode.com/problems/most-common-word/
+solutions:
+- file: Solution_0819.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Hash Table
+  topics:
+  - hash-table-counting
+  time: O(M + N)
+  space: O(M + N)

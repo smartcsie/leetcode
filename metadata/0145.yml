@@ -1,0 +1,21 @@
+number: 145
+title: Binary Tree Postorder Traversal
+url: https://leetcode.com/problems/binary-tree-postorder-traversal
+solutions:
+- file: Solution_0145_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  topics:
+  - tree-dfs-path
+  time: O(n)
+  space: O(h)
+- file: Solution_0145.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  topics:
+  - tree
+  time: O(n)
+  space: O(h)

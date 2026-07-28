@@ -1,0 +1,12 @@
+number: 3513
+title: Number of Unique XOR Triplets I
+url: https://leetcode.com/problems/number-of-unique-xor-triplets-i/
+solutions:
+- file: Solution_3513.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Bit Manipulation / Brainteaser
+  topics:
+  - bit-manipulation-xor
+  time: O(log N)
+  space: O(1)

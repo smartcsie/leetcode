@@ -1,0 +1,13 @@
+number: 557
+title: Reverse Words in a String III
+url: https://leetcode.com/problems/reverse-words-in-a-string-iii
+solutions:
+- file: Solution_0557.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Two Pointers
+  topics:
+  - two-pointers-other
+  time: O(n)
+  space: O(1)

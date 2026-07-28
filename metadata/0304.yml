@@ -1,0 +1,14 @@
+number: 304
+title: Range Sum Query 2D - Immutable
+url: https://leetcode.com/problems/range-sum-query-2d-immutable
+solutions:
+- file: Solution_0304.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Matrix
+  - Prefix Sum
+  topics:
+  - prefix-sum
+  time: O(M * N) 初始化 / O(1) 查詢
+  space: O(M * N)

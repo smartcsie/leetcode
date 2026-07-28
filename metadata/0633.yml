@@ -1,0 +1,12 @@
+number: 633
+title: Sum of Square Numbers
+url: https://leetcode.com/problems/sum-of-square-numbers/
+solutions:
+- file: Solution_0633.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Two Pointers
+  topics:
+  - math
+  time: O(√c)
+  space: O(1)

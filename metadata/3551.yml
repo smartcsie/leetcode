@@ -1,0 +1,12 @@
+number: 3551
+title: Minimum Swaps to Sort by Digit Sum
+url: ''
+solutions:
+- file: Solution_3551.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Cycle Decomposition
+  topics:
+  - sorting-cycle-decomposition
+  time: O(N log N)
+  space: O(N)

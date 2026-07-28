@@ -1,0 +1,12 @@
+number: 516
+title: Longest Palindromic Subsequence
+url: https://leetcode.com/problems/longest-palindromic-subsequence/
+solutions:
+- file: Solution_0516.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP / String
+  topics:
+  - dynamic-programming-4
+  time: O(N²)
+  space: O(N)

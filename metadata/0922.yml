@@ -1,0 +1,13 @@
+number: 922
+title: Sort Array By Parity II
+url: https://leetcode.com/problems/sort-array-by-parity-ii
+solutions:
+- file: Solution_0922.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Two Pointers
+  topics:
+  - two-pointers-swap
+  time: O(n)
+  space: O(1)

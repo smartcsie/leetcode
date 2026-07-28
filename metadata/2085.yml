@@ -1,0 +1,12 @@
+number: 2085
+title: Count Common Words With One Occurrence
+url: https://leetcode.com/problems/count-common-words-with-one-occurrence/
+solutions:
+- file: Solution_2085.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Map / Bitmask
+  topics:
+  - bit-manipulation
+  time: O(N + M)
+  space: O(N + M)

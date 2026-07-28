@@ -1,0 +1,12 @@
+number: 884
+title: Uncommon Words from Two Sentences
+url: https://leetcode.com/problems/uncommon-words-from-two-sentences
+solutions:
+- file: Solution_0884.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  topics:
+  - hash-table-mapping
+  time: O(N + M)
+  space: O(N + M)

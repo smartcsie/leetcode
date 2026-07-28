@@ -1,0 +1,12 @@
+number: 1046
+title: Last Stone Weight
+url: https://leetcode.com/problems/last-stone-weight
+solutions:
+- file: Solution_1046.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Heap (Priority Queue)
+  topics:
+  - priority-queue
+  time: O(NlogN)
+  space: O(N)

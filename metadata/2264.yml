@@ -1,0 +1,12 @@
+number: 2264
+title: Largest 3-Same-Digit Number in String
+url: https://leetcode.com/problems/largest-3-same-digit-number-in-string
+solutions:
+- file: Solution_2264.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: O(N)
+  space: O(1)

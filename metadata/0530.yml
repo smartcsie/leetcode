@@ -1,0 +1,14 @@
+number: 530
+title: Minimum Absolute Difference in BST
+url: https://leetcode.com/problems/minimum-absolute-difference-in-bst
+solutions:
+- file: Solution_0530.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  - BST
+  topics:
+  - binary-search-tree
+  time: O(n)
+  space: O(h)

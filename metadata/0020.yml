@@ -1,0 +1,12 @@
+number: 20
+title: Valid Parentheses
+url: https://leetcode.com/problems/valid-parentheses
+solutions:
+- file: Solution_0020.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Stack
+  topics:
+  - stack
+  time: O(n)
+  space: O(n)

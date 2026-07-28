@@ -1,0 +1,13 @@
+number: 3591
+title: Check if Any Element Has Prime Frequency
+url: https://leetcode.com/problems/check-if-any-element-has-prime-frequency/
+solutions:
+- file: Solution_3591.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  topics:
+  - prime
+  time: O(N + Kloglog K)
+  space: O(K)

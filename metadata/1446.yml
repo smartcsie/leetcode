@@ -1,0 +1,12 @@
+number: 1446
+title: Consecutive Characters
+url: https://leetcode.com/problems/consecutive-characters/
+solutions:
+- file: Solution_1446.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - array-continuous-counting
+  time: O(N)
+  space: O(1)

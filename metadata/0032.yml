@@ -1,0 +1,13 @@
+number: 32
+title: Longest Valid Parentheses
+url: https://leetcode.com/problems/longest-valid-parentheses
+solutions:
+- file: Solution_0032.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - String
+  - Stack / DP
+  topics:
+  - stack
+  time: O(n)
+  space: O(n)

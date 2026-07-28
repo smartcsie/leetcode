@@ -1,0 +1,12 @@
+number: 3364
+title: Minimum Positive Sum Subarray
+url: https://leetcode.com/problems/minimum-positive-sum-subarray/
+solutions:
+- file: Solution_3364.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Prefix Sum / Sliding Window / Multiset
+  topics:
+  - prefix-sum
+  time: O(NlogN)
+  space: O(N)

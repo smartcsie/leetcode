@@ -1,0 +1,12 @@
+number: 1920
+title: Build Array from Permutation
+url: https://leetcode.com/problems/build-array-from-permutation/
+solutions:
+- file: Solution_1920.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N)
+  space: O(1)

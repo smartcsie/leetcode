@@ -1,0 +1,12 @@
+number: 1491
+title: Average Salary Excluding the Minimum and Maximum Salary
+url: https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
+solutions:
+- file: Solution_1491.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Sorting / Math
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

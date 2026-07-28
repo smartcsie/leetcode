@@ -1,0 +1,13 @@
+number: 628
+title: Maximum Product of Three Numbers
+url: https://leetcode.com/problems/maximum-product-of-three-numbers
+solutions:
+- file: Solution_0628.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Math
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

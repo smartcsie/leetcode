@@ -1,0 +1,13 @@
+number: 112
+title: Path Sum
+url: https://leetcode.com/problems/path-sum/
+solutions:
+- file: Solution_0112.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  topics:
+  - tree-dfs-path
+  time: O(n)
+  space: O(h)

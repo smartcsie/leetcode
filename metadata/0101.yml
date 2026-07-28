@@ -1,0 +1,12 @@
+number: 101
+title: Symmetric Tree
+url: https://leetcode.com/problems/symmetric-tree
+solutions:
+- file: Solution_0101.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree / DFS
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(H)

@@ -1,0 +1,13 @@
+number: 2042
+title: Check if Numbers Are Ascending in a Sentence
+url: https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence
+solutions:
+- file: Solution_2042.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Parsing
+  topics:
+  - string
+  time: O(n)
+  space: O(1)

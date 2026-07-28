@@ -1,0 +1,12 @@
+number: 415
+title: Add Strings
+url: https://leetcode.com/problems/add-strings
+solutions:
+- file: Solution_0415.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Math
+  topics:
+  - math-simulation
+  time: O(max(N, M))
+  space: O(max(N, M))

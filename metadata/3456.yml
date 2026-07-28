@@ -1,0 +1,12 @@
+number: 3456
+title: Find Special Substring of Length K
+url: https://leetcode.com/problems/find-special-substring-of-length-k/description/
+solutions:
+- file: Solution_3456.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Block-Skipping
+  topics:
+  - string
+  time: O(N)
+  space: O(1)

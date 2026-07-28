@@ -1,0 +1,13 @@
+number: 303
+title: Range Sum Query - Immutable
+url: https://leetcode.com/problems/range-sum-query-immutable
+solutions:
+- file: Solution_0303.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Prefix Sum
+  topics:
+  - prefix-sum
+  time: O(N)
+  space: O(N)

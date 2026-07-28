@@ -1,0 +1,12 @@
+number: 155
+title: Min Stack
+url: https://leetcode.com/problems/min-stack
+solutions:
+- file: Solution_0155.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Stack / Design
+  topics:
+  - stack
+  time: O(1)
+  space: O(N)

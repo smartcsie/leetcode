@@ -1,0 +1,13 @@
+number: 624
+title: Maximum Distance in Arrays
+url: https://leetcode.com/problems/maximum-distance-in-arrays
+solutions:
+- file: Solution_0624.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Greedy
+  topics:
+  - greedy
+  time: O(n)
+  space: O(1)

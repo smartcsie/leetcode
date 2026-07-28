@@ -1,0 +1,12 @@
+number: 989
+title: Add to Array-Form of Integer
+url: https://leetcode.com/problems/add-to-array-form-of-integer/
+solutions:
+- file: Solution_0989.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Simulation / Carry Propagation
+  topics:
+  - math-simulation
+  time: O(max(N, log K))
+  space: O(max(N, log K))

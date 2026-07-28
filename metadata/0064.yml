@@ -1,0 +1,12 @@
+number: 64
+title: Minimum Path Sum
+url: https://leetcode.com/problems/minimum-path-sum/
+solutions:
+- file: Solution_0064.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP
+  topics:
+  - dynamic-programming
+  time: O(M*N)
+  space: O(1)

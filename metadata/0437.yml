@@ -1,0 +1,12 @@
+number: 437
+title: Path Sum III
+url: https://leetcode.com/problems/path-sum-iii/
+solutions:
+- file: Solution_0437.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DFS / Prefix Sum
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(H)

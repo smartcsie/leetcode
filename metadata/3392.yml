@@ -1,0 +1,12 @@
+number: 3392
+title: Count Subarrays of Length Three With a Condition
+url: https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/
+solutions:
+- file: Solution_3392.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Sliding Window / Simulation
+  topics:
+  - fixed-size-sliding-window
+  time: O(N)
+  space: O(1)

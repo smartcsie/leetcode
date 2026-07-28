@@ -1,0 +1,12 @@
+number: 1844
+title: Replace All Digits with Characters
+url: https://leetcode.com/problems/replace-all-digits-with-characters/
+solutions:
+- file: Solution_1844.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - In-place Manipulation
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

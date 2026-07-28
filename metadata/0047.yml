@@ -1,0 +1,12 @@
+number: 47
+title: Permutations II
+url: https://leetcode.com/problems/permutations-ii/
+solutions:
+- file: Solution_0047.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking
+  topics:
+  - backtracking-permutation
+  time: O(N*N!)
+  space: O(N)

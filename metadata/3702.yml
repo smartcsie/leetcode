@@ -1,0 +1,12 @@
+number: 3702
+title: Longest Subsequence With Non-Zero Bitwise XOR
+url: https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/
+solutions:
+- file: Solution_3702.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Greedy
+  topics:
+  - bit-manipulation-xor
+  time: O(N)
+  space: O(1)

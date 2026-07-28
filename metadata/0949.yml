@@ -1,0 +1,12 @@
+number: 949
+title: Largest Time for Given Digits
+url: https://leetcode.com/problems/largest-time-for-given-digits/
+solutions:
+- file: Solution_949.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Permutation / Math
+  topics:
+  - math-permutation
+  time: O(1)
+  space: O(1)

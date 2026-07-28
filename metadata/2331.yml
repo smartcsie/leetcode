@@ -1,0 +1,14 @@
+number: 2331
+title: Evaluate Boolean Binary Tree
+url: https://leetcode.com/problems/evaluate-boolean-binary-tree
+solutions:
+- file: Solution_2331.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  - Recursion
+  topics:
+  - tree
+  time: O(n)
+  space: O(h)

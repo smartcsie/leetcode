@@ -1,0 +1,12 @@
+number: 1185
+title: Day of the Week
+url: https://leetcode.com/problems/day-of-the-week/
+solutions:
+- file: Solution_1185.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Zeller's Congruence
+  topics:
+  - math
+  time: O(1)
+  space: O(1)

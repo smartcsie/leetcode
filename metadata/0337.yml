@@ -1,0 +1,13 @@
+number: 337
+title: House Robber III
+url: https://leetcode.com/problems/house-robber-iii/
+solutions:
+- file: Solution_0337.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - DP
+  topics:
+  - dynamic-programming-2
+  time: O(N)
+  space: O(H)

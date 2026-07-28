@@ -1,0 +1,14 @@
+number: 16
+title: 3Sum Closest
+url: https://leetcode.com/problems/3sum-closest
+solutions:
+- file: Solution_0016.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Two Pointers
+  - Sorting
+  topics:
+  - two-pointers-opposite
+  time: O(n²)
+  space: O(1)

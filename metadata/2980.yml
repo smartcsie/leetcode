@@ -1,0 +1,13 @@
+number: 2980
+title: Check if Bitwise OR Has Trailing Zeros
+url: https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/
+solutions:
+- file: Solution_2980.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  - Math
+  topics:
+  - bit-manipulation-or
+  time: O(N)
+  space: O(1)

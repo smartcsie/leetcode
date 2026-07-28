@@ -1,0 +1,22 @@
+number: 300
+title: Longest Increasing Subsequence
+url: https://leetcode.com/problems/longest-increasing-subsequence
+solutions:
+- file: Solution_0300.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(nlogn)
+  space: O(n)
+- file: Solution_0300_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Dynamic Programming
+  topics:
+  - dynamic-programming-4
+  time: O(N²)
+  space: O(n)

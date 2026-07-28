@@ -1,0 +1,12 @@
+number: 804
+title: Unique Morse Code Words
+url: https://leetcode.com/problems/unique-morse-code-words/
+solutions:
+- file: Solution_0804.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Set
+  topics:
+  - hash-table-mapping
+  time: O(S)
+  space: O(S)

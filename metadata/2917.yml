@@ -1,0 +1,12 @@
+number: 2917
+title: Find the K-or of an Array
+url: https://leetcode.com/problems/find-the-k-or-of-an-array
+solutions:
+- file: Solution_2917.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation-or
+  time: O(N * log(max_val))
+  space: O(1)

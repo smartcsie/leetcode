@@ -1,0 +1,13 @@
+number: 1302
+title: Deepest Leaves Sum
+url: https://leetcode.com/problems/deepest-leaves-sum/
+solutions:
+- file: Solution_1302.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - BFS
+  topics:
+  - tree-bfs-level-order
+  time: O(N)
+  space: O(W)

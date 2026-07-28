@@ -1,0 +1,13 @@
+number: 50
+title: Pow(x, n)
+url: https://leetcode.com/problems/powx-n
+solutions:
+- file: Solution_0050.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - Binary Exponentiation
+  topics:
+  - math
+  time: O(logN)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 1078
+title: Occurrences After Bigram
+url: https://leetcode.com/problems/occurrences-after-bigram/
+solutions:
+- file: Solution_1078.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String Parsing
+  topics:
+  - string
+  time: O(N)
+  space: O(N)

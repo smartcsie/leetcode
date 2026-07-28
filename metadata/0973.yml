@@ -1,0 +1,13 @@
+number: 973
+title: K Closest Points to Origin
+url: https://leetcode.com/problems/k-closest-points-to-origin
+solutions:
+- file: Solution_0973.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - QuickSelect
+  topics:
+  - quick-select
+  time: O(N)
+  space: O(1)

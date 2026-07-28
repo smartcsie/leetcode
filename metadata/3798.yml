@@ -1,0 +1,12 @@
+number: 3798
+title: Largest Even Number
+url: https://leetcode.com/problems/largest-even-number/
+solutions:
+- file: Solution_3798.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy / String
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

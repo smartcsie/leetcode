@@ -1,0 +1,14 @@
+number: 682
+title: Baseball Game
+url: https://leetcode.com/problems/baseball-game
+solutions:
+- file: Solution_0682.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Stack
+  - Simulation
+  topics:
+  - stack
+  time: O(N)
+  space: O(N)

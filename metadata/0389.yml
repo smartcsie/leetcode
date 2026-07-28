@@ -1,0 +1,13 @@
+number: 389
+title: Find the Difference
+url: https://leetcode.com/problems/find-the-difference/
+solutions:
+- file: Solution_0389.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N)
+  space: O(1)

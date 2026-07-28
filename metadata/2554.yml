@@ -1,0 +1,12 @@
+number: 2554
+title: Maximum Number of Integers to Choose From a Range I
+url: https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/
+solutions:
+- file: Solution_2554.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array / Hash Table / Greedy / Sorting
+  topics:
+  - greedy
+  time: O(N + M)
+  space: O(M)

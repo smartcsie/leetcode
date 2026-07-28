@@ -1,0 +1,13 @@
+number: 3913
+title: Sort Vowels by Frequency
+url: https://leetcode.com/problems/sort-vowels-by-frequency/
+solutions:
+- file: Solution_3913.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sorting
+  - Hash
+  topics:
+  - sorting
+  time: O(NlogN)
+  space: O(N)

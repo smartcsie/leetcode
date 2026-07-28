@@ -1,0 +1,12 @@
+number: 2293
+title: Min Max Game
+url: https://leetcode.com/problems/min-max-game/
+solutions:
+- file: Solution_2293.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Simulation
+  topics:
+  - math-simulation
+  time: O(N)
+  space: O(N)

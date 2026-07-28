@@ -1,0 +1,13 @@
+number: 944
+title: Delete Columns to Make Sorted
+url: https://leetcode.com/problems/delete-columns-to-make-sorted/
+solutions:
+- file: Solution_0944.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - String
+  topics:
+  - string
+  time: O(N * M)
+  space: O(M)

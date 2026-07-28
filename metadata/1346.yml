@@ -1,0 +1,13 @@
+number: 1346
+title: Check If N and Its Double Exist
+url: https://leetcode.com/problems/check-if-n-and-its-double-exist
+solutions:
+- file: Solution_1346.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  topics:
+  - hash-table-set
+  time: O(n)
+  space: O(n)

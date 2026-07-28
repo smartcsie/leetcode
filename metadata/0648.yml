@@ -1,0 +1,21 @@
+number: 648
+title: Replace Words
+url: https://leetcode.com/problems/replace-words/
+solutions:
+- file: Solution_0648_2.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table
+  - Sorting
+  topics:
+  - string
+  time: O(N * L + M * K)
+  space: O(D * L)
+- file: Solution_0648_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Trie
+  topics:
+  - trie
+  time: O(N * L)
+  space: O(M * L)

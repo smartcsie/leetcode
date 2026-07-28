@@ -1,0 +1,12 @@
+number: 2491
+title: Divide Players Into Teams of Equal Skill
+url: https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/
+solutions:
+- file: Solution_2491.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array / Two Pointers / Sorting
+  topics:
+  - sorting
+  time: O(N log N)
+  space: O(1)或O(N)*

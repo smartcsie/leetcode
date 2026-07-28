@@ -1,0 +1,12 @@
+number: 986
+title: Interval List Intersections
+url: https://leetcode.com/problems/interval-list-intersections/
+solutions:
+- file: Solution_0986.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Two Pointers / Interval Processing
+  topics:
+  - interval
+  time: O(M + N)
+  space: O(1)*

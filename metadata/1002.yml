@@ -1,0 +1,14 @@
+number: 1002
+title: Find Common Characters
+url: https://leetcode.com/problems/find-common-characters
+solutions:
+- file: Solution_1002.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  - String
+  topics:
+  - hash-table-mapping
+  time: O(N*K)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 2006
+title: Count Number of Pairs With Absolute Difference K
+url: https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
+solutions:
+- file: Solution_2006_Hash.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table / Frequency Map
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(N)

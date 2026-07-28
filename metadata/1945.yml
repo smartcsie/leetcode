@@ -1,0 +1,12 @@
+number: 1945
+title: Sum of Digits of String After Convert
+url: https://leetcode.com/problems/sum-of-digits-of-string-after-convert/
+solutions:
+- file: Solution_1945.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Simulation
+  topics:
+  - string
+  time: O(N + K * log(Sum))
+  space: O(1)

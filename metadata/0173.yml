@@ -1,0 +1,13 @@
+number: 173
+title: Binary Search Tree Iterator
+url: https://leetcode.com/problems/binary-search-tree-iterator/
+solutions:
+- file: Solution_0173.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - Stack
+  topics:
+  - tree-dfs-path
+  time: O(1) avg
+  space: O(h)

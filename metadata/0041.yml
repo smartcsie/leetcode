@@ -1,0 +1,12 @@
+number: 41
+title: First Missing Positive
+url: https://leetcode.com/problems/first-missing-positive/
+solutions:
+- file: Solution_0041.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Math
+  topics:
+  - negative-marking
+  time: O(n)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 518
+title: Coin Change II
+url: https://leetcode.com/problems/coin-change-ii/
+solutions:
+- file: Solution_0518.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP
+  - Unbounded Knapsack
+  topics:
+  - knapsack-problem-2
+  time: O(N*A)
+  space: O(A)

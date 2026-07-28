@@ -1,0 +1,12 @@
+number: 3300
+title: Minimum Element After Replacement With Digit Sum
+url: https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/
+solutions:
+- file: Solution_3300.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Simulation
+  topics:
+  - math-digit-decomposition
+  time: O(N * log M)
+  space: O(1)

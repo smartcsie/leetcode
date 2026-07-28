@@ -1,0 +1,13 @@
+number: 148
+title: Sort List
+url: https://leetcode.com/problems/sort-list/
+solutions:
+- file: Solution_0148.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Merge Sort
+  topics:
+  - sorting
+  time: O(NlogN)
+  space: O(logN)

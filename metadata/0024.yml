@@ -1,0 +1,13 @@
+number: 24
+title: Swap Nodes in Pairs
+url: https://leetcode.com/problems/swap-nodes-in-pairs
+solutions:
+- file: Solution_0024.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Recursion
+  topics:
+  - linked-list
+  time: O(N)
+  space: O(N)

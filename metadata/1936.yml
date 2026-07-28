@@ -1,0 +1,12 @@
+number: 1936
+title: Add Minimum Number of Rungs
+url: https://leetcode.com/problems/add-minimum-number-of-rungs/
+solutions:
+- file: Solution_1936.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy / Math
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

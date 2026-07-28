@@ -1,0 +1,12 @@
+number: 2259
+title: Remove Digit From Number to Maximize Result
+url: https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/
+solutions:
+- file: Solution_2259.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy / String
+  topics:
+  - greedy
+  time: O(N)
+  space: O(N)

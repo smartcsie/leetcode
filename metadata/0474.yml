@@ -1,0 +1,13 @@
+number: 474
+title: Ones and Zeroes
+url: https://leetcode.com/problems/ones-and-zeros/
+solutions:
+- file: Solution_0474.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP
+  - 0-1 Knapsack
+  topics:
+  - knapsack-problem
+  time: O(L m*n)
+  space: O(m * n)

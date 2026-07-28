@@ -1,0 +1,12 @@
+number: 703
+title: Kth Largest Element in a Stream
+url: https://leetcode.com/problems/kth-largest-element-in-a-stream
+solutions:
+- file: Solution_0703.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Heap (Priority Queue)
+  topics:
+  - priority-queue
+  time: O(NlogK) / O(log K)
+  space: O(K)

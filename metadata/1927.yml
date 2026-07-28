@@ -1,0 +1,12 @@
+number: 1927
+title: Sum Game
+url: https://leetcode.com/problems/sum-game/
+solutions:
+- file: Solution_1927.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Game Theory / Math
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

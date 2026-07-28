@@ -1,0 +1,13 @@
+number: 509
+title: Fibonacci Number
+url: https://leetcode.com/problems/fibonacci-number
+solutions:
+- file: Solution_0509.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  - Dynamic Programming
+  topics:
+  - dynamic-programming
+  time: O(n)
+  space: O(1)

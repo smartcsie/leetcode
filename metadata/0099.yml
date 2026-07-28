@@ -1,0 +1,13 @@
+number: 99
+title: Recover Binary Search Tree
+url: https://leetcode.com/problems/recover-binary-search-tree/
+solutions:
+- file: Solution_0099.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - BST
+  - In-order Traversal
+  topics:
+  - binary-search-tree
+  time: O(N)
+  space: O(1)

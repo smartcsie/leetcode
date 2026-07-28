@@ -1,0 +1,12 @@
+number: 2278
+title: Percentage of Letter in String
+url: https://leetcode.com/problems/percentage-of-letter-in-string/
+solutions:
+- file: Solution_2278.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Counting
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 118
+title: Pascal's Triangle
+url: https://leetcode.com/problems/pascals-triangle/
+solutions:
+- file: Solution_0118.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - DP
+  topics:
+  - dynamic-programming-kadane-algorithm
+  time: O(N²)
+  space: O(1)*

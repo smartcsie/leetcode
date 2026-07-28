@@ -1,0 +1,12 @@
+number: 21
+title: Merge Two Sorted Lists
+url: https://leetcode.com/problems/merge-two-sorted-lists/
+solutions:
+- file: Solution_0021.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Linked List
+  topics:
+  - linked-list
+  time: O(n+m)
+  space: O(1)

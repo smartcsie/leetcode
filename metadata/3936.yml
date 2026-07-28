@@ -1,0 +1,12 @@
+number: 3936
+title: Minimum Swaps to Move Zeros to End
+url: ''
+solutions:
+- file: Solution_3936.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers / Simulation
+  topics:
+  - two-pointers-swap
+  time: O(N)
+  space: O(1)

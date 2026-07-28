@@ -1,0 +1,13 @@
+number: 167
+title: Two Sum II - Input Array Is Sorted
+url: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted
+solutions:
+- file: Solution_0167.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(n)
+  space: O(1)

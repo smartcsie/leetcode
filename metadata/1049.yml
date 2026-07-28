@@ -1,0 +1,13 @@
+number: 1049
+title: Last Stone Weight II
+url: https://leetcode.com/problems/last-stone-weight-ii/
+solutions:
+- file: Solution_1049.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP
+  - 0-1 Knapsack
+  topics:
+  - knapsack-problem
+  time: O(N * S)
+  space: O(S)

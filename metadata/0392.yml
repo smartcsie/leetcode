@@ -1,0 +1,20 @@
+number: 392
+title: Is Subsequence
+url: https://leetcode.com/problems/is-subsequence/
+solutions:
+- file: Solution_0392_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - DP / LCS
+  topics:
+  - dynamic-programming-4
+  time: O(S * T)
+  space: O(S * T)
+- file: Solution_0392.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(n)
+  space: O(1)

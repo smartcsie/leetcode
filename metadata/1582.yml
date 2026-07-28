@@ -1,0 +1,13 @@
+number: 1582
+title: Special Positions in a Binary Matrix
+url: https://leetcode.com/problems/special-positions-in-a-binary-matrix/
+solutions:
+- file: Solution_1582.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Matrix
+  topics:
+  - 2d-array
+  time: O(m * n)
+  space: O(m + n)

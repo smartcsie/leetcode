@@ -1,0 +1,12 @@
+number: 2645
+title: Minimum Additions to Make Valid String
+url: https://leetcode.com/problems/minimum-additions-to-make-valid-string/
+solutions:
+- file: Solution_2645.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy / Simulation
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 898
+title: Bitwise ORs of Subarrays
+url: https://leetcode.com/problems/bitwise-or-s-of-subarrays/
+solutions:
+- file: Solution_0898.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Dynamic Programming
+  topics:
+  - dynamic-programming
+  time: O(N * 30)
+  space: O(N * 30)

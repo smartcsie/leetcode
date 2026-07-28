@@ -1,0 +1,13 @@
+number: 3684
+title: Maximize Sum of At Most K Distinct Elements
+url: https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/
+solutions:
+- file: Solution_3684.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Sorting
+  - Set
+  topics:
+  - sorting
+  time: O(N logN)
+  space: O(N)

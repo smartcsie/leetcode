@@ -1,0 +1,12 @@
+number: 1497
+title: Check If Array Pairs Are Divisible by k
+url: https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/
+solutions:
+- file: Solution_1497.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table / Remainder Counting
+  topics:
+  - hash-table-counting
+  time: O(N + k)
+  space: O(k)

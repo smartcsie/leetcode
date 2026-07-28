@@ -1,0 +1,12 @@
+number: 3019
+title: Number of Changing Keys
+url: https://leetcode.com/problems/number-of-changing-keys/
+solutions:
+- file: Solution_3019.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N)
+  space: O(1)

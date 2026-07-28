@@ -1,0 +1,12 @@
+number: 1881
+title: Maximum Value after Insertion
+url: https://leetcode.com/problems/maximum-value-after-insertion/
+solutions:
+- file: Solution_1881.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy / String
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

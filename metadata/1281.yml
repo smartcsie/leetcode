@@ -1,0 +1,12 @@
+number: 1281
+title: Subtract the Product and Sum of Digits of an Integer
+url: https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+solutions:
+- file: Solution_1281.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Digit Manipulation
+  topics:
+  - math-digit-decomposition
+  time: O(log N)
+  space: O(1)

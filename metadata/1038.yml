@@ -1,0 +1,12 @@
+number: 1038
+title: Binary Search Tree to Greater Sum Tree
+url: https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+solutions:
+- file: Solution_1038.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree / BST
+  topics:
+  - binary-search-tree
+  time: O(N)
+  space: O(H)

@@ -1,0 +1,12 @@
+number: 343
+title: Integer Break
+url: https://leetcode.com/problems/integer-break/
+solutions:
+- file: Solution_0343.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Greedy
+  topics:
+  - greedy
+  time: O(1)
+  space: O(1)

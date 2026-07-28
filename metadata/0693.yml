@@ -1,0 +1,12 @@
+number: 693
+title: Binary Number with Alternating Bits
+url: https://leetcode.com/problems/binary-number-with-alternating-bits/
+solutions:
+- file: Solution_0693.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation-and
+  time: O(1)
+  space: O(1)

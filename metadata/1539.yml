@@ -1,0 +1,12 @@
+number: 1539
+title: Kth Missing Positive Number
+url: https://leetcode.com/problems/kth-missing-positive-number
+solutions:
+- file: Solution_1539.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search
+  topics:
+  - binary-search-build-in
+  time: O(log N)
+  space: O(1)

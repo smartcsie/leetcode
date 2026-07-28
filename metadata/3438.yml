@@ -1,0 +1,12 @@
+number: 3438
+title: Find Valid Pair of Adjacent Digits in String
+url: ''
+solutions:
+- file: Solution_3438.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Hash Map
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(1)

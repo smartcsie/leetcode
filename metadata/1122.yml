@@ -1,0 +1,12 @@
+number: 1122
+title: Relative Sort Array
+url: https://leetcode.com/problems/relative-sort-array/
+solutions:
+- file: Solution_1122.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Counting Sort
+  topics:
+  - sorting-2
+  time: O(N + M)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 2310
+title: Sum of Numbers With Units Digit K
+url: https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/
+solutions:
+- file: Solution_2310.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Enumeration
+  topics:
+  - math
+  time: O(10)
+  space: O(1)

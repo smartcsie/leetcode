@@ -1,0 +1,12 @@
+number: 1481
+title: Least Number of Unique Integers after K Removals
+url: https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/
+solutions:
+- file: Solution_1481.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy / Sorting
+  topics:
+  - sorting
+  time: O(N log N)
+  space: O(N)

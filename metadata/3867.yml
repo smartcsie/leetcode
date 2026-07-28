@@ -1,0 +1,13 @@
+number: 3867
+title: Sum of GCD of Formed Pairs
+url: leetcode.com/problems/sum-of-gcd-of-formed-pairs/
+solutions:
+- file: Solution_3867.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - GCD
+  - Sorting
+  topics:
+  - sorting
+  time: O(NlogN)
+  space: O(N)

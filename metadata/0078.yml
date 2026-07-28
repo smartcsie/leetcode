@@ -1,0 +1,21 @@
+number: 78
+title: Subsets
+url: https://leetcode.com/problems/subsets
+solutions:
+- file: Solution_0078.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking / Recursion
+  - Bit Manipulation
+  topics:
+  - backtracking-combination
+  time: O(N*2ᴺ)
+  space: O(N)
+- file: Solution_0078_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Bitmask / Backtracking
+  topics:
+  - bit-bitmask-subset-enumeration
+  time: O(2ᴺ*N)
+  space: O(2^N * N)

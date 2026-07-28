@@ -1,0 +1,12 @@
+number: 3750
+title: Minimum Number of Flips to Reverse Binary String
+url: https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/
+solutions:
+- file: Solution_3750.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - hamming-distance
+  time: O(log N)
+  space: O(1)

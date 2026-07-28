@@ -1,0 +1,12 @@
+number: 3622
+title: Check Divisibility by Digit Sum and Product
+url: https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/
+solutions:
+- file: Solution_3622.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Digit Manipulation
+  topics:
+  - math-digit-decomposition
+  time: O(log N)
+  space: O(1)

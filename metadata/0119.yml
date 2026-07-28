@@ -1,0 +1,12 @@
+number: 119
+title: Pascal's Triangle II
+url: https://leetcode.com/problems/pascal-triangle-ii/
+solutions:
+- file: Solution_0119.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Combinatorics
+  topics:
+  - math-combination
+  time: O(N)
+  space: O(1)

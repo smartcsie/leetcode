@@ -1,0 +1,13 @@
+number: 322
+title: Coin Change
+url: https://leetcode.com/problems/coin-change/
+solutions:
+- file: Solution_0322.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP
+  - Unbounded Knapsack
+  topics:
+  - knapsack-problem-2
+  time: O(A * N)
+  space: O(A)

@@ -1,0 +1,12 @@
+number: 1614
+title: Maximum Nesting Depth of the Parentheses
+url: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
+solutions:
+- file: Solution_1614.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Stack / Simulation
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)

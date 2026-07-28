@@ -1,0 +1,13 @@
+number: 1913
+title: Maximum Product Difference Between Two Pairs
+url: https://leetcode.com/problems/maximum-product-difference-between-two-pairs
+solutions:
+- file: Solution_1913.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Sorting
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

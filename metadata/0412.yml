@@ -1,0 +1,12 @@
+number: 412
+title: Fizz Buzz
+url: https://leetcode.com/problems/fizz-buzz/
+solutions:
+- file: Solution_0412.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / String
+  topics:
+  - math
+  time: O(N)
+  space: O(1)*

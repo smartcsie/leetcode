@@ -1,0 +1,12 @@
+number: 599
+title: Minimum Index Sum of Two Lists
+url: https://leetcode.com/problems/minimum-index-sum-of-two-lists/
+solutions:
+- file: Solution_0599.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table / Array
+  topics:
+  - hash-table-set
+  time: O(N + M)
+  space: O(N)

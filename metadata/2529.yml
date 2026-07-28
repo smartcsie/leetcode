@@ -1,0 +1,12 @@
+number: 2529
+title: Maximum Count of Positive Integer and Negative Integer
+url: https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer
+solutions:
+- file: Solution_2529.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(logN)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 23
+title: Merge k Sorted Lists
+url: https://leetcode.com/problems/merge-k-sorted-lists
+solutions:
+- file: Solution_0023.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Heap
+  - Linked List
+  topics:
+  - priority-queue
+  time: O(Nlogk)
+  space: O(k)

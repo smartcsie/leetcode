@@ -1,0 +1,13 @@
+number: 3701
+title: Compute Alternating Sum
+url: https://leetcode.com/problems/compute-alternating-sum/
+solutions:
+- file: Solution_3701.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Math
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 1812
+title: Determine Color of a Chessboard Square
+url: https://leetcode.com/problems/determine-color-of-a-chessboard-square/
+solutions:
+- file: Solution_1812.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / String / Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(1)
+  space: O(1)

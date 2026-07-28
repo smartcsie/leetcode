@@ -1,0 +1,13 @@
+number: 2716
+title: Minimize String Length
+url: https://leetcode.com/problems/minimize-string-length/
+solutions:
+- file: Solution_2716.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Set
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N)
+  space: O(1)

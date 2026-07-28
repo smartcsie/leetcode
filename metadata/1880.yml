@@ -1,0 +1,12 @@
+number: 1880
+title: Check if Word Equals Summation of Two Words
+url: https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/
+solutions:
+- file: Solution_1880.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Math
+  topics:
+  - math-digit-decomposition
+  time: O(N)
+  space: O(1)

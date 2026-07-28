@@ -1,0 +1,12 @@
+number: 3136
+title: Valid Word
+url: https://leetcode.com/problems/valid-word/
+solutions:
+- file: Solution_3136.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Validation
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 3856
+title: Trim Trailing Vowels
+url: https://leetcode.com/problems/trim-trailing-vowels/
+solutions:
+- file: Solution_3856.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Two Pointers
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

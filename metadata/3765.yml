@@ -1,0 +1,12 @@
+number: 3765
+title: Complete Prime Number
+url: https://leetcode.com/problems/complete-prime-number/
+solutions:
+- file: Solution_3765.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Prime Number
+  topics:
+  - prime
+  time: O(D * sqrt(N))
+  space: O(D)

@@ -1,0 +1,12 @@
+number: 396
+title: Rotate Function
+url: https://leetcode.com/problems/rotate-function/
+solutions:
+- file: Solution_0396.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Array
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

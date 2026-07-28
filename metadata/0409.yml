@@ -1,0 +1,12 @@
+number: 409
+title: Longest Palindrome
+url: https://leetcode.com/problems/longest-palindrome/
+solutions:
+- file: Solution_0409.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table / Greedy
+  topics:
+  - greedy
+  time: O(N)
+  space: O(K)

@@ -1,0 +1,13 @@
+number: 283
+title: Move Zeroes
+url: https://leetcode.com/problems/move-zeroes/
+solutions:
+- file: Solution_0283.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Fast-Slow Pointers
+  topics:
+  - two-pointers-swap
+  time: O(n)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 26
+title: Remove Duplicates from Sorted Array
+url: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+solutions:
+- file: Solution_0026.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Fast-Slow Pointers
+  topics:
+  - fast-slow-pointers
+  time: O(n)
+  space: O(1)

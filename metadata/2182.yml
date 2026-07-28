@@ -1,0 +1,12 @@
+number: 2182
+title: Construct String With Repeat Limit
+url: https://leetcode.com/problems/construct-string-with-repeat-limit/
+solutions:
+- file: Solution_2182.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy / String / Two Pointers / Counting
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

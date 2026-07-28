@@ -1,0 +1,12 @@
+number: 2923
+title: Find Champion I
+url: https://leetcode.com/problems/find-champion-i/
+solutions:
+- file: Solution_2923.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Math
+  topics:
+  - 2d-array
+  time: O(N²)
+  space: O(1)

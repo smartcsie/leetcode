@@ -1,0 +1,23 @@
+number: 94
+title: Binary Tree Inorder Traversal
+url: https://leetcode.com/problems/binary-tree-inorder-traversal
+solutions:
+- file: Solution_0094_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  - Stack
+  topics:
+  - tree-dfs-path
+  time: O(n)
+  space: O(h)
+- file: Solution_0094.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  topics:
+  - tree
+  time: O(n)
+  space: O(h)

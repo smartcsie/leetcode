@@ -1,0 +1,12 @@
+number: 485
+title: Max Consecutive Ones
+url: https://leetcode.com/problems/max-consecutive-ones
+solutions:
+- file: Solution_0485.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array-continuous-counting
+  time: O(N)
+  space: O(1)

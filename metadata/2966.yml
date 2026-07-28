@@ -1,0 +1,12 @@
+number: 2966
+title: Divide Array Into Arrays With Max Difference
+url: https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/
+solutions:
+- file: Solution_2966.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array / Greedy / Sorting
+  topics:
+  - sorting
+  time: O(N log N)
+  space: O(1)或O(N)*

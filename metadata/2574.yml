@@ -1,0 +1,13 @@
+number: 2574
+title: Left and Right Sum Differences
+url: https://leetcode.com/problems/left-and-right-sum-differences/
+solutions:
+- file: Solution_2574.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Prefix Sum
+  topics:
+  - prefix-sum
+  time: O(N)
+  space: O(N)

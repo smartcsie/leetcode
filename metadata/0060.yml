@@ -1,0 +1,13 @@
+number: 60
+title: Permutation Sequence
+url: https://leetcode.com/problems/permutation-sequence/
+solutions:
+- file: Solution_0060.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - Factorial
+  topics:
+  - math
+  time: O(N²)
+  space: O(N)

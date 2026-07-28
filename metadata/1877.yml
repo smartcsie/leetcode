@@ -1,0 +1,12 @@
+number: 1877
+title: Minimize Maximum Pair Sum in Array
+url: https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/
+solutions:
+- file: Solution_1877.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array / Two Pointers / Greedy / Sorting
+  topics:
+  - two-pointers-opposite
+  time: O(N log N)
+  space: O(1)*

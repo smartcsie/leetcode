@@ -1,0 +1,12 @@
+number: 540
+title: Single Element in a Sorted Array
+url: https://leetcode.com/problems/single-element-in-a-sorted-array
+solutions:
+- file: Solution_0540.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(logN)
+  space: O(1)

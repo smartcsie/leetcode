@@ -1,0 +1,12 @@
+number: 3861
+title: Minimum Capacity Box
+url: https://leetcode.com/problems/minimum-capacity-box/
+solutions:
+- file: Solution_3861.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Linear Search
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,14 @@
+number: 1008
+title: Construct Binary Search Tree from Preorder Traversal
+url: https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+solutions:
+- file: Solution_1008.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - BST
+  - DFS
+  topics:
+  - binary-search-tree
+  time: O(N)
+  space: O(N)

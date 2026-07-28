@@ -1,0 +1,13 @@
+number: 96
+title: Unique Binary Search Trees
+url: https://leetcode.com/problems/unique-binary-search-trees
+solutions:
+- file: Solution_0096.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming
+  - Math
+  topics:
+  - dynamic-programming
+  time: O(N²)
+  space: O(N)

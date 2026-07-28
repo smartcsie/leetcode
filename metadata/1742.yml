@@ -1,0 +1,12 @@
+number: 1742
+title: Maximum Number of Balls in a Box
+url: https://leetcode.com/problems/maximum-number-of-balls-in-a-box/
+solutions:
+- file: Solution_1742.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Simulation / Hash Table
+  topics:
+  - math-digit-decomposition
+  time: O(N * D)
+  space: O(1)*

@@ -1,0 +1,13 @@
+number: 19
+title: Remove Nth Node From End of List
+url: https://leetcode.com/problems/remove-nth-node-from-end-of-list
+solutions:
+- file: Solution_0019.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Fast-Slow Pointers
+  topics:
+  - fast-slow-pointers
+  time: O(n)
+  space: O(1)

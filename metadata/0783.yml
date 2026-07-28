@@ -1,0 +1,14 @@
+number: 783
+title: Minimum Distance Between BST Nodes
+url: https://leetcode.com/problems/minimum-distance-between-bst-nodes
+solutions:
+- file: Solution_0783.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  - BST
+  topics:
+  - binary-search-tree
+  time: O(N)
+  space: O(H)

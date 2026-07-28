@@ -1,0 +1,21 @@
+number: 144
+title: Binary Tree Preorder Traversal
+url: https://leetcode.com/problems/binary-tree-preorder-traversal
+solutions:
+- file: Solution_0144_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  topics:
+  - tree-dfs-path
+  time: O(n)
+  space: O(h)
+- file: Solution_0144.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  topics:
+  - tree
+  time: O(n)
+  space: O(h)

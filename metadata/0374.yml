@@ -1,0 +1,12 @@
+number: 374
+title: Guess Number Higher or Lower
+url: https://leetcode.com/problems/guess-number-higher-or-lower/
+solutions:
+- file: Solution_0374.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(logn)
+  space: O(1)

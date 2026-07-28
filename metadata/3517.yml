@@ -1,0 +1,13 @@
+number: 3517
+title: Smallest Palindromic Rearrangement I
+url: https://leetcode.com/problems/smallest-palindromic-rearrangement-i/
+solutions:
+- file: Solution_3517.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  - Counting Sort
+  topics:
+  - sorting-2
+  time: O(N)
+  space: O(1)

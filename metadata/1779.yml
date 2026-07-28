@@ -1,0 +1,12 @@
+number: 1779
+title: Find Nearest Point That Has the Same X or Y Coordinate
+url: https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/
+solutions:
+- file: Solution_1779.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Simulation / Manhattan Distance
+  topics:
+  - 2d-array
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 54
+title: Spiral Matrix
+url: https://leetcode.com/problems/spiral-matrix/
+solutions:
+- file: Solution_0054.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array / Simulation
+  topics:
+  - array
+  time: O(M*N)
+  space: O(1)

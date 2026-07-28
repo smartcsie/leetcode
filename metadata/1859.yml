@@ -1,0 +1,14 @@
+number: 1859
+title: Sorting the Sentence
+url: https://leetcode.com/problems/sorting-the-sentence
+solutions:
+- file: Solution_1859.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Sorting
+  - Bucket Sort
+  topics:
+  - sorting-2
+  time: O(N)
+  space: O(N)

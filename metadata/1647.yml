@@ -1,0 +1,12 @@
+number: 1647
+title: Minimum Deletions...
+url: https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/
+solutions:
+- file: Solution_1647.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy / Hash Set
+  topics:
+  - hash-table-counting
+  time: O(N + K log K)
+  space: O(K)

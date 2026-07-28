@@ -1,0 +1,14 @@
+number: 209
+title: Minimum Size Subarray Sum
+url: https://leetcode.com/problems/minimum-size-subarray-sum
+solutions:
+- file: Solution_0209.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Sliding Window
+  - Binary Search
+  topics:
+  - variable-size-sliding-window
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 263
+title: Ugly Number
+url: https://leetcode.com/problems/ugly-number
+solutions:
+- file: Solution_0263.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(logn)
+  space: O(1)

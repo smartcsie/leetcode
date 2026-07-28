@@ -1,0 +1,13 @@
+number: 129
+title: Sum Root to Leaf Numbers
+url: https://leetcode.com/problems/sum-root-to-leaf-numbers
+solutions:
+- file: Solution_0129.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - DFS
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(H)

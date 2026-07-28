@@ -1,0 +1,12 @@
+number: 43
+title: Multiply Strings
+url: https://leetcode.com/problems/multiply-strings/
+solutions:
+- file: Solution_43.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / String
+  topics:
+  - string
+  time: O(M * N)
+  space: O(M + N)

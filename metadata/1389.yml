@@ -1,0 +1,12 @@
+number: 1389
+title: Create Target Array in the Given Order
+url: https://leetcode.com/problems/create-target-array-in-the-given-order/
+solutions:
+- file: Solution_1389.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Simulation
+  topics:
+  - array
+  time: O(N²)
+  space: O(N)

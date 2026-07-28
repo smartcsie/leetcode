@@ -1,0 +1,12 @@
+number: 2419
+title: Longest Subarray With Maximum Bitwise AND
+url: https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/
+solutions:
+- file: Solution_2419.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Greedy / Array
+  topics:
+  - bit-manipulation-and
+  time: O(N)
+  space: O(1)

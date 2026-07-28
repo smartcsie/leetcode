@@ -1,0 +1,13 @@
+number: 1748
+title: Sum of Unique Elements
+url: https://leetcode.com/problems/sum-of-unique-elements
+solutions:
+- file: Solution_1748.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(N)

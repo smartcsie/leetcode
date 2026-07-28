@@ -1,0 +1,12 @@
+number: 1232
+title: Check If It Is a Straight Line
+url: https://leetcode.com/problems/check-if-it-is-a-straight-line/
+solutions:
+- file: Solution_1232.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Geometry / Math
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

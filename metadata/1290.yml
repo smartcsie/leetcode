@@ -1,0 +1,12 @@
+number: 1290
+title: Convert Binary Number in a Linked List to Integer
+url: https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+solutions:
+- file: Solution_1290.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Linked List / Bit Manipulation
+  topics:
+  - linked-list
+  time: O(N)
+  space: O(1)

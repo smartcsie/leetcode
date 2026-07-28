@@ -1,0 +1,12 @@
+number: 357
+title: Count Numbers with Unique Digits
+url: https://leetcode.com/problems/count-numbers-with-unique-digits/
+solutions:
+- file: Solution_0357.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Combinatorics
+  topics:
+  - math-combination
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 59
+title: Spiral Matrix II
+url: https://leetcode.com/problems/spiral-matrix-ii/
+solutions:
+- file: Solution_0059.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array / Simulation
+  topics:
+  - array
+  time: O(N²)
+  space: O(1)

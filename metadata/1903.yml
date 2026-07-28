@@ -1,0 +1,12 @@
+number: 1903
+title: Largest Odd Number in String
+url: https://leetcode.com/problems/largest-odd-number-in-string/
+solutions:
+- file: Solution_1903.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

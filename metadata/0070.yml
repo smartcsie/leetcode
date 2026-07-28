@@ -1,0 +1,16 @@
+number: 70
+title: Climbing Stairs
+url: https://leetcode.com/problems/climbing-stairs
+solutions:
+- file: Solution_0070.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  - Dynamic Programming
+  - DP
+  - Unbounded Knapsack (Permutation)
+  topics:
+  - dynamic-programming
+  - knapsack-problem-2
+  time: O(n)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 1260
+title: Shift 2D Grid
+url: https://leetcode.com/problems/shift-2d-grid/
+solutions:
+- file: Solution_1260.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Simulation
+  topics:
+  - 2d-array
+  time: O(M * N)
+  space: O(K)

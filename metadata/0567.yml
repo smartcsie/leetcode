@@ -1,0 +1,12 @@
+number: 567
+title: Permutation in String
+url: https://leetcode.com/problems/permutation-in-string/
+solutions:
+- file: Solution_0567.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sliding Window / Frequency Array
+  topics:
+  - fixed-size-sliding-window
+  time: O(L1 + L2)
+  space: O(1)

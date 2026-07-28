@@ -1,0 +1,12 @@
+number: 1624
+title: Largest Substring Between Two Equal Characters
+url: https://leetcode.com/problems/largest-substring-between-two-equal-characters/
+solutions:
+- file: Solution_1624.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Hash Table
+  topics:
+  - hash-table-set
+  time: O(N)
+  space: O(1)

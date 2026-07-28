@@ -1,0 +1,12 @@
+number: 3775
+title: Reverse Words With Same Vowel Count
+url: https://leetcode.com/problems/reverse-words-with-same-vowel-count/
+solutions:
+- file: Solution_3775.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Two Pointers
+  topics:
+  - string-character-classification
+  time: O(N*L)
+  space: O(N)

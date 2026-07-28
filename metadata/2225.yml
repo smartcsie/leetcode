@@ -1,0 +1,14 @@
+number: 2225
+title: Find Players With Zero or One Losses
+url: https://leetcode.com/problems/find-players-with-zero-or-one-losses
+solutions:
+- file: Solution_2225.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table
+  - Counting
+  - Sorting
+  topics:
+  - hash-table-counting
+  time: O(nlogn)
+  space: O(n)

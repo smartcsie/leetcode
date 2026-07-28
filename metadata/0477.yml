@@ -1,0 +1,12 @@
+number: 477
+title: Total Hamming Distance
+url: https://leetcode.com/problems/total-hamming-distance/
+solutions:
+- file: Solution_477.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Bit Manipulation / Array
+  topics:
+  - bit-manipulation-xor
+  time: O(31 * N)
+  space: O(1)

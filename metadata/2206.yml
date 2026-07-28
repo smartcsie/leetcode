@@ -1,0 +1,14 @@
+number: 2206
+title: Divide Array Into Equal Pairs
+url: https://leetcode.com/problems/divide-array-into-equal-pairs
+solutions:
+- file: Solution_2206.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  - Counting
+  topics:
+  - hash-table-counting
+  time: O(n)
+  space: O(1)

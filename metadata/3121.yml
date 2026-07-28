@@ -1,0 +1,12 @@
+number: 3121
+title: Count the Number of Special Characters II
+url: https://leetcode.com/problems/count-the-number-of-special-characters-ii/
+solutions:
+- file: Solution_3121.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String Processing
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

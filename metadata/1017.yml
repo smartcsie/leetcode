@@ -1,0 +1,12 @@
+number: 1017
+title: Convert to Base -2
+url: https://leetcode.com/problems/convert-to-base-2
+solutions:
+- file: Solution_1017.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  topics:
+  - math-digit-decomposition
+  time: O(logN)
+  space: O(1)

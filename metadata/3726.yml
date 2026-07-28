@@ -1,0 +1,12 @@
+number: 3726
+title: Remove Zeros in Decimal Representation
+url: https://leetcode.com/problems/remove-zeros-in-decimal-representation
+solutions:
+- file: Solution_3726.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Digit Extraction
+  topics:
+  - math-digit-decomposition
+  time: O(log N)
+  space: O(1)

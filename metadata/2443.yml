@@ -1,0 +1,12 @@
+number: 2443
+title: Sum of Number and Its Reverse
+url: https://leetcode.com/problems/sum-of-number-and-its-reverse/
+solutions:
+- file: Solution_2443.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Simulation
+  topics:
+  - math-digit-decomposition
+  time: O(NlogN)
+  space: O(1)

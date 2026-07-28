@@ -1,0 +1,12 @@
+number: 3536
+title: Maximum Product of Two Digits
+url: https://leetcode.com/problems/maximum-product-of-two-digits/description/
+solutions:
+- file: Solution_3536.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Greedy
+  topics:
+  - greedy
+  time: O(log N)
+  space: O(1)

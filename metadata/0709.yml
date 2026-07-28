@@ -1,0 +1,12 @@
+number: 709
+title: To Lower Case
+url: https://leetcode.com/problems/to-lower-case
+solutions:
+- file: Solution_0709.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

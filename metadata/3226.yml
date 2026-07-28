@@ -1,0 +1,12 @@
+number: 3226
+title: Number of Bit Changes to Make Two Integers Equal
+url: https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/
+solutions:
+- file: Solution_3226.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - hamming-distance
+  time: O(1)
+  space: O(1)

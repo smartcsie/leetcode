@@ -1,0 +1,12 @@
+number: 1317
+title: Convert Integer to the Sum of Two No-Zero Integers
+url: https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
+solutions:
+- file: Solution_1317.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Simulation
+  topics:
+  - math-digit-decomposition
+  time: O(N*log N)
+  space: O(1)

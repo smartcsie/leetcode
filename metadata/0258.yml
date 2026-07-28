@@ -1,0 +1,12 @@
+number: 258
+title: Add Digits
+url: https://leetcode.com/problems/add-digits
+solutions:
+- file: Solution_0258.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)

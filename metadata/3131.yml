@@ -1,0 +1,12 @@
+number: 3131
+title: Find the Integer Added to Array I
+url: https://leetcode.com/problems/find-the-integer-added-to-array-i/
+solutions:
+- file: Solution_3131.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Array
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

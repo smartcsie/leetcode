@@ -1,0 +1,13 @@
+number: 2761
+title: Prime Pairs With Target Sum
+url: https://leetcode.com/problems/prime-pairs-with-target-sum/
+solutions:
+- file: Solution_2761.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - Sieve
+  topics:
+  - prime
+  time: O(NloglogN)
+  space: O(N)

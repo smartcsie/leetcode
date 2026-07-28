@@ -1,0 +1,12 @@
+number: 3120
+title: Count the Number of Special Characters I
+url: https://leetcode.com/problems/count-the-number-of-special-characters-i/
+solutions:
+- file: Solution_3120.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N)
+  space: O(1)

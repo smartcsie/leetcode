@@ -1,0 +1,12 @@
+number: 2562
+title: Find the Array Concatenation Value
+url: https://leetcode.com/problems/find-the-array-concatenation-value/
+solutions:
+- file: Solution_2562.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(N * D)
+  space: O(1)

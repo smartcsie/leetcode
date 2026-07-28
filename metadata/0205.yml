@@ -1,0 +1,13 @@
+number: 205
+title: Isomorphic Strings
+url: https://leetcode.com/problems/isomorphic-strings
+solutions:
+- file: Solution_0205.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - String
+  topics:
+  - hash-table-mapping
+  time: O(n)
+  space: O(1)

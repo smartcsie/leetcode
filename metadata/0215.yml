@@ -1,0 +1,14 @@
+number: 215
+title: Kth Largest Element in an Array
+url: https://leetcode.com/problems/kth-largest-element-in-an-array
+solutions:
+- file: Solution_0215.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Sorting
+  - QuickSelect
+  topics:
+  - quick-select
+  time: O(N) 平均
+  space: O(1)

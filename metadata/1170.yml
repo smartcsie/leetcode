@@ -1,0 +1,12 @@
+number: 1170
+title: Compare Strings by Frequency
+url: https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/
+solutions:
+- file: Solution_1170.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sorting / Binary Search
+  topics:
+  - binary-search-build-in
+  time: O(NlogN + MlogN)
+  space: O(N)

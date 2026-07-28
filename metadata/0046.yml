@@ -1,0 +1,12 @@
+number: 46
+title: Permutations
+url: https://leetcode.com/problems/permutations/
+solutions:
+- file: Solution_0046.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking
+  topics:
+  - backtracking-permutation
+  time: O(N*N!)
+  space: O(N)

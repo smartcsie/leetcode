@@ -1,0 +1,12 @@
+number: 342
+title: Power of Four
+url: https://leetcode.com/problems/power-of-four/
+solutions:
+- file: Solution_0342.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)

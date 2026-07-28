@@ -1,0 +1,13 @@
+number: 3151
+title: Special Array I
+url: https://leetcode.com/problems/special-array-i
+solutions:
+- file: Solution_3151.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N)
+  space: O(1)

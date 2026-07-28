@@ -1,0 +1,12 @@
+number: 3950
+title: Exactly One Consecutive Set Bits Pair
+url: https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/
+solutions:
+- file: Solution_3950.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - math-digit-decomposition
+  time: O(log N)
+  space: O(1)

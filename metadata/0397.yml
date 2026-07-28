@@ -1,0 +1,12 @@
+number: 397
+title: Integer Replacement
+url: https://leetcode.com/problems/integer-replacement/
+solutions:
+- file: null
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy / Bit Manipulation
+  topics:
+  - greedy
+  time: O(1)
+  space: ''

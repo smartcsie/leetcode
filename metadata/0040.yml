@@ -1,0 +1,12 @@
+number: 40
+title: Combination Sum II
+url: https://leetcode.com/problems/combination-sum-ii/
+solutions:
+- file: Solution_0040.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking / Sorting
+  topics:
+  - backtracking-combination
+  time: O(2ᴺ)
+  space: O(N)

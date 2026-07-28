@@ -1,0 +1,12 @@
+number: 92
+title: Reverse Linked List II
+url: https://leetcode.com/problems/reverse-linked-list-ii
+solutions:
+- file: Solution_0092.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  topics:
+  - linked-list
+  time: O(N)
+  space: O(1)

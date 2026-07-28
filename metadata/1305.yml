@@ -1,0 +1,14 @@
+number: 1305
+title: All Elements in Two Binary Search Trees
+url: https://leetcode.com/problems/all-elements-in-two-binary-search-trees
+solutions:
+- file: Solution_1305.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - In-order Traversal
+  - Two Pointers
+  topics:
+  - tree-dfs-path
+  time: O(N+M)
+  space: O(N+M)

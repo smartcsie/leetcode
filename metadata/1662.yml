@@ -1,0 +1,13 @@
+number: 1662
+title: Check If Two String Arrays are Equivalent
+url: https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent
+solutions:
+- file: Solution_1662.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Array
+  topics:
+  - array
+  time: O(N+ M)
+  space: O(1)

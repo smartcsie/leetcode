@@ -1,0 +1,12 @@
+number: 1805
+title: Number of Different Integers in a String
+url: https://leetcode.com/problems/number-of-different-integers-in-a-string/
+solutions:
+- file: Solution_1805.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Hash Set
+  topics:
+  - hash-table-set
+  time: O(N)
+  space: O(N)

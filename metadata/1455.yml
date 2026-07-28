@@ -1,0 +1,12 @@
+number: 1455
+title: Check If a Word Occurs As a Prefix
+url: https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/
+solutions:
+- file: Solution_1455.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Stream
+  topics:
+  - string
+  time: O(N)
+  space: O(W)

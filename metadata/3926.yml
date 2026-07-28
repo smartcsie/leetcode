@@ -1,0 +1,13 @@
+number: 3926
+title: Count Valid Word Occurrences
+url: https://leetcode.com/problems/count-valid-word-occurrences/
+solutions:
+- file: Solution_3926.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  - Hash Map
+  topics:
+  - hash-table-counting
+  time: O(N + M)
+  space: O(N)

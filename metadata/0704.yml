@@ -1,0 +1,12 @@
+number: 704
+title: Binary Search
+url: https://leetcode.com/problems/binary-search/
+solutions:
+- file: Solution_0704.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(logn)
+  space: O(1)

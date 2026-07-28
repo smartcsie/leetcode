@@ -1,0 +1,13 @@
+number: 1609
+title: Even Odd Tree
+url: https://leetcode.com/problems/even-odd-tree/
+solutions:
+- file: Solution_1609.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - BFS
+  topics:
+  - tree-bfs-level-order
+  time: O(n)
+  space: O(w)

@@ -1,0 +1,21 @@
+number: 137
+title: Single Number II
+url: https://leetcode.com/problems/single-number-ii
+solutions:
+- file: Solution_0137.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit-Manipulation
+  topics:
+  - bit-manipulation
+  time: O(n)
+  space: O(1)
+- file: Solution_0137_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - Hash Set
+  topics:
+  - math
+  time: O(n)
+  space: O(n)

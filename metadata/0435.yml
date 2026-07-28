@@ -1,0 +1,13 @@
+number: 435
+title: Non-overlapping Intervals
+url: https://leetcode.com/problems/non-overlapping-intervals/
+solutions:
+- file: Solution_0435.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  - Interval
+  topics:
+  - interval
+  time: O(NlogN)
+  space: O(1)

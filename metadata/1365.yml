@@ -1,0 +1,12 @@
+number: 1365
+title: How Many Numbers Are Smaller Than the Current Number
+url: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+solutions:
+- file: Solution_1365.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Counting Sort / Prefix Sum
+  topics:
+  - prefix-sum
+  time: O(N + K)
+  space: O(K)

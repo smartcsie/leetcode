@@ -1,0 +1,12 @@
+number: 728
+title: Self Dividing Numbers
+url: https://leetcode.com/problems/self-dividing-numbers/
+solutions:
+- file: Solution_0728.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Simulation
+  topics:
+  - math-digit-decomposition
+  time: O(N*D)
+  space: O(1)

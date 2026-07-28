@@ -1,0 +1,12 @@
+number: 2181
+title: Merge Nodes in Between Zeros
+url: https://leetcode.com/problems/merge-nodes-in-between-zeros/
+solutions:
+- file: Solution_2181.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List / In-place Modification
+  topics:
+  - linked-list
+  time: O(N)
+  space: O(1)

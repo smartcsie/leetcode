@@ -1,0 +1,12 @@
+number: 2357
+title: Make Array Zero by Subtracting Equal Amounts
+url: https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/
+solutions:
+- file: Solution_2357.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Set / Math
+  topics:
+  - hash-table-set
+  time: O(N)
+  space: O(N)

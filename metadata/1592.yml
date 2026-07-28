@@ -1,0 +1,12 @@
+number: 1592
+title: Rearrange Spaces Between Words
+url: https://leetcode.com/problems/rearrange-spaces-between-words/
+solutions:
+- file: Solution_1592.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Simulation
+  topics:
+  - string
+  time: O(N)
+  space: O(N)

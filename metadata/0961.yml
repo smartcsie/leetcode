@@ -1,0 +1,12 @@
+number: 961
+title: N-Repeated Element
+url: https://leetcode.com/problems/n-repeated-element-in-size-2n-array/
+solutions:
+- file: Solution_0961.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math/Greedy
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

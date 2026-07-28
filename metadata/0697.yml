@@ -1,0 +1,12 @@
+number: 697
+title: Degree of an Array
+url: https://leetcode.com/problems/degree-of-an-array/
+solutions:
+- file: Solution_0697.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Map / One-pass
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(N)

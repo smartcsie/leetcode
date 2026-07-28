@@ -1,0 +1,13 @@
+number: 242
+title: Valid Anagram
+url: https://leetcode.com/problems/valid-anagram
+solutions:
+- file: Solution_0242.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - String
+  topics:
+  - hash-table-mapping
+  time: O(n)
+  space: O(1)

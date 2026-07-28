@@ -1,0 +1,12 @@
+number: 100
+title: Same Tree
+url: https://leetcode.com/problems/same-tree/
+solutions:
+- file: Solution_0100.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  topics:
+  - tree
+  time: O(n)
+  space: O(h)

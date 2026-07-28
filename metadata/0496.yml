@@ -1,0 +1,15 @@
+number: 496
+title: Next Greater Element I
+url: https://leetcode.com/problems/next-greater-element-i
+solutions:
+- file: Solution_0496.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  - Stack
+  - Monotonic Stack
+  topics:
+  - monotonic-stack
+  time: O(N + M)
+  space: O(N)

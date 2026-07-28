@@ -1,0 +1,12 @@
+number: 18
+title: 4Sum
+url: https://leetcode.com/problems/4sum/
+solutions:
+- file: Solution_0018.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Two Pointers / Sorting
+  topics:
+  - two-pointers-opposite
+  time: O(N³)
+  space: O(1)

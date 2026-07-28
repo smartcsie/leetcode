@@ -1,0 +1,12 @@
+number: 153
+title: Find Minimum in Rotated Sorted Array
+url: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+solutions:
+- file: Solution_0153.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary&nbsp;Search
+  topics:
+  - binary-search
+  time: O(logn)
+  space: O(1)

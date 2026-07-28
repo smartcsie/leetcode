@@ -1,0 +1,12 @@
+number: 821
+title: Shortest Distance to a Character
+url: https://leetcode.com/problems/shortest-distance-to-a-character/
+solutions:
+- file: Solution_0821.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two-Pass Scan
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

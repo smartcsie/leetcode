@@ -1,0 +1,12 @@
+number: 3407
+title: Substring Matching Pattern
+url: https://leetcode.com/problems/substring-matching-pattern/
+solutions:
+- file: Solution_3407.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Pattern Matching
+  topics:
+  - string
+  time: O(N + M)
+  space: O(M)

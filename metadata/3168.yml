@@ -1,0 +1,12 @@
+number: 3168
+title: Minimum Number of Chairs
+url: https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/
+solutions:
+- file: Solution_3168.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Simulation
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)

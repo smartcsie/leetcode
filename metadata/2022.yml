@@ -1,0 +1,14 @@
+number: 2022
+title: Convert 1D Array Into 2D Array
+url: https://leetcode.com/problems/convert-1d-array-into-2d-array
+solutions:
+- file: Solution_2022.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Matrix
+  - Simulation
+  topics:
+  - 2d-array
+  time: O(m*n)
+  space: O(1)

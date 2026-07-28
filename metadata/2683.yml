@@ -1,0 +1,12 @@
+number: 2683
+title: Neighboring Bitwise XOR
+url: https://leetcode.com/problems/neighboring-bitwise-xor/
+solutions:
+- file: Solution_2683.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Math
+  topics:
+  - bit-manipulation-xor
+  time: O(N)
+  space: O(1)

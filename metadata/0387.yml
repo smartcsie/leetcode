@@ -1,0 +1,13 @@
+number: 387
+title: First Unique Character in a String
+url: https://leetcode.com/problems/first-unique-character-in-a-string
+solutions:
+- file: Solution_0387.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - String
+  topics:
+  - string-substring
+  time: O(n)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 229
+title: Majority Element II
+url: https://leetcode.com/problems/majority-element-ii/
+solutions:
+- file: Solution_0229.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Voting Algorithm
+  topics:
+  - array-boyer-moore
+  time: O(N)
+  space: O(1)

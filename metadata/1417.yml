@@ -1,0 +1,12 @@
+number: 1417
+title: Reformat The String
+url: https://leetcode.com/problems/reformat-the-string/
+solutions:
+- file: Solution_1417.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N)
+  space: O(N)

@@ -1,0 +1,13 @@
+number: 3005
+title: Count Elements With Maximum Frequency
+url: https://leetcode.com/problems/count-elements-with-maximum-frequency
+solutions:
+- file: Solution_3005.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - Counting
+  topics:
+  - hash-table-counting
+  time: O(n)
+  space: O(1)

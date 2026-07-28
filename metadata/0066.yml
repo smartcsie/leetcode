@@ -1,0 +1,12 @@
+number: 66
+title: Plus One
+url: https://leetcode.com/problems/plus-one/
+solutions:
+- file: Solution_0066.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(n)
+  space: O(1)

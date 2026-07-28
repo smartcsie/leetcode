@@ -1,0 +1,13 @@
+number: 504
+title: Base 7
+url: https://leetcode.com/problems/base-7
+solutions:
+- file: Solution_0504.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  - String
+  topics:
+  - math-digit-decomposition
+  time: O(log₇N)
+  space: O(1)

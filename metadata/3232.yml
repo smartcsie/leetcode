@@ -1,0 +1,12 @@
+number: 3232
+title: Find if Digit Game Can Be Won
+url: https://leetcode.com/problems/find-if-digit-game-can-be-won/
+solutions:
+- file: Solution_3232.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Array
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

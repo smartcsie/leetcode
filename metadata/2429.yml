@@ -1,0 +1,12 @@
+number: 2429
+title: Minimize XOR
+url: https://leetcode.com/problems/minimize-xor/
+solutions:
+- file: Solution_2429.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Greedy
+  topics:
+  - bit-manipulation-xor
+  time: O(1)
+  space: O(1)

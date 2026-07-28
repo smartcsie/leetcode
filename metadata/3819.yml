@@ -1,0 +1,12 @@
+number: 3819
+title: Rotate Non Negative Elements
+url: https://leetcode.com/problems/rotate-non-negative-elements/
+solutions:
+- file: Solution_3819.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N)
+  space: O(N)

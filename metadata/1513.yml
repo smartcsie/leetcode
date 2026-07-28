@@ -1,0 +1,12 @@
+number: 1513
+title: Number of Substrings With Only 1s
+url: https://leetcode.com/problems/number-of-substrings-with-only-1s/
+solutions:
+- file: Solution_1513.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / String / Dynamic Programming
+  topics:
+  - math-combination
+  time: O(N)
+  space: O(1)

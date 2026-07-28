@@ -1,0 +1,12 @@
+number: 257
+title: Binary Tree Paths
+url: https://leetcode.com/problems/binary-tree-path
+solutions:
+- file: Solution_0257.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree / DFS
+  topics:
+  - tree-dfs-path
+  time: O(N²)
+  space: O(H²)

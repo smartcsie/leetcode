@@ -1,0 +1,12 @@
+number: 2614
+title: Prime In Diagonal
+url: https://leetcode.com/problems/prime-in-diagonal/
+solutions:
+- file: Solution_2614.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Trial Division
+  topics:
+  - prime
+  time: O(N * sqrt(M))
+  space: O(1)

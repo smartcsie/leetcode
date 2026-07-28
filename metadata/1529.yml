@@ -1,0 +1,12 @@
+number: 1529
+title: Minimum Suffix Flips
+url: https://leetcode.com/problems/minimum-suffix-flips/
+solutions:
+- file: Solution_1529.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy / State Machine
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

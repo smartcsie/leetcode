@@ -1,0 +1,12 @@
+number: 1431
+title: Kids With the Greatest Number of Candies
+url: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+solutions:
+- file: Solution_1431.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)*

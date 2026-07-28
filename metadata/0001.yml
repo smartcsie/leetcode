@@ -1,0 +1,12 @@
+number: 1
+title: Two Sum
+url: https://leetcode.com/problems/two-sum/
+solutions:
+- file: Solution_0001.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  topics:
+  - hash-table-mapping
+  time: O(n)
+  space: O(n)

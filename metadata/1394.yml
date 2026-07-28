@@ -1,0 +1,14 @@
+number: 1394
+title: Find Lucky Integer in an Array
+url: https://leetcode.com/problems/find-lucky-integer-in-an-array
+solutions:
+- file: Solution_1394.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  - Counting
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(1)

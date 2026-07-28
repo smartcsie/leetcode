@@ -1,0 +1,12 @@
+number: 832
+title: Flipping an Image
+url: https://leetcode.com/problems/flipping-an-image/
+solutions:
+- file: Solution_0832.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Two Pointers
+  topics:
+  - 2d-array
+  time: O(N * M)
+  space: O(1)

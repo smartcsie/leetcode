@@ -1,0 +1,12 @@
+number: 1015
+title: Smallest Integer Divisible by K
+url: https://leetcode.com/problems/smallest-integer-divisible-by-k/
+solutions:
+- file: Solution_1015.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Modular Arithmetic
+  topics:
+  - math
+  time: O(K)
+  space: O(1)

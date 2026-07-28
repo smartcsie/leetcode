@@ -1,0 +1,12 @@
+number: 278
+title: First Bad Version
+url: https://leetcode.com/problems/first-bad-version/
+solutions:
+- file: Solution_0278.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(logn)
+  space: O(1)

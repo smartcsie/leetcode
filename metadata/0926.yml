@@ -1,0 +1,12 @@
+number: 926
+title: Flip String to Monotone Increasing
+url: https://leetcode.com/problems/flip-string-to-monotone-increasing/
+solutions:
+- file: Solution_0926.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming
+  topics:
+  - dynamic-programming
+  time: O(N)
+  space: O(1)

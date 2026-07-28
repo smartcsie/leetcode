@@ -1,0 +1,13 @@
+number: 49
+title: Group Anagrams
+url: https://leetcode.com/problems/group-anagrams/
+solutions:
+- file: Solution_0049.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table
+  - String
+  topics:
+  - hash-table-counting
+  time: O(N*K)
+  space: O(N*K)

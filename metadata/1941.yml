@@ -1,0 +1,14 @@
+number: 1941
+title: Check if All Characters Have Equal Number of Occurrences
+url: https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences
+solutions:
+- file: Solution_1941.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - String
+  - Counting
+  topics:
+  - string-substring
+  time: O(n)
+  space: O(1)

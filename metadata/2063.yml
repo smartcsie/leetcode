@@ -1,0 +1,12 @@
+number: 2063
+title: Vowels of All Substrings
+url: https://leetcode.com/problems/vowels-of-all-substrings/
+solutions:
+- file: Solution_2063.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Contribution Technique
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

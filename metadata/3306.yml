@@ -1,0 +1,12 @@
+number: 3306
+title: Count of Substrings Containing Every Vowel and K Consonants II
+url: https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/
+solutions:
+- file: Solution_3306.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sliding Window / Two Pointers / Difference Technique
+  topics:
+  - variable-size-sliding-window
+  time: O(N)
+  space: O(1)

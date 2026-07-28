@@ -1,0 +1,13 @@
+number: 53
+title: Maximum Subarray
+url: https://leetcode.com/problems/maximum-subarray
+solutions:
+- file: Solution_0053.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Dynamic Programming
+  topics:
+  - dynamic-programming-kadane-algorithm
+  time: O(n)
+  space: O(1)

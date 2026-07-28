@@ -1,0 +1,13 @@
+number: 338
+title: Counting Bits
+url: https://leetcode.com/problems/counting-bits
+solutions:
+- file: Solution_0338.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - DP
+  - Bit Manipulation
+  topics:
+  - bit-manipulation-and
+  time: O(n)
+  space: O(n)

@@ -1,0 +1,12 @@
+number: 150
+title: Evaluate Reverse Polish Notation
+url: https://leetcode.com/problems/evaluate-reverse-polish-notation/
+solutions:
+- file: Solution_0150.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Stack
+  topics:
+  - stack
+  time: O(N)
+  space: O(N)

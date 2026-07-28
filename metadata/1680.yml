@@ -1,0 +1,12 @@
+number: 1680
+title: Concatenation of Consecutive Binary Numbers
+url: https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/
+solutions:
+- file: Solution_1680.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N)
+  space: O(1)

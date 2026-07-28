@@ -1,0 +1,12 @@
+number: 1785
+title: Minimum Elements to Add to Form a Given Sum
+url: https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/
+solutions:
+- file: Solution_1785.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Greedy
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,14 @@
+number: 1512
+title: Number of Good Pairs
+url: https://leetcode.com/problems/number-of-good-pairs
+solutions:
+- file: Solution_1512.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  - Math
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(N)

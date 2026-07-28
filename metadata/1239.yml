@@ -1,0 +1,12 @@
+number: 1239
+title: Maximum Length of a Concatenated String with Unique Characters
+url: https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
+solutions:
+- file: Solution_1239.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Backtracking / Bitset
+  topics:
+  - bit-bitmask-subset-enumeration
+  time: O(2ᴺ)
+  space: O(2ᴺ)

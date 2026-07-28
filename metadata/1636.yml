@@ -1,0 +1,14 @@
+number: 1636
+title: Sort Array by Increasing Frequency
+url: https://leetcode.com/problems/sort-array-by-increasing-frequency
+solutions:
+- file: Solution_1636.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  - Sorting
+  topics:
+  - quick-select
+  time: O(NlogN)
+  space: O(1)

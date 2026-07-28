@@ -1,0 +1,12 @@
+number: 25
+title: Reverse Nodes in k-Group
+url: https://leetcode.com/problems/reverse-nodes-in-k-group/
+solutions:
+- file: Solution_0025.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Linked List
+  topics:
+  - linked-list
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 1721
+title: Swapping Nodes in a Linked List
+url: https://leetcode.com/problems/swapping-nodes-in-a-linked-list
+solutions:
+- file: Solution_1721.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N)
+  space: O(1)

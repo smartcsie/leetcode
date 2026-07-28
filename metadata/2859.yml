@@ -1,0 +1,12 @@
+number: 2859
+title: Sum of Values at Indices With K Set Bits
+url: https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/
+solutions:
+- file: Solution_2859.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation / Built-in Function
+  topics:
+  - bit-manipulation
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 461
+title: Hamming Distance
+url: https://leetcode.com/problems/hamming-distance
+solutions:
+- file: Solution_0461.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - hamming-distance
+  time: O(k)
+  space: O(1)

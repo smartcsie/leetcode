@@ -1,0 +1,13 @@
+number: 1876
+title: Substrings of Size Three with Distinct Characters
+url: https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters
+solutions:
+- file: Solution_1876.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Sliding Window
+  topics:
+  - fixed-size-sliding-window
+  time: O(N)
+  space: O(1)

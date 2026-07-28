@@ -1,0 +1,12 @@
+number: 867
+title: Transpose Matrix
+url: https://leetcode.com/problems/transpose-matrix/
+solutions:
+- file: Solution_0867.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Matrix
+  topics:
+  - 2d-array
+  time: O(M*N)
+  space: O(M*N)

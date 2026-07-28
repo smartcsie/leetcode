@@ -1,0 +1,12 @@
+number: 2595
+title: Number of Even and Odd Bits
+url: https://leetcode.com/problems/number-of-even-and-odd-bits
+solutions:
+- file: Solution_2595.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - math-digit-decomposition
+  time: O(logN)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 3908
+title: Valid Digit Number
+url: https://leetcode.com/problems/valid-digit-number/
+solutions:
+- file: Solution_3908.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  - Digit Manipulation
+  topics:
+  - math-digit-decomposition
+  time: O(log N)
+  space: O(1)

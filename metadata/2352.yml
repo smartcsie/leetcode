@@ -1,0 +1,12 @@
+number: 2352
+title: Equal Row and Column Pairs
+url: https://leetcode.com/problems/equal-row-and-column-pairs/
+solutions:
+- file: Solution_2352.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Map / Matrix Simulation
+  topics:
+  - hash-table-counting
+  time: O(N³logN) 或 O(N²log N)*
+  space: O(N²)

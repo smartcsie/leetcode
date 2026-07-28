@@ -1,0 +1,12 @@
+number: 3304
+title: Find the K-th Character in String Game I
+url: https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/
+solutions:
+- file: Solution_3304.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Simulation / Recursion
+  topics:
+  - string
+  time: O(K)
+  space: O(K)

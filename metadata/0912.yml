@@ -1,0 +1,14 @@
+number: 912
+title: Sort an Array
+url: https://leetcode.com/problems/sort-an-array
+solutions:
+- file: Solution_0912.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Divide and Conquer
+  - Sorting
+  topics:
+  - sorting
+  time: O(nlogn)
+  space: O(logn)

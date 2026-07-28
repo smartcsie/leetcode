@@ -1,0 +1,12 @@
+number: 1952
+title: Three Divisors
+url: https://leetcode.com/problems/three-divisors
+solutions:
+- file: Solution_1952.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(√N)
+  space: O(1)

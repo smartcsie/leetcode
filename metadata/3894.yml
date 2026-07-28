@@ -1,0 +1,12 @@
+number: 3894
+title: Traffic Signal Color
+url: https://leetcode.com/problems/traffic-signal-color/
+solutions:
+- file: Solution_3894.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Logic Control
+  topics:
+  - math-simulation
+  time: O(1)
+  space: O(1)

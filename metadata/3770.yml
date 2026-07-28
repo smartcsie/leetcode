@@ -1,0 +1,12 @@
+number: 3770
+title: Largest Prime from Consecutive Prime Sum
+url: https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/
+solutions:
+- file: Solution_3770.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Prefix Sum
+  topics:
+  - prime
+  time: O(R log log R)
+  space: O(R)

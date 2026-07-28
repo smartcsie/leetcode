@@ -1,0 +1,12 @@
+number: 796
+title: Rotate String
+url: https://leetcode.com/problems/rotate-string
+solutions:
+- file: Solution_0796.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string-substring-2
+  time: O(N)
+  space: O(N)

@@ -1,0 +1,12 @@
+number: 2670
+title: Find the Distinct Difference Array
+url: https://leetcode.com/problems/find-the-distinct-difference-array/
+solutions:
+- file: Solution_2670.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Hash Set
+  topics:
+  - hash-table-set
+  time: O(N)
+  space: O(N)

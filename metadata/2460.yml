@@ -1,0 +1,13 @@
+number: 2460
+title: Apply Operations to an Array
+url: https://leetcode.com/problems/apply-operations-to-an-array
+solutions:
+- file: Solution_2460.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Simulation
+  topics:
+  - string
+  time: O(N)
+  space: O(1)

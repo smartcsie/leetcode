@@ -1,0 +1,12 @@
+number: 2605
+title: Form Smallest Number From Two Digit Arrays
+url: https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/
+solutions:
+- file: Solution_2605.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation / Bitmask
+  topics:
+  - bit-manipulation-mask
+  time: O(N + M)
+  space: O(1)

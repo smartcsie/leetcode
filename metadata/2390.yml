@@ -1,0 +1,13 @@
+number: 2390
+title: Removing Stars From a String
+url: https://leetcode.com/problems/removing-stars-from-a-string
+solutions:
+- file: Solution_2390.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  - Stack
+  topics:
+  - stack
+  time: O(n)
+  space: O(n)

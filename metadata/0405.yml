@@ -1,0 +1,12 @@
+number: 405
+title: Convert a Number to Hexadecimal
+url: https://leetcode.com/problems/convert-a-number-to-hexadecimal/
+solutions:
+- file: Solution_0405.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Bit Manipulation
+  topics:
+  - math-digit-decomposition
+  time: O(1)
+  space: O(1)

@@ -1,0 +1,13 @@
+number: 678
+title: Valid Parenthesis String
+url: https://leetcode.com/problems/valid-parenthesis-string/
+solutions:
+- file: Solution_0678.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  - String
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 2937
+title: Make Three Strings Equal
+url: https://leetcode.com/problems/make-three-strings-equal/
+solutions:
+- file: Solution_2937.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: O(min(L1, L2, L3))
+  space: O(1)

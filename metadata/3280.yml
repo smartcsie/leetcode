@@ -1,0 +1,12 @@
+number: 3280
+title: Convert Date to Binary
+url: https://leetcode.com/problems/convert-date-to-binary/
+solutions:
+- file: Solution_3280.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String Manipulation / Bit Format
+  topics:
+  - string
+  time: O(1)
+  space: O(1)

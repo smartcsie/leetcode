@@ -1,0 +1,12 @@
+number: 2119
+title: A Number After a Double Reversal
+url: https://leetcode.com/problems/a-number-after-a-double-reversal/
+solutions:
+- file: Solution_2119.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)

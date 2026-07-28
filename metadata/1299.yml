@@ -1,0 +1,12 @@
+number: 1299
+title: Replace Elements with Greatest Element on Right Side
+url: https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side
+solutions:
+- file: Solution_1299.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

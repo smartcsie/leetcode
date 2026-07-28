@@ -1,0 +1,14 @@
+number: 1684
+title: Count the Number of Consistent Strings
+url: https://leetcode.com/problems/count-the-number-of-consistent-strings
+solutions:
+- file: Solution_1684.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N * M)
+  space: O(1)

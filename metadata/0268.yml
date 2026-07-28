@@ -1,0 +1,20 @@
+number: 268
+title: Missing Number
+url: https://leetcode.com/problems/missing-number
+solutions:
+- file: Solution_0268_2.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit-Manipulation
+  topics:
+  - bit-manipulation-xor
+  time: O(n)
+  space: O(1)
+- file: Solution_0268.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(n)
+  space: O(1)

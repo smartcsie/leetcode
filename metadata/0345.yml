@@ -1,0 +1,13 @@
+number: 345
+title: Reverse Vowels of a String
+url: https://leetcode.com/problems/reverse-vowels-of-a-string
+solutions:
+- file: Solution_0345.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(N)
+  space: O(1)

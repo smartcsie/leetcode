@@ -1,0 +1,13 @@
+number: 1750
+title: Minimum Length of String After Deleting Similar Ends
+url: https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends
+solutions:
+- file: Solution_1750.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  - Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(N)
+  space: O(1)

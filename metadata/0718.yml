@@ -1,0 +1,13 @@
+number: 718
+title: Maximum Length of Repeated Subarray
+url: https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+solutions:
+- file: Solution_0718.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP
+  - Array
+  topics:
+  - dynamic-programming-4
+  time: O(N * M)
+  space: O(M)

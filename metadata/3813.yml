@@ -1,0 +1,12 @@
+number: 3813
+title: Vowel-Consonant Score
+url: https://leetcode.com/problems/vowel-consonant-score/
+solutions:
+- file: Solution_3813.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String Processing
+  topics:
+  - string-character-classification
+  time: O(N)
+  space: O(1)

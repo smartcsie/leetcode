@@ -1,0 +1,13 @@
+number: 3718
+title: Smallest Missing Multiple of K
+url: https://leetcode.com/problems/smallest-missing-multiple-of-k/
+solutions:
+- file: Solution_3718.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Hash Table
+  topics:
+  - hash-table-set
+  time: O(N+M)
+  space: O(M)

@@ -1,0 +1,12 @@
+number: 3969
+title: Valid Subarrays With Matching Sum Digits I
+url: ''
+solutions:
+- file: Solution_3969.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array / Brute Force
+  topics:
+  - array
+  time: O(N²)
+  space: O(1)

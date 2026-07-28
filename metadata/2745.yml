@@ -1,0 +1,12 @@
+number: 2745
+title: Construct the Longest New String
+url: https://leetcode.com/problems/construct-the-longest-new-string/
+solutions:
+- file: Solution_2745.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy / Math / Brainteaser
+  topics:
+  - greedy
+  time: O(1)
+  space: O(1)

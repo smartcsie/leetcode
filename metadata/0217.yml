@@ -1,0 +1,12 @@
+number: 217
+title: Contains Duplicate
+url: https://leetcode.com/problems/contains-duplicate
+solutions:
+- file: Solution_0217.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  topics:
+  - hash-table-set
+  time: O(n)
+  space: O(n)

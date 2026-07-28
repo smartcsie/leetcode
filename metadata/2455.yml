@@ -1,0 +1,12 @@
+number: 2455
+title: Average Value of Even Numbers That Are Divisible by Three
+url: https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/
+solutions:
+- file: Solution_2455.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Array
+  topics:
+  - math
+  time: O(N)
+  space: O(1)

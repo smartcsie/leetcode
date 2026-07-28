@@ -1,0 +1,12 @@
+number: 2057
+title: Smallest Index With Equal Value
+url: https://leetcode.com/problems/smallest-index-with-equal-value/
+solutions:
+- file: Solution_2057.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)

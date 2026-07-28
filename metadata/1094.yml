@@ -1,0 +1,12 @@
+number: 1094
+title: Car Pooling
+url: https://leetcode.com/problems/car-pooling/
+solutions:
+- file: Solution_1094.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Difference Array / Sweep Line
+  topics:
+  - array-difference-array
+  time: O(N + M)
+  space: O(M)

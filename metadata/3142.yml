@@ -1,0 +1,13 @@
+number: 3142
+title: Check if Grid Satisfies Conditions
+url: https://leetcode.com/problems/check-if-grid-satisfies-conditions/
+solutions:
+- file: Solution_3142.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Simulation
+  - Array
+  topics:
+  - 2d-array
+  time: O(M * N)
+  space: O(1)

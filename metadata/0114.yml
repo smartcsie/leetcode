@@ -1,0 +1,13 @@
+number: 114
+title: Flatten Binary Tree to Linked List
+url: https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+solutions:
+- file: Solution_0114.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - DFS
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(H)

@@ -1,0 +1,13 @@
+number: 1436
+title: Destination City
+url: https://leetcode.com/problems/destination-city
+solutions:
+- file: Solution_1436.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - String
+  topics:
+  - hash-table-mapping
+  time: O(N)
+  space: O(N)

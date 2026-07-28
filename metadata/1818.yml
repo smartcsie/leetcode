@@ -1,0 +1,12 @@
+number: 1818
+title: Minimum Absolute Sum Difference
+url: https://leetcode.com/problems/minimum-absolute-sum-difference/
+solutions:
+- file: Solution_1818.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary Search / Greedy
+  topics:
+  - binary-search-build-in
+  time: O(N log N)
+  space: O(N)

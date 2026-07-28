@@ -1,0 +1,12 @@
+number: 2815
+title: Max Pair Sum in an Array
+url: https://leetcode.com/problems/max-pair-sum-in-an-array/
+solutions:
+- file: Solution_2815.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy / Hashing
+  topics:
+  - greedy
+  time: O(N*D)
+  space: O(1)

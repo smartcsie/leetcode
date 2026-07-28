@@ -1,0 +1,13 @@
+number: 1930
+title: Unique Length-3 Palindromic Subsequences
+url: https://leetcode.com/problems/unique-length-3-palindromic-subsequences/
+solutions:
+- file: Solution_1930.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  - Hash
+  topics:
+  - binary-search
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,12 @@
+number: 2427
+title: Number of Common Factors
+url: https://leetcode.com/problems/number-of-common-factors/
+solutions:
+- file: Solution_2427.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math / Number Theory / GCD
+  topics:
+  - math-factor-enumeration
+  time: O(min(A, B))
+  space: O(1)

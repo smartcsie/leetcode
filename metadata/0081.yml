@@ -1,0 +1,12 @@
+number: 81
+title: Search in Rotated Sorted Array II
+url: https://leetcode.com/problems/search-in-rotated-sorted-array-ii
+solutions:
+- file: Solution_0081.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(N)
+  space: O(1)

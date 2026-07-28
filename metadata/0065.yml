@@ -1,0 +1,12 @@
+number: 65
+title: Valid Number
+url: https://leetcode.com/problems/valid-number/
+solutions:
+- file: Solution_0065.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - String / State Machine
+  topics:
+  - string-state-machine
+  time: O(N)
+  space: O(1)

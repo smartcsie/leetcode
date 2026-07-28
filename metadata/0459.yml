@@ -1,0 +1,13 @@
+number: 459
+title: Repeated Substring Pattern
+url: https://leetcode.com/problems/repeated-substring-pattern
+solutions:
+- file: Solution_0459.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - KMP
+  topics:
+  - string-kmp
+  time: O(n)
+  space: O(n)

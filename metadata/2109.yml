@@ -1,0 +1,13 @@
+number: 2109
+title: Adding Spaces to a String
+url: https://leetcode.com/problems/adding-spaces-to-a-string
+solutions:
+- file: Solution_2109.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  - Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N+M)
+  space: O(N+M)

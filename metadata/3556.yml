@@ -1,0 +1,12 @@
+number: 3556
+title: Sum of Largest Prime Substrings
+url: https://leetcode.com/problems/sum-of-largest-prime-substrings/
+solutions:
+- file: Solution_3556.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Brute Force
+  topics:
+  - string-substring-enumeration
+  time: O(N²*sqrt(M))
+  space: O(1)

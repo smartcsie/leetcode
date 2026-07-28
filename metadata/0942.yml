@@ -1,0 +1,12 @@
+number: 942
+title: DI String Match
+url: https://leetcode.com/problems/di-string-match/
+solutions:
+- file: Solution_0942.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy / Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(N)
+  space: O(N)

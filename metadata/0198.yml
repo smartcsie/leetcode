@@ -1,0 +1,13 @@
+number: 198
+title: House Robber
+url: https://leetcode.com/problems/house-robber/
+solutions:
+- file: Solution_0198.cpp
+  difficulty: 🟢 Medium
+  tags:
+  - DP
+  - Linear Optimization
+  topics:
+  - dynamic-programming-2
+  time: O(N)
+  space: O(1)

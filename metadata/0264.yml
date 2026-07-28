@@ -1,0 +1,13 @@
+number: 264
+title: Ugly Number II
+url: https://leetcode.com/problems/ugly-number-ii/
+solutions:
+- file: Solution_0264.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming
+  - Math
+  topics:
+  - dynamic-programming
+  time: O(n)
+  space: O(n)

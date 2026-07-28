@@ -1,0 +1,12 @@
+number: 3289
+title: The Two Sneaky Numbers of Digitville
+url: https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/
+solutions:
+- file: Solution_3289.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table / Bit Manipulation
+  topics:
+  - hash-table-counting
+  time: O(N)
+  space: O(1)

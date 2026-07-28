@@ -1,0 +1,13 @@
+number: 67
+title: Add Binary
+url: https://leetcode.com/problems/add-binary
+solutions:
+- file: Solution_0067.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  - String
+  topics:
+  - math-simulation
+  time: O(max(M, N))
+  space: O(1)

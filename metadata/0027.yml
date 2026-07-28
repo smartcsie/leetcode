@@ -1,0 +1,13 @@
+number: 27
+title: Remove Element
+url: https://leetcode.com/problems/remove-element/
+solutions:
+- file: Solution_0027.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Fast-Slow Pointers
+  topics:
+  - fast-slow-pointers
+  time: O(n)
+  space: O(1)

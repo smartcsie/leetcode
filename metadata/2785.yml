@@ -1,0 +1,13 @@
+number: 2785
+title: Sort Vowels in a String
+url: https://leetcode.com/problems/sort-vowels-in-a-string/
+solutions:
+- file: Solution_2785.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  - Counting Sort
+  topics:
+  - sorting-2
+  time: O(N)
+  space: O(1)

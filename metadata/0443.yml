@@ -1,0 +1,12 @@
+number: 443
+title: String Compression
+url: https://leetcode.com/problems/string-compression/
+solutions:
+- file: Solution_0443.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N)
+  space: O(1)

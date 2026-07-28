@@ -1,0 +1,12 @@
+number: 2255
+title: Count Prefixes of a Given String
+url: https://leetcode.com/problems/count-prefixes-of-a-given-string/
+solutions:
+- file: Solution_2255.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Simulation
+  topics:
+  - string
+  time: O(N * M)
+  space: O(1)

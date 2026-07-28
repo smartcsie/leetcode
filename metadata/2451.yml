@@ -1,0 +1,12 @@
+number: 2451
+title: Odd String Difference
+url: https://leetcode.com/problems/odd-string-difference/
+solutions:
+- file: Solution_2451.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Map / Difference Array
+  topics:
+  - hash-table-counting
+  time: O(N * M)
+  space: O(N * M)

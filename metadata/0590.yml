@@ -1,0 +1,12 @@
+number: 590
+title: N-ary Tree Postorder Traversal
+url: https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+solutions:
+- file: Solution_0590.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  topics:
+  - tree
+  time: O(n)
+  space: O(h)

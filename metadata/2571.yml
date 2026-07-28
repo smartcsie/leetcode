@@ -1,0 +1,12 @@
+number: 2571
+title: Minimum Operations to Reduce an Integer to 0
+url: https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/
+solutions:
+- file: Solution_2571.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy / Bit Manipulation / Dynamic Programming
+  topics:
+  - greedy
+  time: O(log N)
+  space: O(1)

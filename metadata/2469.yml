@@ -1,0 +1,12 @@
+number: 2469
+title: Convert the Temperature
+url: https://leetcode.com/problems/convert-the-temperature/
+solutions:
+- file: Solution_2469.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)

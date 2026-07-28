@@ -1,0 +1,13 @@
+number: 494
+title: Target Sum
+url: https://leetcode.com/problems/target-sum/
+solutions:
+- file: Solution_0494.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP
+  - 0-1 Knapsack
+  topics:
+  - knapsack-problem
+  time: O(N * S)
+  space: O(S)

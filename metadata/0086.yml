@@ -1,0 +1,12 @@
+number: 86
+title: Partition List
+url: https://leetcode.com/problems/partition-list/
+solutions:
+- file: Solution_0086.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List / Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N)
+  space: O(1)

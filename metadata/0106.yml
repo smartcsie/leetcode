@@ -1,0 +1,13 @@
+number: 106
+title: Construct Binary Tree from Inorder and Postorder Traversal
+url: https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+solutions:
+- file: Solution_106.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - Recursion
+  topics:
+  - tree
+  time: O(N)
+  space: O(N)

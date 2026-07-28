@@ -1,0 +1,36 @@
+# Solution_0563
+
+```cpp
+/**
+ * 題目：待補充
+ * 難度：待補充
+ * 描述：待補充
+ *
+ * 時間複雜度：O(N) - 後序遍歷，計算每個節點子樹和。
+ * 空間複雜度：O(H) - 遞迴深度為樹高 H。
+ */
+
+class Solution {
+    // dfs 函數負責回傳該節點的「子樹總和」，並透過 res 累加傾斜度
+    int dfs(TreeNode* root, int& res) {
+        if (!root) return 0;
+        
+        int leftSum = dfs(root->left, res);
+        int rightSum = dfs(root->right, res);
+        
+        // 當前節點的 Tilt = 左子樹和 - 右子樹和 的絕對值
+        res += std::abs(leftSum - rightSum);
+        
+        // 回傳以當前節點為根的子樹總和
+        return root->val + leftSum + rightSum;
+    }
+
+public:
+    int findTilt(TreeNode* root) {
+        int res = 0;
+        dfs(root, res);
+        return res;
+    }
+};
+
+```

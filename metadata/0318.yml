@@ -1,0 +1,12 @@
+number: 318
+title: Maximum Product of Word Lengths
+url: https://leetcode.com/problems/maximum-product-of-word-lengths/
+solutions:
+- file: Solution_318.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Bitmask
+  topics:
+  - bit-manipulation-mask
+  time: O(N * L + N^2)
+  space: O(N)

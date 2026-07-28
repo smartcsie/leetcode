@@ -1,0 +1,12 @@
+number: 3986
+title: Number of Elapsed Seconds Between Two Times
+url: https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/
+solutions:
+- file: Solution_3986.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String / Simulation / Math
+  topics:
+  - string
+  time: O(1)
+  space: O(1)

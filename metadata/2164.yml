@@ -1,0 +1,12 @@
+number: 2164
+title: Sort Even and Odd Indices Independently
+url: https://leetcode.com/problems/sort-even-and-odd-indices-independently/
+solutions:
+- file: Solution_2164.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Sorting
+  topics:
+  - sorting
+  time: O(NlogN)
+  space: O(N)

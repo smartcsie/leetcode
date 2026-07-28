@@ -1,0 +1,12 @@
+number: 3314
+title: Construct the Minimum Bitwise Array I
+url: https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/
+solutions:
+- file: Solution_3314.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation / Math
+  topics:
+  - bit-manipulation-or
+  time: O(N)
+  space: O(N)

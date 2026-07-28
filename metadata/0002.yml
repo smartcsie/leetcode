@@ -1,0 +1,13 @@
+number: 2
+title: Add Two Numbers
+url: https://leetcode.com/problems/add-two-numbers
+solutions:
+- file: Solution_0002.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Math
+  topics:
+  - linked-list
+  time: O(max(N, M))
+  space: O(max(N, M))

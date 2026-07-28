@@ -1,0 +1,12 @@
+number: 784
+title: Letter Case Permutation
+url: https://leetcode.com/problems/letter-case-permutation/
+solutions:
+- file: Solution_0784.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking
+  topics:
+  - backtracking-combination
+  time: O(2ᴺ)
+  space: O(N)

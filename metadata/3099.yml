@@ -1,0 +1,12 @@
+number: 3099
+title: Harshad Number
+url: https://leetcode.com/problems/harshad-number/
+solutions:
+- file: Solution_3099.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math-digit-decomposition
+  time: O(logN)
+  space: O(1)

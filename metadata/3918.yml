@@ -1,0 +1,12 @@
+number: 3918
+title: Sum of Primes Between Number and Its Reverse
+url: https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/
+solutions:
+- file: Solution_3918.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Sieve
+  topics:
+  - prime
+  time: O(R log log R)
+  space: O(R)

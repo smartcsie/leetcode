@@ -1,0 +1,13 @@
+number: 232
+title: Implement Queue using Stacks
+url: https://leetcode.com/problems/implement-queue-using-stacks
+solutions:
+- file: Solution_0232.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Stack
+  - Queue
+  topics:
+  - stack
+  time: O(1) amortized
+  space: O(N)

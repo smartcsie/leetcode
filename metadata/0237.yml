@@ -1,0 +1,12 @@
+number: 237
+title: Delete Node in a Linked List
+url: https://leetcode.com/problems/delete-node-in-a-linked-list
+solutions:
+- file: Solution_0237.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Linked List
+  topics:
+  - linked-list
+  time: O(1)
+  space: O(1)

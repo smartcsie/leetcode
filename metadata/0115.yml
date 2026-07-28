@@ -1,0 +1,12 @@
+number: 115
+title: Distinct Subsequences
+url: https://leetcode.com/problems/distinct-subsequences/
+solutions:
+- file: Solution_0115.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - DP / String
+  topics:
+  - dynamic-programming-4
+  time: O(S * T)
+  space: O(T)

@@ -1,0 +1,13 @@
+number: 290
+title: Word Pattern
+url: https://leetcode.com/problems/word-pattern
+solutions:
+- file: Solution_0291.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table
+  - String
+  topics:
+  - hash-table-mapping
+  time: O(N + M)
+  space: O(N + M)

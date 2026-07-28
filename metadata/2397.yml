@@ -1,0 +1,12 @@
+number: 2397
+title: Maximum Rows Covered by Columns
+url: https://leetcode.com/problems/maximum-rows-covered-by-columns/
+solutions:
+- file: Solution_2397.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation / Bitmask / Combinatorics
+  topics:
+  - bit-bitmask-subset-enumeration
+  time: O(2ᴺ*M + M*N)
+  space: O(M)

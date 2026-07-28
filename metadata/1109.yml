@@ -1,0 +1,12 @@
+number: 1109
+title: Corporate Flight Bookings
+url: https://leetcode.com/problems/corporate-flight-bookings/
+solutions:
+- file: Solution_1109.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Difference Array
+  topics:
+  - array-difference-array
+  time: O(N + K)
+  space: O(N)

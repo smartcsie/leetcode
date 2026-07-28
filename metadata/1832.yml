@@ -1,0 +1,12 @@
+number: 1832
+title: Check if the Sentence Is Pangram
+url: https://leetcode.com/problems/check-if-the-sentence-is-pangram/
+solutions:
+- file: Solution_1832.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table / Bit Manipulation / String
+  topics:
+  - bit-manipulation
+  time: O(N)
+  space: O(1)

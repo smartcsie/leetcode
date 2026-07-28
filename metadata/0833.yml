@@ -1,0 +1,12 @@
+number: 833
+title: Find And Replace in String
+url: https://leetcode.com/problems/find-and-replace-in-string/
+solutions:
+- file: Solution_833.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  topics:
+  - string-substring-2
+  time: O(N+M*K)
+  space: O(N)

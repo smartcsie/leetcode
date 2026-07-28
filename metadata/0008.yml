@@ -1,0 +1,13 @@
+number: 8
+title: String to Integer (atoi)
+url: https://leetcode.com/problems/string-to-integer-atoi
+solutions:
+- file: Solution_0008.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  - Math
+  topics:
+  - string
+  time: O(N)
+  space: O(1)

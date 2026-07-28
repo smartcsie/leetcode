@@ -1,0 +1,14 @@
+number: 3011
+title: Find if Array Can Be Sorted
+url: https://leetcode.com/problems/find-if-array-can-be-sorted/
+solutions:
+- file: Solution_3011.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Greedy
+  - Bit Manipulation
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)

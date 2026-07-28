@@ -1,0 +1,12 @@
+number: 182
+title: Duplicate Emails
+url: https://leetcode.com/problems/duplicate-emails/
+solutions:
+- file: Solution_0182.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Database
+  topics:
+  - sql
+  time: O(N)
+  space: O(N)

@@ -1,0 +1,13 @@
+number: 1408
+title: String Matching in an Array
+url: https://leetcode.com/problems/string-matching-in-an-array/
+solutions:
+- file: Solution_1408.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Sorting
+  topics:
+  - sorting
+  time: O(N²*K)
+  space: O(N)

@@ -1,0 +1,12 @@
+number: 31
+title: Next Permutation
+url: https://leetcode.com/problems/next-permutation/
+solutions:
+- file: Solution_0031.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array / Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N)
+  space: O(1)

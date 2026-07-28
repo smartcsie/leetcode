@@ -1,0 +1,13 @@
+number: 1641
+title: Count Sorted Vowel Strings
+url: https://leetcode.com/problems/count-sorted-vowel-strings/
+solutions:
+- file: Solution_1641.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - Dynamic Programming
+  topics:
+  - dynamic-programming-kadane-algorithm
+  time: O(1)
+  space: O(1)

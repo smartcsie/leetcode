@@ -1,0 +1,12 @@
+number: 62
+title: Unique Paths
+url: https://leetcode.com/problems/unique-paths/
+solutions:
+- file: Solution_0062.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math / Combinatorics / DP
+  topics:
+  - math-combination
+  time: O(min(m, n))
+  space: O(1)

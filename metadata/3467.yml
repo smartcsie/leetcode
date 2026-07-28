@@ -1,0 +1,12 @@
+number: 3467
+title: Transform Array by Parity
+url: https://leetcode.com/problems/transform-array-by-parity/
+solutions:
+- file: Solution_3467.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers
+  topics:
+  - two-pointers-swap
+  time: O(N)
+  space: O(1)

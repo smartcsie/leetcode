@@ -1,0 +1,13 @@
+number: 647
+title: Palindromic Substrings
+url: https://leetcode.com/problems/palindromic-substrings/
+solutions:
+- file: Solution_0647.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP / String
+  topics:
+  - dynamic-programming-4
+  - two-pointers-center-expansion
+  time: O(N²)
+  space: O(N²)

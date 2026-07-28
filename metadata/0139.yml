@@ -1,0 +1,13 @@
+number: 139
+title: Word Break
+url: https://leetcode.com/problems/word-break/
+solutions:
+- file: Solution_0139.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - DP
+  - Unbounded Knapsack
+  topics:
+  - knapsack-problem-2
+  time: O(N³)
+  space: O(N)

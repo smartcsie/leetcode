@@ -1,0 +1,14 @@
+number: 108
+title: Convert Sorted Array to Binary Search Tree
+url: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
+solutions:
+- file: Solution_0108.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree
+  - DFS
+  - Binary Search
+  topics:
+  - binary-search-tree
+  time: O(N)
+  space: O(logN)
