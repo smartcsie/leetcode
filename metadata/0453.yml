@@ -1,0 +1,11 @@
+number: 453
+title: Minimum Moves to Equal Array Elements
+url: https://leetcode.com/problems/minimum-moves-to-equal-array-elements/
+solutions:
+- file: Solution_0453.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy
+  topics:
+  time: O(N)
+  space: O(1)

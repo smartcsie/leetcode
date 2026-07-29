@@ -1,0 +1,44 @@
+/**
+ * 題目：421. Maximum XOR of Two Numbers in an Array (陣列中兩個數字的最大異或值)
+ * 難度：中等 (Medium)
+ * 描述：給定一個整數陣列 nums，找出 nums[i] XOR nums[j] 的最大結果，其中 0 <= i <= j < n。
+ *
+ * 時間複雜度：O(N * L) - L 為最大數字的位元長度（約 32 位），對每一位元執行一次 O(N) 掃描。
+ * 空間複雜度：O(N) - 用來儲存每輪的前綴集合 prefixes。
+ *
+ * 解法思路：
+ * 1. 逐位元建構前綴遮罩 (Prefix Masking)：
+ *    - 從最高位元往低位元掃描，每次將該位元加入 prefixMask，取得目前所有數字的「前綴」（高位共同部分）。
+ * 2. 貪婪嘗試候選答案 (Greedy Candidate)：
+ *    - 假設答案在這一位元可以是 1（candidate = ans | 1 << i），檢查是否存在兩個前綴的 XOR 恰好等於 candidate。
+ * 3. 集合查找驗證 (Hash Set Lookup)：
+ *    - 若 prefix ^ candidate 存在於 prefixes 集合中，代表這一位元可以達成，將 ans 更新為 candidate。
+ */
+class Solution {
+public:
+    int findMaximumXOR(vector<int>& nums) {
+        const int maxNum = ranges::max(nums);
+        if (maxNum == 0)
+        return 0;
+        const int maxBit = static_cast<int>(log2(maxNum));
+        int ans = 0;
+        int prefixMask = 0; 
+        for (int i = maxBit; i >= 0; --i) {
+            prefixMask |= 1 << i;
+            unordered_set<int> prefixes;
+       
+            for (const int num : nums) {
+                prefixes.insert(num & prefixMask);
+            }
+       
+            const int candidate = ans | 1 << i;
+            for (const int prefix : prefixes) {
+                if (prefixes.contains(prefix ^ candidate)) {
+                    ans = candidate;
+                    break;
+                }
+            }
+        }
+        return ans;
+    }
+};

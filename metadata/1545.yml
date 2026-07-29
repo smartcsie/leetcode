@@ -1,0 +1,13 @@
+number: 1545
+title: Find Kth Bit in Nth Binary String
+url: https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/
+solutions:
+- file: Solution_1545.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking Permutation
+  - Recursion
+  - Divide and Conquer
+  topics:
+  time: O(N)
+  space: O(N)

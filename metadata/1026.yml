@@ -1,0 +1,13 @@
+number: 1026
+title: Maximum Difference Between Node and Ancestor
+url: https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
+solutions:
+- file: Solution_1026.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree Dfs Path
+  - DFS
+  - Recursion
+  topics:
+  time: O(N)
+  space: O(H)

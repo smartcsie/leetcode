@@ -1,0 +1,13 @@
+number: 561
+title: Array Partition
+url: https://leetcode.com/problems/array-partition/
+solutions:
+- file: Solution_0561.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Greedy
+  - Sorting
+  topics:
+  time: O(N log N)
+  space: O(1)

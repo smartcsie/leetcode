@@ -1,0 +1,29 @@
+/**
+ * 題目：453. Minimum Moves to Equal Array Elements (最少操作次數使陣列元素相等)
+ * 難度：簡單 (Easy)
+ * 描述：給定長度為 n 的整數陣列，每次操作可以讓 n - 1 個元素同時加 1，
+ *       求讓陣列所有元素相等所需的最少操作次數。
+ *
+ * 時間複雜度：O(N) - 兩次線性掃描陣列，一次找最小值，一次累加差值。
+ * 空間複雜度：O(1) - 只使用常數個變數（minVal, ans），不需額外配置記憶體。
+ *
+ * 解法思路：
+ * 1. 等價轉換 (Equivalent Transformation)：
+ *    - 「讓 n-1 個元素加 1」等價於「讓其中 1 個元素減 1」（相對大小關係不變）。
+ *    - 因此問題轉化為：最少要對其他元素做幾次「減 1」，才能讓所有元素等於陣列中的最小值。
+ * 2. 找出陣列最小值 (Find Minimum)：
+ *    - 先掃描一次陣列，找出最小值 minVal，這就是最終所有元素會被拉平到的目標值。
+ * 3. 累加每個元素與最小值的差距：
+ *    - 再掃描一次陣列，把每個元素與 minVal 的差值 (num - minVal) 加總，
+ *      總和即為最終答案（把每個元素都拉到跟最小值一樣所需要的總操作次數）。
+ */
+class Solution {
+public:
+    int minMoves(vector<int>& nums) {
+        int minVal = INT_MAX;
+        int ans = 0;
+        for(const int& num : nums) minVal = min(minVal, num);
+        for(const int& num : nums) ans += num - minVal;
+        return ans;
+    }
+};

@@ -1,0 +1,12 @@
+number: 421
+title: Maximum XOR of Two Numbers in an Array
+url: https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/
+solutions:
+- file: Solution_0421.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation Xor
+  - Hash Set
+  topics:
+  time: O(N * L)
+  space: O(N)

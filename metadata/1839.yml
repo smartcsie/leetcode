@@ -1,0 +1,13 @@
+number: 1839
+title: Longest Substring Of All Vowels in Order
+url: https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/
+solutions:
+- file: Solution_1839.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Variable Size Sliding Window
+  - Sliding Window
+  - Two Pointers
+  topics:
+  time: O(N)
+  space: O(1)

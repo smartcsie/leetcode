@@ -1,0 +1,13 @@
+number: 581
+title: Shortest Unsorted Continuous Subarray
+url: https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+solutions:
+- file: Solution_0581.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array
+  - Sorting
+  - Two Pointers
+  topics:
+  time: O(N log N)
+  space: O(N)

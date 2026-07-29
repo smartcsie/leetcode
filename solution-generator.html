@@ -385,11 +385,6 @@
     <div id="solutionsContainer"></div>
 
     <button class="btn-secondary" onclick="addSolutionBlock()">+ 新增解法變體</button>
-
-    <div class="section-label" style="margin-top:26px;">操作</div>
-    <div class="btn-row">
-      <button class="btn-primary" onclick="generate()">產生 YAML + 檔案</button>
-    </div>
   </div>
 
   <!-- ===================== OUTPUT PANE ===================== -->
@@ -400,7 +395,7 @@
     </div>
 
     <div class="output-box" id="tab-yaml">
-      <div class="empty-state">填好左側表單，按「產生 YAML + 檔案」即可在這裡看到結果 →</div>
+      <div class="empty-state">填好左側表單，按下方「產生並存檔」或「產生存檔並發佈」即可在這裡看到結果 →</div>
     </div>
 
     <div class="output-box" id="tab-files" style="display:none;">
@@ -415,6 +410,7 @@
       <button class="btn-primary" onclick="generateAndSave()">📥 產生並存檔</button>
       <button class="btn-primary" onclick="publishOnly()">🚀 發佈</button>
       <button class="btn-primary" onclick="saveAndPublish()">⚡ 產生存檔並發佈</button>
+      <button class="btn-secondary" onclick="clearForm()">🗑 清除欄位</button>
     </div>
     <div style="font-family: var(--mono); font-size: 11px; color: var(--text-dim); margin-top: 8px;">
       💡 新增多題時：每題都按「產生並存檔」，最後只要按一次「發佈」就好
@@ -715,6 +711,39 @@ function highlightYaml(text) {
 
 function escapeHtml(s) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function clearForm() {
+  document.getElementById('rawPaste').value = '';
+  document.getElementById('number').value = '';
+  document.getElementById('title').value = '';
+
+  const urlField = document.getElementById('url');
+  urlField.value = '';
+  urlField.dataset.touched = '';
+
+  document.getElementById('difficultyGlobal').value = '🟡 Medium';
+  document.getElementById('parseStatus').innerHTML = '';
+  document.getElementById('livePath').textContent = '尚未輸入題號';
+
+  document.getElementById('solutionsContainer').innerHTML = '';
+  solutionCount = 0;
+  addSolutionBlock();
+
+  document.getElementById('tab-yaml').innerHTML =
+    '<div class="empty-state">填好左側表單，按下方「產生並存檔」或「產生存檔並發佈」即可在這裡看到結果 →</div>';
+  document.getElementById('tab-files').innerHTML = '<div class="empty-state">尚未產生</div>';
+  switchTab('yaml');
+
+  const msgInput = document.getElementById('commitMsg');
+  msgInput.value = '';
+  msgInput.dataset.touched = '';
+
+  lastYaml = '';
+  lastNumber = '';
+  lastCppFiles = [];
+
+  showToast('已清除，可以貼下一題 ✓');
 }
 
 function generate() {

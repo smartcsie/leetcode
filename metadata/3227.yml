@@ -1,0 +1,12 @@
+number: 3227
+title: Vowels Game in a String
+url: https://leetcode.com/problems/vowels-game-in-a-string/
+solutions:
+- file: Solution_3227.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  - Game Theory
+  topics:
+  time: O(N)
+  space: O(1)

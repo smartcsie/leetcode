@@ -1,0 +1,13 @@
+number: 2191
+title: Sort the Jumbled Numbers
+url: https://leetcode.com/problems/sort-the-jumbled-numbers/
+solutions:
+- file: Solution_2191.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array Linear Scan
+  - Digit Manipulation
+  - Pair
+  topics:
+  time: O(N log N)
+  space: O(N)
