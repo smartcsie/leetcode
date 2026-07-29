@@ -322,10 +322,6 @@
 
 <div class="topbar">
   <div class="brand">題解<span>產生器</span></div>
-  <div style="display:flex; align-items:center; gap:14px;">
-    <span id="folderStatus" style="font-family: var(--mono); font-size: 12px; color: var(--text-dim);">尚未連接專案資料夾</span>
-    <button class="btn-secondary" onclick="chooseFolder()" style="padding:6px 12px;">📁 連接專案資料夾</button>
-  </div>
   <div class="terminal-line">
     <span class="prompt">laurence@repo</span><span class="path">:~/leetcode-docs$</span> <span id="livePath">尚未輸入題號</span><span class="cursor"></span>
   </div>
@@ -394,11 +390,7 @@
     </div>
 
     <div class="output-actions">
-      <button class="btn-primary" onclick="saveDirect()">💾 直接存檔到專案資料夾</button>
-      <button onclick="copyYaml()">📋 複製 YAML</button>
-      <button onclick="downloadYaml()">⬇ 下載 metadata/XXXX.yml</button>
-      <button onclick="copyAllCppConcat()">📋 複製全部 .cpp</button>
-      <button onclick="downloadAllCpp()">⬇ 下載所有 .cpp</button>
+      <button class="btn-primary" onclick="saveViaServer()">💾 存到本機伺服器</button>
     </div>
   </div>
 </div>
@@ -410,119 +402,32 @@ let solutionCount = 0;
 let lastYaml = '';
 let lastNumber = '';
 let lastCppFiles = [];
-let dirHandle = null;
-
-// ---------- 直接存檔到專案資料夾（File System Access API）----------
-const IDB_NAME = 'solution-gen-db';
-const IDB_STORE = 'handles';
-
-function idbOpen() {
-  return new Promise((resolve, reject) => {
-    const req = indexedDB.open(IDB_NAME, 1);
-    req.onupgradeneeded = () => req.result.createObjectStore(IDB_STORE);
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
-  });
-}
-async function idbSet(key, value) {
-  const db = await idbOpen();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(IDB_STORE, 'readwrite');
-    tx.objectStore(IDB_STORE).put(value, key);
-    tx.oncomplete = resolve;
-    tx.onerror = () => reject(tx.error);
-  });
-}
-async function idbGet(key) {
-  const db = await idbOpen();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(IDB_STORE, 'readonly');
-    const req = tx.objectStore(IDB_STORE).get(key);
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
-  });
-}
-
-function supportsFS() { return 'showDirectoryPicker' in window; }
-
-function updateFolderStatus(connected) {
-  const el = document.getElementById('folderStatus');
-  if (connected && dirHandle) {
-    el.textContent = `📁 已連接：${dirHandle.name}`;
-    el.style.color = 'var(--accent)';
-  } else {
-    el.textContent = '尚未連接專案資料夾';
-    el.style.color = 'var(--text-dim)';
-  }
-}
-
-async function chooseFolder() {
-  if (!supportsFS()) {
-    showToast('此瀏覽器不支援直接存檔，請用 Chrome/Edge 並以 http://localhost 開啟');
-    return;
-  }
-  try {
-    dirHandle = await window.showDirectoryPicker();
-    await idbSet('repoDir', dirHandle);
-    updateFolderStatus(true);
-    showToast('已連接專案資料夾 ✓');
-  } catch (e) {
-    if (e.name !== 'AbortError') console.error(e);
-  }
-}
-
-async function tryRestoreFolder() {
-  if (!supportsFS()) return;
-  try {
-    const saved = await idbGet('repoDir');
-    if (saved) {
-      dirHandle = saved;
-      const perm = await dirHandle.queryPermission({ mode: 'readwrite' });
-      updateFolderStatus(perm === 'granted');
-      if (perm !== 'granted') {
-        document.getElementById('folderStatus').textContent = `📁 ${dirHandle.name}（需重新授權，按存檔時會詢問）`;
-      }
-    }
-  } catch (e) { /* 忽略，維持未連接狀態 */ }
-}
-
-async function ensurePermission() {
-  if (!dirHandle) { await chooseFolder(); }
-  if (!dirHandle) return false;
-  const perm = await dirHandle.queryPermission({ mode: 'readwrite' });
-  if (perm === 'granted') return true;
-  const req = await dirHandle.requestPermission({ mode: 'readwrite' });
-  updateFolderStatus(req === 'granted');
-  return req === 'granted';
-}
-
-async function saveDirect() {
+async function saveViaServer() {
   if (!lastYaml) { showToast('請先按「產生 YAML + 檔案」'); return; }
-  if (!supportsFS()) {
-    showToast('此瀏覽器不支援直接存檔，請改用複製或下載按鈕');
-    return;
-  }
-  const ok = await ensurePermission();
-  if (!ok) { showToast('未取得資料夾寫入權限'); return; }
+
+  const payload = {
+    metadata: { filename: `${lastNumber}.yml`, content: lastYaml },
+    solutions: lastCppFiles.map(f => ({ filename: f.name, content: f.content })),
+  };
 
   try {
-    const metaDir = await dirHandle.getDirectoryHandle('metadata', { create: true });
-    const metaFile = await metaDir.getFileHandle(`${lastNumber}.yml`, { create: true });
-    const w1 = await metaFile.createWritable();
-    await w1.write(lastYaml);
-    await w1.close();
-
-    const solDir = await dirHandle.getDirectoryHandle('solution', { create: true });
-    for (const f of lastCppFiles) {
-      const fh = await solDir.getFileHandle(f.name, { create: true });
-      const w = await fh.createWritable();
-      await w.write(f.content);
-      await w.close();
+    const resp = await fetch('/api/save', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const result = await resp.json();
+    if (!resp.ok) {
+      showToast(`存檔失敗：${result.error || resp.status}`);
+      return;
     }
-    showToast(`已存檔：metadata/${lastNumber}.yml + ${lastCppFiles.length} 個 .cpp ✓`);
+    showToast(`已存檔 ✓ ${result.saved.length} 個檔案`);
+    if (result.errors && result.errors.length) {
+      console.warn('部分檔案有問題:', result.errors);
+    }
   } catch (e) {
     console.error(e);
-    showToast('存檔失敗，請打開瀏覽器主控台查看錯誤');
+    showToast('連不上本機伺服器，請確認有用 save_server.py 啟動（而非普通 http.server）');
   }
 }
 
@@ -731,11 +636,9 @@ function generate() {
 
   const filesBox = document.getElementById('tab-files');
   let html = `<div class="file-preview-list">`;
-  html += `<div class="file-preview-row"><span class="dot"></span> metadata/${lastNumber}.yml
-    <button class="btn-secondary" style="margin-left:auto;" onclick="copyYaml()">📋 複製</button></div>`;
-  lastCppFiles.forEach((f, i) => {
-    html += `<div class="file-preview-row"><span class="dot"></span> solution/${f.name}
-      <button class="btn-secondary" style="margin-left:auto;" onclick="copyCppFile(${i})">📋 複製</button></div>`;
+  html += `<div class="file-preview-row"><span class="dot"></span> metadata/${lastNumber}.yml</div>`;
+  lastCppFiles.forEach(f => {
+    html += `<div class="file-preview-row"><span class="dot"></span> solution/${f.name}</div>`;
   });
   html += `</div>`;
   filesBox.innerHTML = html;
@@ -747,46 +650,6 @@ function switchTab(tab) {
   document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === tab));
   document.getElementById('tab-yaml').style.display = tab === 'yaml' ? 'block' : 'none';
   document.getElementById('tab-files').style.display = tab === 'files' ? 'block' : 'none';
-}
-
-function copyCppFile(index) {
-  const f = lastCppFiles[index];
-  if (!f) return;
-  navigator.clipboard.writeText(f.content).then(() => showToast(`${f.name} 已複製 ✓`));
-}
-
-function copyAllCppConcat() {
-  if (lastCppFiles.length === 0) { showToast('沒有可複製的 .cpp'); return; }
-  const text = lastCppFiles.map(f => `// ===== ${f.name} =====\n${f.content}`).join('\n\n');
-  navigator.clipboard.writeText(text).then(() => showToast('全部 .cpp 已複製 ✓'));
-}
-
-function copyYaml() {
-  if (!lastYaml) { showToast('請先按「產生」'); return; }
-  navigator.clipboard.writeText(lastYaml).then(() => showToast('YAML 已複製 ✓'));
-}
-
-function downloadBlob(filename, text) {
-  const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(a.href);
-}
-
-function downloadYaml() {
-  if (!lastYaml) { showToast('請先按「產生」'); return; }
-  downloadBlob(`${lastNumber}.yml`, lastYaml);
-  showToast('已下載 metadata yml ✓');
-}
-
-function downloadAllCpp() {
-  if (lastCppFiles.length === 0) { showToast('沒有可下載的 .cpp（請先貼上程式碼並產生）'); return; }
-  lastCppFiles.forEach(f => downloadBlob(f.name, f.content));
-  showToast(`已下載 ${lastCppFiles.length} 個 .cpp ✓`);
 }
 
 let toastTimer;
@@ -912,7 +775,6 @@ function parseAndFill() {
 
 // init with one solution block
 addSolutionBlock();
-tryRestoreFolder();
 </script>
 
 </body>

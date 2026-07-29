@@ -1,0 +1,12 @@
+number: 791
+title: Custom Sort String
+url: https://leetcode.com/problems/custom-sort-string/
+solutions:
+- file: Solution_0791.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  - Counting Sort
+  topics: string
+  time: O(N + M)
+  space: O(1)

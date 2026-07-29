@@ -105,12 +105,12 @@ def build_problem_page(problem, solution_dir, notes_dir):
     missing_files = []
 
     for sol in solutions:
-        label_key = ' / '.join(sol.get('topics', []))
+        label_key = ' / '.join(sol.get('topics') or [])
         if multi:
             lines.append(f"## 解法：{label_key}")
             lines.append('')
 
-        tags_str = ', '.join(sol.get('tags', []))
+        tags_str = ', '.join(sol.get('tags') or [])
         info = (f"**難度:** {sol.get('difficulty','')}　"
                 f"**標籤:** {tags_str}　"
                 f"**時間:** {sol.get('time','')}　"
