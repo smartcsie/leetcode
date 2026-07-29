@@ -143,12 +143,12 @@ def build_topic_indexes(problems, topics_out_dir):
     topic_rows = OrderedDict()
     for problem in problems:
         for sol in problem['solutions']:
-            for topic in sol.get('topics', []):
+            for topic in (sol.get('topics') or []):
                 topic_rows.setdefault(topic, []).append({
                     'number': problem['number'],
                     'title': problem['title'],
                     'difficulty': sol.get('difficulty', ''),
-                    'tags': sol.get('tags', []),
+                    'tags': sol.get('tags') or [],
                     'time': sol.get('time', ''),
                     'space': sol.get('space', ''),
                 })

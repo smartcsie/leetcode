@@ -1,0 +1,12 @@
+number: 147
+title: Insertion Sort List
+url: https://leetcode.com/problems/insertion-sort-list/
+solutions:
+- file: Solution_0147.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Insertion Sort
+  topics:
+  time: O(N²)
+  space: O(1)

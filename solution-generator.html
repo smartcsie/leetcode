@@ -270,6 +270,24 @@
     padding: 20px 0;
   }
 
+  .publish-log {
+    margin-top: 14px;
+    background: var(--bg-inset);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    max-height: 260px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  .publish-log.ok { border-color: var(--green); }
+  .publish-log.fail { border-color: var(--red); color: var(--red); }
+
   .output-actions {
     display: flex;
     gap: 10px;
@@ -333,7 +351,7 @@
 
     <div class="section-label">貼上 AI 回覆，自動解析</div>
     <div class="field">
-      <textarea id="rawPaste" rows="8" placeholder="把整段 AI 回覆（表格 + ```cpp 程式碼區塊）貼在這裡..."></textarea>
+      <textarea id="rawPaste" rows="22" style="min-height: 420px; font-size: 13px;" placeholder="把整段 AI 回覆（表格 + ```cpp 程式碼區塊）貼在這裡..."></textarea>
     </div>
     <div class="btn-row" style="margin-bottom: 10px;">
       <button class="btn-primary" onclick="parseAndFill()">🪄 自動解析並填入下方欄位</button>
@@ -389,9 +407,20 @@
       <div class="empty-state">尚未產生</div>
     </div>
 
-    <div class="output-actions">
-      <button class="btn-primary" onclick="saveViaServer()">💾 存到本機伺服器</button>
+    <div class="field" style="margin-top: 16px;">
+      <label>Commit 訊息 <span class="hint">(按「發佈」時使用)</span></label>
+      <input type="text" id="commitMsg" placeholder="Add solution for problem XXXX">
     </div>
+    <div class="btn-row">
+      <button class="btn-primary" onclick="generateAndSave()">📥 產生並存檔</button>
+      <button class="btn-primary" onclick="publishOnly()">🚀 發佈</button>
+      <button class="btn-primary" onclick="saveAndPublish()">⚡ 產生存檔並發佈</button>
+    </div>
+    <div style="font-family: var(--mono); font-size: 11px; color: var(--text-dim); margin-top: 8px;">
+      💡 新增多題時：每題都按「產生並存檔」，最後只要按一次「發佈」就好
+    </div>
+
+    <pre id="publishLog" class="publish-log" style="display:none;"></pre>
   </div>
 </div>
 
@@ -403,7 +432,7 @@ let lastYaml = '';
 let lastNumber = '';
 let lastCppFiles = [];
 async function saveViaServer() {
-  if (!lastYaml) { showToast('請先按「產生 YAML + 檔案」'); return; }
+  if (!lastYaml) { showToast('請先按「產生」'); return false; }
 
   const payload = {
     metadata: { filename: `${lastNumber}.yml`, content: lastYaml },
@@ -419,16 +448,78 @@ async function saveViaServer() {
     const result = await resp.json();
     if (!resp.ok) {
       showToast(`存檔失敗：${result.error || resp.status}`);
-      return;
+      return false;
     }
     showToast(`已存檔 ✓ ${result.saved.length} 個檔案`);
     if (result.errors && result.errors.length) {
       console.warn('部分檔案有問題:', result.errors);
     }
+    return true;
   } catch (e) {
     console.error(e);
     showToast('連不上本機伺服器，請確認有用 save_server.py 啟動（而非普通 http.server）');
+    return false;
   }
+}
+
+let hasSavedThisSession = false;
+
+function showPublishLog(text, ok) {
+  const el = document.getElementById('publishLog');
+  el.style.display = 'block';
+  el.textContent = text;
+  el.className = 'publish-log ' + (ok ? 'ok' : 'fail');
+}
+
+async function publishViaServer() {
+  const msgInput = document.getElementById('commitMsg');
+  const message = msgInput.value.trim() || `Add solution for problem ${lastNumber || 'unknown'}`;
+  msgInput.value = message;
+
+  showToast('發佈中，請稍候（可能需要 10~60 秒）...');
+  showPublishLog('執行 publish.sh 中，請稍候...', true);
+
+  try {
+    const resp = await fetch('/api/publish', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message }),
+    });
+    const result = await resp.json();
+    const ok = resp.ok && result.status === 'ok';
+    showPublishLog(result.output || result.error || '（沒有輸出）', ok);
+    showToast(ok ? '🎉 發佈完成 ✓' : `發佈失敗：${result.error || '請看下方 log'}`);
+    return ok;
+  } catch (e) {
+    console.error(e);
+    showPublishLog(String(e), false);
+    showToast('連不上本機伺服器');
+    return false;
+  }
+}
+
+// 按鈕 (1)：只產生並存檔，不發佈
+async function generateAndSave() {
+  const built = generate();
+  if (!built) return false;
+  const saved = await saveViaServer();
+  if (saved) hasSavedThisSession = true;
+  return saved;
+}
+
+// 按鈕 (2)：只發佈（適合連續存了好幾題後，最後按一次）
+async function publishOnly() {
+  if (!hasSavedThisSession) {
+    showToast('⚠️ 這個分頁還沒按過「產生並存檔」，將直接發佈目前 repo 上已有的檔案');
+  }
+  await publishViaServer();
+}
+
+// 按鈕 (3)：產生存檔 + 發佈，一次做完（適合只新增一題的情況）
+async function saveAndPublish() {
+  const saved = await generateAndSave();
+  if (!saved) return;
+  await publishViaServer();
 }
 
 const KNOWN_TOPICS = ["math","math-combination","math-permutation","math-factor-enumeration",
@@ -489,6 +580,7 @@ function onTitleChange() {
   }
 }
 document.getElementById('url').addEventListener('input', function() { this.dataset.touched = '1'; });
+document.getElementById('commitMsg').addEventListener('input', function() { this.dataset.touched = '1'; });
 
 function topicsDatalistHtml(id) {
   return `<datalist id="${id}">` + KNOWN_TOPICS.map(t => `<option value="${t}">`).join('') + `</datalist>`;
@@ -627,7 +719,7 @@ function escapeHtml(s) {
 
 function generate() {
   const result = buildYaml();
-  if (!result) return;
+  if (!result) return false;
   lastYaml = result.yamlText;
   lastNumber = result.number;
   lastCppFiles = result.cppFiles;
@@ -643,7 +735,13 @@ function generate() {
   html += `</div>`;
   filesBox.innerHTML = html;
 
+  const msgInput = document.getElementById('commitMsg');
+  if (!msgInput.dataset.touched) {
+    msgInput.value = `Add solution for problem ${lastNumber}`;
+  }
+
   showToast('已產生 ✓');
+  return true;
 }
 
 function switchTab(tab) {

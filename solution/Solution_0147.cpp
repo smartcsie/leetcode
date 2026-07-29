@@ -1,0 +1,50 @@
+/**
+ * 題目：147. Insertion Sort List (對鏈結串列進行插入排序)
+ * 難度：中等 (Medium)
+ * 描述：對一個鏈結串列進行插入排序，並回傳排序後的串列。
+ *       插入排序的原理是每次取出一個元素，反覆與前面已排序的部分比較，
+ *       找到正確位置插入，直到整個串列都排序完成。
+ *
+ * 時間複雜度：O(N²) - 最壞情況下（例如原本是反向排序），每個節點都需要從頭掃描到正確位置。
+ * 空間複雜度：O(1) - 只使用常數個指標（dummy, prev, next），沒有額外配置動態記憶體。
+ *
+ * 解法思路：
+ * 1. 虛擬節點 (Dummy Node)：
+ *    - 建立 dummy 節點作為排序後串列的起始點，簡化插入到最前面的邊界處理。
+ * 2. 逐一取出節點插入 (Insertion)：
+ *    - 每次從原串列取出 head 節點，暫存 next 指標避免斷鏈。
+ * 3. 關鍵優化 (Last Position Optimization)：
+ *    - 若目前 prev 指向的值已經大於等於 head->val，代表無法從上次停留的位置繼續往後插入，
+ *      需將 prev 重置回 dummy，重新從頭尋找插入點，避免插入到錯誤位置。
+ * 4. 尋找插入點並接回：
+ *    - 從 prev 開始，往後移動直到 prev->next 為空或 prev->next->val >= head->val，
+ *      即為正確插入位置，將 head 接入 prev 與 prev->next 之間。
+ */
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* insertionSortList(ListNode* head) {
+        ListNode dummy(0);    
+        ListNode* prev = &dummy;  
+        while (head != nullptr) {       
+            ListNode* next = head->next;  
+            if (prev->val >= head->val)        
+                prev = &dummy;  // 關鍵優化：如果當前節點大於等於前一個，就不用從頭找！
+            while (prev->next && prev->next->val < head->val)        
+                prev = prev->next;      
+            head->next = prev->next;      
+            prev->next = head;      
+            head = next;  
+        }    
+        return dummy.next;
+    }
+};
