@@ -614,7 +614,7 @@ function addSolutionBlock(prefill) {
       <input type="text" class="sol-tags-custom" placeholder="其他自訂標籤（逗號分隔，選填）" style="margin-top:6px;">
     </div>
     <div class="field">
-      <label>分類主題 <span class="hint">(逗號分隔，對應 docs/topics/*.md)</span></label>
+      <label>分類主題 <span style="color: var(--red);">*必填</span> <span class="hint">(逗號分隔，對應 docs/topics/*.md)</span></label>
       <input type="text" class="sol-topics" list="${listId}" placeholder="array, two-pointers-opposite">
       ${topicsDatalistHtml(listId)}
     </div>
@@ -666,8 +666,9 @@ function buildYaml() {
   lines.push(`solutions:`);
 
   const cppFiles = [];
+  const missingTopics = [];
 
-  blocks.forEach(block => {
+  blocks.forEach((block, idx) => {
     const file = block.querySelector('.sol-file').value.trim() || `Solution_${number}.cpp`;
     const difficulty = document.getElementById('difficultyGlobal').value;
     const selectedTags = Array.from(block.querySelector('.sol-tags-select').selectedOptions).map(o => o.value);
@@ -677,6 +678,10 @@ function buildYaml() {
     const time = block.querySelector('.sol-time').value.trim();
     const space = block.querySelector('.sol-space').value.trim();
     const code = block.querySelector('.sol-code').value;
+
+    if (topics.length === 0) {
+      missingTopics.push(`解法 #${idx + 1}（${file}）`);
+    }
 
     lines.push(`- file: ${file}`);
     lines.push(`  difficulty: ${difficulty}`);
@@ -691,6 +696,11 @@ function buildYaml() {
       cppFiles.push({ name: file, content: code });
     }
   });
+
+  if (missingTopics.length > 0) {
+    alert(`⚠️ 尚未選擇「分類主題」，無法存檔：\n\n${missingTopics.join('\n')}\n\n請至少選一個分類（例如 array、greedy、bit-manipulation...）`);
+    return null;
+  }
 
   return { yamlText: lines.join('\n') + '\n', number, cppFiles };
 }
