@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>題解產生器</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #14171c;
+    --bg-panel: #1a1e25;
+    --bg-inset: #0f1216;
+    --border: #2a2f3a;
+    --border-soft: #232830;
+    --text: #e6e8eb;
+    --text-muted: #8b93a1;
+    --text-dim: #5c6472;
+    --accent: #7dd3c0;
+    --accent-strong: #58c4ac;
+    --accent-dim: rgba(125, 211, 192, 0.12);
+    --amber: #e8b463;
+    --red: #e0847a;
+    --green: #8bc98a;
+    --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+    --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 14px;
+  }
+
+  ::selection { background: var(--accent-dim); color: var(--text); }
+
+  a { color: var(--accent); }
+
+  /* ---------- Header / terminal signature ---------- */
+  .topbar {
+    border-bottom: 1px solid var(--border);
+    padding: 18px 28px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .brand {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    color: var(--text);
+  }
+  .brand span { color: var(--accent); }
+  .terminal-line {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--text-dim);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .terminal-line .prompt { color: var(--accent); }
+  .terminal-line .path { color: var(--text-muted); }
+  .cursor {
+    display: inline-block;
+    width: 7px;
+    height: 13px;
+    background: var(--accent);
+    margin-left: 2px;
+    vertical-align: -2px;
+    animation: blink 1.1s step-end infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  /* ---------- Layout ---------- */
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(340px, 460px) 1fr;
+    min-height: calc(100vh - 60px);
+  }
+  @media (max-width: 880px) {
+    .layout { grid-template-columns: 1fr; }
+  }
+
+  .form-pane {
+    padding: 28px;
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+  }
+  .output-pane {
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--text-dim);
+    margin: 0 0 14px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border-soft);
+  }
+
+  .field-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  .field { margin-bottom: 14px; }
+  .field label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+  .field label .hint {
+    font-weight: 400;
+    color: var(--text-dim);
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  input[type="text"], input[type="number"], select, textarea {
+    width: 100%;
+    background: var(--bg-inset);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    padding: 9px 11px;
+    font-family: var(--sans);
+    font-size: 13.5px;
+    transition: border-color 0.15s ease;
+  }
+  textarea { font-family: var(--mono); font-size: 12.5px; line-height: 1.55; resize: vertical; }
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-dim);
+  }
+  input::placeholder, textarea::placeholder { color: var(--text-dim); }
+
+  select { appearance: none; cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238b93a1'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 12px center; padding-right: 30px;
+  }
+
+  select.multi-select {
+    appearance: none;
+    background-image: none;
+    padding: 6px;
+  }
+  select.multi-select option {
+    padding: 5px 8px;
+    border-radius: 4px;
+  }
+  select.multi-select option:checked {
+    background: var(--accent-dim);
+    color: var(--accent);
+  }
+
+  .solution-block {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 16px 6px;
+    margin-bottom: 16px;
+    background: linear-gradient(180deg, rgba(125,211,192,0.03), transparent 40%);
+    position: relative;
+  }
+  .solution-block .block-title {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--accent);
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .remove-btn {
+    background: none; border: none; color: var(--text-dim); cursor: pointer;
+    font-family: var(--mono); font-size: 11px; padding: 2px 6px; border-radius: 4px;
+  }
+  .remove-btn:hover { color: var(--red); background: rgba(224,132,122,0.1); }
+
+  .btn-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
+  button {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 7px;
+    border: 1px solid var(--border);
+    padding: 9px 16px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    background: var(--bg-inset);
+    color: var(--text);
+  }
+  button:hover { border-color: var(--accent); color: var(--accent); }
+  .btn-secondary { background: transparent; color: var(--text-muted); font-size: 12.5px; padding: 6px 12px; }
+  .btn-primary {
+    background: var(--accent);
+    color: #0f1216;
+    border-color: var(--accent);
+    font-weight: 700;
+  }
+  .btn-primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); color: #0f1216; }
+
+  /* ---------- Output pane ---------- */
+  .tabs { display: flex; gap: 4px; margin-bottom: 14px; flex-wrap: wrap; }
+  .tab {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    padding: 7px 14px;
+    border-radius: 6px 6px 0 0;
+    color: var(--text-dim);
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-bottom: none;
+  }
+  .tab.active {
+    color: var(--accent);
+    background: var(--bg-inset);
+    border-color: var(--border);
+  }
+  .output-box {
+    flex: 1;
+    background: var(--bg-inset);
+    border: 1px solid var(--border);
+    border-radius: 0 8px 8px 8px;
+    padding: 18px;
+    overflow: auto;
+    min-height: 300px;
+  }
+  .output-box pre {
+    margin: 0;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    line-height: 1.65;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: var(--text);
+  }
+  .yml-key { color: var(--accent); }
+  .yml-str { color: var(--amber); }
+  .yml-dash { color: var(--text-dim); }
+
+  .empty-state {
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 12.5px;
+    padding: 20px 0;
+  }
+
+  .output-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+    flex-wrap: wrap;
+  }
+
+  .file-preview-list {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .file-preview-row {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .file-preview-row .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+
+  .toast {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    background: var(--accent);
+    color: #0f1216;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    font-weight: 700;
+    opacity: 0;
+    transition: all 0.25s ease;
+    pointer-events: none;
+    z-index: 100;
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 5px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--text-dim); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">題解<span>產生器</span></div>
+  <div style="display:flex; align-items:center; gap:14px;">
+    <span id="folderStatus" style="font-family: var(--mono); font-size: 12px; color: var(--text-dim);">尚未連接專案資料夾</span>
+    <button class="btn-secondary" onclick="chooseFolder()" style="padding:6px 12px;">📁 連接專案資料夾</button>
+  </div>
+  <div class="terminal-line">
+    <span class="prompt">laurence@repo</span><span class="path">:~/leetcode-docs$</span> <span id="livePath">尚未輸入題號</span><span class="cursor"></span>
+  </div>
+</div>
+
+<div class="layout">
+  <!-- ===================== FORM PANE ===================== -->
+  <div class="form-pane">
+
+    <div class="section-label">貼上 AI 回覆，自動解析</div>
+    <div class="field">
+      <textarea id="rawPaste" rows="8" placeholder="把整段 AI 回覆（表格 + ```cpp 程式碼區塊）貼在這裡..."></textarea>
+    </div>
+    <div class="btn-row" style="margin-bottom: 10px;">
+      <button class="btn-primary" onclick="parseAndFill()">🪄 自動解析並填入下方欄位</button>
+    </div>
+    <div id="parseStatus" style="font-family: var(--mono); font-size: 11.5px; color: var(--text-dim); margin-bottom: 20px;"></div>
+
+    <div class="section-label">題目資訊</div>
+    <div class="field-row">
+      <div class="field">
+        <label>題號</label>
+        <input type="number" id="number" placeholder="50" oninput="onNumberChange()">
+      </div>
+      <div class="field">
+        <label>難度</label>
+        <select id="difficultyGlobal">
+          <option value="🟢 Easy">🟢 Easy</option>
+          <option value="🟡 Medium" selected>🟡 Medium</option>
+          <option value="🔴 Hard">🔴 Hard</option>
+        </select>
+      </div>
+    </div>
+    <div class="field">
+      <label>英文標題 <span class="hint">(用來組成網址與 yaml title)</span></label>
+      <input type="text" id="title" placeholder="Pow(x, n)" oninput="onTitleChange()">
+    </div>
+    <div class="field">
+      <label>LeetCode 網址 <span class="hint">(可自動猜測，也可手動修改)</span></label>
+      <input type="text" id="url" placeholder="https://leetcode.com/problems/powx-n/">
+    </div>
+
+    <div id="solutionsContainer"></div>
+
+    <button class="btn-secondary" onclick="addSolutionBlock()">+ 新增解法變體</button>
+
+    <div class="section-label" style="margin-top:26px;">操作</div>
+    <div class="btn-row">
+      <button class="btn-primary" onclick="generate()">產生 YAML + 檔案</button>
+    </div>
+  </div>
+
+  <!-- ===================== OUTPUT PANE ===================== -->
+  <div class="output-pane">
+    <div class="tabs">
+      <div class="tab active" data-tab="yaml" onclick="switchTab('yaml')">metadata/*.yml</div>
+      <div class="tab" data-tab="files" onclick="switchTab('files')">將產生的檔案</div>
+    </div>
+
+    <div class="output-box" id="tab-yaml">
+      <div class="empty-state">填好左側表單，按「產生 YAML + 檔案」即可在這裡看到結果 →</div>
+    </div>
+
+    <div class="output-box" id="tab-files" style="display:none;">
+      <div class="empty-state">尚未產生</div>
+    </div>
+
+    <div class="output-actions">
+      <button class="btn-primary" onclick="saveDirect()">💾 直接存檔到專案資料夾</button>
+      <button onclick="copyYaml()">📋 複製 YAML</button>
+      <button onclick="downloadYaml()">⬇ 下載 metadata/XXXX.yml</button>
+      <button onclick="copyAllCppConcat()">📋 複製全部 .cpp</button>
+      <button onclick="downloadAllCpp()">⬇ 下載所有 .cpp</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let solutionCount = 0;
+let lastYaml = '';
+let lastNumber = '';
+let lastCppFiles = [];
+let dirHandle = null;
+
+// ---------- 直接存檔到專案資料夾（File System Access API）----------
+const IDB_NAME = 'solution-gen-db';
+const IDB_STORE = 'handles';
+
+function idbOpen() {
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open(IDB_NAME, 1);
+    req.onupgradeneeded = () => req.result.createObjectStore(IDB_STORE);
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+async function idbSet(key, value) {
+  const db = await idbOpen();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(IDB_STORE, 'readwrite');
+    tx.objectStore(IDB_STORE).put(value, key);
+    tx.oncomplete = resolve;
+    tx.onerror = () => reject(tx.error);
+  });
+}
+async function idbGet(key) {
+  const db = await idbOpen();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(IDB_STORE, 'readonly');
+    const req = tx.objectStore(IDB_STORE).get(key);
+    req.onsuccess = () => resolve(req.result);
+    req.onerror = () => reject(req.error);
+  });
+}
+
+function supportsFS() { return 'showDirectoryPicker' in window; }
+
+function updateFolderStatus(connected) {
+  const el = document.getElementById('folderStatus');
+  if (connected && dirHandle) {
+    el.textContent = `📁 已連接：${dirHandle.name}`;
+    el.style.color = 'var(--accent)';
+  } else {
+    el.textContent = '尚未連接專案資料夾';
+    el.style.color = 'var(--text-dim)';
+  }
+}
+
+async function chooseFolder() {
+  if (!supportsFS()) {
+    showToast('此瀏覽器不支援直接存檔，請用 Chrome/Edge 並以 http://localhost 開啟');
+    return;
+  }
+  try {
+    dirHandle = await window.showDirectoryPicker();
+    await idbSet('repoDir', dirHandle);
+    updateFolderStatus(true);
+    showToast('已連接專案資料夾 ✓');
+  } catch (e) {
+    if (e.name !== 'AbortError') console.error(e);
+  }
+}
+
+async function tryRestoreFolder() {
+  if (!supportsFS()) return;
+  try {
+    const saved = await idbGet('repoDir');
+    if (saved) {
+      dirHandle = saved;
+      const perm = await dirHandle.queryPermission({ mode: 'readwrite' });
+      updateFolderStatus(perm === 'granted');
+      if (perm !== 'granted') {
+        document.getElementById('folderStatus').textContent = `📁 ${dirHandle.name}（需重新授權，按存檔時會詢問）`;
+      }
+    }
+  } catch (e) { /* 忽略，維持未連接狀態 */ }
+}
+
+async function ensurePermission() {
+  if (!dirHandle) { await chooseFolder(); }
+  if (!dirHandle) return false;
+  const perm = await dirHandle.queryPermission({ mode: 'readwrite' });
+  if (perm === 'granted') return true;
+  const req = await dirHandle.requestPermission({ mode: 'readwrite' });
+  updateFolderStatus(req === 'granted');
+  return req === 'granted';
+}
+
+async function saveDirect() {
+  if (!lastYaml) { showToast('請先按「產生 YAML + 檔案」'); return; }
+  if (!supportsFS()) {
+    showToast('此瀏覽器不支援直接存檔，請改用複製或下載按鈕');
+    return;
+  }
+  const ok = await ensurePermission();
+  if (!ok) { showToast('未取得資料夾寫入權限'); return; }
+
+  try {
+    const metaDir = await dirHandle.getDirectoryHandle('metadata', { create: true });
+    const metaFile = await metaDir.getFileHandle(`${lastNumber}.yml`, { create: true });
+    const w1 = await metaFile.createWritable();
+    await w1.write(lastYaml);
+    await w1.close();
+
+    const solDir = await dirHandle.getDirectoryHandle('solution', { create: true });
+    for (const f of lastCppFiles) {
+      const fh = await solDir.getFileHandle(f.name, { create: true });
+      const w = await fh.createWritable();
+      await w.write(f.content);
+      await w.close();
+    }
+    showToast(`已存檔：metadata/${lastNumber}.yml + ${lastCppFiles.length} 個 .cpp ✓`);
+  } catch (e) {
+    console.error(e);
+    showToast('存檔失敗，請打開瀏覽器主控台查看錯誤');
+  }
+}
+
+const KNOWN_TOPICS = ["math","math-combination","math-permutation","math-factor-enumeration",
+"math-simulation","math-digit-decomposition","prime","math-palindrome","bit-manipulation",
+"bit-manipulation-mask","bit-manipulation-or","bit-manipulation-and","bit-manipulation-xor",
+"hamming-distance","bit-bitmask-subset-enumeration","string","string-state-machine",
+"string-substring-enumeration","string-character-classification","string-substring",
+"string-substring-2","string-kmp","array","array-continuous-counting",
+"array-continuous-counting-2","array-linear-scan","array-difference-array",
+"array-boyer-moore","2d-array","binary-search","binary-search-build-in",
+"binary-search-tree","interval","prefix-sum","linked-list","linked-list-circular",
+"fast-slow-pointers","two-pointers-opposite","two-pointers-same","two-pointers-partition",
+"two-pointers-swap","two-pointers-center-expansion","two-pointers-other",
+"hash-table-counting","hash-table-mapping","hash-table-set","stack","monotonic-stack",
+"monotonic-queue","priority-queue","quick-select","tree","tree-bfs-level-order",
+"tree-dfs-path","trie","dfs-bfs","sorting","sorting-cycle-decomposition","sorting-2",
+"dynamic-programming","dynamic-programming-2","dynamic-programming-3",
+"dynamic-programming-4","knapsack-problem","knapsack-problem-2",
+"dynamic-programming-kadane-algorithm","greedy","backtracking-combination",
+"backtracking-permutation","negative-marking","fixed-size-sliding-window",
+"variable-size-sliding-window","sql","uncategorized"];
+
+function pad4(n) {
+  n = String(n || '').replace(/\D/g, '');
+  if (!n) return '';
+  return n.padStart(4, '0');
+}
+
+function labelize(slug) {
+  return slug.split('-').map(w => /^\d/.test(w) ? w : (w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
+}
+const TAG_OPTIONS = KNOWN_TOPICS.map(s => ({ slug: s, label: labelize(s) }))
+  .sort((a, b) => a.label.localeCompare(b.label));
+
+function slugify(t) {
+  return t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+function onNumberChange() {
+  const num = document.getElementById('number').value;
+  const padded = pad4(num);
+  document.getElementById('livePath').textContent = padded
+    ? `→ metadata/${padded}.yml , solution/Solution_${padded}.cpp`
+    : '尚未輸入題號';
+  document.querySelectorAll('.sol-file').forEach(inp => {
+    if (inp.dataset.auto === '1' && padded) {
+      const suffix = inp.dataset.suffix || '';
+      inp.value = `Solution_${padded}${suffix}.cpp`;
+    }
+  });
+}
+
+function onTitleChange() {
+  const title = document.getElementById('title').value.trim();
+  const urlField = document.getElementById('url');
+  if (!urlField.dataset.touched) {
+    urlField.value = title ? `https://leetcode.com/problems/${slugify(title)}/` : '';
+  }
+}
+document.getElementById('url').addEventListener('input', function() { this.dataset.touched = '1'; });
+
+function topicsDatalistHtml(id) {
+  return `<datalist id="${id}">` + KNOWN_TOPICS.map(t => `<option value="${t}">`).join('') + `</datalist>`;
+}
+
+function addSolutionBlock(prefill) {
+  solutionCount++;
+  const idx = solutionCount;
+  const listId = `topicsList${idx}`;
+  const wrap = document.createElement('div');
+  wrap.className = 'solution-block';
+  wrap.id = `sol-${idx}`;
+  wrap.innerHTML = `
+    <div class="block-title">
+      <span>解法 #${idx}</span>
+      <button class="remove-btn" onclick="removeSolutionBlock(${idx})">移除 ✕</button>
+    </div>
+    <div class="field">
+      <label>.cpp 檔名</label>
+      <input type="text" class="sol-file" data-auto="1" data-suffix="${idx > 1 ? '_' + (idx-1) : ''}" placeholder="Solution_XXXX.cpp">
+    </div>
+    <div class="field-row">
+      <div class="field">
+        <label>時間複雜度</label>
+        <input type="text" class="sol-time" placeholder="O(N)">
+      </div>
+      <div class="field">
+        <label>空間複雜度</label>
+        <input type="text" class="sol-space" placeholder="O(1)">
+      </div>
+    </div>
+    <div class="field">
+      <label>標籤 <span class="hint">(可複選；按住 Ctrl/Cmd 點選多個)</span></label>
+      <select class="sol-tags-select multi-select" multiple size="6"></select>
+      <input type="text" class="sol-tags-custom" placeholder="其他自訂標籤（逗號分隔，選填）" style="margin-top:6px;">
+    </div>
+    <div class="field">
+      <label>分類主題 <span class="hint">(逗號分隔，對應 docs/topics/*.md)</span></label>
+      <input type="text" class="sol-topics" list="${listId}" placeholder="array, two-pointers-opposite">
+      ${topicsDatalistHtml(listId)}
+    </div>
+    <div class="field">
+      <label>完整 .cpp 程式碼 <span class="hint">(含統一格式註解)</span></label>
+      <textarea class="sol-code" rows="10" placeholder="/**\n * 題目：...\n */\nclass Solution { ... };"></textarea>
+    </div>
+  `;
+  document.getElementById('solutionsContainer').appendChild(wrap);
+  const tagSelect = wrap.querySelector('.sol-tags-select');
+  TAG_OPTIONS.forEach(opt => {
+    const o = document.createElement('option');
+    o.value = opt.label;
+    o.textContent = opt.label;
+    tagSelect.appendChild(o);
+  });
+  onNumberChange();
+}
+
+function removeSolutionBlock(idx) {
+  const el = document.getElementById(`sol-${idx}`);
+  if (el) el.remove();
+}
+
+function escapeYamlScalar(s) {
+  if (s === undefined || s === null) s = '';
+  s = String(s);
+  if (/^[A-Za-z0-9_\-\.\/:🟢🟡🔴 ()²³⁵√²]+$/u.test(s) === false && (s.includes(':') || s.includes('#'))) {
+    return `"${s.replace(/"/g, '\\"')}"`;
+  }
+  return s;
+}
+
+function buildYaml() {
+  const number = pad4(document.getElementById('number').value);
+  const title = document.getElementById('title').value.trim();
+  const url = document.getElementById('url').value.trim();
+
+  if (!number) { alert('請填題號'); return null; }
+  if (!title) { alert('請填標題'); return null; }
+
+  const blocks = document.querySelectorAll('.solution-block');
+  if (blocks.length === 0) { alert('請至少新增一個解法'); return null; }
+
+  let lines = [];
+  lines.push(`number: ${parseInt(number, 10)}`);
+  lines.push(`title: ${title}`);
+  lines.push(`url: ${url}`);
+  lines.push(`solutions:`);
+
+  const cppFiles = [];
+
+  blocks.forEach(block => {
+    const file = block.querySelector('.sol-file').value.trim() || `Solution_${number}.cpp`;
+    const difficulty = document.getElementById('difficultyGlobal').value;
+    const selectedTags = Array.from(block.querySelector('.sol-tags-select').selectedOptions).map(o => o.value);
+    const customTags = block.querySelector('.sol-tags-custom').value.split(',').map(s => s.trim()).filter(Boolean);
+    const tags = [...selectedTags, ...customTags];
+    const topics = block.querySelector('.sol-topics').value.split(',').map(s => s.trim()).filter(Boolean);
+    const time = block.querySelector('.sol-time').value.trim();
+    const space = block.querySelector('.sol-space').value.trim();
+    const code = block.querySelector('.sol-code').value;
+
+    lines.push(`- file: ${file}`);
+    lines.push(`  difficulty: ${difficulty}`);
+    lines.push(`  tags:`);
+    tags.forEach(t => lines.push(`  - ${t}`));
+    lines.push(`  topics:`);
+    topics.forEach(t => lines.push(`  - ${t}`));
+    lines.push(`  time: ${time}`);
+    lines.push(`  space: ${space}`);
+
+    if (code.trim()) {
+      cppFiles.push({ name: file, content: code });
+    }
+  });
+
+  return { yamlText: lines.join('\n') + '\n', number, cppFiles };
+}
+
+function highlightYaml(text) {
+  return text.split('\n').map(line => {
+    const m = line.match(/^(\s*-?\s*)([A-Za-z_]+)(:\s*)(.*)$/);
+    if (m) {
+      return `${m[1]}<span class="yml-key">${m[2]}</span>${m[3]}<span class="yml-str">${escapeHtml(m[4])}</span>`;
+    }
+    const dashM = line.match(/^(\s*-\s)(.*)$/);
+    if (dashM) {
+      return `<span class="yml-dash">${dashM[1]}</span><span class="yml-str">${escapeHtml(dashM[2])}</span>`;
+    }
+    return escapeHtml(line);
+  }).join('\n');
+}
+
+function escapeHtml(s) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function generate() {
+  const result = buildYaml();
+  if (!result) return;
+  lastYaml = result.yamlText;
+  lastNumber = result.number;
+  lastCppFiles = result.cppFiles;
+
+  document.getElementById('tab-yaml').innerHTML = `<pre>${highlightYaml(lastYaml)}</pre>`;
+
+  const filesBox = document.getElementById('tab-files');
+  let html = `<div class="file-preview-list">`;
+  html += `<div class="file-preview-row"><span class="dot"></span> metadata/${lastNumber}.yml
+    <button class="btn-secondary" style="margin-left:auto;" onclick="copyYaml()">📋 複製</button></div>`;
+  lastCppFiles.forEach((f, i) => {
+    html += `<div class="file-preview-row"><span class="dot"></span> solution/${f.name}
+      <button class="btn-secondary" style="margin-left:auto;" onclick="copyCppFile(${i})">📋 複製</button></div>`;
+  });
+  html += `</div>`;
+  filesBox.innerHTML = html;
+
+  showToast('已產生 ✓');
+}
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === tab));
+  document.getElementById('tab-yaml').style.display = tab === 'yaml' ? 'block' : 'none';
+  document.getElementById('tab-files').style.display = tab === 'files' ? 'block' : 'none';
+}
+
+function copyCppFile(index) {
+  const f = lastCppFiles[index];
+  if (!f) return;
+  navigator.clipboard.writeText(f.content).then(() => showToast(`${f.name} 已複製 ✓`));
+}
+
+function copyAllCppConcat() {
+  if (lastCppFiles.length === 0) { showToast('沒有可複製的 .cpp'); return; }
+  const text = lastCppFiles.map(f => `// ===== ${f.name} =====\n${f.content}`).join('\n\n');
+  navigator.clipboard.writeText(text).then(() => showToast('全部 .cpp 已複製 ✓'));
+}
+
+function copyYaml() {
+  if (!lastYaml) { showToast('請先按「產生」'); return; }
+  navigator.clipboard.writeText(lastYaml).then(() => showToast('YAML 已複製 ✓'));
+}
+
+function downloadBlob(filename, text) {
+  const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+}
+
+function downloadYaml() {
+  if (!lastYaml) { showToast('請先按「產生」'); return; }
+  downloadBlob(`${lastNumber}.yml`, lastYaml);
+  showToast('已下載 metadata yml ✓');
+}
+
+function downloadAllCpp() {
+  if (lastCppFiles.length === 0) { showToast('沒有可下載的 .cpp（請先貼上程式碼並產生）'); return; }
+  lastCppFiles.forEach(f => downloadBlob(f.name, f.content));
+  showToast(`已下載 ${lastCppFiles.length} 個 .cpp ✓`);
+}
+
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2200);
+}
+
+function extractTableRow(text) {
+  const re = /\|\s*\*{0,2}(\d+)\*{0,2}\s*\|\s*\[([^\]]+)\]\(([^)]+)\)\s*\|([^|]*)\|([^|]*)\|\s*\[C\+\+\]\(([^)]+)\)\s*\|([^|]*)\|([^|]*)\|/i;
+  const m = text.match(re);
+  if (!m) return null;
+  return {
+    number: m[1],
+    title: m[2].trim(),
+    url: m[3].trim(),
+    difficulty: m[4].trim(),
+    tags: m[5].trim(),
+    codeFile: m[6].trim(),
+    time: m[7].trim(),
+    space: m[8].trim(),
+  };
+}
+
+function extractCodeBlock(text) {
+  const m = text.match(/```(?:cpp|c\+\+)?\s*([\s\S]*?)```/i);
+  return m ? m[1].trim() + '\n' : null;
+}
+
+function extractHeaderField(text, label) {
+  const re = new RegExp('\\*\\s*' + label + '[:：]\\s*([^*]+)');
+  const m = text.match(re);
+  return m ? m[1].trim() : '';
+}
+
+function parseAndFill() {
+  const raw = document.getElementById('rawPaste').value;
+  if (!raw.trim()) { showToast('請先貼上內容'); return; }
+
+  const status = [];
+  let number = '', title = '', url = '', difficulty = '', tagsRaw = [], fileName = '', time = '', space = '';
+
+  const row = extractTableRow(raw);
+  if (row) {
+    number = row.number;
+    title = row.title;
+    url = row.url;
+    difficulty = row.difficulty;
+    tagsRaw = row.tags.split(/\s*(?:\/|<br\s*\/?>)\s*/).map(s => s.trim()).filter(Boolean);
+    const codeLinkMatch = row.codeFile.match(/Solution_([A-Za-z0-9_]+)\.(cpp|md)/);
+    if (codeLinkMatch) fileName = `Solution_${codeLinkMatch[1]}.cpp`;
+    time = row.time;
+    space = row.space;
+    status.push('✓ 從表格解析出題號/標題/難度/標籤/時間空間複雜度');
+  } else {
+    status.push('⚠ 找不到表格列，改用註解區塊解析基本資訊');
+  }
+
+  const code = extractCodeBlock(raw);
+  if (code) status.push('✓ 找到程式碼區塊'); else status.push('⚠ 找不到 ```cpp 程式碼區塊');
+
+  if (code) {
+    if (!title) {
+      const rawTitle = extractHeaderField(code, '題目');
+      if (rawTitle) {
+        let t = rawTitle;
+        const numFromComment = t.match(/^(\d+)\./);
+        if (numFromComment && !number) number = numFromComment[1];
+        t = t.replace(/^\d+\.\s*/, '');
+        title = t.split(/\s*[（(]/)[0].trim();
+      }
+    }
+    if (!difficulty) {
+      const d = extractHeaderField(code, '難度');
+      if (/easy/i.test(d)) difficulty = '🟢 Easy';
+      else if (/medium/i.test(d)) difficulty = '🟡 Medium';
+      else if (/hard/i.test(d)) difficulty = '🔴 Hard';
+    }
+    if (!time) time = extractHeaderField(code, '時間複雜度');
+    if (!space) space = extractHeaderField(code, '空間複雜度');
+  }
+
+  if (!number) showToast('無法解析出題號，請手動填寫');
+
+  document.getElementById('number').value = number;
+  document.getElementById('title').value = title;
+  document.getElementById('url').dataset.touched = url ? '1' : '';
+  document.getElementById('url').value = url || (title ? `https://leetcode.com/problems/${slugify(title)}/` : '');
+  if (difficulty) document.getElementById('difficultyGlobal').value = difficulty;
+  onNumberChange();
+
+  document.getElementById('solutionsContainer').innerHTML = '';
+  solutionCount = 0;
+  addSolutionBlock();
+  const block = document.querySelector('.solution-block');
+
+  if (fileName) {
+    const fileInput = block.querySelector('.sol-file');
+    fileInput.value = fileName;
+    fileInput.dataset.auto = '0';
+  }
+  block.querySelector('.sol-time').value = time;
+  block.querySelector('.sol-space').value = space;
+  if (code) block.querySelector('.sol-code').value = code;
+
+  const select = block.querySelector('.sol-tags-select');
+  const unmatched = [];
+  tagsRaw.forEach(tag => {
+    const opt = Array.from(select.options).find(o => o.value.toLowerCase() === tag.toLowerCase());
+    if (opt) opt.selected = true;
+    else unmatched.push(tag);
+  });
+  if (unmatched.length) block.querySelector('.sol-tags-custom').value = unmatched.join(', ');
+
+  document.getElementById('parseStatus').innerHTML = status.map(s => `• ${s}`).join('<br>') +
+    '<br><br>👉 分類主題（topics）欄位無法自動判斷，請手動選擇。';
+
+  showToast('已自動填入 ✓ 請檢查並補上分類主題');
+}
+
+// init with one solution block
+addSolutionBlock();
+tryRestoreFolder();
+</script>
+
+</body>
+</html>
