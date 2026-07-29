@@ -55,6 +55,3 @@ else
 fi
 
 echo -e "\n\033[1;32m🎉 全部完成！網站：https://smartcsie.github.io/leetcode/\033[0m"
-SCRIPT_EOF
-
-chmod +x publish.sh

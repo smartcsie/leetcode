@@ -7,7 +7,6 @@ theme:
   name: material
   language: zh-TW
   features:
-    - navigation.tabs
     - navigation.top
     - navigation.instant
     - toc.integrate
