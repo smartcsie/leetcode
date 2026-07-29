@@ -13,6 +13,16 @@ except ImportError:
 
 LANG_MAP = {'.cpp': 'cpp', '.sql': 'sql', '.py': 'python', '.java': 'java'}
 
+def to_list(value):
+    """把 None 或單一字串安全轉成清單，避免字串被逐字元拆解。"""
+    if value is None:
+        return []
+    if isinstance(value, str):
+        return [value]
+    return list(value)
+
+
+
 GROUPS = [
     (r'^math', '🔢 Math'),
     (r'^prime', '🔢 Math'),
@@ -105,12 +115,12 @@ def build_problem_page(problem, solution_dir, notes_dir):
     missing_files = []
 
     for sol in solutions:
-        label_key = ' / '.join(sol.get('topics') or [])
+        label_key = ' / '.join(to_list(sol.get('topics')))
         if multi:
             lines.append(f"## 解法：{label_key}")
             lines.append('')
 
-        tags_str = ', '.join(sol.get('tags') or [])
+        tags_str = ', '.join(to_list(sol.get('tags')))
         info = (f"**難度:** {sol.get('difficulty','')}　"
                 f"**標籤:** {tags_str}　"
                 f"**時間:** {sol.get('time','')}　"
@@ -143,12 +153,12 @@ def build_topic_indexes(problems, topics_out_dir):
     topic_rows = OrderedDict()
     for problem in problems:
         for sol in problem['solutions']:
-            for topic in (sol.get('topics') or []):
+            for topic in to_list(sol.get('topics')):
                 topic_rows.setdefault(topic, []).append({
                     'number': problem['number'],
                     'title': problem['title'],
                     'difficulty': sol.get('difficulty', ''),
-                    'tags': sol.get('tags') or [],
+                    'tags': to_list(sol.get('tags')),
                     'time': sol.get('time', ''),
                     'space': sol.get('space', ''),
                 })

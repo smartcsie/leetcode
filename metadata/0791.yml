@@ -7,6 +7,7 @@ solutions:
   tags:
   - String
   - Counting Sort
-  topics: string
+  topics:
+  - string
   time: O(N + M)
   space: O(1)
