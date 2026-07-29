@@ -9,5 +9,6 @@ solutions:
   - Sliding Window
   - Two Pointers
   topics:
+  - variable-size-sliding-window
   time: O(N)
   space: O(1)

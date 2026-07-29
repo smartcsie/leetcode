@@ -7,5 +7,6 @@ solutions:
   tags:
   - Greedy
   topics:
+  - greedy
   time: O(N)
   space: O(1)

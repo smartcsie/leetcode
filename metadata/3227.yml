@@ -8,5 +8,6 @@ solutions:
   - Greedy
   - Game Theory
   topics:
+  - greedy
   time: O(N)
   space: O(1)

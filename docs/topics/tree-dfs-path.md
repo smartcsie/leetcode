@@ -31,6 +31,7 @@
 | 897 | [Increasing Order Search Tree](../problems/0897.md) | 🟢 Easy | DFS / In-order | O(N) | O(H) |
 | 965 | [Univalued Binary Tree](../problems/0965.md) | 🟢 Easy | Tree, DFS | O(N) | O(H) |
 | 988 | [Smallest String Starting From Leaf](../problems/0988.md) | 🟡 Medium | Tree, DFS | O(N) | O(H) |
+| 1026 | [Maximum Difference Between Node and Ancestor](../problems/1026.md) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | O(N) | O(H) |
 | 1305 | [All Elements in Two Binary Search Trees](../problems/1305.md) | 🟡 Medium | Tree, In-order Traversal, Two Pointers | O(N+M) | O(N+M) |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../problems/1379.md) | 🟢 Easy | DFS / Tree Traversal | O(N) | O(H) |
 | 2415 | [Reverse Odd Levels of Binary Tree](../problems/2415.md) | 🟡 Medium | Tree, DFS | O(N) | O(H) |

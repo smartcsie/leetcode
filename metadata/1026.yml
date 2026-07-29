@@ -9,5 +9,6 @@ solutions:
   - DFS
   - Recursion
   topics:
+  - tree-dfs-path
   time: O(N)
   space: O(H)

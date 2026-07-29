@@ -9,5 +9,6 @@ solutions:
   - Greedy
   - Sorting
   topics:
+  - sorting
   time: O(N log N)
   space: O(1)

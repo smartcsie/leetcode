@@ -9,5 +9,6 @@ solutions:
   - Recursion
   - Divide and Conquer
   topics:
+  - bit-manipulation
   time: O(N)
   space: O(N)

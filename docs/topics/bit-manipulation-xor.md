@@ -5,6 +5,7 @@
 | 136 | [Single Number](../problems/0136.md) | 🟢 Easy | Bit-Manipulation | O(n) | O(1) |
 | 260 | [Single Number III](../problems/0260.md) | 🟡 Medium | Bit Manipulation | O(n) | O(1) |
 | 268 | [Missing Number](../problems/0268.md) | 🟢 Easy | Bit-Manipulation | O(n) | O(1) |
+| 421 | [Maximum XOR of Two Numbers in an Array](../problems/0421.md) | 🟡 Medium | Bit Manipulation Xor, Hash Set | O(N * L) | O(N) |
 | 477 | [Total Hamming Distance](../problems/0477.md) | 🟡 Medium | Math / Bit Manipulation / Array | O(31 * N) | O(1) |
 | 1486 | [XOR Operation in an Array](../problems/1486.md) | 🟢 Easy | Simulation / Bit Manipulation | O(N) | O(1) |
 | 1720 | [Decode XORed Array](../problems/1720.md) | 🟢 Easy | Bit Manipulation / Simulation | O(N) | O(N) |

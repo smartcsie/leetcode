@@ -9,5 +9,6 @@ solutions:
   - Digit Manipulation
   - Pair
   topics:
+  - sorting
   time: O(N log N)
   space: O(N)

@@ -9,5 +9,6 @@ solutions:
   - Sorting
   - Two Pointers
   topics:
+  - array-linear-scan
   time: O(N log N)
   space: O(N)

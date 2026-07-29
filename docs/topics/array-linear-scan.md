@@ -3,6 +3,7 @@
 | # | 題目 | 難度 | 標籤 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
 | 414 | [Third Maximum Number](../problems/0414.md) | 🟢 Easy | Array | O(N) | O(1) |
+| 581 | [Shortest Unsorted Continuous Subarray](../problems/0581.md) | 🟡 Medium | Array, Sorting, Two Pointers | O(N log N) | O(N) |
 | 1013 | [Partition Array Into Three Parts With Equal Sum](../problems/1013.md) | 🟢 Easy | Array / Prefix Sum / Greedy | O(N) | O(1) |
 | 1431 | [Kids With the Greatest Number of Candies](../problems/1431.md) | 🟢 Easy | Array | O(N) | O(1)* |
 | 1437 | [Check If All 1's Are at Least Length K Places Away](../problems/1437.md) | 🟢 Easy | Array / Simulation | O(N) | O(1) |

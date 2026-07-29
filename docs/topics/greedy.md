@@ -6,6 +6,7 @@
 | 343 | [Integer Break](../problems/0343.md) | 🟡 Medium | Math / Greedy | O(1) | O(1) |
 | 397 | [Integer Replacement](../problems/0397.md) | 🟡 Medium | Greedy / Bit Manipulation | O(1) |  |
 | 409 | [Longest Palindrome](../problems/0409.md) | 🟢 Easy | Hash Table / Greedy | O(N) | O(K) |
+| 453 | [Minimum Moves to Equal Array Elements](../problems/0453.md) | 🟢 Easy | Greedy | O(N) | O(1) |
 | 624 | [Maximum Distance in Arrays](../problems/0624.md) | 🟡 Medium | Array, Greedy | O(n) | O(1) |
 | 670 | [Maximum Swap](../problems/0670.md) | 🟡 Medium | Greedy | O(N) | O(1) |
 | 674 | [Longest Continuous Increasing Subsequence](../problems/0674.md) | 🟢 Easy | Array, Greedy | O(n) | O(1) |
@@ -35,5 +36,6 @@
 | 3011 | [Find if Array Can Be Sorted](../problems/3011.md) | 🟡 Medium | Array, Greedy, Bit Manipulation | O(N) | O(1) |
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](../problems/3114.md) | 🟢 Easy | Greedy / String | O(1) | O(1) |
 | 3216 | [Lexicographically Smallest String After a Swap](../problems/3216.md) | 🟢 Easy | Greedy / String | O(N) | O(1) |
+| 3227 | [Vowels Game in a String](../problems/3227.md) | 🟡 Medium | Greedy, Game Theory | O(N) | O(1) |
 | 3536 | [Maximum Product of Two Digits](../problems/3536.md) | 🟢 Easy | Math / Greedy | O(log N) | O(1) |
 | 3798 | [Largest Even Number](../problems/3798.md) | 🟢 Easy | Greedy / String | O(N) | O(1) |

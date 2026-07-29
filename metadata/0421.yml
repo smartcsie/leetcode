@@ -8,5 +8,6 @@ solutions:
   - Bit Manipulation Xor
   - Hash Set
   topics:
+  - bit-manipulation-xor
   time: O(N * L)
   space: O(N)
