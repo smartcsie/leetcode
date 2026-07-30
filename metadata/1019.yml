@@ -1,0 +1,13 @@
+number: 1019
+title: Next Greater Node In Linked List
+url: https://leetcode.com/problems/next-greater-node-in-linked-list/
+solutions:
+- file: Solution_1019.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Monotonic Stack
+  topics:
+  - monotonic-stack
+  time: O(N)
+  space: O(N)

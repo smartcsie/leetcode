@@ -1,0 +1,14 @@
+number: 3016
+title: Minimum Number of Pushes to Type Word II
+url: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/
+solutions:
+- file: Solution_3016.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  - Sorting
+  - Counting
+  topics:
+  - greedy
+  time: O(N + 26 log 26)
+  space: O(1)

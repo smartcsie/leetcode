@@ -1,0 +1,14 @@
+number: 1448
+title: Count Good Nodes in Binary Tree
+url: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+solutions:
+- file: Solution_1448.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - DFS
+  - Recursion
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(H)

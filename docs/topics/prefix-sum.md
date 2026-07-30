@@ -11,6 +11,7 @@
 | 930 | [Binary Subarrays With Sum](../problems/0930.md) | 🟡 Medium | Array, Prefix Sum | O(N) | O(N) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](../problems/1365.md) | 🟢 Easy | Counting Sort / Prefix Sum | O(N + K) | O(K) |
 | 1480 | [Running Sum of 1d Array](../problems/1480.md) | 🟢 Easy | Array, Prefix Sum | O(N) | O(1) |
+| 1524 | [Number of Sub-arrays With Odd Sum](../problems/1524.md) | 🟡 Medium | Math, Prefix Sum, Combinatorics | O(N) | O(1) |
 | 1588 | [Sum of All Odd Length Subarrays](../problems/1588.md) | 🟢 Easy | Array / Prefix Sum | O(N²) | O(N) |
 | 1685 | [Sum of Absolute Differences in a Sorted Array](../problems/1685.md) | 🟡 Medium | Array, Prefix Sum, Math | O(N) | O(N) |
 | 1732 | [Find the Highest Altitude](../problems/1732.md) | 🟢 Easy | Array / Prefix Sum | O(N) | O(1) |

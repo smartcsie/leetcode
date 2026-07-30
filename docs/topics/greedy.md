@@ -34,6 +34,8 @@
 | 2815 | [Max Pair Sum in an Array](../problems/2815.md) | 🟢 Easy | Greedy / Hashing | O(N*D) | O(1) |
 | 2864 | [Maximum Odd Binary Number](../problems/2864.md) | 🟢 Easy | Greedy / String | O(N) | O(1) |
 | 3011 | [Find if Array Can Be Sorted](../problems/3011.md) | 🟡 Medium | Array, Greedy, Bit Manipulation | O(N) | O(1) |
+| 3014 | [Minimum Number of Pushes to Type Word I](../problems/3014.md) | 🟡 Medium | Greedy, Sorting, Counting | O(N + 26 log 26) | O(1) |
+| 3016 | [Minimum Number of Pushes to Type Word II](../problems/3016.md) | 🟡 Medium | Greedy, Sorting, Counting | O(N + 26 log 26) | O(1) |
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](../problems/3114.md) | 🟢 Easy | Greedy / String | O(1) | O(1) |
 | 3216 | [Lexicographically Smallest String After a Swap](../problems/3216.md) | 🟢 Easy | Greedy / String | O(N) | O(1) |
 | 3227 | [Vowels Game in a String](../problems/3227.md) | 🟡 Medium | Greedy, Game Theory | O(N) | O(1) |

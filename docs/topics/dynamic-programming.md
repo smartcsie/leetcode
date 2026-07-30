@@ -9,6 +9,7 @@
 | 264 | [Ugly Number II](../problems/0264.md) | 🟡 Medium | Dynamic Programming, Math | O(n) | O(n) |
 | 313 | [Super Ugly Number](../problems/0313.md) | 🟡 Medium | Dynamic Programming, Multi-pointers | O(N * K) | O(N + K) |
 | 509 | [Fibonacci Number](../problems/0509.md) | 🟢 Easy | Math, Dynamic Programming | O(n) | O(1) |
+| 712 | [Minimum ASCII Delete Sum for Two Strings](../problems/0712.md) | 🟡 Medium | Dynamic Programming, String | O(M × N) | O(M × N) |
 | 898 | [Bitwise ORs of Subarrays](../problems/0898.md) | 🟡 Medium | Bit Manipulation / Dynamic Programming | O(N * 30) | O(N * 30) |
 | 926 | [Flip String to Monotone Increasing](../problems/0926.md) | 🟡 Medium | Dynamic Programming | O(N) | O(1) |
 | 1137 | [N-th Tribonacci Number](../problems/1137.md) | 🟢 Easy | DP, Math | O(N) | O(1) |

@@ -1,0 +1,14 @@
+number: 1524
+title: Number of Sub-arrays With Odd Sum
+url: https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/
+solutions:
+- file: Solution_1524.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - Prefix Sum
+  - Combinatorics
+  topics:
+  - prefix-sum
+  time: O(N)
+  space: O(1)

@@ -1,0 +1,48 @@
+/**
+ * 題目：863. All Nodes Distance K in Binary Tree (二元樹中所有距離為 K 的節點)
+ * 難度：中等 (Medium)
+ * 描述：給定二元樹的根節點 root、目標節點 target 以及整數 k，
+ *       回傳與目標節點距離為 k 的所有節點值（距離定義為兩節點間邊的數量，可包含往上經過父節點的路徑）。
+ *
+ * 時間複雜度：O(N) - 建立父節點映射需要走訪整棵樹一次，之後從 target 出發的搜尋最多也走訪 N 個節點。
+ * 空間複雜度：O(N) - 需要 unordered_map 儲存每個節點的父節點指標。
+ *
+ * 解法思路：
+ * 1. 將二元樹轉換為無向圖 (Tree to Graph)：
+ *    - 二元樹原本只能往下走（左右子節點），要找「距離」必須也能往上走到父節點，
+ *      因此先用 buildParent 遞迴一次，記錄每個節點對應的父節點，等同於把樹轉換成無向圖。
+ * 2. 從 target 出發做 DFS（也可視為 BFS 概念）：
+ *    - 以 target 為起點，往三個方向嘗試前進：左子節點、右子節點、父節點。
+ *    - 用 prev 記錄「上一步是從哪個節點過來的」，避免往回走造成無窮迴圈。
+ * 3. 遞減 k 直到抵達答案：
+ *    - 每往外走一步，k 就減 1；當 k 遞減到 0 時，代表目前節點就是距離 target 恰好為 k 的節點，
+ *      將其值加入答案陣列，並停止該方向繼續搜尋。
+ */
+class Solution {
+private:
+    void buildParent(TreeNode* root, TreeNode* parent, unordered_map<TreeNode*, TreeNode*>& ans) {
+        if(!root) return;
+        ans[root] = parent;
+        if(root->left) buildParent(root->left, root, ans);
+        if(root->right) buildParent(root->right, root, ans);
+    }
+    void dfs(TreeNode* cur, TreeNode* prev, int k, unordered_map<TreeNode*, TreeNode*>& parents,
+             vector<int>& ans) {
+        if(!cur) return;
+        if(k == 0) {
+            ans.push_back(cur->val);
+            return;
+        }
+        if(cur->left && cur->left != prev) dfs(cur->left, cur, k - 1, parents, ans);
+        if(cur->right && cur->right != prev) dfs(cur->right, cur, k - 1, parents, ans);
+        if(parents[cur] && parents[cur] != prev) dfs(parents[cur], cur, k - 1, parents, ans);
+    }
+public:
+    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
+        unordered_map<TreeNode*, TreeNode*> parents;
+        vector<int> ans;
+        buildParent(root, nullptr, parents);
+        dfs(target, nullptr, k, parents, ans);
+        return ans;
+    }
+};

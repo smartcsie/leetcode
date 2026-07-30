@@ -33,5 +33,8 @@
 | 988 | [Smallest String Starting From Leaf](../problems/0988.md) | 🟡 Medium | Tree, DFS | O(N) | O(H) |
 | 1026 | [Maximum Difference Between Node and Ancestor](../problems/1026.md) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | O(N) | O(H) |
 | 1305 | [All Elements in Two Binary Search Trees](../problems/1305.md) | 🟡 Medium | Tree, In-order Traversal, Two Pointers | O(N+M) | O(N+M) |
+| 1315 | [Sum of Nodes with Even-Valued Grandparent](../problems/1315.md) | 🟡 Medium | Tree, DFS, Recursion | O(N) | O(H) |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../problems/1379.md) | 🟢 Easy | DFS / Tree Traversal | O(N) | O(H) |
+| 1448 | [Count Good Nodes in Binary Tree](../problems/1448.md) | 🟡 Medium | Tree, DFS, Recursion | O(N) | O(H) |
+| 1530 | [Number of Good Leaf Nodes Pairs](../problems/1530.md) | 🟡 Medium | Tree, DFS, Post-order | O(N × D²) | O(H × D) |
 | 2415 | [Reverse Odd Levels of Binary Tree](../problems/2415.md) | 🟡 Medium | Tree, DFS | O(N) | O(H) |

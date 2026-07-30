@@ -1,0 +1,13 @@
+number: 712
+title: Minimum ASCII Delete Sum for Two Strings
+url: https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/
+solutions:
+- file: Solution_0712.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming
+  - String
+  topics:
+  - dynamic-programming
+  time: O(M × N)
+  space: O(M × N)

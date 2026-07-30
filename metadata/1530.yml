@@ -1,0 +1,14 @@
+number: 1530
+title: Number of Good Leaf Nodes Pairs
+url: https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/
+solutions:
+- file: Solution_1530.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - DFS
+  - Post-order
+  topics:
+  - tree-dfs-path
+  time: O(N × D²)
+  space: O(H × D)

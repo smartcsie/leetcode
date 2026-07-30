@@ -17,3 +17,4 @@
 | 876 | [Middle of the Linked List](../problems/0876.md) | 🟢 Easy | Linked List, Fast-Slow Pointers, Two Pointers | O(n) | O(1) |
 | 1290 | [Convert Binary Number in a Linked List to Integer](../problems/1290.md) | 🟢 Easy | Linked List / Bit Manipulation | O(N) | O(1) |
 | 2181 | [Merge Nodes in Between Zeros](../problems/2181.md) | 🟡 Medium | Linked List / In-place Modification | O(N) | O(1) |
+| 2487 | [Remove Nodes From Linked List](../problems/2487.md) | 🟡 Medium | Linked List, Monotonic Stack, Recursion | O(N) | O(N) |

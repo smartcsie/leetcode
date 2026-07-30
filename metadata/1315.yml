@@ -1,0 +1,14 @@
+number: 1315
+title: Sum of Nodes with Even-Valued Grandparent
+url: https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/
+solutions:
+- file: Solution_1315.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - DFS
+  - Recursion
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(H)

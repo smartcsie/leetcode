@@ -1,0 +1,38 @@
+/**
+ * 題目：1448. Count Good Nodes in Binary Tree (統計二元樹中的好節點數目)
+ * 難度：中等 (Medium)
+ * 描述：給定二元樹 root，若從根節點到某節點 X 的路徑上，沒有任何節點的值大於 X 的值，
+ *       則稱 X 為「好節點」。請回傳整棵樹中好節點的數目。
+ *
+ * 時間複雜度：O(N) - 每個節點恰好被走訪一次。
+ * 空間複雜度：O(H) - 遞迴呼叫堆疊的深度取決於樹的高度 H，最壞情況（歪斜樹）為 O(N)。
+ *
+ * 解法思路：
+ * 1. 攜帶路徑上的最大值往下遞迴 (Carry Max Value Down the Path)：
+ *    - dfs 額外攜帶 mx，代表從根節點到目前節點（不含自己）路徑上出現過的最大值。
+ * 2. 判斷目前節點是否為好節點：
+ *    - 若 mx <= root->val，代表目前節點的值不小於路徑上所有祖先節點的值，符合「好節點」定義，答案加 1。
+ * 3. 更新最大值並繼續往下傳遞：
+ *    - 將目前節點的值納入考量，更新 mx = max(mx, root->val)，
+ *      再把更新後的 mx 傳給左右子樹繼續遞迴，確保子節點能拿到「包含目前節點」的最新路徑最大值。
+ * 4. 初始化：
+ *    - 從根節點開始遞迴時，mx 設為 INT_MIN，代表根節點路徑上尚未有任何節點，根節點必為好節點。
+ */
+class Solution {
+private:
+    void dfs(TreeNode* root, int mx, int& ans) {
+        if(!root) return;
+        if(mx <= root->val) {
+            ans++;
+        } 
+        mx = max(mx, root->val);
+        if(root->left) dfs(root->left, mx, ans);
+        if(root->right) dfs(root->right, mx, ans);
+    }
+public:
+    int goodNodes(TreeNode* root) {
+        int ans = 0;
+        dfs(root, INT_MIN, ans);
+        return ans;
+    }
+};

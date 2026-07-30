@@ -1,0 +1,35 @@
+/**
+ * 題目：2487. Remove Nodes From Linked List (從鏈結串列移除節點)
+ * 難度：中等 (Medium)
+ * 描述：給定鏈結串列 head，移除每一個「右側存在數值更大節點」的節點，
+ *       回傳移除後剩下的鏈結串列（結果會是一個嚴格遞減的序列）。
+ *
+ * 時間複雜度：O(N) - 每個節點恰好被遞迴呼叫處理一次。
+ * 空間複雜度：O(N) - 遞迴呼叫堆疊的深度最多為 N（串列長度）。
+ *
+ * 解法思路：
+ * 1. 從尾端往前處理 (Recursion from the Back)：
+ *    - 利用遞迴天然的「先深入到底、再往回處理」特性，先處理 head->next 之後的所有節點，
+ *      確保 head->next 回傳時，已經是「移除完畢、且維持嚴格遞減」的正確子串列。
+ * 2. 遞迴終止條件：
+ *    - 若目前節點為 nullptr，代表走到串列尾端，直接回傳 nullptr。
+ * 3. 比較目前節點與已處理完的下一個節點：
+ *    - 遞迴處理完 head->next 後，若目前節點的值小於新的 head->next 的值，
+ *      代表目前節點右側存在更大值，應該被移除，因此直接回傳 head->next（跳過目前節點）。
+ * 4. 保留目前節點：
+ *    - 若目前節點的值不小於 head->next（或 head->next 已經是 nullptr），
+ *      代表目前節點應該保留，直接回傳 head 本身。
+ */
+class Solution {
+
+public:
+    ListNode* removeNodes(ListNode* head) {
+        if (!head) return nullptr;
+
+        head->next = removeNodes(head->next);
+        if (head->next && head->val < head->next->val) {
+            return head->next;
+        }
+        return head;
+    }
+};

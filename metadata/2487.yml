@@ -1,0 +1,14 @@
+number: 2487
+title: Remove Nodes From Linked List
+url: https://leetcode.com/problems/remove-nodes-from-linked-list/
+solutions:
+- file: Solution_2487.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Monotonic Stack
+  - Recursion
+  topics:
+  - linked-list
+  time: O(N)
+  space: O(N)

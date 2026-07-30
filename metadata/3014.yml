@@ -1,0 +1,14 @@
+number: 3014
+title: Minimum Number of Pushes to Type Word I
+url: https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/
+solutions:
+- file: Solution_3014.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  - Sorting
+  - Counting
+  topics:
+  - greedy
+  time: O(N + 26 log 26)
+  space: O(1)
