@@ -3202,7 +3202,7 @@
 
 <h1 id="202-happy-number">202. Happy Number<a class="headerlink" href="#202-happy-number" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/happy-number">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Hash Table, Fast-Slow Pointers　<strong>時間:</strong> O(logn)　<strong>空間:</strong> O(1)</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Hash Table, Fast-Slow Pointers　<strong>時間:</strong> O(logN)　<strong>空間:</strong> O(1)</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：202. Happy Number (快樂數)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3214,8 +3214,8 @@
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 4. 使用 std::unordered_set 儲存每一次計算出來的 sum，</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 每次得到新結果時，檢查是否已存在於集合中以判斷是否進入死循環。</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> *</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="cm"> * 時間複雜度：O(log n) - 數字縮小的速度極快，且循環的次數在整數範圍內非常有限。</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="cm"> * 空間複雜度：O(log n) - 需要額外的集合來儲存計算過程中出現的數字。</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="cm"> * 時間複雜度：O(log N) - 數字縮小的速度極快，且循環的次數在整數範圍內非常有限。</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="cm"> * 空間複雜度：O(log N) - 需要額外的集合來儲存計算過程中出現的數字。</span>
 <a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="cm"> */</span>
 <a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
 <a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>

@@ -3202,7 +3202,7 @@
 
 <h1 id="2225-find-players-with-zero-or-one-losses">2225. Find Players With Zero or One Losses<a class="headerlink" href="#2225-find-players-with-zero-or-one-losses" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/find-players-with-zero-or-one-losses">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Hash Table, Counting, Sorting　<strong>時間:</strong> O(nlogn)　<strong>空間:</strong> O(n)</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Hash Table, Counting, Sorting　<strong>時間:</strong> O(NlogN)　<strong>空間:</strong> O(N)</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2225. Find Players With Zero or One Losses (找出輸球次數為零或一次的玩家)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -3212,8 +3212,8 @@
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 2. 第二個列表包含所有「恰好輸掉一場比賽」的玩家。</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 列表內的玩家編號必須按「升序」排列。</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> *</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 時間複雜度：O(n log n) - 遍歷比賽需要 O(n)，但最後對玩家清單進行排序需要 O(n log n)。</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> * 空間複雜度：O(n) - 使用 unordered_map 儲存所有參加過比賽玩家的輸球紀錄。</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 時間複雜度：O(N log N) - 遍歷比賽需要 O(N)，但最後對玩家清單進行排序需要 O(N log N)。</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> * 空間複雜度：O(N) - 使用 unordered_map 儲存所有參加過比賽玩家的輸球紀錄。</span>
 <a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="cm"> */</span>
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
 <a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>

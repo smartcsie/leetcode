@@ -3240,15 +3240,15 @@
 <td><a href="../../problems/1022/">Sum of Root To Leaf Binary Numbers</a></td>
 <td>簡單 (Easy)</td>
 <td></td>
-<td>O(n) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。</td>
-<td>O(h) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(n)，在平衡樹下為 O(log n)。</td>
+<td>O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。</td>
+<td>O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(log N)。</td>
 </tr>
 <tr>
 <td>1422</td>
 <td><a href="../../problems/1422/">Maximum Score After Splitting a String</a></td>
 <td>簡單 (Easy)</td>
 <td></td>
-<td>O(n) - 先使用 std::count 花費 O(n) 計算總 1 數量，接著用單一迴圈花費 O(n) 掃描分割點。</td>
+<td>O(N) - 先使用 std::count 花費 O(N) 計算總 1 數量，接著用單一迴圈花費 O(N) 掃描分割點。</td>
 <td>O(1) - 僅使用常數個變數（zeros, ones, ans）來追蹤狀態，不需額外配置動態記憶體。</td>
 </tr>
 <tr>
@@ -3256,7 +3256,7 @@
 <td><a href="../../problems/1567/">Maximum Length of Subarray With Positive Product</a></td>
 <td>中等 (Medium)</td>
 <td></td>
-<td>O(n) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的狀態轉移皆為常數時間。</td>
+<td>O(N) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的狀態轉移皆為常數時間。</td>
 <td>O(1) - 僅使用常數個變數（ans, pos, neg）來動態追蹤狀態，不需額外配置記憶體。</td>
 </tr>
 <tr>
@@ -3264,8 +3264,8 @@
 <td><a href="../../problems/1593/">Split a String Into the Max Number of Unique Substrings</a></td>
 <td>中等 (Medium)</td>
 <td></td>
-<td>O(n * 2^(n-1)) - 在最壞情況下，字串有 n-1 個可分割的間隙，總共有 2^(n-1) 種分割組合，每次分割與子字串截取需花費 O(n) 時間。</td>
-<td>O(n) - 遞迴呼叫堆疊的深度最多為 n，且雜湊表 <code>seen</code> 在任一時刻最多儲存 n 個子字串。</td>
+<td>O(N * 2^(N-1)) - 在最壞情況下，字串有 n-1 個可分割的間隙，總共有 2^(n-1) 種分割組合，每次分割與子字串截取需花費 O(N) 時間。</td>
+<td>O(N) - 遞迴呼叫堆疊的深度最多為 n，且雜湊表 <code>seen</code> 在任一時刻最多儲存 n 個子字串。</td>
 </tr>
 <tr>
 <td>1738</td>
@@ -3296,7 +3296,7 @@
 <td><a href="../../problems/2176/">Count Equal and Divisible Pairs in an Array</a></td>
 <td>簡單 (Easy)</td>
 <td></td>
-<td>O(n^2) - 使用雙重迴圈遍歷所有可能的索引對 (i, j)，在資料規模較小（通常 N &lt;= 100）時能高效執行。</td>
+<td>O(N^2) - 使用雙重迴圈遍歷所有可能的索引對 (i, j)，在資料規模較小（通常 N &lt;= 100）時能高效執行。</td>
 <td>O(1) - 僅使用常數個變數來記錄計數與迴圈索引，不需額外配置動態記憶體。</td>
 </tr>
 <tr>
@@ -3304,7 +3304,7 @@
 <td><a href="../../problems/2210/">Count Hills and Valleys in an Array</a></td>
 <td>簡單 (Easy)</td>
 <td></td>
-<td>O(n) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的判斷為常數時間。</td>
+<td>O(N) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的判斷為常數時間。</td>
 <td>O(1) - 僅使用常數個變數（ans, prev, 迴圈變數）來追蹤狀態，不需額外配置記憶體。</td>
 </tr>
 <tr>
@@ -3320,7 +3320,7 @@
 <td><a href="../../problems/2570/">Merge Two 2D Arrays by Summing Values</a></td>
 <td>簡單 (Easy)</td>
 <td></td>
-<td>O(n + m) - 由於兩個輸入陣列皆已排序，利用雙指標（Two Pointers）線性掃描一次即可完成，耗時與兩陣列長度總和成正比。</td>
+<td>O(N + M) - 由於兩個輸入陣列皆已排序，利用雙指標（Two Pointers）線性掃描一次即可完成，耗時與兩陣列長度總和成正比。</td>
 <td>O(1) - 僅使用常數個指標與變數（i, j, m, n），並透過 <code>ans.reserve(m + n)</code> 預先分配記憶體，避免動態擴容開銷。</td>
 </tr>
 <tr>
@@ -3328,7 +3328,7 @@
 <td><a href="../../problems/2656/">Maximum Sum With Exactly K Elements</a></td>
 <td>簡單 (Easy)</td>
 <td></td>
-<td>O(n) - 只需要遍歷一次 <code>nums</code> 陣列來尋找最大值，其中 n 為陣列長度。</td>
+<td>O(N) - 只需要遍歷一次 <code>nums</code> 陣列來尋找最大值，其中 n 為陣列長度。</td>
 <td>O(1) - 僅使用常數個變數來儲存最大值與計算結果，不需額外配置動態記憶體。</td>
 </tr>
 <tr>
@@ -3336,7 +3336,7 @@
 <td><a href="../../problems/2662/">2652. Sum Multiples</a></td>
 <td>簡單 (Easy)</td>
 <td></td>
-<td>O(n) - 遍歷 1 到 n 每個數字一次。</td>
+<td>O(N) - 遍歷 1 到 n 每個數字一次。</td>
 <td>O(1) - 僅使用一個常數空間儲存總和。</td>
 </tr>
 <tr>
