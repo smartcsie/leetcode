@@ -13,7 +13,7 @@ step() { echo -e "\n\033[1;36m▶ $1\033[0m"; }
 ok()   { echo -e "\033[1;32m✓ $1\033[0m"; }
 fail() { echo -e "\033[1;31m✗ $1\033[0m"; exit 1; }
 
-if [ ! -f "generate_site.py" ]; then
+if [ ! -f "tools/generate_site.py" ]; then
   fail "找不到 generate_site.py，請在 repo 根目錄執行這個腳本"
 fi
 
@@ -28,7 +28,7 @@ if [ -z "${VIRTUAL_ENV:-}" ]; then
 fi
 
 step "重新產生網站 (generate_site.py)"
-python3 generate_site.py metadata notes solution docs
+python3 tools/generate_site.py metadata notes solution docs
 ok "網站頁面已更新"
 
 step "Git add + commit"
