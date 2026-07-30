@@ -7,6 +7,6 @@ solutions:
   tags:
   - String
   topics:
-  - string-substring-2
+  - string-substring
   time: O(N+M*K)
   space: O(N)

@@ -7,6 +7,6 @@ solutions:
   tags:
   - Dynamic Programming
   topics:
-  - dynamic-programming-3
+  - dynamic-programming
   time: O(N)
   space: O(1)

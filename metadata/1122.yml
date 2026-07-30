@@ -7,6 +7,6 @@ solutions:
   tags:
   - Counting Sort
   topics:
-  - sorting-2
+  - sorting
   time: O(N + M)
   space: O(1)

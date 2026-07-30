@@ -8,6 +8,6 @@ solutions:
   - DP
   - Array
   topics:
-  - dynamic-programming-4
+  - dynamic-programming
   time: O(N * M)
   space: O(M)

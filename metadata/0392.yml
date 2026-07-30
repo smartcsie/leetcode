@@ -7,7 +7,7 @@ solutions:
   tags:
   - DP / LCS
   topics:
-  - dynamic-programming-4
+  - dynamic-programming
   time: O(S * T)
   space: O(S * T)
 - file: Solution_0392.cpp

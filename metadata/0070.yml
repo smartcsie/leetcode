@@ -11,6 +11,6 @@ solutions:
   - Unbounded Knapsack (Permutation)
   topics:
   - dynamic-programming
-  - knapsack-problem-2
+  - knapsack-problem
   time: O(n)
   space: O(1)

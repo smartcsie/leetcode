@@ -7,7 +7,7 @@ solutions:
   tags:
   - DP / String
   topics:
-  - dynamic-programming-4
+  - dynamic-programming
   - two-pointers-center-expansion
   time: O(N²)
   space: O(N²)

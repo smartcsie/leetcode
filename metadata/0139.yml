@@ -8,6 +8,6 @@ solutions:
   - DP
   - Unbounded Knapsack
   topics:
-  - knapsack-problem-2
+  - knapsack-problem
   time: O(N³)
   space: O(N)

@@ -8,6 +8,6 @@ solutions:
   - DP
   - Linear Optimization
   topics:
-  - dynamic-programming-2
+  - dynamic-programming
   time: O(N)
   space: O(1)

@@ -8,6 +8,6 @@ solutions:
   - Tree
   - DP
   topics:
-  - dynamic-programming-2
+  - dynamic-programming
   time: O(N)
   space: O(H)

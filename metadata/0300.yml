@@ -17,6 +17,6 @@ solutions:
   - Array
   - Dynamic Programming
   topics:
-  - dynamic-programming-4
+  - dynamic-programming
   time: O(N²)
   space: O(n)

@@ -8,7 +8,7 @@ solutions:
   - DP
   - Array
   topics:
-  - dynamic-programming-4
+  - dynamic-programming
   time: O(N)
   space: O(N)
 - file: Solution_0674.cpp

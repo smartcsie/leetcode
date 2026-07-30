@@ -7,6 +7,6 @@ solutions:
   tags:
   - Greedy / Two Counters
   topics:
-  - array-continuous-counting-2
+  - array-continuous-counting
   time: O(N)
   space: O(1)

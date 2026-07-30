@@ -8,6 +8,6 @@ solutions:
   - Greedy
   - Counting Sort
   topics:
-  - sorting-2
+  - sorting
   time: O(N)
   space: O(1)

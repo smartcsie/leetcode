@@ -9,6 +9,6 @@ solutions:
   - Sorting
   - Bucket Sort
   topics:
-  - sorting-2
+  - sorting
   time: O(N)
   space: O(N)

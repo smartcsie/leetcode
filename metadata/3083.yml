@@ -8,6 +8,6 @@ solutions:
   - String
   - Array
   topics:
-  - string-substring-2
+  - string-substring
   time: O(N)
   space: O(1)
