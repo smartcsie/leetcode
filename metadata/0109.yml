@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0109.cpp
   difficulty: 🟡 Medium
   tags:
-  - Linked List / Tree
+  - Linked List
+  - Tree
   topics:
   - binary-search-tree
   time: O(N log N)

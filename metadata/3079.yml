@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3079.cpp
   difficulty: 🟢 Easy
   tags:
-  - Simulation / Math
+  - Simulation
+  - Math
   topics:
   - math-digit-decomposition
   time: O(N * D)

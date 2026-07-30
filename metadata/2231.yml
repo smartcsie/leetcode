@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2231.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy / Partition by Parity
+  - Greedy
+  - Partition by Parity
   topics:
   - greedy
   time: O(D log D)

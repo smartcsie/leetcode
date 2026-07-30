@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1897.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table / Counting
+  - Hash Table
+  - Counting
   topics:
   - hash-table-counting
   time: O(N * M)

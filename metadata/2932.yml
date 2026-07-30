@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2932.cpp
   difficulty: 🟢 Easy
   tags:
-  - Sorting / Brute Force
+  - Sorting
+  - Brute Force
   topics:
   - sorting
   time: O(NlogN +N²)

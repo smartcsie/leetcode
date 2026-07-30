@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2482.cpp
   difficulty: 🟡 Medium
   tags:
-  - Matrix / Prefix Sum / Precomputation
+  - Matrix
+  - Prefix Sum
+  - Precomputation
   topics:
   - 2d-array
   time: O(M * N)

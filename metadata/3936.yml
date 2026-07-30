@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3936.cpp
   difficulty: 🟢 Easy
   tags:
-  - Two Pointers / Simulation
+  - Two Pointers
+  - Simulation
   topics:
   - two-pointers-swap
   time: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0119.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Combinatorics
+  - Math
+  - Combinatorics
   topics:
   - math-combination
   time: O(N)

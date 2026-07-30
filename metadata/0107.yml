@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0107.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree / BFS
+  - Tree
+  - BFS
   topics:
   - tree-bfs-level-order
   time: O(N)

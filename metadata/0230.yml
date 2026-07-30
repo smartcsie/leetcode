@@ -10,5 +10,5 @@ solutions:
   - BST
   topics:
   - binary-search-tree
-  time: O(k)
-  space: O(h)
+  time: O(K)
+  space: O(H)

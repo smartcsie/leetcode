@@ -8,7 +8,7 @@ solutions:
   - Bit-Manipulation
   topics:
   - bit-manipulation-xor
-  time: O(n)
+  time: O(N)
   space: O(1)
 - file: Solution_0268.cpp
   difficulty: 🟢 Easy
@@ -16,5 +16,5 @@ solutions:
   - Math
   topics:
   - math
-  time: O(n)
+  time: O(N)
   space: O(1)

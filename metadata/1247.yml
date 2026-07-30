@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1247.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy / Math / String
+  - Greedy
+  - Math
+  - String
   topics:
   - math
   time: O(N)

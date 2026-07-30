@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1464.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Simulation / Greedy
+  - Array
+  - Simulation
+  - Greedy
   topics:
   - array-linear-scan
   time: O(N)

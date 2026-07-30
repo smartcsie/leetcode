@@ -8,5 +8,5 @@ solutions:
   - Math
   topics:
   - math-digit-decomposition
-  time: O(logn)
+  time: O(logN)
   space: O(1)

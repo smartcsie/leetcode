@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3622.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Digit Manipulation
+  - Math
+  - Digit Manipulation
   topics:
   - math-digit-decomposition
   time: O(log N)

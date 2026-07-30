@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2733.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Array
+  - Math
+  - Array
   topics:
   - array-linear-scan
   time: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3713.cpp
   difficulty: 🟡 Medium
   tags:
-  - Brute Force / Math
+  - Brute Force
+  - Math
   topics:
   - string-substring-enumeration
   time: O(N^2)

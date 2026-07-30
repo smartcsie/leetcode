@@ -8,5 +8,5 @@ solutions:
   - Hash Table
   topics:
   - hash-table-set
-  time: O(n+m)
-  space: O(n)
+  time: O(N+M)
+  space: O(N)

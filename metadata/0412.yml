@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0412.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / String
+  - Math
+  - String
   topics:
   - math
   time: O(N)

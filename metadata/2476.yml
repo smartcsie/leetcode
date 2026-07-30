@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2476.cpp
   difficulty: 🟡 Medium
   tags:
-  - BST / Binary Search
+  - BST
+  - Binary Search
   topics:
   - binary-search-build-in
   time: O(N+QlogN)

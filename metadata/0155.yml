@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0155.cpp
   difficulty: 🟡 Medium
   tags:
-  - Stack / Design
+  - Stack
+  - Design
   topics:
   - stack
   time: O(1)

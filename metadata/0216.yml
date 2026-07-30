@@ -8,5 +8,5 @@ solutions:
   - Backtracking
   topics:
   - backtracking-combination
-  time: O(C(9, k))
-  space: O(k)
+  time: O(C(9, K))
+  space: O(K)

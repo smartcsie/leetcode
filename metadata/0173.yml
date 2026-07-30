@@ -10,4 +10,4 @@ solutions:
   topics:
   - tree-dfs-path
   time: O(1) avg
-  space: O(h)
+  space: O(H)

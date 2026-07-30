@@ -10,5 +10,5 @@ solutions:
   - Sorting
   topics:
   - two-pointers-partition
-  time: O(n)
+  time: O(N)
   space: O(1)

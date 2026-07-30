@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0090.cpp
   difficulty: 🟡 Medium
   tags:
-  - Backtracking / Sorting
+  - Backtracking
+  - Sorting
   topics:
   - backtracking-combination
   time: O(N*2ᴺ)
@@ -13,7 +14,9 @@ solutions:
 - file: Solution_90.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation / Sorting / Hash Set (Duplicate De-duplication)
+  - Bit Manipulation
+  - Sorting
+  - Hash Set (Duplicate De-duplication)
   topics:
   - bit-bitmask-subset-enumeration
   time: O(2ᴺ*N log(2ᴺ))*

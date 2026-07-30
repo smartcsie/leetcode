@@ -7,5 +7,5 @@ solutions:
   tags: []
   topics:
   - uncategorized
-  time: O(n) - 遍歷 1 到 n 每個數字一次。
+  time: O(N) - 遍歷 1 到 n 每個數字一次。
   space: O(1) - 僅使用一個常數空間儲存總和。

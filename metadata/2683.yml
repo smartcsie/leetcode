@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2683.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation / Math
+  - Bit Manipulation
+  - Math
   topics:
   - bit-manipulation-xor
   time: O(N)

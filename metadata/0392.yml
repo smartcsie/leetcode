@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0392_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - DP / LCS
+  - DP
+  - LCS
   topics:
   - dynamic-programming
   time: O(S * T)
@@ -16,5 +17,5 @@ solutions:
   - Two Pointers
   topics:
   - two-pointers-same
-  time: O(n)
+  time: O(N)
   space: O(1)

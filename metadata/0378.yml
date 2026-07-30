@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0378.cpp
   difficulty: 🟡 Medium
   tags:
-  - Binary Search / Matrix
+  - Binary Search
+  - Matrix
   topics:
   - binary-search
   time: O(Nlog(max-min))

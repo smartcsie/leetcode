@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1252.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Math
+  - Array
+  - Math
   topics:
   - 2d-array
   time: O(K + MN)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1759.cpp
   difficulty: 🟢 Medium
   tags:
-  - Math / String
+  - Math
+  - String
   topics:
   - array-continuous-counting
   time: O(N)

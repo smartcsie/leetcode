@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3136.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Validation
+  - String
+  - Validation
   topics:
   - string-character-classification
   time: O(N)

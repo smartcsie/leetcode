@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0405.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Bit Manipulation
+  - Math
+  - Bit Manipulation
   topics:
   - math-digit-decomposition
   time: O(1)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3765.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Prime Number
+  - Math
+  - Prime Number
   topics:
   - prime
   time: O(D * sqrt(N))

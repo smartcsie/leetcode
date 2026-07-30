@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0739.cpp
   difficulty: 🟡 Medium
   tags:
-  - Stack / Monotonic Stack
+  - Stack
+  - Monotonic Stack
   topics:
   - monotonic-stack
   time: O(N)

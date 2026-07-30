@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1881.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy / String
+  - Greedy
+  - String
   topics:
   - greedy
   time: O(N)

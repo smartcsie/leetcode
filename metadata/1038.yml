@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1038.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree / BST
+  - Tree
+  - BST
   topics:
   - binary-search-tree
   time: O(N)

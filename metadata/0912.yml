@@ -10,5 +10,5 @@ solutions:
   - Sorting
   topics:
   - sorting
-  time: O(nlogn)
-  space: O(logn)
+  time: O(NlogN)
+  space: O(logN)

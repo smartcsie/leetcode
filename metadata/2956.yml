@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2956.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Hash Table / Bitset
+  - Array
+  - Hash Table
+  - Bitset
   topics:
   - bit-manipulation
   time: O(N + M)

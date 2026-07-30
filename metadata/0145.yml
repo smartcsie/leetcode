@@ -9,13 +9,13 @@ solutions:
   - DFS
   topics:
   - tree-dfs-path
-  time: O(n)
-  space: O(h)
+  time: O(N)
+  space: O(H)
 - file: Solution_0145.cpp
   difficulty: 🟢 Easy
   tags:
   - Tree
   topics:
   - tree
-  time: O(n)
-  space: O(h)
+  time: O(N)
+  space: O(H)

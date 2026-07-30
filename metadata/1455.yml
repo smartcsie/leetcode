@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1455.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Stream
+  - String
+  - Stream
   topics:
   - string
   time: O(N)

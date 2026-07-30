@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2455.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Array
+  - Math
+  - Array
   topics:
   - math
   time: O(N)

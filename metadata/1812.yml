@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1812.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / String / Bit Manipulation
+  - Math
+  - String
+  - Bit Manipulation
   topics:
   - bit-manipulation
   time: O(1)

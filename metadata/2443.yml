@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2443.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Simulation
+  - Math
+  - Simulation
   topics:
   - math-digit-decomposition
   time: O(NlogN)

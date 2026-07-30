@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0054.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array / Simulation
+  - Array
+  - Simulation
   topics:
   - array
   time: O(M*N)

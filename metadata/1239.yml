@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1239.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation / Backtracking / Bitset
+  - Bit Manipulation
+  - Backtracking
+  - Bitset
   topics:
   - bit-bitmask-subset-enumeration
   time: O(2ᴺ)

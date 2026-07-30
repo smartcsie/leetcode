@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0696.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Greedy
+  - String
+  - Greedy
   topics:
   - array-continuous-counting
   time: O(N)

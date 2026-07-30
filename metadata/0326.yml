@@ -8,5 +8,5 @@ solutions:
   - Math
   topics:
   - math
-  time: O(log₃n)
+  time: O(log₃N)
   space: O(1)

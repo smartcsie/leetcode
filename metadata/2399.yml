@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2399.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table / String / Array
+  - Hash Table
+  - String
+  - Array
   topics:
   - string-character-classification
   time: O(N)

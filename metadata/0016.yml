@@ -10,5 +10,5 @@ solutions:
   - Sorting
   topics:
   - two-pointers-opposite
-  time: O(n²)
+  time: O(N²)
   space: O(1)

@@ -10,5 +10,5 @@ solutions:
   - Binary Search
   topics:
   - tree-dfs-path
-  time: O(log²n)
-  space: O(log n)
+  time: O(log²N)
+  space: O(log N)

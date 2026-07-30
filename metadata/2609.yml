@@ -5,7 +5,8 @@ solutions:
 - file: null
   difficulty: 🟢 Easy
   tags:
-  - Greedy / Two Counters
+  - Greedy
+  - Two Counters
   topics:
   - array-continuous-counting
   time: O(N)

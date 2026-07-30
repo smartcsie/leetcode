@@ -5,7 +5,9 @@ solutions:
 - file: Solution_3364.cpp
   difficulty: 🟢 Easy
   tags:
-  - Prefix Sum / Sliding Window / Multiset
+  - Prefix Sum
+  - Sliding Window
+  - Multiset
   topics:
   - prefix-sum
   time: O(NlogN)

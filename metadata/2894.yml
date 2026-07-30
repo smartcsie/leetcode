@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2894.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Arithmetic Progression
+  - Math
+  - Arithmetic Progression
   topics:
   - math
   time: O(1)

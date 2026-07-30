@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0671.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree / DFS
+  - Tree
+  - DFS
   topics:
   - tree-dfs-path
   time: O(N)

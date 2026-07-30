@@ -9,5 +9,5 @@ solutions:
   - Fast-Slow Pointers
   topics:
   - two-pointers-swap
-  time: O(n)
+  time: O(N)
   space: O(1)

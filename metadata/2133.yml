@@ -10,5 +10,5 @@ solutions:
   - Bitset
   topics:
   - hash-table-mapping
-  time: O(n²)
-  space: O(n)
+  time: O(N²)
+  space: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3726.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Digit Extraction
+  - Math
+  - Digit Extraction
   topics:
   - math-digit-decomposition
   time: O(log N)

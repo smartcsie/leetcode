@@ -8,5 +8,5 @@ solutions:
   - Array
   topics:
   - array
-  time: O(n)
+  time: O(N)
   space: O(1)

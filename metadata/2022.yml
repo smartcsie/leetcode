@@ -10,5 +10,5 @@ solutions:
   - Simulation
   topics:
   - 2d-array
-  time: O(m*n)
+  time: O(M*N)
   space: O(1)

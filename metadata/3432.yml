@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3432.cpp
   difficulty: 🟢 Easy
   tags:
-  - Prefix Sum / Math
+  - Prefix Sum
+  - Math
   topics:
   - prefix-sum
   time: O(N)

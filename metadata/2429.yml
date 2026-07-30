@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2429.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation / Greedy
+  - Bit Manipulation
+  - Greedy
   topics:
   - bit-manipulation-xor
   time: O(1)

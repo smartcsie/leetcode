@@ -5,8 +5,9 @@ solutions:
 - file: Solution_1945.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Simulation
+  - String
+  - Simulation
   topics:
   - string
-  time: O(N + K * log(Sum))
+  time: O(N + K * log(SUM))
   space: O(1)

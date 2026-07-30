@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1232.cpp
   difficulty: 🟢 Easy
   tags:
-  - Geometry / Math
+  - Geometry
+  - Math
   topics:
   - math
   time: O(N)

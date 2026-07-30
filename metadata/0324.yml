@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0324.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting / Quickselect
+  - Sorting
+  - Quickselect
   topics:
   - quick-select
   time: O(N)

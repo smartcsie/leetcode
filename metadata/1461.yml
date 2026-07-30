@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1461.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sliding Window / Hash Set / Bit Manipulation
+  - Sliding Window
+  - Hash Set
+  - Bit Manipulation
   topics:
   - variable-size-sliding-window
   time: O(N * K)

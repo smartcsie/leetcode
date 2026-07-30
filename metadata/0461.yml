@@ -8,5 +8,5 @@ solutions:
   - Bit Manipulation
   topics:
   - hamming-distance
-  time: O(k)
+  time: O(K)
   space: O(1)

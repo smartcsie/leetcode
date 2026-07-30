@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0786.cpp
   difficulty: 🟡 Medium
   tags:
-  - Priority Queue / Binary Search
+  - Priority Queue
+  - Binary Search
   topics:
   - priority-queue
   time: O(N log N)

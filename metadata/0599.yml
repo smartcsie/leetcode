@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0599.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table / Array
+  - Hash Table
+  - Array
   topics:
   - hash-table-set
   time: O(N + M)

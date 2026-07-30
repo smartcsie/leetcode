@@ -9,5 +9,5 @@ solutions:
   - Hash Table
   topics:
   - hash-table-set
-  time: O(n)
-  space: O(n)
+  time: O(N)
+  space: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3289.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table / Bit Manipulation
+  - Hash Table
+  - Bit Manipulation
   topics:
   - hash-table-counting
   time: O(N)

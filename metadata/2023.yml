@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2023.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table / String / Single-Pass
+  - Hash Table
+  - String
+  - Single-Pass
   topics:
   - hash-table-counting
   time: O(N * L)

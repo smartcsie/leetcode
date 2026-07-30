@@ -9,5 +9,5 @@ solutions:
   - Math
   topics:
   - dynamic-programming
-  time: O(n)
-  space: O(n)
+  time: O(N)
+  space: O(N)

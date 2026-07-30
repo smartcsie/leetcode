@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1785.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Greedy
+  - Math
+  - Greedy
   topics:
   - greedy
   time: O(N)

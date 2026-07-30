@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0171.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Base Conversion
+  - Math
+  - Base Conversion
   topics:
   - math-digit-decomposition
   time: O(N)

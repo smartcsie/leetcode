@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2006_Hash.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table / Frequency Map
+  - Hash Table
+  - Frequency Map
   topics:
   - hash-table-counting
   time: O(N)

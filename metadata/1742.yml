@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1742.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Simulation / Hash Table
+  - Math
+  - Simulation
+  - Hash Table
   topics:
   - math-digit-decomposition
   time: O(N * D)

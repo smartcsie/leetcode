@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0524.cpp
   difficulty: 🟡 Medium
   tags:
-  - Two Pointers / Sorting
+  - Two Pointers
+  - Sorting
   topics:
   - sorting
   time: O(D log D + D * M)

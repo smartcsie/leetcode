@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2275.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation / Greedy
+  - Bit Manipulation
+  - Greedy
   topics:
   - bit-manipulation-and
   time: O(32 * N)

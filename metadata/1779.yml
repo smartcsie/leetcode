@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1779.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Simulation / Manhattan Distance
+  - Array
+  - Simulation
+  - Manhattan Distance
   topics:
   - 2d-array
   time: O(N)

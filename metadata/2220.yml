@@ -8,5 +8,5 @@ solutions:
   - Bit Manipulation
   topics:
   - hamming-distance
-  time: O(log(max(start, goal)))
+  time: O(log(max(START, GOAL)))
   space: O(1)

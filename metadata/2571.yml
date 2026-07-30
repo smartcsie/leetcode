@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2571.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy / Bit Manipulation / Dynamic Programming
+  - Greedy
+  - Bit Manipulation
+  - Dynamic Programming
   topics:
   - greedy
   time: O(log N)

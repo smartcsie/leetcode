@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1979.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / GCD
+  - Math
+  - GCD
   topics:
   - math-simulation
   time: O(N)

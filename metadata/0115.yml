@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0115.cpp
   difficulty: 🔴 Hard
   tags:
-  - DP / String
+  - DP
+  - String
   topics:
   - dynamic-programming
   time: O(S * T)

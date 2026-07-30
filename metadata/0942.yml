@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0942.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy / Two Pointers
+  - Greedy
+  - Two Pointers
   topics:
   - two-pointers-opposite
   time: O(N)

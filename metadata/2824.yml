@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2824.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Two Pointers / Sorting
+  - Array
+  - Two Pointers
+  - Sorting
   topics:
   - fast-slow-pointers
   time: O(N²)

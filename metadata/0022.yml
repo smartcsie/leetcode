@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0022.cpp
   difficulty: 🟡 Medium
   tags:
-  - Backtracking / String
+  - Backtracking
+  - String
   topics:
   - backtracking-combination
   time: O(4ᴺ/√N)

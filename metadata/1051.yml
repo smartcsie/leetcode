@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1051.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Counting Sort
+  - Array
+  - Counting Sort
   topics:
   - sorting
   time: O(N)

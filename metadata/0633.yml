@@ -5,8 +5,9 @@ solutions:
 - file: Solution_0633.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Two Pointers
+  - Math
+  - Two Pointers
   topics:
   - math
-  time: O(√c)
+  time: O(√C)
   space: O(1)

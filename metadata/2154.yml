@@ -10,5 +10,5 @@ solutions:
   - Simulation
   topics:
   - hash-table-mapping
-  time: O(n)
-  space: O(n)
+  time: O(N)
+  space: O(N)

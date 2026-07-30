@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1018.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Modulo
+  - Math
+  - Modulo
   topics:
   - math
   time: O(N)

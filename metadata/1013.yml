@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1013.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Prefix Sum / Greedy
+  - Array
+  - Prefix Sum
+  - Greedy
   topics:
   - array-linear-scan
   time: O(N)

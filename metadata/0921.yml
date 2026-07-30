@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0921.cpp
   difficulty: 🟡 Medium
   tags:
-  - Stack / Greedy
+  - Stack
+  - Greedy
   topics:
   - greedy
   time: O(N)

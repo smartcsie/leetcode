@@ -9,5 +9,5 @@ solutions:
   - Bit Manipulation
   topics:
   - bit-manipulation-and
-  time: O(n)
-  space: O(n)
+  time: O(N)
+  space: O(N)

@@ -10,8 +10,8 @@ solutions:
   - Stack
   topics:
   - tree-dfs-path
-  time: O(n)
-  space: O(h)
+  time: O(N)
+  space: O(H)
 - file: Solution_0094.cpp
   difficulty: 🟢 Easy
   tags:
@@ -19,5 +19,5 @@ solutions:
   - DFS
   topics:
   - tree
-  time: O(n)
-  space: O(h)
+  time: O(N)
+  space: O(H)

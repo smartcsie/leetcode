@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3828.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Mapping / Simulation
+  - Hash Mapping
+  - Simulation
   topics:
   - hash-table-mapping
   time: O(N * L)

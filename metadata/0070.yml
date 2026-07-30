@@ -12,5 +12,5 @@ solutions:
   topics:
   - dynamic-programming
   - knapsack-problem
-  time: O(n)
+  time: O(N)
   space: O(1)

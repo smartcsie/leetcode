@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2521.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Prime Factorization
+  - Math
+  - Prime Factorization
   topics:
   - prime
   time: O(N*sqrt(M))

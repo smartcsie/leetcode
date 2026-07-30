@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2707.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming / Hash Set
+  - Dynamic Programming
+  - Hash Set
   topics:
   - dynamic-programming
   time: O(N³ + M*L)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3775.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Two Pointers
+  - String
+  - Two Pointers
   topics:
   - string-character-classification
   time: O(N*L)

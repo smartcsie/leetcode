@@ -8,5 +8,5 @@ solutions:
   - Dynamic Programming
   topics:
   - dynamic-programming
-  time: O(m*n)
-  space: O(m*n)
+  time: O(M*N)
+  space: O(M*N)

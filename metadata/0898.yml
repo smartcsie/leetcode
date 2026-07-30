@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0898.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation / Dynamic Programming
+  - Bit Manipulation
+  - Dynamic Programming
   topics:
   - dynamic-programming
   time: O(N * 30)

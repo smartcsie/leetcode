@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1529.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy / State Machine
+  - Greedy
+  - State Machine
   topics:
   - greedy
   time: O(N)

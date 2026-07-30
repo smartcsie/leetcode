@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0018.cpp
   difficulty: 🟡 Medium
   tags:
-  - Two Pointers / Sorting
+  - Two Pointers
+  - Sorting
   topics:
   - two-pointers-opposite
   time: O(N³)

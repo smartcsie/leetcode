@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2278.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Counting
+  - String
+  - Counting
   topics:
   - string-character-classification
   time: O(N)

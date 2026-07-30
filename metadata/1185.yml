@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1185.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Zeller's Congruence
+  - Math
+  - Zeller's Congruence
   topics:
   - math
   time: O(1)

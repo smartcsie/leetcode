@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3477.cpp
   difficulty: 🟢 Easy
   tags:
-  - Simulation / Brute Force
+  - Simulation
+  - Brute Force
   topics:
   - array
   time: O(N^2)

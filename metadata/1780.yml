@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1780.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Base-3
+  - Math
+  - Base-3
   topics:
   - math
   time: O(log₃ N)

@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1863.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation / Math / Combinatorics
+  - Bit Manipulation
+  - Math
+  - Combinatorics
   topics:
   - bit-manipulation-xor
   time: O(N)

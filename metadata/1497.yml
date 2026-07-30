@@ -5,8 +5,9 @@ solutions:
 - file: Solution_1497.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table / Remainder Counting
+  - Hash Table
+  - Remainder Counting
   topics:
   - hash-table-counting
-  time: O(N + k)
-  space: O(k)
+  time: O(N + K)
+  space: O(K)

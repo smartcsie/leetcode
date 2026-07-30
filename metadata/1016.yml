@@ -5,8 +5,10 @@ solutions:
 - file: Solution_1016.cpp
   difficulty: 🟡 Medium
   tags:
-  - String / Bit Manipulation / Sliding Window
+  - String
+  - Bit Manipulation
+  - Sliding Window
   topics:
   - bit-manipulation
-  time: O(N * len)
+  time: O(N * LEN)
   space: O(1)

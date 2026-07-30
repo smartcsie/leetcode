@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0040.cpp
   difficulty: 🟡 Medium
   tags:
-  - Backtracking / Sorting
+  - Backtracking
+  - Sorting
   topics:
   - backtracking-combination
   time: O(2ᴺ)

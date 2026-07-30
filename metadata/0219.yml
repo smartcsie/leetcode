@@ -9,5 +9,5 @@ solutions:
   - Sliding Window
   topics:
   - hash-table-set
-  time: O(n)
-  space: O(min(n,k))
+  time: O(N)
+  space: O(min(N,K))

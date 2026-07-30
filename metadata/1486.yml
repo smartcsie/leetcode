@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1486.cpp
   difficulty: 🟢 Easy
   tags:
-  - Simulation / Bit Manipulation
+  - Simulation
+  - Bit Manipulation
   topics:
   - bit-manipulation-xor
   time: O(N)

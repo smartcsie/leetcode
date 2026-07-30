@@ -5,8 +5,10 @@ solutions:
 - file: Solution_0220.cpp
   difficulty: 🔴 Hard
   tags:
-  - Sliding Window / Ordered Map / Bucket
+  - Sliding Window
+  - Ordered Map
+  - Bucket
   topics:
   - fixed-size-sliding-window
-  time: O(Nlog(min(N,k)))
-  space: O(min(N,k))
+  time: O(Nlog(min(N,K)))
+  space: O(min(N,K))

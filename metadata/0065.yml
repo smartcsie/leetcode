@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0065.cpp
   difficulty: 🔴 Hard
   tags:
-  - String / State Machine
+  - String
+  - State Machine
   topics:
   - string-state-machine
   time: O(N)

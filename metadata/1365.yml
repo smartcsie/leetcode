@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1365.cpp
   difficulty: 🟢 Easy
   tags:
-  - Counting Sort / Prefix Sum
+  - Counting Sort
+  - Prefix Sum
   topics:
   - prefix-sum
   time: O(N + K)

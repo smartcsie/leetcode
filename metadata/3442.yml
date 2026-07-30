@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3442.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Hash Map
+  - String
+  - Hash Map
   topics:
   - hash-table-counting
   time: O(N)

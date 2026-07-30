@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3456.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Block-Skipping
+  - String
+  - Block-Skipping
   topics:
   - string
   time: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1647.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy / Hash Set
+  - Greedy
+  - Hash Set
   topics:
   - hash-table-counting
   time: O(N + K log K)

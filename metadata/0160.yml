@@ -9,5 +9,5 @@ solutions:
   - Two Pointers
   topics:
   - two-pointers-other
-  time: O(n+m)
+  time: O(N+M)
   space: O(1)

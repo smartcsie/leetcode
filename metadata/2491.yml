@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2491.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array / Two Pointers / Sorting
+  - Array
+  - Two Pointers
+  - Sorting
   topics:
   - sorting
   time: O(N log N)

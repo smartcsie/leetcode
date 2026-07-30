@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1375.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array / Simulation / Greedy
+  - Array
+  - Simulation
+  - Greedy
   topics:
   - math
   time: O(N)

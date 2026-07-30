@@ -5,7 +5,9 @@ solutions:
 - file: Solution_3487.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array / Hash Set / Greedy
+  - Array
+  - Hash Set
+  - Greedy
   topics:
   - hash-table-set
   time: O(N)

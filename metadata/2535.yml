@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2535.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Array
+  - Math
+  - Array
   topics:
   - math-digit-decomposition
   time: O(N * log M)

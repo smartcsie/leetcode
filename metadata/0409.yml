@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0409.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table / Greedy
+  - Hash Table
+  - Greedy
   topics:
   - greedy
   time: O(N)

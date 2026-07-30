@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1588.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Math (Contribution)
+  - Array
+  - Math (Contribution)
   topics:
   - math-combination
   time: O(N)
@@ -13,7 +14,8 @@ solutions:
 - file: Solution_1588_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Prefix Sum
+  - Array
+  - Prefix Sum
   topics:
   - prefix-sum
   time: O(N²)

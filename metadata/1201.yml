@@ -9,5 +9,5 @@ solutions:
   - Math
   topics:
   - binary-search
-  time: O(log(2e9))
+  time: O(log(2E9))
   space: O(1)

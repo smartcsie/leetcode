@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1910.cpp
   difficulty: 🟡 Medium
   tags:
-  - Stack / String
+  - Stack
+  - String
   topics:
   - string
   time: O(N * M)

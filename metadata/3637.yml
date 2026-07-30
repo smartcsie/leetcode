@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3637.cpp
   difficulty: 🟢 Easy
   tags:
-  - Two Pointers / State Transition
+  - Two Pointers
+  - State Transition
   topics:
   - two-pointers-same
   time: O(N)

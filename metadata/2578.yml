@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2578.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy / Sorting
+  - Greedy
+  - Sorting
   topics:
   - greedy
   time: O(NlogN)

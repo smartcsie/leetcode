@@ -5,7 +5,9 @@ solutions:
 - file: Solution_3306.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sliding Window / Two Pointers / Difference Technique
+  - Sliding Window
+  - Two Pointers
+  - Difference Technique
   topics:
   - variable-size-sliding-window
   time: O(N)

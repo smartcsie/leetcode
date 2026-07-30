@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3992.cpp
   difficulty: 🟡 Medium
   tags:
-  - Two Pointers / Swap
+  - Two Pointers
+  - Swap
   topics:
   - two-pointers-swap
   time: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2342.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table / Math
+  - Hash Table
+  - Math
   topics:
   - hash-table-mapping
   time: O(N*logM)

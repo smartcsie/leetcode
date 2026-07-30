@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2000.cpp
   difficulty: 🟢 Easy
   tags:
-  - Two Pointers / String
+  - Two Pointers
+  - String
   topics:
   - two-pointers-opposite
   time: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_949.cpp
   difficulty: 🟡 Medium
   tags:
-  - Permutation / Math
+  - Permutation
+  - Math
   topics:
   - math-permutation
   time: O(1)

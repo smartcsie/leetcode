@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0653.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree / Hash Table
+  - Tree
+  - Hash Table
   topics:
   - binary-search-tree
   time: O(N)

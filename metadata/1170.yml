@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1170.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting / Binary Search
+  - Sorting
+  - Binary Search
   topics:
   - binary-search-build-in
   time: O(NlogN + MlogN)

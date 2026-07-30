@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2507.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Prime Factorization
+  - Math
+  - Prime Factorization
   topics:
   - math-factor-enumeration
   time: O(log N * sqrt(N))

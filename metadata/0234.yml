@@ -10,5 +10,5 @@ solutions:
   - Vector
   topics:
   - linked-list
-  time: O(n)
-  space: O(n)
+  time: O(N)
+  space: O(N)

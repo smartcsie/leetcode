@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0516.cpp
   difficulty: 🟡 Medium
   tags:
-  - DP / String
+  - DP
+  - String
   topics:
   - dynamic-programming
   time: O(N²)

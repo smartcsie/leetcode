@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3770.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Prefix Sum
+  - Math
+  - Prefix Sum
   topics:
   - prime
   time: O(R log log R)

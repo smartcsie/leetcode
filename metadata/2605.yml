@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2605.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation / Bitmask
+  - Bit Manipulation
+  - Bitmask
   topics:
   - bit-manipulation-mask
   time: O(N + M)

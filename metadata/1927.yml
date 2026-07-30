@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1927.cpp
   difficulty: 🟡 Medium
   tags:
-  - Game Theory / Math
+  - Game Theory
+  - Math
   topics:
   - math
   time: O(N)

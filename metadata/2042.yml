@@ -9,5 +9,5 @@ solutions:
   - Parsing
   topics:
   - string
-  time: O(n)
+  time: O(N)
   space: O(1)

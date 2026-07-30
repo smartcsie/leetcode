@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1493.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sliding Window / Two Pointers
+  - Sliding Window
+  - Two Pointers
   topics:
   - fixed-size-sliding-window
   time: O(N)

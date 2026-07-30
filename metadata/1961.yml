@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1961.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Simulation
+  - String
+  - Simulation
   topics:
   - string
   time: O(S)

@@ -5,7 +5,9 @@ solutions:
 - file: Solution_477.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Bit Manipulation / Array
+  - Math
+  - Bit Manipulation
+  - Array
   topics:
   - bit-manipulation-xor
   time: O(31 * N)

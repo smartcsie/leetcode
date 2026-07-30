@@ -5,7 +5,10 @@ solutions:
 - file: Solution_2182.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy / String / Two Pointers / Counting
+  - Greedy
+  - String
+  - Two Pointers
+  - Counting
   topics:
   - greedy
   time: O(N)

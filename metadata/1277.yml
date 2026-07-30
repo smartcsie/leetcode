@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1277.cpp
   difficulty: 🟡 Medium
   tags:
-  - Matrix / Dynamic Programming
+  - Matrix
+  - Dynamic Programming
   topics:
   - dynamic-programming
   time: O(M * N)

@@ -9,5 +9,5 @@ solutions:
   - Stack
   topics:
   - stack
-  time: O(n)
-  space: O(n)
+  time: O(N)
+  space: O(N)

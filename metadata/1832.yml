@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1832.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table / Bit Manipulation / String
+  - Hash Table
+  - Bit Manipulation
+  - String
   topics:
   - bit-manipulation
   time: O(N)

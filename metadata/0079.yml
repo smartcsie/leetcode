@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0079.cpp
   difficulty: 🟡 Medium
   tags:
-  - DFS / Backtracking
+  - DFS
+  - Backtracking
   topics:
   - backtracking-combination
   time: O(N*3ᴸ)

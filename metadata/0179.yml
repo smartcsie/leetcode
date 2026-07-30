@@ -9,5 +9,5 @@ solutions:
   - String
   topics:
   - sorting
-  time: O(NlogN*k)
-  space: O(N*k)
+  time: O(NlogN*K)
+  space: O(N*K)

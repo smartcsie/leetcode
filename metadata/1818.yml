@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1818.cpp
   difficulty: 🟡 Medium
   tags:
-  - Binary Search / Greedy
+  - Binary Search
+  - Greedy
   topics:
   - binary-search-build-in
   time: O(N log N)

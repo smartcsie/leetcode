@@ -5,7 +5,8 @@ solutions:
 - file: null
   difficulty: 🟡 Medium
   tags:
-  - Greedy / Bit Manipulation
+  - Greedy
+  - Bit Manipulation
   topics:
   - greedy
   time: O(1)

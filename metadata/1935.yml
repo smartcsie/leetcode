@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1935.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Stream
+  - String
+  - Stream
   topics:
   - string-character-classification
   time: O(N * M)

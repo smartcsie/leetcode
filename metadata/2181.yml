@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2181.cpp
   difficulty: 🟡 Medium
   tags:
-  - Linked List / In-place Modification
+  - Linked List
+  - In-place Modification
   topics:
   - linked-list
   time: O(N)

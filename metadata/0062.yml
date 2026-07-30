@@ -5,8 +5,10 @@ solutions:
 - file: Solution_0062.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Combinatorics / DP
+  - Math
+  - Combinatorics
+  - DP
   topics:
   - math-combination
-  time: O(min(m, n))
+  time: O(min(M, N))
   space: O(1)

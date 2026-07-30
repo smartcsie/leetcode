@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2966.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array / Greedy / Sorting
+  - Array
+  - Greedy
+  - Sorting
   topics:
   - sorting
   time: O(N log N)

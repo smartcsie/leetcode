@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1893.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Bitset / Simulation
+  - Array
+  - Bitset
+  - Simulation
   topics:
   - bit-manipulation
   time: O(N * L)

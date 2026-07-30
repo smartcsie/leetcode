@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3304.cpp
   difficulty: 🟢 Easy
   tags:
-  - Simulation / Recursion
+  - Simulation
+  - Recursion
   topics:
   - string
   time: O(K)

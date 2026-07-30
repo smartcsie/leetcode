@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1967.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Search
+  - String
+  - Search
   topics:
   - string-substring
   time: O(N * M * K)

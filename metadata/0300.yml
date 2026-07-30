@@ -9,8 +9,8 @@ solutions:
   - Binary Search
   topics:
   - binary-search
-  time: O(nlogn)
-  space: O(n)
+  time: O(NlogN)
+  space: O(N)
 - file: Solution_0300_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -19,4 +19,4 @@ solutions:
   topics:
   - dynamic-programming
   time: O(N²)
-  space: O(n)
+  space: O(N)

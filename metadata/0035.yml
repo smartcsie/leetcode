@@ -8,5 +8,5 @@ solutions:
   - Binary Search
   topics:
   - binary-search-build-in
-  time: O(logn)
+  time: O(logN)
   space: O(1)

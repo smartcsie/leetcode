@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1260.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Simulation
+  - Array
+  - Simulation
   topics:
   - 2d-array
   time: O(M * N)

@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2160.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Greedy / Sorting
+  - Math
+  - Greedy
+  - Sorting
   topics:
   - math-digit-decomposition
   time: O(1)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0697.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Map / One-pass
+  - Hash Map
+  - One-pass
   topics:
   - hash-table-counting
   time: O(N)

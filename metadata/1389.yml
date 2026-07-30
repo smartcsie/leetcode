@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1389.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Simulation
+  - Array
+  - Simulation
   topics:
   - array
   time: O(N²)

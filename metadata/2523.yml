@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2523.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Sieve
+  - Math
+  - Sieve
   topics:
   - prime
   time: O(Nloglog N)

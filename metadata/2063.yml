@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2063.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Contribution Technique
+  - Math
+  - Contribution Technique
   topics:
   - math
   time: O(N)

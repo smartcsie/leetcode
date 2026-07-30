@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1513.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / String / Dynamic Programming
+  - Math
+  - String
+  - Dynamic Programming
   topics:
   - math-combination
   time: O(N)

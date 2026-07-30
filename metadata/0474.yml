@@ -9,5 +9,5 @@ solutions:
   - 0-1 Knapsack
   topics:
   - knapsack-problem
-  time: O(L m*n)
-  space: O(m * n)
+  time: O(L M*N)
+  space: O(M * N)

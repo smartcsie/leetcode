@@ -5,7 +5,9 @@ solutions:
 - file: Solution_3513.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Bit Manipulation / Brainteaser
+  - Math
+  - Bit Manipulation
+  - Brainteaser
   topics:
   - bit-manipulation-xor
   time: O(log N)

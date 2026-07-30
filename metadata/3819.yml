@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3819.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Two Pointers
+  - Array
+  - Two Pointers
   topics:
   - two-pointers-same
   time: O(N)

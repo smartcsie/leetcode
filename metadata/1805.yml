@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1805.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Hash Set
+  - String
+  - Hash Set
   topics:
   - hash-table-set
   time: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2645.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy / Simulation
+  - Greedy
+  - Simulation
   topics:
   - greedy
   time: O(N)

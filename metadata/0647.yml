@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0647.cpp
   difficulty: 🟡 Medium
   tags:
-  - DP / String
+  - DP
+  - String
   topics:
   - dynamic-programming
   - two-pointers-center-expansion

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1021.cpp
   difficulty: 🟢 Easy
   tags:
-  - Stack / Counter
+  - Stack
+  - Counter
   topics:
   - stack
   time: O(N)

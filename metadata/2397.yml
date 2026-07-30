@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2397.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation / Bitmask / Combinatorics
+  - Bit Manipulation
+  - Bitmask
+  - Combinatorics
   topics:
   - bit-bitmask-subset-enumeration
   time: O(2ᴺ*M + M*N)

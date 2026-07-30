@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3618.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Sieve
+  - Math
+  - Sieve
   topics:
   - prime
   time: O(N + RloglogR)

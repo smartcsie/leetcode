@@ -10,5 +10,5 @@ solutions:
   - Counting
   topics:
   - hash-table-counting
-  time: O(n)
+  time: O(N)
   space: O(1)

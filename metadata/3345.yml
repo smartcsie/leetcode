@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3345.cpp
   difficulty: 🟢 Easy
   tags:
-  - Brute Force / Digit Manipulation
+  - Brute Force
+  - Digit Manipulation
   topics:
   - math-digit-decomposition
   time: O(K × D)

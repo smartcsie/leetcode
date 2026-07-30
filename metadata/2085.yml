@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2085.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Map / Bitmask
+  - Hash Map
+  - Bitmask
   topics:
   - bit-manipulation
   time: O(N + M)

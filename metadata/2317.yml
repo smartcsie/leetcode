@@ -8,5 +8,5 @@ solutions:
   - Bit Manipulation
   topics:
   - bit-manipulation-xor
-  time: O(n)
+  time: O(N)
   space: O(1)

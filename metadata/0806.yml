@@ -5,7 +5,9 @@ solutions:
 - file: Solution_806.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / String / Simulation
+  - Array
+  - String
+  - Simulation
   topics:
   - string
   time: O(N)

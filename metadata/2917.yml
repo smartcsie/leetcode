@@ -8,5 +8,5 @@ solutions:
   - Bit Manipulation
   topics:
   - bit-manipulation-or
-  time: O(N * log(max_val))
+  time: O(N * log(max_VAL))
   space: O(1)

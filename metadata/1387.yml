@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1387.cpp
   difficulty: 🟡 Medium
   tags:
-  - Recursion / Collatz Conjecture / Quickselect
+  - Recursion
+  - Collatz Conjecture
+  - Quickselect
   topics:
   - quick-select
   time: O(N * S)*

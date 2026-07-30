@@ -10,5 +10,5 @@ solutions:
   - Sorting
   topics:
   - hash-table-counting
-  time: O(nlogn)
-  space: O(n)
+  time: O(NlogN)
+  space: O(N)

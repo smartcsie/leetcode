@@ -9,5 +9,5 @@ solutions:
   - Two Pointers
   topics:
   - linked-list
-  time: O(n)
+  time: O(N)
   space: O(1)

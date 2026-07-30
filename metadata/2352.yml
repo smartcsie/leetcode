@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2352.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Map / Matrix Simulation
+  - Hash Map
+  - Matrix Simulation
   topics:
   - hash-table-counting
   time: O(N³logN) 或 O(N²log N)*

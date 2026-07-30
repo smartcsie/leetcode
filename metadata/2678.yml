@@ -8,5 +8,5 @@ solutions:
   - String
   topics:
   - string-character-classification
-  time: O(n)
+  time: O(N)
   space: O(1)

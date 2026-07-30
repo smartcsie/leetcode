@@ -10,5 +10,5 @@ solutions:
   - DFS
   topics:
   - tree-bfs-level-order
-  time: O(n)
-  space: O(w)
+  time: O(N)
+  space: O(W)

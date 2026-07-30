@@ -5,8 +5,9 @@ solutions:
 - file: Solution_2319.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Matrix
+  - Array
+  - Matrix
   topics:
   - 2d-array
-  time: O(n²)
+  time: O(N²)
   space: O(1)

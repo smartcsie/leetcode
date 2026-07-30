@@ -9,5 +9,5 @@ solutions:
   - Linked List
   topics:
   - priority-queue
-  time: O(Nlogk)
-  space: O(k)
+  time: O(NlogK)
+  space: O(K)

@@ -523,17 +523,15 @@ const KNOWN_TOPICS = ["math","math-combination","math-permutation","math-factor-
 "bit-manipulation-mask","bit-manipulation-or","bit-manipulation-and","bit-manipulation-xor",
 "hamming-distance","bit-bitmask-subset-enumeration","string","string-state-machine",
 "string-substring-enumeration","string-character-classification","string-substring",
-"string-substring-2","string-kmp","array","array-continuous-counting",
-"array-continuous-counting-2","array-linear-scan","array-difference-array",
+"string-kmp","array","array-continuous-counting","array-linear-scan","array-difference-array",
 "array-boyer-moore","2d-array","binary-search","binary-search-build-in",
 "binary-search-tree","interval","prefix-sum","linked-list","linked-list-circular",
 "fast-slow-pointers","two-pointers-opposite","two-pointers-same","two-pointers-partition",
 "two-pointers-swap","two-pointers-center-expansion","two-pointers-other",
 "hash-table-counting","hash-table-mapping","hash-table-set","stack","monotonic-stack",
 "monotonic-queue","priority-queue","quick-select","tree","tree-bfs-level-order",
-"tree-dfs-path","trie","dfs-bfs","sorting","sorting-cycle-decomposition","sorting-2",
-"dynamic-programming","dynamic-programming-2","dynamic-programming-3",
-"dynamic-programming-4","knapsack-problem","knapsack-problem-2",
+"tree-dfs-path","trie","dfs-bfs","sorting","sorting-cycle-decomposition",
+"dynamic-programming","knapsack-problem",
 "dynamic-programming-kadane-algorithm","greedy","backtracking-combination",
 "backtracking-permutation","negative-marking","fixed-size-sliding-window",
 "variable-size-sliding-window","sql","uncategorized"];
@@ -580,14 +578,9 @@ function onTitleChange() {
 document.getElementById('url').addEventListener('input', function() { this.dataset.touched = '1'; });
 document.getElementById('commitMsg').addEventListener('input', function() { this.dataset.touched = '1'; });
 
-function topicsDatalistHtml(id) {
-  return `<datalist id="${id}">` + KNOWN_TOPICS.map(t => `<option value="${t}">`).join('') + `</datalist>`;
-}
-
 function addSolutionBlock(prefill) {
   solutionCount++;
   const idx = solutionCount;
-  const listId = `topicsList${idx}`;
   const wrap = document.createElement('div');
   wrap.className = 'solution-block';
   wrap.id = `sol-${idx}`;
@@ -616,9 +609,8 @@ function addSolutionBlock(prefill) {
       <input type="text" class="sol-tags-custom" placeholder="其他自訂標籤（逗號分隔，選填）" style="margin-top:6px;">
     </div>
     <div class="field">
-      <label>分類主題 <span style="color: var(--red);">*必填</span> <span class="hint">(逗號分隔，對應 docs/topics/*.md)</span></label>
-      <input type="text" class="sol-topics" list="${listId}" placeholder="array, two-pointers-opposite">
-      ${topicsDatalistHtml(listId)}
+      <label>分類主題 <span style="color: var(--red);">*必填</span> <span class="hint">(可複選；按住 Ctrl/Cmd 點選多個，對應 docs/topics/*.md)</span></label>
+      <select class="sol-topics-select multi-select" multiple size="8"></select>
     </div>
     <div class="field">
       <label>完整 .cpp 程式碼 <span class="hint">(含統一格式註解)</span></label>
@@ -632,6 +624,13 @@ function addSolutionBlock(prefill) {
     o.value = opt.label;
     o.textContent = opt.label;
     tagSelect.appendChild(o);
+  });
+  const topicSelect = wrap.querySelector('.sol-topics-select');
+  TAG_OPTIONS.forEach(opt => {
+    const o = document.createElement('option');
+    o.value = opt.slug;
+    o.textContent = `${opt.label}  (${opt.slug})`;
+    topicSelect.appendChild(o);
   });
   onNumberChange();
 }
@@ -676,7 +675,7 @@ function buildYaml() {
     const selectedTags = Array.from(block.querySelector('.sol-tags-select').selectedOptions).map(o => o.value);
     const customTags = block.querySelector('.sol-tags-custom').value.split(',').map(s => s.trim()).filter(Boolean);
     const tags = [...selectedTags, ...customTags];
-    const topics = block.querySelector('.sol-topics').value.split(',').map(s => s.trim()).filter(Boolean);
+    const topics = Array.from(block.querySelector('.sol-topics-select').selectedOptions).map(o => o.value);
     const time = block.querySelector('.sol-time').value.trim();
     const space = block.querySelector('.sol-space').value.trim();
     const code = block.querySelector('.sol-code').value;
@@ -914,10 +913,14 @@ function parseAndFill() {
 
   let topicNote;
   if (suggestedTopics.length) {
-    block.querySelector('.sol-topics').value = suggestedTopics.join(', ');
-    topicNote = `👉 已自動猜測分類主題：${suggestedTopics.join(', ')}（請確認是否正確，不對可自行修改）`;
+    const topicSelect = block.querySelector('.sol-topics-select');
+    suggestedTopics.forEach(slug => {
+      const opt = Array.from(topicSelect.options).find(o => o.value === slug);
+      if (opt) opt.selected = true;
+    });
+    topicNote = `👉 已自動猜測分類主題：${suggestedTopics.join(', ')}（請確認是否正確，不對可自行調整下拉選單）`;
   } else {
-    topicNote = '👉 無法自動猜測分類主題，請手動選擇。';
+    topicNote = '👉 無法自動猜測分類主題，請從下拉選單手動選擇。';
   }
 
   document.getElementById('parseStatus').innerHTML = status.map(s => `• ${s}`).join('<br>') +

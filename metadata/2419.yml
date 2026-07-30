@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2419.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation / Greedy / Array
+  - Bit Manipulation
+  - Greedy
+  - Array
   topics:
   - bit-manipulation-and
   time: O(N)

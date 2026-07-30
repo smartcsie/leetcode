@@ -5,7 +5,9 @@ solutions:
 - file: Solution_3392.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Sliding Window / Simulation
+  - Array
+  - Sliding Window
+  - Simulation
   topics:
   - fixed-size-sliding-window
   time: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0437.cpp
   difficulty: 🟡 Medium
   tags:
-  - DFS / Prefix Sum
+  - DFS
+  - Prefix Sum
   topics:
   - tree-dfs-path
   time: O(N)

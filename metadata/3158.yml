@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3158.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation / Array
+  - Bit Manipulation
+  - Array
   topics:
   - bit-manipulation-xor
   time: O(N)

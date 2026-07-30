@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3407.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Pattern Matching
+  - String
+  - Pattern Matching
   topics:
   - string
   time: O(N + M)

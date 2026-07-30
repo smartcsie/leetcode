@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0003.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sliding Window / Hash Table
+  - Sliding Window
+  - Hash Table
   topics:
   - fixed-size-sliding-window
   time: O(N)

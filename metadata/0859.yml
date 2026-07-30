@@ -5,7 +5,9 @@ solutions:
 - file: Solution_859.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Hash Table / Two Pointers
+  - String
+  - Hash Table
+  - Two Pointers
   topics:
   - hash-table-set
   time: O(N)

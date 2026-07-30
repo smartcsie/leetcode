@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2815.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy / Hashing
+  - Greedy
+  - Hashing
   topics:
   - greedy
   time: O(N*D)

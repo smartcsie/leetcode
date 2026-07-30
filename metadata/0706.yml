@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0706.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table / Linked List
+  - Hash Table
+  - Linked List
   topics:
   - hash-table-set
   time: O(N/K)

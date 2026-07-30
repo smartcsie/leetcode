@@ -10,8 +10,8 @@ solutions:
   - Sorting
   topics:
   - hash-table-mapping
-  time: O(n)
-  space: O(n)
+  time: O(N)
+  space: O(N)
 - file: Solution_2441_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -20,5 +20,5 @@ solutions:
   - Sorting
   topics:
   - two-pointers-other
-  time: O(n)
-  space: O(n)
+  time: O(N)
+  space: O(N)

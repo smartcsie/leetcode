@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2600.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Greedy
+  - Math
+  - Greedy
   topics:
   - math
   time: O(1)

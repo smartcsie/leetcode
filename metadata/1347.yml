@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1347.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table / String / Counting
+  - Hash Table
+  - String
+  - Counting
   topics:
   - string-character-classification
   time: O(N)

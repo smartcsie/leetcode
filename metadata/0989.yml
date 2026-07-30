@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0989.cpp
   difficulty: 🟢 Easy
   tags:
-  - Simulation / Carry Propagation
+  - Simulation
+  - Carry Propagation
   topics:
   - math-simulation
   time: O(max(N, log K))

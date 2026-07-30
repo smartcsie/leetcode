@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1379.cpp
   difficulty: 🟢 Easy
   tags:
-  - DFS / Tree Traversal
+  - DFS
+  - Tree Traversal
   topics:
   - tree-dfs-path
   time: O(N)

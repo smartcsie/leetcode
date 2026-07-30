@@ -10,5 +10,5 @@ solutions:
   - Recursion
   topics:
   - tree
-  time: O(n)
-  space: O(h)
+  time: O(N)
+  space: O(H)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3132.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting / Two Pointers
+  - Sorting
+  - Two Pointers
   topics:
   - two-pointers-same
   time: O(NlogN)

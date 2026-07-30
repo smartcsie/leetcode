@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2745.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy / Math / Brainteaser
+  - Greedy
+  - Math
+  - Brainteaser
   topics:
   - greedy
   time: O(1)

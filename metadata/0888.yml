@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0888.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Set / Math
+  - Hash Set
+  - Math
   topics:
   - hash-table-set
   time: O(A + B)

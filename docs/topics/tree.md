@@ -2,16 +2,16 @@
 
 | # | 題目 | 難度 | 標籤 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
-| 94 | [Binary Tree Inorder Traversal](../problems/0094.md) | 🟢 Easy | Tree, DFS | O(n) | O(h) |
-| 100 | [Same Tree](../problems/0100.md) | 🟢 Easy | Tree | O(n) | O(h) |
+| 94 | [Binary Tree Inorder Traversal](../problems/0094.md) | 🟢 Easy | Tree, DFS | O(N) | O(H) |
+| 100 | [Same Tree](../problems/0100.md) | 🟢 Easy | Tree | O(N) | O(H) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](../problems/0105.md) | 🟡 Medium | Tree, Recursion | O(N) | O(N) |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](../problems/0106.md) | 🟡 Medium | Tree, Recursion | O(N) | O(N) |
-| 144 | [Binary Tree Preorder Traversal](../problems/0144.md) | 🟢 Easy | Tree | O(n) | O(h) |
-| 145 | [Binary Tree Postorder Traversal](../problems/0145.md) | 🟢 Easy | Tree | O(n) | O(h) |
-| 226 | [Invert Binary Tree](../problems/0226.md) | 🟢 Easy | Tree | O(n) | O(h) |
-| 236 | [Lowest Common Ancestor of a Binary Tree](../problems/0236.md) | 🟡 Medium | Tree, DFS, Recursion | O(n) | O(h) |
-| 589 | [N-ary Tree Preorder Traversal](../problems/0589.md) | 🟢 Easy | Tree | O(n) | O(h) |
-| 590 | [N-ary Tree Postorder Traversal](../problems/0590.md) | 🟢 Easy | Tree | O(n) | O(h) |
+| 144 | [Binary Tree Preorder Traversal](../problems/0144.md) | 🟢 Easy | Tree | O(N) | O(H) |
+| 145 | [Binary Tree Postorder Traversal](../problems/0145.md) | 🟢 Easy | Tree | O(N) | O(H) |
+| 226 | [Invert Binary Tree](../problems/0226.md) | 🟢 Easy | Tree | O(N) | O(H) |
+| 236 | [Lowest Common Ancestor of a Binary Tree](../problems/0236.md) | 🟡 Medium | Tree, DFS, Recursion | O(N) | O(H) |
+| 589 | [N-ary Tree Preorder Traversal](../problems/0589.md) | 🟢 Easy | Tree | O(N) | O(H) |
+| 590 | [N-ary Tree Postorder Traversal](../problems/0590.md) | 🟢 Easy | Tree | O(N) | O(H) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](../problems/0889.md) | 🟡 Medium | Tree, Recursion | O(N) | O(N) |
 | 2236 | [Root Equals Sum of Children](../problems/2236.md) | 🟢 Easy | Tree | O(1) | O(1) |
-| 2331 | [Evaluate Boolean Binary Tree](../problems/2331.md) | 🟢 Easy | Tree, DFS, Recursion | O(n) | O(h) |
+| 2331 | [Evaluate Boolean Binary Tree](../problems/2331.md) | 🟢 Easy | Tree, DFS, Recursion | O(N) | O(H) |

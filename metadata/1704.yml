@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1704.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Bit Manipulation
+  - String
+  - Bit Manipulation
   topics:
   - string-character-classification
   time: O(N)

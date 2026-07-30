@@ -8,5 +8,5 @@ solutions:
   - Bit Manipulation
   topics:
   - bit-manipulation-and
-  time: O(logn)
+  time: O(logN)
   space: O(1)

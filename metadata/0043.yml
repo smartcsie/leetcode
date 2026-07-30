@@ -5,7 +5,8 @@ solutions:
 - file: Solution_43.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / String
+  - Math
+  - String
   topics:
   - string
   time: O(M * N)

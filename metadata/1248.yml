@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1248.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array / Two Pointers / Sliding Window
+  - Array
+  - Two Pointers
+  - Sliding Window
   topics:
   - variable-size-sliding-window
   time: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0415.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Math
+  - String
+  - Math
   topics:
   - math-simulation
   time: O(max(N, M))

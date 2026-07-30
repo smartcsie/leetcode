@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1854.cpp
   difficulty: 🟢 Easy
   tags:
-  - Difference Array / Sweep Line
+  - Difference Array
+  - Sweep Line
   topics:
   - array-difference-array
   time: O(N + Y)

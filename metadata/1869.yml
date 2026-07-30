@@ -5,7 +5,8 @@ solutions:
 - file: null
   difficulty: 🟢 Easy
   tags:
-  - Simulation / Linear Scan
+  - Simulation
+  - Linear Scan
   topics:
   - array-continuous-counting
   time: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1880.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Math
+  - String
+  - Math
   topics:
   - math-digit-decomposition
   time: O(N)

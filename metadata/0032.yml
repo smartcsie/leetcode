@@ -6,8 +6,9 @@ solutions:
   difficulty: 🔴 Hard
   tags:
   - String
-  - Stack / DP
+  - Stack
+  - DP
   topics:
   - stack
-  time: O(n)
-  space: O(n)
+  time: O(N)
+  space: O(N)

@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1309.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table / String Parsing
+  - Hash Table
+  - String Parsing
   topics:
   - hash-table-mapping
   time: O(N)

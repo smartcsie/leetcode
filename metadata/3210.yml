@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3210.cpp
   difficulty: 🟢 Easy
   tags:
-  - String / Cyclic Shift
+  - String
+  - Cyclic Shift
   topics:
   - string
   time: O(N)

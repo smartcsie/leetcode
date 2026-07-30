@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0832.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Two Pointers
+  - Array
+  - Two Pointers
   topics:
   - 2d-array
   time: O(N * M)

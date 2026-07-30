@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2614.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Trial Division
+  - Math
+  - Trial Division
   topics:
   - prime
   time: O(N * sqrt(M))

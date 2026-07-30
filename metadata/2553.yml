@@ -9,5 +9,5 @@ solutions:
   - Math
   topics:
   - math-digit-decomposition
-  time: O(n * log(max_val))
-  space: O(n * log(max_val))
+  time: O(N * log(max_VAL))
+  space: O(N * log(max_VAL))

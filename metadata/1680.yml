@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1680.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Bit Manipulation
+  - Math
+  - Bit Manipulation
   topics:
   - bit-manipulation
   time: O(N)

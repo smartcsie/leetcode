@@ -5,8 +5,9 @@ solutions:
 - file: Solution_0970.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Hash Table
+  - Math
+  - Hash Table
   topics:
   - math
-  time: O(log_x(bound) * log_y(bound))
+  time: O(log_X(BOUND) * log_Y(BOUND))
   space: O(S)

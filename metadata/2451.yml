@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2451.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Map / Difference Array
+  - Hash Map
+  - Difference Array
   topics:
   - hash-table-counting
   time: O(N * M)

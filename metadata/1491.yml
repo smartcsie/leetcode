@@ -5,7 +5,9 @@ solutions:
 - file: Solution_1491.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Sorting / Math
+  - Array
+  - Sorting
+  - Math
   topics:
   - array
   time: O(N)

@@ -5,7 +5,9 @@ solutions:
 - file: Solution_2341.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Hash Table / Counting
+  - Array
+  - Hash Table
+  - Counting
   topics:
   - hash-table-counting
   time: O(N)

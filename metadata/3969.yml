@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3969.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Brute Force
+  - Array
+  - Brute Force
   topics:
   - array
   time: O(N²)

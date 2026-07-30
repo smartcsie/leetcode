@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2643.cpp
   difficulty: 🟢 Easy
   tags:
-  - Matrix / Linear Scan
+  - Matrix
+  - Linear Scan
   topics:
   - array-linear-scan
   time: O(M*N)

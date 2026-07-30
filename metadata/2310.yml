@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2310.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Enumeration
+  - Math
+  - Enumeration
   topics:
   - math
   time: O(10)

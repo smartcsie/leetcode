@@ -5,7 +5,8 @@ solutions:
 - file: Solution_401.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation / Brute Force
+  - Bit Manipulation
+  - Brute Force
   topics:
   - bit-manipulation
   time: O(1)

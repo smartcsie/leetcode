@@ -5,7 +5,8 @@ solutions:
 - file: Solution_3918.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Sieve
+  - Math
+  - Sieve
   topics:
   - prime
   time: O(R log log R)

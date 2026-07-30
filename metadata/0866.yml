@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0866.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math / Palindrome
+  - Math
+  - Palindrome
   topics:
   - math-palindrome
   time: O(sqrt(P) * 10^(L/2))

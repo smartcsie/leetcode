@@ -5,7 +5,8 @@ solutions:
 - file: Solution_2859.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation / Built-in Function
+  - Bit Manipulation
+  - Built-in Function
   topics:
   - bit-manipulation
   time: O(N)

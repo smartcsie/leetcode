@@ -3,8 +3,8 @@
  * 難度：待補充
  * 描述：待補充
  *
- * 時間複雜度：O(m * n) - 需要填滿 m x n 的 DP 表格。 O(M * N) - LCS DP，M、N 為兩字串長度。
- * 空間複雜度：O(m * n) - 二維 DP 陣列空間。 O(M * N) - DP 表大小為 M * N。
+ * 時間複雜度：O(M * N) - 需要填滿 m x n 的 DP 表格。 O(M * N) - LCS DP，M、N 為兩字串長度。
+ * 空間複雜度：O(M * N) - 二維 DP 陣列空間。 O(M * N) - DP 表大小為 M * N。
  *
  * 解法思路：
  * 基於 LCS (Longest Common Subsequence) 的轉換

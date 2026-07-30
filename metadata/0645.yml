@@ -5,7 +5,9 @@ solutions:
 - file: Solution_0645.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array / Hash Table / Math
+  - Array
+  - Hash Table
+  - Math
   topics:
   - negative-marking
   time: O(N)

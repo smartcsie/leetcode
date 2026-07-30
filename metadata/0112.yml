@@ -9,5 +9,5 @@ solutions:
   - DFS
   topics:
   - tree-dfs-path
-  time: O(n)
-  space: O(h)
+  time: O(N)
+  space: O(H)

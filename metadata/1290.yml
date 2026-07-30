@@ -5,7 +5,8 @@ solutions:
 - file: Solution_1290.cpp
   difficulty: 🟢 Easy
   tags:
-  - Linked List / Bit Manipulation
+  - Linked List
+  - Bit Manipulation
   topics:
   - linked-list
   time: O(N)

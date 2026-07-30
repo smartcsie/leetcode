@@ -8,7 +8,7 @@ solutions:
   - Bit-Manipulation
   topics:
   - bit-manipulation
-  time: O(n)
+  time: O(N)
   space: O(1)
 - file: Solution_0137_1.cpp
   difficulty: 🟡 Medium
@@ -17,5 +17,5 @@ solutions:
   - Hash Set
   topics:
   - math
-  time: O(n)
-  space: O(n)
+  time: O(N)
+  space: O(N)

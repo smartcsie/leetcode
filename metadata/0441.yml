@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0441.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math / Binary Search
+  - Math
+  - Binary Search
   topics:
   - math
   time: O(logN)
