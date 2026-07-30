@@ -1,0 +1,14 @@
+number: 3274
+title: Check if Two Chessboard Squares Have the Same Color
+url: https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/
+solutions:
+- file: Solution_3274.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  - Math
+  - String
+  topics:
+  - bit-manipulation
+  time: O(1)
+  space: O(1)

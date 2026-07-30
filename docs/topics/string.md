@@ -11,6 +11,7 @@
 | 648 | [Replace Words](../problems/0648.md) | 🟡 Medium | Hash Table, Sorting | O(N * L + M * K) | O(D * L) |
 | 791 | [Custom Sort String](../problems/0791.md) | 🟡 Medium | String, Counting Sort | O(N + M) | O(1) |
 | 806 | [Number of Lines To Write String](../problems/0806.md) | 🟢 Easy | Array / String / Simulation | O(N) | O(1) |
+| 830 | [Positions of Large Groups](../problems/0830.md) | 🟢 Easy | Array, String, Two Pointers | O(N) | O(1) |
 | 944 | [Delete Columns to Make Sorted](../problems/0944.md) | 🟢 Easy | Array, String | O(N * M) | O(M) |
 | 1078 | [Occurrences After Bigram](../problems/1078.md) | 🟢 Easy | String Parsing | O(N) | O(N) |
 | 1108 | [Defanging an IP Address](../problems/1108.md) | 🟢 Easy | String | O(N) | O(N) |

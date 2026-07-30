@@ -1,0 +1,14 @@
+number: 830
+title: Positions of Large Groups
+url: https://leetcode.com/problems/positions-of-large-groups/
+solutions:
+- file: Solution_0830.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - String
+  - Two Pointers
+  topics:
+  - string
+  time: O(N)
+  space: O(1)

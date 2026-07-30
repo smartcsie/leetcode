@@ -1,0 +1,14 @@
+number: 2729
+title: Check if The Number is Fascinating
+url: https://leetcode.com/problems/check-if-the-number-is-fascinating/
+solutions:
+- file: Solution_2729.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  - Math
+  - Digit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(log N)
+  space: O(1)

@@ -1,0 +1,36 @@
+/**
+ * 題目：2178. Maximum Split of Positive Even Integers (最大偶數拆分)
+ * 難度：中等 (Medium)
+ * 描述：給定一個偶數 finalSum，將其拆分成若干個「互不相同」的正偶數，
+ *       使拆分出的偶數個數最多，回傳這些偶數所組成的陣列；若無法拆分（finalSum 為奇數）則回傳空陣列。
+ *
+ * 時間複雜度：O(√N) - 迴圈中 even 每次遞增 2，且 even 的累加總和會逼近 finalSum，
+ *             故迴圈執行次數約為 O(√N) 量級（等差級數求和特性）。
+ * 空間複雜度：O(√N) - 答案陣列最多儲存 O(√N) 個互不相同的偶數。
+ *
+ * 解法思路：
+ * 1. 奇數直接判定無解 (Odd Sum Early Return)：
+ *    - 若 finalSum 本身是奇數，不可能拆成偶數的和，直接回傳空陣列。
+ * 2. 貪婪由小到大取偶數 (Greedy Smallest Distinct Evens)：
+ *    - 要讓拆分出的個數最多，應該優先使用最小的偶數（2, 4, 6...），
+ *      因為越小的數字消耗掉的總和越少，能剩下更多空間繼續拆分出更多個數。
+ * 3. 迴圈終止條件的精妙設計：
+ *    - 條件 `finalSum - even >= even + 2` 確保「扣掉目前這個偶數後剩下的總和」，
+ *      仍然至少能再放入下一個更大的偶數（even + 2），否則就應該停止繼續累加小偶數。
+ * 4. 把剩餘總和當作最後一個偶數：
+ *    - 迴圈結束後，把目前剩下的 finalSum（此時必為偶數，且必定大於前面已使用過的所有偶數）
+ *      直接當作最後一個拆分出的偶數，加入答案陣列。
+ */
+class Solution {
+public:
+    vector<long long> maximumEvenSplit(long long finalSum) {
+        vector<long long> ans;
+        if(finalSum % 2) return ans;
+        for (long long even = 2; finalSum - even >= even + 2; even += 2) {
+            ans.push_back(even);
+            finalSum -= even;
+        }
+        ans.push_back(finalSum);
+        return ans;
+    }
+};

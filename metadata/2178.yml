@@ -1,0 +1,13 @@
+number: 2178
+title: Maximum Split of Positive Even Integers
+url: https://leetcode.com/problems/maximum-split-of-positive-even-integers/
+solutions:
+- file: Solution_2178.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  - Math
+  topics:
+  - greedy
+  time: O(√N)
+  space: O(√N)

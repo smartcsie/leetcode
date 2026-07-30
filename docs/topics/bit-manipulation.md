@@ -27,10 +27,12 @@
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](../problems/2411.md) | 🟡 Medium | Bit Manipulation Or | O(N × 30) | O(30) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](../problems/2442.md) | 🟡 Medium | Array / Hash Table / Math / Bitset | O(N * D) | O(M)* |
 | 2716 | [Minimize String Length](../problems/2716.md) | 🟢 Easy | Hash Set, Bit Manipulation | O(N) | O(1) |
+| 2729 | [Check if The Number is Fascinating](../problems/2729.md) | 🟢 Easy | Bit Manipulation, Math, Digit Manipulation | O(log N) | O(1) |
 | 2859 | [Sum of Values at Indices With K Set Bits](../problems/2859.md) | 🟢 Easy | Bit Manipulation / Built-in Function | O(N) | O(1) |
 | 2956 | [Find Common Elements Between Two Arrays](../problems/2956.md) | 🟢 Easy | Array / Hash Table / Bitset | O(N + M) | O(1)* |
 | 3019 | [Number of Changing Keys](../problems/3019.md) | 🟢 Easy | Bit Manipulation | O(N) | O(1) |
 | 3120 | [Count the Number of Special Characters I](../problems/3120.md) | 🟢 Easy | Bit Manipulation | O(N) | O(1) |
 | 3151 | [Special Array I](../problems/3151.md) | 🟢 Easy | Array, Bit Manipulation | O(N) | O(1) |
+| 3274 | [Check if Two Chessboard Squares Have the Same Color](../problems/3274.md) | 🟢 Easy | Bit Manipulation, Math, String | O(1) | O(1) |
 | 3370 | [Smallest Number With All Set Bits](../problems/3370.md) | 🟢 Easy | Bit Manipulation | O(log N) | O(1) |
 | 3827 | [Count Monobit Integers](../problems/3827.md) | 🟢 Easy | Bit Manipulation | O(1) | O(1) |
