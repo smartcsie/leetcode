@@ -55,7 +55,6 @@ nav:
   - 🔍 Binary Search:
       - binary-search: topics/binary-search.md
       - binary-search-build-in: topics/binary-search-build-in.md
-      - binary-search-tree: topics/binary-search-tree.md
   - 🔢 Math:
       - math-digit-decomposition: topics/math-digit-decomposition.md
       - math-palindrome: topics/math-palindrome.md
@@ -71,7 +70,6 @@ nav:
       - string-state-machine: topics/string-state-machine.md
       - string-substring: topics/string-substring.md
       - string-character-classification: topics/string-character-classification.md
-      - string-substring-2: topics/string-substring-2.md
       - string-substring-enumeration: topics/string-substring-enumeration.md
   - 👥 Pointers:
       - two-pointers-opposite: topics/two-pointers-opposite.md
@@ -87,12 +85,13 @@ nav:
       - backtracking-permutation: topics/backtracking-permutation.md
   - 📚 Stack:
       - stack: topics/stack.md
-      - priority-queue: topics/priority-queue.md
-      - quick-select: topics/quick-select.md
       - monotonic-queue: topics/monotonic-queue.md
       - monotonic-stack: topics/monotonic-stack.md
+  - 📚 Priority Queue:
+      - priority-queue: topics/priority-queue.md
   - 📊 Bit Manipulation:
       - bit-manipulation: topics/bit-manipulation.md
+      - bit-bitmask-subset-enumeration: topics/bit-bitmask-subset-enumeration.md
       - bit-manipulation-xor: topics/bit-manipulation-xor.md
       - bit-manipulation-and: topics/bit-manipulation-and.md
       - bit-manipulation-mask: topics/bit-manipulation-mask.md
@@ -101,37 +100,31 @@ nav:
   - 🍱 Array:
       - 2d-array: topics/2d-array.md
       - array: topics/array.md
+      - interval: topics/interval.md
       - array-boyer-moore: topics/array-boyer-moore.md
+      - prefix-sum: topics/prefix-sum.md
       - array-linear-scan: topics/array-linear-scan.md
       - array-continuous-counting: topics/array-continuous-counting.md
       - array-difference-array: topics/array-difference-array.md
-      - array-continuous-counting-2: topics/array-continuous-counting-2.md
   - 🧩 Dynamic Programming:
       - dynamic-programming-kadane-algorithm: topics/dynamic-programming-kadane-algorithm.md
       - dynamic-programming: topics/dynamic-programming.md
-      - knapsack-problem-2: topics/knapsack-problem-2.md
-      - dynamic-programming-4: topics/dynamic-programming-4.md
-      - dynamic-programming-3: topics/dynamic-programming-3.md
-      - dynamic-programming-2: topics/dynamic-programming-2.md
       - knapsack-problem: topics/knapsack-problem.md
   - 🧩 Greedy:
       - greedy: topics/greedy.md
-  - 🗓️ Interval:
-      - interval: topics/interval.md
-  - 📄 Other:
-      - bit-bitmask-subset-enumeration: topics/bit-bitmask-subset-enumeration.md
-      - uncategorized: topics/uncategorized.md
   - 🌳 Tree:
       - tree-dfs-path: topics/tree-dfs-path.md
       - tree: topics/tree.md
+      - binary-search-tree: topics/binary-search-tree.md
       - tree-bfs-level-order: topics/tree-bfs-level-order.md
       - dfs-bfs: topics/dfs-bfs.md
       - trie: topics/trie.md
   - 📊 Sorting:
       - sorting: topics/sorting.md
-      - sorting-2: topics/sorting-2.md
       - sorting-cycle-decomposition: topics/sorting-cycle-decomposition.md
   - 🔢 SQL:
       - sql: topics/sql.md
-  - 🔍 Prefix Sum:
-      - prefix-sum: topics/prefix-sum.md
+  - 📚 Quick Select:
+      - quick-select: topics/quick-select.md
+  - 📄 Other:
+      - uncategorized: topics/uncategorized.md
