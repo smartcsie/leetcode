@@ -3,8 +3,9 @@ title: Count Number of Maximum Bitwise-OR Subsets
 url: https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/
 solutions:
 - file: Solution_2044.cpp
-  difficulty: 中等 (Medium)
-  tags: []
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Bitmask Subset Enumeration
   topics:
   - bit-bitmask-subset-enumeration
   time: O(2^N) - 遍歷所有子集。

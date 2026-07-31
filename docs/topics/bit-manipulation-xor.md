@@ -18,5 +18,5 @@
 | 2683 | [Neighboring Bitwise XOR](../problems/2683.md) | 🟡 Medium | Bit Manipulation, Math | O(N) | O(1) |
 | 3158 | [Find the XOR of Numbers Which Appear Twice](../problems/3158.md) | 🟢 Easy | Bit Manipulation, Array | O(N) | O(1) |
 | 3513 | [Number of Unique XOR Triplets I](../problems/3513.md) | 🟡 Medium | Math, Bit Manipulation, Brainteaser | O(log N) | O(1) |
-| 3514 | [Number of Unique XOR Triplets II](../problems/3514.md) | 困難 (Hard) |  | O(M log M) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。 | O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。 |
+| 3514 | [Number of Unique XOR Triplets II](../problems/3514.md) | 🔴 Hard | Bit Manipulation Xor | O(M log M) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。 | O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。 |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](../problems/3702.md) | 🟡 Medium | Bit Manipulation, Greedy | O(N) | O(1) |

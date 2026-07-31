@@ -3,8 +3,9 @@ title: Concatenate Non-Zero Digits and Multiply by Sum I
 url: https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/
 solutions:
 - file: Solution_3754.cpp
-  difficulty: 簡單 (Easy)
-  tags: []
+  difficulty: 🟢 Easy
+  tags:
+  - Math Digit Decomposition
   topics:
   - math-digit-decomposition
   time: O(N) - 單次遍歷，根據數字奇偶性計算交替和。

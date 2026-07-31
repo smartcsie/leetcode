@@ -3,7 +3,7 @@
 | # | 題目 | 難度 | 標籤 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
 | 49 | [Group Anagrams](../problems/0049.md) | 🟡 Medium | Hash Table, String | O(N*K) | O(N*K) |
-| 532 | [K-diff Pairs in an Array](../problems/0532.md) | 待補充 |  | O(N log N) - 排序後雙指針或二分搜尋。 | O(N) - 排序空間 O(log N)，set O(N)。 |
+| 532 | [K-diff Pairs in an Array](../problems/0532.md) | 🟡 Medium | Hash Table Counting | O(N log N) - 排序後雙指針或二分搜尋。 | O(N) - 排序空間 O(log N)，set O(N)。 |
 | 697 | [Degree of an Array](../problems/0697.md) | 🟢 Easy | Hash Map, One-pass | O(N) | O(N) |
 | 771 | [Jewels and Stones](../problems/0771.md) | 🟢 Easy | Hash Set, String | O(J + S) | O(J) |
 | 819 | [Most Common Word](../problems/0819.md) | 🟢 Easy | String, Hash Table | O(M + N) | O(M + N) |

@@ -15,7 +15,7 @@
 | 1588 | [Sum of All Odd Length Subarrays](../problems/1588.md) | 🟢 Easy | Array, Prefix Sum | O(N²) | O(N) |
 | 1685 | [Sum of Absolute Differences in a Sorted Array](../problems/1685.md) | 🟡 Medium | Array, Prefix Sum, Math | O(N) | O(N) |
 | 1732 | [Find the Highest Altitude](../problems/1732.md) | 🟢 Easy | Array, Prefix Sum | O(N) | O(1) |
-| 1738 | [Find Kth Largest XOR Coordinate Value](../problems/1738.md) | 中等 (Medium) |  | O(M * N) - 雙層迴圈遍歷矩陣計算 2D 前綴 XOR 需要 O(M * N)；使用 std::nth_element 尋找第 k 大元素的平均時間為 O(M * N)。 | O(M * N) - 需要額外的 prefix 矩陣（大小 (M+1) x (N+1)）與儲存所有 XOR 值的 xorVal 陣列。 |
+| 1738 | [Find Kth Largest XOR Coordinate Value](../problems/1738.md) | 🟡 Medium | Prefix Sum | O(M * N) - 雙層迴圈遍歷矩陣計算 2D 前綴 XOR 需要 O(M * N)；使用 std::nth_element 尋找第 k 大元素的平均時間為 O(M * N)。 | O(M * N) - 需要額外的 prefix 矩陣（大小 (M+1) x (N+1)）與儲存所有 XOR 值的 xorVal 陣列。 |
 | 2256 | [Minimum Average Difference](../problems/2256.md) | 🟡 Medium | Prefix Sum, Math | O(N) | O(1) |
 | 2559 | [Count Vowel Strings in Ranges](../problems/2559.md) | 🟡 Medium | Array, Prefix Sum | O(N + Q) | O(N) |
 | 2574 | [Left and Right Sum Differences](../problems/2574.md) | 🟢 Easy | Array, Prefix Sum | O(N) | O(N) |

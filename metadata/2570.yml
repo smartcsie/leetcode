@@ -3,8 +3,9 @@ title: Merge Two 2D Arrays by Summing Values
 url: https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/
 solutions:
 - file: Solution_2570.cpp
-  difficulty: 簡單 (Easy)
-  tags: []
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers Same
   topics:
   - two-pointers-same
   time: O(N + M) - 由於兩個輸入陣列皆已排序，利用雙指標（Two Pointers）線性掃描一次即可完成，耗時與兩陣列長度總和成正比。

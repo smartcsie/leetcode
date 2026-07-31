@@ -34,7 +34,7 @@
 | 3622 | [Check Divisibility by Digit Sum and Product](../problems/3622.md) | 🟢 Easy | Math, Digit Manipulation | O(log N) | O(1) |
 | 3697 | [Compute Decimal Representation](../problems/3697.md) | 🟢 Easy | Math, Digit Extraction | O(logN) | [Note](#3697-compute-decimal-representation) |
 | 3726 | [Remove Zeros in Decimal Representation](../problems/3726.md) | 🟢 Easy | Math, Digit Extraction | O(log N) | O(1) |
-| 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../problems/3754.md) | 簡單 (Easy) |  | O(N) - 單次遍歷，根據數字奇偶性計算交替和。 | O(1) - 僅使用常數空間。 |
+| 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../problems/3754.md) | 🟢 Easy | Math Digit Decomposition | O(N) - 單次遍歷，根據數字奇偶性計算交替和。 | O(1) - 僅使用常數空間。 |
 | 3783 | [Mirror Distance of an Integer](../problems/3783.md) | 🟢 Easy | Math, Simulation | O(log10(N)) | O(1) |
 | 3895 | [Count Digit Appearances](../problems/3895.md) | 🟢 Easy | Digit Manipulation | O(N × D) | O(1) |
 | 3908 | [Valid Digit Number](../problems/3908.md) | 🟢 Easy | Math, Digit Manipulation | O(log N) | O(1) |

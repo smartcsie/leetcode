@@ -3,8 +3,9 @@ title: Maximum Sum With Exactly K Elements
 url: https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/
 solutions:
 - file: Solution_2656.cpp
-  difficulty: 簡單 (Easy)
-  tags: []
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy
   topics:
   - greedy
   time: O(N) - 只需要遍歷一次 `nums` 陣列來尋找最大值，其中 n 為陣列長度。

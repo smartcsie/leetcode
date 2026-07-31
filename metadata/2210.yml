@@ -3,8 +3,9 @@ title: Count Hills and Valleys in an Array
 url: https://leetcode.com/problems/count-hills-and-valleys-in-an-array/
 solutions:
 - file: Solution_2210.cpp
-  difficulty: 簡單 (Easy)
-  tags: []
+  difficulty: 🟢 Easy
+  tags:
+  - Array Continuous Counting
   topics:
   - array-continuous-counting
   time: O(N) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的判斷為常數時間。

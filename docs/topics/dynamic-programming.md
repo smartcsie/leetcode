@@ -29,6 +29,6 @@
 | 1137 | [N-th Tribonacci Number](../problems/1137.md) | 🟢 Easy | DP, Math | O(N) | O(1) |
 | 1143 | [Longest Common Subsequence](../problems/1143.md) | 🟡 Medium | Dynamic Programming | O(M*N) | O(M*N) |
 | 1277 | [Count Square Submatrices with All Ones](../problems/1277.md) | 🟡 Medium | Matrix, Dynamic Programming | O(M * N) | O(1)* |
-| 1567 | [Maximum Length of Subarray With Positive Product](../problems/1567.md) | 中等 (Medium) |  | O(N) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的狀態轉移皆為常數時間。 | O(1) - 僅使用常數個變數（ans, pos, neg）來動態追蹤狀態，不需額外配置記憶體。 |
+| 1567 | [Maximum Length of Subarray With Positive Product](../problems/1567.md) | 🟡 Medium | Dynamic Programming | O(N) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的狀態轉移皆為常數時間。 | O(1) - 僅使用常數個變數（ans, pos, neg）來動態追蹤狀態，不需額外配置記憶體。 |
 | 1668 | [Maximum Repeating Substring](../problems/1668.md) | 🟢 Easy | String | O(N*M²) | O(M) |
 | 2707 | [Extra Characters in a String](../problems/2707.md) | 🟡 Medium | Dynamic Programming, Hash Set | O(N³) | O(N + D) |

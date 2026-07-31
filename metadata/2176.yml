@@ -3,8 +3,9 @@ title: Count Equal and Divisible Pairs in an Array
 url: https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/
 solutions:
 - file: Solution_2176.cpp
-  difficulty: 簡單 (Easy)
-  tags: []
+  difficulty: 🟢 Easy
+  tags:
+  - Array Linear Scan
   topics:
   - array-linear-scan
   time: O(N^2) - 使用雙重迴圈遍歷所有可能的索引對 (i, j)，在資料規模較小（通常 N <= 100）時能高效執行。

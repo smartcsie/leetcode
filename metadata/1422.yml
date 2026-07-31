@@ -3,8 +3,9 @@ title: Maximum Score After Splitting a String
 url: https://leetcode.com/problems/maximum-score-after-splitting-a-string/
 solutions:
 - file: Solution_1422.cpp
-  difficulty: 簡單 (Easy)
-  tags: []
+  difficulty: 🟢 Easy
+  tags:
+  - Array Linear Scan
   topics:
   - array-linear-scan
   time: O(N) - 先使用 std::count 花費 O(N) 計算總 1 數量，接著用單一迴圈花費 O(N) 掃描分割點。

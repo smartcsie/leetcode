@@ -3,8 +3,9 @@ title: Find Kth Largest XOR Coordinate Value
 url: https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/
 solutions:
 - file: Solution_1738.cpp
-  difficulty: 中等 (Medium)
-  tags: []
+  difficulty: 🟡 Medium
+  tags:
+  - Prefix Sum
   topics:
   - prefix-sum
   time: O(M * N) - 雙層迴圈遍歷矩陣計算 2D 前綴 XOR 需要 O(M * N)；使用 std::nth_element 尋找第 k 大元素的平均時間為

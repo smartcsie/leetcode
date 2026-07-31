@@ -3,8 +3,9 @@ title: Maximum Length of Subarray With Positive Product
 url: https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/
 solutions:
 - file: Solution_1567.cpp
-  difficulty: 中等 (Medium)
-  tags: []
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming
   topics:
   - dynamic-programming
   time: O(N) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的狀態轉移皆為常數時間。

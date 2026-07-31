@@ -3,8 +3,9 @@ title: Split a String Into the Max Number of Unique Substrings
 url: https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/
 solutions:
 - file: Solution_1593.cpp
-  difficulty: 中等 (Medium)
-  tags: []
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking Combination
   topics:
   - backtracking-combination
   time: O(N * 2^(N-1)) - 在最壞情況下，字串有 n-1 個可分割的間隙，總共有 2^(n-1) 種分割組合，每次分割與子字串截取需花費 O(N)

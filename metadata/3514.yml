@@ -3,8 +3,9 @@ title: Number of Unique XOR Triplets II
 url: https://leetcode.com/problems/number-of-unique-xor-triplets-ii/
 solutions:
 - file: Solution_3514.cpp
-  difficulty: 困難 (Hard)
-  tags: []
+  difficulty: 🔴 Hard
+  tags:
+  - Bit Manipulation Xor
   topics:
   - bit-manipulation-xor
   time: O(M log M) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。

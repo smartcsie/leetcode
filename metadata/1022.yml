@@ -3,8 +3,9 @@ title: Sum of Root To Leaf Binary Numbers
 url: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 solutions:
 - file: Solution_1022.cpp
-  difficulty: 簡單 (Easy)
-  tags: []
+  difficulty: 🟢 Easy
+  tags:
+  - Tree Dfs Path
   topics:
   - tree-dfs-path
   time: O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。

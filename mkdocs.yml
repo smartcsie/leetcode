@@ -126,5 +126,3 @@ nav:
       - sql: topics/sql.md
   - 📚 Quick Select:
       - quick-select: topics/quick-select.md
-  - 📄 Other:
-      - uncategorized: topics/uncategorized.md

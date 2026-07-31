@@ -3,8 +3,9 @@ title: Minimum Number Game
 url: https://leetcode.com/problems/minimum-number-game/
 solutions:
 - file: Solution_2974.cpp
-  difficulty: 簡單 (Easy)
-  tags: []
+  difficulty: 🟢 Easy
+  tags:
+  - Array Linear Scan
   topics:
   - array-linear-scan
   time: O(N) - 計算所有元素和，生成交替奇偶數列。

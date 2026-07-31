@@ -3,8 +3,9 @@ title: K-diff Pairs in an Array
 url: https://leetcode.com/problems/k-diff-pairs-in-an-array/
 solutions:
 - file: Solution_0532.cpp
-  difficulty: 待補充
-  tags: []
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table Counting
   topics:
   - hash-table-counting
   time: O(N log N) - 排序後雙指針或二分搜尋。
