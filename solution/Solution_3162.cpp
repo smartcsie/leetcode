@@ -1,0 +1,30 @@
+/**
+ * 題目：3162. Find the Number of Good Pairs I (好數對的數目 I)
+ * 難度：簡單 (Easy)
+ * 描述：給定兩個整數陣列 nums1、nums2 與整數 k，若滿足 nums1[i] 可以被
+ *       (nums2[j] * k) 整除，則稱 (i, j) 為一組好數對。回傳好數對的總數量。
+ *
+ * 時間複雜度：O(N * M) - N、M 分別為 nums1、nums2 的長度，需要雙層迴圈窮舉所有配對。
+ * 空間複雜度：O(1) - 只使用常數個變數（ans），不需額外配置記憶體。
+ *
+ * 解法思路：
+ * 1. 暴力窮舉所有配對 (Brute Force Pairing)：
+ *    - 由於本題資料規模通常很小（簡易版限制），直接用雙層迴圈窮舉
+ *      nums1 與 nums2 之間所有可能的配對即可，不需要額外優化。
+ * 2. 整除性判斷 (Divisibility Check)：
+ *    - 對每一組 (x, y)，檢查 x 是否能被 (y * k) 整除，也就是 x % (y * k) == 0。
+ * 3. 累加符合條件的配對數：
+ *    - 只要整除條件成立，就將計數 ans 加一，最終回傳總數量。
+ */
+class Solution {
+public:
+    int numberOfPairs(vector<int>& nums1, vector<int>& nums2, int k) {
+        int ans = 0;
+        for(const int& x : nums1) {
+            for(const int& y : nums2) {
+                if(x % (y * k) == 0) ans++;
+            }
+        }
+        return ans;
+    }
+};

@@ -1,0 +1,13 @@
+number: 2839
+title: Check if Strings Can be Made Equal With Operations I
+url: https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/
+solutions:
+- file: Solution_2839.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Simulation
+  topics:
+  - string
+  time: O(1)
+  space: O(1)

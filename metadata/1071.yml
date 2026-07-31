@@ -1,0 +1,15 @@
+number: 1071
+title: Greatest Common Divisor of Strings
+url: https://leetcode.com/problems/greatest-common-divisor-of-strings/
+solutions:
+- file: Solution_1071.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  - String
+  - GCD
+  topics:
+  - math
+  - string
+  time: O(N + M)
+  space: O(N + M)

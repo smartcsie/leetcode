@@ -1,0 +1,15 @@
+number: 652
+title: Find Duplicate Subtrees
+url: https://leetcode.com/problems/find-duplicate-subtrees/
+solutions:
+- file: Solution_0652.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - DFS
+  - Hash Table
+  - Serialization
+  topics:
+  - tree
+  time: O(N²)
+  space: O(N²)

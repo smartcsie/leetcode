@@ -1,0 +1,15 @@
+number: 3162
+title: Find the Number of Good Pairs I
+url: https://leetcode.com/problems/find-the-number-of-good-pairs-i/
+solutions:
+- file: Solution_3162.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Math
+  - Brute Force
+  topics:
+  - array
+  - math
+  time: O(N * M)
+  space: O(1)

@@ -1,0 +1,14 @@
+number: 117
+title: Populating Next Right Pointers in Each Node II
+url: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+solutions:
+- file: Solution_0117.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree Bfs Level Order
+  - BFS
+  - Queue
+  topics:
+  - tree-bfs-level-order
+  time: O(N)
+  space: O(N)

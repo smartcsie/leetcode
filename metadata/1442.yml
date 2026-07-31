@@ -1,0 +1,13 @@
+number: 1442
+title: Count Triplets That Can Form Two Arrays of Equal XOR
+url: https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/
+solutions:
+- file: Solution_1442.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation Xor
+  - Prefix XOR
+  topics:
+  - bit-manipulation-xor
+  time: O(N²)
+  space: O(1)

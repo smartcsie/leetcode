@@ -1,0 +1,14 @@
+number: 914
+title: X of a Kind in a Deck of Cards
+url: https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
+solutions:
+- file: Solution_0914.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  - GCD
+  - Hash Table
+  topics:
+  - math
+  time: O(N)
+  space: O(N)

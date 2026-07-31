@@ -30,6 +30,7 @@
 | 3300 | [Minimum Element After Replacement With Digit Sum](../problems/3300.md) | 🟢 Easy | Math, Simulation | O(N * log M) | O(1) |
 | 3340 | [Check Balanced String](../problems/3340.md) | 🟢 Easy | String, Math | O(N) | O(1) |
 | 3345 | [Smallest Divisible Digit Product I](../problems/3345.md) | 🟢 Easy | Brute Force, Digit Manipulation | O(K × D) | O(1) |
+| 3461 | [Check If Digits Are Equal in String After Operations I](../problems/3461.md) | 🟢 Easy | Math Digit Decomposition, Simulation, Digit Manipulation | O(N²) | O(N) |
 | 3622 | [Check Divisibility by Digit Sum and Product](../problems/3622.md) | 🟢 Easy | Math, Digit Manipulation | O(log N) | O(1) |
 | 3697 | [Compute Decimal Representation](../problems/3697.md) | 🟢 Easy | Math, Digit Extraction | O(logN) | [Note](#3697-compute-decimal-representation) |
 | 3726 | [Remove Zeros in Decimal Representation](../problems/3726.md) | 🟢 Easy | Math, Digit Extraction | O(log N) | O(1) |

@@ -1,0 +1,14 @@
+number: 116
+title: Populating Next Right Pointers in Each Node
+url: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+solutions:
+- file: Solution_0116.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - Recursion
+  - Constant Space
+  topics:
+  - tree
+  time: O(N)
+  space: O(1)

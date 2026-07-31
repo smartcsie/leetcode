@@ -1,0 +1,15 @@
+number: 2807
+title: Insert Greatest Common Divisors in Linked List
+url: https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/
+solutions:
+- file: Solution_2807.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  - Math
+  - GCD
+  topics:
+  - linked-list
+  - math
+  time: O(N)
+  space: O(N)

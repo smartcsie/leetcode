@@ -1,0 +1,14 @@
+number: 365
+title: Water and Jug Problem
+url: https://leetcode.com/problems/water-and-jug-problem/
+solutions:
+- file: Solution_0365.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  - GCD
+  - Bézout's Identity
+  topics:
+  - math
+  time: O(log(min(x, y)))
+  space: O(1)

@@ -21,8 +21,10 @@
 | 1576 | [Replace All ?'s](../problems/1576.md) | 🟢 Easy | Greedy | O(N) | O(1) |
 | 1785 | [Minimum Elements to Add to Form a Given Sum](../problems/1785.md) | 🟡 Medium | Math, Greedy | O(N) | O(1) |
 | 1881 | [Maximum Value after Insertion](../problems/1881.md) | 🟡 Medium | Greedy, String | O(N) | O(1) |
+| 1909 | [Remove One Element to Make the Array Strictly Increasing](../problems/1909.md) | 🟢 Easy | Array, Greedy, Two Candidates | O(N) | O(1) |
 | 1936 | [Add Minimum Number of Rungs](../problems/1936.md) | 🟡 Medium | Greedy, Math | O(N) | O(1) |
 | 2027 | [Minimum Moves to Convert String](../problems/2027.md) | 🟢 Easy | Greedy | O(N) | O(1) |
+| 2116 | [Check if a Parentheses String Can Be Valid](../problems/2116.md) | 🟡 Medium | Greedy, String | O(N) | O(1) |
 | 2178 | [Maximum Split of Positive Even Integers](../problems/2178.md) | 🟡 Medium | Greedy, Math | O(√N) | O(√N) |
 | 2182 | [Construct String With Repeat Limit](../problems/2182.md) | 🟡 Medium | Greedy, String, Two Pointers, Counting | O(N) | O(1) |
 | 2231 | [Largest Number After Digit Swaps by Parity](../problems/2231.md) | 🟢 Easy | Greedy, Partition by Parity | O(D log D) | O(D) |

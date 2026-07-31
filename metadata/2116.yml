@@ -1,0 +1,14 @@
+number: 2116
+title: Check if a Parentheses String Can Be Valid
+url: https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/
+solutions:
+- file: Solution_2116.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  - String
+  topics:
+  - greedy
+  - string
+  time: O(N)
+  space: O(1)

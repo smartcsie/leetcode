@@ -1,0 +1,13 @@
+number: 1534
+title: Count Good Triplets
+url: https://leetcode.com/problems/count-good-triplets/
+solutions:
+- file: Solution_1534.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Brute Force
+  topics:
+  - array
+  time: O(N³)
+  space: O(1)

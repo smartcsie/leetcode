@@ -13,6 +13,8 @@
 | 806 | [Number of Lines To Write String](../problems/0806.md) | 🟢 Easy | Array, String, Simulation | O(N) | O(1) |
 | 830 | [Positions of Large Groups](../problems/0830.md) | 🟢 Easy | Array, String, Two Pointers | O(N) | O(1) |
 | 944 | [Delete Columns to Make Sorted](../problems/0944.md) | 🟢 Easy | Array, String | O(N * M) | O(M) |
+| 1003 | [Check If Word Is Valid After Substitutions](../problems/1003.md) | 🟡 Medium | Stack, String | O(N) | O(N) |
+| 1071 | [Greatest Common Divisor of Strings](../problems/1071.md) | 🟢 Easy | Math, String, GCD | O(N + M) | O(N + M) |
 | 1078 | [Occurrences After Bigram](../problems/1078.md) | 🟢 Easy | String Parsing | O(N) | O(N) |
 | 1108 | [Defanging an IP Address](../problems/1108.md) | 🟢 Easy | String | O(N) | O(N) |
 | 1455 | [Check If a Word Occurs As a Prefix](../problems/1455.md) | 🟢 Easy | String, Stream | O(N) | O(W) |
@@ -25,6 +27,7 @@
 | 1961 | [Check If String Is a Prefix of Array](../problems/1961.md) | 🟢 Easy | String, Simulation | O(S) | O(S) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../problems/2042.md) | 🟢 Easy | String, Parsing | O(N) | O(1) |
 | 2114 | [Maximum Number of Words Found in Sentences](../problems/2114.md) | 🟢 Easy | String, Array | O(N * M) | O(1) |
+| 2116 | [Check if a Parentheses String Can Be Valid](../problems/2116.md) | 🟡 Medium | Greedy, String | O(N) | O(1) |
 | 2138 | [Divide a String Into Groups of Size k](../problems/2138.md) | 🟢 Easy | String, Simulation, Math | O(N) | O(N) |
 | 2185 | [Counting Words With a Given Prefix](../problems/2185.md) | 🟢 Easy | String, Simulation | O(N * M) | O(1) |
 | 2243 | [Calculate Digit Sum of a String](../problems/2243.md) | 🟢 Easy | Simulation, String | O(N * log N) | O(N) |
@@ -33,6 +36,7 @@
 | 2460 | [Apply Operations to an Array](../problems/2460.md) | 🟢 Easy | Array, Simulation | O(N) | O(1) |
 | 2490 | [Circular Sentence](../problems/2490.md) | 🟢 Easy | String | O(N) | O(1) |
 | 2828 | [Check if a String Is an Acronym of Words](../problems/2828.md) | 🟢 Easy | Array, String | O(N) | O(1) |
+| 2839 | [Check if Strings Can be Made Equal With Operations I](../problems/2839.md) | 🟢 Easy | String, Simulation | O(1) | O(1) |
 | 2937 | [Make Three Strings Equal](../problems/2937.md) | 🟢 Easy | String | O(min(L1, L2, L3)) | O(1) |
 | 2942 | [Find Words Containing Character](../problems/2942.md) | 🟢 Easy | String Search | O(N * L) | O(1) |
 | 3210 | [Find the Encrypted String](../problems/3210.md) | 🟢 Easy | String, Cyclic Shift | O(N) | O(N) |

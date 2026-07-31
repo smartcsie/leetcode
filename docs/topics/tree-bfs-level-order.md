@@ -5,6 +5,7 @@
 | 102 | [Binary Tree Level Order Traversal](../problems/0102.md) | 🟡 Medium | Tree, BFS | O(N) | O(W) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](../problems/0103.md) | 🟡 Medium | Tree, BFS | O(N) | O(W) |
 | 107 | [Binary Tree Level Order Traversal II](../problems/0107.md) | 🟢 Easy | Tree, BFS | O(N) | O(W) |
+| 117 | [Populating Next Right Pointers in Each Node II](../problems/0117.md) | 🟡 Medium | Tree Bfs Level Order, BFS, Queue | O(N) | O(N) |
 | 199 | [Binary Tree Right Side View](../problems/0199.md) | 🟡 Medium | Tree, BFS | O(N) | O(W) |
 | 429 | [N-ary Tree Level Order Traversal](../problems/0429.md) | 🟡 Medium | Tree, BFS | O(N) | O(W) |
 | 513 | [Find Bottom Left Tree Value](../problems/0513.md) | 🟡 Medium | Tree, BFS, DFS | O(N) | O(W) |

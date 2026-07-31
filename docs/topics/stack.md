@@ -11,6 +11,7 @@
 | 316 | [Remove Duplicate Letters](../problems/0316.md) | 🟡 Medium | Stack, Greedy, String | O(N) | O(1) |
 | 445 | [Add Two Numbers II](../problems/0445.md) | 🟡 Medium | Linked List, Stack | O(N + M) | O(N + M) |
 | 682 | [Baseball Game](../problems/0682.md) | 🟢 Easy | Array, Stack, Simulation | O(N) | O(N) |
+| 1003 | [Check If Word Is Valid After Substitutions](../problems/1003.md) | 🟡 Medium | Stack, String | O(N) | O(N) |
 | 1021 | [Remove Outermost Parentheses](../problems/1021.md) | 🟢 Easy | Stack, Counter | O(N) | O(1) |
 | 1047 | [Remove All Adjacent Duplicates In String](../problems/1047.md) | 🟢 Easy | String, Stack | O(N) | O(N) |
 | 1209 | [Remove All Adjacent Duplicates in String II](../problems/1209.md) | 🟡 Medium | String, Stack | O(N) | O(N) |

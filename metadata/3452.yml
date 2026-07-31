@@ -1,0 +1,13 @@
+number: 3452
+title: Sum of Good Numbers
+url: https://leetcode.com/problems/sum-of-good-numbers/
+solutions:
+- file: Solution_3452.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Simulation
+  topics:
+  - array
+  time: O(N)
+  space: O(1)

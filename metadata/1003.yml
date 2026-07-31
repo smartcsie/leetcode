@@ -1,0 +1,14 @@
+number: 1003
+title: Check If Word Is Valid After Substitutions
+url: https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/
+solutions:
+- file: Solution_1003.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Stack
+  - String
+  topics:
+  - stack
+  - string
+  time: O(N)
+  space: O(N)

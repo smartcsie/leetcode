@@ -1,0 +1,29 @@
+/**
+ * 題目：1071. Greatest Common Divisor of Strings (字串的最大公因數)
+ * 難度：簡單 (Easy)
+ * 描述：對於字串 s，若存在字串 t 使得 s 是由 t 重複若干次串接而成，則稱 t 為 s 的一個因數。
+ *       給定兩個字串 str1、str2，回傳兩者的「最大公因字串」（若不存在則回傳空字串）。
+ *
+ * 時間複雜度：O(N + M) - N、M 分別為 str1、str2 的長度，主要成本來自組合出的字串比較與 gcd 計算。
+ * 空間複雜度：O(N + M) - 需要額外空間儲存 str1 + str2 與 str2 + str1 這兩個組合字串。
+ *
+ * 解法思路：
+ * 1. 判斷公因字串是否存在的關鍵條件 (Necessary and Sufficient Condition)：
+ *    - 數論結果：str1 與 str2 存在公因字串，若且唯若 str1 + str2 == str2 + str1
+ *      （即兩字串首尾相接的結果，順序調換後仍然相同）。
+ *    - 若此條件不成立，代表兩字串不具備共同的「週期性基礎字串」，直接回傳空字串 ""。
+ * 2. 公因字串的長度必為兩字串長度的最大公因數 (Length = GCD)：
+ *    - 若條件成立，可以證明最大公因字串的長度恰好是 gcd(len(str1), len(str2))。
+ * 3. 直接截取前綴作為答案 (Extract Prefix)：
+ *    - 由於公因字串必定是 str1（也是 str2）的前綴，直接回傳 str1.substr(0, g)
+ *      即為所求的最大公因字串。
+ */
+class Solution {
+public:
+    string gcdOfStrings(string str1, string str2) {
+        if (str1 + str2 != str2 + str1)
+            return "";
+        const int g = gcd(str1.length(), str2.length());
+        return str1.substr(0, g);
+    }
+};
