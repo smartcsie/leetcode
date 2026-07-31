@@ -6,7 +6,7 @@ solutions:
   difficulty: 中等 (Medium)
   tags: []
   topics:
-  - uncategorized
+  - prefix-sum
   time: O(M * N) - 雙層迴圈遍歷矩陣計算 2D 前綴 XOR 需要 O(M * N)；使用 std::nth_element 尋找第 k 大元素的平均時間為
     O(M * N)。
   space: O(M * N) - 需要額外的 prefix 矩陣（大小 (M+1) x (N+1)）與儲存所有 XOR 值的 xorVal 陣列。

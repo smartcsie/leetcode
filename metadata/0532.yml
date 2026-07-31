@@ -6,6 +6,6 @@ solutions:
   difficulty: 待補充
   tags: []
   topics:
-  - uncategorized
+  - hash-table-counting
   time: O(N log N) - 排序後雙指針或二分搜尋。
   space: O(N) - 排序空間 O(log N)，set O(N)。

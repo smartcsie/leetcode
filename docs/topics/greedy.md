@@ -33,6 +33,7 @@
 | 2571 | [Minimum Operations to Reduce an Integer to 0](../problems/2571.md) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | O(log N) | O(1) |
 | 2578 | [Split With Minimum Sum](../problems/2578.md) | 🟢 Easy | Greedy, Sorting | O(NlogN) | O(N) |
 | 2645 | [Minimum Additions to Make Valid String](../problems/2645.md) | 🟡 Medium | Greedy, Simulation | O(N) | O(1) |
+| 2656 | [Maximum Sum With Exactly K Elements](../problems/2656.md) | 簡單 (Easy) |  | O(N) - 只需要遍歷一次 `nums` 陣列來尋找最大值，其中 n 為陣列長度。 | O(1) - 僅使用常數個變數來儲存最大值與計算結果，不需額外配置動態記憶體。 |
 | 2745 | [Construct the Longest New String](../problems/2745.md) | 🟡 Medium | Greedy, Math, Brainteaser | O(1) | O(1) |
 | 2815 | [Max Pair Sum in an Array](../problems/2815.md) | 🟢 Easy | Greedy, Hashing | O(N*D) | O(1) |
 | 2864 | [Maximum Odd Binary Number](../problems/2864.md) | 🟢 Easy | Greedy, String | O(N) | O(1) |

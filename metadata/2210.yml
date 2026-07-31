@@ -6,6 +6,6 @@ solutions:
   difficulty: 簡單 (Easy)
   tags: []
   topics:
-  - uncategorized
+  - array-continuous-counting
   time: O(N) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的判斷為常數時間。
   space: O(1) - 僅使用常數個變數（ans, prev, 迴圈變數）來追蹤狀態，不需額外配置記憶體。

@@ -12,3 +12,4 @@
 | 90 | [Subsets II](../problems/0090.md) | 🟡 Medium | Backtracking, Sorting | O(N*2ᴺ) | O(N) |
 | 216 | [Combination Sum III](../problems/0216.md) | 🟡 Medium | Backtracking | O(C(9, K)) | O(K) |
 | 784 | [Letter Case Permutation](../problems/0784.md) | 🟡 Medium | Backtracking | O(2ᴺ) | O(N) |
+| 1593 | [Split a String Into the Max Number of Unique Substrings](../problems/1593.md) | 中等 (Medium) |  | O(N * 2^(N-1)) - 在最壞情況下，字串有 n-1 個可分割的間隙，總共有 2^(n-1) 種分割組合，每次分割與子字串截取需花費 O(N) 時間。 | O(N) - 遞迴呼叫堆疊的深度最多為 n，且雜湊表 `seen` 在任一時刻最多儲存 n 個子字串。 |

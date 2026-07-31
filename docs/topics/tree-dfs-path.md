@@ -31,6 +31,7 @@
 | 897 | [Increasing Order Search Tree](../problems/0897.md) | 🟢 Easy | DFS, In-order | O(N) | O(H) |
 | 965 | [Univalued Binary Tree](../problems/0965.md) | 🟢 Easy | Tree, DFS | O(N) | O(H) |
 | 988 | [Smallest String Starting From Leaf](../problems/0988.md) | 🟡 Medium | Tree, DFS | O(N) | O(H) |
+| 1022 | [Sum of Root To Leaf Binary Numbers](../problems/1022.md) | 簡單 (Easy) |  | O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。 | O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(log N)。 |
 | 1026 | [Maximum Difference Between Node and Ancestor](../problems/1026.md) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | O(N) | O(H) |
 | 1305 | [All Elements in Two Binary Search Trees](../problems/1305.md) | 🟡 Medium | Tree, In-order Traversal, Two Pointers | O(N+M) | O(N+M) |
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](../problems/1315.md) | 🟡 Medium | Tree, DFS, Recursion | O(N) | O(H) |

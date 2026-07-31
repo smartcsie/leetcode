@@ -6,6 +6,6 @@ solutions:
   difficulty: 中等 (Medium)
   tags: []
   topics:
-  - uncategorized
+  - bit-bitmask-subset-enumeration
   time: O(2^N) - 遍歷所有子集。
   space: O(N) - 遞迴堆疊深度。

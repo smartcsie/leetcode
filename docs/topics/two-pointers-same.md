@@ -16,6 +16,7 @@
 | 1768 | [Merge Strings Alternately](../problems/1768.md) | 🟢 Easy | String, Two Pointers | O(N+M) | O(1) |
 | 2109 | [Adding Spaces to a String](../problems/2109.md) | 🟡 Medium | String, Two Pointers | O(N+M) | O(N+M) |
 | 2540 | [Minimum Common Value](../problems/2540.md) | 🟢 Easy | Array, Two Pointers | O(N+M) | O(1) |
+| 2570 | [Merge Two 2D Arrays by Summing Values](../problems/2570.md) | 簡單 (Easy) |  | O(N + M) - 由於兩個輸入陣列皆已排序，利用雙指標（Two Pointers）線性掃描一次即可完成，耗時與兩陣列長度總和成正比。 | O(1) - 僅使用常數個指標與變數（i, j, m, n），並透過 `ans.reserve(m + n)` 預先分配記憶體，避免動態擴容開銷。 |
 | 3132 | [Find the Integer Added to Array II](../problems/3132.md) | 🟡 Medium | Sorting, Two Pointers | O(NlogN) | O(1) |
 | 3637 | [Trionic Array I](../problems/3637.md) | 🟢 Easy | Two Pointers, State Transition | O(N) | O(1) |
 | 3819 | [Rotate Non Negative Elements](../problems/3819.md) | 🟢 Easy | Array, Two Pointers | O(N) | O(N) |

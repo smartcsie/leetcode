@@ -6,6 +6,6 @@ solutions:
   difficulty: 簡單 (Easy)
   tags: []
   topics:
-  - uncategorized
+  - array-linear-scan
   time: O(N) - 計算所有元素和，生成交替奇偶數列。
   space: O(N) - 結果陣列大小為 N。

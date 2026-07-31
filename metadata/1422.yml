@@ -6,6 +6,6 @@ solutions:
   difficulty: 簡單 (Easy)
   tags: []
   topics:
-  - uncategorized
+  - array-linear-scan
   time: O(N) - 先使用 std::count 花費 O(N) 計算總 1 數量，接著用單一迴圈花費 O(N) 掃描分割點。
   space: O(1) - 僅使用常數個變數（zeros, ones, ans）來追蹤狀態，不需額外配置動態記憶體。
