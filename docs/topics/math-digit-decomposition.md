@@ -25,7 +25,7 @@
 | 2553 | [Separate the Digits in an Array](../problems/2553.md) | 🟢 Easy | Array, Math | O(N * log(max_VAL)) | O(N * log(max_VAL)) |
 | 2595 | [Number of Even and Odd Bits](../problems/2595.md) | 🟢 Easy | Bit Manipulation | O(logN) | O(1) |
 | 2843 | [Count Symmetric Integers](../problems/2843.md) | 🟢 Easy | Simulation, Math | O(N * D) | O(1) |
-| 3079 | [Find the Sum of Encrypted Integers](../problems/3079.md) | 🟢 Easy | Simulation, Math | O(N * D) | O(1) |
+| 3079 | [Find the Sum of Encrypted Integers](../problems/3079.md) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | O(N * D) | O(D) |
 | 3099 | [Harshad Number](../problems/3099.md) | 🟢 Easy | Math | O(logN) | O(1) |
 | 3300 | [Minimum Element After Replacement With Digit Sum](../problems/3300.md) | 🟢 Easy | Math, Simulation | O(N * log M) | O(1) |
 | 3340 | [Check Balanced String](../problems/3340.md) | 🟢 Easy | String, Math | O(N) | O(1) |

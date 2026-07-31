@@ -3,6 +3,7 @@
 | # | 題目 | 難度 | 標籤 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
 | 204 | [Count Primes](../problems/0204.md) | 🟡 Medium | Math, Sieve | O(NloglogN) | O(N) |
+| 866 | [Prime Palindrome](../problems/0866.md) | 🟡 Medium | Prime, Palindrome Construction | O(sqrt(10^9)) | O(1) |
 | 2521 | [Distinct Prime Factors of Product of Array](../problems/2521.md) | 🟡 Medium | Math, Prime Factorization | O(N*sqrt(M)) | O(K) |
 | 2523 | [Closest Prime Numbers in Range](../problems/2523.md) | 🟡 Medium | Math, Sieve | O(Nloglog N) | O(N) |
 | 2614 | [Prime In Diagonal](../problems/2614.md) | 🟢 Easy | Math, Trial Division | O(N * sqrt(M)) | O(1) |

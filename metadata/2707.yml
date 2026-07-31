@@ -9,5 +9,5 @@ solutions:
   - Hash Set
   topics:
   - dynamic-programming
-  time: O(N³ + M*L)
-  space: O(N + M * L)
+  time: O(N³)
+  space: O(N + D)

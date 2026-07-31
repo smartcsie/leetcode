@@ -1,10 +1,3 @@
-# 2264. Largest 3-Same-Digit Number in String
-
-[在 LeetCode 上查看](https://leetcode.com/problems/largest-3-same-digit-number-in-string/)
-
-**難度:** 🟢 Easy　**標籤:** Array Linear Scan, String　**時間:** O(N)　**空間:** O(1)
-
-```cpp
 /**
  * 題目：2264. Largest 3-Same-Digit Number in String (字串中最大的 3 位相同數字)
  * 難度：簡單 (Easy)
@@ -39,4 +32,3 @@ public:
         return (maxChar == 0) ? "" : string(3, maxChar);
     }
 };
-```

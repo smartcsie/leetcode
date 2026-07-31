@@ -44,7 +44,7 @@
 | 2469 | [Convert the Temperature](../problems/2469.md) | 🟢 Easy | Math | O(1) | O(1) |
 | 2485 | [Find the Pivot Integer](../problems/2485.md) | 🟢 Easy | Math | O(1) | O(1) |
 | 2600 | [K Items With the Maximum Sum](../problems/2600.md) | 🟢 Easy | Math, Greedy | O(1) | O(1) |
-| 2652 | [Sum Multiples](../problems/2652.md) | 🟢 Easy | Math | O(N) | O(1) |
+| 2652 | [Sum Multiples](../problems/2652.md) | 🟢 Easy | Math, Brute Force | O(N) | O(1) |
 | 2894 | [Divisible and Non-divisible Sums Difference](../problems/2894.md) | 🟢 Easy | Math, Arithmetic Progression | O(1) | O(1) |
 | 3131 | [Find the Integer Added to Array I](../problems/3131.md) | 🟢 Easy | Math, Array | O(N) | O(1) |
 | 3162 | [Find the Number of Good Pairs I](../problems/3162.md) | 🟢 Easy | Array, Math, Brute Force | O(N * M) | O(1) |

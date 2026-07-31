@@ -1,10 +1,3 @@
-# 2652. Sum Multiples
-
-[在 LeetCode 上查看](https://leetcode.com/problems/sum-multiples/)
-
-**難度:** 🟢 Easy　**標籤:** Math, Brute Force　**時間:** O(N)　**空間:** O(1)
-
-```cpp
 /**
  * 題目：2652. Sum Multiples (求和多個數的倍數)
  * 難度：簡單 (Easy)
@@ -32,10 +25,3 @@ public:
         return sum;
     }
 };
-```
-
-> [Sum Multiples](https://leetcode.com/problems/sum-multiples)
-> travsal 1~n，如果是3或5或7能整除，則加到sum，最後回傳sum <br>
-> for(int i = 1 ;i <= n; i++) { <br>
-> if(i % 3 == 0 || i % 5 == 0 || i % 7 == 0) sum += i; <br>
-> }<br>

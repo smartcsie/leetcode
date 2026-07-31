@@ -24,6 +24,7 @@
 | 1910 | [Remove All Occurrences of a Substring](../problems/1910.md) | 🟡 Medium | Stack, String | O(N * M) | O(N) |
 | 1945 | [Sum of Digits of String After Convert](../problems/1945.md) | 🟢 Easy | String, Simulation | O(N + K * log(SUM)) | O(1) |
 | 1961 | [Check If String Is a Prefix of Array](../problems/1961.md) | 🟢 Easy | String, Simulation | O(S) | O(S) |
+| 1967 | [Number of Strings That Appear as Substrings in Word](../problems/1967.md) | 🟢 Easy | String, Brute Force | O(N * M) | O(1) |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](../problems/2042.md) | 🟢 Easy | String, Parsing | O(N) | O(1) |
 | 2114 | [Maximum Number of Words Found in Sentences](../problems/2114.md) | 🟢 Easy | String, Array | O(N * M) | O(1) |
 | 2116 | [Check if a Parentheses String Can Be Valid](../problems/2116.md) | 🟡 Medium | Greedy, String | O(N) | O(1) |
@@ -31,7 +32,7 @@
 | 2185 | [Counting Words With a Given Prefix](../problems/2185.md) | 🟢 Easy | String, Simulation | O(N * M) | O(1) |
 | 2243 | [Calculate Digit Sum of a String](../problems/2243.md) | 🟢 Easy | Simulation, String | O(N * log N) | O(N) |
 | 2255 | [Count Prefixes of a Given String](../problems/2255.md) | 🟢 Easy | String, Simulation | O(N * M) | O(1) |
-| 2264 | [Largest 3-Same-Digit Number in String](../problems/2264.md) | 🟢 Easy | String | O(N) | O(1) |
+| 2264 | [Largest 3-Same-Digit Number in String](../problems/2264.md) | 🟢 Easy | Array Linear Scan, String | O(N) | O(1) |
 | 2460 | [Apply Operations to an Array](../problems/2460.md) | 🟢 Easy | Array, Simulation | O(N) | O(1) |
 | 2490 | [Circular Sentence](../problems/2490.md) | 🟢 Easy | String | O(N) | O(1) |
 | 2828 | [Check if a String Is an Acronym of Words](../problems/2828.md) | 🟢 Easy | Array, String | O(N) | O(1) |

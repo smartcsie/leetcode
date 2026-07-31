@@ -1,11 +1,12 @@
 number: 2652
 title: Sum Multiples
-url: https://leetcode.com/problems/sum-multiples
+url: https://leetcode.com/problems/sum-multiples/
 solutions:
 - file: Solution_2652.cpp
   difficulty: 🟢 Easy
   tags:
   - Math
+  - Brute Force
   topics:
   - math
   time: O(N)

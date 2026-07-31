@@ -5,9 +5,9 @@ solutions:
 - file: Solution_3079.cpp
   difficulty: 🟢 Easy
   tags:
-  - Simulation
-  - Math
+  - Math Digit Decomposition
+  - Digit Manipulation
   topics:
   - math-digit-decomposition
   time: O(N * D)
-  space: O(1)
+  space: O(D)

@@ -1,10 +1,3 @@
-# 1967. Number of Strings That Appear as Substrings in Word
-
-[在 LeetCode 上查看](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)
-
-**難度:** 🟢 Easy　**標籤:** String, Brute Force　**時間:** O(N * M)　**空間:** O(1)
-
-```cpp
 /**
  * 題目：1967. Number of Strings That Appear as Substrings in Word (作為子字串出現在單詞中的字串數目)
  * 難度：簡單 (Easy)
@@ -36,4 +29,3 @@ public:
         return count;
     }
 };
-```

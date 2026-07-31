@@ -5,9 +5,9 @@ solutions:
 - file: Solution_0866.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
-  - Palindrome
+  - Prime
+  - Palindrome Construction
   topics:
-  - math-palindrome
-  time: O(sqrt(P) * 10^(L/2))
+  - prime
+  time: O(sqrt(10^9))
   space: O(1)

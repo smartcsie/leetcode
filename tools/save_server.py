@@ -2,8 +2,10 @@
 """
 save_server.py — 本機小伺服器：
   - 提供 solution-generator.html 的靜態頁面
-  - 接受 POST /api/save，直接把 metadata/*.yml 與 solution/*.cpp
-    寫進本機資料夾（不透過瀏覽器的檔案系統權限，避免 \\wsl$ 網路磁碟權限問題）
+  - 接受 POST /api/save，把 metadata/*.yml 與 solution/*.cpp 寫進本機資料夾
+    （不透過瀏覽器的檔案系統權限，避免 \\wsl$ 網路磁碟權限問題）
+    若該題號的 metadata 檔案已存在，會與既有的 solutions 合併
+    （同檔名覆蓋更新、不同檔名新增為額外解法變體），不會整份覆蓋掉。
   - 接受 POST /api/publish，執行同資料夾下的 publish.sh
     （generate_site.py + git commit/push + mkdocs gh-deploy）
 
@@ -20,6 +22,12 @@ import sys
 import re
 import subprocess
 
+try:
+    import yaml
+except ImportError:
+    print("需要 PyYAML，請先執行: pip install pyyaml --break-system-packages")
+    sys.exit(1)
+
 METADATA_DIR = "metadata"
 SOLUTION_DIR = "solution"
 PUBLISH_SCRIPT = "publish.sh"
@@ -28,8 +36,69 @@ PUBLISH_TIMEOUT_SEC = 180
 SAFE_FILENAME_RE = re.compile(r'^[A-Za-z0-9_\-\.]+$')
 ANSI_RE = re.compile(r'\x1b\[[0-9;]*m')
 
+
 def is_safe_filename(name):
     return bool(name) and SAFE_FILENAME_RE.match(name) and '..' not in name
+
+
+def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_solutions):
+    """
+    合併寫入：若 metadata/{number}.yml 已存在，讀出既有 solutions，
+    依照 'file' 欄位比對：同檔名 -> 覆蓋更新；不同檔名 -> 新增變體。
+    回傳 (saved_paths, errors)
+    """
+    os.makedirs(meta_dir, exist_ok=True)
+    os.makedirs(solution_dir, exist_ok=True)
+
+    meta_path = os.path.join(meta_dir, f"{number:04d}.yml")
+    saved = []
+    errors = []
+
+    existing_solutions = []
+    if os.path.exists(meta_path):
+        try:
+            with open(meta_path, 'r', encoding='utf-8') as f:
+                existing_data = yaml.safe_load(f) or {}
+            existing_solutions = existing_data.get('solutions', []) or []
+        except Exception as e:
+            errors.append(f'讀取既有 metadata 失敗，將視為新檔案處理: {e}')
+
+    by_file = {s.get('file'): s for s in existing_solutions if s.get('file')}
+    order = [s.get('file') for s in existing_solutions if s.get('file')]
+
+    for sol in incoming_solutions:
+        fname = sol.get('file', '')
+        if not is_safe_filename(fname):
+            errors.append(f'.cpp 檔名不合法: {fname}')
+            continue
+
+        code = sol.pop('code', None)
+        if not sol.get('familiarity'):
+            sol.pop('familiarity', None)
+
+        if fname not in by_file:
+            order.append(fname)
+        by_file[fname] = sol
+
+        if code is not None:
+            cpp_path = os.path.join(solution_dir, fname)
+            with open(cpp_path, 'w', encoding='utf-8') as f:
+                f.write(code)
+            saved.append(f'{solution_dir}/{fname}')
+
+    merged_solutions = [by_file[f] for f in order if f in by_file]
+
+    meta_out = {
+        'number': number,
+        'title': title,
+        'url': url,
+        'solutions': merged_solutions,
+    }
+    with open(meta_path, 'w', encoding='utf-8') as f:
+        yaml.dump(meta_out, f, allow_unicode=True, sort_keys=False)
+    saved.insert(0, f'{meta_dir}/{number:04d}.yml')
+
+    return saved, errors
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
@@ -62,33 +131,24 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self._send_json(400, {'error': f'無法解析請求內容: {e}'})
             return
 
-        saved = []
-        errors = []
+        number = data.get('number')
+        try:
+            number = int(number)
+        except (TypeError, ValueError):
+            self._send_json(400, {'error': f'題號格式錯誤或缺少題號: {number!r}'})
+            return
 
-        meta = data.get('metadata')
-        if meta:
-            fname = meta.get('filename', '')
-            content = meta.get('content', '')
-            if not is_safe_filename(fname):
-                errors.append(f'metadata 檔名不合法: {fname}')
-            else:
-                os.makedirs(METADATA_DIR, exist_ok=True)
-                path = os.path.join(METADATA_DIR, fname)
-                with open(path, 'w', encoding='utf-8') as f:
-                    f.write(content)
-                saved.append(f'{METADATA_DIR}/{fname}')
+        title = data.get('title', '')
+        url = data.get('url', '')
+        incoming_solutions = data.get('solutions', [])
 
-        for sol in data.get('solutions', []):
-            fname = sol.get('filename', '')
-            content = sol.get('content', '')
-            if not is_safe_filename(fname):
-                errors.append(f'.cpp 檔名不合法: {fname}')
-                continue
-            os.makedirs(SOLUTION_DIR, exist_ok=True)
-            path = os.path.join(SOLUTION_DIR, fname)
-            with open(path, 'w', encoding='utf-8') as f:
-                f.write(content)
-            saved.append(f'{SOLUTION_DIR}/{fname}')
+        try:
+            saved, errors = save_metadata_and_code(
+                METADATA_DIR, SOLUTION_DIR, number, title, url, incoming_solutions
+            )
+        except Exception as e:
+            self._send_json(500, {'error': f'存檔時發生錯誤: {e}'})
+            return
 
         if errors and not saved:
             self._send_json(400, {'error': '; '.join(errors)})
@@ -137,7 +197,6 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self._send_json(500, {'error': str(e)})
 
     def log_message(self, format, *args):
-        # 精簡一點的 log，只顯示方法與路徑
         sys.stderr.write(f"{self.command} {self.path} -> {args[1] if len(args) > 1 else ''}\n")
 
 
@@ -145,7 +204,7 @@ def main():
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8090
     server = http.server.HTTPServer(('localhost', port), Handler)
     print(f"✓ 伺服器啟動: http://localhost:{port}/solution-generator.html")
-    print(f"  metadata 會寫進: ./{METADATA_DIR}/")
+    print(f"  metadata 會寫進: ./{METADATA_DIR}/（同題號會自動合併解法變體）")
     print(f"  solution 會寫進: ./{SOLUTION_DIR}/")
     if os.path.exists(PUBLISH_SCRIPT):
         print(f"  ✓ 找到 {PUBLISH_SCRIPT}，發佈按鈕可以使用")

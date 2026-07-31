@@ -30,4 +30,4 @@
 | 1143 | [Longest Common Subsequence](../problems/1143.md) | 🟡 Medium | Dynamic Programming | O(M*N) | O(M*N) |
 | 1277 | [Count Square Submatrices with All Ones](../problems/1277.md) | 🟡 Medium | Matrix, Dynamic Programming | O(M * N) | O(1)* |
 | 1668 | [Maximum Repeating Substring](../problems/1668.md) | 🟢 Easy | String | O(N*M²) | O(M) |
-| 2707 | [Extra Characters in a String](../problems/2707.md) | 🟡 Medium | Dynamic Programming, Hash Set | O(N³ + M*L) | O(N + M * L) |
+| 2707 | [Extra Characters in a String](../problems/2707.md) | 🟡 Medium | Dynamic Programming, Hash Set | O(N³) | O(N + D) |

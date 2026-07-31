@@ -1,10 +1,3 @@
-# 3079. Find the Sum of Encrypted Integers
-
-[在 LeetCode 上查看](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/)
-
-**難度:** 🟢 Easy　**標籤:** Math Digit Decomposition, Digit Manipulation　**時間:** O(N * D)　**空間:** O(D)
-
-```cpp
 /**
  * 題目：3079. Find the Sum of Encrypted Integers (求加密整數的和)
  * 難度：簡單 (Easy)
@@ -45,4 +38,3 @@ public:
         return ans;
     }
 };
-```

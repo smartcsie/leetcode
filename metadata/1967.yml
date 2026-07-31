@@ -6,8 +6,8 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - String
-  - Search
+  - Brute Force
   topics:
-  - string-substring
-  time: O(N * M * K)
+  - string
+  time: O(N * M)
   space: O(1)

@@ -1,10 +1,3 @@
-# 866. Prime Palindrome
-
-[在 LeetCode 上查看](https://leetcode.com/problems/prime-palindrome/)
-
-**難度:** 🟡 Medium　**標籤:** Prime, Palindrome Construction　**時間:** O(sqrt(10^9))　**空間:** O(1)
-
-```cpp
 /**
  * 題目：866. Prime Palindrome (質數回文)
  * 難度：中等 (Medium)
@@ -64,4 +57,3 @@ public:
         return -1;
     }
 };
-```

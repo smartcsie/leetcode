@@ -1,10 +1,3 @@
-# 116. Populating Next Right Pointers in Each Node
-
-[在 LeetCode 上查看](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
-
-**難度:** 🟡 Medium　**標籤:** Tree, Recursion, Constant Space　**時間:** O(N)　**空間:** O(1)
-
-```cpp
 /**
  * 題目：116. Populating Next Right Pointers in Each Node (填充每個節點的下一個右側節點指標)
  * 難度：中等 (Medium)
@@ -50,4 +43,3 @@ public:
         return root;
     }
 };
-```

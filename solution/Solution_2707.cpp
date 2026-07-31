@@ -1,10 +1,3 @@
-# 2707. Extra Characters in a String
-
-[在 LeetCode 上查看](https://leetcode.com/problems/extra-characters-in-a-string/)
-
-**難度:** 🟡 Medium　**標籤:** Dynamic Programming, Hash Set　**時間:** O(N³)　**空間:** O(N + D)
-
-```cpp
 /**
  * 題目：2707. Extra Characters in a String (字串中的額外字元)
  * 難度：中等 (Medium)
@@ -49,4 +42,3 @@ public:
         return dp[n];
     }
 };
-```
