@@ -11,3 +11,9 @@ solutions:
   - prime
   time: O(R log log R)
   space: O(R)
+  note: '> [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/)<br>
+
+    > 執行Sieve of Eratosthenes演算法，算出質數vector<int> primes;和 vector<bool> isPrime;<br>
+
+    > travsal primes，把prime加到current_sum，if (current_sum > n) break;，if (isPrime[current_sum])
+    { ans = static_cast<int>(current_sum);}<br>'

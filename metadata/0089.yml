@@ -11,3 +11,6 @@ solutions:
   - bit-manipulation
   time: O(2ᴺ)
   space: O(1)
+  note: '> [Gray Code](https://leetcode.com/problems/gray-code/)<br>
+
+    > 數字i的Gray code為 **i ⊕ (i >> 1)** <br>'

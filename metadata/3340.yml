@@ -11,3 +11,6 @@ solutions:
   - math-digit-decomposition
   time: O(N)
   space: O(1)
+  note: '> [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)<br>
+
+    > Travsal vector<int>& nums，sum算出digit之和，用min紀錄最小的digit sum<br>'

@@ -10,3 +10,10 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
+  note: '> [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)  <br>
+
+    > Index 11和12是age <br>
+
+    > int age = 10 * (detail[11] - ''0'') + (detail[12] - ''0'');<br>
+
+    > if( age > 60) citizens++;<br>'

@@ -10,3 +10,8 @@ solutions:
   - string
   time: O(N)
   space: O(1)
+  note: '> [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string)<br>
+
+    > **for(int i = 0 ; i < s.size(); i++) if(i % 2 == s[i]-''0'') count++;** <br>
+
+    > **return min(count, static_cast<int>(s.size()) - count);** <br>'

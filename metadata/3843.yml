@@ -10,3 +10,10 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(N)
+  note: '> [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/)<br>
+
+    > travsal nums, 用unordered_map<int, int> counts紀錄數字出現的次數<br>
+
+    > travsal counts, 用 unordered_map<int, int> countFreq;紀錄出現次數的頻率<br>
+
+    > travsal nums, if(countFreq[counts[num]] == 1) return num;<br>'

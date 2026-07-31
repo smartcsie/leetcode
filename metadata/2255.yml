@@ -11,3 +11,10 @@ solutions:
   - string
   time: O(N * M)
   space: O(1)
+  note: '> [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)<br>
+
+    > **for(const string& word : words) {**
+
+    > &emsp;&emsp;&emsp;&emsp**if(s.find(word) == 0) count++;**
+
+    > **}**'

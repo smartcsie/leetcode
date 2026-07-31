@@ -10,3 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
+  note: '> [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/)
+    <br>
+
+    > 用sum把十進制每個digit相加，最後return sum<br>'

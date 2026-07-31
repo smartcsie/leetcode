@@ -10,3 +10,10 @@ solutions:
   - two-pointers-opposite
   time: O(N * L)
   space: O(1)
+  note: '> [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)
+    <br>
+
+    > 實做string isPalindromic，travsal vector<string>& words，第一個Palindromic回傳<br>
+
+
+    <br><br>'

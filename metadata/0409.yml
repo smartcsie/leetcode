@@ -11,3 +11,10 @@ solutions:
   - greedy
   time: O(N)
   space: O(K)
+  note: '> [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)<br>
+
+    > 用 unordered_map<char, int> counts;統計大小寫出現頻率<br>
+
+    > 對每個頻率，如果是偶數，直接加到res，如果是奇數，減1加到res<br>
+
+    > 如果頻率有奇數，最後res再+1<br>'

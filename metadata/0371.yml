@@ -10,3 +10,18 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
+  note: '> [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)
+    <br>
+
+    > **while(b != 0) {** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**int carry = (a  & b) << 1;** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**a = a ^ b; b = carry;** <br>
+
+    > **}** <br>
+
+    > **return a;** <br>
+
+    > 同 2235.  [Add Two Integers](https://leetcode.com/problems/add-two-integers)
+    <br>'

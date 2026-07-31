@@ -11,3 +11,8 @@ solutions:
   - prime
   time: O(NloglogN)
   space: O(N)
+  note: '> [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)
+    <br>
+
+    > 起一組 bitset<100001> isPrime，執行Sieve of Eratosthenes演算法，i 從 1 ~ n/2，i和 n - 1都是prime，則放入result
+    vector<br>'

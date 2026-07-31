@@ -10,3 +10,9 @@ solutions:
   - bit-manipulation-and
   time: O(1)
   space: O(1)
+  note: '> [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)<br>
+
+    > 使用 **Brian Kernighan''s Algorithm** ，**n = n & (n - 1)**，有 build in function可以用<br>
+
+    > **(1)** C++20，std::popcount(static_cast<unsigned int>(n)) 或  **(2)** 若編譯器(GCC/Clang)支援，
+    __builtin_popcount(n) <br>'

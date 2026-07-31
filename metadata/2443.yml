@@ -11,3 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(NlogN)
   space: O(1)
+  note: '> [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)
+    <br>
+
+    > 實作一個base 10的reverse，for loop i，從 num/2 ~ num， i + reverse(i) 則 return true<br>'

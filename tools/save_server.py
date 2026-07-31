@@ -75,6 +75,8 @@ def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_
         code = sol.pop('code', None)
         if not sol.get('familiarity'):
             sol.pop('familiarity', None)
+        if not sol.get('note'):
+            sol.pop('note', None)
 
         if fname not in by_file:
             order.append(fname)

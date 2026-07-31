@@ -19,3 +19,7 @@ solutions:
   - tree
   time: O(N)
   space: O(H)
+  note: '> [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+    <br>
+
+    root為空則return，遞迴左子樹，遞迴右子樹，把root->val加入到result vector<br>'

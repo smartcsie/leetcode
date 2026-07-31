@@ -10,3 +10,21 @@ solutions:
   - array-continuous-counting
   time: O(N)
   space: O(1)
+  note: '> [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)<br>
+
+    >  travsal s，s[i] == s[i - 1]，count +1，否則為1，每次都更新ans值，ans為max<br>
+
+    >  注意與 [485 Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)的差異是本題count初始值為1<br>
+
+    >  **for(int i = 1; i < s.size(); i++) {** <br>
+
+    >  &emsp;&emsp;&emsp;&emsp;**count = (s[i] == s[i - 1]) ? count + 1 : 1;** <br>
+
+    >  &emsp;&emsp;&emsp;&emsp;**ans = max(ans, count);** <br>
+
+    >  **}** <br>
+
+
+
+
+    <br><br>'

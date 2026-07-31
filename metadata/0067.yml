@@ -11,3 +11,22 @@ solutions:
   - math-simulation
   time: O(max(M, N))
   space: O(1)
+  note: '> [Add Binary](https://leetcode.com/problems/add-binary)<br>
+
+    > 和 0415[Add Strings](https://leetcode.com/problems/add-strings) 幾乎一樣<br>
+
+    > i和j設定為a和b最後的index，i = a.size() - 1，j = b.size() - 1<br>
+
+    > **while(i >= 0 || j >= 0 || carry == 1) {** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**if(i >= 0) carry += a[i--] - ''0'';** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**if(j >= 0) carry += b[j--] - ''0'';** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**res.push_back((carry % 2) + ''0'');** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**carry /= 2;** <br>
+
+    > **}** <br>
+
+    > **reverse(res.begin(), res.end());** <br>'

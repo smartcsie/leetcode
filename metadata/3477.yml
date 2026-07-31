@@ -11,3 +11,10 @@ solutions:
   - array
   time: O(N^2)
   space: O(1)
+  note: '> [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/)
+    <br>
+
+    > 這一題有O(nlong)解法，SegmentTree
+
+
+    <br><br>'

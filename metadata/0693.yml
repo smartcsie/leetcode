@@ -10,3 +10,9 @@ solutions:
   - bit-manipulation-and
   time: O(1)
   space: O(1)
+  note: '> [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)<br>
+
+    > n先mod 4等於t，檢查11(t & 3) == 3，檢查00(t ^ 3) == 3，符合就回傳false<br>
+
+
+    <br><br>'

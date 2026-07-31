@@ -10,3 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(log N)
   space: O(1)
+  note: '> [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/)<br>
+
+    > 如果 (n & 3) == 3，count++，如果count > 1  return false，n >>= 1，迴圈出來，return count
+    == 1<br>'

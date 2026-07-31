@@ -11,3 +11,6 @@ solutions:
   - math
   time: O(N)
   space: O(1)
+  note: '> [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)  <br>
+
+    > **static_cast<int>(log10(num) + 1) % 2 == 0** <br>'

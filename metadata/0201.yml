@@ -10,3 +10,7 @@ solutions:
   - bit-manipulation-and
   time: O(logN)
   space: O(1)
+  note: '> [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range)<br>
+
+    > 使用 **Brian Kernighan''s Algorithm** ，**right = right & (right - 1)**， while(right
+    > left) <br>'

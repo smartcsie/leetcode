@@ -11,3 +11,12 @@ solutions:
   - string
   time: O(S)
   space: O(1)
+  note: '> [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)<br>
+
+    > 外迴圈i從0到strs[0].size()-1，內層迴圈j從 1 ~ strs.size()<br>
+
+    > 如果比較的字串比較長 strs[j].size() < i或是發現第i個char不一樣(strs[j][i] != strs[0][i]<br>
+
+    > return strs[0].substr(0, i);<br>
+
+    > 或最後  return strs[0];<br>'

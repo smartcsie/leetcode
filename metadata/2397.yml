@@ -12,3 +12,10 @@ solutions:
   - bit-bitmask-subset-enumeration
   time: O(2ᴺ*M + M*N)
   space: O(M)
+  note: '> [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/)<br>
+
+    > 跟 [1239 Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)類似
+
+
+
+    <br><br>'

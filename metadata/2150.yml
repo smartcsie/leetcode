@@ -11,3 +11,7 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(N)
+  note: '> [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array)<br>
+
+    > 用unordered map紀錄數字頻率，travsal unordered map，如果 num - 1和 num + 1都不在unordered map，且num頻率等於1，則加入result
+    vector<br>'

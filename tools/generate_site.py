@@ -76,21 +76,6 @@ def load_metadata(meta_dir):
         problems.append(data)
     return problems
 
-def load_note(notes_dir, number):
-    path = os.path.join(notes_dir, f"{number:04d}.md")
-    if not os.path.exists(path):
-        return {}
-    with open(path, encoding='utf-8', errors='replace') as f:
-        text = f.read()
-    parts = re.split(r'^### 解法（([^）]*)）\s*$', text, flags=re.MULTILINE)
-    notes_by_label = {}
-    for i in range(1, len(parts), 2):
-        label = parts[i]
-        body = parts[i + 1] if i + 1 < len(parts) else ''
-        body = re.sub(r'\n-{3,}\s*$', '', body).strip()
-        notes_by_label[label] = body
-    return notes_by_label
-
 def load_code(solution_dir, filename):
     if not filename:
         return None
@@ -100,12 +85,11 @@ def load_code(solution_dir, filename):
     with open(path, encoding='utf-8', errors='replace') as f:
         return f.read()
 
-def build_problem_page(problem, solution_dir, notes_dir):
+def build_problem_page(problem, solution_dir):
     number = problem['number']
     title = problem['title']
     url = problem.get('url', '')
     solutions = problem['solutions']
-    notes_by_label = load_note(notes_dir, number)
 
     lines = [f"# {number}. {title}", '']
     if url:
@@ -146,7 +130,7 @@ def build_problem_page(problem, solution_dir, notes_dir):
         else:
             missing_files.append(sol.get('file'))
 
-        note_body = notes_by_label.get(label_key)
+        note_body = sol.get('note')
         if note_body:
             lines.append(note_body)
             lines.append('')
@@ -221,11 +205,11 @@ def build_review_page(problems, docs_dir):
 
 
 def main():
-    if len(sys.argv) != 5:
-        print("Usage: python3 generate_site.py <metadata_dir> <notes_dir> <solution_dir> <docs_dir>")
+    if len(sys.argv) != 4:
+        print("Usage: python3 generate_site.py <metadata_dir> <solution_dir> <docs_dir>")
         sys.exit(1)
 
-    meta_dir, notes_dir, solution_dir, docs_dir = sys.argv[1:5]
+    meta_dir, solution_dir, docs_dir = sys.argv[1:4]
     problems_out_dir = os.path.join(docs_dir, 'problems')
     topics_out_dir = os.path.join(docs_dir, 'topics')
     os.makedirs(problems_out_dir, exist_ok=True)
@@ -235,7 +219,7 @@ def main():
 
     all_missing = []
     for problem in problems:
-        content, missing = build_problem_page(problem, solution_dir, notes_dir)
+        content, missing = build_problem_page(problem, solution_dir)
         number = problem['number']
         out_path = os.path.join(problems_out_dir, f"{number:04d}.md")
         with open(out_path, 'w', encoding='utf-8') as f:

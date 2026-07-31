@@ -10,6 +10,21 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
+  note: '> [Single Number II](https://leetcode.com/problems/single-number-ii)<br>
+
+    > **int one = 0, two = 0;** <br>
+
+    > **for(const int& num : nums) {** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**one = one^num & ~two;** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**two = two^num & ~one;** <br>
+
+    > **}** <br>
+
+    > return one;** <br>
+
+    > 此題有三種解法，位元有限狀態機是最佳解<br>'
 - file: Solution_0137_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -19,3 +34,10 @@ solutions:
   - math
   time: O(N)
   space: O(N)
+  note: '> [Single Number II](https://leetcode.com/problems/single-number-ii)<br>
+
+    > 先travsal nums，num加到sum_all，num順便insert到unique_set(unordered_set<int>)<br>
+
+    > (3 * sum_unique - sum_all) / 2<br>
+
+    > 此題有三種解法，位元有限狀態機是最佳解<br>'

@@ -11,3 +11,12 @@ solutions:
   - math
   time: O(N)
   space: O(1)
+  note: '> [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/)
+    <br>
+
+    > for(int i = 0; i < nums.size(); i++) {  sum += (i & 1) ? -nums[i] : nums[i];  }
+    <br>
+
+
+
+    <br><br>'

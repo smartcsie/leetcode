@@ -10,3 +10,12 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
+  note: '> [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/)<br>
+
+    > 0->1，1->2，2->2，3->3...，6->3，7->4，**等於算(n+1)的bit數目**<br>
+
+    > **return bit_width(static_cast<uint32_t>(n + 1));** <br>
+
+
+
+    <br><br>'

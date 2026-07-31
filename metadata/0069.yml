@@ -10,3 +10,6 @@ solutions:
   - binary-search
   time: O(logN)
   space: O(1)
+  note: '> [Sqrt(x)](https://leetcode.com/problems/sqrtx/) <br>
+
+    > **尋找右側邊界**，最後 **return right**<br>'

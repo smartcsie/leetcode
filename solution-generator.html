@@ -618,6 +618,10 @@ function addSolutionBlock(prefill) {
       </select>
     </div>
     <div class="field">
+      <label>筆記 <span class="hint">(選填，會顯示在程式碼下方，例如額外的觀察或替代寫法)</span></label>
+      <textarea class="sol-note" rows="3" placeholder="例如：規律觀察、相關題目連結、更簡潔的替代寫法..."></textarea>
+    </div>
+    <div class="field">
       <label>完整 .cpp 程式碼 <span class="hint">(含統一格式註解)</span></label>
       <textarea class="sol-code" rows="10" placeholder="/**\n * 題目：...\n */\nclass Solution { ... };"></textarea>
     </div>
@@ -680,6 +684,8 @@ function collectStructuredData() {
     const code = block.querySelector('.sol-code').value;
     const familiarityEl = block.querySelector('.sol-familiarity');
     const familiarity = familiarityEl ? familiarityEl.value : '';
+    const noteEl = block.querySelector('.sol-note');
+    const note = noteEl ? noteEl.value.trim() : '';
 
     if (topics.length === 0) {
       missingTopics.push(`解法 #${idx + 1}（${file}）`);
@@ -688,6 +694,7 @@ function collectStructuredData() {
     solutions.push({
       file, difficulty, tags, topics, time, space,
       familiarity: familiarity || null,
+      note: note || null,
       code,
     });
   });
@@ -716,6 +723,7 @@ function buildYamlPreview(data) {
     lines.push(`  time: ${sol.time}`);
     lines.push(`  space: ${sol.space}`);
     if (sol.familiarity) lines.push(`  familiarity: ${sol.familiarity}`);
+    if (sol.note) lines.push(`  note: ${sol.note}`);
   });
   return lines.join('\n') + '\n';
 }

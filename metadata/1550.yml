@@ -10,3 +10,6 @@ solutions:
   - array
   time: O(N)
   space: O(1)
+  note: "> [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)\
+    \ <br>\n>  **if (num & 1) { count++; if (count == 3) return true; }** <br> \n\
+    >  **else { count = 0;}** <br>"

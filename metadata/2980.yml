@@ -11,3 +11,6 @@ solutions:
   - bit-manipulation-or
   time: O(N)
   space: O(1)
+  note: '> [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)<br>
+
+    > travsal nums，出現兩個even number，return true<br>'

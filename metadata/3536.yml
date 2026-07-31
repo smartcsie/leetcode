@@ -11,3 +11,15 @@ solutions:
   - greedy
   time: O(log N)
   space: O(1)
+  note: '> [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)
+    <br>
+
+    > digit decomposition時，紀錄最大和第二大，最後回傳相乘
+
+    > <br>
+
+
+
+
+
+    <br><br>'

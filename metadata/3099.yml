@@ -10,3 +10,6 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
+  note: '> [Harshad Number](https://leetcode.com/problems/harshad-number/)<br>
+
+    > 用sum把十進制每個digit相加，最後return (x % sum) == 0 ? sum : -1;<br>'

@@ -19,3 +19,7 @@ solutions:
   - tree
   time: O(N)
   space: O(H)
+  note: '> [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+    <br>
+
+    root為空則return，把root->val加入到result vector，遞迴左子樹，遞迴右子樹<br>'

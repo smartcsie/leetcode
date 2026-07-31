@@ -10,3 +10,9 @@ solutions:
   - hamming-distance
   time: O(log N)
   space: O(1)
+  note: '> [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/)<br>
+
+    > 先求binary string的reverse，取n和reverse的Hamming Distance<br>
+
+
+    <br><br>'

@@ -10,3 +10,7 @@ solutions:
   - math
   time: O(1)
   space: O(1)
+  note: '> [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)
+    <br>
+
+    > 條件 **num == 0 || num % 10 != 0**。<br>'

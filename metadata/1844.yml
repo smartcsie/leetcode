@@ -10,3 +10,11 @@ solutions:
   - array
   time: O(N)
   space: O(1)
+  note: '> [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)
+    <br>
+
+    >  **for(int i = 1; i <s.size(); i += 2) {** <br>
+
+    >  &emsp;&emsp;&emsp;&emsp;**s[i] = s[i - 1] + s[i] - ''0'';** <br>
+
+    >  **}** <br>'

@@ -11,3 +11,6 @@ solutions:
   - math
   time: O(logN)
   space: O(1)
+  note: '> [Arranging Coins](https://leetcode.com/problems/arranging-coins/) <br>
+
+    > **return (int)((-1 + sqrt(1 + 8 * (long)n)) / 2);** <br>'

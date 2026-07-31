@@ -10,3 +10,9 @@ solutions:
   - bit-manipulation-or
   time: O(1)
   space: O(1)
+  note: '> [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)<br>
+
+    > **int diff = (a | b) ^ c;** <br>
+
+    > **int flips = __builtin_popcount(diff & ~c) + __builtin_popcount(a & b & diff);**
+    <br>'

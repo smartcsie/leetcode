@@ -11,3 +11,8 @@ solutions:
   - array
   time: O(N)
   space: O(1)
+  note: '>  [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)
+    <br>
+
+    >  產生n個數，使其sum為0，起一個loop，i從 1 ~/2，ans.push_back(i);ans.push_back(-i);，如果n是奇數，多放0，if(n
+    & 1) ans.push_back(0);<br>'

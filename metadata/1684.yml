@@ -12,3 +12,11 @@ solutions:
   - bit-manipulation
   time: O(N * M)
   space: O(1)
+  note: '> [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)<br>
+
+    > 先用一個int mask 紀錄哪些字元出現過(| 1 << c-''a'')，檢查每個string的每個char(1 << c-''a'')和msk &，為0則是沒有在字典中<br>
+
+    > 為什麼選擇 int mask 而非 bitset？
+
+    > int (或 long) 的運算直接對應 CPU 的暫存器指令，在這種極小範圍 (26 bits) 的情況下，它的運算速度幾乎是瞬間完成，且不需要引入額外的標頭檔
+    (<bitset>)，代碼更簡潔。<br>'

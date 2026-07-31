@@ -10,3 +10,12 @@ solutions:
   - tree
   time: O(N)
   space: O(H)
+  note: '> [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+    <br>
+
+    root為空則return，swap左右子樹的node，invertTree遞迴左子樹，invertTree遞迴右子樹<br>
+
+
+
+
+    <br><br>'

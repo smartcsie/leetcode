@@ -10,3 +10,9 @@ solutions:
   - hash-table-set
   time: O(N)
   space: O(N)
+  note: "> [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)<br>\n\
+    \ **此題總共有四種作法**<br>\n> [法一 Hashset Insert](./solution-pages/Solution_0217.md)，一邊Insert，一邊檢查，Time:O(N)，Time:O(N)<br>\n\
+    > [法二 Hashset 去重](./solution-pages/Solution_0217_1.md)，全部塞入unordered_set，檢查個數和原nums個數，Time:O(N)，Time:O(N)<br>\n\
+    > [法三 Unique 去重](./solution-pages/Solution_0217_2.md)，用std::unique判斷，檢查it != nums.end()，Time:O(NlogN)，Time:O(logN)<br>\n\
+    > [法四 排序](./solution-pages/Solution_0217_3.md)，排序，檢查相鄰元素是否相等，Time:O(NlogN)，Time:O(logN)<br>\n\
+    \n\n<br><br>"

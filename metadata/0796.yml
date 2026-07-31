@@ -10,3 +10,6 @@ solutions:
   - string-substring
   time: O(N)
   space: O(N)
+  note: '> [Rotate String](https://leetcode.com/problems/rotate-string) <br>
+
+    > **return (s + s).find(goal) != string::npos;** <br>'

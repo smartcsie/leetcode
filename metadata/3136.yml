@@ -11,3 +11,12 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
+  note: '> [Valid Word](https://leetcode.com/problems/valid-word/) <br>
+
+    > 如果是數字continue， if(isdigit(c)) continue<br>
+
+    > 如果是大小寫字母，代入isVowel，計數vowel或consonant<br>
+
+    > 不是前兩種，return false<br>
+
+    > 最後 (vowel >= 1) && (consonant >= 1)<br>'

@@ -11,3 +11,14 @@ solutions:
   - string
   time: O(N)
   space: O(1)
+  note: '> [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string)
+    <br>
+
+    > travsal字串 ， degree +=  (26 - (s[i] - ''a'')) * (i + 1);<br>
+
+
+
+
+
+
+    <br><br>'

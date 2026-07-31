@@ -11,3 +11,13 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
+  note: '> [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)<br>
+
+    > 類似 3856[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/)
+    <br>
+
+    > **while (!num.empty() && num.back() == ''0''){** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**num.pop_back();** <br>
+
+    > **}** <br>'

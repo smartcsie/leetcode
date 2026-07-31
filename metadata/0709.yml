@@ -10,3 +10,6 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
+  note: '> [To Lower Case](https://leetcode.com/problems/to-lower-case) <br>
+
+    > **for(char& c : s ) if(isupper(c)) c += 32;** <br>'

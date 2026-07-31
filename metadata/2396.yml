@@ -11,3 +11,5 @@ solutions:
   - math-palindrome
   time: O(1)
   space: O(1)
+  note: "> [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)\
+    \ \n> return false;\n\n\n\n<br><br>"

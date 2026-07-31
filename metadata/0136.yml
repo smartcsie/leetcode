@@ -10,3 +10,6 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
+  note: '> [Single Number](https://leetcode.com/problems/single-number)<br>
+
+    > 所有num出現兩次，目標num出現一次，全部的數字XOR起來就是答案<br>'

@@ -10,3 +10,16 @@ solutions:
   - math
   time: O(K)
   space: O(1)
+  note: '> [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/)  <br>
+
+    > **for (int length = 1, remainder = 0; length <= k; ++length) {** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**remainder = (remainder * 10 + 1) % K** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**if (remainder == 0) {** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**return length;** <br>
+
+    > &emsp;&emsp;&emsp;&emsp;**}** <br>
+
+    > **}** <br>'

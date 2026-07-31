@@ -10,3 +10,10 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
+  note: '> [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)<br>
+
+    > 用一個maxReach更新最大能到達，maxReach = max(maxReach, i + nums[i]);<br>
+
+    > 如果 i > maxReach表示不可到達，if(i > maxReach) return false;<br>
+
+    > 如果到了結尾，可以先回傳，if(maxReach >= n - 1) return true;<br>'

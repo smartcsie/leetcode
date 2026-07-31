@@ -11,3 +11,10 @@ solutions:
   - bit-manipulation-and
   time: O(N)
   space: O(N)
+  note: '> [Counting Bits](https://leetcode.com/problems/counting-bits)<br>
+
+    > **Brian Kernighan''s Algorithm** ，**n & (n - 1)，其實是去掉最右邊的1**<br>
+
+    > vector<int> count(n + 1, 0);<br>
+
+    > for(int i = 1; i <= n; i++) count[i] = count[i & (i - 1)] + 1;<br>'

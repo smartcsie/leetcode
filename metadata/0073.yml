@@ -11,3 +11,6 @@ solutions:
   - 2d-array
   time: O(M*N)
   space: O(1)
+  note: '> [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)<br>
+
+    > 用兩個bool紀錄 col[0]和cow[0]是否有0，把每個row和col有0的紀錄在cow[0]和col[0]，之後set 0，最後set col[0]和cow[0]是<br>'

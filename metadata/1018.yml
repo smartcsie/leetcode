@@ -11,3 +11,6 @@ solutions:
   - math
   time: O(N)
   space: O(1)
+  note: '> [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)  <br>
+
+    > **sum = ((sum << 1) + num) % 5;divisible.push_back((sum == 0));** <br>'

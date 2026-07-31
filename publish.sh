@@ -28,7 +28,7 @@ if [ -z "${VIRTUAL_ENV:-}" ]; then
 fi
 
 step "重新產生網站 (generate_site.py)"
-python3 tools/generate_site.py metadata notes solution docs
+python3 tools/generate_site.py metadata solution docs
 ok "網站頁面已更新"
 
 step "Git add + commit"

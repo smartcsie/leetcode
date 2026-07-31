@@ -11,3 +11,6 @@ solutions:
   - math
   time: O(N)
   space: O(1)
+  note: '> [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array)<br>
+
+    > 如果 nums.size() == 0，return 0，起一個變數sign = 1，尋訪nums，如果num < 0，sign = -sign<br>'
