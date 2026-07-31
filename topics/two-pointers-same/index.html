@@ -3168,7 +3168,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../uncategorized/" class="md-nav__link">
+      <a href="../uncategorized.md" class="md-nav__link">
         
   
   
@@ -3340,6 +3340,14 @@
 <td>Array, Two Pointers</td>
 <td>O(N+M)</td>
 <td>O(1)</td>
+</tr>
+<tr>
+<td>2570</td>
+<td><a href="../../problems/2570/">Merge Two 2D Arrays by Summing Values</a></td>
+<td>簡單 (Easy)</td>
+<td></td>
+<td>O(N + M) - 由於兩個輸入陣列皆已排序，利用雙指標（Two Pointers）線性掃描一次即可完成，耗時與兩陣列長度總和成正比。</td>
+<td>O(1) - 僅使用常數個指標與變數（i, j, m, n），並透過 <code>ans.reserve(m + n)</code> 預先分配記憶體，避免動態擴容開銷。</td>
 </tr>
 <tr>
 <td>3132</td>
