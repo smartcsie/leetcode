@@ -2,7 +2,7 @@ number: 806
 title: Number of Lines To Write String
 url: https://leetcode.com/problems/number-of-lines-to-write-string/
 solutions:
-- file: Solution_806.cpp
+- file: Solution_0806.cpp
   difficulty: 🟢 Easy
   tags:
   - Array

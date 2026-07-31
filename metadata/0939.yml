@@ -2,7 +2,7 @@ number: 939
 title: Minimum Area Rectangle
 url: https://leetcode.com/problems/minimum-area-rectangle/
 solutions:
-- file: Solution_939.cpp
+- file: Solution_0939.cpp
   difficulty: 🟡 Medium
   tags:
   - Array

@@ -13,17 +13,14 @@
 | 268 | [Missing Number](../problems/0268.md) | 🟢 Easy | Math | O(N) | O(1) |
 | 326 | [Power of Three](../problems/0326.md) | 🟢 Easy | Math | O(log₃N) | O(1) |
 | 342 | [Power of Four](../problems/0342.md) | 🟢 Easy | Math | O(1) | O(1) |
-| 365 | [Water and Jug Problem](../problems/0365.md) | 🟡 Medium | Math, GCD, Bézout's Identity | O(log(min(x, y))) | O(1) |
 | 396 | [Rotate Function](../problems/0396.md) | 🟡 Medium | Math, Array | O(N) | O(1) |
 | 412 | [Fizz Buzz](../problems/0412.md) | 🟢 Easy | Math, String | O(N) | O(1)* |
 | 441 | [Arranging Coins](../problems/0441.md) | 🟢 Easy | Math, Binary Search | O(logN) | O(1) |
 | 628 | [Maximum Product of Three Numbers](../problems/0628.md) | 🟢 Easy | Array, Math | O(N) | O(1) |
 | 633 | [Sum of Square Numbers](../problems/0633.md) | 🟡 Medium | Math, Two Pointers | O(√C) | O(1) |
-| 914 | [X of a Kind in a Deck of Cards](../problems/0914.md) | 🟢 Easy | Math, GCD, Hash Table | O(N) | O(N) |
 | 970 | [Powerful Integers](../problems/0970.md) | 🟡 Medium | Math, Hash Table | O(log_X(BOUND) * log_Y(BOUND)) | O(S) |
 | 1015 | [Smallest Integer Divisible by K](../problems/1015.md) | 🟡 Medium | Modular Arithmetic | O(K) | O(1) |
 | 1018 | [Binary Prefix Divisible By 5](../problems/1018.md) | 🟢 Easy | Math, Modulo | O(N) | O(1) |
-| 1071 | [Greatest Common Divisor of Strings](../problems/1071.md) | 🟢 Easy | Math, String, GCD | O(N + M) | O(N + M) |
 | 1185 | [Day of the Week](../problems/1185.md) | 🟢 Easy | Math, Zeller's Congruence | O(1) | O(1) |
 | 1232 | [Check If It Is a Straight Line](../problems/1232.md) | 🟢 Easy | Geometry, Math | O(N) | O(1) |
 | 1247 | [Minimum Swaps to Make Strings Equal](../problems/1247.md) | 🟡 Medium | Greedy, Math, String | O(N) | O(1) |
@@ -48,7 +45,6 @@
 | 2485 | [Find the Pivot Integer](../problems/2485.md) | 🟢 Easy | Math | O(1) | O(1) |
 | 2600 | [K Items With the Maximum Sum](../problems/2600.md) | 🟢 Easy | Math, Greedy | O(1) | O(1) |
 | 2652 | [Sum Multiples](../problems/2652.md) | 🟢 Easy | Math | O(N) | O(1) |
-| 2807 | [Insert Greatest Common Divisors in Linked List](../problems/2807.md) | 🟡 Medium | Linked List, Math, GCD | O(N) | O(N) |
 | 2894 | [Divisible and Non-divisible Sums Difference](../problems/2894.md) | 🟢 Easy | Math, Arithmetic Progression | O(1) | O(1) |
 | 3131 | [Find the Integer Added to Array I](../problems/3131.md) | 🟢 Easy | Math, Array | O(N) | O(1) |
 | 3162 | [Find the Number of Good Pairs I](../problems/3162.md) | 🟢 Easy | Array, Math, Brute Force | O(N * M) | O(1) |

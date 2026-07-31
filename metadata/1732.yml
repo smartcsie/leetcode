@@ -2,7 +2,7 @@ number: 1732
 title: Find the Highest Altitude
 url: https://leetcode.com/problems/find-the-highest-altitude/
 solutions:
-- file: null
+- file: Solution_1732.cpp
   difficulty: 🟢 Easy
   tags:
   - Array

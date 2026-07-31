@@ -2,7 +2,7 @@ number: 290
 title: Word Pattern
 url: https://leetcode.com/problems/word-pattern
 solutions:
-- file: Solution_0291.cpp
+- file: Solution_0290.cpp
   difficulty: 🟢 Easy
   tags:
   - Hash Table

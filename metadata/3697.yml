@@ -2,7 +2,7 @@ number: 3697
 title: Compute Decimal Representation
 url: https://leetcode.com/problems/compute-decimal-representation/
 solutions:
-- file: null
+- file: Solution_3697.cpp
   difficulty: 🟢 Easy
   tags:
   - Math

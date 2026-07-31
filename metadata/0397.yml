@@ -2,7 +2,7 @@ number: 397
 title: Integer Replacement
 url: https://leetcode.com/problems/integer-replacement/
 solutions:
-- file: null
+- file: Solution_0397.cpp
   difficulty: 🟡 Medium
   tags:
   - Greedy

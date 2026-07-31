@@ -9,6 +9,6 @@ solutions:
   - GCD
   - Bézout's Identity
   topics:
-  - math
+  - math-gcd
   time: O(log(min(x, y)))
   space: O(1)

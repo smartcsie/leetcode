@@ -14,7 +14,6 @@
 | 830 | [Positions of Large Groups](../problems/0830.md) | 🟢 Easy | Array, String, Two Pointers | O(N) | O(1) |
 | 944 | [Delete Columns to Make Sorted](../problems/0944.md) | 🟢 Easy | Array, String | O(N * M) | O(M) |
 | 1003 | [Check If Word Is Valid After Substitutions](../problems/1003.md) | 🟡 Medium | Stack, String | O(N) | O(N) |
-| 1071 | [Greatest Common Divisor of Strings](../problems/1071.md) | 🟢 Easy | Math, String, GCD | O(N + M) | O(N + M) |
 | 1078 | [Occurrences After Bigram](../problems/1078.md) | 🟢 Easy | String Parsing | O(N) | O(N) |
 | 1108 | [Defanging an IP Address](../problems/1108.md) | 🟢 Easy | String | O(N) | O(N) |
 | 1455 | [Check If a Word Occurs As a Prefix](../problems/1455.md) | 🟢 Easy | String, Stream | O(N) | O(W) |

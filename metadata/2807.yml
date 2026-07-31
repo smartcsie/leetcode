@@ -9,7 +9,6 @@ solutions:
   - Math
   - GCD
   topics:
-  - linked-list
-  - math
+  - math-gcd
   time: O(N)
   space: O(N)

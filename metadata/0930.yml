@@ -2,7 +2,7 @@ number: 930
 title: Binary Subarrays With Sum
 url: https://leetcode.com/problems/binary-subarrays-with-sum/
 solutions:
-- file: Solution_930.cpp
+- file: Solution_0930.cpp
   difficulty: 🟡 Medium
   tags:
   - Array

@@ -2,7 +2,7 @@ number: 2609
 title: Find the Longest Balanced Substring
 url: https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/
 solutions:
-- file: null
+- file: Solution_2609.cpp
   difficulty: 🟢 Easy
   tags:
   - Greedy

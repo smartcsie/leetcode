@@ -122,10 +122,17 @@ def build_problem_page(problem, solution_dir, notes_dir):
             lines.append('')
 
         tags_str = ', '.join(to_list(sol.get('tags')))
+        familiarity = sol.get('familiarity')
+        familiarity_badge = ''
+        if familiarity == '熟練':
+            familiarity_badge = '　**熟悉度:** 🟢 熟練'
+        elif familiarity == '生疏':
+            familiarity_badge = '　**熟悉度:** 🔴 生疏'
+
         info = (f"**難度:** {sol.get('difficulty','')}　"
                 f"**標籤:** {tags_str}　"
                 f"**時間:** {sol.get('time','')}　"
-                f"**空間:** {sol.get('space','')}")
+                f"**空間:** {sol.get('space','')}{familiarity_badge}")
         lines.append(info)
         lines.append('')
 
@@ -183,6 +190,36 @@ def build_topic_indexes(problems, topics_out_dir):
 
     return topic_rows
 
+
+def build_review_page(problems, docs_dir):
+    """列出所有標記為「生疏」的解法，寫成 docs/review.md 複習清單"""
+    rows = []
+    for problem in problems:
+        for sol in problem['solutions']:
+            if sol.get('familiarity') == '生疏':
+                rows.append({
+                    'number': problem['number'],
+                    'title': problem['title'],
+                    'file': sol.get('file', ''),
+                    'difficulty': sol.get('difficulty', ''),
+                    'topics': ', '.join(to_list(sol.get('topics'))),
+                })
+    rows.sort(key=lambda r: r['number'])
+
+    lines = ['# 📝 複習清單（生疏）', '',
+             f'目前共有 {len(rows)} 個解法標記為生疏，建議找時間重新練習。', '',
+             '| # | 題目 | 難度 | 解法檔案 | 分類 |',
+             '| --- | --- | --- | --- | --- |']
+    for r in rows:
+        link = f"problems/{r['number']:04d}.md"
+        lines.append(f"| {r['number']} | [{r['title']}]({link}) | {r['difficulty']} | {r['file']} | {r['topics']} |")
+
+    with open(os.path.join(docs_dir, 'review.md'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
+
+    return len(rows)
+
+
 def main():
     if len(sys.argv) != 5:
         print("Usage: python3 generate_site.py <metadata_dir> <notes_dir> <solution_dir> <docs_dir>")
@@ -215,6 +252,9 @@ def main():
     topic_rows = build_topic_indexes(problems, topics_out_dir)
     print(f"\n寫入 {len(topic_rows)} 個 docs/topics/*.md")
 
+    review_count = build_review_page(problems, docs_dir)
+    print(f"複習清單（生疏）: {review_count} 筆 -> docs/review.md")
+
     nav_entries = OrderedDict()
     for topic in topic_rows:
         group_title = group_for(topic)
@@ -223,6 +263,7 @@ def main():
     print("\n\n----- 貼到 mkdocs.yml 的 nav: 區塊 -----\n")
     print("nav:")
     print("  - 首頁: index.md")
+    print("  - 📝 複習清單: review.md")
     for group_title, topics in nav_entries.items():
         print(f"  - {group_title}:")
         for topic in topics:

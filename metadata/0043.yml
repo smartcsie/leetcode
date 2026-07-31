@@ -2,7 +2,7 @@ number: 43
 title: Multiply Strings
 url: https://leetcode.com/problems/multiply-strings/
 solutions:
-- file: Solution_43.cpp
+- file: Solution_0043.cpp
   difficulty: 🟡 Medium
   tags:
   - Math

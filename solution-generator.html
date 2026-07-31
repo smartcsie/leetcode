@@ -427,19 +427,16 @@ let solutionCount = 0;
 let lastYaml = '';
 let lastNumber = '';
 let lastCppFiles = [];
-async function saveViaServer() {
-  if (!lastYaml) { showToast('請先按「產生」'); return false; }
+let lastStructuredData = null;
 
-  const payload = {
-    metadata: { filename: `${lastNumber}.yml`, content: lastYaml },
-    solutions: lastCppFiles.map(f => ({ filename: f.name, content: f.content })),
-  };
+async function saveViaServer() {
+  if (!lastStructuredData) { showToast('請先按「產生」'); return false; }
 
   try {
     const resp = await fetch('/api/save', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
+      body: JSON.stringify(lastStructuredData),
     });
     const result = await resp.json();
     if (!resp.ok) {
@@ -613,6 +610,14 @@ function addSolutionBlock(prefill) {
       <select class="sol-topics-select multi-select" multiple size="8"></select>
     </div>
     <div class="field">
+      <label>熟悉度 <span class="hint">(選填，這個解法你自己掌握的程度)</span></label>
+      <select class="sol-familiarity">
+        <option value="">未標記</option>
+        <option value="生疏">🔴 生疏</option>
+        <option value="熟練">🟢 熟練</option>
+      </select>
+    </div>
+    <div class="field">
       <label>完整 .cpp 程式碼 <span class="hint">(含統一格式註解)</span></label>
       <textarea class="sol-code" rows="10" placeholder="/**\n * 題目：...\n */\nclass Solution { ... };"></textarea>
     </div>
@@ -649,7 +654,7 @@ function escapeYamlScalar(s) {
   return s;
 }
 
-function buildYaml() {
+function collectStructuredData() {
   const number = pad4(document.getElementById('number').value);
   const title = document.getElementById('title').value.trim();
   const url = document.getElementById('url').value.trim();
@@ -660,13 +665,7 @@ function buildYaml() {
   const blocks = document.querySelectorAll('.solution-block');
   if (blocks.length === 0) { alert('請至少新增一個解法'); return null; }
 
-  let lines = [];
-  lines.push(`number: ${parseInt(number, 10)}`);
-  lines.push(`title: ${title}`);
-  lines.push(`url: ${url}`);
-  lines.push(`solutions:`);
-
-  const cppFiles = [];
+  const solutions = [];
   const missingTopics = [];
 
   blocks.forEach((block, idx) => {
@@ -679,23 +678,18 @@ function buildYaml() {
     const time = block.querySelector('.sol-time').value.trim();
     const space = block.querySelector('.sol-space').value.trim();
     const code = block.querySelector('.sol-code').value;
+    const familiarityEl = block.querySelector('.sol-familiarity');
+    const familiarity = familiarityEl ? familiarityEl.value : '';
 
     if (topics.length === 0) {
       missingTopics.push(`解法 #${idx + 1}（${file}）`);
     }
 
-    lines.push(`- file: ${file}`);
-    lines.push(`  difficulty: ${difficulty}`);
-    lines.push(`  tags:`);
-    tags.forEach(t => lines.push(`  - ${t}`));
-    lines.push(`  topics:`);
-    topics.forEach(t => lines.push(`  - ${t}`));
-    lines.push(`  time: ${time}`);
-    lines.push(`  space: ${space}`);
-
-    if (code.trim()) {
-      cppFiles.push({ name: file, content: code });
-    }
+    solutions.push({
+      file, difficulty, tags, topics, time, space,
+      familiarity: familiarity || null,
+      code,
+    });
   });
 
   if (missingTopics.length > 0) {
@@ -703,7 +697,27 @@ function buildYaml() {
     return null;
   }
 
-  return { yamlText: lines.join('\n') + '\n', number, cppFiles };
+  return { number: parseInt(number, 10), title, url, solutions };
+}
+
+function buildYamlPreview(data) {
+  let lines = [];
+  lines.push(`number: ${data.number}`);
+  lines.push(`title: ${data.title}`);
+  lines.push(`url: ${data.url}`);
+  lines.push(`solutions:`);
+  data.solutions.forEach(sol => {
+    lines.push(`- file: ${sol.file}`);
+    lines.push(`  difficulty: ${sol.difficulty}`);
+    lines.push(`  tags:`);
+    sol.tags.forEach(t => lines.push(`  - ${t}`));
+    lines.push(`  topics:`);
+    sol.topics.forEach(t => lines.push(`  - ${t}`));
+    lines.push(`  time: ${sol.time}`);
+    lines.push(`  space: ${sol.space}`);
+    if (sol.familiarity) lines.push(`  familiarity: ${sol.familiarity}`);
+  });
+  return lines.join('\n') + '\n';
 }
 
 function highlightYaml(text) {
@@ -753,16 +767,18 @@ function clearForm() {
   lastYaml = '';
   lastNumber = '';
   lastCppFiles = [];
+  lastStructuredData = null;
 
   showToast('已清除，可以貼下一題 ✓');
 }
 
 function generate() {
-  const result = buildYaml();
-  if (!result) return false;
-  lastYaml = result.yamlText;
-  lastNumber = result.number;
-  lastCppFiles = result.cppFiles;
+  const data = collectStructuredData();
+  if (!data) return false;
+  lastStructuredData = data;
+  lastNumber = pad4(String(data.number));
+  lastYaml = buildYamlPreview(data);
+  lastCppFiles = data.solutions.map(s => ({ name: s.file, content: s.code }));
 
   document.getElementById('tab-yaml').innerHTML = `<pre>${highlightYaml(lastYaml)}</pre>`;
 

@@ -2,7 +2,7 @@ number: 949
 title: Largest Time for Given Digits
 url: https://leetcode.com/problems/largest-time-for-given-digits/
 solutions:
-- file: Solution_949.cpp
+- file: Solution_0949.cpp
   difficulty: 🟡 Medium
   tags:
   - Permutation

@@ -1,0 +1,54 @@
+#!/usr/bin/env python3
+import sys
+import os
+import glob
+
+try:
+    import yaml
+except ImportError:
+    print("需要 PyYAML，請先執行: pip install pyyaml")
+    sys.exit(1)
+
+def load_metadata(meta_dir):
+    problems = []
+    for fpath in sorted(glob.glob(os.path.join(meta_dir, '*.yml'))):
+        with open(fpath, encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+        problems.append(data)
+    return problems
+
+def main():
+    if len(sys.argv) != 3:
+        print("Usage: python3 check_missing.py <metadata_dir> <solution_dir>")
+        sys.exit(1)
+
+    meta_dir, solution_dir = sys.argv[1:3]
+
+    problems = load_metadata(meta_dir)
+    print(f"讀取到 {len(problems)} 題 metadata")
+
+    all_missing = []
+    for problem in problems:
+        number = problem['number']
+        solutions = problem['solutions']
+        missing = []
+
+        for sol in solutions:
+            filename = sol.get('file')
+            if filename:
+                path = os.path.join(solution_dir, filename)
+                if not os.path.exists(path):
+                    missing.append(filename)
+
+        if missing:
+            all_missing.append((number, missing))
+
+    if all_missing:
+        print(f"\n⚠️ 有 {len(all_missing)} 題找不到對應的檔案：")
+        for number, files in all_missing[:20]:
+            print(f"  {number:04d}: 缺少 {files}")
+    else:
+        print("\n✨ 太棒了！所有檔案都找得到。")
+
+if __name__ == '__main__':
+    main()

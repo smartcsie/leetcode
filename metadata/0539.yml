@@ -2,7 +2,7 @@ number: 539
 title: Minimum Time Difference
 url: https://leetcode.com/problems/minimum-time-difference/
 solutions:
-- file: Solution_539.cpp
+- file: Solution_0539.cpp
   difficulty: 🟡 Medium
   tags:
   - Math

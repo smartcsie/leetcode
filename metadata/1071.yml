@@ -9,7 +9,6 @@ solutions:
   - String
   - GCD
   topics:
-  - math
-  - string
+  - math-gcd
   time: O(N + M)
   space: O(N + M)

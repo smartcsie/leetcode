@@ -9,6 +9,6 @@ solutions:
   - Number Theory
   - GCD
   topics:
-  - math-factor-enumeration
+  - math-gcd
   time: O(min(A, B))
   space: O(1)

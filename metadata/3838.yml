@@ -2,7 +2,7 @@ number: 3838
 title: Weighted Word Mapping
 url: https://leetcode.com/problems/weighted-word-mapping/
 solutions:
-- file: Solution_3828.cpp
+- file: Solution_3838.cpp
   difficulty: 🟢 Easy
   tags:
   - Hash Mapping

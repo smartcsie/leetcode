@@ -8,6 +8,6 @@ solutions:
   - Math
   - GCD
   topics:
-  - math-simulation
+  - math-gcd
   time: O(N)
   space: O(1)

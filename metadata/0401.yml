@@ -2,7 +2,7 @@ number: 401
 title: Binary Watch
 url: https://leetcode.com/problems/binary-watch/
 solutions:
-- file: Solution_401.cpp
+- file: Solution_0401.cpp
   difficulty: 🟢 Easy
   tags:
   - Bit Manipulation

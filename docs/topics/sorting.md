@@ -27,5 +27,4 @@
 | 3517 | [Smallest Palindromic Rearrangement I](../problems/3517.md) | 🟡 Medium | Greedy, Counting Sort | O(N) | O(1) |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](../problems/3684.md) | 🟢 Easy | Sorting, Set | O(N logN) | O(N) |
 | 3769 | [Sort Integers by Binary Reflection](../problems/3769.md) | 🟡 Medium | Bit Manipulation, Sorting | O(NlogN) | O(N) |
-| 3867 | [Sum of GCD of Formed Pairs](../problems/3867.md) | 🟡 Medium | GCD, Sorting | O(NlogN) | O(N) |
 | 3913 | [Sort Vowels by Frequency](../problems/3913.md) | 🟡 Medium | Sorting, Hash | O(NlogN) | O(N) |

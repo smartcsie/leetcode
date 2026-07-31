@@ -2,7 +2,7 @@ number: 648
 title: Replace Words
 url: https://leetcode.com/problems/replace-words/
 solutions:
-- file: Solution_0648_2.cpp
+- file: Solution_0648.cpp
   difficulty: 🟡 Medium
   tags:
   - Hash Table

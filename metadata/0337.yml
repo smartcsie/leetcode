@@ -2,7 +2,7 @@ number: 337
 title: House Robber III
 url: https://leetcode.com/problems/house-robber-iii/
 solutions:
-- file: Solution_0337.cpp
+- file: Solution_337.cpp
   difficulty: 🟡 Medium
   tags:
   - Tree

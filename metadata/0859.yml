@@ -2,7 +2,7 @@ number: 859
 title: Buddy Strings
 url: https://leetcode.com/problems/buddy-strings/
 solutions:
-- file: Solution_859.cpp
+- file: Solution_0859.cpp
   difficulty: 🟢 Easy
   tags:
   - String

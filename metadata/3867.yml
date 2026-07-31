@@ -8,6 +8,6 @@ solutions:
   - GCD
   - Sorting
   topics:
-  - sorting
+  - math-gcd
   time: O(NlogN)
   space: O(N)

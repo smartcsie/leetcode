@@ -2,7 +2,7 @@ number: 477
 title: Total Hamming Distance
 url: https://leetcode.com/problems/total-hamming-distance/
 solutions:
-- file: Solution_477.cpp
+- file: Solution_0477.cpp
   difficulty: 🟡 Medium
   tags:
   - Math

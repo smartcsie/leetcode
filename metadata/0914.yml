@@ -9,6 +9,6 @@ solutions:
   - GCD
   - Hash Table
   topics:
-  - math
+  - math-gcd
   time: O(N)
   space: O(N)

@@ -2,7 +2,7 @@ number: 988
 title: Smallest String Starting From Leaf
 url: https://leetcode.com/problems/smallest-string-starting-from-leaf/
 solutions:
-- file: Solution_988.cpp
+- file: Solution_0988.cpp
   difficulty: 🟡 Medium
   tags:
   - Tree
