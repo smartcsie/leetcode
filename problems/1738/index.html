@@ -3098,88 +3098,6 @@
   
 
     
-      
-      
-  
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20" >
-        
-          
-          <label class="md-nav__link" for="__nav_20" id="__nav_20_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    📄 Other
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_20_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_20">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    📄 Other
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../topics/uncategorized.md" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    uncategorized
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
   </ul>
 </nav>
                   </div>
@@ -3202,7 +3120,7 @@
 
 <h1 id="1738-find-kth-largest-xor-coordinate-value">1738. Find Kth Largest XOR Coordinate Value<a class="headerlink" href="#1738-find-kth-largest-xor-coordinate-value" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 中等 (Medium)　<strong>標籤:</strong> 　<strong>時間:</strong> O(M * N) - 雙層迴圈遍歷矩陣計算 2D 前綴 XOR 需要 O(M * N)；使用 std::nth_element 尋找第 k 大元素的平均時間為 O(M * N)。　<strong>空間:</strong> O(M * N) - 需要額外的 prefix 矩陣（大小 (M+1) x (N+1)）與儲存所有 XOR 值的 xorVal 陣列。</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Prefix Sum　<strong>時間:</strong> O(M * N) - 雙層迴圈遍歷矩陣計算 2D 前綴 XOR 需要 O(M * N)；使用 std::nth_element 尋找第 k 大元素的平均時間為 O(M * N)。　<strong>空間:</strong> O(M * N) - 需要額外的 prefix 矩陣（大小 (M+1) x (N+1)）與儲存所有 XOR 值的 xorVal 陣列。</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1738. Find Kth Largest XOR Coordinate Value (找出第 K 大的異或座標值)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
