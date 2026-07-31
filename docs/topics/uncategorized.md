@@ -15,9 +15,6 @@
 | 2454 | [2425. Bitwise XOR of All Pairings](../problems/2454.md) | 中等 (Medium) |  | O(N + M)，遍歷兩個陣列各一次。 | O(1)。 |
 | 2570 | [Merge Two 2D Arrays by Summing Values](../problems/2570.md) | 簡單 (Easy) |  | O(N + M) - 由於兩個輸入陣列皆已排序，利用雙指標（Two Pointers）線性掃描一次即可完成，耗時與兩陣列長度總和成正比。 | O(1) - 僅使用常數個指標與變數（i, j, m, n），並透過 `ans.reserve(m + n)` 預先分配記憶體，避免動態擴容開銷。 |
 | 2656 | [Maximum Sum With Exactly K Elements](../problems/2656.md) | 簡單 (Easy) |  | O(N) - 只需要遍歷一次 `nums` 陣列來尋找最大值，其中 n 為陣列長度。 | O(1) - 僅使用常數個變數來儲存最大值與計算結果，不需額外配置動態記憶體。 |
-| 2662 | [2652. Sum Multiples](../problems/2662.md) | 簡單 (Easy) |  | O(N) - 遍歷 1 到 n 每個數字一次。 | O(1) - 僅使用一個常數空間儲存總和。 |
-| 2705 | [2707. Extra Characters in a String](../problems/2705.md) | 待補充 |  | O(N) - 單次遍歷，統計字母出現頻率。 | O(1) - 固定大小計數陣列。 |
 | 2974 | [Minimum Number Game](../problems/2974.md) | 簡單 (Easy) |  | O(N) - 計算所有元素和，生成交替奇偶數列。 | O(N) - 結果陣列大小為 N。 |
 | 3514 | [Number of Unique XOR Triplets II](../problems/3514.md) | 困難 (Hard) |  | O(M log M) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。 | O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。 |
-| 3709 | [3079. Find the Sum of Encrypted Integers](../problems/3709.md) | 待補充 |  | O(N) - 單次遍歷，計算相鄰元素差的絕對值總和。 | O(1) - 僅使用常數空間。 |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](../problems/3754.md) | 簡單 (Easy) |  | O(N) - 單次遍歷，根據數字奇偶性計算交替和。 | O(1) - 僅使用常數空間。 |
