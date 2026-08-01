@@ -3328,172 +3328,27 @@
 
 
 <h1 id="prefix-sum">prefix-sum<a class="headerlink" href="#prefix-sum" title="Permanent link">&para;</a></h1>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>題目</th>
-<th>難度</th>
-<th>標籤</th>
-<th>時間</th>
-<th>空間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>238</td>
-<td><a href="../../problems/0238/">Product of Array Except Self</a></td>
-<td>🟡 Medium</td>
-<td>Array, Prefix Sum</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>303</td>
-<td><a href="../../problems/0303/">Range Sum Query - Immutable</a></td>
-<td>🟢 Easy</td>
-<td>Array, Prefix Sum</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>304</td>
-<td><a href="../../problems/0304/">Range Sum Query 2D - Immutable</a></td>
-<td>🟡 Medium</td>
-<td>Array, Matrix, Prefix Sum</td>
-<td>O(M*N) 初始化 / O(1) 查詢</td>
-<td>O(M*N)</td>
-</tr>
-<tr>
-<td>523</td>
-<td><a href="../../problems/0523/">Continuous Subarray Sum</a></td>
-<td>🟡 Medium</td>
-<td>Prefix Sum, Hash Map</td>
-<td>O(N)</td>
-<td>O(min(N,K))</td>
-</tr>
-<tr>
-<td>560</td>
-<td><a href="../../problems/0560/">Subarray Sum Equals K</a></td>
-<td>🟡 Medium</td>
-<td>Array, Hash Table, Prefix Sum</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>724</td>
-<td><a href="../../problems/0724/">Find Pivot Index</a></td>
-<td>🟢 Easy</td>
-<td>Array, Prefix Sum</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>930</td>
-<td><a href="../../problems/0930/">Binary Subarrays With Sum</a></td>
-<td>🟡 Medium</td>
-<td>Array, Prefix Sum</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>1365</td>
-<td><a href="../../problems/1365/">How Many Numbers Are Smaller Than the Current Number</a></td>
-<td>🟢 Easy</td>
-<td>Counting Sort, Prefix Sum</td>
-<td>O(N+K)</td>
-<td>O(K)</td>
-</tr>
-<tr>
-<td>1480</td>
-<td><a href="../../problems/1480/">Running Sum of 1d Array</a></td>
-<td>🟢 Easy</td>
-<td>Array, Prefix Sum</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1524</td>
-<td><a href="../../problems/1524/">Number of Sub-arrays With Odd Sum</a></td>
-<td>🟡 Medium</td>
-<td>Math, Prefix Sum, Combinatorics</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1588</td>
-<td><a href="../../problems/1588/">Sum of All Odd Length Subarrays</a></td>
-<td>🟢 Easy</td>
-<td>Array, Prefix Sum</td>
-<td>O(N²)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>1685</td>
-<td><a href="../../problems/1685/">Sum of Absolute Differences in a Sorted Array</a></td>
-<td>🟡 Medium</td>
-<td>Array, Prefix Sum, Math</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>1732</td>
-<td><a href="../../problems/1732/">Find the Highest Altitude</a></td>
-<td>🟢 Easy</td>
-<td>Array, Prefix Sum</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1738</td>
-<td><a href="../../problems/1738/">Find Kth Largest XOR Coordinate Value</a></td>
-<td>🟡 Medium</td>
-<td>Prefix Sum</td>
-<td>O(M<em>N) - 雙層迴圈遍歷矩陣計算 2D 前綴 XOR 需要 O(M</em>N)；使用 std::nth_element 尋找第 k 大元素的平均時間為 O(M*N)。</td>
-<td>O(M*N) - 需要額外的 prefix 矩陣（大小 (M+1) x (N+1)）與儲存所有 XOR 值的 xorVal 陣列。</td>
-</tr>
-<tr>
-<td>2256</td>
-<td><a href="../../problems/2256/">Minimum Average Difference</a></td>
-<td>🟡 Medium</td>
-<td>Prefix Sum, Math</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2559</td>
-<td><a href="../../problems/2559/">Count Vowel Strings in Ranges</a></td>
-<td>🟡 Medium</td>
-<td>Array, Prefix Sum</td>
-<td>O(N+Q)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>2574</td>
-<td><a href="../../problems/2574/">Left and Right Sum Differences</a></td>
-<td>🟢 Easy</td>
-<td>Array, Prefix Sum</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>3364</td>
-<td><a href="../../problems/3364/">Minimum Positive Sum Subarray</a></td>
-<td>🟢 Easy</td>
-<td>Prefix Sum, Sliding Window, Multiset</td>
-<td>O(NlogN)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>3432</td>
-<td><a href="../../problems/3432/">Count Partitions with Even Sum Difference</a></td>
-<td>🟢 Easy</td>
-<td>Prefix Sum, Math</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-</tbody>
-</table>
+<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- |
+| 238 | <a href="https://leetcode.com/problems/product-of-array-except-self/">Product of Array Except Self</a> | 🟡 Medium | Array, Prefix Sum | <a href="../../problems/0238/">C++</a> | O(N) | O(1) |
+| 303 | <a href="https://leetcode.com/problems/range-sum-query-immutable">Range Sum Query - Immutable</a> | 🟢 Easy | Array, Prefix Sum | <a href="../../problems/0303/">C++</a> | O(N) | O(N) |
+| 304 | <a href="https://leetcode.com/problems/range-sum-query-2d-immutable">Range Sum Query 2D - Immutable</a> | 🟡 Medium | Array, Matrix, Prefix Sum | <a href="../../problems/0304/">C++</a> | O(M<em>N) 初始化 / O(1) 查詢 | O(M</em>N) |
+| 523 | <a href="https://leetcode.com/problems/continuous-subarray-sum/">Continuous Subarray Sum</a> | 🟡 Medium | Prefix Sum, Hash Map | <a href="../../problems/0523/">C++</a> | O(N) | O(min(N,K)) |
+| 560 | <a href="https://leetcode.com/problems/subarray-sum-equals-k">Subarray Sum Equals K</a> | 🟡 Medium | Array, Hash Table, Prefix Sum | <a href="../../problems/0560/">C++</a> | O(N) | O(N) |
+| 724 | <a href="https://leetcode.com/problems/find-pivot-index">Find Pivot Index</a> | 🟢 Easy | Array, Prefix Sum | <a href="../../problems/0724/">C++</a> | O(N) | O(1) |
+| 930 | <a href="https://leetcode.com/problems/binary-subarrays-with-sum/">Binary Subarrays With Sum</a> | 🟡 Medium | Array, Prefix Sum | <a href="../../problems/0930/">C++</a> | O(N) | O(N) |
+| 1365 | <a href="https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/">How Many Numbers Are Smaller Than the Current Number</a> | 🟢 Easy | Counting Sort, Prefix Sum | <a href="../../problems/1365/">C++</a> | O(N+K) | O(K) |
+| 1480 | <a href="https://leetcode.com/problems/running-sum-of-1d-array">Running Sum of 1d Array</a> | 🟢 Easy | Array, Prefix Sum | <a href="../../problems/1480/">C++</a> | O(N) | O(1) |
+| 1524 | <a href="https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/">Number of Sub-arrays With Odd Sum</a> | 🟡 Medium | Math, Prefix Sum, Combinatorics | <a href="../../problems/1524/">C++</a> | O(N) | O(1) |
+| 1588 | <a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays/">Sum of All Odd Length Subarrays</a> | 🟢 Easy | Array, Prefix Sum | <a href="../../problems/1588/">C++</a> | O(N²) | O(N) |
+| 1685 | <a href="https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/">Sum of Absolute Differences in a Sorted Array</a> | 🟡 Medium | Array, Prefix Sum, Math | <a href="../../problems/1685/">C++</a> | O(N) | O(N) |
+| 1732 | <a href="https://leetcode.com/problems/find-the-highest-altitude/">Find the Highest Altitude</a> | 🟢 Easy | Array, Prefix Sum | <a href="../../problems/1732/">C++</a> | O(N) | O(1) |
+| 1738 | <a href="https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/">Find Kth Largest XOR Coordinate Value</a> | 🟡 Medium | Prefix Sum | <a href="../../problems/1738/">C++</a> | O(M<em>N) - 雙層迴圈遍歷矩陣計算 2D 前綴 XOR 需要 O(M</em>N)；使用 std::nth_element 尋找第 k 大元素的平均時間為 O(M<em>N)。 | O(M</em>N) - 需要額外的 prefix 矩陣（大小 (M+1) x (N+1)）與儲存所有 XOR 值的 xorVal 陣列。 |
+| 2256 | <a href="https://leetcode.com/problems/minimum-average-difference/">Minimum Average Difference</a> | 🟡 Medium | Prefix Sum, Math | <a href="../../problems/2256/">C++</a> | O(N) | O(1) |
+| 2559 | <a href="https://leetcode.com/problems/count-vowel-strings-in-ranges">Count Vowel Strings in Ranges</a> | 🟡 Medium | Array, Prefix Sum | <a href="../../problems/2559/">C++</a> | O(N+Q) | O(N) |
+| 2574 | <a href="https://leetcode.com/problems/left-and-right-sum-differences/">Left and Right Sum Differences</a> | 🟢 Easy | Array, Prefix Sum | <a href="../../problems/2574/">C++</a> | O(N) | O(N) |
+| 3364 | <a href="https://leetcode.com/problems/minimum-positive-sum-subarray/">Minimum Positive Sum Subarray</a> | 🟢 Easy | Prefix Sum, Sliding Window, Multiset | <a href="../../problems/3364/">C++</a> | O(NlogN) | O(N) |
+| 3432 | <a href="https://leetcode.com/problems/count-partitions-with-even-sum-difference/">Count Partitions with Even Sum Difference</a> | 🟢 Easy | Prefix Sum, Math | <a href="../../problems/3432/">C++</a> | O(N) | O(N) |</p>
 
 
 

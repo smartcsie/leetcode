@@ -3328,108 +3328,19 @@
 
 
 <h1 id="backtracking-combination">backtracking-combination<a class="headerlink" href="#backtracking-combination" title="Permanent link">&para;</a></h1>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>題目</th>
-<th>難度</th>
-<th>標籤</th>
-<th>時間</th>
-<th>空間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>17</td>
-<td><a href="../../problems/0017/">Letter Combinations of a Phone Number</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking</td>
-<td>O(4^N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>22</td>
-<td><a href="../../problems/0022/">Generate Parentheses</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking, String</td>
-<td>O(4ᴺ/√N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>39</td>
-<td><a href="../../problems/0039/">Combination Sum</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking</td>
-<td>O(N^(T/M))</td>
-<td>O(T/M)</td>
-</tr>
-<tr>
-<td>40</td>
-<td><a href="../../problems/0040/">Combination Sum II</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking, Sorting</td>
-<td>O(2ᴺ)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>77</td>
-<td><a href="../../problems/0077/">Combinations</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking</td>
-<td>O(K*C(N,K))</td>
-<td>O(K)</td>
-</tr>
-<tr>
-<td>78</td>
-<td><a href="../../problems/0078/">Subsets</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking, Recursion, Bit Manipulation</td>
-<td>O(N*2ᴺ)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>79</td>
-<td><a href="../../problems/0079/">Word Search</a></td>
-<td>🟡 Medium</td>
-<td>DFS, Backtracking</td>
-<td>O(N*3ᴸ)</td>
-<td>O(L)</td>
-</tr>
-<tr>
-<td>90</td>
-<td><a href="../../problems/0090/">Subsets II</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking, Sorting</td>
-<td>O(N*2ᴺ)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>216</td>
-<td><a href="../../problems/0216/">Combination Sum III</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking</td>
-<td>O(C(9,K))</td>
-<td>O(K)</td>
-</tr>
-<tr>
-<td>784</td>
-<td><a href="../../problems/0784/">Letter Case Permutation</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking</td>
-<td>O(2ᴺ)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>1593</td>
-<td><a href="../../problems/1593/">Split a String Into the Max Number of Unique Substrings</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking Combination</td>
-<td>O(N*2^(N-1)) - 在最壞情況下，字串有 n-1 個可分割的間隙，總共有 2^(n-1) 種分割組合，每次分割與子字串截取需花費 O(N) 時間。</td>
-<td>O(N) - 遞迴呼叫堆疊的深度最多為 n，且雜湊表 <code>seen</code> 在任一時刻最多儲存 n 個子字串。</td>
-</tr>
-</tbody>
-</table>
+<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- |
+| 17 | <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/">Letter Combinations of a Phone Number</a> | 🟡 Medium | Backtracking | <a href="../../problems/0017/">C++</a> | O(4^N) | O(N) |
+| 22 | <a href="https://leetcode.com/problems/generate-parentheses/">Generate Parentheses</a> | 🟡 Medium | Backtracking, String | <a href="../../problems/0022/">C++</a> | O(4ᴺ/√N) | O(N) |
+| 39 | <a href="https://leetcode.com/problems/combination-sum/">Combination Sum</a> | 🟡 Medium | Backtracking | <a href="../../problems/0039/">C++</a> | O(N^(T/M)) | O(T/M) |
+| 40 | <a href="https://leetcode.com/problems/combination-sum-ii/">Combination Sum II</a> | 🟡 Medium | Backtracking, Sorting | <a href="../../problems/0040/">C++</a> | O(2ᴺ) | O(N) |
+| 77 | <a href="https://leetcode.com/problems/combinations/">Combinations</a> | 🟡 Medium | Backtracking | <a href="../../problems/0077/">C++</a> | O(K<em>C(N,K)) | O(K) |
+| 78 | <a href="https://leetcode.com/problems/subsets">Subsets</a> | 🟡 Medium | Backtracking, Recursion, Bit Manipulation | <a href="../../problems/0078/">C++</a> | O(N</em>2ᴺ) | O(N) |
+| 79 | <a href="https://leetcode.com/problems/word-search/">Word Search</a> | 🟡 Medium | DFS, Backtracking | <a href="../../problems/0079/">C++</a> | O(N<em>3ᴸ) | O(L) |
+| 90 | <a href="https://leetcode.com/problems/subsets-ii/">Subsets II</a> | 🟡 Medium | Backtracking, Sorting | <a href="../../problems/0090/">C++</a> | O(N</em>2ᴺ) | O(N) |
+| 216 | <a href="https://leetcode.com/problems/combination-sum-iii/">Combination Sum III</a> | 🟡 Medium | Backtracking | <a href="../../problems/0216/">C++</a> | O(C(9,K)) | O(K) |
+| 784 | <a href="https://leetcode.com/problems/letter-case-permutation/">Letter Case Permutation</a> | 🟡 Medium | Backtracking | <a href="../../problems/0784/">C++</a> | O(2ᴺ) | O(N) |
+| 1593 | <a href="https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/">Split a String Into the Max Number of Unique Substrings</a> | 🟡 Medium | Backtracking Combination | <a href="../../problems/1593/">C++</a> | O(N*2^(N-1)) - 在最壞情況下，字串有 n-1 個可分割的間隙，總共有 2^(n-1) 種分割組合，每次分割與子字串截取需花費 O(N) 時間。 | O(N) - 遞迴呼叫堆疊的深度最多為 n，且雜湊表 <code>seen</code> 在任一時刻最多儲存 n 個子字串。 |</p>
 
 
 

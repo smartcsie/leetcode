@@ -3328,364 +3328,51 @@
 
 
 <h1 id="hash-table-counting">hash-table-counting<a class="headerlink" href="#hash-table-counting" title="Permanent link">&para;</a></h1>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>題目</th>
-<th>難度</th>
-<th>標籤</th>
-<th>時間</th>
-<th>空間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>49</td>
-<td><a href="../../problems/0049/">Group Anagrams</a></td>
-<td>🟡 Medium</td>
-<td>Hash Table, String</td>
-<td>O(N*K)</td>
-<td>O(N*K)</td>
-</tr>
-<tr>
-<td>532</td>
-<td><a href="../../problems/0532/">K-diff Pairs in an Array</a></td>
-<td>🟡 Medium</td>
-<td>Hash Table Counting</td>
-<td>O(NlogN) - 排序後雙指針或二分搜尋。</td>
-<td>O(N) - 排序空間 O(logN)，set O(N)。</td>
-</tr>
-<tr>
-<td>697</td>
-<td><a href="../../problems/0697/">Degree of an Array</a></td>
-<td>🟢 Easy</td>
-<td>Hash Map, One-pass</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>771</td>
-<td><a href="../../problems/0771/">Jewels and Stones</a></td>
-<td>🟢 Easy</td>
-<td>Hash Set, String</td>
-<td>O(J+S)</td>
-<td>O(J)</td>
-</tr>
-<tr>
-<td>819</td>
-<td><a href="../../problems/0819/">Most Common Word</a></td>
-<td>🟢 Easy</td>
-<td>String, Hash Table</td>
-<td>O(M+N)</td>
-<td>O(M+N)</td>
-</tr>
-<tr>
-<td>916</td>
-<td><a href="../../problems/0916/">Word Subsets</a></td>
-<td>🟡 Medium</td>
-<td>Hash Table Counting, Hash Table, Counting</td>
-<td>O(N * L)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1160</td>
-<td><a href="../../problems/1160/">Find Words That Can Be Formed by Characters</a></td>
-<td>🟢 Easy</td>
-<td>Frequency Count</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1189</td>
-<td><a href="../../problems/1189/">Maximum Number of Balloons</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, String, Counting</td>
-<td>O(N)</td>
-<td>O(1)*</td>
-</tr>
-<tr>
-<td>1207</td>
-<td><a href="../../problems/1207/">Unique Number of Occurrences</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, Counting</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>1394</td>
-<td><a href="../../problems/1394/">Find Lucky Integer in an Array</a></td>
-<td>🟢 Easy</td>
-<td>Array, Hash Table, Counting</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1460</td>
-<td><a href="../../problems/1460/">Make Two Arrays Equal by Reversing Subarrays</a></td>
-<td>🟢 Easy</td>
-<td>Array, Hash Table</td>
-<td>O(N)</td>
-<td>O(K)</td>
-</tr>
-<tr>
-<td>1497</td>
-<td><a href="../../problems/1497/">Check If Array Pairs Are Divisible by k</a></td>
-<td>🟡 Medium</td>
-<td>Hash Table, Remainder Counting</td>
-<td>O(N+K)</td>
-<td>O(K)</td>
-</tr>
-<tr>
-<td>1512</td>
-<td><a href="../../problems/1512/">Number of Good Pairs</a></td>
-<td>🟢 Easy</td>
-<td>Array, Hash Table, Math</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>1647</td>
-<td><a href="../../problems/1647/">Minimum Deletions...</a></td>
-<td>🟡 Medium</td>
-<td>Greedy, Hash Set</td>
-<td>O(N+KlogK)</td>
-<td>O(K)</td>
-</tr>
-<tr>
-<td>1748</td>
-<td><a href="../../problems/1748/">Sum of Unique Elements</a></td>
-<td>🟢 Easy</td>
-<td>Array, Hash Table</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>1897</td>
-<td><a href="../../problems/1897/">Redistribute Characters to Make All Strings Equal</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, Counting</td>
-<td>O(N*M)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2001</td>
-<td><a href="../../problems/2001/">Number of Pairs of Interchangeable Rectangles</a></td>
-<td>🟡 Medium</td>
-<td>Hash Table, Math</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>2006</td>
-<td><a href="../../problems/2006/">Count Number of Pairs With Absolute Difference K</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, Frequency Map</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>2023</td>
-<td><a href="../../problems/2023/">Number of Pairs of Strings With Concatenation Equal to Target</a></td>
-<td>🟡 Medium</td>
-<td>Hash Table, String, Single-Pass</td>
-<td>O(N*L)</td>
-<td></td>
-</tr>
-<tr>
-<td>2053</td>
-<td><a href="../../problems/2053/">Kth Distinct String in an Array</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>2068</td>
-<td><a href="../../problems/2068/">Check Whether Two Strings are Almost Equivalent</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, String, Counting</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2094</td>
-<td><a href="../../problems/2094/">Finding 3-Digit Even Numbers</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, Math</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2150</td>
-<td><a href="../../problems/2150/">Find All Lonely Numbers in the Array</a></td>
-<td>🟡 Medium</td>
-<td>Hash Table, Counting</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>2206</td>
-<td><a href="../../problems/2206/">Divide Array Into Equal Pairs</a></td>
-<td>🟢 Easy</td>
-<td>Array, Hash Table, Counting</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2225</td>
-<td><a href="../../problems/2225/">Find Players With Zero or One Losses</a></td>
-<td>🟡 Medium</td>
-<td>Hash Table, Counting, Sorting</td>
-<td>O(NlogN)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>2283</td>
-<td><a href="../../problems/2283/">Check if Number Has Equal Digit Count and Digit Value</a></td>
-<td>🟢 Easy</td>
-<td>Hash Map, Counting</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2287</td>
-<td><a href="../../problems/2287/">Rearrange Characters to Make Target String</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, String, Counting</td>
-<td>O(N+M)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2341</td>
-<td><a href="../../problems/2341/">Maximum Number of Pairs in Array</a></td>
-<td>🟢 Easy</td>
-<td>Array, Hash Table, Counting</td>
-<td>O(N)</td>
-<td>O(1)*</td>
-</tr>
-<tr>
-<td>2351</td>
-<td><a href="../../problems/2351/">First Letter to Appear Twice</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2352</td>
-<td><a href="../../problems/2352/">Equal Row and Column Pairs</a></td>
-<td>🟡 Medium</td>
-<td>Hash Map, Matrix Simulation</td>
-<td>O(N³logN) 或 O(N²logN)*</td>
-<td>O(N²)</td>
-</tr>
-<tr>
-<td>2395</td>
-<td><a href="../../problems/2395/">Find Subarrays With Equal Sum</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>2404</td>
-<td><a href="../../problems/2404/">Most Frequent Even Element</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, Counting</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>2451</td>
-<td><a href="../../problems/2451/">Odd String Difference</a></td>
-<td>🟢 Easy</td>
-<td>Hash Map, Difference Array</td>
-<td>O(N*M)</td>
-<td>O(N*M)</td>
-</tr>
-<tr>
-<td>2965</td>
-<td><a href="../../problems/2965/">Find Missing and Repeated Values</a></td>
-<td>🟢 Easy</td>
-<td>Hashing</td>
-<td>O(N²)</td>
-<td>O(N²)</td>
-</tr>
-<tr>
-<td>3005</td>
-<td><a href="../../problems/3005/">Count Elements With Maximum Frequency</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, Counting</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>3289</td>
-<td><a href="../../problems/3289/">The Two Sneaky Numbers of Digitville</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, Bit Manipulation</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>3438</td>
-<td><a href="../../problems/3438/">Find Valid Pair of Adjacent Digits in String</a></td>
-<td>🟢 Easy</td>
-<td>String, Hash Map</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>3442</td>
-<td><a href="../../problems/3442/">Maximum Difference Between Even and Odd Frequency I</a></td>
-<td>🟢 Easy</td>
-<td>String, Hash Map</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>3541</td>
-<td><a href="../../problems/3541/">Find Most Frequent Vowel and Consonant</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, Frequency Counting</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>3663</td>
-<td><a href="../../problems/3663/">Find The Least Frequent Digit</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table, Frequency Counting</td>
-<td>O(logN)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>3843</td>
-<td><a href="../../problems/3843/">First Element with Unique Frequency</a></td>
-<td>🟢 Easy</td>
-<td>Hash Table</td>
-<td>O(N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>3866</td>
-<td><a href="../../problems/3866/">First Unique Even Element</a></td>
-<td>🟢 Easy</td>
-<td>Array, Hash Table</td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>3926</td>
-<td><a href="../../problems/3926/">Count Valid Word Occurrences</a></td>
-<td>🟡 Medium</td>
-<td>String, Hash Map</td>
-<td>O(N+M)</td>
-<td>O(N)</td>
-</tr>
-</tbody>
-</table>
+<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- |
+| 49 | <a href="https://leetcode.com/problems/group-anagrams/">Group Anagrams</a> | 🟡 Medium | Hash Table, String | <a href="../../problems/0049/">C++</a> | O(N<em>K) | O(N</em>K) |
+| 532 | <a href="https://leetcode.com/problems/k-diff-pairs-in-an-array/">K-diff Pairs in an Array</a> | 🟡 Medium | Hash Table Counting | <a href="../../problems/0532/">C++</a> | O(NlogN) - 排序後雙指針或二分搜尋。 | O(N) - 排序空間 O(logN)，set O(N)。 |
+| 697 | <a href="https://leetcode.com/problems/degree-of-an-array/">Degree of an Array</a> | 🟢 Easy | Hash Map, One-pass | <a href="../../problems/0697/">C++</a> | O(N) | O(N) |
+| 771 | <a href="https://leetcode.com/problems/jewels-and-stones/">Jewels and Stones</a> | 🟢 Easy | Hash Set, String | <a href="../../problems/0771/">C++</a> | O(J+S) | O(J) |
+| 819 | <a href="https://leetcode.com/problems/most-common-word/">Most Common Word</a> | 🟢 Easy | String, Hash Table | <a href="../../problems/0819/">C++</a> | O(M+N) | O(M+N) |
+| 916 | <a href="https://leetcode.com/problems/word-subsets/">Word Subsets</a> | 🟡 Medium | Hash Table Counting, Hash Table, Counting | <a href="../../problems/0916/">C++</a> | O(N * L) | O(1) |
+| 1160 | <a href="https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/">Find Words That Can Be Formed by Characters</a> | 🟢 Easy | Frequency Count | <a href="../../problems/1160/">C++</a> | O(N) | O(1) |
+| 1189 | <a href="https://leetcode.com/problems/maximum-number-of-balloons/">Maximum Number of Balloons</a> | 🟢 Easy | Hash Table, String, Counting | <a href="../../problems/1189/">C++</a> | O(N) | O(1)<em> |
+| 1207 | <a href="https://leetcode.com/problems/unique-number-of-occurrences">Unique Number of Occurrences</a> | 🟢 Easy | Hash Table, Counting | <a href="../../problems/1207/">C++</a> | O(N) | O(N) |
+| 1394 | <a href="https://leetcode.com/problems/find-lucky-integer-in-an-array">Find Lucky Integer in an Array</a> | 🟢 Easy | Array, Hash Table, Counting | <a href="../../problems/1394/">C++</a> | O(N) | O(1) |
+| 1460 | <a href="https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/">Make Two Arrays Equal by Reversing Subarrays</a> | 🟢 Easy | Array, Hash Table | <a href="../../problems/1460/">C++</a> | O(N) | O(K) |
+| 1497 | <a href="https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/">Check If Array Pairs Are Divisible by k</a> | 🟡 Medium | Hash Table, Remainder Counting | <a href="../../problems/1497/">C++</a> | O(N+K) | O(K) |
+| 1512 | <a href="https://leetcode.com/problems/number-of-good-pairs">Number of Good Pairs</a> | 🟢 Easy | Array, Hash Table, Math | <a href="../../problems/1512/">C++</a> | O(N) | O(N) |
+| 1647 | <a href="https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/">Minimum Deletions...</a> | 🟡 Medium | Greedy, Hash Set | <a href="../../problems/1647/">C++</a> | O(N+KlogK) | O(K) |
+| 1748 | <a href="https://leetcode.com/problems/sum-of-unique-elements">Sum of Unique Elements</a> | 🟢 Easy | Array, Hash Table | <a href="../../problems/1748/">C++</a> | O(N) | O(N) |
+| 1897 | <a href="https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/">Redistribute Characters to Make All Strings Equal</a> | 🟢 Easy | Hash Table, Counting | <a href="../../problems/1897/">C++</a> | O(N</em>M) | O(1) |
+| 2001 | <a href="https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles">Number of Pairs of Interchangeable Rectangles</a> | 🟡 Medium | Hash Table, Math | <a href="../../problems/2001/">C++</a> | O(N) | O(N) |
+| 2006 | <a href="https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/">Count Number of Pairs With Absolute Difference K</a> | 🟢 Easy | Hash Table, Frequency Map | <a href="../../problems/2006/">C++</a> | O(N) | O(N) |
+| 2023 | <a href="https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/">Number of Pairs of Strings With Concatenation Equal to Target</a> | 🟡 Medium | Hash Table, String, Single-Pass | <a href="../../problems/2023/">C++</a> | O(N<em>L) |  |
+| 2053 | <a href="https://leetcode.com/problems/kth-distinct-string-in-an-array/">Kth Distinct String in an Array</a> | 🟢 Easy | Hash Table | <a href="../../problems/2053/">C++</a> | O(N) | O(N) |
+| 2068 | <a href="https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/">Check Whether Two Strings are Almost Equivalent</a> | 🟢 Easy | Hash Table, String, Counting | <a href="../../problems/2068/">C++</a> | O(N) | O(1) |
+| 2094 | <a href="https://leetcode.com/problems/finding-3-digit-even-numbers/">Finding 3-Digit Even Numbers</a> | 🟢 Easy | Hash Table, Math | <a href="../../problems/2094/">C++</a> | O(N) | O(1) |
+| 2150 | <a href="https://leetcode.com/problems/find-all-lonely-numbers-in-the-array">Find All Lonely Numbers in the Array</a> | 🟡 Medium | Hash Table, Counting | <a href="../../problems/2150/">C++</a> | O(N) | O(N) |
+| 2206 | <a href="https://leetcode.com/problems/divide-array-into-equal-pairs">Divide Array Into Equal Pairs</a> | 🟢 Easy | Array, Hash Table, Counting | <a href="../../problems/2206/">C++</a> | O(N) | O(1) |
+| 2225 | <a href="https://leetcode.com/problems/find-players-with-zero-or-one-losses">Find Players With Zero or One Losses</a> | 🟡 Medium | Hash Table, Counting, Sorting | <a href="../../problems/2225/">C++</a> | O(NlogN) | O(N) |
+| 2283 | <a href="https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/">Check if Number Has Equal Digit Count and Digit Value</a> | 🟢 Easy | Hash Map, Counting | <a href="../../problems/2283/">C++</a> | O(N) | O(1) |
+| 2287 | <a href="https://leetcode.com/problems/rearrange-characters-to-make-target-string/">Rearrange Characters to Make Target String</a> | 🟢 Easy | Hash Table, String, Counting | <a href="../../problems/2287/">C++</a> | O(N+M) | O(1) |
+| 2341 | <a href="https://leetcode.com/problems/maximum-number-of-pairs-in-array/">Maximum Number of Pairs in Array</a> | 🟢 Easy | Array, Hash Table, Counting | <a href="../../problems/2341/">C++</a> | O(N) | O(1)</em> |
+| 2351 | <a href="https://leetcode.com/problems/first-letter-to-appear-twice">First Letter to Appear Twice</a> | 🟢 Easy | Hash Table | <a href="../../problems/2351/">C++</a> | O(N) | O(1) |
+| 2352 | <a href="https://leetcode.com/problems/equal-row-and-column-pairs/">Equal Row and Column Pairs</a> | 🟡 Medium | Hash Map, Matrix Simulation | <a href="../../problems/2352/">C++</a> | O(N³logN) 或 O(N²logN)<em> | O(N²) |
+| 2395 | <a href="https://leetcode.com/problems/find-subarrays-with-equal-sum/">Find Subarrays With Equal Sum</a> | 🟢 Easy | Hash Table | <a href="../../problems/2395/">C++</a> | O(N) | O(N) |
+| 2404 | <a href="https://leetcode.com/problems/most-frequent-even-element">Most Frequent Even Element</a> | 🟢 Easy | Hash Table, Counting | <a href="../../problems/2404/">C++</a> | O(N) | O(N) |
+| 2451 | <a href="https://leetcode.com/problems/odd-string-difference/">Odd String Difference</a> | 🟢 Easy | Hash Map, Difference Array | <a href="../../problems/2451/">C++</a> | O(N</em>M) | O(N*M) |
+| 2965 | <a href="https://leetcode.com/problems/find-missing-and-repeated-values/">Find Missing and Repeated Values</a> | 🟢 Easy | Hashing | <a href="../../problems/2965/">C++</a> | O(N²) | O(N²) |
+| 3005 | <a href="https://leetcode.com/problems/count-elements-with-maximum-frequency">Count Elements With Maximum Frequency</a> | 🟢 Easy | Hash Table, Counting | <a href="../../problems/3005/">C++</a> | O(N) | O(1) |
+| 3289 | <a href="https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/">The Two Sneaky Numbers of Digitville</a> | 🟢 Easy | Hash Table, Bit Manipulation | <a href="../../problems/3289/">C++</a> | O(N) | O(1) |
+| 3438 | Find Valid Pair of Adjacent Digits in String | 🟢 Easy | String, Hash Map | <a href="../../problems/3438/">C++</a> | O(N) | O(1) |
+| 3442 | <a href="https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/">Maximum Difference Between Even and Odd Frequency I</a> | 🟢 Easy | String, Hash Map | <a href="../../problems/3442/">C++</a> | O(N) | O(1) |
+| 3541 | <a href="https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/">Find Most Frequent Vowel and Consonant</a> | 🟢 Easy | Hash Table, Frequency Counting | <a href="../../problems/3541/">C++</a> | O(N) | O(1) |
+| 3663 | <a href="https://leetcode.com/problems/find-the-least-frequent-digit/">Find The Least Frequent Digit</a> | 🟢 Easy | Hash Table, Frequency Counting | <a href="../../problems/3663/">C++</a> | O(logN) | O(1) |
+| 3843 | <a href="https://leetcode.com/problems/first-element-with-unique-frequency/">First Element with Unique Frequency</a> | 🟢 Easy | Hash Table | <a href="../../problems/3843/">C++</a> | O(N) | O(N) |
+| 3866 | <a href="https://leetcode.com/problems/first-unique-even-element/">First Unique Even Element</a> | 🟢 Easy | Array, Hash Table | <a href="../../problems/3866/">C++</a> | O(N) | O(1) |
+| 3926 | <a href="https://leetcode.com/problems/count-valid-word-occurrences/">Count Valid Word Occurrences</a> | 🟡 Medium | String, Hash Map | <a href="../../problems/3926/">C++</a> | O(N+M) | O(N) |</p>
 
 
 

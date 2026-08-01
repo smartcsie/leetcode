@@ -3328,316 +3328,45 @@
 
 
 <h1 id="tree-dfs-path">tree-dfs-path<a class="headerlink" href="#tree-dfs-path" title="Permanent link">&para;</a></h1>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>題目</th>
-<th>難度</th>
-<th>標籤</th>
-<th>時間</th>
-<th>空間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>94</td>
-<td><a href="../../problems/0094/">Binary Tree Inorder Traversal</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS, Stack</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>101</td>
-<td><a href="../../problems/0101/">Symmetric Tree</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>104</td>
-<td><a href="../../problems/0104/">Maximum Depth of Binary Tree</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>110</td>
-<td><a href="../../problems/0110/">Balanced Binary Tree</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>111</td>
-<td><a href="../../problems/0111/">Minimum Depth of Binary Tree</a></td>
-<td>🟢 Easy</td>
-<td>Tree, BFS, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>112</td>
-<td><a href="../../problems/0112/">Path Sum</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>113</td>
-<td><a href="../../problems/0113/">Path Sum II</a></td>
-<td>🟡 Medium</td>
-<td>Tree, DFS, Backtracking</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>114</td>
-<td><a href="../../problems/0114/">Flatten Binary Tree to Linked List</a></td>
-<td>🟡 Medium</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>124</td>
-<td><a href="../../problems/0124/">Binary Tree Maximum Path Sum</a></td>
-<td>🔴 Hard</td>
-<td>Tree, Recursion, DP</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>129</td>
-<td><a href="../../problems/0129/">Sum Root to Leaf Numbers</a></td>
-<td>🟡 Medium</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>144</td>
-<td><a href="../../problems/0144/">Binary Tree Preorder Traversal</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>145</td>
-<td><a href="../../problems/0145/">Binary Tree Postorder Traversal</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>173</td>
-<td><a href="../../problems/0173/">Binary Search Tree Iterator</a></td>
-<td>🟡 Medium</td>
-<td>Tree, Stack</td>
-<td>O(1) avg</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>222</td>
-<td><a href="../../problems/0222/">Count Complete Tree Nodes</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS, Binary Search</td>
-<td>O(log²N)</td>
-<td>O(logN)</td>
-</tr>
-<tr>
-<td>257</td>
-<td><a href="../../problems/0257/">Binary Tree Paths</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N²)</td>
-<td>O(H²)</td>
-</tr>
-<tr>
-<td>404</td>
-<td><a href="../../problems/0404/">Sum of Left Leaves</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>437</td>
-<td><a href="../../problems/0437/">Path Sum III</a></td>
-<td>🟡 Medium</td>
-<td>DFS, Prefix Sum</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>543</td>
-<td><a href="../../problems/0543/">Diameter of Binary Tree</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>559</td>
-<td><a href="../../problems/0559/">Maximum Depth of N-ary Tree</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS, BFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>563</td>
-<td><a href="../../problems/0563/">Binary Tree Tilt</a></td>
-<td>🟢 Easy</td>
-<td>DFS, Post-order</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>572</td>
-<td><a href="../../problems/0572/">Subtree of Another Tree</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N*M)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>606</td>
-<td><a href="../../problems/0606/">Construct String from Binary Tree</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>617</td>
-<td><a href="../../problems/0617/">Merge Two Binary Trees</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS, Recursion</td>
-<td>O(min(N,M))</td>
-<td>O(min(N,M))</td>
-</tr>
-<tr>
-<td>671</td>
-<td><a href="../../problems/0671/">Second Minimum Node In a Binary Tree</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>687</td>
-<td><a href="../../problems/0687/">Longest Univalue Path</a></td>
-<td>🟡 Medium</td>
-<td>DFS, Tree</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>872</td>
-<td><a href="../../problems/0872/">Leaf-Similar Trees</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N+M)</td>
-<td>O(N+M)</td>
-</tr>
-<tr>
-<td>897</td>
-<td><a href="../../problems/0897/">Increasing Order Search Tree</a></td>
-<td>🟢 Easy</td>
-<td>DFS, In-order</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>965</td>
-<td><a href="../../problems/0965/">Univalued Binary Tree</a></td>
-<td>🟢 Easy</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>988</td>
-<td><a href="../../problems/0988/">Smallest String Starting From Leaf</a></td>
-<td>🟡 Medium</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>1022</td>
-<td><a href="../../problems/1022/">Sum of Root To Leaf Binary Numbers</a></td>
-<td>🟢 Easy</td>
-<td>Tree Dfs Path</td>
-<td>O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。</td>
-<td>O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(logN)。</td>
-</tr>
-<tr>
-<td>1026</td>
-<td><a href="../../problems/1026/">Maximum Difference Between Node and Ancestor</a></td>
-<td>🟡 Medium</td>
-<td>Tree Dfs Path, DFS, Recursion</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>1305</td>
-<td><a href="../../problems/1305/">All Elements in Two Binary Search Trees</a></td>
-<td>🟡 Medium</td>
-<td>Tree, In-order Traversal, Two Pointers</td>
-<td>O(N+M)</td>
-<td>O(N+M)</td>
-</tr>
-<tr>
-<td>1315</td>
-<td><a href="../../problems/1315/">Sum of Nodes with Even-Valued Grandparent</a></td>
-<td>🟡 Medium</td>
-<td>Tree, DFS, Recursion</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>1379</td>
-<td><a href="../../problems/1379/">Find a Corresponding Node of a Binary Tree in a Clone of That Tree</a></td>
-<td>🟢 Easy</td>
-<td>DFS, Tree Traversal</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>1448</td>
-<td><a href="../../problems/1448/">Count Good Nodes in Binary Tree</a></td>
-<td>🟡 Medium</td>
-<td>Tree, DFS, Recursion</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-<tr>
-<td>1530</td>
-<td><a href="../../problems/1530/">Number of Good Leaf Nodes Pairs</a></td>
-<td>🟡 Medium</td>
-<td>Tree, DFS, Post-order</td>
-<td>O(N×D²)</td>
-<td>O(H×D)</td>
-</tr>
-<tr>
-<td>2415</td>
-<td><a href="../../problems/2415/">Reverse Odd Levels of Binary Tree</a></td>
-<td>🟡 Medium</td>
-<td>Tree, DFS</td>
-<td>O(N)</td>
-<td>O(H)</td>
-</tr>
-</tbody>
-</table>
+<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- |
+| 94 | <a href="https://leetcode.com/problems/binary-tree-inorder-traversal">Binary Tree Inorder Traversal</a> | 🟢 Easy | Tree, DFS, Stack | <a href="../../problems/0094/">C++</a> | O(N) | O(H) |
+| 101 | <a href="https://leetcode.com/problems/symmetric-tree">Symmetric Tree</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0101/">C++</a> | O(N) | O(H) |
+| 104 | <a href="https://leetcode.com/problems/maximum-depth-of-binary-tree/">Maximum Depth of Binary Tree</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0104/">C++</a> | O(N) | O(H) |
+| 110 | <a href="https://leetcode.com/problems/balanced-binary-tree/">Balanced Binary Tree</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0110/">C++</a> | O(N) | O(H) |
+| 111 | <a href="https://leetcode.com/problems/minimum-depth-of-binary-tree">Minimum Depth of Binary Tree</a> | 🟢 Easy | Tree, BFS, DFS | <a href="../../problems/0111/">C++</a> | O(N) | O(H) |
+| 112 | <a href="https://leetcode.com/problems/path-sum/">Path Sum</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0112/">C++</a> | O(N) | O(H) |
+| 113 | <a href="https://leetcode.com/problems/path-sum-ii">Path Sum II</a> | 🟡 Medium | Tree, DFS, Backtracking | <a href="../../problems/0113/">C++</a> | O(N) | O(H) |
+| 114 | <a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list/">Flatten Binary Tree to Linked List</a> | 🟡 Medium | Tree, DFS | <a href="../../problems/0114/">C++</a> | O(N) | O(H) |
+| 124 | <a href="https://leetcode.com/problems/binary-tree-maximum-path-sum">Binary Tree Maximum Path Sum</a> | 🔴 Hard | Tree, Recursion, DP | <a href="../../problems/0124/">C++</a> | O(N) | O(H) |
+| 129 | <a href="https://leetcode.com/problems/sum-root-to-leaf-numbers">Sum Root to Leaf Numbers</a> | 🟡 Medium | Tree, DFS | <a href="../../problems/0129/">C++</a> | O(N) | O(H) |
+| 144 | <a href="https://leetcode.com/problems/binary-tree-preorder-traversal">Binary Tree Preorder Traversal</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0144/">C++</a> | O(N) | O(H) |
+| 145 | <a href="https://leetcode.com/problems/binary-tree-postorder-traversal">Binary Tree Postorder Traversal</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0145/">C++</a> | O(N) | O(H) |
+| 173 | <a href="https://leetcode.com/problems/binary-search-tree-iterator/">Binary Search Tree Iterator</a> | 🟡 Medium | Tree, Stack | <a href="../../problems/0173/">C++</a> | O(1) avg | O(H) |
+| 222 | <a href="https://leetcode.com/problems/count-complete-tree-nodes">Count Complete Tree Nodes</a> | 🟢 Easy | Tree, DFS, Binary Search | <a href="../../problems/0222/">C++</a> | O(log²N) | O(logN) |
+| 257 | <a href="https://leetcode.com/problems/binary-tree-path">Binary Tree Paths</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0257/">C++</a> | O(N²) | O(H²) |
+| 404 | <a href="https://leetcode.com/problems/sum-of-left-leaves">Sum of Left Leaves</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0404/">C++</a> | O(N) | O(H) |
+| 437 | <a href="https://leetcode.com/problems/path-sum-iii/">Path Sum III</a> | 🟡 Medium | DFS, Prefix Sum | <a href="../../problems/0437/">C++</a> | O(N) | O(H) |
+| 543 | <a href="https://leetcode.com/problems/diameter-of-binary-tree/">Diameter of Binary Tree</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0543/">C++</a> | O(N) | O(H) |
+| 559 | <a href="https://leetcode.com/problems/maximum-depth-of-n-ary-tree">Maximum Depth of N-ary Tree</a> | 🟢 Easy | Tree, DFS, BFS | <a href="../../problems/0559/">C++</a> | O(N) | O(H) |
+| 563 | <a href="https://leetcode.com/problems/binary-tree-tilt/">Binary Tree Tilt</a> | 🟢 Easy | DFS, Post-order | <a href="../../problems/0563/">C++</a> | O(N) | O(H) |
+| 572 | <a href="https://leetcode.com/problems/subtree-of-another-tree">Subtree of Another Tree</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0572/">C++</a> | O(N*M) | O(H) |
+| 606 | <a href="https://leetcode.com/problems/construct-string-from-binary-tree/">Construct String from Binary Tree</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0606/">C++</a> | O(N) | O(H) |
+| 617 | <a href="https://leetcode.com/problems/merge-two-binary-trees">Merge Two Binary Trees</a> | 🟢 Easy | Tree, DFS, Recursion | <a href="../../problems/0617/">C++</a> | O(min(N,M)) | O(min(N,M)) |
+| 671 | <a href="https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/">Second Minimum Node In a Binary Tree</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0671/">C++</a> | O(N) | O(H) |
+| 687 | <a href="https://leetcode.com/problems/longest-univalue-path/">Longest Univalue Path</a> | 🟡 Medium | DFS, Tree | <a href="../../problems/0687/">C++</a> | O(N) | O(H) |
+| 872 | <a href="https://leetcode.com/problems/leaf-similar-trees">Leaf-Similar Trees</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0872/">C++</a> | O(N+M) | O(N+M) |
+| 897 | <a href="https://leetcode.com/problems/increasing-order-search-tree/">Increasing Order Search Tree</a> | 🟢 Easy | DFS, In-order | <a href="../../problems/0897/">C++</a> | O(N) | O(H) |
+| 965 | <a href="https://leetcode.com/problems/univalued-binary-tree">Univalued Binary Tree</a> | 🟢 Easy | Tree, DFS | <a href="../../problems/0965/">C++</a> | O(N) | O(H) |
+| 988 | <a href="https://leetcode.com/problems/smallest-string-starting-from-leaf/">Smallest String Starting From Leaf</a> | 🟡 Medium | Tree, DFS | <a href="../../problems/0988/">C++</a> | O(N) | O(H) |
+| 1022 | <a href="https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/">Sum of Root To Leaf Binary Numbers</a> | 🟢 Easy | Tree Dfs Path | <a href="../../problems/1022/">C++</a> | O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。 | O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(logN)。 |
+| 1026 | <a href="https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/">Maximum Difference Between Node and Ancestor</a> | 🟡 Medium | Tree Dfs Path, DFS, Recursion | <a href="../../problems/1026/">C++</a> | O(N) | O(H) |
+| 1305 | <a href="https://leetcode.com/problems/all-elements-in-two-binary-search-trees">All Elements in Two Binary Search Trees</a> | 🟡 Medium | Tree, In-order Traversal, Two Pointers | <a href="../../problems/1305/">C++</a> | O(N+M) | O(N+M) |
+| 1315 | <a href="https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/">Sum of Nodes with Even-Valued Grandparent</a> | 🟡 Medium | Tree, DFS, Recursion | <a href="../../problems/1315/">C++</a> | O(N) | O(H) |
+| 1379 | <a href="https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/">Find a Corresponding Node of a Binary Tree in a Clone of That Tree</a> | 🟢 Easy | DFS, Tree Traversal | <a href="../../problems/1379/">C++</a> | O(N) | O(H) |
+| 1448 | <a href="https://leetcode.com/problems/count-good-nodes-in-binary-tree/">Count Good Nodes in Binary Tree</a> | 🟡 Medium | Tree, DFS, Recursion | <a href="../../problems/1448/">C++</a> | O(N) | O(H) |
+| 1530 | <a href="https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/">Number of Good Leaf Nodes Pairs</a> | 🟡 Medium | Tree, DFS, Post-order | <a href="../../problems/1530/">C++</a> | O(N×D²) | O(H×D) |
+| 2415 | <a href="https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/">Reverse Odd Levels of Binary Tree</a> | 🟡 Medium | Tree, DFS | <a href="../../problems/2415/">C++</a> | O(N) | O(H) |</p>
 
 
 
