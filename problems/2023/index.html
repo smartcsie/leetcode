@@ -3175,14 +3175,14 @@
 
 <h1 id="2023-number-of-pairs-of-strings-with-concatenation-equal-to-target">2023. Number of Pairs of Strings With Concatenation Equal to Target<a class="headerlink" href="#2023-number-of-pairs-of-strings-with-concatenation-equal-to-target" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Hash Table, String, Single-Pass　<strong>時間:</strong> O(N * L)　<strong>空間:</strong> </p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Hash Table, String, Single-Pass　<strong>時間:</strong> O(N<em>L)　</em><em>空間:</em>* </p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2023. Number of Pairs of Strings With Concatenation Equal to Target</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：待補充</span>
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="cm"> * 描述：給你一個字串陣列 nums 和一個目標字串 target，請你返回滿足 nums[i] + nums[j] == target</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> * 且下標 i 和 j 不同的數對 (i, j) 的數量。</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> *</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(N * L) - hash map 記錄前綴與後綴出現次數。</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(N*L) - hash map 記錄前綴與後綴出現次數。</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 空間複雜度：O(N) - hash map 大小為 N。</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> *</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 解法思路：</span>

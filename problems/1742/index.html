@@ -3175,14 +3175,14 @@
 
 <h1 id="1742-maximum-number-of-balls-in-a-box">1742. Maximum Number of Balls in a Box<a class="headerlink" href="#1742-maximum-number-of-balls-in-a-box" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/maximum-number-of-balls-in-a-box/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Math, Simulation, Hash Table　<strong>時間:</strong> O(N * D)　<strong>空間:</strong> O(1)*</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Math, Simulation, Hash Table　<strong>時間:</strong> O(N<em>D)　</em><em>空間:</em><em> O(1)</em></p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1742. Maximum Number of Balls in a Box</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：待補充</span>
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="cm"> * 描述：給你 lowLimit 與 highLimit，將編號在此範圍內的球放入各位數字和對應的箱子中，</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> * 返回擁有最多球的箱子裡面的球數。</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> *</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(N * D) - 對每個球做 digit sum，D 為位數，統計到 bucket。</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(N*D) - 對每個球做 digit sum，D 為位數，統計到 bucket。</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 空間複雜度：O(1) - 固定大小 bucket 陣列。</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> *</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 解法思路：</span>

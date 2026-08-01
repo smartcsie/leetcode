@@ -3175,7 +3175,7 @@
 
 <h1 id="2535-difference-between-element-sum-and-digit-sum-of-an-array">2535. Difference Between Element Sum and Digit Sum of an Array<a class="headerlink" href="#2535-difference-between-element-sum-and-digit-sum-of-an-array" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Math, Array　<strong>時間:</strong> O(N * log M)　<strong>空間:</strong> O(1)</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Math, Array　<strong>時間:</strong> O(N<em>logM)　</em><em>空間:</em>* O(1)</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2535. Difference Between Element Sum and Digit Sum of an Array</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3184,7 +3184,7 @@
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> * 1. 單次遍歷：在同一迴圈內同時處理元素值與數位拆解，效率最高。</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 2. 空間節省：僅使用單一 sum 變數來維護累計差值，不需要額外的儲存空間。</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> *</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 時間複雜度：O(N * log M) - 遍歷陣列，每個元素做 digit sum，M 為最大值。</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 時間複雜度：O(N*logM) - 遍歷陣列，每個元素做 digit sum，M 為最大值。</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 空間複雜度：O(1) - 僅使用常數空間。</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> */</span>
 <a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>

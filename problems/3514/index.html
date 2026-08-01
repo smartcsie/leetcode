@@ -3175,13 +3175,13 @@
 
 <h1 id="3514-number-of-unique-xor-triplets-ii">3514. Number of Unique XOR Triplets II<a class="headerlink" href="#3514-number-of-unique-xor-triplets-ii" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/number-of-unique-xor-triplets-ii/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🔴 Hard　<strong>標籤:</strong> Bit Manipulation Xor　<strong>時間:</strong> O(M log M) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。　<strong>空間:</strong> O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。</p>
+<p><strong>難度:</strong> 🔴 Hard　<strong>標籤:</strong> Bit Manipulation Xor　<strong>時間:</strong> O(MlogM) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。　<strong>空間:</strong> O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：3514. Number of Unique XOR Triplets II (唯一異或三元組數量 II)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：困難 (Hard)</span>
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="cm"> * 描述：給定一個整數陣列 nums，請計算可以形成多少種不同的 XOR 三元組結果。</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> * </span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> * 時間複雜度：O(M log M) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> * 時間複雜度：O(MlogM) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 空間複雜度：O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * </span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 解法思路：</span>

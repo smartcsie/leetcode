@@ -3175,7 +3175,7 @@
 
 <h1 id="2707-extra-characters-in-a-string">2707. Extra Characters in a String<a class="headerlink" href="#2707-extra-characters-in-a-string" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/extra-characters-in-a-string/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Dynamic Programming, Hash Set　<strong>時間:</strong> O(N³)　<strong>空間:</strong> O(N + D)</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Dynamic Programming, Hash Set　<strong>時間:</strong> O(N³)　<strong>空間:</strong> O(N+D)</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2707. Extra Characters in a String (字串中的額外字元)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -3184,7 +3184,7 @@
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> *</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(N³) - 雙層迴圈為 O(N²)，但每次 s.substr(j, i-j) 建立子字串</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> *             並丟進 unordered_set 做雜湊比對，額外花費約 O(N)，整體約 O(N³)。</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 空間複雜度：O(N + D) - dp 陣列大小為 N+1，unordered_set 儲存整個字典（D 為字典總字元數）。</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 空間複雜度：O(N+D) - dp 陣列大小為 N+1，unordered_set 儲存整個字典（D 為字典總字元數）。</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> *</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> * 解法思路：</span>
 <a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="cm"> * 1. 定義狀態：dp[i] 為前 i 個字元的最少多餘字元數 (DP State Definition)：</span>

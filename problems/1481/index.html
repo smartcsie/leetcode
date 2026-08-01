@@ -3175,7 +3175,7 @@
 
 <h1 id="1481-least-number-of-unique-integers-after-k-removals">1481. Least Number of Unique Integers after K Removals<a class="headerlink" href="#1481-least-number-of-unique-integers-after-k-removals" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Greedy, Sorting　<strong>時間:</strong> O(N log N)　<strong>空間:</strong> O(N)</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Greedy, Sorting　<strong>時間:</strong> O(NlogN)　<strong>空間:</strong> O(N)</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1481. Least Number of Unique Integers after K Removals</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -3184,7 +3184,7 @@
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> * 1. 轉儲頻率至 vector 時，只儲存頻率 (value) 而不儲存 key，減少空間開銷。</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 2. 移除排序後的 pair，改用純頻率陣列排序，進一步提升效能。</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> *</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 時間複雜度：O(N log N) - 計數後排序頻率，貪婪從最少移除。</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 時間複雜度：O(NlogN) - 計數後排序頻率，貪婪從最少移除。</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 空間複雜度：O(N) - 頻率陣列大小為 N。</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> */</span>
 <a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>

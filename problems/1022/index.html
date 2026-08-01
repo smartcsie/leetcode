@@ -3175,7 +3175,7 @@
 
 <h1 id="1022-sum-of-root-to-leaf-binary-numbers">1022. Sum of Root To Leaf Binary Numbers<a class="headerlink" href="#1022-sum-of-root-to-leaf-binary-numbers" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Tree Dfs Path　<strong>時間:</strong> O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。　<strong>空間:</strong> O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(log N)。</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Tree Dfs Path　<strong>時間:</strong> O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。　<strong>空間:</strong> O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(logN)。</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1022. Sum of Root To Leaf Binary Numbers (從根到葉的二進制數字之和)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3184,7 +3184,7 @@
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> *       請你返回這些從根到葉子之路徑所代表的數字之總和。</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * </span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 時間複雜度：O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 空間複雜度：O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(log N)。</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 空間複雜度：O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(logN)。</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * </span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> * 解法思路：</span>
 <a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="cm"> * 1. 前序走訪與位元運算 (Preorder Traversal &amp; Bit Manipulation)：</span>

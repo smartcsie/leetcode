@@ -3175,14 +3175,14 @@
 
 <h1 id="109-convert-sorted-list-to-binary-search-tree">109. Convert Sorted List to Binary Search Tree<a class="headerlink" href="#109-convert-sorted-list-to-binary-search-tree" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Linked List, Tree　<strong>時間:</strong> O(N log N)　<strong>空間:</strong> O(logN)</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Linked List, Tree　<strong>時間:</strong> O(NlogN)　<strong>空間:</strong> O(logN)</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：109. Convert Sorted List to Binary Search Tree (有序鏈結串列轉平衡二元搜尋樹)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="cm"> * 描述：將升序連結串列轉換為一棵高度平衡的 BST。</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> *</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> * 時間複雜度：O(N log N) - 每一層遞迴需要 O(N) 遍歷串列，共 log N 層。</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 空間複雜度：O(log N) - 遞迴調用棧深度。</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> * 時間複雜度：O(NlogN) - 每一層遞迴需要 O(N) 遍歷串列，共 log N 層。</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 空間複雜度：O(logN) - 遞迴調用棧深度。</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> *</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 解法思路：</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 1. 分治法：每次選定中點作為根節點，將剩餘節點劃分為左右子串列。</span>

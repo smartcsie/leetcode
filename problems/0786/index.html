@@ -3175,7 +3175,7 @@
 
 <h1 id="786-k-th-smallest-prime-fraction">786. K-th Smallest Prime Fraction<a class="headerlink" href="#786-k-th-smallest-prime-fraction" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/k-th-smallest-prime-fraction/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Priority Queue, Binary Search　<strong>時間:</strong> O(N log N)　<strong>空間:</strong> O(N)</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Priority Queue, Binary Search　<strong>時間:</strong> O(NlogN)　<strong>空間:</strong> O(N)</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：786. K-th Smallest Prime Fraction</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：困難 (Hard)</span>
@@ -3184,7 +3184,7 @@
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> * 1. 優先佇列 (Max-Heap)：避免 $O(N^2)$ 的暴力窮舉，直接找出第 K 小。</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 2. 空間效率：僅保留 N 個候選分數，空間複雜度降至 O(N)。</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> *</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 時間複雜度：O(N log N) - 優先佇列存放分數，每次 pop 最小。</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 時間複雜度：O(NlogN) - 優先佇列存放分數，每次 pop 最小。</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 空間複雜度：O(N) - heap 大小最多為 N。</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> */</span>
 <a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>

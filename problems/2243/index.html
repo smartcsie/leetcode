@@ -3175,7 +3175,7 @@
 
 <h1 id="2243-calculate-digit-sum-of-a-string">2243. Calculate Digit Sum of a String<a class="headerlink" href="#2243-calculate-digit-sum-of-a-string" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/calculate-digit-sum-of-a-string/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Simulation, String　<strong>時間:</strong> O(N * log N)　<strong>空間:</strong> O(N)</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Simulation, String　<strong>時間:</strong> O(N<em>logN)　</em><em>空間:</em>* O(N)</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2243. Calculate Digit Sum of a String</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3185,7 +3185,7 @@
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 2. 分組處理：使用步進式 for 迴圈 (i += k) 進行分組。</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 3. 類型轉換：透過 str[j] - &#39;0&#39; 取得整數，並用 to_string 將和轉回字串。</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> *</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 時間複雜度：O(N * log N) - 迭代 digit sum 直到長度降到 k 以下。</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 時間複雜度：O(N*logN) - 迭代 digit sum 直到長度降到 k 以下。</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> * 空間複雜度：O(N) - 字串大小最多為 N。</span>
 <a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="cm"> */</span>
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>

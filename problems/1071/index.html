@@ -3175,15 +3175,15 @@
 
 <h1 id="1071-greatest-common-divisor-of-strings">1071. Greatest Common Divisor of Strings<a class="headerlink" href="#1071-greatest-common-divisor-of-strings" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/greatest-common-divisor-of-strings/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Math, String, GCD　<strong>時間:</strong> O(N + M)　<strong>空間:</strong> O(N + M)</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Math, String, GCD　<strong>時間:</strong> O(N+M)　<strong>空間:</strong> O(N+M)</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1071. Greatest Common Divisor of Strings (字串的最大公因數)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="cm"> * 描述：對於字串 s，若存在字串 t 使得 s 是由 t 重複若干次串接而成，則稱 t 為 s 的一個因數。</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> *       給定兩個字串 str1、str2，回傳兩者的「最大公因字串」（若不存在則回傳空字串）。</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> *</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(N + M) - N、M 分別為 str1、str2 的長度，主要成本來自組合出的字串比較與 gcd 計算。</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 空間複雜度：O(N + M) - 需要額外空間儲存 str1 + str2 與 str2 + str1 這兩個組合字串。</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(N+M) - N、M 分別為 str1、str2 的長度，主要成本來自組合出的字串比較與 gcd 計算。</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 空間複雜度：O(N+M) - 需要額外空間儲存 str1 + str2 與 str2 + str1 這兩個組合字串。</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> *</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 解法思路：</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> * 1. 判斷公因字串是否存在的關鍵條件 (Necessary and Sufficient Condition)：</span>

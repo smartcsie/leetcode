@@ -3175,7 +3175,7 @@
 
 <h1 id="3016-minimum-number-of-pushes-to-type-word-ii">3016. Minimum Number of Pushes to Type Word II<a class="headerlink" href="#3016-minimum-number-of-pushes-to-type-word-ii" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Greedy, Sorting, Counting　<strong>時間:</strong> O(N + 26 log 26)　<strong>空間:</strong> O(1)</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Greedy, Sorting, Counting　<strong>時間:</strong> O(N+26log26)　<strong>空間:</strong> O(1)</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：3016. Minimum Number of Pushes to Type Word II (輸入字串所需的最少按鍵次數 II)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -3183,7 +3183,7 @@
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> *       按第 k 次循環切換到該按鍵上的第 k 個字母）。給定字串 word（此版本資料規模更大），</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> *       可自由把 26 個字母分配到有限按鍵上，求輸入整個 word 所需的最少總按鍵次數。</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> *</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 時間複雜度：O(N + 26 log 26) - N 為 word 長度，統計頻率需要 O(N)，排序固定 26 個字母為 O(26 log 26)，視為常數。</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 時間複雜度：O(N+26log26) - N 為 word 長度，統計頻率需要 O(N)，排序固定 26 個字母為 O(26log26)，視為常數。</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 空間複雜度：O(1) - count 陣列大小固定為 26，不隨輸入規模成長。</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> *</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> * 解法思路：</span>

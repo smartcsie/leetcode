@@ -3175,7 +3175,7 @@
 
 <h1 id="2553-separate-the-digits-in-an-array">2553. Separate the Digits in an Array<a class="headerlink" href="#2553-separate-the-digits-in-an-array" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/separate-the-digits-in-an-array">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Array, Math　<strong>時間:</strong> O(N * log(max_VAL))　<strong>空間:</strong> O(N * log(max_VAL))</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Array, Math　<strong>時間:</strong> O(N<em>log(max_VAL))　</em><em>空間:</em><em> O(N</em>log(max_VAL))</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2553. Separate the Digits in an Array (分割陣列中的數字)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3184,8 +3184,8 @@
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> * 為了避免使用 stack 這種較重的資料結構，可以先將位數存入臨時 vector，</span>
 <a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 再將其反轉，或者直接由高位向低位提取。</span>
 <a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> *</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 時間複雜度：O(N * log(max_VAL)) - 對每個數字做 digit decomposition 後加入結果。</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 空間複雜度：O(N * log(max_VAL)) - 結果陣列大小為各數字位數總和。</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 時間複雜度：O(N*log(max_VAL)) - 對每個數字做 digit decomposition 後加入結果。</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 空間複雜度：O(N*log(max_VAL)) - 結果陣列大小為各數字位數總和。</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> */</span>
 <a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>
