@@ -11,7 +11,7 @@ except ImportError:
     print("需要 PyYAML，請先執行: pip install pyyaml")
     sys.exit(1)
 
-LANG_MAP = {'.cpp': 'cpp', '.sql': 'sql', '.py': 'python', '.java': 'java'}
+LANG_MAP = {'.cpp': 'cpp', '.sql': 'sql', '.py': 'python', '.java': 'java', '.js': 'javascript'}
 
 def to_list(value):
     """把 None 或單一字串安全轉成清單，避免字串被逐字元拆解。"""

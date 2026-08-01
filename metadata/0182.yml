@@ -2,7 +2,7 @@ number: 182
 title: Duplicate Emails
 url: https://leetcode.com/problems/duplicate-emails/
 solutions:
-- file: Solution_0182.cpp
+- file: Solution_0182.sql
   difficulty: 🟢 Easy
   tags:
   - Database

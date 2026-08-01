@@ -2,7 +2,7 @@ number: 2667
 title: Create Hello World Function
 url: https://leetcode.com/problems/create-hello-world-function/
 solutions:
-- file: Solution_2667.cpp
+- file: Solution_2667.js
   difficulty: 🟢 Easy
   tags:
   - Greedy
