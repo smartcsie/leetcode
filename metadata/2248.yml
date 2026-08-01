@@ -10,3 +10,4 @@ solutions:
   - hash-table-set
   time: O(N*M)
   space: O(N)
+  familiarity: 生疏

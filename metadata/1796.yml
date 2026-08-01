@@ -19,3 +19,4 @@ solutions:
     > **if(digit > large) { second = large; large = digit;}** <br>
 
     > **else if( **digit < large** && digit > second) { second = digit;}** <br>'
+  familiarity: 生疏

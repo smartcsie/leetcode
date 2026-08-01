@@ -12,6 +12,7 @@ solutions:
   - hash-table-mapping
   time: O(N)
   space: O(N)
+  familiarity: 生疏
 - file: Solution_2441_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -22,3 +23,4 @@ solutions:
   - two-pointers-other
   time: O(N)
   space: O(N)
+  familiarity: 生疏

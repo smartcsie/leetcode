@@ -16,3 +16,4 @@ solutions:
     > **string res(s.size(), '' '');** <br>
 
     > **for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];** <br>'
+  familiarity: 生疏

@@ -17,3 +17,4 @@ solutions:
 
     > 最後檢查左半子字串和右半子字串是否相等，**return countVowels(s.substr(0, mid)) == countVowels(s.substr(mid));**
     <br>'
+  familiarity: 生疏

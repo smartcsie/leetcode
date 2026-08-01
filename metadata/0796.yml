@@ -13,3 +13,4 @@ solutions:
   note: '> [Rotate String](https://leetcode.com/problems/rotate-string) <br>
 
     > **return (s + s).find(goal) != string::npos;** <br>'
+  familiarity: 生疏

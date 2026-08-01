@@ -14,3 +14,4 @@ solutions:
   note: '> [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)<br>
 
     > 連除3，過程中，if(n % 3 == 2) return false;<br>'
+  familiarity: 生疏

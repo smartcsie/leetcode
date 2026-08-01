@@ -16,3 +16,4 @@ solutions:
     return false;<br>
 
     > travsal string中每一個char，檢查是否是 x空格x的pattern<br>'
+  familiarity: 生疏

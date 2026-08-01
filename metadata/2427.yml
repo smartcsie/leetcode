@@ -12,3 +12,4 @@ solutions:
   - math-gcd
   time: O(min(A,B))
   space: O(1)
+  familiarity: 生疏

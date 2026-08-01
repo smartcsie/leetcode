@@ -20,3 +20,4 @@ solutions:
     > **double angle = std::abs(hourAngle - minAngle);**  // 計算兩者差值<br>
 
     > **return std::min(360.0 - angle, angle);**  // 返回較小的夾角<br>'
+  familiarity: 生疏

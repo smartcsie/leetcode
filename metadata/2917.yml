@@ -17,3 +17,4 @@ solutions:
     > count = 0，travsal 每個數，(num >> i) & 1加到count<br>
 
     > 如果count >= k， res |= (1<<i)<br>'
+  familiarity: 生疏

@@ -11,3 +11,4 @@ solutions:
   - array-difference-array
   time: O(N+M)
   space: O(M)
+  familiarity: 生疏

@@ -10,3 +10,4 @@ solutions:
   - backtracking-permutation
   time: O(N*N!)
   space: O(N)
+  familiarity: 生疏

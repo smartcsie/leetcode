@@ -11,3 +11,4 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(N)
+  familiarity: 生疏

@@ -19,3 +19,4 @@ solutions:
     { bits.set(i);  break;}
 
     > **return static_cast<int>(bits.count())** <br>'
+  familiarity: 生疏

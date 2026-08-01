@@ -11,3 +11,4 @@ solutions:
   - sorting
   time: O(N²*K)
   space: O(N)
+  familiarity: 生疏

@@ -13,3 +13,4 @@ solutions:
   space: O(1)
   note: "> [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)\
     \ \n> return false;\n\n\n\n<br><br>"
+  familiarity: 生疏

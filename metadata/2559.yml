@@ -11,3 +11,4 @@ solutions:
   - prefix-sum
   time: O(N+Q)
   space: O(N)
+  familiarity: 生疏

@@ -11,3 +11,4 @@ solutions:
   - hash-table-counting
   time: O(N*K)
   space: O(N*K)
+  familiarity: 生疏

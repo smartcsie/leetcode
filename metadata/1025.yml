@@ -12,3 +12,4 @@ solutions:
   time: O(1)
   space: O(1)
   is_best: true
+  familiarity: 生疏

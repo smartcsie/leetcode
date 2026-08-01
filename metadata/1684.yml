@@ -20,3 +20,4 @@ solutions:
 
     > int (或 long) 的運算直接對應 CPU 的暫存器指令，在這種極小範圍 (26 bits) 的情況下，它的運算速度幾乎是瞬間完成，且不需要引入額外的標頭檔
     (<bitset>)，代碼更簡潔。<br>'
+  familiarity: 生疏

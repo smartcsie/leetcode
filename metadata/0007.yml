@@ -21,3 +21,4 @@ solutions:
 
     > **if (reverse < INT_MIN / 10 || (reverse == INT_MIN / 10 && (x % 10) < -8))
     return 0;** <br>'
+  familiarity: 生疏

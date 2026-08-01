@@ -17,3 +17,4 @@ solutions:
     > 如果vector<string> words size和 s size不同，return false<br>
 
     > for loop i 從 0 ~ s.size() - 1，if(words[i][0] != s[i]) return false;<br>'
+  familiarity: 生疏

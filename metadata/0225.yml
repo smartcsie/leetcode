@@ -11,3 +11,4 @@ solutions:
   - stack
   time: O(N) push <br> O(1) pop
   space: O(N)
+  familiarity: 生疏

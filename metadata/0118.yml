@@ -11,3 +11,4 @@ solutions:
   - dynamic-programming-kadane-algorithm
   time: O(N²)
   space: O(1)*
+  familiarity: 生疏

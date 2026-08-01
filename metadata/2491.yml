@@ -12,3 +12,4 @@ solutions:
   - sorting
   time: O(NlogN)
   space: O(1)或O(N)*
+  familiarity: 生疏

@@ -11,3 +11,4 @@ solutions:
   - linked-list
   time: O(max(N,M))
   space: O(max(N,M))
+  familiarity: 生疏

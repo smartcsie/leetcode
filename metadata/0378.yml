@@ -11,3 +11,4 @@ solutions:
   - binary-search
   time: O(Nlog(max-min))
   space: O(1)
+  familiarity: 生疏

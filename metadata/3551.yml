@@ -10,3 +10,4 @@ solutions:
   - sorting-cycle-decomposition
   time: O(NlogN)
   space: O(N)
+  familiarity: 生疏

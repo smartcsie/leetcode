@@ -13,3 +13,4 @@ solutions:
   note: '> [Power of Two](https://leetcode.com/problems/power-of-two/)<br>
 
     > **(n > 0) && (n & (n-1)) == 0** <br>'
+  familiarity: 生疏

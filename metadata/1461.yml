@@ -12,3 +12,4 @@ solutions:
   - variable-size-sliding-window
   time: O(N*K)
   space: ''
+  familiarity: 生疏

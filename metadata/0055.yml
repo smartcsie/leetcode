@@ -17,3 +17,4 @@ solutions:
     > 如果 i > maxReach表示不可到達，if(i > maxReach) return false;<br>
 
     > 如果到了結尾，可以先回傳，if(maxReach >= n - 1) return true;<br>'
+  familiarity: 生疏

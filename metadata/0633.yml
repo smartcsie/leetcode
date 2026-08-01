@@ -11,3 +11,4 @@ solutions:
   - math
   time: O(√C)
   space: O(1)
+  familiarity: 生疏

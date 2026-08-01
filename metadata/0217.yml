@@ -16,3 +16,4 @@ solutions:
     > [法三 Unique 去重](../problems/0217.md)，用std::unique判斷，檢查it != nums.end()，Time:O(NlogN)，Time:O(logN)<br>\n\
     > [法四 排序](../problems/0217.md)，排序，檢查相鄰元素是否相等，Time:O(NlogN)，Time:O(logN)<br>\n\n\
     \n<br><br>"
+  familiarity: 生疏

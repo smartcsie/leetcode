@@ -17,3 +17,4 @@ solutions:
     > travsal counts, 用 unordered_map<int, int> countFreq;紀錄出現次數的頻率<br>
 
     > travsal nums, if(countFreq[counts[num]] == 1) return num;<br>'
+  familiarity: 生疏

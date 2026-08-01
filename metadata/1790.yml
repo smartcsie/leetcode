@@ -23,3 +23,4 @@ solutions:
 
     > 最後產生兩種結果，一種是兩字串已經相等，一種是((diff.size() == 2) && (diff[0].first == diff[1].second)
     && (diff[0].second == diff[1].first));<br>'
+  familiarity: 生疏

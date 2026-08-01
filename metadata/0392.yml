@@ -11,6 +11,7 @@ solutions:
   - dynamic-programming
   time: O(S*T)
   space: O(S*T)
+  familiarity: 生疏
 - file: Solution_0392.cpp
   difficulty: 🟢 Easy
   tags:
@@ -19,3 +20,4 @@ solutions:
   - two-pointers-same
   time: O(N)
   space: O(1)
+  familiarity: 生疏

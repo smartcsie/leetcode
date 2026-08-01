@@ -24,3 +24,4 @@ solutions:
     > **return n % 2 == 0 ? half * half : half * half * x;** <br>
 
     > **overflow handing** <br>'
+  familiarity: 生疏

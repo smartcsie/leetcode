@@ -12,3 +12,4 @@ solutions:
   - fixed-size-sliding-window
   time: O(Nlog(min(N,K)))
   space: O(min(N,K))
+  familiarity: 生疏

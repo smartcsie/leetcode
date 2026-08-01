@@ -13,3 +13,4 @@ solutions:
   - greedy
   time: O(N+M)
   space: O(M)
+  familiarity: 生疏

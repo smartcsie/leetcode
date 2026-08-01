@@ -11,3 +11,4 @@ solutions:
   - monotonic-queue
   time: O(N)
   space: O(K)
+  familiarity: 生疏

@@ -12,3 +12,4 @@ solutions:
   - hash-table-counting
   time: O(N*L)
   space: ''
+  familiarity: 生疏

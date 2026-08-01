@@ -23,3 +23,4 @@ solutions:
 
     > 因為此題**不**允許元素重覆使用，遞迴呼叫**i需用+1**， combinationSum2(candidates, target - candidates[i],
     **i+1**, cur, res);<br>'
+  familiarity: 生疏

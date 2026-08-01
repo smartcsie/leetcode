@@ -13,3 +13,4 @@ solutions:
   note: '> [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)<br>
 
     > 0048 Rotate Image的延伸，比對target matrix，rotate 比對4次<br>'
+  familiarity: 生疏

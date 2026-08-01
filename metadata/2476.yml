@@ -11,3 +11,4 @@ solutions:
   - binary-search-build-in
   time: O(N+QlogN)
   space: O(N)
+  familiarity: 生疏

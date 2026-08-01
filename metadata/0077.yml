@@ -10,3 +10,4 @@ solutions:
   - backtracking-combination
   time: O(K*C(N,K))
   space: O(K)
+  familiarity: 生疏

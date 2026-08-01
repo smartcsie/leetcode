@@ -11,6 +11,7 @@ solutions:
   - math-combination
   time: O(N)
   space: O(1)
+  familiarity: 生疏
 - file: Solution_1588_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -20,3 +21,4 @@ solutions:
   - prefix-sum
   time: O(N²)
   space: O(N)
+  familiarity: 生疏

@@ -10,3 +10,4 @@ solutions:
   - array-difference-array
   time: O(N+K)
   space: O(N)
+  familiarity: 生疏

@@ -11,3 +11,4 @@ solutions:
   - knapsack-problem
   time: O(LM*N)
   space: O(M*N)
+  familiarity: 生疏

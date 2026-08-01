@@ -11,3 +11,4 @@ solutions:
   - string-kmp
   time: O(N*M)
   space: O(1)
+  familiarity: 生疏

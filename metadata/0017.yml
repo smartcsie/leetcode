@@ -16,3 +16,4 @@ solutions:
 
     > index為digits目前走到第index個char，phone[digits[index]-''2'']為digits[index]所對應到的phone
     string<br>'
+  familiarity: 生疏

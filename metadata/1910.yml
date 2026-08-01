@@ -21,3 +21,4 @@ solutions:
     k, k, part) == 0) <br>
 
     > res.resize，比string erase效率高<br>'
+  familiarity: 生疏

@@ -10,3 +10,4 @@ solutions:
   - dynamic-programming
   time: O(N*M²)
   space: O(M)
+  familiarity: 生疏

@@ -14,3 +14,4 @@ solutions:
   note: '> [Arranging Coins](https://leetcode.com/problems/arranging-coins/) <br>
 
     > **return (int)((-1 + sqrt(1 + 8 * (long)n)) / 2);** <br>'
+  familiarity: 生疏

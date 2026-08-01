@@ -10,3 +10,4 @@ solutions:
   - string-substring
   time: O(N+M*K)
   space: O(N)
+  familiarity: 生疏

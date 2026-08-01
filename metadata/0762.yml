@@ -18,3 +18,4 @@ solutions:
     n == 17 || n == 19) <br>
 
     > [left , right]範圍內 int bits = __builtin_popcount(i); if(isPrime(bits)) count++;<br>'
+  familiarity: 生疏

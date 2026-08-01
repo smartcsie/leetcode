@@ -24,3 +24,4 @@ solutions:
     > 擺回s，for(char& c : s)  c = buckets[c & 1][index[c & 1]++];<br>
 
     > return stoi(s);'
+  familiarity: 生疏

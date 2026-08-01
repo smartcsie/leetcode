@@ -17,3 +17,4 @@ solutions:
 
     > travsal primes，把prime加到current_sum，if (current_sum > n) break;，if (isPrime[current_sum])
     { ans = static_cast<int>(current_sum);}<br>'
+  familiarity: 生疏

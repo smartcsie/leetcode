@@ -12,3 +12,4 @@ solutions:
   - hash-table-mapping
   time: O(N²)
   space: O(N)
+  familiarity: 生疏

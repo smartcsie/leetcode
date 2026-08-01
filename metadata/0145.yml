@@ -11,6 +11,7 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
+  familiarity: 生疏
 - file: Solution_0145.cpp
   difficulty: 🟢 Easy
   tags:
@@ -23,3 +24,4 @@ solutions:
     <br>
 
     root為空則return，遞迴左子樹，遞迴右子樹，把root->val加入到result vector<br>'
+  familiarity: 生疏

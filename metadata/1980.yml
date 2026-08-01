@@ -15,3 +15,4 @@ solutions:
 
     > **康托爾對角線證明 (Cantor''s Diagonal Argument)**，第i個binary string的第i個character反轉，能產生不重覆的binary
     string<br>'
+  familiarity: 生疏

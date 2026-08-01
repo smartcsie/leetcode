@@ -11,6 +11,7 @@ solutions:
   - binary-search
   time: O(NlogN)
   space: O(N)
+  familiarity: 生疏
 - file: Solution_0300_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -20,3 +21,4 @@ solutions:
   - dynamic-programming
   time: O(N²)
   space: O(N)
+  familiarity: 生疏

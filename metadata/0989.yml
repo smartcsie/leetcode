@@ -11,3 +11,4 @@ solutions:
   - math-simulation
   time: O(max(N,logK))
   space: O(max(N,logK))
+  familiarity: 生疏

@@ -14,3 +14,4 @@ solutions:
 
     > K進制的位數和，一直 % k加到sum，while(n > 0) {  sum = n % k + sum; n /= k; }  return sum
     <br>'
+  familiarity: 生疏

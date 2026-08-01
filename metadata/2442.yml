@@ -13,3 +13,4 @@ solutions:
   - bit-manipulation
   time: O(N*D)
   space: O(M)*
+  familiarity: 生疏

@@ -17,3 +17,4 @@ solutions:
     > int age = 10 * (detail[11] - ''0'') + (detail[12] - ''0'');<br>
 
     > if( age > 60) citizens++;<br>'
+  familiarity: 生疏

@@ -11,3 +11,4 @@ solutions:
   - math-factor-enumeration
   time: O(log(min(NUM1,NUM2)))
   space: O(1)
+  familiarity: 生疏

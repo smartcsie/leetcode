@@ -14,3 +14,4 @@ solutions:
     <br>
 
     > 從 index 1 開始，左右兩數的sum，unordered map存在，回傳false，不存在，則存入unordered map<br>'
+  familiarity: 生疏

@@ -11,3 +11,4 @@ solutions:
   - string-substring-enumeration
   time: O(1)
   space: O(1)
+  familiarity: 生疏

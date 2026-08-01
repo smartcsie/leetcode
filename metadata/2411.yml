@@ -10,3 +10,4 @@ solutions:
   - bit-manipulation
   time: O(N×30)
   space: O(30)
+  familiarity: 生疏

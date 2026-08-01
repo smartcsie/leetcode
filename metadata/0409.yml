@@ -18,3 +18,4 @@ solutions:
     > 對每個頻率，如果是偶數，直接加到res，如果是奇數，減1加到res<br>
 
     > 如果頻率有奇數，最後res再+1<br>'
+  familiarity: 生疏

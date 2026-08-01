@@ -10,3 +10,4 @@ solutions:
   - hash-table-mapping
   time: O(N²)
   space: O(N²)
+  familiarity: 生疏

@@ -17,3 +17,4 @@ solutions:
 
     > 上一個char是空白，這個char不是空白就count++，for(char c : s) if(c != '' '' && lastChar == ''
     '')  count++;<br>'
+  familiarity: 生疏

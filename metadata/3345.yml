@@ -14,3 +14,4 @@ solutions:
   note: '> [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/)<br>
 
     > 針對每個num，digit decomposition取得每個digit，做product，看是否可被t整除<br>'
+  familiarity: 生疏

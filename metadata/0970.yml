@@ -11,3 +11,4 @@ solutions:
   - math
   time: O(log_X(BOUND)*log_Y(BOUND))
   space: O(S)
+  familiarity: 生疏

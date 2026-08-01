@@ -11,3 +11,4 @@ solutions:
   - math-factor-enumeration
   time: O(logN*sqrt(N))
   space: O(1)
+  familiarity: 生疏

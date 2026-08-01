@@ -20,3 +20,4 @@ solutions:
     > nums[right]的10位數算法，log10效率太低，static_cast<int>(log10(nums[right])) + 1<br>
 
     > 直接計算nums[right]右移次數，每次次數直接*10，當作nums[left]的multiplier<br>'
+  familiarity: 生疏

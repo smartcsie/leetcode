@@ -17,3 +17,4 @@ solutions:
     > 第1個loop，統計字元出現頻頻率， **for(char c : s)  count[c-''a'']++**; <br>
 
     > 第2個loop，檢查頻率=1，return; <br>'
+  familiarity: 生疏

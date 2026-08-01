@@ -11,3 +11,4 @@ solutions:
   - dynamic-programming
   time: O(N*30)
   space: O(N*30)
+  familiarity: 生疏

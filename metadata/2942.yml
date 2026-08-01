@@ -13,3 +13,4 @@ solutions:
   note: '> [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)  <br>
 
     > 對 vector<string> words中每個word，找尋char x是否存在，如果有，把index i push到result vector<br>'
+  familiarity: 生疏

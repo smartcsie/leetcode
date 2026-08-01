@@ -18,3 +18,4 @@ solutions:
     > 初始化變數 vector<int> result = {-1, -1};  int prevPrime = -1; int minDiff = INT_MAX;<br>
 
     > for loop i = left ~ right，更新prevPrime，更新diff最小，更新result<br>'
+  familiarity: 生疏

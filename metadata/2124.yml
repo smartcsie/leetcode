@@ -15,3 +15,4 @@ solutions:
     > 檢查是否存在"ba"的case，如果有，return false<br>
 
     > **return s.find("ba") == string::npos;** <br>'
+  familiarity: 生疏

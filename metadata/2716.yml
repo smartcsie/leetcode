@@ -14,3 +14,4 @@ solutions:
   note: '> [Minimize String Length](https://leetcode.com/problems/minimize-string-length/)<br>
 
     > 就是計算相異字元個數，用bitset<26> bits紀錄，最後回傳 bits.count()<br>'
+  familiarity: 生疏

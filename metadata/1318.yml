@@ -16,3 +16,4 @@ solutions:
 
     > **int flips = __builtin_popcount(diff & ~c) + __builtin_popcount(a & b & diff);**
     <br>'
+  familiarity: 生疏

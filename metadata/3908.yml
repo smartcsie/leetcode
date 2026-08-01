@@ -15,3 +15,4 @@ solutions:
     <br>
 
     > 用一個bool紀錄digit是否有x，最後return digit != x && findX; <br>'
+  familiarity: 生疏

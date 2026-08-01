@@ -11,3 +11,4 @@ solutions:
   - string
   time: O(N+K*log(SUM))
   space: O(1)
+  familiarity: 生疏

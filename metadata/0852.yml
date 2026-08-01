@@ -14,3 +14,4 @@ solutions:
     \ <br>\n> **標準Binary Search** <br>\n> **尋找左側邊界**，用while (left < right)，同 0162\
     \ [Find Peak Element](https://leetcode.com/problems/find-peak-element) <br>\n\
     > \n<br><br>"
+  familiarity: 生疏

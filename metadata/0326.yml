@@ -13,3 +13,4 @@ solutions:
   note: '> [Power of Three](https://leetcode.com/problems/power-of-three/)<br>
 
     > **(n > 0) && static_cast<int>(pow(3, 19)) % n == 0**<br>'
+  familiarity: 生疏

@@ -20,3 +20,4 @@ solutions:
     > travsal maxDigit 0~9;，如果max和第二max都在，second~=-1，相加後，如果比res大，更新到res<br>
 
     > <br>'
+  familiarity: 生疏

@@ -13,3 +13,4 @@ solutions:
   note: '> [Add Digits](https://leetcode.com/problems/add-digits)<br>
 
     > **(num - 1) % 9 + 1** <br>'
+  familiarity: 生疏

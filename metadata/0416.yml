@@ -11,3 +11,4 @@ solutions:
   - knapsack-problem
   time: O(N*S/W)
   space: O(S/W)
+  familiarity: 生疏

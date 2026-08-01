@@ -11,3 +11,4 @@ solutions:
   - array
   time: O(N⁴)
   space: O(1)
+  familiarity: 生疏

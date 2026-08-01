@@ -14,3 +14,4 @@ solutions:
     <br>
 
     > 所有元素之間AND，再把所有結果XOR，等於所有元素直接OR'
+  familiarity: 生疏

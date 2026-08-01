@@ -11,3 +11,4 @@ solutions:
   - stack
   time: O(1) amortized
   space: O(N)
+  familiarity: 生疏

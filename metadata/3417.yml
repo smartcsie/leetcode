@@ -10,3 +10,4 @@ solutions:
   - 2d-array
   time: O(M*N)
   space: O(M*N)
+  familiarity: 生疏

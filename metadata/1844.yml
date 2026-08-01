@@ -18,3 +18,4 @@ solutions:
     >  &emsp;&emsp;&emsp;&emsp;**s[i] = s[i - 1] + s[i] - ''0'';** <br>
 
     >  **}** <br>'
+  familiarity: 生疏

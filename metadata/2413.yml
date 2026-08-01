@@ -14,3 +14,4 @@ solutions:
     <br>
 
     > return (n & 1) == 0 ? n : 2 * n;。<br>'
+  familiarity: 生疏

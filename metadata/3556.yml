@@ -19,3 +19,4 @@ solutions:
 
     > 如果curNum是prime，curNum更新到前三大的數，if(isPrime(curNum)) updateMax(curNum, max1, max2,
     max3); <br>'
+  familiarity: 生疏

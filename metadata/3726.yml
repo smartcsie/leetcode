@@ -15,3 +15,4 @@ solutions:
     <br>
 
     > 跟 3697很像，差異是digit != 0 才 res += base * digit; base *= 10;<br>'
+  familiarity: 生疏

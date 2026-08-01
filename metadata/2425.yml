@@ -21,3 +21,4 @@ solutions:
     > 如果nums2 size是奇數，把所有nums1的element xor到 xor1<br>
 
     > 回傳 xor1 ^ xor2<br>'
+  familiarity: 生疏

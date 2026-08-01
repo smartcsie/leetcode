@@ -15,3 +15,4 @@ solutions:
     <br>
 
     > 實作一個base 10的reverse，for loop i，從 num/2 ~ num， i + reverse(i) 則 return true<br>'
+  familiarity: 生疏

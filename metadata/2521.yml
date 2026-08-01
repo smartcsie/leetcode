@@ -16,3 +16,4 @@ solutions:
     > 對vector<int>& nums的每個num做質因素分解，質因素放入unordered_set<int> factors<br>
 
     > 最後回傳 static_cast<int>(factors.size())<br>'
+  familiarity: 生疏

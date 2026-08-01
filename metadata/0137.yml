@@ -25,6 +25,7 @@ solutions:
     > return one;** <br>
 
     > 此題有三種解法，位元有限狀態機是最佳解<br>'
+  familiarity: 生疏
 - file: Solution_0137_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -41,3 +42,4 @@ solutions:
     > (3 * sum_unique - sum_all) / 2<br>
 
     > 此題有三種解法，位元有限狀態機是最佳解<br>'
+  familiarity: 生疏

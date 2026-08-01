@@ -16,3 +16,4 @@ solutions:
     > 先用vector<int> appear(10);travsal每個char，紀錄''0''~''9''的出現次數<br>
 
     > 第二次把num[i] - ''0''和 appear[i] 比對'
+  familiarity: 生疏

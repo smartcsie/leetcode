@@ -15,3 +15,4 @@ solutions:
     <br>
 
     > 起一組 bitset<101> isPrime，執行Sieve of Eratosthenes演算法，用vector<int> count(101, 0)計算每個numt出現頻率，檢查哪個頻率prime<br>'
+  familiarity: 生疏

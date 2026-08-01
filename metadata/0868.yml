@@ -13,3 +13,4 @@ solutions:
   note: '> [Binary Gap](https://leetcode.com/problems/binary-gap/)  <br>
 
     > pre_one_idx 紀錄上一次1的index，max_gap紀錄相鄰1的index最大值<br>'
+  familiarity: 生疏

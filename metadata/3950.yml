@@ -14,3 +14,4 @@ solutions:
 
     > 如果 (n & 3) == 3，count++，如果count > 1  return false，n >>= 1，迴圈出來，return count
     == 1<br>'
+  familiarity: 生疏

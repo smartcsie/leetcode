@@ -11,3 +11,4 @@ solutions:
   - string
   time: O(S)
   space: O(S)
+  familiarity: 生疏

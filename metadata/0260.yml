@@ -18,3 +18,4 @@ solutions:
     <<= 1;<br>
 
     > 再travsal nums，如果num和diff_bit AND > 0，num XOR 到a，否則b<br>'
+  familiarity: 生疏

@@ -18,3 +18,4 @@ solutions:
     > &emsp;&emsp;&emsp;&emsp**if(s.find(word) == 0) count++;**
 
     > **}**'
+  familiarity: 生疏

@@ -21,3 +21,4 @@ solutions:
     > if(x * x == sum) return x;<br>
 
     > return -1;<br>'
+  familiarity: 生疏
