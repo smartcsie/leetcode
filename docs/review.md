@@ -1,6 +1,6 @@
 # 📝 複習清單（生疏）
 
-目前共有 17 個解法標記為生疏，建議找時間重新練習。
+目前共有 20 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -18,6 +18,9 @@
 | 984 | [String Without AAA or BBB](problems/0984.md) | 🟡 Medium | Solution_0984.cpp | greedy |
 | 1399 | [Count Largest Group](problems/1399.md) | 🟢 Easy | Solution_1399.cpp | math-digit-decomposition |
 | 2826 | [Sorting Three Groups](problems/2826.md) | 🟡 Medium | Solution_2826.cpp | dynamic-programming |
+| 2855 | [Minimum Right Shifts to Sort the Array](problems/2855.md) | 🟢 Easy | Solution_2855.cpp | array |
 | 3069 | [Distribute Elements Into Two Arrays I](problems/3069.md) | 🟢 Easy | Solution_3069.cpp | array |
 | 3133 | [Minimum Array End](problems/3133.md) | 🟡 Medium | Solution_3133.cpp | bit-manipulation-and |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](problems/3550.md) | 🟢 Easy | Solution_3550.cpp | math-digit-decomposition |
+| 3722 | [Lexicographically Smallest String After Reverse](problems/3722.md) | 🟡 Medium | Solution_3722.cpp | string |
+| 3978 | [Unique Middle Element](problems/3978.md) | 🟢 Easy | Solution_3978.cpp | array |

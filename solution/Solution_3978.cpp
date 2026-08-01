@@ -1,0 +1,35 @@
+/**
+ * 題目：3978. Unique Middle Element (唯一的中間元素)
+ * 難度：簡單 (Easy)
+ * 描述：給定長度為奇數 n 的整數陣列 nums，判斷 nums 的中間元素
+ *       是否在整個陣列中恰好只出現一次。
+ *
+ * 時間複雜度：O(N) - 最壞情況下需要掃描整個陣列一次；一旦確定出現超過一次，
+ *             會提前中止，實務上通常更快。
+ * 空間複雜度：O(1) - 只使用常數個變數。
+ *
+ * 解法思路：
+ * 1. 取得中間元素的值 (Locate the Middle Element)：
+ *    - 因為題目保證 n 為奇數，nums.size() / 2（整數除法）
+ *      恰好就是唯一且明確的正中間索引，不會有偶數長度時「兩個中間值」的模糊情況。
+ * 2. 線性掃描統計該數值出現的次數 (Count Occurrences)：
+ *    - 走訪整個陣列，只要數值等於中間元素的值，就把計數器加一。
+ * 3. 一旦出現次數超過 1，提前結束並回傳 false (Early Exit on Duplicate)：
+ *    - 不需要等到掃描完整個陣列，只要發現第二次出現，就能確定「不唯一」，
+ *      直接回傳 false，節省不必要的掃描時間。
+ * 4. 掃描完成仍未提前結束，代表恰好只出現一次：
+ *    - 由於中間元素本身必定會被算入一次（它自己就在陣列裡），
+ *      若迴圈正常跑完都沒有觸發提前返回，代表出現次數剛好是 1，回傳 true。
+ */
+class Solution {
+public:
+    bool isMiddleElementUnique(vector<int>& nums) {
+        int middle = nums[nums.size() / 2];
+        int count = 0;
+        for(const int& num : nums) {
+            if(num == middle) count++;
+            if(count > 1)  return false;
+        }
+        return true;
+    }
+};

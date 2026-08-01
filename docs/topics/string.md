@@ -47,4 +47,5 @@
 | 3407 | [Substring Matching Pattern](../problems/3407.md) | 🟢 Easy | String, Pattern Matching | O(N+M) | O(M) |
 | 3456 | [Find Special Substring of Length K](../problems/3456.md) | 🟢 Easy | String, Block-Skipping | O(N) | O(1) |
 | 3498 | [Reverse Degree of a String](../problems/3498.md) | 🟢 Easy | Math, String | O(N) | O(1) |
+| 3722 | [Lexicographically Smallest String After Reverse](../problems/3722.md) | 🟡 Medium | String, Brute Force | O(N²) | O(N) |
 | 3986 | [Number of Elapsed Seconds Between Two Times](../problems/3986.md) | 🟢 Easy | String, Simulation, Math | O(1) | O(1) |

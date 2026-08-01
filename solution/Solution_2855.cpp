@@ -1,0 +1,41 @@
+/**
+ * 題目：2855. Minimum Right Shifts to Sort the Array (排序陣列所需的最少右移次數)
+ * 難度：簡單 (Easy)
+ * 描述：給定一個包含互異正整數的陣列 nums，判斷透過「右移」操作
+ *       （每次把最後一個元素搬到最前面）最少幾次可以讓陣列變成遞增排序；
+ *       若不可能，回傳 -1。
+ *
+ * 時間複雜度：O(N) - 找最小值一次線性掃描，驗證環狀不遞減也是一次線性掃描。
+ * 空間複雜度：O(1) - 只使用常數個變數。
+ *
+ * 解法思路：
+ * 1. 關鍵觀察：排序後的陣列，右移任意次仍保持「環狀不遞減」(Key Insight: Circular Non-Decreasing)：
+ *    - 若原陣列是某個排序好的陣列經過若干次右移得到的，那麼從「最小值的位置」
+ *      開始，以環狀方式走訪整個陣列，數值必定是不遞減的。
+ * 2. 找出最小值的位置 (Locate the Minimum)：
+ *    - 用 std::min_element 找到陣列中最小值所在的索引 index，
+ *      這個位置就是原本排序陣列裡的「開頭」，也就是右移前的起點。
+ * 3. 驗證從最小值開始、環狀走訪是否確實不遞減 (Verify Circular Order)：
+ *    - 從 index 開始，走訪 n-1 步（用取餘數模擬環狀），
+ *      只要出現「前一個數字比後一個數字大」，就代表這個陣列不可能是排序陣列的旋轉，回傳 -1。
+ * 4. 計算所需的右移次數 (Compute Required Shift Count)：
+ *    - 若驗證通過，代表目前陣列是把排序好的陣列往右移了 (n - index) 次的結果
+ *      （因為右移會把最小值往右推，若最小值目前在位置 index，
+ *      代表它是從位置 0 被往右推了 index 步，因此需要再右移 n - index 次才能繞回排序狀態）。
+ *    - 特殊情況：若最小值本來就在位置 0（index == 0），代表陣列已經是排序好的，不需要任何操作，回傳 0。
+ */
+class Solution {
+public:
+    int minimumRightShifts(vector<int>& nums) {
+        int n = nums.size();
+
+        auto it = std::min_element(nums.begin(), nums.end());
+        int index = std::distance(nums.begin(), it);
+
+        for(int i = index; i < index + n - 1; i++) {
+            if(nums[i % n] > nums[(i + 1) % n]) return -1;
+        }
+
+        return (index == 0) ? 0 : n- index;
+    }
+};

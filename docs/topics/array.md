@@ -25,9 +25,11 @@
 | 1995 | [Count Special Quadruplets](../problems/1995.md) | 🟢 Easy | Array, Brute Force | O(N⁴) | O(1) |
 | 2089 | [Find Target Indices After Sorting Array](../problems/2089.md) | 🟢 Easy | Array, Counting | O(N) | O(1) |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](../problems/2148.md) | 🟢 Easy | Array, Sorting | O(N) | O(1) |
+| 2855 | [Minimum Right Shifts to Sort the Array](../problems/2855.md) | 🟢 Easy | Array, Circular Array | O(N) | O(1) |
 | 3069 | [Distribute Elements Into Two Arrays I](../problems/3069.md) | 🟢 Easy | Array, Simulation | O(N) | O(N) |
 | 3162 | [Find the Number of Good Pairs I](../problems/3162.md) | 🟢 Easy | Array, Math, Brute Force | O(N*M) | O(1) |
 | 3452 | [Sum of Good Numbers](../problems/3452.md) | 🟢 Easy | Array, Simulation | O(N) | O(1) |
 | 3477 | [Fruits Into Baskets II](../problems/3477.md) | 🟢 Easy | Simulation, Brute Force | O(N^2) | O(1) |
 | 3925 | [Concatenate Array With Reverse](../problems/3925.md) | 🟢 Easy | Array, Simulation | O(N) | O(N) |
 | 3969 | [Valid Subarrays With Matching Sum Digits I](../problems/3969.md) | 🟢 Easy | Array, Brute Force | O(N²) | O(1) |
+| 3978 | [Unique Middle Element](../problems/3978.md) | 🟢 Easy | Array, Counting | O(N) | O(1) |

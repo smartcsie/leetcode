@@ -1,0 +1,15 @@
+number: 3978
+title: Unique Middle Element
+url: https://leetcode.com/problems/unique-middle-element/
+solutions:
+- file: Solution_3978.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Counting
+  topics:
+  - array
+  time: O(N)
+  space: O(1)
+  familiarity: 生疏
+  is_best: true

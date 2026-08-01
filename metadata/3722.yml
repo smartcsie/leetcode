@@ -1,0 +1,15 @@
+number: 3722
+title: Lexicographically Smallest String After Reverse
+url: https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/
+solutions:
+- file: Solution_3722.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  - Brute Force
+  topics:
+  - string
+  time: O(N²)
+  space: O(N)
+  familiarity: 生疏
+  is_best: true
