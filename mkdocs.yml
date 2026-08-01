@@ -62,6 +62,7 @@ nav:
       - math-combination: topics/math-combination.md
       - math-simulation: topics/math-simulation.md
       - prime: topics/prime.md
+      - math-gcd: topics/math-gcd.md
       - math-factor-enumeration: topics/math-factor-enumeration.md
       - math-permutation: topics/math-permutation.md
   - 🔗 String:
