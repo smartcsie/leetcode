@@ -33,3 +33,4 @@
 | 1567 | [Maximum Length of Subarray With Positive Product](../problems/1567.md) | 🟡 Medium | Dynamic Programming | O(N) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的狀態轉移皆為常數時間。 | O(1) - 僅使用常數個變數（ans, pos, neg）來動態追蹤狀態，不需額外配置記憶體。 |
 | 1668 | [Maximum Repeating Substring](../problems/1668.md) | 🟢 Easy | String | O(N*M²) | O(M) |
 | 2707 | [Extra Characters in a String](../problems/2707.md) | 🟡 Medium | Dynamic Programming, Hash Set | O(N³) | O(N+D) |
+| 2826 | [Sorting Three Groups](../problems/2826.md) | 🟡 Medium | Dynamic Programming, Longest Non-Decreasing Subsequence | O(N) | O(1) |

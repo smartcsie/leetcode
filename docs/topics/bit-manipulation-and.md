@@ -9,3 +9,4 @@
 | 2275 | [Largest Combination With Bitwise AND Greater Than Zero](../problems/2275.md) | 🟡 Medium | Bit Manipulation, Greedy | O(32*N) | O(1) |
 | 2309 | [Greatest English Letter in Upper and Lower Case](../problems/2309.md) | 🟢 Easy | Hash Table, String, Bit Manipulation | O(N) | O(1) |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](../problems/2419.md) | 🟡 Medium | Bit Manipulation, Greedy, Array | O(N) | O(1) |
+| 3133 | [Minimum Array End](../problems/3133.md) | 🟡 Medium | Bit Manipulation And | O(1) | O(1) |

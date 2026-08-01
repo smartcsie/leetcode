@@ -1,0 +1,15 @@
+number: 3550
+title: Smallest Index With Digit Sum Equal to Index
+url: https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/
+solutions:
+- file: Solution_3550.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math Digit Decomposition
+  - Digit Manipulation
+  topics:
+  - math-digit-decomposition
+  time: O(N * D)
+  space: O(1)
+  familiarity: 生疏
+  is_best: true

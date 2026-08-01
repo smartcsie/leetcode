@@ -1,6 +1,6 @@
 # 📝 複習清單（生疏）
 
-目前共有 13 個解法標記為生疏，建議找時間重新練習。
+目前共有 17 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -17,3 +17,7 @@
 | 951 | [Flip Equivalent Binary Trees](problems/0951.md) | 🟡 Medium | Solution_0951.cpp | tree |
 | 984 | [String Without AAA or BBB](problems/0984.md) | 🟡 Medium | Solution_0984.cpp | greedy |
 | 1399 | [Count Largest Group](problems/1399.md) | 🟢 Easy | Solution_1399.cpp | math-digit-decomposition |
+| 2826 | [Sorting Three Groups](problems/2826.md) | 🟡 Medium | Solution_2826.cpp | dynamic-programming |
+| 3069 | [Distribute Elements Into Two Arrays I](problems/3069.md) | 🟢 Easy | Solution_3069.cpp | array |
+| 3133 | [Minimum Array End](problems/3133.md) | 🟡 Medium | Solution_3133.cpp | bit-manipulation-and |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](problems/3550.md) | 🟢 Easy | Solution_3550.cpp | math-digit-decomposition |
