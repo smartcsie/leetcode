@@ -9,5 +9,5 @@ solutions:
   - String
   topics:
   - dynamic-programming
-  time: O(N * M)
-  space: O(N * M)
+  time: O(N*M)
+  space: O(N*M)

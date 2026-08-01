@@ -3,7 +3,7 @@
  * 難度：中等 (Medium)
  * 描述：在 [left, right] 區間內找出兩個質數，使其差值最小。
  *
- * 時間複雜度：O(R log log R)，R 為 right 的值。
+ * 時間複雜度：O(RloglogR)，R 為 right 的值。
  * 空間複雜度：O(R)，使用 bitset 儲存質數狀態。
  *
  * 解法思路：

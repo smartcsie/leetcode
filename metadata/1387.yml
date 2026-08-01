@@ -10,5 +10,5 @@ solutions:
   - Quickselect
   topics:
   - quick-select
-  time: O(N * S)*
-  space: O(N + S)
+  time: O(N*S)*
+  space: O(N+S)

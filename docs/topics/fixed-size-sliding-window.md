@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 3 | [Longest Substring Without Repeating Characters](../problems/0003.md) | 🟡 Medium | Sliding Window, Hash Table | O(N) | O(1) |
 | 220 | [Contains Duplicate III](../problems/0220.md) | 🔴 Hard | Sliding Window, Ordered Map, Bucket | O(Nlog(min(N,K))) | O(min(N,K)) |
-| 567 | [Permutation in String](../problems/0567.md) | 🟡 Medium | Sliding Window, Frequency Array | O(L1 + L2) | O(1) |
+| 567 | [Permutation in String](../problems/0567.md) | 🟡 Medium | Sliding Window, Frequency Array | O(L1+L2) | O(1) |
 | 643 | [Maximum Average Subarray I](../problems/0643.md) | 🟢 Easy | Array, Sliding Window | O(N) | O(1) |
 | 1287 | [Element Appearing More Than 25% In Sorted Array](../problems/1287.md) | 🟢 Easy | Array, Sliding Window | O(N) | O(1) |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](../problems/1456.md) | 🟡 Medium | String, Sliding Window | O(N) | O(1) |

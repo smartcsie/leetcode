@@ -9,5 +9,5 @@ solutions:
   - Sorting
   topics:
   - sorting
-  time: O(D log D + D * M)
+  time: O(DlogD+D*M)
   space: O(1)

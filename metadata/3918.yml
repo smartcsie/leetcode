@@ -9,7 +9,7 @@ solutions:
   - Sieve
   topics:
   - prime
-  time: O(R log log R)
+  time: O(RloglogR)
   space: O(R)
   note: "> [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/)<br>\n\
     > 先求n的reverse，int left = min(n, reversed);int right = max(n, reversed);<br>\n\

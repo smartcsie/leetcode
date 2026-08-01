@@ -3,7 +3,7 @@
  * 難度：中等 (Medium)
  * 描述：在小於等於 n 的範圍內，找出由連續質數相加而成的最大質數。
  *
- * 時間複雜度：O(max_SIZE * log log max_SIZE)，預處理後查詢為 O(PI(max_SIZE))。
+ * 時間複雜度：O(max_SIZE*loglogmax_SIZE)，預處理後查詢為 O(PI(max_SIZE))。
  * 空間複雜度：O(max_SIZE)。
  *
  * 解法思路：

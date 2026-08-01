@@ -8,7 +8,7 @@ solutions:
   - Digit Manipulation
   topics:
   - math-digit-decomposition
-  time: O(N × D)
+  time: O(N×D)
   space: O(1)
   note: '> [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/)  <br>
 

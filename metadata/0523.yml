@@ -10,4 +10,4 @@ solutions:
   topics:
   - prefix-sum
   time: O(N)
-  space: O(min(N, K))
+  space: O(min(N,K))

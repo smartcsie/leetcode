@@ -4,7 +4,7 @@
  * 描述：給你一個字串陣列 nums 和一個目標字串 target，請你返回滿足 nums[i] + nums[j] == target
  * 且下標 i 和 j 不同的數對 (i, j) 的數量。
  *
- * 時間複雜度：O(N * L) - hash map 記錄前綴與後綴出現次數。
+ * 時間複雜度：O(N*L) - hash map 記錄前綴與後綴出現次數。
  * 空間複雜度：O(N) - hash map 大小為 N。
  *
  * 解法思路：

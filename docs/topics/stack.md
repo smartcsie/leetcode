@@ -9,7 +9,7 @@
 | 225 | [Implement Stack using Queues](../problems/0225.md) | 🟢 Easy | Stack, Queue | O(N) push <br> O(1) pop | O(N) |
 | 232 | [Implement Queue using Stacks](../problems/0232.md) | 🟢 Easy | Stack, Queue | O(1) amortized | O(N) |
 | 316 | [Remove Duplicate Letters](../problems/0316.md) | 🟡 Medium | Stack, Greedy, String | O(N) | O(1) |
-| 445 | [Add Two Numbers II](../problems/0445.md) | 🟡 Medium | Linked List, Stack | O(N + M) | O(N + M) |
+| 445 | [Add Two Numbers II](../problems/0445.md) | 🟡 Medium | Linked List, Stack | O(N+M) | O(N+M) |
 | 682 | [Baseball Game](../problems/0682.md) | 🟢 Easy | Array, Stack, Simulation | O(N) | O(N) |
 | 1003 | [Check If Word Is Valid After Substitutions](../problems/1003.md) | 🟡 Medium | Stack, String | O(N) | O(N) |
 | 1021 | [Remove Outermost Parentheses](../problems/1021.md) | 🟢 Easy | Stack, Counter | O(N) | O(1) |

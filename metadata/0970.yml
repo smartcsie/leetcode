@@ -9,5 +9,5 @@ solutions:
   - Hash Table
   topics:
   - math
-  time: O(log_X(BOUND) * log_Y(BOUND))
+  time: O(log_X(BOUND)*log_Y(BOUND))
   space: O(S)

@@ -9,5 +9,5 @@ solutions:
   - Frequency Counting
   topics:
   - hash-table-counting
-  time: O(log N)
+  time: O(logN)
   space: O(1)

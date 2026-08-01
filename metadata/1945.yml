@@ -9,5 +9,5 @@ solutions:
   - Simulation
   topics:
   - string
-  time: O(N + K * log(SUM))
+  time: O(N+K*log(SUM))
   space: O(1)

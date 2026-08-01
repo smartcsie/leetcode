@@ -8,5 +8,5 @@ solutions:
   - Hash Table Counting
   topics:
   - hash-table-counting
-  time: O(N log N) - 排序後雙指針或二分搜尋。
-  space: O(N) - 排序空間 O(log N)，set O(N)。
+  time: O(NlogN) - 排序後雙指針或二分搜尋。
+  space: O(N) - 排序空間 O(logN)，set O(N)。

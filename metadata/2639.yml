@@ -9,5 +9,5 @@ solutions:
   - Simulation
   topics:
   - 2d-array
-  time: O(M * N * D)
+  time: O(M*N*D)
   space: O(1)*

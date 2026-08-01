@@ -9,8 +9,8 @@ solutions:
   - Sorting
   topics:
   - string
-  time: O(N * L + M * K)
-  space: O(D * L)
+  time: O(N*L+M*K)
+  space: O(D*L)
   note: '> [Replace Words](https://leetcode.com/problems/replace-words/)<br>
 
     > 最佳解是用Trie<br>'
@@ -20,5 +20,5 @@ solutions:
   - Trie
   topics:
   - trie
-  time: O(N * L)
-  space: O(M * L)
+  time: O(N*L)
+  space: O(M*L)

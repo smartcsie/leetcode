@@ -9,5 +9,5 @@ solutions:
   - Prime Factorization
   topics:
   - math-factor-enumeration
-  time: O(log N * sqrt(N))
+  time: O(logN*sqrt(N))
   space: O(1)

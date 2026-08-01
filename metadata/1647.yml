@@ -9,5 +9,5 @@ solutions:
   - Hash Set
   topics:
   - hash-table-counting
-  time: O(N + K log K)
+  time: O(N+KlogK)
   space: O(K)

@@ -83,10 +83,10 @@
   /* ---------- Layout ---------- */
   .layout {
     display: grid;
-    grid-template-columns: minmax(340px, 460px) 1fr;
+    grid-template-columns: minmax(500px, 2fr) minmax(280px, 1fr);
     min-height: calc(100vh - 60px);
   }
-  @media (max-width: 880px) {
+  @media (max-width: 1000px) {
     .layout { grid-template-columns: 1fr; }
   }
 
@@ -349,6 +349,18 @@
   <!-- ===================== FORM PANE ===================== -->
   <div class="form-pane">
 
+    <div class="section-label">修改既有題目</div>
+    <div class="field-row" style="align-items: flex-end;">
+      <div class="field" style="margin-bottom: 0;">
+        <label>題號</label>
+        <input type="text" id="loadNumber" placeholder="例如 137">
+      </div>
+      <div class="field" style="margin-bottom: 0;">
+        <button class="btn-secondary" style="width: 100%;" onclick="loadExistingProblem()">📂 載入</button>
+      </div>
+    </div>
+    <div id="loadStatus" style="font-family: var(--mono); font-size: 11.5px; color: var(--text-dim); margin: 8px 0 20px;"></div>
+
     <div class="section-label">貼上 AI 回覆，自動解析</div>
     <div class="field">
       <textarea id="rawPaste" rows="22" style="min-height: 420px; font-size: 13px;" placeholder="把整段 AI 回覆（表格 + ```cpp 程式碼區塊）貼在這裡..."></textarea>
@@ -386,6 +398,19 @@
     <div id="solutionsContainer"></div>
 
     <button class="btn-secondary" onclick="addSolutionBlock()">+ 新增解法變體</button>
+
+    <div class="field" style="margin-top: 16px;">
+      <label>Commit 訊息 <span class="hint">(按「發佈」時使用)</span></label>
+      <input type="text" id="commitMsg" placeholder="Add solution for problem XXXX">
+    </div>
+    <div class="btn-row">
+      <button class="btn-primary" onclick="generateAndSave()">📥 產生並存檔</button>
+      <button class="btn-primary" onclick="publishOnly()">🚀 發佈</button>
+      <button class="btn-primary" onclick="saveAndPublish()">⚡ 產生存檔並發佈</button>
+    </div>
+    <div style="font-family: var(--mono); font-size: 11px; color: var(--text-dim); margin-top: 8px;">
+      💡 新增多題時：每題都按「產生並存檔」，最後只要按一次「發佈」就好
+    </div>
   </div>
 
   <!-- ===================== OUTPUT PANE ===================== -->
@@ -401,19 +426,6 @@
 
     <div class="output-box" id="tab-files" style="display:none;">
       <div class="empty-state">尚未產生</div>
-    </div>
-
-    <div class="field" style="margin-top: 16px;">
-      <label>Commit 訊息 <span class="hint">(按「發佈」時使用)</span></label>
-      <input type="text" id="commitMsg" placeholder="Add solution for problem XXXX">
-    </div>
-    <div class="btn-row">
-      <button class="btn-primary" onclick="generateAndSave()">📥 產生並存檔</button>
-      <button class="btn-primary" onclick="publishOnly()">🚀 發佈</button>
-      <button class="btn-primary" onclick="saveAndPublish()">⚡ 產生存檔並發佈</button>
-    </div>
-    <div style="font-family: var(--mono); font-size: 11px; color: var(--text-dim); margin-top: 8px;">
-      💡 新增多題時：每題都按「產生並存檔」，最後只要按一次「發佈」就好
     </div>
 
     <pre id="publishLog" class="publish-log" style="display:none;"></pre>
@@ -586,44 +598,47 @@ function addSolutionBlock(prefill) {
       <span>解法 #${idx}</span>
       <button class="remove-btn" onclick="removeSolutionBlock(${idx})">移除 ✕</button>
     </div>
-    <div class="field">
-      <label>.cpp 檔名</label>
-      <input type="text" class="sol-file" data-auto="1" data-suffix="${idx > 1 ? '_' + (idx-1) : ''}" placeholder="Solution_XXXX.cpp">
+    <div class="field-row">
+      <div class="field">
+        <label>.cpp 檔名</label>
+        <input type="text" class="sol-file" data-auto="1" data-suffix="${idx > 1 ? '_' + (idx-1) : ''}" placeholder="Solution_XXXX.cpp">
+      </div>
+      <div class="field">
+        <label>時間 / 空間複雜度</label>
+        <div style="display:flex; gap:8px;">
+          <input type="text" class="sol-time" placeholder="時間 O(N)" style="flex:1;">
+          <input type="text" class="sol-space" placeholder="空間 O(1)" style="flex:1;">
+        </div>
+      </div>
     </div>
     <div class="field-row">
       <div class="field">
-        <label>時間複雜度</label>
-        <input type="text" class="sol-time" placeholder="O(N)">
+        <label>標籤 <span class="hint">(可複選；按住 Ctrl/Cmd 點選多個)</span></label>
+        <select class="sol-tags-select multi-select" multiple size="6"></select>
+        <input type="text" class="sol-tags-custom" placeholder="其他自訂標籤（逗號分隔，選填）" style="margin-top:6px;">
       </div>
       <div class="field">
-        <label>空間複雜度</label>
-        <input type="text" class="sol-space" placeholder="O(1)">
+        <label>分類主題 <span style="color: var(--red);">*必填</span> <span class="hint">(可複選；對應 docs/topics/*.md)</span></label>
+        <select class="sol-topics-select multi-select" multiple size="6"></select>
       </div>
     </div>
     <div class="field">
-      <label>標籤 <span class="hint">(可複選；按住 Ctrl/Cmd 點選多個)</span></label>
-      <select class="sol-tags-select multi-select" multiple size="6"></select>
-      <input type="text" class="sol-tags-custom" placeholder="其他自訂標籤（逗號分隔，選填）" style="margin-top:6px;">
-    </div>
-    <div class="field">
-      <label>分類主題 <span style="color: var(--red);">*必填</span> <span class="hint">(可複選；按住 Ctrl/Cmd 點選多個，對應 docs/topics/*.md)</span></label>
-      <select class="sol-topics-select multi-select" multiple size="8"></select>
-    </div>
-    <div class="field">
-      <label>熟悉度 <span class="hint">(選填，這個解法你自己掌握的程度)</span></label>
-      <select class="sol-familiarity">
+      <label>熟悉度 <span class="hint">(選填)</span></label>
+      <select class="sol-familiarity" style="max-width: 220px;">
         <option value="">未標記</option>
         <option value="生疏">🔴 生疏</option>
         <option value="熟練">🟢 熟練</option>
       </select>
     </div>
-    <div class="field">
-      <label>筆記 <span class="hint">(選填，會顯示在程式碼下方，例如額外的觀察或替代寫法)</span></label>
-      <textarea class="sol-note" rows="3" placeholder="例如：規律觀察、相關題目連結、更簡潔的替代寫法..."></textarea>
-    </div>
-    <div class="field">
-      <label>完整 .cpp 程式碼 <span class="hint">(含統一格式註解)</span></label>
-      <textarea class="sol-code" rows="10" placeholder="/**\n * 題目：...\n */\nclass Solution { ... };"></textarea>
+    <div class="field-row">
+      <div class="field">
+        <label>完整 .cpp 程式碼 <span class="hint">(含統一格式註解)</span></label>
+        <textarea class="sol-code" rows="14" placeholder="/**\n * 題目：...\n */\nclass Solution { ... };"></textarea>
+      </div>
+      <div class="field">
+        <label>筆記 <span class="hint">(選填，顯示在程式碼下方)</span></label>
+        <textarea class="sol-note" rows="14" placeholder="規律觀察、相關題目、替代寫法..."></textarea>
+      </div>
     </div>
   `;
   document.getElementById('solutionsContainer').appendChild(wrap);
@@ -642,6 +657,89 @@ function addSolutionBlock(prefill) {
     topicSelect.appendChild(o);
   });
   onNumberChange();
+}
+
+async function loadExistingProblem() {
+  const rawNumber = document.getElementById('loadNumber').value.trim();
+  const statusEl = document.getElementById('loadStatus');
+  if (!rawNumber) { showToast('請先輸入題號'); return; }
+
+  const number = pad4(rawNumber);
+  statusEl.textContent = `載入中...`;
+  statusEl.style.color = 'var(--text-dim)';
+
+  try {
+    const resp = await fetch(`/api/problem/${parseInt(number, 10)}`);
+    const data = await resp.json();
+    if (!resp.ok) {
+      statusEl.textContent = `⚠️ ${data.error || resp.status}`;
+      statusEl.style.color = 'var(--red)';
+      return;
+    }
+
+    // 重置表單（不動貼上區內容）
+    document.getElementById('number').value = pad4(String(data.number));
+    document.getElementById('title').value = data.title || '';
+    const urlField = document.getElementById('url');
+    urlField.value = data.url || '';
+    urlField.dataset.touched = '1';
+
+    if (data.solutions && data.solutions[0] && data.solutions[0].difficulty) {
+      const diffSelect = document.getElementById('difficultyGlobal');
+      const match = Array.from(diffSelect.options).find(o => o.value === data.solutions[0].difficulty);
+      if (match) diffSelect.value = match.value;
+    }
+
+    document.getElementById('solutionsContainer').innerHTML = '';
+    solutionCount = 0;
+
+    (data.solutions || []).forEach(sol => {
+      addSolutionBlock();
+      const block = document.querySelector('.solution-block:last-child');
+
+      const fileInput = block.querySelector('.sol-file');
+      fileInput.value = sol.file || '';
+      fileInput.dataset.auto = '0';
+
+      block.querySelector('.sol-time').value = sol.time || '';
+      block.querySelector('.sol-space').value = sol.space || '';
+      block.querySelector('.sol-note').value = sol.note || '';
+      block.querySelector('.sol-code').value = sol.code || '';
+
+      const familiarityEl = block.querySelector('.sol-familiarity');
+      if (sol.familiarity) familiarityEl.value = sol.familiarity;
+
+      const tagSelect = block.querySelector('.sol-tags-select');
+      const unmatchedTags = [];
+      (sol.tags || []).forEach(tag => {
+        const opt = Array.from(tagSelect.options).find(o => o.value.toLowerCase() === tag.toLowerCase());
+        if (opt) opt.selected = true;
+        else unmatchedTags.push(tag);
+      });
+      if (unmatchedTags.length) block.querySelector('.sol-tags-custom').value = unmatchedTags.join(', ');
+
+      const topicSelect = block.querySelector('.sol-topics-select');
+      (sol.topics || []).forEach(slug => {
+        const opt = Array.from(topicSelect.options).find(o => o.value === slug);
+        if (opt) opt.selected = true;
+      });
+    });
+
+    if (!(data.solutions && data.solutions.length)) addSolutionBlock();
+
+    onNumberChange();
+    document.getElementById('tab-yaml').innerHTML =
+      '<div class="empty-state">已載入既有題目，改完後按下方「產生並存檔」或「產生存檔並發佈」即可更新 →</div>';
+    switchTab('yaml');
+
+    statusEl.textContent = `✓ 已載入題目 ${number}，共 ${(data.solutions || []).length} 個解法，可以開始編輯`;
+    statusEl.style.color = 'var(--accent)';
+    showToast('已載入既有題目 ✓');
+  } catch (e) {
+    console.error(e);
+    statusEl.textContent = '⚠️ 連不上本機伺服器';
+    statusEl.style.color = 'var(--red)';
+  }
 }
 
 function removeSolutionBlock(idx) {

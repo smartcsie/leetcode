@@ -19,5 +19,5 @@ solutions:
   - Hash Set (Duplicate De-duplication)
   topics:
   - bit-bitmask-subset-enumeration
-  time: O(2ᴺ*N log(2ᴺ))*
+  time: O(2ᴺ*Nlog(2ᴺ))*
   space: O(2ᴺ*N)

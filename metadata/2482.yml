@@ -10,8 +10,8 @@ solutions:
   - Precomputation
   topics:
   - 2d-array
-  time: O(M * N)
-  space: O(M + N)
+  time: O(M*N)
+  space: O(M+N)
   note: '> [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/)
 
     > 要輸出結果矩陣，ans[i][j]為ith row 1的數量 - 0的數量加上 jth col 1的數量 - 0的數量<br>

@@ -10,7 +10,7 @@ solutions:
   - DP
   topics:
   - math-combination
-  time: O(min(M, N))
+  time: O(min(M,N))
   space: O(1)
   note: '> [Unique Paths](https://leetcode.com/problems/unique-paths/)<br>
 

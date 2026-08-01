@@ -8,5 +8,5 @@ solutions:
   - Counting Sort
   topics:
   - sorting
-  time: O(N + M)
+  time: O(N+M)
   space: O(1)

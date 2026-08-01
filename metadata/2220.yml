@@ -8,7 +8,7 @@ solutions:
   - Bit Manipulation
   topics:
   - hamming-distance
-  time: O(log(max(START, GOAL)))
+  time: O(log(max(START,GOAL)))
   space: O(1)
   note: '> [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number)
     <br>

@@ -18,7 +18,7 @@
 | 441 | [Arranging Coins](../problems/0441.md) | 🟢 Easy | Math, Binary Search | O(logN) | O(1) |
 | 628 | [Maximum Product of Three Numbers](../problems/0628.md) | 🟢 Easy | Array, Math | O(N) | O(1) |
 | 633 | [Sum of Square Numbers](../problems/0633.md) | 🟡 Medium | Math, Two Pointers | O(√C) | O(1) |
-| 970 | [Powerful Integers](../problems/0970.md) | 🟡 Medium | Math, Hash Table | O(log_X(BOUND) * log_Y(BOUND)) | O(S) |
+| 970 | [Powerful Integers](../problems/0970.md) | 🟡 Medium | Math, Hash Table | O(log_X(BOUND)*log_Y(BOUND)) | O(S) |
 | 1015 | [Smallest Integer Divisible by K](../problems/1015.md) | 🟡 Medium | Modular Arithmetic | O(K) | O(1) |
 | 1018 | [Binary Prefix Divisible By 5](../problems/1018.md) | 🟢 Easy | Math, Modulo | O(N) | O(1) |
 | 1185 | [Day of the Week](../problems/1185.md) | 🟢 Easy | Math, Zeller's Congruence | O(1) | O(1) |
@@ -29,7 +29,7 @@
 | 1375 | [Number of Times Binary String Is Prefix-Aligned](../problems/1375.md) | 🟡 Medium | Array, Simulation, Greedy | O(N) | O(1) |
 | 1523 | [Count Odd Numbers in an Interval Range](../problems/1523.md) | 🟢 Easy | Math | O(1) | O(1) |
 | 1572 | [Matrix Diagonal Sum](../problems/1572.md) | 🟢 Easy | Matrix | O(N) | O(1) |
-| 1780 | [Check if Number is a Sum of Powers of Three](../problems/1780.md) | 🟡 Medium | Math, Base-3 | O(log₃ N) | O(1) |
+| 1780 | [Check if Number is a Sum of Powers of Three](../problems/1780.md) | 🟡 Medium | Math, Base-3 | O(log₃N) | O(1) |
 | 1822 | [Sign of the Product of an Array](../problems/1822.md) | 🟢 Easy | Array, Math | O(N) | O(1) |
 | 1925 | [Count Square Sum Triples](../problems/1925.md) | 🟢 Easy | Math, Brute Force | O(N²) | O(1) |
 | 1927 | [Sum Game](../problems/1927.md) | 🟡 Medium | Game Theory, Math | O(N) | O(1) |
@@ -47,7 +47,7 @@
 | 2652 | [Sum Multiples](../problems/2652.md) | 🟢 Easy | Math, Brute Force | O(N) | O(1) |
 | 2894 | [Divisible and Non-divisible Sums Difference](../problems/2894.md) | 🟢 Easy | Math, Arithmetic Progression | O(1) | O(1) |
 | 3131 | [Find the Integer Added to Array I](../problems/3131.md) | 🟢 Easy | Math, Array | O(N) | O(1) |
-| 3162 | [Find the Number of Good Pairs I](../problems/3162.md) | 🟢 Easy | Array, Math, Brute Force | O(N * M) | O(1) |
+| 3162 | [Find the Number of Good Pairs I](../problems/3162.md) | 🟢 Easy | Array, Math, Brute Force | O(N*M) | O(1) |
 | 3232 | [Find if Digit Game Can Be Won](../problems/3232.md) | 🟢 Easy | Math, Array | O(N) | O(1) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](../problems/3512.md) | 🟢 Easy | Math | O(N) | O(1) |
 | 3658 | [GCD of Odd and Even Sums](../problems/3658.md) | 🟢 Easy | Math | O(1) | O(1) |

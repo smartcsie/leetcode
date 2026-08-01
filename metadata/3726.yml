@@ -9,7 +9,7 @@ solutions:
   - Digit Extraction
   topics:
   - math-digit-decomposition
-  time: O(log N)
+  time: O(logN)
   space: O(1)
   note: '> [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation)
     <br>

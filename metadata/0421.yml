@@ -9,5 +9,5 @@ solutions:
   - Hash Set
   topics:
   - bit-manipulation-xor
-  time: O(N * L)
+  time: O(N*L)
   space: O(N)

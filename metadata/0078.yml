@@ -21,4 +21,4 @@ solutions:
   topics:
   - bit-bitmask-subset-enumeration
   time: O(2ᴺ*N)
-  space: O(2^N * N)
+  space: O(2^N*N)

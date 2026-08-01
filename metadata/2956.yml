@@ -10,5 +10,5 @@ solutions:
   - Bitset
   topics:
   - bit-manipulation
-  time: O(N + M)
+  time: O(N+M)
   space: O(1)*

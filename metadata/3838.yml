@@ -9,5 +9,5 @@ solutions:
   - Simulation
   topics:
   - hash-table-mapping
-  time: O(N * L)
+  time: O(N*L)
   space: O(1)

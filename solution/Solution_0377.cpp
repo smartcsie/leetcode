@@ -3,7 +3,7 @@
  * 難度：中等 (Medium)
  * 描述：找出 nums 中元素相加等於 target 的所有排列數（順序不同視為不同排列）。
  *
- * 時間複雜度：O(TARGET * N) - N 為 nums 長度。
+ * 時間複雜度：O(TARGET*N) - N 為 nums 長度。
  * 空間複雜度：O(TARGET) - 使用一維 DP 陣列存儲排列數。
  *
  * 解法思路：

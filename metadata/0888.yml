@@ -9,5 +9,5 @@ solutions:
   - Math
   topics:
   - hash-table-set
-  time: O(A + B)
+  time: O(A+B)
   space: O(B)

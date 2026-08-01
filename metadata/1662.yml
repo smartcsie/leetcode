@@ -9,5 +9,5 @@ solutions:
   - Array
   topics:
   - array
-  time: O(N+ M)
+  time: O(N+M)
   space: O(1)

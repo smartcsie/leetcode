@@ -9,5 +9,5 @@ solutions:
   - Sweep Line
   topics:
   - array-difference-array
-  time: O(N + Y)
+  time: O(N+Y)
   space: O(Y)

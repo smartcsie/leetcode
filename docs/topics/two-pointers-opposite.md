@@ -16,9 +16,9 @@
 | 942 | [DI String Match](../problems/0942.md) | 🟢 Easy | Greedy, Two Pointers | O(N) | O(N) |
 | 977 | [Squares of a Sorted Array](../problems/0977.md) | 🟢 Easy | Array, Two Pointers | O(N) | O(N) |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](../problems/1750.md) | 🟡 Medium | String, Two Pointers | O(N) | O(1) |
-| 1877 | [Minimize Maximum Pair Sum in Array](../problems/1877.md) | 🟡 Medium | Array, Two Pointers, Greedy, Sorting | O(N log N) | O(1)* |
+| 1877 | [Minimize Maximum Pair Sum in Array](../problems/1877.md) | 🟡 Medium | Array, Two Pointers, Greedy, Sorting | O(NlogN) | O(1)* |
 | 2000 | [Reverse Prefix of Word](../problems/2000.md) | 🟢 Easy | Two Pointers, String | O(N) | O(1) |
-| 2108 | [Find First Palindromic String in the Array](../problems/2108.md) | 🟢 Easy | Two Pointers | O(N * L) | O(1) |
-| 2562 | [Find the Array Concatenation Value](../problems/2562.md) | 🟢 Easy | Two Pointers | O(N * D) | O(1) |
+| 2108 | [Find First Palindromic String in the Array](../problems/2108.md) | 🟢 Easy | Two Pointers | O(N*L) | O(1) |
+| 2562 | [Find the Array Concatenation Value](../problems/2562.md) | 🟢 Easy | Two Pointers | O(N*D) | O(1) |
 | 3794 | [Reverse String Prefix](../problems/3794.md) | 🟢 Easy | String, Two Pointers | O(N) | O(1) |
 | 3884 | [First Matching Character From Both Ends](../problems/3884.md) | 🟢 Easy | Two-Pointers | O(N) | O(1) |

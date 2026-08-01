@@ -10,5 +10,5 @@ solutions:
   - Prefix Sum
   topics:
   - prefix-sum
-  time: O(M * N) 初始化 / O(1) 查詢
-  space: O(M * N)
+  time: O(M*N) 初始化 / O(1) 查詢
+  space: O(M*N)

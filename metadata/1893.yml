@@ -10,5 +10,5 @@ solutions:
   - Simulation
   topics:
   - bit-manipulation
-  time: O(N * L)
+  time: O(N*L)
   space: O(1)*

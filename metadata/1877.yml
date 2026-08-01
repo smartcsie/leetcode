@@ -11,5 +11,5 @@ solutions:
   - Sorting
   topics:
   - two-pointers-opposite
-  time: O(N log N)
+  time: O(NlogN)
   space: O(1)*

@@ -9,5 +9,5 @@ solutions:
   - Array
   topics:
   - 2d-array
-  time: O(M * N)
+  time: O(M*N)
   space: O(1)

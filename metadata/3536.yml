@@ -9,7 +9,7 @@ solutions:
   - Greedy
   topics:
   - greedy
-  time: O(log N)
+  time: O(logN)
   space: O(1)
   note: '> [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)
     <br>

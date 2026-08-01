@@ -11,4 +11,4 @@ solutions:
   topics:
   - tree-dfs-path
   time: O(log²N)
-  space: O(log N)
+  space: O(logN)

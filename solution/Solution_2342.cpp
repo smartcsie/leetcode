@@ -6,7 +6,7 @@
  * 1. 一次遍歷：在遍歷過程中即時更新最大和與分組最大值，無需二次排序。
  * 2. 映射表：利用 Hash Map 以 O(1) 平均時間查找該數位和之前的最大值。
  *
- * 時間複雜度：O(N * log M) - hash map 記錄每個 digit sum 的最大值。
+ * 時間複雜度：O(N*logM) - hash map 記錄每個 digit sum 的最大值。
  * 空間複雜度：O(N) - hash map 大小最多為 N。
  */
 

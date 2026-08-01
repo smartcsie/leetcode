@@ -9,5 +9,5 @@ solutions:
   - Math
   topics:
   - 2d-array
-  time: O(K + MN)
-  space: O(M + N)
+  time: O(K+MN)
+  space: O(M+N)

@@ -9,5 +9,5 @@ solutions:
   - Bit Manipulation
   topics:
   - knapsack-problem
-  time: O(N * S/W)
+  time: O(N*S/W)
   space: O(S/W)

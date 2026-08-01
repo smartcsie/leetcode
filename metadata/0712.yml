@@ -9,5 +9,5 @@ solutions:
   - String
   topics:
   - dynamic-programming
-  time: O(M × N)
-  space: O(M × N)
+  time: O(M×N)
+  space: O(M×N)

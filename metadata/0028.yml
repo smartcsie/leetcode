@@ -9,5 +9,5 @@ solutions:
   - KMP
   topics:
   - string-kmp
-  time: O(N * M)
+  time: O(N*M)
   space: O(1)

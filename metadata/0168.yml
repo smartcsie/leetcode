@@ -9,5 +9,5 @@ solutions:
   - Base Conversion
   topics:
   - math-digit-decomposition
-  time: O(log26 N)
+  time: O(log26N)
   space: O(1)

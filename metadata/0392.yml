@@ -9,8 +9,8 @@ solutions:
   - LCS
   topics:
   - dynamic-programming
-  time: O(S * T)
-  space: O(S * T)
+  time: O(S*T)
+  space: O(S*T)
 - file: Solution_0392.cpp
   difficulty: 🟢 Easy
   tags:

@@ -9,5 +9,5 @@ solutions:
   - Carry Propagation
   topics:
   - math-simulation
-  time: O(max(N, log K))
-  space: O(max(N, log K))
+  time: O(max(N,logK))
+  space: O(max(N,logK))

@@ -9,5 +9,5 @@ solutions:
   - Array
   topics:
   - hash-table-set
-  time: O(N + M)
+  time: O(N+M)
   space: O(N)

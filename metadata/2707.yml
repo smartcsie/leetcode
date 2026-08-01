@@ -10,4 +10,4 @@ solutions:
   topics:
   - dynamic-programming
   time: O(N³)
-  space: O(N + D)
+  space: O(N+D)

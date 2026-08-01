@@ -9,5 +9,5 @@ solutions:
   - Digit Manipulation
   topics:
   - math-digit-decomposition
-  time: O(log N)
+  time: O(logN)
   space: O(1)

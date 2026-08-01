@@ -9,7 +9,7 @@ solutions:
   - Bitmask
   topics:
   - bit-manipulation-mask
-  time: O(N + M)
+  time: O(N+M)
   space: O(1)
   note: '> [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)
     <br>

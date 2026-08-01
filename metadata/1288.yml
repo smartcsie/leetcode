@@ -10,4 +10,4 @@ solutions:
   topics:
   - interval
   time: O(NlogN)
-  space: O(log N)
+  space: O(logN)

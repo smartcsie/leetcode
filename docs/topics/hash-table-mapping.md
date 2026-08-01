@@ -10,11 +10,11 @@
 | 202 | [Happy Number](../problems/0202.md) | 🟢 Easy | Hash Table, Fast-Slow Pointers | O(logN) | O(1) |
 | 205 | [Isomorphic Strings](../problems/0205.md) | 🟢 Easy | Hash Table, String | O(N) | O(1) |
 | 242 | [Valid Anagram](../problems/0242.md) | 🟢 Easy | Hash Table, String | O(N) | O(1) |
-| 290 | [Word Pattern](../problems/0290.md) | 🟢 Easy | Hash Table, String | O(N + M) | O(N + M) |
-| 383 | [Ransom Note](../problems/0383.md) | 🟢 Easy | Hash Table, String | O(M + N) | O(1) |
+| 290 | [Word Pattern](../problems/0290.md) | 🟢 Easy | Hash Table, String | O(N+M) | O(N+M) |
+| 383 | [Ransom Note](../problems/0383.md) | 🟢 Easy | Hash Table, String | O(M+N) | O(1) |
 | 454 | [4Sum II](../problems/0454.md) | 🟡 Medium | Hash Table | O(N²) | O(N²) |
 | 804 | [Unique Morse Code Words](../problems/0804.md) | 🟢 Easy | Hash Set | O(S) | O(S) |
-| 884 | [Uncommon Words from Two Sentences](../problems/0884.md) | 🟢 Easy | Hash Table | O(N + M) | O(N + M) |
+| 884 | [Uncommon Words from Two Sentences](../problems/0884.md) | 🟢 Easy | Hash Table | O(N+M) | O(N+M) |
 | 1002 | [Find Common Characters](../problems/1002.md) | 🟢 Easy | Array, Hash Table, String | O(N*K) | O(1) |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](../problems/1309.md) | 🟢 Easy | Hash Table, String Parsing | O(N) | O(1) |
 | 1436 | [Destination City](../problems/1436.md) | 🟢 Easy | Hash Table, String | O(N) | O(N) |
@@ -25,4 +25,4 @@
 | 2418 | [Sort the People](../problems/2418.md) | 🟢 Easy | Array, Sorting, Hash Table | O(NlogN) | O(N) |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](../problems/2441.md) | 🟢 Easy | Hash Table, Two Pointers, Sorting | O(N) | O(N) |
 | 3678 | [Smallest Absent Positive Greater Than Average](../problems/3678.md) | 🟢 Easy | Array, Hash Set | O(N) | O(N) |
-| 3838 | [Weighted Word Mapping](../problems/3838.md) | 🟢 Easy | Hash Mapping, Simulation | O(N * L) | O(1) |
+| 3838 | [Weighted Word Mapping](../problems/3838.md) | 🟢 Easy | Hash Mapping, Simulation | O(N*L) | O(1) |

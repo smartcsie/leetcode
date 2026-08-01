@@ -9,5 +9,5 @@ solutions:
   - String
   topics:
   - dynamic-programming
-  time: O(S * T)
+  time: O(S*T)
   space: O(T)

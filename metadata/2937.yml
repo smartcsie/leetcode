@@ -8,7 +8,7 @@ solutions:
   - String
   topics:
   - string
-  time: O(min(L1, L2, L3))
+  time: O(min(L1,L2,L3))
   space: O(1)
   note: '> [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)  <br>
 

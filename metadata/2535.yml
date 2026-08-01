@@ -9,5 +9,5 @@ solutions:
   - Array
   topics:
   - math-digit-decomposition
-  time: O(N * log M)
+  time: O(N*logM)
   space: O(1)

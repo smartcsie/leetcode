@@ -9,7 +9,7 @@ solutions:
   - Partition by Parity
   topics:
   - greedy
-  time: O(D log D)
+  time: O(DlogD)
   space: O(D)
   note: '> [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)<br>
 

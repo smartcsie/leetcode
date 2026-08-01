@@ -10,7 +10,7 @@ solutions:
   - Bit Manipulation
   topics:
   - bit-manipulation
-  time: O(N * M)
+  time: O(N*M)
   space: O(1)
   note: '> [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)<br>
 

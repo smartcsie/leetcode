@@ -9,7 +9,7 @@ solutions:
   - Math
   topics:
   - bit-manipulation-xor
-  time: O(N + M)
+  time: O(N+M)
   space: O(1)
   note: '> [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)
     <br>

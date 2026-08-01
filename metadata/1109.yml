@@ -8,5 +8,5 @@ solutions:
   - Difference Array
   topics:
   - array-difference-array
-  time: O(N + K)
+  time: O(N+K)
   space: O(N)

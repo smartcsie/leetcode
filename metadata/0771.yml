@@ -9,5 +9,5 @@ solutions:
   - String
   topics:
   - hash-table-counting
-  time: O(J + S)
+  time: O(J+S)
   space: O(J)

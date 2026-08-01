@@ -3,7 +3,7 @@
  * 難度：簡單 (Easy)
  * 描述：判斷 ransomNote 是否能由 magazine 中的字母組成。
  *
- * 時間複雜度：O(M + N) - M 為 magazine 長度，N 為 ransomNote 長度。
+ * 時間複雜度：O(M+N) - M 為 magazine 長度，N 為 ransomNote 長度。
  * 空間複雜度：O(1) - 陣列大小固定為 26，屬於常數空間。
  *
  * 解法思路：

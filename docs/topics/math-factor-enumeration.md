@@ -4,5 +4,5 @@
 | --- | --- | --- | --- | --- | --- |
 | 507 | [Perfect Number](../problems/0507.md) | 🟢 Easy | Math | O(√N) | O(1) |
 | 1492 | [The kth Factor of n](../problems/1492.md) | 🟡 Medium | Math | O(√N) | O(1) |
-| 2169 | [Count Operations to Obtain Zero](../problems/2169.md) | 🟢 Easy | Euclidean Algorithm, Simulation | O(log(min(NUM1, NUM2))) | O(1) |
-| 2507 | [Smallest Value After Replacing With Sum of Prime Factors](../problems/2507.md) | 🟡 Medium | Math, Prime Factorization | O(log N * sqrt(N)) | O(1) |
+| 2169 | [Count Operations to Obtain Zero](../problems/2169.md) | 🟢 Easy | Euclidean Algorithm, Simulation | O(log(min(NUM1,NUM2))) | O(1) |
+| 2507 | [Smallest Value After Replacing With Sum of Prime Factors](../problems/2507.md) | 🟡 Medium | Math, Prime Factorization | O(logN*sqrt(N)) | O(1) |

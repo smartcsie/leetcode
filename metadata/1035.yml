@@ -9,5 +9,5 @@ solutions:
   - LCS
   topics:
   - dynamic-programming
-  time: O(N * M)
+  time: O(N*M)
   space: O(M)

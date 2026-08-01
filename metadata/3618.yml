@@ -9,7 +9,7 @@ solutions:
   - Sieve
   topics:
   - prime
-  time: O(N + RloglogR)
+  time: O(N+RloglogR)
   space: O(R)
   note: '> [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/)<br>
 

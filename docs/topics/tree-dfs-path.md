@@ -15,7 +15,7 @@
 | 144 | [Binary Tree Preorder Traversal](../problems/0144.md) | 🟢 Easy | Tree, DFS | O(N) | O(H) |
 | 145 | [Binary Tree Postorder Traversal](../problems/0145.md) | 🟢 Easy | Tree, DFS | O(N) | O(H) |
 | 173 | [Binary Search Tree Iterator](../problems/0173.md) | 🟡 Medium | Tree, Stack | O(1) avg | O(H) |
-| 222 | [Count Complete Tree Nodes](../problems/0222.md) | 🟢 Easy | Tree, DFS, Binary Search | O(log²N) | O(log N) |
+| 222 | [Count Complete Tree Nodes](../problems/0222.md) | 🟢 Easy | Tree, DFS, Binary Search | O(log²N) | O(logN) |
 | 257 | [Binary Tree Paths](../problems/0257.md) | 🟢 Easy | Tree, DFS | O(N²) | O(H²) |
 | 404 | [Sum of Left Leaves](../problems/0404.md) | 🟢 Easy | Tree, DFS | O(N) | O(H) |
 | 437 | [Path Sum III](../problems/0437.md) | 🟡 Medium | DFS, Prefix Sum | O(N) | O(H) |
@@ -24,18 +24,18 @@
 | 563 | [Binary Tree Tilt](../problems/0563.md) | 🟢 Easy | DFS, Post-order | O(N) | O(H) |
 | 572 | [Subtree of Another Tree](../problems/0572.md) | 🟢 Easy | Tree, DFS | O(N*M) | O(H) |
 | 606 | [Construct String from Binary Tree](../problems/0606.md) | 🟢 Easy | Tree, DFS | O(N) | O(H) |
-| 617 | [Merge Two Binary Trees](../problems/0617.md) | 🟢 Easy | Tree, DFS, Recursion | O(min(N, M)) | O(min(N, M)) |
+| 617 | [Merge Two Binary Trees](../problems/0617.md) | 🟢 Easy | Tree, DFS, Recursion | O(min(N,M)) | O(min(N,M)) |
 | 671 | [Second Minimum Node In a Binary Tree](../problems/0671.md) | 🟢 Easy | Tree, DFS | O(N) | O(H) |
 | 687 | [Longest Univalue Path](../problems/0687.md) | 🟡 Medium | DFS, Tree | O(N) | O(H) |
 | 872 | [Leaf-Similar Trees](../problems/0872.md) | 🟢 Easy | Tree, DFS | O(N+M) | O(N+M) |
 | 897 | [Increasing Order Search Tree](../problems/0897.md) | 🟢 Easy | DFS, In-order | O(N) | O(H) |
 | 965 | [Univalued Binary Tree](../problems/0965.md) | 🟢 Easy | Tree, DFS | O(N) | O(H) |
 | 988 | [Smallest String Starting From Leaf](../problems/0988.md) | 🟡 Medium | Tree, DFS | O(N) | O(H) |
-| 1022 | [Sum of Root To Leaf Binary Numbers](../problems/1022.md) | 🟢 Easy | Tree Dfs Path | O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。 | O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(log N)。 |
+| 1022 | [Sum of Root To Leaf Binary Numbers](../problems/1022.md) | 🟢 Easy | Tree Dfs Path | O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。 | O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(logN)。 |
 | 1026 | [Maximum Difference Between Node and Ancestor](../problems/1026.md) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | O(N) | O(H) |
 | 1305 | [All Elements in Two Binary Search Trees](../problems/1305.md) | 🟡 Medium | Tree, In-order Traversal, Two Pointers | O(N+M) | O(N+M) |
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](../problems/1315.md) | 🟡 Medium | Tree, DFS, Recursion | O(N) | O(H) |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](../problems/1379.md) | 🟢 Easy | DFS, Tree Traversal | O(N) | O(H) |
 | 1448 | [Count Good Nodes in Binary Tree](../problems/1448.md) | 🟡 Medium | Tree, DFS, Recursion | O(N) | O(H) |
-| 1530 | [Number of Good Leaf Nodes Pairs](../problems/1530.md) | 🟡 Medium | Tree, DFS, Post-order | O(N × D²) | O(H × D) |
+| 1530 | [Number of Good Leaf Nodes Pairs](../problems/1530.md) | 🟡 Medium | Tree, DFS, Post-order | O(N×D²) | O(H×D) |
 | 2415 | [Reverse Odd Levels of Binary Tree](../problems/2415.md) | 🟡 Medium | Tree, DFS | O(N) | O(H) |

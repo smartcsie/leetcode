@@ -8,7 +8,7 @@ solutions:
   - Binary Search
   topics:
   - binary-search-build-in
-  time: O(log N)
+  time: O(logN)
   space: O(1)
   note: '> [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
     <br>

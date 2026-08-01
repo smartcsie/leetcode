@@ -9,8 +9,8 @@ solutions:
   - Math
   topics:
   - math-simulation
-  time: O(max(N, M))
-  space: O(max(N, M))
+  time: O(max(N,M))
+  space: O(max(N,M))
   note: '> [Add Strings](https://leetcode.com/problems/add-strings) <br>
 
     > 和 0067[Add Binary](https://leetcode.com/problems/add-binary) 幾乎一樣<br>

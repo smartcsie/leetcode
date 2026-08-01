@@ -9,7 +9,7 @@ solutions:
   - Digit Manipulation
   topics:
   - math-digit-decomposition
-  time: O(log N)
+  time: O(logN)
   space: O(1)
   note: '> [Check Good Integer](https://leetcode.com/problems/check-good-integer/)<br>
 

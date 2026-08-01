@@ -8,7 +8,7 @@ solutions:
   - Backtracking
   topics:
   - backtracking-permutation
-  time: O(P(N, 3))
+  time: O(P(N,3))
   space: O(N)
 - file: Solution_3483.cpp
   difficulty: 🟢 Easy

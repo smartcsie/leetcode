@@ -11,5 +11,5 @@ solutions:
   - Monotonic Stack
   topics:
   - monotonic-stack
-  time: O(N + M)
+  time: O(N+M)
   space: O(N)

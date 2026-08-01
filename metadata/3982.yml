@@ -9,5 +9,5 @@ solutions:
   - Array
   topics:
   - math-digit-decomposition
-  time: O(N * D)
+  time: O(N*D)
   space: O(N)

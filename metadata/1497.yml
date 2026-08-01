@@ -9,5 +9,5 @@ solutions:
   - Remainder Counting
   topics:
   - hash-table-counting
-  time: O(N + K)
+  time: O(N+K)
   space: O(K)

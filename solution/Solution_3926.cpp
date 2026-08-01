@@ -3,7 +3,7 @@
  * 難度：中等 (Medium)
  * 描述：識別「Joiner Hyphen」並將其視為單字的一部分，將其他非連接符號視為分隔符，統計 Query 出現次數。
  *
- * 時間複雜度：O(N + M) - hash map 記錄 words 頻率，遍歷 text 查詢。
+ * 時間複雜度：O(N+M) - hash map 記錄 words 頻率，遍歷 text 查詢。
  * 空間複雜度：O(N) - hash map 大小為 N。
  *
  * 解法思路：

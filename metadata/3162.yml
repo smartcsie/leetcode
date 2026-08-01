@@ -11,5 +11,5 @@ solutions:
   topics:
   - array
   - math
-  time: O(N * M)
+  time: O(N*M)
   space: O(1)

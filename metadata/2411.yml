@@ -8,5 +8,5 @@ solutions:
   - Bit Manipulation Or
   topics:
   - bit-manipulation
-  time: O(N × 30)
+  time: O(N×30)
   space: O(30)

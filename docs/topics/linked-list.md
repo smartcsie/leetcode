@@ -2,7 +2,7 @@
 
 | # | 題目 | 難度 | 標籤 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
-| 2 | [Add Two Numbers](../problems/0002.md) | 🟡 Medium | Linked List, Math | O(max(N, M)) | O(max(N, M)) |
+| 2 | [Add Two Numbers](../problems/0002.md) | 🟡 Medium | Linked List, Math | O(max(N,M)) | O(max(N,M)) |
 | 21 | [Merge Two Sorted Lists](../problems/0021.md) | 🟢 Easy | Linked List | O(N+M) | O(1) |
 | 24 | [Swap Nodes in Pairs](../problems/0024.md) | 🟡 Medium | Linked List, Recursion | O(N) | O(N) |
 | 25 | [Reverse Nodes in k-Group](../problems/0025.md) | 🔴 Hard | Linked List | O(N) | O(1) |

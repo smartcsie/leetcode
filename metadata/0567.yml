@@ -9,5 +9,5 @@ solutions:
   - Frequency Array
   topics:
   - fixed-size-sliding-window
-  time: O(L1 + L2)
+  time: O(L1+L2)
   space: O(1)

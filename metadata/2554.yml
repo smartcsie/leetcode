@@ -11,5 +11,5 @@ solutions:
   - Sorting
   topics:
   - greedy
-  time: O(N + M)
+  time: O(N+M)
   space: O(M)

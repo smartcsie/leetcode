@@ -10,5 +10,5 @@ solutions:
   - Bit Manipulation
   topics:
   - variable-size-sliding-window
-  time: O(N * K)
+  time: O(N*K)
   space: ''

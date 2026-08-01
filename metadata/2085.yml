@@ -9,5 +9,5 @@ solutions:
   - Bitmask
   topics:
   - bit-manipulation
-  time: O(N + M)
-  space: O(N + M)
+  time: O(N+M)
+  space: O(N+M)

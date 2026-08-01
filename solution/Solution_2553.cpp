@@ -6,8 +6,8 @@
  * 為了避免使用 stack 這種較重的資料結構，可以先將位數存入臨時 vector，
  * 再將其反轉，或者直接由高位向低位提取。
  *
- * 時間複雜度：O(N * log(max_VAL)) - 對每個數字做 digit decomposition 後加入結果。
- * 空間複雜度：O(N * log(max_VAL)) - 結果陣列大小為各數字位數總和。
+ * 時間複雜度：O(N*log(max_VAL)) - 對每個數字做 digit decomposition 後加入結果。
+ * 空間複雜度：O(N*log(max_VAL)) - 結果陣列大小為各數字位數總和。
  */
 
 class Solution {

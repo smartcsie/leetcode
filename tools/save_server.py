@@ -126,6 +126,50 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         else:
             self._send_json(404, {'error': 'not found'})
 
+    def do_GET(self):
+        if self.path.startswith('/api/problem/'):
+            self._handle_load_problem()
+        else:
+            super().do_GET()
+
+    def _handle_load_problem(self):
+        raw_number = self.path.rsplit('/', 1)[-1]
+        try:
+            number = int(raw_number)
+        except ValueError:
+            self._send_json(400, {'error': f'題號格式錯誤: {raw_number!r}'})
+            return
+
+        meta_path = os.path.join(METADATA_DIR, f"{number:04d}.yml")
+        if not os.path.exists(meta_path):
+            self._send_json(404, {'error': f'找不到題目 {number}（metadata/{number:04d}.yml 不存在）'})
+            return
+
+        try:
+            with open(meta_path, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f) or {}
+        except Exception as e:
+            self._send_json(500, {'error': f'讀取 metadata 失敗: {e}'})
+            return
+
+        solutions = data.get('solutions', []) or []
+        for sol in solutions:
+            fname = sol.get('file', '')
+            code = ''
+            if fname and is_safe_filename(fname):
+                cpp_path = os.path.join(SOLUTION_DIR, fname)
+                if os.path.exists(cpp_path):
+                    with open(cpp_path, 'r', encoding='utf-8', errors='replace') as f:
+                        code = f.read()
+            sol['code'] = code
+
+        self._send_json(200, {
+            'number': data.get('number', number),
+            'title': data.get('title', ''),
+            'url': data.get('url', ''),
+            'solutions': solutions,
+        })
+
     def _handle_save(self):
         try:
             data = self._read_json_body()

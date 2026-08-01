@@ -9,7 +9,7 @@ solutions:
   - Trial Division
   topics:
   - prime
-  time: O(N * sqrt(M))
+  time: O(N*sqrt(M))
   space: O(1)
   note: '> [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)<br>
 

@@ -9,5 +9,5 @@ solutions:
   - Binary Search
   topics:
   - priority-queue
-  time: O(N log N)
+  time: O(NlogN)
   space: O(N)

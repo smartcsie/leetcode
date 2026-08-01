@@ -9,5 +9,5 @@ solutions:
   - Unbounded Knapsack
   topics:
   - knapsack-problem
-  time: O(A * N)
+  time: O(A*N)
   space: O(A)

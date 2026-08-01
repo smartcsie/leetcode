@@ -10,5 +10,5 @@ solutions:
   - Bézout's Identity
   topics:
   - math-gcd
-  time: O(log(min(x, y)))
+  time: O(log(min(x,y)))
   space: O(1)

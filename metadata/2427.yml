@@ -10,5 +10,5 @@ solutions:
   - GCD
   topics:
   - math-gcd
-  time: O(min(A, B))
+  time: O(min(A,B))
   space: O(1)

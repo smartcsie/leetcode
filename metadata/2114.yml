@@ -9,7 +9,7 @@ solutions:
   - Array
   topics:
   - string
-  time: O(N * M)
+  time: O(N*M)
   space: O(1)
   note: '> [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences)<br>
 

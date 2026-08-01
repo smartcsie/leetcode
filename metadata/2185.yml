@@ -9,5 +9,5 @@ solutions:
   - Simulation
   topics:
   - string
-  time: O(N * M)
+  time: O(N*M)
   space: O(1)

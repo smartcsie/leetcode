@@ -9,7 +9,7 @@ solutions:
   - Prime Number
   topics:
   - prime
-  time: O(D * sqrt(N))
+  time: O(D*sqrt(N))
   space: O(D)
   note: '> [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/)<br>
 

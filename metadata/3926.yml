@@ -9,5 +9,5 @@ solutions:
   - Hash Map
   topics:
   - hash-table-counting
-  time: O(N + M)
+  time: O(N+M)
   space: O(N)

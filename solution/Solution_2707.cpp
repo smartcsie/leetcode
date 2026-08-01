@@ -6,7 +6,7 @@
  *
  * 時間複雜度：O(N³) - 雙層迴圈為 O(N²)，但每次 s.substr(j, i-j) 建立子字串
  *             並丟進 unordered_set 做雜湊比對，額外花費約 O(N)，整體約 O(N³)。
- * 空間複雜度：O(N + D) - dp 陣列大小為 N+1，unordered_set 儲存整個字典（D 為字典總字元數）。
+ * 空間複雜度：O(N+D) - dp 陣列大小為 N+1，unordered_set 儲存整個字典（D 為字典總字元數）。
  *
  * 解法思路：
  * 1. 定義狀態：dp[i] 為前 i 個字元的最少多餘字元數 (DP State Definition)：

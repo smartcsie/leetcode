@@ -6,7 +6,7 @@
  * 1. 單次遍歷：在拆解數字的過程中同時更新 max 與 second_max。
  * 2. 邊界處理：初始化為 -1，確保數字不足兩位時能正確處理（視題目需求而定）。
  *
- * 時間複雜度：O(log N) - digit decomposition 找最大兩個 digit 相乘。
+ * 時間複雜度：O(logN) - digit decomposition 找最大兩個 digit 相乘。
  * 空間複雜度：O(1) - 僅使用常數空間。
  */
 

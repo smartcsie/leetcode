@@ -6,7 +6,7 @@
  * - answer2：nums2 中有多少個索引 i，其元素 nums2[i] 存在於 nums1 中。
  * 返回包含 [answer1, answer2] 的結果陣列。
  *
- * 時間複雜度：O(N + M) - 兩個 bitset 分別記錄，AND 後計 popcount。
+ * 時間複雜度：O(N+M) - 兩個 bitset 分別記錄，AND 後計 popcount。
  * 空間複雜度：O(1) - 固定大小 bitset。
  *
  * 解法思路：

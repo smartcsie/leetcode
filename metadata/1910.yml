@@ -9,7 +9,7 @@ solutions:
   - String
   topics:
   - string
-  time: O(N * M)
+  time: O(N*M)
   space: O(N)
   note: '> [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/)<br>
 

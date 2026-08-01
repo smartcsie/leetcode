@@ -9,5 +9,5 @@ solutions:
   - Pattern Matching
   topics:
   - string
-  time: O(N + M)
+  time: O(N+M)
   space: O(M)

@@ -3,7 +3,7 @@
 | # | 題目 | 難度 | 標籤 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
 | 414 | [Third Maximum Number](../problems/0414.md) | 🟢 Easy | Array | O(N) | O(1) |
-| 581 | [Shortest Unsorted Continuous Subarray](../problems/0581.md) | 🟡 Medium | Array, Sorting, Two Pointers | O(N log N) | O(N) |
+| 581 | [Shortest Unsorted Continuous Subarray](../problems/0581.md) | 🟡 Medium | Array, Sorting, Two Pointers | O(NlogN) | O(N) |
 | 1013 | [Partition Array Into Three Parts With Equal Sum](../problems/1013.md) | 🟢 Easy | Array, Prefix Sum, Greedy | O(N) | O(1) |
 | 1422 | [Maximum Score After Splitting a String](../problems/1422.md) | 🟢 Easy | Array Linear Scan | O(N) - 先使用 std::count 花費 O(N) 計算總 1 數量，接著用單一迴圈花費 O(N) 掃描分割點。 | O(1) - 僅使用常數個變數（zeros, ones, ans）來追蹤狀態，不需額外配置動態記憶體。 |
 | 1431 | [Kids With the Greatest Number of Candies](../problems/1431.md) | 🟢 Easy | Array | O(N) | O(1)* |

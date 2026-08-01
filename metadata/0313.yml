@@ -9,8 +9,8 @@ solutions:
   - Multi-pointers
   topics:
   - dynamic-programming
-  time: O(N * K)
-  space: O(N + K)
+  time: O(N*K)
+  space: O(N+K)
   note: '> [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)
 
     > [264 Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)的擴展題<br>

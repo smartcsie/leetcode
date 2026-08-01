@@ -9,5 +9,5 @@ solutions:
   - Prefix Sum
   topics:
   - prefix-sum
-  time: O(N + K)
+  time: O(N+K)
   space: O(K)

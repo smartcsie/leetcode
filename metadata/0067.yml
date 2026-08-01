@@ -9,7 +9,7 @@ solutions:
   - String
   topics:
   - math-simulation
-  time: O(max(M, N))
+  time: O(max(M,N))
   space: O(1)
   note: '> [Add Binary](https://leetcode.com/problems/add-binary)<br>
 

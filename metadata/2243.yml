@@ -9,5 +9,5 @@ solutions:
   - String
   topics:
   - string
-  time: O(N * log N)
+  time: O(N*logN)
   space: O(N)

@@ -10,5 +10,5 @@ solutions:
   - Array
   topics:
   - bit-manipulation-xor
-  time: O(31 * N)
+  time: O(31*N)
   space: O(1)

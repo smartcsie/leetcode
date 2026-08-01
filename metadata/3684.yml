@@ -9,5 +9,5 @@ solutions:
   - Set
   topics:
   - sorting
-  time: O(N logN)
+  time: O(NlogN)
   space: O(N)

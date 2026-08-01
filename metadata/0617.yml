@@ -10,5 +10,5 @@ solutions:
   - Recursion
   topics:
   - tree-dfs-path
-  time: O(min(N, M))
-  space: O(min(N, M))
+  time: O(min(N,M))
+  space: O(min(N,M))

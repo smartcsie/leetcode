@@ -8,7 +8,7 @@ solutions:
   - Bit Manipulation
   topics:
   - bit-manipulation-or
-  time: O(N * log(max_VAL))
+  time: O(N*log(max_VAL))
   space: O(1)
   note: '> [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array)<br>
 

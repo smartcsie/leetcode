@@ -10,5 +10,5 @@ solutions:
   - Sliding Window
   topics:
   - bit-manipulation
-  time: O(N * LEN)
+  time: O(N*LEN)
   space: O(1)

@@ -9,5 +9,5 @@ solutions:
   - Interval Processing
   topics:
   - interval
-  time: O(M + N)
+  time: O(M+N)
   space: O(1)*

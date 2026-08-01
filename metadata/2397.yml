@@ -10,7 +10,7 @@ solutions:
   - Combinatorics
   topics:
   - bit-bitmask-subset-enumeration
-  time: O(2ᴺ*M + M*N)
+  time: O(2ᴺ*M+M*N)
   space: O(M)
   note: '> [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/)<br>
 

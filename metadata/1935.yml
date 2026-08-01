@@ -9,5 +9,5 @@ solutions:
   - Stream
   topics:
   - string-character-classification
-  time: O(N * M)
+  time: O(N*M)
   space: O(1)

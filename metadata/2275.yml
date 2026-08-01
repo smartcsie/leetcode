@@ -9,5 +9,5 @@ solutions:
   - Greedy
   topics:
   - bit-manipulation-and
-  time: O(32 * N)
+  time: O(32*N)
   space: O(1)

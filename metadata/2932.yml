@@ -9,5 +9,5 @@ solutions:
   - Brute Force
   topics:
   - sorting
-  time: O(NlogN +N²)
+  time: O(NlogN+N²)
   space: O(logN)

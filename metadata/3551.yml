@@ -8,5 +8,5 @@ solutions:
   - Cycle Decomposition
   topics:
   - sorting-cycle-decomposition
-  time: O(N log N)
+  time: O(NlogN)
   space: O(N)

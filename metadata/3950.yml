@@ -8,7 +8,7 @@ solutions:
   - Bit Manipulation
   topics:
   - math-digit-decomposition
-  time: O(log N)
+  time: O(logN)
   space: O(1)
   note: '> [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/)<br>
 

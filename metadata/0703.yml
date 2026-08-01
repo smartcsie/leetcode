@@ -8,5 +8,5 @@ solutions:
   - Heap (Priority Queue)
   topics:
   - priority-queue
-  time: O(NlogK) / O(log K)
+  time: O(NlogK) / O(logK)
   space: O(K)

@@ -10,5 +10,5 @@ solutions:
   - Brainteaser
   topics:
   - bit-manipulation-xor
-  time: O(log N)
+  time: O(logN)
   space: O(1)

@@ -19,7 +19,7 @@
 | 704 | [Binary Search](../problems/0704.md) | 🟢 Easy | Binary Search | O(logN) | O(1) |
 | 852 | [Peak Index in a Mountain Array](../problems/0852.md) | 🟡 Medium | Binary Search | O(logN) | O(1) |
 | 1201 | [Ugly Number III](../problems/1201.md) | 🟡 Medium | Binary Search, Math | O(log(2E9)) | O(1) |
-| 1351 | [Count Negative Numbers in a Sorted Matrix](../problems/1351.md) | 🟢 Easy | Array, Matrix, Binary Search | O(R + C) | O(1) |
+| 1351 | [Count Negative Numbers in a Sorted Matrix](../problems/1351.md) | 🟢 Easy | Array, Matrix, Binary Search | O(R+C) | O(1) |
 | 1930 | [Unique Length-3 Palindromic Subsequences](../problems/1930.md) | 🟡 Medium | Greedy, Hash | O(N) | O(1) |
 | 2195 | [Append K Integers With Minimal Sum](../problems/2195.md) | 🟡 Medium | Math, Binary Search | O(NlogN) | O(1) |
 | 2529 | [Maximum Count of Positive Integer and Negative Integer](../problems/2529.md) | 🟢 Easy | Binary Search | O(logN) | O(1) |

@@ -10,5 +10,5 @@ solutions:
   - Single-Pass
   topics:
   - hash-table-counting
-  time: O(N * L)
+  time: O(N*L)
   space: ''
