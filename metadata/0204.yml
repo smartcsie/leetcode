@@ -8,7 +8,7 @@ solutions:
   - Math
   - Sieve
   topics:
-  - prime
+  - math-prime
   time: O(NloglogN)
   space: O(N)
   note: '> [Count Primes](https://leetcode.com/problems/count-primes/)<br>

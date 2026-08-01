@@ -40,6 +40,7 @@ markdown_extensions:
 
 
 
+
 nav:
   - 首頁: index.md
   - 📝 複習清單: review.md
@@ -56,15 +57,25 @@ nav:
   - 🔍 Binary Search:
       - binary-search: topics/binary-search.md
       - binary-search-build-in: topics/binary-search-build-in.md
+  - 👥 Pointers:
+      - two-pointers-center-expansion: topics/two-pointers-center-expansion.md
+      - two-pointers-opposite: topics/two-pointers-opposite.md
+      - fast-slow-pointers: topics/fast-slow-pointers.md
+      - two-pointers-same: topics/two-pointers-same.md
+      - two-pointers-partition: topics/two-pointers-partition.md
+      - two-pointers-other: topics/two-pointers-other.md
+      - two-pointers-swap: topics/two-pointers-swap.md
   - 🔢 Math:
       - math-digit-decomposition: topics/math-digit-decomposition.md
       - math-palindrome: topics/math-palindrome.md
       - math: topics/math.md
       - math-combination: topics/math-combination.md
       - math-simulation: topics/math-simulation.md
-      - prime: topics/prime.md
+      - math-prime: topics/math-prime.md
+      - math-game-theory: topics/math-game-theory.md
       - math-gcd: topics/math-gcd.md
       - math-factor-enumeration: topics/math-factor-enumeration.md
+      - math-geometry: topics/math-geometry.md
       - math-permutation: topics/math-permutation.md
   - 🔗 String:
       - string: topics/string.md
@@ -73,14 +84,6 @@ nav:
       - string-substring: topics/string-substring.md
       - string-character-classification: topics/string-character-classification.md
       - string-substring-enumeration: topics/string-substring-enumeration.md
-  - 👥 Pointers:
-      - two-pointers-opposite: topics/two-pointers-opposite.md
-      - fast-slow-pointers: topics/fast-slow-pointers.md
-      - two-pointers-same: topics/two-pointers-same.md
-      - two-pointers-partition: topics/two-pointers-partition.md
-      - two-pointers-other: topics/two-pointers-other.md
-      - two-pointers-swap: topics/two-pointers-swap.md
-      - two-pointers-center-expansion: topics/two-pointers-center-expansion.md
   - 🔢 Backtracking:
       - backtracking-combination: topics/backtracking-combination.md
       - negative-marking: topics/negative-marking.md
@@ -121,6 +124,8 @@ nav:
       - tree-bfs-level-order: topics/tree-bfs-level-order.md
       - dfs-bfs: topics/dfs-bfs.md
       - trie: topics/trie.md
+  - 🎨 Design:
+      - design: topics/design.md
   - 📊 Sorting:
       - sorting: topics/sorting.md
       - sorting-cycle-decomposition: topics/sorting-cycle-decomposition.md

@@ -7,7 +7,6 @@
 | 349 | [Intersection of Two Arrays](../problems/0349.md) | 🟢 Easy | Hash Table | O(N+M) | O(N) |
 | 350 | [Intersection of Two Arrays II](../problems/0350.md) | 🟢 Easy | Hash Table | O(N+M) | O(min(N,M)) |
 | 599 | [Minimum Index Sum of Two Lists](../problems/0599.md) | 🟢 Easy | Hash Table, Array | O(N+M) | O(N) |
-| 705 | [Design HashSet](../problems/0705.md) | 🟢 Easy | Hash Table, Design | O(1) | O(N) |
 | 706 | [Design HashMap](../problems/0706.md) | 🟢 Easy | Hash Table, Linked List | O(N/K) | O(M+K) |
 | 859 | [Buddy Strings](../problems/0859.md) | 🟢 Easy | String, Hash Table, Two Pointers | O(N) | O(1)* |
 | 888 | [Fair Candy Swap](../problems/0888.md) | 🟢 Easy | Hash Set, Math | O(A+B) | O(B) |

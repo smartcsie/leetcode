@@ -8,7 +8,7 @@ solutions:
   - Math
   - Sieve
   topics:
-  - prime
+  - math-prime
   time: O(NloglogN)
   space: O(N)
   note: '> [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)

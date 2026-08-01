@@ -24,8 +24,8 @@ def to_list(value):
 
 
 GROUPS = [
+    (r'^design$', '🎨 Design'),
     (r'^math', '🔢 Math'),
-    (r'^prime', '🔢 Math'),
     (r'^bit-bitmask-subset-enumeration$', '📊 Bit Manipulation'),
     (r'^bit-manipulation', '📊 Bit Manipulation'),
     (r'^hamming-distance', '📊 Bit Manipulation'),

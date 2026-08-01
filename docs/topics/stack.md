@@ -5,7 +5,6 @@
 | 20 | [Valid Parentheses](../problems/0020.md) | 🟢 Easy | Stack | O(N) | O(N) |
 | 32 | [Longest Valid Parentheses](../problems/0032.md) | 🔴 Hard | String, Stack, DP | O(N) | O(N) |
 | 150 | [Evaluate Reverse Polish Notation](../problems/0150.md) | 🟡 Medium | Stack | O(N) | O(N) |
-| 155 | [Min Stack](../problems/0155.md) | 🟡 Medium | Stack, Design | O(1) | O(N) |
 | 225 | [Implement Stack using Queues](../problems/0225.md) | 🟢 Easy | Stack, Queue | O(N) push <br> O(1) pop | O(N) |
 | 232 | [Implement Queue using Stacks](../problems/0232.md) | 🟢 Easy | Stack, Queue | O(1) amortized | O(N) |
 | 316 | [Remove Duplicate Letters](../problems/0316.md) | 🟡 Medium | Stack, Greedy, String | O(N) | O(1) |

@@ -11,7 +11,6 @@
 | 258 | [Add Digits](../problems/0258.md) | 🟢 Easy | Math | O(1) | O(1) |
 | 263 | [Ugly Number](../problems/0263.md) | 🟢 Easy | Math | O(logN) | O(1) |
 | 268 | [Missing Number](../problems/0268.md) | 🟢 Easy | Math | O(N) | O(1) |
-| 292 | [Nim Game](../problems/0292.md) | 🟢 Easy | Math, Game Theory | O(1) | O(1) |
 | 326 | [Power of Three](../problems/0326.md) | 🟢 Easy | Math | O(log₃N) | O(1) |
 | 342 | [Power of Four](../problems/0342.md) | 🟢 Easy | Math | O(1) | O(1) |
 | 396 | [Rotate Function](../problems/0396.md) | 🟡 Medium | Math, Array | O(N) | O(1) |
@@ -19,14 +18,10 @@
 | 441 | [Arranging Coins](../problems/0441.md) | 🟢 Easy | Math, Binary Search | O(logN) | O(1) |
 | 628 | [Maximum Product of Three Numbers](../problems/0628.md) | 🟢 Easy | Array, Math | O(N) | O(1) |
 | 633 | [Sum of Square Numbers](../problems/0633.md) | 🟡 Medium | Math, Two Pointers | O(√C) | O(1) |
-| 810 | [Chalkboard XOR Game](../problems/0810.md) | 🔴 Hard | Math, Game Theory | O(N) | O(1) |
-| 836 | [Rectangle Overlap](../problems/0836.md) | 🟡 Medium | Math, Geometry | O(1) | O(1) |
 | 970 | [Powerful Integers](../problems/0970.md) | 🟡 Medium | Math, Hash Table | O(log_X(BOUND)*log_Y(BOUND)) | O(S) |
 | 1015 | [Smallest Integer Divisible by K](../problems/1015.md) | 🟡 Medium | Modular Arithmetic | O(K) | O(1) |
 | 1018 | [Binary Prefix Divisible By 5](../problems/1018.md) | 🟢 Easy | Math, Modulo | O(N) | O(1) |
-| 1025 | [Divisor Game](../problems/1025.md) | 🟢 Easy | Math, Game Theory | O(1) | O(1) |
 | 1185 | [Day of the Week](../problems/1185.md) | 🟢 Easy | Math, Zeller's Congruence | O(1) | O(1) |
-| 1232 | [Check If It Is a Straight Line](../problems/1232.md) | 🟢 Easy | Geometry, Math | O(N) | O(1) |
 | 1247 | [Minimum Swaps to Make Strings Equal](../problems/1247.md) | 🟡 Medium | Greedy, Math, String | O(N) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](../problems/1295.md) | 🟢 Easy | Array, Math | O(N) | O(1) |
 | 1344 | [Angle Between Hands of a Clock](../problems/1344.md) | 🟡 Medium | Math | O(1) | O(1) |
@@ -37,7 +32,6 @@
 | 1780 | [Check if Number is a Sum of Powers of Three](../problems/1780.md) | 🟡 Medium | Math, Base-3 | O(log₃N) | O(1) |
 | 1822 | [Sign of the Product of an Array](../problems/1822.md) | 🟢 Easy | Array, Math | O(N) | O(1) |
 | 1925 | [Count Square Sum Triples](../problems/1925.md) | 🟢 Easy | Math, Brute Force | O(N²) | O(1) |
-| 1927 | [Sum Game](../problems/1927.md) | 🟡 Medium | Game Theory, Math | O(N) | O(1) |
 | 1952 | [Three Divisors](../problems/1952.md) | 🟢 Easy | Math | O(√N) | O(1) |
 | 1980 | [Find Unique Binary String](../problems/1980.md) | 🟡 Medium | Math, String | O(N²) | O(N) |
 | 2063 | [Vowels of All Substrings](../problems/2063.md) | 🟡 Medium | Math, Contribution Technique | O(N) | O(1) |
@@ -53,7 +47,6 @@
 | 2894 | [Divisible and Non-divisible Sums Difference](../problems/2894.md) | 🟢 Easy | Math, Arithmetic Progression | O(1) | O(1) |
 | 3131 | [Find the Integer Added to Array I](../problems/3131.md) | 🟢 Easy | Math, Array | O(N) | O(1) |
 | 3162 | [Find the Number of Good Pairs I](../problems/3162.md) | 🟢 Easy | Array, Math, Brute Force | O(N*M) | O(1) |
-| 3232 | [Find if Digit Game Can Be Won](../problems/3232.md) | 🟢 Easy | Math, Array | O(N) | O(1) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](../problems/3512.md) | 🟢 Easy | Math | O(N) | O(1) |
 | 3658 | [GCD of Odd and Even Sums](../problems/3658.md) | 🟢 Easy | Math | O(1) | O(1) |
 | 3701 | [Compute Alternating Sum](../problems/3701.md) | 🟢 Easy | Array, Math | O(N) | O(1) |

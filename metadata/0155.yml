@@ -8,6 +8,6 @@ solutions:
   - Stack
   - Design
   topics:
-  - stack
+  - design
   time: O(1)
   space: O(N)

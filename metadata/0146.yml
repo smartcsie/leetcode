@@ -10,7 +10,7 @@ solutions:
   - Doubly Linked List
   - Design
   topics:
-  - hash-table-mapping
+  - design
   time: O(1)
   space: O(Capacity)
   familiarity: 生疏

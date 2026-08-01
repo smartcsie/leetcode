@@ -8,7 +8,7 @@ solutions:
   - Math
   - Sieve
   topics:
-  - prime
+  - math-prime
   time: O(NloglogN)
   space: O(N)
   note: '> [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/)<br>

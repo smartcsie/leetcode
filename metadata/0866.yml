@@ -8,6 +8,6 @@ solutions:
   - Prime
   - Palindrome Construction
   topics:
-  - prime
+  - math-prime
   time: O(sqrt(10^9))
   space: O(1)

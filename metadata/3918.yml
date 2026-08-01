@@ -8,7 +8,7 @@ solutions:
   - Math
   - Sieve
   topics:
-  - prime
+  - math-prime
   time: O(RloglogR)
   space: O(R)
   note: "> [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/)<br>\n\

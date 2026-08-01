@@ -8,7 +8,7 @@ solutions:
   - Math
   - Game Theory
   topics:
-  - math
+  - math-game-theory
   time: O(1)
   space: O(1)
   is_best: true

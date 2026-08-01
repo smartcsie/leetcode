@@ -8,7 +8,7 @@ solutions:
   - Math
   - Prime Number
   topics:
-  - prime
+  - math-prime
   time: O(D*sqrt(N))
   space: O(D)
   note: '> [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/)<br>

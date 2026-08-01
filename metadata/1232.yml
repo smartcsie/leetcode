@@ -8,6 +8,6 @@ solutions:
   - Geometry
   - Math
   topics:
-  - math
+  - math-geometry
   time: O(N)
   space: O(1)
