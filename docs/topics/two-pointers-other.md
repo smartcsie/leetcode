@@ -1,8 +1,8 @@
 # two-pointers-other
 
-| # | 題目 | 難度 | 標籤 | 時間 | 空間 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
-| 160 | [Intersection of Two Linked Lists](../problems/0160.md) | 🟢 Easy | Linked List, Two Pointers | O(N+M) | O(1) |
-| 442 | [Find All Duplicates in an Array](../problems/0442.md) | 🟡 Medium | Array, Fast-Slow Pointers, Two Pointers | O(N) | O(1) |
-| 557 | [Reverse Words in a String III](../problems/0557.md) | 🟢 Easy | String, Two Pointers | O(N) | O(1) |
-| 2441 | [Largest Positive Integer That Exists With Its Negative](../problems/2441.md) | 🟢 Easy | Hash Table, Two Pointers, Sorting | O(N) | O(N) |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Linked List, Two Pointers | [C++](../problems/0160.md) | O(N+M) | O(1) |
+| 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array, Fast-Slow Pointers, Two Pointers | [C++](../problems/0442.md) | O(N) | O(1) |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String, Two Pointers | [C++](../problems/0557.md) | O(N) | O(1) |
+| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table, Two Pointers, Sorting | [C++](../problems/2441.md) | O(N) | O(N) |

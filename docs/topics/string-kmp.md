@@ -1,6 +1,6 @@
 # string-kmp
 
-| # | 題目 | 難度 | 標籤 | 時間 | 空間 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
-| 28 | [Find the Index of the First Occurrence in a String](../problems/0028.md) | 🟢 Easy | String, KMP | O(N*M) | O(1) |
-| 459 | [Repeated Substring Pattern](../problems/0459.md) | 🟢 Easy | String, KMP | O(N) | O(N) |
+| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String, KMP | [C++](../problems/0028.md) | O(N*M) | O(1) |
+| 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 Easy | String, KMP | [C++](../problems/0459.md) | O(N) | O(N) |

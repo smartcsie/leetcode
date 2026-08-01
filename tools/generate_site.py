@@ -203,6 +203,8 @@ def build_topic_indexes(problems, topics_out_dir):
                 topic_rows.setdefault(topic, []).append({
                     'number': problem['number'],
                     'title': problem['title'],
+                    'url': problem.get('url', ''),
+                    'file': sol.get('file', ''),
                     'difficulty': sol.get('difficulty', ''),
                     'tags': to_list(sol.get('tags')),
                     'time': sol.get('time', ''),
@@ -216,13 +218,15 @@ def build_topic_indexes(problems, topics_out_dir):
     for topic, rows in topic_rows.items():
         rows.sort(key=lambda r: r['number'])
         lines = [f"# {topic}", '',
-                 "| # | 題目 | 難度 | 標籤 | 時間 | 空間 |",
+                 "| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
                  "| --- | --- | --- | --- | --- | --- |"]
         for r in rows:
             tags_str = ', '.join(r['tags'])
-            link = f"../problems/{r['number']:04d}.md"
-            lines.append(f"| {r['number']} | [{r['title']}]({link}) | "
-                         f"{r['difficulty']} | {tags_str} | {r['time']} | {r['space']} |")
+            page_link = f"../problems/{r['number']:04d}.md"
+            title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
+            file_cell = f"[C++]({page_link})" if r['file'] else ''
+            lines.append(f"| {r['number']} | {title_cell} | "
+                         f"{r['difficulty']} | {tags_str} | {file_cell} | {r['time']} | {r['space']} |")
         with open(os.path.join(topics_out_dir, f"{topic}.md"), 'w', encoding='utf-8') as f:
             f.write('\n'.join(lines) + '\n')
 
@@ -238,6 +242,7 @@ def build_review_page(problems, docs_dir):
                 rows.append({
                     'number': problem['number'],
                     'title': problem['title'],
+                    'url': problem.get('url', ''),
                     'file': sol.get('file', ''),
                     'difficulty': sol.get('difficulty', ''),
                     'topics': ', '.join(to_list(sol.get('topics'))),
@@ -249,8 +254,10 @@ def build_review_page(problems, docs_dir):
              '| # | 題目 | 難度 | 解法檔案 | 分類 |',
              '| --- | --- | --- | --- | --- |']
     for r in rows:
-        link = f"problems/{r['number']:04d}.md"
-        lines.append(f"| {r['number']} | [{r['title']}]({link}) | {r['difficulty']} | {r['file']} | {r['topics']} |")
+        page_link = f"problems/{r['number']:04d}.md"
+        title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
+        file_cell = f"[C++]({page_link})" if r['file'] else ''
+        lines.append(f"| {r['number']} | {title_cell} | {r['difficulty']} | {file_cell} | {r['topics']} |")
 
     with open(os.path.join(docs_dir, 'review.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')

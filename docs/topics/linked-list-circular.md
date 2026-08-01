@@ -1,6 +1,6 @@
 # linked-list-circular
 
-| # | 題目 | 難度 | 標籤 | 時間 | 空間 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
-| 61 | [Rotate List](../problems/0061.md) | 🟡 Medium | Linked List, Two Pointers | O(N) | O(1) |
-| 141 | [Linked List Cycle](../problems/0141.md) | 🟢 Easy | Linked List, Fast-Slow Pointers | O(N) | O(1) |
+| 61 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 Medium | Linked List, Two Pointers | [C++](../problems/0061.md) | O(N) | O(1) |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Linked List, Fast-Slow Pointers | [C++](../problems/0141.md) | O(N) | O(1) |

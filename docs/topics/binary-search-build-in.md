@@ -1,11 +1,11 @@
 # binary-search-build-in
 
-| # | 題目 | 難度 | 標籤 | 時間 | 空間 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
-| 34 | [Find First and Last Position of Element in Sorted Array](../problems/0034.md) | 🟡 Medium | Binary Search | O(logN) | O(1) |
-| 35 | [Search Insert Position](../problems/0035.md) | 🟢 Easy | Binary Search | O(logN) | O(1) |
-| 744 | [Find Smallest Letter Greater Than Target](../problems/0744.md) | 🟢 Easy | Binary Search | O(logN) | O(1) |
-| 1170 | [Compare Strings by Frequency](../problems/1170.md) | 🟡 Medium | Sorting, Binary Search | O(NlogN+MlogN) | O(N) |
-| 1539 | [Kth Missing Positive Number](../problems/1539.md) | 🟢 Easy | Binary Search | O(logN) | O(1) |
-| 1818 | [Minimum Absolute Sum Difference](../problems/1818.md) | 🟡 Medium | Binary Search, Greedy | O(NlogN) | O(N) |
-| 2476 | [Closest Nodes Queries in a Binary Search Tree](../problems/2476.md) | 🟡 Medium | BST, Binary Search | O(N+QlogN) | O(N) |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 🟡 Medium | Binary Search | [C++](../problems/0034.md) | O(logN) | O(1) |
+| 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | Binary Search | [C++](../problems/0035.md) | O(logN) | O(1) |
+| 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | 🟢 Easy | Binary Search | [C++](../problems/0744.md) | O(logN) | O(1) |
+| 1170 | [Compare Strings by Frequency](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | 🟡 Medium | Sorting, Binary Search | [C++](../problems/1170.md) | O(NlogN+MlogN) | O(N) |
+| 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | 🟢 Easy | Binary Search | [C++](../problems/1539.md) | O(logN) | O(1) |
+| 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | Binary Search, Greedy | [C++](../problems/1818.md) | O(NlogN) | O(N) |
+| 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | 🟡 Medium | BST, Binary Search | [C++](../problems/2476.md) | O(N+QlogN) | O(N) |
