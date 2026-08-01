@@ -3328,32 +3328,237 @@
 
 
 <h1 id="hash-table-mapping">hash-table-mapping<a class="headerlink" href="#hash-table-mapping" title="Permanent link">&para;</a></h1>
-<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
-| 1 | <a href="https://leetcode.com/problems/two-sum/">Two Sum</a> | 🟢 Easy | Hash Table | <a href="../../problems/0001/">C++</a> | O(N) | O(N) |
-| 12 | <a href="https://leetcode.com/problems/integer-to-roman">Integer to Roman</a> | 🟡 Medium | Math, Hash Table, String | <a href="../../problems/0012/">C++</a> | O(1) | O(1) |
-| 13 | <a href="https://leetcode.com/problems/roman-to-integer">Roman to Integer</a> | 🟢 Easy | Hash Table, Math, String | <a href="../../problems/0013/">C++</a> | O(N) | O(1) |
-| 36 | <a href="https://leetcode.com/problems/valid-sudoku">Valid Sudoku</a> | 🟡 Medium | Array, Hash Table, Bitset | <a href="../../problems/0036/">C++</a> | O(1) | O(1) |
-| 128 | <a href="https://leetcode.com/problems/longest-consecutive-sequence/">Longest Consecutive Sequence</a> | 🟡 Medium | Array, Hash Table | <a href="../../problems/0128/">C++</a> | O(N) | O(N) |
-| 202 | <a href="https://leetcode.com/problems/happy-number">Happy Number</a> | 🟢 Easy | Hash Table, Fast-Slow Pointers | <a href="../../problems/0202/">C++</a> | O(logN) | O(1) |
-| 205 | <a href="https://leetcode.com/problems/isomorphic-strings">Isomorphic Strings</a> | 🟢 Easy | Hash Table, String | <a href="../../problems/0205/">C++</a> | O(N) | O(1) |
-| 242 | <a href="https://leetcode.com/problems/valid-anagram">Valid Anagram</a> | 🟢 Easy | Hash Table, String | <a href="../../problems/0242/">C++</a> | O(N) | O(1) |
-| 290 | <a href="https://leetcode.com/problems/word-pattern">Word Pattern</a> | 🟢 Easy | Hash Table, String | <a href="../../problems/0290/">C++</a> | O(N+M) | O(N+M) |
-| 383 | <a href="https://leetcode.com/problems/ransom-note">Ransom Note</a> | 🟢 Easy | Hash Table, String | <a href="../../problems/0383/">C++</a> | O(M+N) | O(1) |
-| 454 | <a href="https://leetcode.com/problems/4sum-ii">4Sum II</a> | 🟡 Medium | Hash Table | <a href="../../problems/0454/">C++</a> | O(N²) | O(N²) |
-| 804 | <a href="https://leetcode.com/problems/unique-morse-code-words/">Unique Morse Code Words</a> | 🟢 Easy | Hash Set | <a href="../../problems/0804/">C++</a> | O(S) | O(S) |
-| 884 | <a href="https://leetcode.com/problems/uncommon-words-from-two-sentences">Uncommon Words from Two Sentences</a> | 🟢 Easy | Hash Table | <a href="../../problems/0884/">C++</a> | O(N+M) | O(N+M) |
-| 1002 | <a href="https://leetcode.com/problems/find-common-characters">Find Common Characters</a> | 🟢 Easy | Array, Hash Table, String | <a href="../../problems/1002/">C++</a> | O(N<em>K) | O(1) |
-| 1309 | <a href="https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/">Decrypt String from Alphabet to Integer Mapping</a> | 🟢 Easy | Hash Table, String Parsing | <a href="../../problems/1309/">C++</a> | O(N) | O(1) |
-| 1436 | <a href="https://leetcode.com/problems/destination-city">Destination City</a> | 🟢 Easy | Hash Table, String | <a href="../../problems/1436/">C++</a> | O(N) | O(N) |
-| 1640 | <a href="https://leetcode.com/problems/check-array-formation-through-concatenation/">Check Array Formation Through Concatenation</a> | 🟢 Easy | Hash Map | <a href="../../problems/1640/">C++</a> | O(N) | O(N) |
-| 2133 | <a href="https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers">Check if Every Row and Column Contains All Numbers</a> | 🟢 Easy | Array, Hash Table, Bitset | <a href="../../problems/2133/">C++</a> | O(N²) | O(N) |
-| 2154 | <a href="https://leetcode.com/problems/keep-multiplying-found-values-by-two">Keep Multiplying Found Values by Two</a> | 🟢 Easy | Array, Hash Table, Simulation | <a href="../../problems/2154/">C++</a> | O(N) | O(N) |
-| 2342 | <a href="https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/">Max Sum of a Pair With Equal Sum of Digits</a> | 🟡 Medium | Hash Table, Math | <a href="../../problems/2342/">C++</a> | O(N</em>logM) | O(N) |
-| 2418 | <a href="https://leetcode.com/problems/sort-the-people">Sort the People</a> | 🟢 Easy | Array, Sorting, Hash Table | <a href="../../problems/2418/">C++</a> | O(NlogN) | O(N) |
-| 2441 | <a href="https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative">Largest Positive Integer That Exists With Its Negative</a> | 🟢 Easy | Hash Table, Two Pointers, Sorting | <a href="../../problems/2441/">C++</a> | O(N) | O(N) |
-| 3678 | <a href="https://leetcode.com/problems/smallest-absent-positive-greater-than-average/">Smallest Absent Positive Greater Than Average</a> | 🟢 Easy | Array, Hash Set | <a href="../../problems/3678/">C++</a> | O(N) | O(N) |
-| 3838 | <a href="https://leetcode.com/problems/weighted-word-mapping/">Weighted Word Mapping</a> | 🟢 Easy | Hash Mapping, Simulation | <a href="../../problems/3838/">C++</a> | O(N*L) | O(1) |</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://leetcode.com/problems/two-sum/">Two Sum</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table</td>
+<td><a href="../../problems/0001/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://leetcode.com/problems/integer-to-roman">Integer to Roman</a></td>
+<td>🟡 Medium</td>
+<td>Math, Hash Table, String</td>
+<td><a href="../../problems/0012/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://leetcode.com/problems/roman-to-integer">Roman to Integer</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table, Math, String</td>
+<td><a href="../../problems/0013/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>36</td>
+<td><a href="https://leetcode.com/problems/valid-sudoku">Valid Sudoku</a></td>
+<td>🟡 Medium</td>
+<td>Array, Hash Table, Bitset</td>
+<td><a href="../../problems/0036/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>128</td>
+<td><a href="https://leetcode.com/problems/longest-consecutive-sequence/">Longest Consecutive Sequence</a></td>
+<td>🟡 Medium</td>
+<td>Array, Hash Table</td>
+<td><a href="../../problems/0128/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>202</td>
+<td><a href="https://leetcode.com/problems/happy-number">Happy Number</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table, Fast-Slow Pointers</td>
+<td><a href="../../problems/0202/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>205</td>
+<td><a href="https://leetcode.com/problems/isomorphic-strings">Isomorphic Strings</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table, String</td>
+<td><a href="../../problems/0205/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>242</td>
+<td><a href="https://leetcode.com/problems/valid-anagram">Valid Anagram</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table, String</td>
+<td><a href="../../problems/0242/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>290</td>
+<td><a href="https://leetcode.com/problems/word-pattern">Word Pattern</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table, String</td>
+<td><a href="../../problems/0290/">C++</a></td>
+<td>O(N+M)</td>
+<td>O(N+M)</td>
+</tr>
+<tr>
+<td>383</td>
+<td><a href="https://leetcode.com/problems/ransom-note">Ransom Note</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table, String</td>
+<td><a href="../../problems/0383/">C++</a></td>
+<td>O(M+N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>454</td>
+<td><a href="https://leetcode.com/problems/4sum-ii">4Sum II</a></td>
+<td>🟡 Medium</td>
+<td>Hash Table</td>
+<td><a href="../../problems/0454/">C++</a></td>
+<td>O(N²)</td>
+<td>O(N²)</td>
+</tr>
+<tr>
+<td>804</td>
+<td><a href="https://leetcode.com/problems/unique-morse-code-words/">Unique Morse Code Words</a></td>
+<td>🟢 Easy</td>
+<td>Hash Set</td>
+<td><a href="../../problems/0804/">C++</a></td>
+<td>O(S)</td>
+<td>O(S)</td>
+</tr>
+<tr>
+<td>884</td>
+<td><a href="https://leetcode.com/problems/uncommon-words-from-two-sentences">Uncommon Words from Two Sentences</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table</td>
+<td><a href="../../problems/0884/">C++</a></td>
+<td>O(N+M)</td>
+<td>O(N+M)</td>
+</tr>
+<tr>
+<td>1002</td>
+<td><a href="https://leetcode.com/problems/find-common-characters">Find Common Characters</a></td>
+<td>🟢 Easy</td>
+<td>Array, Hash Table, String</td>
+<td><a href="../../problems/1002/">C++</a></td>
+<td>O(N*K)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1309</td>
+<td><a href="https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/">Decrypt String from Alphabet to Integer Mapping</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table, String Parsing</td>
+<td><a href="../../problems/1309/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1436</td>
+<td><a href="https://leetcode.com/problems/destination-city">Destination City</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table, String</td>
+<td><a href="../../problems/1436/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>1640</td>
+<td><a href="https://leetcode.com/problems/check-array-formation-through-concatenation/">Check Array Formation Through Concatenation</a></td>
+<td>🟢 Easy</td>
+<td>Hash Map</td>
+<td><a href="../../problems/1640/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>2133</td>
+<td><a href="https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers">Check if Every Row and Column Contains All Numbers</a></td>
+<td>🟢 Easy</td>
+<td>Array, Hash Table, Bitset</td>
+<td><a href="../../problems/2133/">C++</a></td>
+<td>O(N²)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>2154</td>
+<td><a href="https://leetcode.com/problems/keep-multiplying-found-values-by-two">Keep Multiplying Found Values by Two</a></td>
+<td>🟢 Easy</td>
+<td>Array, Hash Table, Simulation</td>
+<td><a href="../../problems/2154/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>2342</td>
+<td><a href="https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/">Max Sum of a Pair With Equal Sum of Digits</a></td>
+<td>🟡 Medium</td>
+<td>Hash Table, Math</td>
+<td><a href="../../problems/2342/">C++</a></td>
+<td>O(N*logM)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>2418</td>
+<td><a href="https://leetcode.com/problems/sort-the-people">Sort the People</a></td>
+<td>🟢 Easy</td>
+<td>Array, Sorting, Hash Table</td>
+<td><a href="../../problems/2418/">C++</a></td>
+<td>O(NlogN)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>2441</td>
+<td><a href="https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative">Largest Positive Integer That Exists With Its Negative</a></td>
+<td>🟢 Easy</td>
+<td>Hash Table, Two Pointers, Sorting</td>
+<td><a href="../../problems/2441/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>3678</td>
+<td><a href="https://leetcode.com/problems/smallest-absent-positive-greater-than-average/">Smallest Absent Positive Greater Than Average</a></td>
+<td>🟢 Easy</td>
+<td>Array, Hash Set</td>
+<td><a href="../../problems/3678/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>3838</td>
+<td><a href="https://leetcode.com/problems/weighted-word-mapping/">Weighted Word Mapping</a></td>
+<td>🟢 Easy</td>
+<td>Hash Mapping, Simulation</td>
+<td><a href="../../problems/3838/">C++</a></td>
+<td>O(N*L)</td>
+<td>O(1)</td>
+</tr>
+</tbody>
+</table>
 
 
 

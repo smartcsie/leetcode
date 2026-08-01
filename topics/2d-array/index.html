@@ -3328,24 +3328,165 @@
 
 
 <h1 id="2d-array">2d-array<a class="headerlink" href="#2d-array" title="Permanent link">&para;</a></h1>
-<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
-| 48 | <a href="https://leetcode.com/problems/rotate-image/">Rotate Image</a> | 🟡 Medium | Array | <a href="../../problems/0048/">C++</a> | O(N²) | O(1) |
-| 73 | <a href="https://leetcode.com/problems/set-matrix-zeroes">Set Matrix Zeroes</a> | 🟡 Medium | Array, Matrix | <a href="../../problems/0073/">C++</a> | O(M<em>N) | O(1) |
-| 832 | <a href="https://leetcode.com/problems/flipping-an-image/">Flipping an Image</a> | 🟢 Easy | Array, Two Pointers | <a href="../../problems/0832/">C++</a> | O(N</em>M) | O(1) |
-| 867 | <a href="https://leetcode.com/problems/transpose-matrix/">Transpose Matrix</a> | 🟢 Easy | Matrix | <a href="../../problems/0867/">C++</a> | O(M<em>N) | O(M</em>N) |
-| 1252 | <a href="https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/">Cells with Odd Values...</a> | 🟢 Easy | Array, Math | <a href="../../problems/1252/">C++</a> | O(K+MN) | O(M+N) |
-| 1260 | <a href="https://leetcode.com/problems/shift-2d-grid/">Shift 2D Grid</a> | 🟢 Easy | Array, Simulation | <a href="../../problems/1260/">C++</a> | O(M<em>N) | O(K) |
-| 1582 | <a href="https://leetcode.com/problems/special-positions-in-a-binary-matrix/">Special Positions in a Binary Matrix</a> | 🟢 Easy | Array, Matrix | <a href="../../problems/1582/">C++</a> | O(M</em>N) | O(M+N) |
-| 1779 | <a href="https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/">Find Nearest Point That Has the Same X or Y Coordinate</a> | 🟢 Easy | Array, Simulation, Manhattan Distance | <a href="../../problems/1779/">C++</a> | O(N) | O(1) |
-| 1886 | <a href="https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/">Determine Whether Matrix Can Be Obtained By Rotation</a> | 🟢 Easy | Array | <a href="../../problems/1886/">C++</a> | O(N²) | O(1) |
-| 2022 | <a href="https://leetcode.com/problems/convert-1d-array-into-2d-array">Convert 1D Array Into 2D Array</a> | 🟢 Easy | Array, Matrix, Simulation | <a href="../../problems/2022/">C++</a> | O(M<em>N) | O(1) |
-| 2319 | <a href="https://leetcode.com/problems/check-if-matrix-is-x-matrix/">Check if Matrix Is X-Matrix</a> | 🟢 Easy | Array, Matrix | <a href="../../problems/2319/">C++</a> | O(N²) | O(1) |
-| 2482 | <a href="https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/">Difference Between Ones and Zeros in Row and Column</a> | 🟡 Medium | Matrix, Prefix Sum, Precomputation | <a href="../../problems/2482/">C++</a> | O(M</em>N) | O(M+N) |
-| 2639 | <a href="https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/">Find the Width of Columns of a Grid</a> | 🟢 Easy | Array, Simulation | <a href="../../problems/2639/">C++</a> | O(M<em>N</em>D) | O(1)<em> |
-| 2923 | <a href="https://leetcode.com/problems/find-champion-i/">Find Champion I</a> | 🟢 Easy | Array, Math | <a href="../../problems/2923/">C++</a> | O(N²) | O(1) |
-| 3142 | <a href="https://leetcode.com/problems/check-if-grid-satisfies-conditions/">Check if Grid Satisfies Conditions</a> | 🟢 Easy | Simulation, Array | <a href="../../problems/3142/">C++</a> | O(M</em>N) | O(1) |
-| 3417 | <a href="https://leetcode.com/problems/zigzag-grid-traversal-with-skip/">Zigzag Grid Traversal With Skip</a> | 🟢 Easy | Simulation | <a href="../../problems/3417/">C++</a> | O(M<em>N) | O(M</em>N) |</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>48</td>
+<td><a href="https://leetcode.com/problems/rotate-image/">Rotate Image</a></td>
+<td>🟡 Medium</td>
+<td>Array</td>
+<td><a href="../../problems/0048/">C++</a></td>
+<td>O(N²)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>73</td>
+<td><a href="https://leetcode.com/problems/set-matrix-zeroes">Set Matrix Zeroes</a></td>
+<td>🟡 Medium</td>
+<td>Array, Matrix</td>
+<td><a href="../../problems/0073/">C++</a></td>
+<td>O(M*N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>832</td>
+<td><a href="https://leetcode.com/problems/flipping-an-image/">Flipping an Image</a></td>
+<td>🟢 Easy</td>
+<td>Array, Two Pointers</td>
+<td><a href="../../problems/0832/">C++</a></td>
+<td>O(N*M)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>867</td>
+<td><a href="https://leetcode.com/problems/transpose-matrix/">Transpose Matrix</a></td>
+<td>🟢 Easy</td>
+<td>Matrix</td>
+<td><a href="../../problems/0867/">C++</a></td>
+<td>O(M*N)</td>
+<td>O(M*N)</td>
+</tr>
+<tr>
+<td>1252</td>
+<td><a href="https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/">Cells with Odd Values...</a></td>
+<td>🟢 Easy</td>
+<td>Array, Math</td>
+<td><a href="../../problems/1252/">C++</a></td>
+<td>O(K+MN)</td>
+<td>O(M+N)</td>
+</tr>
+<tr>
+<td>1260</td>
+<td><a href="https://leetcode.com/problems/shift-2d-grid/">Shift 2D Grid</a></td>
+<td>🟢 Easy</td>
+<td>Array, Simulation</td>
+<td><a href="../../problems/1260/">C++</a></td>
+<td>O(M*N)</td>
+<td>O(K)</td>
+</tr>
+<tr>
+<td>1582</td>
+<td><a href="https://leetcode.com/problems/special-positions-in-a-binary-matrix/">Special Positions in a Binary Matrix</a></td>
+<td>🟢 Easy</td>
+<td>Array, Matrix</td>
+<td><a href="../../problems/1582/">C++</a></td>
+<td>O(M*N)</td>
+<td>O(M+N)</td>
+</tr>
+<tr>
+<td>1779</td>
+<td><a href="https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/">Find Nearest Point That Has the Same X or Y Coordinate</a></td>
+<td>🟢 Easy</td>
+<td>Array, Simulation, Manhattan Distance</td>
+<td><a href="../../problems/1779/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1886</td>
+<td><a href="https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/">Determine Whether Matrix Can Be Obtained By Rotation</a></td>
+<td>🟢 Easy</td>
+<td>Array</td>
+<td><a href="../../problems/1886/">C++</a></td>
+<td>O(N²)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2022</td>
+<td><a href="https://leetcode.com/problems/convert-1d-array-into-2d-array">Convert 1D Array Into 2D Array</a></td>
+<td>🟢 Easy</td>
+<td>Array, Matrix, Simulation</td>
+<td><a href="../../problems/2022/">C++</a></td>
+<td>O(M*N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2319</td>
+<td><a href="https://leetcode.com/problems/check-if-matrix-is-x-matrix/">Check if Matrix Is X-Matrix</a></td>
+<td>🟢 Easy</td>
+<td>Array, Matrix</td>
+<td><a href="../../problems/2319/">C++</a></td>
+<td>O(N²)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2482</td>
+<td><a href="https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/">Difference Between Ones and Zeros in Row and Column</a></td>
+<td>🟡 Medium</td>
+<td>Matrix, Prefix Sum, Precomputation</td>
+<td><a href="../../problems/2482/">C++</a></td>
+<td>O(M*N)</td>
+<td>O(M+N)</td>
+</tr>
+<tr>
+<td>2639</td>
+<td><a href="https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/">Find the Width of Columns of a Grid</a></td>
+<td>🟢 Easy</td>
+<td>Array, Simulation</td>
+<td><a href="../../problems/2639/">C++</a></td>
+<td>O(M<em>N</em>D)</td>
+<td>O(1)*</td>
+</tr>
+<tr>
+<td>2923</td>
+<td><a href="https://leetcode.com/problems/find-champion-i/">Find Champion I</a></td>
+<td>🟢 Easy</td>
+<td>Array, Math</td>
+<td><a href="../../problems/2923/">C++</a></td>
+<td>O(N²)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3142</td>
+<td><a href="https://leetcode.com/problems/check-if-grid-satisfies-conditions/">Check if Grid Satisfies Conditions</a></td>
+<td>🟢 Easy</td>
+<td>Simulation, Array</td>
+<td><a href="../../problems/3142/">C++</a></td>
+<td>O(M*N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3417</td>
+<td><a href="https://leetcode.com/problems/zigzag-grid-traversal-with-skip/">Zigzag Grid Traversal With Skip</a></td>
+<td>🟢 Easy</td>
+<td>Simulation</td>
+<td><a href="../../problems/3417/">C++</a></td>
+<td>O(M*N)</td>
+<td>O(M*N)</td>
+</tr>
+</tbody>
+</table>
 
 
 

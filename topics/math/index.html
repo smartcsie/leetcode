@@ -3328,56 +3328,453 @@
 
 
 <h1 id="math">math<a class="headerlink" href="#math" title="Permanent link">&para;</a></h1>
-<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
-| 50 | <a href="https://leetcode.com/problems/powx-n">Pow(x, n)</a> | 🟡 Medium | Math, Binary Exponentiation | <a href="../../problems/0050/">C++</a> | O(logN) | O(1) |
-| 60 | <a href="https://leetcode.com/problems/permutation-sequence/">Permutation Sequence</a> | 🟡 Medium | Math, Factorial | <a href="../../problems/0060/">C++</a> | O(N²) | O(N) |
-| 66 | <a href="https://leetcode.com/problems/plus-one/">Plus One</a> | 🟢 Easy | Math | <a href="../../problems/0066/">C++</a> | O(N) | O(1) |
-| 137 | <a href="https://leetcode.com/problems/single-number-ii">Single Number II</a> | 🟡 Medium | Math, Hash Set | <a href="../../problems/0137/">C++</a> | O(N) | O(N) |
-| 172 | <a href="https://leetcode.com/problems/factorial-trailing-zeroes">Factorial Trailing Zeroes</a> | 🟡 Medium | Math | <a href="../../problems/0172/">C++</a> | O(log₅N) | O(1) |
-| 231 | <a href="https://leetcode.com/problems/power-of-two/">Power of Two</a> | 🟢 Easy | Math | <a href="../../problems/0231/">C++</a> | O(1) | O(1) |
-| 258 | <a href="https://leetcode.com/problems/add-digits">Add Digits</a> | 🟢 Easy | Math | <a href="../../problems/0258/">C++</a> | O(1) | O(1) |
-| 263 | <a href="https://leetcode.com/problems/ugly-number">Ugly Number</a> | 🟢 Easy | Math | <a href="../../problems/0263/">C++</a> | O(logN) | O(1) |
-| 268 | <a href="https://leetcode.com/problems/missing-number">Missing Number</a> | 🟢 Easy | Math | <a href="../../problems/0268/">C++</a> | O(N) | O(1) |
-| 326 | <a href="https://leetcode.com/problems/power-of-three/">Power of Three</a> | 🟢 Easy | Math | <a href="../../problems/0326/">C++</a> | O(log₃N) | O(1) |
-| 342 | <a href="https://leetcode.com/problems/power-of-four/">Power of Four</a> | 🟢 Easy | Math | <a href="../../problems/0342/">C++</a> | O(1) | O(1) |
-| 396 | <a href="https://leetcode.com/problems/rotate-function/">Rotate Function</a> | 🟡 Medium | Math, Array | <a href="../../problems/0396/">C++</a> | O(N) | O(1) |
-| 412 | <a href="https://leetcode.com/problems/fizz-buzz/">Fizz Buzz</a> | 🟢 Easy | Math, String | <a href="../../problems/0412/">C++</a> | O(N) | O(1)<em> |
-| 441 | <a href="https://leetcode.com/problems/arranging-coins/">Arranging Coins</a> | 🟢 Easy | Math, Binary Search | <a href="../../problems/0441/">C++</a> | O(logN) | O(1) |
-| 628 | <a href="https://leetcode.com/problems/maximum-product-of-three-numbers">Maximum Product of Three Numbers</a> | 🟢 Easy | Array, Math | <a href="../../problems/0628/">C++</a> | O(N) | O(1) |
-| 633 | <a href="https://leetcode.com/problems/sum-of-square-numbers/">Sum of Square Numbers</a> | 🟡 Medium | Math, Two Pointers | <a href="../../problems/0633/">C++</a> | O(√C) | O(1) |
-| 970 | <a href="https://leetcode.com/problems/powerful-integers/">Powerful Integers</a> | 🟡 Medium | Math, Hash Table | <a href="../../problems/0970/">C++</a> | O(log_X(BOUND)</em>log_Y(BOUND)) | O(S) |
-| 1015 | <a href="https://leetcode.com/problems/smallest-integer-divisible-by-k/">Smallest Integer Divisible by K</a> | 🟡 Medium | Modular Arithmetic | <a href="../../problems/1015/">C++</a> | O(K) | O(1) |
-| 1018 | <a href="https://leetcode.com/problems/binary-prefix-divisible-by-5/">Binary Prefix Divisible By 5</a> | 🟢 Easy | Math, Modulo | <a href="../../problems/1018/">C++</a> | O(N) | O(1) |
-| 1185 | <a href="https://leetcode.com/problems/day-of-the-week/">Day of the Week</a> | 🟢 Easy | Math, Zeller's Congruence | <a href="../../problems/1185/">C++</a> | O(1) | O(1) |
-| 1247 | <a href="https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/">Minimum Swaps to Make Strings Equal</a> | 🟡 Medium | Greedy, Math, String | <a href="../../problems/1247/">C++</a> | O(N) | O(1) |
-| 1295 | <a href="https://leetcode.com/problems/find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a> | 🟢 Easy | Array, Math | <a href="../../problems/1295/">C++</a> | O(N) | O(1) |
-| 1344 | <a href="https://leetcode.com/problems/angle-between-hands-of-a-clock/">Angle Between Hands of a Clock</a> | 🟡 Medium | Math | <a href="../../problems/1344/">C++</a> | O(1) | O(1) |
-| 1374 | <a href="https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/">Generate a String With Characters That Have Odd Counts</a> | 🟢 Easy | Math, Construction | <a href="../../problems/1374/">C++</a> | O(N) | O(N) |
-| 1375 | <a href="https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/">Number of Times Binary String Is Prefix-Aligned</a> | 🟡 Medium | Array, Simulation, Greedy | <a href="../../problems/1375/">C++</a> | O(N) | O(1) |
-| 1523 | <a href="https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/">Count Odd Numbers in an Interval Range</a> | 🟢 Easy | Math | <a href="../../problems/1523/">C++</a> | O(1) | O(1) |
-| 1572 | <a href="https://leetcode.com/problems/matrix-diagonal-sum">Matrix Diagonal Sum</a> | 🟢 Easy | Matrix | <a href="../../problems/1572/">C++</a> | O(N) | O(1) |
-| 1780 | <a href="https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/">Check if Number is a Sum of Powers of Three</a> | 🟡 Medium | Math, Base-3 | <a href="../../problems/1780/">C++</a> | O(log₃N) | O(1) |
-| 1822 | <a href="https://leetcode.com/problems/sign-of-the-product-of-an-array">Sign of the Product of an Array</a> | 🟢 Easy | Array, Math | <a href="../../problems/1822/">C++</a> | O(N) | O(1) |
-| 1925 | <a href="https://leetcode.com/problems/count-square-sum-triples/">Count Square Sum Triples</a> | 🟢 Easy | Math, Brute Force | <a href="../../problems/1925/">C++</a> | O(N²) | O(1) |
-| 1952 | <a href="https://leetcode.com/problems/three-divisors">Three Divisors</a> | 🟢 Easy | Math | <a href="../../problems/1952/">C++</a> | O(√N) | O(1) |
-| 1980 | <a href="https://leetcode.com/problems/find-unique-binary-string">Find Unique Binary String</a> | 🟡 Medium | Math, String | <a href="../../problems/1980/">C++</a> | O(N²) | O(N) |
-| 2063 | <a href="https://leetcode.com/problems/vowels-of-all-substrings/">Vowels of All Substrings</a> | 🟡 Medium | Math, Contribution Technique | <a href="../../problems/2063/">C++</a> | O(N) | O(1) |
-| 2119 | <a href="https://leetcode.com/problems/a-number-after-a-double-reversal/">A Number After a Double Reversal</a> | 🟢 Easy | Math | <a href="../../problems/2119/">C++</a> | O(1) | O(1) |
-| 2177 | <a href="https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number">Find Three Consecutive Integers That Sum to a Given Number</a> | 🟡 Medium | Math | <a href="../../problems/2177/">C++</a> | O(1) | O(1) |
-| 2310 | <a href="https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/">Sum of Numbers With Units Digit K</a> | 🟡 Medium | Math, Enumeration | <a href="../../problems/2310/">C++</a> | O(10) | O(1) |
-| 2413 | <a href="https://leetcode.com/problems/smallest-even-multiple/">Smallest Even Multiple</a> | 🟢 Easy | Math | <a href="../../problems/2413/">C++</a> | O(1) | O(1) |
-| 2455 | <a href="https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/">Average Value of Even Numbers That Are Divisible by Three</a> | 🟢 Easy | Math, Array | <a href="../../problems/2455/">C++</a> | O(N) | O(1) |
-| 2469 | <a href="https://leetcode.com/problems/convert-the-temperature/">Convert the Temperature</a> | 🟢 Easy | Math | <a href="../../problems/2469/">C++</a> | O(1) | O(1) |
-| 2485 | <a href="https://leetcode.com/problems/pivot-integer/">Find the Pivot Integer</a> | 🟢 Easy | Math | <a href="../../problems/2485/">C++</a> | O(1) | O(1) |
-| 2600 | <a href="https://leetcode.com/problems/k-items-with-the-maximum-sum/">K Items With the Maximum Sum</a> | 🟢 Easy | Math, Greedy | <a href="../../problems/2600/">C++</a> | O(1) | O(1) |
-| 2652 | <a href="https://leetcode.com/problems/sum-multiples/">Sum Multiples</a> | 🟢 Easy | Math, Brute Force | <a href="../../problems/2652/">C++</a> | O(N) | O(1) |
-| 2894 | <a href="https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/">Divisible and Non-divisible Sums Difference</a> | 🟢 Easy | Math, Arithmetic Progression | <a href="../../problems/2894/">C++</a> | O(1) | O(1) |
-| 3131 | <a href="https://leetcode.com/problems/find-the-integer-added-to-array-i/">Find the Integer Added to Array I</a> | 🟢 Easy | Math, Array | <a href="../../problems/3131/">C++</a> | O(N) | O(1) |
-| 3162 | <a href="https://leetcode.com/problems/find-the-number-of-good-pairs-i/">Find the Number of Good Pairs I</a> | 🟢 Easy | Array, Math, Brute Force | <a href="../../problems/3162/">C++</a> | O(N*M) | O(1) |
-| 3512 | <a href="https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/">Minimum Operations to Make Array Sum Divisible by K</a> | 🟢 Easy | Math | <a href="../../problems/3512/">C++</a> | O(N) | O(1) |
-| 3658 | <a href="https://leetcode.com/problems/gcd-of-odd-and-even-sums">GCD of Odd and Even Sums</a> | 🟢 Easy | Math | <a href="../../problems/3658/">C++</a> | O(1) | O(1) |
-| 3701 | <a href="https://leetcode.com/problems/compute-alternating-sum/">Compute Alternating Sum</a> | 🟢 Easy | Array, Math | <a href="../../problems/3701/">C++</a> | O(N) | O(1) |</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>50</td>
+<td><a href="https://leetcode.com/problems/powx-n">Pow(x, n)</a></td>
+<td>🟡 Medium</td>
+<td>Math, Binary Exponentiation</td>
+<td><a href="../../problems/0050/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>60</td>
+<td><a href="https://leetcode.com/problems/permutation-sequence/">Permutation Sequence</a></td>
+<td>🟡 Medium</td>
+<td>Math, Factorial</td>
+<td><a href="../../problems/0060/">C++</a></td>
+<td>O(N²)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>66</td>
+<td><a href="https://leetcode.com/problems/plus-one/">Plus One</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/0066/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>137</td>
+<td><a href="https://leetcode.com/problems/single-number-ii">Single Number II</a></td>
+<td>🟡 Medium</td>
+<td>Math, Hash Set</td>
+<td><a href="../../problems/0137/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>172</td>
+<td><a href="https://leetcode.com/problems/factorial-trailing-zeroes">Factorial Trailing Zeroes</a></td>
+<td>🟡 Medium</td>
+<td>Math</td>
+<td><a href="../../problems/0172/">C++</a></td>
+<td>O(log₅N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>231</td>
+<td><a href="https://leetcode.com/problems/power-of-two/">Power of Two</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/0231/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>258</td>
+<td><a href="https://leetcode.com/problems/add-digits">Add Digits</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/0258/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>263</td>
+<td><a href="https://leetcode.com/problems/ugly-number">Ugly Number</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/0263/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>268</td>
+<td><a href="https://leetcode.com/problems/missing-number">Missing Number</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/0268/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>326</td>
+<td><a href="https://leetcode.com/problems/power-of-three/">Power of Three</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/0326/">C++</a></td>
+<td>O(log₃N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>342</td>
+<td><a href="https://leetcode.com/problems/power-of-four/">Power of Four</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/0342/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>396</td>
+<td><a href="https://leetcode.com/problems/rotate-function/">Rotate Function</a></td>
+<td>🟡 Medium</td>
+<td>Math, Array</td>
+<td><a href="../../problems/0396/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>412</td>
+<td><a href="https://leetcode.com/problems/fizz-buzz/">Fizz Buzz</a></td>
+<td>🟢 Easy</td>
+<td>Math, String</td>
+<td><a href="../../problems/0412/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)*</td>
+</tr>
+<tr>
+<td>441</td>
+<td><a href="https://leetcode.com/problems/arranging-coins/">Arranging Coins</a></td>
+<td>🟢 Easy</td>
+<td>Math, Binary Search</td>
+<td><a href="../../problems/0441/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>628</td>
+<td><a href="https://leetcode.com/problems/maximum-product-of-three-numbers">Maximum Product of Three Numbers</a></td>
+<td>🟢 Easy</td>
+<td>Array, Math</td>
+<td><a href="../../problems/0628/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>633</td>
+<td><a href="https://leetcode.com/problems/sum-of-square-numbers/">Sum of Square Numbers</a></td>
+<td>🟡 Medium</td>
+<td>Math, Two Pointers</td>
+<td><a href="../../problems/0633/">C++</a></td>
+<td>O(√C)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>970</td>
+<td><a href="https://leetcode.com/problems/powerful-integers/">Powerful Integers</a></td>
+<td>🟡 Medium</td>
+<td>Math, Hash Table</td>
+<td><a href="../../problems/0970/">C++</a></td>
+<td>O(log_X(BOUND)*log_Y(BOUND))</td>
+<td>O(S)</td>
+</tr>
+<tr>
+<td>1015</td>
+<td><a href="https://leetcode.com/problems/smallest-integer-divisible-by-k/">Smallest Integer Divisible by K</a></td>
+<td>🟡 Medium</td>
+<td>Modular Arithmetic</td>
+<td><a href="../../problems/1015/">C++</a></td>
+<td>O(K)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1018</td>
+<td><a href="https://leetcode.com/problems/binary-prefix-divisible-by-5/">Binary Prefix Divisible By 5</a></td>
+<td>🟢 Easy</td>
+<td>Math, Modulo</td>
+<td><a href="../../problems/1018/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1185</td>
+<td><a href="https://leetcode.com/problems/day-of-the-week/">Day of the Week</a></td>
+<td>🟢 Easy</td>
+<td>Math, Zeller's Congruence</td>
+<td><a href="../../problems/1185/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1247</td>
+<td><a href="https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/">Minimum Swaps to Make Strings Equal</a></td>
+<td>🟡 Medium</td>
+<td>Greedy, Math, String</td>
+<td><a href="../../problems/1247/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1295</td>
+<td><a href="https://leetcode.com/problems/find-numbers-with-even-number-of-digits">Find Numbers with Even Number of Digits</a></td>
+<td>🟢 Easy</td>
+<td>Array, Math</td>
+<td><a href="../../problems/1295/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1344</td>
+<td><a href="https://leetcode.com/problems/angle-between-hands-of-a-clock/">Angle Between Hands of a Clock</a></td>
+<td>🟡 Medium</td>
+<td>Math</td>
+<td><a href="../../problems/1344/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1374</td>
+<td><a href="https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/">Generate a String With Characters That Have Odd Counts</a></td>
+<td>🟢 Easy</td>
+<td>Math, Construction</td>
+<td><a href="../../problems/1374/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>1375</td>
+<td><a href="https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/">Number of Times Binary String Is Prefix-Aligned</a></td>
+<td>🟡 Medium</td>
+<td>Array, Simulation, Greedy</td>
+<td><a href="../../problems/1375/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1523</td>
+<td><a href="https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/">Count Odd Numbers in an Interval Range</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/1523/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1572</td>
+<td><a href="https://leetcode.com/problems/matrix-diagonal-sum">Matrix Diagonal Sum</a></td>
+<td>🟢 Easy</td>
+<td>Matrix</td>
+<td><a href="../../problems/1572/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1780</td>
+<td><a href="https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/">Check if Number is a Sum of Powers of Three</a></td>
+<td>🟡 Medium</td>
+<td>Math, Base-3</td>
+<td><a href="../../problems/1780/">C++</a></td>
+<td>O(log₃N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1822</td>
+<td><a href="https://leetcode.com/problems/sign-of-the-product-of-an-array">Sign of the Product of an Array</a></td>
+<td>🟢 Easy</td>
+<td>Array, Math</td>
+<td><a href="../../problems/1822/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1925</td>
+<td><a href="https://leetcode.com/problems/count-square-sum-triples/">Count Square Sum Triples</a></td>
+<td>🟢 Easy</td>
+<td>Math, Brute Force</td>
+<td><a href="../../problems/1925/">C++</a></td>
+<td>O(N²)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1952</td>
+<td><a href="https://leetcode.com/problems/three-divisors">Three Divisors</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/1952/">C++</a></td>
+<td>O(√N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1980</td>
+<td><a href="https://leetcode.com/problems/find-unique-binary-string">Find Unique Binary String</a></td>
+<td>🟡 Medium</td>
+<td>Math, String</td>
+<td><a href="../../problems/1980/">C++</a></td>
+<td>O(N²)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>2063</td>
+<td><a href="https://leetcode.com/problems/vowels-of-all-substrings/">Vowels of All Substrings</a></td>
+<td>🟡 Medium</td>
+<td>Math, Contribution Technique</td>
+<td><a href="../../problems/2063/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2119</td>
+<td><a href="https://leetcode.com/problems/a-number-after-a-double-reversal/">A Number After a Double Reversal</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/2119/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2177</td>
+<td><a href="https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number">Find Three Consecutive Integers That Sum to a Given Number</a></td>
+<td>🟡 Medium</td>
+<td>Math</td>
+<td><a href="../../problems/2177/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2310</td>
+<td><a href="https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/">Sum of Numbers With Units Digit K</a></td>
+<td>🟡 Medium</td>
+<td>Math, Enumeration</td>
+<td><a href="../../problems/2310/">C++</a></td>
+<td>O(10)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2413</td>
+<td><a href="https://leetcode.com/problems/smallest-even-multiple/">Smallest Even Multiple</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/2413/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2455</td>
+<td><a href="https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/">Average Value of Even Numbers That Are Divisible by Three</a></td>
+<td>🟢 Easy</td>
+<td>Math, Array</td>
+<td><a href="../../problems/2455/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2469</td>
+<td><a href="https://leetcode.com/problems/convert-the-temperature/">Convert the Temperature</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/2469/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2485</td>
+<td><a href="https://leetcode.com/problems/pivot-integer/">Find the Pivot Integer</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/2485/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2600</td>
+<td><a href="https://leetcode.com/problems/k-items-with-the-maximum-sum/">K Items With the Maximum Sum</a></td>
+<td>🟢 Easy</td>
+<td>Math, Greedy</td>
+<td><a href="../../problems/2600/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2652</td>
+<td><a href="https://leetcode.com/problems/sum-multiples/">Sum Multiples</a></td>
+<td>🟢 Easy</td>
+<td>Math, Brute Force</td>
+<td><a href="../../problems/2652/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2894</td>
+<td><a href="https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/">Divisible and Non-divisible Sums Difference</a></td>
+<td>🟢 Easy</td>
+<td>Math, Arithmetic Progression</td>
+<td><a href="../../problems/2894/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3131</td>
+<td><a href="https://leetcode.com/problems/find-the-integer-added-to-array-i/">Find the Integer Added to Array I</a></td>
+<td>🟢 Easy</td>
+<td>Math, Array</td>
+<td><a href="../../problems/3131/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3162</td>
+<td><a href="https://leetcode.com/problems/find-the-number-of-good-pairs-i/">Find the Number of Good Pairs I</a></td>
+<td>🟢 Easy</td>
+<td>Array, Math, Brute Force</td>
+<td><a href="../../problems/3162/">C++</a></td>
+<td>O(N*M)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3512</td>
+<td><a href="https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/">Minimum Operations to Make Array Sum Divisible by K</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/3512/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3658</td>
+<td><a href="https://leetcode.com/problems/gcd-of-odd-and-even-sums">GCD of Odd and Even Sums</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/3658/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3701</td>
+<td><a href="https://leetcode.com/problems/compute-alternating-sum/">Compute Alternating Sum</a></td>
+<td>🟢 Easy</td>
+<td>Array, Math</td>
+<td><a href="../../problems/3701/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+</tbody>
+</table>
 
 
 

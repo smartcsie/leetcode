@@ -3328,28 +3328,201 @@
 
 
 <h1 id="array-linear-scan">array-linear-scan<a class="headerlink" href="#array-linear-scan" title="Permanent link">&para;</a></h1>
-<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
-| 414 | <a href="https://leetcode.com/problems/third-maximum-number/">Third Maximum Number</a> | 🟢 Easy | Array | <a href="../../problems/0414/">C++</a> | O(N) | O(1) |
-| 581 | <a href="https://leetcode.com/problems/shortest-unsorted-continuous-subarray/">Shortest Unsorted Continuous Subarray</a> | 🟡 Medium | Array, Sorting, Two Pointers | <a href="../../problems/0581/">C++</a> | O(NlogN) | O(N) |
-| 747 | <a href="https://leetcode.com/problems/largest-number-at-least-twice-of-others/">Largest Number At Least Twice of Others</a> | 🟢 Easy | Array Linear Scan, Linear Scan | <a href="../../problems/0747/">C++</a> | O(N) | O(1) |
-| 1013 | <a href="https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/">Partition Array Into Three Parts With Equal Sum</a> | 🟢 Easy | Array, Prefix Sum, Greedy | <a href="../../problems/1013/">C++</a> | O(N) | O(1) |
-| 1422 | <a href="https://leetcode.com/problems/maximum-score-after-splitting-a-string/">Maximum Score After Splitting a String</a> | 🟢 Easy | Array Linear Scan | <a href="../../problems/1422/">C++</a> | O(N) - 先使用 std::count 花費 O(N) 計算總 1 數量，接著用單一迴圈花費 O(N) 掃描分割點。 | O(1) - 僅使用常數個變數（zeros, ones, ans）來追蹤狀態，不需額外配置動態記憶體。 |
-| 1431 | <a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/">Kids With the Greatest Number of Candies</a> | 🟢 Easy | Array | <a href="../../problems/1431/">C++</a> | O(N) | O(1)<em> |
-| 1437 | <a href="https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/">Check If All 1's Are at Least Length K Places Away</a> | 🟢 Easy | Array, Simulation | <a href="../../problems/1437/">C++</a> | O(N) | O(1) |
-| 1464 | <a href="https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/">Maximum Product of Two Elements in an Array</a> | 🟢 Easy | Array, Simulation, Greedy | <a href="../../problems/1464/">C++</a> | O(N) | O(1) |
-| 1608 | <a href="https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/">Special Array With X Elements Greater Than or Equal X</a> | 🟢 Easy | Brute Force, Simulation | <a href="../../problems/1608/">C++</a> | O(N²) | O(1) |
-| 1614 | <a href="https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/">Maximum Nesting Depth of the Parentheses</a> | 🟢 Easy | String, Stack, Simulation | <a href="../../problems/1614/">C++</a> | O(N) | O(1) |
-| 1848 | <a href="https://leetcode.com/problems/minimum-distance-to-the-target-element/">Minimum Distance to the Target Element</a> | 🟢 Easy | Array, Simulation | <a href="../../problems/1848/">C++</a> | O(N) | O(1) |
-| 2057 | <a href="https://leetcode.com/problems/smallest-index-with-equal-value/">Smallest Index With Equal Value</a> | 🟢 Easy | Array | <a href="../../problems/2057/">C++</a> | O(N) | O(1) |
-| 2176 | <a href="https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/">Count Equal and Divisible Pairs in an Array</a> | 🟢 Easy | Array Linear Scan | <a href="../../problems/2176/">C++</a> | O(N^2) - 使用雙重迴圈遍歷所有可能的索引對 (i, j)，在資料規模較小（通常 N &lt;= 100）時能高效執行。 | O(1) - 僅使用常數個變數來記錄計數與迴圈索引，不需額外配置動態記憶體。 |
-| 2239 | <a href="https://leetcode.com/problems/find-closest-number-to-zero">Find Closest Number to Zero</a> | 🟢 Easy | Array | <a href="../../problems/2239/">C++</a> | O(N) | O(1) |
-| 2264 | <a href="https://leetcode.com/problems/largest-3-same-digit-number-in-string/">Largest 3-Same-Digit Number in String</a> | 🟢 Easy | Array Linear Scan, String | <a href="../../problems/2264/">C++</a> | O(N) | O(1) |
-| 2643 | <a href="https://leetcode.com/problems/row-with-maximum-ones/">Row With Maximum Ones</a> | 🟢 Easy | Matrix, Linear Scan | <a href="../../problems/2643/">C++</a> | O(M</em>N) | O(1) |
-| 2733 | <a href="https://leetcode.com/problems/neither-minimum-nor-maximum/">Neither Minimum nor Maximum</a> | 🟢 Easy | Math, Array | <a href="../../problems/2733/">C++</a> | O(N) | O(1) |
-| 2974 | <a href="https://leetcode.com/problems/minimum-number-game/">Minimum Number Game</a> | 🟢 Easy | Array Linear Scan | <a href="../../problems/2974/">C++</a> | O(N) - 計算所有元素和，生成交替奇偶數列。 | O(N) - 結果陣列大小為 N。 |
-| 3168 | <a href="https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/">Minimum Number of Chairs</a> | 🟢 Easy | Simulation | <a href="../../problems/3168/">C++</a> | O(N) | O(1) |
-| 3861 | <a href="https://leetcode.com/problems/minimum-capacity-box/">Minimum Capacity Box</a> | 🟢 Easy | Array, Linear Search | <a href="../../problems/3861/">C++</a> | O(N) | O(1) |</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>414</td>
+<td><a href="https://leetcode.com/problems/third-maximum-number/">Third Maximum Number</a></td>
+<td>🟢 Easy</td>
+<td>Array</td>
+<td><a href="../../problems/0414/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>581</td>
+<td><a href="https://leetcode.com/problems/shortest-unsorted-continuous-subarray/">Shortest Unsorted Continuous Subarray</a></td>
+<td>🟡 Medium</td>
+<td>Array, Sorting, Two Pointers</td>
+<td><a href="../../problems/0581/">C++</a></td>
+<td>O(NlogN)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>747</td>
+<td><a href="https://leetcode.com/problems/largest-number-at-least-twice-of-others/">Largest Number At Least Twice of Others</a></td>
+<td>🟢 Easy</td>
+<td>Array Linear Scan, Linear Scan</td>
+<td><a href="../../problems/0747/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1013</td>
+<td><a href="https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/">Partition Array Into Three Parts With Equal Sum</a></td>
+<td>🟢 Easy</td>
+<td>Array, Prefix Sum, Greedy</td>
+<td><a href="../../problems/1013/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1422</td>
+<td><a href="https://leetcode.com/problems/maximum-score-after-splitting-a-string/">Maximum Score After Splitting a String</a></td>
+<td>🟢 Easy</td>
+<td>Array Linear Scan</td>
+<td><a href="../../problems/1422/">C++</a></td>
+<td>O(N) - 先使用 std::count 花費 O(N) 計算總 1 數量，接著用單一迴圈花費 O(N) 掃描分割點。</td>
+<td>O(1) - 僅使用常數個變數（zeros, ones, ans）來追蹤狀態，不需額外配置動態記憶體。</td>
+</tr>
+<tr>
+<td>1431</td>
+<td><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/">Kids With the Greatest Number of Candies</a></td>
+<td>🟢 Easy</td>
+<td>Array</td>
+<td><a href="../../problems/1431/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)*</td>
+</tr>
+<tr>
+<td>1437</td>
+<td><a href="https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/">Check If All 1's Are at Least Length K Places Away</a></td>
+<td>🟢 Easy</td>
+<td>Array, Simulation</td>
+<td><a href="../../problems/1437/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1464</td>
+<td><a href="https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/">Maximum Product of Two Elements in an Array</a></td>
+<td>🟢 Easy</td>
+<td>Array, Simulation, Greedy</td>
+<td><a href="../../problems/1464/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1608</td>
+<td><a href="https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/">Special Array With X Elements Greater Than or Equal X</a></td>
+<td>🟢 Easy</td>
+<td>Brute Force, Simulation</td>
+<td><a href="../../problems/1608/">C++</a></td>
+<td>O(N²)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1614</td>
+<td><a href="https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/">Maximum Nesting Depth of the Parentheses</a></td>
+<td>🟢 Easy</td>
+<td>String, Stack, Simulation</td>
+<td><a href="../../problems/1614/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1848</td>
+<td><a href="https://leetcode.com/problems/minimum-distance-to-the-target-element/">Minimum Distance to the Target Element</a></td>
+<td>🟢 Easy</td>
+<td>Array, Simulation</td>
+<td><a href="../../problems/1848/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2057</td>
+<td><a href="https://leetcode.com/problems/smallest-index-with-equal-value/">Smallest Index With Equal Value</a></td>
+<td>🟢 Easy</td>
+<td>Array</td>
+<td><a href="../../problems/2057/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2176</td>
+<td><a href="https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/">Count Equal and Divisible Pairs in an Array</a></td>
+<td>🟢 Easy</td>
+<td>Array Linear Scan</td>
+<td><a href="../../problems/2176/">C++</a></td>
+<td>O(N^2) - 使用雙重迴圈遍歷所有可能的索引對 (i, j)，在資料規模較小（通常 N &lt;= 100）時能高效執行。</td>
+<td>O(1) - 僅使用常數個變數來記錄計數與迴圈索引，不需額外配置動態記憶體。</td>
+</tr>
+<tr>
+<td>2239</td>
+<td><a href="https://leetcode.com/problems/find-closest-number-to-zero">Find Closest Number to Zero</a></td>
+<td>🟢 Easy</td>
+<td>Array</td>
+<td><a href="../../problems/2239/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2264</td>
+<td><a href="https://leetcode.com/problems/largest-3-same-digit-number-in-string/">Largest 3-Same-Digit Number in String</a></td>
+<td>🟢 Easy</td>
+<td>Array Linear Scan, String</td>
+<td><a href="../../problems/2264/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2643</td>
+<td><a href="https://leetcode.com/problems/row-with-maximum-ones/">Row With Maximum Ones</a></td>
+<td>🟢 Easy</td>
+<td>Matrix, Linear Scan</td>
+<td><a href="../../problems/2643/">C++</a></td>
+<td>O(M*N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2733</td>
+<td><a href="https://leetcode.com/problems/neither-minimum-nor-maximum/">Neither Minimum nor Maximum</a></td>
+<td>🟢 Easy</td>
+<td>Math, Array</td>
+<td><a href="../../problems/2733/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2974</td>
+<td><a href="https://leetcode.com/problems/minimum-number-game/">Minimum Number Game</a></td>
+<td>🟢 Easy</td>
+<td>Array Linear Scan</td>
+<td><a href="../../problems/2974/">C++</a></td>
+<td>O(N) - 計算所有元素和，生成交替奇偶數列。</td>
+<td>O(N) - 結果陣列大小為 N。</td>
+</tr>
+<tr>
+<td>3168</td>
+<td><a href="https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/">Minimum Number of Chairs</a></td>
+<td>🟢 Easy</td>
+<td>Simulation</td>
+<td><a href="../../problems/3168/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3861</td>
+<td><a href="https://leetcode.com/problems/minimum-capacity-box/">Minimum Capacity Box</a></td>
+<td>🟢 Easy</td>
+<td>Array, Linear Search</td>
+<td><a href="../../problems/3861/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+</tbody>
+</table>
 
 
 

@@ -3328,50 +3328,399 @@
 
 
 <h1 id="math-digit-decomposition">math-digit-decomposition<a class="headerlink" href="#math-digit-decomposition" title="Permanent link">&para;</a></h1>
-<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
-| 7 | <a href="https://leetcode.com/problems/reverse-integer/">Reverse Integer</a> | 🟡 Medium | Math | <a href="../../problems/0007/">C++</a> | O(logN) | O(1) |
-| 168 | <a href="https://leetcode.com/problems/excel-sheet-column-title/">Excel Sheet Column Title</a> | 🟢 Easy | Math, Base Conversion | <a href="../../problems/0168/">C++</a> | O(log26N) | O(1) |
-| 171 | <a href="https://leetcode.com/problems/excel-sheet-column-number/">Excel Sheet Column Number</a> | 🟢 Easy | Math, Base Conversion | <a href="../../problems/0171/">C++</a> | O(N) | O(1) |
-| 405 | <a href="https://leetcode.com/problems/convert-a-number-to-hexadecimal/">Convert a Number to Hexadecimal</a> | 🟢 Easy | Math, Bit Manipulation | <a href="../../problems/0405/">C++</a> | O(1) | O(1) |
-| 504 | <a href="https://leetcode.com/problems/base-7">Base 7</a> | 🟢 Easy | Math, String | <a href="../../problems/0504/">C++</a> | O(log₇N) | O(1) |
-| 728 | <a href="https://leetcode.com/problems/self-dividing-numbers/">Self Dividing Numbers</a> | 🟢 Easy | Simulation | <a href="../../problems/0728/">C++</a> | O(N<em>D) | O(1) |
-| 868 | <a href="https://leetcode.com/problems/binary-gap/">Binary Gap</a> | 🟢 Easy | Bit Manipulation | <a href="../../problems/0868/">C++</a> | O(logN) | O(1) |
-| 1017 | <a href="https://leetcode.com/problems/convert-to-base-2">Convert to Base -2</a> | 🟡 Medium | Math | <a href="../../problems/1017/">C++</a> | O(logN) | O(1) |
-| 1281 | <a href="https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/">Subtract the Product and Sum of Digits of an Integer</a> | 🟢 Easy | Math, Digit Manipulation | <a href="../../problems/1281/">C++</a> | O(logN) | O(1) |
-| 1317 | <a href="https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/">Convert Integer to the Sum of Two No-Zero Integers</a> | 🟢 Easy | Math, Simulation | <a href="../../problems/1317/">C++</a> | O(N</em>logN) | O(1) |
-| 1399 | <a href="https://leetcode.com/problems/count-largest-group/">Count Largest Group</a> | 🟢 Easy | Math Digit Decomposition, Digit Manipulation, Counting | <a href="../../problems/1399/">C++</a> | O(N * D) | O(1) |
-| 1404 | <a href="https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/">Number of Steps to Reduce a Number in Binary Representation to One</a> | 🟡 Medium | Bit Manipulation, String Simulation | <a href="../../problems/1404/">C++</a> | O(N) | O(1) |
-| 1742 | <a href="https://leetcode.com/problems/maximum-number-of-balls-in-a-box/">Maximum Number of Balls in a Box</a> | 🟢 Easy | Math, Simulation, Hash Table | <a href="../../problems/1742/">C++</a> | O(N<em>D) | O(1)</em> |
-| 1837 | <a href="https://leetcode.com/problems/sum-of-digits-in-base-k">Sum of Digits in Base K</a> | 🟢 Easy | Math | <a href="../../problems/1837/">C++</a> | O(logₖN) | O(1) |
-| 1880 | <a href="https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/">Check if Word Equals Summation of Two Words</a> | 🟢 Easy | String, Math | <a href="../../problems/1880/">C++</a> | O(N) | O(1) |
-| 2160 | <a href="https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/">Minimum Sum of Four Digit Number After Splitting Digits</a> | 🟢 Easy | Math, Greedy, Sorting | <a href="../../problems/2160/">C++</a> | O(1) | O(1) |
-| 2180 | <a href="https://leetcode.com/problems/count-integers-with-even-digit-sum/">Count Integers With Even Digit Sum</a> | 🟢 Easy | Math, Digit Manipulation | <a href="../../problems/2180/">C++</a> | O(D) | O(1) |
-| 2443 | <a href="https://leetcode.com/problems/sum-of-number-and-its-reverse/">Sum of Number and Its Reverse</a> | 🟡 Medium | Math, Simulation | <a href="../../problems/2443/">C++</a> | O(NlogN) | O(1) |
-| 2520 | <a href="https://leetcode.com/problems/count-the-digits-that-divide-a-number/">Count the Digits That Divide a Number</a> | 🟢 Easy | Math, Digit Manipulation | <a href="../../problems/2520/">C++</a> | O(logN) | O(1) |
-| 2535 | <a href="https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/">Difference Between Element Sum and Digit Sum of an Array</a> | 🟢 Easy | Math, Array | <a href="../../problems/2535/">C++</a> | O(N<em>logM) | O(1) |
-| 2544 | <a href="https://leetcode.com/problems/alternating-digit-sum/">Alternating Digit Sum</a> | 🟢 Easy | Math, Digit Manipulation | <a href="../../problems/2544/">C++</a> | O(logN) | O(logN) |
-| 2553 | <a href="https://leetcode.com/problems/separate-the-digits-in-an-array">Separate the Digits in an Array</a> | 🟢 Easy | Array, Math | <a href="../../problems/2553/">C++</a> | O(N</em>log(max_VAL)) | O(N<em>log(max_VAL)) |
-| 2595 | <a href="https://leetcode.com/problems/number-of-even-and-odd-bits">Number of Even and Odd Bits</a> | 🟢 Easy | Bit Manipulation | <a href="../../problems/2595/">C++</a> | O(logN) | O(1) |
-| 2843 | <a href="https://leetcode.com/problems/count-symmetric-integers/">Count Symmetric Integers</a> | 🟢 Easy | Simulation, Math | <a href="../../problems/2843/">C++</a> | O(N</em>D) | O(1) |
-| 3079 | <a href="https://leetcode.com/problems/find-the-sum-of-encrypted-integers/">Find the Sum of Encrypted Integers</a> | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | <a href="../../problems/3079/">C++</a> | O(N<em>D) | O(D) |
-| 3099 | <a href="https://leetcode.com/problems/harshad-number/">Harshad Number</a> | 🟢 Easy | Math | <a href="../../problems/3099/">C++</a> | O(logN) | O(1) |
-| 3300 | <a href="https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/">Minimum Element After Replacement With Digit Sum</a> | 🟢 Easy | Math, Simulation | <a href="../../problems/3300/">C++</a> | O(N</em>logM) | O(1) |
-| 3340 | <a href="https://leetcode.com/problems/check-balanced-string/">Check Balanced String</a> | 🟢 Easy | String, Math | <a href="../../problems/3340/">C++</a> | O(N) | O(1) |
-| 3345 | <a href="https://leetcode.com/problems/smallest-divisible-digit-product-i/">Smallest Divisible Digit Product I</a> | 🟢 Easy | Brute Force, Digit Manipulation | <a href="../../problems/3345/">C++</a> | O(K×D) | O(1) |
-| 3461 | <a href="https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/">Check If Digits Are Equal in String After Operations I</a> | 🟢 Easy | Math Digit Decomposition, Simulation, Digit Manipulation | <a href="../../problems/3461/">C++</a> | O(N²) | O(N) |
-| 3550 | <a href="https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/">Smallest Index With Digit Sum Equal to Index</a> | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | <a href="../../problems/3550/">C++</a> | O(N * D) | O(1) |
-| 3622 | <a href="https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/">Check Divisibility by Digit Sum and Product</a> | 🟢 Easy | Math, Digit Manipulation | <a href="../../problems/3622/">C++</a> | O(logN) | O(1) |
-| 3697 | <a href="https://leetcode.com/problems/compute-decimal-representation/">Compute Decimal Representation</a> | 🟢 Easy | Math, Digit Extraction | <a href="../../problems/3697/">C++</a> | O(logN) | <a href="#3697-compute-decimal-representation">Note</a> |
-| 3726 | <a href="https://leetcode.com/problems/remove-zeros-in-decimal-representation">Remove Zeros in Decimal Representation</a> | 🟢 Easy | Math, Digit Extraction | <a href="../../problems/3726/">C++</a> | O(logN) | O(1) |
-| 3754 | <a href="https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/">Concatenate Non-Zero Digits and Multiply by Sum I</a> | 🟢 Easy | Math Digit Decomposition | <a href="../../problems/3754/">C++</a> | O(N) - 單次遍歷，根據數字奇偶性計算交替和。 | O(1) - 僅使用常數空間。 |
-| 3783 | Mirror Distance of an Integer | 🟢 Easy | Math, Simulation | <a href="../../problems/3783/">C++</a> | O(log10(N)) | O(1) |
-| 3895 | <a href="https://leetcode.com/problems/count-digit-appearances/">Count Digit Appearances</a> | 🟢 Easy | Digit Manipulation | <a href="../../problems/3895/">C++</a> | O(N×D) | O(1) |
-| 3908 | <a href="https://leetcode.com/problems/valid-digit-number/">Valid Digit Number</a> | 🟢 Easy | Math, Digit Manipulation | <a href="../../problems/3908/">C++</a> | O(logN) | O(1) |
-| 3945 | <a href="https://leetcode.com/problems/digit-frequency-score/">Digit Frequency Score</a> | 🟢 Easy | Math | <a href="../../problems/3945/">C++</a> | O(logN) | O(1) |
-| 3950 | <a href="https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/">Exactly One Consecutive Set Bits Pair</a> | 🟢 Easy | Bit Manipulation | <a href="../../problems/3950/">C++</a> | O(logN) | O(1) |
-| 3959 | <a href="https://leetcode.com/problems/check-good-integer/">Check Good Integer</a> | 🟢 Easy | Math, Digit Manipulation | <a href="../../problems/3959/">C++</a> | O(logN) | O(1) |
-| 3982 | Sum of Integers with Maximum Digit Range | 🟢 Easy | Math, Array | <a href="../../problems/3982/">C++</a> | O(N*D) | O(N) |</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td><a href="https://leetcode.com/problems/reverse-integer/">Reverse Integer</a></td>
+<td>🟡 Medium</td>
+<td>Math</td>
+<td><a href="../../problems/0007/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>168</td>
+<td><a href="https://leetcode.com/problems/excel-sheet-column-title/">Excel Sheet Column Title</a></td>
+<td>🟢 Easy</td>
+<td>Math, Base Conversion</td>
+<td><a href="../../problems/0168/">C++</a></td>
+<td>O(log26N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>171</td>
+<td><a href="https://leetcode.com/problems/excel-sheet-column-number/">Excel Sheet Column Number</a></td>
+<td>🟢 Easy</td>
+<td>Math, Base Conversion</td>
+<td><a href="../../problems/0171/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>405</td>
+<td><a href="https://leetcode.com/problems/convert-a-number-to-hexadecimal/">Convert a Number to Hexadecimal</a></td>
+<td>🟢 Easy</td>
+<td>Math, Bit Manipulation</td>
+<td><a href="../../problems/0405/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>504</td>
+<td><a href="https://leetcode.com/problems/base-7">Base 7</a></td>
+<td>🟢 Easy</td>
+<td>Math, String</td>
+<td><a href="../../problems/0504/">C++</a></td>
+<td>O(log₇N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>728</td>
+<td><a href="https://leetcode.com/problems/self-dividing-numbers/">Self Dividing Numbers</a></td>
+<td>🟢 Easy</td>
+<td>Simulation</td>
+<td><a href="../../problems/0728/">C++</a></td>
+<td>O(N*D)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>868</td>
+<td><a href="https://leetcode.com/problems/binary-gap/">Binary Gap</a></td>
+<td>🟢 Easy</td>
+<td>Bit Manipulation</td>
+<td><a href="../../problems/0868/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1017</td>
+<td><a href="https://leetcode.com/problems/convert-to-base-2">Convert to Base -2</a></td>
+<td>🟡 Medium</td>
+<td>Math</td>
+<td><a href="../../problems/1017/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1281</td>
+<td><a href="https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/">Subtract the Product and Sum of Digits of an Integer</a></td>
+<td>🟢 Easy</td>
+<td>Math, Digit Manipulation</td>
+<td><a href="../../problems/1281/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1317</td>
+<td><a href="https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/">Convert Integer to the Sum of Two No-Zero Integers</a></td>
+<td>🟢 Easy</td>
+<td>Math, Simulation</td>
+<td><a href="../../problems/1317/">C++</a></td>
+<td>O(N*logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1399</td>
+<td><a href="https://leetcode.com/problems/count-largest-group/">Count Largest Group</a></td>
+<td>🟢 Easy</td>
+<td>Math Digit Decomposition, Digit Manipulation, Counting</td>
+<td><a href="../../problems/1399/">C++</a></td>
+<td>O(N * D)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1404</td>
+<td><a href="https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/">Number of Steps to Reduce a Number in Binary Representation to One</a></td>
+<td>🟡 Medium</td>
+<td>Bit Manipulation, String Simulation</td>
+<td><a href="../../problems/1404/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1742</td>
+<td><a href="https://leetcode.com/problems/maximum-number-of-balls-in-a-box/">Maximum Number of Balls in a Box</a></td>
+<td>🟢 Easy</td>
+<td>Math, Simulation, Hash Table</td>
+<td><a href="../../problems/1742/">C++</a></td>
+<td>O(N*D)</td>
+<td>O(1)*</td>
+</tr>
+<tr>
+<td>1837</td>
+<td><a href="https://leetcode.com/problems/sum-of-digits-in-base-k">Sum of Digits in Base K</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/1837/">C++</a></td>
+<td>O(logₖN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1880</td>
+<td><a href="https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/">Check if Word Equals Summation of Two Words</a></td>
+<td>🟢 Easy</td>
+<td>String, Math</td>
+<td><a href="../../problems/1880/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2160</td>
+<td><a href="https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/">Minimum Sum of Four Digit Number After Splitting Digits</a></td>
+<td>🟢 Easy</td>
+<td>Math, Greedy, Sorting</td>
+<td><a href="../../problems/2160/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2180</td>
+<td><a href="https://leetcode.com/problems/count-integers-with-even-digit-sum/">Count Integers With Even Digit Sum</a></td>
+<td>🟢 Easy</td>
+<td>Math, Digit Manipulation</td>
+<td><a href="../../problems/2180/">C++</a></td>
+<td>O(D)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2443</td>
+<td><a href="https://leetcode.com/problems/sum-of-number-and-its-reverse/">Sum of Number and Its Reverse</a></td>
+<td>🟡 Medium</td>
+<td>Math, Simulation</td>
+<td><a href="../../problems/2443/">C++</a></td>
+<td>O(NlogN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2520</td>
+<td><a href="https://leetcode.com/problems/count-the-digits-that-divide-a-number/">Count the Digits That Divide a Number</a></td>
+<td>🟢 Easy</td>
+<td>Math, Digit Manipulation</td>
+<td><a href="../../problems/2520/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2535</td>
+<td><a href="https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/">Difference Between Element Sum and Digit Sum of an Array</a></td>
+<td>🟢 Easy</td>
+<td>Math, Array</td>
+<td><a href="../../problems/2535/">C++</a></td>
+<td>O(N*logM)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2544</td>
+<td><a href="https://leetcode.com/problems/alternating-digit-sum/">Alternating Digit Sum</a></td>
+<td>🟢 Easy</td>
+<td>Math, Digit Manipulation</td>
+<td><a href="../../problems/2544/">C++</a></td>
+<td>O(logN)</td>
+<td>O(logN)</td>
+</tr>
+<tr>
+<td>2553</td>
+<td><a href="https://leetcode.com/problems/separate-the-digits-in-an-array">Separate the Digits in an Array</a></td>
+<td>🟢 Easy</td>
+<td>Array, Math</td>
+<td><a href="../../problems/2553/">C++</a></td>
+<td>O(N*log(max_VAL))</td>
+<td>O(N*log(max_VAL))</td>
+</tr>
+<tr>
+<td>2595</td>
+<td><a href="https://leetcode.com/problems/number-of-even-and-odd-bits">Number of Even and Odd Bits</a></td>
+<td>🟢 Easy</td>
+<td>Bit Manipulation</td>
+<td><a href="../../problems/2595/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2843</td>
+<td><a href="https://leetcode.com/problems/count-symmetric-integers/">Count Symmetric Integers</a></td>
+<td>🟢 Easy</td>
+<td>Simulation, Math</td>
+<td><a href="../../problems/2843/">C++</a></td>
+<td>O(N*D)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3079</td>
+<td><a href="https://leetcode.com/problems/find-the-sum-of-encrypted-integers/">Find the Sum of Encrypted Integers</a></td>
+<td>🟢 Easy</td>
+<td>Math Digit Decomposition, Digit Manipulation</td>
+<td><a href="../../problems/3079/">C++</a></td>
+<td>O(N*D)</td>
+<td>O(D)</td>
+</tr>
+<tr>
+<td>3099</td>
+<td><a href="https://leetcode.com/problems/harshad-number/">Harshad Number</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/3099/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3300</td>
+<td><a href="https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/">Minimum Element After Replacement With Digit Sum</a></td>
+<td>🟢 Easy</td>
+<td>Math, Simulation</td>
+<td><a href="../../problems/3300/">C++</a></td>
+<td>O(N*logM)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3340</td>
+<td><a href="https://leetcode.com/problems/check-balanced-string/">Check Balanced String</a></td>
+<td>🟢 Easy</td>
+<td>String, Math</td>
+<td><a href="../../problems/3340/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3345</td>
+<td><a href="https://leetcode.com/problems/smallest-divisible-digit-product-i/">Smallest Divisible Digit Product I</a></td>
+<td>🟢 Easy</td>
+<td>Brute Force, Digit Manipulation</td>
+<td><a href="../../problems/3345/">C++</a></td>
+<td>O(K×D)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3461</td>
+<td><a href="https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/">Check If Digits Are Equal in String After Operations I</a></td>
+<td>🟢 Easy</td>
+<td>Math Digit Decomposition, Simulation, Digit Manipulation</td>
+<td><a href="../../problems/3461/">C++</a></td>
+<td>O(N²)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>3550</td>
+<td><a href="https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/">Smallest Index With Digit Sum Equal to Index</a></td>
+<td>🟢 Easy</td>
+<td>Math Digit Decomposition, Digit Manipulation</td>
+<td><a href="../../problems/3550/">C++</a></td>
+<td>O(N * D)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3622</td>
+<td><a href="https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/">Check Divisibility by Digit Sum and Product</a></td>
+<td>🟢 Easy</td>
+<td>Math, Digit Manipulation</td>
+<td><a href="../../problems/3622/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3697</td>
+<td><a href="https://leetcode.com/problems/compute-decimal-representation/">Compute Decimal Representation</a></td>
+<td>🟢 Easy</td>
+<td>Math, Digit Extraction</td>
+<td><a href="../../problems/3697/">C++</a></td>
+<td>O(logN)</td>
+<td><a href="#3697-compute-decimal-representation">Note</a></td>
+</tr>
+<tr>
+<td>3726</td>
+<td><a href="https://leetcode.com/problems/remove-zeros-in-decimal-representation">Remove Zeros in Decimal Representation</a></td>
+<td>🟢 Easy</td>
+<td>Math, Digit Extraction</td>
+<td><a href="../../problems/3726/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3754</td>
+<td><a href="https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/">Concatenate Non-Zero Digits and Multiply by Sum I</a></td>
+<td>🟢 Easy</td>
+<td>Math Digit Decomposition</td>
+<td><a href="../../problems/3754/">C++</a></td>
+<td>O(N) - 單次遍歷，根據數字奇偶性計算交替和。</td>
+<td>O(1) - 僅使用常數空間。</td>
+</tr>
+<tr>
+<td>3783</td>
+<td>Mirror Distance of an Integer</td>
+<td>🟢 Easy</td>
+<td>Math, Simulation</td>
+<td><a href="../../problems/3783/">C++</a></td>
+<td>O(log10(N))</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3895</td>
+<td><a href="https://leetcode.com/problems/count-digit-appearances/">Count Digit Appearances</a></td>
+<td>🟢 Easy</td>
+<td>Digit Manipulation</td>
+<td><a href="../../problems/3895/">C++</a></td>
+<td>O(N×D)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3908</td>
+<td><a href="https://leetcode.com/problems/valid-digit-number/">Valid Digit Number</a></td>
+<td>🟢 Easy</td>
+<td>Math, Digit Manipulation</td>
+<td><a href="../../problems/3908/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3945</td>
+<td><a href="https://leetcode.com/problems/digit-frequency-score/">Digit Frequency Score</a></td>
+<td>🟢 Easy</td>
+<td>Math</td>
+<td><a href="../../problems/3945/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3950</td>
+<td><a href="https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/">Exactly One Consecutive Set Bits Pair</a></td>
+<td>🟢 Easy</td>
+<td>Bit Manipulation</td>
+<td><a href="../../problems/3950/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3959</td>
+<td><a href="https://leetcode.com/problems/check-good-integer/">Check Good Integer</a></td>
+<td>🟢 Easy</td>
+<td>Math, Digit Manipulation</td>
+<td><a href="../../problems/3959/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3982</td>
+<td>Sum of Integers with Maximum Digit Range</td>
+<td>🟢 Easy</td>
+<td>Math, Array</td>
+<td><a href="../../problems/3982/">C++</a></td>
+<td>O(N*D)</td>
+<td>O(N)</td>
+</tr>
+</tbody>
+</table>
 
 
 

@@ -3328,19 +3328,120 @@
 
 
 <h1 id="fixed-size-sliding-window">fixed-size-sliding-window<a class="headerlink" href="#fixed-size-sliding-window" title="Permanent link">&para;</a></h1>
-<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
-| 3 | <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters</a> | 🟡 Medium | Sliding Window, Hash Table | <a href="../../problems/0003/">C++</a> | O(N) | O(1) |
-| 220 | <a href="https://leetcode.com/problems/contains-duplicate-iii/">Contains Duplicate III</a> | 🔴 Hard | Sliding Window, Ordered Map, Bucket | <a href="../../problems/0220/">C++</a> | O(Nlog(min(N,K))) | O(min(N,K)) |
-| 567 | <a href="https://leetcode.com/problems/permutation-in-string/">Permutation in String</a> | 🟡 Medium | Sliding Window, Frequency Array | <a href="../../problems/0567/">C++</a> | O(L1+L2) | O(1) |
-| 643 | <a href="https://leetcode.com/problems/maximum-average-subarray-i">Maximum Average Subarray I</a> | 🟢 Easy | Array, Sliding Window | <a href="../../problems/0643/">C++</a> | O(N) | O(1) |
-| 1287 | <a href="https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/">Element Appearing More Than 25% In Sorted Array</a> | 🟢 Easy | Array, Sliding Window | <a href="../../problems/1287/">C++</a> | O(N) | O(1) |
-| 1456 | <a href="https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length">Maximum Number of Vowels in a Substring of Given Length</a> | 🟡 Medium | String, Sliding Window | <a href="../../problems/1456/">C++</a> | O(N) | O(1) |
-| 1493 | <a href="https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/">Longest Subarray of 1's After Deleting One Element</a> | 🟡 Medium | Sliding Window, Two Pointers | <a href="../../problems/1493/">C++</a> | O(N) | O(1) |
-| 1876 | <a href="https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters">Substrings of Size Three with Distinct Characters</a> | 🟢 Easy | String, Sliding Window | <a href="../../problems/1876/">C++</a> | O(N) | O(1) |
-| 1984 | <a href="https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/">Minimum Difference Between Highest and Lowest of K Scores</a> | 🟢 Easy | Sorting, Sliding Window | <a href="../../problems/1984/">C++</a> | O(NlogN) | O(1) |
-| 3090 | <a href="https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/">Maximum Length Substring</a> | 🟢 Easy | Sliding Window | <a href="../../problems/3090/">C++</a> | O(N) | O(1) |
-| 3392 | <a href="https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/">Count Subarrays of Length Three With a Condition</a> | 🟢 Easy | Array, Sliding Window, Simulation | <a href="../../problems/3392/">C++</a> | O(N) | O(1) |</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3</td>
+<td><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters</a></td>
+<td>🟡 Medium</td>
+<td>Sliding Window, Hash Table</td>
+<td><a href="../../problems/0003/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>220</td>
+<td><a href="https://leetcode.com/problems/contains-duplicate-iii/">Contains Duplicate III</a></td>
+<td>🔴 Hard</td>
+<td>Sliding Window, Ordered Map, Bucket</td>
+<td><a href="../../problems/0220/">C++</a></td>
+<td>O(Nlog(min(N,K)))</td>
+<td>O(min(N,K))</td>
+</tr>
+<tr>
+<td>567</td>
+<td><a href="https://leetcode.com/problems/permutation-in-string/">Permutation in String</a></td>
+<td>🟡 Medium</td>
+<td>Sliding Window, Frequency Array</td>
+<td><a href="../../problems/0567/">C++</a></td>
+<td>O(L1+L2)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>643</td>
+<td><a href="https://leetcode.com/problems/maximum-average-subarray-i">Maximum Average Subarray I</a></td>
+<td>🟢 Easy</td>
+<td>Array, Sliding Window</td>
+<td><a href="../../problems/0643/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1287</td>
+<td><a href="https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/">Element Appearing More Than 25% In Sorted Array</a></td>
+<td>🟢 Easy</td>
+<td>Array, Sliding Window</td>
+<td><a href="../../problems/1287/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1456</td>
+<td><a href="https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length">Maximum Number of Vowels in a Substring of Given Length</a></td>
+<td>🟡 Medium</td>
+<td>String, Sliding Window</td>
+<td><a href="../../problems/1456/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1493</td>
+<td><a href="https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/">Longest Subarray of 1's After Deleting One Element</a></td>
+<td>🟡 Medium</td>
+<td>Sliding Window, Two Pointers</td>
+<td><a href="../../problems/1493/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1876</td>
+<td><a href="https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters">Substrings of Size Three with Distinct Characters</a></td>
+<td>🟢 Easy</td>
+<td>String, Sliding Window</td>
+<td><a href="../../problems/1876/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1984</td>
+<td><a href="https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/">Minimum Difference Between Highest and Lowest of K Scores</a></td>
+<td>🟢 Easy</td>
+<td>Sorting, Sliding Window</td>
+<td><a href="../../problems/1984/">C++</a></td>
+<td>O(NlogN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3090</td>
+<td><a href="https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/">Maximum Length Substring</a></td>
+<td>🟢 Easy</td>
+<td>Sliding Window</td>
+<td><a href="../../problems/3090/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3392</td>
+<td><a href="https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/">Count Subarrays of Length Three With a Condition</a></td>
+<td>🟢 Easy</td>
+<td>Array, Sliding Window, Simulation</td>
+<td><a href="../../problems/3392/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+</tbody>
+</table>
 
 
 

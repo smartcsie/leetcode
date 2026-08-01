@@ -3328,29 +3328,210 @@
 
 
 <h1 id="two-pointers-opposite">two-pointers-opposite<a class="headerlink" href="#two-pointers-opposite" title="Permanent link">&para;</a></h1>
-<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
-| 11 | <a href="https://leetcode.com/problems/container-with-most-water">Container With Most Water</a> | 🟡 Medium | Array, Two Pointers, Greedy | <a href="../../problems/0011/">C++</a> | O(N) | O(1) |
-| 15 | <a href="https://leetcode.com/problems/3sum">3Sum</a> | 🟡 Medium | Array, Two Pointers, Sorting | <a href="../../problems/0015/">C++</a> | O(N²) | O(logN) |
-| 16 | <a href="https://leetcode.com/problems/3sum-closest">3Sum Closest</a> | 🟡 Medium | Array, Two Pointers, Sorting | <a href="../../problems/0016/">C++</a> | O(N²) | O(1) |
-| 18 | <a href="https://leetcode.com/problems/4sum/">4Sum</a> | 🟡 Medium | Two Pointers, Sorting | <a href="../../problems/0018/">C++</a> | O(N³) | O(1) |
-| 125 | <a href="https://leetcode.com/problems/valid-palindrome">Valid Palindrome</a> | 🟢 Easy | String, Two Pointers | <a href="../../problems/0125/">C++</a> | O(N) | O(1) |
-| 167 | <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted">Two Sum II - Input Array Is Sorted</a> | 🟡 Medium | Array, Two Pointers | <a href="../../problems/0167/">C++</a> | O(N) | O(1) |
-| 344 | <a href="https://leetcode.com/problems/reverse-string">Reverse String</a> | 🟢 Easy | Two Pointers | <a href="../../problems/0344/">C++</a> | O(N) | O(1) |
-| 345 | <a href="https://leetcode.com/problems/reverse-vowels-of-a-string">Reverse Vowels of a String</a> | 🟢 Easy | String, Two Pointers | <a href="../../problems/0345/">C++</a> | O(N) | O(1) |
-| 611 | <a href="https://leetcode.com/problems/valid-triangle-number/">Valid Triangle Number</a> | 🟡 Medium | Two Pointers Opposite, Two Pointers | <a href="../../problems/0611/">C++</a> | O(N²) | O(1) |
-| 680 | <a href="https://leetcode.com/problems/valid-palindrome-ii/">Valid Palindrome II</a> | 🟢 Easy | Two Pointers | <a href="../../problems/0680/">C++</a> | O(N) | O(1) |
-| 917 | <a href="https://leetcode.com/problems/reverse-only-letters/">Reverse Only Letters</a> | 🟢 Easy | Two Pointers, String | <a href="../../problems/0917/">C++</a> | O(N) | O(1) |
-| 941 | <a href="https://leetcode.com/problems/valid-mountain-array">Valid Mountain Array</a> | 🟢 Easy | Array, Two Pointers | <a href="../../problems/0941/">C++</a> | O(N) | O(1) |
-| 942 | <a href="https://leetcode.com/problems/di-string-match/">DI String Match</a> | 🟢 Easy | Greedy, Two Pointers | <a href="../../problems/0942/">C++</a> | O(N) | O(N) |
-| 977 | <a href="https://leetcode.com/problems/squares-of-a-sorted-array">Squares of a Sorted Array</a> | 🟢 Easy | Array, Two Pointers | <a href="../../problems/0977/">C++</a> | O(N) | O(N) |
-| 1750 | <a href="https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends">Minimum Length of String After Deleting Similar Ends</a> | 🟡 Medium | String, Two Pointers | <a href="../../problems/1750/">C++</a> | O(N) | O(1) |
-| 1877 | <a href="https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/">Minimize Maximum Pair Sum in Array</a> | 🟡 Medium | Array, Two Pointers, Greedy, Sorting | <a href="../../problems/1877/">C++</a> | O(NlogN) | O(1)<em> |
-| 2000 | <a href="https://leetcode.com/problems/reverse-prefix-of-word/">Reverse Prefix of Word</a> | 🟢 Easy | Two Pointers, String | <a href="../../problems/2000/">C++</a> | O(N) | O(1) |
-| 2108 | <a href="https://leetcode.com/problems/find-first-palindromic-string-in-the-array/">Find First Palindromic String in the Array</a> | 🟢 Easy | Two Pointers | <a href="../../problems/2108/">C++</a> | O(N</em>L) | O(1) |
-| 2562 | <a href="https://leetcode.com/problems/find-the-array-concatenation-value/">Find the Array Concatenation Value</a> | 🟢 Easy | Two Pointers | <a href="../../problems/2562/">C++</a> | O(N*D) | O(1) |
-| 3794 | <a href="https://leetcode.com/problems/reverse-string-prefix/">Reverse String Prefix</a> | 🟢 Easy | String, Two Pointers | <a href="../../problems/3794/">C++</a> | O(N) | O(1) |
-| 3884 | <a href="https://leetcode.com/problems/first-matching-character-from-both-ends/description/">First Matching Character From Both Ends</a> | 🟢 Easy | Two-Pointers | <a href="../../problems/3884/">C++</a> | O(N) | O(1) |</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11</td>
+<td><a href="https://leetcode.com/problems/container-with-most-water">Container With Most Water</a></td>
+<td>🟡 Medium</td>
+<td>Array, Two Pointers, Greedy</td>
+<td><a href="../../problems/0011/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://leetcode.com/problems/3sum">3Sum</a></td>
+<td>🟡 Medium</td>
+<td>Array, Two Pointers, Sorting</td>
+<td><a href="../../problems/0015/">C++</a></td>
+<td>O(N²)</td>
+<td>O(logN)</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://leetcode.com/problems/3sum-closest">3Sum Closest</a></td>
+<td>🟡 Medium</td>
+<td>Array, Two Pointers, Sorting</td>
+<td><a href="../../problems/0016/">C++</a></td>
+<td>O(N²)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://leetcode.com/problems/4sum/">4Sum</a></td>
+<td>🟡 Medium</td>
+<td>Two Pointers, Sorting</td>
+<td><a href="../../problems/0018/">C++</a></td>
+<td>O(N³)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>125</td>
+<td><a href="https://leetcode.com/problems/valid-palindrome">Valid Palindrome</a></td>
+<td>🟢 Easy</td>
+<td>String, Two Pointers</td>
+<td><a href="../../problems/0125/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>167</td>
+<td><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted">Two Sum II - Input Array Is Sorted</a></td>
+<td>🟡 Medium</td>
+<td>Array, Two Pointers</td>
+<td><a href="../../problems/0167/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>344</td>
+<td><a href="https://leetcode.com/problems/reverse-string">Reverse String</a></td>
+<td>🟢 Easy</td>
+<td>Two Pointers</td>
+<td><a href="../../problems/0344/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>345</td>
+<td><a href="https://leetcode.com/problems/reverse-vowels-of-a-string">Reverse Vowels of a String</a></td>
+<td>🟢 Easy</td>
+<td>String, Two Pointers</td>
+<td><a href="../../problems/0345/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>611</td>
+<td><a href="https://leetcode.com/problems/valid-triangle-number/">Valid Triangle Number</a></td>
+<td>🟡 Medium</td>
+<td>Two Pointers Opposite, Two Pointers</td>
+<td><a href="../../problems/0611/">C++</a></td>
+<td>O(N²)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>680</td>
+<td><a href="https://leetcode.com/problems/valid-palindrome-ii/">Valid Palindrome II</a></td>
+<td>🟢 Easy</td>
+<td>Two Pointers</td>
+<td><a href="../../problems/0680/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>917</td>
+<td><a href="https://leetcode.com/problems/reverse-only-letters/">Reverse Only Letters</a></td>
+<td>🟢 Easy</td>
+<td>Two Pointers, String</td>
+<td><a href="../../problems/0917/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>941</td>
+<td><a href="https://leetcode.com/problems/valid-mountain-array">Valid Mountain Array</a></td>
+<td>🟢 Easy</td>
+<td>Array, Two Pointers</td>
+<td><a href="../../problems/0941/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>942</td>
+<td><a href="https://leetcode.com/problems/di-string-match/">DI String Match</a></td>
+<td>🟢 Easy</td>
+<td>Greedy, Two Pointers</td>
+<td><a href="../../problems/0942/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>977</td>
+<td><a href="https://leetcode.com/problems/squares-of-a-sorted-array">Squares of a Sorted Array</a></td>
+<td>🟢 Easy</td>
+<td>Array, Two Pointers</td>
+<td><a href="../../problems/0977/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>1750</td>
+<td><a href="https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends">Minimum Length of String After Deleting Similar Ends</a></td>
+<td>🟡 Medium</td>
+<td>String, Two Pointers</td>
+<td><a href="../../problems/1750/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1877</td>
+<td><a href="https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/">Minimize Maximum Pair Sum in Array</a></td>
+<td>🟡 Medium</td>
+<td>Array, Two Pointers, Greedy, Sorting</td>
+<td><a href="../../problems/1877/">C++</a></td>
+<td>O(NlogN)</td>
+<td>O(1)*</td>
+</tr>
+<tr>
+<td>2000</td>
+<td><a href="https://leetcode.com/problems/reverse-prefix-of-word/">Reverse Prefix of Word</a></td>
+<td>🟢 Easy</td>
+<td>Two Pointers, String</td>
+<td><a href="../../problems/2000/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2108</td>
+<td><a href="https://leetcode.com/problems/find-first-palindromic-string-in-the-array/">Find First Palindromic String in the Array</a></td>
+<td>🟢 Easy</td>
+<td>Two Pointers</td>
+<td><a href="../../problems/2108/">C++</a></td>
+<td>O(N*L)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2562</td>
+<td><a href="https://leetcode.com/problems/find-the-array-concatenation-value/">Find the Array Concatenation Value</a></td>
+<td>🟢 Easy</td>
+<td>Two Pointers</td>
+<td><a href="../../problems/2562/">C++</a></td>
+<td>O(N*D)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3794</td>
+<td><a href="https://leetcode.com/problems/reverse-string-prefix/">Reverse String Prefix</a></td>
+<td>🟢 Easy</td>
+<td>String, Two Pointers</td>
+<td><a href="../../problems/3794/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3884</td>
+<td><a href="https://leetcode.com/problems/first-matching-character-from-both-ends/description/">First Matching Character From Both Ends</a></td>
+<td>🟢 Easy</td>
+<td>Two-Pointers</td>
+<td><a href="../../problems/3884/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+</tbody>
+</table>
 
 
 

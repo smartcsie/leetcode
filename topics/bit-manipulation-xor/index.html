@@ -3328,26 +3328,183 @@
 
 
 <h1 id="bit-manipulation-xor">bit-manipulation-xor<a class="headerlink" href="#bit-manipulation-xor" title="Permanent link">&para;</a></h1>
-<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
-| 136 | <a href="https://leetcode.com/problems/single-number">Single Number</a> | 🟢 Easy | Bit-Manipulation | <a href="../../problems/0136/">C++</a> | O(N) | O(1) |
-| 260 | <a href="https://leetcode.com/problems/single-number-iii">Single Number III</a> | 🟡 Medium | Bit Manipulation | <a href="../../problems/0260/">C++</a> | O(N) | O(1) |
-| 268 | <a href="https://leetcode.com/problems/missing-number">Missing Number</a> | 🟢 Easy | Bit-Manipulation | <a href="../../problems/0268/">C++</a> | O(N) | O(1) |
-| 421 | <a href="https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/">Maximum XOR of Two Numbers in an Array</a> | 🟡 Medium | Bit Manipulation Xor, Hash Set | <a href="../../problems/0421/">C++</a> | O(N<em>L) | O(N) |
-| 477 | <a href="https://leetcode.com/problems/total-hamming-distance/">Total Hamming Distance</a> | 🟡 Medium | Math, Bit Manipulation, Array | <a href="../../problems/0477/">C++</a> | O(31</em>N) | O(1) |
-| 1442 | <a href="https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/">Count Triplets That Can Form Two Arrays of Equal XOR</a> | 🟡 Medium | Bit Manipulation Xor, Prefix XOR | <a href="../../problems/1442/">C++</a> | O(N²) | O(1) |
-| 1486 | <a href="https://leetcode.com/problems/xor-operation-in-an-array/">XOR Operation in an Array</a> | 🟢 Easy | Simulation, Bit Manipulation | <a href="../../problems/1486/">C++</a> | O(N) | O(1) |
-| 1720 | <a href="https://leetcode.com/problems/decode-xored-array/">Decode XORed Array</a> | 🟢 Easy | Bit Manipulation, Simulation | <a href="../../problems/1720/">C++</a> | O(N) | O(N) |
-| 1863 | <a href="https://leetcode.com/problems/sum-of-all-subset-xor-totals/">Sum of All Subset XOR Totals</a> | 🟢 Easy | Bit Manipulation, Math, Combinatorics | <a href="../../problems/1863/">C++</a> | O(N) | O(1) |
-| 2317 | <a href="https://leetcode.com/problems/maximum-xor-after-operations">Maximum XOR After Operations</a> | 🟡 Medium | Bit Manipulation | <a href="../../problems/2317/">C++</a> | O(N) | O(1) |
-| 2425 | <a href="https://leetcode.com/problems/bitwise-xor-of-all-pairings/">Bitwise XOR of All Pairings</a> | 🟡 Medium | Bit Manipulation, Math | <a href="../../problems/2425/">C++</a> | O(N+M) | O(1) |
-| 2429 | <a href="https://leetcode.com/problems/minimize-xor/">Minimize XOR</a> | 🟡 Medium | Bit Manipulation, Greedy | <a href="../../problems/2429/">C++</a> | O(1) | O(1) |
-| 2433 | <a href="https://leetcode.com/problems/find-the-original-array-of-prefix-xor/">Find The Original Array of Prefix Xor</a> | 🟡 Medium | Bit Manipulation, Prefix XOR Inverse | <a href="../../problems/2433/">C++</a> | O(N) | O(N) |
-| 2683 | <a href="https://leetcode.com/problems/neighboring-bitwise-xor/">Neighboring Bitwise XOR</a> | 🟡 Medium | Bit Manipulation, Math | <a href="../../problems/2683/">C++</a> | O(N) | O(1) |
-| 3158 | <a href="https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/">Find the XOR of Numbers Which Appear Twice</a> | 🟢 Easy | Bit Manipulation, Array | <a href="../../problems/3158/">C++</a> | O(N) | O(1) |
-| 3513 | <a href="https://leetcode.com/problems/number-of-unique-xor-triplets-i/">Number of Unique XOR Triplets I</a> | 🟡 Medium | Math, Bit Manipulation, Brainteaser | <a href="../../problems/3513/">C++</a> | O(logN) | O(1) |
-| 3514 | <a href="https://leetcode.com/problems/number-of-unique-xor-triplets-ii/">Number of Unique XOR Triplets II</a> | 🔴 Hard | Bit Manipulation Xor | <a href="../../problems/3514/">C++</a> | O(MlogM) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。 | O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。 |
-| 3702 | <a href="https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/">Longest Subsequence With Non-Zero Bitwise XOR</a> | 🟡 Medium | Bit Manipulation, Greedy | <a href="../../problems/3702/">C++</a> | O(N) | O(1) |</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>136</td>
+<td><a href="https://leetcode.com/problems/single-number">Single Number</a></td>
+<td>🟢 Easy</td>
+<td>Bit-Manipulation</td>
+<td><a href="../../problems/0136/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>260</td>
+<td><a href="https://leetcode.com/problems/single-number-iii">Single Number III</a></td>
+<td>🟡 Medium</td>
+<td>Bit Manipulation</td>
+<td><a href="../../problems/0260/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>268</td>
+<td><a href="https://leetcode.com/problems/missing-number">Missing Number</a></td>
+<td>🟢 Easy</td>
+<td>Bit-Manipulation</td>
+<td><a href="../../problems/0268/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>421</td>
+<td><a href="https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/">Maximum XOR of Two Numbers in an Array</a></td>
+<td>🟡 Medium</td>
+<td>Bit Manipulation Xor, Hash Set</td>
+<td><a href="../../problems/0421/">C++</a></td>
+<td>O(N*L)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>477</td>
+<td><a href="https://leetcode.com/problems/total-hamming-distance/">Total Hamming Distance</a></td>
+<td>🟡 Medium</td>
+<td>Math, Bit Manipulation, Array</td>
+<td><a href="../../problems/0477/">C++</a></td>
+<td>O(31*N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1442</td>
+<td><a href="https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/">Count Triplets That Can Form Two Arrays of Equal XOR</a></td>
+<td>🟡 Medium</td>
+<td>Bit Manipulation Xor, Prefix XOR</td>
+<td><a href="../../problems/1442/">C++</a></td>
+<td>O(N²)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1486</td>
+<td><a href="https://leetcode.com/problems/xor-operation-in-an-array/">XOR Operation in an Array</a></td>
+<td>🟢 Easy</td>
+<td>Simulation, Bit Manipulation</td>
+<td><a href="../../problems/1486/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1720</td>
+<td><a href="https://leetcode.com/problems/decode-xored-array/">Decode XORed Array</a></td>
+<td>🟢 Easy</td>
+<td>Bit Manipulation, Simulation</td>
+<td><a href="../../problems/1720/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>1863</td>
+<td><a href="https://leetcode.com/problems/sum-of-all-subset-xor-totals/">Sum of All Subset XOR Totals</a></td>
+<td>🟢 Easy</td>
+<td>Bit Manipulation, Math, Combinatorics</td>
+<td><a href="../../problems/1863/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2317</td>
+<td><a href="https://leetcode.com/problems/maximum-xor-after-operations">Maximum XOR After Operations</a></td>
+<td>🟡 Medium</td>
+<td>Bit Manipulation</td>
+<td><a href="../../problems/2317/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2425</td>
+<td><a href="https://leetcode.com/problems/bitwise-xor-of-all-pairings/">Bitwise XOR of All Pairings</a></td>
+<td>🟡 Medium</td>
+<td>Bit Manipulation, Math</td>
+<td><a href="../../problems/2425/">C++</a></td>
+<td>O(N+M)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2429</td>
+<td><a href="https://leetcode.com/problems/minimize-xor/">Minimize XOR</a></td>
+<td>🟡 Medium</td>
+<td>Bit Manipulation, Greedy</td>
+<td><a href="../../problems/2429/">C++</a></td>
+<td>O(1)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2433</td>
+<td><a href="https://leetcode.com/problems/find-the-original-array-of-prefix-xor/">Find The Original Array of Prefix Xor</a></td>
+<td>🟡 Medium</td>
+<td>Bit Manipulation, Prefix XOR Inverse</td>
+<td><a href="../../problems/2433/">C++</a></td>
+<td>O(N)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>2683</td>
+<td><a href="https://leetcode.com/problems/neighboring-bitwise-xor/">Neighboring Bitwise XOR</a></td>
+<td>🟡 Medium</td>
+<td>Bit Manipulation, Math</td>
+<td><a href="../../problems/2683/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3158</td>
+<td><a href="https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/">Find the XOR of Numbers Which Appear Twice</a></td>
+<td>🟢 Easy</td>
+<td>Bit Manipulation, Array</td>
+<td><a href="../../problems/3158/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3513</td>
+<td><a href="https://leetcode.com/problems/number-of-unique-xor-triplets-i/">Number of Unique XOR Triplets I</a></td>
+<td>🟡 Medium</td>
+<td>Math, Bit Manipulation, Brainteaser</td>
+<td><a href="../../problems/3513/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3514</td>
+<td><a href="https://leetcode.com/problems/number-of-unique-xor-triplets-ii/">Number of Unique XOR Triplets II</a></td>
+<td>🔴 Hard</td>
+<td>Bit Manipulation Xor</td>
+<td><a href="../../problems/3514/">C++</a></td>
+<td>O(MlogM) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。</td>
+<td>O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。</td>
+</tr>
+<tr>
+<td>3702</td>
+<td><a href="https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/">Longest Subsequence With Non-Zero Bitwise XOR</a></td>
+<td>🟡 Medium</td>
+<td>Bit Manipulation, Greedy</td>
+<td><a href="../../problems/3702/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+</tbody>
+</table>
 
 
 

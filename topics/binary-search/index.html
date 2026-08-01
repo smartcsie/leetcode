@@ -3328,29 +3328,210 @@
 
 
 <h1 id="binary-search">binary-search<a class="headerlink" href="#binary-search" title="Permanent link">&para;</a></h1>
-<p>| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
-| 4 | <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/">Median of Two Sorted Arrays</a> | 🔴 Hard | Binary Search | <a href="../../problems/0004/">C++</a> | O(log(M+N)) | O(1) |
-| 33 | <a href="https://leetcode.com/problems/search-in-rotated-sorted-array">Search in Rotated Sorted Array</a> | 🟡 Medium | Array, Binary Search | <a href="../../problems/0033/">C++</a> | O(logN) | O(1) |
-| 69 | <a href="https://leetcode.com/problems/sqrtx/">Sqrt(x)</a> | 🟢 Easy | Binary Search | <a href="../../problems/0069/">C++</a> | O(logN) | O(1) |
-| 74 | <a href="https://leetcode.com/problems/search-a-2d-matrix">Search a 2D Matrix</a> | 🟡 Medium | Binary Search, Matrix | <a href="../../problems/0074/">C++</a> | O(log(MN)) | O(1) |
-| 81 | <a href="https://leetcode.com/problems/search-in-rotated-sorted-array-ii">Search in Rotated Sorted Array II</a> | 🟡 Medium | Binary Search | <a href="../../problems/0081/">C++</a> | O(N) | O(1) |
-| 153 | <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/">Find Minimum in Rotated Sorted Array</a> | 🟡 Medium | Binary&nbsp;Search | <a href="../../problems/0153/">C++</a> | O(logN) | O(1) |
-| 154 | <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii">Find Minimum in Rotated Sorted Array II</a> | 🔴 Hard | Binary Search | <a href="../../problems/0154/">C++</a> | O(N) | O(1) |
-| 162 | <a href="https://leetcode.com/problems/find-peak-element">Find Peak Element</a> | 🟡 Medium | Binary Search | <a href="../../problems/0162/">C++</a> | O(logN) | O(1) |
-| 278 | <a href="https://leetcode.com/problems/first-bad-version/">First Bad Version</a> | 🟢 Easy | Binary Search | <a href="../../problems/0278/">C++</a> | O(logN) | O(1) |
-| 300 | <a href="https://leetcode.com/problems/longest-increasing-subsequence">Longest Increasing Subsequence</a> | 🟡 Medium | Dynamic Programming, Binary Search | <a href="../../problems/0300/">C++</a> | O(NlogN) | O(N) |
-| 367 | <a href="https://leetcode.com/problems/valid-perfect-square/">Valid Perfect Square</a> | 🟢 Easy | Binary Search | <a href="../../problems/0367/">C++</a> | O(logN) | O(1) |
-| 374 | <a href="https://leetcode.com/problems/guess-number-higher-or-lower/">Guess Number Higher or Lower</a> | 🟢 Easy | Binary Search | <a href="../../problems/0374/">C++</a> | O(logN) | O(1) |
-| 378 | <a href="https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/">Kth Smallest Element in a Sorted Matrix</a> | 🟡 Medium | Binary Search, Matrix | <a href="../../problems/0378/">C++</a> | O(Nlog(max-min)) | O(1) |
-| 540 | <a href="https://leetcode.com/problems/single-element-in-a-sorted-array">Single Element in a Sorted Array</a> | 🟡 Medium | Binary Search | <a href="../../problems/0540/">C++</a> | O(logN) | O(1) |
-| 704 | <a href="https://leetcode.com/problems/binary-search/">Binary Search</a> | 🟢 Easy | Binary Search | <a href="../../problems/0704/">C++</a> | O(logN) | O(1) |
-| 852 | <a href="https://leetcode.com/problems/peak-index-in-a-mountain-array">Peak Index in a Mountain Array</a> | 🟡 Medium | Binary Search | <a href="../../problems/0852/">C++</a> | O(logN) | O(1) |
-| 1201 | <a href="https://leetcode.com/problems/ugly-number-iii/">Ugly Number III</a> | 🟡 Medium | Binary Search, Math | <a href="../../problems/1201/">C++</a> | O(log(2E9)) | O(1) |
-| 1351 | <a href="https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/">Count Negative Numbers in a Sorted Matrix</a> | 🟢 Easy | Array, Matrix, Binary Search | <a href="../../problems/1351/">C++</a> | O(R+C) | O(1) |
-| 1930 | <a href="https://leetcode.com/problems/unique-length-3-palindromic-subsequences/">Unique Length-3 Palindromic Subsequences</a> | 🟡 Medium | Greedy, Hash | <a href="../../problems/1930/">C++</a> | O(N) | O(1) |
-| 2195 | <a href="https://leetcode.com/problems/append-k-integers-with-minimal-sum/">Append K Integers With Minimal Sum</a> | 🟡 Medium | Math, Binary Search | <a href="../../problems/2195/">C++</a> | O(NlogN) | O(1) |
-| 2529 | <a href="https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer">Maximum Count of Positive Integer and Negative Integer</a> | 🟢 Easy | Binary Search | <a href="../../problems/2529/">C++</a> | O(logN) | O(1) |</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4</td>
+<td><a href="https://leetcode.com/problems/median-of-two-sorted-arrays/">Median of Two Sorted Arrays</a></td>
+<td>🔴 Hard</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0004/">C++</a></td>
+<td>O(log(M+N))</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>33</td>
+<td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array">Search in Rotated Sorted Array</a></td>
+<td>🟡 Medium</td>
+<td>Array, Binary Search</td>
+<td><a href="../../problems/0033/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>69</td>
+<td><a href="https://leetcode.com/problems/sqrtx/">Sqrt(x)</a></td>
+<td>🟢 Easy</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0069/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>74</td>
+<td><a href="https://leetcode.com/problems/search-a-2d-matrix">Search a 2D Matrix</a></td>
+<td>🟡 Medium</td>
+<td>Binary Search, Matrix</td>
+<td><a href="../../problems/0074/">C++</a></td>
+<td>O(log(MN))</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>81</td>
+<td><a href="https://leetcode.com/problems/search-in-rotated-sorted-array-ii">Search in Rotated Sorted Array II</a></td>
+<td>🟡 Medium</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0081/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>153</td>
+<td><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/">Find Minimum in Rotated Sorted Array</a></td>
+<td>🟡 Medium</td>
+<td>Binary&nbsp;Search</td>
+<td><a href="../../problems/0153/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>154</td>
+<td><a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii">Find Minimum in Rotated Sorted Array II</a></td>
+<td>🔴 Hard</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0154/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>162</td>
+<td><a href="https://leetcode.com/problems/find-peak-element">Find Peak Element</a></td>
+<td>🟡 Medium</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0162/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>278</td>
+<td><a href="https://leetcode.com/problems/first-bad-version/">First Bad Version</a></td>
+<td>🟢 Easy</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0278/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>300</td>
+<td><a href="https://leetcode.com/problems/longest-increasing-subsequence">Longest Increasing Subsequence</a></td>
+<td>🟡 Medium</td>
+<td>Dynamic Programming, Binary Search</td>
+<td><a href="../../problems/0300/">C++</a></td>
+<td>O(NlogN)</td>
+<td>O(N)</td>
+</tr>
+<tr>
+<td>367</td>
+<td><a href="https://leetcode.com/problems/valid-perfect-square/">Valid Perfect Square</a></td>
+<td>🟢 Easy</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0367/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>374</td>
+<td><a href="https://leetcode.com/problems/guess-number-higher-or-lower/">Guess Number Higher or Lower</a></td>
+<td>🟢 Easy</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0374/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>378</td>
+<td><a href="https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/">Kth Smallest Element in a Sorted Matrix</a></td>
+<td>🟡 Medium</td>
+<td>Binary Search, Matrix</td>
+<td><a href="../../problems/0378/">C++</a></td>
+<td>O(Nlog(max-min))</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>540</td>
+<td><a href="https://leetcode.com/problems/single-element-in-a-sorted-array">Single Element in a Sorted Array</a></td>
+<td>🟡 Medium</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0540/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>704</td>
+<td><a href="https://leetcode.com/problems/binary-search/">Binary Search</a></td>
+<td>🟢 Easy</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0704/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>852</td>
+<td><a href="https://leetcode.com/problems/peak-index-in-a-mountain-array">Peak Index in a Mountain Array</a></td>
+<td>🟡 Medium</td>
+<td>Binary Search</td>
+<td><a href="../../problems/0852/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1201</td>
+<td><a href="https://leetcode.com/problems/ugly-number-iii/">Ugly Number III</a></td>
+<td>🟡 Medium</td>
+<td>Binary Search, Math</td>
+<td><a href="../../problems/1201/">C++</a></td>
+<td>O(log(2E9))</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1351</td>
+<td><a href="https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/">Count Negative Numbers in a Sorted Matrix</a></td>
+<td>🟢 Easy</td>
+<td>Array, Matrix, Binary Search</td>
+<td><a href="../../problems/1351/">C++</a></td>
+<td>O(R+C)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1930</td>
+<td><a href="https://leetcode.com/problems/unique-length-3-palindromic-subsequences/">Unique Length-3 Palindromic Subsequences</a></td>
+<td>🟡 Medium</td>
+<td>Greedy, Hash</td>
+<td><a href="../../problems/1930/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2195</td>
+<td><a href="https://leetcode.com/problems/append-k-integers-with-minimal-sum/">Append K Integers With Minimal Sum</a></td>
+<td>🟡 Medium</td>
+<td>Math, Binary Search</td>
+<td><a href="../../problems/2195/">C++</a></td>
+<td>O(NlogN)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2529</td>
+<td><a href="https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer">Maximum Count of Positive Integer and Negative Integer</a></td>
+<td>🟢 Easy</td>
+<td>Binary Search</td>
+<td><a href="../../problems/2529/">C++</a></td>
+<td>O(logN)</td>
+<td>O(1)</td>
+</tr>
+</tbody>
+</table>
 
 
 
