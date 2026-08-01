@@ -10,6 +10,7 @@
 | 167 | [Two Sum II - Input Array Is Sorted](../problems/0167.md) | 🟡 Medium | Array, Two Pointers | O(N) | O(1) |
 | 344 | [Reverse String](../problems/0344.md) | 🟢 Easy | Two Pointers | O(N) | O(1) |
 | 345 | [Reverse Vowels of a String](../problems/0345.md) | 🟢 Easy | String, Two Pointers | O(N) | O(1) |
+| 611 | [Valid Triangle Number](../problems/0611.md) | 🟡 Medium | Two Pointers Opposite, Two Pointers | O(N²) | O(1) |
 | 680 | [Valid Palindrome II](../problems/0680.md) | 🟢 Easy | Two Pointers | O(N) | O(1) |
 | 917 | [Reverse Only Letters](../problems/0917.md) | 🟢 Easy | Two Pointers, String | O(N) | O(1) |
 | 941 | [Valid Mountain Array](../problems/0941.md) | 🟢 Easy | Array, Two Pointers | O(N) | O(1) |

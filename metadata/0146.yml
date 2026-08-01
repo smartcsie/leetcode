@@ -1,0 +1,17 @@
+number: 146
+title: LRU Cache
+url: https://leetcode.com/problems/lru-cache/
+solutions:
+- file: Solution_0146.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table Mapping
+  - Hash Table
+  - Doubly Linked List
+  - Design
+  topics:
+  - hash-table-mapping
+  time: O(1)
+  space: O(Capacity)
+  familiarity: 生疏
+  is_best: true

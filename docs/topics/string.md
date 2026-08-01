@@ -19,7 +19,9 @@
 | 1455 | [Check If a Word Occurs As a Prefix](../problems/1455.md) | 🟢 Easy | String, Stream | O(N) | O(W) |
 | 1528 | [Shuffle String](../problems/1528.md) | 🟢 Easy | String, Array | O(N) | O(N) |
 | 1592 | [Rearrange Spaces Between Words](../problems/1592.md) | 🟢 Easy | String, Simulation | O(N) | O(N) |
+| 1678 | [Goal Parser Interpretation](../problems/1678.md) | 🟢 Easy | String, Parsing | O(N) | O(N) |
 | 1758 | [Minimum Changes To Make Alternating Binary String](../problems/1758.md) | 🟢 Easy | String | O(N) | O(1) |
+| 1784 | [Check if Binary String Has at Most One Segment of Ones](../problems/1784.md) | 🟢 Easy | String, Two Pointers | O(N) | O(1) |
 | 1790 | [Check if One String Swap Can Make Strings Equal](../problems/1790.md) | 🟢 Easy | String, Simulation | O(N) | O(1) |
 | 1910 | [Remove All Occurrences of a Substring](../problems/1910.md) | 🟡 Medium | Stack, String | O(N*M) | O(N) |
 | 1945 | [Sum of Digits of String After Convert](../problems/1945.md) | 🟢 Easy | String, Simulation | O(N+K*log(SUM)) | O(1) |

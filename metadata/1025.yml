@@ -1,0 +1,14 @@
+number: 1025
+title: Divisor Game
+url: https://leetcode.com/problems/divisor-game/
+solutions:
+- file: Solution_1025.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  - Game Theory
+  topics:
+  - math
+  time: O(1)
+  space: O(1)
+  is_best: true

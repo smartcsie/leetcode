@@ -7,6 +7,7 @@
 | 13 | [Roman to Integer](../problems/0013.md) | 🟢 Easy | Hash Table, Math, String | O(N) | O(1) |
 | 36 | [Valid Sudoku](../problems/0036.md) | 🟡 Medium | Array, Hash Table, Bitset | O(1) | O(1) |
 | 128 | [Longest Consecutive Sequence](../problems/0128.md) | 🟡 Medium | Array, Hash Table | O(N) | O(N) |
+| 146 | [LRU Cache](../problems/0146.md) | 🟡 Medium | Hash Table Mapping, Hash Table, Doubly Linked List, Design | O(1) | O(Capacity) |
 | 202 | [Happy Number](../problems/0202.md) | 🟢 Easy | Hash Table, Fast-Slow Pointers | O(logN) | O(1) |
 | 205 | [Isomorphic Strings](../problems/0205.md) | 🟢 Easy | Hash Table, String | O(N) | O(1) |
 | 242 | [Valid Anagram](../problems/0242.md) | 🟢 Easy | Hash Table, String | O(N) | O(1) |

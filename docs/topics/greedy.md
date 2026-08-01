@@ -15,6 +15,7 @@
 | 921 | [Minimum Add to Make Parentheses Valid](../problems/0921.md) | 🟡 Medium | Stack, Greedy | O(N) | O(1) |
 | 945 | [Minimum Increment to Make Array Unique](../problems/0945.md) | 🟡 Medium | Sorting, Greedy | O(NlogN) | O(1) |
 | 961 | [N-Repeated Element](../problems/0961.md) | 🟢 Easy | Math, Greedy | O(N) | O(1) |
+| 984 | [String Without AAA or BBB](../problems/0984.md) | 🟡 Medium | Greedy, Recursion, String Construction | O(A + B) | O(A + B) |
 | 1005 | [Maximize Sum Of Array After K Negations](../problems/1005.md) | 🟢 Easy | Greedy, Sorting | O(NlogN) | O(1) |
 | 1323 | [Maximum 69 Number](../problems/1323.md) | 🟢 Easy | Greedy, Math | O(D) | O(D) |
 | 1529 | [Minimum Suffix Flips](../problems/1529.md) | 🟡 Medium | Greedy, State Machine | O(N) | O(1) |
@@ -34,6 +35,7 @@
 | 2578 | [Split With Minimum Sum](../problems/2578.md) | 🟢 Easy | Greedy, Sorting | O(NlogN) | O(N) |
 | 2645 | [Minimum Additions to Make Valid String](../problems/2645.md) | 🟡 Medium | Greedy, Simulation | O(N) | O(1) |
 | 2656 | [Maximum Sum With Exactly K Elements](../problems/2656.md) | 🟢 Easy | Greedy | O(N) - 只需要遍歷一次 `nums` 陣列來尋找最大值，其中 n 為陣列長度。 | O(1) - 僅使用常數個變數來儲存最大值與計算結果，不需額外配置動態記憶體。 |
+| 2667 | [Create Hello World Function](../problems/2667.md) | 🟢 Easy | Greedy, Closure, Function Design | O(1) | O(1) |
 | 2745 | [Construct the Longest New String](../problems/2745.md) | 🟡 Medium | Greedy, Math, Brainteaser | O(1) | O(1) |
 | 2815 | [Max Pair Sum in an Array](../problems/2815.md) | 🟢 Easy | Greedy, Hashing | O(N*D) | O(1) |
 | 2864 | [Maximum Odd Binary Number](../problems/2864.md) | 🟢 Easy | Greedy, String | O(N) | O(1) |

@@ -22,6 +22,7 @@
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](../problems/1909.md) | 🟢 Easy | Array, Greedy, Two Candidates | O(N) | O(1) |
 | 1913 | [Maximum Product Difference Between Two Pairs](../problems/1913.md) | 🟢 Easy | Array, Sorting | O(N) | O(1) |
 | 1929 | [Concatenation of Array](../problems/1929.md) | 🟢 Easy | Array | O(N) | O(1)* |
+| 1995 | [Count Special Quadruplets](../problems/1995.md) | 🟢 Easy | Array, Brute Force | O(N⁴) | O(1) |
 | 2089 | [Find Target Indices After Sorting Array](../problems/2089.md) | 🟢 Easy | Array, Counting | O(N) | O(1) |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](../problems/2148.md) | 🟢 Easy | Array, Sorting | O(N) | O(1) |
 | 3162 | [Find the Number of Good Pairs I](../problems/3162.md) | 🟢 Easy | Array, Math, Brute Force | O(N*M) | O(1) |

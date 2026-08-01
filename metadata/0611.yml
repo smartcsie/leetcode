@@ -1,0 +1,15 @@
+number: 611
+title: Valid Triangle Number
+url: https://leetcode.com/problems/valid-triangle-number/
+solutions:
+- file: Solution_0611.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Two Pointers Opposite
+  - Two Pointers
+  topics:
+  - two-pointers-opposite
+  time: O(N²)
+  space: O(1)
+  familiarity: 生疏
+  is_best: true

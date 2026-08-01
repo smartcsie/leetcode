@@ -622,13 +622,26 @@ function addSolutionBlock(prefill) {
         <select class="sol-topics-select multi-select" multiple size="6"></select>
       </div>
     </div>
+    <div class="field-row">
+      <div class="field">
+        <label>熟悉度 <span class="hint">(選填)</span></label>
+        <select class="sol-familiarity" style="max-width: 220px;">
+          <option value="">未標記</option>
+          <option value="生疏">🔴 生疏</option>
+          <option value="熟練">🟢 熟練</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>&nbsp;</label>
+        <label style="display:flex; align-items:center; gap:8px; font-weight:400; cursor:pointer;">
+          <input type="checkbox" class="sol-is-best" style="width:auto;">
+          🏆 標記為這題的最佳解
+        </label>
+      </div>
+    </div>
     <div class="field">
-      <label>熟悉度 <span class="hint">(選填)</span></label>
-      <select class="sol-familiarity" style="max-width: 220px;">
-        <option value="">未標記</option>
-        <option value="生疏">🔴 生疏</option>
-        <option value="熟練">🟢 熟練</option>
-      </select>
+      <label>相關題目 <span class="hint">(選填，逗號分隔題號，例如 136, 260)</span></label>
+      <input type="text" class="sol-related" placeholder="136, 260">
     </div>
     <div class="field-row">
       <div class="field">
@@ -705,6 +718,8 @@ async function loadExistingProblem() {
       block.querySelector('.sol-space').value = sol.space || '';
       block.querySelector('.sol-note').value = sol.note || '';
       block.querySelector('.sol-code').value = sol.code || '';
+      block.querySelector('.sol-is-best').checked = !!sol.is_best;
+      block.querySelector('.sol-related').value = (sol.related || []).join(', ');
 
       const familiarityEl = block.querySelector('.sol-familiarity');
       if (sol.familiarity) familiarityEl.value = sol.familiarity;
@@ -784,6 +799,12 @@ function collectStructuredData() {
     const familiarity = familiarityEl ? familiarityEl.value : '';
     const noteEl = block.querySelector('.sol-note');
     const note = noteEl ? noteEl.value.trim() : '';
+    const isBestEl = block.querySelector('.sol-is-best');
+    const isBest = isBestEl ? isBestEl.checked : false;
+    const relatedEl = block.querySelector('.sol-related');
+    const related = relatedEl
+      ? relatedEl.value.split(',').map(s => s.trim()).filter(Boolean).map(s => parseInt(s, 10)).filter(n => !isNaN(n))
+      : [];
 
     if (topics.length === 0) {
       missingTopics.push(`解法 #${idx + 1}（${file}）`);
@@ -793,6 +814,8 @@ function collectStructuredData() {
       file, difficulty, tags, topics, time, space,
       familiarity: familiarity || null,
       note: note || null,
+      is_best: isBest || null,
+      related: related.length ? related : null,
       code,
     });
   });
@@ -821,6 +844,11 @@ function buildYamlPreview(data) {
     lines.push(`  time: ${sol.time}`);
     lines.push(`  space: ${sol.space}`);
     if (sol.familiarity) lines.push(`  familiarity: ${sol.familiarity}`);
+    if (sol.is_best) lines.push(`  is_best: true`);
+    if (sol.related && sol.related.length) {
+      lines.push(`  related:`);
+      sol.related.forEach(r => lines.push(`  - ${r}`));
+    }
     if (sol.note) lines.push(`  note: ${sol.note}`);
   });
   return lines.join('\n') + '\n';

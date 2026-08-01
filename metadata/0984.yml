@@ -1,0 +1,16 @@
+number: 984
+title: String Without AAA or BBB
+url: https://leetcode.com/problems/string-without-aaa-or-bbb/
+solutions:
+- file: Solution_0984.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy
+  - Recursion
+  - String Construction
+  topics:
+  - greedy
+  time: O(A + B)
+  space: O(A + B)
+  familiarity: 生疏
+  is_best: true

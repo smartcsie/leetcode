@@ -1,0 +1,16 @@
+number: 951
+title: Flip Equivalent Binary Trees
+url: https://leetcode.com/problems/flip-equivalent-binary-trees/
+solutions:
+- file: Solution_0951.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree
+  - Recursion
+  - DFS
+  topics:
+  - tree
+  time: O(min(N1, N2))
+  space: O(min(N1, N2))
+  familiarity: 生疏
+  is_best: true

@@ -1,0 +1,29 @@
+/**
+ * 題目：2667. Create Hello World Function (建立 Hello World 函式)
+ * 難度：簡單 (Easy)
+ * 描述：實作一個函式 createHelloWorld，呼叫後回傳一個新的函式；
+ *       不論這個新函式傳入什麼參數，永遠都回傳字串 "Hello World"。
+ *       （原題為 JavaScript 閉包題，此版本用 C++ 的 std::function + lambda 達成等價效果）
+ *
+ * 時間複雜度：O(1) - 呼叫回傳的函式，只需常數時間直接回傳固定字串。
+ * 空間複雜度：O(1) - 不需額外配置隨參數量成長的記憶體。
+ *
+ * 解法思路：
+ * 1. 回傳一個「閉包」函式 (Return a Closure)：
+ *    - createHelloWorld 本身不直接回傳字串，而是回傳一個 std::function<string()>，
+ *      這個內部函式才是真正被呼叫、產生答案的地方。
+ * 2. 內部函式完全忽略傳入的參數 (Ignore All Arguments)：
+ *    - 因為題目要求「不管傳什麼參數都回傳 Hello World」，
+ *      所以內部 lambda 不需要接收任何參數，直接固定回傳字串即可。
+ * 3. 呼叫方式：先取得函式，再實際呼叫 (Two-Step Invocation)：
+ *    - 使用方式是 auto f = createHelloWorld(); 接著呼叫 f() 才會真正取得 "Hello World"，
+ *      這正是這題想考的「函式回傳函式」設計模式（原題目在 JS 裡稱為閉包）。
+ */
+class Solution {
+public:
+    function<string()> createHelloWorld() {
+        return []() {
+            return string("Hello World");
+        };
+    }
+};

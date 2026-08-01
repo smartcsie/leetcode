@@ -1,0 +1,15 @@
+number: 747
+title: Largest Number At Least Twice of Others
+url: https://leetcode.com/problems/largest-number-at-least-twice-of-others/
+solutions:
+- file: Solution_0747.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array Linear Scan
+  - Linear Scan
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)
+  familiarity: 生疏
+  is_best: true

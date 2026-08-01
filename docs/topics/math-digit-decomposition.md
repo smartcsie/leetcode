@@ -12,6 +12,7 @@
 | 1017 | [Convert to Base -2](../problems/1017.md) | 🟡 Medium | Math | O(logN) | O(1) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](../problems/1281.md) | 🟢 Easy | Math, Digit Manipulation | O(logN) | O(1) |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](../problems/1317.md) | 🟢 Easy | Math, Simulation | O(N*logN) | O(1) |
+| 1399 | [Count Largest Group](../problems/1399.md) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation, Counting | O(N * D) | O(1) |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](../problems/1404.md) | 🟡 Medium | Bit Manipulation, String Simulation | O(N) | O(1) |
 | 1742 | [Maximum Number of Balls in a Box](../problems/1742.md) | 🟢 Easy | Math, Simulation, Hash Table | O(N*D) | O(1)* |
 | 1837 | [Sum of Digits in Base K](../problems/1837.md) | 🟢 Easy | Math | O(logₖN) | O(1) |

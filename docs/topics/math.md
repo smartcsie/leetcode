@@ -11,6 +11,7 @@
 | 258 | [Add Digits](../problems/0258.md) | 🟢 Easy | Math | O(1) | O(1) |
 | 263 | [Ugly Number](../problems/0263.md) | 🟢 Easy | Math | O(logN) | O(1) |
 | 268 | [Missing Number](../problems/0268.md) | 🟢 Easy | Math | O(N) | O(1) |
+| 292 | [Nim Game](../problems/0292.md) | 🟢 Easy | Math, Game Theory | O(1) | O(1) |
 | 326 | [Power of Three](../problems/0326.md) | 🟢 Easy | Math | O(log₃N) | O(1) |
 | 342 | [Power of Four](../problems/0342.md) | 🟢 Easy | Math | O(1) | O(1) |
 | 396 | [Rotate Function](../problems/0396.md) | 🟡 Medium | Math, Array | O(N) | O(1) |
@@ -18,14 +19,18 @@
 | 441 | [Arranging Coins](../problems/0441.md) | 🟢 Easy | Math, Binary Search | O(logN) | O(1) |
 | 628 | [Maximum Product of Three Numbers](../problems/0628.md) | 🟢 Easy | Array, Math | O(N) | O(1) |
 | 633 | [Sum of Square Numbers](../problems/0633.md) | 🟡 Medium | Math, Two Pointers | O(√C) | O(1) |
+| 810 | [Chalkboard XOR Game](../problems/0810.md) | 🔴 Hard | Math, Game Theory | O(N) | O(1) |
+| 836 | [Rectangle Overlap](../problems/0836.md) | 🟡 Medium | Math, Geometry | O(1) | O(1) |
 | 970 | [Powerful Integers](../problems/0970.md) | 🟡 Medium | Math, Hash Table | O(log_X(BOUND)*log_Y(BOUND)) | O(S) |
 | 1015 | [Smallest Integer Divisible by K](../problems/1015.md) | 🟡 Medium | Modular Arithmetic | O(K) | O(1) |
 | 1018 | [Binary Prefix Divisible By 5](../problems/1018.md) | 🟢 Easy | Math, Modulo | O(N) | O(1) |
+| 1025 | [Divisor Game](../problems/1025.md) | 🟢 Easy | Math, Game Theory | O(1) | O(1) |
 | 1185 | [Day of the Week](../problems/1185.md) | 🟢 Easy | Math, Zeller's Congruence | O(1) | O(1) |
 | 1232 | [Check If It Is a Straight Line](../problems/1232.md) | 🟢 Easy | Geometry, Math | O(N) | O(1) |
 | 1247 | [Minimum Swaps to Make Strings Equal](../problems/1247.md) | 🟡 Medium | Greedy, Math, String | O(N) | O(1) |
 | 1295 | [Find Numbers with Even Number of Digits](../problems/1295.md) | 🟢 Easy | Array, Math | O(N) | O(1) |
 | 1344 | [Angle Between Hands of a Clock](../problems/1344.md) | 🟡 Medium | Math | O(1) | O(1) |
+| 1374 | [Generate a String With Characters That Have Odd Counts](../problems/1374.md) | 🟢 Easy | Math, Construction | O(N) | O(N) |
 | 1375 | [Number of Times Binary String Is Prefix-Aligned](../problems/1375.md) | 🟡 Medium | Array, Simulation, Greedy | O(N) | O(1) |
 | 1523 | [Count Odd Numbers in an Interval Range](../problems/1523.md) | 🟢 Easy | Math | O(1) | O(1) |
 | 1572 | [Matrix Diagonal Sum](../problems/1572.md) | 🟢 Easy | Matrix | O(N) | O(1) |

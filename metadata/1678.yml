@@ -1,0 +1,14 @@
+number: 1678
+title: Goal Parser Interpretation
+url: https://leetcode.com/problems/goal-parser-interpretation/
+solutions:
+- file: Solution_1678.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Parsing
+  topics:
+  - string
+  time: O(N)
+  space: O(N)
+  is_best: true

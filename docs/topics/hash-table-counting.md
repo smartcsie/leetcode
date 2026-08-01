@@ -7,6 +7,7 @@
 | 697 | [Degree of an Array](../problems/0697.md) | 🟢 Easy | Hash Map, One-pass | O(N) | O(N) |
 | 771 | [Jewels and Stones](../problems/0771.md) | 🟢 Easy | Hash Set, String | O(J+S) | O(J) |
 | 819 | [Most Common Word](../problems/0819.md) | 🟢 Easy | String, Hash Table | O(M+N) | O(M+N) |
+| 916 | [Word Subsets](../problems/0916.md) | 🟡 Medium | Hash Table Counting, Hash Table, Counting | O(N * L) | O(1) |
 | 1160 | [Find Words That Can Be Formed by Characters](../problems/1160.md) | 🟢 Easy | Frequency Count | O(N) | O(1) |
 | 1189 | [Maximum Number of Balloons](../problems/1189.md) | 🟢 Easy | Hash Table, String, Counting | O(N) | O(1)* |
 | 1207 | [Unique Number of Occurrences](../problems/1207.md) | 🟢 Easy | Hash Table, Counting | O(N) | O(N) |

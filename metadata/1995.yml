@@ -1,0 +1,13 @@
+number: 1995
+title: Count Special Quadruplets
+url: https://leetcode.com/problems/count-special-quadruplets/
+solutions:
+- file: Solution_1995.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  - Brute Force
+  topics:
+  - array
+  time: O(N⁴)
+  space: O(1)

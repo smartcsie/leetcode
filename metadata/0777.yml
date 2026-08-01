@@ -1,0 +1,15 @@
+number: 777
+title: Swap Adjacent in LR String
+url: https://leetcode.com/problems/swap-adjacent-in-lr-string/
+solutions:
+- file: Solution_0777.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Two Pointers Same
+  - Two Pointers
+  topics:
+  - two-pointers-same
+  time: O(N)
+  space: O(1)
+  familiarity: 生疏
+  is_best: true

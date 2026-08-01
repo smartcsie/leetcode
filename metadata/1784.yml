@@ -1,0 +1,13 @@
+number: 1784
+title: Check if Binary String Has at Most One Segment of Ones
+url: https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/
+solutions:
+- file: Solution_1784.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  - Two Pointers
+  topics:
+  - string
+  time: O(N)
+  space: O(1)

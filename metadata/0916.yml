@@ -1,0 +1,15 @@
+number: 916
+title: Word Subsets
+url: https://leetcode.com/problems/word-subsets/
+solutions:
+- file: Solution_0916.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table Counting
+  - Hash Table
+  - Counting
+  topics:
+  - hash-table-counting
+  time: O(N * L)
+  space: O(1)
+  familiarity: 生疏

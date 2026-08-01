@@ -1,0 +1,14 @@
+number: 2667
+title: Create Hello World Function
+url: https://leetcode.com/problems/create-hello-world-function/
+solutions:
+- file: Solution_2667.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy
+  - Closure
+  - Function Design
+  topics:
+  - greedy
+  time: O(1)
+  space: O(1)

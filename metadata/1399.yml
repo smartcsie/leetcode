@@ -1,0 +1,16 @@
+number: 1399
+title: Count Largest Group
+url: https://leetcode.com/problems/count-largest-group/
+solutions:
+- file: Solution_1399.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math Digit Decomposition
+  - Digit Manipulation
+  - Counting
+  topics:
+  - math-digit-decomposition
+  time: O(N * D)
+  space: O(1)
+  familiarity: 生疏
+  is_best: true

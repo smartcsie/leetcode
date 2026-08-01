@@ -15,5 +15,6 @@
 | 590 | [N-ary Tree Postorder Traversal](../problems/0590.md) | 🟢 Easy | Tree | O(N) | O(H) |
 | 652 | [Find Duplicate Subtrees](../problems/0652.md) | 🟡 Medium | Tree, DFS, Hash Table, Serialization | O(N²) | O(N²) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](../problems/0889.md) | 🟡 Medium | Tree, Recursion | O(N) | O(N) |
+| 951 | [Flip Equivalent Binary Trees](../problems/0951.md) | 🟡 Medium | Tree, Recursion, DFS | O(min(N1, N2)) | O(min(N1, N2)) |
 | 2236 | [Root Equals Sum of Children](../problems/2236.md) | 🟢 Easy | Tree | O(1) | O(1) |
 | 2331 | [Evaluate Boolean Binary Tree](../problems/2331.md) | 🟢 Easy | Tree, DFS, Recursion | O(N) | O(H) |

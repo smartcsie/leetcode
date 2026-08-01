@@ -1,0 +1,16 @@
+number: 5
+title: Longest Palindromic Substring
+url: https://leetcode.com/problems/longest-palindromic-substring/
+solutions:
+- file: Solution_0005.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Two Pointers Center Expansion
+  - Expand Around Center
+  - Two Pointers
+  topics:
+  - two-pointers-center-expansion
+  time: O(N²)
+  space: O(1)
+  familiarity: 生疏
+  is_best: true

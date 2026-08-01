@@ -3,6 +3,7 @@
 | # | 題目 | 難度 | 標籤 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- |
 | 148 | [Sort List](../problems/0148.md) | 🟡 Medium | Linked List, Merge Sort | O(NlogN) | O(logN) |
+| 164 | [Maximum Gap](../problems/0164.md) | 🟡 Medium | Sorting, Bucket Sort, Pigeonhole Principle | O(N) | O(N) |
 | 179 | [Largest Number](../problems/0179.md) | 🟡 Medium | Sorting, String | O(NlogN*K) | O(N*K) |
 | 347 | [Top K Frequent Elements](../problems/0347.md) | 🟡 Medium | Hash Table, QuickSelect | O(N) | O(N) |
 | 451 | [Sort Characters By Frequency](../problems/0451.md) | 🟡 Medium | Hash Table, Bucket Sort | O(N) | O(N) |

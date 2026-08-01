@@ -1,0 +1,14 @@
+number: 164
+title: Maximum Gap
+url: https://leetcode.com/problems/maximum-gap/
+solutions:
+- file: Solution_0164.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sorting
+  - Bucket Sort
+  - Pigeonhole Principle
+  topics:
+  - sorting
+  time: O(N)
+  space: O(N)
