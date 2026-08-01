@@ -1,7 +1,7 @@
 # linked-list
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 Medium | Linked List, Math | [C++](../problems/0002.md) | O(max(N,M)) | O(max(N,M)) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](../problems/0021.md) | O(N+M) | O(1) |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 Medium | Linked List, Recursion | [C++](../problems/0024.md) | O(N) | O(N) |

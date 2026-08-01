@@ -1,7 +1,7 @@
 # string
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | String, Math | [C++](../problems/0008.md) | O(N) | O(1) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String, Trie | [C++](../problems/0014.md) | O(S) | O(1) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | Math, String | [C++](../problems/0043.md) | O(M*N) | O(M+N) |

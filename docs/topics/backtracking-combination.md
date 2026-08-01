@@ -1,7 +1,7 @@
 # backtracking-combination
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Backtracking | [C++](../problems/0017.md) | O(4^N) | O(N) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | Backtracking, String | [C++](../problems/0022.md) | O(4ᴺ/√N) | O(N) |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking | [C++](../problems/0039.md) | O(N^(T/M)) | O(T/M) |

@@ -1,7 +1,7 @@
 # quick-select
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Array, Sorting, QuickSelect | [C++](../problems/0215.md) | O(N) 平均 | O(1) |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | 🟡 Medium | Sorting, Quickselect | [C++](../problems/0324.md) | O(N) | O(1) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Math, QuickSelect | [C++](../problems/0973.md) | O(N) | O(1) |

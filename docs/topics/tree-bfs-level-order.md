@@ -1,7 +1,7 @@
 # tree-bfs-level-order
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Tree, BFS | [C++](../problems/0102.md) | O(N) | O(W) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree, BFS | [C++](../problems/0103.md) | O(N) | O(W) |
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | 🟢 Easy | Tree, BFS | [C++](../problems/0107.md) | O(N) | O(W) |

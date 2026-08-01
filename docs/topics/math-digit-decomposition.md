@@ -1,7 +1,7 @@
 # math-digit-decomposition
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](../problems/0007.md) | O(logN) | O(1) |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math, Base Conversion | [C++](../problems/0168.md) | O(log26N) | O(1) |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math, Base Conversion | [C++](../problems/0171.md) | O(N) | O(1) |

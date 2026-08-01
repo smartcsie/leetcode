@@ -1,7 +1,7 @@
 # math
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math, Binary Exponentiation | [C++](../problems/0050.md) | O(logN) | O(1) |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math, Factorial | [C++](../problems/0060.md) | O(N²) | O(N) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](../problems/0066.md) | O(N) | O(1) |

@@ -1,7 +1,7 @@
 # hash-table-mapping
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table | [C++](../problems/0001.md) | O(N) | O(N) |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 Medium | Math, Hash Table, String | [C++](../problems/0012.md) | O(1) | O(1) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 Easy | Hash Table, Math, String | [C++](../problems/0013.md) | O(N) | O(1) |

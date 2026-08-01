@@ -1,7 +1,7 @@
 # sorting
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List, Merge Sort | [C++](../problems/0148.md) | O(NlogN) | O(logN) |
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting, Bucket Sort, Pigeonhole Principle | [C++](../problems/0164.md) | O(N) | O(N) |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Sorting, String | [C++](../problems/0179.md) | O(NlogN*K) | O(N*K) |

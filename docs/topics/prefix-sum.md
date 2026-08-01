@@ -1,7 +1,7 @@
 # prefix-sum
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array, Prefix Sum | [C++](../problems/0238.md) | O(N) | O(1) |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Array, Prefix Sum | [C++](../problems/0303.md) | O(N) | O(N) |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array, Matrix, Prefix Sum | [C++](../problems/0304.md) | O(M*N) 初始化 / O(1) 查詢 | O(M*N) |

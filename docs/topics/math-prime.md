@@ -1,7 +1,7 @@
 # math-prime
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math, Sieve | [C++](../problems/0204.md) | O(NloglogN) | O(N) |
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Prime, Palindrome Construction | [C++](../problems/0866.md) | O(sqrt(10^9)) | O(1) |
 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | Math, Prime Factorization | [C++](../problems/2521.md) | O(N*sqrt(M)) | O(K) |

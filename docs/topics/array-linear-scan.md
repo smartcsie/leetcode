@@ -1,7 +1,7 @@
 # array-linear-scan
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array | [C++](../problems/0414.md) | O(N) | O(1) |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Array, Sorting, Two Pointers | [C++](../problems/0581.md) | O(NlogN) | O(N) |
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 Easy | Array Linear Scan, Linear Scan | [C++](../problems/0747.md) | O(N) | O(1) |

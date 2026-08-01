@@ -1,7 +1,7 @@
 # two-pointers-same
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | Array, Two Pointers | [C++](../problems/0031.md) | O(N) | O(1) |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | Linked List, Two Pointers | [C++](../problems/0086.md) | O(N) | O(1) |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0228.md) | O(N) | O(1) |

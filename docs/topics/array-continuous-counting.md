@@ -1,7 +1,7 @@
 # array-continuous-counting
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array | [C++](../problems/0485.md) | O(N) | O(1) |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String, Greedy | [C++](../problems/0696.md) | O(N) | O(1) |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | String | [C++](../problems/1446.md) | O(N) | O(1) |

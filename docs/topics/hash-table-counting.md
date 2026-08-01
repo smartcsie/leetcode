@@ -1,7 +1,7 @@
 # hash-table-counting
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table, String | [C++](../problems/0049.md) | O(N*K) | O(N*K) |
 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Counting | [C++](../problems/0532.md) | O(NlogN) - 排序後雙指針或二分搜尋。 | O(N) - 排序空間 O(logN)，set O(N)。 |
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 Easy | Hash Map, One-pass | [C++](../problems/0697.md) | O(N) | O(N) |

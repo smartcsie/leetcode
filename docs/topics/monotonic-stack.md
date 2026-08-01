@@ -1,7 +1,7 @@
 # monotonic-stack
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | Array, Hash Table, Stack, Monotonic Stack | [C++](../problems/0496.md) | O(N+M) | O(N) |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 Medium | Array, Stack, Monotonic Stack | [C++](../problems/0503.md) | O(N) | O(N) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | Stack, Monotonic Stack | [C++](../problems/0739.md) | O(N) | O(N) |

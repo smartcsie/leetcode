@@ -1,7 +1,7 @@
 # knapsack-problem
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Math, Dynamic Programming, DP, Unbounded Knapsack (Permutation) | [C++](../problems/0070.md) | O(N) | O(1) |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0139.md) | O(N³) | O(N) |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0279.md) | O(N*√N) | O(N) |

@@ -1,7 +1,7 @@
 # tree-dfs-path
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree, DFS, Stack | [C++](../problems/0094.md) | O(N) | O(H) |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 Easy | Tree, DFS | [C++](../problems/0101.md) | O(N) | O(H) |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Tree, DFS | [C++](../problems/0104.md) | O(N) | O(H) |

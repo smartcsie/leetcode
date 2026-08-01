@@ -1,7 +1,7 @@
 # priority-queue
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | Heap, Linked List | [C++](../problems/0023.md) | O(NlogK) | O(K) |
 | 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sum/) | 🟡 Medium | Heap, Greedy | [C++](../problems/0373.md) | O(KlogK) | O(K) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | Hash Table, Heap | [C++](../problems/0692.md) | O(NlogK) | O(N) |

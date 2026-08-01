@@ -1,7 +1,7 @@
 # binary-search-tree
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Tree, DFS, BST | [C++](../problems/0098.md) | O(N) | O(H) |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | BST, In-order Traversal | [C++](../problems/0099.md) | O(N) | O(1) |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Tree, DFS, Binary Search | [C++](../problems/0108.md) | O(N) | O(logN) |

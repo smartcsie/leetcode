@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://claude.ai/chat/ab24abcb-e2ef-4887-b272-518a1a639e3f
+HostUrl=https://claude.ai/api/organizations/492326ea-57a9-4c4e-aa77-76f56273dddf/conversations/ab24abcb-e2ef-4887-b272-518a1a639e3f/wiggle/download-file?path=%2Fmnt%2Fuser-data%2Foutputs%2Ffix_table_full.py

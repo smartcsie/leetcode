@@ -1,7 +1,7 @@
 # design
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | Hash Table Mapping, Hash Table, Doubly Linked List, Design | [C++](../problems/0146.md) | O(1) | O(Capacity) |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack) | 🟡 Medium | Stack, Design | [C++](../problems/0155.md) | O(1) | O(N) |
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | 🟢 Easy | Hash Table, Design | [C++](../problems/0705.md) | O(1) | O(N) |

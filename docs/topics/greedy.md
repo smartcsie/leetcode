@@ -1,7 +1,7 @@
 # greedy
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | Greedy | [C++](../problems/0055.md) | O(N) | O(1) |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](../problems/0343.md) | O(1) | O(1) |
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](../problems/0397.md) | O(1) |  |

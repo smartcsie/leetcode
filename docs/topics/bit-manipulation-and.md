@@ -1,7 +1,7 @@
 # bit-manipulation-and
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit-Manipulation | [C++](../problems/0191.md) | O(1) | O(1) |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](../problems/0201.md) | O(logN) | O(1) |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | DP, Bit Manipulation | [C++](../problems/0338.md) | O(N) | O(N) |

@@ -1,7 +1,7 @@
 # dynamic-programming-kadane-algorithm
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Array, Dynamic Programming | [C++](../problems/0053.md) | O(N) | O(1) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | Array, DP | [C++](../problems/0118.md) | O(N²) | O(1)* |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | Dynamic Programming, Array | [C++](../problems/0152.md) | O(N) | O(1) |

@@ -1,7 +1,7 @@
 # fast-slow-pointers
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 Medium | Linked List, Fast-Slow Pointers | [C++](../problems/0019.md) | O(N) | O(1) |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Array, Fast-Slow Pointers | [C++](../problems/0026.md) | O(N) | O(1) |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Array, Fast-Slow Pointers | [C++](../problems/0027.md) | O(N) | O(1) |

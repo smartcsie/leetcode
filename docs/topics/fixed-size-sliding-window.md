@@ -1,7 +1,7 @@
 # fixed-size-sliding-window
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | Sliding Window, Hash Table | [C++](../problems/0003.md) | O(N) | O(1) |
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | 🔴 Hard | Sliding Window, Ordered Map, Bucket | [C++](../problems/0220.md) | O(Nlog(min(N,K))) | O(min(N,K)) |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 Medium | Sliding Window, Frequency Array | [C++](../problems/0567.md) | O(L1+L2) | O(1) |

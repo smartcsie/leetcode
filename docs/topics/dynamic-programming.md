@@ -1,7 +1,7 @@
 # dynamic-programming
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | DP | [C++](../problems/0063.md) | O(M*N) | O(N) |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | DP | [C++](../problems/0064.md) | O(M*N) | O(1) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Math, Dynamic Programming, DP, Unbounded Knapsack (Permutation) | [C++](../problems/0070.md) | O(N) | O(1) |

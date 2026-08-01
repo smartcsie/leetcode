@@ -1,7 +1,7 @@
 # 2d-array
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Array | [C++](../problems/0048.md) | O(N²) | O(1) |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | Array, Matrix | [C++](../problems/0073.md) | O(M*N) | O(1) |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0832.md) | O(N*M) | O(1) |

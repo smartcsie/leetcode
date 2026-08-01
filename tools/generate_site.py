@@ -219,7 +219,7 @@ def build_topic_indexes(problems, topics_out_dir):
         rows.sort(key=lambda r: r['number'])
         lines = [f"# {topic}", '',
                  "| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
-                 "| --- | --- | --- | --- | --- | --- |"]
+                 "| --- | --- | --- | --- | --- | --- | --- |"]
         for r in rows:
             tags_str = ', '.join(r['tags'])
             page_link = f"../problems/{r['number']:04d}.md"
