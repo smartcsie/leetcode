@@ -33,6 +33,28 @@ SOLUTION_DIR = "solution"
 PUBLISH_SCRIPT = "publish.sh"
 PUBLISH_TIMEOUT_SEC = 180
 
+
+def load_activation_code():
+    """
+    密碼放在 activation_code.txt（不會被 git 追蹤，見 .gitignore），
+    不寫死在這個檔案裡，因為 save_server.py 本身可能被 push 到 public repo。
+    找不到設定檔就用一個永遠不會通過驗證的預設值，安全失敗（fail closed）。
+    """
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'activation_code.txt')
+    if os.path.exists(path):
+        with open(path, 'r', encoding='utf-8') as f:
+            code = f.read().strip()
+        if code:
+            return code
+    print("⚠️  警告：找不到 activation_code.txt，或內容是空的！")
+    print("⚠️  目前使用無效的預設密碼，所有存檔/發佈請求都會被拒絕。")
+    print("⚠️  請在 save_server.py 同一層資料夾建立 activation_code.txt，內容填入你自己的密碼。")
+    return "PLEASE-SET-activation_code.txt-" + os.urandom(8).hex()
+
+
+# ⚠️ 真正的密碼放在同層資料夾的 activation_code.txt（已加進 .gitignore，不會被 push 上去）
+ACTIVATION_CODE = load_activation_code()
+
 SAFE_FILENAME_RE = re.compile(r'^[A-Za-z0-9_\-\.]+$')
 ANSI_RE = re.compile(r'\x1b\[[0-9;]*m')
 
@@ -109,6 +131,10 @@ def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_
 
 class Handler(http.server.SimpleHTTPRequestHandler):
 
+    def _check_auth(self):
+        provided = self.headers.get('X-Activation-Code', '')
+        return provided == ACTIVATION_CODE
+
     def _send_json(self, status, payload):
         body = json.dumps(payload, ensure_ascii=False).encode('utf-8')
         self.send_response(status)
@@ -123,6 +149,9 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         return json.loads(raw.decode('utf-8')) if raw else {}
 
     def do_POST(self):
+        if not self._check_auth():
+            self._send_json(401, {'error': '啟用碼錯誤或未提供，請確認網頁上方「啟用碼」欄位'})
+            return
         if self.path == '/api/save':
             self._handle_save()
         elif self.path == '/api/publish':
@@ -132,6 +161,9 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         if self.path.startswith('/api/problem/'):
+            if not self._check_auth():
+                self._send_json(401, {'error': '啟用碼錯誤或未提供，請確認網頁上方「啟用碼」欄位'})
+                return
             self._handle_load_problem()
         else:
             super().do_GET()

@@ -349,6 +349,14 @@
   <!-- ===================== FORM PANE ===================== -->
   <div class="form-pane">
 
+    <div class="section-label">🔐 啟用碼</div>
+    <div class="field">
+      <input type="password" id="activationCode" placeholder="輸入啟用碼（存檔/發佈時需要）" oninput="localStorage.setItem('activationCode', this.value)">
+      <div style="font-family: var(--mono); font-size: 11px; color: var(--text-dim); margin-top: 4px;">
+        會自動記住在這個瀏覽器裡，換一台電腦/瀏覽器需要重新輸入
+      </div>
+    </div>
+
     <div class="section-label">修改既有題目</div>
     <div class="field-row" style="align-items: flex-end;">
       <div class="field" style="margin-bottom: 0;">
@@ -441,13 +449,17 @@ let lastNumber = '';
 let lastCppFiles = [];
 let lastStructuredData = null;
 
+function getActivationCode() {
+  return document.getElementById('activationCode').value.trim();
+}
+
 async function saveViaServer() {
   if (!lastStructuredData) { showToast('請先按「產生」'); return false; }
 
   try {
     const resp = await fetch('/api/save', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'X-Activation-Code': getActivationCode() },
       body: JSON.stringify(lastStructuredData),
     });
     const result = await resp.json();
@@ -487,7 +499,7 @@ async function publishViaServer() {
   try {
     const resp = await fetch('/api/publish', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'X-Activation-Code': getActivationCode() },
       body: JSON.stringify({ message }),
     });
     const result = await resp.json();
@@ -682,7 +694,9 @@ async function loadExistingProblem() {
   statusEl.style.color = 'var(--text-dim)';
 
   try {
-    const resp = await fetch(`/api/problem/${parseInt(number, 10)}`);
+    const resp = await fetch(`/api/problem/${parseInt(number, 10)}`, {
+      headers: { 'X-Activation-Code': getActivationCode() },
+    });
     const data = await resp.json();
     if (!resp.ok) {
       statusEl.textContent = `⚠️ ${data.error || resp.status}`;
@@ -1081,6 +1095,10 @@ function parseAndFill() {
 
 // init with one solution block
 addSolutionBlock();
+
+// 還原之前存過的啟用碼（同一個瀏覽器才會記得）
+const savedCode = localStorage.getItem('activationCode');
+if (savedCode) document.getElementById('activationCode').value = savedCode;
 </script>
 
 </body>
