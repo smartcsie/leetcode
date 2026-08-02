@@ -1,6 +1,6 @@
 # 📝 複習清單（生疏）
 
-目前共有 872 個解法標記為生疏，建議找時間重新練習。
+目前共有 871 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -234,7 +234,6 @@
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | [C++](problems/0416.md) | knapsack-problem |
 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | [C++](problems/0421.md) | bit-manipulation-xor |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | 🟡 Medium | [C++](problems/0424.md) | variable-size-sliding-window |
-| 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | 🟡 Medium | [C++](problems/0429.md) | tree-bfs-level-order |
 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | [C++](problems/0434.md) | string |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | [C++](problems/0435.md) | interval |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | [C++](problems/0437.md) | tree-dfs-path |
