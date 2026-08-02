@@ -1,6 +1,6 @@
 # 📝 複習清單（生疏）
 
-目前共有 873 個解法標記為生疏，建議找時間重新練習。
+目前共有 872 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -89,7 +89,6 @@
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | [C++](problems/0099.md) | binary-search-tree |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [C++](problems/0100.md) | tree |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 Easy | [C++](problems/0101.md) | tree-dfs-path |
-| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | [C++](problems/0102.md) | tree-bfs-level-order |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | [C++](problems/0103.md) | tree-bfs-level-order |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | [C++](problems/0104.md) | tree-dfs-path |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | [C++](problems/0105.md) | tree |

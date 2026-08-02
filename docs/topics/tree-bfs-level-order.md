@@ -1,10 +1,9 @@
 # tree-bfs-level-order
 
-## 🔴 生疏（16）
+## 🔴 生疏（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Tree, BFS | [C++](../problems/0102.md) | O(N) | O(W) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree, BFS | [C++](../problems/0103.md) | O(N) | O(W) |
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | 🟢 Easy | Tree, BFS | [C++](../problems/0107.md) | O(N) | O(W) |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | 🟡 Medium | Tree Bfs Level Order, BFS, Queue | [C++](../problems/0117.md) | O(N) | O(N) |
@@ -21,6 +20,8 @@
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree, BFS | [C++](../problems/1609.md) | O(N) | O(W) |
 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 Medium | Tree, BFS, Math | [C++](../problems/2583.md) | O(N) | O(N) |
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Tree, BFS | [C++](../problems/0102.md) | O(N) | O(W) |
