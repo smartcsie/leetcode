@@ -10,6 +10,7 @@ solutions:
   - tree
   time: O(N)
   space: O(H)
+  familiarity: 熟練
   note: '> [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
     <br>
 
@@ -19,4 +20,4 @@ solutions:
 
 
     <br><br>'
-  familiarity: 生疏
+  is_best: true

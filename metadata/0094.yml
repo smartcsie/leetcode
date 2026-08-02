@@ -5,14 +5,15 @@ solutions:
 - file: Solution_0094_1.cpp
   difficulty: 🟢 Easy
   tags:
+  - Stack
   - Tree
   - DFS
-  - Stack
   topics:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 熟練
+  is_best: true
 - file: Solution_0094.cpp
   difficulty: 🟢 Easy
   tags:
@@ -22,8 +23,8 @@ solutions:
   - tree
   time: O(N)
   space: O(H)
+  familiarity: 生疏
   note: '> [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
     <br>
 
     > root為空則return，遞迴左子樹，把root->val加入到result vector，遞迴右子樹<br>'
-  familiarity: 生疏

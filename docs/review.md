@@ -1,6 +1,6 @@
 # 📝 複習清單（生疏）
 
-目前共有 869 個解法標記為生疏，建議找時間重新練習。
+目前共有 864 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -81,13 +81,11 @@
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | [C++](problems/0090.md) | backtracking-combination |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | [C++](problems/0090.md) | bit-bitmask-subset-enumeration |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 Medium | [C++](problems/0092.md) | linked-list |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | [C++](problems/0094.md) | tree-dfs-path |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | [C++](problems/0094.md) | tree |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | [C++](problems/0096.md) | dynamic-programming |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | [C++](problems/0097.md) | dynamic-programming |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | [C++](problems/0098.md) | binary-search-tree |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | [C++](problems/0099.md) | binary-search-tree |
-| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [C++](problems/0100.md) | tree |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 Easy | [C++](problems/0101.md) | tree-dfs-path |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | [C++](problems/0103.md) | tree-bfs-level-order |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | [C++](problems/0104.md) | tree-dfs-path |
@@ -118,9 +116,7 @@
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 Medium | [C++](problems/0142.md) | fast-slow-pointers |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | [C++](problems/0143.md) | linked-list |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | [C++](problems/0144.md) | tree-dfs-path |
-| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | [C++](problems/0144.md) | tree |
 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 Easy | [C++](problems/0145.md) | tree-dfs-path |
-| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 Easy | [C++](problems/0145.md) | tree |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | [C++](problems/0146.md) | design |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | 🟡 Medium | [C++](problems/0147.md) |  |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | [C++](problems/0148.md) | sorting |
@@ -162,7 +158,6 @@
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | 🔴 Hard | [C++](problems/0220.md) | fixed-size-sliding-window |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟢 Easy | [C++](problems/0222.md) | tree-dfs-path |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | [C++](problems/0225.md) | stack |
-| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 Easy | [C++](problems/0226.md) | tree |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | [C++](problems/0228.md) | two-pointers-same |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | [C++](problems/0229.md) | array-boyer-moore |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 Medium | [C++](problems/0230.md) | binary-search-tree |
