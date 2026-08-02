@@ -1,5 +1,7 @@
 # tree-bfs-level-order
 
+## 🔴 生疏（16）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Tree, BFS | [C++](../problems/0102.md) | O(N) | O(W) |
@@ -18,3 +20,7 @@
 | 1302 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | 🟡 Medium | Tree, BFS | [C++](../problems/1302.md) | O(N) | O(W) |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree, BFS | [C++](../problems/1609.md) | O(N) | O(W) |
 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 Medium | Tree, BFS, Math | [C++](../problems/2583.md) | O(N) | O(N) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

@@ -1,5 +1,7 @@
 # stack
 
+## 🔴 生疏（17）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](../problems/0020.md) | O(N) | O(N) |
@@ -19,3 +21,7 @@
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | Linked List, Two Pointers, Stack | [C++](../problems/2130.md) | O(N) | O(1) |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 Medium | String, Stack | [C++](../problems/2390.md) | O(N) | O(N) |
 | 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 Easy | String, Stack | [C++](../problems/3174.md) | O(N) | O(N) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

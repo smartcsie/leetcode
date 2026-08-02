@@ -1,5 +1,7 @@
 # math-digit-decomposition
 
+## 🔴 生疏（42）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](../problems/0007.md) | O(logN) | O(1) |
@@ -44,3 +46,7 @@
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3950.md) | O(logN) | O(1) |
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3959.md) | O(logN) | O(1) |
 | 3982 | Sum of Integers with Maximum Digit Range | 🟢 Easy | Math, Array | [C++](../problems/3982.md) | O(N*D) | O(N) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

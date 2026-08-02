@@ -209,24 +209,48 @@ def build_topic_indexes(problems, topics_out_dir):
                     'tags': to_list(sol.get('tags')),
                     'time': sol.get('time', ''),
                     'space': sol.get('space', ''),
+                    'familiarity': sol.get('familiarity', ''),
                 })
 
     os.makedirs(topics_out_dir, exist_ok=True)
     for fname in os.listdir(topics_out_dir):
         os.remove(os.path.join(topics_out_dir, fname))
 
-    for topic, rows in topic_rows.items():
-        rows.sort(key=lambda r: r['number'])
-        lines = [f"# {topic}", '',
-                 "| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
+    def render_table(sub_rows):
+        lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
                  "| --- | --- | --- | --- | --- | --- | --- |"]
-        for r in rows:
+        for r in sub_rows:
             tags_str = ', '.join(r['tags'])
             page_link = f"../problems/{r['number']:04d}.md"
             title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             lines.append(f"| {r['number']} | {title_cell} | "
                          f"{r['difficulty']} | {tags_str} | {file_cell} | {r['time']} | {r['space']} |")
+        return lines
+
+    for topic, rows in topic_rows.items():
+        rows.sort(key=lambda r: r['number'])
+
+        unfamiliar_rows = [r for r in rows if r['familiarity'] == '生疏']
+        familiar_rows = [r for r in rows if r['familiarity'] != '生疏']
+
+        lines = [f"# {topic}", '']
+
+        lines.append(f"## 🔴 生疏（{len(unfamiliar_rows)}）")
+        lines.append('')
+        if unfamiliar_rows:
+            lines.extend(render_table(unfamiliar_rows))
+        else:
+            lines.append('目前沒有標記為生疏的解法。')
+        lines.append('')
+
+        lines.append(f"## 🟢 熟悉（{len(familiar_rows)}）")
+        lines.append('')
+        if familiar_rows:
+            lines.extend(render_table(familiar_rows))
+        else:
+            lines.append('目前沒有標記為熟悉的解法。')
+
         with open(os.path.join(topics_out_dir, f"{topic}.md"), 'w', encoding='utf-8') as f:
             f.write('\n'.join(lines) + '\n')
 

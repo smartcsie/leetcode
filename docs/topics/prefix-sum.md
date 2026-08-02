@@ -1,5 +1,7 @@
 # prefix-sum
 
+## 🔴 生疏（19）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array, Prefix Sum | [C++](../problems/0238.md) | O(N) | O(1) |
@@ -21,3 +23,7 @@
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array, Prefix Sum | [C++](../problems/2574.md) | O(N) | O(N) |
 | 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | Prefix Sum, Sliding Window, Multiset | [C++](../problems/3364.md) | O(NlogN) | O(N) |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | Prefix Sum, Math | [C++](../problems/3432.md) | O(N) | O(N) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

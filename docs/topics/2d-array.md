@@ -1,5 +1,7 @@
 # 2d-array
 
+## 🔴 生疏（16）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | Array | [C++](../problems/0048.md) | O(N²) | O(1) |
@@ -18,3 +20,7 @@
 | 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | Array, Math | [C++](../problems/2923.md) | O(N²) | O(1) |
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | Simulation, Array | [C++](../problems/3142.md) | O(M*N) | O(1) |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | Simulation | [C++](../problems/3417.md) | O(M*N) | O(M*N) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

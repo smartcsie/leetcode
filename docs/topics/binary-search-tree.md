@@ -1,5 +1,7 @@
 # binary-search-tree
 
+## 🔴 生疏（17）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Tree, DFS, BST | [C++](../problems/0098.md) | O(N) | O(H) |
@@ -19,3 +21,7 @@
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 Medium | Tree, BST, DFS | [C++](../problems/1008.md) | O(N) | O(N) |
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 Medium | Tree, BST | [C++](../problems/1038.md) | O(N) | O(H) |
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 Medium | Tree, BST | [C++](../problems/1382.md) | O(N) | O(N) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

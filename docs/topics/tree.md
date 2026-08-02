@@ -1,5 +1,7 @@
 # tree
 
+## 🔴 生疏（16）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree, DFS | [C++](../problems/0094.md) | O(N) | O(H) |
@@ -18,3 +20,7 @@
 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | Tree, Recursion, DFS | [C++](../problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 Easy | Tree | [C++](../problems/2236.md) | O(1) | O(1) |
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree) | 🟢 Easy | Tree, DFS, Recursion | [C++](../problems/2331.md) | O(N) | O(H) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。
