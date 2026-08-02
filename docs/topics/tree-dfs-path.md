@@ -41,8 +41,10 @@
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 Medium | Tree, DFS, Post-order | [C++](../problems/1530.md) | O(N×D²) | O(H×D) |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree, DFS | [C++](../problems/2415.md) | O(N) | O(H) |
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Stack, Tree, DFS | [C++](../problems/0094.md) | O(N) | O(H) |
+| 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0589.md) | O(N) | O(H) |
+| 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0590.md) | O(N) | O(H) |

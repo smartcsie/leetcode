@@ -5,9 +5,10 @@ solutions:
 - file: Solution_0590.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree
+  - Tree Dfs Path
   topics:
-  - tree
+  - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 熟練
+  is_best: true

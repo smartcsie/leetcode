@@ -1,18 +1,28 @@
 /**
- * 註解：待補充
+ * 題目：589. N-ary Tree Preorder Traversal
+ * 難度：Easy
+ * 描述：給定一棵 N 叉樹，回傳其節點值的前序走訪結果。
+ *
+ * 時間複雜度：O(N)
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * DFS 遞迴走訪，先記錄目前節點值，再依序遞迴走訪每個子節點（children 是陣列，不像二元樹只有左右兩個），
+ * 遞迴堆疊深度最壞情況（鏈狀樹）為 O(N)。
  */
 class Solution {
-public:
-    void pre(Node* root, vector<int>& res) {
-        if(root == nullptr) return;
-        res.push_back(root->val);
-        for(int i=0; i< root->children.size(); i++) {
-            pre(root->children[i], res);
+private:
+    void preorder(Node* root, vector<int>& ans) {
+        if(!root) return;
+        ans.push_back(root->val);
+        for(Node* child : root->children) {
+            preorder(child, ans);
         }
     }
+public:
     vector<int> preorder(Node* root) {
-        vector<int> res;
-        pre(root, res);
-        return res;
+        vector<int> ans;
+        preorder(root, ans);
+        return ans;
     }
 };

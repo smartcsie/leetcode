@@ -1,6 +1,6 @@
 # tree
 
-## 🔴 生疏（12）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -9,8 +9,6 @@
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | Tree, Recursion | [C++](../problems/0106.md) | O(N) | O(N) |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | Tree, Recursion, Constant Space | [C++](../problems/0116.md) | O(N) | O(1) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | Tree, DFS, Recursion | [C++](../problems/0236.md) | O(N) | O(H) |
-| 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | 🟢 Easy | Tree | [C++](../problems/0589.md) | O(N) | O(H) |
-| 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | 🟢 Easy | Tree | [C++](../problems/0590.md) | O(N) | O(H) |
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | 🟡 Medium | Tree, DFS, Hash Table, Serialization | [C++](../problems/0652.md) | O(N²) | O(N²) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 Medium | Tree, Recursion | [C++](../problems/0889.md) | O(N) | O(N) |
 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | Tree, Recursion, DFS | [C++](../problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) |
