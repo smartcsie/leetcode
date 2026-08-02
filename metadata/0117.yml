@@ -12,4 +12,8 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  note: 'BFS加上node->next = (i == 0) ? nullptr : q.front();
+
+    i == 0是判斷是否為最右邊的node'
+  is_best: true

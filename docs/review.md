@@ -1,6 +1,6 @@
 # 📝 複習清單（生疏）
 
-目前共有 871 個解法標記為生疏，建議找時間重新練習。
+目前共有 869 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -103,7 +103,6 @@
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | [C++](problems/0114.md) | tree-dfs-path |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | [C++](problems/0115.md) | dynamic-programming |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | [C++](problems/0116.md) | tree |
-| 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | 🟡 Medium | [C++](problems/0117.md) | tree-bfs-level-order |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](problems/0118.md) | dynamic-programming-kadane-algorithm |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 Easy | [C++](problems/0119.md) | math-combination |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | [C++](problems/0121.md) | dynamic-programming |
@@ -421,7 +420,6 @@
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | [C++](problems/1137.md) | dynamic-programming |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | [C++](problems/1143.md) | dynamic-programming |
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 Easy | [C++](problems/1160.md) | hash-table-counting |
-| 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 Medium | [C++](problems/1161.md) | tree-bfs-level-order |
 | 1170 | [Compare Strings by Frequency](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | 🟡 Medium | [C++](problems/1170.md) | binary-search-build-in |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | [C++](problems/1185.md) | math |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | [C++](problems/1189.md) | hash-table-counting |
