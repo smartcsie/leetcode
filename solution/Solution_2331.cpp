@@ -18,14 +18,12 @@
  * 4. 根據當前節點的 val (2 或 3) 結合左右子樹的布林值進行運算並回傳。
  */
 
-
 class Solution {
 public:
     bool evaluateTree(TreeNode* root) {
-        if(!root->left && !root->right) return root->val;
-        bool left = evaluateTree(root->left);
-        bool right = evaluateTree(root->right);
-        if(root->val == 2) return  left || right;
-        else return  left && right;
+        if(!root->left && !root->right) return root->val; 
+        else if(root->val == 2) return evaluateTree(root->left) || evaluateTree(root->right);
+        else if(root->val == 3) return evaluateTree(root->left) && evaluateTree(root->right);
+        return false;
     }
 };
