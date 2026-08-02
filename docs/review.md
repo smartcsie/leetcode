@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：849 題　🟢 熟練：10 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：848 題　🟢 熟練：11 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -14,7 +14,7 @@
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 7 | 0 | 0 | 7 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 3 |
-| [array-linear-scan](topics/array-linear-scan.md) | 20 | 0 | 0 | 20 |
+| [array-linear-scan](topics/array-linear-scan.md) | 19 | 1 | 0 | 20 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 3 | 0 | 0 | 3 |
 | [binary-search](topics/binary-search.md) | 21 | 0 | 0 | 21 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 860 個解法標記為生疏，建議找時間重新練習。
+目前共有 859 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -711,7 +711,6 @@
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | [C++](problems/2231.md) | greedy |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | [C++](problems/2235.md) | bit-manipulation |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 Easy | [C++](problems/2236.md) | tree |
-| 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | [C++](problems/2239.md) | array-linear-scan |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | [C++](problems/2243.md) | string |
 | 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | 🟢 Easy | [C++](problems/2248.md) | hash-table-set |
 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 Easy | [C++](problems/2255.md) | string |

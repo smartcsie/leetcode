@@ -5,10 +5,11 @@ solutions:
 - file: Solution_1662.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
   - Array
+  - String
   topics:
   - array
   time: O(N+M)
   space: O(1)
   familiarity: 生疏
+  is_best: true
