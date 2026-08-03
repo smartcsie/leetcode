@@ -33,10 +33,10 @@
 | 3783 | Mirror Distance of an Integer | 🟢 Easy | Math, Simulation | [C++](../problems/3783.md) | O(log10(N)) | O(1) | 🔴 生疏 |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math | [C++](../problems/3945.md) | O(logN) | O(1) | 🔴 生疏 |
 | 3982 | Sum of Integers with Maximum Digit Range | 🟢 Easy | Math, Array | [C++](../problems/3982.md) | O(N*D) | O(N) | 🔴 生疏 |
+| 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3622.md) | O(logN) | O(1) | 🟡 注意 |
+| 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) | 🟡 注意 |
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math, Simulation | [C++](../problems/2843.md) | O(N*D) | O(1) | 🟢 熟練 |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | Math, String | [C++](../problems/3340.md) | O(N) | O(1) | 🟢 熟練 |
-| 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3622.md) | O(logN) | O(1) | 🟢 熟練 |
-| 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) | 🟢 熟練 |
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3726.md) | O(logN) | O(1) | 🟢 熟練 |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/3754.md) | O(N) | O(1) | 🟢 熟練 |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](../problems/3895.md) | O(N×D) | O(1) | 🟢 熟練 |
