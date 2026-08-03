@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：833 題　🟢 熟練：26 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：832 題　🟢 熟練：27 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -21,7 +21,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 17 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 33 | 1 | 0 | 34 |
+| [bit-manipulation](topics/bit-manipulation.md) | 32 | 2 | 0 | 34 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 8 | 1 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 5 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 844 個解法標記為生疏，建議找時間重新練習。
+目前共有 843 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -292,7 +292,6 @@
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | [C++](problems/0378.md) | binary-search |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | [C++](problems/0383.md) | hash-table-mapping |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | [C++](problems/0387.md) | string-substring |
-| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | [C++](problems/0389.md) | bit-manipulation |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | [C++](problems/0392.md) | dynamic-programming |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | [C++](problems/0392.md) | two-pointers-same |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | [C++](problems/0396.md) | math |
