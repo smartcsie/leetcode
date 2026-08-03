@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：823 題　🟢 熟練：36 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：821 題　🟢 熟練：38 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -62,7 +62,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 17 | 0 | 0 | 17 |
-| [string](topics/string.md) | 47 | 0 | 0 | 47 |
+| [string](topics/string.md) | 45 | 2 | 0 | 47 |
 | [string-character-classification](topics/string-character-classification.md) | 22 | 0 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 1 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 834 個解法標記為生疏，建議找時間重新練習。
+目前共有 832 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -132,7 +132,6 @@
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | [C++](problems/0055.md) | greedy |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 Medium | [C++](problems/0056.md) | interval |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | [C++](problems/0057.md) | interval |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | [C++](problems/0058.md) | string |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | [C++](problems/0059.md) | array |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | [C++](problems/0060.md) | math |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 Medium | [C++](problems/0061.md) | linked-list-circular |
@@ -541,7 +540,6 @@
 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 Medium | [C++](problems/1442.md) | bit-manipulation-xor |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | [C++](problems/1446.md) | array-continuous-counting |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | [C++](problems/1448.md) | tree-dfs-path |
-| 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 Easy | [C++](problems/1455.md) | string |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | 🟡 Medium | [C++](problems/1456.md) | fixed-size-sliding-window |
 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 Easy | [C++](problems/1460.md) | hash-table-counting |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | 🟡 Medium | [C++](problems/1461.md) | variable-size-sliding-window |
