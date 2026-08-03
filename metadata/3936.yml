@@ -1,6 +1,6 @@
 number: 3936
 title: Minimum Swaps to Move Zeros to End
-url: ''
+url: https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/
 solutions:
 - file: Solution_3936.cpp
   difficulty: 🟢 Easy

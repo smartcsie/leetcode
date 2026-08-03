@@ -1,6 +1,6 @@
 number: 3992
 title: Rearrange String to Avoid Character Pair
-url: ''
+url: https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/
 solutions:
 - file: Solution_3992.cpp
   difficulty: 🟡 Medium

@@ -38,7 +38,7 @@
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 Easy | Hashing | [C++](../problems/2965.md) | O(N²) | O(N²) |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table, Counting | [C++](../problems/3005.md) | O(N) | O(1) |
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 Easy | Hash Table, Bit Manipulation | [C++](../problems/3289.md) | O(N) | O(1) |
-| 3438 | Find Valid Pair of Adjacent Digits in String | 🟢 Easy | String, Hash Map | [C++](../problems/3438.md) | O(N) | O(1) |
+| 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 Easy | String, Hash Map | [C++](../problems/3438.md) | O(N) | O(1) |
 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | String, Hash Map | [C++](../problems/3442.md) | O(N) | O(1) |
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | Hash Table, Frequency Counting | [C++](../problems/3541.md) | O(N) | O(1) |
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table, Frequency Counting | [C++](../problems/3663.md) | O(logN) | O(1) |

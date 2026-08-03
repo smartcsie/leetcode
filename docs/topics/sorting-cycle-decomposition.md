@@ -4,7 +4,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 3551 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | Cycle Decomposition | [C++](../problems/3551.md) | O(NlogN) | O(N) |
+| 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | Cycle Decomposition | [C++](../problems/3551.md) | O(NlogN) | O(N) |
 
 ## 🟡 注意（0）
 

@@ -1,6 +1,6 @@
 number: 3551
 title: Minimum Swaps to Sort by Digit Sum
-url: ''
+url: https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/
 solutions:
 - file: Solution_3551.cpp
   difficulty: 🟡 Medium

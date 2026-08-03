@@ -1,6 +1,6 @@
 number: 3969
 title: Valid Subarrays With Matching Sum Digits I
-url: ''
+url: https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/
 solutions:
 - file: Solution_3969.cpp
   difficulty: 🟢 Easy

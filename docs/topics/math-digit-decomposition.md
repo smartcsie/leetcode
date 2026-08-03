@@ -32,9 +32,9 @@
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | Brute Force, Digit Manipulation | [C++](../problems/3345.md) | O(K×D) | O(1) |
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 Easy | Math Digit Decomposition, Simulation, Digit Manipulation | [C++](../problems/3461.md) | O(N²) | O(N) |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3550.md) | O(N * D) | O(1) |
-| 3783 | Mirror Distance of an Integer | 🟢 Easy | Math, Simulation | [C++](../problems/3783.md) | O(log10(N)) | O(1) |
+| 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | Math, Simulation | [C++](../problems/3783.md) | O(log10(N)) | O(1) |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math | [C++](../problems/3945.md) | O(logN) | O(1) |
-| 3982 | Sum of Integers with Maximum Digit Range | 🟢 Easy | Math, Array | [C++](../problems/3982.md) | O(N*D) | O(N) |
+| 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 Easy | Math, Array | [C++](../problems/3982.md) | O(N*D) | O(N) |
 
 ## 🟡 注意（2）
 

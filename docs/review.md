@@ -847,7 +847,7 @@
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | [C++](problems/3407.md) | string |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | [C++](problems/3417.md) | 2d-array |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | [C++](problems/3432.md) | prefix-sum |
-| 3438 | Find Valid Pair of Adjacent Digits in String | 🟢 Easy | [C++](problems/3438.md) | hash-table-counting |
+| 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 Easy | [C++](problems/3438.md) | hash-table-counting |
 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | [C++](problems/3442.md) | hash-table-counting |
 | 3452 | [Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/) | 🟢 Easy | [C++](problems/3452.md) | array |
 | 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | [C++](problems/3456.md) | string |
@@ -865,7 +865,7 @@
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) | 🟢 Easy | [C++](problems/3536.md) | greedy |
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | [C++](problems/3541.md) | hash-table-counting |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 Easy | [C++](problems/3550.md) | math-digit-decomposition |
-| 3551 | Minimum Swaps to Sort by Digit Sum | 🟡 Medium | [C++](problems/3551.md) | sorting-cycle-decomposition |
+| 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | [C++](problems/3551.md) | sorting-cycle-decomposition |
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | [C++](problems/3556.md) | string-substring-enumeration |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | [C++](problems/3591.md) | math-prime |
 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | [C++](problems/3618.md) | math-prime |
@@ -886,7 +886,7 @@
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting |
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | [C++](problems/3770.md) | math-prime |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | [C++](problems/3775.md) | string-character-classification |
-| 3783 | Mirror Distance of an Integer | 🟢 Easy | [C++](problems/3783.md) | math-digit-decomposition |
+| 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | [C++](problems/3783.md) | math-digit-decomposition |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | [C++](problems/3794.md) | two-pointers-opposite |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | [C++](problems/3798.md) | greedy |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | [C++](problems/3813.md) | string-character-classification |
@@ -905,8 +905,8 @@
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | [C++](problems/3931.md) | string-character-classification |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | [C++](problems/3940.md) | two-pointers-same |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | [C++](problems/3945.md) | math-digit-decomposition |
-| 3969 | Valid Subarrays With Matching Sum Digits I | 🟢 Easy | [C++](problems/3969.md) | array |
+| 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | [C++](problems/3969.md) | array |
 | 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | [C++](problems/3978.md) | array |
-| 3982 | Sum of Integers with Maximum Digit Range | 🟢 Easy | [C++](problems/3982.md) | math-digit-decomposition |
+| 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 Easy | [C++](problems/3982.md) | math-digit-decomposition |
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 Easy | [C++](problems/3986.md) | string |
-| 3992 | Rearrange String to Avoid Character Pair | 🟡 Medium | [C++](problems/3992.md) | two-pointers-swap |
+| 3992 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | 🟡 Medium | [C++](problems/3992.md) | two-pointers-swap |

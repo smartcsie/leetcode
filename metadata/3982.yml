@@ -1,6 +1,6 @@
 number: 3982
 title: Sum of Integers with Maximum Digit Range
-url: ''
+url: https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/
 solutions:
 - file: Solution_3982.cpp
   difficulty: 🟢 Easy

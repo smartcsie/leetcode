@@ -1,6 +1,6 @@
 number: 3783
 title: Mirror Distance of an Integer
-url: ''
+url: https://leetcode.com/problems/mirror-distance-of-an-integer/
 solutions:
 - file: Solution_3783.cpp
   difficulty: 🟢 Easy

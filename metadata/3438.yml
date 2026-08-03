@@ -1,6 +1,6 @@
 number: 3438
 title: Find Valid Pair of Adjacent Digits in String
-url: ''
+url: https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/
 solutions:
 - file: Solution_3438.cpp
   difficulty: 🟢 Easy
