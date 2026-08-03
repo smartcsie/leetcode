@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：825 題　🟢 熟練：34 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：823 題　🟢 熟練：36 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -34,7 +34,7 @@
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 11 |
 | [greedy](topics/greedy.md) | 43 | 0 | 0 | 43 |
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 41 | 2 | 0 | 43 |
+| [hash-table-counting](topics/hash-table-counting.md) | 39 | 4 | 0 | 43 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 23 | 1 | 0 | 24 |
 | [hash-table-set](topics/hash-table-set.md) | 19 | 3 | 0 | 22 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 5 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 836 個解法標記為生疏，建議找時間重新練習。
+目前共有 834 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -668,7 +668,6 @@
 | 2068 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 Easy | [C++](problems/2068.md) | hash-table-counting |
 | 2085 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | 🟢 Easy | [C++](problems/2085.md) | bit-manipulation |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | [C++](problems/2089.md) | array |
-| 2094 | [Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/) | 🟢 Easy | [C++](problems/2094.md) | hash-table-counting |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | [C++](problems/2095.md) | fast-slow-pointers |
 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | [C++](problems/2108.md) | two-pointers-opposite |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | [C++](problems/2109.md) | two-pointers-same |
@@ -681,7 +680,6 @@
 | 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 Easy | [C++](problems/2138.md) | string |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | [C++](problems/2148.md) | array |
 | 2149 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign) | 🟡 Medium | [C++](problems/2149.md) | two-pointers-partition |
-| 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | [C++](problems/2150.md) | hash-table-counting |
 | 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 Easy | [C++](problems/2154.md) | hash-table-mapping |
 | 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | [C++](problems/2160.md) | math-digit-decomposition |
 | 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | [C++](problems/2164.md) | sorting |

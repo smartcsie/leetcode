@@ -17,29 +17,19 @@
 class Solution {
 public:
     std::vector<int> findEvenNumbers(std::vector<int>& digits) {
-        int counts[10] = {0};
-        for (int d : digits) counts[d]++;
-        
-        std::vector<int> res;
-        
-        // 遍歷所有可能的 3 位偶數 (100-998)
-        for (int hun = 1; hun <= 9; ++hun) {
-            if (counts[hun]-- > 0) { // 借出百位
-                for (int ten = 0; ten <= 9; ++ten) {
-                    if (counts[ten]-- > 0) { // 借出十位
-                        for (int unit = 0; unit <= 8; unit += 2) {
-                            if (counts[unit]-- > 0) { // 借出個位
-                                res.push_back(hun * 100 + ten * 10 + unit);
-                            }
-                            counts[unit]++; // 歸還個位
-                        }
-                        counts[ten]++; // 歸還十位
-                    }
+        set<int> ans;
+        int n = digits.size();
+        for(int i = 0; i < n; i++) {
+            if(digits[i] == 0) continue;
+            for(int j = 0; j < n; j++) {
+                for(int k = 0; k < n; k++) {
+                    if(i == j || j == k || i==k) continue;
+                    if(digits[k] % 2) continue;
+                    int num = digits[i] * 100 + digits[j] * 10 + digits[k];
+                    ans.insert(num);
                 }
-                counts[hun]++; // 歸還百位
-            }
+            } 
         }
-        
-        return res;
+        return vector(ans.begin(), ans.end());
     }
 };

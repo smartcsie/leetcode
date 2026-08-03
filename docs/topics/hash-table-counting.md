@@ -1,6 +1,6 @@
 # hash-table-counting
 
-## 🔴 生疏（41）
+## 🔴 生疏（39）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -25,8 +25,6 @@
 | 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 Medium | Hash Table, String, Single-Pass | [C++](../problems/2023.md) | O(N*L) |  |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 Easy | Hash Table | [C++](../problems/2053.md) | O(N) | O(N) |
 | 2068 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 Easy | Hash Table, String, Counting | [C++](../problems/2068.md) | O(N) | O(1) |
-| 2094 | [Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/) | 🟢 Easy | Hash Table, Math | [C++](../problems/2094.md) | O(N) | O(1) |
-| 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table, Counting | [C++](../problems/2150.md) | O(N) | O(N) |
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 Easy | Array, Hash Table, Counting | [C++](../problems/2206.md) | O(N) | O(1) |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 Medium | Hash Table, Counting, Sorting | [C++](../problems/2225.md) | O(NlogN) | O(N) |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 Easy | Hash Map, Counting | [C++](../problems/2283.md) | O(N) | O(1) |
@@ -46,9 +44,11 @@
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table, Frequency Counting | [C++](../problems/3663.md) | O(logN) | O(1) |
 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 Medium | String, Hash Map | [C++](../problems/3926.md) | O(N+M) | O(N) |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2094 | [Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/) | 🟢 Easy | Math, Hash Table | [C++](../problems/2094.md) | O(N) | O(1) |
+| 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table, Counting | [C++](../problems/2150.md) | O(N) | O(N) |
 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 Easy | Hash Table | [C++](../problems/3843.md) | O(N) | O(N) |
 | 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 Easy | Array, Hash Table | [C++](../problems/3866.md) | O(N) | O(1) |
