@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：813 題　🟡 注意：4 題　🟢 熟練：42 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：812 題　🟡 注意：4 題　🟢 熟練：43 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -36,7 +36,7 @@
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 39 | 0 | 4 | 0 | 43 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 23 | 0 | 1 | 0 | 24 |
-| [hash-table-set](topics/hash-table-set.md) | 19 | 0 | 3 | 0 | 22 |
+| [hash-table-set](topics/hash-table-set.md) | 18 | 0 | 4 | 0 | 22 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 10 | 0 | 0 | 0 | 10 |
 | [linked-list](topics/linked-list.md) | 16 | 0 | 0 | 0 | 16 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 824 個解法標記為生疏，建議找時間重新練習。
+目前共有 823 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -880,7 +880,6 @@
 | 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | [C++](problems/3713.md) | string-substring-enumeration |
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | [C++](problems/3718.md) | hash-table-set |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | [C++](problems/3722.md) | string |
-| 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | [C++](problems/3731.md) | hash-table-set |
 | 3750 | [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) | 🟢 Easy | [C++](problems/3750.md) | hamming-distance |
 | 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | [C++](problems/3765.md) | math-prime |
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting |
