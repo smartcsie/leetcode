@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：834 題　🟢 熟練：25 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：833 題　🟢 熟練：26 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -21,7 +21,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 17 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 34 | 0 | 0 | 34 |
+| [bit-manipulation](topics/bit-manipulation.md) | 33 | 1 | 0 | 34 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 8 | 1 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 5 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 845 個解法標記為生疏，建議找時間重新練習。
+目前共有 844 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -218,7 +218,6 @@
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | [C++](problems/0179.md) | sorting |
 | 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 Easy | [C++](problems/0182.md) | sql |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | [C++](problems/0189.md) | array |
-| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | [C++](problems/0190.md) | bit-manipulation |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | [C++](problems/0191.md) | bit-manipulation-and |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟢 Medium | [C++](problems/0198.md) | dynamic-programming |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | [C++](problems/0199.md) | tree-bfs-level-order |
