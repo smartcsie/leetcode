@@ -1,6 +1,6 @@
 # math-digit-decomposition
 
-## 🔴 生疏（34）
+## 🔴 生疏（32）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -26,8 +26,6 @@
 | 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 Easy | Math, Array | [C++](../problems/2535.md) | O(N*logM) | O(1) |
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2544.md) | O(logN) | O(logN) |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array, Math | [C++](../problems/2553.md) | O(N*log(max_VAL)) | O(N*log(max_VAL)) |
-| 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation | [C++](../problems/2595.md) | O(logN) | O(1) |
-| 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Simulation, Math | [C++](../problems/2843.md) | O(N*D) | O(1) |
 | 3079 | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3079.md) | O(N*D) | O(D) |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math | [C++](../problems/3099.md) | O(logN) | O(1) |
 | 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Math, Simulation | [C++](../problems/3300.md) | O(N*logM) | O(1) |
@@ -39,10 +37,12 @@
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math | [C++](../problems/3945.md) | O(logN) | O(1) |
 | 3982 | Sum of Integers with Maximum Digit Range | 🟢 Easy | Math, Array | [C++](../problems/3982.md) | O(N*D) | O(N) |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation | [C++](../problems/2595.md) | O(logN) | O(1) |
+| 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math, Simulation | [C++](../problems/2843.md) | O(N*D) | O(1) |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | Math, String | [C++](../problems/3340.md) | O(N) | O(1) |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) |
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3726.md) | O(logN) | O(1) |

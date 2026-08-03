@@ -10,7 +10,8 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
+  familiarity: 熟練
   note: '> [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits)<br>
 
     > for(int i = 0; n > 0; n >>= 1, i ^= 1) res[i] += (n & 1);<br>'
-  familiarity: 生疏
+  is_best: true

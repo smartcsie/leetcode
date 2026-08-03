@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：840 題　🟢 熟練：19 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：838 題　🟢 熟練：21 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -43,7 +43,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 2 |
 | [math](topics/math.md) | 48 | 0 | 0 | 48 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 6 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 34 | 8 | 0 | 42 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 32 | 10 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 7 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 851 個解法標記為生疏，建議找時間重新練習。
+目前共有 849 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -780,7 +780,6 @@
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | [C++](problems/2578.md) | greedy |
 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 Medium | [C++](problems/2583.md) | tree-bfs-level-order |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | [C++](problems/2586.md) | string-character-classification |
-| 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | [C++](problems/2595.md) | math-digit-decomposition |
 | 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 Easy | [C++](problems/2600.md) | math |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | [C++](problems/2605.md) | bit-manipulation-mask |
 | 2609 | [Find the Longest Balanced Substring](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 🟢 Easy | [C++](problems/2609.md) | array-continuous-counting |
@@ -809,7 +808,6 @@
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | [C++](problems/2826.md) | dynamic-programming |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | [C++](problems/2828.md) | string |
 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 Easy | [C++](problems/2839.md) | string |
-| 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | [C++](problems/2843.md) | math-digit-decomposition |
 | 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | [C++](problems/2855.md) | array |
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 Easy | [C++](problems/2859.md) | bit-manipulation |
 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | [C++](problems/2864.md) | greedy |
