@@ -1676,6 +1676,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    backtracking-combination
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1692,6 +1710,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目錄
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔴 生疏（11）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#0" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟡 注意（0）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#0_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟢 熟悉（0）
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3328,6 +3398,7 @@
 
 
 <h1 id="backtracking-combination">backtracking-combination<a class="headerlink" href="#backtracking-combination" title="Permanent link">&para;</a></h1>
+<h2 id="11">🔴 生疏（11）<a class="headerlink" href="#11" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -3338,7 +3409,6 @@
 <th>解法檔案</th>
 <th>時間</th>
 <th>空間</th>
-<th>熟悉度</th>
 </tr>
 </thead>
 <tbody>
@@ -3350,7 +3420,6 @@
 <td><a href="../../problems/0017/">C++</a></td>
 <td>O(4^N)</td>
 <td>O(N)</td>
-<td>🔴 生疏</td>
 </tr>
 <tr>
 <td>22</td>
@@ -3360,7 +3429,6 @@
 <td><a href="../../problems/0022/">C++</a></td>
 <td>O(4ᴺ/√N)</td>
 <td>O(N)</td>
-<td>🔴 生疏</td>
 </tr>
 <tr>
 <td>39</td>
@@ -3370,7 +3438,6 @@
 <td><a href="../../problems/0039/">C++</a></td>
 <td>O(N^(T/M))</td>
 <td>O(T/M)</td>
-<td>🔴 生疏</td>
 </tr>
 <tr>
 <td>40</td>
@@ -3380,7 +3447,6 @@
 <td><a href="../../problems/0040/">C++</a></td>
 <td>O(2ᴺ)</td>
 <td>O(N)</td>
-<td>🔴 生疏</td>
 </tr>
 <tr>
 <td>77</td>
@@ -3390,7 +3456,6 @@
 <td><a href="../../problems/0077/">C++</a></td>
 <td>O(K*C(N,K))</td>
 <td>O(K)</td>
-<td>🔴 生疏</td>
 </tr>
 <tr>
 <td>78</td>
@@ -3400,7 +3465,6 @@
 <td><a href="../../problems/0078/">C++</a></td>
 <td>O(N*2ᴺ)</td>
 <td>O(N)</td>
-<td>🔴 生疏</td>
 </tr>
 <tr>
 <td>79</td>
@@ -3410,7 +3474,6 @@
 <td><a href="../../problems/0079/">C++</a></td>
 <td>O(N*3ᴸ)</td>
 <td>O(L)</td>
-<td>🔴 生疏</td>
 </tr>
 <tr>
 <td>90</td>
@@ -3420,7 +3483,6 @@
 <td><a href="../../problems/0090/">C++</a></td>
 <td>O(N*2ᴺ)</td>
 <td>O(N)</td>
-<td>🔴 生疏</td>
 </tr>
 <tr>
 <td>216</td>
@@ -3430,7 +3492,6 @@
 <td><a href="../../problems/0216/">C++</a></td>
 <td>O(C(9,K))</td>
 <td>O(K)</td>
-<td>🔴 生疏</td>
 </tr>
 <tr>
 <td>784</td>
@@ -3440,7 +3501,6 @@
 <td><a href="../../problems/0784/">C++</a></td>
 <td>O(2ᴺ)</td>
 <td>O(N)</td>
-<td>🔴 生疏</td>
 </tr>
 <tr>
 <td>1593</td>
@@ -3450,10 +3510,13 @@
 <td><a href="../../problems/1593/">C++</a></td>
 <td>O(N*2^(N-1)) - 在最壞情況下，字串有 n-1 個可分割的間隙，總共有 2^(n-1) 種分割組合，每次分割與子字串截取需花費 O(N) 時間。</td>
 <td>O(N) - 遞迴呼叫堆疊的深度最多為 n，且雜湊表 <code>seen</code> 在任一時刻最多儲存 n 個子字串。</td>
-<td>🔴 生疏</td>
 </tr>
 </tbody>
 </table>
+<h2 id="0">🟡 注意（0）<a class="headerlink" href="#0" title="Permanent link">&para;</a></h2>
+<p>目前沒有標記為注意的解法。</p>
+<h2 id="0_1">🟢 熟悉（0）<a class="headerlink" href="#0_1" title="Permanent link">&para;</a></h2>
+<p>目前沒有標記為熟悉的解法。</p>
 
 
 
