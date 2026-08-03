@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：841 題　🟢 熟練：18 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：840 題　🟢 熟練：19 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -43,7 +43,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 2 |
 | [math](topics/math.md) | 48 | 0 | 0 | 48 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 6 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 35 | 7 | 0 | 42 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 34 | 8 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 7 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 852 個解法標記為生疏，建議找時間重新練習。
+目前共有 851 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -924,7 +924,6 @@
 | 3867 | [Sum of GCD of Formed Pairs](leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | [C++](problems/3867.md) | math-gcd |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | [C++](problems/3884.md) | two-pointers-opposite |
 | 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 Easy | [C++](problems/3894.md) | math-simulation |
-| 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | [C++](problems/3908.md) | math-digit-decomposition |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | [C++](problems/3913.md) | sorting |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | [C++](problems/3918.md) | math-prime |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | [C++](problems/3925.md) | array |
