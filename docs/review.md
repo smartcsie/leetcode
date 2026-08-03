@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：835 題　🟢 熟練：24 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：834 題　🟢 熟練：25 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -12,7 +12,7 @@
 | [2d-array](topics/2d-array.md) | 16 | 0 | 0 | 16 |
 | [array](topics/array.md) | 31 | 0 | 0 | 31 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 7 | 0 | 0 | 7 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 6 | 1 | 0 | 7 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 3 |
 | [array-linear-scan](topics/array-linear-scan.md) | 18 | 2 | 0 | 20 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 11 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 846 個解法標記為生疏，建議找時間重新練習。
+目前共有 845 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -324,7 +324,6 @@
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | [C++](problems/0474.md) | knapsack-problem |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | [C++](problems/0476.md) | bit-manipulation |
 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | [C++](problems/0477.md) | bit-manipulation-xor |
-| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | [C++](problems/0485.md) | array-continuous-counting |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | [C++](problems/0494.md) | knapsack-problem |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | [C++](problems/0496.md) | monotonic-stack |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 Easy | [C++](problems/0501.md) | binary-search-tree |

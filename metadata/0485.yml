@@ -10,6 +10,7 @@ solutions:
   - array-continuous-counting
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)<br>
 
     >  travsal  nums ， num為1，count +1，否則為0，每次都更新ans值，ans為max<br>
@@ -21,4 +22,3 @@ solutions:
     >  &emsp;&emsp;&emsp;&emsp;**ans = max(ans, count);** <br>
 
     >  **}** <br>'
-  familiarity: 生疏
