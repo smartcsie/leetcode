@@ -11,16 +11,11 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Special Array I](https://leetcode.com/problems/special-array-i)<br>
 
-    > **邊界條件 nums.size() == 1  return true** <br>
+    > element size = 1 蟄居return true<br>
 
-    > 相鄰兩數的lsb相同則return false<br>
+    > 直接檢查相鄰兩數是否一個even一個odd
 
-    > **for(int i = 0 ; i < nums.size() - 1; i++) {** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**if((nums[i] & 1) ^ (nums[i + 1] & 1) == 0) return
-    false;** <br>
-
-    > **}** <br>'
-  familiarity: 生疏
+    > 檢查方式 兩數互斥或再&1一定是1'

@@ -3,14 +3,14 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：832 題　🟢 熟練：27 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：827 題　🟢 熟練：32 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 16 | 0 | 0 | 16 |
-| [array](topics/array.md) | 31 | 0 | 0 | 31 |
+| [array](topics/array.md) | 31 | 1 | 0 | 32 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 6 | 1 | 0 | 7 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 3 |
@@ -21,7 +21,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 17 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 32 | 2 | 0 | 34 |
+| [bit-manipulation](topics/bit-manipulation.md) | 30 | 4 | 0 | 34 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 8 | 1 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 5 |
@@ -36,7 +36,7 @@
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 43 | 0 | 0 | 43 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 23 | 1 | 0 | 24 |
-| [hash-table-set](topics/hash-table-set.md) | 22 | 0 | 0 | 22 |
+| [hash-table-set](topics/hash-table-set.md) | 19 | 3 | 0 | 22 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 10 | 0 | 0 | 10 |
 | [linked-list](topics/linked-list.md) | 16 | 0 | 0 | 16 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 843 個解法標記為生疏，建議找時間重新練習。
+目前共有 838 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -232,8 +232,6 @@
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | [C++](problems/0213.md) | dynamic-programming |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | [C++](problems/0215.md) | quick-select |
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | [C++](problems/0216.md) | backtracking-combination |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | [C++](problems/0217.md) | hash-table-set |
-| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | [C++](problems/0219.md) | hash-table-set |
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | 🔴 Hard | [C++](problems/0220.md) | fixed-size-sliding-window |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟢 Easy | [C++](problems/0222.md) | tree-dfs-path |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | [C++](problems/0225.md) | stack |
@@ -280,7 +278,6 @@
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | [C++](problems/0344.md) | two-pointers-opposite |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | 🟢 Easy | [C++](problems/0345.md) | two-pointers-opposite |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | [C++](problems/0347.md) | sorting |
-| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | [C++](problems/0349.md) | hash-table-set |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | [C++](problems/0350.md) | hash-table-set |
 | 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | [C++](problems/0357.md) | math-combination |
 | 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 Medium | [C++](problems/0365.md) | math-gcd |
@@ -837,7 +834,6 @@
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | [C++](problems/3133.md) | bit-manipulation-and |
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | [C++](problems/3136.md) | string-character-classification |
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | [C++](problems/3142.md) | 2d-array |
-| 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | [C++](problems/3151.md) | bit-manipulation |
 | 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | [C++](problems/3158.md) | bit-manipulation-xor |
 | 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | [C++](problems/3162.md) | array, math |
 | 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 Easy | [C++](problems/3168.md) | array-linear-scan |
@@ -907,7 +903,6 @@
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | [C++](problems/3813.md) | string-character-classification |
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | [C++](problems/3819.md) | two-pointers-same |
 | 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | [C++](problems/3823.md) | two-pointers-swap |
-| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | [C++](problems/3827.md) | bit-manipulation |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | [C++](problems/3838.md) | hash-table-mapping |
 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 Easy | [C++](problems/3843.md) | hash-table-counting |
 | 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | [C++](problems/3856.md) | string-character-classification |

@@ -11,4 +11,5 @@ solutions:
   - hash-table-set
   time: O(N)
   space: O(min(N,K))
-  familiarity: 生疏
+  familiarity: 熟練
+  is_best: true

@@ -10,4 +10,5 @@ solutions:
   - hash-table-set
   time: O(N+M)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  is_best: true

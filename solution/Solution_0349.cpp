@@ -4,19 +4,18 @@
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-        bool appear[1001];
-        vector<int> res;
-        memset(appear, false, sizeof(appear));
-        for(int num : nums1) {
-            appear[num] = true;
+        vector<int> counts1(1001, 0);
+        vector<int> counts2(1002, 0);
+        for(const int& num : nums1) {
+            counts1[num] = 1;
         }
-        for(int num : nums2) {
-            if(appear[num]) {
-                res.push_back(num);
-                appear[num] = false;
-            }
+        for(const int& num : nums2) {
+            counts2[num] = 1;
         }
-        return res;
-
+        vector<int> ans;
+        for(int i = 0; i <= 1000; i++) {
+            if(counts1[i] && counts2[i]) ans.push_back(i);
+        }
+        return ans;
     }
 };

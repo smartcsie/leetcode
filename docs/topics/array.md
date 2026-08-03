@@ -36,6 +36,9 @@
 | 3969 | Valid Subarrays With Matching Sum Digits I | 🟢 Easy | Array, Brute Force | [C++](../problems/3969.md) | O(N²) | O(1) |
 | 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | Array, Counting | [C++](../problems/3978.md) | O(N) | O(1) |
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（2）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Array | [C++](../problems/0217.md) | O(NlogN) | O(logN) |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Array | [C++](../problems/0217.md) | O(NlogN) | O(logN) |

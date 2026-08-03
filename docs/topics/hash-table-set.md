@@ -1,12 +1,9 @@
 # hash-table-set
 
-## 🔴 生疏（22）
+## 🔴 生疏（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table | [C++](../problems/0217.md) | O(N) | O(N) |
-| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table, Sliding Window | [C++](../problems/0219.md) | O(N) | O(min(N,K)) |
-| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](../problems/0349.md) | O(N+M) | O(N) |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table | [C++](../problems/0350.md) | O(N+M) | O(min(N,M)) |
 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | Hash Table, Array | [C++](../problems/0599.md) | O(N+M) | O(N) |
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Hash Table, Linked List | [C++](../problems/0706.md) | O(N/K) | O(M+K) |
@@ -27,6 +24,11 @@
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | Array, Hash Table | [C++](../problems/3718.md) | O(N+M) | O(M) |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | Array, Hash Table | [C++](../problems/3731.md) | O(N+K) | O(K) |
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（4）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table | [C++](../problems/0217.md) | O(N) | O(N) |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Set | [C++](../problems/0217.md) | O(N) | O(N) |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table, Sliding Window | [C++](../problems/0219.md) | O(N) | O(min(N,K)) |
+| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](../problems/0349.md) | O(N+M) | O(N) |
