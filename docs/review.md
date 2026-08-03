@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：827 題　🟢 熟練：32 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：825 題　🟢 熟練：34 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -34,7 +34,7 @@
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 11 |
 | [greedy](topics/greedy.md) | 43 | 0 | 0 | 43 |
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 43 | 0 | 0 | 43 |
+| [hash-table-counting](topics/hash-table-counting.md) | 41 | 2 | 0 | 43 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 23 | 1 | 0 | 24 |
 | [hash-table-set](topics/hash-table-set.md) | 19 | 3 | 0 | 22 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 5 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 838 個解法標記為生疏，建議找時間重新練習。
+目前共有 836 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -904,10 +904,8 @@
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | [C++](problems/3819.md) | two-pointers-same |
 | 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | [C++](problems/3823.md) | two-pointers-swap |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | [C++](problems/3838.md) | hash-table-mapping |
-| 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 Easy | [C++](problems/3843.md) | hash-table-counting |
 | 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | [C++](problems/3856.md) | string-character-classification |
 | 3861 | [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/) | 🟢 Easy | [C++](problems/3861.md) | array-linear-scan |
-| 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 Easy | [C++](problems/3866.md) | hash-table-counting |
 | 3867 | [Sum of GCD of Formed Pairs](leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | [C++](problems/3867.md) | math-gcd |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | [C++](problems/3884.md) | two-pointers-opposite |
 | 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 Easy | [C++](problems/3894.md) | math-simulation |
