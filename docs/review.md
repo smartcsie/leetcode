@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：838 題　🟢 熟練：21 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：837 題　🟢 熟練：22 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -22,7 +22,7 @@
 | [binary-search-tree](topics/binary-search-tree.md) | 17 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 5 |
 | [bit-manipulation](topics/bit-manipulation.md) | 34 | 0 | 0 | 34 |
-| [bit-manipulation-and](topics/bit-manipulation-and.md) | 8 | 0 | 0 | 8 |
+| [bit-manipulation-and](topics/bit-manipulation-and.md) | 8 | 1 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 18 | 0 | 0 | 18 |
@@ -43,7 +43,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 2 |
 | [math](topics/math.md) | 48 | 0 | 0 | 48 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 6 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 32 | 10 | 0 | 42 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 31 | 10 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 7 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 849 個解法標記為生疏，建議找時間重新練習。
+目前共有 848 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -889,7 +889,6 @@
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | [C++](problems/3556.md) | string-substring-enumeration |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | [C++](problems/3591.md) | math-prime |
 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | [C++](problems/3618.md) | math-prime |
-| 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | [C++](problems/3622.md) | math-digit-decomposition |
 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | [C++](problems/3637.md) | two-pointers-same |
 | 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums) | 🟢 Easy | [C++](problems/3658.md) | math |
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | [C++](problems/3663.md) | hash-table-counting |

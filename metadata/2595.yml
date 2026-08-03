@@ -7,7 +7,7 @@ solutions:
   tags:
   - Bit Manipulation
   topics:
-  - math-digit-decomposition
+  - bit-manipulation-and
   time: O(logN)
   space: O(1)
   familiarity: 熟練
