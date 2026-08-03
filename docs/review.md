@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：845 題　🟢 熟練：14 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：841 題　🟢 熟練：18 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -43,7 +43,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 2 |
 | [math](topics/math.md) | 48 | 0 | 0 | 48 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 6 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 39 | 3 | 0 | 42 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 35 | 7 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 7 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 856 個解法標記為生疏，建議找時間重新練習。
+目前共有 852 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -898,16 +898,13 @@
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | [C++](problems/3678.md) | hash-table-mapping |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | [C++](problems/3684.md) | sorting |
 | 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 Easy | [C++](problems/3688.md) | bit-manipulation-or |
-| 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | [C++](problems/3697.md) | math-digit-decomposition |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | [C++](problems/3701.md) | math |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 Medium | [C++](problems/3702.md) | bit-manipulation-xor |
 | 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | [C++](problems/3713.md) | string-substring-enumeration |
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | [C++](problems/3718.md) | hash-table-set |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | [C++](problems/3722.md) | string |
-| 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | [C++](problems/3726.md) | math-digit-decomposition |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | [C++](problems/3731.md) | hash-table-set |
 | 3750 | [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) | 🟢 Easy | [C++](problems/3750.md) | hamming-distance |
-| 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 Easy | [C++](problems/3754.md) | math-digit-decomposition |
 | 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | [C++](problems/3765.md) | math-prime |
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting |
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | [C++](problems/3770.md) | math-prime |
@@ -936,7 +933,6 @@
 | 3936 | Minimum Swaps to Move Zeros to End | 🟢 Easy | [C++](problems/3936.md) | two-pointers-swap |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | [C++](problems/3940.md) | two-pointers-same |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | [C++](problems/3945.md) | math-digit-decomposition |
-| 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | [C++](problems/3959.md) | math-digit-decomposition |
 | 3969 | Valid Subarrays With Matching Sum Digits I | 🟢 Easy | [C++](problems/3969.md) | array |
 | 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | [C++](problems/3978.md) | array |
 | 3982 | Sum of Integers with Maximum Digit Range | 🟢 Easy | [C++](problems/3982.md) | math-digit-decomposition |

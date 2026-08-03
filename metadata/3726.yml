@@ -11,8 +11,9 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
+  familiarity: 熟練
   note: '> [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation)
     <br>
 
     > 跟 3697很像，差異是digit != 0 才 res += base * digit; base *= 10;<br>'
-  familiarity: 生疏
+  is_best: true
