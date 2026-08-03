@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：848 題　🟢 熟練：11 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：846 題　🟢 熟練：13 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -43,7 +43,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 2 |
 | [math](topics/math.md) | 48 | 0 | 0 | 48 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 6 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 42 | 0 | 0 | 42 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 40 | 2 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 7 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 859 個解法標記為生疏，建議找時間重新練習。
+目前共有 857 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -862,7 +862,6 @@
 | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) | 🟡 Medium | [C++](problems/3306.md) | variable-size-sliding-window |
 | 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 Easy | [C++](problems/3314.md) | bit-manipulation-or |
 | 3325 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/) | 🟡 Medium | [C++](problems/3325.md) | variable-size-sliding-window |
-| 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | [C++](problems/3340.md) | math-digit-decomposition |
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | [C++](problems/3345.md) | math-digit-decomposition |
 | 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | [C++](problems/3364.md) | prefix-sum |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | [C++](problems/3370.md) | bit-manipulation |
@@ -938,7 +937,6 @@
 | 3936 | Minimum Swaps to Move Zeros to End | 🟢 Easy | [C++](problems/3936.md) | two-pointers-swap |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | [C++](problems/3940.md) | two-pointers-same |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | [C++](problems/3945.md) | math-digit-decomposition |
-| 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | [C++](problems/3950.md) | math-digit-decomposition |
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | [C++](problems/3959.md) | math-digit-decomposition |
 | 3969 | Valid Subarrays With Matching Sum Digits I | 🟢 Easy | [C++](problems/3969.md) | array |
 | 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | [C++](problems/3978.md) | array |
