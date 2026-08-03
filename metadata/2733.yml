@@ -5,10 +5,13 @@ solutions:
 - file: Solution_2733.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
   - Array
+  - Math
   topics:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> if(nums.size() <= 2) return -1; <br>
+
+    > size 小於等於2 直接 return -1; <br>'

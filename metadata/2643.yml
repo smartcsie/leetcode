@@ -11,4 +11,4 @@ solutions:
   - array-linear-scan
   time: O(M*N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練

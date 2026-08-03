@@ -12,19 +12,10 @@
 class Solution {
 public:
     bool threeConsecutiveOdds(const std::vector<int>& arr) {
-        int count = 0;
-        
-        for (int num : arr) {
-            // 使用位元運算檢查奇數 (num & 1)
-            if (num & 1) {
-                count++;
-                if (count == 3) return true;
-            } else {
-                // 遇到偶數，重置計數器
-                count = 0;
-            }
+        int n = arr.size();
+        for(int i = 0; i < n - 2; i++) {
+            if( (arr[i] & 1) && (arr[i + 1] & 1) &&  (arr[i + 2] & 1)) return true;
         }
-        
         return false;
     }
 };

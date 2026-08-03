@@ -3,18 +3,18 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：821 題　🟡 注意：3 題　🟢 熟練：35 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：813 題　🟡 注意：4 題　🟢 熟練：42 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 16 | 0 | 0 | 0 | 16 |
-| [array](topics/array.md) | 31 | 0 | 1 | 0 | 32 |
+| [array](topics/array.md) | 30 | 0 | 2 | 0 | 32 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 6 | 0 | 1 | 0 | 7 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 5 | 0 | 2 | 0 | 7 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
-| [array-linear-scan](topics/array-linear-scan.md) | 18 | 0 | 2 | 0 | 20 |
+| [array-linear-scan](topics/array-linear-scan.md) | 16 | 0 | 4 | 0 | 20 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 3 | 0 | 0 | 0 | 3 |
 | [binary-search](topics/binary-search.md) | 21 | 0 | 0 | 0 | 21 |
@@ -77,12 +77,12 @@
 | [two-pointers-other](topics/two-pointers-other.md) | 4 | 0 | 0 | 0 | 4 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 20 | 0 | 0 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 7 | 0 | 0 | 0 | 7 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 3 | 1 | 3 | 0 | 7 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |
 
 ---
 
-目前共有 832 個解法標記為生疏，建議找時間重新練習。
+目前共有 824 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -255,7 +255,6 @@
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | [C++](problems/0268.md) | math |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | [C++](problems/0278.md) | binary-search |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | [C++](problems/0279.md) | knapsack-problem |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | [C++](problems/0283.md) | two-pointers-swap |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | [C++](problems/0287.md) | fast-slow-pointers |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | [C++](problems/0290.md) | hash-table-mapping |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | [C++](problems/0292.md) | math-game-theory |
@@ -424,14 +423,12 @@
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | [C++](problems/0896.md) | array |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | [C++](problems/0897.md) | tree-dfs-path |
 | 898 | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | [C++](problems/0898.md) | dynamic-programming |
-| 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | 🟢 Easy | [C++](problems/0905.md) | two-pointers-swap |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | [C++](problems/0912.md) | sorting |
 | 914 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | 🟢 Easy | [C++](problems/0914.md) | math-gcd |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 Medium | [C++](problems/0916.md) | hash-table-counting |
 | 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 Easy | [C++](problems/0917.md) | two-pointers-opposite |
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | [C++](problems/0918.md) | dynamic-programming-kadane-algorithm |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | [C++](problems/0921.md) | greedy |
-| 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 Easy | [C++](problems/0922.md) | two-pointers-swap |
 | 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | [C++](problems/0926.md) | dynamic-programming |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | [C++](problems/0930.md) | prefix-sum |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | [C++](problems/0938.md) | binary-search-tree |
@@ -538,7 +535,6 @@
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy | [C++](problems/1431.md) | array-linear-scan |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | [C++](problems/1436.md) | hash-table-mapping |
 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 Medium | [C++](problems/1442.md) | bit-manipulation-xor |
-| 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | [C++](problems/1446.md) | array-continuous-counting |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | [C++](problems/1448.md) | tree-dfs-path |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | 🟡 Medium | [C++](problems/1456.md) | fixed-size-sliding-window |
 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 Easy | [C++](problems/1460.md) | hash-table-counting |
@@ -565,7 +561,6 @@
 | 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | 🟢 Easy | [C++](problems/1539.md) | binary-search-build-in |
 | 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 Easy | [C++](problems/1544.md) | stack |
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | [C++](problems/1545.md) | bit-manipulation |
-| 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 Easy | [C++](problems/1550.md) | array |
 | 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | [C++](problems/1567.md) | dynamic-programming |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | [C++](problems/1572.md) | math |
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | [C++](problems/1576.md) | greedy |
@@ -773,7 +768,6 @@
 | 2609 | [Find the Longest Balanced Substring](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 🟢 Easy | [C++](problems/2609.md) | array-continuous-counting |
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | [C++](problems/2614.md) | math-prime |
 | 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 Easy | [C++](problems/2639.md) | 2d-array |
-| 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 Easy | [C++](problems/2643.md) | array-linear-scan |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | [C++](problems/2645.md) | greedy |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 Easy | [C++](problems/2652.md) | math |
 | 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | [C++](problems/2656.md) | greedy |
@@ -785,7 +779,6 @@
 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | [C++](problems/2710.md) | string-character-classification |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | [C++](problems/2716.md) | bit-manipulation |
 | 2729 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/) | 🟢 Easy | [C++](problems/2729.md) | bit-manipulation |
-| 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 Easy | [C++](problems/2733.md) | array-linear-scan |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | [C++](problems/2745.md) | greedy |
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | [C++](problems/2761.md) | math-prime |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | [C++](problems/2784.md) | hash-table-set |
@@ -910,7 +903,6 @@
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | [C++](problems/3925.md) | array |
 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 Medium | [C++](problems/3926.md) | hash-table-counting |
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | [C++](problems/3931.md) | string-character-classification |
-| 3936 | Minimum Swaps to Move Zeros to End | 🟢 Easy | [C++](problems/3936.md) | two-pointers-swap |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | [C++](problems/3940.md) | two-pointers-same |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | [C++](problems/3945.md) | math-digit-decomposition |
 | 3969 | Valid Subarrays With Matching Sum Digits I | 🟢 Easy | [C++](problems/3969.md) | array |

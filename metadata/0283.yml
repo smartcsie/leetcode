@@ -11,4 +11,4 @@ solutions:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意

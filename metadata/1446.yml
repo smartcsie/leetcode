@@ -10,6 +10,7 @@ solutions:
   - array-continuous-counting
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)<br>
 
     >  travsal s，s[i] == s[i - 1]，count +1，否則為1，每次都更新ans值，ans為max<br>
@@ -28,4 +29,3 @@ solutions:
 
 
     <br><br>'
-  familiarity: 生疏
