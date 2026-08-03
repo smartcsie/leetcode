@@ -8,21 +8,22 @@
  */
 
 class Solution {
-public:
-    int res = -1;
-    void inorder(TreeNode* root, int& k) {
-        if(!root || res!= -1) return;
-        inorder(root->left, k);
+private:
+    void inorder(TreeNode* root, int& k, int& ans) {
+        if(!root) return;
+        inorder(root->left, k, ans);
         k--;
         if(k == 0) {
-            res = root->val;
+            ans = root->val;
             return;
         }
-        inorder(root->right, k);
+        inorder(root->right, k, ans);
     }
+public:
     int kthSmallest(TreeNode* root, int k) {
-        inorder(root, k);
-        return res;
+        int ans;
+        inorder(root, k, ans);
+        return ans;
     }
 };
 

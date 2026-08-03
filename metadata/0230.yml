@@ -12,4 +12,7 @@ solutions:
   - binary-search-tree
   time: O(K)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> k是call by reference <br>
+
+    > int& k <br>'
