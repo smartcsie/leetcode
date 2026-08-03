@@ -2,6 +2,7 @@
 import sys
 import os
 import re
+import json
 import glob
 from collections import OrderedDict
 
@@ -218,34 +219,69 @@ def build_topic_indexes(problems, topics_out_dir):
     for fname in os.listdir(topics_out_dir):
         os.remove(os.path.join(topics_out_dir, fname))
 
-    familiarity_badges = {
-        '生疏': '🔴 生疏',
-        '注意': '🟡 注意',
-        '熟練': '🟢 熟練',
-    }
-    familiarity_order = {'生疏': 0, '注意': 1, '熟練': 2}
-
-    for topic, rows in topic_rows.items():
-        rows.sort(key=lambda r: (familiarity_order.get(r['familiarity'], 3), r['number']))
-        lines = [f"# {topic}", '',
-                 "| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 熟悉度 |",
-                 "| --- | --- | --- | --- | --- | --- | --- | --- |"]
-        for r in rows:
+    def render_table(sub_rows):
+        lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
+                 "| --- | --- | --- | --- | --- | --- | --- |"]
+        for r in sub_rows:
             tags_str = ', '.join(r['tags'])
             page_link = f"../problems/{r['number']:04d}.md"
             title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
             file_cell = f"[C++]({page_link})" if r['file'] else ''
-            familiarity_cell = familiarity_badges.get(r['familiarity'], '')
             lines.append(f"| {r['number']} | {title_cell} | "
-                         f"{r['difficulty']} | {tags_str} | {file_cell} | {r['time']} | {r['space']} | {familiarity_cell} |")
+                         f"{r['difficulty']} | {tags_str} | {file_cell} | {r['time']} | {r['space']} |")
+        return lines
+
+    for topic, rows in topic_rows.items():
+        rows.sort(key=lambda r: r['number'])
+
+        unfamiliar_rows = [r for r in rows if r['familiarity'] == '生疏']
+        caution_rows = [r for r in rows if r['familiarity'] == '注意']
+        familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '注意')]
+
+        lines = [f"# {topic}", '']
+
+        lines.append(f"## 🔴 生疏（{len(unfamiliar_rows)}）")
+        lines.append('')
+        if unfamiliar_rows:
+            lines.extend(render_table(unfamiliar_rows))
+        else:
+            lines.append('目前沒有標記為生疏的解法。')
+        lines.append('')
+
+        lines.append(f"## 🟡 注意（{len(caution_rows)}）")
+        lines.append('')
+        if caution_rows:
+            lines.extend(render_table(caution_rows))
+        else:
+            lines.append('目前沒有標記為注意的解法。')
+        lines.append('')
+
+        lines.append(f"## 🟢 熟悉（{len(familiar_rows)}）")
+        lines.append('')
+        if familiar_rows:
+            lines.extend(render_table(familiar_rows))
+        else:
+            lines.append('目前沒有標記為熟悉的解法。')
+
         with open(os.path.join(topics_out_dir, f"{topic}.md"), 'w', encoding='utf-8') as f:
             f.write('\n'.join(lines) + '\n')
 
     return topic_rows
 
 
-def build_review_page(problems, docs_dir):
-    """列出所有標記為「生疏」的解法，寫成 docs/review.md 複習清單"""
+def load_ac_cache(cache_path):
+    """讀取 fetch_leetcode_ac.py 產生的 leetcode_ac_cache.json，抓不到就回傳 None（不影響其他功能）。"""
+    if not os.path.exists(cache_path):
+        return None
+    try:
+        with open(cache_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+
+def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'):
+    """列出所有標記為「生疏」的解法，並在最上方加上統計總覽，寫成 docs/review.md 複習清單"""
     rows = []
     for problem in problems:
         for sol in problem['solutions']:
@@ -260,10 +296,69 @@ def build_review_page(problems, docs_dir):
                 })
     rows.sort(key=lambda r: r['number'])
 
-    lines = ['# 📝 複習清單（生疏）', '',
-             f'目前共有 {len(rows)} 個解法標記為生疏，建議找時間重新練習。', '',
-             '| # | 題目 | 難度 | 解法檔案 | 分類 |',
-             '| --- | --- | --- | --- | --- |']
+    # 每一題的整體熟悉度：生疏 > 注意 > 熟練 > 未標記（優先度由左到右，只要任一解法符合就算該題）
+    problem_status = {}
+    topic_stats = OrderedDict()
+
+    for problem in problems:
+        sols = problem['solutions']
+        statuses = {sol.get('familiarity') for sol in sols}
+        if '生疏' in statuses:
+            status = '生疏'
+        elif '注意' in statuses:
+            status = '注意'
+        elif '熟練' in statuses:
+            status = '熟練'
+        else:
+            status = '未標記'
+        problem_status[problem['number']] = status
+
+        problem_topics = set()
+        for sol in sols:
+            for topic in to_list(sol.get('topics')):
+                problem_topics.add(topic)
+        for topic in problem_topics:
+            stat = topic_stats.setdefault(topic, {'生疏': 0, '注意': 0, '熟練': 0, '未標記': 0})
+            stat[status] += 1
+
+    total_problems = len(problems)
+    total_shengshu = sum(1 for s in problem_status.values() if s == '生疏')
+    total_zhuyi = sum(1 for s in problem_status.values() if s == '注意')
+    total_shulian = sum(1 for s in problem_status.values() if s == '熟練')
+    total_unmarked = total_problems - total_shengshu - total_zhuyi - total_shulian
+
+    ac_info = load_ac_cache(ac_cache_path)
+
+    lines = ['# 📝 複習清單（生疏）', '', '## 📊 總覽', '']
+
+    if ac_info and ac_info.get('num_solved') is not None:
+        fetched_at = ac_info.get('fetched_at', '')
+        num_total = ac_info.get('num_total')
+        total_str = f" / {num_total}" if num_total else ''
+        lines.append(f"- **LeetCode 網站 AC 總數：** {ac_info['num_solved']}{total_str} 題"
+                     f"（最後更新：{fetched_at}，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）")
+    else:
+        lines.append("- **LeetCode 網站 AC 總數：** 尚未取得，請先執行 `python3 tools/fetch_leetcode_ac.py`")
+
+    lines.append(f"- **目前收錄總題目數：** {total_problems} 題　"
+                 f"🔴 生疏：{total_shengshu} 題　🟡 注意：{total_zhuyi} 題　🟢 熟練：{total_shulian} 題　⚪ 未標記：{total_unmarked} 題")
+    lines.append('')
+
+    lines.append('### 各分類生疏 / 注意 / 熟練統計')
+    lines.append('')
+    lines.append('| 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |')
+    lines.append('| --- | --- | --- | --- | --- | --- |')
+    for topic, stat in sorted(topic_stats.items()):
+        topic_total = stat['生疏'] + stat['注意'] + stat['熟練'] + stat['未標記']
+        lines.append(f"| [{topic}](topics/{topic}.md) | {stat['生疏']} | {stat['注意']} | {stat['熟練']} | {stat['未標記']} | {topic_total} |")
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+
+    lines.append(f'目前共有 {len(rows)} 個解法標記為生疏，建議找時間重新練習。')
+    lines.append('')
+    lines.append('| # | 題目 | 難度 | 解法檔案 | 分類 |')
+    lines.append('| --- | --- | --- | --- | --- |')
     for r in rows:
         page_link = f"problems/{r['number']:04d}.md"
         title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
