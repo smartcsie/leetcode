@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：837 題　🟢 熟練：22 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：836 題　🟢 熟練：23 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 熟練統計
 
@@ -35,7 +35,7 @@
 | [greedy](topics/greedy.md) | 43 | 0 | 0 | 43 |
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 43 | 0 | 0 | 43 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 24 | 0 | 0 | 24 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 23 | 1 | 0 | 24 |
 | [hash-table-set](topics/hash-table-set.md) | 22 | 0 | 0 | 22 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 10 | 0 | 0 | 10 |
@@ -82,11 +82,10 @@
 
 ---
 
-目前共有 848 個解法標記為生疏，建議找時間重新練習。
+目前共有 847 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [C++](problems/0001.md) | hash-table-mapping |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 Medium | [C++](problems/0002.md) | linked-list |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | [C++](problems/0003.md) | fixed-size-sliding-window |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | [C++](problems/0004.md) | binary-search |
