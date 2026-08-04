@@ -12,7 +12,6 @@ solutions:
   - 2d-array
   time: O(M*N)
   space: O(1)
-  note: '> [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array)<br>
-
-    > 注意邊界條件 **if(m * n != original.size()) return {};** <br>'
-  familiarity: 生疏
+  familiarity: 注意
+  note: '>  **[注意]邊界條件 if(m * n != original.size()) return {};** <br>'
+  is_best: true
