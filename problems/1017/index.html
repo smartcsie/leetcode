@@ -3343,8 +3343,8 @@
 <a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/convert-to-base-2">Convert to Base -2</a><br>
-while(n != 0) {    res = to_string(n &amp; 1) + res;   n  = -(n&gt;&gt;1);}，不等於0是因為有正負<br></p>
+<p><strong>[注意]和轉二進制一樣，差異再往右shift加負號，n  = -(n &gt;&gt; 1);</strong><br>
+<strong>[注意]要記得做reverse，reverse(ans.begin(), ans.end());</strong><br></p>
 </blockquote>
 
 
