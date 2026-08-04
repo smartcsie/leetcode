@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：801 題　🟡 注意：9 題　🟢 熟練：49 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：800 題　🟡 注意：9 題　🟢 熟練：50 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -61,7 +61,7 @@
 | [sorting](topics/sorting.md) | 27 | 0 | 0 | 0 | 27 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 16 | 0 | 1 | 0 | 17 |
+| [stack](topics/stack.md) | 15 | 0 | 2 | 0 | 17 |
 | [string](topics/string.md) | 45 | 1 | 1 | 0 | 47 |
 | [string-character-classification](topics/string-character-classification.md) | 22 | 0 | 0 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 812 個解法標記為生疏，建議找時間重新練習。
+目前共有 811 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -102,7 +102,6 @@
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | [C++](problems/0017.md) | backtracking-combination |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | [C++](problems/0018.md) | two-pointers-opposite |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 Medium | [C++](problems/0019.md) | fast-slow-pointers |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | [C++](problems/0020.md) | stack |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | [C++](problems/0021.md) | linked-list |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | [C++](problems/0022.md) | backtracking-combination |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | [C++](problems/0023.md) | priority-queue |

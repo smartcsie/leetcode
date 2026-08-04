@@ -21,29 +21,19 @@
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char> st;
-        
-        for (char c : s) {
-            // 技巧：遇到左括號時，直接把預期要看到的「右括號」塞進去
-            // 這樣後續比對時只需要判斷是否相等，邏輯更乾淨
-            if (c == '(') {
-                st.push(')');
-            } else if (c == '[') {
-                st.push(']');
-            } else if (c == '{') {
-                st.push('}');
+        string t;
+        for(const char& c : s) {
+            if(c == '(' || c == '[' || c == '{') t.push_back(c);
+            else if(c == ')' || c == ']' || c == '}') {
+                if(t.empty()) return false;
+                if(c == ')' && t.back() == '(') t.pop_back();
+                else if(c == ')') return false;
+                if(c == ']' && t.back() == '[') t.pop_back();
+                else if(c == ']') return false;
+                if(c == '}' && t.back() == '{') t.pop_back();
+                else if(c == '}') return false;
             } 
-            // 如果是右括號：
-            // 1. st.empty() 代表右括號比左括號多
-            // 2. st.top() != c 代表括號類型不匹配（例如先開 [ 卻先閉 ) ）
-            else {
-                if (st.empty() || st.top() != c) {
-                    return false;
-                }
-                st.pop();
-            }
         }
-        // 如果全部匹配完，Stack 應該要是空的
-        return st.empty();
+        return t.empty();
     }
 };
