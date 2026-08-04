@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：793 題　🟡 注意：14 題　🟢 熟練：52 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：788 題　🟡 注意：15 題　🟢 熟練：56 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -21,7 +21,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 16 | 1 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 30 | 0 | 4 | 0 | 34 |
+| [bit-manipulation](topics/bit-manipulation.md) | 25 | 1 | 8 | 0 | 34 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 8 | 0 | 1 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 0 | 5 |

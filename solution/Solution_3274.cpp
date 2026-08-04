@@ -24,8 +24,6 @@
 class Solution {
 public:
     bool checkTwoChessboards(string coordinate1, string coordinate2) {
-        int color1 = (coordinate1[0] & 1) ^ (coordinate1[1] & 1);
-        int color2 = (coordinate2[0] & 1) ^ (coordinate2[1] & 1);
-        return color1 == color2;
+        return ((coordinate1[0] ^ coordinate1[1] ^ coordinate2[0] ^ coordinate2[1]) & 1) == 0;
     }
 };
