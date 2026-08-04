@@ -3,25 +3,25 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：788 題　🟡 注意：15 題　🟢 熟練：56 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：784 題　🟡 注意：16 題　🟢 熟練：59 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 11 | 2 | 3 | 0 | 16 |
-| [array](topics/array.md) | 26 | 2 | 4 | 0 | 32 |
+| [array](topics/array.md) | 25 | 2 | 5 | 0 | 32 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 5 | 0 | 2 | 0 | 7 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
-| [array-linear-scan](topics/array-linear-scan.md) | 16 | 0 | 4 | 0 | 20 |
+| [array-linear-scan](topics/array-linear-scan.md) | 14 | 1 | 5 | 0 | 20 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 3 | 0 | 0 | 0 | 3 |
 | [binary-search](topics/binary-search.md) | 21 | 0 | 0 | 0 | 21 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 16 | 1 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 25 | 1 | 8 | 0 | 34 |
+| [bit-manipulation](topics/bit-manipulation.md) | 24 | 1 | 9 | 0 | 34 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 8 | 0 | 1 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 0 | 5 |

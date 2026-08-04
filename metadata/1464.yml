@@ -6,10 +6,11 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array
-  - Simulation
   - Greedy
+  - Simulation
   topics:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '[比大小]'
