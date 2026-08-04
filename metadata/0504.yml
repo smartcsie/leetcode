@@ -11,7 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(log₇N)
   space: O(1)
+  familiarity: 注意
   note: '> [Base 7](https://leetcode.com/problems/base-7) <br>
 
     > 先用bool紀錄正負號，因為有正負號，while(n != 0)，餘數mod 7，如果為負乘上-1，＋''0''轉char push_back到string尾端，最後reverse<br>'
-  familiarity: 生疏

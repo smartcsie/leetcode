@@ -16,11 +16,12 @@ class Solution {
 public:
     string baseNeg2(int n) {
         if(n == 0) return "0";
-        string res = "";
+        string ans;
         while(n != 0) {
-            res = to_string(n & 1) + res;
-            n = -(n>>1);
+            ans.push_back((n & 1) + '0');
+            n  = -(n >> 1);
         }
-        return res;
+        reverse(ans.begin(), ans.end());
+        return ans;
     }
 };

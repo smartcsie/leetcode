@@ -16,16 +16,15 @@ class Solution {
 public:
     string convertToBase7(int num) {
         if(num == 0) return "0";
-        string res = "";
-        bool neg = (num < 0);
-        int n = num;
-        while(n != 0) {
-            int reminder = (n % 7) < 0 ? -(n % 7) : (n % 7);
-            res.push_back(reminder + '0');
-            n /= 7;
+        string ans;
+        int neg = (num < 0) ? 1 : 0;
+        while(num != 0) {
+            char c = neg ? -(num % 7) + '0' : (num % 7) + '0';
+            ans.push_back(c);
+            num /= 7;
         }
-        if(neg) res.push_back('-');
-        reverse(res.begin(), res.end());
-        return res;
+        if(neg) ans.push_back('-');
+        reverse(ans.begin(), ans.end());
+        return ans;
     }
 };

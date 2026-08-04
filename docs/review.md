@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：798 題　🟡 注意：9 題　🟢 熟練：52 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：796 題　🟡 注意：11 題　🟢 熟練：52 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -43,7 +43,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 0 | 2 |
 | [math](topics/math.md) | 46 | 0 | 2 | 0 | 48 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 31 | 2 | 8 | 0 | 41 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 29 | 4 | 8 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 0 | 7 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 809 個解法標記為生疏，建議找時間重新練習。
+目前共有 807 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -315,7 +315,6 @@
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | [C++](problems/0496.md) | monotonic-stack |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 Easy | [C++](problems/0501.md) | binary-search-tree |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 Medium | [C++](problems/0503.md) | monotonic-stack |
-| 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | [C++](problems/0504.md) | math-digit-decomposition |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | [C++](problems/0507.md) | math-factor-enumeration |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | [C++](problems/0509.md) | dynamic-programming |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 Medium | [C++](problems/0513.md) | tree-bfs-level-order |
@@ -452,7 +451,6 @@
 | 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | 🟢 Easy | [C++](problems/1013.md) | array-linear-scan |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | [C++](problems/1015.md) | math |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | [C++](problems/1016.md) | bit-manipulation |
-| 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | [C++](problems/1017.md) | math-digit-decomposition |
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | [C++](problems/1018.md) | math |
 | 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 Medium | [C++](problems/1019.md) | monotonic-stack |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | [C++](problems/1021.md) | stack |
