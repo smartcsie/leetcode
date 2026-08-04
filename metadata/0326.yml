@@ -10,7 +10,13 @@ solutions:
   - math
   time: O(log₃N)
   space: O(1)
-  note: '> [Power of Three](https://leetcode.com/problems/power-of-three/)<br>
+  familiarity: 熟練
+  note: '> **(n > 0) && static_cast<int>(pow(3, 19)) % n == 0**<br>
 
-    > **(n > 0) && static_cast<int>(pow(3, 19)) % n == 0**<br>'
-  familiarity: 生疏
+    > 連除solution
+
+    > **if(n <= 0) return false;**<br>
+
+    > ** while((n % 3) == 0) n /= 3;**<br>
+
+    > **return (n == 1);**<br>'

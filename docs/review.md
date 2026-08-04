@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：800 題　🟡 注意：9 題　🟢 熟練：50 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：798 題　🟡 注意：9 題　🟢 熟練：52 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -41,7 +41,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 10 | 0 | 0 | 0 | 10 |
 | [linked-list](topics/linked-list.md) | 16 | 0 | 0 | 0 | 16 |
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 0 | 2 |
-| [math](topics/math.md) | 48 | 0 | 0 | 0 | 48 |
+| [math](topics/math.md) | 46 | 0 | 2 | 0 | 48 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 31 | 2 | 8 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 811 個解法標記為生疏，建議找時間重新練習。
+目前共有 809 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -233,7 +233,6 @@
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | [C++](problems/0225.md) | stack |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | [C++](problems/0228.md) | two-pointers-same |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | [C++](problems/0229.md) | array-boyer-moore |
-| 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | [C++](problems/0231.md) | math |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | 🟢 Easy | [C++](problems/0232.md) | stack |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | [C++](problems/0234.md) | linked-list |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | [C++](problems/0235.md) | binary-search-tree |
@@ -263,7 +262,6 @@
 | 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | 🟡 Medium | [C++](problems/0318.md) | bit-manipulation-mask |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | [C++](problems/0322.md) | knapsack-problem |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | 🟡 Medium | [C++](problems/0324.md) | quick-select |
-| 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | [C++](problems/0326.md) | math |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 Medium | [C++](problems/0328.md) | two-pointers-same |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | [C++](problems/0337.md) | dynamic-programming |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | [C++](problems/0338.md) | bit-manipulation-and |
