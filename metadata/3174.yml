@@ -5,10 +5,10 @@ solutions:
 - file: Solution_3174.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
   - Stack
+  - String
   topics:
   - stack
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
