@@ -1,6 +1,6 @@
 # binary-search
 
-## 🔴 生疏（21）
+## 🔴 生疏（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -18,7 +18,6 @@
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | Binary Search | [C++](../problems/0374.md) | O(logN) | O(1) |
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | Binary Search, Matrix | [C++](../problems/0378.md) | O(Nlog(max-min)) | O(1) |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | Binary Search | [C++](../problems/0540.md) | O(logN) | O(1) |
-| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](../problems/0704.md) | O(logN) | O(1) |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | Binary Search | [C++](../problems/0852.md) | O(logN) | O(1) |
 | 1201 | [Ugly Number III](https://leetcode.com/problems/ugly-number-iii/) | 🟡 Medium | Binary Search, Math | [C++](../problems/1201.md) | O(log(2E9)) | O(1) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | Array, Matrix, Binary Search | [C++](../problems/1351.md) | O(R+C) | O(1) |
@@ -30,6 +29,8 @@
 
 目前沒有標記為注意的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](../problems/0704.md) | O(logN) | O(1) |

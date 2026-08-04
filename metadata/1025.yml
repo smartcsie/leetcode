@@ -11,5 +11,5 @@ solutions:
   - math-game-theory
   time: O(1)
   space: O(1)
+  familiarity: 注意
   is_best: true
-  familiarity: 生疏

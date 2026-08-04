@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：784 題　🟡 注意：16 題　🟢 熟練：59 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：781 題　🟡 注意：18 題　🟢 熟練：60 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -17,7 +17,7 @@
 | [array-linear-scan](topics/array-linear-scan.md) | 14 | 1 | 5 | 0 | 20 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 3 | 0 | 0 | 0 | 3 |
-| [binary-search](topics/binary-search.md) | 21 | 0 | 0 | 0 | 21 |
+| [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 21 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 16 | 1 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
@@ -45,7 +45,7 @@
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 29 | 4 | 8 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
-| [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 0 | 6 |
+| [math-game-theory](topics/math-game-theory.md) | 4 | 2 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 0 | 7 |
 | [math-geometry](topics/math-geometry.md) | 2 | 0 | 0 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 2 |

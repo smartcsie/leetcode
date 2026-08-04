@@ -22,7 +22,7 @@ public:
         // 區間閉合 [left, right]，因此使用 <=
         while (left <= right) {
             // 使用位元運算避免 (left + right) 超過 int 最大值 (overflow)
-            int mid = left + ((right - left) >> 1);
+            int mid = left + (right - left) / 2;
             
             if (nums[mid] == target) {
                 return mid; // 找到目標
