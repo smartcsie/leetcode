@@ -1,12 +1,11 @@
 # string
 
-## 🔴 生疏（45）
-
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | String, Math | [C++](../problems/0008.md) | O(N) | O(1) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String, Trie | [C++](../problems/0014.md) | O(S) | O(1) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | Math, String | [C++](../problems/0043.md) | O(M*N) | O(M+N) |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](../problems/0058.md) | O(N) | O(1) |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String, Two Pointers | [C++](../problems/0151.md) | O(N) | O(N) |
 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](../problems/0434.md) | O(N) | O(1) |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Hash Table, Sorting | [C++](../problems/0648.md) | O(N*L+M*K) | O(D*L) |
@@ -17,6 +16,7 @@
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 Medium | Stack, String | [C++](../problems/1003.md) | O(N) | O(N) |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 Easy | String Parsing | [C++](../problems/1078.md) | O(N) | O(N) |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 Easy | String | [C++](../problems/1108.md) | O(N) | O(N) |
+| 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 Easy | String, Stream | [C++](../problems/1455.md) | O(N) | O(W) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String, Array | [C++](../problems/1528.md) | O(N) | O(N) |
 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 Easy | String, Simulation | [C++](../problems/1592.md) | O(N) | O(N) |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 Easy | String, Parsing | [C++](../problems/1678.md) | O(N) | O(N) |
@@ -49,15 +49,3 @@
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | Math, String | [C++](../problems/3498.md) | O(N) | O(1) |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) |
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 Easy | String, Simulation, Math | [C++](../problems/3986.md) | O(1) | O(1) |
-
-## 🟡 注意（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](../problems/0058.md) | O(N) | O(1) |
-
-## 🟢 熟悉（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 Easy | String, Stream | [C++](../problems/1455.md) | O(N) | O(W) |

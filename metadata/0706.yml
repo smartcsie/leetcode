@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0706.cpp
   difficulty: 🟢 Easy
   tags:
+  - Design
   - Hash Table
-  - Linked List
   topics:
-  - hash-table-set
+  - design
   time: O(N/K)
   space: O(M+K)
   familiarity: 生疏

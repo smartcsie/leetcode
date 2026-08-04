@@ -1,9 +1,9 @@
 # bit-manipulation-xor
 
-## 🔴 生疏（16）
-
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](../problems/0136.md) | O(N) | O(1) |
+| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](../problems/0260.md) | O(N) | O(1) |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit-Manipulation | [C++](../problems/0268.md) | O(N) | O(1) |
 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bit Manipulation Xor, Hash Set | [C++](../problems/0421.md) | O(N*L) | O(N) |
 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Math, Bit Manipulation, Array | [C++](../problems/0477.md) | O(31*N) | O(1) |
@@ -20,14 +20,3 @@
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Math, Bit Manipulation, Brainteaser | [C++](../problems/3513.md) | O(logN) | O(1) |
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](../problems/3514.md) | O(MlogM) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。 | O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。 |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 Medium | Bit Manipulation, Greedy | [C++](../problems/3702.md) | O(N) | O(1) |
-
-## 🟡 注意（2）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](../problems/0136.md) | O(N) | O(1) |
-| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](../problems/0260.md) | O(N) | O(1) |
-
-## 🟢 熟悉（0）
-
-目前沒有標記為熟悉的解法。

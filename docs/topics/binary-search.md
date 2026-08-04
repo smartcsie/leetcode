@@ -1,7 +1,5 @@
 # binary-search
 
-## 🔴 生疏（21）
-
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Binary Search | [C++](../problems/0004.md) | O(log(M+N)) | O(1) |
@@ -25,11 +23,3 @@
 | 1930 | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | 🟡 Medium | Greedy, Hash | [C++](../problems/1930.md) | O(N) | O(1) |
 | 2195 | [Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/) | 🟡 Medium | Math, Binary Search | [C++](../problems/2195.md) | O(NlogN) | O(1) |
 | 2529 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer) | 🟢 Easy | Binary Search | [C++](../problems/2529.md) | O(logN) | O(1) |
-
-## 🟡 注意（0）
-
-目前沒有標記為注意的解法。
-
-## 🟢 熟悉（0）
-
-目前沒有標記為熟悉的解法。

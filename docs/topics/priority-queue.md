@@ -1,7 +1,5 @@
 # priority-queue
 
-## 🔴 生疏（6）
-
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | Heap, Linked List | [C++](../problems/0023.md) | O(NlogK) | O(K) |
@@ -10,11 +8,3 @@
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 Easy | Heap (Priority Queue) | [C++](../problems/0703.md) | O(NlogK) / O(logK) | O(K) |
 | 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Priority Queue, Binary Search | [C++](../problems/0786.md) | O(NlogN) | O(N) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Heap (Priority Queue) | [C++](../problems/1046.md) | O(NlogN) | O(N) |
-
-## 🟡 注意（0）
-
-目前沒有標記為注意的解法。
-
-## 🟢 熟悉（0）
-
-目前沒有標記為熟悉的解法。

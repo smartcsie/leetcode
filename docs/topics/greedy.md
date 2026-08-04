@@ -1,7 +1,5 @@
 # greedy
 
-## 🔴 生疏（43）
-
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | Greedy | [C++](../problems/0055.md) | O(N) | O(1) |
@@ -47,11 +45,3 @@
 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | Greedy, String | [C++](../problems/3216.md) | O(N) | O(1) |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) | 🟢 Easy | Math, Greedy | [C++](../problems/3536.md) | O(logN) | O(1) |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | Greedy, String | [C++](../problems/3798.md) | O(N) | O(1) |
-
-## 🟡 注意（0）
-
-目前沒有標記為注意的解法。
-
-## 🟢 熟悉（0）
-
-目前沒有標記為熟悉的解法。

@@ -540,7 +540,8 @@ async function saveAndPublish() {
 }
 
 const KNOWN_TOPICS = ["math","math-combination","math-permutation","math-factor-enumeration",
-"math-simulation","math-digit-decomposition","prime","math-palindrome","bit-manipulation",
+"math-simulation","math-digit-decomposition","math-prime","math-palindrome","math-game-theory",
+"math-gcd","math-geometry","bit-manipulation",
 "bit-manipulation-mask","bit-manipulation-or","bit-manipulation-and","bit-manipulation-xor",
 "hamming-distance","bit-bitmask-subset-enumeration","string","string-state-machine",
 "string-substring-enumeration","string-character-classification","string-substring",
@@ -551,11 +552,12 @@ const KNOWN_TOPICS = ["math","math-combination","math-permutation","math-factor-
 "two-pointers-swap","two-pointers-center-expansion","two-pointers-other",
 "hash-table-counting","hash-table-mapping","hash-table-set","stack","monotonic-stack",
 "monotonic-queue","priority-queue","quick-select","tree","tree-bfs-level-order",
-"tree-dfs-path","trie","dfs-bfs","sorting","sorting-cycle-decomposition",
+"tree-dfs-path","trie","dfs-bfs","graph-bfs","graph-dfs","union-find","topological-sort",
+"graph-shortest-path","design","sorting","sorting-cycle-decomposition",
 "dynamic-programming","knapsack-problem",
 "dynamic-programming-kadane-algorithm","greedy","backtracking-combination",
 "backtracking-permutation","negative-marking","fixed-size-sliding-window",
-"variable-size-sliding-window","sql","uncategorized"];
+"variable-size-sliding-window","sql"];
 
 function pad4(n) {
   n = String(n || '').replace(/\D/g, '');

@@ -1,7 +1,5 @@
 # fast-slow-pointers
 
-## 🔴 生疏（12）
-
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 Medium | Linked List, Fast-Slow Pointers | [C++](../problems/0019.md) | O(N) | O(1) |
@@ -16,11 +14,3 @@
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | Linked List, Fast-Slow Pointers | [C++](../problems/2095.md) | O(N) | O(1) |
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | Linked List, Two Pointers, Stack | [C++](../problems/2130.md) | O(N) | O(1) |
 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | Array, Two Pointers, Sorting | [C++](../problems/2824.md) | O(N²) | O(1) |
-
-## 🟡 注意（0）
-
-目前沒有標記為注意的解法。
-
-## 🟢 熟悉（0）
-
-目前沒有標記為熟悉的解法。

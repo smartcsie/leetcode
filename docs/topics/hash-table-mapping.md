@@ -1,9 +1,8 @@
 # hash-table-mapping
 
-## 🔴 生疏（23）
-
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table | [C++](../problems/0001.md) | O(N) | O(N) |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 Medium | Math, Hash Table, String | [C++](../problems/0012.md) | O(1) | O(1) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 Easy | Hash Table, Math, String | [C++](../problems/0013.md) | O(N) | O(1) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | Array, Hash Table, Bitset | [C++](../problems/0036.md) | O(1) | O(1) |
@@ -27,13 +26,3 @@
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table, Two Pointers, Sorting | [C++](../problems/2441.md) | O(N) | O(N) |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Array, Hash Set | [C++](../problems/3678.md) | O(N) | O(N) |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | Hash Mapping, Simulation | [C++](../problems/3838.md) | O(N*L) | O(1) |
-
-## 🟡 注意（0）
-
-目前沒有標記為注意的解法。
-
-## 🟢 熟悉（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table | [C++](../problems/0001.md) | O(N) | O(N) |

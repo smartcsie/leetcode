@@ -1,7 +1,5 @@
 # two-pointers-same
 
-## 🔴 生疏（20）
-
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | Array, Two Pointers | [C++](../problems/0031.md) | O(N) | O(1) |
@@ -24,11 +22,3 @@
 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | Two Pointers, State Transition | [C++](../problems/3637.md) | O(N) | O(1) |
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | Array, Two Pointers | [C++](../problems/3819.md) | O(N) | O(N) |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Array, Two Pointers | [C++](../problems/3940.md) | O(N) | O(1) |
-
-## 🟡 注意（0）
-
-目前沒有標記為注意的解法。
-
-## 🟢 熟悉（0）
-
-目前沒有標記為熟悉的解法。

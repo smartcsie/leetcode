@@ -11,4 +11,8 @@ solutions:
   - hash-table-set
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> 找 num/2 是否在hash set中 <br>
+
+    > 用(seen.count(num / 2) && (num & 1) == 0)  <br>'
+  is_best: true
