@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：796 題　🟡 注意：11 題　🟢 熟練：52 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：794 題　🟡 注意：13 題　🟢 熟練：52 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -25,7 +25,7 @@
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 8 | 0 | 1 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 0 | 5 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 18 | 0 | 0 | 0 | 18 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 16 | 2 | 0 | 0 | 18 |
 | [design](topics/design.md) | 4 | 0 | 0 | 0 | 4 |
 | [dfs-bfs](topics/dfs-bfs.md) | 2 | 0 | 0 | 0 | 2 |
 | [dynamic-programming](topics/dynamic-programming.md) | 32 | 0 | 0 | 0 | 32 |
@@ -82,7 +82,7 @@
 
 ---
 
-目前共有 807 個解法標記為生疏，建議找時間重新練習。
+目前共有 805 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -185,7 +185,6 @@
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 Easy | [C++](problems/0125.md) | two-pointers-opposite |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | [C++](problems/0128.md) | hash-table-mapping |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | [C++](problems/0129.md) | tree-dfs-path |
-| 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | [C++](problems/0136.md) | bit-manipulation-xor |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | [C++](problems/0137.md) | bit-manipulation |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | [C++](problems/0137.md) | math |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [C++](problems/0139.md) | knapsack-problem |
@@ -243,7 +242,6 @@
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | [C++](problems/0242.md) | hash-table-mapping |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-path) | 🟢 Easy | [C++](problems/0257.md) | tree-dfs-path |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | [C++](problems/0258.md) | math |
-| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | [C++](problems/0260.md) | bit-manipulation-xor |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | [C++](problems/0263.md) | math |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | [C++](problems/0264.md) | dynamic-programming |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | [C++](problems/0268.md) | bit-manipulation-xor |

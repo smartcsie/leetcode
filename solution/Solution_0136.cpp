@@ -1,9 +1,10 @@
 
 
 /**
- * 題目：待補充
- * 難度：待補充
- * 描述：待補充
+ * 題目：136. Single Number (只出現一次的數字)
+ * 難度：Easy (簡單)
+ * 描述：給你一個非空的整數陣列 nums，除了某個元素只出現一次以外，其餘每個元素均出現兩 *  次。找出那個只出現一次的元素。
+
  *
  * 時間複雜度：O(N) - 只需要遍歷陣列一次。 O(N) - 單次遍歷 XOR 所有元素。
  * 空間複雜度：O(1) - 僅使用一個額外的整數變數，不隨輸入規模增加空間。 O(1) - 僅使用一個變數。
@@ -22,6 +23,6 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        return reduce(nums.begin(), nums.end(), 0 , bit_xor<int>());
+        return accumulate(nums.begin(), nums.end(), 0, bit_xor<int>());
     }
 };
