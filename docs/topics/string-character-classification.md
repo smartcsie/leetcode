@@ -1,5 +1,7 @@
 # string-character-classification
 
+## 🔴 生疏（22）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String | [C++](../problems/0520.md) | O(N) | O(1) |
@@ -24,3 +26,11 @@
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Processing | [C++](../problems/3813.md) | O(N) | O(1) |
 | 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | String, Two Pointers | [C++](../problems/3856.md) | O(N) | O(1) |
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String, Math | [C++](../problems/3931.md) | O(N) | O(1) |
+
+## 🟡 注意（0）
+
+目前沒有標記為注意的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

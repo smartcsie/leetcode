@@ -1,12 +1,13 @@
 # binary-search-tree
 
+## 🔴 生疏（16）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Tree, DFS, BST | [C++](../problems/0098.md) | O(N) | O(H) |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | BST, In-order Traversal | [C++](../problems/0099.md) | O(N) | O(1) |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Tree, DFS, Binary Search | [C++](../problems/0108.md) | O(N) | O(logN) |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 Medium | Linked List, Tree | [C++](../problems/0109.md) | O(NlogN) | O(logN) |
-| 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 Medium | Tree, DFS, BST | [C++](../problems/0230.md) | O(K) | O(H) |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Tree, DFS, BST | [C++](../problems/0235.md) | O(H) | O(H) |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 Easy | Tree, DFS, BST | [C++](../problems/0501.md) | O(N) | O(H) |
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 Easy | Tree, DFS, BST | [C++](../problems/0530.md) | O(N) | O(H) |
@@ -19,3 +20,13 @@
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 Medium | Tree, BST, DFS | [C++](../problems/1008.md) | O(N) | O(N) |
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 Medium | Tree, BST | [C++](../problems/1038.md) | O(N) | O(H) |
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 Medium | Tree, BST | [C++](../problems/1382.md) | O(N) | O(N) |
+
+## 🟡 注意（1）
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 Medium | Tree, DFS, BST | [C++](../problems/0230.md) | O(K) | O(H) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

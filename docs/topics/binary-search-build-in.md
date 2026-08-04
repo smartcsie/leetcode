@@ -1,5 +1,7 @@
 # binary-search-build-in
 
+## 🔴 生疏（7）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 🟡 Medium | Binary Search | [C++](../problems/0034.md) | O(logN) | O(1) |
@@ -9,3 +11,11 @@
 | 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | 🟢 Easy | Binary Search | [C++](../problems/1539.md) | O(logN) | O(1) |
 | 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | Binary Search, Greedy | [C++](../problems/1818.md) | O(NlogN) | O(N) |
 | 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | 🟡 Medium | BST, Binary Search | [C++](../problems/2476.md) | O(N+QlogN) | O(N) |
+
+## 🟡 注意（0）
+
+目前沒有標記為注意的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

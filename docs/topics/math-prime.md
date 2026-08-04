@@ -1,5 +1,7 @@
 # math-prime
 
+## 🔴 生疏（11）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math, Sieve | [C++](../problems/0204.md) | O(NloglogN) | O(N) |
@@ -13,3 +15,11 @@
 | 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | Math, Prime Number | [C++](../problems/3765.md) | O(D*sqrt(N)) | O(D) |
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math, Prefix Sum | [C++](../problems/3770.md) | O(RloglogR) | O(R) |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math, Sieve | [C++](../problems/3918.md) | O(RloglogR) | O(R) |
+
+## 🟡 注意（0）
+
+目前沒有標記為注意的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

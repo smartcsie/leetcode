@@ -1,5 +1,7 @@
 # fixed-size-sliding-window
 
+## 🔴 生疏（11）
+
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | Sliding Window, Hash Table | [C++](../problems/0003.md) | O(N) | O(1) |
@@ -13,3 +15,11 @@
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | Sorting, Sliding Window | [C++](../problems/1984.md) | O(NlogN) | O(1) |
 | 3090 | [Maximum Length Substring](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 Easy | Sliding Window | [C++](../problems/3090.md) | O(N) | O(1) |
 | 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | Array, Sliding Window, Simulation | [C++](../problems/3392.md) | O(N) | O(1) |
+
+## 🟡 注意（0）
+
+目前沒有標記為注意的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。
