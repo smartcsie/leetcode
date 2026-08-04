@@ -10,7 +10,7 @@ solutions:
   - 2d-array
   time: O(N²)
   space: O(1)
+  familiarity: 熟練
   note: '> [Rotate Image](https://leetcode.com/problems/rotate-image/)<br>
 
     > 先求轉置矩陣，每個row再取reverse<br>'
-  familiarity: 生疏

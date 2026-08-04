@@ -10,4 +10,5 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意
+  is_best: true

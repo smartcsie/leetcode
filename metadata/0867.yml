@@ -10,7 +10,7 @@ solutions:
   - 2d-array
   time: O(M*N)
   space: O(M*N)
+  familiarity: 熟練
   note: '> [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)<br>
 
     > Size mxn，New 一個 Vector nxm<br>'
-  familiarity: 生疏

@@ -11,4 +11,4 @@ solutions:
   - array
   time: O(N³)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
