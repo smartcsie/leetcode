@@ -29,10 +29,18 @@
 class Solution {
 public:
     int dominantIndex(vector<int>& nums) {
-        if (nums.size() == 1) return 0;
-        auto it = std::max_element(nums.begin(), nums.end());
-        int index = std::distance(nums.begin(), it);
-        std::partial_sort(nums.begin(), nums.begin() + 2, nums.end(), std::greater<int>());
-        return nums[1] * 2 <= nums[0] ? index : -1;
+        int first = INT_MIN;
+        int second = INT_MIN;
+        int maxIdx = -1;
+        for(int i = 0; i < nums.size(); i++) {
+            if(nums[i] > first) {
+                second = first;
+                first = nums[i]; 
+                maxIdx = i;
+            } else if(nums[i] > second) {
+                second = nums[i]; 
+            }
+        }
+        return first >= 2 * second ? maxIdx : -1;
     }
 };

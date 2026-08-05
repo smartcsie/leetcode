@@ -1,11 +1,10 @@
 # array-linear-scan
 
-## 🔴 生疏（11）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Array, Sorting, Two Pointers | [C++](../problems/0581.md) | O(NlogN) | O(N) |
-| 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 Easy | Array Linear Scan, Linear Scan | [C++](../problems/0747.md) | O(N) | O(1) |
 | 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | 🟢 Easy | Array, Prefix Sum, Greedy | [C++](../problems/1013.md) | O(N) | O(1) |
 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 Easy | Array Linear Scan | [C++](../problems/1422.md) | O(N) - 先使用 std::count 花費 O(N) 計算總 1 數量，接著用單一迴圈花費 O(N) 掃描分割點。 | O(1) - 僅使用常數個變數（zeros, ones, ans）來追蹤狀態，不需額外配置動態記憶體。 |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy | Array | [C++](../problems/1431.md) | O(N) | O(1)* |
@@ -22,10 +21,11 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array | [C++](../problems/0414.md) | O(N) | O(1) |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 Easy | Array Linear Scan, Linear Scan | [C++](../problems/0747.md) | O(N) | O(1) |
 | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 Easy | Array, Simulation | [C++](../problems/1437.md) | O(N) | O(1) |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 Easy | Array, Greedy, Simulation | [C++](../problems/1464.md) | O(N) | O(1) |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 Easy | Array | [C++](../problems/2057.md) | O(N) | O(1) |
