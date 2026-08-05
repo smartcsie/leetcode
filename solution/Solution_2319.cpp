@@ -24,20 +24,12 @@ class Solution {
 public:
     bool checkXMatrix(std::vector<std::vector<int>>& grid) {
         int n = grid.size();
-        
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < n; ++j) {
-                // 判斷是否位於對角線上
-                if (i == j || i + j == n - 1) {
-                    // 對角線元素不可為 0
-                    if (grid[i][j] == 0) return false;
-                } else {
-                    // 非對角線元素必須為 0
-                    if (grid[i][j] != 0) return false;
-                }
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                if(((i == j) || (i + j) == (n - 1)) && grid[i][j] == 0) return false;
+                if(((i != j) && (i + j) != (n - 1)) && grid[i][j] != 0) return false;
             }
         }
-        
         return true;
     }
 };
