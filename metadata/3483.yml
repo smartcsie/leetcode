@@ -5,12 +5,14 @@ solutions:
 - file: Solution_3483_1.cpp
   difficulty: 🟢 Easy
   tags:
+  - Array
   - Backtracking
   topics:
-  - backtracking-permutation
+  - array
   time: O(P(N,3))
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意
+  note: '[類似][三層迴圈] 1534'
 - file: Solution_3483.cpp
   difficulty: 🟢 Easy
   tags:

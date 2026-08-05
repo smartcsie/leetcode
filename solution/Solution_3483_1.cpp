@@ -14,45 +14,22 @@
  */
 
 class Solution {
-private:
-    void backtrack(const std::vector<int>& digits, std::vector<int>& cur, std::vector<bool>& visited, std::unordered_set<int>& res) {
-        if(cur.size() == 3) {
-            // 檢查末位是否為偶數
-            if((cur[2] & 1) == 0) {
-                res.insert(cur[0] * 100 + cur[1] * 10 + cur[2]);
-            }
-            return;
-        }
-        
-        for(int i = 0; i < digits.size(); i++) {
-            // 1. 首位不能為 0
-            if(cur.empty() && digits[i] == 0) continue;
-            // 2. 避免使用已用過的數字
-            if(visited[i]) continue;
-            // 3. 剪枝優化：如果當前數字與前一個相同且前一個未被訪問，跳過以避免重複組合
-            if(i > 0 && digits[i] == digits[i-1] && !visited[i-1]) continue;
-            
-            visited[i] = true;
-            cur.push_back(digits[i]);
-            
-            backtrack(digits, cur, visited, res);
-            
-            cur.pop_back();
-            visited[i] = false;
-        }
-    }
 
 public:
-    int totalNumbers(std::vector<int>& digits) {
-        // 先排序以利於後續的重複元素剪枝
-        std::vector<int> sorted_digits = digits;
-        std::sort(sorted_digits.begin(), sorted_digits.end());
-        
-        std::unordered_set<int> res;
-        std::vector<bool> visited(sorted_digits.size(), false);
-        std::vector<int> cur;
-        
-        backtrack(sorted_digits, cur, visited, res);
-        return static_cast<int>(res.size());
+    int totalNumbers(vector<int>& digits) {
+        int n = digits.size();
+        unordered_set<int> seen;
+        for(int i = 0; i < n; i++) {
+            if(digits[i] == 0) continue;
+            for(int j = 0; j < n; j++) {
+                if(i == j) continue;
+                for(int k = 0; k < n; k++) {
+                    if(j == k || i == k || (digits[k] % 2)) continue;
+                    int num = digits[i] * 100 + digits[j] * 10 + digits[k];
+                    seen.insert(num);
+                }
+            }
+        }
+        return seen.size();
     }
 };

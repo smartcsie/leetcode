@@ -10,13 +10,13 @@
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 11 | 2 | 3 | 0 | 16 |
-| [array](topics/array.md) | 25 | 2 | 5 | 0 | 32 |
+| [array](topics/array.md) | 26 | 2 | 5 | 0 | 33 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 5 | 0 | 2 | 0 | 7 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
 | [array-linear-scan](topics/array-linear-scan.md) | 14 | 1 | 5 | 0 | 20 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
-| [backtracking-permutation](topics/backtracking-permutation.md) | 3 | 0 | 0 | 0 | 3 |
+| [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 2 |
 | [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 21 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 16 | 1 | 0 | 0 | 17 |
