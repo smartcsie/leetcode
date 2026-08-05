@@ -10,10 +10,8 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  note: '> [Missing Number](https://leetcode.com/problems/missing-number) <br>
-
-    > for loop 從0 ~ (size - 1) ， missing ^= (i + 1) ^ nums[i]<br>'
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> **for loop 從0 ~ (size - 1) ， missing ^= (i + 1) ^ nums[i]** <br>'
 - file: Solution_0268.cpp
   difficulty: 🟢 Easy
   tags:
@@ -22,7 +20,5 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  note: '> [Missing Number](https://leetcode.com/problems/missing-number/)<br>
-
-    > n = nums.size()，accumulate算出sum，回傳 n * (n + 1) / 2 - sum<br>'
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> n = nums.size()，accumulate算出sum，回傳 n * (n + 1) / 2 - sum<br>'

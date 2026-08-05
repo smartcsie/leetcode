@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（46）
+## 🔴 生疏（45）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 Medium | Math | [C++](../problems/0172.md) | O(log₅N) | O(1) |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](../problems/0258.md) | O(1) | O(1) |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](../problems/0263.md) | O(logN) | O(1) |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Math | [C++](../problems/0268.md) | O(N) | O(1) |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](../problems/0396.md) | O(N) | O(1) |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math, String | [C++](../problems/0412.md) | O(N) | O(1)* |
@@ -55,9 +54,10 @@
 
 目前沒有標記為注意的解法。
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](../problems/0231.md) | O(1) | O(1) |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Math | [C++](../problems/0268.md) | O(N) | O(1) |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](../problems/0326.md) | O(log₃N) | O(1) |

@@ -18,6 +18,6 @@
 class Solution {
 public:
     bool doesValidArrayExist(std::vector<int>& derived) {
-        return !reduce(derived.begin(), derived.end(), 0, bit_xor<int>());
+        return !accumulate(derived.begin(), derived.end(), 0, bit_xor<int>());
     }
 };

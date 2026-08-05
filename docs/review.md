@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：781 題　🟡 注意：18 題　🟢 熟練：60 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：778 題　🟡 注意：20 題　🟢 熟練：61 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -25,7 +25,7 @@
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 8 | 0 | 1 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 0 | 5 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 16 | 2 | 0 | 0 | 18 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 13 | 4 | 1 | 0 | 18 |
 | [design](topics/design.md) | 5 | 0 | 0 | 0 | 5 |
 | [dfs-bfs](topics/dfs-bfs.md) | 2 | 0 | 0 | 0 | 2 |
 | [dynamic-programming](topics/dynamic-programming.md) | 32 | 0 | 0 | 0 | 32 |
@@ -41,7 +41,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 10 | 0 | 0 | 0 | 10 |
 | [linked-list](topics/linked-list.md) | 16 | 0 | 0 | 0 | 16 |
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 0 | 2 |
-| [math](topics/math.md) | 46 | 0 | 2 | 0 | 48 |
+| [math](topics/math.md) | 45 | 1 | 2 | 0 | 48 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 29 | 4 | 8 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
