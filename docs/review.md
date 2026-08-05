@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：772 題　🟡 注意：23 題　🟢 熟練：64 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：771 題　🟡 注意：24 題　🟢 熟練：64 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -35,7 +35,7 @@
 | [greedy](topics/greedy.md) | 43 | 0 | 0 | 0 | 43 |
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 39 | 0 | 4 | 0 | 43 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 23 | 0 | 1 | 0 | 24 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 22 | 1 | 1 | 0 | 24 |
 | [hash-table-set](topics/hash-table-set.md) | 16 | 1 | 4 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 10 | 0 | 0 | 0 | 10 |

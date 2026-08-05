@@ -10,15 +10,14 @@
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
-        int n = s.size();
-        char s_to_t[128] = {0};
-        char t_to_s[128] = {0};
-        for(int i = 0; i < n; i++) {
-            if(s_to_t[s[i]] !=0  && s_to_t[s[i]]!= t[i]) return false;
-            if(t_to_s[t[i]] !=0  && t_to_s[t[i]]!= s[i]) return false;
-            s_to_t[s[i]] = t[i];
-            t_to_s[t[i]] = s[i];
-        }  
+        vector<int> s2t(128, 0);
+        vector<int> t2s(128, 0);
+        for(int i = 0; i < s.size(); i++) {
+            if(s2t[s[i]] && s2t[s[i]] != t[i]) return false;
+            if(t2s[t[i]] && t2s[t[i]] != s[i]) return false;
+            s2t[s[i]] = t[i];
+            t2s[t[i]] = s[i];
+        }
         return true;
     }
 };
