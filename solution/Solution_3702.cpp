@@ -18,21 +18,11 @@
  */
 
 class Solution {
-private:
-    bool isAllZero(const std::vector<int>& nums) {
-        return std::all_of(nums.begin(), nums.end(), [](int x) { return x == 0; });
-    }
-
 public:
     int longestSubsequence(std::vector<int>& nums) {
-        // 1. 若全數為 0，無法組成非零 XOR 的子序列，回傳 0
-        if (isAllZero(nums)) {
-            return 0;
-        }
-        
-        int mask = reduce(nums.begin(), nums.end(), 0, bit_xor<int>());
-        
-        // 2. 若全體 XOR 不為 0，直接拿全部；若為 0，拿掉一個元素即可
-        return (mask != 0) ? nums.size() : nums.size() - 1;
+        int n = nums.size();
+        if(count(nums.begin(), nums.end(), 0) == n) return 0;
+        int xorOp = accumulate(nums.begin(), nums.end(), 0, bit_xor<int>());
+        return xorOp != 0 ? n : n - 1;
     }
 };
