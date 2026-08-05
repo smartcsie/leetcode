@@ -10,6 +10,7 @@ solutions:
   - two-pointers-swap
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/)
     <br>
 
@@ -24,4 +25,3 @@ solutions:
 
 
     <br><br>'
-  familiarity: 生疏

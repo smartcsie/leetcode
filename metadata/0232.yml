@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0232.cpp
   difficulty: 🟢 Easy
   tags:
-  - Stack
+  - Design
   - Queue
   topics:
-  - stack
+  - design
   time: O(1) amortized
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意
+  is_best: true

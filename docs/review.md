@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：763 題　🟡 注意：25 題　🟢 熟練：71 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：761 題　🟡 注意：26 題　🟢 熟練：72 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -26,7 +26,7 @@
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 2 | 0 | 18 |
-| [design](topics/design.md) | 5 | 0 | 0 | 0 | 5 |
+| [design](topics/design.md) | 5 | 1 | 0 | 0 | 6 |
 | [dfs-bfs](topics/dfs-bfs.md) | 2 | 0 | 0 | 0 | 2 |
 | [dynamic-programming](topics/dynamic-programming.md) | 32 | 0 | 0 | 0 | 32 |
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 5 |
@@ -61,7 +61,7 @@
 | [sorting](topics/sorting.md) | 27 | 0 | 0 | 0 | 27 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 15 | 0 | 2 | 0 | 17 |
+| [stack](topics/stack.md) | 14 | 0 | 2 | 0 | 16 |
 | [string](topics/string.md) | 45 | 1 | 1 | 0 | 47 |
 | [string-character-classification](topics/string-character-classification.md) | 22 | 0 | 0 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
@@ -77,5 +77,5 @@
 | [two-pointers-other](topics/two-pointers-other.md) | 4 | 0 | 0 | 0 | 4 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 18 | 1 | 1 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 3 | 2 | 5 | 0 | 10 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 2 | 2 | 6 | 0 | 10 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |
