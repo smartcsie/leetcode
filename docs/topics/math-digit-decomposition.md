@@ -1,6 +1,6 @@
 # math-digit-decomposition
 
-## 🔴 生疏（29）
+## 🔴 生疏（27）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -21,9 +21,7 @@
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | Math, Simulation | [C++](../problems/2443.md) | O(NlogN) | O(1) |
 | 2520 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2520.md) | O(logN) | O(1) |
-| 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 Easy | Math, Array | [C++](../problems/2535.md) | O(N*logM) | O(1) |
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2544.md) | O(logN) | O(logN) |
-| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array, Math | [C++](../problems/2553.md) | O(N*log(max_VAL)) | O(N*log(max_VAL)) |
 | 3079 | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3079.md) | O(N*D) | O(D) |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math | [C++](../problems/3099.md) | O(logN) | O(1) |
 | 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Math, Simulation | [C++](../problems/3300.md) | O(N*logM) | O(1) |
@@ -43,10 +41,12 @@
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3622.md) | O(logN) | O(1) |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 Easy | Array, Math | [C++](../problems/2535.md) | O(N*logM) | O(1) |
+| 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array, Math | [C++](../problems/2553.md) | O(N*log(max_VAL)) | O(N*log(max_VAL)) |
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math, Simulation | [C++](../problems/2843.md) | O(N*D) | O(1) |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | Math, String | [C++](../problems/3340.md) | O(N) | O(1) |
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3726.md) | O(logN) | O(1) |

@@ -11,6 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(N*log(max_VAL))
   space: O(N*log(max_VAL))
+  familiarity: 熟練
   note: '> [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array)
     <br>
 
@@ -41,4 +42,3 @@ solutions:
     <br>
 
     > **}** <br>'
-  familiarity: 生疏

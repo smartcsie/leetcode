@@ -13,13 +13,15 @@
 class Solution {
 public:
     vector<int> separateDigits(vector<int>& nums) {
-        vector<int> res;
-        for (int num : nums) {
-            string s = to_string(num); // 轉為字串處理最為直觀
-            for (char c : s) {
-                res.push_back(c - '0');
+        vector<int> ans;
+        for(int i = nums.size() - 1; i >= 0; i--) {
+            int temp = nums[i];
+            while(temp > 0) {
+                ans.push_back(temp % 10);
+                temp /= 10;
             }
         }
-        return res;
+        reverse(ans.begin(), ans.end());
+        return ans;
     }
 };
