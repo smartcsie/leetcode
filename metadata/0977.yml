@@ -8,7 +8,7 @@ solutions:
   - Array
   - Two Pointers
   topics:
-  - two-pointers-opposite
+  - two-pointers-swap
   time: O(N)
   space: O(N)
   familiarity: 注意

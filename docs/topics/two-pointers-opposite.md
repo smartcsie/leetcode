@@ -23,11 +23,9 @@
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | String, Two Pointers | [C++](../problems/3794.md) | O(N) | O(1) |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | Two-Pointers | [C++](../problems/3884.md) | O(N) | O(1) |
 
-## 🟡 注意（1）
+## 🟡 注意（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0977.md) | O(N) | O(N) |
+目前沒有標記為注意的解法。
 
 ## 🟢 熟悉（0）
 

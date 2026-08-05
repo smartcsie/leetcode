@@ -8,11 +8,12 @@
 | 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two-Pointer | [C++](../problems/3823.md) | O(N) | O(1) |
 | 3992 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | 🟡 Medium | Two Pointers, Swap | [C++](../problems/3992.md) | O(N) | O(1) |
 
-## 🟡 注意（1）
+## 🟡 注意（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Array, Fast-Slow Pointers | [C++](../problems/0283.md) | O(N) | O(1) |
+| 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0977.md) | O(N) | O(N) |
 
 ## 🟢 熟悉（5）
 
