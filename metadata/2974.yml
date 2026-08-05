@@ -10,4 +10,4 @@ solutions:
   - array-linear-scan
   time: O(N) - 計算所有元素和，生成交替奇偶數列。
   space: O(N) - 結果陣列大小為 N。
-  familiarity: 生疏
+  familiarity: 熟練
