@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：760 題　🟡 注意：26 題　🟢 熟練：73 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：760 題　🟡 注意：27 題　🟢 熟練：72 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -77,5 +77,5 @@
 | [two-pointers-other](topics/two-pointers-other.md) | 4 | 0 | 0 | 0 | 4 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 18 | 1 | 1 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 1 | 2 | 7 | 0 | 10 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 1 | 3 | 6 | 0 | 10 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |
