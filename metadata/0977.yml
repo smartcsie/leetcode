@@ -11,4 +11,5 @@ solutions:
   - two-pointers-opposite
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> 注意while(left <= right) 是 <='

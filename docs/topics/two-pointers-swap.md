@@ -14,10 +14,12 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Array, Fast-Slow Pointers | [C++](../problems/0283.md) | O(N) | O(1) |
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers | [C++](../problems/0344.md) | O(N) | O(1) |
+| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | 🟢 Easy | String, Two Pointers | [C++](../problems/0345.md) | O(N) | O(1) |
 | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0905.md) | O(N) | O(1) |
 | 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0922.md) | O(N) | O(1) |
 | 3936 | [Minimum Swaps to Move Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/) | 🟢 Easy | Two Pointers, Simulation | [C++](../problems/3936.md) | O(N) | O(1) |

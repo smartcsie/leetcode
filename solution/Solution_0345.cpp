@@ -13,22 +13,18 @@
 
 class Solution {
 private:
-    bool isVowel(char ch) {
-        return ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'
-            || ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
+    bool isVowel(char c) {
+        if(!isalpha(c)) return false;
+        return (0x104111 >> ((c | 32) - 'a')) & 1;
     }
 public:
     string reverseVowels(string s) {
         int left = 0;
-        int right = s.size() - 1; 
+        int right = s.size() -1 ;
         while(left < right) {
             while(left < right && !isVowel(s[left])) left++;
             while(left < right && !isVowel(s[right])) right--;
-            if(left < right) {
-                swap(s[left], s[right]);
-                left++;
-                right--;
-            }
+            if(left < right) swap(s[left++], s[right--]);
         }
         return s;
     }

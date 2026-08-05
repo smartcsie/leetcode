@@ -24,19 +24,21 @@
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& nums) {
+        vector<int> ans(nums.size());
         int n = nums.size();
-        vector<int> res(n);
-        int i = 0;
-        int j = n - 1;
-        for(int k = n - 1 ; k >= 0 ; k--) {
-            if(abs(nums[i]) > abs(nums[j])) {
-                res[k] = nums[i]*nums[i];
-                i++;
+        int idx =  n -1 ;
+        int left = 0;
+        int right = n - 1;
+        while(left <= right) {
+            if(abs(nums[right]) > abs(nums[left])) {
+                ans[idx] = nums[right] * nums[right];
+                right--;
             } else {
-                res[k] = nums[j]*nums[j];
-                j--;
+                ans[idx] = nums[left] * nums[left];
+                left++;
             }
+            idx--;
         }
-        return res;
+        return ans;
     }
 };

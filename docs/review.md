@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：775 題　🟡 注意：22 題　🟢 熟練：62 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：772 題　🟡 注意：23 題　🟢 熟練：64 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -73,9 +73,9 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 36 | 0 | 3 | 0 | 39 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 21 | 0 | 0 | 0 | 21 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 18 | 1 | 0 | 0 | 19 |
 | [two-pointers-other](topics/two-pointers-other.md) | 4 | 0 | 0 | 0 | 4 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 20 | 0 | 0 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 3 | 1 | 3 | 0 | 7 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 3 | 1 | 5 | 0 | 9 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |
