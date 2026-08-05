@@ -5,11 +5,11 @@ solutions:
 - file: Solution_2133.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Bit Manipulation
   - Hash Table
   - Bitset
   topics:
-  - hash-table-mapping
+  - bit-manipulation
   time: O(N²)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意

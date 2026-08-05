@@ -1,6 +1,6 @@
 # hash-table-mapping
 
-## 🔴 生疏（22）
+## 🔴 生疏（21）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -19,7 +19,6 @@
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | 🟢 Easy | Hash Table, String Parsing | [C++](../problems/1309.md) | O(N) | O(1) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | Hash Table, String | [C++](../problems/1436.md) | O(N) | O(N) |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Map | [C++](../problems/1640.md) | O(N) | O(N) |
-| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array, Hash Table, Bitset | [C++](../problems/2133.md) | O(N²) | O(N) |
 | 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 Easy | Array, Hash Table, Simulation | [C++](../problems/2154.md) | O(N) | O(N) |
 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 Medium | Hash Table, Math | [C++](../problems/2342.md) | O(N*logM) | O(N) |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Array, Sorting, Hash Table | [C++](../problems/2418.md) | O(NlogN) | O(N) |

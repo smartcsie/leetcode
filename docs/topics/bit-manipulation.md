@@ -29,10 +29,11 @@
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3370.md) | O(logN) | O(1) |
 
-## 🟡 注意（1）
+## 🟡 注意（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](../problems/2133.md) | O(N²) | O(N) |
 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Array, Hash Table, Bitset | [C++](../problems/2956.md) | O(N+M) | O(1)* |
 
 ## 🟢 熟悉（9）
