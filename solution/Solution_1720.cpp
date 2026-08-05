@@ -19,14 +19,11 @@
 class Solution {
 public:
     std::vector<int> decode(std::vector<int>& encoded, int first) {
-        // 初始化答案陣列，放入已知的第一個元素
-        std::vector<int> ans({first});
-        
-        // 依照公式 arr[i+1] = arr[i] ^ encoded[i] 逐步還原
-        for (int i = 0; i < encoded.size(); i++) {
-            ans.push_back(ans[i] ^ encoded[i]);
+        vector<int> ans(encoded.size() + 1);
+        ans[0] = first;
+        for(int i = 0; i < encoded.size(); i++) {
+            ans[i + 1] = ans[i] ^ encoded[i];
         }
-        
         return ans;
     }
 };
