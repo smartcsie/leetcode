@@ -15,12 +15,11 @@
 class Solution {
 public:
     int countSegments(string s) {
-        int count = 0;
-        char lastChar = ' ';
-        for(char c : s) {
-            if(c != ' ' && lastChar == ' ')  count++;
-            lastChar = c;
+        int segments = 0;
+        for(int i = 0; i < s.size(); i++) {
+            if(i == 0 && s[i] != ' ') segments++;
+            else if(i > 0 && s[i-1] == ' ' && s[i] != ' ') segments++;
         }
-        return count ;
+        return segments;
     }
 };
