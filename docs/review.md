@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：737 題　🟡 注意：33 題　🟢 熟練：89 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：732 題　🟡 注意：33 題　🟢 熟練：94 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -30,7 +30,7 @@
 | [dfs-bfs](topics/dfs-bfs.md) | 2 | 0 | 0 | 0 | 2 |
 | [dynamic-programming](topics/dynamic-programming.md) | 32 | 0 | 0 | 0 | 32 |
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 12 | 0 | 0 | 0 | 12 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 11 | 0 | 1 | 0 | 12 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 0 | 11 |
 | [greedy](topics/greedy.md) | 43 | 0 | 0 | 0 | 43 |
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 0 | 4 |
@@ -39,7 +39,7 @@
 | [hash-table-set](topics/hash-table-set.md) | 16 | 1 | 4 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 10 | 0 | 0 | 0 | 10 |
-| [linked-list](topics/linked-list.md) | 16 | 0 | 0 | 0 | 16 |
+| [linked-list](topics/linked-list.md) | 15 | 0 | 1 | 0 | 16 |
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 0 | 2 |
 | [math](topics/math.md) | 45 | 1 | 2 | 0 | 48 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
@@ -63,7 +63,7 @@
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 12 | 0 | 4 | 0 | 16 |
 | [string](topics/string.md) | 44 | 1 | 2 | 0 | 47 |
-| [string-character-classification](topics/string-character-classification.md) | 22 | 0 | 0 | 0 | 22 |
+| [string-character-classification](topics/string-character-classification.md) | 18 | 0 | 4 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 5 | 0 | 0 | 0 | 5 |

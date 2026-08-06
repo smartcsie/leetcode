@@ -5,16 +5,10 @@ solutions:
 - file: Solution_1704.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
   - Bit Manipulation
+  - String
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  note: '> [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)<br>
-
-    > isVowel函數回傳是否大小寫Vowel，countVowels回傳一個string裡面有多少個Vowel<br>
-
-    > 最後檢查左半子字串和右半子字串是否相等，**return countVowels(s.substr(0, mid)) == countVowels(s.substr(mid));**
-    <br>'
-  familiarity: 生疏
+  familiarity: 熟練

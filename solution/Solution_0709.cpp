@@ -14,12 +14,8 @@
 class Solution {
 public:
     string toLowerCase(string s) {
-        for (char& c : s) {
-            // ASCII 中 'A' 是 65 (01000001)，'a' 是 97 (01100001)
-            // 將第 6 位元設為 1 (即 OR 32)，即可將大寫轉小寫
-            if (c >= 'A' && c <= 'Z') {
-                c |= 32; 
-            }
+        for(char& c : s) {
+            if(isalpha(c)) c |= 32;
         }
         return s;
     }

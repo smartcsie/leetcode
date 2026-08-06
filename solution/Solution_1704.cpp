@@ -13,22 +13,15 @@
  */
 
 class Solution {
-private:
-    // 位元遮罩技巧：將 'a'...'u' 對應到整數的特定 bit
-    bool isVowel(char c) {
-        c = c | 0x20; // 轉為小寫：ASCII 字母 'A'(0x41) 與 'a'(0x61) 位元差為 0x20
-        return (2130466 >> (c - 'a' + 1)) & 1;
-    }
-
-    int countVowels(std::string s) {
-        return std::count_if(s.begin(), s.end(), [&](char c) {
-            return isVowel(c);
-        });
-    }
-
 public:
     bool halvesAreAlike(std::string s) {
-        int mid = s.size() / 2;
-        return countVowels(s.substr(0, mid)) == countVowels(s.substr(mid));
+        int count = 0;
+        for(int i = 0; i < s.size() / 2; i++) {
+            char c1 = s[i] | 32;
+            char c2 = s[s.size() - 1 - i] | 32;
+            if((0x104111 >> (c1 - 'a')) & 1) count++;
+            if((0x104111 >> (c2 - 'a')) & 1) count--;
+        }
+        return count == 0;
     }
 };
