@@ -22,22 +22,15 @@
 class Solution {
 public:
     std::vector<int> numberOfLines(std::vector<int>& widths, std::string s) {
-        int linePixel = 0;
-        int lineCount = 1;
-        
-        for (const char& c : s) {
-            int width = widths[c - 'a'];
-            
-            // 如果加上當前字元會超過 100 像素，則換行
-            if ((linePixel + width) > 100) {
-                linePixel = 0;
-                lineCount++;
-            }
-            
-            // 累加當前行的像素
-            linePixel += width;
+        int lines = 1;
+        int pixels = 0;
+        for(const char& c : s) {
+            if(pixels + widths[c - 'a'] > 100) {
+                lines++;
+                pixels = 0;
+            } 
+            pixels += widths[c - 'a'];
         }
-        
-        return {lineCount, linePixel};
+        return {lines, pixels};
     }
 };

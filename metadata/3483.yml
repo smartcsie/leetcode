@@ -2,18 +2,6 @@ number: 3483
 title: Unique 3-Digit Even Numbers
 url: https://leetcode.com/problems/unique-3-digit-even-numbers/
 solutions:
-- file: Solution_3483_1.cpp
-  difficulty: 🟢 Easy
-  tags:
-  - Array
-  - Backtracking
-  topics:
-  - array
-  time: O(P(N,3))
-  space: O(N)
-  familiarity: 熟練
-  related:
-  - 1534
 - file: Solution_3483.cpp
   difficulty: 🟢 Easy
   tags:
@@ -22,6 +10,6 @@ solutions:
   - hash-table-set
   time: O(N³)
   space: O(U)
-  familiarity: 生疏
+  familiarity: 熟練
   related:
   - 1534
