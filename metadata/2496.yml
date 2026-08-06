@@ -12,4 +12,5 @@ solutions:
   - string-character-classification
   time: O(N*L)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> any_of(str.begin(), str.end(), ::isalpha) 用法'

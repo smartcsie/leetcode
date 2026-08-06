@@ -21,13 +21,9 @@ class Solution {
 public:
     int maximumValue(std::vector<std::string>& strs) {
         int maxVal = 0;
-        for (std::string& s : strs) {
-            // 檢查字串是否包含英文字母
-            bool hasAlpha = std::any_of(s.begin(), s.end(), ::isalpha);
-            // 若包含字母則取長度，否則將字串轉為整數
-            int val = hasAlpha ? s.size() : std::stoi(s);
-            // 更新全域最大值
-            maxVal = std::max(maxVal, val);
+        for(const string& str : strs) {
+            int val = any_of(str.begin(), str.end(), ::isalpha) ? str.size() : stoi(str);
+            maxVal = max(maxVal, val);
         }
         return maxVal;
     }
