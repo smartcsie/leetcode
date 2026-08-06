@@ -5,10 +5,10 @@ solutions:
 - file: Solution_3142.cpp
   difficulty: 🟢 Easy
   tags:
-  - Simulation
   - Array
+  - Simulation
   topics:
   - 2d-array
   time: O(M*N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練

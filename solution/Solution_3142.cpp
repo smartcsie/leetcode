@@ -16,28 +16,15 @@
 
 class Solution {
 public:
-    bool satisfiesConditions(std::vector<std::vector<int>>& grid) {
+    bool satisfiesConditions(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
-        
-        // 垂直條件：每一列元素必須與下一列對應元素相同
-        for (int i = 0; i < m - 1; ++i) {
-            for (int j = 0; j < n; ++j) {
-                if (grid[i][j] != grid[i + 1][j]) {
-                    return false;
-                }
-            }
+        for(int i = 1 ; i < n; i++) {
+            if(grid[0][i] == grid[0][i - 1]) return false;
         }
-        
-        // 水平條件：每一列元素必須與右側元素不同
-        for (int i = 0; i < m; ++i) {
-            for (int j = 0; j < n - 1; ++j) {
-                if (grid[i][j] == grid[i][j + 1]) {
-                    return false;
-                }
-            }
+        for(int i = 1 ; i < m; i++) {
+            if(grid[i] != grid[i - 1]) return false;
         }
-        
         return true;
     }
 };
