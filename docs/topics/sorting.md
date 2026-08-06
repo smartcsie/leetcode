@@ -1,6 +1,6 @@
 # sorting
 
-## 🔴 生疏（27）
+## 🔴 生疏（26）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | Hash Table, Bucket Sort | [C++](../problems/0451.md) | O(N) | O(N) |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | Two Pointers, Sorting | [C++](../problems/0524.md) | O(DlogD+D*M) | O(1) |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Math, Sorting | [C++](../problems/0539.md) | O(NlogN) | O(N) |
-| 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | Array, Greedy, Sorting | [C++](../problems/0561.md) | O(NlogN) | O(1) |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Array, Divide and Conquer, Sorting | [C++](../problems/0912.md) | O(NlogN) | O(logN) |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Array, Counting Sort | [C++](../problems/1051.md) | O(N) | O(1) |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | Counting Sort | [C++](../problems/1122.md) | O(N+M) | O(1) |
@@ -36,6 +35,8 @@
 
 目前沒有標記為注意的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | Array, Greedy, Sorting | [C++](../problems/0561.md) | O(NlogN) | O(1) |
