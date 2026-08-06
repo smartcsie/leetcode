@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：748 題　🟡 注意：31 題　🟢 熟練：80 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：746 題　🟡 注意：32 題　🟢 熟練：81 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -51,7 +51,7 @@
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 1 |
 | [math-prime](topics/math-prime.md) | 11 | 0 | 0 | 0 | 11 |
-| [math-simulation](topics/math-simulation.md) | 5 | 0 | 0 | 0 | 5 |
+| [math-simulation](topics/math-simulation.md) | 3 | 1 | 1 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 6 |
 | [negative-marking](topics/negative-marking.md) | 4 | 0 | 0 | 0 | 4 |

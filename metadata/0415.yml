@@ -5,15 +5,14 @@ solutions:
 - file: Solution_0415.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
   - Math
+  - String
   topics:
   - math-simulation
   time: O(max(N,M))
   space: O(max(N,M))
-  note: '> [Add Strings](https://leetcode.com/problems/add-strings) <br>
-
-    > 和 0067[Add Binary](https://leetcode.com/problems/add-binary) 幾乎一樣<br>
+  familiarity: 熟練
+  note: '> 和 0067[Add Binary](https://leetcode.com/problems/add-binary) 幾乎一樣<br>
 
     > i和j設定為num1和num2最後的index，i = num1.size() - 1，j = num2.size() - 1 <br>
 
@@ -35,4 +34,3 @@ solutions:
 
 
     <br><br>'
-  familiarity: 生疏
