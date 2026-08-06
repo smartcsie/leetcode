@@ -11,7 +11,7 @@ solutions:
   - array
   time: O(P(N,3))
   space: O(N)
-  familiarity: 注意
+  familiarity: 熟練
   related:
   - 1534
 - file: Solution_3483.cpp
