@@ -10,6 +10,7 @@ solutions:
   - array
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)
     <br>
 
@@ -18,4 +19,3 @@ solutions:
     >  &emsp;&emsp;&emsp;&emsp;**s[i] = s[i - 1] + s[i] - ''0'';** <br>
 
     >  **}** <br>'
-  familiarity: 生疏
