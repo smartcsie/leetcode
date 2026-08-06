@@ -3,7 +3,7 @@ title: Count Number of Homogenous Substrings
 url: https://leetcode.com/problems/count-number-of-homogenous-substrings/
 solutions:
 - file: Solution_1759.cpp
-  difficulty: 🟢 Medium
+  difficulty: 🟡 Medium
   tags:
   - Math
   - String
@@ -11,4 +11,5 @@ solutions:
   - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  note: "> 記得 count %= MOD;<br>       \n> 記得 ans  %= MOD;<br>"
