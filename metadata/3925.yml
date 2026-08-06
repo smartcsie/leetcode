@@ -12,4 +12,5 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 熟練
-  note: '> [類似] 1929'
+  related:
+  - 1929

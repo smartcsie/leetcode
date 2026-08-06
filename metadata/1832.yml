@@ -13,4 +13,5 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 熟練
-  note: '> [類似] 2716'
+  related:
+  - 2716

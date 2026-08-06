@@ -12,4 +12,5 @@ solutions:
   time: O(N³)
   space: O(1)
   familiarity: 熟練
-  note: '[類似][三層迴圈] 3483'
+  related:
+  - 3483

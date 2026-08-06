@@ -22,3 +22,5 @@ solutions:
   time: O(N³)
   space: O(U)
   familiarity: 生疏
+  related:
+  - 1534

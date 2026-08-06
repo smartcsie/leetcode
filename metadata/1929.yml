@@ -11,5 +11,6 @@ solutions:
   time: O(N)
   space: O(1)*
   familiarity: 熟練
-  note: '> [類似] 3925'
   is_best: true
+  related:
+  - 3925
