@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：722 題　🟡 注意：37 題　🟢 熟練：100 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：721 題　🟡 注意：38 題　🟢 熟練：100 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -54,7 +54,7 @@
 | [math-simulation](topics/math-simulation.md) | 3 | 1 | 1 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 6 |
-| [negative-marking](topics/negative-marking.md) | 4 | 0 | 0 | 0 | 4 |
+| [negative-marking](topics/negative-marking.md) | 3 | 1 | 0 | 0 | 4 |
 | [prefix-sum](topics/prefix-sum.md) | 19 | 0 | 0 | 0 | 19 |
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 0 | 0 | 6 |
 | [quick-select](topics/quick-select.md) | 6 | 0 | 0 | 0 | 6 |
@@ -74,7 +74,7 @@
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 18 | 0 | 0 | 0 | 18 |
-| [two-pointers-other](topics/two-pointers-other.md) | 4 | 0 | 0 | 0 | 4 |
+| [two-pointers-other](topics/two-pointers-other.md) | 3 | 1 | 0 | 0 | 4 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 17 | 1 | 2 | 0 | 20 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 3 | 7 | 0 | 10 |
