@@ -1,15 +1,12 @@
 # string-character-classification
 
-## 🔴 生疏（18）
+## 🔴 生疏（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 Medium | Hash Table, String, Counting | [C++](../problems/1347.md) | O(N) | O(1) |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String | [C++](../problems/1903.md) | O(N) | O(1) |
 | 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 Easy | String, Stream | [C++](../problems/1935.md) | O(N*M) | O(1) |
-| 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 Easy | String, Two Pointers | [C++](../problems/1957.md) | O(N) | O(N) |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String | [C++](../problems/2124.md) | O(N) | O(1) |
-| 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | String, Counting | [C++](../problems/2278.md) | O(N) | O(1) |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | Hash Table, String, Array | [C++](../problems/2399.md) | O(N) | O(1) |
 | 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 Easy | Array, String, Simulation | [C++](../problems/2496.md) | O(N*L) | O(1) |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array, String | [C++](../problems/2586.md) | O(N) | O(1) |
@@ -27,11 +24,14 @@
 
 目前沒有標記為注意的解法。
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String | [C++](../problems/0520.md) | O(N) | O(1) |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String | [C++](../problems/0709.md) | O(N) | O(1) |
+| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 Medium | String, Hash Table, Counting | [C++](../problems/1347.md) | O(N) | O(1) |
 | 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 Easy | Bit Manipulation, String | [C++](../problems/1704.md) | O(N) | O(1) |
 | 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String, Hash Table | [C++](../problems/1796.md) | O(N) | O(1) |
+| 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 Easy | String, Two Pointers | [C++](../problems/1957.md) | O(N) | O(N) |
+| 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | String, Counting | [C++](../problems/2278.md) | O(N) | O(1) |

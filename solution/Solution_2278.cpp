@@ -20,6 +20,6 @@ class Solution {
 public:
     int percentageLetter(std::string s, char letter) {
         // 先乘 100 再除以長度，利用整數除法自動向下取整
-        return std::count(s.begin(), s.end(), letter) * 100 / s.size();
+        return count(s.begin(), s.end(), letter) * 100.0 / static_cast<int>(s.size());
     }
 };

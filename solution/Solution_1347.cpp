@@ -19,25 +19,19 @@
 
 class Solution {
 public:
-    int minSteps(std::string s, std::string t) {
-        std::vector<int> countS(26, 0);
-        std::vector<int> countT(26, 0);
-        
-        // 1. 統計兩字串中各字元的頻率
-        for (size_t i = 0; i < s.size(); ++i) {
-            countS[s[i] - 'a']++;
-            countT[t[i] - 'a']++;
+    int minSteps(string s, string t) {
+        vector<int> countS(26, 0);
+        vector<int> countT(26, 0);
+        for(int i = 0; i < s.size(); i++) {
+             countS[s[i] - 'a']++;
+             countT[t[i] - 'a']++;
         }
-        
         int ans = 0;
-        
-        // 2. 計算 t 中比 s 多出來的字元數總和
-        for (int i = 0; i < 26; ++i) {
-            if (countT[i] > countS[i]) {
-                ans += (countT[i] - countS[i]);
+        for(int i = 0; i < 26; i++) {
+            if(countS[i] != 0 || countT[i] != 0) {
+                ans += abs(countS[i] - countT[i]);
             }
         }
-        
-        return ans;
+        return ans / 2;
     }
 };

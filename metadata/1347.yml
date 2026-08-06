@@ -5,11 +5,11 @@ solutions:
 - file: Solution_1347.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table
   - String
+  - Hash Table
   - Counting
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練

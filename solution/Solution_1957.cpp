@@ -16,13 +16,15 @@
 class Solution {
 public:
     string makeFancyString(string s) {
-        string t;
+        vector<char> vec;
         for(const char& c : s) {
-            int n = t.size();
-            if( n < 2 || t[n - 1] != c ||  t[n - 2] != c) {
-                 t.push_back(c);
-            }
+            if(vec.size() < 2) {
+                vec.push_back(c);
+             } else if(vec.size() >= 2) {
+                if(vec.back() == c && vec[vec.size() - 2] == c) continue;
+                vec.push_back(c);
+             } 
         }
-        return t;
+        return string(vec.begin(), vec.end());
     }
 };
