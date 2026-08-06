@@ -22,24 +22,12 @@ class Solution {
 public:
     int countHillValley(std::vector<int>& nums) {
         int ans = 0;
-        // i 從 1 開始，prev 初始為 0，尋找中間的轉折點
-        for (int i = 1, prev = 0; i < i + 1 && i < nums.size() - 1; i++) {
-            // 若當前元素與右側相等，則屬於平坦區，直接跳過以避免重複計算
-            if (nums[i] == nums[i + 1]) continue;
-            
-            // 判斷是否為山峰
-            if (nums[i] > nums[prev] && nums[i] > nums[i + 1]) {
-                ans++;
-            }
-            // 判斷是否為山谷
-            if (nums[i] < nums[prev] && nums[i] < nums[i + 1]) {
-                ans++;
-            }
-            
-            // 只有在完成判定後，才把 prev 更新為當前位置，以跳過後續連續相同的值
+        for(int i = 1, prev = 0; i < nums.size() - 1; i++) {
+            if(nums[i] == nums[i + 1]) continue;
+            if(nums[prev] < nums[i] && nums[i] > nums[i + 1]) ans++;
+            if(nums[prev] > nums[i] && nums[i] < nums[i + 1]) ans++;
             prev = i;
         }
-        
         return ans;
     }
 };
