@@ -16,10 +16,11 @@ public:
         string defang;
         for(const char& c : address) {
             if(c == '.') {
-                defang.append("[.]");
-            } else {
-                defang.push_back(c);
+                defang.push_back('[');
+                defang.push_back('.');
+                defang.push_back(']');
             }
+            else defang.push_back(c);
         }
         return defang;
     }
