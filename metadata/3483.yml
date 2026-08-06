@@ -12,7 +12,8 @@ solutions:
   time: O(P(N,3))
   space: O(N)
   familiarity: 注意
-  note: '[類似][三層迴圈] 1534'
+  related:
+  - 1534
 - file: Solution_3483.cpp
   difficulty: 🟢 Easy
   tags:
