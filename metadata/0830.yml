@@ -9,7 +9,7 @@ solutions:
   - String
   - Two Pointers
   topics:
-  - string
+  - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意

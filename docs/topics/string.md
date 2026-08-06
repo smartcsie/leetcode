@@ -1,6 +1,6 @@
 # string
 
-## 🔴 生疏（42）
+## 🔴 生疏（41）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +10,6 @@
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String, Two Pointers | [C++](../problems/0151.md) | O(N) | O(N) |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Hash Table, Sorting | [C++](../problems/0648.md) | O(N*L+M*K) | O(D*L) |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 Medium | String, Counting Sort | [C++](../problems/0791.md) | O(N+M) | O(1) |
-| 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 Easy | Array, String, Two Pointers | [C++](../problems/0830.md) | O(N) | O(1) |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | Array, String | [C++](../problems/0944.md) | O(N*M) | O(M) |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 Medium | Stack, String | [C++](../problems/1003.md) | O(N) | O(N) |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 Easy | String Parsing | [C++](../problems/1078.md) | O(N) | O(N) |

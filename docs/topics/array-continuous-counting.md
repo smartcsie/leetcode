@@ -7,9 +7,11 @@
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String, Greedy | [C++](../problems/0696.md) | O(N) | O(1) |
 | 2609 | [Find the Longest Balanced Substring](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 🟢 Easy | Greedy, Two Counters | [C++](../problems/2609.md) | O(N) | O(1) |
 
-## 🟡 注意（0）
+## 🟡 注意（1）
 
-目前沒有標記為注意的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 Easy | Array, String, Two Pointers | [C++](../problems/0830.md) | O(N) | O(1) |
 
 ## 🟢 熟悉（5）
 

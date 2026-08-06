@@ -23,12 +23,18 @@
 class Solution {
 public:
     vector<vector<int>> largeGroupPositions(string s) {
+        int count = 1;
         vector<vector<int>> ans;
-        int n = s.size();
-        for(int i = 0, j = 0; i < n; i = j) {
-            while(i < n && s[i] == s[j]) j++;
-            if(j - i >= 3) ans.push_back({i, j  - 1});
+        int i ;
+        for(i = 1; i < s.size(); i++) {
+            if(s[i] == s[i - 1]) {
+                count++;
+            } else {
+                if(count >= 3) ans.push_back( {i - count, i - 1});
+                count = 1;
+            }
         }
+        if(count >= 3) ans.push_back( {i - count, i - 1});
         return ans;
     }
 };
