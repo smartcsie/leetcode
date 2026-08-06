@@ -11,4 +11,7 @@ solutions:
   - array
   time: O(N⁴)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  related:
+  - 1534
+  - 3483
