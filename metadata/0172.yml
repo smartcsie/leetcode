@@ -10,7 +10,7 @@ solutions:
   - math
   time: O(log₅N)
   space: O(1)
+  familiarity: 注意
   note: '> [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
 
     > **勒讓德定理 (Legendre''s Formula)<br>'
-  familiarity: 生疏
