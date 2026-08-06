@@ -62,7 +62,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 11 | 0 | 5 | 0 | 16 |
-| [string](topics/string.md) | 39 | 1 | 6 | 0 | 46 |
+| [string](topics/string.md) | 39 | 1 | 5 | 0 | 45 |
 | [string-character-classification](topics/string-character-classification.md) | 18 | 0 | 4 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |

@@ -9,7 +9,6 @@ solutions:
   - String
   topics:
   - stack
-  - string
   time: O(N)
   space: O(N)
   familiarity: 熟練
