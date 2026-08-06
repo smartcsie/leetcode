@@ -11,4 +11,5 @@ solutions:
   - array
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> [類似] 1929'

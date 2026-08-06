@@ -14,15 +14,10 @@ class Solution {
 public:
     vector<int> concatWithReverse(vector<int>& nums) {
         int n = nums.size();
-        
-        // 優化：預先配置兩倍的空間，避免擴容開銷
-        nums.reserve(n * 2);
-        
-        // 從後往前取出元素並加入到陣列末端
-        for (int i = n - 1; i >= 0; i--) {
-            nums.push_back(nums[i]);
+        nums.resize(2 * n);
+        for(int i = 0; i < n; i++) {
+            nums[i + n] = nums[n - 1- i];
         }
-        
         return nums;
     }
 };
