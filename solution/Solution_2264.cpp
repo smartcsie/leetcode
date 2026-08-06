@@ -23,12 +23,10 @@
 class Solution {
 public:
     string largestGoodInteger(string num) {
-        char maxChar = 0;
-        for(int i = 0 ; i < num.size() - 2; i++) {
-            if(num[i] == num[i + 1] && num[i] == num[i + 2]) {
-                maxChar = max(maxChar, num[i]);
-            }
+        for(char c = '9'; c >= '0'; c-- ) {
+            string digit = string(3, c);
+            if(num.find(digit) != string::npos) return digit;
         }
-        return (maxChar == 0) ? "" : string(3, maxChar);
+        return "";
     }
 };

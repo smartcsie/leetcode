@@ -10,4 +10,4 @@ solutions:
   - array-linear-scan
   time: O(N^2) - 使用雙重迴圈遍歷所有可能的索引對 (i, j)，在資料規模較小（通常 N <= 100）時能高效執行。
   space: O(1) - 僅使用常數個變數來記錄計數與迴圈索引，不需額外配置動態記憶體。
-  familiarity: 生疏
+  familiarity: 熟練

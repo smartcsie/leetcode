@@ -12,4 +12,4 @@ solutions:
   - array-linear-scan
   time: O(NlogN)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意

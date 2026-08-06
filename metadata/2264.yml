@@ -12,6 +12,7 @@ solutions:
   - string
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string)
     <br>
 
@@ -22,4 +23,4 @@ solutions:
     > return (maxChar == 0) ? "" : string(3, maxChar);<br>
 
     > <br>'
-  familiarity: 生疏
+  is_best: true
