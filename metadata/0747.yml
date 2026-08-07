@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0747.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array Linear Scan
+  - Array Min Max
   - Linear Scan
   topics:
-  - array-linear-scan
+  - array-min-max
   time: O(N)
   space: O(1)
   familiarity: 熟練

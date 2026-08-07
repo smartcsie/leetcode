@@ -5,10 +5,9 @@ solutions:
 - file: Solution_1913.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
-  - Sorting
+  - Array Min Max
   topics:
-  - array
+  - array-min-max
   time: O(N)
   space: O(1)
   familiarity: 熟練
