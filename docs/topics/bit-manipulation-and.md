@@ -1,10 +1,9 @@
 # bit-manipulation-and
 
-## 🔴 生疏（8）
+## 🔴 生疏（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit-Manipulation | [C++](../problems/0191.md) | O(1) | O(1) |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](../problems/0201.md) | O(logN) | O(1) |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | DP, Bit Manipulation | [C++](../problems/0338.md) | O(N) | O(N) |
 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0693.md) | O(1) | O(1) |
@@ -17,8 +16,10 @@
 
 目前沒有標記為注意的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit-Manipulation | [C++](../problems/0191.md) | O(K) | O(1) |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And | [C++](../problems/0191.md) | O(1) | O(1) |
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation | [C++](../problems/2595.md) | O(logN) | O(1) |
