@@ -5,6 +5,7 @@ solutions:
 - file: Solution_0041.cpp
   difficulty: 🔴 Hard
   tags:
+  - Array Negative Marking
   - Math
   topics:
   - negative-marking

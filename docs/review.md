@@ -16,7 +16,7 @@
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
 | [array-linear-scan](topics/array-linear-scan.md) | 5 | 3 | 11 | 0 | 19 |
 | [array-min-max](topics/array-min-max.md) | 1 | 0 | 2 | 0 | 3 |
-| [array-negative-marking](topics/array-negative-marking.md) | 1 | 0 | 0 | 0 | 1 |
+| [array-negative-marking](topics/array-negative-marking.md) | 2 | 1 | 0 | 0 | 3 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 2 |
 | [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 21 |
@@ -56,7 +56,7 @@
 | [math-simulation](topics/math-simulation.md) | 3 | 1 | 1 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 6 |
-| [negative-marking](topics/negative-marking.md) | 3 | 1 | 0 | 0 | 4 |
+| [negative-marking](topics/negative-marking.md) | 2 | 0 | 0 | 0 | 2 |
 | [prefix-sum](topics/prefix-sum.md) | 19 | 0 | 0 | 0 | 19 |
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 0 | 0 | 6 |
 | [quick-select](topics/quick-select.md) | 6 | 0 | 0 | 0 | 6 |
@@ -322,7 +322,7 @@
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | [C++](problems/0633.md) | math |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | [C++](problems/0637.md) | tree-bfs-level-order |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | [C++](problems/0643.md) | fixed-size-sliding-window |
-| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | [C++](problems/0645.md) | negative-marking |
+| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | [C++](problems/0645.md) | array-negative-marking |
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | [C++](problems/0647.md) | dynamic-programming, two-pointers-center-expansion |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | [C++](problems/0648.md) | string |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | [C++](problems/0648.md) | trie |

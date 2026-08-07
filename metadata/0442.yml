@@ -9,7 +9,7 @@ solutions:
   - Fast-Slow Pointers
   - Two Pointers
   topics:
-  - negative-marking
+  - array-negative-marking
   time: O(N)
   space: O(1)
   familiarity: 注意

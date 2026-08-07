@@ -1,6 +1,6 @@
 # array
 
-## 🔴 生疏（27）
+## 🔴 生疏（28）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -10,6 +10,7 @@
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | Array, Voting Algorithm | [C++](../problems/0229.md) | O(N) | O(1) |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array Negative Marking | [C++](../problems/0287.md) | O(N) | O(1) |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array Min Max | [C++](../problems/0628.md) | O(N) | O(1) |
+| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | Array Negative Marking, Hash Table | [C++](../problems/0645.md) | O(N) | O(1) |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String, Greedy | [C++](../problems/0696.md) | O(N) | O(1) |
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | 🟢 Easy | Array, Simulation | [C++](../problems/0717.md) | O(N) | O(1) |
 | 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | Two-Pass Scan | [C++](../problems/0821.md) | O(N) | O(1) |
@@ -32,12 +33,13 @@
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | Simulation, Brute Force | [C++](../problems/3477.md) | O(N^2) | O(1) |
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](../problems/3969.md) | O(N²) | O(1) |
 
-## 🟡 注意（10）
+## 🟡 注意（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](../problems/0189.md) | O(N) | O(1) |
 | 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array | [C++](../problems/0414.md) | O(N) | O(1) |
+| 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array Negative Marking, Fast-Slow Pointers, Two Pointers | [C++](../problems/0442.md) | O(N) | O(1) |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Array, Sorting, Two Pointers | [C++](../problems/0581.md) | O(NlogN) | O(N) |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 Easy | Array, String, Two Pointers | [C++](../problems/0830.md) | O(N) | O(1) |
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | Array | [C++](../problems/0896.md) | O(N) | O(1) |
