@@ -11,12 +11,8 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  note: '> [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/)
-    <br>
-
-    > 類似 [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)<br>
-
-    > while loop檢查 s.back()是不是Vowel，如果是，移除<br>
+  familiarity: 熟練
+  note: '> while loop檢查 s.back()是不是Vowel，如果是，移除<br>
 
     > **while (!s.empty() && isVowel(s.back())) {** <br>
 
@@ -29,4 +25,5 @@ solutions:
 
 
     <br><br>'
-  familiarity: 生疏
+  related:
+  - 2170
