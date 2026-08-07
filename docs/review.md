@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：670 題　🟡 注意：58 題　🟢 熟練：131 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：669 題　🟡 注意：59 題　🟢 熟練：131 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -14,7 +14,7 @@
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 2 | 5 | 0 | 8 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
-| [array-linear-scan](topics/array-linear-scan.md) | 5 | 3 | 11 | 0 | 19 |
+| [array-linear-scan](topics/array-linear-scan.md) | 4 | 4 | 11 | 0 | 19 |
 | [array-min-max](topics/array-min-max.md) | 1 | 0 | 2 | 0 | 3 |
 | [array-negative-marking](topics/array-negative-marking.md) | 4 | 1 | 0 | 0 | 5 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
@@ -83,7 +83,7 @@
 
 ---
 
-目前共有 679 個解法標記為生疏，建議找時間重新練習。
+目前共有 678 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -470,7 +470,6 @@
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | [C++](problems/1404.md) | math-digit-decomposition |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | [C++](problems/1408.md) | sorting |
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | [C++](problems/1417.md) | two-pointers-same |
-| 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 Easy | [C++](problems/1422.md) | array-linear-scan |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | [C++](problems/1436.md) | hash-table-mapping |
 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 Medium | [C++](problems/1442.md) | bit-manipulation-xor |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | [C++](problems/1448.md) | tree-dfs-path |
