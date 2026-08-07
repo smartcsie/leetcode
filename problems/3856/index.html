@@ -3313,7 +3313,7 @@
 
 <h1 id="3856-trim-trailing-vowels">3856. Trim Trailing Vowels<a class="headerlink" href="#3856-trim-trailing-vowels" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/trim-trailing-vowels/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> String, Two Pointers　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> String, Two Pointers　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：Trim Trailing Vowels</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3330,29 +3330,27 @@
 <a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="k">private</span><span class="o">:</span>
 <a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">    </span><span class="c1">// 利用位元遮罩快速檢查字元是否為母音</span>
 <a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span><span class="c1">// 數字 2130466 在二進位中，對應 a, e, i, o, u 的位置皆為 1</span>
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="k">static</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">isVowel</span><span class="p">(</span><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="mi">2130466</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="p">(</span><span class="n">c</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="sc">&#39;a&#39;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">))</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">isVowel</span><span class="p">(</span><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="mh">0x104111</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="p">(</span><span class="n">c</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="sc">&#39;a&#39;</span><span class="p">))</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
 <a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
-<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="k">public</span><span class="o">:</span>
-<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="w"> </span><span class="n">trimTrailingVowels</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="w"> </span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="c1">// 持續檢查尾端，直到為空或尾端不再是母音</span>
-<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">s</span><span class="p">.</span><span class="n">empty</span><span class="p">()</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">isVowel</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">back</span><span class="p">()))</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">            </span><span class="n">s</span><span class="p">.</span><span class="n">pop_back</span><span class="p">();</span>
-<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="p">}</span>
-<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">s</span><span class="p">;</span>
-<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="p">};</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="w"> </span><span class="n">trimTrailingVowels</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="w"> </span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">        </span><span class="c1">// 持續檢查尾端，直到為空或尾端不再是母音</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">s</span><span class="p">.</span><span class="n">empty</span><span class="p">()</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">isVowel</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">back</span><span class="p">()))</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">            </span><span class="n">s</span><span class="p">.</span><span class="n">pop_back</span><span class="p">();</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">s</span><span class="p">;</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/trim-trailing-vowels/">Trim Trailing Vowels</a> <br>
-類似 <a href="https://leetcode.com/problems/remove-trailing-zeros-from-a-string/">Remove Trailing Zeros From a String</a><br>
-while loop檢查 s.back()是不是Vowel，如果是，移除<br>
+<p>while loop檢查 s.back()是不是Vowel，如果是，移除<br>
 <strong>while (!s.empty() &amp;&amp; isVowel(s.back())) {</strong> <br>
 <strong>&emsp;&emsp;&emsp;&emsp;s.pop_back();</strong> <br>
 <strong>}</strong> <br></p>
 </blockquote>
 <p><br><br></p>
+<p><strong>相關題目:</strong> <a href="../problems/2170.md">2170</a></p>
 
 
 
