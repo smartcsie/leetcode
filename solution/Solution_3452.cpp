@@ -22,21 +22,13 @@
 class Solution {
 public:
     int sumOfGoodNumbers(vector<int>& nums, int k) {
-        int ans = 0;
+        int sum = 0;
         int n = nums.size();
         for(int i = 0; i < n; i++) {
-            bool hasLeft = i - k >= 0;
-            bool hasRight = i + k < n;
-            if(!hasLeft && !hasRight) {
-                ans += nums[i];
-            } else if(!hasLeft && nums[i] > nums[i + k]) {
-                ans += nums[i];
-            } else if(!hasRight && nums[i] > nums[i - k]) {
-                ans += nums[i];
-            } else if(hasLeft && hasRight && nums[i] > nums[i - k] && nums[i] > nums[i + k]) {
-                ans += nums[i];
-            }
+            if(i - k < 0  && i + k < n && nums[i] > nums[i + k] )   sum += nums[i];
+            else if(i - k >= 0  && i + k < n && nums[i] > nums[i - k]  && nums[i] > nums[i + k] )   sum += nums[i];
+            else if(i - k >= 0  && i + k >= n && nums[i] > nums[i - k])   sum += nums[i];
         }
-        return ans;
+        return sum;
     }
 };
