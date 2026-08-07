@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（42）
+## 🔴 生疏（41）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -12,7 +12,6 @@
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](../problems/0396.md) | O(N) | O(1) |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math, String | [C++](../problems/0412.md) | O(N) | O(1)* |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](../problems/0441.md) | O(logN) | O(1) |
-| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array, Math | [C++](../problems/0628.md) | O(N) | O(1) |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Math, Two Pointers | [C++](../problems/0633.md) | O(√C) | O(1) |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math, Hash Table | [C++](../problems/0970.md) | O(log_X(BOUND)*log_Y(BOUND)) | O(S) |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | Modular Arithmetic | [C++](../problems/1015.md) | O(K) | O(1) |

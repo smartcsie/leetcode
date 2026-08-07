@@ -12,3 +12,12 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 生疏
+- file: Solution_0287_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array Negative Marking
+  topics:
+  - array-negative-marking
+  time: O(N)
+  space: O(1)
+  familiarity: 生疏

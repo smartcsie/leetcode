@@ -5,12 +5,11 @@ solutions:
 - file: Solution_0442.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Array Negative Marking
   - Fast-Slow Pointers
   - Two Pointers
   topics:
   - negative-marking
-  - two-pointers-other
   time: O(N)
   space: O(1)
   familiarity: 注意

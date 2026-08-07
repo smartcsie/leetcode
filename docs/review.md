@@ -15,7 +15,8 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 2 | 5 | 0 | 8 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
 | [array-linear-scan](topics/array-linear-scan.md) | 5 | 3 | 11 | 0 | 19 |
-| [array-min-max](topics/array-min-max.md) | 0 | 0 | 2 | 0 | 2 |
+| [array-min-max](topics/array-min-max.md) | 1 | 0 | 2 | 0 | 3 |
+| [array-negative-marking](topics/array-negative-marking.md) | 1 | 0 | 0 | 0 | 1 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 2 |
 | [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 21 |
@@ -42,7 +43,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 10 | 0 | 0 | 0 | 10 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 1 | 0 | 16 |
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 0 | 2 |
-| [math](topics/math.md) | 42 | 4 | 2 | 0 | 48 |
+| [math](topics/math.md) | 41 | 4 | 2 | 0 | 47 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 22 | 7 | 12 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
@@ -75,7 +76,7 @@
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 18 | 0 | 0 | 0 | 18 |
-| [two-pointers-other](topics/two-pointers-other.md) | 3 | 1 | 0 | 0 | 4 |
+| [two-pointers-other](topics/two-pointers-other.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 17 | 1 | 3 | 0 | 21 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 3 | 7 | 0 | 10 |
@@ -83,7 +84,7 @@
 
 ---
 
-目前共有 681 個解法標記為生疏，建議找時間重新練習。
+目前共有 682 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -236,6 +237,7 @@
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | [C++](problems/0278.md) | binary-search |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | [C++](problems/0279.md) | knapsack-problem |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | [C++](problems/0287.md) | fast-slow-pointers |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | [C++](problems/0287.md) | array-negative-marking |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | [C++](problems/0290.md) | hash-table-mapping |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | [C++](problems/0300.md) | binary-search |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | [C++](problems/0300.md) | dynamic-programming |
@@ -316,7 +318,7 @@
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | [C++](problems/0611.md) | two-pointers-opposite |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | [C++](problems/0617.md) | tree-dfs-path |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | [C++](problems/0624.md) | greedy |
-| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | [C++](problems/0628.md) | math |
+| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | [C++](problems/0628.md) | array-min-max |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | [C++](problems/0633.md) | math |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | [C++](problems/0637.md) | tree-bfs-level-order |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | [C++](problems/0643.md) | fixed-size-sliding-window |
