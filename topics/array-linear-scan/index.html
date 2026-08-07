@@ -1348,24 +1348,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    array-linear-scan
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1382,58 +1364,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目錄">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目錄
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔴 生疏（5）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟡 注意（3）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#12" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟢 熟悉（12）
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -3398,68 +3328,6 @@
 
 
 <h1 id="array-linear-scan">array-linear-scan<a class="headerlink" href="#array-linear-scan" title="Permanent link">&para;</a></h1>
-<h2 id="5">🔴 生疏（5）<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>題目</th>
-<th>難度</th>
-<th>標籤</th>
-<th>解法檔案</th>
-<th>時間</th>
-<th>空間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1013</td>
-<td><a href="https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/">Partition Array Into Three Parts With Equal Sum</a></td>
-<td>🟢 Easy</td>
-<td>Array, Prefix Sum, Greedy</td>
-<td><a href="../../problems/1013/">C++</a></td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1422</td>
-<td><a href="https://leetcode.com/problems/maximum-score-after-splitting-a-string/">Maximum Score After Splitting a String</a></td>
-<td>🟢 Easy</td>
-<td>Array Linear Scan</td>
-<td><a href="../../problems/1422/">C++</a></td>
-<td>O(N) - 先使用 std::count 花費 O(N) 計算總 1 數量，接著用單一迴圈花費 O(N) 掃描分割點。</td>
-<td>O(1) - 僅使用常數個變數（zeros, ones, ans）來追蹤狀態，不需額外配置動態記憶體。</td>
-</tr>
-<tr>
-<td>1608</td>
-<td><a href="https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/">Special Array With X Elements Greater Than or Equal X</a></td>
-<td>🟢 Easy</td>
-<td>Brute Force, Simulation</td>
-<td><a href="../../problems/1608/">C++</a></td>
-<td>O(N²)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1614</td>
-<td><a href="https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/">Maximum Nesting Depth of the Parentheses</a></td>
-<td>🟢 Easy</td>
-<td>String, Stack, Simulation</td>
-<td><a href="../../problems/1614/">C++</a></td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1848</td>
-<td><a href="https://leetcode.com/problems/minimum-distance-to-the-target-element/">Minimum Distance to the Target Element</a></td>
-<td>🟢 Easy</td>
-<td>Array, Simulation</td>
-<td><a href="../../problems/1848/">C++</a></td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="3">🟡 注意（3）<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -3492,31 +3360,6 @@
 <td>O(N)</td>
 </tr>
 <tr>
-<td>1431</td>
-<td><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/">Kids With the Greatest Number of Candies</a></td>
-<td>🟢 Easy</td>
-<td>Array</td>
-<td><a href="../../problems/1431/">C++</a></td>
-<td>O(N)</td>
-<td>O(1)*</td>
-</tr>
-</tbody>
-</table>
-<h2 id="12">🟢 熟悉（12）<a class="headerlink" href="#12" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>題目</th>
-<th>難度</th>
-<th>標籤</th>
-<th>解法檔案</th>
-<th>時間</th>
-<th>空間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
 <td>747</td>
 <td><a href="https://leetcode.com/problems/largest-number-at-least-twice-of-others/">Largest Number At Least Twice of Others</a></td>
 <td>🟢 Easy</td>
@@ -3524,6 +3367,33 @@
 <td><a href="../../problems/0747/">C++</a></td>
 <td>O(N)</td>
 <td>O(1)</td>
+</tr>
+<tr>
+<td>1013</td>
+<td><a href="https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/">Partition Array Into Three Parts With Equal Sum</a></td>
+<td>🟢 Easy</td>
+<td>Array, Prefix Sum, Greedy</td>
+<td><a href="../../problems/1013/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1422</td>
+<td><a href="https://leetcode.com/problems/maximum-score-after-splitting-a-string/">Maximum Score After Splitting a String</a></td>
+<td>🟢 Easy</td>
+<td>Array Linear Scan</td>
+<td><a href="../../problems/1422/">C++</a></td>
+<td>O(N) - 先使用 std::count 花費 O(N) 計算總 1 數量，接著用單一迴圈花費 O(N) 掃描分割點。</td>
+<td>O(1) - 僅使用常數個變數（zeros, ones, ans）來追蹤狀態，不需額外配置動態記憶體。</td>
+</tr>
+<tr>
+<td>1431</td>
+<td><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/">Kids With the Greatest Number of Candies</a></td>
+<td>🟢 Easy</td>
+<td>Array</td>
+<td><a href="../../problems/1431/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)*</td>
 </tr>
 <tr>
 <td>1437</td>
@@ -3540,6 +3410,33 @@
 <td>🟢 Easy</td>
 <td>Array, Greedy, Simulation</td>
 <td><a href="../../problems/1464/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1608</td>
+<td><a href="https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/">Special Array With X Elements Greater Than or Equal X</a></td>
+<td>🟢 Easy</td>
+<td>Brute Force, Simulation</td>
+<td><a href="../../problems/1608/">C++</a></td>
+<td>O(N²)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1614</td>
+<td><a href="https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/">Maximum Nesting Depth of the Parentheses</a></td>
+<td>🟢 Easy</td>
+<td>String, Stack, Simulation</td>
+<td><a href="../../problems/1614/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1848</td>
+<td><a href="https://leetcode.com/problems/minimum-distance-to-the-target-element/">Minimum Distance to the Target Element</a></td>
+<td>🟢 Easy</td>
+<td>Array, Simulation</td>
+<td><a href="../../problems/1848/">C++</a></td>
 <td>O(N)</td>
 <td>O(1)</td>
 </tr>
