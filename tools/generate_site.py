@@ -2,7 +2,6 @@
 import sys
 import os
 import re
-import json
 import glob
 from collections import OrderedDict
 
@@ -49,9 +48,6 @@ GROUPS = [
     (r'^tree', '🌳 Tree'),
     (r'^trie$', '🌳 Tree'),
     (r'^dfs-bfs$', '🌳 Tree'),
-    (r'^graph', '🕸️ Graph'),
-    (r'^union-find$', '🕸️ Graph'),
-    (r'^topological-sort$', '🕸️ Graph'),
     (r'^sorting', '📊 Sorting'),
     (r'^dynamic-programming', '🧩 Dynamic Programming'),
     (r'^knapsack-problem', '🧩 Dynamic Programming'),
@@ -67,42 +63,6 @@ def group_for(slug):
         if re.search(pattern, slug):
             return title
     return '📄 Other'
-
-# 側邊欄分類的顯示順序（不在此清單中的分類，例如未來新增但忘記排序的，
-# 會依照原本被發現的順序，自動排在清單最後面）
-GROUP_ORDER = [
-    '🔢 Math',
-    '📊 Bit Manipulation',
-    '🔗 String',
-    '🍱 Array',
-    '🔍 Binary Search',
-    '👥 Pointers',
-    '🔑 Hash Table',
-    '⛓️ Linked List',
-    '📚 Stack',
-    '🌳 Tree',
-    '🕸️ Graph',
-    '📚 Priority Queue',
-    '🔢 Sliding Window',
-    '🔢 Backtracking',
-    '🧩 Greedy',
-    '🧩 Dynamic Programming',
-    '📊 Sorting',
-    '📚 Quick Select',
-    '🎨 Design',
-    '🔢 SQL',
-]
-
-def sort_nav_entries(nav_entries):
-    """依 GROUP_ORDER 排序 nav_entries；不在名單中的分類排在最後（保留原順序）。"""
-    ordered = OrderedDict()
-    for title in GROUP_ORDER:
-        if title in nav_entries:
-            ordered[title] = nav_entries[title]
-    for title, topics in nav_entries.items():
-        if title not in ordered:
-            ordered[title] = topics
-    return ordered
 
 def lang_for_file(filename):
     ext = os.path.splitext(filename)[1]
@@ -194,8 +154,6 @@ def build_problem_page(problem, solution_dir):
         familiarity_badge = ''
         if familiarity == '熟練':
             familiarity_badge = '　**熟悉度:** 🟢 熟練'
-        elif familiarity == '注意':
-            familiarity_badge = '　**熟悉度:** 🟡 注意'
         elif familiarity == '生疏':
             familiarity_badge = '　**熟悉度:** 🔴 生疏'
 
@@ -239,10 +197,16 @@ def build_problem_page(problem, solution_dir):
 
 def build_topic_indexes(problems, topics_out_dir):
     topic_rows = OrderedDict()
+
+    # 特定「大分類」topic：子分類（例如 array-min-max、array-negative-marking）
+    # 除了有自己的獨立頁面之外，也會一併匯總進大分類頁面（例如 topics/array.md）。
+    # 若之後其他分類也想要一樣的效果，把大分類名稱加進這個清單即可。
+    AGGREGATE_PARENT_TOPICS = ['array']
+
     for problem in problems:
         for sol in problem['solutions']:
             for topic in to_list(sol.get('topics')):
-                topic_rows.setdefault(topic, []).append({
+                row = {
                     'number': problem['number'],
                     'title': problem['title'],
                     'url': problem.get('url', ''),
@@ -251,77 +215,47 @@ def build_topic_indexes(problems, topics_out_dir):
                     'tags': to_list(sol.get('tags')),
                     'time': sol.get('time', ''),
                     'space': sol.get('space', ''),
-                    'familiarity': sol.get('familiarity'),
-                })
+                }
+                topic_rows.setdefault(topic, []).append(row)
+
+    # 第二輪：把子分類（array-min-max 等）的題目也併進父分類頁（array），
+    # 用 (number, file) 判斷是否已經在父分類頁裡，避免同一解法同時掛
+    # array + array-min-max 時被列兩次。
+    for parent in AGGREGATE_PARENT_TOPICS:
+        existing_keys = {(r['number'], r['file']) for r in topic_rows.get(parent, [])}
+        for topic, rows in list(topic_rows.items()):
+            if topic == parent or not topic.startswith(parent + '-'):
+                continue
+            for row in rows:
+                key = (row['number'], row['file'])
+                if key not in existing_keys:
+                    existing_keys.add(key)
+                    topic_rows.setdefault(parent, []).append(row)
 
     os.makedirs(topics_out_dir, exist_ok=True)
     for fname in os.listdir(topics_out_dir):
         os.remove(os.path.join(topics_out_dir, fname))
 
-    def render_table(sub_rows):
-        lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
+    for topic, rows in topic_rows.items():
+        rows.sort(key=lambda r: r['number'])
+        lines = [f"# {topic}", '',
+                 "| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
                  "| --- | --- | --- | --- | --- | --- | --- |"]
-        for r in sub_rows:
+        for r in rows:
             tags_str = ', '.join(r['tags'])
             page_link = f"../problems/{r['number']:04d}.md"
             title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             lines.append(f"| {r['number']} | {title_cell} | "
                          f"{r['difficulty']} | {tags_str} | {file_cell} | {r['time']} | {r['space']} |")
-        return lines
-
-    for topic, rows in topic_rows.items():
-        rows.sort(key=lambda r: r['number'])
-
-        unfamiliar_rows = [r for r in rows if r['familiarity'] == '生疏']
-        caution_rows = [r for r in rows if r['familiarity'] == '注意']
-        familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '注意')]
-
-        lines = [f"# {topic}", '']
-
-        lines.append(f"## 🔴 生疏（{len(unfamiliar_rows)}）")
-        lines.append('')
-        if unfamiliar_rows:
-            lines.extend(render_table(unfamiliar_rows))
-        else:
-            lines.append('目前沒有標記為生疏的解法。')
-        lines.append('')
-
-        lines.append(f"## 🟡 注意（{len(caution_rows)}）")
-        lines.append('')
-        if caution_rows:
-            lines.extend(render_table(caution_rows))
-        else:
-            lines.append('目前沒有標記為注意的解法。')
-        lines.append('')
-
-        lines.append(f"## 🟢 熟悉（{len(familiar_rows)}）")
-        lines.append('')
-        if familiar_rows:
-            lines.extend(render_table(familiar_rows))
-        else:
-            lines.append('目前沒有標記為熟悉的解法。')
-
         with open(os.path.join(topics_out_dir, f"{topic}.md"), 'w', encoding='utf-8') as f:
             f.write('\n'.join(lines) + '\n')
 
     return topic_rows
 
 
-def load_ac_cache(cache_path):
-    """讀取 fetch_leetcode_ac.py 產生的 leetcode_ac_cache.json，抓不到就回傳 None（不影響其他功能）。"""
-    if not os.path.exists(cache_path):
-        return None
-    try:
-        with open(cache_path, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except Exception:
-        return None
-
-
-def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'):
-    """統計總覽 + 各分類生疏/注意/熟練統計表，寫成 docs/review.md 複習清單
-    （只保留上方總覽表格，不再列出逐題明細，明細請到各 topic 頁面查看）"""
+def build_review_page(problems, docs_dir):
+    """列出所有標記為「生疏」的解法，寫成 docs/review.md 複習清單"""
     rows = []
     for problem in problems:
         for sol in problem['solutions']:
@@ -336,61 +270,15 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
                 })
     rows.sort(key=lambda r: r['number'])
 
-    # 每一題的整體熟悉度：生疏 > 注意 > 熟練 > 未標記（優先度由左到右，只要任一解法符合就算該題）
-    problem_status = {}
-    topic_stats = OrderedDict()
-
-    for problem in problems:
-        sols = problem['solutions']
-        statuses = {sol.get('familiarity') for sol in sols}
-        if '生疏' in statuses:
-            status = '生疏'
-        elif '注意' in statuses:
-            status = '注意'
-        elif '熟練' in statuses:
-            status = '熟練'
-        else:
-            status = '未標記'
-        problem_status[problem['number']] = status
-
-        problem_topics = set()
-        for sol in sols:
-            for topic in to_list(sol.get('topics')):
-                problem_topics.add(topic)
-        for topic in problem_topics:
-            stat = topic_stats.setdefault(topic, {'生疏': 0, '注意': 0, '熟練': 0, '未標記': 0})
-            stat[status] += 1
-
-    total_problems = len(problems)
-    total_shengshu = sum(1 for s in problem_status.values() if s == '生疏')
-    total_zhuyi = sum(1 for s in problem_status.values() if s == '注意')
-    total_shulian = sum(1 for s in problem_status.values() if s == '熟練')
-    total_unmarked = total_problems - total_shengshu - total_zhuyi - total_shulian
-
-    ac_info = load_ac_cache(ac_cache_path)
-
-    lines = ['# 📝 複習清單（生疏）', '', '## 📊 總覽', '']
-
-    if ac_info and ac_info.get('num_solved') is not None:
-        fetched_at = ac_info.get('fetched_at', '')
-        num_total = ac_info.get('num_total')
-        total_str = f" / {num_total}" if num_total else ''
-        lines.append(f"- **LeetCode 網站 AC 總數：** {ac_info['num_solved']}{total_str} 題"
-                     f"（最後更新：{fetched_at}，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）")
-    else:
-        lines.append("- **LeetCode 網站 AC 總數：** 尚未取得，請先執行 `python3 tools/fetch_leetcode_ac.py`")
-
-    lines.append(f"- **目前收錄總題目數：** {total_problems} 題　"
-                 f"🔴 生疏：{total_shengshu} 題　🟡 注意：{total_zhuyi} 題　🟢 熟練：{total_shulian} 題　⚪ 未標記：{total_unmarked} 題")
-    lines.append('')
-
-    lines.append('### 各分類生疏 / 注意 / 熟練統計')
-    lines.append('')
-    lines.append('| 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |')
-    lines.append('| --- | --- | --- | --- | --- | --- |')
-    for topic, stat in sorted(topic_stats.items()):
-        topic_total = stat['生疏'] + stat['注意'] + stat['熟練'] + stat['未標記']
-        lines.append(f"| [{topic}](topics/{topic}.md) | {stat['生疏']} | {stat['注意']} | {stat['熟練']} | {stat['未標記']} | {topic_total} |")
+    lines = ['# 📝 複習清單（生疏）', '',
+             f'目前共有 {len(rows)} 個解法標記為生疏，建議找時間重新練習。', '',
+             '| # | 題目 | 難度 | 解法檔案 | 分類 |',
+             '| --- | --- | --- | --- | --- |']
+    for r in rows:
+        page_link = f"problems/{r['number']:04d}.md"
+        title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
+        file_cell = f"[C++]({page_link})" if r['file'] else ''
+        lines.append(f"| {r['number']} | {title_cell} | {r['difficulty']} | {file_cell} | {r['topics']} |")
 
     with open(os.path.join(docs_dir, 'review.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
@@ -437,7 +325,6 @@ def main():
     for topic in topic_rows:
         group_title = group_for(topic)
         nav_entries.setdefault(group_title, []).append(topic)
-    nav_entries = sort_nav_entries(nav_entries)
 
     print("\n\n----- 貼到 mkdocs.yml 的 nav: 區塊 -----\n")
     print("nav:")
