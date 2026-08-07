@@ -10,4 +10,5 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> 直接兩個asc相減就可以不用轉成數字'
