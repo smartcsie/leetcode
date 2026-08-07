@@ -21,6 +21,8 @@ import os
 import sys
 import re
 import subprocess
+import threading
+import time
 
 try:
     import yaml
@@ -54,6 +56,11 @@ def load_activation_code():
 
 # ⚠️ 真正的密碼放在同層資料夾的 activation_code.txt（已加進 .gitignore，不會被 push 上去）
 ACTIVATION_CODE = load_activation_code()
+
+# 發佈鎖：避免上一次 publish.sh 還沒跑完，就又被觸發第二次
+# （這是之前造成 GitHub Pages 部署互相卡住、逾時失敗的主因）
+publish_lock = threading.Lock()
+publish_started_at = None
 
 SAFE_FILENAME_RE = re.compile(r'^[A-Za-z0-9_\-\.]+$')
 ANSI_RE = re.compile(r'\x1b\[[0-9;]*m')
@@ -254,7 +261,21 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self._send_json(400, {'error': f'找不到 {script_path}，請確認 {PUBLISH_SCRIPT} 跟 save_server.py 放在同一個資料夾'})
             return
 
+        global publish_started_at
+
+        # 非阻塞方式取得鎖：如果已經有一個 publish 在跑，直接回報，不要排隊等、
+        # 更不要真的同時跑第二個 publish.sh（那正是之前造成 GitHub Pages 部署卡住的原因）
+        acquired = publish_lock.acquire(blocking=False)
+        if not acquired:
+            elapsed = int(time.time() - publish_started_at) if publish_started_at else None
+            elapsed_str = f'（已執行約 {elapsed} 秒）' if elapsed is not None else ''
+            self._send_json(409, {
+                'error': f'已經有一個發佈正在進行中{elapsed_str}，請等它完成後再試一次，不要重複按「發佈」',
+            })
+            return
+
         try:
+            publish_started_at = time.time()
             result = subprocess.run(
                 ['bash', script_path, message],
                 cwd=os.getcwd(),
@@ -277,6 +298,9 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             })
         except Exception as e:
             self._send_json(500, {'error': str(e)})
+        finally:
+            publish_started_at = None
+            publish_lock.release()
 
     def log_message(self, format, *args):
         sys.stderr.write(f"{self.command} {self.path} -> {args[1] if len(args) > 1 else ''}\n")
