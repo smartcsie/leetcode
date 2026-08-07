@@ -13,15 +13,15 @@
  */
 
 class Solution {
-    // 定義為成員函式，避免重複建立 Lambda
-    static bool isVowel(char c) {
-        return (2130466 >> (c - '`')) & 1;
-    }
 public:
     int vowelStrings(vector<string>& words, int left, int right) {
-        // 使用 STL count_if + 迭代器區間
-        return count_if(words.begin() + left, words.begin() + right + 1, [](const string& w) {
-            return isVowel(w.front()) && isVowel(w.back());
-        });
+        int ans = 0;
+        for(int i = left; i <= right; i++) {
+            char c1 = words[i][0];
+            char c2 = words[i].back();
+            if( (0x104111 >> (c1 - 'a')) & 1  && (0x104111 >> (c2 - 'a')) & 1) ans++;
+        }
+        return ans;
+    }
     }
 };
