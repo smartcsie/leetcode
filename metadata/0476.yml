@@ -10,11 +10,10 @@ solutions:
   - bit-manipulation
   time: O(logN)
   space: O(1)
-  note: '> [Number Complement](https://leetcode.com/problems/number-complement)<br>
-
-    > temp = num， while(temp > 0)，mask Or 1 一直左移動，最後mask ^ num<br>
-
-    > [476 Number Complement](../problems/0476.md)和[1009 Complement of Base 10 Integer](../problems/1009.md)<br>
+  familiarity: 熟練
+  note: '> [476 Number Complement](../problems/0476.md)和[1009 Complement of Base 10
+    Integer](../problems/1009.md)<br>
 
     > 本質上是相同的題目。<br>'
-  familiarity: 生疏
+  related:
+  - 1009

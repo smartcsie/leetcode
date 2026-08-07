@@ -10,9 +10,7 @@ solutions:
   - bit-manipulation
   time: O(logN)
   space: O(1)
-  note: '> [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer)
-    <br>
-
-    > temp = n， while(temp > 0)，mask Or 1 一直左移動，最後mask ^ n，比476那一題多 **if(n == 0) return
-    1;** <br>'
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> 1009從0開始，需要多判斷 if(n == 0) return 1;<br>'
+  related:
+  - 476

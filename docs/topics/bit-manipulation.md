@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（24）
+## 🔴 生疏（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -9,9 +9,7 @@
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit-Manipulation | [C++](../problems/0137.md) | O(N) | O(1) |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](../problems/0371.md) | O(1) | O(1) |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](../problems/0401.md) | O(1) | O(1) |
-| 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](../problems/0476.md) | O(logN) | O(1) |
 | 762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0762.md) | O(NlogK) | O(1) |
-| 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](../problems/1009.md) | O(logN) | O(1) |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | String, Bit Manipulation, Sliding Window | [C++](../problems/1016.md) | O(N*LEN) | O(1) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 Easy | Bit Manipulation, Math | [C++](../problems/1342.md) | O(1) | O(1) |
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | Backtracking Permutation, Recursion, Divide and Conquer | [C++](../problems/1545.md) | O(N) | O(N) |
@@ -36,12 +34,14 @@
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](../problems/2133.md) | O(N²) | O(N) |
 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Array, Hash Table, Bitset | [C++](../problems/2956.md) | O(N+M) | O(1)* |
 
-## 🟢 熟悉（9）
+## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit-Manipulation | [C++](../problems/0190.md) | O(1) | O(1) |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation, Hash Table | [C++](../problems/0389.md) | O(N) | O(1) |
+| 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](../problems/0476.md) | O(logN) | O(1) |
+| 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](../problems/1009.md) | O(logN) | O(1) |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array, Bit Manipulation, Hash Table | [C++](../problems/1684.md) | O(N*M) | O(1) |
 | 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 Easy | Bit Manipulation, Math, String | [C++](../problems/1812.md) | O(1) | O(1) |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 Easy | Bit Manipulation, String, Hash Table | [C++](../problems/1832.md) | O(N) | O(1) |
