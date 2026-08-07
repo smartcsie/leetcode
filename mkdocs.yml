@@ -43,27 +43,6 @@ markdown_extensions:
 nav:
   - 首頁: index.md
   - 📝 複習清單: review.md
-  - 🔑 Hash Table:
-      - hash-table-mapping: topics/hash-table-mapping.md
-      - hash-table-counting: topics/hash-table-counting.md
-      - hash-table-set: topics/hash-table-set.md
-  - ⛓️ Linked List:
-      - linked-list: topics/linked-list.md
-      - linked-list-circular: topics/linked-list-circular.md
-  - 🔢 Sliding Window:
-      - fixed-size-sliding-window: topics/fixed-size-sliding-window.md
-      - variable-size-sliding-window: topics/variable-size-sliding-window.md
-  - 🔍 Binary Search:
-      - binary-search: topics/binary-search.md
-      - binary-search-build-in: topics/binary-search-build-in.md
-  - 👥 Pointers:
-      - two-pointers-center-expansion: topics/two-pointers-center-expansion.md
-      - two-pointers-opposite: topics/two-pointers-opposite.md
-      - fast-slow-pointers: topics/fast-slow-pointers.md
-      - two-pointers-same: topics/two-pointers-same.md
-      - two-pointers-partition: topics/two-pointers-partition.md
-      - two-pointers-other: topics/two-pointers-other.md
-      - two-pointers-swap: topics/two-pointers-swap.md
   - 🔢 Math:
       - math-digit-decomposition: topics/math-digit-decomposition.md
       - math-palindrome: topics/math-palindrome.md
@@ -83,16 +62,6 @@ nav:
       - string-substring: topics/string-substring.md
       - string-character-classification: topics/string-character-classification.md
       - string-substring-enumeration: topics/string-substring-enumeration.md
-  - 🔢 Backtracking:
-      - backtracking-combination: topics/backtracking-combination.md
-      - negative-marking: topics/negative-marking.md
-      - backtracking-permutation: topics/backtracking-permutation.md
-  - 📚 Stack:
-      - stack: topics/stack.md
-      - monotonic-queue: topics/monotonic-queue.md
-      - monotonic-stack: topics/monotonic-stack.md
-  - 📚 Priority Queue:
-      - priority-queue: topics/priority-queue.md
   - 📊 Bit Manipulation:
       - bit-manipulation: topics/bit-manipulation.md
       - bit-bitmask-subset-enumeration: topics/bit-bitmask-subset-enumeration.md
@@ -109,7 +78,37 @@ nav:
       - prefix-sum: topics/prefix-sum.md
       - array-linear-scan: topics/array-linear-scan.md
       - array-continuous-counting: topics/array-continuous-counting.md
+      - array-min-max: topics/array-min-max.md
       - array-difference-array: topics/array-difference-array.md
+  - 🔍 Binary Search:
+      - binary-search: topics/binary-search.md
+      - binary-search-build-in: topics/binary-search-build-in.md
+  - 🔢 Sliding Window:
+      - fixed-size-sliding-window: topics/fixed-size-sliding-window.md
+      - variable-size-sliding-window: topics/variable-size-sliding-window.md
+  - 🔑 Hash Table:
+      - hash-table-mapping: topics/hash-table-mapping.md
+      - hash-table-counting: topics/hash-table-counting.md
+      - hash-table-set: topics/hash-table-set.md
+  - 👥 Pointers:
+      - two-pointers-center-expansion: topics/two-pointers-center-expansion.md
+      - two-pointers-opposite: topics/two-pointers-opposite.md
+      - fast-slow-pointers: topics/fast-slow-pointers.md
+      - two-pointers-same: topics/two-pointers-same.md
+      - two-pointers-partition: topics/two-pointers-partition.md
+      - two-pointers-other: topics/two-pointers-other.md
+      - two-pointers-swap: topics/two-pointers-swap.md
+  - ⛓️ Linked List:
+      - linked-list: topics/linked-list.md
+      - linked-list-circular: topics/linked-list-circular.md
+  - 📚 Stack:
+      - stack: topics/stack.md
+      - monotonic-queue: topics/monotonic-queue.md
+      - monotonic-stack: topics/monotonic-stack.md
+  - 🔢 Backtracking:
+      - backtracking-combination: topics/backtracking-combination.md
+      - negative-marking: topics/negative-marking.md
+      - backtracking-permutation: topics/backtracking-permutation.md
   - 🧩 Dynamic Programming:
       - dynamic-programming-kadane-algorithm: topics/dynamic-programming-kadane-algorithm.md
       - dynamic-programming: topics/dynamic-programming.md
@@ -128,6 +127,8 @@ nav:
   - 📊 Sorting:
       - sorting: topics/sorting.md
       - sorting-cycle-decomposition: topics/sorting-cycle-decomposition.md
+  - 📚 Priority Queue:
+      - priority-queue: topics/priority-queue.md
   - 🔢 SQL:
       - sql: topics/sql.md
   - 📚 Quick Select:
