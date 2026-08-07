@@ -21,9 +21,11 @@ class Solution {
 public:
     int minMoves(vector<int>& nums) {
         int minVal = INT_MAX;
-        int ans = 0;
-        for(const int& num : nums) minVal = min(minVal, num);
-        for(const int& num : nums) ans += num - minVal;
-        return ans;
+        int sum = 0;
+        for(const int& x : nums) {
+            sum += x;
+            minVal = min(minVal, x);
+        }
+        return sum - minVal * nums.size();
     }
 };
