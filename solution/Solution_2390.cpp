@@ -20,11 +20,11 @@
 class Solution {
 public:
     string removeStars(string s) {
-        string res = "";
-        for(char c : s) {
-            if(c == '*' && !res.empty()) res.pop_back();
-            else if(c != '*') res.push_back(c);
+        vector<char> v;
+        for(const char& c : s) {
+            if(!v.empty() && c == '*') v.pop_back();
+            else v.push_back(c);
         }
-        return res;
+        return string(v.begin(), v.end());
     }
 };
