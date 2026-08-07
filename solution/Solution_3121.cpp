@@ -16,31 +16,17 @@
 class Solution {
 public:
     int numberOfSpecialChars(std::string word) {
-        // pair.first 存大寫第一次出現的索引，pair.second 存小寫最後一次出現的索引
-        std::vector<std::pair<int, int>> indices(26, {-1, -1});
-        
-        for (int i = 0; i < word.size(); i++) {
-            char c = word[i];
-            if (std::isupper(c)) {
-                // 若大寫尚未紀錄，則記錄其第一次出現位置
-                if (indices[c - 'A'].first == -1) {
-                    indices[c - 'A'].first = i;
-                }
-            } else if (std::islower(c)) {
-                // 持續更新小寫最後一次出現的位置
-                indices[c - 'a'].second = i;
-            }
+        /vector<int> lowers(26, -1);
+        vector<int> uppers(26, -1);
+        int n = word.size();
+        int ans = 0;
+        for(int i = 0, j = n - 1; i < n && j >= 0; i++, j--) {
+            if(islower(word[i])) lowers[word[i] - 'a']= i;
+            if(isupper(word[j])) uppers[word[j] - 'A']= j;
         }
-
-        int count = 0;
-        for (int i = 0; i < 26; i++) {
-            // 條件：大小寫皆存在，且小寫最後一次位置 < 大寫第一次位置
-            if (indices[i].first != -1 && indices[i].second != -1 &&
-                indices[i].second < indices[i].first) {
-                count++;
-            }
+        for(int i = 0; i < 26; i++) {
+            if(lowers[i] > -1 && uppers[i] > -1 && (lowers[i] < uppers[i])) ans++;
         }
-
-        return count;
+        return ans;
     }
 };
