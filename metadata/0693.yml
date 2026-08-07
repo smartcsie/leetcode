@@ -10,10 +10,20 @@ solutions:
   - bit-manipulation-and
   time: O(1)
   space: O(1)
+  familiarity: 注意
   note: '> [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)<br>
 
     > n先mod 4等於t，檢查11(t & 3) == 3，檢查00(t ^ 3) == 3，符合就回傳false<br>
 
 
     <br><br>'
-  familiarity: 生疏
+  is_best: true
+- file: Solution_0693_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation And
+  topics:
+  - bit-manipulation-and
+  time: O(logn)
+  space: O(1)
+  familiarity: 注意
