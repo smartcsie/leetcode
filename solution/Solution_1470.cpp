@@ -13,15 +13,13 @@
 class Solution {
 public:
     vector<int> shuffle(vector<int>& nums, int n) {
-        vector<int> res;
-        // 優化點：預先配置記憶體，避免 push_back 時反覆擴容
-        res.reserve(2 * n);
-        
-        for (int i = 0; i < n; i++) {
-            res.push_back(nums[i]);
-            res.push_back(nums[i + n]);
+        vector<int> ans;
+        ans.reserve(nums.size());
+        for(int i = 0; i < nums.size() / 2; i++) {
+            ans.push_back(nums[i]);
+            int j = (i + n) % nums.size();
+            ans.push_back(nums[j]);
         }
-        
-        return res;
+        return ans;
     }
 };
