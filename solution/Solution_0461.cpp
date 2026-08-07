@@ -15,16 +15,6 @@
 class Solution {
 public:
     int hammingDistance(int x, int y) {
-        int xorVal = x ^ y;
-        int count = 0;
-        
-        while (xorVal > 0) {
-            // 每執行一次，消除一個 1
-            xorVal &= (xorVal - 1);
-            count++;
-        }
-        
-        // 修正：直接回傳 count 即可
-        return count;
+        return __builtin_popcount(x ^ y);
     }
 };

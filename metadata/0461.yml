@@ -10,7 +10,9 @@ solutions:
   - hamming-distance
   time: O(K)
   space: O(1)
+  familiarity: 熟練
   note: '> [Hamming Distance](https://leetcode.com/problems/hamming-distance)<br>
 
     > x和y做互斥或成為z，取z的2進制1的個數<br>'
-  familiarity: 生疏
+  related:
+  - 2220

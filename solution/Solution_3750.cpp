@@ -13,18 +13,12 @@
 class Solution {
 public:
     int minimumFlips(int n) {
-        int reverse = 0;
         int m = n;
+        int r = 0;
         while(m > 0) {
-            reverse = (reverse << 1) | (m & 1);
+            r = (r << 1) | (m & 1);
             m >>= 1;
         }
-        int x = reverse ^ n;
-        int count = 0;
-        while(x > 0) {
-            x = x & (x- 1);
-            count++;
-        }
-        return count;
+        return __builtin_popcount(n ^ r);
     }
 };
