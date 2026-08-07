@@ -76,6 +76,7 @@ nav:
       - interval: topics/interval.md
       - array-boyer-moore: topics/array-boyer-moore.md
       - prefix-sum: topics/prefix-sum.md
+      - array-negative-marking: topics/array-negative-marking.md
       - array-linear-scan: topics/array-linear-scan.md
       - array-continuous-counting: topics/array-continuous-counting.md
       - array-min-max: topics/array-min-max.md
