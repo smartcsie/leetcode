@@ -16,7 +16,7 @@
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
 | [array-linear-scan](topics/array-linear-scan.md) | 5 | 3 | 11 | 0 | 19 |
 | [array-min-max](topics/array-min-max.md) | 1 | 0 | 2 | 0 | 3 |
-| [array-negative-marking](topics/array-negative-marking.md) | 2 | 1 | 0 | 0 | 3 |
+| [array-negative-marking](topics/array-negative-marking.md) | 4 | 1 | 0 | 0 | 5 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 2 |
 | [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 21 |
@@ -56,7 +56,6 @@
 | [math-simulation](topics/math-simulation.md) | 3 | 1 | 1 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 6 |
-| [negative-marking](topics/negative-marking.md) | 2 | 0 | 0 | 0 | 2 |
 | [prefix-sum](topics/prefix-sum.md) | 19 | 0 | 0 | 0 | 19 |
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 0 | 0 | 6 |
 | [quick-select](topics/quick-select.md) | 6 | 0 | 0 | 0 | 6 |
@@ -120,7 +119,7 @@
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | [C++](problems/0036.md) | hash-table-mapping |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | [C++](problems/0039.md) | backtracking-combination |
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | [C++](problems/0040.md) | backtracking-combination |
-| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | [C++](problems/0041.md) | negative-marking |
+| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | [C++](problems/0041.md) | array-negative-marking |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | [C++](problems/0043.md) | string |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | [C++](problems/0046.md) | backtracking-permutation |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | [C++](problems/0047.md) | backtracking-permutation |
@@ -280,7 +279,7 @@
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | [C++](problems/0441.md) | math |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium | [C++](problems/0443.md) | two-pointers-same |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | [C++](problems/0445.md) | stack |
-| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 🟢 Easy | [C++](problems/0448.md) | negative-marking |
+| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 🟢 Easy | [C++](problems/0448.md) | array-negative-marking |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | [C++](problems/0451.md) | sorting |
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟢 Easy | [C++](problems/0453.md) | greedy |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 Medium | [C++](problems/0454.md) | hash-table-mapping |
