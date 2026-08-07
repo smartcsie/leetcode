@@ -1,12 +1,10 @@
 # math-digit-decomposition
 
-## 🔴 生疏（27）
+## 🔴 生疏（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](../problems/0007.md) | O(logN) | O(1) |
-| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math, Base Conversion | [C++](../problems/0168.md) | O(log26N) | O(1) |
-| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math, Base Conversion | [C++](../problems/0171.md) | O(N) | O(1) |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math, Bit Manipulation | [C++](../problems/0405.md) | O(1) | O(1) |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Simulation | [C++](../problems/0728.md) | O(N*D) | O(1) |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0868.md) | O(logN) | O(1) |
@@ -32,10 +30,12 @@
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math | [C++](../problems/3945.md) | O(logN) | O(1) |
 | 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 Easy | Math, Array | [C++](../problems/3982.md) | O(N*D) | O(N) |
 
-## 🟡 注意（4）
+## 🟡 注意（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math, Base Conversion | [C++](../problems/0168.md) | O(log26N) | O(1) |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math, Base Conversion | [C++](../problems/0171.md) | O(N) | O(1) |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math, String | [C++](../problems/0504.md) | O(log₇N) | O(1) |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math | [C++](../problems/1017.md) | O(logN) | O(1) |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3622.md) | O(logN) | O(1) |
