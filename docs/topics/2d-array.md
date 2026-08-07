@@ -1,14 +1,13 @@
 # 2d-array
 
-## 🔴 生疏（3）
+## 🔴 生疏（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0832.md) | O(N*M) | O(1) |
-| 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | Array, Math | [C++](../problems/2923.md) | O(N²) | O(1) |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | Simulation | [C++](../problems/3417.md) | O(M*N) | O(M*N) |
 
-## 🟡 注意（6）
+## 🟡 注意（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -18,6 +17,7 @@
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | Array, Matrix, Simulation | [C++](../problems/2022.md) | O(M*N) | O(1) |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 Medium | Prefix Sum, Matrix, Precomputation | [C++](../problems/2482.md) | O(M*N) | O(M+N) |
 | 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 Easy | Array, Simulation | [C++](../problems/2639.md) | O(M*N*D) | O(1)* |
+| 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | Array, Math | [C++](../problems/2923.md) | O(N²) | O(1) |
 
 ## 🟢 熟悉（7）
 

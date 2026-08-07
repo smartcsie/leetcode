@@ -16,12 +16,9 @@ class Solution {
 public:
     int findChampion(std::vector<std::vector<int>>& grid) {
         int n = grid.size();
-        for (int i = 0; i < n; i++) {
-            // 計算隊伍 i 的勝場總數
-            int sum = std::accumulate(grid[i].begin(), grid[i].end(), 0);
-            
-            // 若勝場數為 n - 1，代表擊敗了所有其他隊伍
-            if (sum == (n - 1)) {
+        for(int i =0 ; i < n; i++) {
+            int wins = count(grid[i].begin(), grid[i].end(), 1);
+            if(wins == (n - 1)) {
                 return i;
             }
         }

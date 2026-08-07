@@ -3,13 +3,13 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：704 題　🟡 注意：47 題　🟢 熟練：108 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：703 題　🟡 注意：48 題　🟢 熟練：108 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
-| [2d-array](topics/2d-array.md) | 3 | 6 | 7 | 0 | 16 |
+| [2d-array](topics/2d-array.md) | 2 | 7 | 7 | 0 | 16 |
 | [array](topics/array.md) | 19 | 3 | 10 | 0 | 32 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 2 | 1 | 5 | 0 | 8 |
