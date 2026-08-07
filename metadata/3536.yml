@@ -5,12 +5,13 @@ solutions:
 - file: Solution_3536.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
   - Greedy
+  - Math
   topics:
   - greedy
   time: O(logN)
   space: O(1)
+  familiarity: 熟練
   note: '> [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)
     <br>
 
@@ -23,4 +24,3 @@ solutions:
 
 
     <br><br>'
-  familiarity: 生疏
