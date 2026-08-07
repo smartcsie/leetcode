@@ -13,26 +13,20 @@
 
 
 class Solution {
-private:
-    bool isVowel(char c) {
-        string_view str = "AEIOUaeiou";
-        return str.find(c) != string_view::npos;
-    }
 public:
     bool isValid(string word) {
-        if(word.size() < 3) return false;
-        int vowel = 0;
+        int n = word.size(); 
+        if(n < 3) return false;
+        int vowels = 0;
         int consonant = 0;
-        for(char c : word) {
-            if(isdigit(c)) {
-                continue;
-            } else if(isalpha(c)) {
-                if(isVowel(c)) vowel++;
+        for(const char& c : word) {
+            if(!isalnum(c)) return false;
+            else if(isdigit(c)) continue;
+            else if(isalpha(c)) {
+                if(0x104111 >> ((c | 32) - 'a') & 1)  vowels++;
                 else consonant++;
-            } else {
-                return false;
             }
         }
-        return (vowel >= 1) && (consonant >= 1);
+        return vowels >= 1 && consonant >= 1;
     }
 };
