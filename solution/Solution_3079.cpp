@@ -27,13 +27,19 @@ public:
     int sumOfEncryptedInt(vector<int>& nums) {
         int ans = 0;
         for(const int& num : nums) {
-            if(num < 10) {
-                ans += num;
-            } else {
-                string str = to_string(num);
-                char maxChar = *max_element(str.begin(), str.end());
-                ans += stoi(string(str.size(), maxChar));
+            int digits = 0;
+            int maxDigit = -1;
+            int temp = num;
+            while(temp > 0) {
+                if((temp % 10) > maxDigit) maxDigit = temp % 10;
+                temp /= 10;
+                digits++;
             }
+            int val = 0;
+            while(digits--) {
+                val = val * 10 + maxDigit;
+            }
+            ans += val;
         }
         return ans;
     }

@@ -10,4 +10,4 @@ solutions:
   - linked-list
   time: O(N+M)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意
