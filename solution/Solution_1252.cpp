@@ -15,22 +15,18 @@
 class Solution {
 public:
     int oddCells(int m, int n, std::vector<std::vector<int>>& indices) {
-        std::vector<int> row(m, 0);
-        std::vector<int> col(n, 0);
-        
-        // 統計各行各列被增加的次數
-        for (const auto& index : indices) {
-            row[index[0]]++;
-            col[index[1]]++;
+        vector<int> rows(m ,0);
+        vector<int> cols(n ,0);
+        int ans = 0;
+        for(const vector<int>& v : indices) {
+            rows[v[0]]++;
+            cols[v[1]]++;
         }
-        
-        int count = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                // XOR 運算：當兩者奇偶性不同時，結果為 1 (奇數)
-                count += (row[i] & 1) ^ (col[j] & 1);
+        for(int i =0 ;i < m ;i++) {
+            for(int j =0 ;j < n ;j++) {
+                if((rows[i] + cols[j]) & 1) ans++;
             }
         }
-        return count;
+        return ans;
     }
 };

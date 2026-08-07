@@ -11,4 +11,4 @@ solutions:
   - 2d-array
   time: O(K+MN)
   space: O(M+N)
-  familiarity: 生疏
+  familiarity: 熟練
