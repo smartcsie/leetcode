@@ -926,6 +926,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    two-pointers-same
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -942,6 +960,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目錄
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔴 生疏（16）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟡 注意（2）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟢 熟悉（3）
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -3328,6 +3398,7 @@
 
 
 <h1 id="two-pointers-same">two-pointers-same<a class="headerlink" href="#two-pointers-same" title="Permanent link">&para;</a></h1>
+<h2 id="16">🔴 生疏（16）<a class="headerlink" href="#16" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -3374,15 +3445,6 @@
 <td>🟡 Medium</td>
 <td>Linked List</td>
 <td><a href="../../problems/0328/">C++</a></td>
-<td>O(N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>392</td>
-<td><a href="https://leetcode.com/problems/is-subsequence/">Is Subsequence</a></td>
-<td>🟢 Easy</td>
-<td>Two Pointers</td>
-<td><a href="../../problems/0392/">C++</a></td>
 <td>O(N)</td>
 <td>O(1)</td>
 </tr>
@@ -3450,15 +3512,6 @@
 <td>O(1)</td>
 </tr>
 <tr>
-<td>1768</td>
-<td><a href="https://leetcode.com/problems/merge-strings-alternately">Merge Strings Alternately</a></td>
-<td>🟢 Easy</td>
-<td>String, Two Pointers</td>
-<td><a href="../../problems/1768/">C++</a></td>
-<td>O(N+M)</td>
-<td>O(1)</td>
-</tr>
-<tr>
 <td>2109</td>
 <td><a href="https://leetcode.com/problems/adding-spaces-to-a-string">Adding Spaces to a String</a></td>
 <td>🟡 Medium</td>
@@ -3466,33 +3519,6 @@
 <td><a href="../../problems/2109/">C++</a></td>
 <td>O(N+M)</td>
 <td>O(N+M)</td>
-</tr>
-<tr>
-<td>2540</td>
-<td><a href="https://leetcode.com/problems/minimum-common-value">Minimum Common Value</a></td>
-<td>🟢 Easy</td>
-<td>Array, Two Pointers</td>
-<td><a href="../../problems/2540/">C++</a></td>
-<td>O(N+M)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2570</td>
-<td><a href="https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/">Merge Two 2D Arrays by Summing Values</a></td>
-<td>🟢 Easy</td>
-<td>Two Pointers Same</td>
-<td><a href="../../problems/2570/">C++</a></td>
-<td>O(N+M) - 由於兩個輸入陣列皆已排序，利用雙指標（Two Pointers）線性掃描一次即可完成，耗時與兩陣列長度總和成正比。</td>
-<td>O(1) - 僅使用常數個指標與變數（i, j, m, n），並透過 <code>ans.reserve(m + n)</code> 預先分配記憶體，避免動態擴容開銷。</td>
-</tr>
-<tr>
-<td>2864</td>
-<td><a href="https://leetcode.com/problems/maximum-odd-binary-number/">Maximum Odd Binary Number</a></td>
-<td>🟢 Easy</td>
-<td>Two Pointers Same</td>
-<td><a href="../../problems/2864/">C++</a></td>
-<td>O(N)</td>
-<td>O(1)</td>
 </tr>
 <tr>
 <td>3132</td>
@@ -3527,6 +3553,83 @@
 <td>🟢 Easy</td>
 <td>Array, Two Pointers</td>
 <td><a href="../../problems/3940/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2">🟡 注意（2）<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>392</td>
+<td><a href="https://leetcode.com/problems/is-subsequence/">Is Subsequence</a></td>
+<td>🟢 Easy</td>
+<td>Two Pointers</td>
+<td><a href="../../problems/0392/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>1768</td>
+<td><a href="https://leetcode.com/problems/merge-strings-alternately">Merge Strings Alternately</a></td>
+<td>🟢 Easy</td>
+<td>String, Two Pointers</td>
+<td><a href="../../problems/1768/">C++</a></td>
+<td>O(N+M)</td>
+<td>O(1)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3">🟢 熟悉（3）<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2540</td>
+<td><a href="https://leetcode.com/problems/minimum-common-value">Minimum Common Value</a></td>
+<td>🟢 Easy</td>
+<td>Array, Two Pointers</td>
+<td><a href="../../problems/2540/">C++</a></td>
+<td>O(N+M)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2570</td>
+<td><a href="https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/">Merge Two 2D Arrays by Summing Values</a></td>
+<td>🟢 Easy</td>
+<td>Two Pointers Same</td>
+<td><a href="../../problems/2570/">C++</a></td>
+<td>O(N+M) - 由於兩個輸入陣列皆已排序，利用雙指標（Two Pointers）線性掃描一次即可完成，耗時與兩陣列長度總和成正比。</td>
+<td>O(1) - 僅使用常數個指標與變數（i, j, m, n），並透過 <code>ans.reserve(m + n)</code> 預先分配記憶體，避免動態擴容開銷。</td>
+</tr>
+<tr>
+<td>2864</td>
+<td><a href="https://leetcode.com/problems/maximum-odd-binary-number/">Maximum Odd Binary Number</a></td>
+<td>🟢 Easy</td>
+<td>Two Pointers Same</td>
+<td><a href="../../problems/2864/">C++</a></td>
 <td>O(N)</td>
 <td>O(1)</td>
 </tr>
