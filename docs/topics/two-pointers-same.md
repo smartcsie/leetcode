@@ -28,9 +28,10 @@
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Two Pointers | [C++](../problems/0392.md) | O(N) | O(1) |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | 🟢 Easy | String, Two Pointers | [C++](../problems/1768.md) | O(N+M) | O(1) |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 Easy | Array, Two Pointers | [C++](../problems/2540.md) | O(N+M) | O(1) |
 | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 Easy | Two Pointers Same | [C++](../problems/2570.md) | O(N+M) - 由於兩個輸入陣列皆已排序，利用雙指標（Two Pointers）線性掃描一次即可完成，耗時與兩陣列長度總和成正比。 | O(1) - 僅使用常數個指標與變數（i, j, m, n），並透過 `ans.reserve(m + n)` 預先分配記憶體，避免動態擴容開銷。 |
+| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Two Pointers Same | [C++](../problems/2864.md) | O(N) | O(1) |

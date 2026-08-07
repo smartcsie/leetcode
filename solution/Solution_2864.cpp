@@ -13,15 +13,12 @@
 class Solution {
 public:
     string maximumOddBinaryNumber(string s) {
-        // 1. 使用標準函式庫統計，乾淨且高效
-        int ones = std::count(s.begin(), s.end(), '1');
-        // 2. 原地修改字串（保留你的空間效率優勢）
-        s.assign(s.size(), '0'); // 將全字串重置為 '0'
-        s[s.size() - 1] = '1';   // 末位設定為 '1'
-        // 3. 填入剩餘的 '1'
-        if (ones > 0) {
-            std::fill(s.begin(), s.begin() + ones - 1, '1');
-        }
+        int ones = count(s.begin(), s.end(), '1');
+        int zeros = s.size() - ones;
+        int idx = 0;
+        for(int i = 1; i <= ones -1; i++) s[idx++] = '1';
+        for(int i = 1; i <= zeros; i++) s[idx++] = '0';
+        s[s.size() - 1] = '1';
         return s;
     }
 };

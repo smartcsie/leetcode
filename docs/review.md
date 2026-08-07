@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：693 題　🟡 注意：53 題　🟢 熟練：113 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：692 題　🟡 注意：53 題　🟢 熟練：114 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -32,7 +32,7 @@
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 5 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 11 | 0 | 1 | 0 | 12 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 0 | 11 |
-| [greedy](topics/greedy.md) | 41 | 0 | 1 | 0 | 42 |
+| [greedy](topics/greedy.md) | 40 | 0 | 2 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 39 | 0 | 4 | 0 | 43 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 21 | 1 | 1 | 0 | 23 |
@@ -76,6 +76,6 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 18 | 0 | 0 | 0 | 18 |
 | [two-pointers-other](topics/two-pointers-other.md) | 3 | 1 | 0 | 0 | 4 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 17 | 1 | 2 | 0 | 20 |
+| [two-pointers-same](topics/two-pointers-same.md) | 17 | 1 | 3 | 0 | 21 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 3 | 7 | 0 | 10 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |

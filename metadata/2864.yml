@@ -11,4 +11,13 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+- file: Solution_2864_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers Same
+  topics:
+  - two-pointers-same
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練

@@ -1,6 +1,6 @@
 # greedy
 
-## 🔴 生疏（41）
+## 🔴 生疏（40）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -39,7 +39,6 @@
 | 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | Greedy | [C++](../problems/2656.md) | O(N) - 只需要遍歷一次 `nums` 陣列來尋找最大值，其中 n 為陣列長度。 | O(1) - 僅使用常數個變數來儲存最大值與計算結果，不需額外配置動態記憶體。 |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy, Math, Brainteaser | [C++](../problems/2745.md) | O(1) | O(1) |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy, Hashing | [C++](../problems/2815.md) | O(N*D) | O(1) |
-| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy, String | [C++](../problems/2864.md) | O(N) | O(1) |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array, Greedy, Bit Manipulation | [C++](../problems/3011.md) | O(N) | O(1) |
 | 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | Greedy, Sorting, Counting | [C++](../problems/3014.md) | O(N+26log26) | O(1) |
 | 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | Greedy, Sorting, Counting | [C++](../problems/3016.md) | O(N+26log26) | O(1) |
@@ -50,8 +49,9 @@
 
 目前沒有標記為注意的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy, String | [C++](../problems/2864.md) | O(N) | O(1) |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) | 🟢 Easy | Greedy, Math | [C++](../problems/3536.md) | O(logN) | O(1) |
