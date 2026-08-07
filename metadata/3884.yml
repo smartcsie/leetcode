@@ -10,6 +10,7 @@ solutions:
   - two-pointers-opposite
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/)
     <br>
 
@@ -18,4 +19,3 @@ solutions:
     > 字元相等，return left，if(s[left] == s[right]) return left;<br>
 
     <br><br>'
-  familiarity: 生疏

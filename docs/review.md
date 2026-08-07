@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：666 題　🟡 注意：60 題　🟢 熟練：133 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：665 題　🟡 注意：60 題　🟢 熟練：134 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -74,7 +74,7 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 36 | 0 | 3 | 0 | 39 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 18 | 0 | 0 | 0 | 18 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 17 | 0 | 1 | 0 | 18 |
 | [two-pointers-other](topics/two-pointers-other.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 17 | 1 | 3 | 0 | 21 |
@@ -83,7 +83,7 @@
 
 ---
 
-目前共有 675 個解法標記為生疏，建議找時間重新練習。
+目前共有 674 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -751,7 +751,6 @@
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | [C++](problems/3819.md) | two-pointers-same |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | [C++](problems/3838.md) | hash-table-mapping |
 | 3867 | [Sum of GCD of Formed Pairs](leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | [C++](problems/3867.md) | math-gcd |
-| 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | [C++](problems/3884.md) | two-pointers-opposite |
 | 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 Easy | [C++](problems/3894.md) | math-simulation |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | [C++](problems/3913.md) | sorting |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | [C++](problems/3918.md) | math-prime |
