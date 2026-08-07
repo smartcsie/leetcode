@@ -16,17 +16,18 @@
 class Solution {
 public:
     int findBottomLeftValue(TreeNode* root) {
+        if(!root) return 0;
         queue<TreeNode*> q({root});
-        int res = 0;
+        int ans;
         while(!q.empty()) {
-            res = q.front()->val;
-            for(int i = q.size(); i > 0; i--) {
+            ans = q.front()->val;
+            for(int i = q.size() - 1; i >= 0; i--) {
                 TreeNode* node = q.front();
                 q.pop();
                 if(node->left) q.push(node->left);
                 if(node->right) q.push(node->right);
             }
         }
-        return res;
+        return ans;
     }
 };
