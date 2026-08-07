@@ -19,7 +19,7 @@ public:
         for(const int& num : nums3) counts[num] |= 4;
         vector<int> res;
         for(int i =1; i <= 100; i++) {
-            if (std::popcount((unsigned int)counts[i]) >= 2) res.push_back(i);
+            if(std::popcount(static_cast<unsigned int>(count[i])) >= 2) ans.push_back(i);
         }
         return res;
     }
