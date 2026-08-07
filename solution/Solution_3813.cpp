@@ -11,30 +11,16 @@
  */
 
 class Solution {
-private:
-    bool isVowel(char c) {
-        // 使用 string_view 提升查找常數時間效率
-        static constexpr std::string_view vowels = "aeiouAEIOU";
-        return vowels.find(c) != std::string_view::npos;
-    }
-
 public:
     int vowelConsonantScore(std::string s) {
-        int vowelCount = 0;
-        int conCount = 0;
-        
-        for (char c : s) {
-            // 確保只處理英文字母
-            if (std::isalpha(c)) {
-                if (isVowel(c)) {
-                    vowelCount++;
-                } else {
-                    conCount++;
-                }
+        int vowels = 0;
+        int consonant = 0;
+        for(const char& c : s) {
+            if(isalpha(c)) {
+                if((0x104111 >> (c - 'a')) & 1) vowels++;
+                else consonant++;
             }
         }
-        
-        // 檢查分母以防止 Runtime Error (除以零)
-        return (conCount == 0) ? 0 : (vowelCount / conCount);
+        return consonant == 0 ? 0 : vowels / consonant;
     }
 };

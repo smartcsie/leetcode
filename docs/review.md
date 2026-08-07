@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：678 題　🟡 注意：55 題　🟢 熟練：126 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：677 題　🟡 注意：55 題　🟢 熟練：127 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -63,7 +63,7 @@
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 11 | 0 | 5 | 0 | 16 |
 | [string](topics/string.md) | 39 | 2 | 5 | 0 | 46 |
-| [string-character-classification](topics/string-character-classification.md) | 5 | 2 | 15 | 0 | 22 |
+| [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 5 | 0 | 0 | 0 | 5 |
