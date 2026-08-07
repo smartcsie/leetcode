@@ -18,6 +18,6 @@
 class Solution {
 public:
     int minBitFlips(int start, int goal) {
-        return __builtin_popcount(start ^ goal);
+        return popcount(static_cast<unsigned int>(start ^ goal));
     }
 };
