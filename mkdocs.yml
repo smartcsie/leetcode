@@ -71,12 +71,12 @@ nav:
       - hamming-distance: topics/hamming-distance.md
       - bit-manipulation-or: topics/bit-manipulation-or.md
   - 🍱 Array:
+      - array-negative-marking: topics/array-negative-marking.md
       - 2d-array: topics/2d-array.md
       - array: topics/array.md
       - interval: topics/interval.md
       - array-boyer-moore: topics/array-boyer-moore.md
       - prefix-sum: topics/prefix-sum.md
-      - array-negative-marking: topics/array-negative-marking.md
       - array-linear-scan: topics/array-linear-scan.md
       - array-continuous-counting: topics/array-continuous-counting.md
       - array-min-max: topics/array-min-max.md
@@ -108,7 +108,6 @@ nav:
       - monotonic-stack: topics/monotonic-stack.md
   - 🔢 Backtracking:
       - backtracking-combination: topics/backtracking-combination.md
-      - negative-marking: topics/negative-marking.md
       - backtracking-permutation: topics/backtracking-permutation.md
   - 🧩 Dynamic Programming:
       - dynamic-programming-kadane-algorithm: topics/dynamic-programming-kadane-algorithm.md
@@ -121,8 +120,14 @@ nav:
       - tree: topics/tree.md
       - binary-search-tree: topics/binary-search-tree.md
       - tree-bfs-level-order: topics/tree-bfs-level-order.md
-      - dfs-bfs: topics/dfs-bfs.md
       - trie: topics/trie.md
+      - dfs-bfs: topics/dfs-bfs.md
+  - 🕸️ Graph:
+      - graph-bfs: topics/graph-bfs.md
+      - graph-dfs: topics/graph-dfs.md
+      - topological-sort: topics/topological-sort.md
+      - union-find: topics/union-find.md
+      - graph-shortest-path: topics/graph-shortest-path.md
   - 🎨 Design:
       - design: topics/design.md
   - 📊 Sorting:
