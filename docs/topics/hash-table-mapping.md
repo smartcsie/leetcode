@@ -8,7 +8,7 @@
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 Easy | Hash Table, Math, String | [C++](../problems/0013.md) | O(N) | O(1) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | Array, Hash Table, Bitset | [C++](../problems/0036.md) | O(1) | O(1) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | Array, Hash Table | [C++](../problems/0128.md) | O(N) | O(N) |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Mapping, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | Hash Table, String | [C++](../problems/0242.md) | O(N) | O(1) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | Hash Table, String | [C++](../problems/0290.md) | O(N+M) | O(N+M) |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | Hash Table, String | [C++](../problems/0383.md) | O(M+N) | O(1) |

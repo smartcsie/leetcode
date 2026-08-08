@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0202.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Mapping
   - Hash Table
   - Fast-Slow Pointers
   topics:
-  - fast-slow-pointers
   - hash-table-mapping
   time: O(logN)
   space: O(1)

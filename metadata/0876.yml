@@ -5,12 +5,11 @@ solutions:
 - file: Solution_0876.cpp
   difficulty: 🟢 Easy
   tags:
-  - Linked List
+  - Fast Slow Pointers
   - Fast-Slow Pointers
   - Two Pointers
   topics:
   - fast-slow-pointers
-  - linked-list
   time: O(N)
   space: O(1)
   familiarity: 熟練

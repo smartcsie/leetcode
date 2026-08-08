@@ -5,11 +5,9 @@ solutions:
 - file: Solution_1909.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
   - Greedy
   - Two Candidates
   topics:
-  - array
   - greedy
   time: O(N)
   space: O(1)

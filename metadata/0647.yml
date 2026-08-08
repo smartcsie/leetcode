@@ -5,10 +5,9 @@ solutions:
 - file: Solution_0647.cpp
   difficulty: 🟡 Medium
   tags:
+  - Two Pointers Center Expansion
   - DP
-  - String
   topics:
-  - dynamic-programming
   - two-pointers-center-expansion
   time: O(N²)
   space: O(N²)

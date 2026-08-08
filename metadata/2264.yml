@@ -6,10 +6,8 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array Linear Scan
-  - String
   topics:
   - array-linear-scan
-  - string
   time: O(N)
   space: O(1)
   familiarity: 熟練

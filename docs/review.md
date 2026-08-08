@@ -10,11 +10,11 @@
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 1 | 7 | 8 | 0 | 16 |
-| [array](topics/array.md) | 14 | 5 | 12 | 0 | 31 |
+| [array](topics/array.md) | 12 | 5 | 12 | 0 | 29 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 2 | 5 | 0 | 8 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
-| [array-linear-scan](topics/array-linear-scan.md) | 4 | 4 | 11 | 0 | 19 |
+| [array-linear-scan](topics/array-linear-scan.md) | 5 | 4 | 11 | 0 | 20 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 3 | 0 | 3 |
 | [array-negative-marking](topics/array-negative-marking.md) | 4 | 1 | 0 | 0 | 5 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
@@ -30,9 +30,9 @@
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 2 | 0 | 18 |
 | [design](topics/design.md) | 5 | 1 | 0 | 0 | 6 |
 | [dfs-bfs](topics/dfs-bfs.md) | 2 | 0 | 0 | 0 | 2 |
-| [dynamic-programming](topics/dynamic-programming.md) | 32 | 0 | 0 | 0 | 32 |
+| [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 31 |
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 11 | 0 | 1 | 0 | 12 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 10 | 0 | 1 | 0 | 11 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 0 | 11 |
 | [greedy](topics/greedy.md) | 36 | 3 | 3 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
@@ -40,10 +40,10 @@
 | [hash-table-mapping](topics/hash-table-mapping.md) | 21 | 1 | 1 | 0 | 23 |
 | [hash-table-set](topics/hash-table-set.md) | 15 | 1 | 5 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
-| [knapsack-problem](topics/knapsack-problem.md) | 10 | 0 | 0 | 0 | 10 |
-| [linked-list](topics/linked-list.md) | 13 | 2 | 1 | 0 | 16 |
+| [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
+| [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 0 | 2 |
-| [math](topics/math.md) | 41 | 4 | 2 | 0 | 47 |
+| [math](topics/math.md) | 40 | 4 | 2 | 0 | 46 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 22 | 7 | 12 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
@@ -62,8 +62,8 @@
 | [sorting](topics/sorting.md) | 26 | 0 | 1 | 0 | 27 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 10 | 0 | 6 | 0 | 16 |
-| [string](topics/string.md) | 39 | 2 | 5 | 0 | 46 |
+| [stack](topics/stack.md) | 9 | 0 | 6 | 0 | 15 |
+| [string](topics/string.md) | 38 | 2 | 4 | 0 | 44 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
@@ -138,7 +138,7 @@
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | [C++](problems/0064.md) | dynamic-programming |
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 Hard | [C++](problems/0065.md) | string-state-machine |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | [C++](problems/0069.md) | binary-search |
-| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | [C++](problems/0070.md) | dynamic-programming, knapsack-problem |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | [C++](problems/0070.md) | dynamic-programming |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [C++](problems/0072.md) | dynamic-programming |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 Medium | [C++](problems/0074.md) | binary-search |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 Medium | [C++](problems/0075.md) | two-pointers-partition |
@@ -210,7 +210,7 @@
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟢 Medium | [C++](problems/0198.md) | dynamic-programming |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | [C++](problems/0199.md) | tree-bfs-level-order |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | [C++](problems/0200.md) | dfs-bfs |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | [C++](problems/0202.md) | fast-slow-pointers, hash-table-mapping |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | [C++](problems/0202.md) | hash-table-mapping |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | [C++](problems/0204.md) | math-prime |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | [C++](problems/0206.md) | linked-list |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 Medium | [C++](problems/0209.md) | variable-size-sliding-window |
@@ -319,7 +319,7 @@
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | [C++](problems/0637.md) | tree-bfs-level-order |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | [C++](problems/0643.md) | fixed-size-sliding-window |
 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | [C++](problems/0645.md) | array-negative-marking |
-| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | [C++](problems/0647.md) | dynamic-programming, two-pointers-center-expansion |
+| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | [C++](problems/0647.md) | two-pointers-center-expansion |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | [C++](problems/0648.md) | string |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | [C++](problems/0648.md) | trie |
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | 🟡 Medium | [C++](problems/0652.md) | tree |
@@ -536,7 +536,7 @@
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | [C++](problems/1881.md) | greedy |
 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 Easy | [C++](problems/1893.md) | bit-manipulation |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | [C++](problems/1897.md) | hash-table-counting |
-| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | [C++](problems/1909.md) | array, greedy |
+| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | [C++](problems/1909.md) | greedy |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 Medium | [C++](problems/1910.md) | string |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | [C++](problems/1920.md) | bit-manipulation |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | [C++](problems/1925.md) | math |
@@ -570,9 +570,9 @@
 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | [C++](problems/2108.md) | two-pointers-opposite |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | [C++](problems/2109.md) | two-pointers-same |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | [C++](problems/2114.md) | string |
-| 2116 | [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | 🟡 Medium | [C++](problems/2116.md) | greedy, string |
+| 2116 | [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | 🟡 Medium | [C++](problems/2116.md) | greedy |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | [C++](problems/2119.md) | math |
-| 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | [C++](problems/2130.md) | fast-slow-pointers, stack |
+| 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | [C++](problems/2130.md) | fast-slow-pointers |
 | 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 Easy | [C++](problems/2138.md) | string |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | [C++](problems/2148.md) | array |
 | 2149 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign) | 🟡 Medium | [C++](problems/2149.md) | two-pointers-partition |
@@ -694,7 +694,7 @@
 | 3131 | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 Easy | [C++](problems/3131.md) | math |
 | 3132 | [Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) | 🟡 Medium | [C++](problems/3132.md) | two-pointers-same |
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | [C++](problems/3133.md) | bit-manipulation-and |
-| 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | [C++](problems/3162.md) | array, math |
+| 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | [C++](problems/3162.md) | array-linear-scan |
 | 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 Easy | [C++](problems/3210.md) | string |
 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | [C++](problems/3216.md) | greedy |
 | 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | [C++](problems/3227.md) | math-game-theory |

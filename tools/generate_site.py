@@ -54,7 +54,6 @@ GROUPS = [
     (r'^knapsack-problem', '🧩 Dynamic Programming'),
     (r'^greedy$', '🧩 Greedy'),
     (r'^backtracking', '🔢 Backtracking'),
-    (r'^negative-marking$', '🔢 Backtracking'),
     (r'sliding-window$', '🔢 Sliding Window'),
     (r'^sql$', '🔢 SQL'),
 ]

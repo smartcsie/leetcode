@@ -5,12 +5,10 @@ solutions:
 - file: Solution_2130.cpp
   difficulty: 🟡 Medium
   tags:
-  - Linked List
+  - Fast Slow Pointers
   - Two Pointers
-  - Stack
   topics:
   - fast-slow-pointers
-  - stack
   time: O(N)
   space: O(1)
   familiarity: 生疏

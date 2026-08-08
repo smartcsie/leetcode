@@ -5,7 +5,7 @@ solutions:
 - file: Solution_0141.cpp
   difficulty: 🟢 Easy
   tags:
-  - Linked List
+  - Fast Slow Pointers
   - Fast-Slow Pointers
   topics:
   - fast-slow-pointers

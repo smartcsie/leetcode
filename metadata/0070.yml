@@ -5,13 +5,11 @@ solutions:
 - file: Solution_0070.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
   - Dynamic Programming
   - DP
   - Unbounded Knapsack (Permutation)
   topics:
   - dynamic-programming
-  - knapsack-problem
   time: O(N)
   space: O(1)
   familiarity: 生疏
