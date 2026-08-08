@@ -18,17 +18,12 @@ using namespace std;
 class Solution {
 public:
     int findLucky(vector<int>& arr) {
-        // 題目限制數值範圍為 [1, 500]，使用大小為 501 的陣列即可
-        int count[501] = {0};
-        // 統計頻率
-        for (const int num : arr) {
-                count[num]++;
+        vector<int> counts(501, 0);
+        for(const int& x : arr) {
+            counts[x]++;
         }
-        // 從最大可能值開始向 1 遍歷，找到第一個符合條件的即為最大幸運數
-        for (int i = 500; i >= 1; --i) {
-            if (count[i] == i) {
-                return i;
-            }
+        for(int i = 500; i >= 1; i--) {
+            if(counts[i] == i) return i;
         }
         return -1;
     }
