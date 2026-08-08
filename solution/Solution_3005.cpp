@@ -16,20 +16,12 @@
 class Solution {
 public:
     int maxFrequencyElements(vector<int>& nums) {
-        int n =nums.size();
-        vector<int> counts(101,0);
-        int max = 0;
-        int res = 0;
-        for(int num : nums) {
-            counts[num]++;
-            if(counts[num] > max) {
-                max = counts[num];
-                res = max;
-            }
-            else if(counts[num] == max) {
-                res += max;
-            }
+        vector<int> counts(101, 0);
+        int mx = 0;
+        for(const int& x : nums) {
+            counts[x]++;
+            mx = max(mx, counts[x]);
         }
-        return res;
+        return mx * count(counts.begin(), counts.end(), mx);
     }
 };
