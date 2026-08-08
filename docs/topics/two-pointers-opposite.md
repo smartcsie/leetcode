@@ -1,6 +1,6 @@
 # two-pointers-opposite
 
-## 🔴 生疏（17）
+## 🔴 生疏（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -12,7 +12,6 @@
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | Array, Two Pointers | [C++](../problems/0167.md) | O(N) | O(1) |
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/0611.md) | O(N²) | O(1) |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | Two Pointers | [C++](../problems/0680.md) | O(N) | O(1) |
-| 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 Easy | Two Pointers, String | [C++](../problems/0917.md) | O(N) | O(1) |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0941.md) | O(N) | O(1) |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | Greedy, Two Pointers | [C++](../problems/0942.md) | O(N) | O(N) |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 Medium | String, Two Pointers | [C++](../problems/1750.md) | O(N) | O(1) |

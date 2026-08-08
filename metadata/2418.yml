@@ -5,11 +5,14 @@ solutions:
 - file: Solution_2418.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Sorting
   - Sorting
   - Hash Table
   topics:
-  - hash-table-mapping
+  - sorting
   time: O(NlogN)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> unordered_map的key可以直接做sort <br>
+
+    > greater<int>()<br>'

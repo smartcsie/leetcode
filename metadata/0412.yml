@@ -11,6 +11,7 @@ solutions:
   - math
   time: O(N)
   space: O(1)*
+  familiarity: 熟練
   note: '> [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)<br>
 
     > 起一個for loop i 從 1 ~ n<br>
@@ -22,4 +23,3 @@ solutions:
     > **else if(i % 3 == 0 && i % 5 == 0) res.push_back("FizzBuzz");** <br>
 
     > **else res.push_back(to_string(i));** <br>'
-  familiarity: 生疏

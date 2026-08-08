@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：658 題　🟡 注意：64 題　🟢 熟練：141 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：652 題　🟡 注意：66 題　🟢 熟練：145 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -14,7 +14,7 @@
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 2 | 5 | 0 | 8 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
-| [array-linear-scan](topics/array-linear-scan.md) | 4 | 5 | 11 | 0 | 20 |
+| [array-linear-scan](topics/array-linear-scan.md) | 3 | 5 | 12 | 0 | 20 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 3 | 0 | 3 |
 | [array-negative-marking](topics/array-negative-marking.md) | 4 | 1 | 0 | 0 | 5 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
@@ -39,13 +39,13 @@
 | [greedy](topics/greedy.md) | 36 | 3 | 3 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 38 | 0 | 5 | 0 | 43 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 20 | 2 | 1 | 0 | 23 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 18 | 2 | 2 | 0 | 22 |
 | [hash-table-set](topics/hash-table-set.md) | 14 | 1 | 6 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 40 | 4 | 2 | 0 | 46 |
+| [math](topics/math.md) | 38 | 5 | 3 | 0 | 46 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 22 | 7 | 12 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
@@ -61,7 +61,7 @@
 | [prefix-sum](topics/prefix-sum.md) | 19 | 0 | 0 | 0 | 19 |
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 0 | 0 | 6 |
 | [quick-select](topics/quick-select.md) | 6 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 26 | 0 | 1 | 0 | 27 |
+| [sorting](topics/sorting.md) | 26 | 1 | 1 | 0 | 28 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 9 | 0 | 6 | 0 | 15 |
@@ -77,17 +77,17 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 37 | 0 | 3 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 17 | 0 | 1 | 0 | 18 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 16 | 0 | 1 | 0 | 17 |
 | [two-pointers-other](topics/two-pointers-other.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 17 | 1 | 3 | 0 | 21 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 3 | 7 | 0 | 10 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 3 | 8 | 0 | 11 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |
 
 ---
 
-目前共有 667 個解法標記為生疏，建議找時間重新練習。
+目前共有 661 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -237,7 +237,6 @@
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | [C++](problems/0242.md) | hash-table-mapping |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-path) | 🟢 Easy | [C++](problems/0257.md) | tree-dfs-path |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | [C++](problems/0258.md) | math |
-| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | [C++](problems/0263.md) | math |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | [C++](problems/0264.md) | dynamic-programming |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | [C++](problems/0278.md) | binary-search |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | [C++](problems/0279.md) | knapsack-problem |
@@ -275,7 +274,6 @@
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | [C++](problems/0404.md) | tree-dfs-path |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | [C++](problems/0405.md) | math-digit-decomposition |
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | 🟢 Easy | [C++](problems/0409.md) | greedy |
-| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | [C++](problems/0412.md) | math |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | [C++](problems/0416.md) | knapsack-problem |
 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | [C++](problems/0421.md) | bit-manipulation-xor |
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | 🟡 Medium | [C++](problems/0424.md) | variable-size-sliding-window |
@@ -383,7 +381,6 @@
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | [C++](problems/0912.md) | sorting |
 | 914 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | 🟢 Easy | [C++](problems/0914.md) | math-gcd |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 Medium | [C++](problems/0916.md) | hash-table-counting |
-| 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 Easy | [C++](problems/0917.md) | two-pointers-opposite |
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | [C++](problems/0918.md) | dynamic-programming-kadane-algorithm |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | [C++](problems/0921.md) | greedy |
 | 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | [C++](problems/0926.md) | dynamic-programming |
@@ -472,7 +469,6 @@
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | [C++](problems/1404.md) | math-digit-decomposition |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | [C++](problems/1408.md) | sorting |
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | [C++](problems/1417.md) | two-pointers-same |
-| 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | [C++](problems/1436.md) | hash-table-mapping |
 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 Medium | [C++](problems/1442.md) | bit-manipulation-xor |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | [C++](problems/1448.md) | tree-dfs-path |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | 🟡 Medium | [C++](problems/1456.md) | fixed-size-sliding-window |
@@ -505,7 +501,6 @@
 | 1593 | [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | 🟡 Medium | [C++](problems/1593.md) | backtracking-combination |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | [C++](problems/1608.md) | array-linear-scan |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | [C++](problems/1609.md) | tree-bfs-level-order |
-| 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 Easy | [C++](problems/1614.md) | array-linear-scan |
 | 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 Easy | [C++](problems/1624.md) | hash-table-set |
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | [C++](problems/1636.md) | quick-select |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | [C++](problems/1640.md) | hash-table-mapping |
@@ -624,7 +619,6 @@
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | [C++](problems/2411.md) | bit-manipulation |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | [C++](problems/2413.md) | math |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | [C++](problems/2415.md) | tree-dfs-path |
-| 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | [C++](problems/2418.md) | hash-table-mapping |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | [C++](problems/2419.md) | bit-manipulation-and |
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | [C++](problems/2425.md) | bit-manipulation-xor |
 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 Easy | [C++](problems/2427.md) | math-gcd |

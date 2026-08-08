@@ -15,22 +15,14 @@
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {
-        vector<string> res;
-        res.reserve(n); // 預留空間，避免 vector 動態擴容開銷
-
-        for (int i = 1; i <= n; i++) {
-            string temp = "";
-            
-            // 邏輯模組化，方便未來新增規則
-            if (i % 3 == 0) temp += "Fizz";
-            if (i % 5 == 0) temp += "Buzz";
-            
-            if (temp.empty()) {
-                res.push_back(to_string(i));
-            } else {
-                res.push_back(temp);
-            }
+        vector<string> ans;
+        ans.reserve(n);
+        for(int i = 1; i <= n;i++) {
+            if(i % 3 == 0 && i % 5 == 0) ans.push_back("FizzBuzz");
+            else if(i % 3 == 0) ans.push_back("Fizz");
+            else if(i % 5 == 0) ans.push_back("Buzz");
+            else ans.push_back(to_string(i));
         }
-        return res;
+        return ans;
     }
 };

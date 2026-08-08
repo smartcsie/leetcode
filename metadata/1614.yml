@@ -5,11 +5,9 @@ solutions:
 - file: Solution_1614.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
-  - Stack
-  - Simulation
+  - Array Linear Scan
   topics:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練

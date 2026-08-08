@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0917.cpp
   difficulty: 🟢 Easy
   tags:
+  - Two Pointers Swap
   - Two Pointers
-  - String
   topics:
-  - two-pointers-opposite
+  - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
