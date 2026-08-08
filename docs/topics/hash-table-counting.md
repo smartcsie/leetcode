@@ -1,6 +1,6 @@
 # hash-table-counting
 
-## 🔴 生疏（39）
+## 🔴 生疏（38）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -35,7 +35,6 @@
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | Hash Table | [C++](../problems/2395.md) | O(N) | O(N) |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table, Counting | [C++](../problems/2404.md) | O(N) | O(N) |
 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | Hash Map, Difference Array | [C++](../problems/2451.md) | O(N*M) | O(N*M) |
-| 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 Easy | Hashing | [C++](../problems/2965.md) | O(N²) | O(N²) |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table, Counting | [C++](../problems/3005.md) | O(N) | O(1) |
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 Easy | Hash Table, Bit Manipulation | [C++](../problems/3289.md) | O(N) | O(1) |
 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 Easy | String, Hash Map | [C++](../problems/3438.md) | O(N) | O(1) |
@@ -48,11 +47,12 @@
 
 目前沒有標記為注意的解法。
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2094 | [Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/) | 🟢 Easy | Math, Hash Table | [C++](../problems/2094.md) | O(N) | O(1) |
 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table, Counting | [C++](../problems/2150.md) | O(N) | O(N) |
+| 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 Easy | Hashing | [C++](../problems/2965.md) | O(N²) | O(N²) |
 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 Easy | Hash Table | [C++](../problems/3843.md) | O(N) | O(N) |
 | 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 Easy | Array, Hash Table | [C++](../problems/3866.md) | O(N) | O(1) |

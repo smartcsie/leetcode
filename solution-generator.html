@@ -628,13 +628,13 @@ function addSolutionBlock(prefill) {
     </div>
     <div class="field-row">
       <div class="field">
-        <label>標籤 <span class="hint">(可複選；按住 Ctrl/Cmd 點選多個)</span></label>
-        <select class="sol-tags-select multi-select" multiple size="6"></select>
+        <label>標籤 <span class="hint">(單選；跟「分類主題」自動雙向同步，也可以在下面補自訂標籤)</span></label>
+        <select class="sol-tags-select multi-select" size="6"></select>
         <input type="text" class="sol-tags-custom" placeholder="其他自訂標籤（逗號分隔，選填）" style="margin-top:6px;">
       </div>
       <div class="field">
-        <label>分類主題 <span style="color: var(--red);">*必填</span> <span class="hint">(可複選；對應 docs/topics/*.md)</span></label>
-        <select class="sol-topics-select multi-select" multiple size="6"></select>
+        <label>分類主題 <span style="color: var(--red);">*必填</span> <span class="hint">(單選；對應 docs/topics/*.md；跟「標籤」自動雙向同步)</span></label>
+        <select class="sol-topics-select multi-select" size="6"></select>
       </div>
     </div>
     <div class="field-row">
@@ -685,7 +685,32 @@ function addSolutionBlock(prefill) {
     o.textContent = `${opt.label}  (${opt.slug})`;
     topicSelect.appendChild(o);
   });
+  syncTagFromTopic(topicSelect, tagSelect);
+  topicSelect.addEventListener('change', () => syncTagFromTopic(topicSelect, tagSelect));
+  tagSelect.addEventListener('change', () => syncTopicFromTag(tagSelect, topicSelect));
   onNumberChange();
+}
+
+// 「標籤」和「分類主題」現在都是單選、雙向同步：改任何一邊，另一邊會自動
+// 跟著換成對應的選項。因為是用 .selected 屬性直接設定（不是模擬使用者操作），
+// 不會觸發對方的 change 事件，所以不會互相觸發、不會無窮迴圈。
+function syncTagFromTopic(topicSelect, tagSelect) {
+  const selected = topicSelect.selectedOptions[0];
+  Array.from(tagSelect.options).forEach(o => { o.selected = false; });
+  if (!selected) return;
+  const label = labelize(selected.value);
+  const match = Array.from(tagSelect.options).find(o => o.value === label);
+  if (match) match.selected = true;
+}
+
+function syncTopicFromTag(tagSelect, topicSelect) {
+  const selected = tagSelect.selectedOptions[0];
+  Array.from(topicSelect.options).forEach(o => { o.selected = false; });
+  if (!selected) return;
+  const slug = TOPIC_SLUG_BY_LABEL[selected.value.toLowerCase()];
+  if (!slug) return;
+  const match = Array.from(topicSelect.options).find(o => o.value === slug);
+  if (match) match.selected = true;
 }
 
 async function loadExistingProblem() {
@@ -743,19 +768,31 @@ async function loadExistingProblem() {
       if (sol.familiarity) familiarityEl.value = sol.familiarity;
 
       const tagSelect = block.querySelector('.sol-tags-select');
-      const unmatchedTags = [];
+      const extraTags = [];
+      let tagPicked = false;
       (sol.tags || []).forEach(tag => {
         const opt = Array.from(tagSelect.options).find(o => o.value.toLowerCase() === tag.toLowerCase());
-        if (opt) opt.selected = true;
-        else unmatchedTags.push(tag);
+        if (opt && !tagPicked) {
+          opt.selected = true;
+          tagPicked = true;
+        } else {
+          // 標籤欄位現在單選：第一個相符的標準標籤會被選起來，
+          // 舊資料裡若還有其他標籤（不管是否在清單內），都放進「其他自訂標籤」，
+          // 避免舊資料在重新存檔時被默默弄丟。
+          extraTags.push(tag);
+        }
       });
-      if (unmatchedTags.length) block.querySelector('.sol-tags-custom').value = unmatchedTags.join(', ');
+      if (extraTags.length) block.querySelector('.sol-tags-custom').value = extraTags.join(', ');
 
       const topicSelect = block.querySelector('.sol-topics-select');
-      (sol.topics || []).forEach(slug => {
+      const problemTopics = sol.topics || [];
+      problemTopics.forEach(slug => {
         const opt = Array.from(topicSelect.options).find(o => o.value === slug);
         if (opt) opt.selected = true;
       });
+      if (problemTopics.length > 1) {
+        console.warn(`題目 ${number} 有一筆解法舊資料掛了超過一個 topic（${problemTopics.join(', ')}），已自動只保留最後一個，請確認是否正確。`);
+      }
     });
 
     if (!(data.solutions && data.solutions.length)) addSolutionBlock();
@@ -1067,28 +1104,31 @@ function parseAndFill() {
   if (code) block.querySelector('.sol-code').value = code;
 
   const select = block.querySelector('.sol-tags-select');
-  const unmatched = [];
-  const suggestedTopics = [];
+  const topicSelect = block.querySelector('.sol-topics-select');
+  const extraTags = [];
+  let tagPicked = false;
   tagsRaw.forEach(tag => {
     const opt = Array.from(select.options).find(o => o.value.toLowerCase() === tag.toLowerCase());
-    if (opt) {
+    if (opt && !tagPicked) {
       opt.selected = true;
-      const slug = TOPIC_SLUG_BY_LABEL[tag.toLowerCase()];
-      if (slug && !suggestedTopics.includes(slug)) suggestedTopics.push(slug);
+      tagPicked = true;
     } else {
-      unmatched.push(tag);
+      // 標籤欄位現在單選：只選第一個相符的標準標籤，
+      // 其餘偵測到的標籤（不管相不相符）都放進「其他自訂標籤」，避免弄丟。
+      extraTags.push(tag);
     }
   });
-  if (unmatched.length) block.querySelector('.sol-tags-custom').value = unmatched.join(', ');
+  if (extraTags.length) block.querySelector('.sol-tags-custom').value = extraTags.join(', ');
 
   let topicNote;
-  if (suggestedTopics.length) {
-    const topicSelect = block.querySelector('.sol-topics-select');
-    suggestedTopics.forEach(slug => {
-      const opt = Array.from(topicSelect.options).find(o => o.value === slug);
-      if (opt) opt.selected = true;
-    });
-    topicNote = `👉 已自動猜測分類主題：${suggestedTopics.join(', ')}（請確認是否正確，不對可自行調整下拉選單）`;
+  if (tagPicked) {
+    syncTopicFromTag(select, topicSelect);   // 分類主題直接從選到的標籤同步過去，保證兩邊一致
+    const pickedSlug = topicSelect.selectedOptions[0] ? topicSelect.selectedOptions[0].value : null;
+    if (pickedSlug) {
+      topicNote = `👉 已自動猜測分類主題：${pickedSlug}（分類主題現在是單選，請確認是否正確，不對可自行從下拉選單改選）`;
+    } else {
+      topicNote = '👉 標籤有偵測到，但找不到對應的分類主題，請手動選擇。';
+    }
   } else {
     topicNote = '👉 無法自動猜測分類主題，請從下拉選單手動選擇。';
   }

@@ -15,18 +15,17 @@ public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
         int n = grid.size();
         vector<int> counts(n * n + 1, 0);
-        for(const auto& row : grid) {
-            for(const int num: row) {
-                counts[num]++;
+        for(const vector<int>& row : grid) {
+            for(const int& x : row) {
+                counts[x]++;
             }
         }
-        int repeat = -1;  
-        int missing = -1;  
-        for(int i =1; i<= n * n; i++) {
-            if(counts[i] == 0) missing = i;
-            else if(counts[i] == 2) repeat = i;
-            if(repeat != -1 && missing != -1) break;
+        vector<int> ans(2 , -1);
+        for(int i = 1; i <= n * n; i++) {
+            if(!counts[i]) ans[1] = i;
+            else if(counts[i] & 2) ans[0] = i;
+            if(ans[0] != -1 && ans[1] != -1) return ans;
         }
-        return {repeat, missing};
+        return {};
     }
 };
