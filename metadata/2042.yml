@@ -11,6 +11,7 @@ solutions:
   - string
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence)<br>
 
     > 用一個 istringstream iss(s)<br>
@@ -29,4 +30,3 @@ solutions:
     > &emsp;&emsp;&emsp;&emsp;**}** <br>
 
     > **}** <br>'
-  familiarity: 生疏

@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：650 題　🟡 注意：68 題　🟢 熟練：145 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：646 題　🟡 注意：69 題　🟢 熟練：148 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -45,7 +45,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 36 | 7 | 3 | 0 | 46 |
+| [math](topics/math.md) | 34 | 8 | 4 | 0 | 46 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 22 | 7 | 12 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
@@ -65,7 +65,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 9 | 0 | 6 | 0 | 15 |
-| [string](topics/string.md) | 33 | 3 | 8 | 0 | 44 |
+| [string](topics/string.md) | 31 | 3 | 10 | 0 | 44 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 659 個解法標記為生疏，建議找時間重新練習。
+目前共有 655 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -236,7 +236,6 @@
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | [C++](problems/0239.md) | monotonic-queue |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | [C++](problems/0242.md) | hash-table-mapping |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-path) | 🟢 Easy | [C++](problems/0257.md) | tree-dfs-path |
-| 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | [C++](problems/0258.md) | math |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | [C++](problems/0264.md) | dynamic-programming |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | [C++](problems/0278.md) | binary-search |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | [C++](problems/0279.md) | knapsack-problem |
@@ -550,7 +549,6 @@
 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | [C++](problems/1963.md) | stack |
 | 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 Easy | [C++](problems/1967.md) | string |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | [C++](problems/1979.md) | math-gcd |
-| 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | [C++](problems/1980.md) | math |
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | [C++](problems/1984.md) | fixed-size-sliding-window |
 | 1985 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | [C++](problems/1985.md) | quick-select |
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 Easy | [C++](problems/2000.md) | two-pointers-opposite |
@@ -558,7 +556,6 @@
 | 2006 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 Easy | [C++](problems/2006.md) | hash-table-counting |
 | 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 Medium | [C++](problems/2023.md) | hash-table-counting |
 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | [C++](problems/2027.md) | greedy |
-| 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | [C++](problems/2042.md) | string |
 | 2044 | [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | 🟡 Medium | [C++](problems/2044.md) | bit-bitmask-subset-enumeration |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 Easy | [C++](problems/2053.md) | hash-table-counting |
 | 2062 | [Count Vowel Substrings](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) | 🟢 Easy | [C++](problems/2062.md) | variable-size-sliding-window |
@@ -568,7 +565,6 @@
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | [C++](problems/2095.md) | fast-slow-pointers |
 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | [C++](problems/2108.md) | two-pointers-opposite |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | [C++](problems/2109.md) | two-pointers-same |
-| 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | [C++](problems/2114.md) | string |
 | 2116 | [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | 🟡 Medium | [C++](problems/2116.md) | greedy |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | [C++](problems/2119.md) | math |
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | [C++](problems/2130.md) | fast-slow-pointers |
