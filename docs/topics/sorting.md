@@ -1,6 +1,6 @@
 # sorting
 
-## 🔴 生疏（26）
+## 🔴 生疏（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -19,7 +19,6 @@
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | String, Sorting | [C++](../problems/1408.md) | O(N²*K) | O(N) |
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | Greedy, Sorting | [C++](../problems/1481.md) | O(NlogN) | O(N) |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String, Sorting, Bucket Sort | [C++](../problems/1859.md) | O(N) | O(N) |
-| 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting | [C++](../problems/2164.md) | O(NlogN) | O(N) |
 | 2191 | [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | 🟡 Medium | Array Linear Scan, Digit Manipulation, Pair | [C++](../problems/2191.md) | O(NlogN) | O(N) |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](../problems/2491.md) | O(NlogN) | O(1)或O(N)* |
 | 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟢 Medium | Array, Sorting | [C++](../problems/2545.md) | O(NlogN) | O(1) |
@@ -37,8 +36,9 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting, Sorting, Hash Table | [C++](../problems/2418.md) | O(NlogN) | O(N) |
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | Array, Greedy, Sorting | [C++](../problems/0561.md) | O(NlogN) | O(1) |
+| 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting | [C++](../problems/2164.md) | O(NlogN) | O(N) |

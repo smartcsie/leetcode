@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：633 題　🟡 注意：72 題　🟢 熟練：158 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：632 題　🟡 注意：72 題　🟢 熟練：159 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -61,7 +61,7 @@
 | [prefix-sum](topics/prefix-sum.md) | 19 | 0 | 0 | 0 | 19 |
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 0 | 0 | 6 |
 | [quick-select](topics/quick-select.md) | 6 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 26 | 1 | 1 | 0 | 28 |
+| [sorting](topics/sorting.md) | 25 | 1 | 2 | 0 | 28 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 9 | 0 | 6 | 0 | 15 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 642 個解法標記為生疏，建議找時間重新練習。
+目前共有 641 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -564,7 +564,6 @@
 | 2149 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign) | 🟡 Medium | [C++](problems/2149.md) | two-pointers-partition |
 | 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 Easy | [C++](problems/2154.md) | hash-table-mapping |
 | 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | [C++](problems/2160.md) | math-digit-decomposition |
-| 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | [C++](problems/2164.md) | sorting |
 | 2169 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | 🟢 Easy | [C++](problems/2169.md) | math-factor-enumeration |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | [C++](problems/2177.md) | math |
 | 2178 | [Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/) | 🟡 Medium | [C++](problems/2178.md) | greedy |
