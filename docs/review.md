@@ -42,7 +42,7 @@
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
-| [linked-list-circular](topics/linked-list-circular.md) | 2 | 0 | 0 | 0 | 2 |
+| [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 40 | 4 | 2 | 0 | 46 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 22 | 7 | 12 | 0 | 41 |
@@ -185,7 +185,7 @@
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | [C++](problems/0137.md) | bit-manipulation |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | [C++](problems/0137.md) | math |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [C++](problems/0139.md) | knapsack-problem |
-| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | [C++](problems/0141.md) | fast-slow-pointers, linked-list-circular |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | [C++](problems/0141.md) | fast-slow-pointers |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 Medium | [C++](problems/0142.md) | fast-slow-pointers |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | [C++](problems/0143.md) | linked-list |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | [C++](problems/0144.md) | tree-dfs-path |

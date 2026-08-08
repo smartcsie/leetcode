@@ -9,7 +9,6 @@ solutions:
   - Fast-Slow Pointers
   topics:
   - fast-slow-pointers
-  - linked-list-circular
   time: O(N)
   space: O(1)
   familiarity: 生疏
