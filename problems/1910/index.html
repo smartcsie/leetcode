@@ -3535,7 +3535,7 @@
 
 <h1 id="1910-remove-all-occurrences-of-a-substring">1910. Remove All Occurrences of a Substring<a class="headerlink" href="#1910-remove-all-occurrences-of-a-substring" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/remove-all-occurrences-of-a-substring/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Stack, String　<strong>時間:</strong> O(N<em>M)　</em><em>空間:</em><em> O(N)　</em><em>熟悉度:</em>* 🔴 生疏</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Stack, String　<strong>時間:</strong> O(N<em>M)　</em><em>空間:</em><em> O(N)　</em><em>熟悉度:</em>* 🟡 注意</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1910. Remove All Occurrences of a Substring</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -3572,11 +3572,7 @@
 <a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/remove-all-occurrences-of-a-substring/">Remove All Occurrences of a Substring</a><br>
-先算part的size，int k = part.size();<br>
-把souce string s 每個ch 慢慢加到 res<br>
-每次加到res，如果res長度大於等於k，則比對尾巴字串，if (res.size() &gt;= k &amp;&amp; res.compare(res.size() - k, k, part) == 0) <br>
-res.resize，比string erase效率高<br></p>
+<p>res.compare(res.size() - k, k, part)</p>
 </blockquote>
 
 
