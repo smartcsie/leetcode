@@ -14,23 +14,21 @@
 class Solution {
 public:
     bool wordPattern(string pattern, string s) {
-        unordered_map<char, string> charToWord;
-        unordered_map<string, char> wordToChar;
-        int charIdx = 0;
-        stringstream ss(s);
-        string word;
-
-        while(ss >> word) {
-            char ch = pattern[charIdx];
-
-            if(charToWord.contains(ch) && charToWord[ch] != word) return false;
-            if(wordToChar.contains(word) && wordToChar[word] != ch) return false;
-
-            charToWord[ch] = word;
-            wordToChar[word] = ch;
-
-            charIdx++;
+        istringstream iss(s);
+        unordered_map<char, string> c2s;
+        unordered_map<string, char> s2c;
+        string w;
+        int cIdx = 0;
+        while(iss >> w) {
+            char c = pattern[cIdx];
+            if(c2s.count(c) == 0 && s2c.count(w) == 0) {
+                c2s[c] = w;
+                s2c[w] = c;
+            }
+            
+            if(c2s.count(c) || s2c.count(w)) if(c2s[c] != w || s2c[w] != c) return false;
+            cIdx++;
         }
-        return charIdx == pattern.size();
+        return cIdx == pattern.size();
     }
 };

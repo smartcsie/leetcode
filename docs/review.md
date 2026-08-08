@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：659 題　🟡 注意：63 題　🟢 熟練：141 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：658 題　🟡 注意：64 題　🟢 熟練：141 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -39,7 +39,7 @@
 | [greedy](topics/greedy.md) | 36 | 3 | 3 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 38 | 0 | 5 | 0 | 43 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 21 | 1 | 1 | 0 | 23 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 20 | 2 | 1 | 0 | 23 |
 | [hash-table-set](topics/hash-table-set.md) | 14 | 1 | 6 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 668 個解法標記為生疏，建議找時間重新練習。
+目前共有 667 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -243,7 +243,6 @@
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | [C++](problems/0279.md) | knapsack-problem |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | [C++](problems/0287.md) | fast-slow-pointers |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | [C++](problems/0287.md) | array-negative-marking |
-| 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | [C++](problems/0290.md) | hash-table-mapping |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | [C++](problems/0300.md) | binary-search |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | [C++](problems/0300.md) | dynamic-programming |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | [C++](problems/0303.md) | prefix-sum |

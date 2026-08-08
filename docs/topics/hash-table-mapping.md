@@ -1,6 +1,6 @@
 # hash-table-mapping
 
-## 🔴 生疏（21）
+## 🔴 生疏（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +10,6 @@
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | Array, Hash Table | [C++](../problems/0128.md) | O(N) | O(N) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Mapping, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | Hash Table, String | [C++](../problems/0242.md) | O(N) | O(1) |
-| 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | Hash Table, String | [C++](../problems/0290.md) | O(N+M) | O(N+M) |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | Hash Table, String | [C++](../problems/0383.md) | O(M+N) | O(1) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 Medium | Hash Table | [C++](../problems/0454.md) | O(N²) | O(N²) |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | 🟢 Easy | Hash Set | [C++](../problems/0804.md) | O(S) | O(S) |
@@ -26,11 +25,12 @@
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Array, Hash Set | [C++](../problems/3678.md) | O(N) | O(N) |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | Hash Mapping, Simulation | [C++](../problems/3838.md) | O(N*L) | O(1) |
 
-## 🟡 注意（1）
+## 🟡 注意（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 Easy | String, Hash Table | [C++](../problems/0205.md) | O(N) | O(1) |
+| 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | String, Hash Table | [C++](../problems/0290.md) | O(N+M) | O(N+M) |
 
 ## 🟢 熟悉（1）
 
