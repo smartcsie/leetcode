@@ -5,10 +5,11 @@ solutions:
 - file: Solution_3541.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Counting
   - Hash Table
   - Frequency Counting
   topics:
   - hash-table-counting
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練

@@ -13,23 +13,16 @@
 class Solution {
 public:
     vector<string> uncommonFromSentences(string s1, string s2) {
-        unordered_map<string, int> wordCount;
-
-        auto countWords = [&](const string& s) {
-            stringstream ss(s);
-            string word;
-            while (ss >> word) {
-                wordCount[word]++;
-            }
-        };
-    
-        countWords(s1);
-        countWords(s2);
-
-        vector<string> res;
-        for(const auto& [word, count] : wordCount) {
-            if(count == 1) res.push_back(word);
+        unordered_map<string, int> counts;
+        string s;
+        istringstream iss1(s1);
+        while(iss1 >> s) counts[s]++;
+        istringstream iss2(s2);
+        while(iss2 >> s) counts[s]++;
+        vector<string> ans;
+        for(const auto& [str , count] : counts) {
+            if(count == 1) ans.push_back(str);
         }
-        return res;
+        return ans;
     }
 };

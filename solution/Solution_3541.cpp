@@ -12,23 +12,20 @@
  */
 
 class Solution {
-private:
-    bool isVowel(const char& c) {
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
-    }
 public:
     int maxFreqSum(string s) {
-        vector<int> counts(26, 0);
         int maxVowel = 0;
-        int maxConsonant = 0;
+        int maxConsonants = 0;
+        vector<int> counts(26, 0);
         for(const char& c : s) {
-            counts[c - 'a']++;
-            if(isVowel(c)) {
-                maxVowel = max(maxVowel, counts[c - 'a']);
+            int idx = c - 'a';
+            counts[idx]++;
+            if((0x104111 >> (idx)) & 1) {
+                maxVowel = max(maxVowel, counts[idx]);
             } else {
-                maxConsonant = max(maxConsonant, counts[c - 'a']);
+                maxConsonants = max(maxConsonants, counts[idx]);
             }
         }
-        return maxVowel + maxConsonant;
+        return maxVowel + maxConsonants;
     }
 };

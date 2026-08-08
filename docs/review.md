@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：643 題　🟡 注意：71 題　🟢 熟練：149 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：640 題　🟡 注意：71 題　🟢 熟練：152 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -38,8 +38,8 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 36 | 3 | 3 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 38 | 0 | 5 | 0 | 43 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 18 | 2 | 2 | 0 | 22 |
+| [hash-table-counting](topics/hash-table-counting.md) | 36 | 0 | 7 | 0 | 43 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 17 | 2 | 3 | 0 | 22 |
 | [hash-table-set](topics/hash-table-set.md) | 13 | 2 | 6 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 652 個解法標記為生疏，建議找時間重新練習。
+目前共有 649 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -372,7 +372,6 @@
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | [C++](problems/0866.md) | math-prime |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | [C++](problems/0868.md) | math-digit-decomposition |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 Easy | [C++](problems/0872.md) | tree-dfs-path |
-| 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | [C++](problems/0884.md) | hash-table-mapping |
 | 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | [C++](problems/0888.md) | hash-table-set |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 Medium | [C++](problems/0889.md) | tree |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | [C++](problems/0897.md) | tree-dfs-path |
@@ -708,7 +707,6 @@
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | [C++](problems/3513.md) | bit-manipulation-xor |
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | [C++](problems/3514.md) | bit-manipulation-xor |
 | 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | [C++](problems/3517.md) | sorting |
-| 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | [C++](problems/3541.md) | hash-table-counting |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 Easy | [C++](problems/3550.md) | math-digit-decomposition |
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | [C++](problems/3551.md) | sorting-cycle-decomposition |
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | [C++](problems/3556.md) | string-substring-enumeration |
@@ -716,7 +714,6 @@
 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | [C++](problems/3618.md) | math-prime |
 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | [C++](problems/3637.md) | two-pointers-same |
 | 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums) | 🟢 Easy | [C++](problems/3658.md) | math |
-| 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | [C++](problems/3663.md) | hash-table-counting |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | [C++](problems/3678.md) | hash-table-mapping |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | [C++](problems/3684.md) | sorting |
 | 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 Easy | [C++](problems/3688.md) | bit-manipulation-or |
