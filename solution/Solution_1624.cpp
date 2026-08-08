@@ -14,16 +14,13 @@
 class Solution {
 public:
     int maxLengthBetweenEqualCharacters(string s) {
-        int res = -1;
-        vector<int> lastSeen(26, -1);
-        for(int i = 0 ; i < s.size(); i++) {
-            const int c = s[i] - 'a';
-            if(lastSeen[c] == -1) {
-                lastSeen[c] = i;
-            } else {
-                res = max(res, i - lastSeen[c] - 1);
-            }
+        vector<int> start(26, -1);
+        int ans = -1;
+        for(int i = 0; i < s.size(); i++) {
+            int idx = s[i] - 'a';
+            if(start[idx] == -1) start[idx] = i;
+            else ans = max(ans, i - start[idx] - 1);
         }
-        return res;
+        return ans;
     }
 };

@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：644 題　🟡 注意：70 題　🟢 熟練：149 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：643 題　🟡 注意：71 題　🟢 熟練：149 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -40,7 +40,7 @@
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 38 | 0 | 5 | 0 | 43 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 18 | 2 | 2 | 0 | 22 |
-| [hash-table-set](topics/hash-table-set.md) | 14 | 1 | 6 | 0 | 21 |
+| [hash-table-set](topics/hash-table-set.md) | 13 | 2 | 6 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 653 個解法標記為生疏，建議找時間重新練習。
+目前共有 652 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -498,7 +498,6 @@
 | 1593 | [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | 🟡 Medium | [C++](problems/1593.md) | backtracking-combination |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | [C++](problems/1608.md) | array-linear-scan |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | [C++](problems/1609.md) | tree-bfs-level-order |
-| 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 Easy | [C++](problems/1624.md) | hash-table-set |
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | [C++](problems/1636.md) | quick-select |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | [C++](problems/1640.md) | hash-table-mapping |
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | [C++](problems/1641.md) | dynamic-programming-kadane-algorithm |

@@ -205,10 +205,11 @@ def build_problem_page(problem, solution_dir):
 def build_topic_indexes(problems, topics_out_dir):
     topic_rows = OrderedDict()
 
-    # 特定「大分類」topic：子分類（例如 array-min-max、array-negative-marking、
-    # array-boyer-moore 等）除了有自己的獨立頁面之外，也會一併匯總進大分類頁面
-    # （例如 topics/array.md）。之後其他分類想要一樣的效果，把名稱加進這個清單即可。
-    AGGREGATE_PARENT_TOPICS = ['array']
+    # 註：曾經有過「array-min-max 等子分類自動匯總進 array.md」的機制，
+    # 後來因為會導致同一題同時出現在兩個分類頁（例如 1094 同時出現在
+    # array 和 array-difference-array），跟「每題只在單一分類頁」的需求
+    # 互相衝突，已經拿掉。現在每個解法只會出現在它 topics 欄位裡寫的
+    # 那個（單一）分類頁，不會有自動匯總的行為。
 
     for problem in problems:
         for sol in problem['solutions']:
@@ -224,20 +225,6 @@ def build_topic_indexes(problems, topics_out_dir):
                     'space': sol.get('space', ''),
                     'familiarity': sol.get('familiarity'),
                 })
-
-    # 第二輪：把子分類（array-min-max 等）的題目也併進父分類頁（array），
-    # 用 (number, file) 判斷是否已經在父分類頁裡，避免同一解法同時掛
-    # array + array-min-max 時被列兩次。
-    for parent in AGGREGATE_PARENT_TOPICS:
-        existing_keys = {(r['number'], r['file']) for r in topic_rows.get(parent, [])}
-        for topic, rows in list(topic_rows.items()):
-            if topic == parent or not topic.startswith(parent + '-'):
-                continue
-            for row in rows:
-                key = (row['number'], row['file'])
-                if key not in existing_keys:
-                    existing_keys.add(key)
-                    topic_rows.setdefault(parent, []).append(row)
 
     os.makedirs(topics_out_dir, exist_ok=True)
     for fname in os.listdir(topics_out_dir):
