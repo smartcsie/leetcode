@@ -5,9 +5,9 @@ solutions:
 - file: Solution_2215.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table
+  - Hash Table Set
   topics:
   - hash-table-set
   time: O(N+M)
   space: O(N+M)
-  familiarity: 生疏
+  familiarity: 熟練
