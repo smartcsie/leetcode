@@ -1,0 +1,13 @@
+number: 743
+title: Network Delay Time
+url: https://leetcode.com/problems/network-delay-time/
+solutions:
+- file: Solution_0743.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Graph Shortest Path
+  topics:
+  - graph-shortest-path
+  time: O(E·logV)
+  space: O(V+E)
+  familiarity: 生疏

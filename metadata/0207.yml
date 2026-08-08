@@ -1,0 +1,13 @@
+number: 207
+title: Course Schedule
+url: https://leetcode.com/problems/course-schedule/
+solutions:
+- file: Solution_0207.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Topological Sort
+  topics:
+  - topological-sort
+  time: O(V+E)
+  space: O(V+E)
+  familiarity: 生疏

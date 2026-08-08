@@ -5,11 +5,12 @@ solutions:
 - file: Solution_0200.cpp
   difficulty: 🟡 Medium
   tags:
+  - Graph Dfs
   - DFS
   - BFS
   - Union-Find
   topics:
-  - dfs-bfs
+  - graph-dfs
   time: O(M×N)
   space: O(1)*
   familiarity: 生疏

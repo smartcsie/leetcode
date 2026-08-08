@@ -1,0 +1,56 @@
+/**
+ * 題目：127. Word Ladder
+ * 難度：🔴 Hard
+ * 描述：給定 beginWord、endWord 和一個字典 wordList，找出從 beginWord 變換到
+ * endWord 的最短轉換序列長度。每次轉換只能改變一個字母，且每次轉換後的中間
+ * 單字都必須在 wordList 裡。若無法轉換則回傳 0。
+ *
+ * 時間複雜度：O(N·L·26) - N 為 wordList 長度，L 為單字長度；BFS 過程中每個
+ * 單字最多嘗試 L 個位置，每個位置嘗試 26 種字母替換。
+ * 空間複雜度：O(N·L) - wordSet 儲存所有單字，queue 最多同時存在 N 個單字。
+ *
+ * 解法思路：
+ * （廣度優先搜尋 BFS，逐層字母替換）：
+ * 1. 建立 wordSet：
+ * - 把 wordList 轉成 unordered_set，方便 O(1) 查詢某單字是否存在，並在
+ *   endWord 不在字典中時直接回傳 0（無解）。
+ * 2. 逐層 BFS 展開：
+ * - queue 從 beginWord 開始，每一層代表多轉換了一次字母（step 從 1 起算）。
+ * - 對目前單字的每個位置，嘗試 a~z 共 26 種字母替換，一旦拼出 endWord 就
+ *   代表這一層轉換完成，回傳 step + 1。
+ * 3. 命中字典就入隊並刪除：
+ * - 若替換後的單字存在於 wordSet，代表是合法的下一步，推進 queue 並用
+ *   wordSet.erase 直接移除，兼具「標記已拜訪」與「避免重複走訪」兩種效果，
+ *   省去額外開一個 visited 集合的空間。
+ */
+class Solution {
+public:
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+        unordered_set<string> wordSet(wordList.begin(), wordList.end());
+        if (!wordSet.contains(endWord))
+        return 0;
+
+        queue<string> q{{beginWord}};
+
+        for (int step = 1; !q.empty(); ++step)
+        for (int sz = q.size(); sz > 0; --sz) {
+            string word = q.front();
+            q.pop();
+            for (int i = 0; i < word.length(); ++i) {
+            const char cache = word[i];
+            for (char c = 'a'; c <= 'z'; ++c) {
+                word[i] = c;
+                if (word == endWord)
+                return step + 1;
+                if (wordSet.contains(word)) {
+                q.push(word);
+                wordSet.erase(word);
+                }
+            }
+            word[i] = cache;
+            }
+        }
+
+        return 0;
+    }
+};

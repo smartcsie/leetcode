@@ -1,0 +1,67 @@
+/**
+ * 題目：207. Course Schedule
+ * 難度：中等 (Medium)
+ * 描述：給定 numCourses 門課（編號 0 ~ numCourses-1）以及一組先修關係
+ * prerequisites，prerequisites[i] = [a, b] 代表要修 a 課必須先修完 b 課。
+ * 請判斷是否能修完所有課程（即先修關係構成的有向圖是否有環）。
+ *
+ * 時間複雜度：O(V+E) - V 為課程數（節點），E 為先修關係數（邊）；
+ *             建圖需 O(E)，DFS 遍歷每個節點與每條邊各一次。
+ * 空間複雜度：O(V+E) - 鄰接串列 graph 儲存所有邊需 O(E)，
+ *             states 陣列與遞迴呼叫堆疊各需 O(V)。
+ *
+ * 解法思路：
+ * （拓撲排序 / DFS 三色標記判環）：
+ * 1. 建立鄰接串列：
+ * - prerequisite[1] 是先修課、prerequisite[0] 是後修課，
+ *   建邊方向為「先修課 -> 後修課」（graph[u].push_back(v)）。
+ * 2. 三種狀態標記每個節點：
+ * - kInit（未拜訪）、kVisiting（目前在遞迴路徑上、尚未完成）、
+ *   kVisited（已確認完成、不在環中）。
+ * 3. DFS 深度優先走訪並判斷環：
+ * - 若走到一個狀態為 kVisiting 的節點，代表繞回目前遞迴路徑上的節點，
+ *   形成環，直接回傳 true（有環，無法完成所有課程）。
+ * - 若節點已是 kVisited，代表這條路徑之前已經驗證過沒有環，直接回傳
+ *   false，避免重複計算（記憶化的概念）。
+ * 4. 狀態轉移時機：
+ * - 進入節點時先標記為 kVisiting，遞迴完所有鄰居都沒有找到環後，
+ *   才把狀態改為 kVisited，代表這個節點及其子樹已確認安全。
+ * 5. 對每個節點各自跑一次 DFS：
+ * - 因為圖可能不連通，需要對每個尚未確認的節點各自觸發一次 hasCycle
+ *   檢查，只要有任一節點觸發環偵測就回傳 false。
+ */
+enum class State { kInit, kVisiting, kVisited };
+class Solution {
+    public:
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        vector<vector<int>> graph(numCourses);
+        vector<State> states(numCourses);
+
+        for (const vector<int>& prerequisite : prerequisites) {
+            const int u = prerequisite[1];
+            const int v = prerequisite[0];
+            graph[u].push_back(v);
+        }
+
+        for (int i = 0; i < numCourses; ++i)
+            if (hasCycle(graph, i, states))
+                return false;
+
+        return true;
+  }
+
+ private:
+    bool hasCycle(const vector<vector<int>>& graph, int u,
+                vector<State>& states) {
+        if (states[u] == State::kVisiting)
+            return true;
+        if (states[u] == State::kVisited)
+            return false;
+        states[u] = State::kVisiting;
+        for (const int v : graph[u])
+            if (hasCycle(graph, v, states))
+                return true;
+        states[u] = State::kVisited;
+        return false;
+    }
+};

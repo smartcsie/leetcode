@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：661 題　🟡 注意：62 題　🟢 熟練：136 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：665 題　🟡 注意：62 題　🟢 熟練：136 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -29,11 +29,14 @@
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 2 | 0 | 18 |
 | [design](topics/design.md) | 5 | 1 | 0 | 0 | 6 |
-| [dfs-bfs](topics/dfs-bfs.md) | 2 | 0 | 0 | 0 | 2 |
+| [dfs-bfs](topics/dfs-bfs.md) | 1 | 0 | 0 | 0 | 1 |
 | [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 31 |
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 5 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 10 | 0 | 1 | 0 | 11 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 0 | 11 |
+| [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 1 |
+| [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 1 |
+| [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 36 | 3 | 3 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 38 | 0 | 5 | 0 | 43 |
@@ -69,6 +72,7 @@
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 5 | 0 | 0 | 0 | 5 |
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 3 | 0 | 0 | 0 | 3 |
+| [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 11 | 0 | 3 | 0 | 14 |
 | [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 10 | 0 | 6 | 0 | 16 |
 | [tree-dfs-path](topics/tree-dfs-path.md) | 36 | 0 | 3 | 0 | 39 |
@@ -79,11 +83,12 @@
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 17 | 1 | 3 | 0 | 21 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 3 | 7 | 0 | 10 |
+| [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |
 
 ---
 
-目前共有 670 個解法標記為生疏，建議找時間重新練習。
+目前共有 674 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -180,6 +185,7 @@
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | [C++](problems/0121.md) | dynamic-programming |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | [C++](problems/0124.md) | tree-dfs-path |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 Easy | [C++](problems/0125.md) | two-pointers-opposite |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | [C++](problems/0127.md) | graph-bfs |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | [C++](problems/0128.md) | hash-table-mapping |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | [C++](problems/0129.md) | tree-dfs-path |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | [C++](problems/0137.md) | bit-manipulation |
@@ -209,10 +215,11 @@
 | 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 Easy | [C++](problems/0182.md) | sql |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟢 Medium | [C++](problems/0198.md) | dynamic-programming |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | [C++](problems/0199.md) | tree-bfs-level-order |
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | [C++](problems/0200.md) | dfs-bfs |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | [C++](problems/0200.md) | graph-dfs |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | [C++](problems/0202.md) | hash-table-mapping |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | [C++](problems/0204.md) | math-prime |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | [C++](problems/0206.md) | linked-list |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | [C++](problems/0207.md) | topological-sort |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 Medium | [C++](problems/0209.md) | variable-size-sliding-window |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | [C++](problems/0213.md) | dynamic-programming |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | [C++](problems/0215.md) | quick-select |
@@ -303,6 +310,7 @@
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | [C++](problems/0540.md) | binary-search |
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 🟢 Easy | [C++](problems/0541.md) | two-pointers-same |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | [C++](problems/0543.md) | tree-dfs-path |
+| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 🟡 Medium | [C++](problems/0547.md) | union-find |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | [C++](problems/0557.md) | two-pointers-other |
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | [C++](problems/0559.md) | tree-dfs-path |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | [C++](problems/0560.md) | prefix-sum |
@@ -346,6 +354,7 @@
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | [C++](problems/0724.md) | prefix-sum |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | [C++](problems/0728.md) | math-digit-decomposition |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | [C++](problems/0739.md) | monotonic-stack |
+| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | [C++](problems/0743.md) | graph-shortest-path |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | 🟢 Easy | [C++](problems/0744.md) | binary-search-build-in |
 | 762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | [C++](problems/0762.md) | bit-manipulation |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | [C++](problems/0771.md) | hash-table-counting |

@@ -1024,13 +1024,28 @@ function extractTableRow(text) {
 
 function extractCodeBlock(text) {
   const m = text.match(/```(?:cpp|c\+\+)?\s*([\s\S]*?)```/i);
-  return m ? m[1].trim() + '\n' : null;
+  if (m) return m[1].trim() + '\n';
+  // 沒有用 ```cpp ``` 包住的情況：從第一個看起來像「程式碼開頭」的地方
+  // （/** 註解開頭，或 class/struct 定義）開始算，避免把上面的連結行、
+  // 表格列這類非程式碼內容也一起存進 .cpp。
+  const codeStart = text.search(/\/\*\*|^\s*(class|struct)\s+\w/m);
+  if (codeStart === -1) return null;
+  return text.slice(codeStart).trim() + '\n';
 }
 
 function extractHeaderField(text, label) {
   const re = new RegExp('\\*\\s*' + label + '[:：]\\s*([^*]+)');
   const m = text.match(re);
   return m ? m[1].trim() : '';
+}
+
+function extractLinkLine(text) {
+  // 抓像 [547. Number of Provinces](https://leetcode.com/problems/xxx/) 這種
+  // 單純的 markdown 連結行（不是表格列），常見於直接貼題目連結 + 程式碼的情況。
+  const re = /\[\s*(\d+)\s*\.\s*([^\]]+?)\s*\]\(\s*(https?:\/\/[^\s)]+)\s*\)/;
+  const m = text.match(re);
+  if (!m) return null;
+  return { number: m[1], title: m[2].trim(), url: m[3].trim() };
 }
 
 function parseAndFill() {
@@ -1053,7 +1068,17 @@ function parseAndFill() {
     space = row.space;
     status.push('✓ 從表格解析出題號/標題/難度/標籤/時間空間複雜度');
   } else {
-    status.push('⚠ 找不到表格列，改用註解區塊解析基本資訊');
+    status.push('⚠ 找不到表格列，改用連結行 / 註解區塊解析基本資訊');
+  }
+
+  if (!number || !title) {
+    const link = extractLinkLine(raw);
+    if (link) {
+      if (!number) number = link.number;
+      if (!title) title = link.title;
+      if (!url) url = link.url;
+      status.push('✓ 從 [題號. 標題](url) 連結行解析出題號/標題/URL');
+    }
   }
 
   const code = extractCodeBlock(raw);

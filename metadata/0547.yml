@@ -1,0 +1,13 @@
+number: 547
+title: Number of Provinces
+url: https://leetcode.com/problems/number-of-provinces/
+solutions:
+- file: Solution_0547.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Union Find
+  topics:
+  - union-find
+  time: O(N²·α(N)) - 需雙重迴圈遍歷 n x n 鄰接矩陣（上三角，含對角線），
+  space: O(N) - id 與 rank 兩個陣列各佔用 O(N) 空間。
+  familiarity: 生疏
