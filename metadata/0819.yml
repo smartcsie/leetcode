@@ -11,4 +11,7 @@ solutions:
   - hash-table-counting
   time: O(M+N)
   space: O(M+N)
-  familiarity: 生疏
+  familiarity: 注意
+  note: "std::transform(paragraph.begin(), paragraph.end(), paragraph.begin(), [](unsigned\
+    \ char c) {\n            return std::isalpha(c) ? std::tolower(c) : ' ';\n   \
+    \     });"

@@ -9,33 +9,27 @@
 
 class Solution {
 public:
-    std::string mostCommonWord(std::string paragraph, std::vector<std::string>& banned) {
-        // 1. 將所有非字母字元轉為空白，並統一小寫
-        std::transform(paragraph.begin(), paragraph.end(), paragraph.begin(), [](unsigned char c) {
-            return std::isalpha(c) ? std::tolower(c) : ' ';
-        });
-        
-        // 2. 將禁用詞放入 Hash Set 以提升查詢速度
-        std::unordered_set<std::string> bannedSet(banned.begin(), banned.end());
-        std::unordered_map<std::string, int> counts;
-        
-        // 3. 利用 stringstream 切割單詞
-        std::istringstream ss(paragraph);
-        std::string word;
-        std::string maxStr;
+    string mostCommonWord(string paragraph, vector<string>& banned) {
+        string str;
+        for(char& c : paragraph) {
+            if(isalpha(c)) str.push_back(c | 32);
+            else if(c == ' ') str.push_back(c);
+            else str.push_back(' ');
+        }
+        istringstream iss(str);
+        string s;
+        unordered_set<string> bans;
+        for(const string& s : banned) bans.insert(s);
+        unordered_map<string, int> counts;
         int maxCount = 0;
-        
-        while (ss >> word) {
-            if (!bannedSet.count(word)) {
-                counts[word]++;
-                // 在統計當下更新最大值，省去最後再一次遍歷 map
-                if (counts[word] > maxCount) {
-                    maxCount = counts[word];
-                    maxStr = word;
-                }
+        string ans;
+        while(iss >> s) {
+            if(!bans.count(s)) counts[s]++;
+            if(maxCount < counts[s]) {
+                maxCount = counts[s];
+                ans = s;
             }
         }
-        
-        return maxStr;
+        return ans;
     }
 };

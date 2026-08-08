@@ -5,10 +5,11 @@ solutions:
 - file: Solution_2006.cpp
   difficulty: 🟢 Easy
   tags:
+  - Array Linear Scan
   - Hash Table
   - Frequency Map
   topics:
-  - hash-table-counting
+  - array-linear-scan
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
