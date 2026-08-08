@@ -10,24 +10,12 @@
  * 時間複雜度：O(1) - 數學計算時針分針角度差。
  * 空間複雜度：O(1) - 無額外空間。
  */
-
-#include <algorithm>
-#include <cmath>
-
 class Solution {
 public:
     double angleClock(int hour, int minutes) {
-        // 時針角度：hour * 30 + 分鐘帶來的偏移 (每分鐘 0.5 度)
-        // hour % 12 處理 12 點與 0 點的等價性
-        double hourAngle = (hour % 12) * 30.0 + minutes * 0.5;
-        
-        // 分針角度：每分鐘 6 度
-        double minAngle = minutes * 6.0;
-        
-        // 計算兩者差值
-        double angle = std::abs(hourAngle - minAngle);
-        
-        // 返回較小的夾角
-        return std::min(360.0 - angle, angle);
+        double h = 30.0 * hour + minutes * 0.5;
+        double m = 6.0 * minutes;
+        double angle = abs(h - m);
+        return min(angle, 360.0 - angle);
     }
 };
