@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 859 題　🔴 生疏：665 題　🟡 注意：60 題　🟢 熟練：134 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 859 題　🔴 生疏：663 題　🟡 注意：61 題　🟢 熟練：135 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -15,7 +15,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 2 | 5 | 0 | 8 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
 | [array-linear-scan](topics/array-linear-scan.md) | 4 | 4 | 11 | 0 | 19 |
-| [array-min-max](topics/array-min-max.md) | 1 | 0 | 2 | 0 | 3 |
+| [array-min-max](topics/array-min-max.md) | 0 | 0 | 3 | 0 | 3 |
 | [array-negative-marking](topics/array-negative-marking.md) | 4 | 1 | 0 | 0 | 5 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 2 |
@@ -34,7 +34,7 @@
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 5 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 11 | 0 | 1 | 0 | 12 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 0 | 11 |
-| [greedy](topics/greedy.md) | 37 | 2 | 3 | 0 | 42 |
+| [greedy](topics/greedy.md) | 36 | 3 | 3 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 39 | 0 | 4 | 0 | 43 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 21 | 1 | 1 | 0 | 23 |
@@ -83,7 +83,7 @@
 
 ---
 
-目前共有 674 個解法標記為生疏，建議找時間重新練習。
+目前共有 672 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -315,7 +315,6 @@
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | [C++](problems/0611.md) | two-pointers-opposite |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | [C++](problems/0617.md) | tree-dfs-path |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | [C++](problems/0624.md) | greedy |
-| 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | [C++](problems/0628.md) | array-min-max |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | [C++](problems/0633.md) | math |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | [C++](problems/0637.md) | tree-bfs-level-order |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | [C++](problems/0643.md) | fixed-size-sliding-window |
@@ -395,7 +394,6 @@
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 Easy | [C++](problems/0965.md) | tree-dfs-path |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | [C++](problems/0970.md) | math |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | [C++](problems/0973.md) | quick-select |
-| 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 Medium | [C++](problems/0984.md) | greedy |
 | 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | 🟡 Medium | [C++](problems/0986.md) | interval |
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | 🟡 Medium | [C++](problems/0988.md) | tree-dfs-path |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | [C++](problems/0989.md) | math-simulation |
