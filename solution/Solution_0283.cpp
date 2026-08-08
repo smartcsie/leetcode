@@ -15,17 +15,9 @@
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        // slow 指向的是「已經確定的非零區」的下一個位置
-        int slow = 0;
-        
-        for (int fast = 0; fast < nums.size(); ++fast) {
+        for (int fast = 0, slow = 0; fast < nums.size(); ++fast) {
             if (nums[fast] != 0) {
-                // 如果 fast 和 slow 不同，進行交換
-                // 若 fast == slow，則自己與自己交換（無副作用）
-                if (fast != slow) {
-                    swap(nums[fast], nums[slow]);
-                }
-                slow++;
+                swap(nums[fast], nums[slow++]);
             }
         }
     }

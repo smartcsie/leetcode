@@ -18,8 +18,7 @@ public:
         }
         for(int fast = 0 , slow = 0; fast < nums.size(); fast++) {
             if(nums[fast] != 0) {
-                swap(nums[fast], nums[slow]);
-                slow++;
+                swap(nums[fast], nums[slow++]);
             }
         }
         return nums;

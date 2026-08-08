@@ -16,18 +16,16 @@
 class Solution {
 public:
     std::vector<int> findWordsContaining(std::vector<std::string>& words, char x) {
-        std::vector<int> res;
-        
-        // 預留空間以減少 vector 動態調整造成的效能損耗
-        res.reserve(words.size());
-        
-        for (int i = 0; i < words.size(); ++i) {
-            // find() 返回字元位置，若沒找到則返回 string::npos
-            if (words[i].find(x) != std::string::npos) {
-                res.push_back(i);
+        vector<int> ans;
+        ans.reserve(words.size());
+        for(int i = 0; i < words.size(); i++) {
+            for(const char& c : words[i]) {
+                if(c == x) {
+                    ans.push_back(i);
+                    break;
+                }
             }
         }
-        
-        return res;
+        return ans;
     }
 };

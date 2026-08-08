@@ -1,6 +1,6 @@
 # tree-dfs-path
 
-## 🔴 生疏（35）
+## 🔴 生疏（36）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -27,6 +27,7 @@
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | Tree, DFS, Recursion | [C++](../problems/0617.md) | O(min(N,M)) | O(min(N,M)) |
 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 Easy | Tree, DFS | [C++](../problems/0671.md) | O(N) | O(H) |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 Medium | DFS, Tree | [C++](../problems/0687.md) | O(N) | O(H) |
+| 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Hash Table | [C++](../problems/0863.md) | O(N) | O(N) |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 Easy | Tree, DFS | [C++](../problems/0872.md) | O(N+M) | O(N+M) |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | DFS, In-order | [C++](../problems/0897.md) | O(N) | O(H) |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 Easy | Tree, DFS | [C++](../problems/0965.md) | O(N) | O(H) |

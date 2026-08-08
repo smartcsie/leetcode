@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0863.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Tree Dfs Path
   - DFS
   - Hash Table
   topics:
-  - dfs-bfs
+  - tree-dfs-path
   time: O(N)
   space: O(N)
   familiarity: 生疏

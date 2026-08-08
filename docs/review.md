@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：665 題　🟡 注意：62 題　🟢 熟練：136 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：661 題　🟡 注意：63 題　🟢 熟練：139 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -29,7 +29,6 @@
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 5 | 0 | 0 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 2 | 0 | 18 |
 | [design](topics/design.md) | 5 | 1 | 0 | 0 | 6 |
-| [dfs-bfs](topics/dfs-bfs.md) | 1 | 0 | 0 | 0 | 1 |
 | [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 31 |
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 5 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 10 | 0 | 1 | 0 | 11 |
@@ -66,7 +65,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 9 | 0 | 6 | 0 | 15 |
-| [string](topics/string.md) | 38 | 2 | 4 | 0 | 44 |
+| [string](topics/string.md) | 34 | 3 | 7 | 0 | 44 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
@@ -75,7 +74,7 @@
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 11 | 0 | 3 | 0 | 14 |
 | [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 10 | 0 | 6 | 0 | 16 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 36 | 0 | 3 | 0 | 39 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 37 | 0 | 3 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 17 | 0 | 1 | 0 | 18 |
@@ -88,7 +87,7 @@
 
 ---
 
-目前共有 674 個解法標記為生疏，建議找時間重新練習。
+目前共有 670 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -373,7 +372,7 @@
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | [C++](problems/0844.md) | two-pointers-same |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | [C++](problems/0852.md) | binary-search |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | [C++](problems/0859.md) | hash-table-set |
-| 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | [C++](problems/0863.md) | dfs-bfs |
+| 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | [C++](problems/0863.md) | tree-dfs-path |
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | [C++](problems/0866.md) | math-prime |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | [C++](problems/0868.md) | math-digit-decomposition |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 Easy | [C++](problems/0872.md) | tree-dfs-path |
@@ -639,7 +638,6 @@
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | [C++](problems/2443.md) | math-digit-decomposition |
 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | [C++](problems/2451.md) | hash-table-counting |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | [C++](problems/2455.md) | math |
-| 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 Easy | [C++](problems/2460.md) | string |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | [C++](problems/2469.md) | math |
 | 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | 🟡 Medium | [C++](problems/2476.md) | binary-search-build-in |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | [C++](problems/2485.md) | math |
@@ -677,14 +675,11 @@
 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | [C++](problems/2824.md) | fast-slow-pointers |
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | [C++](problems/2826.md) | dynamic-programming |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | [C++](problems/2828.md) | string |
-| 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 Easy | [C++](problems/2839.md) | string |
 | 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | [C++](problems/2855.md) | array |
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 Easy | [C++](problems/2859.md) | bit-manipulation |
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | [C++](problems/2894.md) | math |
 | 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 Easy | [C++](problems/2917.md) | bit-manipulation-or |
 | 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | 🟢 Easy | [C++](problems/2932.md) | sorting |
-| 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | [C++](problems/2937.md) | string |
-| 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | [C++](problems/2942.md) | string |
 | 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | [C++](problems/2966.md) | sorting |
 | 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | 🟢 Easy | [C++](problems/2980.md) | bit-manipulation-or |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | [C++](problems/3005.md) | hash-table-counting |
