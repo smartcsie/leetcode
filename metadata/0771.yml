@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0771.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Counting
   - Hash Set
-  - String
   topics:
   - hash-table-counting
   time: O(J+S)
   space: O(J)
-  familiarity: 生疏
+  familiarity: 熟練
