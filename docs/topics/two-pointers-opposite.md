@@ -1,6 +1,6 @@
 # two-pointers-opposite
 
-## 🔴 生疏（16）
+## 🔴 生疏（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -16,8 +16,6 @@
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | Greedy, Two Pointers | [C++](../problems/0942.md) | O(N) | O(N) |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 Medium | String, Two Pointers | [C++](../problems/1750.md) | O(N) | O(1) |
 | 1877 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | 🟡 Medium | Array, Two Pointers, Greedy, Sorting | [C++](../problems/1877.md) | O(NlogN) | O(1)* |
-| 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 Easy | Two Pointers, String | [C++](../problems/2000.md) | O(N) | O(1) |
-| 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | Two Pointers | [C++](../problems/2108.md) | O(N*L) | O(1) |
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | Two Pointers | [C++](../problems/2562.md) | O(N*D) | O(1) |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | String, Two Pointers | [C++](../problems/3794.md) | O(N) | O(1) |
 
@@ -25,8 +23,9 @@
 
 目前沒有標記為注意的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | Two Pointers | [C++](../problems/2108.md) | O(N*L) | O(1) |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | Two-Pointers | [C++](../problems/3884.md) | O(N) | O(1) |

@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：607 題　🟡 注意：84 題　🟢 熟練：172 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：605 題　🟡 注意：84 題　🟢 熟練：174 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -77,17 +77,17 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 34 | 3 | 3 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 16 | 0 | 1 | 0 | 17 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 14 | 0 | 2 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 17 | 1 | 3 | 0 | 21 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 3 | 8 | 0 | 11 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 3 | 9 | 0 | 12 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |
 
 ---
 
-目前共有 616 個解法標記為生疏，建議找時間重新練習。
+目前共有 614 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -524,7 +524,6 @@
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | [C++](problems/1979.md) | math-gcd |
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | [C++](problems/1984.md) | fixed-size-sliding-window |
 | 1985 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | [C++](problems/1985.md) | quick-select |
-| 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 Easy | [C++](problems/2000.md) | two-pointers-opposite |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | [C++](problems/2001.md) | hash-table-counting |
 | 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 Medium | [C++](problems/2023.md) | hash-table-counting |
 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | [C++](problems/2027.md) | greedy |
@@ -535,7 +534,6 @@
 | 2068 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 Easy | [C++](problems/2068.md) | hash-table-counting |
 | 2085 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | 🟢 Easy | [C++](problems/2085.md) | bit-manipulation |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | [C++](problems/2095.md) | fast-slow-pointers |
-| 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | [C++](problems/2108.md) | two-pointers-opposite |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | [C++](problems/2109.md) | two-pointers-same |
 | 2116 | [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | 🟡 Medium | [C++](problems/2116.md) | greedy |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | [C++](problems/2119.md) | math |
