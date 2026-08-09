@@ -11,25 +11,22 @@
  */
 
 class Solution {
-private:
-    bool selfDividing(int n) {
-        int temp = n;
-        while(temp > 0) {
-            int digit = temp % 10;
-            if( digit == 0 || n % digit != 0) return false;
-            temp /= 10;
-        }
-        return true;
-    }
 public:
     vector<int> selfDividingNumbers(int left, int right) {
-        vector<int> res;
-        res.reserve(right - left + 1);
-        for(int i = left; i<= right; i++) {
-            if(selfDividing(i)) {
-                res.push_back(i);
+        vector<int> ans;
+        for(int x = left; x <= right; x++) {
+            int y = x;
+            bool divide = true;
+            while(y > 0) {
+                int digit = y % 10;
+                if(digit == 0 || (x % digit) != 0 ) {
+                    divide = false;
+                    break;
+                }
+                y /= 10;
             }
+            if(divide) ans.push_back(x);
         }
-        return res;
+        return ans;
     }
 };

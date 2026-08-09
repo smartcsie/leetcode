@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：621 題　🟡 注意：79 題　🟢 熟練：163 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：618 題　🟡 注意：80 題　🟢 熟練：165 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -47,7 +47,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 34 | 8 | 4 | 0 | 46 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 22 | 7 | 12 | 0 | 41 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 19 | 8 | 14 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 4 | 2 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 0 | 7 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 630 個解法標記為生疏，建議找時間重新練習。
+目前共有 627 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -340,7 +340,6 @@
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | 🟢 Easy | [C++](problems/0717.md) | array |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | [C++](problems/0718.md) | dynamic-programming |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | [C++](problems/0724.md) | prefix-sum |
-| 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | [C++](problems/0728.md) | math-digit-decomposition |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | [C++](problems/0739.md) | monotonic-stack |
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | [C++](problems/0743.md) | graph-shortest-path |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | 🟢 Easy | [C++](problems/0744.md) | binary-search-build-in |
@@ -436,7 +435,6 @@
 | 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees) | 🟡 Medium | [C++](problems/1305.md) | tree-dfs-path |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | 🟢 Easy | [C++](problems/1309.md) | hash-table-mapping |
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | 🟡 Medium | [C++](problems/1315.md) | tree-dfs-path |
-| 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 Easy | [C++](problems/1317.md) | math-digit-decomposition |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | [C++](problems/1318.md) | bit-manipulation-or |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 Easy | [C++](problems/1342.md) | bit-manipulation |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | [C++](problems/1351.md) | binary-search |
@@ -449,7 +447,6 @@
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 Medium | [C++](problems/1382.md) | binary-search-tree |
 | 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | [C++](problems/1387.md) | quick-select |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 Easy | [C++](problems/1389.md) | array |
-| 1399 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/) | 🟢 Easy | [C++](problems/1399.md) | math-digit-decomposition |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | [C++](problems/1404.md) | math-digit-decomposition |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | [C++](problems/1408.md) | sorting |
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | [C++](problems/1417.md) | two-pointers-same |
