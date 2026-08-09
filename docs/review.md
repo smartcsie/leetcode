@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：612 題　🟡 注意：81 題　🟢 熟練：170 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：611 題　🟡 注意：81 題　🟢 熟練：171 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -26,7 +26,7 @@
 | [bit-manipulation](topics/bit-manipulation.md) | 21 | 3 | 11 | 0 | 35 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 3 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 0 | 2 |
-| [bit-manipulation-or](topics/bit-manipulation-or.md) | 4 | 1 | 0 | 0 | 5 |
+| [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 1 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 2 | 0 | 18 |
 | [design](topics/design.md) | 5 | 1 | 0 | 0 | 6 |
 | [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 31 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 621 個解法標記為生疏，建議找時間重新練習。
+目前共有 620 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -689,7 +689,6 @@
 | 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums) | 🟢 Easy | [C++](problems/3658.md) | math |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | [C++](problems/3678.md) | hash-table-mapping |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | [C++](problems/3684.md) | sorting |
-| 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 Easy | [C++](problems/3688.md) | bit-manipulation-or |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | [C++](problems/3701.md) | math |
 | 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | [C++](problems/3713.md) | string-substring-enumeration |
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | [C++](problems/3718.md) | hash-table-set |

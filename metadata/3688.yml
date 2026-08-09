@@ -5,16 +5,13 @@ solutions:
 - file: Solution_3688.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Or
   topics:
   - bit-manipulation-or
   time: O(N)
   space: O(1)
-  note: '> [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/)
-    <br>
-
-    > int res = 0，把所有even number OR 到res上<br>
+  familiarity: 熟練
+  note: '> int res = 0，把所有even number OR 到ans上<br>
 
 
     <br><br>'
-  familiarity: 生疏

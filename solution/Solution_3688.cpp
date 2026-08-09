@@ -14,12 +14,10 @@
 class Solution {
 public:
     int evenNumberBitwiseORs(vector<int>& nums) {
-        int result = 0;
-        for(const int& num : nums) {
-            if((num & 1) == 0) {
-                result |= num;
-            }
+        int ans = 0;
+        for(const int& x : nums) {
+            if(!(x & 1)) ans |= x;
         }
-        return result;
+        return ans;
     }
 };
