@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：601 題　🟡 注意：87 題　🟢 熟練：175 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：600 題　🟡 注意：87 題　🟢 熟練：176 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -39,7 +39,7 @@
 | [greedy](topics/greedy.md) | 35 | 4 | 3 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 27 | 2 | 13 | 0 | 42 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 15 | 3 | 3 | 0 | 21 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 14 | 3 | 4 | 0 | 21 |
 | [hash-table-set](topics/hash-table-set.md) | 11 | 3 | 7 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 610 個解法標記為生疏，建議找時間重新練習。
+目前共有 609 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -227,7 +227,6 @@
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | 🟢 Easy | [C++](problems/0237.md) | linked-list |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | [C++](problems/0238.md) | prefix-sum |
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | [C++](problems/0239.md) | monotonic-queue |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | [C++](problems/0242.md) | hash-table-mapping |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-path) | 🟢 Easy | [C++](problems/0257.md) | tree-dfs-path |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | [C++](problems/0264.md) | dynamic-programming |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | [C++](problems/0278.md) | binary-search |

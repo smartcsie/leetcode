@@ -18,16 +18,14 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        short count[26];
-        for(char c : s) {
-            count[c-'a']++;
+        if(s.size() != t.size()) return false;
+        vector<int> counts(26, 0);
+        for(int i = 0; i < s.size(); i++) {
+            counts[s[i] - 'a']++;
+            counts[t[i] - 'a']--;
         }
-        for(char c : t) {
-            count[c-'a']--;
-        }
-        for(int i=0; i< 26; i++) {
-            if(count[i] != 0) 
-                return false;
+        for(const int& x : counts) {
+            if(x != 0) return false;
         }
         return true;
     }
