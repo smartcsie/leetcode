@@ -5,10 +5,10 @@ solutions:
 - file: Solution_3162.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array Linear Scan
+  - Array
   - Brute Force
   topics:
-  - array-linear-scan
+  - array
   time: O(N*M)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練

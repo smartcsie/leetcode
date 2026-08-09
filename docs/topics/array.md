@@ -27,7 +27,7 @@
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](../problems/1752.md) | O(N) | O(1) |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array, Counting | [C++](../problems/2089.md) | O(N) | O(1) |
 
-## 🟢 熟悉（13）
+## 🟢 熟悉（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -41,6 +41,7 @@
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array | [C++](../problems/1929.md) | O(N) | O(1)* |
 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 Easy | Array, Brute Force | [C++](../problems/1995.md) | O(N⁴) | O(1) |
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](../problems/3069.md) | O(N) | O(N) |
+| 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | Array, Brute Force | [C++](../problems/3162.md) | O(N*M) | O(1) |
 | 3452 | [Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/) | 🟢 Easy | Array, Simulation | [C++](../problems/3452.md) | O(N) | O(1) |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array, Simulation | [C++](../problems/3925.md) | O(N) | O(N) |
 | 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | Array, Counting | [C++](../problems/3978.md) | O(N) | O(1) |

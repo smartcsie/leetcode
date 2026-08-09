@@ -3,18 +3,18 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：625 題　🟡 注意：78 題　🟢 熟練：160 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：623 題　🟡 注意：78 題　🟢 熟練：162 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 1 | 7 | 8 | 0 | 16 |
-| [array](topics/array.md) | 12 | 5 | 12 | 0 | 29 |
+| [array](topics/array.md) | 12 | 5 | 13 | 0 | 30 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 2 | 5 | 0 | 8 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
-| [array-linear-scan](topics/array-linear-scan.md) | 3 | 5 | 13 | 0 | 21 |
+| [array-linear-scan](topics/array-linear-scan.md) | 2 | 5 | 13 | 0 | 20 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 3 | 0 | 3 |
 | [array-negative-marking](topics/array-negative-marking.md) | 4 | 1 | 0 | 0 | 5 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
@@ -40,7 +40,7 @@
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 28 | 2 | 13 | 0 | 43 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 15 | 3 | 3 | 0 | 21 |
-| [hash-table-set](topics/hash-table-set.md) | 12 | 3 | 6 | 0 | 21 |
+| [hash-table-set](topics/hash-table-set.md) | 11 | 3 | 7 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 634 個解法標記為生疏，建議找時間重新練習。
+目前共有 632 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -254,7 +254,6 @@
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | [C++](problems/0338.md) | bit-manipulation-and |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | [C++](problems/0343.md) | greedy |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | [C++](problems/0347.md) | sorting |
-| 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | [C++](problems/0350.md) | hash-table-set |
 | 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | [C++](problems/0357.md) | math-combination |
 | 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 Medium | [C++](problems/0365.md) | math-gcd |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 Easy | [C++](problems/0367.md) | binary-search |
@@ -662,7 +661,6 @@
 | 3131 | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 Easy | [C++](problems/3131.md) | math |
 | 3132 | [Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) | 🟡 Medium | [C++](problems/3132.md) | two-pointers-same |
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | [C++](problems/3133.md) | bit-manipulation-and |
-| 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | [C++](problems/3162.md) | array-linear-scan |
 | 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 Easy | [C++](problems/3210.md) | string |
 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | [C++](problems/3216.md) | greedy |
 | 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | [C++](problems/3227.md) | math-game-theory |

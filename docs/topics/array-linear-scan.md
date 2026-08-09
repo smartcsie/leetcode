@@ -1,12 +1,11 @@
 # array-linear-scan
 
-## 🔴 生疏（3）
+## 🔴 生疏（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | Brute Force, Simulation | [C++](../problems/1608.md) | O(N²) | O(1) |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 Easy | Array, Simulation | [C++](../problems/1848.md) | O(N) | O(1) |
-| 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | Array Linear Scan, Brute Force | [C++](../problems/3162.md) | O(N*M) | O(1) |
 
 ## 🟡 注意（5）
 

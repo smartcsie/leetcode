@@ -18,23 +18,15 @@
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-        // 小優化：確保 nums1 是較短的那個，減少空間消耗
-        if (nums1.size() > nums2.size()) {
-            return intersect(nums2, nums1);
-        }
-        vector<int> res;
-        unordered_map<int, int> counts;
-        // 統計第一個陣列的數字頻率
-        for (int num : nums1) {
-            counts[num]++;
-        }
-        // 遍歷第二個陣列比對頻率
-        for (int num : nums2) {
-            if (counts.count(num) && counts[num] > 0) {
-                res.push_back(num);
-                counts[num]--; // 每匹配到一個，次數減一
+        vector<int> counts(1001, 0);
+        vector<int> ans;
+        for(const int& x : nums1) counts[x]++;
+        for(const int& x : nums2) {
+            if(counts[x]) {
+                ans.push_back(x);
+                counts[x]--;
             }
         }
-        return res;
+        return ans;
     }
 };
