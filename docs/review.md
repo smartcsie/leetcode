@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：602 題　🟡 注意：86 題　🟢 熟練：175 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：601 題　🟡 注意：87 題　🟢 熟練：175 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -77,7 +77,7 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 34 | 3 | 3 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 14 | 0 | 2 | 0 | 16 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 13 | 1 | 2 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 17 | 1 | 3 | 0 | 21 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 611 個解法標記為生疏，建議找時間重新練習。
+目前共有 610 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -487,7 +487,6 @@
 | 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 Medium | [C++](problems/1738.md) | prefix-sum |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 Easy | [C++](problems/1742.md) | math-digit-decomposition |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | [C++](problems/1748.md) | hash-table-counting |
-| 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 Medium | [C++](problems/1750.md) | two-pointers-opposite |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | [C++](problems/1758.md) | string |
 | 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | [C++](problems/1780.md) | math |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 Easy | [C++](problems/1784.md) | string |

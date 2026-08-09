@@ -11,13 +11,13 @@ class Solution {
 public:
     int minimumLength(string s) {
         if(s.size() == 1) return 1;
-        int i = 0;
-        int j = s.size() - 1;
-        while(i < j && s[i] == s[j]) {
-            char c = s[i];
-            while(i <= j && s[i] == c) i++;
-            while(i <= j && s[j] == c) j--;
+        int left = 0;
+        int right = s.size() - 1;
+        while(left < right && s[left] == s[right]) {
+            char c = s[left];
+            while(left <= right && s[left] == c) left++;
+            while(left <= right && s[right] == c) right--;
         }
-        return i > j ? 0 : (j - i + 1);
+        return right - left + 1;
     }
 };
