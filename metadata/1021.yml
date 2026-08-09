@@ -11,4 +11,7 @@ solutions:
   - stack
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> 遇到 ( 先if(count >= 1) ans.push_back(c);
+
+    > 遇到 ) 後if(count >= 1) ans.push_back(c);'

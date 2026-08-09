@@ -16,20 +16,16 @@
 class Solution {
 public:
     std::string removeOuterParentheses(std::string s) {
-        std::string ans;
+        string ans;
         int count = 0;
-        
-        for (const char c : s) {
-            if (c == '(') {
-                // 若 count > 0，代表此 '(' 被包在其他括號內
-                if (count > 0) ans.push_back(c);
+        for(const char& c : s) {
+            if(c == '(') {
+                if(count >= 1) ans.push_back(c);
                 count++;
-            } else { // c == ')'
+            } else {
                 count--;
-                // 若 count > 0，代表此 ')' 對應的左括號不是外層
-                if (count > 0) ans.push_back(c);
+                if(count >= 1) ans.push_back(c);
             }
         }
-  
         return ans;
     }
