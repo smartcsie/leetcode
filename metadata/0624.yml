@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0624.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Greedy
   - Greedy
   topics:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意

@@ -20,23 +20,14 @@
 class Solution {
 public:
     int maxDistance(vector<vector<int>>& arrays) {
-        // 初始化：使用第一個陣列的頭尾作為初始極值
-        int last_min = arrays[0][0];
-        int last_max = arrays[0].back();
-        int max_dist = 0;
-        
-        // 從第二個陣列開始遍歷
+        int mn = arrays[0].front();
+        int mx = arrays[0].back();
+        int ans = 0;
         for (int i = 1; i < arrays.size(); i++) {
-            // 計算當前陣列端點與先前紀錄極值的距離
-            // 因為 last_min/max 來自於 arrays[0...i-1]，這保證了與當前 arrays[i] 不同源
-            max_dist = max(max_dist, abs(arrays[i].back() - last_min));
-            max_dist = max(max_dist, abs(last_max - arrays[i][0]));
-            
-            // 更新歷史極值以供後續陣列使用
-            last_min = min(last_min, arrays[i][0]);
-            last_max = max(last_max, arrays[i].back());
+            ans = max(ans, max(arrays[i].back() - mn,mx - arrays[i].front()));
+            mn = min(mn, arrays[i].front());
+            mx = max(mx, arrays[i].back());
         }
-        
-        return max_dist;
+        return ans;
     }
 };

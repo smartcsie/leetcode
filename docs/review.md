@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：632 題　🟡 注意：72 題　🟢 熟練：159 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：627 題　🟡 注意：77 題　🟢 熟練：159 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -21,7 +21,7 @@
 | [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 2 |
 | [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 21 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
-| [binary-search-tree](topics/binary-search-tree.md) | 16 | 1 | 0 | 0 | 17 |
+| [binary-search-tree](topics/binary-search-tree.md) | 14 | 3 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
 | [bit-manipulation](topics/bit-manipulation.md) | 21 | 3 | 11 | 0 | 35 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 5 | 2 | 2 | 0 | 9 |
@@ -36,11 +36,11 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 36 | 3 | 3 | 0 | 42 |
+| [greedy](topics/greedy.md) | 35 | 4 | 3 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 29 | 1 | 12 | 0 | 42 |
+| [hash-table-counting](topics/hash-table-counting.md) | 28 | 2 | 12 | 0 | 42 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 17 | 2 | 3 | 0 | 22 |
-| [hash-table-set](topics/hash-table-set.md) | 13 | 2 | 6 | 0 | 21 |
+| [hash-table-set](topics/hash-table-set.md) | 12 | 3 | 6 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 641 個解法標記為生疏，建議找時間重新練習。
+目前共有 636 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -163,7 +163,6 @@
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | [C++](problems/0094.md) | tree |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | [C++](problems/0096.md) | dynamic-programming |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | [C++](problems/0097.md) | dynamic-programming |
-| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | [C++](problems/0098.md) | binary-search-tree |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | [C++](problems/0099.md) | binary-search-tree |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 Easy | [C++](problems/0101.md) | tree-dfs-path |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | [C++](problems/0103.md) | tree-bfs-level-order |
@@ -299,7 +298,6 @@
 | 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | [C++](problems/0523.md) | prefix-sum |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | [C++](problems/0524.md) | sorting |
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 Easy | [C++](problems/0530.md) | binary-search-tree |
-| 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | [C++](problems/0532.md) | hash-table-counting |
 | 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | 🟡 Medium | [C++](problems/0538.md) | binary-search-tree |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | [C++](problems/0539.md) | sorting |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | [C++](problems/0540.md) | binary-search |
@@ -317,7 +315,6 @@
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | [C++](problems/0606.md) | tree-dfs-path |
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | [C++](problems/0611.md) | two-pointers-opposite |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | [C++](problems/0617.md) | tree-dfs-path |
-| 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | [C++](problems/0624.md) | greedy |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | [C++](problems/0633.md) | math |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | [C++](problems/0637.md) | tree-bfs-level-order |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | [C++](problems/0643.md) | fixed-size-sliding-window |
@@ -338,7 +335,6 @@
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | [C++](problems/0692.md) | priority-queue |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | [C++](problems/0696.md) | array-continuous-counting |
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 Easy | [C++](problems/0697.md) | hash-table-counting |
-| 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 Easy | [C++](problems/0700.md) | binary-search-tree |
 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 Medium | [C++](problems/0701.md) | binary-search-tree |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 Easy | [C++](problems/0703.md) | priority-queue |
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | 🟢 Easy | [C++](problems/0705.md) | design |
@@ -513,7 +509,6 @@
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | [C++](problems/1785.md) | greedy |
 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 Easy | [C++](problems/1790.md) | string |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 Easy | [C++](problems/1800.md) | array |
-| 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 Easy | [C++](problems/1805.md) | hash-table-set |
 | 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | [C++](problems/1818.md) | binary-search-build-in |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | [C++](problems/1822.md) | math |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | [C++](problems/1837.md) | math-digit-decomposition |

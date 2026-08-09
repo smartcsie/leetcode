@@ -1,6 +1,6 @@
 # greedy
 
-## 🔴 生疏（36）
+## 🔴 生疏（35）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](../problems/0343.md) | O(1) | O(1) |
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](../problems/0397.md) | O(1) |  |
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | 🟢 Easy | Hash Table, Greedy | [C++](../problems/0409.md) | O(N) | O(K) |
-| 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Array, Greedy | [C++](../problems/0624.md) | O(N) | O(1) |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy | [C++](../problems/0670.md) | O(N) | O(1) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array, Greedy | [C++](../problems/0674.md) | O(N) | O(1) |
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy, String | [C++](../problems/0678.md) | O(N) | O(1) |
@@ -41,11 +40,12 @@
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | Greedy, String | [C++](../problems/3114.md) | O(1) | O(1) |
 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | Greedy, String | [C++](../problems/3216.md) | O(N) | O(1) |
 
-## 🟡 注意（3）
+## 🟡 注意（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟢 Easy | Greedy | [C++](../problems/0453.md) | O(N) | O(1) |
+| 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Greedy, Greedy | [C++](../problems/0624.md) | O(N) | O(1) |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 Easy | Greedy, Simulation | [C++](../problems/0860.md) | O(N) | O(1) |
 | 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 Medium | Greedy, Recursion, String Construction | [C++](../problems/0984.md) | O(A + B) | O(A + B) |
 

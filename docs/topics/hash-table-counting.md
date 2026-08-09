@@ -1,11 +1,10 @@
 # hash-table-counting
 
-## 🔴 生疏（29）
+## 🔴 生疏（28）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table, String | [C++](../problems/0049.md) | O(N*K) | O(N*K) |
-| 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Counting | [C++](../problems/0532.md) | O(NlogN) - 排序後雙指針或二分搜尋。 | O(N) - 排序空間 O(logN)，set O(N)。 |
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 Easy | Hash Map, One-pass | [C++](../problems/0697.md) | O(N) | O(N) |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 Medium | Hash Table Counting, Hash Table, Counting | [C++](../problems/0916.md) | O(N * L) | O(1) |
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 Easy | Frequency Count | [C++](../problems/1160.md) | O(N) | O(1) |
@@ -34,10 +33,11 @@
 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | String, Hash Map | [C++](../problems/3442.md) | O(N) | O(1) |
 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 Medium | String, Hash Map | [C++](../problems/3926.md) | O(N+M) | O(N) |
 
-## 🟡 注意（1）
+## 🟡 注意（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Counting | [C++](../problems/0532.md) | O(NlogN) - 排序後雙指針或二分搜尋。 | O(N) - 排序空間 O(logN)，set O(N)。 |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | String, Hash Table | [C++](../problems/0819.md) | O(M+N) | O(M+N) |
 
 ## 🟢 熟悉（12）

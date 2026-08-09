@@ -9,16 +9,12 @@
  * 解法思路：
  * 利用 BST 特性，比目標值小則往右，大則往左，直到找到節點或到達葉子節點為止。
  */
-
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
-        while (root && val != root->val) {
-            if (val < root->val) {
-                root = root->left;
-            } else {
-                root = root->right;
-            }
+        while(root && root->val != val) {
+            if(val < root->val ) root = root->left;
+            else if(val > root->val ) root = root->right;
         }
         return root;
     }

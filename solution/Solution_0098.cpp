@@ -2,21 +2,14 @@
  * 註解：待補充
  */
 class Solution {
-public:
-    void inorder(TreeNode* root, vector<int>& res) {
-        if(root==nullptr) return;
-        inorder(root->left, res);
-        res.push_back(root->val);
-        inorder(root->right, res);
+private:
+    bool isValidBST(TreeNode* root, long min, long max) {
+        if(!root) return true;
+        if(root->val <= min || root->val >= max) return false;
+        return isValidBST(root->left, min, root->val) && isValidBST(root->right, root->val, max);
     }
+public:
     bool isValidBST(TreeNode* root) {
-        vector<int> res;
-        inorder(root, res);
-        for(int i =0; i < res.size()-1; i++) {
-            if(res[i] >= res[i+1]) {
-                return false;
-            }
-        }
-        return true;
+        return isValidBST(root, LONG_MIN, LONG_MAX);
     }
 };

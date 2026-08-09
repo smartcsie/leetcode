@@ -5,10 +5,11 @@ solutions:
 - file: Solution_1805.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Hash Table Set
   - Hash Set
   topics:
   - hash-table-set
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> size_t first_not_zero = strNum.find_first_not_of(''0'');'

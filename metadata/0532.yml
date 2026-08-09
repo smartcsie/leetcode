@@ -10,4 +10,17 @@ solutions:
   - hash-table-counting
   time: O(NlogN) - 排序後雙指針或二分搜尋。
   space: O(N) - 排序空間 O(logN)，set O(N)。
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> 兩種做法<br>
+
+    > 或是存數對的前面<br>
+
+    > if(seen.count(x - k))  ans.insert(x - k);<br>
+
+    > if(seen.count(x + k))  ans.insert(x);<br>
+
+    > 或是存數對的後面<br>
+
+    > if(seen.count(x - k))  ans.insert(x);<br>
+
+    > if(seen.count(x + k))  ans.insert(x + k);<br>'
