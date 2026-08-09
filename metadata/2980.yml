@@ -5,13 +5,11 @@ solutions:
 - file: Solution_2980.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Or
   - Math
   topics:
   - bit-manipulation-or
   time: O(N)
   space: O(1)
-  note: '> [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)<br>
-
-    > travsal nums，出現兩個even number，return true<br>'
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> travsal nums，至少出現兩個even number，return true<br>'
