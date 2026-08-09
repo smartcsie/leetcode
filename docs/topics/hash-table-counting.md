@@ -40,10 +40,11 @@
 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Counting | [C++](../problems/0532.md) | O(NlogN) - 排序後雙指針或二分搜尋。 | O(N) - 排序空間 O(logN)，set O(N)。 |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | String, Hash Table | [C++](../problems/0819.md) | O(M+N) | O(M+N) |
 
-## 🟢 熟悉（12）
+## 🟢 熟悉（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/0383.md) | O(M+N) | O(1) |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](../problems/0771.md) | O(J+S) | O(J) |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 Easy | Hash Table, Counting | [C++](../problems/1207.md) | O(N) | O(N) |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/1394.md) | O(N) | O(1) |

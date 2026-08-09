@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：627 題　🟡 注意：77 題　🟢 熟練：159 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：625 題　🟡 注意：78 題　🟢 熟練：160 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -38,8 +38,8 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 35 | 4 | 3 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 28 | 2 | 12 | 0 | 42 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 17 | 2 | 3 | 0 | 22 |
+| [hash-table-counting](topics/hash-table-counting.md) | 28 | 2 | 13 | 0 | 43 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 15 | 3 | 3 | 0 | 21 |
 | [hash-table-set](topics/hash-table-set.md) | 12 | 3 | 6 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 636 個解法標記為生疏，建議找時間重新練習。
+目前共有 634 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -263,7 +263,6 @@
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | [C++](problems/0374.md) | binary-search |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | [C++](problems/0377.md) | knapsack-problem |
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | [C++](problems/0378.md) | binary-search |
-| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | [C++](problems/0383.md) | hash-table-mapping |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | [C++](problems/0387.md) | string-substring |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | [C++](problems/0392.md) | dynamic-programming |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | [C++](problems/0396.md) | math |
@@ -394,7 +393,6 @@
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | 🟡 Medium | [C++](problems/0988.md) | tree-dfs-path |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | [C++](problems/0989.md) | math-simulation |
 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 Easy | [C++](problems/0993.md) | tree-bfs-level-order |
-| 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | [C++](problems/1002.md) | hash-table-mapping |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | 🟡 Medium | [C++](problems/1004.md) | variable-size-sliding-window |
 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 Easy | [C++](problems/1005.md) | greedy |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 Medium | [C++](problems/1008.md) | binary-search-tree |
