@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1232.cpp
   difficulty: 🟢 Easy
   tags:
+  - Math Geometry
   - Geometry
-  - Math
   topics:
   - math-geometry
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
