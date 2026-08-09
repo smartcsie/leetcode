@@ -15,15 +15,13 @@ public:
     long long countVowels(std::string word) {
         long long count = 0;
         long long n = word.size();
-        
         for (int i = 0; i < n; i++) {
             // 位元遮罩判斷: 2130466 對應母音位置
-            if ((2130466 >> (word[i] - 'a' + 1)) & 1) {
+            if ((0x104111 >> (word[i] - 'a')) & 1) {
                 // 每個母音貢獻 = (左側可選長度) * (右側可選長度)
                 count += (i + 1) * (n - i);
             }
         }
-        
         return count;
     }
 };

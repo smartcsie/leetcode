@@ -5,12 +5,13 @@ solutions:
 - file: Solution_2460.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Fast Slow Pointers
   - Simulation
   topics:
-  - string
+  - fast-slow-pointers
   time: O(N)
   space: O(1)
   familiarity: 熟練
   related:
+  - 27
   - 283

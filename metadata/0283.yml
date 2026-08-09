@@ -5,12 +5,13 @@ solutions:
 - file: Solution_0283.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Fast Slow Pointers
   - Fast-Slow Pointers
   topics:
-  - two-pointers-swap
+  - fast-slow-pointers
   time: O(N)
   space: O(1)
   familiarity: 注意
   related:
+  - 27
   - 2460

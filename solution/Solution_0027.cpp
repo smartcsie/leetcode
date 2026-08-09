@@ -22,20 +22,9 @@ class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
         int slow = 0;
-        
-        for (int fast = 0; fast < nums.size(); fast++) {
-            // 如果當前數字不是要移除的目標
-            if (nums[fast] != val) {
-                // 將合法數字搬到前方 slow 的位置
-                nums[slow] = nums[fast];
-                // 慢指標前進
-                slow++;
-            }
-            // 如果 nums[fast] == val，slow 不動，fast 繼續走，
-            // 相當於跳過了這個需要被移除的元素。
+        for(int fast = 0; fast < nums.size(); fast++) {
+            if(nums[fast] != val) swap(nums[fast], nums[slow++]);
         }
-        
-        // slow 剛好等於新陣列的元素個數
         return slow;
     }
 };
