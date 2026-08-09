@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：603 題　🟡 注意：85 題　🟢 熟練：175 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：602 題　🟡 注意：86 題　🟢 熟練：175 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -31,7 +31,7 @@
 | [design](topics/design.md) | 5 | 1 | 0 | 0 | 6 |
 | [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 31 |
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 8 | 1 | 4 | 0 | 13 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 7 | 2 | 4 | 0 | 13 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 0 | 11 |
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 1 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 612 個解法標記為生疏，建議找時間重新練習。
+目前共有 611 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -531,7 +531,6 @@
 | 2062 | [Count Vowel Substrings](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) | 🟢 Easy | [C++](problems/2062.md) | variable-size-sliding-window |
 | 2068 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 Easy | [C++](problems/2068.md) | hash-table-counting |
 | 2085 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | 🟢 Easy | [C++](problems/2085.md) | bit-manipulation |
-| 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | [C++](problems/2095.md) | fast-slow-pointers |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | [C++](problems/2109.md) | two-pointers-same |
 | 2116 | [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | 🟡 Medium | [C++](problems/2116.md) | greedy |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | [C++](problems/2119.md) | math |
