@@ -5,11 +5,11 @@ solutions:
 - file: Solution_2225.cpp
   difficulty: 🟡 Medium
   tags:
+  - Sorting
   - Hash Table
   - Counting
-  - Sorting
   topics:
-  - hash-table-counting
+  - sorting
   time: O(NlogN)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練

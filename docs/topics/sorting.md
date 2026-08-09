@@ -36,9 +36,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting, Sorting, Hash Table | [C++](../problems/2418.md) | O(NlogN) | O(N) |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | Array, Greedy, Sorting | [C++](../problems/0561.md) | O(NlogN) | O(1) |
 | 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting | [C++](../problems/2164.md) | O(NlogN) | O(N) |
+| 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 Medium | Sorting, Hash Table, Counting | [C++](../problems/2225.md) | O(NlogN) | O(N) |

@@ -17,19 +17,13 @@ class Solution {
 public:
     int diagonalSum(vector<vector<int>>& mat) {
         int n = mat.size();
-        int total = 0;
-        
-        for (int i = 0; i < n; ++i) {
-            // 加入主對角線元素
-            total += mat[i][i];
-            
-            // 加入次對角線元素，但排除主對角線已計算過的中心點
-            // i != n - 1 - i 確保了不會重複累加中間元素
-            if (i != n - 1 - i) {
-                total += mat[i][n - 1 - i];
-            }
+        int sum = 0;
+        for(int i = 0; i < n; i ++) {
+            sum += mat[i][i];
+            if(i != (n - 1 - i)) {
+                sum += mat[i][ n - 1 -i];
+             }
         }
-        
-        return total;
+        return sum;
     }
 };
