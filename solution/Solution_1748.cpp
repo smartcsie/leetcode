@@ -14,24 +14,10 @@
 class Solution {
 public:
     int sumOfUnique(vector<int>& nums) {
-        // 使用固定大小的陣列取代雜湊表，效能更好
-        int count[101] = {0}; 
-        int sum = 0;
-        
-        for (const int& num : nums) {
-            count[num]++;
-            
-            // 第一次出現時加入
-            if (count[num] == 1) {
-                sum += num;
-            } 
-            // 第二次出現時移除（即變為不再唯一）
-            else if (count[num] == 2) {
-                sum -= num;
-            }
-            // 若超過兩次則忽略（維持 sum 不變）
-        }
-        
-        return sum;
+        vector<int> counts(101, 0);
+        int ans = 0;
+        for(const int& x : nums) counts[x]++;
+        for(int i = 1; i <= 100; i++) if(counts[i] == 1) ans += i;
+        return ans;
     }
 };
