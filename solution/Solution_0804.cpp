@@ -13,18 +13,17 @@
 class Solution {
 public:
     int uniqueMorseRepresentations(vector<string>& words) {
-        static const vector<string> morse = { 
+        static const vector<string> codes = { 
             ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", 
             "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", 
             "..-", "...-", ".--", "-..-", "-.--", "--.."
         };
-        unordered_set<string> unique_codes;
-        unique_codes.reserve(words.size());
+        unordered_set<string> uniqueCodes;
         for(const string& word : words) {
-            string str;
-            for(char c : word) str += morse[c - 'a'];
-            unique_codes.insert(str);
+            string code;
+            for(const char& c : word) code += codes[c - 'a'];
+            uniqueCodes.insert(code);
         }
-        return unique_codes.size();
+        return uniqueCodes.size();
     }
 };

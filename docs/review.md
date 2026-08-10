@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：562 題　🟡 注意：100 題　🟢 熟練：201 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：561 題　🟡 注意：100 題　🟢 熟練：202 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -39,7 +39,7 @@
 | [greedy](topics/greedy.md) | 33 | 5 | 3 | 0 | 41 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 26 | 2 | 14 | 0 | 42 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 14 | 3 | 4 | 0 | 21 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 13 | 3 | 5 | 0 | 21 |
 | [hash-table-set](topics/hash-table-set.md) | 11 | 3 | 7 | 0 | 21 |
 | [interval](topics/interval.md) | 5 | 0 | 0 | 0 | 5 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 571 個解法標記為生疏，建議找時間重新練習。
+目前共有 570 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -330,7 +330,6 @@
 | 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | [C++](problems/0786.md) | priority-queue |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 Medium | [C++](problems/0791.md) | string |
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | [C++](problems/0796.md) | string-substring |
-| 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | 🟢 Easy | [C++](problems/0804.md) | hash-table-mapping |
 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | [C++](problems/0810.md) | math-game-theory |
 | 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | [C++](problems/0821.md) | array |
 | 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | [C++](problems/0833.md) | string-substring |
