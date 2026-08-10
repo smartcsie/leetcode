@@ -5,11 +5,11 @@ solutions:
 - file: Solution_1893.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Bit Manipulation
   - Bitset
   - Simulation
   topics:
   - bit-manipulation
   time: O(N*L)
   space: O(1)*
-  familiarity: 生疏
+  familiarity: 熟練
