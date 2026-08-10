@@ -11,9 +11,9 @@ solutions:
   - string
   time: O(N)
   space: O(N)
+  familiarity: 熟練
   note: '> [Shuffle String](https://leetcode.com/problems/shuffle-string)<br>
 
     > **string res(s.size(), '' '');** <br>
 
     > **for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];** <br>'
-  familiarity: 生疏

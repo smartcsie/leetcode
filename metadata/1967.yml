@@ -11,12 +11,5 @@ solutions:
   - string
   time: O(N*M)
   space: O(1)
-  note: '> [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)
-    <br>
-
-    > 用word去find vector<string> patterns<br>
-
-
-
-    <br><br>'
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> 用contains比find效能好<br>'
