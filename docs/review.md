@@ -3,16 +3,16 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：585 題　🟡 注意：95 題　🟢 熟練：183 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：584 題　🟡 注意：96 題　🟢 熟練：183 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 1 | 7 | 9 | 0 | 17 |
-| [array](topics/array.md) | 11 | 6 | 13 | 0 | 30 |
+| [array](topics/array.md) | 10 | 6 | 13 | 0 | 29 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 2 | 5 | 0 | 8 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 5 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
 | [array-linear-scan](topics/array-linear-scan.md) | 2 | 5 | 14 | 0 | 21 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 3 | 0 | 3 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 594 個解法標記為生疏，建議找時間重新練習。
+目前共有 593 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -481,7 +481,6 @@
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 Easy | [C++](problems/1784.md) | string |
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | [C++](problems/1785.md) | greedy |
 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 Easy | [C++](problems/1790.md) | string |
-| 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 Easy | [C++](problems/1800.md) | array |
 | 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | [C++](problems/1818.md) | binary-search-build-in |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | [C++](problems/1837.md) | math-digit-decomposition |
 | 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | 🟡 Medium | [C++](problems/1839.md) | variable-size-sliding-window |

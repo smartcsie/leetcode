@@ -17,25 +17,14 @@
 class Solution {
 public:
     int maxAscendingSum(vector<int>& nums) {
-        // 若陣列為空，雖題目限制至少有1個，但仍可進行安全檢查
-        if (nums.empty()) return 0;
-        
+        if(nums.size() == 0) return 0;
         int sum = nums[0];
-        int curSum = nums[0];
-        
-        for (int i = 1; i < nums.size(); i++) {
-            // 若當前元素不大於前一個，遞增序列中斷，重置當前和
-            if (nums[i] <= nums[i-1]) {
-                curSum = 0;
-            }
-            
-            // 累加當前元素
-            curSum += nums[i];
-            
-            // 更新歷史最大值
-            sum = max(sum, curSum);
+        int maxSum = nums[0];
+        for(int i = 1; i < nums.size(); i++) {
+            if(nums[i] <= nums[i - 1]) sum = 0;
+            sum += nums[i];
+            maxSum = max(maxSum, sum);
         }
-        
-        return sum;
+        return maxSum;
     }
 };

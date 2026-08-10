@@ -5,9 +5,9 @@ solutions:
 - file: Solution_1800.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Array Continuous Counting
   topics:
-  - array
+  - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意
