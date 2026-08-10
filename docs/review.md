@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：568 題　🟡 注意：99 題　🟢 熟練：196 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：566 題　🟡 注意：100 題　🟢 熟練：197 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -23,7 +23,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 14 | 3 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 21 | 3 | 11 | 0 | 35 |
+| [bit-manipulation](topics/bit-manipulation.md) | 19 | 4 | 11 | 0 | 34 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 3 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 1 | 0 | 5 |
@@ -54,7 +54,7 @@
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 1 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 1 |
-| [math-prime](topics/math-prime.md) | 9 | 2 | 1 | 0 | 12 |
+| [math-prime](topics/math-prime.md) | 9 | 2 | 2 | 0 | 13 |
 | [math-simulation](topics/math-simulation.md) | 1 | 1 | 3 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 6 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 577 個解法標記為生疏，建議找時間重新練習。
+目前共有 575 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -155,7 +155,6 @@
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 🟢 Easy | [C++](problems/0083.md) | linked-list |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | [C++](problems/0086.md) | two-pointers-same |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 Easy | [C++](problems/0088.md) | two-pointers-partition |
-| 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | [C++](problems/0089.md) | bit-manipulation |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | [C++](problems/0090.md) | backtracking-combination |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | [C++](problems/0090.md) | bit-bitmask-subset-enumeration |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 Medium | [C++](problems/0092.md) | linked-list |
@@ -325,7 +324,6 @@
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | [C++](problems/0739.md) | monotonic-stack |
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | [C++](problems/0743.md) | graph-shortest-path |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | 🟢 Easy | [C++](problems/0744.md) | binary-search-build-in |
-| 762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | [C++](problems/0762.md) | bit-manipulation |
 | 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | 🟡 Medium | [C++](problems/0777.md) | two-pointers-same |
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 Easy | [C++](problems/0783.md) | binary-search-tree |
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | [C++](problems/0784.md) | backtracking-combination |

@@ -21,8 +21,9 @@
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math, Sieve | [C++](../problems/0204.md) | O(NloglogN) | O(N) |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math Prime | [C++](../problems/1952.md) | O(√N) | O(1) |
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Math Prime | [C++](../problems/0762.md) | O(NlogK) | O(1) |
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math Prime, Trial Division | [C++](../problems/2614.md) | O(N*sqrt(M)) | O(1) |
