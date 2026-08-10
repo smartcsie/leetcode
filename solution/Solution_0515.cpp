@@ -15,19 +15,19 @@ class Solution {
 public:
     vector<int> largestValues(TreeNode* root) {
         if(!root) return {};
-        vector<int> res;
+        vector<int> ans;
         queue<TreeNode*> q({root});
         while(!q.empty()) {
-            int max = INT_MIN;
-            for(int i = q.size() -1; i >= 0; i--) {
+            long mx = LONG_MIN;
+            for(int i = q.size() - 1; i >= 0; i--) {
                 TreeNode* node = q.front();
                 q.pop();
-                max = std::max(max, node->val);
+                mx = max(mx, static_cast<long>(node->val));
                 if(node->left) q.push(node->left);
                 if(node->right) q.push(node->right);
             }
-            res.push_back(max);
+            ans.push_back(static_cast<int>(mx));
         }
-        return res;
+        return ans;
     }
 };
