@@ -36,7 +36,7 @@
 | 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums) | 🟢 Easy | Math | [C++](../problems/3658.md) | O(1) | O(1) |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | Array, Math | [C++](../problems/3701.md) | O(N) | O(1) |
 
-## 🟡 注意（9）
+## 🟡 注意（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -45,6 +45,7 @@
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](../problems/0258.md) | O(1) | O(1) |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](../problems/0263.md) | O(logN) | O(1) |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) |
+| 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](../problems/0343.md) | O(1) | O(1) |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](../problems/0441.md) | O(logN) | O(1) |
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](../problems/1344.md) | O(1) | O(1) |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 Easy | Math | [C++](../problems/1523.md) | O(1) | O(1) |

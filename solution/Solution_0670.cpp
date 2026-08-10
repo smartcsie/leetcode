@@ -13,27 +13,21 @@
 class Solution {
 public:
     int maximumSwap(int num) {
-        std::string s = std::to_string(num);
-        int n = s.size();
-        
-        // 紀錄每個數字 (0-9) 最後出現的索引
-        std::vector<int> last_idx(10);
-        for (int i = 0; i < n; ++i) {
-            last_idx[s[i] - '0'] = i;
-        }
-        
-        // 遍歷尋找第一個可以交換以變大的位置
-        for (int i = 0; i < n; ++i) {
-            // 從 9 到當前數字 s[i] 檢查是否有更大的數出現在後面
-            for (int d = 9; d > s[i] - '0'; --d) {
-                if (last_idx[d] > i) {
-                    // 執行交換，該數字位於 last_idx[d] 一定是該數字最右邊的實例
-                    std::swap(s[i], s[last_idx[d]]);
-                    return std::stoi(s);
-                }
+        string s = to_string(num);
+        for(int i = 0; i < s.size(); i++) {
+            char mxCh = 0;
+            int maxIdx = 0;
+            for(int j = i + 1; j < s.size(); j++) {
+                if(s[j] >= mxCh) {
+                    maxIdx = j;
+                    mxCh = s[j];
+                } 
+            }
+            if(mxCh > s[i]) {
+                swap(s[i], s[maxIdx]);
+                return stoi(s);
             }
         }
-        
-        return num; // 若遍歷後無法變大，則回傳原數
+        return num;
     }
 };

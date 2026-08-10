@@ -1,6 +1,6 @@
 # tree-dfs-path
 
-## 🔴 生疏（33）
+## 🔴 生疏（32）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,6 @@
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree, DFS | [C++](../problems/0404.md) | O(N) | O(H) |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | DFS, Prefix Sum | [C++](../problems/0437.md) | O(N) | O(H) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Tree, DFS | [C++](../problems/0543.md) | O(N) | O(H) |
-| 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | Tree, DFS, BFS | [C++](../problems/0559.md) | O(N) | O(H) |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | 🟢 Easy | DFS, Post-order | [C++](../problems/0563.md) | O(N) | O(H) |
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree, DFS | [C++](../problems/0572.md) | O(N*M) | O(H) |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree, DFS | [C++](../problems/0606.md) | O(N) | O(H) |
@@ -46,11 +45,12 @@
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0110.md) | O(N) | O(H) |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 Easy | Tree Dfs Path, BFS, DFS | [C++](../problems/0111.md) | O(N) | O(H) |
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Stack, Tree, DFS | [C++](../problems/0094.md) | O(N) | O(H) |
-| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Tree, DFS | [C++](../problems/0104.md) | O(N) | O(H) |
+| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0104.md) | O(N) | O(H) |
+| 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | Tree Dfs Path, DFS, BFS | [C++](../problems/0559.md) | O(N) | O(H) |
 | 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0589.md) | O(N) | O(H) |
 | 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0590.md) | O(N) | O(H) |

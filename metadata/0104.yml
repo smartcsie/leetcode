@@ -5,7 +5,7 @@ solutions:
 - file: Solution_0104.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree
+  - Tree Dfs Path
   - DFS
   topics:
   - tree-dfs-path
@@ -13,3 +13,5 @@ solutions:
   space: O(H)
   familiarity: 熟練
   is_best: true
+  related:
+  - 559

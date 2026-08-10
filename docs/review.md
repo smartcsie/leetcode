@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：599 題　🟡 注意：88 題　🟢 熟練：176 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：596 題　🟡 注意：90 題　🟢 熟練：177 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -36,7 +36,7 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 35 | 4 | 3 | 0 | 42 |
+| [greedy](topics/greedy.md) | 33 | 5 | 3 | 0 | 41 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 27 | 2 | 13 | 0 | 42 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 14 | 3 | 4 | 0 | 21 |
@@ -45,7 +45,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 31 | 10 | 4 | 0 | 45 |
+| [math](topics/math.md) | 31 | 11 | 4 | 0 | 46 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 18 | 8 | 15 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
@@ -74,7 +74,7 @@
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 11 | 0 | 3 | 0 | 14 |
 | [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 10 | 0 | 6 | 0 | 16 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 34 | 3 | 3 | 0 | 40 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 33 | 3 | 4 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 13 | 1 | 2 | 0 | 16 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 608 個解法標記為生疏，建議找時間重新練習。
+目前共有 605 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -245,7 +245,6 @@
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 Medium | [C++](problems/0328.md) | two-pointers-same |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | [C++](problems/0337.md) | dynamic-programming |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | [C++](problems/0338.md) | bit-manipulation-and |
-| 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | [C++](problems/0343.md) | greedy |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | [C++](problems/0347.md) | sorting |
 | 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | [C++](problems/0357.md) | math-combination |
 | 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 Medium | [C++](problems/0365.md) | math-gcd |
@@ -295,7 +294,6 @@
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | [C++](problems/0543.md) | tree-dfs-path |
 | 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 🟡 Medium | [C++](problems/0547.md) | union-find |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | [C++](problems/0557.md) | two-pointers-other |
-| 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | [C++](problems/0559.md) | tree-dfs-path |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | [C++](problems/0560.md) | prefix-sum |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | 🟢 Easy | [C++](problems/0563.md) | tree-dfs-path |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 Medium | [C++](problems/0567.md) | fixed-size-sliding-window |
@@ -315,7 +313,6 @@
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | 🟡 Medium | [C++](problems/0652.md) | tree |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 Easy | [C++](problems/0653.md) | binary-search-tree |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 Medium | [C++](problems/0662.md) | tree-bfs-level-order |
-| 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | [C++](problems/0670.md) | greedy |
 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 Easy | [C++](problems/0671.md) | tree-dfs-path |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | [C++](problems/0674.md) | dynamic-programming |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | [C++](problems/0674.md) | greedy |
