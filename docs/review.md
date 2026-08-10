@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：582 題　🟡 注意：97 題　🟢 熟練：184 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：581 題　🟡 注意：97 題　🟢 熟練：185 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -73,7 +73,7 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 3 | 0 | 0 | 0 | 3 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 11 | 0 | 3 | 0 | 14 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 8 | 1 | 7 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 7 | 1 | 8 | 0 | 16 |
 | [tree-dfs-path](topics/tree-dfs-path.md) | 31 | 3 | 6 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 591 個解法標記為生疏，建議找時間重新練習。
+目前共有 590 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -205,7 +205,6 @@
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | [C++](problems/0179.md) | sorting |
 | 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 Easy | [C++](problems/0182.md) | sql |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟢 Medium | [C++](problems/0198.md) | dynamic-programming |
-| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | [C++](problems/0199.md) | tree-bfs-level-order |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | [C++](problems/0200.md) | graph-dfs |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | [C++](problems/0202.md) | hash-table-mapping |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | [C++](problems/0206.md) | linked-list |
