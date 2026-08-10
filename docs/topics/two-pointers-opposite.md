@@ -1,6 +1,6 @@
 # two-pointers-opposite
 
-## 🔴 生疏（13）
+## 🔴 生疏（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -16,7 +16,6 @@
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | Greedy, Two Pointers | [C++](../problems/0942.md) | O(N) | O(N) |
 | 1877 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | 🟡 Medium | Array, Two Pointers, Greedy, Sorting | [C++](../problems/1877.md) | O(NlogN) | O(1)* |
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | Two Pointers | [C++](../problems/2562.md) | O(N*D) | O(1) |
-| 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | String, Two Pointers | [C++](../problems/3794.md) | O(N) | O(1) |
 
 ## 🟡 注意（1）
 

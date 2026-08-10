@@ -13,25 +13,9 @@
 class Solution {
 public:
     string reversePrefix(string s, int k) {
-        if(s.size() <= 1) return s;
-        reverse(s.begin(), s.begin() + k);
-        return s;
-    }
-};
-
-
-/*
-class Solution {
-public:
-    string reversePrefix(string s, int k) {
         int left = 0;
-        int right = k - 1;
-        while(left < right) {
-            swap(s[left], s[right]);
-            if((left < right)) left++;
-            if((left < right)) right--;
-        }
+        int right = k -1;
+        while(left < right) swap(s[left++], s[right--]);
         return s;
     }
 };
-*/

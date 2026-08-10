@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：570 題　🟡 注意：98 題　🟢 熟練：195 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：569 題　🟡 注意：98 題　🟢 熟練：196 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -77,17 +77,17 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 31 | 3 | 6 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 13 | 1 | 2 | 0 | 16 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 12 | 1 | 2 | 0 | 15 |
 | [two-pointers-other](topics/two-pointers-other.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 17 | 1 | 3 | 0 | 21 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 2 | 9 | 0 | 11 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 2 | 10 | 0 | 12 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |
 
 ---
 
-目前共有 579 個解法標記為生疏，建議找時間重新練習。
+目前共有 578 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -658,7 +658,6 @@
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | [C++](problems/3770.md) | math-prime |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | [C++](problems/3775.md) | string-character-classification |
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | [C++](problems/3783.md) | math-digit-decomposition |
-| 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | [C++](problems/3794.md) | two-pointers-opposite |
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | [C++](problems/3819.md) | two-pointers-same |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | [C++](problems/3838.md) | hash-table-mapping |
 | 3867 | [Sum of GCD of Formed Pairs](leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | [C++](problems/3867.md) | math-gcd |
