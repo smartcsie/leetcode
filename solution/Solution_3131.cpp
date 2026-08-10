@@ -14,8 +14,8 @@ class Solution {
 public:
     int addedInteger(std::vector<int>& nums1, std::vector<int>& nums2) {
         // 找到兩個陣列中的最大值
-        int max1 = *std::max_element(nums1.begin(), nums1.end());
-        int max2 = *std::max_element(nums2.begin(), nums2.end());
+        int max1 = *max_element(nums1.begin(), nums1.end());
+        int max2 = *max_element(nums2.begin(), nums2.end());
         
         // 差值即為被增加的整數 x
         return max2 - max1;
