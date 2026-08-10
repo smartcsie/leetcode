@@ -1,10 +1,9 @@
 # math-prime
 
-## 🔴 生疏（10）
+## 🔴 生疏（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math, Sieve | [C++](../problems/0204.md) | O(NloglogN) | O(N) |
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Prime, Palindrome Construction | [C++](../problems/0866.md) | O(sqrt(10^9)) | O(1) |
 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | Math, Prime Factorization | [C++](../problems/2521.md) | O(N*sqrt(M)) | O(K) |
 | 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | 🟡 Medium | Math, Sieve | [C++](../problems/2523.md) | O(NloglogN) | O(N) |
@@ -15,10 +14,11 @@
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math, Prefix Sum | [C++](../problems/3770.md) | O(RloglogR) | O(R) |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math, Sieve | [C++](../problems/3918.md) | O(RloglogR) | O(R) |
 
-## 🟡 注意（1）
+## 🟡 注意（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math, Sieve | [C++](../problems/0204.md) | O(NloglogN) | O(N) |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math Prime | [C++](../problems/1952.md) | O(√N) | O(1) |
 
 ## 🟢 熟悉（1）

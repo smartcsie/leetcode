@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：589 題　🟡 注意：93 題　🟢 熟練：181 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：588 題　🟡 注意：94 題　🟢 熟練：181 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -54,7 +54,7 @@
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 1 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 1 |
-| [math-prime](topics/math-prime.md) | 10 | 1 | 1 | 0 | 12 |
+| [math-prime](topics/math-prime.md) | 9 | 2 | 1 | 0 | 12 |
 | [math-simulation](topics/math-simulation.md) | 3 | 1 | 1 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 6 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 598 個解法標記為生疏，建議找時間重新練習。
+目前共有 597 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -208,7 +208,6 @@
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | [C++](problems/0199.md) | tree-bfs-level-order |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | [C++](problems/0200.md) | graph-dfs |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | [C++](problems/0202.md) | hash-table-mapping |
-| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | [C++](problems/0204.md) | math-prime |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | [C++](problems/0206.md) | linked-list |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | [C++](problems/0207.md) | topological-sort |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 Medium | [C++](problems/0209.md) | variable-size-sliding-window |

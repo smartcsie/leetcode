@@ -13,24 +13,21 @@
 
 class Solution {
 private:
-    bitset<5000001> isPrime;
-public:
-    int countPrimes(int n) {
-        if(n <= 1) return 0;
-        isPrime.set();
-        isPrime.reset(0);
-        isPrime.reset(1);
-        for(int p = 2; p *p <= n; p++) {
-            if(isPrime[p]) {
-                for(int i = p*p; i <= n; i += p) {
-                    isPrime.reset(i);;
-                }
+void getPrimes(int n, vector<bool>& primes) {
+    primes[0] = primes[1] = false;
+    for(int p = 2; p * p < n; p++) {
+        if(primes[p]) {
+            for(int i = p * p; i < n; i += p) {
+                primes[i] = false;
             }
         }
-        int count = 0;
-        for(int i = 0; i < n; i++) {
-            if(isPrime[i]) count++;
-        }
-        return count;
+    }
+}
+public:
+    int countPrimes(int n) {
+        if(n < 2) return 0;
+        vector<bool> isPrime(n, true);
+        getPrimes(n, isPrime);
+        return count(isPrime.begin(), isPrime.end(), true);
     }
 };
