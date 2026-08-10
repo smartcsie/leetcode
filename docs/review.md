@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：588 題　🟡 注意：94 題　🟢 熟練：181 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：587 題　🟡 注意：94 題　🟢 熟練：182 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -55,7 +55,7 @@
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 1 |
 | [math-prime](topics/math-prime.md) | 9 | 2 | 1 | 0 | 12 |
-| [math-simulation](topics/math-simulation.md) | 3 | 1 | 1 | 0 | 5 |
+| [math-simulation](topics/math-simulation.md) | 2 | 1 | 2 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 6 |
 | [prefix-sum](topics/prefix-sum.md) | 19 | 0 | 0 | 0 | 19 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 597 個解法標記為生疏，建議找時間重新練習。
+目前共有 596 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -679,7 +679,6 @@
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | [C++](problems/3819.md) | two-pointers-same |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | [C++](problems/3838.md) | hash-table-mapping |
 | 3867 | [Sum of GCD of Formed Pairs](leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | [C++](problems/3867.md) | math-gcd |
-| 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 Easy | [C++](problems/3894.md) | math-simulation |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | [C++](problems/3913.md) | sorting |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | [C++](problems/3918.md) | math-prime |
 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 Medium | [C++](problems/3926.md) | hash-table-counting |
