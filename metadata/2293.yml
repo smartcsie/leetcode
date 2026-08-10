@@ -5,10 +5,10 @@ solutions:
 - file: Solution_2293.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Math Simulation
   - Simulation
   topics:
   - math-simulation
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練

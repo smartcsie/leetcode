@@ -19,26 +19,12 @@
  * 5. 迴圈結束後，nums[0] 即為最終留下的唯一答案。
  */
 
-class Solution {
-public:
-    int minMaxGame(std::vector<int>& nums) {
-        while (nums.size() > 1) {
-            // 複製一份當前的狀態供對照讀取
-            std::vector<int> minmax = nums;
-            
-            // 將 nums 調整為新的一半大小
-            nums.resize(minmax.size() / 2, 0);
-            
-            // 兩兩一組進行 min / max 運算
-            for (int i = 0; i < minmax.size(); i += 2) {
-                if ((i / 2) % 2 == 0) {
-                    nums[i / 2] = std::min(minmax[i], minmax[i + 1]);
-                } else {
-                    nums[i / 2] = std::max(minmax[i], minmax[i + 1]);
-                }
+int n = nums.size();
+        while(n > 1) {
+            for(int i = 0; i < n; i += 2) {
+                if((i /2) % 2 == 0) nums[i / 2] = min(nums[i], nums[i + 1]);
+                else nums[i / 2] = max(nums[i], nums[i + 1]);
             }
+            n /= 2;
         }
-        
         return nums[0];
-    }
-};

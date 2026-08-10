@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：587 題　🟡 注意：94 題　🟢 熟練：182 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：586 題　🟡 注意：94 題　🟢 熟練：183 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -55,7 +55,7 @@
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 1 |
 | [math-prime](topics/math-prime.md) | 9 | 2 | 1 | 0 | 12 |
-| [math-simulation](topics/math-simulation.md) | 2 | 1 | 2 | 0 | 5 |
+| [math-simulation](topics/math-simulation.md) | 1 | 1 | 3 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 6 |
 | [prefix-sum](topics/prefix-sum.md) | 19 | 0 | 0 | 0 | 19 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 596 個解法標記為生疏，建議找時間重新練習。
+目前共有 595 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -548,7 +548,6 @@
 | 2275 | [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | 🟡 Medium | [C++](problems/2275.md) | bit-manipulation-and |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 Easy | [C++](problems/2283.md) | hash-table-counting |
 | 2287 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | 🟢 Easy | [C++](problems/2287.md) | hash-table-counting |
-| 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 Easy | [C++](problems/2293.md) | math-simulation |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | [C++](problems/2310.md) | math |
 | 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | [C++](problems/2317.md) | bit-manipulation-xor |
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 Easy | [C++](problems/2341.md) | hash-table-counting |
