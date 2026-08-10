@@ -31,8 +31,6 @@ GROUPS = [
     (r'^bit-manipulation', '📊 Bit Manipulation'),
     (r'^hamming-distance', '📊 Bit Manipulation'),
     (r'^string', '🔗 String'),
-    (r'^interval$', '🍱 Array'),
-    (r'^prefix-sum$', '🍱 Array'),
     (r'^array', '🍱 Array'),
     (r'^2d-array', '🍱 Array'),
     (r'^binary-search-tree$', '🌳 Tree'),
@@ -48,7 +46,6 @@ GROUPS = [
     (r'^quick-select$', '📚 Quick Select'),
     (r'^tree', '🌳 Tree'),
     (r'^trie$', '🌳 Tree'),
-    (r'^dfs-bfs$', '🌳 Tree'),
     (r'^graph-bfs$', '🕸️ Graph'),
     (r'^graph-dfs$', '🕸️ Graph'),
     (r'^union-find$', '🕸️ Graph'),
@@ -347,7 +344,7 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
         num_total = ac_info.get('num_total')
         total_str = f" / {num_total}" if num_total else ''
         lines.append(f"- **LeetCode 網站 AC 總數：** {ac_info['num_solved']}{total_str} 題"
-                     f"（最後更新：{fetched_at}，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）")
+                     f"（最後更新：{fetched_at}）")
     else:
         lines.append("- **LeetCode 網站 AC 總數：** 尚未取得，請先執行 `python3 tools/fetch_leetcode_ac.py`")
 
