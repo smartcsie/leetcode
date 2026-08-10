@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：576 題　🟡 注意：98 題　🟢 熟練：189 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：575 題　🟡 注意：98 題　🟢 熟練：190 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -45,7 +45,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 26 | 13 | 5 | 0 | 44 |
+| [math](topics/math.md) | 25 | 13 | 6 | 0 | 44 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 18 | 8 | 15 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 585 個解法標記為生疏，建議找時間重新練習。
+目前共有 584 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -411,7 +411,6 @@
 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 Medium | [C++](problems/1288.md) | interval |
 | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | 🟢 Easy | [C++](problems/1290.md) | linked-list |
 | 1291 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | 🟡 Medium | [C++](problems/1291.md) | string-substring-enumeration |
-| 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | [C++](problems/1295.md) | math |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | [C++](problems/1299.md) | array |
 | 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees) | 🟡 Medium | [C++](problems/1305.md) | tree-dfs-path |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | 🟢 Easy | [C++](problems/1309.md) | hash-table-mapping |
