@@ -5,13 +5,11 @@ solutions:
 - file: Solution_2614.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Prime
   - Trial Division
   topics:
   - math-prime
   time: O(N*sqrt(M))
   space: O(1)
-  note: '> [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/)<br>
-
-    > 實作isPrime，兩邊對角線一一代入，紀錄Max Prime<br>'
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> 實作isPrime，兩邊對角線一一代入，紀錄Max Prime<br>'

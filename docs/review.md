@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：590 題　🟡 注意：93 題　🟢 熟練：180 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：589 題　🟡 注意：93 題　🟢 熟練：181 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -54,7 +54,7 @@
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 1 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 1 |
-| [math-prime](topics/math-prime.md) | 11 | 1 | 0 | 0 | 12 |
+| [math-prime](topics/math-prime.md) | 10 | 1 | 1 | 0 | 12 |
 | [math-simulation](topics/math-simulation.md) | 3 | 1 | 1 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 6 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 599 個解法標記為生疏，建議找時間重新練習。
+目前共有 598 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -595,7 +595,6 @@
 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 Medium | [C++](problems/2583.md) | tree-bfs-level-order |
 | 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 Easy | [C++](problems/2600.md) | math |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | [C++](problems/2605.md) | bit-manipulation-mask |
-| 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | [C++](problems/2614.md) | math-prime |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | [C++](problems/2645.md) | greedy |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 Easy | [C++](problems/2652.md) | math |
 | 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | [C++](problems/2656.md) | greedy |

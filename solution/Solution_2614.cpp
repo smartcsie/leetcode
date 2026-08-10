@@ -13,25 +13,23 @@
 
 class Solution {
 private:
-bool isPrime(int n) {
-    if (n < 2) return false;
-    if (n == 2 || n == 3) return true;
-    if (n % 2 == 0 || n % 3 == 0) return false; 
-    for (int i = 5; i * i <= n; i += 6) {
-        if (n % i == 0 || n % (i + 2) == 0) return false;
+    bool isPrime(int n) {
+        if(n < 2) return false;
+        if(n == 2 || n == 3) return true;
+        if(n % 2 == 0 || n % 3 ==0) return false;
+        for(int i = 5; i*i <= n; i += 6) {
+            if( n % i == 0 || n % (i + 2) == 0) return false;
+        }
+        return true;
     }
-    return true;
-}
 public:
     int diagonalPrime(vector<vector<int>>& nums) {
+        int ans; 
         int n = nums.size();
-        int maxPrime = 0;
         for(int i = 0; i < n; i++) {
-            int x = nums[i][i];
-            int y = nums[n - 1 - i][i];
-            if(isPrime(x) && x > maxPrime) maxPrime = x;
-            if(isPrime(y) && y > maxPrime) maxPrime = y;
+            if(isPrime(nums[i][i])) ans = max(ans, nums[i][i]);
+            if(isPrime(nums[i][n - 1 - i])) ans = max(ans, nums[i][n - 1 - i]);
         }
-        return maxPrime;
+        return ans;
     }
 };
