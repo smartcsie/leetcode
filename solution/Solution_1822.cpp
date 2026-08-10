@@ -14,11 +14,10 @@
 class Solution {
 public:
     int arraySign(vector<int>& nums) {
-        if(nums.size() == 0) return 0;
         int sign = 1;
-        for(const int& num : nums) {
-            if(num == 0) return 0;
-            else if(num < 0) sign = -sign;
+        for(const int& x : nums) {
+            if(x == 0) return 0;
+            if(x < 0) sign = -sign;
         }
         return sign;
     }

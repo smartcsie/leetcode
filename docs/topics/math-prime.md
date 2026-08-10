@@ -16,9 +16,11 @@
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math, Prefix Sum | [C++](../problems/3770.md) | O(RloglogR) | O(R) |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math, Sieve | [C++](../problems/3918.md) | O(RloglogR) | O(R) |
 
-## 🟡 注意（0）
+## 🟡 注意（1）
 
-目前沒有標記為注意的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math Prime | [C++](../problems/1952.md) | O(√N) | O(1) |
 
 ## 🟢 熟悉（0）
 

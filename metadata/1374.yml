@@ -11,4 +11,4 @@ solutions:
   - math
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意
