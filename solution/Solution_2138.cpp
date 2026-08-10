@@ -19,25 +19,13 @@ class Solution {
 public:
     std::vector<std::string> divideString(std::string s, int k, char fill) {
         int n = s.size();
-        
-        // 1. 計算總群組數（向上取整）
         int segs = (n + k - 1) / k;
-        
-        // 2. 初始化結果 vector，每組長度為 k，先用空白 ' ' 填滿
-        std::vector<std::string> ans(segs, std::string(k, ' '));
-        
-        // 3. 將原字串的字元對應填入二維網格中
-        for (int i = 0; i < n; i++) {
-            ans[i / k][i % k] = s[i];
+        vector<string> ans;
+        ans.reserve(segs);
+        for(int i = 0; i < n; i += k) {
+            ans.push_back(s.substr(i, k));
         }
-        
-        // 4. 檢查最後一個群組，將不足的空白位置補上 fill
-        for (char& c : ans[segs - 1]) {
-            if (c == ' ') {
-                c = fill;
-            }
-        }
-        
+        while(ans.back().size() < k) ans.back().push_back(fill);
         return ans;
     }
 };
