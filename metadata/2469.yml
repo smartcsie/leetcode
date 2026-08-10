@@ -10,8 +10,8 @@ solutions:
   - math
   time: O(1)
   space: O(1)
+  familiarity: 熟練
   note: '> [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)
     <br>
 
     > return { celsius + 273.15, celsius * 1.80 + 32.00 };<br>'
-  familiarity: 生疏
