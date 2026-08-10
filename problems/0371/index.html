@@ -3535,7 +3535,7 @@
 
 <h1 id="371-sum-of-two-integers">371. Sum of Two Integers<a class="headerlink" href="#371-sum-of-two-integers" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/sum-of-two-integers">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 注意</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：371. Sum of Two Integers (兩整數之和)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -3561,26 +3561,19 @@
 <a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">            </span><span class="c1">// 計算進位：兩數對應位皆為 1 的地方才有進位，且需左移一位</span>
 <a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">            </span><span class="c1">// 使用 unsigned int 處理可以避免有符號整數左移造成的未定義行為警告</span>
 <a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">            </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">carry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">int</span><span class="p">)(</span><span class="n">a</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
-<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>
-<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">            </span><span class="c1">// 計算不含進位的加法結果</span>
-<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">            </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">^</span><span class="w"> </span><span class="n">b</span><span class="p">;</span>
-<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>
-<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">            </span><span class="c1">// 將進位賦值給 b，下一次迴圈將進位加入 a</span>
-<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">            </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">carry</span><span class="p">;</span>
-<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">        </span><span class="p">}</span>
-<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">a</span><span class="p">;</span>
-<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="p">};</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">            </span><span class="c1">// 計算不含進位的加法結果</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">            </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">^</span><span class="w"> </span><span class="n">b</span><span class="p">;</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">            </span><span class="c1">// 將進位賦值給 b，下一次迴圈將進位加入 a</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">            </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">carry</span><span class="p">;</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">a</span><span class="p">;</span>
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/sum-of-two-integers">Sum of Two Integers</a> <br>
-<strong>while(b != 0) {</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>int carry = (a  &amp; b) &lt;&lt; 1;</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>a = a ^ b; b = carry;</strong> <br>
-<strong>}</strong> <br>
-<strong>return a;</strong> <br>
-同 2235.  <a href="https://leetcode.com/problems/add-two-integers">Add Two Integers</a> <br></p>
+<p>同 2235.  <a href="https://leetcode.com/problems/add-two-integers">Add Two Integers</a> <br></p>
 </blockquote>
+<p><strong>相關題目:</strong> <a href="../2235/">2235</a></p>
 
 
 
