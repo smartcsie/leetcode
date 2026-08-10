@@ -12,17 +12,14 @@
  * 且進位會傳遞到高一位，因此需要左移。
  * 3. 迴圈執行：將「不進位和」與「進位值」重複進行加法，直到進位為 0 為止。
  */
-
 class Solution {
 public:
     int sum(int num1, int num2) {
         while (num2 != 0) {
             // 使用 unsigned int 處理位移，避免有符號整數左移造成的未定義行為
             unsigned int carry = (unsigned int)(num1 & num2) << 1;
-            
             // num1 儲存當前不考慮進位的相加結果
             num1 ^= num2;
-            
             // num2 儲存進位值，下一輪繼續與 num1 相加
             num2 = carry;
         }

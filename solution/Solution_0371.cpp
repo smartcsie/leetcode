@@ -23,10 +23,8 @@ public:
             // 計算進位：兩數對應位皆為 1 的地方才有進位，且需左移一位
             // 使用 unsigned int 處理可以避免有符號整數左移造成的未定義行為警告
             unsigned int carry = (unsigned int)(a & b) << 1;
-            
             // 計算不含進位的加法結果
             a = a ^ b;
-            
             // 將進位賦值給 b，下一次迴圈將進位加入 a
             b = (int)carry;
         }

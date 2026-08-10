@@ -21,13 +21,10 @@ public:
         if (num == 0) {
             return 0;
         }
-        
         // 1. 計算二進位中 1 的個數（對應奇數減 1 的次數）
         int subtracts = std::popcount(static_cast<unsigned int>(num));
-        
         // 2. 計算二進位長度減 1（對應偶數除以 2 的右移次數）
         int divides = std::bit_width(static_cast<unsigned int>(num)) - 1;
-        
         // 3. 總步驟數 = 減法次數 + 除法次數
         return subtracts + divides;
     }
