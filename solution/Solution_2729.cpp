@@ -23,16 +23,16 @@ class Solution {
 public:
     bool isFascinating(int n) {
         bitset<10> bits;
+        bits.set(0);
         for(int i = 1; i <= 3; i++) {
-            int temp = i * n;
-            while(temp > 0) {
-                int digit = temp % 10;
-                temp /= 10;
-                if(digit == 0) return false;
-                if(!bits.test(digit)) bits.set(digit);
-                else return false;
+            int num = n * i;
+            while(num > 0) {
+                int digit = num % 10;
+                if(bits.test(digit)) return false;
+                bits.set(digit);
+                num /= 10;
             }
         }
-        return bits.count() == 9;
+        return bits.count() == 10;
     }
 };
