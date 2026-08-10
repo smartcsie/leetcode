@@ -1,4 +1,4 @@
-# prefix-sum
+# array-prefix-sum
 
 ## 🔴 生疏（19）
 

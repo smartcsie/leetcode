@@ -9,7 +9,7 @@ solutions:
   - Hash Table
   - Prefix Sum
   topics:
-  - prefix-sum
+  - array-prefix-sum
   time: O(N)
   space: O(N)
   familiarity: 生疏

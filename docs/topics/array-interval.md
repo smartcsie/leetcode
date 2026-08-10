@@ -1,4 +1,4 @@
-# interval
+# array-interval
 
 ## 🔴 生疏（5）
 

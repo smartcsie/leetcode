@@ -9,7 +9,7 @@ solutions:
   - Sliding Window
   - Multiset
   topics:
-  - prefix-sum
+  - array-prefix-sum
   time: O(NlogN)
   space: O(N)
   familiarity: 生疏

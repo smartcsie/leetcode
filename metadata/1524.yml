@@ -9,7 +9,7 @@ solutions:
   - Prefix Sum
   - Combinatorics
   topics:
-  - prefix-sum
+  - array-prefix-sum
   time: O(N)
   space: O(1)
   familiarity: 生疏

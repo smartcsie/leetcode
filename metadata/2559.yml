@@ -8,7 +8,7 @@ solutions:
   - Array
   - Prefix Sum
   topics:
-  - prefix-sum
+  - array-prefix-sum
   time: O(N+Q)
   space: O(N)
   familiarity: 生疏

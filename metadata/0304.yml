@@ -9,7 +9,7 @@ solutions:
   - Matrix
   - Prefix Sum
   topics:
-  - prefix-sum
+  - array-prefix-sum
   time: O(M*N) 初始化 / O(1) 查詢
   space: O(M*N)
   familiarity: 生疏

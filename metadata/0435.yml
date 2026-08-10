@@ -8,7 +8,7 @@ solutions:
   - Greedy
   - Interval
   topics:
-  - interval
+  - array-interval
   time: O(NlogN)
   space: O(1)
   familiarity: 生疏

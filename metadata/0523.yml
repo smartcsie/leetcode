@@ -8,7 +8,7 @@ solutions:
   - Prefix Sum
   - Hash Map
   topics:
-  - prefix-sum
+  - array-prefix-sum
   time: O(N)
   space: O(min(N,K))
   familiarity: 生疏

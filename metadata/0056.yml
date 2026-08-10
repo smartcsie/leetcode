@@ -8,7 +8,7 @@ solutions:
   - Array
   - Sorting
   topics:
-  - interval
+  - array-interval
   time: O(NlogN)
   space: O(logN)
   familiarity: 生疏
