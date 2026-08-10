@@ -11,6 +11,7 @@ solutions:
   - math
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Sum Multiples](https://leetcode.com/problems/sum-multiples)
 
     > travsal 1~n，如果是3或5或7能整除，則加到sum，最後回傳sum <br>
@@ -20,4 +21,3 @@ solutions:
     > if(i % 3 == 0 || i % 5 == 0 || i % 7 == 0) sum += i; <br>
 
     > }<br>'
-  familiarity: 生疏
