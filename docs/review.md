@@ -3,14 +3,14 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：586 題　🟡 注意：94 題　🟢 熟練：183 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：585 題　🟡 注意：95 題　🟢 熟練：183 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 1 | 7 | 9 | 0 | 17 |
-| [array](topics/array.md) | 12 | 5 | 13 | 0 | 30 |
+| [array](topics/array.md) | 11 | 6 | 13 | 0 | 30 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 2 | 5 | 0 | 8 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 595 個解法標記為生疏，建議找時間重新練習。
+目前共有 594 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -324,7 +324,6 @@
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | 🟢 Easy | [C++](problems/0705.md) | design |
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | [C++](problems/0706.md) | design |
 | 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | [C++](problems/0712.md) | dynamic-programming |
-| 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | 🟢 Easy | [C++](problems/0717.md) | array |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | [C++](problems/0718.md) | dynamic-programming |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | [C++](problems/0724.md) | prefix-sum |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | [C++](problems/0739.md) | monotonic-stack |

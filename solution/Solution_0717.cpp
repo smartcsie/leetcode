@@ -18,15 +18,9 @@ public:
     bool isOneBitCharacter(std::vector<int>& bits) {
         int n = bits.size();
         int i = 0;
-        
-        // 貪婪法：直接模擬掃描過程
         while (i < n - 1) {
-            // 如果當前是 1，代表是 2-bit 字元 (10 或 11)，直接跳過兩位
-            // 如果當前是 0，代表是 1-bit 字元，跳過一位
             i += (bits[i] == 1) ? 2 : 1;
         }
-        
-        // 如果指標剛好停在最後一個位置，代表它是獨立的 1-bit 字元
         return i == n - 1;
     }
 };
