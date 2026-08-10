@@ -4,9 +4,11 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟡 注意（0）
+## 🟡 注意（1）
 
-目前沒有標記為注意的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array Min Max | [C++](../problems/0414.md) | O(N) | O(1) |
 
 ## 🟢 熟悉（3）
 

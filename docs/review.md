@@ -14,8 +14,8 @@
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 5 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
-| [array-linear-scan](topics/array-linear-scan.md) | 2 | 5 | 14 | 0 | 21 |
-| [array-min-max](topics/array-min-max.md) | 0 | 0 | 3 | 0 | 3 |
+| [array-linear-scan](topics/array-linear-scan.md) | 2 | 4 | 14 | 0 | 20 |
+| [array-min-max](topics/array-min-max.md) | 0 | 1 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 4 | 1 | 0 | 0 | 5 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 2 |
