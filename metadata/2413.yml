@@ -5,13 +5,14 @@ solutions:
 - file: Solution_2413.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Gcd
   topics:
-  - math
+  - math-gcd
   time: O(1)
   space: O(1)
-  note: '> [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)
-    <br>
+  familiarity: 熟練
+  note: '> return (n & 1) == 0 ? n : 2 * n;。<br>
 
-    > return (n & 1) == 0 ? n : 2 * n;。<br>'
-  familiarity: 生疏
+    > return  lcm(2, n)<br>
+
+    > return  2 * n /gcd(2, n)<br>'

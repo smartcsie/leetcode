@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 859 / 4005 題（最後更新：2026-08-02 23:11，執行 `python3 tools/fetch_leetcode_ac.py` 可更新）
-- **目前收錄總題目數：** 863 題　🔴 生疏：574 題　🟡 注意：98 題　🟢 熟練：191 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：573 題　🟡 注意：98 題　🟢 熟練：192 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -45,12 +45,12 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 24 | 13 | 7 | 0 | 44 |
+| [math](topics/math.md) | 23 | 13 | 7 | 0 | 43 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 18 | 8 | 15 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 4 | 2 | 0 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 0 | 7 |
+| [math-gcd](topics/math-gcd.md) | 7 | 0 | 1 | 0 | 8 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 1 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 1 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 583 個解法標記為生疏，建議找時間重新練習。
+目前共有 582 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -549,7 +549,6 @@
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | [C++](problems/2399.md) | string-character-classification |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | [C++](problems/2404.md) | hash-table-counting |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | [C++](problems/2411.md) | bit-manipulation |
-| 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | [C++](problems/2413.md) | math |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | [C++](problems/2415.md) | tree-dfs-path |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | [C++](problems/2419.md) | bit-manipulation-and |
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | [C++](problems/2425.md) | bit-manipulation-xor |

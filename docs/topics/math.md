@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（24）
+## 🔴 生疏（23）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -18,7 +18,6 @@
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math, Brute Force | [C++](../problems/1925.md) | O(N²) | O(1) |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](../problems/2177.md) | O(1) | O(1) |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | Math, Enumeration | [C++](../problems/2310.md) | O(10) | O(1) |
-| 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | Math | [C++](../problems/2413.md) | O(1) | O(1) |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | Math, Array | [C++](../problems/2455.md) | O(N) | O(1) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](../problems/2469.md) | O(1) | O(1) |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](../problems/2485.md) | O(1) | O(1) |
