@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 861 / 4017 題（最後更新：2026-08-11 00:09）
-- **目前收錄總題目數：** 863 題　🔴 生疏：538 題　🟡 注意：115 題　🟢 熟練：210 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：537 題　🟡 注意：116 題　🟢 熟練：210 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -73,7 +73,7 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 3 | 0 | 0 | 0 | 3 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 11 | 0 | 3 | 0 | 14 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 6 | 1 | 9 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 5 | 2 | 9 | 0 | 16 |
 | [tree-dfs-path](topics/tree-dfs-path.md) | 31 | 3 | 6 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 545 個解法標記為生疏，建議找時間重新練習。
+目前共有 544 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -162,7 +162,6 @@
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | [C++](problems/0096.md) | dynamic-programming |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | [C++](problems/0097.md) | dynamic-programming |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | [C++](problems/0099.md) | binary-search-tree |
-| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | [C++](problems/0103.md) | tree-bfs-level-order |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | [C++](problems/0105.md) | tree |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | [C++](problems/0106.md) | tree |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | [C++](problems/0108.md) | binary-search-tree |
