@@ -8,7 +8,7 @@ solutions:
   - Sorting
   - Two Pointers
   topics:
-  - two-pointers-same
+  - sorting
   time: O(NlogN)
   space: O(1)
   familiarity: 生疏

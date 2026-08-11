@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1979.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Gcd
   - GCD
   topics:
   - math-gcd
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練

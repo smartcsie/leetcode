@@ -5,11 +5,11 @@ solutions:
 - file: Solution_1071.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Gcd
   - String
   - GCD
   topics:
   - math-gcd
   time: O(N+M)
   space: O(N+M)
-  familiarity: 生疏
+  familiarity: 注意

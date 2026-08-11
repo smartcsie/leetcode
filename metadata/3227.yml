@@ -5,10 +5,15 @@ solutions:
 - file: Solution_3227.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy
+  - Math Game Theory
   - Game Theory
   topics:
   - math-game-theory
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> 如果是奇數的vowel，Alice直接刪除含全部的vowel<br>
+
+    > 如果是偶數的vowel，Alice刪除奇數的vowel<br>'
+  related:
+  - 1025
