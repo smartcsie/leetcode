@@ -5,9 +5,10 @@ solutions:
 - file: Solution_0821.cpp
   difficulty: 🟢 Easy
   tags:
+  - Array
   - Two-Pass Scan
   topics:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意

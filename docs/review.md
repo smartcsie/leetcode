@@ -3,14 +3,14 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 861 / 4017 題（最後更新：2026-08-11 00:09）
-- **目前收錄總題目數：** 863 題　🔴 生疏：545 題　🟡 注意：110 題　🟢 熟練：208 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：544 題　🟡 注意：111 題　🟢 熟練：208 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 0 | 8 | 9 | 0 | 17 |
-| [array](topics/array.md) | 8 | 7 | 15 | 0 | 30 |
+| [array](topics/array.md) | 7 | 8 | 15 | 0 | 30 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 5 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 553 個解法標記為生疏，建議找時間重新練習。
+目前共有 552 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -330,7 +330,6 @@
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 Medium | [C++](problems/0791.md) | string |
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | [C++](problems/0796.md) | string-substring |
 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | [C++](problems/0810.md) | math-game-theory |
-| 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | [C++](problems/0821.md) | array |
 | 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | [C++](problems/0833.md) | string-substring |
 | 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | 🟡 Medium | [C++](problems/0836.md) | math-geometry |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | [C++](problems/0844.md) | two-pointers-same |
