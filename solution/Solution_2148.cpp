@@ -14,14 +14,13 @@
 class Solution {
 public:
     int countElements(vector<int>& nums) {
-        int n = static_cast<int>(nums.size());
         auto [minIt, maxIt] = minmax_element(nums.begin(), nums.end());
-        int min = *minIt;
-        int max = *maxIt;
-        int count = 0;
-        for(const int& num : nums) {
-            if(num == max || num == min) count++;
+        int mn = *minIt;
+        int mx = *maxIt;
+        int ans = 0;
+        for(const int& x : nums) {
+            if(x != mn && x !=mx) ans++;
         }
-        return n - count;
+        return ans;
     }
 };
