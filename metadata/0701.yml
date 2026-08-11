@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0701.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Binary Search Tree
   - Binary Search Tree
   topics:
   - binary-search-tree
   time: O(H)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 注意

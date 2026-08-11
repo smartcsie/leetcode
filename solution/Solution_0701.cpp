@@ -27,20 +27,9 @@
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
-        // 基本情況：找到插入位置
-        if (!root) {
-            return new TreeNode(val);
-        }
-        
-        // 根據 BST 性質選擇路徑
-        if (val < root->val) {
-            // 將插入結果重新連回左子樹
-            root->left = insertIntoBST(root->left, val);
-        } else {
-            // 將插入結果重新連回右子樹
-            root->right = insertIntoBST(root->right, val);
-        }
-        
+        if(!root) return new TreeNode(val);
+        if(val < root->val) root->left =  insertIntoBST(root->left, val);
+        else root->right = insertIntoBST(root->right, val);
         return root;
     }
 };
