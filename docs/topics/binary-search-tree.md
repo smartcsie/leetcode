@@ -30,4 +30,4 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 Easy | Tree, DFS, BST | [C++](../problems/0530.md) | O(N) | O(H) |
+| 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0530.md) | O(N) | O(H) |
