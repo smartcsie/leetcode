@@ -5,10 +5,11 @@ solutions:
 - file: Solution_3838.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Mapping
   - Hash Mapping
   - Simulation
   topics:
   - hash-table-mapping
   time: O(N*L)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
