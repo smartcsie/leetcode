@@ -17,23 +17,17 @@
 class Solution {
 public:
     vector<int> zigzagTraversal(vector<vector<int>>& grid) {
-        vector<int> ans;
         int m = grid.size();
-        int n = grid[0].size(); 
-        deque<int> dq;
-        for(int i = 0; i < m ; i++){
-            for(int j = 0; j < n ; j++){
-                if((i + j) % 2 == 0) 
-                dq.push_back(grid[i][j]);
+        int n = grid[0].size();
+        vector<int> ans;
+        bool evenRow = true, target = true;
+        for(int i = 0; i < m; i ++) {
+            for(int j = 0; j < n; j ++) {
+                if(evenRow  && target) ans.push_back(grid[i][j]);
+                else if(!evenRow && target) ans.push_back(grid[i][n -1 - j]);
+                target = !target;
             }
-            if(i % 2 == 1) while(!dq.empty()) {
-                ans.push_back(dq.back()); 
-                dq.pop_back();
-            }
-            else while(!dq.empty()) {
-                ans.push_back(dq.front());
-                dq.pop_front();
-            }
+            evenRow = !evenRow;
         }
         return ans;
     }

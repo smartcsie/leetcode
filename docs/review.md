@@ -3,13 +3,13 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 861 / 4017 題（最後更新：2026-08-11 00:09）
-- **目前收錄總題目數：** 863 題　🔴 生疏：549 題　🟡 注意：108 題　🟢 熟練：206 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：548 題　🟡 注意：109 題　🟢 熟練：206 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
-| [2d-array](topics/2d-array.md) | 1 | 7 | 9 | 0 | 17 |
+| [2d-array](topics/2d-array.md) | 0 | 8 | 9 | 0 | 17 |
 | [array](topics/array.md) | 10 | 6 | 13 | 0 | 29 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 5 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 557 個解法標記為生疏，建議找時間重新練習。
+目前共有 556 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -608,7 +608,6 @@
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | [C++](problems/3370.md) | bit-manipulation |
 | 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | [C++](problems/3392.md) | fixed-size-sliding-window |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | [C++](problems/3407.md) | string |
-| 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | [C++](problems/3417.md) | 2d-array |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | [C++](problems/3432.md) | array-prefix-sum |
 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 Easy | [C++](problems/3438.md) | hash-table-counting |
 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | [C++](problems/3442.md) | hash-table-counting |
