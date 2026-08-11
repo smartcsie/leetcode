@@ -5,12 +5,13 @@ solutions:
 - file: Solution_3498.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - String
   - String
   topics:
   - string
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string)
     <br>
 
@@ -22,4 +23,3 @@ solutions:
 
 
     <br><br>'
-  familiarity: 生疏
