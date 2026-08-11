@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 861 / 4017 題（最後更新：2026-08-11 00:09）
-- **目前收錄總題目數：** 863 題　🔴 生疏：536 題　🟡 注意：116 題　🟢 熟練：211 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：535 題　🟡 注意：117 題　🟢 熟練：211 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -23,7 +23,7 @@
 | [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 2 |
 | [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 21 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
-| [binary-search-tree](topics/binary-search-tree.md) | 12 | 5 | 0 | 0 | 17 |
+| [binary-search-tree](topics/binary-search-tree.md) | 11 | 6 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
 | [bit-manipulation](topics/bit-manipulation.md) | 11 | 10 | 14 | 0 | 35 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 3 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 543 個解法標記為生疏，建議找時間重新練習。
+目前共有 542 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -319,7 +319,6 @@
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | [C++](problems/0743.md) | graph-shortest-path |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | 🟢 Easy | [C++](problems/0744.md) | binary-search-build-in |
 | 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | 🟡 Medium | [C++](problems/0777.md) | two-pointers-same |
-| 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 Easy | [C++](problems/0783.md) | binary-search-tree |
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | [C++](problems/0784.md) | backtracking-combination |
 | 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | [C++](problems/0786.md) | priority-queue |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 Medium | [C++](problems/0791.md) | string |
