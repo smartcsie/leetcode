@@ -20,26 +20,17 @@
 class Solution {
 public:
     int countDistinctIntegers(std::vector<int>& nums) {
-        // 宣告 bitset 涵蓋至題目最大可能數值 (10^6)
-        std::bitset<1000001> bits;
-        
-        for (const int& num : nums) {
-            int n = num;
-            // 1. 記錄原始數字
-            bits.set(n);
-            
-            // 2. 計算反轉數字 r
-            int r = 0;
-            while (n > 0) {
-                r = r * 10 + (n % 10);
-                n /= 10;
+        unordered_set<int> seen;
+        for(const int& x : nums){
+            seen.insert(x);
+            int y = 0;
+            int t = x;
+            while(t > 0) {
+                y = y * 10 + t % 10;
+                t /= 10;
             }
-            
-            // 3. 記錄反轉後的數字
-            bits.set(r);
+            seen.insert(y);
         }
-        
-        // 4. 返回 bitset 中被設為 1 的總個數（即相異整數數量）
-        return bits.count();
+        return seen.size();
     }
 };
