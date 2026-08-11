@@ -21,30 +21,19 @@
 
 class Solution {
 public:
-    std::string freqAlphabets(std::string s) {
-        std::unordered_map<std::string, char> map;
-        
-        // 建立 'a' 到 'i' 的映射 ("1" 到 "9")
-        for (char c = 'a'; c <= 'i'; c++) {
-            map[std::string(1, c - 'a' + '1')] = c;
-        }
-        
-        // 建立 'j' 到 'z' 的映射 ("10#" 到 "26#")
-        for (char c = 'j'; c <= 'z'; c++) {
-            map[std::to_string(c - 'j' + 10) + "#"] = c;
-        }
-        
-        std::string ans;
-        for (int i = 0; i < s.size(); i++) {
-            // 向後檢查兩位是否為 '#' (即形如 "10#" ~ "26#")
-            if ((i + 2) < s.size() && s[i + 2] == '#') {
-                ans += map[s.substr(i, 3)];
-                i += 2; // 跳過已處理的 '#' 與數字
+    string freqAlphabets(string s) {
+        string ans;
+        for(int i = 0; i < s.size(); ) {
+            char c;
+            if(i + 2 < s.size() && s[i + 2] == '#') {
+                c = (s[i] - '0') * 10 + (s[i + 1] - '0') - 1 + 'a';
+                i += 3;
             } else {
-                ans.push_back(map[std::string(1, s[i])]);
+                c = s[i] - '1' + 'a';
+                i += 1;
             }
+            ans.push_back(c);
         }
-        
         return ans;
     }
 };

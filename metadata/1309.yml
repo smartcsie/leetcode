@@ -5,10 +5,11 @@ solutions:
 - file: Solution_1309.cpp
   difficulty: 🟢 Easy
   tags:
+  - Array Linear Scan
   - Hash Table
   - String Parsing
   topics:
-  - hash-table-mapping
+  - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意
