@@ -5,31 +5,22 @@ class Solution {
 public:
     
     bool isEvenOddTree(TreeNode* root) {
+        if(!root) return true;
         queue<TreeNode*> q({root});
-        int level = 0;
+        bool isOdd = true;
         while(!q.empty()) {
-            int prev = -1;
-            for(int i = q.size(); i > 0 ; i --) {
+            int pre = -1;
+            for(int i = q.size() - 1; i >= 0; i--) {
                 TreeNode* node = q.front();
                 q.pop();
-                if(level%2 == 0) {
-                    if(node->val %2 ==0) {
-                        return false;
-                    } 
-                } else {
-                    if(node->val %2 ==1) {
-                        return false;
-                    } 
-                }
-                if(prev != -1) {
-                    if(level%2 == 0 && prev >= node->val) return false;
-                    if(level%2 == 1 && prev <= node->val) return false;
-                }
-                prev = node->val;
+                if((node->val & 1) != isOdd) return false;
+                if(pre != -1 && isOdd && pre >= node->val) return false;
+                if(pre != -1 && !isOdd && pre <= node->val) return false;
+                pre = node->val;
                 if(node->left) q.push(node->left);
                 if(node->right) q.push(node->right);
             }
-            level++;
+            isOdd = !isOdd;
         }
         return true;
     }
