@@ -21,21 +21,14 @@
 class Solution {
 public:
     int rearrangeCharacters(std::string s, std::string target) {
-        std::vector<int> count(26, 0);
-        std::vector<int> countS(26, 0);
-        // 統計 target 中每個字元的所需頻率
-        for (const char& c : target) {
-            count[c - 'a']++;
-        }
-        // 統計 s 中每個字元的現有頻率
-        for (const char& c : s) {
-            countS[c - 'a']++;
-        }
-        int ans = 1000; // 可以設定為比最大可能份數更大的初始值
-        // 檢查 target 中每個必須字元的供應瓶頸
-        for (int i = 0; i < 26; ++i) {
-            if (count[i] > 0) {
-                ans = std::min(ans, countS[i] / count[i]);
+        vector<int> countS(26, 0);
+        vector<int> countT(26, 0);
+        for(const char& c : s) countS[c - 'a']++;
+        for(const char& c : target) countT[c - 'a']++;
+        int ans = 101;
+        for(int i = 0; i < 26; i++) {
+            if(countT[i]) {
+                ans = min(ans, countS[i] / countT[i]);
             }
         }
         return ans;
