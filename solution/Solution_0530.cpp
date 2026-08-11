@@ -16,20 +16,18 @@
  */
 
 class Solution {
-public:
-    TreeNode* prev;
-    int diff = INT_MAX;
-    void inorder(TreeNode* root) {
-        if(!root) return ;
-        inorder(root->left);
-        if(prev) {
-            diff = min(diff, root->val -prev->val);
-        }
-        prev = root;
-        inorder(root->right);
+private:
+    void inorder(TreeNode* root, int& prev, int& diff) {
+        if(!root) return;
+        inorder(root->left, prev, diff);
+        if(prev != -1) diff = min(diff, root->val - prev);
+        prev = root->val;
+        inorder(root->right, prev, diff);
     }
+public:
     int getMinimumDifference(TreeNode* root) {
-        inorder(root);
+        int diff = INT_MAX, prev = -1;
+        inorder(root, prev, diff);
         return diff;
     }
 };

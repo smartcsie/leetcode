@@ -13,3 +13,5 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 注意
+  related:
+  - 530

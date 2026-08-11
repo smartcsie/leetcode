@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 861 / 4017 題（最後更新：2026-08-11 00:09）
-- **目前收錄總題目數：** 863 題　🔴 生疏：535 題　🟡 注意：117 題　🟢 熟練：211 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：534 題　🟡 注意：117 題　🟢 熟練：212 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -23,7 +23,7 @@
 | [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 2 |
 | [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 21 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
-| [binary-search-tree](topics/binary-search-tree.md) | 11 | 6 | 0 | 0 | 17 |
+| [binary-search-tree](topics/binary-search-tree.md) | 10 | 6 | 1 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
 | [bit-manipulation](topics/bit-manipulation.md) | 11 | 10 | 14 | 0 | 35 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 3 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 542 個解法標記為生疏，建議找時間重新練習。
+目前共有 541 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -275,7 +275,6 @@
 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | [C++](problems/0518.md) | knapsack-problem |
 | 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | [C++](problems/0523.md) | array-prefix-sum |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | [C++](problems/0524.md) | sorting |
-| 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 Easy | [C++](problems/0530.md) | binary-search-tree |
 | 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | 🟡 Medium | [C++](problems/0538.md) | binary-search-tree |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | [C++](problems/0539.md) | sorting |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | [C++](problems/0540.md) | binary-search |
