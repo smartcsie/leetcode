@@ -1,6 +1,6 @@
 # hash-table-counting
 
-## 🔴 生疏（26）
+## 🔴 生疏（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -18,7 +18,6 @@
 | 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 Medium | Hash Table, String, Single-Pass | [C++](../problems/2023.md) | O(N*L) |  |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 Easy | Hash Table | [C++](../problems/2053.md) | O(N) | O(N) |
 | 2068 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 Easy | Hash Table, String, Counting | [C++](../problems/2068.md) | O(N) | O(1) |
-| 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 Easy | Array, Hash Table, Counting | [C++](../problems/2206.md) | O(N) | O(1) |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 Easy | Hash Map, Counting | [C++](../problems/2283.md) | O(N) | O(1) |
 | 2287 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | 🟢 Easy | Hash Table, String, Counting | [C++](../problems/2287.md) | O(N+M) | O(1) |
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 Easy | Array, Hash Table, Counting | [C++](../problems/2341.md) | O(N) | O(1)* |

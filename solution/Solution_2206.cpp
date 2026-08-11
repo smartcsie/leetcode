@@ -16,13 +16,10 @@
 class Solution {
 public:
     bool divideArray(vector<int>& nums) {
-        short count[501] = {0};
-        for(int num : nums) {
-            count[num]++;
+        bitset<501> bits;
+        for(const int& x : nums) {
+            bits.flip(x);
         }
-        for(int i = 0 ;i < 501; i++) {
-            if(count[i] % 2 != 0) return false;
-        }
-        return true;
+        return bits.none();
     }
 };

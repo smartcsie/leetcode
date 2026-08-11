@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 861 / 4017 題（最後更新：2026-08-11 00:09）
-- **目前收錄總題目數：** 863 題　🔴 生疏：554 題　🟡 注意：105 題　🟢 熟練：204 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：553 題　🟡 注意：106 題　🟢 熟練：204 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -25,7 +25,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 14 | 3 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 13 | 7 | 14 | 0 | 34 |
+| [bit-manipulation](topics/bit-manipulation.md) | 13 | 8 | 14 | 0 | 35 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 3 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 1 | 0 | 5 |
@@ -40,7 +40,7 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 32 | 5 | 3 | 0 | 40 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 26 | 2 | 14 | 0 | 42 |
+| [hash-table-counting](topics/hash-table-counting.md) | 25 | 2 | 14 | 0 | 41 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 12 | 3 | 6 | 0 | 21 |
 | [hash-table-set](topics/hash-table-set.md) | 11 | 3 | 7 | 0 | 21 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 563 個解法標記為生疏，建議找時間重新練習。
+目前共有 562 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -514,7 +514,6 @@
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 Easy | [C++](problems/2185.md) | string |
 | 2191 | [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | 🟡 Medium | [C++](problems/2191.md) | sorting |
 | 2195 | [Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/) | 🟡 Medium | [C++](problems/2195.md) | binary-search |
-| 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 Easy | [C++](problems/2206.md) | hash-table-counting |
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | [C++](problems/2231.md) | greedy |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 Easy | [C++](problems/2236.md) | tree |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | [C++](problems/2243.md) | string |
