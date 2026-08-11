@@ -13,22 +13,19 @@
  */
 
 class Solution {
-private:
-    string getDiff(string s) {
-        string ans;
-        for(int i = 1; i < s.size(); i++) {
-            ans.push_back((s[i] - s[i - 1] + 25));
-        }
-        return ans;
-    }
-public: 
+public:
     string oddString(vector<string>& words) {
-        unordered_map<string, vector<string>> map;
-        for(const string& word : words) {
-            map[getDiff(word)].push_back(word);
+        unordered_map<string, int> hashCounts;
+        unordered_map<string, string> hashToWord;
+        for(int i = 0; i < words.size(); i++) {
+            string key;
+            for(int j = 1; j < words[i].size(); j++) 
+                key.push_back(words[i][j] - words[i][j - 1]+26);
+            hashCounts[key]++;
+            hashToWord[key] = words[i];
         }
-        for(const auto& [diff, strs]: map) {
-           if(strs.size() == 1) return strs[0];
+        for(const auto& [hash , count] : hashCounts) {
+            if(count == 1) return hashToWord[hash];
         }
         return "";
     }

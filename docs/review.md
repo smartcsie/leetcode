@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 861 / 4017 題（最後更新：2026-08-11 00:09）
-- **目前收錄總題目數：** 863 題　🔴 生疏：551 題　🟡 注意：106 題　🟢 熟練：206 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：549 題　🟡 注意：108 題　🟢 熟練：206 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -40,8 +40,8 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 32 | 5 | 3 | 0 | 40 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 23 | 2 | 16 | 0 | 41 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 12 | 3 | 6 | 0 | 21 |
+| [hash-table-counting](topics/hash-table-counting.md) | 22 | 2 | 16 | 0 | 40 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 11 | 5 | 6 | 0 | 22 |
 | [hash-table-set](topics/hash-table-set.md) | 11 | 3 | 7 | 0 | 21 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
@@ -78,16 +78,16 @@
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 12 | 1 | 2 | 0 | 15 |
-| [two-pointers-other](topics/two-pointers-other.md) | 3 | 0 | 0 | 0 | 3 |
+| [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 15 | 2 | 3 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 2 | 10 | 0 | 12 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 3 | 10 | 0 | 13 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |
 
 ---
 
-目前共有 560 個解法標記為生疏，建議找時間重新練習。
+目前共有 557 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -540,11 +540,8 @@
 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 Easy | [C++](problems/2427.md) | math-gcd |
 | 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | [C++](problems/2429.md) | bit-manipulation-xor |
 | 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 Medium | [C++](problems/2433.md) | bit-manipulation-xor |
-| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | [C++](problems/2441.md) | hash-table-mapping |
-| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | [C++](problems/2441.md) | two-pointers-other |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 Medium | [C++](problems/2442.md) | bit-manipulation |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | [C++](problems/2443.md) | math-digit-decomposition |
-| 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | [C++](problems/2451.md) | hash-table-counting |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | [C++](problems/2455.md) | math |
 | 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | 🟡 Medium | [C++](problems/2476.md) | binary-search-build-in |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | [C++](problems/2485.md) | math |

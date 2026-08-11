@@ -5,10 +5,11 @@ solutions:
 - file: Solution_2451.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Mapping
   - Hash Map
   - Difference Array
   topics:
-  - hash-table-counting
+  - hash-table-mapping
   time: O(N*M)
   space: O(N*M)
-  familiarity: 生疏
+  familiarity: 注意

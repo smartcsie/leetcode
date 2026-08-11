@@ -5,22 +5,23 @@ solutions:
 - file: Solution_2441.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Mapping
   - Hash Table
   - Two Pointers
-  - Sorting
   topics:
   - hash-table-mapping
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意
+  is_best: true
 - file: Solution_2441_1.cpp
   difficulty: 🟢 Easy
   tags:
+  - Two Pointers Swap
   - Hash Table
   - Two Pointers
-  - Sorting
   topics:
-  - two-pointers-other
+  - two-pointers-swap
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
