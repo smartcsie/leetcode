@@ -1,0 +1,13 @@
+number: 1332
+title: Remove Palindromic Subsequences
+url: https://leetcode.com/problems/remove-palindromic-subsequences/
+solutions:
+- file: Solution_1332.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers Opposite
+  topics:
+  - two-pointers-opposite
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
