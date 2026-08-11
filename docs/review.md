@@ -3,14 +3,14 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 861 / 4017 題（最後更新：2026-08-11 00:09）
-- **目前收錄總題目數：** 863 題　🔴 生疏：548 題　🟡 注意：109 題　🟢 熟練：206 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 863 題　🔴 生疏：547 題　🟡 注意：110 題　🟢 熟練：206 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 0 | 8 | 9 | 0 | 17 |
-| [array](topics/array.md) | 10 | 6 | 13 | 0 | 29 |
+| [array](topics/array.md) | 10 | 7 | 13 | 0 | 30 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 5 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
@@ -25,9 +25,9 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 14 | 3 | 0 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 13 | 8 | 14 | 0 | 35 |
+| [bit-manipulation](topics/bit-manipulation.md) | 13 | 9 | 14 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 3 | 0 | 9 |
-| [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 2 | 0 | 0 | 0 | 2 |
+| [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 1 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 2 | 0 | 18 |
 | [design](topics/design.md) | 5 | 1 | 0 | 0 | 6 |
@@ -42,7 +42,7 @@
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 22 | 2 | 16 | 0 | 40 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 11 | 5 | 6 | 0 | 22 |
-| [hash-table-set](topics/hash-table-set.md) | 11 | 3 | 7 | 0 | 21 |
+| [hash-table-set](topics/hash-table-set.md) | 11 | 4 | 7 | 0 | 22 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 556 個解法標記為生疏，建議找時間重新練習。
+目前共有 555 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -561,7 +561,6 @@
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | [C++](problems/2578.md) | greedy |
 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 Medium | [C++](problems/2583.md) | tree-bfs-level-order |
 | 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 Easy | [C++](problems/2600.md) | math |
-| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | [C++](problems/2605.md) | bit-manipulation-mask |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | [C++](problems/2645.md) | greedy |
 | 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | [C++](problems/2656.md) | greedy |
 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 Easy | [C++](problems/2667.md) | design |

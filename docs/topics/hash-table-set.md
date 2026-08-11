@@ -16,13 +16,14 @@
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | Array, Hash Set, Greedy | [C++](../problems/3487.md) | O(N) | O(N) |
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | Array, Hash Table | [C++](../problems/3718.md) | O(N+M) | O(M) |
 
-## 🟡 注意（3）
+## 🟡 注意（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 Easy | Array, Hash Table | [C++](../problems/1346.md) | O(N) | O(N) |
 | 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 Easy | Hash Table Set, Hash Table | [C++](../problems/1624.md) | O(N) | O(1) |
 | 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 Easy | Hash Table Set, Hash Set | [C++](../problems/1805.md) | O(N) | O(N) |
+| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Set | [C++](../problems/2605.md) |  |  |
 
 ## 🟢 熟悉（8）
 
