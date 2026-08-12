@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：525 題　🟡 注意：122 題　🟢 熟練：217 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：524 題　🟡 注意：122 題　🟢 熟練：218 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -40,7 +40,7 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 32 | 5 | 3 | 0 | 40 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 21 | 2 | 19 | 0 | 42 |
+| [hash-table-counting](topics/hash-table-counting.md) | 20 | 2 | 20 | 0 | 42 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 9 | 6 | 0 | 18 |
 | [hash-table-set](topics/hash-table-set.md) | 11 | 4 | 8 | 0 | 23 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 532 個解法標記為生疏，建議找時間重新練習。
+目前共有 531 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -513,7 +513,6 @@
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | [C++](problems/2396.md) | math-palindrome |
 | 2397 | [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/) | 🟡 Medium | [C++](problems/2397.md) | bit-bitmask-subset-enumeration |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | [C++](problems/2399.md) | string-character-classification |
-| 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | [C++](problems/2404.md) | hash-table-counting |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | [C++](problems/2411.md) | bit-manipulation |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | [C++](problems/2415.md) | tree-dfs-path |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | [C++](problems/2419.md) | bit-manipulation-and |
