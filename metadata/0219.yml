@@ -5,6 +5,7 @@ solutions:
 - file: Solution_0219.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Set
   - Hash Table
   - Sliding Window
   topics:

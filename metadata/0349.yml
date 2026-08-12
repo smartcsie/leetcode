@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0349.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table
+  - Hash Table Set
+  - Intersection
   topics:
   - hash-table-set
   time: O(N+M)

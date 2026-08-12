@@ -6,7 +6,7 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Set
-  - Hash Table
+  - Intersection
   topics:
   - hash-table-set
   time: O(N+M)

@@ -29,9 +29,9 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Set, Uniqueness | [C++](../problems/0217.md) | O(N) | O(N) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Set, Uniqueness | [C++](../problems/0217.md) | O(N) | O(N) |
-| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table, Sliding Window | [C++](../problems/0219.md) | O(N) | O(min(N,K)) |
-| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](../problems/0349.md) | O(N+M) | O(N) |
-| 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table Set, Hash Table | [C++](../problems/0350.md) | O(N+M) | O(min(N,M)) |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table Set, Hash Table, Sliding Window | [C++](../problems/0219.md) | O(N) | O(min(N,K)) |
+| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table Set, Intersection | [C++](../problems/0349.md) | O(N+M) | O(N) |
+| 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table Set, Intersection | [C++](../problems/0350.md) | O(N+M) | O(min(N,M)) |
 | 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | 🟢 Easy | Hash Table Set | [C++](../problems/2215.md) | O(N+M) | O(N+M) |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Table Set, Hash Set | [C++](../problems/2357.md) | O(N) | O(N) |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 Medium | Hash Table Set, Hash Table, Math, Bitset | [C++](../problems/2442.md) | O(N*D) | O(M)* |
