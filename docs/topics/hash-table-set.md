@@ -23,12 +23,10 @@
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Set | [C++](../problems/2605.md) |  |  |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Array, Hash Table, Sorting | [C++](../problems/2784.md) | O(N) | O(N) |
 
-## 🟢 熟悉（10）
+## 🟢 熟悉（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Set, Uniqueness | [C++](../problems/0217.md) | O(N) | O(N) |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Set, Uniqueness | [C++](../problems/0217.md) | O(N) | O(N) |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table Set, Hash Table, Sliding Window | [C++](../problems/0219.md) | O(N) | O(min(N,K)) |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table Set, Intersection | [C++](../problems/0349.md) | O(N+M) | O(N) |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table Set, Intersection | [C++](../problems/0350.md) | O(N+M) | O(min(N,M)) |

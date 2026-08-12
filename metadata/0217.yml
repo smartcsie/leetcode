@@ -5,10 +5,9 @@ solutions:
 - file: Solution_0217.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Set
-  - Uniqueness
+  - Hash Table Uniqueness
   topics:
-  - hash-table-set
+  - hash-table-uniqueness
   time: O(N)
   space: O(N)
   familiarity: 熟練
@@ -21,20 +20,18 @@ solutions:
 - file: Solution_0217_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Set
-  - Uniqueness
+  - Hash Table Uniqueness
   topics:
-  - hash-table-set
+  - hash-table-uniqueness
   time: O(N)
   space: O(N)
   familiarity: 熟練
 - file: Solution_0217_2.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
-  - Uniqueness
+  - Hash Table Uniqueness
   topics:
-  - array
+  - hash-table-uniqueness
   time: O(NlogN)
   space: O(logN)
   familiarity: 熟練
@@ -42,10 +39,9 @@ solutions:
 - file: Solution_0217_3.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
-  - Uniqueness
+  - Hash Table Uniqueness
   topics:
-  - array
+  - hash-table-uniqueness
   time: O(NlogN)
   space: O(logN)
   familiarity: 熟練
