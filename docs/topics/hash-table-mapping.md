@@ -1,10 +1,9 @@
 # hash-table-mapping
 
-## 🔴 生疏（9）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 Medium | Math, Hash Table, String | [C++](../problems/0012.md) | O(1) | O(1) |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 Easy | Hash Table, Math, String | [C++](../problems/0013.md) | O(N) | O(1) |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | Array, Hash Table, Bitset | [C++](../problems/0036.md) | O(1) | O(1) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | Array, Hash Table | [C++](../problems/0128.md) | O(N) | O(N) |
@@ -14,10 +13,11 @@
 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 Medium | Hash Table, Math | [C++](../problems/2342.md) | O(N*logM) | O(N) |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Array, Hash Set | [C++](../problems/3678.md) | O(N) | O(N) |
 
-## 🟡 注意（5）
+## 🟡 注意（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 Medium | Hash Table Mapping, Hash Table, String | [C++](../problems/0012.md) | O(1) | O(1) |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 Easy | String, Hash Table | [C++](../problems/0205.md) | O(N) | O(1) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | String, Hash Table | [C++](../problems/0290.md) | O(N+M) | O(N+M) |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Hash Table Mapping, Hash Table, String | [C++](../problems/1002.md) | O(N*K) | O(1) |

@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：532 題　🟡 注意：117 題　🟢 熟練：215 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：531 題　🟡 注意：118 題　🟢 熟練：215 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -41,7 +41,7 @@
 | [greedy](topics/greedy.md) | 32 | 5 | 3 | 0 | 40 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 22 | 2 | 16 | 0 | 40 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 9 | 5 | 7 | 0 | 21 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 8 | 6 | 7 | 0 | 21 |
 | [hash-table-set](topics/hash-table-set.md) | 11 | 4 | 8 | 0 | 23 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 539 個解法標記為生疏，建議找時間重新練習。
+目前共有 538 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -99,7 +99,6 @@
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | [C++](problems/0008.md) | string |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | [C++](problems/0009.md) | math-palindrome |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 Medium | [C++](problems/0011.md) | two-pointers-opposite |
-| 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 Medium | [C++](problems/0012.md) | hash-table-mapping |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 Easy | [C++](problems/0013.md) | hash-table-mapping |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | [C++](problems/0014.md) | string |
 | 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 Medium | [C++](problems/0015.md) | two-pointers-opposite |

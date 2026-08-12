@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0012.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Hash Table Mapping
   - Hash Table
   - String
   topics:
   - hash-table-mapping
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意

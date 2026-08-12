@@ -10,21 +10,18 @@
 class Solution {
 public:
     string intToRoman(int num) {
-        // 使用靜態陣列避免動態配置
-        static const int values[] = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
-        static const string symbols[] = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
-        
-        string res;
-        res.reserve(16); // 羅馬數字最大長度不會超過 16
-        
-        for (int i = 0; i < 13; ++i) {
-            // 只要 num 大於等於當前數值，就持續累加該符號
-            // 這種貪婪策略適用於羅馬數字的建構規則
-            while (num >= values[i]) {
+        vector<int> values =     {1000,     900,    500 ,   400,    100,    90,     
+                                    50,     40,     10,     9,      5,      4,      1};
+        vector<string> symbols = {"M",      "CM",   "D",    "CD",   "C",    "XC",
+                                    "L",    "XL",   "X",    "IX",   "V",    "IV",   "I"};
+        string ans;
+        for(int i = 0; i < values.size(); i++) {
+            if(num == 0) break;
+            while(num >= values[i]) {
                 num -= values[i];
-                res += symbols[i];
+                ans += symbols[i];
             }
         }
-        return res;
+        return ans;
     }
 };
