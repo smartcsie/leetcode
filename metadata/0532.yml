@@ -5,9 +5,9 @@ solutions:
 - file: Solution_0532.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table Counting
+  - Hash Table Existence
   topics:
-  - hash-table-counting
+  - hash-table-existence
   time: O(NlogN) - 排序後雙指針或二分搜尋。
   space: O(N) - 排序空間 O(logN)，set O(N)。
   familiarity: 注意

@@ -1,6 +1,6 @@
 # hash-table-counting
 
-## 🔴 生疏（11）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -11,31 +11,24 @@
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | Hash Table, Counting | [C++](../problems/1897.md) | O(N*M) | O(1) |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | Hash Table, Math | [C++](../problems/2001.md) | O(N) | O(N) |
 | 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 Medium | Hash Table, String, Single-Pass | [C++](../problems/2023.md) | O(N*L) |  |
-| 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | Hash Table | [C++](../problems/2395.md) | O(N) | O(N) |
 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 Easy | String, Hash Map | [C++](../problems/3438.md) | O(N) | O(1) |
 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | String, Hash Map | [C++](../problems/3442.md) | O(N) | O(1) |
 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 Medium | String, Hash Map | [C++](../problems/3926.md) | O(N+M) | O(N) |
 
-## 🟡 注意（5）
+## 🟡 注意（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Counting | [C++](../problems/0532.md) | O(NlogN) - 排序後雙指針或二分搜尋。 | O(N) - 排序空間 O(logN)，set O(N)。 |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | String, Hash Table | [C++](../problems/0819.md) | O(M+N) | O(M+N) |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Hash Table Counting, Hash Table, String | [C++](../problems/1002.md) | O(N*K) | O(1) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 Easy | Hash Table Counting, Hash Table, Math | [C++](../problems/1512.md) | O(N) | O(N) |
-| 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium | Hash Table Counting, Hash Map, Matrix Simulation | [C++](../problems/2352.md) | O(N³logN) 或 O(N²logN)* | O(N²) |
 
-## 🟢 熟悉（29）
+## 🟢 熟悉（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](../problems/0049.md) | O(N*K) | O(N*K) |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Counting | [C++](../problems/0049.md) | O(N*logK) | O(N*K) |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/0242.md) | O(N) | O(1) |
-| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/0383.md) | O(M+N) | O(1) |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](../problems/0771.md) | O(J+S) | O(J) |
-| 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/0884.md) | O(N+M) | O(N+M) |
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 Easy | Hash Table Counting, Frequency Count | [C++](../problems/1160.md) | O(N) | O(1) |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/1189.md) | O(N) | O(1)* |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 Easy | Hash Table, Counting | [C++](../problems/1207.md) | O(N) | O(N) |

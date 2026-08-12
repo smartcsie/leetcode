@@ -5,11 +5,11 @@ solutions:
 - file: Solution_2352.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table Counting
+  - Hash Table Intersection
   - Hash Map
   - Matrix Simulation
   topics:
-  - hash-table-counting
+  - hash-table-intersection
   time: O(N³logN) 或 O(N²logN)*
   space: O(N²)
   familiarity: 注意

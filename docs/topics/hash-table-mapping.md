@@ -14,10 +14,11 @@
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | String, Hash Table | [C++](../problems/0290.md) | O(N+M) | O(N+M) |
 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | Hash Table Mapping, Hash Map, Difference Array | [C++](../problems/2451.md) | O(N*M) | O(N*M) |
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Mapping | [C++](../problems/0049.md) | O(N*logK) | O(N*K) |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | 🟢 Easy | Hash Table Mapping, Hash Set | [C++](../problems/0804.md) | O(S) | O(S) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | String, Hash Table | [C++](../problems/1436.md) | O(N) | O(N) |
 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 Easy | Hash Table Mapping, Hash Mapping, Simulation | [C++](../problems/3838.md) | O(N*L) | O(1) |

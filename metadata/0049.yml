@@ -15,9 +15,9 @@ solutions:
 - file: Solution_0049_1.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table Counting
+  - Hash Table Mapping
   topics:
-  - hash-table-counting
+  - hash-table-mapping
   time: O(N*logK)
   space: O(N*K)
   familiarity: 熟練
