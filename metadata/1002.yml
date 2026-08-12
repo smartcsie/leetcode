@@ -5,11 +5,11 @@ solutions:
 - file: Solution_1002.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Mapping
+  - Hash Table Counting
   - Hash Table
   - String
   topics:
-  - hash-table-mapping
+  - hash-table-counting
   time: O(N*K)
   space: O(1)
   familiarity: 注意

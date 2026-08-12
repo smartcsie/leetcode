@@ -8,7 +8,7 @@
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Mapping, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Map | [C++](../problems/1640.md) | O(N) | O(N) |
 
-## 🟡 注意（9）
+## 🟡 注意（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,6 @@
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 Easy | String, Hash Table | [C++](../problems/0205.md) | O(N) | O(1) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | String, Hash Table | [C++](../problems/0290.md) | O(N+M) | O(N+M) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 Medium | Hash Table Mapping, Hash Table | [C++](../problems/0454.md) | O(N²) | O(N²) |
-| 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Hash Table Mapping, Hash Table, String | [C++](../problems/1002.md) | O(N*K) | O(1) |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table Mapping, Hash Table, Two Pointers | [C++](../problems/2441.md) | O(N) | O(N) |
 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | Hash Table Mapping, Hash Map, Difference Array | [C++](../problems/2451.md) | O(N*M) | O(N*M) |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Hash Table Mapping, Hash Set | [C++](../problems/3678.md) | O(N) | O(N) |
