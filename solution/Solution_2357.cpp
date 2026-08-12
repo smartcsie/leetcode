@@ -19,14 +19,7 @@
 class Solution {
 public:
     int minimumOperations(std::vector<int>& nums) {
-        std::unordered_set<int> unique;
-        
-        // 將所有數字放入 set 中以進行去重
-        for (const int& num : nums) {
-            unique.insert(num);
-        }
-        
-        // 總操作次數 = 不重複的元素個數 - 0 的個數（因為 0 不需要被減去）
-        return unique.size() - unique.count(0);
+        unordered_set sets(nums.begin(), nums.end());
+        return sets.size() - sets.count(0);
     }
 };

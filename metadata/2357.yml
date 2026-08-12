@@ -5,10 +5,11 @@ solutions:
 - file: Solution_2357.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Set
   - Hash Set
-  - Math
   topics:
   - hash-table-set
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> 不重複的元素個數 - 0 的個數（因為 0 不需要被減去）'
