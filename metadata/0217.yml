@@ -5,7 +5,8 @@ solutions:
 - file: Solution_0217.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table
+  - Hash Table Set
+  - Uniqueness
   topics:
   - hash-table-set
   time: O(N)
@@ -21,6 +22,7 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Set
+  - Uniqueness
   topics:
   - hash-table-set
   time: O(N)
@@ -30,6 +32,7 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array
+  - Uniqueness
   topics:
   - array
   time: O(NlogN)
@@ -40,6 +43,7 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array
+  - Uniqueness
   topics:
   - array
   time: O(NlogN)

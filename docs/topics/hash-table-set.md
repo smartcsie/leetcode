@@ -27,8 +27,8 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table | [C++](../problems/0217.md) | O(N) | O(N) |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Set | [C++](../problems/0217.md) | O(N) | O(N) |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Set, Uniqueness | [C++](../problems/0217.md) | O(N) | O(N) |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Set, Uniqueness | [C++](../problems/0217.md) | O(N) | O(N) |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table, Sliding Window | [C++](../problems/0219.md) | O(N) | O(min(N,K)) |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Hash Table | [C++](../problems/0349.md) | O(N+M) | O(N) |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table Set, Hash Table | [C++](../problems/0350.md) | O(N+M) | O(min(N,M)) |
