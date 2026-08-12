@@ -1,10 +1,9 @@
 # hash-table-counting
 
-## 🔴 生疏（18）
+## 🔴 生疏（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table, String | [C++](../problems/0049.md) | O(N*K) | O(N*K) |
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 Easy | Hash Map, One-pass | [C++](../problems/0697.md) | O(N) | O(N) |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 Medium | Hash Table Counting, Hash Table, Counting | [C++](../problems/0916.md) | O(N * L) | O(1) |
 | 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 Medium | Hash Table, Remainder Counting | [C++](../problems/1497.md) | O(N+K) | O(K) |
@@ -30,10 +29,12 @@
 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Counting | [C++](../problems/0532.md) | O(NlogN) - 排序後雙指針或二分搜尋。 | O(N) - 排序空間 O(logN)，set O(N)。 |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | String, Hash Table | [C++](../problems/0819.md) | O(M+N) | O(M+N) |
 
-## 🟢 熟悉（22）
+## 🟢 熟悉（24）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](../problems/0049.md) | O(N*K) | O(N*K) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Counting | [C++](../problems/0049.md) | O(N*logK) | O(N*K) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/0242.md) | O(N) | O(1) |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/0383.md) | O(M+N) | O(1) |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](../problems/0771.md) | O(J+S) | O(J) |

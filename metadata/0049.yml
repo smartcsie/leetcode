@@ -5,10 +5,19 @@ solutions:
 - file: Solution_0049.cpp
   difficulty: 🟡 Medium
   tags:
+  - Hash Table Counting
   - Hash Table
-  - String
   topics:
   - hash-table-counting
   time: O(N*K)
   space: O(N*K)
-  familiarity: 生疏
+  familiarity: 熟練
+- file: Solution_0049_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Hash Table Counting
+  topics:
+  - hash-table-counting
+  time: O(N*logK)
+  space: O(N*K)
+  familiarity: 熟練

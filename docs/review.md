@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：522 題　🟡 注意：122 題　🟢 熟練：220 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：521 題　🟡 注意：122 題　🟢 熟練：221 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -40,7 +40,7 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 32 | 5 | 3 | 0 | 40 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 18 | 2 | 22 | 0 | 42 |
+| [hash-table-counting](topics/hash-table-counting.md) | 17 | 2 | 23 | 0 | 42 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 9 | 6 | 0 | 18 |
 | [hash-table-set](topics/hash-table-set.md) | 11 | 4 | 8 | 0 | 23 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 529 個解法標記為生疏，建議找時間重新練習。
+目前共有 528 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -123,7 +123,6 @@
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | [C++](problems/0043.md) | string |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | [C++](problems/0046.md) | backtracking-permutation |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | [C++](problems/0047.md) | backtracking-permutation |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | [C++](problems/0049.md) | hash-table-counting |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | [C++](problems/0050.md) | math |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | [C++](problems/0053.md) | dynamic-programming-kadane-algorithm |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | [C++](problems/0054.md) | array |
