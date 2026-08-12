@@ -5,11 +5,9 @@ solutions:
 - file: Solution_2154.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Mapping
-  - Hash Table
-  - Simulation
+  - Hash Table Existence
   topics:
-  - hash-table-mapping
+  - hash-table-existence
   time: O(N)
   space: O(N)
   familiarity: 熟練

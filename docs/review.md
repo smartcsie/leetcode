@@ -41,9 +41,9 @@
 | [greedy](topics/greedy.md) | 32 | 6 | 3 | 0 | 41 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 11 | 5 | 28 | 0 | 44 |
-| [hash-table-existence](topics/hash-table-existence.md) | 2 | 1 | 2 | 0 | 5 |
+| [hash-table-existence](topics/hash-table-existence.md) | 5 | 4 | 5 | 0 | 14 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 3 | 0 | 5 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 8 | 6 | 0 | 17 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 5 | 3 | 0 | 8 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 5 | 2 | 4 | 0 | 11 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
@@ -175,7 +175,7 @@
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | [C++](problems/0124.md) | tree-dfs-path |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 Easy | [C++](problems/0125.md) | two-pointers-opposite |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | [C++](problems/0127.md) | graph-bfs |
-| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | [C++](problems/0128.md) | hash-table-mapping |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | [C++](problems/0128.md) | hash-table-existence |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [C++](problems/0139.md) | knapsack-problem |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 Medium | [C++](problems/0142.md) | fast-slow-pointers |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | [C++](problems/0143.md) | linked-list |
@@ -199,7 +199,7 @@
 | 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 Easy | [C++](problems/0182.md) | sql |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟢 Medium | [C++](problems/0198.md) | dynamic-programming |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | [C++](problems/0200.md) | graph-dfs |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | [C++](problems/0202.md) | hash-table-mapping |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | [C++](problems/0202.md) | hash-table-existence |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | [C++](problems/0206.md) | linked-list |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | [C++](problems/0207.md) | topological-sort |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 Medium | [C++](problems/0209.md) | variable-size-sliding-window |
@@ -435,7 +435,7 @@
 | 1593 | [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | 🟡 Medium | [C++](problems/1593.md) | backtracking-combination |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | [C++](problems/1608.md) | array-linear-scan |
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | [C++](problems/1636.md) | quick-select |
-| 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | [C++](problems/1640.md) | hash-table-mapping |
+| 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | [C++](problems/1640.md) | hash-table-existence |
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | [C++](problems/1641.md) | dynamic-programming-kadane-algorithm |
 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 Medium | [C++](problems/1647.md) | hash-table-counting |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | [C++](problems/1668.md) | dynamic-programming |

@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0454.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table Mapping
+  - Hash Table Existence
   - Hash Table
   topics:
-  - hash-table-mapping
+  - hash-table-existence
   time: O(N²)
   space: O(N²)
   familiarity: 注意

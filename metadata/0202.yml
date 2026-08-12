@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0202.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Mapping
+  - Hash Table Existence
   - Hash Table
   - Fast-Slow Pointers
   topics:
-  - hash-table-mapping
+  - hash-table-existence
   time: O(logN)
   space: O(1)
   familiarity: 生疏
