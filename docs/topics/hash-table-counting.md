@@ -25,7 +25,7 @@
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 Easy | Hash Table Counting, Hash Table, Math | [C++](../problems/1512.md) | O(N) | O(N) |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium | Hash Table Counting, Hash Map, Matrix Simulation | [C++](../problems/2352.md) | O(N³logN) 或 O(N²logN)* | O(N²) |
 
-## 🟢 熟悉（28）
+## 🟢 熟悉（29）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -45,6 +45,7 @@
 | 2068 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/2068.md) | O(N) | O(1) |
 | 2094 | [Finding 3-Digit Even Numbers](https://leetcode.com/problems/finding-3-digit-even-numbers/) | 🟢 Easy | Math, Hash Table | [C++](../problems/2094.md) | O(N) | O(1) |
 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table, Counting | [C++](../problems/2150.md) | O(N) | O(N) |
+| 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/2248.md) | O(N*M) | O(N) |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 Easy | Hash Table Counting, Hash Map, Counting | [C++](../problems/2283.md) | O(N) | O(1) |
 | 2287 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/2287.md) | O(N+M) | O(1) |
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 Easy | Array, Hash Table, Counting | [C++](../problems/2341.md) | O(N) | O(1)* |

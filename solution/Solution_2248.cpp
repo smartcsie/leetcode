@@ -4,19 +4,17 @@
 class Solution {
 public:
     vector<int> intersection(vector<vector<int>>& nums) {
-        vector<int> res;
-        map<int, int> count;
-        for(const auto& group : nums) {
-            for(int num : group) {
-                count[num]++;
-            }
-        }
         int n = nums.size();
-        for (const auto& [num, freq] : count) {
-            if (freq == n) {
-                res.push_back(num);
+        vector<int> ans;
+        vector<int> counts(1001, 0);
+        for(auto row : nums) {
+            for(auto x : row) {
+                counts[x]++;
             }
         }
-        return res;
+        for( int i = 0; i <= 1000; i++) {
+            if(counts[i] == n) ans.push_back(i);
+        }
+        return ans;
     }
 };

@@ -1,6 +1,6 @@
 # hash-table-set
 
-## 🔴 生疏（11）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,6 @@
 | 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Set, Math | [C++](../problems/0888.md) | O(A+B) | O(B) |
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | Array, Hash Table | [C++](../problems/0939.md) | O(N²) | O(N) |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Set, Coordinates | [C++](../problems/1496.md) | O(N) | O(N) |
-| 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | 🟢 Easy | Hash Table | [C++](../problems/2248.md) | O(N*M) | O(N) |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Set, Math | [C++](../problems/2357.md) | O(N) | O(N) |
 | 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | Array, Hash Set | [C++](../problems/2670.md) | O(N) | O(N) |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Array, Hash Table, Sorting | [C++](../problems/2784.md) | O(N) | O(N) |

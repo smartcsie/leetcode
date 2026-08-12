@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：515 題　🟡 注意：124 題　🟢 熟練：225 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：514 題　🟡 注意：124 題　🟢 熟練：226 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -40,9 +40,9 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 32 | 5 | 3 | 0 | 40 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 11 | 4 | 27 | 0 | 42 |
+| [hash-table-counting](topics/hash-table-counting.md) | 11 | 4 | 28 | 0 | 43 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 9 | 6 | 0 | 18 |
-| [hash-table-set](topics/hash-table-set.md) | 11 | 4 | 8 | 0 | 23 |
+| [hash-table-set](topics/hash-table-set.md) | 10 | 4 | 8 | 0 | 22 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 522 個解法標記為生疏，建議找時間重新練習。
+目前共有 521 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -493,7 +493,6 @@
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | [C++](problems/2231.md) | greedy |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 Easy | [C++](problems/2236.md) | tree |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | [C++](problems/2243.md) | string |
-| 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | 🟢 Easy | [C++](problems/2248.md) | hash-table-set |
 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 Easy | [C++](problems/2255.md) | string |
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | [C++](problems/2256.md) | array-prefix-sum |
 | 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | [C++](problems/2259.md) | greedy |
