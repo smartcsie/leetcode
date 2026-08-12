@@ -5,10 +5,11 @@ solutions:
 - file: Solution_1207.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Uniqueness
   - Hash Table
   - Counting
   topics:
-  - hash-table-counting
+  - hash-table-uniqueness
   time: O(N)
   space: O(N)
   familiarity: 熟練

@@ -5,9 +5,10 @@ solutions:
 - file: Solution_2965.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Existence
   - Hashing
   topics:
-  - hash-table-counting
+  - hash-table-existence
   time: O(N²)
   space: O(N²)
   familiarity: 熟練

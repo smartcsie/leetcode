@@ -5,10 +5,11 @@ solutions:
 - file: Solution_2150.cpp
   difficulty: 🟡 Medium
   tags:
+  - Hash Table Existence
   - Hash Table
   - Counting
   topics:
-  - hash-table-counting
+  - hash-table-existence
   time: O(N)
   space: O(N)
   familiarity: 熟練

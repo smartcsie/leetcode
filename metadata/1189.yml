@@ -5,11 +5,11 @@ solutions:
 - file: Solution_1189.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Counting
+  - Hash Table Intersection
   - Hash Table
   - Counting
   topics:
-  - hash-table-counting
+  - hash-table-intersection
   time: O(N)
   space: O(1)*
   familiarity: 熟練

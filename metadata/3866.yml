@@ -5,19 +5,14 @@ solutions:
 - file: Solution_3866.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Hash Table Uniqueness
   - Hash Table
   topics:
-  - hash-table-counting
+  - hash-table-uniqueness
   time: O(N)
   space: O(1)
   familiarity: 熟練
-  note: '> [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/)
-    <br>
-
-    > 因為數字介於0~100，new一個size 101的vector，尋訪nums一輪，統計偶數頻率，再尋訪nums一輪，return 頻率為1的num<br>
-
-
+  note: '> 因為數字介於0~100，new一個size 101的vector，尋訪nums一輪，統計偶數頻率，再尋訪nums一輪，return 頻率為1的num<br>
 
     <br><br>'
   is_best: true

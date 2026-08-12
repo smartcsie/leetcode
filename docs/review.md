@@ -40,11 +40,11 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 32 | 6 | 3 | 0 | 41 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 10 | 3 | 25 | 0 | 38 |
-| [hash-table-existence](topics/hash-table-existence.md) | 6 | 5 | 5 | 0 | 16 |
-| [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 2 | 5 | 0 | 8 |
+| [hash-table-counting](topics/hash-table-counting.md) | 10 | 3 | 12 | 0 | 25 |
+| [hash-table-existence](topics/hash-table-existence.md) | 6 | 5 | 7 | 0 | 18 |
+| [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 2 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 5 | 4 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 5 | 2 | 5 | 0 | 12 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 5 | 2 | 10 | 0 | 17 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |

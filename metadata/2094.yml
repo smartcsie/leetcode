@@ -5,10 +5,10 @@ solutions:
 - file: Solution_2094.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Hash Table Uniqueness
   - Hash Table
   topics:
-  - hash-table-counting
+  - hash-table-uniqueness
   time: O(N)
   space: O(1)
   familiarity: 熟練
