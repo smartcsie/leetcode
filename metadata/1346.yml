@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1346.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Hash Table Existence
   - Hash Table
   topics:
-  - hash-table-set
+  - hash-table-existence
   time: O(N)
   space: O(N)
   familiarity: 注意

@@ -4,9 +4,11 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟡 注意（0）
+## 🟡 注意（1）
 
-目前沒有標記為注意的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](../problems/1346.md) | O(N) | O(N) |
 
 ## 🟢 熟悉（2）
 

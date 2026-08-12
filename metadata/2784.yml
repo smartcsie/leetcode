@@ -5,11 +5,11 @@ solutions:
 - file: Solution_2784.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Hash Table Uniqueness
   - Hash Table
   - Sorting
   topics:
-  - hash-table-set
+  - hash-table-uniqueness
   time: O(N)
   space: O(N)
   familiarity: 注意

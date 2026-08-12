@@ -4,9 +4,12 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟡 注意（0）
+## 🟡 注意（2）
 
-目前沒有標記為注意的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](../problems/1805.md) | O(N) | O(N) |
+| 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Sorting | [C++](../problems/2784.md) | O(N) | O(N) |
 
 ## 🟢 熟悉（7）
 

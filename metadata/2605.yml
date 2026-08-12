@@ -50,9 +50,9 @@ solutions:
 - file: Solution_2605_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Hash Table Intersection
   topics:
-  - array
+  - hash-table-intersection
   time: O(NM)
   space: O(1)
   familiarity: 注意
@@ -68,9 +68,9 @@ solutions:
 - file: Solution_2605_3.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Set
+  - Hash Table Intersection
   topics:
-  - hash-table-set
+  - hash-table-intersection
   time: ''
   space: ''
   familiarity: 注意

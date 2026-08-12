@@ -10,7 +10,7 @@
 | 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 0 | 8 | 9 | 0 | 17 |
-| [array](topics/array.md) | 7 | 8 | 14 | 0 | 29 |
+| [array](topics/array.md) | 7 | 7 | 14 | 0 | 28 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 5 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
@@ -38,14 +38,14 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 32 | 5 | 3 | 0 | 40 |
+| [greedy](topics/greedy.md) | 32 | 6 | 3 | 0 | 41 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 11 | 5 | 28 | 0 | 44 |
-| [hash-table-existence](topics/hash-table-existence.md) | 0 | 0 | 2 | 0 | 2 |
-| [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 0 | 3 | 0 | 3 |
+| [hash-table-existence](topics/hash-table-existence.md) | 0 | 1 | 2 | 0 | 3 |
+| [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 8 | 6 | 0 | 17 |
-| [hash-table-set](topics/hash-table-set.md) | 8 | 5 | 0 | 0 | 13 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 0 | 0 | 4 | 0 | 4 |
+| [hash-table-set](topics/hash-table-set.md) | 8 | 0 | 0 | 0 | 8 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 0 | 2 | 4 | 0 | 6 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
