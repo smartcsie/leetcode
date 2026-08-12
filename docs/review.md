@@ -41,8 +41,9 @@
 | [greedy](topics/greedy.md) | 32 | 5 | 3 | 0 | 40 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 11 | 5 | 28 | 0 | 44 |
+| [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 0 | 2 | 0 | 2 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 8 | 6 | 0 | 17 |
-| [hash-table-set](topics/hash-table-set.md) | 8 | 5 | 8 | 0 | 21 |
+| [hash-table-set](topics/hash-table-set.md) | 8 | 5 | 6 | 0 | 19 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 0 | 0 | 1 | 0 | 1 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
