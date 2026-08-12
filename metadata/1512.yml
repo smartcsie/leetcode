@@ -5,11 +5,20 @@ solutions:
 - file: Solution_1512.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Hash Table Counting
   - Hash Table
   - Math
   topics:
   - hash-table-counting
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意
+- file: Solution_1512_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array Linear Scan
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
