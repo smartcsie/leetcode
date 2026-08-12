@@ -11,28 +11,31 @@
  */
 
 class Solution {
-private:
-    int digitSum(int n) {
-        int sum = 0;
-        while(n > 0) {
-            sum += n % 10;
-            n /= 10;
-        }
-        return sum;
-    }
 public:
     int maximumSum(vector<int>& nums) {
-        unordered_map<int, int> max;
-        int maximum = -1;
-        for(const int& num : nums) {
-            int digit_sum = digitSum(num);
-            if(max.count(digit_sum)) {
-                maximum  = std::max(maximum, max[digit_sum] + num );
-                max[digit_sum] = std::max(max[digit_sum], num);
-            } else {
-                max[digit_sum] = num;
+        vector<vector<int>> counts(82, vector<int>(3, -1));
+        for(const int& x : nums) {
+            int d = 0;
+            int y = x;
+            while(y > 0) {
+                d += y % 10;
+                y /= 10;
+            }
+            if(x > counts[d][1]) {
+                counts[d][0] = counts[d][1];
+                counts[d][1] = x;
+            } else if(x > counts[d][0]) {
+                counts[d][0] = x;
+            } 
+            if(counts[d][0] != -1 && counts[d][1] != -1) 
+                counts[d][2] = max(counts[d][2], counts[d][0] + counts[d][1]);
+        }
+        int ans = -1;
+        for(int i = 0 ; i < 82; i++) {
+            if(counts[i][2] != -1) {
+                ans = max(ans, counts[i][2]);
             }
         }
-        return maximum;
+        return ans;
     }
 };
