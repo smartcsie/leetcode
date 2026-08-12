@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：510 題　🟡 注意：126 題　🟢 熟練：228 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：509 題　🟡 注意：127 題　🟢 熟練：228 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -65,7 +65,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 7 | 1 | 7 | 0 | 15 |
-| [string](topics/string.md) | 22 | 6 | 15 | 0 | 43 |
+| [string](topics/string.md) | 21 | 7 | 15 | 0 | 43 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 517 個解法標記為生疏，建議找時間重新練習。
+目前共有 516 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -444,7 +444,6 @@
 | 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 Medium | [C++](problems/1738.md) | array-prefix-sum |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 Easy | [C++](problems/1742.md) | math-digit-decomposition |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | [C++](problems/1758.md) | string |
-| 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 Easy | [C++](problems/1784.md) | string |
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | [C++](problems/1785.md) | greedy |
 | 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | [C++](problems/1818.md) | binary-search-build-in |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | [C++](problems/1837.md) | math-digit-decomposition |

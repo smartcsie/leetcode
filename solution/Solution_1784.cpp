@@ -24,12 +24,6 @@
 class Solution {
 public:
     bool checkOnesSegment(string s) {
-        size_t first = s.find('1');
-        if (first == string::npos) return true;
-        size_t last = s.rfind('1');
-        for (size_t i = first; i <= last; i++) {
-            if (s[i] == '0') return false;
-        }
-        return true;
+        return s.find("01") == string::npos;
     }
 };
