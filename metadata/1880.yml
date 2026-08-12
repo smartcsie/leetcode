@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1880.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Math Digit Decomposition
   - Math
   topics:
   - math-digit-decomposition
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 注意
