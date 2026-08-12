@@ -5,10 +5,10 @@ solutions:
 - file: Solution_3678.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Hash Table Mapping
   - Hash Set
   topics:
   - hash-table-mapping
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 注意

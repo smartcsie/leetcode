@@ -11,31 +11,16 @@
  * 2. 精確計算平均值（向上取整）。
  */
 
-#include <vector>
-#include <numeric>
-#include <unordered_set>
-#include <cmath>
-#include <algorithm>
-
 class Solution {
 public:
-    int smallestAbsent(std::vector<int>& nums) {
-        // 使用 long long 防止求和溢位
-        long long sum = std::accumulate(nums.begin(), nums.end(), 0LL);
-        
-        // 計算平均值 (double) 並向上取整，再 +1
-        // 等同於大於平均值的最小整數
-        int avg = static_cast<int>(std::floor(static_cast<double>(sum) / nums.size()));
-        int ans = std::max(1, avg + 1);
-        
-        // 使用 unordered_set 進行快速查找
-        std::unordered_set<int> numSet(nums.begin(), nums.end());
-        
-        // 線性搜尋第一個不在 set 中的數字
-        while (numSet.count(ans)) {
-            ans++;
+    int smallestAbsent(vector<int>& nums) {
+        int n = nums.size();
+        unordered_set sets(nums.begin(), nums.end());
+        int sum  = accumulate(nums.begin(), nums.end(), 0) ;
+        int avg = sum <= 0 ? 1 : sum / n + 1;
+        for(int x = avg ; ; x++) {
+            if(!sets.contains(x)) return x;
         }
-        
-        return ans;
+        return -1;
     }
 };
