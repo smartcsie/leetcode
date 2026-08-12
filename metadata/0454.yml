@@ -5,9 +5,10 @@ solutions:
 - file: Solution_0454.cpp
   difficulty: 🟡 Medium
   tags:
+  - Hash Table Mapping
   - Hash Table
   topics:
   - hash-table-mapping
   time: O(N²)
   space: O(N²)
-  familiarity: 生疏
+  familiarity: 注意
