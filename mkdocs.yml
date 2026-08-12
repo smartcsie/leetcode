@@ -90,7 +90,10 @@ nav:
   - 🔑 Hash Table:
       - hash-table-mapping: topics/hash-table-mapping.md
       - hash-table-counting: topics/hash-table-counting.md
+      - hash-table-uniqueness: topics/hash-table-uniqueness.md
       - hash-table-set: topics/hash-table-set.md
+      - hash-table-intersection: topics/hash-table-intersection.md
+      - hash-table-existence: topics/hash-table-existence.md
   - 👥 Pointers:
       - two-pointers-center-expansion: topics/two-pointers-center-expansion.md
       - two-pointers-opposite: topics/two-pointers-opposite.md
