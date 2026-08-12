@@ -11,6 +11,7 @@ solutions:
   - string
   time: O(N*M)
   space: O(1)
+  familiarity: 熟練
   note: '> [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)<br>
 
     > **for(const string& word : words) {**
@@ -18,4 +19,5 @@ solutions:
     > &emsp;&emsp;&emsp;&emsp**if(s.find(word) == 0) count++;**
 
     > **}**'
-  familiarity: 生疏
+  related:
+  - 2185

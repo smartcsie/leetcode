@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：508 題　🟡 注意：127 題　🟢 熟練：229 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：507 題　🟡 注意：127 題　🟢 熟練：230 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -65,7 +65,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 7 | 1 | 7 | 0 | 15 |
-| [string](topics/string.md) | 20 | 7 | 16 | 0 | 43 |
+| [string](topics/string.md) | 19 | 7 | 17 | 0 | 43 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 515 個解法標記為生疏，建議找時間重新練習。
+目前共有 514 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -489,7 +489,6 @@
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | [C++](problems/2231.md) | greedy |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 Easy | [C++](problems/2236.md) | tree |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | [C++](problems/2243.md) | string |
-| 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 Easy | [C++](problems/2255.md) | string |
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | [C++](problems/2256.md) | array-prefix-sum |
 | 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | [C++](problems/2259.md) | greedy |
 | 2275 | [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | 🟡 Medium | [C++](problems/2275.md) | bit-manipulation-and |
