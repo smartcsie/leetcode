@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：530 題　🟡 注意：119 題　🟢 熟練：215 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：529 題　🟡 注意：120 題　🟢 熟練：215 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -25,7 +25,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 10 | 6 | 1 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 11 | 10 | 14 | 0 | 35 |
+| [bit-manipulation](topics/bit-manipulation.md) | 11 | 11 | 14 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 3 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 0 | 2 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 1 | 0 | 5 |
@@ -41,7 +41,7 @@
 | [greedy](topics/greedy.md) | 32 | 5 | 3 | 0 | 40 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 22 | 2 | 16 | 0 | 40 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 7 | 7 | 7 | 0 | 21 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 6 | 7 | 7 | 0 | 20 |
 | [hash-table-set](topics/hash-table-set.md) | 11 | 4 | 8 | 0 | 23 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 537 個解法標記為生疏，建議找時間重新練習。
+目前共有 536 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -117,7 +117,6 @@
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 🟡 Medium | [C++](problems/0033.md) | binary-search |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 🟡 Medium | [C++](problems/0034.md) | binary-search-build-in |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | [C++](problems/0035.md) | binary-search-build-in |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | [C++](problems/0036.md) | hash-table-mapping |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | [C++](problems/0039.md) | backtracking-combination |
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | [C++](problems/0040.md) | backtracking-combination |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | [C++](problems/0041.md) | array-negative-marking |

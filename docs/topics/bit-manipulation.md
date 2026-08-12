@@ -16,10 +16,11 @@
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3370.md) | O(logN) | O(1) |
 
-## 🟡 注意（10）
+## 🟡 注意（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | Bit Manipulation, Hash Table, Bitset | [C++](../problems/0036.md) | O(1) | O(1) |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Bit Manipulation, Math | [C++](../problems/0089.md) | O(2ᴺ) | O(1) |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit Manipulation, Bit-Manipulation | [C++](../problems/0137.md) | O(N) | O(1) |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](../problems/0371.md) | O(1) | O(1) |

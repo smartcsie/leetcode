@@ -1,10 +1,9 @@
 # hash-table-mapping
 
-## 🔴 生疏（7）
+## 🔴 生疏（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | Array, Hash Table, Bitset | [C++](../problems/0036.md) | O(1) | O(1) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | Array, Hash Table | [C++](../problems/0128.md) | O(N) | O(N) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Mapping, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 Medium | Hash Table | [C++](../problems/0454.md) | O(N²) | O(N²) |
