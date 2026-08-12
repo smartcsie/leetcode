@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0939.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Hash Table Uniqueness
   - Hash Table
   topics:
-  - hash-table-set
+  - hash-table-uniqueness
   time: O(N²)
   space: O(N)
   familiarity: 生疏

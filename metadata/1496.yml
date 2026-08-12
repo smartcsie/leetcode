@@ -5,10 +5,11 @@ solutions:
 - file: Solution_1496.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Uniqueness
   - Hash Set
   - Coordinates
   topics:
-  - hash-table-set
+  - hash-table-uniqueness
   time: O(N)
   space: O(N)
   familiarity: 生疏

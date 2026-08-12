@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0888.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Existence
   - Hash Set
-  - Math
   topics:
-  - hash-table-set
+  - hash-table-existence
   time: O(A+B)
   space: O(B)
   familiarity: 生疏

@@ -1,8 +1,10 @@
 # hash-table-intersection
 
-## 🔴 生疏（0）
+## 🔴 生疏（1）
 
-目前沒有標記為生疏的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](../problems/0599.md) | O(N+M) | O(N) |
 
 ## 🟡 注意（2）
 

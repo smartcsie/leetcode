@@ -5,11 +5,11 @@ solutions:
 - file: Solution_3487.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Hash Table Uniqueness
   - Hash Set
   - Greedy
   topics:
-  - hash-table-set
+  - hash-table-uniqueness
   time: O(N)
   space: O(N)
   familiarity: 生疏

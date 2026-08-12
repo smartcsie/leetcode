@@ -41,11 +41,10 @@
 | [greedy](topics/greedy.md) | 32 | 6 | 3 | 0 | 41 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 11 | 5 | 28 | 0 | 44 |
-| [hash-table-existence](topics/hash-table-existence.md) | 0 | 1 | 2 | 0 | 3 |
-| [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 1 | 3 | 0 | 4 |
+| [hash-table-existence](topics/hash-table-existence.md) | 2 | 1 | 2 | 0 | 5 |
+| [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 3 | 0 | 5 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 8 | 6 | 0 | 17 |
-| [hash-table-set](topics/hash-table-set.md) | 8 | 0 | 0 | 0 | 8 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 0 | 2 | 4 | 0 | 6 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 5 | 2 | 4 | 0 | 11 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
@@ -285,7 +284,7 @@
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 Medium | [C++](problems/0567.md) | fixed-size-sliding-window |
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | [C++](problems/0572.md) | tree-dfs-path |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | [C++](problems/0583.md) | dynamic-programming |
-| 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | [C++](problems/0599.md) | hash-table-set |
+| 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | [C++](problems/0599.md) | hash-table-intersection |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | [C++](problems/0606.md) | tree-dfs-path |
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | [C++](problems/0611.md) | two-pointers-opposite |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | [C++](problems/0617.md) | tree-dfs-path |
@@ -325,12 +324,12 @@
 | 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | 🟡 Medium | [C++](problems/0836.md) | math-geometry |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | [C++](problems/0844.md) | two-pointers-same |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | [C++](problems/0852.md) | binary-search |
-| 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | [C++](problems/0859.md) | hash-table-set |
+| 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | [C++](problems/0859.md) | hash-table-uniqueness |
 | 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | [C++](problems/0863.md) | tree-dfs-path |
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | [C++](problems/0866.md) | math-prime |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | [C++](problems/0868.md) | math-digit-decomposition |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 Easy | [C++](problems/0872.md) | tree-dfs-path |
-| 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | [C++](problems/0888.md) | hash-table-set |
+| 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | [C++](problems/0888.md) | hash-table-existence |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 Medium | [C++](problems/0889.md) | tree |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | [C++](problems/0897.md) | tree-dfs-path |
 | 898 | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | [C++](problems/0898.md) | dynamic-programming |
@@ -342,7 +341,7 @@
 | 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | [C++](problems/0926.md) | dynamic-programming |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | [C++](problems/0930.md) | array-prefix-sum |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | [C++](problems/0938.md) | binary-search-tree |
-| 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | [C++](problems/0939.md) | hash-table-set |
+| 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | [C++](problems/0939.md) | hash-table-uniqueness |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | [C++](problems/0941.md) | two-pointers-opposite |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | [C++](problems/0942.md) | two-pointers-opposite |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | [C++](problems/0944.md) | string |
@@ -419,7 +418,7 @@
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 Easy | [C++](problems/1491.md) | array |
 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | [C++](problems/1492.md) | math-factor-enumeration |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium | [C++](problems/1493.md) | fixed-size-sliding-window |
-| 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | [C++](problems/1496.md) | hash-table-set |
+| 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | [C++](problems/1496.md) | hash-table-uniqueness |
 | 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 Medium | [C++](problems/1497.md) | hash-table-counting |
 | 1513 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 Medium | [C++](problems/1513.md) | math-combination |
 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | [C++](problems/1524.md) | array-prefix-sum |
@@ -529,7 +528,7 @@
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | [C++](problems/2645.md) | greedy |
 | 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | [C++](problems/2656.md) | greedy |
 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 Easy | [C++](problems/2667.md) | design |
-| 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | [C++](problems/2670.md) | hash-table-set |
+| 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | [C++](problems/2670.md) | hash-table-uniqueness |
 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | [C++](problems/2707.md) | dynamic-programming |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | [C++](problems/2745.md) | greedy |
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | [C++](problems/2761.md) | math-prime |
@@ -576,7 +575,7 @@
 | 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | [C++](problems/3456.md) | string |
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 Easy | [C++](problems/3461.md) | math-digit-decomposition |
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | [C++](problems/3477.md) | array |
-| 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | [C++](problems/3487.md) | hash-table-set |
+| 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | [C++](problems/3487.md) | hash-table-uniqueness |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | [C++](problems/3512.md) | math |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | [C++](problems/3513.md) | bit-manipulation-xor |
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | [C++](problems/3514.md) | bit-manipulation-xor |
@@ -589,7 +588,7 @@
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | [C++](problems/3684.md) | sorting |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | [C++](problems/3701.md) | math |
 | 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | [C++](problems/3713.md) | string-substring-enumeration |
-| 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | [C++](problems/3718.md) | hash-table-set |
+| 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | [C++](problems/3718.md) | hash-table-existence |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | [C++](problems/3722.md) | string |
 | 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | [C++](problems/3765.md) | math-prime |
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting |

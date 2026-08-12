@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0599.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Intersection
   - Hash Table
-  - Array
   topics:
-  - hash-table-set
+  - hash-table-intersection
   time: O(N+M)
   space: O(N)
   familiarity: 生疏

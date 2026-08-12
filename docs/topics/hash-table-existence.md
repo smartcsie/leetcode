@@ -1,8 +1,11 @@
 # hash-table-existence
 
-## 🔴 生疏（0）
+## 🔴 生疏（2）
 
-目前沒有標記為生疏的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Table Existence, Hash Set | [C++](../problems/0888.md) | O(A+B) | O(B) |
+| 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](../problems/3718.md) | O(N+M) | O(M) |
 
 ## 🟡 注意（1）
 

@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0859.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Hash Table Uniqueness
   - Hash Table
   - Two Pointers
   topics:
-  - hash-table-set
+  - hash-table-uniqueness
   time: O(N)
   space: O(1)*
   familiarity: 生疏
