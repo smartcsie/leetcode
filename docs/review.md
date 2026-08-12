@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：511 題　🟡 注意：126 題　🟢 熟練：227 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：510 題　🟡 注意：126 題　🟢 熟練：228 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -65,7 +65,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 7 | 1 | 7 | 0 | 15 |
-| [string](topics/string.md) | 23 | 6 | 14 | 0 | 43 |
+| [string](topics/string.md) | 22 | 6 | 15 | 0 | 43 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 518 個解法標記為生疏，建議找時間重新練習。
+目前共有 517 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -437,7 +437,6 @@
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | [C++](problems/1641.md) | dynamic-programming-kadane-algorithm |
 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 Medium | [C++](problems/1647.md) | hash-table-counting |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | [C++](problems/1668.md) | dynamic-programming |
-| 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 Easy | [C++](problems/1678.md) | string |
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | [C++](problems/1680.md) | bit-manipulation |
 | 1685 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | 🟡 Medium | [C++](problems/1685.md) | array-prefix-sum |
 | 1721 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list) | 🟡 Medium | [C++](problems/1721.md) | two-pointers-same |

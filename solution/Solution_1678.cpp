@@ -24,11 +24,20 @@
 class Solution {
 public:
     string interpret(string command) {
+        string& s = command;
         string ans;
-        for (int i = 0; i < command.size(); ) {
-            if (command[i] == 'G') ans += 'G', ++i;
-            else if (command[i + 1] == ')') ans += 'o', i += 2;
-            else ans += "al", i += 4;
+        for(int i = 0; i < s.size();) {
+            if(s[i] == 'G') {
+                ans.push_back('G');
+                i++;
+            } else if(s[i + 1] == ')') {
+                ans.push_back('o');
+                i += 2;
+            } else {
+                ans.push_back('a');
+                ans.push_back('l');
+                i += 4;
+            }
         }
         return ans;
     }

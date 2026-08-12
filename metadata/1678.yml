@@ -11,5 +11,5 @@ solutions:
   - string
   time: O(N)
   space: O(N)
+  familiarity: 熟練
   is_best: true
-  familiarity: 生疏
