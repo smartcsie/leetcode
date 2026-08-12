@@ -11,6 +11,7 @@ solutions:
   - string
   time: O(N)
   space: O(1)
+  familiarity: 注意
   note: '> [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)<br>
 
     > 找出限定一個character swap，兩字串能否相等<br>
@@ -23,4 +24,12 @@ solutions:
 
     > 最後產生兩種結果，一種是兩字串已經相等，一種是((diff.size() == 2) && (diff[0].first == diff[1].second)
     && (diff[0].second == diff[1].first));<br>'
-  familiarity: 生疏
+- file: Solution_1790_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers Swap
+  topics:
+  - two-pointers-swap
+  time: ''
+  space: ''
+  familiarity: 熟練

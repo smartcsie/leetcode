@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：512 題　🟡 注意：125 題　🟢 熟練：227 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：511 題　🟡 注意：126 題　🟢 熟練：227 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -65,7 +65,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 7 | 1 | 7 | 0 | 15 |
-| [string](topics/string.md) | 24 | 5 | 14 | 0 | 43 |
+| [string](topics/string.md) | 23 | 6 | 14 | 0 | 43 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
@@ -81,13 +81,13 @@
 | [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 15 | 2 | 3 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 3 | 10 | 0 | 13 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 4 | 10 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 10 |
 
 ---
 
-目前共有 519 個解法標記為生疏，建議找時間重新練習。
+目前共有 518 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -447,7 +447,6 @@
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | [C++](problems/1758.md) | string |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 Easy | [C++](problems/1784.md) | string |
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | [C++](problems/1785.md) | greedy |
-| 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 Easy | [C++](problems/1790.md) | string |
 | 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | [C++](problems/1818.md) | binary-search-build-in |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | [C++](problems/1837.md) | math-digit-decomposition |
 | 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | 🟡 Medium | [C++](problems/1839.md) | variable-size-sliding-window |
