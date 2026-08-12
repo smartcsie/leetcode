@@ -5,10 +5,10 @@ solutions:
 - file: Solution_3289.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table
   - Bit Manipulation
+  - Hash Table
   topics:
   - hash-table-counting
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練

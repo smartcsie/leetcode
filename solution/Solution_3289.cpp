@@ -13,17 +13,12 @@
 class Solution {
 public:
     std::vector<int> getSneakyNumbers(std::vector<int>& nums) {
-        // 題目限制範圍內數字，bitset 大小需大於數字上限
-        std::bitset<200> seen; 
-        std::vector<int> res;
-        
-        for (const int& num : nums) {
-            if (!seen.test(num)) {
-                seen.set(num);
-            } else {
-                res.push_back(num);
-            }
+        vector<int> counts(101);
+        vector<int> ans;
+        for(const int& x : nums) counts[x]++;
+        for(int i =0; i <= 100; i++) {
+            if(counts[i] > 1) ans.push_back(i);
         }
-        return res;
+        return ans;    
     }
 };
