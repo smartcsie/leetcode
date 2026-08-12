@@ -12,17 +12,11 @@ class Solution {
 public:
     bool isGood(vector<int>& nums) {
         int n = nums.size();
-        if(n < 0) return false;
-        vector<int> count(n+1, 0);
-        for(int num : nums) {
-            if(num < 0 || num > n) return false;
-            count[num]++;
+        vector<int> counts(201, 0);
+        for(const int& x : nums) counts[x]++;
+        for(int i = 1; i < n -1 ; i++) {
+            if(counts[i] != 1) return false;
         }
-        for(int i =1; i < n-2; i++) {
-            if(count[i] != 1) return false;
-        }
-
-        return count[n-1] == 2;
-
+        return counts[n - 1] == 2;
     }
 };
