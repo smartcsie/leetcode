@@ -23,12 +23,6 @@
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Set | [C++](../problems/2605.md) |  |  |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Array, Hash Table, Sorting | [C++](../problems/2784.md) | O(N) | O(N) |
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table Set, Hash Table, Sliding Window | [C++](../problems/0219.md) | O(N) | O(min(N,K)) |
-| 2215 | [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/) | 🟢 Easy | Hash Table Set | [C++](../problems/2215.md) | O(N+M) | O(N+M) |
-| 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Table Set, Hash Set | [C++](../problems/2357.md) | O(N) | O(N) |
-| 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 Medium | Hash Table Set, Hash Table, Math, Bitset | [C++](../problems/2442.md) | O(N*D) | O(M)* |
-| 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | Brute Force | [C++](../problems/3483.md) | O(N³) | O(U) |
+目前沒有標記為熟悉的解法。

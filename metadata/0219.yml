@@ -5,11 +5,9 @@ solutions:
 - file: Solution_0219.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Set
-  - Hash Table
-  - Sliding Window
+  - Hash Table Existence
   topics:
-  - hash-table-set
+  - hash-table-existence
   time: O(N)
   space: O(min(N,K))
   familiarity: 熟練

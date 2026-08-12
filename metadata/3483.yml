@@ -5,9 +5,10 @@ solutions:
 - file: Solution_3483.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Uniqueness
   - Brute Force
   topics:
-  - hash-table-set
+  - hash-table-uniqueness
   time: O(N³)
   space: O(U)
   familiarity: 熟練

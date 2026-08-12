@@ -5,12 +5,12 @@ solutions:
 - file: Solution_2442.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table Set
+  - Hash Table Uniqueness
   - Hash Table
   - Math
   - Bitset
   topics:
-  - hash-table-set
+  - hash-table-uniqueness
   time: O(N*D)
   space: O(M)*
   familiarity: 熟練

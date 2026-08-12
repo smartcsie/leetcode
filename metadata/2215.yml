@@ -5,9 +5,9 @@ solutions:
 - file: Solution_2215.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Set
+  - Hash Table Intersection
   topics:
-  - hash-table-set
+  - hash-table-intersection
   time: O(N+M)
   space: O(N+M)
   familiarity: 熟練
