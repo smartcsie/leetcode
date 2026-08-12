@@ -22,14 +22,12 @@
 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | Hash Table Mapping, Hash Map, Difference Array | [C++](../problems/2451.md) | O(N*M) | O(N*M) |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Hash Table Mapping, Hash Set | [C++](../problems/3678.md) | O(N) | O(N) |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table | [C++](../problems/0001.md) | O(N) | O(N) |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | Hash Table Mapping, Hash Table | [C++](../problems/0242.md) | O(N) | O(1) |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | 🟢 Easy | Hash Table Mapping, Hash Set | [C++](../problems/0804.md) | O(S) | O(S) |
-| 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table | [C++](../problems/0884.md) | O(N+M) | O(N+M) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | String, Hash Table | [C++](../problems/1436.md) | O(N) | O(N) |
 | 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 Easy | Hash Table Mapping, Hash Table, Simulation | [C++](../problems/2154.md) | O(N) | O(N) |
 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 Medium | Math, Hash Table | [C++](../problems/2342.md) | O(N*logM) | O(N) |

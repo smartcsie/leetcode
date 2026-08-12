@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：526 題　🟡 注意：122 題　🟢 熟練：216 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：525 題　🟡 注意：122 題　🟢 熟練：217 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -40,8 +40,8 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 32 | 5 | 3 | 0 | 40 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 22 | 2 | 16 | 0 | 40 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 9 | 8 | 0 | 20 |
+| [hash-table-counting](topics/hash-table-counting.md) | 21 | 2 | 19 | 0 | 42 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 9 | 6 | 0 | 18 |
 | [hash-table-set](topics/hash-table-set.md) | 11 | 4 | 8 | 0 | 23 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
@@ -87,7 +87,7 @@
 
 ---
 
-目前共有 533 個解法標記為生疏，建議找時間重新練習。
+目前共有 532 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -411,7 +411,6 @@
 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 Medium | [C++](problems/1442.md) | bit-manipulation-xor |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | [C++](problems/1448.md) | tree-dfs-path |
 | 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | 🟡 Medium | [C++](problems/1456.md) | fixed-size-sliding-window |
-| 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 Easy | [C++](problems/1460.md) | hash-table-counting |
 | 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | 🟡 Medium | [C++](problems/1461.md) | variable-size-sliding-window |
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 Easy | [C++](problems/1475.md) | monotonic-stack |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 Easy | [C++](problems/1480.md) | array-prefix-sum |

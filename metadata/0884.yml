@@ -5,9 +5,11 @@ solutions:
 - file: Solution_0884.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Counting
   - Hash Table
   topics:
-  - hash-table-mapping
+  - hash-table-counting
   time: O(N+M)
   space: O(N+M)
   familiarity: 熟練
+  note: '> [唯一性]'
