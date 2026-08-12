@@ -6,8 +6,6 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Intersection
-  - Hash Table
-  - Counting
   topics:
   - hash-table-intersection
   time: O(N)
