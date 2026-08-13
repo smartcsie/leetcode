@@ -13,3 +13,4 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 熟練
+  note: '> [for loop]'

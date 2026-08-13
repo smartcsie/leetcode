@@ -5,10 +5,11 @@ solutions:
 - file: Solution_2062.cpp
   difficulty: 🟢 Easy
   tags:
-  - Sliding Window
   - Math
+  - Sliding Window
   topics:
   - variable-size-sliding-window
   time: O(N)
   space: O(1)
   familiarity: 生疏
+  note: '> [for loop]'
