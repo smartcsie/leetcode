@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：497 題　🟡 注意：133 題　🟢 熟練：234 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：496 題　🟡 注意：133 題　🟢 熟練：235 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -79,7 +79,7 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 31 | 3 | 6 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 12 | 1 | 3 | 0 | 16 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 11 | 1 | 4 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 15 | 2 | 3 | 0 | 20 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 504 個解法標記為生疏，建議找時間重新練習。
+目前共有 503 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -191,7 +191,6 @@
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | [C++](problems/0160.md) | two-pointers-other |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | 🟡 Medium | [C++](problems/0162.md) | binary-search |
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | [C++](problems/0164.md) | sorting |
-| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | [C++](problems/0167.md) | two-pointers-opposite |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | [C++](problems/0169.md) | array-boyer-moore |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | [C++](problems/0173.md) | tree-dfs-path |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | [C++](problems/0179.md) | sorting |
