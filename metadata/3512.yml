@@ -10,7 +10,5 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  note: '> [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/)<br>
-
-    > 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>'
   familiarity: 生疏
+  note: '> 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>'
