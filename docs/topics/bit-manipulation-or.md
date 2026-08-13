@@ -8,11 +8,15 @@
 | 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 Easy | Bit Manipulation | [C++](../problems/2917.md) | O(N*log(max_VAL)) | O(1) |
 | 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 Easy | Bit Manipulation, Math | [C++](../problems/3314.md) | O(N) | O(N) |
 
-## 🟡 注意（1）
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | 🟢 Easy | Bit Manipulation Or, Math | [C++](../problems/2980.md) | O(N) | O(1) |
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（1）
 

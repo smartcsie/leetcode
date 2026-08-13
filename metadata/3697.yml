@@ -11,7 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: '[Note](#3697-compute-decimal-representation)'
-  familiarity: 注意
+  familiarity: 再練習
   note: '> [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/)  <br>
 
     > n一路往右除10，base初始1，一路*10，每次擷取digit = n % 10;，如果digit != 0，digit*base push_back到res<br>

@@ -10,7 +10,7 @@ solutions:
   - string
   time: O(min(L1,L2,L3))
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)  <br>
 
     > 跟0014.[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)很像，此題三字串，0014多字串

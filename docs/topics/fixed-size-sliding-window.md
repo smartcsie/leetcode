@@ -16,9 +16,13 @@
 | 3090 | [Maximum Length Substring](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 Easy | Sliding Window | [C++](../problems/3090.md) | O(N) | O(1) |
 | 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | Array, Sliding Window, Simulation | [C++](../problems/3392.md) | O(N) | O(1) |
 
-## 🟡 注意（0）
+## 🟠 再練習（0）
 
-目前沒有標記為注意的解法。
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（0）
 

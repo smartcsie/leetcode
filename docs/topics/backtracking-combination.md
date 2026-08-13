@@ -16,9 +16,13 @@
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | Backtracking | [C++](../problems/0784.md) | O(2ᴺ) | O(N) |
 | 1593 | [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | 🟡 Medium | Backtracking Combination | [C++](../problems/1593.md) | O(N*2^(N-1)) - 在最壞情況下，字串有 n-1 個可分割的間隙，總共有 2^(n-1) 種分割組合，每次分割與子字串截取需花費 O(N) 時間。 | O(N) - 遞迴呼叫堆疊的深度最多為 n，且雜湊表 `seen` 在任一時刻最多儲存 n 個子字串。 |
 
-## 🟡 注意（0）
+## 🟠 再練習（0）
 
-目前沒有標記為注意的解法。
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（0）
 

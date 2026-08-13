@@ -15,9 +15,13 @@
 | 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) | 🟡 Medium | Sliding Window, Two Pointers, Difference Technique | [C++](../problems/3306.md) | O(N) | O(1) |
 | 3325 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/) | 🟡 Medium | Sliding Window, Two Pointers | [C++](../problems/3325.md) | O(N) | O(1) |
 
-## 🟡 注意（0）
+## 🟠 再練習（0）
 
-目前沒有標記為注意的解法。
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（0）
 

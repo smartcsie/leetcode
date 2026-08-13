@@ -32,11 +32,15 @@
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | Bit Manipulation, Sorting | [C++](../problems/3769.md) | O(NlogN) | O(N) |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting, Hash | [C++](../problems/3913.md) | O(NlogN) | O(N) |
 
-## 🟡 注意（1）
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting, Sorting, Hash Table | [C++](../problems/2418.md) | O(NlogN) | O(N) |
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（3）
 

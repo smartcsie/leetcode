@@ -12,7 +12,7 @@ solutions:
   - sorting
   time: O(NlogN)
   space: O(N)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> unordered_map的key可以直接做sort <br>
 
     > greater<int>()<br>'

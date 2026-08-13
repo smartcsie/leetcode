@@ -11,9 +11,13 @@
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Math (Contribution) | [C++](../problems/1588.md) | O(N) | O(1) |
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Combinatorics | [C++](../problems/3084.md) | O(N) | O(1) |
 
-## 🟡 注意（0）
+## 🟠 再練習（0）
 
-目前沒有標記為注意的解法。
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（0）
 

@@ -12,9 +12,13 @@
 | 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | Binary Search, Greedy | [C++](../problems/1818.md) | O(NlogN) | O(N) |
 | 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | 🟡 Medium | BST, Binary Search | [C++](../problems/2476.md) | O(N+QlogN) | O(N) |
 
-## 🟡 注意（0）
+## 🟠 再練習（0）
 
-目前沒有標記為注意的解法。
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（0）
 

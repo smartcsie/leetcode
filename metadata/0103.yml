@@ -11,5 +11,5 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> deque'

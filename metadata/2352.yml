@@ -12,4 +12,4 @@ solutions:
   - hash-table-intersection
   time: O(N³logN) 或 O(N²logN)*
   space: O(N²)
-  familiarity: 注意
+  familiarity: 再練習

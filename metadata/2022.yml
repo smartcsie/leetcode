@@ -12,6 +12,6 @@ solutions:
   - 2d-array
   time: O(M*N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '>  **[注意]邊界條件 if(m * n != original.size()) return {};** <br>'
   is_best: true

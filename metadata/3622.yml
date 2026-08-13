@@ -11,6 +11,6 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> **[注意]最後要 (n % (product + sum)) == 0;**<br>'
   is_best: true

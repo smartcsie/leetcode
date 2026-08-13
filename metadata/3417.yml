@@ -11,4 +11,4 @@ solutions:
   - 2d-array
   time: O(M*N)
   space: O(M*N)
-  familiarity: 注意
+  familiarity: 再練習

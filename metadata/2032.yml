@@ -10,7 +10,7 @@ solutions:
   - bit-manipulation
   time: O(N1+N2+N3)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> [Two Out of Three](https://leetcode.com/problems/two-out-of-three/)<br>
 
     > 起一組vector<int> counts(101, 0)，nums1 數字 counts[num] |= 1，nums2 數字 counts[num]

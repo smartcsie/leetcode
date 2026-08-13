@@ -10,7 +10,7 @@ solutions:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> isalpha交換一輪<br>
 
     > !isalpha交換一輪<br>'

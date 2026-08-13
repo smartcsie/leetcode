@@ -11,7 +11,7 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 三種case<br>
 
     > case 1 : nums 全為 0，回傳 0<br>

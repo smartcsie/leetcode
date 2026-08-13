@@ -10,7 +10,7 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/)  <br>
 
     > **double hourAngle =  12 * 30.0 + minutes * 0.5;**  // 時針角度：hour * 30 + 分鐘帶來的偏移

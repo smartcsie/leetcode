@@ -7,9 +7,13 @@
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array, Voting Algorithm | [C++](../problems/0169.md) | O(N) | O(1) |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | Array, Voting Algorithm | [C++](../problems/0229.md) | O(N) | O(1) |
 
-## 🟡 注意（0）
+## 🟠 再練習（0）
 
-目前沒有標記為注意的解法。
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（0）
 

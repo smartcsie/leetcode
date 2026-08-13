@@ -12,7 +12,7 @@ solutions:
   - 2d-array
   time: O(M*N)
   space: O(M+N)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 要輸出結果矩陣，ans[i][j]為ith row 1的數量 - 0的數量加上 jth col 1的數量 - 0的數量<br>
 
     > 第一個雙層loop計算每一row和每一col的值<br>

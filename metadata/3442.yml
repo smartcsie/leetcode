@@ -11,5 +11,5 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 用 max even frequency 減去 min even frequency'

@@ -12,7 +12,7 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(N)
-  familiarity: 注意
+  familiarity: 再練習
 - file: Solution_1512_1.cpp
   difficulty: 🟢 Easy
   tags:

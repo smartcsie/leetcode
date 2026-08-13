@@ -12,6 +12,6 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 注意
+  familiarity: 再練習
   related:
   - 530

@@ -12,7 +12,7 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(1)*
-  familiarity: 注意
+  familiarity: 再練習
   note: '> s 和 goal 長度不一樣，傳回false
 
     > 要完全交換正好一次<br>

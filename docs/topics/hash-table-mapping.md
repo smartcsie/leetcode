@@ -4,7 +4,7 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟡 注意（5）
+## 🟠 再練習（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -13,6 +13,10 @@
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 Easy | String, Hash Table | [C++](../problems/0205.md) | O(N) | O(1) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | String, Hash Table | [C++](../problems/0290.md) | O(N+M) | O(N+M) |
 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | Hash Table Mapping, Hash Map, Difference Array | [C++](../problems/2451.md) | O(N*M) | O(N*M) |
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（4）
 

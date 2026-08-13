@@ -11,4 +11,4 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習

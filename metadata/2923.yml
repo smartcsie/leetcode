@@ -11,5 +11,5 @@ solutions:
   - 2d-array
   time: O(N²)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 贏家的隊伍一定是贏(n-1)次'

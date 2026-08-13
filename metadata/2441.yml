@@ -12,7 +12,7 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
-  familiarity: 注意
+  familiarity: 再練習
   is_best: true
 - file: Solution_2441_1.cpp
   difficulty: 🟢 Easy

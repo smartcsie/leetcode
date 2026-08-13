@@ -11,5 +11,5 @@ solutions:
   - array
   time: O(N+M)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   is_best: true

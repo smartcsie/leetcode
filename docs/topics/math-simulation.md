@@ -6,11 +6,15 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Simulation, Carry Propagation | [C++](../problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) |
 
-## 🟡 注意（1）
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math, String | [C++](../problems/0067.md) | O(max(M,N)) | O(1) |
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（3）
 

@@ -11,5 +11,5 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> **!accumulate(derived.begin(), derived.end(), 0, bit_xor<int>());**'

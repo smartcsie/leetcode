@@ -11,5 +11,5 @@ solutions:
   - string
   time: O(N*M)
   space: O(N)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> res.compare(res.size() - k, k, part)'

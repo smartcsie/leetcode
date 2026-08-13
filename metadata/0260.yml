@@ -10,7 +10,7 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> [Single Number III](https://leetcode.com/problems/single-number-iii) <br>
 
     > 兩數出現1次，其他出現兩次，xor_ab等於所有數XOR的結果<br>

@@ -10,7 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> **[注意]和轉二進制一樣，差異再往右shift加負號，n  = -(n >> 1);**<br>
 
     > **[注意]要記得做reverse，reverse(ans.begin(), ans.end());**<br>'

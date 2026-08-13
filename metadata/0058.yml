@@ -10,7 +10,7 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> [Length of Last Word](https://leetcode.com/problems/length-of-last-word)
     <br>
 

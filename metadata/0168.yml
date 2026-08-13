@@ -11,5 +11,5 @@ solutions:
   - math-digit-decomposition
   time: O(log26N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 記得 n--;'

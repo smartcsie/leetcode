@@ -10,9 +10,13 @@
 | 2044 | [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | 🟡 Medium | Bit Bitmask Subset Enumeration | [C++](../problems/2044.md) | O(2^N) - 遍歷所有子集。 | O(N) - 遞迴堆疊深度。 |
 | 2397 | [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/) | 🟡 Medium | Bit Manipulation, Bitmask, Combinatorics | [C++](../problems/2397.md) | O(2ᴺ*M+M*N) | O(M) |
 
-## 🟡 注意（0）
+## 🟠 再練習（0）
 
-目前沒有標記為注意的解法。
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟢 熟悉（0）
 

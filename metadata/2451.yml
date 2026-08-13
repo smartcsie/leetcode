@@ -12,4 +12,4 @@ solutions:
   - hash-table-mapping
   time: O(N*M)
   space: O(N*M)
-  familiarity: 注意
+  familiarity: 再練習

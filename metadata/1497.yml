@@ -12,4 +12,4 @@ solutions:
   - hash-table-counting
   time: O(N+K)
   space: O(K)
-  familiarity: 注意
+  familiarity: 再練習

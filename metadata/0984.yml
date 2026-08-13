@@ -12,5 +12,5 @@ solutions:
   - greedy
   time: O(A + B)
   space: O(A + B)
-  familiarity: 注意
+  familiarity: 再練習
   is_best: true

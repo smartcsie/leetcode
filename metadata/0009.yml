@@ -10,5 +10,5 @@ solutions:
   - math-palindrome
   time: O(logN)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> [Overflow handle]'

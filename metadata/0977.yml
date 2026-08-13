@@ -11,5 +11,5 @@ solutions:
   - two-pointers-swap
   time: O(N)
   space: O(N)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 注意while(left <= right) 是 <='

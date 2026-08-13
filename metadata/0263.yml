@@ -10,7 +10,7 @@ solutions:
   - math
   time: O(logN)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 注意邊界條件if(n <= 0) return false;<br>
 
     > n如果可被2整除，n除以2，n如果可被3整除，n除以3，n如果可被5整除，n除以5，最後是否等於1<br>'

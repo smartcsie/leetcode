@@ -11,7 +11,7 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 找 num/2 是否在hash set中 <br>
 
     > 用(seen.count(num / 2) && (num & 1) == 0)  <br>'

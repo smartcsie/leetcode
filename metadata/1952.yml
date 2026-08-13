@@ -10,5 +10,5 @@ solutions:
   - math-prime
   time: O(√N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 一個整數若恰好有三個正因數，這個數字必然是一個「質數的平方」。<br>'

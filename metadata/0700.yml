@@ -12,4 +12,4 @@ solutions:
   - binary-search-tree
   time: O(H)
   space: O(H)
-  familiarity: 注意
+  familiarity: 再練習

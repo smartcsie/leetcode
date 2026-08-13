@@ -11,7 +11,7 @@ solutions:
   - math
   time: O(log₃N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 連除3，過程中，if(n % 3 == 2) return false;<br>
 
     > 題目如果改成Powers of N，if(n % 3 >= 2) return false;<br>'

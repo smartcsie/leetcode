@@ -156,8 +156,10 @@ def build_problem_page(problem, solution_dir):
         familiarity_badge = ''
         if familiarity == '熟練':
             familiarity_badge = '　**熟悉度:** 🟢 熟練'
-        elif familiarity == '注意':
-            familiarity_badge = '　**熟悉度:** 🟡 注意'
+        elif familiarity == '練習過':
+            familiarity_badge = '　**熟悉度:** 🟡 練習過'
+        elif familiarity == '再練習':
+            familiarity_badge = '　**熟悉度:** 🟠 再練習'
         elif familiarity == '生疏':
             familiarity_badge = '　**熟悉度:** 🔴 生疏'
 
@@ -243,8 +245,9 @@ def build_topic_indexes(problems, topics_out_dir):
         rows.sort(key=lambda r: r['number'])
 
         unfamiliar_rows = [r for r in rows if r['familiarity'] == '生疏']
-        caution_rows = [r for r in rows if r['familiarity'] == '注意']
-        familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '注意')]
+        redo_rows = [r for r in rows if r['familiarity'] == '再練習']
+        practiced_rows = [r for r in rows if r['familiarity'] == '練習過']
+        familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '再練習', '練習過')]
 
         lines = [f"# {topic}", '']
 
@@ -256,12 +259,20 @@ def build_topic_indexes(problems, topics_out_dir):
             lines.append('目前沒有標記為生疏的解法。')
         lines.append('')
 
-        lines.append(f"## 🟡 注意（{len(caution_rows)}）")
+        lines.append(f"## 🟠 再練習（{len(redo_rows)}）")
         lines.append('')
-        if caution_rows:
-            lines.extend(render_table(caution_rows))
+        if redo_rows:
+            lines.extend(render_table(redo_rows))
         else:
-            lines.append('目前沒有標記為注意的解法。')
+            lines.append('目前沒有標記為再練習的解法。')
+        lines.append('')
+
+        lines.append(f"## 🟡 練習過（{len(practiced_rows)}）")
+        lines.append('')
+        if practiced_rows:
+            lines.extend(render_table(practiced_rows))
+        else:
+            lines.append('目前沒有標記為練習過的解法。')
         lines.append('')
 
         lines.append(f"## 🟢 熟悉（{len(familiar_rows)}）")
@@ -313,8 +324,10 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
         statuses = {sol.get('familiarity') for sol in sols}
         if '生疏' in statuses:
             status = '生疏'
-        elif '注意' in statuses:
-            status = '注意'
+        elif '再練習' in statuses:
+            status = '再練習'
+        elif '練習過' in statuses:
+            status = '練習過'
         elif '熟練' in statuses:
             status = '熟練'
         else:
@@ -326,14 +339,15 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
             for topic in to_list(sol.get('topics')):
                 problem_topics.add(topic)
         for topic in problem_topics:
-            stat = topic_stats.setdefault(topic, {'生疏': 0, '注意': 0, '熟練': 0, '未標記': 0})
+            stat = topic_stats.setdefault(topic, {'生疏': 0, '再練習': 0, '練習過': 0, '熟練': 0, '未標記': 0})
             stat[status] += 1
 
     total_problems = len(problems)
     total_shengshu = sum(1 for s in problem_status.values() if s == '生疏')
-    total_zhuyi = sum(1 for s in problem_status.values() if s == '注意')
+    total_zailianxi = sum(1 for s in problem_status.values() if s == '再練習')
+    total_lianxiguo = sum(1 for s in problem_status.values() if s == '練習過')
     total_shulian = sum(1 for s in problem_status.values() if s == '熟練')
-    total_unmarked = total_problems - total_shengshu - total_zhuyi - total_shulian
+    total_unmarked = total_problems - total_shengshu - total_zailianxi - total_lianxiguo - total_shulian
 
     ac_info = load_ac_cache(ac_cache_path)
 
@@ -349,16 +363,17 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
         lines.append("- **LeetCode 網站 AC 總數：** 尚未取得，請先執行 `python3 tools/fetch_leetcode_ac.py`")
 
     lines.append(f"- **目前收錄總題目數：** {total_problems} 題　"
-                 f"🔴 生疏：{total_shengshu} 題　🟡 注意：{total_zhuyi} 題　🟢 熟練：{total_shulian} 題　⚪ 未標記：{total_unmarked} 題")
+                 f"🔴 生疏：{total_shengshu} 題　🟠 再練習：{total_zailianxi} 題　"
+                 f"🟡 練習過：{total_lianxiguo} 題　🟢 熟練：{total_shulian} 題　⚪ 未標記：{total_unmarked} 題")
     lines.append('')
 
-    lines.append('### 各分類生疏 / 注意 / 熟練統計')
+    lines.append('### 各分類生疏 / 再練習 / 練習過 / 熟練統計')
     lines.append('')
-    lines.append('| 分類 | 🔴 生疏 | 🟡 注意 | 🟢 熟練 | ⚪ 未標記 | 總數 |')
-    lines.append('| --- | --- | --- | --- | --- | --- |')
+    lines.append('| 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟢 熟練 | ⚪ 未標記 | 總數 |')
+    lines.append('| --- | --- | --- | --- | --- | --- | --- |')
     for topic, stat in sorted(topic_stats.items()):
-        topic_total = stat['生疏'] + stat['注意'] + stat['熟練'] + stat['未標記']
-        lines.append(f"| [{topic}](topics/{topic}.md) | {stat['生疏']} | {stat['注意']} | {stat['熟練']} | {stat['未標記']} | {topic_total} |")
+        topic_total = stat['生疏'] + stat['再練習'] + stat['練習過'] + stat['熟練'] + stat['未標記']
+        lines.append(f"| [{topic}](topics/{topic}.md) | {stat['生疏']} | {stat['再練習']} | {stat['練習過']} | {stat['熟練']} | {stat['未標記']} | {topic_total} |")
     lines.append('')
     lines.append('---')
     lines.append('')

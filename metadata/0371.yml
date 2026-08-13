@@ -10,7 +10,7 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 同 2235.  [Add Two Integers](https://leetcode.com/problems/add-two-integers)
     <br>'
   related:

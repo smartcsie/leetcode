@@ -10,5 +10,5 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> **(num - 1) % 9 + 1** <br>'

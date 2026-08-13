@@ -10,7 +10,7 @@ solutions:
   - hamming-distance
   time: O(1)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)
     <br>
 

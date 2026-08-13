@@ -11,7 +11,7 @@ solutions:
   - math-simulation
   time: O(max(M,N))
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> [Add Binary](https://leetcode.com/problems/add-binary)<br>
 
     > 和 0415[Add Strings](https://leetcode.com/problems/add-strings) 幾乎一樣<br>

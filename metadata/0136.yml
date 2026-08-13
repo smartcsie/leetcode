@@ -10,5 +10,5 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 所有num出現兩次，目標num出現一次，全部的數字XOR起來就是答案<br>'

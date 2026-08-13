@@ -11,5 +11,5 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(N)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> size_t first_not_zero = strNum.find_first_not_of(''0'');'

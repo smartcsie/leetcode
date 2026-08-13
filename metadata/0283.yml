@@ -11,7 +11,7 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   related:
   - 27
   - 2460

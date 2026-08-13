@@ -11,7 +11,7 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> **int one = 0, two = 0;** <br>
 
     > **for(const int& num : nums) {** <br>
@@ -35,7 +35,7 @@ solutions:
   - math
   time: O(N)
   space: O(N)
-  familiarity: 注意
+  familiarity: 再練習
   note: '> 先travsal nums，num加到sum_all，num順便insert到unique_set(unordered_set<int>)<br>
 
     > (3 * sum_unique - sum_all) / 2<br>
