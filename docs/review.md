@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：505 題　🟡 注意：128 題　🟢 熟練：231 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：504 題　🟡 注意：129 題　🟢 熟練：231 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -55,7 +55,7 @@
 | [math-game-theory](topics/math-game-theory.md) | 3 | 3 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 5 | 1 | 3 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 1 | 0 | 2 |
-| [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 2 |
+| [math-palindrome](topics/math-palindrome.md) | 1 | 1 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 1 |
 | [math-prime](topics/math-prime.md) | 9 | 2 | 2 | 0 | 13 |
 | [math-simulation](topics/math-simulation.md) | 1 | 1 | 3 | 0 | 5 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 512 個解法標記為生疏，建議找時間重新練習。
+目前共有 511 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -99,7 +99,6 @@
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium | [C++](problems/0005.md) | two-pointers-center-expansion |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | [C++](problems/0007.md) | math-digit-decomposition |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | [C++](problems/0008.md) | string |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | [C++](problems/0009.md) | math-palindrome |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 Medium | [C++](problems/0011.md) | two-pointers-opposite |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | [C++](problems/0014.md) | string |
 | 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 Medium | [C++](problems/0015.md) | two-pointers-opposite |

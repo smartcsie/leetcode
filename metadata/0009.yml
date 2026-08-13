@@ -10,14 +10,5 @@ solutions:
   - math-palindrome
   time: O(logN)
   space: O(1)
-  note: '>  [Palindrome Number](https://leetcode.com/problems/palindrome-number/)<br>
-
-    > x < 0 則 return false <br>
-
-    > x == 0 則 return true <br>
-
-    > **while回圈內，邊界條件如下** <br>
-
-    > **if (reverse > INT_MAX / 10 || (reverse == INT_MAX / 10 && (x % 10) > 7)) return
-    0;** <br>'
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> [Overflow handle]'
