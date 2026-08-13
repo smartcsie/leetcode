@@ -5,9 +5,9 @@ solutions:
 - file: Solution_3512.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Array Linear Scan
   topics:
-  - math
+  - array-linear-scan
   time: O(N)
   space: O(1)
   familiarity: 生疏

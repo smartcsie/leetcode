@@ -15,7 +15,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 5 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 2 | 6 | 15 | 0 | 23 |
+| [array-linear-scan](topics/array-linear-scan.md) | 3 | 6 | 15 | 0 | 24 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 4 | 1 | 0 | 0 | 5 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 19 |
@@ -48,7 +48,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 18 | 14 | 9 | 0 | 41 |
+| [math](topics/math.md) | 17 | 14 | 9 | 0 | 40 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 16 | 9 | 16 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 4 |
@@ -574,7 +574,7 @@
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 Easy | [C++](problems/3461.md) | math-digit-decomposition |
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | [C++](problems/3477.md) | array |
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | [C++](problems/3487.md) | hash-table-uniqueness |
-| 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | [C++](problems/3512.md) | math |
+| 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | [C++](problems/3512.md) | array-linear-scan |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | [C++](problems/3513.md) | bit-manipulation-xor |
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | [C++](problems/3514.md) | bit-manipulation-xor |
 | 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | [C++](problems/3517.md) | sorting |
