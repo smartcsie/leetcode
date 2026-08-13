@@ -13,3 +13,4 @@ solutions:
   time: O(N²)
   space: O(1)
   familiarity: 生疏
+  note: '> [for loop]'
