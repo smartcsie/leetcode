@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：493 題　🟡 注意：134 題　🟢 熟練：237 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：492 題　🟡 注意：135 題　🟢 熟練：237 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -40,7 +40,7 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 32 | 6 | 3 | 0 | 41 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 2 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 8 | 4 | 13 | 0 | 25 |
+| [hash-table-counting](topics/hash-table-counting.md) | 7 | 5 | 13 | 0 | 25 |
 | [hash-table-existence](topics/hash-table-existence.md) | 6 | 5 | 7 | 0 | 18 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 2 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 5 | 4 | 0 | 9 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 500 個解法標記為生疏，建議找時間重新練習。
+目前共有 499 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -415,7 +415,6 @@
 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | [C++](problems/1492.md) | math-factor-enumeration |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium | [C++](problems/1493.md) | fixed-size-sliding-window |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | [C++](problems/1496.md) | hash-table-uniqueness |
-| 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 Medium | [C++](problems/1497.md) | hash-table-counting |
 | 1513 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 Medium | [C++](problems/1513.md) | math-combination |
 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | [C++](problems/1524.md) | array-prefix-sum |
 | 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 Medium | [C++](problems/1529.md) | greedy |
