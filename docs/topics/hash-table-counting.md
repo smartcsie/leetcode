@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 Easy | Hash Map, One-pass | [C++](../problems/0697.md) | O(N) | O(N) |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 Medium | Hash Table Counting, Hash Table, Counting | [C++](../problems/0916.md) | O(N * L) | O(1) |
-| 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 Medium | Hash Table, Remainder Counting | [C++](../problems/1497.md) | O(N+K) | O(K) |
+| 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 Medium | Hash Table Counting, Hash Table, Remainder Counting | [C++](../problems/1497.md) | O(N+K) | O(K) |
 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 Medium | Greedy, Hash Set | [C++](../problems/1647.md) | O(N+KlogK) | O(K) |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | Hash Table, Counting | [C++](../problems/1897.md) | O(N*M) | O(1) |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | Hash Table, Math | [C++](../problems/2001.md) | O(N) | O(N) |

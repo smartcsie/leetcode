@@ -5,6 +5,7 @@ solutions:
 - file: Solution_1497.cpp
   difficulty: 🟡 Medium
   tags:
+  - Hash Table Counting
   - Hash Table
   - Remainder Counting
   topics:
