@@ -12,17 +12,14 @@
  * 時間複雜度：O(K) - 模擬餘數，最多 K 步必出現循環。
  * 空間複雜度：O(1) - 僅使用常數空間。
  */
+
 class Solution {
 public:
     int smallestRepunitDivByK(int k) {
-        if (k % 2 == 0 || k % 5 == 0) {
-            return -1;
-        }
-        for (int length = 1, remainder = 0; length <= k; ++length) {
-            remainder = (remainder * 10 + 1) % k;
-            if (remainder == 0) {
-                return length;
-            }
+        if (k % 2 == 0 || k % 5 == 0) return -1;
+        for(int i = 1, r = 0; i <= k; i++) {
+            r = (r * 10 + 1) % k;
+            if(r == 0) return i;
         }
         return -1;
     }
