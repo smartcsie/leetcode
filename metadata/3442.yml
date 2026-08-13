@@ -12,3 +12,4 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 注意
+  note: '> 用 max even frequency 減去 min even frequency'
