@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：496 題　🟡 注意：133 題　🟢 熟練：235 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：495 題　🟡 注意：133 題　🟢 熟練：236 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -79,7 +79,7 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 31 | 3 | 6 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 11 | 1 | 4 | 0 | 16 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 10 | 1 | 5 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 15 | 2 | 3 | 0 | 20 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 503 個解法標記為生疏，建議找時間重新練習。
+目前共有 502 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -172,7 +172,6 @@
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 Easy | [C++](problems/0119.md) | math-combination |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | [C++](problems/0121.md) | dynamic-programming |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | [C++](problems/0124.md) | tree-dfs-path |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 Easy | [C++](problems/0125.md) | two-pointers-opposite |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | [C++](problems/0127.md) | graph-bfs |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | [C++](problems/0128.md) | hash-table-existence |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [C++](problems/0139.md) | knapsack-problem |

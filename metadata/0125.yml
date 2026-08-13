@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0125.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Two Pointers Opposite
   - Two Pointers
   topics:
   - two-pointers-opposite
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  is_best: true
