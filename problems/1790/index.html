@@ -3563,8 +3563,8 @@
 
 <h1 id="1790-check-if-one-string-swap-can-make-strings-equal">1790. Check if One String Swap Can Make Strings Equal<a class="headerlink" href="#1790-check-if-one-string-swap-can-make-strings-equal" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/">在 LeetCode 上查看</a></p>
-<h2 id="string">解法：string<a class="headerlink" href="#string" title="Permanent link">&para;</a></h2>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> String, Simulation　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 注意</p>
+<h2 id="hash-table-uniqueness">解法：hash-table-uniqueness<a class="headerlink" href="#hash-table-uniqueness" title="Permanent link">&para;</a></h2>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Hash Table Uniqueness, Simulation　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 注意</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1790. Check if One String Swap Can Make Strings Equal</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3603,6 +3603,7 @@
 比較期間，如果diff大小超過2，表示無法緊用一次swap，return false<br>
 最後產生兩種結果，一種是兩字串已經相等，一種是((diff.size() == 2) &amp;&amp; (diff[0].first == diff[1].second) &amp;&amp; (diff[0].second == diff[1].first));<br></p>
 </blockquote>
+<p><strong>相關題目:</strong> <a href="../0859/">859</a></p>
 <hr />
 <h2 id="two-pointers-swap">解法：two-pointers-swap<a class="headerlink" href="#two-pointers-swap" title="Permanent link">&para;</a></h2>
 <p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Two Pointers Swap　<strong>時間:</strong> 　<strong>空間:</strong> 　<strong>熟悉度:</strong> 🟢 熟練</p>
