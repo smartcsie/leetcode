@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：494 題　🟡 注意：133 題　🟢 熟練：237 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：493 題　🟡 注意：134 題　🟢 熟練：237 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -40,7 +40,7 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 32 | 6 | 3 | 0 | 41 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 2 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 9 | 3 | 13 | 0 | 25 |
+| [hash-table-counting](topics/hash-table-counting.md) | 8 | 4 | 13 | 0 | 25 |
 | [hash-table-existence](topics/hash-table-existence.md) | 6 | 5 | 7 | 0 | 18 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 2 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 5 | 4 | 0 | 9 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 501 個解法標記為生疏，建議找時間重新練習。
+目前共有 500 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -561,7 +561,6 @@
 | 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | [C++](problems/3392.md) | fixed-size-sliding-window |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | [C++](problems/3407.md) | string |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | [C++](problems/3432.md) | array-prefix-sum |
-| 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | [C++](problems/3442.md) | hash-table-counting |
 | 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | [C++](problems/3456.md) | string |
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 Easy | [C++](problems/3461.md) | math-digit-decomposition |
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | [C++](problems/3477.md) | array |
