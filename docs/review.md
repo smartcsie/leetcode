@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：504 題　🟡 注意：129 題　🟢 熟練：231 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：503 題　🟡 注意：130 題　🟢 熟練：231 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -55,7 +55,7 @@
 | [math-game-theory](topics/math-game-theory.md) | 3 | 3 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 5 | 1 | 3 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 1 | 0 | 2 |
-| [math-palindrome](topics/math-palindrome.md) | 1 | 1 | 0 | 0 | 2 |
+| [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 1 |
 | [math-prime](topics/math-prime.md) | 9 | 2 | 2 | 0 | 13 |
 | [math-simulation](topics/math-simulation.md) | 1 | 1 | 3 | 0 | 5 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 511 個解法標記為生疏，建議找時間重新練習。
+目前共有 510 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -495,7 +495,6 @@
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | [C++](problems/2310.md) | math |
 | 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | [C++](problems/2317.md) | bit-manipulation-xor |
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | [C++](problems/2395.md) | hash-table-existence |
-| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | [C++](problems/2396.md) | math-palindrome |
 | 2397 | [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/) | 🟡 Medium | [C++](problems/2397.md) | bit-bitmask-subset-enumeration |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | [C++](problems/2399.md) | string-character-classification |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | [C++](problems/2411.md) | bit-manipulation |

@@ -1,16 +1,15 @@
 # math-palindrome
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math, Brainteaser | [C++](../problems/2396.md) | O(1) | O(1) |
+目前沒有標記為生疏的解法。
 
-## 🟡 注意（1）
+## 🟡 注意（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](../problems/0009.md) | O(logN) | O(1) |
+| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math, Brainteaser | [C++](../problems/2396.md) | O(1) | O(1) |
 
 ## 🟢 熟悉（0）
 
