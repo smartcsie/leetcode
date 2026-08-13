@@ -12,5 +12,6 @@ solutions:
   time: O(N³)
   space: O(1)
   familiarity: 熟練
+  note: '> [for loop]'
   related:
   - 3483
