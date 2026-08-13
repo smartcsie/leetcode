@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：499 題　🟡 注意：132 題　🟢 熟練：233 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：498 題　🟡 注意：132 題　🟢 熟練：234 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -25,9 +25,9 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 10 | 6 | 1 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 11 | 11 | 14 | 0 | 36 |
+| [bit-manipulation](topics/bit-manipulation.md) | 10 | 11 | 14 | 0 | 35 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 3 | 0 | 9 |
-| [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 0 | 2 |
+| [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 1 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 2 | 0 | 18 |
 | [design](topics/design.md) | 5 | 1 | 0 | 0 | 6 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 506 個解法標記為生疏，建議找時間重新練習。
+目前共有 505 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -561,7 +561,6 @@
 | 3325 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/) | 🟡 Medium | [C++](problems/3325.md) | variable-size-sliding-window |
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | [C++](problems/3345.md) | math-digit-decomposition |
 | 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | [C++](problems/3364.md) | array-prefix-sum |
-| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | [C++](problems/3370.md) | bit-manipulation |
 | 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | [C++](problems/3392.md) | fixed-size-sliding-window |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | [C++](problems/3407.md) | string |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | [C++](problems/3432.md) | array-prefix-sum |

@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（11）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 Easy | Bit Manipulation, Built-in Function | [C++](../problems/2859.md) | O(N) | O(1) |
 | 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3019.md) | O(N) | O(1) |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) |
-| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3370.md) | O(logN) | O(1) |
 
 ## 🟡 注意（11）
 

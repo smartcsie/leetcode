@@ -5,16 +5,9 @@ solutions:
 - file: Solution_3370.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Mask
   topics:
-  - bit-manipulation
+  - bit-manipulation-mask
   time: O(logN)
   space: O(1)
-  note: '> [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/)<br>
-
-    > int mask = ~0; while(n & mask) { mask <<= 1; } return ~mask;<br>
-
-    > [476 Number Complement](../problems/0476.md)和[1009 Complement of Base 10 Integer](../problems/1009.md)<br>
-
-    > 類似上面這兩個的題目，只是直接回傳mask。<br>'
-  familiarity: 生疏
+  familiarity: 熟練
