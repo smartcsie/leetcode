@@ -12,3 +12,4 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 熟練
+  note: '> [for loop]'

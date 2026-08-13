@@ -5,10 +5,11 @@ solutions:
 - file: Solution_1291.cpp
   difficulty: 🟡 Medium
   tags:
-  - Brute Force
   - String
+  - Brute Force
   topics:
   - string-substring-enumeration
   time: O(1)
   space: O(1)
   familiarity: 生疏
+  note: '> [for loop]'
