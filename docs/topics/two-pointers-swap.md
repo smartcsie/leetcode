@@ -15,7 +15,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers | [C++](../problems/0344.md) | O(N) | O(1) |
+| 344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](../problems/0344.md) | O(N) | O(1) |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | 🟢 Easy | String, Two Pointers | [C++](../problems/0345.md) | O(N) | O(1) |
 | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0905.md) | O(N) | O(1) |
 | 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](../problems/0917.md) | O(N) | O(1) |

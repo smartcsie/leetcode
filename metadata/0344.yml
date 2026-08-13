@@ -5,6 +5,7 @@ solutions:
 - file: Solution_0344.cpp
   difficulty: 🟢 Easy
   tags:
+  - Two Pointers Swap
   - Two Pointers
   topics:
   - two-pointers-swap
