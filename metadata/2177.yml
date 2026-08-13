@@ -10,6 +10,7 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  note: "> [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number)\
-    \ \n <br>\n> 如果num被3整除，回傳空vector {}，否則回傳{num / 3 - 1, num / 3, num / 3 + 1}。<br>"
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> 如果num被3整除，回傳空vector {}<br>
+
+    > 否則回傳{num / 3 - 1, num / 3, num / 3 + 1}。<br>'

@@ -15,15 +15,7 @@
 class Solution {
 public:
     vector<long long> sumOfThree(long long num) {
-        // 檢查 num 是否為 3 的倍數
-        if (num % 3 != 0) {
-            return {};
-        }
-        
-        // 計算中間數
-        long long mid = num / 3;
-        
-        // 直接返回結果
-        return {mid - 1, mid, mid + 1};
+        if(num % 3) return {};
+        return {num / 3 - 1,num / 3, num / 3 + 1};
     }
 };
