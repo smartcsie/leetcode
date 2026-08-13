@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：497 題　🟡 注意：132 題　🟢 熟練：235 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：497 題　🟡 注意：133 題　🟢 熟練：234 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -29,7 +29,7 @@
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 3 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 1 | 0 | 5 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 2 | 0 | 18 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 7 | 2 | 0 | 19 |
 | [design](topics/design.md) | 5 | 1 | 0 | 0 | 6 |
 | [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 31 |
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 5 |
@@ -39,7 +39,7 @@
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 32 | 6 | 3 | 0 | 41 |
-| [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 3 | 0 | 4 |
+| [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 10 | 3 | 12 | 0 | 25 |
 | [hash-table-existence](topics/hash-table-existence.md) | 6 | 5 | 7 | 0 | 18 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 2 | 11 | 0 | 14 |

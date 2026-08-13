@@ -14,3 +14,12 @@ solutions:
   note: '> x和y做互斥或成為z，取z的2進制1的個數<br>'
   related:
   - 2220
+- file: Solution_0461_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation Xor
+  topics:
+  - bit-manipulation-xor
+  time: O(N)
+  space: O(1)
+  familiarity: 注意
