@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：498 題　🟡 注意：132 題　🟢 熟練：234 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：497 題　🟡 注意：132 題　🟢 熟練：235 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -15,7 +15,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 5 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 3 | 7 | 15 | 0 | 25 |
+| [array-linear-scan](topics/array-linear-scan.md) | 3 | 7 | 16 | 0 | 26 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 4 | 1 | 0 | 0 | 5 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 19 |
@@ -25,7 +25,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 10 | 6 | 1 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 10 | 11 | 14 | 0 | 35 |
+| [bit-manipulation](topics/bit-manipulation.md) | 9 | 11 | 14 | 0 | 34 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 3 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 1 | 0 | 5 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 505 個解法標記為生疏，建議找時間重新練習。
+目前共有 504 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -457,7 +457,6 @@
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | [C++](problems/1881.md) | greedy |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | [C++](problems/1897.md) | hash-table-counting |
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | [C++](problems/1909.md) | greedy |
-| 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | [C++](problems/1920.md) | bit-manipulation |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | [C++](problems/1925.md) | math |
 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | [C++](problems/1927.md) | math-game-theory |
 | 1930 | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | 🟡 Medium | [C++](problems/1930.md) | binary-search |
