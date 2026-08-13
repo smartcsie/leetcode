@@ -10,6 +10,7 @@ solutions:
   - math
   time: O(1)
   space: O(1)
+  familiarity: 注意
   note: '> [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/)<br>
 
     > Pivot integer為 summation開根號<br>
@@ -21,4 +22,13 @@ solutions:
     > if(x * x == sum) return x;<br>
 
     > return -1;<br>'
-  familiarity: 生疏
+  is_best: true
+- file: Solution_2485_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array Linear Scan
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
