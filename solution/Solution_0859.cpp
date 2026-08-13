@@ -23,27 +23,21 @@
 class Solution {
 public:
     bool buddyStrings(string s, string goal) {
-        // 1. 長度不同直接返回 false
-        if (s.size() != goal.size()) {
-            return false;
-        }
-        
-        // 2. 若兩字串原本就完全相同，必須有重複字元可以互換而不改變外觀
-        if (s == goal) {
-            std::unordered_set<char> uniqueChars(s.begin(), s.end());
-            return uniqueChars.size() < s.size(); // 若相異字元數小於長度，代表有重複
-        }
-        
-        // 3. 若不相同，找出所有字元不同的索引位置
-        std::vector<int> diff;
-        for (int i = 0; i < s.size(); ++i) {
-            if (s[i] != goal[i]) {
-                diff.push_back(i);
+        string& t = goal;
+        if(s.size() != t.size()) return false;;
+        unordered_set<char> uniqueSet(s.begin(), s.end());
+        if(s == t) return uniqueSet.size() < s.size();
+        int left = 0;
+        int right = s.size() - 1;
+        while(left < right) {
+            while(left < right && s[left] == t[left]) left++;
+            while(left < right && s[right] == t[right]) right--;
+            if(left < right) {
+                swap(s[left],s[right]);
+                return s == t;
             }
         }
-        
-        // 4. 必須剛好有 2 處不同，且交換後 s 必須等於 goal
-        return (diff.size() == 2) && (s[diff[0]] == goal[diff[1]]) && (s[diff[1]] == goal[diff[0]]);
+        return false;
     }
        
 };

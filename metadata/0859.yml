@@ -12,4 +12,15 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(1)*
-  familiarity: 生疏
+  familiarity: 注意
+  note: '> s 和 goal 長度不一樣，傳回false
+
+    > 要完全交換正好一次<br>
+
+    > 兩字串相等，s = "aa"，goal = "aa" 可以，aa交換<br>
+
+    > 兩字串相等，s = "ab"，goal = "ab" 不可以，ab無法交換<br>
+
+    > 兩字串不相等，檢查交換一次相異char，就可以相等'
+  related:
+  - 1790

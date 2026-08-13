@@ -1,19 +1,19 @@
 # hash-table-uniqueness
 
-## 🔴 生疏（5）
+## 🔴 生疏（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](../problems/0859.md) | O(N) | O(1)* |
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | Hash Table Uniqueness, Hash Table | [C++](../problems/0939.md) | O(N²) | O(N) |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Table Uniqueness, Hash Set, Coordinates | [C++](../problems/1496.md) | O(N) | O(N) |
 | 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](../problems/2670.md) | O(N) | O(N) |
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | Hash Table Uniqueness, Hash Set, Greedy | [C++](../problems/3487.md) | O(N) | O(N) |
 
-## 🟡 注意（2）
+## 🟡 注意（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](../problems/0859.md) | O(N) | O(1)* |
 | 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](../problems/1805.md) | O(N) | O(N) |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Sorting | [C++](../problems/2784.md) | O(N) | O(N) |
 

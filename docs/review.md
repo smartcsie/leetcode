@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：491 題　🟡 注意：135 題　🟢 熟練：238 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：490 題　🟡 注意：136 題　🟢 熟練：238 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 注意 / 熟練統計
 
@@ -44,7 +44,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 6 | 5 | 7 | 0 | 18 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 2 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 5 | 4 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 5 | 2 | 10 | 0 | 17 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 3 | 10 | 0 | 17 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 498 個解法標記為生疏，建議找時間重新練習。
+目前共有 497 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -321,7 +321,6 @@
 | 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | 🟡 Medium | [C++](problems/0836.md) | math-geometry |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | [C++](problems/0844.md) | two-pointers-same |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | [C++](problems/0852.md) | binary-search |
-| 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | [C++](problems/0859.md) | hash-table-uniqueness |
 | 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | [C++](problems/0863.md) | tree-dfs-path |
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | [C++](problems/0866.md) | math-prime |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | [C++](problems/0868.md) | math-digit-decomposition |
