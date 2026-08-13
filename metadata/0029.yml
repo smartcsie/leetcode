@@ -12,3 +12,4 @@ solutions:
   time: O(log²N)
   space: O(1)
   familiarity: 生疏
+  note: '> [Overflow handle] <br>'

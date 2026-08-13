@@ -10,7 +10,8 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  note: '> [Reverse Integer](https://leetcode.com/problems/reverse-integer/)<br>
+  familiarity: 生疏
+  note: '> > [Overflow handle] <br>
 
     > 不用管正負號，因為有正負，所以while(x != 0) <br>
 
@@ -21,4 +22,3 @@ solutions:
 
     > **if (reverse < INT_MIN / 10 || (reverse == INT_MIN / 10 && (x % 10) < -8))
     return 0;** <br>'
-  familiarity: 生疏
