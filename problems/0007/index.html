@@ -3604,11 +3604,13 @@
 <a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/reverse-integer/">Reverse Integer</a><br>
+<blockquote>
+<p>[Overflow handle] <br>
 不用管正負號，因為有正負，所以while(x != 0) <br>
 <strong>while回圈內，邊界條件如下</strong> <br>
 <strong>if (reverse &gt; INT_MAX / 10 || (reverse == INT_MAX / 10 &amp;&amp; (x % 10) &gt; 7)) return 0;</strong> <br>
 <strong>if (reverse &lt; INT_MIN / 10 || (reverse == INT_MIN / 10 &amp;&amp; (x % 10) &lt; -8)) return 0;</strong> <br></p>
+</blockquote>
 </blockquote>
 
 
