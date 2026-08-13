@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1790.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Hash Table Uniqueness
   - Simulation
   topics:
-  - string
+  - hash-table-uniqueness
   time: O(N)
   space: O(1)
   familiarity: 注意
@@ -24,6 +24,8 @@ solutions:
 
     > 最後產生兩種結果，一種是兩字串已經相等，一種是((diff.size() == 2) && (diff[0].first == diff[1].second)
     && (diff[0].second == diff[1].first));<br>'
+  related:
+  - 859
 - file: Solution_1790_1.cpp
   difficulty: 🟢 Easy
   tags:

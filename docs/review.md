@@ -44,7 +44,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 6 | 5 | 7 | 0 | 18 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 2 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 5 | 4 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 3 | 10 | 0 | 17 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 4 | 10 | 0 | 18 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 1 |
@@ -67,7 +67,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 7 | 1 | 7 | 0 | 15 |
-| [string](topics/string.md) | 19 | 7 | 17 | 0 | 43 |
+| [string](topics/string.md) | 19 | 6 | 17 | 0 | 42 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 1 |
