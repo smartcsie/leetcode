@@ -15,22 +15,18 @@
 class Solution {
 public:
     int canBeTypedWords(std::string text, std::string brokenLetters) {
-        std::istringstream ss(text);
-        std::string word;
+        int mask = 0;
+        for(const char& c : brokenLetters) mask |= 1 << (c - 'a');
+        istringstream iss(text);
+        string word;
+        int n = 0;
         int count = 0;
-        
-        while (ss >> word) {
-            bool broken = false;
-            // 檢查單字中是否包含任何一個壞掉的字母
-            for (const char& c : brokenLetters) {
-                if (word.find(c) != std::string::npos) {
-                    broken = true;
-                    break;
-                }
-            }
-            if (!broken) count++;
+        while(iss >> word) {
+            int submask = 0;
+            for(const char& c : word) submask |= 1 << (c - 'a');
+            if(mask & submask) count++;
+            n++;
         }
-        
-        return count;
+        return n - count;
     }
 };

@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：469 題　🟠 再練習：136 題　🟡 練習過：7 題　🟢 熟練：252 題　⚪ 未標記：1 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：468 題　🟠 再練習：137 題　🟡 練習過：7 題　🟢 熟練：252 題　⚪ 未標記：1 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -68,7 +68,7 @@
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 6 | 2 | 0 | 7 | 0 | 15 |
 | [string](topics/string.md) | 16 | 5 | 1 | 20 | 0 | 42 |
-| [string-character-classification](topics/string-character-classification.md) | 3 | 2 | 0 | 17 | 0 | 22 |
+| [string-character-classification](topics/string-character-classification.md) | 2 | 3 | 0 | 17 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 3 | 0 | 0 | 0 | 0 | 3 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 476 個解法標記為生疏，建議找時間重新練習。
+目前共有 475 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -443,7 +443,6 @@
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | [C++](problems/1925.md) | math |
 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | [C++](problems/1927.md) | math-game-theory |
 | 1930 | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | 🟡 Medium | [C++](problems/1930.md) | binary-search |
-| 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 Easy | [C++](problems/1935.md) | string-character-classification |
 | 1936 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | [C++](problems/1936.md) | greedy |
 | 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 Easy | [C++](problems/1945.md) | string |
 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | [C++](problems/1963.md) | stack |
