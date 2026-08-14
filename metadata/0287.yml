@@ -12,6 +12,7 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 生疏
+  note: '> Floyd''s Tortoise and Hare（快慢指標找環）'
 - file: Solution_0287_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -21,3 +22,12 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 熟練
+- file: Solution_0287_2.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array Negative Marking
+  topics:
+  - array-negative-marking
+  time: O(n)
+  space: O(1)
+  familiarity: 生疏

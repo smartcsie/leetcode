@@ -1,10 +1,11 @@
 # array-negative-marking
 
-## 🔴 生疏（1）
+## 🔴 生疏（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | Array Negative Marking, Math | [C++](../problems/0041.md) | O(N) | O(1) |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array Negative Marking | [C++](../problems/0287.md) | O(n) | O(1) |
 
 ## 🟠 再練習（4）
 
