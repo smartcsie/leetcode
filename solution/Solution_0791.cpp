@@ -21,17 +21,19 @@ class Solution {
 public:
     string customSortString(string order, string s) {
         vector<int> counts(26, 0);
-        vector<bool> appear(26, false);
         string ans;
-        for(const char& c : s) {
-            counts[c - 'a']++;
-        }
+        for(const char& c : s) counts[c - 'a']++;
         for(const char& c : order) {
-            appear[c - 'a'] = true;
-            ans += string(counts[c - 'a'], c);
+            while(counts[c - 'a']) {
+                ans.push_back(c);
+                counts[c - 'a']--;
+            }
         }
-        for(const char& c : s) {
-            if(!appear[c - 'a']) ans.push_back(c);
+        for(int i = 0; i < 26; i++) {
+            while(counts[i]) {
+                ans.push_back(i + 'a');
+                counts[i]--;
+            }
         }
         return ans;
     }
