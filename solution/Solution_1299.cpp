@@ -10,13 +10,13 @@
 class Solution {
 public:
     vector<int> replaceElements(vector<int>& arr) {
-        int n = arr.size();
-        int rightMax = -1;
-        vector<int> res(n);
+        int n =  arr.size();
+        int mx = -1;
+        vector<int> ans(n);
         for(int i = n - 1; i >= 0; i--) {
-            res[i] = rightMax;
-            rightMax = max(rightMax, arr[i]);
+            ans[i] = mx;
+            mx = max(mx, arr[i]);
         }
-        return res;
+        return ans;
     }
 };

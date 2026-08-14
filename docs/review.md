@@ -3,14 +3,14 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：479 題　🟠 再練習：132 題　🟡 練習過：6 題　🟢 熟練：247 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：478 題　🟠 再練習：133 題　🟡 練習過：6 題　🟢 熟練：247 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 0 | 8 | 0 | 9 | 0 | 17 |
-| [array](topics/array.md) | 7 | 7 | 0 | 14 | 0 | 28 |
+| [array](topics/array.md) | 6 | 8 | 0 | 14 | 0 | 28 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 0 | 5 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 486 個解法標記為生疏，建議找時間重新練習。
+目前共有 485 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -385,7 +385,6 @@
 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 Medium | [C++](problems/1288.md) | array-interval |
 | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | 🟢 Easy | [C++](problems/1290.md) | linked-list |
 | 1291 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | 🟡 Medium | [C++](problems/1291.md) | string-substring-enumeration |
-| 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | [C++](problems/1299.md) | array |
 | 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees) | 🟡 Medium | [C++](problems/1305.md) | tree-dfs-path |
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | 🟡 Medium | [C++](problems/1315.md) | tree-dfs-path |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | [C++](problems/1318.md) | bit-manipulation-or |
