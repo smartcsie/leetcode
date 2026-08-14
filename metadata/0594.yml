@@ -10,3 +10,4 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
+  familiarity: 熟練
