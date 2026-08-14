@@ -14,12 +14,9 @@
 class Solution {
 public:
     int missingMultiple(vector<int>& nums, int k) {
-        vector<bool> seen(10001, false);
-        for(const int& num : nums) {
-            if(num % k ==0) seen[num] = true;
-        }
-        for(int i = 1; ; i++) {
-            if(!seen[i * k]) return (i * k);
+        unordered_set sets(nums.begin(), nums.end());
+        for(int x = k;; x +=k) {
+            if(!sets.contains(x)) return x;
         }
         return -1;
     }

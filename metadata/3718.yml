@@ -11,4 +11,4 @@ solutions:
   - hash-table-existence
   time: O(N+M)
   space: O(M)
-  familiarity: 生疏
+  familiarity: 熟練
