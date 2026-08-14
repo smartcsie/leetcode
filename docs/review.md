@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：488 題　🟠 再練習：133 題　🟡 練習過：3 題　🟢 熟練：240 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：487 題　🟠 再練習：134 題　🟡 練習過：3 題　🟢 熟練：240 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -38,13 +38,13 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 32 | 6 | 0 | 3 | 0 | 41 |
+| [greedy](topics/greedy.md) | 31 | 7 | 0 | 3 | 0 | 41 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 6 | 5 | 0 | 14 | 0 | 25 |
 | [hash-table-existence](topics/hash-table-existence.md) | 6 | 5 | 0 | 7 | 0 | 18 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 2 | 0 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 5 | 0 | 4 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 4 | 0 | 10 | 0 | 18 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 10 | 0 | 19 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 495 個解法標記為生疏，建議找時間重新練習。
+目前共有 494 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -344,7 +344,6 @@
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | [C++](problems/0949.md) | math-permutation |
 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | [C++](problems/0951.md) | tree |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | [C++](problems/0958.md) | tree-bfs-level-order |
-| 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | [C++](problems/0961.md) | greedy |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 Easy | [C++](problems/0965.md) | tree-dfs-path |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | [C++](problems/0970.md) | math |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | [C++](problems/0973.md) | quick-select |

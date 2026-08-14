@@ -22,7 +22,7 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟢 熟悉（13）
+## 🟢 熟悉（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -31,6 +31,7 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0217.md) | O(NlogN) | O(logN) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0217.md) | O(NlogN) | O(logN) |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0884.md) | O(N+M) | O(N+M) |
+| 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0961.md) | O(N) | O(1) |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Counting | [C++](../problems/1207.md) | O(N) | O(N) |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](../problems/1748.md) | O(N) | O(N) |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](../problems/2053.md) | O(N) | O(N) |

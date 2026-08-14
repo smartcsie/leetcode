@@ -11,18 +11,13 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  note: '> [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)<br>
-
-    > **for (int i = 0; i < n; ++i) {** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**if (i + 1 < n && nums[i] == nums[i + 1]) return nums[i];**
-    <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**if (i + 2 < n && nums[i] == nums[i + 2]) return nums[i];**
-    <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**if (i + 3 < n && nums[i] == nums[i + 3]) return nums[i];**
-    <br>
-
-    > **}** <br>'
-  familiarity: 生疏
+  familiarity: 再練習
+- file: Solution_0961_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table Uniqueness
+  topics:
+  - hash-table-uniqueness
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
