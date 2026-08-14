@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：465 題　🟠 再練習：137 題　🟡 練習過：8 題　🟢 熟練：254 題　⚪ 未標記：1 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：464 題　🟠 再練習：138 題　🟡 練習過：8 題　🟢 熟練：254 題　⚪ 未標記：1 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -17,7 +17,7 @@
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 3 | 7 | 0 | 16 | 0 | 26 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 3 | 0 | 4 |
-| [array-negative-marking](topics/array-negative-marking.md) | 3 | 2 | 0 | 0 | 0 | 5 |
+| [array-negative-marking](topics/array-negative-marking.md) | 2 | 3 | 0 | 0 | 0 | 5 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 19 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 472 個解法標記為生疏，建議找時間重新練習。
+目前共有 471 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -284,7 +284,6 @@
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | [C++](problems/0617.md) | tree-dfs-path |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | [C++](problems/0633.md) | math |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | [C++](problems/0643.md) | fixed-size-sliding-window |
-| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | [C++](problems/0645.md) | array-negative-marking |
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | [C++](problems/0647.md) | two-pointers-center-expansion |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | [C++](problems/0648.md) | string |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | [C++](problems/0648.md) | trie |

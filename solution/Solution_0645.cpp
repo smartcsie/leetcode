@@ -15,26 +15,15 @@
 class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
-        int dup = -1, miss = -1;
-        
-        // 標記出現過的數字
-        for (int num : nums) {
-            int idx = abs(num) - 1;
-            if (nums[idx] < 0) {
-                dup = abs(num);
-            } else {
-                nums[idx] *= -1;
-            }
+        vector<int> ans(2, 0);
+        for(int i = 0; i < nums.size(); i++) {
+            int idx = abs(nums[i]) - 1;
+            if(nums[idx] > 0) nums[idx] = -nums[idx];
+            else ans[0] = idx + 1;
         }
-        
-        // 找出未被標記的數字 (即缺失值)
-        for (int i = 0; i < nums.size(); ++i) {
-            if (nums[i] > 0) {
-                miss = i + 1;
-                break; // 找到後即可跳出，提高效能
-            }
+        for(int i = 0; i < nums.size(); i++) {
+            if(nums[i] > 0) ans[1] = i + 1;
         }
-        
-        return {dup, miss};
+        return ans;
     }
 };

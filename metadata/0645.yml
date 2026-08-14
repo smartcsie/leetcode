@@ -11,4 +11,4 @@ solutions:
   - array-negative-marking
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
