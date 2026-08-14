@@ -10,10 +10,8 @@ solutions:
   - bit-manipulation
   time: O(N1+N2+N3)
   space: O(1)
-  familiarity: 再練習
-  note: '> [Two Out of Three](https://leetcode.com/problems/two-out-of-three/)<br>
-
-    > 起一組vector<int> counts(101, 0)，nums1 數字 counts[num] |= 1，nums2 數字 counts[num]
+  familiarity: 練習過
+  note: '> 起一組vector<int> counts(101, 0)，nums1 數字 counts[num] |= 1，nums2 數字 counts[num]
     |= 2，nums3 數字 counts[num] |= 4<br>
 
     > 因為三組陣列都有可能有重覆值，OR 就不用考慮重覆，最後算if (popcount((unsigned int)counts[i]) >= 2) res.push_back(i);<br>'
