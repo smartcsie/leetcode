@@ -5,13 +5,12 @@ solutions:
 - file: Solution_0268_2.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit-Manipulation
+  - Array Negative Marking
   topics:
-  - bit-manipulation-xor
+  - array-negative-marking
   time: O(N)
   space: O(1)
   familiarity: 再練習
-  note: '> **for loop 從0 ~ (size - 1) ， missing ^= (i + 1) ^ nums[i]** <br>'
 - file: Solution_0268.cpp
   difficulty: 🟢 Easy
   tags:

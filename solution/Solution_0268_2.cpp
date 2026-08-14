@@ -1,41 +1,39 @@
 /**
- * 題目：268. Missing Number (缺失數字)
+ * 題目：268. Missing Number
  * 難度：簡單 (Easy)
- * 描述：給定一個包含 [0, n] 中 n 個數的陣列 nums，找出在 0 到 n 範圍內缺失的那一個數字。
+ * 描述：給定一個包含 n 個相異數字、取值範圍為 [0, n] 的陣列 nums，
+ * 找出 [0, n] 這個範圍內唯一缺少的那個數字。
  *
- * 時間複雜度：O(N) - 遍歷一次陣列。
- * 空間複雜度：O(1) - 僅使用常數空間。
+ * 時間複雜度：O(N)
+ * 空間複雜度：O(1)
  *
  * 解法思路：
- * 1. XOR (互斥或) 法：
- * - XOR 運算滿足：a ^ a = 0, a ^ 0 = a。
- * - 我們將 0 到 n 的所有索引與陣列中所有的數字全部進行 XOR。
- * - 成對出現的數字會抵消為 0，最後剩下的結果就是缺失的數字。
- * 2. 數學求和法 (Gauss Sum)：
- * - 計算 0 到 n 的理論總和：sum = n * (n + 1) / 2。
- * - 減去陣列中所有數字的實際總和，差值即為缺失數字。
+ * （Cyclic Sort，同一家族但不是負數標記，而是「歸位」）：
+ * 1. 這題值域是 0～n（n+1 個可能值，只有 n 個位置），跟 41/442/448/645
+ *    那種「值域剛好是 1～n」不同，值 0 沒辦法標負號、值 n 又會超出陣列
+ *    範圍，所以不能直接套負數標記，改用同樣邏輯的變形：把每個數字換到
+ *    「它該在的位置」（nums[i] == i）。
+ * 2. 用一個指標 i 從頭掃描，如果 nums[i] 這個值本身小於 n、而且它應該去的
+ *    位置 nums[correct] 還不是它自己，就把它換到正確位置；否則指標才前進。
+ * 3. 掃完一輪之後再走一次陣列，第一個 nums[i] != i 的位置，i 就是缺的數字；
+ *    如果每個位置都對得上，代表缺的是 n（因為 0～n-1 都在，n 沒地方放）。
  */
-
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
-        int res = 0;
-        for(int i = 0; i < nums.size(); i++) {
-            res = res ^ (i+1) ^ nums[i];
+        int n = nums.size();
+        int i = 0;
+        while (i < n) {
+            int correct = nums[i];
+            if (correct < n && nums[correct] != nums[i]) {
+                swap(nums[i], nums[correct]);
+            } else {
+                i++;
+            }
         }
-        return res;
+        for (int i = 0; i < n; i++) {
+            if (nums[i] != i) return i;
+        }
+        return n;
     }
 };
-
-
-/**
- * 數學解法參考 (Alternative Math Approach):
- * 
- * int missingNumber(vector<int>& nums) {
- *     int n = nums.size();
- *     int expectedSum = n * (n + 1) / 2;
- *     int actualSum = 0;
- *     for (int x : nums) actualSum += x;
- *     return expectedSum - actualSum;
- * }
- */
