@@ -22,7 +22,7 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟢 熟悉（15）
+## 🟢 熟悉（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -30,6 +30,7 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0217.md) | O(N) | O(N) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0217.md) | O(NlogN) | O(logN) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0217.md) | O(NlogN) | O(logN) |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](../problems/0387.md) | O(N) | O(1) |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0884.md) | O(N+M) | O(N+M) |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0961.md) | O(N) | O(1) |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Counting | [C++](../problems/1207.md) | O(N) | O(N) |

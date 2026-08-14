@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：476 題　🟠 再練習：134 題　🟡 練習過：6 題　🟢 熟練：248 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：475 題　🟠 再練習：134 題　🟡 練習過：6 題　🟢 熟練：249 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -44,7 +44,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 8 | 0 | 18 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 1 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 4 | 1 | 4 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 11 | 0 | 20 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 12 | 0 | 21 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
@@ -71,7 +71,7 @@
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 0 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [string-substring](topics/string-substring.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [string-substring](topics/string-substring.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 11 | 0 | 0 | 3 | 0 | 14 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 483 個解法標記為生疏，建議找時間重新練習。
+目前共有 482 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -238,7 +238,6 @@
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | [C++](problems/0374.md) | binary-search |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | [C++](problems/0377.md) | knapsack-problem |
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | [C++](problems/0378.md) | binary-search |
-| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | [C++](problems/0387.md) | string-substring |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | [C++](problems/0392.md) | dynamic-programming |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | [C++](problems/0396.md) | math |
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | [C++](problems/0397.md) | greedy |

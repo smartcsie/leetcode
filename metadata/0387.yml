@@ -5,16 +5,16 @@ solutions:
 - file: Solution_0387.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Uniqueness
   - Hash Table
-  - String
   topics:
-  - string-substring
+  - hash-table-uniqueness
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/)
     <br>
 
     > 第1個loop，統計字元出現頻頻率， **for(char c : s)  count[c-''a'']++**; <br>
 
     > 第2個loop，檢查頻率=1，return; <br>'
-  familiarity: 生疏
