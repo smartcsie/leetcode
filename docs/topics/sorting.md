@@ -1,6 +1,6 @@
 # sorting
 
-## 🔴 生疏（27）
+## 🔴 生疏（26）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,6 @@
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Array, Counting Sort | [C++](../problems/1051.md) | O(N) | O(1) |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | Counting Sort | [C++](../problems/1122.md) | O(N+M) | O(1) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Array, Sorting | [C++](../problems/1200.md) | O(NlogN) | O(N) |
-| 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Bit Manipulation, Sorting | [C++](../problems/1356.md) | O(NlogN) | O(1) |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | String, Sorting | [C++](../problems/1408.md) | O(N²*K) | O(N) |
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | Greedy, Sorting | [C++](../problems/1481.md) | O(NlogN) | O(N) |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String, Sorting, Bucket Sort | [C++](../problems/1859.md) | O(N) | O(N) |
@@ -32,10 +31,11 @@
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | Bit Manipulation, Sorting | [C++](../problems/3769.md) | O(NlogN) | O(N) |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting, Hash | [C++](../problems/3913.md) | O(NlogN) | O(N) |
 
-## 🟠 再練習（1）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1356.md) | O(NlogN) | O(1) |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting, Sorting, Hash Table | [C++](../problems/2418.md) | O(NlogN) | O(N) |
 
 ## 🟡 練習過（0）

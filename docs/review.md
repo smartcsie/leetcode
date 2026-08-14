@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：478 題　🟠 再練習：133 題　🟡 練習過：6 題　🟢 熟練：247 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：477 題　🟠 再練習：134 題　🟡 練習過：6 題　🟢 熟練：247 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -63,7 +63,7 @@
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [quick-select](topics/quick-select.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 27 | 1 | 0 | 3 | 0 | 31 |
+| [sorting](topics/sorting.md) | 26 | 2 | 0 | 3 | 0 | 31 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 7 | 1 | 0 | 7 | 0 | 15 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 485 個解法標記為生疏，建議找時間重新練習。
+目前共有 484 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -389,7 +389,6 @@
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | 🟡 Medium | [C++](problems/1315.md) | tree-dfs-path |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | [C++](problems/1318.md) | bit-manipulation-or |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | [C++](problems/1351.md) | binary-search |
-| 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | [C++](problems/1356.md) | sorting |
 | 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | [C++](problems/1358.md) | variable-size-sliding-window |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 Easy | [C++](problems/1365.md) | array-prefix-sum |
 | 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 Medium | [C++](problems/1375.md) | math |
