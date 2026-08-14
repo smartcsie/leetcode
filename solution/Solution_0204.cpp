@@ -10,24 +10,23 @@
  * 1. 使用 bitset 的 .count() 函數取代手動迴圈統計。
  * 2. 篩選時精準控制邊界為 n-1。
  */
-
 class Solution {
-private:
-void getPrimes(int n, vector<bool>& primes) {
-    primes[0] = primes[1] = false;
-    for(int p = 2; p * p < n; p++) {
-        if(primes[p]) {
-            for(int i = p * p; i < n; i += p) {
-                primes[i] = false;
-            }
-        }
-    }
-}
+
 public:
     int countPrimes(int n) {
-        if(n < 2) return 0;
-        vector<bool> isPrime(n, true);
-        getPrimes(n, isPrime);
-        return count(isPrime.begin(), isPrime.end(), true);
+        vector<bool> isPrime(n + 1, true);
+        isPrime[0] = isPrime[1] = false;
+        for(int p = 2; p * p <= n; p++) {
+            if(isPrime[p]) {
+                for(int i =  p * p; i <= n; i += p) {
+                    isPrime[i] = false;
+                }
+            }
+        }
+        int ans = 0;
+        for(int x = 1; x < n; x++) {
+            if(isPrime[x]) ans++;
+        }
+        return ans;
     }
 };

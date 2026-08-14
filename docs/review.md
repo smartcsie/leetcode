@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：466 題　🟠 再練習：137 題　🟡 練習過：7 題　🟢 熟練：254 題　⚪ 未標記：1 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：466 題　🟠 再練習：136 題　🟡 練習過：8 題　🟢 熟練：254 題　⚪ 未標記：1 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -57,7 +57,7 @@
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 1 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [math-prime](topics/math-prime.md) | 7 | 2 | 0 | 4 | 0 | 13 |
+| [math-prime](topics/math-prime.md) | 7 | 1 | 1 | 4 | 0 | 13 |
 | [math-simulation](topics/math-simulation.md) | 1 | 1 | 0 | 3 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 0 | 6 |

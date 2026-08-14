@@ -12,16 +12,17 @@
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math, Prefix Sum | [C++](../problems/3770.md) | O(RloglogR) | O(R) |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math, Sieve | [C++](../problems/3918.md) | O(RloglogR) | O(R) |
 
-## 🟠 再練習（2）
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math, Sieve | [C++](../problems/0204.md) | O(NloglogN) | O(N) |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math Prime | [C++](../problems/1952.md) | O(√N) | O(1) |
 
-## 🟡 練習過（0）
+## 🟡 練習過（1）
 
-目前沒有標記為練習過的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math Prime, Sieve | [C++](../problems/0204.md) | O(NloglogN) | O(N) |
 
 ## 🟢 熟悉（4）
 
