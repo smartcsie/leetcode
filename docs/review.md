@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：484 題　🟠 再練習：135 題　🟡 練習過：3 題　🟢 熟練：242 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：483 題　🟠 再練習：135 題　🟡 練習過：3 題　🟢 熟練：243 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -50,7 +50,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 14 | 16 | 0 | 10 | 0 | 40 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 13 | 10 | 0 | 18 | 0 | 41 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 12 | 10 | 0 | 19 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 3 | 3 | 0 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 5 | 1 | 0 | 3 | 0 | 9 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 491 個解法標記為生疏，建議找時間重新練習。
+目前共有 490 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -533,7 +533,6 @@
 | 3083 | [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | 🟢 Easy | [C++](problems/3083.md) | string-substring |
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | [C++](problems/3084.md) | math-combination |
 | 3090 | [Maximum Length Substring](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 Easy | [C++](problems/3090.md) | fixed-size-sliding-window |
-| 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | [C++](problems/3099.md) | math-digit-decomposition |
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | [C++](problems/3114.md) | greedy |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | [C++](problems/3120.md) | bit-manipulation |
 | 3132 | [Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) | 🟡 Medium | [C++](problems/3132.md) | sorting |
