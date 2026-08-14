@@ -5,12 +5,12 @@ solutions:
 - file: Solution_0205.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Hash Table Mapping
   - Hash Table
   topics:
   - hash-table-mapping
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 練習過
   related:
   - 290
