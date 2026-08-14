@@ -1,13 +1,12 @@
 # string-character-classification
 
-## 🔴 生疏（4）
+## 🔴 生疏（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 Easy | String, Stream | [C++](../problems/1935.md) | O(N*M) | O(1) |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | Hash Table, String, Array | [C++](../problems/2399.md) | O(N) | O(1) |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String, Two Pointers | [C++](../problems/3775.md) | O(N*L) | O(N) |
-| 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String, Math | [C++](../problems/3931.md) | O(N) | O(1) |
 
 ## 🟠 再練習（2）
 
@@ -20,7 +19,7 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟢 熟悉（16）
+## 🟢 熟悉（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -40,3 +39,4 @@
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String, Validation | [C++](../problems/3136.md) | O(N) | O(1) |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Processing | [C++](../problems/3813.md) | O(N) | O(1) |
 | 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | String, Two Pointers | [C++](../problems/3856.md) | O(N) | O(1) |
+| 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String, Math | [C++](../problems/3931.md) | O(N) | O(1) |
