@@ -12,4 +12,4 @@ solutions:
   - bit-manipulation
   time: O(N+M)
   space: O(1)*
-  familiarity: 再練習
+  familiarity: 練習過
