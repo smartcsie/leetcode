@@ -18,19 +18,13 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        // 1. 處理空陣列的邊界情況
-        if (nums.empty()) return 0;
-        // 2. count 是慢指標，第一個元素永遠不需要移動，所以從 1 開始
-        int count = 1;
-        // 3. i 是快指標，掃描陣列寻找不重複的數字
-        for (int i = 1; i < nums.size(); i++) {
-            // 如果當前數字跟前一個數字不同，說明這是一個新的不重複數字
-            if (nums[i] != nums[i - 1]) {
-                nums[count] = nums[i];
-                count++;
-            }
+        int n = nums.size();
+        int slow = 0;
+        int fast = 1;
+        while(fast < n) {
+            while(fast < n && nums[slow] == nums[fast]) fast++;
+            if(fast < n) swap(nums[++slow], nums[fast++]);
         }
-        // 返回不重複元素的總個數
-        return count;
+        return slow + 1;
     }
 };
