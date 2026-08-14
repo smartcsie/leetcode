@@ -20,24 +20,18 @@
 class Solution {
 public:
     int countBalls(int lowLimit, int highLimit) {
-        // 根據最大可能數字（10^5 內），數位和最大為 45，故宣告大小 46 的陣列
-        std::vector<int> counts(46, 0);
-        
-        for (int i = lowLimit; i <= highLimit; ++i) {
-            int n = i;
-            int num = 0;
-            
-            // 計算當前編號的各位數字總和
-            while (n > 0) {
-                num += n % 10;
-                n /= 10;
+        int ans = 0;
+        vector<int> counts(46, 0);
+        for(int x = lowLimit; x <= highLimit; x++) {
+            int d = 0;
+            int y = x;
+            while(y > 0) {
+                d += y % 10;
+                y /= 10;
             }
-            
-            // 將球放入對應的箱子中
-            counts[num]++;
+            counts[d]++;
+            ans = max(ans, counts[d]);
         }
-        
-        // 返回所有箱子中的最大球數
-        return *std::max_element(counts.begin(), counts.end());
+        return ans;
     }
 };
