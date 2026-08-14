@@ -10,10 +10,8 @@ solutions:
   - string
   time: O(min(L1,L2,L3))
   space: O(1)
-  familiarity: 再練習
-  note: '> [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/)  <br>
-
-    > 跟0014.[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)很像，此題三字串，0014多字串
+  familiarity: 練習過
+  note: '> 跟0014.[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)很像，此題三字串，0014多字串
 
     > int minLen = min({n1, n2, n3});<br>
 

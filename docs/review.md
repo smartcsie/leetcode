@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：473 題　🟠 再練習：134 題　🟡 練習過：6 題　🟢 熟練：251 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：473 題　🟠 再練習：133 題　🟡 練習過：7 題　🟢 熟練：251 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -67,7 +67,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 7 | 1 | 0 | 7 | 0 | 15 |
-| [string](topics/string.md) | 16 | 6 | 0 | 20 | 0 | 42 |
+| [string](topics/string.md) | 16 | 5 | 1 | 20 | 0 | 42 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 0 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
