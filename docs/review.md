@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：481 題　🟠 再練習：133 題　🟡 練習過：5 題　🟢 熟練：245 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：480 題　🟠 再練習：133 題　🟡 練習過：5 題　🟢 熟練：246 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -79,7 +79,7 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 31 | 3 | 0 | 6 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 10 | 1 | 0 | 5 | 0 | 16 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 9 | 1 | 0 | 6 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 15 | 2 | 0 | 3 | 0 | 20 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 488 個解法標記為生疏，建議找時間重新練習。
+目前共有 487 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -445,7 +445,6 @@
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | [C++](problems/1859.md) | sorting |
 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | [C++](problems/1863.md) | bit-manipulation-xor |
 | 1876 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | 🟢 Easy | [C++](problems/1876.md) | fixed-size-sliding-window |
-| 1877 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | 🟡 Medium | [C++](problems/1877.md) | two-pointers-opposite |
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | [C++](problems/1881.md) | greedy |
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | [C++](problems/1909.md) | greedy |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | [C++](problems/1925.md) | math |

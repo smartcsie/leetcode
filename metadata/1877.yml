@@ -5,7 +5,7 @@ solutions:
 - file: Solution_1877.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Two Pointers Opposite
   - Two Pointers
   - Greedy
   - Sorting
@@ -13,4 +13,4 @@ solutions:
   - two-pointers-opposite
   time: O(NlogN)
   space: O(1)*
-  familiarity: 生疏
+  familiarity: 熟練
