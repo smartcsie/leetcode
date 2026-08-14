@@ -71,6 +71,6 @@ solutions:
   - Hash Table Intersection
   topics:
   - hash-table-intersection
-  time: ''
-  space: ''
+  time: O(N+M)
+  space: O(1)
   familiarity: 再練習
