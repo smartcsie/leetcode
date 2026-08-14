@@ -5,17 +5,16 @@ solutions:
 - file: Solution_3477.cpp
   difficulty: 🟢 Easy
   tags:
+  - Array
   - Simulation
   - Brute Force
   topics:
   - array
   time: O(N^2)
   space: O(1)
-  note: '> [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/)
-    <br>
+  familiarity: 再練習
+  note: '> 這一題有O(nlong)解法，SegmentTree
 
-    > 這一題有O(nlong)解法，SegmentTree
-
+    > [Loop]
 
     <br><br>'
-  familiarity: 生疏
