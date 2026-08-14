@@ -3563,7 +3563,7 @@
 
 <h1 id="1576-replace-all-s">1576. Replace All ?'s<a class="headerlink" href="#1576-replace-all-s" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Greedy　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Greedy　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1576. Replace All ?&#39;s to Avoid Consecutive Repeating Characters</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3598,8 +3598,7 @@
 <a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/">Replace All ?'s</a><br>
-將字串中的 '?' 替換為合法字元，保證相鄰字元不重複遍歷字串，當遇到 '?' 時，從 'a', 'b', 'c' 中選出一個與左右相鄰皆不同的字元替換<br>
+<p>將字串中的 '?' 替換為合法字元，保證相鄰字元不重複遍歷字串，當遇到 '?' 時，從 'a', 'b', 'c' 中選出一個與左右相鄰皆不同的字元替換<br>
 <strong>for(char c = 'a'; c &lt;= 'c'; c++) {</strong> <br>
 &emsp;&emsp;&emsp;&emsp;<strong>if(i &gt; 0 &amp;&amp; s[i - 1] == c) continue;</strong> <br>
 &emsp;&emsp;&emsp;&emsp;<strong>if(i &lt; s.size() &amp;&amp; s[i + 1] == c) continue;</strong> <br>
