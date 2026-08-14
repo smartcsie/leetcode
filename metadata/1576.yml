@@ -10,9 +10,8 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  note: '> [Replace All ?''s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)<br>
-
-    > 將字串中的 ''?'' 替換為合法字元，保證相鄰字元不重複遍歷字串，當遇到 ''?'' 時，從 ''a'', ''b'', ''c'' 中選出一個與左右相鄰皆不同的字元替換<br>
+  familiarity: 再練習
+  note: '> 將字串中的 ''?'' 替換為合法字元，保證相鄰字元不重複遍歷字串，當遇到 ''?'' 時，從 ''a'', ''b'', ''c'' 中選出一個與左右相鄰皆不同的字元替換<br>
 
     > **for(char c = ''a''; c <= ''c''; c++) {** <br>
 
@@ -23,4 +22,3 @@ solutions:
     > &emsp;&emsp;&emsp;&emsp;**s[i] = c;** <br>
 
     > **}** <br>'
-  familiarity: 生疏
