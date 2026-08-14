@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：485 題　🟠 再練習：135 題　🟡 練習過：3 題　🟢 熟練：241 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：484 題　🟠 再練習：135 題　🟡 練習過：3 題　🟢 熟練：242 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -50,7 +50,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 14 | 16 | 0 | 10 | 0 | 40 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 14 | 10 | 0 | 17 | 0 | 41 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 13 | 10 | 0 | 18 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 3 | 3 | 0 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 5 | 1 | 0 | 3 | 0 | 9 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 492 個解法標記為生疏，建議找時間重新練習。
+目前共有 491 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -439,7 +439,6 @@
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | [C++](problems/1758.md) | string |
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | [C++](problems/1785.md) | greedy |
 | 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | [C++](problems/1818.md) | binary-search-build-in |
-| 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | [C++](problems/1837.md) | math-digit-decomposition |
 | 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | 🟡 Medium | [C++](problems/1839.md) | variable-size-sliding-window |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 Easy | [C++](problems/1848.md) | array-linear-scan |
 | 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 Easy | [C++](problems/1854.md) | array-difference-array |
