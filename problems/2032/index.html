@@ -3563,7 +3563,7 @@
 
 <h1 id="2032-two-out-of-three">2032. Two Out of Three<a class="headerlink" href="#2032-two-out-of-three" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/two-out-of-three/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(N1+N2+N3)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(N1+N2+N3)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2032. Two Out of Three</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3592,8 +3592,7 @@
 <a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/two-out-of-three/">Two Out of Three</a><br>
-起一組vector<int> counts(101, 0)，nums1 數字 counts[num] |= 1，nums2 數字 counts[num] |= 2，nums3 數字 counts[num] |= 4<br>
+<p>起一組vector<int> counts(101, 0)，nums1 數字 counts[num] |= 1，nums2 數字 counts[num] |= 2，nums3 數字 counts[num] |= 4<br>
 因為三組陣列都有可能有重覆值，OR 就不用考慮重覆，最後算if (popcount((unsigned int)counts[i]) &gt;= 2) res.push_back(i);<br></p>
 </blockquote>
 
