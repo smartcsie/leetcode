@@ -14,18 +14,19 @@
 class Solution {
 public:
     int minDeletionSize(vector<string>& strs) {
-        if(strs.empty()) return 0;
-        int rowSize = strs.size();
-        int colSize = strs[0].size();
-        bitset<1001> unsorted;
-        for(int j = 0; j < colSize; j++) {
-            for(int i = 1; i < rowSize; i++) {
-                if(strs[i][j] < strs[i - 1][j]) {
-                    unsorted.set(j);
+        int m = strs.size();
+        int n = strs[0].size();
+        int ans = 0;
+        for(int j = 0; j < n; j++) {
+            bool sorted = true;
+            for(int i = 0; i < m - 1; i++) {
+                if(strs[i][j] > strs[i + 1][j]) {
+                    sorted = false;
                     break;
-                } 
+                }
             }
+            if(!sorted)ans++; 
         }
-        return static_cast<int>(unsorted.count());
+        return ans;
     }
 };

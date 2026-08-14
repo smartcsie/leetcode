@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：474 題　🟠 再練習：134 題　🟡 練習過：6 題　🟢 熟練：250 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：473 題　🟠 再練習：134 題　🟡 練習過：6 題　🟢 熟練：251 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -67,7 +67,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 7 | 1 | 0 | 7 | 0 | 15 |
-| [string](topics/string.md) | 17 | 6 | 0 | 19 | 0 | 42 |
+| [string](topics/string.md) | 16 | 6 | 0 | 20 | 0 | 42 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 0 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 481 個解法標記為生疏，建議找時間重新練習。
+目前共有 480 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -337,7 +337,6 @@
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | [C++](problems/0939.md) | hash-table-uniqueness |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | [C++](problems/0941.md) | two-pointers-opposite |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | [C++](problems/0942.md) | two-pointers-opposite |
-| 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | [C++](problems/0944.md) | string |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | [C++](problems/0945.md) | greedy |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | [C++](problems/0949.md) | math-permutation |
 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | [C++](problems/0951.md) | tree |
