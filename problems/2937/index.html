@@ -3563,7 +3563,7 @@
 
 <h1 id="2937-make-three-strings-equal">2937. Make Three Strings Equal<a class="headerlink" href="#2937-make-three-strings-equal" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/make-three-strings-equal/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> String　<strong>時間:</strong> O(min(L1,L2,L3))　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> String　<strong>時間:</strong> O(min(L1,L2,L3))　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2937. Make Three Strings Equal (使三個字串相等)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3592,8 +3592,7 @@
 <a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/make-three-strings-equal/">Make Three Strings Equal</a>  <br>
-跟0014.<a href="https://leetcode.com/problems/longest-common-prefix">Longest Common Prefix</a>很像，此題三字串，0014多字串
+<p>跟0014.<a href="https://leetcode.com/problems/longest-common-prefix">Longest Common Prefix</a>很像，此題三字串，0014多字串
 int minLen = min({n1, n2, n3});<br>
 for(int i = 0 ; i &lt; minLen; i++) if((s1[i] == s2[i]) &amp;&amp; (s1[i] == s3[i])) prefix++;<br>
 計算前綴長度 prefix，用個別長度減去前綴長度，return (n1 + n2 + n3 - prefix - prefix - prefix);<br></p>
