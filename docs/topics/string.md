@@ -1,6 +1,6 @@
 # string
 
-## 🔴 生疏（18）
+## 🔴 生疏（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,6 @@
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](../problems/1758.md) | O(N) | O(1) |
 | 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 Easy | String, Simulation | [C++](../problems/1945.md) | O(N+K*log(SUM)) | O(1) |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | Simulation, String | [C++](../problems/2243.md) | O(N*logN) | O(N) |
-| 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 Easy | String, Cyclic Shift | [C++](../problems/3210.md) | O(N) | O(N) |
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String Manipulation, Bit Format | [C++](../problems/3280.md) | O(1) | O(1) |
 | 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 Easy | Simulation, Recursion | [C++](../problems/3304.md) | O(K) | O(K) |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String, Pattern Matching | [C++](../problems/3407.md) | O(N+M) | O(M) |
@@ -38,7 +37,7 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟢 熟悉（18）
+## 🟢 熟悉（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -59,4 +58,5 @@
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array, String | [C++](../problems/2828.md) | O(N) | O(1) |
 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 Easy | String, Simulation | [C++](../problems/2839.md) | O(1) | O(1) |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | String Search | [C++](../problems/2942.md) | O(N*L) | O(1) |
+| 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 Easy | String, Cyclic Shift | [C++](../problems/3210.md) | O(N) | O(N) |
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | String, String | [C++](../problems/3498.md) | O(N) | O(1) |

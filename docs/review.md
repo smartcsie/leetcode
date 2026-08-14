@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：475 題　🟠 再練習：134 題　🟡 練習過：6 題　🟢 熟練：249 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：474 題　🟠 再練習：134 題　🟡 練習過：6 題　🟢 熟練：250 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -67,7 +67,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 7 | 1 | 0 | 7 | 0 | 15 |
-| [string](topics/string.md) | 18 | 6 | 0 | 18 | 0 | 42 |
+| [string](topics/string.md) | 17 | 6 | 0 | 19 | 0 | 42 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 0 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 482 個解法標記為生疏，建議找時間重新練習。
+目前共有 481 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -531,7 +531,6 @@
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | [C++](problems/3120.md) | bit-manipulation |
 | 3132 | [Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) | 🟡 Medium | [C++](problems/3132.md) | sorting |
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | [C++](problems/3133.md) | bit-manipulation-and |
-| 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 Easy | [C++](problems/3210.md) | string |
 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | [C++](problems/3216.md) | greedy |
 | 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | [C++](problems/3232.md) | math-game-theory |
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | [C++](problems/3280.md) | string |

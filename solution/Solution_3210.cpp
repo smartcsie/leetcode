@@ -16,11 +16,11 @@ class Solution {
 public:
     string getEncryptedString(string s, int k) {
         int n = s.size();
+        string ans;
         k %= n;
-        string t(n, ' ');
-        for(int i = 0 ; i < n; i++) {
-            t[i] = s[(i+k) % n];
+        for(int i = 0; i < n; i++) {
+            ans.push_back(s[(i + k) % n]);
         }
-        return t;
+        return ans;
     }
 };
