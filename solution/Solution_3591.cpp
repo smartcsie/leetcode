@@ -12,24 +12,22 @@
  */
 
 class Solution {
+private:
+    bool isPrime(int n){
+        if(n < 2) return false;
+        if(n == 2 || n == 3) return true;
+        if(n % 2 == 0 || n % 3 == 0) return false; 
+        for(int i = 5; i * i < n; i += 6) {
+            if(n % i == 0 || n % (i + 2) == 0) return false;
+        }
+        return true;
+    }
 public:
     bool checkPrimeFrequency(vector<int>& nums) {
-        int n = 100;
-        vector<bool> isPrime(n + 1, true);
-        isPrime[0] = isPrime[1] = false;
-        for (int p = 2; p * p <= n; ++p) {
-            if (isPrime[p]) {
-                for (int i = p * p; i <= n; i += p) {
-                    isPrime[i] = false;
-                }
-            }
-        }
-        int seen[101] = {false};
-        for(const int& num : nums) {
-            seen[num]++;
-        }
-        for(const int& num : nums) {
-            if(isPrime[seen[num]]) return true;
+        vector<int> counts(101);
+        for(const int& x : nums) counts[x]++;
+        for(int i = 0; i <= 100; i++) {
+            if(counts[i] && isPrime(counts[i])) return true;
         }
         return false;
     }
