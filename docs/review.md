@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：472 題　🟠 再練習：134 題　🟡 練習過：7 題　🟢 熟練：251 題　⚪ 未標記：1 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：471 題　🟠 再練習：135 題　🟡 練習過：7 題　🟢 熟練：251 題　⚪ 未標記：1 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -66,7 +66,7 @@
 | [sorting](topics/sorting.md) | 26 | 2 | 0 | 3 | 0 | 31 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 7 | 1 | 0 | 7 | 0 | 15 |
+| [stack](topics/stack.md) | 6 | 2 | 0 | 7 | 0 | 15 |
 | [string](topics/string.md) | 16 | 5 | 1 | 20 | 0 | 42 |
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 0 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 479 個解法標記為生疏，建議找時間重新練習。
+目前共有 478 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -412,7 +412,6 @@
 | 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 Medium | [C++](problems/1529.md) | greedy |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 Medium | [C++](problems/1530.md) | tree-dfs-path |
 | 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | 🟢 Easy | [C++](problems/1539.md) | binary-search-build-in |
-| 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 Easy | [C++](problems/1544.md) | stack |
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | [C++](problems/1545.md) | bit-manipulation |
 | 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | [C++](problems/1567.md) | dynamic-programming |
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | [C++](problems/1576.md) | greedy |
