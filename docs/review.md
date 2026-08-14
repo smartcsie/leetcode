@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：481 題　🟠 再練習：135 題　🟡 練習過：3 題　🟢 熟練：245 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：481 題　🟠 再練習：134 題　🟡 練習過：4 題　🟢 熟練：245 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -42,7 +42,7 @@
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 6 | 5 | 0 | 14 | 0 | 25 |
 | [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 8 | 0 | 18 |
-| [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 2 | 0 | 11 | 0 | 14 |
+| [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 1 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 5 | 0 | 4 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 10 | 0 | 19 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 9 |

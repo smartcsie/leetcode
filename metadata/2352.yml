@@ -12,4 +12,5 @@ solutions:
   - hash-table-intersection
   time: O(N³logN) 或 O(N²logN)*
   space: O(N²)
-  familiarity: 再練習
+  familiarity: 練習過
+  note: '> 使用 std::vector<int>當 map的key'
