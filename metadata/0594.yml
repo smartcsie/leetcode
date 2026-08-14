@@ -1,0 +1,12 @@
+number: 594
+title: Longest Harmonious Subsequence
+url: https://leetcode.com/problems/longest-harmonious-subsequence/
+solutions:
+- file: Solution_0594.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table Existence
+  topics:
+  - hash-table-existence
+  time: O(N)
+  space: O(N)

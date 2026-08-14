@@ -2,8 +2,8 @@
 
 ## 📊 總覽
 
-- **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：473 題　🟠 再練習：133 題　🟡 練習過：7 題　🟢 熟練：251 題　⚪ 未標記：0 題
+- **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
+- **目前收錄總題目數：** 865 題　🔴 生疏：473 題　🟠 再練習：133 題　🟡 練習過：7 題　🟢 熟練：251 題　⚪ 未標記：1 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -41,7 +41,7 @@
 | [greedy](topics/greedy.md) | 31 | 7 | 0 | 3 | 0 | 41 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 6 | 5 | 0 | 14 | 0 | 25 |
-| [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 8 | 0 | 18 |
+| [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 8 | 1 | 19 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 1 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 4 | 1 | 4 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 12 | 0 | 21 |
