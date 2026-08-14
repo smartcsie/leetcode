@@ -5,14 +5,11 @@ solutions:
 - file: Solution_2443.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Digit Decomposition
   - Simulation
   topics:
   - math-digit-decomposition
   time: O(NlogN)
   space: O(1)
-  note: '> [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/)
-    <br>
-
-    > 實作一個base 10的reverse，for loop i，從 num/2 ~ num， i + reverse(i) 則 return true<br>'
-  familiarity: 生疏
+  familiarity: 再練習
+  note: '> 注意 for(int x = num / 2; x <= num; x++)<br>'
