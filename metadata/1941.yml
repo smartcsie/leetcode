@@ -5,13 +5,14 @@ solutions:
 - file: Solution_1941.cpp
   difficulty: 🟢 Easy
   tags:
+  - Hash Table Uniqueness
   - Hash Table
-  - String
   - Counting
   topics:
-  - string-substring
+  - hash-table-uniqueness
   time: O(N)
   space: O(1)
+  familiarity: 熟練
   note: '> [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences)
     <br>
 
@@ -26,4 +27,3 @@ solutions:
 
 
     <br><br>'
-  familiarity: 生疏

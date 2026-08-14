@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 862 / 4018 題（最後更新：2026-08-11 22:40）
-- **目前收錄總題目數：** 864 題　🔴 生疏：477 題　🟠 再練習：134 題　🟡 練習過：6 題　🟢 熟練：247 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 864 題　🔴 生疏：476 題　🟠 再練習：134 題　🟡 練習過：6 題　🟢 熟練：248 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -44,7 +44,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 8 | 0 | 18 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 1 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 4 | 1 | 4 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 10 | 0 | 19 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 11 | 0 | 20 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
@@ -71,7 +71,7 @@
 | [string-character-classification](topics/string-character-classification.md) | 4 | 2 | 0 | 16 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [string-substring](topics/string-substring.md) | 5 | 0 | 0 | 0 | 0 | 5 |
+| [string-substring](topics/string-substring.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 11 | 0 | 0 | 3 | 0 | 14 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 484 個解法標記為生疏，建議找時間重新練習。
+目前共有 483 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -449,7 +449,6 @@
 | 1930 | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | 🟡 Medium | [C++](problems/1930.md) | binary-search |
 | 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 Easy | [C++](problems/1935.md) | string-character-classification |
 | 1936 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | [C++](problems/1936.md) | greedy |
-| 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 Easy | [C++](problems/1941.md) | string-substring |
 | 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 Easy | [C++](problems/1945.md) | string |
 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | [C++](problems/1963.md) | stack |
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | [C++](problems/1984.md) | fixed-size-sliding-window |
