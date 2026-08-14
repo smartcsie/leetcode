@@ -11,7 +11,7 @@ solutions:
   time: O(logₖN)
   space: O(1)
   familiarity: 熟練
-  note: '> [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k)<br>
+  note: '> [Base]
 
     > K進制的位數和，一直 % k加到sum，while(n > 0) {  sum = n % k + sum; n /= k; }  return sum
     <br>'
