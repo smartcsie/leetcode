@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：466 題　🟠 再練習：136 題　🟡 練習過：8 題　🟢 熟練：254 題　⚪ 未標記：1 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：465 題　🟠 再練習：137 題　🟡 練習過：8 題　🟢 熟練：254 題　⚪ 未標記：1 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -17,7 +17,7 @@
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 3 | 7 | 0 | 16 | 0 | 26 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 3 | 0 | 4 |
-| [array-negative-marking](topics/array-negative-marking.md) | 4 | 1 | 0 | 0 | 0 | 5 |
+| [array-negative-marking](topics/array-negative-marking.md) | 3 | 2 | 0 | 0 | 0 | 5 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 19 |
 | [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 0 | 11 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 473 個解法標記為生疏，建議找時間重新練習。
+目前共有 472 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -252,7 +252,6 @@
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | [C++](problems/0437.md) | tree-dfs-path |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium | [C++](problems/0443.md) | two-pointers-same |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | [C++](problems/0445.md) | stack |
-| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 🟢 Easy | [C++](problems/0448.md) | array-negative-marking |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | [C++](problems/0451.md) | sorting |
 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 Easy | [C++](problems/0459.md) | string-kmp |
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | [C++](problems/0474.md) | knapsack-problem |
