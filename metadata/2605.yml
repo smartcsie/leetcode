@@ -11,7 +11,7 @@ solutions:
   - bit-manipulation-mask
   time: O(N+M)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 練習過
   note: '> [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)
     <br>
 
@@ -64,7 +64,7 @@ solutions:
   - bit-manipulation
   time: O(N+M)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 練習過
 - file: Solution_2605_3.cpp
   difficulty: 🟢 Easy
   tags:
