@@ -11,7 +11,16 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 練習過
   related:
   - 27
   - 2460
+- file: Solution_0283_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Fast Slow Pointers
+  topics:
+  - fast-slow-pointers
+  time: ''
+  space: ''
+  familiarity: 練習過
