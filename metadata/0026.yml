@@ -12,3 +12,20 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 熟練
+  related:
+  - 27
+  - 283
+  - 2460
+- file: Solution_0026_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Fast Slow Pointers
+  topics:
+  - fast-slow-pointers
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
+  related:
+  - 27
+  - 283
+  - 2460
