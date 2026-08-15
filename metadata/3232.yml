@@ -11,8 +11,8 @@ solutions:
   - math-game-theory
   time: O(N)
   space: O(1)
+  familiarity: 再練習
   note: '> [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/)
     <br>
 
     > Alice可以選個位數或雙位數，只有一種狀況，Alice不可能贏，個位數和和雙位數和相等<br>'
-  familiarity: 生疏
