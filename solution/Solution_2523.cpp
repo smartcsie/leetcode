@@ -14,32 +14,28 @@
 class Solution {
 public:
     vector<int> closestPrimes(int left, int right) {
-        bitset<1000001> isPrime;
-        isPrime.set();
-        isPrime.reset(0);
-        isPrime.reset(1);
+        vector<bool> isPrime(right + 1, true);
+        isPrime[0] = isPrime[1] = false;
         for(int p = 2; p * p <= right; p++) {
             if(isPrime[p]) {
                 for(int i = p * p; i <= right; i += p) {
-                    isPrime.reset(i);
+                    isPrime[i] = false;
                 }
             }
         }
-        vector<int> result = {-1, -1};
-        int prevPrime = -1;
-        int minDiff = INT_MAX;
-        for(int i = left; i <= right; i++) {
-            if(isPrime[i]) {
-                if(prevPrime != -1) {
-                    int diff = i - prevPrime;
-                    if(diff < minDiff) {
-                        minDiff = diff;
-                        result = {prevPrime, i};
+        int prev = -1;
+        vector<int> gap = {0, INT_MAX};
+        for(int x = left; x <= right; x++) {
+            if(isPrime[x]) {
+                if(prev != -1) {
+                    if((x - prev) < (gap[1] - gap[0])) {
+                        gap = {prev, x};
                     }
                 }
-                prevPrime = i;
+                prev = x;
             }
         }
-        return result;
+        if(gap[1] != INT_MAX) return gap;
+        return { -1, -1};
     }
 };
