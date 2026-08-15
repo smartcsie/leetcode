@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：452 題　🟠 再練習：142 題　🟡 練習過：8 題　🟣 易忘：7 題　🟢 熟練：256 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：451 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：7 題　🟢 熟練：256 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -46,7 +46,7 @@
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 4 | 1 | 0 | 4 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 0 | 12 | 0 | 21 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
-| [linked-list](topics/linked-list.md) | 12 | 3 | 0 | 0 | 0 | 0 | 15 |
+| [linked-list](topics/linked-list.md) | 11 | 4 | 0 | 0 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 14 | 16 | 0 | 0 | 10 | 0 | 40 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 459 個解法標記為生疏，建議找時間重新練習。
+目前共有 458 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -148,7 +148,6 @@
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium | [C++](problems/0080.md) | fast-slow-pointers |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟡 Medium | [C++](problems/0081.md) | binary-search |
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | 🟡 Medium | [C++](problems/0082.md) | linked-list |
-| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 🟢 Easy | [C++](problems/0083.md) | linked-list |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | [C++](problems/0086.md) | two-pointers-same |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 Easy | [C++](problems/0088.md) | two-pointers-partition |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | [C++](problems/0090.md) | backtracking-combination |

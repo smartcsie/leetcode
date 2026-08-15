@@ -21,9 +21,7 @@ public:
         ListNode* cur = head;
         while(cur && cur->next) {
             if(cur->val == cur->next->val) {
-                ListNode* temp = cur->next;
                 cur->next = cur->next->next;
-                delete temp;
             } else {
                 cur = cur->next;
             }
