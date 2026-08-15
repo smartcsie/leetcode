@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：446 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：11 題　🟢 熟練：257 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：445 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：12 題　🟢 熟練：257 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -25,7 +25,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 10 | 6 | 0 | 0 | 1 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 8 | 8 | 3 | 0 | 15 | 0 | 34 |
+| [bit-manipulation](topics/bit-manipulation.md) | 7 | 8 | 3 | 1 | 15 | 0 | 34 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 0 | 0 | 3 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 0 | 0 | 1 | 0 | 5 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 453 個解法標記為生疏，建議找時間重新練習。
+目前共有 452 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -236,7 +236,6 @@
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | [C++](problems/0378.md) | binary-search |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | [C++](problems/0392.md) | dynamic-programming |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | [C++](problems/0396.md) | math |
-| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | [C++](problems/0401.md) | bit-manipulation |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | [C++](problems/0404.md) | tree-dfs-path |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | [C++](problems/0405.md) | math-digit-decomposition |
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | 🟢 Easy | [C++](problems/0409.md) | greedy |
@@ -549,12 +548,13 @@
 
 ---
 
-目前共有 11 個解法標記為易忘，建議面試前重點複習。
+目前共有 12 個解法標記為易忘，建議面試前重點複習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | [C++](problems/0292.md) | math-game-theory |
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | [C++](problems/0397.md) | greedy |
+| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | [C++](problems/0401.md) | bit-manipulation |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | [C++](problems/0633.md) | math |
 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | [C++](problems/0810.md) | math-game-theory |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | [C++](problems/0970.md) | math |
