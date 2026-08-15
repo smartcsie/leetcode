@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：462 題　🟠 再練習：140 題　🟡 練習過：8 題　🟢 熟練：255 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：461 題　🟠 再練習：141 題　🟡 練習過：8 題　🟢 熟練：255 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -52,7 +52,7 @@
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 20 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
-| [math-game-theory](topics/math-game-theory.md) | 2 | 4 | 0 | 0 | 0 | 6 |
+| [math-game-theory](topics/math-game-theory.md) | 1 | 5 | 0 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 5 | 1 | 0 | 3 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 1 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 2 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 469 個解法標記為生疏，建議找時間重新練習。
+目前共有 468 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -311,7 +311,6 @@
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | [C++](problems/0784.md) | backtracking-combination |
 | 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | [C++](problems/0786.md) | priority-queue |
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | [C++](problems/0796.md) | string-substring |
-| 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | [C++](problems/0810.md) | math-game-theory |
 | 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | [C++](problems/0833.md) | string-substring |
 | 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | 🟡 Medium | [C++](problems/0836.md) | math-geometry |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | [C++](problems/0844.md) | two-pointers-same |

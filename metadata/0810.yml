@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0810.cpp
   difficulty: 🔴 Hard
   tags:
-  - Math
+  - Math Game Theory
   - Game Theory
   topics:
   - math-game-theory
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
   is_best: true
