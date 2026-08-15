@@ -32,11 +32,10 @@
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | Greedy, String | [C++](../problems/3114.md) | O(1) | O(1) |
 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | Greedy, String | [C++](../problems/3216.md) | O(N) | O(1) |
 
-## 🟠 再練習（9）
+## 🟠 再練習（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](../problems/0397.md) | O(1) |  |
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟢 Easy | Greedy | [C++](../problems/0453.md) | O(N) | O(1) |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Greedy, Greedy | [C++](../problems/0624.md) | O(N) | O(1) |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy | [C++](../problems/0670.md) | O(N) | O(1) |
@@ -50,10 +49,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（1）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](../problems/0397.md) | O(1) |  |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy, Math, Brainteaser | [C++](../problems/2745.md) | O(1) | O(1) |
 
 ## 🟢 熟悉（3）
