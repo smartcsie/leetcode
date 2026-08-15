@@ -1,6 +1,6 @@
 # string
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,6 @@
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | Simulation, String | [C++](../problems/2243.md) | O(N*logN) | O(N) |
 | 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 Easy | Simulation, Recursion | [C++](../problems/3304.md) | O(K) | O(K) |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String, Pattern Matching | [C++](../problems/3407.md) | O(N+M) | O(M) |
-| 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | String, Block-Skipping | [C++](../problems/3456.md) | O(N) | O(1) |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) |
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 Easy | String, Simulation, Math | [C++](../problems/3986.md) | O(1) | O(1) |
 

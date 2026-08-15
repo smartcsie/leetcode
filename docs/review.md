@@ -34,7 +34,7 @@
 | [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 0 | 0 | 31 |
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 6 | 1 | 1 | 0 | 5 | 0 | 13 |
-| [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
+| [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -67,7 +67,7 @@
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 6 | 2 | 0 | 0 | 7 | 0 | 15 |
-| [string](topics/string.md) | 14 | 6 | 1 | 1 | 20 | 0 | 42 |
+| [string](topics/string.md) | 13 | 6 | 1 | 1 | 20 | 0 | 41 |
 | [string-character-classification](topics/string-character-classification.md) | 1 | 3 | 0 | 0 | 18 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -501,7 +501,7 @@
 | 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | [C++](problems/3392.md) | fixed-size-sliding-window |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | [C++](problems/3407.md) | string |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | [C++](problems/3432.md) | array-prefix-sum |
-| 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | [C++](problems/3456.md) | string |
+| 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | [C++](problems/3456.md) | fixed-size-sliding-window |
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 Easy | [C++](problems/3461.md) | math-digit-decomposition |
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | [C++](problems/3487.md) | hash-table-uniqueness |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | [C++](problems/3512.md) | array-linear-scan |

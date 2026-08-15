@@ -5,10 +5,10 @@ solutions:
 - file: Solution_3456.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Fixed Size Sliding Window
   - Block-Skipping
   topics:
-  - string
+  - fixed-size-sliding-window
   time: O(N)
   space: O(1)
   familiarity: 生疏

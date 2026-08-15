@@ -1,6 +1,6 @@
 # fixed-size-sliding-window
 
-## 🔴 生疏（11）
+## 🔴 生疏（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,6 +15,7 @@
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | Sorting, Sliding Window | [C++](../problems/1984.md) | O(NlogN) | O(1) |
 | 3090 | [Maximum Length Substring](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 Easy | Sliding Window | [C++](../problems/3090.md) | O(N) | O(1) |
 | 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | Array, Sliding Window, Simulation | [C++](../problems/3392.md) | O(N) | O(1) |
+| 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | Fixed Size Sliding Window, Block-Skipping | [C++](../problems/3456.md) | O(N) | O(1) |
 
 ## 🟠 再練習（0）
 
