@@ -11,6 +11,7 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
+  familiarity: 再練習
   note: '> [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/)<br>
 
     > 前後兩個character找到相同parity且前面character比較大，做swap<br>
@@ -27,4 +28,3 @@ solutions:
     > &emsp;&emsp;&emsp;&emsp;**}** <br>
 
     > **}** <br>'
-  familiarity: 生疏
