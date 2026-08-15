@@ -24,15 +24,13 @@ class Solution {
 public:
     ListNode* insertGreatestCommonDivisors(ListNode* head) {
         ListNode* cur = head;
-        while(cur) {
-            ListNode* next = cur->next;
-            if(next) {
-                int gcdVal = gcd(cur->val, next->val);
-                ListNode* gcdNode= new ListNode(gcdVal, next);
-                cur->next = gcdNode;
-            }
-            cur = next;
+        while(cur && cur->next) {
+            int _gcd = gcd(cur->val, cur->next->val);
+            ListNode *newNode = new ListNode(_gcd, cur->next);
+            cur->next = newNode;
+            cur = cur->next->next;
         }
         return head;
+    }
     }
 };
