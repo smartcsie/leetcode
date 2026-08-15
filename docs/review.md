@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：444 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：13 題　🟢 熟練：257 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：443 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：14 題　🟢 熟練：257 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -48,7 +48,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 11 | 16 | 0 | 3 | 10 | 0 | 40 |
+| [math](topics/math.md) | 10 | 16 | 0 | 4 | 10 | 0 | 40 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 451 個解法標記為生疏，建議找時間重新練習。
+目前共有 450 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -123,7 +123,6 @@
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | [C++](problems/0043.md) | string |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | [C++](problems/0046.md) | backtracking-permutation |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | [C++](problems/0047.md) | backtracking-permutation |
-| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | [C++](problems/0050.md) | math |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | [C++](problems/0053.md) | dynamic-programming-kadane-algorithm |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | [C++](problems/0054.md) | array |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | [C++](problems/0055.md) | greedy |
@@ -547,10 +546,11 @@
 
 ---
 
-目前共有 13 個解法標記為易忘，建議面試前重點複習。
+目前共有 14 個解法標記為易忘，建議面試前重點複習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | [C++](problems/0050.md) | math |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | [C++](problems/0292.md) | math-game-theory |
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | [C++](problems/0397.md) | greedy |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | [C++](problems/0401.md) | bit-manipulation |
