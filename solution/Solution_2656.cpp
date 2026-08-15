@@ -23,10 +23,8 @@
 class Solution {
 public:
     int maximizeSum(std::vector<int>& nums, int k) {
-        // 尋找陣列中的最大值
-        int mx = *std::max_element(nums.begin(), nums.end());
-        
-        // 利用等差級數公式直接計算總和：mx 被加了 k 次，加上 0 到 (k-1) 的遞增量
-        return mx * k + k * (k - 1) / 2;
+        int mx = 0;
+        for(const int& x : nums) mx = max(mx, x);
+        return (mx + mx + k - 1) * k / 2;
     }
 };
