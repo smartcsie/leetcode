@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（6）
+## 🔴 生疏（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](../problems/0396.md) | O(N) | O(1) |
 | 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 Medium | Array, Simulation, Greedy | [C++](../problems/1375.md) | O(N) | O(1) |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | Math, Enumeration | [C++](../problems/2310.md) | O(10) | O(1) |
-| 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | Math, Array | [C++](../problems/2455.md) | O(N) | O(1) |
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](../problems/2894.md) | O(1) | O(1) |
 
 ## 🟠 再練習（14）
@@ -46,7 +45,7 @@
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math, Modulo | [C++](../problems/1018.md) | O(N) | O(1) |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | Math, Zeller's Congruence | [C++](../problems/1185.md) | O(1) | O(1) |
 
-## 🟢 熟悉（13）
+## 🟢 熟悉（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -60,6 +59,7 @@
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math, String | [C++](../problems/1980.md) | O(N²) | O(N) |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](../problems/2119.md) | O(1) | O(1) |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](../problems/2177.md) | O(1) | O(1) |
+| 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | Math, Array | [C++](../problems/2455.md) | O(N) | O(1) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](../problems/2469.md) | O(1) | O(1) |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 Easy | Math, Brute Force | [C++](../problems/2652.md) | O(N) | O(1) |
 | 3131 | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 Easy | Math, Array | [C++](../problems/3131.md) | O(N) | O(1) |

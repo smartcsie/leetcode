@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：433 題　🟠 再練習：145 題　🟡 練習過：9 題　🟣 易忘：19 題　🟢 熟練：259 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：432 題　🟠 再練習：145 題　🟡 練習過：9 題　🟣 易忘：19 題　🟢 熟練：260 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -48,7 +48,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 6 | 15 | 0 | 7 | 10 | 0 | 38 |
+| [math](topics/math.md) | 5 | 15 | 0 | 7 | 11 | 0 | 38 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 440 個解法標記為生疏，建議找時間重新練習。
+目前共有 439 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -459,7 +459,6 @@
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | [C++](problems/2425.md) | bit-manipulation-xor |
 | 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | [C++](problems/2429.md) | bit-manipulation-xor |
 | 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 Medium | [C++](problems/2433.md) | bit-manipulation-xor |
-| 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | [C++](problems/2455.md) | math |
 | 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | 🟡 Medium | [C++](problems/2476.md) | binary-search-build-in |
 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 Medium | [C++](problems/2487.md) | linked-list |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 Medium | [C++](problems/2491.md) | sorting |

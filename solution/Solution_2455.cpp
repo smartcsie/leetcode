@@ -17,16 +17,12 @@ public:
     int averageValue(std::vector<int>& nums) {
         int count = 0;
         int sum = 0;
-        
-        for (int num : nums) {
-            // 同時被 2 和 3 整除 <=> 被 6 整除
-            if (num % 6 == 0) {
-                sum += num;
+        for(const int& x : nums) {
+            if(x % 6 == 0) {
+                sum += x;
                 count++;
             }
         }
-        
-        // 若 count 為 0 則避免除以 0 的錯誤
-        return (count == 0) ? 0 : (sum / count);
+        return count == 0 ? 0 : sum / count;
     }
 };
