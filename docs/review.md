@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：461 題　🟠 再練習：141 題　🟡 練習過：8 題　🟢 熟練：255 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：460 題　🟠 再練習：142 題　🟡 練習過：8 題　🟢 熟練：255 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -76,7 +76,7 @@
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 11 | 0 | 0 | 3 | 0 | 14 |
 | [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 4 | 2 | 0 | 10 | 0 | 16 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 31 | 3 | 0 | 6 | 0 | 40 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 30 | 4 | 0 | 6 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 9 | 1 | 0 | 6 | 0 | 16 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 468 個解法標記為生疏，建議找時間重新練習。
+目前共有 467 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -163,7 +163,6 @@
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | [C++](problems/0108.md) | binary-search-tree |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 Medium | [C++](problems/0109.md) | binary-search-tree |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 Easy | [C++](problems/0112.md) | tree-dfs-path |
-| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 Medium | [C++](problems/0113.md) | tree-dfs-path |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | [C++](problems/0114.md) | tree-dfs-path |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | [C++](problems/0115.md) | dynamic-programming |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | [C++](problems/0116.md) | tree |
