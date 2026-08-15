@@ -10,9 +10,10 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  note: '> [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string)<br>
+  familiarity: 熟練
+  note: '> **for(int i = 0 ; i < s.size(); i++) if(i % 2 == s[i]-''0'') count++;**
+    <br>
 
-    > **for(int i = 0 ; i < s.size(); i++) if(i % 2 == s[i]-''0'') count++;** <br>
+    > 上面是算 01010101 ...需要修改的bit數<br>
 
-    > **return min(count, static_cast<int>(s.size()) - count);** <br>'
-  familiarity: 生疏
+    > min(static_cast<int>(s.size()) - count, count)是抓 0101...和 1010...改比較少的為答案'

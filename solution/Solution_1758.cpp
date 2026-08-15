@@ -10,16 +10,10 @@
 class Solution {
 public:
     int minOperations(string s) {
-        int startOne = 0;
-        for(int i =0 ; i < s.size(); i++) {
-            if(i % 2 ==0  && s[i] != '1') {
-                startOne++;
-            } if(i % 2 ==1 &&　s[i] != '0') {
-                startOne++;
-            }
+        int count = 0;
+        for(int i = 0; i < s.size(); i++) {
+            if(i % 2 == s[i] - '0') count++;
         }
-        // 變數 startOne 是變成 "1010..." 需要的次數
-        // 變數 (s.size() - startOne) 則是變成 "0101..." 的次數
-        return min(startOne, (int) s.size() - startOne);
+        return min(static_cast<int>(s.size()) - count, count);
     }
 };
