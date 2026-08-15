@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：449 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：8 題　🟢 熟練：257 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：448 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：9 題　🟢 熟練：257 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -48,7 +48,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 13 | 16 | 0 | 1 | 10 | 0 | 40 |
+| [math](topics/math.md) | 12 | 16 | 0 | 2 | 10 | 0 | 40 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 456 個解法標記為生疏，建議找時間重新練習。
+目前共有 455 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -277,7 +277,6 @@
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | [C++](problems/0606.md) | tree-dfs-path |
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | [C++](problems/0611.md) | two-pointers-opposite |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | [C++](problems/0617.md) | tree-dfs-path |
-| 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | [C++](problems/0633.md) | math |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | [C++](problems/0643.md) | fixed-size-sliding-window |
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | [C++](problems/0647.md) | two-pointers-center-expansion |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | [C++](problems/0648.md) | string |
@@ -552,12 +551,13 @@
 
 ---
 
-目前共有 8 個解法標記為易忘，建議面試前重點複習。
+目前共有 9 個解法標記為易忘，建議面試前重點複習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | [C++](problems/0292.md) | math-game-theory |
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | [C++](problems/0397.md) | greedy |
+| 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | [C++](problems/0633.md) | math |
 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | [C++](problems/0810.md) | math-game-theory |
 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | [C++](problems/1025.md) | math-game-theory |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | [C++](problems/1185.md) | math |
