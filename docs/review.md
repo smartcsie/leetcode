@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：429 題　🟠 再練習：144 題　🟡 練習過：10 題　🟣 易忘：20 題　🟢 熟練：262 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：429 題　🟠 再練習：143 題　🟡 練習過：11 題　🟣 易忘：20 題　🟢 熟練：262 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -28,7 +28,7 @@
 | [bit-manipulation](topics/bit-manipulation.md) | 6 | 8 | 3 | 2 | 15 | 0 | 34 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 0 | 0 | 3 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
-| [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 0 | 0 | 1 | 0 | 5 |
+| [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 0 | 1 | 0 | 1 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 0 | 0 | 2 | 0 | 18 |
 | [design](topics/design.md) | 5 | 1 | 0 | 0 | 0 | 0 | 6 |
 | [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 0 | 0 | 31 |

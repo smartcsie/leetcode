@@ -11,5 +11,5 @@ solutions:
   - bit-manipulation-or
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 練習過
   note: '> travsal nums，至少出現兩個even number，return true<br>'
