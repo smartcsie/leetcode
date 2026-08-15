@@ -19,6 +19,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium | Hash Table Intersection, Hash Map, Matrix Simulation | [C++](../problems/2352.md) | O(N³logN) 或 O(N²logN)* | O(N²) |
 
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
 ## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |

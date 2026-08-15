@@ -24,6 +24,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math Prime, Sieve | [C++](../problems/0204.md) | O(NloglogN) | O(N) |
 
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
 ## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |

@@ -1,91 +1,91 @@
-# 📝 複習清單（生疏）
+# 📝 複習清單（生疏／易忘）
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：456 題　🟠 再練習：146 題　🟡 練習過：8 題　🟢 熟練：255 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：456 題　🟠 再練習：145 題　🟡 練習過：8 題　🟣 易忘：1 題　🟢 熟練：255 題　⚪ 未標記：0 題
 
-### 各分類生疏 / 再練習 / 練習過 / 熟練統計
+### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
-| 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟢 熟練 | ⚪ 未標記 | 總數 |
-| --- | --- | --- | --- | --- | --- | --- |
-| [2d-array](topics/2d-array.md) | 0 | 8 | 0 | 9 | 0 | 17 |
-| [array](topics/array.md) | 5 | 9 | 0 | 14 | 0 | 28 |
-| [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 0 | 5 | 0 | 9 |
-| [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
-| [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 3 | 7 | 0 | 16 | 0 | 26 |
-| [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 3 | 0 | 4 |
-| [array-negative-marking](topics/array-negative-marking.md) | 2 | 4 | 0 | 0 | 0 | 6 |
-| [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 19 |
-| [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 0 | 11 |
-| [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [binary-search](topics/binary-search.md) | 20 | 0 | 0 | 1 | 0 | 21 |
-| [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [binary-search-tree](topics/binary-search-tree.md) | 10 | 6 | 0 | 1 | 0 | 17 |
-| [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 8 | 8 | 3 | 15 | 0 | 34 |
-| [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 0 | 3 | 0 | 9 |
-| [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 1 | 0 | 3 |
-| [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 0 | 1 | 0 | 5 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 0 | 2 | 0 | 18 |
-| [design](topics/design.md) | 5 | 1 | 0 | 0 | 0 | 6 |
-| [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 0 | 31 |
-| [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 6 | 1 | 1 | 5 | 0 | 13 |
-| [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |
-| [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 27 | 10 | 0 | 3 | 0 | 40 |
-| [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 2 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 6 | 5 | 0 | 14 | 0 | 25 |
-| [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 9 | 0 | 19 |
-| [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 1 | 11 | 0 | 14 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 4 | 1 | 4 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 12 | 0 | 21 |
-| [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 9 |
-| [linked-list](topics/linked-list.md) | 12 | 3 | 0 | 0 | 0 | 15 |
-| [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 14 | 16 | 0 | 10 | 0 | 40 |
-| [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 20 | 0 | 41 |
-| [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
-| [math-game-theory](topics/math-game-theory.md) | 1 | 5 | 0 | 0 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 5 | 1 | 0 | 3 | 0 | 9 |
-| [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 1 | 0 | 2 |
-| [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 2 |
-| [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [math-prime](topics/math-prime.md) | 6 | 2 | 1 | 4 | 0 | 13 |
-| [math-simulation](topics/math-simulation.md) | 1 | 1 | 0 | 3 | 0 | 5 |
-| [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [priority-queue](topics/priority-queue.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [quick-select](topics/quick-select.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 26 | 3 | 0 | 3 | 0 | 32 |
-| [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 6 | 2 | 0 | 7 | 0 | 15 |
-| [string](topics/string.md) | 16 | 5 | 1 | 20 | 0 | 42 |
-| [string-character-classification](topics/string-character-classification.md) | 2 | 3 | 0 | 17 | 0 | 22 |
-| [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [string-substring](topics/string-substring.md) | 3 | 0 | 0 | 0 | 0 | 3 |
-| [string-substring-enumeration](topics/string-substring-enumeration.md) | 3 | 0 | 0 | 0 | 0 | 3 |
-| [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [tree](topics/tree.md) | 11 | 0 | 0 | 3 | 0 | 14 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 4 | 2 | 0 | 10 | 0 | 16 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 30 | 4 | 0 | 6 | 0 | 40 |
-| [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 9 | 1 | 0 | 6 | 0 | 16 |
-| [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 15 | 2 | 0 | 3 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 4 | 0 | 10 | 0 | 14 |
-| [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 10 |
+| 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [2d-array](topics/2d-array.md) | 0 | 8 | 0 | 0 | 9 | 0 | 17 |
+| [array](topics/array.md) | 5 | 9 | 0 | 0 | 14 | 0 | 28 |
+| [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 0 | 0 | 5 | 0 | 9 |
+| [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
+| [array-linear-scan](topics/array-linear-scan.md) | 3 | 7 | 0 | 0 | 16 | 0 | 26 |
+| [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
+| [array-negative-marking](topics/array-negative-marking.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
+| [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 0 | 19 |
+| [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
+| [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [binary-search](topics/binary-search.md) | 20 | 0 | 0 | 0 | 1 | 0 | 21 |
+| [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
+| [binary-search-tree](topics/binary-search-tree.md) | 10 | 6 | 0 | 0 | 1 | 0 | 17 |
+| [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
+| [bit-manipulation](topics/bit-manipulation.md) | 8 | 8 | 3 | 0 | 15 | 0 | 34 |
+| [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 0 | 0 | 3 | 0 | 9 |
+| [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
+| [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 0 | 0 | 1 | 0 | 5 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 0 | 0 | 2 | 0 | 18 |
+| [design](topics/design.md) | 5 | 1 | 0 | 0 | 0 | 0 | 6 |
+| [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 0 | 0 | 31 |
+| [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 6 | 1 | 1 | 0 | 5 | 0 | 13 |
+| [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
+| [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [greedy](topics/greedy.md) | 27 | 9 | 0 | 1 | 3 | 0 | 40 |
+| [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 0 | 2 | 0 | 4 |
+| [hash-table-counting](topics/hash-table-counting.md) | 6 | 5 | 0 | 0 | 14 | 0 | 25 |
+| [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 0 | 9 | 0 | 19 |
+| [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 1 | 0 | 11 | 0 | 14 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 4 | 1 | 0 | 4 | 0 | 9 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 0 | 12 | 0 | 21 |
+| [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
+| [linked-list](topics/linked-list.md) | 12 | 3 | 0 | 0 | 0 | 0 | 15 |
+| [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [math](topics/math.md) | 14 | 16 | 0 | 0 | 10 | 0 | 40 |
+| [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
+| [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
+| [math-game-theory](topics/math-game-theory.md) | 1 | 5 | 0 | 0 | 0 | 0 | 6 |
+| [math-gcd](topics/math-gcd.md) | 5 | 1 | 0 | 0 | 3 | 0 | 9 |
+| [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
+| [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
+| [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [math-prime](topics/math-prime.md) | 6 | 2 | 1 | 0 | 4 | 0 | 13 |
+| [math-simulation](topics/math-simulation.md) | 1 | 1 | 0 | 0 | 3 | 0 | 5 |
+| [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
+| [priority-queue](topics/priority-queue.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
+| [quick-select](topics/quick-select.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
+| [sorting](topics/sorting.md) | 26 | 3 | 0 | 0 | 3 | 0 | 32 |
+| [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [stack](topics/stack.md) | 6 | 2 | 0 | 0 | 7 | 0 | 15 |
+| [string](topics/string.md) | 16 | 5 | 1 | 0 | 20 | 0 | 42 |
+| [string-character-classification](topics/string-character-classification.md) | 2 | 3 | 0 | 0 | 17 | 0 | 22 |
+| [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [string-substring](topics/string-substring.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| [string-substring-enumeration](topics/string-substring-enumeration.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [tree](topics/tree.md) | 11 | 0 | 0 | 0 | 3 | 0 | 14 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 4 | 2 | 0 | 0 | 10 | 0 | 16 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 30 | 4 | 0 | 0 | 6 | 0 | 40 |
+| [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 9 | 1 | 0 | 0 | 6 | 0 | 16 |
+| [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| [two-pointers-same](topics/two-pointers-same.md) | 15 | 2 | 0 | 0 | 3 | 0 | 20 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 4 | 0 | 0 | 10 | 0 | 14 |
+| [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 0 | 10 |
 
 ---
 
@@ -556,3 +556,11 @@
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | [C++](problems/3969.md) | array |
 | 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 Easy | [C++](problems/3982.md) | math-digit-decomposition |
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 Easy | [C++](problems/3986.md) | string |
+
+---
+
+目前共有 1 個解法標記為易忘，建議面試前重點複習。
+
+| # | 題目 | 難度 | 解法檔案 | 分類 |
+| --- | --- | --- | --- | --- |
+| 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | [C++](problems/2745.md) | greedy |

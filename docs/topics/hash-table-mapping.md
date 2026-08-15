@@ -19,6 +19,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 Easy | Hash Table Mapping, Hash Table | [C++](../problems/0205.md) | O(N) | O(1) |
 
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
 ## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |

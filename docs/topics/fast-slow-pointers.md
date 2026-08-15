@@ -24,6 +24,10 @@
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0283.md) | O(N) | O(1) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Fast Slow Pointers | [C++](../problems/0283.md) |  |  |
 
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
 ## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |

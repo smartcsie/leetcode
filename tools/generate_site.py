@@ -162,6 +162,8 @@ def build_problem_page(problem, solution_dir):
             familiarity_badge = '　**熟悉度:** 🟠 再練習'
         elif familiarity == '生疏':
             familiarity_badge = '　**熟悉度:** 🔴 生疏'
+        elif familiarity == '易忘':
+            familiarity_badge = '　**熟悉度:** 🟣 易忘'
 
         best_badge = '　🏆 **最佳解**' if sol.get('is_best') else ''
 
@@ -247,7 +249,8 @@ def build_topic_indexes(problems, topics_out_dir):
         unfamiliar_rows = [r for r in rows if r['familiarity'] == '生疏']
         redo_rows = [r for r in rows if r['familiarity'] == '再練習']
         practiced_rows = [r for r in rows if r['familiarity'] == '練習過']
-        familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '再練習', '練習過')]
+        forgetful_rows = [r for r in rows if r['familiarity'] == '易忘']
+        familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '再練習', '練習過', '易忘')]
 
         lines = [f"# {topic}", '']
 
@@ -273,6 +276,14 @@ def build_topic_indexes(problems, topics_out_dir):
             lines.extend(render_table(practiced_rows))
         else:
             lines.append('目前沒有標記為練習過的解法。')
+        lines.append('')
+
+        lines.append(f"## 🟣 易忘（{len(forgetful_rows)}）")
+        lines.append('')
+        if forgetful_rows:
+            lines.extend(render_table(forgetful_rows))
+        else:
+            lines.append('目前沒有標記為易忘的解法。')
         lines.append('')
 
         lines.append(f"## 🟢 熟悉（{len(familiar_rows)}）")
@@ -301,21 +312,26 @@ def load_ac_cache(cache_path):
 
 def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'):
     """列出所有標記為「生疏」的解法，並在最上方加上統計總覽，寫成 docs/review.md 複習清單"""
-    rows = []
-    for problem in problems:
-        for sol in problem['solutions']:
-            if sol.get('familiarity') == '生疏':
-                rows.append({
-                    'number': problem['number'],
-                    'title': problem['title'],
-                    'url': problem.get('url', ''),
-                    'file': sol.get('file', ''),
-                    'difficulty': sol.get('difficulty', ''),
-                    'topics': ', '.join(to_list(sol.get('topics'))),
-                })
-    rows.sort(key=lambda r: r['number'])
+    def collect_rows(target_familiarity):
+        result = []
+        for problem in problems:
+            for sol in problem['solutions']:
+                if sol.get('familiarity') == target_familiarity:
+                    result.append({
+                        'number': problem['number'],
+                        'title': problem['title'],
+                        'url': problem.get('url', ''),
+                        'file': sol.get('file', ''),
+                        'difficulty': sol.get('difficulty', ''),
+                        'topics': ', '.join(to_list(sol.get('topics'))),
+                    })
+        result.sort(key=lambda r: r['number'])
+        return result
 
-    # 每一題的整體熟悉度：生疏 > 注意 > 熟練 > 未標記（優先度由左到右，只要任一解法符合就算該題）
+    rows = collect_rows('生疏')
+    forgetful_rows = collect_rows('易忘')
+
+    # 每一題的整體熟悉度：生疏 > 再練習 > 練習過 > 易忘 > 熟練 > 未標記（優先度由左到右，只要任一解法符合就算該題）
     problem_status = {}
     topic_stats = OrderedDict()
 
@@ -328,6 +344,8 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
             status = '再練習'
         elif '練習過' in statuses:
             status = '練習過'
+        elif '易忘' in statuses:
+            status = '易忘'
         elif '熟練' in statuses:
             status = '熟練'
         else:
@@ -339,19 +357,20 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
             for topic in to_list(sol.get('topics')):
                 problem_topics.add(topic)
         for topic in problem_topics:
-            stat = topic_stats.setdefault(topic, {'生疏': 0, '再練習': 0, '練習過': 0, '熟練': 0, '未標記': 0})
+            stat = topic_stats.setdefault(topic, {'生疏': 0, '再練習': 0, '練習過': 0, '易忘': 0, '熟練': 0, '未標記': 0})
             stat[status] += 1
 
     total_problems = len(problems)
     total_shengshu = sum(1 for s in problem_status.values() if s == '生疏')
     total_zailianxi = sum(1 for s in problem_status.values() if s == '再練習')
     total_lianxiguo = sum(1 for s in problem_status.values() if s == '練習過')
+    total_yiwang = sum(1 for s in problem_status.values() if s == '易忘')
     total_shulian = sum(1 for s in problem_status.values() if s == '熟練')
-    total_unmarked = total_problems - total_shengshu - total_zailianxi - total_lianxiguo - total_shulian
+    total_unmarked = total_problems - total_shengshu - total_zailianxi - total_lianxiguo - total_yiwang - total_shulian
 
     ac_info = load_ac_cache(ac_cache_path)
 
-    lines = ['# 📝 複習清單（生疏）', '', '## 📊 總覽', '']
+    lines = ['# 📝 複習清單（生疏／易忘）', '', '## 📊 總覽', '']
 
     if ac_info and ac_info.get('num_solved') is not None:
         fetched_at = ac_info.get('fetched_at', '')
@@ -364,16 +383,19 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
 
     lines.append(f"- **目前收錄總題目數：** {total_problems} 題　"
                  f"🔴 生疏：{total_shengshu} 題　🟠 再練習：{total_zailianxi} 題　"
-                 f"🟡 練習過：{total_lianxiguo} 題　🟢 熟練：{total_shulian} 題　⚪ 未標記：{total_unmarked} 題")
+                 f"🟡 練習過：{total_lianxiguo} 題　🟣 易忘：{total_yiwang} 題　"
+                 f"🟢 熟練：{total_shulian} 題　⚪ 未標記：{total_unmarked} 題")
     lines.append('')
 
-    lines.append('### 各分類生疏 / 再練習 / 練習過 / 熟練統計')
+    lines.append('### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計')
     lines.append('')
-    lines.append('| 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟢 熟練 | ⚪ 未標記 | 總數 |')
-    lines.append('| --- | --- | --- | --- | --- | --- | --- |')
+    lines.append('| 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |')
+    lines.append('| --- | --- | --- | --- | --- | --- | --- | --- |')
     for topic, stat in sorted(topic_stats.items()):
-        topic_total = stat['生疏'] + stat['再練習'] + stat['練習過'] + stat['熟練'] + stat['未標記']
-        lines.append(f"| [{topic}](topics/{topic}.md) | {stat['生疏']} | {stat['再練習']} | {stat['練習過']} | {stat['熟練']} | {stat['未標記']} | {topic_total} |")
+        topic_total = (stat['生疏'] + stat['再練習'] + stat['練習過'] +
+                       stat['易忘'] + stat['熟練'] + stat['未標記'])
+        lines.append(f"| [{topic}](topics/{topic}.md) | {stat['生疏']} | {stat['再練習']} | "
+                     f"{stat['練習過']} | {stat['易忘']} | {stat['熟練']} | {stat['未標記']} | {topic_total} |")
     lines.append('')
     lines.append('---')
     lines.append('')
@@ -387,11 +409,24 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
         title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
         file_cell = f"[C++]({page_link})" if r['file'] else ''
         lines.append(f"| {r['number']} | {title_cell} | {r['difficulty']} | {file_cell} | {r['topics']} |")
+    lines.append('')
+
+    lines.append('---')
+    lines.append('')
+    lines.append(f'目前共有 {len(forgetful_rows)} 個解法標記為易忘，建議面試前重點複習。')
+    lines.append('')
+    lines.append('| # | 題目 | 難度 | 解法檔案 | 分類 |')
+    lines.append('| --- | --- | --- | --- | --- |')
+    for r in forgetful_rows:
+        page_link = f"problems/{r['number']:04d}.md"
+        title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
+        file_cell = f"[C++]({page_link})" if r['file'] else ''
+        lines.append(f"| {r['number']} | {title_cell} | {r['difficulty']} | {file_cell} | {r['topics']} |")
 
     with open(os.path.join(docs_dir, 'review.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
 
-    return len(rows)
+    return len(rows) + len(forgetful_rows)
 
 
 def main():
@@ -427,7 +462,7 @@ def main():
     print(f"\n寫入 {len(topic_rows)} 個 docs/topics/*.md")
 
     review_count = build_review_page(problems, docs_dir)
-    print(f"複習清單（生疏）: {review_count} 筆 -> docs/review.md")
+    print(f"複習清單（生疏／易忘）: {review_count} 筆 -> docs/review.md")
 
     # 固定分類顯示順序（不再依賴 metadata 掃描順序，避免每次改資料 nav 順序就跟著亂跳）。
     # 沒列在這裡的分類（例如未來新增的 GROUPS 規則、或掉進 📄 Other 的）會被排在最後面。

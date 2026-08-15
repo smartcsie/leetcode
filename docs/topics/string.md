@@ -37,6 +37,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](../problems/2937.md) | O(min(L1,L2,L3)) | O(1) |
 
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
 ## 🟢 熟悉（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |

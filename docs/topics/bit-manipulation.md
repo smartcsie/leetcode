@@ -34,6 +34,10 @@
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation | [C++](../problems/2605.md) | O(N+M) | O(1) |
 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Array, Hash Table, Bitset | [C++](../problems/2956.md) | O(N+M) | O(1)* |
 
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
 ## 🟢 熟悉（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
