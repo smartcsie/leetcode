@@ -11,5 +11,5 @@ solutions:
   - math-game-theory
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 易忘
   is_best: true
