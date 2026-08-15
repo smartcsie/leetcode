@@ -11,7 +11,8 @@ solutions:
   - math-game-theory
   time: O(1)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 易忘
+  note: '> n 是偶數時 Alice 必勝'
   is_best: true
   related:
   - 3227
