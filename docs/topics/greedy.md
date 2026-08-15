@@ -49,11 +49,12 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（2）
+## 🟣 易忘（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](../problems/0397.md) | O(1) |  |
+| 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | 🟡 Medium | Greedy, Math, String | [C++](../problems/1247.md) | O(N) | O(1) |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy, Math, Brainteaser | [C++](../problems/2745.md) | O(1) | O(1) |
 
 ## 🟢 熟悉（3）

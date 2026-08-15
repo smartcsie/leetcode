@@ -1,12 +1,11 @@
 # math
 
-## 🔴 生疏（8）
+## 🔴 生疏（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math, Factorial | [C++](../problems/0060.md) | O(N²) | O(N) |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](../problems/0396.md) | O(N) | O(1) |
-| 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | 🟡 Medium | Greedy, Math, String | [C++](../problems/1247.md) | O(N) | O(1) |
 | 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 Medium | Array, Simulation, Greedy | [C++](../problems/1375.md) | O(N) | O(1) |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | Math, Enumeration | [C++](../problems/2310.md) | O(10) | O(1) |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | Math, Array | [C++](../problems/2455.md) | O(N) | O(1) |
