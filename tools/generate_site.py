@@ -310,6 +310,61 @@ def load_ac_cache(cache_path):
         return None
 
 
+# 固定的大分類顯示順序，跟 mkdocs nav 用的順序一致（依 GROUPS 出現順序去重，
+# 最後補上 Other）。生疏／易忘清單分段時依此順序排列，而不是用字母排序，
+# 這樣跟其他頁面（topics nav）的分類順序保持一致，比較好對照。
+_GROUP_ORDER = []
+for _pattern, _title in GROUPS:
+    if _title not in _GROUP_ORDER:
+        _GROUP_ORDER.append(_title)
+_GROUP_ORDER.append('📄 Other')
+
+
+def _group_anchor_id(group_title, prefix):
+    """把分類標題（含 emoji／中文）轉成安全的 ASCII 錨點 id，
+    搭配 <a id="..."></a> 手動錨點使用，不依賴 mkdocs 對 unicode 的 slugify 行為。"""
+    ascii_part = re.sub(r'[^A-Za-z0-9]+', '-', group_title).strip('-').lower()
+    return f'{prefix}-{ascii_part or "other"}'
+
+
+def _build_familiarity_section(rows, id_prefix, intro_text):
+    """把一組解法（生疏或易忘）依大分類分段，回傳要寫進 review.md 的 markdown 行列表。"""
+    grouped = OrderedDict()
+    for r in rows:
+        grouped.setdefault(r['group'], []).append(r)
+
+    lines = [f'目前共有 {len(rows)} 個解法{intro_text}', '']
+
+    quick_links = []
+    for group in _GROUP_ORDER:
+        if group not in grouped:
+            continue
+        anchor = _group_anchor_id(group, id_prefix)
+        quick_links.append(f"[{group}（{len(grouped[group])}）](#{anchor})")
+    if quick_links:
+        lines.append('📌 **快速跳轉：** ' + '　'.join(quick_links))
+        lines.append('')
+
+    for group in _GROUP_ORDER:
+        if group not in grouped:
+            continue
+        group_rows = grouped[group]
+        anchor = _group_anchor_id(group, id_prefix)
+        lines.append(f'<a id="{anchor}"></a>')
+        lines.append(f'#### {group}（{len(group_rows)}）')
+        lines.append('')
+        lines.append('| # | 題目 | 難度 | 解法檔案 | 分類 |')
+        lines.append('| --- | --- | --- | --- | --- |')
+        for r in group_rows:
+            page_link = f"problems/{r['number']:04d}.md"
+            title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
+            file_cell = f"[C++]({page_link})" if r['file'] else ''
+            lines.append(f"| {r['number']} | {title_cell} | {r['difficulty']} | {file_cell} | {r['topics']} |")
+        lines.append('')
+
+    return lines
+
+
 def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'):
     """列出所有標記為「生疏」的解法，並在最上方加上統計總覽，寫成 docs/review.md 複習清單"""
     def collect_rows(target_familiarity):
@@ -317,13 +372,16 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
         for problem in problems:
             for sol in problem['solutions']:
                 if sol.get('familiarity') == target_familiarity:
+                    topics_list = to_list(sol.get('topics'))
+                    group = group_for(topics_list[0]) if topics_list else '📄 Other'
                     result.append({
                         'number': problem['number'],
                         'title': problem['title'],
                         'url': problem.get('url', ''),
                         'file': sol.get('file', ''),
                         'difficulty': sol.get('difficulty', ''),
-                        'topics': ', '.join(to_list(sol.get('topics'))),
+                        'topics': ', '.join(topics_list),
+                        'group': group,
                     })
         result.sort(key=lambda r: r['number'])
         return result
@@ -370,7 +428,12 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
 
     ac_info = load_ac_cache(ac_cache_path)
 
-    lines = ['# 📝 複習清單（生疏／易忘）', '', '## 📊 總覽', '']
+    lines = ['# 📝 複習清單（生疏／易忘）', '']
+    lines.append(f'📌 **快速跳轉：** [🔴 生疏清單（{len(rows)}）](#review-shengshu)　'
+                 f'[🟣 易忘清單（{len(forgetful_rows)}）](#review-yiwang)')
+    lines.append('')
+    lines.append('## 📊 總覽')
+    lines.append('')
 
     if ac_info and ac_info.get('num_solved') is not None:
         fetched_at = ac_info.get('fetched_at', '')
@@ -400,28 +463,17 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
     lines.append('---')
     lines.append('')
 
-    lines.append(f'目前共有 {len(rows)} 個解法標記為生疏，建議找時間重新練習。')
+    lines.append('<a id="review-shengshu"></a>')
+    lines.append('## 🔴 生疏清單')
     lines.append('')
-    lines.append('| # | 題目 | 難度 | 解法檔案 | 分類 |')
-    lines.append('| --- | --- | --- | --- | --- |')
-    for r in rows:
-        page_link = f"problems/{r['number']:04d}.md"
-        title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
-        file_cell = f"[C++]({page_link})" if r['file'] else ''
-        lines.append(f"| {r['number']} | {title_cell} | {r['difficulty']} | {file_cell} | {r['topics']} |")
-    lines.append('')
+    lines.extend(_build_familiarity_section(rows, 'shengshu', '標記為生疏，建議找時間重新練習。'))
 
     lines.append('---')
     lines.append('')
-    lines.append(f'目前共有 {len(forgetful_rows)} 個解法標記為易忘，建議面試前重點複習。')
+    lines.append('<a id="review-yiwang"></a>')
+    lines.append('## 🟣 易忘清單')
     lines.append('')
-    lines.append('| # | 題目 | 難度 | 解法檔案 | 分類 |')
-    lines.append('| --- | --- | --- | --- | --- |')
-    for r in forgetful_rows:
-        page_link = f"problems/{r['number']:04d}.md"
-        title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
-        file_cell = f"[C++]({page_link})" if r['file'] else ''
-        lines.append(f"| {r['number']} | {title_cell} | {r['difficulty']} | {file_cell} | {r['topics']} |")
+    lines.extend(_build_familiarity_section(forgetful_rows, 'yiwang', '標記為易忘，建議面試前重點複習。'))
 
     with open(os.path.join(docs_dir, 'review.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
