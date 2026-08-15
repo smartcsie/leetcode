@@ -1,6 +1,6 @@
 # greedy
 
-## 🔴 生疏（27）
+## 🔴 生疏（26）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,6 @@
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy, String | [C++](../problems/1881.md) | O(N) | O(1) |
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy, Two Candidates | [C++](../problems/1909.md) | O(N) | O(1) |
 | 1936 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | Greedy, Math | [C++](../problems/1936.md) | O(N) | O(1) |
-| 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | [C++](../problems/2027.md) | O(N) | O(1) |
 | 2116 | [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | 🟡 Medium | Greedy | [C++](../problems/2116.md) | O(N) | O(1) |
 | 2178 | [Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/) | 🟡 Medium | Greedy, Math | [C++](../problems/2178.md) | O(√N) | O(√N) |
 | 2182 | [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | 🟡 Medium | Greedy, String, Two Pointers, Counting | [C++](../problems/2182.md) | O(N) | O(1) |
@@ -32,7 +31,7 @@
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | Greedy, String | [C++](../problems/3114.md) | O(1) | O(1) |
 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | Greedy, String | [C++](../problems/3216.md) | O(N) | O(1) |
 
-## 🟠 再練習（8）
+## 🟠 再練習（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -44,6 +43,7 @@
 | 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 Medium | Greedy, Recursion, String Construction | [C++](../problems/0984.md) | O(A + B) | O(A + B) |
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy | [C++](../problems/1576.md) | O(N) | O(1) |
 | 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 Easy | Greedy, Hash Table | [C++](../problems/1624.md) | O(N) | O(1) |
+| 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | [C++](../problems/2027.md) | O(N) | O(1) |
 
 ## 🟡 練習過（0）
 
