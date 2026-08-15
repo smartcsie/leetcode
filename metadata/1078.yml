@@ -5,19 +5,11 @@ solutions:
 - file: Solution_1078.cpp
   difficulty: 🟢 Easy
   tags:
+  - Stack
   - String Parsing
   topics:
-  - string
+  - stack
   time: O(N)
   space: O(N)
-  note: '> [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/)<br>
-
-    > 用istringstream拆解text成為vector<string> words;<br>
-
-    > **for(int i = 0; i < words.size() - 2; i++) {** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;> &emsp;&emsp;&emsp;&emsp;**if(words[i] == first &&
-    words[i + 1] == second) res.push_back(words[i + 2]);** <br>
-
-    > **}** <br>'
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> 用vector<string> prev(2);紀錄前面istringstream parser出來的string，跟first和second比對<br>'

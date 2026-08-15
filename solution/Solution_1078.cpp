@@ -13,16 +13,15 @@
 class Solution {
 public:
     vector<string> findOcurrences(string text, string first, string second) {
-        istringstream ss(text);
-        vector<string> res;
-        vector<string> words;
+        vector<string> prev(2);
+        istringstream iss(text);
         string word;
-        while(ss >> word) {
-            words.push_back(word);
+        vector<string> ans;
+        while(iss >> word) { 
+            if(prev[0] == first && prev[1] == second) ans.push_back(word);
+            prev[0] = prev[1];
+            prev[1] = word;
         }
-        for(int i = 0; i < words.size() - 2; i++) {
-            if(words[i] == first && words[i + 1] == second) res.push_back(words[i + 2]);
-        }
-        return res;
+        return ans;
     }
 };

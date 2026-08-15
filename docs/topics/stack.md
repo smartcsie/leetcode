@@ -26,7 +26,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（7）
+## 🟢 熟悉（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -35,5 +35,6 @@
 | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Array, Stack, Simulation | [C++](../problems/0682.md) | O(N) | O(N) |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 Medium | Stack, String | [C++](../problems/1003.md) | O(N) | O(N) |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 Easy | Stack, String | [C++](../problems/1047.md) | O(N) | O(N) |
+| 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 Easy | Stack, String Parsing | [C++](../problems/1078.md) | O(N) | O(N) |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 Medium | Stack, String | [C++](../problems/2390.md) | O(N) | O(N) |
 | 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 Easy | Stack, String | [C++](../problems/3174.md) | O(N) | O(N) |

@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：428 題　🟠 再練習：143 題　🟡 練習過：12 題　🟣 易忘：20 題　🟢 熟練：262 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：427 題　🟠 再練習：143 題　🟡 練習過：12 題　🟣 易忘：20 題　🟢 熟練：263 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -66,8 +66,8 @@
 | [sorting](topics/sorting.md) | 26 | 3 | 0 | 0 | 3 | 0 | 32 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 6 | 2 | 0 | 0 | 7 | 0 | 15 |
-| [string](topics/string.md) | 13 | 6 | 1 | 1 | 20 | 0 | 41 |
+| [stack](topics/stack.md) | 6 | 2 | 0 | 0 | 8 | 0 | 16 |
+| [string](topics/string.md) | 12 | 6 | 1 | 1 | 20 | 0 | 40 |
 | [string-character-classification](topics/string-character-classification.md) | 1 | 3 | 0 | 0 | 18 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 435 個解法標記為生疏，建議找時間重新練習。
+目前共有 434 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -345,7 +345,6 @@
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | [C++](problems/1046.md) | priority-queue |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | [C++](problems/1049.md) | knapsack-problem |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | [C++](problems/1051.md) | sorting |
-| 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 Easy | [C++](problems/1078.md) | string |
 | 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium | [C++](problems/1081.md) | monotonic-stack |
 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 Easy | [C++](problems/1089.md) | two-pointers-same |
 | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 Medium | [C++](problems/1094.md) | array-difference-array |
