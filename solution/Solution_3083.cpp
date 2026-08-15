@@ -14,13 +14,10 @@
 class Solution {
 public:
     bool isSubstringPresent(string s) {
-        int n = s.size();
-        bool seen[26][26] = {false};
-        for(int i = 0 ; i < n - 1; i++ ) {
-            int ch1 = s[i] - 'a';
-            int ch2 = s[i + 1] - 'a';
-            seen[ch1][ch2] = true;
-            if(seen[ch2][ch1]) return true;
+        set<pair<int, int>> seen;
+        for(int i = 1; i < s.size(); i++) {
+            seen.insert({s[i], s[i-1]});
+            if(seen.contains({s[i - 1], s[i]})) return true;
         }
         return false;
     }

@@ -11,4 +11,5 @@ solutions:
   - string-substring
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  note: '> set<array<int, 2>> seen; 也可以'
