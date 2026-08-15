@@ -2,8 +2,8 @@
 
 ## 📊 總覽
 
-- **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：426 題　🟠 再練習：143 題　🟡 練習過：12 題　🟣 易忘：20 題　🟢 熟練：264 題　⚪ 未標記：0 題
+- **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-15 20:47）
+- **目前收錄總題目數：** 865 題　🔴 生疏：425 題　🟠 再練習：144 題　🟡 練習過：12 題　🟣 易忘：20 題　🟢 熟練：264 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -40,7 +40,7 @@
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 23 | 10 | 1 | 4 | 4 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 0 | 2 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 6 | 5 | 0 | 0 | 14 | 0 | 25 |
+| [hash-table-counting](topics/hash-table-counting.md) | 5 | 6 | 0 | 0 | 14 | 0 | 25 |
 | [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 0 | 9 | 0 | 19 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 1 | 0 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 4 | 1 | 0 | 4 | 0 | 9 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 433 個解法標記為生疏，建議找時間重新練習。
+目前共有 432 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -401,7 +401,6 @@
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | [C++](problems/1636.md) | quick-select |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | [C++](problems/1640.md) | hash-table-existence |
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | [C++](problems/1641.md) | dynamic-programming-kadane-algorithm |
-| 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 Medium | [C++](problems/1647.md) | hash-table-counting |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | [C++](problems/1668.md) | dynamic-programming |
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | [C++](problems/1680.md) | bit-manipulation |
 | 1685 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | 🟡 Medium | [C++](problems/1685.md) | array-prefix-sum |

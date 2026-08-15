@@ -11,4 +11,4 @@ solutions:
   - hash-table-counting
   time: O(N+KlogK)
   space: O(K)
-  familiarity: 生疏
+  familiarity: 再練習

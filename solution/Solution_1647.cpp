@@ -16,20 +16,15 @@ class Solution {
 public:
     int minDeletions(string s) {
         vector<int> counts(26, 0);
-        for(const char& c : s ) {
-            counts[c - 'a']++;
-        }
-        sort(counts.begin(), counts.end());
-        int deletes = 0;
-        unordered_set<int> freqs;
-        for(int i = 25; i >= 0; i--) {
-            if(counts[i] == 0) continue;
-            while(freqs.count(counts[i]) && counts[i] > 0) {
+        for(const char& c : s) counts[c - 'a']++;
+        unordered_set<int> seen;
+        int ans = 0;
+        for(int i = 0; i < 26; i++) {
+            while(counts[i] && !seen.insert(counts[i]).second) {
                 counts[i]--;
-                deletes++;
+                ans++;
             }
-            freqs.insert(counts[i]);
         }
-        return deletes;
+        return ans;
     }
 };
