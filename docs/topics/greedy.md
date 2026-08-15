@@ -31,7 +31,7 @@
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | Greedy, String | [C++](../problems/3114.md) | O(1) | O(1) |
 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | Greedy, String | [C++](../problems/3216.md) | O(N) | O(1) |
 
-## 🟠 再練習（9）
+## 🟠 再練習（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -44,6 +44,7 @@
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy | [C++](../problems/1576.md) | O(N) | O(1) |
 | 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 Easy | Greedy, Hash Table | [C++](../problems/1624.md) | O(N) | O(1) |
 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | [C++](../problems/2027.md) | O(N) | O(1) |
+| 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 Easy | Greedy, Greedy | [C++](../problems/2600.md) | O(1) | O(1) |
 
 ## 🟡 練習過（0）
 

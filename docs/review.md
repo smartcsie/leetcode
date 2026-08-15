@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：440 題　🟠 再練習：142 題　🟡 練習過：8 題　🟣 易忘：18 題　🟢 熟練：257 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：439 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：18 題　🟢 熟練：257 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -38,7 +38,7 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 26 | 9 | 0 | 3 | 3 | 0 | 41 |
+| [greedy](topics/greedy.md) | 26 | 10 | 0 | 3 | 3 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 6 | 5 | 0 | 0 | 14 | 0 | 25 |
 | [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 0 | 9 | 0 | 19 |
@@ -48,7 +48,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 7 | 15 | 0 | 7 | 10 | 0 | 39 |
+| [math](topics/math.md) | 6 | 15 | 0 | 7 | 10 | 0 | 38 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 447 個解法標記為生疏，建議找時間重新練習。
+目前共有 446 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -476,7 +476,6 @@
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | [C++](problems/2574.md) | array-prefix-sum |
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | [C++](problems/2578.md) | greedy |
 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 Medium | [C++](problems/2583.md) | tree-bfs-level-order |
-| 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 Easy | [C++](problems/2600.md) | math |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | [C++](problems/2645.md) | greedy |
 | 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | [C++](problems/2656.md) | greedy |
 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 Easy | [C++](problems/2667.md) | design |

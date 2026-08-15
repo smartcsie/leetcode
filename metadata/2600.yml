@@ -5,10 +5,10 @@ solutions:
 - file: Solution_2600.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Greedy
   - Greedy
   topics:
-  - math
+  - greedy
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習

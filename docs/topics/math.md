@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（7）
+## 🔴 生疏（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,6 @@
 | 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 Medium | Array, Simulation, Greedy | [C++](../problems/1375.md) | O(N) | O(1) |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | Math, Enumeration | [C++](../problems/2310.md) | O(10) | O(1) |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | Math, Array | [C++](../problems/2455.md) | O(N) | O(1) |
-| 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 Easy | Math, Greedy | [C++](../problems/2600.md) | O(1) | O(1) |
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](../problems/2894.md) | O(1) | O(1) |
 
 ## 🟠 再練習（14）

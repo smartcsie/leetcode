@@ -17,11 +17,9 @@
  */
 
 class Solution {
+class Solution {
 public:
     int kItemsWithMaximumSum(int numOnes, int numZeros, int numNegOnes, int k) {
-        // 三元運算子判斷 k 是否落在 1 與 0 的涵蓋範圍內
-        return k <= (numOnes + numZeros) 
-            ? std::min(numOnes, k) 
-            : (numOnes - (k - (numOnes + numZeros)));
-    }   
+        return k <= (numOnes + numZeros)  ? std::min(numOnes, k) : 2 * numOnes + numZeros - k ;
+    }
 };
