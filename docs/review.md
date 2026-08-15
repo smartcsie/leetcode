@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：459 題　🟠 再練習：143 題　🟡 練習過：8 題　🟢 熟練：255 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：458 題　🟠 再練習：144 題　🟡 練習過：8 題　🟢 熟練：255 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -46,7 +46,7 @@
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 4 | 1 | 4 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 4 | 5 | 0 | 12 | 0 | 21 |
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 9 |
-| [linked-list](topics/linked-list.md) | 13 | 2 | 0 | 0 | 0 | 15 |
+| [linked-list](topics/linked-list.md) | 12 | 3 | 0 | 0 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 14 | 16 | 0 | 10 | 0 | 40 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 6 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 466 個解法標記為生疏，建議找時間重新練習。
+目前共有 465 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -455,7 +455,6 @@
 | 2169 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | 🟢 Easy | [C++](problems/2169.md) | math-factor-enumeration |
 | 2178 | [Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/) | 🟡 Medium | [C++](problems/2178.md) | greedy |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | [C++](problems/2180.md) | math-digit-decomposition |
-| 2181 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | 🟡 Medium | [C++](problems/2181.md) | linked-list |
 | 2182 | [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | 🟡 Medium | [C++](problems/2182.md) | greedy |
 | 2191 | [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | 🟡 Medium | [C++](problems/2191.md) | sorting |
 | 2195 | [Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/) | 🟡 Medium | [C++](problems/2195.md) | binary-search |
