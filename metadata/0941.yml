@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0941.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Two Pointers Opposite
   - Two Pointers
   topics:
   - two-pointers-opposite
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習

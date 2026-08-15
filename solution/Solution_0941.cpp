@@ -16,13 +16,12 @@
 class Solution {
 public:
     bool validMountainArray(vector<int>& arr) {
-        auto n = arr.size();
+        int n = arr.size();
         if(n <= 2) return false;
         int left = 0;
-        int right = n-1;
-        while(left < n-1 && arr[left] < arr[left+1]) left++;
-        while(right > 0 && arr[right] < arr[right-1]) right--;
-        if(left == 0 || right == n-1) return false;
-        return left == right;
+        int right = arr.size() - 1;
+        while(left < arr.size() - 1 && arr[left] < arr[left + 1] ) left++;
+        while(right > 0 && arr[right] < arr[right - 1] ) right--;
+        return left != 0 && right != (arr.size() - 1) && left == right;
     }
 };

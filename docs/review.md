@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：434 題　🟠 再練習：144 題　🟡 練習過：9 題　🟣 易忘：19 題　🟢 熟練：259 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：433 題　🟠 再練習：145 題　🟡 練習過：9 題　🟣 易忘：19 題　🟢 熟練：259 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -79,7 +79,7 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 30 | 4 | 0 | 0 | 6 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 9 | 1 | 0 | 0 | 6 | 0 | 16 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 8 | 2 | 0 | 0 | 6 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 15 | 2 | 0 | 0 | 3 | 0 | 20 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 441 個解法標記為生疏，建議找時間重新練習。
+目前共有 440 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -323,7 +323,6 @@
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | [C++](problems/0930.md) | array-prefix-sum |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | [C++](problems/0938.md) | binary-search-tree |
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | [C++](problems/0939.md) | hash-table-uniqueness |
-| 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | [C++](problems/0941.md) | two-pointers-opposite |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | [C++](problems/0942.md) | two-pointers-opposite |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | [C++](problems/0949.md) | math-permutation |
 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | [C++](problems/0951.md) | tree |
