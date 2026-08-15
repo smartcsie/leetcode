@@ -24,12 +24,8 @@
 class Solution {
 public:
     bool checkDistances(std::string s, std::vector<int>& distance) {
-        // 紀錄 26 個字母第一次出現的位置，初始化為 -1
-        std::vector<int> first(26, -1);
-        
+        vector<int> first(26, -1);
         for (int i = 0; i < s.size(); ++i) {
-            int idx = s[i] - 'a';
-            
             if (first[idx] == -1) {
                 // 第一次出現，記錄位置
                 first[idx] = i;
@@ -40,7 +36,6 @@ public:
                 }
             }
         }
-        
         return true;
     }
 };

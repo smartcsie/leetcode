@@ -1,10 +1,9 @@
 # string-character-classification
 
-## 🔴 生疏（2）
+## 🔴 生疏（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | Hash Table, String, Array | [C++](../problems/2399.md) | O(N) | O(1) |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String, Two Pointers | [C++](../problems/3775.md) | O(N*L) | O(N) |
 
 ## 🟠 再練習（3）
@@ -23,7 +22,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（17）
+## 🟢 熟悉（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -35,6 +34,7 @@
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String | [C++](../problems/1903.md) | O(N) | O(1) |
 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 Easy | String, Two Pointers | [C++](../problems/1957.md) | O(N) | O(N) |
 | 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | String, Counting | [C++](../problems/2278.md) | O(N) | O(1) |
+| 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | String, Hash Table, Array | [C++](../problems/2399.md) | O(N) | O(1) |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | Array, String | [C++](../problems/2586.md) | O(N) | O(1) |
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String | [C++](../problems/2678.md) | O(N) | O(1) |
 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String, Two Pointers | [C++](../problems/2710.md) | O(N) | O(1) |

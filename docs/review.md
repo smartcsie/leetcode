@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：430 題　🟠 再練習：145 題　🟡 練習過：9 題　🟣 易忘：20 題　🟢 熟練：261 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：429 題　🟠 再練習：145 題　🟡 練習過：9 題　🟣 易忘：20 題　🟢 熟練：262 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -68,7 +68,7 @@
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 6 | 2 | 0 | 0 | 7 | 0 | 15 |
 | [string](topics/string.md) | 15 | 5 | 1 | 1 | 20 | 0 | 42 |
-| [string-character-classification](topics/string-character-classification.md) | 2 | 3 | 0 | 0 | 17 | 0 | 22 |
+| [string-character-classification](topics/string-character-classification.md) | 1 | 3 | 0 | 0 | 18 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 437 個解法標記為生疏，建議找時間重新練習。
+目前共有 436 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -451,7 +451,6 @@
 | 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | [C++](problems/2317.md) | bit-manipulation-xor |
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | [C++](problems/2395.md) | hash-table-existence |
 | 2397 | [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/) | 🟡 Medium | [C++](problems/2397.md) | bit-bitmask-subset-enumeration |
-| 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | [C++](problems/2399.md) | string-character-classification |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | [C++](problems/2411.md) | bit-manipulation |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | [C++](problems/2415.md) | tree-dfs-path |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | [C++](problems/2419.md) | bit-manipulation-and |
