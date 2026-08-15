@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：442 題　🟠 再練習：144 題　🟡 練習過：8 題　🟣 易忘：14 題　🟢 熟練：257 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：441 題　🟠 再練習：144 題　🟡 練習過：8 題　🟣 易忘：15 題　🟢 熟練：257 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -48,7 +48,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 9 | 17 | 0 | 4 | 10 | 0 | 40 |
+| [math](topics/math.md) | 8 | 17 | 0 | 5 | 10 | 0 | 40 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 449 個解法標記為生疏，建議找時間重新練習。
+目前共有 448 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -339,7 +339,6 @@
 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 Easy | [C++](problems/1005.md) | greedy |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 Medium | [C++](problems/1008.md) | binary-search-tree |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | [C++](problems/1016.md) | bit-manipulation |
-| 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | [C++](problems/1018.md) | math |
 | 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 Medium | [C++](problems/1019.md) | monotonic-stack |
 | 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | 🟢 Easy | [C++](problems/1022.md) | tree-dfs-path |
 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | 🟡 Medium | [C++](problems/1026.md) | tree-dfs-path |
@@ -545,7 +544,7 @@
 
 ---
 
-目前共有 14 個解法標記為易忘，建議面試前重點複習。
+目前共有 15 個解法標記為易忘，建議面試前重點複習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -556,6 +555,7 @@
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | [C++](problems/0633.md) | math |
 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | [C++](problems/0810.md) | math-game-theory |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | [C++](problems/0970.md) | math |
+| 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | [C++](problems/1018.md) | math |
 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | [C++](problems/1025.md) | math-game-theory |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | [C++](problems/1185.md) | math |
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | [C++](problems/1545.md) | bit-manipulation |
