@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-15 20:50）
-- **目前收錄總題目數：** 865 題　🔴 生疏：423 題　🟠 再練習：144 題　🟡 練習過：12 題　🟣 易忘：22 題　🟢 熟練：264 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：422 題　🟠 再練習：144 題　🟡 練習過：12 題　🟣 易忘：23 題　🟢 熟練：264 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -79,7 +79,7 @@
 | [tree-dfs-path](topics/tree-dfs-path.md) | 30 | 4 | 0 | 0 | 6 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 6 | 2 | 0 | 2 | 6 | 0 | 16 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 5 | 2 | 0 | 3 | 6 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 15 | 2 | 0 | 0 | 3 | 0 | 20 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 430 個解法標記為生疏，建議找時間重新練習。
+目前共有 429 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -101,7 +101,6 @@
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | [C++](problems/0008.md) | string |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 Medium | [C++](problems/0011.md) | two-pointers-opposite |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | [C++](problems/0014.md) | string |
-| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 Medium | [C++](problems/0016.md) | two-pointers-opposite |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | [C++](problems/0017.md) | backtracking-combination |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 Medium | [C++](problems/0019.md) | fast-slow-pointers |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | [C++](problems/0022.md) | backtracking-combination |
@@ -526,11 +525,12 @@
 
 ---
 
-目前共有 22 個解法標記為易忘，建議面試前重點複習。
+目前共有 23 個解法標記為易忘，建議面試前重點複習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 Medium | [C++](problems/0015.md) | two-pointers-opposite |
+| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 Medium | [C++](problems/0016.md) | two-pointers-opposite |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | [C++](problems/0018.md) | two-pointers-opposite |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | [C++](problems/0050.md) | math |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | [C++](problems/0292.md) | math-game-theory |
