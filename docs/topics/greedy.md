@@ -1,6 +1,6 @@
 # greedy
 
-## 🔴 生疏（24）
+## 🔴 生疏（23）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -21,7 +21,6 @@
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy, Partition by Parity | [C++](../problems/2231.md) | O(DlogD) | O(D) |
 | 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | Greedy, String | [C++](../problems/2259.md) | O(N) | O(N) |
 | 2554 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | 🟡 Medium | Array, Hash Table, Greedy, Sorting | [C++](../problems/2554.md) | O(N+M) | O(M) |
-| 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](../problems/2571.md) | O(logN) | O(1) |
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy, Sorting | [C++](../problems/2578.md) | O(NlogN) | O(N) |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | Greedy, Simulation | [C++](../problems/2645.md) | O(N) | O(1) |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy, Hashing | [C++](../problems/2815.md) | O(N*D) | O(1) |
@@ -50,12 +49,13 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 Medium | Greedy, Recursion, String Construction | [C++](../problems/0984.md) | O(A + B) | O(A + B) |
 
-## 🟣 易忘（3）
+## 🟣 易忘（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](../problems/0397.md) | O(1) |  |
 | 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | 🟡 Medium | Greedy, Math, String | [C++](../problems/1247.md) | O(N) | O(1) |
+| 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](../problems/2571.md) | O(logN) | O(1) |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy, Math, Brainteaser | [C++](../problems/2745.md) | O(1) | O(1) |
 
 ## 🟢 熟悉（4）

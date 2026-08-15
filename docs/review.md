@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：435 題　🟠 再練習：144 題　🟡 練習過：9 題　🟣 易忘：18 題　🟢 熟練：259 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：434 題　🟠 再練習：144 題　🟡 練習過：9 題　🟣 易忘：19 題　🟢 熟練：259 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -38,7 +38,7 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 24 | 10 | 1 | 3 | 4 | 0 | 42 |
+| [greedy](topics/greedy.md) | 23 | 10 | 1 | 4 | 4 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 6 | 5 | 0 | 0 | 14 | 0 | 25 |
 | [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 0 | 9 | 0 | 19 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 442 個解法標記為生疏，建議找時間重新練習。
+目前共有 441 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -471,7 +471,6 @@
 | 2554 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | 🟡 Medium | [C++](problems/2554.md) | greedy |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | [C++](problems/2559.md) | array-prefix-sum |
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | [C++](problems/2562.md) | two-pointers-opposite |
-| 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | [C++](problems/2571.md) | greedy |
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | [C++](problems/2574.md) | array-prefix-sum |
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | [C++](problems/2578.md) | greedy |
 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 Medium | [C++](problems/2583.md) | tree-bfs-level-order |
@@ -538,7 +537,7 @@
 
 ---
 
-目前共有 18 個解法標記為易忘，建議面試前重點複習。
+目前共有 19 個解法標記為易忘，建議面試前重點複習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -556,6 +555,7 @@
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | [C++](problems/1185.md) | math |
 | 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | 🟡 Medium | [C++](problems/1247.md) | greedy |
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | [C++](problems/1545.md) | bit-manipulation |
+| 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | [C++](problems/2571.md) | greedy |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | [C++](problems/2745.md) | greedy |
 | 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | [C++](problems/3227.md) | math-game-theory |
 | 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | [C++](problems/3232.md) | math-game-theory |
