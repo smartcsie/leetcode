@@ -1,12 +1,11 @@
 # array
 
-## 🔴 生疏（5）
+## 🔴 生疏（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array, Simulation | [C++](../problems/0054.md) | O(M*N) | O(1) |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](../problems/0059.md) | O(N²) | O(1) |
-| 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 Easy | Array, Sorting, Math | [C++](../problems/1491.md) | O(N) | O(1) |
 | 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | Array, Circular Array | [C++](../problems/2855.md) | O(N) | O(1) |
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](../problems/3969.md) | O(N²) | O(1) |
 
@@ -32,13 +31,14 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（14）
+## 🟢 熟悉（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 Easy | Array, Math | [C++](../problems/1304.md) | O(N) | O(1) |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 Easy | Array, Simulation | [C++](../problems/1389.md) | O(N²) | O(N) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | Array | [C++](../problems/1470.md) | O(N) | O(N) |
+| 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 Easy | Array, Sorting, Math | [C++](../problems/1491.md) | O(N) | O(1) |
 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 Easy | Array, Brute Force | [C++](../problems/1534.md) | O(N³) | O(1) |
 | 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 Easy | Array | [C++](../problems/1550.md) | O(N) | O(1) |
 | 1844 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | 🟢 Easy | In-place Manipulation | [C++](../problems/1844.md) | O(N) | O(1) |

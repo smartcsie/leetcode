@@ -3,14 +3,14 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：431 題　🟠 再練習：145 題　🟡 練習過：9 題　🟣 易忘：20 題　🟢 熟練：260 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：430 題　🟠 再練習：145 題　🟡 練習過：9 題　🟣 易忘：20 題　🟢 熟練：261 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 0 | 8 | 0 | 0 | 9 | 0 | 17 |
-| [array](topics/array.md) | 5 | 9 | 0 | 0 | 14 | 0 | 28 |
+| [array](topics/array.md) | 4 | 9 | 0 | 0 | 15 | 0 | 28 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 3 | 0 | 0 | 5 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 438 個解法標記為生疏，建議找時間重新練習。
+目前共有 437 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -385,7 +385,6 @@
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 Easy | [C++](problems/1475.md) | monotonic-stack |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 Easy | [C++](problems/1480.md) | array-prefix-sum |
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | [C++](problems/1481.md) | sorting |
-| 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 Easy | [C++](problems/1491.md) | array |
 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | [C++](problems/1492.md) | math-factor-enumeration |
 | 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium | [C++](problems/1493.md) | fixed-size-sliding-window |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | [C++](problems/1496.md) | hash-table-uniqueness |
