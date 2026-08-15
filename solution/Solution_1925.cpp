@@ -16,22 +16,13 @@
 class Solution {
 public:
     int countTriples(int n) {
-        int count = 0;
-        for (int a = 1; a <= n; ++a) {
-            for (int b = a; b <= n; ++b) {
-                int c2 = a * a + b * b;
-                int c = static_cast<int>(std::sqrt(static_cast<double>(c2)));
-                
-                // 為了防範浮點數運算誤差，檢查 c-1, c, c+1 三個候選數字
-                for (int cand = std::max(1, c - 1); cand <= c + 1; ++cand) {
-                    if ((long long)cand * cand == c2 && cand <= n) {
-                        // 若 a == b，只有一種組合；若 a != b，則 (a, b, c) 與 (b, a, c) 算兩組
-                        count += (a == b) ? 1 : 2;
-                        break;  // 找到合法的 c 就跳出內層候選迴圈
-                    }
-                }
-            }
-        }
-        return count;
+        int ans = 0;
+        unordered_set<int> squared;
+        for (int i = 1; i <= n; ++i)
+            squared.insert(i * i);
+        for (const int a : squared)
+            for (const int b : squared)
+                if (squared.contains(a + b)) ++ans;
+        return ans;
     }
 };
