@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：437 題　🟠 再練習：143 題　🟡 練習過：9 題　🟣 易忘：18 題　🟢 熟練：258 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：436 題　🟠 再練習：144 題　🟡 練習過：9 題　🟣 易忘：18 題　🟢 熟練：258 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -71,7 +71,7 @@
 | [string-character-classification](topics/string-character-classification.md) | 2 | 3 | 0 | 0 | 17 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [string-substring](topics/string-substring.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| [string-substring](topics/string-substring.md) | 2 | 1 | 0 | 0 | 0 | 0 | 3 |
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 11 | 0 | 0 | 0 | 3 | 0 | 14 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 444 個解法標記為生疏，建議找時間重新練習。
+目前共有 443 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -302,7 +302,6 @@
 | 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | 🟡 Medium | [C++](problems/0777.md) | two-pointers-same |
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | [C++](problems/0784.md) | backtracking-combination |
 | 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | [C++](problems/0786.md) | priority-queue |
-| 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | [C++](problems/0796.md) | string-substring |
 | 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | [C++](problems/0833.md) | string-substring |
 | 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | 🟡 Medium | [C++](problems/0836.md) | math-geometry |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | [C++](problems/0844.md) | two-pointers-same |
