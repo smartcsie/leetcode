@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：458 題　🟠 再練習：144 題　🟡 練習過：8 題　🟢 熟練：255 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：457 題　🟠 再練習：145 題　🟡 練習過：8 題　🟢 熟練：255 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 熟練統計
 
@@ -38,7 +38,7 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 29 | 9 | 0 | 3 | 0 | 41 |
+| [greedy](topics/greedy.md) | 28 | 9 | 0 | 3 | 0 | 40 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 6 | 5 | 0 | 14 | 0 | 25 |
 | [hash-table-existence](topics/hash-table-existence.md) | 5 | 5 | 0 | 9 | 0 | 19 |
@@ -63,7 +63,7 @@
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [quick-select](topics/quick-select.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 26 | 2 | 0 | 3 | 0 | 31 |
+| [sorting](topics/sorting.md) | 26 | 3 | 0 | 3 | 0 | 32 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 6 | 2 | 0 | 7 | 0 | 15 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 465 個解法標記為生疏，建議找時間重新練習。
+目前共有 464 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -332,7 +332,6 @@
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | [C++](problems/0939.md) | hash-table-uniqueness |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | [C++](problems/0941.md) | two-pointers-opposite |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | [C++](problems/0942.md) | two-pointers-opposite |
-| 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | [C++](problems/0945.md) | greedy |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | [C++](problems/0949.md) | math-permutation |
 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | [C++](problems/0951.md) | tree |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | [C++](problems/0958.md) | tree-bfs-level-order |
