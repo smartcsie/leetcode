@@ -1,12 +1,11 @@
 # bit-manipulation
 
-## 🔴 生疏（7）
+## 🔴 生疏（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation, Math | [C++](../problems/0029.md) | O(log²N) | O(1) |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | String, Bit Manipulation, Sliding Window | [C++](../problems/1016.md) | O(N*LEN) | O(1) |
-| 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | Backtracking Permutation, Recursion, Divide and Conquer | [C++](../problems/1545.md) | O(N) | O(N) |
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Math, Bit Manipulation | [C++](../problems/1680.md) | O(N) | O(1) |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 Easy | Bit Manipulation, Built-in Function | [C++](../problems/2859.md) | O(N) | O(1) |
@@ -33,11 +32,12 @@
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation | [C++](../problems/2605.md) | O(N+M) | O(1) |
 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Array, Hash Table, Bitset | [C++](../problems/2956.md) | O(N+M) | O(1)* |
 
-## 🟣 易忘（1）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](../problems/0401.md) | O(1) | O(1) |
+| 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | Backtracking Permutation, Recursion, Divide and Conquer | [C++](../problems/1545.md) | O(N) | O(N) |
 
 ## 🟢 熟悉（15）
 

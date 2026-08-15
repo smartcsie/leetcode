@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：445 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：12 題　🟢 熟練：257 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：444 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：13 題　🟢 熟練：257 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -25,7 +25,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 10 | 6 | 0 | 0 | 1 | 0 | 17 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 7 | 8 | 3 | 1 | 15 | 0 | 34 |
+| [bit-manipulation](topics/bit-manipulation.md) | 6 | 8 | 3 | 2 | 15 | 0 | 34 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 4 | 2 | 0 | 0 | 3 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 1 | 0 | 0 | 1 | 0 | 5 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 452 個解法標記為生疏，建議找時間重新練習。
+目前共有 451 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -399,7 +399,6 @@
 | 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 Medium | [C++](problems/1529.md) | greedy |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 Medium | [C++](problems/1530.md) | tree-dfs-path |
 | 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | 🟢 Easy | [C++](problems/1539.md) | binary-search-build-in |
-| 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | [C++](problems/1545.md) | bit-manipulation |
 | 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | [C++](problems/1567.md) | dynamic-programming |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | [C++](problems/1588.md) | math-combination |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | [C++](problems/1588.md) | array-prefix-sum |
@@ -548,7 +547,7 @@
 
 ---
 
-目前共有 12 個解法標記為易忘，建議面試前重點複習。
+目前共有 13 個解法標記為易忘，建議面試前重點複習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -560,6 +559,7 @@
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | [C++](problems/0970.md) | math |
 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | [C++](problems/1025.md) | math-game-theory |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | [C++](problems/1185.md) | math |
+| 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | [C++](problems/1545.md) | bit-manipulation |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | [C++](problems/2745.md) | greedy |
 | 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | [C++](problems/3227.md) | math-game-theory |
 | 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | [C++](problems/3232.md) | math-game-theory |
