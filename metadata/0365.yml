@@ -13,3 +13,4 @@ solutions:
   time: O(log(min(x,y)))
   space: O(1)
   familiarity: 再練習
+  note: '> 祖定理的應用 (Bézout''s Identity)'
