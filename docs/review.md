@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：455 題　🟠 再練習：140 題　🟡 練習過：8 題　🟣 易忘：7 題　🟢 熟練：255 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：454 題　🟠 再練習：141 題　🟡 練習過：8 題　🟣 易忘：7 題　🟢 熟練：255 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -53,7 +53,7 @@
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 1 | 0 | 0 | 5 | 0 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 5 | 1 | 0 | 0 | 3 | 0 | 9 |
+| [math-gcd](topics/math-gcd.md) | 4 | 2 | 0 | 0 | 3 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 462 個解法標記為生疏，建議找時間重新練習。
+目前共有 461 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -231,7 +231,6 @@
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | [C++](problems/0338.md) | bit-manipulation-and |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | [C++](problems/0347.md) | sorting |
 | 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | [C++](problems/0357.md) | math-combination |
-| 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 Medium | [C++](problems/0365.md) | math-gcd |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 Easy | [C++](problems/0367.md) | binary-search |
 | 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sum/) | 🟡 Medium | [C++](problems/0373.md) | priority-queue |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | [C++](problems/0374.md) | binary-search |
