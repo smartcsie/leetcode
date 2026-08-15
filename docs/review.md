@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：440 題　🟠 再練習：144 題　🟡 練習過：8 題　🟣 易忘：16 題　🟢 熟練：257 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：440 題　🟠 再練習：143 題　🟡 練習過：8 題　🟣 易忘：17 題　🟢 熟練：257 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -48,7 +48,7 @@
 | [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 7 | 17 | 0 | 5 | 10 | 0 | 39 |
+| [math](topics/math.md) | 7 | 16 | 0 | 6 | 10 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -543,7 +543,7 @@
 
 ---
 
-目前共有 16 個解法標記為易忘，建議面試前重點複習。
+目前共有 17 個解法標記為易忘，建議面試前重點複習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -551,6 +551,7 @@
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | [C++](problems/0292.md) | math-game-theory |
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | [C++](problems/0397.md) | greedy |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | [C++](problems/0401.md) | bit-manipulation |
+| 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | [C++](problems/0441.md) | math |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | [C++](problems/0633.md) | math |
 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | [C++](problems/0810.md) | math-game-theory |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | [C++](problems/0970.md) | math |

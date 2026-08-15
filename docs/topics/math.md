@@ -12,7 +12,7 @@
 | 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 Easy | Math, Greedy | [C++](../problems/2600.md) | O(1) | O(1) |
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](../problems/2894.md) | O(1) | O(1) |
 
-## 🟠 再練習（16）
+## 🟠 再練習（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,6 @@
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](../problems/0263.md) | O(logN) | O(1) |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](../problems/0343.md) | O(1) | O(1) |
-| 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](../problems/0441.md) | O(logN) | O(1) |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | Modular Arithmetic | [C++](../problems/1015.md) | O(K) | O(1) |
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](../problems/1344.md) | O(1) | O(1) |
 | 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 Easy | Math, Construction | [C++](../problems/1374.md) | O(N) | O(N) |
@@ -37,11 +36,12 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（5）
+## 🟣 易忘（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math, Binary Exponentiation | [C++](../problems/0050.md) | O(logN) | O(1) |
+| 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](../problems/0441.md) | O(logN) | O(1) |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Math, Two Pointers | [C++](../problems/0633.md) | O(√C) | O(1) |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math, Hash Table | [C++](../problems/0970.md) | O(log_X(BOUND)*log_Y(BOUND)) | O(S) |
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math, Modulo | [C++](../problems/1018.md) | O(N) | O(1) |
