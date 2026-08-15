@@ -29,26 +29,19 @@ public:
         ans.reserve(a + b);
         while(a && b) {
             if(a > b) {
-                ans.push_back('a');
-                ans.push_back('a');
-                ans.push_back('b');
-                a -= 2;
+                ans.push_back('a'); ans.push_back('a'); ans.push_back('b');
+                a -= 2 ; 
                 b -= 1;
-            } else if(b > a) {
-                ans.push_back('b');
-                ans.push_back('b');
-                ans.push_back('a');
-                a -= 1;
-                b -= 2;
+            } else if(a < b) {
+                ans.push_back('b') ; ans.push_back('b'); ans.push_back('a');
+                a -= 1 ; b -= 2;
             } else {
-                ans.push_back('a');
-                ans.push_back('b');
-                a -= 1;
-                b -= 1;
+                ans.push_back('a') ; ans.push_back('b');
+                a -= 1 ; b -= 1;
             }
         }
-        if(a) for(int i = 1; i <= a; i++) ans.push_back('a');
-        if(b) for(int i = 1; i <= b; i++) ans.push_back('b');
+        while(a--)  ans.push_back('a');
+        while(b--)  ans.push_back('b');
         return ans;
     }
 };
