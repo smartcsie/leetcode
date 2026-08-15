@@ -14,13 +14,10 @@
 class Solution {
 public:
     string reverseStr(string s, int k) {
-        int n = s.size();
-        // 每次跳 2k 個步長
-        for (int i = 0; i < n; i += 2 * k) {
-            // 定義需要反轉的區間：[i, min(i + k, n) - 1]
-            // std::reverse 的區間是左閉右開 [first, last)
-            int end = min(i + k, n);
-            reverse(s.begin() + i, s.begin() + end);
+        for (size_t i = 0; i < s.length(); i += 2 * k) {
+            int left = i;
+            int right = min(i + k - 1, s.length() - 1);
+            while (left < right) swap(s[left++], s[right--]);
         }
         return s;
     }
