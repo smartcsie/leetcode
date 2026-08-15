@@ -1,13 +1,11 @@
 # two-pointers-opposite
 
-## 🔴 生疏（8）
+## 🔴 生疏（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 Medium | Array, Two Pointers, Greedy | [C++](../problems/0011.md) | O(N) | O(1) |
-| 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](../problems/0015.md) | O(N²) | O(logN) |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](../problems/0016.md) | O(N²) | O(1) |
-| 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | Two Pointers, Sorting | [C++](../problems/0018.md) | O(N³) | O(1) |
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/0611.md) | O(N²) | O(1) |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | Two Pointers | [C++](../problems/0680.md) | O(N) | O(1) |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | Greedy, Two Pointers | [C++](../problems/0942.md) | O(N) | O(N) |
@@ -24,9 +22,12 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（0）
+## 🟣 易忘（2）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 Medium | Two Pointers Opposite, Two Pointers, Sorting | [C++](../problems/0015.md) | O(N²) | O(logN) |
+| 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/0018.md) | O(N³) | O(1) |
 
 ## 🟢 熟悉（6）
 

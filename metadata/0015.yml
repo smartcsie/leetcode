@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0015.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Two Pointers Opposite
   - Two Pointers
   - Sorting
   topics:
   - two-pointers-opposite
   time: O(N²)
   space: O(logN)
-  familiarity: 生疏
+  familiarity: 易忘

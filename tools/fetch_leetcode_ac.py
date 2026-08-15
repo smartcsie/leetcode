@@ -123,6 +123,16 @@ def extract_ac_count(data):
     num_total = data.get('num_total')
     user_name = data.get('user_name', '')
 
+    # 逐題 AC 清單：從 stat_status_pairs 裡把每一筆 status == 'ac' 的
+    # frontend_question_id 收集起來，供 find_ac_gap.py 逐題比對用。
+    # （frontend_question_id 就是 LeetCode 網站上顯示、也是 metadata/*.yml
+    #   裡 number 欄位對應的題號，跟內部的 question_id 不是同一組編號）
+    solved_ids = sorted({
+        pair['stat']['frontend_question_id']
+        for pair in data.get('stat_status_pairs', [])
+        if pair.get('status') == 'ac' and pair.get('stat', {}).get('frontend_question_id') is not None
+    })
+
     if num_solved is None:
         # 保底：如果 num_solved 欄位不存在，改用 stat_status_pairs 自己數
         num_solved = sum(
@@ -134,7 +144,12 @@ def extract_ac_count(data):
         print("⚠️ 這份 JSON 裡沒有 user_name，可能是登入狀態沒生效（抓到的是匿名版本），"
               "請確認下載當下瀏覽器有登入 leetcode.com")
 
-    return num_solved, num_total, user_name
+    if not solved_ids:
+        print("⚠️ 沒有從 stat_status_pairs 抓到任何逐題 AC 紀錄，"
+              "leetcode_ac_cache.json 裡的 solved_ids 會是空的，"
+              "find_ac_gap.py 仍只能看到總數，無法逐題比對")
+
+    return num_solved, num_total, user_name, solved_ids
 
 
 def main():
@@ -146,19 +161,20 @@ def main():
     try_auto_fetch(session_path, json_path)
 
     data = load_leetcode_all(json_path)
-    num_solved, num_total, user_name = extract_ac_count(data)
+    num_solved, num_total, user_name, solved_ids = extract_ac_count(data)
 
     cache = {
         'num_solved': num_solved,
         'num_total': num_total,
         'user_name': user_name,
         'fetched_at': datetime.now().strftime('%Y-%m-%d %H:%M'),
+        'solved_ids': solved_ids,
     }
     with open(cache_path, 'w', encoding='utf-8') as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
     print(f"✓ 帳號 {user_name or '(未知)'}：AC {num_solved}{f' / {num_total}' if num_total else ''} 題")
-    print(f"  已寫入 {cache_path}")
+    print(f"  已寫入 {cache_path}（含 {len(solved_ids)} 筆逐題 AC 題號）")
 
 
 if __name__ == '__main__':
