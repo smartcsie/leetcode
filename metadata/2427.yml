@@ -5,11 +5,11 @@ solutions:
 - file: Solution_2427.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Gcd
   - Number Theory
   - GCD
   topics:
   - math-gcd
   time: O(min(A,B))
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習

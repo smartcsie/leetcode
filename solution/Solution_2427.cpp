@@ -20,13 +20,9 @@ class Solution {
 public:
     int commonFactors(int a, int b) {
         int ans = 0;
-        // 求出 a 與 b 的最大公因數
-        int gcd = std::gcd(a, b);
-        // 檢查從 1 到 gcd 之間的所有數字
-        for(int i = 1; i <= gcd; i++) {
-            if(a % i == 0 && b % i == 0) {
-                ans++;
-            }
+        int _gcd = gcd(a, b);
+        for(int x = 1; x <= _gcd; x++) {
+            if(a % x == 0 && b % x == 0) ans++;
         }
         return ans;
     }

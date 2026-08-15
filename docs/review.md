@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-14 20:54）
-- **目前收錄總題目數：** 865 題　🔴 生疏：454 題　🟠 再練習：141 題　🟡 練習過：8 題　🟣 易忘：7 題　🟢 熟練：255 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：453 題　🟠 再練習：142 題　🟡 練習過：8 題　🟣 易忘：7 題　🟢 熟練：255 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -53,7 +53,7 @@
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 1 | 0 | 0 | 5 | 0 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 4 | 2 | 0 | 0 | 3 | 0 | 9 |
+| [math-gcd](topics/math-gcd.md) | 3 | 3 | 0 | 0 | 3 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -89,7 +89,7 @@
 
 ---
 
-目前共有 461 個解法標記為生疏，建議找時間重新練習。
+目前共有 460 個解法標記為生疏，建議找時間重新練習。
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -470,7 +470,6 @@
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | [C++](problems/2415.md) | tree-dfs-path |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | [C++](problems/2419.md) | bit-manipulation-and |
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | [C++](problems/2425.md) | bit-manipulation-xor |
-| 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 Easy | [C++](problems/2427.md) | math-gcd |
 | 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | [C++](problems/2429.md) | bit-manipulation-xor |
 | 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 Medium | [C++](problems/2433.md) | bit-manipulation-xor |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | [C++](problems/2455.md) | math |
