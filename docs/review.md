@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（406）](#review-shengshu)　[🟣 易忘清單（26）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（405）](#review-shengshu)　[🟣 易忘清單（27）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-15 20:50）
-- **目前收錄總題目數：** 865 題　🔴 生疏：400 題　🟠 再練習：160 題　🟡 練習過：13 題　🟣 易忘：26 題　🟢 熟練：266 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：399 題　🟠 再練習：160 題　🟡 練習過：13 題　🟣 易忘：27 題　🟢 熟練：266 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -32,7 +32,7 @@
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 0 | 1 | 0 | 1 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 0 | 0 | 2 | 0 | 18 |
-| [design](topics/design.md) | 5 | 1 | 0 | 0 | 0 | 0 | 6 |
+| [design](topics/design.md) | 5 | 1 | 0 | 1 | 0 | 0 | 7 |
 | [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 0 | 0 | 31 |
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 5 | 1 | 2 | 0 | 5 | 0 | 13 |
@@ -69,7 +69,7 @@
 | [sorting](topics/sorting.md) | 26 | 3 | 0 | 0 | 3 | 0 | 32 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
-| [stack](topics/stack.md) | 6 | 2 | 0 | 0 | 8 | 0 | 16 |
+| [stack](topics/stack.md) | 5 | 2 | 0 | 0 | 8 | 0 | 15 |
 | [string](topics/string.md) | 11 | 6 | 1 | 1 | 21 | 0 | 40 |
 | [string-character-classification](topics/string-character-classification.md) | 1 | 3 | 0 | 0 | 18 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
@@ -95,9 +95,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 406 個解法標記為生疏，建議找時間重新練習。
+目前共有 405 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（5）](#shengshu-design)　[🔢 Math（37）](#shengshu-math)　[📊 Bit Manipulation（29）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（37）](#shengshu-array)　[🌳 Tree（52）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（27）](#shengshu-pointers)　[🔑 Hash Table（10）](#shengshu-hash-table)　[📚 Stack（12）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（4）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（27）](#shengshu-sorting)　[🧩 Dynamic Programming（45）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
+📌 **快速跳轉：** [🎨 Design（5）](#shengshu-design)　[🔢 Math（37）](#shengshu-math)　[📊 Bit Manipulation（29）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（37）](#shengshu-array)　[🌳 Tree（52）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（27）](#shengshu-pointers)　[🔑 Hash Table（10）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（4）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（27）](#shengshu-sorting)　[🧩 Dynamic Programming（45）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（5）
@@ -413,12 +413,11 @@
 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 Medium | [C++](problems/3926.md) | hash-table-counting |
 
 <a id="shengshu-stack"></a>
-#### 📚 Stack（12）
+#### 📚 Stack（11）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 🔴 Hard | [C++](problems/0032.md) | stack |
-| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | [C++](problems/0225.md) | stack |
 | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | [C++](problems/0316.md) | stack |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | [C++](problems/0445.md) | stack |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | [C++](problems/0496.md) | monotonic-stack |
@@ -636,9 +635,16 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 26 個解法標記為易忘，建議面試前重點複習。
+目前共有 27 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🔢 Math（13）](#yiwang-math)　[📊 Bit Manipulation（2）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[👥 Pointers（4）](#yiwang-pointers)　[🧩 Greedy（6）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（13）](#yiwang-math)　[📊 Bit Manipulation（2）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[👥 Pointers（4）](#yiwang-pointers)　[🧩 Greedy（6）](#yiwang-greedy)
+
+<a id="yiwang-design"></a>
+#### 🎨 Design（1）
+
+| # | 題目 | 難度 | 解法檔案 | 分類 |
+| --- | --- | --- | --- | --- |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | [C++](problems/0225.md) | design |
 
 <a id="yiwang-math"></a>
 #### 🔢 Math（13）

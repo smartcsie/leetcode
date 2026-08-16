@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0225.cpp
   difficulty: 🟢 Easy
   tags:
-  - Stack
+  - Design
   - Queue
   topics:
-  - stack
+  - design
   time: O(N) push <br> O(1) pop
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
