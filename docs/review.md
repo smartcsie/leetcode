@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（394）](#review-shengshu)　[🟣 易忘清單（31）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（394）](#review-shengshu)　[🟣 易忘清單（30）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-15 20:50）
-- **目前收錄總題目數：** 865 題　🔴 生疏：389 題　🟠 再練習：166 題　🟡 練習過：13 題　🟣 易忘：30 題　🟢 熟練：267 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：389 題　🟠 再練習：167 題　🟡 練習過：13 題　🟣 易忘：29 題　🟢 熟練：267 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -32,7 +32,7 @@
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 0 | 1 | 0 | 1 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 10 | 6 | 0 | 0 | 2 | 0 | 18 |
-| [design](topics/design.md) | 0 | 4 | 0 | 2 | 1 | 0 | 7 |
+| [design](topics/design.md) | 0 | 5 | 0 | 1 | 1 | 0 | 7 |
 | [dynamic-programming](topics/dynamic-programming.md) | 31 | 0 | 0 | 0 | 0 | 0 | 31 |
 | [dynamic-programming-kadane-algorithm](topics/dynamic-programming-kadane-algorithm.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 5 | 1 | 2 | 0 | 5 | 0 | 13 |
@@ -618,16 +618,15 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 31 個解法標記為易忘，建議面試前重點複習。
+目前共有 30 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（2）](#yiwang-design)　[🔢 Math（15）](#yiwang-math)　[📊 Bit Manipulation（2）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（1）](#yiwang-array)　[👥 Pointers（4）](#yiwang-pointers)　[🧩 Greedy（6）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（15）](#yiwang-math)　[📊 Bit Manipulation（2）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（1）](#yiwang-array)　[👥 Pointers（4）](#yiwang-pointers)　[🧩 Greedy（6）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
-#### 🎨 Design（2）
+#### 🎨 Design（1）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
-| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | [C++](problems/0146.md) | design |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | [C++](problems/0225.md) | design |
 
 <a id="yiwang-math"></a>

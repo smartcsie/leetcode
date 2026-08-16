@@ -13,5 +13,5 @@ solutions:
   - design
   time: O(1)
   space: O(Capacity)
-  familiarity: 易忘
+  familiarity: 再練習
   is_best: true
