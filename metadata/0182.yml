@@ -5,9 +5,10 @@ solutions:
 - file: Solution_0182.sql
   difficulty: 🟢 Easy
   tags:
+  - Sql
   - Database
   topics:
   - sql
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
