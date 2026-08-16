@@ -11,7 +11,7 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
   note: '> [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)
     <br>
 
