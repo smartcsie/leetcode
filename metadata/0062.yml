@@ -5,21 +5,16 @@ solutions:
 - file: Solution_0062.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Combination
   - Combinatorics
   - DP
   topics:
   - math-combination
   time: O(min(M,N))
   space: O(1)
-  note: '> [Unique Paths](https://leetcode.com/problems/unique-paths/)<br>
-
-    > 在 **mxn** 的網格中，計算從左上角到右下角的總路徑數，<br>
+  familiarity: 再練習
+  note: '> 在 **mxn** 的網格中，計算從左上角到右下角的總路徑數，<br>
 
     > **總步數為 (m-1) + (n-1)，從中選取 m-1 步向下走**。<br>
 
-    > **C(m + n - 2, m - 1)** <br>
-
-
-    <br><br>'
-  familiarity: 生疏
+    > **C(m + n - 2, m - 1)** <br>'
