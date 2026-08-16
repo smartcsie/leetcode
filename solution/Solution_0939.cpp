@@ -14,22 +14,19 @@
 class Solution {
 public:
     int minAreaRect(vector<vector<int>>& points) {
-        vector<vector<int>>& p = points;
-        set<vector<int>> seen;
-        for(const vector<int>& v : p) seen.insert(v);
-        int minArea = INT_MAX;
-        for(const vector<int>& p1 : p) {
-            for(const vector<int>& p2 : p) {
-                if(p1 != p2) {
-                    int x1 = p1[0], y1 = p1[1];
-                    int x2 = p2[0], y2 = p2[1];
-                    if(x1 != x2 && y1 != y2 && seen.contains({x1, y2}) && seen.contains({x2, y1})) {
-                        int area = abs(x1 - x2) * abs(y1 - y2);
-                        minArea = min(minArea, area);
-                    }
-                }
-            } 
-        } 
-        return minArea == INT_MAX ? 0 : minArea;
+        int ans = INT_MAX;
+        unordered_map<int, unordered_set<int>> xToYs;
+        for (const vector<int>& p : points)
+            xToYs[p[0]].insert(p[1]);
+        for (int i = 1; i < points.size(); ++i)
+            for (int j = 0; j < i; ++j) {
+                const vector<int>& p = points[i];
+                const vector<int>& q = points[j];
+                if (p[0] == q[0] || p[1] == q[1])
+                    continue;
+                if (xToYs[p[0]].contains(q[1]) && xToYs[q[0]].contains(p[1]))
+                    ans = min(ans, abs(p[0] - q[0]) * abs(p[1] - q[1]));
+        }
+        return ans == INT_MAX ? 0 : ans;
     }
 };
