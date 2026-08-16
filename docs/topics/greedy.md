@@ -1,6 +1,6 @@
 # greedy
 
-## 🔴 生疏（23）
+## 🔴 生疏（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +10,6 @@
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy, String | [C++](../problems/0678.md) | O(N) | O(1) |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | Stack, Greedy | [C++](../problems/0921.md) | O(N) | O(1) |
 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 Easy | Greedy, Sorting | [C++](../problems/1005.md) | O(NlogN) | O(1) |
-| 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 Medium | Greedy, State Machine | [C++](../problems/1529.md) | O(N) | O(1) |
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | Math, Greedy | [C++](../problems/1785.md) | O(N) | O(1) |
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy, String | [C++](../problems/1881.md) | O(N) | O(1) |
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy, Two Candidates | [C++](../problems/1909.md) | O(N) | O(1) |
@@ -28,7 +27,7 @@
 | 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | Greedy, Sorting, Counting | [C++](../problems/3014.md) | O(N+26log26) | O(1) |
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | Greedy, String | [C++](../problems/3114.md) | O(1) | O(1) |
 
-## 🟠 再練習（10）
+## 🟠 再練習（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -37,6 +36,7 @@
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy | [C++](../problems/0670.md) | O(N) | O(1) |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 Easy | Greedy, Simulation | [C++](../problems/0860.md) | O(N) | O(1) |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Math, Greedy | [C++](../problems/0961.md) | O(N) | O(1) |
+| 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 Medium | Greedy, State Machine | [C++](../problems/1529.md) | O(N) | O(1) |
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy | [C++](../problems/1576.md) | O(N) | O(1) |
 | 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 Easy | Greedy, Hash Table | [C++](../problems/1624.md) | O(N) | O(1) |
 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | [C++](../problems/2027.md) | O(N) | O(1) |
