@@ -1,16 +1,15 @@
 # design
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Design, Hash Table | [C++](../problems/0706.md) | O(N/K) | O(M+K) |
+目前沒有標記為生疏的解法。
 
-## 🟠 再練習（1）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | 🟢 Easy | Design, Queue | [C++](../problems/0232.md) | O(1) amortized | O(N) |
+| 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Design, Hash Table | [C++](../problems/0706.md) | O(N/K) | O(M+K) |
 
 ## 🟡 練習過（0）
 

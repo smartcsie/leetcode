@@ -11,4 +11,4 @@ solutions:
   - design
   time: O(N/K)
   space: O(M+K)
-  familiarity: 生疏
+  familiarity: 再練習
