@@ -17,30 +17,20 @@
 class Solution {
 public:
     int findShortestSubArray(std::vector<int>& nums) {
-        // Map 儲存結構: Key 為數字，Value 為 {出現次數, 第一次出現的索引}
-        std::unordered_map<int, std::pair<int, int>> map;
+                unordered_map<int, array<int, 2>> maps;
         int maxCount = 0;
-        int minDiffIdx = 50001; // 根據題目限制，陣列長度最大 50000
-        
-        for (int i = 0; i < nums.size(); i++) {
-            int k = nums[i];
-            
-            // 記錄第一次出現的索引
-            if (!map.count(k)) {
-                map[k] = {1, i};
-            } else {
-                map[k].first++;
-            }
-            
-            // 動態維護最大度與最短長度
-            if (map[k].first > maxCount) {
-                maxCount = map[k].first;
-                minDiffIdx = i - map[k].second + 1;
-            } else if (map[k].first == maxCount) {
-                minDiffIdx = std::min(minDiffIdx, i - map[k].second + 1);
-            }
+        int minDiff = 50001;
+        for(int i = 0 ;i < nums.size(); i++) {
+            int x = nums[i];
+            if(!maps.count(x)) maps[x] = {1 , i};
+            else  maps[x][0]++;
+            if(maps[x][0] > maxCount) {
+                maxCount = maps[x][0];
+                minDiff = i - maps[x][1] + 1;
+            } else if(maps[x][0] == maxCount) {
+                minDiff = min(minDiff, i - maps[x][1] + 1);
+            } 
         }
-        
-        return minDiffIdx;
+        return minDiff;
     }
 };
