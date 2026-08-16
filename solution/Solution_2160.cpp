@@ -19,19 +19,13 @@
 class Solution {
 public:
     int minimumSum(int num) {
-        std::vector<int> digits(4, 0);
-        int temp = num;
-        
-        // 拆解四個位數
-        for (int i = 0; i < 4; ++i) {
-            digits[i] = temp % 10;
-            temp /= 10; 
-        } 
-        
-        // 將位數由小到大排序
-        std::ranges::sort(digits);
-        
+        vector<int> digits;
+        while(num > 0) {
+            digits.push_back(num % 10);
+            num /= 10;
+        }
+        sort(digits.begin(), digits.end());
         // 貪心組合：最小的兩個當十位數，其餘當個位數
-        return (digits[0] + digits[1]) * 10 + (digits[2] + digits[3]);
+        return (digits[0] + digits[1]) * 10 + digits[2] + digits[3];
     }
 };
