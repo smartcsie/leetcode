@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（394）](#review-shengshu)　[🟣 易忘清單（30）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（393）](#review-shengshu)　[🟣 易忘清單（30）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-15 20:50）
-- **目前收錄總題目數：** 865 題　🔴 生疏：389 題　🟠 再練習：167 題　🟡 練習過：13 題　🟣 易忘：29 題　🟢 熟練：267 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：388 題　🟠 再練習：168 題　🟡 練習過：13 題　🟣 易忘：29 題　🟢 熟練：267 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -15,7 +15,7 @@
 | [array](topics/array.md) | 4 | 9 | 0 | 0 | 15 | 0 | 28 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 4 | 0 | 0 | 4 | 0 | 9 |
-| [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| [array-difference-array](topics/array-difference-array.md) | 2 | 1 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 3 | 7 | 0 | 0 | 16 | 0 | 26 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
@@ -95,9 +95,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 394 個解法標記為生疏，建議找時間重新練習。
+目前共有 393 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（33）](#shengshu-math)　[📊 Bit Manipulation（29）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（36）](#shengshu-array)　[🌳 Tree（52）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（10）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（4）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（27）](#shengshu-sorting)　[🧩 Dynamic Programming（45）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（33）](#shengshu-math)　[📊 Bit Manipulation（29）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（35）](#shengshu-array)　[🌳 Tree（52）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（10）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（4）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（27）](#shengshu-sorting)　[🧩 Dynamic Programming（45）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（33）
@@ -198,7 +198,7 @@
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 Easy | [C++](problems/3986.md) | string |
 
 <a id="shengshu-array"></a>
-#### 🍱 Array（36）
+#### 🍱 Array（35）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -229,7 +229,6 @@
 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | [C++](problems/1732.md) | array-prefix-sum |
 | 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 Medium | [C++](problems/1738.md) | array-prefix-sum |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 Easy | [C++](problems/1848.md) | array-linear-scan |
-| 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 Easy | [C++](problems/1854.md) | array-difference-array |
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | [C++](problems/2256.md) | array-prefix-sum |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | [C++](problems/2559.md) | array-prefix-sum |
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | [C++](problems/2574.md) | array-prefix-sum |

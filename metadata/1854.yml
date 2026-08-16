@@ -5,10 +5,11 @@ solutions:
 - file: Solution_1854.cpp
   difficulty: 🟢 Easy
   tags:
+  - Array Difference Array
   - Difference Array
   - Sweep Line
   topics:
   - array-difference-array
   time: O(N+Y)
   space: O(Y)
-  familiarity: 生疏
+  familiarity: 再練習
