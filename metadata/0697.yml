@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0697.cpp
   difficulty: 🟢 Easy
   tags:
+  - Array Continuous Counting
   - Hash Map
   - One-pass
   topics:
-  - hash-table-counting
+  - array-continuous-counting
   time: O(N)
   space: O(N)
   familiarity: 生疏
