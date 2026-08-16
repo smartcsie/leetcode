@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（416）](#review-shengshu)　[🟣 易忘清單（24）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（415）](#review-shengshu)　[🟣 易忘清單（24）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-15 20:50）
-- **目前收錄總題目數：** 865 題　🔴 生疏：409 題　🟠 再練習：155 題　🟡 練習過：13 題　🟣 易忘：24 題　🟢 熟練：264 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：408 題　🟠 再練習：156 題　🟡 練習過：13 題　🟣 易忘：24 題　🟢 熟練：264 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -40,7 +40,7 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 22 | 11 | 1 | 4 | 4 | 0 | 42 |
+| [greedy](topics/greedy.md) | 21 | 12 | 1 | 4 | 4 | 0 | 42 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 3 | 7 | 0 | 0 | 14 | 0 | 24 |
 | [hash-table-existence](topics/hash-table-existence.md) | 4 | 6 | 0 | 0 | 9 | 0 | 19 |
@@ -95,9 +95,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 416 個解法標記為生疏，建議找時間重新練習。
+目前共有 415 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（5）](#shengshu-design)　[🔢 Math（37）](#shengshu-math)　[📊 Bit Manipulation（29）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（39）](#shengshu-array)　[🌳 Tree（53）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（28）](#shengshu-pointers)　[🔑 Hash Table（10）](#shengshu-hash-table)　[📚 Stack（12）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（4）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（27）](#shengshu-sorting)　[🧩 Dynamic Programming（45）](#shengshu-dynamic-programming)　[🧩 Greedy（22）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[🔢 SQL（1）](#shengshu-sql)　[📄 Other（1）](#shengshu-other)
+📌 **快速跳轉：** [🎨 Design（5）](#shengshu-design)　[🔢 Math（37）](#shengshu-math)　[📊 Bit Manipulation（29）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（39）](#shengshu-array)　[🌳 Tree（53）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（28）](#shengshu-pointers)　[🔑 Hash Table（10）](#shengshu-hash-table)　[📚 Stack（12）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（4）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（27）](#shengshu-sorting)　[🧩 Dynamic Programming（45）](#shengshu-dynamic-programming)　[🧩 Greedy（21）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[🔢 SQL（1）](#shengshu-sql)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（5）
@@ -559,7 +559,7 @@
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | [C++](problems/2826.md) | dynamic-programming |
 
 <a id="shengshu-greedy"></a>
-#### 🧩 Greedy（22）
+#### 🧩 Greedy（21）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -569,7 +569,6 @@
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | [C++](problems/0678.md) | greedy |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | [C++](problems/0921.md) | greedy |
 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 Easy | [C++](problems/1005.md) | greedy |
-| 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | [C++](problems/1785.md) | greedy |
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | [C++](problems/1881.md) | greedy |
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | [C++](problems/1909.md) | greedy |
 | 1936 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | [C++](problems/1936.md) | greedy |
