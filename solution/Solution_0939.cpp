@@ -14,24 +14,22 @@
 class Solution {
 public:
     int minAreaRect(vector<vector<int>>& points) {
-        unordered_set<int> seen;
-        for(const auto& point : points) {
-            seen.insert(point[0] * 40001 + point[1]);
-        }
+        vector<vector<int>>& p = points;
+        set<vector<int>> seen;
+        for(const vector<int>& v : p) seen.insert(v);
         int minArea = INT_MAX;
-        for(int i = 0; i < points.size() - 1; i++) {
-            for(int j = 0; j < points.size(); j++) {
-                int x1 = points[i][0], y1 = points[i][1];
-                int x2 = points[j][0] , y2 = points[j][1];
-                if(x1 != x2 && y1 != y2) {
-                    if(seen.contains(x1 * 40001 + y2) &&
-                        seen.contains(x2 * 40001 + y1) ) {
+        for(const vector<int>& p1 : p) {
+            for(const vector<int>& p2 : p) {
+                if(p1 != p2) {
+                    int x1 = p1[0], y1 = p1[1];
+                    int x2 = p2[0], y2 = p2[1];
+                    if(x1 != x2 && y1 != y2 && seen.contains({x1, y2}) && seen.contains({x2, y1})) {
                         int area = abs(x1 - x2) * abs(y1 - y2);
                         minArea = min(minArea, area);
                     }
                 }
-            }
-        }
-        return (minArea == INT_MAX) ? 0 : minArea;
+            } 
+        } 
+        return minArea == INT_MAX ? 0 : minArea;
     }
 };
