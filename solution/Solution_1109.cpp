@@ -10,24 +10,14 @@
  * 空間複雜度：O(N) - 差分陣列大小為 N+1。
  */
 
-class Solution {
-public:
-    vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
-        vector<int> res(n , 0);
-        vector<int> diff(n , 0);
-        for(const vector<int>& booking : bookings) {
-            int flight1 = booking[0];
-            int flight2 = booking[1];
-            int seat = booking[2];
-            diff[flight1 - 1] += seat;
-            if(flight2 < n) diff[flight2] -= seat;
-        }
-        int cur_seat = 0;
-        for(int i = 0; i <n ;i++) {
-            cur_seat += diff[i];
-            res[i] = cur_seat;
-        }
-        return res;
-        
+vector<int> diff(n + 1, 0); // 多一格避免越界判斷
+    for (const auto& b : bookings) {
+        diff[b[0] - 1] += b[2];  // 起點加
+        diff[b[1]]     -= b[2];  // 終點後一格減
     }
-};
+    // 前綴和還原
+    for (int i = 1; i < n; i++)
+        diff[i] += diff[i - 1];
+    diff.pop_back(); // 拿掉多的那格
+    return diff;
+}
