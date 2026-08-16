@@ -14,7 +14,7 @@
 | [2d-array](topics/2d-array.md) | 0 | 8 | 0 | 0 | 9 | 0 | 17 |
 | [array](topics/array.md) | 4 | 9 | 0 | 0 | 15 | 0 | 28 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 4 | 0 | 0 | 5 | 0 | 10 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 4 | 0 | 0 | 4 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 3 | 7 | 0 | 0 | 16 | 0 | 26 |
@@ -51,7 +51,7 @@
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 4 | 13 | 2 | 8 | 11 | 0 | 38 |
-| [math-combination](topics/math-combination.md) | 5 | 1 | 0 | 0 | 0 | 0 | 6 |
+| [math-combination](topics/math-combination.md) | 5 | 1 | 0 | 0 | 1 | 0 | 7 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 1 | 0 | 0 | 5 | 0 | 0 | 6 |
