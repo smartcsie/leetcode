@@ -59,8 +59,8 @@ nav:
       - string: topics/string.md
       - string-kmp: topics/string-kmp.md
       - string-state-machine: topics/string-state-machine.md
-      - string-substring: topics/string-substring.md
       - string-character-classification: topics/string-character-classification.md
+      - string-substring: topics/string-substring.md
       - string-substring-enumeration: topics/string-substring-enumeration.md
   - 📊 Bit Manipulation:
       - bit-manipulation: topics/bit-manipulation.md
@@ -88,10 +88,10 @@ nav:
       - fixed-size-sliding-window: topics/fixed-size-sliding-window.md
       - variable-size-sliding-window: topics/variable-size-sliding-window.md
   - 🔑 Hash Table:
+      - hash-table-existence: topics/hash-table-existence.md
       - hash-table-mapping: topics/hash-table-mapping.md
       - hash-table-counting: topics/hash-table-counting.md
       - hash-table-uniqueness: topics/hash-table-uniqueness.md
-      - hash-table-existence: topics/hash-table-existence.md
       - hash-table-intersection: topics/hash-table-intersection.md
   - 👥 Pointers:
       - two-pointers-center-expansion: topics/two-pointers-center-expansion.md
@@ -106,8 +106,10 @@ nav:
       - linked-list-circular: topics/linked-list-circular.md
   - 📚 Stack:
       - stack: topics/stack.md
-      - monotonic-queue: topics/monotonic-queue.md
       - monotonic-stack: topics/monotonic-stack.md
+  - 📚 Queue:
+      - monotonic-queue: topics/monotonic-queue.md
+      - queue: topics/queue.md
   - 🔢 Backtracking:
       - backtracking-combination: topics/backtracking-combination.md
       - backtracking-permutation: topics/backtracking-permutation.md
