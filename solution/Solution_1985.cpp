@@ -14,12 +14,13 @@
 class Solution {
 public:
     string kthLargestNumber(vector<string>& nums, int k) {
-        nth_element(nums.begin(), nums.begin() + k - 1,  nums.end(), [](const string& a, const string& b) {
+        auto it = nums.end() - k;
+        nth_element(nums.begin(), it, nums.end(), [](const string& a, const string& b){
             if(a.size() != b.size()) {
-                return a.size() > b.size();
+                return a.size() < b.size();
             }
-            return a > b;
+            return a < b;
         });
-        return nums[k - 1];
+        return *it;
     }
 };

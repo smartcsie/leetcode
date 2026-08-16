@@ -5,11 +5,11 @@ solutions:
 - file: Solution_1985.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Quick Select
   - Sorting
   - String
   topics:
   - quick-select
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
