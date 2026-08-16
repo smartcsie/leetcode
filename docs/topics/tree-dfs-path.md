@@ -1,10 +1,9 @@
 # tree-dfs-path
 
-## 🔴 生疏（29）
+## 🔴 生疏（28）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 Easy | Tree, DFS | [C++](../problems/0112.md) | O(N) | O(H) |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | Tree, DFS | [C++](../problems/0114.md) | O(N) | O(H) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | Tree, Recursion, DP | [C++](../problems/0124.md) | O(N) | O(H) |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree, DFS | [C++](../problems/0144.md) | O(N) | O(H) |
@@ -34,13 +33,14 @@
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 Medium | Tree, DFS, Post-order | [C++](../problems/1530.md) | O(N×D²) | O(H×D) |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree, DFS | [C++](../problems/2415.md) | O(N) | O(H) |
 
-## 🟠 再練習（4）
+## 🟠 再練習（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0101.md) | O(N) | O(H) |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0110.md) | O(N) | O(H) |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 Easy | Tree Dfs Path, BFS, DFS | [C++](../problems/0111.md) | O(N) | O(H) |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0112.md) | O(N) | O(H) |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 Medium | Tree Dfs Path, DFS, Backtracking | [C++](../problems/0113.md) | O(N) | O(H) |
 
 ## 🟡 練習過（0）
