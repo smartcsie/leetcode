@@ -1,21 +1,21 @@
 # hash-table-existence
 
-## 🔴 生疏（5）
+## 🔴 生疏（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](../problems/0128.md) | O(N) | O(N) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) |
-| 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Table Existence, Hash Set | [C++](../problems/0888.md) | O(A+B) | O(B) |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Table Existence, Hash Map | [C++](../problems/1640.md) | O(N) | O(N) |
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](../problems/2395.md) | O(N) | O(N) |
 
-## 🟠 再練習（5）
+## 🟠 再練習（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](../problems/0454.md) | O(N²) | O(N²) |
 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Existence | [C++](../problems/0532.md) | O(NlogN) - 排序後雙指針或二分搜尋。 | O(N) - 排序空間 O(logN)，set O(N)。 |
+| 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Table Existence, Hash Set | [C++](../problems/0888.md) | O(A+B) | O(B) |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](../problems/1346.md) | O(N) | O(N) |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table Existence, Hash Table, Two Pointers | [C++](../problems/2441.md) | O(N) | O(N) |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Hash Table Existence, Hash Set | [C++](../problems/3678.md) | O(N) | O(N) |

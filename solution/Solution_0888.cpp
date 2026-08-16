@@ -17,22 +17,16 @@
 class Solution {
 public:
     std::vector<int> fairCandySwap(std::vector<int>& aliceSizes, std::vector<int>& bobSizes) {
-        int aSum = std::accumulate(aliceSizes.begin(), aliceSizes.end(), 0);
-        int bSum = std::accumulate(bobSizes.begin(), bobSizes.end(), 0);
-        
-        // 計算目標差值的一半
-        int diff = (bSum - aSum) / 2;
-        
-        // 將 Bob 的糖果存入 Set 以便 O(1) 查詢
-        std::unordered_set<int> bobSet(bobSizes.begin(), bobSizes.end());
-        
-        for (const int& x : aliceSizes) {
-            int y = x + diff;
-            if (bobSet.count(y)) {
-                return {x, y};
-            }
+        vector<int>& aVec = aliceSizes;
+        vector<int>& bVec = bobSizes;
+        int sumA = 0, sumB = 0;
+        for(const int& x : aVec) sumA += x;
+        for(const int& x : bVec) sumB += x;
+        int diff = (sumB - sumA) / 2;
+        unordered_set bSet(bVec.begin(), bVec.end());
+        for(const int& x : aVec) {
+            if(bSet.count(x + diff)) return {x, x+ diff};
         }
-        
-        return {}; // 題目保證必有解
+        return {};
     }
 };
