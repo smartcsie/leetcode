@@ -13,15 +13,16 @@
 class Solution {
 public:
     vector<int> sequentialDigits(int low, int high) {
-        string s = "123456789";
         vector<int> res;
-        for(int len = 2; len <= 9; len++) {
-            for(int i= 0; i <= 9 -len; i++) {
-                int x = stoi(s.substr(i, len));
-                if(x >= low && x <= high) res.push_back(x);
-            }
+        queue<int> q;
+        for (int i = 1; i <= 9; ++i) q.push(i);
+        while (!q.empty()) {
+            int num = q.front(); q.pop();
+            if (num >= low && num <= high) res.push_back(num);
+            if (num > high) break;
+            int d = num % 10;
+            if (d < 9) q.push(num * 10 + d + 1);
         }
-        ranges::sort(res);
         return res;
     }
 };

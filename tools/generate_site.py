@@ -43,6 +43,7 @@ GROUPS = [
     (r'^monotonic-stack$', '📚 Stack'),
     (r'^monotonic-queue$', '📚 Stack'),
     (r'^priority-queue$', '📚 Priority Queue'),
+    (r'^queue$', '📚 Queue'),
     (r'^quick-select$', '📚 Quick Select'),
     (r'^tree', '🌳 Tree'),
     (r'^trie$', '🌳 Tree'),
