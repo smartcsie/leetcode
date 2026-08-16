@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0169.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Array Boyer Moore
   - Voting Algorithm
   topics:
   - array-boyer-moore
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習

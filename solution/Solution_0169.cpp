@@ -18,17 +18,10 @@ public:
     int majorityElement(vector<int>& nums) {
         int candidate = 0;
         int count = 0;
-        
-        for (int num : nums) {
-            // 當計數器為 0，更換新的候選人
-            if (count == 0) {
-                candidate = num;
-            }
-            
-            // 若 num 與候選人相同則加分，不同則扣分
-            count += (num == candidate) ? 1 : -1;
+        for(const int& x : nums) {
+            if(count == 0) candidate = x;
+            count += (x == candidate) ? 1 : -1;
         }
-        
         return candidate;
     }
 };
