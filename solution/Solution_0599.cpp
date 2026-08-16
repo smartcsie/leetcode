@@ -17,29 +17,21 @@
 
 class Solution {
 public:
-    std::vector<std::string> findRestaurant(std::vector<std::string>& list1, std::vector<std::string>& list2) {
-        std::unordered_map<std::string, int> map2;
-        // 1. 將 list2 建立雜湊表，key 為餐廳名稱，value 為其索引
-        for (int i = 0; i < list2.size(); ++i) {
-            map2[list2[i]] = i;
-        }
-        int minIdx = INT_MAX;
-        std::vector<std::string> ans;
-        // 2. 遍歷 list1 尋找交集並計算索引和
-        for (int i = 0; i < list1.size(); i++) {
-            std::string str = list1[i];
-            // 使用 find 檢查是否同時存在於 list2 中
-            if (map2.find(str) != map2.end()) {
-                int idx1 = i;
-                int idx2 = map2[str];
-                int currentSum = idx1 + idx2;
-                // 3. 根據索引和更新最佳解
-                if (currentSum < minIdx) {
-                    minIdx = currentSum;
-                    ans = {str}; // 發現更小的和，重置答案
-                } else if (currentSum == minIdx) {
-                    ans.push_back(str); // 發現相同的最小和，加入清單
-                }
+    vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
+        unordered_map<string, int> r2i;
+        for(int i = 0; i < list1.size(); i++) r2i[list1[i]] = i;
+        int minIdx = 2001;
+        vector<string> ans;
+        for(int idx2 = 0; idx2 < list2.size(); idx2++) {
+            string& restaurant = list2[idx2];
+            if(r2i.contains(restaurant)) {
+                int idx1 = r2i[restaurant];
+                if(idx1 + idx2 < minIdx) {
+                    minIdx = idx1 + idx2;
+                    ans = {restaurant};
+                } else if(idx1 + idx2 == minIdx) {
+                    ans.push_back(restaurant);
+                } 
             }
         }
         return ans;

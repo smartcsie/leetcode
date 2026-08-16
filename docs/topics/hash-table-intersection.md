@@ -1,15 +1,14 @@
 # hash-table-intersection
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
+
+目前沒有標記為生疏的解法。
+
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](../problems/0599.md) | O(N+M) | O(N) |
-
-## 🟠 再練習（2）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Intersection | [C++](../problems/2605.md) | O(NM) | O(1) |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Intersection | [C++](../problems/2605.md) | O(N+M) | O(1) |
 
