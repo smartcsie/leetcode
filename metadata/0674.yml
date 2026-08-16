@@ -5,8 +5,8 @@ solutions:
 - file: Solution_0674_1.cpp
   difficulty: 🟢 Easy
   tags:
+  - Dynamic Programming
   - DP
-  - Array
   topics:
   - dynamic-programming
   time: O(N)
@@ -15,10 +15,10 @@ solutions:
 - file: Solution_0674.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Greedy
   - Greedy
   topics:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
