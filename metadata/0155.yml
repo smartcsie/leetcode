@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0155.cpp
   difficulty: 🟡 Medium
   tags:
-  - Stack
+  - Design
   - Design
   topics:
   - design
   time: O(1)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
