@@ -14,10 +14,8 @@
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
-        // nth_element 會將第 k 小的元素放到 nums.begin() + (n - k) 的位置
-        // 我們要的是第 k 大，也就是排序後的倒數第 k 個，即索引 size - k
-        auto target_iter = nums.begin() + nums.size() - k;
-        std::nth_element(nums.begin(), target_iter, nums.end());
-        return *target_iter;
+        auto it = nums.end() - k;
+        nth_element(nums.begin(), it, nums.end());
+        return *it;
     }
 };

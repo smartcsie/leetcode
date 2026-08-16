@@ -5,11 +5,9 @@ solutions:
 - file: Solution_0215.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
-  - Sorting
-  - QuickSelect
+  - Quick Select
   topics:
   - quick-select
   time: O(N) 平均
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
