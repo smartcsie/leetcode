@@ -5,10 +5,11 @@ solutions:
 - file: Solution_2169.cpp
   difficulty: 🟢 Easy
   tags:
+  - Math Factor Enumeration
   - Euclidean Algorithm
   - Simulation
   topics:
   - math-factor-enumeration
   time: O(log(min(NUM1,NUM2)))
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習

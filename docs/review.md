@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（391）](#review-shengshu)　[🟣 易忘清單（30）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（390）](#review-shengshu)　[🟣 易忘清單（30）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-15 20:50）
-- **目前收錄總題目數：** 865 題　🔴 生疏：386 題　🟠 再練習：170 題　🟡 練習過：13 題　🟣 易忘：29 題　🟢 熟練：267 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：385 題　🟠 再練習：171 題　🟡 練習過：13 題　🟣 易忘：29 題　🟢 熟練：267 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -53,7 +53,7 @@
 | [math](topics/math.md) | 3 | 13 | 2 | 9 | 11 | 0 | 38 |
 | [math-combination](topics/math-combination.md) | 3 | 2 | 0 | 1 | 1 | 0 | 7 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 11 | 10 | 0 | 0 | 20 | 0 | 41 |
-| [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
+| [math-factor-enumeration](topics/math-factor-enumeration.md) | 3 | 1 | 0 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 1 | 0 | 5 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 2 | 3 | 0 | 0 | 4 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
@@ -95,12 +95,12 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 391 個解法標記為生疏，建議找時間重新練習。
+目前共有 390 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（32）](#shengshu-math)　[📊 Bit Manipulation（29）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（34）](#shengshu-array)　[🌳 Tree（52）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（10）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（4）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（27）](#shengshu-sorting)　[🧩 Dynamic Programming（45）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（31）](#shengshu-math)　[📊 Bit Manipulation（29）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（34）](#shengshu-array)　[🌳 Tree（52）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（10）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（4）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（27）](#shengshu-sorting)　[🧩 Dynamic Programming（45）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-math"></a>
-#### 🔢 Math（32）
+#### 🔢 Math（31）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -121,7 +121,6 @@
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | [C++](problems/1404.md) | math-digit-decomposition |
 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | [C++](problems/1492.md) | math-factor-enumeration |
 | 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | [C++](problems/2160.md) | math-digit-decomposition |
-| 2169 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | 🟢 Easy | [C++](problems/2169.md) | math-factor-enumeration |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | [C++](problems/2180.md) | math-digit-decomposition |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | [C++](problems/2310.md) | math |
 | 2507 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 Medium | [C++](problems/2507.md) | math-factor-enumeration |
