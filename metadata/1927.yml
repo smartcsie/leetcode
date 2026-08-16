@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1927.cpp
   difficulty: 🟡 Medium
   tags:
+  - Math Game Theory
   - Game Theory
-  - Math
   topics:
   - math-game-theory
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習

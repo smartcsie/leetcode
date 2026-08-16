@@ -1,14 +1,14 @@
 # math-game-theory
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
+
+目前沒有標記為生疏的解法。
+
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | Game Theory, Math | [C++](../problems/1927.md) | O(N) | O(1) |
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
+| 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](../problems/1927.md) | O(N) | O(1) |
 
 ## 🟡 練習過（0）
 
