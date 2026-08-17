@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1281.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - Digit Manipulation
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
