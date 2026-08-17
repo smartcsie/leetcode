@@ -8,31 +8,27 @@
  */
 
 class Solution {
-private:
-    // 優化：支援大小寫母音判斷
-    bool isVowel(char c) {
-        c = std::tolower(static_cast<unsigned char>(c));
-        return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
-    }
 public:
     string sortVowels(string s) {
+        vector<char> vowels;
         unordered_map<char, int> counts;
-        vector<char> vowels; // 維持原順序的母音清單
-        for (char c : s) {
-            if (isVowel(c)) {
-                counts[c]++;
+        unordered_map<char, int> first;
+        for(int i = 0; i < s.size(); i++) {
+            char c = s[i];
+            if((0x104111 >> (c - 'a')) & 1) {
                 vowels.push_back(c);
+                counts[c]++;
+                if(!first.contains(c)) first[c] = i;
             }
         }
-        // 使用 stable_sort 排序：頻率高者在前
-        // 若頻率相同，stable_sort 會自動保留 vowels 中的原始相對順序
-        std::stable_sort(vowels.begin(), vowels.end(), [&](char a, char b) {
-            return counts[a] > counts[b]; 
+        sort(vowels.begin(), vowels.end(), [&](const char& c1, const char& c2) {
+            if(counts[c1] != counts[c2])
+                return counts[c1] > counts[c2];
+            return first[c1] < first[c2];
         });
-        // 將排序後的母音填回原字串
         int idx = 0;
-        for (char& c : s) {
-            if (isVowel(c)) {
+        for(char& c : s) {
+            if((0x104111 >> (c - 'a')) & 1) {
                 c = vowels[idx++];
             }
         }

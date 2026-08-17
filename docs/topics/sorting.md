@@ -1,6 +1,6 @@
 # sorting
 
-## 🔴 生疏（26）
+## 🔴 生疏（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -29,15 +29,15 @@
 | 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | Greedy, Counting Sort | [C++](../problems/3517.md) | O(N) | O(1) |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting, Set | [C++](../problems/3684.md) | O(NlogN) | O(N) |
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | Bit Manipulation, Sorting | [C++](../problems/3769.md) | O(NlogN) | O(N) |
-| 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting, Hash | [C++](../problems/3913.md) | O(NlogN) | O(N) |
 
-## 🟠 再練習（3）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting, Greedy | [C++](../problems/0945.md) | O(NlogN) | O(1) |
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1356.md) | O(NlogN) | O(1) |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting, Sorting, Hash Table | [C++](../problems/2418.md) | O(NlogN) | O(N) |
+| 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting, Hash | [C++](../problems/3913.md) | O(NlogN) | O(N) |
 
 ## 🟡 練習過（0）
 
