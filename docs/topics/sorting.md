@@ -28,7 +28,7 @@
 | 3132 | [Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) | 🟡 Medium | Sorting, Two Pointers | [C++](../problems/3132.md) | O(NlogN) | O(1) |
 | 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | Greedy, Counting Sort | [C++](../problems/3517.md) | O(N) | O(1) |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting, Set | [C++](../problems/3684.md) | O(NlogN) | O(N) |
-| 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | Bit Manipulation, Sorting | [C++](../problems/3769.md) | O(NlogN) | O(N) |
+| 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | Sorting, Sorting | [C++](../problems/3769.md) | O(NlogN) | O(N) |
 
 ## 🟠 再練習（4）
 

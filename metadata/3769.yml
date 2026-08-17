@@ -5,7 +5,7 @@ solutions:
 - file: Solution_3769.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
+  - Sorting
   - Sorting
   topics:
   - sorting

@@ -11,20 +11,21 @@ class Solution {
 public:
     string sortVowels(string s) {
         vector<char> vowels;
-        unordered_map<char, int> counts;
-        unordered_map<char, int> first;
+        unordered_map<char, pair<int, int>> counts;
         for(int i = 0; i < s.size(); i++) {
             char c = s[i];
             if((0x104111 >> (c - 'a')) & 1) {
                 vowels.push_back(c);
-                counts[c]++;
-                if(!first.contains(c)) first[c] = i;
+                if(!counts.contains(c)) counts[c] = {0, i};
+                counts[c].first++;
             }
         }
         sort(vowels.begin(), vowels.end(), [&](const char& c1, const char& c2) {
-            if(counts[c1] != counts[c2])
-                return counts[c1] > counts[c2];
-            return first[c1] < first[c2];
+            auto [count1 , idx1] = counts[c1];
+            auto [count2 , idx2] = counts[c2];
+            if(count1 != count2)
+                return count1 > count2;
+            return idx1 < idx2;
         });
         int idx = 0;
         for(char& c : s) {
