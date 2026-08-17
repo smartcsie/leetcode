@@ -12,30 +12,27 @@
  */
 
 class Solution {
+private:
+    bool isPrime(int n) {
+        if(n < 2) return false;
+        if(n == 2 || n == 3) return true;
+        if(n % 2 == 0 || n % 3 == 0) return false;
+        for(int i = 5; i * i <= n; i += 6) {
+            if(n % i == 0 || n % (i + 2) == 0) return false;
+        }
+        return true;
+    }
 public:
     int sumOfPrimesInRange(int n) {
-        int reversed = 0;
+        int r = 0;
         int temp = n;
         while(temp > 0) {
-            reversed = reversed * 10 + (temp % 10);
+            r = r * 10 + temp % 10;
             temp /= 10;
         }
-        int left = min(n, reversed);
-        int right = max(n, reversed);
-        vector<bool> isPrime(right + 1, true);
-        isPrime[0] = isPrime[1] = false;
-        for(int p = 2; p * p <= right; p++) {
-            if(isPrime[p]) {
-                for(int i = p* p; i <= right; i += p) {
-                    isPrime[i] = false;
-                }
-            }
-        }
         int sum = 0;
-        for(int i = left; i <= right; i++) {
-            if(isPrime[i]) {
-                sum += i;
-            }
+        for(int x = min(n, r); x <= max(n, r); x++) {
+            if(isPrime(x)) sum += x;
         }
         return sum;
     }
