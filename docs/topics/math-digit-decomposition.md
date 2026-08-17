@@ -1,13 +1,12 @@
 # math-digit-decomposition
 
-## 🔴 生疏（7）
+## 🔴 生疏（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math, Bit Manipulation | [C++](../problems/0405.md) | O(1) | O(1) |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0868.md) | O(logN) | O(1) |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) |
-| 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Math, Simulation | [C++](../problems/3300.md) | O(N*logM) | O(1) |
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | Brute Force, Digit Manipulation | [C++](../problems/3345.md) | O(K×D) | O(1) |
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 Easy | Math Digit Decomposition, Simulation, Digit Manipulation | [C++](../problems/3461.md) | O(N²) | O(N) |
 | 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 Easy | Math, Array | [C++](../problems/3982.md) | O(N*D) | O(N) |
@@ -38,7 +37,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) |
 
-## 🟢 熟悉（22）
+## 🟢 熟悉（23）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -54,6 +53,7 @@
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math, Simulation | [C++](../problems/2843.md) | O(N*D) | O(1) |
 | 3079 | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3079.md) | O(N*D) | O(D) |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/3099.md) | O(logN) | O(1) |
+| 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/3300.md) | O(N*logM) | O(1) |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | Math, String | [C++](../problems/3340.md) | O(N) | O(1) |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3550.md) | O(N * D) | O(1) |
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3726.md) | O(logN) | O(1) |

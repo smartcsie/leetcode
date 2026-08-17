@@ -5,10 +5,10 @@ solutions:
 - file: Solution_3300.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - Simulation
   topics:
   - math-digit-decomposition
   time: O(N*logM)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
