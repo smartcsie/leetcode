@@ -13,16 +13,12 @@
 class Solution {
 public:
     int countEven(int num) {
-        int digitSum = 0;
-        int temp = num;
-        while (temp > 0) {
-            digitSum += temp % 10;
-            temp /= 10;
+        int digitsSum = 0;
+        int n = num;
+        while(n > 0) {
+            digitsSum += n % 10;
+            n /= 10;
         }
-        int answer = num / 2;
-        if (num % 2 == 0 && digitSum % 2 != 0) {
-            answer -= 1;
-        }
-        return answer;
+        return (num - digitsSum % 2) / 2;
     }
 };

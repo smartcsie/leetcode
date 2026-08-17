@@ -1,6 +1,6 @@
 # math-digit-decomposition
 
-## 🔴 生疏（9）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0868.md) | O(logN) | O(1) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/1281.md) | O(logN) | O(1) |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) |
-| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) |
 | 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Math, Simulation | [C++](../problems/3300.md) | O(N*logM) | O(1) |
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | Brute Force, Digit Manipulation | [C++](../problems/3345.md) | O(K×D) | O(1) |
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 Easy | Math Digit Decomposition, Simulation, Digit Manipulation | [C++](../problems/3461.md) | O(N²) | O(N) |
@@ -34,9 +33,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) |
 
 ## 🟢 熟悉（21）
 
