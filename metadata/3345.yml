@@ -5,13 +5,14 @@ solutions:
 - file: Solution_3345.cpp
   difficulty: 🟢 Easy
   tags:
+  - Math Digit Decomposition
   - Brute Force
   - Digit Manipulation
   topics:
   - math-digit-decomposition
   time: O(K×D)
   space: O(1)
+  familiarity: 熟練
   note: '> [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/)<br>
 
     > 針對每個num，digit decomposition取得每個digit，做product，看是否可被t整除<br>'
-  familiarity: 生疏
