@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0357.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Combination
   - Combinatorics
   topics:
   - math-combination
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
