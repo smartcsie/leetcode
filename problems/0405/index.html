@@ -3645,7 +3645,7 @@
 
 <h1 id="405-convert-a-number-to-hexadecimal">405. Convert a Number to Hexadecimal<a class="headerlink" href="#405-convert-a-number-to-hexadecimal" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/convert-a-number-to-hexadecimal/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Math, Bit Manipulation　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Math Digit Decomposition, Bit Manipulation　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：405. Convert a Number to Hexadecimal</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：待補充</span>
@@ -3685,6 +3685,12 @@
 <a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p>注意cast unsigned int n = static_cast<unsigned int>(num);<br>
+使用 unsigned int 處理：將輸入強制轉型為 unsigned int，<br>
+這樣可以確保負數在進行位元運算時，<br>
+右移 (&gt;&gt;) 為邏輯右移（補 0），而不會觸發負數的算術右移（補 1）導致死迴圈。<br></p>
+</blockquote>
 
 
 
