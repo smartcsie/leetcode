@@ -1,0 +1,48 @@
+/**
+ * 題目：812. Largest Triangle Area
+ * 難度：簡單 (Easy)
+ * 描述：給定平面上一組點 points，每個點表示為 [x, y]，從中任選三個相異
+ * 的點可以組成一個三角形，求所有可能組合中面積最大的三角形面積。
+ *
+ * 時間複雜度：O(N³) - N 為點的數量，需要窮舉所有三點組合，
+ *             共 C(N,3) = N(N-1)(N-2)/6 種可能，每次計算面積為 O(1)。
+ * 空間複雜度：O(1) - 只使用常數個變數紀錄座標與目前最大面積。
+ *
+ * 解法思路：
+ * （暴力枚舉三點組合 + 鞋帶公式 Shoelace Formula 求面積）：
+ * 1. 三層迴圈窮舉所有相異三點組合：
+ * - 用 i < j < k 的方式枚舉，確保每組三點只會被檢查一次，
+ *   不會重複計算同一個三角形。
+ * 2. 用鞋帶公式（行列式法）計算三角形面積：
+ * - 給定三點 (x1,y1)、(x2,y2)、(x3,y3)，面積公式為
+ *   0.5 * |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)|，
+ *   這是由三角形三個頂點座標直接推導出的行列式公式，
+ *   不需要先算邊長或角度，也自動處理三點共線時面積為 0 的情況。
+ * 3. 更新最大值：
+ * - 每算出一組三角形面積，就跟目前紀錄的 ans 取 max，
+ *   窮舉完畢後 ans 即為所求的最大面積。
+ */
+class Solution {
+public:
+    double largestTriangleArea(vector<vector<int>>& points) {
+        vector<vector<int>>& pts = points;
+        int n = pts.size();
+        double ans = 0.0;
+        for(int i = 0; i < n; i++) {
+            for(int j = i + 1; j < n; j++) {
+                for(int k = j + 1; k < n; k++) {
+                    int x1 = pts[i][0], y1 = pts[i][1];
+                    int x2 = pts[j][0], y2 = pts[j][1];
+                    int x3 = pts[k][0], y3 = pts[k][1];
+                    double area = 0.5 * abs(
+                            x1 * (y2 - y3) +
+                            x2 * (y3 - y1) +
+                            x3 * (y1 - y2)
+                        ) ;
+                    ans = max(ans, area);
+                }
+            }
+        }
+        return ans;
+    }
+};

@@ -1,0 +1,13 @@
+number: 812
+title: Largest Triangle Area
+url: https://leetcode.com/problems/largest-triangle-area/
+solutions:
+- file: Solution_0812.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math Geometry
+  topics:
+  - math-geometry
+  time: O(N³)
+  space: O(1)
+  familiarity: 再練習
