@@ -10,7 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
   note: '> [Overflow handle] <br>
 
     > x 本身是合法的 int，所以它反轉前的最高位最多是 2（因為 INT_MAX 開頭是 2）<br>

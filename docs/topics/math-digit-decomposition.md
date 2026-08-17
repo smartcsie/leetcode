@@ -1,10 +1,9 @@
 # math-digit-decomposition
 
-## 🔴 生疏（10）
+## 🔴 生疏（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](../problems/0007.md) | O(logN) | O(1) |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math, Bit Manipulation | [C++](../problems/0405.md) | O(1) | O(1) |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0868.md) | O(logN) | O(1) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/1281.md) | O(logN) | O(1) |
@@ -15,10 +14,11 @@
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 Easy | Math Digit Decomposition, Simulation, Digit Manipulation | [C++](../problems/3461.md) | O(N²) | O(N) |
 | 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 Easy | Math, Array | [C++](../problems/3982.md) | O(N*D) | O(N) |
 
-## 🟠 再練習（10）
+## 🟠 再練習（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math | [C++](../problems/0007.md) | O(logN) | O(1) |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math, Base Conversion | [C++](../problems/0168.md) | O(log26N) | O(1) |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math, Base Conversion | [C++](../problems/0171.md) | O(N) | O(1) |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math, String | [C++](../problems/0504.md) | O(log₇N) | O(1) |
