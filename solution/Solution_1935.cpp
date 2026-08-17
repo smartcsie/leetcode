@@ -17,16 +17,14 @@ public:
     int canBeTypedWords(std::string text, std::string brokenLetters) {
         int mask = 0;
         for(const char& c : brokenLetters) mask |= 1 << (c - 'a');
-        istringstream iss(text);
+        int ans = 0;
         string word;
-        int n = 0;
-        int count = 0;
-        while(iss >> word) {
+        istringstream iss(text);
+        while(iss >> word){
             int submask = 0;
             for(const char& c : word) submask |= 1 << (c - 'a');
-            if(mask & submask) count++;
-            n++;
+            if(!(mask & submask)) ans++;
         }
-        return n - count;
+        return ans;
     }
 };

@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 863 / 4019 題（最後更新：2026-08-15 20:50）
-- **目前收錄總題目數：** 865 題　🔴 生疏：379 題　🟠 再練習：174 題　🟡 練習過：13 題　🟣 易忘：29 題　🟢 熟練：270 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 865 題　🔴 生疏：379 題　🟠 再練習：173 題　🟡 練習過：14 題　🟣 易忘：29 題　🟢 熟練：270 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -71,7 +71,7 @@
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [stack](topics/stack.md) | 5 | 2 | 0 | 0 | 8 | 0 | 15 |
 | [string](topics/string.md) | 11 | 6 | 1 | 1 | 21 | 0 | 40 |
-| [string-character-classification](topics/string-character-classification.md) | 1 | 3 | 0 | 0 | 18 | 0 | 22 |
+| [string-character-classification](topics/string-character-classification.md) | 1 | 2 | 1 | 0 | 18 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
