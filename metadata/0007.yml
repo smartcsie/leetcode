@@ -11,14 +11,12 @@ solutions:
   time: O(logN)
   space: O(1)
   familiarity: 生疏
-  note: '> > [Overflow handle] <br>
+  note: '> [Overflow handle] <br>
 
-    > 不用管正負號，因為有正負，所以while(x != 0) <br>
+    > x 本身是合法的 int，所以它反轉前的最高位最多是 2（因為 INT_MAX 開頭是 2）<br>
 
-    > **while回圈內，邊界條件如下** <br>
+    > 也就是說 digit 最大只會是 2，永遠不可能 > 7，<br>
 
-    > **if (reverse > INT_MAX / 10 || (reverse == INT_MAX / 10 && (x % 10) > 7)) return
-    0;** <br>
+    > 所以那個條件實際上永遠不會觸發，可以安全移除。<br>
 
-    > **if (reverse < INT_MIN / 10 || (reverse == INT_MIN / 10 && (x % 10) < -8))
-    return 0;** <br>'
+    > 只需要檢查 res > INT_MAX / 10 或 res < INT_MIN / 10 就夠了。<br>'
