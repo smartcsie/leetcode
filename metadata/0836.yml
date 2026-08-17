@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0836.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Geometry
   - Geometry
   topics:
   - math-geometry
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
   is_best: true

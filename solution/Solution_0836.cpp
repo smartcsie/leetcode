@@ -24,9 +24,12 @@
  *    - x 軸與 y 軸方向都必須同時有正的重疊區間，矩形才算真正重疊
  *      （因為重疊面積 = x 方向重疊長度 × y 方向重疊長度，兩者都要大於 0）。
  */
+
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) { 
-       return rec1[0] < rec2[2] && rec2[0] < rec1[2] && rec1[1] < rec2[3] && rec2[1] < rec1[3];
+        int left1 = rec1[0] ,bottom1 = rec1[1] , right1 = rec1[2], top1 = rec1[3];
+        int left2 = rec2[0] ,bottom2 = rec2[1] , right2 = rec2[2], top2 = rec2[3];
+        return left1 < right2 && left2 < right1  && bottom1 < top2 && bottom2 < top1;
     }
 };
