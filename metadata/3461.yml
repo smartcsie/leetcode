@@ -12,4 +12,4 @@ solutions:
   - math-digit-decomposition
   time: O(N²)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 再練習
