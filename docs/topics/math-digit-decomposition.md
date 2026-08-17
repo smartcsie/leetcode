@@ -1,13 +1,12 @@
 # math-digit-decomposition
 
-## 🔴 生疏（4）
+## 🔴 生疏（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math, Bit Manipulation | [C++](../problems/0405.md) | O(1) | O(1) |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0868.md) | O(logN) | O(1) |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) |
-| 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 Easy | Math, Array | [C++](../problems/3982.md) | O(N*D) | O(N) |
 
 ## 🟠 再練習（12）
 
@@ -36,7 +35,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) |
 
-## 🟢 熟悉（24）
+## 🟢 熟悉（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -64,3 +63,4 @@
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/3945.md) | O(logN) | O(1) |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3950.md) | O(logN) | O(1) |
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3959.md) | O(logN) | O(1) |
+| 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 Easy | Math Digit Decomposition, Array | [C++](../problems/3982.md) | O(N*D) | O(N) |
