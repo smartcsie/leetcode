@@ -5,10 +5,17 @@ solutions:
 - file: Solution_0405.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - Bit Manipulation
   topics:
   - math-digit-decomposition
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  note: '> 注意cast unsigned int n = static_cast<unsigned int>(num);<br>
+
+    > 使用 unsigned int 處理：將輸入強制轉型為 unsigned int，<br>
+
+    > 這樣可以確保負數在進行位元運算時，<br>
+
+    > 右移 (>>) 為邏輯右移（補 0），而不會觸發負數的算術右移（補 1）導致死迴圈。<br>'
