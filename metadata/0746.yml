@@ -1,0 +1,13 @@
+number: 746
+title: Min Cost Climbing Stairs
+url: https://leetcode.com/problems/min-cost-climbing-stairs/
+solutions:
+- file: Solution_0746.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Dynamic Programming Fibonacci
+  topics:
+  - dynamic-programming-fibonacci
+  time: O(N)
+  space: O(N)
+  familiarity: 再練習

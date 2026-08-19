@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 866 / 4029 題（最後更新：2026-08-17 23:28）
-- **目前收錄總題目數：** 866 題　🔴 生疏：351 題　🟠 再練習：181 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 867 題　🔴 生疏：351 題　🟠 再練習：182 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -34,7 +34,7 @@
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 9 | 6 | 0 | 0 | 2 | 0 | 17 |
 | [design](topics/design.md) | 0 | 5 | 0 | 1 | 1 | 0 | 7 |
 | [dynamic-programming](topics/dynamic-programming.md) | 25 | 3 | 0 | 0 | 0 | 0 | 28 |
-| [dynamic-programming-fibonacci](topics/dynamic-programming-fibonacci.md) | 0 | 1 | 3 | 0 | 0 | 0 | 4 |
+| [dynamic-programming-fibonacci](topics/dynamic-programming-fibonacci.md) | 0 | 2 | 3 | 0 | 0 | 0 | 5 |
 | [dynamic-programming-kadane](topics/dynamic-programming-kadane.md) | 4 | 1 | 0 | 0 | 0 | 0 | 5 |
 | [dynamic-programming-knapsack](topics/dynamic-programming-knapsack.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 5 | 1 | 2 | 0 | 5 | 0 | 13 |
