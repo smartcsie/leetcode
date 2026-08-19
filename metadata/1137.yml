@@ -5,10 +5,20 @@ solutions:
 - file: Solution_1137.cpp
   difficulty: 🟢 Easy
   tags:
+  - Dynamic Programming
   - DP
-  - Math
   topics:
   - dynamic-programming
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+- file: Solution_1137_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Dynamic Programming
+  topics:
+  - dynamic-programming
+  time: O(N)
+  space: O(N)
+  related:
+  - 70
