@@ -11,7 +11,8 @@ solutions:
   - dynamic-programming
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 再練習
+  note: '> 注意初始化值是1'
 - file: Solution_0674.cpp
   difficulty: 🟢 Easy
   tags:

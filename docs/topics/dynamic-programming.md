@@ -1,6 +1,6 @@
 # dynamic-programming
 
-## 🔴 生疏（30）
+## 🔴 生疏（29）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -22,7 +22,6 @@
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Math, Dynamic Programming | [C++](../problems/0509.md) | O(N) | O(1) |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | DP, String | [C++](../problems/0516.md) | O(N²) | O(N) |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming | [C++](../problems/0583.md) | O(M*N) | O(M*N) |
-| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dynamic Programming, DP | [C++](../problems/0674.md) | O(N) | O(N) |
 | 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | Dynamic Programming, String | [C++](../problems/0712.md) | O(M×N) | O(M×N) |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | DP, Array | [C++](../problems/0718.md) | O(N*M) | O(M) |
 | 898 | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | Bit Manipulation, Dynamic Programming | [C++](../problems/0898.md) | O(N*30) | O(N*30) |
@@ -35,10 +34,11 @@
 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | Dynamic Programming, Hash Set | [C++](../problems/2707.md) | O(N³) | O(N+D) |
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | Dynamic Programming, Longest Non-Decreasing Subsequence | [C++](../problems/2826.md) | O(N) | O(1) |
 
-## 🟠 再練習（1）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dynamic Programming, DP | [C++](../problems/0674.md) | O(N) | O(N) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dynamic Programming | [C++](../problems/1143.md) | O(M*N) | O(M*N) |
 
 ## 🟡 練習過（0）
