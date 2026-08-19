@@ -5,9 +5,10 @@ solutions:
 - file: Solution_0064.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dynamic Programming Grid Path
   - DP
   topics:
-  - dynamic-programming
+  - dynamic-programming-grid-path
   time: O(M*N)
   space: O(1)
   familiarity: 生疏

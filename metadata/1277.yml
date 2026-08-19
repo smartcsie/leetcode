@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1277.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dynamic Programming Grid Path
   - Matrix
-  - Dynamic Programming
   topics:
-  - dynamic-programming
+  - dynamic-programming-grid-path
   time: O(M*N)
   space: O(1)*
   familiarity: 生疏

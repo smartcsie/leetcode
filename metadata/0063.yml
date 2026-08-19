@@ -5,11 +5,13 @@ solutions:
 - file: Solution_0063.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dynamic Programming Grid Path
   - DP
   topics:
-  - dynamic-programming
+  - dynamic-programming-grid-path
   time: O(M*N)
   space: O(N)
+  familiarity: 生疏
   note: '> [Unique Paths II](https://leetcode.com/problems/unique-paths-ii)<br>
 
     > 先取得size，int m = obstacleGrid.size(); int n = obstacleGrid[0].size();<br>
@@ -29,4 +31,3 @@ solutions:
     > &emsp;&emsp;&emsp;&emsp;**}** <br>
 
     > }<br>'
-  familiarity: 生疏

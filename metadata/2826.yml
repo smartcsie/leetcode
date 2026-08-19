@@ -5,10 +5,10 @@ solutions:
 - file: Solution_2826.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming
+  - Dynamic Programming Lis
   - Longest Non-Decreasing Subsequence
   topics:
-  - dynamic-programming
+  - dynamic-programming-lis
   time: O(N)
   space: O(1)
   familiarity: 生疏

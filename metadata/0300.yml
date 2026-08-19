@@ -5,7 +5,7 @@ solutions:
 - file: Solution_0300.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming
+  - Binary Search
   - Binary Search
   topics:
   - binary-search
@@ -15,10 +15,10 @@ solutions:
 - file: Solution_0300_1.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Dynamic Programming Lis
   - Dynamic Programming
   topics:
-  - dynamic-programming
+  - dynamic-programming-lis
   time: O(N²)
   space: O(N)
   familiarity: 生疏
