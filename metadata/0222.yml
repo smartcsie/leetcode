@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0222.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree
+  - Tree Dfs Path
   - DFS
   - Binary Search
   topics:
   - tree-dfs-path
   time: O(log²N)
   space: O(logN)
-  familiarity: 生疏
+  familiarity: 練習過
