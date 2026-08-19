@@ -20,13 +20,12 @@ class Solution {
 public:
     int fib(int n) {
         if(n <= 1) return n;
-        int first = 0;
-        int second = 1;
-        for(int i = 2; i <= n; i++) {
-            int third = first + second;
-            first = second;
-            second = third;
+        int f0 = 0, f1 = 1, f2;
+        for(int i =2; i <= n; i++) {
+            f2 = f0 + f1;
+            f0 = f1;
+            f1 = f2;
         }
-        return second;
+        return f2;
     }
 };
