@@ -15,22 +15,14 @@ class Solution {
 public:
     int rob(vector<int>& nums) {
         int n = nums.size();
-        if (n == 0) return 0;
-        if (n == 1) return nums[0];
-        
-        // prev2 代表 dp[i-2], prev1 代表 dp[i-1]
-        int prev2 = 0;
-        int prev1 = nums[0];
-        
-        for (int i = 1; i < n; i++) {
-            // dp[i] = max(dp[i-1], dp[i-2] + nums[i])
-            int current = max(prev1, prev2 + nums[i]);
-            
-            // 更新狀態準備下一輪
-            prev2 = prev1;
-            prev1 = current;
+        if(n == 0) return 0;
+        if(n == 1) return nums[0];
+        int f0 = 0, f1 = nums[0], f2;
+        for(int i = 2; i <=n; i++) {
+            f2 = max(f1, f0 + nums[i - 1]);
+            f0 = f1;
+            f1 = f2;
         }
-        
-        return prev1;
+        return f2;
     }
 };

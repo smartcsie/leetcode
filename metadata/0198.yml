@@ -3,12 +3,22 @@ title: House Robber
 url: https://leetcode.com/problems/house-robber/
 solutions:
 - file: Solution_0198.cpp
-  difficulty: 🟢 Medium
+  difficulty: 🟡 Medium
   tags:
+  - Dynamic Programming Fibonacci
   - DP
   - Linear Optimization
   topics:
-  - dynamic-programming
+  - dynamic-programming-fibonacci
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+- file: Solution_0198_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming Fibonacci
+  topics:
+  - dynamic-programming-fibonacci
+  time: O(N)
+  space: O(N)
+  familiarity: 練習過
