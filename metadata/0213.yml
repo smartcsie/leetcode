@@ -5,9 +5,19 @@ solutions:
 - file: Solution_0213.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dynamic Programming Fibonacci
   - DP
   topics:
-  - dynamic-programming
+  - dynamic-programming-fibonacci
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+- file: Solution_0213_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dynamic Programming Fibonacci
+  topics:
+  - dynamic-programming-fibonacci
+  time: O(N)
+  space: O(N)
+  familiarity: 再練習
