@@ -1,12 +1,11 @@
 # dynamic-programming
 
-## 🔴 生疏（29）
+## 🔴 生疏（28）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | DP | [C++](../problems/0063.md) | O(M*N) | O(N) |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | DP | [C++](../problems/0064.md) | O(M*N) | O(1) |
-| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dynamic Programming, DP, Unbounded Knapsack (Permutation) | [C++](../problems/0070.md) | O(N) | O(1) |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | DP, String | [C++](../problems/0072.md) | O(N*M) | O(N*M) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](../problems/0096.md) | O(N²) | O(N) |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | Dynamic Programming, Two Strings | [C++](../problems/0097.md) | O(M * N) | O(M * N) |
@@ -34,11 +33,12 @@
 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | Dynamic Programming, Hash Set | [C++](../problems/2707.md) | O(N³) | O(N+D) |
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | Dynamic Programming, Longest Non-Decreasing Subsequence | [C++](../problems/2826.md) | O(N) | O(1) |
 
-## 🟠 再練習（4）
+## 🟠 再練習（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dynamic Programming | [C++](../problems/0053.md) | O(N) | O(N) |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dynamic Programming, DP, Unbounded Knapsack (Permutation) | [C++](../problems/0070.md) | O(N) | O(1) |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dynamic Programming | [C++](../problems/0070.md) | O(N) | O(N) |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dynamic Programming, DP | [C++](../problems/0674.md) | O(N) | O(N) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dynamic Programming | [C++](../problems/1143.md) | O(M*N) | O(M*N) |

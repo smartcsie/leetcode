@@ -12,7 +12,7 @@ solutions:
   - dynamic-programming
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
 - file: Solution_0070_1.cpp
   difficulty: 🟢 Easy
   tags:
