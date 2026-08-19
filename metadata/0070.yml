@@ -13,3 +13,12 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 生疏
+- file: Solution_0070_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Dynamic Programming
+  topics:
+  - dynamic-programming
+  time: O(N)
+  space: O(N)
+  familiarity: 再練習
