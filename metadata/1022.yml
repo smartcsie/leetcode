@@ -10,4 +10,4 @@ solutions:
   - tree-dfs-path
   time: O(N) - 每個節點都會被走訪恰好一次，其中 n 為樹中節點的總數。
   space: O(H) - 遞迴呼叫堆疊（Call Stack）的深度取決於樹的高度 h。在最壞情況（斜樹）下為 O(N)，在平衡樹下為 O(logN)。
-  familiarity: 生疏
+  familiarity: 熟練
