@@ -1,10 +1,9 @@
 # bit-manipulation-and
 
-## 🔴 生疏（4）
+## 🔴 生疏（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | DP, Bit Manipulation | [C++](../problems/0338.md) | O(N) | O(N) |
 | 2275 | [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | 🟡 Medium | Bit Manipulation, Greedy | [C++](../problems/2275.md) | O(32*N) | O(1) |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | Bit Manipulation, Greedy, Array | [C++](../problems/2419.md) | O(N) | O(1) |
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | Bit Manipulation And | [C++](../problems/3133.md) | O(1) | O(1) |
@@ -21,9 +20,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Bit Manipulation, DP | [C++](../problems/0338.md) | O(N) | O(N) |
 
 ## 🟢 熟悉（4）
 
