@@ -12,6 +12,9 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 練習過
+  related:
+  - 70
+  - 1137
 - file: Solution_0509_1.cpp
   difficulty: 🟢 Easy
   tags:
