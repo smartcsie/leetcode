@@ -5,11 +5,13 @@ solutions:
 - file: Solution_0477.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Bit Manipulation
   - Bit Manipulation
   - Array
   topics:
-  - bit-manipulation-xor
+  - bit-manipulation
   time: O(31*N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  related:
+  - 338
