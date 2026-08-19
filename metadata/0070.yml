@@ -13,6 +13,8 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 再練習
+  related:
+  - 1137
 - file: Solution_0070_1.cpp
   difficulty: 🟢 Easy
   tags:
