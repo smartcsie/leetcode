@@ -54,7 +54,6 @@ GROUPS = [
     (r'^graph-shortest-path$', '🕸️ Graph'),
     (r'^sorting', '📊 Sorting'),
     (r'^dynamic-programming', '🧩 Dynamic Programming'),
-    (r'^knapsack-problem', '🧩 Dynamic Programming'),
     (r'^greedy$', '🧩 Greedy'),
     (r'^backtracking', '🔢 Backtracking'),
     (r'sliding-window$', '🔢 Sliding Window'),
