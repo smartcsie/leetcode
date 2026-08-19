@@ -21,13 +21,13 @@
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
-        int maxSub = nums[0];
-        int localSum  = 0;
-        for(int num : nums) {
-            localSum += num;
-            maxSub = max(maxSub, localSum);
-            if(localSum < 0) localSum = 0;
+        int maxSum = nums[0];
+        int sum = 0;
+        for(const int x : nums) {
+            sum += x;
+            maxSum = max(maxSum, sum);
+            if(sum < 0) sum = 0;
         }
-        return maxSub;
+        return maxSum;
     }
 };
