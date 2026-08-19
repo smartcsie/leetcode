@@ -36,6 +36,7 @@
 | [dynamic-programming](topics/dynamic-programming.md) | 26 | 4 | 1 | 0 | 0 | 0 | 31 |
 | [dynamic-programming-fibonacci](topics/dynamic-programming-fibonacci.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [dynamic-programming-kadane](topics/dynamic-programming-kadane.md) | 4 | 1 | 0 | 0 | 0 | 0 | 5 |
+| [dynamic-programming-knapsack](topics/dynamic-programming-knapsack.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 5 | 1 | 2 | 0 | 5 | 0 | 13 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -48,7 +49,6 @@
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 2 | 1 | 0 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 4 | 1 | 0 | 4 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 3 | 6 | 0 | 0 | 12 | 0 | 21 |
-| [knapsack-problem](topics/knapsack-problem.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 3 | 13 | 2 | 9 | 11 | 0 | 38 |
@@ -98,7 +98,7 @@
 
 目前共有 357 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（4）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（26）](#shengshu-sorting)　[🧩 Dynamic Programming（30）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（10）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（4）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（26）](#shengshu-sorting)　[🧩 Dynamic Programming（39）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -456,7 +456,7 @@
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting |
 
 <a id="shengshu-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（30）
+#### 🧩 Dynamic Programming（39）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -468,15 +468,23 @@
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | [C++](problems/0115.md) | dynamic-programming |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](problems/0118.md) | dynamic-programming-kadane |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | [C++](problems/0121.md) | dynamic-programming |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [C++](problems/0139.md) | dynamic-programming-knapsack |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | [C++](problems/0152.md) | dynamic-programming-kadane |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟢 Medium | [C++](problems/0198.md) | dynamic-programming |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | [C++](problems/0213.md) | dynamic-programming |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | [C++](problems/0264.md) | dynamic-programming |
+| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | [C++](problems/0279.md) | dynamic-programming-knapsack |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | [C++](problems/0300.md) | dynamic-programming |
 | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | [C++](problems/0313.md) | dynamic-programming |
+| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | [C++](problems/0322.md) | dynamic-programming-knapsack |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | [C++](problems/0337.md) | dynamic-programming |
+| 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | [C++](problems/0377.md) | dynamic-programming-knapsack |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | [C++](problems/0392.md) | dynamic-programming |
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | [C++](problems/0416.md) | dynamic-programming-knapsack |
+| 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | [C++](problems/0474.md) | dynamic-programming-knapsack |
+| 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | [C++](problems/0494.md) | dynamic-programming-knapsack |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | [C++](problems/0516.md) | dynamic-programming |
+| 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | [C++](problems/0518.md) | dynamic-programming-knapsack |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | [C++](problems/0583.md) | dynamic-programming |
 | 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | [C++](problems/0712.md) | dynamic-programming |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | [C++](problems/0718.md) | dynamic-programming |
@@ -484,6 +492,7 @@
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | [C++](problems/0918.md) | dynamic-programming-kadane |
 | 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | [C++](problems/0926.md) | dynamic-programming |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | [C++](problems/1035.md) | dynamic-programming |
+| 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | [C++](problems/1049.md) | dynamic-programming-knapsack |
 | 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 Medium | [C++](problems/1277.md) | dynamic-programming |
 | 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | [C++](problems/1567.md) | dynamic-programming |
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | [C++](problems/1641.md) | dynamic-programming-kadane |
@@ -562,20 +571,11 @@
 | 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | [C++](problems/3456.md) | fixed-size-sliding-window |
 
 <a id="shengshu-other"></a>
-#### 📄 Other（10）
+#### 📄 Other（1）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [C++](problems/0139.md) | knapsack-problem |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | 🟡 Medium | [C++](problems/0147.md) |  |
-| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | [C++](problems/0279.md) | knapsack-problem |
-| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | [C++](problems/0322.md) | knapsack-problem |
-| 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | [C++](problems/0377.md) | knapsack-problem |
-| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | [C++](problems/0416.md) | knapsack-problem |
-| 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | [C++](problems/0474.md) | knapsack-problem |
-| 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | [C++](problems/0494.md) | knapsack-problem |
-| 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | [C++](problems/0518.md) | knapsack-problem |
-| 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | [C++](problems/1049.md) | knapsack-problem |
 
 ---
 

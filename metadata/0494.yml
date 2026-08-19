@@ -8,7 +8,7 @@ solutions:
   - DP
   - 0-1 Knapsack
   topics:
-  - knapsack-problem
+  - dynamic-programming-knapsack
   time: O(N*S)
   space: O(S)
   familiarity: 生疏

@@ -1,4 +1,4 @@
-# knapsack-problem
+# dynamic-programming-knapsack
 
 ## 🔴 生疏（9）
 
