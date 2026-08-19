@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1137.cpp
   difficulty: 🟢 Easy
   tags:
-  - Dynamic Programming
+  - Dynamic Programming Fibonacci
   - DP
   topics:
-  - dynamic-programming
+  - dynamic-programming-fibonacci
   time: O(N)
   space: O(1)
   familiarity: 練習過
@@ -18,9 +18,9 @@ solutions:
 - file: Solution_1137_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Dynamic Programming
+  - Dynamic Programming Fibonacci
   topics:
-  - dynamic-programming
+  - dynamic-programming-fibonacci
   time: O(N)
   space: O(N)
   related:
