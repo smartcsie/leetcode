@@ -3645,7 +3645,7 @@
 
 <h1 id="338-counting-bits">338. Counting Bits<a class="headerlink" href="#338-counting-bits" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/counting-bits">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> DP, Bit Manipulation　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation, DP　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🟣 易忘</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：338. Counting Bits (位元位元計數)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -3679,8 +3679,7 @@
 <a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/counting-bits">Counting Bits</a><br>
-<strong>Brian Kernighan's Algorithm</strong> ，<strong>n &amp; (n - 1)，其實是去掉最右邊的1</strong><br>
+<p><strong>Brian Kernighan's Algorithm</strong> ，<strong>n &amp; (n - 1)，其實是去掉最右邊的1</strong><br>
 vector<int> count(n + 1, 0);<br>
 for(int i = 1; i &lt;= n; i++) count[i] = count[i &amp; (i - 1)] + 1;<br></p>
 </blockquote>
