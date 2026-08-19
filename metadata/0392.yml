@@ -5,16 +5,18 @@ solutions:
 - file: Solution_0392_1.cpp
   difficulty: 🟢 Easy
   tags:
+  - Dynamic Programming Lcs
   - DP
   - LCS
   topics:
-  - dynamic-programming
+  - dynamic-programming-lcs
   time: O(S*T)
   space: O(S*T)
   familiarity: 生疏
 - file: Solution_0392.cpp
   difficulty: 🟢 Easy
   tags:
+  - Two Pointers Same
   - Two Pointers
   topics:
   - two-pointers-same

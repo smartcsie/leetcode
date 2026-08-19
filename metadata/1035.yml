@@ -5,10 +5,11 @@ solutions:
 - file: Solution_1035.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dynamic Programming Lcs
   - DP
   - LCS
   topics:
-  - dynamic-programming
+  - dynamic-programming-lcs
   time: O(N*M)
   space: O(M)
   familiarity: 生疏
