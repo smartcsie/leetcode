@@ -1,4 +1,4 @@
-# dynamic-programming-kadane-algorithm
+# dynamic-programming-kadane
 
 ## 🔴 生疏（4）
 
