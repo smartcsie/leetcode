@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0070.cpp
   difficulty: 🟢 Easy
   tags:
-  - Dynamic Programming
+  - Dynamic Programming Fibonacci
   - DP
   - Unbounded Knapsack (Permutation)
   topics:
-  - dynamic-programming
+  - dynamic-programming-fibonacci
   time: O(N)
   space: O(1)
   familiarity: 再練習
@@ -19,9 +19,9 @@ solutions:
 - file: Solution_0070_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Dynamic Programming
+  - Dynamic Programming Fibonacci
   topics:
-  - dynamic-programming
+  - dynamic-programming-fibonacci
   time: O(N)
   space: O(N)
   familiarity: 再練習
