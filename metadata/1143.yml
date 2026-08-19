@@ -5,9 +5,9 @@ solutions:
 - file: Solution_1143.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming
+  - Dynamic Programming Lcs
   topics:
-  - dynamic-programming
+  - dynamic-programming-lcs
   time: O(M*N)
   space: O(M*N)
   familiarity: 再練習

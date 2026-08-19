@@ -33,10 +33,11 @@
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 0 | 1 | 0 | 1 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 9 | 6 | 0 | 0 | 2 | 0 | 17 |
 | [design](topics/design.md) | 0 | 5 | 0 | 1 | 1 | 0 | 7 |
-| [dynamic-programming](topics/dynamic-programming.md) | 24 | 3 | 0 | 0 | 0 | 0 | 27 |
+| [dynamic-programming](topics/dynamic-programming.md) | 24 | 2 | 0 | 0 | 0 | 0 | 26 |
 | [dynamic-programming-fibonacci](topics/dynamic-programming-fibonacci.md) | 0 | 3 | 3 | 0 | 0 | 0 | 6 |
 | [dynamic-programming-kadane](topics/dynamic-programming-kadane.md) | 4 | 1 | 0 | 0 | 0 | 0 | 5 |
 | [dynamic-programming-knapsack](topics/dynamic-programming-knapsack.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
+| [dynamic-programming-lcs](topics/dynamic-programming-lcs.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 5 | 1 | 2 | 0 | 5 | 0 | 13 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
