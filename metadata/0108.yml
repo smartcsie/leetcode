@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0108.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree
+  - Binary Search
   - DFS
   - Binary Search
   topics:
-  - binary-search-tree
+  - binary-search
   time: O(N)
   space: O(logN)
-  familiarity: 生疏
+  familiarity: 練習過
