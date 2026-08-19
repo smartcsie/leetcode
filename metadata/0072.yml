@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0072.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dynamic Programming Lcs
   - DP
-  - String
   topics:
-  - dynamic-programming
+  - dynamic-programming-lcs
   time: O(N*M)
   space: O(N*M)
   familiarity: 生疏

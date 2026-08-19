@@ -1,24 +1,18 @@
 # dynamic-programming
 
-## 🔴 生疏（24）
+## 🔴 生疏（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | DP | [C++](../problems/0063.md) | O(M*N) | O(N) |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | DP | [C++](../problems/0064.md) | O(M*N) | O(1) |
-| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | DP, String | [C++](../problems/0072.md) | O(N*M) | O(N*M) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](../problems/0096.md) | O(N²) | O(N) |
-| 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | Dynamic Programming, Two Strings | [C++](../problems/0097.md) | O(M * N) | O(M * N) |
-| 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | DP, String | [C++](../problems/0115.md) | O(S*T) | O(T) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Dynamic Programming | [C++](../problems/0121.md) | O(N) | O(1) |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | Dynamic Programming, Math | [C++](../problems/0264.md) | O(N) | O(N) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Array, Dynamic Programming | [C++](../problems/0300.md) | O(N²) | O(N) |
 | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dynamic Programming, Multi-pointers | [C++](../problems/0313.md) | O(N*K) | O(N+K) |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | Tree, DP | [C++](../problems/0337.md) | O(N) | O(H) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | DP, LCS | [C++](../problems/0392.md) | O(S*T) | O(S*T) |
-| 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | DP, String | [C++](../problems/0516.md) | O(N²) | O(N) |
-| 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming | [C++](../problems/0583.md) | O(M*N) | O(M*N) |
-| 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | Dynamic Programming, String | [C++](../problems/0712.md) | O(M×N) | O(M×N) |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | DP, Array | [C++](../problems/0718.md) | O(N*M) | O(M) |
 | 898 | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | Bit Manipulation, Dynamic Programming | [C++](../problems/0898.md) | O(N*30) | O(N*30) |
 | 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | Dynamic Programming | [C++](../problems/0926.md) | O(N) | O(1) |

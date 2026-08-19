@@ -33,11 +33,11 @@
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 0 | 1 | 0 | 1 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 9 | 6 | 0 | 0 | 2 | 0 | 17 |
 | [design](topics/design.md) | 0 | 5 | 0 | 1 | 1 | 0 | 7 |
-| [dynamic-programming](topics/dynamic-programming.md) | 24 | 2 | 0 | 0 | 0 | 0 | 26 |
+| [dynamic-programming](topics/dynamic-programming.md) | 18 | 2 | 0 | 0 | 0 | 0 | 20 |
 | [dynamic-programming-fibonacci](topics/dynamic-programming-fibonacci.md) | 0 | 3 | 3 | 0 | 0 | 0 | 6 |
 | [dynamic-programming-kadane](topics/dynamic-programming-kadane.md) | 4 | 1 | 0 | 0 | 0 | 0 | 5 |
 | [dynamic-programming-knapsack](topics/dynamic-programming-knapsack.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
-| [dynamic-programming-lcs](topics/dynamic-programming-lcs.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
+| [dynamic-programming-lcs](topics/dynamic-programming-lcs.md) | 6 | 1 | 0 | 0 | 0 | 0 | 7 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 5 | 1 | 2 | 0 | 5 | 0 | 13 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -463,10 +463,10 @@
 | --- | --- | --- | --- | --- |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | [C++](problems/0063.md) | dynamic-programming |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | [C++](problems/0064.md) | dynamic-programming |
-| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [C++](problems/0072.md) | dynamic-programming |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [C++](problems/0072.md) | dynamic-programming-lcs |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | [C++](problems/0096.md) | dynamic-programming |
-| 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | [C++](problems/0097.md) | dynamic-programming |
-| 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | [C++](problems/0115.md) | dynamic-programming |
+| 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | [C++](problems/0097.md) | dynamic-programming-lcs |
+| 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | [C++](problems/0115.md) | dynamic-programming-lcs |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](problems/0118.md) | dynamic-programming-kadane |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | [C++](problems/0121.md) | dynamic-programming |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [C++](problems/0139.md) | dynamic-programming-knapsack |
@@ -482,10 +482,10 @@
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | [C++](problems/0416.md) | dynamic-programming-knapsack |
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | [C++](problems/0474.md) | dynamic-programming-knapsack |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | [C++](problems/0494.md) | dynamic-programming-knapsack |
-| 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | [C++](problems/0516.md) | dynamic-programming |
+| 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | [C++](problems/0516.md) | dynamic-programming-lcs |
 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | [C++](problems/0518.md) | dynamic-programming-knapsack |
-| 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | [C++](problems/0583.md) | dynamic-programming |
-| 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | [C++](problems/0712.md) | dynamic-programming |
+| 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | [C++](problems/0583.md) | dynamic-programming-lcs |
+| 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | [C++](problems/0712.md) | dynamic-programming-lcs |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | [C++](problems/0718.md) | dynamic-programming |
 | 898 | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | [C++](problems/0898.md) | dynamic-programming |
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | [C++](problems/0918.md) | dynamic-programming-kadane |
