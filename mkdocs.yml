@@ -114,7 +114,7 @@ nav:
       - backtracking-combination: topics/backtracking-combination.md
       - backtracking-permutation: topics/backtracking-permutation.md
   - 🧩 Dynamic Programming:
-      - dynamic-programming-kadane-algorithm: topics/dynamic-programming-kadane-algorithm.md
+      - dynamic-programming-kadane: topics/dynamic-programming-kadane.md
       - dynamic-programming: topics/dynamic-programming.md
       - knapsack-problem: topics/knapsack-problem.md
   - 🧩 Greedy:
