@@ -117,9 +117,12 @@ nav:
   - 🧩 Dynamic Programming:
       - dynamic-programming-kadane: topics/dynamic-programming-kadane.md
       - dynamic-programming: topics/dynamic-programming.md
+      - dynamic-programming-grid-path: topics/dynamic-programming-grid-path.md
       - dynamic-programming-fibonacci: topics/dynamic-programming-fibonacci.md
-      - dynamic-programming-knapsack: topics/dynamic-programming-knapsack.md
       - dynamic-programming-lcs: topics/dynamic-programming-lcs.md
+      - dynamic-programming-state-machine: topics/dynamic-programming-state-machine.md
+      - dynamic-programming-knapsack: topics/dynamic-programming-knapsack.md
+      - dynamic-programming-lis: topics/dynamic-programming-lis.md
   - 🧩 Greedy:
       - greedy: topics/greedy.md
   - 🌳 Tree:
