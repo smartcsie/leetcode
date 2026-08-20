@@ -1,0 +1,13 @@
+number: 983
+title: Minimum Cost For Tickets
+url: https://leetcode.com/problems/minimum-cost-for-tickets/
+solutions:
+- file: Solution_0983.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Knapsack
+  topics:
+  - dp-knapsack
+  time: O(D log D)，D 為 days 的長度（每天都要做一次二分搜尋）
+  space: O(D)
+  familiarity: 生疏

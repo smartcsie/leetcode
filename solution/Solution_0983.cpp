@@ -1,0 +1,41 @@
+/**
+ * 題目：983. Minimum Cost For Tickets
+ * 難度：中等 (Medium)
+ * 描述：給定一年中要旅行的日子清單 days，以及三種票的價格 costs = 
+ * [1天票, 7天票, 30天票]，1天票只能用那一天，7天/30天票可以連續使用
+ * 對應天數（從購買當天起算）。求覆蓋所有旅行日所需的最小總花費。
+ *
+ * 時間複雜度：O(D log D)，D 為 days 的長度（每天都要做一次二分搜尋）
+ * 空間複雜度：O(D)
+ *
+ * 解法思路：
+ * （Unbounded Knapsack，每種票可以買無限次，dp[i] 代表「從 days[i] 到
+ * 最後一天」所需的最小花費，從後往前推）：
+ * 1. dp[n] = 0：超過最後一個旅行日之後不用再花錢。
+ * 2. 狀態轉移（i 從 n-1 往回推到 0）：在第 days[i] 天，有三種買票方式：
+ *    - 買 1 天票，只覆蓋 days[i] 這天，花費 costs[0] + dp[i+1]。
+ *    - 買 7 天票，覆蓋到 days[i]+6 為止，用二分搜尋找出第一個
+ *      超過 days[i]+6（即 >= days[i]+7）的旅行日索引 j7，
+ *      花費 costs[1] + dp[j7]。
+ *    - 買 30 天票同理，花費 costs[2] + dp[j30]。
+ *    - 這三種選擇互斥、只需選最便宜的一種，所以 dp[i] 取三者最小值。
+ * 3. 「Unbounded」的意思是同一種票可以在不同時間點重複購買（例如買了
+ *    好幾次 7 天票），不像 0/1 背包每個物品只能用一次；這裡用二分搜尋
+ *    快速找到「這張票能覆蓋到哪個旅行日之後」，取代逐日判斷。
+ * 4. 答案是 dp[0]。
+ */
+class Solution {
+public:
+    int mincostTickets(vector<int>& days, vector<int>& costs) {
+        const int n = days.size();
+        vector<int> dp(n + 1, 0);
+        for (int i = n - 1; i >= 0; --i) {
+            int j7 = lower_bound(days.begin(), days.end(), days[i] + 7) - days.begin();
+            int j30 = lower_bound(days.begin(), days.end(), days[i] + 30) - days.begin();
+            dp[i] = min({dp[i + 1] + costs[0],
+                         dp[j7] + costs[1],
+                         dp[j30] + costs[2]});
+        }
+        return dp[0];
+    }
+};
