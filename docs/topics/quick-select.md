@@ -1,13 +1,12 @@
 # quick-select
 
-## 🔴 生疏（4）
+## 🔴 生疏（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | 🟡 Medium | Sorting, Quickselect | [C++](../problems/0324.md) | O(N) | O(1) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Math, QuickSelect | [C++](../problems/0973.md) | O(N) | O(1) |
 | 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | Recursion, Collatz Conjecture, Quickselect | [C++](../problems/1387.md) | O(N*S)* | O(N+S) |
-| 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | Array, Hash Table, Sorting | [C++](../problems/1636.md) | O(NlogN) | O(1) |
 
 ## 🟠 再練習（2）
 

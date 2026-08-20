@@ -6,16 +6,13 @@
  * 時間複雜度：O(NlogN) - 主要開銷在於排序，統計頻率為 O(N)。
  * 空間複雜度：O(1) - 使用固定大小陣列空間 (201 為常數)。 優化點： 1. 使用常數陣列減少記憶體頻繁存取。 2. 透過 Lambda 內直接提取頻率變數，減少對陣列的重複計算。
  */
-
 class Solution {
 public:
     vector<int> frequencySort(vector<int>& nums) {
-        int count[201] = {0};
-        for(const int& num : nums) {
-            count[num+100]++;
-        }
-        sort(nums.begin(), nums.end(), [&](const int a, const int b) {
-            return count[a+100] != count[b+100] ? count[a+100] < count[b+100] : a > b;
+        unordered_map<int, int> counts;
+        for(const int& x : nums) counts[x]++;
+        sort(nums.begin(), nums.end(), [&](const int& a, const int& b) {
+            return counts[a] != counts[b] ? counts[a] < counts[b] : a > b;
         });
         return nums;
     }

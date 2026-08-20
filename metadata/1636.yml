@@ -5,11 +5,11 @@ solutions:
 - file: Solution_1636.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Sorting
   - Hash Table
   - Sorting
   topics:
-  - quick-select
+  - sorting
   time: O(NlogN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
