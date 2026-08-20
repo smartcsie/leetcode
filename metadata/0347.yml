@@ -13,6 +13,15 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 生疏
+  note: '> 題目 You may return the answer in any order.用 QuickSelect<br>
+
+    > target 位置的元素是正確的第 k 個元素<br>
+
+    > target 左邊的元素都 ≤ target<br>
+
+    > target 右邊的元素都 ≥ target<br>
+
+    > 如果結果是要有序的就要用sorting<br>'
 - file: Solution_0347_1.cpp
   difficulty: 🟡 Medium
   tags:
