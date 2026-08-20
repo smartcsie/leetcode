@@ -1,0 +1,13 @@
+number: 1964
+title: Find the Longest Valid Obstacle Course at Each Position
+url: https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/
+solutions:
+- file: Solution_1964.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Lis
+  topics:
+  - dp-lis
+  time: O(N log N)
+  space: O(N)
+  familiarity: 生疏
