@@ -1,0 +1,13 @@
+number: 2035
+title: Partition Array Into Two Arrays to Minimize Sum Difference
+url: https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/
+solutions:
+- file: Solution_2035.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Knapsack
+  topics:
+  - dp-knapsack
+  time: O(N
+  space: O(2^(N/2))
+  familiarity: 生疏
