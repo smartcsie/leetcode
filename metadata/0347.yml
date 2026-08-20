@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0347.cpp
   difficulty: 🟡 Medium
   tags:
+  - Quick Select
   - Hash Table
   - QuickSelect
   topics:
-  - sorting
+  - quick-select
   time: O(N)
   space: O(N)
   familiarity: 生疏

@@ -1,13 +1,12 @@
 # sorting
 
-## 🔴 生疏（25）
+## 🔴 生疏（24）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List, Merge Sort | [C++](../problems/0148.md) | O(NlogN) | O(logN) |
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting, Bucket Sort, Pigeonhole Principle | [C++](../problems/0164.md) | O(N) | O(N) |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Sorting, String | [C++](../problems/0179.md) | O(NlogN*K) | O(N*K) |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Hash Table, QuickSelect | [C++](../problems/0347.md) | O(N) | O(N) |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | Hash Table, Bucket Sort | [C++](../problems/0451.md) | O(N) | O(N) |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | Two Pointers, Sorting | [C++](../problems/0524.md) | O(DlogD+D*M) | O(1) |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Math, Sorting | [C++](../problems/0539.md) | O(NlogN) | O(N) |

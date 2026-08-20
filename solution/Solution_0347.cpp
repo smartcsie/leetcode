@@ -17,25 +17,17 @@ public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
         unordered_map<int, int> counts;
         for (int num : nums) counts[num]++;
-        
-        // 利用範圍建構子直接將 map 轉為 vector<pair>
-        vector<pair<int, int>> freq_vec(counts.begin(), counts.end());
 
-        // 使用 nth_element 進行快速選擇
-        // 目標：將前 K 大的元素放到容器的最末端 [size-k, size-1]
-        auto target = freq_vec.begin() + (freq_vec.size() - k);
-        nth_element(freq_vec.begin(), target, freq_vec.end(), 
-            [](const pair<int, int>& a, const pair<int, int>& b) {
-                return a.second < b.second; // 依照頻率從小到大比較
+        vector<pair<int, int>> freq_vec(counts.begin(), counts.end());
+        nth_element(freq_vec.begin(), freq_vec.end() - k, freq_vec.end(),
+            [](const pair<int,int>& a, const pair<int,int>& b) {
+                return a.second < b.second;
             });
-            
-        // 預先配置空間，避免多次 push_back 觸發重分配
+
         vector<int> res;
         res.reserve(k);
-        for (auto it = target; it != freq_vec.end(); ++it) {
+        for (auto it = freq_vec.end() - k; it != freq_vec.end(); ++it)
             res.push_back(it->first);
-        }
-        
         return res;
     }
 };
