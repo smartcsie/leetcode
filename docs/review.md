@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 866 / 4029 題（最後更新：2026-08-17 23:28）
-- **目前收錄總題目數：** 872 題　🔴 生疏：352 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 873 題　🔴 生疏：352 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：1 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -40,6 +40,7 @@
 | [dp-lcs](topics/dp-lcs.md) | 10 | 1 | 0 | 0 | 0 | 0 | 11 |
 | [dp-lis](topics/dp-lis.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [dp-machine](topics/dp-machine.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [dp-string](topics/dp-string.md) | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
 | [dynamic-programming](topics/dynamic-programming.md) | 8 | 2 | 0 | 0 | 0 | 0 | 10 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 5 | 1 | 2 | 0 | 5 | 0 | 13 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |

@@ -1,0 +1,12 @@
+number: 10
+title: Regular Expression Matching
+url: https://leetcode.com/problems/regular-expression-matching/
+solutions:
+- file: Solution_0010.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp String
+  topics:
+  - dp-string
+  time: O(M
+  space: O(M
