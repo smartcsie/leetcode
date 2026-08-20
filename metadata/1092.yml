@@ -1,0 +1,13 @@
+number: 1092
+title: Shortest Common Supersequence
+url: https://leetcode.com/problems/shortest-common-supersequence/
+solutions:
+- file: Solution_1092.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dynamic Programming Lcs
+  topics:
+  - dynamic-programming-lcs
+  time: O(N
+  space: O(N
+  familiarity: 生疏
