@@ -1,0 +1,13 @@
+number: 646
+title: Maximum Length of Pair Chain
+url: https://leetcode.com/problems/maximum-length-of-pair-chain/
+solutions:
+- file: Solution_0646.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Lis
+  topics:
+  - dp-lis
+  time: O(N²)
+  space: O(N)
+  familiarity: 生疏
