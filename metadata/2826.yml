@@ -8,7 +8,7 @@ solutions:
   - Dynamic Programming Lis
   - Longest Non-Decreasing Subsequence
   topics:
-  - dynamic-programming-lis
+  - dp-lis
   time: O(N)
   space: O(1)
   familiarity: 生疏

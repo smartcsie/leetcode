@@ -1,4 +1,4 @@
-# dynamic-programming-knapsack
+# dp-knapsack
 
 ## 🔴 生疏（9）
 

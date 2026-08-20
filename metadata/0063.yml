@@ -8,7 +8,7 @@ solutions:
   - Dynamic Programming Grid Path
   - DP
   topics:
-  - dynamic-programming-grid-path
+  - dp-grid-path
   time: O(M*N)
   space: O(N)
   familiarity: 生疏

@@ -53,7 +53,7 @@ GROUPS = [
     (r'^topological-sort$', '🕸️ Graph'),
     (r'^graph-shortest-path$', '🕸️ Graph'),
     (r'^sorting', '📊 Sorting'),
-    (r'^dynamic-programming', '🧩 Dynamic Programming'),
+    (r'^(dynamic-programming|dp-)', '🧩 Dynamic Programming'),
     (r'^greedy$', '🧩 Greedy'),
     (r'^backtracking', '🔢 Backtracking'),
     (r'sliding-window$', '🔢 Sliding Window'),

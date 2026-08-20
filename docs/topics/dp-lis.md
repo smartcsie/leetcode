@@ -1,4 +1,4 @@
-# dynamic-programming-lis
+# dp-lis
 
 ## 🔴 生疏（2）
 

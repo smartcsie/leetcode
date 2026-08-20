@@ -1,8 +1,10 @@
-# dynamic-programming-fibonacci
+# dp-fibonacci
 
-## 🔴 生疏（0）
+## 🔴 生疏（1）
 
-目前沒有標記為生疏的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | Dp Fibonacci | [C++](../problems/0091.md) | O(N) | O(N) |
 
 ## 🟠 再練習（5）
 

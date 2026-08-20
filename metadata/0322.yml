@@ -8,7 +8,7 @@ solutions:
   - DP
   - Unbounded Knapsack
   topics:
-  - dynamic-programming-knapsack
+  - dp-knapsack
   time: O(A*N)
   space: O(A)
   familiarity: 生疏

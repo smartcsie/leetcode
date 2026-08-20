@@ -8,7 +8,7 @@ solutions:
   - DP
   - Bit Manipulation
   topics:
-  - dynamic-programming-knapsack
+  - dp-knapsack
   time: O(N*S/W)
   space: O(S/W)
   familiarity: 生疏

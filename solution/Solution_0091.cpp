@@ -1,0 +1,42 @@
+/**
+ * 題目：91. Decode Ways
+ * 難度：中等 (Medium)
+ * 描述：一個字串 s 只由數字組成，每個字母 A~Z 對應到 "1"~"26"。給定 s，
+ * 求總共有幾種方式可以把它解碼回字母字串。
+ *
+ * 時間複雜度：O(N)
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * （線性 DP，dp[i] 代表「從 s[i] 開始到結尾」共有幾種解碼方式，從後往前推）：
+ * 1. dp[n] = 1：空字串只有一種解碼方式（什麼都不做）。
+ * 2. dp[n-1]：最後一個字元自己是否合法（不為 '0'）決定 dp[n-1] 是 0 還是 1。
+ * 3. 狀態轉移（從 i = n-2 往回推到 0）：
+ *    - 如果 s[i] 自己合法（不為 '0'），可以單獨解碼成一個字母，
+ *      這種切法貢獻 dp[i+1] 種方式。
+ *    - 如果 s[i..i+1] 這兩位合成的數字合法（10~26），可以合併解碼成一個
+ *      字母，這種切法貢獻 dp[i+2] 種方式。
+ *    - 兩種切法互斥且可以同時成立，所以 dp[i] 是兩者相加。
+ * 4. 答案是 dp[0]。
+ */
+class Solution {
+private:
+    bool isValid(char c) {
+        return c != '0';
+    }
+    bool isValid(char c1, char c2) {
+        return c1 == '1' || c1 == '2' && c2 < '7';
+    }
+public:
+    int numDecodings(string s) {
+        const int n = s.length();
+        vector<int> dp(n + 1);
+        dp[n] = 1;
+        dp[n - 1] = isValid(s[n - 1]);
+        for (int i = n - 2; i >= 0; --i) {
+            if (isValid(s[i])) dp[i] += dp[i + 1];
+            if (isValid(s[i], s[i + 1])) dp[i] += dp[i + 2];
+        }
+        return dp[0];
+    }
+};

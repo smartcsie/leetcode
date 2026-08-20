@@ -9,7 +9,7 @@ solutions:
   - DP
   - LCS
   topics:
-  - dynamic-programming-lcs
+  - dp-lcs
   time: O(N*M)
   space: O(M)
   familiarity: 生疏

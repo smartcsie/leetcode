@@ -7,7 +7,7 @@ solutions:
   tags:
   - Dynamic Programming Kadane
   topics:
-  - dynamic-programming-kadane
+  - dp-kadane
   time: O(N) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的狀態轉移皆為常數時間。
   space: O(1) - 僅使用常數個變數（ans, pos, neg）來動態追蹤狀態，不需額外配置記憶體。
   familiarity: 生疏

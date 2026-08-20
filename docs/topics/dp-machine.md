@@ -1,4 +1,4 @@
-# dynamic-programming-state-machine
+# dp-machine
 
 ## 🔴 生疏（2）
 

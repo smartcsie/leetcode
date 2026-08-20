@@ -8,7 +8,7 @@ solutions:
   - Dynamic Programming Lcs
   - DP
   topics:
-  - dynamic-programming-lcs
+  - dp-lcs
   time: O(N²)
   space: O(N)
   familiarity: 生疏

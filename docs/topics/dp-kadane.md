@@ -1,4 +1,4 @@
-# dynamic-programming-kadane
+# dp-kadane
 
 ## 🔴 生疏（5）
 

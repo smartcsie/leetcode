@@ -8,7 +8,7 @@ solutions:
   - Dynamic Programming Fibonacci
   - DP
   topics:
-  - dynamic-programming-fibonacci
+  - dp-fibonacci
   time: O(N)
   space: O(1)
   familiarity: 再練習
@@ -17,7 +17,7 @@ solutions:
   tags:
   - Dynamic Programming Fibonacci
   topics:
-  - dynamic-programming-fibonacci
+  - dp-fibonacci
   time: O(N)
   space: O(N)
   familiarity: 再練習

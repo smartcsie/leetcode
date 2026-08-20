@@ -1,4 +1,4 @@
-# dynamic-programming-grid-path
+# dp-grid-path
 
 ## 🔴 生疏（3）
 

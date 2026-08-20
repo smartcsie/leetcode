@@ -7,7 +7,7 @@ solutions:
   tags:
   - Dynamic Programming State Machine
   topics:
-  - dynamic-programming-state-machine
+  - dp-machine
   time: O(N)
   space: O(1)
   familiarity: 生疏

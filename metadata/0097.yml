@@ -8,7 +8,7 @@ solutions:
   - Dynamic Programming Lcs
   - Two Strings
   topics:
-  - dynamic-programming-lcs
+  - dp-lcs
   time: O(M * N)
   space: O(M * N)
   familiarity: 生疏

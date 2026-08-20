@@ -1,4 +1,4 @@
-# dynamic-programming-lcs
+# dp-lcs
 
 ## 🔴 生疏（10）
 
