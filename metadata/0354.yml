@@ -1,0 +1,13 @@
+number: 354
+title: Russian Doll Envelopes
+url: https://leetcode.com/problems/russian-doll-envelopes/
+solutions:
+- file: Solution_0354.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Lis
+  topics:
+  - dp-lis
+  time: O(N log N)
+  space: O(N)
+  familiarity: 生疏
