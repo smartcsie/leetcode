@@ -115,14 +115,15 @@ nav:
       - backtracking-combination: topics/backtracking-combination.md
       - backtracking-permutation: topics/backtracking-permutation.md
   - 🧩 Dynamic Programming:
-      - dynamic-programming-kadane: topics/dynamic-programming-kadane.md
+      - dp-string: topics/dp-string.md
+      - dp-kadane: topics/dp-kadane.md
       - dynamic-programming: topics/dynamic-programming.md
-      - dynamic-programming-grid-path: topics/dynamic-programming-grid-path.md
-      - dynamic-programming-fibonacci: topics/dynamic-programming-fibonacci.md
-      - dynamic-programming-lcs: topics/dynamic-programming-lcs.md
-      - dynamic-programming-state-machine: topics/dynamic-programming-state-machine.md
-      - dynamic-programming-knapsack: topics/dynamic-programming-knapsack.md
-      - dynamic-programming-lis: topics/dynamic-programming-lis.md
+      - dp-grid-path: topics/dp-grid-path.md
+      - dp-fibonacci: topics/dp-fibonacci.md
+      - dp-lcs: topics/dp-lcs.md
+      - dp-machine: topics/dp-machine.md
+      - dp-knapsack: topics/dp-knapsack.md
+      - dp-lis: topics/dp-lis.md
   - 🧩 Greedy:
       - greedy: topics/greedy.md
   - 🌳 Tree:
