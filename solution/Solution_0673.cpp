@@ -1,0 +1,49 @@
+/**
+ * 題目：673. Number of Longest Increasing Subsequence
+ * 難度：中等 (Medium)
+ * 描述：給定一個整數陣列 nums，求「最長遞增子序列」的長度，以及總共有
+ * 幾種不同的子序列可以達到這個最長長度。
+ *
+ * 時間複雜度：O(N²)
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * （標準 LIS DP 再多維護一個 counts 陣列）：
+ * 1. len[i] 代表「以 nums[i] 結尾」的最長遞增子序列長度（跟經典 300 題
+ *    完全一樣的定義），counts[i] 代表「以 nums[i] 結尾、且長度剛好是
+ *    len[i]」的子序列總共有幾種。
+ * 2. 對每個 i，往前看每個 j < i 且 nums[j] < nums[i]（可以接在後面）：
+ *    - 如果接上 nums[j] 能讓長度變得「更長」（len[j] + 1 > len[i]）：
+ *      代表找到一條更長的路徑，更新 len[i] = len[j] + 1，並且把
+ *      counts[i] 重設成 counts[j]（因為舊的 counts[i] 是對應舊的、
+ *      比較短的長度，已經不算數了）。
+ *    - 如果接上 nums[j] 能讓長度「打平」目前最長（len[j] + 1 == len[i]）：
+ *      代表多找到一種同樣長度的路徑，把 counts[j] 累加進 counts[i]。
+ * 3. 掃描過程中同步維護全域最長長度 mx 和答案 res：
+ *    - 如果 len[i] 打破全域最長，重設 mx = len[i]、res = counts[i]。
+ *    - 如果 len[i] 打平全域最長，把 counts[i] 累加進 res。
+ * 4. 答案是 res，也就是所有「長度等於全域最長」的位置的 counts 總和。
+ */
+class Solution {
+public:
+    int findNumberOfLIS(vector<int>& nums) {
+        int res = 0, mx = 0, n = nums.size();
+        vector<int> len(n, 1), counts(n, 1);
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < i; ++j) {
+                if (nums[i] <= nums[j]) continue;
+                if (len[i] == len[j] + 1) counts[i] += counts[j];
+                else if (len[i] < len[j] + 1) {
+                    len[i] = len[j] + 1;
+                    counts[i] = counts[j];
+                }
+            }
+            if (mx == len[i]) res += counts[i];
+            else if (mx < len[i]) {
+                mx = len[i];
+                res = counts[i];
+            }
+        }
+        return res;
+    }
+};

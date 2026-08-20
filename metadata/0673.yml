@@ -1,0 +1,13 @@
+number: 673
+title: Number of Longest Increasing Subsequence
+url: https://leetcode.com/problems/number-of-longest-increasing-subsequence/
+solutions:
+- file: Solution_0673.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Lis
+  topics:
+  - dp-lis
+  time: O(N²)
+  space: O(N)
+  familiarity: 生疏
