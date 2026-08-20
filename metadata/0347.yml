@@ -13,3 +13,12 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 生疏
+- file: Solution_0347_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Priority Queue
+  topics:
+  - priority-queue
+  time: O(NlogN)
+  space: O(N)
+  familiarity: 生疏
