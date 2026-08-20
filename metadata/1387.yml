@@ -5,6 +5,7 @@ solutions:
 - file: Solution_1387.cpp
   difficulty: 🟡 Medium
   tags:
+  - Quick Select
   - Recursion
   - Collatz Conjecture
   - Quickselect
@@ -12,4 +13,4 @@ solutions:
   - quick-select
   time: O(N*S)*
   space: O(N+S)
-  familiarity: 生疏
+  familiarity: 再練習

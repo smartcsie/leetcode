@@ -22,22 +22,18 @@
 
 class Solution {
 private:
-    // 計算 Collatz 轉換步數 (Power Value)
     int getPow(int n) {
-        if (n == 1) return 0;
-        return 1 + (!(n & 1) ? getPow(n / 2) : getPow(3 * n + 1));
+        if(n == 1) return 0;
+        return 1+ (!(n & 1) ? getPow(n / 2) : getPow(3 * n + 1));
     }
 public:
     int getKth(int lo, int hi, int k) {
-        std::vector<std::pair<int, int>> pows;
-        pows.reserve(hi - lo + 1);
-        // 收集區間內每個數字的權重與數值
-        for (int i = lo; i <= hi; i++) {
+        vector<pair<int, int>> pows;
+        for(int i = lo; i <= hi; i++) {
             pows.push_back({getPow(i), i});
         }
-        // 使用 nth_element 在平均 O(N) 時間內將第 k-1 小的元素放在正確位置
-        std::nth_element(pows.begin(), pows.begin() + k - 1, pows.end());
-        // 回傳第 k 小元素的原始數字 (.second)
-        return pows[k - 1].second;
+        auto it = pows.begin() + k - 1;
+        nth_element(pows.begin(), it, pows.end());
+        return it->second;
     }
 };
