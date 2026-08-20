@@ -5,8 +5,7 @@ solutions:
 - file: Solution_0718.cpp
   difficulty: 🟡 Medium
   tags:
-  - DP
-  - Array
+  - Dynamic Programming
   topics:
   - dynamic-programming
   time: O(N*M)

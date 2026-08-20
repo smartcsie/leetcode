@@ -1,6 +1,6 @@
 # dynamic-programming-lcs
 
-## 🔴 生疏（8）
+## 🔴 生疏（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -12,6 +12,7 @@
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming Lcs | [C++](../problems/0583.md) | O(M*N) | O(M*N) |
 | 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | Dynamic Programming Lcs, String | [C++](../problems/0712.md) | O(M×N) | O(M×N) |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | Dynamic Programming Lcs, DP, LCS | [C++](../problems/1035.md) | O(N*M) | O(M) |
+| 1312 | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | 🔴 Hard | Dynamic Programming Lcs | [C++](../problems/1312.md) | O(N²) | O(N²) |
 
 ## 🟠 再練習（1）
 

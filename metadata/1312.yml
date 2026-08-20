@@ -1,0 +1,13 @@
+number: 1312
+title: Minimum Insertion Steps to Make a String Palindrome
+url: https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+solutions:
+- file: Solution_1312.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dynamic Programming Lcs
+  topics:
+  - dynamic-programming-lcs
+  time: O(N²)
+  space: O(N²)
+  familiarity: 生疏
