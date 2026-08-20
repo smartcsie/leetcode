@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0973.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Quick Select
   - QuickSelect
   topics:
   - quick-select
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
