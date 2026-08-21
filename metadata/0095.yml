@@ -1,0 +1,13 @@
+number: 95
+title: Unique Binary Search Trees II
+url: https://leetcode.com/problems/unique-binary-search-trees-ii/
+solutions:
+- file: Solution_0095.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Interval
+  topics:
+  - dp-interval
+  time: O(Catalan(N)
+  space: O(Catalan(N)
+  familiarity: 生疏

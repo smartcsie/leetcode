@@ -1,0 +1,13 @@
+number: 375
+title: Guess Number Higher or Lower II
+url: https://leetcode.com/problems/guess-number-higher-or-lower-ii/
+solutions:
+- file: Solution_0375.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Interval
+  topics:
+  - dp-interval
+  time: O(N³)
+  space: O(N²)
+  familiarity: 生疏

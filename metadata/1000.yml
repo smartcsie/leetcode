@@ -1,0 +1,13 @@
+number: 1000
+title: Minimum Cost to Merge Stones
+url: https://leetcode.com/problems/minimum-cost-to-merge-stones/
+solutions:
+- file: Solution_1000.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Interval
+  topics:
+  - dp-interval
+  time: O(N³ / K)
+  space: O(N²)
+  familiarity: 生疏
