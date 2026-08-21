@@ -1,0 +1,41 @@
+/**
+ * 題目：122. Best Time to Buy and Sell Stock II
+ * 難度：中等 (Medium)
+ * 描述：給定每天的股價 prices，可以進行無限次交易（買了要先賣掉才能
+ * 再買），同一天不能同時買賣，求最大總利潤。
+ *
+ * 時間複雜度：O(N)
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：
+ * （State Machine DP，兩個狀態：cash = 手上沒股票的最大利潤、
+ * hold = 手上持有股票的最大利潤，跟 121 是同一個框架，只是這題交易
+ * 次數沒有限制）：
+ * 1. 初始化 cash = 0（一開始沒買，利潤 0），hold = -∞（一開始不可能
+ *    持有股票）。
+ * 2. 狀態轉移，每天有兩個選擇：
+ *    - cash（今天結束時沒持股）：要嘛昨天就沒持股（延續 cash），要嘛
+ *      昨天有持股、今天賣掉（hold + price）。
+ *    - hold（今天結束時持股）：要嘛昨天就持股（延續 hold），要嘛昨天
+ *      沒持股、今天買進（cash - price）。
+ * 3. 跟 121（只能交易一次）唯一的差別：121 的 hold 轉移是
+ *    `max(hold, -price)`（因為只能買一次，買的成本永遠從 0 算起）；
+ *    這題允許無限次交易，所以是 `max(hold, cash - price)`——買進的
+ *    本錢可以疊加前面已經實現的利潤（cash），這正是「無限次交易」
+ *    這個狀態機的關鍵差異。
+ * 4. 答案是最後一天的 cash（手上沒股票時利潤一定 >= 持股時，因為賣掉
+ *    才算真正落袋為安）。
+ */
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int cash = 0, hold = INT_MIN;
+        for (int price : prices) {
+            int newCash = max(cash, hold + price);
+            int newHold = max(hold, cash - price);
+            cash = newCash;
+            hold = newHold;
+        }
+        return cash;
+    }
+};

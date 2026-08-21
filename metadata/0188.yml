@@ -1,0 +1,13 @@
+number: 188
+title: Best Time to Buy and Sell Stock IV
+url: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+solutions:
+- file: Solution_0188.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp State Machine
+  topics:
+  - dp-state-machine
+  time: O(N
+  space: O(K)
+  familiarity: 生疏

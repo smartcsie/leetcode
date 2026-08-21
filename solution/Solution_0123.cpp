@@ -1,0 +1,39 @@
+/**
+ * 題目：123. Best Time to Buy and Sell Stock III
+ * 難度：困難 (Hard)
+ * 描述：給定每天的股價 prices，最多可以進行 2 次交易（一次交易 = 一買
+ * 一賣），求最大總利潤。
+ *
+ * 時間複雜度：O(N)
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：
+ * （State Machine DP，四個狀態代表交易進度：第一次買、第一次賣、
+ * 第二次買、第二次賣）：
+ * 1. buy1：進行過第一次買進之後的最大利潤（負數，代表花掉的成本）。
+ * 2. sell1：完成第一次交易（買了又賣）之後的最大利潤。
+ * 3. buy2：在完成第一次交易的基礎上，再進行第二次買進之後的最大利潤
+ *    （本錢是 sell1 - price，代表用第一次賺到的錢滾入第二次交易）。
+ * 4. sell2：完成第二次交易之後的最大利潤，也就是最終答案。
+ * 5. 狀態轉移（每天依序更新，順序很重要：buy1 → sell1 → buy2 → sell2，
+ *    因為後面的狀態依賴同一天前面已經更新過的狀態）：
+ *    buy1 = max(buy1, -price)
+ *    sell1 = max(sell1, buy1 + price)
+ *    buy2 = max(buy2, sell1 - price)
+ *    sell2 = max(sell2, buy2 + price)
+ * 6. 這個框架很自然可以延伸到「最多 k 次交易」（就是 188 題），只是
+ *    這題把 k 固定成 2，直接展開成 4 個變數，不用陣列迴圈。
+ */
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int buy1 = INT_MIN, sell1 = 0, buy2 = INT_MIN, sell2 = 0;
+        for (int price : prices) {
+            buy1 = max(buy1, -price);
+            sell1 = max(sell1, buy1 + price);
+            buy2 = max(buy2, sell1 - price);
+            sell2 = max(sell2, buy2 + price);
+        }
+        return sell2;
+    }
+};
