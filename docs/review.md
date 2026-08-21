@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（374）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（377）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 877 / 4029 題（最後更新：2026-08-20 22:20）
-- **目前收錄總題目數：** 888 題　🔴 生疏：368 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 891 題　🔴 生疏：371 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -42,6 +42,7 @@
 | [dp-lis](topics/dp-lis.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-machine](topics/dp-machine.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [dp-string](topics/dp-string.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [dp-tree](topics/dp-tree.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [dynamic-programming](topics/dynamic-programming.md) | 8 | 2 | 0 | 0 | 0 | 0 | 10 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 5 | 1 | 2 | 0 | 5 | 0 | 13 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
@@ -102,9 +103,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 374 個解法標記為生疏，建議找時間重新練習。
+目前共有 377 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（58）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -460,7 +461,7 @@
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting |
 
 <a id="shengshu-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（58）
+#### 🧩 Dynamic Programming（61）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -506,6 +507,7 @@
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | [C++](problems/0918.md) | dp-kadane |
 | 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | [C++](problems/0926.md) | dp-machine |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | 🟡 Medium | [C++](problems/0931.md) | dp-grid-path |
+| 968 | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | 🔴 Hard | [C++](problems/0968.md) | dp-tree |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | [C++](problems/0983.md) | dp-knapsack |
 | 1000 | [Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/) | 🔴 Hard | [C++](problems/1000.md) | dp-interval |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | [C++](problems/1035.md) | dp-lcs |
@@ -515,11 +517,13 @@
 | 1130 | [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | 🟡 Medium | [C++](problems/1130.md) | dp-interval |
 | 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 Medium | [C++](problems/1277.md) | dp-grid-path |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | 🔴 Hard | [C++](problems/1312.md) | dp-lcs |
+| 1373 | [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) | 🔴 Hard | [C++](problems/1373.md) | dp-tree |
 | 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | [C++](problems/1567.md) | dp-kadane |
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | [C++](problems/1641.md) | dp-kadane |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | [C++](problems/1668.md) | dynamic-programming |
 | 1964 | [Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | 🔴 Hard | [C++](problems/1964.md) | dp-lis |
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 Hard | [C++](problems/2035.md) | dp-knapsack |
+| 2246 | [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/) | 🔴 Hard | [C++](problems/2246.md) | dp-tree |
 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | [C++](problems/2707.md) | dynamic-programming |
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | [C++](problems/2826.md) | dp-lis |
 

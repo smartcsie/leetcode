@@ -1,0 +1,13 @@
+number: 1373
+title: Maximum Sum BST in Binary Tree
+url: https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/
+solutions:
+- file: Solution_1373.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Tree
+  topics:
+  - dp-tree
+  time: O(N)
+  space: O(H)
+  familiarity: 生疏

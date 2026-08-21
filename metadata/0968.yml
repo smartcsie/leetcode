@@ -1,0 +1,13 @@
+number: 968
+title: Binary Tree Cameras
+url: https://leetcode.com/problems/binary-tree-cameras/
+solutions:
+- file: Solution_0968.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Tree
+  topics:
+  - dp-tree
+  time: O(N)
+  space: O(H)
+  familiarity: 生疏
