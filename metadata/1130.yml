@@ -1,0 +1,13 @@
+number: 1130
+title: Minimum Cost Tree From Leaf Values
+url: https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/
+solutions:
+- file: Solution_1130.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Interval
+  topics:
+  - dp-interval
+  time: O(N³)
+  space: O(N²)
+  familiarity: 生疏

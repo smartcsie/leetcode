@@ -1,0 +1,48 @@
+/**
+ * 題目：312. Burst Balloons
+ * 難度：困難 (Hard)
+ * 描述：給定 n 個氣球排成一列，nums[i] 是第 i 個氣球上的數字。每次戳破
+ * 一個氣球 i，能得到 nums[left] * nums[i] * nums[right] 個金幣（left、
+ * right 是目前氣球 i 左右兩側「還沒被戳破」的氣球，越界視為 1）。求把
+ * 所有氣球戳完能拿到的最大金幣總數。
+ *
+ * 時間複雜度：O(N³)
+ * 空間複雜度：O(N²)
+ *
+ * 解法思路：
+ * （Interval DP，關鍵是換個角度思考「最後戳破的氣球」而不是「第一個」）：
+ * 1. 這題如果照「先戳哪個」去想，左右邊界會一直變動，很難定義子問題；
+ *    反過來想「這個區間裡最後戳破的氣球是誰」，戳破它的時候，左右兩側
+ *    的氣球都還沒被戳破（因為它是最後一個），所以它的鄰居就是固定的
+ *    區間邊界，子問題才會獨立、不互相干擾。
+ * 2. 前後各補一個數值為 1 的虛擬氣球（處理邊界越界的情況），
+ *    dp[left][right] 代表「戳破 (left, right) 開區間內所有氣球」能拿到
+ *    的最大金幣（left、right 這兩個位置的氣球不戳，當作邊界）。
+ * 3. 狀態轉移：枚舉這個區間裡「最後一個戳破」的氣球 k（left < k < right），
+ *    dp[left][right] = max over k of：
+ *    dp[left][k] + dp[k][right] + balloons[left]*balloons[k]*balloons[right]
+ *    也就是先把 k 左邊、右邊的子區間都戳完（此時 k 的左右鄰居還是
+ *    balloons[left]、balloons[right]，因為 k 是最後戳的），最後才戳 k，
+ *    拿到 balloons[left]*balloons[k]*balloons[right] 金幣。
+ * 4. 按照區間長度由小到大遞推，答案是 dp[0][n+1]（整個陣列含左右邊界）。
+ */
+class Solution {
+public:
+    int maxCoins(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> balloons(n + 2, 1);
+        for (int i = 0; i < n; ++i) balloons[i + 1] = nums[i];
+        vector<vector<int>> dp(n + 2, vector<int>(n + 2, 0));
+        for (int len = 1; len <= n; ++len) {
+            for (int left = 1; left + len - 1 <= n; ++left) {
+                int right = left + len - 1;
+                for (int k = left; k <= right; ++k) {
+                    int gain = balloons[left - 1] * balloons[k] * balloons[right + 1]
+                             + dp[left][k - 1] + dp[k + 1][right];
+                    dp[left][right] = max(dp[left][right], gain);
+                }
+            }
+        }
+        return dp[1][n];
+    }
+};

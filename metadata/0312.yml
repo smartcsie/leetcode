@@ -1,0 +1,13 @@
+number: 312
+title: Burst Balloons
+url: https://leetcode.com/problems/burst-balloons/
+solutions:
+- file: Solution_0312.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Interval
+  topics:
+  - dp-interval
+  time: O(N³)
+  space: O(N²)
+  familiarity: 生疏

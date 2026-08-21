@@ -1,0 +1,13 @@
+number: 1039
+title: Minimum Score Triangulation of Polygon
+url: https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
+solutions:
+- file: Solution_1039.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Interval
+  topics:
+  - dp-interval
+  time: O(N³)
+  space: O(N²)
+  familiarity: 生疏
