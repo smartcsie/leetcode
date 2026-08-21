@@ -646,7 +646,7 @@ function addSolutionBlock(prefill) {
         <label>熟悉度 <span class="hint">(選填)</span></label>
         <select class="sol-familiarity" style="max-width: 220px;">
           <option value="">未標記</option>
-          <option value="生疏">🔴 生疏</option>
+          <option value="生疏" selected>🔴 生疏</option>
           <option value="再練習">🟠 再練習</option>
           <option value="練習過">🟡 練習過</option>
           <option value="易忘">🟣 易忘</option>
@@ -771,7 +771,7 @@ async function loadExistingProblem() {
       block.querySelector('.sol-related').value = (sol.related || []).join(', ');
 
       const familiarityEl = block.querySelector('.sol-familiarity');
-      if (sol.familiarity) familiarityEl.value = sol.familiarity;
+      familiarityEl.value = sol.familiarity || '';
 
       const tagSelect = block.querySelector('.sol-tags-select');
       const extraTags = [];
