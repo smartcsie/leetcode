@@ -30,12 +30,23 @@ def main():
     print(f"LeetCode 帳號顯示已 AC：{len(ac_problems)} 題")
 
     existing_numbers = set()
+    existing_info = {}
     for fpath in glob.glob(os.path.join(meta_dir, '*.yml')):
         base = os.path.basename(fpath).replace('.yml', '')
         try:
-            existing_numbers.add(int(base))
+            num = int(base)
         except ValueError:
             continue
+        existing_numbers.add(num)
+        try:
+            with open(fpath, 'r', encoding='utf-8') as f:
+                meta = yaml.safe_load(f)
+            existing_info[num] = {
+                'title': (meta or {}).get('title', ''),
+                'url': (meta or {}).get('url', ''),
+            }
+        except Exception:
+            existing_info[num] = {'title': '', 'url': ''}
 
     print(f"repo 裡 metadata 已收錄：{len(existing_numbers)} 題")
 
@@ -47,5 +58,15 @@ def main():
         url = f"https://leetcode.com/problems/{info['slug']}/"
         print(f"{num:>5} | {info['title']:<50} | {url}")
 
+    reverse_gap = sorted(existing_numbers - set(ac_problems.keys()))
+    print(f"\n\n反向落差（repo 裡有筆記，但 LeetCode 帳號還沒 AC）：共 {len(reverse_gap)} 題\n")
+    print("（可能原因：只寫了筆記還沒真的送出/AC、AC 記錄用別的帳號、或是題號打錯）\n")
+
+    for num in reverse_gap:
+        info = existing_info.get(num, {'title': '', 'url': ''})
+        url = info['url'] or f"https://leetcode.com/problems/{num}/"
+        print(f"{num:>5} | {info['title']:<50} | {url}")
+
 if __name__ == '__main__':
     main()
+

@@ -121,9 +121,11 @@ nav:
       - dp-grid-path: topics/dp-grid-path.md
       - dp-fibonacci: topics/dp-fibonacci.md
       - dp-lcs: topics/dp-lcs.md
-      - dp-machine: topics/dp-machine.md
+      - dp-interval: topics/dp-interval.md
+      - dp-state-machine: topics/dp-state-machine.md
       - dp-knapsack: topics/dp-knapsack.md
       - dp-lis: topics/dp-lis.md
+      - dp-tree: topics/dp-tree.md
   - 🧩 Greedy:
       - greedy: topics/greedy.md
   - 🌳 Tree:
