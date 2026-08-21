@@ -1,0 +1,35 @@
+/**
+ * 題目：120. Triangle
+ * 難度：中等 (Medium)
+ * 描述：給定一個三角形陣列 triangle，從頂端出發，每一步只能移動到下一列
+ * 相鄰的兩個數字之一，求從頂端走到底端的最小路徑和。
+ *
+ * 時間複雜度：O(N²)
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * （由下往上的一維 DP，dp[j] 代表「從第 j 欄走到底端」的最小路徑和）：
+ * 1. dp 初始化為三角形最後一列（最後一列每個位置走到底端的路徑和就是
+ *    自己）。
+ * 2. 狀態轉移（從倒數第二列往上推到頂端）：dp[j] = triangle[i][j] +
+ *    min(dp[j], dp[j+1])，代表從 (i, j) 出發，接下來要嘛走到下一列的
+ *    j（原本 dp[j]），要嘛走到下一列的 j+1，取兩者較小的路徑和再加上
+ *    自己。
+ * 3. 由下往上推的好處：dp 陣列可以重複使用同一份（原地更新），不用像
+ *    由上往下那樣需要處理「每列長度不同、邊界只能往一個方向擴散」的
+ *    問題，寫起來更簡潔。
+ * 4. 推到頂端後，答案是 dp[0]。
+ */
+class Solution {
+public:
+    int minimumTotal(vector<vector<int>>& triangle) {
+        int n = triangle.size();
+        vector<int> dp = triangle[n - 1];
+        for (int i = n - 2; i >= 0; --i) {
+            for (int j = 0; j <= i; ++j) {
+                dp[j] = triangle[i][j] + min(dp[j], dp[j + 1]);
+            }
+        }
+        return dp[0];
+    }
+};

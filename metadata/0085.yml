@@ -1,0 +1,13 @@
+number: 85
+title: Maximal Rectangle
+url: https://leetcode.com/problems/maximal-rectangle/
+solutions:
+- file: Solution_0085.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Grid Path
+  topics:
+  - dp-grid-path
+  time: O(M
+  space: O(N)
+  familiarity: 生疏

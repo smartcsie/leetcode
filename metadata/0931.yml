@@ -1,0 +1,13 @@
+number: 931
+title: Minimum Falling Path Sum
+url: https://leetcode.com/problems/minimum-falling-path-sum/
+solutions:
+- file: Solution_0931.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Grid Path
+  topics:
+  - dp-grid-path
+  time: O(N²)
+  space: O(N)
+  familiarity: 生疏

@@ -1,0 +1,13 @@
+number: 120
+title: Triangle
+url: https://leetcode.com/problems/triangle/
+solutions:
+- file: Solution_0120.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Grid Path
+  topics:
+  - dp-grid-path
+  time: O(N²)
+  space: O(N)
+  familiarity: 生疏

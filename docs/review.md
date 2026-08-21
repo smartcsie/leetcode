@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（364）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（368）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 877 / 4029 題（最後更新：2026-08-20 22:20）
-- **目前收錄總題目數：** 878 題　🔴 生疏：358 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 882 題　🔴 生疏：362 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -34,7 +34,7 @@
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 9 | 6 | 0 | 0 | 2 | 0 | 17 |
 | [design](topics/design.md) | 0 | 5 | 0 | 1 | 1 | 0 | 7 |
 | [dp-fibonacci](topics/dp-fibonacci.md) | 1 | 3 | 3 | 0 | 0 | 0 | 7 |
-| [dp-grid-path](topics/dp-grid-path.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| [dp-grid-path](topics/dp-grid-path.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [dp-kadane](topics/dp-kadane.md) | 5 | 1 | 0 | 0 | 0 | 0 | 6 |
 | [dp-knapsack](topics/dp-knapsack.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
 | [dp-lcs](topics/dp-lcs.md) | 10 | 1 | 0 | 0 | 0 | 0 | 11 |
@@ -101,9 +101,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 364 個解法標記為生疏，建議找時間重新練習。
+目前共有 368 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（48）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（52）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -459,7 +459,7 @@
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting |
 
 <a id="shengshu-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（48）
+#### 🧩 Dynamic Programming（52）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -468,14 +468,17 @@
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | [C++](problems/0063.md) | dp-grid-path |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | [C++](problems/0064.md) | dp-grid-path |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [C++](problems/0072.md) | dp-lcs |
+| 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 Hard | [C++](problems/0085.md) | dp-grid-path |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | [C++](problems/0091.md) | dp-fibonacci |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | [C++](problems/0096.md) | dynamic-programming |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | [C++](problems/0097.md) | dp-lcs |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | [C++](problems/0115.md) | dp-lcs |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](problems/0118.md) | dp-kadane |
+| 120 | [Triangle](https://leetcode.com/problems/triangle/) | 🟡 Medium | [C++](problems/0120.md) | dp-grid-path |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | [C++](problems/0121.md) | dp-machine |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [C++](problems/0139.md) | dp-knapsack |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | [C++](problems/0152.md) | dp-kadane |
+| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | [C++](problems/0221.md) | dp-grid-path |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | [C++](problems/0264.md) | dynamic-programming |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | [C++](problems/0279.md) | dp-knapsack |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | [C++](problems/0300.md) | dp-lis |
@@ -498,6 +501,7 @@
 | 898 | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | [C++](problems/0898.md) | dynamic-programming |
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | [C++](problems/0918.md) | dp-kadane |
 | 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | [C++](problems/0926.md) | dp-machine |
+| 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | 🟡 Medium | [C++](problems/0931.md) | dp-grid-path |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | [C++](problems/0983.md) | dp-knapsack |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | [C++](problems/1035.md) | dp-lcs |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | [C++](problems/1049.md) | dp-knapsack |
