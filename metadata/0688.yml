@@ -1,0 +1,13 @@
+number: 688
+title: Knight Probability in Chessboard
+url: https://leetcode.com/problems/knight-probability-in-chessboard/
+solutions:
+- file: Solution_0688.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Probability
+  topics:
+  - dp-probability
+  time: O(K
+  space: O(N²)
+  familiarity: 生疏

@@ -1,0 +1,50 @@
+/**
+ * 題目：808. Soup Servings
+ * 難度：中等 (Medium)
+ * 描述：有 A、B 兩種湯各 n 毫升，每次隨機執行四種操作之一（機率各
+ * 25%）：倒 A100/B0、A75/B25、A50/B50、A25/B75（毫升），直到某一種
+ * 湯用完為止（不夠倒的話能倒多少倒多少）。求「A 先用完」或「A、B
+ * 同時用完」的機率總和。
+ *
+ * 時間複雜度：O((N/25)²)（記憶化後的狀態數）
+ * 空間複雜度：O((N/25)²)
+ *
+ * 解法思路：
+ * （Probability DP + 記憶化搜尋，關鍵優化是把毫升數壓縮成 25 的倍數
+ * 單位，狀態空間才不會太大）：
+ * 1. 觀察到四種操作都是 25 的倍數，把 n 換算成「25 為一個單位」，
+ *    m = ceil(n / 25)，之後的遞迴都用單位數字（a, b）表示，而不是
+ *    真正的毫升數，狀態空間直接縮小 25 倍。
+ * 2. dfs(a, b) 代表「A 還剩 a 個單位、B 還剩 b 個單位」時，A 先用完
+ *    （或兩個同時用完）的機率：
+ *    - a <= 0 且 b <= 0（同時用完）：機率算 0.5（按題目定義）。
+ *    - a <= 0（A 先用完，B 還有剩）：機率是 1.0。
+ *    - b <= 0（B 先用完，A 還有剩）：機率是 0.0。
+ *    - 否則遞迴四種操作，各自機率 0.25，加總：
+ *      0.25*(dfs(a-4,b) + dfs(a-3,b-1) + dfs(a-2,b-2) + dfs(a-1,b-3))
+ * 3. 用 map 記憶化，避免同樣的 (a,b) 狀態重複計算。
+ * 4. **重要的邊界優化**：當 n 很大時（本題設定 n >= 4800 時），A 用完
+ *    的機率會無限逼近 1（因為 A 的操作平均消耗量比 B 大，n 越大這個
+ *    趨勢越明顯），直接回傳 1.0，避免對超大的 n 做遞迴導致超時或
+ *    stack overflow。這個閾值是題目給定資料範圍下的已知安全值。
+ */
+class Solution {
+    unordered_map<long long,double> memo;
+public:
+    double soupServings(int n) {
+        if (n >= 4800) return 1.0;
+        int m = (n + 24) / 25;
+        return dfs(m, m);
+    }
+
+private:
+    double dfs(int a, int b) {
+        if (a <= 0 && b <= 0) return 0.5;
+        if (a <= 0) return 1.0;
+        if (b <= 0) return 0.0;
+        long long key = (long long)a * 10000 + b;
+        if (memo.count(key)) return memo[key];
+        double res = 0.25 * (dfs(a - 4, b) + dfs(a - 3, b - 1) + dfs(a - 2, b - 2) + dfs(a - 1, b - 3));
+        return memo[key] = res;
+    }
+};

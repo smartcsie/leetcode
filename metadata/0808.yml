@@ -1,0 +1,13 @@
+number: 808
+title: Soup Servings
+url: https://leetcode.com/problems/soup-servings/
+solutions:
+- file: Solution_0808.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Probability
+  topics:
+  - dp-probability
+  time: O((N/25)²)（記憶化後的狀態數）
+  space: O((N/25)²)
+  familiarity: 生疏
