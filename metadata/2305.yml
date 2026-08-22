@@ -1,0 +1,13 @@
+number: 2305
+title: Fair Distribution of Cookies
+url: https://leetcode.com/problems/fair-distribution-of-cookies/
+solutions:
+- file: Solution_2305.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking Constraint
+  topics:
+  - backtracking-constraint
+  time: O(K^N)（最壞情況，靠剪枝大幅縮減）
+  space: O(N)（遞迴深度）
+  familiarity: 生疏

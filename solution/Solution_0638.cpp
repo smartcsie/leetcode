@@ -1,0 +1,56 @@
+/**
+ * 題目：638. Shopping Offers
+ * 難度：中等 (Medium)
+ * 描述：給定每種商品的原價 price、一些優惠組合 special（每個優惠是
+ * 「買各商品幾件、總價多少」）、以及需要買的數量 needs，優惠可以重複
+ * 使用，求買齊 needs 所需的最少花費。
+ *
+ * 時間複雜度：O(優惠數量^商品種類數)（最壞情況，實務上因為需求量有限
+ * 會提早剪枝）
+ * 空間複雜度：O(商品種類數)（遞迴深度）
+ *
+ * 解法思路：
+ * （回溯 + 記憶化的雛形，這題註記「memoization needed」但因為狀態
+ * 空間（needs 的組合）通常不大，直接回溯配合剪枝也能過，這裡先給
+ * 純回溯版本）：
+ * 1. backtrack(needs) 代表「目前還需要買到 needs 這些數量」時，最少
+ *    花費是多少。
+ * 2. base case（不使用任何優惠）：直接用原價買齊剩下的 needs，這是
+ *    一個保底方案，先算出來當作 best 的初始值。
+ * 3. 狀態轉移：對每一個優惠方案，檢查它會不會讓某項商品「買超過」
+ *    需求（optional[i] > needs[i]，代表這個優惠不能用，跳過）；
+ *    如果每項商品都不會買超過，就計算「用了這個優惠之後，剩下還需要
+ *    買的 newNeeds」，遞迴算出 newNeeds 的最少花費，加上這個優惠本身
+ *    的價格，跟目前的 best 取最小值。
+ * 4. 這題不用擔心「優惠只能用一次」的限制，因為題目允許重複使用同一個
+ *    優惠（只要扣減後的 needs 依然 >= 0），遞迴自然涵蓋了「用兩次同
+ *    一優惠」的情況。
+ * 5. 答案是 backtrack(needs) 的回傳值。
+ */
+class Solution {
+public:
+    int shoppingOffers(vector<int>& price, vector<vector<int>>& special, vector<int>& needs) {
+        return backtrack(price, special, needs);
+    }
+
+private:
+    int backtrack(vector<int>& price, vector<vector<int>>& special, vector<int>& needs) {
+        int n = price.size();
+        int best = 0;
+        for (int i = 0; i < n; ++i) best += price[i] * needs[i];
+
+        for (auto& offer : special) {
+            vector<int> newNeeds;
+            bool valid = true;
+            for (int i = 0; i < n; ++i) {
+                int remain = needs[i] - offer[i];
+                if (remain < 0) { valid = false; break; }
+                newNeeds.push_back(remain);
+            }
+            if (!valid) continue;
+            int cost = offer[n] + backtrack(price, special, newNeeds);
+            best = min(best, cost);
+        }
+        return best;
+    }
+};

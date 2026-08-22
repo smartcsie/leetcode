@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（407）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（418）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
 
 ## 📊 總覽
 
-- **LeetCode 網站 AC 總數：** 896 / 4029 題（最後更新：2026-08-22 11:15）
-- **目前收錄總題目數：** 921 題　🔴 生疏：401 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
+- **LeetCode 網站 AC 總數：** 919 / 4029 題（最後更新：2026-08-22 11:31）
+- **目前收錄總題目數：** 932 題　🔴 生疏：412 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -21,8 +21,10 @@
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 15 | 1 | 0 | 1 | 2 | 0 | 19 |
-| [backtracking-combination](topics/backtracking-combination.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
-| [backtracking-permutation](topics/backtracking-permutation.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [backtracking-combination](topics/backtracking-combination.md) | 13 | 0 | 0 | 0 | 0 | 0 | 13 |
+| [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| [backtracking-grid](topics/backtracking-grid.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 1 | 0 | 22 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [binary-search-tree](topics/binary-search-tree.md) | 9 | 6 | 0 | 0 | 1 | 0 | 16 |
@@ -35,7 +37,7 @@
 | [design](topics/design.md) | 0 | 5 | 0 | 1 | 1 | 0 | 7 |
 | [dp-bitmask](topics/dp-bitmask.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-digit](topics/dp-digit.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [dp-fibonacci](topics/dp-fibonacci.md) | 1 | 3 | 3 | 0 | 0 | 0 | 7 |
+| [dp-fibonacci](topics/dp-fibonacci.md) | 2 | 3 | 3 | 0 | 0 | 0 | 8 |
 | [dp-game-theory](topics/dp-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-grid-path](topics/dp-grid-path.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
@@ -108,9 +110,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 407 個解法標記為生疏，建議找時間重新練習。
+目前共有 418 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（92）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（23）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -466,7 +468,7 @@
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting |
 
 <a id="shengshu-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（91）
+#### 🧩 Dynamic Programming（92）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -558,6 +560,7 @@
 | 1987 | [Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/) | 🔴 Hard | [C++](problems/1987.md) | dp-subsequences |
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 Hard | [C++](problems/2035.md) | dp-knapsack |
 | 2246 | [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/) | 🔴 Hard | [C++](problems/2246.md) | dp-tree |
+| 2266 | [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | 🟡 Medium | [C++](problems/2266.md) | dp-fibonacci |
 | 2376 | [Count Special Integers](https://leetcode.com/problems/count-special-integers/) | 🔴 Hard | [C++](problems/2376.md) | dp-digit |
 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | [C++](problems/2707.md) | dynamic-programming |
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | [C++](problems/2826.md) | dp-lis |
@@ -586,23 +589,33 @@
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | [C++](problems/3114.md) | greedy |
 
 <a id="shengshu-backtracking"></a>
-#### 🔢 Backtracking（13）
+#### 🔢 Backtracking（23）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | [C++](problems/0017.md) | backtracking-combination |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | [C++](problems/0022.md) | backtracking-combination |
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | 🔴 Hard | [C++](problems/0037.md) | backtracking-constraint |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | [C++](problems/0039.md) | backtracking-combination |
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | [C++](problems/0040.md) | backtracking-combination |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | [C++](problems/0046.md) | backtracking-permutation |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | [C++](problems/0047.md) | backtracking-permutation |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | 🔴 Hard | [C++](problems/0051.md) | backtracking-constraint |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 Medium | [C++](problems/0077.md) | backtracking-combination |
 | 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | [C++](problems/0078.md) | backtracking-combination |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | [C++](problems/0079.md) | backtracking-combination |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | [C++](problems/0090.md) | backtracking-combination |
+| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | [C++](problems/0131.md) | backtracking-combination |
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | [C++](problems/0216.md) | backtracking-combination |
+| 526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | 🟡 Medium | [C++](problems/0526.md) | backtracking-permutation |
+| 638 | [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | 🟡 Medium | [C++](problems/0638.md) | backtracking-combination |
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | [C++](problems/0784.md) | backtracking-combination |
+| 980 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | 🔴 Hard | [C++](problems/0980.md) | backtracking-grid |
+| 1219 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | 🟡 Medium | [C++](problems/1219.md) | backtracking-grid |
+| 1238 | [Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/) | 🟡 Medium | [C++](problems/1238.md) | backtracking-permutation |
 | 1593 | [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | 🟡 Medium | [C++](problems/1593.md) | backtracking-combination |
+| 1947 | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/) | 🟡 Medium | [C++](problems/1947.md) | backtracking-permutation |
+| 2305 | [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/) | 🟡 Medium | [C++](problems/2305.md) | backtracking-constraint |
 
 <a id="shengshu-sliding-window"></a>
 #### 🔢 Sliding Window（22）

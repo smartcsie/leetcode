@@ -1,0 +1,56 @@
+/**
+ * 題目：1947. Maximum Compatibility Score Sum
+ * 難度：中等 (Medium)
+ * 描述：給定 m 個學生和 m 個導師的問卷答案（都是 0/1 組成的陣列），
+ * 把學生跟導師一對一配對，「相容分數」是兩人問卷裡答案相同的題數。
+ * 求一種配對方式，讓所有配對的相容分數總和最大。
+ *
+ * 時間複雜度：O(M! * M * Q)，Q 是問卷題數（m 最多 8，階乘可接受）
+ * 空間複雜度：O(M)（used 陣列 + 遞迴深度）
+ *
+ * 解法思路：
+ * （Permutation 回溯，本質是「幫每個學生分配一個還沒被分配過的
+ * 導師」，等價於窮舉導師的一種排列方式，指定給學生 0, 1, 2, ...）：
+ * 1. backtrack(studentIdx, curScore) 代表「已經處理到第 studentIdx
+ *    個學生、目前累積分數是 curScore」。
+ * 2. 枚舉還沒被分配的導師 j（用 used[j] 檢查），計算學生 studentIdx
+ *    跟導師 j 的相容分數（逐題比對答案是否相同），標記 used[j] =
+ *    true，遞迴處理下一個學生，回溯時恢復 used[j] = false。
+ * 3. base case：studentIdx == m，代表所有學生都配對完畢，更新全域
+ *    最佳解 best。
+ * 4. 加了一個簡單的樂觀上界剪枝：如果「目前分數 + 剩下每個學生都拿
+ *    滿分（m 題）」都贏不了目前最佳解，直接放棄這條分支（非必要，
+ *    但因為 m 最多 8，能加速收斂）。
+ * 5. 這題也可以看作「排列導師的順序」，跟 46 題排列本身在做的事情
+ *    高度相似，只是這裡的「排列」代表配對關係。
+ */
+class Solution {
+    int m, best = 0;
+    vector<bool> used;
+
+    void backtrack(vector<vector<int>>& students, vector<vector<int>>& mentors, int studentIdx, int curScore) {
+        if (curScore + (m - studentIdx) * m <= best) return;
+        if (studentIdx == m) {
+            best = max(best, curScore);
+            return;
+        }
+        for (int j = 0; j < m; ++j) {
+            if (used[j]) continue;
+            int score = 0;
+            for (int k = 0; k < (int)students[studentIdx].size(); ++k) {
+                if (students[studentIdx][k] == mentors[j][k]) score++;
+            }
+            used[j] = true;
+            backtrack(students, mentors, studentIdx + 1, curScore + score);
+            used[j] = false;
+        }
+    }
+
+public:
+    int maxCompatibilitySum(vector<vector<int>>& students, vector<vector<int>>& mentors) {
+        m = students.size();
+        used.assign(m, false);
+        backtrack(students, mentors, 0, 0);
+        return best;
+    }
+};

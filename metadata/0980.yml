@@ -1,0 +1,13 @@
+number: 980
+title: Unique Paths III
+url: https://leetcode.com/problems/unique-paths-iii/
+solutions:
+- file: Solution_0980.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Backtracking Grid
+  topics:
+  - backtracking-grid
+  time: O(4^(可走格數))
+  space: O(M
+  familiarity: 生疏

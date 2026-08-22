@@ -1,0 +1,13 @@
+number: 1219
+title: Path with Maximum Gold
+url: https://leetcode.com/problems/path-with-maximum-gold/
+solutions:
+- file: Solution_1219.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking Grid
+  topics:
+  - backtracking-grid
+  time: O(4^(有金子的格數))（最壞情況，實務上受限於「不能走
+  space: O(M
+  familiarity: 生疏

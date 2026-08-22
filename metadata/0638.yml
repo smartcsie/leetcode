@@ -1,0 +1,13 @@
+number: 638
+title: Shopping Offers
+url: https://leetcode.com/problems/shopping-offers/
+solutions:
+- file: Solution_0638.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking Combination
+  topics:
+  - backtracking-combination
+  time: O(優惠數量^商品種類數)（最壞情況，實務上因為需求量有限
+  space: O(商品種類數)（遞迴深度）
+  familiarity: 生疏

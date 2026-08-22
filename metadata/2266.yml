@@ -1,0 +1,13 @@
+number: 2266
+title: Count Number of Texts
+url: https://leetcode.com/problems/count-number-of-texts/
+solutions:
+- file: Solution_2266.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Fibonacci
+  topics:
+  - dp-fibonacci
+  time: O(N)
+  space: O(最長連續按鍵長度)
+  familiarity: 生疏

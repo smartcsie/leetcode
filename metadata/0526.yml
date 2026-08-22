@@ -1,0 +1,13 @@
+number: 526
+title: Beautiful Arrangement
+url: https://leetcode.com/problems/beautiful-arrangement/
+solutions:
+- file: Solution_0526.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking Permutation
+  topics:
+  - backtracking-permutation
+  time: O(K)，K 是合法排列的總數（實務上遠小於 N!，因為整除
+  space: O(N)（used 陣列 + 遞迴深度）
+  familiarity: 生疏

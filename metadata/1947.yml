@@ -1,0 +1,13 @@
+number: 1947
+title: Maximum Compatibility Score Sum
+url: https://leetcode.com/problems/maximum-compatibility-score-sum/
+solutions:
+- file: Solution_1947.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking Permutation
+  topics:
+  - backtracking-permutation
+  time: O(M!
+  space: O(M)（used 陣列 + 遞迴深度）
+  familiarity: 生疏

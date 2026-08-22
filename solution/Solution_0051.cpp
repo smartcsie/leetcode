@@ -1,0 +1,64 @@
+/**
+ * 題目：51. N-Queens
+ * 難度：困難 (Hard)
+ * 描述：在 n x n 的棋盤上放置 n 個皇后，使得任兩個皇后都不能互相攻擊
+ * （不能同行、同列、同對角線），回傳所有可能的擺放方式（用棋盤字串
+ * 表示）。
+ *
+ * 時間複雜度：O(N!)（最壞情況）
+ * 空間複雜度：O(N)（遞迴深度 + 記錄每列皇后位置）
+ *
+ * 解法思路：
+ * （Constraint Satisfaction 回溯，逐列決定皇后位置，每放一個就立刻
+ * 檢查是否違反規則，違反就剪枝）：
+ * 1. 因為每一列（row）只能放一個皇后，把問題簡化成：對每一列，決定
+ *    皇后要放在哪一欄（queenCol[row] = col），不用額外處理「同一列
+ *    放兩個皇后」的情況（天生就不會發生）。
+ * 2. isValid(row, col) 檢查：跟前面所有已經放好的皇后比較，看有沒有
+ *    同欄（c == col）或同對角線（|row - r| == |col - c|，這是判斷
+ *    兩點是否在同一條斜線上的經典公式）。不用檢查同列，因為每列只放
+ *    一個是天生保證的。
+ * 3. backtrack(row)：對目前這一列，枚舉每個欄位 col，如果合法就放下
+ *    皇后、遞迴處理下一列；不管遞迴結果如何，這裡不需要顯式的「恢復
+ *    現場」動作，因為 queenCol[row] 在遞迴回來後會被下一次迴圈的新
+ *    col 值直接覆蓋掉，天然完成回溯。
+ * 4. base case：row == n，代表 n 個皇后都放好了，把目前的擺放方式
+ *    轉成棋盤字串格式，加進結果。
+ */
+class Solution {
+    vector<vector<string>> result;
+    vector<int> queenCol;
+    int n;
+
+    bool isValid(int row, int col) {
+        for (int r = 0; r < row; ++r) {
+            int c = queenCol[r];
+            if (c == col) return false;
+            if (abs(row - r) == abs(col - c)) return false;
+        }
+        return true;
+    }
+
+    void backtrack(int row) {
+        if (row == n) {
+            vector<string> board(n, string(n, '.'));
+            for (int r = 0; r < n; ++r) board[r][queenCol[r]] = 'Q';
+            result.push_back(board);
+            return;
+        }
+        for (int col = 0; col < n; ++col) {
+            if (isValid(row, col)) {
+                queenCol[row] = col;
+                backtrack(row + 1);
+            }
+        }
+    }
+
+public:
+    vector<vector<string>> solveNQueens(int n_) {
+        n = n_;
+        queenCol.assign(n, -1);
+        backtrack(0);
+        return result;
+    }
+};

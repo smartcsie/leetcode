@@ -1,0 +1,14 @@
+number: 131
+title: Palindrome Partitioning
+url: https://leetcode.com/problems/palindrome-partitioning/
+solutions:
+- file: Solution_0131.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking Combination
+  topics:
+  - backtracking-combination
+  time: O(N
+  space: O(N)（遞迴堆疊 + 目前路徑）
+  familiarity: 生疏
+  is_best: true

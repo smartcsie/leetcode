@@ -1,0 +1,13 @@
+number: 37
+title: Sudoku Solver
+url: https://leetcode.com/problems/sudoku-solver/
+solutions:
+- file: Solution_0037.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Backtracking Constraint
+  topics:
+  - backtracking-constraint
+  time: O(9^M)，M 是空格數量（最壞情況，實務上剪枝後遠比這快）
+  space: O(1)（原地修改，遞迴深度最多 81）
+  familiarity: 生疏

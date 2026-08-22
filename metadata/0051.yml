@@ -1,0 +1,13 @@
+number: 51
+title: N-Queens
+url: https://leetcode.com/problems/n-queens/
+solutions:
+- file: Solution_0051.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Backtracking Constraint
+  topics:
+  - backtracking-constraint
+  time: O(N!)（最壞情況）
+  space: O(N)（遞迴深度 + 記錄每列皇后位置）
+  familiarity: 生疏

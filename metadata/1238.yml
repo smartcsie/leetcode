@@ -1,0 +1,13 @@
+number: 1238
+title: Circular Permutation in Binary Representation
+url: https://leetcode.com/problems/circular-permutation-in-binary-representation/
+solutions:
+- file: Solution_1238.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking Permutation
+  topics:
+  - backtracking-permutation
+  time: O(2^N)
+  space: O(2^N)
+  familiarity: 生疏
