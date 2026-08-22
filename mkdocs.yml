@@ -42,6 +42,7 @@ markdown_extensions:
 
 
 
+
 nav:
   - 首頁: index.md
   - 📝 複習清單: review.md
@@ -127,7 +128,9 @@ nav:
       - dp-knapsack: topics/dp-knapsack.md
       - dp-digit: topics/dp-digit.md
       - dp-lis: topics/dp-lis.md
+      - dp-subsequences: topics/dp-subsequences.md
       - dp-game-theory: topics/dp-game-theory.md
+      - dp-bitmask: topics/dp-bitmask.md
       - dp-tree: topics/dp-tree.md
   - 🧩 Greedy:
       - greedy: topics/greedy.md
