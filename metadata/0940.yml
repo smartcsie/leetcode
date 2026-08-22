@@ -1,0 +1,13 @@
+number: 940
+title: Distinct Subsequences II
+url: https://leetcode.com/problems/distinct-subsequences-ii/
+solutions:
+- file: Solution_0940.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Subsequences
+  topics:
+  - dp-subsequences
+  time: O(N)
+  space: O(1)（只需要 26 個字母的計數陣列）
+  familiarity: 生疏

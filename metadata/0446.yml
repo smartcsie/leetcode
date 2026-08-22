@@ -1,0 +1,13 @@
+number: 446
+title: Arithmetic Slices II - Subsequence
+url: https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
+solutions:
+- file: Solution_0446.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Subsequences
+  topics:
+  - dp-subsequences
+  time: O(N²)
+  space: O(N²)
+  familiarity: 生疏

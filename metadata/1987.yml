@@ -1,0 +1,13 @@
+number: 1987
+title: Number of Unique Good Subsequences
+url: https://leetcode.com/problems/number-of-unique-good-subsequences/
+solutions:
+- file: Solution_1987.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Subsequences
+  topics:
+  - dp-subsequences
+  time: O(N)
+  space: O(1)
+  familiarity: 生疏

@@ -1,0 +1,13 @@
+number: 1425
+title: Constrained Subsequence Sum
+url: https://leetcode.com/problems/constrained-subsequence-sum/
+solutions:
+- file: Solution_1425.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Subsequences
+  topics:
+  - dp-subsequences
+  time: O(N)
+  space: O(N)
+  familiarity: 生疏
