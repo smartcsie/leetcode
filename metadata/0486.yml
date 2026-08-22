@@ -1,0 +1,13 @@
+number: 486
+title: Predict the Winner
+url: https://leetcode.com/problems/predict-the-winner/
+solutions:
+- file: Solution_0486.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Game Theory
+  topics:
+  - dp-game-theory
+  time: O(N²)
+  space: O(N²)
+  familiarity: 生疏

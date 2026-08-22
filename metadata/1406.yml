@@ -1,0 +1,13 @@
+number: 1406
+title: Stone Game III
+url: https://leetcode.com/problems/stone-game-iii/
+solutions:
+- file: Solution_1406.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Game Theory
+  topics:
+  - dp-game-theory
+  time: O(N)
+  space: O(N)
+  familiarity: 生疏

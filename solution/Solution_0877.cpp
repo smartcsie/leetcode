@@ -1,0 +1,37 @@
+/**
+ * 題目：877. Stone Game
+ * 難度：中等 (Medium)
+ * 描述：給定偶數堆石頭 piles，兩個玩家輪流從陣列的任一端拿走一整堆
+ * （石頭數等於這堆的值），兩人都用最佳策略遊玩，求先手玩家（Alice）
+ * 的石頭總數是否嚴格大於後手玩家。
+ *
+ * 時間複雜度：O(N²)
+ * 空間複雜度：O(N²)
+ *
+ * 解法思路：
+ * （跟 486 是完全相同的解法框架，差別只在題目背景和判斷條件）：
+ * 1. dp[i][j] 一樣代表「在 piles[i..j] 這段範圍裡，先手玩家能拿到的
+ *    石頭數 - 後手玩家能拿到的石頭數」的最大值。
+ * 2. 狀態轉移跟 486 一模一樣：dp[i][j] = max(piles[i] - dp[i+1][j],
+ *    piles[j] - dp[i][j-1])。
+ * 3. 唯一的差別：486 問的是「分數差 >= 0（不輸）」，這題問的是
+ *    「Alice 是否嚴格獲勝」，所以答案是 dp[0][n-1] > 0（嚴格大於，
+ *    因為堆數是偶數，其實這題的分數差必定是非零的奇數，用嚴格數學
+ *    證明可以直接推出 Alice 永遠獲勝，但這裡還是照 Game Theory DP 的
+ *    標準模板實作，不用那個數學捷徑，方便跟其他題目類比記憶）。
+ */
+class Solution {
+public:
+    bool stoneGame(vector<int>& piles) {
+        int n = piles.size();
+        vector<vector<int>> dp(n, vector<int>(n, 0));
+        for (int i = 0; i < n; ++i) dp[i][i] = piles[i];
+        for (int len = 2; len <= n; ++len) {
+            for (int i = 0; i + len - 1 < n; ++i) {
+                int j = i + len - 1;
+                dp[i][j] = max(piles[i] - dp[i + 1][j], piles[j] - dp[i][j - 1]);
+            }
+        }
+        return dp[0][n - 1] > 0;
+    }
+};
