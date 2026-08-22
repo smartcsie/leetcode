@@ -21,9 +21,9 @@
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 15 | 1 | 0 | 1 | 2 | 0 | 19 |
-| [backtracking-combination](topics/backtracking-combination.md) | 15 | 0 | 0 | 0 | 0 | 0 | 15 |
+| [backtracking-combination](topics/backtracking-combination.md) | 14 | 0 | 0 | 0 | 0 | 0 | 14 |
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [backtracking-grid](topics/backtracking-grid.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 1 | 0 | 22 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
@@ -603,7 +603,7 @@
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | 🔴 Hard | [C++](problems/0051.md) | backtracking-constraint |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 Medium | [C++](problems/0077.md) | backtracking-combination |
 | 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | [C++](problems/0078.md) | backtracking-combination |
-| 79 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | [C++](problems/0079.md) | backtracking-combination |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | [C++](problems/0079.md) | backtracking-grid |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | [C++](problems/0090.md) | backtracking-combination |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | [C++](problems/0131.md) | backtracking-combination |
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | [C++](problems/0216.md) | backtracking-combination |

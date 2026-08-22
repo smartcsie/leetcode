@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0079.cpp
   difficulty: 🟡 Medium
   tags:
+  - Backtracking Grid
   - DFS
   - Backtracking
   topics:
-  - backtracking-combination
+  - backtracking-grid
   time: O(N*3ᴸ)
   space: O(L)
   familiarity: 生疏

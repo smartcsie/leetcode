@@ -9,5 +9,5 @@ solutions:
   topics:
   - backtracking-grid
   time: O(4^(有金子的格數))（最壞情況，實務上受限於「不能走
-  space: O(M
+  space: O(M × N)（遞迴深度最多等於格子數）
   familiarity: 生疏
