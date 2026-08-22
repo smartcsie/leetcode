@@ -1,0 +1,13 @@
+number: 902
+title: Numbers At Most N Given Digit Set
+url: https://leetcode.com/problems/numbers-at-most-n-given-digit-set/
+solutions:
+- file: Solution_0902.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Digit
+  topics:
+  - dp-digit
+  time: O(len(N)
+  space: O(1)
+  familiarity: 生疏

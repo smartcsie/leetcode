@@ -1,0 +1,65 @@
+/**
+ * 題目：1012. Numbers With Repeated Digits
+ * 難度：困難 (Hard)
+ * 描述：給定一個正整數 n，求 1 到 n 之間，「至少有一位數字重複出現」
+ * 的整數總共有幾個。
+ *
+ * 時間複雜度：O(D²)，D 是 n 的位數（最多 10 位）
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：
+ * （補集轉換 + Digit DP，這是這題的關鍵技巧：直接算「有重複」很難
+ * 窮舉，反過來算「完全不重複」再用總數扣掉，容易非常多）：
+ * 1. 核心觀察：「1~n 裡有重複數字的個數」= n - 「1~n 裡完全不重複的
+ *    個數」。直接算有重複的情況組合爆炸（要考慮哪些位重複、重複幾次），
+ *    但「完全不重複」是排列問題，好算很多。
+ * 2. countDistinctDigitNumbers(n) 計算 [1, n] 裡數字不重複的個數，
+ *    拆成兩部分：
+ *    a. 位數比 n 少的情況：第一位有 9 種選擇（1~9，不能是 0），
+ *       第二位開始因為不能跟前面重複，選擇數逐位遞減（9 種、8 種...），
+ *       這是標準的排列數概念。
+ *    b. 位數跟 n 一樣的情況：逐位比對 n 的每一位數字 d，對每個「比 d
+ *       小、還沒用過」的候選數字，後面剩下的位數可以自由排列（用剩下
+ *       的數字做全排列，數量用 avail、slots 算出來）；如果 n 本身這一位
+ *       的數字之前已經用過（重複），代表 n 本身不合格，直接 break，
+ *       不會有 +1 的機會；如果一路比對到最後一位都沒重複，代表 n 本身
+ *       也是不重複的數字，+1。
+ * 3. 答案 = n - countDistinctDigitNumbers(n)，也就是「總數扣掉不重複的
+ *    數量」，剩下的就是至少有一位重複的數量。
+ * 4. 這個 countDistinctDigitNumbers 函式跟 2376 題幾乎一模一樣，只是
+ *    2376 直接回傳這個值，1012 拿它做補集運算，兩題適合放在一起理解。
+ */
+class Solution {
+    long long countDistinctDigitNumbers(long long n) {
+        if (n <= 0) return 0;
+        string s = to_string(n);
+        int len = s.size();
+        long long ans = 0;
+        long long perm = 9;
+        for (int i = 1; i < len; ++i) {
+            ans += perm;
+            perm *= (10 - i);
+        }
+        vector<bool> used(10, false);
+        for (int i = 0; i < len; ++i) {
+            int d = s[i] - '0';
+            int start = (i == 0) ? 1 : 0;
+            for (int x = start; x < d; ++x) {
+                if (used[x]) continue;
+                long long ways = 1;
+                int avail = 10 - (i + 1);
+                int slots = len - i - 1;
+                for (int j = 0; j < slots; ++j) ways *= (avail - j);
+                ans += ways;
+            }
+            if (used[d]) break;
+            used[d] = true;
+            if (i == len - 1) ans += 1;
+        }
+        return ans;
+    }
+public:
+    int numDupDigitsAtMostN(int n) {
+        return (int)(n - countDistinctDigitNumbers(n));
+    }
+};

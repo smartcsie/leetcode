@@ -1,0 +1,13 @@
+number: 2376
+title: Count Special Integers
+url: https://leetcode.com/problems/count-special-integers/
+solutions:
+- file: Solution_2376.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Digit
+  topics:
+  - dp-digit
+  time: O(D²)，D 是 n 的位數
+  space: O(1)
+  familiarity: 生疏

@@ -1,0 +1,13 @@
+number: 1012
+title: Numbers With Repeated Digits
+url: https://leetcode.com/problems/numbers-with-repeated-digits/
+solutions:
+- file: Solution_1012.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Digit
+  topics:
+  - dp-digit
+  time: O(D²)，D 是 n 的位數（最多 10 位）
+  space: O(1)
+  familiarity: 生疏
