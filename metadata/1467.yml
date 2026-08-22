@@ -1,0 +1,13 @@
+number: 1467
+title: Probability of a Two Boxes Having The Same Number of Distinct Balls
+url: https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/
+solutions:
+- file: Solution_1467.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Probability
+  topics:
+  - dp-probability
+  time: O(∏(balls[i]+1))（枚舉每種顏色的分配方式）
+  space: O(K)（遞迴深度）
+  familiarity: 生疏

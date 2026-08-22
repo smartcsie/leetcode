@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（404）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（407）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 896 / 4029 題（最後更新：2026-08-21 23:39）
-- **目前收錄總題目數：** 918 題　🔴 生疏：398 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 921 題　🔴 生疏：401 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -43,7 +43,7 @@
 | [dp-knapsack](topics/dp-knapsack.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
 | [dp-lcs](topics/dp-lcs.md) | 10 | 1 | 0 | 0 | 0 | 0 | 11 |
 | [dp-lis](topics/dp-lis.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [dp-probability](topics/dp-probability.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [dp-probability](topics/dp-probability.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [dp-state-machine](topics/dp-state-machine.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [dp-string](topics/dp-string.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -108,9 +108,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 404 個解法標記為生疏，建議找時間重新練習。
+目前共有 407 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（88）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（13）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -466,7 +466,7 @@
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting |
 
 <a id="shengshu-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（88）
+#### 🧩 Dynamic Programming（91）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -520,6 +520,7 @@
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | 🟡 Medium | [C++](problems/0714.md) | dp-state-machine |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | [C++](problems/0718.md) | dynamic-programming |
 | 808 | [Soup Servings](https://leetcode.com/problems/soup-servings/) | 🟡 Medium | [C++](problems/0808.md) | dp-probability |
+| 837 | [New 21 Game](https://leetcode.com/problems/new-21-game/) | 🟡 Medium | [C++](problems/0837.md) | dp-probability |
 | 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | 🔴 Hard | [C++](problems/0847.md) | dp-bitmask |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | [C++](problems/0877.md) | dp-game-theory |
 | 898 | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | [C++](problems/0898.md) | dynamic-programming |
@@ -540,12 +541,14 @@
 | 1125 | [Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) | 🔴 Hard | [C++](problems/1125.md) | dp-digit |
 | 1130 | [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | 🟡 Medium | [C++](problems/1130.md) | dp-interval |
 | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 🟡 Medium | [C++](problems/1140.md) | dp-game-theory |
+| 1230 | [Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins/) | 🟡 Medium | [C++](problems/1230.md) | dp-probability |
 | 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 Medium | [C++](problems/1277.md) | dp-grid-path |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | 🔴 Hard | [C++](problems/1312.md) | dp-lcs |
 | 1373 | [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) | 🔴 Hard | [C++](problems/1373.md) | dp-tree |
 | 1406 | [Stone Game III](https://leetcode.com/problems/stone-game-iii/) | 🔴 Hard | [C++](problems/1406.md) | dp-game-theory |
 | 1425 | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/) | 🔴 Hard | [C++](problems/1425.md) | dp-subsequences |
 | 1434 | [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) | 🔴 Hard | [C++](problems/1434.md) | dp-digit |
+| 1467 | [Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) | 🔴 Hard | [C++](problems/1467.md) | dp-probability |
 | 1510 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 🔴 Hard | [C++](problems/1510.md) | dp-game-theory |
 | 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | [C++](problems/1567.md) | dp-kadane |
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | [C++](problems/1641.md) | dp-kadane |

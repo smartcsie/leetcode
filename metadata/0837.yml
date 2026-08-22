@@ -1,0 +1,13 @@
+number: 837
+title: New 21 Game
+url: https://leetcode.com/problems/new-21-game/
+solutions:
+- file: Solution_0837.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Probability
+  topics:
+  - dp-probability
+  time: O(N)
+  space: O(N)
+  familiarity: 生疏
