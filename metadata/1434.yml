@@ -1,0 +1,13 @@
+number: 1434
+title: Number of Ways to Wear Different Hats to Each Other
+url: https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/
+solutions:
+- file: Solution_1434.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Digit
+  topics:
+  - dp-digit
+  time: O(40
+  space: O(40
+  familiarity: 生疏

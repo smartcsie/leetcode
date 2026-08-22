@@ -1,0 +1,13 @@
+number: 943
+title: Find the Shortest Superstring
+url: https://leetcode.com/problems/find-the-shortest-superstring/
+solutions:
+- file: Solution_0943.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Bitmask
+  topics:
+  - dp-bitmask
+  time: O(N²
+  space: O(N
+  familiarity: 生疏

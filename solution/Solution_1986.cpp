@@ -1,0 +1,54 @@
+/**
+ * 題目：1986. Minimum Number of Work Sessions to Finish the Tasks
+ * 難度：中等 (Medium)
+ * 描述：給定每個任務所需時間 tasks 和一次工作階段的長度 sessionTime，
+ * 每個任務必須在單一工作階段內完整做完（不能拆到兩個階段），求完成
+ * 所有任務所需的最少工作階段數。
+ *
+ * 時間複雜度：O(3^N)（枚舉所有 mask 的所有子集合）
+ * 空間複雜度：O(2^N)
+ *
+ * 解法思路：
+ * （Bitmask DP + 子集合枚舉，這是這題容易寫錯的地方：不能用「一個一個
+ * 任務往目前階段塞」的方式做 DP，必須枚舉「一整組任務」湊成一個
+ * session，才能保證答案正確）：
+ * 1. 先預處理 sum[mask]：mask 這組任務的時間總和（用 lowbit 遞推，
+ *    O(1) 從子問題轉移過來）。
+ * 2. dp[mask] 代表「完成 mask 這些任務」所需的最少工作階段數。
+ * 3. 狀態轉移：枚舉 mask 的所有非空子集合 sub（用經典的
+ *    `for (sub = mask; sub > 0; sub = (sub-1) & mask)` 子集合枚舉法），
+ *    如果 sub 這組任務的總時間 <= sessionTime（可以塞進同一個
+ *    session），就用 dp[mask ^ sub] + 1 更新 dp[mask]（意思是：先用
+ *    其他階段做完 mask 扣掉 sub 的部分，最後這個 session 專門做 sub
+ *    這組任務）。
+ * 4. 关键提醒：如果改成「一次只加一個任務、判斷目前 session 剩餘時間
+ *    夠不夠」這種逐一累加的寫法，雖然在大部分測資能矇對，但**不是
+ *    嚴謹正確的做法**——因為最優解可能需要「跳著選任務組合」塞進同一個
+ *    session（例如任務 1、3 塞一起比任務 1、2 塞一起更划算），逐一
+ *    累加的方式沒辦法探索到所有可能的分組方式。子集合枚舉才是這題
+ *    真正嚴謹、涵蓋所有分組可能性的做法。
+ * 5. 答案是 dp[所有任務都做完的 mask]。
+ */
+class Solution {
+public:
+    int minSessions(vector<int>& tasks, int sessionTime) {
+        int n = tasks.size();
+        int full = 1 << n;
+        vector<int> sum(full, 0);
+        for (int mask = 1; mask < full; ++mask) {
+            int lowBit = mask & (-mask);
+            int idx = __builtin_ctz(lowBit);
+            sum[mask] = sum[mask ^ lowBit] + tasks[idx];
+        }
+        vector<int> dp(full, INT_MAX);
+        dp[0] = 0;
+        for (int mask = 1; mask < full; ++mask) {
+            for (int sub = mask; sub > 0; sub = (sub - 1) & mask) {
+                if (sum[sub] <= sessionTime && dp[mask ^ sub] != INT_MAX) {
+                    dp[mask] = min(dp[mask], dp[mask ^ sub] + 1);
+                }
+            }
+        }
+        return dp[full - 1];
+    }
+};

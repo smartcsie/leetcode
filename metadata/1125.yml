@@ -1,0 +1,13 @@
+number: 1125
+title: Smallest Sufficient Team
+url: https://leetcode.com/problems/smallest-sufficient-team/
+solutions:
+- file: Solution_1125.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Digit
+  topics:
+  - dp-digit
+  time: O(2^M
+  space: O(2^M)
+  familiarity: 生疏

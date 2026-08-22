@@ -1,0 +1,13 @@
+number: 847
+title: Shortest Path Visiting All Nodes
+url: https://leetcode.com/problems/shortest-path-visiting-all-nodes/
+solutions:
+- file: Solution_0847.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Bitmask
+  topics:
+  - dp-bitmask
+  time: O(N²
+  space: O(N
+  familiarity: 生疏

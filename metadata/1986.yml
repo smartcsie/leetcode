@@ -1,0 +1,13 @@
+number: 1986
+title: Minimum Number of Work Sessions to Finish the Tasks
+url: https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/
+solutions:
+- file: Solution_1986.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Bitmask
+  topics:
+  - dp-bitmask
+  time: O(3^N)（枚舉所有 mask 的所有子集合）
+  space: O(2^N)
+  familiarity: 生疏

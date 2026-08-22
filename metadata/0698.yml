@@ -1,0 +1,13 @@
+number: 698
+title: Partition to K Equal Sum Subsets
+url: https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+solutions:
+- file: Solution_0698.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Bitmask
+  topics:
+  - dp-bitmask
+  time: O(2^N
+  space: O(2^N)
+  familiarity: 生疏
