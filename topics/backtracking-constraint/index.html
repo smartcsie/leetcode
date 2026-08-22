@@ -11,10 +11,6 @@
       
       
       
-        <link rel="prev" href="../backtracking-combination/">
-      
-      
-        <link rel="next" href="../dp-string/">
       
       
         
@@ -25,7 +21,7 @@
     
     
       
-        <title>backtracking-permutation - LeetCode 演算法精鍊筆記</title>
+        <title>backtracking-constraint - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -76,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#backtracking-permutation" class="md-skip">
+        <a href="#backtracking-constraint" class="md-skip">
           跳轉到
         </a>
       
@@ -112,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              backtracking-permutation
+              backtracking-constraint
             
           </span>
         </div>
@@ -2475,20 +2471,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
         
           
           <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
@@ -2509,7 +2503,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_14">
             <span class="md-nav__icon md-icon"></span>
             
@@ -2552,37 +2546,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    backtracking-permutation
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../backtracking-permutation/" class="md-nav__link">
         
   
   
@@ -2598,81 +2565,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目錄">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目錄
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔴 生疏（5）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟠 再練習（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟡 練習過（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟣 易忘（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟢 熟悉（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -4115,8 +4007,8 @@
   
 
 
-<h1 id="backtracking-permutation">backtracking-permutation<a class="headerlink" href="#backtracking-permutation" title="Permanent link">&para;</a></h1>
-<h2 id="5">🔴 生疏（5）<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<h1 id="backtracking-constraint">backtracking-constraint<a class="headerlink" href="#backtracking-constraint" title="Permanent link">&para;</a></h1>
+<h2 id="3">🔴 生疏（3）<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -4131,49 +4023,31 @@
 </thead>
 <tbody>
 <tr>
-<td>46</td>
-<td><a href="https://leetcode.com/problems/permutations/">Permutations</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking</td>
-<td><a href="../../problems/0046/">C++</a></td>
-<td>O(N*N!)</td>
-<td>O(N)</td>
+<td>37</td>
+<td><a href="https://leetcode.com/problems/sudoku-solver/">Sudoku Solver</a></td>
+<td>🔴 Hard</td>
+<td>Backtracking Constraint</td>
+<td><a href="../../problems/0037/">C++</a></td>
+<td>O(9^M)，M 是空格數量（最壞情況，實務上剪枝後遠比這快）</td>
+<td>O(1)（原地修改，遞迴深度最多 81）</td>
 </tr>
 <tr>
-<td>47</td>
-<td><a href="https://leetcode.com/problems/permutations-ii/">Permutations II</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking</td>
-<td><a href="../../problems/0047/">C++</a></td>
-<td>O(N*N!)</td>
-<td>O(N)</td>
+<td>51</td>
+<td><a href="https://leetcode.com/problems/n-queens/">N-Queens</a></td>
+<td>🔴 Hard</td>
+<td>Backtracking Constraint</td>
+<td><a href="../../problems/0051/">C++</a></td>
+<td>O(N!)（最壞情況）</td>
+<td>O(N)（遞迴深度 + 記錄每列皇后位置）</td>
 </tr>
 <tr>
-<td>526</td>
-<td><a href="https://leetcode.com/problems/beautiful-arrangement/">Beautiful Arrangement</a></td>
+<td>2305</td>
+<td><a href="https://leetcode.com/problems/fair-distribution-of-cookies/">Fair Distribution of Cookies</a></td>
 <td>🟡 Medium</td>
-<td>Backtracking Permutation</td>
-<td><a href="../../problems/0526/">C++</a></td>
-<td>O(K)，K 是合法排列的總數（實務上遠小於 N!，因為整除</td>
-<td>O(N)（used 陣列 + 遞迴深度）</td>
-</tr>
-<tr>
-<td>1238</td>
-<td><a href="https://leetcode.com/problems/circular-permutation-in-binary-representation/">Circular Permutation in Binary Representation</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking Permutation</td>
-<td><a href="../../problems/1238/">C++</a></td>
-<td>O(2^N)</td>
-<td>O(2^N)</td>
-</tr>
-<tr>
-<td>1947</td>
-<td><a href="https://leetcode.com/problems/maximum-compatibility-score-sum/">Maximum Compatibility Score Sum</a></td>
-<td>🟡 Medium</td>
-<td>Backtracking Permutation</td>
-<td><a href="../../problems/1947/">C++</a></td>
-<td>O(M!</td>
-<td>O(M)（used 陣列 + 遞迴深度）</td>
+<td>Backtracking Constraint</td>
+<td><a href="../../problems/2305/">C++</a></td>
+<td>O(K^N)（最壞情況，靠剪枝大幅縮減）</td>
+<td>O(N)（遞迴深度）</td>
 </tr>
 </tbody>
 </table>
