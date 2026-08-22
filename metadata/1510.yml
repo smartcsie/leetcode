@@ -1,0 +1,13 @@
+number: 1510
+title: Stone Game IV
+url: https://leetcode.com/problems/stone-game-iv/
+solutions:
+- file: Solution_1510.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Dp Game Theory
+  topics:
+  - dp-game-theory
+  time: O(N
+  space: O(N)
+  familiarity: 生疏

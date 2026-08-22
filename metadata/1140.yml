@@ -1,0 +1,13 @@
+number: 1140
+title: Stone Game II
+url: https://leetcode.com/problems/stone-game-ii/
+solutions:
+- file: Solution_1140.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Game Theory
+  topics:
+  - dp-game-theory
+  time: O(N³)
+  space: O(N²)
+  familiarity: 生疏

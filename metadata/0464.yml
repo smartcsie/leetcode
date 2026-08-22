@@ -1,0 +1,13 @@
+number: 464
+title: Can I Win
+url: https://leetcode.com/problems/can-i-win/
+solutions:
+- file: Solution_0464.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Dp Game Theory
+  topics:
+  - dp-game-theory
+  time: O(2^N
+  space: O(2^N)
+  familiarity: 生疏
