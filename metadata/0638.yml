@@ -8,6 +8,6 @@ solutions:
   - Backtracking Combination
   topics:
   - backtracking-combination
-  time: O(優惠數量^商品種類數)（最壞情況，實務上因為需求量有限
-  space: O(商品種類數)（遞迴深度）
+  time: O(∏(needs[i]+1) × 優惠數量)，最壞情況約 O(11^N × K)
+  space: O(∏(needs[i]+1))（記憶化表的大小）
   familiarity: 生疏

@@ -13,7 +13,7 @@
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | DFS, Prefix Sum | [C++](../problems/0437.md) | O(N) | O(H) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Tree, DFS | [C++](../problems/0543.md) | O(N) | O(H) |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | 🟢 Easy | DFS, Post-order | [C++](../problems/0563.md) | O(N) | O(H) |
-| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree, DFS | [C++](../problems/0572.md) | O(N*M) | O(H) |
+| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree, DFS | [C++](../problems/0572.md) | O(N\*M) | O(H) |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree, DFS | [C++](../problems/0606.md) | O(N) | O(H) |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | Tree, DFS, Recursion | [C++](../problems/0617.md) | O(min(N,M)) | O(min(N,M)) |
 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 Easy | Tree, DFS | [C++](../problems/0671.md) | O(N) | O(H) |

@@ -5,15 +5,15 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0139.md) | O(N³) | O(N) |
-| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0279.md) | O(N*√N) | O(N) |
-| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0322.md) | O(A*N) | O(A) |
-| 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | DP, Unbounded Knapsack (Permutation | [C++](../problems/0377.md) | O(A*N) | O(A) |
-| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | DP, Bit Manipulation | [C++](../problems/0416.md) | O(N*S/W) | O(S/W) |
-| 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/0474.md) | O(LM*N) | O(M*N) |
-| 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/0494.md) | O(N*S) | O(S) |
-| 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0518.md) | O(N*A) | O(A) |
+| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0279.md) | O(N\*√N) | O(N) |
+| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0322.md) | O(A\*N) | O(A) |
+| 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | DP, Unbounded Knapsack (Permutation | [C++](../problems/0377.md) | O(A\*N) | O(A) |
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | DP, Bit Manipulation | [C++](../problems/0416.md) | O(N\*S/W) | O(S/W) |
+| 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/0474.md) | O(LM\*N) | O(M\*N) |
+| 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/0494.md) | O(N\*S) | O(S) |
+| 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0518.md) | O(N\*A) | O(A) |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | Dp Knapsack | [C++](../problems/0983.md) | O(D log D)，D 為 days 的長度（每天都要做一次二分搜尋） | O(D) |
-| 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/1049.md) | O(N*S) | O(S) |
+| 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/1049.md) | O(N\*S) | O(S) |
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 Hard | Dp Knapsack | [C++](../problems/2035.md) | O(N | O(2^(N/2)) |
 
 ## 🟠 再練習（0）

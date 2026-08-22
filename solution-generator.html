@@ -623,7 +623,7 @@ function addSolutionBlock(prefill) {
         <input type="text" class="sol-file" data-auto="1" data-suffix="${idx > 1 ? '_' + (idx-1) : ''}" placeholder="Solution_XXXX.cpp">
       </div>
       <div class="field">
-        <label>時間 / 空間複雜度</label>
+        <label>時間 / 空間複雜度 <span class="hint">(單純 O(N) 就好，避免加其他文字，"*" 在表格裡會被吃掉)</span></label>
         <div style="display:flex; gap:8px;">
           <input type="text" class="sol-time" placeholder="時間 O(N)" style="flex:1;">
           <input type="text" class="sol-space" placeholder="空間 O(1)" style="flex:1;">
@@ -1045,6 +1045,25 @@ function extractHeaderField(text, label) {
   return m ? m[1].trim() : '';
 }
 
+function simplifyComplexity(text) {
+  // 只保留開頭的 O(...) 表達式，把後面附加的說明文字砍掉。
+  // 這是為了避免「O(N * 2^N) - 因為...」這種寫法貼進 markdown 表格時，
+  // 裡面的 * 被誤判成斜體標記，把後面整段文字吃掉、把表格弄壞。
+  // 用「計算括號深度」而不是簡單 regex，是因為複雜度本身常常有巢狀
+  // 括號，例如 O(2^(N-1))、O(N*2^(N/2))，不能只抓到第一個 ')' 就停。
+  if (!text) return '';
+  const idx = text.indexOf('O(');
+  if (idx === -1) return text.trim(); // 抓不到標準 O(...) 型態就照原樣，不硬砍
+  let i = idx + 2;
+  let depth = 1;
+  while (i < text.length && depth > 0) {
+    if (text[i] === '(') depth++;
+    else if (text[i] === ')') depth--;
+    i++;
+  }
+  return text.slice(idx, i).trim();
+}
+
 function extractLinkLine(text) {
   // 抓像 [547. Number of Provinces](https://leetcode.com/problems/xxx/) 這種
   // 單純的 markdown 連結行（不是表格列），常見於直接貼題目連結 + 程式碼的情況。
@@ -1130,8 +1149,8 @@ function parseAndFill() {
     fileInput.value = fileName;
     fileInput.dataset.auto = '0';
   }
-  block.querySelector('.sol-time').value = time;
-  block.querySelector('.sol-space').value = space;
+  block.querySelector('.sol-time').value = simplifyComplexity(time);
+  block.querySelector('.sol-space').value = simplifyComplexity(space);
   if (code) block.querySelector('.sol-code').value = code;
 
   const select = block.querySelector('.sol-tags-select');

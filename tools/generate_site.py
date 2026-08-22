@@ -23,6 +23,25 @@ def to_list(value):
     return list(value)
 
 
+def escape_cell(value):
+    """跳脫 markdown 表格儲存格裡會破壞排版的字元。
+
+    - `|` 會被誤判成表格的分隔符號，把一格硬生生切成兩格。
+    - `*` 會被誤判成斜體/粗體的起始符號，把後面的內容整段吃掉
+      （最常見的地雷：時間/空間複雜度描述裡用 `*` 當乘號，例如
+      'O(N * 2^N)'，貼進表格後 `*` 後面的文字會直接消失）。
+    - 反著跳脫的順序很重要：要先跳脫反斜線本身，否則會把後面
+      新加上去的跳脫符號也跳脫掉，變成 `\\\\|`。
+    """
+    if value is None:
+        return ''
+    text = str(value)
+    text = text.replace('\\', '\\\\')
+    text = text.replace('|', '\\|')
+    text = text.replace('*', '\\*')
+    return text
+
+
 
 GROUPS = [
     (r'^design$', '🎨 Design'),
@@ -235,12 +254,13 @@ def build_topic_indexes(problems, topics_out_dir):
         lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
                  "| --- | --- | --- | --- | --- | --- | --- |"]
         for r in sub_rows:
-            tags_str = ', '.join(r['tags'])
+            tags_str = escape_cell(', '.join(r['tags']))
             page_link = f"../problems/{r['number']:04d}.md"
-            title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
+            title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             lines.append(f"| {r['number']} | {title_cell} | "
-                         f"{r['difficulty']} | {tags_str} | {file_cell} | {r['time']} | {r['space']} |")
+                         f"{escape_cell(r['difficulty'])} | {tags_str} | {file_cell} | "
+                         f"{escape_cell(r['time'])} | {escape_cell(r['space'])} |")
         return lines
 
     for topic, rows in topic_rows.items():
@@ -357,9 +377,10 @@ def _build_familiarity_section(rows, id_prefix, intro_text):
         lines.append('| --- | --- | --- | --- | --- |')
         for r in group_rows:
             page_link = f"problems/{r['number']:04d}.md"
-            title_cell = f"[{r['title']}]({r['url']})" if r['url'] else r['title']
+            title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
-            lines.append(f"| {r['number']} | {title_cell} | {r['difficulty']} | {file_cell} | {r['topics']} |")
+            lines.append(f"| {r['number']} | {title_cell} | {escape_cell(r['difficulty'])} | "
+                         f"{file_cell} | {escape_cell(r['topics'])} |")
         lines.append('')
 
     return lines
