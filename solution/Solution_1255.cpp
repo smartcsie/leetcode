@@ -1,0 +1,63 @@
+/**
+ * 題目：1255. Maximum Score Words Formed by Letters
+ * 難度：困難 (Hard)
+ * 描述：給定一組單字 words、一批可用字母 letters（每個字母只能用一
+ * 次）、以及每個字母對應的分數 score，求「挑選一些單字組成的集合」
+ * （每個單字最多用一次）能拿到的最高總分，且字母使用量不能超過
+ * letters 提供的數量。
+ *
+ * 時間複雜度：O(2^N)，N 是單字數量（最多 14 個，2^14 可接受）
+ * 空間複雜度：O(26)（字母預算陣列 + 遞迴深度）
+ *
+ * 解法思路：
+ * （Combination 回溯，經典的「選或不選」二元決策模板，跟
+ * 39/40/216 Combination Sum 系列是同一套路，只是這裡的「預算」是
+ * 26 個字母的數量，而不是單一總和）：
+ * 1. backtrack(index, curScore) 代表「考慮到第 index 個單字為止，
+ *    目前已經選的單字總分是 curScore」。
+ * 2. 對每個單字有兩個選擇：
+ *    - **不選**：直接跳到下一個單字，分數不變。
+ *    - **選**：先檢查這個單字需要的每個字母，數量會不會超過目前剩餘
+ *      的字母預算（remain 陣列），如果都夠用，就扣掉這些字母（更新
+ *      remain）、把這個單字的分數加進 curScore，遞迴處理下一個單字，
+ *      回溯時要把扣掉的字母加回去（恢復 remain，讓其他分支能重新
+ *      使用這些字母預算）。
+ * 3. 每次進入 backtrack 都先更新全域最佳解 best = max(best,
+ *    curScore)，這樣不用等到遞迴到底才記錄答案，任何時間點的
+ *    curScore 都是一個合法的「已選單字組合」的分數。
+ * 4. 這題不需要真的把「選了哪些單字」的具體組合記錄下來，只需要
+ *    分數最大值，所以比標準 Combination Sum（要收集所有組合）更
+ *    精簡，只需要一個 best 變數。
+ */
+class Solution {
+    int best = 0;
+
+    void backtrack(vector<string>& words, int index, array<int,26>& remain, vector<int>& scoreTable, int curScore) {
+        best = max(best, curScore);
+        if (index == (int)words.size()) return;
+
+        backtrack(words, index + 1, remain, scoreTable, curScore);
+
+        array<int,26> used{};
+        bool canUse = true;
+        int gain = 0;
+        for (char c : words[index]) {
+            used[c - 'a']++;
+            if (used[c - 'a'] > remain[c - 'a']) canUse = false;
+            gain += scoreTable[c - 'a'];
+        }
+        if (canUse) {
+            for (int i = 0; i < 26; ++i) remain[i] -= used[i];
+            backtrack(words, index + 1, remain, scoreTable, curScore + gain);
+            for (int i = 0; i < 26; ++i) remain[i] += used[i];
+        }
+    }
+
+public:
+    int maxScoreWords(vector<string>& words, vector<char>& letters, vector<int>& score) {
+        array<int,26> remain{};
+        for (char c : letters) remain[c - 'a']++;
+        backtrack(words, 0, remain, score, 0);
+        return best;
+    }
+};

@@ -1,0 +1,61 @@
+/**
+ * 題目：1415. The k-th Lexicographical String of All Happy Strings of Length n
+ * 難度：中等 (Medium)
+ * 描述：「快樂字串」是只由 'a'、'b'、'c' 組成、且相鄰字元都不相同的
+ * 字串。求長度為 n 的所有快樂字串，按字典序排序後第 k 個是誰（不存在
+ * 就回傳空字串）。
+ *
+ * 時間複雜度：O(3 * 2^(N-1))（最壞情況窮舉所有快樂字串，但因為題目
+ * 保證 k <= 100，實際上找到第 k 個就會提早結束）
+ * 空間複雜度：O(N)（遞迴深度 + 目前路徑）
+ *
+ * 解法思路：
+ * （Combination 回溯，逐字元往下試、依照字典序自然生成，是這題選
+ * 進 backtracking-combination 而不是排列類的原因——這裡是「從候選
+ * 字元集合裡逐步挑選」組成字串，不是排列固定的一組元素）：
+ * 1. backtrack(path) 逐字元建構字串，對每個位置依序嘗試 'a' -> 'b'
+ *    -> 'c'（這個嘗試順序保證生成順序就是字典序，不用額外排序）。
+ * 2. 合法性檢查：如果目前路徑最後一個字元跟準備要加入的字元相同，
+ *    跳過（維持「相鄰不同」的快樂字串定義）。
+ * 3. base case：路徑長度等於 n，代表湊出一個完整的快樂字串，
+ *    count++；如果 count 剛好等於 k，代表找到答案了，記錄下來並
+ *    回傳 true，讓上層知道「已經找到了，不用再試其他分支」。
+ * 4. **提早終止的技巧**：backtrack 回傳 bool，一旦找到第 k 個字串就
+ *    一路往上回傳 true，讓所有還在等待的迴圈都直接 return，不用把
+ *    所有快樂字串都窮舉完才停下來——這對這題效能很重要，因為 n 最大
+ *    到 10，總共可能有上千個快樂字串，但 k 最多只到 100，找到就該
+ *    立刻停止。
+ * 5. 如果窮舉完所有快樂字串都湊不滿 k 個（k 超出總數），result 保持
+ *    預設的空字串，符合題目要求。
+ */
+class Solution {
+    string result;
+    int count = 0;
+    int n, k;
+
+    bool backtrack(string& path) {
+        if ((int)path.size() == n) {
+            count++;
+            if (count == k) {
+                result = path;
+                return true;
+            }
+            return false;
+        }
+        for (char c = 'a'; c <= 'c'; ++c) {
+            if (!path.empty() && path.back() == c) continue;
+            path.push_back(c);
+            if (backtrack(path)) return true;
+            path.pop_back();
+        }
+        return false;
+    }
+
+public:
+    string getHappyString(int n_, int k_) {
+        n = n_; k = k_;
+        string path;
+        backtrack(path);
+        return result;
+    }
+};

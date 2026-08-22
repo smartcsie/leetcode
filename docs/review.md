@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（418）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（420）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 919 / 4029 題（最後更新：2026-08-22 11:31）
-- **目前收錄總題目數：** 932 題　🔴 生疏：412 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 934 題　🔴 生疏：414 題　🟠 再練習：186 題　🟡 練習過：24 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -21,7 +21,7 @@
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 15 | 1 | 0 | 1 | 2 | 0 | 19 |
-| [backtracking-combination](topics/backtracking-combination.md) | 13 | 0 | 0 | 0 | 0 | 0 | 13 |
+| [backtracking-combination](topics/backtracking-combination.md) | 15 | 0 | 0 | 0 | 0 | 0 | 15 |
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
@@ -110,9 +110,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 418 個解法標記為生疏，建議找時間重新練習。
+目前共有 420 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（92）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（23）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（92）](#shengshu-dynamic-programming)　[🧩 Greedy（17）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -589,7 +589,7 @@
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | [C++](problems/3114.md) | greedy |
 
 <a id="shengshu-backtracking"></a>
-#### 🔢 Backtracking（23）
+#### 🔢 Backtracking（25）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -613,6 +613,8 @@
 | 980 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | 🔴 Hard | [C++](problems/0980.md) | backtracking-grid |
 | 1219 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | 🟡 Medium | [C++](problems/1219.md) | backtracking-grid |
 | 1238 | [Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/) | 🟡 Medium | [C++](problems/1238.md) | backtracking-permutation |
+| 1255 | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | 🔴 Hard | [C++](problems/1255.md) | backtracking-combination |
+| 1415 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | 🟡 Medium | [C++](problems/1415.md) | backtracking-combination |
 | 1593 | [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | 🟡 Medium | [C++](problems/1593.md) | backtracking-combination |
 | 1947 | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/) | 🟡 Medium | [C++](problems/1947.md) | backtracking-permutation |
 | 2305 | [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/) | 🟡 Medium | [C++](problems/2305.md) | backtracking-constraint |

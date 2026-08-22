@@ -1,0 +1,13 @@
+number: 1255
+title: Maximum Score Words Formed by Letters
+url: https://leetcode.com/problems/maximum-score-words-formed-by-letters/
+solutions:
+- file: Solution_1255.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Backtracking Combination
+  topics:
+  - backtracking-combination
+  time: O(2^N)，N 是單字數量（最多 14 個，2^14 可接受）
+  space: O(26)（字母預算陣列 + 遞迴深度）
+  familiarity: 生疏
