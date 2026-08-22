@@ -113,7 +113,9 @@ nav:
       - queue: topics/queue.md
   - 🔢 Backtracking:
       - backtracking-combination: topics/backtracking-combination.md
+      - backtracking-constraint: topics/backtracking-constraint.md
       - backtracking-permutation: topics/backtracking-permutation.md
+      - backtracking-grid: topics/backtracking-grid.md
   - 🧩 Dynamic Programming:
       - dp-string: topics/dp-string.md
       - dp-kadane: topics/dp-kadane.md
