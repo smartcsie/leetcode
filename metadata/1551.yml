@@ -1,0 +1,13 @@
+number: 1551
+title: Minimum Operations to Make Array Equal
+url: https://leetcode.com/problems/minimum-operations-to-make-array-equal/
+solutions:
+- file: Solution_1551.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Coin Change
+  topics:
+  - greedy-coin-change
+  time: O(N)
+  space: O(1)
+  familiarity: 生疏

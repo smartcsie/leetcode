@@ -1,0 +1,13 @@
+number: 1210
+title: Minimum Moves to Reach Target With Rotations
+url: https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/
+solutions:
+- file: Solution_1210.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Coin Change
+  topics:
+  - greedy-coin-change
+  time: O(N²)
+  space: O(N²)
+  familiarity: 生疏
