@@ -5,9 +5,9 @@ solutions:
 - file: Solution_0621.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy Job Sequencing
+  - Greedy Priority Queue
   topics:
-  - greedy-job-sequencing
+  - greedy-priority-queue
   time: O(N)
   space: O(1)
   familiarity: 生疏

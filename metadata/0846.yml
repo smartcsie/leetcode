@@ -1,0 +1,13 @@
+number: 846
+title: Hand of Straights
+url: https://leetcode.com/problems/hand-of-straights/
+solutions:
+- file: Solution_0846.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Priority Queue
+  topics:
+  - greedy-priority-queue
+  time: O(N log N)
+  space: O(N)
+  familiarity: 生疏

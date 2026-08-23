@@ -1,0 +1,13 @@
+number: 1851
+title: Minimum Interval to Include Each Query
+url: https://leetcode.com/problems/minimum-interval-to-include-each-query/
+solutions:
+- file: Solution_1851.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Priority Queue
+  topics:
+  - greedy-priority-queue
+  time: O((N+Q) log N)
+  space: O(N)
+  familiarity: 生疏
