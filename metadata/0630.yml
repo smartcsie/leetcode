@@ -1,0 +1,13 @@
+number: 630
+title: Course Schedule III
+url: https://leetcode.com/problems/course-schedule-iii/
+solutions:
+- file: Solution_0630.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Job Sequencing
+  topics:
+  - greedy-job-sequencing
+  time: O(N log N)
+  space: O(N)
+  familiarity: 生疏

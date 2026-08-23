@@ -1,0 +1,13 @@
+number: 621
+title: Task Scheduler
+url: https://leetcode.com/problems/task-scheduler/
+solutions:
+- file: Solution_0621.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Job Sequencing
+  topics:
+  - greedy-job-sequencing
+  time: O(N)
+  space: O(1)
+  familiarity: 生疏

@@ -1,0 +1,50 @@
+/**
+ * 題目：1296. Divide Array in Sets of K Consecutive Numbers
+ * 難度：中等 (Medium)
+ * 描述：給定一個整數陣列 nums 和一個整數 k，判斷能不能把 nums 分成
+ * 若干組，每組恰好 k 個「連續整數」（例如 [3,4,5]）。
+ *
+ * 時間複雜度：O(N log N)
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * （Huffman-Type Greedy 的變形：不是挑「最大」，而是每次挑「目前
+ * 剩下最小」的數字當作一組連續數列的起點，這是這題的貪心關鍵）：
+ * 1. 陣列長度如果不是 k 的倍數，不可能平分成若干組 k 個一數，直接
+ *    回傳 false。
+ * 2. 用一個依 key 自動排序的 map 統計每個數值出現的次數（用 map 而
+ *    不是 unordered_map，是因為需要「由小到大」依序取值）。
+ * 3. 貪心策略：每次看目前「還沒被用完」的最小數值 start，它一定要
+ *    當某一組連續數列的起點——因為它是目前剩下最小的數，不可能是
+ *    某組的中間或結尾（不然會有比它更小的數字沒被分配，那個更小的
+ *    數字就沒有起點可用了）。
+ * 4. 決定要用 start 開頭組成幾組（count = freq[start]，因為 start
+ *    出現幾次，就要組幾組以它開頭的連續數列），依序檢查 start 到
+ *    start+k-1 這 k 個數字，每個的剩餘次數都要 >= count，否則代表
+ *    湊不出足夠的連續組，回傳 false；夠的話就把這 k 個數字的次數各
+ *    扣掉 count。
+ * 5. 全部數值都檢查完都沒有失敗，回傳 true。
+ */
+class Solution {
+public:
+    bool isPossibleDivide(vector<int>& nums, int k) {
+        int n = nums.size();
+        if (n % k != 0) return false;
+
+        map<int,int> freq;
+        for (int x : nums) freq[x]++;
+
+        for (auto it = freq.begin(); it != freq.end(); ) {
+            if (it->second == 0) { ++it; continue; }
+            int start = it->first;
+            int count = it->second;
+            for (int v = start; v < start + k; ++v) {
+                auto found = freq.find(v);
+                if (found == freq.end() || found->second < count) return false;
+                found->second -= count;
+            }
+            ++it;
+        }
+        return true;
+    }
+};

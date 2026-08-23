@@ -1,0 +1,13 @@
+number: 1296
+title: Divide Array in Sets of K Consecutive Numbers
+url: https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/
+solutions:
+- file: Solution_1296.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Frequency Merging
+  topics:
+  - greedy-frequency-merging
+  time: O(N log N)
+  space: O(N)
+  familiarity: 生疏

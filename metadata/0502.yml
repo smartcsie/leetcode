@@ -1,0 +1,13 @@
+number: 502
+title: IPO
+url: https://leetcode.com/problems/ipo/
+solutions:
+- file: Solution_0502.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Job Sequencing
+  topics:
+  - greedy-job-sequencing
+  time: O(N log N)
+  space: O(N)
+  familiarity: 生疏

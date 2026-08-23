@@ -1,0 +1,13 @@
+number: 1338
+title: Reduce Array Size to the Half
+url: https://leetcode.com/problems/reduce-array-size-to-the-half/
+solutions:
+- file: Solution_1338.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Frequency Merging
+  topics:
+  - greedy-frequency-merging
+  time: O(N log N)
+  space: O(N)
+  familiarity: 生疏
