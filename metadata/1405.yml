@@ -11,3 +11,14 @@ solutions:
   time: O((a+b+c) log 3)
   space: O(1)
   familiarity: 生疏
+  related:
+  - 984
+- file: Solution_1405_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy String Construction
+  topics:
+  - greedy-string-construction
+  time: O((a+b+c) log 3)
+  space: O(1)
+  familiarity: 生疏
