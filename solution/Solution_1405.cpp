@@ -1,0 +1,53 @@
+/**
+ * 題目：1405. Longest Happy String
+ * 難度：中等 (Medium)
+ * 分類主題：greedy-exchange-argument
+ * 描述：給定 a、b、c 三個數字，分別代表能用的 'a'、'b'、'c' 字元
+ * 個數，組成一個「快樂字串」（不能有 3 個以上連續相同字元），求能
+ * 組成的最長快樂字串（多解取任一組）。
+ *
+ * 時間複雜度：O((a+b+c) log 3)
+ * 空間複雜度：O(1)（heap 最多 3 個元素）
+ *
+ * 解法思路：
+ * （Exchange Argument 型貪心：每一步都優先用「目前剩最多」的字元，
+ * 這個選擇可以用交換論證證明不會比其他選法差——如果某個較優解裡，
+ * 某一步沒有選當時數量最多的字元，交換過去也不會讓結果變差）：
+ * 1. 用 max-heap 存 (剩餘數量, 字元)，每次取出目前剩最多的字元 ch。
+ * 2. 檢查結果字串最後兩個字元是否都跟 ch 相同：
+ *    - 如果是（代表接下去會變成 3 個連續相同），改用「次多」的字元
+ *      ch2 頂替這一步，並把原本的 ch 放回 heap 留到下一輪再試。
+ *    - 如果 heap 已經空了（沒有替代字元），代表沒辦法再延伸了，直接
+ *      結束。
+ *    - 否則正常把 ch 接進結果，數量 -1，如果還大於 0 就放回 heap。
+ * 3. 重複直到 heap 空了或無法再接為止，結果字串就是答案。
+ * 4. 為什麼優先用「剩最多」的字元：剩得越多的字元，如果不趁早用掉，
+ *    之後就有越高機率因為「前面已經連續兩個」而被迫等待，導致最後
+ *    用不完、字串變短；優先消耗數量多的，能讓整體字串長度最大化。
+ */
+class Solution {
+public:
+    string longestDiverseString(int a, int b, int c) {
+        priority_queue<pair<int,char>> pq;
+        if (a) pq.push({a, 'a'});
+        if (b) pq.push({b, 'b'});
+        if (c) pq.push({c, 'c'});
+
+        string res;
+        while (!pq.empty()) {
+            auto [count, ch] = pq.top(); pq.pop();
+            int len = res.size();
+            if (len >= 2 && res[len-1] == ch && res[len-2] == ch) {
+                if (pq.empty()) break;
+                auto [count2, ch2] = pq.top(); pq.pop();
+                res += ch2;
+                if (--count2 > 0) pq.push({count2, ch2});
+                pq.push({count, ch});
+            } else {
+                res += ch;
+                if (--count > 0) pq.push({count, ch});
+            }
+        }
+        return res;
+    }
+};

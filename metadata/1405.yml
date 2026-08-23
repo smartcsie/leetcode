@@ -1,0 +1,13 @@
+number: 1405
+title: Longest Happy String
+url: https://leetcode.com/problems/longest-happy-string/
+solutions:
+- file: Solution_1405.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Exchange Argument
+  topics:
+  - greedy-exchange-argument
+  time: O((a+b+c) log 3)
+  space: O(1)
+  familiarity: 生疏
