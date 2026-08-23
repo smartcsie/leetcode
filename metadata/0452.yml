@@ -1,0 +1,13 @@
+number: 452
+title: Minimum Number of Arrows to Burst Balloons
+url: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+solutions:
+- file: Solution_0452.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Interval Scheduling
+  topics:
+  - greedy-interval-scheduling
+  time: O(N log N)
+  space: O(1)
+  familiarity: 生疏

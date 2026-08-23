@@ -92,7 +92,7 @@ PATTERNS = {
         (767, "Reorganize String"),
         (502, "IPO"),
         (846, "Hand of Straights"),
-        (None, "Least Interval"),  # 找不到對應題號，可能跟 621 重複
+        (1851, "Minimum Interval to Include Each Query"),
     ],
     "Pattern 9: Greedy in Graph Algorithms": [
         (743, "Network Delay Time"),
@@ -134,7 +134,7 @@ PATTERNS = {
         (1877, "Minimize Maximum Pair Sum in Array"),
         (1753, "Maximum Score From Removing Stones"),
         (2208, "Minimum Operations to Halve Array Sum"),
-        (None, "Minimize Sum of Distances in Array"),  # 找不到對應題號
+        (462, "Minimum Moves to Equal Array Elements II"),
     ],
     "Pattern 15: Greedy Selection With Constraints": [
         (1770, "Maximum Score From Performing Multiplication Operations"),

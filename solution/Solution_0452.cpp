@@ -1,0 +1,45 @@
+/**
+ * 題目：452. Minimum Number of Arrows to Burst Balloons
+ * 難度：中等 (Medium)
+ * 描述：給定一組氣球，points[i] = [xStart, xEnd] 代表第 i 個氣球水平
+ * 方向的範圍。箭可以垂直射穿，只要箭的 x 座標落在某氣球範圍內，這個
+ * 氣球就會被戳破，一箭可以同時戳破多個範圍重疊的氣球。求最少需要幾支
+ * 箭才能戳破所有氣球。
+ *
+ * 時間複雜度：O(N log N)
+ * 空間複雜度：O(1)（不含排序本身用到的額外空間）
+ *
+ * 解法思路：
+ * （Interval Scheduling，經典的「照結束時間排序 + 貪心」模板，跟
+ * 435. Non-overlapping Intervals 是同一套邏輯的變形）：
+ * 1. 把所有氣球依照「結束座標（xEnd）」由小到大排序。照結束時間排序
+ *    是這類問題的關鍵：優先處理「最早結束」的區間，才能讓貪心決策
+ *    保留最多彈性給後面的區間。
+ * 2. 貪心策略：第一箭一定射在「排序後第一個氣球」的結束座標上（這樣
+ *    這支箭一定能戳破它，而且盡量往右射，讓更多後面重疊的氣球也一起
+ *    被戳到），記錄這支箭的位置 end。
+ * 3. 掃描後面每個氣球：如果它的開始座標 > 目前這支箭的位置（代表這個
+ *    氣球在箭的右邊、沒被戳到），就需要多射一箭，箭數 +1，並把新的
+ *    箭位置更新成這個氣球的結束座標；如果開始座標 <= 目前箭的位置，
+ *    代表這個氣球已經被目前這支箭戳到了，不用增加箭數，直接跳過。
+ * 4. 答案是總共用了幾支箭。
+ */
+class Solution {
+public:
+    int findMinArrowShots(vector<vector<int>>& points) {
+        if (points.empty()) return 0;
+        sort(points.begin(), points.end(), [](const vector<int>& a, const vector<int>& b) {
+            return a[1] < b[1];
+        });
+
+        int arrows = 1;
+        long long end = points[0][1];
+        for (int i = 1; i < (int)points.size(); ++i) {
+            if (points[i][0] > end) {
+                arrows++;
+                end = points[i][1];
+            }
+        }
+        return arrows;
+    }
+};
