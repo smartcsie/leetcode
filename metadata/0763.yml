@@ -1,0 +1,13 @@
+number: 763
+title: Partition Labels
+url: https://leetcode.com/problems/partition-labels/
+solutions:
+- file: Solution_0763.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Prefix Suffix
+  topics:
+  - greedy-prefix-suffix
+  time: O(N)
+  space: O(1)
+  familiarity: 生疏
