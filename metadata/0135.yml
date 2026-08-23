@@ -1,0 +1,13 @@
+number: 135
+title: Candy
+url: https://leetcode.com/problems/candy/
+solutions:
+- file: Solution_0135.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Fractional Knapsack
+  topics:
+  - greedy-fractional-knapsack
+  time: O(N)
+  space: O(N)
+  familiarity: 生疏

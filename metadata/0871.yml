@@ -1,0 +1,13 @@
+number: 871
+title: Minimum Number of Refueling Stops
+url: https://leetcode.com/problems/minimum-number-of-refueling-stops/
+solutions:
+- file: Solution_0871.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Fractional Knapsack
+  topics:
+  - greedy-fractional-knapsack
+  time: O(N log N)
+  space: O(N)
+  familiarity: 生疏

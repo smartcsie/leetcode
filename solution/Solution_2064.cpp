@@ -1,0 +1,45 @@
+/**
+ * 題目：2064. Minimized Maximum of Products Distributed to Any Store
+ * 難度：中等 (Medium)
+ * 描述：給定 n 間店和 m 種商品的數量 quantities，每種商品只能分給
+ * 一間店（但可以分任意數量給那間店，一間店也只能收一種商品），求
+ * 分配後「單一店家拿到最多商品的數量」最小可能是多少。
+ *
+ * 時間複雜度：O(Q log M)，Q 是商品種類數、M 是最大商品數量
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：
+ * （二分搜尋答案 + 貪心可行性檢查，這是這個 pattern 裡少見的「二分
+ * 搜尋包貪心」組合，貪心的部分是「檢查某個容量上限夠不夠用」這一步）：
+ * 1. 這題直接想「怎麼分配」很難下手，但反過來想「如果限制每間店最多
+ *    只能拿 capacity 個，至少需要幾間店？」就變得很直觀，而且這個
+ *    「至少需要幾間店」會隨 capacity 增加而單調遞減——這正是能用二分
+ *    搜尋的訊號。
+ * 2. feasible(capacity) 檢查函式（貪心的部分）：對每種商品，數量
+ *    quantities[i] 如果每間店最多分 capacity 個，需要
+ *    ceil(quantities[i] / capacity) 間店，把所有商品需要的店數加總，
+ *    只要 <= n 就代表這個 capacity 是可行的。
+ * 3. 二分搜尋範圍：capacity 最小是 1，最大是 quantities 裡的最大值
+ *    （如果 capacity 已經 >= 某商品的全部數量，那商品只需要 1 間店）。
+ * 4. 標準的「找最小可行值」二分搜尋模板：可行就往左收斂（hi = mid），
+ *    不可行就往右移（lo = mid + 1），最後 lo == hi 就是答案。
+ */
+class Solution {
+public:
+    int minimizedMaximum(int n, vector<int>& quantities) {
+        int lo = 1, hi = *max_element(quantities.begin(), quantities.end());
+        auto feasible = [&](int capacity) -> bool {
+            long long storesNeeded = 0;
+            for (int q : quantities) {
+                storesNeeded += (q + capacity - 1) / capacity;
+            }
+            return storesNeeded <= n;
+        };
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (feasible(mid)) hi = mid;
+            else lo = mid + 1;
+        }
+        return lo;
+    }
+};
