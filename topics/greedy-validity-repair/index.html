@@ -11,10 +11,6 @@
       
       
       
-        <link rel="prev" href="../greedy-selection-constraints/">
-      
-      
-        <link rel="next" href="../tree-dfs-path/">
       
       
         
@@ -25,7 +21,7 @@
     
     
       
-        <title>greedy-exchange-argument - LeetCode 演算法精鍊筆記</title>
+        <title>greedy-validity-repair - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -76,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#greedy-exchange-argument" class="md-skip">
+        <a href="#greedy-validity-repair" class="md-skip">
           跳轉到
         </a>
       
@@ -112,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              greedy-exchange-argument
+              greedy-validity-repair
             
           </span>
         </div>
@@ -3143,20 +3139,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
         
           
           <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
@@ -3177,7 +3171,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_16">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3612,37 +3606,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    greedy-exchange-argument
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../greedy-exchange-argument.md" class="md-nav__link">
         
   
   
@@ -3658,81 +3625,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目錄">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目錄
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔴 生疏（1）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟠 再練習（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟡 練習過（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟣 易忘（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟢 熟悉（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -4591,8 +4483,8 @@
   
 
 
-<h1 id="greedy-exchange-argument">greedy-exchange-argument<a class="headerlink" href="#greedy-exchange-argument" title="Permanent link">&para;</a></h1>
-<h2 id="1">🔴 生疏（1）<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<h1 id="greedy-validity-repair">greedy-validity-repair<a class="headerlink" href="#greedy-validity-repair" title="Permanent link">&para;</a></h1>
+<h2 id="3">🔴 生疏（3）<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -4607,12 +4499,30 @@
 </thead>
 <tbody>
 <tr>
-<td>1405</td>
-<td><a href="https://leetcode.com/problems/longest-happy-string/">Longest Happy String</a></td>
+<td>921</td>
+<td><a href="https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/">Minimum Add to Make Parentheses Valid</a></td>
 <td>🟡 Medium</td>
-<td>Greedy Exchange Argument</td>
-<td><a href="../../problems/1405/">C++</a></td>
-<td>O((a+b+c) log 3)</td>
+<td>Stack, Greedy</td>
+<td><a href="../../problems/0921/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2116</td>
+<td><a href="https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/">Check if a Parentheses String Can Be Valid</a></td>
+<td>🟡 Medium</td>
+<td>Greedy</td>
+<td><a href="../../problems/2116/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>2645</td>
+<td><a href="https://leetcode.com/problems/minimum-additions-to-make-valid-string/">Minimum Additions to Make Valid String</a></td>
+<td>🟡 Medium</td>
+<td>Greedy, Simulation</td>
+<td><a href="../../problems/2645/">C++</a></td>
+<td>O(N)</td>
 <td>O(1)</td>
 </tr>
 </tbody>
@@ -4621,9 +4531,32 @@
 <p>目前沒有標記為再練習的解法。</p>
 <h2 id="0_1">🟡 練習過（0）<a class="headerlink" href="#0_1" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為練習過的解法。</p>
-<h2 id="0_2">🟣 易忘（0）<a class="headerlink" href="#0_2" title="Permanent link">&para;</a></h2>
-<p>目前沒有標記為易忘的解法。</p>
-<h2 id="0_3">🟢 熟悉（0）<a class="headerlink" href="#0_3" title="Permanent link">&para;</a></h2>
+<h2 id="1">🟣 易忘（1）<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>難度</th>
+<th>標籤</th>
+<th>解法檔案</th>
+<th>時間</th>
+<th>空間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>678</td>
+<td><a href="https://leetcode.com/problems/valid-parenthesis-string/">Valid Parenthesis String</a></td>
+<td>🟡 Medium</td>
+<td>Greedy</td>
+<td><a href="../../problems/0678/">C++</a></td>
+<td>O(N)</td>
+<td>O(1)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="0_2">🟢 熟悉（0）<a class="headerlink" href="#0_2" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為熟悉的解法。</p>
 
 
