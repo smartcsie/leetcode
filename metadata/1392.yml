@@ -1,0 +1,13 @@
+number: 1392
+title: Longest Happy Prefix
+url: https://leetcode.com/problems/longest-happy-prefix/
+solutions:
+- file: Solution_1392.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Selection Constraints
+  topics:
+  - greedy-selection-constraints
+  time: O(N)
+  space: O(N)
+  familiarity: 生疏

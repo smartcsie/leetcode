@@ -1,0 +1,13 @@
+number: 2279
+title: Maximum Bags With Full Capacity of Rocks
+url: https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/
+solutions:
+- file: Solution_2279.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Selection Constraints
+  topics:
+  - greedy-selection-constraints
+  time: O(N log N)
+  space: O(N)
+  familiarity: 生疏

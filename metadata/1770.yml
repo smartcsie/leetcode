@@ -1,0 +1,13 @@
+number: 1770
+title: Maximum Score From Performing Multiplication Operations
+url: https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/
+solutions:
+- file: Solution_1770.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Selection Constraints
+  topics:
+  - greedy-selection-constraints
+  time: O(M²)
+  space: O(M²)
+  familiarity: 生疏

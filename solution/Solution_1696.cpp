@@ -1,0 +1,41 @@
+/**
+ * 題目：1696. Jump Game VI
+ * 難度：中等 (Medium)
+ * 分類主題：greedy-selection-constraints
+ * 描述：給定陣列 nums 和整數 k，從索引 0 出發，每次最多能往前跳 k
+ * 步，求跳到最後一個索引，經過的所有元素總和的最大值。
+ *
+ * 時間複雜度：O(N)
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * （跟 1425 Constrained Subsequence Sum 幾乎一模一樣的模板：dp +
+ * 單調隊列維護滑動視窗最大值，差別只在於這題限制「往前跳」而不是
+ * 「往前選」，但轉移邏輯完全相同）：
+ * 1. dp[i] 代表「跳到索引 i」時，路徑總和的最大值。
+ * 2. dp[i] = nums[i] + max(dp[i-k], ..., dp[i-1])，用單調遞減佇列
+ *    維護最近 k 個 dp 值的最大值，把每次查詢降到攤還 O(1)。
+ * 3. 佇列維護：每次先把「超出視窗範圍」（索引 < i-k）的隊首彈出；
+ *    隊首就是視窗內最大值；算完 dp[i] 後，把隊尾所有 dp 值 <= dp[i]
+ *    的元素都彈出（它們以後不可能是最大值），再把 i 加入隊尾。
+ * 4. 跟 1425 唯一的差異：這題不用跟 0 取 max（因為必須從頭跳到尾，
+ *    不能中途放棄不跳），答案固定是 dp[n-1]。
+ */
+class Solution {
+public:
+    int maxResult(vector<int>& nums, int k) {
+        int n = nums.size();
+        vector<int> dp(n);
+        dp[0] = nums[0];
+        deque<int> dq;
+        dq.push_back(0);
+
+        for (int i = 1; i < n; ++i) {
+            while (!dq.empty() && dq.front() < i - k) dq.pop_front();
+            dp[i] = dp[dq.front()] + nums[i];
+            while (!dq.empty() && dp[dq.back()] <= dp[i]) dq.pop_back();
+            dq.push_back(i);
+        }
+        return dp[n - 1];
+    }
+};

@@ -1,0 +1,49 @@
+/**
+ * 題目：2279. Maximum Bags With Full Capacity of Rocks
+ * 難度：中等 (Medium)
+ * 分類主題：greedy-selection-constraints
+ * 描述：給定每個袋子的容量 capacity 和目前已裝的石頭數 rocks，還有
+ * additionalRocks 顆額外的石頭可以分配（每袋任意分配）。求最多能讓
+ * 幾個袋子裝滿。
+ *
+ * 時間複雜度：O(N log N)
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * （在「額外石頭數量有限」這個約束下做選擇，排序後優先填「最容易
+ * 填滿」的袋子）：
+ * 1. 算出每個袋子「還缺多少石頭才能裝滿」（remaining = capacity -
+ *    rocks）。
+ * 2. 依照 remaining 由小到大排序，優先處理「差最少」的袋子——這樣
+ *    能用最少的額外石頭填滿最多的袋子。
+ * 3. 依序檢查排序後的每個袋子，如果剩餘的 additionalRocks 還夠填滿
+ *    這個袋子（remaining <= additionalRocks），就填滿它，扣掉用掉
+ *    的量，計數 +1；一旦某個袋子填不滿（額外石頭不夠了），後面差
+ *    更多的袋子一定也填不滿，直接跳出迴圈。
+ * 4. 答案是成功填滿的袋子數。
+ */
+class Solution {
+public:
+    int maximumBags(vector<int>& capacity, vector<int>& rocks, int additionalRocks) {
+        int n = capacity.size();
+        vector<int> remaining(n);
+        for (int i = 0; i < n; ++i) remaining[i] = capacity[i] - rocks[i];
+
+        vector<int> idx(n);
+        iota(idx.begin(), idx.end(), 0);
+        sort(idx.begin(), idx.end(), [&](int a, int b) {
+            return remaining[a] < remaining[b];
+        });
+
+        int count = 0;
+        for (int i : idx) {
+            if (remaining[i] <= additionalRocks) {
+                additionalRocks -= remaining[i];
+                count++;
+            } else {
+                break;
+            }
+        }
+        return count;
+    }
+};
