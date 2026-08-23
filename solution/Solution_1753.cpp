@@ -1,0 +1,45 @@
+/**
+ * 題目：1753. Maximum Score From Removing Stones
+ * 難度：中等 (Medium)
+ * 分類主題：greedy-parity-contribution
+ * 描述：給定三堆石頭數量 a、b、c，每次操作選兩堆不同的堆各拿走一顆
+ * 石頭，得 1 分，直到剩下最多一堆有石頭為止（無法再操作）。求能拿到
+ * 的最高總分。
+ *
+ * 時間複雜度：O((a+b+c) log 3)
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：
+ * （Parity/Contribution 型貪心：每一步都優先從「目前最多的兩堆」
+ * 各拿一顆，這樣才能避免某一堆數量過多、最後只能孤零零地被浪費掉）：
+ * 1. 用 max-heap 存三堆的石頭數。
+ * 2. 每一輪取出目前最多的兩堆 x、y，各減 1（代表各拿走一顆），
+ *    score + 1；扣完如果還大於 0，放回 heap 繼續參與後續回合。
+ * 3. 重複直到 heap 裡剩下不到兩堆為止（代表沒辦法再湊出兩堆不同的
+ *    來操作了）。
+ * 4. **為什麼要優先選最大的兩堆**：如果放著最大的兩堆不處理、去消耗
+ *    比較小的堆，會讓最大的那堆持續累積「用不掉的餘量」，最終這些
+ *    餘量會被閒置浪費（因為另外兩堆已經用完，沒有第二堆可以搭配它）；
+ *    優先消耗最大的兩堆，能讓「數量的落差」被盡快抹平，最大化總共
+ *    能配對的次數。
+ * 5. 這題也有更快的 O(1) 數學公式解（排序後判斷 a+b<=c 的情況），
+ *    但這版用 heap 模擬貪心過程，思路上更直接，跟同分類其他題目的
+ *    模板（1167、871、502 等）風格一致。
+ */
+class Solution {
+public:
+    int maximumScore(int a, int b, int c) {
+        priority_queue<int> maxHeap;
+        maxHeap.push(a); maxHeap.push(b); maxHeap.push(c);
+
+        int score = 0;
+        while (maxHeap.size() >= 2) {
+            int x = maxHeap.top(); maxHeap.pop();
+            int y = maxHeap.top(); maxHeap.pop();
+            score++;
+            if (--x > 0) maxHeap.push(x);
+            if (--y > 0) maxHeap.push(y);
+        }
+        return score;
+    }
+};

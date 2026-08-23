@@ -1,0 +1,13 @@
+number: 2208
+title: Minimum Operations to Halve Array Sum
+url: https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
+solutions:
+- file: Solution_2208.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Parity Contribution
+  topics:
+  - greedy-parity-contribution
+  time: O(N + K log N)
+  space: O(N)
+  familiarity: 生疏

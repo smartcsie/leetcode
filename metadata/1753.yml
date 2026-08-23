@@ -1,0 +1,13 @@
+number: 1753
+title: Maximum Score From Removing Stones
+url: https://leetcode.com/problems/maximum-score-from-removing-stones/
+solutions:
+- file: Solution_1753.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Parity Contribution
+  topics:
+  - greedy-parity-contribution
+  time: O((a+b+c) log 3)
+  space: O(1)
+  familiarity: 生疏

@@ -1,0 +1,46 @@
+/**
+ * 題目：2208. Minimum Operations to Halve Array Sum
+ * 難度：中等 (Medium)
+ * 分類主題：greedy-parity-contribution
+ * 描述：給定一個正數陣列 nums，每次操作可以選一個元素，把它減半（用
+ * 減少的量來降低總和）。求最少幾次操作，能讓陣列總和至少減少一半。
+ *
+ * 時間複雜度：O(N + K log N)，K 是操作次數
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * （Parity/Contribution 型貪心：每一步都對「目前貢獻最大」的元素
+ * 動手，才能用最少次數達到目標）：
+ * 1. 算出原始總和 total，目標是讓「總共減少的量」達到 total / 2。
+ * 2. 用 max-heap 存所有元素，每一輪取出目前最大的元素，把它減半，
+ *    這次操作減少的量（half = 原值/2）累加進 reduced，並把減半後的
+ *    新值放回 heap（它之後還可能是最大值，還能繼續被減半）。
+ * 3. **為什麼優先選最大的元素**：對同一個元素連續減半兩次，總共減少
+ *    的量是 (原值/2 + 原值/4) = 原值的 3/4；但如果對兩個不同元素各
+ *    減半一次，減少量取決於它們原本的大小。直覺上，先對「目前最大」
+ *    的元素動手，能讓每次操作減少的絕對量最大化，這是使操作次數
+ *    最少的貪心策略（可以用交換論證證明：如果某個較優解裡，某一步
+ *    沒有選當時最大的元素，把操作換成選最大的，減少量只會更多或
+ *    持平，不會變差）。
+ * 4. 重複直到累計減少量達到 total/2 為止，回傳操作次數。
+ */
+class Solution {
+public:
+    int halveArray(vector<int>& nums) {
+        priority_queue<double> maxHeap(nums.begin(), nums.end());
+        double total = 0;
+        for (int x : nums) total += x;
+        double target = total / 2.0;
+
+        double reduced = 0;
+        int ops = 0;
+        while (reduced < target) {
+            double top = maxHeap.top(); maxHeap.pop();
+            double half = top / 2.0;
+            reduced += half;
+            maxHeap.push(half);
+            ops++;
+        }
+        return ops;
+    }
+};
