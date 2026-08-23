@@ -40,8 +40,6 @@ markdown_extensions:
 
 
 
-
-
 nav:
   - 首頁: index.md
   - 📝 複習清單: review.md
@@ -136,21 +134,21 @@ nav:
       - dp-tree: topics/dp-tree.md
   - 🧩 Greedy:
       - greedy-prefix-suffix: topics/greedy-prefix-suffix.md
-      - greedy: topics/greedy.md
       - greedy-fractional-knapsack: topics/greedy-fractional-knapsack.md
-      - greedy-interval-scheduling: topics/greedy-interval-scheduling.md
+      - greedy: topics/greedy.md
       - greedy-digit-construction: topics/greedy-digit-construction.md
       - greedy-sorting-decision: topics/greedy-sorting-decision.md
+      - greedy-frequency-merging: topics/greedy-frequency-merging.md
       - greedy-optimal-partitioning: topics/greedy-optimal-partitioning.md
+      - greedy-interval-scheduling: topics/greedy-interval-scheduling.md
       - greedy-parity-contribution: topics/greedy-parity-contribution.md
       - greedy-job-sequencing: topics/greedy-job-sequencing.md
       - greedy-priority-queue: topics/greedy-priority-queue.md
-      - greedy-frequency-merging: topics/greedy-frequency-merging.md
+      - greedy-validity-repair: topics/greedy-validity-repair.md
       - greedy-graph: topics/greedy-graph.md
-      - greedy-string-construction: topics/greedy-string-construction.md
       - greedy-coin-change: topics/greedy-coin-change.md
+      - greedy-string-construction: topics/greedy-string-construction.md
       - greedy-selection-constraints: topics/greedy-selection-constraints.md
-      - greedy-exchange-argument: topics/greedy-exchange-argument.md
   - 🌳 Tree:
       - tree-dfs-path: topics/tree-dfs-path.md
       - tree: topics/tree.md
