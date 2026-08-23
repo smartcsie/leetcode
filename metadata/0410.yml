@@ -1,0 +1,13 @@
+number: 410
+title: Split Array Largest Sum
+url: https://leetcode.com/problems/split-array-largest-sum/
+solutions:
+- file: Solution_0410.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Optimal Partitioning
+  topics:
+  - greedy-optimal-partitioning
+  time: O(N log(sum(nums)))
+  space: O(1)
+  familiarity: 生疏

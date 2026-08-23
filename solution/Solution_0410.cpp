@@ -1,0 +1,54 @@
+/**
+ * 題目：410. Split Array Largest Sum
+ * 難度：困難 (Hard)
+ * 分類主題：greedy-optimal-partitioning
+ * 描述：給定一個非負整數陣列 nums 和整數 k，把它切成 k 個連續非空
+ * 子陣列，求一種切法讓「所有子陣列裡總和最大的那個」盡量小。
+ *
+ * 時間複雜度：O(N log(sum(nums)))
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：
+ * （二分搜尋答案 + 貪心可行性檢查，跟 2064、1552（雖然不在這份清單）
+ * 是同一個模板：先猜一個上限，貪心檢查夠不夠用，這是這個 pattern 裡
+ * 「二分搜尋包貪心」的又一個範例）：
+ * 1. 直接想「怎麼切」很難，反過來想「如果限制每個子陣列總和最多是
+ *    cap，至少需要切成幾組？」，這個「至少需要幾組」會隨 cap 增加
+ *    而單調遞減——這是能用二分搜尋的訊號。
+ * 2. feasible(cap) 貪心檢查：從左到右掃描，盡量把元素塞進目前這組
+ *    （只要不超過 cap），一旦加進去會超過 cap，就開新的一組，統計
+ *    總共要開幾組；只要 <= k 就代表這個 cap 可行。
+ * 3. 二分搜尋範圍：下界是 nums 裡的最大值（因為每組至少要能裝下
+ *    最大的那個元素，cap 不能比它小）；上界是全部元素的總和（最極端
+ *    情況，k=1，只能全部塞進一組）。
+ * 4. 標準的「找最小可行值」二分搜尋模板：可行就往左收斂，不可行就
+ *    往右移，最後收斂到的值就是答案。
+ */
+class Solution {
+public:
+    int splitArray(vector<int>& nums, int k) {
+        long long lo = *max_element(nums.begin(), nums.end());
+        long long hi = accumulate(nums.begin(), nums.end(), 0LL);
+
+        auto feasible = [&](long long cap) -> bool {
+            int groups = 1;
+            long long curSum = 0;
+            for (int x : nums) {
+                if (curSum + x > cap) {
+                    groups++;
+                    curSum = x;
+                } else {
+                    curSum += x;
+                }
+            }
+            return groups <= k;
+        };
+
+        while (lo < hi) {
+            long long mid = lo + (hi - lo) / 2;
+            if (feasible(mid)) hi = mid;
+            else lo = mid + 1;
+        }
+        return (int)lo;
+    }
+};

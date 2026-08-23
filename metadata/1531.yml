@@ -1,0 +1,13 @@
+number: 1531
+title: String Compression II
+url: https://leetcode.com/problems/string-compression-ii/
+solutions:
+- file: Solution_1531.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Optimal Partitioning
+  topics:
+  - greedy-optimal-partitioning
+  time: O(N²
+  space: O(N
+  familiarity: 生疏

@@ -1,0 +1,13 @@
+number: 2111
+title: Minimum Operations to Make the Array K-Increasing
+url: https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/
+solutions:
+- file: Solution_2111.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Optimal Partitioning
+  topics:
+  - greedy-optimal-partitioning
+  time: O(N log N)
+  space: O(N)
+  familiarity: 生疏
