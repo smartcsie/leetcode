@@ -1,0 +1,13 @@
+number: 1061
+title: Lexicographically Smallest Equivalent String
+url: https://leetcode.com/problems/lexicographically-smallest-equivalent-string/
+solutions:
+- file: Solution_1061.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy String Construction
+  topics:
+  - greedy-string-construction
+  time: O(N + M
+  space: O(26)
+  familiarity: 生疏

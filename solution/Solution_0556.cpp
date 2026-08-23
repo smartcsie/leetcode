@@ -1,0 +1,48 @@
+/**
+ * 題目：556. Next Greater Element III
+ * 難度：中等 (Medium)
+ * 分類主題：greedy-digit-construction
+ * 描述：給定一個 32 位元整數 n，用它的數字重新排列，找出「大於 n
+ * 的最小整數」（同樣的數字集合），如果不存在或會超出 32 位元整數
+ * 範圍，回傳 -1。
+ *
+ * 時間複雜度：O(N)，N 是數字位數
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * （經典的「下一個排列」演算法，這題的數字建構規則就是標準
+ * next_permutation 的手寫版）：
+ * 1. 從右往左找第一個「遞增點」i，也就是第一個滿足 s[i] < s[i+1] 的
+ *    位置（代表從這裡開始，後面還有調整空間）。如果整個數字從右到左
+ *    都是遞增的（代表 s 已經是所有排列中最大的），找不到這樣的 i，
+ *    直接回傳 -1。
+ * 2. 從右往左，在 i 右邊找「第一個比 s[i] 大」的數字 s[j]（因為右邊
+ *    是遞減排列，從右邊找起，第一個比 s[i] 大的就是「剛好比 s[i] 大
+ *    一點點」的最佳選擇）。
+ * 3. 交換 s[i] 和 s[j]，這一步讓數字在 i 這個位置變大了（滿足
+ *    「大於原數字」的要求，且盡量小幅度增加）。
+ * 4. 交換後，i 右邊的部分依然是遞減排列，把它整段反轉成遞增，讓
+ *    i 右邊的部分變成「所有可能排列中最小」的組合，確保整體是
+ *    「大於原數字的最小可能值」。
+ * 5. 用 long long 暫存結果再檢查是否超過 INT_MAX，避免字串轉換時
+ *    整數溢位。
+ */
+class Solution {
+public:
+    int nextGreaterElement(int n) {
+        string s = to_string(n);
+        int i = (int)s.size() - 2;
+        while (i >= 0 && s[i] >= s[i + 1]) i--;
+        if (i < 0) return -1;
+
+        int j = (int)s.size() - 1;
+        while (s[j] <= s[i]) j--;
+        swap(s[i], s[j]);
+
+        reverse(s.begin() + i + 1, s.end());
+
+        long long result = stoll(s);
+        if (result > INT_MAX) return -1;
+        return (int)result;
+    }
+};

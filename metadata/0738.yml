@@ -1,0 +1,13 @@
+number: 738
+title: Monotone Increasing Digits
+url: https://leetcode.com/problems/monotone-increasing-digits/
+solutions:
+- file: Solution_0738.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Digit Construction
+  topics:
+  - greedy-digit-construction
+  time: O(N)
+  space: O(N)
+  familiarity: 生疏

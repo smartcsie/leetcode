@@ -1,0 +1,13 @@
+number: 899
+title: Orderly Queue
+url: https://leetcode.com/problems/orderly-queue/
+solutions:
+- file: Solution_0899.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy String Construction
+  topics:
+  - greedy-string-construction
+  time: O(N²)
+  space: O(N)
+  familiarity: 生疏

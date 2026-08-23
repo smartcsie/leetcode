@@ -1,0 +1,13 @@
+number: 556
+title: Next Greater Element III
+url: https://leetcode.com/problems/next-greater-element-iii/
+solutions:
+- file: Solution_0556.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Digit Construction
+  topics:
+  - greedy-digit-construction
+  time: O(N)
+  space: O(N)
+  familiarity: 生疏
