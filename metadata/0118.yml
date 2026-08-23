@@ -8,7 +8,7 @@ solutions:
   - Array
   - DP
   topics:
-  - dp-kadane
+  - dynamic-programming
   time: O(N²)
   space: O(1)*
   familiarity: 生疏

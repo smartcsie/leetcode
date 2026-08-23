@@ -8,7 +8,7 @@ solutions:
   - Dynamic Programming
   - Math
   topics:
-  - dynamic-programming
+  - dp-interval
   time: O(N²)
   space: O(N)
   familiarity: 生疏

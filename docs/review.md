@@ -35,22 +35,22 @@
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 0 | 1 | 0 | 1 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 9 | 6 | 0 | 0 | 2 | 0 | 17 |
 | [design](topics/design.md) | 0 | 5 | 0 | 1 | 1 | 0 | 7 |
-| [dp-bitmask](topics/dp-bitmask.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [dp-digit](topics/dp-digit.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
+| [dp-bitmask](topics/dp-bitmask.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
+| [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-fibonacci](topics/dp-fibonacci.md) | 2 | 3 | 3 | 0 | 0 | 0 | 8 |
 | [dp-game-theory](topics/dp-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-grid-path](topics/dp-grid-path.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [dp-kadane](topics/dp-kadane.md) | 5 | 1 | 0 | 0 | 0 | 0 | 6 |
-| [dp-knapsack](topics/dp-knapsack.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
+| [dp-interval](topics/dp-interval.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
+| [dp-kadane](topics/dp-kadane.md) | 3 | 1 | 0 | 0 | 0 | 0 | 4 |
+| [dp-knapsack](topics/dp-knapsack.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
 | [dp-lcs](topics/dp-lcs.md) | 10 | 1 | 0 | 0 | 0 | 0 | 11 |
 | [dp-lis](topics/dp-lis.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-probability](topics/dp-probability.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-state-machine](topics/dp-state-machine.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [dp-string](topics/dp-string.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [dp-tree](topics/dp-tree.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [dynamic-programming](topics/dynamic-programming.md) | 8 | 2 | 0 | 0 | 0 | 0 | 10 |
+| [dp-tree](topics/dp-tree.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
+| [dynamic-programming](topics/dynamic-programming.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 5 | 1 | 2 | 0 | 5 | 0 | 13 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -495,10 +495,10 @@
 | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 Hard | [C++](problems/0085.md) | dp-grid-path |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | [C++](problems/0091.md) | dp-fibonacci |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | 🟡 Medium | [C++](problems/0095.md) | dp-interval |
-| 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | [C++](problems/0096.md) | dynamic-programming |
+| 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | [C++](problems/0096.md) | dp-interval |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | [C++](problems/0097.md) | dp-lcs |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | [C++](problems/0115.md) | dp-lcs |
-| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](problems/0118.md) | dp-kadane |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | [C++](problems/0118.md) | dynamic-programming |
 | 120 | [Triangle](https://leetcode.com/problems/triangle/) | 🟡 Medium | [C++](problems/0120.md) | dp-grid-path |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | [C++](problems/0121.md) | dp-state-machine |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium | [C++](problems/0122.md) | dp-state-machine |
@@ -515,7 +515,7 @@
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | [C++](problems/0312.md) | dp-interval |
 | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | [C++](problems/0313.md) | dynamic-programming |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | [C++](problems/0322.md) | dp-knapsack |
-| 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | [C++](problems/0337.md) | dynamic-programming |
+| 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | [C++](problems/0337.md) | dp-tree |
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | 🔴 Hard | [C++](problems/0354.md) | dp-lis |
 | 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | 🟡 Medium | [C++](problems/0375.md) | dp-interval |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | [C++](problems/0377.md) | dp-knapsack |
@@ -555,7 +555,7 @@
 | 1039 | [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) | 🟡 Medium | [C++](problems/1039.md) | dp-interval |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | [C++](problems/1049.md) | dp-knapsack |
 | 1092 | [Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | 🔴 Hard | [C++](problems/1092.md) | dp-lcs |
-| 1125 | [Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) | 🔴 Hard | [C++](problems/1125.md) | dp-digit |
+| 1125 | [Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) | 🔴 Hard | [C++](problems/1125.md) | dp-bitmask |
 | 1130 | [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | 🟡 Medium | [C++](problems/1130.md) | dp-interval |
 | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 🟡 Medium | [C++](problems/1140.md) | dp-game-theory |
 | 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 Medium | [C++](problems/1277.md) | dp-grid-path |
@@ -563,11 +563,11 @@
 | 1373 | [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) | 🔴 Hard | [C++](problems/1373.md) | dp-tree |
 | 1406 | [Stone Game III](https://leetcode.com/problems/stone-game-iii/) | 🔴 Hard | [C++](problems/1406.md) | dp-game-theory |
 | 1425 | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/) | 🔴 Hard | [C++](problems/1425.md) | dp-subsequences |
-| 1434 | [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) | 🔴 Hard | [C++](problems/1434.md) | dp-digit |
+| 1434 | [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) | 🔴 Hard | [C++](problems/1434.md) | dp-bitmask |
 | 1467 | [Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) | 🔴 Hard | [C++](problems/1467.md) | dp-probability |
 | 1510 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 🔴 Hard | [C++](problems/1510.md) | dp-game-theory |
 | 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | [C++](problems/1567.md) | dp-kadane |
-| 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | [C++](problems/1641.md) | dp-kadane |
+| 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | [C++](problems/1641.md) | dynamic-programming |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | [C++](problems/1668.md) | dynamic-programming |
 | 1964 | [Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | 🔴 Hard | [C++](problems/1964.md) | dp-lis |
 | 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | 🟡 Medium | [C++](problems/1986.md) | dp-bitmask |
@@ -576,7 +576,7 @@
 | 2246 | [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/) | 🔴 Hard | [C++](problems/2246.md) | dp-tree |
 | 2266 | [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | 🟡 Medium | [C++](problems/2266.md) | dp-fibonacci |
 | 2376 | [Count Special Integers](https://leetcode.com/problems/count-special-integers/) | 🔴 Hard | [C++](problems/2376.md) | dp-digit |
-| 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | [C++](problems/2707.md) | dynamic-programming |
+| 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | [C++](problems/2707.md) | dp-knapsack |
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | [C++](problems/2826.md) | dp-lis |
 
 <a id="shengshu-greedy"></a>

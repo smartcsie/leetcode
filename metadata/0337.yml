@@ -8,7 +8,7 @@ solutions:
   - Tree
   - DP
   topics:
-  - dynamic-programming
+  - dp-tree
   time: O(N)
   space: O(H)
   familiarity: 生疏

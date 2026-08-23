@@ -8,7 +8,7 @@ solutions:
   - Dynamic Programming
   - Hash Set
   topics:
-  - dynamic-programming
+  - dp-knapsack
   time: O(N³)
   space: O(N+D)
   familiarity: 生疏

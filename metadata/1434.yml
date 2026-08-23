@@ -7,7 +7,7 @@ solutions:
   tags:
   - Dp Digit
   topics:
-  - dp-digit
+  - dp-bitmask
   time: O(40
   space: O(40
   familiarity: 生疏

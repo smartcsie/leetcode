@@ -16,8 +16,7 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Dynamic Programming
-  topics:
-  - dynamic-programming
+  topics: []
   time: O(N)
   space: O(N)
   familiarity: 再練習

@@ -1,6 +1,6 @@
 # dp-knapsack
 
-## 🔴 生疏（11）
+## 🔴 生疏（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,6 +15,7 @@
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | Dp Knapsack | [C++](../problems/0983.md) | O(D log D)，D 為 days 的長度（每天都要做一次二分搜尋） | O(D) |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/1049.md) | O(N\*S) | O(S) |
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 Hard | Dp Knapsack | [C++](../problems/2035.md) | O(N | O(2^(N/2)) |
+| 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | Dynamic Programming, Hash Set | [C++](../problems/2707.md) | O(N³) | O(N+D) |
 
 ## 🟠 再練習（0）
 
