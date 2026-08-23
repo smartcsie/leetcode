@@ -1,0 +1,13 @@
+number: 1631
+title: Path With Minimum Effort
+url: https://leetcode.com/problems/path-with-minimum-effort/
+solutions:
+- file: Solution_1631.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Graph
+  topics:
+  - greedy-graph
+  time: O(M
+  space: O(M
+  familiarity: 生疏

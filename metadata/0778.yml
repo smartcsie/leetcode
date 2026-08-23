@@ -1,0 +1,13 @@
+number: 778
+title: Swim in Rising Water
+url: https://leetcode.com/problems/swim-in-rising-water/
+solutions:
+- file: Solution_0778.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Greedy Graph
+  topics:
+  - greedy-graph
+  time: O(N² log N)
+  space: O(N²)
+  familiarity: 生疏
