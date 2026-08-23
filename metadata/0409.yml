@@ -8,7 +8,7 @@ solutions:
   - Hash Table
   - Greedy
   topics:
-  - greedy
+  - greedy-frequency-merging
   time: O(N)
   space: O(K)
   note: '> [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)<br>

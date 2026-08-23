@@ -7,7 +7,7 @@ solutions:
   tags:
   - Greedy
   topics:
-  - greedy
+  - greedy-string-construction
   time: O(N)
   space: O(1)
   familiarity: 再練習

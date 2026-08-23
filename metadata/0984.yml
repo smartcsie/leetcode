@@ -9,7 +9,7 @@ solutions:
   - Recursion
   - String Construction
   topics:
-  - greedy
+  - greedy-string-construction
   time: O(A + B)
   space: O(A + B)
   familiarity: 練習過

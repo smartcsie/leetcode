@@ -9,7 +9,7 @@ solutions:
   - Math
   - String
   topics:
-  - greedy
+  - greedy-parity-contribution
   time: O(N)
   space: O(1)
   familiarity: 易忘

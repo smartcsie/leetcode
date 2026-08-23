@@ -8,7 +8,7 @@ solutions:
   - Greedy
   - Partition by Parity
   topics:
-  - greedy
+  - greedy-digit-construction
   time: O(DlogD)
   space: O(D)
   note: '> [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)<br>

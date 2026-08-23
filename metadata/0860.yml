@@ -8,7 +8,7 @@ solutions:
   - Greedy
   - Simulation
   topics:
-  - greedy
+  - greedy-coin-change
   time: O(N)
   space: O(1)
   familiarity: 再練習

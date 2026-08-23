@@ -7,7 +7,7 @@ solutions:
   tags:
   - Greedy Coin Change
   topics:
-  - greedy-coin-change
+  - greedy
   time: O(N)
   space: O(1)
   familiarity: 生疏

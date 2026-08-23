@@ -10,7 +10,7 @@ solutions:
   - Greedy
   - Sorting
   topics:
-  - greedy
+  - greedy-selection-constraints
   time: O(N+M)
   space: O(M)
   familiarity: 生疏

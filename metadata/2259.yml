@@ -8,7 +8,7 @@ solutions:
   - Greedy
   - String
   topics:
-  - greedy
+  - greedy-digit-construction
   time: O(N)
   space: O(N)
   familiarity: 生疏

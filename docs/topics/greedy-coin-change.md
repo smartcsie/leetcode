@@ -1,15 +1,14 @@
 # greedy-coin-change
 
-## 🔴 生疏（2）
+## 🔴 生疏（0）
+
+目前沒有標記為生疏的解法。
+
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1210 | [Minimum Moves to Reach Target With Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | 🔴 Hard | Greedy Coin Change | [C++](../problems/1210.md) | O(N²) | O(N²) |
-| 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 Medium | Greedy Coin Change | [C++](../problems/1551.md) | O(N) | O(1) |
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
+| 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 Easy | Greedy, Simulation | [C++](../problems/0860.md) | O(N) | O(1) |
 
 ## 🟡 練習過（0）
 
