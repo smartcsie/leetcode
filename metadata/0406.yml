@@ -1,0 +1,13 @@
+number: 406
+title: Queue Reconstruction by Height
+url: https://leetcode.com/problems/queue-reconstruction-by-height/
+solutions:
+- file: Solution_0406.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Sorting Decision
+  topics:
+  - greedy-sorting-decision
+  time: O(N²)
+  space: O(N)
+  familiarity: 生疏

@@ -1136,6 +1136,14 @@ function parseAndFill() {
     if (!space) space = extractHeaderField(code, '空間複雜度');
   }
 
+  // 額外支援在 header 註解裡直接寫「分類主題：xxx-slug」，這樣貼上 AI 回覆
+  // 時就能連分類主題、標籤都一起自動選好，不用每次都手動點選下拉選單。
+  // 只有在表格列沒有偵測到標籤時才用這個（表格列的優先權還是比較高）。
+  let topicSlugFromComment = '';
+  if (code && tagsRaw.length === 0) {
+    topicSlugFromComment = extractHeaderField(code, '分類主題').trim();
+  }
+
   if (!number) showToast('無法解析出題號，請手動填寫');
 
   document.getElementById('number').value = number;
@@ -1177,16 +1185,30 @@ function parseAndFill() {
   if (extraTags.length) block.querySelector('.sol-tags-custom').value = extraTags.join(', ');
 
   let topicNote;
-  if (tagPicked) {
-    syncTopicFromTag(select, topicSelect);   // 分類主題直接從選到的標籤同步過去，保證兩邊一致
-    const pickedSlug = topicSelect.selectedOptions[0] ? topicSelect.selectedOptions[0].value : null;
-    if (pickedSlug) {
-      topicNote = `👉 已自動猜測分類主題：${pickedSlug}（分類主題現在是單選，請確認是否正確，不對可自行從下拉選單改選）`;
-    } else {
-      topicNote = '👉 標籤有偵測到，但找不到對應的分類主題，請手動選擇。';
+  let topicPickedFromComment = false;
+  if (topicSlugFromComment) {
+    const topicOpt = Array.from(topicSelect.options).find(o => o.value === topicSlugFromComment);
+    if (topicOpt) {
+      Array.from(topicSelect.options).forEach(o => { o.selected = false; });
+      topicOpt.selected = true;
+      syncTagFromTopic(topicSelect, select); // 直接沿用既有的雙向同步函式，標籤會自動跟著選好
+      topicPickedFromComment = true;
+      topicNote = `👉 已從註解裡的「分類主題」自動選好：${topicSlugFromComment}（標籤也一併同步了，不對可自行改選）`;
     }
-  } else {
-    topicNote = '👉 無法自動猜測分類主題，請從下拉選單手動選擇。';
+  }
+
+  if (!topicPickedFromComment) {
+    if (tagPicked) {
+      syncTopicFromTag(select, topicSelect);   // 分類主題直接從選到的標籤同步過去，保證兩邊一致
+      const pickedSlug = topicSelect.selectedOptions[0] ? topicSelect.selectedOptions[0].value : null;
+      if (pickedSlug) {
+        topicNote = `👉 已自動猜測分類主題：${pickedSlug}（分類主題現在是單選，請確認是否正確，不對可自行從下拉選單改選）`;
+      } else {
+        topicNote = '👉 標籤有偵測到，但找不到對應的分類主題，請手動選擇。';
+      }
+    } else {
+      topicNote = '👉 無法自動猜測分類主題，請從下拉選單手動選擇。';
+    }
   }
 
   document.getElementById('parseStatus').innerHTML = status.map(s => `• ${s}`).join('<br>') +

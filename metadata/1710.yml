@@ -1,0 +1,13 @@
+number: 1710
+title: Maximum Units on a Truck
+url: https://leetcode.com/problems/maximum-units-on-a-truck/
+solutions:
+- file: Solution_1710.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy Sorting Decision
+  topics:
+  - greedy-sorting-decision
+  time: O(N log N)
+  space: O(1)
+  familiarity: 生疏
