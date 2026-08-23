@@ -1,0 +1,13 @@
+number: 1584
+title: Minimum Cost to Connect All Points
+url: https://leetcode.com/problems/minimum-cost-to-connect-all-points/
+solutions:
+- file: Solution_1584.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Graph
+  topics:
+  - greedy-graph
+  time: O(N²)
+  space: O(N)
+  familiarity: 生疏

@@ -1,0 +1,13 @@
+number: 787
+title: Cheapest Flights Within K Stops
+url: https://leetcode.com/problems/cheapest-flights-within-k-stops/
+solutions:
+- file: Solution_0787.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Graph
+  topics:
+  - greedy-graph
+  time: O(K
+  space: O(N)
+  familiarity: 生疏
