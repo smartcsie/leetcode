@@ -16,30 +16,26 @@
 
 class Solution {
 private:
-    long long secMin; // 使用 long long 避免溢位並作為「未找到」的標記
-
-    void dfs(TreeNode* root, int minVal) {
-        if (!root) return;
-
-        // 若找到比 minVal 大且比當前 secMin 小的值，更新 secMin
-        if (root->val > minVal && root->val < secMin) {
-            secMin = root->val;
-        } 
-        // 只有在當前節點值仍等於最小值時，才需要往子樹尋找
-        // 若 root->val > secMin，則無需再遞迴，實現剪枝
-        else if (root->val == minVal) {
-            dfs(root->left, minVal);
-            dfs(root->right, minVal);
-        }
+    void dfs(TreeNode* root, unordered_set<int>& sets) {
+        if(!root) return;
+        sets.insert(root->val);
+        dfs(root->left, sets);
+        dfs(root->right, sets);
     }
-
 public:
     int findSecondMinimumValue(TreeNode* root) {
-        if (!root) return -1;
-        
-        secMin = LLONG_MAX; // 每次呼叫時重置，保證多執行緒或重複呼叫下的安全性
-        dfs(root, root->val);
-        
-        return (secMin == LLONG_MAX) ? -1 : (int)secMin;
+        unordered_set<int> sets;
+        dfs(root, sets);
+        if(sets.size() < 2) return -1;
+        long first = LONG_MAX, second = LONG_MAX;
+        for(const int& x : sets) {
+            if(x < first) {
+                second = first;
+                first = x;
+            } else if(x < second) {
+                second = x;
+            }
+        }
+        return second;
     }
 };
