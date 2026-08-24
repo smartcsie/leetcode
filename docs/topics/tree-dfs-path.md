@@ -1,12 +1,11 @@
 # tree-dfs-path
 
-## 🔴 生疏（23）
+## 🔴 生疏（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | Tree, DFS | [C++](../problems/0114.md) | O(N) | O(H) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | Tree, Recursion, DP | [C++](../problems/0124.md) | O(N) | O(H) |
-| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree, DFS | [C++](../problems/0144.md) | O(N) | O(H) |
 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 Easy | Tree, DFS | [C++](../problems/0145.md) | O(N) | O(H) |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | Tree, Stack | [C++](../problems/0173.md) | O(1) avg | O(H) |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree, DFS | [C++](../problems/0404.md) | O(N) | O(H) |
@@ -39,11 +38,12 @@
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 Medium | Tree Dfs Path, DFS, Backtracking | [C++](../problems/0113.md) | O(N) | O(H) |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | 🟢 Easy | Tree Dfs Path, DFS, Tree Traversal | [C++](../problems/1379.md) | O(N) | O(H) |
 
-## 🟡 練習過（4）
+## 🟡 練習過（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Stack, Tree, DFS | [C++](../problems/0094.md) | O(N) | O(H) |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0144.md) | O(N) | O(H) |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟢 Easy | Tree Dfs Path, DFS, Binary Search | [C++](../problems/0222.md) | O(log²N) | O(logN) |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0965.md) | O(N) | O(H) |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/1448.md) | O(N) | O(H) |
