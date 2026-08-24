@@ -5,11 +5,11 @@ solutions:
 - file: Solution_1305.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Tree Dfs Path
   - In-order Traversal
   - Two Pointers
   topics:
   - tree-dfs-path
   time: O(N+M)
   space: O(N+M)
-  familiarity: 生疏
+  familiarity: 練習過
