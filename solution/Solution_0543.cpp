@@ -1,18 +1,52 @@
 /**
- * 註解：待補充
+ * 題目：543. Diameter of Binary Tree
+ * 難度：簡單 (Easy)
+ * 分類主題：dp-tree
+ * 描述：給定一棵二元樹，求任意兩個節點之間最長路徑的「邊數」（不一定
+ * 要經過根節點），這個最長路徑長度就是「直徑」。
+ *
+ * 時間複雜度：O(N)
+ * 空間複雜度：O(H)
+ *
+ * 解法思路：
+ * （Tree DP，跟之前的 968/1373/2246 是同一個家族：後序遍歷，讓每個
+ * 節點一邊回傳「自己往下延伸的高度」給父節點用，一邊順手更新一個
+ * 全域最大值）：
+ * 1. dfs(root) 回傳「以 root 為起點，往下走能到達的最長路徑長度」
+ *    （這裡用「節點數」的概念計算，最後回傳 `1 + max(left, right)`，
+ *    也就是自己這一個節點，加上左右兩邊「往下延伸較長」的那一條）。
+ * 2. **關鍵技巧**：直徑不是「往下延伸的高度」，而是「以某個節點為
+ *    最高點，左右兩邊各自往下延伸，加起來的長度」——這代表最長直徑
+ *    很可能不是以根節點為端點，而是在樹的某個「中間節點」左右兩邊
+ *    延伸出去的路徑組合而成。所以不能只看 dfs 的回傳值，要在遞迴
+ *    過程中，對「每一個」節點都檢查一次「left + right」（這個節點
+ *    左邊能延伸多長、右邊能延伸多長，加起來就是經過這個節點的最長
+ *    路徑），用一個全域變數 diameter 持續更新看過的最大值。
+ * 3. left、right 各自是左右子樹「往下延伸的高度」（不含 root 自己），
+ *    left + right 剛好就是「以 root 為最高點，貫穿左右兩邊」的路徑
+ *    邊數（因為 left 條邊通到左邊最深處、right 條邊通到右邊最深處，
+ *    加起來就是這條路徑總共經過幾條邊）。
+ * 4. base case：空節點回傳 0（沒有節點，往下延伸的高度是 0）。
+ * 5. 用參考傳遞（`int& diameter`）讓遞迴過程中可以直接修改外層的
+ *    變數，不用額外用回傳值把「最大直徑」跟「往下延伸的高度」這兩種
+ *    不同意義的數字混在一起處理。
+ * 6. 主函式只需要呼叫一次 dfs，最終 diameter 累積的就是整棵樹的答案
+ *    （dfs 本身的回傳值在主函式裡沒有被使用，因為外層只關心過程中
+ *    順手更新出來的 diameter）。
  */
 class Solution {
+private:
+    int dfs(TreeNode* root, int& diameter) {
+        if(!root) return 0;
+        int left = dfs(root->left, diameter);
+        int right = dfs(root->right, diameter);
+        diameter = max(diameter, left + right);
+        return 1 + max(left, right);
+    }
 public:
     int diameterOfBinaryTree(TreeNode* root) {
         int diameter = 0;
-        auto dfs = [&](this auto&& dfs, TreeNode* root) -> int {
-            if(!root) return 0;
-            int l = dfs(root->left);
-            int r = dfs(root->right);
-            diameter = max (diameter, l + r);
-            return 1 + max(l , r);
-        };
-        dfs(root);
+        dfs(root, diameter);
         return diameter;
     }
 };
