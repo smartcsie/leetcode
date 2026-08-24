@@ -19,7 +19,7 @@
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> res;
+        vector<int> ans;
         stack<TreeNode*> st;
         TreeNode* cur = root;
         while (cur != nullptr || !st.empty()) {
@@ -29,10 +29,10 @@ public:
             } else {
                 cur = st.top();  
                 st.pop();
-                res.push_back(cur->val);
+                ans.push_back(cur->val);
                 cur = cur->right;        
             }
         }
-        return res;
+        return ans;
     }
 };
