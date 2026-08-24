@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0617.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree
+  - Tree Dfs Path
   - DFS
   - Recursion
   topics:
   - tree-dfs-path
   time: O(min(N,M))
   space: O(min(N,M))
-  familiarity: 生疏
+  familiarity: 練習過
