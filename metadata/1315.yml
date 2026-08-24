@@ -5,11 +5,12 @@ solutions:
 - file: Solution_1315.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Tree Dfs Path
   - DFS
   - Recursion
   topics:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> 不用帶grandpa和parent的node，只要帶grandpa和parent的value<br>'

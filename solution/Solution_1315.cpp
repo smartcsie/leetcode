@@ -20,16 +20,16 @@
  */
 class Solution {
 private:
-    void dfs(TreeNode* root, TreeNode* parent, TreeNode* grandpa, int& ans) {
+    void dfs(TreeNode* root, int parent, int grandpa, int& sum) {
         if(!root) return;
-        if(grandpa && (grandpa->val % 2) == 0) ans += root->val;
-        if(root->left) dfs(root->left, root, parent, ans);
-        if(root->right) dfs(root->right, root, parent, ans);
+        if(grandpa!= -1 && (grandpa % 2) == 0) sum += root->val;
+        dfs(root->left, root->val , parent, sum);
+        dfs(root->right, root->val, parent, sum);
     }
 public:
     int sumEvenGrandparent(TreeNode* root) {
-        int ans = 0;
-        dfs(root, nullptr, nullptr, ans);
-        return ans;
+        int sum = 0;
+        dfs(root, -1, -1, sum);
+        return sum;
     }
 };
