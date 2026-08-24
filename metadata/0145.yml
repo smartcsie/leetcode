@@ -11,7 +11,7 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 練習過
 - file: Solution_0145.cpp
   difficulty: 🟢 Easy
   tags:
