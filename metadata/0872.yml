@@ -12,3 +12,4 @@ solutions:
   time: O(N+M)
   space: O(N+M)
   familiarity: 練習過
+  note: '> preorder，inorder，postorder都可以'
