@@ -5,11 +5,10 @@ solutions:
 - file: Solution_0860.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy
-  - Simulation
+  - Greedy Coin Change
   topics:
   - greedy-coin-change
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 練習過
   note: '> 因為Greedy，收到20元最佳策略要先找1個10元+1個5元，不能先找3個5元，因為5元是非常珍費的'
