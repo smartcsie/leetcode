@@ -15,3 +15,5 @@ solutions:
 
     > 如果p q 都為空，回傳true，只有p或只有或兩個val不相等，回傳false，最後return isSameTree(p左子樹和q左子樹) 且 isSameTree(p右子樹和q右子樹)<br>'
   is_best: true
+  related:
+  - 572
