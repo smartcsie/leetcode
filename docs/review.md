@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（457）](#review-shengshu)　[🟣 易忘清單（35）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（457）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 976 題　🔴 生疏：450 題　🟠 再練習：186 題　🟡 練習過：29 題　🟣 易忘：34 題　🟢 熟練：277 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 976 題　🔴 生疏：450 題　🟠 再練習：186 題　🟡 練習過：30 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -108,7 +108,7 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 8 | 0 | 2 | 0 | 4 | 0 | 14 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 3 | 1 | 1 | 1 | 10 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 3 | 1 | 2 | 0 | 10 | 0 | 16 |
 | [tree-dfs-path](topics/tree-dfs-path.md) | 21 | 6 | 6 | 0 | 7 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
@@ -711,9 +711,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 35 個解法標記為易忘，建議面試前重點複習。
+目前共有 34 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（17）](#yiwang-math)　[📊 Bit Manipulation（4）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（1）](#yiwang-array)　[🌳 Tree（1）](#yiwang-tree)　[👥 Pointers（4）](#yiwang-pointers)　[🧩 Greedy（6）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（17）](#yiwang-math)　[📊 Bit Manipulation（4）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（1）](#yiwang-array)　[👥 Pointers（4）](#yiwang-pointers)　[🧩 Greedy（6）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -768,13 +768,6 @@
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | [C++](problems/1588.md) | array-prefix-sum |
-
-<a id="yiwang-tree"></a>
-#### 🌳 Tree（1）
-
-| # | 題目 | 難度 | 解法檔案 | 分類 |
-| --- | --- | --- | --- | --- |
-| 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | [C++](problems/0637.md) | tree-bfs-level-order |
 
 <a id="yiwang-pointers"></a>
 #### 👥 Pointers（4）

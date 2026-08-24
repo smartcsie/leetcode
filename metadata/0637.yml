@@ -11,7 +11,7 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 易忘
+  familiarity: 練習過
   note: '> sum要用double，否則會overflow<br>
 
     > if(!root) return {};保證至少一個node，永遠不會執行到<br>'
