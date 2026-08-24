@@ -12,3 +12,4 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 再練習
+  note: '> else if(root->val < sec && root->val > min)，其中root->val > min要去掉重覆值<br>'
