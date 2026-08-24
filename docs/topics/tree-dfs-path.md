@@ -1,9 +1,10 @@
 # tree-dfs-path
 
-## 🔴 生疏（21）
+## 🔴 生疏（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0094.md) |  |  |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | Tree, DFS | [C++](../problems/0114.md) | O(N) | O(H) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | Tree, Recursion, DP | [C++](../problems/0124.md) | O(N) | O(H) |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | Tree, Stack | [C++](../problems/0173.md) | O(1) avg | O(H) |
