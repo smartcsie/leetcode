@@ -17,25 +17,27 @@ public:
         if(!root) return {};
         deque<TreeNode*> q({root});
         vector<vector<int>> ans;
+        bool leftToRight = true;
         while(!q.empty()) {
-            vector<int> level;
-            for(int i = q.size() - 1; i >= 0 ; i--) {
+            vector<int> row;
+            for(int i = q.size() - 1; i >= 0; i--) {
                  TreeNode* node;
-                if(ans.size() % 2 == 0) {
-                    node = q.front();
+                if(leftToRight) {
+                    node= q.front();
                     q.pop_front();
-                    level.push_back(node->val);
+                    row.push_back(node->val);
                     if(node->left) q.push_back(node->left);
                     if(node->right) q.push_back(node->right);
                 } else {
                     node = q.back();
                     q.pop_back();
-                    level.push_back(node->val);
+                    row.push_back(node->val);
                     if(node->right) q.push_front(node->right);
                     if(node->left) q.push_front(node->left);
                 }
             }
-            ans.push_back(level);
+            leftToRight = !leftToRight;
+            ans.push_back(row);
         }
         return ans;
     }
