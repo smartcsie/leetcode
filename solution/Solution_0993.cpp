@@ -29,7 +29,7 @@ public:
                 if(node->left) q.push({node, node->left}); 
                 if(node->right) q.push({node, node->right}); 
             }
-            if(pairX.second != -1 && pairY.second != -1)
+            if(pairX.second != -1 || pairY.second != -1)
                 return pairX.first != pairY.first && pairX.second == pairY.second;
             depth++;
         }
