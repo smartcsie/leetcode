@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（461）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（460）](#review-shengshu)　[🟣 易忘清單（34）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 976 題　🔴 生疏：454 題　🟠 再練習：187 題　🟡 練習過：25 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 976 題　🔴 生疏：453 題　🟠 再練習：187 題　🟡 練習過：26 題　🟣 易忘：33 題　🟢 熟練：277 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -107,9 +107,9 @@
 | [string-substring](topics/string-substring.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [tree](topics/tree.md) | 10 | 0 | 0 | 0 | 4 | 0 | 14 |
+| [tree](topics/tree.md) | 9 | 0 | 1 | 0 | 4 | 0 | 14 |
 | [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 4 | 2 | 0 | 0 | 10 | 0 | 16 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 24 | 6 | 3 | 0 | 7 | 0 | 40 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 23 | 6 | 4 | 0 | 7 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 2 | 3 | 1 | 4 | 6 | 0 | 16 |
@@ -125,9 +125,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 461 個解法標記為生疏，建議找時間重新練習。
+目前共有 460 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（45）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（58）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（44）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（26）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（25）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（58）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（22）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -248,11 +248,10 @@
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | [C++](problems/3969.md) | array |
 
 <a id="shengshu-tree"></a>
-#### 🌳 Tree（45）
+#### 🌳 Tree（44）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | [C++](problems/0094.md) | tree |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | [C++](problems/0099.md) | binary-search-tree |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | [C++](problems/0105.md) | tree |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | [C++](problems/0106.md) | tree |

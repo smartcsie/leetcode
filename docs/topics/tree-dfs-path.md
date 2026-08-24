@@ -39,10 +39,11 @@
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 Medium | Tree Dfs Path, DFS, Backtracking | [C++](../problems/0113.md) | O(N) | O(H) |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | 🟢 Easy | Tree Dfs Path, DFS, Tree Traversal | [C++](../problems/1379.md) | O(N) | O(H) |
 
-## 🟡 練習過（3）
+## 🟡 練習過（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Stack, Tree, DFS | [C++](../problems/0094.md) | O(N) | O(H) |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟢 Easy | Tree Dfs Path, DFS, Binary Search | [C++](../problems/0222.md) | O(log²N) | O(logN) |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0965.md) | O(N) | O(H) |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/1448.md) | O(N) | O(H) |
@@ -51,11 +52,10 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Stack, Tree, DFS | [C++](../problems/0094.md) | O(N) | O(H) |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0104.md) | O(N) | O(H) |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path, DFS | [C++](../problems/0129.md) | O(N) | O(H) |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-path) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0257.md) | O(N²) | O(H²) |
