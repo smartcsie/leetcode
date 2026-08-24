@@ -1,6 +1,6 @@
 # tree-dfs-path
 
-## 🔴 生疏（17）
+## 🔴 生疏（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +10,6 @@
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | Tree, Stack | [C++](../problems/0173.md) | O(1) avg | O(H) |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | DFS, Prefix Sum | [C++](../problems/0437.md) | O(N) | O(H) |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | 🟢 Easy | DFS, Post-order | [C++](../problems/0563.md) | O(N) | O(H) |
-| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree, DFS | [C++](../problems/0572.md) | O(N\*M) | O(H) |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree, DFS | [C++](../problems/0606.md) | O(N) | O(H) |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | Tree, DFS, Recursion | [C++](../problems/0617.md) | O(min(N,M)) | O(min(N,M)) |
 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 Easy | Tree, DFS | [C++](../problems/0671.md) | O(N) | O(H) |
@@ -50,11 +49,12 @@
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/1315.md) | O(N) | O(H) |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/1448.md) | O(N) | O(H) |
 
-## 🟣 易忘（1）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0404.md) | O(N) | O(H) |
+| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0572.md) | O(N\*M) | O(H) |
 
 ## 🟢 熟悉（7）
 
