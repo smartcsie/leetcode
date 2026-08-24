@@ -13,3 +13,12 @@ solutions:
   space: O(W)
   familiarity: 再練習
   note: '> deque'
+- file: Solution_0103_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree Bfs Level Order
+  topics:
+  - tree-bfs-level-order
+  time: O(N)
+  space: O(N)
+  familiarity: 再練習
