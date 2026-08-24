@@ -14,29 +14,23 @@
 class Solution {
 public:
     bool isCousins(TreeNode* root, int x, int y) {
+        if(!root) return false;
         queue<pair<TreeNode*, TreeNode*>> q;
         q.push({nullptr, root});
-        TreeNode *xParent = nullptr, *yParent = nullptr;
-        int xDepth = -1, yDepth = -1;
+        pair<TreeNode*, int> pairX({nullptr, -1});
+        pair<TreeNode*, int> pairY({nullptr, -1});
         int depth = 0;
         while(!q.empty()) {
             for(int i = q.size() - 1; i >= 0; i--) {
-                auto [parent, node] = q.front();
+                auto[parent, node] = q.front();
                 q.pop();
-                if(node-> val == x) {
-                    xParent = parent;
-                    xDepth = depth;
-                }
-                if(node-> val == y) { 
-                    yParent = parent;
-                    yDepth = depth;
-                }
-                if(node->left) q.push({node, node->left});
-                if(node->right) q.push({node, node->right});
+                if(node->val == x) pairX = {parent, depth};
+                if(node->val == y) pairY = {parent, depth};
+                if(node->left) q.push({node, node->left}); 
+                if(node->right) q.push({node, node->right}); 
             }
-            if(xDepth != -1 && yDepth != -1) {
-                return (xParent != yParent) && xDepth == yDepth;
-            }
+            if(pairX.second != -1 && pairY.second != -1)
+                return pairX.first != pairY.first && pairX.second == pairY.second;
             depth++;
         }
         return false;
