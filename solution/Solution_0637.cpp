@@ -10,27 +10,21 @@
 class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
-        if (!root) return {}; // 邊界檢查
-
-        vector<double> res;
-        queue<TreeNode*> q;
-        q.push(root);
-
-        while (!q.empty()) {
-            int nodeCount = q.size();
-            double levelSum = 0.0;
-
-            for (int i = 0; i < nodeCount; ++i) {
+        if(!root) return {0.0};
+        queue<TreeNode*> q({root});
+        vector<double> ans;
+        while(!q.empty()) {
+            double sum = 0;
+            int count = q.size();
+            for(int i = q.size() - 1; i >= 0; i--) {
                 TreeNode* node = q.front();
                 q.pop();
-                
-                levelSum += node->val; // 使用 double 累加避免溢位
-                
-                if (node->left) q.push(node->left);
-                if (node->right) q.push(node->right);
+                sum += static_cast<double>(node->val);
+                if(node->left) q.push(node->left);
+                if(node->right) q.push(node->right);
             }
-            res.push_back(levelSum / nodeCount);
+            ans.push_back(sum / count);
         }
-        return res;
+        return ans;
     }
 };
