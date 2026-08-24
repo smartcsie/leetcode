@@ -26,3 +26,12 @@ solutions:
 
     root為空則return，把root->val加入到result vector，遞迴左子樹，遞迴右子樹<br>'
   is_best: true
+- file: Solution_0144_2.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree Dfs Path
+  topics:
+  - tree-dfs-path
+  time: ''
+  space: ''
+  familiarity: 練習過
