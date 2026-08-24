@@ -12,4 +12,6 @@ solutions:
   time: O(N)
   space: O(W)
   familiarity: 易忘
-  note: '> levelSum要用double，否則會overflow'
+  note: '> sum要用double，否則會overflow<br>
+
+    > if(!root) return {};保證至少一個node，永遠不會執行到<br>'
