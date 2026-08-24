@@ -12,5 +12,5 @@ solutions:
   - tree
   time: O(min(N1, N2))
   space: O(min(N1, N2))
-  familiarity: 生疏
+  familiarity: 易忘
   is_best: true
