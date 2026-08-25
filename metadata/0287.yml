@@ -5,13 +5,13 @@ solutions:
 - file: Solution_0287.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Fast Slow Pointers
   - Fast-Slow Pointers
   topics:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> Floyd''s Tortoise and Hare（快慢指標找環）'
 - file: Solution_0287_1.cpp
   difficulty: 🟡 Medium
