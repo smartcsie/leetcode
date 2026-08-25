@@ -34,6 +34,6 @@ solutions:
   - Tree Dfs Path
   topics:
   - tree-dfs-path
-  time: ''
-  space: ''
+  time: O(N)
+  space: O(H)
   familiarity: 生疏
