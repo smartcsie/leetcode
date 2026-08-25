@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 976 題　🔴 生疏：439 題　🟠 再練習：187 題　🟡 練習過：38 題　🟣 易忘：35 題　🟢 熟練：277 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 976 題　🔴 生疏：439 題　🟠 再練習：186 題　🟡 練習過：39 題　🟣 易忘：35 題　🟢 熟練：277 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -109,7 +109,7 @@
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 7 | 0 | 2 | 1 | 4 | 0 | 14 |
 | [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 3 | 1 | 2 | 0 | 10 | 0 | 16 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 11 | 7 | 14 | 1 | 7 | 0 | 40 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 11 | 6 | 15 | 1 | 7 | 0 | 40 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 2 | 3 | 1 | 4 | 6 | 0 | 16 |
