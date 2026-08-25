@@ -118,20 +118,20 @@ nav:
   - 🧩 Dynamic Programming:
       - dp-string: topics/dp-string.md
       - dp-kadane: topics/dp-kadane.md
-      - dynamic-programming: topics/dynamic-programming.md
       - dp-grid-path: topics/dp-grid-path.md
       - dp-fibonacci: topics/dp-fibonacci.md
       - dp-lcs: topics/dp-lcs.md
       - dp-interval: topics/dp-interval.md
+      - dynamic-programming: topics/dynamic-programming.md
       - dp-state-machine: topics/dp-state-machine.md
       - dp-knapsack: topics/dp-knapsack.md
       - dp-digit: topics/dp-digit.md
       - dp-lis: topics/dp-lis.md
+      - dp-tree: topics/dp-tree.md
       - dp-subsequences: topics/dp-subsequences.md
       - dp-game-theory: topics/dp-game-theory.md
       - dp-probability: topics/dp-probability.md
       - dp-bitmask: topics/dp-bitmask.md
-      - dp-tree: topics/dp-tree.md
   - 🧩 Greedy:
       - greedy-prefix-suffix: topics/greedy-prefix-suffix.md
       - greedy-fractional-knapsack: topics/greedy-fractional-knapsack.md
@@ -164,7 +164,10 @@ nav:
   - 🎨 Design:
       - design: topics/design.md
   - 📊 Sorting:
+      - sorting-algorithm-implementation: topics/sorting-algorithm-implementation.md
       - sorting: topics/sorting.md
+      - sorting-custom-comparator: topics/sorting-custom-comparator.md
+      - sorting-counting-sort: topics/sorting-counting-sort.md
       - sorting-cycle-decomposition: topics/sorting-cycle-decomposition.md
   - 📚 Priority Queue:
       - priority-queue: topics/priority-queue.md
