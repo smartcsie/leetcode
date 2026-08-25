@@ -97,10 +97,10 @@
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
 | [sorting](topics/sorting.md) | 5 | 0 | 1 | 0 | 3 | 0 | 9 |
-| [sorting-algorithm-implementation](topics/sorting-algorithm-implementation.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 5 | 4 | 0 | 0 | 2 | 0 | 11 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [sorting-implementation](topics/sorting-implementation.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [stack](topics/stack.md) | 5 | 2 | 0 | 0 | 8 | 0 | 15 |
@@ -444,14 +444,14 @@
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
-| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | [C++](problems/0148.md) | sorting-algorithm-implementation |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | [C++](problems/0164.md) | sorting-algorithm-implementation |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | [C++](problems/0148.md) | sorting-implementation |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | [C++](problems/0164.md) | sorting-implementation |
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | [C++](problems/0164.md) | sorting-radix-sort |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | [C++](problems/0179.md) | sorting-custom-comparator |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | [C++](problems/0451.md) | sorting-counting-sort |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | [C++](problems/0524.md) | sorting-custom-comparator |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | [C++](problems/0539.md) | sorting |
-| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | [C++](problems/0912.md) | sorting-algorithm-implementation |
+| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | [C++](problems/0912.md) | sorting-implementation |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | [C++](problems/1051.md) | sorting-counting-sort |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | [C++](problems/1122.md) | sorting-counting-sort |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | [C++](problems/1408.md) | sorting |

@@ -81,6 +81,16 @@ MOVES = [
 ]
 
 
+
+def to_list(value):
+    """把 None 或單一字串安全轉成清單，避免字串被逐字元拆解成 list(str)。"""
+    if value is None:
+        return []
+    if isinstance(value, str):
+        return [value]
+    return list(value)
+
+
 def apply_move(topics, old_topic, new_topic):
     """回傳 (新的 topics list, 是否有變動)"""
     if old_topic not in topics:
@@ -118,15 +128,20 @@ def main():
     for fpath in sorted(glob.glob(os.path.join(meta_dir, '*.yml'))):
         with open(fpath, encoding='utf-8') as f:
             data = yaml.safe_load(f)
-        if not data or data.get('number') not in moves_by_number:
+        if not data:
+            continue
+        try:
+            number = int(data.get('number'))
+        except (TypeError, ValueError):
+            continue
+        if number not in moves_by_number:
             continue
 
-        number = data['number']
         title = data.get('title', '')
         file_changed = False
 
         for sol in data.get('solutions', []):
-            topics = list(sol.get('topics') or [])
+            topics = to_list(sol.get('topics'))
             for old_topic, new_topic in moves_by_number[number]:
                 topics, changed = apply_move(topics, old_topic, new_topic)
                 if changed:

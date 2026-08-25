@@ -48,15 +48,25 @@ MOVES = [
     (3016, 'sorting', 'sorting-counting-sort'),
     (3517, 'sorting', 'sorting-counting-sort'),
 
-    # 移到 sorting-algorithm-implementation（手刻排序演算法本身）
-    (148, 'sorting', 'sorting-algorithm-implementation'),
-    (912, 'sorting', 'sorting-algorithm-implementation'),
+    # 移到 sorting-implementation（手刻排序演算法本身）
+    (148, 'sorting', 'sorting-implementation'),
+    (912, 'sorting', 'sorting-implementation'),
 
     # 移到 greedy-sorting-decision（排序後用貪心邏輯決定分組/選擇）
     (945, 'sorting', 'greedy-sorting-decision'),
     (2966, 'sorting', 'greedy-sorting-decision'),
     (3684, 'sorting', 'greedy-sorting-decision'),
 ]
+
+
+
+def to_list(value):
+    """把 None 或單一字串安全轉成清單，避免字串被逐字元拆解成 list(str)。"""
+    if value is None:
+        return []
+    if isinstance(value, str):
+        return [value]
+    return list(value)
 
 
 def apply_move(topics, old_topic, new_topic):
@@ -94,15 +104,20 @@ def main():
     for fpath in sorted(glob.glob(os.path.join(meta_dir, '*.yml'))):
         with open(fpath, encoding='utf-8') as f:
             data = yaml.safe_load(f)
-        if not data or data.get('number') not in moves_by_number:
+        if not data:
+            continue
+        try:
+            number = int(data.get('number'))
+        except (TypeError, ValueError):
+            continue
+        if number not in moves_by_number:
             continue
 
-        number = data['number']
         title = data.get('title', '')
         file_changed = False
 
         for sol in data.get('solutions', []):
-            topics = list(sol.get('topics') or [])
+            topics = to_list(sol.get('topics'))
             for old_topic, new_topic in moves_by_number[number]:
                 topics, changed = apply_move(topics, old_topic, new_topic)
                 if changed:

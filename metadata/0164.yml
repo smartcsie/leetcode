@@ -9,7 +9,7 @@ solutions:
   - Bucket Sort
   - Pigeonhole Principle
   topics:
-  - sorting-algorithm-implementation
+  - sorting-implementation
   time: O(N)
   space: O(N)
   familiarity: 生疏

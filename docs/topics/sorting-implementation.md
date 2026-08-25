@@ -1,4 +1,4 @@
-# sorting-algorithm-implementation
+# sorting-implementation
 
 ## 🔴 生疏（3）
 
