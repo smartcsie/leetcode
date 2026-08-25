@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（443）](#review-shengshu)　[🟣 易忘清單（38）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（444）](#review-shengshu)　[🟣 易忘清單（38）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 976 題　🔴 生疏：435 題　🟠 再練習：184 題　🟡 練習過：43 題　🟣 易忘：35 題　🟢 熟練：279 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 977 題　🔴 生疏：436 題　🟠 再練習：184 題　🟡 練習過：43 題　🟣 易忘：35 題　🟢 熟練：279 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -99,7 +99,7 @@
 | [sorting](topics/sorting.md) | 5 | 0 | 1 | 0 | 3 | 0 | 9 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 5 | 4 | 0 | 0 | 2 | 0 | 11 |
-| [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [sorting-implementation](topics/sorting-implementation.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
@@ -129,9 +129,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 443 個解法標記為生疏，建議找時間重新練習。
+目前共有 444 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（30）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（20）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（30）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（21）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -440,7 +440,7 @@
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | [C++](problems/0743.md) | graph-shortest-path |
 
 <a id="shengshu-sorting"></a>
-#### 📊 Sorting（20）
+#### 📊 Sorting（21）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -451,6 +451,7 @@
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | [C++](problems/0451.md) | sorting-counting-sort |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | [C++](problems/0524.md) | sorting-custom-comparator |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | [C++](problems/0539.md) | sorting |
+| 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | 🔴 Hard | [C++](problems/0765.md) | sorting-cycle-decomposition |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | [C++](problems/0912.md) | sorting-implementation |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | [C++](problems/1051.md) | sorting-counting-sort |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | [C++](problems/1122.md) | sorting-counting-sort |

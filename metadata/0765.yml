@@ -1,0 +1,13 @@
+number: 765
+title: Couples Holding Hands
+url: https://leetcode.com/problems/couples-holding-hands/
+solutions:
+- file: Solution_0765.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Sorting Cycle Decomposition
+  topics:
+  - sorting-cycle-decomposition
+  time: O(N α(N))
+  space: O(N)
+  familiarity: 生疏
