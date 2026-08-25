@@ -12,3 +12,21 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 生疏
+- file: Solution_0930_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array Prefix Sum
+  topics:
+  - array-prefix-sum
+  time: O(N^2)
+  space: O(N)
+  familiarity: 練習過
+- file: Solution_0930_2.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Variable Size Sliding Window
+  topics:
+  - variable-size-sliding-window
+  time: O(N)
+  space: O(1)
+  familiarity: 生疏
