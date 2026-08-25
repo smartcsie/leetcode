@@ -26,11 +26,12 @@
 | 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 Easy | String, Simulation, Math | [C++](../problems/2138.md) | O(N) | O(N) |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | Greedy, String | [C++](../problems/3798.md) | O(N) | O(1) |
 
-## 🟡 練習過（2）
+## 🟡 練習過（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 Easy | String, Two Pointers | [C++](../problems/1784.md) | O(N) | O(1) |
+| 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String, Sorting, Bucket Sort | [C++](../problems/1859.md) | O(N) | O(N) |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](../problems/2937.md) | O(min(L1,L2,L3)) | O(1) |
 
 ## 🟣 易忘（1）

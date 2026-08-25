@@ -9,7 +9,7 @@ solutions:
   - Sorting
   - Bucket Sort
   topics:
-  - sorting
+  - string
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過

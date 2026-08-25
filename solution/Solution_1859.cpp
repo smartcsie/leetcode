@@ -14,31 +14,21 @@
 class Solution {
 public:
     string sortSentence(string s) {
-        // 題目限制單字數最多 9 個，建立大小為 10 的陣列作為桶子
-        vector<string> buckets(10);
-        stringstream ss(s);
+        istringstream iss(s);
         string word;
-        int word_count = 0;
-        
-        while (ss >> word) {
-            // 取得最後一個字元並轉為整數索引
-            int pos = word.back() - '0';
-            // 移除末尾數字
+        vector<string> words(9);
+        int  n = 0;
+        while(iss >> word) {
+            int idx = word.back() - '0' - 1;
             word.pop_back();
-            // 放入對應位置
-            buckets[pos] = word;
-            word_count++;
+            words[idx] = word;
+            n++;
         }
-        
-        string res = "";
-        for (int i = 1; i <= word_count; ++i) {
-            res += buckets[i];
-            // 若不是最後一個單字，則補上空格
-            if (i < word_count) {
-                res += " ";
-            }
+        string ans;
+        for(int i = 0; i < n ; i++) {
+            ans += words[i];
+            if(i != n - 1) ans.push_back(' ');
         }
-        
-        return res;
+        return ans;
     }
 };
