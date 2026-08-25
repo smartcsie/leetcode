@@ -31,7 +31,6 @@ private:
 
 public:
     TreeNode* reverseOddLevels(TreeNode* root) {
-        if (!root) return nullptr;
         dfs(root->left, root->right, 1);
         return root;
     }

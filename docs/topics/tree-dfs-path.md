@@ -1,6 +1,6 @@
 # tree-dfs-path
 
-## 🔴 生疏（12）
+## 🔴 生疏（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,6 @@
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | 🟡 Medium | Tree, DFS | [C++](../problems/0988.md) | O(N) | O(H) |
 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/1026.md) | O(N) | O(H) |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 Medium | Tree, DFS, Post-order | [C++](../problems/1530.md) | O(N×D²) | O(H×D) |
-| 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree, DFS | [C++](../problems/2415.md) | O(N) | O(H) |
 
 ## 🟠 再練習（8）
 
@@ -30,7 +29,7 @@
 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0671.md) | O(N) | O(H) |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | 🟢 Easy | Tree Dfs Path, DFS, Tree Traversal | [C++](../problems/1379.md) | O(N) | O(H) |
 
-## 🟡 練習過（14）
+## 🟡 練習過（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -48,6 +47,7 @@
 | 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees) | 🟡 Medium | Tree Dfs Path, In-order Traversal, Two Pointers | [C++](../problems/1305.md) | O(N+M) | O(N+M) |
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/1315.md) | O(N) | O(H) |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/1448.md) | O(N) | O(H) |
+| 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS | [C++](../problems/2415.md) | O(N) | O(H) |
 
 ## 🟣 易忘（2）
 
