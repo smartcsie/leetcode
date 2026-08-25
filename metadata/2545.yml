@@ -3,12 +3,12 @@ title: Sort the Students by Their Kth Score
 url: https://leetcode.com/problems/sort-the-students-by-their-kth-score/
 solutions:
 - file: Solution_2545.cpp
-  difficulty: 🟢 Medium
+  difficulty: 🟡 Medium
   tags:
-  - Array
+  - Sorting
   - Sorting
   topics:
   - sorting
   time: O(NlogN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
