@@ -15,6 +15,7 @@ private:
     void dfs(TreeNode* root, string& res) {
         if(!root) return;
         res += to_string(root->val);
+        //如果右子樹存在，但左子樹是空的，左子樹必須保留一對空括號 ()
         if(root->left || root->right) {
             res.push_back('(');
             dfs(root->left, res);
