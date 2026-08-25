@@ -164,10 +164,11 @@ nav:
   - 🎨 Design:
       - design: topics/design.md
   - 📊 Sorting:
-      - sorting-algorithm-implementation: topics/sorting-algorithm-implementation.md
-      - sorting: topics/sorting.md
+      - sorting-implementation: topics/sorting-implementation.md
+      - sorting-radix-sort: topics/sorting-radix-sort.md
       - sorting-custom-comparator: topics/sorting-custom-comparator.md
       - sorting-counting-sort: topics/sorting-counting-sort.md
+      - sorting: topics/sorting.md
       - sorting-cycle-decomposition: topics/sorting-cycle-decomposition.md
   - 📚 Priority Queue:
       - priority-queue: topics/priority-queue.md
