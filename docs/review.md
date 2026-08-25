@@ -96,8 +96,9 @@
 | [priority-queue](topics/priority-queue.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 6 | 0 | 1 | 0 | 3 | 0 | 10 |
+| [sorting](topics/sorting.md) | 5 | 0 | 1 | 0 | 3 | 0 | 9 |
 | [sorting-algorithm-implementation](topics/sorting-algorithm-implementation.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 5 | 4 | 0 | 0 | 2 | 0 | 11 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -444,7 +445,7 @@
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | [C++](problems/0148.md) | sorting-algorithm-implementation |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | [C++](problems/0164.md) | sorting |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | [C++](problems/0164.md) | sorting-bucket-sort |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | [C++](problems/0179.md) | sorting-custom-comparator |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | [C++](problems/0451.md) | sorting-counting-sort |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | [C++](problems/0524.md) | sorting-custom-comparator |

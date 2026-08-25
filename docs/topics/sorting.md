@@ -1,10 +1,9 @@
 # sorting
 
-## 🔴 生疏（6）
+## 🔴 生疏（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting, Bucket Sort, Pigeonhole Principle | [C++](../problems/0164.md) | O(N) | O(N) |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Math, Sorting | [C++](../problems/0539.md) | O(NlogN) | O(N) |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | String, Sorting | [C++](../problems/1408.md) | O(N²\*K) | O(N) |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](../problems/2491.md) | O(NlogN) | O(1)或O(N)\* |

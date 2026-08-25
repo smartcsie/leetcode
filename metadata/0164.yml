@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0164.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting
+  - Sorting Bucket Sort
   - Bucket Sort
   - Pigeonhole Principle
   topics:
-  - sorting
+  - sorting-bucket-sort
   time: O(N)
   space: O(N)
   familiarity: 生疏
