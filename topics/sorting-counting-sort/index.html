@@ -11,10 +11,6 @@
       
       
       
-        <link rel="prev" href="../greedy-digit-construction/">
-      
-      
-        <link rel="next" href="../greedy-frequency-merging/">
       
       
         
@@ -25,7 +21,7 @@
     
     
       
-        <title>greedy-sorting-decision - LeetCode 演算法精鍊筆記</title>
+        <title>sorting-counting-sort - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -76,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#greedy-sorting-decision" class="md-skip">
+        <a href="#sorting-counting-sort" class="md-skip">
           跳轉到
         </a>
       
@@ -112,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              greedy-sorting-decision
+              sorting-counting-sort
             
           </span>
         </div>
@@ -3143,20 +3139,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
         
           
           <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
@@ -3177,7 +3171,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_16">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3304,37 +3298,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    greedy-sorting-decision
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../greedy-sorting-decision/" class="md-nav__link">
         
   
   
@@ -3350,81 +3317,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目錄">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目錄
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#6" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔴 生疏（6）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟠 再練習（1）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟡 練習過（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟣 易忘（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟢 熟悉（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -4591,8 +4483,8 @@
   
 
 
-<h1 id="greedy-sorting-decision">greedy-sorting-decision<a class="headerlink" href="#greedy-sorting-decision" title="Permanent link">&para;</a></h1>
-<h2 id="6">🔴 生疏（6）<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<h1 id="sorting-counting-sort">sorting-counting-sort<a class="headerlink" href="#sorting-counting-sort" title="Permanent link">&para;</a></h1>
+<h2 id="5">🔴 生疏（5）<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -4607,91 +4499,59 @@
 </thead>
 <tbody>
 <tr>
-<td>406</td>
-<td><a href="https://leetcode.com/problems/queue-reconstruction-by-height/">Queue Reconstruction by Height</a></td>
+<td>451</td>
+<td><a href="https://leetcode.com/problems/sort-characters-by-frequency">Sort Characters By Frequency</a></td>
 <td>🟡 Medium</td>
-<td>Greedy Sorting Decision</td>
-<td><a href="../../problems/0406/">C++</a></td>
-<td>O(N²)</td>
+<td>Hash Table, Bucket Sort</td>
+<td><a href="../../problems/0451/">C++</a></td>
+<td>O(N)</td>
 <td>O(N)</td>
 </tr>
 <tr>
-<td>881</td>
-<td><a href="https://leetcode.com/problems/boats-to-save-people/">Boats to Save People</a></td>
-<td>🟡 Medium</td>
-<td>Greedy Sorting Decision</td>
-<td><a href="../../problems/0881/">C++</a></td>
-<td>O(N log N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1710</td>
-<td><a href="https://leetcode.com/problems/maximum-units-on-a-truck/">Maximum Units on a Truck</a></td>
+<td>1051</td>
+<td><a href="https://leetcode.com/problems/height-checker/">Height Checker</a></td>
 <td>🟢 Easy</td>
-<td>Greedy Sorting Decision</td>
-<td><a href="../../problems/1710/">C++</a></td>
-<td>O(N log N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2966</td>
-<td><a href="https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/">Divide Array Into Arrays With Max Difference</a></td>
-<td>🟡 Medium</td>
-<td>Array, Greedy, Sorting</td>
-<td><a href="../../problems/2966/">C++</a></td>
-<td>O(NlogN)</td>
-<td>O(1)或O(N)*</td>
-</tr>
-<tr>
-<td>3011</td>
-<td><a href="https://leetcode.com/problems/find-if-array-can-be-sorted/">Find if Array Can Be Sorted</a></td>
-<td>🟡 Medium</td>
-<td>Array, Greedy, Bit Manipulation</td>
-<td><a href="../../problems/3011/">C++</a></td>
+<td>Array, Counting Sort</td>
+<td><a href="../../problems/1051/">C++</a></td>
 <td>O(N)</td>
 <td>O(1)</td>
 </tr>
 <tr>
-<td>3684</td>
-<td><a href="https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/">Maximize Sum of At Most K Distinct Elements</a></td>
+<td>1122</td>
+<td><a href="https://leetcode.com/problems/relative-sort-array/">Relative Sort Array</a></td>
 <td>🟢 Easy</td>
-<td>Sorting, Set</td>
-<td><a href="../../problems/3684/">C++</a></td>
-<td>O(NlogN)</td>
-<td>O(N)</td>
+<td>Counting Sort</td>
+<td><a href="../../problems/1122/">C++</a></td>
+<td>O(N+M)</td>
+<td>O(1)</td>
 </tr>
-</tbody>
-</table>
-<h2 id="1">🟠 再練習（1）<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
 <tr>
-<th>#</th>
-<th>題目</th>
-<th>難度</th>
-<th>標籤</th>
-<th>解法檔案</th>
-<th>時間</th>
-<th>空間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>945</td>
-<td><a href="https://leetcode.com/problems/minimum-increment-to-make-array-unique/">Minimum Increment to Make Array Unique</a></td>
+<td>3016</td>
+<td><a href="https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/">Minimum Number of Pushes to Type Word II</a></td>
 <td>🟡 Medium</td>
-<td>Sorting, Greedy</td>
-<td><a href="../../problems/0945/">C++</a></td>
-<td>O(NlogN)</td>
+<td>Sorting, Sorting, Counting</td>
+<td><a href="../../problems/3016/">C++</a></td>
+<td>O(N+26log26)</td>
+<td>O(1)</td>
+</tr>
+<tr>
+<td>3517</td>
+<td><a href="https://leetcode.com/problems/smallest-palindromic-rearrangement-i/">Smallest Palindromic Rearrangement I</a></td>
+<td>🟡 Medium</td>
+<td>Greedy, Counting Sort</td>
+<td><a href="../../problems/3517/">C++</a></td>
+<td>O(N)</td>
 <td>O(1)</td>
 </tr>
 </tbody>
 </table>
-<h2 id="0">🟡 練習過（0）<a class="headerlink" href="#0" title="Permanent link">&para;</a></h2>
+<h2 id="0">🟠 再練習（0）<a class="headerlink" href="#0" title="Permanent link">&para;</a></h2>
+<p>目前沒有標記為再練習的解法。</p>
+<h2 id="0_1">🟡 練習過（0）<a class="headerlink" href="#0_1" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為練習過的解法。</p>
-<h2 id="0_1">🟣 易忘（0）<a class="headerlink" href="#0_1" title="Permanent link">&para;</a></h2>
+<h2 id="0_2">🟣 易忘（0）<a class="headerlink" href="#0_2" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為易忘的解法。</p>
-<h2 id="0_2">🟢 熟悉（0）<a class="headerlink" href="#0_2" title="Permanent link">&para;</a></h2>
+<h2 id="0_3">🟢 熟悉（0）<a class="headerlink" href="#0_3" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為熟悉的解法。</p>
 
 
