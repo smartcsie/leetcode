@@ -15,17 +15,16 @@ class Solution {
 public:
     vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
         sort(arr.begin(), arr.end());
-        int n = static_cast<int>(arr.size());
-        int minDiff = INT_MAX;
-        vector<vector<int>> res;
-        for(int i = 0; i < n - 1; i++) {
-            minDiff = min(minDiff, arr[i + 1] - arr[i]);
-        }
-        for(int i = 0; i < n - 1; i++) {
-            if((arr[i + 1] - arr[i]) == minDiff) {
-                res.push_back({arr[i], arr[i + 1]});
+        int mn = 1e8;
+        vector<vector<int>> ans;
+        for(int i = 1; i < arr.size(); i++) {
+            if(arr[i] - arr[i - 1] < mn) {
+                mn = arr[i] - arr[i - 1];
+                ans = {{arr[i - 1], arr[i]}};
+            } else if(arr[i] - arr[i - 1] == mn) {
+                ans.push_back({arr[i - 1], arr[i]});
             }
         }
-        return res;
+        return ans;
     }
 };

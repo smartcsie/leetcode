@@ -1,6 +1,6 @@
 # sorting
 
-## 🔴 生疏（24）
+## 🔴 生疏（23）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -13,7 +13,6 @@
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Array, Divide and Conquer, Sorting | [C++](../problems/0912.md) | O(NlogN) | O(logN) |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Array, Counting Sort | [C++](../problems/1051.md) | O(N) | O(1) |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | Counting Sort | [C++](../problems/1122.md) | O(N+M) | O(1) |
-| 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Array, Sorting | [C++](../problems/1200.md) | O(NlogN) | O(N) |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | String, Sorting | [C++](../problems/1408.md) | O(N²\*K) | O(N) |
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | Greedy, Sorting | [C++](../problems/1481.md) | O(NlogN) | O(N) |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String, Sorting, Bucket Sort | [C++](../problems/1859.md) | O(N) | O(N) |
@@ -47,10 +46,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | Array, Greedy, Sorting | [C++](../problems/0561.md) | O(NlogN) | O(1) |
+| 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1200.md) | O(NlogN) | O(N) |
 | 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting | [C++](../problems/2164.md) | O(NlogN) | O(N) |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 Medium | Sorting, Hash Table, Counting | [C++](../problems/2225.md) | O(NlogN) | O(N) |
