@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0563.cpp
   difficulty: 🟢 Easy
   tags:
+  - Tree Dfs Path
   - DFS
   - Post-order
   topics:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 練習過
