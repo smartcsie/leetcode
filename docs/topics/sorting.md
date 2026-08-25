@@ -35,15 +35,17 @@
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting, Sorting, Hash Table | [C++](../problems/2418.md) | O(NlogN) | O(N) |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting, Hash | [C++](../problems/3913.md) | O(NlogN) | O(N) |
 
-## 🟡 練習過（0）
+## 🟡 練習過（1）
 
-目前沒有標記為練習過的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting, Counting Sort | [C++](../problems/2785.md) | O(N) | O(1) |
 
 ## 🟣 易忘（0）
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（7）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -52,5 +54,4 @@
 | 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting | [C++](../problems/2164.md) | O(NlogN) | O(N) |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 Medium | Sorting, Hash Table, Counting | [C++](../problems/2225.md) | O(NlogN) | O(N) |
 | 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟡 Medium | Sorting, Sorting | [C++](../problems/2545.md) | O(NlogN) | O(1) |
-| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting, Counting Sort | [C++](../problems/2785.md) | O(N) | O(1) |
 | 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting | [C++](../problems/2785.md) | O(N) | O(N) |

@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 976 題　🔴 生疏：435 題　🟠 再練習：184 題　🟡 練習過：42 題　🟣 易忘：35 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 976 題　🔴 生疏：435 題　🟠 再練習：184 題　🟡 練習過：43 題　🟣 易忘：35 題　🟢 熟練：279 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -96,7 +96,7 @@
 | [priority-queue](topics/priority-queue.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 20 | 5 | 0 | 0 | 6 | 0 | 31 |
+| [sorting](topics/sorting.md) | 20 | 5 | 1 | 0 | 5 | 0 | 31 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [stack](topics/stack.md) | 5 | 2 | 0 | 0 | 8 | 0 | 15 |
