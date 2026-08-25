@@ -1,6 +1,6 @@
 # sorting
 
-## 🔴 生疏（21）
+## 🔴 生疏（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,6 @@
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | Greedy, Sorting | [C++](../problems/1481.md) | O(NlogN) | O(N) |
 | 2191 | [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | 🟡 Medium | Array Linear Scan, Digit Manipulation, Pair | [C++](../problems/2191.md) | O(NlogN) | O(N) |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](../problems/2491.md) | O(NlogN) | O(1)或O(N)\* |
-| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | String, Counting Sort | [C++](../problems/2785.md) | O(N) | O(1) |
 | 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | 🟢 Easy | Sorting, Brute Force | [C++](../problems/2932.md) | O(NlogN+N²) | O(logN) |
 | 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | Array, Greedy, Sorting | [C++](../problems/2966.md) | O(NlogN) | O(1)或O(N)\* |
 | 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | Sorting, Sorting, Counting | [C++](../problems/3016.md) | O(N+26log26) | O(1) |
@@ -44,7 +43,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -53,3 +52,5 @@
 | 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting | [C++](../problems/2164.md) | O(NlogN) | O(N) |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 Medium | Sorting, Hash Table, Counting | [C++](../problems/2225.md) | O(NlogN) | O(N) |
 | 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟡 Medium | Sorting, Sorting | [C++](../problems/2545.md) | O(NlogN) | O(1) |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting, Counting Sort | [C++](../problems/2785.md) | O(N) | O(1) |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting | [C++](../problems/2785.md) | O(N) | O(N) |
