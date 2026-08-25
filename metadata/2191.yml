@@ -9,7 +9,7 @@ solutions:
   - Digit Manipulation
   - Pair
   topics:
-  - sorting
+  - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
   familiarity: 生疏

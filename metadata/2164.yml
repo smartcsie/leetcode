@@ -7,7 +7,7 @@ solutions:
   tags:
   - Sorting
   topics:
-  - sorting
+  - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
   familiarity: 熟練

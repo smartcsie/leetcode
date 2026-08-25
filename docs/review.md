@@ -69,7 +69,7 @@
 | [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 2 | 0 | 1 | 0 | 0 | 6 |
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
+| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 6 | 1 | 0 | 0 | 0 | 0 | 7 |
 | [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 2 | 1 | 0 | 1 | 0 | 8 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 1 | 0 | 0 | 4 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 0 | 2 | 0 | 4 |
@@ -96,7 +96,10 @@
 | [priority-queue](topics/priority-queue.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 20 | 5 | 1 | 0 | 5 | 0 | 31 |
+| [sorting](topics/sorting.md) | 6 | 0 | 1 | 0 | 3 | 0 | 10 |
+| [sorting-algorithm-implementation](topics/sorting-algorithm-implementation.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [sorting-counting-sort](topics/sorting-counting-sort.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
+| [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 5 | 4 | 0 | 0 | 2 | 0 | 11 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [stack](topics/stack.md) | 5 | 2 | 0 | 0 | 8 | 0 | 15 |
@@ -127,7 +130,7 @@
 
 目前共有 442 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（30）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（21）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（58）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（30）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（19）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -436,31 +439,29 @@
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | [C++](problems/0743.md) | graph-shortest-path |
 
 <a id="shengshu-sorting"></a>
-#### 📊 Sorting（21）
+#### 📊 Sorting（19）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
-| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | [C++](problems/0148.md) | sorting |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | [C++](problems/0148.md) | sorting-algorithm-implementation |
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | [C++](problems/0164.md) | sorting |
-| 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | [C++](problems/0179.md) | sorting |
-| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | [C++](problems/0451.md) | sorting |
-| 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | [C++](problems/0524.md) | sorting |
+| 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | [C++](problems/0179.md) | sorting-custom-comparator |
+| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | [C++](problems/0451.md) | sorting-counting-sort |
+| 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | [C++](problems/0524.md) | sorting-custom-comparator |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | [C++](problems/0539.md) | sorting |
-| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | [C++](problems/0912.md) | sorting |
-| 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | [C++](problems/1051.md) | sorting |
-| 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | [C++](problems/1122.md) | sorting |
+| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | [C++](problems/0912.md) | sorting-algorithm-implementation |
+| 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | [C++](problems/1051.md) | sorting-counting-sort |
+| 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | [C++](problems/1122.md) | sorting-counting-sort |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | [C++](problems/1408.md) | sorting |
-| 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | [C++](problems/1481.md) | sorting |
-| 2191 | [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | 🟡 Medium | [C++](problems/2191.md) | sorting |
+| 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | [C++](problems/1481.md) | sorting-custom-comparator |
+| 2191 | [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | 🟡 Medium | [C++](problems/2191.md) | sorting-custom-comparator |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 Medium | [C++](problems/2491.md) | sorting |
 | 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | 🟢 Easy | [C++](problems/2932.md) | sorting |
-| 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | [C++](problems/2966.md) | sorting |
-| 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | [C++](problems/3016.md) | sorting |
+| 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | [C++](problems/3016.md) | sorting-counting-sort |
 | 3132 | [Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) | 🟡 Medium | [C++](problems/3132.md) | sorting |
-| 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | [C++](problems/3517.md) | sorting |
+| 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | [C++](problems/3517.md) | sorting-counting-sort |
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | [C++](problems/3551.md) | sorting-cycle-decomposition |
-| 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | [C++](problems/3684.md) | sorting |
-| 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting |
+| 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | [C++](problems/3769.md) | sorting-custom-comparator |
 
 <a id="shengshu-dynamic-programming"></a>
 #### 🧩 Dynamic Programming（91）
@@ -560,7 +561,7 @@
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | [C++](problems/2826.md) | dp-lis |
 
 <a id="shengshu-greedy"></a>
-#### 🧩 Greedy（58）
+#### 🧩 Greedy（60）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -619,9 +620,11 @@
 | 2554 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | 🟡 Medium | [C++](problems/2554.md) | greedy-selection-constraints |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | [C++](problems/2645.md) | greedy-validity-repair |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | [C++](problems/2815.md) | greedy |
+| 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | [C++](problems/2966.md) | greedy-sorting-decision |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | [C++](problems/3011.md) | greedy-sorting-decision |
 | 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | [C++](problems/3014.md) | greedy-frequency-merging |
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | [C++](problems/3114.md) | greedy-digit-construction |
+| 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | [C++](problems/3684.md) | greedy-sorting-decision |
 
 <a id="shengshu-backtracking"></a>
 #### 🔢 Backtracking（25）

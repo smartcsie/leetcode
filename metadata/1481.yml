@@ -8,7 +8,7 @@ solutions:
   - Greedy
   - Sorting
   topics:
-  - sorting
+  - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
   note: '> [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)<br>

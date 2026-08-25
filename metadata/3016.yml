@@ -9,7 +9,7 @@ solutions:
   - Sorting
   - Counting
   topics:
-  - sorting
+  - sorting-counting-sort
   time: O(N+26log26)
   space: O(1)
   familiarity: 生疏

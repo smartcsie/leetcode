@@ -8,7 +8,7 @@ solutions:
   - Linked List
   - Merge Sort
   topics:
-  - sorting
+  - sorting-algorithm-implementation
   time: O(NlogN)
   space: O(logN)
   familiarity: 生疏

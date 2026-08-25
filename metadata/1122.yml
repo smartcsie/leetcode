@@ -7,7 +7,7 @@ solutions:
   tags:
   - Counting Sort
   topics:
-  - sorting
+  - sorting-counting-sort
   time: O(N+M)
   space: O(1)
   familiarity: 生疏

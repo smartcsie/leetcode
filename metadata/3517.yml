@@ -8,7 +8,7 @@ solutions:
   - Greedy
   - Counting Sort
   topics:
-  - sorting
+  - sorting-counting-sort
   time: O(N)
   space: O(1)
   familiarity: 生疏

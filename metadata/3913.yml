@@ -8,7 +8,7 @@ solutions:
   - Sorting
   - Hash
   topics:
-  - sorting
+  - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
   familiarity: 再練習

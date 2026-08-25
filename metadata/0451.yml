@@ -8,7 +8,7 @@ solutions:
   - Hash Table
   - Bucket Sort
   topics:
-  - sorting
+  - sorting-counting-sort
   time: O(N)
   space: O(N)
   familiarity: 生疏

@@ -8,7 +8,7 @@ solutions:
   - Two Pointers
   - Sorting
   topics:
-  - sorting
+  - sorting-custom-comparator
   time: O(DlogD+D*M)
   space: O(1)
   familiarity: 生疏

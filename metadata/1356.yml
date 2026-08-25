@@ -8,7 +8,7 @@ solutions:
   - Sorting
   - Sorting
   topics:
-  - sorting
+  - sorting-custom-comparator
   time: O(NlogN)
   space: O(1)
   familiarity: 再練習

@@ -8,7 +8,7 @@ solutions:
   - Sorting
   - String
   topics:
-  - sorting
+  - sorting-custom-comparator
   time: O(NlogN*K)
   space: O(N*K)
   familiarity: 生疏
