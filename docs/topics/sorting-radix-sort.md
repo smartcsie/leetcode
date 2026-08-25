@@ -1,10 +1,10 @@
-# sorting-bucket-sort
+# sorting-radix-sort
 
 ## 🔴 生疏（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Bucket Sort, Bucket Sort, Pigeonhole Principle | [C++](../problems/0164.md) | O(N) | O(N) |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](../problems/0164.md) |  |  |
 
 ## 🟠 再練習（0）
 

@@ -1,6 +1,6 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（442）](#review-shengshu)　[🟣 易忘清單（38）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（443）](#review-shengshu)　[🟣 易忘清單（38）](#review-yiwang)
 
 ## 📊 總覽
 
@@ -97,11 +97,11 @@
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
 | [sorting](topics/sorting.md) | 5 | 0 | 1 | 0 | 3 | 0 | 9 |
-| [sorting-algorithm-implementation](topics/sorting-algorithm-implementation.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [sorting-algorithm-implementation](topics/sorting-algorithm-implementation.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 5 | 4 | 0 | 0 | 2 | 0 | 11 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [stack](topics/stack.md) | 5 | 2 | 0 | 0 | 8 | 0 | 15 |
 | [string](topics/string.md) | 11 | 5 | 3 | 1 | 21 | 0 | 41 |
@@ -129,9 +129,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 442 個解法標記為生疏，建議找時間重新練習。
+目前共有 443 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（30）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（19）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（30）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（20）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -440,12 +440,13 @@
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | [C++](problems/0743.md) | graph-shortest-path |
 
 <a id="shengshu-sorting"></a>
-#### 📊 Sorting（19）
+#### 📊 Sorting（20）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | [C++](problems/0148.md) | sorting-algorithm-implementation |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | [C++](problems/0164.md) | sorting-bucket-sort |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | [C++](problems/0164.md) | sorting-algorithm-implementation |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | [C++](problems/0164.md) | sorting-radix-sort |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | [C++](problems/0179.md) | sorting-custom-comparator |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | [C++](problems/0451.md) | sorting-counting-sort |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | [C++](problems/0524.md) | sorting-custom-comparator |

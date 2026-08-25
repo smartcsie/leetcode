@@ -5,11 +5,20 @@ solutions:
 - file: Solution_0164.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting Bucket Sort
+  - Sorting Algorithm Implementation
   - Bucket Sort
   - Pigeonhole Principle
   topics:
-  - sorting-bucket-sort
+  - sorting-algorithm-implementation
   time: O(N)
   space: O(N)
+  familiarity: 生疏
+- file: Solution_0164_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Sorting Radix Sort
+  topics:
+  - sorting-radix-sort
+  time: ''
+  space: ''
   familiarity: 生疏
