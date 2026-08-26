@@ -15,27 +15,17 @@
 class Solution {
 public:
     string largestNumber(vector<int>& nums) {
-        vector<string> str_nums;
-        str_nums.reserve(nums.size());
-        
-        // 預先轉換為字串，提升排序效能
-        for (int num : nums) {
-            str_nums.push_back(to_string(num));
+        string ans;
+        int n = nums.size();
+        vector<string> str_nums(n);
+        for(int i =0; i < n; i++) {
+            str_nums[i] = to_string(nums[i]);
         }
-        
-        // 自訂排序規則
-        sort(str_nums.begin(), str_nums.end(), [](const string& a, const string& b) {
-            return a + b > b + a;
+        sort(str_nums.begin(), str_nums.end(), [](const string& s1, const string& s2) {
+            return s1 + s2 > s2 + s1;
         });
-        
-        // 如果最大的數是 "0"，則結果必為 "0" (例如 [0, 0] -> "0")
-        if (str_nums[0] == "0") return "0";
-        
-        string res;
-        for (const string& s : str_nums) {
-            res += s;
-        }
-        
-        return res;
+        if(str_nums[0] == "0") return "0";
+        for(const string& s : str_nums) ans += s;
+        return ans;
     }
 };
