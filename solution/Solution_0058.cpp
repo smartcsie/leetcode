@@ -16,20 +16,11 @@
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-        int length = 0;
         int right = s.size() - 1;
-        
-        // 1. 跳過末尾的空格
-        while (right >= 0 && s[right] == ' ') {
-            right--;
-        }
-        
-        // 2. 計算最後一個單字的長度
-        while (right >= 0 && s[right] != ' ') {
-            right--;
-            length++;
-        }
-        
-        return length;
+        int ans = 0;
+        while(right >= 0 &&  s[right] == ' ') right--;
+        int left = right;
+        while(left >= 0 && s[left] != ' ') left--;
+        return right - left;;
     }
 };
