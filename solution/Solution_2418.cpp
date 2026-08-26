@@ -10,23 +10,12 @@
 class Solution {
 public:
     vector<string> sortPeople(vector<string>& names, vector<int>& heights) {
-        // 優化點：預先保留空間，避免 hash map 在插入過程中進行多次 rehash
-        unordered_map<int, string> map;
-        map.reserve(names.size()); 
-        
-        for(int i = 0; i < names.size(); i++) {
-            map[heights[i]] = names[i];
-        }
-        
-        // 排序高度
+        unordered_map<int,string> maps;
+        int n = names.size();
+        for(int i = 0; i < n; i++) maps[heights[i]] =  names[i];
         sort(heights.begin(), heights.end(), greater<int>());
-        
-        // 提取結果
-        vector<string> res;
-        res.reserve(names.size());
-        for(int height : heights) {
-            res.push_back(map[height]);
-        }
-        return res;
+        vector<string> ans(n);
+        for(int i = 0; i < n; i++) ans[i] = maps[heights[i]];
+        return ans;
     }
 };

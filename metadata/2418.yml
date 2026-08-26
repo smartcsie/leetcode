@@ -5,14 +5,23 @@ solutions:
 - file: Solution_2418.cpp
   difficulty: 🟢 Easy
   tags:
-  - Sorting
+  - Sorting Custom Comparator
   - Sorting
   - Hash Table
   topics:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 再練習
-  note: '> unordered_map的key可以直接做sort <br>
+  familiarity: 練習過
+  note: '> **unordered_map<int, int>和vector<pair<int,string>>**<br>
 
-    > greater<int>()<br>'
+    > **都不行直接greater<int>()，所以先排好heights，再unordered_map到name**<br>'
+- file: Solution_2418_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Sorting Custom Comparator
+  topics:
+  - sorting-custom-comparator
+  time: ''
+  space: ''
+  familiarity: 再練習

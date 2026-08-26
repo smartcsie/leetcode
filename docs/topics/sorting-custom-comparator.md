@@ -14,15 +14,16 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting, Sorting, Hash Table | [C++](../problems/2418.md) | O(NlogN) | O(N) |
+| 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting Custom Comparator | [C++](../problems/2418.md) |  |  |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting, Hash | [C++](../problems/3913.md) | O(NlogN) | O(N) |
 
-## 🟡 練習過（2）
+## 🟡 練習過（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Sorting Custom Comparator, Sorting | [C++](../problems/1356.md) | O(NlogN) | O(1) |
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | Sorting, Hash Table, Sorting | [C++](../problems/1636.md) | O(NlogN) | O(1) |
+| 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting Custom Comparator, Sorting, Hash Table | [C++](../problems/2418.md) | O(NlogN) | O(N) |
 
 ## 🟣 易忘（0）
 
