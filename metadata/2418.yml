@@ -22,6 +22,6 @@ solutions:
   - Sorting Custom Comparator
   topics:
   - sorting-custom-comparator
-  time: ''
-  space: ''
+  time: O(NlogN)
+  space: O(N)
   familiarity: 再練習
