@@ -24,25 +24,30 @@ class Solution {
 public:
     vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
         int n = nums.size();
-        vector<pair<int, int>> pairs;
-        pairs.reserve(n);
-        for (int i = 0; i < nums.size(); i++) {
-            int mul = 1;
-            int temp = nums[i];
-            int jumble = 0;
-            do {
-                jumble += mul * mapping[temp % 10];
-                temp /= 10;
-                mul *= 10;
-            } while (temp > 0); // 確保 num 為 0 時也能正確處理 mapping[0]
-            pairs.push_back({jumble, i});
+        vector<int> indices(n);
+        vector<int> jumble(n);
+        for(int i = 0; i < n; i++) {
+            int jum = 0;
+            if (nums[i] == 0) jum = mapping[0];
+            else {
+                int base = 1;
+                int t = nums[i];
+                while (t > 0) {
+                    jum += mapping[t % 10] * base;
+                    t /= 10;
+                    base *= 10;
+                }
+            }
+            jumble[i] = jum;
         }
-        // 使用 C++20 ranges 排序
-        sort(pairs.begin(), pairs.end());
+        iota(indices.begin(), indices.end(), 0);
+        stable_sort(indices.begin(), indices.end(), [&](const int& a, const int& b){
+            return jumble[a] < jumble[b];
+        });
         vector<int> ans;
         ans.reserve(n);
-        for (const auto& x : pairs) {
-            ans.push_back(nums[x.second]);
+        for(const int& idx : indices) {
+            ans.push_back(nums[idx]);
         }
         return ans;
     }

@@ -5,11 +5,14 @@ solutions:
 - file: Solution_2191.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array Linear Scan
+  - Sorting Custom Comparator
   - Digit Manipulation
   - Pair
   topics:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 再練習
+  note: '> **重要stable_sort** <br>'
+  related:
+  - 1636

@@ -1,19 +1,19 @@
 # sorting-custom-comparator
 
-## 🔴 生疏（5）
+## 🔴 生疏（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | 🟡 Medium | Sorting, String | [C++](../problems/0179.md) | O(NlogN\*K) | O(N\*K) |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | Two Pointers, Sorting | [C++](../problems/0524.md) | O(DlogD+D\*M) | O(1) |
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | Greedy, Sorting | [C++](../problems/1481.md) | O(NlogN) | O(N) |
-| 2191 | [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | 🟡 Medium | Array Linear Scan, Digit Manipulation, Pair | [C++](../problems/2191.md) | O(NlogN) | O(N) |
 | 3769 | [Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | Sorting, Sorting | [C++](../problems/3769.md) | O(NlogN) | O(N) |
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2191 | [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | 🟡 Medium | Sorting Custom Comparator, Digit Manipulation, Pair | [C++](../problems/2191.md) | O(NlogN) | O(N) |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting Custom Comparator | [C++](../problems/2418.md) |  |  |
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting, Hash | [C++](../problems/3913.md) | O(NlogN) | O(N) |
 
