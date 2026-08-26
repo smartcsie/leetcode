@@ -12,3 +12,5 @@ solutions:
   time: O(NlogN)
   space: O(1)
   familiarity: 練習過
+  related:
+  - 1636
