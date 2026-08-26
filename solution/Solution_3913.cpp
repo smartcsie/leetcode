@@ -10,27 +10,27 @@
 class Solution {
 public:
     string sortVowels(string s) {
-        vector<char> vowels;
-        unordered_map<char, pair<int, int>> counts;
+        vector<char> vowels = {'a', 'e', 'i', 'o', 'u'};
+        vector<int> freq(128, 0);
+        vector<int> first(128, -1);
         for(int i = 0; i < s.size(); i++) {
             char c = s[i];
             if((0x104111 >> (c - 'a')) & 1) {
-                vowels.push_back(c);
-                if(!counts.contains(c)) counts[c] = {0, i};
-                counts[c].first++;
+                freq[c]++;
+                if(first[c] == -1) first[c] = i;
             }
         }
-        sort(vowels.begin(), vowels.end(), [&](const char& c1, const char& c2) {
-            auto [count1 , idx1] = counts[c1];
-            auto [count2 , idx2] = counts[c2];
-            if(count1 != count2)
-                return count1 > count2;
-            return idx1 < idx2;
+        sort(vowels.begin(), vowels.end(), [&](const char& c1, const char& c2){
+            return freq[c1] != freq[c2] ? freq[c1] > freq[c2] : first[c1] < first[c2];
         });
+        vector<char> sortedVowels;
+        for(const char& c : vowels) {
+            for(int i =1; i <= freq[c]; i++ ) sortedVowels.push_back(c);
+        }
         int idx = 0;
         for(char& c : s) {
             if((0x104111 >> (c - 'a')) & 1) {
-                c = vowels[idx++];
+                c = sortedVowels[idx++];
             }
         }
         return s;

@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 978 題　🔴 生疏：433 題　🟠 再練習：182 題　🟡 練習過：48 題　🟣 易忘：36 題　🟢 熟練：279 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 978 題　🔴 生疏：433 題　🟠 再練習：181 題　🟡 練習過：49 題　🟣 易忘：36 題　🟢 熟練：279 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -98,7 +98,7 @@
 | [quick-select](topics/quick-select.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
 | [sorting](topics/sorting.md) | 5 | 0 | 1 | 0 | 3 | 0 | 9 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 4 | 0 | 2 | 0 | 0 | 0 | 6 |
-| [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 3 | 3 | 3 | 0 | 2 | 0 | 11 |
+| [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 3 | 2 | 4 | 0 | 2 | 0 | 11 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 1 | 0 | 0 | 3 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
