@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（439）](#review-shengshu)　[🟣 易忘清單（39）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（438）](#review-shengshu)　[🟣 易忘清單（40）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 978 題　🔴 生疏：431 題　🟠 再練習：181 題　🟡 練習過：51 題　🟣 易忘：36 題　🟢 熟練：279 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 978 題　🔴 生疏：430 題　🟠 再練習：181 題　🟡 練習過：51 題　🟣 易忘：37 題　🟢 熟練：279 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -117,7 +117,7 @@
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 2 | 3 | 1 | 4 | 6 | 0 | 16 |
-| [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [two-pointers-other](topics/two-pointers-other.md) | 1 | 0 | 0 | 1 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 2 | 1 | 0 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 14 | 3 | 0 | 0 | 3 | 0 | 20 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 4 | 0 | 0 | 10 | 0 | 14 |
@@ -129,9 +129,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 439 個解法標記為生疏，建議找時間重新練習。
+目前共有 438 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（30）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（16）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（30）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（24）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（16）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -338,7 +338,7 @@
 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 Medium | [C++](problems/2487.md) | linked-list |
 
 <a id="shengshu-pointers"></a>
-#### 👥 Pointers（25）
+#### 👥 Pointers（24）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -348,7 +348,6 @@
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 Medium | [C++](problems/0075.md) | two-pointers-partition |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium | [C++](problems/0080.md) | fast-slow-pointers |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | [C++](problems/0086.md) | two-pointers-same |
-| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | [C++](problems/0160.md) | two-pointers-other |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | [C++](problems/0228.md) | two-pointers-same |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 Medium | [C++](problems/0328.md) | two-pointers-same |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium | [C++](problems/0443.md) | two-pointers-same |
@@ -697,9 +696,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 39 個解法標記為易忘，建議面試前重點複習。
+目前共有 40 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（17）](#yiwang-math)　[📊 Bit Manipulation（4）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（1）](#yiwang-array)　[🌳 Tree（3）](#yiwang-tree)　[👥 Pointers（5）](#yiwang-pointers)　[📊 Sorting（1）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（17）](#yiwang-math)　[📊 Bit Manipulation（4）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（1）](#yiwang-array)　[🌳 Tree（3）](#yiwang-tree)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（1）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -765,13 +764,14 @@
 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | [C++](problems/0951.md) | tree |
 
 <a id="yiwang-pointers"></a>
-#### 👥 Pointers（5）
+#### 👥 Pointers（6）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 Medium | [C++](problems/0015.md) | two-pointers-opposite |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 Medium | [C++](problems/0016.md) | two-pointers-opposite |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | [C++](problems/0018.md) | two-pointers-opposite |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | [C++](problems/0160.md) | two-pointers-other |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | [C++](problems/0287.md) | fast-slow-pointers |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | [C++](problems/0680.md) | two-pointers-opposite |
 
