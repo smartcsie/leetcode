@@ -5,11 +5,12 @@ solutions:
 - file: Solution_0912.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Sorting Implementation
   - Divide and Conquer
   - Sorting
   topics:
   - sorting-implementation
   time: O(NlogN)
   space: O(logN)
-  familiarity: 生疏
+  familiarity: 易忘
+  note: '> Merge Sort'
