@@ -5,10 +5,10 @@ solutions:
 - file: Solution_3769.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting
+  - Sorting Custom Comparator
   - Sorting
   topics:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
