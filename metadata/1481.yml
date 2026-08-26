@@ -5,20 +5,13 @@ solutions:
 - file: Solution_1481.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy
+  - Sorting Custom Comparator
   - Sorting
   topics:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  note: '> [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/)<br>
+  familiarity: 練習過
+  note: '> **用 std::unordered_map<int, int> counts;;統計數字出現頻率**<br>
 
-    > 用 std::unordered_map<int, int> counts;;統計數字出現頻率<br>
-
-    > 把頻率，寫入std::vector<int> freq; 對freq做sort<br>
-
-    > 用k去減頻率，同時紀錄山除了幾個數<br>
-
-
-    <br><br>'
-  familiarity: 生疏
+    > **把頻率，寫入std::vector<int> freq; 對freq做sort**<br>'

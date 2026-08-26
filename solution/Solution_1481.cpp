@@ -14,31 +14,21 @@
 class Solution {
 public:
     int findLeastNumOfUniqueInts(std::vector<int>& arr, int k) {
-        std::unordered_map<int, int> counts;
-        for (const int num : arr) {
-            counts[num]++;
-        }
-        
-        // 僅提取頻率 (counts)，忽略具體數字 (key)
-        std::vector<int> freq;
-        freq.reserve(counts.size());
-        for (const auto& [num, count] : counts) {
-            freq.push_back(count);
-        }
-        
-        // 依照頻率由小到大排序
-        std::sort(freq.begin(), freq.end());
-        
-        int removed_types = 0;
-        for (const int f : freq) {
-            if (k >= f) {
-                k -= f;
-                removed_types++;
+        unordered_map<int, int> map_counts;
+        for(const int& x : arr) map_counts[x]++;
+        vector<int> counts;
+        counts.reserve(map_counts.size());
+        for(const auto& [_, x] : map_counts) counts.push_back(x);
+        sort(counts.begin(), counts.end());
+        int type = counts.size();
+        for(int i = 0; i < counts.size(); i++) {
+            if(k >= counts[i]) {
+                k -= counts[i];
+                type--;
             } else {
-                break;
+                return type;
             }
         }
-        
-        return static_cast<int>(freq.size()) - removed_types;
+        return type;
     }
 };
