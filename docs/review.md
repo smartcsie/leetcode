@@ -97,7 +97,7 @@
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
 | [sorting](topics/sorting.md) | 5 | 0 | 1 | 0 | 3 | 0 | 9 |
-| [sorting-counting-sort](topics/sorting-counting-sort.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
+| [sorting-counting-sort](topics/sorting-counting-sort.md) | 5 | 0 | 1 | 0 | 0 | 0 | 6 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 3 | 3 | 3 | 0 | 2 | 0 | 11 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [sorting-implementation](topics/sorting-implementation.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |

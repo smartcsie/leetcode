@@ -5,10 +5,10 @@ solutions:
 - file: Solution_2785.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting
+  - Sorting Counting Sort
   - Counting Sort
   topics:
-  - sorting
+  - sorting-counting-sort
   time: O(N)
   space: O(1)
   familiarity: 練習過

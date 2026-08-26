@@ -14,9 +14,11 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（0）
+## 🟡 練習過（1）
 
-目前沒有標記為練習過的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting Counting Sort, Counting Sort | [C++](../problems/2785.md) | O(N) | O(1) |
 
 ## 🟣 易忘（0）
 
