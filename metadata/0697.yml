@@ -13,3 +13,7 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 再練習
+  related:
+  - 501
+  - 2404
+  - 3982
