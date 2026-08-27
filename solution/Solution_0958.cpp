@@ -11,21 +11,13 @@
  * 2. 空節點檢查：當遇到第一個空節點後，只要後續再出現任何一個非空節點，則該樹不完全。
  */
 
-class Solution {
-public:
-    bool isCompleteTree(TreeNode* root) {
+if(!root) return true;
         queue<TreeNode*> q({root});
-        TreeNode* prev = root;
-        while(!q.empty()) {
-            TreeNode* cur = q.front();
+        while(q.front()) {
+            TreeNode* node = q.front();
             q.pop();
-            if(!prev && cur) return false;
-            if(cur) {
-                q.push(cur->left);
-                q.push(cur->right);
-            }
-            prev = cur;
+            q.push(node->left);
+            q.push(node->right);
         }
-        return true;
-    }
-};
+        while(!q.empty() && !q.front()) q.pop();
+        return q.empty();

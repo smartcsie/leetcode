@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0958.cpp
   difficulty: 🟡 Medium
   tags:
+  - Tree Bfs Level Order
   - BFS
   - Level Order Traversal
   topics:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 生疏
+  familiarity: 練習過
