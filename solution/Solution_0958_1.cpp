@@ -1,44 +1,3 @@
-# 958. Check Completeness of a Binary Tree
-
-[在 LeetCode 上查看](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)
-
-## 解法：tree-bfs-level-order
-
-**難度:** 🟡 Medium　**標籤:** Tree Bfs Level Order, BFS, Level Order Traversal　**時間:** O(N)　**空間:** O(W)　**熟悉度:** 🟡 練習過
-
-```cpp
-/**
- * 題目：958. Check Completeness of a Binary Tree (二元樹的完全性檢驗)
- * 難度：中等 (Medium)
- * 描述：檢查一棵二元樹是否為完全二元樹。
- *
- * 時間複雜度：O(N) - 遍歷所有節點。
- * 空間複雜度：O(W) - W 為樹的最大寬度，用於存放佇列。
- *
- * 解法思路：
- * 1. 層序遍歷：利用 BFS。
- * 2. 空節點檢查：當遇到第一個空節點後，只要後續再出現任何一個非空節點，則該樹不完全。
- */
-
-if(!root) return true;
-        queue<TreeNode*> q({root});
-        while(q.front()) {
-            TreeNode* node = q.front();
-            q.pop();
-            q.push(node->left);
-            q.push(node->right);
-        }
-        while(!q.empty() && !q.front()) q.pop();
-        return q.empty();
-```
-
----
-
-## 解法：tree-dfs-path
-
-**難度:** 🟡 Medium　**標籤:** Tree Dfs Path　**時間:** O(N)　**空間:** O(”)　**熟悉度:** 🟠 再練習
-
-```cpp
 /**
  * 題目：958. Check Completeness of a Binary Tree (二元樹的完全性檢驗)
  * 難度：Medium
@@ -91,6 +50,3 @@ public:
         return validIndex(root, 1, count);
     }
 };
-```
-
----
