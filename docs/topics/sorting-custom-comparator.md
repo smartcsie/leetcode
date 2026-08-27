@@ -1,10 +1,8 @@
 # sorting-custom-comparator
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | Two Pointers, Sorting | [C++](../problems/0524.md) | O(DlogD+D\*M) | O(1) |
+目前沒有標記為生疏的解法。
 
 ## 🟠 再練習（2）
 

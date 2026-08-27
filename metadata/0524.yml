@@ -5,10 +5,13 @@ solutions:
 - file: Solution_0524.cpp
   difficulty: 🟡 Medium
   tags:
+  - String
   - Two Pointers
-  - Sorting
   topics:
-  - sorting-custom-comparator
+  - string
   time: O(DlogD+D*M)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  note: '>'
+  related:
+  - 392
