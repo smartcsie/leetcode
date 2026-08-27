@@ -13,17 +13,14 @@
 
 class Solution {
 private:
-    bool isSubsequence(const string& word, const string& s) {
-        int i = 0, n = word.size();
-        if (n == 0) return true;
+    bool isSubsequence(const string& sub, const string& s) {
+        int idx = 0;
         for (char c : s) {
-            if (word[i] == c) {
-                if (++i == n) return true;
-            }
+            if (sub[idx] == c) idx++;
+            if(idx == sub.size()) return true;
         }
         return false;
     }
-
 public:
     string findLongestWord(string s, vector<string>& dictionary) {
         string bestWord = "";
