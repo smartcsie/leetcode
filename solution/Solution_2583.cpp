@@ -14,23 +14,23 @@
 class Solution {
 public:
     long long kthLargestLevelSum(TreeNode* root, int k) {
+        if(!root) return 0;
+        vector<long long> sums;
         queue<TreeNode*> q({root});
-        vector<long long> levelSums;
         while(!q.empty()) {
-            long long sum = 0;
-            for(int i = q.size() - 1 ; i >= 0; i--) {
+            long long levelSum = 0;
+            for(int i = q.size() - 1; i >= 0; i--) {
                 TreeNode* node = q.front();
                 q.pop();
-                sum += node->val;
+                levelSum += node->val;
                 if(node->left) q.push(node->left);
                 if(node->right) q.push(node->right);
-                
             }
-            levelSums.push_back(sum);
+            sums.push_back(levelSum);
         }
-        if (k > levelSums.size()) return -1;
-        auto targeet_pos = levelSums.begin() + levelSums.size() - k;
-        nth_element(levelSums.begin(), targeet_pos, levelSums.end());
-        return static_cast<long long>(*targeet_pos);
+        if (k > sums.size()) return -1;
+        auto it = sums.end() - k;
+        nth_element(sums.begin(), it, sums.end());
+        return static_cast<long long>(*it);
     }
 };

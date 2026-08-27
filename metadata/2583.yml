@@ -5,11 +5,14 @@ solutions:
 - file: Solution_2583.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Tree Bfs Level Order
   - BFS
   - Math
   topics:
   - tree-bfs-level-order
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **BFS + QuickSelect**<br>
+
+    > **注意邊界條件，if (k > sums.size()) return -1;**<br>'
