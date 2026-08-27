@@ -13,3 +13,12 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 練習過
+- file: Solution_0938_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree Dfs Path
+  topics:
+  - tree-dfs-path
+  time: ''
+  space: ''
+  familiarity: 練習過
