@@ -15,19 +15,11 @@
 class Solution {
 public:
     int rangeSumBST(TreeNode* root, int low, int high) {
-        if (!root) return 0;
-        
-        // 情況 1：當前節點太小，只需往右找
-        if (root->val < low) {
-            return rangeSumBST(root->right, low, high);
-        }
-        
-        // 情況 2：當前節點太大，只需往左找
-        if (root->val > high) {
-            return rangeSumBST(root->left, low, high);
-        }
-        
-        // 情況 3：當前節點在範圍內，計入當前值，並繼續往兩邊搜尋
-        return root->val + rangeSumBST(root->left, low, high) + rangeSumBST(root->right, low, high);
+        if(!root) return 0;
+        if(root-> val < low) return rangeSumBST(root->right, low ,high);
+        if(root-> val > high) return rangeSumBST(root->left, low ,high);
+        return root->val 
+                + rangeSumBST(root->left, low, root->val)
+                + rangeSumBST(root->right, root->val, high);
     }
 };
