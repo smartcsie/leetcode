@@ -12,4 +12,7 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **一定要有maxDiff，這樣mn和mx才是同一條路徑上**<br>
+
+    > **如果少了maxDiff，mn和mx會變成整顆tree**<br>'

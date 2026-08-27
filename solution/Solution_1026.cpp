@@ -21,18 +21,18 @@
  */
 class Solution {
 private:
-    void dfs(TreeNode* root, int minVal, int maxVal, int& maxDiff) {
+    void dfs(TreeNode* root, int mn, int mx, int& maxDiff) {
         if(!root) return;
-        maxDiff = max({maxDiff, abs(minVal - root->val), abs(maxVal - root->val)});
-        minVal = min(minVal, root->val);
-        maxVal = max(maxVal, root->val);
-        if(root->left) dfs(root->left, minVal, maxVal, maxDiff);
-        if(root->right) dfs(root->right, minVal, maxVal, maxDiff);
+        mn = min(mn, root->val);
+        mx = max(mx, root->val);
+        maxDiff = max(maxDiff, mx - mn);
+        dfs(root->left, mn, mx, maxDiff);
+        dfs(root->right, mn, mx, maxDiff);
     }
 public:
     int maxAncestorDiff(TreeNode* root) {
         int ans = 0;
-        dfs(root, root->val, root->val, ans);
+        dfs(root, INT_MAX, INT_MIN, ans);
         return ans;
     }
 };
