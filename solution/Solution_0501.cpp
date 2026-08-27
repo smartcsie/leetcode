@@ -18,30 +18,27 @@
 
 class Solution {
 private:
-    void dfs(TreeNode* root, int& prev ,int& localCount, int& max, vector<int>& res) {
+    void dfs(TreeNode* root, int& prev, int& count, int& mx, vector<int>& ans) {
         if(!root) return;
-        dfs(root->left, prev, localCount, max, res);
-        if(root->val == prev) localCount++;
-        else localCount = 1;
-        if(localCount > max) {
-            max = localCount;
-            res.clear();
-            res.push_back(root->val);
-        }
-        else if(localCount == max) {
-            res.push_back(root->val);
+        dfs(root->left, prev, count, mx, ans);
+        if(prev == root->val) count++;
+        else count = 1;
+        if(count > mx) {
+            mx = count;
+            ans = {root->val};
+        } else if (count == mx) {
+            ans.push_back(root->val);
         }
         prev = root->val;
-        dfs(root->right, prev, localCount, max, res);
+        dfs(root->right, prev, count, mx, ans);
     }
 public:
     vector<int> findMode(TreeNode* root) {
-        vector<int> res;
-        int localCount = 1;
-        int max = INT_MIN;
+        vector<int> ans;
+        int count = 1;
+        int mx = INT_MIN;
         int prev = INT_MIN;
-        dfs(root, prev, localCount, max, res);
-        return res;
+        dfs(root, prev, count, mx, ans);
+        return ans;
     }
 };
-
