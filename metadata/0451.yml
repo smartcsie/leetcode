@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0451.cpp
   difficulty: 🟡 Medium
   tags:
+  - Sorting Bucket Sort
   - Hash Table
   - Bucket Sort
   topics:
-  - sorting-counting-sort
+  - sorting-bucket-sort
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
