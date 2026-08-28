@@ -1,6 +1,6 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（427）](#review-shengshu)　[🟣 易忘清單（42）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（427）](#review-shengshu)　[🟣 易忘清單（43）](#review-yiwang)
 
 ## 📊 總覽
 
@@ -81,7 +81,7 @@
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 4 | 13 | 2 | 9 | 11 | 0 | 39 |
-| [math-combination](topics/math-combination.md) | 1 | 2 | 0 | 2 | 1 | 0 | 6 |
+| [math-combination](topics/math-combination.md) | 2 | 2 | 0 | 2 | 1 | 0 | 7 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 2 | 13 | 0 | 1 | 25 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 3 | 1 | 0 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 1 | 0 | 5 | 0 | 0 | 6 |
@@ -156,7 +156,7 @@
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | [C++](problems/2310.md) | math |
 | 2507 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 Medium | [C++](problems/2507.md) | math-factor-enumeration |
 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | [C++](problems/2521.md) | math-prime |
-| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | [C++](problems/3084.md) | math |
+| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | [C++](problems/3084.md) | math-combination |
 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | [C++](problems/3618.md) | math-prime |
 | 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | [C++](problems/3765.md) | math-prime |
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | [C++](problems/3770.md) | math-prime |
@@ -690,9 +690,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 42 個解法標記為易忘，建議面試前重點複習。
+目前共有 43 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（17）](#yiwang-math)　[📊 Bit Manipulation（4）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（1）](#yiwang-array)　[🌳 Tree（5）](#yiwang-tree)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（1）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（18）](#yiwang-math)　[📊 Bit Manipulation（4）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（1）](#yiwang-array)　[🌳 Tree（5）](#yiwang-tree)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（1）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -702,7 +702,7 @@
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | [C++](problems/0225.md) | design |
 
 <a id="yiwang-math"></a>
-#### 🔢 Math（17）
+#### 🔢 Math（18）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -721,6 +721,7 @@
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | [C++](problems/1588.md) | math-combination |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | [C++](problems/2180.md) | math-digit-decomposition |
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | [C++](problems/2894.md) | math |
+| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | [C++](problems/3084.md) | math |
 | 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | [C++](problems/3227.md) | math-game-theory |
 | 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | [C++](problems/3232.md) | math-game-theory |
 

@@ -11,4 +11,17 @@ solutions:
   - math
   time: O(N)
   space: O(1)
+  familiarity: 易忘
+  related:
+  - 1513
+- file: Solution_3084_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math Combination
+  topics:
+  - math-combination
+  time: O(N)
+  space: O(1)
   familiarity: 生疏
+  related:
+  - 1513
