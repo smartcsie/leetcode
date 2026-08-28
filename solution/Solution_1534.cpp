@@ -5,8 +5,8 @@
  *       0 <= i < j < k < arr.length，且 |arr[i]-arr[j]| <= a、|arr[j]-arr[k]| <= b、
  *       |arr[i]-arr[k]| <= c 同時成立。
  *
- * 時間複雜度：O(N³) - 三層巢狀迴圈窮舉所有可能的 (i, j, k) 組合。
- * 空間複雜度：O(1) - 只使用常數個變數（ans, i, j, k），不需額外配置記憶體。
+ * 時間複雜度：O(N³)
+ * 空間複雜度：O(1)
  *
  * 解法思路：
  * 1. 暴力窮舉所有三元組 (Brute Force Enumeration)：

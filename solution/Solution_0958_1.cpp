@@ -2,12 +2,12 @@
  * 題目：958. Check Completeness of a Binary Tree (二元樹的完全性檢驗)
  * 難度：Medium
  * 
- * 時間複雜度：O(N) 
+ * 時間複雜度：O(N)
  *   - getCount 遍歷所有節點一次：O(N)
  *   - validIndex (DFS) 最多遍歷所有節點一次：O(N)
  *   - 總時間為 O(N)
  * 
- * 空間複雜度：O(H) - H 為樹的高度 (Recursion Stack)
+ * 空間複雜度：O(H)
  *   - 在完全二元樹的情況下，樹高 H = O(log N)
  *   - 最壞情況 (偏斜樹) 空間可達 O(N)
  * 

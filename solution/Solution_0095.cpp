@@ -4,8 +4,8 @@
  * 描述：給定一個整數 n，產生所有由 1 到 n 組成、結構不同的二元搜尋樹，
  * 回傳這些樹的根節點清單。
  *
- * 時間複雜度：O(Catalan(N) * N)，Catalan(N) 是結果樹的總數
- * 空間複雜度：O(Catalan(N) * N)
+ * 時間複雜度：O(Catalan(N)
+ * 空間複雜度：O(Catalan(N)
  *
  * 解法思路：
  * （Interval DP + 記憶化，build(start, end) 代表「用 start~end 這段

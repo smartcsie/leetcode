@@ -3,8 +3,8 @@
  * 難度：困難 (Hard)
  * 描述：判斷陣列中是否存在兩個索引 i 和 j，使得 |nums[i] - nums[j]| <= valueDiff 且 |i - j| <= indexDiff。
  *
- * 時間複雜度：O(Nlog(min(N,K))) - k 為 indexDiff，在視窗內進行樹狀搜尋。
- * 空間複雜度：O(min(N,K)) - 維護一個大小為 k 的滑動視窗。
+ * 時間複雜度：O(Nlog(min(N,K)
+ * 空間複雜度：O(min(N,K)
  *
  * 解法思路：
  * 1. 使用 `std::set` 維護滑動視窗，其底層為紅黑樹，支援 O(log K) 範圍搜尋。

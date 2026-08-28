@@ -58,3 +58,23 @@
 ## 🤖 重要
 - **[Leetcode Hot 100](https://leetcode.com/problem-list/arw5ns9e/)**
 - **[Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)**
+
+---
+
+## 🤖 LeetCode 分類推薦
+
+### 綜合
+- [Collection of Concept Problems (DP / Graph ...)](https://leetcode.com/discuss/post/5504990/collection-of-concept-problems-dp-graph-dxl2b/)
+- [All LeetCode Articles on Coding Patterns](https://leetcode.com/discuss/post/5366542/all-leetcode-articles-on-coding-patterns-1uhy/)
+- [DSA Patterns You Need to Know](https://leetcode.com/discuss/post/5886397/dsa-patterns-you-need-to-know-by-anubhav-x7og/)
+- [15 Essential DSA Patterns for Tech Interviews](https://leetcode.com/discuss/post/7347258/15-essential-dsa-patterns-for-tech-inter-nxem/)
+- [LeetCode Patterns: 10 Core Algorithms for Coding Interviews](https://www.finalroundai.com/blog/leetcode-patterns)
+
+### Dynamic Programming
+- [The Pattern-Based Approach to Mastering DP](https://leetcode.com/discuss/post/7333827/the-pattern-based-approach-to-mastering-uwgbd/)
+
+### Greedy
+- [15 Core Greedy Patterns for Coding Interviews](https://leetcode.com/discuss/post/7344979/15-core-greedy-patterns-for-coding-inter-a1wp/)
+
+### Cycle Sort
+- [Cyclic Sort - Important Pattern](https://leetcode.com/discuss/post/2958275/cyclic-sort-important-pattern-by-sourin_-e9tr/)

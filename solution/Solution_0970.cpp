@@ -3,8 +3,8 @@
  * 難度：中等 (Medium)
  * 描述：尋找所有能表示為 x^i + y^j <= bound 的數。
  *
- * 時間複雜度：O(log_X(BOUND)*log_Y(BOUND))
- * 空間複雜度：O(S)，其中 S 是找到的強力整數個數。
+ * 時間複雜度：O(log_X(BOUND)
+ * 空間複雜度：O(S)
  *
  * 設計思路：
  * 1. 強力整數的數值受限於 bound，因此 x^i 和 y^j 的最大指數不超過 log(bound)。

@@ -3,8 +3,8 @@
  * 難度：中等 (Medium)
  * 描述：在 haystack 中尋找 needle 第一次出現的位置。
  *
- * 時間複雜度：O(N+M)，N 為 haystack 長度，M 為 needle 長度。
- * 空間複雜度：O(M)，用於存放 next 陣列。
+ * 時間複雜度：O(N+M)
+ * 空間複雜度：O(M)
  */
 
 #include <vector>

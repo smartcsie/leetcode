@@ -5,9 +5,9 @@
  * answer[0] 是只存在於 nums1、不存在於 nums2 的相異整數所組成的陣列；
  * answer[1] 是只存在於 nums2、不存在於 nums1 的相異整數所組成的陣列。
  *
- * 時間複雜度：O(N+M) - N、M 分別為 nums1、nums2 的長度，
+ * 時間複雜度：O(N+M)
  *             建立兩個 hash set 各需 O(N)、O(M)，之後各遍歷一次。
- * 空間複雜度：O(N+M) - set1、set2 分別儲存兩陣列的相異元素。
+ * 空間複雜度：O(N+M)
  *
  * 解法思路：
  * （雙 Hash Set 求差集 Set Difference）：

@@ -4,8 +4,8 @@
  * 描述：給你一個字串陣列 words，請你計算兩字串 word[i] 和 word[j] 不包含任何相同字元時，
  * 其長度乘積的最大值（length(word[i]) * length(word[j])）。如果找不到這樣的兩個字元不重複的字串，返回 0。
  *
- * 時間複雜度：O(N^2+N*L) - 預處理 bitmask O(N*L)，雙層比較 O(N^2)。
- * 空間複雜度：O(N) - 儲存每個字串的 bitmask。
+ * 時間複雜度：O(N^2+N*L)
+ * 空間複雜度：O(N)
  *
  * 解法思路：
  * （位元遮罩與位元運算 Bitmask & Bitwise Operation）：

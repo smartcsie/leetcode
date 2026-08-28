@@ -4,9 +4,9 @@
  * 描述：給定字串陣列 patterns 與字串 word，回傳 patterns 中有多少個字串
  *       是 word 的子字串。
  *
- * 時間複雜度：O(N*M) - N 為 word 長度，M 為所有 pattern 長度總和，
+ * 時間複雜度：O(N*M)
  *             對每個 pattern 呼叫 find 進行子字串搜尋。
- * 空間複雜度：O(1) - 只使用常數個變數（count），不需額外配置記憶體。
+ * 空間複雜度：O(1)
  *
  * 解法思路：
  * 1. 逐一檢查每個 pattern (Brute Force Substring Check)：

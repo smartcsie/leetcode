@@ -7,8 +7,8 @@
  * - 0 <= i < j < nums.length
  * - |nums[i] - nums[j]| == k
  *
- * 時間複雜度：O(NlogN) - 排序後雙指針或二分搜尋。
- * 空間複雜度：O(N) - 排序空間 O(logN)，set O(N)。
+ * 時間複雜度：O(NlogN)
+ * 空間複雜度：O(N)
  *
  * 解法思路：
  * （雙雜湊集合法 Dual Hash Sets）：

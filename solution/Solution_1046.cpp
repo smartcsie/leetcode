@@ -3,8 +3,8 @@
  * 難度：簡單 (Easy)
  * 描述：每次選取兩顆最重的石頭進行碰撞，若重量相等則皆粉碎，不相等則餘數留回堆中。
  *
- * 時間複雜度：O(NlogN) - 建堆 O(N)，每次彈出/壓入 O(logN)。
- * 空間複雜度：O(N) - 儲存所有石頭的重量。
+ * 時間複雜度：O(NlogN)
+ * 空間複雜度：O(N)
  *
  * 解法思路：
  * 利用 priority_queue 的建構子 `priority_queue<int>(stones.begin(), stones.end())`，

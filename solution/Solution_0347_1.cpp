@@ -3,8 +3,8 @@
  * 難度：中等 (Medium)
  * 描述：給定一個整數陣列 nums 和整數 k，回傳出現頻率前 k 高的元素。
  *
- * 時間複雜度：O(N log N) - 所有元素都 push 進 heap，每次 push 為 O(log N)。
- * 空間複雜度：O(N) - hash map 與 heap 各佔 O(N)。
+ * 時間複雜度：O(N log N)
+ * 空間複雜度：O(N)
  *
  * 解法思路：
  * （Hash Map + Max Heap）：
