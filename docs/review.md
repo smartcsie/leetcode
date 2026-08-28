@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（423）](#review-shengshu)　[🟣 易忘清單（43）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（424）](#review-shengshu)　[🟣 易忘清單（43）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 978 題　🔴 生疏：416 題　🟠 再練習：178 題　🟡 練習過：65 題　🟣 易忘：39 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 979 題　🔴 生疏：417 題　🟠 再練習：178 題　🟡 練習過：65 題　🟣 易忘：39 題　🟢 熟練：280 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -34,7 +34,7 @@
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 3 | 0 | 1 | 0 | 1 | 0 | 5 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 9 | 6 | 0 | 0 | 2 | 0 | 17 |
-| [design](topics/design.md) | 0 | 5 | 0 | 1 | 1 | 0 | 7 |
+| [design](topics/design.md) | 1 | 5 | 0 | 1 | 1 | 0 | 8 |
 | [dp-bitmask](topics/dp-bitmask.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-fibonacci](topics/dp-fibonacci.md) | 2 | 3 | 3 | 0 | 0 | 0 | 8 |
@@ -134,9 +134,16 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 423 個解法標記為生疏，建議找時間重新練習。
+目前共有 424 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（16）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（15）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（23）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（16）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（15）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（23）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+
+<a id="shengshu-design"></a>
+#### 🎨 Design（1）
+
+| # | 題目 | 難度 | 解法檔案 | 分類 |
+| --- | --- | --- | --- | --- |
+| 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | [C++](problems/0208.md) | design |
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（16）

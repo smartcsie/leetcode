@@ -1,8 +1,10 @@
 # design
 
-## 🔴 生疏（0）
+## 🔴 生疏（1）
 
-目前沒有標記為生疏的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](../problems/0208.md) | O(L) | O(N |
 
 ## 🟠 再練習（5）
 

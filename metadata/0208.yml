@@ -1,0 +1,13 @@
+number: 208
+title: Implement Trie
+url: https://leetcode.com/problems/implement-trie/
+solutions:
+- file: Solution_0208.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Design
+  topics:
+  - design
+  time: O(L)
+  space: O(N
+  familiarity: 生疏
