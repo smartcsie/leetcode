@@ -5,16 +5,16 @@ solutions:
 - file: Solution_0648.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table
   - Sorting
+  - Hash Table
   topics:
   - string
   time: O(N*L+M*K)
   space: O(D*L)
+  familiarity: 生疏
   note: '> [Replace Words](https://leetcode.com/problems/replace-words/)<br>
 
     > 最佳解是用Trie<br>'
-  familiarity: 生疏
 - file: Solution_0648_1.cpp
   difficulty: 🟡 Medium
   tags:
