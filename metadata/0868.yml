@@ -5,12 +5,10 @@ solutions:
 - file: Solution_0868.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Math Digit Decomposition
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  note: '> [Binary Gap](https://leetcode.com/problems/binary-gap/)  <br>
-
-    > pre_one_idx 紀錄上一次1的index，max_gap紀錄相鄰1的index最大值<br>'
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> prevIdx 紀錄上一次1的index，ans紀錄相鄰1的index最大值<br>'

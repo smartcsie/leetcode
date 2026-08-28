@@ -10,31 +10,23 @@
  * 空間複雜度：O(1) - 僅使用常數空間。
  */
 
-#include <algorithm>
-#include <climits>
-
 class Solution {
 public:
     int binaryGap(int n) {
-        // 若 '1' 的數量少於 2，不存在間距
-        if (__builtin_popcount(n) < 2) return 0;
-        
-        int pre_one_idx = -1;
-        int max_gap = 0;
-        int index = 0;
-        
-        while (n > 0) {
-            // 檢查當前最低位是否為 1
-            if (n & 1) {
-                if (pre_one_idx != -1) {
-                    max_gap = std::max(max_gap, index - pre_one_idx);
+        if(__builtin_popcount(n) < 2) return 0;
+        int prevIdx = -1;
+        int curIdx = 0;
+        int ans = 0;
+        while(n > 0) {
+            if(n & 1) {
+                if(prevIdx != -1) {
+                    ans = max(ans, curIdx - prevIdx);
                 }
-                pre_one_idx = index;
+                prevIdx = curIdx;
             }
-            n >>= 1; // 右移處理下一位
-            index++;
+            n >>= 1;
+            curIdx++;
         }
-        
-        return max_gap;
+        return ans;
     }
 };
