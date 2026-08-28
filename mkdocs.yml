@@ -154,9 +154,10 @@ nav:
       - tree: topics/tree.md
       - binary-search-tree: topics/binary-search-tree.md
       - tree-bfs-level-order: topics/tree-bfs-level-order.md
+      - tree-construction: topics/tree-construction.md
+      - tree-dfs-backtracking: topics/tree-dfs-backtracking.md
       - tree-dfs-global: topics/tree-dfs-global.md
       - trie: topics/trie.md
-      - tree-dfs-backtracking: topics/tree-dfs-backtracking.md
   - 🕸️ Graph:
       - graph-bfs: topics/graph-bfs.md
       - graph-dfs: topics/graph-dfs.md
