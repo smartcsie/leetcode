@@ -114,9 +114,9 @@
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 7 | 0 | 2 | 1 | 4 | 0 | 14 |
 | [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 0 | 1 | 5 | 0 | 10 | 0 | 16 |
-| [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
+| [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 3 | 0 | 1 | 1 | 0 | 0 | 5 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 6 | 2 | 19 | 2 | 7 | 0 | 36 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 6 | 2 | 18 | 2 | 7 | 0 | 35 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 2 | 3 | 1 | 4 | 6 | 0 | 16 |

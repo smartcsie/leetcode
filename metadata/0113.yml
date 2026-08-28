@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0113.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree Dfs Path
+  - Tree Dfs Backtracking
   - DFS
   - Backtracking
   topics:
-  - tree-dfs-path
+  - tree-dfs-backtracking
   time: O(N)
   space: O(H)
   familiarity: 練習過

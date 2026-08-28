@@ -8,10 +8,11 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（1）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 Medium | Tree Dfs Backtracking, DFS, Backtracking | [C++](../problems/0113.md) | O(N) | O(H) |
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | 🟡 Medium | Tree Dfs Backtracking, DFS | [C++](../problems/0988.md) | O(N) | O(H) |
 
 ## 🟣 易忘（0）
