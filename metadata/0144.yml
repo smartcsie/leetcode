@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0144_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree Dfs Path
+  - Tree Traversal
   - DFS
   topics:
-  - tree-dfs-path
+  - tree-traversal
   time: O(N)
   space: O(H)
   familiarity: 練習過

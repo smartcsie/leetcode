@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0094_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Stack
+  - Tree Traversal
   - Tree
   - DFS
   topics:
-  - tree-dfs-path
+  - tree-traversal
   time: O(N)
   space: O(H)
   familiarity: 練習過
