@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0889.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Tree Construction
   - Recursion
   topics:
-  - tree
+  - tree-construction
   time: O(N)
   space: O(N)
   familiarity: 生疏

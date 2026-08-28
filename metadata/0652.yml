@@ -5,12 +5,12 @@ solutions:
 - file: Solution_0652.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Tree Dfs Global
   - DFS
   - Hash Table
   - Serialization
   topics:
-  - tree
+  - tree-dfs-global
   time: O(N²)
   space: O(N²)
   familiarity: 生疏

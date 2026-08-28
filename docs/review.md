@@ -112,11 +112,12 @@
 | [string-substring](topics/string-substring.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [tree](topics/tree.md) | 7 | 0 | 2 | 1 | 4 | 0 | 14 |
+| [tree](topics/tree.md) | 2 | 0 | 2 | 1 | 3 | 0 | 8 |
 | [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 0 | 1 | 5 | 0 | 10 | 0 | 16 |
+| [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
-| [tree-dfs-global](topics/tree-dfs-global.md) | 3 | 0 | 1 | 1 | 0 | 0 | 5 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 6 | 2 | 18 | 2 | 7 | 0 | 35 |
+| [tree-dfs-global](topics/tree-dfs-global.md) | 4 | 0 | 1 | 1 | 0 | 0 | 6 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 7 | 2 | 18 | 2 | 8 | 0 | 37 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 2 | 3 | 1 | 4 | 6 | 0 | 16 |
@@ -261,22 +262,22 @@
 | --- | --- | --- | --- | --- |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | [C++](problems/0094.md) | tree-dfs-path |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | [C++](problems/0099.md) | binary-search-tree |
-| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | [C++](problems/0105.md) | tree |
-| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | [C++](problems/0106.md) | tree |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | [C++](problems/0105.md) | tree-construction |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | [C++](problems/0106.md) | tree-construction |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 Medium | [C++](problems/0109.md) | binary-search-tree |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | [C++](problems/0114.md) | tree-dfs-path |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | [C++](problems/0116.md) | tree |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | [C++](problems/0124.md) | tree-dfs-global |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | [C++](problems/0173.md) | tree-dfs-path |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | [C++](problems/0235.md) | binary-search-tree |
-| 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | [C++](problems/0236.md) | tree |
+| 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | [C++](problems/0236.md) | tree-dfs-path |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | [C++](problems/0437.md) | tree-dfs-path |
 | 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | 🟡 Medium | [C++](problems/0538.md) | binary-search-tree |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | [C++](problems/0648.md) | trie |
-| 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | 🟡 Medium | [C++](problems/0652.md) | tree |
+| 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | 🟡 Medium | [C++](problems/0652.md) | tree-dfs-global |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 Medium | [C++](problems/0687.md) | tree-dfs-global |
 | 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | [C++](problems/0863.md) | tree-dfs-path |
-| 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 Medium | [C++](problems/0889.md) | tree |
+| 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 Medium | [C++](problems/0889.md) | tree-construction |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | [C++](problems/0897.md) | tree-dfs-path |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 Medium | [C++](problems/1008.md) | binary-search-tree |
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 Medium | [C++](problems/1038.md) | binary-search-tree |
