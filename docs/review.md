@@ -80,8 +80,8 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 3 | 6 | 0 | 0 | 12 | 0 | 21 |
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 3 | 13 | 2 | 9 | 11 | 0 | 38 |
-| [math-combination](topics/math-combination.md) | 2 | 2 | 0 | 2 | 1 | 0 | 7 |
+| [math](topics/math.md) | 4 | 13 | 2 | 9 | 11 | 0 | 39 |
+| [math-combination](topics/math-combination.md) | 1 | 2 | 0 | 2 | 1 | 0 | 6 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 2 | 13 | 0 | 1 | 25 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 3 | 1 | 0 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 1 | 0 | 5 | 0 | 0 | 6 |
@@ -156,7 +156,7 @@
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | [C++](problems/2310.md) | math |
 | 2507 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 Medium | [C++](problems/2507.md) | math-factor-enumeration |
 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | [C++](problems/2521.md) | math-prime |
-| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | [C++](problems/3084.md) | math-combination |
+| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | [C++](problems/3084.md) | math |
 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | [C++](problems/3618.md) | math-prime |
 | 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | [C++](problems/3765.md) | math-prime |
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | [C++](problems/3770.md) | math-prime |

@@ -17,9 +17,7 @@
 class Solution {
 public:
     long long countSubstrings(std::string s, char c) {
-        // 使用 C++20 ranges::count 高效計算出現頻率
-        long long freq = std::ranges::count(s, c);
-        
+        long long freq = count(s.begin(), s.end(), c);
         // 使用組合公式 n * (n + 1) / 2
         // 使用 long long 以避免乘法溢位
         return freq * (freq + 1) / 2;

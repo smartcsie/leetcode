@@ -5,9 +5,10 @@ solutions:
 - file: Solution_3084.cpp
   difficulty: 🟢 Easy
   tags:
+  - Math
   - Combinatorics
   topics:
-  - math-combination
+  - math
   time: O(N)
   space: O(1)
   familiarity: 生疏

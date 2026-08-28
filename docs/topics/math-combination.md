@@ -1,11 +1,10 @@
 # math-combination
 
-## 🔴 生疏（2）
+## 🔴 生疏（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 Easy | Math, Combinatorics | [C++](../problems/0119.md) | O(N) | O(1) |
-| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Combinatorics | [C++](../problems/3084.md) | O(N) | O(1) |
 
 ## 🟠 再練習（2）
 
