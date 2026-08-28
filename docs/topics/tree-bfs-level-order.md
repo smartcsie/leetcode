@@ -4,17 +4,17 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（2）
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree, BFS | [C++](../problems/0103.md) | O(N) | O(W) |
+| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0103.md) | O(N) | O(W) |
+
+## 🟡 練習過（6）
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order | [C++](../problems/0103.md) | O(N) | O(N) |
-
-## 🟡 練習過（5）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](../problems/0637.md) | O(N) | O(W) |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0662.md) | O(N) | O(W) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS, Level Order Traversal | [C++](../problems/0958.md) | O(N) | O(W) |

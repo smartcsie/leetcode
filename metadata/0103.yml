@@ -5,7 +5,7 @@ solutions:
 - file: Solution_0103.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Tree Bfs Level Order
   - BFS
   topics:
   - tree-bfs-level-order
@@ -21,4 +21,4 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 練習過
