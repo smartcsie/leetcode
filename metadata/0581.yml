@@ -5,11 +5,12 @@ solutions:
 - file: Solution_0581.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Array Linear Scan
   - Sorting
   - Two Pointers
   topics:
   - array-linear-scan
   time: O(NlogN)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 易忘
+  note: '> **排序完和原本的vector相比，left、right往中間找有多少個不同元素**<br>'
