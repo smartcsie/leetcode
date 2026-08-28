@@ -11,4 +11,5 @@ solutions:
   - string
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **注意邊界條件if(segs == 1)，return word + string(space, '' '');**<br>'

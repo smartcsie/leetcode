@@ -19,28 +19,19 @@
 class Solution {
 public:
     string reorderSpaces(string text) {
-        int spaces = 0;
-        for(const char& c : text) {
-            if(c == ' ') spaces ++;
-        }
-        if(spaces == 0) return text;
-        istringstream ss(text);
-        string word;
+        int space = count(text.begin(), text.end(), ' ');
+        istringstream iss(text);
         vector<string> words;
-        while(ss >> word) {
-            words.push_back(word);
-        }
+        string word;
+        while(iss >> word) words.push_back(word);
+        int segs = words.size();
+        if(segs == 1) return word + string(space, ' ');
+        int gap = space / (segs - 1);
+        int remain = space % (segs - 1);
         string ans;
-        int n = words.size();
-        for(int i = 0; i < n; i++) {
-            ans.append(words[i]);
-            if(i != (n - 1)) {
-                ans.append(string(spaces/(n - 1), ' '));
-            } else if(n > 1){
-                ans.append(string(spaces % (n - 1), ' '));
-            } else if(n == 1){
-                ans.append(string(spaces , ' '));
-            }
+        for(int i = 0; i < segs; i++) {
+            ans += words[i];
+            ans += string((i == segs - 1) ? remain : gap , ' ');
         }
         return ans;
     }
