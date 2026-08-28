@@ -18,25 +18,19 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        stringstream ss(s);
+        istringstream iss(s);
         string word;
+        string ans;
         vector<string> words;
-        
-        // 1. 自動處理連續空格並提取單字
-        while (ss >> word) {
+        while(iss >> word) {
             words.push_back(word);
         }
-        
-        // 2. 使用反向迭代器進行拼接
-        string res;
-        for (auto it = words.rbegin(); it != words.rend(); ++it) {
-            res += *it;
-            // 若不是最後一個單字（即不是反向迭代器的最後一個），則補上空格
-            if (it != words.rend() - 1) {
-                res += " ";
-            }
+        reverse(words.begin(), words.end());
+        for(const string word : words) {
+            ans += word;
+            ans.push_back(' ');
         }
-        
-        return res;
+        ans.pop_back();
+        return ans;
     }
 };

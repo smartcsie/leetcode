@@ -11,4 +11,14 @@ solutions:
   - string
   time: O(N)
   space: O(N)
+  familiarity: 練習過
+- file: Solution_0151_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Fast Slow Pointers
+  topics:
+  - fast-slow-pointers
+  time: ''
+  space: ''
   familiarity: 生疏
+  is_best: true
