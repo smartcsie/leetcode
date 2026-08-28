@@ -8,29 +8,22 @@
  */
 
 class Solution {
-public:
-    void dfs(TreeNode* root, int target, vector<int>& path, vector<vector<int>>& res) {
-        if (!root) return;
-        
-        path.push_back(root->val);
-        
-        // 檢查是否為葉子節點，且滿足條件
-        if (!root->left && !root->right && root->val == target) {
-            res.push_back(path);
-        } else {
-            // 若非葉子，繼續深入子節點
-            dfs(root->left, target - root->val, path, res);
-            dfs(root->right, target - root->val, path, res);
+private:
+    void dfs(TreeNode* root, int targetSum, vector<int>& cur, vector<vector<int>>& ans) {
+        if(!root) return;
+        cur.push_back(root->val);
+        if(!root->left && !root->right && root-> val == targetSum) {
+            ans.push_back(cur);
         }
-        
-        // 回溯：移出當前節點，保持 path 與遞迴層級同步
-        path.pop_back();
+        dfs(root->left, targetSum - root->val, cur, ans);
+        dfs(root->right, targetSum - root->val, cur, ans);
+        cur.pop_back();
     }
-
+public:
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
-        vector<vector<int>> res;
-        vector<int> path;
-        dfs(root, targetSum, path, res);
-        return res;
+        vector<vector<int>> ans;
+        vector<int> cur;
+        dfs(root, targetSum, cur, ans);
+        return ans;
     }
 };
