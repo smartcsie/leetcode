@@ -1,9 +1,10 @@
 # monotonic-stack
 
-## 🔴 生疏（6）
+## 🔴 生疏（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | Monotonic Stack, Greedy, String | [C++](../problems/0316.md) | O(N) | O(1) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | Array, Hash Table, Stack, Monotonic Stack | [C++](../problems/0496.md) | O(N+M) | O(N) |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 Medium | Array, Stack, Monotonic Stack | [C++](../problems/0503.md) | O(N) | O(N) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | Stack, Monotonic Stack | [C++](../problems/0739.md) | O(N) | O(N) |

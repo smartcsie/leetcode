@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0316.cpp
   difficulty: 🟡 Medium
   tags:
-  - Stack
+  - Monotonic Stack
   - Greedy
   - String
   topics:
-  - stack
+  - monotonic-stack
   time: O(N)
   space: O(1)
   familiarity: 生疏

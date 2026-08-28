@@ -92,7 +92,7 @@
 | [math-prime](topics/math-prime.md) | 4 | 3 | 1 | 0 | 5 | 0 | 13 |
 | [math-simulation](topics/math-simulation.md) | 1 | 1 | 0 | 0 | 3 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
+| [monotonic-stack](topics/monotonic-stack.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 1 | 0 | 0 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 1 | 4 | 1 | 0 | 0 | 0 | 6 |
@@ -104,7 +104,7 @@
 | [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 1 | 0 | 0 | 3 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
-| [stack](topics/stack.md) | 5 | 2 | 0 | 0 | 8 | 0 | 15 |
+| [stack](topics/stack.md) | 4 | 2 | 0 | 0 | 8 | 0 | 14 |
 | [string](topics/string.md) | 11 | 5 | 4 | 1 | 21 | 0 | 42 |
 | [string-character-classification](topics/string-character-classification.md) | 1 | 2 | 1 | 0 | 18 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
@@ -386,7 +386,7 @@
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 🔴 Hard | [C++](problems/0032.md) | stack |
-| 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | [C++](problems/0316.md) | stack |
+| 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | [C++](problems/0316.md) | monotonic-stack |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | [C++](problems/0445.md) | stack |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | [C++](problems/0496.md) | monotonic-stack |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 Medium | [C++](problems/0503.md) | monotonic-stack |
