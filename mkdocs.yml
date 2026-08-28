@@ -154,6 +154,7 @@ nav:
       - tree: topics/tree.md
       - binary-search-tree: topics/binary-search-tree.md
       - tree-bfs-level-order: topics/tree-bfs-level-order.md
+      - tree-dfs-global: topics/tree-dfs-global.md
       - trie: topics/trie.md
   - 🕸️ Graph:
       - graph-bfs: topics/graph-bfs.md
@@ -167,9 +168,10 @@ nav:
       - sorting-implementation: topics/sorting-implementation.md
       - sorting-radix-sort: topics/sorting-radix-sort.md
       - sorting-custom-comparator: topics/sorting-custom-comparator.md
-      - sorting-counting-sort: topics/sorting-counting-sort.md
+      - sorting-bucket-sort: topics/sorting-bucket-sort.md
       - sorting: topics/sorting.md
       - sorting-cycle-decomposition: topics/sorting-cycle-decomposition.md
+      - sorting-counting-sort: topics/sorting-counting-sort.md
   - 📚 Priority Queue:
       - priority-queue: topics/priority-queue.md
   - 🔢 SQL:
