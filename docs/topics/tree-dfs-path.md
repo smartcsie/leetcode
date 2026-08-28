@@ -15,16 +15,15 @@
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | 🟡 Medium | Tree, DFS | [C++](../problems/0988.md) | O(N) | O(H) |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 Medium | Tree, DFS, Post-order | [C++](../problems/1530.md) | O(N×D²) | O(H×D) |
 
-## 🟠 再練習（4）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 Medium | Tree Dfs Path, DFS, Backtracking | [C++](../problems/0113.md) | O(N) | O(H) |
-| 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0671.md) | O(N) | O(H) |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | Tree Dfs Path | [C++](../problems/0958.md) | O(N) | O(”) |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | 🟢 Easy | Tree Dfs Path, DFS, Tree Traversal | [C++](../problems/1379.md) | O(N) | O(H) |
 
-## 🟡 練習過（20）
+## 🟡 練習過（21）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -40,6 +39,7 @@
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | 🟢 Easy | Tree Dfs Path, DFS, Post-order | [C++](../problems/0563.md) | O(N) | O(H) |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0606.md) | O(N) | O(H) |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | Tree Dfs Path, DFS, Recursion | [C++](../problems/0617.md) | O(min(N,M)) | O(min(N,M)) |
+| 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0671.md) | O(N) | O(H) |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0872.md) | O(N+M) | O(N+M) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0938.md) |  |  |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0965.md) | O(N) | O(H) |
