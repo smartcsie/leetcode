@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0538.cpp
   difficulty: 🟡 Medium
   tags:
+  - Binary Search Tree
   - BST
   - Reverse In-order Traversal
   topics:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 練習過

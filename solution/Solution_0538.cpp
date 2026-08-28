@@ -13,14 +13,17 @@
 
 class Solution {
 private:
-    int sum = 0;
+    void reverseInorder(TreeNode* root, int& sum) {
+        if(!root) return;
+        reverseInorder(root->right, sum);
+        sum += root->val;
+        root->val = sum;
+        reverseInorder(root->left, sum);
+    }
 public:
     TreeNode* convertBST(TreeNode* root) {
-        if(!root) return nullptr;
-        convertBST(root->right);
-        root->val += sum;
-        sum = root->val;
-        convertBST(root->left);
+        int sum = 0;
+        reverseInorder(root, sum);
         return root;
     }
 };
