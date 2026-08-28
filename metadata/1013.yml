@@ -5,12 +5,14 @@ solutions:
 - file: Solution_1013.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Array Linear Scan
   - Greedy
   - Prefix Sum
   topics:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 再練習
-  note: '> return parts >= 3;'
+  familiarity: 練習過
+  note: '> **return parts >= 3;很多個0會出bug**<br>
+
+    > **要用if(parts == 2 &&　i < arr.size() - 1) return true;'

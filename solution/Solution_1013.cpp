@@ -19,31 +19,22 @@
  * 因此只要最後 parts >= 3 即可判定成功（特別是當 target 為 0 時）。
  */
 
+
 class Solution {
 public:
-    bool canThreePartsEqualSum(std::vector<int>& arr) {
-        // 1. 計算總和
-        int sum = std::accumulate(arr.begin(), arr.end(), 0);
-        
-        // 2. 若總和無法被 3 整除，直接回傳 false
-        if (sum % 3 != 0) {
-            return false;
-        }
-        
-        int target = sum / 3;
+    bool canThreePartsEqualSum(vector<int>& arr) {
+        int sum = accumulate(arr.begin(), arr.end(), 0);
+        if(sum % 3 != 0) return false;
+        int count = 0;
         int parts = 0;
-        int partial = 0;
-        
-        // 3. 走訪陣列計算符合 target 的段落數
-        for (const int& num : arr) {
-            partial += num;
-            if (partial == target) {
+        for(int i = 0; i < arr.size(); i++) {
+            count += arr[i];
+            if(count == sum / 3) {
                 parts++;
-                partial = 0; // 重置以計算下一段
+                count = 0;
+                if(parts == 2 &&　i < arr.size() - 1) return true;
             }
         }
-        
-        // 4. 必須至少找到 3 個符合條件的段落
-        return parts >= 3;
+        return false;
     }
 };
