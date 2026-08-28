@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0429.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Tree Traversal
   - BFS
   topics:
-  - tree-bfs-level-order
+  - tree-traversal
   time: O(N)
   space: O(W)
   familiarity: 熟練
