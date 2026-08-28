@@ -4744,8 +4744,8 @@
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="cm"> * 描述：給定一個長度為 N 的字串 s，由 &#39;I&#39; (增加) 與 &#39;D&#39; (減少) 組成，</span>
 <a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> * 輸出一個排列，滿足當 s[i] == &#39;I&#39; 時 p[i] &lt; p[i+1]，s[i] == &#39;D&#39; 時 p[i] &gt; p[i+1]。</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> *</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(N) - 對撞指針，根據 D/I 決定填入最小或最大值。</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 空間複雜度：O(N) - 結果陣列大小為 N+1。</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(N)</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 空間複雜度：O(N)</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> *</span>
 <a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 解法思路：</span>
 <a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> * 1. 為了滿足增減規則，我們使用兩個指標：`i` (目前最小值) 與 `d` (目前最大值)。</span>
