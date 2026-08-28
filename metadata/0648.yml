@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0648.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting
+  - Trie
   - Hash Table
   topics:
-  - string
+  - trie
   time: O(N*L+M*K)
   space: O(D*L)
   familiarity: 生疏
@@ -18,9 +18,9 @@ solutions:
 - file: Solution_0648_1.cpp
   difficulty: 🟡 Medium
   tags:
-  - Trie
+  - Sorting
   topics:
-  - trie
+  - sorting
   time: O(N*L)
   space: O(M*L)
   familiarity: 生疏
