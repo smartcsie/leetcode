@@ -27,7 +27,7 @@
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [binary-search](topics/binary-search.md) | 20 | 0 | 1 | 0 | 1 | 0 | 22 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [binary-search-tree](topics/binary-search-tree.md) | 5 | 6 | 4 | 0 | 1 | 0 | 16 |
+| [binary-search-tree](topics/binary-search-tree.md) | 5 | 6 | 3 | 0 | 1 | 0 | 15 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [bit-manipulation](topics/bit-manipulation.md) | 6 | 8 | 3 | 3 | 15 | 0 | 35 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 3 | 2 | 0 | 1 | 3 | 0 | 9 |
@@ -118,7 +118,7 @@
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 4 | 0 | 1 | 1 | 0 | 0 | 6 |
 | [tree-dfs-path](topics/tree-dfs-path.md) | 7 | 2 | 17 | 2 | 6 | 0 | 34 |
-| [tree-traversal](topics/tree-traversal.md) | 1 | 0 | 2 | 0 | 3 | 0 | 6 |
+| [tree-traversal](topics/tree-traversal.md) | 1 | 0 | 3 | 0 | 3 | 0 | 7 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 2 | 3 | 1 | 4 | 6 | 0 | 16 |

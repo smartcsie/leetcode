@@ -8,13 +8,14 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（3）
+## 🟡 練習過（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree Traversal, Tree, DFS | [C++](../problems/0094.md) | O(N) | O(H) |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Traversal, DFS | [C++](../problems/0144.md) | O(N) | O(H) |
 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 Easy | Tree Traversal, DFS | [C++](../problems/0145.md) | O(N) | O(H) |
+| 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | 🟡 Medium | Tree Traversal, BST, Reverse In-order Traversal | [C++](../problems/0538.md) | O(N) | O(H) |
 
 ## 🟣 易忘（0）
 
