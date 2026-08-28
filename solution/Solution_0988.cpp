@@ -18,7 +18,7 @@ void dfs(TreeNode* root, string& cur, string& smallest) {
     if(!root->left && !root->right) {
         string temp = cur;
         reverse(temp.begin(), temp.end());
-        if(smallest == "" || temp < smallest) {
+        if(smallest.empty() || temp < smallest) {
             smallest = temp;
         }
     } else {
@@ -29,8 +29,7 @@ void dfs(TreeNode* root, string& cur, string& smallest) {
 }
 public:
     string smallestFromLeaf(TreeNode* root) {
-        string smallest = "";
-        string cur = "";
+        string smallest, cur = "";
         dfs(root, cur, smallest);
         return smallest;
     }
