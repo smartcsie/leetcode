@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 979 題　🔴 生疏：415 題　🟠 再練習：176 題　🟡 練習過：68 題　🟣 易忘：40 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 979 題　🔴 生疏：415 題　🟠 再練習：175 題　🟡 練習過：69 題　🟣 易忘：40 題　🟢 熟練：280 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -76,7 +76,7 @@
 | [hash-table-counting](topics/hash-table-counting.md) | 3 | 7 | 0 | 0 | 14 | 0 | 24 |
 | [hash-table-existence](topics/hash-table-existence.md) | 3 | 6 | 0 | 0 | 10 | 0 | 19 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 2 | 1 | 0 | 11 | 0 | 14 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 4 | 1 | 0 | 4 | 0 | 9 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 3 | 2 | 0 | 4 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 3 | 6 | 0 | 0 | 12 | 0 | 21 |
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |

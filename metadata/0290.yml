@@ -5,12 +5,13 @@ solutions:
 - file: Solution_0290.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Hash Table Mapping
   - Hash Table
   topics:
   - hash-table-mapping
   time: O(N+M)
   space: O(N+M)
-  familiarity: 再練習
+  familiarity: 練習過
+  note: '>**記得最後判斷條件return cIdx == pattern.size();**<br>'
   related:
   - 205
