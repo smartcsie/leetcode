@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0563.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree Dfs Path
+  - Tree Dfs Global
   - DFS
   - Post-order
   topics:
-  - tree-dfs-path
+  - tree-dfs-global
   time: O(N)
   space: O(H)
   familiarity: 練習過

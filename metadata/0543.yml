@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0543.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree Dfs Path
+  - Tree Dfs Global
   - DFS
   topics:
-  - tree-dfs-path
+  - tree-dfs-global
   time: O(N)
   space: O(H)
   familiarity: 易忘

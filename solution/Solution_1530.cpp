@@ -25,39 +25,33 @@
  */
 class Solution {
 private:
-    int res;
-    vector<int> dfs(TreeNode* root, int distance) {
+    vector<int> dfs(TreeNode* root, int distance, int& ans) {
         if (!root) return vector<int>(distance + 1, 0);  // ✅ 回傳全 0 vector
         if (!root->left && !root->right) {
             vector<int> leaf(distance + 1, 0);
             leaf[1] = 1;
             return leaf;
         }
-
-        auto l = dfs(root->left, distance);
-        auto r = dfs(root->right, distance);
-        vector<int> ans(distance + 1, 0);
-
+        auto l = dfs(root->left, distance, ans);
+        auto r = dfs(root->right, distance, ans);
+        vector<int> vec(distance + 1, 0);
         for (int i = 1; i <= distance; i++) {
             for (int j = 1; j <= distance; j++) {
                 if (i + j <= distance && l[i] && r[j]) {
-                    res += l[i] * r[j];
+                    ans += l[i] * r[j];
                 }
             }
         }
-
         for (int i = 1; i < distance; i++) {
-            if (l[i]) ans[i + 1] += l[i];
-            if (r[i]) ans[i + 1] += r[i];
+            if (l[i]) vec[i + 1] += l[i];
+            if (r[i]) vec[i + 1] += r[i];
         }
-
-        return ans;
+        return vec;
     }
-
 public:
     int countPairs(TreeNode* root, int distance) {
-        res = 0;
-        dfs(root, distance);
-        return res;
+        int ans = 0;
+        dfs(root, distance, ans);
+        return ans;
     }
 };

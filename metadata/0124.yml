@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0124.cpp
   difficulty: 🔴 Hard
   tags:
-  - Tree
+  - Tree Dfs Global
   - Recursion
   - DP
   topics:
-  - tree-dfs-path
+  - tree-dfs-global
   time: O(N)
   space: O(H)
   familiarity: 生疏
