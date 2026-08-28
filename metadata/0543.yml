@@ -12,3 +12,5 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 易忘
+  related:
+  - 563
