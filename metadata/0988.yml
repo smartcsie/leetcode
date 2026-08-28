@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0988.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree Dfs Path
+  - Tree Dfs Backtracking
   - DFS
   topics:
-  - tree-dfs-path
+  - tree-dfs-backtracking
   time: O(N)
   space: O(H)
   familiarity: 練習過
