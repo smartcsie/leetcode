@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0581.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array Linear Scan
+  - Sorting
   - Sorting
   - Two Pointers
   topics:
-  - array-linear-scan
+  - sorting
   time: O(NlogN)
   space: O(N)
   familiarity: 易忘

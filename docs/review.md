@@ -17,7 +17,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 4 | 0 | 0 | 4 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 3 | 6 | 0 | 1 | 16 | 0 | 26 |
+| [array-linear-scan](topics/array-linear-scan.md) | 3 | 6 | 0 | 0 | 16 | 0 | 25 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 15 | 1 | 0 | 1 | 2 | 0 | 19 |
@@ -96,7 +96,7 @@
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 1 | 0 | 0 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 1 | 4 | 1 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 6 | 0 | 1 | 0 | 3 | 0 | 10 |
+| [sorting](topics/sorting.md) | 6 | 0 | 1 | 1 | 3 | 0 | 11 |
 | [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 3 | 0 | 2 | 0 | 0 | 0 | 5 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 0 | 2 | 6 | 0 | 2 | 0 | 10 |
@@ -695,7 +695,7 @@
 
 目前共有 44 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（18）](#yiwang-math)　[📊 Bit Manipulation（4）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（2）](#yiwang-array)　[🌳 Tree（5）](#yiwang-tree)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（1）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（18）](#yiwang-math)　[📊 Bit Manipulation（4）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（1）](#yiwang-array)　[🌳 Tree（5）](#yiwang-tree)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -746,11 +746,10 @@
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | [C++](problems/3280.md) | string |
 
 <a id="yiwang-array"></a>
-#### 🍱 Array（2）
+#### 🍱 Array（1）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
-| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | [C++](problems/0581.md) | array-linear-scan |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | [C++](problems/1588.md) | array-prefix-sum |
 
 <a id="yiwang-tree"></a>
@@ -777,10 +776,11 @@
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | [C++](problems/0680.md) | two-pointers-opposite |
 
 <a id="yiwang-sorting"></a>
-#### 📊 Sorting（1）
+#### 📊 Sorting（2）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
+| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | [C++](problems/0581.md) | sorting |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | [C++](problems/0912.md) | sorting-implementation |
 
 <a id="yiwang-greedy"></a>

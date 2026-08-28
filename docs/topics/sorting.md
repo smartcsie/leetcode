@@ -19,9 +19,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](../problems/0581.md) | O(NlogN) | O(N) |
 
 ## 🟢 熟悉（4）
 
