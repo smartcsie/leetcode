@@ -66,6 +66,21 @@ SAFE_FILENAME_RE = re.compile(r'^[A-Za-z0-9_\-\.]+$')
 ANSI_RE = re.compile(r'\x1b\[[0-9;]*m')
 
 
+def decode_output(value):
+    """
+    subprocess 的 TimeoutExpired 例外裡，e.stdout / e.stderr 即使呼叫時
+    有加 text=True，還是可能是原始 bytes（Python 的已知行為：text=True
+    的解碼只套用在執行成功回傳的 CompletedProcess 上，逾時例外拿到的是
+    尚未解碼的緩衝內容）。這裡統一轉成字串，None 轉成空字串，避免
+    "can't concat str to bytes" 這種錯誤。
+    """
+    if value is None:
+        return ''
+    if isinstance(value, bytes):
+        return value.decode('utf-8', errors='replace')
+    return value
+
+
 def is_safe_filename(name):
     return bool(name) and SAFE_FILENAME_RE.match(name) and '..' not in name
 
@@ -291,7 +306,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 'output': output,
             })
         except subprocess.TimeoutExpired as e:
-            partial = (e.stdout or '') + (e.stderr or '')
+            partial = decode_output(e.stdout) + (('\n' + decode_output(e.stderr)) if e.stderr else '')
             self._send_json(504, {
                 'error': f'執行逾時（超過 {PUBLISH_TIMEOUT_SEC} 秒），請到終端機檢查狀況',
                 'output': ANSI_RE.sub('', partial),
