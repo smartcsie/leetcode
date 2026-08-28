@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0116.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Tree Bfs Level Order
   - Recursion
   - Constant Space
   topics:
-  - tree
+  - tree-bfs-level-order
   time: O(N)
   space: O(1)
   familiarity: 生疏

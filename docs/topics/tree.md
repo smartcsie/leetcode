@@ -1,10 +1,8 @@
 # tree
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | Tree, Recursion, Constant Space | [C++](../problems/0116.md) | O(N) | O(1) |
+目前沒有標記為生疏的解法。
 
 ## 🟠 再練習（0）
 

@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（429）](#review-shengshu)　[🟣 易忘清單（42）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（427）](#review-shengshu)　[🟣 易忘清單（42）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 978 題　🔴 生疏：421 題　🟠 再練習：178 題　🟡 練習過：61 題　🟣 易忘：39 題　🟢 熟練：279 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 978 題　🔴 生疏：420 題　🟠 再練習：178 題　🟡 練習過：62 題　🟣 易忘：39 題　🟢 熟練：279 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -93,9 +93,9 @@
 | [math-simulation](topics/math-simulation.md) | 1 | 1 | 0 | 0 | 3 | 0 | 5 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [priority-queue](topics/priority-queue.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
+| [priority-queue](topics/priority-queue.md) | 6 | 0 | 1 | 0 | 0 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
-| [quick-select](topics/quick-select.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
+| [quick-select](topics/quick-select.md) | 1 | 4 | 1 | 0 | 0 | 0 | 6 |
 | [sorting](topics/sorting.md) | 5 | 0 | 1 | 0 | 3 | 0 | 9 |
 | [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 3 | 0 | 2 | 0 | 0 | 0 | 5 |
@@ -112,8 +112,8 @@
 | [string-substring](topics/string-substring.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [tree](topics/tree.md) | 2 | 0 | 2 | 1 | 3 | 0 | 8 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 0 | 1 | 5 | 0 | 9 | 0 | 15 |
+| [tree](topics/tree.md) | 1 | 0 | 2 | 1 | 3 | 0 | 7 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 1 | 1 | 5 | 0 | 9 | 0 | 16 |
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 4 | 0 | 1 | 1 | 0 | 0 | 6 |
@@ -134,9 +134,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 429 個解法標記為生疏，建議找時間重新練習。
+目前共有 427 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（23）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（24）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（7）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（2）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🔢 Math（18）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（18）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（23）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（24）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-math"></a>
 #### 🔢 Math（18）
@@ -267,7 +267,7 @@
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | [C++](problems/0106.md) | tree-construction |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 Medium | [C++](problems/0109.md) | binary-search-tree |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | [C++](problems/0114.md) | tree-dfs-path |
-| 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | [C++](problems/0116.md) | tree |
+| 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | [C++](problems/0116.md) | tree-bfs-level-order |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | [C++](problems/0124.md) | tree-dfs-global |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | [C++](problems/0173.md) | tree-dfs-path |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | [C++](problems/0235.md) | binary-search-tree |
@@ -398,12 +398,11 @@
 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | [C++](problems/1963.md) | stack |
 
 <a id="shengshu-priority-queue"></a>
-#### 📚 Priority Queue（7）
+#### 📚 Priority Queue（6）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | [C++](problems/0023.md) | priority-queue |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | [C++](problems/0347.md) | priority-queue |
 | 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sum/) | 🟡 Medium | [C++](problems/0373.md) | priority-queue |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | [C++](problems/0692.md) | priority-queue |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 Easy | [C++](problems/0703.md) | priority-queue |
@@ -418,12 +417,11 @@
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | [C++](problems/0239.md) | monotonic-queue |
 
 <a id="shengshu-quick-select"></a>
-#### 📚 Quick Select（2）
+#### 📚 Quick Select（1）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | 🟡 Medium | [C++](problems/0324.md) | quick-select |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | [C++](problems/0347.md) | quick-select |
 
 <a id="shengshu-graph"></a>
 #### 🕸️ Graph（5）

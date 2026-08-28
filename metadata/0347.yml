@@ -12,7 +12,7 @@ solutions:
   - quick-select
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
   note: '> 題目 You may return the answer in any order.用 QuickSelect<br>
 
     > target 位置的元素是正確的第 k 個元素<br>
@@ -30,4 +30,4 @@ solutions:
   - priority-queue
   time: O(NlogN)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
