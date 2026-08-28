@@ -21,19 +21,14 @@
 class Solution {
 public:
     int secondsBetweenTimes(std::string startTime, std::string endTime) {
-        // 解析 startTime 的時、分、秒並轉為總秒數
-        int startH = (startTime[0] - '0') * 10 + (startTime[1] - '0');
-        int startM = (startTime[3] - '0') * 10 + (startTime[4] - '0');
-        int startS = (startTime[6] - '0') * 10 + (startTime[7] - '0');
-        int start = startH * 3600 + startM * 60 + startS;
-        
-        // 解析 endTime 的時、分,、秒並轉為總秒數
-        int endH = (endTime[0] - '0') * 10 + (endTime[1] - '0');
-        int endM = (endTime[3] - '0') * 10 + (endTime[4] - '0');
-        int endS = (endTime[6] - '0') * 10 + (endTime[7] - '0');
-        int end = endH * 3600 + endM * 60 + endS;
-        
-        // 計算差值，若結束時間小於開始時間則補上循環差值
-        return (start <= end) ? (end - start) : (end - start + 3600);
+        string &s = startTime;
+        string &e = endTime;
+        int h1 = (s[0] - '0') * 10 + s[1] - '0';
+        int m1 = (s[3] - '0') * 10 + s[4] - '0';
+        int s1 = (s[6] - '0') * 10 + s[7] - '0';
+        int h2 = (e[0] - '0') * 10 + e[1] - '0';
+        int m2 = (e[3] - '0') * 10 + e[4] - '0';
+        int s2 = (e[6] - '0') * 10 + e[7] - '0';
+        return (h2 * 3600 + m2 * 60 + s2) - (h1 * 3600 + m1 * 60 + s1) ;
     }
 };
