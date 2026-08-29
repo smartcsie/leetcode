@@ -5,9 +5,18 @@ solutions:
 - file: Solution_2044.cpp
   difficulty: 🟡 Medium
   tags:
+  - Backtracking Combination
+  topics:
+  - backtracking-combination
+  time: O(2^N)
+  space: O(N)
+  familiarity: 生疏
+- file: Solution_2044_1.cpp
+  difficulty: 🟡 Medium
+  tags:
   - Bit Bitmask Subset Enumeration
   topics:
   - bit-bitmask-subset-enumeration
-  time: O(2^N) - 遍歷所有子集。
-  space: O(N) - 遞迴堆疊深度。
-  familiarity: 生疏
+  time: O(N*2^N)
+  space: O(1)
+  familiarity: 練習過
