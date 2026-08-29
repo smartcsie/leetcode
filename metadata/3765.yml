@@ -5,29 +5,11 @@ solutions:
 - file: Solution_3765.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Prime
   - Prime Number
   topics:
   - math-prime
   time: O(D*sqrt(N))
   space: O(D)
-  note: '> [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/)<br>
-
-    > **string s = to_string(num);** <br>
-
-    > **int n = s.size();** <br>
-
-    > **for(int i = 1; i <= n; i++) {** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**int prefix = stoi(s.substr(0, i));** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**if(!isPrime(prefix)) return false;** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**int suffix = stoi(s.substr(n - i,i));** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**if(!isPrime(suffix)) return false;** <br>
-
-    > **}** <br>
-
-    > **return true;** <br>'
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **注意 for(int i = 1; i <= n; i++) 其中的<= n **<br>'
