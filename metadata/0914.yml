@@ -5,11 +5,14 @@ solutions:
 - file: Solution_0914.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Gcd
   - GCD
   - Hash Table
   topics:
   - math-gcd
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **先用 unordered_map算 count**<br>
+
+    > **把所有count做gcd**<br>'

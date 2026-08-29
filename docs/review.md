@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（413）](#review-shengshu)　[🟣 易忘清單（45）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（412）](#review-shengshu)　[🟣 易忘清單（45）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 979 題　🔴 生疏：407 題　🟠 再練習：172 題　🟡 練習過：79 題　🟣 易忘：41 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 979 題　🔴 生疏：406 題　🟠 再練習：172 題　🟡 練習過：80 題　🟣 易忘：41 題　🟢 熟練：280 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -85,7 +85,7 @@
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 1 | 13 | 1 | 1 | 25 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 3 | 1 | 0 | 0 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 1 | 0 | 5 | 0 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 2 | 3 | 0 | 0 | 4 | 0 | 9 |
+| [math-gcd](topics/math-gcd.md) | 1 | 3 | 1 | 0 | 4 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 0 | 0 | 2 | 0 | 1 | 0 | 3 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -134,9 +134,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 413 個解法標記為生疏，建議找時間重新練習。
+目前共有 412 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（14）](#shengshu-math)　[📊 Bit Manipulation（26）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（29）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（15）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（57）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（13）](#shengshu-math)　[📊 Bit Manipulation（26）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（29）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（15）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（57）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -146,14 +146,13 @@
 | 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | [C++](problems/0208.md) | design |
 
 <a id="shengshu-math"></a>
-#### 🔢 Math（14）
+#### 🔢 Math（13）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | [C++](problems/0060.md) | math |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | [C++](problems/0396.md) | math |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | [C++](problems/0507.md) | math-factor-enumeration |
-| 914 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | 🟢 Easy | [C++](problems/0914.md) | math-gcd |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | [C++](problems/0949.md) | math-permutation |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | [C++](problems/0989.md) | math-simulation |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | [C++](problems/1404.md) | math-digit-decomposition |

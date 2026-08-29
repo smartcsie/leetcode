@@ -1,10 +1,9 @@
 # math-gcd
 
-## 🔴 生疏（2）
+## 🔴 生疏（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 914 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | 🟢 Easy | Math, GCD, Hash Table | [C++](../problems/0914.md) | O(N) | O(N) |
 | 3867 | [Sum of GCD of Formed Pairs](leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 Medium | GCD, Sorting | [C++](../problems/3867.md) | O(NlogN) | O(N) |
 
 ## 🟠 再練習（3）
@@ -15,9 +14,11 @@
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy | Math Gcd, String, GCD | [C++](../problems/1071.md) | O(N+M) | O(N+M) |
 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 Easy | Math Gcd, Number Theory, GCD | [C++](../problems/2427.md) | O(min(A,B)) | O(1) |
 
-## 🟡 練習過（0）
+## 🟡 練習過（1）
 
-目前沒有標記為練習過的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 914 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | 🟢 Easy | Math Gcd, GCD, Hash Table | [C++](../problems/0914.md) | O(N) | O(N) |
 
 ## 🟣 易忘（0）
 
