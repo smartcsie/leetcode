@@ -12,7 +12,7 @@ solutions:
   - dp-fibonacci
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 練習過
   related:
   - 509
   - 1137
@@ -24,4 +24,4 @@ solutions:
   - dp-fibonacci
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 練習過
