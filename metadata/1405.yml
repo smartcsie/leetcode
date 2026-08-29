@@ -6,7 +6,8 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Greedy Exchange Argument
-  topics: []
+  topics:
+  - greedy-exchange-argument
   time: O((a+b+c) log 3)
   space: O(1)
   familiarity: 生疏
