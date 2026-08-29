@@ -7,15 +7,14 @@
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | Dp Fibonacci | [C++](../problems/0091.md) | O(N) | O(N) |
 | 2266 | [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | 🟡 Medium | Dp Fibonacci | [C++](../problems/2266.md) | O(N) | O(最長連續按鍵長度) |
 
-## 🟠 再練習（3）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci, DP | [C++](../problems/0213.md) | O(N) | O(1) |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci | [C++](../problems/0213.md) | O(N) | O(N) |
-| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dynamic Programming Fibonacci | [C++](../problems/0746.md) | O(N) | O(N) |
 
-## 🟡 練習過（7）
+## 🟡 練習過（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -25,6 +24,8 @@
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Dynamic Programming Fibonacci | [C++](../problems/0198.md) | O(N) | O(N) |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming Fibonacci, Dynamic Programming | [C++](../problems/0509.md) | O(N) | O(1) |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming Fibonacci | [C++](../problems/0509.md) | O(N) | O(N) |
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](../problems/0746.md) | O(N) | O(N) |
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci | [C++](../problems/0746.md) |  |  |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dynamic Programming Fibonacci, DP | [C++](../problems/1137.md) | O(N) | O(1) |
 
 ## 🟣 易忘（0）

@@ -5,9 +5,20 @@ solutions:
 - file: Solution_0746.cpp
   difficulty: 🟢 Easy
   tags:
+  - Dp Fibonacci
   - Dynamic Programming Fibonacci
   topics:
   - dp-fibonacci
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 練習過
+- file: Solution_0746_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Dp Fibonacci
+  topics:
+  - dp-fibonacci
+  time: ''
+  space: ''
+  familiarity: 練習過
+  is_best: true
