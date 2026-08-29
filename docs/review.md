@@ -80,7 +80,7 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 3 | 6 | 0 | 0 | 12 | 0 | 21 |
 | [linked-list](topics/linked-list.md) | 10 | 4 | 0 | 0 | 1 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 3 | 13 | 3 | 9 | 11 | 0 | 39 |
+| [math](topics/math.md) | 3 | 13 | 4 | 9 | 11 | 0 | 40 |
 | [math-combination](topics/math-combination.md) | 0 | 1 | 2 | 2 | 0 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 1 | 13 | 1 | 1 | 25 | 0 | 41 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 2 | 1 | 1 | 0 | 0 | 0 | 4 |

@@ -25,12 +25,13 @@
 | 2063 | [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) | 🟡 Medium | Math, Contribution Technique | [C++](../problems/2063.md) | O(N) | O(1) |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](../problems/2485.md) | O(1) | O(1) |
 
-## 🟡 練習過（2）
+## 🟡 練習過（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](../problems/0263.md) | O(logN) | O(1) |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) |
+| 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](../problems/0507.md) | O(1) | O(1) |
 
 ## 🟣 易忘（10）
 

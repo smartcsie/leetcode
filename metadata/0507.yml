@@ -24,3 +24,13 @@ solutions:
     > 法二<br>
 
     > return num == 6 || num == 28 || num == 496 || num == 8128 || num == 33550336;<br>'
+- file: Solution_0507_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)
+  familiarity: 練習過
+  note: '>**$2^{p-1} \times (2^p - 1)$**<br>'
