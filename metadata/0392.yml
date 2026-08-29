@@ -5,6 +5,7 @@ solutions:
 - file: Solution_0392_1.cpp
   difficulty: 🟢 Easy
   tags:
+  - Dp Lcs
   - Dynamic Programming Lcs
   - DP
   - LCS

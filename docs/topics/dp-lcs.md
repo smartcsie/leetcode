@@ -7,7 +7,7 @@
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | Dynamic Programming Lcs, DP | [C++](../problems/0072.md) | O(N\*M) | O(N\*M) |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | Dynamic Programming Lcs, Two Strings | [C++](../problems/0097.md) | O(M \* N) | O(M \* N) |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | Dynamic Programming Lcs, DP | [C++](../problems/0115.md) | O(S\*T) | O(T) |
-| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dynamic Programming Lcs, DP, LCS | [C++](../problems/0392.md) | O(S\*T) | O(S\*T) |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](../problems/0392.md) | O(S\*T) | O(S\*T) |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | Dynamic Programming Lcs, DP | [C++](../problems/0516.md) | O(N²) | O(N) |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming Lcs | [C++](../problems/0583.md) | O(M\*N) | O(M\*N) |
 | 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | Dynamic Programming Lcs, String | [C++](../problems/0712.md) | O(M×N) | O(M×N) |
