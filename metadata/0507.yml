@@ -20,4 +20,4 @@ solutions:
   time: O(1)
   space: O(1)
   familiarity: 練習過
-  note: '>**$2^{p-1} \times (2^p - 1)$**<br>'
+  note: '>**2⁽ᵖ⁻¹⁾ × (2ᵖ - 1)**<br>'
