@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1759.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math Combination
+  - Array Continuous Counting
   - String
   topics:
-  - math-combination
+  - array-continuous-counting
   time: O(N)
   space: O(1)
   familiarity: 熟練
