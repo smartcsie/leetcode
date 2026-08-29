@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0119.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Combination
   - Combinatorics
   topics:
   - math-combination
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
