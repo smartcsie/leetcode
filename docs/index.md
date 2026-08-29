@@ -6,6 +6,9 @@
 
 ---
 
+## 📂 本專案 Pattern 整理
+- **[Pattern 分類目錄 (本 repo)](https://github.com/smartcsie/leetcode/tree/main/pattern)** — DP / Greedy / Backtracking 各分類 pattern 的整理筆記
+
 
 ## 🤖 Solutions
 - [doocs (github)](https://github.com/doocs/leetcode/tree/main/solution)
