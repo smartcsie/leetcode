@@ -5,9 +5,10 @@ solutions:
 - file: Solution_0147.cpp
   difficulty: 🟡 Medium
   tags:
-  - Linked List
+  - Sorting
   - Insertion Sort
-  topics: null
+  topics:
+  - sorting
   time: O(N²)
   space: O(1)
   familiarity: 生疏
