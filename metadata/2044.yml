@@ -11,6 +11,7 @@ solutions:
   time: O(2^N)
   space: O(N)
   familiarity: 生疏
+  is_best: true
 - file: Solution_2044_1.cpp
   difficulty: 🟡 Medium
   tags:
