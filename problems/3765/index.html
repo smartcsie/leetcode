@@ -4737,7 +4737,7 @@
 
 <h1 id="3765-complete-prime-number">3765. Complete Prime Number<a class="headerlink" href="#3765-complete-prime-number" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/complete-prime-number/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Math, Prime Number　<strong>時間:</strong> O(D<em>sqrt(N))　</em><em>空間:</em><em> O(D)　</em><em>熟悉度:</em>* 🔴 生疏</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Math Prime, Prime Number　<strong>時間:</strong> O(D<em>sqrt(N))　</em><em>空間:</em><em> O(D)　</em><em>熟悉度:</em>* 🟡 練習過</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：3765. Complete Prime Number</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -4784,16 +4784,7 @@
 <a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/complete-prime-number/">Complete Prime Number</a><br>
-<strong>string s = to_string(num);</strong> <br>
-<strong>int n = s.size();</strong> <br>
-<strong>for(int i = 1; i &lt;= n; i++) {</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>int prefix = stoi(s.substr(0, i));</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>if(!isPrime(prefix)) return false;</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>int suffix = stoi(s.substr(n - i,i));</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>if(!isPrime(suffix)) return false;</strong> <br>
-<strong>}</strong> <br>
-<strong>return true;</strong> <br></p>
+<p><strong>注意 for(int i = 1; i &lt;= n; i++) 其中的&lt;= n </strong><br></p>
 </blockquote>
 
 
