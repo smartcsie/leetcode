@@ -21,12 +21,11 @@
 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | [C++](../problems/2027.md) | O(N) | O(1) |
 | 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 Easy | Greedy, Greedy | [C++](../problems/2600.md) | O(1) | O(1) |
 
-## 🟡 練習過（2）
+## 🟡 練習過（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy, Hashing | [C++](../problems/2815.md) | O(N\*D) | O(1) |
-| 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | Greedy, String | [C++](../problems/3114.md) | O(1) | O(1) |
 
 ## 🟣 易忘（2）
 

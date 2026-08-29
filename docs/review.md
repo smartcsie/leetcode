@@ -56,10 +56,9 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 5 | 6 | 2 | 2 | 2 | 0 | 17 |
+| [greedy](topics/greedy.md) | 5 | 6 | 1 | 2 | 2 | 0 | 16 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
-| [greedy-digit-construction](topics/greedy-digit-construction.md) | 6 | 2 | 0 | 0 | 1 | 0 | 9 |
-| [greedy-exchange-argument](topics/greedy-exchange-argument.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [greedy-digit-construction](topics/greedy-digit-construction.md) | 6 | 2 | 1 | 0 | 1 | 0 | 10 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 3 | 2 | 0 | 0 | 0 | 0 | 5 |
 | [greedy-frequency-merging](topics/greedy-frequency-merging.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [greedy-graph](topics/greedy-graph.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -137,7 +136,7 @@
 
 目前共有 410 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（12）](#shengshu-math)　[📊 Bit Manipulation（26）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（28）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（16）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（58）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（12）](#shengshu-math)　[📊 Bit Manipulation（26）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（28）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（16）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（57）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（1）](#shengshu-other)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -546,7 +545,7 @@
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | [C++](problems/2826.md) | dp-lis |
 
 <a id="shengshu-greedy"></a>
-#### 🧩 Greedy（58）
+#### 🧩 Greedy（57）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -579,7 +578,6 @@
 | 1296 | [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) | 🟡 Medium | [C++](problems/1296.md) | greedy-frequency-merging |
 | 1338 | [Reduce Array Size to the Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | 🟡 Medium | [C++](problems/1338.md) | greedy-frequency-merging |
 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) | 🔴 Hard | [C++](problems/1392.md) | greedy-selection-constraints |
-| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | [C++](problems/1405.md) | greedy-exchange-argument |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | [C++](problems/1405.md) | greedy-string-construction |
 | 1531 | [String Compression II](https://leetcode.com/problems/string-compression-ii/) | 🔴 Hard | [C++](problems/1531.md) | greedy-optimal-partitioning |
 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 Medium | [C++](problems/1551.md) | greedy |
@@ -668,6 +666,13 @@
 | 3325 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/) | 🟡 Medium | [C++](problems/3325.md) | variable-size-sliding-window |
 | 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | [C++](problems/3392.md) | fixed-size-sliding-window |
 | 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | [C++](problems/3456.md) | fixed-size-sliding-window |
+
+<a id="shengshu-other"></a>
+#### 📄 Other（1）
+
+| # | 題目 | 難度 | 解法檔案 | 分類 |
+| --- | --- | --- | --- | --- |
+| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | [C++](problems/1405.md) |  |
 
 ---
 

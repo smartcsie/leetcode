@@ -8,7 +8,7 @@ solutions:
   - Greedy
   - String
   topics:
-  - greedy
+  - greedy-digit-construction
   time: O(1)
   space: O(1)
   familiarity: 練習過
