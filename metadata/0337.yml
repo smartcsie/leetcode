@@ -5,10 +5,10 @@ solutions:
 - file: Solution_337.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Dp Tree
   - DP
   topics:
   - dp-tree
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 練習過

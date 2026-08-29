@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（422）](#review-shengshu)　[🟣 易忘清單（44）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（421）](#review-shengshu)　[🟣 易忘清單（44）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 979 題　🔴 生疏：415 題　🟠 再練習：172 題　🟡 練習過：72 題　🟣 易忘：40 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 979 題　🔴 生疏：414 題　🟠 再練習：172 題　🟡 練習過：73 題　🟣 易忘：40 題　🟢 熟練：280 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -49,7 +49,7 @@
 | [dp-state-machine](topics/dp-state-machine.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [dp-string](topics/dp-string.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [dp-tree](topics/dp-tree.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
+| [dp-tree](topics/dp-tree.md) | 3 | 0 | 1 | 0 | 0 | 0 | 4 |
 | [dynamic-programming](topics/dynamic-programming.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 6 | 1 | 2 | 0 | 5 | 0 | 14 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
@@ -134,9 +134,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 422 個解法標記為生疏，建議找時間重新練習。
+目前共有 421 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（16）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（15）](#shengshu-sorting)　[🧩 Dynamic Programming（91）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（16）](#shengshu-math)　[📊 Bit Manipulation（27）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（15）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -456,7 +456,7 @@
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | [C++](problems/3551.md) | sorting-cycle-decomposition |
 
 <a id="shengshu-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（91）
+#### 🧩 Dynamic Programming（90）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -488,7 +488,6 @@
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | [C++](problems/0312.md) | dp-interval |
 | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | [C++](problems/0313.md) | dynamic-programming |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | [C++](problems/0322.md) | dp-knapsack |
-| 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | [C++](problems/0337.md) | dp-tree |
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | 🔴 Hard | [C++](problems/0354.md) | dp-lis |
 | 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | 🟡 Medium | [C++](problems/0375.md) | dp-interval |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | [C++](problems/0377.md) | dp-knapsack |
