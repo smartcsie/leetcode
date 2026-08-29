@@ -14,14 +14,10 @@
 class Solution {
 public:
     vector<int> maxKDistinct(vector<int>& nums, int k) {
-        sort(nums.begin(), nums.end());
-        nums.erase(unique(nums.begin(), nums.end()) , nums.end());
-        int count = min(static_cast<int>(nums.size()), k);
-        vector<int> res;
-        res.reserve(count);
-        for(auto it = nums.rbegin(); it != nums.rbegin() + count; it++) {
-            res.push_back(*it);
-        }
-        return res;
+        sort(nums.begin(), nums.end(), greater<>());
+        auto it = unique(nums.begin(), nums.end());
+        nums.erase(it, nums.end());
+        if(nums.size() > k) nums.resize(k);
+        return nums;
     }
 };

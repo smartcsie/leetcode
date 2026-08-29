@@ -8,7 +8,7 @@ solutions:
   - Sorting
   - Set
   topics:
-  - greedy-sorting-decision
+  - sorting
   time: O(NlogN)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
