@@ -1,6 +1,6 @@
 # backtracking-combination
 
-## 🔴 生疏（15）
+## 🔴 生疏（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +10,6 @@
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | Backtracking, Sorting | [C++](../problems/0040.md) | O(2ᴺ) | O(N) |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 Medium | Backtracking | [C++](../problems/0077.md) | O(K\*C(N,K)) | O(K) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking Combination, Backtracking, Recursion | [C++](../problems/0078.md) | O(N\*2ᴺ) | O(N) |
-| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Backtracking, Sorting | [C++](../problems/0090.md) | O(N\*2ᴺ) | O(N) |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | Backtracking Combination | [C++](../problems/0131.md) | O(N × 2^N)（最壞情況，回溯窮舉所有切割方式） | O(N)（遞迴堆疊 + 目前路徑） |
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Backtracking | [C++](../problems/0216.md) | O(C(9,K)) | O(K) |
 | 638 | [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | 🟡 Medium | Backtracking Combination | [C++](../problems/0638.md) | O(∏(needs[i]+1) × 優惠數量)，最壞情況約 O(11^N × K) | O(∏(needs[i]+1))（記憶化表的大小） |

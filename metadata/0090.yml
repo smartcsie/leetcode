@@ -2,20 +2,11 @@ number: 90
 title: Subsets II
 url: https://leetcode.com/problems/subsets-ii/
 solutions:
-- file: Solution_0090.cpp
+- &id001
+  file: Solution_0090.cpp
   difficulty: 🟡 Medium
   tags:
-  - Backtracking
-  - Sorting
-  topics:
-  - backtracking-combination
-  time: O(N*2ᴺ)
-  space: O(N)
-  familiarity: 生疏
-- file: Solution_0090.cpp
-  difficulty: 🟡 Medium
-  tags:
-  - Bit Manipulation
+  - Bit Bitmask Subset Enumeration
   - Sorting
   - Hash Set (Duplicate De-duplication)
   topics:
@@ -23,3 +14,4 @@ solutions:
   time: O(2ᴺ*Nlog(2ᴺ))*
   space: O(2ᴺ*N)
   familiarity: 生疏
+- *id001
