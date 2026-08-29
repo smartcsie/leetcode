@@ -15,15 +15,15 @@
 | 1092 | [Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | 🔴 Hard | Dynamic Programming Lcs | [C++](../problems/1092.md) | O(N | O(N |
 | 1312 | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | 🔴 Hard | Dynamic Programming Lcs | [C++](../problems/1312.md) | O(N²) | O(N²) |
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dynamic Programming Lcs | [C++](../problems/1143.md) | O(M\*N) | O(M\*N) |
-
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dp Lcs, Dynamic Programming Lcs | [C++](../problems/1143.md) | O(M\*N) | O(M\*N) |
 
 ## 🟣 易忘（0）
 

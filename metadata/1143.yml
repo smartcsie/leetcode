@@ -5,9 +5,10 @@ solutions:
 - file: Solution_1143.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dp Lcs
   - Dynamic Programming Lcs
   topics:
   - dp-lcs
   time: O(M*N)
   space: O(M*N)
-  familiarity: 再練習
+  familiarity: 練習過
