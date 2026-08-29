@@ -5,14 +5,10 @@ solutions:
 - file: Solution_3618.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Prime
   - Sieve
   topics:
   - math-prime
   time: O(N+RloglogR)
   space: O(R)
-  note: '> [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/)<br>
-
-    > 執行Sieve of Eratosthenes演算法，travsal nums 1 ~ size() - 1，if(isPrime[i]) { sum
-    += nums[i]; } else { sum -= nums[i]; }<br>'
-  familiarity: 生疏
+  familiarity: 練習過

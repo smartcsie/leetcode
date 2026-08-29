@@ -16,22 +16,18 @@ public:
     long long splitArray(vector<int>& nums) {
         int n = nums.size();
         vector<bool> isPrime(n + 1, true);
-        isPrime[0] = isPrime[1] = false;;
-        for(int p = 2; p * p < n;p++) {
+        isPrime[0] = isPrime[1] = false;
+        for(int p = 2; p * p <= n; p++) {
             if(isPrime[p]) {
-                for(int i = p * p; i < n; i += p) {
+                for(int i = p * p; i<= n; i += p) {
                     isPrime[i] = false;
                 }
             }
         }
-        long long sum = 0;
-        for(int i = 0; i < nums.size(); i++) {
-            if(isPrime[i]) {
-                sum += nums[i];
-            } else {
-                sum -= nums[i];
-            }
+        long long ans = 0;
+        for(int i = 0; i < n; i++) {
+            ans += isPrime[i] ? nums[i] : - nums[i];
         }
-        return labs(sum);
+        return labs(ans);
     }
 };
