@@ -5,9 +5,9 @@ solutions:
 - file: Solution_0078.cpp
   difficulty: 🟡 Medium
   tags:
+  - Backtracking Combination
   - Backtracking
   - Recursion
-  - Bit Manipulation
   topics:
   - backtracking-combination
   time: O(N*2ᴺ)
@@ -16,11 +16,11 @@ solutions:
 - file: Solution_0078_1.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
+  - Bit Bitmask Subset Enumeration
   - Bitmask
   - Backtracking
   topics:
   - bit-bitmask-subset-enumeration
   time: O(2ᴺ*N)
   space: O(2^N*N)
-  familiarity: 生疏
+  familiarity: 練習過
