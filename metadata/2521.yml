@@ -5,15 +5,10 @@ solutions:
 - file: Solution_2521.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Prime
   - Prime Factorization
   topics:
   - math-prime
   time: O(N*sqrt(M))
   space: O(K)
-  note: '[Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/)
-
-    > 對vector<int>& nums的每個num做質因素分解，質因素放入unordered_set<int> factors<br>
-
-    > 最後回傳 static_cast<int>(factors.size())<br>'
-  familiarity: 生疏
+  familiarity: 練習過

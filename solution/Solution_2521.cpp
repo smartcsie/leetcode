@@ -14,21 +14,17 @@
 class Solution {
 public:
     int distinctPrimeFactors(vector<int>& nums) {
-        unordered_set<int> factors;
-        for(int i = 0; i < nums.size(); i++) {
-            int temp = nums[i];
-            if (temp % 2 == 0) {
-                factors.insert(2);
-                while(temp % 2 == 0) temp /= 2;
-            }
-            for(int j = 3; j * j <= temp; j+=2) {
-                if(temp % j == 0) {
-                    factors.insert(j);
-                    while(temp % j == 0) temp /= j;
+        unordered_set<int> fators;
+        for(int num : nums) {
+            for(int p = 2; p * p <= num; p++) {
+                if(!(num % p )) {
+                    fators.insert(p);
+                    while(!(num % p)) num /= p;
                 }
+                
             }
-            if (temp > 1) factors.insert(temp); 
+            if(num > 1) fators.insert(num);
         }
-        return static_cast<int>(factors.size());
+        return fators.size();
     }
 };
