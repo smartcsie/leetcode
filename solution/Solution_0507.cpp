@@ -15,22 +15,14 @@
 class Solution {
 public:
     bool checkPerfectNumber(int num) {
-        // 根據定義，完美數必須大於 1
-        if (num <= 1) return false;
-
-        int sum = 1; // 1 永遠是真因數
-        
-        // 遍歷到根號即可，減少運算量
-        for (int i = 2; i * i <= num; ++i) {
-            if (num % i == 0) {
+        if(num <= 1) return false;
+        int sum = 1;
+        for(int i = 2; i * i <= num; i++) {
+            if(!(num % i)) {
                 sum += i;
-                // 如果兩個因數不相等（即非完全平方數），則加上另一對因數
-                if (i * i != num) {
-                    sum += num / i;
-                }
+                if(i * i != num) sum += num / i;
             }
         }
-
         return sum == num;
     }
 };
