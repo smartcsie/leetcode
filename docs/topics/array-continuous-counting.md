@@ -4,12 +4,13 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（4）
+## 🟠 再練習（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 Easy | Array Continuous Counting, Hash Map, One-pass | [C++](../problems/0697.md) | O(N) | O(N) |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 Easy | Array, String, Two Pointers | [C++](../problems/0830.md) | O(N) | O(1) |
+| 1513 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 Medium | Array Continuous Counting, String, Dynamic Programming | [C++](../problems/1513.md) | O(N) | O(1) |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 Easy | Array Continuous Counting | [C++](../problems/1800.md) | O(N) | O(1) |
 | 2609 | [Find the Longest Balanced Substring](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 🟢 Easy | Greedy, Two Counters | [C++](../problems/2609.md) | O(N) | O(1) |
 

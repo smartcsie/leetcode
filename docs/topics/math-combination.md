@@ -4,12 +4,11 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（2）
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination, Combinatorics, DP | [C++](../problems/0062.md) | O(min(M,N)) | O(1) |
-| 1513 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 Medium | Math Combination, String, Dynamic Programming | [C++](../problems/1513.md) | O(N) | O(1) |
 
 ## 🟡 練習過（2）
 

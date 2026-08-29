@@ -5,11 +5,11 @@ solutions:
 - file: Solution_1513.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math Combination
+  - Array Continuous Counting
   - String
   - Dynamic Programming
   topics:
-  - math-combination
+  - array-continuous-counting
   time: O(N)
   space: O(1)
   familiarity: 再練習
