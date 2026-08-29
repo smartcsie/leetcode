@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（415）](#review-shengshu)　[🟣 易忘清單（44）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（414）](#review-shengshu)　[🟣 易忘清單（44）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 979 題　🔴 生疏：409 題　🟠 再練習：172 題　🟡 練習過：78 題　🟣 易忘：40 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 979 題　🔴 生疏：408 題　🟠 再練習：172 題　🟡 練習過：79 題　🟣 易忘：40 題　🟢 熟練：280 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -20,7 +20,7 @@
 | [array-linear-scan](topics/array-linear-scan.md) | 3 | 5 | 1 | 0 | 16 | 0 | 25 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
-| [array-prefix-sum](topics/array-prefix-sum.md) | 15 | 1 | 0 | 1 | 2 | 0 | 19 |
+| [array-prefix-sum](topics/array-prefix-sum.md) | 14 | 1 | 1 | 1 | 2 | 0 | 19 |
 | [backtracking-combination](topics/backtracking-combination.md) | 14 | 0 | 0 | 0 | 0 | 0 | 14 |
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
@@ -134,9 +134,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 415 個解法標記為生疏，建議找時間重新練習。
+目前共有 414 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（14）](#shengshu-math)　[📊 Bit Manipulation（26）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（15）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（57）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（14）](#shengshu-math)　[📊 Bit Manipulation（26）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（30）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（15）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（57）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -218,7 +218,7 @@
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | [C++](problems/3775.md) | string-character-classification |
 
 <a id="shengshu-array"></a>
-#### 🍱 Array（31）
+#### 🍱 Array（30）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -228,7 +228,6 @@
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | [C++](problems/0057.md) | array-interval |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | [C++](problems/0059.md) | array |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | [C++](problems/0229.md) | array-boyer-moore |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | [C++](problems/0238.md) | array-prefix-sum |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | [C++](problems/0287.md) | array-negative-marking |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | [C++](problems/0303.md) | array-prefix-sum |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | [C++](problems/0304.md) | array-prefix-sum |

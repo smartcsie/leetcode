@@ -1,10 +1,9 @@
 # array-prefix-sum
 
-## 🔴 生疏（15）
+## 🔴 生疏（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array, Prefix Sum | [C++](../problems/0238.md) | O(N) | O(1) |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Array, Prefix Sum | [C++](../problems/0303.md) | O(N) | O(N) |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array, Matrix, Prefix Sum | [C++](../problems/0304.md) | O(M\*N) 初始化 / O(1) 查詢 | O(M\*N) |
 | 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | Prefix Sum, Hash Map | [C++](../problems/0523.md) | O(N) | O(min(N,K)) |
@@ -26,10 +25,11 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/0724.md) | O(N) | O(1) |
 
-## 🟡 練習過（1）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](../problems/0238.md) | O(N) | O(1) |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum | [C++](../problems/0930.md) | O(N^2) | O(N) |
 
 ## 🟣 易忘（1）
