@@ -18,24 +18,17 @@
 
 class Solution {
 public:
-    std::string findLatestTime(std::string s) {
-        for (int i = 0; i < s.size(); i++) {
-            if (i == 0 && s[i] == '?') {
-                // 如果第二個數字是 2~9，第一個數字只能是 0
-                if (s[1] >= '2' && s[1] <= '9') s[0] = '0';
-                else s[0] = '1';
-            } else if (i == 1 && s[i] == '?') {
-                // 如果第一個數字是 1，第二個數字最大是 1 (11點)
-                if (s[0] == '1') s[1] = '1';
-                else s[1] = '9';
-            } else if (i == 3 && s[i] == '?') {
-                // 分鐘的十位數最大為 5
-                s[3] = '5';
-            } else if (i == 4 && s[i] == '?') {
-                // 分鐘的個位數最大為 9
-                s[4] = '9';
-            } 
+    string findLatestTime(string s) {
+        if(s[0] == '?') {
+            if(s[1] == '0' || s[1] == '1' || s[1] == '?') s[0] = '1';
+            else s[0] = '0';
         }
+        if(s[1] == '?') {
+            if(s[0] == '1') s[1] = '1';
+            else s[1] = '9';
+        }
+        if(s[3] == '?') s[3] = '5';
+        if(s[4] == '?') s[4] = '9';
         return s;
     }
 };
