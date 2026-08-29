@@ -13,32 +13,30 @@
 class Solution {
 private:
     int maxDigit(int n) {
-        int max = 0;
+        int ans = -1;
         while(n > 0) {
-            int digit = n % 10;
-            max = std::max(max, digit);
-            n /=10;
+            int d = n % 10;
+            ans = max(ans, d);
+            n /= 10;
         }
-        return max;
+        return ans;
     }
 public:
     int maxSum(vector<int>& nums) {
-        vector<pair<int, int>> best(10,{-1 , -1});
-        for(const int& num : nums) {
-            int digit = maxDigit(num);
-            if(num > best[digit].first) {
-                best[digit].second = best[digit].first;
-                best[digit].first = num;
-            } else if(num > best[digit].second) {
-                best[digit].second = num;
-            } 
-        }
-        int res = -1;
-        for(int i = 0; i <=9; i++) {
-            if(best[i].second != -1) {
-                res = max(res, best[i].first + best[i].second);
+        vector<pair<int, int>> pairs(10, {-1, -1});
+        for(const int& x : nums) {
+            int d = maxDigit(x);
+            if(x > pairs[d].first) {
+                pairs[d].second = pairs[d].first;
+                pairs[d].first = x;
+            } else if(x > pairs[d].second) {
+                pairs[d].second = x;
             }
         }
-        return res;
+        int ans = -1;
+        for(int i = 9; i>= 0; i--) {
+            if(pairs[i].second != -1) ans = max(ans, pairs[i].first  + pairs[i].second );
+        }
+        return ans;
     }
 };

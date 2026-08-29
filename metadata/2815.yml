@@ -11,13 +11,5 @@ solutions:
   - greedy
   time: O(N*D)
   space: O(1)
-  note: '> [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/)<br>
-
-    > 時做一個函數maxDigit回傳num的maximum digit <br>
-
-    > 起一個vector<pair<int, int>> best(10,{-1 , -1});，用來記錄每個maxDigit的max和第二max<br>
-
-    > travsal maxDigit 0~9;，如果max和第二max都在，second~=-1，相加後，如果比res大，更新到res<br>
-
-    > <br>'
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **注意ans初始值-1**<br>'

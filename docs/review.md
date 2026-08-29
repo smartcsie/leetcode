@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（418）](#review-shengshu)　[🟣 易忘清單（44）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（417）](#review-shengshu)　[🟣 易忘清單（44）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 979 題　🔴 生疏：412 題　🟠 再練習：172 題　🟡 練習過：75 題　🟣 易忘：40 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 979 題　🔴 生疏：411 題　🟠 再練習：172 題　🟡 練習過：76 題　🟣 易忘：40 題　🟢 熟練：280 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -56,7 +56,7 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 6 | 6 | 0 | 2 | 2 | 0 | 16 |
+| [greedy](topics/greedy.md) | 5 | 6 | 1 | 2 | 2 | 0 | 16 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 7 | 2 | 0 | 0 | 1 | 0 | 10 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 3 | 2 | 0 | 0 | 0 | 0 | 5 |
@@ -134,9 +134,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 418 個解法標記為生疏，建議找時間重新練習。
+目前共有 417 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（14）](#shengshu-math)　[📊 Bit Manipulation（26）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（15）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（60）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（14）](#shengshu-math)　[📊 Bit Manipulation（26）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（31）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（15）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（59）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -549,7 +549,7 @@
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | [C++](problems/2826.md) | dp-lis |
 
 <a id="shengshu-greedy"></a>
-#### 🧩 Greedy（60）
+#### 🧩 Greedy（59）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -607,7 +607,6 @@
 | 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | 🟡 Medium | [C++](problems/2279.md) | greedy-selection-constraints |
 | 2554 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | 🟡 Medium | [C++](problems/2554.md) | greedy-selection-constraints |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | [C++](problems/2645.md) | greedy-validity-repair |
-| 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | [C++](problems/2815.md) | greedy |
 | 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | [C++](problems/2966.md) | greedy-sorting-decision |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | [C++](problems/3011.md) | greedy-sorting-decision |
 | 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | [C++](problems/3014.md) | greedy-frequency-merging |
