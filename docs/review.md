@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（414）](#review-shengshu)　[🟣 易忘清單（44）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（413）](#review-shengshu)　[🟣 易忘清單（45）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 979 題　🔴 生疏：408 題　🟠 再練習：172 題　🟡 練習過：79 題　🟣 易忘：40 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 979 題　🔴 生疏：407 題　🟠 再練習：172 題　🟡 練習過：79 題　🟣 易忘：41 題　🟢 熟練：280 題　⚪ 未標記：0 題
 
 ### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
 
@@ -14,7 +14,7 @@
 | [2d-array](topics/2d-array.md) | 0 | 8 | 0 | 0 | 9 | 0 | 17 |
 | [array](topics/array.md) | 4 | 9 | 0 | 0 | 15 | 0 | 28 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 1 | 4 | 0 | 0 | 4 | 0 | 9 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 4 | 0 | 1 | 4 | 0 | 9 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 3 | 5 | 1 | 0 | 16 | 0 | 25 |
@@ -134,9 +134,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 414 個解法標記為生疏，建議找時間重新練習。
+目前共有 413 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（14）](#shengshu-math)　[📊 Bit Manipulation（26）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（30）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（15）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（57）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（14）](#shengshu-math)　[📊 Bit Manipulation（26）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（29）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（15）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（57）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)　[📄 Other（2）](#shengshu-other)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -218,7 +218,7 @@
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | [C++](problems/3775.md) | string-character-classification |
 
 <a id="shengshu-array"></a>
-#### 🍱 Array（30）
+#### 🍱 Array（29）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
@@ -234,7 +234,6 @@
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | [C++](problems/0435.md) | array-interval |
 | 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | [C++](problems/0523.md) | array-prefix-sum |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | [C++](problems/0560.md) | array-prefix-sum |
-| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | [C++](problems/0696.md) | array-continuous-counting |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | [C++](problems/0930.md) | array-prefix-sum |
 | 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | 🟡 Medium | [C++](problems/0986.md) | array-interval |
 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 Medium | [C++](problems/1288.md) | array-interval |
@@ -683,9 +682,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 44 個解法標記為易忘，建議面試前重點複習。
+目前共有 45 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（18）](#yiwang-math)　[📊 Bit Manipulation（4）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（1）](#yiwang-array)　[🌳 Tree（5）](#yiwang-tree)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（18）](#yiwang-math)　[📊 Bit Manipulation（4）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（2）](#yiwang-array)　[🌳 Tree（5）](#yiwang-tree)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -736,10 +735,11 @@
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | [C++](problems/3280.md) | string |
 
 <a id="yiwang-array"></a>
-#### 🍱 Array（1）
+#### 🍱 Array（2）
 
 | # | 題目 | 難度 | 解法檔案 | 分類 |
 | --- | --- | --- | --- | --- |
+| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | [C++](problems/0696.md) | array-continuous-counting |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | [C++](problems/1588.md) | array-prefix-sum |
 
 <a id="yiwang-tree"></a>

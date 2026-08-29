@@ -1,10 +1,8 @@
 # array-continuous-counting
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | String, Greedy | [C++](../problems/0696.md) | O(N) | O(1) |
+目前沒有標記為生疏的解法。
 
 ## 🟠 再練習（4）
 
@@ -19,9 +17,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting, Greedy | [C++](../problems/0696.md) | O(N) | O(1) |
 
 ## 🟢 熟悉（4）
 

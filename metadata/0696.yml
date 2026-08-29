@@ -5,19 +5,15 @@ solutions:
 - file: Solution_0696.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Array Continuous Counting
   - Greedy
   topics:
   - array-continuous-counting
   time: O(N)
   space: O(1)
-  note: '> [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/)<br>
+  familiarity: 易忘
+  note: '> 如果前後字元相等，用curEquals計數目前連續個0或1的個數，**if(s[i] == s[i - 1]) cur++;** <br>
 
-    > 如果前後字元相等，用curEquals計數目前連續個0或1的個數，**if(s[i] == s[i - 1]) curEquals++;** <br>
+    > 如果前後字元不相等，找出比較短那一半的長度， **min(pre, cur)** ，0001111 =3 ，111100 = 2<br>
 
-    > 如果前後字元不相等，找出比較短那一半的長度， **min(preEquals, curEquals)** ，0001111 =3 ，111100 = 2<br>
-
-    > ans計算總共字串，**ans += min(preEquals, curEquals);**， 因為如果 0011 = 2，字串有 01和0011剛好2種<br>
-
-    > **preEquals = curEquals;curEquals = 1;** <br>'
-  familiarity: 生疏
+    > ans計算總共字串，**ans += min(pre, cur);**， 因為如果 0011 = 2，字串有 01和0011剛好2種<br>'
