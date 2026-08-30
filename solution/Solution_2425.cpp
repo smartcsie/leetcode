@@ -22,19 +22,14 @@
 class Solution {
 public:
     int xorAllNums(std::vector<int>& nums1, std::vector<int>& nums2) {
+        class Solution {
+public:
+    int xorAllNums(vector<int>& nums1, vector<int>& nums2) {
         int ans = 0;
-        // 若 nums2 長度為奇數，nums1 的每個元素會被保留並參與 XOR
-        if (nums2.size() & 1) {
-            ans ^= std::reduce(nums1.begin(), nums1.end(), 0, [](const auto& x, const auto& y) {
-                return x ^ y;
-            });
-        }
-        // 若 nums1 長度為奇數，nums2 的每個元素會被保留並參與 XOR
-        if (nums1.size() & 1) {
-            ans ^= std::reduce(nums2.begin(), nums2.end(), 0, [](const auto& x, const auto& y) {
-                return x ^ y;
-            });
-        }
+        if(nums1.size() & 1) ans ^= accumulate(nums2.begin(), nums2.end(), 0 , bit_xor<int>());
+        if(nums2.size() & 1) ans ^= accumulate(nums1.begin(), nums1.end(), 0 , bit_xor<int>());
         return ans;
+    }
+};
     }
 };

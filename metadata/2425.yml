@@ -11,14 +11,10 @@ solutions:
   - bit-manipulation-xor
   time: O(N+M)
   space: O(1)
-  note: '> [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)
-    <br>
+  familiarity: 練習過
+  note: '> 如果nums1 size是奇數，把所有nums2的element xor到 ans<br>
 
-    > xor1 = 0 ， xor2 = 0，
+    > 如果nums2 size是奇數，把所有nums1的element xor到 ans<br>
 
-    > 如果nums1 size是奇數，把所有nums2的element xor到 xor2<br>
-
-    > 如果nums2 size是奇數，把所有nums1的element xor到 xor1<br>
-
-    > 回傳 xor1 ^ xor2<br>'
-  familiarity: 生疏
+    > 回傳 ans<br>'
+  tricks: null
