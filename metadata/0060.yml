@@ -5,10 +5,21 @@ solutions:
 - file: Solution_0060.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Permutation
   - Factorial
   topics:
-  - math
+  - math-permutation
   time: O(N²)
   space: O(N)
   familiarity: 生疏
+  tricks: null
+- file: Solution_0060_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math Permutation
+  topics:
+  - math-permutation
+  time: O(N × N!)
+  space: O(N)
+  familiarity: 生疏
+  tricks: null
