@@ -5,10 +5,13 @@ solutions:
 - file: Solution_0989.cpp
   difficulty: 🟢 Easy
   tags:
+  - Math Digit Decomposition
   - Simulation
   - Carry Propagation
   topics:
-  - math-simulation
+  - math-digit-decomposition
   time: O(max(N,logK))
   space: O(max(N,logK))
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **考慮num長度或k長度，要找其中比較大的，所以i >=0 || k > 0**<br>'
+  tricks: null
