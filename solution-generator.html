@@ -673,6 +673,10 @@ function addSolutionBlock(prefill) {
       <label>相關題目 <span class="hint">(選填，逗號分隔題號，例如 136, 260)</span></label>
       <input type="text" class="sol-related" placeholder="136, 260">
     </div>
+    <div class="field">
+      <label>技巧 <span class="hint">(選填，逗號分隔；記錄這題用到的零散實作技巧，例如 snprintf, next_permutation, sieve，跟「標籤」不同——標籤是分類主題，這裡是可以跨分類重複出現的小技巧，方便之後搜尋「哪些題目用過某個技巧」)</span></label>
+      <input type="text" class="sol-tricks" placeholder="snprintf, next_permutation, sieve">
+    </div>
     <div class="field-row">
       <div class="field">
         <label>完整 .cpp 程式碼 <span class="hint">(含統一格式註解)</span></label>
@@ -777,6 +781,7 @@ async function loadExistingProblem() {
       block.querySelector('.sol-code').value = sol.code || '';
       block.querySelector('.sol-is-best').checked = !!sol.is_best;
       block.querySelector('.sol-related').value = (sol.related || []).join(', ');
+      block.querySelector('.sol-tricks').value = (sol.tricks || []).join(', ');
 
       const familiarityEl = block.querySelector('.sol-familiarity');
       familiarityEl.value = sol.familiarity || '';
@@ -874,6 +879,10 @@ function collectStructuredData() {
     const related = relatedEl
       ? relatedEl.value.split(',').map(s => s.trim()).filter(Boolean).map(s => parseInt(s, 10)).filter(n => !isNaN(n))
       : [];
+    const tricksEl = block.querySelector('.sol-tricks');
+    const tricks = tricksEl
+      ? tricksEl.value.split(',').map(s => s.trim()).filter(Boolean)
+      : [];
 
     if (topics.length === 0) {
       missingTopics.push(`解法 #${idx + 1}（${file}）`);
@@ -885,6 +894,7 @@ function collectStructuredData() {
       note: note || null,
       is_best: isBest || null,
       related: related.length ? related : null,
+      tricks: tricks.length ? tricks : null,
       code,
     });
   });
@@ -917,6 +927,10 @@ function buildYamlPreview(data) {
     if (sol.related && sol.related.length) {
       lines.push(`  related:`);
       sol.related.forEach(r => lines.push(`  - ${r}`));
+    }
+    if (sol.tricks && sol.tricks.length) {
+      lines.push(`  tricks:`);
+      sol.tricks.forEach(t => lines.push(`  - ${t}`));
     }
     if (sol.note) lines.push(`  note: ${sol.note}`);
   });
@@ -1138,6 +1152,13 @@ function parseAndFill() {
     if (!space) space = extractHeaderField(code, '空間複雜度');
   }
 
+  // 額外支援在 header 註解裡直接寫「技巧：snprintf, next_permutation」，
+  // 貼上 AI 回覆時就能自動帶出這題用到的零散技巧，不用手動打字。
+  let tricksFromComment = '';
+  if (code) {
+    tricksFromComment = extractHeaderField(code, '技巧').trim();
+  }
+
   // 額外支援在 header 註解裡直接寫「分類主題：xxx-slug」，這樣貼上 AI 回覆
   // 時就能連分類主題、標籤都一起自動選好，不用每次都手動點選下拉選單。
   // 只有在表格列沒有偵測到標籤時才用這個（表格列的優先權還是比較高）。
@@ -1168,6 +1189,7 @@ function parseAndFill() {
   block.querySelector('.sol-time').value = simplifyComplexity(time);
   block.querySelector('.sol-space').value = simplifyComplexity(space);
   if (code) block.querySelector('.sol-code').value = code;
+  if (tricksFromComment) block.querySelector('.sol-tricks').value = tricksFromComment;
 
   const select = block.querySelector('.sol-tags-select');
   const topicSelect = block.querySelector('.sol-topics-select');

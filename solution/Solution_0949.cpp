@@ -14,23 +14,18 @@
 class Solution {
 public:
     std::string largestTimeFromDigits(std::vector<int>& arr) {
-        std::sort(arr.begin(), arr.end());
-        int max_time = -1; // 將 HH:MM 轉為數值 HH * 60 + MM 便於比較
-
+        sort(arr.begin(), arr.end());
+        int maxTime = -1;
         do {
-            int hour = arr[0] * 10 + arr[1];
-            int minute = arr[2] * 10 + arr[3];
-
-            if (hour < 24 && minute < 60) {
-                max_time = std::max(max_time, hour * 60 + minute);
+            int h = arr[0] * 10 + arr[1];
+            int m = arr[2] * 10 + arr[3];
+            if(h < 24 && m < 60) {
+                maxTime = max(maxTime, h * 60 + m);
             }
-        } while (std::next_permutation(arr.begin(), arr.end()));
-
-        if (max_time == -1) return "";
-
-        // 格式化輸出
+        } while(next_permutation(arr.begin(), arr.end()));
+        if(maxTime == -1) return "";
         char buf[6];
-        snprintf(buf, sizeof(buf), "%02d:%02d", max_time / 60, max_time % 60);
-        return std::string(buf);
+        snprintf(buf, sizeof(buf), "%02d:%02d", maxTime / 60, maxTime % 60);
+        return string(buf);
     }
 };

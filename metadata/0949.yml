@@ -5,7 +5,7 @@ solutions:
 - file: Solution_0949.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Permutation
   - Permutation
   topics:
   - math-permutation
@@ -17,4 +17,10 @@ solutions:
     > **[易忘記巧]snprintf(buf, sizeof(buf), "%02d:%02d", max_time / 60, max_time % 60);
     <br>
 
+    > **如果用 next_permutation 來「找出全排列 (All Permutations)」或「窮舉所有組合」，那就絕對必須先從最小的排序開始
+    (sort)**。<br>
+
     <br><br>'
+  tricks:
+  - snprintf
+  - next_permutation
