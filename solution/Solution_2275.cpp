@@ -22,13 +22,11 @@
 class Solution {
 public:
     int largestCombination(vector<int>& candidates) {
+        vector<int>& cans = candidates;
         int ans = 0;
-        for(int i = 0; i < 24; i++) {
+        for(int i = 24; i >= 0; i--) {
             int count = 0;
-            for(int num : candidates) {
-                num >>= i;
-                count += num & 1;
-            }
+            for(const int& x : cans) if((x >> i) & 1) count++;
             ans = max(ans, count);
         }
         return ans;
