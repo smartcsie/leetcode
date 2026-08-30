@@ -11,5 +11,5 @@ solutions:
   topics:
   - hash-table-counting
   time: O(N)
-  space: O(1)*
+  space: O(1)
   familiarity: 熟練

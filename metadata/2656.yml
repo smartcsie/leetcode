@@ -8,8 +8,8 @@ solutions:
   - Greedy
   topics:
   - greedy
-  time: O(N) - 只需要遍歷一次 `nums` 陣列來尋找最大值，其中 n 為陣列長度。
-  space: O(1) - 僅使用常數個變數來儲存最大值與計算結果，不需額外配置動態記憶體。
+  time: O(N)
+  space: O(1)
   familiarity: 熟練
   note: '> 最大值往上遞增k個數之和<br>
 

@@ -8,6 +8,6 @@ solutions:
   - Array Linear Scan
   topics:
   - array-linear-scan
-  time: O(N) - 計算所有元素和，生成交替奇偶數列。
-  space: O(N) - 結果陣列大小為 N。
+  time: O(N)
+  space: O(N)
   familiarity: 熟練

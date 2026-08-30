@@ -8,6 +8,6 @@ solutions:
   - Backtracking Constraint
   topics:
   - backtracking-constraint
-  time: O(K^N)（最壞情況，靠剪枝大幅縮減）
-  space: O(N)（遞迴深度）
+  time: O(K^N)
+  space: O(N)
   familiarity: 生疏

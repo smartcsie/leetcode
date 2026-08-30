@@ -9,5 +9,5 @@ solutions:
   topics:
   - backtracking-grid
   time: O(4^(可走格數))
-  space: O(M × N)（遞迴深度）
+  space: O(M × N)
   familiarity: 生疏

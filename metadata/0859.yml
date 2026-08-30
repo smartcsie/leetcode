@@ -11,7 +11,7 @@ solutions:
   topics:
   - hash-table-uniqueness
   time: O(N)
-  space: O(1)*
+  space: O(1)
   familiarity: 再練習
   note: '> s 和 goal 長度不一樣，傳回false
 

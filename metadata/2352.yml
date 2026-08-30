@@ -10,7 +10,7 @@ solutions:
   - Matrix Simulation
   topics:
   - hash-table-intersection
-  time: O(N³logN) 或 O(N²logN)*
+  time: O(N³logN)
   space: O(N²)
   familiarity: 練習過
   note: '> 使用 std::vector<int>當 map的key'

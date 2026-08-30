@@ -8,6 +8,6 @@ solutions:
   - Quick Select
   topics:
   - quick-select
-  time: O(N) 平均
+  time: O(N)
   space: O(1)
   familiarity: 再練習

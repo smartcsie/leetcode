@@ -8,6 +8,6 @@ solutions:
   - Backtracking Combination
   topics:
   - backtracking-combination
-  time: O(2^N)，N 是單字數量（最多 14 個，2^14 可接受）
-  space: O(26)（字母預算陣列 + 遞迴深度）
+  time: O(2^N)
+  space: O(26)
   familiarity: 生疏

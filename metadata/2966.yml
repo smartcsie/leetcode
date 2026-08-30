@@ -11,5 +11,5 @@ solutions:
   topics:
   - greedy-sorting-decision
   time: O(NlogN)
-  space: O(1)或O(N)*
+  space: O(1)
   familiarity: 生疏

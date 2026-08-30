@@ -9,5 +9,5 @@ solutions:
   topics:
   - array-linear-scan
   time: O(N)
-  space: O(1)*
+  space: O(1)
   familiarity: 再練習

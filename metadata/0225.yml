@@ -9,6 +9,6 @@ solutions:
   - Queue
   topics:
   - design
-  time: O(N) push <br> O(1) pop
+  time: O(N)
   space: O(N)
   familiarity: 易忘

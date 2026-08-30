@@ -9,6 +9,6 @@ solutions:
   - Stack
   topics:
   - tree-dfs-path
-  time: O(1) avg
+  time: O(1)
   space: O(H)
   familiarity: 生疏

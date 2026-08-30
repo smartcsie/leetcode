@@ -10,7 +10,7 @@
 | 120 | [Triangle](https://leetcode.com/problems/triangle/) | 🟡 Medium | Dp Grid Path | [C++](../problems/0120.md) | O(N²) | O(N) |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | Dp Grid Path | [C++](../problems/0221.md) | O(M | O(M |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | 🟡 Medium | Dp Grid Path | [C++](../problems/0931.md) | O(N²) | O(N) |
-| 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 Medium | Dynamic Programming Grid Path, Matrix | [C++](../problems/1277.md) | O(M\*N) | O(1)\* |
+| 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 Medium | Dynamic Programming Grid Path, Matrix | [C++](../problems/1277.md) | O(M\*N) | O(1) |
 
 ## 🟠 再練習（0）
 

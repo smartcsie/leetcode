@@ -8,6 +8,6 @@ solutions:
   - Backtracking Combination
   topics:
   - backtracking-combination
-  time: O(∏(needs[i]+1) × 優惠數量)，最壞情況約 O(11^N × K)
-  space: O(∏(needs[i]+1))（記憶化表的大小）
+  time: O(∏(needs[i]+1) × 優惠數量)
+  space: O(∏(needs[i]+1))
   familiarity: 生疏

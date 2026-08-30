@@ -12,5 +12,5 @@ solutions:
   topics:
   - two-pointers-opposite
   time: O(NlogN)
-  space: O(1)*
+  space: O(1)
   familiarity: 熟練

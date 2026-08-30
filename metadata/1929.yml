@@ -9,7 +9,7 @@ solutions:
   topics:
   - array
   time: O(N)
-  space: O(1)*
+  space: O(1)
   familiarity: 熟練
   is_best: true
   related:

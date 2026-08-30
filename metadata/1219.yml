@@ -8,6 +8,6 @@ solutions:
   - Backtracking Grid
   topics:
   - backtracking-grid
-  time: O(4^(有金子的格數))（最壞情況，實務上受限於「不能走
-  space: O(M × N)（遞迴深度最多等於格子數）
+  time: O(4^(有金子的格數))
+  space: O(M × N)
   familiarity: 生疏

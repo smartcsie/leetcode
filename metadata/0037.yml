@@ -8,6 +8,6 @@ solutions:
   - Backtracking Constraint
   topics:
   - backtracking-constraint
-  time: O(9^M)，M 是空格數量（最壞情況，實務上剪枝後遠比這快）
-  space: O(1)（原地修改，遞迴深度最多 81）
+  time: O(9^M)
+  space: O(1)
   familiarity: 生疏

@@ -10,5 +10,5 @@ solutions:
   topics:
   - 2d-array
   time: O(M*N*D)
-  space: O(1)*
+  space: O(1)
   familiarity: 再練習

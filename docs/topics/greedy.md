@@ -38,5 +38,5 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | Greedy | [C++](../problems/2656.md) | O(N) - 只需要遍歷一次 `nums` 陣列來尋找最大值，其中 n 為陣列長度。 | O(1) - 僅使用常數個變數來儲存最大值與計算結果，不需額外配置動態記憶體。 |
+| 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | Greedy | [C++](../problems/2656.md) | O(N) | O(1) |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) | 🟢 Easy | Greedy, Math | [C++](../problems/3536.md) | O(logN) | O(1) |

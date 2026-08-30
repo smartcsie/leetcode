@@ -8,6 +8,6 @@ solutions:
   - Backtracking Permutation
   topics:
   - backtracking-permutation
-  time: O(K)，K 是合法排列的總數（實務上遠小於 N!，因為整除
-  space: O(N)（used 陣列 + 遞迴深度）
+  time: O(K)
+  space: O(N)
   familiarity: 生疏

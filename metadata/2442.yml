@@ -12,5 +12,5 @@ solutions:
   topics:
   - hash-table-uniqueness
   time: O(N*D)
-  space: O(M)*
+  space: O(M)
   familiarity: 熟練

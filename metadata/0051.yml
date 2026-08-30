@@ -8,6 +8,6 @@ solutions:
   - Backtracking Constraint
   topics:
   - backtracking-constraint
-  time: O(N!)（最壞情況）
-  space: O(N)（遞迴深度 + 記錄每列皇后位置）
+  time: O(N!)
+  space: O(N)
   familiarity: 生疏

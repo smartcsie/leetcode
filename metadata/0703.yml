@@ -8,6 +8,6 @@ solutions:
   - Heap (Priority Queue)
   topics:
   - priority-queue
-  time: O(NlogK) / O(logK)
+  time: O(NlogK)
   space: O(K)
   familiarity: 生疏

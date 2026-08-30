@@ -13,7 +13,7 @@
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 Easy | Array, Simulation, Manhattan Distance | [C++](../problems/1779.md) | O(N) | O(1) |
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | Array, Matrix, Simulation | [C++](../problems/2022.md) | O(M\*N) | O(1) |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 Medium | Prefix Sum, Matrix, Precomputation | [C++](../problems/2482.md) | O(M\*N) | O(M+N) |
-| 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 Easy | Array, Simulation | [C++](../problems/2639.md) | O(M\*N\*D) | O(1)\* |
+| 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 Easy | Array, Simulation | [C++](../problems/2639.md) | O(M\*N\*D) | O(1) |
 | 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | Array, Math | [C++](../problems/2923.md) | O(N²) | O(1) |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | 2d Array, Simulation | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) |
 

@@ -8,8 +8,8 @@ solutions:
   - Hash Table Existence
   topics:
   - hash-table-existence
-  time: O(NlogN) - 排序後雙指針或二分搜尋。
-  space: O(N) - 排序空間 O(logN)，set O(N)。
+  time: O(NlogN)
+  space: O(N)
   familiarity: 再練習
   note: '> 兩種做法<br>
 

@@ -8,7 +8,7 @@
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Math, Sorting | [C++](../problems/0539.md) | O(NlogN) | O(N) |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Sorting | [C++](../problems/0648.md) | O(N\*L) | O(M\*L) |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | String, Sorting | [C++](../problems/1408.md) | O(N²\*K) | O(N) |
-| 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](../problems/2491.md) | O(NlogN) | O(1)或O(N)\* |
+| 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](../problems/2491.md) | O(NlogN) | O(1) |
 | 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | 🟢 Easy | Sorting, Brute Force | [C++](../problems/2932.md) | O(NlogN+N²) | O(logN) |
 | 3132 | [Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) | 🟡 Medium | Sorting, Two Pointers | [C++](../problems/3132.md) | O(NlogN) | O(1) |
 

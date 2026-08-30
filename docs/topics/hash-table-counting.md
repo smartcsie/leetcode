@@ -37,7 +37,7 @@
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/1394.md) | O(N) | O(1) |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/1897.md) | O(N\*M) | O(1) |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 Easy | Hash Table Counting, Hash Map, Counting | [C++](../problems/2283.md) | O(N) | O(1) |
-| 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 Easy | Array, Hash Table, Counting | [C++](../problems/2341.md) | O(N) | O(1)\* |
+| 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 Easy | Array, Hash Table, Counting | [C++](../problems/2341.md) | O(N) | O(1) |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/2351.md) | O(N) | O(1) |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/2404.md) | O(N) | O(N) |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/3005.md) | O(N) | O(1) |

@@ -9,7 +9,7 @@ solutions:
   - Queue
   topics:
   - design
-  time: O(1) amortized
+  time: O(1)
   space: O(N)
   familiarity: 再練習
   is_best: true
