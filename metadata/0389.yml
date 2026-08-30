@@ -12,7 +12,16 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 熟練
-  note: '> [Find the Difference](https://leetcode.com/problems/find-the-difference/)
-    <br>
-
-    > 類似 [268. Missing Number](https://leetcode.com/problems/missing-number/)'
+  note: '> 類似 [268. Missing Number](https://leetcode.com/problems/missing-number/)'
+  tricks: null
+- file: Solution_0389_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation Xor
+  topics:
+  - bit-manipulation-xor
+  time: O(N)
+  space: O(N)
+  familiarity: 練習過
+  tricks:
+  - accumulate lemma

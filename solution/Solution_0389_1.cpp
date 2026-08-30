@@ -1,45 +1,3 @@
-# 389. Find the Difference
-
-[在 LeetCode 上查看](https://leetcode.com/problems/find-the-difference/)
-
-## 解法：bit-manipulation
-
-**難度:** 🟢 Easy　**標籤:** Bit Manipulation, Hash Table　**時間:** O(N)　**空間:** O(1)　**熟悉度:** 🟢 熟練
-
-```cpp
-/**
- * 題目：389. Find the Difference (找出不同的字元)
- * 難度：簡單 (Easy)
- * 描述：字串 t 是由字串 s 打亂後再隨機插入一個字母組成，找出該字母。
- *
- * 時間複雜度：O(N)
- * 空間複雜度：O(1)
- *
- * 解法思路：
- * 1. XOR 運算：無需額外記憶體空間儲存字元頻率，利用位元運算的交換律與結合律。
- * 2. 效能提升：減少了陣列索引存取與邏輯判斷，在 CPU 層級執行速度最快。
- */
-
-class Solution {
-public:
-    char findTheDifference(string s, string t) {
-        char miss = 0;
-        for(const char& c : s) miss ^= c;
-        for(const char& c : t) miss ^= c;
-        return miss;
-    }
-};
-```
-
-> 類似 [268. Missing Number](https://leetcode.com/problems/missing-number/)
-
----
-
-## 解法：bit-manipulation-xor
-
-**難度:** 🟢 Easy　**標籤:** Bit Manipulation Xor　**時間:** O(N)　**空間:** O(N)　**熟悉度:** 🟡 練習過
-
-```cpp
 /**
  * 題目：389. Find the Difference
  * 難度：簡單 (Easy)
@@ -82,6 +40,3 @@ public:
         return accumulate(u.begin(), u.end(), 0, bit_xor<int>());
     }
 };
-```
-
----
