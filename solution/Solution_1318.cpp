@@ -1,25 +1,39 @@
 /**
- * 題目：1318. Minimum Flips to Make a OR b Equal to c (使 a OR b 等於 c 的最小翻轉次數)
+ * 題目：1318. Minimum Flips to Make a OR b Equal to c
  * 難度：中等 (Medium)
- * 描述：計算翻轉 a 或 b 的位元，使 (a | b) == c 的最少次數。
+ * 分類主題：bit-manipulation-or
+ * 描述：給定三個整數 a、b、c，每次操作可以翻轉 a 或 b 的某一個二進位
+ * 位元，求最少需要翻轉幾次，才能讓 `a OR b == c`。
  *
- * 時間複雜度：O(1)
+ * 時間複雜度：O(1)（32 位元整數，popcount 是常數時間的硬體指令）
  * 空間複雜度：O(1)
  *
  * 解法思路：
- * 1. 邏輯拆解：利用 XOR 與 AND 直接定位需要翻轉的位元。
+ * （跟逐位元掃描版是同一個數學結論，這版用內建的 `__builtin_popcount`
+ * 一次算完整個結果，不用寫迴圈，但要拆清楚三個步驟才看得懂）：
+ * 1. `orAB = a | b`：先算出目前 a、b 的 OR 結果。
+ * 2. `diff = orAB ^ c`：用 XOR 找出「orAB 跟 c 不一樣」的所有位元
+ *    （XOR 的性質：兩個位元相同結果是 0、不同結果是 1，剛好可以當
+ *    「差異偵測器」）。這些不一樣的位元，就是需要調整的地方。
+ * 3. `extra = a & b & diff`：在這些「需要調整」的位元裡，再篩選出
+ *    「a、b 剛好都是 1」的位元——這種情況下，orAB 那一位一定是 1
+ *    （因為 a、b 都是 1），既然這一位在 diff 裡（代表它不等於 c），
+ *    就代表 c 這一位是 0，這種「a=1、b=1、但 c 要求是 0」的情況需要
+ *    翻兩次（把 a、b 都翻成 0），比一般情況多翻一次。
+ * 4. 答案 = `popcount(diff)`（每個需要調整的位元至少翻 1 次的基本量）
+ *    + `popcount(extra)`（在 a、b 都是 1 的位元，額外再補 1 次）。
+ * 5. 跟原本 `c ^= a | b` 的寫法完全等價，只是原本的寫法把 `c` 這個
+ *    參數直接原地改寫、拿來存另一個完全不同意義的東西（差異遮罩），
+ *    這種「重複利用變數存放不同語意的值」的寫法雖然省一個變數，但
+ *    會讓讀程式碼的人以為 `c` 全程都代表「目標值」，卻在中途被悄悄
+ *    改變意義，是很容易誤讀的地雷。拆成 `orAB`、`diff`、`extra` 三個
+ *    各自語意清楚的變數，雖然多寫幾行，但每一行在做什麼一目了然。
  */
 
 class Solution {
 public:
     int minFlips(int a, int b, int c) {
-        // (a | b) ^ c：找出 a|b 與 c 不同步的位元
         int diff = (a | b) ^ c;
-        
-        // 情況 1：c 的某位為 0，但 a 或 b 該位為 1 -> 需要翻轉該位的所有 1 (1 或 2 次)
-        // (a & b) & diff：當 a, b 皆為 1 時，diff 位元會被記錄，需翻轉兩次
-        int flips = __builtin_popcount(diff & ~c) + __builtin_popcount(a & b & diff);
-        
-        return flips;
+        return __builtin_popcount(diff) + __builtin_popcount(a & b & diff);
     }
 };

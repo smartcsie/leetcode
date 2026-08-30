@@ -5,15 +5,26 @@ solutions:
 - file: Solution_1318.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Or
   topics:
   - bit-manipulation-or
   time: O(1)
   space: O(1)
+  familiarity: 易忘
   note: '> [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)<br>
 
     > **int diff = (a | b) ^ c;** <br>
 
     > **int flips = __builtin_popcount(diff & ~c) + __builtin_popcount(a & b & diff);**
     <br>'
-  familiarity: 生疏
+  tricks: null
+- file: Solution_1318_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation Xor
+  topics:
+  - bit-manipulation-xor
+  time: O(log(max(a,b,c)))
+  space: O(1)
+  familiarity: 練習過
+  tricks: null
