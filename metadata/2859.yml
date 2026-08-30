@@ -11,4 +11,6 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  tricks:
+  - __builtin_popcount
