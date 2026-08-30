@@ -8,6 +8,6 @@ solutions:
   - Dp Bitmask
   topics:
   - dp-bitmask
-  time: O(3^N)（枚舉所有 mask 的所有子集合）
+  time: O(3^N)
   space: O(2^N)
   familiarity: 生疏

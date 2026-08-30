@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | Dynamic Programming, Array | [C++](../problems/0152.md) | O(N) | O(1) |
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | Array, Kadane's Algorithm | [C++](../problems/0918.md) | O(N) | O(1) |
-| 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | Dynamic Programming Kadane | [C++](../problems/1567.md) | O(N) - 僅需對 nums 陣列進行一次從頭到尾的線性掃描，每個元素的狀態轉移皆為常數時間。 | O(1) - 僅使用常數個變數（ans, pos, neg）來動態追蹤狀態，不需額外配置記憶體。 |
+| 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | Dynamic Programming Kadane | [C++](../problems/1567.md) | O(N) | O(1) |
 
 ## 🟠 再練習（1）
 

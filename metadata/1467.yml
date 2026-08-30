@@ -8,6 +8,6 @@ solutions:
   - Dp Probability
   topics:
   - dp-probability
-  time: O(∏(balls[i]+1))（枚舉每種顏色的分配方式）
-  space: O(K)（遞迴深度）
+  time: O(∏(balls[i]+1))
+  space: O(K)
   familiarity: 生疏
