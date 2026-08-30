@@ -8,6 +8,6 @@ solutions:
   - Dp Probability
   topics:
   - dp-probability
-  time: O((N/25)²)（記憶化後的狀態數）
+  time: O((N/25)²)
   space: O((N/25)²)
   familiarity: 生疏

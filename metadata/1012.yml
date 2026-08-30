@@ -8,6 +8,6 @@ solutions:
   - Dp Digit
   topics:
   - dp-digit
-  time: O(D²)，D 是 n 的位數（最多 10 位）
+  time: O(D²)
   space: O(1)
   familiarity: 生疏

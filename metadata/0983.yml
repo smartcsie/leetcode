@@ -8,6 +8,6 @@ solutions:
   - Dp Knapsack
   topics:
   - dp-knapsack
-  time: O(D log D)，D 為 days 的長度（每天都要做一次二分搜尋）
+  time: O(D log D)
   space: O(D)
   familiarity: 生疏

@@ -12,7 +12,7 @@
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/0474.md) | O(LM\*N) | O(M\*N) |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/0494.md) | O(N\*S) | O(S) |
 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0518.md) | O(N\*A) | O(A) |
-| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | Dp Knapsack | [C++](../problems/0983.md) | O(D log D)，D 為 days 的長度（每天都要做一次二分搜尋） | O(D) |
+| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | Dp Knapsack | [C++](../problems/0983.md) | O(D log D) | O(D) |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/1049.md) | O(N\*S) | O(S) |
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 Hard | Dp Knapsack | [C++](../problems/2035.md) | O(N | O(2^(N/2)) |
 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | Dynamic Programming, Hash Set | [C++](../problems/2707.md) | O(N³) | O(N+D) |

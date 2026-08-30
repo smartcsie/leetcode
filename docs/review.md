@@ -375,7 +375,7 @@
 | 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | Dynamic Programming Lcs, String | [C++](problems/0712.md) | O(M×N) | O(M×N) |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | 🟡 Medium | Dp State Machine | [C++](problems/0714.md) | O(N) | O(1) |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | Dynamic Programming | [C++](problems/0718.md) | O(N\*M) | O(M) |
-| 808 | [Soup Servings](https://leetcode.com/problems/soup-servings/) | 🟡 Medium | Dp Probability | [C++](problems/0808.md) | O((N/25)²)（記憶化後的狀態數） | O((N/25)²) |
+| 808 | [Soup Servings](https://leetcode.com/problems/soup-servings/) | 🟡 Medium | Dp Probability | [C++](problems/0808.md) | O((N/25)²) | O((N/25)²) |
 | 837 | [New 21 Game](https://leetcode.com/problems/new-21-game/) | 🟡 Medium | Dp Probability | [C++](problems/0837.md) | O(N) | O(N) |
 | 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | 🔴 Hard | Dp Bitmask | [C++](problems/0847.md) | O(N² | O(N |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | Dp Game Theory | [C++](problems/0877.md) | O(N²) | O(N²) |
@@ -384,12 +384,12 @@
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | Array, Kadane's Algorithm | [C++](problems/0918.md) | O(N) | O(1) |
 | 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | Dynamic Programming State Machine | [C++](problems/0926.md) | O(N) | O(1) |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | 🟡 Medium | Dp Grid Path | [C++](problems/0931.md) | O(N²) | O(N) |
-| 940 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | 🔴 Hard | Dp Subsequences | [C++](problems/0940.md) | O(N) | O(1)（只需要 26 個字母的計數陣列） |
+| 940 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | 🔴 Hard | Dp Subsequences | [C++](problems/0940.md) | O(N) | O(1) |
 | 943 | [Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) | 🔴 Hard | Dp Bitmask | [C++](problems/0943.md) | O(N² | O(N |
 | 968 | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | 🔴 Hard | Dp Tree | [C++](problems/0968.md) | O(N) | O(H) |
-| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | Dp Knapsack | [C++](problems/0983.md) | O(D log D)，D 為 days 的長度（每天都要做一次二分搜尋） | O(D) |
+| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | Dp Knapsack | [C++](problems/0983.md) | O(D log D) | O(D) |
 | 1000 | [Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/) | 🔴 Hard | Dp Interval | [C++](problems/1000.md) | O(N³ / K) | O(N²) |
-| 1012 | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/) | 🔴 Hard | Dp Digit | [C++](problems/1012.md) | O(D²)，D 是 n 的位數（最多 10 位） | O(1) |
+| 1012 | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/) | 🔴 Hard | Dp Digit | [C++](problems/1012.md) | O(D²) | O(1) |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | Dynamic Programming Lcs, DP, LCS | [C++](problems/1035.md) | O(N\*M) | O(M) |
 | 1039 | [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) | 🟡 Medium | Dp Interval | [C++](problems/1039.md) | O(N³) | O(N²) |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](problems/1049.md) | O(N\*S) | O(S) |

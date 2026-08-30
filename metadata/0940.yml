@@ -9,5 +9,5 @@ solutions:
   topics:
   - dp-subsequences
   time: O(N)
-  space: O(1)（只需要 26 個字母的計數陣列）
+  space: O(1)
   familiarity: 生疏
