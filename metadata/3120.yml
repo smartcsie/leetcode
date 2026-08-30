@@ -10,6 +10,7 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
+  familiarity: 練習過
   note: '> [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/)<br>
 
     > 要記錄char大小寫都有出現的字元數
@@ -23,4 +24,15 @@ solutions:
     > **}** <br>
 
     > **return __builtin_popcount(lower & upper);** <br>'
-  familiarity: 生疏
+  tricks: null
+- file: Solution_3120_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation And
+  topics:
+  - bit-manipulation-and
+  time: ''
+  space: ''
+  familiarity: 練習過
+  tricks:
+  - accumulate lemma
