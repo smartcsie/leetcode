@@ -30,7 +30,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math, Factorial | [C++](problems/0060.md) | O(N²) | O(N) |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](problems/0396.md) | O(N) | O(1) |
-| 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | Permutation, Math | [C++](problems/0949.md) | O(1) | O(1) |
+| 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | Math, Permutation | [C++](problems/0949.md) | O(1) | O(1) |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Simulation, Carry Propagation | [C++](problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](problems/1404.md) | O(N) | O(1) |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | Math, Enumeration | [C++](problems/2310.md) | O(10) | O(1) |

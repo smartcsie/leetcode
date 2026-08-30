@@ -5,33 +5,16 @@ solutions:
 - file: Solution_0949.cpp
   difficulty: 🟡 Medium
   tags:
-  - Permutation
   - Math
+  - Permutation
   topics:
   - math-permutation
   time: O(1)
   space: O(1)
-  note: '> [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/)<br>
+  familiarity: 生疏
+  note: '> **[易忘記巧]next_permutation** <br>
 
-    > **std::sort(arr.begin(), arr.end());int max_time = -1;** <br>
-
-    > **do {** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**int hour = arr[0] * 10 + arr[1];** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**int minute = arr[2] * 10 + arr[3];** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**if (hour < 24 && minute < 60) {** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;**max_time = std::max(max_time,
-    hour * 60 + minute);** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**}** <br>
-
-    > **} while (std::next_permutation(arr.begin(), arr.end()));** <br>
-
-    > **snprintf(buf, sizeof(buf), "%02d:%02d", max_time / 60, max_time % 60);** <br>
-
+    > **[易忘記巧]snprintf(buf, sizeof(buf), "%02d:%02d", max_time / 60, max_time % 60);
+    <br>
 
     <br><br>'
-  familiarity: 生疏
