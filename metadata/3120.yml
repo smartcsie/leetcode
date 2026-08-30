@@ -31,8 +31,8 @@ solutions:
   - Bit Manipulation And
   topics:
   - bit-manipulation-and
-  time: ''
-  space: ''
+  time: O(N)
+  space: O(1)
   familiarity: 練習過
   tricks:
   - accumulate lemma

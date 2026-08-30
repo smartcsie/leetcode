@@ -20,7 +20,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 2275 | [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | 🟡 Medium | Bit Manipulation And, Greedy | [C++](../problems/2275.md) | O(32\*N) | O(1) |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | Bit Manipulation And, Greedy, Array | [C++](../problems/2419.md) | O(N) | O(1) |
-| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation And | [C++](../problems/3120.md) |  |  |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation And | [C++](../problems/3120.md) | O(N) | O(1) |
 
 ## 🟣 易忘（1）
 
