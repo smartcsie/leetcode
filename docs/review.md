@@ -113,7 +113,7 @@
 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Math, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | Brute Force, Simulation | [C++](problems/1608.md) | O(N²) | O(1) |
 | 1685 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | 🟡 Medium | Array, Prefix Sum, Math | [C++](problems/1685.md) | O(N) | O(N) |
-| 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 Medium | Prefix Sum | [C++](problems/1738.md) | O(M\*N) - 雙層迴圈遍歷矩陣計算 2D 前綴 XOR 需要 O(M\*N)；使用 std::nth_element 尋找第 k 大元素的平均時間為 O(M\*N)。 | O(M\*N) - 需要額外的 prefix 矩陣（大小 (M+1) x (N+1)）與儲存所有 XOR 值的 xorVal 陣列。 |
+| 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/1738.md) | O(M\*N) | O(M\*N) |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 Easy | Array, Simulation | [C++](problems/1848.md) | O(N) | O(1) |
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Prefix Sum, Math | [C++](problems/2256.md) | O(N) | O(1) |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | Array, Prefix Sum | [C++](problems/2559.md) | O(N+Q) | O(N) |
