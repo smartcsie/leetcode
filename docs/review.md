@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（392）](#review-shengshu)　[🟣 易忘清單（52）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（391）](#review-shengshu)　[🟣 易忘清單（52）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 979 題　🔴 生疏：386 題　🟠 再練習：172 題　🟡 練習過：95 題　🟣 易忘：46 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 979 題　🔴 生疏：385 題　🟠 再練習：172 題　🟡 練習過：96 題　🟣 易忘：46 題　🟢 熟練：280 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 392 個解法標記為生疏，建議找時間重新練習。
+目前共有 391 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（6）](#shengshu-math)　[📊 Bit Manipulation（15）](#shengshu-bit-manipulation)　[🔗 String（13）](#shengshu-string)　[🍱 Array（28）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（16）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（58）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（6）](#shengshu-math)　[📊 Bit Manipulation（15）](#shengshu-bit-manipulation)　[🔗 String（13）](#shengshu-string)　[🍱 Array（27）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（16）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（58）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -76,7 +76,7 @@
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String, Two Pointers | [C++](problems/3775.md) | O(N\*L) | O(N) |
 
 <a id="shengshu-array"></a>
-#### 🍱 Array（28）
+#### 🍱 Array（27）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -87,7 +87,6 @@
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](problems/0059.md) | O(N²) | O(1) |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | Array, Voting Algorithm | [C++](problems/0229.md) | O(N) | O(1) |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array Negative Marking | [C++](problems/0287.md) | O(n) | O(1) |
-| 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Array, Prefix Sum | [C++](problems/0303.md) | O(N) | O(N) |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array Prefix Sum, Matrix, Prefix Sum | [C++](problems/0304.md) | O(M\*N) | O(M\*N) |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Greedy, Interval | [C++](problems/0435.md) | O(NlogN) | O(1) |
 | 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | Prefix Sum, Hash Map | [C++](problems/0523.md) | O(N) | O(min(N,K)) |
@@ -658,7 +657,7 @@
 | [array-linear-scan](topics/array-linear-scan.md) | 3 | 5 | 1 | 0 | 16 | 0 | 25 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
-| [array-prefix-sum](topics/array-prefix-sum.md) | 13 | 1 | 2 | 1 | 2 | 0 | 19 |
+| [array-prefix-sum](topics/array-prefix-sum.md) | 12 | 1 | 3 | 1 | 2 | 0 | 19 |
 | [backtracking-combination](topics/backtracking-combination.md) | 14 | 0 | 0 | 0 | 0 | 0 | 14 |
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
