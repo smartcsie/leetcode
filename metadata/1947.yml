@@ -8,6 +8,6 @@ solutions:
   - Backtracking Permutation
   topics:
   - backtracking-permutation
-  time: O(M!
-  space: O(M)（used 陣列 + 遞迴深度）
+  time: O(M!)
+  space: O(M)
   familiarity: 生疏
