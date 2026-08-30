@@ -8,6 +8,6 @@ solutions:
   - Graph Bfs
   topics:
   - graph-bfs
-  time: O(N·L·26) - N 為 wordList 長度，L 為單字長度；BFS 過程中每個
-  space: O(N·L) - wordSet 儲存所有單字，queue 最多同時存在 N 個單字。
+  time: O(N·L·26)
+  space: O(N·L)
   familiarity: 生疏

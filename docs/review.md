@@ -294,10 +294,10 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | Graph Bfs | [C++](problems/0127.md) | O(N·L·26) - N 為 wordList 長度，L 為單字長度；BFS 過程中每個 | O(N·L) - wordSet 儲存所有單字，queue 最多同時存在 N 個單字。 |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | Graph Bfs | [C++](problems/0127.md) | O(N·L·26) | O(N·L) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | Graph Dfs, DFS, BFS, Union-Find | [C++](problems/0200.md) | O(M×N) | O(1)\* |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Topological Sort | [C++](problems/0207.md) | O(V+E) | O(V+E) |
-| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 🟡 Medium | Union Find | [C++](problems/0547.md) | O(N²·α(N)) - 需雙重迴圈遍歷 n x n 鄰接矩陣（上三角，含對角線）， | O(N) - id 與 rank 兩個陣列各佔用 O(N) 空間。 |
+| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 🟡 Medium | Union Find | [C++](problems/0547.md) | O(N²·α(N)) | O(N) |
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | Graph Shortest Path | [C++](problems/0743.md) | O(E·logV) | O(V+E) |
 
 <a id="shengshu-sorting"></a>
