@@ -67,7 +67,7 @@
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) |
 | 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 Easy | Bit Manipulation, Math | [C++](problems/3314.md) | O(N) | O(N) |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Math, Bit Manipulation, Brainteaser | [C++](problems/3513.md) | O(logN) | O(1) |
-| 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) - M 為大於等於陣列最大元素的最小 2 的冪次，FWHT 的三層迴圈總共執行 M log M 次操作。 | O(M) - 需要配置大小為 V (即 M) 的多項式陣列來儲存頻率與進行頻域轉換。 |
+| 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) |
 
 <a id="shengshu-string"></a>
 #### 🔗 String（14）
