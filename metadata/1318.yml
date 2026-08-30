@@ -17,7 +17,8 @@ solutions:
 
     > **int flips = __builtin_popcount(diff & ~c) + __builtin_popcount(a & b & diff);**
     <br>'
-  tricks: null
+  tricks:
+  - __builtin_popcount
 - file: Solution_1318_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -27,4 +28,5 @@ solutions:
   time: O(log(max(a,b,c)))
   space: O(1)
   familiarity: 練習過
-  tricks: null
+  tricks:
+  - __builtin_popcount
