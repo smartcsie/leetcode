@@ -14,24 +14,10 @@
 class Solution {
 public:
     int kthFactor(int n, int k) {
-        // 第一階段：遍歷 1 到 sqrt(n)，找出前段因數
-        for (int i = 1; i * i <= n; ++i) {
-            if (n % i == 0) {
-                if (--k == 0) return i;
-            }
-        }
-
-        // 第二階段：回頭找後半段因數 (i * i = n 的情況需排除)
-        // 為了確保從小到大順序，需從 sqrt(n) 往 1 找
-        for (int i = sqrt(n); i >= 1; --i) {
-            // 如果 i*i == n，這個因數已經在第一階段算過了，跳過
-            if (i * i == n) continue;
-            
-            if (n % i == 0) {
-                if (--k == 0) return n / i;
-            }
-        }
-        
+        for(int i = 1; i * i <= n; i++) 
+            if(n % i == 0 && --k == 0) return i;
+        for(int i = static_cast<int>(sqrt(n)); i >= 1 ; i--) 
+            if(n % i == 0 && i * i != n && --k == 0) return n / i;
         return -1;
     }
 };

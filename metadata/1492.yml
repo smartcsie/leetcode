@@ -5,21 +5,9 @@ solutions:
 - file: Solution_1492.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Factor Enumeration
   topics:
   - math-factor-enumeration
   time: O(√N)
   space: O(1)
-  note: '> [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/)<br>
-
-    > 分前半部和後半部<br>
-
-    > for(int i =1; i * i <=n; i++) if(n % i == 0 && (--k == 0)) return i;<br>
-
-    > for (int i = (int)sqrt(n); i >= 1; i--) if (n % i == 0 && i * i != n && --k
-    == 0) return n / i;<br>
-
-
-
-    <br><br>'
-  familiarity: 生疏
+  familiarity: 易忘
