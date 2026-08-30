@@ -4737,7 +4737,7 @@
 
 <h1 id="949-largest-time-for-given-digits">949. Largest Time for Given Digits<a class="headerlink" href="#949-largest-time-for-given-digits" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/largest-time-for-given-digits/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Permutation, Math　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Math, Permutation　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：949. Largest Time for Given Digits</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -4776,18 +4776,10 @@
 <a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/largest-time-for-given-digits/">Largest Time for Given Digits</a><br>
-<strong>std::sort(arr.begin(), arr.end());int max_time = -1;</strong> <br>
-<strong>do {</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>int hour = arr[0] * 10 + arr[1];</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>int minute = arr[2] * 10 + arr[3];</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>if (hour &lt; 24 &amp;&amp; minute &lt; 60) {</strong> <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<strong>max_time = std::max(max_time, hour * 60 + minute);</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>}</strong> <br>
-<strong>} while (std::next_permutation(arr.begin(), arr.end()));</strong> <br>
-<strong>snprintf(buf, sizeof(buf), "%02d:%02d", max_time / 60, max_time % 60);</strong> <br></p>
+<p><strong>[易忘記巧]next_permutation</strong> <br>
+**[易忘記巧]snprintf(buf, sizeof(buf), "%02d:%02d", max_time / 60, max_time % 60); <br>
+<br><br></p>
 </blockquote>
-<p><br><br></p>
 
 
 
