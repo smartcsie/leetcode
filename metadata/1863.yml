@@ -5,11 +5,13 @@ solutions:
 - file: Solution_1863.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Xor
   - Math
   - Combinatorics
   topics:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  note: '> **所有子集XOR總和的總和，等於「全體元素的 Bitwise OR 」乘以 2^(N-1)。**<br>'
+  tricks: null
