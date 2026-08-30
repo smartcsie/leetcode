@@ -12,7 +12,7 @@
 | 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking Combination, Backtracking, Recursion | [C++](../problems/0078.md) | O(N\*2ᴺ) | O(N) |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | Backtracking Combination | [C++](../problems/0131.md) | O(N × 2^N) | O(N) |
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Backtracking | [C++](../problems/0216.md) | O(C(9,K)) | O(K) |
-| 638 | [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | 🟡 Medium | Backtracking Combination | [C++](../problems/0638.md) | O(∏(needs[i]+1) × 優惠數量) | O(∏(needs[i]+1)) |
+| 638 | [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | 🟡 Medium | Backtracking Combination | [C++](../problems/0638.md) | O(∏(needs[i]+1)) | O(∏(needs[i]+1)) |
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | Backtracking | [C++](../problems/0784.md) | O(2ᴺ) | O(N) |
 | 1255 | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | 🔴 Hard | Backtracking Combination | [C++](../problems/1255.md) | O(2^N) | O(26) |
 | 1415 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | 🟡 Medium | Backtracking Combination | [C++](../problems/1415.md) | O(3 × 2^(N-1)) | O(N) |

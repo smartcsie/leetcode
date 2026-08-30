@@ -501,7 +501,7 @@
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | Backtracking Combination | [C++](problems/0131.md) | O(N × 2^N) | O(N) |
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Backtracking | [C++](problems/0216.md) | O(C(9,K)) | O(K) |
 | 526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | 🟡 Medium | Backtracking Permutation | [C++](problems/0526.md) | O(K) | O(N) |
-| 638 | [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | 🟡 Medium | Backtracking Combination | [C++](problems/0638.md) | O(∏(needs[i]+1) × 優惠數量) | O(∏(needs[i]+1)) |
+| 638 | [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | 🟡 Medium | Backtracking Combination | [C++](problems/0638.md) | O(∏(needs[i]+1)) | O(∏(needs[i]+1)) |
 | 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | Backtracking | [C++](problems/0784.md) | O(2ᴺ) | O(N) |
 | 980 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | 🔴 Hard | Backtracking Grid | [C++](problems/0980.md) | O(4^(可走格數)) | O(M × N) |
 | 1219 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | 🟡 Medium | Backtracking Grid | [C++](problems/1219.md) | O(4^(有金子的格數)) | O(M × N) |
