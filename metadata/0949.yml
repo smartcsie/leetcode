@@ -11,7 +11,7 @@ solutions:
   - math-permutation
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
   note: '> **[易忘記巧]next_permutation** <br>
 
     > **[易忘記巧]snprintf(buf, sizeof(buf), "%02d:%02d", max_time / 60, max_time % 60);
