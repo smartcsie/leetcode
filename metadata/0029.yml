@@ -13,3 +13,14 @@ solutions:
   space: O(1)
   familiarity: 生疏
   note: '> [Overflow handle] <br>'
+  tricks: null
+- file: Solution_0029_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(log²N)
+  space: O(1)
+  familiarity: 易忘
+  tricks: null
