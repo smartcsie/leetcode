@@ -16,22 +16,14 @@
 
 class Solution {
 public:
-    int longestSubarray(std::vector<int>& nums) {
-        // 1. 找出陣列中的最大值
-        int maxVal = *std::max_element(nums.begin(), nums.end());
-        int maxCount = 0;
+    int longestSubarray(vector<int>& nums) {
+        int mx = *max_element(nums.begin(), nums.end());
+        int ans = 0;
         int count = 0;
-        
-        // 2. 計算連續出現最大值的最長長度
-        for (const int& num : nums) {
-            if (num == maxVal) {
-                count++;
-            } else {
-                count = 0; // 一旦中斷，重置連續計數
-            }
-            maxCount = std::max(maxCount, count);
+        for(const int& x : nums) {
+            count = x == mx ? count + 1 : 0;
+            ans = max(ans, count);
         }
-        
-        return maxCount;
+        return ans;
     }
 };
