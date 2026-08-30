@@ -373,14 +373,14 @@ def _build_familiarity_section(rows, id_prefix, intro_text):
         lines.append(f'<a id="{anchor}"></a>')
         lines.append(f'#### {group}（{len(group_rows)}）')
         lines.append('')
-        lines.append('| # | 題目 | 難度 | 解法檔案 | 分類 |')
-        lines.append('| --- | --- | --- | --- | --- |')
+        lines.append('| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |')
+        lines.append('| --- | --- | --- | --- | --- | --- | --- |')
         for r in group_rows:
             page_link = f"problems/{r['number']:04d}.md"
             title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             lines.append(f"| {r['number']} | {title_cell} | {escape_cell(r['difficulty'])} | "
-                         f"{file_cell} | {escape_cell(r['topics'])} |")
+                         f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | {escape_cell(r['space'])} |")
         lines.append('')
 
     return lines
@@ -394,6 +394,7 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
             for sol in problem['solutions']:
                 if sol.get('familiarity') == target_familiarity:
                     topics_list = to_list(sol.get('topics'))
+                    tags_list = to_list(sol.get('tags'))
                     group = group_for(topics_list[0]) if topics_list else '📄 Other'
                     result.append({
                         'number': problem['number'],
@@ -401,6 +402,9 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
                         'url': problem.get('url', ''),
                         'file': sol.get('file', ''),
                         'difficulty': sol.get('difficulty', ''),
+                        'tags': ', '.join(tags_list),
+                        'time': sol.get('time', ''),
+                        'space': sol.get('space', ''),
                         'topics': ', '.join(topics_list),
                         'group': group,
                     })
@@ -470,17 +474,6 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
                  f"🟡 練習過：{total_lianxiguo} 題　🟣 易忘：{total_yiwang} 題　"
                  f"🟢 熟練：{total_shulian} 題　⚪ 未標記：{total_unmarked} 題")
     lines.append('')
-
-    lines.append('### 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計')
-    lines.append('')
-    lines.append('| 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |')
-    lines.append('| --- | --- | --- | --- | --- | --- | --- | --- |')
-    for topic, stat in sorted(topic_stats.items()):
-        topic_total = (stat['生疏'] + stat['再練習'] + stat['練習過'] +
-                       stat['易忘'] + stat['熟練'] + stat['未標記'])
-        lines.append(f"| [{topic}](topics/{topic}.md) | {stat['生疏']} | {stat['再練習']} | "
-                     f"{stat['練習過']} | {stat['易忘']} | {stat['熟練']} | {stat['未標記']} | {topic_total} |")
-    lines.append('')
     lines.append('---')
     lines.append('')
 
@@ -495,6 +488,19 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
     lines.append('## 🟣 易忘清單')
     lines.append('')
     lines.extend(_build_familiarity_section(forgetful_rows, 'yiwang', '標記為易忘，建議面試前重點複習。'))
+
+    lines.append('---')
+    lines.append('')
+    lines.append('## 📊 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計')
+    lines.append('')
+    lines.append('| 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |')
+    lines.append('| --- | --- | --- | --- | --- | --- | --- | --- |')
+    for topic, stat in sorted(topic_stats.items()):
+        topic_total = (stat['生疏'] + stat['再練習'] + stat['練習過'] +
+                       stat['易忘'] + stat['熟練'] + stat['未標記'])
+        lines.append(f"| [{topic}](topics/{topic}.md) | {stat['生疏']} | {stat['再練習']} | "
+                     f"{stat['練習過']} | {stat['易忘']} | {stat['熟練']} | {stat['未標記']} | {topic_total} |")
+    lines.append('')
 
     with open(os.path.join(docs_dir, 'review.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
