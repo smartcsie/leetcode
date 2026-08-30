@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（393）](#review-shengshu)　[🟣 易忘清單（51）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（392）](#review-shengshu)　[🟣 易忘清單（52）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 979 題　🔴 生疏：387 題　🟠 再練習：172 題　🟡 練習過：95 題　🟣 易忘：45 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 979 題　🔴 生疏：386 題　🟠 再練習：172 題　🟡 練習過：95 題　🟣 易忘：46 題　🟢 熟練：280 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 393 個解法標記為生疏，建議找時間重新練習。
+目前共有 392 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（6）](#shengshu-math)　[📊 Bit Manipulation（15）](#shengshu-bit-manipulation)　[🔗 String（14）](#shengshu-string)　[🍱 Array（28）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（16）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（58）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（6）](#shengshu-math)　[📊 Bit Manipulation（15）](#shengshu-bit-manipulation)　[🔗 String（13）](#shengshu-string)　[🍱 Array（28）](#shengshu-array)　[🌳 Tree（21）](#shengshu-tree)　[🔍 Binary Search（27）](#shengshu-binary-search)　[⛓️ Linked List（11）](#shengshu-linked-list)　[👥 Pointers（25）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（16）](#shengshu-sorting)　[🧩 Dynamic Programming（90）](#shengshu-dynamic-programming)　[🧩 Greedy（58）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -57,13 +57,12 @@
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) |
 
 <a id="shengshu-string"></a>
-#### 🔗 String（14）
+#### 🔗 String（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | String, Math | [C++](problems/0008.md) | O(N) | O(1) |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String, Trie | [C++](problems/0014.md) | O(S) | O(1) |
-| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String, KMP | [C++](problems/0028.md) | O(N\*M) | O(1) |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | Math, String | [C++](problems/0043.md) | O(M\*N) | O(M+N) |
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 Hard | String, State Machine | [C++](problems/0065.md) | O(N) | O(1) |
 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 Easy | String, KMP | [C++](problems/0459.md) | O(N) | O(N) |
@@ -534,9 +533,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 51 個解法標記為易忘，建議面試前重點複習。
+目前共有 52 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（19）](#yiwang-math)　[📊 Bit Manipulation（9）](#yiwang-bit-manipulation)　[🔗 String（1）](#yiwang-string)　[🍱 Array（2）](#yiwang-array)　[🌳 Tree（5）](#yiwang-tree)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（19）](#yiwang-math)　[📊 Bit Manipulation（9）](#yiwang-bit-manipulation)　[🔗 String（2）](#yiwang-string)　[🍱 Array（2）](#yiwang-array)　[🌳 Tree（5）](#yiwang-tree)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -586,10 +585,11 @@
 | 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](problems/2317.md) | O(N) | O(1) |
 
 <a id="yiwang-string"></a>
-#### 🔗 String（1）
+#### 🔗 String（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String Kmp, KMP | [C++](problems/0028.md) | O(N\*M) | O(1) |
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String, String Manipulation, Bit Format | [C++](problems/3280.md) | O(1) | O(1) |
 
 <a id="yiwang-array"></a>
@@ -746,7 +746,7 @@
 | [stack](topics/stack.md) | 4 | 2 | 0 | 0 | 8 | 0 | 14 |
 | [string](topics/string.md) | 8 | 5 | 5 | 1 | 22 | 0 | 41 |
 | [string-character-classification](topics/string-character-classification.md) | 1 | 2 | 1 | 0 | 18 | 0 | 22 |
-| [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
+| [string-kmp](topics/string-kmp.md) | 1 | 0 | 0 | 1 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
