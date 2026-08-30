@@ -5,11 +5,11 @@ solutions:
 - file: Solution_0304.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Array Prefix Sum
   - Matrix
   - Prefix Sum
   topics:
   - array-prefix-sum
-  time: O(M*N) 初始化 / O(1) 查詢
+  time: O(M*N)
   space: O(M*N)
   familiarity: 生疏

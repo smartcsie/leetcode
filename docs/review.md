@@ -102,7 +102,7 @@
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | Array, Voting Algorithm | [C++](problems/0229.md) | O(N) | O(1) |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array Negative Marking | [C++](problems/0287.md) | O(n) | O(1) |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Array, Prefix Sum | [C++](problems/0303.md) | O(N) | O(N) |
-| 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array, Matrix, Prefix Sum | [C++](problems/0304.md) | O(M\*N) 初始化 / O(1) 查詢 | O(M\*N) |
+| 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array Prefix Sum, Matrix, Prefix Sum | [C++](problems/0304.md) | O(M\*N) | O(M\*N) |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Greedy, Interval | [C++](problems/0435.md) | O(NlogN) | O(1) |
 | 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | Prefix Sum, Hash Map | [C++](problems/0523.md) | O(N) | O(min(N,K)) |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) |
