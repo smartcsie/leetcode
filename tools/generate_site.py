@@ -193,6 +193,12 @@ def build_problem_page(problem, solution_dir):
         lines.append(info)
         lines.append('')
 
+        tricks = to_list(sol.get('tricks'))
+        if tricks:
+            tricks_str = '、'.join(escape_cell(t) for t in tricks)
+            lines.append(f"**技巧:** {tricks_str}")
+            lines.append('')
+
         code = load_code(solution_dir, sol.get('file'))
         if code is not None:
             lang = lang_for_file(sol['file'])
