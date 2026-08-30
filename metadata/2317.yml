@@ -11,9 +11,6 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 易忘
-  note: '> [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations)
-    <br>
-
-    > 所有元素之間AND，再把所有結果XOR，等於所有元素直接OR'
+  note: '> 所有元素之間AND，再把所有結果XOR，等於所有元素直接OR'
   tricks:
   - accumulate
