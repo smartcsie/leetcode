@@ -11,4 +11,5 @@ solutions:
   - bit-manipulation-mask
   time: O(N*L+N^2)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
