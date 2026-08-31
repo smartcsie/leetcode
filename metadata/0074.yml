@@ -12,10 +12,8 @@ solutions:
   time: O(log(MN))
   space: O(1)
   familiarity: 練習過
-  note: '> [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)
-    <br>
+  note: '> **標準Binary Search，二維index mapping到一維，right = m * n -1**<br>
 
-    > **標準Binary Search**，把二維陣列index mapping到一維，right = m * n -1，matrix[mid /n][mid
-    % n]<br>'
+    > **注意<matrix[mid /n][mid % n]**<br>'
   tricks:
   - Coordinate Transformation
