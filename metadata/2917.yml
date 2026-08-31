@@ -5,16 +5,9 @@ solutions:
 - file: Solution_2917.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Or
   topics:
   - bit-manipulation-or
   time: O(N*log(max_VAL))
   space: O(1)
-  note: '> [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array)<br>
-
-    > 起回圈i = 0到31 <br>
-
-    > count = 0，travsal 每個數，(num >> i) & 1加到count<br>
-
-    > 如果count >= k， res |= (1<<i)<br>'
-  familiarity: 生疏
+  familiarity: 熟練

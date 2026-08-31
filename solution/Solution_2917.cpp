@@ -17,23 +17,11 @@ class Solution {
 public:
     int findKOr(vector<int>& nums, int k) {
         int ans = 0;
-        
-        // 對於 32 個 bit 位中的每一個進行統計
-        for (int i = 0; i < 32; i++) {
+        for(int i = 31; i >= 0; i --) {
             int count = 0;
-            // 遍歷所有數字，檢查第 i 個 bit 是否為 1
-            for (int num : nums) {
-                if ((num >> i) & 1) {
-                    count++;
-                }
-            }
-            
-            // 若滿足 K 次以上，則該 bit 在結果中為 1
-            if (count >= k) {
-                ans |= (1 << i);
-            }
+            for(const int& x : nums) if((x >> i) & 1) count++;
+            if(count >= k) ans |= 1 << i;
         }
-        
         return ans;
     }
 };
