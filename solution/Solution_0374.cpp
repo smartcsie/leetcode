@@ -15,21 +15,12 @@ class Solution {
 public:
     int guessNumber(int n) {
         int left = 1, right = n;
-        
-        while (left <= right) {
-            // 使用 left + (right - left) / 2 防止整數溢位 (Integer Overflow)
+        while(left <= right) {
             int mid = left + (right - left) / 2;
-            int res = guess(mid);
-            
-            if (res == 0) {
-                return mid; // 猜對了
-            } else if (res == -1) {
-                right = mid - 1; // 數字太大，往左半區找
-            } else {
-                left = mid + 1; // 數字太小，往右半區找
-            }
+            if(guess(mid) == 0) return mid;
+            else if(guess(mid) == -1) right = mid - 1;
+            else left = mid + 1;
         }
-        
-        return -1; // 根據題意應必有解，但在這裡回傳 -1 作為防禦性編程
+        return -1;
     }
 };
