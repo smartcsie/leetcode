@@ -5,10 +5,13 @@ solutions:
 - file: Solution_2433.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Xor
   - Prefix XOR Inverse
   topics:
   - bit-manipulation-xor
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **所求prefix[n] = prefix[0]^prefix[1]^.....prefix[n-1]**<br>
+
+    > **等價prefix[n] = pref[n]^pref[n-1]**<br>'

@@ -21,17 +21,11 @@
 class Solution {
 public:
     std::vector<int> findArray(std::vector<int>& pref) {
-        int n = pref.size();
-        std::vector<int> ans(n, 0);
-        
-        // 第一個元素直接對應 pref[0]
-        ans[0] = pref[0];
-        
-        // 利用 XOR 的反轉性質還原後續元素
-        for (int i = 1; i < n; i++) {
-            ans[i] = pref[i - 1] ^ pref[i];
+        vector<int> prefix(pref.size());
+        prefix[0] = pref[0];
+        for(int i = 1; i < n; i++) {
+            prefix[i] =  pref[i] ^ pref[i - 1];
         }
-        
-        return ans;
+        return prefix;
     }
 };
