@@ -22,24 +22,14 @@
 
 class Solution {
 public:
-    bool queryString(std::string s, int n) {
-        // 1. 剪枝：若 n 超過合理範圍直接返回 false
-        if (n > 1511) {
-            return false;
-        }
-        
-        // 2. 從 n 反向檢查到 n / 2 + 1
-        for (int i = n; i > n / 2; --i) {
-            std::string binary = std::bitset<32>(i).to_string();
+    bool queryString(string s, int n) {
+        if(n > 1000) return false;
+        for(int i = n; i > n /2 ; i--) {
+            string binary = bitset<32>(i).to_string();
             // 移除前導零
-            binary = binary.substr(binary.find("1"));
-            
-            // 若 s 中找不到該二進位字串，返回 false
-            if (s.find(binary) == std::string::npos) {
-                return false;
-            }
+            binary = binary.substr(binary.find('1'));
+            if(s.find(binary) == string::npos) return false;
         }
-        
         return true;
     }
 };

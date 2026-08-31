@@ -5,11 +5,12 @@ solutions:
 - file: Solution_1016.cpp
   difficulty: 🟡 Medium
   tags:
-  - String
+  - Bit Manipulation
   - Bit Manipulation
   - Sliding Window
   topics:
   - bit-manipulation
   time: O(N*LEN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **轉二進制，string binary = bitset<32>(i).to_string();**'
