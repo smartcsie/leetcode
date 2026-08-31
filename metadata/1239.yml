@@ -5,11 +5,11 @@ solutions:
 - file: Solution_1239.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
+  - Bit Bitmask Subset Enumeration
   - Backtracking
   - Bitset
   topics:
   - bit-bitmask-subset-enumeration
   time: O(2ᴺ)
   space: O(2ᴺ)
-  familiarity: 生疏
+  familiarity: 易忘
