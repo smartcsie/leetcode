@@ -5,10 +5,11 @@ solutions:
 - file: Solution_3775.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - String Character Classification
   - Two Pointers
   topics:
   - string-character-classification
   time: O(N*L)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null

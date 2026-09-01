@@ -9,28 +9,26 @@
 
 class Solution {
 private:
-    static bool isVowel(char c) {
-        return (2130466 >> (c - '`')) & 1;
-    }
-    int countVowels(const std::string& s) {
-        return count_if(s.begin(), s.end(), [](char c) {
-            return isVowel(c);
+    int countVowels(const string& s) {
+        return accumulate(s.begin(), s.end(), 0,  [](int count ,char c) {
+            if((0x104111 >> (c - 'a')) & 1) count++;
+            return count;
         });
     }
 public:
     string reverseWords(string s) {
-        stringstream ss(s);
-        string word;
-        ss >> word;
-        int vowels = countVowels(word);
-        string res = word;
-        while(ss >> word) {
-            res += " ";
-            if(countVowels(word) == vowels) {
-                reverse(word.begin(), word.end());
-            }
-            res += word;
+        istringstream iss(s);
+        string w;
+        int vowels = -1;
+        string ans = w;
+        while(iss >> w) {
+            int curVowels = countVowels(w);
+            if(vowels == -1) vowels = curVowels;
+            else if(curVowels == vowels) reverse(w.begin(), w.end());
+            ans += w;
+            ans.push_back(' ');
         }
-        return res;
+        ans.pop_back();
+        return ans;
     }
 };
