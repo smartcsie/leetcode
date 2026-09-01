@@ -11,4 +11,6 @@ solutions:
   - math-digit-decomposition
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  note: '> **注意是 i > 0**<br>'
+  tricks: null
