@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0057.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Array Interval
   - Interval
   topics:
   - array-interval
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null

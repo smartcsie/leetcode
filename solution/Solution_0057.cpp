@@ -16,29 +16,19 @@
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
-        vector<vector<int>> res;
-        int i = 0;
-        int n = intervals.size();
-
-        // 1. 加入所有 newInterval 左側且不重疊的區間
-        while (i < n && intervals[i][1] < newInterval[0]) {
-            res.push_back(intervals[i++]);
-        }
-
-        // 2. 合併所有重疊的區間
-        // 當 intervals[i] 的開始點 <= newInterval 的結束點，代表有重疊
-        while (i < n && intervals[i][0] <= newInterval[1]) {
-            newInterval[0] = min(newInterval[0], intervals[i][0]);
-            newInterval[1] = max(newInterval[1], intervals[i][1]);
+        vector<vector<int>>& itvs = intervals;
+        vector<int>& newItv = newInterval;
+        int i = 0 , n = itvs.size();
+        vector<vector<int>> ans;
+        ans.reserve(n + 1);
+        while(i < n && itvs[i][1] < newItv[0]) ans.push_back(itvs[i++]);
+        while(i < n && itvs[i][0] <= newItv[1]) {
+            newItv[0] = min(itvs[i][0], newItv[0]);
+            newItv[1] = max(itvs[i][1], newItv[1]);
             i++;
         }
-        res.push_back(newInterval); // 加入合併後的區間
-
-        // 3. 加入剩餘右側不重疊的區間
-        while (i < n) {
-            res.push_back(intervals[i++]);
-        }
-
-        return res;
+        ans.push_back(newItv);
+        while(i < n) ans.push_back(itvs[i++]);
+        return ans;
     }
 };
