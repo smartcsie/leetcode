@@ -16,25 +16,16 @@
 class Solution {
 public:
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
-        if (intervals.empty()) return 0;
-
-        // 按區間的結束時間進行排序 (Greedy 策略)
-        sort(intervals.begin(), intervals.end(), [](const vector<int>& a, const vector<int>& b) {
-            return a[1] < b[1];
+        vector<vector<int>>& itvs = intervals;
+        sort(itvs.begin(), itvs.end(), [](const auto& a, const auto& b){
+            return a[1] < b[1]; 
         });
-
-        int count = 1; // 記錄能保留的最大區間數
-        int preEnd = intervals[0][1];
-
-        for (size_t i = 1; i < intervals.size(); ++i) {
-            // 如果下一個區間的起始時間 >= 前一個區間的結束時間，則不重疊
-            if (intervals[i][0] >= preEnd) {
-                count++;
-                preEnd = intervals[i][1];
-            }
+        int ans = 0;
+        int prevEnd = itvs[0][1];
+        for(int i = 1; i < itvs.size(); i++) {
+            if(prevEnd <= itvs[i][0]) prevEnd = itvs[i][1];
+            else ans++;
         }
-
-        // 需要移除的數量 = 總數 - 可保留的最大數量
-        return intervals.size() - count;
+        return ans;
     }
 };
