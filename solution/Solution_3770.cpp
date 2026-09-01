@@ -14,29 +14,32 @@
 class Solution {
 public:
     int largestPrime(int n) {
-        static const int MX = 500000;
+        static int MX = 500000;
         static vector<bool> isPrime;
         static vector<int> primes;
-
-        if (isPrime.empty()) {
+        primes.reserve(MX + 1);
+        if(isPrime.empty()) {
             isPrime.assign(MX + 1, true);
             isPrime[0] = isPrime[1] = false;
-            for (int p = 2; p * p <= MX; p++) {
-                if (isPrime[p]) {
-                    for (int i = p * p; i <= MX; i += p)
+            for(int p = 2; p * p <= MX; p++) {
+                if(isPrime[p]) {
+                    for(int i = p * p; i <= MX; i += p) {
                         isPrime[i] = false;
+                    }
                 }
             }
-            for (int i = 2; i <= MX; i++)
-                if (isPrime[i]) primes.push_back(i);
-        }
 
-        int ans = 0, current_sum = 0;
-        for (int p : primes) {
-            if (p > n) break;
-            current_sum += p;
-            if (current_sum > n) break;
-            if (isPrime[current_sum]) ans = current_sum;
+            for(int x = 2; x <= MX; x++) {
+                if(isPrime[x]) primes.push_back(x);
+            }
+        }
+        int sum = 0;
+        int ans = 0;
+        for(const int& p : primes) {
+            if(p > n) break;
+            sum += p;
+            if(sum > n) break;
+            if(isPrime[sum]) ans = sum;
         }
         return ans;
     }
