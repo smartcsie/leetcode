@@ -13,16 +13,11 @@
 class Solution {
 public:
     int minimumNumbers(int num, int k) {
-        if (num == 0) return 0;
-        
-        // 只需要嘗試 1 到 10 個加數，超過 10 個後個位數循環會重複
-        for (int i = 1; i <= 10; ++i) {
-            int remainder = num - k * i;
-            // 檢查條件：剩餘值需為非負數，且必須是 10 的倍數
-            if (remainder >= 0 && remainder % 10 == 0) {
+        if (num == 0)
+            return 0;
+        for (int i = 1; i <= 10 && i * k <= num; ++i)
+            if (i * k % 10 == num % 10)
                 return i;
-            }
-        }
         return -1;
     }
 };
