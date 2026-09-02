@@ -23,7 +23,7 @@ solutions:
 
     > **for(int i = 1; i < nums.size(); i++) {**<br>
 
-    > **&nbsp&nbsp&nbsp&nbspif(nums[i-1] > nums[i]) return -1;**<br>
+    > **&nbsp;&nbsp;&nbsp;&nbsp;if(nums[i-1] > nums[i]) return -1;**<br>
 
     > **}'
   is_best: true
