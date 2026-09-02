@@ -12,4 +12,5 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 練習過
+  note: '> **去掉頭尾search**<br>'
   tricks: null
