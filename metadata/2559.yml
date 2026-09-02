@@ -5,10 +5,11 @@ solutions:
 - file: Solution_2559.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Array Prefix Sum
   - Prefix Sum
   topics:
   - array-prefix-sum
   time: O(N+Q)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null

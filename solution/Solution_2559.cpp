@@ -7,36 +7,21 @@
  * 空間複雜度：O(N)
  */
 
-#include <vector>
-#include <string>
-
-using namespace std;
-
 class Solution {
 public:
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
-        // 判斷是否為母音的 Helper 函數，現代編譯器會自動 Inline
-        auto isVowel = [](char c) {
-            return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
-        };
-
         int n = words.size();
-        // prefix[i] 代表前 i 個單字中符合條件的個數
         vector<int> prefix(n + 1, 0);
-        
-        for (int i = 0; i < n; ++i) {
-            bool valid = isVowel(words[i].front()) && isVowel(words[i].back());
-            prefix[i + 1] = prefix[i] + (valid ? 1 : 0);
+        for(int i = 0; i <  words.size(); i++) {
+            bool front = (0x104111 >> (words[i].front() - 'a')) & 1 ;
+            bool back = (0x104111 >> (words[i].back() - 'a')) & 1;
+            prefix[i + 1] = (front && back) ? prefix[i] + 1 : prefix[i];
         }
-
-        vector<int> res;
-        res.reserve(queries.size()); // 優化：預分配空間
-        
-        // 區間查詢公式：sum[L, R] = prefix[R + 1] - prefix[L]
-        for (const auto& q : queries) {
-            res.push_back(prefix[q[1] + 1] - prefix[q[0]]);
+        vector<vector<int>>& q = queries;
+        vector<int> ans(q.size());
+        for(int i = 0; i <  q.size(); i++) {
+            ans[i] = prefix[q[i][1] + 1] - prefix[q[i][0]];
         }
-        
-        return res;
+        return ans;
     }
 };
