@@ -12,3 +12,5 @@ solutions:
   space: O(1)
   familiarity: 再練習
   is_best: true
+  tricks:
+  - rotate
