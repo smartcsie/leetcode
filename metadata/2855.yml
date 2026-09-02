@@ -30,3 +30,4 @@ solutions:
   tricks:
   - distance
   - rotate
+  - min_element
