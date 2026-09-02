@@ -28,14 +28,12 @@ class Solution {
 public:
     int minimumRightShifts(vector<int>& nums) {
         int n = nums.size();
-
-        auto it = std::min_element(nums.begin(), nums.end());
-        int index = std::distance(nums.begin(), it);
-
-        for(int i = index; i < index + n - 1; i++) {
+        auto it = min_element(nums.begin(), nums.end());
+        //int start = it - nums.begin(); 
+        int start = distance(nums.begin(), it);
+        for(int i = start  ; i < start + n - 1; i++) {
             if(nums[i % n] > nums[(i + 1) % n]) return -1;
         }
-
-        return (index == 0) ? 0 : n- index;
+        return (n - start) % n;
     }
 };

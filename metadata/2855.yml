@@ -11,5 +11,22 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **int start = it - nums.begin();等價  int start = distance(nums.begin(),
+    it);**<br>
+
+    > **rotate是shift left**<br>
+
+    > **也可以**<br>
+
+    > **rotate(nums.begin(), nums.end() - index, nums.end());**<br>
+
+    > **for(int i = 1; i < nums.size(); i++) {**<br>
+
+    > **&nbsp&nbsp&nbsp&nbspif(nums[i-1] > nums[i]) return -1;**<br>
+
+    > **}'
   is_best: true
+  tricks:
+  - distance
+  - rotate
