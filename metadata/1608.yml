@@ -5,10 +5,22 @@ solutions:
 - file: Solution_1608.cpp
   difficulty: 🟢 Easy
   tags:
+  - Array Linear Scan
   - Brute Force
   - Simulation
   topics:
   - array-linear-scan
   time: O(N²)
   space: O(1)
+  familiarity: 練習過
+  tricks: null
+- file: Solution_1608_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: ''
+  space: ''
   familiarity: 生疏
+  tricks: null
