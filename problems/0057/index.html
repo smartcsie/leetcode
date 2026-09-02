@@ -4737,7 +4737,7 @@
 
 <h1 id="57-insert-interval">57. Insert Interval<a class="headerlink" href="#57-insert-interval" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/insert-interval">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Array Interval, Interval　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🟣 易忘</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Array Difference Array, Interval　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🟡 練習過</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：57. Insert Interval (插入區間)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -4773,6 +4773,12 @@
 <a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>第一個while，把interval尾巴小於新interval頭都加入ans<br></strong>
+<strong>第二個while，把可以合併到新interval的都合併，把新interval加入ans<br></strong>
+<strong>新interval的尾巴大於等於interval的頭<br></strong>
+<strong>第三個while，把後面的interval加入ans<br></strong></p>
+</blockquote>
 
 
 
