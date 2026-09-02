@@ -11,18 +11,17 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（2）
+## 🟡 練習過（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 Medium | Array Interval, Sorting | [C++](../problems/0056.md) | O(NlogN) | O(logN) |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | Array Interval, Interval | [C++](../problems/0057.md) | O(N) | O(N) |
-
-## 🟣 易忘（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Array Interval, Interval | [C++](../problems/0435.md) | O(NlogN) | O(1) |
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
 
 ## 🟢 熟悉（0）
 

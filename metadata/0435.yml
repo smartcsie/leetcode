@@ -11,8 +11,10 @@ solutions:
   - array-interval
   time: O(NlogN)
   space: O(1)
-  familiarity: 易忘
-  note: '> **if(prevEnd <= itvs[i][0]) prevEnd = itvs[i][1];**<br>
+  familiarity: 練習過
+  note: '> **要sort interval的尾**<br>
+
+    > **if(prevEnd <= itvs[i][0]) prevEnd = itvs[i][1];**<br>
 
     > **如果後面的開頭大於等於前面結尾，表示重疊，更新prevEnd**<br>
 
