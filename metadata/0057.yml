@@ -5,11 +5,18 @@ solutions:
 - file: Solution_0057.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array Interval
+  - Array Difference Array
   - Interval
   topics:
-  - array-interval
+  - array-difference-array
   time: O(N)
   space: O(N)
-  familiarity: 易忘
+  familiarity: 練習過
+  note: '> **第一個while，把interval尾巴小於新interval頭都加入ans<br>**
+
+    > **第二個while，把可以合併到新interval的都合併，把新interval加入ans<br>**
+
+    > **新interval的尾巴大於等於interval的頭<br>**
+
+    > **第三個while，把後面的interval加入ans<br>**'
   tricks: null

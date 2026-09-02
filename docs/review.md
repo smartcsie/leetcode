@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（375）](#review-shengshu)　[🟣 易忘清單（60）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（375）](#review-shengshu)　[🟣 易忘清單（59）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 979 題　🔴 生疏：369 題　🟠 再練習：172 題　🟡 練習過：103 題　🟣 易忘：54 題　🟢 熟練：281 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 979 題　🔴 生疏：369 題　🟠 再練習：172 題　🟡 練習過：104 題　🟣 易忘：53 題　🟢 熟練：281 題　⚪ 未標記：0 題
 
 ---
 
@@ -516,9 +516,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 60 個解法標記為易忘，建議面試前重點複習。
+目前共有 59 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（10）](#yiwang-bit-manipulation)　[🔗 String（2）](#yiwang-string)　[🍱 Array（4）](#yiwang-array)　[🌳 Tree（5）](#yiwang-tree)　[🔍 Binary Search（1）](#yiwang-binary-search)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（10）](#yiwang-bit-manipulation)　[🔗 String（2）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（5）](#yiwang-tree)　[🔍 Binary Search（1）](#yiwang-binary-search)　[👥 Pointers（6）](#yiwang-pointers)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -581,11 +581,10 @@
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String, String Manipulation, Bit Format | [C++](problems/3280.md) | O(1) | O(1) |
 
 <a id="yiwang-array"></a>
-#### 🍱 Array（4）
+#### 🍱 Array（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | Array Interval, Interval | [C++](problems/0057.md) | O(N) | O(N) |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Array Interval, Interval | [C++](problems/0435.md) | O(NlogN) | O(1) |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting, Greedy | [C++](problems/0696.md) | O(N) | O(1) |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) |
@@ -650,8 +649,8 @@
 | [array](topics/array.md) | 4 | 9 | 0 | 0 | 15 | 0 | 28 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 5 | 0 | 1 | 5 | 0 | 11 |
-| [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
-| [array-interval](topics/array-interval.md) | 2 | 0 | 1 | 2 | 0 | 0 | 5 |
+| [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 1 | 0 | 0 | 0 | 4 |
+| [array-interval](topics/array-interval.md) | 2 | 0 | 1 | 1 | 0 | 0 | 4 |
 | [array-linear-scan](topics/array-linear-scan.md) | 3 | 5 | 1 | 0 | 16 | 0 | 25 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
