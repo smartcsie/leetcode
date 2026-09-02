@@ -12,11 +12,9 @@
 | 1109 | [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | 🟡 Medium | Array Difference Array, Difference Array | [C++](../problems/1109.md) | O(N+K) | O(N) |
 | 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 Easy | Array Difference Array, Difference Array, Sweep Line | [C++](../problems/1854.md) | O(N+Y) | O(Y) |
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | Array Difference Array, Interval | [C++](../problems/0057.md) | O(N) | O(N) |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（0）
 

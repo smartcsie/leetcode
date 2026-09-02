@@ -5,14 +5,16 @@ solutions:
 - file: Solution_0057.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array Difference Array
+  - Array Interval
   - Interval
   topics:
-  - array-difference-array
+  - array-interval
   time: O(N)
   space: O(N)
   familiarity: 練習過
-  note: '> **第一個while，把interval尾巴小於新interval頭都加入ans<br>**
+  note: '> **題目已經sort<br>**
+
+    > **第一個while，把interval尾巴小於新interval頭都加入ans<br>**
 
     > **第二個while，把可以合併到新interval的都合併，把新interval加入ans<br>**
 

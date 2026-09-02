@@ -649,8 +649,8 @@
 | [array](topics/array.md) | 4 | 9 | 0 | 0 | 15 | 0 | 28 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 5 | 0 | 1 | 5 | 0 | 11 |
-| [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 1 | 0 | 0 | 0 | 4 |
-| [array-interval](topics/array-interval.md) | 2 | 0 | 1 | 1 | 0 | 0 | 4 |
+| [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
+| [array-interval](topics/array-interval.md) | 2 | 0 | 2 | 1 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 3 | 5 | 1 | 0 | 16 | 0 | 25 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 2 | 4 | 0 | 0 | 0 | 0 | 6 |
