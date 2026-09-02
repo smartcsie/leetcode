@@ -25,7 +25,7 @@ solutions:
 
     > **&nbsp;&nbsp;&nbsp;&nbsp;if(nums[i-1] > nums[i]) return -1;**<br>
 
-    > **}'
+    > **}**<br>'
   is_best: true
   tricks:
   - distance
