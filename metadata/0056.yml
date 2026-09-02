@@ -12,4 +12,5 @@ solutions:
   time: O(NlogN)
   space: O(logN)
   familiarity: 練習過
+  note: '> **要sort interval的頭**<br>'
   tricks: null
