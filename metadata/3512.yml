@@ -10,5 +10,7 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
   note: '> 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>'
+  tricks:
+  - accumulate
