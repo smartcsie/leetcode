@@ -13,18 +13,11 @@
 class Solution {
 public:
     int getMinDistance(vector<int>& nums, int target, int start) {
-        int n = static_cast<int>(nums.size());
-        // 雙向擴展搜尋：距離從小到大 (0, 1, 2...)
-        for (int dist = 0; dist < n; ++dist) {
-            // 檢查左側：start - dist
-            if (start - dist >= 0 && nums[start - dist] == target) {
-                return dist;
-            }
-            // 檢查右側：start + dist
-            if (start + dist < n && nums[start + dist] == target) {
-                return dist;
-            }
+        int n = nums.size();
+        for(int d = 0; d < n; d++) {
+            if(start - d >=0 && nums[start - d] == target) return d;
+            if(start + d < n && nums[start + d] == target) return d;
         }
-        return -1; // 題目保證必有解，此處為防禦性回傳
+        return -1;
     }
 };

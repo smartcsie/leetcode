@@ -5,10 +5,11 @@ solutions:
 - file: Solution_1848.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Array Linear Scan
   - Simulation
   topics:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
