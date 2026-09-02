@@ -16,27 +16,7 @@
 class Solution {
 public:
     int countPartitions(std::vector<int>& nums) {
-        int n = nums.size();
-        // 前綴和陣列
-        std::vector<int> prefixes(n + 1, 0);
-        for(int i = 0; i < n; i++) {
-            prefixes[i + 1] = prefixes[i] + nums[i];
-        }
-        
-        int totalSum = prefixes[n];
-        int count = 0;
-        
-        // 分割點 i 範圍為 [0, n-2]，確保左右兩部分皆非空
-        for(int i = 0; i < n - 1; i++) {
-            int leftSum = prefixes[i + 1];
-            int rightSum = totalSum - leftSum;
-            
-            // 檢查差值是否為偶數：利用位元運算 !(diff & 1) 等同於 diff % 2 == 0
-            if (!((std::abs(leftSum - rightSum)) & 1)) {
-                count++;
-            }
-        }
-        
-        return count;
+        int sum = accumulate(nums.begin() , nums.end(), 0);
+        return (sum & 1) ? 0 : nums.size() - 1;
     }
 };
