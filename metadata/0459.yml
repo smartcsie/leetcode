@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0459.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - String Kmp
   - KMP
   topics:
   - string-kmp
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null

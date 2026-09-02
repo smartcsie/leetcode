@@ -21,6 +21,8 @@
 class Solution {
 public:
     bool repeatedSubstringPattern(string s) {
-        return (s + s).find(s, 1) < s.size();
+        string ss = s + s;
+        ss.pop_back();
+        return ss.find(s, 1) != string::npos;
     }
 };
