@@ -14,20 +14,12 @@
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {
-        int left = 0;
-        int right = nums.size() - 1;
-        // 使用 left < right 的循環，當 left 與 right 重合時即為峰頂
-        while (left < right) {
+        int left = 0, right = nums.size() - 1;
+        while(left < right) {
             int mid = left + (right - left) / 2;
-            // 如果當前處於遞增坡道，則峰頂在右側
-            if (nums[mid] < nums[mid + 1]) {
-                left = mid + 1;
-            } 
-            // 如果當前處於遞減坡道或位於頂部，則峰頂在左側（包含當前 m）
-            else {
-                right = mid;
-            }
+            if(nums[mid] < nums[mid + 1]) left = mid + 1;
+            else right = mid;
         }
-        return left; // 或回傳 left，因為 left == right
+        return left;
     }
 };
