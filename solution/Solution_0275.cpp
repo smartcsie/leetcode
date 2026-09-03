@@ -1,0 +1,50 @@
+/**
+ * 題目：275. H-Index II
+ * 難度：中等 (Medium)
+ * 分類主題：binary-search-find-right-bound
+ * 描述：給定一個由小到大排序的引用次數陣列 citations，求 h 指數
+ * （最大的 h，使得至少有 h 篇論文的引用次數都 >= h）。
+ *
+ * 時間複雜度：O(log N)
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：
+ * （在陣列索引上直接收斂，是找右邊界的變形——這題的關鍵是先想清楚
+ * 「索引跟 h 值之間的對應關係」，想通之後就是標準的邊界搜尋）：
+ * 1. **關鍵轉換**：陣列由小到大排序，如果站在索引 `i` 往右看到陣列
+ *    結尾，共有 `n - i` 篇論文，而且這些論文的引用次數都
+ *    `>= citations[i]`（因為排序過，右邊的都比 `citations[i]` 大或
+ *    相等）。所以「以 `citations[i]` 為門檻」能滿足的論文數，剛好
+ *    就是 `n - i`。
+ * 2. 我們要找的 h 指數，需要滿足「至少 h 篇論文引用次數 >= h」，
+ *    如果拿 `h = citations[i]` 代入，需要的論文數 `n - i` 至少要
+ *    `>= citations[i]`，也就是 `citations[i] + i >= n`——這正是
+ *    程式碼裡的判斷式。
+ * 3. **這是一個找右邊界的問題**：因為陣列已排序，`citations[mid] + mid`
+ *    這個值會隨著 `mid` 增加而單調遞增（citations 遞增、mid 也遞增，
+ *    兩者相加只會更大或持平），所以「滿足 `citations[mid]+mid>=n`」
+ *    的位置會集中在陣列**右半段**，是一段連續區間，可以用二分搜找出
+ *    這段區間最左邊的起點（`left`）。
+ * 4. `while(left<right)` 收斂版：`citations[mid]+mid>=n` 時，這個
+ *    位置有可能是「滿足條件的最左邊那個」，保留它（`right=mid`）；
+ *    不滿足時確定不是，排除它（`left=mid+1`）。
+ * 5. 收斂完，`left` 就是「滿足條件的最左邊索引」，這個位置往右（含
+ *    自己）到陣列結尾，總共有 `n - left` 篇論文，每篇的引用次數都
+ *    `>= citations[left]`，而且 `citations[left] + left >= n` 保證
+ *    了 `citations[left] >= n - left`——也就是說，這 `n-left` 篇
+ *    論文的引用次數，全部都至少是 `n-left` 次，剛好符合 h 指數的
+ *    定義，答案就是 `n - left`。
+ */
+class Solution {
+public:
+    int hIndex(vector<int>& citations) {
+        int n = citations.size();
+        int left = 0, right = n;
+        while (left < right) {
+            int mid = (left + right) / 2;
+            if (citations[mid] + mid >= n) right = mid;
+            else left = mid + 1;
+        }
+        return n - left;
+    }
+};
