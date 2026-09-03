@@ -48,6 +48,7 @@ nav:
       - math-digit-decomposition: topics/math-digit-decomposition.md
       - math-palindrome: topics/math-palindrome.md
       - math: topics/math.md
+      - math-permutation: topics/math-permutation.md
       - math-combination: topics/math-combination.md
       - math-simulation: topics/math-simulation.md
       - math-prime: topics/math-prime.md
@@ -55,7 +56,6 @@ nav:
       - math-gcd: topics/math-gcd.md
       - math-factor-enumeration: topics/math-factor-enumeration.md
       - math-geometry: topics/math-geometry.md
-      - math-permutation: topics/math-permutation.md
   - 🔗 String:
       - string: topics/string.md
       - string-kmp: topics/string-kmp.md
@@ -84,7 +84,10 @@ nav:
       - array-difference-array: topics/array-difference-array.md
   - 🔍 Binary Search:
       - binary-search: topics/binary-search.md
+      - binary-search-find-right-bound: topics/binary-search-find-right-bound.md
       - binary-search-build-in: topics/binary-search-build-in.md
+      - binary-search-on-answer: topics/binary-search-on-answer.md
+      - binary-search-find-left-bound: topics/binary-search-find-left-bound.md
   - 🔢 Sliding Window:
       - fixed-size-sliding-window: topics/fixed-size-sliding-window.md
       - variable-size-sliding-window: topics/variable-size-sliding-window.md
@@ -95,10 +98,10 @@ nav:
       - hash-table-uniqueness: topics/hash-table-uniqueness.md
       - hash-table-intersection: topics/hash-table-intersection.md
   - 👥 Pointers:
+      - two-pointers-same: topics/two-pointers-same.md
       - two-pointers-center-expansion: topics/two-pointers-center-expansion.md
       - two-pointers-opposite: topics/two-pointers-opposite.md
       - fast-slow-pointers: topics/fast-slow-pointers.md
-      - two-pointers-same: topics/two-pointers-same.md
       - two-pointers-partition: topics/two-pointers-partition.md
       - two-pointers-other: topics/two-pointers-other.md
       - two-pointers-swap: topics/two-pointers-swap.md
@@ -150,6 +153,7 @@ nav:
       - greedy-coin-change: topics/greedy-coin-change.md
       - greedy-string-construction: topics/greedy-string-construction.md
       - greedy-selection-constraints: topics/greedy-selection-constraints.md
+      - greedy-exchange-argument: topics/greedy-exchange-argument.md
   - 🌳 Tree:
       - tree-traversal: topics/tree-traversal.md
       - tree: topics/tree.md
@@ -169,11 +173,11 @@ nav:
   - 🎨 Design:
       - design: topics/design.md
   - 📊 Sorting:
+      - sorting: topics/sorting.md
       - sorting-implementation: topics/sorting-implementation.md
       - sorting-radix-sort: topics/sorting-radix-sort.md
       - sorting-custom-comparator: topics/sorting-custom-comparator.md
       - sorting-bucket-sort: topics/sorting-bucket-sort.md
-      - sorting: topics/sorting.md
       - sorting-cycle-decomposition: topics/sorting-cycle-decomposition.md
       - sorting-counting-sort: topics/sorting-counting-sort.md
   - 📚 Priority Queue:
