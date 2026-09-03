@@ -11,16 +11,10 @@ class Solution {
 public:
     int findMin(vector<int>& nums) {
         int left = 0, right = nums.size() - 1;
-        while (left < right) {
-            int mid = left + ((right - left) / 2);
-            
-            if (nums[mid] > nums[right]) {
-                // mid 在左半邊較大的區塊，最小值一定在 mid 右邊
-                left = mid + 1;
-            } else {
-                // mid 在右半邊較小的區塊，最小值可能是 mid 或在 mid 左邊
-                right = mid;
-            }
+        while(left < right) {
+            int mid = left + (right - left) / 2;
+            if(nums[mid] > nums[right]) left = mid + 1;
+            else right = mid;
         }
         return nums[left];
     }

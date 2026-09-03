@@ -1,12 +1,11 @@
 # binary-search
 
-## 🔴 生疏（12）
+## 🔴 生疏（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Binary Search | [C++](../problems/0004.md) | O(log(M+N)) | O(1) |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟡 Medium | Binary Search | [C++](../problems/0081.md) | O(N) | O(1) |
-| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | Binary&nbsp;Search | [C++](../problems/0153.md) | O(logN) | O(1) |
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | 🔴 Hard | Binary Search | [C++](../problems/0154.md) | O(N) | O(1) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search, Binary Search | [C++](../problems/0300.md) | O(NlogN) | O(N) |
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | Binary Search, Matrix | [C++](../problems/0378.md) | O(Nlog(max-min)) | O(1) |
@@ -21,13 +20,14 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（9）
+## 🟡 練習過（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 🟡 Medium | Binary Search, Binary Search | [C++](../problems/0033.md) | O(logN) | O(1) |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 Medium | Binary Search, Matrix | [C++](../problems/0074.md) | O(log(MN)) | O(1) |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Binary Search, DFS, Binary Search | [C++](../problems/0108.md) | O(N) | O(logN) |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | Binary Search, Binary&nbsp;Search | [C++](../problems/0153.md) | O(logN) | O(1) |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | 🟡 Medium | Binary Search | [C++](../problems/0162.md) | O(logN) | O(1) |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | Binary Search | [C++](../problems/0278.md) | O(logN) | O(1) |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 Easy | Binary Search | [C++](../problems/0367.md) | O(logN) | O(1) |

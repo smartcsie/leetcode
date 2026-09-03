@@ -5,9 +5,14 @@ solutions:
 - file: Solution_0153.cpp
   difficulty: 🟡 Medium
   tags:
+  - Binary Search
   - Binary&nbsp;Search
   topics:
   - binary-search
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **例子1 : 2 3 4 5 1，中間比尾巴大，往右邊找**<br>
+
+    > **例子2 : 5 1 2 3 4，中間小於等於尾巴，往左邊找***<br>'
+  tricks: null
