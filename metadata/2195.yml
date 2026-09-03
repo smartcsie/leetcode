@@ -5,10 +5,11 @@ solutions:
 - file: Solution_2195.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Binary Search On Answer
   - Binary Search
   topics:
-  - binary-search
+  - binary-search-on-answer
   time: O(NlogN)
   space: O(1)
   familiarity: 生疏
+  tricks: null

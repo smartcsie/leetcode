@@ -132,7 +132,7 @@
 | 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | 🟢 Easy | Binary Search | [C++](problems/1539.md) | O(logN) | O(1) |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | Binary Search Find Right Bound | [C++](problems/1608.md) |  |  |
 | 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | Binary Search, Greedy | [C++](problems/1818.md) | O(NlogN) | O(N) |
-| 2195 | [Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/) | 🟡 Medium | Math, Binary Search | [C++](problems/2195.md) | O(NlogN) | O(1) |
+| 2195 | [Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/) | 🟡 Medium | Binary Search On Answer, Binary Search | [C++](problems/2195.md) | O(NlogN) | O(1) |
 | 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | 🟡 Medium | BST, Binary Search | [C++](problems/2476.md) | O(N+QlogN) | O(N) |
 
 <a id="shengshu-linked-list"></a>
@@ -645,11 +645,11 @@
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [binary-search](topics/binary-search.md) | 2 | 0 | 4 | 1 | 1 | 0 | 8 |
+| [binary-search](topics/binary-search.md) | 1 | 0 | 4 | 1 | 1 | 0 | 7 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 1 | 0 | 6 | 1 | 0 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [binary-search-on-answer](topics/binary-search-on-answer.md) | 2 | 0 | 0 | 1 | 0 | 0 | 3 |
+| [binary-search-on-answer](topics/binary-search-on-answer.md) | 3 | 0 | 0 | 1 | 0 | 0 | 4 |
 | [binary-search-tree](topics/binary-search-tree.md) | 5 | 6 | 3 | 0 | 1 | 0 | 15 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
 | [bit-manipulation](topics/bit-manipulation.md) | 2 | 8 | 6 | 4 | 15 | 0 | 35 |
