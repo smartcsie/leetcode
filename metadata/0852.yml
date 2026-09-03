@@ -10,8 +10,11 @@ solutions:
   - binary-search
   time: O(logN)
   space: O(1)
-  note: "> [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)\
-    \ <br>\n> **標準Binary Search** <br>\n> **尋找左側邊界**，用while (left < right)，同 0162\
-    \ [Find Peak Element](https://leetcode.com/problems/find-peak-element) <br>\n\
-    > \n<br><br>"
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **標準Binary Search** <br>
+
+    > **尋找左側邊界**，用while (left < right)，同 0162 [Find Peak Element](https://leetcode.com/problems/find-peak-element)
+    <br>'
+  related:
+  - 162
+  tricks: null
