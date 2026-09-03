@@ -13,3 +13,14 @@ solutions:
   space: O(1)
   familiarity: 生疏
   is_best: true
+  tricks: null
+- file: Solution_0611_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary Search Find Right Bound
+  topics:
+  - binary-search-find-right-bound
+  time: O(N²logN)
+  space: O(1)
+  familiarity: 生疏
+  tricks: null
