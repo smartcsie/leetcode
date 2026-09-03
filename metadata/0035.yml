@@ -5,9 +5,10 @@ solutions:
 - file: Solution_0035.cpp
   difficulty: 🟢 Easy
   tags:
-  - Binary Search
+  - Binary Search Build In
   topics:
   - binary-search-build-in
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  tricks: null
