@@ -8,7 +8,7 @@ solutions:
   - Binary Search
   - Binary Search
   topics:
-  - binary-search
+  - dp-lis
   time: O(NlogN)
   space: O(N)
   familiarity: 生疏

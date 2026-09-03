@@ -9,7 +9,7 @@ solutions:
   - Matrix
   - Binary Search
   topics:
-  - binary-search
+  - binary-search-find-left-bound
   time: O(R+C)
   space: O(1)
   familiarity: 生疏

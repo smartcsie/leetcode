@@ -8,7 +8,7 @@ solutions:
   - Binary Search
   - Matrix
   topics:
-  - binary-search
+  - binary-search-on-answer
   time: O(Nlog(max-min))
   space: O(1)
   familiarity: 生疏

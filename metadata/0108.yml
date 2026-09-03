@@ -9,7 +9,7 @@ solutions:
   - DFS
   - Binary Search
   topics:
-  - binary-search
+  - tree-construction
   time: O(N)
   space: O(logN)
   familiarity: 練習過

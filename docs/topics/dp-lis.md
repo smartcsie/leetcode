@@ -1,9 +1,10 @@
 # dp-lis
 
-## 🔴 生疏（6）
+## 🔴 生疏（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search, Binary Search | [C++](../problems/0300.md) | O(NlogN) | O(N) |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Dynamic Programming Lis, Dynamic Programming | [C++](../problems/0300.md) | O(N²) | O(N) |
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | 🔴 Hard | Dp Lis | [C++](../problems/0354.md) | O(N log N) | O(N) |
 | 646 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) | 🟡 Medium | Dp Lis | [C++](../problems/0646.md) | O(N²) | O(N) |

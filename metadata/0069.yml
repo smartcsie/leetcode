@@ -7,7 +7,7 @@ solutions:
   tags:
   - Binary Search
   topics:
-  - binary-search
+  - binary-search-on-answer
   time: O(logN)
   space: O(1)
   familiarity: 易忘
