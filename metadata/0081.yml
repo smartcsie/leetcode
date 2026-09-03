@@ -11,4 +11,6 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 易忘
+  related:
+  - 33
   tricks: null
