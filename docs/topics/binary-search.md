@@ -17,7 +17,7 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（11）
+## 🟡 練習過（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -31,7 +31,6 @@
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | Binary Search | [C++](../problems/0374.md) | O(logN) | O(1) |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | Binary Search | [C++](../problems/0540.md) | O(logN) | O(1) |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | Binary Search | [C++](../problems/0852.md) | O(logN) | O(1) |
-| 2529 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer) | 🟢 Easy | Binary Search | [C++](../problems/2529.md) | O(logN) | O(1) |
 
 ## 🟣 易忘（3）
 

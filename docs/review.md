@@ -644,8 +644,8 @@
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [binary-search](topics/binary-search.md) | 8 | 0 | 11 | 3 | 1 | 0 | 23 |
-| [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
+| [binary-search](topics/binary-search.md) | 8 | 0 | 10 | 3 | 1 | 0 | 22 |
+| [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 1 | 0 | 0 | 0 | 8 |
 | [binary-search-tree](topics/binary-search-tree.md) | 5 | 6 | 3 | 0 | 1 | 0 | 15 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
 | [bit-manipulation](topics/bit-manipulation.md) | 2 | 8 | 6 | 4 | 15 | 0 | 35 |
