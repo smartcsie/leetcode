@@ -10,4 +10,12 @@ solutions:
   - binary-search
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **例子1 : 1 1 2 3 3， mid在2，2 3不相等，2可能是解答**<br>
+
+    > **所以else right = mid;**<br>
+
+    > **例子2 : 1 1 2 2 3， mid在2，2 3相等，單獨的數字在右邊**<br>
+
+    > **所以left = mid + 1;**<br>'
+  tricks: null
