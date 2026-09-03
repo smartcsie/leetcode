@@ -5,20 +5,22 @@ solutions:
 - file: Solution_0300.cpp
   difficulty: 🟡 Medium
   tags:
-  - Binary Search
+  - Binary Search Build In
   - Binary Search
   topics:
-  - dp-lis
+  - binary-search-build-in
   time: O(NlogN)
   space: O(N)
   familiarity: 生疏
+  tricks: null
 - file: Solution_0300_1.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dp Lis
   - Dynamic Programming Lis
-  - Dynamic Programming
   topics:
   - dp-lis
   time: O(N²)
   space: O(N)
   familiarity: 生疏
+  tricks: null
