@@ -5,9 +5,10 @@ solutions:
 - file: Solution_0004.cpp
   difficulty: 🔴 Hard
   tags:
-  - Binary Search
+  - Two Pointers Same
   topics:
-  - binary-search
+  - two-pointers-same
   time: O(log(M+N))
   space: O(1)
   familiarity: 生疏
+  tricks: null
