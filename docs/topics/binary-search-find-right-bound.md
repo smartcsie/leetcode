@@ -1,11 +1,10 @@
 # binary-search-find-right-bound
 
-## 🔴 生疏（2）
+## 🔴 生疏（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 🟡 Medium | Binary Search | [C++](../problems/0034.md) | O(logN) | O(1) |
-| 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | Binary Search Find Right Bound | [C++](../problems/1608.md) |  |  |
 
 ## 🟠 再練習（0）
 

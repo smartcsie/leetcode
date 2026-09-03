@@ -17,9 +17,9 @@ solutions:
 - file: Solution_1608_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Binary Search Find Right Bound
+  - Binary Search On Answer
   topics:
-  - binary-search-find-right-bound
+  - binary-search-on-answer
   time: ''
   space: ''
   familiarity: 生疏
