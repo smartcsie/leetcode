@@ -646,8 +646,8 @@
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [binary-search](topics/binary-search.md) | 3 | 0 | 4 | 1 | 1 | 0 | 9 |
-| [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 1 | 0 | 0 | 0 | 8 |
-| [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 1 | 0 | 5 | 1 | 0 | 0 | 7 |
+| [binary-search-build-in](topics/binary-search-build-in.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
+| [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 1 | 0 | 6 | 1 | 0 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 2 | 0 | 0 | 1 | 0 | 0 | 3 |
 | [binary-search-tree](topics/binary-search-tree.md) | 5 | 6 | 3 | 0 | 1 | 0 | 15 |
