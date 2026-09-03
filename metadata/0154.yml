@@ -10,4 +10,10 @@ solutions:
   - binary-search
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  note: '例子1 : 2 3 4 5 1，中間比尾巴大，往右邊找
+
+    例子2 : 5 1 2 3 4，中間小於等於尾巴，往左邊找*'
+  related:
+  - 153
+  tricks: null
