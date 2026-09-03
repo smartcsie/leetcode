@@ -12,3 +12,13 @@ solutions:
   space: O(1)
   familiarity: 生疏
   tricks: null
+- file: Solution_0004_1.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(log(min(M,N)))
+  space: O(1)
+  familiarity: 生疏
+  tricks: null
