@@ -5,11 +5,12 @@ solutions:
 - file: Solution_1351.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Binary Search Build In
   - Matrix
   - Binary Search
   topics:
-  - binary-search-find-left-bound
+  - binary-search-build-in
   time: O(R+C)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null

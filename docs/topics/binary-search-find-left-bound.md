@@ -1,10 +1,8 @@
 # binary-search-find-left-bound
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | Array, Matrix, Binary Search | [C++](../problems/1351.md) | O(R+C) | O(1) |
+目前沒有標記為生疏的解法。
 
 ## 🟠 再練習（0）
 
