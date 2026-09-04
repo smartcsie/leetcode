@@ -5,10 +5,11 @@ solutions:
 - file: Solution_1288.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting
+  - Array Interval
   - Greedy
   topics:
   - array-interval
   time: O(NlogN)
   space: O(logN)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null
