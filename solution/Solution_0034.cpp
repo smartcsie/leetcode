@@ -15,9 +15,9 @@
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
-        auto lower = lower_bound(nums.begin(), nums.end(), target);
-        if(lower == nums.end() || *lower != target) return { -1, -1};
-        auto upper = upper_bound(lower, nums.end(), target);
-        return {static_cast<int>(lower - nums.begin()), static_cast<int>(upper - nums.begin() - 1)};
+        const int left = lower_bound(nums.begin(), nums.end(), target) - nums.begin();
+        if(left == nums.size() || nums[left] != target) return {-1, -1};
+        const int right = upper_bound(nums.begin(), nums.end(), target) - nums.begin() - 1;
+        return {left, right};
     }
 };

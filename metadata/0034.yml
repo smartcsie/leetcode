@@ -11,7 +11,7 @@ solutions:
   time: O(logN)
   space: O(1)
   familiarity: 練習過
-  note: '> **注意找不到是if(lower == nums.end() || *lower != target)**<br>'
+  note: '> **注意找不到是if(left == nums.size() || nums[left] != target)**<br>'
   tricks:
   - lower_bound
   - upper_bound
