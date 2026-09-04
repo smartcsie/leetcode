@@ -14,3 +14,13 @@ solutions:
   space: O(1)
   familiarity: 練習過
   tricks: null
+- file: Solution_3513_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(logN)
+  space: O(1)
+  familiarity: 練習過
+  tricks: null
