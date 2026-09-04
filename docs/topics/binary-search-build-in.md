@@ -15,9 +15,11 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（0）
+## 🟡 練習過（1）
 
-目前沒有標記為練習過的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 🟡 Medium | Binary Search Build In | [C++](../problems/0034.md) | O(logN) | O(1) |
 
 ## 🟣 易忘（0）
 

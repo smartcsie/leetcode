@@ -5,17 +5,14 @@ solutions:
 - file: Solution_0034.cpp
   difficulty: 🟡 Medium
   tags:
-  - Binary Search
+  - Binary Search Build In
   topics:
-  - binary-search-find-right-bound
+  - binary-search-build-in
   time: O(logN)
   space: O(1)
-  note: '> [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
-    <br>
-
-    > 用 lower_bound 和 upper_bound，最後回傳 {static_cast<int>(lower - nums.begin()), static_cast<int>(upper
-    - nums.begin() - 1)} <br>
-
-
-    <br><br>'
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **注意找不到是if(lower == nums.end() || *lower != target)**<br>'
+  tricks:
+  - lower_bound
+  - upper_bound
+  - static_cast
