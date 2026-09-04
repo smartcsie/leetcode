@@ -640,7 +640,7 @@
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [binary-search](topics/binary-search.md) | 1 | 0 | 4 | 1 | 1 | 0 | 7 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 5 | 0 | 3 | 0 | 1 | 0 | 9 |
-| [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 0 | 0 | 6 | 1 | 0 | 0 | 7 |
+| [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 0 | 0 | 7 | 1 | 0 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 1 | 0 | 1 | 0 | 0 | 0 | 2 |
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
 | [binary-search-tree](topics/binary-search-tree.md) | 5 | 6 | 3 | 0 | 1 | 0 | 15 |
