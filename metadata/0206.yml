@@ -10,4 +10,14 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **精神是靠prev和cur兩個pointer，一直把cur->next指標轉成往前指到prev**<br>
+
+    > **ListNode* next = cur->next;，先暫存cur 的下一個node**<br>
+
+    > **cur->next = prev;，把next指標轉向，演算法核心**<br>
+
+    > **prev = cur;，兩個指標骰同步往後移動**<br>
+
+    > **cur = next;，**<br>'
+  tricks: null
