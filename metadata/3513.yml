@@ -5,11 +5,12 @@ solutions:
 - file: Solution_3513.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Bit Manipulation
   - Bit Manipulation
   - Brainteaser
   topics:
-  - bit-manipulation-xor
+  - bit-manipulation
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null

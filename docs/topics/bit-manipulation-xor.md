@@ -1,12 +1,11 @@
 # bit-manipulation-xor
 
-## 🔴 生疏（4）
+## 🔴 生疏（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bit Manipulation Xor, Hash Set | [C++](../problems/0421.md) | O(N\*L) | O(N) |
 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 Medium | Bit Manipulation Xor, Prefix XOR | [C++](../problems/1442.md) | O(N²) | O(1) |
-| 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Math, Bit Manipulation, Brainteaser | [C++](../problems/3513.md) | O(logN) | O(1) |
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](../problems/3514.md) | O(MlogM) | O(M) |
 
 ## 🟠 再練習（6）

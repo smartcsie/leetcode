@@ -20,18 +20,8 @@
 class Solution {
 public:
     int uniqueXorTriplets(std::vector<int>& nums) {
-        int n = nums.size();
-        // 若長度小於 3，直接回傳 n
-        if (n < 3) {
-            return n;
-        }
-        int ans = 1;
-        int temp = n;
-        // 計算 n 的位元長度，並推算出可覆蓋的 XOR 總數空間
-        while (temp > 0) {
-            temp >>= 1;
-            ans <<= 1;
-        }
-        return ans;
+        auto n = nums.size();
+        if(n < 3) return n;
+        return 1 << bit_width(n);
     }
 };
