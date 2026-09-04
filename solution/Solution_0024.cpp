@@ -18,22 +18,10 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        // 1. 基本情況 (Base Case)
-        if (!head || !head->next) {
-            return head;
-        }
-        
-        // 2. 遞迴定義
-        // 暫存第二個節點 (這將會是交換後的新頭節點)
+        if(!head || !head->next) return head;
         ListNode* second = head->next;
-        
-        // head->next 指向「處理剩餘串列後」的回傳結果
         head->next = swapPairs(second->next);
-        
-        // 將第二個節點指向第一個節點，完成交換
         second->next = head;
-        
-        // 回傳新的頭節點
         return second;
     }
 };

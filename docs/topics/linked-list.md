@@ -1,11 +1,10 @@
 # linked-list
 
-## 🔴 生疏（7）
+## 🔴 生疏（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 Medium | Linked List, Math | [C++](../problems/0002.md) | O(max(N,M)) | O(max(N,M)) |
-| 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 Medium | Linked List, Recursion | [C++](../problems/0024.md) | O(N) | O(N) |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 Hard | Linked List | [C++](../problems/0025.md) | O(N) | O(1) |
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | 🟡 Medium | Linked List, Two Pointers | [C++](../problems/0082.md) | O(N) | O(1) |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 Medium | Linked List | [C++](../problems/0092.md) | O(N) | O(1) |
@@ -27,9 +26,11 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](../problems/0206.md) | O(N) | O(1) |
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 Medium | Linked List, Recursion | [C++](../problems/0024.md) | O(N) | O(N) |
 
 ## 🟢 熟悉（3）
 
