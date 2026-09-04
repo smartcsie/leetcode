@@ -11,7 +11,7 @@ solutions:
   - two-pointers-opposite
   time: O(N²)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
   is_best: true
   tricks: null
 - file: Solution_0611_1.cpp
@@ -22,5 +22,6 @@ solutions:
   - binary-search-find-right-bound
   time: O(N²logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **第三個數使用binary search**'
   tricks: null
