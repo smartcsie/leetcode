@@ -19,15 +19,12 @@
 class Solution {
 public:
     int getDecimalValue(ListNode* head) {
-        int ans = 0;
         ListNode* cur = head;
-        
-        while (cur != nullptr) {
-            // ans 左移一位，並將當前節點的值放入最低位
+        int ans = 0;
+        while(cur) {
             ans = (ans << 1) | cur->val;
             cur = cur->next;
         }
-        
         return ans;
     }
 };
