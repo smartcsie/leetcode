@@ -11,4 +11,8 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 練習過
+  note: '>**如果下一個node存在，而且下一個node值不為0，把值加到cur，cur->next = cur->next->next**<br>
+
+    >**尾巴0處理，如果下一個node存在，而且為0，且下一個節點是尾巴節點，cur->next=nullptr**<br>'
+  tricks: null
