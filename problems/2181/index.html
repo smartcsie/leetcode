@@ -4849,7 +4849,7 @@
 
 <h1 id="2181-merge-nodes-in-between-zeros">2181. Merge Nodes in Between Zeros<a class="headerlink" href="#2181-merge-nodes-in-between-zeros" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/merge-nodes-in-between-zeros/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Linked List, In-place Modification　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Linked List, In-place Modification　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2181. Merge Nodes in Between Zeros</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：待補充</span>
@@ -4894,6 +4894,10 @@
 <a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>如果下一個node存在，而且下一個node值不為0，把值加到cur，cur-&gt;next = cur-&gt;next-&gt;next</strong><br>
+<strong>尾巴0處理，如果下一個node存在，而且為0，且下一個節點是尾巴節點，cur-&gt;next=nullptr</strong><br></p>
+</blockquote>
 
 
 
