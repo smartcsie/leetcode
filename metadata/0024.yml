@@ -11,5 +11,5 @@ solutions:
   - linked-list
   time: O(N)
   space: O(N)
-  familiarity: 易忘
+  familiarity: 練習過
   tricks: null
