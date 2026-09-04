@@ -11,5 +11,5 @@ solutions:
   - array-interval
   time: O(NlogN)
   space: O(logN)
-  familiarity: 易忘
+  familiarity: 練習過
   tricks: null
