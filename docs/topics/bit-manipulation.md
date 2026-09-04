@@ -19,7 +19,7 @@
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 Easy | Bit Manipulation, Hash Table, Counting | [C++](../problems/2206.md) | O(N) | O(1) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) |
 
-## 🟡 練習過（8）
+## 🟡 練習過（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -30,6 +30,7 @@
 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Array, Hash Table, Bitset | [C++](../problems/2956.md) | O(N+M) | O(1) |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Brainteaser | [C++](../problems/3513.md) | O(logN) | O(1) |
+| 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |
 
 ## 🟣 易忘（5）
