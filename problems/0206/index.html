@@ -4849,7 +4849,7 @@
 
 <h1 id="206-reverse-linked-list">206. Reverse Linked List<a class="headerlink" href="#206-reverse-linked-list" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/reverse-linked-list">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Linked List　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Linked List　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：待補充</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：待補充</span>
@@ -4886,6 +4886,13 @@
 <a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>精神是靠prev和cur兩個pointer，一直把cur-&gt;next指標轉成往前指到prev</strong><br>
+<strong>ListNode* next = cur-&gt;next;，先暫存cur 的下一個node</strong><br>
+<strong>cur-&gt;next = prev;，把next指標轉向，演算法核心</strong><br>
+<strong>prev = cur;，兩個指標骰同步往後移動</strong><br>
+<strong>cur = next;，</strong><br></p>
+</blockquote>
 
 
 
