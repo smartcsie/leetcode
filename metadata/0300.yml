@@ -11,8 +11,10 @@ solutions:
   - binary-search-build-in
   time: O(NlogN)
   space: O(N)
-  familiarity: 生疏
-  tricks: null
+  familiarity: 練習過
+  note: '> **else *it = x;是更新lis，例如*it = 5，x = 3，用3取代5**<br>'
+  tricks:
+  - lower_bound
 - file: Solution_0300_1.cpp
   difficulty: 🟡 Medium
   tags:

@@ -10,15 +10,13 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-        vector<int> tails;
-        for (int x : nums) {
-            auto it = lower_bound(tails.begin(), tails.end(), x);
-            if (it == tails.end()) {
-                tails.push_back(x);
-            } else {
-                *it = x;
-            }
+        vector<int> lis;
+        lis.reserve(nums.size());
+        for(const int& x : nums) {
+            auto it = lower_bound(lis.begin(), lis.end(), x);
+            if(it == lis.end()) lis.push_back(x);
+            else *it = x;
         }
-        return tails.size();
+        return lis.size();
     }
 };
