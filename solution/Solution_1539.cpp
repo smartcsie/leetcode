@@ -18,16 +18,12 @@
 class Solution {
 public:
     int findKthPositive(std::vector<int>& arr, int k) {
-        // 使用 lower_bound 尋找第一個滿足 arr[i] - (i + 1) >= k 的位置
-        // 注意：這裡使用 lambda 來定義自訂比較條件
-        auto it = std::lower_bound(arr.begin(), arr.end(), k, 
-            [&](int val, int target) {
-                // 將索引轉為 distance
-                int idx = &val - &arr[0]; // 或者使用 std::distance(arr.data(), &val)
-                return (val - (std::distance(arr.data(), &val) + 1)) < target;
-            });
-            
-        // 根據二分查找結果，答案為 (最終位置索引) + k
-        return std::distance(arr.begin(), it) + k;
+        int left = 0, right = arr.size()-1;
+        while(left <= right){
+            int mid = left + (right-left)/2;
+            if((arr[mid] - mid - 1) < k) left = mid + 1;
+            else right = mid - 1; 
+        }
+        return right + k + 1;
     }
 };

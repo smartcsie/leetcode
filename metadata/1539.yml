@@ -5,9 +5,10 @@ solutions:
 - file: Solution_1539.cpp
   difficulty: 🟢 Easy
   tags:
-  - Binary Search
+  - Binary Search Find Right Bound
   topics:
-  - binary-search-build-in
+  - binary-search-find-right-bound
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null
