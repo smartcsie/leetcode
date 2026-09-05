@@ -5,10 +5,12 @@ solutions:
 - file: Solution_2095.cpp
   difficulty: 🟡 Medium
   tags:
-  - Linked List
+  - Fast Slow Pointers
   - Fast-Slow Pointers
   topics:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
   familiarity: 再練習
+  tricks:
+  - list fast slow pointer

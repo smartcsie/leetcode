@@ -14,7 +14,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | Linked List, Fast-Slow Pointers | [C++](../problems/2095.md) | O(N) | O(1) |
+| 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/2095.md) | O(N) | O(1) |
 
 ## 🟡 練習過（3）
 
