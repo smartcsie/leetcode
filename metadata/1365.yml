@@ -5,10 +5,12 @@ solutions:
 - file: Solution_1365.cpp
   difficulty: 🟢 Easy
   tags:
+  - Array Prefix Sum
   - Counting Sort
   - Prefix Sum
   topics:
   - array-prefix-sum
   time: O(N+K)
   space: O(K)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null

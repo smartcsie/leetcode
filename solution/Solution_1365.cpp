@@ -22,25 +22,16 @@
 class Solution {
 public:
     std::vector<int> smallerNumbersThanCurrent(std::vector<int>& nums) {
-        constexpr int maxNum = 100;
-        std::vector<int> ans;
-        std::vector<int> counts(maxNum + 1, 0);
-        
-        // 步驟 1：統計每個數字出現的頻率
-        for (const int& num : nums) {
-            counts[num]++;
-        }
-        
-        // 步驟 2：計算前綴和（累積小於或等於當前數字的個數）
-        for (int i = 1; i <= 100; i++) {
-            counts[i] += counts[i - 1]; 
-        }
-        
-        // 步驟 3：查表取得小於當前數字的個數
-        for (const int& num : nums) {
-            ans.push_back(num == 0 ? 0 : counts[num - 1]);
-        }
-        
+        class Solution {
+public:
+    vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
+        vector<int> counts(101, 0);
+        for(const int& x : nums) counts[x]++;
+        for(int i = 1; i < 101; i++)   counts[i] += counts[i - 1];
+        vector<int> ans(nums.size());
+        for(int i = 0 ; i < nums.size(); i++) ans[i] = (nums[i] == 0) ? 0 : counts[nums[i] - 1];
         return ans;
+    }
+};
     }
 };
