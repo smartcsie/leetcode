@@ -8,7 +8,7 @@ solutions:
   - Math
   - String
   topics:
-  - math-simulation
+  - math
   time: O(max(N,M))
   space: O(max(N,M))
   familiarity: 熟練
@@ -34,3 +34,5 @@ solutions:
 
 
     <br><br>'
+  tricks:
+  - number addition

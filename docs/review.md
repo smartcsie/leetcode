@@ -192,7 +192,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 🔴 Hard | String, Stack, DP | [C++](problems/0032.md) | O(N) | O(N) |
 | 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | Monotonic Stack, Greedy, String | [C++](problems/0316.md) | O(N) | O(1) |
-| 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Linked List, Stack | [C++](problems/0445.md) | O(N+M) | O(N+M) |
+| 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Stack, Stack | [C++](problems/0445.md) | O(N+M) | O(N+M) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | Array, Hash Table, Stack, Monotonic Stack | [C++](problems/0496.md) | O(N+M) | O(N) |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 Medium | Array, Stack, Monotonic Stack | [C++](problems/0503.md) | O(N) | O(N) |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | Stack, Monotonic Stack | [C++](problems/0739.md) | O(N) | O(N) |
@@ -690,7 +690,7 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 3 | 6 | 0 | 0 | 12 | 0 | 21 |
 | [linked-list](topics/linked-list.md) | 3 | 3 | 6 | 0 | 3 | 0 | 15 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 1 | 13 | 4 | 10 | 11 | 0 | 39 |
+| [math](topics/math.md) | 1 | 13 | 4 | 10 | 12 | 0 | 40 |
 | [math-combination](topics/math-combination.md) | 0 | 1 | 2 | 2 | 0 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 13 | 2 | 2 | 25 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 1 | 1 | 2 | 0 | 0 | 4 |
@@ -700,7 +700,7 @@
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 1 | 0 | 1 | 0 | 0 | 0 | 2 |
 | [math-prime](topics/math-prime.md) | 0 | 3 | 5 | 1 | 5 | 0 | 14 |
-| [math-simulation](topics/math-simulation.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
+| [math-simulation](topics/math-simulation.md) | 0 | 1 | 0 | 0 | 2 | 0 | 3 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 1 | 0 | 0 | 0 | 7 |

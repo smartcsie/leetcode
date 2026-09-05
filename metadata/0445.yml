@@ -5,10 +5,12 @@ solutions:
 - file: Solution_0445.cpp
   difficulty: 🟡 Medium
   tags:
-  - Linked List
+  - Stack
   - Stack
   topics:
   - stack
   time: O(N+M)
   space: O(N+M)
   familiarity: 生疏
+  tricks:
+  - number addition
