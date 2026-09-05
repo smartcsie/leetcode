@@ -10,4 +10,16 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **ListNode *slow = head, *fast = head;，快慢指標slow找到中間前面的node**<br>
+
+    > **ListNode *cur = slow->next;，cur指向後半段，slow->next = nullptr;中間切斷**<br>
+
+    > **反轉後半部list，反轉完，prev事後半部的head**<br>
+
+    > **while (l2) 迴圈開始合併，ListNode* next1 = l1->next;，ListNode* next2 = l2->next;**<br>
+
+    > **l1 -> l2 -> l1的 next**<br>'
+  tricks:
+  - list reverse
+  - list fast slow pointer
