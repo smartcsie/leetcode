@@ -20,4 +20,5 @@ solutions:
     > **prev = cur;，兩個指標骰同步往後移動**<br>
 
     > **cur = next;，**<br>'
-  tricks: null
+  tricks:
+  - list reverse
