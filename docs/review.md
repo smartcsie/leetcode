@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 980 題　🔴 生疏：338 題　🟠 再練習：171 題　🟡 練習過：132 題　🟣 易忘：55 題　🟢 熟練：284 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：338 題　🟠 再練習：170 題　🟡 練習過：133 題　🟣 易忘：55 題　🟢 熟練：284 題　⚪ 未標記：0 題
 
 ---
 
@@ -659,7 +659,7 @@
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-tree](topics/dp-tree.md) | 3 | 0 | 1 | 0 | 0 | 0 | 4 |
 | [dynamic-programming](topics/dynamic-programming.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 6 | 1 | 2 | 0 | 5 | 0 | 14 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 6 | 0 | 3 | 0 | 5 | 0 | 14 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
