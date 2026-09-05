@@ -12,5 +12,10 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 再練習
+  note: '> **跟876的差異是，876不用刪除，只要傳回slow**<br>
+
+    > **本題要刪除slow node 所以slow 往前一步，需建立dummy**<br>'
+  related:
+  - 876
   tricks:
   - list fast slow pointer
