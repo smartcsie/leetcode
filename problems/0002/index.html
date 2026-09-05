@@ -4849,7 +4849,7 @@
 
 <h1 id="2-add-two-numbers">2. Add Two Numbers<a class="headerlink" href="#2-add-two-numbers" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/add-two-numbers">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Linked List, Math　<strong>時間:</strong> O(max(N,M))　<strong>空間:</strong> O(max(N,M))　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Linked List, Math　<strong>時間:</strong> O(max(N,M))　<strong>空間:</strong> O(max(N,M))　<strong>熟悉度:</strong> 🟡 練習過</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2. Add Two Numbers (兩數相加)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -4890,6 +4890,14 @@
 <a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>建一個dummy node，cur 指向他</strong><br>
+<strong>while (l1 || l2 || carry) loop</strong><br>
+<strong>如果l1還沒走完，v1 = l1-&gt;val，如果l2還沒走完，v2 = l2-&gt;val</strong><br>
+<strong>v1和v2加到carr，cur-&gt;next，new 一個新的node，值為carry % 10</strong><br>
+<strong>carry /= 10，cur往下走一步，如果l1還沒走完，l1 = l1-&gt;next，l2 = l2-&gt;next</strong><br>
+<strong>最後回傳dummy-&gt;next;</strong><br></p>
+</blockquote>
 
 
 
