@@ -10,4 +10,5 @@ solutions:
   - linked-list
   time: O(N+M)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 易忘
+  tricks: null
