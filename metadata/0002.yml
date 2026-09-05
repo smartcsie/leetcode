@@ -11,4 +11,16 @@ solutions:
   - linked-list
   time: O(max(N,M))
   space: O(max(N,M))
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **建一個dummy node，cur 指向他**<br>
+
+    > **while (l1 || l2 || carry) loop**<br>
+
+    > **如果l1還沒走完，v1 = l1->val，如果l2還沒走完，v2 = l2->val**<br>
+
+    > **v1和v2加到carr，cur->next，new 一個新的node，值為carry % 10**<br>
+
+    > **carry /= 10，cur往下走一步，如果l1還沒走完，l1 = l1->next，l2 = l2->next**<br>
+
+    > **最後回傳dummy->next;**<br>'
+  tricks: null
