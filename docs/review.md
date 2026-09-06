@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（328）](#review-shengshu)　[🟣 易忘清單（66）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（327）](#review-shengshu)　[🟣 易忘清單（66）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 980 題　🔴 生疏：322 題　🟠 再練習：169 題　🟡 練習過：145 題　🟣 易忘：60 題　🟢 熟練：284 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：321 題　🟠 再練習：169 題　🟡 練習過：146 題　🟣 易忘：60 題　🟢 熟練：284 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 328 個解法標記為生疏，建議找時間重新練習。
+目前共有 327 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（10）](#shengshu-bit-manipulation)　[🔗 String（9）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（20）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（22）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（16）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（53）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（10）](#shengshu-bit-manipulation)　[🔗 String（9）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（19）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（22）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（16）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（53）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -82,7 +82,7 @@
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](problems/3969.md) | O(N²) | O(1) |
 
 <a id="shengshu-tree"></a>
-#### 🌳 Tree（20）
+#### 🌳 Tree（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -97,7 +97,6 @@
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](problems/0236.md) | O(N) | O(H) |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | DFS, Prefix Sum | [C++](problems/0437.md) | O(N) | O(H) |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie, Hash Table | [C++](problems/0648.md) | O(N\*L+M\*K) | O(D\*L) |
-| 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | 🟡 Medium | Tree Dfs Global, DFS, Hash Table, Serialization | [C++](problems/0652.md) | O(N²) | O(N²) |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 Medium | Tree Dfs Global, DFS | [C++](problems/0687.md) | O(N) | O(H) |
 | 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Hash Table | [C++](problems/0863.md) | O(N) | O(N) |
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 Medium | Tree Construction, Recursion | [C++](problems/0889.md) | O(N) | O(N) |
@@ -720,7 +719,7 @@
 | [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 0 | 1 | 6 | 0 | 9 | 0 | 16 |
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 1 | 0 | 0 | 0 | 4 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
-| [tree-dfs-global](topics/tree-dfs-global.md) | 4 | 0 | 1 | 1 | 0 | 0 | 6 |
+| [tree-dfs-global](topics/tree-dfs-global.md) | 3 | 0 | 2 | 1 | 0 | 0 | 6 |
 | [tree-dfs-path](topics/tree-dfs-path.md) | 7 | 2 | 17 | 2 | 6 | 0 | 34 |
 | [tree-traversal](topics/tree-traversal.md) | 1 | 0 | 3 | 0 | 3 | 0 | 7 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |

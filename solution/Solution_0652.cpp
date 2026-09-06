@@ -22,21 +22,22 @@
  * 5. 回傳序列化結果供上層節點使用：
  *    - 每次遞迴呼叫都回傳目前子樹的序列化字串，讓父節點能組合出自己完整的序列化字串。
  */
+
 class Solution {
 private:
-    string encode(TreeNode* root, unordered_map<string, int>& counts, vector<TreeNode*>& ans) {
+    string dfs(TreeNode* root, unordered_map<string, int>& counts, vector<TreeNode*>& ans) {
         if(!root) return "#";
-        string encodeStr =  to_string(root->val) + ","
-                            + encode(root->left, counts, ans) + ","
-                            + encode(root->right, counts, ans);
-        if(++counts[encodeStr] == 2) ans.push_back(root);  
-        return encodeStr;
+        string str = to_string(root->val) + "," 
+                    + dfs(root->left, counts, ans) + ","
+                    + dfs(root->right, counts, ans);
+        if(++counts[str] == 2) ans.push_back(root);
+        return str;
     }
 public:
     vector<TreeNode*> findDuplicateSubtrees(TreeNode* root) {
         unordered_map<string, int> counts;
         vector<TreeNode*> ans;
-        encode(root, counts, ans);
+        dfs(root, counts, ans);
         return ans;
     }
 };
