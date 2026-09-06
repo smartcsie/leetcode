@@ -18,21 +18,14 @@
 class Solution {
 public:
     std::vector<std::vector<int>> divideArray(std::vector<int>& nums, int k) {
-        // 1. 將數字排序
-        std::sort(nums.begin(), nums.end());
+        sort(nums.begin(), nums.end());
         int n = nums.size();
-        std::vector<std::vector<int>> ans;
-        
-        // 2. 每 3 個一組進行區段檢查
-        for (int i = 0; i < n; i += 3) {
-            // 因為已排序，只需檢查最大值與最小值的差是否 <= k
-            if (nums[i + 2] - nums[i] <= k) {
-                ans.push_back({nums[i], nums[i + 1], nums[i + 2]});
-            } else {
-                return {}; // 不符合條件，無法完成分割
-            }
+        if(n < 3) return {};
+        vector<vector<int>> ans;
+        for(int i = 0; i < n; i += 3) {
+            if(nums[i + 2] - nums[i] > k) return {};
+            ans.push_back({nums[i], nums[i + 1], nums[i + 2]});
         }
-        
         return ans;
     }
 };
