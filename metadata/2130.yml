@@ -11,4 +11,17 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
+- file: Solution_2130_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Linked List
+  topics:
+  - linked-list
+  time: O(N)
+  space: O(1)
+  familiarity: 練習過
+  related:
+  - 143
+  tricks: null

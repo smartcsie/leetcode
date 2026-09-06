@@ -14,25 +14,21 @@
 class Solution {
 public:
     int pairSum(ListNode* head) {
-
         ListNode* slow = head;
         ListNode* fast = head;
-
         stack<int> st;
-        
         while(fast && fast->next) {
             st.push(slow->val);
             slow = slow->next;
             fast = fast->next->next;
         }
-
-        int maxNum = 0;
+        int mx = 0;
         while(slow) {
-            int val = st.top() + slow->val;
+            int val = st.top();
             st.pop();
-            maxNum = std::max(maxNum, val);
+            mx = max(mx, slow->val + val);
             slow = slow->next;
         }
-        return maxNum;
+        return mx;
     }
 };
