@@ -23,14 +23,5 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 熟練
-  tricks: null
-- file: Solution_0287_2.cpp
-  difficulty: 🟡 Medium
-  tags:
-  - Array Negative Marking
-  topics:
-  - array-negative-marking
-  time: O(n)
-  space: O(1)
-  familiarity: 生疏
+  note: '> **此題題目限制，看起來只有第一個fsat slow pointer符合**<br>'
   tricks: null
