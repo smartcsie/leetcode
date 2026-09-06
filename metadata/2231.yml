@@ -5,17 +5,16 @@ solutions:
 - file: Solution_2231.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy
+  - Greedy Sorting Decision
   - Partition by Parity
   topics:
-  - greedy-digit-construction
+  - greedy-sorting-decision
   time: O(DlogD)
   space: O(D)
-  note: '> [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/)<br>
+  familiarity: 練習過
+  note: '> 用to_string把int num轉成string s<br>
 
-    > 用to_string把int num轉成string s<br>
-
-    > 初始化bucket vector<vector<char>> buckets(2);，travsal char，分成奇數，偶數<br>
+    > 初始化 vector<vector<char>> chs(2);，travsal char，分成奇數，偶數<br>
 
     > 把char分到bucket，for(const char& c : s) buckets[c & 1].push_back(c); <br>
 
@@ -24,4 +23,4 @@ solutions:
     > 擺回s，for(char& c : s)  c = buckets[c & 1][index[c & 1]++];<br>
 
     > return stoi(s);'
-  familiarity: 生疏
+  tricks: null

@@ -15,16 +15,15 @@ class Solution {
 public:
     int largestInteger(int num) {
         string s = to_string(num);
-        vector<vector<char>> buckets(2);
+        vector<vector<char>> chs(2);
         for(const char& c : s) {
-            buckets[c & 1].push_back(c);
+            chs[c & 1].push_back(c);
         }
-        sort(buckets[0].begin(), buckets[0].end(), greater<>());
-        sort(buckets[1].begin(), buckets[1].end(), greater<>());
-
-        vector<int> index(2, 0);
+        sort(chs[0].begin(), chs[0].end(), greater<>());
+        sort(chs[1].begin(), chs[1].end(), greater<>());
+        vector<int> idx(2, 0);
         for(char& c : s) {
-            c = buckets[c & 1][index[c & 1]++];
+            c = chs[c & 1][idx[c & 1]++];
         }
         return stoi(s);
     }
