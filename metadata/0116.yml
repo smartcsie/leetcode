@@ -12,4 +12,5 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
