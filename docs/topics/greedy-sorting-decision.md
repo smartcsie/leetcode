@@ -14,11 +14,12 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting, Greedy | [C++](../problems/0945.md) | O(NlogN) | O(1) |
 
-## 🟡 練習過（2）
+## 🟡 練習過（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0881.md) | O(N log N) | O(1) |
+| 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 Easy | Greedy Sorting Decision, Sorting | [C++](../problems/1005.md) | O(NlogN) | O(1) |
 | 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 Easy | Greedy Sorting Decision | [C++](../problems/1710.md) | O(N log N) | O(1) |
 
 ## 🟣 易忘（0）

@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1005.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy Parity Contribution
+  - Greedy Sorting Decision
   - Sorting
   topics:
-  - greedy-parity-contribution
+  - greedy-sorting-decision
   time: O(NlogN)
   space: O(1)
   familiarity: 練習過

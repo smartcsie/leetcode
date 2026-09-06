@@ -14,11 +14,9 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟢 Easy | Greedy | [C++](../problems/0453.md) | O(N) | O(1) |
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 Easy | Greedy Parity Contribution, Sorting | [C++](../problems/1005.md) | O(NlogN) | O(1) |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（2）
 

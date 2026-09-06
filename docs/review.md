@@ -672,11 +672,11 @@
 | [greedy-interval-scheduling](topics/greedy-interval-scheduling.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [greedy-job-sequencing](topics/greedy-job-sequencing.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-optimal-partitioning](topics/greedy-optimal-partitioning.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [greedy-parity-contribution](topics/greedy-parity-contribution.md) | 3 | 1 | 1 | 2 | 0 | 0 | 7 |
+| [greedy-parity-contribution](topics/greedy-parity-contribution.md) | 3 | 1 | 0 | 2 | 0 | 0 | 6 |
 | [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 2 | 0 | 1 | 0 | 0 | 6 |
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 3 | 1 | 2 | 0 | 0 | 0 | 6 |
+| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 3 | 1 | 3 | 0 | 0 | 0 | 7 |
 | [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 2 | 1 | 0 | 1 | 0 | 8 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 1 | 0 | 0 | 4 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 0 | 2 | 0 | 4 |
