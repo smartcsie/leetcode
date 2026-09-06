@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0080.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Fast Slow Pointers
   - Fast-Slow Pointers
   topics:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null

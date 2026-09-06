@@ -19,18 +19,13 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        int count = 0; // 慢指標：指向下一個待寫入的位置
-        // i 是快指標：走在前面掃描原始數據
-        for (int i = 0; i < nums.size(); i++) {
-            // 關鍵邏輯：
-            // 只要 count 還沒到 2，或者當前數字比「結果區域」倒數第二個數字大
-            // 就代表這個數字可以被保留
-            if (count < 2 || nums[i] > nums[count - 2]) {
-                nums[count] = nums[i];
-                count++;
+        int slow = 0;
+        for(int fast = 0; fast < nums.size(); fast++) {
+            if(fast < 2 || nums[fast] > nums[slow - 2]) {
+                nums[slow] = nums[fast];
+                slow++;
             }
         }
-        // 返回有效區域的長度
-        return count;
+        return slow;
     }
 };
