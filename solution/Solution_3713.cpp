@@ -17,15 +17,15 @@ public:
         int ans = 0;
         for(int i = 0; i < n; i++) {
             vector<int> count(26, 0);
-            int char_types = 0;
             int max_count = 0;
+            int type = 0;
             for(int j = i; j < n; j++) {
-                int c = s[j] - 'a';
+                char c = s[j] - 'a';
                 count[c]++;
-                if(count[c] == 1) char_types++;
+                if(count[c] == 1) type++;
                 max_count = max(max_count, count[c]);
-                if((j - i + 1) == max_count * char_types) {
-                    ans = max(ans, j - i + 1);
+                if(type * max_count == (j - i + 1)) {
+                    ans = max(ans, (j - i + 1));
                 }
             }
         }
