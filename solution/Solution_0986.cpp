@@ -22,26 +22,19 @@
 class Solution {
 public:
     std::vector<std::vector<int>> intervalIntersection(std::vector<std::vector<int>>& firstList, std::vector<std::vector<int>>& secondList) {
-        std::vector<std::vector<int>> ans;
-        int i = 0, j = 0;
-        int m = firstList.size();
-        int n = secondList.size();
-        // 若其中一個列表為空，直接返回空陣列
-        if (m == 0 || n == 0) return {};
-        while (i < m && j < n) {
-            // 計算交集的起點與終點
-            int start = std::max(firstList[i][0], secondList[j][0]);
-            int end = std::min(firstList[i][1], secondList[j][1]);
-            // 若起點小於等於終點，代表交集有效，加入結果中
-            if (start <= end) {
-                ans.push_back({start, end});
-            }
-            // 誰的結束時間比較早，誰的指標就先往後走（因為它已經不可能跟後續區間相交了）
-            if (firstList[i][1] < secondList[j][1]) {
-                i++;
-            } else {
-                j++;
-            }
+        vector<vector<int>> ans;
+        vector<vector<int>>& a = firstList;
+        vector<vector<int>>& b = secondList;
+        int m = a.size();
+        int n = b.size();
+        if(m == 0 || n == 0) return {};
+        int i =0, j = 0;
+        while(i < m && j < n) {
+            int start = max(a[i][0], b[j][0]);
+            int end = min(a[i][1], b[j][1]);
+            if(start <= end) ans.push_back({start, end});
+            if(a[i][1] < b[j][1]) i++;
+            else j++;
         }
         return ans;
     }

@@ -5,10 +5,12 @@ solutions:
 - file: Solution_0986.cpp
   difficulty: 🟡 Medium
   tags:
+  - Array Interval
   - Two Pointers
   - Interval Processing
   topics:
   - array-interval
   time: O(M+N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
