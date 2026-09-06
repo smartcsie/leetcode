@@ -12,7 +12,8 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 練習過
-  tricks: null
+  tricks:
+  - stack
 - file: Solution_2130_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -22,6 +23,9 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 練習過
+  is_best: true
   related:
   - 143
-  tricks: null
+  tricks:
+  - list reverse
+  - list fast slow pointer
