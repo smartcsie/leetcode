@@ -5,9 +5,11 @@ solutions:
 - file: Solution_0744.cpp
   difficulty: 🟢 Easy
   tags:
-  - Binary Search
+  - Binary Search Build In
   topics:
   - binary-search-build-in
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **找大於用upper_bound，找大於等於用lower_bound，**<br>'
+  tricks: null
