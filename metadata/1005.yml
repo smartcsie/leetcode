@@ -5,10 +5,18 @@ solutions:
 - file: Solution_1005.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy
+  - Greedy Parity Contribution
   - Sorting
   topics:
   - greedy-parity-contribution
   time: O(NlogN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **1. 排序以便從最小的負數開始處理**<br>
+
+    > **2. 優先將負數轉為正數**<br>
+
+    > **3. 計算總和，並處理剩餘的 k：**<br>
+
+    > **若 k 為奇數，需要翻轉一次當前陣列中的最小值**<br>'
+  tricks: null

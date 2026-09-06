@@ -1,11 +1,10 @@
 # greedy-parity-contribution
 
-## 🔴 生疏（4）
+## 🔴 生疏（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 Medium | Greedy Parity Contribution | [C++](../problems/0462.md) | O(N log N) | O(1) |
-| 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 Easy | Greedy, Sorting | [C++](../problems/1005.md) | O(NlogN) | O(1) |
 | 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | Greedy Parity Contribution | [C++](../problems/1753.md) | O((a+b+c) log 3) | O(1) |
 | 2208 | [Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/) | 🟡 Medium | Greedy Parity Contribution | [C++](../problems/2208.md) | O(N + K log N) | O(N) |
 
@@ -15,9 +14,11 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟢 Easy | Greedy | [C++](../problems/0453.md) | O(N) | O(1) |
 
-## 🟡 練習過（0）
+## 🟡 練習過（1）
 
-目前沒有標記為練習過的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 Easy | Greedy Parity Contribution, Sorting | [C++](../problems/1005.md) | O(NlogN) | O(1) |
 
 ## 🟣 易忘（2）
 
