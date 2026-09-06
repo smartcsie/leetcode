@@ -25,13 +25,13 @@ public:
         sort(boxTypes.begin(), boxTypes.end(), [](const vector<int>& a, const vector<int>& b) {
             return a[1] > b[1];
         });
-        int totalUnits = 0;
-        for (auto& box : boxTypes) {
-            int numBoxes = min(box[0], truckSize);
-            totalUnits += numBoxes * box[1];
-            truckSize -= numBoxes;
-            if (truckSize == 0) break;
+        int max_unit = 0;
+        for(const vector<int>& bt : boxTypes) {
+            int box = min(bt[0], truckSize);
+            max_unit += box * bt[1];
+            truckSize -= box;
+            if(truckSize == 0) break;
         }
-        return totalUnits;
+        return max_unit;
     }
 };
