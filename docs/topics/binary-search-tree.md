@@ -10,24 +10,24 @@
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 Medium | Tree, BST | [C++](../problems/1038.md) | O(N) | O(H) |
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 Medium | Tree, BST | [C++](../problems/1382.md) | O(N) | O(N) |
 
-## 🟠 再練習（6）
+## 🟠 再練習（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Binary Search Tree, DFS, BST | [C++](../problems/0098.md) | O(N) | O(H) |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 Medium | Tree, DFS, BST | [C++](../problems/0230.md) | O(K) | O(H) |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 Easy | Binary Search Tree, Hash Table | [C++](../problems/0653.md) | O(N) | O(N) |
-| 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 Easy | Binary Search Tree, BST, Binary Search | [C++](../problems/0700.md) | O(H) | O(H) |
 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 Medium | Binary Search Tree, Binary Search Tree | [C++](../problems/0701.md) | O(H) | O(H) |
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0783.md) | O(N) | O(H) |
 
-## 🟡 練習過（4）
+## 🟡 練習過（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0235.md) | O(H) | O(H) |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree | [C++](../problems/0235.md) | O(H) | O(1) |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0501.md) | O(N) | O(H) |
+| 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 Easy | Binary Search Tree, BST, Binary Search | [C++](../problems/0700.md) | O(H) | O(H) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0938.md) | O(N) | O(H) |
 
 ## 🟣 易忘（0）
