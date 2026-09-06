@@ -14,6 +14,7 @@ solutions:
   space: O(H)
   familiarity: 練習過
   is_best: true
+  tricks: null
 - file: Solution_0094.cpp
   difficulty: 🟢 Easy
   tags:
@@ -28,6 +29,7 @@ solutions:
     <br>
 
     > root為空則return，遞迴左子樹，把root->val加入到result vector，遞迴右子樹<br>'
+  tricks: null
 - file: Solution_0094_2.cpp
   difficulty: 🟢 Easy
   tags:
@@ -36,4 +38,5 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null
