@@ -13,3 +13,13 @@ solutions:
   space: O(1)
   familiarity: 練習過
   tricks: null
+- file: Solution_0557_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: ''
+  space: ''
+  familiarity: 易忘
+  tricks: null

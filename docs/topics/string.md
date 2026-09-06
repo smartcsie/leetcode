@@ -33,10 +33,11 @@
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String, Sorting, Bucket Sort | [C++](../problems/1859.md) | O(N) | O(N) |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](../problems/2937.md) | O(min(L1,L2,L3)) | O(1) |
 
-## 🟣 易忘（1）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String | [C++](../problems/0557.md) |  |  |
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String, String Manipulation, Bit Format | [C++](../problems/3280.md) | O(1) | O(1) |
 
 ## 🟢 熟悉（22）
