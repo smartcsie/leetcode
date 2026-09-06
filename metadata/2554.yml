@@ -5,7 +5,7 @@ solutions:
 - file: Solution_2554.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Greedy Selection Constraints
   - Hash Table
   - Greedy
   - Sorting
@@ -13,4 +13,6 @@ solutions:
   - greedy-selection-constraints
   time: O(N+M)
   space: O(M)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **貪婪法法則，挑最小且不再banned的數，所以for loop 由小到大**<br>'
+  tricks: null
