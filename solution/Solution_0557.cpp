@@ -15,21 +15,15 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        int start = 0, n = s.size();
-        
-        for (int end = 0; end <= n; end++) {
-            // 當遇到空格或到達字串末尾時，進行翻轉
-            if (end == n || s[end] == ' ') {
-                // 原地翻轉從 start 到 end - 1 的範圍
-                int i = start, j = end - 1;
-                while (i < j) {
-                    swap(s[i++], s[j--]);
-                }
-                // 更新下一個單字的開始位置
-                start = end + 1;
-            }
+        int n = s.size();
+        int i = 0;
+        while(i < n) {
+            int left = i;
+            while(i < n && s[i] != ' ') i++;
+            int right = i - 1;
+            while(left < right) swap(s[left++], s[right--]);
+            i++;
         }
-        
         return s;
     }
 };
