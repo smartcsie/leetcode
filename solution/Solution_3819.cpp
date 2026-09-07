@@ -16,9 +16,9 @@
 
 class Solution {
 public:
-    std::vector<int> rotateElements(std::vector<int>& nums, int k) {
+    vector<int> rotateElements(vector<int>& nums, int k) {
         // 1. 預先收集非負數，並使用 reserve 減少開銷
-        std::vector<int> nonNegs;
+        vector<int> nonNegs;
         nonNegs.reserve(nums.size()); 
         for(const int num : nums) {
             if(num >= 0) nonNegs.push_back(num);
@@ -32,7 +32,7 @@ public:
         k %= n;
         
         // 3. 使用標準庫原地旋轉，效率極高 (三段翻轉法)
-        std::rotate(nonNegs.begin(), nonNegs.begin() + k, nonNegs.end());
+        rotate(nonNegs.begin(), nonNegs.begin() + k, nonNegs.end());
         
         // 4. 將旋轉後的結果放回原陣列
         int j = 0;

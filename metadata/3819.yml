@@ -11,4 +11,11 @@ solutions:
   - two-pointers-same
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **注意devide by zero，if (nonNegs.empty()) return nums;**<br>
+
+    > **left rotate，rotate(nums.begin(), nums.begin() + k, nums.end());**<br>
+
+    > **right rotate，rotate(nums.rbegin(), nums.rbegin() + k, nums.rend());**<br>'
+  tricks:
+  - rotate
