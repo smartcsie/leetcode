@@ -11,6 +11,6 @@ solutions:
   - stack
   time: O(N+M)
   space: O(N+M)
-  familiarity: 生疏
+  familiarity: 練習過
   tricks:
   - number addition
