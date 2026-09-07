@@ -4886,7 +4886,7 @@
 <a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><strong>[Overflow handle] 反轉後超過 INT_MAX</strong> <br>
+<p><strong>[overflow handle] 反轉後超過 INT_MAX</strong> <br>
 <strong>x 本身是合法的 int，所以它反轉前的最高位最多是 2（因為 INT_MAX 開頭是 2）</strong><br>
 <strong>也就是說 digit 最大只會是 2，永遠不可能 &gt; 7，</strong><br>
 <strong>所以那個條件實際上永遠不會觸發，可以安全移除。</strong><br>

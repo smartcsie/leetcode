@@ -4888,13 +4888,13 @@
 <a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p>處裡多餘空白，while(i &lt; n &amp;&amp; s[i] == ' ') i++;<br>
-處裡正負號，int sign = 1;  if(s[i] == '+' || s[i] == '-' ) sign = (s[i] == '+') ? 1 : -1;<br>
-while(i &lt; n &amp;&amp; isdigit(s[i])) {<br>
-int digit = s[i++] - '0';<br>
-if(res &gt; (INT_MAX - digit) / 10) return sign == 1 ? INT_MAX : INT_MIN;<br>
-res = res * 10 + digit;<br>
-} <br></p>
+<p><strong>[overflow handle]累加數字超過 INT_MAX</strong><br>
+<strong>處裡多餘空白，while(i &lt; n &amp;&amp; s[i] == ' ') i++;</strong><br>
+<strong>處裡正負號，int sign = 1;  if(s[i] == '+' || s[i] == '-' )</strong><br>
+<strong>sign = (s[i] == '+') ? 1 : -1;</strong><br>
+<strong>if(res &gt; (INT_MAX - digit) / 10) </strong><br>
+<strong>return sign == 1 ? INT_MAX : INT_MIN;</strong><br>
+<strong>res = res * 10 + digit;</strong><br></p>
 </blockquote>
 
 
