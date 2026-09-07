@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（310）](#review-shengshu)　[🟣 易忘清單（67）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（309）](#review-shengshu)　[🟣 易忘清單（68）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 980 題　🔴 生疏：304 題　🟠 再練習：167 題　🟡 練習過：164 題　🟣 易忘：60 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：303 題　🟠 再練習：167 題　🟡 練習過：164 題　🟣 易忘：61 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 310 個解法標記為生疏，建議找時間重新練習。
+目前共有 309 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（17）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（53）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（16）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（53）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -122,7 +122,7 @@
 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) |
 
 <a id="shengshu-pointers"></a>
-#### 👥 Pointers（17）
+#### 👥 Pointers（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -142,7 +142,6 @@
 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 Easy | Array, Two Pointers | [C++](problems/1089.md) | O(N) | O(1) |
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | Two Pointers | [C++](problems/2562.md) | O(N\*D) | O(1) |
 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | Two Pointers, State Transition | [C++](problems/3637.md) | O(N) | O(1) |
-| 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Array, Two Pointers | [C++](problems/3940.md) | O(N) | O(1) |
 
 <a id="shengshu-hash-table"></a>
 #### 🔑 Hash Table（9）
@@ -451,9 +450,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 67 個解法標記為易忘，建議面試前重點複習。
+目前共有 68 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（10）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（6）](#yiwang-tree)　[🔍 Binary Search（4）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（7）](#yiwang-pointers)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（10）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（6）](#yiwang-tree)　[🔍 Binary Search（4）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（8）](#yiwang-pointers)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（6）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -556,7 +555,7 @@
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](problems/0021.md) | O(N+M) | O(1) |
 
 <a id="yiwang-pointers"></a>
-#### 👥 Pointers（7）
+#### 👥 Pointers（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -567,6 +566,7 @@
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Linked List, Two Pointers | [C++](problems/0160.md) | O(N+M) | O(1) |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](problems/0680.md) | O(N) | O(1) |
+| 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/3940.md) | O(N) | O(1) |
 
 <a id="yiwang-sorting"></a>
 #### 📊 Sorting（2）
@@ -711,7 +711,7 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 1 | 3 | 2 | 4 | 6 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 1 | 0 | 0 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 12 | 3 | 2 | 0 | 3 | 0 | 20 |
+| [two-pointers-same](topics/two-pointers-same.md) | 11 | 3 | 2 | 1 | 3 | 0 | 20 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 4 | 0 | 0 | 10 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |

@@ -5,10 +5,11 @@ solutions:
 - file: Solution_3940.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Two Pointers Same
   - Two Pointers
   topics:
   - two-pointers-same
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null

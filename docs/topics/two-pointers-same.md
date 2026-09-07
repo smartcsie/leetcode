@@ -1,6 +1,6 @@
 # two-pointers-same
 
-## 🔴 生疏（11）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | String, Two Pointers | [C++](../problems/0844.md) | O(N+M) | O(1) |
 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 Easy | Array, Two Pointers | [C++](../problems/1089.md) | O(N) | O(1) |
 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | Two Pointers, State Transition | [C++](../problems/3637.md) | O(N) | O(1) |
-| 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Array, Two Pointers | [C++](../problems/3940.md) | O(N) | O(1) |
 
 ## 🟠 再練習（3）
 
@@ -32,9 +31,11 @@
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | String, Two Pointers | [C++](../problems/1417.md) | O(N) | O(N) |
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | Array, Two Pointers | [C++](../problems/3819.md) | O(N) | O(N) |
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](../problems/3940.md) | O(N) | O(1) |
 
 ## 🟢 熟悉（3）
 

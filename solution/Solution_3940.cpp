@@ -15,23 +15,11 @@
 class Solution {
 public:
     vector<int> limitOccurrences(vector<int>& nums, int k) {
-        // 如果 k 為 0 或更小，直接清空陣列
-        if (k <= 0) {
-            nums.clear();
-            return nums;
-        }
-
-        int i = 0; // i 是下一個合法元素要放置的位置
-        for (const int& num : nums) {
-            // 如果寫入指標已達 k，且當前元素與 k 個位置前的元素相同
-            // 代表此元素已經累積出現 k 次，不可再放入
-            if (i >= k && nums[i - k] == num) {
-                continue;
-            }
+        int i = 0;
+        for(const int& num : nums) {
+            if(i >= k && nums[i - k] == num) continue;
             nums[i++] = num;
         }
-        
-        // 截斷陣列至處理後的長度
         nums.resize(i);
         return nums;
     }
