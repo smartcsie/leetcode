@@ -12,3 +12,6 @@ solutions:
   time: O(logN)
   space: O(1)
   familiarity: 易忘
+  note: '> **INT_MIN 取負數溢位**<br>'
+  tricks:
+  - overflow handle
