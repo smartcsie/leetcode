@@ -16,3 +16,4 @@ solutions:
   tricks:
   - overflow handle
   - gcd
+  - lcm
