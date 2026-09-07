@@ -12,8 +12,9 @@ solutions:
   time: O(log²N)
   space: O(1)
   familiarity: 易忘
-  note: '> [Overflow handle] <br>'
-  tricks: null
+  note: '> [overflow handle] INT_MIN / -1 溢位<br>'
+  tricks:
+  - overflow handle
 - file: Solution_0029_1.cpp
   difficulty: 🟡 Medium
   tags:
