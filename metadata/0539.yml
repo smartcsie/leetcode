@@ -5,10 +5,14 @@ solutions:
 - file: Solution_0539.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Greedy Sorting Decision
   - Sorting
   topics:
-  - sorting
+  - greedy-sorting-decision
   time: O(NlogN)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **最後要處理頭尾**<br>
+
+    > **return min(mn, 1440 - (times.back() - times.front()));**<br>'
+  tricks: null
