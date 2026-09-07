@@ -11,4 +11,6 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **Reverse inorder**<br>'
+  tricks: null
