@@ -13,3 +13,9 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 練習過
+  note: '> **Reverse inorder**<br>
+
+    > **同1038[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)**<br>'
+  related:
+  - 538
+  tricks: null
