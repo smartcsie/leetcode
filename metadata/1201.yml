@@ -15,3 +15,4 @@ solutions:
   note: '> **[overflow handle]LCM 計算用 long long**<br>'
   tricks:
   - overflow handle
+  - gcd
