@@ -11,7 +11,7 @@ solutions:
   - math-simulation
   time: O(max(M,N))
   space: O(1)
-  familiarity: 再練習
+  familiarity: 練習過
   note: '> 和 0415[Add Strings](https://leetcode.com/problems/add-strings) 幾乎一樣<br>
 
     > i和j設定為a和b最後的index，i = a.size() - 1，j = b.size() - 1<br>
