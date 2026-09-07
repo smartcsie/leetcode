@@ -15,4 +15,5 @@ solutions:
   note: '> **最後要處理頭尾**<br>
 
     > **return min(mn, 1440 - (times.back() - times.front()));**<br>'
-  tricks: null
+  tricks:
+  - time
