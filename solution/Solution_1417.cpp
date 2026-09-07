@@ -15,20 +15,19 @@
 class Solution {
 public:
     string reformat(string s) {
-        string alphas, digits;
-        for (char c : s) {
-            (isalpha(c) ? alphas : digits).push_back(c);
+        vector<char> digits;
+        vector<char> alphas;
+        for(const char& c : s) {
+            if(isdigit(c)) digits.push_back(c);
+            else alphas.push_back(c);
         }
-        
-        int m = alphas.size(), n = digits.size();
-        if (abs(m - n) > 1) return "";
-        
-        if (m < n) swap(alphas, digits);
-        
         string ans;
-        for (int i = 0; i < alphas.size(); i++) {
-            ans.push_back(alphas[i]);
-            if (i < digits.size()) ans.push_back(digits[i]);
+        ans.reserve(s.size());
+        if(abs(static_cast<int>(digits.size()) - static_cast<int>(alphas.size())) > 1) return "";
+        if(digits.size() > alphas.size()) swap(digits, alphas);
+        for(int i = 0, j= 0;  i < alphas.size() || j < digits.size(); i++, j++) {
+            if(i < alphas.size()) ans.push_back(alphas[i]);
+            if(j < digits.size()) ans.push_back(digits[j]);
         }
         return ans;
     }

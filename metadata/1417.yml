@@ -11,4 +11,5 @@ solutions:
   - two-pointers-same
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
