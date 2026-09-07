@@ -23,4 +23,5 @@ solutions:
   time: O(log²N)
   space: O(1)
   familiarity: 易忘
-  tricks: null
+  tricks:
+  - overflow handle
