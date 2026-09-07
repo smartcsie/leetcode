@@ -5,10 +5,18 @@ solutions:
 - file: Solution_0109.cpp
   difficulty: 🟡 Medium
   tags:
-  - Linked List
+  - Binary Search Tree
   - Tree
   topics:
   - binary-search-tree
   time: O(NlogN)
   space: O(logN)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **prev->next = nullptr 切斷後：**<br>
+
+    > **head → 左半段的頭 → 遞迴建左子樹**<br>
+
+    > **slow → 當前 root**<br>
+
+    > **slow->next → 右半段的頭 → 遞迴建右子樹**<br>'
+  tricks: null
