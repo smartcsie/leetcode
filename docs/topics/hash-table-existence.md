@@ -1,11 +1,10 @@
 # hash-table-existence
 
-## 🔴 生疏（3）
+## 🔴 生疏（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](../problems/0128.md) | O(N) | O(N) |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Table Existence, Hash Map | [C++](../problems/1640.md) | O(N) | O(N) |
 
 ## 🟠 再練習（6）
@@ -23,9 +22,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) |
 
 ## 🟢 熟悉（10）
 
