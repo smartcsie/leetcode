@@ -12,9 +12,7 @@ solutions:
   time: O(max(M,N))
   space: O(1)
   familiarity: 再練習
-  note: '> [Add Binary](https://leetcode.com/problems/add-binary)<br>
-
-    > 和 0415[Add Strings](https://leetcode.com/problems/add-strings) 幾乎一樣<br>
+  note: '> 和 0415[Add Strings](https://leetcode.com/problems/add-strings) 幾乎一樣<br>
 
     > i和j設定為a和b最後的index，i = a.size() - 1，j = b.size() - 1<br>
 
