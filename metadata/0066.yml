@@ -27,3 +27,5 @@ solutions:
     > **digits.insert(digits.begin(), 1);** <br>
 
     > **return digits;** <br>'
+  tricks:
+  - number addition

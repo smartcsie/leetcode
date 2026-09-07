@@ -31,3 +31,5 @@ solutions:
     > **}** <br>
 
     > **reverse(res.begin(), res.end());** <br>'
+  tricks:
+  - number addition
