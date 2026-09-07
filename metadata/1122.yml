@@ -5,9 +5,11 @@ solutions:
 - file: Solution_1122.cpp
   difficulty: 🟢 Easy
   tags:
+  - Sorting Counting Sort
   - Counting Sort
   topics:
   - sorting-counting-sort
   time: O(N+M)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null

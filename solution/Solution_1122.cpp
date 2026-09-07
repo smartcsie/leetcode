@@ -14,32 +14,16 @@
 class Solution {
 public:
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {
-        // 使用定長陣列進行頻率計數 (假設元素範圍 0-1000)
-        int counts[1001] = {0};
-        for (const int num : arr1) {
-            counts[num]++;
+        vector<int> counts(1001, 0);
+        for(const int& x : arr1) counts[x]++;
+        vector<int> ans(arr1.size());
+        int idx = 0;
+        for(const int& x : arr2) {
+            while(counts[x]-- > 0) ans[idx++] = x;
         }
-        
-        vector<int> res;
-        res.reserve(arr1.size()); // 預先分配記憶體以減少動態擴容開銷
-
-        // 1. 按照 arr2 的順序填入
-        for (const int num : arr2) {
-            while (counts[num] > 0) {
-                res.push_back(num);
-                counts[num]--;
-            }
+        for( int i = 0; i <= 1000; i++) {
+            while(counts[i]-- > 0 ) ans[idx++] = i;
         }
-
-        // 2. 剩餘元素直接掃描計數陣列
-        // 由於 i 是遞增的，剩餘元素會自動按遞增順序填入
-        for (int i = 0; i <= 1000; ++i) {
-            while (counts[i] > 0) {
-                res.push_back(i);
-                counts[i]--;
-            }
-        }
-
-        return res;
+        return ans;
     }
 };
