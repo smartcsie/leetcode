@@ -5,7 +5,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 Medium | Linked List, Fast-Slow Pointers | [C++](../problems/0019.md) | O(N) | O(1) |
-| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Fast Slow Pointers | [C++](../problems/0151.md) |  |  |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Fast Slow Pointers | [C++](../problems/0151.md) | O(N) | O(1) |
 
 ## 🟠 再練習（0）
 

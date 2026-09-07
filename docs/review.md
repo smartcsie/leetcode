@@ -132,7 +132,7 @@
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | Array, Two Pointers | [C++](problems/0031.md) | O(N) | O(1) |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](problems/0075.md) | O(N) | O(1) |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | Linked List, Two Pointers | [C++](problems/0086.md) | O(N) | O(1) |
-| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Fast Slow Pointers | [C++](problems/0151.md) |  |  |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Fast Slow Pointers | [C++](problems/0151.md) | O(N) | O(1) |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | Array, Two Pointers | [C++](problems/0228.md) | O(N) | O(1) |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 Medium | Linked List | [C++](problems/0328.md) | O(N) | O(1) |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium | Two Pointers | [C++](problems/0443.md) | O(N) | O(1) |

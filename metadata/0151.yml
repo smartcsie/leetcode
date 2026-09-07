@@ -12,13 +12,15 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 練習過
+  tricks: null
 - file: Solution_0151_1.cpp
   difficulty: 🟡 Medium
   tags:
   - Fast Slow Pointers
   topics:
   - fast-slow-pointers
-  time: ''
-  space: ''
+  time: O(N)
+  space: O(1)
   familiarity: 生疏
   is_best: true
+  tricks: null
