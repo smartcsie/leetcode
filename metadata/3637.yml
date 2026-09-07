@@ -5,10 +5,13 @@ solutions:
 - file: Solution_3637.cpp
   difficulty: 🟢 Easy
   tags:
+  - Two Pointers Same
   - Two Pointers
   - State Transition
   topics:
   - two-pointers-same
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  note: '> **第一個邊界小於n-2，後面兩個邊界小於n-1**<br>'
+  tricks: null

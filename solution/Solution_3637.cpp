@@ -25,27 +25,13 @@ public:
     bool isTrionic(std::vector<int>& nums) {
         int n = nums.size();
         int idx1 = 0;
-        
-        // 階段 1：尋找嚴格遞增段
-        while (idx1 < n - 2 && nums[idx1] < nums[idx1 + 1]) {
-            idx1++;
-        }
-        if (idx1 == 0) return false;
-
-        // 階段 2：尋找嚴格遞減段
+        while(idx1 < n - 2 && nums[idx1] < nums[idx1+1]) idx1++;
+        if(idx1 == 0) return false;
         int idx2 = idx1;
-        while (idx2 < n - 1 && nums[idx2] > nums[idx2 + 1]) {
-            idx2++;
-        }
-        if (idx2 == idx1 || idx2 == n - 1) return false;
-
-        // 階段 3：尋找結尾的嚴格遞增段
+        while(idx2 < n - 1 && nums[idx2] > nums[idx2+1]) idx2++;
+        if(idx2 == idx1 || idx2 == n - 1) return false;
         int idx3 = idx2;
-        while (idx3 < n - 1 && nums[idx3] < nums[idx3 + 1]) {
-            idx3++;
-        }
-
-        // 檢查是否完整掃描到陣列結尾
-        return idx3 == (n - 1);
+        while(idx3 < n - 1 && nums[idx3] < nums[idx3+1]) idx3++;
+        return idx3 == n - 1;
     }
 };
