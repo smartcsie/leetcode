@@ -12,5 +12,9 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 練習過
-  note: '> **Reverse inorder**<br>'
+  note: '> **Reverse inorder**<br>
+
+    > **同538[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)**<br>'
+  related:
+  - 538
   tricks: null
