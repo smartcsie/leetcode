@@ -5,11 +5,12 @@ solutions:
 - file: Solution_1680.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Bit Manipulation
   - Bit Manipulation
   topics:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 生疏
-  note: '> [Brian Kernighan]'
+  familiarity: 練習過
+  tricks:
+  - Brian Kernighan
