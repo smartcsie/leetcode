@@ -22,14 +22,14 @@
 class Solution {
 public:
     int countTriplets(vector<int>& arr) {
-        int n =  arr.size();
-        if(n < 2) return 0;
-        int ans= 0;
+        int n = arr.size();
+        if(n <= 1) return 0;
+        int ans = 0;
         for(int i = 0; i < n; i++) {
-            int postfix = arr[i];
+            int prefix = arr[i];
             for(int j = i + 1; j < n; j++) {
-                postfix ^= arr[j];
-                if(postfix == 0) ans += j - i;
+                prefix ^= arr[j];
+                if(prefix == 0) ans += j - i;
             }
         }
         return ans;
