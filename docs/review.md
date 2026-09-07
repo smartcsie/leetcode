@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（308）](#review-shengshu)　[🟣 易忘清單（69）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（307）](#review-shengshu)　[🟣 易忘清單（69）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 980 題　🔴 生疏：302 題　🟠 再練習：167 題　🟡 練習過：164 題　🟣 易忘：62 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：301 題　🟠 再練習：167 題　🟡 練習過：165 題　🟣 易忘：62 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 308 個解法標記為生疏，建議找時間重新練習。
+目前共有 307 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（9）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（53）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（8）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（53）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -143,14 +143,13 @@
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | Two Pointers | [C++](problems/2562.md) | O(N\*D) | O(1) |
 
 <a id="shengshu-hash-table"></a>
-#### 🔑 Hash Table（9）
+#### 🔑 Hash Table（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](problems/0128.md) | O(N) | O(N) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](problems/0202.md) | O(logN) | O(1) |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 Medium | Hash Table Counting, Hash Table, Counting | [C++](problems/0916.md) | O(N \* L) | O(1) |
-| 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Table Uniqueness, Hash Set, Coordinates | [C++](problems/1496.md) | O(N) | O(N) |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Table Existence, Hash Map | [C++](problems/1640.md) | O(N) | O(N) |
 | 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 Medium | Hash Table, String, Single-Pass | [C++](problems/2023.md) | O(N\*L) |  |
 | 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2670.md) | O(N) | O(N) |
@@ -664,7 +663,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 3 | 6 | 0 | 0 | 10 | 0 | 19 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 2 | 1 | 0 | 11 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 3 | 2 | 0 | 4 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 3 | 6 | 0 | 0 | 12 | 0 | 21 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 6 | 1 | 0 | 12 | 0 | 21 |
 | [linked-list](topics/linked-list.md) | 2 | 2 | 9 | 1 | 3 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 1 | 13 | 4 | 10 | 12 | 0 | 40 |

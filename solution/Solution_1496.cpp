@@ -1,26 +1,33 @@
 /**
- * 題目：1344. Angle Between Hands of a Clock
- * 難度：中等 (Medium)
- * 描述：計算時鐘上時針與分針之間較小的夾角。
- * 優化重點：
- * 1. 角度轉換：時針每小時轉 30 度，每分鐘轉 0.5 度；分針每分鐘轉 6 度。
- * 2. 邊界處理：確保時針角度在 360 度範圍內 (處理 12 點情況)。
- * 3. 夾角計算：取兩者差值的絕對值，並確保夾角為較小的那個 (min(angle, 360 - angle))。
+ * 題目：1496. Path Crossing (路徑交叉)
+ * 難度：簡單 (Easy)
+ * 描述：給定一個由 'N', 'S', 'E', 'W' 組成的字串，代表移動方向。
+ *       從原點 (0, 0) 出發，判斷路徑是否會經過已走過的點。
  *
- * 時間複雜度：O(N)
- * 空間複雜度：O(N)
+ * 時間複雜度：O(N log N) - 每次 set 的 insert/contains 為 O(log N)，共 N 次。
+ * 空間複雜度：O(N) - set 最多存 N+1 個座標點。
+ *
+ * 解法思路：
+ * 1. 用 unordered_map 建立方向對應的座標偏移量：
+ *    - N → (0, +1)，S → (0, -1)，E → (+1, 0)，W → (-1, 0)
+ * 2. 用 set<pair<int,int>> 記錄所有走過的座標。
+ *    - 使用 set 而非 unordered_set，因為 pair 沒有預設 hash function。
+ * 3. 從原點 (0, 0) 出發，每次移動後檢查新座標是否已在 visited 中：
+ *    - 若已存在 → 路徑交叉，return true
+ *    - 若不存在 → 加入 visited，繼續移動
+ * 4. 走完所有步驟都沒有交叉，return false。
  */
 
 class Solution {
 public:
     bool isPathCrossing(string path) {
-        unordered_map<char, pair<int, int>> direction = { {'N', {0, 1}}, {'S', {0, -1}}, {'E', {1, 0}},  {'W', {-1, 0}} };
+        unordered_map<char, pair<int, int>> dir = {{'N', {0, 1}}, {'S', {0, -1}}, {'E', {1, 0}}, {'W', {-1, 0}}};
         pair<int, int> cur = {0, 0};
         set<pair<int, int>> visited;
         visited.insert(cur);
-        for(char c : path) {
-            cur.first += direction[c].first;
-            cur.second += direction[c].second;
+        for(const char& c : path) {
+            cur.first += dir[c].first;
+            cur.second += dir[c].second;
             if(visited.contains(cur)) return true;
             visited.insert(cur);
         }
