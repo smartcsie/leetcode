@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0539.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy Sorting Decision
+  - Sorting
   - Sorting
   topics:
-  - greedy-sorting-decision
+  - sorting
   time: O(NlogN)
   space: O(N)
   familiarity: 練習過

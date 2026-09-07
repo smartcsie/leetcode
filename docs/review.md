@@ -662,7 +662,7 @@
 | [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 2 | 0 | 1 | 0 | 0 | 6 |
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 4 | 0 | 1 | 0 | 0 | 0 | 5 |
-| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 1 | 6 | 0 | 0 | 0 | 9 |
+| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 1 | 5 | 0 | 0 | 0 | 8 |
 | [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 2 | 1 | 0 | 1 | 0 | 8 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 1 | 0 | 0 | 4 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 2 | 0 | 0 | 2 | 0 | 4 |
@@ -689,7 +689,7 @@
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 1 | 0 | 0 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 1 | 4 | 1 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 6 | 0 | 2 | 1 | 3 | 0 | 12 |
+| [sorting](topics/sorting.md) | 6 | 0 | 3 | 1 | 3 | 0 | 13 |
 | [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 3 | 0 | 2 | 0 | 0 | 0 | 5 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 0 | 2 | 6 | 0 | 2 | 0 | 10 |
