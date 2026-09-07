@@ -5,7 +5,7 @@ solutions:
 - file: Solution_0007.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Digit Decomposition
   topics:
   - math-digit-decomposition
   time: O(logN)
@@ -20,3 +20,5 @@ solutions:
     > 所以那個條件實際上永遠不會觸發，可以安全移除。<br>
 
     > 只需要檢查 res > INT_MAX / 10 或 res < INT_MIN / 10 就夠了。<br>'
+  tricks:
+  - overflow handle
