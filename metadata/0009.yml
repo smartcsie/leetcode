@@ -11,4 +11,6 @@ solutions:
   time: O(logN)
   space: O(1)
   familiarity: 再練習
-  note: '> [Overflow handle]'
+  note: '> **[overflow handle]反轉一半避免溢位**<br>'
+  tricks:
+  - overflow handle

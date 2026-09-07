@@ -12,19 +12,18 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 練習過
-  note: '> 處裡多餘空白，while(i < n && s[i] == '' '') i++;<br>
+  note: '> **[overflow handle]累加數字超過 INT_MAX**<br>
 
-    > 處裡正負號，int sign = 1;  if(s[i] == ''+'' || s[i] == ''-'' ) sign = (s[i] == ''+'')
-    ? 1 : -1;<br>
+    > **處裡多餘空白，while(i < n && s[i] == '' '') i++;**<br>
 
-    > while(i < n && isdigit(s[i])) {<br>
+    > **處裡正負號，int sign = 1;  if(s[i] == ''+'' || s[i] == ''-'' )**<br>
 
-    > int digit = s[i++] - ''0'';<br>
+    > **sign = (s[i] == ''+'') ? 1 : -1;**<br>
 
-    > if(res > (INT_MAX - digit) / 10) return sign == 1 ? INT_MAX : INT_MIN;<br>
+    > **if(res > (INT_MAX - digit) / 10) **<br>
 
-    > res = res * 10 + digit;<br>
+    > **return sign == 1 ? INT_MAX : INT_MIN;**<br>
 
-    } <br>'
+    > **res = res * 10 + digit;**<br>'
   tricks:
   - overflow handle

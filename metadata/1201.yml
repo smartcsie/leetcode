@@ -12,3 +12,6 @@ solutions:
   time: O(log(2E9))
   space: O(1)
   familiarity: 生疏
+  note: '> **[overflow handle]LCM 計算用 long long**<br>'
+  tricks:
+  - overflow handle

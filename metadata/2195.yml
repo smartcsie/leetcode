@@ -12,4 +12,6 @@ solutions:
   time: O(NlogN)
   space: O(1)
   familiarity: 生疏
-  tricks: null
+  note: '[overflow handle]累加用 long long'
+  tricks:
+  - overflow handle
