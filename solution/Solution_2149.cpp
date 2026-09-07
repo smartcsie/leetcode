@@ -11,23 +11,18 @@ class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& nums) {
         int n = nums.size();
-        // 預分配空間，避免推入過程中發生記憶體搬移
-        vector<int> res(n);
-        
-        // 使用雙指標分別指向正數與負數的下一個填入位置
-        int posIdx = 0; // 正數從 index 0 開始
-        int negIdx = 1; // 負數從 index 1 開始
-        
-        for (const int num : nums) {
-            if (num > 0) {
-                res[posIdx] = num;
-                posIdx += 2;
+        int pos = 0, neg = 1;
+        vector<int> ans(n);
+        int idx = 0;
+        for(const int& x : nums) {
+            if(x > 0) {
+                ans[pos] = x;
+                pos += 2;
             } else {
-                res[negIdx] = num;
-                negIdx += 2;
+                ans[neg] = x;
+                neg += 2;
             }
         }
-        
-        return res;
+        return ans;
     }
 };
