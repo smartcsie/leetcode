@@ -5,10 +5,14 @@ solutions:
 - file: Solution_2259.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy
+  - Greedy Digit Construction
   - String
   topics:
   - greedy-digit-construction
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **先由左往右掃描，找到第一個目標digit位置，且小於右邊字元找到則回傳**<br>
+
+    > **上面方法沒找到，由右邊往左找rfind，找到第一個目標digit位置回傳**<br>'
+  tricks: null
