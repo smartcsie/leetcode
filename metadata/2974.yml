@@ -5,9 +5,9 @@ solutions:
 - file: Solution_2974.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array Linear Scan
+  - Sorting
   topics:
-  - array-linear-scan
+  - sorting
   time: O(N)
   space: O(N)
   familiarity: 熟練

@@ -9,7 +9,7 @@ solutions:
   - Ordered Map
   - Bucket
   topics:
-  - fixed-size-sliding-window
+  - binary-search-build-in
   time: O(Nlog(min(N,K)))
   space: O(min(N,K))
   familiarity: 生疏

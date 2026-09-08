@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1930.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy
+  - Binary Search Build In
   - Hash
   topics:
-  - greedy
+  - binary-search-build-in
   time: O(N)
   space: O(1)
   familiarity: 生疏

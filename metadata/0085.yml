@@ -5,9 +5,9 @@ solutions:
 - file: Solution_0085.cpp
   difficulty: 🔴 Hard
   tags:
-  - Dp Grid Path
+  - Monotonic Stack
   topics:
-  - dp-grid-path
+  - monotonic-stack
   time: O(M
   space: O(N)
   familiarity: 生疏

@@ -5,9 +5,9 @@ solutions:
 - file: Solution_1029.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy Priority Queue
+  - Greedy Sorting Decision
   topics:
-  - greedy-priority-queue
+  - greedy-sorting-decision
   time: O(N log N)
   space: O(1)
   familiarity: 練習過
