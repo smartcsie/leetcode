@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（297）](#review-shengshu)　[🟣 易忘清單（70）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（296）](#review-shengshu)　[🟣 易忘清單（70）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 980 題　🔴 生疏：292 題　🟠 再練習：167 題　🟡 練習過：174 題　🟣 易忘：62 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：291 題　🟠 再練習：167 題　🟡 練習過：175 題　🟣 易忘：62 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 297 個解法標記為生疏，建議找時間重新練習。
+目前共有 296 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（13）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（45）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（7）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（13）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（45）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -45,7 +45,7 @@
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) |
 
 <a id="shengshu-string"></a>
-#### 🔗 String（8）
+#### 🔗 String（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -54,7 +54,6 @@
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 Hard | String, State Machine | [C++](problems/0065.md) | O(N) | O(1) |
 | 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | String | [C++](problems/0833.md) | O(N+M\*K) | O(N) |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | Simulation, String | [C++](problems/2243.md) | O(N\*logN) | O(N) |
-| 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 Easy | Simulation, Recursion | [C++](problems/3304.md) | O(K) | O(K) |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String, Pattern Matching | [C++](problems/3407.md) | O(N+M) | O(M) |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) |
 
@@ -687,7 +686,7 @@
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [stack](topics/stack.md) | 3 | 2 | 1 | 0 | 8 | 0 | 14 |
-| [string](topics/string.md) | 7 | 5 | 6 | 1 | 22 | 0 | 41 |
+| [string](topics/string.md) | 6 | 5 | 7 | 1 | 22 | 0 | 41 |
 | [string-character-classification](topics/string-character-classification.md) | 0 | 2 | 2 | 0 | 18 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
