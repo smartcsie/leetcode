@@ -5,14 +5,17 @@ solutions:
 - file: Solution_1025.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Game Theory
   - Game Theory
   topics:
   - math-game-theory
   time: O(1)
   space: O(1)
   familiarity: 易忘
-  note: '> n 是偶數時 Alice 必勝'
+  note: '> **偶勝奇敗，n是偶數時Alice可以選擇1，必勝**<br>
+
+    > **n 為奇數時的性質：奇數的因數必為奇數**<br>'
   is_best: true
   related:
   - 3227
+  tricks: null
