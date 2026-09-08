@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0633.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Two Pointers Opposite
   - Two Pointers
   topics:
-  - math
+  - two-pointers-opposite
   time: O(√C)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 練習過
+  tricks: null
