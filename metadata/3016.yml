@@ -5,11 +5,15 @@ solutions:
 - file: Solution_3016.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting
+  - Greedy Sorting Decision
   - Sorting
   - Counting
   topics:
-  - sorting-counting-sort
+  - greedy-sorting-decision
   time: O(N+26log26)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **貪心策略把品率最高的擺在 2 ~ 9的第一個位置，按一下，再來是2~9的第2個位置**<br>
+
+    > **因為2~9只有8個按鈕，counts由大到小，所以按幾下等於(i/8 + 1)**<br>'
+  tricks: null

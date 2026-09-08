@@ -13,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting, Greedy | [C++](../problems/0945.md) | O(NlogN) | O(1) |
 
-## 🟡 練習過（7）
+## 🟡 練習過（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy Sorting Decision, Partition by Parity | [C++](../problems/2231.md) | O(DlogD) | O(D) |
 | 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/2279.md) | O(N log N) | O(N) |
 | 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | Greedy Sorting Decision, Greedy, Sorting | [C++](../problems/2966.md) | O(NlogN) | O(1) |
+| 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | Greedy Sorting Decision, Sorting, Counting | [C++](../problems/3016.md) | O(N+26log26) | O(1) |
 
 ## 🟣 易忘（0）
 
