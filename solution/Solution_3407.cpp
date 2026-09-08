@@ -13,21 +13,12 @@
 class Solution {
 public:
     bool hasMatch(std::string s, std::string p) {
-        // 1. 找到 '*' 的位置
-        size_t starPos = p.find('*');
-        
-        // 2. 分割為 prefix 與 suffix
-        std::string prefix = p.substr(0, starPos);
-        std::string suffix = p.substr(starPos + 1);
-        
-        // 3. 在 s 中搜尋 prefix
+        int starPos = p.find('*');
+        string prefix = p.substr(0, starPos);
+        string suffix = p.substr(starPos + 1);
         size_t prePos = s.find(prefix);
-        if (prePos == std::string::npos) return false;
-        
-        // 4. 在 prefix 之後搜尋 suffix
-        // 注意：搜索起點為 prePos + prefix.length()
-        size_t sufPos = s.find(suffix, prePos + prefix.size());
-        
-        return (sufPos != std::string::npos);
+        if(prePos == string::npos) return false;
+        size_t suffPos = s.find(suffix, prePos + prefix.size());
+        return suffPos!= string::npos;
     }
 };
