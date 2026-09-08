@@ -13,15 +13,13 @@
 class Solution {
 public:
     std::vector<bool> prefixesDivBy5(std::vector<int>& nums) {
-        int sum = 0;
-        std::vector<bool> divisible;
-        divisible.reserve(nums.size());
-        
-        for (const int num : nums) {
-            sum = ((sum << 1) + num) % 5;
-            divisible.push_back(sum == 0);
+        int num = 0;
+        vector<bool> ans;
+        ans.reserve(nums.size());
+        for(const int& x : nums) {
+            num = ((num << 1) | x) % 5;
+            ans.push_back(num % 5 == 0);
         }
-        
-        return divisible;
+        return ans;
     }
 };
