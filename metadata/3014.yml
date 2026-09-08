@@ -5,11 +5,22 @@ solutions:
 - file: Solution_3014.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy
+  - Greedy Sorting Decision
   - Sorting
   - Counting
   topics:
-  - greedy-frequency-merging
+  - greedy-sorting-decision
   time: O(N+26log26)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
+- file: Solution_3014_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Sorting Decision
+  topics:
+  - greedy-sorting-decision
+  time: O(1)
+  space: O(1)
+  familiarity: 練習過
+  tricks: null
