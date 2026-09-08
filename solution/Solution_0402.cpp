@@ -41,7 +41,7 @@ public:
             k--;
         }
         int start = 0;
-        while (start < (int)stack.size() - 1 && stack[start] == '0') start++;
+        while (start < stack.size() && stack[start] == '0') start++;
         stack = stack.substr(start);
         return stack.empty() ? "0" : stack;
     }
