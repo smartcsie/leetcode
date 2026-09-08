@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（299）](#review-shengshu)　[🟣 易忘清單（71）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（298）](#review-shengshu)　[🟣 易忘清單（72）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 980 題　🔴 生疏：294 題　🟠 再練習：167 題　🟡 練習過：171 題　🟣 易忘：63 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：293 題　🟠 再練習：167 題　🟡 練習過：171 題　🟣 易忘：64 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 299 個解法標記為生疏，建議找時間重新練習。
+目前共有 298 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（46）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（45）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -324,7 +324,7 @@
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | Dynamic Programming Lis, Longest Non-Decreasing Subsequence | [C++](problems/2826.md) | O(N) | O(1) |
 
 <a id="shengshu-greedy"></a>
-#### 🧩 Greedy（46）
+#### 🧩 Greedy（45）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -364,7 +364,6 @@
 | 1770 | [Maximum Score From Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | 🔴 Hard | Greedy Selection Constraints | [C++](problems/1770.md) | O(M²) | O(M²) |
 | 1851 | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | 🔴 Hard | Greedy Priority Queue | [C++](problems/1851.md) | O((N+Q) log N) | O(N) |
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy, String | [C++](problems/1881.md) | O(N) | O(1) |
-| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy, Two Candidates | [C++](problems/1909.md) | O(N) | O(1) |
 | 1930 | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | 🟡 Medium | Greedy, Hash | [C++](problems/1930.md) | O(N) | O(1) |
 | 1936 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | Greedy, Math | [C++](problems/1936.md) | O(N) | O(1) |
 | 2064 | [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | 🟡 Medium | Greedy Fractional Knapsack | [C++](problems/2064.md) | O(Q log M) | O(1) |
@@ -440,9 +439,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 71 個解法標記為易忘，建議面試前重點複習。
+目前共有 72 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（10）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（6）](#yiwang-tree)　[🔍 Binary Search（4）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（7）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（10）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（6）](#yiwang-tree)　[🔍 Binary Search（4）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Greedy（8）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -575,7 +574,7 @@
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Sorting Implementation, Divide and Conquer, Sorting | [C++](problems/0912.md) | O(NlogN) | O(logN) |
 
 <a id="yiwang-greedy"></a>
-#### 🧩 Greedy（7）
+#### 🧩 Greedy（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -584,6 +583,7 @@
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy | [C++](problems/0678.md) | O(N) | O(1) |
 | 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | 🟡 Medium | Greedy, Math, String | [C++](problems/1247.md) | O(N) | O(1) |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy Priority Queue | [C++](problems/1405.md) | O((a+b+c) log 3) | O(1) |
+| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy, Two Candidates | [C++](problems/1909.md) | O(N) | O(1) |
 | 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](problems/2571.md) | O(logN) | O(1) |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy, Math, Brainteaser | [C++](problems/2745.md) | O(1) | O(1) |
 
@@ -641,7 +641,7 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 6 | 6 | 1 | 2 | 2 | 0 | 17 |
+| [greedy](topics/greedy.md) | 5 | 6 | 1 | 3 | 2 | 0 | 17 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 3 | 2 | 3 | 0 | 1 | 0 | 9 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 3 | 2 | 0 | 0 | 0 | 0 | 5 |
