@@ -1,3 +1,15 @@
+/**
+ * 題目：213. House Robber II
+ * 難度：中等 (Medium)
+ * 描述：房子排成環狀，不能搶相鄰房子，求能搶到的最大金額。
+ *
+ * 時間複雜度：O(N)
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * （拆成兩個線性 House Robber）：
+ * 環狀問題拆成「搶第 0 到 n-2 間」和「搶第 1 到 n-1 間」兩個子問題取最大值。
+ */
 class Solution {
 public:
     int rob(vector<int>& nums) {

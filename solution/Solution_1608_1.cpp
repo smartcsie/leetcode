@@ -1,3 +1,15 @@
+/**
+ * 題目：1608. Special Array With X Elements Greater Than or Equal X
+ * 難度：簡單 (Easy)
+ * 描述：找出 x 使得陣列中恰好有 x 個元素大於或等於 x。
+ *
+ * 時間複雜度：O(NlogN)
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：
+ * （排序 + Binary Search）：
+ * 排序後對 x 做二分搜尋，用 lower_bound 計算大於等於 x 的元素數量是否等於 x。
+ */
 class Solution {
 public:
     int specialArray(vector<int>& nums) {

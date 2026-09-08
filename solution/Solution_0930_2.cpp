@@ -1,3 +1,15 @@
+/**
+ * 題目：930. Binary Subarrays With Sum
+ * 難度：中等 (Medium)
+ * 描述：計算二進位陣列中和等於 goal 的子陣列個數。
+ *
+ * 時間複雜度：O(N)
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：
+ * （滑動視窗差分，atMost 技巧）：
+ * 恰好等於 goal = 至多 goal 個 - 至多 goal-1 個，用滑動視窗計算至多 k 個 1 的子陣列數。
+ */
 class Solution {
 private:
     int atMost(vector<int>& nums, int goal) {
