@@ -20,26 +20,18 @@
 
 class Solution {
 public:
-    int addMinimum(std::string word) {
+    int addMinimum(string word) {
         int ans = 0;
         int n = word.size();
-        // 每次嘗試匹配一輪完整的 "abc" 循環
-        for (int i = 0; i < n; ) {
-            int count = 0; // 記錄當前輪次實際匹配到了幾個字母
-            if (i < n && word[i] == 'a') {
-                count++;
-                i++;
-            } 
-            if (i < n && word[i] == 'b') {
-                count++;
-                i++;
-            } 
-            if (i < n && word[i] == 'c') {
-                count++;
-                i++;
+        for(int i = 0 ; i <n;) {
+            int count = 0;
+            for(char c : {'a', 'b', 'c'}) {
+                if(i < n && word[i] == c) {
+                    i++;
+                    count++;
+                }
             }
-            // 每一輪標準長度為 3，缺幾個就補幾個 (3 - count)
-            ans += (3 - count);
+            ans += 3 - count;
         }
         return ans;
     }
