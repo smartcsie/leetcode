@@ -4849,7 +4849,7 @@
 
 <h1 id="2208-minimum-operations-to-halve-array-sum">2208. Minimum Operations to Halve Array Sum<a class="headerlink" href="#2208-minimum-operations-to-halve-array-sum" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/minimum-operations-to-halve-array-sum/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Greedy Parity Contribution　<strong>時間:</strong> O(N + K log N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Greedy Priority Queue　<strong>時間:</strong> O(N + K log N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🟡 練習過</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2208. Minimum Operations to Halve Array Sum</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -4897,6 +4897,12 @@
 <a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>先把所有元素放入priority queue</strong><br>
+<strong>計算target為所有元素和的一半</strong><br>
+<strong>迴圈條件reduced小於target</strong><br>
+<strong>每次pop元素出來，減半，加到reduced，並放回 heap</strong><br></p>
+</blockquote>
 
 
 
