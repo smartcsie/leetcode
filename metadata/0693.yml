@@ -18,6 +18,7 @@ solutions:
 
     <br><br>'
   is_best: true
+  tricks: null
 - file: Solution_0693_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -27,3 +28,4 @@ solutions:
   time: O(logn)
   space: O(1)
   familiarity: 再練習
+  tricks: null
