@@ -1,5 +1,8 @@
 /**
  * 註解：待補充
+ * 時間複雜度：O(N/K)
+ * 空間複雜度：O(M+K)
+
  */
 class MyHashMap {
 private:
