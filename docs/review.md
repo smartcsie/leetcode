@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（301）](#review-shengshu)　[🟣 易忘清單（70）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（300）](#review-shengshu)　[🟣 易忘清單（70）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 980 題　🔴 生疏：295 題　🟠 再練習：167 題　🟡 練習過：170 題　🟣 易忘：63 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：294 題　🟠 再練習：167 題　🟡 練習過：171 題　🟣 易忘：63 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 301 個解法標記為生疏，建議找時間重新練習。
+目前共有 300 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（48）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（47）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -324,7 +324,7 @@
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | Dynamic Programming Lis, Longest Non-Decreasing Subsequence | [C++](problems/2826.md) | O(N) | O(1) |
 
 <a id="shengshu-greedy"></a>
-#### 🧩 Greedy（48）
+#### 🧩 Greedy（47）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -348,7 +348,6 @@
 | 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | 🔴 Hard | Greedy Fractional Knapsack | [C++](problems/0871.md) | O(N log N) | O(N) |
 | 899 | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | 🔴 Hard | Greedy String Construction | [C++](problems/0899.md) | O(N²) | O(N) |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | Stack, Greedy | [C++](problems/0921.md) | O(N) | O(1) |
-| 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 Medium | Greedy Job Sequencing | [C++](problems/1029.md) | O(N log N) | O(1) |
 | 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) | 🟡 Medium | Greedy String Construction | [C++](problems/1061.md) | O(N + M | O(26) |
 | 1210 | [Minimum Moves to Reach Target With Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | 🔴 Hard | Greedy Coin Change | [C++](problems/1210.md) | O(N²) | O(N²) |
 | 1296 | [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) | 🟡 Medium | Greedy Frequency Merging | [C++](problems/1296.md) | O(N log N) | O(N) |
@@ -650,11 +649,11 @@
 | [greedy-frequency-merging](topics/greedy-frequency-merging.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [greedy-graph](topics/greedy-graph.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [greedy-interval-scheduling](topics/greedy-interval-scheduling.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy-job-sequencing](topics/greedy-job-sequencing.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| [greedy-job-sequencing](topics/greedy-job-sequencing.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [greedy-optimal-partitioning](topics/greedy-optimal-partitioning.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-parity-contribution](topics/greedy-parity-contribution.md) | 2 | 1 | 0 | 2 | 0 | 0 | 5 |
 | [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 2 | 0 | 1 | 0 | 0 | 6 |
-| [greedy-priority-queue](topics/greedy-priority-queue.md) | 3 | 0 | 1 | 0 | 0 | 0 | 4 |
+| [greedy-priority-queue](topics/greedy-priority-queue.md) | 3 | 0 | 2 | 0 | 0 | 0 | 5 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 3 | 0 | 1 | 0 | 0 | 0 | 4 |
 | [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 1 | 6 | 0 | 0 | 0 | 9 |
 | [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 2 | 1 | 0 | 1 | 0 | 8 |
