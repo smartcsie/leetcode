@@ -11,7 +11,9 @@ solutions:
   time: O(N + K log N)
   space: O(N)
   familiarity: 練習過
-  note: '> **先把所有元素放入priority queue**<br>
+  note: '> **[Greedy策略]挑選每次數字裡面最大的減半，保證operations最小**<br>
+
+    > **先把所有元素放入priority queue**<br>
 
     > **計算target為所有元素和的一半**<br>
 
