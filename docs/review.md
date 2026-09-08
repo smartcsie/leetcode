@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（298）](#review-shengshu)　[🟣 易忘清單（70）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（297）](#review-shengshu)　[🟣 易忘清單（70）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 976 / 4033 題（最後更新：2026-08-23 21:21）
-- **目前收錄總題目數：** 980 題　🔴 生疏：293 題　🟠 再練習：167 題　🟡 練習過：173 題　🟣 易忘：62 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：292 題　🟠 再練習：167 題　🟡 練習過：174 題　🟣 易忘：62 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 298 個解法標記為生疏，建議找時間重新練習。
+目前共有 297 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（14）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（45）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（8）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（9）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（10）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（13）](#shengshu-sorting)　[🧩 Dynamic Programming（89）](#shengshu-dynamic-programming)　[🧩 Greedy（45）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（23）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -209,7 +209,7 @@
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | Graph Shortest Path | [C++](problems/0743.md) | O(E·logV) | O(V+E) |
 
 <a id="shengshu-sorting"></a>
-#### 📊 Sorting（14）
+#### 📊 Sorting（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -221,7 +221,6 @@
 | 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | 🔴 Hard | Sorting Cycle Decomposition | [C++](problems/0765.md) | O(N α(N)) | O(N) |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | String, Sorting | [C++](problems/1408.md) | O(N²\*K) | O(N) |
 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | 🟡 Medium | Sorting Cycle Decomposition | [C++](problems/2471.md) | O(N log N) | O(N) |
-| 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](problems/2491.md) | O(NlogN) | O(1) |
 | 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | 🟢 Easy | Sorting, Brute Force | [C++](problems/2932.md) | O(NlogN+N²) | O(logN) |
 | 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | Sorting, Sorting, Counting | [C++](problems/3016.md) | O(N+26log26) | O(1) |
 | 3132 | [Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) | 🟡 Medium | Sorting, Two Pointers | [C++](problems/3132.md) | O(NlogN) | O(1) |
@@ -679,7 +678,7 @@
 | [priority-queue](topics/priority-queue.md) | 6 | 0 | 1 | 0 | 0 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 1 | 4 | 1 | 0 | 0 | 0 | 6 |
-| [sorting](topics/sorting.md) | 6 | 0 | 3 | 1 | 3 | 0 | 13 |
+| [sorting](topics/sorting.md) | 5 | 0 | 4 | 1 | 3 | 0 | 13 |
 | [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 2 | 0 | 3 | 0 | 0 | 0 | 5 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 0 | 2 | 6 | 0 | 2 | 0 | 10 |

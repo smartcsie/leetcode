@@ -20,27 +20,18 @@
 class Solution {
 public:
     long long dividePlayers(std::vector<int>& skill) {
-        // 1. 將技能陣列排序
-        std::sort(skill.begin(), skill.end());
-        
-        int n = skill.size();
-        int target = skill[0] + skill[n - 1]; // 每一隊必須相加等於這個目標值
-        int left = 0, right = n - 1;
-        long long sum = 0;
-        
-        // 2. 雙指標向內檢查並計算化學反應
-        while (left < right) {
-            if (skill[left] + skill[right] != target) {
-                return -1; // 總和不匹配，無法組出均等隊伍
-            }
-            
-            // 3. 累加該隊的化學反應（相乘），注意轉型避免整數溢位
-            sum += (long long)skill[left] * skill[right];
-            
+        sort(skill.begin(), skill.end());
+        vector<int>& s = skill;
+        int n = s.size();
+        long long ans = 0;
+        int left = 0, right = n -1;
+        int target = s[left] + s[right];
+        while(left < right) {
+            if(s[left] + s[right] != target) return -1;
+            ans += s[left] * s[right]; 
             left++;
             right--;
         }
-        
-        return sum;
+        return ans;
     }
 };
