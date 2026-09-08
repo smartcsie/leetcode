@@ -11,6 +11,13 @@ solutions:
   time: O((a+b+c) log 3)
   space: O(1)
   familiarity: 易忘
+  note: '> **每次只放一個字元，但每次都檢查**<br>
+
+    > **result 尾巴是否已有連續兩個相同字元**<br>
+
+    > **有：取第二大的放，再把第一大推回去**<br>
+
+    > **沒有：直接取最大的放**<br>'
   is_best: true
   related:
   - 984
