@@ -28,26 +28,25 @@
 class Solution {
 public:
     string longestDiverseString(int a, int b, int c) {
-        priority_queue<pair<int,char>> pq;
-        if (a) pq.push({a, 'a'});
-        if (b) pq.push({b, 'b'});
-        if (c) pq.push({c, 'c'});
-
-        string res;
-        while (!pq.empty()) {
+        priority_queue<pair<int, char>> pq;
+        if(a) pq.push({a, 'a'});
+        if(b) pq.push({b, 'b'});
+        if(c) pq.push({c, 'c'});
+        string ans;
+        while(!pq.empty()) {
             auto [count, ch] = pq.top(); pq.pop();
-            int len = res.size();
-            if (len >= 2 && res[len-1] == ch && res[len-2] == ch) {
+            int len = ans.size();
+            if(len >= 2 && ch == ans[len - 1] && ch == ans[len - 2]) {
                 if (pq.empty()) break;
                 auto [count2, ch2] = pq.top(); pq.pop();
-                res += ch2;
-                if (--count2 > 0) pq.push({count2, ch2});
+                ans.push_back(ch2);
+                if(--count2 > 0) pq.push({count2, ch2});
                 pq.push({count, ch});
             } else {
-                res += ch;
-                if (--count > 0) pq.push({count, ch});
+                ans.push_back(ch);
+                if(--count > 0) pq.push({count, ch});
             }
         }
-        return res;
+        return ans;
     }
 };

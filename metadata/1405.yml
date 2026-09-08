@@ -5,14 +5,16 @@ solutions:
 - file: Solution_1405.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy Exchange Argument
+  - Greedy Priority Queue
   topics:
-  - greedy-exchange-argument
+  - greedy-priority-queue
   time: O((a+b+c) log 3)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  is_best: true
   related:
   - 984
+  tricks: null
 - file: Solution_1405_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -22,3 +24,4 @@ solutions:
   time: O((a+b+c) log 3)
   space: O(1)
   familiarity: 生疏
+  tricks: null
