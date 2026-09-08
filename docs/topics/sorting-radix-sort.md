@@ -4,7 +4,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](../problems/0164.md) |  |  |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](../problems/0164.md) | O(N \* D) | O(N) |
 
 ## 🟠 再練習（0）
 

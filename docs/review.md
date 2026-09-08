@@ -215,8 +215,8 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | 🟡 Medium | Sorting, Insertion Sort | [C++](problems/0147.md) | O(N²) | O(1) |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List, Merge Sort | [C++](problems/0148.md) | O(NlogN) | O(logN) |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Algorithm Implementation, Bucket Sort, Pigeonhole Principle | [C++](problems/0164.md) | O(N) | O(N) |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](problems/0164.md) |  |  |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Implementation, Sorting Algorithm Implementation, Bucket Sort, Pigeonhole Principle | [C++](problems/0164.md) | O(N) | O(N) |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](problems/0164.md) | O(N \* D) | O(N) |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Sorting | [C++](problems/0648.md) | O(N\*L) | O(M\*L) |
 | 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | 🔴 Hard | Sorting Cycle Decomposition | [C++](problems/0765.md) | O(N α(N)) | O(N) |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | String, Sorting | [C++](problems/1408.md) | O(N²\*K) | O(N) |

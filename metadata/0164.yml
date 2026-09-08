@@ -5,6 +5,7 @@ solutions:
 - file: Solution_0164.cpp
   difficulty: 🟡 Medium
   tags:
+  - Sorting Implementation
   - Sorting Algorithm Implementation
   - Bucket Sort
   - Pigeonhole Principle
@@ -13,12 +14,14 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 生疏
+  tricks: null
 - file: Solution_0164_1.cpp
   difficulty: 🟡 Medium
   tags:
   - Sorting Radix Sort
   topics:
   - sorting-radix-sort
-  time: ''
-  space: ''
+  time: O(N * D)
+  space: O(N)
   familiarity: 生疏
+  tricks: null
