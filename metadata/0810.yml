@@ -12,4 +12,8 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 易忘
+  note: '> **val == 0，一開始整體 XOR 就是 0，Alice 必勝**<br>
+
+    > **數字個數是偶數，Alice 也會贏**<br>'
   is_best: true
+  tricks: null

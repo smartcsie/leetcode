@@ -25,10 +25,7 @@
 class Solution {
 public:
     bool xorGame(vector<int>& nums) {
-        int count = 0;
-        for(const int& num : nums) {
-            count ^= num;
-        }
-        return (count == 0) || (nums.size() % 2 ==0);
+        int val = accumulate(nums.begin(), nums.end(), 0, bit_xor<>());
+        return val == 0 || nums.size() % 2 == 0;
     }
 };
