@@ -11,4 +11,6 @@ solutions:
   - sorting
   time: O(NlogN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '>　**邊界條件if(nums.size() == 1) return 0;**<br>'
+  tricks: null
