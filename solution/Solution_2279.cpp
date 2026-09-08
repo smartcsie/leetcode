@@ -26,22 +26,19 @@ class Solution {
 public:
     int maximumBags(vector<int>& capacity, vector<int>& rocks, int additionalRocks) {
         int n = capacity.size();
-        vector<int> remaining(n);
-        for (int i = 0; i < n; ++i) remaining[i] = capacity[i] - rocks[i];
-
-        vector<int> idx(n);
-        iota(idx.begin(), idx.end(), 0);
-        sort(idx.begin(), idx.end(), [&](int a, int b) {
-            return remaining[a] < remaining[b];
-        });
-
+        int& add_rocks = additionalRocks;
+        vector<int> rest(n);
+        for(int i = 0; i < n; i++) {
+            rest[i] = capacity[i] - rocks[i];
+        }
+        sort(rest.begin(), rest.end());
         int count = 0;
-        for (int i : idx) {
-            if (remaining[i] <= additionalRocks) {
-                additionalRocks -= remaining[i];
-                count++;
-            } else {
+        for(const int rock : rest) {
+            if(rock > add_rocks) {
                 break;
+            }  else {
+                add_rocks -= rock;
+                count++;
             }
         }
         return count;
