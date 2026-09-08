@@ -14,9 +14,6 @@
 class Solution {
 public:
     int arrangeCoins(int n) {
-        // 利用求根公式: k = (-1 + sqrt(1 + 8n)) / 2
-        // 因為 k 必須是整數，所以取 floor
-        // 使用 long long 防止計算過程中的溢位
-        return static_cast<int>((std::sqrt(1.0 + 8.0 * (long long)n) - 1) / 2);
+        return (int)((-1 + sqrt(1 + 8LL * n)) / 2);
     }
 };
