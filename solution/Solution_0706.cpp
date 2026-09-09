@@ -1,5 +1,7 @@
 /**
- * 註解：待補充
+ * 題目：706. Design HashMap
+ * 難度：簡單 (Easy)
+ * 描述：不使用內建 hash map，自行設計實作一個 HashMap。
  * 時間複雜度：O(N/K)
  * 空間複雜度：O(M+K)
 

@@ -1,9 +1,15 @@
 /**
- * 註解：待補充
+ * 題目：98. Validate Binary Search Tree
+ * 難度：中等 (Medium)
+ * 描述：判斷一棵二元樹是否為合法的二元搜尋樹（BST）。
+ *
  * 時間複雜度：O(N)
  * 空間複雜度：O(H)
-
- */
+ *
+ * 解法思路：
+ * （遞迴傳遞上下界）：
+ * 每個節點必須在 (min, max) 範圍內，左子樹上界為當前節點值，右子樹下界為當前節點值。
+ **/
 class Solution {
 private:
     bool isValidBST(TreeNode* root, long min, long max) {

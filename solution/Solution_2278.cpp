@@ -1,6 +1,6 @@
 /**
  * 題目：2278. Percentage of Letter in String
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給你一個字串 s 和一個字元 letter。返回在 s 中等於 letter 的字元所佔的百分比，
  * 向下取整到最接近的整數。
  *

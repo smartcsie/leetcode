@@ -1,9 +1,15 @@
 /**
- * 註解：待補充
+ * 題目：102. Binary Tree Level Order Traversal
+ * 難度：中等 (Medium)
+ * 描述：以層序（BFS）遍歷二元樹，回傳每層節點值組成的二維陣列。
+ *
  * 時間複雜度：O(N)
  * 空間複雜度：O(W)
-
- */
+ *
+ * 解法思路：
+ * （BFS + Queue）：
+ * 用 queue 做層序遍歷，每次處理完整的一層，把該層所有節點值收集後加入結果。
+ **/
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {

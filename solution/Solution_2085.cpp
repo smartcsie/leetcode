@@ -1,6 +1,6 @@
 /**
  * 題目：2085. Count Common Words With One Occurrence
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：計算在 words1 與 words2 中，皆「恰好出現一次」的單字數量。
  *
  * 時間複雜度：O(N+M)

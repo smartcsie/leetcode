@@ -1,6 +1,6 @@
 /**
  * 題目：3986. Number of Elapsed Seconds Between Two Times
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給定兩個時間字串 startTime 和 endTime（格式為 "HH:MM:SS"），
  * 計算從 startTime 到 endTime 經過了多少秒。
  *

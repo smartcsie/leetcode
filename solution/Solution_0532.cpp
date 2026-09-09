@@ -1,6 +1,6 @@
 /**
  * 題目：532. K-diff Pairs in an Array
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給你一個整數陣列 nums 和一個整數 k，請你在陣列中找出所有不重複的 k-diff 數對，
  * 並返回這些數對的數量。
  * k-diff 數對定義為整數對 (nums[i], nums[j])，滿足：

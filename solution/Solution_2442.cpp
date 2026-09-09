@@ -1,6 +1,6 @@
 /**
  * 題目：2442. Count Number of Distinct Integers After Reverse Operations
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給你一個正整數陣列 nums。對 nums 中的每個整數，將其數字順序反轉後加入陣列中。
  * 請返回陣列 nums 中所有「相異整數」的數目。
  *

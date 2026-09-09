@@ -1,6 +1,6 @@
 /**
  * 題目：1614. Maximum Nesting Depth of the Parentheses
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給定一個有效括號字串 s，請返回該字串的巢狀深度（即最大的括號巢狀層級）。
  *
  * 時間複雜度：O(N)

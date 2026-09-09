@@ -1,6 +1,6 @@
 /**
  * 題目：1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：在兩棵結構完全相同的樹中，找到原樹 target 節點在複製樹中的對應位置。
  *
  * 時間複雜度：O(N)

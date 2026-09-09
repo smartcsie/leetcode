@@ -1,6 +1,6 @@
 /**
  * 題目：1832. Check if the Sentence Is Pangram
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：全字母句（Pangram）指包含英語字母表中所有 26 個字母至少一次的句子。
  * 給你一個僅由小寫英文字母組成的字串 sentence，如果它是全字母句，請返回 true；否則返回 false。
  *

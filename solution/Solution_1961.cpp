@@ -1,6 +1,6 @@
 /**
  * 題目：1961. Check If String Is a Prefix of Array
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：判斷字串 s 是否為陣列 words 中前 k 個字串連接後形成的字串。
  *
  * 時間複雜度：O(S)

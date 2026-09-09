@@ -1,6 +1,6 @@
 /**
  * 題目：1497. Check If Array Pairs Are Divisible by k
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給你一個整數陣列 arr 和一個整數 k。其中 arr 的長度是偶數。
  * 請你判斷是否可以將 arr 中的元素分成 n / 2 個對，使得每對元素的和都能被 k 整除。
  * 如果可以，返回 true；否則，返回 false。

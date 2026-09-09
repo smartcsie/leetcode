@@ -1,6 +1,6 @@
 /**
  * 題目：3325. Count Substrings With K-Frequency Characters I
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給你一個字串 s 和一個整數 k，請你返回 s 中包含至少一個字元出現頻率大於或等於 k 次的子字串數量。
  *
  * 時間複雜度：O(N)

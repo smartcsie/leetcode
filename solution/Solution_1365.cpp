@@ -1,6 +1,6 @@
 /**
  * 題目：1365. How Many Numbers Are Smaller Than the Current Number
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給你一個陣列 nums，對於其中每個元素 nums[i]，請你計算陣列中有多少個數字小於它。
  * 以陣列形式返回答案。
  *

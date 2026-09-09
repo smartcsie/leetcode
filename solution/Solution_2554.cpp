@@ -1,6 +1,6 @@
 /**
  * 題目：2554. Maximum Number of Integers to Choose From a Range I
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給你一個整數陣列 banned、一個整數 n 和一個整數 maxSum。
  * 你需要從範圍 [1, n] 中選擇整數，並滿足以下條件：
  * 1. 所選的整數不能在 banned 中。

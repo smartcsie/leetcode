@@ -1,6 +1,6 @@
 /**
  * 題目：1464. Maximum Product of Two Elements in an Array
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給你一個整數陣列 nums，請你選擇兩個不同的索引 i 和 j，
  * 使 (nums[i]-1)*(nums[j]-1) 的值最大。請返回最大值。
  *

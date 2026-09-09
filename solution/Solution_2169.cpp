@@ -1,6 +1,6 @@
 /**
  * 題目：2169. Count Operations to Obtain Zero
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給定兩個非負整數 num1 和 num2。如果 num1 >= num2，
  * 則用 num1 減去 num2；否則用 num2 減去 num1。
  * 重複此操作直到其中一個數字變為 0，返回所需的總操作次數。

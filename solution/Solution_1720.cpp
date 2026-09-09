@@ -1,6 +1,6 @@
 /**
  * 題目：1720. Decode XORed Array
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：原陣列 arr 的長度為 n + 1，編碼陣列 encoded 的長度為 n。
  * 其中 encoded[i] = arr[i] ^ arr[i+1]。給定 encoded 與首項 first（即 arr[0]），
  * 請還原出原始的陣列 arr。

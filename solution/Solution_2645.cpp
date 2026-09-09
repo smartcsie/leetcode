@@ -1,6 +1,6 @@
 /**
  * 題目：2645. Minimum Additions to Make Valid String
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給你一個字串 word，你可以隨時隨地插入 'a'、'b' 或 'c'。
  * 請返回使 word 變成「由多個 "abc" 連接而成的合法字串」所需的最小插入次數。
  *

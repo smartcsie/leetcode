@@ -1,7 +1,7 @@
 /**
  * 題目：230. Kth Smallest Element in a BST (BST 中第 K 小的元素)
  * 難度：中等 (Medium)
- * 描述：待補充
+ * 描述：在 BST 中找出第 k 小的元素。
  *
  * 時間複雜度：O(H+K)
  * 空間複雜度：O(H)

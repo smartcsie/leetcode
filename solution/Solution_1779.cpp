@@ -1,6 +1,6 @@
 /**
  * 題目：1779. Find Nearest Point That Has the Same X or Y Coordinate
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給定兩個整數 x 和 y 表示你的當前位置。另有一個二維整數陣列 points，
  * 其中 points[i] = [ai, bi] 表示第 i 個點的位置。
  * 如果一個點與你的位置共享相同的 x 座標或 y 座標，則被認為是有效點。

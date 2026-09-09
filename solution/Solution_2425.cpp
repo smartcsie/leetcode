@@ -1,6 +1,6 @@
 /**
  * 題目：2425. Bitwise XOR of All Pairings
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給定兩個下標從 0 開始的陣列 nums1 和 nums2。
  * 存在另一個陣列 nums3，包含所有來自 nums1[i] 與 nums2[j] 配對的按位與 XOR 結果。
  * 請返回 nums3 中所有元素的總 XOR 值。

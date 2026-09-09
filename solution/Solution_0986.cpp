@@ -1,6 +1,6 @@
 /**
  * 題目：986. Interval List Intersections
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給定兩個由「已排序且不相交」的區間列表 firstList 和 secondList，
  * 返回這兩個區間列表的交集。
  *

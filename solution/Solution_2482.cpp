@@ -1,6 +1,6 @@
 /**
  * 題目：2482. Difference Between Ones and Zeros in Row and Column
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給你一個大小為 m x n 的二進位矩陣 grid。
  * 請你返回一個同樣大小的矩陣 diff，其中 diff[i][j] 等於：
  * (第 i 行的 1 的數量 + 第 j 列的 1 的數量) - (第 i 行的 0 的數量 + 第 j 列的 0 的數量)

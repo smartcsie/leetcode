@@ -1,6 +1,6 @@
 /**
  * 題目：1277. Count Square Submatrices with All Ones
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給你一個 m * n 的二維矩陣，矩陣元素由 0 和 1 組成，
  * 請返回該矩陣中有多少個全由 1 組成的正方形子矩陣。
  *

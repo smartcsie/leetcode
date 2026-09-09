@@ -1,6 +1,6 @@
 /**
  * 題目：1232. Check If It Is a Straight Line
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給定一個陣列 coordinates，其中 coordinates[i] = [x, y] 表示座標點，
  * 請判斷這些點是否剛好在同一直線上。
  *

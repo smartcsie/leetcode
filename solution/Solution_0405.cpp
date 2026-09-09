@@ -1,6 +1,6 @@
 /**
  * 題目：405. Convert a Number to Hexadecimal
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：將一個整數轉換為十六進位字串。負數必須以二補數 (Two's Complement) 表示。
  *
  * 時間複雜度：O(1)

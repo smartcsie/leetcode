@@ -1,6 +1,6 @@
 /**
  * 題目：599. Minimum Index Sum of Two Lists
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給定兩個字串陣列 list1 和 list2，找出同時存在於兩者中、且索引和（index sum）最小的餐廳。
  * 若有多個相同最小和的餐廳，則全部回傳。
  *

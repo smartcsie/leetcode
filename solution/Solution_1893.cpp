@@ -1,6 +1,6 @@
 /**
  * 題目：1893. Check if All the Integers in a Range Are Covered
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給你一個二維整數陣列 ranges 和兩個整數 left 和 right。
  * 如果 ranges 中的每個區間共同覆蓋了範圍 [left, right] 中的所有整數，
  * 則返回 true，否則返回 false。

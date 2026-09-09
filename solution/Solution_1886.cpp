@@ -1,5 +1,7 @@
 /**
- * 註解：待補充
+ * 題目：1886. Determine Whether Matrix Can Be Obtained By Rotation
+ * 難度：簡單 (Easy)
+ * 描述：判斷矩陣 mat 是否可以透過旋轉 0、90、180 或 270 度得到矩陣 target。
  * 時間複雜度：O(N^2)
  * 空間複雜度：O(1)
 

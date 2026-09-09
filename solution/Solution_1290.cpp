@@ -1,6 +1,6 @@
 /**
  * 題目：1290. Convert Binary Number in a Linked List to Integer
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給你一個單向鏈結串列的頭節點 head。鏈結串列中的每個節點上都存放一個 0 或 1。
  * 已知這個串列表示一個二進位數字，請返回該數字的十進位表示。
  *

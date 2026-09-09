@@ -1,6 +1,6 @@
 /**
  * 題目：2427. Number of Common Factors
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給你兩個正整數 a 和 b，返回 a 和 b 的公因數個數。
  *
  * 時間複雜度：O(min(A,B)

@@ -1,6 +1,6 @@
 /**
  * 題目：1081. Smallest Subsequence of Distinct Characters
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：回傳字典序最小的子序列，要求包含所有字元且每個字元僅出現一次。
  *
  * 時間複雜度：O(N)

@@ -1,6 +1,6 @@
 /**
  * 題目：898. Bitwise ORs of Subarrays
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給定一個整數陣列 arr，返回所有可能的子陣列位元 OR (Bitwise OR) 結果的數量。
  *
  * 時間複雜度：O(N*30)

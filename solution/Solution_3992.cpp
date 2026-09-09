@@ -1,6 +1,6 @@
 /**
  * 題目：Rearrange String to Avoid Character Pair
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：調整字串位置，使得特定的字元對 (x, y) 不會出現或符合特定排列。
  *
  * 時間複雜度：O(N)

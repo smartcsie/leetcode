@@ -1,6 +1,6 @@
 /**
  * 題目：3306. Count of Substrings Containing Every Vowel and K Consonants II
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給你一個字串 word 和一個非負整數 k。返回 word 中包含所有母音（'a'、'e'、'i'、'o'、'u'
  * 各至少一次）且子音數量「剛好」為 k 的子字串的總數。
  *

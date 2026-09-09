@@ -1,6 +1,6 @@
 /**
  * 題目：2956. Find Common Elements Between Two Arrays
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給定兩個整數陣列 nums1 和 nums2，計算：
  * - answer1：nums1 中有多少個索引 i，其元素 nums1[i] 存在於 nums2 中。
  * - answer2：nums2 中有多少個索引 i，其元素 nums2[i] 存在於 nums1 中。

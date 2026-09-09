@@ -1,6 +1,6 @@
 /**
  * 題目：1491. Average Salary Excluding the Minimum and Maximum Salary
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給你一個整數陣列 salary，代表員工的薪資，請你返回去掉最低薪資與最高薪資之後，
  * 其餘員工薪資的平均值。
  *

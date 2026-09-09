@@ -1,6 +1,6 @@
 /**
  * 題目：2571. Minimum Operations to Reduce an Integer to 0
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給你一個正整數 n。你可以進行以下操作任意次：
  * 選擇一個整數 i（滿足 0 <= i），並將 n 加上或減去 2^i。
  * 返回將 n 減到 0 所需的最少操作次數。

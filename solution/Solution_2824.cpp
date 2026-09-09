@@ -1,6 +1,6 @@
 /**
  * 題目：2824. Count Pairs Whose Sum is Less than Target
- * 難度：待補充
+ * 難度：簡單 (Easy)
  * 描述：給你一個從 0 開始編號長度為 n 的整數陣列 nums 和一個整數 target，
  * 請返回滿足 0 <= i < j < n 且 nums[i] + nums[j] < target 的下標對 (i, j) 的數量。
  *

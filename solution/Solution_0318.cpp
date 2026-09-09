@@ -1,6 +1,6 @@
 /**
  * 題目：318. Maximum Product of Word Lengths
- * 難度：待補充
+ * 難度：中等 (Medium)
  * 描述：給你一個字串陣列 words，請你計算兩字串 word[i] 和 word[j] 不包含任何相同字元時，
  * 其長度乘積的最大值（length(word[i]) * length(word[j])）。如果找不到這樣的兩個字元不重複的字串，返回 0。
  *
