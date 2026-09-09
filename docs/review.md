@@ -231,8 +231,8 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | Dp String | [C++](problems/0010.md) | O(M | O(M |
-| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | 🔴 Hard | Dp String | [C++](problems/0044.md) | O(M | O(M |
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | Dp String | [C++](problems/0010.md) | O(M) | O(M) |
+| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | 🔴 Hard | Dp String | [C++](problems/0044.md) | O(M) | O(M) |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0091.md) | O(N) | O(N) |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | 🟡 Medium | Dp Interval | [C++](problems/0095.md) | O(Catalan(N) | O(Catalan(N) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](problems/0096.md) | O(N²) | O(N) |

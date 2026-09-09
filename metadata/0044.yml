@@ -8,6 +8,7 @@ solutions:
   - Dp String
   topics:
   - dp-string
-  time: O(M
-  space: O(M
+  time: O(M)
+  space: O(M)
   familiarity: 生疏
+  tricks: null
