@@ -4849,7 +4849,7 @@
 
 <h1 id="63-unique-paths-ii">63. Unique Paths II<a class="headerlink" href="#63-unique-paths-ii" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/unique-paths-ii">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Dynamic Programming Grid Path, DP　<strong>時間:</strong> O(M<em>N)　</em><em>空間:</em><em> O(N)　</em><em>熟悉度:</em>* 🔴 生疏</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Dp Grid Path, Dynamic Programming Grid Path, DP　<strong>時間:</strong> O(M<em>N)　</em><em>空間:</em><em> O(N)　</em><em>熟悉度:</em>* 🟣 易忘</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：63. Unique Paths II</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -4880,17 +4880,6 @@
 <a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="p">};</span>
 </code></pre></div>
-<blockquote>
-<p><a href="https://leetcode.com/problems/unique-paths-ii">Unique Paths II</a><br>
-先取得size，int m = obstacleGrid.size(); int n = obstacleGrid[0].size();<br>
-起一個vector紀錄，vector<long> dp(n); dp[0] = 1;<br>
-for(int i = 0; i &lt; m;i++) {<br>
-&emsp;&emsp;&emsp;&emsp;<strong>for(int j = 0; j &lt; n;j++) {</strong> <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<strong>if(obstacleGrid[i][j]) dp[j] = 0;</strong> <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<strong>else if(j &gt; 0) dp[j] += dp[j - 1];</strong> <br>
-&emsp;&emsp;&emsp;&emsp;<strong>}</strong> <br>
-}<br></p>
-</blockquote>
 
 
 
