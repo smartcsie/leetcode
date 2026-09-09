@@ -16,17 +16,12 @@ public:
     int findMaxForm(vector<string>& strs, int m, int n) {
         // 使用二維 DP 表存儲狀態
         vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
-        for (const string& s : strs) {
-            // 統計當前字串的成本 (消耗的 0 與 1)
-            int count0 = 0, count1 = 0;
-            for (char c : s) {
-                if (c == '0') count0++;
-                else count1++;
-            }
-            // 倒序更新 DP 表，避免物品被重複選取
-            for (int i = m; i >= count0; --i) {
-                for (int j = n; j >= count1; --j) {
-                    dp[i][j] = max(dp[i][j], dp[i - count0][j - count1] + 1);
+        for(const string& s : strs) {
+            vector<int> counts(2, 0);
+            for(const char c : s) counts[c - '0']++;
+            for(int i = m; i >= counts[0]; i--) {
+                for(int j = n; j >= counts[1]; j--) {
+                    dp[i][j] = max(dp[i][j], dp[i - counts[0]][j - counts[1]] + 1);
                 }
             }
         }
