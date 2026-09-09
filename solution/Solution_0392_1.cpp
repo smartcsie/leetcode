@@ -14,29 +14,17 @@
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
-        int sLen = s.size();
-        int tLen = t.size();
-        
-        // 基礎邊界情況
-        if (sLen == 0) return true;
-        if (tLen == 0) return false;
-        
-        // dp[j] 代表 s[0...i-1] 與 t[0...j-1] 的 LCS 長度
-        vector<int> dp(tLen + 1, 0);
-        
-        for (int i = 1; i <= sLen; ++i) {
-            int pre = 0; // 用於儲存 dp[i-1][j-1] 的值
-            for (int j = 1; j <= tLen; ++j) {
-                int temp = dp[j]; // 儲存更新前的 dp[j]，即 dp[i-1][j]
-                if (s[i - 1] == t[j - 1]) {
-                    dp[j] = pre + 1;
-                } else {
-                    dp[j] = max(dp[j], dp[j - 1]);
-                }
-                pre = temp; // 更新 pre 為下一輪的 dp[i-1][j-1]
+        int m = s.size(), n = t.size();
+        // dp[i][j] = s 前 i 個字元是否為 t 前 j 個字元的子序列
+        vector<vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
+        // 空字串是任何字串的子序列
+        for (int j = 0; j <= n; j++) dp[0][j] = true;
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s[i-1] == t[j-1]) dp[i][j] = dp[i-1][j-1];  // 字元匹配，往前推
+                else dp[i][j] = dp[i][j-1];    // 不匹配，跳過 t[j-1]
             }
         }
-        
-        return dp[tLen] == sLen;
+        return dp[m][n];
     }
 };
