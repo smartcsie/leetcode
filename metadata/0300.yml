@@ -11,7 +11,7 @@ solutions:
   - binary-search-build-in
   time: O(NlogN)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 易忘
   note: '> **else *it = x;是更新lis，例如*it = 5，x = 3，用3取代5**<br>'
   tricks:
   - lower_bound
