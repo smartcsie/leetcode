@@ -5,11 +5,15 @@ solutions:
 - file: Solution_2826.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dp Lis
   - Dynamic Programming Lis
   - Longest Non-Decreasing Subsequence
   topics:
   - dp-lis
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
   is_best: true
+  related:
+  - 300
+  tricks: null

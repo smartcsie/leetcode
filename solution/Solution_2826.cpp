@@ -28,12 +28,12 @@
 class Solution {
 public:
     int minimumOperations(vector<int>& nums) {
-        vector<int> dp(4);
-        for (const int num : nums) {
-            ++dp[num];
-            dp[2] = max(dp[2], dp[1]);
-            dp[3] = max(dp[3], dp[2]);
+        vector<int> dp(4, 0);
+        for(const int& x : nums) {
+            int best = 0;
+            for (int j = 1; j <= x; j++) best = max(best, dp[j]);
+            dp[x] = best + 1;
         }
-        return nums.size() - dp[3];
+        return nums.size() - max({dp[1],dp[2],dp[3]});
     }
 };
