@@ -9,6 +9,7 @@ solutions:
   - Bit Manipulation
   topics:
   - greedy
-  time: O(1)
-  space: ''
+  time: O(logN)
+  space: O(1)
   familiarity: 易忘
+  tricks: null

@@ -32,6 +32,6 @@ solutions:
   - Two Pointers Swap
   topics:
   - two-pointers-swap
-  time: ''
-  space: ''
+  time: O(N)
+  space: O(1)
   familiarity: 熟練

@@ -19,7 +19,7 @@ solutions:
   - String
   topics:
   - string
-  time: ''
-  space: ''
+  time: O(N)
+  space: O(1)
   familiarity: 易忘
   tricks: null

@@ -18,7 +18,7 @@ solutions:
   - Dp Fibonacci
   topics:
   - dp-fibonacci
-  time: ''
-  space: ''
+  time: O(N)
+  space: O(1)
   familiarity: 練習過
   is_best: true

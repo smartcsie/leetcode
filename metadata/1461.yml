@@ -11,5 +11,5 @@ solutions:
   topics:
   - variable-size-sliding-window
   time: O(N*K)
-  space: ''
+  space: O(2^K)
   familiarity: 生疏

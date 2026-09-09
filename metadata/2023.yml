@@ -11,5 +11,5 @@ solutions:
   topics:
   - hash-table-counting
   time: O(N*L)
-  space: ''
+  space: O(N)
   familiarity: 生疏

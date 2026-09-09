@@ -21,6 +21,6 @@ solutions:
   - Fast Slow Pointers
   topics:
   - fast-slow-pointers
-  time: ''
-  space: ''
+  time: O(N)
+  space: O(1)
   familiarity: 練習過
