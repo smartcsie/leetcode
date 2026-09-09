@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（289）](#review-shengshu)　[🟣 易忘清單（72）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（289）](#review-shengshu)　[🟣 易忘清單（71）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：284 題　🟠 再練習：167 題　🟡 練習過：180 題　🟣 易忘：64 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：284 題　🟠 再練習：167 題　🟡 練習過：181 題　🟣 易忘：63 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
@@ -430,9 +430,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 72 個解法標記為易忘，建議面試前重點複習。
+目前共有 71 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（21）](#yiwang-math)　[📊 Bit Manipulation（10）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（6）](#yiwang-tree)　[🔍 Binary Search（4）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（2）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（21）](#yiwang-math)　[📊 Bit Manipulation（10）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（6）](#yiwang-tree)　[🔍 Binary Search（4）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（1）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -563,12 +563,11 @@
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Sorting Implementation, Divide and Conquer, Sorting | [C++](problems/0912.md) | O(NlogN) | O(logN) |
 
 <a id="yiwang-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（2）
+#### 🧩 Dynamic Programming（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](problems/0063.md) | O(M\*N) | O(N) |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Dp State Machine, Dynamic Programming State Machine | [C++](problems/0121.md) | O(N) | O(1) |
 
 <a id="yiwang-greedy"></a>
 #### 🧩 Greedy（8）
@@ -628,7 +627,7 @@
 | [dp-lcs](topics/dp-lcs.md) | 10 | 0 | 1 | 0 | 0 | 0 | 11 |
 | [dp-lis](topics/dp-lis.md) | 5 | 0 | 1 | 0 | 0 | 0 | 6 |
 | [dp-probability](topics/dp-probability.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [dp-state-machine](topics/dp-state-machine.md) | 6 | 0 | 0 | 1 | 0 | 0 | 7 |
+| [dp-state-machine](topics/dp-state-machine.md) | 6 | 0 | 1 | 0 | 0 | 0 | 7 |
 | [dp-string](topics/dp-string.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-tree](topics/dp-tree.md) | 3 | 0 | 1 | 0 | 0 | 0 | 4 |
