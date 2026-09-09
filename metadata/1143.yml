@@ -12,3 +12,6 @@ solutions:
   time: O(M*N)
   space: O(M*N)
   familiarity: 練習過
+  related:
+  - 583
+  tricks: null
