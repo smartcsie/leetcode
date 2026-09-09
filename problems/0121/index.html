@@ -4849,7 +4849,7 @@
 
 <h1 id="121-best-time-to-buy-and-sell-stock">121. Best Time to Buy and Sell Stock<a class="headerlink" href="#121-best-time-to-buy-and-sell-stock" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Dp State Machine, Dynamic Programming State Machine　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟣 易忘</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Dp State Machine, Dynamic Programming State Machine　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：121. Best Time to Buy and Sell Stock</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：待補充</span>
@@ -4881,6 +4881,12 @@
 <a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>buy = max(buy, -price);profit = max(profit, price);</strong><br>
+<strong>return buy + profit，不能這樣是因為要有先買後賣的順序</strong><br>
+<strong>buy keep 買進最小值，abs(buy)最小</strong><br>
+<strong>profit keep 先買後賣利潤最大</strong><br></p>
+</blockquote>
 
 
 
