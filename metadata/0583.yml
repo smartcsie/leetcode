@@ -13,5 +13,6 @@ solutions:
   familiarity: 練習過
   note: '> **兩個字串分別扣掉lcs的長度，m + n - 2*dp[m][n]**<br>'
   related:
+  - 1035
   - 1143
   tricks: null

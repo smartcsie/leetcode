@@ -12,4 +12,9 @@ solutions:
   - dp-lcs
   time: O(N*M)
   space: O(M)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> 同1143[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)'
+  related:
+  - 583
+  - 1143
+  tricks: null
