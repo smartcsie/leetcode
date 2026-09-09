@@ -245,7 +245,7 @@
 | 233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | 🔴 Hard | Dp Digit | [C++](problems/0233.md) | O(log N) | O(1) |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🟡 Medium | Dp State Machine | [C++](problems/0309.md) | O(N) | O(1) |
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | Dp Interval | [C++](problems/0312.md) | O(N³) | O(N²) |
-| 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dynamic Programming, Multi-pointers | [C++](problems/0313.md) | O(N\*K) | O(N+K) |
+| 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dp Greedy Pointer, Multi-pointers | [C++](problems/0313.md) | O(N\*K) | O(N+K) |
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | 🔴 Hard | Dp Lis | [C++](problems/0354.md) | O(N log N) | O(N) |
 | 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | 🟡 Medium | Dp Interval | [C++](problems/0375.md) | O(N³) | O(N²) |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | DP, Unbounded Knapsack (Permutation | [C++](problems/0377.md) | O(A\*N) | O(A) |
@@ -608,7 +608,7 @@
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-fibonacci](topics/dp-fibonacci.md) | 2 | 1 | 5 | 0 | 0 | 0 | 8 |
 | [dp-game-theory](topics/dp-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [dp-greedy-pointer](topics/dp-greedy-pointer.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
+| [dp-greedy-pointer](topics/dp-greedy-pointer.md) | 1 | 0 | 1 | 0 | 0 | 0 | 2 |
 | [dp-grid-path](topics/dp-grid-path.md) | 3 | 0 | 2 | 1 | 0 | 0 | 6 |
 | [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-kadane](topics/dp-kadane.md) | 2 | 1 | 2 | 0 | 0 | 0 | 5 |
@@ -620,7 +620,7 @@
 | [dp-string](topics/dp-string.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-tree](topics/dp-tree.md) | 3 | 0 | 1 | 0 | 0 | 0 | 4 |
-| [dynamic-programming](topics/dynamic-programming.md) | 5 | 0 | 0 | 1 | 0 | 0 | 6 |
+| [dynamic-programming](topics/dynamic-programming.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 2 | 0 | 4 | 2 | 5 | 0 | 13 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 0 | 10 |
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |

@@ -1,8 +1,10 @@
 # dp-greedy-pointer
 
-## 🔴 生疏（0）
+## 🔴 生疏（1）
 
-目前沒有標記為生疏的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dp Greedy Pointer, Multi-pointers | [C++](../problems/0313.md) | O(N\*K) | O(N+K) |
 
 ## 🟠 再練習（0）
 

@@ -5,12 +5,13 @@ solutions:
 - file: Solution_0313.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming
+  - Dp Greedy Pointer
   - Multi-pointers
   topics:
-  - dynamic-programming
+  - dp-greedy-pointer
   time: O(N*K)
   space: O(N+K)
+  familiarity: 生疏
   note: '> [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)
 
     > [264 Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)的擴展題<br>
@@ -18,4 +19,4 @@ solutions:
 
 
     <br><br>'
-  familiarity: 生疏
+  tricks: null
