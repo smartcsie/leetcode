@@ -13,7 +13,7 @@ solutions:
   - dp-lcs
   time: O(S*T)
   space: O(S*T)
-  familiarity: 生疏
+  familiarity: 易忘
   tricks: null
 - file: Solution_0392.cpp
   difficulty: 🟢 Easy
