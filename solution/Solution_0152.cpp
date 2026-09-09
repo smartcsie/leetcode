@@ -19,23 +19,17 @@
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {
-        if (nums.empty()) return 0;
-        
-        int max_prod = nums[0];
-        int min_prod = nums[0];
+        if(nums.empty()) return 0;
+        int mn = nums[0];
+        int mx = nums[0];
         int ans = nums[0];
-        
-        for (size_t i = 1; i < nums.size(); ++i) {
-            int prev_max = max_prod;
-            int prev_min = min_prod;
-            
-            // 使用 std::max/min 的 initializer_list 版本比較三個值
-            max_prod = max({nums[i], prev_max * nums[i], prev_min * nums[i]});
-            min_prod = min({nums[i], prev_max * nums[i], prev_min * nums[i]});
-            
-            ans = max(ans, max_prod);
+        for(int i = 1; i < nums.size(); i++) {
+            int pre_mn = mn;
+            int pre_mx = mx;
+            mx = max({nums[i], nums[i] * pre_mn, nums[i] * pre_mx});
+            mn = min({nums[i], nums[i] * pre_mn, nums[i] * pre_mx});
+            ans = max(ans, mx);
         }
-        
         return ans;
     }
 };

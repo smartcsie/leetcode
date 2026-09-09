@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0152.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming
+  - Dp Kadane
   - Array
   topics:
   - dp-kadane
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
