@@ -1,11 +1,10 @@
 # dp-knapsack
 
-## 🔴 生疏（10）
+## 🔴 生疏（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0139.md) | O(N³) | O(N) |
-| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0322.md) | O(A\*N) | O(A) |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | DP, Unbounded Knapsack (Permutation | [C++](../problems/0377.md) | O(A\*N) | O(A) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | DP, Bit Manipulation | [C++](../problems/0416.md) | O(N\*S/W) | O(S/W) |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/0494.md) | O(N\*S) | O(S) |
@@ -19,10 +18,11 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（1）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | Dp Knapsack, DP, Unbounded Knapsack | [C++](../problems/0322.md) | O(A\*N) | O(A) |
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | Dp Knapsack, DP, 0-1 Knapsack | [C++](../problems/0474.md) | O(LM\*N) | O(M\*N) |
 
 ## 🟣 易忘（1）

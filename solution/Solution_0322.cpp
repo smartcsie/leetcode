@@ -15,19 +15,16 @@
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-        // 使用 amount + 1 作為無窮大初始值
-        vector<int> dp(amount + 1, amount + 1);
+        int& n = amount;
+        vector<int> dp(n + 1, n + 1);
         dp[0] = 0;
-        
-        // 外層遍歷金額，內層遍歷硬幣 (此處順序對結果無影響)
-        for (int i = 1; i <= amount; ++i) {
-            for (int coin : coins) {
-                if (i >= coin) {
+        for(int i = 1; i <= n; i++) {
+            for(const int& coin : coins) {
+                if(i >= coin) {
                     dp[i] = min(dp[i], dp[i - coin] + 1);
                 }
             }
         }
-        
-        return (dp[amount] > amount) ? -1 : dp[amount];
+        return dp[n] > n ? -1 : dp[n];
     }
 };
