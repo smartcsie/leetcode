@@ -5,10 +5,12 @@ solutions:
 - file: Solution_0064.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dp Grid Path
   - Dynamic Programming Grid Path
   - DP
   topics:
   - dp-grid-path
   time: O(M*N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
