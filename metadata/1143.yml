@@ -12,6 +12,8 @@ solutions:
   time: O(M*N)
   space: O(M*N)
   familiarity: 練習過
+  note: '> **同1035[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)**<br>'
   related:
   - 583
+  - 1035
   tricks: null
