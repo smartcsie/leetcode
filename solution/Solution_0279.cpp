@@ -15,18 +15,13 @@
 class Solution {
 public:
     int numSquares(int n) {
-        // 使用 n + 1 作為無窮大初始值，避免 INT_MAX 相加溢位
-        vector<int> dp(n + 1, n + 1);
+        vector<int> dp(n + 1, INT_MAX);
         dp[0] = 0;
-        
-        // 遍歷所有金額 (數字)
-        for (int i = 1; i <= n; i++) {
-            // 遍歷所有可能的物品 (完全平方數 j*j)
-            for (int j = 1; j * j <= i; j++) {
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j * j <= i; j++) {
                 dp[i] = min(dp[i], dp[i - j * j] + 1);
             }
         }
-        
-        return dp[n];
+        return static_cast<int>(dp[n]);
     }
 };

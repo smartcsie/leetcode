@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（287）](#review-shengshu)　[🟣 易忘清單（71）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（286）](#review-shengshu)　[🟣 易忘清單（72）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：282 題　🟠 再練習：167 題　🟡 練習過：183 題　🟣 易忘：63 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：281 題　🟠 再練習：167 題　🟡 練習過：183 題　🟣 易忘：64 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 287 個解法標記為生疏，建議找時間重新練習。
+目前共有 286 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（6）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（84）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（6）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（83）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -227,7 +227,7 @@
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | Cycle Decomposition | [C++](problems/3551.md) | O(NlogN) | O(N) |
 
 <a id="shengshu-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（84）
+#### 🧩 Dynamic Programming（83）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -248,7 +248,6 @@
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | Dp Grid Path | [C++](problems/0221.md) | O(M | O(M |
 | 233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | 🔴 Hard | Dp Digit | [C++](problems/0233.md) | O(log N) | O(1) |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | Dynamic Programming, Math | [C++](problems/0264.md) | O(N) | O(N) |
-| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](problems/0279.md) | O(N\*√N) | O(N) |
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🟡 Medium | Dp State Machine | [C++](problems/0309.md) | O(N) | O(1) |
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | Dp Interval | [C++](problems/0312.md) | O(N³) | O(N²) |
 | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dynamic Programming, Multi-pointers | [C++](problems/0313.md) | O(N\*K) | O(N+K) |
@@ -428,9 +427,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 71 個解法標記為易忘，建議面試前重點複習。
+目前共有 72 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（21）](#yiwang-math)　[📊 Bit Manipulation（10）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（6）](#yiwang-tree)　[🔍 Binary Search（4）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（1）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（1）](#yiwang-design)　[🔢 Math（21）](#yiwang-math)　[📊 Bit Manipulation（10）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（6）](#yiwang-tree)　[🔍 Binary Search（4）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（2）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（1）
@@ -561,11 +560,12 @@
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Sorting Implementation, Divide and Conquer, Sorting | [C++](problems/0912.md) | O(NlogN) | O(logN) |
 
 <a id="yiwang-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（1）
+#### 🧩 Dynamic Programming（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](problems/0063.md) | O(M\*N) | O(N) |
+| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | Dp Knapsack, DP, Unbounded Knapsack | [C++](problems/0279.md) | O(N\*√N) | O(N) |
 
 <a id="yiwang-greedy"></a>
 #### 🧩 Greedy（8）
@@ -621,7 +621,7 @@
 | [dp-grid-path](topics/dp-grid-path.md) | 5 | 0 | 0 | 1 | 0 | 0 | 6 |
 | [dp-interval](topics/dp-interval.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [dp-kadane](topics/dp-kadane.md) | 2 | 1 | 1 | 0 | 0 | 0 | 4 |
-| [dp-knapsack](topics/dp-knapsack.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
+| [dp-knapsack](topics/dp-knapsack.md) | 11 | 0 | 0 | 1 | 0 | 0 | 12 |
 | [dp-lcs](topics/dp-lcs.md) | 10 | 0 | 1 | 0 | 0 | 0 | 11 |
 | [dp-lis](topics/dp-lis.md) | 5 | 0 | 1 | 0 | 0 | 0 | 6 |
 | [dp-probability](topics/dp-probability.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |

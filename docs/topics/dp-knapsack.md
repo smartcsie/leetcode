@@ -1,11 +1,10 @@
 # dp-knapsack
 
-## 🔴 生疏（12）
+## 🔴 生疏（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0139.md) | O(N³) | O(N) |
-| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0279.md) | O(N\*√N) | O(N) |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0322.md) | O(A\*N) | O(A) |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | DP, Unbounded Knapsack (Permutation | [C++](../problems/0377.md) | O(A\*N) | O(A) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | DP, Bit Manipulation | [C++](../problems/0416.md) | O(N\*S/W) | O(S/W) |
@@ -25,9 +24,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | Dp Knapsack, DP, Unbounded Knapsack | [C++](../problems/0279.md) | O(N\*√N) | O(N) |
 
 ## 🟢 熟悉（0）
 
