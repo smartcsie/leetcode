@@ -20,7 +20,7 @@ solutions:
   - Binary Search Find Left Bound
   topics:
   - binary-search-find-left-bound
-  time: O(R * logC)
-  space: O(1)
+  time: ''
+  space: ''
   familiarity: 練習過
   tricks: null
