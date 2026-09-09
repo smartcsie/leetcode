@@ -12,7 +12,9 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 練習過
-  note: '> **buy = max(buy, -price);profit = max(profit, price);**<br>
+  note: '> **口袋只有 0 元，買一次賣一次就結束。**<br>
+
+    > **buy = max(buy, -price);profit = max(profit, price);**<br>
 
     > **return buy + profit，不能這樣是因為要有先買後賣的順序**<br>
 

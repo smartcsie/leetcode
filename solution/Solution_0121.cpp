@@ -19,12 +19,11 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        int buy = INT_MIN;
-        int profit = 0;
+         int profit = 0;
+        int hold = INT_MIN;
         for(const int& price : prices) {
-            profit = max(profit, buy + price);
-            buy = max(buy, -price);
+            profit = max(profit, hold + prices);
+            hold = max(hold, -price);
         }
-        return  profit;
     }
 };
