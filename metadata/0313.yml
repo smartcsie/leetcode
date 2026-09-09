@@ -11,12 +11,10 @@ solutions:
   - dp-greedy-pointer
   time: O(N*K)
   space: O(N+K)
-  familiarity: 生疏
-  note: '> [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)
-
-    > [264 Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)的擴展題<br>
-
-
+  familiarity: 練習過
+  note: '> [264 Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)的擴展題<br>
 
     <br><br>'
+  related:
+  - 264
   tricks: null

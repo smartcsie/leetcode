@@ -14,29 +14,20 @@
 class Solution {
 public:
     int nthSuperUglyNumber(int n, std::vector<int>& primes) {
-        const int k = primes.size();
-        std::vector<int> indices(k, 0); // 維護 k 個指標
-        std::vector<long> uglyNums{1}; // 儲存已找到的醜數
-        
-        while (uglyNums.size() < n) {
-            std::vector<long> nexts(k);
-            // 計算當前各指標乘以對應質數的候選值
-            for (int i = 0; i < k; ++i) {
-                nexts[i] = uglyNums[indices[i]] * static_cast<long>(primes[i]);
+        int k = primes.size();
+        vector<int> idx(k, 0);
+        vector<long> uglys{1};
+        while(uglys.size() < n) {
+            vector<long> next(k);
+            for(int i = 0; i < k ; i++) {
+                next[i] = uglys[idx[i]] * static_cast<long>(primes[i]);
             }
-            
-            // 找出本次的最小候選值
-            const long next = *std::ranges::min_element(nexts);
-            
-            // 同步推進指標，若候選值相等則全部推進，避免重複
-            for (int i = 0; i < k; ++i) {
-                if (next == nexts[i]) {
-                    indices[i]++;
-                }
+            long mn = *min_element(next.begin(), next.end());
+            uglys.push_back(mn);
+            for(int i = 0; i < k ; i++) {
+                if(mn == next[i]) idx[i]++;
             }
-            uglyNums.push_back(static_cast<int>(next));
         }
-        
-        return static_cast<int>(uglyNums.back());
+        return uglys.back();
     }
 };
