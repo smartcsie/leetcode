@@ -29,13 +29,14 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        int cash = 0, hold = INT_MIN;
-        for (int price : prices) {
-            int newCash = max(cash, hold + price);
-            int newHold = max(hold, cash - price);
-            cash = newCash;
+        int profit = 0;
+        int hold = INT_MIN; 
+        for(int& price : prices) {
+            int newProfit = max(profit, hold + price);
+            int newHold = max(hold, profit - price);
+            profit = newProfit;
             hold = newHold;
         }
-        return cash;
+        return profit;
     }
 };

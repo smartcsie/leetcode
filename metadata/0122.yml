@@ -10,4 +10,16 @@ solutions:
   - dp-state-machine
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **賣掉後口袋有錢，可以拿去繼續買，**<br>
+
+    > **所以買入時從 profit - price 開始，不是從 -price 開始。**<br>
+
+    > **newProfit = max(profit, hold + price);**<br>
+
+    > **繼續不持股    今天賣掉（hold + 賣出價）
+
+    newHold = max(hold, profit - price);**<br>
+
+    > **繼續持股      今天買入（profit - 買入價）**<br>'
+  tricks: null
