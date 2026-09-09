@@ -1,10 +1,9 @@
 # dp-lcs
 
-## 🔴 生疏（8）
+## 🔴 生疏（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | Dynamic Programming Lcs, DP | [C++](../problems/0072.md) | O(N\*M) | O(N\*M) |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | Dynamic Programming Lcs, Two Strings | [C++](../problems/0097.md) | O(M \* N) | O(M \* N) |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | Dynamic Programming Lcs, DP | [C++](../problems/0115.md) | O(S\*T) | O(T) |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | Dynamic Programming Lcs, DP | [C++](../problems/0516.md) | O(N²) | O(N) |
@@ -17,10 +16,11 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（3）
+## 🟡 練習過（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | Dp Lcs, Dynamic Programming Lcs, DP | [C++](../problems/0072.md) | O(N\*M) | O(N\*M) |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming Lcs | [C++](../problems/0583.md) | O(M\*N) | O(M\*N) |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | Dp Lcs | [C++](../problems/0718.md) | O(N\*M) | O(M) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dp Lcs, Dynamic Programming Lcs | [C++](../problems/1143.md) | O(M\*N) | O(M\*N) |

@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（279）](#review-shengshu)　[🟣 易忘清單（74）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（278）](#review-shengshu)　[🟣 易忘清單（74）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：274 題　🟠 再練習：166 題　🟡 練習過：191 題　🟣 易忘：64 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：273 題　🟠 再練習：166 題　🟡 練習過：192 題　🟣 易忘：64 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 279 個解法標記為生疏，建議找時間重新練習。
+目前共有 278 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（6）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（76）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（6）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（75）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -227,13 +227,12 @@
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | Cycle Decomposition | [C++](problems/3551.md) | O(NlogN) | O(N) |
 
 <a id="shengshu-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（76）
+#### 🧩 Dynamic Programming（75）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | Dp String | [C++](problems/0010.md) | O(M | O(M |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | 🔴 Hard | Dp String | [C++](problems/0044.md) | O(M | O(M |
-| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | Dynamic Programming Lcs, DP | [C++](problems/0072.md) | O(N\*M) | O(N\*M) |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0091.md) | O(N) | O(N) |
 | 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | 🟡 Medium | Dp Interval | [C++](problems/0095.md) | O(Catalan(N) | O(Catalan(N) |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](problems/0096.md) | O(N²) | O(N) |
@@ -617,7 +616,7 @@
 | [dp-interval](topics/dp-interval.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [dp-kadane](topics/dp-kadane.md) | 2 | 1 | 2 | 0 | 0 | 0 | 5 |
 | [dp-knapsack](topics/dp-knapsack.md) | 9 | 0 | 2 | 1 | 0 | 0 | 12 |
-| [dp-lcs](topics/dp-lcs.md) | 8 | 0 | 4 | 0 | 0 | 0 | 12 |
+| [dp-lcs](topics/dp-lcs.md) | 7 | 0 | 5 | 0 | 0 | 0 | 12 |
 | [dp-lis](topics/dp-lis.md) | 5 | 0 | 1 | 0 | 0 | 0 | 6 |
 | [dp-probability](topics/dp-probability.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-state-machine](topics/dp-state-machine.md) | 5 | 0 | 2 | 0 | 0 | 0 | 7 |
