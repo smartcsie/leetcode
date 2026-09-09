@@ -17,16 +17,14 @@ public:
     int nthUglyNumber(int n) {
         vector<int> dp(n);
         dp[0] = 1;
-        int index2 = 0, index3 = 0, index5 = 0;
+        int idx2 = 0, idx3 = 0, idx5 = 0;
         for(int i = 1; i < n; i++) {
-            int next2 = dp[index2] * 2;
-            int next3 = dp[index3] * 3;
-            int next5 = dp[index5] * 5;
-            dp[i] = min({next2, next3, next5});
-            if(dp[i] == next2) index2++;
-            if(dp[i] == next3) index3++;
-            if(dp[i] == next5) index5++;
+            dp[i] = min({dp[idx2] * 2, dp[idx3] * 3, dp[idx5] * 5});
+            if(dp[i] == dp[idx2] * 2) idx2++;
+            if(dp[i] == dp[idx3] * 3) idx3++;
+            if(dp[i] == dp[idx5] * 5) idx5++;
         }
         return dp[n - 1];
+        
     }
 };

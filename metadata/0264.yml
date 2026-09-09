@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0264.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming
+  - Dp Greedy Pointer
   - Math
   topics:
-  - dynamic-programming
+  - dp-greedy-pointer
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
