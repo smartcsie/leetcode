@@ -25,4 +25,7 @@ solutions:
   time: O(N²)
   space: O(N)
   familiarity: 練習過
+  note: '> **dp[j]紀錄目前到nums[j]之lis最大長度**<br>
+
+    > **更新條件後面的數比前面的數大時，nums[j] > nums[i]**<br>'
   tricks: null
