@@ -13,11 +13,12 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dynamic Programming Kadane Algorithm, Dynamic Programming | [C++](../problems/0053.md) | O(N) | O(1) |
 
-## 🟡 練習過（1）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | Dp Kadane, Array | [C++](../problems/0152.md) | O(N) | O(1) |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dp Kadane, DP | [C++](../problems/0674.md) | O(N) | O(N) |
 
 ## 🟣 易忘（0）
 

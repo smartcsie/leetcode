@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：277 題　🟠 再練習：167 題　🟡 練習過：187 題　🟣 易忘：64 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：277 題　🟠 再練習：166 題　🟡 練習過：188 題　🟣 易忘：64 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
@@ -617,7 +617,7 @@
 | [dp-game-theory](topics/dp-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-grid-path](topics/dp-grid-path.md) | 4 | 0 | 1 | 1 | 0 | 0 | 6 |
 | [dp-interval](topics/dp-interval.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [dp-kadane](topics/dp-kadane.md) | 2 | 1 | 1 | 0 | 0 | 0 | 4 |
+| [dp-kadane](topics/dp-kadane.md) | 2 | 1 | 2 | 0 | 0 | 0 | 5 |
 | [dp-knapsack](topics/dp-knapsack.md) | 9 | 0 | 2 | 1 | 0 | 0 | 12 |
 | [dp-lcs](topics/dp-lcs.md) | 10 | 0 | 2 | 0 | 0 | 0 | 12 |
 | [dp-lis](topics/dp-lis.md) | 5 | 0 | 1 | 0 | 0 | 0 | 6 |
@@ -632,7 +632,7 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 4 | 6 | 1 | 3 | 2 | 0 | 16 |
+| [greedy](topics/greedy.md) | 4 | 5 | 2 | 3 | 2 | 0 | 16 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 3 | 2 | 3 | 0 | 1 | 0 | 9 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 3 | 2 | 0 | 0 | 0 | 0 | 5 |

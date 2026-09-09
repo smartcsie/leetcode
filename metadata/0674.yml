@@ -5,13 +5,15 @@ solutions:
 - file: Solution_0674_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Dynamic Programming
+  - Dp Kadane
   - DP
-  topics: []
+  topics:
+  - dp-kadane
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 練習過
   note: '> 注意初始化值是1'
+  tricks: null
 - file: Solution_0674.cpp
   difficulty: 🟢 Easy
   tags:
@@ -21,4 +23,5 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 練習過
+  tricks: null
