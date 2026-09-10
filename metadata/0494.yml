@@ -5,10 +5,14 @@ solutions:
 - file: Solution_0494.cpp
   difficulty: 🟡 Medium
   tags:
-  - DP
+  - Dp Knapsack
   - 0-1 Knapsack
   topics:
   - dp-knapsack
   time: O(N*S)
   space: O(S)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **通常0-1 Knapsack問題都是求最大值或是最小值**<br>
+
+    > **這一題例外是計數**<br>'
+  tricks: null

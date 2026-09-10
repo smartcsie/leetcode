@@ -17,23 +17,15 @@ class Solution {
 public:
     int findTargetSumWays(vector<int>& nums, int target) {
         int sum = accumulate(nums.begin(), nums.end(), 0);
-        
-        // 邊界條件：目標不可能達成
-        if (abs(target) > sum || (sum + target) % 2 != 0) return 0;
-        
-        int p = (sum + target) / 2;
-        
-        // dp[j] 表示湊出總和為 j 的組合數
-        vector<int> dp(p + 1, 0);
-        dp[0] = 1; // 基礎條件：總和為 0 的方法只有一種（什麼都不選）
-        
-        for (int num : nums) {
-            // 倒序遍歷，確保每個 num 只使用一次 (0/1 背包)
-            for (int j = p; j >= num; --j) {
-                dp[j] += dp[j - num];
+        int n = (sum + target) / 2;
+        if(abs(sum) > target || n != 0) return 0;
+        vector<int> dp(n + 1, 0);
+        dp[0] = 1;
+        for(const int& num : nums) {
+            for(int i = n ; i>= num; i--) {
+                dp[i] += dp[i - num];
             }
         }
-        
-        return dp[p];
+        return dp[n];
     }
 };
