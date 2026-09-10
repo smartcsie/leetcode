@@ -6,8 +6,10 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Dp Knapsack
+  - Unbounded Knapsack
   topics:
   - dp-knapsack
   time: O(D log D)
   space: O(D)
   familiarity: 生疏
+  tricks: null

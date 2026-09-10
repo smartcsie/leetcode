@@ -5,7 +5,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0139.md) | O(N³) | O(N) |
-| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | Dp Knapsack | [C++](../problems/0983.md) | O(D log D) | O(D) |
+| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0983.md) | O(D log D) | O(D) |
 | 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 Hard | Dp Knapsack | [C++](../problems/2035.md) | O(N | O(2^(N/2)) |
 
 ## 🟠 再練習（0）
