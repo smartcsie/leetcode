@@ -22,17 +22,11 @@ class Solution {
 public:
     int getMaxLen(std::vector<int>& nums) {
         int ans = 0, pos = 0, neg = 0;
-        for (const int& num : nums) {
-            // 若為 0 則歸零；否則正數長度延伸 1
-            pos = (num == 0) ? 0 : pos + 1;
-            // 若為 0 或先前沒有累積負數，則負數長度歸零；否則延伸 1
-            neg = (num == 0 || neg == 0) ? 0 : neg + 1;
-            // 遇到負數時，正負狀態互換（負負得正）
-            if (num < 0) {
-                std::swap(pos, neg);
-            }
-            // 更新歷史最大正乘積長度
-            ans = std::max(ans, pos);
+        for(const int& num : nums) {
+            pos = (num == 0) ? 0 : pos+1;
+            neg = (num == 0 || neg == 0) ? 0 : neg+1;
+            if(num < 0) swap(pos, neg);
+            ans = max(ans, pos);
         }
         return ans;
     }

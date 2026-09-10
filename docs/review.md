@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（266）](#review-shengshu)　[🟣 易忘清單（75）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（265）](#review-shengshu)　[🟣 易忘清單（75）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：261 題　🟠 再練習：166 題　🟡 練習過：203 題　🟣 易忘：65 題　🟢 熟練：285 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：260 題　🟠 再練習：166 題　🟡 練習過：204 題　🟣 易忘：65 題　🟢 熟練：285 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 266 個解法標記為生疏，建議找時間重新練習。
+目前共有 265 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（8）](#shengshu-bit-manipulation)　[🔗 String（6）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（62）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（8）](#shengshu-bit-manipulation)　[🔗 String（6）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -228,7 +228,7 @@
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | Cycle Decomposition | [C++](problems/3551.md) | O(NlogN) | O(N) |
 
 <a id="shengshu-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（62）
+#### 🧩 Dynamic Programming（61）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -284,7 +284,6 @@
 | 1434 | [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) | 🔴 Hard | Dp Digit | [C++](problems/1434.md) | O(40 | O(40 |
 | 1467 | [Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) | 🔴 Hard | Dp Probability | [C++](problems/1467.md) | O(∏(balls[i]+1)) | O(K) |
 | 1510 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 🔴 Hard | Dp Game Theory | [C++](problems/1510.md) | O(N | O(N) |
-| 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | Dp Kadane, Dynamic Programming Kadane | [C++](problems/1567.md) | O(N) | O(1) |
 | 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | Math, Dynamic Programming | [C++](problems/1641.md) | O(1) | O(1) |
 | 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | String | [C++](problems/1668.md) | O(N\*M²) | O(M) |
 | 1964 | [Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | 🔴 Hard | Dp Lis | [C++](problems/1964.md) | O(N log N) | O(N) |
@@ -604,7 +603,7 @@
 | [dp-greedy-pointer](topics/dp-greedy-pointer.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
 | [dp-grid-path](topics/dp-grid-path.md) | 3 | 0 | 2 | 1 | 0 | 0 | 6 |
 | [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [dp-kadane](topics/dp-kadane.md) | 2 | 1 | 2 | 0 | 0 | 0 | 5 |
+| [dp-kadane](topics/dp-kadane.md) | 1 | 1 | 3 | 0 | 0 | 0 | 5 |
 | [dp-knapsack](topics/dp-knapsack.md) | 4 | 0 | 8 | 0 | 0 | 0 | 12 |
 | [dp-lcs](topics/dp-lcs.md) | 5 | 0 | 6 | 0 | 0 | 0 | 11 |
 | [dp-lis](topics/dp-lis.md) | 4 | 0 | 3 | 0 | 0 | 0 | 7 |
