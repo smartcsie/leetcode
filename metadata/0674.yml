@@ -19,10 +19,10 @@ solutions:
 - file: Solution_0674.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy
+  - Array Linear Scan
   - Greedy
   topics:
-  - greedy
+  - array-linear-scan
   time: O(N)
   space: O(1)
   familiarity: 練習過
