@@ -12,5 +12,10 @@ solutions:
   - dp-knapsack
   time: O(N*√N)
   space: O(N)
-  familiarity: 易忘
+  familiarity: 練習過
+  note: '>**這是一個完全背包的變體，硬幣面額為 {1, 4, 9, 16, ...}**<br>
+
+    >**概念同322[Coin Change](https://leetcode.com/problems/coin-change/description/)**<br>'
+  related:
+  - 322
   tricks: null
