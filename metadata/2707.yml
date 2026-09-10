@@ -5,10 +5,14 @@ solutions:
 - file: Solution_2707.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming
-  - Hash Set
+  - Dp Knapsack
+  - Unbounded Knapsack
   topics:
   - dp-knapsack
   time: O(N³)
   space: O(N+D)
-  familiarity: 生疏
+  familiarity: 練習過
+  related:
+  - 279
+  - 322
+  tricks: null

@@ -26,17 +26,15 @@
 class Solution {
 public:
     int minExtraChar(string s, vector<string>& dictionary) {
-        unordered_set dicSet(dictionary.begin(), dictionary.end());
-        const int n = s.size();
-        vector<int> dp(n + 1, n);
+        unordered_set<string> dict(dictionary.begin(), dictionary.end());
+        int n = s.size();
+        vector<int> dp(n + 1, n + 1);
         dp[0] = 0;
         for(int i = 1; i <= n; i++) {
             for(int j = 0; j < i; j++) {
-                if(dicSet.count(s.substr(j, i - j))) {
-                    dp[i] = min(dp[i], dp[j]);
-                } else {
-                    dp[i] = min(dp[i], dp[j] + i - j);
-                }
+                string sub = s.substr(j, i - j);  // s[j..i-1] 這段子字串
+                if (dict.count(sub))  dp[i] = min(dp[i], dp[j]); // 這段在字典，0 個多餘字元
+                else dp[i] = min(dp[i], dp[j] + i - j); // 這段不在字典，i-j 個全算多餘
             }
         }
         return dp[n];
