@@ -256,23 +256,51 @@ def build_topic_indexes(problems, topics_out_dir):
     for fname in os.listdir(topics_out_dir):
         os.remove(os.path.join(topics_out_dir, fname))
 
-    def render_table(sub_rows):
-        lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
-                 "| --- | --- | --- | --- | --- | --- | --- |"]
+    def render_table(sub_rows, extra_cols=None, extra_map=None):
+        headers = ["#", "題目", "難度", "標籤", "解法檔案", "時間", "空間"]
+        if extra_cols:
+            headers.extend(extra_cols)
+        lines = ["| " + " | ".join(headers) + " |",
+                 "| " + " | ".join(["---"] * len(headers)) + " |"]
         for r in sub_rows:
             tags_str = escape_cell(', '.join(r['tags']))
             page_link = f"../problems/{r['number']:04d}.md"
             title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
-            lines.append(f"| {r['number']} | {title_cell} | "
-                         f"{escape_cell(r['difficulty'])} | {tags_str} | {file_cell} | "
-                         f"{escape_cell(r['time'])} | {escape_cell(r['space'])} |")
+            row = [str(r['number']), title_cell, escape_cell(r['difficulty']),
+                   tags_str, file_cell, escape_cell(r['time']), escape_cell(r['space'])]
+            if extra_cols:
+                extra_values = extra_map.get(r['number'], [''] * len(extra_cols)) if extra_map else [''] * len(extra_cols)
+                row.extend(escape_cell(v) for v in extra_values)
+            lines.append("| " + " | ".join(row) + " |")
         return lines
 
     # 手動維護的主題筆記放在 docs/notes/，跟這裡自動產生的 docs/topics/
     # 完全分開（notes/ 這支腳本永遠不會去寫入或刪除，可以放心手動編輯）。
     # topics_out_dir 通常是 ".../docs/topics"，notes_dir 是它旁邊的 ".../docs/notes"。
     notes_dir = os.path.join(os.path.dirname(os.path.normpath(topics_out_dir)), 'notes')
+
+    def load_extra_columns(topic):
+        """
+        讀取 docs/notes/{topic}.extra.yml（如果存在），格式：
+            columns: ["類型", "問法", "迴圈順序"]
+            rows:
+              39: ["Unbounded", "組合", "外層容量，內層物品"]
+        回傳 (columns, {number: [值...]})；檔案不存在就回傳 (None, None)，
+        表格產生邏輯完全不受影響。
+        """
+        path = os.path.join(notes_dir, f"{topic}.extra.yml")
+        if not os.path.exists(path):
+            return None, None
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                data = yaml.safe_load(f) or {}
+        except Exception:
+            return None, None
+        cols = data.get('columns')
+        raw_rows = data.get('rows') or {}
+        row_map = {int(k): v for k, v in raw_rows.items()}
+        return cols, row_map
 
     for topic, rows in topic_rows.items():
         rows.sort(key=lambda r: r['number'])
@@ -282,6 +310,8 @@ def build_topic_indexes(problems, topics_out_dir):
         practiced_rows = [r for r in rows if r['familiarity'] == '練習過']
         forgetful_rows = [r for r in rows if r['familiarity'] == '易忘']
         familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '再練習', '練習過', '易忘')]
+
+        extra_cols, extra_map = load_extra_columns(topic)
 
         lines = [f"# {topic}", '']
 
@@ -295,7 +325,7 @@ def build_topic_indexes(problems, topics_out_dir):
         lines.append(f"## 🔴 生疏（{len(unfamiliar_rows)}）")
         lines.append('')
         if unfamiliar_rows:
-            lines.extend(render_table(unfamiliar_rows))
+            lines.extend(render_table(unfamiliar_rows, extra_cols, extra_map))
         else:
             lines.append('目前沒有標記為生疏的解法。')
         lines.append('')
@@ -303,7 +333,7 @@ def build_topic_indexes(problems, topics_out_dir):
         lines.append(f"## 🟠 再練習（{len(redo_rows)}）")
         lines.append('')
         if redo_rows:
-            lines.extend(render_table(redo_rows))
+            lines.extend(render_table(redo_rows, extra_cols, extra_map))
         else:
             lines.append('目前沒有標記為再練習的解法。')
         lines.append('')
@@ -311,7 +341,7 @@ def build_topic_indexes(problems, topics_out_dir):
         lines.append(f"## 🟡 練習過（{len(practiced_rows)}）")
         lines.append('')
         if practiced_rows:
-            lines.extend(render_table(practiced_rows))
+            lines.extend(render_table(practiced_rows, extra_cols, extra_map))
         else:
             lines.append('目前沒有標記為練習過的解法。')
         lines.append('')
@@ -319,7 +349,7 @@ def build_topic_indexes(problems, topics_out_dir):
         lines.append(f"## 🟣 易忘（{len(forgetful_rows)}）")
         lines.append('')
         if forgetful_rows:
-            lines.extend(render_table(forgetful_rows))
+            lines.extend(render_table(forgetful_rows, extra_cols, extra_map))
         else:
             lines.append('目前沒有標記為易忘的解法。')
         lines.append('')
@@ -327,7 +357,7 @@ def build_topic_indexes(problems, topics_out_dir):
         lines.append(f"## 🟢 熟悉（{len(familiar_rows)}）")
         lines.append('')
         if familiar_rows:
-            lines.extend(render_table(familiar_rows))
+            lines.extend(render_table(familiar_rows, extra_cols, extra_map))
         else:
             lines.append('目前沒有標記為熟悉的解法。')
 
