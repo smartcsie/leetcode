@@ -13,6 +13,8 @@ solutions:
   space: O(N)
   familiarity: 練習過
   note: '> 注意初始化值是1'
+  related:
+  - 300
   tricks: null
 - file: Solution_0674.cpp
   difficulty: 🟢 Easy

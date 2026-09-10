@@ -13,6 +13,7 @@ solutions:
   space: O(N)
   familiarity: 易忘
   note: '> **else *it = x;是更新lis，例如*it = 5，x = 3，用3取代5**<br>'
+  is_best: true
   tricks:
   - lower_bound
 - file: Solution_0300_1.cpp
@@ -28,4 +29,6 @@ solutions:
   note: '> **dp[j]紀錄目前到nums[j]之lis最大長度**<br>
 
     > **更新條件後面的數比前面的數大時，nums[j] > nums[i]**<br>'
+  related:
+  - 674
   tricks: null
