@@ -5,9 +5,11 @@ solutions:
 - file: Solution_1567.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dp Kadane
   - Dynamic Programming Kadane
   topics:
   - dp-kadane
   time: O(N)
   space: O(1)
   familiarity: 生疏
+  tricks: null
