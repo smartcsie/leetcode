@@ -14,22 +14,13 @@
 class Solution {
 public:
     int combinationSum4(vector<int>& nums, int target) {
-        // 使用 unsigned int 防止累加過程中的潛在溢位
-        vector<unsigned int> dp(target + 1, 0);
-        
-        // 基礎情況：組成金額 0 的方法只有一種（不選數字）
+       vector<unsigned int> dp(target + 1, 0);
         dp[0] = 1;
-        
-        // 外層遍歷金額，內層遍歷 nums，這樣會計算出所有順序的可能性
-        for (int i = 1; i <= target; ++i) {
-            for (int num : nums) {
-                // 如果目前金額足以放下該數字
-                if (i >= num) {
-                    dp[i] += dp[i - num];
-                }
+        for(int i = 1; i <= target; i++) {
+            for(const int& num : nums) {
+                if(i >= num) dp[i] += dp[i - num];
             }
         }
-        
         return static_cast<int>(dp[target]);
     }
 };

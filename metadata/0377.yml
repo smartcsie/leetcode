@@ -11,4 +11,15 @@ solutions:
   - dp-knapsack
   time: O(A*N)
   space: O(A)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **vector<unsigned int> dp(target + 1, 0);，注意overflow**<br>
+
+    > **建立 0 到 target 的 dp 表，dp[i] = 湊出 i 的組合數。**<br>
+
+    > **湊出 0 只有一種方法（什麼都不選），作為遞推的基底。**<br>
+
+    > **從 1 到 target 逐一計算每個目標值的組合數。**<br>
+
+    > **對每個可用的數字嘗試「最後一步用 num」。**<br>'
+  tricks:
+  - overflow handle
