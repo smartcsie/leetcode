@@ -23,7 +23,7 @@
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0279.md) | O(N\*√N) | O(N) |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0322.md) | O(A\*N) | O(A) |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | Unbounded Knapsack | [C++](../problems/0377.md) | O(A\*N) | O(A) |
-| 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | Dp Knapsack, DP, 0-1 Knapsack | [C++](../problems/0474.md) | O(LM\*N) | O(M\*N) |
+| 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | Dp Knapsack, 0-1 Knapsack | [C++](../problems/0474.md) | O(LM\*N) | O(M\*N) |
 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/2707.md) | O(N³) | O(N+D) |
 
 ## 🟣 易忘（0）

@@ -14,14 +14,16 @@
 class Solution {
 public:
     int findMaxForm(vector<string>& strs, int m, int n) {
-        // 使用二維 DP 表存儲狀態
         vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
         for(const string& s : strs) {
-            vector<int> counts(2, 0);
-            for(const char c : s) counts[c - '0']++;
-            for(int i = m; i >= counts[0]; i--) {
-                for(int j = n; j >= counts[1]; j--) {
-                    dp[i][j] = max(dp[i][j], dp[i - counts[0]][j - counts[1]] + 1);
+            int zeros = 0, ones = 0;
+            for(const char c : s) {
+                if(c == '0') zeros++;
+                else ones++;
+            }
+            for(int i = m; i >= zeros; i--) {
+                for(int j = n; j >= ones; j--) {
+                    dp[i][j] = max(dp[i][j], dp[i - zeros][j - ones] + 1);
                 }
             }
         }

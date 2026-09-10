@@ -6,7 +6,6 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Dp Knapsack
-  - DP
   - 0-1 Knapsack
   topics:
   - dp-knapsack
