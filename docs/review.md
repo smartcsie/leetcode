@@ -14,7 +14,7 @@
 
 目前共有 268 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（7）](#shengshu-bit-manipulation)　[🔗 String（6）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（65）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🎨 Design（1）](#shengshu-design)　[🔢 Math（2）](#shengshu-math)　[📊 Bit Manipulation（8）](#shengshu-bit-manipulation)　[🔗 String（6）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（14）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（64）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
 
 <a id="shengshu-design"></a>
 #### 🎨 Design（1）
@@ -32,12 +32,13 @@
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](problems/0396.md) | O(N) | O(1) |
 
 <a id="shengshu-bit-manipulation"></a>
-#### 📊 Bit Manipulation（7）
+#### 📊 Bit Manipulation（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) |
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) |
 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bit Manipulation Xor, Hash Set | [C++](problems/0421.md) | O(N\*L) | O(N) |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](problems/2411.md) | O(N×30) | O(30) |
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) |
@@ -227,7 +228,7 @@
 | 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | Cycle Decomposition | [C++](problems/3551.md) | O(NlogN) | O(N) |
 
 <a id="shengshu-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（65）
+#### 🧩 Dynamic Programming（64）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -246,7 +247,6 @@
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | Dp Interval | [C++](problems/0312.md) | O(N³) | O(N²) |
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | 🔴 Hard | Dp Lis | [C++](problems/0354.md) | O(N log N) | O(N) |
 | 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | 🟡 Medium | Dp Interval | [C++](problems/0375.md) | O(N³) | O(N²) |
-| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | DP, Bit Manipulation | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) |
 | 446 | [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | 🔴 Hard | Dp Subsequences | [C++](problems/0446.md) | O(N²) | O(N²) |
 | 464 | [Can I Win](https://leetcode.com/problems/can-i-win/) | 🟡 Medium | Dp Game Theory | [C++](problems/0464.md) | O(2^N | O(2^N) |
 | 486 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | 🟡 Medium | Dp Game Theory | [C++](problems/0486.md) | O(N²) | O(N²) |
@@ -593,7 +593,7 @@
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
 | [binary-search-tree](topics/binary-search-tree.md) | 2 | 5 | 7 | 0 | 1 | 0 | 15 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 3 | 0 | 1 | 1 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 1 | 8 | 8 | 4 | 15 | 0 | 36 |
+| [bit-manipulation](topics/bit-manipulation.md) | 2 | 8 | 8 | 4 | 15 | 0 | 37 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 1 | 2 | 3 | 1 | 3 | 0 | 10 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 1 | 1 | 0 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 1 | 0 | 2 | 0 | 2 | 0 | 5 |

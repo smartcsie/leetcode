@@ -1,9 +1,10 @@
 # bit-manipulation
 
-## 🔴 生疏（1）
+## 🔴 生疏（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](../problems/0416.md) | O(N\*S/W) | O(S/W) |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |
 
 ## 🟠 再練習（7）
