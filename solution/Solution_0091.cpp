@@ -19,23 +19,17 @@
  *    - 兩種切法互斥且可以同時成立，所以 dp[i] 是兩者相加。
  * 4. 答案是 dp[0]。
  */
+
 class Solution {
-private:
-    bool isValid(char c) {
-        return c != '0';
-    }
-    bool isValid(char c1, char c2) {
-        return c1 == '1' || c1 == '2' && c2 < '7';
-    }
 public:
     int numDecodings(string s) {
         const int n = s.length();
         vector<int> dp(n + 1);
         dp[n] = 1;
-        dp[n - 1] = isValid(s[n - 1]);
+        dp[n - 1] = s[n - 1] != '0';
         for (int i = n - 2; i >= 0; --i) {
-            if (isValid(s[i])) dp[i] += dp[i + 1];
-            if (isValid(s[i], s[i + 1])) dp[i] += dp[i + 2];
+            if (s[i] != '0') dp[i] += dp[i + 1];
+            if (s[i] == '1' || s[i] == '2' && s[i + 1] < '7') dp[i] += dp[i + 2];
         }
         return dp[0];
     }

@@ -10,4 +10,5 @@ solutions:
   - dp-fibonacci
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null
