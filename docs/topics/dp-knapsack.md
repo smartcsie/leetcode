@@ -21,7 +21,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | Dp Knapsack, DP, Unbounded Knapsack | [C++](../problems/0279.md) | O(N\*√N) | O(N) |
+| 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0279.md) | O(N\*√N) | O(N) |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0322.md) | O(A\*N) | O(A) |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | DP, Unbounded Knapsack (Permutation | [C++](../problems/0377.md) | O(A\*N) | O(A) |
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | Dp Knapsack, DP, 0-1 Knapsack | [C++](../problems/0474.md) | O(LM\*N) | O(M\*N) |
