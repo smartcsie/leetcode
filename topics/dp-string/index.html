@@ -4998,6 +4998,53 @@
 <p>目前沒有標記為易忘的解法。</p>
 <h2 id="0_3">🟢 熟悉（0）<a class="headerlink" href="#0_3" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為熟悉的解法。</p>
+<hr />
+<h1 id="dp-string_1">DP String 筆記<a class="headerlink" href="#dp-string_1" title="Permanent link">&para;</a></h1>
+<p><strong>核心特徵</strong>：跟 <code>dp-lcs</code> 一樣是兩個字串同時往前走的二維 DP，但這裡
+的轉移邏輯是「<strong>字元比對規則</strong>」（<code>.</code>、<code>*</code> 這類萬用字元的特殊語意），
+不是「找共同子序列」，所以獨立成一個分類。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>特殊字元語意</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>Regular Expression Matching</td>
+<td><code>.</code> 比對任一字元；<code>*</code> 代表<strong>前一個字元</strong>重複任意次</td>
+<td><code>*</code> 的語意依賴前一個字元，轉移較複雜</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Wildcard Matching</td>
+<td><code>?</code> 比對任一字元；<code>*</code> 直接代表<strong>任意字元序列</strong></td>
+<td><code>*</code> 不依賴前一個字元，轉移相對簡單</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>10 跟 44 的 <code>*</code> 語意完全不同</strong>，這是這兩題最容易搞混、也是分類
+  存在的理由：</li>
+<li>44 的 <code>*</code>：直接代表「任意長度的任意字元序列」，轉移只需要考慮
+    「吃 0 個」（<code>dp[i][j] = dp[i][j-1]</code>）跟「吃 1 個、繼續留在原地」
+    （<code>dp[i][j] = dp[i-1][j]</code>）兩種情況。</li>
+<li>10 的 <code>*</code>：代表「<strong>前一個字元</strong>出現任意次」，多了一層要跟前一個
+    字元的匹配結果綁在一起判斷的邏輯（<code>dp[i][j] = dp[i][j-2]</code>「零次」
+    或 <code>(字元對得上) &amp;&amp; dp[i-1][j]</code>「至少一次」）。</li>
+<li><strong>44 也有一個 O(1) 空間的貪心解法</strong>（記住最後一個 <code>*</code> 的位置，
+  遇到不匹配時回頭讓 <code>*</code> 多吃一個字元），是這題比 10 更簡單的原因——
+  10 沒有等價的貪心解法，因為 <code>*</code> 的語意依賴前一個字元，貪心會漏掉
+  需要往回調整的情況。</li>
+<li><strong>兩題都要注意「第一列」的初始化</strong>：<code>dp[0][j]</code> 代表 s 是空字串，
+  只有當 p 剩下的部分都能被消耗成空（例如 44 的連續 <code>*</code>，或 10 的
+  連續 <code>x*</code> 配對）時才可能是 true，不能直接假設全部是 false。</li>
+</ul>
 
 
 

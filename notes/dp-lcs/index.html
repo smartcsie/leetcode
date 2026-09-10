@@ -21,7 +21,7 @@
     
     
       
-        <title>Knapsack 背包問題分類筆記 - LeetCode 演算法精鍊筆記</title>
+        <title>DP LCS 筆記 - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#knapsack" class="md-skip">
+        <a href="#dp-lcs" class="md-skip">
           跳轉到
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Knapsack 背包問題分類筆記
+              DP LCS 筆記
             
           </span>
         </div>
@@ -4847,147 +4847,100 @@
   
 
 
-<h1 id="knapsack">Knapsack 背包問題分類筆記<a class="headerlink" href="#knapsack" title="Permanent link">&para;</a></h1>
-<p><strong>核心判斷</strong>：先分清楚 <strong>0/1（每個物品限用一次）</strong> 還是
-<strong>Unbounded（可以無限次使用）</strong>，這個判斷決定了「內層容量迴圈要不要
-反過來跑」——這是背包問題最容易出錯、也最該優先確認的地方。</p>
+<h1 id="dp-lcs">DP LCS 筆記<a class="headerlink" href="#dp-lcs" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：兩個序列/字串<strong>同時往前走</strong>的二維 DP，狀態是 <code>dp[i][j]</code>
+（第一個序列前 i 個 vs 第二個序列前 j 個）。核心判斷永遠是「這兩個
+位置的字元對不對得上」：對得上就 <code>dp[i-1][j-1]+1</code> 往右下角斜移；
+對不上就要在「刪/插/替換」之間選一個方向轉移。</p>
 <table>
 <thead>
 <tr>
 <th>#</th>
 <th>題目</th>
-<th>類型</th>
-<th>問法</th>
-<th>迴圈順序</th>
+<th>轉移邏輯</th>
+<th>備註</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>39</td>
-<td>Combination Sum</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層容量，內層物品</td>
+<td>72</td>
+<td>Edit Distance</td>
+<td>對得上 <code>dp[i-1][j-1]</code>；對不上 <code>1+min(刪,插,替換)</code></td>
+<td>三種操作都要考慮</td>
 </tr>
 <tr>
-<td>139</td>
-<td>Word Break</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>97</td>
+<td>Interleaving String</td>
+<td><code>dp[i][j]</code> 是否能同時消耗兩個來源字串拼出目標</td>
+<td>是/否判斷，不是求最佳值</td>
 </tr>
 <tr>
-<td>279</td>
-<td>Perfect Squares</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>115</td>
+<td>Distinct Subsequences</td>
+<td>對得上時累加兩條路徑（用/不用這個字元）</td>
+<td>計數型，不是找最長</td>
 </tr>
 <tr>
-<td>322</td>
-<td>Coin Change</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>392</td>
+<td>Is Subsequence</td>
+<td>雙指標即可解，是 LCS 家族裡的簡化特例</td>
+<td>O(N) 不用真的做二維 DP</td>
 </tr>
 <tr>
-<td>377</td>
-<td>Combination Sum IV</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>516</td>
+<td>Longest Palindromic Subsequence</td>
+<td>轉換成 <code>s</code> 跟 <code>reverse(s)</code> 求 LCS</td>
+<td>迴文子序列本質是 LCS 的應用</td>
 </tr>
 <tr>
-<td>416</td>
-<td>Partition Equal Subset Sum</td>
-<td>0/1</td>
-<td>判斷</td>
-<td>外層物品，內層容量從大到小</td>
+<td>583</td>
+<td>Delete Operation for Two Strings</td>
+<td>用 LCS 長度反推：<code>m+n-2*LCS</code></td>
+<td>只能刪不能插/替換，比 72 簡化</td>
 </tr>
 <tr>
-<td>474</td>
-<td>Ones and Zeroes</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
+<td>712</td>
+<td>Minimum ASCII Delete Sum for Two Strings</td>
+<td>跟 583 同邏輯，但用 ASCII 值加總取代次數</td>
+<td>583 的加權版</td>
 </tr>
 <tr>
-<td>494</td>
-<td>Target Sum</td>
-<td>0/1</td>
-<td>計數</td>
-<td>外層物品，內層容量從大到小</td>
+<td>1035</td>
+<td>Uncrossed Lines</td>
+<td>本質就是標準 LCS，換了個「畫線不交叉」的包裝</td>
+<td>完全等價於 1143</td>
 </tr>
 <tr>
-<td>518</td>
-<td>Coin Change II</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層物品，內層容量從小到大</td>
+<td>1092</td>
+<td>Shortest Common Supersequence</td>
+<td>先求 LCS，再用 LCS 反推出完整字串</td>
+<td>求的是字串本身，不只是長度</td>
 </tr>
 <tr>
-<td>638</td>
-<td>Shopping Offers</td>
-<td>0/1 變體</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
+<td>1143</td>
+<td>Longest Common Subsequence</td>
+<td><code>dp[i][j]=dp[i-1][j-1]+1</code>（對得上）；<code>max(上,左)</code>（對不上）</td>
+<td>原型題</td>
 </tr>
 <tr>
-<td>983</td>
-<td>Minimum Cost For Tickets</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>1049</td>
-<td>Last Stone Weight II</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2035</td>
-<td>Partition Array Into Two Arrays</td>
-<td>0/1</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2707</td>
-<td>Extra Characters in a String</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>1312</td>
+<td>Minimum Insertion Steps to Make a String Palindrome</td>
+<td>跟 516 同邏輯：<code>n - LCS(s, reverse(s))</code></td>
+<td>只能插入，用 LCS 反推最少插入次數</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_1">為什麼迴圈順序這麼重要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>0/1 背包，內層容量要從大到小</strong>：因為一維滾動陣列時，<code>dp[cap]</code>
-  要參考「還沒被這一輪物品更新過」的 <code>dp[cap-weight]</code>，如果從小到大
-  跑，會讓同一個物品被誤用兩次以上（等於變成 Unbounded 背包）。</li>
-<li><strong>Unbounded 背包，內層容量從小到大</strong>（或外層容量、內層物品）：
-  因為允許同一物品重複使用，<code>dp[cap]</code> 本來就該參考「這一輪已經更新
-  過」的 <code>dp[cap-weight]</code>，讓同一物品能被連續疊加多次。</li>
-<li><strong>外層容量 vs 外層物品，決定的是「排列」還是「組合」</strong>：外層跑
-  容量、內層跑物品 → 每個容量下會把所有物品的排列組合都算進去
-  （適合「排列」類問題，例如 139、377）；外層跑物品、內層跑容量 →
-  物品的相對順序固定，不會重複算出「先選A再選B」跟「先選B再選A」
-  兩種情況（適合「組合」類問題，例如 518）。</li>
-</ul>
-<h2 id="_2">容易搞混的地方<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>638 Shopping Offers</strong>：表面上是回溯（遞迴 + 記憶化），但本質是
-  「每個優惠可以重複使用」的 Unbounded 背包變形，物品是「優惠組合」
-  不是單一物品，容量是「還需要的商品數量」（多維度）。</li>
-<li><strong>2707 跟 139 Word Break 同一個轉移結構</strong>：都是「逐一嘗試字典裡
-  的單字/子字串當作結尾」，只是 2707 多了「允許 k 個字元不在字典
-  裡」的容錯額度。</li>
-<li><strong>96、337、2707 曾經被誤放在籠統的 <code>dynamic-programming</code></strong>，之後
-  分別修正到 <code>dp-interval</code>（96，Catalan number 結構）、<code>dp-tree</code>
-  （337，跟 968/1373/2246 同組）、<code>dp-knapsack</code>（2707，跟 139 同
-  轉移結構）。</li>
+<li><strong>對不上時的轉移方向不只一種</strong>：1143（純找最長子序列）對不上時是
+  <code>max(dp[i-1][j], dp[i][j-1])</code>；72（編輯距離）對不上時是
+  <code>1+min(刪,插,替換)</code>——差別在於題目允不允許「主動修改」，不能只套
+  同一個模板。</li>
+<li><strong>516、1312 都是「跟自己的反轉版本做 LCS」</strong>：這是迴文相關題目的
+  萬用技巧——迴文子序列＝原字串跟反轉字串的最長公共子序列。</li>
+<li><strong>10、44（Regex/Wildcard Matching）不屬於這裡</strong>：雖然也是兩個字串
+  同時往前走的二維 DP，但轉移邏輯是「字元比對規則」（<code>.</code>、<code>*</code> 的
+  特殊語意），不是「找共同子序列」，分類獨立在 <code>dp-string</code>。</li>
 </ul>
 
 

@@ -5057,6 +5057,76 @@
 <p>目前沒有標記為易忘的解法。</p>
 <h2 id="0_2">🟢 熟悉（0）<a class="headerlink" href="#0_2" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為熟悉的解法。</p>
+<hr />
+<h1 id="dp-lis_1">DP LIS 筆記<a class="headerlink" href="#dp-lis_1" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：<code>dp[i]</code> 代表「以 nums[i] 結尾」的最長遞增子序列長度，
+<code>dp[i] = 1 + max(dp[j])</code>（對所有 <code>j&lt;i</code> 且 <code>nums[j]&lt;nums[i]</code>）。標準版
+O(N²)；用「Patience Sorting」（維護 tails 陣列 + 二分搜）可以優化到
+O(N log N)。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>做法</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>300</td>
+<td>Longest Increasing Subsequence</td>
+<td>O(N²) DP 或 O(N log N) patience sorting</td>
+<td>原型題，兩種複雜度都該會</td>
+</tr>
+<tr>
+<td>354</td>
+<td>Russian Doll Envelopes</td>
+<td>排序（寬升冪、同寬高降冪）後對高度做 LIS</td>
+<td>二維降成一維的排序技巧是關鍵</td>
+</tr>
+<tr>
+<td>646</td>
+<td>Maximum Length of Pair Chain</td>
+<td>排序後套用跟 LIS 一樣的轉移式</td>
+<td>O(N²) 版本邏輯直接對應 LIS</td>
+</tr>
+<tr>
+<td>673</td>
+<td>Number of Longest Increasing Subsequence</td>
+<td>額外維護 <code>count[i]</code>，長度打平就累加</td>
+<td>求數量，不只是長度</td>
+</tr>
+<tr>
+<td>1964</td>
+<td>Find the Longest Valid Obstacle Course at Each Position</td>
+<td>Patience sorting，允許相等（用 upper_bound）</td>
+<td>求「每個位置」的答案，不是只求全域最大值</td>
+</tr>
+<tr>
+<td>2826</td>
+<td>Sorting Three Groups</td>
+<td>本質是求最長不遞減子序列</td>
+<td>換皮題，看穿本質就是 LIS</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>允許相等 vs 嚴格遞增</strong>：標準 LIS 是嚴格遞增，用 <code>lower_bound</code>；
+  如果題目允許非遞減（例如 1964），要改用 <code>upper_bound</code>，這個差異
+  很容易漏掉。</li>
+<li><strong>354 排序時「同寬高要降冪」</strong>：這是這題最容易出錯的地方——如果
+  同寬也用升冪排序，會誤判成「同寬的信封可以互相嵌套」，必須讓
+  同寬的信封在排序後彼此不會被誤選進遞增子序列。</li>
+<li><strong>673 的「打平」判斷</strong>：<code>len[j]+1 == len[i]</code> 時要把 <code>count[j]</code>
+  累加進 <code>count[i]</code>（多一種達到同樣長度的方式）；<code>len[j]+1 &gt; len[i]</code>
+  時才是真的找到更長路徑，要重設 <code>count[i] = count[j]</code>，這兩種情況
+  不能搞混。</li>
+<li><strong>O(N log N) 版本不保證陣列內容是真正的 LIS</strong>：<code>tails</code> 陣列只是
+  用來快速算出「長度」，裡面存的值不代表真正的最長遞增子序列本身，
+  只是用來輔助二分搜。</li>
+</ul>
 
 
 

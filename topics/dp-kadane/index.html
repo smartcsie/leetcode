@@ -5053,6 +5053,63 @@
 <p>目前沒有標記為易忘的解法。</p>
 <h2 id="0_1">🟢 熟悉（0）<a class="headerlink" href="#0_1" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為熟悉的解法。</p>
+<hr />
+<h1 id="dp-kadane_1">DP Kadane 筆記<a class="headerlink" href="#dp-kadane_1" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：<code>dp[i]</code> 代表「以 nums[i] 結尾」的最佳值，每一步只問一個
+問題：「延續前面的子陣列比較好，還是從自己重新開始比較好？」
+<code>dp[i] = max(nums[i], dp[i-1] + nums[i])</code>。這是唯一一種<strong>完全不用回頭
+看更早的狀態</strong>、只看「前一個」就夠的 DP 形狀。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>轉移公式</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>53</td>
+<td>Maximum Subarray</td>
+<td><code>dp[i]=max(nums[i], dp[i-1]+nums[i])</code></td>
+<td>原型題</td>
+</tr>
+<tr>
+<td>152</td>
+<td>Maximum Product Subarray</td>
+<td>同時維護 <code>maxDp[i]</code>、<code>minDp[i]</code></td>
+<td>負負得正，要同時追蹤最大跟最小</td>
+</tr>
+<tr>
+<td>918</td>
+<td>Maximum Sum Circular Subarray</td>
+<td>拆成「一般最大子陣列」+「總和 - 最小子陣列」取較大</td>
+<td>環狀版本，用減法轉換成兩個 53</td>
+</tr>
+<tr>
+<td>1567</td>
+<td>Maximum Length of Subarray With Positive Product</td>
+<td>同時維護「正數結尾最長長度」「負數結尾最長長度」</td>
+<td>跟 152 同一種「雙軌追蹤」手法，但這裡追蹤長度不是乘積</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>152、1567 都需要「雙軌追蹤」</strong>：因為乘法/正負號會反轉大小關係
+  （負數乘負數變正數），只維護一個 <code>dp[i]</code> 不夠，要同時追蹤
+  「目前最大」跟「目前最小」兩條線，下一步才能正確判斷該延續哪一條。</li>
+<li><strong>918 環狀版的關鍵轉換</strong>：環狀陣列的最大子陣列和，要嘛是「不跨越
+  邊界」的一般情況（直接套 53），要嘛是「跨越邊界」——這種情況
+  等價於「總和減去中間那段最小子陣列和」，兩者取較大值即為答案；
+  邊界情況（全部都是負數）要特別排除（此時「總和-最小子陣列」會
+  誤判成 0，要直接回傳一般情況的答案）。</li>
+<li><strong>不屬於這個分類</strong>：118（Pascal's Triangle）、1641（Count Sorted
+  Vowel Strings）雖然曾經被誤分到這裡，但轉移邏輯完全不是「延續 vs
+  重新開始」，分別是組合數建構跟隔板法計數，跟 Kadane 的核心精神
+  無關，已經移出、歸回籠統的 <code>dynamic-programming</code>。</li>
+</ul>
 
 
 

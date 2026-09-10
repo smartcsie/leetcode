@@ -5016,6 +5016,63 @@
 <p>目前沒有標記為易忘的解法。</p>
 <h2 id="0_3">🟢 熟悉（0）<a class="headerlink" href="#0_3" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為熟悉的解法。</p>
+<hr />
+<h1 id="dp-probability_1">DP Probability 筆記<a class="headerlink" href="#dp-probability_1" title="Permanent link">&para;</a></h1>
+<p><strong>核心特徵</strong>：<code>dp</code> 存的是「機率值」（浮點數），不是計數或最優值。
+狀態轉移通常是把機率<strong>乘上</strong>分支機率，再加總所有可能的路徑。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>狀態</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>688</td>
+<td>Knight Probability in Chessboard</td>
+<td><code>dp[r][c]</code>：目前這步停在(r,c)的機率</td>
+<td>8個方向各自機率1/8，逐步走k次</td>
+</tr>
+<tr>
+<td>808</td>
+<td>Soup Servings</td>
+<td><code>dp(a,b)</code>：A先用完的機率</td>
+<td>記憶化搜尋，把毫升數壓縮成25的倍數</td>
+</tr>
+<tr>
+<td>837</td>
+<td>New 21 Game</td>
+<td><code>dp[i]</code>：分數曾經停在i的機率</td>
+<td>滑動視窗優化，避免O(N*maxPts)</td>
+</tr>
+<tr>
+<td>1467</td>
+<td>Probability of a Two Boxes Having The Same Number of Distinct Balls</td>
+<td>非遞推型，用DFS窮舉+組合數學</td>
+<td>分子分母都要另外算，不是單純的機率遞推</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>1467 不是傳統的「機率遞推」DP</strong>，是這個分類裡的異類：用 DFS
+  枚舉每種顏色球的分配方式，权重是組合數 <code>C(balls[i], x)</code>，分子
+  （合法分配的權重總和）除以分母（<code>C(total, total/2)</code>，所有分法
+  總數）才是最終機率。</li>
+<li><strong>808 需要邊界優化避免超時</strong>：當 n 很大時，A 用完的機率會趨近 1，
+  可以直接設一個閾值（例如 n&gt;=4800）回傳 1.0，避免對超大的 n 做
+  遞迴。</li>
+<li><strong>837 的滑動視窗要注意「什麼時候該加減」</strong>：<code>windowSum</code> 只在
+  <code>i&lt;k</code>（還在抽牌階段）時累加新的 dp 值，<code>i-maxPts</code> 對應的分數
+  如果也 <code>&lt;k</code> 才需要扣掉——因為 &gt;=k 的分數已經停牌了，不會再被
+  當作「來源」延伸。</li>
+<li><strong>688 每一步都是「機率往外分散」，不是「機率往內累積」</strong>：從目前
+  格子出發，把機率平均分給 8 個方向，跟一般 DP「從別的狀態轉移進來」
+  的方向相反，要用 <code>next[nr][nc] += dp[r][c]/8.0</code> 這種寫法。</li>
+</ul>
 
 
 

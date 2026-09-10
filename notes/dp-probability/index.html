@@ -21,7 +21,7 @@
     
     
       
-        <title>Knapsack 背包問題分類筆記 - LeetCode 演算法精鍊筆記</title>
+        <title>DP Probability 筆記 - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#knapsack" class="md-skip">
+        <a href="#dp-probability" class="md-skip">
           跳轉到
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Knapsack 背包問題分類筆記
+              DP Probability 筆記
             
           </span>
         </div>
@@ -4847,147 +4847,61 @@
   
 
 
-<h1 id="knapsack">Knapsack 背包問題分類筆記<a class="headerlink" href="#knapsack" title="Permanent link">&para;</a></h1>
-<p><strong>核心判斷</strong>：先分清楚 <strong>0/1（每個物品限用一次）</strong> 還是
-<strong>Unbounded（可以無限次使用）</strong>，這個判斷決定了「內層容量迴圈要不要
-反過來跑」——這是背包問題最容易出錯、也最該優先確認的地方。</p>
+<h1 id="dp-probability">DP Probability 筆記<a class="headerlink" href="#dp-probability" title="Permanent link">&para;</a></h1>
+<p><strong>核心特徵</strong>：<code>dp</code> 存的是「機率值」（浮點數），不是計數或最優值。
+狀態轉移通常是把機率<strong>乘上</strong>分支機率，再加總所有可能的路徑。</p>
 <table>
 <thead>
 <tr>
 <th>#</th>
 <th>題目</th>
-<th>類型</th>
-<th>問法</th>
-<th>迴圈順序</th>
+<th>狀態</th>
+<th>備註</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>39</td>
-<td>Combination Sum</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層容量，內層物品</td>
+<td>688</td>
+<td>Knight Probability in Chessboard</td>
+<td><code>dp[r][c]</code>：目前這步停在(r,c)的機率</td>
+<td>8個方向各自機率1/8，逐步走k次</td>
 </tr>
 <tr>
-<td>139</td>
-<td>Word Break</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>808</td>
+<td>Soup Servings</td>
+<td><code>dp(a,b)</code>：A先用完的機率</td>
+<td>記憶化搜尋，把毫升數壓縮成25的倍數</td>
 </tr>
 <tr>
-<td>279</td>
-<td>Perfect Squares</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>837</td>
+<td>New 21 Game</td>
+<td><code>dp[i]</code>：分數曾經停在i的機率</td>
+<td>滑動視窗優化，避免O(N*maxPts)</td>
 </tr>
 <tr>
-<td>322</td>
-<td>Coin Change</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>377</td>
-<td>Combination Sum IV</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>416</td>
-<td>Partition Equal Subset Sum</td>
-<td>0/1</td>
-<td>判斷</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>474</td>
-<td>Ones and Zeroes</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>494</td>
-<td>Target Sum</td>
-<td>0/1</td>
-<td>計數</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>518</td>
-<td>Coin Change II</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層物品，內層容量從小到大</td>
-</tr>
-<tr>
-<td>638</td>
-<td>Shopping Offers</td>
-<td>0/1 變體</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>983</td>
-<td>Minimum Cost For Tickets</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>1049</td>
-<td>Last Stone Weight II</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2035</td>
-<td>Partition Array Into Two Arrays</td>
-<td>0/1</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2707</td>
-<td>Extra Characters in a String</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>1467</td>
+<td>Probability of a Two Boxes Having The Same Number of Distinct Balls</td>
+<td>非遞推型，用DFS窮舉+組合數學</td>
+<td>分子分母都要另外算，不是單純的機率遞推</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_1">為什麼迴圈順序這麼重要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>0/1 背包，內層容量要從大到小</strong>：因為一維滾動陣列時，<code>dp[cap]</code>
-  要參考「還沒被這一輪物品更新過」的 <code>dp[cap-weight]</code>，如果從小到大
-  跑，會讓同一個物品被誤用兩次以上（等於變成 Unbounded 背包）。</li>
-<li><strong>Unbounded 背包，內層容量從小到大</strong>（或外層容量、內層物品）：
-  因為允許同一物品重複使用，<code>dp[cap]</code> 本來就該參考「這一輪已經更新
-  過」的 <code>dp[cap-weight]</code>，讓同一物品能被連續疊加多次。</li>
-<li><strong>外層容量 vs 外層物品，決定的是「排列」還是「組合」</strong>：外層跑
-  容量、內層跑物品 → 每個容量下會把所有物品的排列組合都算進去
-  （適合「排列」類問題，例如 139、377）；外層跑物品、內層跑容量 →
-  物品的相對順序固定，不會重複算出「先選A再選B」跟「先選B再選A」
-  兩種情況（適合「組合」類問題，例如 518）。</li>
-</ul>
-<h2 id="_2">容易搞混的地方<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>638 Shopping Offers</strong>：表面上是回溯（遞迴 + 記憶化），但本質是
-  「每個優惠可以重複使用」的 Unbounded 背包變形，物品是「優惠組合」
-  不是單一物品，容量是「還需要的商品數量」（多維度）。</li>
-<li><strong>2707 跟 139 Word Break 同一個轉移結構</strong>：都是「逐一嘗試字典裡
-  的單字/子字串當作結尾」，只是 2707 多了「允許 k 個字元不在字典
-  裡」的容錯額度。</li>
-<li><strong>96、337、2707 曾經被誤放在籠統的 <code>dynamic-programming</code></strong>，之後
-  分別修正到 <code>dp-interval</code>（96，Catalan number 結構）、<code>dp-tree</code>
-  （337，跟 968/1373/2246 同組）、<code>dp-knapsack</code>（2707，跟 139 同
-  轉移結構）。</li>
+<li><strong>1467 不是傳統的「機率遞推」DP</strong>，是這個分類裡的異類：用 DFS
+  枚舉每種顏色球的分配方式，权重是組合數 <code>C(balls[i], x)</code>，分子
+  （合法分配的權重總和）除以分母（<code>C(total, total/2)</code>，所有分法
+  總數）才是最終機率。</li>
+<li><strong>808 需要邊界優化避免超時</strong>：當 n 很大時，A 用完的機率會趨近 1，
+  可以直接設一個閾值（例如 n&gt;=4800）回傳 1.0，避免對超大的 n 做
+  遞迴。</li>
+<li><strong>837 的滑動視窗要注意「什麼時候該加減」</strong>：<code>windowSum</code> 只在
+  <code>i&lt;k</code>（還在抽牌階段）時累加新的 dp 值，<code>i-maxPts</code> 對應的分數
+  如果也 <code>&lt;k</code> 才需要扣掉——因為 &gt;=k 的分數已經停牌了，不會再被
+  當作「來源」延伸。</li>
+<li><strong>688 每一步都是「機率往外分散」，不是「機率往內累積」</strong>：從目前
+  格子出發，把機率平均分給 8 個方向，跟一般 DP「從別的狀態轉移進來」
+  的方向相反，要用 <code>next[nr][nc] += dp[r][c]/8.0</code> 這種寫法。</li>
 </ul>
 
 

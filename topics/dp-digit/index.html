@@ -5016,6 +5016,63 @@
 <p>目前沒有標記為易忘的解法。</p>
 <h2 id="0_3">🟢 熟悉（0）<a class="headerlink" href="#0_3" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為熟悉的解法。</p>
+<hr />
+<h1 id="dp-digit_1">DP Digit 筆記<a class="headerlink" href="#dp-digit_1" title="Permanent link">&para;</a></h1>
+<p><strong>核心概念</strong>：不是傳統的「狀態轉移表」DP，而是<strong>逐位分析</strong>——把 n
+轉成字串，對每一位固定「前綴是否還跟 n 一樣」，逐位決定這一位可以
+填哪些數字，剩下的位數用排列組合公式算出方案數。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>求什麼</th>
+<th>關鍵技巧</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>233</td>
+<td>Number of Digit One</td>
+<td>1~n 裡數字 '1' 出現次數</td>
+<td>對每個位值單獨用公式計算貢獻，不是逐一數</td>
+</tr>
+<tr>
+<td>902</td>
+<td>Numbers At Most N Given Digit Set</td>
+<td>用給定數字集合能組出幾個 &lt;=n 的數</td>
+<td>逐位比對，找不到匹配就提早結束</td>
+</tr>
+<tr>
+<td>1012</td>
+<td>Numbers With Repeated Digits</td>
+<td>1~n 裡至少一位重複的數字個數</td>
+<td>補集轉換：n 減掉「完全不重複」的個數</td>
+</tr>
+<tr>
+<td>2376</td>
+<td>Count Special Integers</td>
+<td>1~n 裡所有位都不重複的整數個數</td>
+<td>跟 1012 共用同一套排列數計算邏輯</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>1012 跟 2376 本質是同一個子問題</strong>：2376 直接算「不重複的個數」，
+  1012 是它的補集（<code>n - 不重複的個數</code>），底層都是「逐位固定前綴，
+  枚舉這一位可以填的、還沒用過的數字，用排列數公式算剩下位數的
+  方案數」。</li>
+<li><strong>233 是逐位分析法的特例</strong>：不是枚舉「這一位填什麼」，而是直接
+  用公式（<code>(n/divider)*i + min(max(n%divider-i+1,0),i)</code>）計算「某個
+  位值上 1 出現幾次」，屬於位數分析裡更數學化的一種。</li>
+<li><strong>1125、1434 曾經被誤放在這個分類</strong>：雖然題目也牽涉到「位元」的
+  概念（技能覆蓋範圍、帽子分配），但核心技巧是 Bitmask DP，不是
+  逐位分析，已修正到 <code>dp-bitmask</code>。</li>
+<li><strong>902 的「逐位比對」容易漏掉最後的 +1</strong>：如果一路比對到最後一位
+  都能完全匹配（matched 全程為 true），代表 n 本身也能用給定數字
+  集合拼出來，要額外 +1，這個邊界很容易忘記。</li>
+</ul>
 
 
 

@@ -21,7 +21,7 @@
     
     
       
-        <title>Knapsack 背包問題分類筆記 - LeetCode 演算法精鍊筆記</title>
+        <title>DP LIS 筆記 - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#knapsack" class="md-skip">
+        <a href="#dp-lis" class="md-skip">
           跳轉到
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Knapsack 背包問題分類筆記
+              DP LIS 筆記
             
           </span>
         </div>
@@ -4847,147 +4847,74 @@
   
 
 
-<h1 id="knapsack">Knapsack 背包問題分類筆記<a class="headerlink" href="#knapsack" title="Permanent link">&para;</a></h1>
-<p><strong>核心判斷</strong>：先分清楚 <strong>0/1（每個物品限用一次）</strong> 還是
-<strong>Unbounded（可以無限次使用）</strong>，這個判斷決定了「內層容量迴圈要不要
-反過來跑」——這是背包問題最容易出錯、也最該優先確認的地方。</p>
+<h1 id="dp-lis">DP LIS 筆記<a class="headerlink" href="#dp-lis" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：<code>dp[i]</code> 代表「以 nums[i] 結尾」的最長遞增子序列長度，
+<code>dp[i] = 1 + max(dp[j])</code>（對所有 <code>j&lt;i</code> 且 <code>nums[j]&lt;nums[i]</code>）。標準版
+O(N²)；用「Patience Sorting」（維護 tails 陣列 + 二分搜）可以優化到
+O(N log N)。</p>
 <table>
 <thead>
 <tr>
 <th>#</th>
 <th>題目</th>
-<th>類型</th>
-<th>問法</th>
-<th>迴圈順序</th>
+<th>做法</th>
+<th>備註</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>39</td>
-<td>Combination Sum</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層容量，內層物品</td>
+<td>300</td>
+<td>Longest Increasing Subsequence</td>
+<td>O(N²) DP 或 O(N log N) patience sorting</td>
+<td>原型題，兩種複雜度都該會</td>
 </tr>
 <tr>
-<td>139</td>
-<td>Word Break</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>354</td>
+<td>Russian Doll Envelopes</td>
+<td>排序（寬升冪、同寬高降冪）後對高度做 LIS</td>
+<td>二維降成一維的排序技巧是關鍵</td>
 </tr>
 <tr>
-<td>279</td>
-<td>Perfect Squares</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>646</td>
+<td>Maximum Length of Pair Chain</td>
+<td>排序後套用跟 LIS 一樣的轉移式</td>
+<td>O(N²) 版本邏輯直接對應 LIS</td>
 </tr>
 <tr>
-<td>322</td>
-<td>Coin Change</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>673</td>
+<td>Number of Longest Increasing Subsequence</td>
+<td>額外維護 <code>count[i]</code>，長度打平就累加</td>
+<td>求數量，不只是長度</td>
 </tr>
 <tr>
-<td>377</td>
-<td>Combination Sum IV</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>1964</td>
+<td>Find the Longest Valid Obstacle Course at Each Position</td>
+<td>Patience sorting，允許相等（用 upper_bound）</td>
+<td>求「每個位置」的答案，不是只求全域最大值</td>
 </tr>
 <tr>
-<td>416</td>
-<td>Partition Equal Subset Sum</td>
-<td>0/1</td>
-<td>判斷</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>474</td>
-<td>Ones and Zeroes</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>494</td>
-<td>Target Sum</td>
-<td>0/1</td>
-<td>計數</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>518</td>
-<td>Coin Change II</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層物品，內層容量從小到大</td>
-</tr>
-<tr>
-<td>638</td>
-<td>Shopping Offers</td>
-<td>0/1 變體</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>983</td>
-<td>Minimum Cost For Tickets</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>1049</td>
-<td>Last Stone Weight II</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2035</td>
-<td>Partition Array Into Two Arrays</td>
-<td>0/1</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2707</td>
-<td>Extra Characters in a String</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>2826</td>
+<td>Sorting Three Groups</td>
+<td>本質是求最長不遞減子序列</td>
+<td>換皮題，看穿本質就是 LIS</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_1">為什麼迴圈順序這麼重要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>0/1 背包，內層容量要從大到小</strong>：因為一維滾動陣列時，<code>dp[cap]</code>
-  要參考「還沒被這一輪物品更新過」的 <code>dp[cap-weight]</code>，如果從小到大
-  跑，會讓同一個物品被誤用兩次以上（等於變成 Unbounded 背包）。</li>
-<li><strong>Unbounded 背包，內層容量從小到大</strong>（或外層容量、內層物品）：
-  因為允許同一物品重複使用，<code>dp[cap]</code> 本來就該參考「這一輪已經更新
-  過」的 <code>dp[cap-weight]</code>，讓同一物品能被連續疊加多次。</li>
-<li><strong>外層容量 vs 外層物品，決定的是「排列」還是「組合」</strong>：外層跑
-  容量、內層跑物品 → 每個容量下會把所有物品的排列組合都算進去
-  （適合「排列」類問題，例如 139、377）；外層跑物品、內層跑容量 →
-  物品的相對順序固定，不會重複算出「先選A再選B」跟「先選B再選A」
-  兩種情況（適合「組合」類問題，例如 518）。</li>
-</ul>
-<h2 id="_2">容易搞混的地方<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>638 Shopping Offers</strong>：表面上是回溯（遞迴 + 記憶化），但本質是
-  「每個優惠可以重複使用」的 Unbounded 背包變形，物品是「優惠組合」
-  不是單一物品，容量是「還需要的商品數量」（多維度）。</li>
-<li><strong>2707 跟 139 Word Break 同一個轉移結構</strong>：都是「逐一嘗試字典裡
-  的單字/子字串當作結尾」，只是 2707 多了「允許 k 個字元不在字典
-  裡」的容錯額度。</li>
-<li><strong>96、337、2707 曾經被誤放在籠統的 <code>dynamic-programming</code></strong>，之後
-  分別修正到 <code>dp-interval</code>（96，Catalan number 結構）、<code>dp-tree</code>
-  （337，跟 968/1373/2246 同組）、<code>dp-knapsack</code>（2707，跟 139 同
-  轉移結構）。</li>
+<li><strong>允許相等 vs 嚴格遞增</strong>：標準 LIS 是嚴格遞增，用 <code>lower_bound</code>；
+  如果題目允許非遞減（例如 1964），要改用 <code>upper_bound</code>，這個差異
+  很容易漏掉。</li>
+<li><strong>354 排序時「同寬高要降冪」</strong>：這是這題最容易出錯的地方——如果
+  同寬也用升冪排序，會誤判成「同寬的信封可以互相嵌套」，必須讓
+  同寬的信封在排序後彼此不會被誤選進遞增子序列。</li>
+<li><strong>673 的「打平」判斷</strong>：<code>len[j]+1 == len[i]</code> 時要把 <code>count[j]</code>
+  累加進 <code>count[i]</code>（多一種達到同樣長度的方式）；<code>len[j]+1 &gt; len[i]</code>
+  時才是真的找到更長路徑，要重設 <code>count[i] = count[j]</code>，這兩種情況
+  不能搞混。</li>
+<li><strong>O(N log N) 版本不保證陣列內容是真正的 LIS</strong>：<code>tails</code> 陣列只是
+  用來快速算出「長度」，裡面存的值不代表真正的最長遞增子序列本身，
+  只是用來輔助二分搜。</li>
 </ul>
 
 

@@ -21,7 +21,7 @@
     
     
       
-        <title>Knapsack 背包問題分類筆記 - LeetCode 演算法精鍊筆記</title>
+        <title>DP Fibonacci 筆記 - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#knapsack" class="md-skip">
+        <a href="#dp-fibonacci" class="md-skip">
           跳轉到
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Knapsack 背包問題分類筆記
+              DP Fibonacci 筆記
             
           </span>
         </div>
@@ -4847,147 +4847,83 @@
   
 
 
-<h1 id="knapsack">Knapsack 背包問題分類筆記<a class="headerlink" href="#knapsack" title="Permanent link">&para;</a></h1>
-<p><strong>核心判斷</strong>：先分清楚 <strong>0/1（每個物品限用一次）</strong> 還是
-<strong>Unbounded（可以無限次使用）</strong>，這個判斷決定了「內層容量迴圈要不要
-反過來跑」——這是背包問題最容易出錯、也最該優先確認的地方。</p>
+<h1 id="dp-fibonacci">DP Fibonacci 筆記<a class="headerlink" href="#dp-fibonacci" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：<code>dp[i]</code> 只依賴<strong>前 1~2 個狀態</strong>，跟費氏數列 <code>f(i)=f(i-1)+f(i-2)</code>
+是同一個骨架。這是所有 DP pattern 裡最簡單的一種，通常可以用滾動變數
+把空間壓到 O(1)。</p>
 <table>
 <thead>
 <tr>
 <th>#</th>
 <th>題目</th>
-<th>類型</th>
-<th>問法</th>
-<th>迴圈順序</th>
+<th>轉移公式</th>
+<th>備註</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>39</td>
-<td>Combination Sum</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層容量，內層物品</td>
+<td>70</td>
+<td>Climbing Stairs</td>
+<td><code>dp[i]=dp[i-1]+dp[i-2]</code></td>
+<td>最單純的原型題</td>
 </tr>
 <tr>
-<td>139</td>
-<td>Word Break</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>91</td>
+<td>Decode Ways</td>
+<td><code>dp[i]=dp[i-1]*(合法)+dp[i-2]*(合法)</code></td>
+<td>多了「合法性檢查」（單一數字/兩位數字是否落在 1~26）</td>
 </tr>
 <tr>
-<td>279</td>
-<td>Perfect Squares</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>198</td>
+<td>House Robber</td>
+<td><code>dp[i]=max(dp[i-1], dp[i-2]+nums[i])</code></td>
+<td>「選或不選」型，選了就要跳過相鄰</td>
 </tr>
 <tr>
-<td>322</td>
-<td>Coin Change</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>213</td>
+<td>House Robber II</td>
+<td>拆成兩次 198（頭尾環狀，分別排除頭或尾跑一次）</td>
+<td>環狀陣列的標準拆解手法</td>
 </tr>
 <tr>
-<td>377</td>
-<td>Combination Sum IV</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>509</td>
+<td>Fibonacci Number</td>
+<td><code>f(i)=f(i-1)+f(i-2)</code></td>
+<td>費氏數列本尊</td>
 </tr>
 <tr>
-<td>416</td>
-<td>Partition Equal Subset Sum</td>
-<td>0/1</td>
-<td>判斷</td>
-<td>外層物品，內層容量從大到小</td>
+<td>746</td>
+<td>Min Cost Climbing Stairs</td>
+<td><code>dp[i]=min(dp[i-1]+cost[i-1], dp[i-2]+cost[i-2])</code></td>
+<td>70 的加權版</td>
 </tr>
 <tr>
-<td>474</td>
-<td>Ones and Zeroes</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
+<td>1137</td>
+<td>N-th Tribonacci Number</td>
+<td><code>dp[i]=dp[i-1]+dp[i-2]+dp[i-3]</code></td>
+<td>三項遞迴，同一家族的延伸</td>
 </tr>
 <tr>
-<td>494</td>
-<td>Target Sum</td>
-<td>0/1</td>
-<td>計數</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>518</td>
-<td>Coin Change II</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層物品，內層容量從小到大</td>
-</tr>
-<tr>
-<td>638</td>
-<td>Shopping Offers</td>
-<td>0/1 變體</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>983</td>
-<td>Minimum Cost For Tickets</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>1049</td>
-<td>Last Stone Weight II</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2035</td>
-<td>Partition Array Into Two Arrays</td>
-<td>0/1</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2707</td>
-<td>Extra Characters in a String</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>2266</td>
+<td>Count Number of Texts</td>
+<td>分組後對每組做「1~limit 位」的線性 DP</td>
+<td>換皮版 91，limit 依按鍵種類是 3 或 4</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_1">為什麼迴圈順序這麼重要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>0/1 背包，內層容量要從大到小</strong>：因為一維滾動陣列時，<code>dp[cap]</code>
-  要參考「還沒被這一輪物品更新過」的 <code>dp[cap-weight]</code>，如果從小到大
-  跑，會讓同一個物品被誤用兩次以上（等於變成 Unbounded 背包）。</li>
-<li><strong>Unbounded 背包，內層容量從小到大</strong>（或外層容量、內層物品）：
-  因為允許同一物品重複使用，<code>dp[cap]</code> 本來就該參考「這一輪已經更新
-  過」的 <code>dp[cap-weight]</code>，讓同一物品能被連續疊加多次。</li>
-<li><strong>外層容量 vs 外層物品，決定的是「排列」還是「組合」</strong>：外層跑
-  容量、內層跑物品 → 每個容量下會把所有物品的排列組合都算進去
-  （適合「排列」類問題，例如 139、377）；外層跑物品、內層跑容量 →
-  物品的相對順序固定，不會重複算出「先選A再選B」跟「先選B再選A」
-  兩種情況（適合「組合」類問題，例如 518）。</li>
-</ul>
-<h2 id="_2">容易搞混的地方<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>638 Shopping Offers</strong>：表面上是回溯（遞迴 + 記憶化），但本質是
-  「每個優惠可以重複使用」的 Unbounded 背包變形，物品是「優惠組合」
-  不是單一物品，容量是「還需要的商品數量」（多維度）。</li>
-<li><strong>2707 跟 139 Word Break 同一個轉移結構</strong>：都是「逐一嘗試字典裡
-  的單字/子字串當作結尾」，只是 2707 多了「允許 k 個字元不在字典
-  裡」的容錯額度。</li>
-<li><strong>96、337、2707 曾經被誤放在籠統的 <code>dynamic-programming</code></strong>，之後
-  分別修正到 <code>dp-interval</code>（96，Catalan number 結構）、<code>dp-tree</code>
-  （337，跟 968/1373/2246 同組）、<code>dp-knapsack</code>（2707，跟 139 同
-  轉移結構）。</li>
+<li><strong>213 House Robber II</strong>：不是直接對環狀陣列做 DP，而是拆成「排除
+  最後一個」「排除第一個」兩個線性子問題各跑一次 198，取較大值——
+  這個「拆環成鏈」的手法在其他環狀陣列題目也很常見。</li>
+<li><strong>2266</strong>：題目分類容易誤判成 Backtracking（因為原始出處把它跟一堆
+  回溯題放在一起），但實際上完全沒有用到「選擇 + 遞迴 + 復原」的
+  結構，是純線性 DP，只是「一次可以吃 1~limit 位」取代了「一次吃
+  1~2 位」。</li>
+<li><strong>91 Decode Ways</strong>：轉移時不是單純 <code>dp[i-1]+dp[i-2]</code>，要先檢查
+  「這位數字自己合不合法（不為 0）」「跟前一位組成兩位數合不合法
+  （10~26）」，只有合法的部分才能加進轉移式，這是這題比 70 難的
+  地方。</li>
 </ul>
 
 

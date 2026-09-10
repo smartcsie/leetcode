@@ -5057,6 +5057,83 @@
 <p>目前沒有標記為易忘的解法。</p>
 <h2 id="0_2">🟢 熟悉（0）<a class="headerlink" href="#0_2" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為熟悉的解法。</p>
+<hr />
+<h1 id="dp-state-machine_1">DP State Machine 筆記<a class="headerlink" href="#dp-state-machine_1" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：維護「目前處於哪個狀態」的多個變數（例如 持有股票/
+沒持有股票），每一步根據輸入決定要不要切換狀態，切換有成本或有
+限制。跟 Kadane 的差異是：Kadane 只有一條數值遞推，這裡要同時追蹤
+<strong>好幾個平行的狀態</strong>。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>狀態</th>
+<th>額外限制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>121</td>
+<td>Best Time to Buy and Sell Stock</td>
+<td>hold, cash</td>
+<td>只能交易一次</td>
+</tr>
+<tr>
+<td>122</td>
+<td>Best Time to Buy and Sell Stock II</td>
+<td>hold, cash</td>
+<td>無限次交易</td>
+</tr>
+<tr>
+<td>123</td>
+<td>Best Time to Buy and Sell Stock III</td>
+<td>buy1, sell1, buy2, sell2</td>
+<td>最多兩次交易，四個狀態</td>
+</tr>
+<tr>
+<td>188</td>
+<td>Best Time to Buy and Sell Stock IV</td>
+<td>buy[i], sell[i]（陣列）</td>
+<td>123 的推廣，最多 k 次交易</td>
+</tr>
+<tr>
+<td>309</td>
+<td>Best Time to Buy and Sell Stock with Cooldown</td>
+<td>hold, sold, rest</td>
+<td>賣出後隔天強制冷卻</td>
+</tr>
+<tr>
+<td>714</td>
+<td>Best Time to Buy and Sell Stock with Transaction Fee</td>
+<td>hold, cash</td>
+<td>每次交易要扣手續費</td>
+</tr>
+<tr>
+<td>926</td>
+<td>Flip String to Monotone Increasing</td>
+<td>zeros, ones</td>
+<td>字串版本，狀態是「目前處於哪個階段」</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>121 跟 122 的關鍵差異只在一行</strong>：121（只能交易一次）
+  <code>hold = max(hold, -price)</code>；122（無限次交易）
+  <code>hold = max(hold, cash - price)</code>——差在買進的本錢能不能疊加前面
+  已實現的利潤，這一行的差異決定了整個交易次數的限制。</li>
+<li><strong>309 冷卻邏輯要注意更新順序</strong>：<code>sold</code> 依賴「前一天」的 <code>hold</code>，
+  <code>rest</code> 依賴「前一天」的 <code>sold</code>，如果不先存一份 <code>prevSold</code> 就直接
+  更新，會用到「今天已經算好的新值」造成邏輯錯誤。</li>
+<li><strong>714 初始化不能用 INT_MIN</strong>：因為轉移式有 <code>-fee</code>，<code>INT_MIN + 負數</code>
+  會整數下溢，要改用 <code>-prices[0]</code> 當初始值，迴圈從第二天開始跑。</li>
+<li><strong>188 是 123 的推廣</strong>：123 把 k=2 直接展開成 4 個變數，188 用陣列
+  <code>buy[]</code>、<code>sell[]</code> 支援任意 k，轉移式完全對應（<code>buy[i]</code> 依賴同一天
+  的 <code>sell[i-1]</code>，更新順序要由小到大）。</li>
+<li><strong>926 是字串版的狀態機</strong>：不是股票問題，但「目前是 zeros 階段還是
+  ones 階段」的狀態切換邏輯跟股票的 hold/cash 是同一種形狀。</li>
+</ul>
 
 
 

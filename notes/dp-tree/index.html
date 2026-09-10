@@ -21,7 +21,7 @@
     
     
       
-        <title>Knapsack 背包問題分類筆記 - LeetCode 演算法精鍊筆記</title>
+        <title>DP Tree 筆記 - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#knapsack" class="md-skip">
+        <a href="#dp-tree" class="md-skip">
           跳轉到
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Knapsack 背包問題分類筆記
+              DP Tree 筆記
             
           </span>
         </div>
@@ -4847,147 +4847,68 @@
   
 
 
-<h1 id="knapsack">Knapsack 背包問題分類筆記<a class="headerlink" href="#knapsack" title="Permanent link">&para;</a></h1>
-<p><strong>核心判斷</strong>：先分清楚 <strong>0/1（每個物品限用一次）</strong> 還是
-<strong>Unbounded（可以無限次使用）</strong>，這個判斷決定了「內層容量迴圈要不要
-反過來跑」——這是背包問題最容易出錯、也最該優先確認的地方。</p>
+<h1 id="dp-tree">DP Tree 筆記<a class="headerlink" href="#dp-tree" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：後序遍歷（先算完左右子樹，再處理自己），每個節點根據
+「子節點回傳的資訊」決定自己該回傳什麼給父節點，最後在過程中順手
+更新一個全域答案。跟一般二維 DP 的差異是：狀態沿著<strong>樹狀結構</strong>傳遞，
+不是沿著陣列索引。</p>
 <table>
 <thead>
 <tr>
 <th>#</th>
 <th>題目</th>
-<th>類型</th>
-<th>問法</th>
-<th>迴圈順序</th>
+<th>節點回傳什麼</th>
+<th>全域答案怎麼更新</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>39</td>
-<td>Combination Sum</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層容量，內層物品</td>
+<td>337</td>
+<td>House Robber III</td>
+<td><code>{選這個節點的最大值, 不選的最大值}</code></td>
+<td>兩者取最大就是答案，不用額外變數</td>
 </tr>
 <tr>
-<td>139</td>
-<td>Word Break</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>543</td>
+<td>Diameter of Binary Tree</td>
+<td>「往下延伸的高度」</td>
+<td>每個節點檢查 <code>左高+右高</code>，更新全域 diameter</td>
 </tr>
 <tr>
-<td>279</td>
-<td>Perfect Squares</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>968</td>
+<td>Binary Tree Cameras</td>
+<td>三種狀態（未覆蓋/已覆蓋無camera/裝了camera）</td>
+<td>貪心決定何時該裝，用一個計數器累加</td>
 </tr>
 <tr>
-<td>322</td>
-<td>Coin Change</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>1373</td>
+<td>Maximum Sum BST in Binary Tree</td>
+<td><code>{是否為合法BST, 最小值, 最大值, 總和}</code></td>
+<td>合法時更新全域最大總和</td>
 </tr>
 <tr>
-<td>377</td>
-<td>Combination Sum IV</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>416</td>
-<td>Partition Equal Subset Sum</td>
-<td>0/1</td>
-<td>判斷</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>474</td>
-<td>Ones and Zeroes</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>494</td>
-<td>Target Sum</td>
-<td>0/1</td>
-<td>計數</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>518</td>
-<td>Coin Change II</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層物品，內層容量從小到大</td>
-</tr>
-<tr>
-<td>638</td>
-<td>Shopping Offers</td>
-<td>0/1 變體</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>983</td>
-<td>Minimum Cost For Tickets</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>1049</td>
-<td>Last Stone Weight II</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2035</td>
-<td>Partition Array Into Two Arrays</td>
-<td>0/1</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2707</td>
-<td>Extra Characters in a String</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>2246</td>
+<td>Difference Between Maximum and Minimum Price Sum</td>
+<td><code>{完整計價的最大路徑, 排除葉節點的最大路徑}</code></td>
+<td>組合左右子樹的兩條路徑，更新全域答案</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_1">為什麼迴圈順序這麼重要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>0/1 背包，內層容量要從大到小</strong>：因為一維滾動陣列時，<code>dp[cap]</code>
-  要參考「還沒被這一輪物品更新過」的 <code>dp[cap-weight]</code>，如果從小到大
-  跑，會讓同一個物品被誤用兩次以上（等於變成 Unbounded 背包）。</li>
-<li><strong>Unbounded 背包，內層容量從小到大</strong>（或外層容量、內層物品）：
-  因為允許同一物品重複使用，<code>dp[cap]</code> 本來就該參考「這一輪已經更新
-  過」的 <code>dp[cap-weight]</code>，讓同一物品能被連續疊加多次。</li>
-<li><strong>外層容量 vs 外層物品，決定的是「排列」還是「組合」</strong>：外層跑
-  容量、內層跑物品 → 每個容量下會把所有物品的排列組合都算進去
-  （適合「排列」類問題，例如 139、377）；外層跑物品、內層跑容量 →
-  物品的相對順序固定，不會重複算出「先選A再選B」跟「先選B再選A」
-  兩種情況（適合「組合」類問題，例如 518）。</li>
-</ul>
-<h2 id="_2">容易搞混的地方<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>638 Shopping Offers</strong>：表面上是回溯（遞迴 + 記憶化），但本質是
-  「每個優惠可以重複使用」的 Unbounded 背包變形，物品是「優惠組合」
-  不是單一物品，容量是「還需要的商品數量」（多維度）。</li>
-<li><strong>2707 跟 139 Word Break 同一個轉移結構</strong>：都是「逐一嘗試字典裡
-  的單字/子字串當作結尾」，只是 2707 多了「允許 k 個字元不在字典
-  裡」的容錯額度。</li>
-<li><strong>96、337、2707 曾經被誤放在籠統的 <code>dynamic-programming</code></strong>，之後
-  分別修正到 <code>dp-interval</code>（96，Catalan number 結構）、<code>dp-tree</code>
-  （337，跟 968/1373/2246 同組）、<code>dp-knapsack</code>（2707，跟 139 同
-  轉移結構）。</li>
+<li><strong>「往下傳遞什麼」因題而異</strong>：543 只需要一個整數（高度），968 需要
+  一個三態的狀態碼，1373 需要四個欄位打包（is_bst, min, max, sum），
+  2246 需要一對數值（含葉子/不含葉子兩種路徑和）——沒有統一模板，
+  要照題目需求設計回傳結構。</li>
+<li><strong>「更新全域答案」的時機</strong>：通常不是在葉節點或根節點做，而是<strong>每個
+  節點都要做一次</strong>（因為最佳解可能是以樹中間某個節點為端點/樞紐，
+  不一定經過根節點），這是這個分類最容易漏掉的地方。</li>
+<li><strong>337 不需要額外的全域變數</strong>：因為問題本身只問「根節點」的答案，
+  遞迴設計成「回傳兩種選擇的最大值」，根節點回傳值本身就是答案，
+  跟其他題目需要「全域變數 + 每節點更新」不同。</li>
+<li><strong>1373 需要嚴謹的「合法性」傳遞</strong>：不能只看局部（自己這個節點跟
+  左右子節點比大小），因為子樹本身可能已經不合法，一旦不合法就要
+  一路往上回報，不能被上層誤判成合法。</li>
 </ul>
 
 

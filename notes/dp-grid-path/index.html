@@ -21,7 +21,7 @@
     
     
       
-        <title>Knapsack 背包問題分類筆記 - LeetCode 演算法精鍊筆記</title>
+        <title>DP Grid Path 筆記 - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#knapsack" class="md-skip">
+        <a href="#dp-grid-path" class="md-skip">
           跳轉到
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Knapsack 背包問題分類筆記
+              DP Grid Path 筆記
             
           </span>
         </div>
@@ -4847,147 +4847,76 @@
   
 
 
-<h1 id="knapsack">Knapsack 背包問題分類筆記<a class="headerlink" href="#knapsack" title="Permanent link">&para;</a></h1>
-<p><strong>核心判斷</strong>：先分清楚 <strong>0/1（每個物品限用一次）</strong> 還是
-<strong>Unbounded（可以無限次使用）</strong>，這個判斷決定了「內層容量迴圈要不要
-反過來跑」——這是背包問題最容易出錯、也最該優先確認的地方。</p>
+<h1 id="dp-grid-path">DP Grid Path 筆記<a class="headerlink" href="#dp-grid-path" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：<code>dp[i][j]</code> 只依賴「正上方」<code>dp[i-1][j]</code> 和「左方」
+<code>dp[i][j-1]</code>（或加上「左上方」<code>dp[i-1][j-1]</code>），因為在網格上只能往
+右、往下移動，狀態轉移方向天生固定。</p>
 <table>
 <thead>
 <tr>
 <th>#</th>
 <th>題目</th>
-<th>類型</th>
-<th>問法</th>
-<th>迴圈順序</th>
+<th>轉移公式</th>
+<th>備註</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>39</td>
-<td>Combination Sum</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層容量，內層物品</td>
+<td>63</td>
+<td>Unique Paths II</td>
+<td><code>dp[i][j]=dp[i-1][j]+dp[i][j-1]</code>（有障礙物則為0）</td>
+<td>計數型</td>
 </tr>
 <tr>
-<td>139</td>
-<td>Word Break</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>64</td>
+<td>Minimum Path Sum</td>
+<td><code>dp[i][j]=grid[i][j]+min(dp[i-1][j], dp[i][j-1])</code></td>
+<td>最值型</td>
 </tr>
 <tr>
-<td>279</td>
-<td>Perfect Squares</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>85</td>
+<td>Maximal Rectangle</td>
+<td>逐行轉直方圖 + Largest Rectangle in Histogram</td>
+<td>降維成一維問題重複求解</td>
 </tr>
 <tr>
-<td>322</td>
-<td>Coin Change</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>120</td>
+<td>Triangle</td>
+<td><code>dp[j]=triangle[i][j]+min(dp[j], dp[j+1])</code>（由下往上）</td>
+<td>由下往上推比由上往下更簡潔</td>
 </tr>
 <tr>
-<td>377</td>
-<td>Combination Sum IV</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>221</td>
+<td>Maximal Square</td>
+<td><code>dp[i][j]=min(上,左,左上)+1</code>（取三者最小值）</td>
+<td>正方形要三個方向都滿足，取最小</td>
 </tr>
 <tr>
-<td>416</td>
-<td>Partition Equal Subset Sum</td>
-<td>0/1</td>
-<td>判斷</td>
-<td>外層物品，內層容量從大到小</td>
+<td>931</td>
+<td>Minimum Falling Path Sum</td>
+<td><code>dp[j]=matrix[i][j]+min(上方三格)</code></td>
+<td>允許左下、正下、右下三個方向</td>
 </tr>
 <tr>
-<td>474</td>
-<td>Ones and Zeroes</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>494</td>
-<td>Target Sum</td>
-<td>0/1</td>
-<td>計數</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>518</td>
-<td>Coin Change II</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層物品，內層容量從小到大</td>
-</tr>
-<tr>
-<td>638</td>
-<td>Shopping Offers</td>
-<td>0/1 變體</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>983</td>
-<td>Minimum Cost For Tickets</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>1049</td>
-<td>Last Stone Weight II</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2035</td>
-<td>Partition Array Into Two Arrays</td>
-<td>0/1</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2707</td>
-<td>Extra Characters in a String</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>1277</td>
+<td>Count Square Submatrices with All Ones</td>
+<td>跟 221 同一個轉移式，只是計數不是求最大</td>
+<td>dp值本身就是「以此為右下角的正方形數量」</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_1">為什麼迴圈順序這麼重要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>0/1 背包，內層容量要從大到小</strong>：因為一維滾動陣列時，<code>dp[cap]</code>
-  要參考「還沒被這一輪物品更新過」的 <code>dp[cap-weight]</code>，如果從小到大
-  跑，會讓同一個物品被誤用兩次以上（等於變成 Unbounded 背包）。</li>
-<li><strong>Unbounded 背包，內層容量從小到大</strong>（或外層容量、內層物品）：
-  因為允許同一物品重複使用，<code>dp[cap]</code> 本來就該參考「這一輪已經更新
-  過」的 <code>dp[cap-weight]</code>，讓同一物品能被連續疊加多次。</li>
-<li><strong>外層容量 vs 外層物品，決定的是「排列」還是「組合」</strong>：外層跑
-  容量、內層跑物品 → 每個容量下會把所有物品的排列組合都算進去
-  （適合「排列」類問題，例如 139、377）；外層跑物品、內層跑容量 →
-  物品的相對順序固定，不會重複算出「先選A再選B」跟「先選B再選A」
-  兩種情況（適合「組合」類問題，例如 518）。</li>
-</ul>
-<h2 id="_2">容易搞混的地方<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>638 Shopping Offers</strong>：表面上是回溯（遞迴 + 記憶化），但本質是
-  「每個優惠可以重複使用」的 Unbounded 背包變形，物品是「優惠組合」
-  不是單一物品，容量是「還需要的商品數量」（多維度）。</li>
-<li><strong>2707 跟 139 Word Break 同一個轉移結構</strong>：都是「逐一嘗試字典裡
-  的單字/子字串當作結尾」，只是 2707 多了「允許 k 個字元不在字典
-  裡」的容錯額度。</li>
-<li><strong>96、337、2707 曾經被誤放在籠統的 <code>dynamic-programming</code></strong>，之後
-  分別修正到 <code>dp-interval</code>（96，Catalan number 結構）、<code>dp-tree</code>
-  （337，跟 968/1373/2246 同組）、<code>dp-knapsack</code>（2707，跟 139 同
-  轉移結構）。</li>
+<li><strong>221 跟 1277 的轉移式幾乎一樣</strong>：221 要的是「最大邊長」（取
+  min+1 後跟全域最大值比較），1277 要的是「總數」（把每個位置的
+  dp 值直接加總，因為 dp[i][j] 本身就代表「以這裡為右下角，能組成
+  幾個正方形」）。</li>
+<li><strong>85 是這個分類裡最特殊的一題</strong>：本質是把二維問題拆解成「逐行
+  維護一個直方圖，每行都做一次一維的 Largest Rectangle in
+  Histogram」，不是單純的二維 DP 轉移，用到單調堆疊技巧。</li>
+<li><strong>由上往下 vs 由下往上</strong>：大部分網格 DP 是由上往下推（起點在左上、
+  終點在右下），但 120 Triangle 由下往上推反而更簡潔（不用處理
+  「每列長度不同」的邊界問題）。</li>
 </ul>
 
 

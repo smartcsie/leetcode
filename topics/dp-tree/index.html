@@ -5030,6 +5030,70 @@
 <p>目前沒有標記為易忘的解法。</p>
 <h2 id="0_2">🟢 熟悉（0）<a class="headerlink" href="#0_2" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為熟悉的解法。</p>
+<hr />
+<h1 id="dp-tree_1">DP Tree 筆記<a class="headerlink" href="#dp-tree_1" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：後序遍歷（先算完左右子樹，再處理自己），每個節點根據
+「子節點回傳的資訊」決定自己該回傳什麼給父節點，最後在過程中順手
+更新一個全域答案。跟一般二維 DP 的差異是：狀態沿著<strong>樹狀結構</strong>傳遞，
+不是沿著陣列索引。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>節點回傳什麼</th>
+<th>全域答案怎麼更新</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>337</td>
+<td>House Robber III</td>
+<td><code>{選這個節點的最大值, 不選的最大值}</code></td>
+<td>兩者取最大就是答案，不用額外變數</td>
+</tr>
+<tr>
+<td>543</td>
+<td>Diameter of Binary Tree</td>
+<td>「往下延伸的高度」</td>
+<td>每個節點檢查 <code>左高+右高</code>，更新全域 diameter</td>
+</tr>
+<tr>
+<td>968</td>
+<td>Binary Tree Cameras</td>
+<td>三種狀態（未覆蓋/已覆蓋無camera/裝了camera）</td>
+<td>貪心決定何時該裝，用一個計數器累加</td>
+</tr>
+<tr>
+<td>1373</td>
+<td>Maximum Sum BST in Binary Tree</td>
+<td><code>{是否為合法BST, 最小值, 最大值, 總和}</code></td>
+<td>合法時更新全域最大總和</td>
+</tr>
+<tr>
+<td>2246</td>
+<td>Difference Between Maximum and Minimum Price Sum</td>
+<td><code>{完整計價的最大路徑, 排除葉節點的最大路徑}</code></td>
+<td>組合左右子樹的兩條路徑，更新全域答案</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>「往下傳遞什麼」因題而異</strong>：543 只需要一個整數（高度），968 需要
+  一個三態的狀態碼，1373 需要四個欄位打包（is_bst, min, max, sum），
+  2246 需要一對數值（含葉子/不含葉子兩種路徑和）——沒有統一模板，
+  要照題目需求設計回傳結構。</li>
+<li><strong>「更新全域答案」的時機</strong>：通常不是在葉節點或根節點做，而是<strong>每個
+  節點都要做一次</strong>（因為最佳解可能是以樹中間某個節點為端點/樞紐，
+  不一定經過根節點），這是這個分類最容易漏掉的地方。</li>
+<li><strong>337 不需要額外的全域變數</strong>：因為問題本身只問「根節點」的答案，
+  遞迴設計成「回傳兩種選擇的最大值」，根節點回傳值本身就是答案，
+  跟其他題目需要「全域變數 + 每節點更新」不同。</li>
+<li><strong>1373 需要嚴謹的「合法性」傳遞</strong>：不能只看局部（自己這個節點跟
+  左右子節點比大小），因為子樹本身可能已經不合法，一旦不合法就要
+  一路往上回報，不能被上層誤判成合法。</li>
+</ul>
 
 
 

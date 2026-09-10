@@ -21,7 +21,7 @@
     
     
       
-        <title>Knapsack 背包問題分類筆記 - LeetCode 演算法精鍊筆記</title>
+        <title>DP State Machine 筆記 - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#knapsack" class="md-skip">
+        <a href="#dp-state-machine" class="md-skip">
           跳轉到
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Knapsack 背包問題分類筆記
+              DP State Machine 筆記
             
           </span>
         </div>
@@ -4847,147 +4847,81 @@
   
 
 
-<h1 id="knapsack">Knapsack 背包問題分類筆記<a class="headerlink" href="#knapsack" title="Permanent link">&para;</a></h1>
-<p><strong>核心判斷</strong>：先分清楚 <strong>0/1（每個物品限用一次）</strong> 還是
-<strong>Unbounded（可以無限次使用）</strong>，這個判斷決定了「內層容量迴圈要不要
-反過來跑」——這是背包問題最容易出錯、也最該優先確認的地方。</p>
+<h1 id="dp-state-machine">DP State Machine 筆記<a class="headerlink" href="#dp-state-machine" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：維護「目前處於哪個狀態」的多個變數（例如 持有股票/
+沒持有股票），每一步根據輸入決定要不要切換狀態，切換有成本或有
+限制。跟 Kadane 的差異是：Kadane 只有一條數值遞推，這裡要同時追蹤
+<strong>好幾個平行的狀態</strong>。</p>
 <table>
 <thead>
 <tr>
 <th>#</th>
 <th>題目</th>
-<th>類型</th>
-<th>問法</th>
-<th>迴圈順序</th>
+<th>狀態</th>
+<th>額外限制</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>39</td>
-<td>Combination Sum</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層容量，內層物品</td>
+<td>121</td>
+<td>Best Time to Buy and Sell Stock</td>
+<td>hold, cash</td>
+<td>只能交易一次</td>
 </tr>
 <tr>
-<td>139</td>
-<td>Word Break</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>122</td>
+<td>Best Time to Buy and Sell Stock II</td>
+<td>hold, cash</td>
+<td>無限次交易</td>
 </tr>
 <tr>
-<td>279</td>
-<td>Perfect Squares</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>123</td>
+<td>Best Time to Buy and Sell Stock III</td>
+<td>buy1, sell1, buy2, sell2</td>
+<td>最多兩次交易，四個狀態</td>
 </tr>
 <tr>
-<td>322</td>
-<td>Coin Change</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>188</td>
+<td>Best Time to Buy and Sell Stock IV</td>
+<td>buy[i], sell[i]（陣列）</td>
+<td>123 的推廣，最多 k 次交易</td>
 </tr>
 <tr>
-<td>377</td>
-<td>Combination Sum IV</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>309</td>
+<td>Best Time to Buy and Sell Stock with Cooldown</td>
+<td>hold, sold, rest</td>
+<td>賣出後隔天強制冷卻</td>
 </tr>
 <tr>
-<td>416</td>
-<td>Partition Equal Subset Sum</td>
-<td>0/1</td>
-<td>判斷</td>
-<td>外層物品，內層容量從大到小</td>
+<td>714</td>
+<td>Best Time to Buy and Sell Stock with Transaction Fee</td>
+<td>hold, cash</td>
+<td>每次交易要扣手續費</td>
 </tr>
 <tr>
-<td>474</td>
-<td>Ones and Zeroes</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>494</td>
-<td>Target Sum</td>
-<td>0/1</td>
-<td>計數</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>518</td>
-<td>Coin Change II</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層物品，內層容量從小到大</td>
-</tr>
-<tr>
-<td>638</td>
-<td>Shopping Offers</td>
-<td>0/1 變體</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>983</td>
-<td>Minimum Cost For Tickets</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>1049</td>
-<td>Last Stone Weight II</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2035</td>
-<td>Partition Array Into Two Arrays</td>
-<td>0/1</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2707</td>
-<td>Extra Characters in a String</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>926</td>
+<td>Flip String to Monotone Increasing</td>
+<td>zeros, ones</td>
+<td>字串版本，狀態是「目前處於哪個階段」</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_1">為什麼迴圈順序這麼重要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>0/1 背包，內層容量要從大到小</strong>：因為一維滾動陣列時，<code>dp[cap]</code>
-  要參考「還沒被這一輪物品更新過」的 <code>dp[cap-weight]</code>，如果從小到大
-  跑，會讓同一個物品被誤用兩次以上（等於變成 Unbounded 背包）。</li>
-<li><strong>Unbounded 背包，內層容量從小到大</strong>（或外層容量、內層物品）：
-  因為允許同一物品重複使用，<code>dp[cap]</code> 本來就該參考「這一輪已經更新
-  過」的 <code>dp[cap-weight]</code>，讓同一物品能被連續疊加多次。</li>
-<li><strong>外層容量 vs 外層物品，決定的是「排列」還是「組合」</strong>：外層跑
-  容量、內層跑物品 → 每個容量下會把所有物品的排列組合都算進去
-  （適合「排列」類問題，例如 139、377）；外層跑物品、內層跑容量 →
-  物品的相對順序固定，不會重複算出「先選A再選B」跟「先選B再選A」
-  兩種情況（適合「組合」類問題，例如 518）。</li>
-</ul>
-<h2 id="_2">容易搞混的地方<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>638 Shopping Offers</strong>：表面上是回溯（遞迴 + 記憶化），但本質是
-  「每個優惠可以重複使用」的 Unbounded 背包變形，物品是「優惠組合」
-  不是單一物品，容量是「還需要的商品數量」（多維度）。</li>
-<li><strong>2707 跟 139 Word Break 同一個轉移結構</strong>：都是「逐一嘗試字典裡
-  的單字/子字串當作結尾」，只是 2707 多了「允許 k 個字元不在字典
-  裡」的容錯額度。</li>
-<li><strong>96、337、2707 曾經被誤放在籠統的 <code>dynamic-programming</code></strong>，之後
-  分別修正到 <code>dp-interval</code>（96，Catalan number 結構）、<code>dp-tree</code>
-  （337，跟 968/1373/2246 同組）、<code>dp-knapsack</code>（2707，跟 139 同
-  轉移結構）。</li>
+<li><strong>121 跟 122 的關鍵差異只在一行</strong>：121（只能交易一次）
+  <code>hold = max(hold, -price)</code>；122（無限次交易）
+  <code>hold = max(hold, cash - price)</code>——差在買進的本錢能不能疊加前面
+  已實現的利潤，這一行的差異決定了整個交易次數的限制。</li>
+<li><strong>309 冷卻邏輯要注意更新順序</strong>：<code>sold</code> 依賴「前一天」的 <code>hold</code>，
+  <code>rest</code> 依賴「前一天」的 <code>sold</code>，如果不先存一份 <code>prevSold</code> 就直接
+  更新，會用到「今天已經算好的新值」造成邏輯錯誤。</li>
+<li><strong>714 初始化不能用 INT_MIN</strong>：因為轉移式有 <code>-fee</code>，<code>INT_MIN + 負數</code>
+  會整數下溢，要改用 <code>-prices[0]</code> 當初始值，迴圈從第二天開始跑。</li>
+<li><strong>188 是 123 的推廣</strong>：123 把 k=2 直接展開成 4 個變數，188 用陣列
+  <code>buy[]</code>、<code>sell[]</code> 支援任意 k，轉移式完全對應（<code>buy[i]</code> 依賴同一天
+  的 <code>sell[i-1]</code>，更新順序要由小到大）。</li>
+<li><strong>926 是字串版的狀態機</strong>：不是股票問題，但「目前是 zeros 階段還是
+  ones 階段」的狀態切換邏輯跟股票的 hold/cash 是同一種形狀。</li>
 </ul>
 
 

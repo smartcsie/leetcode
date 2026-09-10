@@ -5062,6 +5062,78 @@
 </table>
 <h2 id="0_1">🟢 熟悉（0）<a class="headerlink" href="#0_1" title="Permanent link">&para;</a></h2>
 <p>目前沒有標記為熟悉的解法。</p>
+<hr />
+<h1 id="dp-grid-path_1">DP Grid Path 筆記<a class="headerlink" href="#dp-grid-path_1" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：<code>dp[i][j]</code> 只依賴「正上方」<code>dp[i-1][j]</code> 和「左方」
+<code>dp[i][j-1]</code>（或加上「左上方」<code>dp[i-1][j-1]</code>），因為在網格上只能往
+右、往下移動，狀態轉移方向天生固定。</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>題目</th>
+<th>轉移公式</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>63</td>
+<td>Unique Paths II</td>
+<td><code>dp[i][j]=dp[i-1][j]+dp[i][j-1]</code>（有障礙物則為0）</td>
+<td>計數型</td>
+</tr>
+<tr>
+<td>64</td>
+<td>Minimum Path Sum</td>
+<td><code>dp[i][j]=grid[i][j]+min(dp[i-1][j], dp[i][j-1])</code></td>
+<td>最值型</td>
+</tr>
+<tr>
+<td>85</td>
+<td>Maximal Rectangle</td>
+<td>逐行轉直方圖 + Largest Rectangle in Histogram</td>
+<td>降維成一維問題重複求解</td>
+</tr>
+<tr>
+<td>120</td>
+<td>Triangle</td>
+<td><code>dp[j]=triangle[i][j]+min(dp[j], dp[j+1])</code>（由下往上）</td>
+<td>由下往上推比由上往下更簡潔</td>
+</tr>
+<tr>
+<td>221</td>
+<td>Maximal Square</td>
+<td><code>dp[i][j]=min(上,左,左上)+1</code>（取三者最小值）</td>
+<td>正方形要三個方向都滿足，取最小</td>
+</tr>
+<tr>
+<td>931</td>
+<td>Minimum Falling Path Sum</td>
+<td><code>dp[j]=matrix[i][j]+min(上方三格)</code></td>
+<td>允許左下、正下、右下三個方向</td>
+</tr>
+<tr>
+<td>1277</td>
+<td>Count Square Submatrices with All Ones</td>
+<td>跟 221 同一個轉移式，只是計數不是求最大</td>
+<td>dp值本身就是「以此為右下角的正方形數量」</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>221 跟 1277 的轉移式幾乎一樣</strong>：221 要的是「最大邊長」（取
+  min+1 後跟全域最大值比較），1277 要的是「總數」（把每個位置的
+  dp 值直接加總，因為 dp[i][j] 本身就代表「以這裡為右下角，能組成
+  幾個正方形」）。</li>
+<li><strong>85 是這個分類裡最特殊的一題</strong>：本質是把二維問題拆解成「逐行
+  維護一個直方圖，每行都做一次一維的 Largest Rectangle in
+  Histogram」，不是單純的二維 DP 轉移，用到單調堆疊技巧。</li>
+<li><strong>由上往下 vs 由下往上</strong>：大部分網格 DP 是由上往下推（起點在左上、
+  終點在右下），但 120 Triangle 由下往上推反而更簡潔（不用處理
+  「每列長度不同」的邊界問題）。</li>
+</ul>
 
 
 

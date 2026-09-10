@@ -21,7 +21,7 @@
     
     
       
-        <title>Knapsack 背包問題分類筆記 - LeetCode 演算法精鍊筆記</title>
+        <title>DP Interval 筆記 - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#knapsack" class="md-skip">
+        <a href="#dp-interval" class="md-skip">
           跳轉到
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Knapsack 背包問題分類筆記
+              DP Interval 筆記
             
           </span>
         </div>
@@ -4847,147 +4847,80 @@
   
 
 
-<h1 id="knapsack">Knapsack 背包問題分類筆記<a class="headerlink" href="#knapsack" title="Permanent link">&para;</a></h1>
-<p><strong>核心判斷</strong>：先分清楚 <strong>0/1（每個物品限用一次）</strong> 還是
-<strong>Unbounded（可以無限次使用）</strong>，這個判斷決定了「內層容量迴圈要不要
-反過來跑」——這是背包問題最容易出錯、也最該優先確認的地方。</p>
+<h1 id="dp-interval">DP Interval 筆記<a class="headerlink" href="#dp-interval" title="Permanent link">&para;</a></h1>
+<p><strong>核心遞迴</strong>：<code>dp[i][j]</code> 代表「區間 [i,j]」的最佳解，狀態轉移要枚舉
+一個切割點 <code>k</code>，把區間拆成 <code>[i,k]</code> 和 <code>[k,j]</code>（或 <code>[k+1,j]</code>）兩段，
+<code>dp[i][j] = 合併(dp[i][k], dp[k][j]) + 額外成本</code>。一定要<strong>按區間長度
+由小到大</strong>遞推，確保算大區間時，所有更短的子區間都已經算好。</p>
 <table>
 <thead>
 <tr>
 <th>#</th>
 <th>題目</th>
-<th>類型</th>
-<th>問法</th>
-<th>迴圈順序</th>
+<th>切割邏輯</th>
+<th>備註</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>39</td>
-<td>Combination Sum</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層容量，內層物品</td>
+<td>95</td>
+<td>Unique Binary Search Trees II</td>
+<td>枚舉根節點，左右子樹遞迴列舉</td>
+<td>Catalan number 結構，回傳的是「所有可能」不是單一值</td>
 </tr>
 <tr>
-<td>139</td>
-<td>Word Break</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>96</td>
+<td>Unique Binary Search Trees</td>
+<td>跟 95 同結構，只是計數不是列舉</td>
+<td>曾誤放在籠統 dynamic-programming，已修正</td>
 </tr>
 <tr>
-<td>279</td>
-<td>Perfect Squares</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>312</td>
+<td>Burst Balloons</td>
+<td>枚舉「最後戳破」的氣球（反向思考）</td>
+<td>逆向思考是這題的關鍵：想「最後戳誰」而非「先戳誰」</td>
 </tr>
 <tr>
-<td>322</td>
-<td>Coin Change</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>375</td>
+<td>Guess Number Higher or Lower II</td>
+<td>枚舉這輪猜的數字，<code>k+max(左,右)</code></td>
+<td>同時是 Minimax（跟 Game Theory 有交集，但轉移結構是標準區間切割）</td>
 </tr>
 <tr>
-<td>377</td>
-<td>Combination Sum IV</td>
-<td>Unbounded</td>
-<td>排列</td>
-<td>外層容量，內層物品</td>
+<td>1000</td>
+<td>Minimum Cost to Merge Stones</td>
+<td>枚舉切割點，且要跳 K-1 格</td>
+<td>多了「每次固定合併K堆」的限制，是這組最難的一題</td>
 </tr>
 <tr>
-<td>416</td>
-<td>Partition Equal Subset Sum</td>
-<td>0/1</td>
-<td>判斷</td>
-<td>外層物品，內層容量從大到小</td>
+<td>1039</td>
+<td>Minimum Score Triangulation of Polygon</td>
+<td>枚舉第三個頂點 k，組三角形</td>
+<td>跟 312 是同一種「枚舉關鍵點」思路</td>
 </tr>
 <tr>
-<td>474</td>
-<td>Ones and Zeroes</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>494</td>
-<td>Target Sum</td>
-<td>0/1</td>
-<td>計數</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>518</td>
-<td>Coin Change II</td>
-<td>Unbounded</td>
-<td>組合</td>
-<td>外層物品，內層容量從小到大</td>
-</tr>
-<tr>
-<td>638</td>
-<td>Shopping Offers</td>
-<td>0/1 變體</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>983</td>
-<td>Minimum Cost For Tickets</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
-</tr>
-<tr>
-<td>1049</td>
-<td>Last Stone Weight II</td>
-<td>0/1</td>
-<td>最值（最大）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2035</td>
-<td>Partition Array Into Two Arrays</td>
-<td>0/1</td>
-<td>最值（最小）</td>
-<td>外層物品，內層容量從大到小</td>
-</tr>
-<tr>
-<td>2707</td>
-<td>Extra Characters in a String</td>
-<td>Unbounded</td>
-<td>最值（最小）</td>
-<td>外層容量，內層物品</td>
+<td>1130</td>
+<td>Minimum Cost Tree From Leaf Values</td>
+<td>枚舉切割點，搭配預處理的區間最大值</td>
+<td>需要先算好 maxVal[i][j] 才能O(1)查詢</td>
 </tr>
 </tbody>
 </table>
-<h2 id="_1">為什麼迴圈順序這麼重要<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_1">容易搞混的地方<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>0/1 背包，內層容量要從大到小</strong>：因為一維滾動陣列時，<code>dp[cap]</code>
-  要參考「還沒被這一輪物品更新過」的 <code>dp[cap-weight]</code>，如果從小到大
-  跑，會讓同一個物品被誤用兩次以上（等於變成 Unbounded 背包）。</li>
-<li><strong>Unbounded 背包，內層容量從小到大</strong>（或外層容量、內層物品）：
-  因為允許同一物品重複使用，<code>dp[cap]</code> 本來就該參考「這一輪已經更新
-  過」的 <code>dp[cap-weight]</code>，讓同一物品能被連續疊加多次。</li>
-<li><strong>外層容量 vs 外層物品，決定的是「排列」還是「組合」</strong>：外層跑
-  容量、內層跑物品 → 每個容量下會把所有物品的排列組合都算進去
-  （適合「排列」類問題，例如 139、377）；外層跑物品、內層跑容量 →
-  物品的相對順序固定，不會重複算出「先選A再選B」跟「先選B再選A」
-  兩種情況（適合「組合」類問題，例如 518）。</li>
-</ul>
-<h2 id="_2">容易搞混的地方<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>638 Shopping Offers</strong>：表面上是回溯（遞迴 + 記憶化），但本質是
-  「每個優惠可以重複使用」的 Unbounded 背包變形，物品是「優惠組合」
-  不是單一物品，容量是「還需要的商品數量」（多維度）。</li>
-<li><strong>2707 跟 139 Word Break 同一個轉移結構</strong>：都是「逐一嘗試字典裡
-  的單字/子字串當作結尾」，只是 2707 多了「允許 k 個字元不在字典
-  裡」的容錯額度。</li>
-<li><strong>96、337、2707 曾經被誤放在籠統的 <code>dynamic-programming</code></strong>，之後
-  分別修正到 <code>dp-interval</code>（96，Catalan number 結構）、<code>dp-tree</code>
-  （337，跟 968/1373/2246 同組）、<code>dp-knapsack</code>（2707，跟 139 同
-  轉移結構）。</li>
+<li><strong>312 Burst Balloons 的逆向思考</strong>：直覺會想「先戳哪個」，但這樣
+  邊界會一直變動；反過來想「這個區間裡最後戳破的是誰」，戳它的時候
+  左右鄰居都還沒被戳破、邊界固定，子問題才會獨立。</li>
+<li><strong>1000 Minimum Cost to Merge Stones 的切割點要跳格</strong>：因為每次
+  合併固定要湊滿 K 堆，切割點 <code>mid</code> 要以 <code>K-1</code> 為步長跳著枚舉，不是
+  逐一枚舉，還要另外判斷「這個區間長度是否恰好能合併成 1 堆」才能
+  加上這次合併的成本。</li>
+<li><strong>95 跟 96 是同一個遞迴結構的兩種用法</strong>：95 要「列舉」所有樹（回傳
+  vector<TreeNode*>），96 只要「計數」（回傳 int），95 因此需要記憶化
+  避免重複建構同一批子樹，96 則是單純的數字遞推。</li>
+<li><strong>375 同時符合兩種分類直覺</strong>：轉移結構是標準的區間切割（該分類在
+  這裡），但決策邏輯是 Minimax 對抗（也可以理解成 Game Theory），
+  分類時選了「轉移結構」優先，因為狀態定義本身就是二維區間。</li>
 </ul>
 
 
