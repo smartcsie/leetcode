@@ -5,6 +5,7 @@ solutions:
 - file: Solution_0377.cpp
   difficulty: 🟡 Medium
   tags:
+  - Dp Knapsack
   - Unbounded Knapsack
   topics:
   - dp-knapsack
