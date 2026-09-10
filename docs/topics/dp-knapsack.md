@@ -4,7 +4,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0139.md) | O(N³) | O(N) |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | Dp Knapsack | [C++](../problems/0139.md) | O(N³) | O(N) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | DP, Bit Manipulation | [C++](../problems/0416.md) | O(N\*S/W) | O(S/W) |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | DP, 0-1 Knapsack | [C++](../problems/0494.md) | O(N\*S) | O(S) |
 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | DP, Unbounded Knapsack | [C++](../problems/0518.md) | O(N\*A) | O(A) |

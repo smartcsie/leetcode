@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0139.cpp
   difficulty: 🟡 Medium
   tags:
-  - DP
-  - Unbounded Knapsack
+  - Dp Knapsack
   topics:
   - dp-knapsack
   time: O(N³)
   space: O(N)
   familiarity: 生疏
+  tricks:
+  - permutation
