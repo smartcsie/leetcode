@@ -339,6 +339,29 @@ def build_topic_indexes(problems, topics_out_dir):
         with open(os.path.join(topics_out_dir, f"{topic}.md"), 'w', encoding='utf-8') as f:
             f.write('\n'.join(lines) + '\n')
 
+    # 處理「完全沒有題目收錄、純粹只是一份分類總覽筆記」的情況
+    # （例如籠統的 backtracking，底下四個子分類各自有題目，
+    # 但 backtracking 本身一題都沒有）。只要 docs/notes/ 底下有
+    # 對應檔名、但 topic_rows 裡沒有這個分類，就幫它產生一個
+    # 「只有筆記、沒有題目表格」的頁面，避免筆記變成孤兒檔案。
+    if os.path.isdir(notes_dir):
+        for fname in os.listdir(notes_dir):
+            if not fname.endswith('.md'):
+                continue
+            topic = fname[:-3]
+            if topic in topic_rows:
+                continue  # 已經在上面的迴圈處理過了，跳過
+            notes_path = os.path.join(notes_dir, fname)
+            with open(notes_path, 'r', encoding='utf-8') as nf:
+                notes_content = nf.read().rstrip('\n')
+            lines = [f"# {topic}", '', notes_content]
+            with open(os.path.join(topics_out_dir, f"{topic}.md"), 'w', encoding='utf-8') as f:
+                f.write('\n'.join(lines) + '\n')
+            # 加進 topic_rows（空列表代表「沒有題目，只有筆記」），
+            # 這樣 main() 產生 nav: 區塊時才會把這個分類也列進去，
+            # 不然頁面雖然存在，但側邊導覽列看不到、點不進去。
+            topic_rows[topic] = []
+
     return topic_rows
 
 
