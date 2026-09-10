@@ -256,51 +256,23 @@ def build_topic_indexes(problems, topics_out_dir):
     for fname in os.listdir(topics_out_dir):
         os.remove(os.path.join(topics_out_dir, fname))
 
-    def render_table(sub_rows, extra_cols=None, extra_map=None):
-        headers = ["#", "題目", "難度", "標籤", "解法檔案", "時間", "空間"]
-        if extra_cols:
-            headers.extend(extra_cols)
-        lines = ["| " + " | ".join(headers) + " |",
-                 "| " + " | ".join(["---"] * len(headers)) + " |"]
+    # 手動維護的主題筆記放在 docs/notes/，這支腳本永遠不會去寫入或
+    # 刪除這個資料夾，可以放心手動編輯。topics_out_dir 通常是
+    # ".../docs/topics"，notes_dir 是它旁邊的 ".../docs/notes"。
+    notes_dir = os.path.join(os.path.dirname(os.path.normpath(topics_out_dir)), 'notes')
+
+    def render_table(sub_rows):
+        lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
+                 "| --- | --- | --- | --- | --- | --- | --- |"]
         for r in sub_rows:
             tags_str = escape_cell(', '.join(r['tags']))
             page_link = f"../problems/{r['number']:04d}.md"
             title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
-            row = [str(r['number']), title_cell, escape_cell(r['difficulty']),
-                   tags_str, file_cell, escape_cell(r['time']), escape_cell(r['space'])]
-            if extra_cols:
-                extra_values = extra_map.get(r['number'], [''] * len(extra_cols)) if extra_map else [''] * len(extra_cols)
-                row.extend(escape_cell(v) for v in extra_values)
-            lines.append("| " + " | ".join(row) + " |")
+            lines.append(f"| {r['number']} | {title_cell} | "
+                         f"{escape_cell(r['difficulty'])} | {tags_str} | {file_cell} | "
+                         f"{escape_cell(r['time'])} | {escape_cell(r['space'])} |")
         return lines
-
-    # 手動維護的主題筆記放在 docs/notes/，跟這裡自動產生的 docs/topics/
-    # 完全分開（notes/ 這支腳本永遠不會去寫入或刪除，可以放心手動編輯）。
-    # topics_out_dir 通常是 ".../docs/topics"，notes_dir 是它旁邊的 ".../docs/notes"。
-    notes_dir = os.path.join(os.path.dirname(os.path.normpath(topics_out_dir)), 'notes')
-
-    def load_extra_columns(topic):
-        """
-        讀取 docs/notes/{topic}.extra.yml（如果存在），格式：
-            columns: ["類型", "問法", "迴圈順序"]
-            rows:
-              39: ["Unbounded", "組合", "外層容量，內層物品"]
-        回傳 (columns, {number: [值...]})；檔案不存在就回傳 (None, None)，
-        表格產生邏輯完全不受影響。
-        """
-        path = os.path.join(notes_dir, f"{topic}.extra.yml")
-        if not os.path.exists(path):
-            return None, None
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                data = yaml.safe_load(f) or {}
-        except Exception:
-            return None, None
-        cols = data.get('columns')
-        raw_rows = data.get('rows') or {}
-        row_map = {int(k): v for k, v in raw_rows.items()}
-        return cols, row_map
 
     for topic, rows in topic_rows.items():
         rows.sort(key=lambda r: r['number'])
@@ -311,21 +283,12 @@ def build_topic_indexes(problems, topics_out_dir):
         forgetful_rows = [r for r in rows if r['familiarity'] == '易忘']
         familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '再練習', '練習過', '易忘')]
 
-        extra_cols, extra_map = load_extra_columns(topic)
-
         lines = [f"# {topic}", '']
-
-        # 如果這個分類有對應的手動筆記檔案（docs/notes/{topic}.md），
-        # 在題目清單最上方加一行連結過去，不影響下面自動產生的內容
-        notes_path = os.path.join(notes_dir, f"{topic}.md")
-        if os.path.exists(notes_path):
-            lines.append(f"📝 [查看 {topic} 分類筆記](../notes/{topic}.md)")
-            lines.append('')
 
         lines.append(f"## 🔴 生疏（{len(unfamiliar_rows)}）")
         lines.append('')
         if unfamiliar_rows:
-            lines.extend(render_table(unfamiliar_rows, extra_cols, extra_map))
+            lines.extend(render_table(unfamiliar_rows))
         else:
             lines.append('目前沒有標記為生疏的解法。')
         lines.append('')
@@ -333,7 +296,7 @@ def build_topic_indexes(problems, topics_out_dir):
         lines.append(f"## 🟠 再練習（{len(redo_rows)}）")
         lines.append('')
         if redo_rows:
-            lines.extend(render_table(redo_rows, extra_cols, extra_map))
+            lines.extend(render_table(redo_rows))
         else:
             lines.append('目前沒有標記為再練習的解法。')
         lines.append('')
@@ -341,7 +304,7 @@ def build_topic_indexes(problems, topics_out_dir):
         lines.append(f"## 🟡 練習過（{len(practiced_rows)}）")
         lines.append('')
         if practiced_rows:
-            lines.extend(render_table(practiced_rows, extra_cols, extra_map))
+            lines.extend(render_table(practiced_rows))
         else:
             lines.append('目前沒有標記為練習過的解法。')
         lines.append('')
@@ -349,7 +312,7 @@ def build_topic_indexes(problems, topics_out_dir):
         lines.append(f"## 🟣 易忘（{len(forgetful_rows)}）")
         lines.append('')
         if forgetful_rows:
-            lines.extend(render_table(forgetful_rows, extra_cols, extra_map))
+            lines.extend(render_table(forgetful_rows))
         else:
             lines.append('目前沒有標記為易忘的解法。')
         lines.append('')
@@ -357,9 +320,21 @@ def build_topic_indexes(problems, topics_out_dir):
         lines.append(f"## 🟢 熟悉（{len(familiar_rows)}）")
         lines.append('')
         if familiar_rows:
-            lines.extend(render_table(familiar_rows, extra_cols, extra_map))
+            lines.extend(render_table(familiar_rows))
         else:
             lines.append('目前沒有標記為熟悉的解法。')
+
+        # 如果這個分類有對應的手寫筆記（docs/notes/{topic}.md），
+        # 把它的內容直接併進同一頁最下方，跟上面自動產生的表格
+        # 合成同一個檔案；沒有這份筆記檔案就完全不受影響。
+        notes_path = os.path.join(notes_dir, f"{topic}.md")
+        if os.path.exists(notes_path):
+            with open(notes_path, 'r', encoding='utf-8') as nf:
+                notes_content = nf.read().rstrip('\n')
+            lines.append('')
+            lines.append('---')
+            lines.append('')
+            lines.append(notes_content)
 
         with open(os.path.join(topics_out_dir, f"{topic}.md"), 'w', encoding='utf-8') as f:
             f.write('\n'.join(lines) + '\n')
