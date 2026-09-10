@@ -6,7 +6,7 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Dp Knapsack
-  - Unbounded Knapsack
+  - Unbounded Knapsack123
   topics:
   - dp-knapsack
   time: O(N*√N)
