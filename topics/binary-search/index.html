@@ -5085,6 +5085,169 @@
 </tr>
 </tbody>
 </table>
+<hr />
+<h1 id="binary-search_1">Binary Search 分類總覽<a class="headerlink" href="#binary-search_1" title="Permanent link">&para;</a></h1>
+<h2 id="_1">第一步：判斷屬於哪一種二分搜<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>拿到一題，先問自己「我在找什麼？」，答案決定了子分類：</p>
+<table>
+<thead>
+<tr>
+<th>我在找...</th>
+<th>子分類</th>
+<th>特徵</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>陣列裡有沒有存在某個確切的值</td>
+<td><code>binary-search</code>（籠統，精確值搜尋）</td>
+<td>判斷式有「等於/小於/大於」三個分支</td>
+</tr>
+<tr>
+<td>陣列裡「第一個」滿足條件的位置</td>
+<td><code>binary-search-find-left-bound</code></td>
+<td>判斷式只有兩個分支（滿足/不滿足），答案偏左</td>
+</tr>
+<tr>
+<td>陣列裡「最後一個」滿足條件的位置</td>
+<td><code>binary-search-find-right-bound</code></td>
+<td>判斷式只有兩個分支，答案偏右</td>
+</tr>
+<tr>
+<td>一個<strong>數值範圍</strong>裡最小/最大的合法答案（不是在陣列索引上找）</td>
+<td><code>binary-search-on-answer</code></td>
+<td>搜尋對象是「答案本身」，通常搭配一個 <code>feasible(x)</code> 檢查函式</td>
+</tr>
+</tbody>
+</table>
+<p><strong>分辨「找邊界」跟「二分搜答案」最容易搞混的地方</strong>：兩者程式碼長得
+幾乎一樣（都是 <code>while</code> 收斂 + 判斷式切半），差別在於<strong>搜尋的對象</strong>——
+在真實陣列的索引上收斂 → 找邊界；在一個獨立的數值範圍（例如
+<code>[1, 10^9]</code>）上收斂、判斷式通常要另外呼叫一個檢查函式 → 二分搜答案。</p>
+<h2 id="_2">第二步：選一種寫法流派（兩種都要會，但先選一種練熟）<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="_3">收斂派（推薦優先練熟這個）<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">right</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w">  </span><span class="c1">// 找左邊界時，right 從 n 開始（半開區間 [left, right)）</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">left</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">right</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="n">right</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">left</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">可能是答案</span><span class="p">)</span><span class="w"> </span><span class="n">right</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span><span class="w">      </span><span class="c1">// 不用 -1，半開區間天生保留 mid</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w">              </span><span class="c1">// 確定不是答案才 +1，直接排除</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">}</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="k">return</span><span class="w"> </span><span class="n">left</span><span class="p">;</span><span class="w"> </span><span class="c1">// 迴圈結束 left==right，就是答案</span>
+</code></pre></div>
+<p><strong>口訣</strong>：「可能是答案，留著（<code>right=mid</code>）；確定不是，踢掉（<code>left=mid+1</code>）。」</p>
+<p>找右邊界只要把「找左邊界的判斷式」反過來，收斂完再手動 <code>-1</code>：
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">right</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">left</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">right</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="n">right</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">left</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">target</span><span class="p">)</span><span class="w"> </span><span class="n">right</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span><span class="w">   </span><span class="c1">// 確定太大，排除</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w">                    </span><span class="c1">// &lt;= target，可能是答案，先往右試探</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="p">}</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="c1">// 收斂完 left 停在「第一個 &gt; target」的位置，答案要往前一格</span>
+</code></pre></div></p>
+<h3 id="labuladong">labuladong 派（閉區間，三個函式共用同一個骨架）<a class="headerlink" href="#labuladong" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// 精確值搜尋</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">left</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">right</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">target</span><span class="p">)</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">nums</span><span class="p">[</span><span class="n">mid</span><span class="p">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">target</span><span class="p">)</span><span class="w"> </span><span class="n">right</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span><span class="w">  </span><span class="c1">// 找到直接回傳</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="p">}</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="c1">// 找左邊界（相等時不回傳，繼續往左逼近）</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="k">else</span><span class="w"> </span><span class="n">right</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w">   </span><span class="c1">// 相等時</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="c1">// 迴圈結束後要額外檢查：left &gt;= n 或 nums[left] != target 就回傳 -1</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="c1">// 找右邊界（相等時繼續往右逼近）</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="k">else</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w">    </span><span class="c1">// 相等時</span>
+</code></pre></div>
+<p><strong>布林條件版特例</strong>（沒有「相等」分支，只有 true/false，例如 278）：
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">left</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">right</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">isBadVersion</span><span class="p">(</span><span class="n">mid</span><span class="p">))</span><span class="w"> </span><span class="n">right</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="n">left</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="p">}</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="k">return</span><span class="w"> </span><span class="n">left</span><span class="p">;</span><span class="w">  </span><span class="c1">// 不用額外變數記錄，left 自然收斂到答案</span>
+</code></pre></div></p>
+<h3 id="_4">兩種流派的取捨<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>收斂派</th>
+<th>labuladong 派</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>迴圈條件</td>
+<td><code>left &lt; right</code></td>
+<td><code>left &lt;= right</code></td>
+</tr>
+<tr>
+<td><code>right</code> 初始值</td>
+<td><code>n</code>（半開區間）</td>
+<td><code>n - 1</code>（閉區間）</td>
+</tr>
+<tr>
+<td>找到候選時</td>
+<td><code>right = mid</code>，不用 ±1</td>
+<td><code>right = mid - 1</code>，要 -1</td>
+</tr>
+<tr>
+<td>要額外變數記錄答案嗎</td>
+<td>不用</td>
+<td>陣列數值搜尋要；純布林條件不用</td>
+</tr>
+<tr>
+<td>適合場景</td>
+<td>保證答案存在、想要程式碼精簡</td>
+<td>目標可能不存在、需要三分支清楚分開</td>
+</tr>
+</tbody>
+</table>
+<p>⚠️ <strong>常見 bug</strong>：<code>else if(!isBadVersion(mid))</code> 這種寫法會讓同一個 <code>mid</code>
+被判斷兩次（<code>if</code> 判斷一次、<code>else if</code> 又呼叫一次），邏輯上不影響答案，
+但會讓呼叫次數多一倍，違背二分搜「減少呼叫次數」的初衷——直接用
+<code>else</code> 就好，不要重複判斷。</p>
+<h2 id="_5">目前收錄狀況分類表<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>分類</th>
+<th>題目</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>binary-search</code>（精確值搜尋 + 特殊題）</td>
+<td>4、33、74、81、367、374、704</td>
+</tr>
+<tr>
+<td><code>binary-search-find-left-bound</code></td>
+<td>153、154、162、278、540、852、1351、2529</td>
+</tr>
+<tr>
+<td><code>binary-search-find-right-bound</code></td>
+<td>34、275、611（同題另有雙指標解法）</td>
+</tr>
+<tr>
+<td><code>binary-search-on-answer</code></td>
+<td>69、378、441、1201、1608、2195</td>
+</tr>
+</tbody>
+</table>
+<h2 id="_6">特殊題型備忘<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>4. Median of Two Sorted Arrays</strong>：真正的最佳解（<code>O(log(min(M,N)))</code>）
+  是在較短陣列上二分搜「切割點」，不是找值也不是找邊界，是這個分類
+  裡最特殊的一種；用暴力雙指標合併版（<code>O(M+N)</code>）反而分類在
+  <code>two-pointers-same</code>，兩版可以對照練習「暴力 vs 最佳解」。</li>
+<li><strong>300. Longest Increasing Subsequence</strong> 的 <code>O(N log N)</code> patience
+  sorting 解法用了 <code>lower_bound</code>，但主分類還是 <code>dp-lis</code>（演算法核心
+  是貪心維護 tails 陣列，二分搜只是查詢子步驟）。</li>
+<li><strong>1930、1930</strong> 一類看起來像二分搜、實際是別的技巧（貪心/DP）的題目，
+  判斷準則是「拿掉二分搜的部分，這題的演算法核心還成立嗎？」——如果
+  拿掉就整題垮掉，才是真的二分搜；如果只是拿二分搜當內部查詢工具，
+  主分類應該給真正的演算法核心。</li>
+</ul>
 
 
 

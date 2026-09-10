@@ -11,10 +11,6 @@
       
       
       
-        <link rel="prev" href="../greedy-digit-construction/">
-      
-      
-        <link rel="next" href="../greedy-frequency-merging/">
       
       
         
@@ -25,7 +21,7 @@
     
     
       
-        <title>greedy-sorting-decision - LeetCode 演算法精鍊筆記</title>
+        <title>backtracking - LeetCode 演算法精鍊筆記</title>
       
     
     
@@ -76,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#greedy-sorting-decision" class="md-skip">
+        <a href="#backtracking" class="md-skip">
           跳轉到
         </a>
       
@@ -112,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              greedy-sorting-decision
+              backtracking
             
           </span>
         </div>
@@ -3255,20 +3251,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
         
           
           <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="0">
@@ -3289,7 +3283,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_16">
             <span class="md-nav__icon md-icon"></span>
             
@@ -3416,37 +3410,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    greedy-sorting-decision
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../greedy-sorting-decision/" class="md-nav__link">
         
   
   
@@ -3462,81 +3429,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目錄">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目錄
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔴 生疏（2）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟠 再練習（1）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#10" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟡 練習過（10）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟣 易忘（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#0_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🟢 熟悉（0）
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -4955,268 +4847,105 @@
   
 
 
-<h1 id="greedy-sorting-decision">greedy-sorting-decision<a class="headerlink" href="#greedy-sorting-decision" title="Permanent link">&para;</a></h1>
-<h2 id="2">🔴 生疏（2）<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<h1 id="backtracking">backtracking<a class="headerlink" href="#backtracking" title="Permanent link">&para;</a></h1>
+<h1 id="backtracking_1">Backtracking 分類總覽<a class="headerlink" href="#backtracking_1" title="Permanent link">&para;</a></h1>
+<h2 id="_1">判斷屬於哪一種回溯<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>拿到一題回溯，先問「狀態長什麼樣子」，決定子分類：</p>
 <table>
 <thead>
 <tr>
-<th>#</th>
-<th>題目</th>
-<th>難度</th>
-<th>標籤</th>
-<th>解法檔案</th>
-<th>時間</th>
-<th>空間</th>
+<th>狀態的本質</th>
+<th>子分類</th>
+<th>判斷特徵</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>406</td>
-<td><a href="https://leetcode.com/problems/queue-reconstruction-by-height/">Queue Reconstruction by Height</a></td>
-<td>🟡 Medium</td>
-<td>Greedy Sorting Decision</td>
-<td><a href="../../problems/0406/">C++</a></td>
-<td>O(N²)</td>
-<td>O(N)</td>
+<td>從候選清單裡「挑」一些出來（順序不重要）</td>
+<td><code>backtracking-combination</code></td>
+<td>遞迴參數通常有一個 <code>start</code> 索引，只往後挑不往回挑</td>
 </tr>
 <tr>
-<td>3011</td>
-<td><a href="https://leetcode.com/problems/find-if-array-can-be-sorted/">Find if Array Can Be Sorted</a></td>
-<td>🟡 Medium</td>
-<td>Array, Greedy, Bit Manipulation</td>
-<td><a href="../../problems/3011/">C++</a></td>
-<td>O(N)</td>
-<td>O(1)</td>
+<td>把「全部」候選排成一個順序（順序重要）</td>
+<td><code>backtracking-permutation</code></td>
+<td>用 <code>used[]</code> 陣列標記誰用過，每層都要重新掃過全部候選</td>
+</tr>
+<tr>
+<td>在二維座標網格上探路</td>
+<td><code>backtracking-grid</code></td>
+<td>狀態是「目前站在哪個座標」，上下左右四個方向遞迴，通常要「原地標記走過、回溯時復原」</td>
+</tr>
+<tr>
+<td>每一步都要跟全域規則交叉檢查才能放</td>
+<td><code>backtracking-constraint</code></td>
+<td>不是單純檢查「這個位置合不合法」，而是要檢查跟盤面上其他位置的關係（同行、同列、同區塊）</td>
 </tr>
 </tbody>
 </table>
-<h2 id="1">🟠 再練習（1）<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<h2 id="_2">目前收錄狀況分類表<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>#</th>
+<th>分類</th>
 <th>題目</th>
-<th>難度</th>
-<th>標籤</th>
-<th>解法檔案</th>
-<th>時間</th>
-<th>空間</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>945</td>
-<td><a href="https://leetcode.com/problems/minimum-increment-to-make-array-unique/">Minimum Increment to Make Array Unique</a></td>
-<td>🟡 Medium</td>
-<td>Sorting, Greedy</td>
-<td><a href="../../problems/0945/">C++</a></td>
-<td>O(NlogN)</td>
-<td>O(1)</td>
+<td><code>backtracking-combination</code></td>
+<td>17、22、39、40、77、78、90、131、216、638、784、1255、1415、1593、2044</td>
+</tr>
+<tr>
+<td><code>backtracking-permutation</code></td>
+<td>46、47、526、1238、1947</td>
+</tr>
+<tr>
+<td><code>backtracking-grid</code></td>
+<td>79、980、1219</td>
+</tr>
+<tr>
+<td><code>backtracking-constraint</code></td>
+<td>37、51、2305</td>
 </tr>
 </tbody>
 </table>
-<h2 id="10">🟡 練習過（10）<a class="headerlink" href="#10" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>題目</th>
-<th>難度</th>
-<th>標籤</th>
-<th>解法檔案</th>
-<th>時間</th>
-<th>空間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>881</td>
-<td><a href="https://leetcode.com/problems/boats-to-save-people/">Boats to Save People</a></td>
-<td>🟡 Medium</td>
-<td>Greedy Sorting Decision</td>
-<td><a href="../../problems/0881/">C++</a></td>
-<td>O(N log N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1005</td>
-<td><a href="https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/">Maximize Sum Of Array After K Negations</a></td>
-<td>🟢 Easy</td>
-<td>Greedy Sorting Decision, Sorting</td>
-<td><a href="../../problems/1005/">C++</a></td>
-<td>O(NlogN)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1029</td>
-<td><a href="https://leetcode.com/problems/two-city-scheduling/">Two City Scheduling</a></td>
-<td>🟡 Medium</td>
-<td>Greedy Sorting Decision</td>
-<td><a href="../../problems/1029/">C++</a></td>
-<td>O(N log N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>1710</td>
-<td><a href="https://leetcode.com/problems/maximum-units-on-a-truck/">Maximum Units on a Truck</a></td>
-<td>🟢 Easy</td>
-<td>Greedy Sorting Decision</td>
-<td><a href="../../problems/1710/">C++</a></td>
-<td>O(N log N)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>2231</td>
-<td><a href="https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/">Largest Number After Digit Swaps by Parity</a></td>
-<td>🟢 Easy</td>
-<td>Greedy Sorting Decision, Partition by Parity</td>
-<td><a href="../../problems/2231/">C++</a></td>
-<td>O(DlogD)</td>
-<td>O(D)</td>
-</tr>
-<tr>
-<td>2279</td>
-<td><a href="https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/">Maximum Bags With Full Capacity of Rocks</a></td>
-<td>🟡 Medium</td>
-<td>Greedy Sorting Decision</td>
-<td><a href="../../problems/2279/">C++</a></td>
-<td>O(N log N)</td>
-<td>O(N)</td>
-</tr>
-<tr>
-<td>2966</td>
-<td><a href="https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/">Divide Array Into Arrays With Max Difference</a></td>
-<td>🟡 Medium</td>
-<td>Greedy Sorting Decision, Greedy, Sorting</td>
-<td><a href="../../problems/2966/">C++</a></td>
-<td>O(NlogN)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>3014</td>
-<td><a href="https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/">Minimum Number of Pushes to Type Word I</a></td>
-<td>🟡 Medium</td>
-<td>Greedy Sorting Decision, Sorting, Counting</td>
-<td><a href="../../problems/3014/">C++</a></td>
-<td>O(N+26log26)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>3014</td>
-<td><a href="https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/">Minimum Number of Pushes to Type Word I</a></td>
-<td>🟡 Medium</td>
-<td>Greedy Sorting Decision</td>
-<td><a href="../../problems/3014/">C++</a></td>
-<td>O(1)</td>
-<td>O(1)</td>
-</tr>
-<tr>
-<td>3016</td>
-<td><a href="https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/">Minimum Number of Pushes to Type Word II</a></td>
-<td>🟡 Medium</td>
-<td>Greedy Sorting Decision, Sorting, Counting</td>
-<td><a href="../../problems/3016/">C++</a></td>
-<td>O(N+26log26)</td>
-<td>O(1)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="0">🟣 易忘（0）<a class="headerlink" href="#0" title="Permanent link">&para;</a></h2>
-<p>目前沒有標記為易忘的解法。</p>
-<h2 id="0_1">🟢 熟悉（0）<a class="headerlink" href="#0_1" title="Permanent link">&para;</a></h2>
-<p>目前沒有標記為熟悉的解法。</p>
-<hr />
-<h1 id="sorting-greedy-decision">Sorting + Greedy Decision 筆記<a class="headerlink" href="#sorting-greedy-decision" title="Permanent link">&para;</a></h1>
-<p><strong>核心套路</strong>：先用某個關鍵依據把資料排序，排序完之後，答案就能用簡單的
-貪心規則（直接掃描、雙指標、或依序分組）算出來——<strong>排序本身消除了
-「要考慮所有排列組合」的複雜度</strong>，把問題降階成線性掃描。</p>
-<p>判斷這題屬不屬於這個 pattern 的關顐：<strong>排序的依據是什麼、排序完之後
-用什麼邏輯做決策</strong>，這兩件事決定了題目的難度跟解法的走向。</p>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>題目</th>
-<th>排序依據</th>
-<th>排序後的貪心邏輯</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>406</td>
-<td>Queue Reconstruction by Height</td>
-<td>身高由高到低；同身高 k 值由小到大</td>
-<td>依序插入到陣列第 k 個位置</td>
-</tr>
-<tr>
-<td>881</td>
-<td>Boats to Save People</td>
-<td>體重由小到大</td>
-<td>雙指標夾：最輕 + 最重湊一艘船</td>
-</tr>
-<tr>
-<td>1029</td>
-<td>Two City Scheduling</td>
-<td>costA - costB 由小到大</td>
-<td>前一半去 A 市，後一半去 B 市</td>
-</tr>
-<tr>
-<td>1710</td>
-<td>Maximum Units on a Truck</td>
-<td>每箱單位數由多到少</td>
-<td>依序裝，優先塞單位密度高的箱子</td>
-</tr>
-<tr>
-<td>945</td>
-<td>Minimum Increment to Make Array Unique</td>
-<td>數值由小到大</td>
-<td>掃描時發現重複就往上補到 <code>prev+1</code></td>
-</tr>
-<tr>
-<td>2966</td>
-<td>Divide Array Into Arrays With Max Difference</td>
-<td>數值由小到大</td>
-<td>每 3 個連續分一組，檢查組內最大差</td>
-</tr>
-<tr>
-<td>3011</td>
-<td>Find if Array Can Be Sorted</td>
-<td>保持原順序，但只允許同「二進位 1 的個數」的元素互換</td>
-<td>逐段（相同 popcount 為一段）各自排序，檢查整體是否變成非遞減</td>
-</tr>
-<tr>
-<td>3684</td>
-<td>Maximize Sum of At Most K Distinct Elements</td>
-<td>數值由大到小（先去重）</td>
-<td>依序取前 k 個</td>
-</tr>
-</tbody>
-</table>
-<h2 id="_1">常見的排序依據分類<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h2 id="_3">容易分錯的題目（判斷邏輯備忘）<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>單一數值排序</strong>（881、1710、945、2966、3684）：直接照一個欄位排序，
-  排序後用線性掃描或雙指標處理。</li>
-<li><strong>複合鍵排序</strong>（406）：排序依據不只一個欄位，且欄位之間的排序方向
-  可能相反（身高降冪、k 值升冪），這種題目通常需要想清楚「為什麼
-  要先處理某個屬性，才能讓後面的插入/決策不會被破壞」。</li>
-<li><strong>衍生值排序</strong>（1029）：排序的不是原始資料本身，而是從原始資料算
-  出來的一個新指標（<code>costA - costB</code>），這種題目的關鍵是想出「排序
-  哪個衍生值，才能讓貪心決策成立」。</li>
-<li><strong>分組限制排序</strong>（3011）：不是整個陣列一起排序，而是先分組（依某個
-  不變的屬性分組），每組內部才能排序，這種題目要先想清楚「哪些元素
-  之間可以互相交換」。</li>
+<li><strong>79. Word Search</strong>：一開始容易誤分到 <code>backtracking-combination</code>（因為
+  是在字串裡找子字串的感覺），但實際上是在二維網格上 DFS 探路、原地
+  標記走過的格子，屬於 <code>backtracking-grid</code>。</li>
+<li><strong>131. Palindrome Partitioning</strong>：雖然是處理字串，但本質是「挑切割
+  點組成一種切法」，跟 39/40 Combination Sum 系列同一個框架，屬於
+  <code>backtracking-combination</code>，不是字串專屬的分類。</li>
+<li><strong>1238. Circular Permutation in Binary Representation</strong>：字面上看
+  起來像是位元運算題，但要求的是「生成一個排列」，本質屬於
+  <code>backtracking-permutation</code>（雖然實際解法是格雷碼公式，不用真的
+  回溯，但分類看的是「這題在解決什麼問題」，不是「用什麼演算法解」）。</li>
+<li><strong>1947. Maximum Compatibility Score Sum</strong>：本質是「幫每個學生分配
+  一個還沒被分配過的導師」，等價於排列導師的順序，屬於
+  <code>backtracking-permutation</code>。</li>
+<li><strong>2044. Count Number of Maximum Bitwise-OR Subsets</strong>：DFS 版本是
+  標準「選或不選」回溯，屬於 <code>backtracking-combination</code>；但如果收錄
+  的是用 mask 窮舉子集合的迭代版本，應該改分到
+  <code>bit-bitmask-subset-enumeration</code>（技巧不同，即使問題一樣）。</li>
+<li><strong>2266. Count Number of Texts</strong>：原始清單把它列在 Backtracking
+  Level 1，但實際解法是純線性 DP（換皮版 91. Decode Ways），核心
+  邏輯完全沒有用到回溯的「選擇 + 遞迴 + 復原」結構，正確分類是
+  <code>dp-fibonacci</code>，不算進 backtracking 任何子分類。</li>
 </ul>
-<h2 id="_2">容易搞混的地方<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h2 id="_4">常見的效能陷阱<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>406 的排序方向很反直覺</strong>：身高高的先處理、身高相同時 k 值小的
-  先處理——這個順序選擇本身就是解題的關鍵洞察，不是隨便選的。</li>
-<li><strong>1029 排序的是「差值」不是原始數字</strong>：容易誤以為要照 costA 或
-  costB 單獨排序，但正確做法是排序兩者的差，這樣才能同時兼顧「這個
-  人該去哪個城市」跟「維持左右兩邊人數相等」兩個限制。</li>
-<li><strong>跟 <code>greedy-priority-queue</code> 的區別</strong>：這個分類是「一次排序、一次
-  掃描」就結束；如果題目需要「排序後還要動態維護一個會變化的候選集
-  合」（例如每次取完最大值後，候選池會更新），那屬於
-  <code>greedy-priority-queue</code>，不是這個分類。</li>
+<li><strong>去重邏輯</strong>：<code>combination</code>/<code>permutation</code> 題目如果候選裡有重複值
+  （例如 40 Combination Sum II、47 Permutations II、90 Subsets II），
+  一定要先排序、再用 <code>if (i &gt; start &amp;&amp; nums[i] == nums[i-1]) continue;</code>
+  這類判斷跳過重複分支，否則會產生大量重複的結果。</li>
+<li><strong>grid 題的原地標記</strong>：<code>backtracking-grid</code> 常見手法是把走過的格子
+  「原地改成障礙物」（例如設成 0 或 -1），遞迴完務必要復原，因為同一
+  個座標可能在不同分支的路徑中被重複走到，不復原會讓其他分支誤判。</li>
+<li><strong>constraint 題的剪枝順序</strong>：N-Queens、Sudoku Solver 這類題目，
+  「檢查合法性」的時機（放置前檢查 vs 放置後遞迴才發現不合法再退回）
+  對效能影響很大，優先選擇「放置前就先檢查會不會違反規則」，能省下
+  大量不必要的遞迴呼叫。</li>
 </ul>
 
 
