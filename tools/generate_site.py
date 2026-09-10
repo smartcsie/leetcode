@@ -269,6 +269,11 @@ def build_topic_indexes(problems, topics_out_dir):
                          f"{escape_cell(r['time'])} | {escape_cell(r['space'])} |")
         return lines
 
+    # 手動維護的主題筆記放在 docs/notes/，跟這裡自動產生的 docs/topics/
+    # 完全分開（notes/ 這支腳本永遠不會去寫入或刪除，可以放心手動編輯）。
+    # topics_out_dir 通常是 ".../docs/topics"，notes_dir 是它旁邊的 ".../docs/notes"。
+    notes_dir = os.path.join(os.path.dirname(os.path.normpath(topics_out_dir)), 'notes')
+
     for topic, rows in topic_rows.items():
         rows.sort(key=lambda r: r['number'])
 
@@ -279,6 +284,13 @@ def build_topic_indexes(problems, topics_out_dir):
         familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '再練習', '練習過', '易忘')]
 
         lines = [f"# {topic}", '']
+
+        # 如果這個分類有對應的手動筆記檔案（docs/notes/{topic}.md），
+        # 在題目清單最上方加一行連結過去，不影響下面自動產生的內容
+        notes_path = os.path.join(notes_dir, f"{topic}.md")
+        if os.path.exists(notes_path):
+            lines.append(f"📝 [查看 {topic} 分類筆記](../notes/{topic}.md)")
+            lines.append('')
 
         lines.append(f"## 🔴 生疏（{len(unfamiliar_rows)}）")
         lines.append('')

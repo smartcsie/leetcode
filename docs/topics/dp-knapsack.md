@@ -1,5 +1,7 @@
 # dp-knapsack
 
+📝 [查看 dp-knapsack 分類筆記](../notes/dp-knapsack.md)
+
 ## 🔴 生疏（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
