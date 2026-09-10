@@ -290,7 +290,7 @@
 | 1964 | [Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | 🔴 Hard | Dp Lis | [C++](problems/1964.md) | O(N log N) | O(N) |
 | 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | 🟡 Medium | Dp Bitmask | [C++](problems/1986.md) | O(3^N) | O(2^N) |
 | 1987 | [Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/) | 🔴 Hard | Dp Subsequences | [C++](problems/1987.md) | O(N) | O(1) |
-| 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 Hard | Dp Knapsack | [C++](problems/2035.md) | O(N | O(2^(N/2)) |
+| 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 Hard | Dp Knapsack, 0-1 Knapsack | [C++](problems/2035.md) | O(N | O(2^(N/2)) |
 | 2246 | [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/) | 🔴 Hard | Dp Tree | [C++](problems/2246.md) | O(N) | O(N) |
 | 2266 | [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | 🟡 Medium | Dp Fibonacci | [C++](problems/2266.md) | O(N) | O(最長連續按鍵長度) |
 | 2376 | [Count Special Integers](https://leetcode.com/problems/count-special-integers/) | 🔴 Hard | Dp Digit | [C++](problems/2376.md) | O(D²) | O(1) |

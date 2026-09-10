@@ -6,8 +6,10 @@ solutions:
   difficulty: 🔴 Hard
   tags:
   - Dp Knapsack
+  - 0-1 Knapsack
   topics:
   - dp-knapsack
   time: O(N
   space: O(2^(N/2))
   familiarity: 生疏
+  tricks: null
