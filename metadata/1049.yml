@@ -5,10 +5,10 @@ solutions:
 - file: Solution_1049.cpp
   difficulty: 🟡 Medium
   tags:
-  - DP
   - 0-1 Knapsack
   topics:
   - dp-knapsack
   time: O(N*S)
   space: O(S)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null
