@@ -5,10 +5,22 @@ solutions:
 - file: Solution_0518.cpp
   difficulty: 🟡 Medium
   tags:
-  - DP
+  - Dp Knapsack
   - Unbounded Knapsack
   topics:
   - dp-knapsack
   time: O(N*A)
   space: O(A)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **Knapsack的型態**<br>
+
+    > **Unbounded，排列（順序不同算不同 -> 外層容量，內層物品**<br>
+
+    > **Unbounded，最大最小值 -> 外層容量，內層物品**<br>
+
+    > **Unbounded，組合（順序不同算同一種） -> 外層物品，內層容量從小到大**<br>
+
+    > **0/1，任何問法 -> 外層物品，內層容量從大到小**<br>
+
+    > **本題屬於Unbounded，組合（順序不同算同一種**<br>'
+  tricks: null
