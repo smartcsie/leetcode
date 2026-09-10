@@ -21,10 +21,10 @@ public:
         for(int i = 1; i <= n; i++) {
             for(const int& coin : coins) {
                 if(i >= coin) {
-                    dp[i] = min(dp[i], dp[i - coin] + 1);
+                    dp[i] = min(dp[i], dp [i - coin] + 1);
                 }
             }
         }
-        return dp[n] > n ? -1 : dp[n];
+        return dp[n] == n + 1 ? -1 : dp[n];
     }
 };
