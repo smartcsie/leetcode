@@ -11,7 +11,9 @@ solutions:
   time: O(logN)
   space: O(1)
   familiarity: 練習過
-  note: '> **if(left == nums.size()，要找的數比所有數大**<br>
+  note: '> **lower_bound，upper_bound，重要基本練習題**<br>
+
+    > **if(left == nums.size()，要找的數比所有數大**<br>
 
     > **nums = [1,2,3,5,7,7]，target = 8**<br>
 
