@@ -4880,6 +4880,15 @@
 <a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>if(root-&gt;val &gt; p-&gt;val &amp;&amp; root-&gt;val &gt;  q-&gt;val)</strong><br>
+<strong>確定p q 在左側，return lowestCommonAncestor(root-&gt;left, p, q);</strong><br>
+<strong>if(root-&gt;val &lt; p-&gt;val &amp;&amp; root-&gt;val &lt; q-&gt;val)*<br>
+</strong>確定p q 在右側，return lowestCommonAncestor(root-&gt;right, p, q);<strong><br>
+</strong>確定p q 在一左一右，return root;<strong><br>
+</strong>也可以用236解法，但236是O(N)，本解法是O(h)，還是比較好**<br></p>
+</blockquote>
+<p><strong>相關題目:</strong> <a href="../0236/">236</a></p>
 <hr />
 <h2 id="binary-search-tree_1">解法：binary-search-tree<a class="headerlink" href="#binary-search-tree_1" title="Permanent link">&para;</a></h2>
 <p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Binary Search Tree　<strong>時間:</strong> O(H)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
