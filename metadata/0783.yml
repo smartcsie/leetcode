@@ -12,6 +12,7 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 再練習
+  familiarity: 熟練
   related:
   - 530
+  tricks: null

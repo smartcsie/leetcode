@@ -12,18 +12,17 @@
  */
 
 class Solution {
-public:
-    void inorder(TreeNode* root,int& prev ,int& diff) {
+    void inorder(TreeNode* root,int& pre, int& mn) {
         if(!root) return;
-        inorder(root->left, prev, diff);
-        if(prev != -1) diff = min(diff, root->val - prev);
-        prev = root->val;
-        inorder(root->right, prev, diff);
-    } 
+        inorder(root->left, pre, mn);
+        if(pre != -1) mn = min(mn, root->val - pre);
+        pre = root->val;
+        inorder(root->right, pre, mn);
+    }
+public:
     int minDiffInBST(TreeNode* root) {
-        int prev = -1;
-        int diff = INT_MAX;
-        inorder(root, prev, diff);
-        return diff;
+        int pre = -1, mn = 1e6;
+        inorder(root, pre, mn);
+        return mn;
     }
 };
