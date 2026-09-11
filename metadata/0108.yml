@@ -5,11 +5,14 @@ solutions:
 - file: Solution_0108.cpp
   difficulty: 🟢 Easy
   tags:
-  - Binary Search
+  - Binary Search Tree
   - DFS
   - Binary Search
   topics:
-  - tree-construction
+  - binary-search-tree
   time: O(N)
   space: O(logN)
   familiarity: 練習過
+  related:
+  - 1382
+  tricks: null

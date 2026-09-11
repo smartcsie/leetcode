@@ -5,10 +5,16 @@ solutions:
 - file: Solution_1382.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Binary Search Tree
   - BST
   topics:
   - binary-search-tree
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  note: '> **同108[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)**<br>
+
+    > **只是前面多一個步驟inorder蒐集nums**<br>'
+  related:
+  - 108
+  tricks: null

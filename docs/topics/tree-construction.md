@@ -12,11 +12,9 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Binary Search, DFS, Binary Search | [C++](../problems/0108.md) | O(N) | O(logN) |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（0）
 
