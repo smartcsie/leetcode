@@ -5,14 +5,12 @@ solutions:
 - file: Solution_0230.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Binary Search Tree
   - DFS
   - BST
   topics:
   - binary-search-tree
   time: O(K)
   space: O(H)
-  familiarity: 再練習
-  note: '> k是call by reference <br>
-
-    > int& k <br>'
+  familiarity: 練習過
+  tricks: null

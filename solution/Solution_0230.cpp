@@ -12,8 +12,7 @@ private:
     void inorder(TreeNode* root, int& k, int& ans) {
         if(!root) return;
         inorder(root->left, k, ans);
-        k--;
-        if(k == 0) {
+        if(--k == 0) {
             ans = root->val;
             return;
         }
@@ -26,30 +25,3 @@ public:
         return ans;
     }
 };
-
-
-/**  更好的寫法
-int kthSmallest(TreeNode* root, int k) {
-    stack<TreeNode*> s;
-    TreeNode* curr = root;
-
-    while (curr || !s.empty()) {
-        // 一直往左走到底
-        while (curr) {
-            s.push(curr);
-            curr = curr->left;
-        }
-        
-        // 彈出棧頂節點（目前最小的）
-        curr = s.top();
-        s.pop();
-        
-        // 計數
-        if (--k == 0) return curr->val;
-        
-        // 轉向右子樹
-        curr = curr->right;
-    }
-    return -1;
-}
-*/
