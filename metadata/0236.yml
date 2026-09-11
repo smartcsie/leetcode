@@ -13,4 +13,15 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 練習過
+  note: '> **如果root為空或是p q其中一個為root，那就回傳root**<br>
+
+    > ** TreeNode* left遞迴找左邊**<br>
+
+    > ** TreeNode* right遞迴找右邊**<br>
+
+    > **if(left && right)表示p q分別在左右，回傳root**<br>
+
+    > **否則傳回left或right不為nullptr的**<br>'
+  related:
+  - 235
   tricks: null
