@@ -12,7 +12,8 @@
  */
 
 class Solution {
-    void inorder(TreeNode* root,int& pre, int& mn) {
+private:
+    void inorder(TreeNode* root, int& pre, int& mn) {
         if(!root) return;
         inorder(root->left, pre, mn);
         if(pre != -1) mn = min(mn, root->val - pre);
@@ -21,7 +22,7 @@ class Solution {
     }
 public:
     int minDiffInBST(TreeNode* root) {
-        int pre = -1, mn = 1e6;
+        int mn = INT_MAX, pre = -1;
         inorder(root, pre, mn);
         return mn;
     }

@@ -13,6 +13,7 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 熟練
+  note: '> **同530[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)**'
   related:
   - 530
   tricks: null
