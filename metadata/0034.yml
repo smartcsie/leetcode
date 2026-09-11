@@ -11,7 +11,15 @@ solutions:
   time: O(logN)
   space: O(1)
   familiarity: 練習過
-  note: '> **注意找不到是if(left == nums.size() || nums[left] != target)**<br>'
+  note: '> **if(left == nums.size()，要找的數比所有數大**<br>
+
+    > **nums = [1,2,3,5,7,7]，target = 8**<br>
+
+    > **left == nums.size()成立，left會是6**<br>
+
+    > **nums = [1,2,3,5,5,7], target = 6**<br>
+
+    > **nums[left] != target成立，left會是5，nums[left]=7**<br>'
   tricks:
   - lower_bound
   - upper_bound
