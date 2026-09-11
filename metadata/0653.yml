@@ -12,3 +12,4 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 再練習
+  tricks: null

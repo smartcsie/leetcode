@@ -24,17 +24,12 @@
 
 class Solution {
 private:
-    // 將 Set 傳遞給輔助函式，避免成員變數造成的狀態污染
-    bool dfs(TreeNode* root, int k, unordered_set<int>& seen) {
-        if (!root) return false;
-        if (seen.count(k - root->val)) return true;
-        seen.insert(root->val);
-        return dfs(root->left, k, seen) || dfs(root->right, k, seen);
-    }
-
+    unordered_set<int> seen;
 public:
     bool findTarget(TreeNode* root, int k) {
-        unordered_set<int> seen;
-        return dfs(root, k, seen);
+        if(!root) return false;
+        if(seen.contains(k - root->val)) return true;
+        seen.insert(root->val);
+        return findTarget(root->left, k) || findTarget(root->right, k);
     }
 };
