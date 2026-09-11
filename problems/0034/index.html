@@ -4876,7 +4876,11 @@
 <a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><strong>注意找不到是if(left == nums.size() || nums[left] != target)</strong><br></p>
+<p><strong>if(left == nums.size()，要找的數比所有數大</strong><br>
+<strong>nums = [1,2,3,5,7,7]，target = 8</strong><br>
+<strong>left == nums.size()成立，left會是6</strong><br>
+<strong>nums = [1,2,3,5,5,7], target = 6</strong><br>
+<strong>nums[left] != target成立，left會是5，nums[left]=7</strong><br></p>
 </blockquote>
 
 
