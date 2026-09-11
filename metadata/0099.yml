@@ -5,10 +5,12 @@ solutions:
 - file: Solution_0099.cpp
   difficulty: 🟡 Medium
   tags:
+  - Binary Search Tree
   - BST
   - In-order Traversal
   topics:
   - binary-search-tree
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null

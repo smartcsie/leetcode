@@ -14,30 +14,21 @@
  */
 
 class Solution {
-private:
-    TreeNode *first = nullptr, *second = nullptr, *prev = nullptr;
-
-    void dfs(TreeNode* root) {
-        if (!root) return;
-
-        dfs(root->left);
-
-        // 比較當前節點與前一個節點的值
-        if (prev && prev->val > root->val) {
-            // 第一次發現逆序，first 必為 prev
-            if (!first) first = prev;
-            // 第二次發現逆序 (或相鄰)，second 必為當前的 root
-            second = root;
+    const int PRE = 0, A = 1, B = 2;
+    void inorder(TreeNode* root, vector<TreeNode*>& nodes) {
+        if(!root) return;
+        inorder(root->left, nodes);
+        if(nodes[PRE] && root->val < nodes[PRE]->val) {
+            if(nodes[A] == nullptr) nodes[A] = nodes[PRE];
+            nodes[B] = root;
         }
-        prev = root;
-
-        dfs(root->right);
+        nodes[PRE] = root;
+        inorder(root->right, nodes);
     }
-
 public:
     void recoverTree(TreeNode* root) {
-        dfs(root);
-        // 交換兩處錯誤節點的值
-        if (first && second) swap(first->val, second->val);
+        vector<TreeNode*> nodes(3, nullptr);
+        inorder(root, nodes);
+        if(nodes[A] && nodes[B]) swap(nodes[A]->val, nodes[B]->val);
     }
 };
