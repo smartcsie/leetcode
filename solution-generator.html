@@ -404,6 +404,23 @@
       <input type="text" id="url" placeholder="https://leetcode.com/problems/powx-n/">
     </div>
 
+    <div class="section-label">練習歷程 <span class="hint">(選填，記錄每次重新練習的結果，累加不會覆蓋舊紀錄；日期自動用今天)</span></div>
+    <div id="attemptsHistory" style="font-family: var(--mono); font-size: 12px; color: var(--text-dim); margin-bottom: 10px;">
+      （載入既有題目後，這裡會顯示過去的練習紀錄）
+    </div>
+    <div class="field" style="max-width: 200px;">
+      <label>這次結果</label>
+      <select id="attemptResult">
+        <option value="">（不記錄）</option>
+        <option value="對">對</option>
+        <option value="錯">錯</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>這次的原因 / 心得 <span class="hint">(貼上這次的程式碼，請 AI 幫你比對生成這句話)</span></label>
+      <textarea id="attemptReason" rows="14" placeholder="例如：忘記先排序，邊界條件搞錯&#10;&#10;或直接貼上這次自己寫的程式碼，請 AI 幫你比對已收錄的正確版本，生成這次錯在哪的說明"></textarea>
+    </div>
+
     <div id="solutionsContainer"></div>
 
     <button class="btn-secondary" onclick="addSolutionBlock()">+ 新增解法變體</button>
@@ -449,6 +466,20 @@ let lastYaml = '';
 let lastNumber = '';
 let lastCppFiles = [];
 let lastStructuredData = null;
+let existingAttempts = [];
+
+function renderAttemptsHistory() {
+  const el = document.getElementById('attemptsHistory');
+  if (!existingAttempts.length) {
+    el.textContent = '（目前沒有任何練習紀錄）';
+    return;
+  }
+  el.innerHTML = existingAttempts.map(a => {
+    const icon = a.result === '對' ? '✅' : (a.result === '錯' ? '❌' : '·');
+    const reason = a.reason ? escapeHtml(a.reason) : '';
+    return `<div>${icon} ${escapeHtml(a.date || '')} ${escapeHtml(a.result || '')}　${reason}</div>`;
+  }).join('');
+}
 
 function getActivationCode() {
   return document.getElementById('activationCode').value.trim();
@@ -472,6 +503,14 @@ async function saveViaServer() {
     if (result.errors && result.errors.length) {
       console.warn('部分檔案有問題:', result.errors);
     }
+    // 這次新填的練習紀錄已經存進去了，併回 existingAttempts 並清空輸入框，
+    // 避免下次存檔時同一筆被重複送出
+    if (lastStructuredData.attempts) {
+      existingAttempts = lastStructuredData.attempts;
+      renderAttemptsHistory();
+    }
+    document.getElementById('attemptResult').value = '';
+    document.getElementById('attemptReason').value = '';
     return true;
   } catch (e) {
     console.error(e);
@@ -759,6 +798,11 @@ async function loadExistingProblem() {
     urlField.value = data.url || '';
     urlField.dataset.touched = '1';
 
+    existingAttempts = data.attempts || [];
+    renderAttemptsHistory();
+    document.getElementById('attemptResult').value = '';
+    document.getElementById('attemptReason').value = '';
+
     if (data.solutions && data.solutions[0] && data.solutions[0].difficulty) {
       const diffSelect = document.getElementById('difficultyGlobal');
       const match = Array.from(diffSelect.options).find(o => o.value === data.solutions[0].difficulty);
@@ -905,7 +949,16 @@ function collectStructuredData() {
     return null;
   }
 
-  return { number: parseInt(number, 10), title, url, solutions };
+  // 練習歷程：既有紀錄 + 這次新填的一筆（如果有填結果的話才算一筆新紀錄）
+  const attempts = existingAttempts.slice();
+  const attemptResult = document.getElementById('attemptResult').value;
+  if (attemptResult) {
+    const attemptDate = new Date().toISOString().slice(0, 10);
+    const attemptReason = document.getElementById('attemptReason').value.trim();
+    attempts.push({ date: attemptDate, result: attemptResult, reason: attemptReason || null });
+  }
+
+  return { number: parseInt(number, 10), title, url, solutions, attempts: attempts.length ? attempts : null };
 }
 
 function buildYamlPreview(data) {
@@ -913,6 +966,14 @@ function buildYamlPreview(data) {
   lines.push(`number: ${data.number}`);
   lines.push(`title: ${data.title}`);
   lines.push(`url: ${data.url}`);
+  if (data.attempts && data.attempts.length) {
+    lines.push(`attempts:`);
+    data.attempts.forEach(a => {
+      lines.push(`  - date: ${a.date}`);
+      lines.push(`    result: ${a.result}`);
+      if (a.reason) lines.push(`    reason: ${a.reason}`);
+    });
+  }
   lines.push(`solutions:`);
   data.solutions.forEach(sol => {
     lines.push(`- file: ${sol.file}`);
@@ -988,6 +1049,10 @@ function clearForm() {
   lastNumber = '';
   lastCppFiles = [];
   lastStructuredData = null;
+  existingAttempts = [];
+  document.getElementById('attemptResult').value = '';
+  document.getElementById('attemptReason').value = '';
+  renderAttemptsHistory();
 
   showToast('已清除，可以貼下一題 ✓');
 }

@@ -161,6 +161,27 @@ def build_problem_page(problem, solution_dir):
         lines.append(f"[在 LeetCode 上查看]({url})")
         lines.append('')
 
+    attempts = problem.get('attempts') or []
+    if attempts:
+        lines.append("## 📅 練習歷程")
+        lines.append('')
+        for a in attempts:
+            icon = '✅' if a.get('result') == '對' else ('❌' if a.get('result') == '錯' else '·')
+            date = escape_cell(a.get('date', ''))
+            result = escape_cell(a.get('result', ''))
+            reason = a.get('reason')
+            if reason and '\n' in reason:
+                # 多行內容（很可能是貼上的程式碼），縮排放在清單項目底下，
+                # 不要接在同一行，否則會把 markdown 清單格式弄壞
+                lines.append(f"- {icon} **{date}** {result}")
+                for reason_line in reason.split('\n'):
+                    lines.append(f"    {reason_line}")
+            elif reason:
+                lines.append(f"- {icon} **{date}** {result}　{escape_cell(reason)}")
+            else:
+                lines.append(f"- {icon} **{date}** {result}")
+        lines.append('')
+
     multi = len(solutions) > 1
     missing_files = []
 
