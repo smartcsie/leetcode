@@ -11,4 +11,9 @@ solutions:
   - bit-manipulation-or
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
+  note: '>**lowestZeroBit是右邊屬過來第幾位是0，例如5(101)是2，例如23(10111)是4**<br>
+
+    >**另外有一個很難記的技巧，~nums[i] & -~nums[i]**<br>'
+  tricks:
+  - bit technology
