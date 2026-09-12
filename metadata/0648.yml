@@ -11,10 +11,11 @@ solutions:
   - trie
   time: O(N*L+M*K)
   space: O(D*L)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> [Replace Words](https://leetcode.com/problems/replace-words/)<br>
 
     > 最佳解是用Trie<br>'
+  tricks: null
 - file: Solution_0648_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -24,3 +25,4 @@ solutions:
   time: O(N*L)
   space: O(M*L)
   familiarity: 生疏
+  tricks: null
