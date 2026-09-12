@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0043.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - String
   - String
   topics:
   - string
   time: O(M*N)
   space: O(M+N)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null

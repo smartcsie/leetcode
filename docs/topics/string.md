@@ -1,11 +1,8 @@
 # string
 
-## 🔴 生疏（2）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | Math, String | [C++](../problems/0043.md) | O(M\*N) | O(M+N) |
-| 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) |
+目前沒有標記為生疏的解法。
 
 ## 🟠 再練習（5）
 
@@ -32,12 +29,14 @@
 | 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 Easy | Simulation, Recursion | [C++](../problems/3304.md) | O(K) | O(K) |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String, Pattern Matching | [C++](../problems/3407.md) | O(N+M) | O(M) |
 
-## 🟣 易忘（2）
+## 🟣 易忘（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | String, String | [C++](../problems/0043.md) | O(M\*N) | O(M+N) |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String | [C++](../problems/0557.md) | O(N) | O(1) |
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String, String Manipulation, Bit Format | [C++](../problems/3280.md) | O(1) | O(1) |
+| 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) |
 
 ## 🟢 熟悉（22）
 

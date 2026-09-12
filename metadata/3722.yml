@@ -11,5 +11,6 @@ solutions:
   - string
   time: O(N²)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
   is_best: true
+  tricks: null
