@@ -1,10 +1,8 @@
 # tree-dfs-path
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Hash Table | [C++](../problems/0863.md) | O(N) | O(N) |
+目前沒有標記為生疏的解法。
 
 ## 🟠 再練習（2）
 
@@ -37,7 +35,7 @@
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/1448.md) | O(N) | O(H) |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS | [C++](../problems/2415.md) | O(N) | O(H) |
 
-## 🟣 易忘（5）
+## 🟣 易忘（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -45,6 +43,7 @@
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | Tree, DFS | [C++](../problems/0114.md) | O(N) | O(H) |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0404.md) | O(N) | O(H) |
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0572.md) | O(N\*M) | O(H) |
+| 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Hash Table | [C++](../problems/0863.md) | O(N) | O(N) |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | Tree Dfs Path, DFS, In-order | [C++](../problems/0897.md) | O(N) | O(H) |
 
 ## 🟢 熟悉（5）

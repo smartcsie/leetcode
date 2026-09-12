@@ -12,4 +12,5 @@ solutions:
   - tree-dfs-global
   time: O(N×D²)
   space: O(H×D)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null
