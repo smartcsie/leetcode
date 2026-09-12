@@ -1,23 +1,23 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（234）](#review-shengshu)　[🟣 易忘清單（100）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（233）](#review-shengshu)　[🟣 易忘清單（101）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：231 題　🟠 再練習：161 題　🟡 練習過：216 題　🟣 易忘：86 題　🟢 熟練：286 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：230 題　🟠 再練習：161 題　🟡 練習過：216 題　🟣 易忘：87 題　🟢 熟練：286 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 234 個解法標記為生疏，建議找時間重新練習。
+目前共有 233 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🍱 Array（13）](#shengshu-array)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🍱 Array（12）](#shengshu-array)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
 
 <a id="shengshu-array"></a>
-#### 🍱 Array（13）
+#### 🍱 Array（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -29,7 +29,6 @@
 | 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | Prefix Sum, Hash Map | [C++](problems/0523.md) | O(N) | O(min(N,K)) |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array, Prefix Sum | [C++](problems/0930.md) | O(N) | O(N) |
-| 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Math, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) |
 | 1685 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | 🟡 Medium | Array, Prefix Sum, Math | [C++](problems/1685.md) | O(N) | O(N) |
 | 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/1738.md) | O(M\*N) | O(M\*N) |
 | 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | Prefix Sum, Sliding Window, Multiset | [C++](problems/3364.md) | O(NlogN) | O(N) |
@@ -345,9 +344,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 100 個解法標記為易忘，建議面試前重點複習。
+目前共有 101 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（18）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（16）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（18）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（4）](#yiwang-array)　[🌳 Tree（16）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（3）
@@ -425,11 +424,12 @@
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) |
 
 <a id="yiwang-array"></a>
-#### 🍱 Array（3）
+#### 🍱 Array（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting, Greedy | [C++](problems/0696.md) | O(N) | O(1) |
+| 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) |
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |
 
@@ -542,7 +542,7 @@
 | [array-linear-scan](topics/array-linear-scan.md) | 1 | 5 | 4 | 0 | 15 | 0 | 25 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 1 | 4 | 0 | 1 | 0 | 0 | 6 |
-| [array-prefix-sum](topics/array-prefix-sum.md) | 8 | 1 | 6 | 2 | 2 | 0 | 19 |
+| [array-prefix-sum](topics/array-prefix-sum.md) | 7 | 1 | 6 | 3 | 2 | 0 | 19 |
 | [backtracking-combination](topics/backtracking-combination.md) | 14 | 0 | 0 | 0 | 1 | 0 | 15 |
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
