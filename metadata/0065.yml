@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0065.cpp
   difficulty: 🔴 Hard
   tags:
-  - String
+  - String State Machine
   - State Machine
   topics:
   - string-state-machine
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null
