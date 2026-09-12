@@ -14,26 +14,11 @@
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
+        bitset<10001> bits(1);
         int sum = accumulate(nums.begin(), nums.end(), 0);
-        
-        // 奇數總和無法均分
-        if (sum % 2 != 0) return false;
-        
-        int target = sum >> 1;
-        
-        // 檢查是否有單個元素超過目標值（額外剪枝）
-        // 這裡 bitset 大小應設定為 target + 1，節省空間
-        bitset<10001> bits;
-        bits[0] = 1; // 初始狀態：總和為 0 是可達成的
-        
-        for (const int& num : nums) {
-            // 位元左移代表加上 num，位元或運算合併狀態
-            bits |= (bits << num);
-            
-            // 可選優化：若已經能組成目標，提前中斷
-            if (bits[target]) return true;
+        for(const int& num : nums) {
+            bits |= bits << num;
         }
-        
-        return bits[target];
+        return (sum % 2 == 0) && bits[sum >> 1];
     }
 };

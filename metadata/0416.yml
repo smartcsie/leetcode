@@ -11,7 +11,12 @@ solutions:
   - bit-manipulation
   time: O(N*S/W)
   space: O(S/W)
-  familiarity: 生疏
+  familiarity: 易忘
+  note: '> **bits |= bits << num;是一個bit技巧，bit把num加進去，只要bit.test(k)或bit[k]表示此數可以被子數列相加**<br>
+
+    > **舉例nums = [5, 8, 6, 7]，18 = 5 + 6 + 7，bit[18]會是1**<br>
+
+    > **所以最後取 bits[sum >> 1]表示存在(sum / 2)數可以被nums 中的子集合相加;'
   is_best: true
   tricks: null
 - file: Solution_0416_1.cpp
