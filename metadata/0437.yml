@@ -5,10 +5,19 @@ solutions:
 - file: Solution_0437.cpp
   difficulty: 🟡 Medium
   tags:
+  - Tree Dfs Global
   - DFS
   - Prefix Sum
   topics:
   - tree-dfs-global
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 易忘
+  note: '> **if (prefixSumMap.count(currentSum - target))**<br>
+
+    > **count = prefixSumMap[currentSum - target];**<br>
+
+    > **因為這題的路徑「不需要從根節點（Root）開始，也不需要在葉子節點（Leaf）結束」，**<br>
+
+    > **它可以從樹中任意一個節點出發，到任意一個節點結束！**<br>'
+  tricks: null

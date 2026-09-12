@@ -13,34 +13,23 @@
 
 class Solution {
 private:
-    std::unordered_map<long long, int> prefixSumMap;
-    
-    int dfs(TreeNode* root, long long target, long long currentSum) {
-        if (!root) return 0;
-        
-        currentSum += root->val;
-        int count = 0;
-        
-        // 檢查是否存在一段路徑滿足條件：currentSum - oldSum == target
-        if (prefixSumMap.count(currentSum - target)) {
-            count = prefixSumMap[currentSum - target];
+    unordered_map<long long, int> prefix;
+    int dfs(TreeNode* root, long long target, long long curSum) {
+        if(!root) return 0;
+        curSum += root->val;
+        int paths = 0;
+        if(prefix.count(curSum - target)) {
+            paths = prefix[curSum - target];
         }
-        
-        // 紀錄當前路徑和，並遞迴子節點
-        prefixSumMap[currentSum]++;
-        count += dfs(root->left, target, currentSum);
-        count += dfs(root->right, target, currentSum);
-        
-        // 回溯：移除當前節點對路徑和的影響
-        prefixSumMap[currentSum]--;
-        
-        return count;
+        prefix[curSum]++;
+        paths += dfs(root->left, target, curSum); 
+        paths += dfs(root->right, target, curSum); 
+        prefix[curSum]--;
+        return paths; 
     }
-
 public:
     int pathSum(TreeNode* root, int targetSum) {
-        // 初始化：路徑和為 0 的出現次數為 1 (表示從根節點起算的路徑)
-        prefixSumMap[0] = 1;
-        return dfs(root, (long long)targetSum, 0);
+        prefix[0] = 1;
+        return dfs(root, (long long)targetSum, 0); 
     }
 };
