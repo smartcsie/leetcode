@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（250）](#review-shengshu)　[🟣 易忘清單（84）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（249）](#review-shengshu)　[🟣 易忘清單（85）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：245 題　🟠 再練習：161 題　🟡 練習過：216 題　🟣 易忘：72 題　🟢 熟練：286 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：244 題　🟠 再練習：161 題　🟡 練習過：216 題　🟣 易忘：73 題　🟢 熟練：286 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 250 個解法標記為生疏，建議找時間重新練習。
+目前共有 249 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [📊 Bit Manipulation（4）](#shengshu-bit-manipulation)　[🔗 String（3）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（9）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
+📌 **快速跳轉：** [📊 Bit Manipulation（4）](#shengshu-bit-manipulation)　[🔗 String（3）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（8）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
 
 <a id="shengshu-bit-manipulation"></a>
 #### 📊 Bit Manipulation（4）
@@ -55,13 +55,12 @@
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](problems/3969.md) | O(N²) | O(1) |
 
 <a id="shengshu-tree"></a>
-#### 🌳 Tree（9）
+#### 🌳 Tree（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | Tree Construction, Recursion | [C++](problems/0105.md) | O(N) | O(N) |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | Tree Construction, Recursion | [C++](problems/0106.md) | O(N) | O(N) |
-| 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | Tree, DFS | [C++](problems/0114.md) | O(N) | O(H) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | Tree Dfs Global, Recursion, DP | [C++](problems/0124.md) | O(N) | O(H) |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | DFS, Prefix Sum | [C++](problems/0437.md) | O(N) | O(H) |
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie, Hash Table | [C++](problems/0648.md) | O(N\*L+M\*K) | O(D\*L) |
@@ -379,9 +378,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 84 個解法標記為易忘，建議面試前重點複習。
+目前共有 85 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（14）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（7）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（14）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（8）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（3）
@@ -461,11 +460,12 @@
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |
 
 <a id="yiwang-tree"></a>
-#### 🌳 Tree（7）
+#### 🌳 Tree（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree Dfs Path | [C++](problems/0094.md) | O(N) | O(H) |
+| 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | Tree, DFS | [C++](problems/0114.md) | O(N) | O(H) |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0404.md) | O(N) | O(H) |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Tree Dfs Global, DFS | [C++](problems/0543.md) | O(N) | O(H) |
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0572.md) | O(N\*M) | O(H) |
@@ -661,7 +661,7 @@
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 0 | 2 | 0 | 1 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 3 | 0 | 2 | 2 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 2 | 2 | 20 | 2 | 5 | 0 | 31 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 1 | 2 | 20 | 3 | 5 | 0 | 31 |
 | [tree-traversal](topics/tree-traversal.md) | 0 | 0 | 4 | 0 | 3 | 0 | 7 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |

@@ -11,8 +11,7 @@
  */
 
 class Solution {
-private:
-     TreeNode* flattenTail(TreeNode* root) {
+    TreeNode* flattenTail(TreeNode* root) {
         if(!root) return nullptr;
         if(!root->left && !root->right) return root;
         TreeNode* leftTail = flattenTail(root->left);
@@ -24,7 +23,7 @@ private:
             leftTail->right = temp;
         }
         return rightTail ? rightTail : leftTail;
-     }
+    }
 public:
     void flatten(TreeNode* root) {
         flattenTail(root);
