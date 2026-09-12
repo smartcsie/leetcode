@@ -8,6 +8,6 @@ solutions:
   - Dp Game Theory
   topics:
   - dp-game-theory
-  time: O(2^N
+  time: O(2^N * N)
   space: O(2^N)
   familiarity: 生疏

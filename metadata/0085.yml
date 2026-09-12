@@ -8,6 +8,6 @@ solutions:
   - Monotonic Stack
   topics:
   - monotonic-stack
-  time: O(M
+  time: O(M*N)
   space: O(N)
   familiarity: 生疏

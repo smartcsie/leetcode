@@ -8,6 +8,6 @@ solutions:
   - Dp Interval
   topics:
   - dp-interval
-  time: O(Catalan(N)
-  space: O(Catalan(N)
+  time: O(Catalan(N) * N)
+  space: O(Catalan(N) * N)
   familiarity: 生疏

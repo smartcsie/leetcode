@@ -8,6 +8,6 @@ solutions:
   - Greedy Graph
   topics:
   - greedy-graph
-  time: O(K
+  time: O(K * E)
   space: O(N)
   familiarity: 生疏

@@ -8,6 +8,6 @@ solutions:
   - Dp Digit
   topics:
   - dp-bitmask
-  time: O(40
-  space: O(40
+  time: O(40 * 2^N * 平均每頂帽子對應的人數)
+  space: O(40 * 2^N)
   familiarity: 生疏

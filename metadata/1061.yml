@@ -8,6 +8,6 @@ solutions:
   - Greedy String Construction
   topics:
   - greedy-string-construction
-  time: O(N + M
+  time: O(N + M * α(26))
   space: O(26)
   familiarity: 生疏

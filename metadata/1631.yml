@@ -8,6 +8,6 @@ solutions:
   - Greedy Graph
   topics:
   - greedy-graph
-  time: O(M
-  space: O(M
+  time: O(M*N log(M*N))
+  space: O(M*N)
   familiarity: 生疏

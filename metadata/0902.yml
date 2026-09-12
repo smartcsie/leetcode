@@ -8,6 +8,6 @@ solutions:
   - Dp Digit
   topics:
   - dp-digit
-  time: O(len(N)
+  time: O(len(N) * len(digits))
   space: O(1)
   familiarity: 生疏

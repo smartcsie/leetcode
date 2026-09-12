@@ -1,10 +1,8 @@
 # design
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](../problems/0208.md) | O(L) | O(N |
+目前沒有標記為生疏的解法。
 
 ## 🟠 再練習（5）
 
@@ -20,10 +18,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（1）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](../problems/0208.md) | O(L) | O(N \* L) |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Design, Queue | [C++](../problems/0225.md) | O(N) | O(N) |
 
 ## 🟢 熟悉（1）

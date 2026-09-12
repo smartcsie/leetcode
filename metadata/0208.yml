@@ -9,5 +9,6 @@ solutions:
   topics:
   - design
   time: O(L)
-  space: O(N
-  familiarity: 生疏
+  space: O(N * L)
+  familiarity: 易忘
+  tricks: null

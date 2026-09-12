@@ -8,6 +8,6 @@ solutions:
   - Greedy Optimal Partitioning
   topics:
   - greedy-optimal-partitioning
-  time: O(N²
-  space: O(N
+  time: O(N² * K)
+  space: O(N * K)
   familiarity: 生疏

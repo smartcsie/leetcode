@@ -17,7 +17,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](../problems/0064.md) | O(M\*N) | O(1) |
-| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | Dp Grid Path | [C++](../problems/0221.md) | O(M | O(M |
+| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | Dp Grid Path | [C++](../problems/0221.md) | O(M\*N) | O(M\*N) |
 
 ## 🟣 易忘（1）
 

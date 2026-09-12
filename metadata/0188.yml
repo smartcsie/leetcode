@@ -8,6 +8,6 @@ solutions:
   - Dp State Machine
   topics:
   - dp-state-machine
-  time: O(N
+  time: O(N*K)
   space: O(K)
   familiarity: 生疏

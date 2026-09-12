@@ -8,6 +8,6 @@ solutions:
   - Dynamic Programming Lcs
   topics:
   - dp-lcs
-  time: O(N
-  space: O(N
+  time: O(N*M)
+  space: O(N*M)
   familiarity: 生疏

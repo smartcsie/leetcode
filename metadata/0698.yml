@@ -8,6 +8,6 @@ solutions:
   - Dp Bitmask
   topics:
   - dp-bitmask
-  time: O(2^N
+  time: O(2^N * N)
   space: O(2^N)
   familiarity: 生疏

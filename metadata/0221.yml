@@ -8,7 +8,7 @@ solutions:
   - Dp Grid Path
   topics:
   - dp-grid-path
-  time: O(M
-  space: O(M
+  time: O(M*N)
+  space: O(M*N)
   familiarity: 練習過
   tricks: null
