@@ -14,20 +14,13 @@
  */
 
 class Solution {
-    // 遞迴函數：回傳轉換後的子樹之頭節點，pre 為右側後繼節點
     TreeNode* inorder(TreeNode* root, TreeNode* pre) {
-        if (!root) return pre;
-        
-        // 處理左子樹，並將當前節點作為該左子樹的後繼
-        TreeNode* res = inorder(root->left, root);
-        
-        // 切斷左鏈，將右側連接到右子樹遞迴處理後的結果
+        if(!root) return pre;
+        TreeNode* left = inorder(root->left, root);
         root->left = nullptr;
         root->right = inorder(root->right, pre);
-        
-        return res;
+        return left;
     }
-
 public:
     TreeNode* increasingBST(TreeNode* root) {
         return inorder(root, nullptr);
