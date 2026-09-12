@@ -16,24 +16,18 @@
 class Solution {
 public:
     std::string digitSum(std::string s, int k) {
-        std::string current = s;
-        
-        // 持續縮減字串直到長度小於等於 k
-        while (current.size() > k) {
-            std::string next = "";
-            
-            // 以 k 為單位進行分組加總
-            for (int i = 0; i < current.size(); i += k) {
+        string t = s;
+        while(t.size() > k) {
+            string next;
+            for(int i = 0; i < t.size(); i += k) {
                 int sum = 0;
-                // 加總當前 k 個數字
-                for (int j = i; j < i + k && j < current.size(); j++) {
-                    sum += (current[j] - '0');
+                for(int j = i; j < i + k && j < t.size(); j++) {
+                    sum += t[j] - '0';
                 }
-                next += std::to_string(sum);
+                next += to_string(sum);
             }
-            current = next;
+            t = next;
         }
-        
-        return current;
+        return t;
     }
 };
