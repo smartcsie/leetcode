@@ -1,30 +1,28 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（245）](#review-shengshu)　[🟣 易忘清單（89）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（243）](#review-shengshu)　[🟣 易忘清單（91）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：241 題　🟠 再練習：161 題　🟡 練習過：216 題　🟣 易忘：76 題　🟢 熟練：286 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：239 題　🟠 再練習：161 題　🟡 練習過：216 題　🟣 易忘：78 題　🟢 熟練：286 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 245 個解法標記為生疏，建議找時間重新練習。
+目前共有 243 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [📊 Bit Manipulation（4）](#shengshu-bit-manipulation)　[🔗 String（3）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（4）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
+📌 **快速跳轉：** [📊 Bit Manipulation（2）](#shengshu-bit-manipulation)　[🔗 String（3）](#shengshu-string)　[🍱 Array（13）](#shengshu-array)　[🌳 Tree（4）](#shengshu-tree)　[🔍 Binary Search（11）](#shengshu-binary-search)　[⛓️ Linked List（3）](#shengshu-linked-list)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
 
 <a id="shengshu-bit-manipulation"></a>
-#### 📊 Bit Manipulation（4）
+#### 📊 Bit Manipulation（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) |
-| 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bit Manipulation Xor, Hash Set | [C++](problems/0421.md) | O(N\*L) | O(N) |
-| 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) |
 
 <a id="shengshu-string"></a>
 #### 🔗 String（3）
@@ -374,9 +372,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 89 個解法標記為易忘，建議面試前重點複習。
+目前共有 91 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（14）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（12）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（16）](#yiwang-bit-manipulation)　[🔗 String（4）](#yiwang-string)　[🍱 Array（3）](#yiwang-array)　[🌳 Tree（12）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（1）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（3）
@@ -417,7 +415,7 @@
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math Prime, Prefix Sum | [C++](problems/3770.md) | O(RloglogR) | O(R) |
 
 <a id="yiwang-bit-manipulation"></a>
-#### 📊 Bit Manipulation（14）
+#### 📊 Bit Manipulation（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -426,6 +424,7 @@
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Bit Manipulation, DP | [C++](problems/0338.md) | O(N) | O(N) |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](problems/0401.md) | O(1) | O(1) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) |
+| 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bit Manipulation Xor, Hash Set | [C++](problems/0421.md) | O(N\*L) | O(N) |
 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Array | [C++](problems/0477.md) | O(31\*N) | O(1) |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Backtracking, Bitset | [C++](problems/1239.md) | O(2ᴺ) | O(2ᴺ) |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | Bit Manipulation Or | [C++](problems/1318.md) | O(1) | O(1) |
@@ -435,6 +434,7 @@
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](problems/2411.md) | O(N×30) | O(30) |
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) |
 | 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 Easy | Bit Manipulation, Math | [C++](problems/3314.md) | O(N) | O(N) |
+| 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) |
 
 <a id="yiwang-string"></a>
 #### 🔗 String（4）
@@ -576,7 +576,7 @@
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 2 | 3 | 2 | 3 | 0 | 10 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 1 | 1 | 0 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 2 | 1 | 2 | 0 | 5 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 2 | 6 | 6 | 2 | 2 | 0 | 18 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 6 | 6 | 4 | 2 | 0 | 18 |
 | [design](topics/design.md) | 0 | 5 | 0 | 3 | 1 | 0 | 9 |
 | [dp-bitmask](topics/dp-bitmask.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |

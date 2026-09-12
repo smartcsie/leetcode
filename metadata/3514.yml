@@ -10,4 +10,5 @@ solutions:
   - bit-manipulation-xor
   time: O(MlogM)
   space: O(M)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null
