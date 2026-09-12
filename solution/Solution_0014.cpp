@@ -16,27 +16,10 @@
  * 3. 一旦觸發停止條件，直接利用 substr 截取 0 到 i-1 的部分並回傳。
  */
 
-class Solution {
-public:
-    string longestCommonPrefix(vector<string>& strs) {
-        if (strs.empty()) return "";
-
-        // 以第一個字串為基準進行垂直掃描
-        for (int i = 0; i < strs[0].size(); i++) {
-            char c = strs[0][i];
-            
-            // 檢查其餘字串的第 i 個位置
-            for (int j = 1; j < strs.size(); j++) {
-                // 修正：當 i 達到當前字串長度，或字元不匹配時
-                if (i == strs[j].size() || strs[j][i] != c) {
-                    // substr(起始索引, 長度) 
-                    // 此時符合的前綴長度正好是 i (索引 0 到 i-1)
-                    return strs[0].substr(0, i);
-                }
+if(strs.empty()) return "";
+        for(int chIdx = 0; chIdx < strs[0].size(); chIdx++) {
+            for(int sIdx = 1; sIdx < strs.size(); sIdx++) {
+                if(strs[0][chIdx] != strs[sIdx][chIdx] || chIdx == strs[sIdx].size()) return strs[0].substr(0, chIdx);
             }
         }
-
-        // 如果全部跑完都沒觸發 return，說明 strs[0] 本身就是最長前綴
         return strs[0];
-    }
-};
