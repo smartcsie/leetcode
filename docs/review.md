@@ -1,20 +1,20 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（230）](#review-shengshu)　[🟣 易忘清單（104）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（229）](#review-shengshu)　[🟣 易忘清單（104）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：227 題　🟠 再練習：161 題　🟡 練習過：216 題　🟣 易忘：90 題　🟢 熟練：286 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：226 題　🟠 再練習：161 題　🟡 練習過：217 題　🟣 易忘：90 題　🟢 熟練：286 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 230 個解法標記為生疏，建議找時間重新練習。
+目前共有 229 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🍱 Array（12）](#shengshu-array)　[🔍 Binary Search（11）](#shengshu-binary-search)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（6）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🍱 Array（12）](#shengshu-array)　[🔍 Binary Search（11）](#shengshu-binary-search)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（5）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
 
 <a id="shengshu-array"></a>
 #### 🍱 Array（12）
@@ -103,7 +103,7 @@
 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | Stack, Greedy | [C++](problems/1963.md) | O(N) | O(1) |
 
 <a id="shengshu-priority-queue"></a>
-#### 📚 Priority Queue（6）
+#### 📚 Priority Queue（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -112,7 +112,6 @@
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | Hash Table, Heap | [C++](problems/0692.md) | O(NlogK) | O(N) |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 Easy | Heap (Priority Queue) | [C++](problems/0703.md) | O(NlogK) | O(K) |
 | 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Priority Queue, Binary Search | [C++](problems/0786.md) | O(NlogN) | O(N) |
-| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Heap (Priority Queue) | [C++](problems/1046.md) | O(NlogN) | O(N) |
 
 <a id="shengshu-queue"></a>
 #### 📚 Queue（1）
@@ -613,7 +612,7 @@
 | [math-simulation](topics/math-simulation.md) | 0 | 0 | 1 | 0 | 2 | 0 | 3 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 8 | 0 | 0 | 0 | 0 | 0 | 8 |
-| [priority-queue](topics/priority-queue.md) | 6 | 0 | 1 | 0 | 0 | 0 | 7 |
+| [priority-queue](topics/priority-queue.md) | 5 | 0 | 2 | 0 | 0 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 1 | 4 | 1 | 0 | 0 | 0 | 6 |
 | [sorting](topics/sorting.md) | 4 | 0 | 6 | 1 | 4 | 0 | 15 |

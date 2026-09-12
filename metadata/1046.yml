@@ -5,9 +5,11 @@ solutions:
 - file: Solution_1046.cpp
   difficulty: 🟢 Easy
   tags:
+  - Priority Queue
   - Heap (Priority Queue)
   topics:
   - priority-queue
   time: O(NlogN)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 練習過
+  tricks: null

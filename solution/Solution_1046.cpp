@@ -15,20 +15,12 @@
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
-        // 利用建構子直接初始化，比迴圈 push 更高效
         priority_queue<int> pq(stones.begin(), stones.end());
-        
-        while (pq.size() > 1) {
-            int y = pq.top(); pq.pop(); // 最重的石頭
-            int x = pq.top(); pq.pop(); // 次重的石頭
-            
-            // 若兩者重量不同，將差值壓回堆中
-            if (x != y) {
-                pq.push(y - x);
-            }
+        while(pq.size() > 1) {
+            int y = pq.top(); pq.pop();
+            int x = pq.top(); pq.pop();
+            if(x != y) pq.push(y-x);
         }
-        
-        // 若堆為空回傳 0，否則回傳剩下的石頭重量
         return pq.empty() ? 0 : pq.top();
     }
 };
