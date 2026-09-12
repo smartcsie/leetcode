@@ -5,10 +5,11 @@ solutions:
 - file: Solution_0173.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Design
   - Stack
   topics:
-  - tree-dfs-path
+  - design
   time: O(1)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null

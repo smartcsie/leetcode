@@ -11,35 +11,25 @@
  * 2. 空間優化：將空間開銷從 O(N) 降至 O(h)。
  */
 
-#include <stack>
-
 class BSTIterator {
 private:
-    std::stack<TreeNode*> st;
-
-    // 將 node 及 node 左子樹的所有節點推入堆疊
-    void pushLeft(TreeNode* node) {
-        while (node) {
-            st.push(node);
-            node = node->left;
+    stack<TreeNode*> st;
+    void pushLeft(TreeNode* root) {
+        while(root) {
+            st.push(root);
+            root = root->left;
         }
     }
-
 public:
     BSTIterator(TreeNode* root) {
         pushLeft(root);
     }
-    
-    // 返回下一個元素
     int next() {
-        TreeNode* topNode = st.top();
+        TreeNode* node = st.top();
         st.pop();
-        // 如果該節點有右子樹，則將其右子樹及右子樹的左路徑推入
-        pushLeft(topNode->right);
-        return topNode->val;
+        pushLeft(node->right);
+        return node->val;
     }
-    
-    // 檢查是否還有下一個元素
     bool hasNext() {
         return !st.empty();
     }
