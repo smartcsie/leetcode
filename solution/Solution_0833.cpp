@@ -14,30 +14,22 @@
 class Solution {
 public:
     string findReplaceString(string s, vector<int>& indices, vector<string>& sources, vector<string>& targets) {
-        int n = static_cast<int>(s.size());
-        int m = static_cast<int>(indices.size());
-        // 使用映射陣列存放：index -> 替換操作編號
-        vector<int> opIndex(n, -1);
-        for (int i = 0; i < m; ++i) {
-            int start = indices[i];
-            // 檢查是否匹配
-            if (s.compare(start, sources[i].size(), sources[i]) == 0) {
-                opIndex[start] = i;
-            }
+        int n = s.size();
+        vector<int> rIdx(n, -1);
+        for(int i = 0; i < indices.size(); i++) {
+            int idx = indices[i];
+            string source = sources[i];
+            if(s.substr(idx, source.size()).compare(source) == 0) rIdx[idx] = i;
         }
-        string res;
-        res.reserve(n); // 預分配記憶體，減少動態擴容
-        for (int i = 0; i < n; ) {
-            if (opIndex[i] != -1) {
-                // 若該位置有合法替換
-                res += targets[opIndex[i]];
-                i += sources[opIndex[i]].size();
+        string ans;
+        for(int i = 0; i < n;) {
+            if(rIdx[i] == -1) {
+                ans.push_back(s[i++]);
             } else {
-                // 否則直接加入原字串
-                res.push_back(s[i]);
-                i++;
+                ans += targets[rIdx[i]];
+                i += sources[rIdx[i]].size();
             }
         }
-        return res;
+        return ans;
     }
 };

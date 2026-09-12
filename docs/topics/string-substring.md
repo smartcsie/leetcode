@@ -1,10 +1,8 @@
 # string-substring
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | String | [C++](../problems/0833.md) | O(N+M\*K) | O(N) |
+目前沒有標記為生疏的解法。
 
 ## 🟠 再練習（1）
 
@@ -12,9 +10,11 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | String | [C++](../problems/0796.md) | O(N) | O(N) |
 
-## 🟡 練習過（0）
+## 🟡 練習過（1）
 
-目前沒有標記為練習過的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | String | [C++](../problems/0833.md) | O(N+M\*K) | O(N) |
 
 ## 🟣 易忘（0）
 
