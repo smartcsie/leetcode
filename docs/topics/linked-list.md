@@ -1,11 +1,10 @@
 # linked-list
 
-## 🔴 生疏（2）
+## 🔴 生疏（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 Hard | Linked List | [C++](../problems/0025.md) | O(N) | O(1) |
-| 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack, Recursion | [C++](../problems/2487.md) | O(N) | O(N) |
 
 ## 🟠 再練習（2）
 
@@ -29,11 +28,12 @@
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 Medium | Linked List | [C++](../problems/2130.md) | O(N) | O(1) |
 | 2181 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | 🟡 Medium | Linked List, In-place Modification | [C++](../problems/2181.md) | O(N) | O(1) |
 
-## 🟣 易忘（1）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](../problems/0021.md) | O(N+M) | O(1) |
+| 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack, Recursion | [C++](../problems/2487.md) | O(N) | O(N) |
 
 ## 🟢 熟悉（3）
 
