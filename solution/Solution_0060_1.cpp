@@ -31,18 +31,13 @@
 class Solution {
 public:
     string getPermutation(int n, int k) {
-        vector<int> nums(n);
-        for(int x = 1; x <= n; x++) {
-            nums[x - 1] = x;
-        }
+        vector<int> str_nums(n);
+        iota(str_nums.begin(), str_nums.end(), '1');
         string ans;
         ans.reserve(n);
         do {
-            k--;
-            if(k == 0) {
-                for(int i = 0; i < n; i++) ans.push_back(nums[i] + '0');
-            }
-        } while(next_permutation(nums.begin(), nums.end()));
+            if(--k == 0) for(int i = 0; i < n; i++) ans.push_back(str_nums[i]);
+        } while(next_permutation(str_nums.begin(), str_nums.end()));
         return ans;
     }
 };

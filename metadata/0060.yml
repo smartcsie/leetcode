@@ -22,4 +22,6 @@ solutions:
   time: O(N × N!)
   space: O(N)
   familiarity: 練習過
-  tricks: null
+  tricks:
+  - iota
+  - next_permutation
