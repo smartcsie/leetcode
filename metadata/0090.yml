@@ -13,5 +13,6 @@ solutions:
   - bit-bitmask-subset-enumeration
   time: O(2ᴺ*Nlog(2ᴺ))
   space: O(2ᴺ*N)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null
 - *id001
