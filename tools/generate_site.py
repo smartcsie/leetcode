@@ -575,6 +575,94 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
     return len(rows) + len(forgetful_rows)
 
 
+def get_latest_attempt_date(problem):
+    """回傳這題 attempts 清單裡最新一筆的日期字串，沒有就回傳空字串。"""
+    attempts = problem.get('attempts') or []
+    dates = [a.get('date') for a in attempts if a.get('date')]
+    return max(dates) if dates else ''
+
+
+# 固定的分類顯示順序（沒列在這裡的分類會照字母順序排在後面）
+TOPIC_INDEX_GROUP_ORDER = [
+    '資料結構 Data Structures',
+    '演算法 Algorithms',
+    'Two Pointers',
+    'Bit Manipulation',
+    'Dynamic Programming',
+    'Tree',
+    'Graph',
+    'Math',
+    'Greedy',
+]
+
+
+def build_topic_index_page(problems, docs_dir):
+    """
+    掃描所有題目的 'represents' 欄位（題目層級，跟 attempts 同一層），
+    自動產生 docs/topic_index.md。完全自動產生，不用手動編輯：
+    - 上次複習日期：直接抓該題 attempts 裡最新一筆
+    - 這輪自評：跟著 represents 每一項一起存的 self_assessment 欄位
+    """
+    by_group = {}
+    for problem in problems:
+        represents = problem.get('represents') or []
+        if not represents:
+            continue
+        latest_date = get_latest_attempt_date(problem)
+        for r in represents:
+            if r.get('show_in_index') is False:
+                continue  # 「代表題」有標，但「加入主題索引」沒打勾，跳過不顯示
+            group = r.get('group', '📄 Other')
+            by_group.setdefault(group, []).append({
+                'label': r.get('label', ''),
+                'number': problem['number'],
+                'title': problem['title'],
+                'url': problem.get('url', ''),
+                'date': latest_date,
+                'self_assessment': r.get('self_assessment', '') or '',
+            })
+
+    lines = [
+        "# 主題索引 Topic Index",
+        "",
+        "每個主題的代表題一覽，作為各分類筆記頁面的學習起點，也是系統性",
+        "複習的路線圖。這份頁面是自動產生的——上次複習日期直接抓代表題",
+        "的練習歷程；如果要新增/調整代表題，或填寫「這輪自評」，請到",
+        "metadata 裡對應題目的 `represents` 欄位編輯，不要直接改這個檔案，",
+        "下次重新產生網站時會被覆蓋掉。",
+        "",
+        "同一個主題內部，複習順序建議用 "
+        "`tools/list_topic_review_order.py <topic_slug>` 抓（依照 "
+        "🔴 生疏 → 🟣 易忘 → 🟠 再練習 → 🟡 練習過 → 🟢 熟練 排序）。",
+        "",
+        "---",
+        "",
+    ]
+
+    ordered_groups = [g for g in TOPIC_INDEX_GROUP_ORDER if g in by_group]
+    ordered_groups += sorted(g for g in by_group if g not in TOPIC_INDEX_GROUP_ORDER)
+
+    for group in ordered_groups:
+        lines.append(f"## {group}")
+        lines.append('')
+        lines.append("| 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |")
+        lines.append("| --- | --- | --- | --- | --- |")
+        rows = sorted(by_group[group], key=lambda r: r['number'])
+        for r in rows:
+            rep_cell = f"{r['number']}. {escape_cell(r['title'])}"
+            link_cell = f"[連結]({r['url']})" if r['url'] else ''
+            lines.append(f"| {escape_cell(r['label'])} | {rep_cell} | {link_cell} | "
+                         f"{escape_cell(r['date'])} | {escape_cell(r['self_assessment'])} |")
+        lines.append('')
+        lines.append('---')
+        lines.append('')
+
+    with open(os.path.join(docs_dir, 'topic_index.md'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
+
+    return sum(len(v) for v in by_group.values())
+
+
 def main():
     if len(sys.argv) != 4:
         print("Usage: python3 generate_site.py <metadata_dir> <solution_dir> <docs_dir>")
@@ -609,6 +697,9 @@ def main():
 
     review_count = build_review_page(problems, docs_dir)
     print(f"複習清單（生疏／易忘）: {review_count} 筆 -> docs/review.md")
+
+    topic_index_count = build_topic_index_page(problems, docs_dir)
+    print(f"主題索引: {topic_index_count} 筆代表題 -> docs/topic_index.md")
 
     # 固定分類顯示順序（不再依賴 metadata 掃描順序，避免每次改資料 nav 順序就跟著亂跳）。
     # 沒列在這裡的分類（例如未來新增的 GROUPS 規則、或掉進 📄 Other 的）會被排在最後面。

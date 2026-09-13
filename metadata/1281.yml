@@ -12,3 +12,7 @@ solutions:
   time: O(logN)
   space: O(1)
   familiarity: 練習過
+represents:
+- group: Math
+  label: Digit Decomposition
+  show_in_index: true

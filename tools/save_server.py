@@ -85,16 +85,16 @@ def is_safe_filename(name):
     return bool(name) and SAFE_FILENAME_RE.match(name) and '..' not in name
 
 
-def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_solutions, incoming_attempts=None):
+def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_solutions,
+                            incoming_attempts=None, incoming_represents=None):
     """
     合併寫入：若 metadata/{number}.yml 已存在，讀出既有 solutions，
     依照 'file' 欄位比對：同檔名 -> 覆蓋更新；不同檔名 -> 新增變體。
 
-    incoming_attempts：前端（solution-generator.html）每次都會送出「完整」
-    的練習歷程清單（既有紀錄 + 這次新增的一筆，合併動作在前端 JS 做過了），
-    所以這裡直接整份寫入即可，不用再做一次合併。
-    如果這次請求完全沒有帶 attempts 這個欄位（例如舊版前端、或本來就沒有
-    練習歷程），就保留檔案裡原本已經有的內容，不要把它洗掉。
+    incoming_attempts、incoming_represents：前端每次都會送出「完整」的
+    清單（既有紀錄 + 這次編輯結果，合併/編輯動作在前端 JS 做過了），
+    所以這裡直接整份寫入即可。如果這次請求完全沒帶這個欄位（None），
+    就保留檔案裡原本已經有的內容，不要把它洗掉。
 
     回傳 (saved_paths, errors)
     """
@@ -107,12 +107,14 @@ def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_
 
     existing_solutions = []
     existing_attempts = []
+    existing_represents = []
     if os.path.exists(meta_path):
         try:
             with open(meta_path, 'r', encoding='utf-8') as f:
                 existing_data = yaml.safe_load(f) or {}
             existing_solutions = existing_data.get('solutions', []) or []
             existing_attempts = existing_data.get('attempts', []) or []
+            existing_represents = existing_data.get('represents', []) or []
         except Exception as e:
             errors.append(f'讀取既有 metadata 失敗，將視為新檔案處理: {e}')
 
@@ -151,9 +153,10 @@ def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_
 
     merged_solutions = [by_file[f] for f in order if f in by_file]
 
-    # incoming_attempts 是 None 代表這次請求根本沒帶這個欄位（保留原本的）；
-    # 是空 list 代表「前端明確送出空清單」，一樣視同「沒有練習歷程」。
+    # incoming_xxx 是 None 代表這次請求根本沒帶這個欄位（保留原本的）；
+    # 是空 list 代表「前端明確送出空清單」，一樣視同「沒有資料」。
     final_attempts = incoming_attempts if incoming_attempts is not None else existing_attempts
+    final_represents = incoming_represents if incoming_represents is not None else existing_represents
 
     meta_out = {
         'number': number,
@@ -162,6 +165,8 @@ def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_
     }
     if final_attempts:
         meta_out['attempts'] = final_attempts
+    if final_represents:
+        meta_out['represents'] = final_represents
     meta_out['solutions'] = merged_solutions
 
     with open(meta_path, 'w', encoding='utf-8') as f:
@@ -246,6 +251,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             'title': data.get('title', ''),
             'url': data.get('url', ''),
             'attempts': data.get('attempts', []) or [],
+            'represents': data.get('represents', []) or [],
             'solutions': solutions,
         })
 
@@ -266,11 +272,13 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         title = data.get('title', '')
         url = data.get('url', '')
         incoming_solutions = data.get('solutions', [])
-        incoming_attempts = data.get('attempts')  # None 代表這次請求沒帶這個欄位
+        incoming_attempts = data.get('attempts')
+        incoming_represents = data.get('represents')
 
         try:
             saved, errors = save_metadata_and_code(
-                METADATA_DIR, SOLUTION_DIR, number, title, url, incoming_solutions, incoming_attempts
+                METADATA_DIR, SOLUTION_DIR, number, title, url, incoming_solutions,
+                incoming_attempts, incoming_represents
             )
         except Exception as e:
             self._send_json(500, {'error': f'存檔時發生錯誤: {e}'})

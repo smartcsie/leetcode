@@ -26,3 +26,7 @@ solutions:
   time: O(1)
   space: O(1)
   familiarity: 練習過
+represents:
+- group: Bit Manipulation
+  label: Brian Kernighan
+  show_in_index: true

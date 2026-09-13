@@ -14,3 +14,7 @@ solutions:
   time: O(M×N)
   space: O(1)
   familiarity: 生疏
+represents:
+- group: Graph
+  label: DFS
+  show_in_index: true

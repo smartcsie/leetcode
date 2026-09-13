@@ -18,3 +18,7 @@ solutions:
     > **總步數為 (m-1) + (n-1)，從中選取 m-1 步向下走**。<br>
 
     > **C(m + n - 2, m - 1)** <br>'
+represents:
+- group: Dynamic Programming
+  label: DP on Grid
+  show_in_index: true

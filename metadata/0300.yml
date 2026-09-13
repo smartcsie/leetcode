@@ -32,3 +32,7 @@ solutions:
   related:
   - 674
   tricks: null
+represents:
+- group: Dynamic Programming
+  label: LIS
+  show_in_index: true

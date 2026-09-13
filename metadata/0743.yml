@@ -11,3 +11,7 @@ solutions:
   time: O(E·logV)
   space: O(V+E)
   familiarity: 生疏
+represents:
+- group: Graph
+  label: Dijkstra
+  show_in_index: true

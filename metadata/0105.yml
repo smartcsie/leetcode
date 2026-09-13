@@ -13,3 +13,7 @@ solutions:
   space: O(N)
   familiarity: 易忘
   tricks: null
+represents:
+- group: Tree
+  label: Construction
+  show_in_index: true

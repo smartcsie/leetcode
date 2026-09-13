@@ -22,3 +22,7 @@ solutions:
   related:
   - 279
   tricks: null
+represents:
+- group: Dynamic Programming
+  label: Unbounded Knapsack
+  show_in_index: true

@@ -12,3 +12,10 @@ solutions:
   time: O(NloglogN)
   space: O(N)
   familiarity: 練習過
+represents:
+- group: 演算法 Algorithms
+  label: Sieve of Eratosthenes
+  show_in_index: true
+- group: Math
+  label: Prime / Sieve
+  show_in_index: true

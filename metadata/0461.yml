@@ -23,3 +23,7 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 再練習
+represents:
+- group: Bit Manipulation
+  label: __builtin_popcount
+  show_in_index: true

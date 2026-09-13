@@ -12,3 +12,7 @@ solutions:
   space: O(N)
   familiarity: 練習過
   is_best: true
+represents:
+- group: 資料結構 Data Structures
+  label: unordered_map
+  show_in_index: true

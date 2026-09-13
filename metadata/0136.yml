@@ -12,3 +12,10 @@ solutions:
   space: O(1)
   familiarity: 再練習
   note: '> 所有num出現兩次，目標num出現一次，全部的數字XOR起來就是答案<br>'
+represents:
+- group: Bit Manipulation
+  label: XOR 消除
+  show_in_index: true
+- group: Math
+  label: accumulate XOR
+  show_in_index: true

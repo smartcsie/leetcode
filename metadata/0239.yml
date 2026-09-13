@@ -12,3 +12,7 @@ solutions:
   time: O(N)
   space: O(K)
   familiarity: 生疏
+represents:
+- group: 資料結構 Data Structures
+  label: monotonic queue
+  show_in_index: true

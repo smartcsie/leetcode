@@ -17,3 +17,7 @@ solutions:
   - overflow handle
   - gcd
   - lcm
+represents:
+- group: 演算法 Algorithms
+  label: Binary Search on Answer
+  show_in_index: true

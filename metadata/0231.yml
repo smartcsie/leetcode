@@ -28,3 +28,7 @@ solutions:
     > 解法三 bit數量<br>
 
     > **return n >= 0 && __builtin_popcount(n) == 1;** <br>'
+represents:
+- group: Bit Manipulation
+  label: n & (n-1)
+  show_in_index: true

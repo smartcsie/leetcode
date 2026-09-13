@@ -12,3 +12,7 @@ solutions:
   space: O(1)
   familiarity: 練習過
   note: '> 區間閉合 [left, right]，因此使用 <= ，while (left <= right)'
+represents:
+- group: 演算法 Algorithms
+  label: Binary Search
+  show_in_index: true

@@ -22,3 +22,7 @@ solutions:
 
     > **profit keep 先買後賣利潤最大**<br>'
   tricks: null
+represents:
+- group: Dynamic Programming
+  label: State Machine
+  show_in_index: true

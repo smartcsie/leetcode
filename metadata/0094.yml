@@ -40,3 +40,7 @@ solutions:
   space: O(H)
   familiarity: 易忘
   tricks: null
+represents:
+- group: Tree
+  label: Inorder
+  show_in_index: true

@@ -12,3 +12,7 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 生疏
+represents:
+- group: 資料結構 Data Structures
+  label: monotonic stack
+  show_in_index: true

@@ -14,3 +14,7 @@ solutions:
   note: '> 所有元素之間AND，再把所有結果XOR，等於所有元素直接OR'
   tricks:
   - accumulate
+represents:
+- group: Bit Manipulation
+  label: accumulate XOR
+  show_in_index: true

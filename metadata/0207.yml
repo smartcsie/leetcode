@@ -11,3 +11,7 @@ solutions:
   time: O(V+E)
   space: O(V+E)
   familiarity: 生疏
+represents:
+- group: Graph
+  label: Topological Sort
+  show_in_index: true

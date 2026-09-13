@@ -12,3 +12,7 @@ solutions:
   time: O(NlogK)
   space: O(K)
   familiarity: 生疏
+represents:
+- group: 資料結構 Data Structures
+  label: priority_queue min heap
+  show_in_index: true

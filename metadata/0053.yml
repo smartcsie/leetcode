@@ -20,3 +20,7 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 再練習
+represents:
+- group: Dynamic Programming
+  label: Kadane
+  show_in_index: true

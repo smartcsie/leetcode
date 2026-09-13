@@ -12,3 +12,7 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 練習過
+represents:
+- group: Two Pointers
+  label: 對撞指針
+  show_in_index: true

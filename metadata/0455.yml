@@ -11,3 +11,10 @@ solutions:
   time: O(N log N)
   space: O(1)
   familiarity: 再練習
+represents:
+- group: Greedy
+  label: Sorting Decision
+  show_in_index: true
+- group: Greedy
+  label: Fractional Knapsack
+  show_in_index: true

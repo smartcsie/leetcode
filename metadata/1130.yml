@@ -11,3 +11,7 @@ solutions:
   time: O(N³)
   space: O(N²)
   familiarity: 生疏
+represents:
+- group: Dynamic Programming
+  label: Interval DP
+  show_in_index: true

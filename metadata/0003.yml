@@ -12,3 +12,7 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 生疏
+represents:
+- group: Two Pointers
+  label: 滑動視窗（可變）
+  show_in_index: true
