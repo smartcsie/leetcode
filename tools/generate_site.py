@@ -595,15 +595,55 @@ TOPIC_INDEX_GROUP_ORDER = [
     'Greedy',
 ]
 
+# 把 group_for() 產生的技巧型分組（emoji 開頭），對應到 topic_index.md
+# 既有的 9 個主分類名稱，讓「自動冒出來」的練習紀錄盡量併進去同一個
+# 分類底下，不用另外開一堆零散的新分類。沒對應到的，維持 group_for()
+# 原本的名稱，自然會變成新的分類區塊。
+GROUP_FOR_TO_TOPIC_INDEX_GROUP = {
+    '🔢 Math': 'Math',
+    '📊 Bit Manipulation': 'Bit Manipulation',
+    '🔍 Binary Search': '演算法 Algorithms',
+    '👥 Pointers': 'Two Pointers',
+    '🔢 Sliding Window': 'Two Pointers',
+    '🧩 Dynamic Programming': 'Dynamic Programming',
+    '🧩 Greedy': 'Greedy',
+    '🌳 Tree': 'Tree',
+    '🕸️ Graph': 'Graph',
+    '🔑 Hash Table': '資料結構 Data Structures',
+    '📚 Stack': '資料結構 Data Structures',
+    '📚 Queue': '資料結構 Data Structures',
+    '📚 Priority Queue': '資料結構 Data Structures',
+    '📚 Quick Select': '資料結構 Data Structures',
+    '⛓️ Linked List': '資料結構 Data Structures',
+}
+
+
+def slug_to_label(slug):
+    """把 topic slug 轉成人看得懂的標籤，例如 dp-knapsack -> Dp Knapsack。"""
+    return ' '.join(word.capitalize() for word in slug.split('-'))
+
 
 def build_topic_index_page(problems, docs_dir):
     """
-    掃描所有題目的 'represents' 欄位（題目層級，跟 attempts 同一層），
-    自動產生 docs/topic_index.md。完全自動產生，不用手動編輯：
-    - 上次複習日期：直接抓該題 attempts 裡最新一筆
-    - 這輪自評：跟著 represents 每一項一起存的 self_assessment 欄位
+    自動產生 docs/topic_index.md，內容有兩種來源：
+    - ⭐ 代表題：手動在 solution-generator.html 標記過的 represents
+      （group/label 是自訂的，show_in_index 決定要不要顯示）
+    - 🔹 練習中：只要某個分類主題（topics slug）底下任一題有 attempts
+      記錄，就自動抓「最新練習的那一題」當代表，label 直接用 slug
+      轉換出來的名稱，group 沿用 group_for() 的分類邏輯
+
+    兩種來源獨立顯示、不會互相覆蓋，方便之後把「練習中」正式升級成
+    「代表題」時知道要改哪一筆。
     """
     by_group = {}
+
+    def add_row(group, label, number, title, url, date, self_assessment, kind):
+        by_group.setdefault(group, []).append({
+            'label': label, 'number': number, 'title': title, 'url': url,
+            'date': date, 'self_assessment': self_assessment, 'kind': kind,
+        })
+
+    # 1. 手動標記的代表題
     for problem in problems:
         represents = problem.get('represents') or []
         if not represents:
@@ -611,25 +651,47 @@ def build_topic_index_page(problems, docs_dir):
         latest_date = get_latest_attempt_date(problem)
         for r in represents:
             if r.get('show_in_index') is False:
-                continue  # 「代表題」有標，但「加入主題索引」沒打勾，跳過不顯示
-            group = r.get('group', '📄 Other')
-            by_group.setdefault(group, []).append({
-                'label': r.get('label', ''),
-                'number': problem['number'],
-                'title': problem['title'],
-                'url': problem.get('url', ''),
-                'date': latest_date,
-                'self_assessment': r.get('self_assessment', '') or '',
-            })
+                continue
+            add_row(r.get('group', '📄 Other'), r.get('label', ''),
+                    problem['number'], problem['title'], problem.get('url', ''),
+                    latest_date, r.get('self_assessment', '') or '', 'curated')
+
+    # 2. 自動掃描：每個 topics slug，只要底下任一題有 attempts，
+    # 挑「最新練習的那一題」當代表
+    curated_group_numbers = {
+        (group, r['number']) for group, rows in by_group.items() for r in rows
+    }
+
+    best_per_slug = {}  # slug -> (latest_date, number, title, url)
+    for problem in problems:
+        latest_date = get_latest_attempt_date(problem)
+        if not latest_date:
+            continue
+        slugs = set()
+        for sol in problem.get('solutions', []) or []:
+            slugs.update(to_list(sol.get('topics')))
+        for slug in slugs:
+            current = best_per_slug.get(slug)
+            if current is None or latest_date > current[0]:
+                best_per_slug[slug] = (latest_date, problem['number'], problem['title'], problem.get('url', ''))
+
+    for slug, (latest_date, number, title, url) in best_per_slug.items():
+        raw_group = group_for(slug)
+        group = GROUP_FOR_TO_TOPIC_INDEX_GROUP.get(raw_group, raw_group)
+        if (group, number) in curated_group_numbers:
+            continue  # 這一題在這個分類底下已經有正式代表題了，不要重複冒出來
+        add_row(group, slug_to_label(slug), number, title, url, latest_date, '', 'auto')
 
     lines = [
         "# 主題索引 Topic Index",
         "",
         "每個主題的代表題一覽，作為各分類筆記頁面的學習起點，也是系統性",
-        "複習的路線圖。這份頁面是自動產生的——上次複習日期直接抓代表題",
-        "的練習歷程；如果要新增/調整代表題，或填寫「這輪自評」，請到",
-        "metadata 裡對應題目的 `represents` 欄位編輯，不要直接改這個檔案，",
-        "下次重新產生網站時會被覆蓋掉。",
+        "複習的路線圖。這份頁面是自動產生的，不要直接編輯，下次重新產生",
+        "網站時會被覆蓋掉。",
+        "",
+        "**⭐ 代表題**：手動在 solution-generator.html 標記過的正式代表；"
+        "**🔹 練習中**：這個分類主題底下有題目練習過，自動抓最新一次當代表，"
+        "還沒正式升級成代表題。",
         "",
         "同一個主題內部，複習順序建議用 "
         "`tools/list_topic_review_order.py <topic_slug>` 抓（依照 "
@@ -642,17 +704,20 @@ def build_topic_index_page(problems, docs_dir):
     ordered_groups = [g for g in TOPIC_INDEX_GROUP_ORDER if g in by_group]
     ordered_groups += sorted(g for g in by_group if g not in TOPIC_INDEX_GROUP_ORDER)
 
+    total = 0
     for group in ordered_groups:
         lines.append(f"## {group}")
         lines.append('')
-        lines.append("| 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |")
-        lines.append("| --- | --- | --- | --- | --- |")
-        rows = sorted(by_group[group], key=lambda r: r['number'])
+        lines.append("| 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |")
+        lines.append("| --- | --- | --- | --- | --- | --- |")
+        rows = sorted(by_group[group], key=lambda r: (0 if r['kind'] == 'curated' else 1, r['number']))
         for r in rows:
+            kind_icon = '⭐ 代表題' if r['kind'] == 'curated' else '🔹 練習中'
             rep_cell = f"{r['number']}. {escape_cell(r['title'])}"
             link_cell = f"[連結]({r['url']})" if r['url'] else ''
-            lines.append(f"| {escape_cell(r['label'])} | {rep_cell} | {link_cell} | "
+            lines.append(f"| {kind_icon} | {escape_cell(r['label'])} | {rep_cell} | {link_cell} | "
                          f"{escape_cell(r['date'])} | {escape_cell(r['self_assessment'])} |")
+            total += 1
         lines.append('')
         lines.append('---')
         lines.append('')
@@ -660,7 +725,7 @@ def build_topic_index_page(problems, docs_dir):
     with open(os.path.join(docs_dir, 'topic_index.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
 
-    return sum(len(v) for v in by_group.values())
+    return total
 
 
 def main():
