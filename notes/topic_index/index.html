@@ -4848,7 +4848,14 @@
 
 
 <h1 id="topic-index">主題索引 Topic Index<a class="headerlink" href="#topic-index" title="Permanent link">&para;</a></h1>
-<p>每個主題的代表題一覽，作為各分類筆記頁面的學習起點。</p>
+<p>每個主題的代表題一覽，作為各分類筆記頁面的學習起點，也是系統性複習的
+路線圖：由上往下依序走過每個主題，每個主題內部的題目複習順序，建議
+用 <code>tools/list_topic_review_order.py &lt;topic_slug&gt;</code> 抓出來（會依照
+🔴 生疏 → 🟣 易忘 → 🟠 再練習 → 🟡 練習過 → 🟢 熟練 排序，優先處理
+風險高的）。</p>
+<p><strong>這輪自評</strong>欄位：🟢 穩／🟡 普通／🔴 卡住——這是「這個主題整體複習完」
+的快照，跟 metadata 裡每一題各自的熟悉度不衝突，複習完這個主題底下
+所有題目後再回來填這兩欄。</p>
 <hr />
 <h2 id="data-structures">資料結構 Data Structures<a class="headerlink" href="#data-structures" title="Permanent link">&para;</a></h2>
 <table>
@@ -4857,6 +4864,8 @@
 <th>主題</th>
 <th>代表題</th>
 <th>LeetCode</th>
+<th>上次複習日期</th>
+<th>這輪自評</th>
 </tr>
 </thead>
 <tbody>
@@ -4864,46 +4873,64 @@
 <td>unordered_map</td>
 <td>1. Two Sum</td>
 <td><a href="https://leetcode.com/problems/two-sum/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>unordered_set</td>
 <td>217. Contains Duplicate</td>
 <td><a href="https://leetcode.com/problems/contains-duplicate/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>stack</td>
 <td>20. Valid Parentheses</td>
 <td><a href="https://leetcode.com/problems/valid-parentheses/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>monotonic stack</td>
 <td>739. Daily Temperatures</td>
 <td><a href="https://leetcode.com/problems/daily-temperatures/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>monotonic queue</td>
 <td>239. Sliding Window Maximum</td>
 <td><a href="https://leetcode.com/problems/sliding-window-maximum/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>priority_queue max heap</td>
 <td>215. Kth Largest Element in an Array</td>
 <td><a href="https://leetcode.com/problems/kth-largest-element-in-an-array/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>priority_queue min heap</td>
 <td>23. Merge k Sorted Lists</td>
 <td><a href="https://leetcode.com/problems/merge-k-sorted-lists/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>trie</td>
 <td>208. Implement Trie</td>
 <td><a href="https://leetcode.com/problems/implement-trie-prefix-tree/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>union find</td>
 <td>547. Number of Provinces</td>
 <td><a href="https://leetcode.com/problems/number-of-provinces/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4915,6 +4942,8 @@
 <th>主題</th>
 <th>代表題</th>
 <th>LeetCode</th>
+<th>上次複習日期</th>
+<th>這輪自評</th>
 </tr>
 </thead>
 <tbody>
@@ -4922,36 +4951,50 @@
 <td>Binary Search</td>
 <td>704. Binary Search</td>
 <td><a href="https://leetcode.com/problems/binary-search/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Binary Search Find Left Bound</td>
 <td>278. First Bad Version</td>
 <td><a href="https://leetcode.com/problems/first-bad-version/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Binary Search Find Right Bound</td>
 <td>69. Sqrt(x)</td>
 <td><a href="https://leetcode.com/problems/sqrtx/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Binary Search on Answer</td>
 <td>1201. Ugly Number III</td>
 <td><a href="https://leetcode.com/problems/ugly-number-iii/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>lower_bound / upper_bound</td>
 <td>34. Find First and Last Position of Element in Sorted Array</td>
 <td><a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Sieve of Eratosthenes</td>
 <td>204. Count Primes</td>
 <td><a href="https://leetcode.com/problems/count-primes/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>KMP</td>
 <td>28. Find the Index of the First Occurrence in a String</td>
 <td><a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4963,6 +5006,8 @@
 <th>主題</th>
 <th>代表題</th>
 <th>LeetCode</th>
+<th>上次複習日期</th>
+<th>這輪自評</th>
 </tr>
 </thead>
 <tbody>
@@ -4970,21 +5015,29 @@
 <td>對撞指針</td>
 <td>167. Two Sum II - Input Array Is Sorted</td>
 <td><a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>快慢指針</td>
 <td>141. Linked List Cycle</td>
 <td><a href="https://leetcode.com/problems/linked-list-cycle/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>滑動視窗（固定）</td>
 <td>219. Contains Duplicate II</td>
 <td><a href="https://leetcode.com/problems/contains-duplicate-ii/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>滑動視窗（可變）</td>
 <td>3. Longest Substring Without Repeating Characters</td>
 <td><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -4996,6 +5049,8 @@
 <th>主題</th>
 <th>代表題</th>
 <th>LeetCode</th>
+<th>上次複習日期</th>
+<th>這輪自評</th>
 </tr>
 </thead>
 <tbody>
@@ -5003,31 +5058,43 @@
 <td>XOR 消除</td>
 <td>136. Single Number</td>
 <td><a href="https://leetcode.com/problems/single-number/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>accumulate XOR</td>
 <td>2317. Maximum XOR After Operations</td>
 <td><a href="https://leetcode.com/problems/maximum-xor-after-operations/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Brian Kernighan</td>
 <td>191. Number of 1 Bits</td>
 <td><a href="https://leetcode.com/problems/number-of-1-bits/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>__builtin_popcount</td>
 <td>461. Hamming Distance</td>
 <td><a href="https://leetcode.com/problems/hamming-distance/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Bitmask Subset Enumeration</td>
 <td>78. Subsets</td>
 <td><a href="https://leetcode.com/problems/subsets/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>n &amp; (n-1)</td>
 <td>231. Power of Two</td>
 <td><a href="https://leetcode.com/problems/power-of-two/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -5039,6 +5106,8 @@
 <th>主題</th>
 <th>代表題</th>
 <th>LeetCode</th>
+<th>上次複習日期</th>
+<th>這輪自評</th>
 </tr>
 </thead>
 <tbody>
@@ -5046,56 +5115,78 @@
 <td>Kadane</td>
 <td>53. Maximum Subarray</td>
 <td><a href="https://leetcode.com/problems/maximum-subarray/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Fibonacci</td>
 <td>70. Climbing Stairs</td>
 <td><a href="https://leetcode.com/problems/climbing-stairs/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>0/1 Knapsack</td>
 <td>416. Partition Equal Subset Sum</td>
 <td><a href="https://leetcode.com/problems/partition-equal-subset-sum/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Unbounded Knapsack</td>
 <td>322. Coin Change</td>
 <td><a href="https://leetcode.com/problems/coin-change/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>LCS</td>
 <td>1143. Longest Common Subsequence</td>
 <td><a href="https://leetcode.com/problems/longest-common-subsequence/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>LIS</td>
 <td>300. Longest Increasing Subsequence</td>
 <td><a href="https://leetcode.com/problems/longest-increasing-subsequence/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>DP on Tree</td>
 <td>543. Diameter of Binary Tree</td>
 <td><a href="https://leetcode.com/problems/diameter-of-binary-tree/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>DP on Grid</td>
 <td>62. Unique Paths</td>
 <td><a href="https://leetcode.com/problems/unique-paths/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>State Machine</td>
 <td>121. Best Time to Buy and Sell Stock</td>
 <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Interval DP</td>
 <td>1130. Minimum Cost Tree From Leaf Values</td>
 <td><a href="https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Bitmask DP</td>
 <td>847. Shortest Path Visiting All Nodes</td>
 <td><a href="https://leetcode.com/problems/shortest-path-visiting-all-nodes/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -5107,6 +5198,8 @@
 <th>主題</th>
 <th>代表題</th>
 <th>LeetCode</th>
+<th>上次複習日期</th>
+<th>這輪自評</th>
 </tr>
 </thead>
 <tbody>
@@ -5114,46 +5207,64 @@
 <td>Inorder</td>
 <td>94. Binary Tree Inorder Traversal</td>
 <td><a href="https://leetcode.com/problems/binary-tree-inorder-traversal/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Preorder</td>
 <td>144. Binary Tree Preorder Traversal</td>
 <td><a href="https://leetcode.com/problems/binary-tree-preorder-traversal/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Postorder</td>
 <td>145. Binary Tree Postorder Traversal</td>
 <td><a href="https://leetcode.com/problems/binary-tree-postorder-traversal/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BFS Level Order</td>
 <td>102. Binary Tree Level Order Traversal</td>
 <td><a href="https://leetcode.com/problems/binary-tree-level-order-traversal/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>DFS Path</td>
 <td>112. Path Sum</td>
 <td><a href="https://leetcode.com/problems/path-sum/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>DFS Global</td>
 <td>543. Diameter of Binary Tree</td>
 <td><a href="https://leetcode.com/problems/diameter-of-binary-tree/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>DFS Backtracking</td>
 <td>113. Path Sum II</td>
 <td><a href="https://leetcode.com/problems/path-sum-ii/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BST</td>
 <td>700. Search in a Binary Search Tree</td>
 <td><a href="https://leetcode.com/problems/search-in-a-binary-search-tree/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Construction</td>
 <td>105. Construct Binary Tree from Preorder and Inorder Traversal</td>
 <td><a href="https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -5165,6 +5276,8 @@
 <th>主題</th>
 <th>代表題</th>
 <th>LeetCode</th>
+<th>上次複習日期</th>
+<th>這輪自評</th>
 </tr>
 </thead>
 <tbody>
@@ -5172,31 +5285,43 @@
 <td>DFS</td>
 <td>200. Number of Islands</td>
 <td><a href="https://leetcode.com/problems/number-of-islands/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>BFS</td>
 <td>994. Rotting Oranges</td>
 <td><a href="https://leetcode.com/problems/rotting-oranges/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Topological Sort</td>
 <td>207. Course Schedule</td>
 <td><a href="https://leetcode.com/problems/course-schedule/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Dijkstra</td>
 <td>743. Network Delay Time</td>
 <td><a href="https://leetcode.com/problems/network-delay-time/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Union Find</td>
 <td>547. Number of Provinces</td>
 <td><a href="https://leetcode.com/problems/number-of-provinces/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>MST</td>
 <td>1584. Min Cost to Connect All Points</td>
 <td><a href="https://leetcode.com/problems/min-cost-to-connect-all-points/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -5208,6 +5333,8 @@
 <th>主題</th>
 <th>代表題</th>
 <th>LeetCode</th>
+<th>上次複習日期</th>
+<th>這輪自評</th>
 </tr>
 </thead>
 <tbody>
@@ -5215,31 +5342,43 @@
 <td>accumulate sum</td>
 <td>3512. Minimum Operations to Make Array Sum Divisible by K</td>
 <td><a href="https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>accumulate XOR</td>
 <td>136. Single Number</td>
 <td><a href="https://leetcode.com/problems/single-number/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>unique</td>
 <td>217. Contains Duplicate</td>
 <td><a href="https://leetcode.com/problems/contains-duplicate/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>GCD</td>
 <td>1979. Find Greatest Common Divisor of Array</td>
 <td><a href="https://leetcode.com/problems/find-greatest-common-divisor-of-array/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Digit Decomposition</td>
 <td>1281. Subtract the Product and Sum of Digits of an Integer</td>
 <td><a href="https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Prime / Sieve</td>
 <td>204. Count Primes</td>
 <td><a href="https://leetcode.com/problems/count-primes/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -5251,6 +5390,8 @@
 <th>主題</th>
 <th>代表題</th>
 <th>LeetCode</th>
+<th>上次複習日期</th>
+<th>這輪自評</th>
 </tr>
 </thead>
 <tbody>
@@ -5258,21 +5399,29 @@
 <td>Sorting Decision</td>
 <td>455. Assign Cookies</td>
 <td><a href="https://leetcode.com/problems/assign-cookies/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Interval Scheduling</td>
 <td>435. Non-overlapping Intervals</td>
 <td><a href="https://leetcode.com/problems/non-overlapping-intervals/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Priority Queue</td>
 <td>2208. Minimum Operations to Halve Array Sum</td>
 <td><a href="https://leetcode.com/problems/minimum-operations-to-halve-array-sum/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>Fractional Knapsack</td>
 <td>455. Assign Cookies</td>
 <td><a href="https://leetcode.com/problems/assign-cookies/">連結</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
