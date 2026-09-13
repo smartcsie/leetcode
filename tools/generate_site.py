@@ -79,6 +79,16 @@ GROUPS = [
     (r'^sql$', '🔢 SQL'),
 ]
 
+# 固定的分類顯示順序：nav 產生跟 topic_index.md 都共用這一份，
+# 避免兩個地方各自維護一份清單、改一邊忘了改另一邊。
+CATEGORY_ORDER = [
+    '🔢 Math', '🔗 String', '📊 Bit Manipulation', '🍱 Array',
+    '🔍 Binary Search', '🔢 Sliding Window', '🔑 Hash Table', '👥 Pointers',
+    '⛓️ Linked List', '📚 Stack', '📚 Queue', '🔢 Backtracking',
+    '🧩 Dynamic Programming', '🧩 Greedy', '🌳 Tree', '🕸️ Graph',
+    '🎨 Design', '📊 Sorting', '📚 Priority Queue', '🔢 SQL', '📚 Quick Select',
+]
+
 def group_for(slug):
     for pattern, title in GROUPS:
         if re.search(pattern, slug):
@@ -582,42 +592,6 @@ def get_latest_attempt_date(problem):
     return max(dates) if dates else ''
 
 
-# 固定的分類顯示順序（沒列在這裡的分類會照字母順序排在後面）
-TOPIC_INDEX_GROUP_ORDER = [
-    '資料結構 Data Structures',
-    '演算法 Algorithms',
-    'Two Pointers',
-    'Bit Manipulation',
-    'Dynamic Programming',
-    'Tree',
-    'Graph',
-    'Math',
-    'Greedy',
-]
-
-# 把 group_for() 產生的技巧型分組（emoji 開頭），對應到 topic_index.md
-# 既有的 9 個主分類名稱，讓「自動冒出來」的練習紀錄盡量併進去同一個
-# 分類底下，不用另外開一堆零散的新分類。沒對應到的，維持 group_for()
-# 原本的名稱，自然會變成新的分類區塊。
-GROUP_FOR_TO_TOPIC_INDEX_GROUP = {
-    '🔢 Math': 'Math',
-    '📊 Bit Manipulation': 'Bit Manipulation',
-    '🔍 Binary Search': '演算法 Algorithms',
-    '👥 Pointers': 'Two Pointers',
-    '🔢 Sliding Window': 'Two Pointers',
-    '🧩 Dynamic Programming': 'Dynamic Programming',
-    '🧩 Greedy': 'Greedy',
-    '🌳 Tree': 'Tree',
-    '🕸️ Graph': 'Graph',
-    '🔑 Hash Table': '資料結構 Data Structures',
-    '📚 Stack': '資料結構 Data Structures',
-    '📚 Queue': '資料結構 Data Structures',
-    '📚 Priority Queue': '資料結構 Data Structures',
-    '📚 Quick Select': '資料結構 Data Structures',
-    '⛓️ Linked List': '資料結構 Data Structures',
-}
-
-
 def slug_to_label(slug):
     """把 topic slug 轉成人看得懂的標籤，例如 dp-knapsack -> Dp Knapsack。"""
     return ' '.join(word.capitalize() for word in slug.split('-'))
@@ -625,15 +599,20 @@ def slug_to_label(slug):
 
 def build_topic_index_page(problems, docs_dir):
     """
-    自動產生 docs/topic_index.md，內容有兩種來源：
+    自動產生 docs/topic_index.md，分類方式直接沿用網站其他地方（nav、
+    docs/topics/*.md）本來就在用的同一套 group_for()，不再自訂一套
+    分類名稱，跟複習清單、分類頁保持一致，好對照。
+
+    內容有兩種來源：
     - ⭐ 代表題：手動在 solution-generator.html 標記過的 represents
-      （group/label 是自訂的，show_in_index 決定要不要顯示）
+      （label 是自訂的主題名稱，group 從固定分類清單選；
+      show_in_index 決定要不要顯示）
     - 🔹 練習中：只要某個分類主題（topics slug）底下任一題有 attempts
       記錄，就自動抓「最新練習的那一題」當代表，label 直接用 slug
-      轉換出來的名稱，group 沿用 group_for() 的分類邏輯
+      轉換出來的名稱，group 用 group_for(slug) 算
 
-    兩種來源獨立顯示、不會互相覆蓋，方便之後把「練習中」正式升級成
-    「代表題」時知道要改哪一筆。
+    兩種來源獨立顯示、不會互相覆蓋；同一題如果在同一個 group 底下
+    兩種身份都符合，只顯示正式的「⭐ 代表題」，避免重複。
     """
     by_group = {}
 
@@ -643,7 +622,7 @@ def build_topic_index_page(problems, docs_dir):
             'date': date, 'self_assessment': self_assessment, 'kind': kind,
         })
 
-    # 1. 手動標記的代表題
+    # 1. 手動標記的代表題（group 現在也是從 group_for() 那套固定清單選的）
     for problem in problems:
         represents = problem.get('represents') or []
         if not represents:
@@ -657,7 +636,7 @@ def build_topic_index_page(problems, docs_dir):
                     latest_date, r.get('self_assessment', '') or '', 'curated')
 
     # 2. 自動掃描：每個 topics slug，只要底下任一題有 attempts，
-    # 挑「最新練習的那一題」當代表
+    # 挑「最新練習的那一題」當代表，group 直接用 group_for(slug)
     curated_group_numbers = {
         (group, r['number']) for group, rows in by_group.items() for r in rows
     }
@@ -676,8 +655,7 @@ def build_topic_index_page(problems, docs_dir):
                 best_per_slug[slug] = (latest_date, problem['number'], problem['title'], problem.get('url', ''))
 
     for slug, (latest_date, number, title, url) in best_per_slug.items():
-        raw_group = group_for(slug)
-        group = GROUP_FOR_TO_TOPIC_INDEX_GROUP.get(raw_group, raw_group)
+        group = group_for(slug)
         if (group, number) in curated_group_numbers:
             continue  # 這一題在這個分類底下已經有正式代表題了，不要重複冒出來
         add_row(group, slug_to_label(slug), number, title, url, latest_date, '', 'auto')
@@ -687,7 +665,7 @@ def build_topic_index_page(problems, docs_dir):
         "",
         "每個主題的代表題一覽，作為各分類筆記頁面的學習起點，也是系統性",
         "複習的路線圖。這份頁面是自動產生的，不要直接編輯，下次重新產生",
-        "網站時會被覆蓋掉。",
+        "網站時會被覆蓋掉。分類方式跟複習清單、分類頁一致。",
         "",
         "**⭐ 代表題**：手動在 solution-generator.html 標記過的正式代表；"
         "**🔹 練習中**：這個分類主題底下有題目練習過，自動抓最新一次當代表，"
@@ -701,8 +679,8 @@ def build_topic_index_page(problems, docs_dir):
         "",
     ]
 
-    ordered_groups = [g for g in TOPIC_INDEX_GROUP_ORDER if g in by_group]
-    ordered_groups += sorted(g for g in by_group if g not in TOPIC_INDEX_GROUP_ORDER)
+    ordered_groups = [g for g in CATEGORY_ORDER if g in by_group]
+    ordered_groups += sorted(g for g in by_group if g not in CATEGORY_ORDER)
 
     total = 0
     for group in ordered_groups:
@@ -766,31 +744,9 @@ def main():
     topic_index_count = build_topic_index_page(problems, docs_dir)
     print(f"主題索引: {topic_index_count} 筆代表題 -> docs/topic_index.md")
 
-    # 固定分類顯示順序（不再依賴 metadata 掃描順序，避免每次改資料 nav 順序就跟著亂跳）。
-    # 沒列在這裡的分類（例如未來新增的 GROUPS 規則、或掉進 📄 Other 的）會被排在最後面。
-    CATEGORY_ORDER = [
-        '🔢 Math',
-        '🔗 String',
-        '📊 Bit Manipulation',
-        '🍱 Array',
-        '🔍 Binary Search',
-        '🔢 Sliding Window',
-        '🔑 Hash Table',
-        '👥 Pointers',
-        '⛓️ Linked List',
-        '📚 Stack',
-        '📚 Queue',
-        '🔢 Backtracking',
-        '🧩 Dynamic Programming',
-        '🧩 Greedy',
-        '🌳 Tree',
-        '🕸️ Graph',
-        '🎨 Design',
-        '📊 Sorting',
-        '📚 Priority Queue',
-        '🔢 SQL',
-        '📚 Quick Select',
-    ]
+    # 分類顯示順序共用模組層級的 CATEGORY_ORDER（不再依賴 metadata 掃描
+    # 順序，避免每次改資料 nav 順序就跟著亂跳）。沒列在這裡的分類（例如
+    # 未來新增的 GROUPS 規則、或掉進 📄 Other 的）會被排在最後面。
 
     nav_entries = OrderedDict()
     for topic in topic_rows:

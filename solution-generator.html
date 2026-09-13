@@ -489,9 +489,14 @@ function getActivationCode() {
   return document.getElementById('activationCode').value.trim();
 }
 
+// 這份清單要跟 generate_site.py 的 CATEGORY_ORDER 保持完全一致，
+// 兩邊改動要同步，不然代表題標記的 group 會跟網站實際分類對不起來。
 const TOPIC_INDEX_GROUPS = [
-  '資料結構 Data Structures', '演算法 Algorithms', 'Two Pointers',
-  'Bit Manipulation', 'Dynamic Programming', 'Tree', 'Graph', 'Math', 'Greedy',
+  '🔢 Math', '🔗 String', '📊 Bit Manipulation', '🍱 Array',
+  '🔍 Binary Search', '🔢 Sliding Window', '🔑 Hash Table', '👥 Pointers',
+  '⛓️ Linked List', '📚 Stack', '📚 Queue', '🔢 Backtracking',
+  '🧩 Dynamic Programming', '🧩 Greedy', '🌳 Tree', '🕸️ Graph',
+  '🎨 Design', '📊 Sorting', '📚 Priority Queue', '🔢 SQL', '📚 Quick Select',
 ];
 
 let representCount = 0;
