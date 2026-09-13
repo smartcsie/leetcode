@@ -1,6 +1,10 @@
 number: 3512
 title: Minimum Operations to Make Array Sum Divisible by K
 url: https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/
+attempts:
+- date: '2026-09-13'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_3512.cpp
   difficulty: 🟢 Easy
@@ -10,7 +14,7 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
   note: '> 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>'
   tricks:
   - accumulate
