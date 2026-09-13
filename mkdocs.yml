@@ -46,6 +46,7 @@ markdown_extensions:
 nav:
   - 首頁: index.md
   - 📝 複習清單: review.md
+  - 🗺️ 主題索引: topic_index.md
   - 🔢 Math:
       - math-digit-decomposition: topics/math-digit-decomposition.md
       - math-palindrome: topics/math-palindrome.md
@@ -121,6 +122,7 @@ nav:
       - backtracking-constraint: topics/backtracking-constraint.md
       - backtracking-permutation: topics/backtracking-permutation.md
       - backtracking-grid: topics/backtracking-grid.md
+      - backtracking: topics/backtracking.md
   - 🧩 Dynamic Programming:
       - dp-string: topics/dp-string.md
       - dp-kadane: topics/dp-kadane.md
@@ -188,3 +190,5 @@ nav:
       - sql: topics/sql.md
   - 📚 Quick Select:
       - quick-select: topics/quick-select.md
+  - 📄 Other:
+      - topic_index: topics/topic_index.md
