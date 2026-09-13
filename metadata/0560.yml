@@ -12,4 +12,7 @@ solutions:
   - array-prefix-sum
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
+  related:
+  - 930
+  tricks: null

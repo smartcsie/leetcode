@@ -11,4 +11,5 @@ solutions:
   - array
   time: O(M*N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null
