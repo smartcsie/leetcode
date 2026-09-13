@@ -5,13 +5,16 @@ solutions:
 - file: Solution_0930.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Array Prefix Sum
   - Prefix Sum
   topics:
   - array-prefix-sum
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
+  related:
+  - 560
+  tricks: null
 - file: Solution_0930_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -21,6 +24,7 @@ solutions:
   time: O(N^2)
   space: O(N)
   familiarity: 練習過
+  tricks: null
 - file: Solution_0930_2.cpp
   difficulty: 🟡 Medium
   tags:
@@ -29,4 +33,5 @@ solutions:
   - variable-size-sliding-window
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  tricks: null

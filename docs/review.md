@@ -1,30 +1,29 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（225）](#review-shengshu)　[🟣 易忘清單（108）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（223）](#review-shengshu)　[🟣 易忘清單（110）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：222 題　🟠 再練習：161 題　🟡 練習過：217 題　🟣 易忘：94 題　🟢 熟練：286 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：161 題　🟡 練習過：218 題　🟣 易忘：94 題　🟢 熟練：286 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 225 個解法標記為生疏，建議找時間重新練習。
+目前共有 223 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🍱 Array（8）](#shengshu-array)　[🔍 Binary Search（11）](#shengshu-binary-search)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（5）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（21）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🍱 Array（7）](#shengshu-array)　[🔍 Binary Search（11）](#shengshu-binary-search)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（5）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（20）](#shengshu-sliding-window)
 
 <a id="shengshu-array"></a>
-#### 🍱 Array（8）
+#### 🍱 Array（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | Array, Voting Algorithm | [C++](problems/0229.md) | O(N) | O(1) |
 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array Prefix Sum, Matrix, Prefix Sum | [C++](problems/0304.md) | O(M\*N) | O(M\*N) |
 | 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | Prefix Sum, Hash Map | [C++](problems/0523.md) | O(N) | O(min(N,K)) |
-| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array, Prefix Sum | [C++](problems/0930.md) | O(N) | O(N) |
 | 1685 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | 🟡 Medium | Array, Prefix Sum, Math | [C++](problems/1685.md) | O(N) | O(N) |
 | 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/1738.md) | O(M\*N) | O(M\*N) |
 | 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | Prefix Sum, Sliding Window, Multiset | [C++](problems/3364.md) | O(NlogN) | O(N) |
@@ -299,7 +298,7 @@
 | 2305 | [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/) | 🟡 Medium | Backtracking Constraint | [C++](problems/2305.md) | O(K^N) | O(N) |
 
 <a id="shengshu-sliding-window"></a>
-#### 🔢 Sliding Window（21）
+#### 🔢 Sliding Window（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -308,7 +307,6 @@
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | 🟡 Medium | Sliding Window, Hash Table | [C++](problems/0424.md) | O(N) | O(1) |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 Medium | Sliding Window, Frequency Array | [C++](problems/0567.md) | O(L1+L2) | O(1) |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | Array, Sliding Window | [C++](problems/0643.md) | O(N) | O(1) |
-| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Variable Size Sliding Window | [C++](problems/0930.md) | O(N) | O(1) |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | 🟡 Medium | Sliding Window | [C++](problems/1004.md) | O(N) | O(1) |
 | 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | 🟡 Medium | Array, Two Pointers, Sliding Window | [C++](problems/1248.md) | O(N) | O(1) |
 | 1287 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | 🟢 Easy | Array, Sliding Window | [C++](problems/1287.md) | O(N) | O(1) |
@@ -330,9 +328,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 108 個解法標記為易忘，建議面試前重點複習。
+目前共有 110 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（18）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（8）](#yiwang-array)　[🌳 Tree（16）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（4）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)
+📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（18）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（9）](#yiwang-array)　[🌳 Tree（16）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（4）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（3）
@@ -410,7 +408,7 @@
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) |
 
 <a id="yiwang-array"></a>
-#### 🍱 Array（8）
+#### 🍱 Array（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -419,6 +417,7 @@
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](problems/0059.md) | O(N²) | O(1) |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting, Greedy | [C++](problems/0696.md) | O(N) | O(1) |
+| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0930.md) | O(N) | O(N) |
 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) |
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |
@@ -520,6 +519,13 @@
 | 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](problems/2571.md) | O(logN) | O(1) |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy, Math, Brainteaser | [C++](problems/2745.md) | O(1) | O(1) |
 
+<a id="yiwang-sliding-window"></a>
+#### 🔢 Sliding Window（1）
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Variable Size Sliding Window | [C++](problems/0930.md) | O(N) | O(1) |
+
 ---
 
 ## 📊 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
@@ -535,7 +541,7 @@
 | [array-linear-scan](topics/array-linear-scan.md) | 1 | 5 | 4 | 0 | 15 | 0 | 25 |
 | [array-min-max](topics/array-min-max.md) | 0 | 1 | 0 | 0 | 3 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 4 | 0 | 2 | 0 | 0 | 6 |
-| [array-prefix-sum](topics/array-prefix-sum.md) | 6 | 1 | 6 | 4 | 2 | 0 | 19 |
+| [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 1 | 7 | 4 | 2 | 0 | 19 |
 | [backtracking-combination](topics/backtracking-combination.md) | 14 | 0 | 0 | 0 | 1 | 0 | 15 |
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
@@ -646,5 +652,5 @@
 | [two-pointers-same](topics/two-pointers-same.md) | 9 | 3 | 3 | 2 | 3 | 0 | 20 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 4 | 0 | 0 | 10 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
+| [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 1 | 0 | 0 | 0 | 11 |
 
