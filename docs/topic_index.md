@@ -58,7 +58,6 @@
 | ⭐ 代表題 | Bitmask Subset Enumeration | 78. Subsets | [連結](https://leetcode.com/problems/subsets) |  |  |
 | ⭐ 代表題 | XOR 消除 | 136. Single Number | [連結](https://leetcode.com/problems/single-number) |  |  |
 | ⭐ 代表題 | Brian Kernighan | 191. Number of 1 Bits | [連結](https://leetcode.com/problems/number-of-1-bits) |  |  |
-| ⭐ 代表題 | n & (n-1) | 231. Power of Two | [連結](https://leetcode.com/problems/power-of-two/) |  |  |
 | ⭐ 代表題 | __builtin_popcount | 461. Hamming Distance | [連結](https://leetcode.com/problems/hamming-distance) |  |  |
 | ⭐ 代表題 | accumulate XOR | 2317. Maximum XOR After Operations | [連結](https://leetcode.com/problems/maximum-xor-after-operations) |  |  |
 
@@ -120,6 +119,7 @@
 | ⭐ 代表題 | Digit Decomposition | 1281. Subtract the Product and Sum of Digits of an Integer | [連結](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) |  |  |
 | ⭐ 代表題 | GCD | 1979. Find Greatest Common Divisor of Array | [連結](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) |  |  |
 | ⭐ 代表題 | accumulate sum | 3512. Minimum Operations to Make Array Sum Divisible by K | [連結](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 2026-09-13 |  |
+| 🔹 練習中 | Math | 231. Power of Two | [連結](https://leetcode.com/problems/power-of-two/) | 2026-09-13 |  |
 
 ---
 

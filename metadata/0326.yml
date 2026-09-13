@@ -1,6 +1,10 @@
 number: 326
 title: Power of Three
 url: https://leetcode.com/problems/power-of-three/
+attempts:
+- date: '2026-09-13'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0326.cpp
   difficulty: 🟢 Easy
@@ -10,7 +14,8 @@ solutions:
   - math
   time: O(log₃N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-13'
   note: '> **(n > 0) && static_cast<int>(pow(3, 19)) % n == 0**<br>
 
     > 連除solution

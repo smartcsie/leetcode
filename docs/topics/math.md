@@ -4,7 +4,7 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（12）
+## 🟠 再練習（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -12,6 +12,7 @@
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](../problems/0137.md) | O(N) | O(N) |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 Medium | Math | [C++](../problems/0172.md) | O(log₅N) | O(1) |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](../problems/0258.md) | O(1) | O(1) |
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | Modular Arithmetic | [C++](../problems/1015.md) | O(K) | O(1) |
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](../problems/1344.md) | O(1) | O(1) |
 | 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 Easy | Math, Construction | [C++](../problems/1374.md) | O(N) | O(N) |
@@ -21,17 +22,12 @@
 | 2063 | [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) | 🟡 Medium | Math, Contribution Technique | [C++](../problems/2063.md) | O(N) | O(1) |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](../problems/2485.md) | O(1) | O(1) |
 
-## 🟡 練習過（19）
+## 🟡 練習過（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](../problems/0231.md) | O(1) | O(1) |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](../problems/0263.md) | O(logN) | O(1) |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Math | [C++](../problems/0268.md) | O(N) | O(1) |
-| 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](../problems/0326.md) | O(log₃N) | O(1) |
-| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) |
-| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) |
-| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math, String | [C++](../problems/0412.md) | O(N) | O(1) |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | Math, String | [C++](../problems/0415.md) | O(max(N,M)) | O(max(N,M)) |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](../problems/0507.md) | O(1) | O(1) |
@@ -60,6 +56,11 @@
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](../problems/2894.md) | O(1) | O(1) |
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math, Combinatorics | [C++](../problems/3084.md) | O(N) | O(1) |
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（4）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](../problems/0231.md) | O(1) | O(1) |
+| 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](../problems/0326.md) | O(log₃N) | O(1) |
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) |
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) |
