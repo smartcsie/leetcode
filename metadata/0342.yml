@@ -16,9 +16,7 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-13'
-  note: '> [Power of Four](https://leetcode.com/problems/power-of-four/)<br>
-
-    > **(n > 0) && (n & (n-1)) == 0 && (n & 0x55555555) != 0**，Power of Two多加 **(n
+  note: '**(n > 0) && (n & (n-1)) == 0 && (n & 0x55555555) != 0**，Power of Two多加 **(n
     & 0x55555555) != 0**<br>
 
     > **解法二 迴圈解法** <br>
