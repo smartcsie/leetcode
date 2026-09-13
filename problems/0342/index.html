@@ -5007,10 +5007,9 @@
 <a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="p">};</span>
 </code></pre></div>
+<p><strong>(n &gt; 0) &amp;&amp; (n &amp; (n-1)) == 0 &amp;&amp; (n &amp; 0x55555555) != 0</strong>，Power of Two多加 <strong>(n &amp; 0x55555555) != 0</strong><br></p>
 <blockquote>
-<p><a href="https://leetcode.com/problems/power-of-four/">Power of Four</a><br>
-<strong>(n &gt; 0) &amp;&amp; (n &amp; (n-1)) == 0 &amp;&amp; (n &amp; 0x55555555) != 0</strong>，Power of Two多加 <strong>(n &amp; 0x55555555) != 0</strong><br>
-<strong>解法二 迴圈解法</strong> <br>
+<p><strong>解法二 迴圈解法</strong> <br>
 <strong>if(n &lt;= 0) return false;</strong><br>
 <strong>while((n % 4) ==0) n /= 4;</strong><br>
 <strong>return n == 1;</strong><br>
