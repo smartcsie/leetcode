@@ -11,7 +11,7 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Special Array I](https://leetcode.com/problems/special-array-i)<br>
 
     > element size = 1 蟄居return true<br>

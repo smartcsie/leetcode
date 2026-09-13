@@ -11,4 +11,4 @@ solutions:
   - hash-table-intersection
   time: O(N)
   space: O(K)
-  familiarity: 熟練
+  familiarity: 練習過

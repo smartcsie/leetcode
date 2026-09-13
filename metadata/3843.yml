@@ -10,7 +10,7 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(N)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/)<br>
 
     > travsal nums, 用unordered_map<int, int> counts紀錄數字出現的次數<br>

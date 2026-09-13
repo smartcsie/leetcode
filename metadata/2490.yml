@@ -10,7 +10,7 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 先檢查第一個和最後一個char是否相等，segment 1或多同時處理，if(sentence.front() != sentence.back())
     return false;<br>
 

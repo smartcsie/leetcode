@@ -11,4 +11,4 @@ solutions:
   - bit-manipulation
   time: O(N+M)
   space: O(N+M)
-  familiarity: 熟練
+  familiarity: 練習過

@@ -11,7 +11,7 @@ solutions:
   - math-prime
   time: O(RloglogR)
   space: O(R)
-  familiarity: 熟練
+  familiarity: 練習過
   note: "> [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/)<br>\n\
     > 先求n的reverse，int left = min(n, reversed);int right = max(n, reversed);<br>\n\
     > 執行Sieve of Eratosthenes演算法，left到right區間，if(isPrime[i])sum += i;<br>\n      \

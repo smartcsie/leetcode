@@ -11,5 +11,5 @@ solutions:
   - math-prime
   time: O(N*sqrt(M))
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 實作isPrime，兩邊對角線一一代入，紀錄Max Prime<br>'

@@ -10,7 +10,7 @@ solutions:
   - bit-manipulation
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 1009從0開始，需要多判斷 if(n == 0) return 1;<br>'
   related:
   - 476

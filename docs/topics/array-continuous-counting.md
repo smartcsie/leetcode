@@ -14,17 +14,7 @@
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 Easy | Array Continuous Counting | [C++](../problems/1800.md) | O(N) | O(1) |
 | 2609 | [Find the Longest Balanced Substring](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 🟢 Easy | Greedy, Two Counters | [C++](../problems/2609.md) | O(N) | O(1) |
 
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
-
-## 🟣 易忘（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting, Greedy | [C++](../problems/0696.md) | O(N) | O(1) |
-
-## 🟢 熟悉（5）
+## 🟡 練習過（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -33,3 +23,13 @@
 | 1759 | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟡 Medium | Array Continuous Counting, String | [C++](../problems/1759.md) | O(N) | O(1) |
 | 1869 | [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/) | 🟢 Easy | Simulation, Linear Scan | [C++](../problems/1869.md) | O(N) | O(1) |
 | 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/2210.md) | O(N) | O(1) |
+
+## 🟣 易忘（1）
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting, Greedy | [C++](../problems/0696.md) | O(N) | O(1) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

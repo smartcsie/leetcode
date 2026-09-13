@@ -11,7 +11,7 @@ solutions:
   - string
   time: O(N*M)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)<br>
 
     > **for(const string& word : words) {**

@@ -19,5 +19,5 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> n = nums.size()，accumulate算出sum，回傳 n * (n + 1) / 2 - sum<br>'

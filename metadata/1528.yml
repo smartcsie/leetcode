@@ -11,7 +11,7 @@ solutions:
   - string
   time: O(N)
   space: O(N)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Shuffle String](https://leetcode.com/problems/shuffle-string)<br>
 
     > **string res(s.size(), '' '');** <br>

@@ -10,5 +10,5 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> **for(char& c : s ) if(isupper(c)) c += 32;** <br>'

@@ -22,6 +22,6 @@ solutions:
   - array-negative-marking
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> **此題題目限制，看起來只有第一個fsat slow pointer符合**<br>'
   tricks: null

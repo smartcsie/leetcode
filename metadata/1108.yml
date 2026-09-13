@@ -10,7 +10,7 @@ solutions:
   - string
   time: O(N)
   space: O(N)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> defang.push_back(''[''); defang.push_back(''.''); defang.push_back('']'');效能比較好<br>
 
     > defang.append("[.]");<br>'

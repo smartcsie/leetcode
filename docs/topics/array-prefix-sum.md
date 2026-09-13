@@ -16,7 +16,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/0724.md) | O(N) | O(1) |
 
-## 🟡 練習過（7）
+## 🟡 練習過（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -24,6 +24,8 @@
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/0303.md) | O(N) | O(N) |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum | [C++](../problems/0930.md) | O(N^2) | O(N) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 Easy | Array Prefix Sum, Counting Sort, Prefix Sum | [C++](../problems/1365.md) | O(N+K) | O(K) |
+| 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/1480.md) | O(N) | O(1) |
+| 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/1732.md) | O(N) | O(1) |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](../problems/2559.md) | O(N+Q) | O(N) |
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/2574.md) | O(N) | O(N) |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/3432.md) | O(N) | O(1) |
@@ -38,9 +40,6 @@
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](../problems/1588.md) | O(N²) | O(N) |
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](../problems/2256.md) | O(N) | O(1) |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/1480.md) | O(N) | O(1) |
-| 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/1732.md) | O(N) | O(1) |
+目前沒有標記為熟悉的解法。

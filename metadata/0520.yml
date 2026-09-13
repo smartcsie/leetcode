@@ -10,7 +10,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Detect Capital](https://leetcode.com/problems/detect-capital/) <br>
 
     > count計算uppercase個數<br>

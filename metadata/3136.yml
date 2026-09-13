@@ -11,7 +11,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 如果是不是數字不是字母return false;br>
 
     > 如果是數字，continue<br>

@@ -11,7 +11,7 @@ solutions:
   - hash-table-mapping
   time: O(S)
   space: O(S)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 用一組 vector<string> morse 定義morse code mapping<br>
 
     > 針對words每個string，轉為morsecode，放入unordered_set<string> unique_codes;<br>

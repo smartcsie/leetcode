@@ -10,7 +10,7 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> **for(int i = 0 ; i < s.size(); i++) if(i % 2 == s[i]-''0'') count++;**
     <br>
 

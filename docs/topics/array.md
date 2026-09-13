@@ -20,20 +20,7 @@
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array, Counting | [C++](../problems/2089.md) | O(N) | O(1) |
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | Array, Simulation, Brute Force | [C++](../problems/3477.md) | O(N^2) | O(1) |
 
-## 🟡 練習過（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | Array, Circular Array | [C++](../problems/2855.md) | O(N) | O(1) |
-
-## 🟣 易忘（2）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array, Simulation | [C++](../problems/0054.md) | O(M\*N) | O(1) |
-| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](../problems/0059.md) | O(N²) | O(1) |
-
-## 🟢 熟悉（16）
+## 🟡 練習過（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -48,8 +35,20 @@
 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 Easy | Array, Brute Force | [C++](../problems/1995.md) | O(N⁴) | O(1) |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | Array, Sorting | [C++](../problems/2148.md) | O(N) | O(1) |
 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | Array, Two Pointers, Sorting | [C++](../problems/2824.md) | O(N²) | O(1) |
+| 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | Array, Circular Array | [C++](../problems/2855.md) | O(N) | O(1) |
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](../problems/3069.md) | O(N) | O(N) |
 | 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | Array, Brute Force | [C++](../problems/3162.md) | O(N\*M) | O(1) |
 | 3452 | [Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/) | 🟢 Easy | Array, Simulation | [C++](../problems/3452.md) | O(N) | O(1) |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array, Simulation | [C++](../problems/3925.md) | O(N) | O(N) |
 | 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | Array, Counting | [C++](../problems/3978.md) | O(N) | O(1) |
+
+## 🟣 易忘（2）
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array, Simulation | [C++](../problems/0054.md) | O(M\*N) | O(1) |
+| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](../problems/0059.md) | O(N²) | O(1) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

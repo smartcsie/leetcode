@@ -11,7 +11,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 可能有重覆的數<br>
 
     > **else if( **digit < large** && digit > second) { second = digit;}** <br>'

@@ -16,18 +16,17 @@
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy | [C++](../problems/1576.md) | O(N) | O(1) |
 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | Greedy, String | [C++](../problems/3216.md) | O(N) | O(1) |
 
-## 🟡 練習過（1）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 Medium | Greedy, Recursion, String Construction | [C++](../problems/0984.md) | O(A + B) | O(A + B) |
+| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy, String | [C++](../problems/2864.md) | O(N) | O(1) |
 
 ## 🟣 易忘（0）
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy, String | [C++](../problems/2864.md) | O(N) | O(1) |
+目前沒有標記為熟悉的解法。

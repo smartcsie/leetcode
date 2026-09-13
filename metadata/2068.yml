@@ -12,4 +12,4 @@ solutions:
   - hash-table-intersection
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過

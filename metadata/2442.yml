@@ -13,4 +13,4 @@ solutions:
   - hash-table-uniqueness
   time: O(N*D)
   space: O(M)
-  familiarity: 熟練
+  familiarity: 練習過

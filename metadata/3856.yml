@@ -11,7 +11,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> while loop檢查 s.back()是不是Vowel，如果是，移除<br>
 
     > **while (!s.empty() && isVowel(s.back())) {** <br>

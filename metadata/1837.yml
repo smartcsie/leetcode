@@ -10,7 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(logₖN)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Base]
 
     > K進制的位數和，一直 % k加到sum，while(n > 0) {  sum = n % k + sum; n /= k; }  return sum

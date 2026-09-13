@@ -10,7 +10,7 @@ solutions:
   - hamming-distance
   time: O(log(max(START,GOAL)))
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> x和y做互斥或成為z，取z的2進制1的個數<br>
 
     > start和goal做互斥或成為n，取n的2進制1的個數<br>

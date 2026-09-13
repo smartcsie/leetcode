@@ -10,7 +10,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)  <br>
 
     > Index 11和12是age <br>

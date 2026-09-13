@@ -11,7 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(N*D)
   space: O(N)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 要找出某個value為max的Group，不需要而外的vector紀錄<br>
 
     > 技巧用一個值紀錄max，如果目前的值大於max，更新max，重置group<br>

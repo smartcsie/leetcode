@@ -10,7 +10,7 @@ solutions:
   - bit-manipulation-or
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> int res = 0，把所有even number OR 到ans上<br>
 
     <br>'

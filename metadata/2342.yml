@@ -11,7 +11,7 @@ solutions:
   - hash-table-existence
   time: O(N*logM)
   space: O(N)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 建一個 vector<vector<int>> counts(82, vector<int>(3, -1)); 紀錄<br>
 
     > counts[d]為digit sum = d，[0]為第二大的數，[1]為最大的數，[2]為maximum<br>

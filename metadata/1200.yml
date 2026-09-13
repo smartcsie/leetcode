@@ -11,5 +11,5 @@ solutions:
   - sorting
   time: O(NlogN)
   space: O(N)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 一邊紀錄最小值，一邊維護vector<vector<int>> ans;<br>'

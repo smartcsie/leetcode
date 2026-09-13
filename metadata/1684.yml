@@ -12,7 +12,7 @@ solutions:
   - bit-manipulation
   time: O(N*M)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings)<br>
 
     > 先用一個int mask 紀錄哪些字元出現過(| 1 << c-''a'')，檢查每個string的每個char(1 << c-''a'')和msk &，為0則是沒有在字典中<br>

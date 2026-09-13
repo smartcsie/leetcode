@@ -11,6 +11,6 @@ solutions:
   - tree-dfs-backtracking
   time: O(N²)
   space: O(H²)
-  familiarity: 熟練
+  familiarity: 練習過
   related:
   - 129

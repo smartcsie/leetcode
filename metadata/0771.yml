@@ -11,4 +11,4 @@ solutions:
   - hash-table-counting
   time: O(J+S)
   space: O(J)
-  familiarity: 熟練
+  familiarity: 練習過

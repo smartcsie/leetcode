@@ -11,5 +11,5 @@ solutions:
   - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: "> 記得 count %= MOD;<br>       \n> 記得 ans  %= MOD;<br>"

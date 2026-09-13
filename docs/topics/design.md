@@ -14,9 +14,11 @@
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | 🟢 Easy | Design, Hash Table | [C++](../problems/0705.md) | O(1) | O(N) |
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Design, Hash Table | [C++](../problems/0706.md) | O(N/K) | O(M+K) |
 
-## 🟡 練習過（0）
+## 🟡 練習過（1）
 
-目前沒有標記為練習過的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 Easy | Greedy, Closure, Function Design | [C++](../problems/2667.md) | O(1) | O(1) |
 
 ## 🟣 易忘（3）
 
@@ -26,8 +28,6 @@
 | 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](../problems/0208.md) | O(L) | O(N \* L) |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Design, Queue | [C++](../problems/0225.md) | O(N) | O(N) |
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 Easy | Greedy, Closure, Function Design | [C++](../problems/2667.md) | O(1) | O(1) |
+目前沒有標記為熟悉的解法。

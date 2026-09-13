@@ -134,6 +134,10 @@ def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_
             sol.pop('is_best', None)
         if not sol.get('related'):
             sol.pop('related', None)
+        if not sol.get('tricks'):
+            sol.pop('tricks', None)
+        if not sol.get('mastered_date'):
+            sol.pop('mastered_date', None)
 
         if fname not in by_file:
             order.append(fname)

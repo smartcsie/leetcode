@@ -11,5 +11,5 @@ solutions:
   - tree-traversal
   time: O(N)
   space: O(W)
-  familiarity: 熟練
+  familiarity: 練習過
   is_best: true

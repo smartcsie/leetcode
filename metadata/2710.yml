@@ -11,7 +11,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 類似 3856[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/)
     <br>
 

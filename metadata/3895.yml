@@ -10,7 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(N×D)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/)  <br>
 
     > 檢查nums中每一位是否等於digit<br>

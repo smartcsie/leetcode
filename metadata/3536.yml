@@ -11,7 +11,7 @@ solutions:
   - greedy
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/)
     <br>
 

@@ -12,7 +12,7 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> **同783[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)**'
   related:
   - 783

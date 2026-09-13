@@ -10,7 +10,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 一直檢查最後一個digit是否是odd<br>
 
     > for(int i = num.size() - 1; i >= 0; i--) if(num[i] & 1) return num.substr(0,

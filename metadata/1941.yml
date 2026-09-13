@@ -12,7 +12,7 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 第1個loop，統計字元出現頻頻率，**for(char c : s)  count[c-''a'']++;** <br>
 
     > 因為要確認所有char頻率都一樣，所以以第一個字元為頻率比較基準，**int freq =   count[s[0]-''a''];** <br>

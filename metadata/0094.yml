@@ -24,7 +24,7 @@ solutions:
   - tree
   time: O(N)
   space: O(H)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
     <br>
 

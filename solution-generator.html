@@ -700,6 +700,7 @@ function addSolutionBlock(prefill) {
           <option value="易忘">🟣 易忘</option>
           <option value="熟練">🟢 熟練</option>
         </select>
+        <span class="sol-mastered-date-hint" style="font-size: 12px; color: var(--text-dim); margin-top: 4px; display: block;"></span>
       </div>
       <div class="field">
         <label>&nbsp;</label>
@@ -830,6 +831,14 @@ async function loadExistingProblem() {
 
       const familiarityEl = block.querySelector('.sol-familiarity');
       familiarityEl.value = sol.familiarity || '';
+      familiarityEl.dataset.prevFamiliarity = sol.familiarity || '';
+      familiarityEl.dataset.prevMasteredDate = sol.mastered_date || '';
+      const masteredHint = block.querySelector('.sol-mastered-date-hint');
+      if (masteredHint) {
+        masteredHint.textContent = (sol.familiarity === '熟練' && sol.mastered_date)
+          ? `🟢 熟練於 ${sol.mastered_date}`
+          : '';
+      }
 
       const tagSelect = block.querySelector('.sol-tags-select');
       const extraTags = [];
@@ -916,6 +925,19 @@ function collectStructuredData() {
     const code = block.querySelector('.sol-code').value;
     const familiarityEl = block.querySelector('.sol-familiarity');
     const familiarity = familiarityEl ? familiarityEl.value : '';
+
+    // 熟練時間戳記：只有「這次剛從別的等級升級成熟練」才蓋上今天的
+    // 日期；如果本來就已經是熟練、這次只是重存程式碼，保留原本的
+    // 日期不要一直被更新；如果不是熟練，就不記錄（也不保留舊的）。
+    let masteredDate = null;
+    if (familiarity === '熟練') {
+      const prevFamiliarity = familiarityEl ? familiarityEl.dataset.prevFamiliarity : '';
+      const prevMasteredDate = familiarityEl ? familiarityEl.dataset.prevMasteredDate : '';
+      masteredDate = (prevFamiliarity === '熟練' && prevMasteredDate)
+        ? prevMasteredDate
+        : new Date().toISOString().slice(0, 10);
+    }
+
     const noteEl = block.querySelector('.sol-note');
     const note = noteEl ? noteEl.value.trim() : '';
     const isBestEl = block.querySelector('.sol-is-best');
@@ -936,6 +958,7 @@ function collectStructuredData() {
     solutions.push({
       file, difficulty, tags, topics, time, space,
       familiarity: familiarity || null,
+      mastered_date: masteredDate,
       note: note || null,
       is_best: isBest || null,
       related: related.length ? related : null,

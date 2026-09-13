@@ -20,15 +20,7 @@
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](../problems/2001.md) | O(N) | O(N) |
 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | Hash Table Counting, Hash Map | [C++](../problems/3442.md) | O(N) | O(1) |
 
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
-
-## 🟣 易忘（0）
-
-目前沒有標記為易忘的解法。
-
-## 🟢 熟悉（14）
+## 🟡 練習過（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -46,3 +38,11 @@
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | Hash Table Counting, Hash Table, Frequency Counting | [C++](../problems/3541.md) | O(N) | O(1) |
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table Counting, Hash Table, Frequency Counting | [C++](../problems/3663.md) | O(logN) | O(1) |
 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 Easy | Hash Table | [C++](../problems/3843.md) | O(N) | O(N) |
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

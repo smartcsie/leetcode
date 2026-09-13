@@ -10,7 +10,7 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 如果num被3整除，回傳空vector {}<br>
 
     > 否則回傳{num / 3 - 1, num / 3, num / 3 + 1}。<br>'

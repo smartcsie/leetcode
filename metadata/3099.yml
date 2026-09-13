@@ -10,5 +10,5 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 用sum把十進制每個digit相加，最後return (x % sum) == 0 ? sum : -1;<br>'

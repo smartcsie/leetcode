@@ -22,25 +22,13 @@
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3622.md) | O(logN) | O(1) |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) |
 
-## 🟡 練習過（3）
+## 🟡 練習過（28）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | Math Digit Decomposition, Math | [C++](../problems/0008.md) | O(N) | O(1) |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/0868.md) | O(logN) | O(1) |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation, Carry Propagation | [C++](../problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) |
-
-## 🟣 易忘（2）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) |
-| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) |
-
-## 🟢 熟悉（25）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/1281.md) | O(logN) | O(1) |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/1317.md) | O(N\*logN) | O(1) |
 | 1399 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation, Counting | [C++](../problems/1399.md) | O(N \* D) | O(1) |
@@ -66,3 +54,14 @@
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3950.md) | O(logN) | O(1) |
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3959.md) | O(logN) | O(1) |
 | 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 Easy | Math Digit Decomposition, Array | [C++](../problems/3982.md) | O(N\*D) | O(N) |
+
+## 🟣 易忘（2）
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) |
+| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

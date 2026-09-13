@@ -17,15 +17,7 @@
 | 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | Array, Math | [C++](../problems/2923.md) | O(N²) | O(1) |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | 2d Array, Simulation | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) |
 
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
-
-## 🟣 易忘（0）
-
-目前沒有標記為易忘的解法。
-
-## 🟢 熟悉（9）
+## 🟡 練習過（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -38,3 +30,11 @@
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | Array | [C++](../problems/1886.md) | O(N²) | O(1) |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 Easy | Array, Matrix | [C++](../problems/2319.md) | O(N²) | O(1) |
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | Array, Simulation | [C++](../problems/3142.md) | O(M\*N) | O(1) |
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

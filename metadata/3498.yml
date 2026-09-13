@@ -11,7 +11,7 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string)
     <br>
 

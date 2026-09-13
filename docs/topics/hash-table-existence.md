@@ -18,17 +18,7 @@
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table Existence, Hash Table, Two Pointers | [C++](../problems/2441.md) | O(N) | O(N) |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Hash Table Existence, Hash Set | [C++](../problems/3678.md) | O(N) | O(N) |
 
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
-
-## 🟣 易忘（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) |
-
-## 🟢 熟悉（10）
+## 🟡 練習過（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -42,3 +32,13 @@
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 Easy | Hash Table Existence, Hashing | [C++](../problems/2965.md) | O(N²) | O(N²) |
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](../problems/3718.md) | O(N+M) | O(M) |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | Hash Table Existence | [C++](../problems/3731.md) | O(N+K) | O(K) |
+
+## 🟣 易忘（1）
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) |
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

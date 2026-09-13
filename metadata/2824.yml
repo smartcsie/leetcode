@@ -12,6 +12,6 @@ solutions:
   - array
   time: O(N²)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [for loop]'
   tricks: null

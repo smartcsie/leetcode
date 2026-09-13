@@ -10,7 +10,7 @@ solutions:
   - hamming-distance
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 先求binary string的r，取n和r的Hamming Distance<br>
 
     <br><br>'

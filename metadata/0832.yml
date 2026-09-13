@@ -11,5 +11,5 @@ solutions:
   - 2d-array
   time: O(N*M)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   is_best: true

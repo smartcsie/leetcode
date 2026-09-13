@@ -11,7 +11,7 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 就是計算相異字元個數，用bitset<26> bits紀錄，最後回傳 bits.count()<br>'
   related:
   - 1832

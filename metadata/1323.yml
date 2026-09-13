@@ -11,4 +11,4 @@ solutions:
   - greedy-digit-construction
   time: O(D)
   space: O(D)
-  familiarity: 熟練
+  familiarity: 練習過

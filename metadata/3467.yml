@@ -10,7 +10,7 @@ solutions:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/)
     <br>
 

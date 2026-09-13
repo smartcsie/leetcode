@@ -11,7 +11,7 @@ solutions:
   - array
   time: O(N⁴)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [for loop]'
   related:
   - 1534

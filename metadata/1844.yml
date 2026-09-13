@@ -10,7 +10,7 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)
     <br>
 

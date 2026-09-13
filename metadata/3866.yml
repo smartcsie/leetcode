@@ -11,7 +11,7 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> 因為數字介於0~100，new一個size 101的vector，尋訪nums一輪，統計偶數頻率，再尋訪nums一輪，return 頻率為1的num<br>
 
     <br><br>'

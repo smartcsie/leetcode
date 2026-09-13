@@ -10,7 +10,7 @@ solutions:
   - hamming-distance
   time: O(K)
   space: O(1)
-  familiarity: 熟練
+  familiarity: 練習過
   note: '> x和y做互斥或成為z，取z的2進制1的個數<br>'
   related:
   - 2220
