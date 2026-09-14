@@ -24,20 +24,17 @@ public:
     int widthOfBinaryTree(TreeNode* root) {
         if(!root) return 0;
         queue<pair<TreeNode*, unsigned long>> q;
-        q.push({root, 0});
-        unsigned long maxWidth = 0;
+        q.push({root, 1});
+        int width = 0;
         while(!q.empty()) {
-            unsigned long first = q.front().second;
-            unsigned long last = q.back().second;
-            maxWidth = max(maxWidth, last - first + 1);
-            for(int i = q.size() - 1; i>= 0; i--) {
-                TreeNode* node = q.front().first;
-                unsigned long idx = q.front().second;
-                q.pop();
-                if(node->left) q.push({node->left, idx * 2 + 1});
-                if(node->right) q.push({node->right, idx * 2 + 2});
+            int curWidth = q.back().second - q.front().second + 1;
+            width = max(width, curWidth);
+            for(int i = q.size() - 1; i >= 0; i--) {
+                auto [node, idx] = q.front(); q.pop();
+                if(node->left) q.push({node->left, idx * 2});
+                if(node->right) q.push({node->right, idx* 2 + 1});
             }
         }
-        return static_cast<int>(maxWidth);
+        return width;
     }
 };

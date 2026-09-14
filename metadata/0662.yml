@@ -1,6 +1,18 @@
 number: 662
 title: Maximum Width of Binary Tree
 url: https://leetcode.com/problems/maximum-width-of-binary-tree/
+attempts:
+- date: '2026-09-14'
+  result: 錯
+  reason: "class Solution {\npublic:\n    int widthOfBinaryTree(TreeNode* root) {\n\
+    \        if(!root) return 0;\n        queue<pair<TreeNode*, int>> q;\n       \
+    \ q.push({root, 1});\n        int width = 0;\n        while(!q.empty()) {\n  \
+    \          int curWidth = q.back().second - q.front().second + 1;\n          \
+    \  width = max(width, curWidth);\n            for(int i = q.size() - 1; i >= 0;\
+    \ i--) {\n                auto [node, idx] = q.front(); q.pop();\n           \
+    \     if(node->left) q.push({node->left, idx * 2});\n                if(node->right)\
+    \ q.push({node->right, idx* 2 + 1});\n            }\n        }\n        return\
+    \ width;\n    }\n};"
 solutions:
 - file: Solution_0662.cpp
   difficulty: 🟡 Medium
@@ -11,4 +23,7 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 練習過
+  familiarity: 再練習
+  note: '> **index要用unsigned long**<br>'
+  tricks:
+  - overflow handle
