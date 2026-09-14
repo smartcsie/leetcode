@@ -1,6 +1,10 @@
 number: 136
 title: Single Number
 url: https://leetcode.com/problems/single-number
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0136.cpp
   difficulty: 🟢 Easy
@@ -10,12 +14,8 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
   note: '> 所有num出現兩次，目標num出現一次，全部的數字XOR起來就是答案<br>'
-represents:
-- group: Bit Manipulation
-  label: XOR 消除
-  show_in_index: true
-- group: Math
-  label: accumulate XOR
-  show_in_index: true
+  tricks:
+  - accumulate

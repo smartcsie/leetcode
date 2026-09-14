@@ -19,6 +19,14 @@
 
 ---
 
+## 📊 Bit Manipulation
+
+| 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
+| --- | --- | --- | --- | --- | --- |
+| 🔹 練習中 | Bit Manipulation Xor | 136. Single Number | [連結](https://leetcode.com/problems/single-number) | 2026-09-14 |  |
+
+---
+
 ## 🍱 Array
 
 | 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
@@ -59,7 +67,6 @@
 | 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
 | --- | --- | --- | --- | --- | --- |
 | ⭐ 代表題 | Bitmask Subset Enumeration | 78. Subsets | [連結](https://leetcode.com/problems/subsets) |  |  |
-| ⭐ 代表題 | XOR 消除 | 136. Single Number | [連結](https://leetcode.com/problems/single-number) |  |  |
 | ⭐ 代表題 | Brian Kernighan | 191. Number of 1 Bits | [連結](https://leetcode.com/problems/number-of-1-bits) |  |  |
 | ⭐ 代表題 | __builtin_popcount | 461. Hamming Distance | [連結](https://leetcode.com/problems/hamming-distance) |  |  |
 | ⭐ 代表題 | accumulate XOR | 2317. Maximum XOR After Operations | [連結](https://leetcode.com/problems/maximum-xor-after-operations) |  |  |
@@ -111,7 +118,6 @@
 
 | 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
 | --- | --- | --- | --- | --- | --- |
-| ⭐ 代表題 | accumulate XOR | 136. Single Number | [連結](https://leetcode.com/problems/single-number) |  |  |
 | ⭐ 代表題 | Prime / Sieve | 204. Count Primes | [連結](https://leetcode.com/problems/count-primes/) |  |  |
 | ⭐ 代表題 | unique | 217. Contains Duplicate | [連結](https://leetcode.com/problems/contains-duplicate) |  |  |
 | ⭐ 代表題 | Digit Decomposition | 1281. Subtract the Product and Sum of Digits of an Integer | [連結](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) |  |  |
