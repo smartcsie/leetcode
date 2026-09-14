@@ -12,7 +12,4 @@ solutions:
   space: O(min(N,K))
   familiarity: 練習過
   is_best: true
-represents:
-- group: Two Pointers
-  label: 滑動視窗（固定）
-  show_in_index: true
+is_representative: true

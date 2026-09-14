@@ -11,7 +11,4 @@ solutions:
   time: O(N² * 2^N)
   space: O(N * 2^N)
   familiarity: 生疏
-represents:
-- group: Dynamic Programming
-  label: Bitmask DP
-  show_in_index: true
+is_representative: true

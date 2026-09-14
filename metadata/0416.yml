@@ -32,7 +32,4 @@ solutions:
   related:
   - 1049
   tricks: null
-represents:
-- group: Dynamic Programming
-  label: 0/1 Knapsack
-  show_in_index: true
+is_representative: true

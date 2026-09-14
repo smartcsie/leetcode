@@ -18,7 +18,4 @@ solutions:
   note: '> 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>'
   tricks:
   - accumulate
-represents:
-- group: Math
-  label: accumulate sum
-  show_in_index: true
+is_representative: true

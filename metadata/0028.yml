@@ -13,7 +13,4 @@ solutions:
   space: O(1)
   familiarity: 易忘
   tricks: null
-represents:
-- group: 演算法 Algorithms
-  label: KMP
-  show_in_index: true
+is_representative: true

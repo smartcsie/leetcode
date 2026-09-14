@@ -11,7 +11,4 @@ solutions:
   time: O(N²)
   space: O(N)
   familiarity: 生疏
-represents:
-- group: Graph
-  label: MST
-  show_in_index: true
+is_representative: true

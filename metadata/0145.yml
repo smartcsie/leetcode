@@ -26,7 +26,4 @@ solutions:
 
     root為空則return，遞迴左子樹，遞迴右子樹，把root->val加入到result vector<br>'
   is_best: true
-represents:
-- group: Tree
-  label: Postorder
-  show_in_index: true
+is_representative: true

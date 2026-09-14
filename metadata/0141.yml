@@ -16,7 +16,4 @@ solutions:
   - 876
   tricks:
   - list fast slow pointer
-represents:
-- group: Two Pointers
-  label: 快慢指針
-  show_in_index: true
+is_representative: true

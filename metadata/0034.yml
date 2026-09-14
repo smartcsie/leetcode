@@ -26,7 +26,4 @@ solutions:
   - lower_bound
   - upper_bound
   - static_cast
-represents:
-- group: 演算法 Algorithms
-  label: lower_bound / upper_bound
-  show_in_index: true
+is_representative: true

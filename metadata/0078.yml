@@ -24,7 +24,4 @@ solutions:
   time: O(2ᴺ*N)
   space: O(2^N*N)
   familiarity: 練習過
-represents:
-- group: Bit Manipulation
-  label: Bitmask Subset Enumeration
-  show_in_index: true
+is_representative: true

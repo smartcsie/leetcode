@@ -20,7 +20,4 @@ solutions:
 
     > **else ans++;此為不重疊**<br>'
   tricks: null
-represents:
-- group: Greedy
-  label: Interval Scheduling
-  show_in_index: true
+is_representative: true

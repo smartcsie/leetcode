@@ -14,10 +14,4 @@ solutions:
   familiarity: 易忘
   related:
   - 563
-represents:
-- group: Dynamic Programming
-  label: DP on Tree
-  show_in_index: true
-- group: Tree
-  label: DFS Global
-  show_in_index: true
+is_representative: true

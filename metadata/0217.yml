@@ -45,10 +45,4 @@ solutions:
   time: O(NlogN)
   space: O(logN)
   familiarity: 練習過
-represents:
-- group: 資料結構 Data Structures
-  label: unordered_set
-  show_in_index: true
-- group: Math
-  label: unique
-  show_in_index: true
+is_representative: true

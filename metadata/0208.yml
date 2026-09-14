@@ -12,7 +12,4 @@ solutions:
   space: O(N * L)
   familiarity: 易忘
   tricks: null
-represents:
-- group: 資料結構 Data Structures
-  label: trie
-  show_in_index: true
+is_representative: true

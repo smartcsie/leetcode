@@ -17,7 +17,4 @@ solutions:
   - 583
   - 1035
   tricks: null
-represents:
-- group: Dynamic Programming
-  label: LCS
-  show_in_index: true
+is_representative: true

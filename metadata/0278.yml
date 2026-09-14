@@ -17,7 +17,4 @@ solutions:
 
     > **如果 mid 落在 5 6 7 則往右找，因為mid 本身也有可能是解答，所以right = mid;**<br>'
   tricks: null
-represents:
-- group: 演算法 Algorithms
-  label: Binary Search Find Left Bound
-  show_in_index: true
+is_representative: true

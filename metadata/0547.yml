@@ -11,10 +11,4 @@ solutions:
   time: O(N²·α(N))
   space: O(N)
   familiarity: 生疏
-represents:
-- group: 資料結構 Data Structures
-  label: union find
-  show_in_index: true
-- group: Graph
-  label: Union Find
-  show_in_index: true
+is_representative: true

@@ -21,7 +21,4 @@ solutions:
 
     > **每次pop元素出來，減半，加到reduced，並放回 heap**<br>'
   tricks: null
-represents:
-- group: Greedy
-  label: Priority Queue
-  show_in_index: true
+is_representative: true
