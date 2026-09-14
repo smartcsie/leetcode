@@ -86,7 +86,8 @@ def is_safe_filename(name):
 
 
 def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_solutions,
-                            incoming_attempts=None, incoming_is_representative=None):
+                            incoming_attempts=None, incoming_is_representative=None,
+                            incoming_representative_tag=None):
     """
     合併寫入：若 metadata/{number}.yml 已存在，讀出既有 solutions，
     依照 'file' 欄位比對：同檔名 -> 覆蓋更新；不同檔名 -> 新增變體。
@@ -109,6 +110,7 @@ def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_
     existing_solutions = []
     existing_attempts = []
     existing_is_representative = False
+    existing_representative_tag = None
     if os.path.exists(meta_path):
         try:
             with open(meta_path, 'r', encoding='utf-8') as f:
@@ -116,6 +118,7 @@ def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_
             existing_solutions = existing_data.get('solutions', []) or []
             existing_attempts = existing_data.get('attempts', []) or []
             existing_is_representative = bool(existing_data.get('is_representative'))
+            existing_representative_tag = existing_data.get('representative_tag')
         except Exception as e:
             errors.append(f'讀取既有 metadata 失敗，將視為新檔案處理: {e}')
 
@@ -160,6 +163,9 @@ def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_
     final_is_representative = (
         incoming_is_representative if incoming_is_representative is not None else existing_is_representative
     )
+    final_representative_tag = (
+        incoming_representative_tag if incoming_representative_tag is not None else existing_representative_tag
+    )
 
     meta_out = {
         'number': number,
@@ -168,6 +174,8 @@ def save_metadata_and_code(meta_dir, solution_dir, number, title, url, incoming_
     }
     if final_is_representative:
         meta_out['is_representative'] = True
+        if final_representative_tag:
+            meta_out['representative_tag'] = final_representative_tag
     if final_attempts:
         meta_out['attempts'] = final_attempts
     meta_out['solutions'] = merged_solutions
@@ -255,6 +263,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             'url': data.get('url', ''),
             'attempts': data.get('attempts', []) or [],
             'is_representative': bool(data.get('is_representative')),
+            'representative_tag': data.get('representative_tag'),
             'solutions': solutions,
         })
 
@@ -277,11 +286,12 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         incoming_solutions = data.get('solutions', [])
         incoming_attempts = data.get('attempts')
         incoming_is_representative = data.get('is_representative')
+        incoming_representative_tag = data.get('representative_tag')
 
         try:
             saved, errors = save_metadata_and_code(
                 METADATA_DIR, SOLUTION_DIR, number, title, url, incoming_solutions,
-                incoming_attempts, incoming_is_representative
+                incoming_attempts, incoming_is_representative, incoming_representative_tag
             )
         except Exception as e:
             self._send_json(500, {'error': f'存檔時發生錯誤: {e}'})

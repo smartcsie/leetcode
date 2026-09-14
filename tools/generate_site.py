@@ -630,6 +630,7 @@ def build_topic_index_page(problems, docs_dir):
             'time': sol.get('time', ''),
             'space': sol.get('space', ''),
             'is_representative': bool(problem.get('is_representative')),
+            'representative_tag': problem.get('representative_tag') or '',
         }
         for group in groups:
             by_group.setdefault(group, []).append(row)
@@ -657,7 +658,10 @@ def build_topic_index_page(problems, docs_dir):
         lines.append("| --- | --- | --- | --- | --- | --- | --- |")
         rows = sorted(by_group[group], key=lambda r: r['number'])
         for r in rows:
-            crown = '👑 ' if r['is_representative'] else ''
+            if r['is_representative']:
+                crown = f"👑 **{escape_cell(r['representative_tag'])}** — " if r['representative_tag'] else '👑 '
+            else:
+                crown = ''
             title_cell = f"{crown}[{escape_cell(r['title'])}]({r['url']})" if r['url'] else f"{crown}{escape_cell(r['title'])}"
             page_link = f"problems/{r['number']:04d}.md"
             file_cell = f"[C++]({page_link})" if r['file'] else ''

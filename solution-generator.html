@@ -421,11 +421,17 @@
       <textarea id="attemptReason" rows="14" placeholder="例如：忘記先排序，邊界條件搞錯&#10;&#10;或直接貼上這次自己寫的程式碼，請 AI 幫你比對已收錄的正確版本，生成這次錯在哪的說明"></textarea>
     </div>
 
-    <div class="field">
-      <label style="display:flex; align-items:center; gap:8px; font-weight:400; cursor:pointer;">
-        <input type="checkbox" id="isRepresentative" style="width:auto;">
-        👑 代表題 <span class="hint">(這題是不是某個主題的代表題，會顯示在主題索引頁)</span>
-      </label>
+    <div class="field-row">
+      <div class="field" style="flex: 0 0 200px;">
+        <label style="display:flex; align-items:center; gap:8px; font-weight:400; cursor:pointer;">
+          <input type="checkbox" id="isRepresentative" style="width:auto;">
+          👑 代表題
+        </label>
+      </div>
+      <div class="field">
+        <label>代表題標籤 <span class="hint">(選填，這題代表哪個概念，例如 unordered_map、Kadane)</span></label>
+        <input type="text" id="representativeTag" placeholder="unordered_map">
+      </div>
     </div>
 
     <div id="solutionsContainer"></div>
@@ -812,6 +818,7 @@ async function loadExistingProblem() {
     document.getElementById('attemptReason').value = '';
 
     document.getElementById('isRepresentative').checked = !!data.is_representative;
+    document.getElementById('representativeTag').value = data.representative_tag || '';
 
     if (data.solutions && data.solutions[0] && data.solutions[0].difficulty) {
       const diffSelect = document.getElementById('difficultyGlobal');
@@ -992,7 +999,8 @@ function collectStructuredData() {
 
   return { number: parseInt(number, 10), title, url, solutions,
            attempts: attempts.length ? attempts : null,
-           is_representative: document.getElementById('isRepresentative').checked };
+           is_representative: document.getElementById('isRepresentative').checked,
+           representative_tag: document.getElementById('representativeTag').value.trim() || null };
 }
 
 function buildYamlPreview(data) {
@@ -1010,6 +1018,7 @@ function buildYamlPreview(data) {
   }
   if (data.is_representative) {
     lines.push(`is_representative: true`);
+    if (data.representative_tag) lines.push(`representative_tag: ${data.representative_tag}`);
   }
   lines.push(`solutions:`);
   data.solutions.forEach(sol => {
@@ -1091,6 +1100,7 @@ function clearForm() {
   document.getElementById('attemptReason').value = '';
   renderAttemptsHistory();
   document.getElementById('isRepresentative').checked = false;
+  document.getElementById('representativeTag').value = '';
 
   showToast('已清除，可以貼下一題 ✓');
 }
