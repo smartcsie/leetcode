@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0993.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree
+  - Tree Bfs Level Order
   - BFS
   topics:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 練習過
+  familiarity: 易忘

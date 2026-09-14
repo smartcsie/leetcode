@@ -16,15 +16,15 @@
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/1609.md) | O(N) | O(W) |
 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS, Math | [C++](../problems/2583.md) | O(N) | O(N) |
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
+
+## 🟣 易忘（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 Easy | Tree, BFS | [C++](../problems/0993.md) | O(N) | O(W) |
-
-## 🟣 易忘（0）
-
-目前沒有標記為易忘的解法。
+| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](../problems/0993.md) | O(N) | O(W) |
 
 ## 🟢 熟悉（10）
 

@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（223）](#review-shengshu)　[🟣 易忘清單（109）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（223）](#review-shengshu)　[🟣 易忘清單（110）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：170 題　🟡 練習過：468 題　🟣 易忘：92 題　🟢 熟練：29 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：170 題　🟡 練習過：467 題　🟣 易忘：93 題　🟢 熟練：29 題　⚪ 未標記：0 題
 
 ---
 
@@ -328,9 +328,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 109 個解法標記為易忘，建議面試前重點複習。
+目前共有 110 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（17）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（9）](#yiwang-array)　[🌳 Tree（16）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（4）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
+📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（17）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（9）](#yiwang-array)　[🌳 Tree（17）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（4）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（3）
@@ -422,7 +422,7 @@
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |
 
 <a id="yiwang-tree"></a>
-#### 🌳 Tree（16）
+#### 🌳 Tree（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -441,6 +441,7 @@
 | 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 Medium | Tree Construction, Recursion | [C++](problems/0889.md) | O(N) | O(N) |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | Tree Dfs Path, DFS, In-order | [C++](problems/0897.md) | O(N) | O(H) |
 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | Tree, Recursion, DFS | [C++](problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) |
+| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](problems/0993.md) | O(N) | O(W) |
 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 Medium | Tree Dfs Global, DFS, Post-order | [C++](problems/1530.md) | O(N×D²) | O(H×D) |
 
 <a id="yiwang-binary-search"></a>
@@ -637,7 +638,7 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 0 | 0 | 5 | 1 | 1 | 0 | 7 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 0 | 6 | 1 | 0 | 9 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 0 | 6 | 0 | 1 | 9 | 0 | 16 |
 | [tree-construction](topics/tree-construction.md) | 0 | 0 | 0 | 3 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 0 | 3 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 0 | 0 | 2 | 5 | 0 | 0 | 7 |
