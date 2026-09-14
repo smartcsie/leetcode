@@ -1,22 +1,22 @@
 number: 3959
 title: Check Good Integer
 url: https://leetcode.com/problems/check-good-integer/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_3959.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - Digit Manipulation
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
-  note: '> [Check Good Integer](https://leetcode.com/problems/check-good-integer/)<br>
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
+  note: '> 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>
 
-    > 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>
-
-    >
-
-
-    <br><br>'
+    >'

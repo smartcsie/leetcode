@@ -1,6 +1,10 @@
 number: 3783
 title: Mirror Distance of an Integer
 url: https://leetcode.com/problems/mirror-distance-of-an-integer/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_3783.cpp
   difficulty: 🟢 Easy
@@ -11,4 +15,5 @@ solutions:
   - math-digit-decomposition
   time: O(log10(N))
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
