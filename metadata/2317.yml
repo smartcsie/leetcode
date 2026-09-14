@@ -1,20 +1,23 @@
 number: 2317
 title: Maximum XOR After Operations
 url: https://leetcode.com/problems/maximum-xor-after-operations
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_2317.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Or
   topics:
-  - bit-manipulation-xor
+  - bit-manipulation-or
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
   note: '> 所有元素之間AND，再把所有結果XOR，等於所有元素直接OR'
+  related:
+  - 136
   tricks:
   - accumulate
-represents:
-- group: Bit Manipulation
-  label: accumulate XOR
-  show_in_index: true

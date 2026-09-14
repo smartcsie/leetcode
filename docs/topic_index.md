@@ -25,6 +25,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 🔹 練習中 | Bit Manipulation Xor | 136. Single Number | [連結](https://leetcode.com/problems/single-number) | 2026-09-14 |  |
 | 🔹 練習中 | Bit Manipulation And | 191. Number of 1 Bits | [連結](https://leetcode.com/problems/number-of-1-bits) | 2026-09-14 |  |
+| 🔹 練習中 | Bit Manipulation Or | 2317. Maximum XOR After Operations | [連結](https://leetcode.com/problems/maximum-xor-after-operations) | 2026-09-14 |  |
 
 ---
 
@@ -69,7 +70,6 @@
 | --- | --- | --- | --- | --- | --- |
 | ⭐ 代表題 | Bitmask Subset Enumeration | 78. Subsets | [連結](https://leetcode.com/problems/subsets) |  |  |
 | ⭐ 代表題 | __builtin_popcount | 461. Hamming Distance | [連結](https://leetcode.com/problems/hamming-distance) |  |  |
-| ⭐ 代表題 | accumulate XOR | 2317. Maximum XOR After Operations | [連結](https://leetcode.com/problems/maximum-xor-after-operations) |  |  |
 
 ---
 

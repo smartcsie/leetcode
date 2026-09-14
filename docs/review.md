@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（223）](#review-shengshu)　[🟣 易忘清單（110）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（223）](#review-shengshu)　[🟣 易忘清單（109）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：165 題　🟡 練習過：482 題　🟣 易忘：93 題　🟢 熟練：19 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：165 題　🟡 練習過：482 題　🟣 易忘：92 題　🟢 熟練：20 題　⚪ 未標記：0 題
 
 ---
 
@@ -328,9 +328,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 110 個解法標記為易忘，建議面試前重點複習。
+目前共有 109 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（18）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（9）](#yiwang-array)　[🌳 Tree（16）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（4）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
+📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（17）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（9）](#yiwang-array)　[🌳 Tree（16）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（4）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（1）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（3）
@@ -371,7 +371,7 @@
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math Prime, Prefix Sum | [C++](problems/3770.md) | O(RloglogR) | O(R) |
 
 <a id="yiwang-bit-manipulation"></a>
-#### 📊 Bit Manipulation（18）
+#### 📊 Bit Manipulation（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -388,7 +388,6 @@
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | Bit Manipulation Or | [C++](problems/1318.md) | O(1) | O(1) |
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | Backtracking Permutation, Recursion, Divide and Conquer | [C++](problems/1545.md) | O(N) | O(N) |
 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | Bit Manipulation Xor, Math, Combinatorics | [C++](problems/1863.md) | O(N) | O(1) |
-| 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](problems/2317.md) | O(N) | O(1) |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](problems/2411.md) | O(N×30) | O(30) |
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) |
 | 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 Easy | Bit Manipulation, Math | [C++](problems/3314.md) | O(N) | O(N) |
@@ -556,8 +555,8 @@
 | [bit-manipulation](topics/bit-manipulation.md) | 0 | 8 | 24 | 5 | 0 | 0 | 37 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 2 | 6 | 2 | 0 | 0 | 10 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 1 | 2 | 0 | 0 | 0 | 3 |
-| [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 4 | 1 | 0 | 0 | 5 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 5 | 8 | 4 | 1 | 0 | 18 |
+| [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 4 | 1 | 1 | 0 | 6 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 5 | 8 | 3 | 1 | 0 | 17 |
 | [design](topics/design.md) | 0 | 5 | 1 | 3 | 0 | 0 | 9 |
 | [dp-bitmask](topics/dp-bitmask.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |

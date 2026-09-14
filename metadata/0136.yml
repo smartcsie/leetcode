@@ -9,6 +9,7 @@ solutions:
 - file: Solution_0136.cpp
   difficulty: 🟢 Easy
   tags:
+  - Bit Manipulation Xor
   - Bit-Manipulation
   topics:
   - bit-manipulation-xor
@@ -17,5 +18,7 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-14'
   note: '> 所有num出現兩次，目標num出現一次，全部的數字XOR起來就是答案<br>'
+  related:
+  - 2317
   tricks:
   - accumulate

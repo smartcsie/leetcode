@@ -27,17 +27,16 @@
 | 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | Bit Manipulation, Greedy | [C++](../problems/2429.md) | O(1) | O(1) |
 | 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 Medium | Bit Manipulation Xor, Prefix XOR Inverse | [C++](../problems/2433.md) | O(N) | O(N) |
 
-## 🟣 易忘（4）
+## 🟣 易忘（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bit Manipulation Xor, Hash Set | [C++](../problems/0421.md) | O(N\*L) | O(N) |
 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | Bit Manipulation Xor, Math, Combinatorics | [C++](../problems/1863.md) | O(N) | O(1) |
-| 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation | [C++](../problems/2317.md) | O(N) | O(1) |
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](../problems/3514.md) | O(MlogM) | O(M) |
 
 ## 🟢 熟悉（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit-Manipulation | [C++](../problems/0136.md) | O(N) | O(1) |
+| 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit Manipulation Xor, Bit-Manipulation | [C++](../problems/0136.md) | O(N) | O(1) |
