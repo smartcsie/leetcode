@@ -1,10 +1,15 @@
 number: 191
 title: Number of 1 Bits
 url: https://leetcode.com/problems/number-of-1-bits
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0191.cpp
   difficulty: 🟢 Easy
   tags:
+  - Bit Manipulation And
   - Bit-Manipulation
   topics:
   - bit-manipulation-and
@@ -25,8 +30,5 @@ solutions:
   - bit-manipulation-and
   time: O(1)
   space: O(1)
-  familiarity: 練習過
-represents:
-- group: Bit Manipulation
-  label: Brian Kernighan
-  show_in_index: true
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
