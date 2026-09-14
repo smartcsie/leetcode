@@ -1,6 +1,10 @@
 number: 100
 title: Same Tree
 url: https://leetcode.com/problems/same-tree/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0100.cpp
   difficulty: 🟢 Easy
@@ -10,10 +14,11 @@ solutions:
   - tree
   time: O(N)
   space: O(H)
-  familiarity: 練習過
-  note: '> [Same Tree](https://leetcode.com/problems/same-tree/) <br>
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
+  note: '> **如果p q 都為空，回傳true**<br>
 
-    > 如果p q 都為空，回傳true，只有p或只有或兩個val不相等，回傳false，最後return isSameTree(p左子樹和q左子樹) 且 isSameTree(p右子樹和q右子樹)<br>'
+    > **p q 不為空且值相等且 isSameTree(p左子樹和q左子樹) 且 isSameTree(p右子樹和q右子樹)**<br>'
   is_best: true
   related:
   - 572
