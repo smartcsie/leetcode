@@ -14,7 +14,7 @@
 
 | 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
 | --- | --- | --- | --- | --- | --- |
-| 🔹 練習中 | Math | 231. Power of Two | [連結](https://leetcode.com/problems/power-of-two/) | 2026-09-13 |  |
+| 🔹 練習中 | Math | 263. Ugly Number | [連結](https://leetcode.com/problems/ugly-number) | 2026-09-14 |  |
 | 🔹 練習中 | Math Digit Decomposition | 2544. Alternating Digit Sum | [連結](https://leetcode.com/problems/alternating-digit-sum/) | 2026-09-14 |  |
 
 ---
