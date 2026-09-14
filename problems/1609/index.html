@@ -4987,6 +4987,30 @@
 <h1 id="1609-even-odd-tree">1609. Even Odd Tree<a class="headerlink" href="#1609-even-odd-tree" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/even-odd-tree/">在 LeetCode 上查看</a></p>
 <p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Tree Bfs Level Order, BFS　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(W)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>❌ <strong>2026-09-14</strong> 錯
+    class Solution {
+    public:
+        bool isEvenOddTree(TreeNode<em> root) {
+            queue<TreeNode*> q({root});
+            bool odd = true;
+            while(!q.empty()) {
+                int prev = 0;
+                for(int i = q.size() - 1; i &gt;= 0; i--) {
+                    TreeNode</em> node = q.front(); q.pop();
+                    if(odd ^ (node-&gt;val &amp; 1)) return false;
+                    if(prev &gt; 0 &amp;&amp; (odd ^ (prev &lt; node-&gt;val))) return false;
+                    prev = node-&gt;val;
+                    if(node-&gt;left) q.push(node-&gt;left);
+                    if(node-&gt;right) q.push(node-&gt;right);
+                }
+                odd = !odd;
+            }
+            return true;
+        }
+    };</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1609. Even Odd Tree</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
