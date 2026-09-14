@@ -1,6 +1,10 @@
 number: 107
 title: Binary Tree Level Order Traversal II
 url: https://leetcode.com/problems/binary-tree-level-order-traversal-ii
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0107.cpp
   difficulty: 🟢 Easy
@@ -11,4 +15,10 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
+  note: '> **102 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)**<br>
+
+    > **多一個結果reverse**<br>'
+  related:
+  - 102
