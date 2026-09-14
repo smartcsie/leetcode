@@ -21,32 +21,21 @@
  *    利用 DFS 遍歷給予每個節點編號，若遇到任何節點編號 index > N，
  *    代表前面存在空缺，該樹必不完全。
  */
+
 class Solution {
 private:
-    // 遞迴計算整棵樹的總節點數
     int getCount(TreeNode* root) {
-        if (root == nullptr) return 0;
+        if(!root) return 0;
         return 1 + getCount(root->left) + getCount(root->right);
     }
-
-    // 利用 DFS 驗證節點編號是否合規
-    // 註：將 index 設為 long long 可避免極端偏斜樹深度過深時引發 index * 2 整數溢位 (Overflow)
-    bool validIndex(TreeNode* root, long long index, int count) {
-        // 空節點視為合法
-        if (root == nullptr) return true;
-        
-        // 若編號超越總節點數，代表中間存在缺口，非完全二元樹
-        if (index > count) return false;
-        
-        // 遞迴驗證左右子樹
-        return validIndex(root->left, index * 2, count) &&
-               validIndex(root->right, index * 2 + 1, count);
+    bool dfs(TreeNode* root, int count, long long idx) {
+        if(!root) return true;
+        if(idx > count) return false;
+        return dfs(root->left, count, idx * 2) && dfs(root->right, count, idx * 2 + 1);
     }
-
 public:
     bool isCompleteTree(TreeNode* root) {
-        const int count = getCount(root);
-        // 從根節點編號 1 開始進行 DFS 驗證
-        return validIndex(root, 1, count);
+        int n = getCount(root);
+        return dfs(root, n, 1);
     }
 };

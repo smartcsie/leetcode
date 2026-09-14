@@ -1,6 +1,10 @@
 number: 958
 title: Check Completeness of a Binary Tree
 url: https://leetcode.com/problems/check-completeness-of-a-binary-tree/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0958.cpp
   difficulty: 🟡 Medium
@@ -11,8 +15,8 @@ solutions:
   topics:
   - tree-bfs-level-order
   time: O(N)
-  space: O(W)
-  familiarity: 練習過
+  space: O(N)
+  familiarity: 再練習
 - file: Solution_0958_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -21,4 +25,15 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(”)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
+- file: Solution_0958_2.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree Bfs Level Order
+  topics:
+  - tree-bfs-level-order
+  time: O(N)
+  space: O(N)
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
