@@ -1,18 +1,23 @@
 number: 3950
 title: Exactly One Consecutive Set Bits Pair
 url: https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_3950.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Math Digit Decomposition
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
-  note: '> [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/)<br>
-
-    > 如果 (n & 3) == 3，count++，如果count > 1  return false，n >>= 1，迴圈出來，return count
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
+  note: '> 如果 (n & 3) == 3，count++，如果count > 1  return false，n >>= 1，迴圈出來，return count
     == 1<br>'
   is_best: true
+  tricks:
+  - shift
