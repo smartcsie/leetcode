@@ -1,6 +1,10 @@
 number: 704
 title: Binary Search
 url: https://leetcode.com/problems/binary-search/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0704.cpp
   difficulty: 🟢 Easy
@@ -10,9 +14,6 @@ solutions:
   - binary-search
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
   note: '> 區間閉合 [left, right]，因此使用 <= ，while (left <= right)'
-represents:
-- group: 演算法 Algorithms
-  label: Binary Search
-  show_in_index: true

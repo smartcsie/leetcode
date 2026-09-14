@@ -17,3 +17,5 @@ solutions:
   - 697
   - 2404
   - 3982
+  tricks:
+  - running maximum with reset

@@ -27,6 +27,22 @@
 
 ---
 
+## 🔍 Binary Search
+
+| 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
+| --- | --- | --- | --- | --- | --- |
+| 🔹 練習中 | Binary Search | 704. Binary Search | [連結](https://leetcode.com/problems/binary-search/) | 2026-09-14 |  |
+
+---
+
+## 📚 Priority Queue
+
+| 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
+| --- | --- | --- | --- | --- | --- |
+| 🔹 練習中 | Priority Queue | 1046. Last Stone Weight | [連結](https://leetcode.com/problems/last-stone-weight) | 2026-09-14 |  |
+
+---
+
 ## Bit Manipulation
 
 | 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
@@ -129,7 +145,6 @@
 | ⭐ 代表題 | Binary Search Find Right Bound | 69. Sqrt(x) | [連結](https://leetcode.com/problems/sqrtx/) |  |  |
 | ⭐ 代表題 | Sieve of Eratosthenes | 204. Count Primes | [連結](https://leetcode.com/problems/count-primes/) |  |  |
 | ⭐ 代表題 | Binary Search Find Left Bound | 278. First Bad Version | [連結](https://leetcode.com/problems/first-bad-version/) |  |  |
-| ⭐ 代表題 | Binary Search | 704. Binary Search | [連結](https://leetcode.com/problems/binary-search/) |  |  |
 | ⭐ 代表題 | Binary Search on Answer | 1201. Ugly Number III | [連結](https://leetcode.com/problems/ugly-number-iii/) |  |  |
 
 ---

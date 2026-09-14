@@ -14,17 +14,18 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（2）
+## 🟡 練習過（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Priority Queue | [C++](../problems/0347.md) | O(NlogN) | O(N) |
-| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Priority Queue, Heap (Priority Queue) | [C++](../problems/1046.md) | O(NlogN) | O(N) |
 
 ## 🟣 易忘（0）
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Priority Queue, Heap (Priority Queue) | [C++](../problems/1046.md) | O(NlogN) | O(N) |

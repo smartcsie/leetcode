@@ -1,6 +1,10 @@
 number: 1046
 title: Last Stone Weight
 url: https://leetcode.com/problems/last-stone-weight
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_1046.cpp
   difficulty: 🟢 Easy
@@ -11,5 +15,5 @@ solutions:
   - priority-queue
   time: O(NlogN)
   space: O(N)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
