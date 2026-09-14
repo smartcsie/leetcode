@@ -21,3 +21,5 @@ solutions:
   - 136
   tricks:
   - accumulate
+is_representative: true
+representative_tag: accumulate XOR

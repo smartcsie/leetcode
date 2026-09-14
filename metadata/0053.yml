@@ -21,3 +21,4 @@ solutions:
   space: O(N)
   familiarity: 再練習
 is_representative: true
+representative_tag: Kadane

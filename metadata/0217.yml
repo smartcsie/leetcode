@@ -46,3 +46,4 @@ solutions:
   space: O(logN)
   familiarity: 練習過
 is_representative: true
+representative_tag: unordered_set

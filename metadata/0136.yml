@@ -22,3 +22,5 @@ solutions:
   - 2317
   tricks:
   - accumulate
+is_representative: true
+representative_tag: XOR 消除

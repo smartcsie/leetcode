@@ -24,3 +24,4 @@ solutions:
   space: O(1)
   familiarity: 再練習
 is_representative: true
+representative_tag: __builtin_popcount

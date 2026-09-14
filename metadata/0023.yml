@@ -13,3 +13,4 @@ solutions:
   space: O(K)
   familiarity: 生疏
 is_representative: true
+representative_tag: priority_queue min heap

@@ -32,3 +32,5 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-14'
+is_representative: true
+representative_tag: Brian Kernighan

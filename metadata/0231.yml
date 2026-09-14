@@ -33,3 +33,5 @@ solutions:
     > 解法三 bit數量<br>
 
     > **return n >= 0 && __builtin_popcount(n) == 1;** <br>'
+is_representative: true
+representative_tag: n & (n-1)

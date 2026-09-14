@@ -33,3 +33,4 @@ solutions:
   - 674
   tricks: null
 is_representative: true
+representative_tag: LIS

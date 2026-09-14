@@ -27,3 +27,4 @@ solutions:
     root為空則return，遞迴左子樹，遞迴右子樹，把root->val加入到result vector<br>'
   is_best: true
 is_representative: true
+representative_tag: Postorder

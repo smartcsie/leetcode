@@ -26,3 +26,4 @@ solutions:
   space: O(N)
   familiarity: 練習過
 is_representative: true
+representative_tag: Fibonacci

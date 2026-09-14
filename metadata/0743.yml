@@ -12,3 +12,4 @@ solutions:
   space: O(V+E)
   familiarity: 生疏
 is_representative: true
+representative_tag: Dijkstra

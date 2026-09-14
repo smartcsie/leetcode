@@ -19,3 +19,4 @@ solutions:
 
     > **C(m + n - 2, m - 1)** <br>'
 is_representative: true
+representative_tag: DP on Grid

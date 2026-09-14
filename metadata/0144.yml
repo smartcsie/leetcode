@@ -36,3 +36,4 @@ solutions:
   space: O(H)
   familiarity: 練習過
 is_representative: true
+representative_tag: Preorder
