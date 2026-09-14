@@ -1,6 +1,10 @@
 number: 117
 title: Populating Next Right Pointers in Each Node II
 url: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
+attempts:
+- date: '2026-09-14'
+  result: 錯
+  reason: null
 solutions:
 - file: Solution_0117.cpp
   difficulty: 🟡 Medium
@@ -12,7 +16,8 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
   note: 'BFS加上node->next = (i == 0) ? nullptr : q.front();
 
     i == 0是判斷是否為最右邊的node'

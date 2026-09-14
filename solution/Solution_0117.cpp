@@ -23,15 +23,14 @@
 class Solution {
 public:
     Node* connect(Node* root) {
-        if (!root) return root; 
+        if(!root) return root;
         queue<Node*> q({root});
         while(!q.empty()) {
-            for(int i = q.size() -1; i >= 0; i--) {
-                Node* cur = q.front();
-                q.pop();
-                cur->next = (i == 0) ? nullptr : q.front();
-                if(cur->left) q.push(cur->left);
-                if(cur->right) q.push(cur->right);
+            for(int i = q.size() - 1; i >= 0; i--) {
+                Node* node = q.front(); q.pop();
+                if(i != 0) node->next = q.front();
+                if(node->left) q.push(node->left);
+                if(node->right) q.push(node->right);
             }
         }
         return root;
