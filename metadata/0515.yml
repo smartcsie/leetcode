@@ -1,6 +1,10 @@
 number: 515
 title: Find Largest Value in Each Tree Row
 url: https://leetcode.com/problems/find-largest-value-in-each-tree-row/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0515.cpp
   difficulty: 🟡 Medium
@@ -11,4 +15,5 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-14'

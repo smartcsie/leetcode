@@ -1,6 +1,10 @@
 number: 513
 title: Find Bottom Left Tree Value
 url: https://leetcode.com/problems/find-bottom-left-tree-value
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0513.cpp
   difficulty: 🟡 Medium
@@ -12,4 +16,5 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
