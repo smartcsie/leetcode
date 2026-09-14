@@ -26,6 +26,8 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 練習過
+  is_representative: true
+  representative_tag: unordered_set
 - file: Solution_0217_2.cpp
   difficulty: 🟢 Easy
   tags:
@@ -37,7 +39,7 @@ solutions:
   familiarity: 練習過
   is_best: true
   is_representative: true
-  representative_tag: unordered_set
+  representative_tag: unique
 - file: Solution_0217_3.cpp
   difficulty: 🟢 Easy
   tags:
