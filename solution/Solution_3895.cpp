@@ -14,11 +14,10 @@ class Solution {
 public:
     int countDigitOccurrences(vector& nums, int digit) {
         int count = 0;
-        for(const int& num : nums) {
-            int temp = num;
-            while(temp > 0) {
-                if(temp % 10 == digit) count++;
-                temp /= 10;
+        for(int& num : nums) {
+            while(num > 0) {
+                if(num % 10 == digit) count++;
+                num /= 10;
             }
         }
         return count;

@@ -22,7 +22,7 @@
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3622.md) | O(logN) | O(1) |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) |
 
-## 🟡 練習過（26）
+## 🟡 練習過（24）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -48,9 +48,7 @@
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math, Digit Extraction | [C++](../problems/3726.md) | O(logN) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/3754.md) | O(N) | O(1) |
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/3783.md) | O(log10(N)) | O(1) |
-| 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](../problems/3895.md) | O(N×D) | O(1) |
 | 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3908.md) | O(logN) | O(1) |
-| 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/3945.md) | O(logN) | O(1) |
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3959.md) | O(logN) | O(1) |
 
 ## 🟣 易忘（2）
@@ -60,9 +58,11 @@
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](../problems/3895.md) | O(N×D) | O(1) |
+| 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/3945.md) | O(logN) | O(1) |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/3950.md) | O(logN) | O(1) |
 | 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 Easy | Math Digit Decomposition, Array | [C++](../problems/3982.md) | O(N\*D) | O(N) |

@@ -1,6 +1,10 @@
 number: 3895
 title: Count Digit Appearances
 url: https://leetcode.com/problems/count-digit-appearances/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_3895.cpp
   difficulty: 🟢 Easy
@@ -10,18 +14,9 @@ solutions:
   - math-digit-decomposition
   time: O(N×D)
   space: O(1)
-  familiarity: 練習過
-  note: '> [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/)  <br>
-
-    > 檢查nums中每一位是否等於digit<br>
-
-    > **int temp = num;** <br>
-
-    > **while(temp > 0) {** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**if(temp% 10 == digit) count++;** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**temp /= 10;** <br>
-
-    > **}** <br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
+  note: '> 檢查nums中每一位是否等於digit<br>'
   is_best: true
+  tricks:
+  - digit scan

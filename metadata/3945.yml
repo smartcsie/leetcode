@@ -1,6 +1,10 @@
 number: 3945
 title: Digit Frequency Score
 url: https://leetcode.com/problems/digit-frequency-score/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_3945.cpp
   difficulty: 🟢 Easy
@@ -10,5 +14,8 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
   note: '> 用sum把十進制每個digit相加，最後return sum<br>'
+  tricks:
+  - digit sum
