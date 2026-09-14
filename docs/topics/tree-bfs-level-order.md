@@ -8,7 +8,7 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（16）
+## 🟡 練習過（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,6 @@
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](../problems/0107.md) | O(N) | O(W) |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | Tree Bfs Level Order, Recursion, Constant Space | [C++](../problems/0116.md) | O(N) | O(1) |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | 🟡 Medium | Tree Bfs Level Order, BFS, Queue | [C++](../problems/0117.md) | O(N) | O(N) |
-| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0199.md) | O(N) | O(W) |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 Medium | Tree, BFS, DFS | [C++](../problems/0513.md) | O(N) | O(W) |
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | 🟡 Medium | Tree, BFS | [C++](../problems/0515.md) | O(N) | O(W) |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](../problems/0637.md) | O(N) | O(W) |
@@ -33,8 +32,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0102.md) | O(N) | O(W) |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0199.md) | O(N) | O(W) |
