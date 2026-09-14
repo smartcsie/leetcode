@@ -12,9 +12,4 @@ solutions:
   - binary-search-tree
   time: O(H)
   space: O(H)
-  familiarity: 練習過
-  tricks: null
-represents:
-- group: Tree
-  label: BST
-  show_in_index: true
+  familiarity: 再練習

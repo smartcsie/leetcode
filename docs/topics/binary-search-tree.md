@@ -4,11 +4,13 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 Easy | Binary Search Tree, BST, Binary Search | [C++](../problems/0700.md) | O(H) | O(H) |
 
-## 🟡 練習過（17）
+## 🟡 練習過（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -22,7 +24,6 @@
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0501.md) | O(N) | O(H) |
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0530.md) | O(N) | O(H) |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 Easy | Binary Search Tree, Hash Table | [C++](../problems/0653.md) | O(N) | O(N) |
-| 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 Easy | Binary Search Tree, BST, Binary Search | [C++](../problems/0700.md) | O(H) | O(H) |
 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 Medium | Binary Search Tree, Binary Search Tree | [C++](../problems/0701.md) | O(H) | O(H) |
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0783.md) | O(N) | O(H) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0938.md) | O(N) | O(H) |

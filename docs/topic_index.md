@@ -121,7 +121,6 @@
 | ⭐ 代表題 | Preorder | 144. Binary Tree Preorder Traversal | [連結](https://leetcode.com/problems/binary-tree-preorder-traversal) |  |  |
 | ⭐ 代表題 | Postorder | 145. Binary Tree Postorder Traversal | [連結](https://leetcode.com/problems/binary-tree-postorder-traversal) |  |  |
 | ⭐ 代表題 | DFS Global | 543. Diameter of Binary Tree | [連結](https://leetcode.com/problems/diameter-of-binary-tree/) |  |  |
-| ⭐ 代表題 | BST | 700. Search in a Binary Search Tree | [連結](https://leetcode.com/problems/search-in-a-binary-search-tree) |  |  |
 
 ---
 
