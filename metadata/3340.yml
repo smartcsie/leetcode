@@ -1,18 +1,21 @@
 number: 3340
 title: Check Balanced String
 url: https://leetcode.com/problems/check-balanced-string/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_3340.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - String
   topics:
   - math-digit-decomposition
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/)<br>
-
-    > Travsal vector<int>& nums，sum算出digit之和，用min紀錄最小的digit sum<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
+  note: '> **sum += (i % 2 == 0) ? num[i] - ''0'' : -(num[i] - ''0'');也可以**<br>'
   is_best: true
