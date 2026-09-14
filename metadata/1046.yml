@@ -1,6 +1,8 @@
 number: 1046
 title: Last Stone Weight
 url: https://leetcode.com/problems/last-stone-weight
+is_representative: true
+representative_tag: Priority Queue
 attempts:
 - date: '2026-09-14'
   result: 對

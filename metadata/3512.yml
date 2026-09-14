@@ -1,6 +1,8 @@
 number: 3512
 title: Minimum Operations to Make Array Sum Divisible by K
 url: https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/
+is_representative: true
+representative_tag: Accumulate Sum
 attempts:
 - date: '2026-09-13'
   result: 對
@@ -15,8 +17,7 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 熟練
+  mastered_date: '2026-09-14'
   note: '> 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>'
   tricks:
   - accumulate
-is_representative: true
-representative_tag: accumulate sum
