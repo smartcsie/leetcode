@@ -12,7 +12,7 @@
 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 Easy | Array Linear Scan | [C++](../problems/1422.md) | O(N) | O(1) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy | Array | [C++](../problems/1431.md) | O(N) | O(1) |
 
-## 🟡 練習過（21）
+## 🟡 練習過（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -29,7 +29,6 @@
 | 2006 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 Easy | Array Linear Scan, Hash Table, Frequency Map | [C++](../problems/2006.md) | O(N) | O(N) |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 Easy | Array | [C++](../problems/2057.md) | O(N) | O(1) |
 | 2176 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 Easy | Array Linear Scan | [C++](../problems/2176.md) | O(N^2) | O(1) |
-| 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array | [C++](../problems/2239.md) | O(N) | O(1) |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | 🟢 Easy | Array Linear Scan | [C++](../problems/2264.md) | O(N) | O(1) |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Array Linear Scan | [C++](../problems/2485.md) | O(N) | O(1) |
 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 Easy | Matrix, Linear Scan | [C++](../problems/2643.md) | O(M\*N) | O(1) |
@@ -42,8 +41,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array Linear Scan | [C++](../problems/2239.md) | O(N) | O(1) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Array Linear Scan | [C++](../problems/3512.md) | O(N) | O(1) |

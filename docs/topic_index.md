@@ -43,6 +43,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array | [C++](problems/1929.md) | O(N) | O(1) | 2026-09-14 |
+| 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array Linear Scan | [C++](problems/2239.md) | O(N) | O(1) | 2026-09-14 |
 | 3512 | 👑 **Accumulate Sum**<br>[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Array Linear Scan | [C++](problems/3512.md) | O(N) | O(1) | 2026-09-13 |
 
 ---
