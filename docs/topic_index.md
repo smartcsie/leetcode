@@ -42,6 +42,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 🔹 練習中 | Tree | 100. Same Tree | [連結](https://leetcode.com/problems/same-tree/) | 2026-09-14 |  |
 | 🔹 練習中 | Tree Dfs Path | 101. Symmetric Tree | [連結](https://leetcode.com/problems/symmetric-tree) | 2026-09-14 |  |
+| 🔹 練習中 | Binary Search Tree | 235. Lowest Common Ancestor of a Binary Search Tree | [連結](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 2026-09-14 |  |
 
 ---
 

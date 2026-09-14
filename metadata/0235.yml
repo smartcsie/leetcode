@@ -1,6 +1,10 @@
 number: 235
 title: Lowest Common Ancestor of a Binary Search Tree
 url: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0235.cpp
   difficulty: 🟢 Easy
@@ -12,7 +16,8 @@ solutions:
   - binary-search-tree
   time: O(H)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
   note: '> **if(root->val > p->val && root->val >  q->val)**<br>
 
     > **確定p q 在左側，return lowestCommonAncestor(root->left, p, q);**<br>
@@ -26,7 +31,6 @@ solutions:
     > **也可以用236解法，但236是O(N)，本解法是O(h)，還是比較好**<br>'
   related:
   - 236
-  tricks: null
 - file: Solution_0235_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -35,5 +39,4 @@ solutions:
   - binary-search-tree
   time: O(H)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 再練習
