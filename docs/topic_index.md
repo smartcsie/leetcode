@@ -41,6 +41,7 @@
 | 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
 | --- | --- | --- | --- | --- | --- |
 | 🔹 練習中 | Tree | 100. Same Tree | [連結](https://leetcode.com/problems/same-tree/) | 2026-09-14 |  |
+| 🔹 練習中 | Tree Dfs Path | 101. Symmetric Tree | [連結](https://leetcode.com/problems/symmetric-tree) | 2026-09-14 |  |
 
 ---
 

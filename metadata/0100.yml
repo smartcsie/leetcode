@@ -21,4 +21,5 @@ solutions:
     > **p q 不為空且值相等且 isSameTree(p左子樹和q左子樹) 且 isSameTree(p右子樹和q右子樹)**<br>'
   is_best: true
   related:
+  - 101
   - 572

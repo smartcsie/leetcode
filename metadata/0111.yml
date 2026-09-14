@@ -1,6 +1,10 @@
 number: 111
 title: Minimum Depth of Binary Tree
 url: https://leetcode.com/problems/minimum-depth-of-binary-tree
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0111.cpp
   difficulty: 🟢 Easy
@@ -13,4 +17,3 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 練習過
-  tricks: null
