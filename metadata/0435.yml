@@ -20,5 +20,5 @@ solutions:
 
     > **else ans++;此為不重疊**<br>'
   tricks: null
-is_representative: true
-representative_tag: Interval Scheduling
+  is_representative: true
+  representative_tag: Interval Scheduling

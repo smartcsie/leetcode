@@ -1,10 +1,6 @@
 number: 326
 title: Power of Three
 url: https://leetcode.com/problems/power-of-three/
-attempts:
-- date: '2026-09-13'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_0326.cpp
   difficulty: 🟢 Easy
@@ -25,3 +21,7 @@ solutions:
     > ** while((n % 3) == 0) n /= 3;**<br>
 
     > **return (n == 1);**<br>'
+  attempts:
+  - date: '2026-09-13'
+    result: 對
+    reason: null

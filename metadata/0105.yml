@@ -13,5 +13,5 @@ solutions:
   space: O(N)
   familiarity: 易忘
   tricks: null
-is_representative: true
-representative_tag: Construction
+  is_representative: true
+  representative_tag: Construction

@@ -1,10 +1,6 @@
 number: 116
 title: Populating Next Right Pointers in Each Node
 url: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_0116.cpp
   difficulty: 🟡 Medium
@@ -17,3 +13,7 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 再練習
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null

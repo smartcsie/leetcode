@@ -11,5 +11,5 @@ solutions:
   time: O(V+E)
   space: O(V+E)
   familiarity: 生疏
-is_representative: true
-representative_tag: Topological Sort
+  is_representative: true
+  representative_tag: Topological Sort

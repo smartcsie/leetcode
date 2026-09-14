@@ -1,10 +1,6 @@
 number: 199
 title: Binary Tree Right Side View
 url: https://leetcode.com/problems/binary-tree-right-side-view/
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_0199.cpp
   difficulty: 🟡 Medium
@@ -20,3 +16,7 @@ solutions:
   note: '> **比102 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)多一個判斷**<br>'
   related:
   - 102
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null

@@ -1,18 +1,6 @@
 number: 1609
 title: Even Odd Tree
 url: https://leetcode.com/problems/even-odd-tree/
-attempts:
-- date: '2026-09-14'
-  result: 錯
-  reason: "class Solution {\npublic:\n    bool isEvenOddTree(TreeNode* root) {\n \
-    \       queue<TreeNode*> q({root});\n        bool odd = true;\n        while(!q.empty())\
-    \ {\n            int prev = 0;\n            for(int i = q.size() - 1; i >= 0;\
-    \ i--) {\n                TreeNode* node = q.front(); q.pop();\n             \
-    \   if(odd ^ (node->val & 1)) return false;\n                if(prev > 0 && (odd\
-    \ ^ (prev < node->val))) return false;\n                prev = node->val;\n  \
-    \              if(node->left) q.push(node->left);\n                if(node->right)\
-    \ q.push(node->right);\n            }\n            odd = !odd;\n        }\n  \
-    \      return true;\n    }\n};"
 solutions:
 - file: Solution_1609.cpp
   difficulty: 🟡 Medium
@@ -24,3 +12,15 @@ solutions:
   time: O(N)
   space: O(W)
   familiarity: 再練習
+  attempts:
+  - date: '2026-09-14'
+    result: 錯
+    reason: "class Solution {\npublic:\n    bool isEvenOddTree(TreeNode* root) {\n\
+      \        queue<TreeNode*> q({root});\n        bool odd = true;\n        while(!q.empty())\
+      \ {\n            int prev = 0;\n            for(int i = q.size() - 1; i >= 0;\
+      \ i--) {\n                TreeNode* node = q.front(); q.pop();\n           \
+      \     if(odd ^ (node->val & 1)) return false;\n                if(prev > 0 &&\
+      \ (odd ^ (prev < node->val))) return false;\n                prev = node->val;\n\
+      \                if(node->left) q.push(node->left);\n                if(node->right)\
+      \ q.push(node->right);\n            }\n            odd = !odd;\n        }\n\
+      \        return true;\n    }\n};"

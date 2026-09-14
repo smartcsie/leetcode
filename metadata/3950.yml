@@ -1,10 +1,6 @@
 number: 3950
 title: Exactly One Consecutive Set Bits Pair
 url: https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_3950.cpp
   difficulty: 🟢 Easy
@@ -21,3 +17,7 @@ solutions:
   is_best: true
   tricks:
   - shift
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null

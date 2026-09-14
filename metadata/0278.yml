@@ -17,4 +17,4 @@ solutions:
 
     > **如果 mid 落在 5 6 7 則往右找，因為mid 本身也有可能是解答，所以right = mid;**<br>'
   tricks: null
-is_representative: true
+  is_representative: true

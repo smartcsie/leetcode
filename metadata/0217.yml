@@ -36,6 +36,8 @@ solutions:
   space: O(logN)
   familiarity: 練習過
   is_best: true
+  is_representative: true
+  representative_tag: unordered_set
 - file: Solution_0217_3.cpp
   difficulty: 🟢 Easy
   tags:
@@ -45,5 +47,3 @@ solutions:
   time: O(NlogN)
   space: O(logN)
   familiarity: 練習過
-is_representative: true
-representative_tag: unordered_set

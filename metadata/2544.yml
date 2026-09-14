@@ -1,10 +1,6 @@
 number: 2544
 title: Alternating Digit Sum
 url: https://leetcode.com/problems/alternating-digit-sum/
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_2544.cpp
   difficulty: 🟢 Easy
@@ -18,3 +14,7 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-14'
   note: '> **sign=1，每一次加sign*(n % 10)後，sign*=-1，count++計算digit個數，最後出迴圈，count如果是偶數，sum多一個負號**。<br>'
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null

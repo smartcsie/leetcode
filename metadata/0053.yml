@@ -12,6 +12,8 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 再練習
+  is_representative: true
+  representative_tag: Kadane
 - file: Solution_0053_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -20,5 +22,3 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 再練習
-is_representative: true
-representative_tag: Kadane

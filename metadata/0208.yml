@@ -12,5 +12,5 @@ solutions:
   space: O(N * L)
   familiarity: 易忘
   tricks: null
-is_representative: true
-representative_tag: trie
+  is_representative: true
+  representative_tag: trie

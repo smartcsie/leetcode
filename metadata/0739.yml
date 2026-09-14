@@ -12,5 +12,5 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 生疏
-is_representative: true
-representative_tag: monotonic stack
+  is_representative: true
+  representative_tag: monotonic stack

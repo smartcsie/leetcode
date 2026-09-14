@@ -1,10 +1,6 @@
 number: 263
 title: Ugly Number
 url: https://leetcode.com/problems/ugly-number
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_0263.cpp
   difficulty: 🟢 Easy
@@ -17,3 +13,7 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-14'
   note: '> **注意邊界條件if(n <= 0) return false;**<br>'
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null

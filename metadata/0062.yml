@@ -18,5 +18,5 @@ solutions:
     > **總步數為 (m-1) + (n-1)，從中選取 m-1 步向下走**。<br>
 
     > **C(m + n - 2, m - 1)** <br>'
-is_representative: true
-representative_tag: DP on Grid
+  is_representative: true
+  representative_tag: DP on Grid

@@ -12,5 +12,5 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 練習過
-is_representative: true
-representative_tag: DFS Path
+  is_representative: true
+  representative_tag: DFS Path

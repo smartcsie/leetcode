@@ -1,10 +1,6 @@
 number: 559
 title: Maximum Depth of N-ary Tree
 url: https://leetcode.com/problems/maximum-depth-of-n-ary-tree
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_0559.cpp
   difficulty: 🟢 Easy
@@ -21,3 +17,7 @@ solutions:
   related:
   - 104
   - 110
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null

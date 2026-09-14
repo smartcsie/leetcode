@@ -14,5 +14,5 @@ solutions:
   familiarity: 易忘
   related:
   - 563
-is_representative: true
-representative_tag: DP on Tree
+  is_representative: true
+  representative_tag: DP on Tree

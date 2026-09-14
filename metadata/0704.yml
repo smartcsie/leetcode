@@ -1,12 +1,6 @@
 number: 704
 title: Binary Search
 url: https://leetcode.com/problems/binary-search/
-is_representative: true
-representative_tag: Binary Search
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_0704.cpp
   difficulty: 🟢 Easy
@@ -19,3 +13,9 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-14'
   note: '> 區間閉合 [left, right]，因此使用 <= ，while (left <= right)'
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Binary Search

@@ -14,6 +14,8 @@ solutions:
   note: '> x和y做互斥或成為z，取z的2進制1的個數<br>'
   related:
   - 2220
+  is_representative: true
+  representative_tag: __builtin_popcount
 - file: Solution_0461_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -23,5 +25,3 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 再練習
-is_representative: true
-representative_tag: __builtin_popcount

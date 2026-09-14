@@ -16,4 +16,4 @@ solutions:
   - 876
   tricks:
   - list fast slow pointer
-is_representative: true
+  is_representative: true

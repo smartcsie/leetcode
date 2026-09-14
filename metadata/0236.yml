@@ -1,10 +1,6 @@
 number: 236
 title: Lowest Common Ancestor of a Binary Tree
 url: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_0236.cpp
   difficulty: 🟡 Medium
@@ -29,3 +25,7 @@ solutions:
     > **否則傳回left或right不為nullptr的**<br>'
   related:
   - 235
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null

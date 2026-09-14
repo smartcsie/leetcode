@@ -13,5 +13,5 @@ solutions:
   time: O(H)
   space: O(H)
   familiarity: 再練習
-is_representative: true
-representative_tag: BST
+  is_representative: true
+  representative_tag: BST

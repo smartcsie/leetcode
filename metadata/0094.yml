@@ -15,6 +15,8 @@ solutions:
   familiarity: 練習過
   is_best: true
   tricks: null
+  is_representative: true
+  representative_tag: Inorder
 - file: Solution_0094.cpp
   difficulty: 🟢 Easy
   tags:
@@ -40,5 +42,3 @@ solutions:
   space: O(H)
   familiarity: 易忘
   tricks: null
-is_representative: true
-representative_tag: Inorder

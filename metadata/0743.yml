@@ -11,5 +11,5 @@ solutions:
   time: O(E·logV)
   space: O(V+E)
   familiarity: 生疏
-is_representative: true
-representative_tag: Dijkstra
+  is_representative: true
+  representative_tag: Dijkstra

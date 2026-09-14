@@ -11,5 +11,5 @@ solutions:
   time: O(N²·α(N))
   space: O(N)
   familiarity: 生疏
-is_representative: true
-representative_tag: Union Find
+  is_representative: true
+  representative_tag: Union Find

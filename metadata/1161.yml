@@ -1,10 +1,6 @@
 number: 1161
 title: Maximum Level Sum of a Binary Tree
 url: https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_1161.cpp
   difficulty: 🟡 Medium
@@ -18,3 +14,7 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-14'
   is_best: true
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null

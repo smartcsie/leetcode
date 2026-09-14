@@ -22,5 +22,5 @@ solutions:
 
     > **profit keep 先買後賣利潤最大**<br>'
   tricks: null
-is_representative: true
-representative_tag: State Machine
+  is_representative: true
+  representative_tag: State Machine

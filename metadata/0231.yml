@@ -1,12 +1,6 @@
 number: 231
 title: Power of Two
 url: https://leetcode.com/problems/power-of-two/
-is_representative: true
-representative_tag: Brian Kernighan
-attempts:
-- date: '2026-09-13'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_0231.cpp
   difficulty: 🟢 Easy
@@ -35,3 +29,9 @@ solutions:
     > 解法三 bit數量<br>
 
     > **return n >= 0 && __builtin_popcount(n) == 1;** <br>'
+  attempts:
+  - date: '2026-09-13'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Brian Kernighan

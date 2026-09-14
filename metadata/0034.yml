@@ -26,4 +26,4 @@ solutions:
   - lower_bound
   - upper_bound
   - static_cast
-is_representative: true
+  is_representative: true

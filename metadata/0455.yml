@@ -11,5 +11,5 @@ solutions:
   time: O(N log N)
   space: O(1)
   familiarity: 再練習
-is_representative: true
-representative_tag: Sorting Decision
+  is_representative: true
+  representative_tag: Sorting Decision

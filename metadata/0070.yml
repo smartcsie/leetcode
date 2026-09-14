@@ -16,6 +16,8 @@ solutions:
   related:
   - 509
   - 1137
+  is_representative: true
+  representative_tag: Fibonacci
 - file: Solution_0070_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -25,5 +27,3 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 練習過
-is_representative: true
-representative_tag: Fibonacci

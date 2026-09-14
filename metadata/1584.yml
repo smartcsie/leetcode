@@ -11,5 +11,5 @@ solutions:
   time: O(N²)
   space: O(N)
   familiarity: 生疏
-is_representative: true
-representative_tag: MST
+  is_representative: true
+  representative_tag: MST

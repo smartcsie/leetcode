@@ -12,5 +12,5 @@ solutions:
   time: O(N)
   space: O(K)
   familiarity: 生疏
-is_representative: true
-representative_tag: monotonic queue
+  is_representative: true
+  representative_tag: monotonic queue

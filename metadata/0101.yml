@@ -1,14 +1,6 @@
 number: 101
 title: Symmetric Tree
 url: https://leetcode.com/problems/symmetric-tree
-attempts:
-- date: '2026-09-14'
-  result: 錯
-  reason: "class Solution {\nprivate:\n    bool isSymmetric(TreeNode* p, TreeNode*\
-    \ q) {\n        if(!p && !q) return true;\n        return  (p && q)\n        \
-    \        && isSymmetric(p->left, q->right) \n                && isSymmetric(p->right,\
-    \ q->left);\n    }\npublic:\n    bool isSymmetric(TreeNode* root) {\n        return\
-    \ isSymmetric(root, root);\n    }\n};"
 solutions:
 - file: Solution_0101.cpp
   difficulty: 🟢 Easy
@@ -22,3 +14,11 @@ solutions:
   familiarity: 練習過
   related:
   - 100
+  attempts:
+  - date: '2026-09-14'
+    result: 錯
+    reason: "class Solution {\nprivate:\n    bool isSymmetric(TreeNode* p, TreeNode*\
+      \ q) {\n        if(!p && !q) return true;\n        return  (p && q)\n      \
+      \          && isSymmetric(p->left, q->right) \n                && isSymmetric(p->right,\
+      \ q->left);\n    }\npublic:\n    bool isSymmetric(TreeNode* root) {\n      \
+      \  return isSymmetric(root, root);\n    }\n};"

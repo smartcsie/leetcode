@@ -1,10 +1,6 @@
 number: 117
 title: Populating Next Right Pointers in Each Node II
 url: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
-attempts:
-- date: '2026-09-14'
-  result: 錯
-  reason: null
 solutions:
 - file: Solution_0117.cpp
   difficulty: 🟡 Medium
@@ -22,3 +18,7 @@ solutions:
 
     i == 0是判斷是否為最右邊的node'
   is_best: true
+  attempts:
+  - date: '2026-09-14'
+    result: 錯
+    reason: null

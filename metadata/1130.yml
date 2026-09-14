@@ -11,5 +11,5 @@ solutions:
   time: O(N³)
   space: O(N²)
   familiarity: 生疏
-is_representative: true
-representative_tag: Interval DP
+  is_representative: true
+  representative_tag: Interval DP

@@ -1,10 +1,6 @@
 number: 637
 title: Average of Levels in Binary Tree
 url: https://leetcode.com/problems/average-of-levels-in-binary-tree
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_0637.cpp
   difficulty: 🟢 Easy
@@ -20,3 +16,7 @@ solutions:
   note: '> sum要用double，否則會overflow<br>
 
     > if(!root) return {};保證至少一個node，永遠不會執行到<br>'
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null

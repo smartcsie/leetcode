@@ -13,6 +13,8 @@ solutions:
   time: O(N*2ᴺ)
   space: O(N)
   familiarity: 生疏
+  is_representative: true
+  representative_tag: Bitmask Subset Enumeration
 - file: Solution_0078_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -24,5 +26,3 @@ solutions:
   time: O(2ᴺ*N)
   space: O(2^N*N)
   familiarity: 練習過
-is_representative: true
-representative_tag: Bitmask Subset Enumeration

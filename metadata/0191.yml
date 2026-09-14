@@ -1,10 +1,6 @@
 number: 191
 title: Number of 1 Bits
 url: https://leetcode.com/problems/number-of-1-bits
-attempts:
-- date: '2026-09-14'
-  result: 對
-  reason: null
 solutions:
 - file: Solution_0191.cpp
   difficulty: 🟢 Easy
@@ -22,6 +18,12 @@ solutions:
     __builtin_popcount(n) <br>
 
     > [Brian Kernighan]'
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Brian Kernighan
 - file: Solution_0191_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -32,5 +34,3 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-14'
-is_representative: true
-representative_tag: Brian Kernighan

@@ -22,5 +22,5 @@ solutions:
   related:
   - 279
   tricks: null
-is_representative: true
-representative_tag: Unbounded Knapsack
+  is_representative: true
+  representative_tag: Unbounded Knapsack

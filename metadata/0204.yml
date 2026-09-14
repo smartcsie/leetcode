@@ -12,5 +12,5 @@ solutions:
   time: O(NloglogN)
   space: O(N)
   familiarity: 練習過
-is_representative: true
-representative_tag: Prime / Sieve
+  is_representative: true
+  representative_tag: Prime / Sieve

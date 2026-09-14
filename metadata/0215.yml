@@ -11,5 +11,5 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 再練習
-is_representative: true
-representative_tag: priority_queue max heap
+  is_representative: true
+  representative_tag: priority_queue max heap

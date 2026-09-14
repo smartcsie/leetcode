@@ -12,5 +12,5 @@ solutions:
   space: O(N)
   familiarity: 練習過
   is_best: true
-is_representative: true
-representative_tag: unordered_map
+  is_representative: true
+  representative_tag: unordered_map

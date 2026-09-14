@@ -17,5 +17,5 @@ solutions:
   - 583
   - 1035
   tricks: null
-is_representative: true
-representative_tag: LCS
+  is_representative: true
+  representative_tag: LCS
