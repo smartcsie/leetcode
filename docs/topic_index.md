@@ -52,6 +52,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 🔹 練習中 | Tree | 100. Same Tree | [連結](https://leetcode.com/problems/same-tree/) | 2026-09-14 |  |
 | 🔹 練習中 | Tree Dfs Path | 101. Symmetric Tree | [連結](https://leetcode.com/problems/symmetric-tree) | 2026-09-14 |  |
+| 🔹 練習中 | Tree Bfs Level Order | 102. Binary Tree Level Order Traversal | [連結](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 2026-09-14 |  |
 | 🔹 練習中 | Binary Search Tree | 235. Lowest Common Ancestor of a Binary Search Tree | [連結](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 2026-09-14 |  |
 
 ---
@@ -131,7 +132,6 @@
 | 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
 | --- | --- | --- | --- | --- | --- |
 | ⭐ 代表題 | Inorder | 94. Binary Tree Inorder Traversal | [連結](https://leetcode.com/problems/binary-tree-inorder-traversal) |  |  |
-| ⭐ 代表題 | BFS Level Order | 102. Binary Tree Level Order Traversal | [連結](https://leetcode.com/problems/binary-tree-level-order-traversal/) |  |  |
 | ⭐ 代表題 | Construction | 105. Construct Binary Tree from Preorder and Inorder Traversal | [連結](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |  |  |
 | ⭐ 代表題 | DFS Path | 112. Path Sum | [連結](https://leetcode.com/problems/path-sum/) |  |  |
 | ⭐ 代表題 | DFS Backtracking | 113. Path Sum II | [連結](https://leetcode.com/problems/path-sum-ii) |  |  |

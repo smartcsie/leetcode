@@ -1,19 +1,20 @@
 number: 102
 title: Binary Tree Level Order Traversal
 url: https://leetcode.com/problems/binary-tree-level-order-traversal/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_0102.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Tree Bfs Level Order
   - BFS
   topics:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
   is_best: true
-represents:
-- group: Tree
-  label: BFS Level Order
-  show_in_index: true
