@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：165 題　🟡 練習過：477 題　🟣 易忘：92 題　🟢 熟練：25 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：165 題　🟡 練習過：476 題　🟣 易忘：92 題　🟢 熟練：26 題　⚪ 未標記：0 題
 
 ---
 
@@ -637,7 +637,7 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 0 | 0 | 5 | 1 | 1 | 0 | 7 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 0 | 1 | 10 | 0 | 5 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 0 | 1 | 9 | 0 | 6 | 0 | 16 |
 | [tree-construction](topics/tree-construction.md) | 0 | 0 | 0 | 3 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 0 | 3 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 0 | 0 | 2 | 5 | 0 | 0 | 7 |
