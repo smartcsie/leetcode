@@ -592,88 +592,55 @@ def get_latest_attempt_date(problem):
     return max(dates) if dates else ''
 
 
-def slug_to_label(slug):
-    """把 topic slug 轉成人看得懂的標籤，例如 dp-knapsack -> Dp Knapsack。"""
-    return ' '.join(word.capitalize() for word in slug.split('-'))
-
-
 def build_topic_index_page(problems, docs_dir):
     """
-    自動產生 docs/topic_index.md，分類方式直接沿用網站其他地方（nav、
-    docs/topics/*.md）本來就在用的同一套 group_for()，不再自訂一套
-    分類名稱，跟複習清單、分類頁保持一致，好對照。
-
-    內容有兩種來源：
-    - ⭐ 代表題：手動在 solution-generator.html 標記過的 represents
-      （label 是自訂的主題名稱，group 從固定分類清單選；
-      show_in_index 決定要不要顯示）
-    - 🔹 練習中：只要某個分類主題（topics slug）底下任一題有 attempts
-      記錄，就自動抓「最新練習的那一題」當代表，label 直接用 slug
-      轉換出來的名稱，group 用 group_for(slug) 算
-
-    兩種來源獨立顯示、不會互相覆蓋；同一題如果在同一個 group 底下
-    兩種身份都符合，只顯示正式的「⭐ 代表題」，避免重複。
+    自動產生 docs/topic_index.md：
+    - 篩選條件：只要這題有複習日期（attempts 裡至少一筆有 date）就列出來
+    - 分組方式：跟網站其他地方一樣，用 group_for() + CATEGORY_ORDER
+    - 欄位：跟 review.md 完全一致（# 題目 難度 標籤 解法檔案 時間 空間）
+    - 代表題：只用 👑 標示在題目名稱前面，不另外開欄位
     """
     by_group = {}
 
-    def add_row(group, label, number, title, url, date, self_assessment, kind):
-        by_group.setdefault(group, []).append({
-            'label': label, 'number': number, 'title': title, 'url': url,
-            'date': date, 'self_assessment': self_assessment, 'kind': kind,
-        })
-
-    # 1. 手動標記的代表題（group 現在也是從 group_for() 那套固定清單選的）
-    for problem in problems:
-        represents = problem.get('represents') or []
-        if not represents:
-            continue
-        latest_date = get_latest_attempt_date(problem)
-        for r in represents:
-            if r.get('show_in_index') is False:
-                continue
-            add_row(r.get('group', '📄 Other'), r.get('label', ''),
-                    problem['number'], problem['title'], problem.get('url', ''),
-                    latest_date, r.get('self_assessment', '') or '', 'curated')
-
-    # 2. 自動掃描：每個 topics slug，只要底下任一題有 attempts，
-    # 挑「最新練習的那一題」當代表，group 直接用 group_for(slug)
-    curated_group_numbers = {
-        (group, r['number']) for group, rows in by_group.items() for r in rows
-    }
-
-    best_per_slug = {}  # slug -> (latest_date, number, title, url)
     for problem in problems:
         latest_date = get_latest_attempt_date(problem)
         if not latest_date:
-            continue
-        slugs = set()
-        for sol in problem.get('solutions', []) or []:
-            slugs.update(to_list(sol.get('topics')))
-        for slug in slugs:
-            current = best_per_slug.get(slug)
-            if current is None or latest_date > current[0]:
-                best_per_slug[slug] = (latest_date, problem['number'], problem['title'], problem.get('url', ''))
+            continue  # 沒有複習日期，跳過
 
-    for slug, (latest_date, number, title, url) in best_per_slug.items():
-        group = group_for(slug)
-        if (group, number) in curated_group_numbers:
-            continue  # 這一題在這個分類底下已經有正式代表題了，不要重複冒出來
-        add_row(group, slug_to_label(slug), number, title, url, latest_date, '', 'auto')
+        solutions = problem.get('solutions', []) or []
+        if not solutions:
+            continue
+        # 用 is_best 標記的那個解法當代表資訊；沒標記就用第一個
+        sol = next((s for s in solutions if s.get('is_best')), solutions[0])
+
+        groups = set()
+        for s in solutions:
+            for slug in to_list(s.get('topics')):
+                groups.add(group_for(slug))
+        if not groups:
+            continue  # 完全沒有分類主題，沒地方歸類，跳過
+
+        row = {
+            'number': problem['number'],
+            'title': problem['title'],
+            'url': problem.get('url', ''),
+            'difficulty': sol.get('difficulty', ''),
+            'tags': ', '.join(to_list(sol.get('tags'))),
+            'file': sol.get('file', ''),
+            'time': sol.get('time', ''),
+            'space': sol.get('space', ''),
+            'is_representative': bool(problem.get('is_representative')),
+        }
+        for group in groups:
+            by_group.setdefault(group, []).append(row)
 
     lines = [
         "# 主題索引 Topic Index",
         "",
-        "每個主題的代表題一覽，作為各分類筆記頁面的學習起點，也是系統性",
-        "複習的路線圖。這份頁面是自動產生的，不要直接編輯，下次重新產生",
-        "網站時會被覆蓋掉。分類方式跟複習清單、分類頁一致。",
-        "",
-        "**⭐ 代表題**：手動在 solution-generator.html 標記過的正式代表；"
-        "**🔹 練習中**：這個分類主題底下有題目練習過，自動抓最新一次當代表，"
-        "還沒正式升級成代表題。",
-        "",
-        "同一個主題內部，複習順序建議用 "
-        "`tools/list_topic_review_order.py <topic_slug>` 抓（依照 "
-        "🔴 生疏 → 🟣 易忘 → 🟠 再練習 → 🟡 練習過 → 🟢 熟練 排序）。",
+        "只要有複習紀錄（練習歷程裡有日期）的題目，都會依分類列在這裡，",
+        "跟 docs/topics/*.md、複習清單用同一套分類方式。👑 代表這題是",
+        "手動標記過的代表題。這份頁面是自動產生的，不要直接編輯，下次",
+        "重新產生網站時會被覆蓋掉。",
         "",
         "---",
         "",
@@ -686,15 +653,16 @@ def build_topic_index_page(problems, docs_dir):
     for group in ordered_groups:
         lines.append(f"## {group}")
         lines.append('')
-        lines.append("| 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |")
-        lines.append("| --- | --- | --- | --- | --- | --- |")
-        rows = sorted(by_group[group], key=lambda r: (0 if r['kind'] == 'curated' else 1, r['number']))
+        lines.append("| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |")
+        lines.append("| --- | --- | --- | --- | --- | --- | --- |")
+        rows = sorted(by_group[group], key=lambda r: r['number'])
         for r in rows:
-            kind_icon = '⭐ 代表題' if r['kind'] == 'curated' else '🔹 練習中'
-            rep_cell = f"{r['number']}. {escape_cell(r['title'])}"
-            link_cell = f"[連結]({r['url']})" if r['url'] else ''
-            lines.append(f"| {kind_icon} | {escape_cell(r['label'])} | {rep_cell} | {link_cell} | "
-                         f"{escape_cell(r['date'])} | {escape_cell(r['self_assessment'])} |")
+            crown = '👑 ' if r['is_representative'] else ''
+            title_cell = f"{crown}[{escape_cell(r['title'])}]({r['url']})" if r['url'] else f"{crown}{escape_cell(r['title'])}"
+            page_link = f"problems/{r['number']:04d}.md"
+            file_cell = f"[C++]({page_link})" if r['file'] else ''
+            lines.append(f"| {r['number']} | {title_cell} | {escape_cell(r['difficulty'])} | "
+                         f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | {escape_cell(r['space'])} |")
             total += 1
         lines.append('')
         lines.append('---')

@@ -421,9 +421,12 @@
       <textarea id="attemptReason" rows="14" placeholder="例如：忘記先排序，邊界條件搞錯&#10;&#10;或直接貼上這次自己寫的程式碼，請 AI 幫你比對已收錄的正確版本，生成這次錯在哪的說明"></textarea>
     </div>
 
-    <div class="section-label">代表題設定 <span class="hint">(選填，一題可以同時是好幾個主題的代表題)</span></div>
-    <div id="representsContainer"></div>
-    <button type="button" onclick="addRepresentBlock()" style="margin-bottom: 16px;">＋ 新增一個代表身份</button>
+    <div class="field">
+      <label style="display:flex; align-items:center; gap:8px; font-weight:400; cursor:pointer;">
+        <input type="checkbox" id="isRepresentative" style="width:auto;">
+        👑 代表題 <span class="hint">(這題是不是某個主題的代表題，會顯示在主題索引頁)</span>
+      </label>
+    </div>
 
     <div id="solutionsContainer"></div>
 
@@ -487,87 +490,6 @@ function renderAttemptsHistory() {
 
 function getActivationCode() {
   return document.getElementById('activationCode').value.trim();
-}
-
-// 這份清單要跟 generate_site.py 的 CATEGORY_ORDER 保持完全一致，
-// 兩邊改動要同步，不然代表題標記的 group 會跟網站實際分類對不起來。
-const TOPIC_INDEX_GROUPS = [
-  '🔢 Math', '🔗 String', '📊 Bit Manipulation', '🍱 Array',
-  '🔍 Binary Search', '🔢 Sliding Window', '🔑 Hash Table', '👥 Pointers',
-  '⛓️ Linked List', '📚 Stack', '📚 Queue', '🔢 Backtracking',
-  '🧩 Dynamic Programming', '🧩 Greedy', '🌳 Tree', '🕸️ Graph',
-  '🎨 Design', '📊 Sorting', '📚 Priority Queue', '🔢 SQL', '📚 Quick Select',
-];
-
-let representCount = 0;
-
-function addRepresentBlock(data) {
-  data = data || {};
-  const idx = representCount++;
-  const wrap = document.createElement('div');
-  wrap.className = 'represent-block';
-  wrap.dataset.idx = idx;
-  wrap.style.cssText = 'border:1px solid var(--border,#333); border-radius:8px; padding:12px; margin-bottom:10px;';
-
-  const groupOptions = TOPIC_INDEX_GROUPS.map(g =>
-    `<option value="${escapeHtml(g)}" ${data.group === g ? 'selected' : ''}>${escapeHtml(g)}</option>`
-  ).join('');
-
-  wrap.innerHTML = `
-    <div class="field-row">
-      <div class="field">
-        <label>主題名稱 <span class="hint">(例如 unordered_map、Kadane)</span></label>
-        <input type="text" class="rep-label" value="${escapeHtml(data.label || '')}" placeholder="unordered_map">
-      </div>
-      <div class="field">
-        <label>分類群組</label>
-        <select class="rep-group">
-          <option value="">（選擇群組）</option>
-          ${groupOptions}
-        </select>
-      </div>
-    </div>
-    <div class="field-row">
-      <div class="field" style="flex: 0 0 160px;">
-        <label style="display:flex; align-items:center; gap:8px; font-weight:400; cursor:pointer;">
-          <input type="checkbox" class="rep-is-representative" style="width:auto;" ${data.label ? 'checked' : ''}>
-          ⭐ 代表題
-        </label>
-      </div>
-      <div class="field" style="flex: 0 0 180px;">
-        <label style="display:flex; align-items:center; gap:8px; font-weight:400; cursor:pointer;">
-          <input type="checkbox" class="rep-show-in-index" style="width:auto;" ${data.show_in_index !== false ? 'checked' : ''}>
-          🗺️ 加入主題索引
-        </label>
-      </div>
-      <div class="field">
-        <label>這輪自評 <span class="hint">(選填，例如 🟢 穩)</span></label>
-        <input type="text" class="rep-self-assessment" value="${escapeHtml(data.self_assessment || '')}" placeholder="🟢 穩">
-      </div>
-    </div>
-    <button type="button" onclick="this.closest('.represent-block').remove()" style="margin-top:4px;">－ 移除這筆</button>
-  `;
-  document.getElementById('representsContainer').appendChild(wrap);
-}
-
-function collectRepresents() {
-  const blocks = document.querySelectorAll('.represent-block');
-  const result = [];
-  blocks.forEach(block => {
-    const isRepresentative = block.querySelector('.rep-is-representative').checked;
-    if (!isRepresentative) return; // 「代表題」沒打勾，這筆整個不算數，不寫進資料
-    const label = block.querySelector('.rep-label').value.trim();
-    const group = block.querySelector('.rep-group').value;
-    if (!label || !group) return; // 主題名稱或群組沒填，這筆不完整，跳過
-    const showInIndex = block.querySelector('.rep-show-in-index').checked;
-    const selfAssessment = block.querySelector('.rep-self-assessment').value.trim();
-    result.push({
-      group, label,
-      show_in_index: showInIndex,
-      self_assessment: selfAssessment || null,
-    });
-  });
-  return result;
 }
 
 async function saveViaServer() {
@@ -889,8 +811,7 @@ async function loadExistingProblem() {
     document.getElementById('attemptResult').value = '';
     document.getElementById('attemptReason').value = '';
 
-    document.getElementById('representsContainer').innerHTML = '';
-    (data.represents || []).forEach(r => addRepresentBlock(r));
+    document.getElementById('isRepresentative').checked = !!data.is_representative;
 
     if (data.solutions && data.solutions[0] && data.solutions[0].difficulty) {
       const diffSelect = document.getElementById('difficultyGlobal');
@@ -1071,7 +992,7 @@ function collectStructuredData() {
 
   return { number: parseInt(number, 10), title, url, solutions,
            attempts: attempts.length ? attempts : null,
-           represents: collectRepresents() };
+           is_representative: document.getElementById('isRepresentative').checked };
 }
 
 function buildYamlPreview(data) {
@@ -1087,14 +1008,8 @@ function buildYamlPreview(data) {
       if (a.reason) lines.push(`    reason: ${a.reason}`);
     });
   }
-  if (data.represents && data.represents.length) {
-    lines.push(`represents:`);
-    data.represents.forEach(r => {
-      lines.push(`  - group: ${r.group}`);
-      lines.push(`    label: ${r.label}`);
-      lines.push(`    show_in_index: ${r.show_in_index}`);
-      if (r.self_assessment) lines.push(`    self_assessment: ${r.self_assessment}`);
-    });
+  if (data.is_representative) {
+    lines.push(`is_representative: true`);
   }
   lines.push(`solutions:`);
   data.solutions.forEach(sol => {
@@ -1175,7 +1090,7 @@ function clearForm() {
   document.getElementById('attemptResult').value = '';
   document.getElementById('attemptReason').value = '';
   renderAttemptsHistory();
-  document.getElementById('representsContainer').innerHTML = '';
+  document.getElementById('isRepresentative').checked = false;
 
   showToast('已清除，可以貼下一題 ✓');
 }
