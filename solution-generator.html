@@ -404,36 +404,6 @@
       <input type="text" id="url" placeholder="https://leetcode.com/problems/powx-n/">
     </div>
 
-    <div class="section-label">練習歷程 <span class="hint">(選填，記錄每次重新練習的結果，累加不會覆蓋舊紀錄；日期自動用今天)</span></div>
-    <div id="attemptsHistory" style="font-family: var(--mono); font-size: 12px; color: var(--text-dim); margin-bottom: 10px;">
-      （載入既有題目後，這裡會顯示過去的練習紀錄）
-    </div>
-    <div class="field" style="max-width: 200px;">
-      <label>這次結果</label>
-      <select id="attemptResult">
-        <option value="">（不記錄）</option>
-        <option value="對">對</option>
-        <option value="錯">錯</option>
-      </select>
-    </div>
-    <div class="field">
-      <label>這次的原因 / 心得 <span class="hint">(貼上這次的程式碼，請 AI 幫你比對生成這句話)</span></label>
-      <textarea id="attemptReason" rows="14" placeholder="例如：忘記先排序，邊界條件搞錯&#10;&#10;或直接貼上這次自己寫的程式碼，請 AI 幫你比對已收錄的正確版本，生成這次錯在哪的說明"></textarea>
-    </div>
-
-    <div class="field-row">
-      <div class="field" style="flex: 0 0 200px;">
-        <label style="display:flex; align-items:center; gap:8px; font-weight:400; cursor:pointer;">
-          <input type="checkbox" id="isRepresentative" style="width:auto;">
-          👑 代表題
-        </label>
-      </div>
-      <div class="field">
-        <label>代表題標籤 <span class="hint">(選填，這題代表哪個概念，例如 unordered_map、Kadane)</span></label>
-        <input type="text" id="representativeTag" placeholder="unordered_map">
-      </div>
-    </div>
-
     <div id="solutionsContainer"></div>
 
     <button class="btn-secondary" onclick="addSolutionBlock()">+ 新增解法變體</button>
@@ -479,15 +449,15 @@ let lastYaml = '';
 let lastNumber = '';
 let lastCppFiles = [];
 let lastStructuredData = null;
-let existingAttempts = [];
 
-function renderAttemptsHistory() {
-  const el = document.getElementById('attemptsHistory');
-  if (!existingAttempts.length) {
+function renderSolAttemptsHistory(block) {
+  const el = block.querySelector('.sol-attempts-history');
+  const attempts = block.existingAttempts || [];
+  if (!attempts.length) {
     el.textContent = '（目前沒有任何練習紀錄）';
     return;
   }
-  el.innerHTML = existingAttempts.map(a => {
+  el.innerHTML = attempts.map(a => {
     const icon = a.result === '對' ? '✅' : (a.result === '錯' ? '❌' : '·');
     const reason = a.reason ? escapeHtml(a.reason) : '';
     return `<div>${icon} ${escapeHtml(a.date || '')} ${escapeHtml(a.result || '')}　${reason}</div>`;
@@ -516,14 +486,22 @@ async function saveViaServer() {
     if (result.errors && result.errors.length) {
       console.warn('部分檔案有問題:', result.errors);
     }
-    // 這次新填的練習紀錄已經存進去了，併回 existingAttempts 並清空輸入框，
-    // 避免下次存檔時同一筆被重複送出
-    if (lastStructuredData.attempts) {
-      existingAttempts = lastStructuredData.attempts;
-      renderAttemptsHistory();
+    // 這次新填的練習紀錄已經存進去了，併回每個解法區塊各自的
+    // existingAttempts 並清空輸入框，避免下次存檔時同一筆被重複送出
+    if (lastStructuredData.solutions) {
+      document.querySelectorAll('.solution-block').forEach(block => {
+        const fileEl = block.querySelector('.sol-file');
+        const matched = lastStructuredData.solutions.find(s => s.file === fileEl.value.trim());
+        if (matched && matched.attempts) {
+          block.existingAttempts = matched.attempts;
+          renderSolAttemptsHistory(block);
+        }
+        const resultEl = block.querySelector('.sol-attempt-result');
+        const reasonEl = block.querySelector('.sol-attempt-reason');
+        if (resultEl) resultEl.value = '';
+        if (reasonEl) reasonEl.value = '';
+      });
     }
-    document.getElementById('attemptResult').value = '';
-    document.getElementById('attemptReason').value = '';
     return true;
   } catch (e) {
     console.error(e);
@@ -673,6 +651,7 @@ function addSolutionBlock(prefill) {
   const wrap = document.createElement('div');
   wrap.className = 'solution-block';
   wrap.id = `sol-${idx}`;
+  wrap.existingAttempts = [];
   wrap.innerHTML = `
     <div class="block-title">
       <span>解法 #${idx}</span>
@@ -722,6 +701,34 @@ function addSolutionBlock(prefill) {
           🏆 標記為這題的最佳解
         </label>
       </div>
+    </div>
+    <div class="field-row">
+      <div class="field" style="flex: 0 0 200px;">
+        <label style="display:flex; align-items:center; gap:8px; font-weight:400; cursor:pointer;">
+          <input type="checkbox" class="sol-is-representative" style="width:auto;">
+          👑 代表題
+        </label>
+      </div>
+      <div class="field">
+        <label>代表題標籤 <span class="hint">(選填，這個解法代表哪個概念，例如 unordered_map、Kadane)</span></label>
+        <input type="text" class="sol-representative-tag" placeholder="unordered_map">
+      </div>
+    </div>
+    <div class="section-label">練習歷程 <span class="hint">(選填，記錄每次重新練習這個解法的結果，累加不會覆蓋舊紀錄；日期自動用今天)</span></div>
+    <div class="sol-attempts-history" style="font-family: var(--mono); font-size: 12px; color: var(--text-dim); margin-bottom: 10px;">
+      （載入既有解法後，這裡會顯示過去的練習紀錄）
+    </div>
+    <div class="field" style="max-width: 200px;">
+      <label>這次結果</label>
+      <select class="sol-attempt-result">
+        <option value="">（不記錄）</option>
+        <option value="對">對</option>
+        <option value="錯">錯</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>這次的原因 / 心得 <span class="hint">(貼上這次的程式碼，請 AI 幫你比對生成這句話)</span></label>
+      <textarea class="sol-attempt-reason" rows="14" placeholder="例如：忘記先排序，邊界條件搞錯&#10;&#10;或直接貼上這次自己寫的程式碼，請 AI 幫你比對已收錄的正確版本，生成這次錯在哪的說明"></textarea>
     </div>
     <div class="field">
       <label>相關題目 <span class="hint">(選填，逗號分隔題號，例如 136, 260)</span></label>
@@ -812,14 +819,6 @@ async function loadExistingProblem() {
     urlField.value = data.url || '';
     urlField.dataset.touched = '1';
 
-    existingAttempts = data.attempts || [];
-    renderAttemptsHistory();
-    document.getElementById('attemptResult').value = '';
-    document.getElementById('attemptReason').value = '';
-
-    document.getElementById('isRepresentative').checked = !!data.is_representative;
-    document.getElementById('representativeTag').value = data.representative_tag || '';
-
     if (data.solutions && data.solutions[0] && data.solutions[0].difficulty) {
       const diffSelect = document.getElementById('difficultyGlobal');
       const match = Array.from(diffSelect.options).find(o => o.value === data.solutions[0].difficulty);
@@ -844,6 +843,10 @@ async function loadExistingProblem() {
       block.querySelector('.sol-is-best').checked = !!sol.is_best;
       block.querySelector('.sol-related').value = (sol.related || []).join(', ');
       block.querySelector('.sol-tricks').value = (sol.tricks || []).join(', ');
+      block.querySelector('.sol-is-representative').checked = !!sol.is_representative;
+      block.querySelector('.sol-representative-tag').value = sol.representative_tag || '';
+      block.existingAttempts = sol.attempts || [];
+      renderSolAttemptsHistory(block);
 
       const familiarityEl = block.querySelector('.sol-familiarity');
       familiarityEl.value = sol.familiarity || '';
@@ -971,6 +974,22 @@ function collectStructuredData() {
       missingTopics.push(`解法 #${idx + 1}（${file}）`);
     }
 
+    // 練習歷程：這個解法既有的紀錄 + 這次新填的一筆（如果有填結果才算新紀錄）
+    const solAttempts = (block.existingAttempts || []).slice();
+    const attemptResultEl = block.querySelector('.sol-attempt-result');
+    const attemptResult = attemptResultEl ? attemptResultEl.value : '';
+    if (attemptResult) {
+      const attemptDate = new Date().toISOString().slice(0, 10);
+      const attemptReasonEl = block.querySelector('.sol-attempt-reason');
+      const attemptReason = attemptReasonEl ? attemptReasonEl.value.trim() : '';
+      solAttempts.push({ date: attemptDate, result: attemptResult, reason: attemptReason || null });
+    }
+
+    const isRepresentativeEl = block.querySelector('.sol-is-representative');
+    const isRepresentative = isRepresentativeEl ? isRepresentativeEl.checked : false;
+    const representativeTagEl = block.querySelector('.sol-representative-tag');
+    const representativeTag = representativeTagEl ? representativeTagEl.value.trim() : '';
+
     solutions.push({
       file, difficulty, tags, topics, time, space,
       familiarity: familiarity || null,
@@ -979,6 +998,9 @@ function collectStructuredData() {
       is_best: isBest || null,
       related: related.length ? related : null,
       tricks: tricks.length ? tricks : null,
+      attempts: solAttempts.length ? solAttempts : null,
+      is_representative: isRepresentative || null,
+      representative_tag: representativeTag || null,
       code,
     });
   });
@@ -988,19 +1010,7 @@ function collectStructuredData() {
     return null;
   }
 
-  // 練習歷程：既有紀錄 + 這次新填的一筆（如果有填結果的話才算一筆新紀錄）
-  const attempts = existingAttempts.slice();
-  const attemptResult = document.getElementById('attemptResult').value;
-  if (attemptResult) {
-    const attemptDate = new Date().toISOString().slice(0, 10);
-    const attemptReason = document.getElementById('attemptReason').value.trim();
-    attempts.push({ date: attemptDate, result: attemptResult, reason: attemptReason || null });
-  }
-
-  return { number: parseInt(number, 10), title, url, solutions,
-           attempts: attempts.length ? attempts : null,
-           is_representative: document.getElementById('isRepresentative').checked,
-           representative_tag: document.getElementById('representativeTag').value.trim() || null };
+  return { number: parseInt(number, 10), title, url, solutions };
 }
 
 function buildYamlPreview(data) {
@@ -1008,18 +1018,6 @@ function buildYamlPreview(data) {
   lines.push(`number: ${data.number}`);
   lines.push(`title: ${data.title}`);
   lines.push(`url: ${data.url}`);
-  if (data.attempts && data.attempts.length) {
-    lines.push(`attempts:`);
-    data.attempts.forEach(a => {
-      lines.push(`  - date: ${a.date}`);
-      lines.push(`    result: ${a.result}`);
-      if (a.reason) lines.push(`    reason: ${a.reason}`);
-    });
-  }
-  if (data.is_representative) {
-    lines.push(`is_representative: true`);
-    if (data.representative_tag) lines.push(`representative_tag: ${data.representative_tag}`);
-  }
   lines.push(`solutions:`);
   data.solutions.forEach(sol => {
     lines.push(`- file: ${sol.file}`);
@@ -1032,6 +1030,18 @@ function buildYamlPreview(data) {
     lines.push(`  space: ${sol.space}`);
     if (sol.familiarity) lines.push(`  familiarity: ${sol.familiarity}`);
     if (sol.is_best) lines.push(`  is_best: true`);
+    if (sol.is_representative) {
+      lines.push(`  is_representative: true`);
+      if (sol.representative_tag) lines.push(`  representative_tag: ${sol.representative_tag}`);
+    }
+    if (sol.attempts && sol.attempts.length) {
+      lines.push(`  attempts:`);
+      sol.attempts.forEach(a => {
+        lines.push(`  - date: ${a.date}`);
+        lines.push(`    result: ${a.result}`);
+        if (a.reason) lines.push(`    reason: ${a.reason}`);
+      });
+    }
     if (sol.related && sol.related.length) {
       lines.push(`  related:`);
       sol.related.forEach(r => lines.push(`  - ${r}`));
@@ -1095,12 +1105,6 @@ function clearForm() {
   lastNumber = '';
   lastCppFiles = [];
   lastStructuredData = null;
-  existingAttempts = [];
-  document.getElementById('attemptResult').value = '';
-  document.getElementById('attemptReason').value = '';
-  renderAttemptsHistory();
-  document.getElementById('isRepresentative').checked = false;
-  document.getElementById('representativeTag').value = '';
 
   showToast('已清除，可以貼下一題 ✓');
 }

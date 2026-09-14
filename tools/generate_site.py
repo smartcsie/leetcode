@@ -171,27 +171,6 @@ def build_problem_page(problem, solution_dir):
         lines.append(f"[在 LeetCode 上查看]({url})")
         lines.append('')
 
-    attempts = problem.get('attempts') or []
-    if attempts:
-        lines.append("## 📅 練習歷程")
-        lines.append('')
-        for a in attempts:
-            icon = '✅' if a.get('result') == '對' else ('❌' if a.get('result') == '錯' else '·')
-            date = escape_cell(a.get('date', ''))
-            result = escape_cell(a.get('result', ''))
-            reason = a.get('reason')
-            if reason and '\n' in reason:
-                # 多行內容（很可能是貼上的程式碼），縮排放在清單項目底下，
-                # 不要接在同一行，否則會把 markdown 清單格式弄壞
-                lines.append(f"- {icon} **{date}** {result}")
-                for reason_line in reason.split('\n'):
-                    lines.append(f"    {reason_line}")
-            elif reason:
-                lines.append(f"- {icon} **{date}** {result}　{escape_cell(reason)}")
-            else:
-                lines.append(f"- {icon} **{date}** {result}")
-        lines.append('')
-
     multi = len(solutions) > 1
     missing_files = []
 
@@ -216,13 +195,35 @@ def build_problem_page(problem, solution_dir):
             familiarity_badge = '　**熟悉度:** 🟣 易忘'
 
         best_badge = '　🏆 **最佳解**' if sol.get('is_best') else ''
+        crown_badge = '　👑 **代表題**' if sol.get('is_representative') else ''
+        if sol.get('is_representative') and sol.get('representative_tag'):
+            crown_badge = f"　👑 **代表題（{escape_cell(sol['representative_tag'])}）**"
 
         info = (f"**難度:** {sol.get('difficulty','')}　"
                 f"**標籤:** {tags_str}　"
                 f"**時間:** {sol.get('time','')}　"
-                f"**空間:** {sol.get('space','')}{familiarity_badge}{best_badge}")
+                f"**空間:** {sol.get('space','')}{familiarity_badge}{best_badge}{crown_badge}")
         lines.append(info)
         lines.append('')
+
+        attempts = sol.get('attempts') or []
+        if attempts:
+            lines.append("**📅 練習歷程:**")
+            lines.append('')
+            for a in attempts:
+                icon = '✅' if a.get('result') == '對' else ('❌' if a.get('result') == '錯' else '·')
+                date = escape_cell(a.get('date', ''))
+                result = escape_cell(a.get('result', ''))
+                reason = a.get('reason')
+                if reason and '\n' in reason:
+                    lines.append(f"- {icon} **{date}** {result}")
+                    for reason_line in reason.split('\n'):
+                        lines.append(f"    {reason_line}")
+                elif reason:
+                    lines.append(f"- {icon} **{date}** {result}　{escape_cell(reason)}")
+                else:
+                    lines.append(f"- {icon} **{date}** {result}")
+            lines.append('')
 
         tricks = to_list(sol.get('tricks'))
         if tricks:
@@ -585,9 +586,10 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
     return len(rows) + len(forgetful_rows)
 
 
-def get_latest_attempt_date(problem):
-    """回傳這題 attempts 清單裡最新一筆的日期字串，沒有就回傳空字串。"""
-    attempts = problem.get('attempts') or []
+def get_latest_attempt_date(entity):
+    """回傳這個實體（可以是題目層級或解法層級）attempts 清單裡最新
+    一筆的日期字串，沒有就回傳空字串。"""
+    attempts = entity.get('attempts') or []
     dates = [a.get('date') for a in attempts if a.get('date')]
     return max(dates) if dates else ''
 
@@ -595,54 +597,49 @@ def get_latest_attempt_date(problem):
 def build_topic_index_page(problems, docs_dir):
     """
     自動產生 docs/topic_index.md：
-    - 篩選條件：只要這題有複習日期（attempts 裡至少一筆有 date）就列出來
+    - 篩選條件：某個解法變體有複習日期（該解法自己的 attempts 裡至少
+      一筆有 date）就列出來——練習歷程、代表題現在都是「解法層級」的
+      欄位，不是題目層級，同一題不同解法變體可以各自獨立有沒有練習過
     - 分組方式：跟網站其他地方一樣，用 group_for() + CATEGORY_ORDER
-    - 欄位：跟 review.md 完全一致（# 題目 難度 標籤 解法檔案 時間 空間）
-    - 代表題：只用 👑 標示在題目名稱前面，不另外開欄位
+    - 欄位：跟 review.md 一致（# 題目 難度 標籤 解法檔案 時間 空間），
+      多加一欄複習日期
+    - 代表題：用 👑 + 代表題標籤 標示在題目名稱前面（換行顯示）
     """
     by_group = {}
 
     for problem in problems:
-        latest_date = get_latest_attempt_date(problem)
-        if not latest_date:
-            continue  # 沒有複習日期，跳過
+        for sol in problem.get('solutions', []) or []:
+            latest_date = get_latest_attempt_date(sol)
+            if not latest_date:
+                continue  # 這個解法變體沒有複習日期，跳過
 
-        solutions = problem.get('solutions', []) or []
-        if not solutions:
-            continue
-        # 用 is_best 標記的那個解法當代表資訊；沒標記就用第一個
-        sol = next((s for s in solutions if s.get('is_best')), solutions[0])
+            groups = {group_for(slug) for slug in to_list(sol.get('topics'))}
+            if not groups:
+                continue  # 沒有分類主題，沒地方歸類，跳過
 
-        groups = set()
-        for s in solutions:
-            for slug in to_list(s.get('topics')):
-                groups.add(group_for(slug))
-        if not groups:
-            continue  # 完全沒有分類主題，沒地方歸類，跳過
-
-        row = {
-            'number': problem['number'],
-            'title': problem['title'],
-            'url': problem.get('url', ''),
-            'difficulty': sol.get('difficulty', ''),
-            'tags': ', '.join(to_list(sol.get('tags'))),
-            'file': sol.get('file', ''),
-            'time': sol.get('time', ''),
-            'space': sol.get('space', ''),
-            'is_representative': bool(problem.get('is_representative')),
-            'representative_tag': problem.get('representative_tag') or '',
-            'date': latest_date,
-        }
-        for group in groups:
-            by_group.setdefault(group, []).append(row)
+            row = {
+                'number': problem['number'],
+                'title': problem['title'],
+                'url': problem.get('url', ''),
+                'difficulty': sol.get('difficulty', ''),
+                'tags': ', '.join(to_list(sol.get('tags'))),
+                'file': sol.get('file', ''),
+                'time': sol.get('time', ''),
+                'space': sol.get('space', ''),
+                'is_representative': bool(sol.get('is_representative')),
+                'representative_tag': sol.get('representative_tag') or '',
+                'date': latest_date,
+            }
+            for group in groups:
+                by_group.setdefault(group, []).append(row)
 
     lines = [
         "# 主題索引 Topic Index",
         "",
-        "只要有複習紀錄（練習歷程裡有日期）的題目，都會依分類列在這裡，",
-        "跟 docs/topics/*.md、複習清單用同一套分類方式。👑 代表這題是",
-        "手動標記過的代表題。這份頁面是自動產生的，不要直接編輯，下次",
-        "重新產生網站時會被覆蓋掉。",
+        "只要有複習紀錄（某個解法的練習歷程裡有日期）的題目，都會依分類",
+        "列在這裡，跟 docs/topics/*.md、複習清單用同一套分類方式。",
+        "👑 代表這個解法是手動標記過的代表題。這份頁面是自動產生的，",
+        "不要直接編輯，下次重新產生網站時會被覆蓋掉。",
         "",
         "---",
         "",
