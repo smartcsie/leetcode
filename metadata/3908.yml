@@ -11,7 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/)
     <br>
 
