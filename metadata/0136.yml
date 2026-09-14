@@ -1,6 +1,8 @@
 number: 136
 title: Single Number
 url: https://leetcode.com/problems/single-number
+is_representative: true
+representative_tag: Accumulate XOR
 attempts:
 - date: '2026-09-14'
   result: 對
@@ -22,5 +24,3 @@ solutions:
   - 2317
   tricks:
   - accumulate
-is_representative: true
-representative_tag: XOR 消除
