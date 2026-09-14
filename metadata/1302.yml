@@ -1,6 +1,10 @@
 number: 1302
 title: Deepest Leaves Sum
 url: https://leetcode.com/problems/deepest-leaves-sum/
+attempts:
+- date: '2026-09-14'
+  result: 對
+  reason: null
 solutions:
 - file: Solution_1302.cpp
   difficulty: 🟡 Medium
@@ -11,4 +15,5 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
