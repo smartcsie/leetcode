@@ -11,7 +11,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 231 | 👑 **n & (n-1)**<br>[Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](problems/0231.md) | O(1) | O(1) | 2026-09-13 |
+| 231 | 👑 **Brian Kernighan**<br>[Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](problems/0231.md) | O(1) | O(1) | 2026-09-13 |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](problems/0263.md) | O(logN) | O(1) | 2026-09-14 |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](problems/0326.md) | O(log₃N) | O(1) | 2026-09-13 |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](problems/0342.md) | O(1) | O(1) | 2026-09-13 |
