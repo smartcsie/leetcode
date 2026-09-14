@@ -10,6 +10,11 @@ solutions:
   - quick-select
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
+  attempts:
+  - date: '2026-09-14'
+    result: 對
+    reason: null
   is_representative: true
-  representative_tag: priority_queue max heap
+  representative_tag: Quick Select
