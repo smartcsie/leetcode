@@ -631,6 +631,7 @@ def build_topic_index_page(problems, docs_dir):
             'space': sol.get('space', ''),
             'is_representative': bool(problem.get('is_representative')),
             'representative_tag': problem.get('representative_tag') or '',
+            'date': latest_date,
         }
         for group in groups:
             by_group.setdefault(group, []).append(row)
@@ -654,19 +655,21 @@ def build_topic_index_page(problems, docs_dir):
     for group in ordered_groups:
         lines.append(f"## {group}")
         lines.append('')
-        lines.append("| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |")
-        lines.append("| --- | --- | --- | --- | --- | --- | --- |")
+        lines.append("| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |")
+        lines.append("| --- | --- | --- | --- | --- | --- | --- | --- |")
         rows = sorted(by_group[group], key=lambda r: r['number'])
         for r in rows:
+            link_part = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             if r['is_representative']:
-                crown = f"👑 **{escape_cell(r['representative_tag'])}** — " if r['representative_tag'] else '👑 '
+                crown_line = f"👑 **{escape_cell(r['representative_tag'])}**" if r['representative_tag'] else '👑'
+                title_cell = f"{crown_line}<br>{link_part}"
             else:
-                crown = ''
-            title_cell = f"{crown}[{escape_cell(r['title'])}]({r['url']})" if r['url'] else f"{crown}{escape_cell(r['title'])}"
+                title_cell = link_part
             page_link = f"problems/{r['number']:04d}.md"
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             lines.append(f"| {r['number']} | {title_cell} | {escape_cell(r['difficulty'])} | "
-                         f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | {escape_cell(r['space'])} |")
+                         f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | "
+                         f"{escape_cell(r['space'])} | {escape_cell(r['date'])} |")
             total += 1
         lines.append('')
         lines.append('---')
