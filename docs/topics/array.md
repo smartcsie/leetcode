@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](../problems/3969.md) | O(N²) | O(1) |
 
-## 🟠 再練習（9）
+## 🟠 再練習（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -17,10 +17,11 @@
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | Array | [C++](../problems/1299.md) | O(N) | O(1) |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | Array, String | [C++](../problems/1662.md) | O(N+M) | O(1) |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](../problems/1752.md) | O(N) | O(1) |
+| 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array | [C++](../problems/1929.md) | O(N) | O(1) |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array, Counting | [C++](../problems/2089.md) | O(N) | O(1) |
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | Array, Simulation, Brute Force | [C++](../problems/3477.md) | O(N^2) | O(1) |
 
-## 🟡 練習過（17）
+## 🟡 練習過（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -31,7 +32,6 @@
 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 Easy | Array, Brute Force | [C++](../problems/1534.md) | O(N³) | O(1) |
 | 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 Easy | Array | [C++](../problems/1550.md) | O(N) | O(1) |
 | 1844 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | 🟢 Easy | In-place Manipulation | [C++](../problems/1844.md) | O(N) | O(1) |
-| 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array | [C++](../problems/1929.md) | O(N) | O(1) |
 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 Easy | Array, Brute Force | [C++](../problems/1995.md) | O(N⁴) | O(1) |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | Array, Sorting | [C++](../problems/2148.md) | O(N) | O(1) |
 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | Array, Two Pointers, Sorting | [C++](../problems/2824.md) | O(N²) | O(1) |

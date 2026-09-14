@@ -23,6 +23,7 @@
 
 | 類型 | 主題 | 代表題 | LeetCode | 上次複習日期 | 這輪自評 |
 | --- | --- | --- | --- | --- | --- |
+| 🔹 練習中 | Array | 1929. Concatenation of Array | [連結](https://leetcode.com/problems/concatenation-of-array) | 2026-09-14 |  |
 | 🔹 練習中 | Array Linear Scan | 3512. Minimum Operations to Make Array Sum Divisible by K | [連結](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 2026-09-13 |  |
 
 ---

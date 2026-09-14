@@ -1,6 +1,12 @@
 number: 1929
 title: Concatenation of Array
 url: https://leetcode.com/problems/concatenation-of-array
+attempts:
+- date: '2026-09-14'
+  result: 錯
+  reason: "class Solution {\npublic:\n    vector<int> getConcatenation(vector<int>&\
+    \ nums) {\n        nums.insert(nums.begin(), nums);\n        return nums;\n  \
+    \  }\n};"
 solutions:
 - file: Solution_1929.cpp
   difficulty: 🟢 Easy
@@ -10,7 +16,7 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   is_best: true
   related:
   - 3925
