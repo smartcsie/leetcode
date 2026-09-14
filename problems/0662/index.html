@@ -4986,29 +4986,6 @@
 
 <h1 id="662-maximum-width-of-binary-tree">662. Maximum Width of Binary Tree<a class="headerlink" href="#662-maximum-width-of-binary-tree" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/maximum-width-of-binary-tree/">在 LeetCode 上查看</a></p>
-<h2 id="_1">📅 練習歷程<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<ul>
-<li>❌ <strong>2026-09-14</strong> 錯
-    class Solution {
-    public:
-        int widthOfBinaryTree(TreeNode<em> root) {
-            if(!root) return 0;
-            queue<pair\<TreeNode*, int>> q;
-            q.push({root, 1});
-            int width = 0;
-            while(!q.empty()) {
-                int curWidth = q.back().second - q.front().second + 1;
-                width = max(width, curWidth);
-                for(int i = q.size() - 1; i &gt;= 0; i--) {
-                    auto [node, idx] = q.front(); q.pop();
-                    if(node-&gt;left) q.push({node-&gt;left, idx * 2});
-                    if(node-&gt;right) q.push({node-&gt;right, idx</em> 2 + 1});
-                }
-            }
-            return width;
-        }
-    };</li>
-</ul>
 <p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Tree Bfs Level Order, BFS　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(W)　<strong>熟悉度:</strong> 🟠 再練習</p>
 <p><strong>技巧:</strong> overflow handle</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
