@@ -12,7 +12,15 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **BFS + QuickSelect**<br>
 
-    > **注意邊界條件，if (k > sums.size()) return -1;**<br>'
+    > **注意邊界條件，if (k > sums.size()) return -1;**<br>
+
+    > **auto it = sums.end() - k;**<br>
+
+    > **nth_element(sums.begin(), it, sums.end());**<br>
+
+    > **return static_cast<long long>(*it);**<br>'
+  tricks:
+  - QuickSelect
