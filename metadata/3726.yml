@@ -5,15 +5,14 @@ solutions:
 - file: Solution_3726.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - Digit Extraction
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
-  note: '> [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation)
-    <br>
-
-    > 跟 3697很像，差異是digit != 0 才 res += base * digit; base *= 10;<br>'
+  familiarity: 再練習
+  note: '> 跟 3697很像，差異是digit != 0 才 res += base * digit; base *= 10;<br>'
   is_best: true
+  tricks:
+  - digit scan
