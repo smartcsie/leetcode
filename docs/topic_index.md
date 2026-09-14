@@ -49,7 +49,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 704 | 👑<br>[Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](problems/0704.md) | O(logN) | O(1) | 2026-09-14 |
+| 704 | 👑 **Binary Search**<br>[Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](problems/0704.md) | O(logN) | O(1) | 2026-09-14 |
 
 ---
 

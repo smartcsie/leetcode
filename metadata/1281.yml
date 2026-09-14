@@ -1,6 +1,8 @@
 number: 1281
 title: Subtract the Product and Sum of Digits of an Integer
 url: https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/
+is_representative: true
+representative_tag: Digit Decomposition
 solutions:
 - file: Solution_1281.cpp
   difficulty: 🟢 Easy
@@ -11,6 +13,5 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
-is_representative: true
-representative_tag: Digit Decomposition
+  familiarity: 熟練
+  mastered_date: '2026-09-14'
