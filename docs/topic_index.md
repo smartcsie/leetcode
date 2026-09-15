@@ -60,7 +60,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree Traversal, DFS | [C++](problems/0094.md) | O(N) | O(H) | 2026-09-15 |
+| 94 | 👑 **Inorder**<br>[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree Traversal, DFS | [C++](problems/0094.md) | O(N) | O(H) | 2026-09-15 |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | Tree | [C++](problems/0100.md) | O(N) | O(H) | 2026-09-14 |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0101.md) | O(N) | O(H) | 2026-09-14 |
 | 102 | 👑 **BFS Level Order**<br>[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/0102.md) | O(N) | O(W) | 2026-09-14 |
@@ -69,6 +69,7 @@
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 Easy | Tree Dfs Path, BFS, DFS | [C++](problems/0111.md) | O(N) | O(H) | 2026-09-14 |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | Tree Bfs Level Order, Recursion, Constant Space | [C++](problems/0116.md) | O(N) | O(1) | 2026-09-14 |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | 🟡 Medium | Tree Bfs Level Order, BFS, Queue | [C++](problems/0117.md) | O(N) | O(N) | 2026-09-14 |
+| 144 | 👑 **Preorder**<br>[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) | 2026-09-15 |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/0199.md) | O(N) | O(W) | 2026-09-14 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](problems/0235.md) | O(H) | O(H) | 2026-09-14 |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](problems/0236.md) | O(N) | O(H) | 2026-09-14 |

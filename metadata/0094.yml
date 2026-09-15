@@ -15,8 +15,6 @@ solutions:
   familiarity: 易忘
   note: '> **root為空則return，遞迴左子樹，把root->val加入到result vector，遞迴右子樹**<br>'
   is_best: true
-  is_representative: true
-  representative_tag: Inorder
 - file: Solution_0094.cpp
   difficulty: 🟢 Easy
   tags:
@@ -32,6 +30,11 @@ solutions:
   - date: '2026-09-15'
     result: 對
     reason: null
+  - date: '2026-09-15'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Inorder
 - file: Solution_0094_2.cpp
   difficulty: 🟢 Easy
   tags:
