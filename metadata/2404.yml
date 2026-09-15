@@ -12,10 +12,15 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
   related:
   - 501
   - 697
   - 3982
   tricks:
   - running maximum with reset
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
