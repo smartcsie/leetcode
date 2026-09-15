@@ -498,7 +498,7 @@ async function saveViaServer() {
         }
         const resultEl = block.querySelector('.sol-attempt-result');
         const reasonEl = block.querySelector('.sol-attempt-reason');
-        if (resultEl) resultEl.value = '';
+        if (resultEl) resultEl.value = '對';
         if (reasonEl) reasonEl.value = '';
       });
     }
@@ -722,7 +722,7 @@ function addSolutionBlock(prefill) {
       <label>這次結果</label>
       <select class="sol-attempt-result">
         <option value="">（不記錄）</option>
-        <option value="對">對</option>
+        <option value="對" selected>對</option>
         <option value="錯">錯</option>
       </select>
     </div>
