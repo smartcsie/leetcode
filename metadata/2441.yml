@@ -12,8 +12,17 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
   is_best: true
+  related:
+  - 1
+  tricks:
+  - unordered_set
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
 - file: Solution_2441_1.cpp
   difficulty: 🟢 Easy
   tags:
