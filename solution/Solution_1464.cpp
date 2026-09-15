@@ -19,21 +19,15 @@
 class Solution {
 public:
     int maxProduct(std::vector<int>& nums) {
-        // 使用 pair 儲存最大值 (first) 與第二大值 (second)，初值設為 0
-        std::pair<int, int> maxVal(0, 0);
-        
-        for (const int& num : nums) {
-            if (num > maxVal.first) {
-                // 當前數字大於最大值：原本的最大值變成第二大，再更新最大值
-                maxVal.second = maxVal.first;
-                maxVal.first = num;
-            } else if (num > maxVal.second) {
-                // 當前數字沒有大於最大值，但大於第二大值：更新第二大值
-                maxVal.second = num;
+        int mx1 = 0, mx2 = 0;
+        for(const int& x : nums) {
+            if(x > mx1) {
+                mx2 = mx1;
+                mx1 = x;
+            } else if(x > mx2) {
+                mx2 = x;
             }
         }
-        
-        // 依照題目公式計算結果
-        return (maxVal.first - 1) * (maxVal.second - 1);
+        return (mx1 - 1) * (mx2 - 1);
     }
 };
