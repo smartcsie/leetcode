@@ -35,7 +35,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -47,3 +47,4 @@
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array Linear Scan | [C++](../problems/2239.md) | O(N) | O(1) |
 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 Easy | Array Linear Scan, Matrix, Linear Scan | [C++](../problems/2643.md) | O(M\*N) | O(1) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Array Linear Scan | [C++](../problems/3512.md) | O(N) | O(1) |
+| 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan, Simulation | [C++](../problems/3925.md) | O(N) | O(N) |
