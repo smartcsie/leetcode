@@ -21,19 +21,13 @@
 class Solution {
 public:
     bool kLengthApart(std::vector<int>& nums, int k) {
-        int pos = -1; // 記錄上一個 1 的位置
-        
-        for (int i = 0; i < nums.size(); ++i) {
-            if (nums[i] == 1) {
-                // 如果不是第一個遇到的 1，檢查與前一個 1 的距離是否小於 k
-                if (pos != -1 && (i - pos - 1) < k) {
-                    return false;
-                }
-                // 更新位置
-                pos = i;
+        int pre = -1;
+        for(int i = 0; i < nums.size(); i++) {
+            if(nums[i] & 1) {
+                if(pre != -1 && (i - pre - 1) < k) return false;
+                pre = i;
             }
         }
-        
         return true;
     }
 };

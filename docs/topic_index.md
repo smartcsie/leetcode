@@ -45,6 +45,7 @@
 | 414 | 👑 **Array Min Max Without Repeat**<br>[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array Min Max | [C++](problems/0414.md) | O(N) | O(1) | 2026-09-15 |
 | 628 | 👑 **Array Min Max With Repeat**<br>[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array Min Max | [C++](problems/0628.md) | O(N) | O(1) | 2026-09-15 |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](problems/0674.md) | O(N) | O(1) | 2026-09-15 |
+| 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/1437.md) | O(N) | O(1) | 2026-09-15 |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 Easy | Array Min Max, Greedy, Simulation | [C++](problems/1464.md) | O(N) | O(1) | 2026-09-15 |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array Linear Scan, Math | [C++](problems/1822.md) | O(N) | O(1) | 2026-09-15 |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array | [C++](problems/1929.md) | O(N) | O(1) | 2026-09-14 |
