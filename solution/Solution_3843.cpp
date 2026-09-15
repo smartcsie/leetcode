@@ -15,16 +15,10 @@ class Solution {
 public:
     int firstUniqueFreq(vector<int>& nums) {
         unordered_map<int, int> counts;
-        for(const int& num : nums) {
-            counts[num]++;
-        }
-        unordered_map<int, int> countFreq;
-        for(const auto& [num, count] : counts) {
-            countFreq[count]++;
-        }
-        for(const int& num : nums) {
-            if(countFreq[counts[num]] == 1) return num;
-        }
+        unordered_map<int, int> freqs;
+        for(const int& x : nums) counts[x]++;
+        for(const auto& [num, freq] : counts) freqs[freq]++;
+        for(const int& x : nums) if(freqs[counts[x]] == 1) return x;
         return -1;
     }
 };
