@@ -5,10 +5,15 @@ solutions:
 - file: Solution_2540.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Two Pointers Same
   - Two Pointers
   topics:
   - two-pointers-same
   time: O(N+M)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
