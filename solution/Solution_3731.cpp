@@ -14,18 +14,18 @@
 class Solution {
 public:
     vector<int> findMissingElements(vector<int>& nums) {
-        auto [minIt, maxIt] = minmax_element(nums.begin(), nums.end());
-        int min = *minIt;
-        int max = *maxIt;
-        vector<bool> seen(max + 1, false);
-        vector<int> res;
-        res.reserve(max - min);
-        for(const int& num : nums) {
-            seen[num] = true;
+        vector<int> ans;
+        vector<bool> seen(101, false);
+        ans.reserve(nums.size());
+        int mn = 101, mx = 0;
+        for(const int x : nums) {
+            seen[x] = true;
+            mn = min(mn, x);
+            mx = max(mx, x);
         }
-        for(int i = min + 1; i < max; i++) {
-            if(!seen[i]) res.push_back(i);
+        for(int i = mn; i <= mx;i++) {
+            if(!seen[i]) ans.push_back(i);
         }
-        return res;
+        return ans;
     }
 };
