@@ -12,6 +12,21 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-15'
+  note: '> **不允許前三大有重覆**<br>
+
+    > if(num > mx[1])<br>
+
+    > else if(num > mx[2] &&  **num < mx[1] **)<br>
+
+    > else if(num > mx[3] &&  **num < mx[2] **)<br>
+
+    > **允許前三大有重覆**<br>
+
+    > if(num > mx[1])<br>
+
+    > else if(num > mx[2])<br>
+
+    > else if(num > mx[3])<br>'
   attempts:
   - date: '2026-09-15'
     result: 對
