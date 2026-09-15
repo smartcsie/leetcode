@@ -13,28 +13,22 @@
 class Solution {
 public:
     int maximumSum(vector<int>& nums) {
-        vector<vector<int>> counts(82, vector<int>(3, -1));
-        for(const int& x : nums) {
-            int d = 0;
-            int y = x;
-            while(y > 0) {
-                d += y % 10;
-                y /= 10;
-            }
-            if(x > counts[d][1]) {
-                counts[d][0] = counts[d][1];
-                counts[d][1] = x;
-            } else if(x > counts[d][0]) {
-                counts[d][0] = x;
-            } 
-            if(counts[d][0] != -1 && counts[d][1] != -1) 
-                counts[d][2] = max(counts[d][2], counts[d][0] + counts[d][1]);
-        }
+        vector<vector<int>> mx(82,vector<int>(2, 0));
         int ans = -1;
-        for(int i = 0 ; i < 82; i++) {
-            if(counts[i][2] != -1) {
-                ans = max(ans, counts[i][2]);
+        for(const int& num : nums) {
+            int x = num;
+            int d = 0;
+            while(x > 0) {
+                d += x % 10;
+                x /= 10;
             }
+            if(num > mx[d][0]) {
+                mx[d][1] = mx[d][0];
+                mx[d][0] = num;
+            } else if(num > mx[d][1]) {
+                 mx[d][1] = num;
+            }
+            if(mx[d][1] != 0) ans = max(ans, mx[d][1] + mx[d][0]);
         }
         return ans;
     }
