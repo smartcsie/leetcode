@@ -15,19 +15,19 @@ class Solution {
 public:
     int getLeastFrequentDigit(int n) {
         vector<int> counts(10, 0);
-        int temp = n;
-        while(temp > 0) {
-            counts[temp % 10]++;
-            temp /= 10;
+        int mn = INT_MAX;
+        int ans;
+        while(n > 0) {
+            int d = n % 10;
+            counts[d]++;
+            n /= 10;
         }
-        int minDigit = -1;
-        int minFreq = INT_MAX;
-        for(int i = 0; i < 10; i++) {
-            if(counts[i] > 0 && counts[i] < minFreq) {
-                minFreq = counts[i];
-                minDigit = i;
+        for(int i = 0; i <= 9; i++) {
+            if(counts[i] && counts[i] < mn) {
+                mn = counts[i];
+                ans = i;
             }
         }
-        return minDigit;
+        return ans;
     }
 };
