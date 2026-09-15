@@ -10,15 +10,15 @@
 
 ## 🟡 練習過（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | Two Pointers Other, Two Pointers | [C++](../problems/0557.md) | O(N) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | Two Pointers Other, Two Pointers | [C++](../problems/0557.md) | O(N) | O(1) |  |
 
 ## 🟣 易忘（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Linked List, Two Pointers | [C++](../problems/0160.md) | O(N+M) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Linked List, Two Pointers | [C++](../problems/0160.md) | O(N+M) | O(1) |  |
 
 ## 🟢 熟悉（0）
 

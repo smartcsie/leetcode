@@ -2,13 +2,13 @@
 
 ## 🔴 生疏（5）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | Backtracking | [C++](../problems/0046.md) | O(N\*N!) | O(N) |
-| 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](../problems/0047.md) | O(N\*N!) | O(N) |
-| 526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | 🟡 Medium | Backtracking Permutation | [C++](../problems/0526.md) | O(K) | O(N) |
-| 1238 | [Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/) | 🟡 Medium | Backtracking Permutation | [C++](../problems/1238.md) | O(2^N) | O(2^N) |
-| 1947 | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/) | 🟡 Medium | Backtracking Permutation | [C++](../problems/1947.md) | O(M!) | O(M) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | Backtracking | [C++](../problems/0046.md) | O(N\*N!) | O(N) |  |
+| 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](../problems/0047.md) | O(N\*N!) | O(N) |  |
+| 526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | 🟡 Medium | Backtracking Permutation | [C++](../problems/0526.md) | O(K) | O(N) |  |
+| 1238 | [Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/) | 🟡 Medium | Backtracking Permutation | [C++](../problems/1238.md) | O(2^N) | O(2^N) |  |
+| 1947 | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/) | 🟡 Medium | Backtracking Permutation | [C++](../problems/1947.md) | O(M!) | O(M) |  |
 
 ## 🟠 再練習（0）
 

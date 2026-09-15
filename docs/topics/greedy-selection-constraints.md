@@ -2,11 +2,11 @@
 
 ## 🔴 生疏（3）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) | 🔴 Hard | Greedy Selection Constraints | [C++](../problems/1392.md) | O(N) | O(N) |
-| 1696 | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/) | 🟡 Medium | Greedy Selection Constraints | [C++](../problems/1696.md) | O(N) | O(N) |
-| 1770 | [Maximum Score From Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | 🔴 Hard | Greedy Selection Constraints | [C++](../problems/1770.md) | O(M²) | O(M²) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) | 🔴 Hard | Greedy Selection Constraints | [C++](../problems/1392.md) | O(N) | O(N) |  |
+| 1696 | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/) | 🟡 Medium | Greedy Selection Constraints | [C++](../problems/1696.md) | O(N) | O(N) |  |
+| 1770 | [Maximum Score From Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | 🔴 Hard | Greedy Selection Constraints | [C++](../problems/1770.md) | O(M²) | O(M²) |  |
 
 ## 🟠 再練習（0）
 
@@ -14,9 +14,9 @@
 
 ## 🟡 練習過（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2554 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | 🟡 Medium | Greedy Selection Constraints, Hash Table, Greedy, Sorting | [C++](../problems/2554.md) | O(N+M) | O(M) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2554 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | 🟡 Medium | Greedy Selection Constraints, Hash Table, Greedy, Sorting | [C++](../problems/2554.md) | O(N+M) | O(M) |  |
 
 ## 🟣 易忘（0）
 

@@ -2,9 +2,9 @@
 
 ## 🔴 生疏（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | Graph Bfs | [C++](../problems/0127.md) | O(N·L·26) | O(N·L) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | Graph Bfs | [C++](../problems/0127.md) | O(N·L·26) | O(N·L) |  |
 
 ## 🟠 再練習（0）
 

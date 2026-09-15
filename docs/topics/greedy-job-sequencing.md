@@ -2,10 +2,10 @@
 
 ## 🔴 生疏（2）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 502 | [IPO](https://leetcode.com/problems/ipo/) | 🔴 Hard | Greedy Job Sequencing | [C++](../problems/0502.md) | O(N log N) | O(N) |
-| 630 | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | 🔴 Hard | Greedy Job Sequencing | [C++](../problems/0630.md) | O(N log N) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 502 | [IPO](https://leetcode.com/problems/ipo/) | 🔴 Hard | Greedy Job Sequencing | [C++](../problems/0502.md) | O(N log N) | O(N) |  |
+| 630 | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | 🔴 Hard | Greedy Job Sequencing | [C++](../problems/0630.md) | O(N log N) | O(N) |  |
 
 ## 🟠 再練習（0）
 

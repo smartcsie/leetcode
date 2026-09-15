@@ -10,9 +10,9 @@
 
 ## 🟡 練習過（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | Sorting Bucket Sort, Hash Table, Bucket Sort | [C++](../problems/0451.md) | O(N) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | Sorting Bucket Sort, Hash Table, Bucket Sort | [C++](../problems/0451.md) | O(N) | O(N) |  |
 
 ## 🟣 易忘（0）
 

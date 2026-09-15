@@ -19,309 +19,309 @@
 <a id="shengshu-array"></a>
 #### 🍱 Array（7）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | Array, Voting Algorithm | [C++](problems/0229.md) | O(N) | O(1) |
-| 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array Prefix Sum, Matrix, Prefix Sum | [C++](problems/0304.md) | O(M\*N) | O(M\*N) |
-| 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | Prefix Sum, Hash Map | [C++](problems/0523.md) | O(N) | O(min(N,K)) |
-| 1685 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | 🟡 Medium | Array, Prefix Sum, Math | [C++](problems/1685.md) | O(N) | O(N) |
-| 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/1738.md) | O(M\*N) | O(M\*N) |
-| 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | Prefix Sum, Sliding Window, Multiset | [C++](problems/3364.md) | O(NlogN) | O(N) |
-| 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](problems/3969.md) | O(N²) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | Array, Voting Algorithm | [C++](problems/0229.md) | O(N) | O(1) |  |
+| 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 Medium | Array Prefix Sum, Matrix, Prefix Sum | [C++](problems/0304.md) | O(M\*N) | O(M\*N) |  |
+| 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | 🟡 Medium | Prefix Sum, Hash Map | [C++](problems/0523.md) | O(N) | O(min(N,K)) |  |
+| 1685 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | 🟡 Medium | Array, Prefix Sum, Math | [C++](problems/1685.md) | O(N) | O(N) |  |
+| 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/1738.md) | O(M\*N) | O(M\*N) |  |
+| 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | Prefix Sum, Sliding Window, Multiset | [C++](problems/3364.md) | O(NlogN) | O(N) |  |
+| 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](problems/3969.md) | O(N²) | O(1) |  |
 
 <a id="shengshu-binary-search"></a>
 #### 🔍 Binary Search（11）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Binary Search | [C++](problems/0004.md) | O(log(min(M,N))) | O(1) |
-| 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | 🔴 Hard | Sliding Window, Ordered Map, Bucket | [C++](problems/0220.md) | O(Nlog(min(N,K))) | O(min(N,K)) |
-| 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | 🟡 Medium | Binary Search Find Right Bound | [C++](problems/0275.md) | O(log N) | O(1) |
-| 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | Binary Search, Matrix | [C++](problems/0378.md) | O(Nlog(max-min)) | O(1) |
-| 1170 | [Compare Strings by Frequency](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | 🟡 Medium | Sorting, Binary Search | [C++](problems/1170.md) | O(NlogN+MlogN) | O(N) |
-| 1201 | [Ugly Number III](https://leetcode.com/problems/ugly-number-iii/) | 🟡 Medium | Binary Search, Math | [C++](problems/1201.md) | O(log(2E9)) | O(1) |
-| 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | Binary Search On Answer | [C++](problems/1608.md) | O(N²) | O(1) |
-| 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | Binary Search, Greedy | [C++](problems/1818.md) | O(NlogN) | O(N) |
-| 1930 | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | 🟡 Medium | Binary Search Build In, Hash | [C++](problems/1930.md) | O(N) | O(1) |
-| 2195 | [Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/) | 🟡 Medium | Binary Search On Answer, Binary Search | [C++](problems/2195.md) | O(NlogN) | O(1) |
-| 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | 🟡 Medium | BST, Binary Search | [C++](problems/2476.md) | O(N+QlogN) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Binary Search | [C++](problems/0004.md) | O(log(min(M,N))) | O(1) |  |
+| 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | 🔴 Hard | Sliding Window, Ordered Map, Bucket | [C++](problems/0220.md) | O(Nlog(min(N,K))) | O(min(N,K)) |  |
+| 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | 🟡 Medium | Binary Search Find Right Bound | [C++](problems/0275.md) | O(log N) | O(1) |  |
+| 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | Binary Search, Matrix | [C++](problems/0378.md) | O(Nlog(max-min)) | O(1) |  |
+| 1170 | [Compare Strings by Frequency](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | 🟡 Medium | Sorting, Binary Search | [C++](problems/1170.md) | O(NlogN+MlogN) | O(N) |  |
+| 1201 | [Ugly Number III](https://leetcode.com/problems/ugly-number-iii/) | 🟡 Medium | Binary Search, Math | [C++](problems/1201.md) | O(log(2E9)) | O(1) |  |
+| 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | Binary Search On Answer | [C++](problems/1608.md) | O(N²) | O(1) |  |
+| 1818 | [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/) | 🟡 Medium | Binary Search, Greedy | [C++](problems/1818.md) | O(NlogN) | O(N) |  |
+| 1930 | [Unique Length-3 Palindromic Subsequences](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | 🟡 Medium | Binary Search Build In, Hash | [C++](problems/1930.md) | O(N) | O(1) |  |
+| 2195 | [Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/) | 🟡 Medium | Binary Search On Answer, Binary Search | [C++](problems/2195.md) | O(NlogN) | O(1) |  |
+| 2476 | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/) | 🟡 Medium | BST, Binary Search | [C++](problems/2476.md) | O(N+QlogN) | O(N) |  |
 
 <a id="shengshu-pointers"></a>
 #### 👥 Pointers（15）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Two Pointers Same | [C++](problems/0004.md) | O(log(M+N)) | O(1) |
-| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium | Two Pointers Center Expansion, Expand Around Center, Two Pointers | [C++](problems/0005.md) | O(N²) | O(1) |
-| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 Medium | Linked List, Fast-Slow Pointers | [C++](problems/0019.md) | O(N) | O(1) |
-| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | Array, Two Pointers | [C++](problems/0031.md) | O(N) | O(1) |
-| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](problems/0075.md) | O(N) | O(1) |
-| 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | Linked List, Two Pointers | [C++](problems/0086.md) | O(N) | O(1) |
-| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Fast Slow Pointers | [C++](problems/0151.md) | O(N) | O(1) |
-| 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | Array, Two Pointers | [C++](problems/0228.md) | O(N) | O(1) |
-| 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 Medium | Linked List | [C++](problems/0328.md) | O(N) | O(1) |
-| 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium | Two Pointers | [C++](problems/0443.md) | O(N) | O(1) |
-| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | Two Pointers Center Expansion, DP | [C++](problems/0647.md) | O(N²) | O(N²) |
-| 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | 🟡 Medium | Two Pointers Same, Two Pointers | [C++](problems/0777.md) | O(N) | O(1) |
-| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | String, Two Pointers | [C++](problems/0844.md) | O(N+M) | O(1) |
-| 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 Easy | Array, Two Pointers | [C++](problems/1089.md) | O(N) | O(1) |
-| 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | Two Pointers | [C++](problems/2562.md) | O(N\*D) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Two Pointers Same | [C++](problems/0004.md) | O(log(M+N)) | O(1) |  |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium | Two Pointers Center Expansion, Expand Around Center, Two Pointers | [C++](problems/0005.md) | O(N²) | O(1) |  |
+| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 Medium | Linked List, Fast-Slow Pointers | [C++](problems/0019.md) | O(N) | O(1) |  |
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | Array, Two Pointers | [C++](problems/0031.md) | O(N) | O(1) |  |
+| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](problems/0075.md) | O(N) | O(1) |  |
+| 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | Linked List, Two Pointers | [C++](problems/0086.md) | O(N) | O(1) |  |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Fast Slow Pointers | [C++](problems/0151.md) | O(N) | O(1) |  |
+| 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | Array, Two Pointers | [C++](problems/0228.md) | O(N) | O(1) |  |
+| 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 Medium | Linked List | [C++](problems/0328.md) | O(N) | O(1) |  |
+| 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium | Two Pointers | [C++](problems/0443.md) | O(N) | O(1) |  |
+| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Medium | Two Pointers Center Expansion, DP | [C++](problems/0647.md) | O(N²) | O(N²) |  |
+| 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | 🟡 Medium | Two Pointers Same, Two Pointers | [C++](problems/0777.md) | O(N) | O(1) |  |
+| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | String, Two Pointers | [C++](problems/0844.md) | O(N+M) | O(1) |  |
+| 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 Easy | Array, Two Pointers | [C++](problems/1089.md) | O(N) | O(1) |  |
+| 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | Two Pointers | [C++](problems/2562.md) | O(N\*D) | O(1) |  |
 
 <a id="shengshu-hash-table"></a>
 #### 🔑 Hash Table（7）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](problems/0128.md) | O(N) | O(N) |
-| 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 Medium | Hash Table Counting, Hash Table, Counting | [C++](problems/0916.md) | O(N \* L) | O(1) |
-| 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Table Existence, Hash Map | [C++](problems/1640.md) | O(N) | O(N) |
-| 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 Medium | Hash Table, String, Single-Pass | [C++](problems/2023.md) | O(N\*L) | O(N) |
-| 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2670.md) | O(N) | O(N) |
-| 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | Hash Table Uniqueness, Hash Set, Greedy | [C++](problems/3487.md) | O(N) | O(N) |
-| 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 Medium | String, Hash Map | [C++](problems/3926.md) | O(N+M) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](problems/0128.md) | O(N) | O(N) |  |
+| 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 Medium | Hash Table Counting, Hash Table, Counting | [C++](problems/0916.md) | O(N \* L) | O(1) |  |
+| 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Table Existence, Hash Map | [C++](problems/1640.md) | O(N) | O(N) |  |
+| 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 Medium | Hash Table, String, Single-Pass | [C++](problems/2023.md) | O(N\*L) | O(N) |  |
+| 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2670.md) | O(N) | O(N) |  |
+| 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | Hash Table Uniqueness, Hash Set, Greedy | [C++](problems/3487.md) | O(N) | O(N) |  |
+| 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 Medium | String, Hash Map | [C++](problems/3926.md) | O(N+M) | O(N) |  |
 
 <a id="shengshu-stack"></a>
 #### 📚 Stack（11）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 🔴 Hard | String, Stack, DP | [C++](problems/0032.md) | O(N) | O(N) |
-| 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 Hard | Monotonic Stack | [C++](problems/0085.md) | O(M\*N) | O(N) |
-| 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | Monotonic Stack, Greedy, String | [C++](problems/0316.md) | O(N) | O(1) |
-| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | Array, Hash Table, Stack, Monotonic Stack | [C++](problems/0496.md) | O(N+M) | O(N) |
-| 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 Medium | Array, Stack, Monotonic Stack | [C++](problems/0503.md) | O(N) | O(N) |
-| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | Stack, Monotonic Stack | [C++](problems/0739.md) | O(N) | O(N) |
-| 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack | [C++](problems/1019.md) | O(N) | O(N) |
-| 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium | Monotonic Stack, Greedy | [C++](problems/1081.md) | O(N) | O(1) |
-| 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 Medium | String, Stack | [C++](problems/1209.md) | O(N) | O(N) |
-| 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 Easy | Array, Stack, Monotonic Stack | [C++](problems/1475.md) | O(N) | O(N) |
-| 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | Stack, Greedy | [C++](problems/1963.md) | O(N) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 🔴 Hard | String, Stack, DP | [C++](problems/0032.md) | O(N) | O(N) |  |
+| 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 Hard | Monotonic Stack | [C++](problems/0085.md) | O(M\*N) | O(N) |  |
+| 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | Monotonic Stack, Greedy, String | [C++](problems/0316.md) | O(N) | O(1) |  |
+| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | Array, Hash Table, Stack, Monotonic Stack | [C++](problems/0496.md) | O(N+M) | O(N) |  |
+| 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 Medium | Array, Stack, Monotonic Stack | [C++](problems/0503.md) | O(N) | O(N) |  |
+| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | Stack, Monotonic Stack | [C++](problems/0739.md) | O(N) | O(N) |  |
+| 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack | [C++](problems/1019.md) | O(N) | O(N) |  |
+| 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium | Monotonic Stack, Greedy | [C++](problems/1081.md) | O(N) | O(1) |  |
+| 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 Medium | String, Stack | [C++](problems/1209.md) | O(N) | O(N) |  |
+| 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 Easy | Array, Stack, Monotonic Stack | [C++](problems/1475.md) | O(N) | O(N) |  |
+| 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | Stack, Greedy | [C++](problems/1963.md) | O(N) | O(1) |  |
 
 <a id="shengshu-priority-queue"></a>
 #### 📚 Priority Queue（5）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | Heap, Linked List | [C++](problems/0023.md) | O(NlogK) | O(K) |
-| 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sum/) | 🟡 Medium | Heap, Greedy | [C++](problems/0373.md) | O(KlogK) | O(K) |
-| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | Hash Table, Heap | [C++](problems/0692.md) | O(NlogK) | O(N) |
-| 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 Easy | Heap (Priority Queue) | [C++](problems/0703.md) | O(NlogK) | O(K) |
-| 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Priority Queue, Binary Search | [C++](problems/0786.md) | O(NlogN) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | Heap, Linked List | [C++](problems/0023.md) | O(NlogK) | O(K) |  |
+| 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sum/) | 🟡 Medium | Heap, Greedy | [C++](problems/0373.md) | O(KlogK) | O(K) |  |
+| 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | Hash Table, Heap | [C++](problems/0692.md) | O(NlogK) | O(N) |  |
+| 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 Easy | Heap (Priority Queue) | [C++](problems/0703.md) | O(NlogK) | O(K) |  |
+| 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Priority Queue, Binary Search | [C++](problems/0786.md) | O(NlogN) | O(N) |  |
 
 <a id="shengshu-queue"></a>
 #### 📚 Queue（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Monotonic Queue, Sliding Window | [C++](problems/0239.md) | O(N) | O(K) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Monotonic Queue, Sliding Window | [C++](problems/0239.md) | O(N) | O(K) |  |
 
 <a id="shengshu-quick-select"></a>
 #### 📚 Quick Select（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | 🟡 Medium | Sorting, Quickselect | [C++](problems/0324.md) | O(N) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | 🟡 Medium | Sorting, Quickselect | [C++](problems/0324.md) | O(N) | O(1) |  |
 
 <a id="shengshu-graph"></a>
 #### 🕸️ Graph（5）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | Graph Bfs | [C++](problems/0127.md) | O(N·L·26) | O(N·L) |
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | Graph Dfs, DFS, BFS, Union-Find | [C++](problems/0200.md) | O(M×N) | O(1) |
-| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Topological Sort | [C++](problems/0207.md) | O(V+E) | O(V+E) |
-| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 🟡 Medium | Union Find | [C++](problems/0547.md) | O(N²·α(N)) | O(N) |
-| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | Graph Shortest Path | [C++](problems/0743.md) | O(E·logV) | O(V+E) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | Graph Bfs | [C++](problems/0127.md) | O(N·L·26) | O(N·L) |  |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | Graph Dfs, DFS, BFS, Union-Find | [C++](problems/0200.md) | O(M×N) | O(1) |  |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Topological Sort | [C++](problems/0207.md) | O(V+E) | O(V+E) |  |
+| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 🟡 Medium | Union Find | [C++](problems/0547.md) | O(N²·α(N)) | O(N) |  |
+| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | Graph Shortest Path | [C++](problems/0743.md) | O(E·logV) | O(V+E) |  |
 
 <a id="shengshu-sorting"></a>
 #### 📊 Sorting（11）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | 🟡 Medium | Sorting, Insertion Sort | [C++](problems/0147.md) | O(N²) | O(1) |
-| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List, Merge Sort | [C++](problems/0148.md) | O(NlogN) | O(logN) |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Implementation, Sorting Algorithm Implementation, Bucket Sort, Pigeonhole Principle | [C++](problems/0164.md) | O(N) | O(N) |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](problems/0164.md) | O(N \* D) | O(N) |
-| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Sorting | [C++](problems/0648.md) | O(N\*L) | O(M\*L) |
-| 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | 🔴 Hard | Sorting Cycle Decomposition | [C++](problems/0765.md) | O(N α(N)) | O(N) |
-| 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | 🟡 Medium | Sorting Cycle Decomposition | [C++](problems/2471.md) | O(N log N) | O(N) |
-| 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | 🟢 Easy | Sorting, Brute Force | [C++](problems/2932.md) | O(NlogN+N²) | O(logN) |
-| 3132 | [Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) | 🟡 Medium | Sorting, Two Pointers | [C++](problems/3132.md) | O(NlogN) | O(1) |
-| 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | Greedy, Counting Sort | [C++](problems/3517.md) | O(N) | O(1) |
-| 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | Cycle Decomposition | [C++](problems/3551.md) | O(NlogN) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | 🟡 Medium | Sorting, Insertion Sort | [C++](problems/0147.md) | O(N²) | O(1) |  |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List, Merge Sort | [C++](problems/0148.md) | O(NlogN) | O(logN) |  |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Implementation, Sorting Algorithm Implementation, Bucket Sort, Pigeonhole Principle | [C++](problems/0164.md) | O(N) | O(N) |  |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](problems/0164.md) | O(N \* D) | O(N) |  |
+| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Sorting | [C++](problems/0648.md) | O(N\*L) | O(M\*L) |  |
+| 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | 🔴 Hard | Sorting Cycle Decomposition | [C++](problems/0765.md) | O(N α(N)) | O(N) |  |
+| 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | 🟡 Medium | Sorting Cycle Decomposition | [C++](problems/2471.md) | O(N log N) | O(N) |  |
+| 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | 🟢 Easy | Sorting, Brute Force | [C++](problems/2932.md) | O(NlogN+N²) | O(logN) |  |
+| 3132 | [Find the Integer Added to Array II](https://leetcode.com/problems/find-the-integer-added-to-array-ii/) | 🟡 Medium | Sorting, Two Pointers | [C++](problems/3132.md) | O(NlogN) | O(1) |  |
+| 3517 | [Smallest Palindromic Rearrangement I](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | 🟡 Medium | Greedy, Counting Sort | [C++](problems/3517.md) | O(N) | O(1) |  |
+| 3551 | [Minimum Swaps to Sort by Digit Sum](https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/) | 🟡 Medium | Cycle Decomposition | [C++](problems/3551.md) | O(NlogN) | O(N) |  |
 
 <a id="shengshu-dynamic-programming"></a>
 #### 🧩 Dynamic Programming（61）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | Dp String | [C++](problems/0010.md) | O(M) | O(M) |
-| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | 🔴 Hard | Dp String | [C++](problems/0044.md) | O(M) | O(M) |
-| 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | 🟡 Medium | Dp Interval | [C++](problems/0095.md) | O(Catalan(N) \* N) | O(Catalan(N) \* N) |
-| 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | Dynamic Programming Lcs, Two Strings | [C++](problems/0097.md) | O(M \* N) | O(M \* N) |
-| 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | Dynamic Programming Lcs, DP | [C++](problems/0115.md) | O(S\*T) | O(T) |
-| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | Array, DP | [C++](problems/0118.md) | O(N²) | O(1) |
-| 120 | [Triangle](https://leetcode.com/problems/triangle/) | 🟡 Medium | Dp Grid Path | [C++](problems/0120.md) | O(N²) | O(N) |
-| 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | 🔴 Hard | Dp State Machine | [C++](problems/0123.md) | O(N) | O(1) |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0139.md) | O(N³) | O(N) |
-| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔴 Hard | Dp State Machine | [C++](problems/0188.md) | O(N\*K) | O(K) |
-| 233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | 🔴 Hard | Dp Digit | [C++](problems/0233.md) | O(log N) | O(1) |
-| 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🟡 Medium | Dp State Machine | [C++](problems/0309.md) | O(N) | O(1) |
-| 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | Dp Interval | [C++](problems/0312.md) | O(N³) | O(N²) |
-| 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | 🔴 Hard | Dp Lis | [C++](problems/0354.md) | O(N log N) | O(N) |
-| 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | 🟡 Medium | Dp Interval | [C++](problems/0375.md) | O(N³) | O(N²) |
-| 446 | [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | 🔴 Hard | Dp Subsequences | [C++](problems/0446.md) | O(N²) | O(N²) |
-| 464 | [Can I Win](https://leetcode.com/problems/can-i-win/) | 🟡 Medium | Dp Game Theory | [C++](problems/0464.md) | O(2^N \* N) | O(2^N) |
-| 486 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | 🟡 Medium | Dp Game Theory | [C++](problems/0486.md) | O(N²) | O(N²) |
-| 646 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) | 🟡 Medium | Dp Lis | [C++](problems/0646.md) | O(N²) | O(N) |
-| 673 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | 🟡 Medium | Dp Lis | [C++](problems/0673.md) | O(N²) | O(N) |
-| 688 | [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | 🟡 Medium | Dp Probability | [C++](problems/0688.md) | O(K | O(N²) |
-| 698 | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | 🟡 Medium | Dp Bitmask | [C++](problems/0698.md) | O(2^N \* N) | O(2^N) |
-| 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | Dynamic Programming Lcs, String | [C++](problems/0712.md) | O(M×N) | O(M×N) |
-| 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | 🟡 Medium | Dp State Machine | [C++](problems/0714.md) | O(N) | O(1) |
-| 808 | [Soup Servings](https://leetcode.com/problems/soup-servings/) | 🟡 Medium | Dp Probability | [C++](problems/0808.md) | O((N/25)²) | O((N/25)²) |
-| 837 | [New 21 Game](https://leetcode.com/problems/new-21-game/) | 🟡 Medium | Dp Probability | [C++](problems/0837.md) | O(N) | O(N) |
-| 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | 🔴 Hard | Dp Bitmask | [C++](problems/0847.md) | O(N² \* 2^N) | O(N \* 2^N) |
-| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | Dp Game Theory | [C++](problems/0877.md) | O(N²) | O(N²) |
-| 898 | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | Bit Manipulation, Dynamic Programming | [C++](problems/0898.md) | O(N\*30) | O(N\*30) |
-| 902 | [Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/) | 🔴 Hard | Dp Digit | [C++](problems/0902.md) | O(len(N) \* len(digits)) | O(1) |
-| 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | Array, Kadane's Algorithm | [C++](problems/0918.md) | O(N) | O(1) |
-| 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | Dynamic Programming State Machine | [C++](problems/0926.md) | O(N) | O(1) |
-| 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | 🟡 Medium | Dp Grid Path | [C++](problems/0931.md) | O(N²) | O(N) |
-| 940 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | 🔴 Hard | Dp Subsequences | [C++](problems/0940.md) | O(N) | O(1) |
-| 943 | [Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) | 🔴 Hard | Dp Bitmask | [C++](problems/0943.md) | O(N² \* 2^N) | O(N \* 2^N) |
-| 968 | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | 🔴 Hard | Dp Tree | [C++](problems/0968.md) | O(N) | O(H) |
-| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0983.md) | O(D log D) | O(D) |
-| 1000 | [Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/) | 🔴 Hard | Dp Interval | [C++](problems/1000.md) | O(N³ / K) | O(N²) |
-| 1012 | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/) | 🔴 Hard | Dp Digit | [C++](problems/1012.md) | O(D²) | O(1) |
-| 1039 | [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) | 🟡 Medium | Dp Interval | [C++](problems/1039.md) | O(N³) | O(N²) |
-| 1092 | [Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | 🔴 Hard | Dynamic Programming Lcs | [C++](problems/1092.md) | O(N\*M) | O(N\*M) |
-| 1125 | [Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) | 🔴 Hard | Dp Digit | [C++](problems/1125.md) | O(2^M \* N) | O(2^M) |
-| 1130 | [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | 🟡 Medium | Dp Interval | [C++](problems/1130.md) | O(N³) | O(N²) |
-| 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 🟡 Medium | Dp Game Theory | [C++](problems/1140.md) | O(N³) | O(N²) |
-| 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 Medium | Dynamic Programming Grid Path, Matrix | [C++](problems/1277.md) | O(M\*N) | O(1) |
-| 1312 | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | 🔴 Hard | Dynamic Programming Lcs | [C++](problems/1312.md) | O(N²) | O(N²) |
-| 1373 | [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) | 🔴 Hard | Dp Tree | [C++](problems/1373.md) | O(N) | O(H) |
-| 1406 | [Stone Game III](https://leetcode.com/problems/stone-game-iii/) | 🔴 Hard | Dp Game Theory | [C++](problems/1406.md) | O(N) | O(N) |
-| 1425 | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/) | 🔴 Hard | Dp Subsequences | [C++](problems/1425.md) | O(N) | O(N) |
-| 1434 | [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) | 🔴 Hard | Dp Digit | [C++](problems/1434.md) | O(40 \* 2^N \* 平均每頂帽子對應的人數) | O(40 \* 2^N) |
-| 1467 | [Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) | 🔴 Hard | Dp Probability | [C++](problems/1467.md) | O(∏(balls[i]+1)) | O(K) |
-| 1510 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 🔴 Hard | Dp Game Theory | [C++](problems/1510.md) | O(N \* √N) | O(N) |
-| 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | Math, Dynamic Programming | [C++](problems/1641.md) | O(1) | O(1) |
-| 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | String | [C++](problems/1668.md) | O(N\*M²) | O(M) |
-| 1964 | [Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | 🔴 Hard | Dp Lis | [C++](problems/1964.md) | O(N log N) | O(N) |
-| 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | 🟡 Medium | Dp Bitmask | [C++](problems/1986.md) | O(3^N) | O(2^N) |
-| 1987 | [Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/) | 🔴 Hard | Dp Subsequences | [C++](problems/1987.md) | O(N) | O(1) |
-| 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 Hard | Dp Knapsack, 0-1 Knapsack | [C++](problems/2035.md) | O(N \* 2^(N/2)) | O(2^(N/2)) |
-| 2246 | [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/) | 🔴 Hard | Dp Tree | [C++](problems/2246.md) | O(N) | O(N) |
-| 2266 | [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | 🟡 Medium | Dp Fibonacci | [C++](problems/2266.md) | O(N) | O(最長連續按鍵長度) |
-| 2376 | [Count Special Integers](https://leetcode.com/problems/count-special-integers/) | 🔴 Hard | Dp Digit | [C++](problems/2376.md) | O(D²) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | Dp String | [C++](problems/0010.md) | O(M) | O(M) |  |
+| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | 🔴 Hard | Dp String | [C++](problems/0044.md) | O(M) | O(M) |  |
+| 95 | [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | 🟡 Medium | Dp Interval | [C++](problems/0095.md) | O(Catalan(N) \* N) | O(Catalan(N) \* N) |  |
+| 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | Dynamic Programming Lcs, Two Strings | [C++](problems/0097.md) | O(M \* N) | O(M \* N) |  |
+| 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | Dynamic Programming Lcs, DP | [C++](problems/0115.md) | O(S\*T) | O(T) |  |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | Array, DP | [C++](problems/0118.md) | O(N²) | O(1) |  |
+| 120 | [Triangle](https://leetcode.com/problems/triangle/) | 🟡 Medium | Dp Grid Path | [C++](problems/0120.md) | O(N²) | O(N) |  |
+| 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | 🔴 Hard | Dp State Machine | [C++](problems/0123.md) | O(N) | O(1) |  |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0139.md) | O(N³) | O(N) |  |
+| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔴 Hard | Dp State Machine | [C++](problems/0188.md) | O(N\*K) | O(K) |  |
+| 233 | [Number of Digit One](https://leetcode.com/problems/number-of-digit-one/) | 🔴 Hard | Dp Digit | [C++](problems/0233.md) | O(log N) | O(1) |  |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🟡 Medium | Dp State Machine | [C++](problems/0309.md) | O(N) | O(1) |  |
+| 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | Dp Interval | [C++](problems/0312.md) | O(N³) | O(N²) |  |
+| 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | 🔴 Hard | Dp Lis | [C++](problems/0354.md) | O(N log N) | O(N) |  |
+| 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | 🟡 Medium | Dp Interval | [C++](problems/0375.md) | O(N³) | O(N²) |  |
+| 446 | [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | 🔴 Hard | Dp Subsequences | [C++](problems/0446.md) | O(N²) | O(N²) |  |
+| 464 | [Can I Win](https://leetcode.com/problems/can-i-win/) | 🟡 Medium | Dp Game Theory | [C++](problems/0464.md) | O(2^N \* N) | O(2^N) |  |
+| 486 | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/) | 🟡 Medium | Dp Game Theory | [C++](problems/0486.md) | O(N²) | O(N²) |  |
+| 646 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) | 🟡 Medium | Dp Lis | [C++](problems/0646.md) | O(N²) | O(N) |  |
+| 673 | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) | 🟡 Medium | Dp Lis | [C++](problems/0673.md) | O(N²) | O(N) |  |
+| 688 | [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | 🟡 Medium | Dp Probability | [C++](problems/0688.md) | O(K | O(N²) |  |
+| 698 | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | 🟡 Medium | Dp Bitmask | [C++](problems/0698.md) | O(2^N \* N) | O(2^N) |  |
+| 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | Dynamic Programming Lcs, String | [C++](problems/0712.md) | O(M×N) | O(M×N) |  |
+| 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | 🟡 Medium | Dp State Machine | [C++](problems/0714.md) | O(N) | O(1) |  |
+| 808 | [Soup Servings](https://leetcode.com/problems/soup-servings/) | 🟡 Medium | Dp Probability | [C++](problems/0808.md) | O((N/25)²) | O((N/25)²) |  |
+| 837 | [New 21 Game](https://leetcode.com/problems/new-21-game/) | 🟡 Medium | Dp Probability | [C++](problems/0837.md) | O(N) | O(N) |  |
+| 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | 🔴 Hard | Dp Bitmask | [C++](problems/0847.md) | O(N² \* 2^N) | O(N \* 2^N) |  |
+| 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | Dp Game Theory | [C++](problems/0877.md) | O(N²) | O(N²) |  |
+| 898 | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-or-s-of-subarrays/) | 🟡 Medium | Bit Manipulation, Dynamic Programming | [C++](problems/0898.md) | O(N\*30) | O(N\*30) |  |
+| 902 | [Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/) | 🔴 Hard | Dp Digit | [C++](problems/0902.md) | O(len(N) \* len(digits)) | O(1) |  |
+| 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 Medium | Array, Kadane's Algorithm | [C++](problems/0918.md) | O(N) | O(1) |  |
+| 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 Medium | Dynamic Programming State Machine | [C++](problems/0926.md) | O(N) | O(1) |  |
+| 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | 🟡 Medium | Dp Grid Path | [C++](problems/0931.md) | O(N²) | O(N) |  |
+| 940 | [Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/) | 🔴 Hard | Dp Subsequences | [C++](problems/0940.md) | O(N) | O(1) |  |
+| 943 | [Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) | 🔴 Hard | Dp Bitmask | [C++](problems/0943.md) | O(N² \* 2^N) | O(N \* 2^N) |  |
+| 968 | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | 🔴 Hard | Dp Tree | [C++](problems/0968.md) | O(N) | O(H) |  |
+| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0983.md) | O(D log D) | O(D) |  |
+| 1000 | [Minimum Cost to Merge Stones](https://leetcode.com/problems/minimum-cost-to-merge-stones/) | 🔴 Hard | Dp Interval | [C++](problems/1000.md) | O(N³ / K) | O(N²) |  |
+| 1012 | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/) | 🔴 Hard | Dp Digit | [C++](problems/1012.md) | O(D²) | O(1) |  |
+| 1039 | [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) | 🟡 Medium | Dp Interval | [C++](problems/1039.md) | O(N³) | O(N²) |  |
+| 1092 | [Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) | 🔴 Hard | Dynamic Programming Lcs | [C++](problems/1092.md) | O(N\*M) | O(N\*M) |  |
+| 1125 | [Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) | 🔴 Hard | Dp Digit | [C++](problems/1125.md) | O(2^M \* N) | O(2^M) |  |
+| 1130 | [Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) | 🟡 Medium | Dp Interval | [C++](problems/1130.md) | O(N³) | O(N²) |  |
+| 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 🟡 Medium | Dp Game Theory | [C++](problems/1140.md) | O(N³) | O(N²) |  |
+| 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 Medium | Dynamic Programming Grid Path, Matrix | [C++](problems/1277.md) | O(M\*N) | O(1) |  |
+| 1312 | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | 🔴 Hard | Dynamic Programming Lcs | [C++](problems/1312.md) | O(N²) | O(N²) |  |
+| 1373 | [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) | 🔴 Hard | Dp Tree | [C++](problems/1373.md) | O(N) | O(H) |  |
+| 1406 | [Stone Game III](https://leetcode.com/problems/stone-game-iii/) | 🔴 Hard | Dp Game Theory | [C++](problems/1406.md) | O(N) | O(N) |  |
+| 1425 | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/) | 🔴 Hard | Dp Subsequences | [C++](problems/1425.md) | O(N) | O(N) |  |
+| 1434 | [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) | 🔴 Hard | Dp Digit | [C++](problems/1434.md) | O(40 \* 2^N \* 平均每頂帽子對應的人數) | O(40 \* 2^N) |  |
+| 1467 | [Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) | 🔴 Hard | Dp Probability | [C++](problems/1467.md) | O(∏(balls[i]+1)) | O(K) |  |
+| 1510 | [Stone Game IV](https://leetcode.com/problems/stone-game-iv/) | 🔴 Hard | Dp Game Theory | [C++](problems/1510.md) | O(N \* √N) | O(N) |  |
+| 1641 | [Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | 🟡 Medium | Math, Dynamic Programming | [C++](problems/1641.md) | O(1) | O(1) |  |
+| 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/) | 🟢 Easy | String | [C++](problems/1668.md) | O(N\*M²) | O(M) |  |
+| 1964 | [Find the Longest Valid Obstacle Course at Each Position](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/) | 🔴 Hard | Dp Lis | [C++](problems/1964.md) | O(N log N) | O(N) |  |
+| 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | 🟡 Medium | Dp Bitmask | [C++](problems/1986.md) | O(3^N) | O(2^N) |  |
+| 1987 | [Number of Unique Good Subsequences](https://leetcode.com/problems/number-of-unique-good-subsequences/) | 🔴 Hard | Dp Subsequences | [C++](problems/1987.md) | O(N) | O(1) |  |
+| 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 Hard | Dp Knapsack, 0-1 Knapsack | [C++](problems/2035.md) | O(N \* 2^(N/2)) | O(2^(N/2)) |  |
+| 2246 | [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/) | 🔴 Hard | Dp Tree | [C++](problems/2246.md) | O(N) | O(N) |  |
+| 2266 | [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | 🟡 Medium | Dp Fibonacci | [C++](problems/2266.md) | O(N) | O(最長連續按鍵長度) |  |
+| 2376 | [Count Special Integers](https://leetcode.com/problems/count-special-integers/) | 🔴 Hard | Dp Digit | [C++](problems/2376.md) | O(D²) | O(1) |  |
 
 <a id="shengshu-greedy"></a>
 #### 🧩 Greedy（43）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | 🟡 Medium | Greedy Prefix Suffix | [C++](problems/0045.md) | O(N) | O(1) |
-| 135 | [Candy](https://leetcode.com/problems/candy/) | 🔴 Hard | Greedy Fractional Knapsack | [C++](problems/0135.md) | O(N) | O(N) |
-| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0406.md) | O(N²) | O(N) |
-| 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | 🟢 Easy | Hash Table, Greedy | [C++](problems/0409.md) | O(N) | O(K) |
-| 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | 🔴 Hard | Greedy Optimal Partitioning | [C++](problems/0410.md) | O(N log(sum(nums))) | O(1) |
-| 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | 🟡 Medium | Greedy Interval Scheduling | [C++](problems/0452.md) | O(N log N) | O(1) |
-| 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 Medium | Greedy Parity Contribution | [C++](problems/0462.md) | O(N log N) | O(1) |
-| 502 | [IPO](https://leetcode.com/problems/ipo/) | 🔴 Hard | Greedy Job Sequencing | [C++](problems/0502.md) | O(N log N) | O(N) |
-| 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0556.md) | O(N) | O(N) |
-| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | Greedy Priority Queue | [C++](problems/0621.md) | O(N) | O(1) |
-| 630 | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | 🔴 Hard | Greedy Job Sequencing | [C++](problems/0630.md) | O(N log N) | O(N) |
-| 738 | [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0738.md) | O(N) | O(N) |
-| 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | 🟡 Medium | Greedy Prefix Suffix | [C++](problems/0763.md) | O(N) | O(1) |
-| 767 | [Reorganize String](https://leetcode.com/problems/reorganize-string/) | 🟡 Medium | Greedy Frequency Merging | [C++](problems/0767.md) | O(N log K) | O(K) |
-| 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | 🔴 Hard | Greedy Graph | [C++](problems/0778.md) | O(N² log N) | O(N²) |
-| 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 Medium | Greedy Graph | [C++](problems/0787.md) | O(K \* E) | O(N) |
-| 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | 🟡 Medium | Greedy Priority Queue | [C++](problems/0846.md) | O(N log N) | O(N) |
-| 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | 🔴 Hard | Greedy Fractional Knapsack | [C++](problems/0871.md) | O(N log N) | O(N) |
-| 899 | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | 🔴 Hard | Greedy String Construction | [C++](problems/0899.md) | O(N²) | O(N) |
-| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | Stack, Greedy | [C++](problems/0921.md) | O(N) | O(1) |
-| 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) | 🟡 Medium | Greedy String Construction | [C++](problems/1061.md) | O(N + M \* α(26)) | O(26) |
-| 1210 | [Minimum Moves to Reach Target With Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | 🔴 Hard | Greedy Coin Change | [C++](problems/1210.md) | O(N²) | O(N²) |
-| 1296 | [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) | 🟡 Medium | Greedy Frequency Merging | [C++](problems/1296.md) | O(N log N) | O(N) |
-| 1338 | [Reduce Array Size to the Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | 🟡 Medium | Greedy Frequency Merging | [C++](problems/1338.md) | O(N log N) | O(N) |
-| 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) | 🔴 Hard | Greedy Selection Constraints | [C++](problems/1392.md) | O(N) | O(N) |
-| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy String Construction | [C++](problems/1405.md) | O((a+b+c) log 3) | O(1) |
-| 1531 | [String Compression II](https://leetcode.com/problems/string-compression-ii/) | 🔴 Hard | Greedy Optimal Partitioning | [C++](problems/1531.md) | O(N² \* K) | O(N \* K) |
-| 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 Medium | Greedy Coin Change | [C++](problems/1551.md) | O(N) | O(1) |
-| 1584 | [Minimum Cost to Connect All Points](https://leetcode.com/problems/minimum-cost-to-connect-all-points/) | 🟡 Medium | Greedy Graph | [C++](problems/1584.md) | O(N²) | O(N) |
-| 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | 🟡 Medium | Greedy Graph | [C++](problems/1631.md) | O(M\*N log(M\*N)) | O(M\*N) |
-| 1653 | [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | 🟡 Medium | Greedy Prefix Suffix | [C++](problems/1653.md) | O(N) | O(1) |
-| 1696 | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/) | 🟡 Medium | Greedy Selection Constraints | [C++](problems/1696.md) | O(N) | O(N) |
-| 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | Greedy Parity Contribution | [C++](problems/1753.md) | O((a+b+c) log 3) | O(1) |
-| 1770 | [Maximum Score From Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | 🔴 Hard | Greedy Selection Constraints | [C++](problems/1770.md) | O(M²) | O(M²) |
-| 1851 | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | 🔴 Hard | Greedy Priority Queue | [C++](problems/1851.md) | O((N+Q) log N) | O(N) |
-| 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy, String | [C++](problems/1881.md) | O(N) | O(1) |
-| 1936 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | Greedy, Math | [C++](problems/1936.md) | O(N) | O(1) |
-| 2064 | [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | 🟡 Medium | Greedy Fractional Knapsack | [C++](problems/2064.md) | O(Q log M) | O(1) |
-| 2111 | [Minimum Operations to Make the Array K-Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/) | 🔴 Hard | Greedy Optimal Partitioning | [C++](problems/2111.md) | O(N log N) | O(N) |
-| 2116 | [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | 🟡 Medium | Greedy | [C++](problems/2116.md) | O(N) | O(1) |
-| 2178 | [Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/) | 🟡 Medium | Greedy, Math | [C++](problems/2178.md) | O(√N) | O(√N) |
-| 2182 | [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | 🟡 Medium | Greedy, String, Two Pointers, Counting | [C++](problems/2182.md) | O(N) | O(1) |
-| 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array, Greedy, Bit Manipulation | [C++](problems/3011.md) | O(N) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | 🟡 Medium | Greedy Prefix Suffix | [C++](problems/0045.md) | O(N) | O(1) |  |
+| 135 | [Candy](https://leetcode.com/problems/candy/) | 🔴 Hard | Greedy Fractional Knapsack | [C++](problems/0135.md) | O(N) | O(N) |  |
+| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0406.md) | O(N²) | O(N) |  |
+| 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | 🟢 Easy | Hash Table, Greedy | [C++](problems/0409.md) | O(N) | O(K) |  |
+| 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | 🔴 Hard | Greedy Optimal Partitioning | [C++](problems/0410.md) | O(N log(sum(nums))) | O(1) |  |
+| 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | 🟡 Medium | Greedy Interval Scheduling | [C++](problems/0452.md) | O(N log N) | O(1) |  |
+| 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 Medium | Greedy Parity Contribution | [C++](problems/0462.md) | O(N log N) | O(1) |  |
+| 502 | [IPO](https://leetcode.com/problems/ipo/) | 🔴 Hard | Greedy Job Sequencing | [C++](problems/0502.md) | O(N log N) | O(N) |  |
+| 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0556.md) | O(N) | O(N) |  |
+| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | Greedy Priority Queue | [C++](problems/0621.md) | O(N) | O(1) |  |
+| 630 | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | 🔴 Hard | Greedy Job Sequencing | [C++](problems/0630.md) | O(N log N) | O(N) |  |
+| 738 | [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0738.md) | O(N) | O(N) |  |
+| 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | 🟡 Medium | Greedy Prefix Suffix | [C++](problems/0763.md) | O(N) | O(1) |  |
+| 767 | [Reorganize String](https://leetcode.com/problems/reorganize-string/) | 🟡 Medium | Greedy Frequency Merging | [C++](problems/0767.md) | O(N log K) | O(K) |  |
+| 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | 🔴 Hard | Greedy Graph | [C++](problems/0778.md) | O(N² log N) | O(N²) |  |
+| 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 Medium | Greedy Graph | [C++](problems/0787.md) | O(K \* E) | O(N) |  |
+| 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | 🟡 Medium | Greedy Priority Queue | [C++](problems/0846.md) | O(N log N) | O(N) |  |
+| 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | 🔴 Hard | Greedy Fractional Knapsack | [C++](problems/0871.md) | O(N log N) | O(N) |  |
+| 899 | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | 🔴 Hard | Greedy String Construction | [C++](problems/0899.md) | O(N²) | O(N) |  |
+| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | Stack, Greedy | [C++](problems/0921.md) | O(N) | O(1) |  |
+| 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) | 🟡 Medium | Greedy String Construction | [C++](problems/1061.md) | O(N + M \* α(26)) | O(26) |  |
+| 1210 | [Minimum Moves to Reach Target With Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | 🔴 Hard | Greedy Coin Change | [C++](problems/1210.md) | O(N²) | O(N²) |  |
+| 1296 | [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) | 🟡 Medium | Greedy Frequency Merging | [C++](problems/1296.md) | O(N log N) | O(N) |  |
+| 1338 | [Reduce Array Size to the Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | 🟡 Medium | Greedy Frequency Merging | [C++](problems/1338.md) | O(N log N) | O(N) |  |
+| 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) | 🔴 Hard | Greedy Selection Constraints | [C++](problems/1392.md) | O(N) | O(N) |  |
+| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy String Construction | [C++](problems/1405.md) | O((a+b+c) log 3) | O(1) |  |
+| 1531 | [String Compression II](https://leetcode.com/problems/string-compression-ii/) | 🔴 Hard | Greedy Optimal Partitioning | [C++](problems/1531.md) | O(N² \* K) | O(N \* K) |  |
+| 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 Medium | Greedy Coin Change | [C++](problems/1551.md) | O(N) | O(1) |  |
+| 1584 | [Minimum Cost to Connect All Points](https://leetcode.com/problems/minimum-cost-to-connect-all-points/) | 🟡 Medium | Greedy Graph | [C++](problems/1584.md) | O(N²) | O(N) |  |
+| 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | 🟡 Medium | Greedy Graph | [C++](problems/1631.md) | O(M\*N log(M\*N)) | O(M\*N) |  |
+| 1653 | [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | 🟡 Medium | Greedy Prefix Suffix | [C++](problems/1653.md) | O(N) | O(1) |  |
+| 1696 | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/) | 🟡 Medium | Greedy Selection Constraints | [C++](problems/1696.md) | O(N) | O(N) |  |
+| 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | Greedy Parity Contribution | [C++](problems/1753.md) | O((a+b+c) log 3) | O(1) |  |
+| 1770 | [Maximum Score From Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) | 🔴 Hard | Greedy Selection Constraints | [C++](problems/1770.md) | O(M²) | O(M²) |  |
+| 1851 | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | 🔴 Hard | Greedy Priority Queue | [C++](problems/1851.md) | O((N+Q) log N) | O(N) |  |
+| 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy, String | [C++](problems/1881.md) | O(N) | O(1) |  |
+| 1936 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | Greedy, Math | [C++](problems/1936.md) | O(N) | O(1) |  |
+| 2064 | [Minimized Maximum of Products Distributed to Any Store](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/) | 🟡 Medium | Greedy Fractional Knapsack | [C++](problems/2064.md) | O(Q log M) | O(1) |  |
+| 2111 | [Minimum Operations to Make the Array K-Increasing](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing/) | 🔴 Hard | Greedy Optimal Partitioning | [C++](problems/2111.md) | O(N log N) | O(N) |  |
+| 2116 | [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | 🟡 Medium | Greedy | [C++](problems/2116.md) | O(N) | O(1) |  |
+| 2178 | [Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/) | 🟡 Medium | Greedy, Math | [C++](problems/2178.md) | O(√N) | O(√N) |  |
+| 2182 | [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | 🟡 Medium | Greedy, String, Two Pointers, Counting | [C++](problems/2182.md) | O(N) | O(1) |  |
+| 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array, Greedy, Bit Manipulation | [C++](problems/3011.md) | O(N) | O(1) |  |
 
 <a id="shengshu-backtracking"></a>
 #### 🔢 Backtracking（25）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Backtracking | [C++](problems/0017.md) | O(4^N) | O(N) |
-| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | Backtracking, String | [C++](problems/0022.md) | O(4ᴺ/√N) | O(N) |
-| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | 🔴 Hard | Backtracking Constraint | [C++](problems/0037.md) | O(9^M) | O(1) |
-| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking | [C++](problems/0039.md) | O(N^(T/M)) | O(T/M) |
-| 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | Backtracking, Sorting | [C++](problems/0040.md) | O(2ᴺ) | O(N) |
-| 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | Backtracking | [C++](problems/0046.md) | O(N\*N!) | O(N) |
-| 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](problems/0047.md) | O(N\*N!) | O(N) |
-| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | 🔴 Hard | Backtracking Constraint | [C++](problems/0051.md) | O(N!) | O(N) |
-| 77 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 Medium | Backtracking | [C++](problems/0077.md) | O(K\*C(N,K)) | O(K) |
-| 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking Combination, Backtracking, Recursion | [C++](problems/0078.md) | O(N\*2ᴺ) | O(N) |
-| 79 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | Backtracking Grid, DFS, Backtracking | [C++](problems/0079.md) | O(N\*3ᴸ) | O(L) |
-| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | Backtracking Combination | [C++](problems/0131.md) | O(N × 2^N) | O(N) |
-| 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Backtracking | [C++](problems/0216.md) | O(C(9,K)) | O(K) |
-| 526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | 🟡 Medium | Backtracking Permutation | [C++](problems/0526.md) | O(K) | O(N) |
-| 638 | [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | 🟡 Medium | Backtracking Combination | [C++](problems/0638.md) | O(∏(needs[i]+1)) | O(∏(needs[i]+1)) |
-| 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | Backtracking | [C++](problems/0784.md) | O(2ᴺ) | O(N) |
-| 980 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | 🔴 Hard | Backtracking Grid | [C++](problems/0980.md) | O(4^(可走格數)) | O(M × N) |
-| 1219 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | 🟡 Medium | Backtracking Grid | [C++](problems/1219.md) | O(4^(有金子的格數)) | O(M × N) |
-| 1238 | [Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/) | 🟡 Medium | Backtracking Permutation | [C++](problems/1238.md) | O(2^N) | O(2^N) |
-| 1255 | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | 🔴 Hard | Backtracking Combination | [C++](problems/1255.md) | O(2^N) | O(26) |
-| 1415 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | 🟡 Medium | Backtracking Combination | [C++](problems/1415.md) | O(3 × 2^(N-1)) | O(N) |
-| 1593 | [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | 🟡 Medium | Backtracking Combination | [C++](problems/1593.md) | O(N\*2^(N-1)) | O(N) |
-| 1947 | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/) | 🟡 Medium | Backtracking Permutation | [C++](problems/1947.md) | O(M!) | O(M) |
-| 2044 | [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | 🟡 Medium | Backtracking Combination | [C++](problems/2044.md) | O(2^N) | O(N) |
-| 2305 | [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/) | 🟡 Medium | Backtracking Constraint | [C++](problems/2305.md) | O(K^N) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | Backtracking | [C++](problems/0017.md) | O(4^N) | O(N) |  |
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | Backtracking, String | [C++](problems/0022.md) | O(4ᴺ/√N) | O(N) |  |
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | 🔴 Hard | Backtracking Constraint | [C++](problems/0037.md) | O(9^M) | O(1) |  |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | Backtracking | [C++](problems/0039.md) | O(N^(T/M)) | O(T/M) |  |
+| 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | Backtracking, Sorting | [C++](problems/0040.md) | O(2ᴺ) | O(N) |  |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | Backtracking | [C++](problems/0046.md) | O(N\*N!) | O(N) |  |
+| 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | Backtracking | [C++](problems/0047.md) | O(N\*N!) | O(N) |  |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | 🔴 Hard | Backtracking Constraint | [C++](problems/0051.md) | O(N!) | O(N) |  |
+| 77 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 Medium | Backtracking | [C++](problems/0077.md) | O(K\*C(N,K)) | O(K) |  |
+| 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 Medium | Backtracking Combination, Backtracking, Recursion | [C++](problems/0078.md) | O(N\*2ᴺ) | O(N) |  |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | Backtracking Grid, DFS, Backtracking | [C++](problems/0079.md) | O(N\*3ᴸ) | O(L) |  |
+| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | Backtracking Combination | [C++](problems/0131.md) | O(N × 2^N) | O(N) |  |
+| 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | Backtracking | [C++](problems/0216.md) | O(C(9,K)) | O(K) |  |
+| 526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | 🟡 Medium | Backtracking Permutation | [C++](problems/0526.md) | O(K) | O(N) |  |
+| 638 | [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | 🟡 Medium | Backtracking Combination | [C++](problems/0638.md) | O(∏(needs[i]+1)) | O(∏(needs[i]+1)) |  |
+| 784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | 🟡 Medium | Backtracking | [C++](problems/0784.md) | O(2ᴺ) | O(N) |  |
+| 980 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | 🔴 Hard | Backtracking Grid | [C++](problems/0980.md) | O(4^(可走格數)) | O(M × N) |  |
+| 1219 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | 🟡 Medium | Backtracking Grid | [C++](problems/1219.md) | O(4^(有金子的格數)) | O(M × N) |  |
+| 1238 | [Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/) | 🟡 Medium | Backtracking Permutation | [C++](problems/1238.md) | O(2^N) | O(2^N) |  |
+| 1255 | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) | 🔴 Hard | Backtracking Combination | [C++](problems/1255.md) | O(2^N) | O(26) |  |
+| 1415 | [The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | 🟡 Medium | Backtracking Combination | [C++](problems/1415.md) | O(3 × 2^(N-1)) | O(N) |  |
+| 1593 | [Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) | 🟡 Medium | Backtracking Combination | [C++](problems/1593.md) | O(N\*2^(N-1)) | O(N) |  |
+| 1947 | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/) | 🟡 Medium | Backtracking Permutation | [C++](problems/1947.md) | O(M!) | O(M) |  |
+| 2044 | [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | 🟡 Medium | Backtracking Combination | [C++](problems/2044.md) | O(2^N) | O(N) |  |
+| 2305 | [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/) | 🟡 Medium | Backtracking Constraint | [C++](problems/2305.md) | O(K^N) | O(N) |  |
 
 <a id="shengshu-sliding-window"></a>
 #### 🔢 Sliding Window（20）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | Sliding Window, Hash Table | [C++](problems/0003.md) | O(N) | O(1) |
-| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 Medium | Array, Sliding Window, Binary Search | [C++](problems/0209.md) | O(N) | O(1) |
-| 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | 🟡 Medium | Sliding Window, Hash Table | [C++](problems/0424.md) | O(N) | O(1) |
-| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 Medium | Sliding Window, Frequency Array | [C++](problems/0567.md) | O(L1+L2) | O(1) |
-| 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | Array, Sliding Window | [C++](problems/0643.md) | O(N) | O(1) |
-| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | 🟡 Medium | Sliding Window | [C++](problems/1004.md) | O(N) | O(1) |
-| 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | 🟡 Medium | Array, Two Pointers, Sliding Window | [C++](problems/1248.md) | O(N) | O(1) |
-| 1287 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | 🟢 Easy | Array, Sliding Window | [C++](problems/1287.md) | O(N) | O(1) |
-| 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | Sliding Window | [C++](problems/1358.md) | O(N) | O(1) |
-| 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | 🟡 Medium | String, Sliding Window | [C++](problems/1456.md) | O(N) | O(1) |
-| 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | 🟡 Medium | Sliding Window, Hash Set, Bit Manipulation | [C++](problems/1461.md) | O(N\*K) | O(2^K) |
-| 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium | Sliding Window, Two Pointers | [C++](problems/1493.md) | O(N) | O(1) |
-| 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | 🟡 Medium | Variable Size Sliding Window, Sliding Window, Two Pointers | [C++](problems/1839.md) | O(N) | O(1) |
-| 1876 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | 🟢 Easy | String, Sliding Window | [C++](problems/1876.md) | O(N) | O(1) |
-| 2062 | [Count Vowel Substrings](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) | 🟢 Easy | Math, Sliding Window | [C++](problems/2062.md) | O(N) | O(1) |
-| 3090 | [Maximum Length Substring](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 Easy | Sliding Window | [C++](problems/3090.md) | O(N) | O(1) |
-| 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) | 🟡 Medium | Sliding Window, Two Pointers, Difference Technique | [C++](problems/3306.md) | O(N) | O(1) |
-| 3325 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/) | 🟡 Medium | Sliding Window, Two Pointers | [C++](problems/3325.md) | O(N) | O(1) |
-| 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | Array, Sliding Window, Simulation | [C++](problems/3392.md) | O(N) | O(1) |
-| 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | Fixed Size Sliding Window, Block-Skipping | [C++](problems/3456.md) | O(N) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium | Sliding Window, Hash Table | [C++](problems/0003.md) | O(N) | O(1) |  |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 Medium | Array, Sliding Window, Binary Search | [C++](problems/0209.md) | O(N) | O(1) |  |
+| 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | 🟡 Medium | Sliding Window, Hash Table | [C++](problems/0424.md) | O(N) | O(1) |  |
+| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 Medium | Sliding Window, Frequency Array | [C++](problems/0567.md) | O(L1+L2) | O(1) |  |
+| 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | 🟢 Easy | Array, Sliding Window | [C++](problems/0643.md) | O(N) | O(1) |  |
+| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | 🟡 Medium | Sliding Window | [C++](problems/1004.md) | O(N) | O(1) |  |
+| 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | 🟡 Medium | Array, Two Pointers, Sliding Window | [C++](problems/1248.md) | O(N) | O(1) |  |
+| 1287 | [Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/) | 🟢 Easy | Array, Sliding Window | [C++](problems/1287.md) | O(N) | O(1) |  |
+| 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 Medium | Sliding Window | [C++](problems/1358.md) | O(N) | O(1) |  |
+| 1456 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | 🟡 Medium | String, Sliding Window | [C++](problems/1456.md) | O(N) | O(1) |  |
+| 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | 🟡 Medium | Sliding Window, Hash Set, Bit Manipulation | [C++](problems/1461.md) | O(N\*K) | O(2^K) |  |
+| 1493 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium | Sliding Window, Two Pointers | [C++](problems/1493.md) | O(N) | O(1) |  |
+| 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | 🟡 Medium | Variable Size Sliding Window, Sliding Window, Two Pointers | [C++](problems/1839.md) | O(N) | O(1) |  |
+| 1876 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters) | 🟢 Easy | String, Sliding Window | [C++](problems/1876.md) | O(N) | O(1) |  |
+| 2062 | [Count Vowel Substrings](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) | 🟢 Easy | Math, Sliding Window | [C++](problems/2062.md) | O(N) | O(1) |  |
+| 3090 | [Maximum Length Substring](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | 🟢 Easy | Sliding Window | [C++](problems/3090.md) | O(N) | O(1) |  |
+| 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) | 🟡 Medium | Sliding Window, Two Pointers, Difference Technique | [C++](problems/3306.md) | O(N) | O(1) |  |
+| 3325 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/) | 🟡 Medium | Sliding Window, Two Pointers | [C++](problems/3325.md) | O(N) | O(1) |  |
+| 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | Array, Sliding Window, Simulation | [C++](problems/3392.md) | O(N) | O(1) |  |
+| 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | Fixed Size Sliding Window, Block-Skipping | [C++](problems/3456.md) | O(N) | O(1) |  |
 
 ---
 
@@ -335,201 +335,201 @@
 <a id="yiwang-design"></a>
 #### 🎨 Design（3）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | Design, Stack | [C++](problems/0173.md) | O(1) | O(H) |
-| 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](problems/0208.md) | O(L) | O(N \* L) |
-| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Design, Queue | [C++](problems/0225.md) | O(N) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | Design, Stack | [C++](problems/0173.md) | O(1) | O(H) |  |
+| 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](problems/0208.md) | O(L) | O(N \* L) |  |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Design, Queue | [C++](problems/0225.md) | O(N) | O(N) |  |
 
 <a id="yiwang-math"></a>
 #### 🔢 Math（23）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math, Binary Exponentiation | [C++](problems/0050.md) | O(logN) | O(1) |
-| 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math Permutation, Factorial | [C++](problems/0060.md) | O(N²) | O(N) |
-| 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | Math, Game Theory | [C++](problems/0292.md) | O(1) | O(1) |
-| 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](problems/0343.md) | O(1) | O(1) |
-| 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | Math Combination, Combinatorics | [C++](problems/0357.md) | O(N) | O(1) |
-| 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](problems/0396.md) | O(N) | O(1) |
-| 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) |
-| 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | Math Game Theory, Game Theory | [C++](problems/0810.md) | O(N) | O(1) |
-| 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math, Hash Table | [C++](problems/0970.md) | O(log_X(BOUND)\*log_Y(BOUND)) | O(S) |
-| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | Math Game Theory, Game Theory | [C++](problems/1025.md) | O(1) | O(1) |
-| 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | Math, Zeller's Congruence | [C++](problems/1185.md) | O(1) | O(1) |
-| 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 Medium | Math, Simulation, Greedy | [C++](problems/1375.md) | O(N) | O(1) |
-| 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](problems/1404.md) | O(N) | O(1) |
-| 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | Math Factor Enumeration | [C++](problems/1492.md) | O(√N) | O(1) |
-| 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Math Combination, Math (Contribution) | [C++](problems/1588.md) | O(N) | O(1) |
-| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](problems/2180.md) | O(D) | O(1) |
-| 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | Math, Enumeration | [C++](problems/2310.md) | O(10) | O(1) |
-| 2507 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 Medium | Math Factor Enumeration, Prime Factorization | [C++](problems/2507.md) | O(logN\*sqrt(N)) | O(1) |
-| 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](problems/2894.md) | O(1) | O(1) |
-| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math, Combinatorics | [C++](problems/3084.md) | O(N) | O(1) |
-| 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](problems/3227.md) | O(N) | O(1) |
-| 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | Math Game Theory | [C++](problems/3232.md) | O(N) | O(1) |
-| 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math Prime, Prefix Sum | [C++](problems/3770.md) | O(RloglogR) | O(R) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math, Binary Exponentiation | [C++](problems/0050.md) | O(logN) | O(1) |  |
+| 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math Permutation, Factorial | [C++](problems/0060.md) | O(N²) | O(N) |  |
+| 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | Math, Game Theory | [C++](problems/0292.md) | O(1) | O(1) |  |
+| 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](problems/0343.md) | O(1) | O(1) |  |
+| 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | Math Combination, Combinatorics | [C++](problems/0357.md) | O(N) | O(1) |  |
+| 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](problems/0396.md) | O(N) | O(1) |  |
+| 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) |  |
+| 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | Math Game Theory, Game Theory | [C++](problems/0810.md) | O(N) | O(1) |  |
+| 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math, Hash Table | [C++](problems/0970.md) | O(log_X(BOUND)\*log_Y(BOUND)) | O(S) |  |
+| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | Math Game Theory, Game Theory | [C++](problems/1025.md) | O(1) | O(1) |  |
+| 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | Math, Zeller's Congruence | [C++](problems/1185.md) | O(1) | O(1) |  |
+| 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 Medium | Math, Simulation, Greedy | [C++](problems/1375.md) | O(N) | O(1) |  |
+| 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](problems/1404.md) | O(N) | O(1) |  |
+| 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | Math Factor Enumeration | [C++](problems/1492.md) | O(√N) | O(1) |  |
+| 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Math Combination, Math (Contribution) | [C++](problems/1588.md) | O(N) | O(1) |  |
+| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](problems/2180.md) | O(D) | O(1) |  |
+| 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | Math, Enumeration | [C++](problems/2310.md) | O(10) | O(1) |  |
+| 2507 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 Medium | Math Factor Enumeration, Prime Factorization | [C++](problems/2507.md) | O(logN\*sqrt(N)) | O(1) |  |
+| 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](problems/2894.md) | O(1) | O(1) |  |
+| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math, Combinatorics | [C++](problems/3084.md) | O(N) | O(1) |  |
+| 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](problems/3227.md) | O(N) | O(1) |  |
+| 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | Math Game Theory | [C++](problems/3232.md) | O(N) | O(1) |  |
+| 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math Prime, Prefix Sum | [C++](problems/3770.md) | O(RloglogR) | O(R) |  |
 
 <a id="yiwang-bit-manipulation"></a>
 #### 📊 Bit Manipulation（17）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/0029.md) | O(log²N) | O(1) |
-| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation | [C++](problems/0029.md) | O(log²N) | O(1) |
-| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) |
-| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) |
-| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Bit Manipulation, DP | [C++](problems/0338.md) | O(N) | O(N) |
-| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](problems/0401.md) | O(1) | O(1) |
-| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) |
-| 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bit Manipulation Xor, Hash Set | [C++](problems/0421.md) | O(N\*L) | O(N) |
-| 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Array | [C++](problems/0477.md) | O(31\*N) | O(1) |
-| 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Backtracking, Bitset | [C++](problems/1239.md) | O(2ᴺ) | O(2ᴺ) |
-| 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | Bit Manipulation Or | [C++](problems/1318.md) | O(1) | O(1) |
-| 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | Backtracking Permutation, Recursion, Divide and Conquer | [C++](problems/1545.md) | O(N) | O(N) |
-| 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | Bit Manipulation Xor, Math, Combinatorics | [C++](problems/1863.md) | O(N) | O(1) |
-| 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](problems/2411.md) | O(N×30) | O(30) |
-| 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) |
-| 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 Easy | Bit Manipulation, Math | [C++](problems/3314.md) | O(N) | O(N) |
-| 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/0029.md) | O(log²N) | O(1) |  |
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation | [C++](problems/0029.md) | O(log²N) | O(1) |  |
+| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) |  |
+| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) |  |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Bit Manipulation, DP | [C++](problems/0338.md) | O(N) | O(N) |  |
+| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](problems/0401.md) | O(1) | O(1) |  |
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) |  |
+| 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bit Manipulation Xor, Hash Set | [C++](problems/0421.md) | O(N\*L) | O(N) |  |
+| 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Array | [C++](problems/0477.md) | O(31\*N) | O(1) |  |
+| 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Backtracking, Bitset | [C++](problems/1239.md) | O(2ᴺ) | O(2ᴺ) |  |
+| 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | Bit Manipulation Or | [C++](problems/1318.md) | O(1) | O(1) |  |
+| 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | Backtracking Permutation, Recursion, Divide and Conquer | [C++](problems/1545.md) | O(N) | O(N) |  |
+| 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | Bit Manipulation Xor, Math, Combinatorics | [C++](problems/1863.md) | O(N) | O(1) |  |
+| 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](problems/2411.md) | O(N×30) | O(30) |  |
+| 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) |  |
+| 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 Easy | Bit Manipulation, Math | [C++](problems/3314.md) | O(N) | O(N) |  |
+| 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) |  |
 
 <a id="yiwang-string"></a>
 #### 🔗 String（7）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String Kmp, KMP | [C++](problems/0028.md) | O(N\*M) | O(1) |
-| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | String, String | [C++](problems/0043.md) | O(M\*N) | O(M+N) |
-| 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 Hard | String State Machine, State Machine | [C++](problems/0065.md) | O(N) | O(1) |
-| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String | [C++](problems/0557.md) | O(N) | O(1) |
-| 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String, String Manipulation, Bit Format | [C++](problems/3280.md) | O(1) | O(1) |
-| 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | Math, Brute Force | [C++](problems/3713.md) | O(N^2) | O(1) |
-| 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String Kmp, KMP | [C++](problems/0028.md) | O(N\*M) | O(1) |  |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | String, String | [C++](problems/0043.md) | O(M\*N) | O(M+N) |  |
+| 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 Hard | String State Machine, State Machine | [C++](problems/0065.md) | O(N) | O(1) |  |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String | [C++](problems/0557.md) | O(N) | O(1) |  |
+| 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String, String Manipulation, Bit Format | [C++](problems/3280.md) | O(1) | O(1) |  |
+| 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | Math, Brute Force | [C++](problems/3713.md) | O(N^2) | O(1) |  |
+| 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) |  |
 
 <a id="yiwang-array"></a>
 #### 🍱 Array（9）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | Array Negative Marking, Math | [C++](problems/0041.md) | O(N) | O(1) |
-| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array, Simulation | [C++](problems/0054.md) | O(M\*N) | O(1) |
-| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](problems/0059.md) | O(N²) | O(1) |
-| 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) |
-| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting, Greedy | [C++](problems/0696.md) | O(N) | O(1) |
-| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0930.md) | O(N) | O(N) |
-| 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) |
-| 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) |
-| 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | Array Negative Marking, Math | [C++](problems/0041.md) | O(N) | O(1) |  |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array, Simulation | [C++](problems/0054.md) | O(M\*N) | O(1) |  |
+| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](problems/0059.md) | O(N²) | O(1) |  |
+| 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) |  |
+| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting, Greedy | [C++](problems/0696.md) | O(N) | O(1) |  |
+| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0930.md) | O(N) | O(N) |  |
+| 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) |  |
+| 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) |  |
+| 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |  |
 
 <a id="yiwang-tree"></a>
 #### 🌳 Tree（21）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree Traversal, Tree, DFS | [C++](problems/0094.md) | O(N) | O(H) |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) |
-| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | Tree Construction, Recursion | [C++](problems/0105.md) | O(N) | O(N) |
-| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | Tree Construction, Recursion | [C++](problems/0106.md) | O(N) | O(N) |
-| 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | Tree, DFS | [C++](problems/0114.md) | O(N) | O(H) |
-| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | Tree Dfs Global, Recursion, DP | [C++](problems/0124.md) | O(N) | O(H) |
-| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Traversal, DFS | [C++](problems/0144.md) | O(N) | O(H) |
-| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) |
-| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 Easy | Tree Traversal, DFS | [C++](problems/0145.md) | O(N) | O(H) |
-| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0404.md) | O(N) | O(H) |
-| 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | Tree Dfs Global, DFS, Prefix Sum | [C++](problems/0437.md) | O(N) | O(H) |
-| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Tree Dfs Global, DFS | [C++](problems/0543.md) | O(N) | O(H) |
-| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0572.md) | O(N\*M) | O(H) |
-| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie, Hash Table | [C++](problems/0648.md) | O(N\*L+M\*K) | O(D\*L) |
-| 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 Medium | Tree Dfs Global, DFS | [C++](problems/0687.md) | O(N) | O(H) |
-| 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Hash Table | [C++](problems/0863.md) | O(N) | O(N) |
-| 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 Medium | Tree Construction, Recursion | [C++](problems/0889.md) | O(N) | O(N) |
-| 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | Tree Dfs Path, DFS, In-order | [C++](problems/0897.md) | O(N) | O(H) |
-| 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | Tree, Recursion, DFS | [C++](problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) |
-| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](problems/0993.md) | O(N) | O(W) |
-| 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 Medium | Tree Dfs Global, DFS, Post-order | [C++](problems/1530.md) | O(N×D²) | O(H×D) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree Traversal, Tree, DFS | [C++](problems/0094.md) | O(N) | O(H) |  |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 Easy | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) |  |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | Tree Construction, Recursion | [C++](problems/0105.md) | O(N) | O(N) |  |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 Medium | Tree Construction, Recursion | [C++](problems/0106.md) | O(N) | O(N) |  |
+| 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 Medium | Tree, DFS | [C++](problems/0114.md) | O(N) | O(H) |  |
+| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | Tree Dfs Global, Recursion, DP | [C++](problems/0124.md) | O(N) | O(H) |  |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Traversal, DFS | [C++](problems/0144.md) | O(N) | O(H) |  |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) |  |
+| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 Easy | Tree Traversal, DFS | [C++](problems/0145.md) | O(N) | O(H) |  |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0404.md) | O(N) | O(H) |  |
+| 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | Tree Dfs Global, DFS, Prefix Sum | [C++](problems/0437.md) | O(N) | O(H) |  |
+| 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Tree Dfs Global, DFS | [C++](problems/0543.md) | O(N) | O(H) |  |
+| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0572.md) | O(N\*M) | O(H) |  |
+| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie, Hash Table | [C++](problems/0648.md) | O(N\*L+M\*K) | O(D\*L) |  |
+| 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 Medium | Tree Dfs Global, DFS | [C++](problems/0687.md) | O(N) | O(H) |  |
+| 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Hash Table | [C++](problems/0863.md) | O(N) | O(N) |  |
+| 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 Medium | Tree Construction, Recursion | [C++](problems/0889.md) | O(N) | O(N) |  |
+| 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | Tree Dfs Path, DFS, In-order | [C++](problems/0897.md) | O(N) | O(H) |  |
+| 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | Tree, Recursion, DFS | [C++](problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) |  |
+| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](problems/0993.md) | O(N) | O(W) |  |
+| 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 Medium | Tree Dfs Global, DFS, Post-order | [C++](problems/1530.md) | O(N×D²) | O(H×D) |  |
 
 <a id="yiwang-binary-search"></a>
 #### 🔍 Binary Search（5）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | Binary Search | [C++](problems/0069.md) | O(logN) | O(1) |
-| 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟡 Medium | Binary Search | [C++](problems/0081.md) | O(N) | O(1) |
-| 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | 🔴 Hard | Binary Search | [C++](problems/0154.md) | O(N) | O(1) |
-| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search Build In, Binary Search | [C++](problems/0300.md) | O(NlogN) | O(N) |
-| 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | 🟢 Easy | Binary Search Find Right Bound | [C++](problems/1539.md) | O(logN) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | Binary Search | [C++](problems/0069.md) | O(logN) | O(1) |  |
+| 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟡 Medium | Binary Search | [C++](problems/0081.md) | O(N) | O(1) |  |
+| 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | 🔴 Hard | Binary Search | [C++](problems/0154.md) | O(N) | O(1) |  |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search Build In, Binary Search | [C++](problems/0300.md) | O(NlogN) | O(N) |  |
+| 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | 🟢 Easy | Binary Search Find Right Bound | [C++](problems/1539.md) | O(logN) | O(1) |  |
 
 <a id="yiwang-linked-list"></a>
 #### ⛓️ Linked List（4）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](problems/0021.md) | O(N+M) | O(1) |
-| 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 Hard | Linked List | [C++](problems/0025.md) | O(N) | O(1) |
-| 61 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 Medium | Linked List, Two Pointers | [C++](problems/0061.md) | O(N) | O(1) |
-| 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](problems/0021.md) | O(N+M) | O(1) |  |
+| 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 Hard | Linked List | [C++](problems/0025.md) | O(N) | O(1) |  |
+| 61 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 Medium | Linked List, Two Pointers | [C++](problems/0061.md) | O(N) | O(1) |  |
+| 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) |  |
 
 <a id="yiwang-pointers"></a>
 #### 👥 Pointers（9）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 Medium | Two Pointers Opposite, Two Pointers, Sorting | [C++](problems/0015.md) | O(N²) | O(logN) |
-| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](problems/0016.md) | O(N²) | O(1) |
-| 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0018.md) | O(N³) | O(1) |
-| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0080.md) | O(N) | O(1) |
-| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Linked List, Two Pointers | [C++](problems/0160.md) | O(N+M) | O(1) |
-| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) |
-| 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](problems/0680.md) | O(N) | O(1) |
-| 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | Two Pointers Same, Two Pointers, State Transition | [C++](problems/3637.md) | O(N) | O(1) |
-| 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/3940.md) | O(N) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 Medium | Two Pointers Opposite, Two Pointers, Sorting | [C++](problems/0015.md) | O(N²) | O(logN) |  |
+| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](problems/0016.md) | O(N²) | O(1) |  |
+| 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0018.md) | O(N³) | O(1) |  |
+| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0080.md) | O(N) | O(1) |  |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Linked List, Two Pointers | [C++](problems/0160.md) | O(N+M) | O(1) |  |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) |  |
+| 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](problems/0680.md) | O(N) | O(1) |  |
+| 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | Two Pointers Same, Two Pointers, State Transition | [C++](problems/3637.md) | O(N) | O(1) |  |
+| 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/3940.md) | O(N) | O(1) |  |
 
 <a id="yiwang-hash-table"></a>
 #### 🔑 Hash Table（2）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](problems/0202.md) | O(logN) | O(1) |
-| 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2357.md) | O(N) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](problems/0202.md) | O(logN) | O(1) |  |
+| 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2357.md) | O(N) | O(N) | 2026-09-15 |
 
 <a id="yiwang-sorting"></a>
 #### 📊 Sorting（2）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](problems/0581.md) | O(NlogN) | O(N) |
-| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Sorting Implementation, Divide and Conquer, Sorting | [C++](problems/0912.md) | O(NlogN) | O(logN) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](problems/0581.md) | O(NlogN) | O(N) |  |
+| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Sorting Implementation, Divide and Conquer, Sorting | [C++](problems/0912.md) | O(NlogN) | O(logN) |  |
 
 <a id="yiwang-dynamic-programming"></a>
 #### 🧩 Dynamic Programming（4）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](problems/0063.md) | O(M\*N) | O(N) |
-| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0091.md) | O(N) | O(N) |
-| 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](problems/0096.md) | O(N²) | O(N) |
-| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](problems/0063.md) | O(M\*N) | O(N) |  |
+| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0091.md) | O(N) | O(N) |  |
+| 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](problems/0096.md) | O(N²) | O(N) |  |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) |  |
 
 <a id="yiwang-greedy"></a>
 #### 🧩 Greedy（8）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | Greedy | [C++](problems/0055.md) | O(N) | O(1) |
-| 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](problems/0397.md) | O(logN) | O(1) |
-| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy | [C++](problems/0678.md) | O(N) | O(1) |
-| 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | 🟡 Medium | Greedy, Math, String | [C++](problems/1247.md) | O(N) | O(1) |
-| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy Priority Queue | [C++](problems/1405.md) | O((a+b+c) log 3) | O(1) |
-| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy, Two Candidates | [C++](problems/1909.md) | O(N) | O(1) |
-| 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](problems/2571.md) | O(logN) | O(1) |
-| 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy, Math, Brainteaser | [C++](problems/2745.md) | O(1) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | Greedy | [C++](problems/0055.md) | O(N) | O(1) |  |
+| 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](problems/0397.md) | O(logN) | O(1) |  |
+| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy | [C++](problems/0678.md) | O(N) | O(1) |  |
+| 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | 🟡 Medium | Greedy, Math, String | [C++](problems/1247.md) | O(N) | O(1) |  |
+| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy Priority Queue | [C++](problems/1405.md) | O((a+b+c) log 3) | O(1) |  |
+| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy, Two Candidates | [C++](problems/1909.md) | O(N) | O(1) |  |
+| 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](problems/2571.md) | O(logN) | O(1) |  |
+| 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy, Math, Brainteaser | [C++](problems/2745.md) | O(1) | O(1) |  |
 
 <a id="yiwang-sliding-window"></a>
 #### 🔢 Sliding Window（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Variable Size Sliding Window | [C++](problems/0930.md) | O(N) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Variable Size Sliding Window | [C++](problems/0930.md) | O(N) | O(1) |  |
 
 ---
 

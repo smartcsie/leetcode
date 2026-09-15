@@ -14,9 +14,9 @@
 
 ## 🟣 易忘（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie, Hash Table | [C++](../problems/0648.md) | O(N\*L+M\*K) | O(D\*L) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie, Hash Table | [C++](../problems/0648.md) | O(N\*L+M\*K) | O(D\*L) |  |
 
 ## 🟢 熟悉（0）
 

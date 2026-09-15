@@ -282,6 +282,7 @@ def build_topic_indexes(problems, topics_out_dir):
                     'time': sol.get('time', ''),
                     'space': sol.get('space', ''),
                     'familiarity': sol.get('familiarity'),
+                    'date': get_latest_attempt_date(sol),
                 })
 
     os.makedirs(topics_out_dir, exist_ok=True)
@@ -294,8 +295,8 @@ def build_topic_indexes(problems, topics_out_dir):
     notes_dir = os.path.join(os.path.dirname(os.path.normpath(topics_out_dir)), 'notes')
 
     def render_table(sub_rows):
-        lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |",
-                 "| --- | --- | --- | --- | --- | --- | --- |"]
+        lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |",
+                 "| --- | --- | --- | --- | --- | --- | --- | --- |"]
         for r in sub_rows:
             tags_str = escape_cell(', '.join(r['tags']))
             page_link = f"../problems/{r['number']:04d}.md"
@@ -303,7 +304,8 @@ def build_topic_indexes(problems, topics_out_dir):
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             lines.append(f"| {r['number']} | {title_cell} | "
                          f"{escape_cell(r['difficulty'])} | {tags_str} | {file_cell} | "
-                         f"{escape_cell(r['time'])} | {escape_cell(r['space'])} |")
+                         f"{escape_cell(r['time'])} | {escape_cell(r['space'])} | "
+                         f"{escape_cell(r['date'])} |")
         return lines
 
     for topic, rows in topic_rows.items():
@@ -451,14 +453,15 @@ def _build_familiarity_section(rows, id_prefix, intro_text):
         lines.append(f'<a id="{anchor}"></a>')
         lines.append(f'#### {group}（{len(group_rows)}）')
         lines.append('')
-        lines.append('| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |')
-        lines.append('| --- | --- | --- | --- | --- | --- | --- |')
+        lines.append('| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |')
+        lines.append('| --- | --- | --- | --- | --- | --- | --- | --- |')
         for r in group_rows:
             page_link = f"problems/{r['number']:04d}.md"
             title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             lines.append(f"| {r['number']} | {title_cell} | {escape_cell(r['difficulty'])} | "
-                         f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | {escape_cell(r['space'])} |")
+                         f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | "
+                         f"{escape_cell(r['space'])} | {escape_cell(r.get('date', ''))} |")
         lines.append('')
 
     return lines
@@ -485,6 +488,7 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
                         'space': sol.get('space', ''),
                         'topics': ', '.join(topics_list),
                         'group': group,
+                        'date': get_latest_attempt_date(sol),
                     })
         result.sort(key=lambda r: r['number'])
         return result

@@ -2,9 +2,9 @@
 
 ## 🔴 生疏（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 🟡 Medium | Union Find | [C++](../problems/0547.md) | O(N²·α(N)) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 🟡 Medium | Union Find | [C++](../problems/0547.md) | O(N²·α(N)) | O(N) |  |
 
 ## 🟠 再練習（0）
 

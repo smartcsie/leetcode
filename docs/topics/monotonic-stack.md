@@ -2,16 +2,16 @@
 
 ## 🔴 生疏（8）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 Hard | Monotonic Stack | [C++](../problems/0085.md) | O(M\*N) | O(N) |
-| 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | Monotonic Stack, Greedy, String | [C++](../problems/0316.md) | O(N) | O(1) |
-| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | Array, Hash Table, Stack, Monotonic Stack | [C++](../problems/0496.md) | O(N+M) | O(N) |
-| 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 Medium | Array, Stack, Monotonic Stack | [C++](../problems/0503.md) | O(N) | O(N) |
-| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | Stack, Monotonic Stack | [C++](../problems/0739.md) | O(N) | O(N) |
-| 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack | [C++](../problems/1019.md) | O(N) | O(N) |
-| 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium | Monotonic Stack, Greedy | [C++](../problems/1081.md) | O(N) | O(1) |
-| 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 Easy | Array, Stack, Monotonic Stack | [C++](../problems/1475.md) | O(N) | O(N) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 Hard | Monotonic Stack | [C++](../problems/0085.md) | O(M\*N) | O(N) |  |
+| 316 | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | 🟡 Medium | Monotonic Stack, Greedy, String | [C++](../problems/0316.md) | O(N) | O(1) |  |
+| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 Easy | Array, Hash Table, Stack, Monotonic Stack | [C++](../problems/0496.md) | O(N+M) | O(N) |  |
+| 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 Medium | Array, Stack, Monotonic Stack | [C++](../problems/0503.md) | O(N) | O(N) |  |
+| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 Medium | Stack, Monotonic Stack | [C++](../problems/0739.md) | O(N) | O(N) |  |
+| 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack | [C++](../problems/1019.md) | O(N) | O(N) |  |
+| 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 Medium | Monotonic Stack, Greedy | [C++](../problems/1081.md) | O(N) | O(1) |  |
+| 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 Easy | Array, Stack, Monotonic Stack | [C++](../problems/1475.md) | O(N) | O(N) |  |
 
 ## 🟠 再練習（0）
 

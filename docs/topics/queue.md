@@ -6,9 +6,9 @@
 
 ## 🟠 再練習（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1291 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | 🟡 Medium | Queue, Brute Force | [C++](../problems/1291.md) | O(1) | O(1) |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1291 | [Sequential Digits](https://leetcode.com/problems/sequential-digits/) | 🟡 Medium | Queue, Brute Force | [C++](../problems/1291.md) | O(1) | O(1) |  |
 
 ## 🟡 練習過（0）
 
