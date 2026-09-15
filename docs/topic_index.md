@@ -59,6 +59,14 @@
 
 ---
 
+## 🔑 Hash Table
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | 👑 **Unordered Map**<br>[Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table Existence | [C++](problems/0001.md) | O(N) | O(N) | 2026-09-15 |
+
+---
+
 ## 👥 Pointers
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
