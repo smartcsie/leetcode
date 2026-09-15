@@ -13,3 +13,7 @@ solutions:
   space: O(N)
   familiarity: 易忘
   note: '> 不重複的元素個數 - 0 的個數（因為 0 不需要被減去）'
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
