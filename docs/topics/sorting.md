@@ -13,12 +13,11 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（10）
+## 🟡 練習過（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Sorting, Sorting | [C++](../problems/0539.md) | O(NlogN) | O(N) |
-| 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | Array, Greedy, Sorting | [C++](../problems/0561.md) | O(NlogN) | O(1) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1200.md) | O(NlogN) | O(N) |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1408.md) | O(N²\*K) | O(N) |
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | Sorting, Sliding Window | [C++](../problems/1984.md) | O(NlogN) | O(1) |
@@ -34,6 +33,8 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](../problems/0581.md) | O(NlogN) | O(N) |
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | Sorting, Greedy, Sorting | [C++](../problems/0561.md) | O(NlogN) | O(1) |
