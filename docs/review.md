@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：166 題　🟡 練習過：442 題　🟣 易忘：97 題　🟢 熟練：54 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：167 題　🟡 練習過：441 題　🟣 易忘：97 題　🟢 熟練：54 題　⚪ 未標記：0 題
 
 ---
 
@@ -606,7 +606,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 2 | 4 | 5 | 1 | 7 | 0 | 19 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 2 | 12 | 0 | 0 | 0 | 14 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 3 | 6 | 0 | 0 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 6 | 11 | 0 | 1 | 0 | 20 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 7 | 10 | 0 | 1 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 0 | 2 | 12 | 3 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [math](topics/math.md) | 0 | 14 | 13 | 9 | 3 | 0 | 39 |

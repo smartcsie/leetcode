@@ -15,29 +15,20 @@
 class Solution {
 public:
     int totalNumbers(std::vector<int>& digits) {
-        std::unordered_set<int> unique_evens;
-        int n = static_cast<int>(digits.size());
-        
-        // 枚舉所有三個數字的排列 (i, j, k)
-        for (int i = 0; i < n; ++i) {
-            // 三位數首位不能為 0
-            if (digits[i] == 0) continue;
-            
-            for (int j = 0; j < n; ++j) {
-                if (i == j) continue;
-                
-                for (int k = 0; k < n; ++k) {
-                    if (k == i || k == j) continue;
-                    
-                    // 偶數判定：最後一位 digits[k] 必須是偶數
-                    if ((digits[k] & 1) == 0) {
-                        int num = digits[i] * 100 + digits[j] * 10 + digits[k];
-                        unique_evens.insert(num);
-                    }
+        unordered_set<int> seen;
+        int n = digits.size();
+        for(int i = 0; i < n ;i++) {
+            if(digits[i] == 0) continue;
+            for(int j = 0; j < n ;j++) {
+                if(i == j) continue;
+                for(int k = 0; k < n ;k++) {
+                    if(i == k || j == k) continue;
+                    if(digits[k] & 1) continue;
+                    int num = digits[i] * 100 + digits[j] * 10 + digits[k];
+                    seen.insert(num);
                 }
             }
         }
-        
-        return static_cast<int>(unique_evens.size());
+        return seen.size();
     }
 };

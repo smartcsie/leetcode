@@ -11,7 +11,9 @@ solutions:
   - hash-table-uniqueness
   time: O(N³)
   space: O(U)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> [for loop]'
   related:
   - 1534
+  tricks:
+  - foor loop
