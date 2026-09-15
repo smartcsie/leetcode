@@ -11,20 +11,22 @@ solutions:
   - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 易忘
 - file: Solution_0145.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree
+  - Tree Traversal
   topics:
-  - tree
+  - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 練習過
-  note: '> [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-    <br>
-
-    root為空則return，遞迴左子樹，遞迴右子樹，把root->val加入到result vector<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
+  note: '> **root為空則return，遞迴左子樹，遞迴右子樹，把root->val加入到result vector**<br>'
   is_best: true
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Postorder
