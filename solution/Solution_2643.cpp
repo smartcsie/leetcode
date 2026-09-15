@@ -13,15 +13,14 @@
 class Solution {
 public:
     vector<int> rowAndMaximumOnes(vector<vector<int>>& mat) {
-        int max_ones = -1;
-        int max_index = -1;
+        vector<int> ans(2, -1);
         for(int i = 0; i < mat.size(); i++) {
-            int ones = accumulate(mat[i].begin(), mat[i].end(), 0);
-            if(ones > max_ones) {
-                max_ones = ones;
-                max_index = i;
+            int sum = accumulate(mat[i].begin(), mat[i].end(), 0);
+            if(sum > ans[1]) {
+                ans[0] = i;
+                ans[1] = sum;
             }
         }
-        return {max_index, max_ones};
+        return ans;
     }
 };

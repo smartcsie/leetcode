@@ -5,10 +5,18 @@ solutions:
 - file: Solution_2643.cpp
   difficulty: 🟢 Easy
   tags:
+  - Array Linear Scan
   - Matrix
   - Linear Scan
   topics:
   - array-linear-scan
   time: O(M*N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
+  tricks:
+  - accumulate
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
