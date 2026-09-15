@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：167 題　🟡 練習過：426 題　🟣 易忘：98 題　🟢 熟練：68 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：166 題　🟡 練習過：426 題　🟣 易忘：98 題　🟢 熟練：69 題　⚪ 未標記：0 題
 
 ---
 
@@ -538,12 +538,12 @@
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 0 | 8 | 9 | 0 | 0 | 0 | 17 |
-| [array](topics/array.md) | 1 | 10 | 14 | 2 | 0 | 0 | 27 |
+| [array](topics/array.md) | 1 | 9 | 14 | 2 | 0 | 0 | 26 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 5 | 5 | 1 | 0 | 0 | 11 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 5 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 1 | 5 | 12 | 0 | 8 | 0 | 26 |
+| [array-linear-scan](topics/array-linear-scan.md) | 1 | 5 | 12 | 0 | 9 | 0 | 27 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 3 | 0 | 2 | 0 | 5 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 4 | 1 | 1 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 1 | 9 | 4 | 0 | 0 | 19 |

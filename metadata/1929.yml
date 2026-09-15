@@ -5,18 +5,44 @@ solutions:
 - file: Solution_1929.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Array Linear Scan
   topics:
-  - array
+  - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
   is_best: true
   related:
   - 3925
+  tricks:
+  - insert
   attempts:
   - date: '2026-09-14'
     result: 錯
     reason: "class Solution {\npublic:\n    vector<int> getConcatenation(vector<int>&\
       \ nums) {\n        nums.insert(nums.begin(), nums);\n        return nums;\n\
       \    }\n};"
+  - date: '2026-09-15'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: vector insert
+- file: Solution_1929_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array Linear Scan
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
+  tricks:
+  - resize
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: vector resize
