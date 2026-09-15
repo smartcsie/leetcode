@@ -35,7 +35,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（12）
+## 🟢 熟悉（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -51,3 +51,4 @@
 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 Easy | Array Linear Scan, Matrix, Linear Scan | [C++](../problems/2643.md) | O(M\*N) | O(1) | 2026-09-15 |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Array Linear Scan | [C++](../problems/3512.md) | O(N) | O(1) | 2026-09-13 |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan, Simulation | [C++](../problems/3925.md) | O(N) | O(N) | 2026-09-15 |
+| 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan | [C++](../problems/3925.md) | O(N) | O(N) | 2026-09-15 |

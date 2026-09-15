@@ -21,3 +21,19 @@ solutions:
   - date: '2026-09-15'
     result: 對
     reason: null
+- file: Solution_3925_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array Linear Scan
+  topics:
+  - array-linear-scan
+  time: O(N)
+  space: O(N)
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
+  tricks:
+  - iterator
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
