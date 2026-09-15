@@ -14,21 +14,19 @@
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
-        long first = LONG_MIN;
-        long second = LONG_MIN;
-        long third = LONG_MIN;
-        for(const int& num: nums){
-            if(num > first) {
-                third = second;
-                second = first;
-                first = num;
-            } else if(num < first && num > second) {
-                third = second;
-                 second = num;
-            } else if(num < second && num > third) {
-                third = num;
-            }
+        vector<long> mx(3, LONG_MIN);
+        for(const int& num : nums) {
+            if(num > mx[0]) {
+                mx[2] = mx[1];
+                mx[1] = mx[0];
+                mx[0] = num;
+            } else if(num > mx[1] && num < mx[0]) {
+                mx[2] = mx[1];
+                mx[1] = num;
+            } else if(num > mx[2] && num < mx[1]) {
+                mx[2] = num;
+            } 
         }
-        return third == LONG_MIN ? static_cast<int>(first) : static_cast<int>(third);
+        return mx[2] != LONG_MIN ? static_cast<int>(mx[2]) : static_cast<int>(mx[0]);
     }
 };

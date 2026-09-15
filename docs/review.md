@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：168 題　🟡 練習過：451 題　🟣 易忘：97 題　🟢 熟練：43 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：167 題　🟡 練習過：451 題　🟣 易忘：97 題　🟢 熟練：44 題　⚪ 未標記：0 題
 
 ---
 
@@ -543,7 +543,7 @@
 | [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 5 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 1 | 5 | 17 | 0 | 2 | 0 | 25 |
-| [array-min-max](topics/array-min-max.md) | 0 | 1 | 3 | 0 | 0 | 0 | 4 |
+| [array-min-max](topics/array-min-max.md) | 0 | 0 | 3 | 0 | 1 | 0 | 4 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 4 | 1 | 1 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 1 | 9 | 4 | 0 | 0 | 19 |
 | [backtracking-combination](topics/backtracking-combination.md) | 14 | 0 | 1 | 0 | 0 | 0 | 15 |

@@ -10,4 +10,11 @@ solutions:
   - array-min-max
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Array Min Max
