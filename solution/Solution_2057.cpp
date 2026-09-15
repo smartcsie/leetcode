@@ -12,12 +12,8 @@
 class Solution {
 public:
     int smallestEqual(const std::vector<int>& nums) {
-        // 使用 size_t 避免在大陣列時可能出現的索引溢位問題
-        for (size_t i = 0; i < nums.size(); ++i) {
-            // 直接進行模運算判斷
-            if (static_cast<int>(nums[i]) == (i % 10)) {
-                return static_cast<int>(i);
-            }
+        for(int i = 0; i < nums.size(); i++) {
+            if(nums[i] == i % 10) return i;
         }
         return -1;
     }
