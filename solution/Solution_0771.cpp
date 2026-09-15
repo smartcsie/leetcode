@@ -13,14 +13,10 @@
 class Solution {
 public:
     int numJewelsInStones(string jewels, string stones) {
-        unordered_set<int> jewelSet;
-        for(const char& j : jewels) {
-            jewelSet.insert(j);
-        }
+        bitset<128> bits;
+        for(const char& c : jewels) bits.set(c);
         int ans = 0;
-        for(const char& c : stones) {
-            if(jewelSet.count(c)) ans++;
-        }
+        for(const char& c : stones) if(bits.test(c)) ans++;
         return ans;
     }
 };
