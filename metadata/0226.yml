@@ -10,7 +10,8 @@ solutions:
   - tree
   time: O(N)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
   note: '> [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
     <br>
 
@@ -21,3 +22,7 @@ solutions:
 
     <br><br>'
   is_best: true
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
