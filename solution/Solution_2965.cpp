@@ -16,16 +16,13 @@ public:
         int n = grid.size();
         vector<int> counts(n * n + 1, 0);
         for(const vector<int>& row : grid) {
-            for(const int& x : row) {
-                counts[x]++;
-            }
+            for(const int& x : row)  counts[x]++;
         }
-        vector<int> ans(2 , -1);
-        for(int i = 1; i <= n * n; i++) {
-            if(!counts[i]) ans[1] = i;
-            else if(counts[i] & 2) ans[0] = i;
-            if(ans[0] != -1 && ans[1] != -1) return ans;
+        vector<int> ans(2, 0);
+        for(int i = 1 ; i <= n * n; i++) {
+            if(counts[i] == 2) ans[0] = i;
+            if(counts[i] == 0) ans[1] = i;
         }
-        return {};
+        return ans;
     }
 };

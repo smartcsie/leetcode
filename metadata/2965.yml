@@ -11,9 +11,14 @@ solutions:
   - hash-table-existence
   time: O(N²)
   space: O(N²)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
   note: '> 起一個vector<int> counts(n * n + 1, 0);計數字出現頻率<br>
 
     > if(counts[i] == 0) missing = i; else if(counts[i] == 2) repeat = i;<br>
 
     > **雖然數學方法（利用數列總和公式 1+2+...+n²）可以達到 O(1) 的額外空間，但那樣做會涉及較大的數值加總，可能會有溢位風險**。 <br>'
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
