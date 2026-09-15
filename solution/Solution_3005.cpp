@@ -17,11 +17,16 @@ class Solution {
 public:
     int maxFrequencyElements(vector<int>& nums) {
         vector<int> counts(101, 0);
-        int mx = 0;
+        int mx = 0, mxElements = 0;
         for(const int& x : nums) {
             counts[x]++;
-            mx = max(mx, counts[x]);
+            if(counts[x] > mx) {
+                mx = counts[x];
+                mxElements = 1;
+            } else if (counts[x] == mx) {
+                mxElements++;
+            }
         }
-        return mx * count(counts.begin(), counts.end(), mx);
+        return mx * mxElements;
     }
 };
