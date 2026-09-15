@@ -14,18 +14,14 @@
 class Solution {
 public:
     int maxFreqSum(string s) {
-        int maxVowel = 0;
-        int maxConsonants = 0;
         vector<int> counts(26, 0);
-        for(const char& c : s) {
-            int idx = c - 'a';
-            counts[idx]++;
-            if((0x104111 >> (idx)) & 1) {
-                maxVowel = max(maxVowel, counts[idx]);
-            } else {
-                maxConsonants = max(maxConsonants, counts[idx]);
-            }
+        int vowel = 0;
+        int consonant = 0;
+        for(const char c : s) {
+            counts[c - 'a']++;
+            if((0x104111 >> (c - 'a')) & 1) vowel = max(vowel, counts[c - 'a']);
+            else consonant = max(consonant, counts[c - 'a']);
         }
-        return maxVowel + maxConsonants;
+        return vowel + consonant;
     }
 };

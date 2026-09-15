@@ -12,4 +12,12 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
+  tricks:
+  - vowel
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
+  representative_tag: Vowel
