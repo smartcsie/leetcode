@@ -52,6 +52,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 34 | 👑 **lower_bound,upper_bound**<br>[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 🟡 Medium | Binary Search Build In | [C++](problems/0034.md) | O(logN) | O(1) | 2026-09-15 |
 | 704 | 👑 **Binary Search**<br>[Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](problems/0704.md) | O(logN) | O(1) | 2026-09-14 |
 
 ---
@@ -97,6 +98,14 @@
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/1161.md) | O(N) | O(W) | 2026-09-14 |
 | 1302 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | 🟡 Medium | Tree, BFS | [C++](problems/1302.md) | O(N) | O(W) | 2026-09-14 |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/1609.md) | O(N) | O(W) | 2026-09-14 |
+
+---
+
+## 📊 Sorting
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting, Set | [C++](problems/3684.md) | O(NlogN) | O(N) | 2026-09-15 |
 
 ---
 

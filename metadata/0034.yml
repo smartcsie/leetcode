@@ -10,7 +10,8 @@ solutions:
   - binary-search-build-in
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
   note: '> **lower_bound，upper_bound，重要基本練習題**<br>
 
     > **if(left == nums.size()，要找的數比所有數大**<br>
@@ -26,4 +27,9 @@ solutions:
   - lower_bound
   - upper_bound
   - static_cast
+  attempts:
+  - date: '2026-09-15'
+    result: 錯
+    reason: null
   is_representative: true
+  representative_tag: lower_bound,upper_bound

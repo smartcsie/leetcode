@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：168 題　🟡 練習過：453 題　🟣 易忘：97 題　🟢 熟練：41 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：168 題　🟡 練習過：451 題　🟣 易忘：97 題　🟢 熟練：43 題　⚪ 未標記：0 題
 
 ---
 
@@ -551,7 +551,7 @@
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [binary-search](topics/binary-search.md) | 1 | 0 | 4 | 1 | 1 | 0 | 7 |
-| [binary-search-build-in](topics/binary-search-build-in.md) | 5 | 0 | 5 | 0 | 0 | 0 | 10 |
+| [binary-search-build-in](topics/binary-search-build-in.md) | 5 | 0 | 4 | 0 | 1 | 0 | 10 |
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 0 | 0 | 7 | 1 | 0 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 1 | 0 | 1 | 1 | 0 | 0 | 3 |
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
@@ -625,7 +625,7 @@
 | [priority-queue](topics/priority-queue.md) | 5 | 0 | 1 | 0 | 1 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 1 | 3 | 1 | 0 | 1 | 0 | 6 |
-| [sorting](topics/sorting.md) | 4 | 0 | 9 | 1 | 1 | 0 | 15 |
+| [sorting](topics/sorting.md) | 4 | 0 | 8 | 1 | 2 | 0 | 15 |
 | [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 1 | 0 | 3 | 0 | 0 | 0 | 4 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 0 | 2 | 8 | 0 | 0 | 0 | 10 |
