@@ -74,6 +74,7 @@
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/0199.md) | O(N) | O(W) | 2026-09-14 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](problems/0235.md) | O(H) | O(H) | 2026-09-14 |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](problems/0236.md) | O(N) | O(H) | 2026-09-14 |
+| 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | 🟡 Medium | Tree Traversal, BFS | [C++](problems/0429.md) | O(N) | O(W) | 2026-09-15 |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 Medium | Tree, BFS, DFS | [C++](problems/0513.md) | O(N) | O(W) | 2026-09-14 |
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | 🟡 Medium | Tree, BFS | [C++](problems/0515.md) | O(N) | O(W) | 2026-09-14 |
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | Tree Dfs Path, DFS, BFS | [C++](problems/0559.md) | O(N) | O(H) | 2026-09-14 |
