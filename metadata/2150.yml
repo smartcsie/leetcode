@@ -12,8 +12,11 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
-  familiarity: 練習過
-  note: '> [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array)<br>
-
-    > 用unordered map紀錄數字頻率，travsal unordered map，如果 num - 1和 num + 1都不在unordered map，且num頻率等於1，則加入result
-    vector<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
+  note: '> 用unordered map紀錄數字頻率，travsal unordered map，如果 num - 1和 num + 1都不在unordered
+    map，且num頻率等於1，則加入result vector<br>'
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null

@@ -19,15 +19,16 @@
 class Solution {
 public:
     vector<int> findLonely(vector<int>& nums) {
-        unordered_map<int, int> count;
-        vector<int> res;
-        for(int num: nums) {
-            count[num]++;
+        vector<int> ans;
+        unordered_map<int, int> seen;
+        for(const int& num : nums) seen[num]++;
+        for(const int& num : nums) {
+            if( !seen.contains(num + 1) && 
+                !seen.contains(num - 1)  && 
+                seen[num] == 1
+                ) 
+                ans.push_back(num);
         }
-        for(int num: nums) {
-            if(!count.contains(num-1) && count[num] <= 1 && !count.contains(num+1))
-                res.push_back(num);
-        }
-        return res;
+        return ans;
     }
 };

@@ -64,6 +64,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 👑 **Unordered Map**<br>[Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table Existence | [C++](problems/0001.md) | O(N) | O(N) | 2026-09-15 |
+| 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table Existence, Hash Table, Counting | [C++](problems/2150.md) | O(N) | O(N) | 2026-09-15 |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table Existence, Hash Table, Two Pointers | [C++](problems/2441.md) | O(N) | O(N) | 2026-09-15 |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 Easy | Hash Table Existence, Hashing | [C++](problems/2965.md) | O(N²) | O(N²) | 2026-09-15 |
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](problems/3718.md) | O(N+M) | O(M) | 2026-09-15 |
