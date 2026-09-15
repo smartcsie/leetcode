@@ -12,11 +12,10 @@
 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 Easy | Array Linear Scan | [C++](../problems/1422.md) | O(N) | O(1) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy | Array | [C++](../problems/1431.md) | O(N) | O(1) |
 
-## 🟡 練習過（18）
+## 🟡 練習過（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](../problems/0674.md) | O(N) | O(1) |
 | 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | 🟢 Easy | Array Linear Scan, Greedy, Prefix Sum | [C++](../problems/1013.md) | O(N) | O(1) |
 | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 Easy | Array, Simulation | [C++](../problems/1437.md) | O(N) | O(1) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 Easy | Array Linear Scan | [C++](../problems/1512.md) | O(N) | O(1) |
@@ -39,10 +38,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](../problems/0674.md) | O(N) | O(1) |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array Linear Scan, Math | [C++](../problems/1822.md) | O(N) | O(1) |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array Linear Scan | [C++](../problems/2239.md) | O(N) | O(1) |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Array Linear Scan | [C++](../problems/3512.md) | O(N) | O(1) |
