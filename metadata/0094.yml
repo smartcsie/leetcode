@@ -12,33 +12,32 @@ solutions:
   - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 易忘
+  note: '> **root為空則return，遞迴左子樹，把root->val加入到result vector，遞迴右子樹**<br>'
   is_best: true
-  tricks: null
   is_representative: true
   representative_tag: Inorder
 - file: Solution_0094.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree
+  - Tree Traversal
   - DFS
   topics:
-  - tree
+  - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 練習過
-  note: '> [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
-    <br>
-
-    > root為空則return，遞迴左子樹，把root->val加入到result vector，遞迴右子樹<br>'
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null
 - file: Solution_0094_2.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree Dfs Path
+  - Tree Traversal
   topics:
-  - tree-dfs-path
+  - tree-traversal
   time: O(N)
   space: O(H)
   familiarity: 易忘
-  tricks: null
