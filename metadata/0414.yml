@@ -32,4 +32,4 @@ solutions:
     result: 對
     reason: null
   is_representative: true
-  representative_tag: Array Min Max
+  representative_tag: Array Min Max Without Repeat
