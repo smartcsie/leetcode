@@ -65,6 +65,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 👑 **Unordered Map**<br>[Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table Existence | [C++](problems/0001.md) | O(N) | O(N) | 2026-09-15 |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table Existence, Hash Table, Two Pointers | [C++](problems/2441.md) | O(N) | O(N) | 2026-09-15 |
+| 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](problems/3718.md) | O(N+M) | O(M) | 2026-09-15 |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | Hash Table Existence | [C++](problems/3731.md) | O(N+K) | O(K) | 2026-09-15 |
 
 ---
