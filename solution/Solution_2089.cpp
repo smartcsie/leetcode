@@ -16,21 +16,14 @@
 class Solution {
 public:
     vector<int> targetIndices(vector<int>& nums, int target) {
-        int count = 0;
         int smaller = 0;
-        
-        // 單次遍歷即可統計所有資訊
-        for (int num : nums) {
-            if (num < target) smaller++;
-            else if (num == target) count++;
+        int count = 0;
+        for(const int& x : nums) {
+            if(x == target) count++;
+            else if(x < target) smaller++;
         }
-        
-        // 直接產生連續的索引序列
-        vector<int> res;
-        for (int i = 0; i < count; ++i) {
-            res.push_back(smaller + i);
-        }
-        
-        return res;
+        vector<int> ans(count);
+        iota(ans.begin(), ans.end(), smaller);
+        return ans;
     }
 };
