@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：169 題　🟡 練習過：456 題　🟣 易忘：96 題　🟢 熟練：38 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：169 題　🟡 練習過：455 題　🟣 易忘：97 題　🟢 熟練：38 題　⚪ 未標記：0 題
 
 ---
 
@@ -572,7 +572,7 @@
 | [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-kadane](topics/dp-kadane.md) | 1 | 1 | 3 | 0 | 0 | 0 | 5 |
 | [dp-knapsack](topics/dp-knapsack.md) | 3 | 0 | 9 | 0 | 0 | 0 | 12 |
-| [dp-lcs](topics/dp-lcs.md) | 5 | 0 | 6 | 0 | 0 | 0 | 11 |
+| [dp-lcs](topics/dp-lcs.md) | 5 | 0 | 5 | 1 | 0 | 0 | 11 |
 | [dp-lis](topics/dp-lis.md) | 4 | 0 | 3 | 0 | 0 | 0 | 7 |
 | [dp-probability](topics/dp-probability.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-state-machine](topics/dp-state-machine.md) | 5 | 0 | 2 | 0 | 0 | 0 | 7 |
@@ -653,7 +653,7 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 1 | 3 | 9 | 4 | 0 | 0 | 17 |
 | [two-pointers-other](topics/two-pointers-other.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 1 | 0 | 0 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 9 | 3 | 6 | 2 | 0 | 0 | 20 |
+| [two-pointers-same](topics/two-pointers-same.md) | 9 | 3 | 5 | 3 | 0 | 0 | 20 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 4 | 9 | 0 | 1 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 1 | 0 | 0 | 0 | 11 |

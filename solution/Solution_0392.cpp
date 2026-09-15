@@ -19,10 +19,10 @@ class Solution {
 public:
     bool isSubsequence(string s, string t) {
         if(s.empty()) return true;
-        auto it = s.begin();
+        int idx = 0;
         for(const char c : t) {
-            if(*it == c ) it++;
-            if(it == s.end()) return true;
+            if(c == s[idx]) idx++;
+            if(idx == s.size()) return true;
         }
         return false;
     }
