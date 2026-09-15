@@ -72,6 +72,7 @@
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](problems/3718.md) | O(N+M) | O(M) | 2026-09-15 |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | Hash Table Existence | [C++](problems/3731.md) | O(N+K) | O(K) | 2026-09-15 |
 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](problems/3843.md) | O(N) | O(N) | 2026-09-15 |
+| 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/3866.md) | O(N) | O(1) | 2026-09-15 |
 
 ---
 
