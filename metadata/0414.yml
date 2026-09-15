@@ -26,7 +26,13 @@ solutions:
 
     > else if(num > mx[2])<br>
 
-    > else if(num > mx[3])<br>'
+    > else if(num > mx[3])<br>
+
+    > **628[ Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)**<br>
+
+    > **628是Array Min Max With Repeat**<br>
+
+    > **此題是Array Min Max Without Repeat**<br>'
   attempts:
   - date: '2026-09-15'
     result: 對

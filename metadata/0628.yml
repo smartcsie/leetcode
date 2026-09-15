@@ -11,6 +11,11 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 練習過
+  note: '> **414[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)**<br>
+
+    > **414是Array Min Max Without Repeat**<br>
+
+    > **此題是Array Min Max With Repeat**<br>'
   related:
   - 414
   attempts:
