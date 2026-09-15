@@ -56,6 +56,14 @@
 
 ---
 
+## 👥 Pointers
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 344 | 👑 **Two Pointers Swap**<br>[Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0344.md) | O(N) | O(1) | 2026-09-15 |
+
+---
+
 ## 🌳 Tree
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
