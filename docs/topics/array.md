@@ -21,7 +21,7 @@
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array, Counting | [C++](../problems/2089.md) | O(N) | O(1) |
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | Array, Simulation, Brute Force | [C++](../problems/3477.md) | O(N^2) | O(1) |
 
-## 🟡 練習過（16）
+## 🟡 練習過（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -30,7 +30,6 @@
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | Array | [C++](../problems/1470.md) | O(N) | O(N) |
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 Easy | Array, Sorting, Math | [C++](../problems/1491.md) | O(N) | O(1) |
 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 Easy | Array, Brute Force | [C++](../problems/1534.md) | O(N³) | O(1) |
-| 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 Easy | Array | [C++](../problems/1550.md) | O(N) | O(1) |
 | 1844 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | 🟢 Easy | In-place Manipulation | [C++](../problems/1844.md) | O(N) | O(1) |
 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 Easy | Array, Brute Force | [C++](../problems/1995.md) | O(N⁴) | O(1) |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | Array, Sorting | [C++](../problems/2148.md) | O(N) | O(1) |

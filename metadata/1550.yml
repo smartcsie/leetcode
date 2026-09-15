@@ -5,12 +5,14 @@ solutions:
 - file: Solution_1550.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Array Linear Scan
   topics:
-  - array
+  - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: "> [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)\
-    \ <br>\n>  **if (num & 1) { count++; if (count == 3) return true; }** <br> \n\
-    >  **else { count = 0;}** <br>"
+  familiarity: 熟練
+  mastered_date: '2026-09-15'
+  attempts:
+  - date: '2026-09-15'
+    result: 對
+    reason: null

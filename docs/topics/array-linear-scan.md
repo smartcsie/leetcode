@@ -35,12 +35,13 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（7）
+## 🟢 熟悉（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](../problems/0674.md) | O(N) | O(1) |
 | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](../problems/1437.md) | O(N) | O(1) |
+| 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 Easy | Array Linear Scan | [C++](../problems/1550.md) | O(N) | O(1) |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array Linear Scan, Math | [C++](../problems/1822.md) | O(N) | O(1) |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 Easy | Array Linear Scan | [C++](../problems/2057.md) | O(N) | O(1) |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array Linear Scan | [C++](../problems/2239.md) | O(N) | O(1) |
