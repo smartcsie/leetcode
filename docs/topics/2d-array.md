@@ -22,7 +22,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | Array, Matrix | [C++](../problems/0073.md) | O(M\*N) | O(1) |  |
-| 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 Easy | Array, Matrix | [C++](../problems/2319.md) | O(N²) | O(1) |  |
+| 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](../problems/2319.md) | O(N²) | O(1) | 2026-09-16 |
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | Array, Simulation | [C++](../problems/3142.md) | O(M\*N) | O(1) |  |
 
 ## 🟣 易忘（0）
