@@ -13,12 +13,17 @@ solutions:
   space: O(N+M)
   familiarity: 熟練
   mastered_date: '2026-09-16'
-  note: '>**記得最後判斷條件return cIdx == pattern.size();**<br>'
+  note: '>**s比較長判斷，if(idx >= pattern.size()) return false;**<br>
+
+    >**pattern比較長判斷，最後判斷條件return idx == pattern.size();**<br>'
   related:
   - 205
   tricks:
   - strings isomorphic
   attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
   - date: '2026-09-16'
     result: 對
     reason: null
