@@ -15,20 +15,19 @@ class Solution {
 public:
     bool wordPattern(string pattern, string s) {
         istringstream iss(s);
-        unordered_map<char, string> c2s;
-        unordered_map<string, char> s2c;
+        unordered_map<int, string> c2w;
+        unordered_map<string, int> w2c;
         string w;
-        int cIdx = 0;
+        int idx = 0;
         while(iss >> w) {
-            char c = pattern[cIdx];
-            if(c2s.count(c) == 0 && s2c.count(w) == 0) {
-                c2s[c] = w;
-                s2c[w] = c;
-            }
-            
-            if(c2s.count(c) || s2c.count(w)) if(c2s[c] != w || s2c[w] != c) return false;
-            cIdx++;
+            if(idx >= pattern.size()) return false;
+            char c = pattern[idx];
+            if(c2w.contains(c) && c2w[c] != w) return false;
+            else c2w[c] = w;
+            if(w2c.contains(w) && w2c[w] != c) return false;
+            else w2c[w] = c;
+            idx++;
         }
-        return cIdx == pattern.size();
+        return idx == pattern.size();
     }
 };

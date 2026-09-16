@@ -11,7 +11,14 @@ solutions:
   - hash-table-mapping
   time: O(N+M)
   space: O(N+M)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
   note: '>**記得最後判斷條件return cIdx == pattern.size();**<br>'
   related:
   - 205
+  tricks:
+  - strings isomorphic
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
