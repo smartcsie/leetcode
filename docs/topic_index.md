@@ -45,19 +45,19 @@
 | 414 | 👑 **Array Min Max Without Repeat**<br>[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array Min Max | [C++](problems/0414.md) | O(N) | O(1) | 2026-09-15 |
 | 628 | 👑 **Array Min Max With Repeat**<br>[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array Min Max | [C++](problems/0628.md) | O(N) | O(1) | 2026-09-15 |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](problems/0674.md) | O(N) | O(1) | 2026-09-15 |
-| 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/1437.md) | O(N) | O(1) | 2026-09-15 |
+| 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/1437.md) | O(N) | O(1) | 2026-09-16 |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 Easy | Array Min Max, Greedy, Simulation | [C++](problems/1464.md) | O(N) | O(1) | 2026-09-15 |
 | 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 Easy | Array Linear Scan | [C++](problems/1550.md) | O(N) | O(1) | 2026-09-15 |
-| 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array Linear Scan, Math | [C++](problems/1822.md) | O(N) | O(1) | 2026-09-15 |
+| 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array Linear Scan, Math | [C++](problems/1822.md) | O(N) | O(1) | 2026-09-16 |
 | 1929 | 👑 **vector insert**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) | 2026-09-15 |
 | 1929 | 👑 **vector resize**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) | 2026-09-15 |
-| 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 Easy | Array Linear Scan | [C++](problems/2057.md) | O(N) | O(1) | 2026-09-15 |
+| 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 Easy | Array Linear Scan | [C++](problems/2057.md) | O(N) | O(1) | 2026-09-16 |
 | 2089 | 👑 **vector iota**<br>[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array Linear Scan, Counting | [C++](problems/2089.md) | O(N) | O(1) | 2026-09-15 |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array Linear Scan | [C++](problems/2239.md) | O(N) | O(1) | 2026-09-14 |
-| 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 Easy | Array Linear Scan, Matrix, Linear Scan | [C++](problems/2643.md) | O(M\*N) | O(1) | 2026-09-15 |
+| 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 Easy | Array Linear Scan, Matrix, Linear Scan | [C++](problems/2643.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 3512 | 👑 **Accumulate Sum**<br>[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Array Linear Scan | [C++](problems/3512.md) | O(N) | O(1) | 2026-09-13 |
-| 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/3925.md) | O(N) | O(N) | 2026-09-15 |
-| 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan | [C++](problems/3925.md) | O(N) | O(N) | 2026-09-15 |
+| 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/3925.md) | O(N) | O(N) | 2026-09-16 |
+| 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan | [C++](problems/3925.md) | O(N) | O(N) | 2026-09-16 |
 
 ---
 
@@ -76,13 +76,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 👑 **Unordered Map**<br>[Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table Existence | [C++](problems/0001.md) | O(N) | O(N) | 2026-09-15 |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](problems/0771.md) | O(J+S) | O(J) | 2026-09-15 |
-| 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/1748.md) | O(N) | O(N) | 2026-09-15 |
+| 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/1748.md) | O(N) | O(N) | 2026-09-16 |
+| 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Counting | [C++](problems/1941.md) | O(N) | O(1) | 2026-09-16 |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/2053.md) | O(N) | O(N) | 2026-09-15 |
 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table Existence, Hash Table, Counting | [C++](problems/2150.md) | O(N) | O(N) | 2026-09-15 |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 Easy | Hash Table Counting, Hash Map, Counting | [C++](problems/2283.md) | O(N) | O(1) | 2026-09-15 |
 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](problems/2342.md) | O(N\*logM) | O(N) | 2026-09-15 |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](problems/2351.md) | O(N) | O(1) | 2026-09-15 |
-| 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2357.md) | O(N) | O(N) | 2026-09-15 |
+| 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2357.md) | O(N) | O(N) | 2026-09-16 |
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](problems/2395.md) | O(N) | O(N) | 2026-09-16 |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/2404.md) | O(N) | O(N) | 2026-09-15 |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table Existence, Hash Table, Two Pointers | [C++](problems/2441.md) | O(N) | O(N) | 2026-09-15 |

@@ -14,7 +14,12 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-15'
   is_best: true
+  tricks:
+  - vector scan
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-09-16'
     result: 對
     reason: null

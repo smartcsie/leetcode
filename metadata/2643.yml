@@ -16,7 +16,11 @@ solutions:
   mastered_date: '2026-09-15'
   tricks:
   - accumulate
+  - int count
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-09-16'
     result: 對
     reason: null

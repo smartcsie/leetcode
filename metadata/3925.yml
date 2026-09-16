@@ -16,9 +16,12 @@ solutions:
   related:
   - 1929
   tricks:
-  - resize
+  - vector resize
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-09-16'
     result: 對
     reason: null
 - file: Solution_3925_1.cpp
@@ -35,5 +38,8 @@ solutions:
   - iterator
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-09-16'
     result: 對
     reason: null
