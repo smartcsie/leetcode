@@ -19,6 +19,7 @@
 | 1979 | 👑 **GCD**<br>[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | Math Gcd, GCD | [C++](problems/1979.md) | O(N) | O(1) | 2026-09-14 |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | Math, Array | [C++](problems/2455.md) | O(N) | O(1) | 2026-09-16 |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](problems/2469.md) | O(1) | O(1) | 2026-09-16 |
+| 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](problems/2535.md) | O(N\*logM) | O(1) | 2026-09-16 |
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/2544.md) | O(logN) | O(logN) | 2026-09-14 |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 Easy | Math, Brute Force | [C++](problems/2652.md) | O(N) | O(1) | 2026-09-16 |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | Math Digit Decomposition, String | [C++](problems/3340.md) | O(N) | O(1) | 2026-09-14 |

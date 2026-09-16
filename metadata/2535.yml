@@ -5,10 +5,15 @@ solutions:
 - file: Solution_2535.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Math Digit Decomposition
   - Math
   topics:
   - math-digit-decomposition
   time: O(N*logM)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
