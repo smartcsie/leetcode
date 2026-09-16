@@ -75,6 +75,8 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 👑 **Unordered Map**<br>[Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table Existence | [C++](problems/0001.md) | O(N) | O(N) | 2026-09-15 |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](problems/0049.md) | O(N\*K) | O(N\*K) | 2026-09-16 |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Mapping | [C++](problems/0049.md) | O(N\*logK) | O(N\*K) | 2026-09-16 |
 | 205 | 👑 **Strings Isomorphic**<br>[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 Easy | Hash Table Mapping, Hash Table | [C++](problems/0205.md) | O(N) | O(1) | 2026-09-16 |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | Hash Table Mapping, Hash Table | [C++](problems/0290.md) | O(N+M) | O(N+M) | 2026-09-16 |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](problems/0771.md) | O(J+S) | O(J) | 2026-09-15 |

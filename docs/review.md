@@ -1,6 +1,6 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（223）](#review-shengshu)　[🟣 易忘清單（115）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（223）](#review-shengshu)　[🟣 易忘清單（116）](#review-yiwang)
 
 ## 📊 總覽
 
@@ -328,9 +328,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 115 個解法標記為易忘，建議面試前重點複習。
+目前共有 116 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（17）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（9）](#yiwang-array)　[🌳 Tree（21）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（4）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（2）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
+📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（23）](#yiwang-math)　[📊 Bit Manipulation（17）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（9）](#yiwang-array)　[🌳 Tree（21）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（4）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（3）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（3）
@@ -485,10 +485,11 @@
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/3940.md) | O(N) | O(1) |  |
 
 <a id="yiwang-hash-table"></a>
-#### 🔑 Hash Table（2）
+#### 🔑 Hash Table（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](problems/0049.md) | O(N\*K) | O(N\*K) | 2026-09-16 |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](problems/0202.md) | O(logN) | O(1) |  |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2357.md) | O(N) | O(N) | 2026-09-16 |
 
