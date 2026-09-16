@@ -5,12 +5,21 @@ solutions:
 - file: Solution_1886.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - 2d Array
   topics:
   - 2d-array
   time: O(N²)
   space: O(1)
-  familiarity: 練習過
-  note: '> [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)<br>
-
-    > 0048 Rotate Image的延伸，比對target matrix，rotate 比對4次<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
+  note: '> 0048 Rotate Image的延伸，比對target matrix，rotate 比對4次<br>'
+  related:
+  - 48
+  - 867
+  tricks:
+  - matrix rotate
+  - matrix transpose
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
