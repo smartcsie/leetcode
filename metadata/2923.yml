@@ -5,11 +5,26 @@ solutions:
 - file: Solution_2923.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - 2d Array
   - Math
   topics:
   - 2d-array
   time: O(N²)
   space: O(1)
-  familiarity: 再練習
-  note: '> 贏家的隊伍一定是贏(n-1)次'
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
+  note: '> **贏家的隊伍一定是贏(n-1)次**<br>'
+  tricks:
+  - vectro count
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-09-16'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Vectro Count
