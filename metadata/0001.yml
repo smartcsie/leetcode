@@ -13,6 +13,8 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-15'
   is_best: true
+  tricks:
+  - unordered_map existence
   attempts:
   - date: '2026-09-15'
     result: 對
