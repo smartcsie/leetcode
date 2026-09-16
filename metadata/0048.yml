@@ -18,7 +18,15 @@ solutions:
   related:
   - 867
   - 1886
+  tricks:
+  - matrix rotate
+  - matrix transpose
   attempts:
   - date: '2026-09-16'
     result: 對
     reason: null
+  - date: '2026-09-16'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Matrix Rotate

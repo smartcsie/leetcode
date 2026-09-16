@@ -14,7 +14,14 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-16'
   note: '> **Size mxn，New 一個 Vector nxm**<br>'
+  tricks:
+  - matrix transpose
   attempts:
   - date: '2026-09-16'
     result: 對
     reason: null
+  - date: '2026-09-16'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Matrix Transpose
