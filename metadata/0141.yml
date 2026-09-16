@@ -11,9 +11,14 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
   related:
   - 876
   tricks:
   - list fast slow pointer
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
   is_representative: true
