@@ -19,22 +19,16 @@
 class Solution {
 public:
     vector<vector<int>> shiftGrid(vector<vector<int>>& grid, int k) {
-        int rows = grid.size();
-        int cols = grid[0].size();
-        int n = rows * cols;    
+        int r = grid.size();
+        int c = grid[0].size();
+        int n = r * c;
         k %= n;
-        vector<int> temp(k);
-        for(int i = 0; i < k; i++) {
-            int j = i + n - k;
-            temp[i] = grid[j / cols][j % cols];
+        if(k == 0) return grid; 
+        vector<vector<int>> ans(r, vector<int>(c));
+        for(int i = 0; i < n ; i++) {
+            int j = (i - k + n) % n;
+            ans[i / c][i % c] = grid[j / c][j % c]; 
         }
-        for(int i = n - k - 1; i >= 0; i--) {
-            int j = i + k;
-            grid[j / cols][j % cols] = grid[i / cols][i % cols];
-        }
-        for(int i = 0; i < k; i++) {
-            grid[i / cols][i % cols] = temp[i];
-        }
-        return grid;
+        return ans;
     }
 };
