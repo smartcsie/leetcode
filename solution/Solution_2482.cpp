@@ -24,26 +24,24 @@
 
 class Solution {
 public:
-    std::vector<std::vector<int>> onesMinusZeros(std::vector<std::vector<int>>& grid) {
+    vector<vector<int>> onesMinusZeros(vector<vector<int>>& grid) {
         int m = grid.size();
         int n = grid[0].size();
-        std::vector<std::vector<int>> ans(m, std::vector<int>(n, 0));
-        std::vector<int> rowSum(m, 0);
-        std::vector<int> colSum(n, 0);
-        // 步驟 1：預先計算每一行與每一列的淨分數（1 算 +1，0 算 -1）
-        for (int j = 0; j < n; j++) {
-            for (int i = 0; i < m; i++) {
-                int val = grid[i][j] ? 1 : -1;
-                rowSum[i] += val;
-                colSum[j] += val;
+        vector<int> rows(m, 0);
+        vector<int> cols(n, 0);
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j]) {
+                    rows[i]++;
+                    cols[j]++;
+                }
             }
         }
-        // 步驟 2：利用預先計算好的 rowSum 與 colSum 組合出結果矩陣
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                ans[i][j] = rowSum[i] + colSum[j];
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                grid[i][j] = 2 * rows[i] + 2 * cols[j] - n - m;
             }
         }
-        return ans;
+        return grid;
     }
 };
