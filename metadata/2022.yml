@@ -5,13 +5,18 @@ solutions:
 - file: Solution_2022.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
-  - Matrix
-  - Simulation
+  - 2d Array
   topics:
   - 2d-array
   time: O(M*N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
   note: '>  **[注意]邊界條件 if(m * n != original.size()) return {};** <br>'
   is_best: true
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: 1D 2D transform

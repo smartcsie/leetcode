@@ -63,6 +63,7 @@
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | 2d Array | [C++](problems/1886.md) | O(N²) | O(1) | 2026-09-16 |
 | 1929 | 👑 **vector insert**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) | 2026-09-15 |
 | 1929 | 👑 **vector resize**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) | 2026-09-15 |
+| 2022 | 👑 **1D 2D transform**<br>[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | 2d Array | [C++](problems/2022.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 Easy | Array Linear Scan | [C++](problems/2057.md) | O(N) | O(1) | 2026-09-16 |
 | 2089 | 👑 **vector iota**<br>[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array Linear Scan, Counting | [C++](problems/2089.md) | O(N) | O(1) | 2026-09-15 |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array Linear Scan | [C++](problems/2239.md) | O(N) | O(1) | 2026-09-14 |
