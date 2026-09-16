@@ -83,6 +83,7 @@
 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](problems/2342.md) | O(N\*logM) | O(N) | 2026-09-15 |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](problems/2351.md) | O(N) | O(1) | 2026-09-15 |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2357.md) | O(N) | O(N) | 2026-09-15 |
+| 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](problems/2395.md) | O(N) | O(N) | 2026-09-16 |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/2404.md) | O(N) | O(N) | 2026-09-15 |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table Existence, Hash Table, Two Pointers | [C++](problems/2441.md) | O(N) | O(N) | 2026-09-15 |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 Easy | Hash Table Existence, Hashing | [C++](problems/2965.md) | O(N²) | O(N²) | 2026-09-15 |

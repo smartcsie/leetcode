@@ -11,8 +11,9 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
-  familiarity: 練習過
-  note: '> [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/)
-    <br>
-
-    > 從 index 1 開始，左右兩數的sum，unordered map存在，回傳false，不存在，則存入unordered map<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
