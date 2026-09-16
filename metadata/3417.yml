@@ -12,3 +12,7 @@ solutions:
   time: O(M*N)
   space: O(M*N)
   familiarity: 再練習
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
