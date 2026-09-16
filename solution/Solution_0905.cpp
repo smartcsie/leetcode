@@ -18,22 +18,12 @@
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& nums) {
-        int left = 0;
+        int left = 0; 
         int right = nums.size() - 1;
-        while (left < right) {
-            // 只要左邊是偶數，就繼續往右走 (偶數放前面是正確的)
-            while (left < right && nums[left] % 2 == 0) {
-                left++;
-            }
-            // 只要右邊是奇數，就繼續往左走 (奇數放後面是正確的)
-            while (left < right && nums[right] % 2 == 1) {
-                right--;
-            }
-            // 此時 left 停在一個奇數，right 停在一個偶數
-            if (left < right) {
-                swap(nums[left++], nums[right--]);
-                // 交換後，這兩個位置都已經正確，可以手動縮小範圍（可寫可不寫）
-            }
+        while(left < right) {
+            while(left < right && (nums[left] & 1) == 0) left++;
+            while(left < right && (nums[right] & 1) == 1) right--;
+            if(left < right) swap(nums[left++], nums[right--]);
         }
         return nums;
     }
