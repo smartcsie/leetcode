@@ -82,6 +82,7 @@
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](problems/0771.md) | O(J+S) | O(J) | 2026-09-15 |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/1394.md) | O(N) | O(1) | 2026-09-16 |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/1748.md) | O(N) | O(N) | 2026-09-16 |
+| 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/1897.md) | O(N\*M) | O(1) | 2026-09-16 |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Counting | [C++](problems/1941.md) | O(N) | O(1) | 2026-09-16 |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/2053.md) | O(N) | O(N) | 2026-09-15 |
 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table Existence, Hash Table, Counting | [C++](problems/2150.md) | O(N) | O(N) | 2026-09-15 |
