@@ -5,10 +5,15 @@ solutions:
 - file: Solution_1252.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - 2d Array
   - Math
   topics:
   - 2d-array
   time: O(K+MN)
   space: O(M+N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null

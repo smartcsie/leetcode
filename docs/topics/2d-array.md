@@ -17,12 +17,11 @@
 | 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | Array, Math | [C++](../problems/2923.md) | O(N²) | O(1) |  |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | 2d Array, Simulation | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) |  |
 
-## 🟡 練習過（4）
+## 🟡 練習過（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | Array, Matrix | [C++](../problems/0073.md) | O(M\*N) | O(1) |  |
-| 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 Easy | Array, Math | [C++](../problems/1252.md) | O(K+MN) | O(M+N) |  |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 Easy | Array, Matrix | [C++](../problems/2319.md) | O(N²) | O(1) |  |
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | Array, Simulation | [C++](../problems/3142.md) | O(M\*N) | O(1) |  |
 
@@ -30,12 +29,13 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | 2d Array | [C++](../problems/0048.md) | O(N²) | O(1) | 2026-09-16 |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 Easy | 2d Array, Two Pointers | [C++](../problems/0832.md) | O(N\*M) | O(1) | 2026-09-16 |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](../problems/0867.md) | O(M\*N) | O(M\*N) | 2026-09-16 |
+| 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 Easy | 2d Array, Math | [C++](../problems/1252.md) | O(K+MN) | O(M+N) | 2026-09-16 |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | 2d Array | [C++](../problems/1572.md) | O(N) | O(1) | 2026-09-16 |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | 2d Array | [C++](../problems/1886.md) | O(N²) | O(1) | 2026-09-16 |
