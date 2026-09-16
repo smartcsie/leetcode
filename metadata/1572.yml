@@ -6,10 +6,14 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - 2d Array
-  - Matrix
   topics:
   - 2d-array
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> 如果 i == (n-1-i) 則sum只加matrix[i][i] 否則sum加matrix[i][i]和matrix[i][n-1-i]，為了奇術矩陣去中重中間元素<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
+  note: '> **如果 i == (n-1-i) 則sum只加matrix[i][i] 否則sum加matrix[i][i]和matrix[i][n-1-i]，為了奇數矩陣去中重中間元素**<br>'
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
