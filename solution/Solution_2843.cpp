@@ -19,19 +19,13 @@ class Solution {
 public:
     int countSymmetricIntegers(int low, int high) {
         int count = 0;
-        for (int n = low; n <= high; n++) {
-            // 處理 2 位數
-            if (n >= 10 && n <= 99) {
-                if ((n / 10) == (n % 10)) count++;
-            } 
-            // 處理 4 位數
-            else if (n >= 1000 && n <= 9999) {
-                int left = n / 100;
-                int right = n % 100;
-                // 比較左右兩部分的總和
-                if ((left / 10 + left % 10) == (right / 10 + right % 10)) {
-                    count++;
-                }
+        for(int x = low; x <= high; x++) {
+            if(!(x >= 11 && x <=99)&& !(x >= 1000 && x <=9999)) continue;
+            else if(x >= 11 && x <= 99 && (x/10 == x % 10)) count++;
+            else if(x >= 1000 && x <=9999) {
+                int x1 = x / 100;
+                int x2 = x % 100;
+                if((x1/10 + x1 % 10) == (x2/10 + x2 % 10)) count++;
             }
         }
         return count;

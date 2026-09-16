@@ -23,7 +23,7 @@
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math Digit Decomposition, Digit Extraction | [C++](../problems/3726.md) | O(logN) | O(1) |  |
 | 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/3908.md) | O(logN) | O(1) |  |
 
-## 🟡 練習過（17）
+## 🟡 練習過（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -37,7 +37,6 @@
 | 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | Math Digit Decomposition, Greedy, Sorting | [C++](../problems/2160.md) | O(1) | O(1) |  |
 | 2520 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2520.md) | O(logN) | O(1) |  |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Array, Math | [C++](../problems/2553.md) | O(N\*log(max_VAL)) | O(N\*log(max_VAL)) |  |
-| 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math, Simulation | [C++](../problems/2843.md) | O(N\*D) | O(1) |  |
 | 3079 | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3079.md) | O(N\*D) | O(D) |  |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/3099.md) | O(logN) | O(1) |  |
 | 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/3300.md) | O(N\*logM) | O(1) |  |
@@ -52,13 +51,14 @@
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) |  |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) |  |
 
-## 🟢 熟悉（10）
+## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/1281.md) | O(logN) | O(1) | 2026-09-14 |
 | 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](../problems/2535.md) | O(N\*logM) | O(1) | 2026-09-16 |
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/2544.md) | O(logN) | O(logN) | 2026-09-14 |
+| 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/2843.md) | O(N\*D) | O(1) | 2026-09-16 |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | Math Digit Decomposition, String | [C++](../problems/3340.md) | O(N) | O(1) | 2026-09-14 |
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/3783.md) | O(log10(N)) | O(1) | 2026-09-14 |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](../problems/3895.md) | O(N×D) | O(1) | 2026-09-14 |

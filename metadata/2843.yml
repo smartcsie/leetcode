@@ -5,11 +5,16 @@ solutions:
 - file: Solution_2843.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - Simulation
   topics:
   - math-digit-decomposition
   time: O(N*D)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
   is_best: true
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
