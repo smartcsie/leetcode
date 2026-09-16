@@ -11,4 +11,9 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
