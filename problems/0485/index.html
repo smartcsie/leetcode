@@ -4986,7 +4986,11 @@
 
 <h1 id="485-max-consecutive-ones">485. Max Consecutive Ones<a class="headerlink" href="#485-max-consecutive-ones" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/max-consecutive-ones">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Array　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Array Continuous Counting　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練　👑 <strong>代表題（Linear Scan with Streak Reset）</strong></p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-09-16</strong> 對</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：485. Max Consecutive Ones (最大連續 1 的個數)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -5014,14 +5018,6 @@
 <a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="p">};</span>
 </code></pre></div>
-<blockquote>
-<p><a href="https://leetcode.com/problems/max-consecutive-ones">Max Consecutive Ones</a><br>
- travsal  nums ， num為1，count +1，否則為0，每次都更新ans值，ans為max<br>
- <strong>for(const int&amp; num : nums) {</strong> <br>
- &emsp;&emsp;&emsp;&emsp;<strong>count = (num &amp; 1) ? count + 1 : 0;</strong> <br>
- &emsp;&emsp;&emsp;&emsp;<strong>ans = max(ans, count);</strong> <br>
- <strong>}</strong> <br></p>
-</blockquote>
 
 
 
