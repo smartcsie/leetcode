@@ -5,10 +5,17 @@ solutions:
 - file: Solution_2639.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - 2d Array
   - Simulation
   topics:
   - 2d-array
   time: O(M*N*D)
   space: O(1)
   familiarity: 再練習
+  tricks:
+  - floor
+  - log10
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null

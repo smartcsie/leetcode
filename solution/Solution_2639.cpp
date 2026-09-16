@@ -15,28 +15,23 @@
  */
 
 class Solution {
-private: 
-    int getWidth(int num) {
-        int width = 0;
-        if(num == 0) return 1;
-        int val = abs(num);
-        while(val > 0) {
-            width++;
-            val /= 10;
-        }
-        return num < 0 ? (width + 1) : width; 
-    }
 public:
     vector<int> findColumnWidth(vector<vector<int>>& grid) {
-        int m = grid.size();
         int n = grid[0].size();
-        if(m == 0 && n == 0) return {};
-
         vector<int> ans(n, 0);
-        for(int i = 0 ; i < m; i++) {
-            for(int j = 0 ; j < n; j++) {
-                int width = getWidth(grid[i][j]);
-                ans[j] = max(ans[j], width);
+        for(vector<int>& row : grid) {
+            for(int i = 0; i < n; i++) {
+                int width = 0;
+                if(row[i] == 0) {
+                    width = 1;
+                } else {
+                    if(row[i] < 0) {
+                        row[i] *= -1;
+                        width++;
+                    } 
+                    width += floor(log10(row[i])) + 1;
+                }
+                ans[i] = max(ans[i], width);
             }
         }
         return ans;

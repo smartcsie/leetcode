@@ -12,7 +12,7 @@
 | 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 Easy | Array, Matrix | [C++](../problems/1582.md) | O(M\*N) | O(M+N) |  |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 Easy | Array, Simulation, Manhattan Distance | [C++](../problems/1779.md) | O(N) | O(1) |  |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 Medium | Prefix Sum, Matrix, Precomputation | [C++](../problems/2482.md) | O(M\*N) | O(M+N) |  |
-| 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 Easy | Array, Simulation | [C++](../problems/2639.md) | O(M\*N\*D) | O(1) |  |
+| 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 Easy | 2d Array, Simulation | [C++](../problems/2639.md) | O(M\*N\*D) | O(1) | 2026-09-16 |
 | 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | Array, Math | [C++](../problems/2923.md) | O(N²) | O(1) |  |
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | 2d Array, Simulation | [C++](../problems/3142.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | 2d Array, Simulation | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) |  |
