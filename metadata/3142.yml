@@ -5,10 +5,17 @@ solutions:
 - file: Solution_3142.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - 2d Array
   - Simulation
   topics:
   - 2d-array
   time: O(M*N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
+  note: '> **直接險檢查row之間是否相等**<br>
+
+    > **因為合法情況下row之間相等，所以檢查column只需要檢查row 0**<br>'
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null

@@ -4,7 +4,7 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（8）
+## 🟠 再練習（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15,15 +15,15 @@
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 Medium | Prefix Sum, Matrix, Precomputation | [C++](../problems/2482.md) | O(M\*N) | O(M+N) |  |
 | 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 Easy | Array, Simulation | [C++](../problems/2639.md) | O(M\*N\*D) | O(1) |  |
 | 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | Array, Math | [C++](../problems/2923.md) | O(N²) | O(1) |  |
+| 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | 2d Array, Simulation | [C++](../problems/3142.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | 2d Array, Simulation | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) |  |
 
-## 🟡 練習過（3）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | Array, Matrix | [C++](../problems/0073.md) | O(M\*N) | O(1) |  |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](../problems/2319.md) | O(N²) | O(1) | 2026-09-16 |
-| 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | Array, Simulation | [C++](../problems/3142.md) | O(M\*N) | O(1) |  |
 
 ## 🟣 易忘（0）
 
