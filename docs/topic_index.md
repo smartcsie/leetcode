@@ -146,6 +146,7 @@
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Two Pointers Swap, Hash Table | [C++](problems/2441.md) | O(N) | O(N) | 2026-09-16 |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/2540.md) | O(N+M) | O(1) | 2026-09-15 |
 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/3467.md) | O(N) | O(1) | 2026-09-16 |
+| 3992 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | 🟡 Medium | Two Pointers Swap, Two Pointers | [C++](problems/3992.md) | O(N) | O(1) | 2026-09-16 |
 
 ---
 

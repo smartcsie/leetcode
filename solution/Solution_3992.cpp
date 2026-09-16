@@ -18,20 +18,10 @@ public:
     std::string rearrangeString(std::string s, char x, char y) {
         int left = 0;
         int right = s.size() - 1;
-        while (left < right) {
-            // 從左邊尋找目標字元 x
-            while (left < right && s[left] != x) {
-                left++;
-            }
-            // 從右邊尋找目標字元 y
-            while (left < right && s[right] != y) {
-                right--;
-            }
-            
-            // 若找到一對，進行交換以打破序列
-            if (left < right) {
-                std::swap(s[left++], s[right--]);
-            }
+        while(left < right) {
+            while(left < right && s[left] != x) left++;
+            while(left < right && s[right] != y) right--;
+            if(left < right) swap(s[left++], s[right--]);
         }
         return s;
     }
