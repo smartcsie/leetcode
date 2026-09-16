@@ -5,27 +5,16 @@ solutions:
 - file: Solution_1446.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Array Continuous Counting
   topics:
   - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)<br>
-
-    >  travsal s，s[i] == s[i - 1]，count +1，否則為1，每次都更新ans值，ans為max<br>
-
-    >  注意與 [485 Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)的差異是本題count初始值為1<br>
-
-    >  **for(int i = 1; i < s.size(); i++) {** <br>
-
-    >  &emsp;&emsp;&emsp;&emsp;**count = (s[i] == s[i - 1]) ? count + 1 : 1;** <br>
-
-    >  &emsp;&emsp;&emsp;&emsp;**ans = max(ans, count);** <br>
-
-    >  **}** <br>
-
-
-
-
-    <br><br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
+  tricks:
+  - Linear Scan with Streak Reset
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null

@@ -14,14 +14,13 @@
 class Solution {
 public:
     int maxPower(string s) {
-        if(s.size() == 1) return 1;
-        int maxLen = 1;
-        int localLen = 1;
-        for(int i = 1; i < s.size(); i++) {
-            if(s[i] == s[i - 1])  localLen++;
-            else localLen = 1;
-            maxLen = std::max(maxLen, localLen);
+        int count = 1;
+        int mx = 0;
+        for(int i = 0; i < s.size(); i++) {
+            if(i == 0 || s[i] != s[i - 1]) count = 1;
+            else count++;
+            mx = max(mx, count);
         }
-        return maxLen;
+        return mx;
     }
 };
