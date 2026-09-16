@@ -5,12 +5,16 @@ solutions:
 - file: Solution_0867.cpp
   difficulty: 🟢 Easy
   tags:
+  - 2d Array
   - Matrix
   topics:
   - 2d-array
   time: O(M*N)
   space: O(M*N)
-  familiarity: 練習過
-  note: '> [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)<br>
-
-    > Size mxn，New 一個 Vector nxm<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
+  note: '> **Size mxn，New 一個 Vector nxm**<br>'
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
