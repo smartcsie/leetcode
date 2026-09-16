@@ -22,7 +22,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | Array, Matrix | [C++](../problems/0073.md) | O(M\*N) | O(1) |  |
-| 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0832.md) | O(N\*M) | O(1) |  |
+| 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 Easy | 2d Array, Two Pointers | [C++](../problems/0832.md) | O(N\*M) | O(1) | 2026-09-16 |
 | 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 Easy | Array, Math | [C++](../problems/1252.md) | O(K+MN) | O(M+N) |  |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | Array | [C++](../problems/1886.md) | O(N²) | O(1) |  |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 Easy | Array, Matrix | [C++](../problems/2319.md) | O(N²) | O(1) |  |

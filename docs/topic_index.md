@@ -52,6 +52,7 @@
 | 414 | 👑 **Array Min Max Without Repeat**<br>[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array Min Max | [C++](problems/0414.md) | O(N) | O(1) | 2026-09-15 |
 | 628 | 👑 **Array Min Max With Repeat**<br>[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array Min Max | [C++](problems/0628.md) | O(N) | O(1) | 2026-09-15 |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](problems/0674.md) | O(N) | O(1) | 2026-09-15 |
+| 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 Easy | 2d Array, Two Pointers | [C++](problems/0832.md) | O(N\*M) | O(1) | 2026-09-16 |
 | 867 | 👑 **Matrix Transpose**<br>[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](problems/0867.md) | O(M\*N) | O(M\*N) | 2026-09-16 |
 | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/1437.md) | O(N) | O(1) | 2026-09-16 |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 Easy | Array Min Max, Greedy, Simulation | [C++](problems/1464.md) | O(N) | O(1) | 2026-09-15 |

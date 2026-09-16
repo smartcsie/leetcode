@@ -5,7 +5,7 @@ solutions:
 - file: Solution_0832.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - 2d Array
   - Two Pointers
   topics:
   - 2d-array
@@ -13,3 +13,7 @@ solutions:
   space: O(1)
   familiarity: 練習過
   is_best: true
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
