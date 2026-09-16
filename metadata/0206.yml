@@ -10,7 +10,8 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-16'
   note: '> **精神是靠prev和cur兩個pointer，一直把cur->next指標轉成往前指到prev**<br>
 
     > **ListNode* next = cur->next;，先暫存cur 的下一個node**<br>
@@ -22,3 +23,7 @@ solutions:
     > **cur = next;，**<br>'
   tricks:
   - list reverse
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
