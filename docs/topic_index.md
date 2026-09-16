@@ -110,6 +110,7 @@
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](problems/0771.md) | O(J+S) | O(J) | 2026-09-15 |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/1394.md) | O(N) | O(1) | 2026-09-16 |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/1748.md) | O(N) | O(N) | 2026-09-16 |
+| 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 Easy | Hash Table Uniqueness, Simulation | [C++](problems/1790.md) | O(N) | O(1) | 2026-09-16 |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/1897.md) | O(N\*M) | O(1) | 2026-09-16 |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Counting | [C++](problems/1941.md) | O(N) | O(1) | 2026-09-16 |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/2053.md) | O(N) | O(N) | 2026-09-15 |
@@ -120,7 +121,7 @@
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2357.md) | O(N) | O(N) | 2026-09-16 |
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](problems/2395.md) | O(N) | O(N) | 2026-09-16 |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/2404.md) | O(N) | O(N) | 2026-09-15 |
-| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table Existence, Hash Table, Two Pointers | [C++](problems/2441.md) | O(N) | O(N) | 2026-09-15 |
+| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table Existence, Hash Table, Two Pointers | [C++](problems/2441.md) | O(N) | O(N) | 2026-09-16 |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 Easy | Hash Table Existence, Hashing | [C++](problems/2965.md) | O(N²) | O(N²) | 2026-09-15 |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/3005.md) | O(N) | O(1) | 2026-09-15 |
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | Hash Table Counting, Hash Table, Frequency Counting | [C++](problems/3541.md) | O(N) | O(1) | 2026-09-15 |
@@ -141,6 +142,8 @@
 | 392 | 👑 **Two Pointers Same**<br>[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/0392.md) | O(N) | O(1) | 2026-09-15 |
 | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0905.md) | O(N) | O(1) | 2026-09-16 |
 | 917 | 👑 **Two Pointers Swap**<br>[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0917.md) | O(N) | O(1) | 2026-09-16 |
+| 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 Easy | Two Pointers Swap | [C++](problems/1790.md) | O(N) | O(1) | 2026-09-16 |
+| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Two Pointers Swap, Hash Table | [C++](problems/2441.md) | O(N) | O(N) | 2026-09-16 |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/2540.md) | O(N+M) | O(1) | 2026-09-15 |
 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/3467.md) | O(N) | O(1) | 2026-09-16 |
 

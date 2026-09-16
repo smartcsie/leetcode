@@ -23,14 +23,20 @@ solutions:
   - date: '2026-09-15'
     result: 對
     reason: null
+  - date: '2026-09-16'
+    result: 對
+    reason: null
 - file: Solution_2441_1.cpp
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Swap
   - Hash Table
-  - Two Pointers
   topics:
   - two-pointers-swap
   time: O(N)
   space: O(N)
   familiarity: 練習過
+  attempts:
+  - date: '2026-09-16'
+    result: 對
+    reason: null
