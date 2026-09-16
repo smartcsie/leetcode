@@ -139,6 +139,7 @@
 | 344 | 👑 **Two Pointers Swap**<br>[Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0344.md) | O(N) | O(1) | 2026-09-15 |
 | 392 | 👑 **Two Pointers Same**<br>[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/0392.md) | O(N) | O(1) | 2026-09-15 |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/2540.md) | O(N+M) | O(1) | 2026-09-15 |
+| 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/3467.md) | O(N) | O(1) | 2026-09-16 |
 
 ---
 
