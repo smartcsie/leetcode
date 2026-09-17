@@ -20,7 +20,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](../problems/0476.md) | O(logN) | O(1) |  |
+| 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](../problems/0476.md) | O(logN) | O(1) | 2026-09-17 |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Sliding Window | [C++](../problems/1016.md) | O(N\*LEN) | O(1) |  |
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Bit Manipulation, Bit Manipulation | [C++](../problems/1680.md) | O(N) | O(1) |  |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Array, Bit Manipulation, Hash Table | [C++](../problems/1684.md) | O(N\*M) | O(1) |  |
