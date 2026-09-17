@@ -19,23 +19,11 @@
 class Solution {
 public:
     bool isCovered(std::vector<std::vector<int>>& ranges, int left, int right) {
-        // 宣告一個 51 個 bit 的 bitset (對應 0~50 的數值範圍)
-        std::bitset<51> bits;
-        
-        // 1. 將所有 ranges 涵蓋的數值在 bitset 中標記為 1
-        for (const std::vector<int>& range : ranges) {
-            for (int i = range[0]; i <= range[1]; i++) {
-                bits.set(i);
-            }
+        bitset<51> seen;
+        for(const vector<int>& range : ranges) {
+            for(int i = range[0]; i <= range[1]; i++) seen.set(i);
         }
-        
-        // 2. 檢查目標區間 [left, right] 是否每一個 bit 都被設為 1
-        for (int i = left; i <= right; i++) {
-            if (!bits.test(i)) {
-                return false;
-            }
-        }
-        
+        for(int i = left; i <= right; i++) if(!seen.test(i)) return false;
         return true;
     }
 };
