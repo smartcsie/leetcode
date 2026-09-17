@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](../problems/3969.md) | O(N²) | O(1) |  |
 
-## 🟠 再練習（8）
+## 🟠 再練習（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15,15 +15,15 @@
 | 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | Array, Two-Pass Scan | [C++](../problems/0821.md) | O(N) | O(1) |  |
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | Array | [C++](../problems/0896.md) | O(N) | O(1) |  |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | Array | [C++](../problems/1299.md) | O(N) | O(1) |  |
+| 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 Easy | Array, Math | [C++](../problems/1304.md) | O(N) | O(1) | 2026-09-17 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | Array, String | [C++](../problems/1662.md) | O(N+M) | O(1) |  |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](../problems/1752.md) | O(N) | O(1) |  |
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | Array, Simulation, Brute Force | [C++](../problems/3477.md) | O(N^2) | O(1) |  |
 
-## 🟡 練習過（14）
+## 🟡 練習過（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 Easy | Array, Math | [C++](../problems/1304.md) | O(N) | O(1) |  |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 Easy | Array, Simulation | [C++](../problems/1389.md) | O(N²) | O(N) |  |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | Array | [C++](../problems/1470.md) | O(N) | O(N) |  |
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 Easy | Array, Sorting, Math | [C++](../problems/1491.md) | O(N) | O(1) |  |

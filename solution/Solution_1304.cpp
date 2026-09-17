@@ -14,13 +14,10 @@
 class Solution {
 public:
     vector<int> sumZero(int n) {
-        vector<int> ans;
-        ans.reserve(n)
-        for(int i = 1 ; i <= n/2 ; i++) {
-            ans.push_back(i);
-            ans.push_back(-i);
-        }
-        if(n & 1) ans.push_back(0);
+        if(n == 1) return {0};
+        vector<int> ans(n - 1);
+        iota(ans.begin(), ans.end(), 1);
+        ans.push_back(-(n * (n - 1) / 2));
         return ans;
     }
 };

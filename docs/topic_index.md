@@ -74,6 +74,7 @@
 | 867 | 👑 **Matrix Transpose**<br>[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](problems/0867.md) | O(M\*N) | O(M\*N) | 2026-09-16 |
 | 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 Easy | 2d Array, Math | [C++](problems/1252.md) | O(K+MN) | O(M+N) | 2026-09-16 |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 Easy | 2d Array, Simulation | [C++](problems/1260.md) | O(M\*N) | O(K) | 2026-09-16 |
+| 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 Easy | Array, Math | [C++](problems/1304.md) | O(N) | O(1) | 2026-09-17 |
 | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/1437.md) | O(N) | O(1) | 2026-09-16 |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | Array Continuous Counting | [C++](problems/1446.md) | O(N) | O(1) | 2026-09-16 |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 Easy | Array Min Max, Greedy, Simulation | [C++](problems/1464.md) | O(N) | O(1) | 2026-09-15 |
