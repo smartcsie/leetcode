@@ -12,4 +12,51 @@ solutions:
   - bit-manipulation
   time: O(N²)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 再練習
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
+  - date: '2026-09-17'
+    result: 對
+    reason: null
+- file: Solution_2133_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array Negative Marking
+  topics:
+  - array-negative-marking
+  time: O(N²)
+  space: O(1)
+  familiarity: 易忘
+  is_best: true
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: "/**\n * 題目：2133. Check if Every Row and Column Contains All Numbers\n\
+      \ * 難度：簡單 (Easy)\n * 分類主題：array-negative-marking\n * 描述：給定一個 n×n 的矩陣 matrix，判斷是不是每一列、每一欄都恰好\n\
+      \ * 包含 1 到 n 這些數字各一次（也就是一個合法的「拉丁方格」）。\n *\n * 時間複雜度：O(N²)\n * 空間複雜度：O(1)（原地利用矩陣本身的正負號當標記，不用額外陣列）\n\
+      \ *\n * 解法思路：\n * （原地正負號標記，這題的核心技巧是：用矩陣自己的正負號，分兩階段\n * 分別當作「這一列出現過哪些數字」跟「這一欄出現過哪些數字」的標記\n\
+      \ * 表，不用額外配置 visited 陣列）：\n * 1. **第一階段：逐列檢查**。對第 i 列的每個位置 j，讀出目前的值\n *    `matrix[i][j]`，取絕對值減\
+      \ 1 當作索引 `idx`（因為題目數字是\n *    1~n，索引要 0-indexed）。這個 `idx` 代表「這個數字應該對應到\n * \
+      \   第 i 列的第 idx 個位置」。\n * 2. 檢查 `matrix[i][idx]` 是不是已經是負數——如果是，代表「值\n *    idx+1」在這一列已經出現過一次了（負號就是「看過」的標記），\n\
+      \ *    直接判定重複、回傳 false。\n * 3. 沒有重複的話，把 `matrix[i][idx]` 變成負數，標記「這個數字在\n * \
+      \   這一列已經登記過」。因為 `idx` 是從讀到的值算出來的，不是從\n *    `j` 直接算，所以標記的位置是「值本身對應的位置」，不是「目前\n\
+      \ *    掃到的位置」——這樣才能達到「每個值只能標記一次」的效果。\n * 4. 如果第 i 列真的是 1~n 的合法排列，掃完這一列後，這一列裡的\n\
+      \ *    n 個位置會**剛好全部被標記成負數一次**（因為每個值 1~n 都會\n *    被當作某個 idx 標記一次，且沒有重複）。\n *\
+      \ 5. **第二階段：逐欄檢查**，這時候整個矩陣已經因為第一階段而變成\n *    全部是負數（假設所有列都合法）。取絕對值還原出原始數值，用\n\
+      \ *    同樣的「標記」邏輯，但這次判斷式反過來：檢查\n *    `matrix[idx][i] > 0`（代表這個位置已經在本欄被「翻回正數」過，\n\
+      \ *    也就是這一欄裡這個數字重複出現），是的話回傳 false；否則把它\n *    翻成正數，標記「這個數字在這一欄已經登記過」。\n *\
+      \ 6. **巧妙的地方**：第一階段結束時矩陣全部是負數，第二階段用\n *    「翻回正數」當標記，而不是「翻成負數」，這樣兩階段的標記動作\n\
+      \ *    才不會互相干擾、可以共用同一個矩陣、同一組正負號機制。\n * 7. 兩階段都沒有回傳 false，代表每一列、每一欄都是合法的 1~n\n\
+      \ *    排列，回傳 true。\n */\nclass Solution {\npublic:\n    bool checkValid(vector<vector<int>>&\
+      \ matrix) {\n        int n = matrix.size();\n        // Validate each row\n\
+      \        for (int i = 0; i < n; i++) {\n            for (int j = 0; j < n; j++)\
+      \ {\n                int idx = abs(matrix[i][j]) - 1;\n\n                if\
+      \ (matrix[i][idx] < 0)\n                    return false;\n\n              \
+      \  matrix[i][idx] *= -1;\n            }\n        }\n        // Validate each\
+      \ column\n        for (int i = 0; i < n; i++) {\n            for (int j = 0;\
+      \ j < n; j++) {\n                int idx = abs(matrix[j][i]) - 1;\n\n      \
+      \          if (matrix[idx][i] > 0)\n                    return false;\n\n  \
+      \              matrix[idx][i] *= -1;\n            }\n        }\n\n        return\
+      \ true;\n    }\n};"
