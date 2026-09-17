@@ -16,14 +16,14 @@ class Solution {
 public:
     string convertToBase7(int num) {
         if(num == 0) return "0";
+        int x = num;
         string ans;
-        int neg = (num < 0) ? 1 : 0;
-        while(num != 0) {
-            char c = neg ? -(num % 7) + '0' : (num % 7) + '0';
-            ans.push_back(c);
-            num /= 7;
+        if(x < 0) x = -x;
+        while(x > 0) {
+            ans.push_back((x % 7) + '0');
+            x /= 7;
         }
-        if(neg) ans.push_back('-');
+        if(num < 0) ans.push_back('-');
         reverse(ans.begin(), ans.end());
         return ans;
     }

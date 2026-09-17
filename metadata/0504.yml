@@ -5,7 +5,7 @@ solutions:
 - file: Solution_0504.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - String
   topics:
   - math-digit-decomposition
@@ -20,3 +20,7 @@ solutions:
   related:
   - 1017
   - 1837
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
