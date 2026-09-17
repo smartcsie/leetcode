@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](../problems/3969.md) | O(N²) | O(1) |  |
 
-## 🟠 再練習（9）
+## 🟠 再練習（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18,9 +18,10 @@
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 Easy | Array, Math | [C++](../problems/1304.md) | O(N) | O(1) | 2026-09-17 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | Array, String | [C++](../problems/1662.md) | O(N+M) | O(1) |  |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](../problems/1752.md) | O(N) | O(1) |  |
+| 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | Array, Circular Array | [C++](../problems/2855.md) | O(N) | O(1) | 2026-09-17 |
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | Array, Simulation, Brute Force | [C++](../problems/3477.md) | O(N^2) | O(1) |  |
 
-## 🟡 練習過（9）
+## 🟡 練習過（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -28,7 +29,6 @@
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | Array | [C++](../problems/1470.md) | O(N) | O(N) |  |
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 Easy | Array, Sorting, Math | [C++](../problems/1491.md) | O(N) | O(1) |  |
 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 Easy | Array, Brute Force | [C++](../problems/1534.md) | O(N³) | O(1) |  |
-| 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | Array, Circular Array | [C++](../problems/2855.md) | O(N) | O(1) |  |
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](../problems/3069.md) | O(N) | O(N) |  |
 | 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | Array, Brute Force | [C++](../problems/3162.md) | O(N\*M) | O(1) |  |
 | 3452 | [Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/) | 🟢 Easy | Array, Simulation | [C++](../problems/3452.md) | O(N) | O(1) |  |

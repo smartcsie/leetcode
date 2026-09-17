@@ -11,7 +11,7 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **int start = it - nums.begin();等價  int start = distance(nums.begin(),
     it);**<br>
 
@@ -31,3 +31,7 @@ solutions:
   - distance
   - rotate
   - min_element
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
