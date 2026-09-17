@@ -4986,7 +4986,12 @@
 
 <h1 id="3827-count-monobit-integers">3827. Count Monobit Integers<a class="headerlink" href="#3827-count-monobit-integers" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/count-monobit-integers/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-09-17</strong> 對</li>
+</ul>
+<p><strong>技巧:</strong> log2、bit_width</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：3827. Count Monobit Integers</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -5008,11 +5013,10 @@
 <a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/count-monobit-integers/">Count Monobit Integers</a><br>
-0-&gt;1，1-&gt;2，2-&gt;2，3-&gt;3...，6-&gt;3，7-&gt;4，<strong>等於算(n+1)的bit數目</strong><br>
-<strong>return bit_width(static_cast<uint32_t>(n + 1));</strong> <br></p>
+<p><strong>0-&gt;1，1-&gt;2，2-&gt;2，3-&gt;3...，6-&gt;3，7-&gt;4，</strong>等於算(n+1)的bit數目<strong><br>
+</strong>return bit_width(static_cast<uint32_t>(n + 1));<strong> <br>
+</strong>另解static_cast<int>(log2(n + 1)) + 1;**<br></p>
 </blockquote>
-<p><br><br></p>
 
 
 
