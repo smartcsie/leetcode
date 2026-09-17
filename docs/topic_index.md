@@ -96,6 +96,7 @@
 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 Easy | Array Linear Scan, Matrix, Linear Scan | [C++](problems/2643.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 2923 | 👑 **Vectro Count**<br>[Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | 2d Array, Math | [C++](problems/2923.md) | O(N²) | O(1) | 2026-09-16 |
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | 2d Array, Simulation | [C++](problems/3142.md) | O(M\*N) | O(1) | 2026-09-16 |
+| 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/3168.md) | O(N) | O(1) | 2026-09-17 |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | 2d Array, Simulation | [C++](problems/3417.md) | O(M\*N) | O(M\*N) | 2026-09-16 |
 | 3512 | 👑 **Accumulate Sum**<br>[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Array Linear Scan | [C++](problems/3512.md) | O(N) | O(1) | 2026-09-13 |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | Array Linear Scan, Math | [C++](problems/3701.md) | O(N) | O(1) | 2026-09-17 |
