@@ -13,17 +13,15 @@
 class Solution {
 public:
     vector<int> decimalRepresentation(int n) {
-        vector<int> res;
-        int base = 1;
+        vector<int> ans;
+        int multipler = 1;
         while(n > 0) {
-            int digit = n % 10;
-            if(digit != 0) {
-                res.push_back(digit * base);
-            }
-            n /= 10 ;
-            if(n > 0) base *= 10;
+            int d = n % 10;
+            if(d > 0) ans.push_back( d * multipler);
+            if(n >= 10) multipler *= 10;
+            n /= 10;
         }
-        reverse(res.begin(), res.end());
-        return res;
+        reverse(ans.begin(), ans.end());
+        return ans;
     }
 };
