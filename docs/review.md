@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：158 題　🟡 練習過：358 題　🟣 易忘：101 題　🟢 熟練：142 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：159 題　🟡 練習過：357 題　🟣 易忘：101 題　🟢 熟練：142 題　⚪ 未標記：0 題
 
 ---
 
@@ -563,8 +563,8 @@
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
 | [binary-search-tree](topics/binary-search-tree.md) | 0 | 1 | 14 | 0 | 1 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 1 | 2 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 0 | 10 | 8 | 6 | 11 | 0 | 35 |
-| [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 2 | 6 | 2 | 0 | 0 | 10 |
+| [bit-manipulation](topics/bit-manipulation.md) | 0 | 11 | 7 | 6 | 11 | 0 | 35 |
+| [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 3 | 5 | 2 | 0 | 0 | 10 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 1 | 2 | 0 | 0 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 4 | 1 | 2 | 0 | 7 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 5 | 7 | 3 | 2 | 0 | 17 |

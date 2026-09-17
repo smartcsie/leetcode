@@ -73,6 +73,9 @@
 | 2729 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/) | 🟢 Easy | Bit Manipulation, Math, Digit Manipulation | [C++](problems/2729.md) | O(logN) | O(1) | 2026-09-17 |
 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](problems/2956.md) | O(N+M) | O(1) | 2026-09-17 |
 | 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 Easy | Bit Manipulation | [C++](problems/3019.md) | O(N) | O(1) | 2026-09-17 |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](problems/3120.md) | O(N) | O(1) | 2026-09-17 |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation And | [C++](problems/3120.md) | O(N) | O(1) | 2026-09-17 |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](problems/3120.md) | O(N) | O(1) | 2026-09-17 |
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 Easy | Bit Manipulation, Math, String | [C++](problems/3274.md) | O(1) | O(1) | 2026-09-17 |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](problems/3827.md) | O(1) | O(1) | 2026-09-17 |
 
