@@ -17,16 +17,16 @@
 class Solution {
 public:
     std::vector<int> fairCandySwap(std::vector<int>& aliceSizes, std::vector<int>& bobSizes) {
-        vector<int>& aVec = aliceSizes;
-        vector<int>& bVec = bobSizes;
-        int sumA = 0, sumB = 0;
-        for(const int& x : aVec) sumA += x;
-        for(const int& x : bVec) sumB += x;
-        int diff = (sumB - sumA) / 2;
-        unordered_set bSet(bVec.begin(), bVec.end());
-        for(const int& x : aVec) {
-            if(bSet.count(x + diff)) return {x, x+ diff};
+        vector<int>& as = aliceSizes;
+        vector<int>& bs = bobSizes;
+        int asum = accumulate(as.begin(), as.end(), 0);
+        int bsum = accumulate(bs.begin(), bs.end(), 0);
+        int target = (asum - bsum) / 2;
+        unordered_set<int> aset(as.begin(), as.end());
+        for(const int& y : bs) {
+            int x = target + y;
+            if(aset.contains(x)) return {x, y};
         }
-        return {};
+        return {-1, -1};
     }
 };

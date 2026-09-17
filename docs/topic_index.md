@@ -122,6 +122,7 @@
 | 205 | 👑 **Strings Isomorphic**<br>[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 Easy | Hash Table Mapping, Hash Table | [C++](problems/0205.md) | O(N) | O(1) | 2026-09-16 |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | Hash Table Mapping, Hash Table | [C++](problems/0290.md) | O(N+M) | O(N+M) | 2026-09-16 |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](problems/0771.md) | O(J+S) | O(J) | 2026-09-15 |
+| 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Table Existence | [C++](problems/0888.md) | O(A+B) | O(B) | 2026-09-17 |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/1394.md) | O(N) | O(1) | 2026-09-16 |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/1748.md) | O(N) | O(N) | 2026-09-16 |
 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 Easy | Hash Table Uniqueness, Simulation | [C++](problems/1790.md) | O(N) | O(1) | 2026-09-16 |

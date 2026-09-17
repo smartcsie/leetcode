@@ -6,9 +6,15 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Existence
-  - Hash Set
   topics:
   - hash-table-existence
   time: O(A+B)
   space: O(B)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
+  tricks:
+  - accumulate
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
