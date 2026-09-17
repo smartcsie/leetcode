@@ -98,6 +98,7 @@
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | 2d Array, Simulation | [C++](problems/3142.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 Easy | 2d Array, Simulation | [C++](problems/3417.md) | O(M\*N) | O(M\*N) | 2026-09-16 |
 | 3512 | 👑 **Accumulate Sum**<br>[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Array Linear Scan | [C++](problems/3512.md) | O(N) | O(1) | 2026-09-13 |
+| 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 Easy | Array Linear Scan, Math | [C++](problems/3701.md) | O(N) | O(1) | 2026-09-17 |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/3925.md) | O(N) | O(N) | 2026-09-16 |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan | [C++](problems/3925.md) | O(N) | O(N) | 2026-09-16 |
 
