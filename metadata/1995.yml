@@ -11,8 +11,12 @@ solutions:
   - array
   time: O(N⁴)
   space: O(1)
-  familiarity: 練習過
-  note: '> [for loop]'
+  familiarity: 易忘
+  note: '> **有最佳解**<br>'
   related:
   - 1534
   - 3483
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null

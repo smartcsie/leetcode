@@ -1,11 +1,11 @@
 # 📝 複習清單（生疏／易忘）
 
-📌 **快速跳轉：** [🔴 生疏清單（223）](#review-shengshu)　[🟣 易忘清單（117）](#review-yiwang)
+📌 **快速跳轉：** [🔴 生疏清單（223）](#review-shengshu)　[🟣 易忘清單（118）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：154 題　🟡 練習過：379 題　🟣 易忘：99 題　🟢 熟練：127 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：154 題　🟡 練習過：378 題　🟣 易忘：100 題　🟢 熟練：127 題　⚪ 未標記：0 題
 
 ---
 
@@ -328,9 +328,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 117 個解法標記為易忘，建議面試前重點複習。
+目前共有 118 個解法標記為易忘，建議面試前重點複習。
 
-📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（24）](#yiwang-math)　[📊 Bit Manipulation（17）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（9）](#yiwang-array)　[🌳 Tree（21）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（4）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（3）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
+📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（24）](#yiwang-math)　[📊 Bit Manipulation（17）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（10）](#yiwang-array)　[🌳 Tree（21）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（4）](#yiwang-linked-list)　[👥 Pointers（9）](#yiwang-pointers)　[🔑 Hash Table（3）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（8）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（3）
@@ -408,7 +408,7 @@
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) |  |
 
 <a id="yiwang-array"></a>
-#### 🍱 Array（9）
+#### 🍱 Array（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -420,6 +420,7 @@
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0930.md) | O(N) | O(N) |  |
 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) |  |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) |  |
+| 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 Easy | Array, Brute Force | [C++](problems/1995.md) | O(N⁴) | O(1) | 2026-09-17 |
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |  |
 
 <a id="yiwang-tree"></a>
@@ -540,7 +541,7 @@
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 0 | 3 | 0 | 0 | 14 | 0 | 17 |
-| [array](topics/array.md) | 1 | 9 | 11 | 2 | 2 | 0 | 25 |
+| [array](topics/array.md) | 1 | 9 | 10 | 3 | 2 | 0 | 25 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 5 | 2 | 1 | 3 | 0 | 11 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
