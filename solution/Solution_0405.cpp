@@ -15,24 +15,17 @@
 
 class Solution {
 public:
-    std::string toHex(int num) {
+    string toHex(int num) {
         if (num == 0) return "0";
-        
-        // 轉為無號數以正確處理二補數及避免右移補 1
         unsigned int n = static_cast<unsigned int>(num);
-        
-        // 十六進位對照表
-        constexpr char hex[] = "0123456789abcdef";
-        std::string ans;
-        
-        while (n != 0) {
-            // 取最後 4 個 bits 作為 index
-            ans.push_back(hex[n & 0xf]);
+        string hex;
+        while(n != 0) {
+            int d = n & 15; 
+            char c = (d >= 10) ? d - 10 + 'a' : d + '0';
+            hex.push_back(c);
             n >>= 4;
         }
-        
-        // 因為是從低位取到高位，最後需要反轉
-        std::reverse(ans.begin(), ans.end());
-        return ans;
+        reverse(hex.begin(), hex.end());
+        return hex;
     }
 };
