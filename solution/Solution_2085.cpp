@@ -1,46 +1,40 @@
 /**
  * 題目：2085. Count Common Words With One Occurrence
  * 難度：簡單 (Easy)
- * 描述：計算在 words1 與 words2 中，皆「恰好出現一次」的單字數量。
+ * 分類主題：hash-table-counting
+ * 描述：給定兩個字串陣列 words1、words2，求有幾個字串同時滿足「在
+ * words1 裡恰好出現一次」且「在 words2 裡也恰好出現一次」。
  *
- * 時間複雜度：O(N+M)
- * 空間複雜度：O(N+M)
+ * 時間複雜度：O(N + M)，N、M 分別是 words1、words2 的長度
+ * 空間複雜度：O(N + M)
  *
  * 解法思路：
- * (位元遮罩法)：
- * 1. 使用 unordered_map<string, int> 記錄單字狀態：
- * - IN_W1 (1): 單字在 words1 出現過。
- * - IN_W2 (2): 單字在 words2 出現過。
- * - DUPLICATED (4): 單字在同一個陣列內重複出現 (或跨陣列累加後出現多次)。
- * 2. 遍歷兩個陣列，若單字再次出現，則使用 OR 運算將該單字的標記設為 DUPLICATED。
- * 3. 最後只需檢查 map 中滿足 mask == (IN_W1 | IN_W2) (即值為 3) 的單字個數。
+ * （雙欄位計數，用一個 hash map 同時追蹤同一個字串在兩個陣列裡各自
+ * 出現的次數，避免建兩份獨立的 map 再互相比對）：
+ * 1. `counts` 這個 map 的 value 是一個 `pair<int,int>`：`first` 記錄
+ *    這個字串在 `words1` 出現的次數，`second` 記錄在 `words2` 出現
+ *    的次數。
+ * 2. 先掃一遍 `words1`，每個字串的 `first` 累加 1；再掃一遍
+ *    `words2`，每個字串的 `second` 累加 1——因為用的是同一個 map，
+ *    兩邊的次數自然對齊到同一個字串的同一筆紀錄上，不用另外寫比對
+ *    邏輯。
+ * 3. 掃過整個 map，只要某個字串「兩邊都剛好出現一次」
+ *    （`first == 1 && second == 1`），就計數 +1。
+ * 4. 這個技巧的價值在於「一個 map 存兩份計數」取代「兩個 map 各自
+ *    計數、再走訪其中一個去查詢另一個」，省去一次額外的查找/比對
+ *    步驟，程式碼也更緊湊。
  */
-
 class Solution {
 public:
-    int countWords(std::vector<std::string>& words1, std::vector<std::string>& words2) {
-        // 使用位元來標記狀態
-        constexpr int IN_W1 = 1, IN_W2 = 2, DUPLICATED = 4;
-        std::unordered_map<std::string, int> map;
-        
-        // 處理 words1
-        for (const std::string& word : words1) {
-            if (!(map[word] & IN_W1)) map[word] |= IN_W1;
-            else map[word] |= DUPLICATED;
+    int countWords(vector<string>& words1, vector<string>& words2) {
+        unordered_map<string,pair<int , int>> counts;
+        for(const string& s : words1) counts[s].first++;
+        for(const string& s : words2) counts[s].second++;
+        int count = 0;
+        for(const auto& [s , p] : counts) {
+            if(p.first == 1 && p.second == 1) count++;
         }
-        
-        // 處理 words2
-        for (const std::string& word : words2) {
-            if (!(map[word] & IN_W2)) map[word] |= IN_W2;
-            else map[word] |= DUPLICATED;
-        }
-        
-        int ans = 0;
-        // 檢查最終狀態：必須剛好只在 w1 出現過一次，且剛好只在 w2 出現過一次
-        for (const auto& [s, mask] : map) {
-            if (mask == (IN_W1 | IN_W2)) ans++;
-        }
-        
-        return ans;
+        return count;
     }
 };
+
