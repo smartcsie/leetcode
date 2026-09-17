@@ -10,7 +10,8 @@ solutions:
   - bit-manipulation
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
   note: '> **[476 Number Complement](../problems/0476.md)和[1009 Complement of Base
     10 Integer](../problems/1009.md)**<br>
 
@@ -18,6 +19,9 @@ solutions:
   related:
   - 1009
   attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
   - date: '2026-09-17'
     result: 對
     reason: null
