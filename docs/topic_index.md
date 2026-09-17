@@ -18,6 +18,7 @@
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math Digit Decomposition, String | [C++](problems/0504.md) | O(log₇N) | O(1) | 2026-09-17 |
 | 1281 | 👑 **Digit Decomposition**<br>[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/1281.md) | O(logN) | O(1) | 2026-09-14 |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 Easy | Math Digit Decomposition, Simulation, Hash Table | [C++](problems/1742.md) | O(N\*D) | O(1) | 2026-09-16 |
+| 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](problems/1880.md) | O(N) | O(1) | 2026-09-17 |
 | 1979 | 👑 **GCD**<br>[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | Math Gcd, GCD | [C++](problems/1979.md) | O(N) | O(1) | 2026-09-14 |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | Math, Array | [C++](problems/2455.md) | O(N) | O(1) | 2026-09-16 |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](problems/2469.md) | O(1) | O(1) | 2026-09-16 |
