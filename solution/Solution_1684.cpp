@@ -15,18 +15,13 @@ class Solution {
 public:
     int countConsistentStrings(string allowed, vector<string>& words) {
         int mask = 0;
-        for(char c : allowed) {
-            mask |=  1 << (c - 'a');
-        }
-        int res = words.size();
+        for(const char& c : allowed) mask |= 1 << (c - 'a');
+        int count = 0;
         for(const string& word : words) {
-            for(char c : word) {
-                if(!(mask & 1 << (c - 'a'))) {
-                    res--;
-                    break;
-                }
-            }
+            int submask = 0;
+            for(const char& c : word) submask |= 1 << (c - 'a');
+            if((mask | submask) == mask) count++;
         }
-        return res;
+        return count;
     }
 };
