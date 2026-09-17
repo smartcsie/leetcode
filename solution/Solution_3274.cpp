@@ -21,9 +21,11 @@
  * 4. 比較兩個座標的顏色：
  *    - 分別計算兩個座標各自的顏色值（0 或 1），若相等即代表兩格顏色相同。
  */
+
 class Solution {
 public:
     bool checkTwoChessboards(string coordinate1, string coordinate2) {
-        return ((coordinate1[0] ^ coordinate1[1] ^ coordinate2[0] ^ coordinate2[1]) & 1) == 0;
+        return  ((coordinate1[0] + coordinate1[1]) & 1) == 
+                ((coordinate2[0] + coordinate2[1]) & 1);
     }
 };

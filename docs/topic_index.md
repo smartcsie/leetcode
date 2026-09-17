@@ -63,6 +63,7 @@
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Bit Manipulation Or, Bit Manipulation | [C++](problems/1684.md) | O(N\*M) | O(1) | 2026-09-17 |
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [C++](problems/2032.md) | O(N1+N2+N3) | O(1) | 2026-09-17 |
 | 2317 | 👑 **Accumulate OR**<br>[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation Or | [C++](problems/2317.md) | O(N) | O(1) | 2026-09-14 |
+| 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 Easy | Bit Manipulation, Math, String | [C++](problems/3274.md) | O(1) | O(1) | 2026-09-17 |
 
 ---
 
