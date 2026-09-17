@@ -5,13 +5,19 @@ solutions:
 - file: Solution_2733.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Quick Select
   - Math
   topics:
-  - array-linear-scan
+  - quick-select
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> if(nums.size() <= 2) return -1; <br>
-
-    > size 小於等於2 直接 return -1; <br>'
+  familiarity: 再練習
+  tricks:
+  - nth_element
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
+  - date: '2026-09-17'
+    result: 對
+    reason: null

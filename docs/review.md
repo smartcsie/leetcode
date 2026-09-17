@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：152 題　🟡 練習過：385 題　🟣 易忘：99 題　🟢 熟練：123 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：153 題　🟡 練習過：384 題　🟣 易忘：99 題　🟢 熟練：123 題　⚪ 未標記：0 題
 
 ---
 
@@ -545,7 +545,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 5 | 3 | 1 | 2 | 0 | 11 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 5 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 1 | 5 | 9 | 0 | 13 | 0 | 28 |
+| [array-linear-scan](topics/array-linear-scan.md) | 1 | 5 | 8 | 0 | 13 | 0 | 27 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 5 | 0 | 5 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 4 | 1 | 1 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 1 | 9 | 4 | 0 | 0 | 19 |
@@ -627,7 +627,7 @@
 | [monotonic-stack](topics/monotonic-stack.md) | 8 | 0 | 0 | 0 | 0 | 0 | 8 |
 | [priority-queue](topics/priority-queue.md) | 5 | 0 | 1 | 0 | 1 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
-| [quick-select](topics/quick-select.md) | 1 | 3 | 1 | 0 | 1 | 0 | 6 |
+| [quick-select](topics/quick-select.md) | 1 | 4 | 1 | 0 | 1 | 0 | 7 |
 | [sorting](topics/sorting.md) | 4 | 0 | 8 | 1 | 2 | 0 | 15 |
 | [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 1 | 0 | 3 | 0 | 0 | 0 | 4 |
