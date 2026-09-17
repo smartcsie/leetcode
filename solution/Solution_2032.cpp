@@ -13,14 +13,15 @@
 class Solution {
 public:
     vector<int> twoOutOfThree(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3) {
-        vector<int> counts(101, 0);
-        for(const int& num : nums1) counts[num] |= 1;
-        for(const int& num : nums2) counts[num] |= 2;
-        for(const int& num : nums3) counts[num] |= 4;
-        vector<int> res;
-        for(int i =1; i <= 100; i++) {
-            if(std::popcount(static_cast<unsigned int>(count[i])) >= 2) ans.push_back(i);
+        vector<int> count(101, 0);
+        for(const int& x : nums1) count[x] |= 1;
+        for(const int& x : nums2) count[x] |= 2;
+        for(const int& x : nums3) count[x] |= 4;
+        vector<int> ans;
+        ans.reserve(101);
+        for(int i = 1; i<= 100; i++) {
+            if(__builtin_popcount(count[i]) > 1) ans.push_back(i);
         }
-        return res;
+        return ans;
     }
 };

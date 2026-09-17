@@ -60,6 +60,7 @@
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0389.md) | O(N) | O(N) | 2026-09-17 |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](problems/0476.md) | O(logN) | O(1) | 2026-09-17 |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](problems/1009.md) | O(logN) | O(1) | 2026-09-17 |
+| 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [C++](problems/2032.md) | O(N1+N2+N3) | O(1) | 2026-09-17 |
 | 2317 | 👑 **Accumulate OR**<br>[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation Or | [C++](problems/2317.md) | O(N) | O(1) | 2026-09-14 |
 
 ---
