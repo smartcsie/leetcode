@@ -12,6 +12,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](problems/0168.md) | O(log26N) | O(1) | 2026-09-17 |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](problems/0171.md) | O(N) | O(1) | 2026-09-17 |
 | 231 | 👑 **Brian Kernighan**<br>[Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](problems/0231.md) | O(1) | O(1) | 2026-09-13 |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](problems/0263.md) | O(logN) | O(1) | 2026-09-14 |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](problems/0326.md) | O(log₃N) | O(1) | 2026-09-13 |

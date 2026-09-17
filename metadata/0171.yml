@@ -5,10 +5,17 @@ solutions:
 - file: Solution_0171.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - Base Conversion
   topics:
   - math-digit-decomposition
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
+  tricks:
+  - accumulate char
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
