@@ -5,11 +5,15 @@ solutions:
 - file: Solution_0168.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - Base Conversion
   topics:
   - math-digit-decomposition
   time: O(log26N)
   space: O(1)
   familiarity: 再練習
-  note: '> 記得 n--;'
+  note: '> **n--; // 先減 1，將 1-26 映射為 0-25**<br>'
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
