@@ -12,4 +12,9 @@ solutions:
   - math-digit-decomposition
   time: O(N²)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null

@@ -26,17 +26,14 @@
 class Solution {
 public:
     bool hasSameDigits(string s) {
-        int n = s.size();
-        vector<int> digits;
-        digits.reserve(n);
-        for(const char& c : s) digits.push_back(c - '0');
-        int digitSize = digits.size();
-        while(digitSize > 2) {
-            for(int i = 0; i < digits.size() - 1; i++) {
-                digits[i] = (digits[i] + digits[i + 1]) % 10;
+        string t = s;
+        while(t.size() > 2) {
+            string u;
+            for(int i = 0; i < t.size() -1; i++) {
+                u.push_back(((t[i] - '0') + (t[i + 1] - '0')) % 10 + '0');
             }
-            digitSize--;
+            t = u;
         }
-        return digits[0] == digits[1];
+        return t[0] == t[1];
     }
 };
