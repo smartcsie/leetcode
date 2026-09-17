@@ -15,3 +15,21 @@ solutions:
   note: '> 就是計算相異字元個數，用bitset<26> bits紀錄，最後回傳 bits.count()<br>'
   related:
   - 1832
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
+- file: Solution_2716_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null

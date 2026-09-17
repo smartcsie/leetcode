@@ -1,56 +1,3 @@
-# 2716. Minimize String Length
-
-[在 LeetCode 上查看](https://leetcode.com/problems/minimize-string-length/)
-
-## 解法：bit-manipulation
-
-**難度:** 🟢 Easy　**標籤:** Bit Manipulation, Hash Set　**時間:** O(N)　**空間:** O(1)　**熟悉度:** 🟡 練習過
-
-**📅 練習歷程:**
-
-- ✅ **2026-09-17** 對
-
-```cpp
-/**
- * 題目：2716. Minimize String Length (最小化字串長度)
- * 難度：簡單 (Easy)
- * 描述：透過選擇兩個索引 i 和 j，若 s[i] == s[j]，可移除其中一個。重複操作直到無法再移除。
- *
- * 時間複雜度：O(N)
- * 空間複雜度：O(1)
- *
- * 解法思路：
- * 1. 唯一性：題目本質是求「不同字元的數量」。
- * 2. Bit Manipulation：使用 bitset<26> 高效記錄出現過的字元，並直接計算已設位元的總數。
- */
-
-class Solution {
-public:
-    int minimizedStringLength(string s) {
-        bitset<26> bits;
-        for(const char& c : s) {
-            bits.set(c - 'a');
-        }
-        return static_cast<int>(bits.count());
-    }
-};
-```
-
-> 就是計算相異字元個數，用bitset<26> bits紀錄，最後回傳 bits.count()<br>
-
-**相關題目:** [1832](../problems/1832.md)
-
----
-
-## 解法：bit-manipulation
-
-**難度:** 🟢 Easy　**標籤:** Bit Manipulation　**時間:** O(N)　**空間:** O(1)　**熟悉度:** 🟢 熟練
-
-**📅 練習歷程:**
-
-- ✅ **2026-09-17** 對
-
-```cpp
 /**
  * 題目：2716. Minimize String Length
  * 難度：簡單 (Easy)
@@ -86,6 +33,3 @@ public:
         return __builtin_popcount(seen);
     }
 };
-```
-
----
