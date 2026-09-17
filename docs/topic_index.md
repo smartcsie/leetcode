@@ -19,6 +19,7 @@
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/0728.md) | O(N\*D) | O(1) | 2026-09-17 |
 | 1281 | 👑 **Digit Decomposition**<br>[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/1281.md) | O(logN) | O(1) | 2026-09-14 |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 Easy | Math Digit Decomposition, Simulation, Hash Table | [C++](problems/1742.md) | O(N\*D) | O(1) | 2026-09-16 |
+| 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math Digit Decomposition | [C++](problems/1837.md) | O(logₖN) | O(1) | 2026-09-17 |
 | 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](problems/1880.md) | O(N) | O(1) | 2026-09-17 |
 | 1979 | 👑 **GCD**<br>[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | Math Gcd, GCD | [C++](problems/1979.md) | O(N) | O(1) | 2026-09-14 |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | Math Digit Decomposition, Simulation | [C++](problems/2443.md) | O(NlogN) | O(1) | 2026-09-17 |
@@ -31,6 +32,7 @@
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/2843.md) | O(N\*D) | O(1) | 2026-09-16 |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | Math Digit Decomposition, String | [C++](problems/3340.md) | O(N) | O(1) | 2026-09-14 |
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 Easy | Math Digit Decomposition, Simulation, Digit Manipulation | [C++](problems/3461.md) | O(N²) | O(N) | 2026-09-17 |
+| 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/3622.md) | O(logN) | O(1) | 2026-09-17 |
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/3783.md) | O(log10(N)) | O(1) | 2026-09-14 |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](problems/3895.md) | O(N×D) | O(1) | 2026-09-14 |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math Digit Decomposition | [C++](problems/3945.md) | O(logN) | O(1) | 2026-09-14 |

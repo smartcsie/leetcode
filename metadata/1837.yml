@@ -10,7 +10,8 @@ solutions:
   - math-digit-decomposition
   time: O(logₖN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
   note: '> [Base]
 
     > K進制的位數和，一直 % k加到sum，while(n > 0) {  sum = n % k + sum; n /= k; }  return sum
@@ -18,3 +19,7 @@ solutions:
   related:
   - 504
   - 1017
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null

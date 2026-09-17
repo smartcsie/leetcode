@@ -5,12 +5,17 @@ solutions:
 - file: Solution_3622.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - Digit Manipulation
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
   note: '> **[注意]最後要 (n % (product + sum)) == 0;**<br>'
   is_best: true
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
