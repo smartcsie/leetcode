@@ -12,6 +12,12 @@ solutions:
   - array
   time: O(N²)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
   note: '> [for loop]'
-  tricks: null
+  tricks:
+  - for loop
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
