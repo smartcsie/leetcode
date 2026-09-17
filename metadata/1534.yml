@@ -11,7 +11,13 @@ solutions:
   - array
   time: O(N³)
   space: O(1)
-  familiarity: 練習過
-  note: '> [for loop]'
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
   related:
   - 3483
+  tricks:
+  - for loop
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null

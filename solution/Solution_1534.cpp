@@ -18,20 +18,21 @@
  * 3. 三個條件同時成立才計數：
  *    - 只有當三個絕對差值條件全部滿足時，才將這組三元組計入答案 ans。
  */
+
 class Solution {
 public:
     int countGoodTriplets(vector<int>& arr, int a, int b, int c) {
         int n = arr.size();
-        int ans = 0;
-        for(int i = 0 ;i < n; i++) {
-            for(int j = i + 1 ;j < n; j++) {
-                for(int k = j + 1 ;k < n; k++) {
-                    if( abs((arr[i] - arr[j])) <= a &&
-                        abs((arr[j] - arr[k])) <= b &&
-                        abs((arr[i] - arr[k])) <= c ) ans++;
+        int count = 0;
+        for(int i = 0; i < n; i++) {
+            for(int j = i + 1; j < n; j++) {
+                if(abs(arr[i] - arr[j]) > a) continue;
+                for(int k = j + 1; k < n; k++) {
+                    if(abs(arr[j] - arr[k]) > b || abs(arr[i] - arr[k]) > c)   continue;
+                    count++;
                 }
             }
         }
-        return ans;
+        return count;
     }
 };
