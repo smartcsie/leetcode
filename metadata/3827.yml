@@ -10,13 +10,16 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 練習過
-  note: '> [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/)<br>
-
-    > 0->1，1->2，2->2，3->3...，6->3，7->4，**等於算(n+1)的bit數目**<br>
+  familiarity: 再練習
+  note: '> **0->1，1->2，2->2，3->3...，6->3，7->4，**等於算(n+1)的bit數目**<br>
 
     > **return bit_width(static_cast<uint32_t>(n + 1));** <br>
 
-
-
-    <br><br>'
+    > **另解static_cast<int>(log2(n + 1)) + 1;**<br>'
+  tricks:
+  - log2
+  - bit_width
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
