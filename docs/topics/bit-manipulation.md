@@ -17,7 +17,7 @@
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) |  |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3827.md) | O(1) | O(1) | 2026-09-17 |
 
-## 🟡 練習過（16）
+## 🟡 練習過（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -31,7 +31,6 @@
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Bit Manipulation, Hash Set | [C++](../problems/2716.md) | O(N) | O(1) |  |
 | 2729 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/) | 🟢 Easy | Bit Manipulation, Math, Digit Manipulation | [C++](../problems/2729.md) | O(logN) | O(1) |  |
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 Easy | Bit Manipulation, Built-in Function | [C++](../problems/2859.md) | O(N) | O(1) |  |
-| 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Array, Hash Table, Bitset | [C++](../problems/2956.md) | O(N+M) | O(1) |  |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) |  |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Array, Bit Manipulation | [C++](../problems/3151.md) | O(N) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Brainteaser | [C++](../problems/3513.md) | O(logN) | O(1) |  |
@@ -50,7 +49,7 @@
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | Backtracking Permutation, Recursion, Divide and Conquer | [C++](../problems/1545.md) | O(N) | O(N) |  |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |  |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -60,5 +59,6 @@
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](../problems/1009.md) | O(logN) | O(1) | 2026-09-17 |
 | 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 Easy | Bit Manipulation, Math, String | [C++](../problems/1812.md) | O(1) | O(1) | 2026-09-17 |
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [C++](../problems/2032.md) | O(N1+N2+N3) | O(1) | 2026-09-17 |
+| 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](../problems/2956.md) | O(N+M) | O(1) | 2026-09-17 |
 | 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3019.md) | O(N) | O(1) | 2026-09-17 |
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 Easy | Bit Manipulation, Math, String | [C++](../problems/3274.md) | O(1) | O(1) | 2026-09-17 |

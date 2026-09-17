@@ -21,34 +21,12 @@
 class Solution {
 public:
     std::vector<int> findIntersectionValues(std::vector<int>& nums1, std::vector<int>& nums2) {
-        std::vector<int> ans(2, 0);
-        
-        // 宣告 bitset 來記錄數值是否存在（支援 0 到 100 的範圍）
-        std::bitset<101> bits1;
-        std::bitset<101> bits2;
-        
-        // 1. 紀錄各陣列擁有的數值
-        for (const int& num : nums1) {
-            bits1.set(num);
-        }
-        for (const int& num : nums2) {
-            bits2.set(num);
-        }
-        
-        // 2. 計算 nums1 中有多少元素存在於 nums2
-        for (const int& num : nums1) {
-            if (bits2.test(num)) {
-                ans[0]++;
-            }
-        }
-        
-        // 3. 計算 nums2 中有多少元素存在於 nums1
-        for (const int& num : nums2) {
-            if (bits1.test(num)) {
-                ans[1]++;
-            }
-        }
-        
-        return ans;
+        bitset<101> seen1, seen2;
+        vector<int> count(2, 0);
+        for(const int& x : nums1) seen1.set(x);
+        for(const int& x : nums2) seen2.set(x);
+        for(const int& x : nums1) if(seen2.test(x)) count[0]++;
+        for(const int& x : nums2) if(seen1.test(x)) count[1]++;
+        return count;
     }
 };

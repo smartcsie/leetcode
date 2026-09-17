@@ -5,11 +5,16 @@ solutions:
 - file: Solution_2956.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Bit Manipulation
   - Hash Table
   - Bitset
   topics:
   - bit-manipulation
   time: O(N+M)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
