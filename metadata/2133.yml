@@ -20,6 +20,9 @@ solutions:
   - date: '2026-09-17'
     result: 對
     reason: null
+  - date: '2026-09-17'
+    result: 對
+    reason: null
 - file: Solution_2133_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -60,3 +63,6 @@ solutions:
       \          if (matrix[idx][i] > 0)\n                    return false;\n\n  \
       \              matrix[idx][i] *= -1;\n            }\n        }\n\n        return\
       \ true;\n    }\n};"
+  - date: '2026-09-17'
+    result: 對
+    reason: null

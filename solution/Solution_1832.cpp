@@ -16,13 +16,14 @@
 
 class Solution {
 public:
-    bool checkIfPangram(std::string sentence) {
-        std::bitset<26> pangram;   
-        // 將出現過的字元對應 bit 設為 1
-        for (const char& c : sentence) {
-            pangram.set(c - 'a');
+    bool checkIfPangram(string sentence) {
+        string& s = sentence;
+        bitset<26> alpha;
+        if(s.size() < 26) return false;
+        for(const char& c : s) {
+            alpha.set(c - 'a');
+            if(alpha.count() == 26) return true;
         }
-        // 檢查是否 26 個位元全滿
-        return pangram.count() == 26;
+        return false;
     }
 };
