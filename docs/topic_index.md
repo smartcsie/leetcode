@@ -86,6 +86,7 @@
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | 🟢 Easy | Array Min Max | [C++](problems/1913.md) | O(N) | O(1) | 2026-09-16 |
 | 1929 | 👑 **vector insert**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) | 2026-09-15 |
 | 1929 | 👑 **vector resize**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) | 2026-09-15 |
+| 2006 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 Easy | Array Linear Scan, Hash Table, Frequency Map | [C++](problems/2006.md) | O(N) | O(N) | 2026-09-17 |
 | 2022 | 👑 **1D 2D transform**<br>[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | 2d Array | [C++](problems/2022.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 Easy | Array Linear Scan | [C++](problems/2057.md) | O(N) | O(1) | 2026-09-16 |
 | 2089 | 👑 **vector iota**<br>[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array Linear Scan, Counting | [C++](problems/2089.md) | O(N) | O(1) | 2026-09-15 |
