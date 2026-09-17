@@ -4987,7 +4987,11 @@
 <h1 id="3120-count-the-number-of-special-characters-i">3120. Count the Number of Special Characters I<a class="headerlink" href="#3120-count-the-number-of-special-characters-i" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/count-the-number-of-special-characters-i/">在 LeetCode 上查看</a></p>
 <h2 id="bit-manipulation">解法：bit-manipulation<a class="headerlink" href="#bit-manipulation" title="Permanent link">&para;</a></h2>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-09-17</strong> 對</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：3120. Count the Number of Special Characters I</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -5025,7 +5029,11 @@
 </blockquote>
 <hr />
 <h2 id="bit-manipulation-and">解法：bit-manipulation-and<a class="headerlink" href="#bit-manipulation-and" title="Permanent link">&para;</a></h2>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation And　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation And　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-09-17</strong> 對</li>
+</ul>
 <p><strong>技巧:</strong> accumulate lemma</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cm">/**</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cm"> * 題目：3120. Count the Number of Special Characters I</span>
@@ -5072,6 +5080,56 @@
 <a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">__builtin_popcount</span><span class="p">(</span><span class="n">ans</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">ans</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
 <a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a><span class="p">};</span>
+</code></pre></div>
+<hr />
+<h2 id="bit-manipulation_1">解法：bit-manipulation<a class="headerlink" href="#bit-manipulation_1" title="Permanent link">&para;</a></h2>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-09-17</strong> 對</li>
+</ul>
+<p><strong>技巧:</strong> bitset</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="cm">/**</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="cm"> * 題目：3120. Count the Number of Special Characters I</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="cm"> * 分類主題：bit-manipulation-mask</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="cm"> * 描述：給定一個字串 word，如果某個字母同時以大寫跟小寫出現在字串裡，</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="cm"> * 就稱它是「特殊字母」，求總共有幾個特殊字母。</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="cm"> *</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="cm"> * 時間複雜度：O(N)，N 是字串長度</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="cm"> * 空間複雜度：O(1)（bitset 固定只需要 26 個 bit）</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="cm"> *</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="cm"> * 解法思路：</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="cm"> * （Bitmask，用 bitset 取代之前的 accumulate 版本，是更直觀的寫法：</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="cm"> * 直接用 STL 的 `&amp;`（AND）跟 `.count()`，不用自己手動比較兩個遮罩）：</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="cm"> * 1. 用兩個 `bitset&lt;26&gt;`（`upper`、`lower`）分別記錄「出現過的大寫</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="cm"> *    字母」跟「出現過的小寫字母」，各自 26 個 bit 對應 a~z。</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="cm"> * 2. 掃描字串每個字元：是大寫就設定 `upper` 對應的 bit</span>
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="cm"> *    （`c - &#39;A&#39;`），是小寫就設定 `lower` 對應的 bit（`c - &#39;a&#39;`）。</span>
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="cm"> *    跟之前的 accumulate 版本邏輯完全一樣，只是這裡用 `bitset` 的</span>
+<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="cm"> *    `.set()` 取代手動的 `|=` 位元運算，語意更清楚。</span>
+<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="cm"> * 3. **核心技巧**：`upper &amp; lower` 直接對兩個 bitset 做 AND 運算，</span>
+<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="cm"> *    結果裡「兩邊都出現過」的字母，對應的 bit 才會是 1——這跟之前</span>
+<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="cm"> *    版本的 `ans[0] &amp; ans[1]` 是同一個概念，只是 `bitset` 提供了</span>
+<a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="cm"> *    現成的 `&amp;` 運算子跟 `.count()` 成員函式，不用像 accumulate 版</span>
+<a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="cm"> *    那樣還要另外呼叫 `__builtin_popcount`。</span>
+<a id="__codelineno-2-25" name="__codelineno-2-25" href="#__codelineno-2-25"></a><span class="cm"> * 4. `.count()` 直接回傳這個 bitset 裡有幾個 bit 是 1，就是答案。</span>
+<a id="__codelineno-2-26" name="__codelineno-2-26" href="#__codelineno-2-26"></a><span class="cm"> * 5. **跟 accumulate 版本的比較**：兩者本質上是同一個演算法（雙</span>
+<a id="__codelineno-2-27" name="__codelineno-2-27" href="#__codelineno-2-27"></a><span class="cm"> *    bitmask + AND + popcount），差別只在於用 `int` 手動操作位元</span>
+<a id="__codelineno-2-28" name="__codelineno-2-28" href="#__codelineno-2-28"></a><span class="cm"> *    運算子，還是用 `bitset` 這個 STL 容器把同樣的操作包裝成更好讀</span>
+<a id="__codelineno-2-29" name="__codelineno-2-29" href="#__codelineno-2-29"></a><span class="cm"> *    的成員函式呼叫，效能上幾乎沒有差異，純粹是可讀性風格選擇。</span>
+<a id="__codelineno-2-30" name="__codelineno-2-30" href="#__codelineno-2-30"></a><span class="cm"> */</span>
+<a id="__codelineno-2-31" name="__codelineno-2-31" href="#__codelineno-2-31"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-32" name="__codelineno-2-32" href="#__codelineno-2-32"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-2-33" name="__codelineno-2-33" href="#__codelineno-2-33"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">numberOfSpecialChars</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">word</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-34" name="__codelineno-2-34" href="#__codelineno-2-34"></a><span class="w">        </span><span class="n">bitset</span><span class="o">&lt;</span><span class="mi">26</span><span class="o">&gt;</span><span class="w"> </span><span class="n">upper</span><span class="p">,</span><span class="w"> </span><span class="n">lower</span><span class="p">;</span>
+<a id="__codelineno-2-35" name="__codelineno-2-35" href="#__codelineno-2-35"></a><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="o">&amp;</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">word</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-2-36" name="__codelineno-2-36" href="#__codelineno-2-36"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="n">isupper</span><span class="p">(</span><span class="n">c</span><span class="p">))</span><span class="w"> </span><span class="n">upper</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="n">c</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="sc">&#39;A&#39;</span><span class="p">);</span>
+<a id="__codelineno-2-37" name="__codelineno-2-37" href="#__codelineno-2-37"></a><span class="w">            </span><span class="k">else</span><span class="w"> </span><span class="n">lower</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="n">c</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="sc">&#39;a&#39;</span><span class="p">);</span>
+<a id="__codelineno-2-38" name="__codelineno-2-38" href="#__codelineno-2-38"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-2-39" name="__codelineno-2-39" href="#__codelineno-2-39"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="n">upper</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="n">lower</span><span class="p">).</span><span class="n">count</span><span class="p">();</span>
+<a id="__codelineno-2-40" name="__codelineno-2-40" href="#__codelineno-2-40"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-2-41" name="__codelineno-2-41" href="#__codelineno-2-41"></a><span class="p">};</span>
 </code></pre></div>
 <hr />
 
