@@ -22,17 +22,17 @@
 class Solution {
 public:
     bool isFascinating(int n) {
-        bitset<10> bits;
-        bits.set(0);
-        for(int i = 1; i <= 3; i++) {
-            int num = n * i;
-            while(num > 0) {
-                int digit = num % 10;
-                if(bits.test(digit)) return false;
-                bits.set(digit);
-                num /= 10;
+        bitset<10> seen;
+        for(int x : {n, 2 * n, 3* n}) {
+            int t = x;
+            while(t > 0) {
+                int d = t % 10;
+                if(d == 0) return false;
+                if(seen.test(d)) return false;
+                seen.set(d);
+                t /= 10;
             }
         }
-        return bits.count() == 10;
+        return seen.count() == 9;
     }
 };
