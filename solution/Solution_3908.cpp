@@ -14,13 +14,14 @@
 class Solution {
 public:
     bool validDigit(int n, int x) {
-        int count = 0;
-        while(n > 0) {
-            if(n < 10 && n == x) return false;
-            int digit = n % 10;
-            if(digit == x) count++;
-            n /= 10;
+        int d;
+        int m = n;
+        bool valid = false;
+        while(m > 0) {
+            d = m % 10;
+            if(d == x) valid = true;
+            m /= 10;
         }
-        return count >= 1;
+        return valid && (d != x);
     }
 };

@@ -5,14 +5,15 @@ solutions:
 - file: Solution_3908.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Digit Decomposition
   - Digit Manipulation
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 再練習
-  note: '> [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/)
-    <br>
-
-    > 用一個bool紀錄digit是否有x，最後return digit != x && findX; <br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
