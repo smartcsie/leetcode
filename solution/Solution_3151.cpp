@@ -10,12 +10,11 @@
 class Solution {
 public:
     bool isArraySpecial(vector<int>& nums) {
-        int n = nums.size();
-        if (n <= 1) return true;
-        for (int i = 0; i < n - 1; i++) {
-            if (((nums[i] ^ nums[i + 1]) & 1) == 0) {
-                return false;
-            }
+        if(nums.size() == 1) return true;
+        bool odd = nums[0] & 1;
+        for(int i = 1; i < nums.size(); i++) {
+            odd = !odd;
+            if((nums[i] & 1) != odd) return false;
         }
         return true;
     }
