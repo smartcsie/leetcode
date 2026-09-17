@@ -22,3 +22,7 @@ solutions:
     > **只需要檢查 res > INT_MAX / 10 或 res < INT_MIN / 10 就夠了。**<br>'
   tricks:
   - overflow handle
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null

@@ -11,6 +11,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math Digit Decomposition | [C++](problems/0007.md) | O(logN) | O(1) | 2026-09-17 |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](problems/0168.md) | O(log26N) | O(1) | 2026-09-17 |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](problems/0171.md) | O(N) | O(1) | 2026-09-17 |
 | 231 | 👑 **Brian Kernighan**<br>[Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](problems/0231.md) | O(1) | O(1) | 2026-09-13 |
