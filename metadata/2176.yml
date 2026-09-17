@@ -10,5 +10,11 @@ solutions:
   - array-linear-scan
   time: O(N^2)
   space: O(1)
-  familiarity: 練習過
-  note: '> [for loop]'
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
+  tricks:
+  - for loop
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
