@@ -11,11 +11,15 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
   note: '> 就是計算相異字元個數，用bitset<26> bits紀錄，最後回傳 bits.count()<br>'
   related:
   - 1832
   attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
   - date: '2026-09-17'
     result: 對
     reason: null
@@ -30,6 +34,9 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-17'
   attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
   - date: '2026-09-17'
     result: 對
     reason: null
