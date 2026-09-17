@@ -13,29 +13,25 @@
 class Solution {
 private:
     int maxDigit(int n) {
+        int n = nums.size();
+        vector<int> mx(10, -1);
+        vector<int> sum(10, -1);
         int ans = -1;
-        while(n > 0) {
-            int d = n % 10;
-            ans = max(ans, d);
-            n /= 10;
-        }
-        return ans;
-    }
-public:
-    int maxSum(vector<int>& nums) {
-        vector<pair<int, int>> pairs(10, {-1, -1});
         for(const int& x : nums) {
-            int d = maxDigit(x);
-            if(x > pairs[d].first) {
-                pairs[d].second = pairs[d].first;
-                pairs[d].first = x;
-            } else if(x > pairs[d].second) {
-                pairs[d].second = x;
+            int y = x;
+            int maxDigit = -1;
+            while(y > 0) {
+                int d = y % 10;
+                maxDigit = max(maxDigit, d);
+                y /= 10;
             }
-        }
-        int ans = -1;
-        for(int i = 9; i>= 0; i--) {
-            if(pairs[i].second != -1) ans = max(ans, pairs[i].first  + pairs[i].second );
+            if(mx[maxDigit] == -1) {
+                mx[maxDigit] = x;
+            } else {
+                sum[maxDigit] = max(sum[maxDigit], mx[maxDigit] + x);
+                mx[maxDigit] = max(mx[maxDigit], x);
+                ans = max(ans, sum[maxDigit]);
+            }
         }
         return ans;
     }

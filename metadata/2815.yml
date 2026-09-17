@@ -11,5 +11,9 @@ solutions:
   - greedy
   time: O(N*D)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **注意ans初始值-1**<br>'
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
