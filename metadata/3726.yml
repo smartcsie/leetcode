@@ -11,8 +11,13 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 再練習
-  note: '> 跟 3697很像，差異是digit != 0 才 res += base * digit; base *= 10;<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
+  note: '> **跟 3697很像，差異是digit != 0 才 res += base * digit; base *= 10;**<br>'
   is_best: true
   tricks:
   - digit scan
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
