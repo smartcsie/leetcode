@@ -83,6 +83,7 @@
 | 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 Easy | 2d Array | [C++](problems/1582.md) | O(M\*N) | O(M+N) | 2026-09-16 |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 Easy | 2d Array, Simulation, Manhattan Distance | [C++](problems/1779.md) | O(N) | O(1) | 2026-09-16 |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array Linear Scan, Math | [C++](problems/1822.md) | O(N) | O(1) | 2026-09-16 |
+| 1844 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | 🟢 Easy | Array, In-place Manipulation | [C++](problems/1844.md) | O(N) | O(1) | 2026-09-17 |
 | 1869 | [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/) | 🟢 Easy | Array Continuous Counting, Simulation, Linear Scan | [C++](problems/1869.md) | O(N) | O(1) | 2026-09-17 |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | 2d Array | [C++](problems/1886.md) | O(N²) | O(1) | 2026-09-16 |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | 🟢 Easy | Array Min Max | [C++](problems/1913.md) | O(N) | O(1) | 2026-09-16 |
