@@ -10,5 +10,10 @@ solutions:
   - greedy-coin-change
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
   note: '> 因為Greedy，收到20元最佳策略要先找1個10元+1個5元，不能先找3個5元，因為5元是非常珍費的'
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
