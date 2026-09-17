@@ -11,6 +11,11 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-17'
   tricks:
   - __builtin_popcount
+  attempts:
+  - date: '2026-09-17'
+    result: 對
+    reason: null
