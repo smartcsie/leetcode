@@ -63,6 +63,7 @@
 | 461 | 👑 **Hamming Distance**<br>[Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0461.md) | O(N) | O(1) | 2026-09-18 |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](problems/0476.md) | O(logN) | O(1) | 2026-09-17 |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](problems/1009.md) | O(logN) | O(1) | 2026-09-17 |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 Easy | Bit Manipulation, Simulation | [C++](problems/1486.md) | O(N) | O(1) | 2026-09-18 |
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Bit Manipulation, Bit Manipulation | [C++](problems/1680.md) | O(N) | O(1) | 2026-09-18 |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Bit Manipulation Or, Bit Manipulation | [C++](problems/1684.md) | O(N\*M) | O(1) | 2026-09-17 |
 | 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 Easy | Bit Manipulation Xor, Simulation | [C++](problems/1720.md) | O(N) | O(N) | 2026-09-18 |
