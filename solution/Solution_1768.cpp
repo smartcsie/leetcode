@@ -7,24 +7,16 @@
  * 空間複雜度：O(1)
  */
 
-#include <string>
-
-using namespace std;
-
 class Solution {
 public:
     string mergeAlternately(string word1, string word2) {
-        string res;
-        // 優化：預先配置長度，避免執行過程中進行多次記憶體擴充
-        res.reserve(word1.size() + word2.size());
-        int i = 0, n1 = word1.size(), n2 = word2.size();
-        // 遍歷直到兩者皆處理完畢
-        while (i < n1 || i < n2) {
-            if (i < n1) res.push_back(word1[i]);
-            if (i < n2) res.push_back(word2[i]);
-            i++;
+        string ans, &w1 = word1, & w2 = word2;
+        int m = w1.size(), n = w2.size();
+        ans.reserve(m + n);
+        for(int i = 0; i <max(m, n); i++) {
+            if(i < m) ans.push_back(w1[i]);
+            if(i < n) ans.push_back(w2[i]);
         }
-        
-        return res;
+        return ans;
     }
 };
