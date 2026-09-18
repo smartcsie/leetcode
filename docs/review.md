@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：157 題　🟡 練習過：345 題　🟣 易忘：104 題　🟢 熟練：153 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：157 題　🟡 練習過：344 題　🟣 易忘：104 題　🟢 熟練：154 題　⚪ 未標記：0 題
 
 ---
 
@@ -662,7 +662,7 @@
 | [two-pointers-other](topics/two-pointers-other.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 1 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 9 | 3 | 4 | 3 | 1 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 2 | 3 | 0 | 9 | 0 | 14 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 2 | 2 | 0 | 10 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 1 | 0 | 0 | 0 | 11 |
 
