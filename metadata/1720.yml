@@ -5,10 +5,15 @@ solutions:
 - file: Solution_1720.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Xor
   - Simulation
   topics:
   - bit-manipulation-xor
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-18'
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null

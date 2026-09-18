@@ -65,6 +65,7 @@
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](problems/1009.md) | O(logN) | O(1) | 2026-09-17 |
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Bit Manipulation, Bit Manipulation | [C++](problems/1680.md) | O(N) | O(1) | 2026-09-18 |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Bit Manipulation Or, Bit Manipulation | [C++](problems/1684.md) | O(N\*M) | O(1) | 2026-09-17 |
+| 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 Easy | Bit Manipulation Xor, Simulation | [C++](problems/1720.md) | O(N) | O(N) | 2026-09-18 |
 | 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 Easy | Bit Manipulation, Math, String | [C++](problems/1812.md) | O(1) | O(1) | 2026-09-17 |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 Easy | Bit Manipulation, String, Hash Table | [C++](problems/1832.md) | O(N) | O(1) | 2026-09-17 |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 Easy | Bit Manipulation | [C++](problems/1832.md) | O(N) | O(1) | 2026-09-17 |

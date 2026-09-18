@@ -19,11 +19,11 @@
 class Solution {
 public:
     std::vector<int> decode(std::vector<int>& encoded, int first) {
-        vector<int> ans(encoded.size() + 1);
-        ans[0] = first;
+        vector<int> decoded(encoded.size() + 1);
+        decoded[0] = first;
         for(int i = 0; i < encoded.size(); i++) {
-            ans[i + 1] = ans[i] ^ encoded[i];
+            decoded[i + 1] = decoded[i] ^ encoded[i];
         }
-        return ans;
+        return decoded;
     }
 };
