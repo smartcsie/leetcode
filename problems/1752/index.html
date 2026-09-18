@@ -4987,6 +4987,10 @@
 <h1 id="1752-check-if-array-is-sorted-and-rotated">1752. Check if Array Is Sorted and Rotated<a class="headerlink" href="#1752-check-if-array-is-sorted-and-rotated" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/check-if-array-is-sorted-and-rotated">在 LeetCode 上查看</a></p>
 <p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Array　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-09-18</strong> 對</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1752. Check if Array Is Sorted and Rotated (檢查陣列是否經排序和旋轉)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -5013,6 +5017,11 @@
 <a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>頭尾要檢查到</strong><br>
+<strong>if(nums[i] &gt; nums[(i+1) % n]) count++;</strong><br>
+<strong>if(count &gt; 1) return false;</strong><br></p>
+</blockquote>
 
 
 
