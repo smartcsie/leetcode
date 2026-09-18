@@ -20,25 +20,13 @@
 class Solution {
 public:
     vector<int> sortArrayByParityII(vector<int>& nums) {
+        int even = 0;
+        int odd = 1;
         int n = nums.size();
-        int i = 0; // 偶數指標
-        int j = 1; // 奇數指標
-        
-        while (i < n && j < n) {
-            // 如果當前偶數索引位置放的是偶數，直接跳過
-            if (nums[i] % 2 == 0) {
-                i += 2;
-            } 
-            // 如果當前奇數索引位置放的是奇數，直接跳過
-            else if (nums[j] % 2 == 1) {
-                j += 2;
-            } 
-            // 如果都不對（nums[i] 是奇數且 nums[j] 是偶數），交換它們
-            else {
-                swap(nums[i], nums[j]);
-                i += 2;
-                j += 2;
-            }
+        while(even < n && odd < n) {
+            while(even < n && (nums[even] & 1) == 0) even += 2;
+            while(odd < n && (nums[odd] & 1) == 1) odd += 2;
+            if(even < n && odd < n)swap(nums[even], nums[odd]);
         }
         return nums;
     }

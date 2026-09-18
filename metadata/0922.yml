@@ -5,10 +5,15 @@ solutions:
 - file: Solution_0922.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - Two Pointers Swap
   - Two Pointers
   topics:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-18'
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
