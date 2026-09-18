@@ -11,10 +11,13 @@ solutions:
   - bit-manipulation-xor
   time: O(N+M)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 易忘
   note: '> 如果nums1 size是奇數，把所有nums2的element xor到 ans<br>
 
     > 如果nums2 size是奇數，把所有nums1的element xor到 ans<br>
 
     > 回傳 ans<br>'
-  tricks: null
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
