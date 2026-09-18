@@ -12,16 +12,16 @@
 
 class Solution {
 public:
-    std::vector<int> shortestToChar(std::string s, char c) {
+    vector<int> shortestToChar(string s, char c) {
         int n = s.size();
-        vector<int> ans(n, 10001);
-        for(int i = 0, pre = -(1e4 + 2); i < n; i++) {
+        vector<int> ans(n, INT_MAX);
+        for(int i = 0, pre = INT_MIN ; i < n; i++) {
             if(s[i] == c) pre = i;
-            ans[i] = min(ans[i] , i - pre);
+            if(pre != INT_MIN) ans[i] = min(ans[i], i - pre);
         }
-        for(int i = n - 1, next = 1e4 + 2; i >= 0; i--) {
+        for(int i = n - 1, next = INT_MAX ; i >= 0; i--) {
             if(s[i] == c) next = i;
-            ans[i] = min(ans[i] , next - i);
+            if(next != INT_MAX) ans[i] = min(ans[i], next - i);
         }
         return ans;
     }

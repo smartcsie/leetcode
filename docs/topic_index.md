@@ -121,6 +121,7 @@
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](problems/0674.md) | O(N) | O(1) | 2026-09-15 |
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | 🟢 Easy | Array, Simulation | [C++](problems/0717.md) | O(N) | O(1) | 2026-09-18 |
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 Easy | Array Min Max, Linear Scan | [C++](problems/0747.md) | O(N) | O(1) | 2026-09-16 |
+| 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | Array, Two-Pass Scan | [C++](problems/0821.md) | O(N) | O(1) | 2026-09-18 |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 Easy | 2d Array, Two Pointers | [C++](problems/0832.md) | O(N\*M) | O(1) | 2026-09-16 |
 | 867 | 👑 **Matrix Transpose**<br>[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](problems/0867.md) | O(M\*N) | O(M\*N) | 2026-09-16 |
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 Easy | Array | [C++](problems/0896.md) | O(N) | O(1) | 2026-09-18 |

@@ -12,7 +12,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](../problems/0189.md) | O(N) | O(1) |  |
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | 🟢 Easy | Array, Simulation | [C++](../problems/0717.md) | O(N) | O(1) | 2026-09-18 |
-| 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | Array, Two-Pass Scan | [C++](../problems/0821.md) | O(N) | O(1) |  |
+| 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | Array, Two-Pass Scan | [C++](../problems/0821.md) | O(N) | O(1) | 2026-09-18 |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | Array | [C++](../problems/1299.md) | O(N) | O(1) |  |
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 Easy | Array, Math | [C++](../problems/1304.md) | O(N) | O(1) | 2026-09-17 |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 Easy | Array, Simulation | [C++](../problems/1389.md) | O(N²) | O(N) | 2026-09-17 |
