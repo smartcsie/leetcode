@@ -11,7 +11,8 @@ solutions:
   - array
   time: O(N+M)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-18'
   is_best: true
   attempts:
   - date: '2026-09-18'
@@ -23,6 +24,14 @@ solutions:
   - date: '2026-09-18'
     result: 對
     reason: null
+  - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-09-18'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: string vector travsal
 - file: Solution_1662_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -31,7 +40,8 @@ solutions:
   - string
   time: 時間複雜度：O(N*L)
   space: 時間複雜度：O(N*L)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-18'
   tricks:
   - accumulate string
   attempts:
@@ -41,3 +51,11 @@ solutions:
   - date: '2026-09-18'
     result: 對
     reason: null
+  - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-09-18'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: accumulate string

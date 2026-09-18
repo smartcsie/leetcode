@@ -16,26 +16,20 @@
 class Solution {
 public:
     bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
-        vector<int> idx1(2, 0), idx2(2, 0);
-        int size1 = 0, size2 = 0;
-        for(const string& s : word1) size1 += s.size();
-        for(const string& s : word2) size2 += s.size();
-        if(size1 != size2) return false;
-        int count = 0;
-        while(count++ < size1) {
-            if(word1[idx1[0]][idx1[1]] != word2[idx2[0]][idx2[1]]) return false;
-            idx1[1]++;
-            if(idx1[1] == word1[idx1[0]].size()) {
-                idx1[0]++;
-                idx1[1] = 0;
+        int w1 = 0, w2 = 0, c1 = 0 ,c2 = 0;
+        while( w1 < word1.size() && w2 < word2.size() ) {
+            if(word1[w1][c1] != word2[w2][c2]) return false;
+            c1++;
+            if(c1 == word1[w1].size()) { 
+                w1++; 
+                c1 = 0;
             }
-            idx2[1]++;
-            if(idx2[1] == word2[idx2[0]].size()) {
-                idx2[0]++;
-                idx2[1] = 0;
+            c2++;
+            if(c2 == word2[w2].size()) { 
+                w2++; 
+                c2 = 0;
             }
-               
         }
-        return true;
+        return w1 == word1.size() && w2 == word2.size();
     }
 };
