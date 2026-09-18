@@ -21,4 +21,7 @@ solutions:
   - date: '2026-09-16'
     result: 對
     reason: null
+  - date: '2026-09-18'
+    result: 對
+    reason: null
   is_representative: true

@@ -36,5 +36,5 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0141.md) | O(N) | O(1) | 2026-09-16 |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0141.md) | O(N) | O(1) | 2026-09-18 |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers, Two Pointers | [C++](../problems/0876.md) | O(N) | O(1) | 2026-09-18 |
