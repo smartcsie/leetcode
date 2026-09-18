@@ -19,17 +19,16 @@
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) | 2026-09-17 |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3827.md) | O(1) | O(1) | 2026-09-17 |
 
-## 🟡 練習過（5）
+## 🟡 練習過（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Sliding Window | [C++](../problems/1016.md) | O(N\*LEN) | O(1) |  |
-| 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Bit Manipulation, Bit Manipulation | [C++](../problems/1680.md) | O(N) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Brainteaser | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 
-## 🟣 易忘（8）
+## 🟣 易忘（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -39,6 +38,7 @@
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](../problems/0416.md) | O(N\*S/W) | O(S/W) |  |
 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Array | [C++](../problems/0477.md) | O(31\*N) | O(1) |  |
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | Backtracking Permutation, Recursion, Divide and Conquer | [C++](../problems/1545.md) | O(N) | O(N) |  |
+| 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Bit Manipulation, Bit Manipulation | [C++](../problems/1680.md) | O(N) | O(1) | 2026-09-18 |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 Easy | Bit Manipulation | [C++](../problems/1832.md) | O(N) | O(1) | 2026-09-17 |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |  |
 
