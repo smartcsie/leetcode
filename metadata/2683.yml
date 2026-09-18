@@ -5,7 +5,7 @@ solutions:
 - file: Solution_2683.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Xor
   - Math
   topics:
   - bit-manipulation-xor
@@ -13,3 +13,7 @@ solutions:
   space: O(1)
   familiarity: 再練習
   note: '> **!accumulate(derived.begin(), derived.end(), 0, bit_xor<int>());**'
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
