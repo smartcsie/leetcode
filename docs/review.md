@@ -642,7 +642,7 @@
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 3 | 2 | 9 | 0 | 0 | 0 | 14 |
-| [string](topics/string.md) | 1 | 5 | 32 | 3 | 0 | 0 | 41 |
+| [string](topics/string.md) | 1 | 6 | 32 | 3 | 0 | 0 | 42 |
 | [string-character-classification](topics/string-character-classification.md) | 0 | 2 | 20 | 0 | 0 | 0 | 22 |
 | [string-kmp](topics/string-kmp.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |

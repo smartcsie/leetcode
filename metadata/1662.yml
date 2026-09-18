@@ -13,3 +13,25 @@ solutions:
   space: O(1)
   familiarity: 再練習
   is_best: true
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-09-18'
+    result: 對
+    reason: null
+- file: Solution_1662_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: 時間複雜度：O(N*L)
+  space: 時間複雜度：O(N*L)
+  familiarity: 再練習
+  tricks:
+  - accumulate string
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
