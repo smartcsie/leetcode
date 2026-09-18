@@ -16,19 +16,12 @@
 class Solution {
 public:
     int duplicateNumbersXOR(std::vector<int>& nums) {
-        // 使用 stack 上的陣列，比 vector 更快且無堆疊配置開銷
-        // 題目限制數值範圍為 1 到 50，故陣列大小設為 51
-        int count[51] = {0};
-        int res = 0;
-        
-        for (const int num : nums) {
-            count[num]++;
-            // 當數字出現第二次時，立即進行 XOR，這樣就不需要第二次遍歷
-            if (count[num] == 2) {
-                res ^= num;
-            }
+        vector<int> counts(51, 0);
+        for(const int& x : nums) counts[x]++;
+        int ans = 0;
+        for(int i = 1; i <= 50; i++) {
+            if(counts[i] == 2) ans ^= i;
         }
-        
-        return res;
+        return ans;
     }
 };
