@@ -11,10 +11,15 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-18'
   related:
   - 27
   - 2460
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
 - file: Solution_0283_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -23,4 +28,8 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
