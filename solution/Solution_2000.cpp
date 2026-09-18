@@ -14,11 +14,9 @@ class Solution {
 public:
     string reversePrefix(string word, char ch) {
         size_t idx = word.find(ch);
-        if(idx != string::npos) {
-            int left = 0;
-            int right = idx;
-            while(left < right) swap(word[left++], word[right--]);
-        }
+        if(idx == string::npos) return word;
+        int left = 0, right = idx;
+        while(left < right) swap(word[left++], word[right--]);
         return word;
     }
 };
