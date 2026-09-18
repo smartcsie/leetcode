@@ -5,11 +5,15 @@ solutions:
 - file: Solution_1417.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - Two Pointers Same
   - Two Pointers
   topics:
   - two-pointers-same
   time: O(N)
   space: O(N)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-09-18'
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null

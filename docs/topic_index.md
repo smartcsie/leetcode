@@ -221,6 +221,7 @@
 | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0905.md) | O(N) | O(1) | 2026-09-16 |
 | 917 | 👑 **Two Pointers Swap**<br>[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0917.md) | O(N) | O(1) | 2026-09-16 |
 | 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0922.md) | O(N) | O(1) | 2026-09-18 |
+| 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/1417.md) | O(N) | O(N) | 2026-09-18 |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/1768.md) | O(N+M) | O(1) | 2026-09-18 |
 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 Easy | Two Pointers Swap | [C++](problems/1790.md) | O(N) | O(1) | 2026-09-16 |
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/2000.md) | O(N) | O(1) | 2026-09-18 |

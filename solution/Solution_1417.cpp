@@ -17,18 +17,19 @@ public:
     string reformat(string s) {
         vector<char> digits;
         vector<char> alphas;
+        string ans;
+        ans.reserve(digits.size() + alphas.size());
         for(const char& c : s) {
             if(isdigit(c)) digits.push_back(c);
             else alphas.push_back(c);
         }
-        string ans;
-        ans.reserve(s.size());
         if(abs(static_cast<int>(digits.size()) - static_cast<int>(alphas.size())) > 1) return "";
-        if(digits.size() > alphas.size()) swap(digits, alphas);
-        for(int i = 0, j= 0;  i < alphas.size() || j < digits.size(); i++, j++) {
-            if(i < alphas.size()) ans.push_back(alphas[i]);
-            if(j < digits.size()) ans.push_back(digits[j]);
+        for(int i = 0 ; i < min(digits.size(), alphas.size()); i++) {
+            ans.push_back(digits[i]);
+            ans.push_back(alphas[i]);
         }
+        if(digits.size() > alphas.size()) ans.push_back(digits.back());
+        if(digits.size() < alphas.size()) ans = string(1, alphas.back()) + ans;
         return ans;
     }
 };
