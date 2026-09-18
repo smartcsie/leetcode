@@ -14,20 +14,20 @@
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | String, Two Pointers | [C++](../problems/0844.md) | O(N+M) | O(1) |  |
 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 Easy | Array, Two Pointers | [C++](../problems/1089.md) | O(N) | O(1) |  |
 
-## 🟠 再練習（3）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 🟢 Easy | String, Two Pointers | [C++](../problems/0541.md) | O(N) | O(1) |  |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | 🟢 Easy | String, Two Pointers | [C++](../problems/1768.md) | O(N+M) | O(1) |  |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | Two Pointers Same, Two Pointers | [C++](../problems/2109.md) | O(N+M) | O(N+M) |  |
+| 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 Easy | Two Pointers Same | [C++](../problems/2570.md) | O(N+M) | O(1) | 2026-09-18 |
 
-## 🟡 練習過（4）
+## 🟡 練習過（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | String, Two Pointers | [C++](../problems/1417.md) | O(N) | O(N) |  |
-| 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 Easy | Two Pointers Same | [C++](../problems/2570.md) | O(N+M) | O(1) |  |
 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Two Pointers Same | [C++](../problems/2864.md) | O(N) | O(1) |  |
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | Array, Two Pointers | [C++](../problems/3819.md) | O(N) | O(N) |  |
 
