@@ -4987,6 +4987,10 @@
 <h1 id="3702-longest-subsequence-with-non-zero-bitwise-xor">3702. Longest Subsequence With Non-Zero Bitwise XOR<a class="headerlink" href="#3702-longest-subsequence-with-non-zero-bitwise-xor" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/">在 LeetCode 上查看</a></p>
 <p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Bit Manipulation, Greedy　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-09-18</strong> 對</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：3702. Longest Subsequence With Non-Zero Bitwise XOR</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -5017,12 +5021,11 @@
 <a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p>三種case<br>
-case 1 : nums 全為 0，回傳 0<br>
-case 2 : nums 全部 xor 的結果不為 0，回傳 nums.size()<br>
-case 3 : nums 全部 xor 的結果為 0，拿掉一個元素即可，回傳 nums.size() - 1<br>
-case 2到case 3 是因為拿掉一個元素就不會為0了
-<br><br></p>
+<p><strong>三種case</strong><br>
+<strong>case 1 : nums 全為 0，回傳 0</strong><br>
+<strong>case 2 : nums 全部 xor 的結果不為 0，回傳 nums.size()</strong><br>
+<strong>case 3 : nums 全部 xor 的結果為 0，拿掉一個元素即可，回傳 nums.size() - 1</strong><br>
+<strong>case 2到case 3 是因為拿掉一個元素就不會為0了</strong><br></p>
 </blockquote>
 
 
