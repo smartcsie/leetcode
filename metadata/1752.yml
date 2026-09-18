@@ -11,3 +11,12 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 再練習
+  note: '> **頭尾要檢查到**<br>
+
+    > **if(nums[i] > nums[(i+1) % n]) count++;**<br>
+
+    > **if(count > 1) return false;**<br>'
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null

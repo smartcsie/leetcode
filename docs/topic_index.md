@@ -136,6 +136,7 @@
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 Easy | 2d Array | [C++](problems/1572.md) | O(N) | O(1) | 2026-09-16 |
 | 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 Easy | 2d Array | [C++](problems/1582.md) | O(M\*N) | O(M+N) | 2026-09-16 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | Array, String | [C++](problems/1662.md) | O(N+M) | O(1) | 2026-09-18 |
+| 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](problems/1752.md) | O(N) | O(1) | 2026-09-18 |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 Easy | 2d Array, Simulation, Manhattan Distance | [C++](problems/1779.md) | O(N) | O(1) | 2026-09-16 |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array Linear Scan, Math | [C++](problems/1822.md) | O(N) | O(1) | 2026-09-16 |
 | 1844 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | 🟢 Easy | Array, In-place Manipulation | [C++](problems/1844.md) | O(N) | O(1) | 2026-09-17 |
