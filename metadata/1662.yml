@@ -20,6 +20,9 @@ solutions:
   - date: '2026-09-18'
     result: 對
     reason: null
+  - date: '2026-09-18'
+    result: 對
+    reason: null
 - file: Solution_1662_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -32,6 +35,9 @@ solutions:
   tricks:
   - accumulate string
   attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
   - date: '2026-09-18'
     result: 對
     reason: null
