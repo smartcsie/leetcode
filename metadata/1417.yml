@@ -11,9 +11,11 @@ solutions:
   - two-pointers-same
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-18'
+  familiarity: 再練習
   attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
   - date: '2026-09-18'
     result: 對
     reason: null
