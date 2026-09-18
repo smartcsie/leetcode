@@ -19,7 +19,7 @@
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0279.md) | O(N\*√N) | O(N) |  |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0322.md) | O(A\*N) | O(A) |  |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0377.md) | O(A\*N) | O(A) |  |
-| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Dp Knapsack, 0-1 Knapsack | [C++](../problems/0416.md) | O(N\*S) | O(NS) |  |
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Dp Knapsack, 0-1 Knapsack | [C++](../problems/0416.md) | O(N\*S) | O(NS) | 2026-09-18 |
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 Medium | Dp Knapsack, 0-1 Knapsack | [C++](../problems/0474.md) | O(LM\*N) | O(M\*N) |  |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | Dp Knapsack, 0-1 Knapsack | [C++](../problems/0494.md) | O(N\*S) | O(S) |  |
 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0518.md) | O(N\*A) | O(A) |  |

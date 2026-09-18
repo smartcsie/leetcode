@@ -382,7 +382,7 @@
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) |  |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Bit Manipulation, DP | [C++](problems/0338.md) | O(N) | O(N) |  |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](problems/0401.md) | O(1) | O(1) |  |
-| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) |  |
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) | 2026-09-18 |
 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bit Manipulation Xor, Hash Set | [C++](problems/0421.md) | O(N\*L) | O(N) |  |
 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Array | [C++](problems/0477.md) | O(31\*N) | O(1) |  |
 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Backtracking, Bitset | [C++](problems/1239.md) | O(2ᴺ) | O(2ᴺ) |  |

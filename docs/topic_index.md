@@ -58,6 +58,7 @@
 | 191 | 👑 **Brian Kernighan**<br>[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And, Bit-Manipulation | [C++](problems/0191.md) | O(K) | O(1) | 2026-09-14 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation, Hash Table | [C++](problems/0389.md) | O(N) | O(1) | 2026-09-17 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0389.md) | O(N) | O(N) | 2026-09-17 |
+| 416 | 👑 **0/1 Knapsack**<br>[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) | 2026-09-18 |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](problems/0476.md) | O(logN) | O(1) | 2026-09-17 |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](problems/1009.md) | O(logN) | O(1) | 2026-09-17 |
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 Medium | Bit Manipulation, Bit Manipulation | [C++](problems/1680.md) | O(N) | O(1) | 2026-09-18 |
@@ -216,6 +217,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](problems/0206.md) | O(N) | O(1) | 2026-09-16 |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | 🟢 Easy | Linked List | [C++](problems/0237.md) | O(1) | O(1) | 2026-09-16 |
+
+---
+
+## 🧩 Dynamic Programming
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Dp Knapsack, 0-1 Knapsack | [C++](problems/0416.md) | O(N\*S) | O(NS) | 2026-09-18 |
 
 ---
 

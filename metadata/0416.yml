@@ -18,7 +18,10 @@ solutions:
 
     > **所以最後取 bits[sum >> 1]表示存在(sum / 2)數可以被nums 中的子集合相加;'
   is_best: true
-  tricks: null
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: 0/1 Knapsack
 - file: Solution_0416_1.cpp
@@ -33,4 +36,7 @@ solutions:
   familiarity: 練習過
   related:
   - 1049
-  tricks: null
+  attempts:
+  - date: '2026-09-18'
+    result: 對
+    reason: null
