@@ -5,13 +5,18 @@ solutions:
 - file: Solution_2595.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Bit Manipulation And
   topics:
   - bit-manipulation-and
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-19'
   note: '> [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits)<br>
 
     > for(int i = 0; n > 0; n >>= 1, i ^= 1) res[i] += (n & 1);<br>'
   is_best: true
+  attempts:
+  - date: '2026-09-19'
+    result: 對
+    reason: null

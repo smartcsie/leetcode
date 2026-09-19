@@ -63,7 +63,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 136 | 👑 **Accumulate XOR**<br>[Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit Manipulation Xor, Bit-Manipulation | [C++](problems/0136.md) | O(N) | O(1) | 2026-09-14 |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit Manipulation, Bit-Manipulation | [C++](problems/0190.md) | O(1) | O(1) | 2026-09-17 |
-| 191 | 👑 **Brian Kernighan**<br>[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And, Bit-Manipulation | [C++](problems/0191.md) | O(K) | O(1) | 2026-09-14 |
+| 191 | 👑 **Brian Kernighan**<br>[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And, Bit-Manipulation | [C++](problems/0191.md) | O(K) | O(1) | 2026-09-19 |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And | [C++](problems/0191.md) | O(1) | O(1) | 2026-09-19 |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Bit Manipulation | [C++](problems/0349.md) | O(N+M) | O(N) | 2026-09-19 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation, Hash Table | [C++](problems/0389.md) | O(N) | O(1) | 2026-09-17 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0389.md) | O(N) | O(N) | 2026-09-17 |
@@ -89,6 +90,7 @@
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/2425.md) | O(N+M) | O(1) | 2026-09-18 |
 | 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | Bit Manipulation, Greedy | [C++](problems/2429.md) | O(1) | O(1) | 2026-09-18 |
 | 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 Medium | Bit Manipulation Xor, Prefix XOR Inverse | [C++](problems/2433.md) | O(N) | O(N) | 2026-09-18 |
+| 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation And | [C++](problems/2595.md) | O(logN) | O(1) | 2026-09-19 |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation, Bitmask | [C++](problems/2605.md) | O(N+M) | O(1) | 2026-09-17 |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation | [C++](problems/2605.md) | O(1) | O(1) | 2026-09-17 |
 | 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 Medium | Bit Manipulation Xor, Math | [C++](problems/2683.md) | O(N) | O(1) | 2026-09-18 |
