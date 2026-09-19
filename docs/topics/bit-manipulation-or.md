@@ -8,12 +8,11 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（2）
+## 🟡 練習過（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 Easy | Bit Manipulation Or | [C++](../problems/2917.md) | O(N\*log(max_VAL)) | O(1) |  |
-| 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 Easy | Bit Manipulation Or | [C++](../problems/3688.md) | O(N) | O(1) |  |
 
 ## 🟣 易忘（2）
 
@@ -22,10 +21,11 @@
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | Bit Manipulation Or | [C++](../problems/1318.md) | O(1) | O(1) | 2026-09-18 |
 | 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 Easy | Bit Manipulation, Math | [C++](../problems/3314.md) | O(N) | O(N) |  |
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 Easy | Bit Manipulation Or, Bit Manipulation | [C++](../problems/1684.md) | O(N\*M) | O(1) | 2026-09-17 |
 | 2317 | [Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation Or | [C++](../problems/2317.md) | O(N) | O(1) | 2026-09-14 |
 | 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | 🟢 Easy | Bit Manipulation Or, Math | [C++](../problems/2980.md) | O(N) | O(1) | 2026-09-19 |
+| 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 Easy | Bit Manipulation Or | [C++](../problems/3688.md) | O(N) | O(1) | 2026-09-19 |
