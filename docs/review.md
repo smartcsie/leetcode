@@ -565,7 +565,7 @@
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
 | [binary-search-tree](topics/binary-search-tree.md) | 0 | 1 | 14 | 0 | 1 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 1 | 2 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 0 | 11 | 3 | 7 | 14 | 0 | 35 |
+| [bit-manipulation](topics/bit-manipulation.md) | 0 | 11 | 4 | 7 | 14 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 3 | 5 | 2 | 0 | 0 | 10 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 1 | 2 | 0 | 0 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 3 | 2 | 2 | 0 | 7 |
@@ -612,7 +612,7 @@
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 2 | 0 | 1 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 3 | 8 | 4 | 0 | 10 | 0 | 25 |
 | [hash-table-existence](topics/hash-table-existence.md) | 2 | 3 | 4 | 1 | 9 | 0 | 19 |
-| [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 3 | 8 | 0 | 3 | 0 | 14 |
+| [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 3 | 7 | 0 | 3 | 0 | 13 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 3 | 2 | 0 | 4 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 6 | 6 | 1 | 5 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 0 | 3 | 10 | 3 | 1 | 0 | 17 |

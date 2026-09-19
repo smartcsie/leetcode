@@ -64,6 +64,7 @@
 | 136 | 👑 **Accumulate XOR**<br>[Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit Manipulation Xor, Bit-Manipulation | [C++](problems/0136.md) | O(N) | O(1) | 2026-09-14 |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit Manipulation, Bit-Manipulation | [C++](problems/0190.md) | O(1) | O(1) | 2026-09-17 |
 | 191 | 👑 **Brian Kernighan**<br>[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And, Bit-Manipulation | [C++](problems/0191.md) | O(K) | O(1) | 2026-09-14 |
+| 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Bit Manipulation | [C++](problems/0349.md) | O(N+M) | O(N) | 2026-09-19 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation, Hash Table | [C++](problems/0389.md) | O(N) | O(1) | 2026-09-17 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0389.md) | O(N) | O(N) | 2026-09-17 |
 | 416 | 👑 **0/1 Knapsack**<br>[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) | 2026-09-18 |

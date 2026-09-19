@@ -5,10 +5,14 @@ solutions:
 - file: Solution_0349.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Intersection
+  - Bit Manipulation
   topics:
-  - hash-table-intersection
+  - bit-manipulation
   time: O(N+M)
   space: O(N)
   familiarity: 練習過
   is_best: true
+  attempts:
+  - date: '2026-09-19'
+    result: 對
+    reason: null
