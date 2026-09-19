@@ -13,12 +13,11 @@
 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 Easy | Bit Manipulation And | [C++](../problems/0693.md) | O(logn) | O(1) |  |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation And | [C++](../problems/3120.md) | O(N) | O(1) | 2026-09-17 |
 
-## 🟡 練習過（3）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2275 | [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | 🟡 Medium | Bit Manipulation And, Greedy | [C++](../problems/2275.md) | O(32\*N) | O(1) |  |
-| 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 Easy | Bit Manipulation And, Hash Table, Bit Manipulation | [C++](../problems/2309.md) | O(N) | O(1) |  |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | Bit Manipulation And, Greedy, Array | [C++](../problems/2419.md) | O(N) | O(1) |  |
 
 ## 🟣 易忘（2）

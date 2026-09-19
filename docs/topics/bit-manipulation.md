@@ -43,7 +43,7 @@
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 Easy | Bit Manipulation | [C++](../problems/1832.md) | O(N) | O(1) | 2026-09-17 |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |  |
 
-## 🟢 熟悉（18）
+## 🟢 熟悉（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -55,6 +55,7 @@
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 Easy | Bit Manipulation, String, Hash Table | [C++](../problems/1832.md) | O(N) | O(1) | 2026-09-17 |
 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 Easy | Bit Manipulation, Bitset, Simulation | [C++](../problems/1893.md) | O(N\*L) | O(1) | 2026-09-17 |
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [C++](../problems/2032.md) | O(N1+N2+N3) | O(1) | 2026-09-17 |
+| 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 Easy | Bit Manipulation, Hash Table, Bit Manipulation | [C++](../problems/2309.md) | O(N) | O(1) | 2026-09-19 |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation | [C++](../problems/2605.md) | O(1) | O(1) | 2026-09-17 |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Bit Manipulation, Hash Set | [C++](../problems/2716.md) | O(N) | O(1) | 2026-09-17 |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Bit Manipulation | [C++](../problems/2716.md) | O(N) | O(1) | 2026-09-17 |

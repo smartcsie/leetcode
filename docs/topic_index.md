@@ -86,6 +86,7 @@
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [C++](problems/2032.md) | O(N1+N2+N3) | O(1) | 2026-09-17 |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](problems/2133.md) | O(N²) | O(N) | 2026-09-17 |
 | 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) | 🟢 Easy | Bit Manipulation | [C++](problems/2220.md) | O(log(max(START,GOAL))) | O(1) | 2026-09-18 |
+| 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 Easy | Bit Manipulation, Hash Table, Bit Manipulation | [C++](problems/2309.md) | O(N) | O(1) | 2026-09-19 |
 | 2317 | 👑 **Accumulate OR**<br>[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 Medium | Bit Manipulation Or | [C++](problems/2317.md) | O(N) | O(1) | 2026-09-14 |
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/2425.md) | O(N+M) | O(1) | 2026-09-18 |
 | 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | Bit Manipulation, Greedy | [C++](problems/2429.md) | O(1) | O(1) | 2026-09-18 |
