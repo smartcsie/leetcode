@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：159 題　🟡 練習過：332 題　🟣 易忘：104 題　🟢 熟練：164 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：159 題　🟡 練習過：331 題　🟣 易忘：104 題　🟢 熟練：165 題　⚪ 未標記：0 題
 
 ---
 
@@ -568,7 +568,7 @@
 | [bit-manipulation](topics/bit-manipulation.md) | 0 | 11 | 4 | 7 | 14 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 3 | 5 | 2 | 0 | 0 | 10 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 1 | 2 | 0 | 0 | 0 | 3 |
-| [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 3 | 2 | 2 | 0 | 7 |
+| [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 2 | 2 | 3 | 0 | 7 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 3 | 2 | 5 | 7 | 0 | 17 |
 | [design](topics/design.md) | 0 | 5 | 1 | 3 | 0 | 0 | 9 |
 | [dp-bitmask](topics/dp-bitmask.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
