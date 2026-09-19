@@ -204,6 +204,7 @@
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/2053.md) | O(N) | O(N) | 2026-09-15 |
 | 2085 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | 🟢 Easy | Hash Table Counting, Hash Map, Bitmask | [C++](problems/2085.md) | O(N+M) | O(N+M) | 2026-09-17 |
 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 Medium | Hash Table Existence, Hash Table, Counting | [C++](problems/2150.md) | O(N) | O(N) | 2026-09-15 |
+| 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/2248.md) | O(N\*M) | O(N) | 2026-09-19 |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 Easy | Hash Table Counting, Hash Map, Counting | [C++](problems/2283.md) | O(N) | O(1) | 2026-09-15 |
 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](problems/2342.md) | O(N\*logM) | O(N) | 2026-09-15 |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](problems/2351.md) | O(N) | O(1) | 2026-09-15 |
