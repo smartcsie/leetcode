@@ -11,7 +11,12 @@ solutions:
   time: O(N+M)
   space: O(min(N,M))
   familiarity: 再練習
+  tricks:
+  - compare count one side limit
   attempts:
   - date: '2026-09-19'
+    result: 對
+    reason: null
+  - date: '2026-09-20'
     result: 對
     reason: null

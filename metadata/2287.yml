@@ -12,7 +12,12 @@ solutions:
   - hash-table-intersection
   time: O(N+M)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
   related:
   - 1160
   - 1189
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
