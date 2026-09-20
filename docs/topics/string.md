@@ -14,7 +14,7 @@
 | 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 Easy | String, Simulation, Math | [C++](../problems/2138.md) | O(N) | O(N) |  |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | Greedy, String | [C++](../problems/3798.md) | O(N) | O(1) |  |
 
-## 🟡 練習過（29）
+## 🟡 練習過（28）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -38,7 +38,6 @@
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | String, Simulation | [C++](../problems/2243.md) | O(N\*logN) | O(N) |  |
 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 Easy | String, Simulation | [C++](../problems/2255.md) | O(N\*M) | O(1) |  |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String | [C++](../problems/2490.md) | O(N) | O(1) |  |
-| 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | Array, String | [C++](../problems/2828.md) | O(N) | O(1) |  |
 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 Easy | String, Simulation | [C++](../problems/2839.md) | O(1) | O(1) |  |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](../problems/2937.md) | O(min(L1,L2,L3)) | O(1) |  |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | String Search | [C++](../problems/2942.md) | O(N\*L) | O(1) |  |
@@ -57,7 +56,7 @@
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String, String Manipulation, Bit Format | [C++](../problems/3280.md) | O(1) | O(1) |  |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) |  |
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -65,3 +64,5 @@
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String | [C++](../problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) | 2026-09-18 |
 | 1961 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | 🟢 Easy | String, Simulation | [C++](../problems/1961.md) | O(S) | O(S) | 2026-09-20 |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | String | [C++](../problems/2114.md) | O(N\*M) | O(1) | 2026-09-20 |
+| 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | String | [C++](../problems/2828.md) | O(N) | O(1) | 2026-09-20 |
+| 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | String | [C++](../problems/2828.md) |  |  | 2026-09-20 |

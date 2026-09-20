@@ -5,13 +5,35 @@ solutions:
 - file: Solution_2828.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
   - String
   topics:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
   note: '> 如果vector<string> words size和 s size不同，return false<br>
 
     > for loop i 從 0 ~ s.size() - 1，if(words[i][0] != s[i]) return false;<br>'
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
+- file: Solution_2828_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: ''
+  space: ''
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
+  tricks:
+  - accumulate string
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: accumulate string
