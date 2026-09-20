@@ -5,10 +5,15 @@ solutions:
 - file: Solution_0709.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - String Character Classification
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
   note: '> **for(char& c : s ) if(isupper(c)) c += 32;** <br>'
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
