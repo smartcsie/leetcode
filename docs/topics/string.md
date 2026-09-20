@@ -4,10 +4,11 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（6）
+## 🟠 再練習（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](../problems/0058.md) | O(N) | O(1) | 2026-09-20 |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | String, Two Pointers | [C++](../problems/0524.md) | O(DlogD+D\*M) | O(1) |  |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 Medium | Stack, String | [C++](../problems/1910.md) | O(N\*M) | O(N) |  |
 | 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 Easy | String, Simulation | [C++](../problems/1945.md) | O(N+K\*log(SUM)) | O(1) |  |
@@ -15,12 +16,11 @@
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | String, Simulation | [C++](../problems/2243.md) | O(N\*logN) | O(N) | 2026-09-20 |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | Greedy, String | [C++](../problems/3798.md) | O(N) | O(1) |  |
 
-## 🟡 練習過（23）
+## 🟡 練習過（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String | [C++](../problems/0014.md) | O(S) | O(1) |  |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](../problems/0058.md) | O(N) | O(1) |  |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String, Two Pointers | [C++](../problems/0151.md) | O(N) | O(N) |  |
 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](../problems/0434.md) | O(N) | O(1) |  |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 Medium | String, Counting Sort | [C++](../problems/0791.md) | O(N+M) | O(1) |  |

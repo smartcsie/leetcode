@@ -10,5 +10,8 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> **right >= 0，因為如果只有right > 0，只有一個字元的case會漏掉**<br>'
+  familiarity: 再練習
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null

@@ -16,11 +16,13 @@
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-        int right = s.size() - 1;
-        int ans = 0;
-        while(right >= 0 &&  s[right] == ' ') right--;
-        int left = right;
-        while(left >= 0 && s[left] != ' ') left--;
-        return right - left;;
+        int len = 0;
+        int idx = s.size() - 1;
+        while(idx >= 0 && s[idx] == ' ') idx--;
+        while(idx >= 0 && s[idx] != ' ') {
+            idx--;
+            len++;
+        }
+        return len;
     }
 };
