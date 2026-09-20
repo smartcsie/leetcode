@@ -62,6 +62,7 @@
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | String, Simulation | [C++](problems/2243.md) | O(N\*logN) | O(N) | 2026-09-20 |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | String Character Classification | [C++](problems/2586.md) | O(N) | O(1) | 2026-09-20 |
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String Character Classification | [C++](problems/2678.md) | O(N) | O(1) | 2026-09-20 |
+| 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String Character Classification | [C++](problems/2710.md) | O(N) | O(1) | 2026-09-20 |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | String | [C++](problems/2828.md) | O(N) | O(1) | 2026-09-20 |
 | 2828 | 👑 **accumulate string**<br>[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | String | [C++](problems/2828.md) |  |  | 2026-09-20 |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](problems/2937.md) | O(min(L1,L2,L3)) | O(1) | 2026-09-20 |

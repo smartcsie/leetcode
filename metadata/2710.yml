@@ -5,20 +5,20 @@ solutions:
 - file: Solution_2710.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
-  - Two Pointers
+  - String Character Classification
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
   note: '> 類似 3856[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/)
     <br>
 
-    > **while (!num.empty() && num.back() == ''0''){** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**num.pop_back();** <br>
-
-    > **}** <br>'
+    > **while (!num.empty() && num.back() == ''0''){** <br>'
   related:
   - 3856
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null

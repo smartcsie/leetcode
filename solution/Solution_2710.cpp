@@ -15,10 +15,7 @@
 class Solution {
 public:
     std::string removeTrailingZeros(std::string num) {
-        // 使用 pop_back 直接修改，無需額外空間分配
-        while (!num.empty() && num.back() == '0') {
-            num.pop_back();
-        }
+        while(!num.empty() && num.back() == '0') num.pop_back();
         return num;
     }
 };
