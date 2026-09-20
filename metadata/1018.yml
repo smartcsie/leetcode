@@ -11,7 +11,11 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **[overflow handle] num = ((num << 1) | x) % 5;**<br>'
   tricks:
   - overflow handle
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
