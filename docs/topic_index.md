@@ -68,6 +68,7 @@
 | 2828 | 👑 **accumulate string**<br>[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | String | [C++](problems/2828.md) |  |  | 2026-09-20 |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](problems/2937.md) | O(min(L1,L2,L3)) | O(1) | 2026-09-20 |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | String | [C++](problems/2942.md) | O(N\*L) | O(1) | 2026-09-20 |
+| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String Character Classification | [C++](problems/3110.md) | O(N) | O(1) | 2026-09-20 |
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Character Classification, String Processing | [C++](problems/3121.md) | O(N) | O(1) | 2026-09-20 |
 | 3136 | 👑 **isalnum**<br>[Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String Character Classification, Validation | [C++](problems/3136.md) | O(N) | O(1) | 2026-09-20 |
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | String | [C++](problems/3498.md) | O(N) | O(1) | 2026-09-20 |
