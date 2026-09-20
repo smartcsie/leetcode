@@ -5,10 +5,14 @@ solutions:
 - file: Solution_1436.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
-  - Hash Table
+  - Hash Table Mapping
   topics:
   - hash-table-mapping
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null

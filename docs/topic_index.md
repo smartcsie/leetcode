@@ -236,6 +236,7 @@
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 Easy | Hash Table Intersection | [C++](problems/1160.md) | O(N) | O(1) | 2026-09-20 |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | Hash Table Intersection | [C++](problems/1189.md) | O(N) | O(1) | 2026-09-19 |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/1394.md) | O(N) | O(1) | 2026-09-16 |
+| 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | Hash Table Mapping | [C++](problems/1436.md) | O(N) | O(N) | 2026-09-20 |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/1748.md) | O(N) | O(N) | 2026-09-16 |
 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 Easy | Hash Table Uniqueness, Simulation | [C++](problems/1790.md) | O(N) | O(1) | 2026-09-16 |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/1897.md) | O(N\*M) | O(1) | 2026-09-16 |
