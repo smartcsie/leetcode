@@ -12,11 +12,10 @@
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | 2026-09-20 |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | 2026-09-20 |
 
-## 🟡 練習過（8）
+## 🟡 練習過（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String | [C++](../problems/0520.md) | O(N) | O(1) |  |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 Medium | String, Hash Table, Counting | [C++](../problems/1347.md) | O(N) | O(1) |  |
 | 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 Easy | Bit Manipulation, String | [C++](../problems/1704.md) | O(N) | O(1) |  |
 | 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String, Hash Table | [C++](../problems/1796.md) | O(N) | O(1) |  |
@@ -29,10 +28,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（11）
+## 🟢 熟悉（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String Character Classification | [C++](../problems/0520.md) | O(N) | O(1) | 2026-09-20 |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String Character Classification | [C++](../problems/0709.md) | O(N) | O(1) | 2026-09-20 |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String Character Classification | [C++](../problems/1903.md) | O(N) | O(1) | 2026-09-20 |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String Character Classification | [C++](../problems/2124.md) | O(N) | O(1) | 2026-09-20 |

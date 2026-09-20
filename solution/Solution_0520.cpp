@@ -16,10 +16,10 @@
 class Solution {
 public:
     bool detectCapitalUse(string word) {
-        int count = 0;
-        for(const char& c : word) {
-            if(isupper(c)) count++;
-        }
-        return (count == 0) || (count == word.size()) || (count == 1 && isupper(word[0]));
+        int lowers = count_if(word.begin(), word.end(), [](unsigned char c) {
+            return islower(c);
+        });
+        int n = word.size();
+        return lowers == 0 || lowers == n || (lowers == n - 1 && isupper(word[0]));
     }
 };

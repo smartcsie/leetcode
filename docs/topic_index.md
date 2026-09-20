@@ -54,6 +54,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](problems/0058.md) | O(N) | O(1) | 2026-09-20 |
+| 520 | 👑 **count_if**<br>[Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String Character Classification | [C++](problems/0520.md) | O(N) | O(1) | 2026-09-20 |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String Character Classification | [C++](problems/0709.md) | O(N) | O(1) | 2026-09-20 |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 Easy | String | [C++](problems/1108.md) | O(N) | O(N) | 2026-09-20 |
 | 1662 | 👑 **accumulate string**<br>[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String | [C++](problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) | 2026-09-18 |
