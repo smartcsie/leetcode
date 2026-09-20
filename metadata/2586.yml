@@ -5,10 +5,14 @@ solutions:
 - file: Solution_2586.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
-  - String
+  - String Character Classification
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null

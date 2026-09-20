@@ -15,13 +15,12 @@
 class Solution {
 public:
     int vowelStrings(vector<string>& words, int left, int right) {
-        int ans = 0;
-        for(int i = left; i <= right; i++) {
-            char c1 = words[i][0];
+        int count = 0;
+        for(int i = left ; i <= right; i++) {
+            char c1 = words[i].front();
             char c2 = words[i].back();
-            if( (0x104111 >> (c1 - 'a')) & 1  && (0x104111 >> (c2 - 'a')) & 1) ans++;
+            if((0x104111 >> (c1 - 'a')) & 1 && (0x104111 >> (c2 - 'a')) & 1) count++;
         }
-        return ans;
-    }
+        return count;
     }
 };
