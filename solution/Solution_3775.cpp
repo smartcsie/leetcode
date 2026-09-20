@@ -8,23 +8,17 @@
  */
 
 class Solution {
-private:
-    int countVowels(const string& s) {
-        return accumulate(s.begin(), s.end(), 0,  [](int count ,char c) {
-            if((0x104111 >> (c - 'a')) & 1) count++;
-            return count;
-        });
-    }
 public:
     string reverseWords(string s) {
         istringstream iss(s);
         string w;
         int vowels = -1;
-        string ans = w;
+        string ans;
         while(iss >> w) {
-            int curVowels = countVowels(w);
-            if(vowels == -1) vowels = curVowels;
-            else if(curVowels == vowels) reverse(w.begin(), w.end());
+            int count = 0;
+            for(const char& c : w) if((0x104111 >> (c - 'a')) & 1) count++;
+            if(vowels == -1) vowels = count;
+            else if(count == vowels) reverse(w.begin(), w.end());
             ans += w;
             ans.push_back(' ');
         }

@@ -4,14 +4,15 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 Easy | Array, String, Simulation | [C++](../problems/2496.md) | O(N\*L) | O(1) |  |
+| 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | 2026-09-20 |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | 2026-09-20 |
 
-## 🟡 練習過（13）
+## 🟡 練習過（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27,7 +28,6 @@
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 Easy | String | [C++](../problems/3110.md) | O(N) | O(1) |  |
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Processing | [C++](../problems/3121.md) | O(N) | O(1) |  |
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String, Validation | [C++](../problems/3136.md) | O(N) | O(1) |  |
-| 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) |  |
 
 ## 🟣 易忘（0）
 
