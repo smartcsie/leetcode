@@ -5,25 +5,19 @@ solutions:
 - file: Solution_3856.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
-  - Two Pointers
+  - String Character Classification
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> while loop檢查 s.back()是不是Vowel，如果是，移除<br>
-
-    > **while (!s.empty() && isVowel(s.back())) {** <br>
-
-    > **&emsp;&emsp;&emsp;&emsp;s.pop_back();** <br>
-
-    > **}** <br>
-
-
-
-
-
-    <br><br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
+  note: '> **記得先判斷!s.empty()**<br>'
   related:
   - 2170
+  tricks:
+  - vowel
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null

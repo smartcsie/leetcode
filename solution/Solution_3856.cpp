@@ -11,18 +11,9 @@
  */
 
 class Solution {
-private:
-    // 利用位元遮罩快速檢查字元是否為母音
-    // 數字 2130466 在二進位中，對應 a, e, i, o, u 的位置皆為 1
-    bool isVowel(char c) {
-        return (0x104111 >> (c - 'a')) & 1;
-    }
 public:
-    std::string trimTrailingVowels(std::string s) {
-        // 持續檢查尾端，直到為空或尾端不再是母音
-        while (!s.empty() && isVowel(s.back())) {
-            s.pop_back();
-        }
+    string trimTrailingVowels(string s) {
+        while(!s.empty() && (0x104111 >> (s.back() - 'a')) & 1) s.pop_back();
         return s;
     }
 };
