@@ -15,12 +15,11 @@
 class Solution {
 public:
     int findNumbers(vector<int>& nums) {
-        int ans = 0;
+        int count = 0;
         for(const int& x : nums) {
-            if((x >= 10 && x <= 99) || (x >= 1000 && x <= 9999 || x == 100000)) {
-                ans++;
-            }
+            int digits = static_cast<int>(log10(x)) + 1;
+            if(!(digits & 1)) count++;
         }
-        return ans;
+        return count;
     }
 };

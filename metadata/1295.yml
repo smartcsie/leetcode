@@ -5,11 +5,20 @@ solutions:
 - file: Solution_1295.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
   - Math
   topics:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> 三種case窮舉判斷 <br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
+  note: '> **取10進制位數，static_cast<int>(log10(x)) + 1**<br>'
+  tricks:
+  - number digits
+  - log10
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: number digits
