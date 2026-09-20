@@ -70,6 +70,7 @@
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | String | [C++](problems/3498.md) | O(N) | O(1) | 2026-09-20 |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](problems/3813.md) | O(N) | O(1) | 2026-09-20 |
 | 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | String Character Classification | [C++](problems/3856.md) | O(N) | O(1) | 2026-09-20 |
+| 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String Character Classification, Math | [C++](problems/3931.md) | O(N) | O(1) | 2026-09-20 |
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 Easy | String, Simulation, Math | [C++](problems/3986.md) | O(1) | O(1) | 2026-09-20 |
 
 ---
