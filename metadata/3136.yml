@@ -29,3 +29,8 @@ solutions:
   - date: '2026-09-20'
     result: 對
     reason: null
+  - date: '2026-09-20'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: isalnum
