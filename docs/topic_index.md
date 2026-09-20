@@ -55,6 +55,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 Easy | String | [C++](problems/1108.md) | O(N) | O(N) | 2026-09-20 |
 | 1662 | 👑 **accumulate string**<br>[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String | [C++](problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) | 2026-09-18 |
+| 1961 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | 🟢 Easy | String, Simulation | [C++](problems/1961.md) | O(S) | O(S) | 2026-09-20 |
 
 ---
 

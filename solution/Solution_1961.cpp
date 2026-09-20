@@ -17,10 +17,11 @@ class Solution {
 public:
     bool isPrefixString(string s, vector<string>& words) {
         string t;
-        for (const string& word : words) {
+        for(const string& word : words) {
             t += word;
-            if(t.size() >= s.size()) break;
+            if(t == s) return true;
+            if(t.size() > s.size()) break;
         }
-        return s == t;
+        return false;
     }
 };
