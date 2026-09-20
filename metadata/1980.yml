@@ -11,6 +11,13 @@ solutions:
   - math
   time: O(N²)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
   note: '> **康托爾對角線證明 (Cantor''s Diagonal Argument)**，第i個binary string的第i個character反轉，能產生不重覆的binary
-    string<br>'
+    string**<br>'
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Cantor's Diagonal Argument
