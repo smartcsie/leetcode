@@ -5,17 +5,27 @@ solutions:
 - file: Solution_3136.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - String Character Classification
   - Validation
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> 如果是不是數字不是字母return false;br>
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
+  note: '> **如果是不是數字不是字母return false;**<br>
 
-    > 如果是數字，continue<br>
+    > **如果是數字，continue**<br>
 
-    > 如果是大小寫字母，代入isVowel，計數vowel或consonant<br>
+    > **如果是大小寫字母，代入isVowel，計數vowel或consonant**<br>
 
-    > 最後 (vowel >= 1) && (consonant >= 1)<br>'
+    > *最後 (vowel >= 1) && (consonant >= 1)**<br>'
+  tricks:
+  - isalnum
+  - isdigit
+  - isalpha
+  - vowel
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
