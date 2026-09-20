@@ -5,9 +5,16 @@ solutions:
 - file: Solution_3813.cpp
   difficulty: 🟢 Easy
   tags:
-  - String Processing
+  - String Character Classification
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
   familiarity: 練習過
+  note: '> **注意最後除0**，return consonant == 0 ? 0 : vowels / consonant;**<br>'
+  tricks:
+  - vowel
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
