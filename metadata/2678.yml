@@ -5,16 +5,20 @@ solutions:
 - file: Solution_2678.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - String Character Classification
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)  <br>
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
+  note: '> **Index 11和12是age，int age = 10 * (detail[11] - ''0'') + (detail[12] - ''0'');**
+    <br>
 
-    > Index 11和12是age <br>
-
-    > int age = 10 * (detail[11] - ''0'') + (detail[12] - ''0'');<br>
-
-    > if( age > 60) citizens++;<br>'
+    > ** if( age > 60) citizens++;** <br>'
+  tricks:
+  - string parser
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
