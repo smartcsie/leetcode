@@ -37,4 +37,4 @@
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | 2d Array | [C++](../problems/2022.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](../problems/2319.md) | O(N²) | O(1) | 2026-09-16 |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 Medium | 2d Array, Prefix Sum, Matrix, Precomputation | [C++](../problems/2482.md) | O(M\*N) | O(M+N) | 2026-09-16 |
-| 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | 2d Array, Math | [C++](../problems/2923.md) | O(N²) | O(1) | 2026-09-16 |
+| 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | 2d Array, Math | [C++](../problems/2923.md) | O(N²) | O(1) | 2026-09-20 |
