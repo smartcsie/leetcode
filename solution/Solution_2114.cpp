@@ -14,14 +14,11 @@
 class Solution {
 public:
     int mostWordsFound(vector<string>& sentences) {
-        int maxCount = -1;
-        for(const string& sentence : sentences) {
-            int wordCount = 1;
-            for(const char& c : sentence) {
-                if(c == ' ') wordCount++;
-            }
-            maxCount = max(maxCount, wordCount);
+        int mx = 0;
+        for(const string& s : sentences) {
+            int segments = count(s.begin(), s.end(), ' ') + 1;
+            mx = max(mx, segments);
         }
-        return maxCount;
+        return mx;
     }
 };

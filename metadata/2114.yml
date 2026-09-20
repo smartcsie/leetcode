@@ -6,12 +6,15 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - String
-  - Array
   topics:
   - string
   time: O(N*M)
   space: O(1)
-  familiarity: 練習過
-  note: '> 用 434. [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string)的方法計算每個string的segment數量<br>
-
-    > mostSize = max(mostSize, segment);<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
+  tricks:
+  - count
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
