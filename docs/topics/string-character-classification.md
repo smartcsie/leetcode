@@ -4,11 +4,10 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（2）
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String Character Classification | [C++](../problems/2124.md) | O(N) | O(1) | 2026-09-20 |
 | 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 Easy | Array, String, Simulation | [C++](../problems/2496.md) | O(N\*L) | O(1) |  |
 
 ## 🟡 練習過（15）
@@ -35,11 +34,12 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String Character Classification | [C++](../problems/1903.md) | O(N) | O(1) | 2026-09-20 |
+| 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String Character Classification | [C++](../problems/2124.md) | O(N) | O(1) | 2026-09-20 |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | String Character Classification | [C++](../problems/2586.md) | O(N) | O(1) | 2026-09-20 |
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String Character Classification | [C++](../problems/2678.md) | O(N) | O(1) | 2026-09-20 |
 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String Character Classification | [C++](../problems/2710.md) | O(N) | O(1) | 2026-09-20 |
