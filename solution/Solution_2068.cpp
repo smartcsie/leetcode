@@ -22,17 +22,11 @@
 class Solution {
 public:
     bool checkAlmostEquivalent(std::string word1, std::string word2) {
-        std::vector<int> counts(26, 0);
-        // 同步累加與累減字元頻率
-        for (size_t i = 0; i < word1.size(); ++i) {
-            counts[word1[i] - 'a']++;
-            counts[word2[i] - 'a']--;
-        }
-        // 檢查每個字母的頻率絕對差是否超過 3
-        for (int i = 0; i < 26; ++i) {
-            if (std::abs(counts[i]) > 3) {
-                return false;
-            }
+        vector<int> count(26, 0);
+        for(const char& c : word1) count[c - 'a']++;
+        for(const char& c : word2) count[c - 'a']--;
+        for(int i = 0; i < 26; i++) {
+            if(abs(count[i]) > 3) return false;
         }
         return true;
     }
