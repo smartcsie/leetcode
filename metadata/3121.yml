@@ -5,12 +5,18 @@ solutions:
 - file: Solution_3121.cpp
   difficulty: 🟡 Medium
   tags:
+  - String Character Classification
   - String Processing
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> 大寫紀錄最左邊，小寫紀錄最右邊<br>
+  familiarity: 熟練
+  mastered_date: '2026-09-20'
+  note: '> **大寫紀錄最左邊，小寫紀錄最右邊**<br>
 
-    > 最後count計算所有char，小寫index在大寫前面(小於)'
+    > **最後count計算所有char，小寫index在大寫前面(小於)**<br>'
+  attempts:
+  - date: '2026-09-20'
+    result: 對
+    reason: null
