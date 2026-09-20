@@ -25,16 +25,14 @@ class Solution {
 public:
     bool checkDistances(std::string s, std::vector<int>& distance) {
         vector<int> first(26, -1);
-        for (int i = 0; i < s.size(); ++i) {
-            if (first[idx] == -1) {
-                // 第一次出現，記錄位置
-                first[idx] = i;
-            } else {
-                // 第二次出現，直接在這裡檢查距離；如果不符合立即返回 false (Early Exit)
-                if ((i - first[idx] - 1) != distance[idx]) {
-                    return false;
-                }
-            }
+        vector<int> last(26, -1);
+        int n = s.size();
+        for(int i = 0, j = n - 1; i < n && j >= 0; i++, j--) {
+            if(first[s[i] - 'a'] == - 1) first[s[i] - 'a'] = i;
+            if(last[s[j] - 'a'] == - 1) last[s[j] - 'a'] = j;
+        }
+        for(int i = 0; i < 26; i++) {
+            if(last[i]!= -1 && first[i] != - 1 && (last[i] - first[i] - 1) != distance[i]) return false;
         }
         return true;
     }
