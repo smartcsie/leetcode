@@ -22,11 +22,12 @@ public:
     bool isPalindrome(string s) {
         int left = 0;
         int right = s.size() - 1;
-        for(char& c : s) if(isalpha(c)) c |= 32;
         while(left < right) {
             while(left < right && !isalnum(s[left])) left++;
             while(left < right && !isalnum(s[right])) right--;
-            if(left < right && s[left++] != s[right--]) return false;
+            if(left < right) {
+                if((s[left++] | 32) != (s[right--] | 32)) return false;
+            }
         }
         return true;
     }
