@@ -4987,10 +4987,11 @@
 <h1 id="461-hamming-distance">461. Hamming Distance<a class="headerlink" href="#461-hamming-distance" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/hamming-distance">在 LeetCode 上查看</a></p>
 <h2 id="hamming-distance">解法：hamming-distance<a class="headerlink" href="#hamming-distance" title="Permanent link">&para;</a></h2>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(K)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過　👑 <strong>代表題（__builtin_popcount）</strong></p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(K)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練　👑 <strong>代表題（__builtin_popcount）</strong></p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-09-18</strong> 對</li>
+<li>✅ <strong>2026-09-21</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：461. Hamming Distance (漢明距離)</span>
@@ -5023,6 +5024,7 @@
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-09-18</strong> 對</li>
+<li>✅ <strong>2026-09-21</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cm">/**</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cm"> * 題目：461. Hamming Distance</span>
@@ -5039,10 +5041,10 @@
 <a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="k">public</span><span class="o">:</span>
 <a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">hammingDistance</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">xorVal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">^</span><span class="w"> </span><span class="n">y</span><span class="p">;</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">^</span><span class="w"> </span><span class="n">y</span><span class="p">;</span>
 <a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">xorVal</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">            </span><span class="n">xorVal</span><span class="w"> </span><span class="o">&amp;=</span><span class="w"> </span><span class="p">(</span><span class="n">xorVal</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span><span class="w">  </span><span class="c1">// 每次消除最低位的 1</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">        </span><span class="k">while</span><span class="p">(</span><span class="n">z</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">            </span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">z</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="p">(</span><span class="n">z</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
 <a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">            </span><span class="n">count</span><span class="o">++</span><span class="p">;</span>
 <a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">        </span><span class="p">}</span>
 <a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">count</span><span class="p">;</span>
