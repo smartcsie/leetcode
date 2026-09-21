@@ -14,16 +14,11 @@
 class Solution {
 public:
     string clearDigits(string s) {
-        string res = "";
-        for(const char& ch : s) {
-            if(isdigit(ch)) {
-                if(!s.empty()) {
-                  res.pop_back();
-                }
-            } else  {
-                res.push_back(ch);
-            }
+        string t;
+        for(const char& c : s) {
+            if(!t.empty() && isdigit(c)) t.pop_back();
+            else t.push_back(c);
         }
-        return res;
+        return t;
     }
 };

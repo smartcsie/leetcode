@@ -6,9 +6,17 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Stack
-  - String
   topics:
   - stack
   time: O(N)
   space: O(N)
   familiarity: 練習過
+  related:
+  - 1047
+  - 2390
+  tricks:
+  - string stack
+  attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null

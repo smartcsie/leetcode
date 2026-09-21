@@ -22,8 +22,8 @@ public:
     string removeStars(string s) {
         string t;
         for(const char& c : s) {
-            if(c != '*') t.push_back(c);
-            else t.pop_back();
+            if(!t.empty() && c == '*') t.pop_back();
+            else t.push_back(c);
         }
         return t;
     }

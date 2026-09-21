@@ -25,7 +25,7 @@
 | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Array, Stack, Simulation | [C++](../problems/0682.md) | O(N) | O(N) |  |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 Medium | Stack, String | [C++](../problems/1003.md) | O(N) | O(N) |  |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 Easy | Stack, String Parsing | [C++](../problems/1078.md) | O(N) | O(N) |  |
-| 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 Easy | Stack, String | [C++](../problems/3174.md) | O(N) | O(N) |  |
+| 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 Easy | Stack | [C++](../problems/3174.md) | O(N) | O(N) | 2026-09-21 |
 
 ## 🟣 易忘（0）
 

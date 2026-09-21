@@ -13,9 +13,15 @@ solutions:
   space: O(N)
   familiarity: 熟練
   mastered_date: '2026-09-21'
+  related:
+  - 1047
+  - 3174
   tricks:
   - string stack
   attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
   - date: '2026-09-21'
     result: 對
     reason: null
