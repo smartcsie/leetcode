@@ -4,10 +4,11 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（6）
+## 🟠 再練習（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](../problems/0058.md) | O(N) | O(1) | 2026-09-21 |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | String, Two Pointers | [C++](../problems/0524.md) | O(DlogD+D\*M) | O(1) |  |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 Medium | Stack, String | [C++](../problems/1910.md) | O(N\*M) | O(N) |  |
 | 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 Easy | String, Simulation | [C++](../problems/1945.md) | O(N+K\*log(SUM)) | O(1) |  |
@@ -49,11 +50,10 @@
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String, String Manipulation, Bit Format | [C++](../problems/3280.md) | O(1) | O(1) |  |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) |  |
 
-## 🟢 熟悉（11）
+## 🟢 熟悉（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](../problems/0058.md) | O(N) | O(1) | 2026-09-21 |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 Easy | String | [C++](../problems/1108.md) | O(N) | O(N) | 2026-09-20 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String | [C++](../problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) | 2026-09-18 |
 | 1961 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | 🟢 Easy | String, Simulation | [C++](../problems/1961.md) | O(S) | O(S) | 2026-09-20 |
