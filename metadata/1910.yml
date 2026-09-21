@@ -5,7 +5,7 @@ solutions:
 - file: Solution_1910.cpp
   difficulty: 🟡 Medium
   tags:
-  - Stack
+  - String
   - String
   topics:
   - string
@@ -13,3 +13,9 @@ solutions:
   space: O(N)
   familiarity: 再練習
   note: '> res.compare(res.size() - k, k, part)'
+  attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: String Erase

@@ -12,23 +12,10 @@
 
 class Solution {
 public:
-    std::string removeOccurrences(std::string s, std::string part) {
-        std::string res;
-        // 預分配空間可以減少 push_back 時的記憶體重分配
-        res.reserve(s.size());
-        
-        size_t k = part.size();
-        
-        for (char c : s) {
-            res.push_back(c);
-            
-            // 當長度足夠時檢查尾部是否匹配 part
-            // 使用 compare 方法：compare(pos, len, str)
-            if (res.size() >= k && res.compare(res.size() - k, k, part) == 0) {
-                res.resize(res.size() - k);
-            }
+    string removeOccurrences(std::string s, std::string part) {
+        while(s.size()>0 && s.find(part)<s.size()){
+            s.erase(s.find(part),part.length());
         }
-        
-        return res;
+        return s;
     }
 };
