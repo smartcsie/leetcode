@@ -11,13 +11,16 @@ solutions:
   - string
   time: O(N*M)
   space: O(1)
-  familiarity: 練習過
-  note: '> [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)<br>
-
-    > **for(const string& word : words) {**
+  familiarity: 熟練
+  mastered_date: '2026-09-21'
+  note: '> **for(const string& word : words) {**
 
     > &emsp;&emsp;&emsp;&emsp**if(s.find(word) == 0) count++;**
 
     > **}**'
   related:
   - 2185
+  attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null

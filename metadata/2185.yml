@@ -11,10 +11,14 @@ solutions:
   - string
   time: O(N*M)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-21'
   related:
   - 2255
   attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
   - date: '2026-09-21'
     result: 對
     reason: null
