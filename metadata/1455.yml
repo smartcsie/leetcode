@@ -12,10 +12,16 @@ solutions:
   space: O(W)
   familiarity: 熟練
   mastered_date: '2026-09-21'
+  related:
+  - 2185
+  - 2255
   tricks:
   - istringstream
   - string prefix
   attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
   - date: '2026-09-21'
     result: 對
     reason: null

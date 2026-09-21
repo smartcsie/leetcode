@@ -5,17 +5,26 @@ solutions:
 - file: Solution_2185.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - String Character Classification
   - Simulation
   topics:
-  - string
+  - string-character-classification
   time: O(N*M)
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-21'
   related:
+  - 1455
   - 2255
+  tricks:
+  - String Prefix
   attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
+  - date: '2026-09-21'
+    result: 對
+    reason: null
   - date: '2026-09-21'
     result: 對
     reason: null
