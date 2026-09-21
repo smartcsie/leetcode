@@ -47,5 +47,5 @@
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Character Classification, String Processing | [C++](../problems/3121.md) | O(N) | O(1) | 2026-09-20 |
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String Character Classification, Validation | [C++](../problems/3136.md) | O(N) | O(1) | 2026-09-20 |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | String Character Classification, String | [C++](../problems/3798.md) | O(N) | O(1) | 2026-09-21 |
-| 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | String Character Classification | [C++](../problems/3856.md) | O(N) | O(1) | 2026-09-20 |
+| 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | String Character Classification | [C++](../problems/3856.md) | O(N) | O(1) | 2026-09-21 |
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String Character Classification, Math | [C++](../problems/3931.md) | O(N) | O(1) | 2026-09-20 |

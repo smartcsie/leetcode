@@ -16,9 +16,13 @@ solutions:
   related:
   - 1903
   - 2710
+  - 3856
   tricks:
   - remove trailing
   attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
   - date: '2026-09-21'
     result: 對
     reason: null

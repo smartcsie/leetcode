@@ -14,10 +14,16 @@ solutions:
   mastered_date: '2026-09-20'
   note: '> **記得先判斷!s.empty()**<br>'
   related:
-  - 2170
+  - 1903
+  - 2710
+  - 3798
   tricks:
   - vowel
+  - remove trailing
   attempts:
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-09-21'
     result: 對
     reason: null
