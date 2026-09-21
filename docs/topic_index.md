@@ -307,6 +307,7 @@
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Two Pointers Swap, Hash Table | [C++](problems/2441.md) | O(N) | O(N) | 2026-09-16 |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/2540.md) | O(N+M) | O(1) | 2026-09-15 |
 | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 Easy | Two Pointers Same | [C++](problems/2570.md) | O(N+M) | O(1) | 2026-09-18 |
+| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Two Pointers Same | [C++](problems/2864.md) | O(N) | O(1) | 2026-09-21 |
 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/3467.md) | O(N) | O(1) | 2026-09-16 |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/3794.md) | O(N) | O(1) | 2026-09-18 |
 | 3992 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | 🟡 Medium | Two Pointers Swap, Two Pointers | [C++](problems/3992.md) | O(N) | O(1) | 2026-09-16 |
@@ -348,6 +349,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 Easy | Greedy Coin Change | [C++](problems/0860.md) | O(N) | O(1) | 2026-09-17 |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy, Hashing | [C++](problems/2815.md) | O(N\*D) | O(1) | 2026-09-17 |
+| 2864 | 👑 **String Concatenation**<br>[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy String Construction, String | [C++](problems/2864.md) | O(N) | O(1) | 2026-09-21 |
 
 ---
 

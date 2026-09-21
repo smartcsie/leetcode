@@ -14,11 +14,6 @@ class Solution {
 public:
     string maximumOddBinaryNumber(string s) {
         int ones = count(s.begin(), s.end(), '1');
-        int zeros = s.size() - ones;
-        int idx = 0;
-        for(int i = 1; i <= ones -1; i++) s[idx++] = '1';
-        for(int i = 1; i <= zeros; i++) s[idx++] = '0';
-        s[s.size() - 1] = '1';
-        return s;
+        return string(ones - 1, '1') + string(s.size() - ones, '0') + '1';
     }
 };
