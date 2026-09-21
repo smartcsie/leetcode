@@ -28,12 +28,13 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（17）
+## 🟢 熟悉（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String Character Classification | [C++](../problems/0520.md) | O(N) | O(1) | 2026-09-20 |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String Character Classification | [C++](../problems/0709.md) | O(N) | O(1) | 2026-09-20 |
+| 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 Easy | String Character Classification, Parsing | [C++](../problems/1678.md) | O(N) | O(N) | 2026-09-21 |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 Easy | String Character Classification | [C++](../problems/1784.md) | O(N) | O(1) | 2026-09-21 |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String Character Classification | [C++](../problems/1903.md) | O(N) | O(1) | 2026-09-21 |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String Character Classification | [C++](../problems/2124.md) | O(N) | O(1) | 2026-09-21 |
