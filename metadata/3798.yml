@@ -15,7 +15,13 @@ solutions:
   mastered_date: '2026-09-21'
   related:
   - 1903
+  - 2710
+  tricks:
+  - remove trailing
   attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
   - date: '2026-09-21'
     result: 對
     reason: null
