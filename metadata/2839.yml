@@ -5,10 +5,13 @@ solutions:
 - file: Solution_2839.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
-  - Simulation
+  - String Character Classification
   topics:
-  - string
+  - string-character-classification
   time: O(1)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
+  attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
