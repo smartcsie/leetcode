@@ -14,7 +14,7 @@
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0942.md) | O(N) | O(N) |  |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/1750.md) | O(N) | O(1) |  |
 
-## 🟡 練習過（8）
+## 🟡 練習過（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -25,7 +25,6 @@
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | 🟢 Easy | Two Pointers Opposite | [C++](../problems/1332.md) | O(N) | O(1) |  |
 | 1877 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | 🟡 Medium | Two Pointers Opposite, Two Pointers, Greedy, Sorting | [C++](../problems/1877.md) | O(NlogN) | O(1) |  |
 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | Two Pointers | [C++](../problems/2108.md) | O(N\*L) | O(1) |  |
-| 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | Two-Pointers | [C++](../problems/3884.md) | O(N) | O(1) |  |
 
 ## 🟣 易忘（4）
 
@@ -36,8 +35,9 @@
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/0018.md) | O(N³) | O(1) |  |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0680.md) | O(N) | O(1) |  |
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0125.md) | O(N) | O(1) | 2026-09-21 |
+| 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | Two Pointers Opposite, Two-Pointers | [C++](../problems/3884.md) | O(N) | O(1) | 2026-09-21 |

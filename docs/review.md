@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：168 題　🟡 練習過：272 題　🟣 易忘：104 題　🟢 熟練：215 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：168 題　🟡 練習過：271 題　🟣 易忘：104 題　🟢 熟練：216 題　⚪ 未標記：0 題
 
 ---
 
@@ -658,7 +658,7 @@
 | [tree-traversal](topics/tree-traversal.md) | 0 | 0 | 1 | 3 | 3 | 0 | 7 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 1 | 3 | 8 | 4 | 1 | 0 | 17 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 1 | 3 | 7 | 4 | 2 | 0 | 17 |
 | [two-pointers-other](topics/two-pointers-other.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 1 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 9 | 5 | 1 | 3 | 2 | 0 | 20 |
