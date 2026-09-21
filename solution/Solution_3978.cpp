@@ -24,12 +24,7 @@
 class Solution {
 public:
     bool isMiddleElementUnique(vector<int>& nums) {
-        int middle = nums[nums.size() / 2];
-        int count = 0;
-        for(const int& num : nums) {
-            if(num == middle) count++;
-            if(count > 1)  return false;
-        }
-        return true;
+        int n = nums.size();
+        return count(nums.begin(), nums.end(), nums[n / 2]) == 1;
     }
 };

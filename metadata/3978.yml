@@ -6,10 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array
-  - Counting
   topics:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   is_best: true
+  attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null

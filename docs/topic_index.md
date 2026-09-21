@@ -224,6 +224,7 @@
 | 3861 | [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/) | 🟢 Easy | Array Linear Scan, Linear Search | [C++](problems/3861.md) | O(N) | O(1) | 2026-09-17 |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/3925.md) | O(N) | O(N) | 2026-09-16 |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 Easy | Array Linear Scan | [C++](problems/3925.md) | O(N) | O(N) | 2026-09-16 |
+| 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | Array | [C++](problems/3978.md) | O(N) | O(1) | 2026-09-21 |
 
 ---
 
