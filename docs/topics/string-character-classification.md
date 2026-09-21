@@ -26,7 +26,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（14）
+## 🟢 熟悉（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -36,6 +36,7 @@
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String Character Classification | [C++](../problems/2124.md) | O(N) | O(1) | 2026-09-20 |
 | 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | String Character Classification, Counting | [C++](../problems/2278.md) | O(N) | O(1) | 2026-09-20 |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | String Character Classification, Hash Table, Array | [C++](../problems/2399.md) | O(N) | O(1) | 2026-09-20 |
+| 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String Character Classification | [C++](../problems/2490.md) | O(N) | O(1) | 2026-09-21 |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | String Character Classification | [C++](../problems/2586.md) | O(N) | O(1) | 2026-09-20 |
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String Character Classification | [C++](../problems/2678.md) | O(N) | O(1) | 2026-09-20 |
 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String Character Classification | [C++](../problems/2710.md) | O(N) | O(1) | 2026-09-20 |

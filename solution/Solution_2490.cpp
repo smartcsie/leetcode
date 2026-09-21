@@ -10,10 +10,10 @@
 class Solution {
 public:
     bool isCircularSentence(string sentence) {
-        const string& s = sentence;
+        string& s = sentence;
         if(s.front() != s.back()) return false;
-        for(int i = 0; i < s.size(); i++) {
-            if(s[i] == ' ' && s[i + 1] != s[i - 1]) return false;
+        for(int i = 1; i < s.size() - 1; i++) {
+            if(s[i] == ' ' && (s[i - 1] | 32) != (s[i + 1] | 32)) return false;
         }
         return true;
     }
