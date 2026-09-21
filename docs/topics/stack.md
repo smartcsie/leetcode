@@ -8,18 +8,18 @@
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 Medium | String, Stack | [C++](../problems/1209.md) | O(N) | O(N) |  |
 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | Stack, Greedy | [C++](../problems/1963.md) | O(N) | O(1) |  |
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](../problems/0020.md) | O(N) | O(N) | 2026-09-21 |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | Stack, Counter | [C++](../problems/1021.md) | O(N) | O(1) |  |
 | 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 Easy | String, Stack | [C++](../problems/1544.md) | O(N) | O(N) |  |
 
-## 🟡 練習過（8）
+## 🟡 練習過（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](../problems/0020.md) | O(N) | O(N) |  |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | Stack | [C++](../problems/0150.md) | O(N) | O(N) |  |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Stack, Stack | [C++](../problems/0445.md) | O(N+M) | O(N+M) |  |
 | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Array, Stack, Simulation | [C++](../problems/0682.md) | O(N) | O(N) |  |

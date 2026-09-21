@@ -10,6 +10,12 @@ solutions:
   - stack
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 再練習
+  tricks:
+  - parentheses check
+  attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
   is_representative: true
-  representative_tag: stack
+  representative_tag: Parentheses Check
