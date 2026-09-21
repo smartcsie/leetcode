@@ -5,10 +5,9 @@ solutions:
 - file: Solution_2255.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
-  - Simulation
+  - String Character Classification
   topics:
-  - string
+  - string-character-classification
   time: O(N*M)
   space: O(1)
   familiarity: 熟練
@@ -19,8 +18,14 @@ solutions:
 
     > **}**'
   related:
+  - 1455
   - 2185
   attempts:
   - date: '2026-09-21'
     result: 對
     reason: null
+  - date: '2026-09-21'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: String Prefix
