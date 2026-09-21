@@ -20,18 +20,11 @@
 class Solution {
 public:
     string removeDuplicates(string s) {
-        // 直接使用 string 作為 stack，避免額外的資料結構轉換
-        string res = "";
-        for (char c : s) {
-            // 如果結果字串不為空，且當前字元與最後一個放入的字元相同
-            if (!res.empty() && c == res.back()) {
-                // 發現相鄰重複，消除（彈出）
-                res.pop_back();
-            } else {
-                // 不相同或堆疊為空，放入
-                res.push_back(c);
-            }
+        string t;
+        for(const char& c : s) {
+            if(!t.empty() && t.back() == c) t.pop_back();
+            else t.push_back(c);
         }
-        return res;
+        return t;
     }
 };

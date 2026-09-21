@@ -322,6 +322,14 @@
 
 ---
 
+## 📚 Stack
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1047 | 👑 **String Stack**<br>[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 Easy | Stack, String | [C++](problems/1047.md) | O(N) | O(N) | 2026-09-21 |
+
+---
+
 ## 🧩 Dynamic Programming
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
