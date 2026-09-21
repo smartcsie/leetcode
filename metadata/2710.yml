@@ -17,8 +17,17 @@ solutions:
 
     > **while (!num.empty() && num.back() == ''0''){** <br>'
   related:
+  - 1903
+  - 3798
   - 3856
+  tricks:
+  - remove trailing
   attempts:
   - date: '2026-09-20'
     result: 對
     reason: null
+  - date: '2026-09-21'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Remove Trailing
