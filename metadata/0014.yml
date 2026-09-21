@@ -10,11 +10,16 @@ solutions:
   - string
   time: O(S)
   space: O(1)
-  familiarity: 練習過
-  note: '> **外迴圈為char index chIdx從0到strs[0].size()-1**<br>
+  familiarity: 再練習
+  note: '> **外迴圈為char index cIdx從0到strs[0].size()-1**<br>
 
     > **內層迴圈為string index sIdx從 1 ~ strs.size()**<br>
 
     > **這一題用Trie解，complexity並不會比較好**<br>'
   is_best: true
-  tricks: null
+  attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Longest Common Prefix

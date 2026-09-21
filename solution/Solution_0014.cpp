@@ -16,10 +16,17 @@
  * 3. 一旦觸發停止條件，直接利用 substr 截取 0 到 i-1 的部分並回傳。
  */
 
-if(strs.empty()) return "";
-        for(int chIdx = 0; chIdx < strs[0].size(); chIdx++) {
+class Solution {
+public:
+    string longestCommonPrefix(vector<string>& strs) {
+        if(strs.size() == 1) return strs[0];
+        string ans;
+        for(int cIdx = 0; cIdx < strs[0].size(); cIdx++) {
             for(int sIdx = 1; sIdx < strs.size(); sIdx++) {
-                if(strs[0][chIdx] != strs[sIdx][chIdx] || chIdx == strs[sIdx].size()) return strs[0].substr(0, chIdx);
+                if(cIdx == strs[sIdx].size() || strs[sIdx][cIdx] != strs[0][cIdx]) return ans;
             }
+            ans.push_back(strs[0][cIdx]);
         }
-        return strs[0];
+        return ans;
+    }
+};
