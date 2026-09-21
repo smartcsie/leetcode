@@ -15,6 +15,8 @@ solutions:
   note: '> **檢查是否存在"ba"的case，如果有，return false**<br>
 
     > **return s.find("ba") == string::npos;** <br>'
+  related:
+  - 1784
   attempts:
   - date: '2026-09-20'
     result: 對
@@ -23,5 +25,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-09-21'
     result: 對
     reason: null
