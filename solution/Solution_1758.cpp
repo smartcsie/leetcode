@@ -11,9 +11,10 @@ class Solution {
 public:
     int minOperations(string s) {
         int count = 0;
+        int n = s.size();
         for(int i = 0; i < s.size(); i++) {
-            if(i % 2 == s[i] - '0') count++;
+            if((s[i] - '0') != (i & 1)) count++;
         }
-        return min(static_cast<int>(s.size()) - count, count);
+        return min(count, n - count);
     }
 };

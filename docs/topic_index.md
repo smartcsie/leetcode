@@ -68,6 +68,7 @@
 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 Easy | String Character Classification | [C++](problems/1455.md) | O(N) | O(W) | 2026-09-21 |
 | 1662 | 👑 **accumulate string**<br>[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String | [C++](problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) | 2026-09-18 |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 Easy | String Character Classification, Parsing | [C++](problems/1678.md) | O(N) | O(N) | 2026-09-21 |
+| 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](problems/1758.md) | O(N) | O(1) | 2026-09-21 |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 Easy | String Character Classification | [C++](problems/1784.md) | O(N) | O(1) | 2026-09-21 |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String Character Classification | [C++](problems/1903.md) | O(N) | O(1) | 2026-09-21 |
 | 1910 | 👑 **String Erase**<br>[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 Medium | String, String | [C++](problems/1910.md) | O(N\*M) | O(N) | 2026-09-21 |
