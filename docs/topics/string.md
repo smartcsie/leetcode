@@ -16,13 +16,12 @@
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | String, Simulation | [C++](../problems/2243.md) | O(N\*logN) | O(N) | 2026-09-20 |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | Greedy, String | [C++](../problems/3798.md) | O(N) | O(1) |  |
 
-## 🟡 練習過（20）
+## 🟡 練習過（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String | [C++](../problems/0014.md) | O(S) | O(1) |  |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String, Two Pointers | [C++](../problems/0151.md) | O(N) | O(N) |  |
-| 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String | [C++](../problems/0434.md) | O(N) | O(1) |  |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 Medium | String, Counting Sort | [C++](../problems/0791.md) | O(N+M) | O(1) |  |
 | 806 | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | 🟢 Easy | Array, String, Simulation | [C++](../problems/0806.md) | O(N) | O(1) |  |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | String, String | [C++](../problems/0944.md) | O(N\*M) | O(M) |  |

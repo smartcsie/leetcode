@@ -14,10 +14,11 @@
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | 2026-09-20 |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | 2026-09-20 |
 
-## 🟡 練習過（4）
+## 🟡 練習過（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String Character Classification | [C++](../problems/0434.md) | O(N) | O(1) | 2026-09-21 |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 Medium | String, Hash Table, Counting | [C++](../problems/1347.md) | O(N) | O(1) |  |
 | 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 Easy | Bit Manipulation, String | [C++](../problems/1704.md) | O(N) | O(1) |  |
 | 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String, Hash Table | [C++](../problems/1796.md) | O(N) | O(1) |  |

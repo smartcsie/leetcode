@@ -5,16 +5,17 @@ solutions:
 - file: Solution_0434.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - String Character Classification
   topics:
-  - string
+  - string-character-classification
   time: O(N)
   space: O(1)
   familiarity: 練習過
-  note: '> [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string)
-    <br>
-
-    > 第一次開頭也要算segment，char lastChar = '' '';<br>
+  note: '> 第一次開頭也要算segment，char lastChar = '' '';<br>
 
     > 上一個char是空白，這個char不是空白就count++，for(char c : s) if(c != '' '' && lastChar == ''
     '')  count++;<br>'
+  attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
