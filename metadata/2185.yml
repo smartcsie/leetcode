@@ -14,3 +14,9 @@ solutions:
   familiarity: 練習過
   related:
   - 2255
+  attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: String Find
