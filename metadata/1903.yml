@@ -12,13 +12,18 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-20'
-  note: '> 一直檢查最後一個digit是否是odd<br>
+  note: '> **一直檢查最後一個digit是否是odd**<br>
 
-    > for(int i = num.size() - 1; i >= 0; i--) if(num[i] & 1) return num.substr(0,
-    i + 1);<br>'
+    > **for(int i = num.size() - 1; i >= 0; i--) if(num[i] & 1) return num.substr(0,
+    i + 1);**<br>'
+  related:
+  - 3798
   tricks:
   - string substr
   attempts:
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-09-21'
     result: 對
     reason: null
