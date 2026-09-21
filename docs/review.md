@@ -642,8 +642,8 @@
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 3 | 2 | 9 | 0 | 0 | 0 | 14 |
-| [string](topics/string.md) | 1 | 7 | 17 | 3 | 10 | 0 | 38 |
-| [string-character-classification](topics/string-character-classification.md) | 0 | 5 | 5 | 0 | 16 | 0 | 26 |
+| [string](topics/string.md) | 1 | 7 | 17 | 3 | 9 | 0 | 37 |
+| [string-character-classification](topics/string-character-classification.md) | 0 | 5 | 5 | 0 | 17 | 0 | 27 |
 | [string-kmp](topics/string-kmp.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 0 | 1 | 2 | 0 | 0 | 0 | 3 |

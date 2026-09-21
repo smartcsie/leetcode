@@ -15,7 +15,7 @@
 class Solution {
 public:
     string largestEven(string s) {
-        size_t last_two = s.rfind('2');
-        return last_two == string::npos ? "" : s.substr(0, last_two + 1);
+        while(!s.empty() && s.back() & 1) s.pop_back();
+        return s;
     }
 };

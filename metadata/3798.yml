@@ -5,10 +5,10 @@ solutions:
 - file: Solution_3798.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - String Character Classification
   - String
   topics:
-  - string
+  - string-character-classification
   time: O(N)
   space: O(1)
   familiarity: 熟練
@@ -16,6 +16,9 @@ solutions:
   related:
   - 1903
   attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
   - date: '2026-09-21'
     result: 對
     reason: null
