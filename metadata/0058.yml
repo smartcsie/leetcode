@@ -10,8 +10,12 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-21'
   attempts:
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-09-21'
     result: 對
     reason: null
