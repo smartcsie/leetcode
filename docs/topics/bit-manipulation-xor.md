@@ -33,7 +33,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit Manipulation Xor, Bit-Manipulation | [C++](../problems/0136.md) | O(N) | O(1) | 2026-09-14 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation Xor | [C++](../problems/0389.md) | O(N) | O(N) | 2026-09-17 |
-| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 Easy | Bit Manipulation Xor | [C++](../problems/0461.md) | O(N) | O(1) | 2026-09-18 |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 Easy | Bit Manipulation Xor | [C++](../problems/0461.md) | O(N) | O(1) | 2026-09-21 |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 Medium | Bit Manipulation Xor | [C++](../problems/1318.md) | O(log(max(a,b,c))) | O(1) | 2026-09-18 |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 Easy | Bit Manipulation, Simulation | [C++](../problems/1486.md) | O(N) | O(1) | 2026-09-18 |
 | 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 Easy | Bit Manipulation Xor, Simulation | [C++](../problems/1720.md) | O(N) | O(N) | 2026-09-18 |

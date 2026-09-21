@@ -10,12 +10,16 @@ solutions:
   - hamming-distance
   time: O(K)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-21'
   note: '> x和y做互斥或成為z，取z的2進制1的個數<br>'
   related:
   - 2220
   attempts:
   - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-09-21'
     result: 對
     reason: null
   is_representative: true
@@ -32,6 +36,9 @@ solutions:
   mastered_date: '2026-09-18'
   attempts:
   - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-09-21'
     result: 對
     reason: null
   is_representative: true

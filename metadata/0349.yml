@@ -10,9 +10,13 @@ solutions:
   - bit-manipulation
   time: O(N+M)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-21'
   is_best: true
   attempts:
   - date: '2026-09-19'
+    result: 對
+    reason: null
+  - date: '2026-09-21'
     result: 對
     reason: null
