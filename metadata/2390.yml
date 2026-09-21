@@ -11,4 +11,11 @@ solutions:
   - stack
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-21'
+  tricks:
+  - string stack
+  attempts:
+  - date: '2026-09-21'
+    result: 對
+    reason: null
