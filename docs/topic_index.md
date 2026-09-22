@@ -160,6 +160,8 @@
 | 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 Easy | Bit Manipulation Xor, Bit Manipulation | [C++](problems/3158.md) | O(N) | O(1) | 2026-09-18 |
 | 3226 | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) | 🟢 Easy | Bit Manipulation | [C++](problems/3226.md) | O(1) | O(1) | 2026-09-18 |
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 Easy | Bit Manipulation, Math, String | [C++](problems/3274.md) | O(1) | O(1) | 2026-09-17 |
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation Mask | [C++](problems/3370.md) | O(logN) | O(1) | 2026-09-22 |
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](problems/3370.md) | O(logN) | O(1) | 2026-09-22 |
 | 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 Easy | Bit Manipulation Or | [C++](problems/3688.md) | O(N) | O(1) | 2026-09-19 |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 Medium | Bit Manipulation, Greedy | [C++](problems/3702.md) | O(N) | O(1) | 2026-09-18 |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](problems/3827.md) | O(1) | O(1) | 2026-09-17 |
