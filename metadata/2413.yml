@@ -10,9 +10,11 @@ solutions:
   - math-gcd
   time: O(1)
   space: O(1)
-  familiarity: 練習過
-  note: '> return (n & 1) == 0 ? n : 2 * n;。<br>
-
-    > return  lcm(2, n)<br>
-
-    > return  2 * n /gcd(2, n)<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-22'
+  attempts:
+  - date: '2026-09-22'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: lcm
