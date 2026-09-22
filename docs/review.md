@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（292）](#review-lianxiguo)　[🟠 再練習清單（178）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（291）](#review-lianxiguo)　[🟠 再練習清單（179）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：170 題　🟡 練習過：263 題　🟣 易忘：104 題　🟢 熟練：222 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：171 題　🟡 練習過：262 題　🟣 易忘：104 題　🟢 熟練：222 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 292 個解法標記為練習過，持續複習鞏固。
+目前共有 291 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（41）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（18）](#lianxiguo-string)　[🍱 Array（30）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（41）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（18）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（41）
@@ -107,7 +107,7 @@
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String, Pattern Matching | [C++](problems/3407.md) | O(N+M) | O(M) |  |
 
 <a id="lianxiguo-array"></a>
-#### 🍱 Array（30）
+#### 🍱 Array（29）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -119,7 +119,6 @@
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Array Interval, Interval | [C++](problems/0435.md) | O(NlogN) | O(1) |  |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum | [C++](problems/0930.md) | O(N^2) | O(N) |  |
 | 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | 🟡 Medium | Array Interval, Two Pointers, Interval Processing | [C++](problems/0986.md) | O(M+N) | O(1) |  |
-| 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | 🟢 Easy | Array Linear Scan, Greedy, Prefix Sum | [C++](problems/1013.md) | O(N) | O(1) |  |
 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 Medium | Array Interval, Greedy | [C++](problems/1288.md) | O(NlogN) | O(logN) |  |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 Easy | Array Prefix Sum, Counting Sort, Prefix Sum | [C++](problems/1365.md) | O(N+K) | O(K) |  |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | Array | [C++](problems/1470.md) | O(N) | O(N) |  |
@@ -415,9 +414,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 178 個解法標記為再練習，需要加強熟練度。
+目前共有 179 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（31）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（14）](#zailianxi-string)　[🍱 Array（30）](#zailianxi-array)　[🌳 Tree（9）](#zailianxi-tree)　[⛓️ Linked List（3）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（2）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（17）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（31）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（14）](#zailianxi-string)　[🍱 Array（31）](#zailianxi-array)　[🌳 Tree（9）](#zailianxi-tree)　[⛓️ Linked List（3）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（2）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（17）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（5）
@@ -513,7 +512,7 @@
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](problems/3813.md) | O(N) | O(1) | 2026-09-20 |
 
 <a id="zailianxi-array"></a>
-#### 🍱 Array（30）
+#### 🍱 Array（31）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -528,6 +527,7 @@
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](problems/0724.md) | O(N) | O(1) |  |
 | 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | Array, Two-Pass Scan | [C++](problems/0821.md) | O(N) | O(1) | 2026-09-18 |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 Easy | Array, String, Two Pointers | [C++](problems/0830.md) | O(N) | O(1) |  |
+| 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | 🟢 Easy | Array Linear Scan, Greedy, Prefix Sum | [C++](problems/1013.md) | O(N) | O(1) | 2026-09-22 |
 | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 Medium | Array Difference Array, Difference Array, Sweep Line | [C++](problems/1094.md) | O(N+M) | O(M) |  |
 | 1109 | [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | 🟡 Medium | Array Difference Array, Difference Array | [C++](problems/1109.md) | O(N+K) | O(N) |  |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 Easy | Array | [C++](problems/1299.md) | O(N) | O(1) |  |
@@ -1021,7 +1021,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 5 | 2 | 1 | 3 | 0 | 11 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 5 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 1 | 5 | 7 | 0 | 14 | 0 | 27 |
+| [array-linear-scan](topics/array-linear-scan.md) | 1 | 6 | 6 | 0 | 14 | 0 | 27 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 5 | 0 | 5 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 5 | 1 | 1 | 0 | 0 | 7 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 1 | 9 | 4 | 0 | 0 | 19 |
