@@ -11,3 +11,7 @@ solutions:
   time: O(1)
   space: O(1)
   familiarity: 再練習
+  attempts:
+  - date: '2026-09-22'
+    result: 對
+    reason: null

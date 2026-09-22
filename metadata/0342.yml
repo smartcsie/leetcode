@@ -30,6 +30,9 @@ solutions:
   - date: '2026-09-13'
     result: 對
     reason: null
+  - date: '2026-09-22'
+    result: 對
+    reason: null
 - file: Solution_0342_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -40,6 +43,10 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-13'
+  attempts:
+  - date: '2026-09-22'
+    result: 對
+    reason: null
 - file: Solution_0342_2.cpp
   difficulty: 🟢 Easy
   tags:
@@ -49,3 +56,7 @@ solutions:
   time: O(1)
   space: O(1)
   familiarity: 再練習
+  attempts:
+  - date: '2026-09-22'
+    result: 對
+    reason: null
