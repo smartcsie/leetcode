@@ -396,6 +396,14 @@
 
 ---
 
+## 🎨 Design
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 Easy | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) | 2026-09-22 |
+
+---
+
 ## 📊 Sorting
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |

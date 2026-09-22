@@ -1,27 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習清單（297）](#review-lianxiguo)　[🟠 再練習清單（177）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習清單（296）](#review-lianxiguo)　[🟠 再練習清單（177）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：169 題　🟡 練習過：268 題　🟣 易忘：104 題　🟢 熟練：218 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：169 題　🟡 練習過：267 題　🟣 易忘：104 題　🟢 熟練：219 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習清單
 
-目前共有 297 個解法標記為練習過，持續複習鞏固。
+目前共有 296 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🎨 Design（1）](#lianxiguo-design)　[🔢 Math（43）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（18）](#lianxiguo-string)　[🍱 Array（30）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（11）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（5）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
-
-<a id="lianxiguo-design"></a>
-#### 🎨 Design（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 Easy | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) |  |
+📌 **快速跳轉：** [🔢 Math（43）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（18）](#lianxiguo-string)　[🍱 Array（30）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（11）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（5）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（43）
@@ -1051,7 +1044,7 @@
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 1 | 1 | 0 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 1 | 2 | 4 | 0 | 7 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 3 | 1 | 5 | 8 | 0 | 17 |
-| [design](topics/design.md) | 0 | 5 | 1 | 3 | 0 | 0 | 9 |
+| [design](topics/design.md) | 0 | 5 | 0 | 3 | 1 | 0 | 9 |
 | [dp-bitmask](topics/dp-bitmask.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-fibonacci](topics/dp-fibonacci.md) | 1 | 1 | 5 | 1 | 0 | 0 | 8 |
