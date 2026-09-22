@@ -1,11 +1,11 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（286）](#review-lianxiguo)　[🟠 再練習清單（180）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（286）](#review-lianxiguo)　[🟠 再練習清單（181）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：172 題　🟡 練習過：257 題　🟣 易忘：104 題　🟢 熟練：226 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：173 題　🟡 練習過：257 題　🟣 易忘：104 題　🟢 熟練：225 題　⚪ 未標記：0 題
 
 ---
 
@@ -409,9 +409,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 180 個解法標記為再練習，需要加強熟練度。
+目前共有 181 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（32）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（14）](#zailianxi-string)　[🍱 Array（31）](#zailianxi-array)　[🌳 Tree（9）](#zailianxi-tree)　[⛓️ Linked List（3）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（2）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（17）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（33）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（14）](#zailianxi-string)　[🍱 Array（31）](#zailianxi-array)　[🌳 Tree（9）](#zailianxi-tree)　[⛓️ Linked List（3）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（2）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（17）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（5）
@@ -425,7 +425,7 @@
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Design, Hash Table | [C++](problems/0706.md) | O(N/K) | O(M+K) |  |
 
 <a id="zailianxi-math"></a>
-#### 🔢 Math（32）
+#### 🔢 Math（33）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -460,6 +460,7 @@
 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 Easy | Math Gcd, Number Theory, GCD | [C++](problems/2427.md) | O(min(A,B)) | O(1) |  |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](problems/2485.md) | O(1) | O(1) |  |
 | 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | 🟡 Medium | Math, Sieve | [C++](problems/2523.md) | O(NloglogN) | O(N) |  |
+| 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums) | 🟢 Easy | Math Gcd | [C++](problems/3658.md) | O(1) | O(1) | 2026-09-22 |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math Digit Decomposition, Digit Extraction | [C++](problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) | 2026-09-17 |
 
 <a id="zailianxi-bit-manipulation"></a>
@@ -1089,7 +1090,7 @@
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 6 | 13 | 3 | 21 | 0 | 43 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 1 | 1 | 2 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 1 | 0 | 5 | 0 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 0 | 3 | 3 | 0 | 3 | 0 | 9 |
+| [math-gcd](topics/math-gcd.md) | 0 | 4 | 3 | 0 | 2 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 0 | 0 | 2 | 0 | 1 | 0 | 3 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |

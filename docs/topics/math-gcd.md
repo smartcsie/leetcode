@@ -4,13 +4,14 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（3）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 Medium | Math, GCD, Bézout's Identity | [C++](../problems/0365.md) | O(log(min(x,y))) | O(1) |  |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy | Math Gcd, String, GCD | [C++](../problems/1071.md) | O(N+M) | O(N+M) |  |
 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 Easy | Math Gcd, Number Theory, GCD | [C++](../problems/2427.md) | O(min(A,B)) | O(1) |  |
+| 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums) | 🟢 Easy | Math Gcd | [C++](../problems/3658.md) | O(1) | O(1) | 2026-09-22 |
 
 ## 🟡 練習過（3）
 
@@ -24,10 +25,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | Math Gcd, GCD | [C++](../problems/1979.md) | O(N) | O(1) | 2026-09-14 |
 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | Math Gcd | [C++](../problems/2413.md) | O(1) | O(1) | 2026-09-22 |
-| 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums) | 🟢 Easy | Math Gcd | [C++](../problems/3658.md) | O(1) | O(1) | 2026-09-22 |

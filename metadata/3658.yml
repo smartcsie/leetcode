@@ -10,10 +10,12 @@ solutions:
   - math-gcd
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-22'
+  familiarity: 再練習
   note: '> odd sum = n²，even sum = n² + n，GCD(n² , n² + n) = n<br>'
   attempts:
+  - date: '2026-09-22'
+    result: 對
+    reason: null
   - date: '2026-09-22'
     result: 對
     reason: null
