@@ -11,6 +11,13 @@ solutions:
   - stack
   time: O(N+M)
   space: O(N+M)
-  familiarity: 練習過
+  familiarity: 再練習
+  note: '> **ListNode* new_node = new ListNode(carry % 10, head);**<br>
+
+    > **head = new_node;**<br>'
   tricks:
   - number addition
+  attempts:
+  - date: '2026-09-22'
+    result: 對
+    reason: null
