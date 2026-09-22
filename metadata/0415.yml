@@ -11,9 +11,14 @@ solutions:
   - math
   time: O(max(N,M))
   space: O(max(N,M))
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-22'
   note: '> 和 0067[Add Binary](https://leetcode.com/problems/add-binary) 幾乎一樣<br>'
   related:
   - 67
   tricks:
   - number addition
+  attempts:
+  - date: '2026-09-22'
+    result: 對
+    reason: null
