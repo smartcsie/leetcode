@@ -4,7 +4,7 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（14）
+## 🟠 再練習（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21,15 +21,15 @@
 | 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | Math, Base-3 | [C++](../problems/1780.md) | O(log₃N) | O(1) |  |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math, Brute Force | [C++](../problems/1925.md) | O(N²) | O(1) |  |
 | 2063 | [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) | 🟡 Medium | Math, Contribution Technique | [C++](../problems/2063.md) | O(N) | O(1) |  |
+| 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](../problems/2119.md) | O(1) | O(1) | 2026-09-22 |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Math | [C++](../problems/2485.md) | O(1) | O(1) |  |
 
-## 🟡 練習過（3）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Math | [C++](../problems/0268.md) | O(N) | O(1) |  |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](../problems/0507.md) | O(1) | O(1) |  |
-| 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](../problems/2119.md) | O(1) | O(1) |  |
 
 ## 🟣 易忘（10）
 

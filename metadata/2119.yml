@@ -10,5 +10,11 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> 條件 **num == 0 || num % 10 != 0**。<br>'
+  attempts:
+  - date: '2026-09-22'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Module
