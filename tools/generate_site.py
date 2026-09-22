@@ -494,6 +494,8 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
         return result
 
     rows = collect_rows('生疏')
+    zailianxi_rows = collect_rows('再練習')
+    lianxiguo_rows = collect_rows('練習過')
     forgetful_rows = collect_rows('易忘')
 
     # 每一題的整體熟悉度：生疏 > 再練習 > 練習過 > 易忘 > 熟練 > 未標記（優先度由左到右，只要任一解法符合就算該題）
@@ -535,9 +537,10 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
 
     ac_info = load_ac_cache(ac_cache_path)
 
-    lines = ['# 📝 複習清單（生疏／易忘）', '']
-    lines.append(f'📌 **快速跳轉：** [🔴 生疏清單（{len(rows)}）](#review-shengshu)　'
-                 f'[🟣 易忘清單（{len(forgetful_rows)}）](#review-yiwang)')
+    lines = ['# 📝 複習清單', '']
+    lines.append(f'📌 **快速跳轉：** [🟡 練習清單（{len(lianxiguo_rows)}）](#review-lianxiguo)　'
+                 f'[🟠 再練習清單（{len(zailianxi_rows)}）](#review-zailianxi)　'
+                 f'[🔴 生疏清單（{len(rows)}）](#review-shengshu)')
     lines.append('')
     lines.append('## 📊 總覽')
     lines.append('')
@@ -559,17 +562,24 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
     lines.append('---')
     lines.append('')
 
+    lines.append('<a id="review-lianxiguo"></a>')
+    lines.append('## 🟡 練習清單')
+    lines.append('')
+    lines.extend(_build_familiarity_section(lianxiguo_rows, 'lianxiguo', '標記為練習過，持續複習鞏固。'))
+
+    lines.append('---')
+    lines.append('')
+    lines.append('<a id="review-zailianxi"></a>')
+    lines.append('## 🟠 再練習清單')
+    lines.append('')
+    lines.extend(_build_familiarity_section(zailianxi_rows, 'zailianxi', '標記為再練習，需要加強熟練度。'))
+
+    lines.append('---')
+    lines.append('')
     lines.append('<a id="review-shengshu"></a>')
     lines.append('## 🔴 生疏清單')
     lines.append('')
     lines.extend(_build_familiarity_section(rows, 'shengshu', '標記為生疏，建議找時間重新練習。'))
-
-    lines.append('---')
-    lines.append('')
-    lines.append('<a id="review-yiwang"></a>')
-    lines.append('## 🟣 易忘清單')
-    lines.append('')
-    lines.extend(_build_familiarity_section(forgetful_rows, 'yiwang', '標記為易忘，建議面試前重點複習。'))
 
     lines.append('---')
     lines.append('')
@@ -587,7 +597,7 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
     with open(os.path.join(docs_dir, 'review.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
 
-    return len(rows) + len(forgetful_rows)
+    return len(rows) + len(zailianxi_rows) + len(lianxiguo_rows) + len(forgetful_rows)
 
 
 def get_latest_attempt_date(entity):
@@ -715,7 +725,7 @@ def main():
     print(f"\n寫入 {len(topic_rows)} 個 docs/topics/*.md")
 
     review_count = build_review_page(problems, docs_dir)
-    print(f"複習清單（生疏／易忘）: {review_count} 筆 -> docs/review.md")
+    print(f"複習清單（練習過／再練習／生疏）: {review_count} 筆 -> docs/review.md")
 
     topic_index_count = build_topic_index_page(problems, docs_dir)
     print(f"主題索引: {topic_index_count} 筆代表題 -> docs/topic_index.md")
