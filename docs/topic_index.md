@@ -27,6 +27,7 @@
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math Digit Decomposition, String | [C++](problems/0504.md) | O(log₇N) | O(1) | 2026-09-17 |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/0728.md) | O(N\*D) | O(1) | 2026-09-17 |
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math, Modulo | [C++](problems/1018.md) | O(N) | O(1) | 2026-09-20 |
+| 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | 🟢 Easy | Math Geometry, Geometry | [C++](problems/1232.md) | O(N) | O(1) | 2026-09-22 |
 | 1281 | 👑 **Digit Decomposition**<br>[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/1281.md) | O(logN) | O(1) | 2026-09-14 |
 | 1295 | 👑 **number digits**<br>[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Math | [C++](problems/1295.md) | O(N) | O(1) | 2026-09-20 |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 Easy | Math | [C++](problems/1523.md) | O(1) | O(1) | 2026-09-22 |

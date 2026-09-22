@@ -20,26 +20,15 @@
 class Solution {
 public:
     bool checkStraightLine(std::vector<std::vector<int>>& coordinates) {
-        int n = coordinates.size();
-        if (n == 2) {
-            return true;
+        vector<vector<int>>& c = coordinates;
+        if(c.size() == 2) return true;
+        int dx = c[1][0] - c[0][0];
+        int dy = c[1][1] - c[0][1];
+        for(int i = 1; i < c.size() - 1; i++) {
+            int dx1 = c[i + 1][0] - c[i][0];
+            int dy1 = c[i + 1][1] - c[i][1];
+            if(dx * dy1 != dy * dx1) return false;
         }
-        
-        // 以第 0 個點與第 1 個點作為基準向量
-        int dx = coordinates[1][0] - coordinates[0][0];
-        int dy = coordinates[1][1] - coordinates[0][1];
-        
-        // 檢查其餘所有點是否與基準向量共線
-        for (int i = 2; i < n; ++i) {
-            int dx1 = coordinates[i][0] - coordinates[0][0];
-            int dy1 = coordinates[i][1] - coordinates[0][1];
-            
-            // 交叉相乘：dx1 * dy != dy1 * dx 代表斜率不同，不在同一直線上
-            if (dx1 * dy != dy1 * dx) {
-                return false;
-            }
-        }
-        
         return true;
     }
 };

@@ -1,23 +1,23 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（290）](#review-lianxiguo)　[🟠 再練習清單（179）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（289）](#review-lianxiguo)　[🟠 再練習清單（179）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：171 題　🟡 練習過：261 題　🟣 易忘：104 題　🟢 熟練：223 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：171 題　🟡 練習過：260 題　🟣 易忘：104 題　🟢 熟練：224 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 290 個解法標記為練習過，持續複習鞏固。
+目前共有 289 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（40）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（18）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（39）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（18）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
-#### 🔢 Math（40）
+#### 🔢 Math（39）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -35,7 +35,6 @@
 | 914 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | 🟢 Easy | Math Gcd, GCD, Hash Table | [C++](problems/0914.md) | O(N) | O(N) |  |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | Math Permutation, Permutation | [C++](problems/0949.md) | O(1) | O(1) |  |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation, Carry Propagation | [C++](problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) |  |
-| 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | 🟢 Easy | Math Geometry, Geometry | [C++](problems/1232.md) | O(N) | O(1) |  |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/1317.md) | O(N\*logN) | O(1) |  |
 | 1399 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation, Counting | [C++](problems/1399.md) | O(N \* D) | O(1) |  |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](problems/2119.md) | O(1) | O(1) |  |
@@ -1093,7 +1092,7 @@
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 1 | 1 | 2 | 0 | 0 | 4 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 1 | 0 | 5 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 0 | 3 | 4 | 0 | 2 | 0 | 9 |
-| [math-geometry](topics/math-geometry.md) | 0 | 0 | 3 | 0 | 0 | 0 | 3 |
+| [math-geometry](topics/math-geometry.md) | 0 | 0 | 2 | 0 | 1 | 0 | 3 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
 | [math-prime](topics/math-prime.md) | 0 | 3 | 10 | 1 | 0 | 0 | 14 |
