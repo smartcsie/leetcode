@@ -11,7 +11,8 @@ solutions:
   - linked-list
   time: O(max(N,M))
   space: O(max(N,M))
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-22'
   note: '> **建一個dummy node，cur 指向他**<br>
 
     > **ListNode* dummy = new ListNode(0);**<br>
@@ -21,3 +22,9 @@ solutions:
     > **cur->next = new ListNode(carry % 10);**<br>'
   tricks:
   - number addition
+  attempts:
+  - date: '2026-09-22'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Linked List Number Addition
