@@ -538,7 +538,7 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
     ac_info = load_ac_cache(ac_cache_path)
 
     lines = ['# 📝 複習清單', '']
-    lines.append(f'📌 **快速跳轉：** [🟡 練習清單（{len(lianxiguo_rows)}）](#review-lianxiguo)　'
+    lines.append(f'📌 **快速跳轉：** [🟡 練習過清單（{len(lianxiguo_rows)}）](#review-lianxiguo)　'
                  f'[🟠 再練習清單（{len(zailianxi_rows)}）](#review-zailianxi)　'
                  f'[🔴 生疏清單（{len(rows)}）](#review-shengshu)')
     lines.append('')
@@ -563,7 +563,7 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
     lines.append('')
 
     lines.append('<a id="review-lianxiguo"></a>')
-    lines.append('## 🟡 練習清單')
+    lines.append('## 🟡 練習過清單')
     lines.append('')
     lines.extend(_build_familiarity_section(lianxiguo_rows, 'lianxiguo', '標記為練習過，持續複習鞏固。'))
 

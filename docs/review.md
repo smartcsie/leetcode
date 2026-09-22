@@ -1,6 +1,6 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習清單（296）](#review-lianxiguo)　[🟠 再練習清單（177）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（296）](#review-lianxiguo)　[🟠 再練習清單（177）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
@@ -10,7 +10,7 @@
 ---
 
 <a id="review-lianxiguo"></a>
-## 🟡 練習清單
+## 🟡 練習過清單
 
 目前共有 296 個解法標記為練習過，持續複習鞏固。
 
