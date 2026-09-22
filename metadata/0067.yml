@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math
-  - String
   topics:
-  - math-simulation
+  - math
   time: O(max(M,N))
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-22'
   note: '> 和 0415[Add Strings](https://leetcode.com/problems/add-strings) 幾乎一樣<br>
 
     > i和j設定為a和b最後的index，i = a.size() - 1，j = b.size() - 1<br>
@@ -31,3 +31,9 @@ solutions:
     > **reverse(res.begin(), res.end());** <br>'
   tricks:
   - number addition
+  attempts:
+  - date: '2026-09-22'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Number Addition
