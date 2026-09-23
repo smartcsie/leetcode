@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（286）](#review-lianxiguo)　[🟠 再練習清單（181）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（285）](#review-lianxiguo)　[🟠 再練習清單（182）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：173 題　🟡 練習過：257 題　🟣 易忘：104 題　🟢 熟練：225 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：174 題　🟡 練習過：256 題　🟣 易忘：104 題　🟢 熟練：225 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 286 個解法標記為練習過，持續複習鞏固。
+目前共有 285 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（36）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（18）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（36）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（17）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（36）
@@ -78,7 +78,7 @@
 | 3750 | [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) | 🟢 Easy | Bit Manipulation | [C++](problems/3750.md) | O(logN) | O(1) |  |
 
 <a id="lianxiguo-string"></a>
-#### 🔗 String（18）
+#### 🔗 String（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -92,7 +92,6 @@
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 Medium | String, Hash Table, Counting | [C++](problems/1347.md) | O(N) | O(1) |  |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String, Array | [C++](problems/1528.md) | O(N) | O(N) |  |
 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 Easy | String, Simulation | [C++](problems/1592.md) | O(N) | O(N) |  |
-| 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 Easy | Bit Manipulation, String | [C++](problems/1704.md) | O(N) | O(1) |  |
 | 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String, Hash Table | [C++](problems/1796.md) | O(N) | O(1) |  |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String, Sorting, Bucket Sort | [C++](problems/1859.md) | O(N) | O(N) |  |
 | 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 Easy | String, Stream | [C++](problems/1935.md) | O(N\*M) | O(1) |  |
@@ -409,9 +408,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 181 個解法標記為再練習，需要加強熟練度。
+目前共有 182 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（33）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（14）](#zailianxi-string)　[🍱 Array（31）](#zailianxi-array)　[🌳 Tree（9）](#zailianxi-tree)　[⛓️ Linked List（3）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（2）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（17）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（33）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（15）](#zailianxi-string)　[🍱 Array（31）](#zailianxi-array)　[🌳 Tree（9）](#zailianxi-tree)　[⛓️ Linked List（3）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（2）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（17）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（5）
@@ -489,7 +488,7 @@
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](problems/3827.md) | O(1) | O(1) | 2026-09-17 |
 
 <a id="zailianxi-string"></a>
-#### 🔗 String（14）
+#### 🔗 String（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -497,6 +496,7 @@
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](problems/0058.md) | O(N) | O(1) | 2026-09-21 |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | String, Two Pointers | [C++](problems/0524.md) | O(DlogD+D\*M) | O(1) |  |
 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | String | [C++](problems/0796.md) | O(N) | O(N) |  |
+| 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 Easy | String Character Classification | [C++](problems/1704.md) | O(N) | O(1) | 2026-09-23 |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](problems/1758.md) | O(N) | O(1) | 2026-09-21 |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 Medium | String, String | [C++](problems/1910.md) | O(N\*M) | O(N) | 2026-09-21 |
 | 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 Easy | String, Simulation | [C++](problems/1945.md) | O(N+K\*log(SUM)) | O(1) |  |
@@ -1111,7 +1111,7 @@
 | [sql](topics/sql.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 3 | 5 | 4 | 0 | 2 | 0 | 14 |
 | [string](topics/string.md) | 1 | 8 | 10 | 3 | 11 | 0 | 33 |
-| [string-character-classification](topics/string-character-classification.md) | 0 | 5 | 5 | 0 | 21 | 0 | 31 |
+| [string-character-classification](topics/string-character-classification.md) | 0 | 6 | 4 | 0 | 21 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 0 | 1 | 2 | 0 | 0 | 0 | 3 |
