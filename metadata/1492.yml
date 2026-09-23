@@ -11,3 +11,9 @@ solutions:
   time: O(√N)
   space: O(1)
   familiarity: 易忘
+  attempts:
+  - date: '2026-09-23'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Factor Enumeration

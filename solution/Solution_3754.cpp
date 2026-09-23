@@ -14,16 +14,20 @@
 class Solution {
 public:
     long long sumAndMultiply(int n) {
-        if (n == 0) return 0;
-        std::string s = to_string(n);
-        std::string str_num = "";
-        int digit_sum = 0;
-        for (const char& c : s) {
-            if (c != '0') {
-                str_num.push_back(c);
-                digit_sum += (c - '0');
+        if(n == 0) return 0;
+        int t = n;
+        int x = 0;
+        long long sum = 0;
+        long long multipler = 1;
+        while(t > 0) {
+            int d = t % 10;
+            if(d > 0) {
+                sum += d;
+                x = x + multipler * d;
+                multipler *= 10;
             }
+            t /= 10;
         }
-        return std::stoll(str_num) * static_cast<long long>(digit_sum);
+        return x * sum;
     }
 };
