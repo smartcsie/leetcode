@@ -14,15 +14,12 @@
 class Solution {
 public:
     int sumOfTheDigitsOfHarshadNumber(int x) {
-        // 根據題目限制，x >= 1，因此不需處理除以 0 的錯誤
-        int sum = 0;
-        int temp = x;
-        // 拆解位數並加總
-        while (temp > 0) {
-            sum += (temp % 10);
-            temp /= 10;
+        int digitSum = 0;
+        int t = x;
+        while(t > 0) {
+            digitSum += t % 10;
+            t/= 10;
         }
-        // 檢查是否為 Harshad 數
-        return (x % sum == 0) ? sum : -1;
+        return x % digitSum == 0 ? digitSum : -1;
     }
 };
