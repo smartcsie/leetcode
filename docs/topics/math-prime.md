@@ -13,7 +13,7 @@
 | 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | 🟡 Medium | Math, Sieve | [C++](../problems/2523.md) | O(NloglogN) | O(N) |  |
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math Prime, Sieve | [C++](../problems/2761.md) | O(NloglogN) | O(N) | 2026-09-23 |
 
-## 🟡 練習過（5）
+## 🟡 練習過（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21,7 +21,6 @@
 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | Math Prime, Prime Factorization | [C++](../problems/2521.md) | O(N\*sqrt(M)) | O(K) |  |
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math Prime, Brute Force | [C++](../problems/3556.md) | O(N²\*sqrt(M)) | O(1) |  |
 | 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | Math Prime, Prime Number | [C++](../problems/3765.md) | O(D\*sqrt(N)) | O(D) |  |
-| 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math Prime, Sieve | [C++](../problems/3918.md) | O(RloglogR) | O(R) |  |
 
 ## 🟣 易忘（1）
 
@@ -29,7 +28,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math Prime, Prefix Sum | [C++](../problems/3770.md) | O(RloglogR) | O(R) |  |
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -37,3 +36,4 @@
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math Prime, Trial Division | [C++](../problems/2614.md) | O(N\*sqrt(M)) | O(1) | 2026-09-23 |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Math Prime, Hash Table | [C++](../problems/3591.md) | O(N+KloglogK) | O(K) | 2026-09-23 |
 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | Math Prime, Sieve | [C++](../problems/3618.md) | O(N+RloglogR) | O(R) | 2026-09-23 |
+| 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math Prime, Sieve | [C++](../problems/3918.md) | O(RloglogR) | O(R) | 2026-09-23 |

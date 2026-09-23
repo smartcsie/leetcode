@@ -71,6 +71,7 @@
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/3783.md) | O(log10(N)) | O(1) | 2026-09-14 |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](problems/3895.md) | O(N×D) | O(1) | 2026-09-14 |
 | 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/3908.md) | O(logN) | O(1) | 2026-09-17 |
+| 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math Prime, Sieve | [C++](problems/3918.md) | O(RloglogR) | O(R) | 2026-09-23 |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 Easy | Math Digit Decomposition | [C++](problems/3945.md) | O(logN) | O(1) | 2026-09-14 |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 Easy | Math Digit Decomposition | [C++](problems/3950.md) | O(logN) | O(1) | 2026-09-14 |
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/3959.md) | O(logN) | O(1) | 2026-09-14 |
