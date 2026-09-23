@@ -15,7 +15,7 @@
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math, 504, 1837 | [C++](../problems/1017.md) | O(logN) | O(1) |  |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math Digit Decomposition, Digit Extraction | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) | 2026-09-17 |
 
-## 🟡 練習過（11）
+## 🟡 練習過（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,6 @@
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/0868.md) | O(logN) | O(1) |  |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation, Carry Propagation | [C++](../problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) |  |
 | 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | Math Digit Decomposition, Greedy, Sorting | [C++](../problems/2160.md) | O(1) | O(1) |  |
-| 2520 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2520.md) | O(logN) | O(1) |  |
 | 3079 | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3079.md) | O(N\*D) | O(D) |  |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/3099.md) | O(logN) | O(1) |  |
 | 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/3300.md) | O(N\*logM) | O(1) |  |
