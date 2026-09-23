@@ -25,22 +25,28 @@
 class Solution {
 public:
     int sumOfEncryptedInt(vector<int>& nums) {
-        int ans = 0;
-        for(const int& num : nums) {
-            int digits = 0;
-            int maxDigit = -1;
-            int temp = num;
-            while(temp > 0) {
-                if((temp % 10) > maxDigit) maxDigit = temp % 10;
-                temp /= 10;
-                digits++;
+        int sum = 0;
+        for(const int& x : nums) {
+            int encrypted = 0;
+            if(x < 10) {
+                encrypted = x;
+            } else {
+                int y = x;
+                int bits = 0;
+                int mxBit = 0;
+                while(y > 0) {
+                    mxBit = max(mxBit, y % 10);
+                    y /= 10;
+                    bits++;
+                }
+                while(bits > 0) {
+                    encrypted = encrypted * 10 + mxBit;
+                    bits--;
+                }
+
             }
-            int val = 0;
-            while(digits--) {
-                val = val * 10 + maxDigit;
-            }
-            ans += val;
+            sum += encrypted;
         }
-        return ans;
+        return sum;
     }
 };
