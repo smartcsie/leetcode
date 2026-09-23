@@ -16,20 +16,20 @@ private:
     bool isPrime(int n) {
         if(n < 2) return false;
         if(n == 2 || n == 3) return true;
-        if(n % 2 == 0 || n % 3 ==0) return false;
-        for(int i = 5; i*i <= n; i += 6) {
-            if( n % i == 0 || n % (i + 2) == 0) return false;
+        if(n % 2 == 0 || n % 3 == 0) return false;
+        for(int x = 5; x * x <= n; x += 6) {
+            if(n % x == 0 || n % (x + 2) == 0) return false;
         }
         return true;
     }
 public:
     int diagonalPrime(vector<vector<int>>& nums) {
-        int ans; 
         int n = nums.size();
+        int mx = 0;
         for(int i = 0; i < n; i++) {
-            if(isPrime(nums[i][i])) ans = max(ans, nums[i][i]);
-            if(isPrime(nums[i][n - 1 - i])) ans = max(ans, nums[i][n - 1 - i]);
+            if(isPrime(nums[i][i])) mx = max(mx, nums[i][i]);
+            if(isPrime(nums[n - 1 - i][i])) mx = max(mx, nums[n - 1 - i][i]);
         }
-        return ans;
+        return mx;
     }
 };

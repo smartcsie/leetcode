@@ -50,6 +50,7 @@
 | 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](problems/2535.md) | O(N\*logM) | O(1) | 2026-09-16 |
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/2544.md) | O(logN) | O(logN) | 2026-09-14 |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Math Digit Decomposition, Math | [C++](problems/2553.md) | O(N\*log(max_VAL)) | O(N\*log(max_VAL)) | 2026-09-16 |
+| 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math Prime, Trial Division | [C++](problems/2614.md) | O(N\*sqrt(M)) | O(1) | 2026-09-23 |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 Easy | Math, Brute Force | [C++](problems/2652.md) | O(N) | O(1) | 2026-09-16 |
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/2843.md) | O(N\*D) | O(1) | 2026-09-16 |
 | 3131 | 👑 **max_element**<br>[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 Easy | Math, Array | [C++](problems/3131.md) | O(N) | O(1) | 2026-09-20 |

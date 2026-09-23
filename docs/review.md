@@ -1,23 +1,23 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（280）](#review-lianxiguo)　[🟠 再練習清單（183）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（279）](#review-lianxiguo)　[🟠 再練習清單（183）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：175 題　🟡 練習過：251 題　🟣 易忘：104 題　🟢 熟練：229 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：175 題　🟡 練習過：250 題　🟣 易忘：104 題　🟢 熟練：230 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 280 個解法標記為練習過，持續複習鞏固。
+目前共有 279 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（32）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（31）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
-#### 🔢 Math（32）
+#### 🔢 Math（31）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -36,7 +36,6 @@
 | 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | Math Digit Decomposition, Greedy, Sorting | [C++](problems/2160.md) | O(1) | O(1) |  |
 | 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 Easy | Math Simulation, Simulation | [C++](problems/2293.md) | O(N) | O(N) |  |
 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | Math Prime, Prime Factorization | [C++](problems/2521.md) | O(N\*sqrt(M)) | O(K) |  |
-| 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math Prime, Trial Division | [C++](problems/2614.md) | O(N\*sqrt(M)) | O(1) |  |
 | 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math, Sieve | [C++](problems/2761.md) | O(NloglogN) | O(N) |  |
 | 2807 | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | 🟡 Medium | Linked List, Math, GCD | [C++](problems/2807.md) | O(N) | O(N) |  |
 | 3079 | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/3079.md) | O(N\*D) | O(D) |  |
@@ -1090,7 +1089,7 @@
 | [math-geometry](topics/math-geometry.md) | 0 | 1 | 1 | 0 | 1 | 0 | 3 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
-| [math-prime](topics/math-prime.md) | 0 | 3 | 9 | 1 | 1 | 0 | 14 |
+| [math-prime](topics/math-prime.md) | 0 | 3 | 8 | 1 | 2 | 0 | 14 |
 | [math-simulation](topics/math-simulation.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 8 | 0 | 0 | 0 | 0 | 0 | 8 |
