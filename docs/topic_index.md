@@ -69,6 +69,7 @@
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math Digit Decomposition, Digit Extraction | [C++](problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) | 2026-09-17 |
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 Easy | Math Digit Decomposition, Digit Extraction | [C++](problems/3726.md) | O(logN) | O(1) | 2026-09-17 |
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/3783.md) | O(log10(N)) | O(1) | 2026-09-14 |
+| 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 Easy | Math Simulation, Logic Control | [C++](problems/3894.md) | O(1) | O(1) | 2026-09-23 |
 | 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 Easy | Digit Manipulation | [C++](problems/3895.md) | O(N×D) | O(1) | 2026-09-14 |
 | 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/3908.md) | O(logN) | O(1) | 2026-09-17 |
 | 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math Prime, Sieve | [C++](problems/3918.md) | O(RloglogR) | O(R) | 2026-09-23 |
