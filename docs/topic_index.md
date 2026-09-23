@@ -57,6 +57,7 @@
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/2843.md) | O(N\*D) | O(1) | 2026-09-16 |
 | 3131 | 👑 **max_element**<br>[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 Easy | Math, Array | [C++](problems/3131.md) | O(N) | O(1) | 2026-09-20 |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 Easy | Math Digit Decomposition, String | [C++](problems/3340.md) | O(N) | O(1) | 2026-09-14 |
+| 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 Easy | Math Digit Decomposition, Brute Force, Digit Manipulation | [C++](problems/3345.md) | O(K×D) | O(1) | 2026-09-23 |
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 Easy | Math Digit Decomposition, Simulation, Digit Manipulation | [C++](problems/3461.md) | O(N²) | O(N) | 2026-09-17 |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/3622.md) | O(logN) | O(1) | 2026-09-17 |
 | 3658 | [GCD of Odd and Even Sums](https://leetcode.com/problems/gcd-of-odd-and-even-sums) | 🟢 Easy | Math Gcd | [C++](problems/3658.md) | O(1) | O(1) | 2026-09-22 |
