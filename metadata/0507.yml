@@ -10,7 +10,11 @@ solutions:
   - math-factor-enumeration
   time: O(√N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
+  attempts:
+  - date: '2026-09-23'
+    result: 對
+    reason: null
 - file: Solution_0507_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -19,5 +23,13 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  familiarity: 練習過
-  note: '>**2⁽ᵖ⁻¹⁾ × (2ᵖ - 1)**<br>'
+  familiarity: 易忘
+  note: '>**Mersenne Prime，2⁽ᵖ⁻¹⁾ × (2ᵖ - 1)，其中p!= 11因為2⁽ᵖ⁻¹⁾也要是Prime**<br>
+
+    >**Mersenne Prime:2, 3, 5, 7, 13, 17, 19, 31**<br>'
+  attempts:
+  - date: '2026-09-23'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Mersenne Prime
