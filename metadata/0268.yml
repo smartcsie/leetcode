@@ -11,6 +11,10 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 再練習
+  attempts:
+  - date: '2026-09-23'
+    result: 對
+    reason: null
 - file: Solution_0268.cpp
   difficulty: 🟢 Easy
   tags:
@@ -19,5 +23,10 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> n = nums.size()，accumulate算出sum，回傳 n * (n + 1) / 2 - sum<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-23'
+  note: '> **n = nums.size()，accumulate算出sum，回傳 n * (n + 1) / 2 - sum**<br>'
+  attempts:
+  - date: '2026-09-23'
+    result: 對
+    reason: null
