@@ -18,21 +18,18 @@
 
 class Solution {
 private:
-    bool hasZero(int n) {
-        while (n > 0) {
-            if (n % 10 == 0) return true; // 發現個位數為 0
+    bool noZero(int n) {
+        while(n > 0) {
+            if(n % 10 == 0) return false;
             n /= 10;
         }
-        return false;
+        return true;
     }
 public:
-    std::vector<int> getNoZeroIntegers(int n) {
-        for (int i = 1; i < n; i++) {
-            // 如果 i 和 n - i 兩者都不包含 0，這就是我們要找的答案
-            if (!hasZero(i) && !hasZero(n - i)) {
-                return {i, n - i};
-            }
+    vector<int> getNoZeroIntegers(int n) {
+        for(int x = 1; x < n / 2; x++) {
+            if(noZero(x) && noZero(n - x)) return {x, n - x};
         }
-        return {};
+        return {-1, -1};
     }
 };
