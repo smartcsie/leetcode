@@ -81,6 +81,7 @@
 | 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 Easy | String Character Classification | [C++](problems/1704.md) | O(N) | O(1) | 2026-09-23 |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 Easy | String | [C++](problems/1758.md) | O(N) | O(1) | 2026-09-21 |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 Easy | String Character Classification | [C++](problems/1784.md) | O(N) | O(1) | 2026-09-21 |
+| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String Character Classification, Hash Table | [C++](problems/1796.md) | O(N) | O(1) | 2026-09-23 |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String Character Classification | [C++](problems/1903.md) | O(N) | O(1) | 2026-09-21 |
 | 1910 | 👑 **String Erase**<br>[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 Medium | String, String | [C++](problems/1910.md) | O(N\*M) | O(N) | 2026-09-21 |
 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](problems/1957.md) | O(N) | O(N) | 2026-09-20 |

@@ -15,20 +15,19 @@
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | 2026-09-20 |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | 2026-09-20 |
 
-## 🟡 練習過（4）
+## 🟡 練習過（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String Character Classification | [C++](../problems/0434.md) | O(N) | O(1) | 2026-09-21 |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 Medium | String, Hash Table, Counting | [C++](../problems/1347.md) | O(N) | O(1) |  |
-| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String, Hash Table | [C++](../problems/1796.md) | O(N) | O(1) |  |
 | 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 Easy | String, Stream | [C++](../problems/1935.md) | O(N\*M) | O(1) |  |
 
 ## 🟣 易忘（0）
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（21）
+## 🟢 熟悉（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -37,6 +36,7 @@
 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 Easy | String Character Classification | [C++](../problems/1455.md) | O(N) | O(W) | 2026-09-21 |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 Easy | String Character Classification, Parsing | [C++](../problems/1678.md) | O(N) | O(N) | 2026-09-21 |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 Easy | String Character Classification | [C++](../problems/1784.md) | O(N) | O(1) | 2026-09-21 |
+| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String Character Classification, Hash Table | [C++](../problems/1796.md) | O(N) | O(1) | 2026-09-23 |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 Easy | String Character Classification | [C++](../problems/1903.md) | O(N) | O(1) | 2026-09-21 |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String Character Classification | [C++](../problems/2124.md) | O(N) | O(1) | 2026-09-21 |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 Easy | String Character Classification, Simulation | [C++](../problems/2185.md) | O(N\*M) | O(1) | 2026-09-21 |

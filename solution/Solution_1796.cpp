@@ -14,19 +14,18 @@
 class Solution {
 public:
     int secondHighest(string s) {
-        int largest = -1;
-        int second = -1;
-        for(char c : s) {
+        int mx1 = -1, mx2 = -1;
+        for(const char& c : s) {
             if(isdigit(c)) {
                 int num = c - '0';
-                if(num > largest) {
-                    second = largest;
-                    largest = num;
-                } else if(num > second && num < largest) {
-                    second = num;
+                if(num > mx1) {
+                    mx2 = mx1;
+                    mx1 = num;
+                } else if(num > mx2 && num < mx1) {
+                    mx2 = num;
                 }
             }
         }
-        return second ;
+        return mx2;
     }
 };

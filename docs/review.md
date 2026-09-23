@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（285）](#review-lianxiguo)　[🟠 再練習清單（182）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（284）](#review-lianxiguo)　[🟠 再練習清單（182）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：174 題　🟡 練習過：256 題　🟣 易忘：104 題　🟢 熟練：225 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：174 題　🟡 練習過：255 題　🟣 易忘：104 題　🟢 熟練：226 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 285 個解法標記為練習過，持續複習鞏固。
+目前共有 284 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（36）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（17）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（36）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（36）
@@ -78,7 +78,7 @@
 | 3750 | [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) | 🟢 Easy | Bit Manipulation | [C++](problems/3750.md) | O(logN) | O(1) |  |
 
 <a id="lianxiguo-string"></a>
-#### 🔗 String（17）
+#### 🔗 String（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -92,7 +92,6 @@
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 Medium | String, Hash Table, Counting | [C++](problems/1347.md) | O(N) | O(1) |  |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String, Array | [C++](problems/1528.md) | O(N) | O(N) |  |
 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 Easy | String, Simulation | [C++](problems/1592.md) | O(N) | O(N) |  |
-| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 Easy | String, Hash Table | [C++](problems/1796.md) | O(N) | O(1) |  |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String, Sorting, Bucket Sort | [C++](problems/1859.md) | O(N) | O(N) |  |
 | 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 Easy | String, Stream | [C++](problems/1935.md) | O(N\*M) | O(1) |  |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String, Parsing | [C++](problems/2042.md) | O(N) | O(1) |  |
@@ -1111,7 +1110,7 @@
 | [sql](topics/sql.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 3 | 5 | 4 | 0 | 2 | 0 | 14 |
 | [string](topics/string.md) | 1 | 8 | 10 | 3 | 11 | 0 | 33 |
-| [string-character-classification](topics/string-character-classification.md) | 0 | 6 | 4 | 0 | 21 | 0 | 31 |
+| [string-character-classification](topics/string-character-classification.md) | 0 | 6 | 3 | 0 | 22 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 0 | 1 | 2 | 0 | 0 | 0 | 3 |
