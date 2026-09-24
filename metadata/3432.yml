@@ -11,7 +11,7 @@ solutions:
   - array-prefix-sum
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 易忘
   note: '> **sum為所有數總和，如果sum是even，所有組合一定是even**<br>
 
     > **因為prefix odd，suffix odd或是prefix even，suffix even**<br>
@@ -21,3 +21,7 @@ solutions:
     > **因為prefix even，suffix odd或是prefix odd，suffix even**<br>'
   tricks:
   - accumulate
+  attempts:
+  - date: '2026-09-24'
+    result: 對
+    reason: null
