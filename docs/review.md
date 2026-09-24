@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（256）](#review-lianxiguo)　[🟠 再練習清單（187）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（255）](#review-lianxiguo)　[🟠 再練習清單（187）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：179 題　🟡 練習過：231 題　🟣 易忘：107 題　🟢 熟練：242 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：179 題　🟡 練習過：230 題　🟣 易忘：107 題　🟢 熟練：243 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 256 個解法標記為練習過，持續複習鞏固。
+目前共有 255 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（18）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（12）
@@ -192,7 +192,7 @@
 | 2181 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | 🟡 Medium | Linked List, In-place Modification | [C++](problems/2181.md) | O(N) | O(1) |  |
 
 <a id="lianxiguo-pointers"></a>
-#### 👥 Pointers（18）
+#### 👥 Pointers（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -200,7 +200,6 @@
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) |  |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) |  |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 Medium | Linked List, Fast-Slow Pointers | [C++](problems/0142.md) | O(N) | O(1) |  |
-| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) |  |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | Two Pointers Other, Two Pointers | [C++](problems/0557.md) | O(N) | O(1) |  |
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0611.md) | O(N²) | O(1) |  |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0633.md) | O(√C) | O(1) |  |
@@ -1102,7 +1101,7 @@
 | [tree-traversal](topics/tree-traversal.md) | 0 | 0 | 1 | 3 | 3 | 0 | 7 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 1 | 3 | 7 | 4 | 2 | 0 | 17 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 1 | 3 | 6 | 4 | 3 | 0 | 17 |
 | [two-pointers-other](topics/two-pointers-other.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 1 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 9 | 5 | 1 | 3 | 2 | 0 | 20 |

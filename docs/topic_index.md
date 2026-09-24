@@ -338,6 +338,7 @@
 | 27 | 👑 **Fast Slow Pointer Swap**<br>[Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0027.md) | O(N) | O(1) | 2026-09-24 |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](problems/0125.md) | O(N) | O(1) | 2026-09-21 |
 | 141 | 👑<br>[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0141.md) | O(N) | O(1) | 2026-09-18 |
+| 167 | 👑<br>[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) | 2026-09-24 |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0283.md) | O(N) | O(1) | 2026-09-18 |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Fast Slow Pointers | [C++](problems/0283.md) | O(N) | O(1) | 2026-09-18 |
 | 344 | 👑 **Two Pointers Swap**<br>[Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0344.md) | O(N) | O(1) | 2026-09-15 |
