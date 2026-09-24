@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（261）](#review-lianxiguo)　[🟠 再練習清單（187）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（258）](#review-lianxiguo)　[🟠 再練習清單（187）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：179 題　🟡 練習過：234 題　🟣 易忘：104 題　🟢 熟練：242 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：179 題　🟡 練習過：233 題　🟣 易忘：105 題　🟢 熟練：242 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 261 個解法標記為練習過，持續複習鞏固。
+目前共有 258 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（13）](#lianxiguo-math)　[📊 Bit Manipulation（13）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（13）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（29）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（15）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（19）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（13）
@@ -36,7 +36,7 @@
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math Prime, Brute Force | [C++](problems/3556.md) | O(N²\*sqrt(M)) | O(1) |  |
 
 <a id="lianxiguo-bit-manipulation"></a>
-#### 📊 Bit Manipulation（13）
+#### 📊 Bit Manipulation（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,9 +49,6 @@
 | 2397 | [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Bitmask, Combinatorics | [C++](problems/2397.md) | O(2ᴺ\*M+M\*N) | O(M) |  |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | Bit Manipulation And, Greedy, Array | [C++](problems/2419.md) | O(N) | O(1) |  |
 | 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 Easy | Bit Manipulation Or | [C++](problems/2917.md) | O(N\*log(max_VAL)) | O(1) |  |
-| 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Brainteaser | [C++](problems/3513.md) | O(logN) | O(1) |  |
-| 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](problems/3513.md) | O(logN) | O(1) |  |
-| 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](problems/3513.md) | O(logN) | O(1) |  |
 | 3750 | [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) | 🟢 Easy | Bit Manipulation | [C++](problems/3750.md) | O(logN) | O(1) |  |
 
 <a id="lianxiguo-string"></a>
@@ -1014,7 +1011,7 @@
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
 | [binary-search-tree](topics/binary-search-tree.md) | 0 | 1 | 14 | 0 | 1 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 1 | 2 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 0 | 11 | 3 | 7 | 17 | 0 | 38 |
+| [bit-manipulation](topics/bit-manipulation.md) | 0 | 11 | 2 | 8 | 17 | 0 | 38 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 3 | 2 | 2 | 2 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 1 | 1 | 0 | 1 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 1 | 2 | 4 | 0 | 7 |

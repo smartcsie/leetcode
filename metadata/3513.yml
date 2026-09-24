@@ -12,8 +12,11 @@ solutions:
   - bit-manipulation
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 易忘
+  attempts:
+  - date: '2026-09-24'
+    result: 對
+    reason: null
 - file: Solution_3513_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -22,8 +25,11 @@ solutions:
   - bit-manipulation
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 易忘
+  attempts:
+  - date: '2026-09-24'
+    result: 對
+    reason: null
 - file: Solution_3513_2.cpp
   difficulty: 🟡 Medium
   tags:
@@ -32,5 +38,8 @@ solutions:
   - bit-manipulation
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 易忘
+  attempts:
+  - date: '2026-09-24'
+    result: 對
+    reason: null
