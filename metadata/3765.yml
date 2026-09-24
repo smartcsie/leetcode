@@ -11,5 +11,13 @@ solutions:
   - math-prime
   time: O(D*sqrt(N))
   space: O(D)
-  familiarity: 練習過
-  note: '> **注意 for(int i = 1; i <= n; i++) 其中的<= n **<br>'
+  familiarity: 再練習
+  note: '> **注意 for(int i = 1; i <= n; i++) 其中的<= n **<br>
+
+    > ** int prefix = stoi(s.substr(0, i)); **<br>
+
+    > ** int suffix = stoi(s.substr(n - i, i));**<br>'
+  attempts:
+  - date: '2026-09-24'
+    result: 對
+    reason: null
