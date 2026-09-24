@@ -17,20 +17,16 @@
 class Solution {
 public:
     int minElement(std::vector<int>& nums) {
-        int min_val = INT_MAX;
-        
-        for (int num : nums) {
-            int sum = 0;
-            int temp = num;
-            // 計算數位之和
-            while (temp > 0) {
-                sum += (temp % 10);
-                temp /= 10;
+        int mn = 37;
+        for(const int& x : nums) {
+            int digitSum = 0;
+            int t = x;
+            while(t > 0) {
+                digitSum += t %10;
+                t /= 10;
             }
-            // 更新最小值
-            min_val = std::min(min_val, sum);
+            mn = min(mn, digitSum);
         }
-        
-        return min_val;
+        return mn;
     }
 };
