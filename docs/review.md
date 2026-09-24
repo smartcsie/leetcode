@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（251）](#review-lianxiguo)　[🟠 再練習清單（187）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（250）](#review-lianxiguo)　[🟠 再練習清單（187）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：179 題　🟡 練習過：227 題　🟣 易忘：107 題　🟢 熟練：246 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：179 題　🟡 練習過：226 題　🟣 易忘：107 題　🟢 熟練：247 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 251 個解法標記為練習過，持續複習鞏固。
+目前共有 250 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（26）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（14）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（25）](#lianxiguo-array)　[🌳 Tree（41）](#lianxiguo-tree)　[🔍 Binary Search（14）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（12）
@@ -73,7 +73,7 @@
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String, Pattern Matching | [C++](problems/3407.md) | O(N+M) | O(M) |  |
 
 <a id="lianxiguo-array"></a>
-#### 🍱 Array（26）
+#### 🍱 Array（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -101,7 +101,6 @@
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Array Linear Scan | [C++](problems/2485.md) | O(N) | O(1) |  |
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](problems/2574.md) | O(N) | O(N) |  |
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](problems/3069.md) | O(N) | O(N) |  |
-| 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | Array, Brute Force | [C++](problems/3162.md) | O(N\*M) | O(1) |  |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](problems/3432.md) | O(N) | O(1) |  |
 
 <a id="lianxiguo-tree"></a>
@@ -984,7 +983,7 @@
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 0 | 3 | 0 | 0 | 14 | 0 | 17 |
-| [array](topics/array.md) | 1 | 10 | 4 | 3 | 7 | 0 | 25 |
+| [array](topics/array.md) | 1 | 10 | 3 | 3 | 8 | 0 | 25 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 5 | 2 | 1 | 3 | 0 | 11 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
