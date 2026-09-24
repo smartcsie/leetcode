@@ -5,15 +5,18 @@ solutions:
 - file: Solution_2264.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array Linear Scan
+  - String
   topics:
-  - array-linear-scan
+  - string
   time: O(N)
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-24'
   is_best: true
   attempts:
+  - date: '2026-09-24'
+    result: 對
+    reason: null
   - date: '2026-09-24'
     result: 對
     reason: null

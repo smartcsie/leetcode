@@ -117,6 +117,7 @@
 | 2185 | 👑 **String Find**<br>[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 Easy | String Character Classification, Simulation | [C++](problems/2185.md) | O(N\*M) | O(1) | 2026-09-21 |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | String, Simulation | [C++](problems/2243.md) | O(N\*logN) | O(N) | 2026-09-20 |
 | 2255 | 👑 **String Prefix**<br>[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 Easy | String Character Classification | [C++](problems/2255.md) | O(N\*M) | O(1) | 2026-09-21 |
+| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | 🟢 Easy | String | [C++](problems/2264.md) | O(N) | O(1) | 2026-09-24 |
 | 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | String Character Classification, Counting | [C++](problems/2278.md) | O(N) | O(1) | 2026-09-20 |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | String Character Classification, Hash Table, Array | [C++](problems/2399.md) | O(N) | O(1) | 2026-09-20 |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String Character Classification | [C++](problems/2490.md) | O(N) | O(1) | 2026-09-21 |
@@ -255,7 +256,6 @@
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | Array, Sorting | [C++](problems/2148.md) | O(N) | O(1) | 2026-09-17 |
 | 2176 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 Easy | Array Linear Scan | [C++](problems/2176.md) | O(N^2) | O(1) | 2026-09-17 |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array Linear Scan | [C++](problems/2239.md) | O(N) | O(1) | 2026-09-14 |
-| 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | 🟢 Easy | Array Linear Scan | [C++](problems/2264.md) | O(N) | O(1) | 2026-09-24 |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](problems/2319.md) | O(N²) | O(1) | 2026-09-16 |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 Medium | 2d Array, Prefix Sum, Matrix, Precomputation | [C++](problems/2482.md) | O(M\*N) | O(M+N) | 2026-09-16 |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/2559.md) | O(N+Q) | O(N) | 2026-09-24 |

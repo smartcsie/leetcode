@@ -986,7 +986,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 5 | 2 | 1 | 3 | 0 | 11 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 5 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 1 | 6 | 4 | 0 | 16 | 0 | 27 |
+| [array-linear-scan](topics/array-linear-scan.md) | 1 | 6 | 4 | 0 | 15 | 0 | 26 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 5 | 0 | 5 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 5 | 1 | 1 | 0 | 0 | 7 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 1 | 6 | 5 | 2 | 0 | 19 |
@@ -1078,7 +1078,7 @@
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 3 | 5 | 4 | 0 | 2 | 0 | 14 |
-| [string](topics/string.md) | 1 | 8 | 10 | 3 | 11 | 0 | 33 |
+| [string](topics/string.md) | 1 | 8 | 10 | 3 | 12 | 0 | 34 |
 | [string-character-classification](topics/string-character-classification.md) | 0 | 6 | 3 | 0 | 22 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
