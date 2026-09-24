@@ -12,12 +12,15 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-21'
-  tricks:
-  - '2124'
+  related:
+  - 2124
   attempts:
   - date: '2026-09-21'
     result: 對
     reason: null
   - date: '2026-09-21'
+    result: 對
+    reason: null
+  - date: '2026-09-24'
     result: 對
     reason: null
