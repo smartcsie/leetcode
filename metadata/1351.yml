@@ -12,8 +12,11 @@ solutions:
   - binary-search-build-in
   time: O(R+C)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 易忘
+  attempts:
+  - date: '2026-09-24'
+    result: 對
+    reason: null
 - file: Solution_1351_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -23,4 +26,7 @@ solutions:
   time: O(R*logC)
   space: O(1)
   familiarity: 練習過
-  tricks: null
+  attempts:
+  - date: '2026-09-24'
+    result: 對
+    reason: null
