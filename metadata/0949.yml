@@ -11,7 +11,7 @@ solutions:
   - math-permutation
   time: O(1)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **[易忘記巧]next_permutation** <br>
 
     > **[易忘記巧]snprintf(buf, sizeof(buf), "%02d:%02d", max_time / 60, max_time % 60);
@@ -24,3 +24,9 @@ solutions:
   tricks:
   - snprintf
   - next_permutation
+  attempts:
+  - date: '2026-09-24'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: next_permutation
