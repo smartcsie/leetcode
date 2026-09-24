@@ -13,13 +13,12 @@
 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 Easy | Array Linear Scan | [C++](../problems/1422.md) | O(N) | O(1) |  |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 Easy | Array | [C++](../problems/1431.md) | O(N) | O(1) |  |
 
-## 🟡 練習過（8）
+## 🟡 練習過（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 Easy | Array Linear Scan | [C++](../problems/1512.md) | O(N) | O(1) |  |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | Array Linear Scan, Brute Force, Simulation | [C++](../problems/1608.md) | O(N²) | O(1) |  |
-| 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 Easy | Array Linear Scan | [C++](../problems/1614.md) | O(N) | O(1) |  |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](../problems/1848.md) | O(N) | O(1) |  |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | Array Linear Scan | [C++](../problems/1920.md) | O(N) | O(1) |  |
 | 2006 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 Easy | Array Linear Scan, Hash Table, Frequency Map | [C++](../problems/2006.md) | O(N) | O(N) | 2026-09-17 |
@@ -30,13 +29,14 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（17）
+## 🟢 熟悉（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](../problems/0674.md) | O(N) | O(1) | 2026-09-15 |
 | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](../problems/1437.md) | O(N) | O(1) | 2026-09-16 |
 | 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 Easy | Array Linear Scan | [C++](../problems/1550.md) | O(N) | O(1) | 2026-09-15 |
+| 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 Easy | Array Linear Scan | [C++](../problems/1614.md) | O(N) | O(1) | 2026-09-24 |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 Easy | Array Linear Scan, Math | [C++](../problems/1822.md) | O(N) | O(1) | 2026-09-16 |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | 2026-09-15 |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | 2026-09-15 |

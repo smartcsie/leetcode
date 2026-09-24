@@ -18,18 +18,16 @@
 class Solution {
 public:
     int maxDepth(std::string s) {
+        int mx = 0;
         int count = 0;
-        int maxCount = 0;
-        
-        for (const char c : s) {
-            if (c == '(') {
+        for(const char& c : s) {
+            if(c == '(') {
                 count++;
-                maxCount = std::max(maxCount, count);
-            } else if (c == ')') {
+                mx = max(mx, count);
+            } else if(c == ')') {
                 count--;
             }
         }
-        
-        return maxCount;
+        return mx;
     }
 };
