@@ -25,7 +25,7 @@ public:
     string largestGoodInteger(string num) {
         for(char c = '9'; c >= '0'; c-- ) {
             string digit = string(3, c);
-            if(num.find(digit) != string::npos) return digit;
+            if(num.contains(digit)) return digit;
         }
         return "";
     }
