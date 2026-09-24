@@ -1,0 +1,11 @@
+unordered_set<int> getPrimeFactor(int n) {
+    unordered_set<int> fators;
+    for(int p = 2; p * p <= n; x++) {
+        while(n % x == 0) {
+            fators.insert(p);
+            n /= p;
+        }
+    }
+    if(n > 1) fators.insert(n);
+    return fators;
+}
