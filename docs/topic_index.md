@@ -430,6 +430,7 @@
 | 145 | 👑 **Postorder**<br>[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 Easy | Tree Traversal | [C++](problems/0145.md) | O(N) | O(H) | 2026-09-15 |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/0199.md) | O(N) | O(W) | 2026-09-14 |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 Easy | Tree | [C++](problems/0226.md) | O(N) | O(H) | 2026-09-15 |
+| 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 Medium | Binary Search Tree | [C++](problems/0230.md) | O(K) | O(H) | 2026-09-25 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](problems/0235.md) | O(H) | O(H) | 2026-09-14 |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](problems/0236.md) | O(N) | O(H) | 2026-09-14 |
 | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | 🟡 Medium | Tree Traversal, BFS | [C++](problems/0429.md) | O(N) | O(W) | 2026-09-15 |
