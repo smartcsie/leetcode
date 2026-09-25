@@ -19,24 +19,20 @@
 
 class Solution {
 private:
-    void dfs(TreeNode* root, int cur, int& ans) {
-        if (!root) return;
-        // 將當前節點的值合併到位元組中（等同於左移一位後加上當前 val）
-        cur = cur * 2 + root->val;
-        // 若為葉子節點，將累積的數字加到總和 ans 中
-        if (!root->left && !root->right) {
-            ans += cur;
+    void dfs(TreeNode* root, int cur, int& sum) {
+        if(!root) return;
+        cur = (cur << 1) | root->val;
+        if(!root->left && !root->right) {
+            sum += cur;
             return;
         }
-        // 遞迴走訪左右子樹
-        if (root->left) dfs(root->left, cur, ans);
-        if (root->right) dfs(root->right, cur, ans);
+        dfs(root->left, cur, sum);
+        dfs(root->right, cur, sum);
     }
-
 public:
     int sumRootToLeaf(TreeNode* root) {
-        int ans = 0;
-        dfs(root, 0, ans);
-        return ans;
+        int sum = 0;
+        dfs(root, 0, sum);
+        return sum;
     }
 };
