@@ -5,11 +5,15 @@ solutions:
 - file: Solution_0806.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
+  - String
   - String
   - Simulation
   topics:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
