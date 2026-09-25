@@ -11,5 +11,30 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(N)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
+  - date: '2026-09-25'
+    result: 對
+    reason: null
+- file: Solution_0653_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search Tree
+  topics:
+  - binary-search-tree
+  time: O(n)
+  space: O(n)
+  familiarity: 易忘
+  is_best: true
+  tricks:
+  - BST Iterator
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: BST Iterator

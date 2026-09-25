@@ -1,67 +1,3 @@
-# 653. Two Sum IV - Input is a BST
-
-[在 LeetCode 上查看](https://leetcode.com/problems/two-sum-iv-input-is-a-bst)
-
-## 解法：binary-search-tree
-
-**難度:** 🟢 Easy　**標籤:** Binary Search Tree, Hash Table　**時間:** O(N)　**空間:** O(N)　**熟悉度:** 🟢 熟練
-
-**📅 練習歷程:**
-
-- ✅ **2026-09-25** 對
-- ✅ **2026-09-25** 對
-
-```cpp
-/**
- * 題目：653. Two Sum IV - Input is a BST (二元搜尋樹中的兩數之和)
- * 難度：簡單 (Easy)
- * 描述：判斷 BST 中是否存在兩節點之和等於給定值 k。
- *
- * 時間複雜度：O(N)
- * 空間複雜度：O(N)
- *
- * 解法思路：
- * 利用 Hash Set 記錄已訪問過的節點值。對於每個節點，檢查 (k - node->val) 是否已存在於 Set 中。
- */
-
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- * int val;
- * TreeNode *left;
- * TreeNode *right;
- * TreeNode() : val(0), left(nullptr), right(nullptr) {}
- * TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- * TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
-
-class Solution {
-private:
-    unordered_set<int> seen;
-public:
-    bool findTarget(TreeNode* root, int k) {
-        if(!root) return false;
-        if(seen.contains(k - root->val)) return true;
-        seen.insert(root->val);
-        return findTarget(root->left, k) || findTarget(root->right, k);
-    }
-};
-```
-
----
-
-## 解法：binary-search-tree
-
-**難度:** 🟢 Easy　**標籤:** Binary Search Tree　**時間:** O(n)　**空間:** O(n)　**熟悉度:** 🟣 易忘　🏆 **最佳解**　👑 **代表題（BST Iterator）**
-
-**📅 練習歷程:**
-
-- ✅ **2026-09-25** 對
-
-**技巧:** BST Iterator
-
-```cpp
 /*
  * 題目：653. Two Sum IV - Input is a BST
  * 連結：https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
@@ -131,6 +67,3 @@ public:
         return false; // 所有可能組合都試過仍找不到
     }
 };
-```
-
----
