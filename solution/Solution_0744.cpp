@@ -18,11 +18,7 @@
 class Solution {
 public:
     char nextGreatestLetter(std::vector<char>& letters, char target) {
-        // upper_bound 回傳第一個嚴格「大於」target 的位置
-        auto it = std::upper_bound(letters.begin(), letters.end(), target);
-        
-        // 若找不到（it == letters.end()），根據題目環繞規則返回首元素
-        // 若找到，則回傳該迭代器指向的值
-        return (it == letters.end()) ? letters[0] : *it;
+        auto next = upper_bound(letters.begin(), letters.end(), target);
+        return next == letters.end() ? letters[0] : *next;
     }
 };
