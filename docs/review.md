@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（223）](#review-lianxiguo)　[🟠 再練習清單（192）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（222）](#review-lianxiguo)　[🟠 再練習清單（192）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：184 題　🟡 練習過：199 題　🟣 易忘：110 題　🟢 熟練：266 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：184 題　🟡 練習過：198 題　🟣 易忘：110 題　🟢 熟練：267 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 223 個解法標記為練習過，持續複習鞏固。
+目前共有 222 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（12）](#lianxiguo-string)　[🍱 Array（23）](#lianxiguo-array)　[🌳 Tree（22）](#lianxiguo-tree)　[🔍 Binary Search（14）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（18）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（12）](#lianxiguo-string)　[🍱 Array（23）](#lianxiguo-array)　[🌳 Tree（22）](#lianxiguo-tree)　[🔍 Binary Search（14）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（19）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（18）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（12）
@@ -185,7 +185,7 @@
 | 3936 | [Minimum Swaps to Move Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/) | 🟢 Easy | Two Pointers, Simulation | [C++](problems/3936.md) | O(N) | O(1) |  |
 
 <a id="lianxiguo-hash-table"></a>
-#### 🔑 Hash Table（20）
+#### 🔑 Hash Table（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -196,7 +196,6 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0217.md) | O(NlogN) | O(logN) |  |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table Existence | [C++](problems/0219.md) | O(N) | O(min(N,K)) |  |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/0242.md) | O(N) | O(1) |  |
-| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/0387.md) | O(N) | O(1) |  |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | 🟢 Easy | Hash Table Existence | [C++](problems/0594.md) | O(N) | O(N) |  |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0884.md) | O(N+M) | O(N+M) |  |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0961.md) | O(N) | O(1) |  |
@@ -1030,7 +1029,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 2 | 3 | 4 | 1 | 9 | 0 | 19 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 3 | 3 | 0 | 7 | 0 | 13 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 3 | 1 | 0 | 5 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 6 | 6 | 1 | 5 | 0 | 20 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 6 | 5 | 1 | 6 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 0 | 3 | 9 | 3 | 2 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [math](topics/math.md) | 0 | 17 | 1 | 9 | 13 | 0 | 40 |

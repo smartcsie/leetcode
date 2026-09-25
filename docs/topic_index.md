@@ -304,6 +304,7 @@
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | Hash Table Mapping, Hash Table | [C++](problems/0290.md) | O(N+M) | O(N+M) | 2026-09-16 |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table Intersection | [C++](problems/0350.md) | O(N+M) | O(min(N,M)) | 2026-09-20 |
 | 383 | 👑 **compare count one side limit**<br>[Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/0383.md) | O(M+N) | O(1) | 2026-09-20 |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/0387.md) | O(N) | O(1) | 2026-09-25 |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](problems/0771.md) | O(J+S) | O(J) | 2026-09-15 |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | 🟢 Easy | Hash Table Mapping, Hash Set | [C++](problems/0804.md) | O(S) | O(S) | 2026-09-19 |
 | 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Table Existence | [C++](problems/0888.md) | O(A+B) | O(B) | 2026-09-17 |
