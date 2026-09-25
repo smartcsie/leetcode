@@ -4986,7 +4986,12 @@
 
 <h1 id="234-palindrome-linked-list">234. Palindrome Linked List<a class="headerlink" href="#234-palindrome-linked-list" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/palindrome-linked-list">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Linked List, Two Pointers, Vector　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🟡 練習過</p>
+<h2 id="linked-list">解法：linked-list<a class="headerlink" href="#linked-list" title="Permanent link">&para;</a></h2>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Linked List, Two Pointers, Vector　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🟢 熟練</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-09-25</strong> 對</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：234. Palindrome Linked List (回文鏈表)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -5022,6 +5027,79 @@
 <a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="p">};</span>
 </code></pre></div>
+<hr />
+<h2 id="linked-list_1">解法：linked-list<a class="headerlink" href="#linked-list_1" title="Permanent link">&para;</a></h2>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Linked List　<strong>時間:</strong> 　<strong>空間:</strong> 　<strong>熟悉度:</strong> 🟢 熟練</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-09-25</strong> 對</li>
+</ul>
+<p><strong>技巧:</strong> linked list reverse、fast slow pointer</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cm">/*</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cm"> * 題目：234. Palindrome Linked List</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="cm"> * 連結：https://leetcode.com/problems/palindrome-linked-list/</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="cm"> * 難度：Easy</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="cm"> * 分類主題：Linked List, Two Pointers</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="cm"> * 技巧：快慢指針找中點 + 反轉後半段鏈結串列 + 雙指針比較</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="cm"> * 描述：給定單向鏈結串列的頭節點 head，判斷這個鏈結串列所代表的數字序列是否為回文。</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="cm"> * 時間複雜度：O(N)，找中點、反轉、比較各走訪約 N/2 個節點，總和仍是 O(N)</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="cm"> * 空間複雜度：O(1)，只使用固定數量的指標變數，沒有額外配置陣列或遞迴堆疊</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="cm"> * 解法思路：</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="cm"> *   1. 用 dummy 節點接在 head 前面，搭配快慢指針找出前半段的結尾（slow）。</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="cm"> *      - fast 每次走 2 步、slow（從 dummy 出發）每次走 1 步，</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="cm"> *        當 fast 走到底時，slow 恰好停在「前半段最後一個節點」，</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="cm"> *        這樣無論串列長度是奇數或偶數都能正確切割成前後兩段。</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="cm"> *   2. 從 slow-&gt;next 開始把後半段切斷並原地反轉，得到反轉後的後半段串列（prev）。</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="cm"> *   3. 用 l1（原始前半段，從 head 開始）與 l2（反轉後的後半段，從 prev 開始）</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="cm"> *      逐一比較節點值，只要有一組不相等就代表不是回文，直接回傳 false。</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="cm"> *   4. 若兩段都比較完仍相等（其中一個走到 nullptr 為止），代表是回文，回傳 true。</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="cm"> *   注意：此寫法會破壞原始鏈結串列結構（後半段被反轉），</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="cm"> *         若題目要求保留原始串列，比較完後需再把後半段反轉回去並重新接上。</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="cm"> */</span>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">isPalindrome</span><span class="p">(</span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">head</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="w">        </span><span class="c1">// dummy 節點方便快慢指針統一處理奇偶長度的情況</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">dummy</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ListNode</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">head</span><span class="p">);</span>
+<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">slow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dummy</span><span class="p">;</span>
+<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">fast</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">head</span><span class="p">;</span>
+<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a>
+<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="w">        </span><span class="c1">// 快慢指針：fast 走 2 步、slow 走 1 步</span>
+<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="w">        </span><span class="c1">// 結束時 slow 停在「前半段最後一個節點」</span>
+<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">fast</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">fast</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a><span class="w">            </span><span class="n">slow</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">slow</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a><span class="w">            </span><span class="n">fast</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fast</span><span class="o">-&gt;</span><span class="n">next</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a>
+<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="w">        </span><span class="c1">// 切斷前後兩段：slow-&gt;next 之後就是後半段的起點</span>
+<a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">cur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">slow</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+<a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a><span class="w">        </span><span class="n">slow</span><span class="o">-&gt;</span><span class="n">next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">nullptr</span><span class="p">;</span>
+<a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">prev</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">nullptr</span><span class="p">;</span>
+<a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a>
+<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a><span class="w">        </span><span class="c1">// 原地反轉後半段串列，反轉完 prev 就是後半段的新頭節點</span>
+<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">cur</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a><span class="w">            </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cur</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span><span class="w"> </span><span class="c1">// 先暫存下一個節點</span>
+<a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a><span class="w">            </span><span class="n">cur</span><span class="o">-&gt;</span><span class="n">next</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">prev</span><span class="p">;</span><span class="w">           </span><span class="c1">// 反轉指標方向</span>
+<a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a><span class="w">            </span><span class="n">prev</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cur</span><span class="p">;</span><span class="w">                 </span><span class="c1">// prev 前進</span>
+<a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a><span class="w">            </span><span class="n">cur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">next</span><span class="p">;</span><span class="w">                 </span><span class="c1">// cur 前進</span>
+<a id="__codelineno-1-48" name="__codelineno-1-48" href="#__codelineno-1-48"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-1-49" name="__codelineno-1-49" href="#__codelineno-1-49"></a>
+<a id="__codelineno-1-50" name="__codelineno-1-50" href="#__codelineno-1-50"></a><span class="w">        </span><span class="c1">// l1：原始前半段；l2：反轉後的後半段</span>
+<a id="__codelineno-1-51" name="__codelineno-1-51" href="#__codelineno-1-51"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">l1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">head</span><span class="p">;</span>
+<a id="__codelineno-1-52" name="__codelineno-1-52" href="#__codelineno-1-52"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">l2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">prev</span><span class="p">;</span>
+<a id="__codelineno-1-53" name="__codelineno-1-53" href="#__codelineno-1-53"></a>
+<a id="__codelineno-1-54" name="__codelineno-1-54" href="#__codelineno-1-54"></a><span class="w">        </span><span class="c1">// 逐一比較前半段與反轉後半段的節點值</span>
+<a id="__codelineno-1-55" name="__codelineno-1-55" href="#__codelineno-1-55"></a><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">l1</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">l2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-56" name="__codelineno-1-56" href="#__codelineno-1-56"></a><span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">l1</span><span class="o">-&gt;</span><span class="n">val</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">l2</span><span class="o">-&gt;</span><span class="n">val</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span><span class="w"> </span><span class="c1">// 值不相等，不是回文</span>
+<a id="__codelineno-1-57" name="__codelineno-1-57" href="#__codelineno-1-57"></a><span class="w">            </span><span class="n">l1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l1</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+<a id="__codelineno-1-58" name="__codelineno-1-58" href="#__codelineno-1-58"></a><span class="w">            </span><span class="n">l2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l2</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span>
+<a id="__codelineno-1-59" name="__codelineno-1-59" href="#__codelineno-1-59"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-1-60" name="__codelineno-1-60" href="#__codelineno-1-60"></a>
+<a id="__codelineno-1-61" name="__codelineno-1-61" href="#__codelineno-1-61"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span><span class="w"> </span><span class="c1">// 全部比對完都相等，是回文</span>
+<a id="__codelineno-1-62" name="__codelineno-1-62" href="#__codelineno-1-62"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-63" name="__codelineno-1-63" href="#__codelineno-1-63"></a><span class="p">};</span>
+</code></pre></div>
+<hr />
 
 
 
