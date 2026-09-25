@@ -5,16 +5,21 @@ solutions:
 - file: Solution_1038.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
+  - Binary Search Tree
   - BST
   topics:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
   note: '> **Reverse inorder**<br>
 
     > **同538[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)**<br>'
   related:
   - 538
-  tricks: null
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
+  representative_tag: Reverse inorder

@@ -13,17 +13,17 @@
 
 class Solution {
 private:
-    void reverseInorder(TreeNode* root, int& cur) {
+    void reverseInorder(TreeNode* root, int& pre) {
         if(!root) return;
-        reverseInorder(root->right, cur);
-        root->val += cur;
-        cur = root->val;
-        reverseInorder(root->left, cur);
+        reverseInorder(root->right, pre);
+        if(pre != -1) root->val += pre;
+        pre = root->val;
+        reverseInorder(root->left, pre);
     }
 public:
     TreeNode* bstToGst(TreeNode* root) {
-        int cur = 0;
-        reverseInorder(root, cur);
+        int dummy = -1;
+        reverseInorder(root, dummy);
         return root;
     }
 };
