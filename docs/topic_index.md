@@ -433,6 +433,8 @@
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 Medium | Binary Search Tree | [C++](problems/0230.md) | O(K) | O(H) | 2026-09-25 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](problems/0235.md) | O(H) | O(H) | 2026-09-14 |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](problems/0236.md) | O(N) | O(H) | 2026-09-14 |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0404.md) | O(N) | O(H) | 2026-09-25 |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree Dfs Path | [C++](problems/0404.md) | O(N) | O(H) | 2026-09-25 |
 | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | 🟡 Medium | Tree Traversal, BFS | [C++](problems/0429.md) | O(N) | O(W) | 2026-09-15 |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 Medium | Tree, BFS, DFS | [C++](problems/0513.md) | O(N) | O(W) | 2026-09-14 |
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | 🟡 Medium | Tree, BFS | [C++](problems/0515.md) | O(N) | O(W) | 2026-09-14 |

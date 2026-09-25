@@ -10,18 +10,20 @@
  * （DFS，傳遞 left flag）：
  * 遞迴時傳入 bool left 標記當前節點是否為左子節點，遇到左葉節點時累加。
  */
+
 class Solution {
 private:
-    void dfs(TreeNode* root, int& sum, bool left) {
-        if(!root) return;
-        dfs(root->left, sum, true);
-        if(left && !root->left && !root->right) sum += root->val;
-        dfs(root->right, sum, false);
+    void dfs(TreeNode* root, int& sum) {
+        if(!root || (!root->left && !root->right)) return;
+        if(root->left && !root->left->left && !root->left->right) sum += root->left->val;
+        dfs(root->left, sum);
+        dfs(root->right, sum);
+
     }
 public:
     int sumOfLeftLeaves(TreeNode* root) {
         int sum = 0;
-        dfs(root, sum, false);
+        dfs(root, sum);
         return sum;
     }
 };
