@@ -15,23 +15,17 @@
 class Solution {
 public:
     bool areNumbersAscending(string s) {
-        int prev = -1;
-        stringstream ss(s);
-        string word;
-        
-        while (ss >> word) {
-            // 檢查字串是否為數字 (檢查第一個字元即可判斷)
-            if (isdigit(word[0])) {
-                int curr = stoi(word);
-                
-                // 檢查是否嚴格遞增
-                if (curr <= prev) {
-                    return false;
-                }
-                prev = curr;
+        istringstream iss(s);
+        string w;
+        int pre = -1;
+        int cur = -1;
+        while(iss >> w) {
+            if(isdigit(w[0])) {
+                cur = stoi(w);
+                if(pre != -1 && cur <= pre) return false;
+                pre = cur;
             }
         }
-        
         return true;
     }
 };
