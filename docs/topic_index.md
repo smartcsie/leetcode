@@ -435,6 +435,7 @@
 | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | 🟡 Medium | Tree Traversal, BFS | [C++](problems/0429.md) | O(N) | O(W) | 2026-09-15 |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 Medium | Tree, BFS, DFS | [C++](problems/0513.md) | O(N) | O(W) | 2026-09-14 |
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | 🟡 Medium | Tree, BFS | [C++](problems/0515.md) | O(N) | O(W) | 2026-09-14 |
+| 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | 🟡 Medium | Tree Traversal, BST, Reverse In-order Traversal | [C++](problems/0538.md) | O(N) | O(H) | 2026-09-25 |
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | Tree Dfs Path, DFS, BFS | [C++](problems/0559.md) | O(N) | O(H) | 2026-09-14 |
 | 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | 🟢 Easy | Tree Traversal | [C++](problems/0589.md) | O(N) | O(H) | 2026-09-15 |
 | 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | 🟢 Easy | Tree Traversal | [C++](problems/0590.md) | O(N) | O(H) | 2026-09-15 |
