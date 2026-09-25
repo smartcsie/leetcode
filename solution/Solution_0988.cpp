@@ -12,25 +12,22 @@
  */
 
 class Solution {
-void dfs(TreeNode* root, string& cur, string& smallest) {
-    if(!root) return;
-    cur.push_back(root->val + 'a');
-    if(!root->left && !root->right) {
-        string temp = cur;
-        reverse(temp.begin(), temp.end());
-        if(smallest.empty() || temp < smallest) {
-            smallest = temp;
+private:
+    void dfs(TreeNode* root, string cur, string& ans) {
+        if(!root) return;
+        cur += root->val + 'a';
+        if(!root->left && !root->right) {
+            reverse(cur.begin(), cur.end());
+            if(ans.empty()) ans = cur;
+            else ans = min(ans, cur);
         }
-    } else {
-        if(root->left) dfs(root->left, cur, smallest);
-        if(root->right)  dfs(root->right, cur, smallest);
+        dfs(root->left, cur, ans);
+        dfs(root->right, cur, ans);
     }
-    cur.pop_back();
-}
 public:
     string smallestFromLeaf(TreeNode* root) {
-        string smallest, cur = "";
-        dfs(root, cur, smallest);
-        return smallest;
+        string ans;
+        dfs(root, "", ans);
+        return ans;
     }
 };
