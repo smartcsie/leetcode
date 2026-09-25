@@ -12,8 +12,11 @@ solutions:
   - greedy-sorting-decision
   time: O(N+26log26)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 再練習
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
 - file: Solution_3014_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -22,5 +25,8 @@ solutions:
   - greedy-sorting-decision
   time: O(1)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 易忘
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
