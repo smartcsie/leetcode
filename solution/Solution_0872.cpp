@@ -13,20 +13,17 @@
 
 class Solution {
 private:
-    void similar(TreeNode* root, vector<int>& leaves) {
+    void dfs(TreeNode* root, vector<int>& ans) {
         if(!root) return;
-        if(!root->left && !root->right) {
-            leaves.push_back(root->val);
-        }
-        similar(root->left, leaves);
-        similar(root->right, leaves);
+        dfs(root->left, ans);
+        if(!root->left && !root->right) ans.push_back(root->val);
+        dfs(root->right, ans);
     }
 public:
     bool leafSimilar(TreeNode* root1, TreeNode* root2) {
-        vector<int> leaves1;
-        vector<int> leaves2;
-        similar(root1, leaves1);
-        similar(root2, leaves2);
-        return leaves1 == leaves2;
+        vector<int> v1, v2;
+        dfs(root1, v1);
+        dfs(root2, v2);
+        return v1 == v2;
     }
 };

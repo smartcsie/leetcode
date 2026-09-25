@@ -11,5 +11,10 @@ solutions:
   - tree-dfs-path
   time: O(N+M)
   space: O(N+M)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
   note: '> preorder，inorder，postorder都可以'
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
