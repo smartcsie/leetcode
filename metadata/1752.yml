@@ -10,7 +10,8 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
   note: '> **頭尾要檢查到**<br>
 
     > **if(nums[i] > nums[(i+1) % n]) count++;**<br>
@@ -18,5 +19,8 @@ solutions:
     > **if(count > 1) return false;**<br>'
   attempts:
   - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-09-25'
     result: 對
     reason: null
