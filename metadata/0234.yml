@@ -12,4 +12,26 @@ solutions:
   - linked-list
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
+- file: Solution_0234_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Linked List
+  topics:
+  - linked-list
+  time: ''
+  space: ''
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
+  tricks:
+  - linked list reverse
+  - fast slow pointer
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
