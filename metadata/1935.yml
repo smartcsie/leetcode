@@ -5,10 +5,15 @@ solutions:
 - file: Solution_1935.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - String Character Classification
   - Stream
   topics:
   - string-character-classification
   time: O(N*M)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
