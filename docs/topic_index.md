@@ -448,6 +448,7 @@
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/0662.md) | O(N) | O(W) | 2026-09-14 |
 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0671.md) | O(N) | O(H) | 2026-09-25 |
 | 701 | 👑 **BST insert**<br>[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 Medium | Binary Search Tree, Binary Search Tree | [C++](problems/0701.md) | O(H) | O(H) | 2026-09-25 |
+| 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](problems/0783.md) | O(N) | O(H) | 2026-09-25 |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS, Level Order Traversal | [C++](problems/0958.md) | O(N) | O(N) | 2026-09-14 |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0965.md) | O(N) | O(H) | 2026-09-25 |
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 Medium | Binary Search Tree, BST | [C++](problems/1038.md) | O(N) | O(H) | 2026-09-25 |

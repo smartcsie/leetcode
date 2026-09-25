@@ -12,8 +12,14 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
   note: '> **同530[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)**'
   related:
   - 530
-  tricks: null
+  tricks:
+  - inorder travsal
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
