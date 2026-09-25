@@ -14,7 +14,12 @@ solutions:
   familiarity: 再練習
   related:
   - 257
+  tricks:
+  - tree path sum
   attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
   - date: '2026-09-25'
     result: 對
     reason: null
