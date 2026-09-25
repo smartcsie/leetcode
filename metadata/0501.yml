@@ -20,7 +20,14 @@ solutions:
   - 3982
   tricks:
   - running maximum with reset
+  - inorder travsal
   attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
+  - date: '2026-09-25'
+    result: 對
+    reason: null
   - date: '2026-09-25'
     result: 對
     reason: null

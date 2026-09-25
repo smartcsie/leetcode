@@ -18,9 +18,9 @@
 
 class Solution {
 private:
-    void dfs(TreeNode* root, int& prev, int& count, int& mx, vector<int>& ans) {
+    void inorder(TreeNode* root, int& prev, int& count, int& mx, vector<int>& ans) {
         if(!root) return;
-        dfs(root->left, prev, count, mx, ans);
+        inorder(root->left, prev, count, mx, ans);
         if(prev == root->val) count++;
         else count = 1;
         if(count > mx) {
@@ -30,7 +30,7 @@ private:
             ans.push_back(root->val);
         }
         prev = root->val;
-        dfs(root->right, prev, count, mx, ans);
+        inorder(root->right, prev, count, mx, ans);
     }
 public:
     vector<int> findMode(TreeNode* root) {
@@ -38,7 +38,7 @@ public:
         int count = 1;
         int mx = INT_MIN;
         int prev = INT_MIN;
-        dfs(root, prev, count, mx, ans);
+        inorder(root, prev, count, mx, ans);
         return ans;
     }
 };
