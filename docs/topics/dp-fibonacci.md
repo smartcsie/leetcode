@@ -13,14 +13,12 @@
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci, DP | [C++](../problems/0213.md) | O(N) | O(1) |  |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci | [C++](../problems/0213.md) | O(N) | O(N) |  |
 
-## 🟡 練習過（7）
+## 🟡 練習過（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Dynamic Programming Fibonacci, DP, Linear Optimization | [C++](../problems/0198.md) | O(N) | O(1) |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Dynamic Programming Fibonacci | [C++](../problems/0198.md) | O(N) | O(N) |  |
-| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming Fibonacci, Dynamic Programming | [C++](../problems/0509.md) | O(N) | O(1) |  |
-| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming Fibonacci | [C++](../problems/0509.md) | O(N) | O(N) |  |
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](../problems/0746.md) | O(N) | O(N) |  |
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci | [C++](../problems/0746.md) | O(N) | O(1) |  |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dynamic Programming Fibonacci, DP | [C++](../problems/1137.md) | O(N) | O(1) |  |
@@ -31,12 +29,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | Dp Fibonacci | [C++](../problems/0091.md) | O(N) | O(N) |  |
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci, DP, Unbounded Knapsack (Permutation) | [C++](../problems/0070.md) | O(N) | O(1) | 2026-09-25 |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](../problems/0070.md) | O(N) | O(N) | 2026-09-25 |
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming, Dynamic Programming Fibonacci | [C++](../problems/0509.md) | O(N) | O(1) | 2026-09-25 |
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming Fibonacci | [C++](../problems/0509.md) | O(N) | O(N) | 2026-09-25 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dynamic Programming Fibonacci | [C++](../problems/1137.md) | O(N) | O(N) |  |
 
 ---

@@ -419,6 +419,8 @@
 | 70 | 👑 **Fibonacci**<br>[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci, DP, Unbounded Knapsack (Permutation) | [C++](problems/0070.md) | O(N) | O(1) | 2026-09-25 |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](problems/0070.md) | O(N) | O(N) | 2026-09-25 |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Dp Knapsack, 0-1 Knapsack | [C++](problems/0416.md) | O(N\*S) | O(NS) | 2026-09-18 |
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming, Dynamic Programming Fibonacci | [C++](problems/0509.md) | O(N) | O(1) | 2026-09-25 |
+| 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming Fibonacci | [C++](problems/0509.md) | O(N) | O(N) | 2026-09-25 |
 
 ---
 
