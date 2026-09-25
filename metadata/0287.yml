@@ -17,6 +17,9 @@ solutions:
   - date: '2026-09-25'
     result: 對
     reason: null
+  - date: '2026-09-25'
+    result: 對
+    reason: null
 - file: Solution_0287_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -26,8 +29,11 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 再練習
-  note: '> **此題題目限制，看起來只有第一個fsat slow pointer符合**<br>'
+  note: '> **此題題目限制，看起來只有第一個fast slow pointer符合**<br>'
   attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
   - date: '2026-09-25'
     result: 對
     reason: null
