@@ -516,6 +516,14 @@
 
 ---
 
+## 🔢 SQL
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 Easy | Sql, Database | [C++](problems/0182.md) | O(N) | O(N) | 2026-09-25 |
+
+---
+
 ## 📚 Quick Select
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
