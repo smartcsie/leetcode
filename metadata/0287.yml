@@ -13,7 +13,10 @@ solutions:
   space: O(1)
   familiarity: 易忘
   note: '> Floyd''s Tortoise and Hare（快慢指標找環）'
-  tricks: null
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
 - file: Solution_0287_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -22,6 +25,11 @@ solutions:
   - array-negative-marking
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **此題題目限制，看起來只有第一個fsat slow pointer符合**<br>'
-  tricks: null
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Negative Marking
