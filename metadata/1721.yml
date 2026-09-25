@@ -11,7 +11,7 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **fast從head出發，走k-1步，因為例如1->2->3，k=2，只有走到2，走2-1步**<br>
 
     > **fast走到k-1，為其中一個節點，另外一個節點繼續跟fast走到底**<br>
@@ -21,7 +21,10 @@ solutions:
     > **例如1->2->3->4->5，假設k=4，first會是4，second會是2**<br>
 
     > ****<br>'
-  tricks: null
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
 - file: Solution_1721_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -30,5 +33,8 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 易忘
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null

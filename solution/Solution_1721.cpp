@@ -23,18 +23,17 @@
  * ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 public:
     ListNode* swapNodes(ListNode* head, int k) {
-        ListNode* fast = head;
-        for(int i = 1; i <= k - 1; i++) {
-            fast = fast->next;
-        }
-        ListNode* first = fast;
+        ListNode* cur = head;
+        for(int i = 1; i <= k - 1; i++) cur = cur->next;
+        ListNode* first = cur;
         ListNode* second = head;
-        while(fast->next) {
+        while(cur->next) {
             second = second->next;
-            fast = fast->next;
+            cur = cur->next;
         }
         swap(first->val, second->val);
         return head;
