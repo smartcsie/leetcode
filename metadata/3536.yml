@@ -24,3 +24,9 @@ solutions:
 
 
     <br><br>'
+  tricks:
+  - Min Max With Repeat
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null

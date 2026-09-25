@@ -15,20 +15,17 @@
 class Solution {
 public:
     int maxProduct(int n) {
-        int first_max = -1;
-        int second_max = -1;
-        
-        while (n > 0) {
-            int digit = n % 10;
-            if (digit > first_max) {
-                second_max = first_max;
-                first_max = digit;
-            } else if (digit > second_max) {
-                second_max = digit;
+        int mx1 = -1, mx2 = -1;
+        while(n > 0) {
+            int d = n % 10;
+            if(d > mx1) {
+                mx2 = mx1;
+                mx1 = d;
+            } else if(d > mx2) {
+                mx2 = d;
             }
             n /= 10;
         }
-        
-        return first_max * second_max;
+        return mx1 * mx2;
     }
 };
