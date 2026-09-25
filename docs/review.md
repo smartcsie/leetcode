@@ -147,7 +147,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 Medium | Linked List, Recursion | [C++](problems/0024.md) | O(N) | O(N) |  |
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | 🟡 Medium | Linked List, Two Pointers | [C++](problems/0082.md) | O(N) | O(1) |  |
-| 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 Medium | Linked List | [C++](problems/0092.md) | O(N) | O(1) |  |
+| 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 Medium | Linked List | [C++](problems/0092.md) | O(N) | O(1) | 2026-09-25 |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | Linked List | [C++](problems/0143.md) | O(N) | O(1) |  |
 | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | 🟢 Easy | Linked List, Bit Manipulation | [C++](problems/1290.md) | O(N) | O(1) |  |
 | 1721 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list) | 🟡 Medium | Linked List, Two Pointers | [C++](problems/1721.md) | O(N) | O(1) |  |

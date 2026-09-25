@@ -18,7 +18,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 Medium | Linked List, Recursion | [C++](../problems/0024.md) | O(N) | O(N) |  |
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | 🟡 Medium | Linked List, Two Pointers | [C++](../problems/0082.md) | O(N) | O(1) |  |
-| 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 Medium | Linked List | [C++](../problems/0092.md) | O(N) | O(1) |  |
+| 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 Medium | Linked List | [C++](../problems/0092.md) | O(N) | O(1) | 2026-09-25 |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | Linked List | [C++](../problems/0143.md) | O(N) | O(1) |  |
 | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | 🟢 Easy | Linked List, Bit Manipulation | [C++](../problems/1290.md) | O(N) | O(1) |  |
 | 1721 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list) | 🟡 Medium | Linked List, Two Pointers | [C++](../problems/1721.md) | O(N) | O(1) |  |
@@ -39,6 +39,6 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 Medium | Linked List, Math | [C++](../problems/0002.md) | O(max(N,M)) | O(max(N,M)) | 2026-09-22 |
-| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](../problems/0206.md) | O(N) | O(1) | 2026-09-16 |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](../problems/0206.md) | O(N) | O(1) | 2026-09-25 |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List, Two Pointers, Vector | [C++](../problems/0234.md) | O(N) | O(N) | 2026-09-25 |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List | [C++](../problems/0234.md) |  |  | 2026-09-25 |

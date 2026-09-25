@@ -22,8 +22,12 @@ solutions:
 
     > **cur = next;，**<br>'
   tricks:
-  - list reverse
+  - reverse linked list
   attempts:
   - date: '2026-09-16'
     result: 對
     reason: null
+  - date: '2026-09-25'
+    result: 對
+    reason: null
+  representative_tag: Reverse Linked List

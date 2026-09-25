@@ -382,7 +382,8 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2 | 👑 **Linked List Number Addition**<br>[Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 Medium | Linked List, Math | [C++](problems/0002.md) | O(max(N,M)) | O(max(N,M)) | 2026-09-22 |
-| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](problems/0206.md) | O(N) | O(1) | 2026-09-16 |
+| 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 Medium | Linked List | [C++](problems/0092.md) | O(N) | O(1) | 2026-09-25 |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](problems/0206.md) | O(N) | O(1) | 2026-09-25 |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List, Two Pointers, Vector | [C++](problems/0234.md) | O(N) | O(N) | 2026-09-25 |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List | [C++](problems/0234.md) |  |  | 2026-09-25 |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | 🟢 Easy | Linked List | [C++](problems/0237.md) | O(1) | O(1) | 2026-09-16 |
