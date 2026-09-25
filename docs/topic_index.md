@@ -291,6 +291,7 @@
 | 704 | 👑 **Binary Search**<br>[Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](problems/0704.md) | O(logN) | O(1) | 2026-09-14 |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | Binary Search Build In, Matrix, Binary Search | [C++](problems/1351.md) | O(R+C) | O(1) | 2026-09-24 |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | Binary Search Find Left Bound | [C++](problems/1351.md) | O(R\*logC) | O(1) | 2026-09-24 |
+| 2529 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer) | 🟢 Easy | Binary Search Find Left Bound | [C++](problems/2529.md) | O(logN) | O(1) | 2026-09-25 |
 
 ---
 

@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（215）](#review-lianxiguo)　[🟠 再練習清單（195）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（214）](#review-lianxiguo)　[🟠 再練習清單（195）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：187 題　🟡 練習過：191 題　🟣 易忘：110 題　🟢 熟練：271 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：187 題　🟡 練習過：190 題　🟣 易忘：110 題　🟢 熟練：272 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 215 個解法標記為練習過，持續複習鞏固。
+目前共有 214 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（12）](#lianxiguo-string)　[🍱 Array（22）](#lianxiguo-array)　[🌳 Tree（18）](#lianxiguo-tree)　[🔍 Binary Search（14）](#lianxiguo-binary-search)　[⛓️ Linked List（8）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（19）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（18）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（12）](#lianxiguo-string)　[🍱 Array（22）](#lianxiguo-array)　[🌳 Tree（18）](#lianxiguo-tree)　[🔍 Binary Search（13）](#lianxiguo-binary-search)　[⛓️ Linked List（8）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（19）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（18）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（12）
@@ -121,7 +121,7 @@
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/2415.md) | O(N) | O(H) |  |
 
 <a id="lianxiguo-binary-search"></a>
-#### 🔍 Binary Search（14）
+#### 🔍 Binary Search（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -138,7 +138,6 @@
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | 🟢 Easy | Binary Search Build In | [C++](problems/0744.md) | O(logN) | O(1) |  |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | Binary Search | [C++](problems/0852.md) | O(logN) | O(1) |  |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | Binary Search Find Left Bound | [C++](problems/1351.md) | O(R\*logC) | O(1) | 2026-09-24 |
-| 2529 | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer) | 🟢 Easy | Binary Search Find Left Bound | [C++](problems/2529.md) | O(logN) | O(1) |  |
 
 <a id="lianxiguo-linked-list"></a>
 #### ⛓️ Linked List（8）
@@ -971,7 +970,7 @@
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [binary-search](topics/binary-search.md) | 1 | 0 | 4 | 1 | 1 | 0 | 7 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 5 | 0 | 4 | 0 | 1 | 0 | 10 |
-| [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 0 | 0 | 7 | 1 | 0 | 0 | 8 |
+| [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 0 | 0 | 6 | 1 | 1 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 1 | 0 | 1 | 1 | 0 | 0 | 3 |
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
 | [binary-search-tree](topics/binary-search-tree.md) | 0 | 2 | 7 | 1 | 6 | 0 | 16 |
