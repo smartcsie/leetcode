@@ -11,7 +11,14 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
   note: '> **root->val > mn是要去掉重覆值mn，例如2,2,5，sec是5**<br>
 
     > **因為此題 1 <= Node.val <= 231 - 1，所以用long**<br>'
+  tricks:
+  - Min Max Without Repeat
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null

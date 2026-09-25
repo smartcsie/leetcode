@@ -16,21 +16,21 @@
 
 class Solution {
 private:
-    void dfs(TreeNode* root, long& mn, long& sec) {
+    void dfs(TreeNode* root, long& mn1, long& mn2) {
         if(!root) return;
-        if(root->val < mn) {
-            sec = mn;
-            mn = root->val;
-        } else if(root->val < sec && root->val > mn) {
-            sec = root->val;
+        if(root->val < mn1) {
+            mn2 = mn1;
+            mn1 = root->val;
+        } else if(root->val < mn2 && root->val > mn1) {
+            mn2 = root->val;
         }
-        dfs(root->left, mn, sec);
-        dfs(root->right, mn, sec);
+        dfs(root->left, mn1, mn2);
+        dfs(root->right, mn1, mn2);
     }
 public:
     int findSecondMinimumValue(TreeNode* root) {
-        long mn = LONG_MAX, sec = LONG_MAX;
-        dfs(root, mn, sec);
-        return static_cast<int>(sec);
+        long mn1 = LONG_MAX, mn2 = LONG_MAX;
+        dfs(root, mn1, mn2);
+        return mn2 == LONG_MAX ? -1 : static_cast<int>(mn2);
     }
 };
