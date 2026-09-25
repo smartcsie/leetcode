@@ -6,16 +6,19 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Tree Dfs Path
-  - DFS
   topics:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
   note: '> **分葉子節點和非葉子節點處理**<br>'
   tricks:
   - tree path sum
   attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
   - date: '2026-09-25'
     result: 對
     reason: null

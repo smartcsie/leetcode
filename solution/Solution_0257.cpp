@@ -13,24 +13,19 @@
 
 class Solution {
 private:
-    void dfs(TreeNode* root, string path, vector<string>& res) {
-        if (!root) return;
-        // 將當前節點值加入路徑
-        path += to_string(root->val);
-        // 若為葉節點，將路徑加入結果集
-        if (!root->left && !root->right) {
-            res.push_back(path);
-        } else {
-            // 若非葉節點，繼續向下遍歷並加上箭頭
-            path += "->";
-            dfs(root->left, path, res);
-            dfs(root->right, path, res);
+    void inorder(TreeNode* root, string path, vector<string>& ans) {
+        if(!root) return;
+        path += path.empty() ? to_string(root->val) : "->" + to_string(root->val);
+        if(!root->left && !root->right) {
+            ans.push_back(path);
         }
+        inorder(root->left, path, ans);
+        inorder(root->right, path, ans);
     }
 public:
     vector<string> binaryTreePaths(TreeNode* root) {
-        vector<string> res;
-        dfs(root, "", res);
-        return res;
+        vector<string> ans;
+        inorder(root, "", ans);
+        return ans;
     }
 };
