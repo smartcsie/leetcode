@@ -21,23 +21,16 @@ class Solution {
 public:
     ListNode* mergeNodes(ListNode* head) {
         ListNode* cur = head;
-        
-        while (cur) {
-            // 將兩個 0 之間的所有節點數值累加到當前節點，並拔除已累加的節點
-            while (cur->next && cur->next->val != 0) {
+        while(cur) {
+            while(cur->next && cur->next->val != 0) {
                 cur->val += cur->next->val;
                 cur->next = cur->next->next;
             }
-            
-            // 如果下一個節點是 0，且它是整個鏈結串列的最後一個節點，將其切斷
-            if (cur->next && cur->next->val == 0 && cur->next->next == nullptr) {
-                cur->next = nullptr;
+            if(cur->next && cur->next->val == 0) {
+                cur->next = cur->next->next;
             }
-            
-            // 移動到下一個區段的起始節點
             cur = cur->next;
         }
-        
         return head;
     }
 };

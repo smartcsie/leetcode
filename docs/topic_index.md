@@ -387,6 +387,7 @@
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List, Two Pointers, Vector | [C++](problems/0234.md) | O(N) | O(N) | 2026-09-25 |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List | [C++](problems/0234.md) |  |  | 2026-09-25 |
 | 237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | 🟢 Easy | Linked List | [C++](problems/0237.md) | O(1) | O(1) | 2026-09-16 |
+| 2181 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | 🟡 Medium | Linked List, In-place Modification | [C++](problems/2181.md) | O(N) | O(1) | 2026-09-25 |
 
 ---
 
