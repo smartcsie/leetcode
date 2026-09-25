@@ -18,6 +18,9 @@ solutions:
   - date: '2026-09-25'
     result: 對
     reason: null
+  - date: '2026-09-25'
+    result: 對
+    reason: null
 - file: Solution_0234_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -29,9 +32,12 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-25'
   tricks:
-  - linked list reverse
+  - reverse linked list
   - fast slow pointer
   attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
   - date: '2026-09-25'
     result: 對
     reason: null
