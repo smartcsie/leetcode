@@ -4,18 +4,18 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Binary Search Tree | [C++](../problems/0098.md) | O(N) | O(H) | 2026-09-25 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree | [C++](../problems/0235.md) | O(H) | O(1) |  |
 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 Medium | Binary Search Tree, Binary Search Tree | [C++](../problems/0701.md) | O(H) | O(H) | 2026-09-25 |
 
-## 🟡 練習過（7）
+## 🟡 練習過（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Binary Search Tree, DFS, BST | [C++](../problems/0098.md) | O(N) | O(H) |  |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | Binary Search Tree, BST, In-order Traversal | [C++](../problems/0099.md) | O(N) | O(1) |  |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, Binary Search | [C++](../problems/0108.md) | O(N) | O(logN) |  |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 Medium | Binary Search Tree, Tree | [C++](../problems/0109.md) | O(NlogN) | O(logN) |  |
