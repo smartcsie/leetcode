@@ -5,10 +5,17 @@ solutions:
 - file: Solution_1323.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy
+  - Greedy Digit Construction
   - Math
   topics:
   - greedy-digit-construction
   time: O(D)
   space: O(D)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-25'
+  tricks:
+  - stoi
+  attempts:
+  - date: '2026-09-25'
+    result: 對
+    reason: null
