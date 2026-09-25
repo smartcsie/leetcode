@@ -27,21 +27,28 @@ public:
     string strWithout3a3b(int a, int b) {
         string ans;
         ans.reserve(a + b);
-        while(a && b) {
-            if(a > b) {
-                ans.push_back('a'); ans.push_back('a'); ans.push_back('b');
-                a -= 2 ; 
-                b -= 1;
-            } else if(a < b) {
-                ans.push_back('b') ; ans.push_back('b'); ans.push_back('a');
-                a -= 1 ; b -= 2;
-            } else {
-                ans.push_back('a') ; ans.push_back('b');
-                a -= 1 ; b -= 1;
+        while(a > 0 && b > 0) {
+            if(a == b) {
+                ans.push_back('a');
+                ans.push_back('b');
+                a--;
+                b--;
+            } else if(a > b) {
+                ans.push_back('a');
+                ans.push_back('a');
+                ans.push_back('b');
+                a -= 2;
+                b--;
+            } else if(b > a) {
+                ans.push_back('b');
+                ans.push_back('b');
+                ans.push_back('a');
+                a--;
+                b -= 2;
             }
         }
-        while(a--)  ans.push_back('a');
-        while(b--)  ans.push_back('b');
+        while(a-- > 0) ans.push_back('a');
+        while(b-- > 0) ans.push_back('b');
         return ans;
     }
 };

@@ -408,6 +408,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 Easy | Greedy Coin Change | [C++](problems/0860.md) | O(N) | O(1) | 2026-09-17 |
+| 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 Medium | Greedy String Construction, Recursion, String Construction | [C++](problems/0984.md) | O(A + B) | O(A + B) | 2026-09-25 |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy, Hashing | [C++](problems/2815.md) | O(N\*D) | O(1) | 2026-09-17 |
 | 2864 | 👑 **String Concatenation**<br>[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy String Construction, String | [C++](problems/2864.md) | O(N) | O(1) | 2026-09-21 |
 

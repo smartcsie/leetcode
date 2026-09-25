@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（229）](#review-lianxiguo)　[🟠 再練習清單（192）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（228）](#review-lianxiguo)　[🟠 再練習清單（192）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：184 題　🟡 練習過：205 題　🟣 易忘：110 題　🟢 熟練：260 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：184 題　🟡 練習過：204 題　🟣 易忘：110 題　🟢 熟練：261 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 229 個解法標記為練習過，持續複習鞏固。
+目前共有 228 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（23）](#lianxiguo-array)　[🌳 Tree（22）](#lianxiguo-tree)　[🔍 Binary Search（14）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（20）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
+📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（16）](#lianxiguo-string)　[🍱 Array（23）](#lianxiguo-array)　[🌳 Tree（22）](#lianxiguo-tree)　[🔍 Binary Search（14）](#lianxiguo-binary-search)　[⛓️ Linked List（10）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（20）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（36）](#lianxiguo-dynamic-programming)　[🧩 Greedy（19）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)　[🔢 SQL（1）](#lianxiguo-sql)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（12）
@@ -308,13 +308,12 @@
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | Dp Lis, Dynamic Programming Lis, Longest Non-Decreasing Subsequence | [C++](problems/2826.md) | O(N) | O(1) |  |
 
 <a id="lianxiguo-greedy"></a>
-#### 🧩 Greedy（20）
+#### 🧩 Greedy（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0402.md) | O(N) | O(N) |  |
 | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0881.md) | O(N log N) | O(1) |  |
-| 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 Medium | Greedy, Recursion, String Construction | [C++](problems/0984.md) | O(A + B) | O(A + B) |  |
 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 Easy | Greedy Sorting Decision, Sorting | [C++](problems/1005.md) | O(NlogN) | O(1) |  |
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/1029.md) | O(N log N) | O(1) |  |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy, Math | [C++](problems/1323.md) | O(D) | O(D) |  |
@@ -1029,7 +1028,7 @@
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 1 | 0 | 0 | 0 | 5 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 3 | 0 | 1 | 0 | 0 | 0 | 4 |
 | [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 1 | 9 | 0 | 0 | 0 | 12 |
-| [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 3 | 1 | 0 | 0 | 0 | 8 |
+| [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 3 | 0 | 0 | 1 | 0 | 8 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 2 | 0 | 1 | 1 | 0 | 0 | 4 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 3 | 8 | 4 | 0 | 10 | 0 | 25 |
