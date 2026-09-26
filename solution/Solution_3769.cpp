@@ -12,27 +12,22 @@
  */
 
 class Solution {
+private:
+    int getReflect(int n) {
+        int r = 0;
+        while(n > 0) {
+            r = (r << 1) | (n & 1);
+            n >>= 1;
+        }
+        return r;;
+    }
 public:
     vector<int> sortByReflection(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> reflect(n);
-        vector<int> indices(n);
-        for(int i = 0; i < n; i++) {
-            int r = 0;
-            int t = nums[i];
-            while(t > 0) {
-                r = (r << 1) | (t & 1);
-                t >>= 1;
-            } 
-            reflect[i] = r;
-        }
-        for(int i = 0; i < n; i++) indices[i] = i;
-        sort(indices.begin(), indices.end(), [&](const int& a, const int& b){
-            return reflect[a] != reflect[b] ? reflect[a] < reflect[b] : nums[a] < nums[b];
+        sort(nums.begin(), nums.end(), [&](const int& a, const int& b){
+            int refA = getReflect(a);
+            int refB = getReflect(b);
+            return refA != refB ? refA < refB : a < b;
         });
-        vector<int> ans;
-        ans.reserve(n);
-        for(const int& idx : indices) ans.push_back(nums[idx]);
-        return ans;
+        return nums;
     }
 };
