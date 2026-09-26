@@ -10,8 +10,12 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   attempts:
   - date: '2026-09-25'
+    result: 對
+    reason: null
+  - date: '2026-09-26'
     result: 對
     reason: null

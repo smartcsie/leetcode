@@ -4,11 +4,10 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（5）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Binary Search Tree | [C++](../problems/0098.md) | O(N) | O(H) | 2026-09-25 |
 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, Binary Search | [C++](../problems/0108.md) | O(N) | O(logN) | 2026-09-26 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree | [C++](../problems/0235.md) | O(H) | O(1) |  |
 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 Medium | Binary Search Tree, Binary Search Tree | [C++](../problems/0701.md) | O(H) | O(H) | 2026-09-25 |
@@ -29,10 +28,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 Easy | Binary Search Tree | [C++](../problems/0653.md) | O(n) | O(n) | 2026-09-25 |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Binary Search Tree | [C++](../problems/0098.md) | O(N) | O(H) | 2026-09-26 |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 Medium | Binary Search Tree | [C++](../problems/0230.md) | O(K) | O(H) | 2026-09-25 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0235.md) | O(H) | O(H) | 2026-09-14 |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0501.md) | O(N) | O(H) | 2026-09-25 |
