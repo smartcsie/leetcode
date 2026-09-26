@@ -15,17 +15,15 @@ class Solution {
 public:
     vector<int> sortEvenOdd(vector<int>& nums) {
         int n = nums.size();
-        vector<int> odd;
-        vector<int> even;
-        odd.reserve(n / 2);
-        even.reserve(n / 2);
+        vector<vector<int>> oddeven(2);
         for(int i = 0; i < n; i++) {
-            ((i & 1) ? odd : even).push_back(nums[i]);
+            oddeven[i & 1].push_back(nums[i]);
         }
-        sort(odd.begin(), odd.end(), greater<>());
-        sort(even.begin(), even.end());
-        nums.clear();
-        for(int i = 0; i < n; i++) nums.push_back(i & 1 ? odd[i >> 1] : even[i >> 1]);
+        sort(oddeven[0].begin(), oddeven[0].end());
+        sort(oddeven[1].begin(), oddeven[1].end(), greater<>());
+        for(int i = 0; i < n; i++) {
+            nums[i] = oddeven[i & 1][i >> 1];
+        }
         return nums;
     }
 };

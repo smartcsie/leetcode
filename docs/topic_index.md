@@ -517,6 +517,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2164 | [Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/) | 🟢 Easy | Sorting Custom Comparator | [C++](problems/2164.md) | O(NlogN) | O(N) | 2026-09-26 |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 Medium | Sorting, Hash Table, Counting | [C++](problems/2225.md) | O(NlogN) | O(N) | 2026-09-26 |
 | 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟡 Medium | Sorting Custom Comparator, Sorting | [C++](problems/2545.md) | O(NlogN) | O(1) | 2026-09-26 |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting, Set | [C++](problems/3684.md) | O(NlogN) | O(N) | 2026-09-15 |
