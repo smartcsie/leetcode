@@ -10,13 +10,18 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   note: "> [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)<br>\n\
     \ **此題總共有四種作法**<br>\n> [法一 Hashset Insert](../problems/0217.md)，一邊Insert，一邊檢查，Time:O(N)，Time:O(N)<br>\n\
     > [法二 Hashset 去重](../problems/0217.md)，全部塞入unordered_set，檢查個數和原nums個數，Time:O(N)，Time:O(N)<br>\n\
     > [法三 Unique 去重](../problems/0217.md)，用std::unique判斷，檢查it != nums.end()，Time:O(NlogN)，Time:O(logN)<br>\n\
     > [法四 排序](../problems/0217.md)，排序，檢查相鄰元素是否相等，Time:O(NlogN)，Time:O(logN)<br>\n\n\
     \n<br><br>"
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
 - file: Solution_0217_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -25,7 +30,12 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: unordered_set
 - file: Solution_0217_2.cpp
@@ -36,8 +46,13 @@ solutions:
   - hash-table-uniqueness
   time: O(NlogN)
   space: O(logN)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   is_best: true
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: unique
 - file: Solution_0217_3.cpp
@@ -48,4 +63,9 @@ solutions:
   - hash-table-uniqueness
   time: O(NlogN)
   space: O(logN)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
