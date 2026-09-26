@@ -99,6 +99,7 @@
 | 434 | 👑 **String Segments**<br>[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String Character Classification | [C++](problems/0434.md) | O(N) | O(1) | 2026-09-25 |
 | 520 | 👑 **count_if**<br>[Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String Character Classification | [C++](problems/0520.md) | O(N) | O(1) | 2026-09-20 |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 Easy | String Character Classification | [C++](problems/0709.md) | O(N) | O(1) | 2026-09-20 |
+| 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 Medium | String, Counting Sort | [C++](problems/0791.md) | O(N+M) | O(1) | 2026-09-26 |
 | 806 | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | 🟢 Easy | String, String, Simulation | [C++](problems/0806.md) | O(N) | O(1) | 2026-09-25 |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 Easy | String | [C++](problems/1108.md) | O(N) | O(N) | 2026-09-20 |
 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 Easy | String Character Classification | [C++](problems/1455.md) | O(N) | O(W) | 2026-09-21 |
