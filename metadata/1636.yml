@@ -5,17 +5,22 @@ solutions:
 - file: Solution_1636.cpp
   difficulty: 🟢 Easy
   tags:
-  - Sorting
+  - Sorting Custom Comparator
   - Hash Table
   - Sorting
   topics:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   note: '> **排頻率不相等，出現頻率小的在前面**<br>
 
     > **排序頻率相等，數字大在前面**<br>'
   related:
   - 1356
   - 3769
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
