@@ -15,13 +15,13 @@ class Solution {
 public:
     vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
         sort(arr.begin(), arr.end());
-        int mn = 1e8;
+        int mn = INT_MAX;
         vector<vector<int>> ans;
         for(int i = 1; i < arr.size(); i++) {
-            if(arr[i] - arr[i - 1] < mn) {
-                mn = arr[i] - arr[i - 1];
+            if((arr[i] - arr[i - 1]) < mn) {
                 ans = {{arr[i - 1], arr[i]}};
-            } else if(arr[i] - arr[i - 1] == mn) {
+                mn = arr[i] - arr[i - 1];
+            } else if((arr[i] - arr[i - 1]) == mn) {
                 ans.push_back({arr[i - 1], arr[i]});
             }
         }

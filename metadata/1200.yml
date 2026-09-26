@@ -11,5 +11,12 @@ solutions:
   - sorting
   time: O(NlogN)
   space: O(N)
-  familiarity: 練習過
-  note: '> 一邊紀錄最小值，一邊維護vector<vector<int>> ans;<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
+  note: '> **一邊紀錄最小值，一邊維護vector<vector<int>> ans;**<br>'
+  tricks:
+  - Running Maximum With Reset
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
