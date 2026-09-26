@@ -12,9 +12,13 @@ solutions:
   - bit-manipulation-and
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   note: '> **因為AND結果要最大為mx，就是有n個mx互相AND，假設mx=7，ans=3，勢必存在......7,7,7......**<br>'
   attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
   - date: '2026-09-26'
     result: 對
     reason: null
