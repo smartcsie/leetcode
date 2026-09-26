@@ -11,10 +11,16 @@ solutions:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **排reflect不相等，reflect小的在前面**<br>
 
     > **排序頻率相等，數字小在前面**<br>'
   related:
   - 1356
   - 1636
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Sorting Index
