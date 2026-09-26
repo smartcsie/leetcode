@@ -5,16 +5,21 @@ solutions:
 - file: Solution_0278.cpp
   difficulty: 🟢 Easy
   tags:
-  - Binary Search
+  - Binary Search Find Left Bound
   topics:
   - binary-search-find-left-bound
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   note: '> **物品可能是1 2 3 4 5(bad) 6(bad) 7(bad)**<br>
 
     > **如果 mid 落在 1 2 3 4 則往右找，left = mid + 1**<br>
 
     > **如果 mid 落在 5 6 7 則往右找，因為mid 本身也有可能是解答，所以right = mid;**<br>'
-  tricks: null
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
   is_representative: true
+  representative_tag: Binary Search Find Left Bound
