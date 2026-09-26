@@ -14,19 +14,13 @@
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
-        unordered_map<int, int> counts;
-        for (int num : arr) {
-            counts[num]++;
+        unordered_map<int, int> freqs;
+        for(const int& x : arr) freqs[x]++;
+        unordered_set<int> uniqueSet;
+        for(const auto& [num, freq] : freqs) {
+            if(uniqueSet.contains(freq)) return false;
+            uniqueSet.insert(freq);
         }
-        
-        unordered_set<int> frequencies;
-        for (const auto& [val, count] : counts) {
-            // 如果插入失敗 (insert 返回 pair 的第二個元素為 false)，代表頻率已存在
-            if (!frequencies.insert(count).second) {
-                return false;
-            }
-        }
-        
         return true;
     }
 };
