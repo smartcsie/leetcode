@@ -6,15 +6,22 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Dp Kadane
-  - DP
   topics:
   - dp-kadane
   time: O(N)
   space: O(N)
-  familiarity: 練習過
-  note: '> 注意初始化值是1'
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
+  note: '> **注意初始化值是1**<br>'
   related:
   - 300
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
+  - date: '2026-09-26'
+    result: 對
+    reason: null
 - file: Solution_0674.cpp
   difficulty: 🟢 Easy
   tags:
@@ -32,3 +39,11 @@ solutions:
   - date: '2026-09-15'
     result: 對
     reason: null
+  - date: '2026-09-26'
+    result: 對
+    reason: null
+  - date: '2026-09-26'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Longest Continuous Increasing Subsequence

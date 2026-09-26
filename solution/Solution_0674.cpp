@@ -21,8 +21,7 @@ public:
         int lcis = 1;
         int len = 1;
         for(int i = 1; i < nums.size(); i++) {
-            if(nums[i] > nums[i - 1]) len++;
-            else len = 1;
+            len = (nums[i] > nums[i - 1]) ? len+1 : 1;
             lcis = max(lcis, len);
         }
         return lcis;

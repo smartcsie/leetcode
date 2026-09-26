@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（158）](#review-lianxiguo)　[🟠 再練習清單（210）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（157）](#review-lianxiguo)　[🟠 再練習清單（210）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：202 題　🟡 練習過：141 題　🟣 易忘：110 題　🟢 熟練：306 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：202 題　🟡 練習過：140 題　🟣 易忘：110 題　🟢 熟練：307 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 158 個解法標記為練習過，持續複習鞏固。
+目前共有 157 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（11）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（10）](#lianxiguo-tree)　[🔍 Binary Search（5）](#lianxiguo-binary-search)　[⛓️ Linked List（5）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（15）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（31）](#lianxiguo-dynamic-programming)　[🧩 Greedy（13）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
+📌 **快速跳轉：** [🔢 Math（11）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（10）](#lianxiguo-tree)　[🔍 Binary Search（5）](#lianxiguo-binary-search)　[⛓️ Linked List（5）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（15）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（13）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（11）
@@ -202,7 +202,7 @@
 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting Custom Comparator, Hash | [C++](problems/3913.md) | O(NlogN) | O(N) |  |
 
 <a id="lianxiguo-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（31）
+#### 🧩 Dynamic Programming（30）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -227,7 +227,6 @@
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | Dp Lis, Dynamic Programming Lcs, DP | [C++](problems/0516.md) | O(N²) | O(N) |  |
 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0518.md) | O(N\*A) | O(A) |  |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dynamic Programming Lcs | [C++](problems/0583.md) | O(M\*N) | O(M\*N) |  |
-| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dp Kadane, DP | [C++](problems/0674.md) | O(N) | O(N) |  |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | Dp Lcs | [C++](problems/0718.md) | O(N\*M) | O(M) |  |
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](problems/0746.md) | O(N) | O(N) |  |
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci | [C++](problems/0746.md) | O(N) | O(1) |  |
@@ -913,7 +912,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 5 | 2 | 1 | 3 | 0 | 11 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 5 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 1 | 6 | 4 | 0 | 15 | 0 | 26 |
+| [array-linear-scan](topics/array-linear-scan.md) | 1 | 6 | 3 | 0 | 16 | 0 | 26 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 5 | 0 | 5 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 6 | 0 | 1 | 0 | 0 | 7 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 1 | 6 | 5 | 2 | 0 | 19 |
@@ -941,7 +940,7 @@
 | [dp-greedy-pointer](topics/dp-greedy-pointer.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
 | [dp-grid-path](topics/dp-grid-path.md) | 3 | 0 | 2 | 1 | 0 | 0 | 6 |
 | [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [dp-kadane](topics/dp-kadane.md) | 1 | 1 | 3 | 0 | 0 | 0 | 5 |
+| [dp-kadane](topics/dp-kadane.md) | 1 | 1 | 2 | 0 | 1 | 0 | 5 |
 | [dp-knapsack](topics/dp-knapsack.md) | 3 | 0 | 9 | 0 | 0 | 0 | 12 |
 | [dp-lcs](topics/dp-lcs.md) | 5 | 0 | 5 | 1 | 0 | 0 | 11 |
 | [dp-lis](topics/dp-lis.md) | 4 | 0 | 3 | 0 | 0 | 0 | 7 |

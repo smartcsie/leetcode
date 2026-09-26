@@ -12,21 +12,22 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dynamic Programming Kadane Algorithm, Dynamic Programming | [C++](../problems/0053.md) | O(N) | O(1) |  |
 
-## 🟡 練習過（3）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | Dp Kadane, Array | [C++](../problems/0152.md) | O(N) | O(1) |  |
-| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dp Kadane, DP | [C++](../problems/0674.md) | O(N) | O(N) |  |
 | 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | Dp Kadane, Dynamic Programming Kadane | [C++](../problems/1567.md) | O(N) | O(1) |  |
 
 ## 🟣 易忘（0）
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dp Kadane | [C++](../problems/0674.md) | O(N) | O(N) | 2026-09-26 |
 
 ---
 

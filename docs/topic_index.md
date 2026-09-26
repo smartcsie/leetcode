@@ -229,7 +229,7 @@
 | 414 | 👑 **Array Min Max Without Repeat**<br>[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array Min Max | [C++](problems/0414.md) | O(N) | O(1) | 2026-09-15 |
 | 485 | 👑 **Linear Scan with Streak Reset**<br>[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array Continuous Counting | [C++](problems/0485.md) | O(N) | O(1) | 2026-09-16 |
 | 628 | 👑 **Array Min Max With Repeat**<br>[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array Min Max | [C++](problems/0628.md) | O(N) | O(1) | 2026-09-16 |
-| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](problems/0674.md) | O(N) | O(1) | 2026-09-15 |
+| 674 | 👑 **Longest Continuous Increasing Subsequence**<br>[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](problems/0674.md) | O(N) | O(1) | 2026-09-26 |
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | 🟢 Easy | Array, Simulation | [C++](problems/0717.md) | O(N) | O(1) | 2026-09-18 |
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 Easy | Array Min Max, Linear Scan | [C++](problems/0747.md) | O(N) | O(1) | 2026-09-16 |
 | 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 Easy | Array, Two-Pass Scan | [C++](problems/0821.md) | O(N) | O(1) | 2026-09-18 |
@@ -443,6 +443,7 @@
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Dp Knapsack, 0-1 Knapsack | [C++](problems/0416.md) | O(N\*S) | O(NS) | 2026-09-18 |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming, Dynamic Programming Fibonacci | [C++](problems/0509.md) | O(N) | O(1) | 2026-09-25 |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming Fibonacci | [C++](problems/0509.md) | O(N) | O(N) | 2026-09-25 |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dp Kadane | [C++](problems/0674.md) | O(N) | O(N) | 2026-09-26 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci, DP | [C++](problems/1137.md) | O(N) | O(1) | 2026-09-26 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](problems/1137.md) | O(N) | O(N) | 2026-09-26 |
 
