@@ -11,6 +11,11 @@ solutions:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   related:
   - 1636
+  - 3769
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null

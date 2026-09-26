@@ -14,19 +14,11 @@
 class Solution {
 public:
     vector<int> sortByBits(vector<int>& arr) {
-        // 使用 lambda 進行排序，將邏輯封裝在內部提升封裝性
-        sort(arr.begin(), arr.end(), [](const int &a, const int &b) {
-            int countA = __builtin_popcount(a);
-            int countB = __builtin_popcount(b);
-            
-            // 優先比較位元數，若不同則回傳位元數較小的
-            if (countA != countB) {
-                return countA < countB;
-            }
-            // 位元數相同，回傳數值較小的
-            return a < b;
+        sort(arr.begin(), arr.end(), [](int a, int b) {
+            int bitsA = __builtin_popcount(a);
+            int bitsB = __builtin_popcount(b);
+            return bitsA != bitsB ? bitsA < bitsB : a < b;
         });
-        
         return arr;
     }
 };
