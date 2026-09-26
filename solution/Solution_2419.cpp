@@ -18,11 +18,11 @@ class Solution {
 public:
     int longestSubarray(vector<int>& nums) {
         int mx = *max_element(nums.begin(), nums.end());
-        int ans = 0;
         int count = 0;
+        int ans = 0;
         for(const int& x : nums) {
-            count = x == mx ? count + 1 : 0;
-            ans = max(ans, count);
+            count = (x == mx) ? count + 1 : 0;
+            ans = max(count, ans);
         }
         return ans;
     }

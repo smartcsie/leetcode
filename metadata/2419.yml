@@ -14,4 +14,7 @@ solutions:
   space: O(1)
   familiarity: 練習過
   note: '> **因為AND結果要最大為mx，就是有n個mx互相AND，假設mx=7，ans=3，勢必存在......7,7,7......**<br>'
-  tricks: null
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
