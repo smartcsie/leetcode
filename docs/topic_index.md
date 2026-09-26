@@ -292,6 +292,7 @@
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | Binary Search Build In | [C++](problems/0035.md) | O(logN) | O(1) | 2026-09-25 |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | 🟡 Medium | Binary Search Find Left Bound | [C++](problems/0162.md) | O(logN) | O(1) | 2026-09-26 |
 | 278 | 👑 **Binary Search Find Left Bound**<br>[First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | Binary Search Find Left Bound | [C++](problems/0278.md) | O(logN) | O(1) | 2026-09-26 |
+| 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 Easy | Binary Search | [C++](problems/0367.md) | O(logN) | O(1) | 2026-09-26 |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | Binary Search | [C++](problems/0374.md) | O(logN) | O(1) | 2026-09-26 |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | Binary Search | [C++](problems/0540.md) | O(logN) | O(1) | 2026-09-26 |
 | 704 | 👑 **Binary Search**<br>[Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](problems/0704.md) | O(logN) | O(1) | 2026-09-14 |
