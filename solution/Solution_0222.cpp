@@ -18,25 +18,18 @@
 class Solution {
 public:
     int countNodes(TreeNode* root) {
-        TreeNode* left = root;
-        TreeNode* right = root;
-        int leftHeight = 0;
-        int rightHeight = 0;
-
-        while(left) {
-            leftHeight++;
-            left = left->left;
+        TreeNode* l = root;
+        TreeNode* r = root;
+        int lh = 0, rh = 0;
+        while(l) {
+            lh++;
+            l = l->left;
         }
-
-        while(right) {
-            rightHeight++;
-            right = right->right;
+        while(r) {
+            rh++;
+            r = r->right;
         }
-
-        if(leftHeight == rightHeight) {
-            return (1<<leftHeight)-1;
-        }
-
-        return 1 + countNodes(root->left) + countNodes(root->right);
+        if(lh == rh) return (1 << lh) -1;
+        return 1 + countNodes(root->left) +  countNodes(root->right); 
     }
 };
