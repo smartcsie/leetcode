@@ -519,6 +519,7 @@
 | 1302 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | 🟡 Medium | Tree, BFS | [C++](problems/1302.md) | O(N) | O(W) | 2026-09-14 |
 | 1305 | 👑 **Two Way Merge**<br>[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees) | 🟡 Medium | Tree Dfs Path, In-order Traversal, Two Pointers | [C++](problems/1305.md) | O(N+M) | O(N+M) | 2026-09-25 |
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](problems/1315.md) | O(N) | O(H) | 2026-09-26 |
+| 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](problems/1448.md) | O(N) | O(H) | 2026-09-26 |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/1609.md) | O(N) | O(W) | 2026-09-14 |
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree) | 🟢 Easy | Tree Dfs Path, DFS, Recursion | [C++](problems/2331.md) | O(N) | O(H) | 2026-09-25 |
 

@@ -104,7 +104,7 @@
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | Tree Dfs Path | [C++](problems/0938.md) | O(N) | O(H) | 2026-09-25 |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 Medium | Binary Search Tree, BST, DFS | [C++](problems/1008.md) | O(N) | O(N) |  |
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 Medium | Binary Search Tree, BST | [C++](problems/1382.md) | O(N) | O(N) |  |
-| 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](problems/1448.md) | O(N) | O(H) |  |
+| 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](problems/1448.md) | O(N) | O(H) | 2026-09-26 |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 Easy | Tree | [C++](problems/2236.md) | O(1) | O(1) |  |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/2415.md) | O(N) | O(H) |  |
 

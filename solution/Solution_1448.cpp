@@ -18,16 +18,17 @@
  * 4. 初始化：
  *    - 從根節點開始遞迴時，mx 設為 INT_MIN，代表根節點路徑上尚未有任何節點，根節點必為好節點。
  */
+
 class Solution {
 private:
     void dfs(TreeNode* root, int mx, int& ans) {
         if(!root) return;
-        if(mx <= root->val) {
+        if(root->val >= mx) {
+            mx = max(mx, root->val);
             ans++;
         } 
-        mx = max(mx, root->val);
-        if(root->left) dfs(root->left, mx, ans);
-        if(root->right) dfs(root->right, mx, ans);
+        dfs(root->left, mx, ans);
+        dfs(root->right, mx, ans);
     }
 public:
     int goodNodes(TreeNode* root) {
