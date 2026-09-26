@@ -5,11 +5,16 @@ solutions:
 - file: Solution_1347.cpp
   difficulty: 🟡 Medium
   tags:
-  - String
+  - String Character Classification
   - Hash Table
   - Counting
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null

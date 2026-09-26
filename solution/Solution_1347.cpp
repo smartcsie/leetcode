@@ -20,18 +20,14 @@
 class Solution {
 public:
     int minSteps(string s, string t) {
-        vector<int> countS(26, 0);
-        vector<int> countT(26, 0);
+        vector<int> counts(26, 0);
         for(int i = 0; i < s.size(); i++) {
-             countS[s[i] - 'a']++;
-             countT[t[i] - 'a']++;
+            counts[s[i] - 'a']++;
+            counts[t[i] - 'a']--;
         }
-        int ans = 0;
         for(int i = 0; i < 26; i++) {
-            if(countS[i] != 0 || countT[i] != 0) {
-                ans += abs(countS[i] - countT[i]);
-            }
+            counts[i] = abs(counts[i]);
         }
-        return ans / 2;
+        return accumulate(counts.begin(), counts.end(), 0) / 2;
     }
 };
