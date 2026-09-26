@@ -5,11 +5,15 @@ solutions:
 - file: Solution_0162.cpp
   difficulty: 🟡 Medium
   tags:
-  - Binary Search
+  - Binary Search Find Left Bound
   topics:
   - binary-search-find-left-bound
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   note: '> **尋找左側邊界**，用while (left < right)，同 0852 [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)<br>'
-  tricks: null
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
