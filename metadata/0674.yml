@@ -22,6 +22,9 @@ solutions:
   - date: '2026-09-26'
     result: 對
     reason: null
+  - date: '2026-09-26'
+    result: 對
+    reason: null
 - file: Solution_0674.cpp
   difficulty: 🟢 Easy
   tags:
@@ -37,6 +40,9 @@ solutions:
   - Linear Scan with Streak Reset
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-09-26'
     result: 對
     reason: null
   - date: '2026-09-26'
