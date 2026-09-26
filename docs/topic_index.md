@@ -408,7 +408,7 @@
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 Medium | Stack, String | [C++](problems/1003.md) | O(N) | O(N) | 2026-09-21 |
 | 1047 | 👑 **String Stack**<br>[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 Easy | Stack, String | [C++](problems/1047.md) | O(N) | O(N) | 2026-09-21 |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 Medium | Stack, String | [C++](problems/2390.md) | O(N) | O(N) | 2026-09-21 |
-| 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 Easy | Stack | [C++](problems/3174.md) | O(N) | O(N) | 2026-09-21 |
+| 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 Easy | Stack | [C++](problems/3174.md) | O(N) | O(N) | 2026-09-26 |
 
 ---
 

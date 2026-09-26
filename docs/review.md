@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（195）](#review-lianxiguo)　[🟠 再練習清單（202）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（194）](#review-lianxiguo)　[🟠 再練習清單（202）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：194 題　🟡 練習過：175 題　🟣 易忘：110 題　🟢 熟練：280 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：194 題　🟡 練習過：174 題　🟣 易忘：110 題　🟢 熟練：281 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 195 個解法標記為練習過，持續複習鞏固。
+目前共有 194 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（12）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（15）](#lianxiguo-tree)　[🔍 Binary Search（11）](#lianxiguo-binary-search)　[⛓️ Linked List（5）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（19）](#lianxiguo-hash-table)　[📚 Stack（4）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（32）](#lianxiguo-dynamic-programming)　[🧩 Greedy（13）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
+📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（12）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（15）](#lianxiguo-tree)　[🔍 Binary Search（11）](#lianxiguo-binary-search)　[⛓️ Linked List（5）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（19）](#lianxiguo-hash-table)　[📚 Stack（3）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（21）](#lianxiguo-sorting)　[🧩 Dynamic Programming（32）](#lianxiguo-dynamic-programming)　[🧩 Greedy（13）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（12）
@@ -193,14 +193,13 @@
 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 Easy | Hash Table Counting, Hash Map | [C++](problems/3438.md) | O(N) | O(1) |  |
 
 <a id="lianxiguo-stack"></a>
-#### 📚 Stack（4）
+#### 📚 Stack（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | Stack | [C++](problems/0150.md) | O(N) | O(N) |  |
 | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Array, Stack, Simulation | [C++](problems/0682.md) | O(N) | O(N) |  |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 Easy | Stack, String Parsing | [C++](problems/1078.md) | O(N) | O(N) |  |
-| 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 Easy | Stack | [C++](problems/3174.md) | O(N) | O(N) | 2026-09-21 |
 
 <a id="lianxiguo-priority-queue"></a>
 #### 📚 Priority Queue（1）
@@ -1033,7 +1032,7 @@
 | [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 1 | 0 | 0 | 3 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
-| [stack](topics/stack.md) | 3 | 5 | 4 | 0 | 2 | 0 | 14 |
+| [stack](topics/stack.md) | 3 | 5 | 3 | 0 | 3 | 0 | 14 |
 | [string](topics/string.md) | 1 | 9 | 8 | 3 | 13 | 0 | 34 |
 | [string-character-classification](topics/string-character-classification.md) | 0 | 6 | 1 | 0 | 24 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |

@@ -16,8 +16,8 @@ public:
     string clearDigits(string s) {
         string t;
         for(const char& c : s) {
-            if(!t.empty() && isdigit(c)) t.pop_back();
-            else t.push_back(c);
+            if(isalpha(c)) t.push_back(c);
+            else if(!t.empty() && isdigit(c)) t.pop_back();
         }
         return t;
     }
