@@ -15,12 +15,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 Medium | Sorting, Hash Table, Counting | [C++](../problems/2225.md) | O(NlogN) | O(N) | 2026-09-26 |
 
-## 🟡 練習過（6）
+## 🟡 練習過（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Sorting, Sorting | [C++](../problems/0539.md) | O(NlogN) | O(N) |  |
-| 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1408.md) | O(N²\*K) | O(N) |  |
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | Sorting, Sliding Window | [C++](../problems/1984.md) | O(NlogN) | O(1) |  |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 Medium | Sorting, Two Pointers, Sorting | [C++](../problems/2491.md) | O(NlogN) | O(1) |  |
 | 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting | [C++](../problems/2785.md) | O(N) | O(N) |  |
@@ -32,10 +31,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](../problems/0581.md) | O(NlogN) | O(N) |  |
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | Sorting, Greedy, Sorting | [C++](../problems/0561.md) | O(NlogN) | O(1) |  |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1200.md) | O(NlogN) | O(N) | 2026-09-26 |
+| 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1408.md) | O(N²\*K) | O(N) | 2026-09-26 |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting, Set | [C++](../problems/3684.md) | O(NlogN) | O(N) | 2026-09-15 |
