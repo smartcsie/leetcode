@@ -44,7 +44,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 Easy | String | [C++](../problems/1108.md) | O(N) | O(N) | 2026-09-20 |
-| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String, Array | [C++](../problems/1528.md) | O(N) | O(N) | 2026-09-26 |
+| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String | [C++](../problems/1528.md) | O(N) | O(N) | 2026-09-26 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String | [C++](../problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) | 2026-09-18 |
 | 1961 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | 🟢 Easy | String, Simulation | [C++](../problems/1961.md) | O(S) | O(S) | 2026-09-20 |
 | 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 Easy | String, Brute Force | [C++](../problems/1967.md) | O(N\*M) | O(1) | 2026-09-21 |

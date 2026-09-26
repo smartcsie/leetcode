@@ -6,7 +6,6 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - String
-  - Array
   topics:
   - string
   time: O(N)
@@ -17,6 +16,9 @@ solutions:
 
     > **for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];** <br>'
   attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
   - date: '2026-09-26'
     result: 對
     reason: null
