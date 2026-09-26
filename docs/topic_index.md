@@ -160,6 +160,7 @@
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit Manipulation, Bit-Manipulation | [C++](problems/0190.md) | O(1) | O(1) | 2026-09-17 |
 | 191 | 👑 **Brian Kernighan**<br>[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And, Bit-Manipulation | [C++](problems/0191.md) | O(K) | O(1) | 2026-09-19 |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And | [C++](problems/0191.md) | O(1) | O(1) | 2026-09-19 |
+| 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | 🟡 Medium | Bit Manipulation, Bitmask | [C++](problems/0318.md) | O(N\*L+N^2) | O(N) | 2026-09-26 |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Bit Manipulation | [C++](problems/0349.md) | O(N+M) | O(N) | 2026-09-21 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation, Hash Table | [C++](problems/0389.md) | O(N) | O(1) | 2026-09-17 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0389.md) | O(N) | O(N) | 2026-09-17 |
