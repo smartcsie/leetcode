@@ -20,13 +20,8 @@ public:
     bool isAnagram(string s, string t) {
         if(s.size() != t.size()) return false;
         vector<int> counts(26, 0);
-        for(int i = 0; i < s.size(); i++) {
-            counts[s[i] - 'a']++;
-            counts[t[i] - 'a']--;
-        }
-        for(const int& x : counts) {
-            if(x != 0) return false;
-        }
-        return true;
+        for(const char& c : s) counts[c - 'a']++;
+        for(const char& c : t) counts[c - 'a']--;
+        return count(counts.begin(), counts.end(), 0) == 26;
     }
 };

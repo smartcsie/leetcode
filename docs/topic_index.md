@@ -325,6 +325,7 @@
 | 217 | 👑 **unordered_set**<br>[Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0217.md) | O(N) | O(N) | 2026-09-26 |
 | 217 | 👑 **unique**<br>[Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0217.md) | O(NlogN) | O(logN) | 2026-09-26 |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0217.md) | O(NlogN) | O(logN) | 2026-09-26 |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/0242.md) | O(N) | O(1) | 2026-09-26 |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 Easy | Hash Table Mapping, Hash Table | [C++](problems/0290.md) | O(N+M) | O(N+M) | 2026-09-16 |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table Intersection | [C++](problems/0350.md) | O(N+M) | O(min(N,M)) | 2026-09-20 |
 | 383 | 👑 **compare count one side limit**<br>[Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/0383.md) | O(M+N) | O(1) | 2026-09-20 |
