@@ -5,11 +5,16 @@ solutions:
 - file: Solution_3083.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
+  - String Substring
   - Array
   topics:
   - string-substring
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  note: '> set<array<int, 2>> seen; 也可以'
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
+  note: '> **seen.insert({s[i], s[i-1]});要在前面，主要是偵測 "aa"，"bb"這種case**<br>'
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
