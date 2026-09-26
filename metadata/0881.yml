@@ -10,8 +10,11 @@ solutions:
   - greedy-sorting-decision
   time: O(N log N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **排序後，挑選最重(right)和最輕(left)的一起上船，低於limit，就一起上船，left++，right--**<br>
 
     > **如果最重(right)和最輕(left)的大於limit，只能重的(right)一條船，right--**<br>'
-  tricks: null
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
