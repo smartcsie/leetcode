@@ -27,11 +27,13 @@ class Solution {
 private:
     string dfs(TreeNode* root, unordered_map<string, int>& counts, vector<TreeNode*>& ans) {
         if(!root) return "#";
-        string str = to_string(root->val) + "," 
-                    + dfs(root->left, counts, ans) + ","
-                    + dfs(root->right, counts, ans);
-        if(++counts[str] == 2) ans.push_back(root);
-        return str;
+
+        string encode = to_string(root->val)
+                        + "," + dfs(root->left, counts, ans) 
+                        + "," + dfs(root->right, counts, ans);
+        counts[encode]++;
+        if(counts[encode] == 2) ans.push_back(root);
+        return encode;
     }
 public:
     vector<TreeNode*> findDuplicateSubtrees(TreeNode* root) {
