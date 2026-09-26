@@ -11,17 +11,12 @@
  * 2. 移除冗餘判斷：題目未要求在分數相同時處理次要排序，移除 v1 < v2 可提升效能。
  */
 
-#include <vector>
-#include <algorithm>
-
 class Solution {
 public:
-    std::vector<std::vector<int>>& sortTheStudents(std::vector<std::vector<int>>& score, int k) {
-        // 使用 lambda 表達式直接對 score 進行降序排序
-        std::sort(score.begin(), score.end(), [&](const std::vector<int>& v1, const std::vector<int>& v2) {
-            return v1[k] > v2[k];
+    vector<vector<int>> sortTheStudents(vector<vector<int>>& score, int k) {
+        sort(score.begin(), score.end(),[&](vector<int>& class1, vector<int>& class2) {
+            return class1[k] > class2[k];
         });
-        
         return score;
     }
 };

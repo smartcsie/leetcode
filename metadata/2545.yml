@@ -5,10 +5,15 @@ solutions:
 - file: Solution_2545.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting
+  - Sorting Custom Comparator
   - Sorting
   topics:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
