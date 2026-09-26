@@ -4986,7 +4986,11 @@
 
 <h1 id="3083-existence-of-a-substring-in-a-string-and-its-reverse">3083. Existence of a Substring in a String and Its Reverse<a class="headerlink" href="#3083-existence-of-a-substring-in-a-string-and-its-reverse" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> String, Array　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> String Substring, Array　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-09-26</strong> 對</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：3083. Existence of a Substring in a String and Its Reverse</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
@@ -5013,7 +5017,7 @@
 <a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p>set<array\<int, 2>> seen; 也可以</p>
+<p><strong>seen.insert({s[i], s[i-1]});要在前面，主要是偵測 "aa"，"bb"這種case</strong><br></p>
 </blockquote>
 
 
