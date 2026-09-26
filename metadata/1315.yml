@@ -12,5 +12,10 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   note: '> 不用帶grandpa和parent的node，只要帶grandpa和parent的value<br>'
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
