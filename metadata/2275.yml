@@ -11,6 +11,10 @@ solutions:
   - bit-manipulation-and
   time: O(32*N)
   space: O(1)
-  familiarity: 練習過
-  note: '> 針對每個bit，算最多1就是，最多bit為1，bit數就是最多AND大於0的number個數'
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
+  note: '> **針對每個bit，算最多1就是，最多bit為1，bit數就是最多AND大於0的number個數**<br>'
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
