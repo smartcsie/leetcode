@@ -13,20 +13,19 @@
 class Solution {
 public:
     int binaryGap(int n) {
-        if(__builtin_popcount(n) < 2) return 0;
-        int prevIdx = -1;
-        int curIdx = 0;
-        int ans = 0;
+        int pre = -1;
+        int idx = 0;
+        int mx = 0;
         while(n > 0) {
             if(n & 1) {
-                if(prevIdx != -1) {
-                    ans = max(ans, curIdx - prevIdx);
+                if(pre != -1) {
+                    mx = max (mx, idx - pre);
                 }
-                prevIdx = curIdx;
+                pre = idx;
             }
             n >>= 1;
-            curIdx++;
+            idx++;
         }
-        return ans;
+        return mx;
     }
 };

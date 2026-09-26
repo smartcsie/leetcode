@@ -10,5 +10,10 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
-  note: '> prevIdx 紀錄上一次1的index，ans紀錄相鄰1的index最大值<br>'
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
+  note: '> **pre 紀錄上一次1的index，mx紀錄相鄰1的index最大值**<br>'
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
