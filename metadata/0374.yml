@@ -10,5 +10,11 @@ solutions:
   - binary-search
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
+  tricks:
+  - binary search
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null

@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（185）](#review-lianxiguo)　[🟠 再練習清單（206）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（184）](#review-lianxiguo)　[🟠 再練習清單（206）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：198 題　🟡 練習過：165 題　🟣 易忘：110 題　🟢 熟練：286 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：198 題　🟡 練習過：164 題　🟣 易忘：110 題　🟢 熟練：287 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 185 個解法標記為練習過，持續複習鞏固。
+目前共有 184 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（12）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（15）](#lianxiguo-tree)　[🔍 Binary Search（10）](#lianxiguo-binary-search)　[⛓️ Linked List（5）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（19）](#lianxiguo-hash-table)　[📚 Stack（1）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（15）](#lianxiguo-sorting)　[🧩 Dynamic Programming（32）](#lianxiguo-dynamic-programming)　[🧩 Greedy（13）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
+📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（12）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（15）](#lianxiguo-tree)　[🔍 Binary Search（9）](#lianxiguo-binary-search)　[⛓️ Linked List（5）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（19）](#lianxiguo-hash-table)　[📚 Stack（1）](#lianxiguo-stack)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（15）](#lianxiguo-sorting)　[🧩 Dynamic Programming（32）](#lianxiguo-dynamic-programming)　[🧩 Greedy（13）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（12）
@@ -117,7 +117,7 @@
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/2415.md) | O(N) | O(H) |  |
 
 <a id="lianxiguo-binary-search"></a>
-#### 🔍 Binary Search（10）
+#### 🔍 Binary Search（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -126,7 +126,6 @@
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | Binary Search, Binary&nbsp;Search | [C++](problems/0153.md) | O(logN) | O(1) |  |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | 🟡 Medium | Binary Search | [C++](problems/0162.md) | O(logN) | O(1) |  |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 Easy | Binary Search | [C++](problems/0367.md) | O(logN) | O(1) |  |
-| 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | Binary Search | [C++](problems/0374.md) | O(logN) | O(1) |  |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | Binary Search | [C++](problems/0540.md) | O(logN) | O(1) |  |
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | Binary Search Find Right Bound | [C++](problems/0611.md) | O(N²logN) | O(1) |  |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | Binary Search | [C++](problems/0852.md) | O(logN) | O(1) |  |
@@ -944,7 +943,7 @@
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [binary-search](topics/binary-search.md) | 1 | 0 | 4 | 1 | 1 | 0 | 7 |
+| [binary-search](topics/binary-search.md) | 1 | 0 | 3 | 1 | 2 | 0 | 7 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 5 | 0 | 2 | 0 | 3 | 0 | 10 |
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 0 | 0 | 5 | 1 | 2 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 1 | 0 | 1 | 1 | 0 | 0 | 3 |
