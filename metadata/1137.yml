@@ -5,23 +5,42 @@ solutions:
 - file: Solution_1137.cpp
   difficulty: 🟢 Easy
   tags:
+  - Dp Fibonacci
   - Dynamic Programming Fibonacci
   - DP
   topics:
   - dp-fibonacci
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   related:
   - 70
   - 509
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
+  - date: '2026-09-26'
+    result: 對
+    reason: null
 - file: Solution_1137_1.cpp
   difficulty: 🟢 Easy
   tags:
+  - Dp Fibonacci
   - Dynamic Programming Fibonacci
   topics:
   - dp-fibonacci
   time: O(N)
   space: O(N)
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   related:
   - 70
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
+  - date: '2026-09-26'
+    result: 對
+    reason: null
