@@ -5,16 +5,20 @@ solutions:
 - file: Solution_0852.cpp
   difficulty: 🟡 Medium
   tags:
-  - Binary Search
+  - Binary Search Find Left Bound
   topics:
   - binary-search-find-left-bound
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-26'
   note: '> **標準Binary Search** <br>
 
     > **尋找左側邊界**，用while (left < right)，同 0162 [Find Peak Element](https://leetcode.com/problems/find-peak-element)
     <br>'
   related:
   - 162
-  tricks: null
+  attempts:
+  - date: '2026-09-26'
+    result: 對
+    reason: null
