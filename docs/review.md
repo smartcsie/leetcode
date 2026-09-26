@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（164）](#review-lianxiguo)　[🟠 再練習清單（210）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（163）](#review-lianxiguo)　[🟠 再練習清單（211）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：202 題　🟡 練習過：147 題　🟣 易忘：110 題　🟢 熟練：300 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：203 題　🟡 練習過：146 題　🟣 易忘：110 題　🟢 熟練：300 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 164 個解法標記為練習過，持續複習鞏固。
+目前共有 163 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（11）](#lianxiguo-tree)　[🔍 Binary Search（5）](#lianxiguo-binary-search)　[⛓️ Linked List（5）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（15）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（32）](#lianxiguo-dynamic-programming)　[🧩 Greedy（13）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
+📌 **快速跳轉：** [🔢 Math（12）](#lianxiguo-math)　[📊 Bit Manipulation（10）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（10）](#lianxiguo-tree)　[🔍 Binary Search（5）](#lianxiguo-binary-search)　[⛓️ Linked List（5）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（15）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（32）](#lianxiguo-dynamic-programming)　[🧩 Greedy（13）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（12）
@@ -91,12 +91,11 @@
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](problems/3069.md) | O(N) | O(N) |  |
 
 <a id="lianxiguo-tree"></a>
-#### 🌳 Tree（11）
+#### 🌳 Tree（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 Medium | Binary Search Tree, BST, In-order Traversal | [C++](problems/0099.md) | O(N) | O(1) |  |
-| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, Binary Search | [C++](problems/0108.md) | O(N) | O(logN) |  |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 Medium | Binary Search Tree, Tree | [C++](problems/0109.md) | O(NlogN) | O(logN) |  |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 Medium | Tree Dfs Backtracking, DFS, Backtracking | [C++](problems/0113.md) | O(N) | O(H) |  |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | 🟢 Easy | Tree Dfs Global, DFS, Post-order | [C++](problems/0563.md) | O(N) | O(H) |  |
@@ -275,9 +274,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 210 個解法標記為再練習，需要加強熟練度。
+目前共有 211 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（38）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（17）](#zailianxi-string)　[🍱 Array（32）](#zailianxi-array)　[🌳 Tree（20）](#zailianxi-tree)　[🔍 Binary Search（1）](#zailianxi-binary-search)　[⛓️ Linked List（5）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（19）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（38）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（17）](#zailianxi-string)　[🍱 Array（32）](#zailianxi-array)　[🌳 Tree（21）](#zailianxi-tree)　[🔍 Binary Search（1）](#zailianxi-binary-search)　[⛓️ Linked List（5）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（19）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（5）
@@ -421,13 +420,14 @@
 | 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | Array | [C++](problems/3978.md) | O(N) | O(1) | 2026-09-21 |
 
 <a id="zailianxi-tree"></a>
-#### 🌳 Tree（20）
+#### 🌳 Tree（21）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | Binary Search Tree | [C++](problems/0098.md) | O(N) | O(H) | 2026-09-25 |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/0103.md) | O(N) | O(W) |  |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order | [C++](problems/0103.md) | O(N) | O(N) |  |
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 Easy | Binary Search Tree, DFS, Binary Search | [C++](problems/0108.md) | O(N) | O(logN) | 2026-09-26 |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0110.md) | O(N) | O(H) | 2026-09-25 |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | Tree Bfs Level Order, Recursion, Constant Space | [C++](problems/0116.md) | O(N) | O(1) | 2026-09-14 |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/0129.md) | O(N) | O(H) | 2026-09-25 |
@@ -932,7 +932,7 @@
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 0 | 0 | 2 | 1 | 5 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 1 | 0 | 1 | 1 | 0 | 0 | 3 |
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
-| [binary-search-tree](topics/binary-search-tree.md) | 0 | 4 | 5 | 1 | 6 | 0 | 16 |
+| [binary-search-tree](topics/binary-search-tree.md) | 0 | 5 | 4 | 1 | 6 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 1 | 2 | 0 | 0 | 5 |
 | [bit-manipulation](topics/bit-manipulation.md) | 0 | 11 | 2 | 8 | 17 | 0 | 38 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 3 | 2 | 2 | 2 | 0 | 9 |
