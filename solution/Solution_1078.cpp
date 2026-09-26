@@ -14,13 +14,14 @@ class Solution {
 public:
     vector<string> findOcurrences(string text, string first, string second) {
         vector<string> prev(2);
+        vector<string> target = {first, second};
         istringstream iss(text);
-        string word;
+        string w;
         vector<string> ans;
-        while(iss >> word) { 
-            if(prev[0] == first && prev[1] == second) ans.push_back(word);
+        while(iss >> w) {    
+            if(prev == target) ans.push_back(w);
             prev[0] = prev[1];
-            prev[1] = word;
+            prev[1] = w;
         }
         return ans;
     }
