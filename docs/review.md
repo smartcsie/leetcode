@@ -59,7 +59,7 @@
 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 Easy | String Kmp, KMP | [C++](problems/0459.md) | O(N) | O(N) |  |
 | 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | String | [C++](problems/0833.md) | O(N+M\*K) | O(N) |  |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | String, String | [C++](problems/0944.md) | O(N\*M) | O(M) |  |
-| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String, Array | [C++](problems/1528.md) | O(N) | O(N) |  |
+| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String, Array | [C++](problems/1528.md) | O(N) | O(N) | 2026-09-26 |
 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 Easy | String, Simulation | [C++](problems/1592.md) | O(N) | O(N) |  |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 Easy | String, Sorting, Bucket Sort | [C++](problems/1859.md) | O(N) | O(N) |  |
 | 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 Easy | Simulation, Recursion | [C++](problems/3304.md) | O(K) | O(K) |  |

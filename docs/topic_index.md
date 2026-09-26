@@ -104,6 +104,7 @@
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 Easy | String | [C++](problems/1108.md) | O(N) | O(N) | 2026-09-20 |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 Medium | String Character Classification, Hash Table, Counting | [C++](problems/1347.md) | O(N) | O(1) | 2026-09-26 |
 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 Easy | String Character Classification | [C++](problems/1455.md) | O(N) | O(W) | 2026-09-21 |
+| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 Easy | String, Array | [C++](problems/1528.md) | O(N) | O(N) | 2026-09-26 |
 | 1662 | 👑 **accumulate string**<br>[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | String | [C++](problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) | 2026-09-18 |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 Easy | String Character Classification, Parsing | [C++](problems/1678.md) | O(N) | O(N) | 2026-09-21 |
 | 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 Easy | String Character Classification | [C++](problems/1704.md) | O(N) | O(1) | 2026-09-23 |
