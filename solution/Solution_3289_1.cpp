@@ -1,53 +1,3 @@
-# 3289. The Two Sneaky Numbers of Digitville
-
-[在 LeetCode 上查看](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)
-
-## 解法：hash-table-counting
-
-**難度:** 🟢 Easy　**標籤:** Hash Table Counting　**時間:** O(N)　**空間:** O(1)　**熟悉度:** 🟢 熟練
-
-**📅 練習歷程:**
-
-- ✅ **2026-09-27** 對
-
-```cpp
-/**
- * 題目：3289. The Two Sneaky Numbers of Digitville
- * 難度：簡單 (Easy)
- * 描述：在包含 0 到 n-1 數字的陣列中，找出兩個出現兩次的數字。
- * 優化重點：
- * 1. 空間效率：使用 bitset 代替 bool 陣列或 unordered_map，空間佔用極小。
- * 2. 高速存取：bitset 的 test 與 set 操作均為 O(1) 指令級運算，速度極快。
- *
- * 時間複雜度：O(N)
- * 空間複雜度：O(1)
- */
-
-class Solution {
-public:
-    std::vector<int> getSneakyNumbers(std::vector<int>& nums) {
-        vector<int> counts(101);
-        vector<int> ans;
-        for(const int& x : nums) counts[x]++;
-        for(int i =0; i <= 100; i++) {
-            if(counts[i] > 1) ans.push_back(i);
-        }
-        return ans;    
-    }
-};
-```
-
----
-
-## 解法：array
-
-**難度:** 🟢 Easy　**標籤:** Array　**時間:** O(N^2)　**空間:** O(1)　**熟悉度:** 🟢 熟練　🏆 **最佳解**
-
-**📅 練習歷程:**
-
-- ✅ **2026-09-27** 對
-
-```cpp
 /*
  * 題目：3289. The Two Sneaky Numbers of Digitville
  * 連結：https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/
@@ -82,8 +32,3 @@ public:
         return ans;
     }
 };
-```
-
-> **這一題size只有100，雙層迴圈暴力法最快**
-
----

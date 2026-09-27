@@ -5,10 +5,30 @@ solutions:
 - file: Solution_3289.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
-  - Hash Table
+  - Hash Table Counting
   topics:
   - hash-table-counting
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-27'
+  attempts:
+  - date: '2026-09-27'
+    result: 對
+    reason: null
+- file: Solution_3289_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array
+  topics:
+  - array
+  time: O(N^2)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-09-27'
+  note: '> **這一題size只有100，雙層迴圈暴力法最快**'
+  is_best: true
+  attempts:
+  - date: '2026-09-27'
+    result: 對
+    reason: null
