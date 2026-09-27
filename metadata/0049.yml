@@ -11,11 +11,18 @@ solutions:
   - hash-table-counting
   time: O(N*K)
   space: O(N*K)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-09-27'
   tricks:
   - important technology
   attempts:
   - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-09-27'
+    result: 對
+    reason: null
+  - date: '2026-09-27'
     result: 對
     reason: null
 - file: Solution_0049_1.cpp
@@ -26,8 +33,16 @@ solutions:
   - hash-table-mapping
   time: O(N*logK)
   space: O(N*K)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-27'
+  is_best: true
   attempts:
   - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-09-27'
+    result: 對
+    reason: null
+  - date: '2026-09-27'
     result: 對
     reason: null

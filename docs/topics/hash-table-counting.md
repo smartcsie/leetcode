@@ -29,16 +29,15 @@
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 Easy | Bit Manipulation, Hash Table | [C++](../problems/3289.md) | O(N) | O(1) |  |
 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 Easy | Hash Table Counting, Hash Map | [C++](../problems/3438.md) | O(N) | O(1) |  |
 
-## 🟣 易忘（1）
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](../problems/0049.md) | O(N\*K) | O(N\*K) | 2026-09-16 |
-
-## 🟢 熟悉（10）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](../problems/0049.md) | O(N\*K) | O(N\*K) | 2026-09-27 |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](../problems/0771.md) | O(J+S) | O(J) | 2026-09-15 |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/1394.md) | O(N) | O(1) | 2026-09-16 |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/1897.md) | O(N\*M) | O(1) | 2026-09-16 |
