@@ -13,25 +13,15 @@
 
 class Solution {
 private:
-    void dfs(TreeNode* left, TreeNode* right, int depth) {
-        // 完美二元樹，只要一個為 null，另一個也會為 null
-        if (!left) return;
-
-        // 如果是奇數層，直接交換對稱位置的節點值
-        if (depth % 2 != 0) {
-            swap(left->val, right->val);
-        }
-
-        // 遞迴處理下一層：
-        // 1. 左子樹的左節點 對應 右子樹的右節點
-        // 2. 左子樹的右節點 對應 右子樹的左節點
-        dfs(left->left, right->right, depth + 1);
-        dfs(left->right, right->left, depth + 1);
+    void dfs(TreeNode* root1, TreeNode* root2, bool isOdd) {
+        if(!root1) return;
+        if(isOdd) swap(root1->val, root2->val);
+        dfs(root1->left, root2->right, !isOdd);
+        dfs(root1->right, root2->left, !isOdd);
     }
-
 public:
     TreeNode* reverseOddLevels(TreeNode* root) {
-        dfs(root->left, root->right, 1);
+        dfs(root->left, root->right, true);
         return root;
     }
 };

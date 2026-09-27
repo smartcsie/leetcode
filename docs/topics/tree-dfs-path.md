@@ -4,7 +4,7 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（7）
+## 🟠 再練習（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15,15 +15,15 @@
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0965.md) | O(N) | O(H) | 2026-09-25 |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | 🟢 Easy | Tree Dfs Path, DFS, Tree Traversal | [C++](../problems/1379.md) | O(N) | O(H) |  |
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree) | 🟢 Easy | Tree Dfs Path, DFS, Recursion | [C++](../problems/2331.md) | O(N) | O(H) | 2026-09-25 |
+| 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS | [C++](../problems/2415.md) | O(N) | O(H) | 2026-09-27 |
 
-## 🟡 練習過（4）
+## 🟡 練習過（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0606.md) | O(N) | O(H) |  |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0938.md) | O(N) | O(H) | 2026-09-25 |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/1448.md) | O(N) | O(H) | 2026-09-26 |
-| 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS | [C++](../problems/2415.md) | O(N) | O(H) |  |
 
 ## 🟣 易忘（5）
 

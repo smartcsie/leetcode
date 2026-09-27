@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（151）](#review-lianxiguo)　[🟠 再練習清單（211）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（150）](#review-lianxiguo)　[🟠 再練習清單（212）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：203 題　🟡 練習過：135 題　🟣 易忘：110 題　🟢 熟練：311 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：204 題　🟡 練習過：134 題　🟣 易忘：110 題　🟢 熟練：311 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 151 個解法標記為練習過，持續複習鞏固。
+目前共有 150 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（11）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（9）](#lianxiguo-tree)　[🔍 Binary Search（5）](#lianxiguo-binary-search)　[⛓️ Linked List（5）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（11）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（12）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
+📌 **快速跳轉：** [🔢 Math（11）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（8）](#lianxiguo-tree)　[🔍 Binary Search（5）](#lianxiguo-binary-search)　[⛓️ Linked List（5）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（11）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（12）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（11）
@@ -87,7 +87,7 @@
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](problems/3069.md) | O(N) | O(N) |  |
 
 <a id="lianxiguo-tree"></a>
-#### 🌳 Tree（9）
+#### 🌳 Tree（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -99,7 +99,6 @@
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 Medium | Binary Search Tree, BST, DFS | [C++](problems/1008.md) | O(N) | O(N) |  |
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 Medium | Binary Search Tree, BST | [C++](problems/1382.md) | O(N) | O(N) |  |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](problems/1448.md) | O(N) | O(H) | 2026-09-26 |
-| 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/2415.md) | O(N) | O(H) |  |
 
 <a id="lianxiguo-binary-search"></a>
 #### 🔍 Binary Search（5）
@@ -262,9 +261,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 211 個解法標記為再練習，需要加強熟練度。
+目前共有 212 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（38）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（17）](#zailianxi-string)　[🍱 Array（32）](#zailianxi-array)　[🌳 Tree（20）](#zailianxi-tree)　[🔍 Binary Search（1）](#zailianxi-binary-search)　[⛓️ Linked List（5）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（38）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（17）](#zailianxi-string)　[🍱 Array（32）](#zailianxi-array)　[🌳 Tree（21）](#zailianxi-tree)　[🔍 Binary Search（1）](#zailianxi-binary-search)　[⛓️ Linked List（5）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（5）
@@ -408,7 +407,7 @@
 | 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | Array | [C++](problems/3978.md) | O(N) | O(1) | 2026-09-21 |
 
 <a id="zailianxi-tree"></a>
-#### 🌳 Tree（20）
+#### 🌳 Tree（21）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -431,6 +430,7 @@
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | 🟢 Easy | Tree Dfs Path, DFS, Tree Traversal | [C++](problems/1379.md) | O(N) | O(H) |  |
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/1609.md) | O(N) | O(W) | 2026-09-14 |
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree) | 🟢 Easy | Tree Dfs Path, DFS, Recursion | [C++](problems/2331.md) | O(N) | O(H) | 2026-09-25 |
+| 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/2415.md) | O(N) | O(H) | 2026-09-27 |
 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS, Math | [C++](problems/2583.md) | O(N) | O(N) |  |
 
 <a id="zailianxi-binary-search"></a>
@@ -1011,7 +1011,7 @@
 | [tree-construction](topics/tree-construction.md) | 0 | 0 | 0 | 3 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 1 | 0 | 0 | 2 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 0 | 1 | 1 | 5 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 0 | 9 | 3 | 5 | 12 | 0 | 29 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 0 | 10 | 2 | 5 | 12 | 0 | 29 |
 | [tree-traversal](topics/tree-traversal.md) | 0 | 0 | 0 | 3 | 4 | 0 | 7 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |

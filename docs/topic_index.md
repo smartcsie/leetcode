@@ -538,6 +538,7 @@
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/1609.md) | O(N) | O(W) | 2026-09-14 |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 Easy | Tree | [C++](problems/2236.md) | O(1) | O(1) | 2026-09-26 |
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree) | 🟢 Easy | Tree Dfs Path, DFS, Recursion | [C++](problems/2331.md) | O(N) | O(H) | 2026-09-25 |
+| 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/2415.md) | O(N) | O(H) | 2026-09-27 |
 
 ---
 
