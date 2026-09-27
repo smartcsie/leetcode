@@ -6,12 +6,11 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Binary Search Tree
-  - Tree
   topics:
   - binary-search-tree
   time: O(NlogN)
   space: O(logN)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **prev->next = nullptr 切斷後：**<br>
 
     > **head → 左半段的頭 → 遞迴建左子樹**<br>
@@ -19,4 +18,7 @@ solutions:
     > **slow → 當前 root**<br>
 
     > **slow->next → 右半段的頭 → 遞迴建右子樹**<br>'
-  tricks: null
+  attempts:
+  - date: '2026-09-27'
+    result: 對
+    reason: null
