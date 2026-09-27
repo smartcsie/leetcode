@@ -488,6 +488,7 @@
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0110.md) | O(N) | O(H) | 2026-09-25 |
 | 111 | 👑 **Binary Tree Min Depth**<br>[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 Easy | Tree Dfs Path, BFS, DFS | [C++](problems/0111.md) | O(N) | O(H) | 2026-09-25 |
 | 112 | 👑 **DFS Path**<br>[Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 Easy | Tree Dfs Path | [C++](problems/0112.md) | O(N) | O(H) | 2026-09-25 |
+| 113 | 👑 **DFS Backtracking**<br>[Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 Medium | Tree Dfs Backtracking, DFS, Backtracking | [C++](problems/0113.md) | O(N) | O(H) | 2026-09-27 |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | Tree Bfs Level Order, Recursion, Constant Space | [C++](problems/0116.md) | O(N) | O(1) | 2026-09-14 |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | 🟡 Medium | Tree Bfs Level Order, BFS, Queue | [C++](problems/0117.md) | O(N) | O(N) | 2026-09-14 |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/0129.md) | O(N) | O(H) | 2026-09-25 |
