@@ -18,9 +18,9 @@
 class Solution {
 public:
     int findFinalValue(vector<int>& nums, int original) {
-        unordered_set sets(nums.begin(), nums.end());
+        unordered_set<int> seen(nums.begin(), nums.end());
         int ans = original;
-        while(sets.contains(ans))  ans *= 2;
+        while(seen.contains(ans))  ans <<= 1;
         return ans;
     }
 };

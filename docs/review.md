@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（147）](#review-lianxiguo)　[🟠 再練習清單（214）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（146）](#review-lianxiguo)　[🟠 再練習清單（215）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：206 題　🟡 練習過：131 題　🟣 易忘：110 題　🟢 熟練：312 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：207 題　🟡 練習過：130 題　🟣 易忘：110 題　🟢 熟練：312 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 147 個解法標記為練習過，持續複習鞏固。
+目前共有 146 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（11）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（7）](#lianxiguo-tree)　[🔍 Binary Search（5）](#lianxiguo-binary-search)　[⛓️ Linked List（4）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（10）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（12）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
+📌 **快速跳轉：** [🔢 Math（11）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（21）](#lianxiguo-array)　[🌳 Tree（7）](#lianxiguo-tree)　[🔍 Binary Search（5）](#lianxiguo-binary-search)　[⛓️ Linked List（4）](#lianxiguo-linked-list)　[👥 Pointers（17）](#lianxiguo-pointers)　[🔑 Hash Table（9）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（12）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（11）
@@ -144,7 +144,7 @@
 | 3936 | [Minimum Swaps to Move Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/) | 🟢 Easy | Two Pointers, Simulation | [C++](problems/3936.md) | O(N) | O(1) |  |
 
 <a id="lianxiguo-hash-table"></a>
-#### 🔑 Hash Table（10）
+#### 🔑 Hash Table（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -152,7 +152,6 @@
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | 🟢 Easy | Hash Table Existence | [C++](problems/0594.md) | O(N) | O(N) |  |
 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/1460.md) | O(N) | O(K) |  |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Table Uniqueness, Hash Set, Coordinates | [C++](problems/1496.md) | O(N) | O(N) |  |
-| 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 Easy | Hash Table Existence | [C++](problems/2154.md) | O(N) | O(N) |  |
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 Easy | Array, Hash Table, Counting | [C++](problems/2341.md) | O(N) | O(1) |  |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 Medium | Hash Table Intersection, Hash Map, Matrix Simulation | [C++](problems/2352.md) | O(N³logN) | O(N²) |  |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 Medium | Hash Table Uniqueness, Hash Table, Math, Bitset | [C++](problems/2442.md) | O(N\*D) | O(M) |  |
@@ -258,9 +257,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 214 個解法標記為再練習，需要加強熟練度。
+目前共有 215 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（38）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（17）](#zailianxi-string)　[🍱 Array（32）](#zailianxi-array)　[🌳 Tree（22）](#zailianxi-tree)　[🔍 Binary Search（1）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（23）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（38）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（17）](#zailianxi-string)　[🍱 Array（32）](#zailianxi-array)　[🌳 Tree（22）](#zailianxi-tree)　[🔍 Binary Search（1）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（11）](#zailianxi-pointers)　[🔑 Hash Table（24）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（5）
@@ -468,7 +467,7 @@
 | 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two-Pointer | [C++](problems/3823.md) | O(N) | O(1) |  |
 
 <a id="zailianxi-hash-table"></a>
-#### 🔑 Hash Table（23）
+#### 🔑 Hash Table（24）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -487,6 +486,7 @@
 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 Medium | Greedy, Hash Set | [C++](problems/1647.md) | O(N+KlogK) | O(K) |  |
 | 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/1805.md) | O(N) | O(N) |  |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](problems/2001.md) | O(N) | O(N) |  |
+| 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 Easy | Hash Table Existence | [C++](problems/2154.md) | O(N) | O(N) | 2026-09-27 |
 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | Hash Table Mapping, Hash Map, Difference Array | [C++](problems/2451.md) | O(N\*M) | O(N\*M) |  |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Intersection | [C++](problems/2605.md) | O(NM) | O(1) | 2026-09-17 |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Intersection | [C++](problems/2605.md) | O(N+M) | O(1) | 2026-09-17 |
@@ -967,7 +967,7 @@
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 2 | 0 | 1 | 1 | 0 | 0 | 4 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 3 | 8 | 3 | 0 | 11 | 0 | 25 |
-| [hash-table-existence](topics/hash-table-existence.md) | 2 | 3 | 4 | 1 | 9 | 0 | 19 |
+| [hash-table-existence](topics/hash-table-existence.md) | 2 | 4 | 3 | 1 | 9 | 0 | 19 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 3 | 2 | 0 | 8 | 0 | 13 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 3 | 0 | 0 | 6 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 6 | 2 | 1 | 9 | 0 | 20 |
