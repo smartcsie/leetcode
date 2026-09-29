@@ -12,12 +12,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 Easy | Binary Search | [C++](../problems/0367.md) | O(logN) | O(1) | 2026-09-26 |
 
-## 🟡 練習過（2）
+## 🟡 練習過（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 🟡 Medium | Binary Search, Binary Search | [C++](../problems/0033.md) | O(logN) | O(1) |  |
-| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 Medium | Binary Search, Matrix | [C++](../problems/0074.md) | O(log(MN)) | O(1) |  |
 
 ## 🟣 易忘（1）
 
@@ -25,10 +24,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟡 Medium | Binary Search | [C++](../problems/0081.md) | O(N) | O(1) |  |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 Medium | Binary Search, Matrix | [C++](../problems/0074.md) | O(log(MN)) | O(1) | 2026-09-29 |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | Binary Search | [C++](../problems/0374.md) | O(logN) | O(1) | 2026-09-26 |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](../problems/0704.md) | O(logN) | O(1) | 2026-09-14 |
 
