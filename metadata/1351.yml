@@ -12,9 +12,12 @@ solutions:
   - binary-search-build-in
   time: O(R+C)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 再練習
   attempts:
   - date: '2026-09-24'
+    result: 對
+    reason: null
+  - date: '2026-09-29'
     result: 對
     reason: null
 - file: Solution_1351_1.cpp
@@ -25,8 +28,11 @@ solutions:
   - binary-search-find-left-bound
   time: O(R*logC)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
   attempts:
   - date: '2026-09-24'
+    result: 對
+    reason: null
+  - date: '2026-09-29'
     result: 對
     reason: null
