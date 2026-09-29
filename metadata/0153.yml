@@ -5,16 +5,20 @@ solutions:
 - file: Solution_0153.cpp
   difficulty: 🟡 Medium
   tags:
-  - Binary Search
+  - Binary Search Find Left Bound
   - Binary&nbsp;Search
   topics:
   - binary-search-find-left-bound
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-29'
   note: '> **例子1 : 2 3 4 5 1，中間比尾巴大，往右邊找**<br>
 
     > **例子2 : 5 1 2 3 4，中間小於等於尾巴，往左邊找**<br>'
   related:
   - 154
-  tricks: null
+  attempts:
+  - date: '2026-09-29'
+    result: 對
+    reason: null

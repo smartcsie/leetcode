@@ -10,11 +10,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | Binary Search Find Left Bound | [C++](../problems/1351.md) | O(R\*logC) | O(1) | 2026-09-29 |
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | Binary Search, Binary&nbsp;Search | [C++](../problems/0153.md) | O(logN) | O(1) |  |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（1）
 
@@ -22,10 +20,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | 🔴 Hard | Binary Search | [C++](../problems/0154.md) | O(N) | O(1) |  |
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | Binary Search Find Left Bound, Binary&nbsp;Search | [C++](../problems/0153.md) | O(logN) | O(1) | 2026-09-29 |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | 🟡 Medium | Binary Search Find Left Bound | [C++](../problems/0162.md) | O(logN) | O(1) | 2026-09-26 |
 | 278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | Binary Search Find Left Bound | [C++](../problems/0278.md) | O(logN) | O(1) | 2026-09-26 |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | Binary Search | [C++](../problems/0540.md) | O(logN) | O(1) | 2026-09-26 |

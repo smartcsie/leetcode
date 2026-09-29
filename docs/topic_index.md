@@ -301,6 +301,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 34 | 👑 **lower_bound,upper_bound**<br>[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 🟡 Medium | Binary Search Build In | [C++](problems/0034.md) | O(logN) | O(1) | 2026-09-15 |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | Binary Search Build In | [C++](problems/0035.md) | O(logN) | O(1) | 2026-09-25 |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | Binary Search Find Left Bound, Binary&nbsp;Search | [C++](problems/0153.md) | O(logN) | O(1) | 2026-09-29 |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | 🟡 Medium | Binary Search Find Left Bound | [C++](problems/0162.md) | O(logN) | O(1) | 2026-09-26 |
 | 278 | 👑 **Binary Search Find Left Bound**<br>[First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | Binary Search Find Left Bound | [C++](problems/0278.md) | O(logN) | O(1) | 2026-09-26 |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 Easy | Binary Search | [C++](problems/0367.md) | O(logN) | O(1) | 2026-09-26 |
