@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（135）](#review-lianxiguo)　[🟠 再練習清單（222）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（134）](#review-lianxiguo)　[🟠 再練習清單（223）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：212 題　🟡 練習過：120 題　🟣 易忘：110 題　🟢 熟練：317 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 980 題　🔴 生疏：221 題　🟠 再練習：213 題　🟡 練習過：119 題　🟣 易忘：110 題　🟢 熟練：317 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 135 個解法標記為練習過，持續複習鞏固。
+目前共有 134 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（11）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（20）](#lianxiguo-array)　[🌳 Tree（7）](#lianxiguo-tree)　[🔍 Binary Search（2）](#lianxiguo-binary-search)　[⛓️ Linked List（4）](#lianxiguo-linked-list)　[👥 Pointers（11）](#lianxiguo-pointers)　[🔑 Hash Table（8）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（12）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
+📌 **快速跳轉：** [🔢 Math（11）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（20）](#lianxiguo-array)　[🌳 Tree（7）](#lianxiguo-tree)　[🔍 Binary Search（2）](#lianxiguo-binary-search)　[⛓️ Linked List（4）](#lianxiguo-linked-list)　[👥 Pointers（11）](#lianxiguo-pointers)　[🔑 Hash Table（7）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（12）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（11）
@@ -134,11 +134,10 @@
 | 3936 | [Minimum Swaps to Move Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/) | 🟢 Easy | Two Pointers, Simulation | [C++](problems/3936.md) | O(N) | O(1) |  |
 
 <a id="lianxiguo-hash-table"></a>
-#### 🔑 Hash Table（8）
+#### 🔑 Hash Table（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table Existence | [C++](problems/0219.md) | O(N) | O(min(N,K)) |  |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | 🟢 Easy | Hash Table Existence | [C++](problems/0594.md) | O(N) | O(N) |  |
 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/1460.md) | O(N) | O(K) |  |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Table Uniqueness, Hash Set, Coordinates | [C++](problems/1496.md) | O(N) | O(N) |  |
@@ -246,9 +245,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 222 個解法標記為再練習，需要加強熟練度。
+目前共有 223 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（38）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（17）](#zailianxi-string)　[🍱 Array（33）](#zailianxi-array)　[🌳 Tree（22）](#zailianxi-tree)　[🔍 Binary Search（3）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（15）](#zailianxi-pointers)　[🔑 Hash Table（24）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（5）](#zailianxi-design)　[🔢 Math（38）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（17）](#zailianxi-string)　[🍱 Array（33）](#zailianxi-array)　[🌳 Tree（22）](#zailianxi-tree)　[🔍 Binary Search（3）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（15）](#zailianxi-pointers)　[🔑 Hash Table（25）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（5）
@@ -463,12 +462,13 @@
 | 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two-Pointer | [C++](problems/3823.md) | O(N) | O(1) |  |
 
 <a id="zailianxi-hash-table"></a>
-#### 🔑 Hash Table（24）
+#### 🔑 Hash Table（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 Medium | Hash Table Mapping, Hash Table, String | [C++](problems/0012.md) | O(1) | O(1) |  |
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 Easy | Hash Table Mapping, Hash Table, String | [C++](problems/0013.md) | O(N) | O(1) |  |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table Existence | [C++](problems/0219.md) | O(N) | O(min(N,K)) | 2026-09-29 |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Hash Table Intersection | [C++](problems/0350.md) | O(N+M) | O(min(N,M)) | 2026-09-20 |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](problems/0454.md) | O(N²) | O(N²) |  |
 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Existence | [C++](problems/0532.md) | O(NlogN) | O(N) |  |
@@ -963,7 +963,7 @@
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 2 | 0 | 1 | 1 | 0 | 0 | 4 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 3 | 8 | 2 | 0 | 12 | 0 | 25 |
-| [hash-table-existence](topics/hash-table-existence.md) | 2 | 4 | 3 | 1 | 9 | 0 | 19 |
+| [hash-table-existence](topics/hash-table-existence.md) | 2 | 5 | 2 | 1 | 9 | 0 | 19 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 3 | 2 | 0 | 8 | 0 | 13 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 3 | 0 | 0 | 6 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 6 | 2 | 1 | 9 | 0 | 20 |
