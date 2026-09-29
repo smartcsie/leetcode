@@ -12,5 +12,9 @@ solutions:
   - two-pointers-partition
   time: O(N)
   space: O(N)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 再練習
+  note: '> **in place的交換會破壞相對順序，此題無法in place完成**<br>'
+  attempts:
+  - date: '2026-09-29'
+    result: 對
+    reason: null
