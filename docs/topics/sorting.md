@@ -31,11 +31,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](../problems/0581.md) | O(NlogN) | O(N) |  |
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 561 | [Array Partition](https://leetcode.com/problems/array-partition/) | 🟢 Easy | Sorting, Greedy, Sorting | [C++](../problems/0561.md) | O(NlogN) | O(1) |  |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1200.md) | O(NlogN) | O(N) | 2026-09-26 |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1408.md) | O(N²\*K) | O(N) | 2026-09-26 |
+| 1877 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | 🟡 Medium | Sorting | [C++](../problems/1877.md) | O(NlogN) | O(1) | 2026-09-29 |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting, Set | [C++](../problems/3684.md) | O(NlogN) | O(N) | 2026-09-15 |
