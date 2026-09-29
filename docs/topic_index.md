@@ -384,6 +384,7 @@
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) | 2026-09-29 |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) | 2026-09-29 |
 | 27 | 👑 **Fast Slow Pointer Swap**<br>[Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0027.md) | O(N) | O(1) | 2026-09-24 |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 Easy | Two Pointers Partition, Two Pointers | [C++](problems/0088.md) | O(M+N) | O(1) | 2026-09-29 |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](problems/0125.md) | O(N) | O(1) | 2026-09-21 |
 | 141 | 👑<br>[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0141.md) | O(N) | O(1) | 2026-09-18 |
 | 167 | 👑<br>[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) | 2026-09-24 |

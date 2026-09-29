@@ -10,7 +10,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 Easy | Two Pointers Partition, Two Pointers | [C++](../problems/0088.md) | O(M+N) | O(1) |  |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 Easy | Two Pointers Partition, Two Pointers | [C++](../problems/0088.md) | O(M+N) | O(1) | 2026-09-29 |
 
 ## 🟡 練習過（1）
 
