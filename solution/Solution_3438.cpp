@@ -9,23 +9,16 @@
  * 空間複雜度：O(1)
  */
 
-#include <string>
-#include <vector>
-
 class Solution {
 public:
-    std::string findValidPair(std::string s) {
-        vector<int> counts(10, 0);
-        string ans;
-        for(const char& c : s) counts[c - '0']++;
+    string findValidPair(string s) {
+        vector<int> count(10, 0);
+        for(const char& c : s) count[c - '0']++;
         for(int i = 0; i < s.size() - 1; i++) {
-            int c1 = s[i] - '0';
-            int c2 = s[i + 1] - '0';
-            if(c1 != c2 && c1 == counts[c1] && c2 == counts[c2]) {
-                ans.push_back(c1 + '0');
-                ans.push_back(c2 + '0');
-                return ans;
-            }
+            int k1 = s[i] - '0';
+            int k2 = s[i + 1] - '0';
+            if(k1 != k2  && count[k1] == k1 && count[k2] == k2)
+                return string(1, s[i]) + string(1, s[i + 1]);
         }
         return "";
     }
