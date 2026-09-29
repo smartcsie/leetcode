@@ -13,4 +13,9 @@ solutions:
   - hash-table-uniqueness
   time: O(N*D)
   space: O(M)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-09-29'
+  attempts:
+  - date: '2026-09-29'
+    result: 對
+    reason: null
