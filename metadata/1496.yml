@@ -17,5 +17,8 @@ solutions:
   - date: '2026-10-01'
     result: 對
     reason: null
+  - date: '2026-10-01'
+    result: 對
+    reason: null
   is_representative: true
-  representative_tag: vector has no hash value so use set
+  representative_tag: vector has no built-in hash, use set instead of unordered_set.
