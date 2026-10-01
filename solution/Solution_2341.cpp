@@ -21,24 +21,15 @@
 
 class Solution {
 public:
-    std::vector<int> numberOfPairs(std::vector<int>& nums) {
-        // 根據常見測資範圍（0 到 100），宣告大小為 101 的頻率統計陣列
-        std::vector<int> counts(101, 0);
-        
-        // 1. 統計每個數字出現的次數
-        for (const int& num : nums) {
-            counts[num]++;
+    vector<int> numberOfPairs(std::vector<int>& nums) {
+        vector<int> counts(101, 0);
+        for(const int& x : nums) counts[x]++;
+        vector<int> ans(2, 0);
+        for(int i = 0; i <= 100; i++) {
+            if(!counts[i]) continue;
+            ans[0] += counts[i] / 2;
+            ans[1] += counts[i] & 1;
         }
-
-        // 2. 計算總對數與剩餘落單數
-        std::vector<int> ans(2, 0);
-        for (int i = 0; i <= 100; i++) {
-            if (counts[i] == 0) continue;
-            
-            ans[0] += counts[i] / 2; // 可形成的對數
-            ans[1] += counts[i] % 2; // 剩下的落單數
-        }
-
         return ans;
     }
 };
