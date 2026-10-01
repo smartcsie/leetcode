@@ -12,5 +12,15 @@ solutions:
   - hash-table-intersection
   time: O(N³logN)
   space: O(N²)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> 使用 std::vector<int>當 map的key'
+  tricks:
+  - vector has no built-in hash
+  - use map instead of unordered_map.
+  attempts:
+  - date: '2026-10-01'
+    result: 對
+    reason: null
+  - date: '2026-10-01'
+    result: 對
+    reason: null
