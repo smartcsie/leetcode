@@ -1,34 +1,34 @@
 /**
- * 題目：1496. Path Crossing (路徑交叉)
+ * 題目：1496. Path Crossing
  * 難度：簡單 (Easy)
- * 描述：給定一個由 'N', 'S', 'E', 'W' 組成的字串，代表移動方向。
- *       從原點 (0, 0) 出發，判斷路徑是否會經過已走過的點。
+ * 描述：給定一個由 N/S/E/W 組成的路徑字串，判斷路徑是否會經過已走過的點。
  *
- * 時間複雜度：O(N log N)
+ * 時間複雜度：O(N*logN)
  * 空間複雜度：O(N)
  *
  * 解法思路：
- * 1. 用 unordered_map 建立方向對應的座標偏移量：
- *    - N → (0, +1)，S → (0, -1)，E → (+1, 0)，W → (-1, 0)
- * 2. 用 set<pair<int,int>> 記錄所有走過的座標。
- *    - 使用 set 而非 unordered_set，因為 pair 沒有預設 hash function。
- * 3. 從原點 (0, 0) 出發，每次移動後檢查新座標是否已在 visited 中：
- *    - 若已存在 → 路徑交叉，return true
- *    - 若不存在 → 加入 visited，繼續移動
- * 4. 走完所有步驟都沒有交叉，return false。
+ * （set 記錄走過的座標）：
+ * 1. 用 set 儲存所有走過的座標，初始放入原點 {0, 0}。
+ * 2. 每走一步更新當前座標，檢查是否已在 set 中。
+ * 3. 若已存在代表路徑交叉，回傳 true；否則將新座標加入 set。
+ *
+ * 注意：
+ * 使用 set<vector<int>> 而非 unordered_set，
+ * 因為 vector<int> 沒有預設 hash function，
+ * 若要用 unordered_set 需自訂 hash。
  */
-
 class Solution {
 public:
     bool isPathCrossing(string path) {
-        unordered_map<char, pair<int, int>> dir = {{'N', {0, 1}}, {'S', {0, -1}}, {'E', {1, 0}}, {'W', {-1, 0}}};
-        pair<int, int> cur = {0, 0};
-        set<pair<int, int>> visited;
-        visited.insert(cur);
-        for(const char& c : path) {
-            cur.first += dir[c].first;
-            cur.second += dir[c].second;
-            if(visited.contains(cur)) return true;
+        set<vector<int>> visited;
+        visited.insert({0, 0});
+        vector<int> cur(2, 0);
+        for (const char& c : path) {
+            if      (c == 'N') cur[0] += 1;
+            else if (c == 'S') cur[0] -= 1;
+            else if (c == 'E') cur[1] += 1;
+            else if (c == 'W') cur[1] -= 1;
+            if (visited.contains(cur)) return true;
             visited.insert(cur);
         }
         return false;

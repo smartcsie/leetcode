@@ -12,5 +12,10 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(N)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 再練習
+  attempts:
+  - date: '2026-10-01'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: vector has no hash value so use set

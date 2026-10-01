@@ -7,21 +7,20 @@
 | 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](../problems/2670.md) | O(N) | O(N) |  |
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | Hash Table Uniqueness, Hash Set, Greedy | [C++](../problems/3487.md) | O(N) | O(N) |  |
 
-## 🟠 再練習（5）
+## 🟠 再練習（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](../problems/0859.md) | O(N) | O(1) |  |
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | Hash Table Uniqueness, Hash Table | [C++](../problems/0939.md) | O(N²) | O(N) |  |
+| 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Table Uniqueness, Hash Set, Coordinates | [C++](../problems/1496.md) | O(N) | O(N) | 2026-10-01 |
 | 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](../problems/1805.md) | O(N) | O(N) |  |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Sorting | [C++](../problems/2784.md) | O(N) | O(N) |  |
 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | Hash Table Uniqueness, Brute Force | [C++](../problems/3483.md) | O(N³) | O(U) |  |
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Table Uniqueness, Hash Set, Coordinates | [C++](../problems/1496.md) | O(N) | O(N) |  |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（1）
 
