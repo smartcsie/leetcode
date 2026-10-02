@@ -14,6 +14,12 @@ solutions:
   familiarity: 易忘
   related:
   - 1513
+  tricks:
+  - consecutive count contribution
+  attempts:
+  - date: '2026-10-02'
+    result: 對
+    reason: null
 - file: Solution_3084_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -25,3 +31,7 @@ solutions:
   familiarity: 練習過
   related:
   - 1513
+  attempts:
+  - date: '2026-10-02'
+    result: 對
+    reason: null
