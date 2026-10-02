@@ -17,3 +17,7 @@ solutions:
     > 如果前後字元不相等，找出比較短那一半的長度， **min(pre, cur)** ，0001111 =3 ，111100 = 2<br>
 
     > ans計算總共字串，**ans += min(pre, cur);**， 因為如果 0011 = 2，字串有 01和0011剛好2種<br>'
+  attempts:
+  - date: '2026-10-02'
+    result: 對
+    reason: null
