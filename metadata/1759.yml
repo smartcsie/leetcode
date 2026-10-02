@@ -13,10 +13,13 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-10-02'
-  note: "> 記得 count %= MOD;<br>       \n> 記得 ans  %= MOD;<br>"
+  note: '> **記得 ans  %= MOD;**<br>'
   tricks:
   - consecutive count contribution
   attempts:
+  - date: '2026-10-02'
+    result: 對
+    reason: null
   - date: '2026-10-02'
     result: 對
     reason: null
