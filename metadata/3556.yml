@@ -11,6 +11,11 @@ solutions:
   - math-prime
   time: O(N²*sqrt(M))
   space: O(1)
-  familiarity: 練習過
-  note: '> **if (val == m1 || val == m2 || val == m3) return;**<br>'
-  tricks: null
+  familiarity: 再練習
+  note: '> **if (val == m1 || val == m2 || val == m3) return;**<br>
+
+    > *#define ll long long**<br>'
+  attempts:
+  - date: '2026-10-02'
+    result: 對
+    reason: null
