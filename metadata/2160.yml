@@ -12,5 +12,9 @@ solutions:
   - math-digit-decomposition
   time: O(1)
   space: O(1)
-  familiarity: 練習過
-  note: '> 貪心組合：最小的兩個當十位數，其餘當個位數<br>'
+  familiarity: 再練習
+  note: '> **貪心組合：最小的兩個當十位數，其餘當個位數**<br>'
+  attempts:
+  - date: '2026-10-02'
+    result: 對
+    reason: null
