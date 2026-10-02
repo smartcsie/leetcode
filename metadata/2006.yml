@@ -12,11 +12,14 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(N)
-  familiarity: 練習過
-  note: '> [for loop]'
+  familiarity: 熟練
+  mastered_date: '2026-10-02'
   tricks:
   - for loop
   attempts:
   - date: '2026-09-17'
+    result: 對
+    reason: null
+  - date: '2026-10-02'
     result: 對
     reason: null
