@@ -6,13 +6,18 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Gcd
-  - GCD
-  - Hash Table
   topics:
   - math-gcd
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 再練習
   note: '> **先用 unordered_map算 count**<br>
 
     > **把所有count做gcd**<br>'
+  tricks:
+  - GCD
+  - Hash Table
+  attempts:
+  - date: '2026-10-02'
+    result: 對
+    reason: null
