@@ -15,7 +15,13 @@ solutions:
   note: '> **if (val == m1 || val == m2 || val == m3) return;**<br>
 
     > *#define ll long long**<br>'
+  tricks:
+  - Min Max Without Repeat
+  - Prime
   attempts:
+  - date: '2026-10-02'
+    result: 對
+    reason: null
   - date: '2026-10-02'
     result: 對
     reason: null
