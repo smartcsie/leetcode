@@ -260,6 +260,7 @@
 | 1869 | [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/) | 🟢 Easy | Array Continuous Counting, Simulation, Linear Scan | [C++](problems/1869.md) | O(N) | O(1) | 2026-09-17 |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | 2d Array | [C++](problems/1886.md) | O(N²) | O(1) | 2026-09-16 |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | 🟢 Easy | Array Min Max | [C++](problems/1913.md) | O(N) | O(1) | 2026-09-16 |
+| 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | Array Linear Scan | [C++](problems/1920.md) | O(N) | O(1) | 2026-10-02 |
 | 1929 | 👑 **vector insert**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) | 2026-09-15 |
 | 1929 | 👑 **vector resize**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) | 2026-09-15 |
 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 Easy | Array, Brute Force | [C++](problems/1995.md) | O(N⁴) | O(1) | 2026-09-17 |
