@@ -21,15 +21,11 @@
 class Solution {
 public:
     int numSub(std::string s) {
-        const int MOD = 1e9 + 7;
+        constexpr int MOD = 1e9 + 7;
         int ans = 0;
         int count = 0;
-        
         for (char c : s) {
-            // 若為 '1' 則長度加 1，否則重置為 0
             count = (c == '1') ? count + 1 : 0;
-            
-            // 當前連續長度即為新增的子字串貢獻量
             ans = (ans + count) % MOD;
         }
         

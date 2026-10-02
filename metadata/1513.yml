@@ -12,6 +12,13 @@ solutions:
   - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-02'
   related:
   - 3084
+  attempts:
+  - date: '2026-10-02'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Consecutive Count Contribution

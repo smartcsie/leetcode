@@ -19,19 +19,14 @@
 class Solution {
 public:
     int countHomogenous(string s) {
-        const int MOD = 1e9 + 7;
+        constexpr int MOD = 1e9 + 7;
         int count = 1;
-        int ans = 1;
-        for(int i = 0; i < s.size(); i++) {
-            if(i > 0 && s[i] == s[i - 1]) {
-                count++;
-                ans += count;
-            } else if(i > 0 && s[i] != s[i - 1]) {
-                count = 1;
-                ans ++;
-            }
-            count %= MOD;    
-            ans  %= MOD;    
+        char prev = 0;
+        int ans = 0;
+        for(const char& c : s) {
+            count = c == prev ? count + 1 : 1;
+            ans = (ans + count) % MOD;
+            prev = c;
         }
         return ans;
     }
