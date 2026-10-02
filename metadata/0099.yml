@@ -12,5 +12,8 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 再練習
+  attempts:
+  - date: '2026-10-02'
+    result: 對
+    reason: null
