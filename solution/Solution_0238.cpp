@@ -16,22 +16,16 @@ class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int n = nums.size();
+        vector<int> prefix(n + 1, 1);
+        vector<int> suffix(n + 1, 1);
+        for (int i = 0, j = n - 1; i < n && j >= 0; i++, j--) {
+            prefix[i + 1] = prefix[i] * nums[i];
+            suffix[j] = suffix[j + 1] * nums[j];
+        }
         vector<int> res(n);
-        
-        // 第一次遍歷：res[i] 儲存 nums[0...i-1] 的乘積
-        res[0] = 1;
-        for (int i = 1; i < n; i++) {
-            res[i] = res[i - 1] * nums[i - 1];
+        for (int i = 0; i < n; i++) {
+            res[i] = prefix[i] * suffix[i + 1];
         }
-        
-        // 第二次遍歷：維護 suffix product 並直接更新結果
-        // 變數 right 用於儲存 nums[i+1...n-1] 的乘積
-        int right = 1;
-        for (int i = n - 1; i >= 0; i--) {
-            res[i] *= right; // 當前結果 = 前綴積 * 後綴積
-            right *= nums[i]; // 更新後綴積，為下一個循環準備
-        }
-        
         return res;
     }
 };
