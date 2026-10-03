@@ -12,4 +12,12 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-03'
+  tricks:
+  - minmax_element
+  - accumulate
+  attempts:
+  - date: '2026-10-03'
+    result: 對
+    reason: null

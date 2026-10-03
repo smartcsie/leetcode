@@ -17,15 +17,8 @@
 class Solution {
 public:
     double average(std::vector<int>& salary) {
-        int n = salary.size();
-        
-        // 1. 計算所有薪資總和（型態使用 double 避免整數除法誤差）
-        double sum = std::accumulate(salary.begin(), salary.end(), 0.0);
-        
-        // 2. 同時找出最小值與最大值的迭代器
-        auto [minIt, maxIt] = std::minmax_element(salary.begin(), salary.end());
-        
-        // 3. 扣除最少與最多薪資後，計算平均值
-        return (sum - *minIt - *maxIt) / (n - 2);
+        auto [minIt, maxIt] = minmax_element(salary.begin(), salary.end());
+        int sum = accumulate(salary.begin(), salary.end(), 0) - *minIt - *maxIt;
+        return static_cast<double>(sum) / (salary.size() - 2);
     }
 };
