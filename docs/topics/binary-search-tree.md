@@ -4,7 +4,7 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（7）
+## 🟠 再練習（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree | [C++](../problems/0235.md) | O(H) | O(1) |  |
 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 Medium | Binary Search Tree, Binary Search Tree | [C++](../problems/0701.md) | O(H) | O(H) | 2026-09-25 |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0938.md) | O(N) | O(H) | 2026-09-25 |
-| 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 Medium | Binary Search Tree, BST | [C++](../problems/1382.md) | O(N) | O(N) | 2026-10-03 |
 
 ## 🟡 練習過（1）
 
@@ -28,7 +27,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 Easy | Binary Search Tree | [C++](../problems/0653.md) | O(n) | O(n) | 2026-09-25 |
 
-## 🟢 熟悉（9）
+## 🟢 熟悉（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -41,3 +40,4 @@
 | 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 Easy | Binary Search Tree | [C++](../problems/0700.md) | O(H) | O(H) |  |
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 Easy | Binary Search Tree, DFS, BST | [C++](../problems/0783.md) | O(N) | O(H) | 2026-09-25 |
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 Medium | Binary Search Tree, BST | [C++](../problems/1038.md) | O(N) | O(H) | 2026-09-25 |
+| 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 Medium | Binary Search Tree, BST | [C++](../problems/1382.md) | O(N) | O(N) | 2026-10-03 |

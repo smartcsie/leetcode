@@ -11,13 +11,17 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-03'
   note: '> **同108[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)**<br>
 
     > **只是前面多一個步驟inorder蒐集nums**<br>'
   related:
   - 108
   attempts:
+  - date: '2026-10-03'
+    result: 對
+    reason: null
   - date: '2026-10-03'
     result: 對
     reason: null
