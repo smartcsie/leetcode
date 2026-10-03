@@ -292,6 +292,7 @@
 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | Array, Two Pointers, Sorting | [C++](problems/2824.md) | O(N²) | O(1) | 2026-09-17 |
 | 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | Array, Circular Array | [C++](problems/2855.md) | O(N) | O(1) | 2026-09-17 |
 | 2923 | 👑 **Vector Count**<br>[Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | 2d Array, Math | [C++](problems/2923.md) | O(N²) | O(1) | 2026-09-20 |
+| 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](problems/3069.md) | O(N) | O(N) | 2026-10-03 |
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | 2d Array, Simulation | [C++](problems/3142.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | Array, Brute Force | [C++](problems/3162.md) | O(N\*M) | O(1) | 2026-09-24 |
 | 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/3168.md) | O(N) | O(1) | 2026-09-17 |

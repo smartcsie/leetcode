@@ -750,6 +750,7 @@ def main():
     print("nav:")
     print("  - 首頁: index.md")
     print("  - 📝 複習清單: review.md")
+    print("  - 👑 主題索引: topic_index.md")
     for group_title in sorted_groups:
         print(f"  - {group_title}:")
         for topic in nav_entries[group_title]:

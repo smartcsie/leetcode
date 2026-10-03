@@ -74,7 +74,7 @@
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 Easy | Array Linear Scan, Simulation | [C++](problems/1848.md) | O(N) | O(1) |  |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 Easy | Array Linear Scan | [C++](problems/2485.md) | O(N) | O(1) |  |
 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](problems/2574.md) | O(N) | O(N) |  |
-| 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](problems/3069.md) | O(N) | O(N) |  |
+| 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](problems/3069.md) | O(N) | O(N) | 2026-10-03 |
 
 <a id="lianxiguo-tree"></a>
 #### 🌳 Tree（5）
