@@ -11,8 +11,12 @@ solutions:
   - string
   time: O(N)
   space: O(N)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-10-03'
+  attempts:
+  - date: '2026-10-03'
+    result: 對
+    reason: null
 - file: Solution_0151_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -23,4 +27,8 @@ solutions:
   space: O(1)
   familiarity: 生疏
   is_best: true
-  tricks: null
+  attempts:
+  - date: '2026-10-03'
+    result: 對
+    reason: null
+  is_representative: true

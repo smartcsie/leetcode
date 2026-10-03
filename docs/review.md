@@ -1,6 +1,6 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（118）](#review-lianxiguo)　[🟠 再練習清單（234）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（117）](#review-lianxiguo)　[🟠 再練習清單（234）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
@@ -12,9 +12,9 @@
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 118 個解法標記為練習過，持續複習鞏固。
+目前共有 117 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（7）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（7）](#lianxiguo-string)　[🍱 Array（17）](#lianxiguo-array)　[🌳 Tree（5）](#lianxiguo-tree)　[🔍 Binary Search（1）](#lianxiguo-binary-search)　[⛓️ Linked List（4）](#lianxiguo-linked-list)　[👥 Pointers（10）](#lianxiguo-pointers)　[🔑 Hash Table（2）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（12）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
+📌 **快速跳轉：** [🔢 Math（7）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（6）](#lianxiguo-string)　[🍱 Array（17）](#lianxiguo-array)　[🌳 Tree（5）](#lianxiguo-tree)　[🔍 Binary Search（1）](#lianxiguo-binary-search)　[⛓️ Linked List（4）](#lianxiguo-linked-list)　[👥 Pointers（10）](#lianxiguo-pointers)　[🔑 Hash Table（2）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（13）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（12）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（7）
@@ -43,11 +43,10 @@
 | 3750 | [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) | 🟢 Easy | Bit Manipulation | [C++](problems/3750.md) | O(logN) | O(1) |  |
 
 <a id="lianxiguo-string"></a>
-#### 🔗 String（7）
+#### 🔗 String（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | String, Two Pointers | [C++](problems/0151.md) | O(N) | O(N) |  |
 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 Easy | String Kmp, KMP | [C++](problems/0459.md) | O(N) | O(N) |  |
 | 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 Medium | String | [C++](problems/0833.md) | O(N+M\*K) | O(N) |  |
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 Easy | String, String | [C++](problems/0944.md) | O(N\*M) | O(M) |  |
@@ -619,7 +618,7 @@
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | Array, Two Pointers | [C++](problems/0031.md) | O(N) | O(1) |  |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](problems/0075.md) | O(N) | O(1) |  |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | Linked List, Two Pointers | [C++](problems/0086.md) | O(N) | O(1) |  |
-| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Fast Slow Pointers | [C++](problems/0151.md) | O(N) | O(1) |  |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Fast Slow Pointers | [C++](problems/0151.md) | O(N) | O(1) | 2026-10-03 |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | Array, Two Pointers | [C++](problems/0228.md) | O(N) | O(1) |  |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 Medium | Linked List | [C++](problems/0328.md) | O(N) | O(1) |  |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium | Two Pointers | [C++](problems/0443.md) | O(N) | O(1) |  |
