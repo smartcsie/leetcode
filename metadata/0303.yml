@@ -5,12 +5,16 @@ solutions:
 - file: Solution_0303.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array Prefix Sum
+  - Design
   - Prefix Sum
   topics:
-  - array-prefix-sum
+  - design
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 再練習
   tricks:
   - Fill Constructor
+  attempts:
+  - date: '2026-10-03'
+    result: 對
+    reason: null

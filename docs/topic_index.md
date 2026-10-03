@@ -590,6 +590,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Design, Prefix Sum | [C++](problems/0303.md) | O(N) | O(N) | 2026-10-03 |
 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 Easy | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) | 2026-09-22 |
 
 ---
