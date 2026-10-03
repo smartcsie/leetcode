@@ -11,9 +11,13 @@ solutions:
   - array
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-03'
   is_best: true
   attempts:
+  - date: '2026-10-03'
+    result: 對
+    reason: null
   - date: '2026-10-03'
     result: 對
     reason: null
