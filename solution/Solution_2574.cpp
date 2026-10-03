@@ -11,22 +11,16 @@ class Solution {
 public:
     vector<int> leftRightDifference(vector<int>& nums) {
         int n = nums.size();
-
         vector<int> prefix(n + 1, 0);
-        for(int i = 0; i < n; i++) {
-            prefix[i + 1] = nums[i] + prefix[i]; 
+        for (int i = 0; i < n; i++) {
+            prefix[i + 1] = prefix[i] + nums[i];
         }
-
-        vector<int> res;
-        res.reserve(n);
-
-        for(int i = 0; i < n; i++) { 
+        vector<int> res(n);
+        for (int i = 0; i < n; i++) {
             int left = prefix[i];
-            int right =  prefix[n] - prefix[i + 1];
-            res.push_back(abs(right - left));
+            int right = prefix[n] - prefix[i + 1];
+            res[i] = abs(right - left);
         }
-        
         return res;
-        
     }
 };
