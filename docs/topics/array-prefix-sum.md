@@ -22,7 +22,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](../problems/0238.md) | O(N) | O(1) |  |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](../problems/0238.md) | O(N) | O(1) | 2026-10-03 |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/0303.md) | O(N) | O(N) |  |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum | [C++](../problems/0930.md) | O(N^2) | O(N) |  |
 

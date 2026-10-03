@@ -231,6 +231,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 48 | 👑 **Matrix Rotate**<br>[Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | 2d Array | [C++](problems/0048.md) | O(N²) | O(1) | 2026-09-16 |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | 2d Array, Matrix | [C++](problems/0073.md) | O(M\*N) | O(1) | 2026-09-16 |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0238.md) | O(N) | O(1) | 2026-10-03 |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Array Negative Marking | [C++](problems/0268.md) | O(N) | O(1) | 2026-09-23 |
 | 287 | 👑 **Negative Marking**<br>[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array Negative Marking | [C++](problems/0287.md) | O(N) | O(1) | 2026-09-25 |
 | 414 | 👑 **Array Min Max Without Repeat**<br>[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array Min Max | [C++](problems/0414.md) | O(N) | O(1) | 2026-09-15 |

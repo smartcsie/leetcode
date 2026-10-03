@@ -12,7 +12,12 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 再練習
+  related:
+  - 238
   attempts:
+  - date: '2026-10-03'
+    result: 對
+    reason: null
   - date: '2026-10-03'
     result: 對
     reason: null
