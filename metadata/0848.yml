@@ -1,0 +1,17 @@
+number: 848
+title: Shifting Letters
+url: https://leetcode.com/problems/shifting-letters/
+solutions:
+- file: Solution_0848.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array Suffix Sum
+  topics:
+  - array-suffix-sum
+  time: O(N)
+  space: O(1)
+  familiarity: 練習過
+  attempts:
+  - date: '2026-10-03'
+    result: 對
+    reason: null
