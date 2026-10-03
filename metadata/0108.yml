@@ -6,17 +6,19 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Binary Search Tree
-  - DFS
-  - Binary Search
   topics:
   - binary-search-tree
   time: O(N)
   space: O(logN)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-03'
   related:
   - 1382
   attempts:
   - date: '2026-09-26'
+    result: 對
+    reason: null
+  - date: '2026-10-03'
     result: 對
     reason: null
   is_representative: true
