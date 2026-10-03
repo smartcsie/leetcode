@@ -10,7 +10,7 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 易忘
   note: '> [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/)<br>
 
     > Pivot integer為 summation開根號<br>
@@ -23,6 +23,12 @@ solutions:
 
     > return -1;<br>'
   is_best: true
+  tricks:
+  - Perfect Squares
+  attempts:
+  - date: '2026-10-03'
+    result: 對
+    reason: null
 - file: Solution_2485_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -31,4 +37,9 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 再練習
+  note: '> **注意if(n == 1) return 1;**<br>'
+  attempts:
+  - date: '2026-10-03'
+    result: 對
+    reason: null
