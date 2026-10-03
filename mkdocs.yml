@@ -46,19 +46,18 @@ markdown_extensions:
 nav:
   - 首頁: index.md
   - 📝 複習清單: review.md
-  - 🗺️ 主題索引: topic_index.md
   - 🔢 Math:
       - math-digit-decomposition: topics/math-digit-decomposition.md
       - math-palindrome: topics/math-palindrome.md
       - math: topics/math.md
       - math-permutation: topics/math-permutation.md
       - math-combination: topics/math-combination.md
-      - math-simulation: topics/math-simulation.md
       - math-prime: topics/math-prime.md
       - math-game-theory: topics/math-game-theory.md
       - math-gcd: topics/math-gcd.md
       - math-factor-enumeration: topics/math-factor-enumeration.md
       - math-geometry: topics/math-geometry.md
+      - math-simulation: topics/math-simulation.md
   - 🔗 String:
       - string: topics/string.md
       - string-kmp: topics/string-kmp.md
@@ -84,6 +83,7 @@ nav:
       - array-min-max: topics/array-min-max.md
       - array-continuous-counting: topics/array-continuous-counting.md
       - array-linear-scan: topics/array-linear-scan.md
+      - array-suffix-sum: topics/array-suffix-sum.md
       - array-difference-array: topics/array-difference-array.md
   - 🔍 Binary Search:
       - binary-search: topics/binary-search.md
@@ -160,9 +160,9 @@ nav:
       - greedy-selection-constraints: topics/greedy-selection-constraints.md
   - 🌳 Tree:
       - tree-traversal: topics/tree-traversal.md
+      - binary-search-tree: topics/binary-search-tree.md
       - tree: topics/tree.md
       - tree-dfs-path: topics/tree-dfs-path.md
-      - binary-search-tree: topics/binary-search-tree.md
       - tree-bfs-level-order: topics/tree-bfs-level-order.md
       - tree-construction: topics/tree-construction.md
       - tree-dfs-backtracking: topics/tree-dfs-backtracking.md
@@ -190,5 +190,3 @@ nav:
       - sql: topics/sql.md
   - 📚 Quick Select:
       - quick-select: topics/quick-select.md
-  - 📄 Other:
-      - topic_index: topics/topic_index.md
