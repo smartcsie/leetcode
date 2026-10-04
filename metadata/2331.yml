@@ -12,7 +12,8 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-04'
   note: '> **if(!root->left && !root->right) return root->val; **<br>'
   is_best: true
   attempts:
@@ -22,3 +23,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-04'
+    result: 對
+    reason: null

@@ -15,11 +15,13 @@ class Solution {
 private:
     void dfs(TreeNode* root, string cur, string& ans) {
         if(!root) return;
-        cur += root->val + 'a';
+        cur.push_back(root->val + 'a');
         if(!root->left && !root->right) {
             reverse(cur.begin(), cur.end());
-            if(ans.empty()) ans = cur;
-            else ans = min(ans, cur);
+            if(ans.empty() || cur < ans) {
+                ans = cur;
+                return;
+            }
         }
         dfs(root->left, cur, ans);
         dfs(root->right, cur, ans);
