@@ -12,8 +12,8 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy | [C++](../problems/0670.md) | O(N) | O(1) |  |
-| 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy, Sorting | [C++](../problems/2578.md) | O(NlogN) | O(N) |  |
+| 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy | [C++](../problems/0670.md) | O(N) | O(1) | 2026-10-04 |
+| 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy, Sorting | [C++](../problems/2578.md) | O(NlogN) | O(N) | 2026-10-04 |
 
 ## 🟡 練習過（3）
 

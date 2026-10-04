@@ -18,3 +18,7 @@ solutions:
     > **[注意]和轉二進制一樣，差異再往右shift加負號，n  = -(n >> 1);**<br>
 
     > **[注意]要記得做reverse，reverse(ans.begin(), ans.end());**<br>'
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習

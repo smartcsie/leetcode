@@ -8,7 +8,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | String | [C++](../problems/0796.md) | O(N) | O(N) |  |
+| 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 Easy | String | [C++](../problems/0796.md) | O(N) | O(N) | 2026-10-04 |
 
 ## 🟡 練習過（1）
 

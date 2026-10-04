@@ -8,12 +8,12 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | Design, Hash Table, Doubly Linked List, Design | [C++](../problems/0146.md) | O(1) | O(Capacity) |  |
-| 155 | [Min Stack](https://leetcode.com/problems/min-stack) | 🟡 Medium | Design, Design | [C++](../problems/0155.md) | O(1) | O(N) |  |
-| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | 🟢 Easy | Design, Queue | [C++](../problems/0232.md) | O(1) | O(N) |  |
-| 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Design, Prefix Sum | [C++](../problems/0303.md) | O(N) | O(N) | 2026-10-03 |
-| 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | 🟢 Easy | Design, Hash Table | [C++](../problems/0705.md) | O(1) | O(N) |  |
-| 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Design, Hash Table | [C++](../problems/0706.md) | O(N/K) | O(M+K) |  |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | Design, Hash Table, Doubly Linked List, Design | [C++](../problems/0146.md) | O(1) | O(Capacity) | 2026-10-04 |
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack) | 🟡 Medium | Design, Design | [C++](../problems/0155.md) | O(1) | O(N) | 2026-10-04 |
+| 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | 🟢 Easy | Design, Queue | [C++](../problems/0232.md) | O(1) | O(N) | 2026-10-04 |
+| 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Design, Prefix Sum | [C++](../problems/0303.md) | O(N) | O(N) | 2026-10-04 |
+| 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | 🟢 Easy | Design, Hash Table | [C++](../problems/0705.md) | O(1) | O(N) | 2026-10-04 |
+| 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Design, Hash Table | [C++](../problems/0706.md) | O(N/K) | O(M+K) | 2026-10-04 |
 
 ## 🟡 練習過（0）
 
@@ -23,9 +23,9 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | Design, Stack | [C++](../problems/0173.md) | O(1) | O(H) |  |
-| 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](../problems/0208.md) | O(L) | O(N \* L) |  |
-| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Design, Queue | [C++](../problems/0225.md) | O(N) | O(N) |  |
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | Design, Stack | [C++](../problems/0173.md) | O(1) | O(H) | 2026-10-04 |
+| 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](../problems/0208.md) | O(L) | O(N \* L) | 2026-10-04 |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Design, Queue | [C++](../problems/0225.md) | O(N) | O(N) | 2026-10-04 |
 
 ## 🟢 熟悉（1）
 

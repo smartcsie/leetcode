@@ -51,6 +51,9 @@ solutions:
   - date: '2026-09-17'
     result: 對
     reason: null
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
 - file: Solution_2605_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -64,6 +67,9 @@ solutions:
   - date: '2026-09-17'
     result: 對
     reason: null
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
 - file: Solution_2605_2.cpp
   difficulty: 🟢 Easy
   tags:
@@ -93,3 +99,6 @@ solutions:
   - date: '2026-09-17'
     result: 對
     reason: null
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習

@@ -15,3 +15,6 @@ solutions:
   - date: '2026-09-26'
     result: 對
     reason: null
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習

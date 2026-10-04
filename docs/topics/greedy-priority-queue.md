@@ -22,7 +22,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy Priority Queue | [C++](../problems/1405.md) | O((a+b+c) log 3) | O(1) |  |
+| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy Priority Queue | [C++](../problems/1405.md) | O((a+b+c) log 3) | O(1) | 2026-10-04 |
 
 ## 🟢 熟悉（0）
 

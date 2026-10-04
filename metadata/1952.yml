@@ -12,3 +12,7 @@ solutions:
   space: O(1)
   familiarity: 再練習
   note: '> 一個整數若恰好有三個正因數，這個數字必然是一個「質數的平方」。<br>'
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習

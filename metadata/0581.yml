@@ -14,3 +14,7 @@ solutions:
   space: O(N)
   familiarity: 易忘
   note: '> **排序完和原本的vector相比，left、right往中間找有多少個不同元素**<br>'
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習

@@ -16,7 +16,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | Tree, Recursion, DFS | [C++](../problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) |  |
+| 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 Medium | Tree, Recursion, DFS | [C++](../problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) | 2026-10-04 |
 
 ## 🟢 熟悉（3）
 

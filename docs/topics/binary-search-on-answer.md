@@ -21,7 +21,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | Binary Search | [C++](../problems/0069.md) | O(logN) | O(1) |  |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | Binary Search | [C++](../problems/0069.md) | O(logN) | O(1) | 2026-10-04 |
 
 ## 🟢 熟悉（0）
 

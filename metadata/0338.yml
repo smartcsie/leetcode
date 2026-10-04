@@ -19,3 +19,7 @@ solutions:
     > for(int i = 1; i <= n; i++) count[i] = count[i & (i - 1)] + 1;<br>'
   related:
   - 477
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習

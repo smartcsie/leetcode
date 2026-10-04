@@ -20,3 +20,7 @@ solutions:
     > **C(m + n - 2, m - 1)** <br>'
   is_representative: true
   representative_tag: DP on Grid
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習

@@ -21,3 +21,7 @@ solutions:
     > **sieve要宣告static，否則會TLE**<br>'
   tricks:
   - sieve
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習

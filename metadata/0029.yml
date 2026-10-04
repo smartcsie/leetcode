@@ -15,6 +15,10 @@ solutions:
   note: '> [overflow handle] INT_MIN / -1 溢位<br>'
   tricks:
   - overflow handle
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
 - file: Solution_0029_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -26,3 +30,7 @@ solutions:
   familiarity: 易忘
   tricks:
   - overflow handle
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習

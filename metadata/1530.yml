@@ -14,3 +14,7 @@ solutions:
   space: O(H×D)
   familiarity: 易忘
   tricks: null
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習

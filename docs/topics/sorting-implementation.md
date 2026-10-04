@@ -19,7 +19,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Sorting Implementation, Divide and Conquer, Sorting | [C++](../problems/0912.md) | O(NlogN) | O(logN) |  |
+| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Sorting Implementation, Divide and Conquer, Sorting | [C++](../problems/0912.md) | O(NlogN) | O(logN) | 2026-10-04 |
 
 ## 🟢 熟悉（0）
 

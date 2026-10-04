@@ -13,3 +13,7 @@ solutions:
   space: O(N)
   familiarity: 再練習
   note: '> size_t first_not_zero = strNum.find_first_not_of(''0'');'
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習

@@ -24,3 +24,6 @@ solutions:
       \                if(node->left) q.push(node->left);\n                if(node->right)\
       \ q.push(node->right);\n            }\n            odd = !odd;\n        }\n\
       \        return true;\n    }\n};"
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習

@@ -18,3 +18,7 @@ solutions:
     > 如果 i > maxReach表示不可到達，if(i > maxReach) return false;<br>
 
     > 如果到了結尾，可以先回傳，if(maxReach >= n - 1) return true;<br>'
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習

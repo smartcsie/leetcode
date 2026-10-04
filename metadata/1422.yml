@@ -14,3 +14,7 @@ solutions:
   note: '>　for (int i = 0; i + 1 < s.size(); ++i) <br>
 
     >　i + 1 < n 確保右子字串非空）<br>'
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習

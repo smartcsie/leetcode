@@ -12,8 +12,8 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | 🟡 Medium | Greedy Fractional Knapsack | [C++](../problems/0134.md) | O(N) | O(1) |  |
-| 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | 🟢 Easy | Greedy Fractional Knapsack | [C++](../problems/0455.md) | O(N log N) | O(1) |  |
+| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | 🟡 Medium | Greedy Fractional Knapsack | [C++](../problems/0134.md) | O(N) | O(1) | 2026-10-04 |
+| 455 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | 🟢 Easy | Greedy Fractional Knapsack | [C++](../problems/0455.md) | O(N log N) | O(1) | 2026-10-04 |
 
 ## 🟡 練習過（0）
 

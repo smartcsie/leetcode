@@ -17,3 +17,7 @@ solutions:
     > 初始化變數 vector<int> result = {-1, -1};  int prevPrime = -1; int minDiff = INT_MAX;<br>
 
     > for loop i = left ~ right，更新prevPrime，更新diff最小，更新result<br>'
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習

@@ -15,3 +15,7 @@ solutions:
   note: '> **[overflow handle]INT_MIN 取負數溢位**<br>'
   tricks:
   - overflow handle
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習

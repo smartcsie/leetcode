@@ -12,3 +12,7 @@ solutions:
   space: O(1)
   familiarity: 再練習
   note: '> 起一個loop ，遇到O，index i遞增1，遇到X，index i遞增3 且count + 1<br>'
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習

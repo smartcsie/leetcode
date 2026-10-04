@@ -15,6 +15,10 @@ solutions:
   familiarity: 易忘
   note: '> **root為空則return，遞迴左子樹，把root->val加入到result vector，遞迴右子樹**<br>'
   is_best: true
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
 - file: Solution_0094.cpp
   difficulty: 🟢 Easy
   tags:
@@ -44,3 +48,7 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 易忘
+  attempts:
+  - date: '2026-10-04'
+    result: 錯
+    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
