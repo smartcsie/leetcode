@@ -1,11 +1,11 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（107）](#review-lianxiguo)　[🟠 再練習清單（237）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（107）](#review-lianxiguo)　[🟠 再練習清單（236）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 981 題　🔴 生疏：221 題　🟠 再練習：227 題　🟡 練習過：94 題　🟣 易忘：110 題　🟢 熟練：329 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 981 題　🔴 生疏：221 題　🟠 再練習：226 題　🟡 練習過：94 題　🟣 易忘：110 題　🟢 熟練：330 題　⚪ 未標記：0 題
 
 ---
 
@@ -218,9 +218,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 237 個解法標記為再練習，需要加強熟練度。
+目前共有 236 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（41）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（17）](#zailianxi-string)　[🍱 Array（36）](#zailianxi-array)　[🌳 Tree（23）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（16）](#zailianxi-pointers)　[🔑 Hash Table（29）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（41）](#zailianxi-math)　[📊 Bit Manipulation（19）](#zailianxi-bit-manipulation)　[🔗 String（17）](#zailianxi-string)　[🍱 Array（36）](#zailianxi-array)　[🌳 Tree（22）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（16）](#zailianxi-pointers)　[🔑 Hash Table（29）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（6）
@@ -372,7 +372,7 @@
 | 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | Array | [C++](problems/3978.md) | O(N) | O(1) | 2026-09-21 |
 
 <a id="zailianxi-tree"></a>
-#### 🌳 Tree（23）
+#### 🌳 Tree（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -382,7 +382,6 @@
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 Medium | Binary Search Tree | [C++](problems/0109.md) | O(NlogN) | O(logN) | 2026-09-27 |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0110.md) | O(N) | O(H) | 2026-09-25 |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | Tree Bfs Level Order, Recursion, Constant Space | [C++](problems/0116.md) | O(N) | O(1) | 2026-09-14 |
-| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/0129.md) | O(N) | O(H) | 2026-09-25 |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟢 Easy | Tree Dfs Path, DFS, Binary Search | [C++](problems/0222.md) | O(log²N) | O(logN) | 2026-09-26 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 Easy | Binary Search Tree | [C++](problems/0235.md) | O(H) | O(1) |  |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree Dfs Path | [C++](problems/0606.md) | O(N) | O(H) | 2026-10-03 |
@@ -994,7 +993,7 @@
 | [tree-construction](topics/tree-construction.md) | 0 | 0 | 0 | 3 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 0 | 1 | 0 | 0 | 2 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 0 | 1 | 1 | 5 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 0 | 11 | 0 | 5 | 13 | 0 | 29 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 0 | 10 | 0 | 5 | 14 | 0 | 29 |
 | [tree-traversal](topics/tree-traversal.md) | 0 | 0 | 0 | 3 | 4 | 0 | 7 |
 | [trie](topics/trie.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |

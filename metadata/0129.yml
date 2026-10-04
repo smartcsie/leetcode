@@ -11,7 +11,8 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-04'
   related:
   - 257
   tricks:
@@ -21,5 +22,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-25'
+    result: 對
+    reason: null
+  - date: '2026-10-04'
     result: 對
     reason: null

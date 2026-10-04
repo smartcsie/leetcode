@@ -4,12 +4,11 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（9）
+## 🟠 再練習（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0110.md) | O(N) | O(H) | 2026-09-25 |
-| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path, DFS | [C++](../problems/0129.md) | O(N) | O(H) | 2026-09-25 |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟢 Easy | Tree Dfs Path, DFS, Binary Search | [C++](../problems/0222.md) | O(log²N) | O(logN) | 2026-09-26 |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0606.md) | O(N) | O(H) | 2026-10-03 |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | Tree Dfs Path, DFS, Recursion | [C++](../problems/0617.md) | O(min(N,M)) | O(min(N,M)) | 2026-09-25 |
@@ -34,7 +33,7 @@
 | 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Hash Table | [C++](../problems/0863.md) | O(N) | O(N) |  |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | Tree Dfs Path, DFS, In-order | [C++](../problems/0897.md) | O(N) | O(H) |  |
 
-## 🟢 熟悉（15）
+## 🟢 熟悉（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -42,6 +41,7 @@
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0104.md) | O(N) | O(H) | 2026-09-14 |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 Easy | Tree Dfs Path, BFS, DFS | [C++](../problems/0111.md) | O(N) | O(H) | 2026-09-25 |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0112.md) | O(N) | O(H) | 2026-09-25 |
+| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path, DFS | [C++](../problems/0129.md) | O(N) | O(H) | 2026-10-04 |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/0236.md) | O(N) | O(H) | 2026-09-14 |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0404.md) | O(N) | O(H) | 2026-09-25 |
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | Tree Dfs Path, DFS, BFS | [C++](../problems/0559.md) | O(N) | O(H) | 2026-09-14 |
