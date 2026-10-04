@@ -4,12 +4,10 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（7）
+## 🟠 再練習（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0103.md) | O(N) | O(W) | 2026-10-04 |
-| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order | [C++](../problems/0103.md) | O(N) | O(N) | 2026-10-04 |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | Tree Bfs Level Order, Recursion, Constant Space | [C++](../problems/0116.md) | O(N) | O(1) | 2026-10-04 |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0662.md) | O(N) | O(W) | 2026-10-04 |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS, Level Order Traversal | [C++](../problems/0958.md) | O(N) | O(N) | 2026-10-04 |
@@ -26,11 +24,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](../problems/0993.md) | O(N) | O(W) | 2026-10-04 |
 
-## 🟢 熟悉（10）
+## 🟢 熟悉（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0102.md) | O(N) | O(W) | 2026-09-14 |
+| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0103.md) | O(N) | O(W) | 2026-10-04 |
+| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-zigzag-level-order-traversal/) | 🟡 Medium | Tree Bfs Level Order | [C++](../problems/0103.md) | O(N) | O(N) | 2026-10-04 |
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](../problems/0107.md) | O(N) | O(W) | 2026-09-14 |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | 🟡 Medium | Tree Bfs Level Order, BFS, Queue | [C++](../problems/0117.md) | O(N) | O(N) | 2026-09-14 |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0199.md) | O(N) | O(W) | 2026-09-14 |

@@ -32,26 +32,27 @@
  *    方向——這也是這題「queue 版」跟某些教學會寫的「deque 版」
  *    （利用 push_front 讓某層由右到左疊出來）思路上的差別。
  */
+
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
         if(!root) return {};
         queue<TreeNode*> q({root});
         vector<vector<int>> ans;
-        bool leftToRight = true;
+        bool l2r = true;
         while(!q.empty()) {
             int n = q.size();
             vector<int> level(n);
             for(int i = 0; i < n; i++) {
                 TreeNode* node = q.front();
                 q.pop();
-                int idx = leftToRight ? i : n - i - 1;
+                int idx = l2r ? i : n - 1 - i;
                 level[idx] = node->val;
                 if(node->left) q.push(node->left);
                 if(node->right) q.push(node->right);
             }
             ans.push_back(level);
-            leftToRight = !leftToRight;
+            l2r = !l2r;
         }
         return ans;
     }
