@@ -18,7 +18,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0938.md) | O(N) | O(H) | 2026-09-25 |
+| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0938.md) | O(N) | O(H) | 2026-10-05 |
 
 ## 🟣 易忘（5）
 
