@@ -4932,10 +4932,11 @@
 
 <h1 id="2583-kth-largest-sum-in-a-binary-tree">2583. Kth Largest Sum in a Binary Tree<a class="headerlink" href="#2583-kth-largest-sum-in-a-binary-tree" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Tree Bfs Level Order, BFS, Math　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Tree Bfs Level Order, BFS, Math　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🟢 熟練　👑 <strong>代表題（nth_element kth largest）</strong></p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-10-05</strong> 對</li>
 </ul>
 <p><strong>技巧:</strong> QuickSelect</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
@@ -4978,7 +4979,8 @@
 <blockquote>
 <p><strong>BFS + QuickSelect</strong><br>
 <strong>注意邊界條件，if (k &gt; sums.size()) return -1;</strong><br>
-<strong>auto it = sums.end() - k;</strong><br>
+<strong>第k個大的，auto it = sums.end() - k;</strong><br>
+<strong>第k個小的，auto it = sums.start() + (k - 1);</strong><br>
 <strong>nth_element(sums.begin(), it, sums.end());</strong><br>
 <strong>return static_cast<long long>(*it);</strong><br></p>
 </blockquote>
