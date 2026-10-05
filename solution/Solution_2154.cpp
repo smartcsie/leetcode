@@ -18,9 +18,9 @@
 class Solution {
 public:
     int findFinalValue(vector<int>& nums, int original) {
-        unordered_set<int> seen(nums.begin(), nums.end());
-        int ans = original;
-        while(seen.contains(ans))  ans <<= 1;
-        return ans;
+        vector<bool> seen(1001, false);
+        for(const int& x :nums ) seen[x] = true;
+        while(original <= 1000 && seen[original]) original *= 2;
+        return original;
     }
 };
