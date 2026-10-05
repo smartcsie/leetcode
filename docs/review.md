@@ -446,7 +446,7 @@
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](problems/0454.md) | O(N²) | O(N²) | 2026-10-04 |
 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Existence | [C++](problems/0532.md) | O(NlogN) | O(N) | 2026-10-04 |
 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/0599.md) | O(N+M) | O(N) | 2026-10-04 |
-| 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | String, Hash Table | [C++](problems/0819.md) | O(M+N) | O(M+N) | 2026-10-04 |
+| 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](problems/0819.md) | O(M+N) | O(M+N) | 2026-10-05 |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](problems/0859.md) | O(N) | O(1) | 2026-10-04 |
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | Hash Table Uniqueness, Hash Table | [C++](problems/0939.md) | O(N²) | O(N) | 2026-10-04 |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Hash Table Counting, Hash Table, String | [C++](problems/1002.md) | O(N\*K) | O(1) | 2026-10-04 |

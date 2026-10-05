@@ -12,7 +12,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | String, Hash Table | [C++](../problems/0819.md) | O(M+N) | O(M+N) | 2026-10-04 |
+| 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/0819.md) | O(M+N) | O(M+N) | 2026-10-05 |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Hash Table Counting, Hash Table, String | [C++](../problems/1002.md) | O(N\*K) | O(1) | 2026-10-04 |
 | 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 Medium | Hash Table Counting, Hash Table, Remainder Counting | [C++](../problems/1497.md) | O(N+K) | O(K) | 2026-10-04 |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 Easy | Hash Table Counting, Hash Table, Math | [C++](../problems/1512.md) | O(N) | O(N) | 2026-10-04 |

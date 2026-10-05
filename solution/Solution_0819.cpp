@@ -10,24 +10,23 @@
 class Solution {
 public:
     string mostCommonWord(string paragraph, vector<string>& banned) {
-        string str;
-        for(char& c : paragraph) {
-            if(isalpha(c)) str.push_back(c | 32);
-            else if(c == ' ') str.push_back(c);
-            else str.push_back(' ');
-        }
-        istringstream iss(str);
-        string s;
-        unordered_set<string> bans;
-        for(const string& s : banned) bans.insert(s);
+        string s = paragraph;
+        transform(s.begin(), s.end(), s.begin(), [](unsigned char c) {
+            return ispunct(c) ? ' ' : tolower(c);
+        });
+        unordered_set bannedSet(banned.begin(), banned.end());
         unordered_map<string, int> counts;
-        int maxCount = 0;
+        istringstream iss(s);
+        string w;
+        while(iss >> w) {
+            if(!bannedSet.contains(w)) counts[w]++;
+        }
+        int mx = 0;
         string ans;
-        while(iss >> s) {
-            if(!bans.count(s)) counts[s]++;
-            if(maxCount < counts[s]) {
-                maxCount = counts[s];
-                ans = s;
+        for(const auto& [w, count] : counts) {
+            if(count > mx) {
+                mx = count;
+                ans = w;
             }
         }
         return ans;
