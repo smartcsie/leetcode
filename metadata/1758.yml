@@ -10,7 +10,8 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-05'
   note: '> **count是算 01010101 ...需要修改的bit數**<br>
 
     > **(n - count)是算 10101010 ...需要修改的bit數**<br>
@@ -23,3 +24,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-05'
+    result: 對
+    reason: null
