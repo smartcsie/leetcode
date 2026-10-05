@@ -4932,7 +4932,7 @@
 
 <h1 id="662-maximum-width-of-binary-tree">662. Maximum Width of Binary Tree<a class="headerlink" href="#662-maximum-width-of-binary-tree" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/maximum-width-of-binary-tree/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Tree Bfs Level Order, BFS　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(W)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Tree Bfs Level Order, BFS　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(W)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>❌ <strong>2026-09-14</strong> 錯
@@ -4956,6 +4956,8 @@
         }
     };</li>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-10-05</strong> 對</li>
+<li>✅ <strong>2026-10-05</strong> 對</li>
 </ul>
 <p><strong>技巧:</strong> overflow handle</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
@@ -4983,7 +4985,7 @@
 <a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="k">public</span><span class="o">:</span>
 <a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">widthOfBinaryTree</span><span class="p">(</span><span class="n">TreeNode</span><span class="o">*</span><span class="w"> </span><span class="n">root</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="n">root</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="n">queue</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">TreeNode</span><span class="o">*</span><span class="p">,</span><span class="w"> </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">long</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">q</span><span class="p">;</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="n">queue</span><span class="o">&lt;</span><span class="n">pair</span><span class="o">&lt;</span><span class="n">TreeNode</span><span class="o">*</span><span class="p">,</span><span class="w"> </span><span class="kt">unsigned</span><span class="w"> </span><span class="kt">int</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">q</span><span class="p">;</span>
 <a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">        </span><span class="n">q</span><span class="p">.</span><span class="n">push</span><span class="p">({</span><span class="n">root</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">});</span>
 <a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 <a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">        </span><span class="k">while</span><span class="p">(</span><span class="o">!</span><span class="n">q</span><span class="p">.</span><span class="n">empty</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
@@ -5000,7 +5002,8 @@
 <a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><strong>index要用unsigned long</strong><br></p>
+<p><strong>It is guaranteed that the answer will in the range of a 32-bit signed integer.</strong><br>
+<strong>表示最後一層在signed integer，所以index要用unsigned int</strong><br></p>
 </blockquote>
 
 
