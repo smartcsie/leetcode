@@ -535,7 +535,7 @@
 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 Easy | Hash Table Counting, Hash Map | [C++](problems/3442.md) | O(N) | O(1) | 2026-10-04 |
 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | Hash Table Uniqueness, Brute Force | [C++](problems/3483.md) | O(N³) | O(U) | 2026-10-04 |
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 Easy | Hash Table Counting, Hash Table, Frequency Counting | [C++](problems/3541.md) | O(N) | O(1) | 2026-09-15 |
-| 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table Counting, Hash Table, Frequency Counting | [C++](problems/3663.md) | O(logN) | O(1) | 2026-10-04 |
+| 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 Easy | Hash Table Counting, Hash Table, Frequency Counting | [C++](problems/3663.md) | O(logN) | O(1) | 2026-10-05 |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Hash Table Existence, Hash Set | [C++](problems/3678.md) | O(N) | O(N) | 2026-10-04 |
 | 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](problems/3718.md) | O(N+M) | O(M) | 2026-09-15 |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 Easy | Hash Table Existence | [C++](problems/3731.md) | O(N+K) | O(K) | 2026-09-15 |
