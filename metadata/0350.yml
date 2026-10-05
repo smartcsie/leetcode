@@ -10,7 +10,8 @@ solutions:
   - hash-table-intersection
   time: O(N+M)
   space: O(min(N,M))
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-05'
   tricks:
   - compare count one side limit
   attempts:
@@ -23,3 +24,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-05'
+    result: 對
+    reason: null
