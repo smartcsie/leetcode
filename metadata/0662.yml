@@ -11,8 +11,12 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 再練習
-  note: '> **index要用unsigned long**<br>'
+  familiarity: 熟練
+  mastered_date: '2026-10-05'
+  note: '> **It is guaranteed that the answer will in the range of a 32-bit signed
+    integer.**<br>
+
+    > **表示最後一層在signed integer，所以index要用unsigned int**<br>'
   tricks:
   - overflow handle
   attempts:
@@ -30,3 +34,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-05'
+    result: 對
+    reason: null
+  - date: '2026-10-05'
+    result: 對
+    reason: null

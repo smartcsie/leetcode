@@ -23,7 +23,7 @@ class Solution {
 public:
     int widthOfBinaryTree(TreeNode* root) {
         if(!root) return 0;
-        queue<pair<TreeNode*, unsigned long>> q;
+        queue<pair<TreeNode*, unsigned int>> q;
         q.push({root, 1});
         int width = 0;
         while(!q.empty()) {

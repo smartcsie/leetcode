@@ -779,7 +779,7 @@
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | 🟡 Medium | Tree Dfs Global, DFS, Hash Table, Serialization | [C++](problems/0652.md) | O(N²) | O(N²) | 2026-10-04 |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 Easy | Binary Search Tree, Hash Table | [C++](problems/0653.md) | O(N) | O(N) | 2026-09-25 |
 | 653 | 👑 **BST Iterator**<br>[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 Easy | Binary Search Tree | [C++](problems/0653.md) | O(n) | O(n) | 2026-10-04 |
-| 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/0662.md) | O(N) | O(W) | 2026-10-04 |
+| 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](problems/0662.md) | O(N) | O(W) | 2026-10-05 |
 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0671.md) | O(N) | O(H) | 2026-09-25 |
 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 Medium | Tree Dfs Global, DFS | [C++](problems/0687.md) | O(N) | O(H) | 2026-10-04 |
 | 701 | 👑 **BST insert**<br>[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 Medium | Binary Search Tree, Binary Search Tree | [C++](problems/0701.md) | O(H) | O(H) | 2026-10-05 |
