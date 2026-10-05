@@ -13,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](../problems/0859.md) | O(N) | O(1) | 2026-10-04 |
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | Hash Table Uniqueness, Hash Table | [C++](../problems/0939.md) | O(N²) | O(N) | 2026-10-04 |
-| 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](../problems/1805.md) | O(N) | O(N) | 2026-10-04 |
+| 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](../problems/1805.md) | O(N) | O(N) | 2026-10-05 |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Sorting | [C++](../problems/2784.md) | O(N) | O(N) | 2026-10-04 |
 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | Hash Table Uniqueness, Brute Force | [C++](../problems/3483.md) | O(N³) | O(U) | 2026-10-04 |
 
