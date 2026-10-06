@@ -12,13 +12,13 @@ solutions:
   - array
   time: O(N^2)
   space: O(1)
-  familiarity: 再練習
-  note: '> 這一題有O(nlong)解法，SegmentTree
-
-    > [Loop]
-
-    <br><br>'
+  familiarity: 熟練
+  mastered_date: '2026-10-06'
+  note: '> **這一題有O(nlong)解法，SegmentTree**<br><br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-06'
+    result: 對
+    reason: null
