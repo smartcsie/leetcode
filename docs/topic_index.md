@@ -744,7 +744,8 @@
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | Tree Bfs Level Order | [C++](problems/0116.md) | O(N) | O(1) | 2026-10-06 |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | 🟡 Medium | Tree Bfs Level Order, BFS, Queue | [C++](problems/0117.md) | O(N) | O(N) | 2026-09-14 |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 Hard | Tree Dfs Global, Recursion, DP | [C++](problems/0124.md) | O(N) | O(H) | 2026-10-04 |
-| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/0129.md) | O(N) | O(H) | 2026-10-04 |
+| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path, DFS | [C++](problems/0129.md) | O(N) | O(H) | 2026-10-06 |
+| 129 | 👑 **DFS Early Return**<br>[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path | [C++](problems/0129.md) | O(N) | O(N) | 2026-10-06 |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Traversal, DFS | [C++](problems/0144.md) | O(N) | O(H) | 2026-10-04 |
 | 144 | 👑 **Preorder**<br>[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) | 2026-09-15 |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) | 2026-10-04 |

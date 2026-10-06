@@ -31,7 +31,7 @@
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 Easy | Tree Dfs Path, DFS, In-order | [C++](../problems/0897.md) | O(N) | O(H) | 2026-10-04 |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | Tree Dfs Path | [C++](../problems/0958.md) | O(N) | O(”) | 2026-10-06 |
 
-## 🟢 熟悉（18）
+## 🟢 熟悉（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -39,7 +39,8 @@
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | Tree Dfs Path, DFS | [C++](../problems/0104.md) | O(N) | O(H) | 2026-09-14 |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 Easy | Tree Dfs Path, BFS, DFS | [C++](../problems/0111.md) | O(N) | O(H) | 2026-09-25 |
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0112.md) | O(N) | O(H) | 2026-09-25 |
-| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path, DFS | [C++](../problems/0129.md) | O(N) | O(H) | 2026-10-04 |
+| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path, DFS | [C++](../problems/0129.md) | O(N) | O(H) | 2026-10-06 |
+| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 Medium | Tree Dfs Path | [C++](../problems/0129.md) | O(N) | O(N) | 2026-10-06 |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 Medium | Tree Dfs Path, DFS, Recursion | [C++](../problems/0236.md) | O(N) | O(H) | 2026-09-14 |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 Easy | Tree Dfs Path | [C++](../problems/0404.md) | O(N) | O(H) | 2026-09-25 |
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | Tree Dfs Path, DFS, BFS | [C++](../problems/0559.md) | O(N) | O(H) | 2026-09-14 |

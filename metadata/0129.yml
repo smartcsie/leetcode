@@ -27,3 +27,25 @@ solutions:
   - date: '2026-10-04'
     result: 對
     reason: null
+  - date: '2026-10-06'
+    result: 對
+    reason: null
+- file: Solution_0129_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree Dfs Path
+  topics:
+  - tree-dfs-path
+  time: O(N)
+  space: O(N)
+  familiarity: 熟練
+  mastered_date: '2026-10-06'
+  note: '> **ans不等於nullptr，表示找到答案**<br>'
+  related:
+  - 257
+  attempts:
+  - date: '2026-10-06'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: DFS Early Return
