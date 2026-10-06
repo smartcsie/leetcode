@@ -7,16 +7,16 @@
  * 空間複雜度：O(1)
  */
 
+
 class Solution {
 public:
     vector<int> replaceElements(vector<int>& arr) {
-        int n =  arr.size();
         int mx = -1;
-        vector<int> ans(n);
-        for(int i = n - 1; i >= 0; i--) {
-            ans[i] = mx;
-            mx = max(mx, arr[i]);
+        for(int i = arr.size() - 1;i >= 0; i--) {
+            int x = arr[i];
+            arr[i] = mx;
+            mx = max(mx, x);
         }
-        return ans;
+        return arr;
     }
 };
