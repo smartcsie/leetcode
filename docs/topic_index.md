@@ -442,6 +442,7 @@
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | Binary Search | [C++](problems/0540.md) | O(logN) | O(1) | 2026-09-26 |
 | 704 | 👑 **Binary Search**<br>[Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](problems/0704.md) | O(logN) | O(1) | 2026-09-14 |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target) | 🟢 Easy | Binary Search Build In | [C++](problems/0744.md) | O(logN) | O(1) | 2026-09-25 |
+| 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Binary Search | [C++](problems/0786.md) | O(N log(1/ε)) | O(1) | 2026-10-06 |
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array) | 🟡 Medium | Binary Search Find Left Bound | [C++](problems/0852.md) | O(logN) | O(1) | 2026-09-26 |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | Binary Search Build In, Matrix, Binary Search | [C++](problems/1351.md) | O(R+C) | O(1) | 2026-10-04 |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | 🟢 Easy | Binary Search Find Left Bound | [C++](problems/1351.md) | O(R\*logC) | O(1) | 2026-10-04 |
@@ -859,6 +860,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Priority Queue, Binary Search | [C++](problems/0786.md) | O(NlogN) | O(N) | 2026-10-06 |
 | 1046 | 👑 **Priority Queue**<br>[Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Priority Queue, Heap (Priority Queue) | [C++](problems/1046.md) | O(NlogN) | O(N) | 2026-09-14 |
 
 ---

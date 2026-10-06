@@ -1,10 +1,11 @@
 # binary-search
 
-## 🔴 生疏（1）
+## 🔴 生疏（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | Binary Search | [C++](../problems/0004.md) | O(log(min(M,N))) | O(1) |  |
+| 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Binary Search | [C++](../problems/0786.md) | O(N log(1/ε)) | O(1) | 2026-10-06 |
 
 ## 🟠 再練習（2）
 

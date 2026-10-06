@@ -1,6 +1,6 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（107）](#review-lianxiguo)　[🟠 再練習清單（205）](#review-zailianxi)　[🔴 生疏清單（223）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（107）](#review-lianxiguo)　[🟠 再練習清單（205）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)
 
 ## 📊 總覽
 
@@ -534,9 +534,9 @@
 <a id="review-shengshu"></a>
 ## 🔴 生疏清單
 
-目前共有 223 個解法標記為生疏，建議找時間重新練習。
+目前共有 224 個解法標記為生疏，建議找時間重新練習。
 
-📌 **快速跳轉：** [🍱 Array（7）](#shengshu-array)　[🔍 Binary Search（11）](#shengshu-binary-search)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（5）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（20）](#shengshu-sliding-window)
+📌 **快速跳轉：** [🍱 Array（7）](#shengshu-array)　[🔍 Binary Search（12）](#shengshu-binary-search)　[👥 Pointers（15）](#shengshu-pointers)　[🔑 Hash Table（7）](#shengshu-hash-table)　[📚 Stack（11）](#shengshu-stack)　[📚 Priority Queue（5）](#shengshu-priority-queue)　[📚 Queue（1）](#shengshu-queue)　[📚 Quick Select（1）](#shengshu-quick-select)　[🕸️ Graph（5）](#shengshu-graph)　[📊 Sorting（11）](#shengshu-sorting)　[🧩 Dynamic Programming（61）](#shengshu-dynamic-programming)　[🧩 Greedy（43）](#shengshu-greedy)　[🔢 Backtracking（25）](#shengshu-backtracking)　[🔢 Sliding Window（20）](#shengshu-sliding-window)
 
 <a id="shengshu-array"></a>
 #### 🍱 Array（7）
@@ -552,7 +552,7 @@
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](problems/3969.md) | O(N²) | O(1) |  |
 
 <a id="shengshu-binary-search"></a>
-#### 🔍 Binary Search（11）
+#### 🔍 Binary Search（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -560,6 +560,7 @@
 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | 🔴 Hard | Sliding Window, Ordered Map, Bucket | [C++](problems/0220.md) | O(Nlog(min(N,K))) | O(min(N,K)) |  |
 | 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | 🟡 Medium | Binary Search Find Right Bound | [C++](problems/0275.md) | O(log N) | O(1) |  |
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | 🟡 Medium | Binary Search, Matrix | [C++](problems/0378.md) | O(Nlog(max-min)) | O(1) |  |
+| 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Binary Search | [C++](problems/0786.md) | O(N log(1/ε)) | O(1) | 2026-10-06 |
 | 1170 | [Compare Strings by Frequency](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character/) | 🟡 Medium | Sorting, Binary Search | [C++](problems/1170.md) | O(NlogN+MlogN) | O(N) |  |
 | 1201 | [Ugly Number III](https://leetcode.com/problems/ugly-number-iii/) | 🟡 Medium | Binary Search, Math | [C++](problems/1201.md) | O(log(2E9)) | O(1) |  |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | Binary Search On Answer | [C++](problems/1608.md) | O(N²) | O(1) |  |
@@ -628,7 +629,7 @@
 | 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sum/) | 🟡 Medium | Heap, Greedy | [C++](problems/0373.md) | O(KlogK) | O(K) |  |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | Hash Table, Heap | [C++](problems/0692.md) | O(NlogK) | O(N) |  |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) | 🟢 Easy | Heap (Priority Queue) | [C++](problems/0703.md) | O(NlogK) | O(K) |  |
-| 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Priority Queue, Binary Search | [C++](problems/0786.md) | O(NlogN) | O(N) |  |
+| 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Priority Queue, Binary Search | [C++](problems/0786.md) | O(NlogN) | O(N) | 2026-10-06 |
 
 <a id="shengshu-queue"></a>
 #### 📚 Queue（1）
@@ -866,7 +867,7 @@
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [binary-search](topics/binary-search.md) | 1 | 2 | 0 | 1 | 3 | 0 | 7 |
+| [binary-search](topics/binary-search.md) | 2 | 2 | 0 | 1 | 3 | 0 | 8 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 5 | 1 | 1 | 0 | 3 | 0 | 10 |
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 0 | 1 | 0 | 1 | 6 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 1 | 0 | 1 | 1 | 0 | 0 | 3 |

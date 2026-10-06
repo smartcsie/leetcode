@@ -12,3 +12,21 @@ solutions:
   time: O(NlogN)
   space: O(N)
   familiarity: 生疏
+  attempts:
+  - date: '2026-10-06'
+    result: 對
+    reason: null
+- file: Solution_0786_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(N log(1/ε))
+  space: O(1)
+  familiarity: 生疏
+  is_best: true
+  attempts:
+  - date: '2026-10-06'
+    result: 對
+    reason: null
