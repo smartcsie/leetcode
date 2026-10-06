@@ -6,27 +6,15 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array
-  - Circular Array
   topics:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 再練習
-  note: '> **int start = it - nums.begin();等價  int start = distance(nums.begin(),
-    it);**<br>
-
-    > **rotate是shift left**<br>
-
-    > **也可以**<br>
-
-    > **rotate(nums.begin(), nums.end() - index, nums.end());**<br>
-
-    > **for(int i = 1; i < nums.size(); i++) {**<br>
-
-    > **&nbsp;&nbsp;&nbsp;&nbsp;if(nums[i-1] > nums[i]) return -1;**<br>
-
-    > **}**<br>'
+  familiarity: 熟練
+  mastered_date: '2026-10-06'
   is_best: true
+  related:
+  - 1752
   tricks:
   - distance
   - rotate
@@ -38,3 +26,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-06'
+    result: 對
+    reason: null

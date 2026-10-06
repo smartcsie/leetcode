@@ -368,7 +368,7 @@
 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 Easy | Array Linear Scan | [C++](problems/1614.md) | O(N) | O(1) | 2026-09-24 |
 | 1662 | 👑 **string vector travsal**<br>[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | Array, String | [C++](problems/1662.md) | O(N+M) | O(1) | 2026-09-18 |
 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](problems/1732.md) | O(N) | O(1) | 2026-10-03 |
-| 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](problems/1752.md) | O(N) | O(1) | 2026-09-25 |
+| 1752 | 👑 **Circular Array**<br>[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](problems/1752.md) | O(N) | O(1) | 2026-10-06 |
 | 1759 | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟡 Medium | Array Continuous Counting, String | [C++](problems/1759.md) | O(N) | O(1) | 2026-10-02 |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 Easy | 2d Array, Simulation, Manhattan Distance | [C++](problems/1779.md) | O(N) | O(1) | 2026-09-16 |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 Easy | Array Continuous Counting | [C++](problems/1800.md) | O(N) | O(1) | 2026-10-04 |
@@ -402,7 +402,7 @@
 | 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 Easy | 2d Array, Simulation | [C++](problems/2639.md) | O(M\*N\*D) | O(1) | 2026-10-04 |
 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 Easy | Array Linear Scan, Matrix, Linear Scan | [C++](problems/2643.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 Easy | Array, Two Pointers, Sorting | [C++](problems/2824.md) | O(N²) | O(1) | 2026-09-17 |
-| 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | Array, Circular Array | [C++](problems/2855.md) | O(N) | O(1) | 2026-10-04 |
+| 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | Array | [C++](problems/2855.md) | O(N) | O(1) | 2026-10-06 |
 | 2923 | 👑 **Vector Count**<br>[Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | 2d Array, Math | [C++](problems/2923.md) | O(N²) | O(1) | 2026-09-20 |
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](problems/3069.md) | O(N) | O(N) | 2026-10-03 |
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 Easy | 2d Array, Simulation | [C++](problems/3142.md) | O(M\*N) | O(1) | 2026-10-06 |

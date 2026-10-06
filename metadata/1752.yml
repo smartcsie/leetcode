@@ -17,6 +17,8 @@ solutions:
     > **if(nums[i] > nums[(i+1) % n]) count++;**<br>
 
     > **if(count > 1) return false;**<br>'
+  related:
+  - 2855
   attempts:
   - date: '2026-09-18'
     result: 對
@@ -24,3 +26,8 @@ solutions:
   - date: '2026-09-25'
     result: 對
     reason: null
+  - date: '2026-10-06'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Circular Array
