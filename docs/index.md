@@ -6,10 +6,6 @@
 
 ---
 
-## 📂 本專案 Pattern 整理
-- **[Pattern 分類目錄 (本 repo)](https://github.com/smartcsie/leetcode/tree/main/pattern)** — DP / Greedy / Backtracking 各分類 pattern 的整理筆記
-
-
 ## 🤖 Solutions
 - [doocs (github)](https://github.com/doocs/leetcode/tree/main/solution)
 - [walkccc (github)](https://github.com/walkccc/LeetCode/tree/main/solutions)
@@ -55,6 +51,12 @@
 - [Nvidia](https://github.com/liquidslr/interview-company-wise-problems/tree/main/Nvidia)
 - [Amazon](https://github.com/liquidslr/interview-company-wise-problems/tree/main/Amazon)
 - [Google Frequency](https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/Google/5.%20All.csv)
+
+---
+
+## 🤖 Google 面試心得
+- [雜魚上岸 2025 Google L3 SWE 心得](https://www.ptt.cc/bbs/Tech_Job/M.1764945398.A.A4C.html)
+- [2024 Google Taiwan Gen SWE 面試心得 Ming-Jun](https://hackmd.io/@Ming-Jun/BJE1U3lmC)
 
 ---
 
