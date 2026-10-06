@@ -17,13 +17,11 @@
 class Solution {
 public:
     bool satisfiesConditions(vector<vector<int>>& grid) {
-        int m = grid.size();
-        int n = grid[0].size();
-        for(int i = 1 ; i < n; i++) {
-            if(grid[0][i] == grid[0][i - 1]) return false;
+        for(int i = 1; i < grid[0].size(); i++) {
+            if(grid[0][i - 1] == grid[0][i]) return false;
         }
-        for(int i = 1 ; i < m; i++) {
-            if(grid[i] != grid[i - 1]) return false;
+        for(int i = 1; i < grid.size(); i++) {
+            if(grid[i - 1] != grid[i]) return false;
         }
         return true;
     }

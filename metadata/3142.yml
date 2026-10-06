@@ -11,10 +11,9 @@ solutions:
   - 2d-array
   time: O(M*N)
   space: O(1)
-  familiarity: 再練習
-  note: '> **直接險檢查row之間是否相等**<br>
-
-    > **因為合法情況下row之間相等，所以檢查column只需要檢查row 0**<br>'
+  familiarity: 熟練
+  mastered_date: '2026-10-06'
+  note: '> **直接險檢查(1)row之間是否相等和(2)第0 row相鄰column不相等**<br>'
   attempts:
   - date: '2026-09-16'
     result: 對
@@ -22,3 +21,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-06'
+    result: 對
+    reason: null
