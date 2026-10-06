@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 Easy | Array, Brute Force | [C++](../problems/3969.md) | O(N²) | O(1) |  |
 
-## 🟠 再練習（9）
+## 🟠 再練習（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18,7 +18,6 @@
 | 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 Easy | Array, Circular Array | [C++](../problems/2855.md) | O(N) | O(1) | 2026-10-04 |
 | 3452 | [Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/) | 🟢 Easy | Array, Simulation | [C++](../problems/3452.md) | O(N) | O(1) | 2026-10-04 |
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 Easy | Array, Simulation, Brute Force | [C++](../problems/3477.md) | O(N^2) | O(1) | 2026-10-04 |
-| 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | Array | [C++](../problems/3978.md) | O(N) | O(1) | 2026-10-04 |
 
 ## 🟡 練習過（0）
 
@@ -32,7 +31,7 @@
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](../problems/0059.md) | O(N²) | O(1) | 2026-10-04 |
 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 Easy | Array, Brute Force | [C++](../problems/1995.md) | O(N⁴) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（13）
+## 🟢 熟悉（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,3 +48,4 @@
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 Easy | Array, Simulation | [C++](../problems/3069.md) | O(N) | O(N) | 2026-10-03 |
 | 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 Easy | Array, Brute Force | [C++](../problems/3162.md) | O(N\*M) | O(1) | 2026-09-24 |
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 Easy | Array | [C++](../problems/3289.md) | O(N^2) | O(1) | 2026-09-27 |
+| 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 Easy | Array | [C++](../problems/3978.md) | O(N) | O(1) | 2026-10-06 |
