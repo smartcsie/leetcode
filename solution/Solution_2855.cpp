@@ -23,7 +23,7 @@ public:
         int n = nums.size();
         int ans = 0;
         for (int i = 0; i < n; i++) {
-            if (nums[i % n] > nums[(i + 1) % n]) {
+            if (nums[i] > nums[(i + 1) % n]) {
                 ans = n - (i + 1);  // 降序點在 i，右移 n-(i+1) 次
                 count++;
             }
