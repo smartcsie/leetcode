@@ -692,6 +692,56 @@ def build_topic_index_page(problems, docs_dir):
     return total
 
 
+def build_pattern_page(pattern_dir, docs_dir):
+    """
+    自動產生 docs/pattern.md：
+    - 把 pattern/ 資料夾底下每一個檔案的內容，直接內嵌成同一頁的程式碼區塊
+      （不是連到 GitHub 的資料夾連結，而是跟 docs/problems/*.md 一樣，
+      直接把程式碼顯示在頁面上）
+    - pattern/ 裡的檔案不一定有 .cpp 副檔名（例如 LCS、prefixSum 這種
+      純函式片段），但內容都是 C++，所以語言固定用 cpp 顯示
+    - 依檔名字母順序排列，不分類、不分組——這裡存的是零散的演算法模板片段，
+      不是完整題解，用不到跟題目一樣的分類系統
+    - 這份頁面是自動產生的，不要直接編輯 docs/pattern.md 本身，
+      要改內容請改 pattern/ 底下對應的檔案，再重新執行這支腳本
+    """
+    if not os.path.isdir(pattern_dir):
+        return 0
+
+    filenames = sorted(
+        f for f in os.listdir(pattern_dir)
+        if not f.startswith('.') and os.path.isfile(os.path.join(pattern_dir, f))
+    )
+
+    lines = [
+        "# 🧩 演算法模板 Pattern",
+        "",
+        "常用演算法片段的模板庫，直接存在 `pattern/` 資料夾底下，",
+        "跟題解（`docs/problems/*.md`）不同，這裡只是零散的程式碼片段，",
+        "不是完整可編譯的題解，複習時方便直接複製貼上。",
+        "",
+        "---",
+        "",
+    ]
+
+    for fname in filenames:
+        fpath = os.path.join(pattern_dir, fname)
+        with open(fpath, encoding='utf-8', errors='replace') as f:
+            content = f.read()
+
+        lines.append(f"## {fname}")
+        lines.append('')
+        lines.append("```cpp")
+        lines.append(content.rstrip('\n'))
+        lines.append("```")
+        lines.append('')
+
+    with open(os.path.join(docs_dir, 'pattern.md'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines) + '\n')
+
+    return len(filenames)
+
+
 def main():
     if len(sys.argv) != 4:
         print("Usage: python3 generate_site.py <metadata_dir> <solution_dir> <docs_dir>")
@@ -730,6 +780,12 @@ def main():
     topic_index_count = build_topic_index_page(problems, docs_dir)
     print(f"主題索引: {topic_index_count} 筆代表題 -> docs/topic_index.md")
 
+    # pattern/ 資料夾固定在 repo 根目錄，跟 solution_dir 平行；這支腳本
+    # 本來就假設是在 repo 根目錄執行（meta_dir='metadata'、solution_dir='solution'
+    # 都是相對路徑），所以這裡直接用 'pattern' 這個相對路徑，不用再額外傳參數。
+    pattern_count = build_pattern_page('pattern', docs_dir)
+    print(f"演算法模板: {pattern_count} 個檔案 -> docs/pattern.md")
+
     # 分類顯示順序共用模組層級的 CATEGORY_ORDER（不再依賴 metadata 掃描
     # 順序，避免每次改資料 nav 順序就跟著亂跳）。沒列在這裡的分類（例如
     # 未來新增的 GROUPS 規則、或掉進 📄 Other 的）會被排在最後面。
@@ -751,6 +807,7 @@ def main():
     print("  - 首頁: index.md")
     print("  - 📝 複習清單: review.md")
     print("  - 👑 主題索引: topic_index.md")
+    print("  - 🧩 演算法模板: pattern.md")
     for group_title in sorted_groups:
         print(f"  - {group_title}:")
         for topic in nav_entries[group_title]:

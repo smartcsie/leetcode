@@ -47,6 +47,7 @@ nav:
   - 首頁: index.md
   - 📝 複習清單: review.md
   - 👑 主題索引: topic_index.md
+  - 🧩 演算法模板: pattern.md
   - 🔢 Math:
       - math-digit-decomposition: topics/math-digit-decomposition.md
       - math-palindrome: topics/math-palindrome.md
