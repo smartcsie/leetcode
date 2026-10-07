@@ -5,7 +5,7 @@ solutions:
 - file: Solution_0560.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
+  - Array Prefix Sum
   - Hash Table
   - Prefix Sum
   topics:
@@ -15,8 +15,12 @@ solutions:
   familiarity: 易忘
   related:
   - 930
-  tricks: null
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-07'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Prefix State & Difference

@@ -106,8 +106,8 @@
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/2843.md) | O(N\*D) | O(1) | 2026-09-16 |
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](problems/2894.md) | O(1) | O(1) | 2026-10-04 |
 | 3079 | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/3079.md) | O(N\*D) | O(D) | 2026-09-23 |
-| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math, Combinatorics | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-04 |
-| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math Combination | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-04 |
+| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math, Combinatorics | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-07 |
+| 3084 | 👑 **Direct Frequency Counting**<br>[Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math Combination | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-07 |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math Digit Decomposition | [C++](problems/3099.md) | O(logN) | O(1) | 2026-09-23 |
 | 3131 | 👑 **max_element**<br>[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 Easy | Math, Array | [C++](problems/3131.md) | O(N) | O(1) | 2026-09-20 |
 | 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](problems/3227.md) | O(N) | O(1) | 2026-10-04 |
@@ -324,7 +324,7 @@
 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array Negative Marking, Fast-Slow Pointers, Two Pointers | [C++](problems/0442.md) | O(N) | O(1) | 2026-10-04 |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Array Negative Marking | [C++](problems/0448.md) | O(N) | O(1) | 2026-10-04 |
 | 485 | 👑 **Linear Scan with Streak Reset**<br>[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array Continuous Counting | [C++](problems/0485.md) | O(N) | O(1) | 2026-09-16 |
-| 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) | 2026-10-04 |
+| 560 | 👑 **Prefix State & Difference**<br>[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array Prefix Sum, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) | 2026-10-07 |
 | 628 | 👑 **Array Min Max With Repeat**<br>[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array Min Max | [C++](problems/0628.md) | O(N) | O(1) | 2026-09-16 |
 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | Array Negative Marking, Hash Table | [C++](problems/0645.md) | O(N) | O(1) | 2026-10-04 |
 | 674 | 👑 **Longest Continuous Increasing Subsequence**<br>[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](problems/0674.md) | O(N) | O(1) | 2026-09-26 |
@@ -358,6 +358,7 @@
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 Easy | Array | [C++](problems/1470.md) | O(N) | O(N) | 2026-10-04 |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](problems/1480.md) | O(N) | O(1) | 2026-09-24 |
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 Easy | Array, Sorting, Math | [C++](problems/1491.md) | O(N) | O(1) | 2026-10-03 |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 Easy | Array Linear Scan | [C++](problems/1512.md) | O(N) | O(1) | 2026-10-07 |
 | 1513 | 👑 **Consecutive Count Contribution**<br>[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 Medium | Array Continuous Counting, String, Dynamic Programming | [C++](problems/1513.md) | O(N) | O(1) | 2026-10-02 |
 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) | 2026-10-04 |
 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 Easy | Array, Brute Force | [C++](problems/1534.md) | O(N³) | O(1) | 2026-09-17 |
@@ -499,14 +500,14 @@
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 Easy | Hash Table Mapping | [C++](problems/1436.md) | O(N) | O(N) | 2026-09-20 |
 | 1496 | 👑 **vector has no built-in hash, use set instead of unordered_set.**<br>[Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Table Uniqueness, Hash Set, Coordinates | [C++](problems/1496.md) | O(N) | O(N) | 2026-10-05 |
 | 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 Medium | Hash Table Counting, Hash Table, Remainder Counting | [C++](problems/1497.md) | O(N+K) | O(K) | 2026-10-07 |
-| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 Easy | Hash Table Counting, Hash Table, Math | [C++](problems/1512.md) | O(N) | O(N) | 2026-10-04 |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 Easy | Hash Table Counting, Hash Table, Math | [C++](problems/1512.md) | O(N) | O(N) | 2026-10-07 |
 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 Medium | Greedy, Hash Set | [C++](problems/1647.md) | O(N+KlogK) | O(K) | 2026-10-04 |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/1748.md) | O(N) | O(N) | 2026-09-16 |
 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 Easy | Hash Table Uniqueness, Simulation | [C++](problems/1790.md) | O(N) | O(1) | 2026-09-16 |
 | 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/1805.md) | O(N) | O(N) | 2026-10-05 |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/1897.md) | O(N\*M) | O(1) | 2026-09-16 |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Counting | [C++](problems/1941.md) | O(N) | O(1) | 2026-09-16 |
-| 2001 | 👑 **Hashmap Counting**<br>[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](problems/2001.md) | O(N) | O(N) | 2026-10-07 |
+| 2001 | 👑 **Mathematical Transformation**<br>[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](problems/2001.md) | O(N) | O(N) | 2026-10-07 |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/2053.md) | O(N) | O(N) | 2026-09-15 |
 | 2068 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 Easy | Hash Table Intersection, Hash Table, Counting | [C++](problems/2068.md) | O(N) | O(1) | 2026-09-20 |
 | 2085 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | 🟢 Easy | Hash Table Counting, Hash Map, Bitmask | [C++](problems/2085.md) | O(N+M) | O(N+M) | 2026-09-17 |
@@ -877,10 +878,10 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 215 | 👑 **Quick Select**<br>[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Quick Select | [C++](problems/0215.md) | O(N) | O(1) | 2026-09-14 |
+| 215 | 👑 **Quick Select**<br>[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Quick Select | [C++](problems/0215.md) | O(N) | O(1) | 2026-10-07 |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Quick Select, QuickSelect | [C++](problems/0973.md) | O(N) | O(1) | 2026-10-04 |
 | 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | Quick Select, Recursion, Collatz Conjecture, Quickselect | [C++](problems/1387.md) | O(N\*S) | O(N+S) | 2026-10-04 |
-| 1985 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Quick Select, Sorting, String | [C++](problems/1985.md) | O(N) | O(1) | 2026-10-04 |
+| 1985 | 👑 **nth_element lemma**<br>[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Quick Select | [C++](problems/1985.md) | O(N) | O(1) | 2026-10-07 |
 | 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 Easy | Quick Select, Math | [C++](problems/2733.md) | O(N) | O(1) | 2026-10-04 |
 
 ---

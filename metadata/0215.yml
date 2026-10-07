@@ -12,8 +12,18 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-14'
+  note: '> **[1985. Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)**<br>
+
+    > **1985是有重覆的key**<br>
+
+    > **本題沒有重覆的key**<br>'
+  related:
+  - 1985
   attempts:
   - date: '2026-09-14'
+    result: 對
+    reason: null
+  - date: '2026-10-07'
     result: 對
     reason: null
   is_representative: true
