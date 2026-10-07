@@ -11,8 +11,14 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-07'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-07'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Hashmap Counting
