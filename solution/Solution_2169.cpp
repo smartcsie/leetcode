@@ -22,20 +22,11 @@ class Solution {
 public:
     int countOperations(int num1, int num2) {
         int count = 0;
-        
-        // 當兩者皆不為 0 時持續迴圈
-        while (num1 != 0 && num2 != 0) {
-            if (num1 >= num2) {
-                // 連續減法的次數等於 num1 / num2，剩餘的值為 num1 % num2
-                count += num1 / num2;
-                num1 %= num2;
-            } else {
-                // 同理，若 num2 較大
-                count += num2 / num1;
-                num2 %= num1;
-            }
+        while(num1 && num2) {
+            if(num1 < num2) swap(num1, num2);
+            count += num1 / num2;
+            num1 %= num2;
         }
-        
         return count;
     }
 };
