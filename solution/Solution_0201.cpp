@@ -18,10 +18,12 @@
 class Solution {
 public:
     int rangeBitwiseAnd(int left, int right) {
-        // 透過不斷清除 right 最右邊的 1，直到 right 縮小至 [left, right] 的公共前綴
-        while (left < right) {
-            right &= (right - 1);
+        int shift = 0;
+        while(left != right) {
+            left >>= 1;
+            right >>= 1;
+            shift++;
         }
-        return right;
+        return left << shift;
     }
 };
