@@ -22,21 +22,18 @@
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        bitset<10> rows[9];
-        bitset<10> cols[9];
-        bitset<10> boxs[9];
+        vector<int> row(9, 0);
+        vector<int> col(9, 0);
+        vector<int> box(9, 0);
         for(int r = 0; r < 9; r++) {
             for(int c = 0; c < 9; c++) {
                 if(board[r][c] == '.') continue;
-
-                int num = board[r][c] - '0';
-
-                int b = (r/3)*3 + c/3;
-                if(rows[r].test(num) || cols[c].test(num) || boxs[b].test(num)) return false;
-
-                rows[r].set(num);
-                cols[c].set(num);
-                boxs[b].set(num);
+                int mask = 1 << (board[r][c] - '0');
+                int b = r / 3 * 3 + c / 3;
+                if((row[r] | col[c] | box[b]) & mask) return false;
+                row[r] |= mask ;
+                col[c] |= mask ;
+                box[b] |= mask ;
             }
         }
         return true;
