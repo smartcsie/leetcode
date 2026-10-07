@@ -10,7 +10,7 @@ solutions:
   - hash-table-existence
   time: O(NlogN)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 易忘
   note: '> 兩種做法<br>
 
     > 或是存數對的前面<br>
@@ -28,3 +28,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-07'
+    result: 對
+    reason: null
