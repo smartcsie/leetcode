@@ -11,8 +11,15 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-07'
+  note: '> **subtracts為需要減去多少次1，就是1的個數**<br>
+
+    > **divides為需要除多少次2才能變成1，就是要shift多少次才是1**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-07'
+    result: 對
+    reason: null
