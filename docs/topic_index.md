@@ -262,7 +262,7 @@
 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 Easy | Bit Manipulation Xor, Math, Combinatorics | [C++](problems/1863.md) | O(N) | O(1) | 2026-10-04 |
 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 Easy | Bit Manipulation, Bitset, Simulation | [C++](problems/1893.md) | O(N\*L) | O(1) | 2026-09-17 |
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [C++](problems/2032.md) | O(N1+N2+N3) | O(1) | 2026-09-17 |
-| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](problems/2133.md) | O(N²) | O(N) | 2026-10-04 |
+| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](problems/2133.md) | O(N²) | O(N) | 2026-10-07 |
 | 2206 | 👑 **Number Frequency is Even**<br>[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 Easy | Bit Manipulation, Hash Table, Counting | [C++](problems/2206.md) | O(N) | O(1) | 2026-10-07 |
 | 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) | 🟢 Easy | Bit Manipulation | [C++](problems/2220.md) | O(log(max(START,GOAL))) | O(1) | 2026-09-18 |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](problems/2235.md) | O(1) | O(1) | 2026-10-04 |
@@ -387,7 +387,7 @@
 | 2022 | 👑 **1D 2D transform**<br>[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | 2d Array | [C++](problems/2022.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 Easy | Array Linear Scan | [C++](problems/2057.md) | O(N) | O(1) | 2026-09-16 |
 | 2089 | 👑 **vector iota**<br>[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array Linear Scan, Counting | [C++](problems/2089.md) | O(N) | O(1) | 2026-09-15 |
-| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array Negative Marking | [C++](problems/2133.md) | O(N²) | O(1) | 2026-10-04 |
+| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array Negative Marking | [C++](problems/2133.md) | O(N²) | O(1) | 2026-10-07 |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | Array, Sorting | [C++](problems/2148.md) | O(N) | O(1) | 2026-09-17 |
 | 2176 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 Easy | Array Linear Scan | [C++](problems/2176.md) | O(N^2) | O(1) | 2026-09-17 |
 | 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 Easy | Array Continuous Counting | [C++](problems/2210.md) | O(N) | O(1) | 2026-10-04 |

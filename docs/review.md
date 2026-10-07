@@ -290,7 +290,7 @@
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit Manipulation, Bit-Manipulation | [C++](problems/0137.md) | O(N) | O(1) | 2026-10-04 |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](problems/0260.md) | O(N) | O(1) | 2026-10-04 |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](problems/0371.md) | O(1) | O(1) | 2026-10-04 |
-| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](problems/2133.md) | O(N²) | O(N) | 2026-10-04 |
+| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](problems/2133.md) | O(N²) | O(N) | 2026-10-07 |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](problems/2235.md) | O(1) | O(1) | 2026-10-04 |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation, Bitmask | [C++](problems/2605.md) | O(N+M) | O(1) | 2026-10-04 |
 | 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 Medium | Bit Manipulation Xor, Math | [C++](problems/2683.md) | O(N) | O(1) | 2026-10-04 |

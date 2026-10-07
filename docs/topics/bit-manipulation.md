@@ -11,7 +11,7 @@
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Bit Manipulation, Math | [C++](../problems/0089.md) | O(2ᴺ) | O(1) | 2026-10-04 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit Manipulation, Bit-Manipulation | [C++](../problems/0137.md) | O(N) | O(1) | 2026-10-04 |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](../problems/0371.md) | O(1) | O(1) | 2026-10-04 |
-| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](../problems/2133.md) | O(N²) | O(N) | 2026-10-04 |
+| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](../problems/2133.md) | O(N²) | O(N) | 2026-10-07 |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) | 2026-10-04 |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3827.md) | O(1) | O(1) | 2026-10-04 |
 

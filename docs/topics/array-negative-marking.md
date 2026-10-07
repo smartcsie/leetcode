@@ -23,7 +23,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | Array Negative Marking, Math | [C++](../problems/0041.md) | O(N) | O(1) | 2026-10-04 |
-| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array Negative Marking | [C++](../problems/2133.md) | O(N²) | O(1) | 2026-10-04 |
+| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array Negative Marking | [C++](../problems/2133.md) | O(N²) | O(1) | 2026-10-07 |
 
 ## 🟢 熟悉（0）
 
