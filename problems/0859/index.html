@@ -4959,10 +4959,11 @@
 
 <h1 id="859-buddy-strings">859. Buddy Strings<a class="headerlink" href="#859-buddy-strings" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/buddy-strings/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Hash Table Uniqueness, Hash Table, Two Pointers　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Hash Table Uniqueness, Hash Table, Two Pointers　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-10-07</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：859. Buddy Strings</span>
@@ -5009,11 +5010,12 @@
 <a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p>s 和 goal 長度不一樣，傳回false
-要完全交換正好一次<br>
-兩字串相等，s = "aa"，goal = "aa" 可以，aa交換<br>
-兩字串相等，s = "ab"，goal = "ab" 不可以，ab無法交換<br>
-兩字串不相等，檢查交換一次相異char，就可以相等</p>
+<p>** 此題一定要交換至少一次<strong>  <br>
+** s 和 goal 長度不一樣，傳回false</strong><br>
+** 兩字串相等，s = "aa"，goal = "aa" 可以，aa交換<strong> <br>
+** 字串相等有重覆char，合法</strong> <br>
+** 兩字串相等，s = "ab"，goal = "ab" 不可以，ab無法交換<strong> <br>
+** 兩字串不相等，檢查交換一次相異char，就可以相等</strong>  <br></p>
 </blockquote>
 <p><strong>相關題目:</strong> <a href="../1790/">1790</a></p>
 
