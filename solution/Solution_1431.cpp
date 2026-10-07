@@ -14,20 +14,13 @@
 class Solution {
 public:
     vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
-        // 找到目前的糖果最大值
-        int max_candies = *max_element(candies.begin(), candies.end());
-        
-        // 設定比較的門檻值
-        int threshold = max_candies - extraCandies;
-        
-        vector<bool> res;
-        res.reserve(candies.size()); // 預留空間優化
-        
-        for (int candy : candies) {
-            // 若該小孩原有的糖果大於等於門檻值，則加上額外糖果後必為最大
-            res.push_back(candy >= threshold);
+        int mx = *max_element(candies.begin(), candies.end());
+        int n = candies.size();
+        vector<bool> ans(n);
+        int mn = mx - extraCandies;
+        for(int i = 0;i < n ; i++) {
+            if(candies[i] >= mn) ans[i] = true;
         }
-        
-        return res;
+        return ans;
     }
 };
