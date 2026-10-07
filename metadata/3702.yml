@@ -5,13 +5,14 @@ solutions:
 - file: Solution_3702.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Xor
   - Greedy
   topics:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-07'
   note: '> **三種case**<br>
 
     > **case 1 : nums 全為 0，回傳 0**<br>
@@ -28,3 +29,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-07'
+    result: 對
+    reason: null
