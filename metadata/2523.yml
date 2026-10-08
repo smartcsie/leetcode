@@ -5,19 +5,24 @@ solutions:
 - file: Solution_2523.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
-  - Sieve
+  - Math Prime
   topics:
   - math-prime
   time: O(NloglogN)
   space: O(N)
-  familiarity: 再練習
-  note: '> 先用Sieve Algorithm 算出 1 ~ right<br>
+  familiarity: 熟練
+  mastered_date: '2026-10-08'
+  note: '> **先用Sieve Algorithm 算出 1 ~ right**<br>
 
-    > 初始化變數 vector<int> result = {-1, -1};  int prevPrime = -1; int minDiff = INT_MAX;<br>
+    > 初始化變數 vector<int> ans = {-1, -1};  int prev = -1; int mn = INT_MAX;<br>
 
-    > for loop i = left ~ right，更新prevPrime，更新diff最小，更新result<br>'
+    > for loop i = left ~ right，更新prev，更新mn，更新ans<br>'
+  tricks:
+  - Sieve
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-08'
+    result: 對
+    reason: null

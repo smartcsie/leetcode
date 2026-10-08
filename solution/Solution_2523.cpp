@@ -14,28 +14,29 @@
 class Solution {
 public:
     vector<int> closestPrimes(int left, int right) {
-        vector<bool> isPrime(right + 1, true);
+        vector<int> isPrime(right + 1, true);
         isPrime[0] = isPrime[1] = false;
-        for(int p = 2; p * p <= right; p++) {
+        for(int p = 2 ; p * p <= right; p++) {
             if(isPrime[p]) {
-                for(int i = p * p; i <= right; i += p) {
-                    isPrime[i] = false;
+                for(int i = p * p ; i <= right; i += p) {
+                    isPrime[i] = false; 
                 }
             }
         }
+        vector<int> ans(2, -1);
+        int mn = INT_MAX;
         int prev = -1;
-        vector<int> gap = {0, INT_MAX};
         for(int x = left; x <= right; x++) {
             if(isPrime[x]) {
                 if(prev != -1) {
-                    if((x - prev) < (gap[1] - gap[0])) {
-                        gap = {prev, x};
+                    if(x - prev < mn) {
+                        mn = x - prev;
+                        ans = {prev, x};
                     }
                 }
                 prev = x;
             }
         }
-        if(gap[1] != INT_MAX) return gap;
-        return { -1, -1};
+        return ans;
     }
 };
