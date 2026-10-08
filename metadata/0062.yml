@@ -6,8 +6,6 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Math Combination
-  - Combinatorics
-  - DP
   topics:
   - math-combination
   time: O(min(M,N))
@@ -18,9 +16,12 @@ solutions:
     > **總步數為 (m-1) + (n-1)，從中選取 m-1 步向下走**。<br>
 
     > **C(m + n - 2, m - 1)** <br>'
-  is_representative: true
-  representative_tag: DP on Grid
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-08'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: DP on Grid
