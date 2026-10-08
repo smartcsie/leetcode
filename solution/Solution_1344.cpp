@@ -10,12 +10,13 @@
  * 時間複雜度：O(1)
  * 空間複雜度：O(1)
  */
+
 class Solution {
 public:
     double angleClock(int hour, int minutes) {
-        double h = 30.0 * hour + minutes * 0.5;
-        double m = 6.0 * minutes;
+        double h = hour * 30.0 + minutes * 30.0 / 60.0;
+        double m = minutes * 6.0;
         double angle = abs(h - m);
-        return min(angle, 360.0 - angle);
+        return angle > 180.0 ? 360.0 - angle : angle;
     }
 };
