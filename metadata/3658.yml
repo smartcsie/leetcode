@@ -10,8 +10,9 @@ solutions:
   - math-gcd
   time: O(1)
   space: O(1)
-  familiarity: 再練習
-  note: '> odd sum = n²，even sum = n² + n，GCD(n² , n² + n) = n<br>'
+  familiarity: 熟練
+  mastered_date: '2026-10-08'
+  note: '> **odd sum = n²，even sum = n² + n，GCD(n² , n² + n) = n**<br>'
   attempts:
   - date: '2026-09-22'
     result: 對
@@ -22,3 +23,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-08'
+    result: 對
+    reason: null
