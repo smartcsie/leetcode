@@ -11,7 +11,8 @@ solutions:
   - math-permutation
   time: O(1)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-08'
   note: '> **[易忘記巧]next_permutation** <br>
 
     > **[易忘記巧]snprintf(buf, sizeof(buf), "%02d:%02d", max_time / 60, max_time % 60);
@@ -31,6 +32,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-08'
+    result: 對
+    reason: null
   - date: '2026-10-08'
     result: 對
     reason: null
