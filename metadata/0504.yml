@@ -11,12 +11,11 @@ solutions:
   - math-digit-decomposition
   time: O(log₇N)
   space: O(1)
-  familiarity: 再練習
-  note: '> [Base]
+  familiarity: 熟練
+  mastered_date: '2026-10-08'
+  note: '> **先用bool紀錄正負號，因為有正負號，while(n != 0)，餘數mod 7，如果為負乘上-1，＋''0''轉char push_back到string尾端，最後reverse**<br>
 
-    > 先用bool紀錄正負號，因為有正負號，while(n != 0)，餘數mod 7，如果為負乘上-1，＋''0''轉char push_back到string尾端，最後reverse<br>
-
-    > **[注意]取餘數時，處理負號，-(num % 7) + ''0'' : (num % 7) + ''0'';**'
+    > **[注意]取餘數時，處理負號，-(num % 7) + ''0'' : (num % 7) + ''0'';**<br>'
   related:
   - 1017
   - 1837
@@ -27,3 +26,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-08'
+    result: 對
+    reason: null
