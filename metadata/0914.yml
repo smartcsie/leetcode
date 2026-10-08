@@ -10,7 +10,8 @@ solutions:
   - math-gcd
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-08'
   note: '> **先用 unordered_map算 count**<br>
 
     > **把所有count做gcd**<br>'
@@ -24,3 +25,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-08'
+    result: 對
+    reason: null
