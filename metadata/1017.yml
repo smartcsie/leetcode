@@ -5,14 +5,15 @@ solutions:
 - file: Solution_1017.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Digit Decomposition
   - '504'
   - '1837'
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-08'
   note: '> [Base]
 
     > **[注意]和轉二進制一樣，差異再往右shift加負號，n  = -(n >> 1);**<br>
@@ -22,3 +23,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-08'
+    result: 對
+    reason: null
