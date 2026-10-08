@@ -16,9 +16,8 @@ class Solution {
 public:
     string convertToBase7(int num) {
         if(num == 0) return "0";
-        int x = num;
+        int x = abs(num);
         string ans;
-        if(x < 0) x = -x;
         while(x > 0) {
             ans.push_back((x % 7) + '0');
             x /= 7;
