@@ -10,9 +10,15 @@ solutions:
   - math-prime
   time: O(√N)
   space: O(1)
-  familiarity: 再練習
-  note: '> 一個整數若恰好有三個正因數，這個數字必然是一個「質數的平方」。<br>'
+  familiarity: 熟練
+  mastered_date: '2026-10-08'
+  note: '> **一個整數n若恰好有三個正因數，這個數字必然是一個「質數的平方」。**<br>
+
+    > **三個正因數為1 p n，p*p=n且p為prime**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-08'
+    result: 對
+    reason: null

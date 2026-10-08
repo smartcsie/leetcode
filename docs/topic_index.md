@@ -76,7 +76,7 @@
 | 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](problems/1880.md) | O(N) | O(1) | 2026-09-17 |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math, Brute Force | [C++](problems/1925.md) | O(N²) | O(1) | 2026-10-04 |
 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](problems/1927.md) | O(N) | O(1) | 2026-10-04 |
-| 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math Prime | [C++](problems/1952.md) | O(√N) | O(1) | 2026-10-04 |
+| 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math Prime | [C++](problems/1952.md) | O(√N) | O(1) | 2026-10-08 |
 | 1979 | 👑 **GCD**<br>[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | Math Gcd, GCD | [C++](problems/1979.md) | O(N) | O(1) | 2026-09-14 |
 | 1980 | 👑 **Cantor's Diagonal Argument**<br>[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math, String | [C++](problems/1980.md) | O(N²) | O(N) | 2026-09-20 |
 | 2063 | [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) | 🟡 Medium | Math, Contribution Technique | [C++](problems/2063.md) | O(N) | O(1) | 2026-10-04 |
