@@ -4,20 +4,19 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math Factor Enumeration | [C++](../problems/0507.md) | O(√N) | O(1) | 2026-10-04 |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（0）
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（2）
+## 🟣 易忘（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math Factor Enumeration | [C++](../problems/0507.md) | O(√N) | O(1) | 2026-10-08 |
 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | Math Factor Enumeration | [C++](../problems/1492.md) | O(√N) | O(1) | 2026-10-04 |
 | 2507 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 Medium | Math Factor Enumeration, Prime Factorization | [C++](../problems/2507.md) | O(logN\*sqrt(N)) | O(1) | 2026-10-04 |
 

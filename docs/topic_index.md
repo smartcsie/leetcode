@@ -41,8 +41,8 @@
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | Math, String | [C++](problems/0415.md) | O(max(N,M)) | O(max(N,M)) | 2026-09-22 |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) | 2026-10-04 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math Digit Decomposition, String | [C++](problems/0504.md) | O(log₇N) | O(1) | 2026-10-08 |
-| 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math Factor Enumeration | [C++](problems/0507.md) | O(√N) | O(1) | 2026-10-04 |
-| 507 | 👑 **Mersenne Prime**<br>[Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](problems/0507.md) | O(1) | O(1) | 2026-10-04 |
+| 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math Factor Enumeration | [C++](problems/0507.md) | O(√N) | O(1) | 2026-10-08 |
+| 507 | 👑 **Mersenne Prime**<br>[Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](problems/0507.md) | O(1) | O(1) | 2026-10-08 |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/0728.md) | O(N\*D) | O(1) | 2026-10-04 |
 | 762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Math Prime | [C++](problems/0762.md) | O(NlogK) | O(1) | 2026-09-22 |
 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | Math Game Theory, Game Theory | [C++](problems/0810.md) | O(N) | O(1) | 2026-10-04 |
