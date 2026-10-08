@@ -13,19 +13,15 @@
 
 class Solution {
 public:
-    std::string largestTimeFromDigits(std::vector<int>& arr) {
+    string largestTimeFromDigits(vector<int>& arr) {
         sort(arr.begin(), arr.end());
-        int maxTime = -1;
+        int mx = -1;
         do {
             int h = arr[0] * 10 + arr[1];
             int m = arr[2] * 10 + arr[3];
-            if(h < 24 && m < 60) {
-                maxTime = max(maxTime, h * 60 + m);
-            }
+            if(h < 24 && m < 60) mx = max(mx, h * 100 + m);
         } while(next_permutation(arr.begin(), arr.end()));
-        if(maxTime == -1) return "";
-        char buf[6];
-        snprintf(buf, sizeof(buf), "%02d:%02d", maxTime / 60, maxTime % 60);
-        return string(buf);
+        if(mx == -1) return "";
+        return format("{:02d}:{:02d}", mx / 100, mx % 100);
     }
 };
