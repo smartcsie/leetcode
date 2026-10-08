@@ -5,16 +5,20 @@ solutions:
 - file: Solution_0172.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
+  - Math Factor Enumeration
   topics:
-  - math
+  - math-factor-enumeration
   time: O(log₅N)
   space: O(1)
-  familiarity: 再練習
-  note: '> [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes)<br>
+  familiarity: 熟練
+  mastered_date: '2026-10-08'
+  note: '> **勒讓德定理 (Legendre''s Formula)**<br>
 
-    > **勒讓德定理 (Legendre''s Formula)<br>'
+    > **在n!的所有因數中，總共有幾個質因數5**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-08'
+    result: 對
+    reason: null
