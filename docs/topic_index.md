@@ -71,7 +71,7 @@
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 Easy | Math | [C++](problems/1523.md) | O(1) | O(1) | 2026-10-08 |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Math Combination, Math (Contribution) | [C++](problems/1588.md) | O(N) | O(1) | 2026-10-04 |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 Easy | Math Digit Decomposition, Simulation, Hash Table | [C++](problems/1742.md) | O(N\*D) | O(1) | 2026-09-16 |
-| 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | Math, Base-3 | [C++](problems/1780.md) | O(log₃N) | O(1) | 2026-10-04 |
+| 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | Math | [C++](problems/1780.md) | O(log₃N) | O(1) | 2026-10-08 |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math Digit Decomposition | [C++](problems/1837.md) | O(logₖN) | O(1) | 2026-09-17 |
 | 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](problems/1880.md) | O(N) | O(1) | 2026-09-17 |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math, Brute Force | [C++](problems/1925.md) | O(N²) | O(1) | 2026-10-04 |
