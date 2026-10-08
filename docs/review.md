@@ -1,11 +1,11 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（107）](#review-lianxiguo)　[🟠 再練習清單（168）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（107）](#review-lianxiguo)　[🟠 再練習清單（167）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 981 題　🔴 生疏：221 題　🟠 再練習：161 題　🟡 練習過：95 題　🟣 易忘：120 題　🟢 熟練：384 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 981 題　🔴 生疏：221 題　🟠 再練習：160 題　🟡 練習過：95 題　🟣 易忘：120 題　🟢 熟練：385 題　⚪ 未標記：0 題
 
 ---
 
@@ -218,9 +218,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 168 個解法標記為再練習，需要加強熟練度。
+目前共有 167 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（22）](#zailianxi-math)　[📊 Bit Manipulation（10）](#zailianxi-bit-manipulation)　[🔗 String（14）](#zailianxi-string)　[🍱 Array（26）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（16）](#zailianxi-pointers)　[🔑 Hash Table（17）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（21）](#zailianxi-math)　[📊 Bit Manipulation（10）](#zailianxi-bit-manipulation)　[🔗 String（14）](#zailianxi-string)　[🍱 Array（26）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（16）](#zailianxi-pointers)　[🔑 Hash Table（17）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（6）
@@ -235,7 +235,7 @@
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Design, Hash Table | [C++](problems/0706.md) | O(N/K) | O(M+K) | 2026-10-04 |
 
 <a id="zailianxi-math"></a>
-#### 🔢 Math（22）
+#### 🔢 Math（21）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -246,7 +246,6 @@
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](problems/0137.md) | O(N) | O(N) | 2026-10-04 |
 | 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 Medium | Math, GCD, Bézout's Identity | [C++](problems/0365.md) | O(log(min(x,y))) | O(1) | 2026-10-04 |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math Digit Decomposition, Bit Manipulation | [C++](problems/0405.md) | O(1) | O(1) | 2026-10-04 |
-| 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | 🟡 Medium | Math Geometry, Geometry | [C++](problems/0836.md) | O(1) | O(1) | 2026-10-04 |
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime, Prime, Palindrome Construction | [C++](problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-10-04 |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math, Brute Force | [C++](problems/1925.md) | O(N²) | O(1) | 2026-10-04 |
 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](problems/1927.md) | O(N) | O(1) | 2026-10-04 |
@@ -895,7 +894,7 @@
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 0 | 0 | 3 | 3 | 0 | 6 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 1 | 0 | 5 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 0 | 2 | 0 | 0 | 6 | 0 | 8 |
-| [math-geometry](topics/math-geometry.md) | 0 | 1 | 1 | 0 | 2 | 0 | 4 |
+| [math-geometry](topics/math-geometry.md) | 0 | 0 | 1 | 0 | 3 | 0 | 4 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 0 | 0 | 1 | 0 | 1 | 0 | 2 |
 | [math-prime](topics/math-prime.md) | 0 | 5 | 1 | 2 | 6 | 0 | 14 |

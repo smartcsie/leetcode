@@ -11,7 +11,8 @@ solutions:
   - math-geometry
   time: O(1)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-08'
   note: '> **所有左邊(left)小於右邊(right)且下面(bottom)小於上面(top)**<br>'
   is_best: true
   attempts:
@@ -21,3 +22,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-08'
+    result: 對
+    reason: null
