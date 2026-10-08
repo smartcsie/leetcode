@@ -4,14 +4,13 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（9）
+## 🟠 再練習（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](../problems/0066.md) | O(N) | O(1) | 2026-10-04 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](../problems/0137.md) | O(N) | O(N) | 2026-10-04 |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | Modular Arithmetic | [C++](../problems/1015.md) | O(K) | O(1) | 2026-10-04 |
-| 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 Easy | Math, Construction | [C++](../problems/1374.md) | O(N) | O(N) | 2026-10-04 |
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 Easy | Math | [C++](../problems/1523.md) | O(1) | O(1) | 2026-10-04 |
 | 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | Math, Base-3 | [C++](../problems/1780.md) | O(log₃N) | O(1) | 2026-10-04 |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math, Brute Force | [C++](../problems/1925.md) | O(N²) | O(1) | 2026-10-04 |
@@ -41,7 +40,7 @@
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](../problems/2894.md) | O(1) | O(1) | 2026-10-04 |
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math, Combinatorics | [C++](../problems/3084.md) | O(N) | O(1) | 2026-10-07 |
 
-## 🟢 熟悉（19）
+## 🟢 熟悉（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -58,6 +57,7 @@
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math | [C++](../problems/1018.md) | O(N) | O(1) | 2026-10-08 |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Math | [C++](../problems/1295.md) | O(N) | O(1) | 2026-09-20 |
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](../problems/1344.md) | O(1) | O(1) | 2026-10-08 |
+| 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 Easy | Math, Construction | [C++](../problems/1374.md) | O(N) | O(N) | 2026-10-08 |
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math, String | [C++](../problems/1980.md) | O(N²) | O(N) | 2026-09-20 |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](../problems/2177.md) | O(1) | O(1) | 2026-09-20 |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | Math, Array | [C++](../problems/2455.md) | O(N) | O(1) | 2026-09-16 |
