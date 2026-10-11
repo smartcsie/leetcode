@@ -6,14 +6,18 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Mapping
-  - Hash Map
-  - Difference Array
   topics:
   - hash-table-mapping
-  time: O(N*M)
-  space: O(N*M)
-  familiarity: 再練習
+  time: O(N * L)
+  space: O(N * L)
+  familiarity: 熟練
+  mastered_date: '2026-10-11'
+  tricks:
+  - Difference Array
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-11'
+    result: 對
+    reason: null
