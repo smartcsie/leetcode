@@ -12,15 +12,19 @@
  * 3. 比較兩者數量是否相等。
  */
 
+
 class Solution {
+private:
+    bool isVowel(char c) {
+        return (0x104111 >> ((c | 32) - 'a')) & 1;
+    }
 public:
-    bool halvesAreAlike(std::string s) {
+    bool halvesAreAlike(string s) {
         int count = 0;
-        for(int i = 0; i < s.size() / 2; i++) {
-            char c1 = s[i] | 32;
-            char c2 = s[s.size() - 1 - i] | 32;
-            if((0x104111 >> (c1 - 'a')) & 1) count++;
-            if((0x104111 >> (c2 - 'a')) & 1) count--;
+        int half = s.size() / 2;
+        for(int i = 0; i < half; i++) {
+            if(isVowel(s[i])) count++;
+            if(isVowel(s[half + i])) count--;
         }
         return count == 0;
     }
