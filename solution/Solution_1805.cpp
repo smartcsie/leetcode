@@ -14,30 +14,23 @@
  */
 
 class Solution {
+private:
+    string removeLeadingZero(string & s) {
+        int firstNonZero = s.find_first_not_of('0');
+        return (firstNonZero == string::npos) ? "0" : s.substr(firstNonZero);
+    }
 public:
     int numDifferentIntegers(string word) {
-        unordered_set<string> seen;
-        int n = word.size();
-        int i = 0;
-        while (i < n) {
-            // 1. 如果不是數字，跳過
-            if (!isdigit(word[i])) {
-                i++;
-                continue;
+        unordered_set<string> uniqueSet;
+        string cur;
+        for(const char& c : word) {
+            if(isdigit(c)) cur.push_back(c);
+            else if(!cur.empty()) {
+                uniqueSet.insert(removeLeadingZero(cur));
+                cur.clear();
             }
-            // 2. 找到一個數字區段的起點
-            int start = i;
-            while (i < n && isdigit(word[i])) {
-                i++;
-            }
-            // 3. 處理前導零（保留至少一個 '0'，例如 "000" -> "0"）
-            int l = start;
-            while (l < i - 1 && word[l] == '0') {
-                l++;
-            }
-            // 4. 放入 set 中
-            seen.insert(word.substr(l, i - l));
         }
-        return static_cast<int>(seen.size());
+        if(!cur.empty()) uniqueSet.insert(removeLeadingZero(cur));
+        return uniqueSet.size();
     }
 };
