@@ -4,12 +4,11 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（5）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](../problems/1957.md) | O(N) | O(N) | 2026-10-04 |
-| 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 Easy | Array, String, Simulation | [C++](../problems/2496.md) | O(N\*L) | O(1) | 2026-10-04 |
 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 Easy | String Character Classification | [C++](../problems/2839.md) | O(1) | O(1) | 2026-10-04 |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | 2026-10-04 |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | 2026-10-04 |
@@ -22,7 +21,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（26）
+## 🟢 熟悉（27）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -43,6 +42,7 @@
 | 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | String Character Classification, Counting | [C++](../problems/2278.md) | O(N) | O(1) | 2026-09-20 |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | String Character Classification, Hash Table, Array | [C++](../problems/2399.md) | O(N) | O(1) | 2026-09-20 |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String Character Classification | [C++](../problems/2490.md) | O(N) | O(1) | 2026-09-21 |
+| 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 Easy | String Character Classification, String, Simulation | [C++](../problems/2496.md) | O(N\*L) | O(1) | 2026-10-11 |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | String Character Classification | [C++](../problems/2586.md) | O(N) | O(1) | 2026-09-20 |
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String Character Classification | [C++](../problems/2678.md) | O(N) | O(1) | 2026-09-20 |
 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String Character Classification | [C++](../problems/2710.md) | O(N) | O(1) | 2026-09-21 |

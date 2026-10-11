@@ -188,7 +188,7 @@
 | 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 Easy | String Character Classification, Counting | [C++](problems/2278.md) | O(N) | O(1) | 2026-09-20 |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 Easy | String Character Classification, Hash Table, Array | [C++](problems/2399.md) | O(N) | O(1) | 2026-09-20 |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 Easy | String Character Classification | [C++](problems/2490.md) | O(N) | O(1) | 2026-09-21 |
-| 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 Easy | Array, String, Simulation | [C++](problems/2496.md) | O(N\*L) | O(1) | 2026-10-04 |
+| 2496 | 👑 **any_of**<br>[Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 Easy | String Character Classification, String, Simulation | [C++](problems/2496.md) | O(N\*L) | O(1) | 2026-10-11 |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 Easy | String Character Classification | [C++](problems/2586.md) | O(N) | O(1) | 2026-09-20 |
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 Easy | String Character Classification | [C++](problems/2678.md) | O(N) | O(1) | 2026-09-20 |
 | 2710 | 👑 **Remove Trailing**<br>[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String Character Classification | [C++](problems/2710.md) | O(N) | O(1) | 2026-09-21 |
