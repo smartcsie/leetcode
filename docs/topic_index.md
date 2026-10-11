@@ -303,7 +303,7 @@
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) | 2026-10-04 |
 | 3688 | [Bitwise OR of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/) | 🟢 Easy | Bit Manipulation Or | [C++](problems/3688.md) | O(N) | O(1) | 2026-09-19 |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 Medium | Bit Manipulation Xor, Greedy | [C++](problems/3702.md) | O(N) | O(1) | 2026-10-07 |
-| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](problems/3827.md) | O(1) | O(1) | 2026-10-04 |
+| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](problems/3827.md) | O(1) | O(1) | 2026-10-11 |
 
 ---
 

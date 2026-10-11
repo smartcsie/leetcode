@@ -10,7 +10,8 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-11'
   note: '> **0->1，1->2，2->2，3->3...，6->3，7->4，**等於算(n+1)的bit數目**<br>
 
     > **return bit_width(static_cast<uint32_t>(n + 1));** <br>
@@ -26,3 +27,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-11'
+    result: 對
+    reason: null

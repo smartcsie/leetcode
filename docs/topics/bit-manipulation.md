@@ -4,7 +4,7 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（6）
+## 🟠 再練習（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13,7 +13,6 @@
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](../problems/0371.md) | O(1) | O(1) | 2026-10-04 |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](../problems/2133.md) | O(N²) | O(N) | 2026-10-07 |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) | 2026-10-04 |
-| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3827.md) | O(1) | O(1) | 2026-10-04 |
 
 ## 🟡 練習過（1）
 
@@ -39,7 +38,7 @@
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) | 2026-10-04 |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（24）
+## 🟢 熟悉（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -67,3 +66,4 @@
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 Easy | Bit Manipulation, Bit Manipulation | [C++](../problems/3151.md) | O(N) | O(1) | 2026-09-17 |
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 Easy | Bit Manipulation, Math, String | [C++](../problems/3274.md) | O(1) | O(1) | 2026-09-17 |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3370.md) | O(logN) | O(1) | 2026-09-22 |
+| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 Easy | Bit Manipulation | [C++](../problems/3827.md) | O(1) | O(1) | 2026-10-11 |
