@@ -11,7 +11,8 @@ solutions:
   - string
   time: O(N+K*log(SUM))
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-11'
   note: '> charSum已經做 Transform #1 <br>
 
     > for (int i = 1; i < k; i++) <br>'
@@ -19,3 +20,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-11'
+    result: 對
+    reason: null
