@@ -14,6 +14,8 @@ solutions:
   space: O(N)
   familiarity: 熟練
   mastered_date: '2026-10-12'
+  related:
+  - 2001
   tricks:
   - direct frequency counting
   attempts:
@@ -21,6 +23,9 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
     result: 對
     reason: null
   - date: '2026-10-12'
@@ -40,6 +45,9 @@ solutions:
   mastered_date: '2026-10-12'
   attempts:
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
     result: 對
     reason: null
   - date: '2026-10-12'
