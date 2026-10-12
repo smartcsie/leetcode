@@ -12,7 +12,8 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-12'
   tricks:
   - direct frequency counting
   attempts:
@@ -22,6 +23,11 @@ solutions:
   - date: '2026-10-07'
     result: 對
     reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Combination C(n,2)
 - file: Solution_1512_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -30,8 +36,12 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-12'
   attempts:
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
     result: 對
     reason: null

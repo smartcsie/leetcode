@@ -13,6 +13,10 @@ solutions:
   space: O(N)
   familiarity: 熟練
   mastered_date: '2026-10-07'
+  note: '> **C(n,2)**<br>'
+  tricks:
+  - Combination C(n
+  - 2)
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -24,6 +28,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
     result: 對
     reason: null
   is_representative: true
