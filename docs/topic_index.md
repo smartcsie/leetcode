@@ -107,8 +107,8 @@
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/2843.md) | O(N\*D) | O(1) | 2026-09-16 |
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](problems/2894.md) | O(1) | O(1) | 2026-10-04 |
 | 3079 | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/3079.md) | O(N\*D) | O(D) | 2026-09-23 |
-| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math, Combinatorics | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-07 |
-| 3084 | 👑 **Direct Frequency Counting**<br>[Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math Combination | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-07 |
+| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-12 |
+| 3084 | 👑 **Direct Frequency Counting**<br>[Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math Combination | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-12 |
 | 3099 | [Harshad Number](https://leetcode.com/problems/harshad-number/) | 🟢 Easy | Math Digit Decomposition | [C++](problems/3099.md) | O(logN) | O(1) | 2026-09-23 |
 | 3131 | 👑 **max_element**<br>[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 Easy | Math, Array | [C++](problems/3131.md) | O(N) | O(1) | 2026-09-20 |
 | 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](problems/3227.md) | O(N) | O(1) | 2026-10-04 |

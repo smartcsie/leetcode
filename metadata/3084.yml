@@ -6,14 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math
-  - Combinatorics
   topics:
   - math
   time: O(N)
   space: O(1)
   familiarity: 易忘
   related:
-  - 1513
+  - 1512
   tricks:
   - consecutive count contribution
   attempts:
@@ -32,6 +31,9 @@ solutions:
   - date: '2026-10-07'
     result: 對
     reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
 - file: Solution_3084_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -43,6 +45,9 @@ solutions:
   familiarity: 再練習
   related:
   - 1513
+  tricks:
+  - Combination C(n
+  - 2)
   attempts:
   - date: '2026-10-02'
     result: 對
@@ -57,6 +62,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
     result: 對
     reason: null
   is_representative: true
