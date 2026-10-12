@@ -6,14 +6,20 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Counting
-  - Hash Map
   topics:
   - hash-table-counting
   time: O(N)
   space: O(1)
-  familiarity: 再練習
-  note: '> 用 max even frequency 減去 min even frequency'
+  familiarity: 熟練
+  mastered_date: '2026-10-12'
+  note: '> **用 max even frequency 減去 min even frequency**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
