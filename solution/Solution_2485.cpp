@@ -16,14 +16,8 @@
 class Solution {
 public:
     int pivotInteger(int n) {
-        // 1 到 n 的總和公式: n * (n + 1) / 2
-        int totalSum = n * (n + 1) / 2;
-        
-        // 取總和的平方根，轉為整數
-        int x = static_cast<int>(std::sqrt(totalSum));
-        
-        // 檢查 x 是否為完全平方根，若是則 x 即為樞紐整數
-        // 否則表示不存在滿足條件的整數，回傳 -1
-        return (x * x == totalSum) ? x : -1;
+        int sum = (1 + n) * n / 2;
+        int x = sqrt(sum);
+        return (x * x == sum) ? x : -1;
     }
 };
