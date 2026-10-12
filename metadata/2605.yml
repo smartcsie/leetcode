@@ -5,13 +5,13 @@ solutions:
 - file: Solution_2605.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Mask
   - Bitmask
   topics:
   - bit-manipulation-mask
   time: O(N+M)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 易忘
   note: '> [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)
     <br>
 
@@ -54,6 +54,17 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: __builtin_ctz
 - file: Solution_2605_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -70,12 +81,21 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
 - file: Solution_2605_2.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Bit Manipulation Mask
   topics:
-  - bit-manipulation
+  - bit-manipulation-mask
   time: O(1)
   space: O(1)
   familiarity: 熟練
@@ -86,15 +106,25 @@ solutions:
   - date: '2026-09-17'
     result: 對
     reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
 - file: Solution_2605_3.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table Intersection
+  - Bit Manipulation Mask
   topics:
-  - hash-table-intersection
+  - bit-manipulation-mask
   time: O(N+M)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-12'
   attempts:
   - date: '2026-09-17'
     result: 對
@@ -102,3 +132,12 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-10-12'
+    result: 對
+    reason: null

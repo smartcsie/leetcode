@@ -276,8 +276,9 @@
 | 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 Medium | Bit Manipulation, Greedy | [C++](problems/2429.md) | O(1) | O(1) | 2026-09-18 |
 | 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 Medium | Bit Manipulation Xor, Prefix XOR Inverse | [C++](problems/2433.md) | O(N) | O(N) | 2026-09-18 |
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation And | [C++](problems/2595.md) | O(logN) | O(1) | 2026-09-19 |
-| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation, Bitmask | [C++](problems/2605.md) | O(N+M) | O(1) | 2026-10-04 |
-| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation | [C++](problems/2605.md) | O(1) | O(1) | 2026-09-17 |
+| 2605 | 👑 **__builtin_ctz**<br>[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation Mask, Bitmask | [C++](problems/2605.md) | O(N+M) | O(1) | 2026-10-12 |
+| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation Mask | [C++](problems/2605.md) | O(1) | O(1) | 2026-10-12 |
+| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation Mask | [C++](problems/2605.md) | O(N+M) | O(1) | 2026-10-12 |
 | 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 Medium | Bit Manipulation Xor, Math | [C++](problems/2683.md) | O(N) | O(1) | 2026-10-04 |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Bit Manipulation, Hash Set | [C++](problems/2716.md) | O(N) | O(1) | 2026-09-17 |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Bit Manipulation | [C++](problems/2716.md) | O(N) | O(1) | 2026-09-17 |
@@ -528,8 +529,7 @@
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](problems/2441.md) | O(N) | O(N) | 2026-09-16 |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 Medium | Hash Table Uniqueness, Hash Table, Math, Bitset | [C++](problems/2442.md) | O(N\*D) | O(M) | 2026-09-29 |
 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 Easy | Hash Table Mapping | [C++](problems/2451.md) | O(N \* L) | O(N \* L) | 2026-10-11 |
-| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Intersection | [C++](problems/2605.md) | O(NM) | O(1) | 2026-10-04 |
-| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Intersection | [C++](problems/2605.md) | O(N+M) | O(1) | 2026-10-04 |
+| 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Intersection | [C++](problems/2605.md) | O(NM) | O(1) | 2026-10-12 |
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/2784.md) | O(N) | O(N) | 2026-10-12 |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 Easy | Hash Table Existence, Hashing | [C++](problems/2965.md) | O(N²) | O(N²) | 2026-09-15 |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](problems/3005.md) | O(N) | O(1) | 2026-09-15 |

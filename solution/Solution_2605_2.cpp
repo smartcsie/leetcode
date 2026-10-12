@@ -35,16 +35,15 @@
 class Solution {
 public:
     int minNumber(vector<int>& nums1, vector<int>& nums2) {
-        bitset<10> seen1;
-        bitset<10> seen2;
-        for(const int& x : nums1) seen1.set(x);
-        for(const int& x : nums2) seen2.set(x);
-        vector<int> mn(2, -1);
+        bitset<10> bits1, bits2;
+        for(const int& x : nums1) bits1.set(x);
+        for(const int& x : nums2) bits2.set(x);
+        int mn1 = 10, mn2= 10;
         for(int i = 1; i <= 9; i++) {
-            if(seen1.test(i) && seen2.test(i)) return i;
-            if(seen1.test(i) && mn[0] == -1) mn[0]= i;
-            if(seen2.test(i) && mn[1] == -1) mn[1]= i;
+            if(bits1.test(i) && bits2.test(i)) return i;
+            if(mn1 == 10 && bits1.test(i)) mn1 = i;
+            if(mn2 == 10 && bits2.test(i)) mn2 = i;
         }
-        return mn[0] < mn[1] ? 10 * mn[0] + mn[1] :  10 * mn[1] + mn[0];
+        return min(mn1 * 10 + mn2, mn2 * 10 + mn1);
     }
 };
