@@ -14,12 +14,16 @@
 class Solution {
 public:
     int smallestAbsent(vector<int>& nums) {
+        array<bool, 102> seen = {};
         int n = nums.size();
-        unordered_set sets(nums.begin(), nums.end());
-        int sum  = accumulate(nums.begin(), nums.end(), 0) ;
+        int sum = 0;
+        for(const int& x : nums) {
+            sum += x;
+            if(x > 0) seen[x] = true;
+        }
         int avg = sum <= 0 ? 1 : sum / n + 1;
-        for(int x = avg ; ; x++) {
-            if(!sets.contains(x)) return x;
+        for(int i = avg; ; i++) {
+            if(!seen[i]) return i;
         }
         return -1;
     }

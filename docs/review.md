@@ -1,11 +1,11 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（106）](#review-lianxiguo)　[🟠 再練習清單（149）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（106）](#review-lianxiguo)　[🟠 再練習清單（148）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 981 題　🔴 生疏：221 題　🟠 再練習：142 題　🟡 練習過：95 題　🟣 易忘：120 題　🟢 熟練：403 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 981 題　🔴 生疏：221 題　🟠 再練習：141 題　🟡 練習過：95 題　🟣 易忘：120 題　🟢 熟練：404 題　⚪ 未標記：0 題
 
 ---
 
@@ -217,9 +217,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 149 個解法標記為再練習，需要加強熟練度。
+目前共有 148 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（18）](#zailianxi-math)　[📊 Bit Manipulation（9）](#zailianxi-bit-manipulation)　[🔗 String（10）](#zailianxi-string)　[🍱 Array（25）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（15）](#zailianxi-pointers)　[🔑 Hash Table（9）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（18）](#zailianxi-math)　[📊 Bit Manipulation（9）](#zailianxi-bit-manipulation)　[🔗 String（10）](#zailianxi-string)　[🍱 Array（25）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（15）](#zailianxi-pointers)　[🔑 Hash Table（8）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（6）
@@ -376,7 +376,7 @@
 | 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two-Pointer | [C++](problems/3823.md) | O(N) | O(1) | 2026-10-04 |
 
 <a id="zailianxi-hash-table"></a>
-#### 🔑 Hash Table（9）
+#### 🔑 Hash Table（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -388,7 +388,6 @@
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Hash Table Intersection | [C++](problems/2605.md) | O(N+M) | O(1) | 2026-10-04 |
 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 Easy | Hash Table Counting, Hash Map | [C++](problems/3438.md) | O(N) | O(1) | 2026-10-04 |
 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 Easy | Hash Table Uniqueness, Brute Force | [C++](problems/3483.md) | O(N³) | O(U) | 2026-10-04 |
-| 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 Easy | Hash Table Existence, Hash Set | [C++](problems/3678.md) | O(N) | O(N) | 2026-10-04 |
 
 <a id="zailianxi-stack"></a>
 #### 📚 Stack（5）
@@ -863,7 +862,7 @@
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 2 | 0 | 1 | 1 | 0 | 0 | 4 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 0 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 3 | 2 | 0 | 0 | 20 | 0 | 25 |
-| [hash-table-existence](topics/hash-table-existence.md) | 2 | 3 | 2 | 2 | 10 | 0 | 19 |
+| [hash-table-existence](topics/hash-table-existence.md) | 2 | 2 | 2 | 2 | 11 | 0 | 19 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 1 | 1 | 0 | 11 | 0 | 13 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 0 | 0 | 0 | 9 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 3 | 0 | 1 | 14 | 0 | 20 |
