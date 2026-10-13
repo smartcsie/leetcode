@@ -6,11 +6,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 Easy | Two Pointers | [C++](../problems/2562.md) | O(N\*D) | O(1) |  |
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | 🟢 Easy | Two Pointers Opposite | [C++](../problems/1332.md) | O(N) | O(1) | 2026-10-04 |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（2）
 
@@ -28,7 +26,7 @@
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/0018.md) | O(N³) | O(1) | 2026-10-04 |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0680.md) | O(N) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -37,6 +35,7 @@
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/0633.md) | O(√C) | O(1) | 2026-10-13 |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0941.md) | O(N) | O(1) | 2026-10-13 |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0942.md) | O(N) | O(N) | 2026-10-13 |
+| 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | 🟢 Easy | Two Pointers Opposite | [C++](../problems/1332.md) | O(N) | O(1) | 2026-10-13 |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/1750.md) | O(N) | O(1) | 2026-10-13 |
 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/2108.md) | O(N\*L) | O(1) | 2026-09-29 |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | Two Pointers Opposite, Two-Pointers | [C++](../problems/3884.md) | O(N) | O(1) | 2026-09-21 |
