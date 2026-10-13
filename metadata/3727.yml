@@ -1,0 +1,22 @@
+number: 3727
+title: Maximum Alternating Sum of Squares
+url: https://leetcode.com/problems/maximum-alternating-sum-of-squares/
+solutions:
+- file: Solution_3727.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Greedy Sorting Decision
+  topics:
+  - greedy-sorting-decision
+  time: O(nlogn)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-10-13'
+  tricks:
+  - 依絕對值排序 自訂比較器
+  - 雙指標
+  - 平方先轉 long long 避免溢位
+  attempts:
+  - date: '2026-10-13'
+    result: 對
+    reason: null

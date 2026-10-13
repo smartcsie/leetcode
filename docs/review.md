@@ -5,7 +5,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 981 題　🔴 生疏：221 題　🟠 再練習：132 題　🟡 練習過：95 題　🟣 易忘：121 題　🟢 熟練：412 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 982 題　🔴 生疏：221 題　🟠 再練習：132 題　🟡 練習過：95 題　🟣 易忘：121 題　🟢 熟練：413 題　⚪ 未標記：0 題
 
 ---
 
@@ -846,7 +846,7 @@
 | [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 2 | 0 | 1 | 0 | 0 | 6 |
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 1 | 0 | 0 | 0 | 5 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 3 | 0 | 1 | 0 | 0 | 0 | 4 |
-| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 4 | 6 | 0 | 0 | 0 | 12 |
+| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 4 | 6 | 0 | 1 | 0 | 13 |
 | [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 3 | 0 | 0 | 1 | 0 | 8 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 2 | 0 | 1 | 1 | 0 | 0 | 4 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 0 | 2 | 0 | 4 |

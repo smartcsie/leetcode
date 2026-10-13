@@ -716,6 +716,7 @@
 | 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | Greedy Sorting Decision, Sorting, Counting | [C++](problems/3016.md) | O(N+26log26) | O(1) | 2026-10-04 |
 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | Greedy, String | [C++](problems/3216.md) | O(N) | O(1) | 2026-10-04 |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) | 🟢 Easy | Greedy, Math | [C++](problems/3536.md) | O(logN) | O(1) | 2026-09-25 |
+| 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/3727.md) | O(nlogn) | O(1) | 2026-10-13 |
 
 ---
 

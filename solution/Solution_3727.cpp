@@ -1,0 +1,46 @@
+/**
+ * 題目：3727. Maximum Alternating Sum of Squares
+ * 難度：Medium
+ * 描述：給一個整數陣列 nums，可任意重新排列，
+ *       交替分數為 arr[0]² - arr[1]² + arr[2]² - arr[3]² + ...，
+ *       回傳可得的最大交替分數。
+ *
+ * 分類主題：greedy-sorting-decision
+ * 技巧：依絕對值排序 自訂比較器, 雙指標, 平方先轉 long long 避免溢位
+ *
+ * 解法思路：排序 + 貪心 + 雙指標
+ * 1. 平方後正負號不影響結果，只需比較絕對值大小。
+ * 2. 偶數位置（0, 2, 4...）取正號，共 ceil(n/2) 個；
+ *    奇數位置（1, 3, 5...）取負號，共 floor(n/2) 個。
+ * 3. 平方最大的放正號位置，平方最小的放負號位置。
+ * 4. 依絕對值由大到小排序後，left 從最大端加、right 從最小端減，交替進行直到交會。
+ *
+ * 時間複雜度：O(n log n)
+ * 空間複雜度：O(1)
+ */
+class Solution {
+public:
+    long long maxAlternatingSum(vector<int>& nums) {
+        // 依絕對值由大到小排序（平方大小只和絕對值有關）
+        sort(nums.begin(), nums.end(), [](const int& a, const int& b) {
+            return abs(a) > abs(b);
+        });
+
+        long long sum = 0;
+        int left = 0;                 // 指向目前最大的未使用元素
+        int right = nums.size() - 1;  // 指向目前最小的未使用元素
+
+        while (left <= right) {
+            // 正號位置：放目前最大的平方
+            sum += (long long)nums[left] * nums[left];
+            left++;
+
+            // 負號位置：放目前最小的平方（若還有剩餘元素）
+            if (left <= right) {
+                sum -= (long long)nums[right] * nums[right];
+                right--;
+            }
+        }
+        return sum;
+    }
+};

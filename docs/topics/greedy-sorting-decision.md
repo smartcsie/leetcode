@@ -33,9 +33,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/3014.md) | O(1) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/3727.md) | O(nlogn) | O(1) | 2026-10-13 |
 
 ---
 
