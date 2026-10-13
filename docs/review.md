@@ -1,11 +1,11 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（106）](#review-lianxiguo)　[🟠 再練習清單（138）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（106）](#review-lianxiguo)　[🟠 再練習清單（137）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 981 題　🔴 生疏：221 題　🟠 再練習：133 題　🟡 練習過：95 題　🟣 易忘：121 題　🟢 熟練：411 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 981 題　🔴 生疏：221 題　🟠 再練習：132 題　🟡 練習過：95 題　🟣 易忘：121 題　🟢 熟練：412 題　⚪ 未標記：0 題
 
 ---
 
@@ -217,9 +217,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 138 個解法標記為再練習，需要加強熟練度。
+目前共有 137 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（18）](#zailianxi-math)　[📊 Bit Manipulation（8）](#zailianxi-bit-manipulation)　[🔗 String（10）](#zailianxi-string)　[🍱 Array（25）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（9）](#zailianxi-pointers)　[🔑 Hash Table（5）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（18）](#zailianxi-math)　[📊 Bit Manipulation（8）](#zailianxi-bit-manipulation)　[🔗 String（10）](#zailianxi-string)　[🍱 Array（25）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（8）](#zailianxi-pointers)　[🔑 Hash Table（5）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（6）
@@ -354,7 +354,7 @@
 | 2181 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | 🟡 Medium | Linked List, In-place Modification | [C++](problems/2181.md) | O(N) | O(1) | 2026-10-04 |
 
 <a id="zailianxi-pointers"></a>
-#### 👥 Pointers（9）
+#### 👥 Pointers（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -364,7 +364,6 @@
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 🟢 Easy | String, Two Pointers | [C++](problems/0541.md) | O(N) | O(1) | 2026-10-04 |
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/1417.md) | O(N) | O(N) | 2026-10-04 |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | Two Pointers Same, Two Pointers | [C++](problems/2109.md) | O(N+M) | O(N+M) | 2026-10-04 |
-| 2149 | [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign) | 🟡 Medium | Two Pointers Partition, Two Pointers, Simulation | [C++](problems/2149.md) | O(N) | O(N) | 2026-10-04 |
 | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 Easy | Two Pointers Same | [C++](problems/2570.md) | O(N+M) | O(1) | 2026-10-04 |
 | 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two-Pointer | [C++](problems/3823.md) | O(N) | O(1) | 2026-10-04 |
 
@@ -901,7 +900,7 @@
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 1 | 0 | 2 | 4 | 9 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
-| [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 0 | 0 | 1 | 0 | 3 |
+| [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 0 | 0 | 0 | 2 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 9 | 5 | 1 | 3 | 2 | 0 | 20 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 1 | 2 | 0 | 11 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |

@@ -6,13 +6,12 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Two Pointers Partition
-  - Two Pointers
-  - Simulation
   topics:
   - two-pointers-partition
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-13'
   note: '> **in place的交換會破壞相對順序，此題無法in place完成**<br>'
   attempts:
   - date: '2026-09-29'
@@ -21,3 +20,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-13'
+    result: 對
+    reason: null
