@@ -1,47 +1,38 @@
 /**
- * 題目：2570. Merge Two 2D Arrays by Summing Values (合併兩個二維陣列求和)
- * 難度：簡單 (Easy)
- * 描述：給你兩個二維整數陣列 nums1 和 nums2。
- *       - nums1[i] = [idi, vali]，表示編號 idi 的元素其值為 vali。
- *       - nums2[i] = [idi, vali]，表示編號 idi 的元素其值為 vali。
- *       兩個陣列都已經按照 id 嚴格遞增排序，且 id 都是唯一的。
- *       請你合併這兩個陣列，並返回一個按照 id 遞增排序的新二維陣列。如果相同的 id 同時存在於兩個陣列中，其值相加。
- * 
- * 時間複雜度：O(N+M)
- * 空間複雜度：O(1)
- * 
- * 解法思路：
- * 1. 利用有序特性 (Two Pointers)：
- *    - 題目保證 `nums1` 與 `nums2` 的 id 都是遞增排序的。這與「合併兩個有序鏈結串列/陣列」的概念完全一致。
- * 2. 雙指標同步比對：
- *    - 使用指標 `i` 與 `j` 分別追蹤兩個陣列的當前位置。
- *    - 當 `nums1[i][0] == nums2[j][0]`：id 相同，將兩者的值相加並放入 `ans`，兩指標同時向右移動。
- *    - 當 `nums1[i][0] < nums2[j][0]`：`nums1` 的 id 較小，直接將該項放入 `ans`，指標 `i` 向右移動。
- *    - 當 `nums1[i][0] > nums2[j][0]`：`nums2` 的 id 較小，直接將該項放入 `ans`，指標 `j` 向右移動。
- * 3. 處理剩餘元素：
- *    - 當其中一個陣列走訪完畢時，將另一個陣列剩下的所有元素直接全部接在 `ans` 後方。
+ * 題目：2570. Merge Two 2D Arrays by Summing Values
+ * 難度：Easy
+ * 描述：nums1、nums2 的每個元素為 [id, val]，且各自以 id 嚴格遞增排列。
+ *       合併兩個陣列：id 出現在任一陣列就保留，
+ *       若兩邊都有則 val 相加，回傳依 id 遞增排列的結果。
+ *
+ * 分類主題：hash-table-counting
+ * 技巧：值域固定的計數陣列, 依 id 掃描天然有序
+ *
+ * 解法思路：計數陣列
+ * 1. id 的範圍只有 1 ~ 1000，直接開 counts[1001]，以 id 當索引累加 val。
+ * 2. 兩個陣列都走一遍，同 id 的 val 自然加在同一格。
+ * 3. 從 id = 1 掃到 1000，把 counts[i] 不為 0 的格子輸出為 [i, counts[i]]。
+ *    掃描順序就是 id 遞增，不需要另外排序。
+ * 4. 以「counts 是否為 0」判斷 id 是否存在，是因為題目保證 val >= 1。
+ *
+ * 時間複雜度：O(n + m + V)，V = 1000 為 id 值域
+ * 空間複雜度：O(V)（不計輸出）
  */
-
-
 class Solution {
 public:
     vector<vector<int>> mergeArrays(vector<vector<int>>& nums1, vector<vector<int>>& nums2) {
-        int m = nums1.size();
-        int n = nums2.size();
-        int i = 0, j = 0;
         vector<vector<int>> ans;
-        ans.reserve(m + n);
-        while(i < m && j < n) {
-            if(nums1[i][0] == nums2[j][0]) 
-                ans.push_back({nums1[i][0], nums1[i++][1] + nums2[j++][1]});
-            else if(nums1[i][0] < nums2[j][0])
-                ans.push_back(nums1[i++]);
-            else  
-                ans.push_back(nums2[j++]);
-            
+        array<int, 1001> counts = {}; // counts[id] = 該 id 的 val 總和
+
+        // 兩個陣列的 val 依 id 累加到同一張表
+        for (const vector<int>& v : nums1) counts[v[0]] += v[1];
+        for (const vector<int>& v : nums2) counts[v[0]] += v[1];
+
+        // 依 id 由小到大掃描，val 總和為 0 代表該 id 沒出現過
+        for (int i = 1; i <= 1000; i++) {
+            if (!counts[i]) continue;
+            ans.push_back({i, counts[i]});
         }
-        while(i < m) ans.push_back(nums1[i++]);
-        while(j < n) ans.push_back(nums2[j++]);
         return ans;
     }
 };
