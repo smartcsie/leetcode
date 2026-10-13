@@ -1,11 +1,11 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（105）](#review-lianxiguo)　[🟠 再練習清單（136）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)
+📌 **快速跳轉：** [🟡 練習過清單（105）](#review-lianxiguo)　[🟠 再練習清單（135）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 982 題　🔴 生疏：221 題　🟠 再練習：131 題　🟡 練習過：94 題　🟣 易忘：121 題　🟢 熟練：415 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 982 題　🔴 生疏：221 題　🟠 再練習：130 題　🟡 練習過：94 題　🟣 易忘：121 題　🟢 熟練：416 題　⚪ 未標記：0 題
 
 ---
 
@@ -216,9 +216,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 136 個解法標記為再練習，需要加強熟練度。
+目前共有 135 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（18）](#zailianxi-math)　[📊 Bit Manipulation（8）](#zailianxi-bit-manipulation)　[🔗 String（10）](#zailianxi-string)　[🍱 Array（25）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（7）](#zailianxi-pointers)　[🔑 Hash Table（5）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（18）](#zailianxi-math)　[📊 Bit Manipulation（8）](#zailianxi-bit-manipulation)　[🔗 String（10）](#zailianxi-string)　[🍱 Array（25）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（6）](#zailianxi-pointers)　[🔑 Hash Table（5）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（6）
@@ -353,7 +353,7 @@
 | 2181 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | 🟡 Medium | Linked List, In-place Modification | [C++](problems/2181.md) | O(N) | O(1) | 2026-10-04 |
 
 <a id="zailianxi-pointers"></a>
-#### 👥 Pointers（7）
+#### 👥 Pointers（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -363,7 +363,6 @@
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 🟢 Easy | String, Two Pointers | [C++](problems/0541.md) | O(N) | O(1) | 2026-10-04 |
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/1417.md) | O(N) | O(N) | 2026-10-04 |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | Two Pointers Same, Two Pointers | [C++](problems/2109.md) | O(N+M) | O(N+M) | 2026-10-04 |
-| 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two-Pointer | [C++](problems/3823.md) | O(N) | O(1) | 2026-10-04 |
 
 <a id="zailianxi-hash-table"></a>
 #### 🔑 Hash Table（5）
@@ -900,7 +899,7 @@
 | [two-pointers-other](topics/two-pointers-other.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 0 | 0 | 0 | 2 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 9 | 4 | 1 | 3 | 2 | 0 | 19 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 1 | 2 | 0 | 11 | 0 | 14 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 0 | 2 | 0 | 12 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 1 | 0 | 0 | 0 | 11 |
 

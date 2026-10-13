@@ -4,11 +4,9 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two-Pointer | [C++](../problems/3823.md) | O(N) | O(1) | 2026-10-04 |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（2）
 
@@ -21,7 +19,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（11）
+## 🟢 熟悉（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -35,4 +33,5 @@
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](../problems/2000.md) | O(N) | O(1) | 2026-09-18 |
 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](../problems/3467.md) | O(N) | O(1) | 2026-09-16 |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](../problems/3794.md) | O(N) | O(1) | 2026-09-18 |
+| 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two Pointers Swap | [C++](../problems/3823.md) | O(N) | O(1) | 2026-10-13 |
 | 3992 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | 🟡 Medium | Two Pointers Swap, Two Pointers | [C++](../problems/3992.md) | O(N) | O(1) | 2026-09-16 |

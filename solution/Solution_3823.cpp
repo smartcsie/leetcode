@@ -21,8 +21,8 @@ public:
         // 階段一：反轉字母 (lowercase letters)
         int left = 0, right = n - 1;
         while (left < right) {
-            while (left < right && !islower(s[left])) left++;
-            while (left < right && !islower(s[right])) right--;
+            while (left < right && ispunct(s[left])) left++;
+            while (left < right && ispunct(s[right])) right--;
             if (left < right) {
                 std::swap(s[left++], s[right--]);
             }

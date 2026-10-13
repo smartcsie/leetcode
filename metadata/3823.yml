@@ -5,16 +5,22 @@ solutions:
 - file: Solution_3823.cpp
   difficulty: 🟢 Easy
   tags:
-  - Two-Pointer
+  - Two Pointers Swap
   topics:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 再練習
-  note: '> isalpha交換一輪<br>
+  familiarity: 熟練
+  mastered_date: '2026-10-13'
+  note: '> **ispunct交換一輪**<br>
 
-    > !isalpha交換一輪<br>'
+    > **isalpha交換一輪**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-13'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: char ispunct
