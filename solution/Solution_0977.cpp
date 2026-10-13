@@ -29,7 +29,7 @@ public:
         int idx =  n -1 ;
         int left = 0;
         int right = n - 1;
-        while(left <= right) {
+        while(idx >= 0) {
             if(abs(nums[right]) > abs(nums[left])) {
                 ans[idx] = nums[right] * nums[right];
                 right--;
