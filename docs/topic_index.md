@@ -579,7 +579,7 @@
 | 917 | 👑 **Two Pointers Swap**<br>[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0917.md) | O(N) | O(1) | 2026-09-16 |
 | 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0922.md) | O(N) | O(1) | 2026-09-18 |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](problems/0941.md) | O(N) | O(1) | 2026-10-13 |
-| 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](problems/0942.md) | O(N) | O(N) | 2026-10-04 |
+| 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](problems/0942.md) | O(N) | O(N) | 2026-10-13 |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 Easy | Array, Two Pointers | [C++](problems/0977.md) | O(N) | O(N) | 2026-10-04 |
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | 🟢 Easy | Two Pointers Opposite | [C++](problems/1332.md) | O(N) | O(1) | 2026-10-04 |
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/1417.md) | O(N) | O(N) | 2026-10-04 |

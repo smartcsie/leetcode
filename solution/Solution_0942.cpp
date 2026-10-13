@@ -18,21 +18,12 @@
 class Solution {
 public:
     std::vector<int> diStringMatch(std::string s) {
-        std::vector<int> ans;
-        int i = 0;              // 指向目前範圍的最小值
-        int d = s.length();      // 指向目前範圍的最大值
-        
-        for (const char c : s) {
-            if (c == 'I') {
-                ans.push_back(i++);
-            } else {
-                ans.push_back(d--);
-            }
+        int n = s.size() + 1;
+        int left = 0, right = n - 1;
+        vector<int> ans(n);
+        for(int i = 0 ; i < n; i++) {
+            ans[i] = (s[i] == 'I') ? left++ : right--;
         }
-        
-        // 最後一個數字放入陣列
-        ans.push_back(i); 
-        
         return ans;
     }
 };
