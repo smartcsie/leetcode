@@ -4,11 +4,12 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](../problems/0260.md) | O(N) | O(1) | 2026-10-04 |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit Manipulation Xor | [C++](../problems/0268.md) | O(N) | O(1) | 2026-10-14 |
 | 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 Medium | Bit Manipulation Xor, Math | [C++](../problems/2683.md) | O(N) | O(1) | 2026-10-04 |
 
 ## 🟡 練習過（1）

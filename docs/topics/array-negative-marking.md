@@ -4,11 +4,9 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Array Negative Marking | [C++](../problems/0268.md) | O(N) | O(1) | 2026-10-04 |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（0）
 

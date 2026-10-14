@@ -26,7 +26,7 @@
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](problems/0258.md) | O(1) | O(1) | 2026-10-08 |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](problems/0258.md) | O(logn) | O(1) | 2026-10-08 |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](problems/0263.md) | O(logN) | O(1) | 2026-09-14 |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Math | [C++](problems/0268.md) | O(N) | O(1) | 2026-09-23 |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Math | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-14 |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | Math, Game Theory | [C++](problems/0292.md) | O(1) | O(1) | 2026-10-04 |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](problems/0326.md) | O(log₃N) | O(1) | 2026-09-13 |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](problems/0342.md) | O(1) | O(1) | 2026-10-08 |
@@ -232,6 +232,7 @@
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And | [C++](problems/0191.md) | O(1) | O(1) | 2026-09-19 |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](problems/0201.md) | O(logN) | O(1) | 2026-10-07 |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](problems/0260.md) | O(N) | O(1) | 2026-10-04 |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-14 |
 | 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | 🟡 Medium | Bit Manipulation, Bitmask | [C++](problems/0318.md) | O(N\*L+N^2) | O(N) | 2026-09-26 |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Bit Manipulation, DP | [C++](problems/0338.md) | O(N) | O(N) | 2026-10-04 |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Bit Manipulation | [C++](problems/0349.md) | O(N+M) | O(N) | 2026-09-21 |
@@ -320,7 +321,6 @@
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array Boyer Moore, Voting Algorithm | [C++](problems/0169.md) | O(N) | O(1) | 2026-10-04 |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](problems/0189.md) | O(N) | O(1) | 2026-10-06 |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0238.md) | O(N) | O(1) | 2026-10-04 |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Array Negative Marking | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-04 |
 | 287 | 👑 **Negative Marking**<br>[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array Negative Marking | [C++](problems/0287.md) | O(N) | O(1) | 2026-10-14 |
 | 414 | 👑 **Array Min Max Without Repeat**<br>[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array Min Max | [C++](problems/0414.md) | O(N) | O(1) | 2026-09-15 |
 | 442 | 👑 **Negative Marking**<br>[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array Negative Marking | [C++](problems/0442.md) | O(N) | O(1) | 2026-10-14 |

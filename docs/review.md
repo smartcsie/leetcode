@@ -1,6 +1,6 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（105）](#review-lianxiguo)　[🟠 再練習清單（130）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)　[🟣 易忘清單（143）](#review-yiwang)
+📌 **快速跳轉：** [🟡 練習過清單（105）](#review-lianxiguo)　[🟠 再練習清單（131）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)　[🟣 易忘清單（143）](#review-yiwang)
 
 ## 📊 總覽
 
@@ -216,9 +216,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 130 個解法標記為再練習，需要加強熟練度。
+目前共有 131 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（18）](#zailianxi-math)　[📊 Bit Manipulation（8）](#zailianxi-bit-manipulation)　[🔗 String（10）](#zailianxi-string)　[🍱 Array（21）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（5）](#zailianxi-pointers)　[🔑 Hash Table（5）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（19）](#zailianxi-math)　[📊 Bit Manipulation（9）](#zailianxi-bit-manipulation)　[🔗 String（10）](#zailianxi-string)　[🍱 Array（20）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（5）](#zailianxi-pointers)　[🔑 Hash Table（5）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（6）
@@ -233,7 +233,7 @@
 | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | Design, Hash Table | [C++](problems/0706.md) | O(N/K) | O(M+K) | 2026-10-04 |
 
 <a id="zailianxi-math"></a>
-#### 🔢 Math（18）
+#### 🔢 Math（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -242,6 +242,7 @@
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination | [C++](problems/0062.md) | O(min(M,N)) | O(1) | 2026-10-08 |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](problems/0066.md) | O(N) | O(1) | 2026-10-04 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](problems/0137.md) | O(N) | O(N) | 2026-10-04 |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Math | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-14 |
 | 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 Medium | Math, GCD, Bézout's Identity | [C++](problems/0365.md) | O(log(min(x,y))) | O(1) | 2026-10-04 |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math Digit Decomposition, Bit Manipulation | [C++](problems/0405.md) | O(1) | O(1) | 2026-10-04 |
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime, Prime, Palindrome Construction | [C++](problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-10-04 |
@@ -257,13 +258,14 @@
 | 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | Math Prime, Prime Number | [C++](problems/3765.md) | O(D\*sqrt(N)) | O(D) | 2026-10-04 |
 
 <a id="zailianxi-bit-manipulation"></a>
-#### 📊 Bit Manipulation（8）
+#### 📊 Bit Manipulation（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/0089.md) | O(2ᴺ) | O(1) | 2026-10-04 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit Manipulation, Bit-Manipulation | [C++](problems/0137.md) | O(N) | O(1) | 2026-10-04 |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](problems/0260.md) | O(N) | O(1) | 2026-10-04 |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-14 |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](problems/0371.md) | O(1) | O(1) | 2026-10-04 |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](problems/2133.md) | O(N²) | O(N) | 2026-10-07 |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](problems/2235.md) | O(1) | O(1) | 2026-10-04 |
@@ -287,13 +289,12 @@
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](problems/3813.md) | O(N) | O(1) | 2026-10-04 |
 
 <a id="zailianxi-array"></a>
-#### 🍱 Array（21）
+#### 🍱 Array（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array Boyer Moore, Voting Algorithm | [C++](problems/0169.md) | O(N) | O(1) | 2026-10-04 |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0238.md) | O(N) | O(1) | 2026-10-04 |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Array Negative Marking | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-04 |
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 Easy | Array Continuous Counting, Hash Map, One-pass | [C++](problems/0697.md) | O(N) | O(N) | 2026-10-04 |
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](problems/0724.md) | O(N) | O(1) | 2026-10-04 |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 Easy | Array, String, Two Pointers | [C++](problems/0830.md) | O(N) | O(1) | 2026-10-04 |
@@ -1019,7 +1020,7 @@
 | [array-interval](topics/array-interval.md) | 0 | 0 | 5 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 1 | 3 | 0 | 0 | 22 | 0 | 26 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 5 | 0 | 5 |
-| [array-negative-marking](topics/array-negative-marking.md) | 0 | 2 | 0 | 2 | 3 | 0 | 7 |
+| [array-negative-marking](topics/array-negative-marking.md) | 0 | 1 | 0 | 2 | 3 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 4 | 1 | 5 | 3 | 0 | 18 |
 | [array-suffix-sum](topics/array-suffix-sum.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [backtracking-combination](topics/backtracking-combination.md) | 14 | 0 | 1 | 0 | 0 | 0 | 15 |
@@ -1037,7 +1038,7 @@
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 0 | 0 | 5 | 4 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 0 | 0 | 1 | 2 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 1 | 2 | 4 | 0 | 7 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 2 | 1 | 5 | 9 | 0 | 17 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 3 | 1 | 5 | 9 | 0 | 18 |
 | [design](topics/design.md) | 0 | 6 | 0 | 3 | 1 | 0 | 10 |
 | [dp-bitmask](topics/dp-bitmask.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
