@@ -4959,10 +4959,11 @@
 
 <h1 id="448-find-all-numbers-disappeared-in-an-array">448. Find All Numbers Disappeared in an Array<a class="headerlink" href="#448-find-all-numbers-disappeared-in-an-array" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Array Negative Marking　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Array Negative Marking　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-10-14</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：448. Find All Numbers Disappeared in an Array</span>
@@ -4995,6 +4996,11 @@
 <a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>注意可能有重覆出現，所以要判斷</strong><br>
+<strong>if(nums[idx] &gt; 0) nums[idx] *= -1;</strong><br>
+**例如[4,3,2,7,8,2,3,1]，ans=[5,6]，重覆出現數字個數會跟ans size相等</p>
+</blockquote>
 
 
 
