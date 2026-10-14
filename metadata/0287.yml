@@ -23,6 +23,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-14'
+    result: 對
+    reason: null
 - file: Solution_0287_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -31,7 +34,8 @@ solutions:
   - array-negative-marking
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-14'
   note: '> **此題題目限制，看起來只有第一個fast slow pointer符合**<br>'
   attempts:
   - date: '2026-09-25'
@@ -43,5 +47,8 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-14'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Negative Marking

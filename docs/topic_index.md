@@ -321,7 +321,7 @@
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](problems/0189.md) | O(N) | O(1) | 2026-10-06 |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0238.md) | O(N) | O(1) | 2026-10-04 |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Array Negative Marking | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-04 |
-| 287 | 👑 **Negative Marking**<br>[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array Negative Marking | [C++](problems/0287.md) | O(N) | O(1) | 2026-10-04 |
+| 287 | 👑 **Negative Marking**<br>[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array Negative Marking | [C++](problems/0287.md) | O(N) | O(1) | 2026-10-14 |
 | 414 | 👑 **Array Min Max Without Repeat**<br>[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array Min Max | [C++](problems/0414.md) | O(N) | O(1) | 2026-09-15 |
 | 442 | 👑 **Negative Marking**<br>[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array Negative Marking | [C++](problems/0442.md) | O(N) | O(1) | 2026-10-14 |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Array Negative Marking | [C++](problems/0448.md) | O(N) | O(1) | 2026-10-14 |
@@ -568,7 +568,7 @@
 | 167 | 👑<br>[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) | 2026-09-24 |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0283.md) | O(N) | O(1) | 2026-09-18 |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Fast Slow Pointers | [C++](problems/0283.md) | O(N) | O(1) | 2026-10-04 |
-| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) | 2026-10-04 |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) | 2026-10-14 |
 | 344 | 👑 **Two Pointers Swap**<br>[Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0344.md) | O(N) | O(1) | 2026-09-15 |
 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0345.md) | O(N) | O(1) | 2026-09-16 |
 | 392 | 👑 **Two Pointers Same**<br>[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/0392.md) | O(N) | O(1) | 2026-09-15 |
