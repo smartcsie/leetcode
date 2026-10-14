@@ -28,4 +28,4 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array Negative Marking | [C++](../problems/0442.md) | O(N) | O(1) | 2026-10-14 |
-| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | Array Negative Marking, Hash Table | [C++](../problems/0645.md) | O(N) | O(1) | 2026-10-14 |
+| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | Array Negative Marking | [C++](../problems/0645.md) | O(N) | O(1) | 2026-10-14 |
