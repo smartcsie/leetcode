@@ -10,34 +10,24 @@
  * 空間複雜度：O(Y)
  */
 
-#include <vector>
-
 class Solution {
 public:
-    int maximumPopulation(std::vector<std::vector<int>>& logs) {
-        // 題目範圍為 1950-2050，預留足夠空間
-        std::vector<int> diff(2051, 0);
-        
-        for (const auto& log : logs) {
-            diff[log[0]] += 1;
-            diff[log[1]] -= 1;
+    int maximumPopulation(vector<vector<int>>& logs) {
+        array<int, 2051> population = {};
+        for(const vector<int>& log : logs) {
+            population[log[0]]++;
+            population[log[1]]--;
         }
-        
-        int cur_population = 0;
-        int max_population = 0;
-        int earliest_year = 1950;
-        
-        // 進行掃描線 (Sweep Line) 計算
-        for (int year = 1950; year <= 2050; ++year) {
-            cur_population += diff[year];
-            
-            // 找到人口最多的年份，若相等則因題目要求取最早年份，無需更新
-            if (cur_population > max_population) {
-                max_population = cur_population;
-                earliest_year = year;
+        int mx = 0;
+        int mxYear = 0;
+        int cur = 0;
+        for(int i = 1950; i <= 2050; i++) {
+            cur += population[i];
+            if(cur > mx) {
+                mx = cur;
+                mxYear = i;
             }
         }
-        
-        return earliest_year;
+        return mxYear;
     }
 };
