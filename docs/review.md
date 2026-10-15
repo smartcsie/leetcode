@@ -1,20 +1,20 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（105）](#review-lianxiguo)　[🟠 再練習清單（114）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)　[🟣 易忘清單（143）](#review-yiwang)
+📌 **快速跳轉：** [🟡 練習過清單（104）](#review-lianxiguo)　[🟠 再練習清單（114）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)　[🟣 易忘清單（144）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 982 題　🔴 生疏：221 題　🟠 再練習：108 題　🟡 練習過：94 題　🟣 易忘：122 題　🟢 熟練：437 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 982 題　🔴 生疏：221 題　🟠 再練習：108 題　🟡 練習過：93 題　🟣 易忘：123 題　🟢 熟練：437 題　⚪ 未標記：0 題
 
 ---
 
 <a id="review-lianxiguo"></a>
 ## 🟡 練習過清單
 
-目前共有 105 個解法標記為練習過，持續複習鞏固。
+目前共有 104 個解法標記為練習過，持續複習鞏固。
 
-📌 **快速跳轉：** [🔢 Math（7）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（6）](#lianxiguo-string)　[🍱 Array（8）](#lianxiguo-array)　[🌳 Tree（3）](#lianxiguo-tree)　[🔍 Binary Search（1）](#lianxiguo-binary-search)　[⛓️ Linked List（4）](#lianxiguo-linked-list)　[👥 Pointers（10）](#lianxiguo-pointers)　[🔑 Hash Table（2）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（12）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（12）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
+📌 **快速跳轉：** [🔢 Math（7）](#lianxiguo-math)　[📊 Bit Manipulation（7）](#lianxiguo-bit-manipulation)　[🔗 String（6）](#lianxiguo-string)　[🍱 Array（7）](#lianxiguo-array)　[🌳 Tree（3）](#lianxiguo-tree)　[🔍 Binary Search（1）](#lianxiguo-binary-search)　[⛓️ Linked List（4）](#lianxiguo-linked-list)　[👥 Pointers（10）](#lianxiguo-pointers)　[🔑 Hash Table（2）](#lianxiguo-hash-table)　[📚 Priority Queue（1）](#lianxiguo-priority-queue)　[📚 Quick Select（1）](#lianxiguo-quick-select)　[📊 Sorting（12）](#lianxiguo-sorting)　[🧩 Dynamic Programming（30）](#lianxiguo-dynamic-programming)　[🧩 Greedy（12）](#lianxiguo-greedy)　[🔢 Backtracking（1）](#lianxiguo-backtracking)
 
 <a id="lianxiguo-math"></a>
 #### 🔢 Math（7）
@@ -55,14 +55,13 @@
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 Easy | String, Pattern Matching | [C++](problems/3407.md) | O(N+M) | O(M) |  |
 
 <a id="lianxiguo-array"></a>
-#### 🍱 Array（8）
+#### 🍱 Array（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 Medium | Array Interval, Sorting | [C++](problems/0056.md) | O(NlogN) | O(logN) |  |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 Medium | Array Interval, Interval | [C++](problems/0057.md) | O(N) | O(N) |  |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Array Interval, Interval | [C++](problems/0435.md) | O(NlogN) | O(1) |  |
-| 848 | [Shifting Letters](https://leetcode.com/problems/shifting-letters/) | 🟡 Medium | Array Suffix Sum | [C++](problems/0848.md) | O(N) | O(1) | 2026-10-03 |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum | [C++](problems/0930.md) | O(N^2) | O(N) |  |
 | 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | 🟡 Medium | Array Interval, Two Pointers, Interval Processing | [C++](problems/0986.md) | O(M+N) | O(1) |  |
 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 Medium | Array Interval, Greedy | [C++](problems/1288.md) | O(NlogN) | O(logN) |  |
@@ -758,9 +757,9 @@
 <a id="review-yiwang"></a>
 ## 🟣 易忘清單
 
-目前共有 143 個解法標記為易忘，容易做對但過一段時間就忘記，建議安排固定頻率複習。
+目前共有 144 個解法標記為易忘，容易做對但過一段時間就忘記，建議安排固定頻率複習。
 
-📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（29）](#yiwang-math)　[📊 Bit Manipulation（28）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（12）](#yiwang-array)　[🌳 Tree（25）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（5）](#yiwang-linked-list)　[👥 Pointers（10）](#yiwang-pointers)　[🔑 Hash Table（3）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（9）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
+📌 **快速跳轉：** [🎨 Design（3）](#yiwang-design)　[🔢 Math（29）](#yiwang-math)　[📊 Bit Manipulation（28）](#yiwang-bit-manipulation)　[🔗 String（7）](#yiwang-string)　[🍱 Array（13）](#yiwang-array)　[🌳 Tree（25）](#yiwang-tree)　[🔍 Binary Search（5）](#yiwang-binary-search)　[⛓️ Linked List（5）](#yiwang-linked-list)　[👥 Pointers（10）](#yiwang-pointers)　[🔑 Hash Table（3）](#yiwang-hash-table)　[📊 Sorting（2）](#yiwang-sorting)　[🧩 Dynamic Programming（4）](#yiwang-dynamic-programming)　[🧩 Greedy（9）](#yiwang-greedy)　[🔢 Sliding Window（1）](#yiwang-sliding-window)
 
 <a id="yiwang-design"></a>
 #### 🎨 Design（3）
@@ -854,7 +853,7 @@
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) | 2026-10-04 |
 
 <a id="yiwang-array"></a>
-#### 🍱 Array（12）
+#### 🍱 Array（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -863,6 +862,7 @@
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](problems/0059.md) | O(N²) | O(1) | 2026-10-04 |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array Prefix Sum, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) | 2026-10-07 |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting, Greedy | [C++](problems/0696.md) | O(N) | O(1) | 2026-10-04 |
+| 848 | [Shifting Letters](https://leetcode.com/problems/shifting-letters/) | 🟡 Medium | Array Suffix Sum | [C++](problems/0848.md) | O(N) | O(1) | 2026-10-15 |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0930.md) | O(N) | O(N) | 2026-10-04 |
 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) | 2026-10-04 |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) | 2026-10-04 |
@@ -1005,7 +1005,7 @@
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 5 | 0 | 5 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 1 | 0 | 2 | 3 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 0 | 1 | 5 | 7 | 0 | 18 |
-| [array-suffix-sum](topics/array-suffix-sum.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
+| [array-suffix-sum](topics/array-suffix-sum.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [backtracking-combination](topics/backtracking-combination.md) | 14 | 0 | 1 | 0 | 0 | 0 | 15 |
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
