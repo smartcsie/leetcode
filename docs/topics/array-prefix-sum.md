@@ -10,12 +10,11 @@
 | 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](../problems/1738.md) | O(M\*N) | O(M\*N) |  |
 | 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 Easy | Prefix Sum, Sliding Window, Multiset | [C++](../problems/3364.md) | O(NlogN) | O(N) |  |
 
-## 🟠 再練習（2）
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](../problems/0238.md) | O(N) | O(1) | 2026-10-04 |
-| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/2574.md) | O(N) | O(N) | 2026-10-04 |
 
 ## 🟡 練習過（1）
 
@@ -34,7 +33,7 @@
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](../problems/2256.md) | O(N) | O(1) | 2026-10-04 |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/3432.md) | O(N) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -43,3 +42,4 @@
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/1480.md) | O(N) | O(1) | 2026-09-24 |
 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/1732.md) | O(N) | O(1) | 2026-10-03 |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](../problems/2559.md) | O(N+Q) | O(N) | 2026-09-24 |
+| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array Prefix Sum | [C++](../problems/2574.md) | O(N) | O(N) | 2026-10-15 |

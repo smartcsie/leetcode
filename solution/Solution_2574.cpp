@@ -12,15 +12,15 @@ public:
     vector<int> leftRightDifference(vector<int>& nums) {
         int n = nums.size();
         vector<int> prefix(n + 1, 0);
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) {
             prefix[i + 1] = prefix[i] + nums[i];
+            nums[i] = 0;
         }
-        vector<int> res(n);
-        for (int i = 0; i < n; i++) {
-            int left = prefix[i];
-            int right = prefix[n] - prefix[i + 1];
-            res[i] = abs(right - left);
+        for(int i = 0; i < n; i++) {
+            if(i > 0)  nums[i] += prefix[i];
+            if(i < n - 1) nums[i] -= prefix[n] - prefix[i + 1];
+            nums[i] = abs(nums[i]); 
         }
-        return res;
+        return nums;
     }
 };
