@@ -36,7 +36,7 @@
 | 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | Math Combination, Combinatorics | [C++](problems/0357.md) | O(N) | O(1) | 2026-10-04 |
 | 365 | [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 Medium | Math, GCD, Bézout's Identity | [C++](problems/0365.md) | O(log(min(x,y))) | O(1) | 2026-10-04 |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](problems/0396.md) | O(N) | O(1) | 2026-10-04 |
-| 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math Digit Decomposition, Bit Manipulation | [C++](problems/0405.md) | O(1) | O(1) | 2026-10-04 |
+| 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math Digit Decomposition, Bit Manipulation | [C++](problems/0405.md) | O(1) | O(1) | 2026-10-15 |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math, String | [C++](problems/0412.md) | O(N) | O(1) | 2026-09-20 |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | Math, String | [C++](problems/0415.md) | O(max(N,M)) | O(max(N,M)) | 2026-09-22 |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) | 2026-10-04 |
