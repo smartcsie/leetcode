@@ -17,22 +17,25 @@
 class Solution {
 public:
     vector<int> findColumnWidth(vector<vector<int>>& grid) {
+        int m = grid.size();
         int n = grid[0].size();
-        vector<int> ans(n, 0);
-        for(vector<int>& row : grid) {
-            for(int i = 0; i < n; i++) {
+        vector<int> ans(n);
+        for(int j = 0; j < n; j++) {
+            int mx = 0;
+            for(int i = 0; i < m; i++) {
+                int val = grid[i][j];
                 int width = 0;
-                if(row[i] == 0) {
-                    width = 1;
-                } else {
-                    if(row[i] < 0) {
-                        row[i] *= -1;
+                if(val == 0) width = 1;
+                else {
+                    if(val < 0) {
                         width++;
-                    } 
-                    width += floor(log10(row[i])) + 1;
+                        val = -val;
+                    }
+                    width += floor(log10(val)) + 1;
                 }
-                ans[i] = max(ans[i], width);
+                mx = max(mx, width);
             }
+            ans[j] = mx;
         }
         return ans;
     }
