@@ -427,16 +427,17 @@ def _group_anchor_id(group_title, prefix):
     return f'{prefix}-{ascii_part or "other"}'
 
 
-# 複習清單合併表的「分類」欄位 badge，以及排序用的優先度（跟 problem_status
-# 的優先順序一致：生疏 > 再練習 > 練習過 > 易忘），同一個主題分類（Array、
-# Math...）底下的題目會先照這個順序排，再依題號排序。
+# 複習清單合併表的「分類」欄位 badge，以及排序用的優先度（練習過 > 再練習 >
+# 生疏 > 易忘），同一個主題分類（Array、Math...）底下的題目會先照這個順序排，
+# 再依題號排序。這個順序只影響 review.md 合併表的排列，跟 problem_status
+# 判斷題目整體熟悉度用的優先序（生疏 > 再練習 > 練習過 > 易忘 > 熟練）是分開的。
 _FAMILIARITY_BADGE = {
     '生疏': '🔴 生疏',
     '再練習': '🟠 再練習',
     '練習過': '🟡 練習過',
     '易忘': '🟣 易忘',
 }
-_FAMILIARITY_RANK = {'生疏': 0, '再練習': 1, '練習過': 2, '易忘': 3}
+_FAMILIARITY_RANK = {'練習過': 0, '再練習': 1, '生疏': 2, '易忘': 3}
 
 
 def _build_combined_review_section(rows, id_prefix):
