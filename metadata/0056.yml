@@ -6,11 +6,14 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Array Interval
-  - Sorting
   topics:
   - array-interval
   time: O(NlogN)
   space: O(logN)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-15'
   note: '> **要sort interval的頭**<br>'
-  tricks: null
+  attempts:
+  - date: '2026-10-15'
+    result: 對
+    reason: null

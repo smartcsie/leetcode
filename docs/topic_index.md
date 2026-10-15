@@ -316,6 +316,7 @@
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | Array Negative Marking, Math | [C++](problems/0041.md) | O(N) | O(1) | 2026-10-04 |
 | 48 | 👑 **Matrix Rotate**<br>[Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | 2d Array | [C++](problems/0048.md) | O(N²) | O(1) | 2026-09-16 |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array, Simulation | [C++](problems/0054.md) | O(M\*N) | O(1) | 2026-10-04 |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 Medium | Array Interval | [C++](problems/0056.md) | O(NlogN) | O(logN) | 2026-10-15 |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](problems/0059.md) | O(N²) | O(1) | 2026-10-04 |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | 2d Array, Matrix | [C++](problems/0073.md) | O(M\*N) | O(1) | 2026-09-16 |
 | 169 | 👑 **Boyer Moore Algorithm**<br>[Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array Boyer Moore | [C++](problems/0169.md) | O(N) | O(1) | 2026-10-15 |
