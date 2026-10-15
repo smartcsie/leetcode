@@ -18,17 +18,19 @@ public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
         vector<vector<int>>& itvs = intervals;
         vector<int>& newItv = newInterval;
-        int i = 0 , n = itvs.size();
         vector<vector<int>> ans;
-        ans.reserve(n + 1);
-        while(i < n && itvs[i][1] < newItv[0]) ans.push_back(itvs[i++]);
-        while(i < n && itvs[i][0] <= newItv[1]) {
-            newItv[0] = min(itvs[i][0], newItv[0]);
-            newItv[1] = max(itvs[i][1], newItv[1]);
-            i++;
+        int idx = 0;
+        int n = itvs.size();
+        while(idx < n && itvs[idx][0] < newItv[0]) ans.push_back(itvs[idx++]);
+
+        if(ans.empty() || (ans.back()[1] < newItv[0])) ans.push_back(newItv);
+        else ans.back()[1] = max(ans.back()[1], newItv[1]);
+
+        while(idx < n) {
+            if(ans.back()[1] < itvs[idx][0]) ans.push_back(itvs[idx]);
+            else ans.back()[1] = max(ans.back()[1], itvs[idx][1]);
+            idx++;
         }
-        ans.push_back(newItv);
-        while(i < n) ans.push_back(itvs[i++]);
         return ans;
     }
 };

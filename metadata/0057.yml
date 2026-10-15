@@ -6,19 +6,20 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Array Interval
-  - Interval
   topics:
   - array-interval
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-15'
   note: '> **題目已經sort<br>**
 
     > **第一個while，把interval尾巴小於新interval頭都加入ans<br>**
 
-    > **第二個while，把可以合併到新interval的都合併，把新interval加入ans<br>**
+    > **把新interval加入ans**
 
-    > **新interval的尾巴大於等於interval的頭<br>**
-
-    > **第三個while，把後面的interval加入ans<br>**'
-  tricks: null
+    > **第二個while，類似merge interval 的概念把剩下元素加到ans<br>**'
+  attempts:
+  - date: '2026-10-15'
+    result: 對
+    reason: null
