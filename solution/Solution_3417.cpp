@@ -14,20 +14,18 @@
  * 3. 處理每一行的數據，存入 deque 後根據行號奇偶性選擇 push/pop 的方向。
  */
 
+
 class Solution {
 public:
     vector<int> zigzagTraversal(vector<vector<int>>& grid) {
+        vector<int> ans;
         int m = grid.size();
         int n = grid[0].size();
-        vector<int> ans;
-        bool evenRow = true, target = true;
-        for(int i = 0; i < m; i ++) {
-            for(int j = 0; j < n; j ++) {
-                if(evenRow  && target) ans.push_back(grid[i][j]);
-                else if(!evenRow && target) ans.push_back(grid[i][n -1 - j]);
-                target = !target;
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+                if((i % 2) == 0 && (j % 2) == 0) ans.push_back(grid[i][j]);
+                if((i % 2) == 1 && ((n - 1 - j) % 2) == 1) ans.push_back(grid[i][n - 1 - j]);
             }
-            evenRow = !evenRow;
         }
         return ans;
     }
