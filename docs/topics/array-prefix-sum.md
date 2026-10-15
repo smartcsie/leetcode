@@ -42,4 +42,4 @@
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/1480.md) | O(N) | O(1) | 2026-09-24 |
 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](../problems/1732.md) | O(N) | O(1) | 2026-10-03 |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](../problems/2559.md) | O(N+Q) | O(N) | 2026-09-24 |
-| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array Prefix Sum | [C++](../problems/2574.md) | O(N) | O(N) | 2026-10-15 |
+| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 Easy | Array Prefix Sum | [C++](../problems/2574.md) | O(N) | O(1) | 2026-10-15 |
