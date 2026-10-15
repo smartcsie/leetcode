@@ -1,11 +1,11 @@
 # 📝 複習清單
 
-📌 **快速跳轉：** [🟡 練習過清單（105）](#review-lianxiguo)　[🟠 再練習清單（117）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)　[🟣 易忘清單（143）](#review-yiwang)
+📌 **快速跳轉：** [🟡 練習過清單（105）](#review-lianxiguo)　[🟠 再練習清單（116）](#review-zailianxi)　[🔴 生疏清單（224）](#review-shengshu)　[🟣 易忘清單（143）](#review-yiwang)
 
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 982 題　🔴 生疏：221 題　🟠 再練習：111 題　🟡 練習過：94 題　🟣 易忘：122 題　🟢 熟練：434 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 982 題　🔴 生疏：221 題　🟠 再練習：110 題　🟡 練習過：94 題　🟣 易忘：122 題　🟢 熟練：435 題　⚪ 未標記：0 題
 
 ---
 
@@ -216,9 +216,9 @@
 <a id="review-zailianxi"></a>
 ## 🟠 再練習清單
 
-目前共有 117 個解法標記為再練習，需要加強熟練度。
+目前共有 116 個解法標記為再練習，需要加強熟練度。
 
-📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（19）](#zailianxi-math)　[📊 Bit Manipulation（9）](#zailianxi-bit-manipulation)　[🔗 String（10）](#zailianxi-string)　[🍱 Array（6）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（5）](#zailianxi-pointers)　[🔑 Hash Table（5）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
+📌 **快速跳轉：** [🎨 Design（6）](#zailianxi-design)　[🔢 Math（19）](#zailianxi-math)　[📊 Bit Manipulation（9）](#zailianxi-bit-manipulation)　[🔗 String（10）](#zailianxi-string)　[🍱 Array（5）](#zailianxi-array)　[🌳 Tree（7）](#zailianxi-tree)　[🔍 Binary Search（4）](#zailianxi-binary-search)　[⛓️ Linked List（6）](#zailianxi-linked-list)　[👥 Pointers（5）](#zailianxi-pointers)　[🔑 Hash Table（5）](#zailianxi-hash-table)　[📚 Stack（5）](#zailianxi-stack)　[📚 Queue（1）](#zailianxi-queue)　[📚 Quick Select（4）](#zailianxi-quick-select)　[📊 Sorting（6）](#zailianxi-sorting)　[🧩 Dynamic Programming（3）](#zailianxi-dynamic-programming)　[🧩 Greedy（20）](#zailianxi-greedy)　[📄 Other（1）](#zailianxi-other)
 
 <a id="zailianxi-design"></a>
 #### 🎨 Design（6）
@@ -289,11 +289,10 @@
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](problems/3813.md) | O(N) | O(1) | 2026-10-04 |
 
 <a id="zailianxi-array"></a>
-#### 🍱 Array（6）
+#### 🍱 Array（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array Boyer Moore, Voting Algorithm | [C++](problems/0169.md) | O(N) | O(1) | 2026-10-04 |
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 Easy | Array Continuous Counting, Hash Map, One-pass | [C++](problems/0697.md) | O(N) | O(N) | 2026-10-04 |
 | 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | 🟢 Easy | Array Linear Scan, Greedy, Prefix Sum | [C++](problems/1013.md) | O(N) | O(1) | 2026-10-04 |
 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 Easy | Array Linear Scan | [C++](problems/1422.md) | O(N) | O(1) | 2026-10-04 |
@@ -1000,7 +999,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 0 | 0 | 0 | 0 | 17 | 0 | 17 |
 | [array](topics/array.md) | 1 | 0 | 0 | 3 | 22 | 0 | 26 |
-| [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 1 | 0 | 0 | 0 | 0 | 2 |
+| [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 3 | 0 | 1 | 7 | 0 | 11 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 5 | 0 | 0 | 0 | 5 |

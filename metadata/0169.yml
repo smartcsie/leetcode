@@ -6,13 +6,18 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array Boyer Moore
-  - Voting Algorithm
   topics:
   - array-boyer-moore
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-15'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-15'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Boyer Moore Algorithm

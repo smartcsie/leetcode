@@ -318,7 +318,7 @@
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array, Simulation | [C++](problems/0054.md) | O(M\*N) | O(1) | 2026-10-04 |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](problems/0059.md) | O(N²) | O(1) | 2026-10-04 |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | 2d Array, Matrix | [C++](problems/0073.md) | O(M\*N) | O(1) | 2026-09-16 |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array Boyer Moore, Voting Algorithm | [C++](problems/0169.md) | O(N) | O(1) | 2026-10-04 |
+| 169 | 👑 **Boyer Moore Algorithm**<br>[Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Array Boyer Moore | [C++](problems/0169.md) | O(N) | O(1) | 2026-10-15 |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Array | [C++](problems/0189.md) | O(N) | O(1) | 2026-10-06 |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0238.md) | O(N) | O(1) | 2026-10-15 |
 | 287 | 👑 **Negative Marking**<br>[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array Negative Marking | [C++](problems/0287.md) | O(N) | O(1) | 2026-10-14 |
