@@ -25,12 +25,13 @@ public:
         class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-        vector<int> counts(101, 0);
+        array<int, 101> counts = {0};
         for(const int& x : nums) counts[x]++;
-        for(int i = 1; i < 101; i++)   counts[i] += counts[i - 1];
-        vector<int> ans(nums.size());
-        for(int i = 0 ; i < nums.size(); i++) ans[i] = (nums[i] == 0) ? 0 : counts[nums[i] - 1];
-        return ans;
+        for(int i = 1; i <= 100; i++) counts[i] += counts[i - 1];
+        for(int& x : nums) {
+            if(x > 0) x = counts[x - 1];
+        }
+        return nums;
     }
 };
     }
