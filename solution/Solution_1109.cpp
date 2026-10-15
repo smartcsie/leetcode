@@ -10,7 +10,7 @@
  * 空間複雜度：O(N)
  */
 
-vector<int> diff(n + 1, 0); // 多一格避免越界判斷
+    vector<int> diff(n + 1, 0); // 多一格避免越界判斷
     for (const auto& b : bookings) {
         diff[b[0] - 1] += b[2];  // 起點加
         diff[b[1]]     -= b[2];  // 終點後一格減
