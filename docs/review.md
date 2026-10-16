@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 982 題　🔴 生疏：220 題　🟠 再練習：107 題　🟡 練習過：90 題　🟣 易忘：123 題　🟢 熟練：442 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 982 題　🔴 生疏：220 題　🟠 再練習：106 題　🟡 練習過：90 題　🟣 易忘：124 題　🟢 熟練：442 題　⚪ 未標記：0 題
 
 ---
 
@@ -107,7 +107,6 @@
 | 🟠 再練習 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](problems/0371.md) | O(1) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](problems/2133.md) | O(N²) | O(N) | 2026-10-07 |
 | 🟠 再練習 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](problems/2235.md) | O(1) | O(1) | 2026-10-04 |
-| 🟠 再練習 | 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 Medium | Bit Manipulation Xor, Math | [C++](problems/2683.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 3226 | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) | 🟢 Easy | Bit Manipulation | [C++](problems/3226.md) | O(1) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/0029.md) | O(log²N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation | [C++](problems/0029.md) | O(log²N) | O(1) | 2026-10-04 |
@@ -130,6 +129,7 @@
 | 🟣 易忘 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 Medium | Bit Manipulation Or | [C++](problems/2411.md) | O(N×30) | O(30) | 2026-10-04 |
 | 🟣 易忘 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/2425.md) | O(N+M) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 Easy | Bit Manipulation Mask, Bitmask | [C++](problems/2605.md) | O(N+M) | O(1) | 2026-10-12 |
+| 🟣 易忘 | 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 Medium | Bit Manipulation Xor | [C++](problems/2683.md) | O(N) | O(1) | 2026-10-16 |
 | 🟣 易忘 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation And | [C++](problems/3120.md) | O(N) | O(1) | 2026-10-07 |
 | 🟣 易忘 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 Easy | Bit Manipulation, Math | [C++](problems/3314.md) | O(N) | O(N) | 2026-10-04 |
@@ -751,7 +751,7 @@
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 0 | 0 | 5 | 4 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 0 | 0 | 1 | 2 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 1 | 2 | 4 | 0 | 7 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 3 | 1 | 5 | 9 | 0 | 18 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 2 | 1 | 6 | 9 | 0 | 18 |
 | [design](topics/design.md) | 0 | 6 | 0 | 3 | 1 | 0 | 10 |
 | [dp-bitmask](topics/dp-bitmask.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
