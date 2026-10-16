@@ -23,16 +23,14 @@
  * 備註：和數學解（n(n+1)/2 - sum）相比，XOR 不會有加總溢位的疑慮，
  *       也不需要修改輸入陣列（Cyclic Sort 解法會改動 nums）。
  */
+
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
         int n = nums.size();
-        int ans = n;  // 先放入 n：索引只涵蓋 0 ~ n-1，缺少 n 這個值
-
-        for (int i = 0; i < n; ++i) {
-            ans ^= i ^ nums[i];  // 同時 XOR 索引與數值，出現兩次的數字會互相抵消
-        }
-
-        return ans;  // 只剩下出現一次的數字，即缺失的數
+        int xorVal = 0;
+        for(int i = 0; i <= n; i++) xorVal ^= i;
+        for(const int& x : nums) xorVal ^= x;
+        return xorVal;
     }
 };
