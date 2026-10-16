@@ -4,14 +4,13 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（4）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](../problems/0137.md) | O(N) | O(N) | 2026-10-04 |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math, Brute Force | [C++](../problems/1925.md) | O(N²) | O(1) | 2026-10-04 |
 | 2063 | [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) | 🟡 Medium | Math, Contribution Technique | [C++](../problems/2063.md) | O(N) | O(1) | 2026-10-04 |
-| 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](../problems/2119.md) | O(1) | O(1) | 2026-10-04 |
 
 ## 🟡 練習過（0）
 
@@ -35,7 +34,7 @@
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](../problems/2894.md) | O(1) | O(1) | 2026-10-04 |
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math | [C++](../problems/3084.md) | O(N) | O(1) | 2026-10-12 |
 
-## 🟢 熟悉（25）
+## 🟢 熟悉（26）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -58,6 +57,7 @@
 | 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 Easy | Math | [C++](../problems/1523.md) | O(1) | O(1) | 2026-10-08 |
 | 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | Math | [C++](../problems/1780.md) | O(log₃N) | O(1) | 2026-10-08 |
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math, String | [C++](../problems/1980.md) | O(N²) | O(N) | 2026-09-20 |
+| 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](../problems/2119.md) | O(1) | O(1) | 2026-10-16 |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](../problems/2177.md) | O(1) | O(1) | 2026-09-20 |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 Easy | Math, Array | [C++](../problems/2455.md) | O(N) | O(1) | 2026-09-16 |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 Easy | Math | [C++](../problems/2469.md) | O(1) | O(1) | 2026-09-16 |
