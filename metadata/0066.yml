@@ -10,26 +10,21 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 再練習
-  note: '> [Plus One](https://leetcode.com/problems/plus-one/)<br>
+  familiarity: 熟練
+  mastered_date: '2026-10-16'
+  note: '> **因為Plus One，carry 初始值 1** br>
 
-    > 從最後一個digit，digit[n-1]往digit[0]，如果小於9 +1 return，否則設成0 往下個loop，最後在front insert
-    1 <br>
+    > **處理每個digit時，把digit加到carry，carry += digits[i];**<br>
 
-    > **for(int i = digits.size() - 1; i >= 0 ; i--) {** <br>
+    > **新的digit，carry % 10，新的carry， carry /= 10**<br>
 
-    > &emsp;&emsp;&emsp;&emsp;**if(digits[i]++ < 9) return digits;** <br>
-
-    > &emsp;&emsp;&emsp;&emsp;**digits[i] = 0;** <br>
-
-    > **}** <br>
-
-    > **digits.insert(digits.begin(), 1);** <br>
-
-    > **return digits;** <br>'
+    > **最後檢查MSB是否有進位，有的話使用vector insert** br>'
   tricks:
   - number addition
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-16'
+    result: 對
+    reason: null
