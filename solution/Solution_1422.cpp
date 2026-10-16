@@ -19,24 +19,4 @@
  *    - 每次移動分割點後，當前的總得分為 `ones + zeros`，並透過 `std::max` 更新最大得分 `ans`。
  */
 
-class Solution {
-public:
-    int maxScore(std::string s) {
-        int n = s.size();
-        int zeros = 0;
-        // 預先計算字串中所有 '1' 的總數（初始時全部在右側）
-        int ones = std::count(s.begin(), s.end(), '1');
-        int ans = 0;
-        // 遍歷所有可能的分割點（i + 1 < n 確保右子字串非空）
-        for (int i = 0; i + 1 < s.size(); ++i) {
-            if (s[i] == '1') {
-                ones--;   // 移到左邊後，右側的 1 總數減 1
-            } else {
-                zeros++;  // 移到左邊後，左側的 0 總數加 1
-            }
-            // 更新最大得分
-            ans = std::max(ans, ones + zeros);
-        }
-        return ans;
-    }
-};
+zeros
