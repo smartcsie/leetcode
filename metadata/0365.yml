@@ -5,16 +5,20 @@ solutions:
 - file: Solution_0365.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
-  - GCD
-  - Bézout's Identity
+  - Math Gcd
   topics:
   - math-gcd
   time: O(log(min(x,y)))
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-16'
   note: '> 祖定理的應用 (Bézout''s Identity)'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-16'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Bézout's Identity
