@@ -83,7 +83,7 @@
 | 1980 | 👑 **Cantor's Diagonal Argument**<br>[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math, String | [C++](problems/1980.md) | O(N²) | O(N) | 2026-09-20 |
 | 2063 | [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) | 🟡 Medium | Math, Contribution Technique | [C++](problems/2063.md) | O(N) | O(1) | 2026-10-04 |
 | 2119 | 👑 **Module**<br>[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](problems/2119.md) | O(1) | O(1) | 2026-10-16 |
-| 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | Math Digit Decomposition, Greedy, Sorting | [C++](problems/2160.md) | O(1) | O(1) | 2026-10-04 |
+| 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | Math Digit Decomposition | [C++](problems/2160.md) | O(1) | O(1) | 2026-10-16 |
 | 2169 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | 🟢 Easy | Math Factor Enumeration | [C++](problems/2169.md) | O(log(min(NUM1,NUM2))) | O(1) | 2026-10-07 |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](problems/2177.md) | O(1) | O(1) | 2026-09-20 |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](problems/2180.md) | O(D) | O(1) | 2026-10-04 |

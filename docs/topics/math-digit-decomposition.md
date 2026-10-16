@@ -4,12 +4,11 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（3）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math Digit Decomposition | [C++](../problems/0007.md) | O(logN) | O(1) | 2026-10-04 |
-| 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | Math Digit Decomposition, Greedy, Sorting | [C++](../problems/2160.md) | O(1) | O(1) | 2026-10-04 |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math Digit Decomposition, Digit Extraction | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) | 2026-10-04 |
 
 ## 🟡 練習過（2）
@@ -27,7 +26,7 @@
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) | 2026-10-04 |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（34）
+## 🟢 熟悉（35）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -43,6 +42,7 @@
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 Easy | Math Digit Decomposition, Simulation, Hash Table | [C++](../problems/1742.md) | O(N\*D) | O(1) | 2026-09-16 |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/1837.md) | O(logₖN) | O(1) | 2026-09-17 |
 | 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](../problems/1880.md) | O(N) | O(1) | 2026-09-17 |
+| 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/2160.md) | O(1) | O(1) | 2026-10-16 |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | Math Digit Decomposition, Simulation | [C++](../problems/2443.md) | O(NlogN) | O(1) | 2026-09-17 |
 | 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](../problems/2535.md) | O(N\*logM) | O(1) | 2026-09-16 |
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/2544.md) | O(logN) | O(logN) | 2026-09-14 |
