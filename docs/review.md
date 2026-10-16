@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 982 題　🔴 生疏：220 題　🟠 再練習：105 題　🟡 練習過：90 題　🟣 易忘：124 題　🟢 熟練：443 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 982 題　🔴 生疏：220 題　🟠 再練習：104 題　🟡 練習過：90 題　🟣 易忘：124 題　🟢 熟練：444 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 579 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 577 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（54）](#review-math)　[📊 Bit Manipulation（43）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（26）](#review-array)　[🌳 Tree（35）](#review-tree)　[🔍 Binary Search（21）](#review-binary-search)　[⛓️ Linked List（15）](#review-linked-list)　[👥 Pointers（40）](#review-pointers)　[🔑 Hash Table（17）](#review-hash-table)　[📚 Stack（16）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（54）](#review-math)　[📊 Bit Manipulation（42）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（25）](#review-array)　[🌳 Tree（35）](#review-tree)　[🔍 Binary Search（21）](#review-binary-search)　[⛓️ Linked List（15）](#review-linked-list)　[👥 Pointers（40）](#review-pointers)　[🔑 Hash Table（17）](#review-hash-table)　[📚 Stack（16）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（9）
@@ -89,7 +89,7 @@
 | 🟣 易忘 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math Prime, Prefix Sum | [C++](problems/3770.md) | O(RloglogR) | O(R) | 2026-10-04 |
 
 <a id="review-bit-manipulation"></a>
-#### 📊 Bit Manipulation（43）
+#### 📊 Bit Manipulation（42）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -105,7 +105,6 @@
 | 🟠 再練習 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](problems/0260.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-14 |
 | 🟠 再練習 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](problems/0371.md) | O(1) | O(1) | 2026-10-04 |
-| 🟠 再練習 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](problems/2133.md) | O(N²) | O(N) | 2026-10-07 |
 | 🟠 再練習 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](problems/2235.md) | O(1) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/0029.md) | O(log²N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation | [C++](problems/0029.md) | O(log²N) | O(1) | 2026-10-04 |
@@ -167,7 +166,7 @@
 | 🟣 易忘 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) | 2026-10-04 |
 
 <a id="review-array"></a>
-#### 🍱 Array（26）
+#### 🍱 Array（25）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -194,7 +193,6 @@
 | 🟣 易忘 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) | 2026-10-04 |
 | 🟣 易忘 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 Easy | Array, Brute Force | [C++](problems/1995.md) | O(N⁴) | O(1) | 2026-10-04 |
-| 🟣 易忘 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array Negative Marking | [C++](problems/2133.md) | O(N²) | O(1) | 2026-10-07 |
 | 🟣 易忘 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](problems/3432.md) | O(N) | O(1) | 2026-10-04 |
 
@@ -724,7 +722,7 @@
 
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [2d-array](topics/2d-array.md) | 0 | 0 | 0 | 0 | 17 | 0 | 17 |
+| [2d-array](topics/2d-array.md) | 0 | 0 | 0 | 0 | 18 | 0 | 18 |
 | [array](topics/array.md) | 1 | 0 | 0 | 3 | 22 | 0 | 26 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 1 | 8 | 0 | 11 |
@@ -732,7 +730,7 @@
 | [array-interval](topics/array-interval.md) | 0 | 0 | 2 | 0 | 3 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 0 | 1 | 0 | 0 | 24 | 0 | 25 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 5 | 0 | 5 |
-| [array-negative-marking](topics/array-negative-marking.md) | 0 | 1 | 0 | 2 | 3 | 0 | 6 |
+| [array-negative-marking](topics/array-negative-marking.md) | 0 | 0 | 0 | 2 | 4 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 0 | 1 | 5 | 8 | 0 | 19 |
 | [array-suffix-sum](topics/array-suffix-sum.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [backtracking-combination](topics/backtracking-combination.md) | 14 | 0 | 1 | 0 | 0 | 0 | 15 |
@@ -746,7 +744,7 @@
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 3 | 0 | 0 | 1 | 0 | 0 | 4 |
 | [binary-search-tree](topics/binary-search-tree.md) | 0 | 2 | 2 | 1 | 11 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 1 | 2 | 0 | 0 | 5 |
-| [bit-manipulation](topics/bit-manipulation.md) | 0 | 5 | 2 | 10 | 20 | 0 | 37 |
+| [bit-manipulation](topics/bit-manipulation.md) | 0 | 4 | 2 | 10 | 21 | 0 | 37 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 0 | 0 | 5 | 4 | 0 | 9 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 0 | 0 | 1 | 2 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 1 | 2 | 4 | 0 | 7 |

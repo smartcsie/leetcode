@@ -19,17 +19,20 @@
 class Solution {
 public:
     bool checkValid(vector<vector<int>>& matrix) {
+        if(matrix.size() == 1) return true;
+        bitset<101> rows, cols;
         int n = matrix.size();
-        
-        for(int i = 0; i < n; i++ ) {
-            bitset<101> row;
-            bitset<101> col;
-            for(int j = 0; j < n; j++ ) {
-                row.set(matrix[i][j]);
-                col.set(matrix[j][i]);
+        for(int i = 0; i < n; i++) {
+            rows.reset();
+            cols.reset();
+            for(int j = 0; j < n; j++) {
+                int rVal = matrix[i][j];
+                int cVal = matrix[j][i];
+                if(cVal < 1 || cVal > n || rVal < 1 || rVal > n) return false;
+                if(rows.test(rVal) || cols.test(cVal)) return false;
+                rows.set(rVal);
+                cols.set(cVal);
             }
-            if(col.count() != n || row.count() != n)
-                return false;
         }
         return true;
     }

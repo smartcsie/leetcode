@@ -4,14 +4,13 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（5）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Bit Manipulation, Math | [C++](../problems/0089.md) | O(2ᴺ) | O(1) | 2026-10-04 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit Manipulation, Bit-Manipulation | [C++](../problems/0137.md) | O(N) | O(1) | 2026-10-04 |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](../problems/0371.md) | O(1) | O(1) | 2026-10-04 |
-| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation, Hash Table, Bitset | [C++](../problems/2133.md) | O(N²) | O(N) | 2026-10-07 |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 Easy | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) | 2026-10-04 |
 
 ## 🟡 練習過（1）
@@ -38,7 +37,7 @@
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) | 2026-10-04 |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（24）
+## 🟢 熟悉（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -52,6 +51,7 @@
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 Easy | Bit Manipulation, String, Hash Table | [C++](../problems/1832.md) | O(N) | O(1) | 2026-09-17 |
 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 Easy | Bit Manipulation, Bitset, Simulation | [C++](../problems/1893.md) | O(N\*L) | O(1) | 2026-09-17 |
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 Easy | Bit Manipulation | [C++](../problems/2032.md) | O(N1+N2+N3) | O(1) | 2026-09-17 |
+| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Bit Manipulation | [C++](../problems/2133.md) | O(N²) | O(N) | 2026-10-16 |
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 Easy | Bit Manipulation, Hash Table, Counting | [C++](../problems/2206.md) | O(N) | O(1) | 2026-10-07 |
 | 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 Easy | Bit Manipulation, Hash Table, Bit Manipulation | [C++](../problems/2309.md) | O(N) | O(1) | 2026-09-19 |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 Easy | Bit Manipulation, Hash Set | [C++](../problems/2716.md) | O(N) | O(1) | 2026-09-17 |

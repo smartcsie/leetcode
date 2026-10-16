@@ -16,7 +16,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（17）
+## 🟢 熟悉（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -31,6 +31,7 @@
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 Easy | 2d Array, Simulation, Manhattan Distance | [C++](../problems/1779.md) | O(N) | O(1) | 2026-09-16 |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | 2d Array | [C++](../problems/1886.md) | O(N²) | O(1) | 2026-09-16 |
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 Easy | 2d Array | [C++](../problems/2022.md) | O(M\*N) | O(1) | 2026-09-16 |
+| 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | 2d Array | [C++](../problems/2133.md) | O(N²) | O(N) | 2026-10-16 |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](../problems/2319.md) | O(N²) | O(1) | 2026-09-16 |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 Medium | 2d Array, Prefix Sum, Matrix, Precomputation | [C++](../problems/2482.md) | O(M\*N) | O(M+N) | 2026-09-16 |
 | 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 Easy | 2d Array, Simulation | [C++](../problems/2639.md) | O(M\*N\*D) | O(1) | 2026-10-15 |
