@@ -6,14 +6,16 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array Linear Scan
-  - Brute Force
-  - Simulation
   topics:
   - array-linear-scan
-  time: O(N²)
-  space: O(1)
-  familiarity: 練習過
-  tricks: null
+  time: O(N + V)
+  space: O(V)
+  familiarity: 熟練
+  mastered_date: '2026-10-16'
+  attempts:
+  - date: '2026-10-16'
+    result: 對
+    reason: null
 - file: Solution_1608_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -23,4 +25,7 @@ solutions:
   time: O(N²)
   space: O(1)
   familiarity: 生疏
-  tricks: null
+  attempts:
+  - date: '2026-10-16'
+    result: 對
+    reason: null
