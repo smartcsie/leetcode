@@ -5,9 +5,9 @@ solutions:
 - file: Solution_1422.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array Linear Scan
+  - Array Prefix Sum
   topics:
-  - array-linear-scan
+  - array-prefix-sum
   time: O(N)
   space: O(1)
   familiarity: 熟練
@@ -19,6 +19,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-16'
+    result: 對
+    reason: null
   - date: '2026-10-16'
     result: 對
     reason: null

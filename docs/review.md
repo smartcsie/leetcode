@@ -734,10 +734,10 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 1 | 8 | 0 | 11 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 3 | 0 | 2 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 1 | 1 | 0 | 0 | 24 | 0 | 26 |
+| [array-linear-scan](topics/array-linear-scan.md) | 1 | 1 | 0 | 0 | 23 | 0 | 25 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 5 | 0 | 5 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 1 | 0 | 2 | 3 | 0 | 6 |
-| [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 0 | 1 | 5 | 7 | 0 | 18 |
+| [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 0 | 1 | 5 | 8 | 0 | 19 |
 | [array-suffix-sum](topics/array-suffix-sum.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [backtracking-combination](topics/backtracking-combination.md) | 14 | 0 | 1 | 0 | 0 | 0 | 15 |
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
