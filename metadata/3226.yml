@@ -5,12 +5,13 @@ solutions:
 - file: Solution_3226.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Hamming Distance
   topics:
   - hamming-distance
   time: O(1)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-16'
   note: '> **先確認k是n的binary子集合，if((n & k) != k) return -1;**<br>'
   attempts:
   - date: '2026-09-18'
@@ -19,3 +20,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-16'
+    result: 對
+    reason: null
