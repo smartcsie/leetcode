@@ -4,9 +4,11 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1250 | [Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/) | 🔴 Hard | Math Gcd | [C++](../problems/1250.md) | O(N log M) | O(1) | 2026-10-16 |
 
 ## 🟡 練習過（0）
 

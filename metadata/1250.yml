@@ -1,0 +1,22 @@
+number: 1250
+title: Check If It Is a Good Array
+url: https://leetcode.com/problems/check-if-it-is-a-good-array/
+solutions:
+- file: Solution_1250.cpp
+  difficulty: 🔴 Hard
+  tags:
+  - Math Gcd
+  topics:
+  - math-gcd
+  time: O(N log M)
+  space: O(1)
+  familiarity: 再練習
+  note: '> **貝祖定理的應用 (Bézout''s Identity)**<br>'
+  related:
+  - 365
+  tricks:
+  - Bézout's identity
+  attempts:
+  - date: '2026-10-16'
+    result: 對
+    reason: null
