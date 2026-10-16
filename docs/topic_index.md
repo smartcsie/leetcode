@@ -325,6 +325,7 @@
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0238.md) | O(N) | O(1) | 2026-10-15 |
 | 287 | 👑 **Negative Marking**<br>[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Array Negative Marking | [C++](problems/0287.md) | O(N) | O(1) | 2026-10-14 |
 | 414 | 👑 **Array Min Max Without Repeat**<br>[Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Array Min Max | [C++](problems/0414.md) | O(N) | O(1) | 2026-09-15 |
+| 435 | 👑 **Interval Scheduling**<br>[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Array Interval | [C++](problems/0435.md) | O(NlogN) | O(1) | 2026-10-16 |
 | 442 | 👑 **Negative Marking**<br>[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 Medium | Array Negative Marking | [C++](problems/0442.md) | O(N) | O(1) | 2026-10-14 |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Array Negative Marking | [C++](problems/0448.md) | O(N) | O(1) | 2026-10-14 |
 | 485 | 👑 **Linear Scan with Streak Reset**<br>[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array Continuous Counting | [C++](problems/0485.md) | O(N) | O(1) | 2026-09-16 |

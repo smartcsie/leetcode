@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 982 題　🔴 生疏：221 題　🟠 再練習：107 題　🟡 練習過：91 題　🟣 易忘：123 題　🟢 熟練：440 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 982 題　🔴 生疏：221 題　🟠 再練習：107 題　🟡 練習過：90 題　🟣 易忘：123 題　🟢 熟練：441 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 583 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 582 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（54）](#review-math)　[📊 Bit Manipulation（44）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（28）](#review-array)　[🌳 Tree（35）](#review-tree)　[🔍 Binary Search（22）](#review-binary-search)　[⛓️ Linked List（15）](#review-linked-list)　[👥 Pointers（40）](#review-pointers)　[🔑 Hash Table（17）](#review-hash-table)　[📚 Stack（16）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（54）](#review-math)　[📊 Bit Manipulation（44）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（27）](#review-array)　[🌳 Tree（35）](#review-tree)　[🔍 Binary Search（22）](#review-binary-search)　[⛓️ Linked List（15）](#review-linked-list)　[👥 Pointers（40）](#review-pointers)　[🔑 Hash Table（17）](#review-hash-table)　[📚 Stack（16）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（9）
@@ -168,11 +168,10 @@
 | 🟣 易忘 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) | 2026-10-04 |
 
 <a id="review-array"></a>
-#### 🍱 Array（28）
+#### 🍱 Array（27）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 🟡 練習過 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | Array Interval, Interval | [C++](problems/0435.md) | O(NlogN) | O(1) |  |
 | 🟡 練習過 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum | [C++](problems/0930.md) | O(N^2) | O(N) |  |
 | 🟡 練習過 | 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | 🟡 Medium | Array Interval, Two Pointers, Interval Processing | [C++](problems/0986.md) | O(M+N) | O(1) |  |
 | 🟡 練習過 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 Medium | Array Interval, Greedy | [C++](problems/1288.md) | O(NlogN) | O(logN) |  |
@@ -733,7 +732,7 @@
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 1 | 8 | 0 | 11 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
-| [array-interval](topics/array-interval.md) | 0 | 0 | 3 | 0 | 2 | 0 | 5 |
+| [array-interval](topics/array-interval.md) | 0 | 0 | 2 | 0 | 3 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 1 | 1 | 0 | 0 | 23 | 0 | 25 |
 | [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 5 | 0 | 5 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 1 | 0 | 2 | 3 | 0 | 6 |

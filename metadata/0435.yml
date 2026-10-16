@@ -6,19 +6,22 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Array Interval
-  - Interval
   topics:
   - array-interval
   time: O(NlogN)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-16'
   note: '> **要sort interval的尾**<br>
 
     > **if(prevEnd <= itvs[i][0]) prevEnd = itvs[i][1];**<br>
 
-    > **如果後面的開頭大於等於前面結尾，表示重疊，更新prevEnd**<br>
+    > **如果後面的開頭大於等於前面結尾，表示不重疊，更新prevEnd**<br>
 
-    > **else ans++;此為不重疊**<br>'
-  tricks: null
+    > **else ans++，此為重疊，ans 是需要移除的item，最後是Non-overlapping Intervals**<br>'
+  attempts:
+  - date: '2026-10-16'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Interval Scheduling
