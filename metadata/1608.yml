@@ -16,16 +16,3 @@ solutions:
   - date: '2026-10-16'
     result: 對
     reason: null
-- file: Solution_1608_1.cpp
-  difficulty: 🟢 Easy
-  tags:
-  - Binary Search On Answer
-  topics:
-  - binary-search-on-answer
-  time: O(N²)
-  space: O(1)
-  familiarity: 生疏
-  attempts:
-  - date: '2026-10-16'
-    result: 對
-    reason: null
