@@ -4959,7 +4959,11 @@
 
 <h1 id="435-non-overlapping-intervals">435. Non-overlapping Intervals<a class="headerlink" href="#435-non-overlapping-intervals" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/non-overlapping-intervals/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Array Interval, Interval　<strong>時間:</strong> O(NlogN)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過　👑 <strong>代表題（Interval Scheduling）</strong></p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Array Interval　<strong>時間:</strong> O(NlogN)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練　👑 <strong>代表題（Interval Scheduling）</strong></p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-10-16</strong> 對</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：435. Non-overlapping Intervals (無重疊區間)</span>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
@@ -4995,8 +4999,8 @@
 <blockquote>
 <p><strong>要sort interval的尾</strong><br>
 <strong>if(prevEnd &lt;= itvs[i][0]) prevEnd = itvs[i][1];</strong><br>
-<strong>如果後面的開頭大於等於前面結尾，表示重疊，更新prevEnd</strong><br>
-<strong>else ans++;此為不重疊</strong><br></p>
+<strong>如果後面的開頭大於等於前面結尾，表示不重疊，更新prevEnd</strong><br>
+<strong>else ans++，此為重疊，ans 是需要移除的item，最後是Non-overlapping Intervals</strong><br></p>
 </blockquote>
 
 
