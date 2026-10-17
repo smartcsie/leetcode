@@ -6,8 +6,6 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Binary Search Tree
-  - DFS
-  - BST
   topics:
   - binary-search-tree
   time: O(N)
@@ -24,6 +22,9 @@ solutions:
   - date: '2026-10-05'
     result: 對
     reason: null
+  - date: '2026-10-17'
+    result: 對
+    reason: null
 - file: Solution_0938_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -32,11 +33,15 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-17'
   attempts:
   - date: '2026-09-25'
     result: 對
     reason: null
   - date: '2026-10-05'
+    result: 對
+    reason: null
+  - date: '2026-10-17'
     result: 對
     reason: null
