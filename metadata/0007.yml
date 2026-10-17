@@ -10,7 +10,8 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-17'
   note: '> **[overflow handle] 反轉後超過 INT_MAX** <br>
 
     > **x 本身是合法的 int，所以它反轉前的最高位最多是 2（因為 INT_MAX 開頭是 2）**<br>
@@ -29,3 +30,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-17'
+    result: 對
+    reason: null

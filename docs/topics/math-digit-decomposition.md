@@ -4,11 +4,10 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（2）
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math Digit Decomposition | [C++](../problems/0007.md) | O(logN) | O(1) | 2026-10-04 |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math Digit Decomposition, Digit Extraction | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) | 2026-10-04 |
 
 ## 🟡 練習過（1）
@@ -25,10 +24,11 @@
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) | 2026-10-04 |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（36）
+## 🟢 熟悉（37）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | Math Digit Decomposition | [C++](../problems/0007.md) | O(logN) | O(1) | 2026-10-17 |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | Math Digit Decomposition, Math | [C++](../problems/0008.md) | O(N) | O(1) | 2026-10-17 |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](../problems/0168.md) | O(log26N) | O(1) | 2026-10-08 |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](../problems/0171.md) | O(N) | O(1) | 2026-09-17 |
