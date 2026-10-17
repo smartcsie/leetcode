@@ -15,6 +15,12 @@ solutions:
   note: '> **ListNode* new_node = new ListNode(carry % 10, head);**<br>
 
     > **head = new_node;**<br>'
+  related:
+  - 2
+  - 66
+  - 67
+  - 415
+  - 989
   tricks:
   - number addition
   attempts:
@@ -24,3 +30,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-17'
+    result: 對
+    reason: null

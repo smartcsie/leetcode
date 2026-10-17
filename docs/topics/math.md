@@ -38,8 +38,8 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](../problems/0066.md) | O(N) | O(1) | 2026-10-16 |
-| 67 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](../problems/0067.md) | O(max(M,N)) | O(1) | 2026-09-22 |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](../problems/0066.md) | O(N) | O(1) | 2026-10-17 |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](../problems/0067.md) | O(max(M,N)) | O(1) | 2026-10-17 |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](../problems/0231.md) | O(1) | O(1) | 2026-09-13 |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](../problems/0258.md) | O(logn) | O(1) | 2026-10-08 |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](../problems/0263.md) | O(logN) | O(1) | 2026-09-14 |
@@ -48,7 +48,7 @@
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) | 2026-10-08 |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) | 2026-10-08 |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math, String | [C++](../problems/0412.md) | O(N) | O(1) | 2026-09-20 |
-| 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | Math, String | [C++](../problems/0415.md) | O(max(N,M)) | O(max(N,M)) | 2026-09-22 |
+| 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | Math, String | [C++](../problems/0415.md) | O(max(N,M)) | O(max(N,M)) | 2026-10-17 |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | Math | [C++](../problems/1015.md) | O(K) | O(1) | 2026-10-08 |
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math | [C++](../problems/1018.md) | O(N) | O(1) | 2026-10-08 |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Math | [C++](../problems/1295.md) | O(N) | O(1) | 2026-09-20 |

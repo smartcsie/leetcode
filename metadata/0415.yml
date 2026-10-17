@@ -15,10 +15,17 @@ solutions:
   mastered_date: '2026-09-22'
   note: '> 和 0067[Add Binary](https://leetcode.com/problems/add-binary) 幾乎一樣<br>'
   related:
+  - 2
+  - 66
   - 67
+  - 445
+  - 989
   tricks:
   - number addition
   attempts:
   - date: '2026-09-22'
+    result: 對
+    reason: null
+  - date: '2026-10-17'
     result: 對
     reason: null

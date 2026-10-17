@@ -30,7 +30,11 @@ solutions:
 
     > **reverse(res.begin(), res.end());** <br>'
   related:
+  - 2
+  - 66
   - 415
+  - 445
+  - 989
   tricks:
   - number addition
   attempts:
@@ -41,6 +45,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-22'
+    result: 對
+    reason: null
+  - date: '2026-10-17'
     result: 對
     reason: null
   is_representative: true

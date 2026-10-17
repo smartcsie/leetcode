@@ -36,7 +36,7 @@
 | 🟡 練習過 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math Permutation | [C++](problems/0060.md) | O(N × N!) | O(N) |  |
 | 🟡 練習過 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 Easy | Math Combination, Combinatorics | [C++](problems/0119.md) | O(N) | O(1) |  |
 | 🟡 練習過 | 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | 🟢 Easy | Math Geometry | [C++](problems/0812.md) | O(N³) | O(1) |  |
-| 🟡 練習過 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation, Carry Propagation | [C++](problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) |  |
+| 🟡 練習過 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation, Carry Propagation | [C++](problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) | 2026-10-17 |
 | 🟡 練習過 | 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 Easy | Math Simulation, Simulation | [C++](problems/2293.md) | O(N) | O(N) |  |
 | 🟠 再練習 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](problems/0009.md) | O(logN) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination | [C++](problems/0062.md) | O(min(M,N)) | O(1) | 2026-10-08 |
@@ -351,7 +351,7 @@
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](problems/0020.md) | O(N) | O(N) | 2026-10-04 |
-| 🟠 再練習 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Stack, Stack | [C++](problems/0445.md) | O(N+M) | O(N+M) | 2026-10-04 |
+| 🟠 再練習 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Stack, Stack | [C++](problems/0445.md) | O(N+M) | O(N+M) | 2026-10-17 |
 | 🟠 再練習 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 Medium | Stack, String | [C++](problems/1003.md) | O(N) | O(N) | 2026-10-04 |
 | 🟠 再練習 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | Stack, Counter | [C++](problems/1021.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 Easy | String, Stack | [C++](problems/1544.md) | O(N) | O(N) | 2026-10-04 |

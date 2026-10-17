@@ -37,7 +37,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 Medium | Linked List, Math | [C++](../problems/0002.md) | O(max(N,M)) | O(max(N,M)) | 2026-09-22 |
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 Medium | Linked List, Math | [C++](../problems/0002.md) | O(max(N,M)) | O(max(N,M)) | 2026-10-17 |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | 🟢 Easy | Linked List | [C++](../problems/0206.md) | O(N) | O(1) | 2026-09-25 |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List, Two Pointers, Vector | [C++](../problems/0234.md) | O(N) | O(N) | 2026-09-25 |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | 🟢 Easy | Linked List | [C++](../problems/0234.md) |  |  | 2026-09-25 |

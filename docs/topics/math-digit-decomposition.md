@@ -14,7 +14,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation, Carry Propagation | [C++](../problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) |  |
+| 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation, Carry Propagation | [C++](../problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) | 2026-10-17 |
 
 ## 🟣 易忘（3）
 

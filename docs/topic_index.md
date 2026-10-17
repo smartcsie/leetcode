@@ -17,8 +17,8 @@
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math, Binary Exponentiation | [C++](problems/0050.md) | O(logN) | O(1) | 2026-10-04 |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math Permutation, Factorial | [C++](problems/0060.md) | O(N²) | O(N) | 2026-10-04 |
 | 62 | 👑 **DP on Grid**<br>[Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination | [C++](problems/0062.md) | O(min(M,N)) | O(1) | 2026-10-08 |
-| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](problems/0066.md) | O(N) | O(1) | 2026-10-16 |
-| 67 | 👑 **String Number Addition**<br>[Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](problems/0067.md) | O(max(M,N)) | O(1) | 2026-09-22 |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](problems/0066.md) | O(N) | O(1) | 2026-10-17 |
+| 67 | 👑 **String Number Addition**<br>[Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](problems/0067.md) | O(max(M,N)) | O(1) | 2026-10-17 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](problems/0137.md) | O(N) | O(N) | 2026-10-04 |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](problems/0168.md) | O(log26N) | O(1) | 2026-10-08 |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](problems/0171.md) | O(N) | O(1) | 2026-09-17 |
@@ -40,7 +40,7 @@
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](problems/0396.md) | O(N) | O(1) | 2026-10-04 |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math Digit Decomposition, Bit Manipulation | [C++](problems/0405.md) | O(1) | O(1) | 2026-10-15 |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math, String | [C++](problems/0412.md) | O(N) | O(1) | 2026-09-20 |
-| 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | Math, String | [C++](problems/0415.md) | O(max(N,M)) | O(max(N,M)) | 2026-09-22 |
+| 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | Math, String | [C++](problems/0415.md) | O(max(N,M)) | O(max(N,M)) | 2026-10-17 |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) | 2026-10-04 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math Digit Decomposition, String | [C++](problems/0504.md) | O(log₇N) | O(1) | 2026-10-08 |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math Factor Enumeration | [C++](problems/0507.md) | O(√N) | O(1) | 2026-10-08 |
@@ -54,6 +54,7 @@
 | 914 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | 🟢 Easy | Math Gcd | [C++](problems/0914.md) | O(N) | O(N) | 2026-10-08 |
 | 949 | 👑 **next_permutation**<br>[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | Math Permutation, Permutation | [C++](problems/0949.md) | O(1) | O(1) | 2026-10-08 |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math, Hash Table | [C++](problems/0970.md) | O(log_X(BOUND)\*log_Y(BOUND)) | O(S) | 2026-10-04 |
+| 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation, Carry Propagation | [C++](problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) | 2026-10-17 |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | Math | [C++](problems/1015.md) | O(K) | O(1) | 2026-10-08 |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math Digit Decomposition, 504, 1837 | [C++](problems/1017.md) | O(logN) | O(1) | 2026-10-08 |
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math | [C++](problems/1018.md) | O(N) | O(1) | 2026-10-08 |
@@ -617,7 +618,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2 | 👑 **Linked List Number Addition**<br>[Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 Medium | Linked List, Math | [C++](problems/0002.md) | O(max(N,M)) | O(max(N,M)) | 2026-09-22 |
+| 2 | 👑 **Linked List Number Addition**<br>[Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 Medium | Linked List, Math | [C++](problems/0002.md) | O(max(N,M)) | O(max(N,M)) | 2026-10-17 |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | Linked List | [C++](problems/0021.md) | O(N+M) | O(1) | 2026-10-04 |
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 Medium | Linked List, Recursion | [C++](problems/0024.md) | O(N) | O(N) | 2026-10-04 |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 Hard | Linked List | [C++](problems/0025.md) | O(N) | O(1) | 2026-10-04 |
@@ -643,7 +644,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20 | 👑 **Parentheses Check**<br>[Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](problems/0020.md) | O(N) | O(N) | 2026-10-04 |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | Stack | [C++](problems/0150.md) | O(N) | O(N) | 2026-09-26 |
-| 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Stack, Stack | [C++](problems/0445.md) | O(N+M) | O(N+M) | 2026-10-04 |
+| 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Stack, Stack | [C++](problems/0445.md) | O(N+M) | O(N+M) | 2026-10-17 |
 | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Stack | [C++](problems/0682.md) | O(N) | O(N) | 2026-09-26 |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 Medium | Stack, String | [C++](problems/1003.md) | O(N) | O(N) | 2026-10-04 |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | Stack, Counter | [C++](problems/1021.md) | O(N) | O(1) | 2026-10-04 |

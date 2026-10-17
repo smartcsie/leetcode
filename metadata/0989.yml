@@ -14,5 +14,15 @@ solutions:
   space: O(max(N,logK))
   familiarity: 練習過
   note: '> **考慮num長度或k長度，要找其中比較大的，所以i >=0 || k > 0**<br>'
+  related:
+  - 2
+  - 66
+  - 67
+  - 415
+  - 445
   tricks:
   - number addition
+  attempts:
+  - date: '2026-10-17'
+    result: 對
+    reason: null

@@ -20,10 +20,19 @@ solutions:
     > **ListNode* cur = dummy;**<br>
 
     > **cur->next = new ListNode(carry % 10);**<br>'
+  related:
+  - 66
+  - 67
+  - 415
+  - 445
+  - 989
   tricks:
   - number addition
   attempts:
   - date: '2026-09-22'
+    result: 對
+    reason: null
+  - date: '2026-10-17'
     result: 對
     reason: null
   is_representative: true
