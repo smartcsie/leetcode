@@ -4959,7 +4959,11 @@
 
 <h1 id="8-string-to-integer-atoi">8. String to Integer (atoi)<a class="headerlink" href="#8-string-to-integer-atoi" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/string-to-integer-atoi">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Math Digit Decomposition, Math　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟡 練習過</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Math Digit Decomposition, Math　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-10-17</strong> 對</li>
+</ul>
 <p><strong>技巧:</strong> overflow handle</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：8. String to Integer (atoi)</span>
@@ -4999,12 +5003,11 @@
 </code></pre></div>
 <blockquote>
 <p><strong>[overflow handle]累加數字超過 INT_MAX</strong><br>
-<strong>處裡多餘空白，while(i &lt; n &amp;&amp; s[i] == ' ') i++;</strong><br>
-<strong>處裡正負號，int sign = 1;  if(s[i] == '+' || s[i] == '-' )</strong><br>
-<strong>sign = (s[i] == '+') ? 1 : -1;</strong><br>
-<strong>if(res &gt; (INT_MAX - digit) / 10) </strong><br>
-<strong>return sign == 1 ? INT_MAX : INT_MIN;</strong><br>
-<strong>res = res * 10 + digit;</strong><br></p>
+<strong>(1)處理多餘空白，while(i &lt; n &amp;&amp; s[i] == ' ') i++;</strong><br>
+<strong>(2)直接處理正負號，int sign = 1;  if(s[idx] == '-') sign = -sign; </strong><br>
+<strong>(3) </strong>(2)直接處理正負號，int sign = 1;  if(s[idx] == '-') sign = -sign; <strong><br>
+</strong>(4)overflow 直接return<strong><br>
+</strong>if(ans &gt; (INT_MAX - digit)/ 10) return (sign == 1) ? INT_MAX : INT_MIN;**<br></p>
 </blockquote>
 
 
