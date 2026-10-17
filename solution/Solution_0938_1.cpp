@@ -10,19 +10,16 @@
  * （中序 DFS）：
  * 中序遍歷 BST，遇到值在範圍內的節點就累加，利用 BST 性質可剪枝。
  */
+
 class Solution {
 private:
-    void dfs(TreeNode* root, int low, int high, int& sum) {
-        if(!root) return;
-        dfs(root->left, low, high, sum);
-        if(root->val >= low && root->val <= high)sum += root->val;
-        dfs(root->right, low, high, sum);
-    }
+    int sum = 0;
 public:
     int rangeSumBST(TreeNode* root, int low, int high) {
         if(!root) return 0;
-        int sum = 0;
-        dfs(root, low, high, sum);
+        if(root->val >= low && root->val <= high) sum += root->val;
+        rangeSumBST(root->left, low, high);
+        rangeSumBST(root->right, low, high);
         return sum;
     }
 };

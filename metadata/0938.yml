@@ -25,6 +25,9 @@ solutions:
   - date: '2026-10-17'
     result: 對
     reason: null
+  - date: '2026-10-17'
+    result: 對
+    reason: null
 - file: Solution_0938_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -40,6 +43,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-05'
+    result: 對
+    reason: null
+  - date: '2026-10-17'
     result: 對
     reason: null
   - date: '2026-10-17'
