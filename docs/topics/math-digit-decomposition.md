@@ -10,11 +10,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 Easy | Math Digit Decomposition, Digit Extraction | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) | 2026-10-04 |
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation, Carry Propagation | [C++](../problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) | 2026-10-17 |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（3）
 
@@ -24,7 +22,7 @@
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) | 2026-10-04 |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（37）
+## 🟢 熟悉（38）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -35,6 +33,7 @@
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math Digit Decomposition, Bit Manipulation | [C++](../problems/0405.md) | O(1) | O(1) | 2026-10-15 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math Digit Decomposition, String | [C++](../problems/0504.md) | O(log₇N) | O(1) | 2026-10-08 |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/0868.md) | O(logN) | O(1) | 2026-09-26 |
+| 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) | 2026-10-17 |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math Digit Decomposition, 504, 1837 | [C++](../problems/1017.md) | O(logN) | O(1) | 2026-10-08 |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/1281.md) | O(logN) | O(1) | 2026-09-14 |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/1317.md) | O(N\*logN) | O(1) | 2026-09-23 |

@@ -54,7 +54,7 @@
 | 914 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | 🟢 Easy | Math Gcd | [C++](problems/0914.md) | O(N) | O(N) | 2026-10-08 |
 | 949 | 👑 **next_permutation**<br>[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | Math Permutation, Permutation | [C++](problems/0949.md) | O(1) | O(1) | 2026-10-08 |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math, Hash Table | [C++](problems/0970.md) | O(log_X(BOUND)\*log_Y(BOUND)) | O(S) | 2026-10-04 |
-| 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition, Simulation, Carry Propagation | [C++](problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) | 2026-10-17 |
+| 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition | [C++](problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) | 2026-10-17 |
 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 Medium | Math | [C++](problems/1015.md) | O(K) | O(1) | 2026-10-08 |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math Digit Decomposition, 504, 1837 | [C++](problems/1017.md) | O(logN) | O(1) | 2026-10-08 |
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 Easy | Math | [C++](problems/1018.md) | O(N) | O(1) | 2026-10-08 |
