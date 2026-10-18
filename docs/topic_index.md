@@ -19,6 +19,7 @@
 | 62 | 👑 **DP on Grid**<br>[Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination | [C++](problems/0062.md) | O(min(M,N)) | O(1) | 2026-10-08 |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](problems/0066.md) | O(N) | O(1) | 2026-10-17 |
 | 67 | 👑 **String Number Addition**<br>[Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](problems/0067.md) | O(max(M,N)) | O(1) | 2026-10-17 |
+| 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Math Formula | [C++](problems/0089.md) | O(2ᴺ) | O(1) | 2026-10-18 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](problems/0137.md) | O(N) | O(N) | 2026-10-04 |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](problems/0168.md) | O(log26N) | O(1) | 2026-10-08 |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](problems/0171.md) | O(N) | O(1) | 2026-09-17 |
@@ -227,7 +228,6 @@
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/0029.md) | O(log²N) | O(1) | 2026-10-04 |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation | [C++](problems/0029.md) | O(log²N) | O(1) | 2026-10-04 |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | Bit Manipulation | [C++](problems/0036.md) | O(1) | O(1) | 2026-10-16 |
-| 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/0089.md) | O(2ᴺ) | O(1) | 2026-10-04 |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) | 2026-10-04 |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) | 2026-10-04 |
 | 136 | 👑 **Accumulate XOR**<br>[Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit Manipulation Xor, Bit-Manipulation | [C++](problems/0136.md) | O(N) | O(1) | 2026-09-14 |

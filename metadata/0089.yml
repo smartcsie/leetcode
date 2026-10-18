@@ -5,17 +5,18 @@ solutions:
 - file: Solution_0089.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
-  - Math
+  - Math Formula
   topics:
-  - bit-manipulation
+  - math-formula
   time: O(2ᴺ)
   space: O(1)
-  familiarity: 再練習
-  note: '> [Gray Code](https://leetcode.com/problems/gray-code/)<br>
-
-    > 數字i的Gray code為 **i ⊕ (i >> 1)** <br>'
+  familiarity: 熟練
+  mastered_date: '2026-10-18'
+  note: '> **數字i的Gray code為 **i ⊕ (i >> 1)** <br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-18'
+    result: 對
+    reason: null

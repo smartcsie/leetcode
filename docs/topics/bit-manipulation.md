@@ -4,11 +4,10 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（3）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Bit Manipulation, Math | [C++](../problems/0089.md) | O(2ᴺ) | O(1) | 2026-10-04 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Bit Manipulation, Bit-Manipulation | [C++](../problems/0137.md) | O(N) | O(1) | 2026-10-04 |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](../problems/0371.md) | O(1) | O(1) | 2026-10-04 |
 

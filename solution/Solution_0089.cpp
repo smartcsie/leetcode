@@ -13,10 +13,10 @@
 class Solution {
 public:
     vector<int> grayCode(int n) {
-        vector<int> res;
-        for (int i = 0; i < (1 << n); i++) {
-            res.push_back(i ^ (i >> 1));
+        vector<int> ans(1 << n);
+        for(int i = 0; i < 1 << n; i++) {
+            ans[i] = i ^ (i >> 1);
         }
-        return res;
+        return ans;
     }
 };
