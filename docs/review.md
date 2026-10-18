@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 983 題　🔴 生疏：220 題　🟠 再練習：96 題　🟡 練習過：81 題　🟣 易忘：124 題　🟢 熟練：462 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 983 題　🔴 生疏：220 題　🟠 再練習：96 題　🟡 練習過：80 題　🟣 易忘：124 題　🟢 熟練：463 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 557 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 556 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（45）](#review-math)　[📊 Bit Manipulation（41）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（25）](#review-array)　[🌳 Tree（34）](#review-tree)　[🔍 Binary Search（21）](#review-binary-search)　[⛓️ Linked List（14）](#review-linked-list)　[👥 Pointers（34）](#review-pointers)　[🔑 Hash Table（16）](#review-hash-table)　[📚 Stack（16）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（45）](#review-math)　[📊 Bit Manipulation（41）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（25）](#review-array)　[🌳 Tree（34）](#review-tree)　[🔍 Binary Search（21）](#review-binary-search)　[⛓️ Linked List（14）](#review-linked-list)　[👥 Pointers（33）](#review-pointers)　[🔑 Hash Table（16）](#review-hash-table)　[📚 Stack（16）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（9）
@@ -274,14 +274,13 @@
 | 🟣 易忘 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) | 2026-10-04 |
 
 <a id="review-pointers"></a>
-#### 👥 Pointers（34）
+#### 👥 Pointers（33）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟡 練習過 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 Medium | Linked List, Fast-Slow Pointers | [C++](problems/0142.md) | O(N) | O(1) |  |
 | 🟡 練習過 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | Two Pointers Other, Two Pointers | [C++](problems/0557.md) | O(N) | O(1) |  |
 | 🟡 練習過 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0611.md) | O(N²) | O(1) |  |
-| 🟡 練習過 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | Array, Two Pointers | [C++](problems/3819.md) | O(N) | O(N) |  |
 | 🟠 再練習 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Fast Slow Pointers | [C++](problems/0283.md) | O(N) | O(1) | 2026-10-04 |
@@ -820,7 +819,7 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 1 | 0 | 1 | 4 | 10 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 0 | 0 | 0 | 2 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 9 | 2 | 1 | 3 | 4 | 0 | 19 |
+| [two-pointers-same](topics/two-pointers-same.md) | 9 | 2 | 0 | 3 | 5 | 0 | 19 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 0 | 0 | 0 | 14 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 1 | 0 | 0 | 0 | 11 |

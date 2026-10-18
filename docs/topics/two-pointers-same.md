@@ -21,11 +21,9 @@
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 🟢 Easy | String, Two Pointers | [C++](../problems/0541.md) | O(N) | O(1) | 2026-10-04 |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 Medium | Two Pointers Same, Two Pointers | [C++](../problems/2109.md) | O(N+M) | O(N+M) | 2026-10-04 |
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | Array, Two Pointers | [C++](../problems/3819.md) | O(N) | O(N) |  |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（2）
 
@@ -34,7 +32,7 @@
 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | Two Pointers Same, Two Pointers, State Transition | [C++](../problems/3637.md) | O(N) | O(1) | 2026-10-04 |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](../problems/3940.md) | O(N) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -43,3 +41,4 @@
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](../problems/1768.md) | O(N+M) | O(1) | 2026-09-18 |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](../problems/2540.md) | O(N+M) | O(1) | 2026-09-15 |
 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Two Pointers Same | [C++](../problems/2864.md) | O(N) | O(1) | 2026-10-18 |
+| 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](../problems/3819.md) | O(N) | O(N) | 2026-10-18 |
