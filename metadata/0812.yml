@@ -5,9 +5,14 @@ solutions:
 - file: Solution_0812.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math Geometry
+  - Math Formula
   topics:
-  - math-geometry
+  - math-formula
   time: O(N³)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-18'
+  attempts:
+  - date: '2026-10-18'
+    result: 對
+    reason: null
