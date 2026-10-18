@@ -54,6 +54,7 @@ nav:
       - math: topics/math.md
       - math-permutation: topics/math-permutation.md
       - math-combination: topics/math-combination.md
+      - math-formula: topics/math-formula.md
       - math-prime: topics/math-prime.md
       - math-game-theory: topics/math-game-theory.md
       - math-gcd: topics/math-gcd.md
