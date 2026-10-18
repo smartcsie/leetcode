@@ -658,7 +658,7 @@
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | Stack, Counter | [C++](problems/1021.md) | O(N) | O(1) | 2026-10-04 |
 | 1047 | 👑 **String Stack**<br>[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 Easy | Stack, String | [C++](problems/1047.md) | O(N) | O(N) | 2026-09-21 |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 Easy | Stack, String Parsing | [C++](problems/1078.md) | O(N) | O(N) | 2026-09-26 |
-| 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 Easy | String, Stack | [C++](problems/1544.md) | O(N) | O(N) | 2026-10-04 |
+| 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 Easy | Stack | [C++](problems/1544.md) | O(N) | O(N) | 2026-10-18 |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 Medium | Stack, String | [C++](problems/2390.md) | O(N) | O(N) | 2026-09-21 |
 | 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 Easy | Stack | [C++](problems/3174.md) | O(N) | O(N) | 2026-09-26 |
 

@@ -14,14 +14,11 @@
 class Solution {
 public:
     string makeGood(string s) {
-        string res;
+        string ans;
         for(const char& c : s) {
-            if(!res.empty() && abs(c - res.back()) == 32) {
-                res.pop_back();
-            } else {
-                res.push_back(c);
-            }
+            if(!ans.empty() && abs(c - ans.back()) == 32) ans.pop_back();
+            else ans.push_back(c);
         }
-        return res;
+        return ans;
     }
 };
