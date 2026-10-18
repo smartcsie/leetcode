@@ -17,12 +17,13 @@ class Solution {
 public:
     int countTriples(int n) {
         int ans = 0;
-        unordered_set<int> squared;
-        for (int i = 1; i <= n; ++i)
-            squared.insert(i * i);
-        for (const int a : squared)
-            for (const int b : squared)
-                if (squared.contains(a + b)) ++ans;
+        for(int a = 1; a < n; a++) {
+            for(int b = 1; b < n; b++) {
+                int x = a * a + b * b;
+                int c = static_cast<int>(sqrt(x));
+                if(c <= n && c * c == x) ans++;
+            }
+        }
         return ans;
     }
 };
