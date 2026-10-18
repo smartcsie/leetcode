@@ -227,7 +227,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation, Math | [C++](problems/0029.md) | O(log²N) | O(1) | 2026-10-04 |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation | [C++](problems/0029.md) | O(log²N) | O(1) | 2026-10-04 |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | Bit Manipulation | [C++](problems/0036.md) | O(1) | O(1) | 2026-10-16 |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 Medium | Bit Manipulation | [C++](problems/0036.md) | O(1) | O(1) | 2026-10-18 |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) | 2026-10-04 |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | Bit Bitmask Subset Enumeration, Sorting, Hash Set (Duplicate De-duplication) | [C++](problems/0090.md) | O(2ᴺ\*Nlog(2ᴺ)) | O(2ᴺ\*N) | 2026-10-04 |
 | 136 | 👑 **Accumulate XOR**<br>[Single Number](https://leetcode.com/problems/single-number) | 🟢 Easy | Bit Manipulation Xor, Bit-Manipulation | [C++](problems/0136.md) | O(N) | O(1) | 2026-09-14 |

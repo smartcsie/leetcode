@@ -10,7 +10,8 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-10-18'
   note: '> **int b = r / 3 * 3 + c / 3;**<br>'
   attempts:
   - date: '2026-10-04'
@@ -20,5 +21,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-16'
+    result: 對
+    reason: null
+  - date: '2026-10-18'
     result: 對
     reason: null
