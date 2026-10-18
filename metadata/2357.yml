@@ -6,13 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Uniqueness
-  - Hash Set
   topics:
   - hash-table-uniqueness
   time: O(N)
   space: O(N)
-  familiarity: 易忘
-  note: '> 不重複的元素個數 - 0 的個數（因為 0 不需要被減去）'
+  familiarity: 熟練
+  mastered_date: '2026-10-18'
+  note: '> **不重複的元素個數 - 0 的個數（因為 0 不需要被減去**<br>'
   tricks:
   - remove duplicates
   attempts:
@@ -25,3 +25,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-18'
+    result: 對
+    reason: null

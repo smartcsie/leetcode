@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 983 題　🔴 生疏：220 題　🟠 再練習：88 題　🟡 練習過：78 題　🟣 易忘：124 題　🟢 熟練：473 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 983 題　🔴 生疏：220 題　🟠 再練習：88 題　🟡 練習過：78 題　🟣 易忘：123 題　🟢 熟練：474 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 545 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 544 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（43）](#review-math)　[📊 Bit Manipulation（39）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（25）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（19）](#review-binary-search)　[⛓️ Linked List（14）](#review-linked-list)　[👥 Pointers（33）](#review-pointers)　[🔑 Hash Table（14）](#review-hash-table)　[📚 Stack（16）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（43）](#review-math)　[📊 Bit Manipulation（39）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（25）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（19）](#review-binary-search)　[⛓️ Linked List（14）](#review-linked-list)　[👥 Pointers（33）](#review-pointers)　[🔑 Hash Table（13）](#review-hash-table)　[📚 Stack（16）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（9）
@@ -304,7 +304,7 @@
 | 🟣 易忘 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/3940.md) | O(N) | O(1) | 2026-10-04 |
 
 <a id="review-hash-table"></a>
-#### 🔑 Hash Table（14）
+#### 🔑 Hash Table（13）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -321,7 +321,6 @@
 | 🔴 生疏 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 Medium | String, Hash Map | [C++](problems/3926.md) | O(N+M) | O(N) |  |
 | 🟣 易忘 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](problems/0202.md) | O(logN) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Existence | [C++](problems/0532.md) | O(NlogN) | O(N) | 2026-10-07 |
-| 🟣 易忘 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 Easy | Hash Table Uniqueness, Hash Set | [C++](problems/2357.md) | O(N) | O(N) | 2026-10-04 |
 
 <a id="review-stack"></a>
 #### 📚 Stack（16）
@@ -761,7 +760,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 2 | 1 | 1 | 2 | 13 | 0 | 19 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 0 | 0 | 1 | 12 | 0 | 13 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 0 | 0 | 0 | 9 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 2 | 0 | 1 | 15 | 0 | 20 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 2 | 0 | 0 | 16 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 0 | 6 | 3 | 3 | 5 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [math](topics/math.md) | 0 | 4 | 0 | 10 | 23 | 0 | 37 |

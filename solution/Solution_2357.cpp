@@ -18,8 +18,9 @@
 
 class Solution {
 public:
-    int minimumOperations(std::vector<int>& nums) {
-        unordered_set sets(nums.begin(), nums.end());
-        return sets.size() - sets.count(0);
+    int minimumOperations(vector<int>& nums) {
+        unordered_set<int> seen;
+        for(const int& x : nums) if(x != 0) seen.insert(x);
+        return seen.size();
     }
 };
