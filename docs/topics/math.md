@@ -40,8 +40,8 @@
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](../problems/0066.md) | O(N) | O(1) | 2026-10-17 |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](../problems/0067.md) | O(max(M,N)) | O(1) | 2026-10-17 |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](../problems/0231.md) | O(1) | O(1) | 2026-09-13 |
-| 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](../problems/0258.md) | O(1) | O(1) | 2026-10-17 |
-| 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](../problems/0258.md) | O(logn) | O(1) | 2026-10-17 |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](../problems/0258.md) | O(1) | O(1) | 2026-10-18 |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](../problems/0258.md) | O(logn) | O(1) | 2026-10-18 |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](../problems/0263.md) | O(logN) | O(1) | 2026-09-14 |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Math | [C++](../problems/0268.md) | O(N) | O(1) | 2026-10-16 |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](../problems/0326.md) | O(log₃N) | O(1) | 2026-09-13 |

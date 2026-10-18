@@ -13,6 +13,8 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-10-17'
   note: '> **(num - 1) % 9 + 1** <br>'
+  tricks:
+  - math formula
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -24,6 +26,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-17'
+    result: 對
+    reason: null
+  - date: '2026-10-18'
     result: 對
     reason: null
 - file: Solution_0258_1.cpp
@@ -41,5 +46,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-17'
+    result: 對
+    reason: null
+  - date: '2026-10-18'
     result: 對
     reason: null
