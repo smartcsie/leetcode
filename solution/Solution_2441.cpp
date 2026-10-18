@@ -19,12 +19,12 @@
 class Solution {
 public:
     int findMaxK(vector<int>& nums) {
-        int mx = INT_MIN;
+        int mx = -1;
         unordered_set<int> seen;
         for(const int& x : nums) {
             if(seen.contains(-x)) mx = max(mx, abs(x));
             seen.insert(x);
         }
-        return mx == INT_MIN ? -1 : mx;
+        return mx;
     }
 };
