@@ -11,8 +11,13 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-18'
   related:
   - 26
   - 27
   - 283
+  attempts:
+  - date: '2026-10-18'
+    result: 對
+    reason: null
