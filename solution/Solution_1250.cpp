@@ -27,11 +27,10 @@ class Solution {
 public:
     bool isGoodArray(vector<int>& nums) {
         int val = 0;  // 目前累積的 gcd，初始 0 使 gcd(x, 0) = x
-
         for (const int& x : nums) {
             val = gcd(x, val);  // 把 x 併入整體 gcd
+            if(val == 1) return true;
         }
-
         return val == 1;  // 整體 gcd 為 1，代表能線性組合出 1
     }
 };

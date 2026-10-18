@@ -63,7 +63,7 @@
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy | Math Gcd, String, GCD | [C++](problems/1071.md) | O(N+M) | O(N+M) | 2026-10-08 |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | Math, Zeller's Congruence | [C++](problems/1185.md) | O(1) | O(1) | 2026-10-04 |
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | 🟢 Easy | Math Geometry, Geometry | [C++](problems/1232.md) | O(N) | O(1) | 2026-09-22 |
-| 1250 | [Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/) | 🔴 Hard | Math Gcd | [C++](problems/1250.md) | O(N log M) | O(1) | 2026-10-16 |
+| 1250 | [Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/) | 🔴 Hard | Math Gcd | [C++](problems/1250.md) | O(N log M) | O(1) | 2026-10-18 |
 | 1281 | 👑 **Digit Decomposition**<br>[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/1281.md) | O(logN) | O(1) | 2026-09-14 |
 | 1295 | 👑 **number digits**<br>[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Math | [C++](problems/1295.md) | O(N) | O(1) | 2026-09-20 |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/1317.md) | O(N\*logN) | O(1) | 2026-09-23 |

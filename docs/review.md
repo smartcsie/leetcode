@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 983 題　🔴 生疏：220 題　🟠 再練習：91 題　🟡 練習過：78 題　🟣 易忘：125 題　🟢 熟練：469 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 983 題　🔴 生疏：220 題　🟠 再練習：90 題　🟡 練習過：78 題　🟣 易忘：125 題　🟢 熟練：470 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 550 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 549 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（44）](#review-math)　[📊 Bit Manipulation（41）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（25）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（21）](#review-binary-search)　[⛓️ Linked List（14）](#review-linked-list)　[👥 Pointers（33）](#review-pointers)　[🔑 Hash Table（14）](#review-hash-table)　[📚 Stack（16）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（43）](#review-math)　[📊 Bit Manipulation（41）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（25）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（21）](#review-binary-search)　[⛓️ Linked List（14）](#review-linked-list)　[👥 Pointers（33）](#review-pointers)　[🔑 Hash Table（14）](#review-hash-table)　[📚 Stack（16）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（9）
@@ -29,7 +29,7 @@
 | 🟣 易忘 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Design, Queue | [C++](problems/0225.md) | O(N) | O(N) | 2026-10-04 |
 
 <a id="review-math"></a>
-#### 🔢 Math（44）
+#### 🔢 Math（43）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -40,7 +40,6 @@
 | 🟠 再練習 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination | [C++](problems/0062.md) | O(min(M,N)) | O(1) | 2026-10-08 |
 | 🟠 再練習 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](problems/0137.md) | O(N) | O(N) | 2026-10-04 |
 | 🟠 再練習 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime, Prime, Palindrome Construction | [C++](problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-10-04 |
-| 🟠 再練習 | 1250 | [Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/) | 🔴 Hard | Math Gcd | [C++](problems/1250.md) | O(N log M) | O(1) | 2026-10-16 |
 | 🟠 再練習 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math, Brute Force | [C++](problems/1925.md) | O(N²) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](problems/1927.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 2063 | [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) | 🟡 Medium | Math, Contribution Technique | [C++](problems/2063.md) | O(N) | O(1) | 2026-10-04 |
@@ -775,7 +774,7 @@
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 0 | 0 | 3 | 2 | 0 | 5 |
 | [math-formula](topics/math-formula.md) | 0 | 0 | 0 | 1 | 5 | 0 | 6 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 1 | 0 | 5 | 0 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 0 | 1 | 0 | 0 | 8 | 0 | 9 |
+| [math-gcd](topics/math-gcd.md) | 0 | 0 | 0 | 0 | 9 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 0 | 0 | 1 | 0 | 1 | 0 | 2 |
