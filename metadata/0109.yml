@@ -10,7 +10,8 @@ solutions:
   - binary-search-tree
   time: O(NlogN)
   space: O(logN)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-18'
   note: '> **prev->next = nullptr 切斷後：**<br>
 
     > **head → 左半段的頭 → 遞迴建左子樹**<br>
@@ -25,3 +26,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-18'
+    result: 對
+    reason: null
