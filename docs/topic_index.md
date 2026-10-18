@@ -25,7 +25,7 @@
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 Medium | Math Factor Enumeration | [C++](problems/0172.md) | O(log₅N) | O(1) | 2026-10-08 |
 | 204 | 👑 **Prime / Sieve**<br>[Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math Prime, Sieve | [C++](problems/0204.md) | O(NloglogN) | O(N) | 2026-10-16 |
 | 231 | 👑 **Brian Kernighan**<br>[Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](problems/0231.md) | O(1) | O(1) | 2026-09-13 |
-| 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](problems/0258.md) | O(1) | O(1) | 2026-10-18 |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math Formula | [C++](problems/0258.md) | O(1) | O(1) | 2026-10-18 |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](problems/0258.md) | O(logn) | O(1) | 2026-10-18 |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](problems/0263.md) | O(logN) | O(1) | 2026-09-14 |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Math | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-16 |
@@ -41,7 +41,7 @@
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math Digit Decomposition, Bit Manipulation | [C++](problems/0405.md) | O(1) | O(1) | 2026-10-15 |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 Easy | Math, String | [C++](problems/0412.md) | O(N) | O(1) | 2026-09-20 |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 Easy | Math, String | [C++](problems/0415.md) | O(max(N,M)) | O(max(N,M)) | 2026-10-17 |
-| 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) | 2026-10-04 |
+| 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math Formula, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) | 2026-10-18 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math Digit Decomposition, String | [C++](problems/0504.md) | O(log₇N) | O(1) | 2026-10-08 |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math Factor Enumeration | [C++](problems/0507.md) | O(√N) | O(1) | 2026-10-08 |
 | 507 | 👑 **Mersenne Prime**<br>[Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](problems/0507.md) | O(1) | O(1) | 2026-10-08 |

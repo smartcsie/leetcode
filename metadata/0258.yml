@@ -5,9 +5,9 @@ solutions:
 - file: Solution_0258.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Formula
   topics:
-  - math
+  - math-formula
   time: O(1)
   space: O(1)
   familiarity: 熟練
@@ -31,6 +31,9 @@ solutions:
   - date: '2026-10-18'
     result: 對
     reason: null
+  - date: '2026-10-18'
+    result: 對
+    reason: null
 - file: Solution_0258_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -46,6 +49,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-17'
+    result: 對
+    reason: null
+  - date: '2026-10-18'
     result: 對
     reason: null
   - date: '2026-10-18'

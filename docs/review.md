@@ -56,7 +56,7 @@
 | 🟣 易忘 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](problems/0343.md) | O(1) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | Math Combination, Combinatorics | [C++](problems/0357.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](problems/0396.md) | O(N) | O(1) | 2026-10-04 |
-| 🟣 易忘 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) | 2026-10-04 |
+| 🟣 易忘 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math Formula, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) | 2026-10-18 |
 | 🟣 易忘 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math Factor Enumeration | [C++](problems/0507.md) | O(√N) | O(1) | 2026-10-08 |
 | 🟣 易忘 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](problems/0507.md) | O(1) | O(1) | 2026-10-08 |
 | 🟣 易忘 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/0728.md) | O(N\*D) | O(1) | 2026-10-04 |
@@ -769,11 +769,11 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 2 | 0 | 1 | 15 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 0 | 6 | 3 | 3 | 5 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
-| [math](topics/math.md) | 0 | 4 | 0 | 11 | 24 | 0 | 39 |
+| [math](topics/math.md) | 0 | 4 | 0 | 10 | 24 | 0 | 38 |
 | [math-combination](topics/math-combination.md) | 0 | 2 | 1 | 2 | 0 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 1 | 0 | 3 | 38 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 0 | 0 | 3 | 3 | 0 | 6 |
-| [math-formula](topics/math-formula.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
+| [math-formula](topics/math-formula.md) | 0 | 0 | 0 | 1 | 2 | 0 | 3 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 1 | 0 | 5 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 0 | 1 | 0 | 0 | 8 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
