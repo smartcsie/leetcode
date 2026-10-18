@@ -5,10 +5,10 @@ solutions:
 - file: Solution_0836.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math Geometry
+  - Math Formula
   - Geometry
   topics:
-  - math-geometry
+  - math-formula
   time: O(1)
   space: O(1)
   familiarity: 熟練
@@ -23,5 +23,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-08'
+    result: 對
+    reason: null
+  - date: '2026-10-18'
     result: 對
     reason: null

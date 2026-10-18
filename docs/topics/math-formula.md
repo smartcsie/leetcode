@@ -18,9 +18,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math Formula, Binary Search | [C++](../problems/0441.md) | O(logN) | O(1) | 2026-10-18 |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 Medium | Math Formula | [C++](../problems/0172.md) | O(log₅N) | O(1) | 2026-10-18 |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math Formula | [C++](../problems/0258.md) | O(1) | O(1) | 2026-10-18 |
 | 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | 🟢 Easy | Math Formula | [C++](../problems/0812.md) | O(N³) | O(1) | 2026-10-18 |
+| 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | 🟡 Medium | Math Formula, Geometry | [C++](../problems/0836.md) | O(1) | O(1) | 2026-10-18 |
+| 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 Easy | Math Formula | [C++](../problems/1523.md) | O(1) | O(1) | 2026-10-18 |
