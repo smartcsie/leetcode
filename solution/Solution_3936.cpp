@@ -17,24 +17,15 @@
 
 class Solution {
 public:
-    int minimumSwaps(std::vector<int>& nums) {
+    int minimumSwaps(vector<int>& nums) {
         int left = 0;
         int right = nums.size() - 1;
         int count = 0;
-        while (left < right) {
-            // left 向右尋找不等於 0 的元素（代表它卡在前面，需要被換到後面）
-            // （註：原程式碼邏輯為尋找 nums[left] != 0 的位置準備與右邊的 0 交換）
-            while (left < right && nums[left] != 0) {
-                left++;
-            }
-            // right 向左尋找等於 0 的元素（代表它卡在後面，需要被換到前面）
-            // （註：原程式碼邏輯為尋找 nums[right] == 0 的位置準備與左邊的非 0 交換）
-            while (left < right && nums[right] == 0) {
-                right--;
-            }
-            // 若雙指標未交錯，執行交換並累加計數
-            if (left < right) {
-                std::swap(nums[left++], nums[right--]);
+        while(left < right) {
+            while(left < right && nums[left] != 0) left++;
+            while(left < right && nums[right] == 0) right--;
+            if(left < right) {
+                swap(nums[left], nums[right]);
                 count++;
             }
         }

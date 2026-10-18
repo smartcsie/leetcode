@@ -612,6 +612,7 @@
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/3794.md) | O(N) | O(1) | 2026-09-18 |
 | 3823 | 👑 **char ispunct**<br>[Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two Pointers Swap | [C++](problems/3823.md) | O(N) | O(1) | 2026-10-13 |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 Easy | Two Pointers Opposite, Two-Pointers | [C++](problems/3884.md) | O(N) | O(1) | 2026-09-21 |
+| 3936 | [Minimum Swaps to Move Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/) | 🟢 Easy | Two Pointers Swap | [C++](problems/3936.md) | O(N) | O(1) | 2026-10-18 |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/3940.md) | O(N) | O(1) | 2026-10-04 |
 | 3992 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | 🟡 Medium | Two Pointers Swap, Two Pointers | [C++](problems/3992.md) | O(N) | O(1) | 2026-09-16 |
 
