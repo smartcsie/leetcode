@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 983 題　🔴 生疏：220 題　🟠 再練習：80 題　🟡 練習過：78 題　🟣 易忘：123 題　🟢 熟練：482 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 983 題　🔴 生疏：220 題　🟠 再練習：79 題　🟡 練習過：78 題　🟣 易忘：123 題　🟢 熟練：483 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 535 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 534 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（43）](#review-math)　[📊 Bit Manipulation（39）](#review-bit-manipulation)　[🔗 String（22）](#review-string)　[🍱 Array（24）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（19）](#review-binary-search)　[⛓️ Linked List（14）](#review-linked-list)　[👥 Pointers（33）](#review-pointers)　[🔑 Hash Table（13）](#review-hash-table)　[📚 Stack（12）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（29）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（43）](#review-math)　[📊 Bit Manipulation（39）](#review-bit-manipulation)　[🔗 String（21）](#review-string)　[🍱 Array（24）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（19）](#review-binary-search)　[⛓️ Linked List（14）](#review-linked-list)　[👥 Pointers（33）](#review-pointers)　[🔑 Hash Table（13）](#review-hash-table)　[📚 Stack（12）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（29）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（9）
@@ -123,7 +123,7 @@
 | 🟣 易忘 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 Hard | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) | 2026-10-04 |
 
 <a id="review-string"></a>
-#### 🔗 String（22）
+#### 🔗 String（21）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -141,7 +141,6 @@
 | 🟠 再練習 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | String, Simulation | [C++](problems/2243.md) | O(N\*logN) | O(N) | 2026-10-04 |
 | 🟠 再練習 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 Easy | String Character Classification | [C++](problems/2839.md) | O(1) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](problems/3775.md) | O(N\*L) | O(N) | 2026-10-04 |
-| 🟠 再練習 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](problems/3813.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String Kmp, KMP | [C++](problems/0028.md) | O(N\*M) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | String, String | [C++](problems/0043.md) | O(M\*N) | O(M+N) | 2026-10-04 |
 | 🟣 易忘 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 Hard | String State Machine, State Machine | [C++](problems/0065.md) | O(N) | O(1) | 2026-10-04 |
@@ -775,7 +774,7 @@
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [stack](topics/stack.md) | 3 | 1 | 0 | 0 | 10 | 0 | 14 |
 | [string](topics/string.md) | 1 | 5 | 5 | 3 | 20 | 0 | 34 |
-| [string-character-classification](topics/string-character-classification.md) | 0 | 4 | 0 | 0 | 27 | 0 | 31 |
+| [string-character-classification](topics/string-character-classification.md) | 0 | 3 | 0 | 0 | 28 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 0 | 0 | 1 | 0 | 2 | 0 | 3 |

@@ -4,14 +4,13 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（4）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](../problems/1957.md) | O(N) | O(N) | 2026-10-04 |
 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 Easy | String Character Classification | [C++](../problems/2839.md) | O(1) | O(1) | 2026-10-04 |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | 2026-10-04 |
-| 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | 2026-10-04 |
 
 ## 🟡 練習過（0）
 
@@ -21,7 +20,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（27）
+## 🟢 熟悉（28）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -50,5 +49,6 @@
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Character Classification, String Processing | [C++](../problems/3121.md) | O(N) | O(1) | 2026-09-20 |
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String Character Classification, Validation | [C++](../problems/3136.md) | O(N) | O(1) | 2026-09-20 |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 Easy | String Character Classification, String | [C++](../problems/3798.md) | O(N) | O(1) | 2026-09-21 |
+| 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 Easy | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | 2026-10-19 |
 | 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 Easy | String Character Classification | [C++](../problems/3856.md) | O(N) | O(1) | 2026-09-21 |
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 Easy | String Character Classification, Math | [C++](../problems/3931.md) | O(N) | O(1) | 2026-09-20 |
