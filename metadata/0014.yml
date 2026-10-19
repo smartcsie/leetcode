@@ -10,7 +10,8 @@ solutions:
   - string
   time: O(S)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-19'
   note: '> **外迴圈為char index cIdx從0到strs[0].size()-1**<br>
 
     > **內層迴圈為string index sIdx從 1 ~ strs.size()**<br>
@@ -24,5 +25,8 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-19'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Longest Common Prefix
