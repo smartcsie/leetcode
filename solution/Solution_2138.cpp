@@ -17,13 +17,12 @@
 
 class Solution {
 public:
-    std::vector<std::string> divideString(std::string s, int k, char fill) {
+    vector<string> divideString(string s, int k, char fill) {
         int n = s.size();
         int segs = (n + k - 1) / k;
-        vector<string> ans;
-        ans.reserve(segs);
-        for(int i = 0; i < n; i += k) {
-            ans.push_back(s.substr(i, k));
+        vector<string> ans(segs);
+        for(int i = 0, idx = 0; i < n; i += k, idx++) {
+            ans[idx] = s.substr(i , k);
         }
         while(ans.back().size() < k) ans.back().push_back(fill);
         return ans;

@@ -186,7 +186,7 @@
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 Easy | String, Parsing | [C++](problems/2042.md) | O(N) | O(1) | 2026-09-25 |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 Easy | String | [C++](problems/2114.md) | O(N\*M) | O(1) | 2026-09-20 |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 Easy | String Character Classification | [C++](problems/2124.md) | O(N) | O(1) | 2026-09-21 |
-| 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 Easy | String, Simulation, Math | [C++](problems/2138.md) | O(N) | O(N) | 2026-10-04 |
+| 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 Easy | String | [C++](problems/2138.md) | O(N) | O(N) | 2026-10-19 |
 | 2185 | 👑 **String Find**<br>[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 Easy | String Character Classification, Simulation | [C++](problems/2185.md) | O(N\*M) | O(1) | 2026-09-21 |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 Easy | String | [C++](problems/2243.md) | O(N\*logN) | O(N) | 2026-10-19 |
 | 2255 | 👑 **String Prefix**<br>[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 Easy | String Character Classification | [C++](problems/2255.md) | O(N\*M) | O(1) | 2026-09-21 |
