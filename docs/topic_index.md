@@ -200,7 +200,7 @@
 | 2710 | 👑 **Remove Trailing**<br>[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 Easy | String Character Classification | [C++](problems/2710.md) | O(N) | O(1) | 2026-09-21 |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | String | [C++](problems/2828.md) | O(N) | O(1) | 2026-09-20 |
 | 2828 | 👑 **accumulate string**<br>[Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 Easy | String | [C++](problems/2828.md) |  |  | 2026-09-20 |
-| 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 Easy | String Character Classification | [C++](problems/2839.md) | O(1) | O(1) | 2026-10-04 |
+| 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 Easy | String Character Classification | [C++](problems/2839.md) | O(1) | O(1) | 2026-10-19 |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 Easy | String | [C++](problems/2937.md) | O(min(L1,L2,L3)) | O(1) | 2026-09-20 |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 Easy | String | [C++](problems/2942.md) | O(N\*L) | O(1) | 2026-09-20 |
 | 3083 | [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | 🟢 Easy | String Substring, Array | [C++](problems/3083.md) | O(N) | O(1) | 2026-09-26 |
