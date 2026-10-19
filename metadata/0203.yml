@@ -10,8 +10,17 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-19'
+  note: '> **if(cur->next->val == val) cur->next = cur->next->next;**<br>
+
+    > **上面這行，如果cur->next有連續的目標val，cur->next會一直往後指**<br>
+
+    > **直到cur->next不是目標val，cur才會走下一步else cur = cur->next;**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-19'
+    result: 對
+    reason: null
