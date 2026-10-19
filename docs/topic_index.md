@@ -863,6 +863,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](problems/0581.md) | O(NlogN) | O(N) | 2026-10-04 |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Sorting Implementation, Divide and Conquer, Sorting | [C++](problems/0912.md) | O(NlogN) | O(logN) | 2026-10-04 |
+| 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Sorting Counting Sort | [C++](problems/1051.md) | O(N) | O(1) | 2026-10-19 |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | Sorting Counting Sort, Counting Sort | [C++](problems/1122.md) | O(N+M) | O(1) | 2026-10-13 |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Sorting, Sorting | [C++](problems/1200.md) | O(NlogN) | O(N) | 2026-09-26 |
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Sorting Custom Comparator, Sorting | [C++](problems/1356.md) | O(NlogN) | O(1) | 2026-10-04 |

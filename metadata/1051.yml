@@ -6,9 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Sorting Counting Sort
-  - Counting Sort
   topics:
   - sorting-counting-sort
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 易忘
+  attempts:
+  - date: '2026-10-19'
+    result: 對
+    reason: null
