@@ -14,18 +14,17 @@
 class Solution {
 public:
     vector<vector<int>> findWinners(vector<vector<int>>& matches) {
-        unordered_map<int, int> losses;
-        vector<vector<int>> ans(2);
+        vector<int> loses(100001, -1);
         for(const vector<int>& v : matches) {
-            if(!losses.contains(v[0])) losses[v[0]] = 0;
-            losses[v[1]]++;
+            if(loses[v[0]] == -1) loses[v[0]] = 0;
+            if(loses[v[1]] == -1) loses[v[1]] = 1;
+            else loses[v[1]]++;
         }
-        for(const auto [team, lose] : losses) {
-            if(lose == 0) ans[0].push_back(team);
-            if(lose == 1) ans[1].push_back(team);
+        vector<vector<int>> ans(2);
+        for(int i = 1; i <= 100000; i++) {
+            if(loses[i] == 0) ans[0].push_back(i);
+            else if(loses[i] == 1) ans[1].push_back(i);
         }
-        sort(ans[0].begin(), ans[0].end());
-        sort(ans[1].begin(), ans[1].end());
         return ans;
     }
 };

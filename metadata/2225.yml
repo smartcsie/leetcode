@@ -5,14 +5,13 @@ solutions:
 - file: Solution_2225.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting
-  - Hash Table
-  - Counting
+  - Hash Table Counting
   topics:
-  - sorting
+  - hash-table-counting
   time: O(NlogN)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-19'
   attempts:
   - date: '2026-09-26'
     result: 對
@@ -20,3 +19,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-19'
+    result: 對
+    reason: null

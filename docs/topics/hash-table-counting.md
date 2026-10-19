@@ -22,7 +22,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（22）
+## 🟢 熟悉（23）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -36,6 +36,7 @@
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/1897.md) | O(N\*M) | O(1) | 2026-09-16 |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](../problems/2001.md) | O(N) | O(N) | 2026-10-12 |
 | 2085 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | 🟢 Easy | Hash Table Counting, Hash Map, Bitmask | [C++](../problems/2085.md) | O(N+M) | O(N+M) | 2026-09-17 |
+| 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 Medium | Hash Table Counting | [C++](../problems/2225.md) | O(NlogN) | O(N) | 2026-10-19 |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 Easy | Hash Table Counting, Hash Map, Counting | [C++](../problems/2283.md) | O(N) | O(1) | 2026-09-15 |
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 Easy | Hash Table Counting, Hash Table, Counting | [C++](../problems/2341.md) | O(N) | O(1) | 2026-10-05 |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/2351.md) | O(N) | O(1) | 2026-09-15 |
