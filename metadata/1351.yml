@@ -8,7 +8,7 @@ solutions:
   - Binary Search Build In
   topics:
   - binary-search-build-in
-  time: O(R+C)
+  time: O(RlogC)
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-10-18'
@@ -25,6 +25,9 @@ solutions:
   - date: '2026-10-18'
     result: 對
     reason: null
+  - date: '2026-10-19'
+    result: 對
+    reason: null
 - file: Solution_1351_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -33,7 +36,8 @@ solutions:
   - binary-search-find-left-bound
   time: O(R*logC)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-19'
   attempts:
   - date: '2026-09-24'
     result: 對
@@ -45,5 +49,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-18'
+    result: 對
+    reason: null
+  - date: '2026-10-19'
     result: 對
     reason: null
