@@ -9,9 +9,9 @@
 
 ## 📝 複習清單（依分類）
 
-目前共有 539 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 538 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（43）](#review-math)　[📊 Bit Manipulation（39）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（24）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（19）](#review-binary-search)　[⛓️ Linked List（14）](#review-linked-list)　[👥 Pointers（33）](#review-pointers)　[🔑 Hash Table（13）](#review-hash-table)　[📚 Stack（12）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（43）](#review-math)　[📊 Bit Manipulation（39）](#review-bit-manipulation)　[🔗 String（23）](#review-string)　[🍱 Array（24）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（19）](#review-binary-search)　[⛓️ Linked List（14）](#review-linked-list)　[👥 Pointers（33）](#review-pointers)　[🔑 Hash Table（13）](#review-hash-table)　[📚 Stack（12）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（31）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（9）
@@ -454,7 +454,7 @@
 | 🟡 練習過 | 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | Dp Kadane, Dynamic Programming Kadane | [C++](problems/1567.md) | O(N) | O(1) |  |
 | 🟡 練習過 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/2707.md) | O(N³) | O(N+D) |  |
 | 🟡 練習過 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | Dp Lis, Dynamic Programming Lis, Longest Non-Decreasing Subsequence | [C++](problems/2826.md) | O(N) | O(1) |  |
-| 🟠 再練習 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dynamic Programming Kadane Algorithm, Dynamic Programming | [C++](problems/0053.md) | O(N) | O(1) | 2026-10-04 |
+| 🟠 再練習 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dp Kadane | [C++](problems/0053.md) | O(N) | O(N) | 2026-10-19 |
 | 🟠 再練習 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci, DP | [C++](problems/0213.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci | [C++](problems/0213.md) | O(N) | O(N) | 2026-10-04 |
 | 🔴 生疏 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | Dp String | [C++](problems/0010.md) | O(M) | O(M) |  |
@@ -670,13 +670,6 @@
 | 🔴 生疏 | 3392 | [Count Subarrays of Length Three With a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) | 🟢 Easy | Array, Sliding Window, Simulation | [C++](problems/3392.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | 🟢 Easy | Fixed Size Sliding Window, Block-Skipping | [C++](problems/3456.md) | O(N) | O(1) |  |
 | 🟣 易忘 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Variable Size Sliding Window | [C++](problems/0930.md) | O(N) | O(1) | 2026-10-04 |
-
-<a id="review-other"></a>
-#### 📄 Other（1）
-
-| 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 🟠 再練習 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dynamic Programming | [C++](problems/0053.md) | O(N) | O(N) | 2026-10-04 |
 
 ---
 

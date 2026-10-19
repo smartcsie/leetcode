@@ -5,24 +5,33 @@ solutions:
 - file: Solution_0053.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming Kadane Algorithm
-  - Dynamic Programming
+  - Dp Kadane
   topics:
   - dp-kadane
   time: O(N)
   space: O(1)
-  familiarity: 再練習
-  is_representative: true
-  representative_tag: Kadane
+  familiarity: 熟練
+  mastered_date: '2026-10-19'
+  tricks:
+  - Kadane Algorithm
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-19'
+    result: 對
+    reason: null
+  - date: '2026-10-19'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Kadane
 - file: Solution_0053_1.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming
-  topics: []
+  - Dp Kadane
+  topics:
+  - dp-kadane
   time: O(N)
   space: O(N)
   familiarity: 再練習
@@ -30,3 +39,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-19'
+    result: 對
+    reason: null
+  - date: '2026-10-19'
+    result: 對
+    reason: null

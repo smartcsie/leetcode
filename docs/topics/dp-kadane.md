@@ -10,7 +10,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dynamic Programming Kadane Algorithm, Dynamic Programming | [C++](../problems/0053.md) | O(N) | O(1) | 2026-10-04 |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dp Kadane | [C++](../problems/0053.md) | O(N) | O(N) | 2026-10-19 |
 
 ## 🟡 練習過（2）
 
@@ -23,10 +23,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dp Kadane | [C++](../problems/0053.md) | O(N) | O(1) | 2026-10-19 |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dp Kadane | [C++](../problems/0674.md) | O(N) | O(N) | 2026-09-26 |
 
 ---
