@@ -11,18 +11,16 @@ solutions:
   time: O(1)
   space: O(1)
   familiarity: 易忘
-  note: '> [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)<br>
-
-    > n先mod 4等於t，檢查11(t & 3) == 3，檢查00(t ^ 3) == 3，符合就回傳false<br>
-
-
-    <br><br>'
+  note: '> **n先mod 4等於t，檢查11(t & 3) == 3，檢查00(t ^ 3) == 3，符合就回傳false**<br>'
   is_best: true
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-10-19'
     result: 對
     reason: null
 - file: Solution_0693_1.cpp
@@ -40,5 +38,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-10-19'
     result: 對
     reason: null
