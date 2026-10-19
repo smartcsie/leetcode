@@ -25,19 +25,16 @@
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char> st;
-        for(const char&c : s) {
-            if(c == 'a') {
-                st.push(c);
-            } else if(c == 'b') {
-                if(st.empty() || st.top() != 'a') return false;
-                st.push(c);
+        string t;
+        for(const unsigned char c : s) {
+            if(c != 'c') {
+                t.push_back(c);
             } else {
-                if(st.empty() || st.top() != 'b') return false;
-                st.pop();
-                st.pop();
+                if(t.size() < 2 || t.back() != 'b' || t[t.size() - 2] != 'a') return false;
+                t.pop_back();
+                t.pop_back();
             }
         }
-        return st.empty();
+        return t.empty();
     }
 };
