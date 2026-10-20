@@ -17,13 +17,12 @@ class Solution {
 public:
     string addSpaces(string s, vector<int>& spaces) {
         string ans;
-        for(int left = 0, right = 0; left < s.size();) {
-            if(right < spaces.size() && left == spaces[right]) {
+        for(int cIdx = 0, sIdx = 0; cIdx < s.size(); cIdx++) {
+            if(sIdx < spaces.size() && cIdx == spaces[sIdx]) {
                 ans.push_back(' ');
-                right++;
-            } else {
-                ans.push_back(s[left++]);
-            }   
+                sIdx++;
+            }
+            ans.push_back(s[cIdx]);
         }
         return ans;
     }
