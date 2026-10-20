@@ -1,6 +1,6 @@
 # two-pointers-same
 
-## 🔴 生疏（9）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | Array, Two Pointers | [C++](../problems/0031.md) | O(N) | O(1) |  |
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | Linked List, Two Pointers | [C++](../problems/0086.md) | O(N) | O(1) |  |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0228.md) | O(N) | O(1) |  |
-| 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 Medium | Linked List | [C++](../problems/0328.md) | O(N) | O(1) |  |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium | Two Pointers | [C++](../problems/0443.md) | O(N) | O(1) |  |
 | 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | 🟡 Medium | Two Pointers Same, Two Pointers | [C++](../problems/0777.md) | O(N) | O(1) |  |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | String, Two Pointers | [C++](../problems/0844.md) | O(N+M) | O(1) |  |
@@ -29,10 +28,11 @@
 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | Two Pointers Same, Two Pointers, State Transition | [C++](../problems/3637.md) | O(N) | O(1) | 2026-10-04 |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](../problems/3940.md) | O(N) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 Medium | Two Pointers Same | [C++](../problems/0328.md) | O(N) | O(1) | 2026-10-20 |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](../problems/0392.md) | O(N) | O(1) | 2026-09-15 |
 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 🟢 Easy | Two Pointers Same | [C++](../problems/0541.md) | O(N) | O(1) | 2026-10-20 |
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](../problems/1417.md) | O(N) | O(N) | 2026-10-13 |
