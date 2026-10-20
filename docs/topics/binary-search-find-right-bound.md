@@ -14,7 +14,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | Binary Search Find Right Bound | [C++](../problems/0611.md) | O(N²logN) | O(1) |  |
+| 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | Binary Search Find Right Bound | [C++](../problems/0611.md) | O(N²logN) | O(1) | 2026-10-20 |
 
 ## 🟣 易忘（1）
 

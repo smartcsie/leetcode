@@ -6,14 +6,16 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Two Pointers Opposite
-  - Two Pointers
   topics:
   - two-pointers-opposite
   time: O(N²)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 易忘
   is_best: true
-  tricks: null
+  attempts:
+  - date: '2026-10-20'
+    result: 對
+    reason: null
 - file: Solution_0611_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -24,4 +26,7 @@ solutions:
   space: O(1)
   familiarity: 練習過
   note: '> **第三個數使用binary search**'
-  tricks: null
+  attempts:
+  - date: '2026-10-20'
+    result: 對
+    reason: null
