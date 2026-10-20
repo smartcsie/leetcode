@@ -18,29 +18,17 @@
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        // 使用 dummy 節點簡化邊界情況處理
         ListNode* dummy = new ListNode(-1, head);
         ListNode* slow = dummy;
         ListNode* fast = dummy;
-        
-        // 1. 先讓 fast 指標領先 slow 指標 n 步
-        for (int i = 0; i < n; i++) {
-            fast = fast->next;
-        }
-        
-        // 2. 當 fast 走到尾端 (fast->next 為 nullptr) 時，
-        //    slow 指標正好指向倒數第 n 個節點的前一個節點
-        while (fast->next != nullptr) {
+        for(int i = 1; i <= n ; i++) fast = fast->next;
+        while(fast->next) {
             slow = slow->next;
             fast = fast->next;
         }
-        
-        // 3. 刪除倒數第 n 個節點
-        //    注意：若實際應用需要釋放記憶體，這裡應先暫存 slow->next 再 delete
         slow->next = slow->next->next;
-        
-        ListNode* result = dummy->next;
-        delete dummy; // 釋放 dummy 記憶體
-        return result;
+        ListNode* ans = dummy->next;
+        delete dummy;
+        return ans;
     }
 };
