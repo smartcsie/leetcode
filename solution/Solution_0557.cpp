@@ -16,13 +16,13 @@ class Solution {
 public:
     string reverseWords(string s) {
         int n = s.size();
-        int i = 0;
-        while(i < n) {
-            int left = i;
-            while(i < n && s[i] != ' ') i++;
-            int right = i - 1;
-            while(left < right) swap(s[left++], s[right--]);
-            i++;
+        for(int i = 0, start = 0; i <= n; i++) {
+            if(i == n || s[i] == ' ') {
+                int left = start;
+                int right = i - 1;
+                while(left < right) swap(s[left++], s[right--]);
+                start = i + 1;
+            }
         }
         return s;
     }
