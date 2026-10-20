@@ -15,13 +15,13 @@
 class Solution {
 public:
     int minDeletions(string s) {
-        vector<int> counts(26, 0);
-        for(const char& c : s) counts[c - 'a']++;
-        unordered_set<int> seen;
+        array<int, 26> counts = {};
+        for(const int& x : s) counts[x - 'a']++;
+        unordered_set<int> freq;
         int ans = 0;
-        for(int i = 0; i < 26; i++) {
-            while(counts[i] && !seen.insert(counts[i]).second) {
-                counts[i]--;
+        for(int& count : counts) {
+            while(count && !freq.insert(count).second) {
+                count--;
                 ans++;
             }
         }
