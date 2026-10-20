@@ -13,7 +13,11 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-10-20'
+  is_best: true
   attempts:
+  - date: '2026-10-20'
+    result: 對
+    reason: null
   - date: '2026-10-20'
     result: 對
     reason: null
@@ -33,3 +37,8 @@ solutions:
   - date: '2026-10-20'
     result: 對
     reason: null
+  - date: '2026-10-20'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: string reverse
