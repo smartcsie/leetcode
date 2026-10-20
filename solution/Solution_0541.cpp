@@ -14,32 +14,12 @@
 class Solution {
 public:
     string reverseStr(string s, int k) {
-        for (size_t i = 0; i < s.length(); i += 2 * k) {
-            int left = i;
-            int right = min(i + k - 1, s.length() - 1);
-            while (left < right) swap(s[left++], s[right--]);
-        }
-        return s;
-    }
-};
-
-
-
-/*
-class Solution {
-public:
-    string reverseStr(string s, int k) {
         int n = s.size();
-        for(int i = 0;i < n; i += 2*k) {
+        for(int i = 0; i < n; i += 2 * k) {
             int left = i;
-            int right = min(i + k - 1, n -1);
-            while(right < s.size() && left < right) {
-                swap(s[left], s[right]);
-                if(left < right) left++;
-                if(left < right) right--;
-            }
+            int right = min(i + k - 1, n - 1);
+            while(left < right) swap(s[left++], s[right--]);
         }
         return s;
     }
 };
-*/
