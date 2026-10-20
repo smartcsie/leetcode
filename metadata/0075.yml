@@ -5,11 +5,16 @@ solutions:
 - file: Solution_0075.cpp
   difficulty: 🟡 Medium
   tags:
-  - Array
-  - Two Pointers
-  - Sorting
+  - Two Pointers Partition
   topics:
   - two-pointers-partition
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-10-20'
+  attempts:
+  - date: '2026-10-20'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Dutch National Flag Problem

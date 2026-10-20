@@ -24,19 +24,11 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        int n = nums.size();
-        if(n == 1) return;
-        int red= 0;
-        int white = 0;
-        int blue = n -1;
-        while(white <= blue) {
-            if(nums[white] == 0) {
-                swap(nums[white++], nums[red++]);
-            } else if(nums[white] == 2) {
-                swap(nums[white], nums[blue--]);
-            } else {
-                white++;
-            }
+        int left = 0, mid = 0, right = nums.size() - 1;
+        while(mid <= right) {
+            if(nums[mid] == 0) swap(nums[left++], nums[mid++]);
+            else if(nums[mid] == 2) swap(nums[mid], nums[right--]);
+            else mid++;
         }
     }
 };
