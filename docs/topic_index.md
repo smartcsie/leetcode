@@ -580,7 +580,7 @@
 | 141 | 👑<br>[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0141.md) | O(N) | O(1) | 2026-09-18 |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Two Pointers Same | [C++](problems/0151.md) | O(N) | O(N) | 2026-10-21 |
 | 151 | 👑<br>[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Two Pointers Same | [C++](problems/0151.md) | O(N) | O(1) | 2026-10-21 |
-| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Linked List, Two Pointers | [C++](problems/0160.md) | O(N+M) | O(1) | 2026-10-04 |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Two Pointers Other | [C++](problems/0160.md) | O(N+M) | O(1) | 2026-10-21 |
 | 167 | 👑<br>[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) | 2026-09-24 |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0283.md) | O(N) | O(1) | 2026-10-20 |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Fast Slow Pointers | [C++](problems/0283.md) | O(N) | O(1) | 2026-10-20 |
