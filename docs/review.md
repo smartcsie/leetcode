@@ -720,7 +720,7 @@
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 2 | 0 | 1 | 1 | 0 | 0 | 4 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 0 | 1 | 0 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 3 | 0 | 0 | 0 | 24 | 0 | 27 |
-| [hash-table-existence](topics/hash-table-existence.md) | 2 | 1 | 1 | 2 | 13 | 0 | 19 |
+| [hash-table-existence](topics/hash-table-existence.md) | 2 | 1 | 1 | 2 | 14 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 0 | 0 | 1 | 12 | 0 | 13 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 0 | 0 | 0 | 9 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 2 | 2 | 0 | 0 | 16 | 0 | 20 |
@@ -751,7 +751,7 @@
 | [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 1 | 0 | 0 | 3 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
-| [stack](topics/stack.md) | 3 | 0 | 0 | 0 | 11 | 0 | 14 |
+| [stack](topics/stack.md) | 3 | 0 | 0 | 0 | 12 | 0 | 15 |
 | [string](topics/string.md) | 0 | 3 | 4 | 4 | 22 | 0 | 33 |
 | [string-character-classification](topics/string-character-classification.md) | 0 | 2 | 0 | 0 | 29 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |

@@ -481,6 +481,7 @@
 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 Easy | Hash Table Mapping, Hash Table, String | [C++](problems/0013.md) | O(N) | O(1) | 2026-10-12 |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](problems/0049.md) | O(N\*K) | O(N\*K) | 2026-09-27 |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Mapping | [C++](problems/0049.md) | O(N\*logK) | O(N\*K) | 2026-09-27 |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Hash Table Existence | [C++](problems/0160.md) | O(M + N) | O(M) | 2026-10-21 |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](problems/0202.md) | O(logN) | O(1) | 2026-10-04 |
 | 205 | 👑 **Strings Isomorphic**<br>[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 Easy | Hash Table Mapping, Hash Table | [C++](problems/0205.md) | O(N) | O(1) | 2026-09-16 |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0217.md) | O(N) | O(N) | 2026-09-26 |
@@ -660,6 +661,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20 | 👑 **Parentheses Check**<br>[Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 Easy | Stack | [C++](problems/0020.md) | O(N) | O(N) | 2026-10-18 |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | Stack | [C++](problems/0150.md) | O(N) | O(N) | 2026-09-26 |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Stack | [C++](problems/0160.md) | O(M + N) | O(M + N) | 2026-10-21 |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Stack | [C++](problems/0445.md) | O(N+M) | O(N+M) | 2026-10-18 |
 | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Stack | [C++](problems/0682.md) | O(N) | O(N) | 2026-09-26 |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 Medium | Stack, String | [C++](problems/1003.md) | O(N) | O(N) | 2026-10-19 |
