@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 983 題　🔴 生疏：215 題　🟠 再練習：67 題　🟡 練習過：76 題　🟣 易忘：126 題　🟢 熟練：499 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 983 題　🔴 生疏：215 題　🟠 再練習：67 題　🟡 練習過：76 題　🟣 易忘：125 題　🟢 熟練：500 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 516 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 515 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（43）](#review-math)　[📊 Bit Manipulation（39）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（24）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（12）](#review-linked-list)　[👥 Pointers（23）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（29）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（9）](#review-design)　[🔢 Math（43）](#review-math)　[📊 Bit Manipulation（39）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（24）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（12）](#review-linked-list)　[👥 Pointers（22）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（29）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（9）
@@ -256,7 +256,7 @@
 | 🟣 易忘 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 Medium | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) | 2026-10-04 |
 
 <a id="review-pointers"></a>
-#### 👥 Pointers（23）
+#### 👥 Pointers（22）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -281,7 +281,6 @@
 | 🟣 易忘 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) | 2026-10-14 |
 | 🟣 易忘 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | Two Pointers Opposite | [C++](problems/0611.md) | O(N²) | O(1) | 2026-10-20 |
 | 🟣 易忘 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](problems/0680.md) | O(N) | O(1) | 2026-10-04 |
-| 🟣 易忘 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | Two Pointers Same, Two Pointers, State Transition | [C++](problems/3637.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/3940.md) | O(N) | O(1) | 2026-10-04 |
 
 <a id="review-hash-table"></a>
@@ -774,7 +773,7 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 1 | 0 | 1 | 4 | 10 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 0 | 0 | 0 | 2 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 7 | 0 | 0 | 3 | 10 | 0 | 20 |
+| [two-pointers-same](topics/two-pointers-same.md) | 7 | 0 | 0 | 2 | 11 | 0 | 20 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 0 | 0 | 0 | 0 | 14 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 10 | 0 | 1 | 0 | 0 | 0 | 11 |

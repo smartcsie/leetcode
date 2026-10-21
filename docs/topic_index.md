@@ -618,7 +618,7 @@
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/2540.md) | O(N+M) | O(1) | 2026-09-15 |
 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Two Pointers Same | [C++](problems/2864.md) | O(N) | O(1) | 2026-10-18 |
 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/3467.md) | O(N) | O(1) | 2026-09-16 |
-| 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | Two Pointers Same, Two Pointers, State Transition | [C++](problems/3637.md) | O(N) | O(1) | 2026-10-04 |
+| 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 Easy | Two Pointers Same, Two Pointers, State Transition | [C++](problems/3637.md) | O(N) | O(1) | 2026-10-21 |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/3794.md) | O(N) | O(1) | 2026-09-18 |
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/3819.md) | O(N) | O(N) | 2026-10-18 |
 | 3823 | 👑 **char ispunct**<br>[Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two Pointers Swap | [C++](problems/3823.md) | O(N) | O(1) | 2026-10-13 |
