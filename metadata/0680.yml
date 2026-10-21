@@ -11,8 +11,21 @@ solutions:
   - two-pointers-opposite
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-10-21'
+  note: '> **cbbcc 來舉例**<br>
+
+    > **因為第一次 兩邊都是 c 所以 left ++ right --**<br>
+
+    > **第二次 就是 left 指到 b right 指到 c**<br>
+
+    > **isPalindrome(s, l + 1, r)  是 false 因為是 bc**<br>
+
+    > **isPalindrome(s, l , r - 1) 是 true 因為是 bb**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-21'
+    result: 對
+    reason: null

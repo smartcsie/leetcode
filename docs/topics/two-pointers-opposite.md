@@ -14,7 +14,7 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（5）
+## 🟣 易忘（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -22,9 +22,8 @@
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 Medium | Array, Two Pointers, Sorting | [C++](../problems/0016.md) | O(N²) | O(1) | 2026-10-04 |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/0018.md) | O(N³) | O(1) | 2026-10-04 |
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 Medium | Two Pointers Opposite | [C++](../problems/0611.md) | O(N²) | O(1) | 2026-10-20 |
-| 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0680.md) | O(N) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（10）
+## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -32,6 +31,7 @@
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0125.md) | O(N) | O(1) | 2026-09-21 |
 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/0167.md) | O(N) | O(1) | 2026-09-24 |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](../problems/0633.md) | O(√C) | O(1) | 2026-10-13 |
+| 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0680.md) | O(N) | O(1) | 2026-10-21 |
 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0941.md) | O(N) | O(1) | 2026-10-13 |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 Easy | Two Pointers Opposite, Two Pointers | [C++](../problems/0942.md) | O(N) | O(N) | 2026-10-13 |
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | 🟢 Easy | Two Pointers Opposite | [C++](../problems/1332.md) | O(N) | O(1) | 2026-10-13 |
