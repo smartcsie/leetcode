@@ -4987,10 +4987,11 @@
 
 <h1 id="680-valid-palindrome-ii">680. Valid Palindrome II<a class="headerlink" href="#680-valid-palindrome-ii" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/valid-palindrome-ii/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Two Pointers Opposite, Two Pointers　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟣 易忘</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Two Pointers Opposite, Two Pointers　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-10-21</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：680. Valid Palindrome II</span>
@@ -5033,6 +5034,13 @@
 <a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>cbbcc 來舉例</strong><br>
+<strong>因為第一次 兩邊都是 c 所以 left ++ right --</strong><br>
+<strong>第二次 就是 left 指到 b right 指到 c</strong><br>
+<strong>isPalindrome(s, l + 1, r)  是 false 因為是 bc</strong><br>
+<strong>isPalindrome(s, l , r - 1) 是 true 因為是 bb</strong><br></p>
+</blockquote>
 
 
 
