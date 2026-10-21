@@ -21,6 +21,9 @@ solutions:
   - date: '2026-10-20'
     result: 對
     reason: null
+  - date: '2026-10-21'
+    result: 對
+    reason: null
 - file: Solution_0557_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -30,6 +33,8 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 易忘
+  related:
+  - 151
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -38,6 +43,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-20'
+    result: 對
+    reason: null
+  - date: '2026-10-21'
     result: 對
     reason: null
   is_representative: true
