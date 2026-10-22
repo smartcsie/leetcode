@@ -234,7 +234,7 @@
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit Manipulation, Bit-Manipulation | [C++](problems/0190.md) | O(1) | O(1) | 2026-09-17 |
 | 191 | 👑 **Brian Kernighan**<br>[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And, Bit-Manipulation | [C++](problems/0191.md) | O(K) | O(1) | 2026-09-19 |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 Easy | Bit Manipulation And | [C++](problems/0191.md) | O(1) | O(1) | 2026-09-19 |
-| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](problems/0201.md) | O(logN) | O(1) | 2026-10-07 |
+| 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | Bit Manipulation | [C++](problems/0201.md) | O(logN) | O(1) | 2026-10-22 |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 Medium | Bit Manipulation | [C++](problems/0260.md) | O(N) | O(1) | 2026-10-04 |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-16 |
 | 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | 🟡 Medium | Bit Manipulation, Bitmask | [C++](problems/0318.md) | O(N\*L+N^2) | O(N) | 2026-09-26 |
