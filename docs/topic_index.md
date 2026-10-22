@@ -207,7 +207,7 @@
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 Medium | String Character Classification, String Processing | [C++](problems/3121.md) | O(N) | O(1) | 2026-09-20 |
 | 3136 | 👑 **isalnum**<br>[Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 Easy | String Character Classification, Validation | [C++](problems/3136.md) | O(N) | O(1) | 2026-09-20 |
 | 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 Easy | String, Cyclic Shift | [C++](problems/3210.md) | O(N) | O(N) | 2026-09-21 |
-| 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String, String Manipulation, Bit Format | [C++](problems/3280.md) | O(1) | O(1) | 2026-10-04 |
+| 3280 | 👑 **Format**<br>[Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 Easy | String | [C++](problems/3280.md) | O(1) | O(1) | 2026-10-22 |
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 Easy | String | [C++](problems/3498.md) | O(N) | O(1) | 2026-09-20 |
 | 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 Medium | Math, Brute Force | [C++](problems/3713.md) | O(N^2) | O(1) | 2026-10-04 |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) | 2026-10-04 |
