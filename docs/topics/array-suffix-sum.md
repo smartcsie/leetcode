@@ -12,12 +12,12 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（1）
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 848 | [Shifting Letters](https://leetcode.com/problems/shifting-letters/) | 🟡 Medium | Array Suffix Sum | [C++](../problems/0848.md) | O(N) | O(1) | 2026-10-15 |
-
-## 🟢 熟悉（0）
-
-目前沒有標記為熟悉的解法。
+| 848 | [Shifting Letters](https://leetcode.com/problems/shifting-letters/) | 🟡 Medium | Array Suffix Sum | [C++](../problems/0848.md) | O(N) | O(1) | 2026-10-22 |

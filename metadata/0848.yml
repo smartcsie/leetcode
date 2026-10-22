@@ -10,11 +10,15 @@ solutions:
   - array-suffix-sum
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-10-22'
   attempts:
   - date: '2026-10-03'
     result: 對
     reason: null
   - date: '2026-10-15'
+    result: 對
+    reason: null
+  - date: '2026-10-22'
     result: 對
     reason: null
