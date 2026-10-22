@@ -42,7 +42,7 @@
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit Manipulation, Bit-Manipulation | [C++](../problems/0190.md) | O(1) | O(1) | 2026-09-17 |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0349.md) | O(N+M) | O(N) | 2026-09-21 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation, Hash Table | [C++](../problems/0389.md) | O(N) | O(1) | 2026-09-17 |
-| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](../problems/0401.md) | O(1) | O(1) | 2026-10-22 |
+| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0401.md) | O(1) | O(1) | 2026-10-22 |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](../problems/0476.md) | O(logN) | O(1) | 2026-09-17 |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](../problems/1009.md) | O(logN) | O(1) | 2026-09-17 |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 Easy | Bit Manipulation, Math | [C++](../problems/1342.md) | O(1) | O(1) | 2026-10-07 |
