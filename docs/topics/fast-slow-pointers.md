@@ -14,20 +14,20 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 Medium | Linked List, Fast-Slow Pointers | [C++](../problems/0142.md) | O(N) | O(1) |  |
 
-## 🟣 易忘（3）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Fast Slow Pointers | [C++](../problems/0026.md) | O(N) | O(1) | 2026-10-20 |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0080.md) | O(N) | O(1) | 2026-10-04 |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 Medium | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0287.md) | O(N) | O(1) | 2026-10-14 |
 
-## 🟢 熟悉（10）
+## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 Medium | Fast Slow Pointers | [C++](../problems/0019.md) | O(N) | O(1) | 2026-10-20 |
-| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Fast Slow Pointers | [C++](../problems/0026.md) | O(N) | O(1) | 2026-10-20 |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Fast Slow Pointers | [C++](../problems/0026.md) | O(N) | O(1) | 2026-10-22 |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Fast Slow Pointers | [C++](../problems/0026.md) | O(N) | O(1) | 2026-10-22 |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0027.md) | O(N) | O(1) | 2026-10-22 |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0141.md) | O(N) | O(1) | 2026-09-18 |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0283.md) | O(N) | O(1) | 2026-10-20 |
