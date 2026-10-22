@@ -12,11 +12,10 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（4）
+## 🟣 易忘（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Bit Manipulation, DP | [C++](../problems/0338.md) | O(N) | O(N) | 2026-10-04 |
 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0693.md) | O(1) | O(1) | 2026-10-19 |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation And | [C++](../problems/3120.md) | O(N) | O(1) | 2026-10-07 |
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | Bit Manipulation And | [C++](../problems/3133.md) | O(1) | O(1) | 2026-10-04 |

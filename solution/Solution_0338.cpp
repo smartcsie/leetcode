@@ -17,15 +17,10 @@
 class Solution {
 public:
     vector<int> countBits(int n) {
-        // 初始化大小為 n+1 的陣列，預設值皆為 0
-        vector<int> res(n + 1, 0);
-        
-        // 從 1 開始遍歷到 n
-        for (int i = 1; i <= n; i++) {
-            // 利用 DP 思想：當前數字的 1 的個數 = 去除最低位 1 後的數字的 1 個數 + 1
-            res[i] = res[i & (i - 1)] + 1;
+        vector<int> counts(n + 1, 0);
+        for(int i = 1; i <= n; i++) {
+            counts[i] = counts[i & (i - 1)] + 1;
         }
-        
-        return res;
+        return counts;
     }
 };
