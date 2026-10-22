@@ -13,21 +13,17 @@
  */
 
 class MyHashSet {
+private:
+    vector<bool> set;
 public:
-    unordered_set<int> set;
-    MyHashSet() {
-        
-    }
-    
+    MyHashSet() : set(1000001, false) { }
     void add(int key) {
-        set.insert(key);
+        set[key] = true;
     }
-    
     void remove(int key) {
-        set.erase(key);
+        set[key] = false;
     }
-    
     bool contains(int key) {
-        return set.find(key) != set.end();
+        return set[key];
     }
 };
