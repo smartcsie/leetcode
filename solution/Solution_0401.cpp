@@ -12,22 +12,15 @@
 
 class Solution {
 public:
-    std::vector<std::string> readBinaryWatch(int turnedOn) {
-        std::vector<std::string> res;
-        
-        // 枚舉所有 12 小時與 60 分鐘的組合
-        for (int h = 0; h < 12; h++) {
-            for (int m = 0; m < 60; m++) {
-                // 計算時與分總共點亮的燈數
-                if (__builtin_popcount(h) + __builtin_popcount(m) == turnedOn) {
-                    char buffer[6];
-                    // 格式化為 H:MM
-                    std::snprintf(buffer, sizeof(buffer), "%d:%02d", h, m);
-                    res.push_back(std::string(buffer));
-                }
+    vector<string> readBinaryWatch(int turnedOn) {
+        vector<string> ans;
+        for(int h = 0; h < 12; h++) {
+            for(int m = 0; m < 60; m++) {
+                if(__builtin_popcount(h) + __builtin_popcount(m) == turnedOn) {
+                    ans.push_back(format("{}:{:02d}", h, m));
+                } 
             }
         }
-        
-        return res;
+        return ans;
     }
 };

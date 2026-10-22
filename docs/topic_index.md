@@ -242,7 +242,7 @@
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 Medium | Bit Manipulation | [C++](problems/0371.md) | O(1) | O(1) | 2026-10-04 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation, Hash Table | [C++](problems/0389.md) | O(N) | O(1) | 2026-09-17 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation Xor | [C++](problems/0389.md) | O(N) | O(N) | 2026-09-17 |
-| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](problems/0401.md) | O(1) | O(1) | 2026-10-04 |
+| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](problems/0401.md) | O(1) | O(1) | 2026-10-22 |
 | 416 | 👑 **0/1 Knapsack**<br>[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) | 2026-10-04 |
 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 Medium | Bit Manipulation Xor, Hash Set | [C++](problems/0421.md) | O(N\*L) | O(N) | 2026-10-04 |
 | 461 | 👑 **__builtin_popcount**<br>[Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 Easy | Bit Manipulation | [C++](problems/0461.md) | O(K) | O(1) | 2026-09-21 |

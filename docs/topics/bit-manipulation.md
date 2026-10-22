@@ -17,13 +17,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Sliding Window | [C++](../problems/1016.md) | O(N\*LEN) | O(1) |  |
 
-## 🟣 易忘（13）
+## 🟣 易忘（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation, Math | [C++](../problems/0029.md) | O(log²N) | O(1) | 2026-10-04 |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 Medium | Bit Manipulation | [C++](../problems/0029.md) | O(log²N) | O(1) | 2026-10-04 |
-| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](../problems/0401.md) | O(1) | O(1) | 2026-10-04 |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Bit Manipulation, DP | [C++](../problems/0416.md) | O(N\*S/W) | O(S/W) | 2026-10-04 |
 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 Medium | Bit Manipulation, Bit Manipulation, Array | [C++](../problems/0477.md) | O(31\*N) | O(1) | 2026-10-04 |
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 Medium | Backtracking Permutation, Recursion, Divide and Conquer | [C++](../problems/1545.md) | O(N) | O(N) | 2026-10-04 |
@@ -35,7 +34,7 @@
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) | 2026-10-04 |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 Medium | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（26）
+## 🟢 熟悉（27）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -43,6 +42,7 @@
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 Easy | Bit Manipulation, Bit-Manipulation | [C++](../problems/0190.md) | O(1) | O(1) | 2026-09-17 |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0349.md) | O(N+M) | O(N) | 2026-09-21 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 Easy | Bit Manipulation, Hash Table | [C++](../problems/0389.md) | O(N) | O(1) | 2026-09-17 |
+| 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 Easy | Bit Manipulation, Brute Force | [C++](../problems/0401.md) | O(1) | O(1) | 2026-10-22 |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 Easy | Bit Manipulation | [C++](../problems/0476.md) | O(logN) | O(1) | 2026-09-17 |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 Easy | Bit Manipulation | [C++](../problems/1009.md) | O(logN) | O(1) | 2026-09-17 |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 Easy | Bit Manipulation, Math | [C++](../problems/1342.md) | O(1) | O(1) | 2026-10-07 |
