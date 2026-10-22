@@ -12,15 +12,14 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（3）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 Easy | Bit Manipulation | [C++](../problems/0693.md) | O(1) | O(1) | 2026-10-19 |
-| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation And | [C++](../problems/3120.md) | O(N) | O(1) | 2026-10-07 |
 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | Bit Manipulation And | [C++](../problems/3133.md) | O(1) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（7）
+## 🟢 熟悉（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -31,3 +30,4 @@
 | 2275 | [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | 🟡 Medium | Bit Manipulation And, Greedy | [C++](../problems/2275.md) | O(32\*N) | O(1) | 2026-09-26 |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 Medium | Bit Manipulation And, Greedy, Array | [C++](../problems/2419.md) | O(N) | O(1) | 2026-09-26 |
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 Easy | Bit Manipulation And | [C++](../problems/2595.md) | O(logN) | O(1) | 2026-09-19 |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 Easy | Bit Manipulation And | [C++](../problems/3120.md) | O(N) | O(1) | 2026-10-22 |
