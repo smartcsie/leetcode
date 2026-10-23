@@ -5,17 +5,33 @@ solutions:
 - file: Solution_2396.cpp
   difficulty: 🟡 Medium
   tags:
-  - Math
-  - Brainteaser
+  - Math Palindrome
   topics:
   - math-palindrome
   time: O(1)
   space: O(1)
-  familiarity: 再練習
-  note: '> [tricky];
+  familiarity: 熟練
+  mastered_date: '2026-10-23'
+  note: '> **n >= 4 因為 n = 2，n = 3 是空範圍**;<br>
 
-    <br><br>'
+    > **2 <= b <= (n - 2) 因為 (n - 1) always true;**;<br>
+
+    > **題目意思n轉成所有b進制，如果是所以都是palindromic，return true**<br>
+
+    <br>'
+  tricks:
+  - nrainteaser
+  - tricky
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-23'
+    result: 對
+    reason: null
+  - date: '2026-10-23'
+    result: 對
+    reason: null
+  - date: '2026-10-23'
+    result: 對
+    reason: null
