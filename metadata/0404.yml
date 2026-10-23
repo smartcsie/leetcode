@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Tree Dfs Path
-  - DFS
   topics:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-10-23'
   attempts:
   - date: '2026-09-25'
     result: 對
@@ -22,6 +22,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-23'
+    result: 對
+    reason: null
 - file: Solution_0404_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -37,5 +40,22 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-25'
+    result: 對
+    reason: null
+  - date: '2026-10-23'
+    result: 對
+    reason: null
+- file: Solution_0404_2.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree Bfs Level Order
+  topics:
+  - tree-bfs-level-order
+  time: O(N)
+  space: O(W)
+  familiarity: 熟練
+  mastered_date: '2026-10-23'
+  attempts:
+  - date: '2026-10-23'
     result: 對
     reason: null
