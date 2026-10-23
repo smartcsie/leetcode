@@ -14,15 +14,14 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（3）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/0728.md) | O(N\*D) | O(1) | 2026-10-04 |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) | 2026-10-04 |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（38）
+## 🟢 熟悉（39）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -32,6 +31,7 @@
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](../problems/0171.md) | O(N) | O(1) | 2026-09-17 |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math Digit Decomposition, Bit Manipulation | [C++](../problems/0405.md) | O(1) | O(1) | 2026-10-15 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math Digit Decomposition, String | [C++](../problems/0504.md) | O(log₇N) | O(1) | 2026-10-08 |
+| 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/0728.md) | O(N\*D) | O(1) | 2026-10-23 |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/0868.md) | O(logN) | O(1) | 2026-09-26 |
 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) | 2026-10-17 |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 Medium | Math Digit Decomposition, 504, 1837 | [C++](../problems/1017.md) | O(logN) | O(1) | 2026-10-08 |

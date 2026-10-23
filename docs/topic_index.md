@@ -46,7 +46,7 @@
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math Digit Decomposition, String | [C++](problems/0504.md) | O(log₇N) | O(1) | 2026-10-08 |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math Factor Enumeration | [C++](problems/0507.md) | O(√N) | O(1) | 2026-10-08 |
 | 507 | 👑 **Mersenne Prime**<br>[Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](problems/0507.md) | O(1) | O(1) | 2026-10-08 |
-| 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/0728.md) | O(N\*D) | O(1) | 2026-10-04 |
+| 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/0728.md) | O(N\*D) | O(1) | 2026-10-23 |
 | 762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Math Prime | [C++](problems/0762.md) | O(NlogK) | O(1) | 2026-09-22 |
 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | Math Game Theory, Game Theory | [C++](problems/0810.md) | O(N) | O(1) | 2026-10-04 |
 | 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | 🟢 Easy | Math Formula | [C++](problems/0812.md) | O(N³) | O(1) | 2026-10-18 |
