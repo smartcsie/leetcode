@@ -14,12 +14,12 @@ class Solution {
 public:
     vector<int> decimalRepresentation(int n) {
         vector<int> ans;
-        int multipler = 1;
+        int pow = 1;
         while(n > 0) {
             int d = n % 10;
-            if(d > 0) ans.push_back( d * multipler);
-            if(n >= 10) multipler *= 10;
+            if(d > 0) ans.push_back(d * pow);
             n /= 10;
+            if(n > 0) pow *= 10;
         }
         reverse(ans.begin(), ans.end());
         return ans;
