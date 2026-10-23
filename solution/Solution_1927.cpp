@@ -17,20 +17,12 @@
 
 class Solution {
 public:
-    bool sumGame(std::string num) {
-        int n = num.size();
-        double alice = 0.0, bob = 0.0;
-        for (int i = 0; i < n; i++) {
-            // '?' 的數學期望值為 (0 + 1 + ... + 9) / 10 = 4.5
-            double digit = (num[i] == '?') ? 4.5 : static_cast<double>(num[i] - '0');
-            // 左半邊歸給 alice，右半邊歸給 bob
-            if (i < n / 2) {
-                alice += digit;
-            } else {
-                bob += digit;
-            }
+    bool sumGame(string num) {
+        double left = 0.0, right = 0.0;
+        for(int l = 0, r = num.size() - 1; l < r; l++, r-- ) {
+            left += (num[l] == '?') ? 4.5 : num[l] - '0';
+            right += (num[r] == '?') ? 4.5 : num[r] - '0';
         }
-        // 若期望總和不相等，Alice 就能透過策略贏得遊戲
-        return alice != bob;
+        return left != right;
     }
 };
