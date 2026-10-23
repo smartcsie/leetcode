@@ -7,40 +7,37 @@
  * 空間複雜度：O(N)
  */
 
-class MyQueue x
+class MyQueue {
 private:
-    stack<int> sIn, sOut;
-
-    // 將 sIn 的元素全部轉移至 sOut，僅在 sOut 為空時呼叫
-    void transfer() {
-        if (sOut.empty()) {
-            while (!sIn.empty()) {
-                sOut.push(sIn.top());
-                sIn.pop();
-            }
-        }
-    }
+    stack<int> inStack;
+    stack<int> outStack;
 
 public:
-    MyQueue() {}
+    MyQueue() {
+        
+    }
     
     void push(int x) {
-        sIn.push(x);
+        inStack.push(x);
     }
     
     int pop() {
-        peek(); // 確保 sOut 有元素
-        int res = sOut.top();
-        sOut.pop();
-        return res;
+        int key = peek();
+        outStack.pop();
+        return key;
     }
     
     int peek() {
-        transfer(); // 封裝轉移邏輯，增加可讀性
-        return sOut.top();
+        if(outStack.empty()) {
+            while(!inStack.empty()) {
+                outStack.push(inStack.top());
+                inStack.pop();
+            }
+        }
+        return outStack.top();
     }
     
     bool empty() {
-        return sIn.empty() && sOut.empty();
+        return inStack.empty() && outStack.empty();
     }
 };
