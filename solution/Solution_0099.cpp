@@ -14,21 +14,23 @@
  */
 
 class Solution {
-    const int PRE = 0, A = 1, B = 2;
-    void inorder(TreeNode* root, vector<TreeNode*>& nodes) {
+private:
+    void inorder(TreeNode* root, TreeNode*& first, TreeNode*& second, TreeNode*& prev) {
         if(!root) return;
-        inorder(root->left, nodes);
-        if(nodes[PRE] && root->val < nodes[PRE]->val) {
-            if(nodes[A] == nullptr) nodes[A] = nodes[PRE];
-            nodes[B] = root;
+        inorder(root->left);
+        if(prev && prev->val > root->val) {
+            if(!first) first = prev;
+            second = root;
         }
-        nodes[PRE] = root;
-        inorder(root->right, nodes);
+        prev = root;
+        inorder(root->right);
     }
 public:
     void recoverTree(TreeNode* root) {
-        vector<TreeNode*> nodes(3, nullptr);
-        inorder(root, nodes);
-        if(nodes[A] && nodes[B]) swap(nodes[A]->val, nodes[B]->val);
+        TreeNode* first = nullptr;
+        TreeNode* second = nullptr;
+        TreeNode* prev = nullptr;
+        inorder(root, first, second, prev);
+        if(first && second) swap(first->val, second->val);
     }
 };
