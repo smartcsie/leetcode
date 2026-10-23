@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 983 題　🔴 生疏：215 題　🟠 再練習：60 題　🟡 練習過：75 題　🟣 易忘：111 題　🟢 熟練：522 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 983 題　🔴 生疏：215 題　🟠 再練習：59 題　🟡 練習過：75 題　🟣 易忘：111 題　🟢 熟練：523 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 492 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 491 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（12）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（29）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（32）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（31）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（12）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（29）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -25,13 +25,12 @@
 | 🟣 易忘 | 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](problems/0208.md) | O(L) | O(N \* L) | 2026-10-04 |
 
 <a id="review-math"></a>
-#### 🔢 Math（33）
+#### 🔢 Math（32）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟡 練習過 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math Permutation | [C++](problems/0060.md) | O(N × N!) | O(N) |  |
 | 🟡 練習過 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 Easy | Math Combination, Combinatorics | [C++](problems/0119.md) | O(N) | O(1) |  |
-| 🟠 再練習 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math | [C++](problems/0009.md) | O(logN) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination | [C++](problems/0062.md) | O(min(M,N)) | O(1) | 2026-10-08 |
 | 🟠 再練習 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](problems/0137.md) | O(N) | O(N) | 2026-10-04 |
 | 🟠 再練習 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime, Prime, Palindrome Construction | [C++](problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-10-04 |
@@ -713,7 +712,7 @@
 | [math-game-theory](topics/math-game-theory.md) | 0 | 0 | 0 | 3 | 3 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 0 | 0 | 0 | 0 | 9 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
-| [math-palindrome](topics/math-palindrome.md) | 0 | 1 | 0 | 0 | 1 | 0 | 2 |
+| [math-palindrome](topics/math-palindrome.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 0 | 0 | 1 | 0 | 1 | 0 | 2 |
 | [math-prime](topics/math-prime.md) | 0 | 2 | 0 | 2 | 10 | 0 | 14 |
 | [math-simulation](topics/math-simulation.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |

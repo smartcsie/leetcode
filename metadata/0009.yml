@@ -5,16 +5,22 @@ solutions:
 - file: Solution_0009.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
+  - Math Palindrome
   topics:
   - math-palindrome
   time: O(logN)
   space: O(1)
-  familiarity: 再練習
-  note: '> **[overflow handle]反轉一半避免溢位**<br>'
+  familiarity: 熟練
+  mastered_date: '2026-10-23'
+  note: '> **if((INT_MAX - d) / 10 < r)，防止下面這種case**<br>
+
+    > **x = 1234567899 < INT_MAX，Palindrome  9987654321 > INT_MAX**<br>'
   tricks:
   - overflow handle
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-23'
+    result: 對
+    reason: null
