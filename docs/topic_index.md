@@ -857,7 +857,7 @@
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack) | 🟡 Medium | Design, Design | [C++](problems/0155.md) | O(1) | O(N) | 2026-10-04 |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | Design, Stack | [C++](problems/0173.md) | O(1) | O(H) | 2026-10-04 |
 | 208 | 👑 **trie**<br>[Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](problems/0208.md) | O(L) | O(N \* L) | 2026-10-04 |
-| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Design, Queue | [C++](problems/0225.md) | O(N) | O(N) | 2026-10-04 |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | 🟢 Easy | Design, Queue | [C++](problems/0225.md) | O(N) | O(N) | 2026-10-23 |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | 🟢 Easy | Design | [C++](problems/0232.md) | O(1) | O(N) | 2026-10-23 |
 | 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | 🟢 Easy | Design, Prefix Sum | [C++](problems/0303.md) | O(N) | O(N) | 2026-10-04 |
 | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset) | 🟢 Easy | Design, Hash Table | [C++](problems/0705.md) | O(1) | O(N) | 2026-10-22 |
