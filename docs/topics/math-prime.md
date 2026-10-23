@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime, Prime, Palindrome Construction | [C++](../problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-10-04 |
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math Prime, Brute Force | [C++](../problems/3556.md) | O(N²\*sqrt(M)) | O(1) | 2026-10-04 |
-| 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | Math Prime, Prime Number | [C++](../problems/3765.md) | O(D\*sqrt(N)) | O(D) | 2026-10-04 |
+| 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | Math Prime | [C++](../problems/3765.md) | O(D\*sqrt(N)) | O(D) | 2026-10-23 |
 
 ## 🟡 練習過（0）
 

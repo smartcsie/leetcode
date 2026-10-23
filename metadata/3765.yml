@@ -6,7 +6,6 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Prime
-  - Prime Number
   topics:
   - math-prime
   time: O(D*sqrt(N))
@@ -27,3 +26,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-23'
+    result: 對
+    reason: null
