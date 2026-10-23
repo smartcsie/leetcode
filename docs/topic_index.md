@@ -91,6 +91,7 @@
 | 2169 | [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | 🟢 Easy | Math Factor Enumeration | [C++](problems/2169.md) | O(log(min(NUM1,NUM2))) | O(1) | 2026-10-07 |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](problems/2177.md) | O(1) | O(1) | 2026-09-20 |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](problems/2180.md) | O(D) | O(1) | 2026-10-04 |
+| 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 Easy | Math Simulation | [C++](problems/2293.md) | O(N) | O(N) | 2026-10-23 |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | Math, Enumeration | [C++](problems/2310.md) | O(10) | O(1) | 2026-10-04 |
 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math Palindrome | [C++](problems/2396.md) | O(1) | O(1) | 2026-10-23 |
 | 2413 | 👑 **lcm**<br>[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | Math Gcd | [C++](problems/2413.md) | O(1) | O(1) | 2026-09-22 |

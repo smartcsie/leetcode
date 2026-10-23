@@ -6,9 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Simulation
-  - Simulation
   topics:
   - math-simulation
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-23'
+  attempts:
+  - date: '2026-10-23'
+    result: 對
+    reason: null

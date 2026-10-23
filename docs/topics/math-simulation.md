@@ -8,18 +8,17 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 Easy | Math Simulation, Simulation | [C++](../problems/2293.md) | O(N) | O(N) |  |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（0）
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 Easy | Math Simulation | [C++](../problems/2293.md) | O(N) | O(N) | 2026-10-23 |
 | 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 Easy | Math Simulation, Logic Control | [C++](../problems/3894.md) | O(1) | O(1) | 2026-09-23 |
