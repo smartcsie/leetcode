@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Greedy Sorting Decision
-  - Partition by Parity
   topics:
   - greedy-sorting-decision
   time: O(DlogD)
   space: O(D)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-23'
   note: '> **用to_string把int num轉成string s**<br>
 
     > **初始化 vector<vector<char>> chs(2);，travsal char，分成奇數，偶數**<br>
@@ -25,5 +25,8 @@ solutions:
     > **return stoi(s);**<br>'
   attempts:
   - date: '2026-09-25'
+    result: 對
+    reason: null
+  - date: '2026-10-23'
     result: 對
     reason: null
