@@ -10,31 +10,15 @@
 class Solution {
 public:
     bool backspaceCompare(string s, string t) {
-        int i = s.size() - 1, j = t.size() - 1;
-        int skipS = 0, skipT = 0;
-
+        int i = s.size() - 1;
+        int j = t.size() - 1;
+        int count1 = 0, count2 = 0;
         while (i >= 0 || j >= 0) {
-            // 處理 S 的回退邏輯
-            while (i >= 0) {
-                if (s[i] == '#') { skipS++; i--; }
-                else if (skipS > 0) { skipS--; i--; }
-                else break;
-            }
-            // 處理 T 的回退邏輯
-            while (j >= 0) {
-                if (t[j] == '#') { skipT++; j--; }
-                else if (skipT > 0) { skipT--; j--; }
-                else break;
-            }
-
-            // 比較當前有效的字元
-            if (i >= 0 && j >= 0 && s[i] != t[j]) return false;
-            
-            // 檢查是否一個已經到底，另一個還有字元
-            if ((i >= 0) != (j >= 0)) return false;
-            
-            i--; j--;
+            while (i >= 0 && (s[i] == '#' || count1 > 0)) s[i--] == '#' ? ++count1 : --count1;
+            while (j >= 0 && (t[j] == '#' || count2 > 0)) t[j--] == '#' ? ++count2 : --count2;
+            if (i < 0 || j < 0) return i == j;
+            if (s[i--] != t[j--]) return false;
         }
-        return true;
+        return i == j;
     }
 };

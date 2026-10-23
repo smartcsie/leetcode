@@ -9,7 +9,7 @@
 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 Medium | Linked List, Two Pointers | [C++](../problems/0086.md) | O(N) | O(1) |  |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 Easy | Array, Two Pointers | [C++](../problems/0228.md) | O(N) | O(1) |  |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 Medium | Two Pointers | [C++](../problems/0443.md) | O(N) | O(1) |  |
-| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | String, Two Pointers | [C++](../problems/0844.md) | O(N+M) | O(1) |  |
+| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 Easy | Two Pointers Same | [C++](../problems/0844.md) | O(N+M) | O(1) | 2026-10-23 |
 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 Easy | Array, Two Pointers | [C++](../problems/1089.md) | O(N) | O(1) |  |
 
 ## 🟠 再練習（0）

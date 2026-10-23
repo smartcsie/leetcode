@@ -5,10 +5,13 @@ solutions:
 - file: Solution_0844.cpp
   difficulty: 🟢 Easy
   tags:
-  - String
-  - Two Pointers
+  - Two Pointers Same
   topics:
   - two-pointers-same
   time: O(N+M)
   space: O(1)
   familiarity: 生疏
+  attempts:
+  - date: '2026-10-23'
+    result: 對
+    reason: null
