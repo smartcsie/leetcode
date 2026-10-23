@@ -5,16 +5,22 @@ solutions:
 - file: Solution_0292.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
-  - Game Theory
+  - Math Game Theory
   topics:
   - math-game-theory
   time: O(1)
   space: O(1)
-  familiarity: 易忘
-  note: '> 只有「4 的倍數」是必敗局面'
+  familiarity: 熟練
+  mastered_date: '2026-10-23'
+  note: '> **只有「4 的倍數」是必敗局面**<br>'
   is_best: true
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-23'
+    result: 對
+    reason: null
+  - date: '2026-10-23'
+    result: 對
+    reason: null

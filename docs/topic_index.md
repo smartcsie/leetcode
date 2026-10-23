@@ -30,7 +30,7 @@
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 Easy | Math | [C++](problems/0258.md) | O(logn) | O(1) | 2026-10-18 |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 Easy | Math | [C++](problems/0263.md) | O(logN) | O(1) | 2026-09-14 |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 Easy | Math | [C++](problems/0268.md) | O(N) | O(1) | 2026-10-16 |
-| 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | Math, Game Theory | [C++](problems/0292.md) | O(1) | O(1) | 2026-10-04 |
+| 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | Math Game Theory | [C++](problems/0292.md) | O(1) | O(1) | 2026-10-23 |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 Easy | Math | [C++](problems/0326.md) | O(log₃N) | O(1) | 2026-09-13 |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](problems/0342.md) | O(1) | O(1) | 2026-10-08 |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](problems/0342.md) | O(1) | O(1) | 2026-10-08 |
