@@ -505,7 +505,7 @@
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0884.md) | O(N+M) | O(N+M) | 2026-09-26 |
 | 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Table Existence | [C++](problems/0888.md) | O(A+B) | O(B) | 2026-09-17 |
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | Hash Table Uniqueness, Hash Table | [C++](problems/0939.md) | O(N²) | O(N) | 2026-10-04 |
-| 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0961.md) | O(N) | O(1) | 2026-09-26 |
+| 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0961.md) | O(N) | O(1) | 2026-10-24 |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Hash Table Counting, Hash Table, String | [C++](problems/1002.md) | O(N\*K) | O(1) | 2026-10-07 |
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 Easy | Hash Table Intersection | [C++](problems/1160.md) | O(N) | O(1) | 2026-09-20 |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 Easy | Hash Table Intersection | [C++](problems/1189.md) | O(N) | O(1) | 2026-09-19 |
@@ -723,7 +723,7 @@
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 Easy | Greedy Coin Change | [C++](problems/0860.md) | O(N) | O(1) | 2026-09-17 |
 | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0881.md) | O(N log N) | O(1) | 2026-10-04 |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting, Greedy | [C++](problems/0945.md) | O(NlogN) | O(1) | 2026-10-04 |
-| 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Greedy, Greedy | [C++](problems/0961.md) | O(N) | O(1) | 2026-10-04 |
+| 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Greedy | [C++](problems/0961.md) | O(N) | O(1) | 2026-10-24 |
 | 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 Medium | Greedy String Construction, Recursion, String Construction | [C++](problems/0984.md) | O(A + B) | O(A + B) | 2026-09-25 |
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/1029.md) | O(NlogN) | O(1) | 2026-10-24 |
 | 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | 🟡 Medium | Greedy, Math, String | [C++](problems/1247.md) | O(N) | O(1) | 2026-10-04 |

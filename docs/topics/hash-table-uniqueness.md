@@ -32,7 +32,7 @@
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](../problems/0387.md) | O(N) | O(1) | 2026-09-25 |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](../problems/0859.md) | O(N) | O(1) | 2026-10-07 |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0884.md) | O(N+M) | O(N+M) | 2026-09-26 |
-| 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0961.md) | O(N) | O(1) | 2026-09-26 |
+| 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0961.md) | O(N) | O(1) | 2026-10-24 |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Counting | [C++](../problems/1207.md) | O(N) | O(N) | 2026-09-26 |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Table Uniqueness, Hash Set, Coordinates | [C++](../problems/1496.md) | O(N) | O(N) | 2026-10-05 |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](../problems/1748.md) | O(N) | O(N) | 2026-09-16 |
