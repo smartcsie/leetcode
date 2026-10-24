@@ -4988,11 +4988,12 @@
 <h1 id="1721-swapping-nodes-in-a-linked-list">1721. Swapping Nodes in a Linked List<a class="headerlink" href="#1721-swapping-nodes-in-a-linked-list" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/swapping-nodes-in-a-linked-list">在 LeetCode 上查看</a></p>
 <h2 id="linked-list">解法：linked-list<a class="headerlink" href="#linked-list" title="Permanent link">&para;</a></h2>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Linked List, Two Pointers　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Linked List　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-09-25</strong> 對</li>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-10-24</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1721. Swapping Nodes in a Linked List (交換鏈結串列中的節點)</span>
@@ -5038,7 +5039,8 @@
 </code></pre></div>
 <blockquote>
 <p><strong>fast從head出發，走k-1步，因為例如1-&gt;2-&gt;3，k=2，只有走到2，走2-1步</strong><br>
-<strong>fast走到k-1，為其中一個節點，另外一個節點繼續跟fast走到底</strong><br>
+<strong>fast走到k-1，為其中一個節點，另外一個節點繼續跟cur走到底</strong><br>
+<strong>注意是while(cur-&gt;next)</strong><br>
 <strong>例如1-&gt;2-&gt;3-&gt;4-&gt;5，假設k=2，first會是2，second會是4</strong><br>
 <strong>例如1-&gt;2-&gt;3-&gt;4-&gt;5，假設k=4，first會是4，second會是2</strong><br>
 ****<br></p>
@@ -5050,6 +5052,7 @@
 <ul>
 <li>✅ <strong>2026-09-25</strong> 對</li>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-10-24</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cm">/**</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cm"> * 題目：1721. Swapping Nodes in a Linked List</span>
