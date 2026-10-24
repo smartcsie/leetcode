@@ -16,7 +16,7 @@
 | 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | Greedy Sorting Decision, Sorting, Counting | [C++](../problems/3014.md) | O(N+26log26) | O(1) | 2026-10-04 |
 | 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | Greedy Sorting Decision, Sorting, Counting | [C++](../problems/3016.md) | O(N+26log26) | O(1) | 2026-10-04 |
 
-## 🟡 練習過（5）
+## 🟡 練習過（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24,7 +24,6 @@
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/1029.md) | O(N log N) | O(1) |  |
 | 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 Easy | Greedy Sorting Decision | [C++](../problems/1710.md) | O(N log N) | O(1) |  |
 | 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/2279.md) | O(N log N) | O(N) |  |
-| 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | Greedy Sorting Decision, Greedy, Sorting | [C++](../problems/2966.md) | O(NlogN) | O(1) |  |
 
 ## 🟣 易忘（1）
 
@@ -32,11 +31,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/3014.md) | O(1) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy Sorting Decision | [C++](../problems/2231.md) | O(DlogD) | O(D) | 2026-10-23 |
+| 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/2966.md) | O(NlogN) | O(1) | 2026-10-24 |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/3727.md) | O(nlogn) | O(1) | 2026-10-13 |
 
 ---

@@ -6,11 +6,14 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Greedy Sorting Decision
-  - Greedy
-  - Sorting
   topics:
   - greedy-sorting-decision
   time: O(NlogN)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
+  note: '>**nums.size()最小是3**<br>'
+  attempts:
+  - date: '2026-10-24'
+    result: 對
+    reason: null
