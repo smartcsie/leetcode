@@ -24,29 +24,18 @@
 class Solution {
 public:
     int maxCount(std::vector<int>& banned, int n, int maxSum) {
-        // 將 banned 轉為 unordered_set，以便 O(1) 快速檢查
-        std::unordered_set<int> bannedSet(banned.begin(), banned.end());
-        
-        int count = 0;
+        unordered_set<int> banSet(banned.begin(), banned.end());
         int sum = 0;
-        
-        // 從 1 到 n 依序走訪
-        for (int i = 1; i <= n; ++i) {
-            // 若該數字被禁止，跳過
-            if (bannedSet.count(i)) {
-                continue;
-            }
-            
-            // 貪心累加：確保加上當前數字後不超過 maxSum
-            if ((sum + i) <= maxSum) {
-                sum += i;
+        int count = 0;
+        for(int x = 1; x <= n; x++) {
+            if(banSet.contains(x)) continue;
+            if(sum + x <= maxSum) {
+                sum += x;
                 count++;
             } else {
-                // 如果加上當前數字會超標，因為後面的數字更大，直接結束迴圈
                 break;
             }
         }
-        
         return count;
     }
 };
