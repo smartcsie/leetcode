@@ -8,11 +8,9 @@
 | 738 | [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) | 🟡 Medium | Greedy Digit Construction | [C++](../problems/0738.md) | O(N) | O(N) |  |
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy, String | [C++](../problems/1881.md) | O(N) | O(1) |  |
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy, Sorting | [C++](../problems/2578.md) | O(NlogN) | O(N) | 2026-10-04 |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（2）
 
@@ -25,10 +23,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy Digit Construction | [C++](../problems/0670.md) | O(D) | O(D) | 2026-10-24 |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy Digit Construction, Math | [C++](../problems/1323.md) | O(D) | O(D) | 2026-09-25 |
+| 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy Digit Construction | [C++](../problems/2578.md) | O(NlogN) | O(N) | 2026-10-24 |
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | Greedy | [C++](../problems/3114.md) | O(1) | O(1) | 2026-10-24 |

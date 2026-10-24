@@ -5,19 +5,20 @@ solutions:
 - file: Solution_2578.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy
-  - Sorting
+  - Greedy Digit Construction
   topics:
   - greedy-digit-construction
   time: O(NlogN)
   space: O(N)
-  familiarity: 再練習
-  note: '> [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/)<br>
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
+  note: '> **用to_string把int num轉成string s，對s排序**<br>
 
-    > 用to_string把int num轉成string s，對s排序<br>
-
-    > 取穿插字元成為兩數，兩樹相加即是答案<br>'
+    > **取穿插字元成為兩數，兩樹相加即是答案**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-24'
+    result: 對
+    reason: null
