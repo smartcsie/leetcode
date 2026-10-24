@@ -806,7 +806,7 @@
 | 543 | 👑 **DP on Tree**<br>[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | Tree Dfs Global, DFS | [C++](problems/0543.md) | O(N) | O(H) | 2026-10-24 |
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 Easy | Tree Dfs Path, DFS, BFS | [C++](problems/0559.md) | O(N) | O(H) | 2026-09-14 |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | 🟢 Easy | Tree Dfs Global, DFS, Post-order | [C++](problems/0563.md) | O(N) | O(H) | 2026-10-23 |
-| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree Dfs Path, DFS | [C++](problems/0572.md) | O(N\*M) | O(H) | 2026-10-04 |
+| 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 Easy | Tree Dfs Path | [C++](problems/0572.md) | O(N\*M) | O(H) | 2026-10-24 |
 | 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | 🟢 Easy | Tree Traversal | [C++](problems/0589.md) | O(N) | O(H) | 2026-09-15 |
 | 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | 🟢 Easy | Tree Traversal | [C++](problems/0590.md) | O(N) | O(H) | 2026-09-15 |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree Dfs Path | [C++](problems/0606.md) | O(N) | O(H) | 2026-10-18 |
