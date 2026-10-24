@@ -23,8 +23,8 @@ public:
         int mn = arrays[0].front();
         int mx = arrays[0].back();
         int ans = 0;
-        for (int i = 1; i < arrays.size(); i++) {
-            ans = max(ans, max(arrays[i].back() - mn,mx - arrays[i].front()));
+        for(int i = 1; i < arrays.size(); i++) {
+            ans = max({ans, arrays[i].back()- mn, mx - arrays[i].front()});
             mn = min(mn, arrays[i].front());
             mx = max(mx, arrays[i].back());
         }
