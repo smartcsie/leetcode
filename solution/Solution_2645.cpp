@@ -22,17 +22,13 @@ class Solution {
 public:
     int addMinimum(string word) {
         int n = word.size();
-        int idx = 0;
+        constexpr array<unsigned char, 3> chs = {'a', 'b', 'c'};
         int addition = 0;
-        while(idx < n) {
-            if(word[idx] == 'a') idx++;
-            else addition++;
-
-            if(word[idx] == 'b') idx++;
-            else addition++;
-
-            if(word[idx] == 'c') idx++;
-            else addition++;
+        for(int i = 0; i < n;) {
+            for(const unsigned char c : chs) {
+                if(i < n && word[i] == c) i++;
+                else addition++;
+            }
         }
         return addition;
     }

@@ -108,6 +108,7 @@
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/2544.md) | O(logN) | O(logN) | 2026-09-14 |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 Easy | Math Digit Decomposition, Math | [C++](problems/2553.md) | O(N\*log(max_VAL)) | O(N\*log(max_VAL)) | 2026-09-16 |
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math Prime, Trial Division | [C++](problems/2614.md) | O(N\*sqrt(M)) | O(1) | 2026-09-23 |
+| 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | Math Formula | [C++](problems/2645.md) | O(N) | O(1) | 2026-10-24 |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 Easy | Math, Brute Force | [C++](problems/2652.md) | O(N) | O(1) | 2026-09-16 |
 | 2761 | 👑 **Sieve Algorithm**<br>[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math Prime, Sieve | [C++](problems/2761.md) | O(NloglogN) | O(N) | 2026-10-08 |
 | 2807 | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | 🟡 Medium | Math Geometry | [C++](problems/2807.md) | O(N) | O(N) | 2026-09-23 |

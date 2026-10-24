@@ -16,3 +16,25 @@ solutions:
   - date: '2026-10-24'
     result: 對
     reason: null
+  - date: '2026-10-24'
+    result: 對
+    reason: null
+  - date: '2026-10-24'
+    result: 對
+    reason: null
+- file: Solution_2645_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math Formula
+  topics:
+  - math-formula
+  time: O(N)
+  space: O(1)
+  familiarity: 易忘
+  attempts:
+  - date: '2026-10-24'
+    result: 對
+    reason: null
+  - date: '2026-10-24'
+    result: 對
+    reason: null
