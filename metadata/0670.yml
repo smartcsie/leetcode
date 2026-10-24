@@ -5,13 +5,22 @@ solutions:
 - file: Solution_0670.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy
+  - Greedy Digit Construction
   topics:
   - greedy-digit-construction
-  time: O(N)
-  space: O(1)
-  familiarity: 再練習
+  time: O(D)
+  space: O(D)
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
+  note: '>**先用last紀錄1~9最後面出現的index**<br>
+
+    >**travsal string由左到右scan，只要右邊有比自己大，就交換**<br>
+
+    >**右邊有比自己大的右邊要從9往0找，保證結果最大**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-24'
+    result: 對
+    reason: null
