@@ -12,11 +12,10 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（2）
+## 🟣 易忘（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 Medium | Tree Bfs Level Order | [C++](../problems/0116.md) | O(N) | O(1) | 2026-10-06 |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS, Level Order Traversal | [C++](../problems/0958.md) | O(N) | O(N) | 2026-10-06 |
 
 ## 🟢 熟悉（17）
