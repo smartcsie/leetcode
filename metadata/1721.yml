@@ -6,15 +6,17 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Linked List
-  - Two Pointers
   topics:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
   note: '> **fast從head出發，走k-1步，因為例如1->2->3，k=2，只有走到2，走2-1步**<br>
 
-    > **fast走到k-1，為其中一個節點，另外一個節點繼續跟fast走到底**<br>
+    > **fast走到k-1，為其中一個節點，另外一個節點繼續跟cur走到底**<br>
+
+    > **注意是while(cur->next)**<br>
 
     > **例如1->2->3->4->5，假設k=2，first會是2，second會是4**<br>
 
@@ -28,6 +30,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-24'
+    result: 對
+    reason: null
 - file: Solution_1721_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -44,3 +49,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-24'
+    result: 對
+    reason: null
