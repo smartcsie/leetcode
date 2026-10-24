@@ -1,0 +1,18 @@
+number: 1629
+title: Slowest Key
+url: https://leetcode.com/problems/slowest-key/
+solutions:
+- file: Solution_1629.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array Min Max
+  topics:
+  - array-min-max
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
+  attempts:
+  - date: '2026-10-24'
+    result: 對
+    reason: null

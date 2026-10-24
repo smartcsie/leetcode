@@ -16,7 +16,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24,4 +24,5 @@
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array Min Max | [C++](../problems/0628.md) | O(N) | O(1) | 2026-09-16 |
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 Easy | Array Min Max, Linear Scan | [C++](../problems/0747.md) | O(N) | O(1) | 2026-09-16 |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 Easy | Array Min Max, Greedy, Simulation | [C++](../problems/1464.md) | O(N) | O(1) | 2026-09-15 |
+| 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | 🟢 Easy | Array Min Max | [C++](../problems/1629.md) | O(N) | O(1) | 2026-10-24 |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | 🟢 Easy | Array Min Max | [C++](../problems/1913.md) | O(N) | O(1) | 2026-09-16 |

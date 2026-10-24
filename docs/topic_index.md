@@ -378,6 +378,7 @@
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) | 2026-10-04 |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 Easy | Array Linear Scan | [C++](problems/1608.md) | O(N + V) | O(V) | 2026-10-16 |
 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 Easy | Array Linear Scan | [C++](problems/1614.md) | O(N) | O(1) | 2026-09-24 |
+| 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | 🟢 Easy | Array Min Max | [C++](problems/1629.md) | O(N) | O(1) | 2026-10-24 |
 | 1662 | 👑 **string vector travsal**<br>[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 Easy | Array, String | [C++](problems/1662.md) | O(N+M) | O(1) | 2026-09-18 |
 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | Array Prefix Sum, Prefix Sum | [C++](problems/1732.md) | O(N) | O(1) | 2026-10-03 |
 | 1752 | 👑 **Circular Array**<br>[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 Easy | Array | [C++](problems/1752.md) | O(N) | O(1) | 2026-10-06 |

@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 983 題　🔴 生疏：215 題　🟠 再練習：45 題　🟡 練習過：67 題　🟣 易忘：106 題　🟢 熟練：550 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 984 題　🔴 生疏：215 題　🟠 再練習：45 題　🟡 練習過：67 題　🟣 易忘：106 題　🟢 熟練：551 題　⚪ 未標記：0 題
 
 ---
 
@@ -608,7 +608,7 @@
 | [array-difference-array](topics/array-difference-array.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 2 | 0 | 3 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 0 | 0 | 0 | 0 | 25 | 0 | 25 |
-| [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 5 | 0 | 5 |
+| [array-min-max](topics/array-min-max.md) | 0 | 0 | 0 | 0 | 6 | 0 | 6 |
 | [array-negative-marking](topics/array-negative-marking.md) | 0 | 0 | 0 | 2 | 4 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 5 | 0 | 1 | 5 | 8 | 0 | 19 |
 | [array-suffix-sum](topics/array-suffix-sum.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
