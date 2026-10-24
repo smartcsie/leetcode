@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 983 題　🔴 生疏：215 題　🟠 再練習：46 題　🟡 練習過：68 題　🟣 易忘：106 題　🟢 熟練：548 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 983 題　🔴 生疏：215 題　🟠 再練習：45 題　🟡 練習過：68 題　🟣 易忘：106 題　🟢 熟練：549 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 464 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 463 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（29）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（68）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（29）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（67）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -465,7 +465,7 @@
 | 🟣 易忘 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) | 2026-10-04 |
 
 <a id="review-greedy"></a>
-#### 🧩 Greedy（68）
+#### 🧩 Greedy（67）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -485,7 +485,6 @@
 | 🟠 再練習 | 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 Easy | Greedy, Hash Table | [C++](problems/1624.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | [C++](problems/2027.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy, Hashing | [C++](problems/2815.md) | O(N\*D) | O(1) | 2026-10-04 |
-| 🟠 再練習 | 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 Easy | Greedy, String | [C++](problems/3216.md) | O(N) | O(1) | 2026-10-04 |
 | 🔴 生疏 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | 🟡 Medium | Greedy Prefix Suffix | [C++](problems/0045.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 135 | [Candy](https://leetcode.com/problems/candy/) | 🔴 Hard | Greedy Fractional Knapsack | [C++](problems/0135.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0406.md) | O(N²) | O(N) |  |
@@ -667,7 +666,7 @@
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 1 | 0 | 0 | 0 | 5 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 3 | 0 | 0 | 0 | 1 | 0 | 4 |
 | [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 2 | 3 | 0 | 6 | 0 | 13 |
-| [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 2 | 0 | 0 | 2 | 0 | 8 |
+| [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 1 | 0 | 0 | 3 | 0 | 8 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 2 | 0 | 0 | 2 | 0 | 0 | 4 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 0 | 1 | 0 | 3 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 3 | 0 | 0 | 0 | 24 | 0 | 27 |

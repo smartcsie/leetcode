@@ -5,16 +5,15 @@ solutions:
 - file: Solution_3216.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy
+  - Greedy String Construction
   - String
   topics:
   - greedy-string-construction
   time: O(N)
   space: O(1)
-  familiarity: 再練習
-  note: '> [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/)<br>
-
-    > 前後兩個character找到相同parity且前面character比較大，做swap<br>
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
+  note: '> 前後兩個character找到相同parity且前面character比較大，做swap<br>
 
     > **for(int i = 1; i < s.size(); i++) {** <br>
 
@@ -28,7 +27,12 @@ solutions:
     > &emsp;&emsp;&emsp;&emsp;**}** <br>
 
     > **}** <br>'
+  related:
+  - 670
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-24'
+    result: 對
+    reason: null
