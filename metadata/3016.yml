@@ -6,13 +6,12 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Greedy Sorting Decision
-  - Sorting
-  - Counting
   topics:
   - greedy-sorting-decision
   time: O(N+26log26)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
   note: '> **貪心策略把品率最高的擺在 2 ~ 9的第一個位置，按一下，再來是2~9的第2個位置**<br>
 
     > **因為2~9只有8個按鈕，counts由大到小，所以按幾下等於(i/8 + 1)**<br>'
@@ -23,3 +22,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-24'
+    result: 對
+    reason: null

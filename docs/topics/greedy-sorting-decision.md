@@ -7,14 +7,12 @@
 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0406.md) | O(N²) | O(N) |  |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array, Greedy, Bit Manipulation | [C++](../problems/3011.md) | O(N) | O(1) |  |
 
-## 🟠 再練習（4）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0881.md) | O(N log N) | O(1) | 2026-10-04 |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting, Greedy | [C++](../problems/0945.md) | O(NlogN) | O(1) | 2026-10-04 |
-| 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | Greedy Sorting Decision, Sorting, Counting | [C++](../problems/3014.md) | O(N+26log26) | O(1) | 2026-10-04 |
-| 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | Greedy Sorting Decision, Sorting, Counting | [C++](../problems/3016.md) | O(N+26log26) | O(1) | 2026-10-04 |
 
 ## 🟡 練習過（4）
 
@@ -25,18 +23,18 @@
 | 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 Easy | Greedy Sorting Decision | [C++](../problems/1710.md) | O(N log N) | O(1) |  |
 | 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/2279.md) | O(N log N) | O(N) |  |
 
-## 🟣 易忘（1）
+## 🟣 易忘（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/3014.md) | O(1) | O(1) | 2026-10-04 |
+目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy Sorting Decision | [C++](../problems/2231.md) | O(DlogD) | O(D) | 2026-10-23 |
 | 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/2966.md) | O(NlogN) | O(1) | 2026-10-24 |
+| 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | Greedy Sorting Decision, Sorting, Counting | [C++](../problems/3014.md) | O(N+26log26) | O(1) | 2026-10-24 |
+| 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/3016.md) | O(N+26log26) | O(1) | 2026-10-24 |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/3727.md) | O(nlogn) | O(1) | 2026-10-13 |
 
 ---

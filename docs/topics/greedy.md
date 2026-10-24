@@ -32,9 +32,10 @@
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy, Two Candidates | [C++](../problems/1909.md) | O(N) | O(1) | 2026-10-04 |
 | 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](../problems/2571.md) | O(logN) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | Greedy | [C++](../problems/2656.md) | O(N) | O(1) | 2026-09-25 |
+| 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 Medium | Greedy | [C++](../problems/3014.md) | O(1) | O(1) | 2026-10-24 |
 | 3536 | [Maximum Product of Two Digits](https://leetcode.com/problems/maximum-product-of-two-digits/description/) | 🟢 Easy | Greedy, Math | [C++](../problems/3536.md) | O(logN) | O(1) | 2026-09-25 |
