@@ -21,18 +21,19 @@
 class Solution {
 public:
     int addMinimum(string word) {
-        int ans = 0;
         int n = word.size();
-        for(int i = 0 ; i <n;) {
-            int count = 0;
-            for(char c : {'a', 'b', 'c'}) {
-                if(i < n && word[i] == c) {
-                    i++;
-                    count++;
-                }
-            }
-            ans += 3 - count;
+        int idx = 0;
+        int addition = 0;
+        while(idx < n) {
+            if(word[idx] == 'a') idx++;
+            else addition++;
+
+            if(word[idx] == 'b') idx++;
+            else addition++;
+
+            if(word[idx] == 'c') idx++;
+            else addition++;
         }
-        return ans;
+        return addition;
     }
 };

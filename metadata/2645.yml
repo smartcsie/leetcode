@@ -5,11 +5,14 @@ solutions:
 - file: Solution_2645.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy
-  - Simulation
+  - Greedy Validity Repair
   topics:
   - greedy-validity-repair
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
+  attempts:
+  - date: '2026-10-24'
+    result: 對
+    reason: null
