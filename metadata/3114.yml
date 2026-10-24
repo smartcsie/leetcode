@@ -6,9 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Greedy
-  - String
   topics:
   - greedy-digit-construction
   time: O(1)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
+  attempts:
+  - date: '2026-10-24'
+    result: 對
+    reason: null
