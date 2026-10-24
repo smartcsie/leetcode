@@ -6,16 +6,19 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Greedy
-  - Greedy
   topics:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 再練習
-  note: '> nums做summation，summation和goal取差值，即相減做abs <br>
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
+  note: '> **nums做summation，summation和goal取差值，即相減做abs **<br>
 
-    > 上方結果除以limit取上界'
+    > **上方結果除以limit取上界**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-24'
+    result: 對
+    reason: null
