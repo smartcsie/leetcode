@@ -5,7 +5,7 @@
  * costB] 是第 i 個人分別去兩個城市的花費，要求恰好一半人去 A、一半
  * 人去 B，求最小總花費。
  *
- * 時間複雜度：O(N log N)
+ * 時間複雜度：O(NlogN)
  * 空間複雜度：O(1)
  *
  * 解法思路：
@@ -22,17 +22,18 @@
  *    更划算的城市」，而且因為排序後前後兩半剛好各佔一半，天然滿足
  *    「一半去 A、一半去 B」的數量限制，不需要額外調整。
  */
+
 class Solution {
 public:
     int twoCitySchedCost(vector<vector<int>>& costs) {
-        sort(costs.begin(), costs.end(), [](const vector<int>& a, const vector<int>& b){
+        sort(costs.begin(), costs.end(), [](const vector<int>& a, const vector<int>& b) {
             return a[0] - a[1] < b[0] - b[1];
         });
-        int half = costs.size() / 2;
         int cost = 0;
-        for(int i = 0; i < costs.size(); i++) {
-            if(i < half) cost += costs[i][0];
-            else  cost += costs[i][1];
+        int n = costs.size();
+        for(int i = 0; i < n; i++) {
+            if(i < n / 2) cost += costs[i][0];
+            else cost += costs[i][1];
         }
         return cost;
     }
