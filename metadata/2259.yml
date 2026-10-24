@@ -6,13 +6,16 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Greedy Digit Construction
-  - String
   topics:
   - greedy-digit-construction
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-24'
   note: '> **先由左往右掃描，找到第一個目標digit位置，且小於右邊字元找到則回傳**<br>
 
     > **上面方法沒找到，由右邊往左找rfind，找到第一個目標digit位置回傳**<br>'
-  tricks: null
+  attempts:
+  - date: '2026-10-24'
+    result: 對
+    reason: null

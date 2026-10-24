@@ -12,22 +12,22 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（2）
+## 🟡 練習過（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | 🟡 Medium | Greedy Digit Construction | [C++](../problems/0402.md) | O(N) | O(N) |  |
-| 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | Greedy Digit Construction, String | [C++](../problems/2259.md) | O(N) | O(N) |  |
 
 ## 🟣 易忘（0）
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy Digit Construction | [C++](../problems/0670.md) | O(D) | O(D) | 2026-10-24 |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy Digit Construction, Math | [C++](../problems/1323.md) | O(D) | O(D) | 2026-09-25 |
+| 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | Greedy Digit Construction | [C++](../problems/2259.md) | O(N) | O(N) | 2026-10-24 |
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy Digit Construction | [C++](../problems/2578.md) | O(NlogN) | O(N) | 2026-10-24 |
 | 3114 | [Latest Time You Can Obtain After Replacing Characters](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/) | 🟢 Easy | Greedy | [C++](../problems/3114.md) | O(1) | O(1) | 2026-10-24 |

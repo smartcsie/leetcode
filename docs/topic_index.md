@@ -736,6 +736,7 @@
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy, Two Candidates | [C++](problems/1909.md) | O(N) | O(1) | 2026-10-04 |
 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | [C++](problems/2027.md) | O(N) | O(1) | 2026-10-04 |
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy Sorting Decision | [C++](problems/2231.md) | O(DlogD) | O(D) | 2026-10-23 |
+| 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | Greedy Digit Construction | [C++](problems/2259.md) | O(N) | O(N) | 2026-10-24 |
 | 2554 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | 🟡 Medium | Greedy Selection Constraints | [C++](problems/2554.md) | O(N+M) | O(M) | 2026-10-24 |
 | 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](problems/2571.md) | O(logN) | O(1) | 2026-10-04 |
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy Digit Construction | [C++](problems/2578.md) | O(NlogN) | O(N) | 2026-10-24 |
