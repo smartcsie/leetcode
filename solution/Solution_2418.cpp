@@ -10,12 +10,11 @@
 class Solution {
 public:
     vector<string> sortPeople(vector<string>& names, vector<int>& heights) {
-        unordered_map<int,string> maps;
-        int n = names.size();
-        for(int i = 0; i < n; i++) maps[heights[i]] =  names[i];
-        sort(heights.begin(), heights.end(), greater<int>());
-        vector<string> ans(n);
-        for(int i = 0; i < n; i++) ans[i] = maps[heights[i]];
+        vector<pair<int, string>> heightToName;
+        for(int i = 0; i < names.size(); i++) heightToName.push_back({heights[i], names[i]});
+        sort(heightToName.begin(), heightToName.end(), greater<>());
+        vector<string> ans(names.size());
+        for(int i = 0; i < names.size(); i++) ans[i] = heightToName[i].second;
         return ans;
     }
 };

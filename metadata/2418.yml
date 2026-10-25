@@ -6,16 +6,19 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Sorting Custom Comparator
-  - Sorting
-  - Hash Table
   topics:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-25'
   note: '> **unordered_map<int, int>和vector<pair<int,string>>**<br>
 
     > **都不行直接greater<int>()，所以先排好heights，再unordered_map到name**<br>'
+  attempts:
+  - date: '2026-10-25'
+    result: 對
+    reason: null
 - file: Solution_2418_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -24,8 +27,12 @@ solutions:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-25'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-25'
+    result: 對
+    reason: null
