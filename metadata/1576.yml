@@ -5,12 +5,13 @@ solutions:
 - file: Solution_1576.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy
+  - Greedy String Construction
   topics:
   - greedy-string-construction
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-25'
   note: '> 將字串中的 ''?'' 替換為合法字元，保證相鄰字元不重複遍歷字串，當遇到 ''?'' 時，從 ''a'', ''b'', ''c'' 中選出一個與左右相鄰皆不同的字元替換<br>
 
     > **for(char c = ''a''; c <= ''c''; c++) {** <br>
@@ -26,3 +27,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-25'
+    result: 對
+    reason: null
