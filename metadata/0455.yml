@@ -10,10 +10,19 @@ solutions:
   - greedy-fractional-knapsack
   time: O(N log N)
   space: O(1)
-  familiarity: 再練習
-  is_representative: true
-  representative_tag: Sorting Decision
+  familiarity: 熟練
+  mastered_date: '2026-10-25'
+  note: '> **先排序資料，s和g都是**<br>
+
+    > **s[i] <= g[j] 表示目前第j個cookie可以給第i個child**<br>
+
+    > **如果不是表示蛋糕太小，繼續往後面找比較大的cookie**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-25'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Sorting Decision
