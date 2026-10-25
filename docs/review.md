@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 984 題　🔴 生疏：215 題　🟠 再練習：40 題　🟡 練習過：67 題　🟣 易忘：106 題　🟢 熟練：556 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 984 題　🔴 生疏：215 題　🟠 再練習：39 題　🟡 練習過：67 題　🟣 易忘：106 題　🟢 熟練：557 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 457 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 456 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（29）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（61）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（29）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（60）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -465,7 +465,7 @@
 | 🟣 易忘 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) | 2026-10-04 |
 
 <a id="review-greedy"></a>
-#### 🧩 Greedy（61）
+#### 🧩 Greedy（60）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -477,7 +477,6 @@
 | 🟠 再練習 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | 🟡 Medium | Greedy Fractional Knapsack | [C++](problems/0134.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting, Greedy | [C++](problems/0945.md) | O(NlogN) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 Medium | Greedy, State Machine | [C++](problems/1529.md) | O(N) | O(1) | 2026-10-04 |
-| 🟠 再練習 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | [C++](problems/2027.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy, Hashing | [C++](problems/2815.md) | O(N\*D) | O(1) | 2026-10-04 |
 | 🔴 生疏 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | 🟡 Medium | Greedy Prefix Suffix | [C++](problems/0045.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 135 | [Candy](https://leetcode.com/problems/candy/) | 🔴 Hard | Greedy Fractional Knapsack | [C++](problems/0135.md) | O(N) | O(N) |  |
@@ -646,7 +645,7 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 4 | 2 | 0 | 3 | 8 | 0 | 17 |
+| [greedy](topics/greedy.md) | 4 | 1 | 0 | 3 | 9 | 0 | 17 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 3 | 0 | 1 | 0 | 5 | 0 | 9 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 3 | 1 | 0 | 0 | 1 | 0 | 5 |
