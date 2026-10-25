@@ -14,7 +14,8 @@
 class Solution {
 public:
     int maxLengthBetweenEqualCharacters(string s) {
-        vector<int> start(26, -1);
+        array<int, 26> start;
+        start.fill(-1);
         int ans = -1;
         for(int i = 0; i < s.size(); i++) {
             int idx = s[i] - 'a';
