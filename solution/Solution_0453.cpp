@@ -20,12 +20,12 @@
 class Solution {
 public:
     int minMoves(vector<int>& nums) {
-        int minVal = INT_MAX;
-        int sum = 0;
+        int n = nums.size();
+        int sum = 0, mn = INT_MAX;
         for(const int& x : nums) {
             sum += x;
-            minVal = min(minVal, x);
+            mn = min(mn, x);
         }
-        return sum - minVal * nums.size();
+        return sum - n * mn;
     }
 };
