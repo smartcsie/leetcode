@@ -722,7 +722,7 @@
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0670.md) | O(D) | O(D) | 2026-10-24 |
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy | [C++](problems/0678.md) | O(N) | O(1) | 2026-10-04 |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 Easy | Greedy Coin Change | [C++](problems/0860.md) | O(N) | O(1) | 2026-09-17 |
-| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0881.md) | O(N log N) | O(1) | 2026-10-04 |
+| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0881.md) | O(N log N) | O(1) | 2026-10-25 |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting, Greedy | [C++](problems/0945.md) | O(NlogN) | O(1) | 2026-10-04 |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Greedy | [C++](problems/0961.md) | O(N) | O(1) | 2026-10-24 |
 | 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 Medium | Greedy String Construction, Recursion, String Construction | [C++](problems/0984.md) | O(A + B) | O(A + B) | 2026-09-25 |

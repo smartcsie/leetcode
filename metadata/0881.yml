@@ -10,7 +10,8 @@ solutions:
   - greedy-sorting-decision
   time: O(N log N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-25'
   note: '> **排序後，挑選最重(right)和最輕(left)的一起上船，低於limit，就一起上船，left++，right--**<br>
 
     > **如果最重(right)和最輕(left)的大於limit，只能重的(right)一條船，right--**<br>'
@@ -21,3 +22,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-25'
+    result: 對
+    reason: null

@@ -7,11 +7,10 @@
 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0406.md) | O(N²) | O(N) |  |
 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array, Greedy, Bit Manipulation | [C++](../problems/3011.md) | O(N) | O(1) |  |
 
-## 🟠 再練習（2）
+## 🟠 再練習（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0881.md) | O(N log N) | O(1) | 2026-10-04 |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Sorting, Greedy | [C++](../problems/0945.md) | O(NlogN) | O(1) | 2026-10-04 |
 
 ## 🟡 練習過（3）
@@ -26,10 +25,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（6）
+## 🟢 熟悉（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0881.md) | O(N log N) | O(1) | 2026-10-25 |
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/1029.md) | O(NlogN) | O(1) | 2026-10-24 |
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy Sorting Decision | [C++](../problems/2231.md) | O(DlogD) | O(D) | 2026-10-23 |
 | 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/2966.md) | O(NlogN) | O(1) | 2026-10-24 |
