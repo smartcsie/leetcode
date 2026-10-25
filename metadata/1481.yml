@@ -6,12 +6,16 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Sorting Custom Comparator
-  - Sorting
   topics:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-25'
   note: '> **用 std::unordered_map<int, int> counts;;統計數字出現頻率**<br>
 
     > **把頻率，寫入std::vector<int> freq; 對freq做sort**<br>'
+  attempts:
+  - date: '2026-10-25'
+    result: 對
+    reason: null

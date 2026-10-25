@@ -13,20 +13,19 @@
 
 class Solution {
 public:
-    int findLeastNumOfUniqueInts(std::vector<int>& arr, int k) {
-        unordered_map<int, int> map_counts;
-        for(const int& x : arr) map_counts[x]++;
+    int findLeastNumOfUniqueInts(vector<int>& arr, int k) {
+        unordered_map<int , int> map;
+        for(const int& x : arr) map[x]++;
         vector<int> counts;
-        counts.reserve(map_counts.size());
-        for(const auto& [_, x] : map_counts) counts.push_back(x);
+        for(const auto& [ _, count] : map) counts.push_back(count);
         sort(counts.begin(), counts.end());
         int type = counts.size();
-        for(int i = 0; i < counts.size(); i++) {
-            if(k >= counts[i]) {
-                k -= counts[i];
+        for(const int& count : counts) {
+            if(k >= count) {
                 type--;
+                k -= count;
             } else {
-                return type;
+                break;
             }
         }
         return type;
