@@ -889,7 +889,7 @@
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Sorting Counting Sort | [C++](problems/1051.md) | O(N) | O(1) | 2026-10-19 |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | Sorting Counting Sort, Counting Sort | [C++](problems/1122.md) | O(N+M) | O(1) | 2026-10-13 |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Sorting, Sorting | [C++](problems/1200.md) | O(NlogN) | O(N) | 2026-09-26 |
-| 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Sorting Custom Comparator, Sorting | [C++](problems/1356.md) | O(NlogN) | O(1) | 2026-10-04 |
+| 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Sorting Custom Comparator, Sorting | [C++](problems/1356.md) | O(NlogN) | O(1) | 2026-10-27 |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | Sorting, Sorting | [C++](problems/1408.md) | O(N²\*K) | O(N) | 2026-09-26 |
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | Sorting Custom Comparator | [C++](problems/1481.md) | O(NlogN) | O(N) | 2026-10-25 |
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | Sorting Custom Comparator, Hash Table, Sorting | [C++](problems/1636.md) | O(NlogN) | O(1) | 2026-09-26 |
