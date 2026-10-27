@@ -20,35 +20,36 @@
  * 4. 依排序後的索引取回原始數字：
  *    - 走訪排序後的 pairs，用其中的索引到原本的 nums 取值，組成最終答案。
  */
+
 class Solution {
 public:
     vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
         int n = nums.size();
-        vector<int> indices(n);
-        vector<int> jumble(n);
-        for(int i = 0; i < n; i++) {
-            int jum = 0;
-            if (nums[i] == 0) jum = mapping[0];
-            else {
-                int base = 1;
-                int t = nums[i];
-                while (t > 0) {
-                    jum += mapping[t % 10] * base;
-                    t /= 10;
-                    base *= 10;
-                }
+        vector<int> jumbles(n);
+        vector<int> idx(n);
+        iota(idx.begin(), idx.end(), 0);
+        for(int i = 0 ; i < n ; i++) {
+            int x = nums[i];
+            if (x == 0) {
+                jumbles[i] = mapping[0];
+                continue;
             }
-            jumble[i] = jum;
+            int jumble = 0;
+            int multiplier = 1;
+            while(x > 0) {
+                int digit = x % 10;
+                jumble = jumble + multiplier * mapping[digit];
+                x /= 10;
+                multiplier *= 10;
+            }
+            jumbles[i] = jumble;
         }
-        iota(indices.begin(), indices.end(), 0);
-        stable_sort(indices.begin(), indices.end(), [&](const int& a, const int& b){
-            return jumble[a] < jumble[b];
+        sort(idx.begin(), idx.end(), [&](const int& a, const int& b) {
+            if(jumbles[a] != jumbles[b]) return jumbles[a] < jumbles[b];
+            return a < b;
         });
-        vector<int> ans;
-        ans.reserve(n);
-        for(const int& idx : indices) {
-            ans.push_back(nums[idx]);
-        }
+        vector<int> ans(n);
+        for(int i = 0 ; i < n ; i++) ans[i] = nums[idx[i]];
         return ans;
     }
 };
