@@ -914,6 +914,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Priority Queue | [C++](problems/0347.md) | O(NlogN) | O(N) | 2026-10-27 |
+| 692 | 👑 **Priority Queue Lemma**<br>[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | Priority Queue | [C++](problems/0692.md) | O(NlogK) | O(N) | 2026-10-27 |
 | 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Priority Queue, Binary Search | [C++](problems/0786.md) | O(NlogN) | O(N) | 2026-10-06 |
 | 1046 | 👑 **Priority Queue**<br>[Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Priority Queue, Heap (Priority Queue) | [C++](problems/1046.md) | O(NlogN) | O(N) | 2026-09-14 |
 

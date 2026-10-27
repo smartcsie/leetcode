@@ -5,10 +5,16 @@ solutions:
 - file: Solution_0692.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table
-  - Heap
+  - Priority Queue
   topics:
   - priority-queue
   time: O(NlogK)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-10-27'
+  attempts:
+  - date: '2026-10-27'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Priority Queue Lemma
