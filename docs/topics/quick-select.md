@@ -15,18 +15,17 @@
 | 1985 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Quick Select | [C++](../problems/1985.md) | O(N) | O(1) | 2026-10-07 |
 | 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 Easy | Quick Select, Math | [C++](../problems/2733.md) | O(N) | O(1) | 2026-10-04 |
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Quick Select, Hash Table, QuickSelect | [C++](../problems/0347.md) | O(N) | O(N) |  |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（0）
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Quick Select | [C++](../problems/0215.md) | O(N) | O(1) | 2026-10-07 |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Quick Select | [C++](../problems/0347.md) | O(N) | O(N) | 2026-10-27 |

@@ -6,13 +6,12 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Quick Select
-  - Hash Table
-  - QuickSelect
   topics:
   - quick-select
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-27'
   note: '> 題目 You may return the answer in any order.用 QuickSelect<br>
 
     > target 位置的元素是正確的第 k 個元素<br>
@@ -22,6 +21,13 @@ solutions:
     > target 右邊的元素都 ≥ target<br>
 
     > 如果結果是要有序的就要用sorting<br>'
+  attempts:
+  - date: '2026-10-27'
+    result: 對
+    reason: null
+  - date: '2026-10-27'
+    result: 對
+    reason: null
 - file: Solution_0347_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -30,4 +36,12 @@ solutions:
   - priority-queue
   time: O(NlogN)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-27'
+  attempts:
+  - date: '2026-10-27'
+    result: 對
+    reason: null
+  - date: '2026-10-27'
+    result: 對
+    reason: null

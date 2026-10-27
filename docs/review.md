@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 985 題　🔴 生疏：215 題　🟠 再練習：35 題　🟡 練習過：61 題　🟣 易忘：106 題　🟢 熟練：568 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 985 題　🔴 生疏：215 題　🟠 再練習：35 題　🟡 練習過：60 題　🟣 易忘：106 題　🟢 熟練：569 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 444 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 442 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（60）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（5）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（5）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（60）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -283,11 +283,10 @@
 | 🔴 生疏 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 Medium | Stack, Greedy | [C++](problems/1963.md) | O(N) | O(1) |  |
 
 <a id="review-priority-queue"></a>
-#### 📚 Priority Queue（6）
+#### 📚 Priority Queue（5）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 🟡 練習過 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Priority Queue | [C++](problems/0347.md) | O(NlogN) | O(N) |  |
 | 🔴 生疏 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | 🔴 Hard | Heap, Linked List | [C++](problems/0023.md) | O(NlogK) | O(K) |  |
 | 🔴 生疏 | 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sum/) | 🟡 Medium | Heap, Greedy | [C++](problems/0373.md) | O(KlogK) | O(K) |  |
 | 🔴 生疏 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words) | 🟡 Medium | Hash Table, Heap | [C++](problems/0692.md) | O(NlogK) | O(N) |  |
@@ -303,11 +302,10 @@
 | 🔴 生疏 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Monotonic Queue, Sliding Window | [C++](problems/0239.md) | O(N) | O(K) |  |
 
 <a id="review-quick-select"></a>
-#### 📚 Quick Select（6）
+#### 📚 Quick Select（5）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 🟡 練習過 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Quick Select, Hash Table, QuickSelect | [C++](problems/0347.md) | O(N) | O(N) |  |
 | 🟠 再練習 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Quick Select, QuickSelect | [C++](problems/0973.md) | O(N) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | Quick Select, Recursion, Collatz Conjecture, Quickselect | [C++](problems/1387.md) | O(N\*S) | O(N+S) | 2026-10-04 |
 | 🟠 再練習 | 1985 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Quick Select | [C++](problems/1985.md) | O(N) | O(1) | 2026-10-07 |
@@ -671,9 +669,9 @@
 | [math-simulation](topics/math-simulation.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 8 | 0 | 0 | 0 | 0 | 0 | 8 |
-| [priority-queue](topics/priority-queue.md) | 5 | 0 | 1 | 0 | 1 | 0 | 7 |
+| [priority-queue](topics/priority-queue.md) | 5 | 0 | 0 | 0 | 2 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
-| [quick-select](topics/quick-select.md) | 1 | 4 | 1 | 0 | 1 | 0 | 7 |
+| [quick-select](topics/quick-select.md) | 1 | 4 | 0 | 0 | 2 | 0 | 7 |
 | [sorting](topics/sorting.md) | 4 | 0 | 1 | 1 | 8 | 0 | 14 |
 | [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 1 | 0 | 0 | 1 | 2 | 0 | 4 |

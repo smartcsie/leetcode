@@ -913,6 +913,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Priority Queue | [C++](problems/0347.md) | O(NlogN) | O(N) | 2026-10-27 |
 | 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 Medium | Priority Queue, Binary Search | [C++](problems/0786.md) | O(NlogN) | O(N) | 2026-10-06 |
 | 1046 | 👑 **Priority Queue**<br>[Last Stone Weight](https://leetcode.com/problems/last-stone-weight) | 🟢 Easy | Priority Queue, Heap (Priority Queue) | [C++](problems/1046.md) | O(NlogN) | O(N) | 2026-09-14 |
 
@@ -931,6 +932,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 215 | 👑 **Quick Select**<br>[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Quick Select | [C++](problems/0215.md) | O(N) | O(1) | 2026-10-07 |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Quick Select | [C++](problems/0347.md) | O(N) | O(N) | 2026-10-27 |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Quick Select, QuickSelect | [C++](problems/0973.md) | O(N) | O(1) | 2026-10-04 |
 | 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | Quick Select, Recursion, Collatz Conjecture, Quickselect | [C++](problems/1387.md) | O(N\*S) | O(N+S) | 2026-10-04 |
 | 1985 | 👑 **nth_element lemma**<br>[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Quick Select | [C++](problems/1985.md) | O(N) | O(1) | 2026-10-07 |
