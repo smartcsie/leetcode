@@ -1,0 +1,22 @@
+number: 3963
+title: Create Grid With Exactly One Path
+url: https://leetcode.com/problems/create-grid-with-exactly-one-path/
+solutions:
+- file: Solution_3963.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - 2d Array
+  topics:
+  - 2d-array
+  time: O(m * n)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-10-27'
+  tricks:
+  - 構造法 直接蓋出唯一路徑
+  - 路徑做成 L 形
+  - 其餘格子全部封成障礙
+  attempts:
+  - date: '2026-10-27'
+    result: 對
+    reason: null
