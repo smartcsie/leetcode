@@ -13,25 +13,23 @@
 
 class Solution {
 private:
-    int getTimeSec(string tp) {
-        int m = (tp[0] - '0') * 10 + (tp[1] - '0') ;
-        int s = (tp[3] - '0') * 10 + (tp[4] - '0');
-        return m * 60 + s;
+    int getTime(string s) {
+        int h = (s[0] - '0') * 10 + (s[1] - '0');
+        int m = (s[3] - '0') * 10 + (s[4] - '0');
+        return h * 60 + m;
     }
 public:
     int findMinDifference(vector<string>& timePoints) {
-        vector<string>& tps = timePoints;
-        int n = tps.size();
-        if(n > 1440) return 0;
+        vector<string>& tp = timePoints;
+        int n = tp.size();
         vector<int> times(n);
-        for(int i = 0; i < n ;i++) {
-            times[i] = getTimeSec(tps[i]);
-        }
+        for(int i = 0; i < n; i++) times[i] = getTime(tp[i]);
         sort(times.begin(), times.end());
-        int mn = INT_MAX;
-        for(int i = 1; i < n ;i++) {
+        int mn = 1440;
+        for(int i = 1; i < n; i++) {;
             mn = min(mn, times[i] - times[i - 1]);
         }
-        return min(mn, 1440 - (times.back() - times.front()));
+        mn = min(mn, times.front() - times.back() + 1440);
+        return mn;
     }
 };
