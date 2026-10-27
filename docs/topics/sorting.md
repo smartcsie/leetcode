@@ -13,13 +13,12 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（4）
+## 🟡 練習過（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Sorting, Sorting | [C++](../problems/0539.md) | O(NlogN) | O(N) |  |
 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | Sorting, Sliding Window | [C++](../problems/1984.md) | O(NlogN) | O(1) |  |
-| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting | [C++](../problems/2785.md) | O(N) | O(N) |  |
 | 2974 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | 🟢 Easy | Sorting | [C++](../problems/2974.md) | O(N) | O(N) |  |
 
 ## 🟣 易忘（1）
@@ -28,7 +27,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](../problems/0581.md) | O(NlogN) | O(N) | 2026-10-04 |
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -36,4 +35,5 @@
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1200.md) | O(NlogN) | O(N) | 2026-09-26 |
 | 1408 | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/) | 🟢 Easy | Sorting, Sorting | [C++](../problems/1408.md) | O(N²\*K) | O(N) | 2026-09-26 |
 | 1877 | [Minimize Maximum Pair Sum in Array](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/) | 🟡 Medium | Sorting | [C++](../problems/1877.md) | O(NlogN) | O(1) | 2026-09-29 |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting | [C++](../problems/2785.md) | O(N) | O(N) | 2026-10-27 |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting, Set | [C++](../problems/3684.md) | O(NlogN) | O(N) | 2026-09-15 |

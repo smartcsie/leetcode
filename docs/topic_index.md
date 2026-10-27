@@ -898,6 +898,8 @@
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting Custom Comparator | [C++](problems/2418.md) | O(NlogN) | O(N) | 2026-10-25 |
 | 2418 | [Sort the People](https://leetcode.com/problems/sort-the-people) | 🟢 Easy | Sorting Custom Comparator | [C++](problems/2418.md) | O(NlogN) | O(N) | 2026-10-25 |
 | 2545 | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/) | 🟡 Medium | Sorting Custom Comparator, Sorting | [C++](problems/2545.md) | O(NlogN) | O(1) | 2026-09-26 |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting Counting Sort | [C++](problems/2785.md) | O(N) | O(1) | 2026-10-27 |
+| 2785 | [Sort Vowels in a String](https://leetcode.com/problems/sort-vowels-in-a-string/) | 🟡 Medium | Sorting | [C++](problems/2785.md) | O(N) | O(N) | 2026-10-27 |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting, Set | [C++](problems/3684.md) | O(NlogN) | O(N) | 2026-09-15 |
 | 3769 | 👑 **Sorting Index**<br>[Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | Sorting Custom Comparator, Sorting | [C++](problems/3769.md) | O(NlogN) | O(N) | 2026-10-04 |
 
