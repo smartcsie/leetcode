@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 984 題　🔴 生疏：215 題　🟠 再練習：38 題　🟡 練習過：64 題　🟣 易忘：106 題　🟢 熟練：561 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 984 題　🔴 生疏：215 題　🟠 再練習：38 題　🟡 練習過：63 題　🟣 易忘：106 題　🟢 熟練：562 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 450 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 449 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（23）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（60）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（6）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（22）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（60）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -326,7 +326,7 @@
 | 🔴 生疏 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | Graph Shortest Path | [C++](problems/0743.md) | O(E·logV) | O(V+E) |  |
 
 <a id="review-sorting"></a>
-#### 📊 Sorting（23）
+#### 📊 Sorting（22）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -334,7 +334,6 @@
 | 🟡 練習過 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency) | 🟡 Medium | Sorting Bucket Sort, Hash Table, Bucket Sort | [C++](problems/0451.md) | O(N) | O(N) |  |
 | 🟡 練習過 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Sorting, Sorting | [C++](problems/0539.md) | O(NlogN) | O(N) |  |
 | 🟡 練習過 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | Sorting, Sliding Window | [C++](problems/1984.md) | O(NlogN) | O(1) |  |
-| 🟡 練習過 | 2974 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | 🟢 Easy | Sorting | [C++](problems/2974.md) | O(N) | O(N) |  |
 | 🟡 練習過 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting Custom Comparator, Hash | [C++](problems/3913.md) | O(NlogN) | O(N) |  |
 | 🟠 再練習 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Sorting Custom Comparator, Sorting | [C++](problems/1356.md) | O(NlogN) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 2191 | [Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers/) | 🟡 Medium | Sorting Custom Comparator, Digit Manipulation, Pair | [C++](problems/2191.md) | O(NlogN) | O(N) | 2026-10-04 |
@@ -680,7 +679,7 @@
 | [priority-queue](topics/priority-queue.md) | 5 | 0 | 1 | 0 | 1 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 1 | 4 | 1 | 0 | 1 | 0 | 7 |
-| [sorting](topics/sorting.md) | 4 | 0 | 3 | 1 | 6 | 0 | 14 |
+| [sorting](topics/sorting.md) | 4 | 0 | 2 | 1 | 7 | 0 | 14 |
 | [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 1 | 0 | 0 | 1 | 2 | 0 | 4 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 0 | 3 | 2 | 0 | 5 | 0 | 10 |
