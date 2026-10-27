@@ -26,11 +26,12 @@
  */
 
 class Solution {
-
 public:
     vector<int> sortByReflection(vector<int>& nums) {
         int n = nums.size();
-        vector<pair<int, int>> refToNum;
+        vector<int> refs(n);
+        vector<int> idx(n);
+        iota(idx.begin(), idx.end(), 0);
         for(int i = 0; i < nums.size(); i++) {
             int y = nums[i];
             int r = 0;
@@ -38,11 +39,14 @@ public:
                 r = (r << 1) | (y & 1);
                 y >>= 1;
             }
-            refToNum.push_back({r, nums[i]});
+            refs[i] = r;
         }
-        sort(refToNum.begin(), refToNum.end());
+        sort(idx.begin(), idx.end(), [&](const int& a, const int& b){
+            if (refs[a] != refs[b]) return refs[a] < refs[b];
+            return nums[a] < nums[b];   
+        });
         vector<int> ans(n);
-        for(int i = 0; i < n; i++) ans[i] = refToNum[i].second;
+        for(int i = 0; i < n; i++) ans[i] = nums[idx[i]];
         return ans;
     }
 };
