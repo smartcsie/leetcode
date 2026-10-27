@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Sorting Custom Comparator
-  - Sorting
   topics:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-10-27'
   note: '> **排reflect不相等，reflect小的在前面**<br>
 
     > **排序頻率相等，數字小在前面**<br>'
@@ -31,5 +31,8 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-27'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Sorting Index
