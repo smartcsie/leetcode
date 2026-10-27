@@ -903,6 +903,7 @@
 | 2974 | [Minimum Number Game](https://leetcode.com/problems/minimum-number-game/) | 🟢 Easy | Sorting | [C++](problems/2974.md) | O(N) | O(N) | 2026-10-27 |
 | 3684 | [Maximize Sum of At Most K Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/) | 🟢 Easy | Sorting, Set | [C++](problems/3684.md) | O(NlogN) | O(N) | 2026-09-15 |
 | 3769 | 👑 **Sorting Index**<br>[Sort Integers by Binary Reflection](https://leetcode.com/problems/sort-integers-by-binary-reflection/) | 🟡 Medium | Sorting Custom Comparator, Sorting | [C++](problems/3769.md) | O(NlogN) | O(N) | 2026-10-04 |
+| 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 Medium | Sorting Custom Comparator | [C++](problems/3913.md) | O(NlogN) | O(N) | 2026-10-27 |
 
 ---
 

@@ -6,9 +6,13 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Sorting Custom Comparator
-  - Hash
   topics:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-10-27'
+  attempts:
+  - date: '2026-10-27'
+    result: 對
+    reason: null
