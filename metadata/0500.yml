@@ -1,0 +1,23 @@
+number: 500
+title: Keyboard Row
+url: https://leetcode.com/problems/keyboard-row/
+solutions:
+- file: Solution_0500.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: O(L)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-10-28'
+  tricks:
+  - 字母對應列號的查表
+  - 位元遮罩記錄出現過的列
+  - c | 32 轉小寫
+  - 遮罩只剩一個 1 代表同一列
+  attempts:
+  - date: '2026-10-28'
+    result: 對
+    reason: null

@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 985 題　🔴 生疏：213 題　🟠 再練習：35 題　🟡 練習過：60 題　🟣 易忘：106 題　🟢 熟練：571 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 986 題　🔴 生疏：213 題　🟠 再練習：35 題　🟡 練習過：60 題　🟣 易忘：106 題　🟢 熟練：572 題　⚪ 未標記：0 題
 
 ---
 
@@ -679,7 +679,7 @@
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [stack](topics/stack.md) | 3 | 0 | 0 | 0 | 12 | 0 | 15 |
-| [string](topics/string.md) | 0 | 3 | 4 | 4 | 22 | 0 | 33 |
+| [string](topics/string.md) | 0 | 3 | 4 | 4 | 23 | 0 | 34 |
 | [string-character-classification](topics/string-character-classification.md) | 0 | 2 | 0 | 0 | 29 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
