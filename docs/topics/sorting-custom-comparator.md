@@ -18,10 +18,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（10）
+## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | 🟢 Easy | Sorting Custom Comparator | [C++](../problems/0506.md) | O(N log N) | O(N) | 2026-10-28 |
 | 1356 | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | 🟢 Easy | Sorting Custom Comparator, Sorting | [C++](../problems/1356.md) | O(NlogN) | O(1) | 2026-10-27 |
 | 1481 | [Least Number of Unique Integers after K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | 🟡 Medium | Sorting Custom Comparator | [C++](../problems/1481.md) | O(NlogN) | O(N) | 2026-10-25 |
 | 1636 | [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency) | 🟢 Easy | Sorting Custom Comparator, Hash Table, Sorting | [C++](../problems/1636.md) | O(NlogN) | O(1) | 2026-09-26 |

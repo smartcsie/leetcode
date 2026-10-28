@@ -1,0 +1,18 @@
+number: 506
+title: Relative Ranks
+url: https://leetcode.com/problems/relative-ranks/
+solutions:
+- file: Solution_0506.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Sorting Custom Comparator
+  topics:
+  - sorting-custom-comparator
+  time: O(N log N)
+  space: O(N)
+  familiarity: 熟練
+  mastered_date: '2026-10-28'
+  attempts:
+  - date: '2026-10-28'
+    result: 對
+    reason: null

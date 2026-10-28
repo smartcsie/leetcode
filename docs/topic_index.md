@@ -885,6 +885,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | 🟢 Easy | Sorting Custom Comparator | [C++](problems/0506.md) | O(N log N) | O(N) | 2026-10-28 |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Sorting | [C++](problems/0539.md) | O(NlogN) | O(N) | 2026-10-27 |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](problems/0581.md) | O(NlogN) | O(N) | 2026-10-04 |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Sorting Implementation, Divide and Conquer, Sorting | [C++](problems/0912.md) | O(NlogN) | O(logN) | 2026-10-04 |
