@@ -1,10 +1,11 @@
 # quick-select
 
-## 🔴 生疏（1）
+## 🔴 生疏（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | 🟡 Medium | Sorting, Quickselect | [C++](../problems/0324.md) | O(N) | O(1) |  |
+| 3759 | [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/) | 🟡 Medium | Quick Select | [C++](../problems/3759.md) | O(N) | O(1) | 2026-10-28 |
 
 ## 🟠 再練習（4）
 

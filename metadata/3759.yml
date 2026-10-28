@@ -1,0 +1,17 @@
+number: 3759
+title: Count Elements With at Least K Greater Values
+url: https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/
+solutions:
+- file: Solution_3759.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Quick Select
+  topics:
+  - quick-select
+  time: O(N)
+  space: O(1)
+  familiarity: 生疏
+  attempts:
+  - date: '2026-10-28'
+    result: 對
+    reason: null

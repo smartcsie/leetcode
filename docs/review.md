@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 991 題　🔴 生疏：213 題　🟠 再練習：35 題　🟡 練習過：60 題　🟣 易忘：106 題　🟢 熟練：577 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 992 題　🔴 生疏：214 題　🟠 再練習：35 題　🟡 練習過：60 題　🟣 易忘：106 題　🟢 熟練：577 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 440 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 441 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（5）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（60）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（12）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（6）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（60）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -300,7 +300,7 @@
 | 🔴 生疏 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | Monotonic Queue, Sliding Window | [C++](problems/0239.md) | O(N) | O(K) |  |
 
 <a id="review-quick-select"></a>
-#### 📚 Quick Select（5）
+#### 📚 Quick Select（6）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -309,6 +309,7 @@
 | 🟠 再練習 | 1985 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Quick Select | [C++](problems/1985.md) | O(N) | O(1) | 2026-10-07 |
 | 🟠 再練習 | 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 Easy | Quick Select, Math | [C++](problems/2733.md) | O(N) | O(1) | 2026-10-04 |
 | 🔴 生疏 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | 🟡 Medium | Sorting, Quickselect | [C++](problems/0324.md) | O(N) | O(1) |  |
+| 🔴 生疏 | 3759 | [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/) | 🟡 Medium | Quick Select | [C++](problems/3759.md) | O(N) | O(1) | 2026-10-28 |
 
 <a id="review-graph"></a>
 #### 🕸️ Graph（5）
@@ -669,7 +670,7 @@
 | [monotonic-stack](topics/monotonic-stack.md) | 8 | 0 | 0 | 0 | 0 | 0 | 8 |
 | [priority-queue](topics/priority-queue.md) | 3 | 0 | 0 | 0 | 4 | 0 | 7 |
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
-| [quick-select](topics/quick-select.md) | 1 | 4 | 0 | 0 | 2 | 0 | 7 |
+| [quick-select](topics/quick-select.md) | 2 | 4 | 0 | 0 | 2 | 0 | 8 |
 | [sorting](topics/sorting.md) | 4 | 0 | 1 | 1 | 8 | 0 | 14 |
 | [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 1 | 0 | 0 | 1 | 2 | 0 | 4 |
