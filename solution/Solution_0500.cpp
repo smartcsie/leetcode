@@ -28,7 +28,7 @@ class Solution {
 public:
     vector<string> findWords(vector<string>& words) {
         vector<string> ans;
-        const string rows = "23321222122233111121131313";
+        static constexpr string_view rows = "23321222122233111121131313";
         for(const string& word : words) {
             bool oneRow = true;
             int idx1 = (word[0] | 32) - 'a';

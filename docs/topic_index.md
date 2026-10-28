@@ -159,7 +159,7 @@
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 Easy | String | [C++](problems/0058.md) | O(N) | O(1) | 2026-10-05 |
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 Hard | String State Machine, State Machine | [C++](problems/0065.md) | O(N) | O(1) | 2026-10-04 |
 | 434 | 👑 **String Segments**<br>[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String Character Classification | [C++](problems/0434.md) | O(N) | O(1) | 2026-09-25 |
-| 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | 🟢 Easy | String | [C++](problems/0500.md) | O(L) | O(1) | 2026-10-28 |
+| 500 | 👑 **static constexpr string_view**<br>[Keyboard Row](https://leetcode.com/problems/keyboard-row/) | 🟢 Easy | String | [C++](problems/0500.md) | O(L) | O(1) | 2026-10-28 |
 | 520 | 👑 **count_if**<br>[Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String Character Classification | [C++](problems/0520.md) | O(N) | O(1) | 2026-09-20 |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 Medium | String, Two Pointers | [C++](problems/0524.md) | O(DlogD+D\*M) | O(1) | 2026-10-04 |
 | 557 | 👑 **string reverse**<br>[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String | [C++](problems/0557.md) | O(N) | O(1) | 2026-10-21 |
