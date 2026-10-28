@@ -12,11 +12,10 @@ solutions:
   space: O(n)
   familiarity: 熟練
   mastered_date: '2026-10-28'
-  tricks:
-  - 入度減出度
-  - 單一陣列記錄淨信任分數
-  - 分數恰為 n - 1 才是法官
   attempts:
+  - date: '2026-10-28'
+    result: 對
+    reason: null
   - date: '2026-10-28'
     result: 對
     reason: null
