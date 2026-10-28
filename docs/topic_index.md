@@ -721,6 +721,7 @@
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](problems/0397.md) | O(logN) | O(1) | 2026-10-04 |
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟢 Easy | Greedy Parity Contribution | [C++](problems/0453.md) | O(N) | O(1) | 2026-10-25 |
 | 455 | 👑 **Sorting Decision**<br>[Assign Cookies](https://leetcode.com/problems/assign-cookies/) | 🟢 Easy | Greedy Fractional Knapsack | [C++](problems/0455.md) | O(N log N) | O(1) | 2026-10-25 |
+| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy | Greedy | [C++](problems/0605.md) | O(N) | O(1) | 2026-10-28 |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Greedy | [C++](problems/0624.md) | O(N) | O(1) | 2026-10-24 |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0670.md) | O(D) | O(D) | 2026-10-24 |
 | 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy | [C++](problems/0678.md) | O(N) | O(1) | 2026-10-04 |

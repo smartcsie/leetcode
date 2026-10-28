@@ -27,10 +27,11 @@
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy, Two Candidates | [C++](../problems/1909.md) | O(N) | O(1) | 2026-10-04 |
 | 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](../problems/2571.md) | O(logN) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（9）
+## 🟢 熟悉（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy | Greedy | [C++](../problems/0605.md) | O(N) | O(1) | 2026-10-28 |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Greedy | [C++](../problems/0624.md) | O(N) | O(1) | 2026-10-24 |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Greedy | [C++](../problems/0961.md) | O(N) | O(1) | 2026-10-24 |
 | 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 Easy | Greedy | [C++](../problems/1624.md) | O(N) | O(1) | 2026-10-25 |

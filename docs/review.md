@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 987 題　🔴 生疏：213 題　🟠 再練習：35 題　🟡 練習過：60 題　🟣 易忘：106 題　🟢 熟練：573 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 988 題　🔴 生疏：213 題　🟠 再練習：35 題　🟡 練習過：60 題　🟣 易忘：106 題　🟢 熟練：574 題　⚪ 未標記：0 題
 
 ---
 
@@ -629,7 +629,7 @@
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 4 | 1 | 0 | 3 | 9 | 0 | 17 |
+| [greedy](topics/greedy.md) | 4 | 1 | 0 | 3 | 10 | 0 | 18 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 3 | 0 | 1 | 0 | 5 | 0 | 9 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 3 | 1 | 0 | 0 | 1 | 0 | 5 |

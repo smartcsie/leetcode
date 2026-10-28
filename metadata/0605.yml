@@ -1,0 +1,22 @@
+number: 605
+title: Can Place Flowers
+url: https://leetcode.com/problems/can-place-flowers/
+solutions:
+- file: Solution_0605.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy
+  topics:
+  - greedy
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-10-28'
+  tricks:
+  - 由左到右貪心種花
+  - 檢查左右鄰居時注意邊界
+  - 種下後直接修改陣列避免重複檢查
+  attempts:
+  - date: '2026-10-28'
+    result: 對
+    reason: null
