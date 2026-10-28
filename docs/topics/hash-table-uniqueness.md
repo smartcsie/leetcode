@@ -21,7 +21,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（20）
+## 🟢 熟悉（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -30,6 +30,8 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0217.md) | O(NlogN) | O(logN) | 2026-09-26 |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0217.md) | O(NlogN) | O(logN) | 2026-09-26 |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](../problems/0387.md) | O(N) | O(1) | 2026-09-25 |
+| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0575.md) | O(N + V) | O(V) | 2026-10-28 |
+| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0575.md) | O(N) | O(K) | 2026-10-28 |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](../problems/0859.md) | O(N) | O(1) | 2026-10-07 |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0884.md) | O(N+M) | O(N+M) | 2026-09-26 |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0961.md) | O(N) | O(1) | 2026-10-24 |

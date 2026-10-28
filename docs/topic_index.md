@@ -500,6 +500,8 @@
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 Easy | Hash Table Uniqueness, Hash Table | [C++](problems/0387.md) | O(N) | O(1) | 2026-09-25 |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 Medium | Hash Table Existence, Hash Table | [C++](problems/0454.md) | O(N²) | O(N²) | 2026-10-04 |
 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Existence | [C++](problems/0532.md) | O(NlogN) | O(N) | 2026-10-07 |
+| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0575.md) | O(N + V) | O(V) | 2026-10-28 |
+| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0575.md) | O(N) | O(K) | 2026-10-28 |
 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/0599.md) | O(N+M) | O(N) | 2026-10-05 |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](problems/0771.md) | O(J+S) | O(J) | 2026-09-15 |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | 🟢 Easy | Hash Table Mapping, Hash Set | [C++](problems/0804.md) | O(S) | O(S) | 2026-09-19 |

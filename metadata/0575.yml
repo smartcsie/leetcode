@@ -1,0 +1,40 @@
+number: 575
+title: Distribute Candies
+url: https://leetcode.com/problems/distribute-candies/
+solutions:
+- file: Solution_0575.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table Uniqueness
+  topics:
+  - hash-table-uniqueness
+  time: O(N + V)
+  space: O(V)
+  familiarity: 熟練
+  mastered_date: '2026-10-28'
+  tricks:
+  - bitset
+  attempts:
+  - date: '2026-10-28'
+    result: 對
+    reason: null
+  - date: '2026-10-28'
+    result: 對
+    reason: null
+  - date: '2026-10-28'
+    result: 對
+    reason: null
+- file: Solution_0575_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table Uniqueness
+  topics:
+  - hash-table-uniqueness
+  time: O(N)
+  space: O(K)
+  familiarity: 熟練
+  mastered_date: '2026-10-28'
+  attempts:
+  - date: '2026-10-28'
+    result: 對
+    reason: null
