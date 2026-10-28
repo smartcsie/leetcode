@@ -1,0 +1,18 @@
+number: 566
+title: Reshape the Matrix
+url: https://leetcode.com/problems/reshape-the-matrix/
+solutions:
+- file: Solution_0566.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - 2d Array
+  topics:
+  - 2d-array
+  time: O(m
+  space: O(r
+  familiarity: 熟練
+  mastered_date: '2026-10-28'
+  attempts:
+  - date: '2026-10-28'
+    result: 對
+    reason: null

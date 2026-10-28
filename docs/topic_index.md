@@ -336,6 +336,7 @@
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Array Negative Marking | [C++](problems/0448.md) | O(N) | O(1) | 2026-10-14 |
 | 485 | 👑 **Linear Scan with Streak Reset**<br>[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array Continuous Counting | [C++](problems/0485.md) | O(N) | O(1) | 2026-09-16 |
 | 560 | 👑 **Prefix State & Difference**<br>[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array Prefix Sum, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) | 2026-10-07 |
+| 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | 🟢 Easy | 2d Array | [C++](problems/0566.md) | O(m | O(r | 2026-10-28 |
 | 628 | 👑 **Array Min Max With Repeat**<br>[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 Easy | Array Min Max | [C++](problems/0628.md) | O(N) | O(1) | 2026-09-16 |
 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 Easy | Array Negative Marking | [C++](problems/0645.md) | O(N) | O(1) | 2026-10-14 |
 | 674 | 👑 **Longest Continuous Increasing Subsequence**<br>[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Array Linear Scan, Greedy | [C++](problems/0674.md) | O(N) | O(1) | 2026-09-26 |

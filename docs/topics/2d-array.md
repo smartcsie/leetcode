@@ -16,12 +16,13 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（19）
+## 🟢 熟悉（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 Medium | 2d Array | [C++](../problems/0048.md) | O(N²) | O(1) | 2026-09-16 |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 Medium | 2d Array, Matrix | [C++](../problems/0073.md) | O(M\*N) | O(1) | 2026-09-16 |
+| 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | 🟢 Easy | 2d Array | [C++](../problems/0566.md) | O(m | O(r | 2026-10-28 |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 Easy | 2d Array, Two Pointers | [C++](../problems/0832.md) | O(N\*M) | O(1) | 2026-09-16 |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](../problems/0867.md) | O(M\*N) | O(M\*N) | 2026-09-16 |
 | 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 Easy | 2d Array, Math | [C++](../problems/1252.md) | O(K+MN) | O(M+N) | 2026-09-16 |
