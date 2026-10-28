@@ -13,28 +13,21 @@
 
 class KthLargest {
 private:
-    // 使用最小堆 (greater<int>)，堆頂永遠是最小的元素
     priority_queue<int, vector<int>, greater<int>> minHeap;
     int K;
-    
 public:
-    KthLargest(int k, vector<int>& nums) : K(k) {
-        for (int num : nums) {
-            add(num);
+    KthLargest(int k, vector<int>& nums) {
+        minHeap = priority_queue<int, vector<int>, greater<int>>(nums.begin(), nums.end());
+        K = k;
+        while(minHeap.size() > K) {
+            minHeap.pop();
         }
     }
-    
     int add(int val) {
-        // 如果堆未滿，直接加入
-        if (minHeap.size() < K) {
-            minHeap.push(val);
-        } 
-        // 如果堆已滿，且新值大於堆頂，則替換堆頂
-        else if (val > minHeap.top()) {
+        minHeap.push(val);
+        if(minHeap.size() > K) {
             minHeap.pop();
-            minHeap.push(val);
         }
-        
         return minHeap.top();
     }
 };

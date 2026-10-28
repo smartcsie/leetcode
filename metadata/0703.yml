@@ -5,9 +5,14 @@ solutions:
 - file: Solution_0703.cpp
   difficulty: 🟢 Easy
   tags:
-  - Heap (Priority Queue)
+  - Priority Queue
   topics:
   - priority-queue
   time: O(NlogK)
   space: O(K)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-10-28'
+  attempts:
+  - date: '2026-10-28'
+    result: 對
+    reason: null
