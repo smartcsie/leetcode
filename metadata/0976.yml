@@ -1,0 +1,21 @@
+number: 976
+title: Largest Perimeter Triangle
+url: https://leetcode.com/problems/largest-perimeter-triangle/
+solutions:
+- file: Solution_0976.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Greedy Sorting Decision
+  topics:
+  - greedy-sorting-decision
+  time: O(N log N)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-10-29'
+  tricks:
+  - 排序後由大到小檢查相鄰三個數
+  - 三角形不等式只需檢查兩短邊之和大於最長邊
+  attempts:
+  - date: '2026-10-29'
+    result: 對
+    reason: null

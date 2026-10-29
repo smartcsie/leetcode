@@ -25,11 +25,12 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（7）
+## 🟢 熟悉（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0881.md) | O(N log N) | O(1) | 2026-10-25 |
+| 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 Easy | Greedy Sorting Decision | [C++](../problems/0976.md) | O(N log N) | O(1) | 2026-10-29 |
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/1029.md) | O(NlogN) | O(1) | 2026-10-24 |
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 Easy | Greedy Sorting Decision | [C++](../problems/2231.md) | O(DlogD) | O(D) | 2026-10-23 |
 | 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/2966.md) | O(NlogN) | O(1) | 2026-10-24 |
