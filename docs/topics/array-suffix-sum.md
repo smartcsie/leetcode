@@ -16,8 +16,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 848 | [Shifting Letters](https://leetcode.com/problems/shifting-letters/) | 🟡 Medium | Array Suffix Sum | [C++](../problems/0848.md) | O(N) | O(1) | 2026-10-22 |
+| 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 Easy | Array Suffix Sum, Hash Set | [C++](../problems/2670.md) | O(N) | O(N) | 2026-10-29 |

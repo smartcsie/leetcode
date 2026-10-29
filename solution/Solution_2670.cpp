@@ -1,42 +1,57 @@
 /**
  * 題目：2670. Find the Distinct Difference Array
- * 難度：簡單 (Easy)
- * 描述：計算陣列中每個位置的前綴相異數減去後綴相異數的結果。
- * 優化重點：
- * 1. 雙重預處理：先計算好完整的 prefix 與 suffix 陣列，避免重複計算。
- * 2. Set 操作：利用 unordered_set 的特性快速去重。
+ * 難度：Easy
+ * 描述：給定長度為 n 的陣列 nums，回傳長度為 n 的陣列 diff，
+ *       diff[i] = 「前綴 nums[0..i] 的不同數字個數」
+ *               - 「後綴 nums[i+1..n-1] 的不同數字個數」。
  *
- * 時間複雜度：O(N)
+ * 分類主題：array-prefix-sum
+ * 技巧：前綴與後綴各掃一遍, bitset 標記出現過的數字, count() 取不同個數, 陣列多開一格當空前綴與空後綴的哨兵
+ *
+ * 時間複雜度：O(N)（值域固定為 50，count() 為常數成本）
  * 空間複雜度：O(N)
+ *
+ * 解法思路：前綴與後綴的不同個數
+ * 1. prefix[i] 表示 nums[0..i-1]（前 i 個）的不同數字個數，prefix[0] = 0。
+ *    suffix[i] 表示 nums[i..n-1]（從 i 到尾）的不同數字個數，suffix[n] = 0。
+ *    兩個陣列都開 n + 1 格，讓「空前綴」與「空後綴」有位置放 0，不需要特判邊界。
+ * 2. 由左到右掃一遍：把 nums[i] 標記進 bitset，
+ *    此時 distinct.count() 就是 nums[0..i] 的不同個數，存進 prefix[i + 1]。
+ * 3. 清空 bitset，再由右到左掃一遍：
+ *    標記 nums[i - 1] 後，count() 是 nums[i-1..n-1] 的不同個數，存進 suffix[i - 1]。
+ * 4. 第 i 個位置要的值：
+ *    - 前綴含 nums[i]：prefix[i + 1]
+ *    - 後綴不含 nums[i]：suffix[i + 1]
+ *    所以 ans[i] = prefix[i + 1] - suffix[i + 1]。
+ * 5. 值域限制為 1 ~ 50，所以用 bitset<51> 以數字本身當索引，不需要雜湊表。
  */
-
 class Solution {
 public:
-    std::vector<int> distinctDifferenceArray(std::vector<int>& nums) {
+    vector<int> distinctDifferenceArray(vector<int>& nums) {
         int n = nums.size();
-        std::unordered_set<int> distincts;
-        std::vector<int> prefix(n), suffix(n);
-        
-        // 計算前綴相異數
-        for (int i = 0; i < n; i++) {
-            distincts.insert(nums[i]);
-            prefix[i] = distincts.size();
+        vector<int> prefix(n + 1, 0);  // prefix[i]：前 i 個元素的不同個數
+        vector<int> suffix(n + 1, 0);  // suffix[i]：從索引 i 到尾端的不同個數
+        bitset<51> distinct;           // 第 x 位元為 1，代表數字 x 已經出現過
+
+        // 前綴：由左到右，標記後直接取目前不同個數
+        for(int i = 0; i < n ; i++) {
+            distinct.set(nums[i]);
+            prefix[i + 1] = distinct.count();
         }
-        
-        // 計算後綴相異數
-        distincts.clear();
-        for (int i = n - 1; i >= 0; i--) {
-            distincts.insert(nums[i]);
-            suffix[i] = distincts.size();
+
+        distinct.reset();  // 全部位元清成 0，改算後綴
+
+        // 後綴：由右到左，suffix[i - 1] 對應 nums[i - 1..n-1]
+        for(int i = n ; i > 0 ; i--) {
+            distinct.set(nums[i - 1]);
+            suffix[i - 1] = distinct.count();
         }
-        
-        // 計算差值
-        std::vector<int> res(n);
-        for (int i = 0; i < n; i++) {
-            int suff_val = (i + 1 < n) ? suffix[i + 1] : 0;
-            res[i] = prefix[i] - suff_val;
+
+        // 前綴含 nums[i]，後綴從 i + 1 開始（不含 nums[i]）
+        vector<int> ans(n);
+        for(int i = 0; i < n ; i++) {
+            ans[i] = prefix[i + 1] - suffix[i + 1];
         }
-        
-        return res;
+        return ans;
     }
 };
