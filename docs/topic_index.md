@@ -739,6 +739,7 @@
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/1029.md) | O(NlogN) | O(1) | 2026-10-24 |
 | 1247 | [Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | 🟡 Medium | Greedy, Math, String | [C++](problems/1247.md) | O(N) | O(1) | 2026-10-04 |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | 🟢 Easy | Greedy Digit Construction, Math | [C++](problems/1323.md) | O(D) | O(D) | 2026-09-25 |
+| 1338 | 👑 **vector erase_if**<br>[Reduce Array Size to the Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | 🟡 Medium | Greedy Frequency Merging | [C++](problems/1338.md) | O(N log N) | O(N) | 2026-10-29 |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy Priority Queue | [C++](problems/1405.md) | O((a+b+c) log 3) | O(1) | 2026-10-04 |
 | 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 Medium | Greedy, State Machine | [C++](problems/1529.md) | O(N) | O(1) | 2026-10-04 |
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy String Construction | [C++](problems/1576.md) | O(N) | O(1) | 2026-10-25 |

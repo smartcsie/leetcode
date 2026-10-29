@@ -23,23 +23,25 @@
  *    產生新的候選），排序一次就能決定整個貪心順序，不需要用到堆的
  *    「動態插入」特性，用排序取代 heap 反而更簡潔。
  */
+
+
 class Solution {
 public:
     int minSetSize(vector<int>& arr) {
-        unordered_map<int,int> freq;
-        for (int x : arr) freq[x]++;
-
-        vector<int> counts;
-        for (auto& [num, cnt] : freq) counts.push_back(cnt);
-        sort(counts.rbegin(), counts.rend());
-
-        int n = arr.size();
-        int removed = 0, setSize = 0;
-        for (int c : counts) {
-            removed += c;
-            setSize++;
-            if (removed * 2 >= n) break;
+        int half = arr.size() / 2;
+        vector<int> counts(100001, 0);
+        for(const int&x : arr) counts[x]++;
+        erase_if(counts, [](int x) {
+            return x == 0; // 當回傳 true 時就會被移除
+        });
+        sort(counts.begin(), counts.end(), greater<>());
+        int sum = 0;
+        int items = 0;
+        for(const int& count : counts) {
+            items++;
+            sum += count;
+            if(sum >= half) break;
         }
-        return setSize;
+        return items;
     }
 };
