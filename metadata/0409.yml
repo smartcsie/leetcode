@@ -5,17 +5,17 @@ solutions:
 - file: Solution_0409.cpp
   difficulty: 🟢 Easy
   tags:
-  - Hash Table
-  - Greedy
+  - Greedy Frequency Merging
   topics:
   - greedy-frequency-merging
   time: O(N)
   space: O(K)
-  note: '> [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)<br>
+  familiarity: 熟練
+  mastered_date: '2026-10-29'
+  note: '> **對每個頻率，如果是偶數，直接加到res，如果是奇數，減1加到res**<br>
 
-    > 用 unordered_map<char, int> counts;統計大小寫出現頻率<br>
-
-    > 對每個頻率，如果是偶數，直接加到res，如果是奇數，減1加到res<br>
-
-    > 如果頻率有奇數，最後res再+1<br>'
-  familiarity: 生疏
+    > **如果頻率有奇數，最後res再+1**<br>'
+  attempts:
+  - date: '2026-10-29'
+    result: 對
+    reason: null
