@@ -890,6 +890,8 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Bucket Sort | [C++](problems/0164.md) | O(N) | O(N) | 2026-10-29 |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](problems/0164.md) | O(N \* D) | O(N) | 2026-10-29 |
 | 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | 🟢 Easy | Sorting Custom Comparator | [C++](problems/0506.md) | O(N log N) | O(N) | 2026-10-28 |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Sorting | [C++](problems/0539.md) | O(NlogN) | O(N) | 2026-10-27 |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](problems/0581.md) | O(NlogN) | O(N) | 2026-10-04 |

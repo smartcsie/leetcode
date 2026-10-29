@@ -329,8 +329,8 @@
 | 🟡 練習過 | 1984 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | 🟢 Easy | Sorting, Sliding Window | [C++](problems/1984.md) | O(NlogN) | O(1) |  |
 | 🔴 生疏 | 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | 🟡 Medium | Sorting, Insertion Sort | [C++](problems/0147.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List, Merge Sort | [C++](problems/0148.md) | O(NlogN) | O(logN) |  |
-| 🔴 生疏 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Implementation, Sorting Algorithm Implementation, Bucket Sort, Pigeonhole Principle | [C++](problems/0164.md) | O(N) | O(N) |  |
-| 🔴 生疏 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](problems/0164.md) | O(N \* D) | O(N) |  |
+| 🔴 生疏 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Bucket Sort | [C++](problems/0164.md) | O(N) | O(N) | 2026-10-29 |
+| 🔴 生疏 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](problems/0164.md) | O(N \* D) | O(N) | 2026-10-29 |
 | 🔴 生疏 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Sorting, Trie | [C++](problems/0648.md) | O(N\*L) | O(M\*L) | 2026-10-29 |
 | 🔴 生疏 | 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | 🔴 Hard | Sorting Cycle Decomposition | [C++](problems/0765.md) | O(N α(N)) | O(N) |  |
 | 🔴 生疏 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | 🟡 Medium | Sorting Cycle Decomposition | [C++](problems/2471.md) | O(N log N) | O(N) |  |
@@ -669,11 +669,11 @@
 | [queue](topics/queue.md) | 0 | 1 | 0 | 0 | 0 | 0 | 1 |
 | [quick-select](topics/quick-select.md) | 2 | 1 | 0 | 0 | 5 | 0 | 8 |
 | [sorting](topics/sorting.md) | 4 | 0 | 1 | 1 | 8 | 0 | 14 |
-| [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
+| [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 1 | 0 | 1 | 0 | 0 | 0 | 2 |
 | [sorting-counting-sort](topics/sorting-counting-sort.md) | 1 | 0 | 0 | 1 | 2 | 0 | 4 |
 | [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 0 | 0 | 1 | 0 | 10 | 0 | 11 |
 | [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 1 | 0 | 0 | 3 |
+| [sorting-implementation](topics/sorting-implementation.md) | 1 | 0 | 0 | 1 | 0 | 0 | 2 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [stack](topics/stack.md) | 3 | 0 | 0 | 0 | 12 | 0 | 15 |

@@ -5,16 +5,16 @@ solutions:
 - file: Solution_0164.cpp
   difficulty: 🟡 Medium
   tags:
-  - Sorting Implementation
-  - Sorting Algorithm Implementation
-  - Bucket Sort
-  - Pigeonhole Principle
+  - Sorting Bucket Sort
   topics:
-  - sorting-implementation
+  - sorting-bucket-sort
   time: O(N)
   space: O(N)
   familiarity: 生疏
-  tricks: null
+  attempts:
+  - date: '2026-10-29'
+    result: 對
+    reason: null
 - file: Solution_0164_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -24,4 +24,7 @@ solutions:
   time: O(N * D)
   space: O(N)
   familiarity: 生疏
-  tricks: null
+  attempts:
+  - date: '2026-10-29'
+    result: 對
+    reason: null
