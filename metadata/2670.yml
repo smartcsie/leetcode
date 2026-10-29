@@ -13,7 +13,17 @@ solutions:
   space: O(N)
   familiarity: 熟練
   mastered_date: '2026-10-29'
+  note: '> **Input: [3, 2, 3, 4, 2]**<br>
+
+    > **Output:[-2, -1, 0, 2, 3]**<br>
+
+    > **Prefix:   [1, 2 , 2, 3, 3]**<br>
+
+    > **Suffix:[3, 3 , 3, 2, 1]**<br>'
   attempts:
+  - date: '2026-10-29'
+    result: 對
+    reason: null
   - date: '2026-10-29'
     result: 對
     reason: null

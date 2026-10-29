@@ -6,51 +6,41 @@
  *               - 「後綴 nums[i+1..n-1] 的不同數字個數」。
  *
  * 分類主題：array-prefix-sum
- * 技巧：前綴與後綴各掃一遍, bitset 標記出現過的數字, count() 取不同個數, 陣列多開一格當空前綴與空後綴的哨兵
+ * 技巧：前綴與後綴各掃一遍, bitset 標記出現過的數字, ans 兼任前綴儲存, 第二輪先減後加入
  *
  * 時間複雜度：O(N)（值域固定為 50，count() 為常數成本）
- * 空間複雜度：O(N)
+ * 空間複雜度：O(1)（不計輸出）
  *
- * 解法思路：前綴與後綴的不同個數
- * 1. prefix[i] 表示 nums[0..i-1]（前 i 個）的不同數字個數，prefix[0] = 0。
- *    suffix[i] 表示 nums[i..n-1]（從 i 到尾）的不同數字個數，suffix[n] = 0。
- *    兩個陣列都開 n + 1 格，讓「空前綴」與「空後綴」有位置放 0，不需要特判邊界。
- * 2. 由左到右掃一遍：把 nums[i] 標記進 bitset，
- *    此時 distinct.count() 就是 nums[0..i] 的不同個數，存進 prefix[i + 1]。
- * 3. 清空 bitset，再由右到左掃一遍：
- *    標記 nums[i - 1] 後，count() 是 nums[i-1..n-1] 的不同個數，存進 suffix[i - 1]。
- * 4. 第 i 個位置要的值：
- *    - 前綴含 nums[i]：prefix[i + 1]
- *    - 後綴不含 nums[i]：suffix[i + 1]
- *    所以 ans[i] = prefix[i + 1] - suffix[i + 1]。
- * 5. 值域限制為 1 ~ 50，所以用 bitset<51> 以數字本身當索引，不需要雜湊表。
+ * 解法思路：前綴與後綴的不同個數，用答案陣列重複利用
+ * 1. 由左到右掃一遍：把 nums[i] 標記進 bitset，
+ *    此時 distinct.count() 就是 nums[0..i] 的不同個數，先存進 ans[i]。
+ * 2. 清空 bitset，再由右到左掃一遍：
+ *    在標記 nums[i] 之前，bitset 裡只有 nums[i+1..n-1] 的數字，
+ *    所以 distinct.count() 剛好是「後綴不含 nums[i]」的不同個數，
+ *    直接從 ans[i] 減掉，就得到 prefix - suffix。
+ * 3. 減完之後才把 nums[i] 標記進 bitset，供下一個（更左邊的）位置使用。
+ *    順序不能反過來：若先 set 再 count，後綴會多算到 nums[i] 自己。
+ * 4. 值域限制為 1 ~ 50，所以用 bitset<51> 以數字本身當索引，不需要雜湊表。
  */
 class Solution {
 public:
     vector<int> distinctDifferenceArray(vector<int>& nums) {
         int n = nums.size();
-        vector<int> prefix(n + 1, 0);  // prefix[i]：前 i 個元素的不同個數
-        vector<int> suffix(n + 1, 0);  // suffix[i]：從索引 i 到尾端的不同個數
-        bitset<51> distinct;           // 第 x 位元為 1，代表數字 x 已經出現過
+        bitset<51> distinct;  // 第 x 位元為 1，代表數字 x 已經出現過
+        vector<int> ans(n);
 
-        // 前綴：由左到右，標記後直接取目前不同個數
+        // 前綴：ans[i] 先存 nums[0..i] 的不同個數
         for(int i = 0; i < n ; i++) {
             distinct.set(nums[i]);
-            prefix[i + 1] = distinct.count();
+            ans[i] = distinct.count();
         }
 
         distinct.reset();  // 全部位元清成 0，改算後綴
 
-        // 後綴：由右到左，suffix[i - 1] 對應 nums[i - 1..n-1]
-        for(int i = n ; i > 0 ; i--) {
-            distinct.set(nums[i - 1]);
-            suffix[i - 1] = distinct.count();
-        }
-
-        // 前綴含 nums[i]，後綴從 i + 1 開始（不含 nums[i]）
-        vector<int> ans(n);
-        for(int i = 0; i < n ; i++) {
-            ans[i] = prefix[i + 1] - suffix[i + 1];
+        // 後綴：由右到左，先減再加入，確保減掉的後綴不含 nums[i]
+        for(int i = n - 1 ; i >= 0 ; i--) {
+            ans[i] -= distinct.count();  // 此時 distinct 只含 nums[i+1..n-1]
+            distinct.set(nums[i]);       // 處理完 i 之後，再把 nums[i] 加入
         }
         return ans;
     }
