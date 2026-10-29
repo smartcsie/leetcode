@@ -945,7 +945,7 @@
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Quick Select, QuickSelect | [C++](problems/0973.md) | O(N) | O(1) | 2026-10-29 |
 | 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | Quick Select, Recursion, Collatz Conjecture, Quickselect | [C++](problems/1387.md) | O(N\*S) | O(N+S) | 2026-10-04 |
 | 1985 | 👑 **nth_element lemma**<br>[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Quick Select | [C++](problems/1985.md) | O(N) | O(1) | 2026-10-28 |
-| 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 Easy | Quick Select, Math | [C++](problems/2733.md) | O(N) | O(1) | 2026-10-04 |
+| 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 Easy | Quick Select | [C++](problems/2733.md) | O(N) | O(1) | 2026-10-29 |
 | 3759 | [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/) | 🟡 Medium | Quick Select | [C++](problems/3759.md) | O(N) | O(1) | 2026-10-28 |
 
 ---
