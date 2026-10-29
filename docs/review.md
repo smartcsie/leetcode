@@ -173,7 +173,7 @@
 | 🟣 易忘 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 Easy | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) | 2026-10-04 |
 | 🟣 易忘 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 Easy | Tree Traversal, DFS | [C++](problems/0145.md) | O(N) | O(H) | 2026-10-04 |
 | 🟣 易忘 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 Medium | Tree Dfs Global, DFS, Prefix Sum | [C++](problems/0437.md) | O(N) | O(H) | 2026-10-04 |
-| 🟣 易忘 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie, Hash Table | [C++](problems/0648.md) | O(N\*L+M\*K) | O(D\*L) | 2026-10-04 |
+| 🟣 易忘 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie | [C++](problems/0648.md) | O(N\*L+M\*K) | O(D\*L) | 2026-10-29 |
 | 🟣 易忘 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 Easy | Binary Search Tree | [C++](problems/0653.md) | O(n) | O(n) | 2026-10-04 |
 | 🟣 易忘 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 Medium | Tree Dfs Global, DFS | [C++](problems/0687.md) | O(N) | O(H) | 2026-10-04 |
 | 🟣 易忘 | 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 Medium | Tree Dfs Path, DFS, Hash Table | [C++](problems/0863.md) | O(N) | O(N) | 2026-10-04 |
@@ -331,7 +331,7 @@
 | 🔴 生疏 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | 🟡 Medium | Linked List, Merge Sort | [C++](problems/0148.md) | O(NlogN) | O(logN) |  |
 | 🔴 生疏 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Implementation, Sorting Algorithm Implementation, Bucket Sort, Pigeonhole Principle | [C++](problems/0164.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | Sorting Radix Sort | [C++](problems/0164.md) | O(N \* D) | O(N) |  |
-| 🔴 生疏 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Sorting | [C++](problems/0648.md) | O(N\*L) | O(M\*L) |  |
+| 🔴 生疏 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Sorting, Trie | [C++](problems/0648.md) | O(N\*L) | O(M\*L) | 2026-10-29 |
 | 🔴 生疏 | 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | 🔴 Hard | Sorting Cycle Decomposition | [C++](problems/0765.md) | O(N α(N)) | O(N) |  |
 | 🔴 生疏 | 2471 | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/) | 🟡 Medium | Sorting Cycle Decomposition | [C++](problems/2471.md) | O(N log N) | O(N) |  |
 | 🔴 生疏 | 2932 | [Maximum Strong Pair XOR I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | 🟢 Easy | Sorting, Brute Force | [C++](problems/2932.md) | O(NlogN+N²) | O(logN) |  |

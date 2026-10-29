@@ -828,7 +828,7 @@
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 Easy | Tree Dfs Path | [C++](problems/0606.md) | O(N) | O(H) | 2026-10-24 |
 | 617 | 👑 **Tree merge**<br>[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 Easy | Tree Dfs Path, DFS, Recursion | [C++](problems/0617.md) | O(min(N,M)) | O(min(N,M)) | 2026-10-04 |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](problems/0637.md) | O(N) | O(W) | 2026-09-14 |
-| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie, Hash Table | [C++](problems/0648.md) | O(N\*L+M\*K) | O(D\*L) | 2026-10-04 |
+| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie | [C++](problems/0648.md) | O(N\*L+M\*K) | O(D\*L) | 2026-10-29 |
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | 🟡 Medium | Tree Dfs Global, DFS, Hash Table, Serialization | [C++](problems/0652.md) | O(N²) | O(N²) | 2026-10-04 |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 Easy | Binary Search Tree, Hash Table | [C++](problems/0653.md) | O(N) | O(N) | 2026-09-25 |
 | 653 | 👑 **BST Iterator**<br>[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 Easy | Binary Search Tree | [C++](problems/0653.md) | O(n) | O(n) | 2026-10-04 |
@@ -893,6 +893,7 @@
 | 506 | [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | 🟢 Easy | Sorting Custom Comparator | [C++](problems/0506.md) | O(N log N) | O(N) | 2026-10-28 |
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | 🟡 Medium | Sorting | [C++](problems/0539.md) | O(NlogN) | O(N) | 2026-10-27 |
 | 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | 🟡 Medium | Sorting, Sorting, Two Pointers | [C++](problems/0581.md) | O(NlogN) | O(N) | 2026-10-04 |
+| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Sorting, Trie | [C++](problems/0648.md) | O(N\*L) | O(M\*L) | 2026-10-29 |
 | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array) | 🟡 Medium | Sorting Implementation, Divide and Conquer, Sorting | [C++](problems/0912.md) | O(NlogN) | O(logN) | 2026-10-04 |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Sorting Counting Sort | [C++](problems/1051.md) | O(N) | O(1) | 2026-10-19 |
 | 1122 | [Relative Sort Array](https://leetcode.com/problems/relative-sort-array/) | 🟢 Easy | Sorting Counting Sort, Counting Sort | [C++](problems/1122.md) | O(N+M) | O(1) | 2026-10-13 |

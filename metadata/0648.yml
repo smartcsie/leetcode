@@ -6,7 +6,6 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Trie
-  - Hash Table
   topics:
   - trie
   time: O(N*L+M*K)
@@ -15,18 +14,24 @@ solutions:
   note: '> [Replace Words](https://leetcode.com/problems/replace-words/)<br>
 
     > 最佳解是用Trie<br>'
-  tricks: null
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-29'
+    result: 對
+    reason: null
 - file: Solution_0648_1.cpp
   difficulty: 🟡 Medium
   tags:
   - Sorting
+  - Trie
   topics:
   - sorting
   time: O(N*L)
   space: O(M*L)
   familiarity: 生疏
-  tricks: null
+  attempts:
+  - date: '2026-10-29'
+    result: 對
+    reason: null
