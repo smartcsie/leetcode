@@ -942,7 +942,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 215 | 👑 **Quick Select**<br>[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Quick Select | [C++](problems/0215.md) | O(N) | O(1) | 2026-10-07 |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | 🟡 Medium | Quick Select | [C++](problems/0347.md) | O(N) | O(N) | 2026-10-27 |
-| 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Quick Select, QuickSelect | [C++](problems/0973.md) | O(N) | O(1) | 2026-10-04 |
+| 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | 🟡 Medium | Quick Select, QuickSelect | [C++](problems/0973.md) | O(N) | O(1) | 2026-10-29 |
 | 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | Quick Select, Recursion, Collatz Conjecture, Quickselect | [C++](problems/1387.md) | O(N\*S) | O(N+S) | 2026-10-04 |
 | 1985 | 👑 **nth_element lemma**<br>[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Quick Select | [C++](problems/1985.md) | O(N) | O(1) | 2026-10-28 |
 | 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 Easy | Quick Select, Math | [C++](problems/2733.md) | O(N) | O(1) | 2026-10-04 |
