@@ -5,9 +5,30 @@ solutions:
 - file: Solution_1551.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy Coin Change
+  - Greedy
   topics:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-10-29'
+  note: '> **n剛好會是所有數的平均數**<br>
+
+    > **n分別減去前面的數之和**<br>'
+  attempts:
+  - date: '2026-10-29'
+    result: 對
+    reason: null
+- file: Solution_1551_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math Formula
+  topics:
+  - math-formula
+  time: O(1)
+  space: O(1)
+  familiarity: 易忘
+  attempts:
+  - date: '2026-10-29'
+    result: 對
+    reason: null
