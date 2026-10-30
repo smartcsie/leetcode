@@ -5,11 +5,15 @@ solutions:
 - file: Solution_1584.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy Graph
+  - Graph Mst
   topics:
-  - greedy-graph
+  - graph-mst
   time: O(N²)
   space: O(N)
   familiarity: 生疏
+  attempts:
+  - date: '2026-10-30'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: MST
