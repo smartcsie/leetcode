@@ -24,21 +24,20 @@
  *    持平，不會變差）。
  * 4. 重複直到累計減少量達到 total/2 為止，回傳操作次數。
  */
+
+
 class Solution {
 public:
     int halveArray(vector<int>& nums) {
-        priority_queue<double> maxHeap(nums.begin(), nums.end());
-        double total = 0;
-        for (int x : nums) total += x;
-        double target = total / 2.0;
-
-        double reduced = 0;
+        double half = accumulate(nums.begin(), nums.end(), 0.0) / 2.0;
+        priority_queue<double> pq(nums.begin(), nums.end());
+        double sum = 0.0;
         int ops = 0;
-        while (reduced < target) {
-            double top = maxHeap.top(); maxHeap.pop();
-            double half = top / 2.0;
-            reduced += half;
-            maxHeap.push(half);
+        while(sum < half) {
+            double num = pq.top() / 2;
+            pq.pop();
+            sum += num;
+            pq.push(num);
             ops++;
         }
         return ops;
