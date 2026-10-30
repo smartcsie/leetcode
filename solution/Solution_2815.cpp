@@ -11,27 +11,23 @@
  */
 
 class Solution {
-private:
-    int maxDigit(int n) {
-        int n = nums.size();
-        vector<int> mx(10, -1);
-        vector<int> sum(10, -1);
+public:
+    int maxSum(vector<int>& nums) {
+        array<int, 10> mx = {};
+        array<int, 10> sum = {};
         int ans = -1;
         for(const int& x : nums) {
             int y = x;
-            int maxDigit = -1;
+            int d = -1;
             while(y > 0) {
-                int d = y % 10;
-                maxDigit = max(maxDigit, d);
+                d = max(d, y % 10);
                 y /= 10;
             }
-            if(mx[maxDigit] == -1) {
-                mx[maxDigit] = x;
-            } else {
-                sum[maxDigit] = max(sum[maxDigit], mx[maxDigit] + x);
-                mx[maxDigit] = max(mx[maxDigit], x);
-                ans = max(ans, sum[maxDigit]);
+            if(mx[d] != 0) {
+                sum[d] = max(sum[d], mx[d] + x);
+                ans = max(ans, sum[d]);
             }
+            mx[d] = max(mx[d], x);
         }
         return ans;
     }
