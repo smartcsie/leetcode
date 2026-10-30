@@ -19,19 +19,20 @@
  *    卡車剩餘空間；如果卡車已經滿了（剩餘空間變 0），提早結束。
  * 4. 答案是累計的總單位數。
  */
+
 class Solution {
 public:
     int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
-        sort(boxTypes.begin(), boxTypes.end(), [](const vector<int>& a, const vector<int>& b) {
+        sort(boxTypes.begin(), boxTypes.end(), [](const auto& a, const auto& b){
             return a[1] > b[1];
         });
-        int max_unit = 0;
-        for(const vector<int>& bt : boxTypes) {
-            int box = min(bt[0], truckSize);
-            max_unit += box * bt[1];
-            truckSize -= box;
+        int val = 0;
+        for(const auto& box : boxTypes) {
+            int size = min(box[0], truckSize);
+            val += size * box[1];
+            truckSize -= size;
             if(truckSize == 0) break;
         }
-        return max_unit;
+        return val;
     }
 };
