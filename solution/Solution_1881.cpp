@@ -12,25 +12,16 @@
 
 class Solution {
 public:
-    std::string maxValue(std::string n, int x) {
-        int i = 0;
+    string maxValue(string n, int x) {
+        int idx = 0;
         char c = x + '0';
-        
-        // 負數處理：尋找第一個大於 x 的位數並插入
-        if (n[0] == '-') {
-            i = 1; // 跳過負號
-            while (i < n.size() && c >= n[i]) {
-                i++;
-            }
-        } 
-        // 正數處理：尋找第一個小於 x 的位數並插入
-        else {
-            while (i < n.size() && c <= n[i]) {
-                i++;
-            }
+        if(n[0] == '-') {
+            idx++;
+            while(idx < n.size() && c >= n[idx]) idx++;
+        } else {
+            while(idx < n.size() && c <= n[idx]) idx++;
         }
-        
-        n.insert(i, 1, c);
+        n.insert(n.begin() + idx , c);
         return n;
     }
 };
