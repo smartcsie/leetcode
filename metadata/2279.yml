@@ -10,5 +10,9 @@ solutions:
   - greedy-sorting-decision
   time: O(N log N)
   space: O(N)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-10-30'
+  attempts:
+  - date: '2026-10-30'
+    result: 對
+    reason: null

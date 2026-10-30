@@ -22,25 +22,27 @@
  *    更多的袋子一定也填不滿，直接跳出迴圈。
  * 4. 答案是成功填滿的袋子數。
  */
+
 class Solution {
 public:
     int maximumBags(vector<int>& capacity, vector<int>& rocks, int additionalRocks) {
         int n = capacity.size();
-        int& add_rocks = additionalRocks;
-        vector<int> rest(n);
+        vector<int> remain;
+        int fulls = 0;
         for(int i = 0; i < n; i++) {
-            rest[i] = capacity[i] - rocks[i];
+            int diff = capacity[i] - rocks[i];
+            if(diff == 0) fulls++;
+            else remain.push_back(diff);
         }
-        sort(rest.begin(), rest.end());
-        int count = 0;
-        for(const int rock : rest) {
-            if(rock > add_rocks) {
+        sort(remain.begin(), remain.end());
+        for(const int& x : remain) {
+            if(x <= additionalRocks) {
+                additionalRocks -=x;
+                fulls++;
+            } else {
                 break;
-            }  else {
-                add_rocks -= rock;
-                count++;
             }
         }
-        return count;
+        return fulls;
     }
 };
