@@ -25,20 +25,22 @@
  * 4. 掃完整圈後，如果 total >= 0，代表 start 就是答案（一定能繞完
  *    整圈）；否則代表怎麼選起點都不夠油，回傳 -1。
  */
+
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
-        int n = gas.size();
-        int total = 0, tank = 0, start = 0;
-        for (int i = 0; i < n; ++i) {
+        int start = 0;
+        int curGas = 0;
+        int totalGas = 0;
+        for(int i = 0; i < gas.size(); i++) {
             int diff = gas[i] - cost[i];
-            total += diff;
-            tank += diff;
-            if (tank < 0) {
+            curGas += diff;
+            totalGas += diff;
+            if(curGas < 0) {
                 start = i + 1;
-                tank = 0;
+                curGas = 0;
             }
-        }
-        return total >= 0 ? start : -1;
+        } 
+        return totalGas >= 0 ? start : -1;
     }
 };
