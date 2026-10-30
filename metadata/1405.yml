@@ -10,8 +10,11 @@ solutions:
   - greedy-priority-queue
   time: O((a+b+c) log 3)
   space: O(1)
-  familiarity: 易忘
-  note: '> **每次只放一個字元，但每次都檢查**<br>
+  familiarity: 熟練
+  mastered_date: '2026-10-30'
+  note: '> **只推c1，沒推c2，是要保持Greedy原則*<br>
+
+    > **每次只放一個字元，但每次都檢查**<br>
 
     > **result 尾巴是否已有連續兩個相同字元**<br>
 
@@ -21,11 +24,13 @@ solutions:
   is_best: true
   related:
   - 984
-  tricks: null
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-30'
+    result: 對
+    reason: null
 - file: Solution_1405_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -35,4 +40,7 @@ solutions:
   time: O((a+b+c) log 3)
   space: O(1)
   familiarity: 生疏
-  tricks: null
+  attempts:
+  - date: '2026-10-30'
+    result: 對
+    reason: null

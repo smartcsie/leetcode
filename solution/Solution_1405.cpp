@@ -25,26 +25,27 @@
  *    之後就有越高機率因為「前面已經連續兩個」而被迫等待，導致最後
  *    用不完、字串變短；優先消耗數量多的，能讓整體字串長度最大化。
  */
+
 class Solution {
 public:
     string longestDiverseString(int a, int b, int c) {
-        priority_queue<pair<int, char>> pq;
+        priority_queue<pair<int, char>>pq;
         if(a) pq.push({a, 'a'});
         if(b) pq.push({b, 'b'});
         if(c) pq.push({c, 'c'});
         string ans;
         while(!pq.empty()) {
-            auto [count, ch] = pq.top(); pq.pop();
-            int len = ans.size();
-            if(len >= 2 && ch == ans[len - 1] && ch == ans[len - 2]) {
-                if (pq.empty()) break;
-                auto [count2, ch2] = pq.top(); pq.pop();
-                ans.push_back(ch2);
-                if(--count2 > 0) pq.push({count2, ch2});
-                pq.push({count, ch});
+            auto [count1, c1] = pq.top(); pq.pop();
+            int n = ans.size();
+            if(n >= 2 && ans.back() == c1 && ans[n - 2] == c1) {
+                if(pq.empty()) break;
+                auto [count2, c2] = pq.top(); pq.pop();
+                ans.push_back(c2);
+                if(--count2) pq.push({count2, c2});
+                pq.push({count1, c1});
             } else {
-                ans.push_back(ch);
-                if(--count > 0) pq.push({count, ch});
+                ans.push_back(c1);
+                if(--count1) pq.push({count1, c1});
             }
         }
         return ans;
