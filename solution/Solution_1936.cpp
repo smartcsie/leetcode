@@ -13,16 +13,13 @@
 class Solution {
 public:
     int addRungs(vector<int>& rungs, int dist) {
-        int count = 0;
-        count += ceil(rungs[0]/ (double)dist) - 1;
-        for(int i = 0; i < rungs.size() - 1; i++) {
-            int diff = rungs[i+ 1] - rungs[i];
-            if(diff > dist) {
-                // 數學上的 ceil(diff / dist)
-                // 在整數除法中即為 (diff + dist - 1) / dist
-                count += (diff + dist - 1) / dist - 1;
-            }
+        int added = 0;
+        int cur = 0;
+        for(const int& rung : rungs) {
+            int diff = rung - cur;
+            if(diff > dist) added += (diff + dist - 1) / dist - 1;
+            cur = rung;
         }
-        return count;
+        return added;
     }
 };
