@@ -395,6 +395,7 @@
 | 1854 | 👑 **Difference Array**<br>[Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 Easy | Array Difference Array | [C++](problems/1854.md) | O(N+Y) | O(Y) | 2026-10-15 |
 | 1869 | [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/) | 🟢 Easy | Array Continuous Counting, Simulation, Linear Scan | [C++](problems/1869.md) | O(N) | O(1) | 2026-09-17 |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 Easy | 2d Array | [C++](problems/1886.md) | O(N²) | O(1) | 2026-09-16 |
+| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Array Continuous Counting | [C++](problems/1909.md) | O(N) | O(1) | 2026-10-31 |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | 🟢 Easy | Array Min Max | [C++](problems/1913.md) | O(N) | O(1) | 2026-09-16 |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 Easy | Array Linear Scan | [C++](problems/1920.md) | O(N) | O(1) | 2026-10-02 |
 | 1929 | 👑 **vector insert vector**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 Easy | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) | 2026-10-07 |
@@ -752,7 +753,6 @@
 | 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 Easy | Greedy Sorting Decision | [C++](problems/1710.md) | O(N log N) | O(1) | 2026-10-30 |
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | Greedy | [C++](problems/1785.md) | O(N) | O(1) | 2026-10-24 |
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/1881.md) | O(N) | O(1) | 2026-10-30 |
-| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy | [C++](problems/1909.md) | O(N) | O(1) | 2026-10-31 |
 | 1936 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | Greedy | [C++](problems/1936.md) | O(N) | O(1) | 2026-10-30 |
 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | [C++](problems/2027.md) | O(N) | O(1) | 2026-10-25 |
 | 2116 | [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | 🟡 Medium | Greedy Validity Repair | [C++](problems/2116.md) | O(N) | O(1) | 2026-10-31 |

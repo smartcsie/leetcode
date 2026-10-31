@@ -5,9 +5,9 @@ solutions:
 - file: Solution_1909.cpp
   difficulty: 🟢 Easy
   tags:
-  - Greedy
+  - Array Continuous Counting
   topics:
-  - greedy
+  - array-continuous-counting
   time: O(N)
   space: O(1)
   familiarity: 熟練
@@ -27,6 +27,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-31'
+    result: 對
+    reason: null
   - date: '2026-10-31'
     result: 對
     reason: null

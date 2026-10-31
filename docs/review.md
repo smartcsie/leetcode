@@ -570,7 +570,7 @@
 | [2d-array](topics/2d-array.md) | 0 | 0 | 0 | 0 | 20 | 0 | 20 |
 | [array](topics/array.md) | 1 | 0 | 0 | 3 | 23 | 0 | 27 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 1 | 8 | 0 | 11 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 1 | 9 | 0 | 12 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 2 | 0 | 3 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 0 | 0 | 0 | 0 | 25 | 0 | 25 |
@@ -618,7 +618,7 @@
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-mst](topics/graph-mst.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 2 | 0 | 0 | 3 | 13 | 0 | 18 |
+| [greedy](topics/greedy.md) | 2 | 0 | 0 | 3 | 12 | 0 | 17 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 2 | 0 | 1 | 0 | 6 | 0 | 9 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 3 | 0 | 0 | 0 | 1 | 0 | 4 |
