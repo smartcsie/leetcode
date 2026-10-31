@@ -20,31 +20,18 @@
  * - 若各自除以 2 都有剩餘（即 `xy` 和 `yx` 各剩 1 個），則需要額外多花 2 次交換來解決。
  */
 
+
+
 class Solution {
 public:
-    int minimumSwap(std::string s1, std::string s2) {
-        int xy = 0; // s1[i] == 'x' 且 s2[i] == 'y' 的數量
-        int yx = 0; // s1[i] == 'y' 且 s2[i] == 'x' 的數量
-        
-        // 1. 統計不匹配的類型
-        for (size_t i = 0; i < s1.length(); ++i) {
-            if (s1[i] == s2[i]) {
-                continue;
-            } else if (s1[i] == 'x') {
-                ++xy;
-            } else {
-                ++yx;
-            }
+    int minimumSwap(string s1, string s2) {
+        int xy = 0;
+        int yx = 0;
+        for(int i = 0 ; i < s1.size(); i++) {
+            xy += s1[i] < s2[i];
+            yx += s2[i] < s1[i];
         }
-        
-        // 2. 總和為奇數時無法配對，返回 -1
-        if ((xy + yx) % 2 == 1) {
-            return -1;
-        }
-        
-        // 3. 計算最小交換次數
-        // xy / 2 代表兩對 xy 換 1 次；yx / 2 代表兩對 yx 換 1 次
-        // 若 xy % 2 != 0（代表 xy 和 yx 各剩 1 個），則需額外加 2 次交換
-        return xy / 2 + yx / 2 + (xy % 2 == 0 ? 0 : 2);
+        if((xy + yx) & 1) return -1;
+        return (xy / 2) +  (yx / 2) +  (xy % 2) +  (yx % 2); 
     }
 };
