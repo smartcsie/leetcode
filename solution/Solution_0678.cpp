@@ -15,24 +15,13 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-        int low = 0;  // 最少剩餘的左括號數量 (將 '*' 視為 ')' 時)
-        int high = 0; // 最多剩餘的左括號數量 (將 '*' 視為 '(' 時)
-
-        for (const char c : s) {
-            // 更新 high：將 '*' 視為 '('，')' 則消耗 '('
-            high += (c == ')') ? -1 : 1;
-            
-            // 更新 low：將 '*' 視為 ')'，'(' 則增加 '('
-            low += (c == '(') ? 1 : -1;
-
-            // 如果 high < 0，代表即便把所有 '*' 都當成 '('，左括號依然不足以抵銷右括號
-            if (high < 0) return false;
-
-            // low 不能為負，若低於 0 代表 '*' 被用作左括號抵銷了，重置為 0
-            if (low < 0) low = 0;
+        int mn = 0, mx = 0;
+        for(char& c : s) {
+            mn += (c == '(') ? 1 : -1; 
+            mx += (c == ')') ? -1 : 1; 
+            if(mx < 0) return false;
+            mn = max(mn, 0);
         }
-
-        // 若最後 low 為 0，代表存在一種可能性使得左括號完全匹配
-        return (low == 0);
+        return mn == 0;
     }
 };

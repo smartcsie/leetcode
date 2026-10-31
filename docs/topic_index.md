@@ -732,7 +732,7 @@
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy | Greedy | [C++](problems/0605.md) | O(N) | O(1) | 2026-10-28 |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Greedy | [C++](problems/0624.md) | O(N) | O(1) | 2026-10-24 |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0670.md) | O(D) | O(D) | 2026-10-24 |
-| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy | [C++](problems/0678.md) | O(N) | O(1) | 2026-10-04 |
+| 678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | 🟡 Medium | Greedy Validity Repair | [C++](problems/0678.md) | O(N) | O(1) | 2026-10-31 |
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 Easy | Greedy Coin Change | [C++](problems/0860.md) | O(N) | O(1) | 2026-09-17 |
 | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0881.md) | O(N log N) | O(1) | 2026-10-25 |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0945.md) | O(NlogN) | O(1) | 2026-10-30 |
