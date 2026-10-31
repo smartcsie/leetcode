@@ -20,7 +20,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（12）
+## 🟢 熟悉（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -29,6 +29,7 @@
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Stack | [C++](../problems/0160.md) | O(M + N) | O(M + N) | 2026-10-21 |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 Medium | Stack | [C++](../problems/0445.md) | O(N+M) | O(N+M) | 2026-10-18 |
 | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 Easy | Stack | [C++](../problems/0682.md) | O(N) | O(N) | 2026-09-26 |
+| 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 Medium | Stack | [C++](../problems/0921.md) | O(N) | O(1) | 2026-10-31 |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 Medium | Stack, String | [C++](../problems/1003.md) | O(N) | O(N) | 2026-10-19 |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 Easy | Stack | [C++](../problems/1021.md) | O(N) | O(1) | 2026-10-18 |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 Easy | Stack, String | [C++](../problems/1047.md) | O(N) | O(N) | 2026-09-21 |
