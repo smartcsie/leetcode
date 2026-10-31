@@ -408,7 +408,7 @@
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | 2d Array | [C++](problems/2133.md) | O(N²) | O(N) | 2026-10-16 |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 Easy | Array, Sorting | [C++](problems/2148.md) | O(N) | O(1) | 2026-09-17 |
 | 2176 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 Easy | Array Linear Scan | [C++](problems/2176.md) | O(N^2) | O(1) | 2026-09-17 |
-| 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 Easy | Array Continuous Counting | [C++](problems/2210.md) | O(N) | O(1) | 2026-10-15 |
+| 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 Easy | Array Continuous Counting | [C++](problems/2210.md) | O(N) | O(1) | 2026-10-31 |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 Easy | Array Linear Scan | [C++](problems/2239.md) | O(N) | O(1) | 2026-09-14 |
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) | 2026-10-04 |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 Easy | 2d Array, Matrix | [C++](problems/2319.md) | O(N²) | O(1) | 2026-09-16 |
@@ -752,7 +752,7 @@
 | 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 Easy | Greedy Sorting Decision | [C++](problems/1710.md) | O(N log N) | O(1) | 2026-10-30 |
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | Greedy | [C++](problems/1785.md) | O(N) | O(1) | 2026-10-24 |
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/1881.md) | O(N) | O(1) | 2026-10-30 |
-| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy, Two Candidates | [C++](problems/1909.md) | O(N) | O(1) | 2026-10-31 |
+| 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Greedy | [C++](problems/1909.md) | O(N) | O(1) | 2026-10-31 |
 | 1936 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | Greedy | [C++](problems/1936.md) | O(N) | O(1) | 2026-10-30 |
 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | 🟢 Easy | Greedy | [C++](problems/2027.md) | O(N) | O(1) | 2026-10-25 |
 | 2116 | [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/) | 🟡 Medium | Greedy Validity Repair | [C++](problems/2116.md) | O(N) | O(1) | 2026-10-31 |

@@ -32,4 +32,4 @@
 | 1759 | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟡 Medium | Array Continuous Counting, String | [C++](../problems/1759.md) | O(N) | O(1) | 2026-10-02 |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 Easy | Array Continuous Counting | [C++](../problems/1800.md) | O(N) | O(1) | 2026-10-15 |
 | 1869 | [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/) | 🟢 Easy | Array Continuous Counting, Simulation, Linear Scan | [C++](../problems/1869.md) | O(N) | O(1) | 2026-09-17 |
-| 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/2210.md) | O(N) | O(1) | 2026-10-15 |
+| 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/2210.md) | O(N) | O(1) | 2026-10-31 |
