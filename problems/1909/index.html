@@ -5015,10 +5015,11 @@
 
 <h1 id="1909-remove-one-element-to-make-the-array-strictly-increasing">1909. Remove One Element to Make the Array Strictly Increasing<a class="headerlink" href="#1909-remove-one-element-to-make-the-array-strictly-increasing" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Greedy, Two Candidates　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟣 易忘</p>
+<p><strong>難度:</strong> 🟢 Easy　<strong>標籤:</strong> Greedy, Two Candidates　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-10-31</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1909. Remove One Element to Make the Array Strictly Increasing (刪除一個元素使陣列嚴格遞增)</span>
@@ -5061,7 +5062,8 @@
 <a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><strong>遇到違規 nums[i-1] &gt;= nums[i]</strong><br>
+<p><strong>重點if(i &gt; 1 &amp;&amp; nums[i - 2] &gt;= nums[i]) nums[i] = nums[i-1];</strong><br>
+<strong>遇到違規 nums[i-1] &gt;= nums[i]</strong><br>
 <strong>先假設刪 nums[i-1]</strong><br>
 <strong>檢查 nums[i-2] 和 nums[i] 是否合法</strong><br>
 <strong>不合法：改刪 nums[i]，用 nums[i] = nums[i-1] 模擬</strong><br></p>
