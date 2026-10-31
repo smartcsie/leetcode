@@ -476,7 +476,7 @@
 | 🔴 生疏 | 1210 | [Minimum Moves to Reach Target With Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | 🔴 Hard | Greedy Coin Change | [C++](problems/1210.md) | O(N²) | O(N²) |  |
 | 🔴 生疏 | 1296 | [Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) | 🟡 Medium | Greedy Frequency Merging | [C++](problems/1296.md) | O(N log N) | O(N) |  |
 | 🔴 生疏 | 1392 | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/) | 🔴 Hard | Greedy Selection Constraints | [C++](problems/1392.md) | O(N) | O(N) |  |
-| 🔴 生疏 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy String Construction | [C++](problems/1405.md) | O((a+b+c) log 3) | O(1) | 2026-10-30 |
+| 🔴 生疏 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy String Construction | [C++](problems/1405.md) | O((a+b+c) log 3) | O(1) | 2026-10-31 |
 | 🔴 生疏 | 1531 | [String Compression II](https://leetcode.com/problems/string-compression-ii/) | 🔴 Hard | Greedy Optimal Partitioning | [C++](problems/1531.md) | O(N² \* K) | O(N \* K) |  |
 | 🔴 生疏 | 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | 🟡 Medium | Greedy Graph | [C++](problems/1631.md) | O(M\*N log(M\*N)) | O(M\*N) |  |
 | 🔴 生疏 | 1653 | [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | 🟡 Medium | Greedy Prefix Suffix | [C++](problems/1653.md) | O(N) | O(1) |  |

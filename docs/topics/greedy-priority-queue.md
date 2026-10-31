@@ -24,5 +24,5 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy Priority Queue | [C++](../problems/1405.md) | O((a+b+c) log 3) | O(1) | 2026-10-30 |
+| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy Priority Queue | [C++](../problems/1405.md) | O((a+b+c) log 3) | O(1) | 2026-10-31 |
 | 2208 | [Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/) | 🟡 Medium | Greedy Priority Queue | [C++](../problems/2208.md) | O(N + K log N) | O(N) | 2026-10-30 |

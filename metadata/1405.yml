@@ -31,6 +31,9 @@ solutions:
   - date: '2026-10-30'
     result: 對
     reason: null
+  - date: '2026-10-31'
+    result: 對
+    reason: null
 - file: Solution_1405_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -42,5 +45,8 @@ solutions:
   familiarity: 生疏
   attempts:
   - date: '2026-10-30'
+    result: 對
+    reason: null
+  - date: '2026-10-31'
     result: 對
     reason: null
