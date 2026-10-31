@@ -11,16 +11,21 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 易忘
-  note: '> **遇到違規 nums[i-1] >= nums[i]**<br>
+  familiarity: 熟練
+  mastered_date: '2026-10-31'
+  note: '> **重點if(i > 1 && nums[i - 2] >= nums[i]) nums[i] = nums[i-1];**<br>
+
+    > **遇到違規 nums[i-1] >= nums[i]**<br>
 
     > **先假設刪 nums[i-1]**<br>
 
     > **檢查 nums[i-2] 和 nums[i] 是否合法**<br>
 
     > **不合法：改刪 nums[i]，用 nums[i] = nums[i-1] 模擬**<br>'
-  tricks: null
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-10-31'
+    result: 對
+    reason: null
