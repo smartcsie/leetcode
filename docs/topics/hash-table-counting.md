@@ -20,11 +20,12 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（25）
+## 🟢 熟悉（26）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | Hash Table Counting, Hash Table | [C++](../problems/0049.md) | O(N\*K) | O(N\*K) | 2026-09-27 |
+| 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | 🟢 Easy | Hash Table Counting | [C++](../problems/0748.md) | O(L + W) | O(1) | 2026-11-02 |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](../problems/0771.md) | O(J+S) | O(J) | 2026-09-15 |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](../problems/0819.md) | O(M+N) | O(M+N) | 2026-10-07 |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 Easy | Hash Table Counting, Hash Table, String | [C++](../problems/1002.md) | O(N\*K) | O(1) | 2026-10-07 |

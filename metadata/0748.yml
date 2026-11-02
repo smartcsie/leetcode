@@ -1,0 +1,18 @@
+number: 748
+title: Shortest Completing Word
+url: https://leetcode.com/problems/shortest-completing-word/
+solutions:
+- file: Solution_0748.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Hash Table Counting
+  topics:
+  - hash-table-counting
+  time: O(L + W)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-02'
+  attempts:
+  - date: '2026-11-02'
+    result: 對
+    reason: null

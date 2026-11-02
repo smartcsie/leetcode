@@ -508,6 +508,7 @@
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0575.md) | O(N + V) | O(V) | 2026-10-28 |
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0575.md) | O(N) | O(K) | 2026-10-28 |
 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/0599.md) | O(N+M) | O(N) | 2026-10-05 |
+| 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | 🟢 Easy | Hash Table Counting | [C++](problems/0748.md) | O(L + W) | O(1) | 2026-11-02 |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 Easy | Hash Table Counting, Hash Set | [C++](problems/0771.md) | O(J+S) | O(J) | 2026-09-15 |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | 🟢 Easy | Hash Table Mapping, Hash Set | [C++](problems/0804.md) | O(S) | O(S) | 2026-09-19 |
 | 819 | 👑 **vector transform**<br>[Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](problems/0819.md) | O(M+N) | O(M+N) | 2026-10-07 |
