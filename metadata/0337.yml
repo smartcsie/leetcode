@@ -6,9 +6,13 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Dp Tree
-  - DP
   topics:
   - dp-tree
   time: O(N)
   space: O(H)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-11-03'
+  attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
