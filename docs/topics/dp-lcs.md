@@ -14,11 +14,10 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（3）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | Dp Lcs, Dynamic Programming Lcs, DP | [C++](../problems/0072.md) | O(N\*M) | O(N\*M) |  |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | Dp Lcs | [C++](../problems/0718.md) | O(N\*M) | O(M) |  |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | Dynamic Programming Lcs, DP, LCS | [C++](../problems/1035.md) | O(N\*M) | O(M) |  |
 
@@ -28,10 +27,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](../problems/0392.md) | O(S\*T) | O(S\*T) | 2026-10-04 |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | Dp Lcs | [C++](../problems/0072.md) | O(N\*M) | O(N\*M) | 2026-11-03 |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dp Lcs | [C++](../problems/0583.md) | O(M\*N) | O(M\*N) | 2026-11-03 |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dp Lcs | [C++](../problems/1143.md) | O(M\*N) | O(M\*N) | 2026-11-03 |
 

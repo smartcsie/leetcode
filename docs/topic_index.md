@@ -705,6 +705,7 @@
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](problems/0063.md) | O(M\*N) | O(N) | 2026-10-04 |
 | 70 | 👑 **Fibonacci**<br>[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci, DP, Unbounded Knapsack (Permutation) | [C++](problems/0070.md) | O(N) | O(1) | 2026-09-25 |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](problems/0070.md) | O(N) | O(N) | 2026-09-25 |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | Dp Lcs | [C++](problems/0072.md) | O(N\*M) | O(N\*M) | 2026-11-03 |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0091.md) | O(N) | O(N) | 2026-10-04 |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](problems/0096.md) | O(N²) | O(N) | 2026-10-04 |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci, DP | [C++](problems/0213.md) | O(N) | O(1) | 2026-10-04 |

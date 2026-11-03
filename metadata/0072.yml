@@ -6,11 +6,13 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Dp Lcs
-  - Dynamic Programming Lcs
-  - DP
   topics:
   - dp-lcs
   time: O(N*M)
   space: O(N*M)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-11-03'
+  attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
