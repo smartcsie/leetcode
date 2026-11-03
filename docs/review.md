@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 993 題　🔴 生疏：205 題　🟠 再練習：28 題　🟡 練習過：47 題　🟣 易忘：105 題　🟢 熟練：608 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 993 題　🔴 生疏：205 題　🟠 再練習：28 題　🟡 練習過：46 題　🟣 易忘：105 題　🟢 熟練：609 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 406 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 405 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（83）](#review-dynamic-programming)　[🧩 Greedy（42）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（82）](#review-dynamic-programming)　[🧩 Greedy（42）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -343,14 +343,13 @@
 | 🟣 易忘 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Sorting Counting Sort | [C++](problems/1051.md) | O(N) | O(1) | 2026-10-19 |
 
 <a id="review-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（83）
+#### 🧩 Dynamic Programming（82）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟡 練習過 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Dp State Machine, Dynamic Programming State Machine | [C++](problems/0121.md) | O(N) | O(1) |  |
 | 🟡 練習過 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium | Dp State Machine | [C++](problems/0122.md) | O(N) | O(1) |  |
 | 🟡 練習過 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | Dp Kadane, Array | [C++](problems/0152.md) | O(N) | O(1) |  |
-| 🟡 練習過 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | Dp Grid Path | [C++](problems/0221.md) | O(M\*N) | O(M\*N) |  |
 | 🟡 練習過 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0279.md) | O(N\*√N) | O(N) |  |
 | 🟡 練習過 | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dp Greedy Pointer, Multi-pointers | [C++](problems/0313.md) | O(N\*K) | O(N+K) |  |
 | 🟡 練習過 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0322.md) | O(A\*N) | O(A) |  |
@@ -584,7 +583,7 @@
 | [dp-fibonacci](topics/dp-fibonacci.md) | 1 | 0 | 0 | 1 | 6 | 0 | 8 |
 | [dp-game-theory](topics/dp-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-greedy-pointer](topics/dp-greedy-pointer.md) | 0 | 0 | 1 | 0 | 1 | 0 | 2 |
-| [dp-grid-path](topics/dp-grid-path.md) | 3 | 0 | 1 | 1 | 1 | 0 | 6 |
+| [dp-grid-path](topics/dp-grid-path.md) | 3 | 0 | 0 | 1 | 2 | 0 | 6 |
 | [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-kadane](topics/dp-kadane.md) | 1 | 1 | 2 | 0 | 1 | 0 | 5 |
 | [dp-knapsack](topics/dp-knapsack.md) | 3 | 0 | 9 | 0 | 0 | 0 | 12 |

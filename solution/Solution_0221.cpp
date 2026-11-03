@@ -21,20 +21,23 @@
  * 3. 過程中同步記錄看過的最大邊長 best。
  * 4. 答案是 best * best（面積 = 邊長平方）。
  */
+
 class Solution {
 public:
     int maximalSquare(vector<vector<char>>& matrix) {
-        int m = matrix.size(), n = matrix[0].size();
+        vector<vector<char>>& mat = matrix;
+        int m = mat.size();
+        int n = mat[0].size();
         vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
-        int best = 0;
-        for (int i = 1; i <= m; ++i) {
-            for (int j = 1; j <= n; ++j) {
-                if (matrix[i - 1][j - 1] == '1') {
-                    dp[i][j] = min({dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]}) + 1;
-                    best = max(best, dp[i][j]);
+        int mx = 0;
+        for(int i = 1; i <= m; i++) {
+            for(int j = 1; j <= n; j++) {
+                if(mat[i - 1][j - 1] == '1') {
+                    dp[i][j] = min({dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]}) + 1;
+                    mx = max(dp[i][j], mx);
                 }
             }
         }
-        return best * best;
+        return mx * mx;
     }
 };

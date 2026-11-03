@@ -12,11 +12,9 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | Dp Grid Path | [C++](../problems/0221.md) | O(M\*N) | O(M\*N) |  |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（1）
 
@@ -24,11 +22,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](../problems/0063.md) | O(M\*N) | O(N) | 2026-10-04 |
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | Dp Grid Path | [C++](../problems/0064.md) | O(M\*N) | O(1) | 2026-11-03 |
+| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | Dp Grid Path | [C++](../problems/0221.md) | O(M\*N) | O(M\*N) | 2026-11-03 |
 
 ---
 
