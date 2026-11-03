@@ -22,7 +22,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search Build In, Binary Search | [C++](../problems/0300.md) | O(NlogN) | O(N) | 2026-10-04 |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search Build In, Binary Search | [C++](../problems/0300.md) | O(NlogN) | O(N) | 2026-11-03 |
 
 ## 🟢 熟悉（4）
 

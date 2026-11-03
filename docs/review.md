@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 993 題　🔴 生疏：206 題　🟠 再練習：29 題　🟡 練習過：57 題　🟣 易忘：104 題　🟢 熟練：597 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 993 題　🔴 生疏：206 題　🟠 再練習：29 題　🟡 練習過：56 題　🟣 易忘：105 題　🟢 熟練：597 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 421 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 420 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（98）](#review-dynamic-programming)　[🧩 Greedy（42）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（97）](#review-dynamic-programming)　[🧩 Greedy（42）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -205,7 +205,7 @@
 | 🟣 易忘 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | Binary Search | [C++](problems/0069.md) | O(logN) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟡 Medium | Binary Search | [C++](problems/0081.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | 🔴 Hard | Binary Search | [C++](problems/0154.md) | O(N) | O(1) | 2026-10-04 |
-| 🟣 易忘 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search Build In, Binary Search | [C++](problems/0300.md) | O(NlogN) | O(N) | 2026-10-04 |
+| 🟣 易忘 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search Build In, Binary Search | [C++](problems/0300.md) | O(NlogN) | O(N) | 2026-11-03 |
 | 🟣 易忘 | 1539 | [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number) | 🟢 Easy | Binary Search Find Right Bound | [C++](problems/1539.md) | O(logN) | O(1) | 2026-10-04 |
 
 <a id="review-linked-list"></a>
@@ -343,7 +343,7 @@
 | 🟣 易忘 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Sorting Counting Sort | [C++](problems/1051.md) | O(N) | O(1) | 2026-10-19 |
 
 <a id="review-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（98）
+#### 🧩 Dynamic Programming（97）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -357,7 +357,6 @@
 | 🟡 練習過 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | Dp Grid Path | [C++](problems/0221.md) | O(M\*N) | O(M\*N) |  |
 | 🟡 練習過 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | Dp Greedy Pointer, Math | [C++](problems/0264.md) | O(N) | O(N) |  |
 | 🟡 練習過 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0279.md) | O(N\*√N) | O(N) |  |
-| 🟡 練習過 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Dp Lis, Dynamic Programming Lis | [C++](problems/0300.md) | O(N²) | O(N) |  |
 | 🟡 練習過 | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dp Greedy Pointer, Multi-pointers | [C++](problems/0313.md) | O(N\*K) | O(N+K) |  |
 | 🟡 練習過 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0322.md) | O(A\*N) | O(A) |  |
 | 🟡 練習過 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | Dp Tree, DP | [C++](problems/0337.md) | O(N) | O(H) |  |
@@ -582,7 +581,7 @@
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [binary-search](topics/binary-search.md) | 2 | 1 | 0 | 1 | 4 | 0 | 8 |
-| [binary-search-build-in](topics/binary-search-build-in.md) | 5 | 0 | 1 | 0 | 4 | 0 | 10 |
+| [binary-search-build-in](topics/binary-search-build-in.md) | 5 | 0 | 0 | 1 | 4 | 0 | 10 |
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 0 | 0 | 0 | 1 | 7 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 1 | 0 | 1 | 1 | 0 | 0 | 3 |
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 3 | 0 | 0 | 1 | 0 | 0 | 4 |
@@ -604,7 +603,7 @@
 | [dp-kadane](topics/dp-kadane.md) | 1 | 1 | 2 | 0 | 1 | 0 | 5 |
 | [dp-knapsack](topics/dp-knapsack.md) | 3 | 0 | 9 | 0 | 0 | 0 | 12 |
 | [dp-lcs](topics/dp-lcs.md) | 5 | 0 | 5 | 1 | 0 | 0 | 11 |
-| [dp-lis](topics/dp-lis.md) | 4 | 0 | 3 | 0 | 0 | 0 | 7 |
+| [dp-lis](topics/dp-lis.md) | 4 | 0 | 2 | 1 | 0 | 0 | 7 |
 | [dp-probability](topics/dp-probability.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
 | [dp-state-machine](topics/dp-state-machine.md) | 5 | 0 | 2 | 0 | 0 | 0 | 7 |
 | [dp-string](topics/dp-string.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |

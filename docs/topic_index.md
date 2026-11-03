@@ -457,7 +457,7 @@
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | 🔴 Hard | Binary Search | [C++](problems/0154.md) | O(N) | O(1) | 2026-10-04 |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | 🟡 Medium | Binary Search Find Left Bound | [C++](problems/0162.md) | O(logN) | O(1) | 2026-09-26 |
 | 278 | 👑 **Binary Search Find Left Bound**<br>[First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | Binary Search Find Left Bound | [C++](problems/0278.md) | O(logN) | O(1) | 2026-09-26 |
-| 300 | 👑 **LIS**<br>[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search Build In, Binary Search | [C++](problems/0300.md) | O(NlogN) | O(N) | 2026-10-04 |
+| 300 | 👑 **LIS**<br>[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search Build In, Binary Search | [C++](problems/0300.md) | O(NlogN) | O(N) | 2026-11-03 |
 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 Easy | Binary Search | [C++](problems/0367.md) | O(logN) | O(1) | 2026-10-04 |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | Binary Search | [C++](problems/0374.md) | O(logN) | O(1) | 2026-09-26 |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) | 🟡 Medium | Binary Search | [C++](problems/0540.md) | O(logN) | O(1) | 2026-09-26 |
@@ -709,6 +709,7 @@
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](problems/0096.md) | O(N²) | O(N) | 2026-10-04 |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci, DP | [C++](problems/0213.md) | O(N) | O(1) | 2026-10-04 |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci | [C++](problems/0213.md) | O(N) | O(N) | 2026-10-04 |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Dp Lis | [C++](problems/0300.md) | O(N²) | O(N) | 2026-11-03 |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Dp Bitmask | [C++](problems/0338.md) | O(N) | O(N) | 2026-10-22 |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) | 2026-10-04 |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | Dp Knapsack, 0-1 Knapsack | [C++](problems/0416.md) | O(N\*S) | O(NS) | 2026-09-18 |

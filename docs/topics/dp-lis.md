@@ -13,11 +13,10 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（3）
+## 🟡 練習過（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Dp Lis, Dynamic Programming Lis | [C++](../problems/0300.md) | O(N²) | O(N) |  |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | Dp Lis, Dynamic Programming Lcs, DP | [C++](../problems/0516.md) | O(N²) | O(N) |  |
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 Medium | Dp Lis, Dynamic Programming Lis, Longest Non-Decreasing Subsequence | [C++](../problems/2826.md) | O(N) | O(1) |  |
 
@@ -25,9 +24,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Dp Lis | [C++](../problems/0300.md) | O(N²) | O(N) | 2026-11-03 |
 
 ---
 
