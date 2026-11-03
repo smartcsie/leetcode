@@ -12,7 +12,12 @@ solutions:
   space: O(N*M)
   familiarity: 熟練
   mastered_date: '2026-11-03'
+  related:
+  - 712
   attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
   - date: '2026-11-03'
     result: 對
     reason: null
