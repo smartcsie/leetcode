@@ -712,6 +712,7 @@
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0198.md) | O(N) | O(N) | 2026-11-03 |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0213.md) | O(N) | O(1) | 2026-11-03 |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0213.md) | O(N) | O(N) | 2026-11-03 |
+| 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | Dp Greedy Pointer | [C++](problems/0264.md) | O(N) | O(N) | 2026-11-03 |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Dp Lis | [C++](problems/0300.md) | O(N²) | O(N) | 2026-11-03 |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | Dp Tree | [C++](problems/0337.md) | O(N) | O(H) | 2026-11-03 |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Dp Bitmask | [C++](problems/0338.md) | O(N) | O(N) | 2026-10-22 |

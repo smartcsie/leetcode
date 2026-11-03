@@ -6,10 +6,13 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Dp Greedy Pointer
-  - Math
   topics:
   - dp-greedy-pointer
   time: O(N)
   space: O(N)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-11-03'
+  attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
