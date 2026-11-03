@@ -10,5 +10,9 @@ solutions:
   - dp-lcs
   time: O(N*M)
   space: O(M)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-11-03'
+  attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
