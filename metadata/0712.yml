@@ -5,10 +5,16 @@ solutions:
 - file: Solution_0712.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming Lcs
-  - String
+  - Dp Lcs
   topics:
   - dp-lcs
   time: O(M×N)
   space: O(M×N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-03'
+  related:
+  - 72
+  attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
