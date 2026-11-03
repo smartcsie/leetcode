@@ -710,8 +710,8 @@
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](problems/0096.md) | O(N²) | O(N) | 2026-10-04 |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0198.md) | O(N) | O(1) | 2026-11-03 |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0198.md) | O(N) | O(N) | 2026-11-03 |
-| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci, DP | [C++](problems/0213.md) | O(N) | O(1) | 2026-10-04 |
-| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci | [C++](problems/0213.md) | O(N) | O(N) | 2026-10-04 |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0213.md) | O(N) | O(1) | 2026-11-03 |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0213.md) | O(N) | O(N) | 2026-11-03 |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Dp Lis | [C++](problems/0300.md) | O(N²) | O(N) | 2026-11-03 |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Dp Bitmask | [C++](problems/0338.md) | O(N) | O(N) | 2026-10-22 |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) | 2026-10-04 |

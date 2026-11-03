@@ -14,30 +14,20 @@
  */
 
 class Solution {
+    int robRange(vector<int>& nums, int start, int end) {
+        int n0 = 0, n1 = 0, n2 = 0;
+        for(int i = start; i <= end; i++) {
+            n2 = max(n1, n0 + nums[i]);
+            n0 = n1;
+            n1 = n2;
+        }
+        return n2;
+    }
 public:
     int rob(vector<int>& nums) {
         int n = nums.size();
-        
-        // 邊界條件處理
-        if (n == 0) return 0;
-        if (n == 1) return nums[0];
-        
-        // 分別計算兩種互斥情況取最大值
-        return max(robLinear(nums, 0, n - 2), robLinear(nums, 1, n - 1));
-    }
-
-private:
-    // 標準線性打家劫舍算法
-    int robLinear(const vector<int>& nums, int start, int end) {
-        int prev2 = 0; // i-2 的最大收益
-        int prev1 = 0; // i-1 的最大收益
-        
-        for (int i = start; i <= end; ++i) {
-            // 當前最大收益 = max(不搶當前房(prev1), 搶當前房+前兩間最大收益(prev2 + nums[i]))
-            int curr = max(prev1, prev2 + nums[i]);
-            prev2 = prev1;
-            prev1 = curr;
-        }
-        return prev1;
+        if(n == 0) return 0;
+        if(n == 1) return nums[0];
+        return max(robRange(nums, 0, n - 2), robRange(nums, 1, n - 1));
     }
 };

@@ -6,12 +6,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2266 | [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | 🟡 Medium | Dp Fibonacci | [C++](../problems/2266.md) | O(N) | O(最長連續按鍵長度) |  |
 
-## 🟠 再練習（2）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci, DP | [C++](../problems/0213.md) | O(N) | O(1) | 2026-10-04 |
-| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dynamic Programming Fibonacci | [C++](../problems/0213.md) | O(N) | O(N) | 2026-10-04 |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（2）
 
@@ -26,7 +23,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | Dp Fibonacci | [C++](../problems/0091.md) | O(N) | O(N) | 2026-10-04 |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -34,6 +31,8 @@
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](../problems/0070.md) | O(N) | O(N) | 2026-09-25 |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Dp Fibonacci | [C++](../problems/0198.md) | O(N) | O(1) | 2026-11-03 |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Dp Fibonacci | [C++](../problems/0198.md) | O(N) | O(N) | 2026-11-03 |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dp Fibonacci | [C++](../problems/0213.md) | O(N) | O(1) | 2026-11-03 |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dp Fibonacci | [C++](../problems/0213.md) | O(N) | O(N) | 2026-11-03 |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming, Dynamic Programming Fibonacci | [C++](../problems/0509.md) | O(N) | O(1) | 2026-09-25 |
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming Fibonacci | [C++](../problems/0509.md) | O(N) | O(N) | 2026-09-25 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci, DP | [C++](../problems/1137.md) | O(N) | O(1) | 2026-09-26 |
