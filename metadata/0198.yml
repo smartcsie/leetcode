@@ -5,20 +5,28 @@ solutions:
 - file: Solution_0198.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming Fibonacci
-  - DP
-  - Linear Optimization
+  - Dp Fibonacci
   topics:
   - dp-fibonacci
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-11-03'
+  attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
 - file: Solution_0198_1.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming Fibonacci
+  - Dp Fibonacci
   topics:
   - dp-fibonacci
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-11-03'
+  attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
