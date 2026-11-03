@@ -6,11 +6,13 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Dp Grid Path
-  - Dynamic Programming Grid Path
-  - DP
   topics:
   - dp-grid-path
   time: O(M*N)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-11-03'
+  attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
