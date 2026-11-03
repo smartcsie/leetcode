@@ -16,6 +16,9 @@ solutions:
   - date: '2026-11-03'
     result: 對
     reason: null
+  - date: '2026-11-03'
+    result: 對
+    reason: null
 - file: Solution_0198_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -27,6 +30,9 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-11-03'
   attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
   - date: '2026-11-03'
     result: 對
     reason: null
