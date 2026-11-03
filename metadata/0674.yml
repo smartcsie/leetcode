@@ -25,6 +25,9 @@ solutions:
   - date: '2026-09-26'
     result: 對
     reason: null
+  - date: '2026-11-03'
+    result: 對
+    reason: null
 - file: Solution_0674.cpp
   difficulty: 🟢 Easy
   tags:
@@ -49,6 +52,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-26'
+    result: 對
+    reason: null
+  - date: '2026-11-03'
     result: 對
     reason: null
   is_representative: true

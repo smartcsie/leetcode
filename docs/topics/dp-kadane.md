@@ -28,7 +28,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dp Kadane | [C++](../problems/0053.md) | O(N) | O(1) | 2026-10-19 |
-| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dp Kadane | [C++](../problems/0674.md) | O(N) | O(N) | 2026-09-26 |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dp Kadane | [C++](../problems/0674.md) | O(N) | O(N) | 2026-11-03 |
 
 ---
 
