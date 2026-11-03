@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 993 題　🔴 生疏：205 題　🟠 再練習：28 題　🟡 練習過：45 題　🟣 易忘：105 題　🟢 熟練：610 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 994 題　🔴 生疏：205 題　🟠 再練習：28 題　🟡 練習過：45 題　🟣 易忘：105 題　🟢 熟練：611 題　⚪ 未標記：0 題
 
 ---
 
@@ -617,7 +617,7 @@
 | [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 0 | 0 | 0 | 4 | 0 | 8 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 0 | 0 | 0 | 1 | 2 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 0 | 1 | 0 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 3 | 0 | 0 | 0 | 25 | 0 | 28 |
+| [hash-table-counting](topics/hash-table-counting.md) | 3 | 0 | 0 | 0 | 26 | 0 | 29 |
 | [hash-table-existence](topics/hash-table-existence.md) | 2 | 1 | 1 | 2 | 14 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 0 | 0 | 1 | 12 | 0 | 13 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 0 | 0 | 0 | 9 | 0 | 9 |
