@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 993 題　🔴 生疏：206 題　🟠 再練習：28 題　🟡 練習過：51 題　🟣 易忘：105 題　🟢 熟練：603 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 993 題　🔴 生疏：206 題　🟠 再練習：28 題　🟡 練習過：50 題　🟣 易忘：105 題　🟢 熟練：604 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 412 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 410 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（89）](#review-dynamic-programming)　[🧩 Greedy（42）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（87）](#review-dynamic-programming)　[🧩 Greedy（42）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -343,7 +343,7 @@
 | 🟣 易忘 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | 🟢 Easy | Sorting Counting Sort | [C++](problems/1051.md) | O(N) | O(1) | 2026-10-19 |
 
 <a id="review-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（89）
+#### 🧩 Dynamic Programming（87）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -363,8 +363,6 @@
 | 🟡 練習過 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | 🟡 Medium | Dp Lis, Dynamic Programming Lcs, DP | [C++](problems/0516.md) | O(N²) | O(N) |  |
 | 🟡 練習過 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0518.md) | O(N\*A) | O(A) |  |
 | 🟡 練習過 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | Dp Lcs | [C++](problems/0718.md) | O(N\*M) | O(M) |  |
-| 🟡 練習過 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](problems/0746.md) | O(N) | O(N) |  |
-| 🟡 練習過 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci | [C++](problems/0746.md) | O(N) | O(1) |  |
 | 🟡 練習過 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | Dynamic Programming Lcs, DP, LCS | [C++](problems/1035.md) | O(N\*M) | O(M) |  |
 | 🟡 練習過 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | 0-1 Knapsack | [C++](problems/1049.md) | O(N\*S) | O(S) |  |
 | 🟡 練習過 | 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | Dp Kadane, Dynamic Programming Kadane | [C++](problems/1567.md) | O(N) | O(1) |  |
@@ -587,7 +585,7 @@
 | [design](topics/design.md) | 0 | 3 | 0 | 2 | 5 | 0 | 10 |
 | [dp-bitmask](topics/dp-bitmask.md) | 6 | 0 | 0 | 0 | 1 | 0 | 7 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [dp-fibonacci](topics/dp-fibonacci.md) | 1 | 0 | 1 | 1 | 5 | 0 | 8 |
+| [dp-fibonacci](topics/dp-fibonacci.md) | 1 | 0 | 0 | 1 | 6 | 0 | 8 |
 | [dp-game-theory](topics/dp-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [dp-greedy-pointer](topics/dp-greedy-pointer.md) | 0 | 0 | 2 | 0 | 0 | 0 | 2 |
 | [dp-grid-path](topics/dp-grid-path.md) | 3 | 0 | 2 | 1 | 0 | 0 | 6 |

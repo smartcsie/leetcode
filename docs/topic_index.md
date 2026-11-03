@@ -721,6 +721,8 @@
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | 🟢 Easy | Dynamic Programming Fibonacci | [C++](problems/0509.md) | O(N) | O(N) | 2026-09-25 |
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dp Lcs | [C++](problems/0583.md) | O(M\*N) | O(M\*N) | 2026-11-03 |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 Easy | Dp Kadane | [C++](problems/0674.md) | O(N) | O(N) | 2026-11-03 |
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci | [C++](problems/0746.md) | O(N) | O(N) | 2026-11-03 |
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci | [C++](problems/0746.md) | O(N) | O(1) | 2026-11-03 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci, DP | [C++](problems/1137.md) | O(N) | O(1) | 2026-09-26 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](problems/1137.md) | O(N) | O(N) | 2026-09-26 |
 | 1143 | 👑 **LCS**<br>[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dp Lcs | [C++](problems/1143.md) | O(M\*N) | O(M\*N) | 2026-11-03 |
