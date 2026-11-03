@@ -6,16 +6,19 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Dp Lcs
-  - Dynamic Programming Lcs
   topics:
   - dp-lcs
   time: O(M*N)
   space: O(M*N)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-11-03'
   note: '> **同1035[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)**<br>'
   related:
   - 583
   - 1035
-  tricks: null
+  attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: LCS
