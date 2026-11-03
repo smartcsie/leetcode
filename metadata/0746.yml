@@ -16,6 +16,9 @@ solutions:
   - date: '2026-11-03'
     result: 對
     reason: null
+  - date: '2026-11-03'
+    result: 對
+    reason: null
 - file: Solution_0746_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -28,6 +31,9 @@ solutions:
   mastered_date: '2026-11-03'
   is_best: true
   attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null
   - date: '2026-11-03'
     result: 對
     reason: null
