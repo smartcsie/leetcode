@@ -730,6 +730,7 @@
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | Dp Lcs | [C++](problems/0718.md) | O(N\*M) | O(M) | 2026-11-03 |
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci | [C++](problems/0746.md) | O(N) | O(N) | 2026-11-03 |
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Easy | Dp Fibonacci | [C++](problems/0746.md) | O(N) | O(1) | 2026-11-03 |
+| 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | Dp Lcs | [C++](problems/1035.md) | O(N\*M) | O(M) | 2026-11-03 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci, DP | [C++](problems/1137.md) | O(N) | O(1) | 2026-09-26 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](problems/1137.md) | O(N) | O(N) | 2026-09-26 |
 | 1143 | 👑 **LCS**<br>[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dp Lcs | [C++](problems/1143.md) | O(M\*N) | O(M\*N) | 2026-11-03 |

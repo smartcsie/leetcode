@@ -5,16 +5,18 @@ solutions:
 - file: Solution_1035.cpp
   difficulty: 🟡 Medium
   tags:
-  - Dynamic Programming Lcs
-  - DP
-  - LCS
+  - Dp Lcs
   topics:
   - dp-lcs
   time: O(N*M)
   space: O(M)
-  familiarity: 練習過
-  note: '> 同1143[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)'
+  familiarity: 熟練
+  mastered_date: '2026-11-03'
+  note: '> **同1143[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)**<br>'
   related:
   - 583
   - 1143
-  tricks: null
+  attempts:
+  - date: '2026-11-03'
+    result: 對
+    reason: null

@@ -13,11 +13,9 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | Dynamic Programming Lcs, DP, LCS | [C++](../problems/1035.md) | O(N\*M) | O(M) |  |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（1）
 
@@ -25,7 +23,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](../problems/0392.md) | O(S\*T) | O(S\*T) | 2026-10-04 |
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -33,6 +31,7 @@
 | 583 | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings) | 🟡 Medium | Dp Lcs | [C++](../problems/0583.md) | O(M\*N) | O(M\*N) | 2026-11-03 |
 | 712 | [Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 🟡 Medium | Dp Lcs | [C++](../problems/0712.md) | O(M×N) | O(M×N) | 2026-11-03 |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | 🟡 Medium | Dp Lcs | [C++](../problems/0718.md) | O(N\*M) | O(M) | 2026-11-03 |
+| 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | 🟡 Medium | Dp Lcs | [C++](../problems/1035.md) | O(N\*M) | O(M) | 2026-11-03 |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dp Lcs | [C++](../problems/1143.md) | O(M\*N) | O(M\*N) | 2026-11-03 |
 
 ---
