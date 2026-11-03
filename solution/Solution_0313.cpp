@@ -13,21 +13,15 @@
 
 class Solution {
 public:
-    int nthSuperUglyNumber(int n, std::vector<int>& primes) {
-        int k = primes.size();
-        vector<int> idx(k, 0);
-        vector<long> uglys{1};
-        while(uglys.size() < n) {
-            vector<long> next(k);
-            for(int i = 0; i < k ; i++) {
-                next[i] = uglys[idx[i]] * static_cast<long>(primes[i]);
-            }
-            long mn = *min_element(next.begin(), next.end());
-            uglys.push_back(mn);
-            for(int i = 0; i < k ; i++) {
-                if(mn == next[i]) idx[i]++;
-            }
+    int nthSuperUglyNumber(int n, vector<int>& primes) {
+        int m =  primes.size();
+        vector<int> idx(m, 0);
+        vector<long> ans(n, LONG_MAX);
+        ans[0] = 1;
+        for(int i = 1; i < n; i++) {
+            for(int j = 0; j < m; j++) ans[i] = min(ans[i], ans[idx[j]] * primes[j]);
+            for(int j = 0; j < m; j++) if(ans[i] == ans[idx[j]] * primes[j]) idx[j]++;
         }
-        return uglys.back();
+        return static_cast<int>(ans.back());
     }
 };

@@ -716,6 +716,7 @@
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | Dp Grid Path | [C++](problems/0221.md) | O(M\*N) | O(M\*N) | 2026-11-03 |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | Dp Greedy Pointer | [C++](problems/0264.md) | O(N) | O(N) | 2026-11-03 |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Dp Lis | [C++](problems/0300.md) | O(N²) | O(N) | 2026-11-03 |
+| 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 Medium | Dp Greedy Pointer | [C++](problems/0313.md) | O(N\*K) | O(N+K) | 2026-11-03 |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | Dp Tree | [C++](problems/0337.md) | O(N) | O(H) | 2026-11-03 |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 Easy | Dp Bitmask | [C++](problems/0338.md) | O(N) | O(N) | 2026-10-22 |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) | 2026-10-04 |
