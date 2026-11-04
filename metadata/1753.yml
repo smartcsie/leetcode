@@ -5,9 +5,47 @@ solutions:
 - file: Solution_1753.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy Parity Contribution
+  - Greedy Priority Queue
   topics:
-  - greedy-parity-contribution
+  - greedy-priority-queue
   time: O((a+b+c) log 3)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-04'
+  attempts:
+  - date: '2026-11-04'
+    result: 對
+    reason: null
+  - date: '2026-11-04'
+    result: 對
+    reason: null
+  - date: '2026-11-04'
+    result: 對
+    reason: null
+- file: Solution_1753_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-04'
+  note: '> **邏輯如下**<br>
+
+    > **int x = min({a, b, c});**<br>
+
+    > **int z = max({a, b, c});**<br>
+
+    > **int y = (a + b + c) - (x + z);**<br>
+
+    > **return z > (x + y) ? x + y : (x + y + z) / 2;**<br>'
+  is_best: true
+  attempts:
+  - date: '2026-11-04'
+    result: 對
+    reason: null
+  - date: '2026-11-04'
+    result: 對
+    reason: null

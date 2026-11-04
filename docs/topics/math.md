@@ -31,7 +31,7 @@
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](../problems/2894.md) | O(1) | O(1) | 2026-10-04 |
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math | [C++](../problems/3084.md) | O(N) | O(1) | 2026-10-12 |
 
-## 🟢 熟悉（28）
+## 🟢 熟悉（29）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -53,6 +53,7 @@
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Math | [C++](../problems/1295.md) | O(N) | O(1) | 2026-09-20 |
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](../problems/1344.md) | O(1) | O(1) | 2026-10-08 |
 | 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 Easy | Math, Construction | [C++](../problems/1374.md) | O(N) | O(N) | 2026-10-08 |
+| 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | Math | [C++](../problems/1753.md) | O(1) | O(1) | 2026-11-04 |
 | 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | Math | [C++](../problems/1780.md) | O(log₃N) | O(1) | 2026-10-08 |
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math, String | [C++](../problems/1980.md) | O(N²) | O(N) | 2026-09-20 |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](../problems/2119.md) | O(1) | O(1) | 2026-10-16 |

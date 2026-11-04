@@ -1,10 +1,8 @@
 # greedy-parity-contribution
 
-## 🔴 生疏（1）
+## 🔴 生疏（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | Greedy Parity Contribution | [C++](../problems/1753.md) | O((a+b+c) log 3) | O(1) |  |
+目前沒有標記為生疏的解法。
 
 ## 🟠 再練習（0）
 

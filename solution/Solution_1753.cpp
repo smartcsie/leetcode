@@ -29,16 +29,15 @@
 class Solution {
 public:
     int maximumScore(int a, int b, int c) {
-        priority_queue<int> maxHeap;
-        maxHeap.push(a); maxHeap.push(b); maxHeap.push(c);
-
+        priority_queue<int> pq;
+        pq.push(a);pq.push(b);pq.push(c);
         int score = 0;
-        while (maxHeap.size() >= 2) {
-            int x = maxHeap.top(); maxHeap.pop();
-            int y = maxHeap.top(); maxHeap.pop();
+        while(pq.size() >= 2) {
+            int x = pq.top(); pq.pop();
+            int y = pq.top(); pq.pop();
             score++;
-            if (--x > 0) maxHeap.push(x);
-            if (--y > 0) maxHeap.push(y);
+            if(--x) pq.push(x);
+            if(--y) pq.push(y);
         }
         return score;
     }

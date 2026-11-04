@@ -78,6 +78,7 @@
 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 Medium | Math Formula | [C++](problems/1551.md) | O(1) | O(1) | 2026-10-29 |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Math Combination, Math (Contribution) | [C++](problems/1588.md) | O(N) | O(1) | 2026-10-04 |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 Easy | Math Digit Decomposition, Simulation, Hash Table | [C++](problems/1742.md) | O(N\*D) | O(1) | 2026-09-16 |
+| 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | Math | [C++](problems/1753.md) | O(1) | O(1) | 2026-11-04 |
 | 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | Math | [C++](problems/1780.md) | O(log₃N) | O(1) | 2026-10-08 |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math Digit Decomposition | [C++](problems/1837.md) | O(logₖN) | O(1) | 2026-09-17 |
 | 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](problems/1880.md) | O(N) | O(1) | 2026-09-17 |
@@ -771,6 +772,7 @@
 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 Easy | Greedy String Construction | [C++](problems/1576.md) | O(N) | O(1) | 2026-10-25 |
 | 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 Easy | Greedy | [C++](problems/1624.md) | O(N) | O(1) | 2026-10-25 |
 | 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 Easy | Greedy Sorting Decision | [C++](problems/1710.md) | O(N log N) | O(1) | 2026-10-30 |
+| 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | Greedy Priority Queue | [C++](problems/1753.md) | O((a+b+c) log 3) | O(1) | 2026-11-04 |
 | 1785 | [Minimum Elements to Add to Form a Given Sum](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum/) | 🟡 Medium | Greedy | [C++](problems/1785.md) | O(N) | O(1) | 2026-10-24 |
 | 1881 | [Maximum Value after Insertion](https://leetcode.com/problems/maximum-value-after-insertion/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/1881.md) | O(N) | O(1) | 2026-10-30 |
 | 1936 | [Add Minimum Number of Rungs](https://leetcode.com/problems/add-minimum-number-of-rungs/) | 🟡 Medium | Greedy | [C++](problems/1936.md) | O(N) | O(1) | 2026-10-30 |
