@@ -747,6 +747,7 @@
 | 409 | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | 🟢 Easy | Greedy Frequency Merging | [C++](problems/0409.md) | O(N) | O(K) | 2026-10-29 |
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟢 Easy | Greedy Parity Contribution | [C++](problems/0453.md) | O(N) | O(1) | 2026-10-25 |
 | 455 | 👑 **Sorting Decision**<br>[Assign Cookies](https://leetcode.com/problems/assign-cookies/) | 🟢 Easy | Greedy Fractional Knapsack | [C++](problems/0455.md) | O(N log N) | O(1) | 2026-10-25 |
+| 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0462.md) | O(N log N) | O(1) | 2026-11-04 |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy | Greedy | [C++](problems/0605.md) | O(N) | O(1) | 2026-10-28 |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Greedy | [C++](problems/0624.md) | O(N) | O(1) | 2026-10-24 |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0670.md) | O(D) | O(D) | 2026-10-24 |

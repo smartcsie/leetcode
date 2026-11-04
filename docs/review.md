@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 994 題　🔴 生疏：205 題　🟠 再練習：28 題　🟡 練習過：44 題　🟣 易忘：105 題　🟢 熟練：612 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 994 題　🔴 生疏：204 題　🟠 再練習：28 題　🟡 練習過：44 題　🟣 易忘：105 題　🟢 熟練：613 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 403 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 402 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（80）](#review-dynamic-programming)　[🧩 Greedy（42）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（80）](#review-dynamic-programming)　[🧩 Greedy（41）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -429,7 +429,7 @@
 | 🟣 易忘 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) | 2026-10-04 |
 
 <a id="review-greedy"></a>
-#### 🧩 Greedy（42）
+#### 🧩 Greedy（41）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -441,7 +441,6 @@
 | 🔴 生疏 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0406.md) | O(N²) | O(N) |  |
 | 🔴 生疏 | 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | 🔴 Hard | Greedy Optimal Partitioning | [C++](problems/0410.md) | O(N log(sum(nums))) | O(1) |  |
 | 🔴 生疏 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | 🟡 Medium | Greedy Interval Scheduling | [C++](problems/0452.md) | O(N log N) | O(1) |  |
-| 🔴 生疏 | 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 Medium | Greedy Parity Contribution | [C++](problems/0462.md) | O(N log N) | O(1) |  |
 | 🔴 生疏 | 502 | [IPO](https://leetcode.com/problems/ipo/) | 🔴 Hard | Greedy Job Sequencing | [C++](problems/0502.md) | O(N log N) | O(N) |  |
 | 🔴 生疏 | 556 | [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0556.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | Greedy Priority Queue | [C++](problems/0621.md) | O(N) | O(1) |  |
@@ -608,11 +607,11 @@
 | [greedy-interval-scheduling](topics/greedy-interval-scheduling.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [greedy-job-sequencing](topics/greedy-job-sequencing.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [greedy-optimal-partitioning](topics/greedy-optimal-partitioning.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [greedy-parity-contribution](topics/greedy-parity-contribution.md) | 2 | 0 | 0 | 1 | 2 | 0 | 5 |
+| [greedy-parity-contribution](topics/greedy-parity-contribution.md) | 1 | 0 | 0 | 1 | 2 | 0 | 4 |
 | [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 1 | 0 | 1 | 1 | 0 | 6 |
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 0 | 0 | 1 | 0 | 5 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 3 | 0 | 0 | 0 | 1 | 0 | 4 |
-| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 0 | 1 | 0 | 11 | 0 | 14 |
+| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 0 | 1 | 0 | 12 | 0 | 15 |
 | [greedy-string-construction](topics/greedy-string-construction.md) | 4 | 0 | 0 | 0 | 4 | 0 | 8 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 0 | 0 | 0 | 1 | 2 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 0 | 1 | 0 | 3 | 0 | 4 |
