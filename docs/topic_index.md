@@ -247,6 +247,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 215 | 👑 **Quick Select**<br>[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | 🟡 Medium | Quick Select | [C++](problems/0215.md) | O(N) | O(1) | 2026-10-07 |
+| 1387 | 👑 **Collatz Conjecture**<br>[Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | Quick Select | [C++](problems/1387.md) | O(N\*S) | O(N+S) | 2026-11-04 |
 | 1985 | 👑 **nth_element lemma**<br>[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Quick Select | [C++](problems/1985.md) | O(N) | O(1) | 2026-10-28 |
 
 ---

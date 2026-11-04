@@ -11,7 +11,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | Quick Select, Recursion, Collatz Conjecture, Quickselect | [C++](../problems/1387.md) | O(N\*S) | O(N+S) | 2026-10-04 |
+| 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | 🟡 Medium | Quick Select | [C++](../problems/1387.md) | O(N\*S) | O(N+S) | 2026-11-04 |
 
 ## 🟡 練習過（0）
 
