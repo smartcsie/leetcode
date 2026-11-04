@@ -46,7 +46,7 @@
 | 🟣 易忘 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math Formula, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) | 2026-10-18 |
 | 🟣 易忘 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | Math Game Theory, Game Theory | [C++](problems/0810.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math, Hash Table | [C++](problems/0970.md) | O(log_X(BOUND)\*log_Y(BOUND)) | O(S) | 2026-10-04 |
-| 🟣 易忘 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | Math, Zeller's Congruence | [C++](problems/1185.md) | O(1) | O(1) | 2026-10-04 |
+| 🟣 易忘 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | Math | [C++](problems/1185.md) | O(1) | O(1) | 2026-11-04 |
 | 🟣 易忘 | 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 Medium | Math, Simulation, Greedy | [C++](problems/1375.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](problems/1404.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | Math Factor Enumeration | [C++](problems/1492.md) | O(√N) | O(1) | 2026-10-04 |

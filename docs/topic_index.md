@@ -14,6 +14,7 @@
 | 50 | 👑 **Fast exponentiation**<br>[Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math | [C++](problems/0050.md) | O(logN) | O(1) | 2026-11-04 |
 | 62 | 👑 **DP on Grid**<br>[Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination | [C++](problems/0062.md) | O(min(M,N)) | O(1) | 2026-10-08 |
 | 67 | 👑 **String Number Addition**<br>[Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](problems/0067.md) | O(max(M,N)) | O(1) | 2026-10-17 |
+| 89 | 👑 **Gray code**<br>[Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Math Formula | [C++](problems/0089.md) | O(2ᴺ) | O(1) | 2026-11-04 |
 | 204 | 👑 **Prime / Sieve**<br>[Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math Prime, Sieve | [C++](problems/0204.md) | O(NloglogN) | O(N) | 2026-10-16 |
 | 231 | 👑 **Brian Kernighan**<br>[Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 Easy | Math | [C++](problems/0231.md) | O(1) | O(1) | 2026-09-13 |
 | 365 | 👑 **Bézout's Identity**<br>[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 Medium | Math Gcd | [C++](problems/0365.md) | O(log(min(x,y))) | O(1) | 2026-10-16 |
@@ -21,6 +22,7 @@
 | 812 | 👑 **Shoelace formula**<br>[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | 🟢 Easy | Math Formula | [C++](problems/0812.md) | O(N³) | O(1) | 2026-11-04 |
 | 949 | 👑 **next_permutation**<br>[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | Math Permutation | [C++](problems/0949.md) | O(1) | O(1) | 2026-10-22 |
 | 1071 | 👑 **Euclidean algorithm**<br>[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy | Math Gcd | [C++](problems/1071.md) | O(N+M) | O(N+M) | 2026-11-04 |
+| 1185 | 👑 **Zeller’s congruence**<br>[Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | Math | [C++](problems/1185.md) | O(1) | O(1) | 2026-11-04 |
 | 1281 | 👑 **Digit Decomposition**<br>[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/1281.md) | O(logN) | O(1) | 2026-09-14 |
 | 1295 | 👑 **number digits**<br>[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Math | [C++](problems/1295.md) | O(N) | O(1) | 2026-09-20 |
 | 1344 | 👑 **cast int into double**<br>[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](problems/1344.md) | O(1) | O(1) | 2026-10-08 |
