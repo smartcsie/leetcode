@@ -7,18 +7,20 @@ solutions:
   tags:
   - Greedy
   topics:
-  - greedy-prefix-suffix
+  - greedy
   time: O(N)
   space: O(1)
-  familiarity: 易忘
-  note: '> [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)<br>
+  familiarity: 熟練
+  mastered_date: '2026-11-04'
+  note: '> **用一個reach更新最大能到達，reach = max(reach, i + nums[i]);**<br>
 
-    > 用一個maxReach更新最大能到達，maxReach = max(maxReach, i + nums[i]);<br>
+    > **如果 i > reach表示不可到達，if(i > reach) return false;**<br>
 
-    > 如果 i > maxReach表示不可到達，if(i > maxReach) return false;<br>
-
-    > 如果到了結尾，可以先回傳，if(maxReach >= n - 1) return true;<br>'
+    > **如果到了結尾，可以先回傳，if(reach >= n - 1) return true;**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-04'
+    result: 對
+    reason: null

@@ -20,10 +20,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](../problems/0397.md) | O(logN) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（15）
+## 🟢 熟悉（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | Greedy | [C++](../problems/0055.md) | O(N) | O(1) | 2026-11-04 |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 Easy | Greedy | [C++](../problems/0605.md) | O(N) | O(1) | 2026-10-28 |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 Medium | Greedy | [C++](../problems/0624.md) | O(N) | O(1) | 2026-10-24 |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Greedy | [C++](../problems/0961.md) | O(N) | O(1) | 2026-10-24 |
