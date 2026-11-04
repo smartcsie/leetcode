@@ -5015,10 +5015,11 @@
 
 <h1 id="55-jump-game">55. Jump Game<a class="headerlink" href="#55-jump-game" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/jump-game/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Greedy　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟣 易忘</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Greedy　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-11-04</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：55. Jump Game</span>
@@ -5047,10 +5048,9 @@
 <a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/longest-palindrome/">Longest Palindrome</a><br>
-用一個maxReach更新最大能到達，maxReach = max(maxReach, i + nums[i]);<br>
-如果 i &gt; maxReach表示不可到達，if(i &gt; maxReach) return false;<br>
-如果到了結尾，可以先回傳，if(maxReach &gt;= n - 1) return true;<br></p>
+<p><strong>用一個reach更新最大能到達，reach = max(reach, i + nums[i]);</strong><br>
+<strong>如果 i &gt; reach表示不可到達，if(i &gt; reach) return false;</strong><br>
+<strong>如果到了結尾，可以先回傳，if(reach &gt;= n - 1) return true;</strong><br></p>
 </blockquote>
 
 
