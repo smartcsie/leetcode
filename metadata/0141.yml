@@ -15,8 +15,6 @@ solutions:
   mastered_date: '2026-09-16'
   related:
   - 876
-  tricks:
-  - list fast slow pointer
   attempts:
   - date: '2026-09-16'
     result: 對
@@ -24,4 +22,8 @@ solutions:
   - date: '2026-09-18'
     result: 對
     reason: null
+  - date: '2026-11-04'
+    result: 對
+    reason: null
   is_representative: true
+  representative_tag: List fast slow pointer
