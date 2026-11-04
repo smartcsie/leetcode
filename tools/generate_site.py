@@ -633,6 +633,8 @@ def build_topic_index_page(problems, docs_dir):
 
     for problem in problems:
         for sol in problem.get('solutions', []) or []:
+            if not sol.get('is_representative'):
+                continue  # 只留手動標記的代表題
             latest_date = get_latest_attempt_date(sol)
             if not latest_date:
                 continue  # 這個解法變體沒有複習日期，跳過
