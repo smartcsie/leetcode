@@ -5,12 +5,14 @@ solutions:
 - file: Solution_2182.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy
-  - String
-  - Two Pointers
-  - Counting
+  - Greedy String Construction
   topics:
   - greedy-string-construction
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-04'
+  attempts:
+  - date: '2026-11-04'
+    result: 對
+    reason: null

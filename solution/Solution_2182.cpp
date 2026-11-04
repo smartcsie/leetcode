@@ -1,57 +1,47 @@
 /**
  * 題目：2182. Construct String With Repeat Limit
  * 難度：中等 (Medium)
- * 描述：給你一個字串 s 和一個整數 repeatLimit。構造一個新字串，
- * 使任何字元連續出現的次數不超過 repeatLimit，並讓新字串的字典序盡可能大。
+ * 描述：給定一個字串 s 和整數 repeatLimit，重新排列 s 中的字元，
+ * 使得相同字元連續出現次數不超過 repeatLimit，並回傳字典序最大的結果。
  *
- * 時間複雜度：O(N)
- * 空間複雜度：O(1)
+ * 時間複雜度：O(N + 26²)
+ * 空間複雜度：O(26)
  *
  * 解法思路：
- * 1. 頻率統計：使用大小為 26 的陣列 `counts` 統計字串 s 中每個字母（'a'-'z'）出現的次數。
- * 2. 貪心逆向遍歷（從大到小）：
- * - 從字典序最大（'z' 對應的 25）開始處理，用 `cur` 代表當前要放入的大字元。
- * - 使用另一個指針 `next` 來找次大的字元，用來在當前大字元達到 `repeatLimit` 限制時「插花」阻斷連續性。
- * 3. 迴圈建構：
- * - 每次盡可能放入最多達 `repeatLimit` 個當前字元 `cur`。
- * - 如果 `cur` 還沒用完，代表遇到瓶頸，此時必須借用一個 `next` 字元（找下一個還有剩的較小字元）放進去打破連續限制。
- * - 若連 `next` 都找不到了（小於 0），說明無法繼續構造，直接結束。
+ * （Greedy，從最大字元開始貪婪填入）：
+ * 1. 統計每個字元的出現次數。
+ * 2. 從字典序最大的字元（z）開始，每次最多填入 repeatLimit 個。
+ * 3. 若該字元還有剩餘，插入一個次大的字元作為間隔，再繼續填入。
+ * 4. 若找不到間隔字元（次大字元已用完），則停止。
+ *
+ * 關鍵：間隔字元只插入一個，確保次大字元盡量保留給自己的輪次使用。
  */
-
 class Solution {
 public:
     string repeatLimitedString(string s, int repeatLimit) {
-        // 1. 統計 26 個字母的出現頻率
-        std::vector<int> counts(26, 0);
-        for (const char& c : s) {
-            counts[c - 'a']++;
-        }
-        std::string ans = "";
-        // 2. 從最大字元 (25, 即 'z') 開始往下降到 0 ('a')
-        for (int cur = 25, next = 24; cur >= 0; --cur) {
-            next = std::min(next, cur - 1);
-            while (true) {
-                // 計算當前最多可以放幾個連續的 cur 字元
-                int chars = std::min(counts[cur], repeatLimit);
-                for (int k = 0; k < chars; ++k) {
-                    ans += static_cast<char>('a' + cur);
-                    --counts[cur];
+        array<int, 26> counts = {};
+        for (char& c : s) counts[c - 'a']++;
+        string ans;
+        for (int i = 25; i >= 0; i--) {
+            if (counts[i] == 0) continue;
+            while (counts[i] > 0) {
+                // 最多填入 repeatLimit 個當前最大字元
+                int amount = min(repeatLimit, counts[i]);
+                ans += string(amount, 'a' + i);
+                counts[i] -= amount;
+
+                if (counts[i] > 0) {
+                    // 還有剩，找次大字元插入一個作為間隔
+                    char delimiter = 0;
+                    for (int j = i - 1; j >= 0; j--) {
+                        if (counts[j] == 0) continue;
+                        delimiter = 'a' + j;
+                        counts[j]--;
+                        break;
+                    }
+                    if (delimiter == 0) break;  // 沒有間隔字元，結束
+                    ans.push_back(delimiter);
                 }
-                // 如果當前字元已經用完，跳出內層 while，處理下一個更小的 cur
-                if (counts[cur] == 0) {
-                    break;
-                }
-                // 如果當前字元還沒用完（代表被 repeatLimit 擋住），必須找一個次大的字元來阻斷
-                while (next >= 0 && counts[next] == 0) {
-                    --next;
-                }
-                // 如果連次大字元也找光了，說明無法再插入阻斷，構造終止
-                if (next < 0) {
-                    break;
-                }
-                // 放入一個次大字元來打破連續限制
-                ans += static_cast<char>('a' + next);
-                --counts[next];
             }
         }
         return ans;
