@@ -71,6 +71,7 @@ GROUPS = [
     (r'^union-find$', '🕸️ Graph'),
     (r'^topological-sort$', '🕸️ Graph'),
     (r'^graph-shortest-path$', '🕸️ Graph'),
+    (r'^graph-mst$', '🕸️ Graph'),
     (r'^sorting', '📊 Sorting'),
     (r'^(dynamic-programming|dp-)', '🧩 Dynamic Programming'),
     (r'^greedy', '🧩 Greedy'),

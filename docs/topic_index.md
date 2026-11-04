@@ -907,6 +907,14 @@
 
 ---
 
+## 🕸️ Graph
+
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1584 | 👑 **MST**<br>[Minimum Cost to Connect All Points](https://leetcode.com/problems/minimum-cost-to-connect-all-points/) | 🟡 Medium | Graph Mst | [C++](problems/1584.md) | O(N²) | O(N) | 2026-10-30 |
+
+---
+
 ## 🎨 Design
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
@@ -988,14 +996,6 @@
 | 1985 | 👑 **nth_element lemma**<br>[Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | 🟡 Medium | Quick Select | [C++](problems/1985.md) | O(N) | O(1) | 2026-10-28 |
 | 2733 | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/) | 🟢 Easy | Quick Select | [C++](problems/2733.md) | O(N) | O(1) | 2026-10-29 |
 | 3759 | [Count Elements With at Least K Greater Values](https://leetcode.com/problems/count-elements-with-at-least-k-greater-values/) | 🟡 Medium | Quick Select | [C++](problems/3759.md) | O(N) | O(1) | 2026-10-28 |
-
----
-
-## 📄 Other
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1584 | 👑 **MST**<br>[Minimum Cost to Connect All Points](https://leetcode.com/problems/minimum-cost-to-connect-all-points/) | 🟡 Medium | Graph Mst | [C++](problems/1584.md) | O(N²) | O(N) | 2026-10-30 |
 
 ---
 
