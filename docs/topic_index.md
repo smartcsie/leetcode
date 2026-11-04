@@ -712,6 +712,7 @@
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | Dp Lcs | [C++](problems/0072.md) | O(N\*M) | O(N\*M) | 2026-11-03 |
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0091.md) | O(N) | O(N) | 2026-10-04 |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](problems/0096.md) | O(N²) | O(N) | 2026-10-04 |
+| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | Dp Kadane, Array | [C++](problems/0152.md) | O(N) | O(1) | 2026-11-04 |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0198.md) | O(N) | O(1) | 2026-11-03 |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0198.md) | O(N) | O(N) | 2026-11-03 |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | Dp Fibonacci | [C++](problems/0213.md) | O(N) | O(1) | 2026-11-03 |
