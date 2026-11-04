@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 994 題　🔴 生疏：204 題　🟠 再練習：27 題　🟡 練習過：43 題　🟣 易忘：105 題　🟢 熟練：615 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 994 題　🔴 生疏：204 題　🟠 再練習：27 題　🟡 練習過：43 題　🟣 易忘：104 題　🟢 熟練：616 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 400 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 399 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（78）](#review-dynamic-programming)　[🧩 Greedy（41）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（78）](#review-dynamic-programming)　[🧩 Greedy（40）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -427,7 +427,7 @@
 | 🟣 易忘 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) | 2026-10-04 |
 
 <a id="review-greedy"></a>
-#### 🧩 Greedy（41）
+#### 🧩 Greedy（40）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -470,7 +470,6 @@
 | 🔴 生疏 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 Medium | Array, Greedy, Bit Manipulation | [C++](problems/3011.md) | O(N) | O(1) |  |
 | 🟣 易忘 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 Medium | Greedy | [C++](problems/0055.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 Medium | Greedy, Bit Manipulation | [C++](problems/0397.md) | O(logN) | O(1) | 2026-10-04 |
-| 🟣 易忘 | 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](problems/2571.md) | O(logN) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy, Math, Brainteaser | [C++](problems/2745.md) | O(1) | O(1) | 2026-10-04 |
 
 <a id="review-backtracking"></a>
@@ -596,7 +595,7 @@
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-mst](topics/graph-mst.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 2 | 0 | 0 | 3 | 12 | 0 | 17 |
+| [greedy](topics/greedy.md) | 2 | 0 | 0 | 2 | 13 | 0 | 17 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 2 | 0 | 1 | 0 | 6 | 0 | 9 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 3 | 0 | 0 | 0 | 1 | 0 | 4 |

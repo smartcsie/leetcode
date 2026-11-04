@@ -21,23 +21,18 @@
 class Solution {
 public:
     int minOperations(int n) {
-        int ans = 0;
-        while (n > 0) {
-            // 情況一：結尾是 '11' (二進位末兩位為 3)，選擇加 1 以合併連續的 1
-            if ((n & 3) == 3) {
+        int ops = 0;
+        while(n > 0) {
+            if((n & 3) == 3) {
                 n += 1;
-                ans += 1;
-            } 
-            // 情況二：結尾是單獨的 '1' (奇數)，選擇減 1 消除該 bit
-            else if (n % 2 == 1) { // 也可以寫成 (n & 1)
+                ops++;
+            } else if((n & 3) == 1) {
                 n -= 1;
-                ans += 1;
-            } 
-            // 情況三：結尾是 '0' (偶數)，直接右移跳過
-            else {
+                ops++;
+            } else {
                 n >>= 1;
             }
         }
-        return ans;
+        return ops;
     }
 };

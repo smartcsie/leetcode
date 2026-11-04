@@ -780,7 +780,7 @@
 | 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | 🟢 Easy | Greedy Digit Construction | [C++](problems/2259.md) | O(N) | O(N) | 2026-10-24 |
 | 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/2279.md) | O(N log N) | O(N) | 2026-10-30 |
 | 2554 | [Maximum Number of Integers to Choose From a Range I](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/) | 🟡 Medium | Greedy Selection Constraints | [C++](problems/2554.md) | O(N+M) | O(M) | 2026-10-24 |
-| 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy, Bit Manipulation, Dynamic Programming | [C++](problems/2571.md) | O(logN) | O(1) | 2026-10-04 |
+| 2571 | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) | 🟡 Medium | Greedy | [C++](problems/2571.md) | O(logN) | O(1) | 2026-11-04 |
 | 2578 | [Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum/) | 🟢 Easy | Greedy Digit Construction | [C++](problems/2578.md) | O(NlogN) | O(N) | 2026-10-24 |
 | 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 Easy | Greedy | [C++](problems/2600.md) | O(1) | O(1) | 2026-10-24 |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | Greedy Validity Repair | [C++](problems/2645.md) | O(N) | O(1) | 2026-10-24 |
