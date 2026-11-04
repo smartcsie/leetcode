@@ -38,7 +38,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14 | 👑 **Longest Common Prefix**<br>[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 Easy | String | [C++](problems/0014.md) | O(S) | O(1) | 2026-10-19 |
-| 28 | 👑<br>[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String Kmp, KMP | [C++](problems/0028.md) | O(N\*M) | O(1) | 2026-10-04 |
+| 28 | 👑 **KMP**<br>[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String Kmp | [C++](problems/0028.md) | O(N\*M) | O(1) | 2026-11-04 |
 | 434 | 👑 **String Segments**<br>[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 Easy | String Character Classification | [C++](problems/0434.md) | O(N) | O(1) | 2026-09-25 |
 | 500 | 👑 **static constexpr string_view**<br>[Keyboard Row](https://leetcode.com/problems/keyboard-row/) | 🟢 Easy | String | [C++](problems/0500.md) | O(L) | O(1) | 2026-10-28 |
 | 520 | 👑 **count_if**<br>[Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 Easy | String Character Classification | [C++](problems/0520.md) | O(N) | O(1) | 2026-09-20 |

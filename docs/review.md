@@ -120,7 +120,7 @@
 | 🟠 再練習 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 Medium | String, String | [C++](problems/1910.md) | O(N\*M) | O(N) | 2026-10-04 |
 | 🟠 再練習 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](problems/1957.md) | O(N) | O(N) | 2026-10-04 |
 | 🟠 再練習 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 Easy | String Character Classification, Two Pointers | [C++](problems/3775.md) | O(N\*L) | O(N) | 2026-10-04 |
-| 🟣 易忘 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String Kmp, KMP | [C++](problems/0028.md) | O(N\*M) | O(1) | 2026-10-04 |
+| 🟣 易忘 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | String Kmp | [C++](problems/0028.md) | O(N\*M) | O(1) | 2026-11-04 |
 | 🟣 易忘 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 Medium | String, String | [C++](problems/0043.md) | O(M\*N) | O(M+N) | 2026-10-04 |
 | 🟣 易忘 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 Hard | String State Machine, State Machine | [C++](problems/0065.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 Easy | String | [C++](problems/0557.md) | O(N) | O(1) | 2026-10-21 |
