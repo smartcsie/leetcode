@@ -21,16 +21,19 @@
  *    - 迴圈結束後，把目前剩下的 finalSum（此時必為偶數，且必定大於前面已使用過的所有偶數）
  *      直接當作最後一個拆分出的偶數，加入答案陣列。
  */
+
+
 class Solution {
 public:
     vector<long long> maximumEvenSplit(long long finalSum) {
+        if(finalSum & 1) return {};
         vector<long long> ans;
-        if(finalSum % 2) return ans;
-        for (long long even = 2; finalSum - even >= even + 2; even += 2) {
+        long long need = finalSum;
+        for(long long even = 2; need - even >= even + 2; even += 2) {
             ans.push_back(even);
-            finalSum -= even;
+            need -=even;
         }
-        ans.push_back(finalSum);
+        ans.push_back(need);
         return ans;
     }
 };
