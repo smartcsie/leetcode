@@ -24,6 +24,9 @@ solutions:
   - date: '2026-10-19'
     result: 對
     reason: null
+  - date: '2026-11-04'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Kadane
 - file: Solution_0053_1.cpp
@@ -34,7 +37,8 @@ solutions:
   - dp-kadane
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-11-04'
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -43,5 +47,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-19'
+    result: 對
+    reason: null
+  - date: '2026-11-04'
     result: 對
     reason: null

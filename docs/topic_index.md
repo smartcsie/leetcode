@@ -701,8 +701,8 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 53 | 👑 **Kadane**<br>[Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dp Kadane | [C++](problems/0053.md) | O(N) | O(1) | 2026-10-19 |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dp Kadane | [C++](problems/0053.md) | O(N) | O(N) | 2026-10-19 |
+| 53 | 👑 **Kadane**<br>[Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dp Kadane | [C++](problems/0053.md) | O(N) | O(1) | 2026-11-04 |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dp Kadane | [C++](problems/0053.md) | O(N) | O(N) | 2026-11-04 |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 Medium | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](problems/0063.md) | O(M\*N) | O(N) | 2026-10-04 |
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | Dp Grid Path | [C++](problems/0064.md) | O(M\*N) | O(1) | 2026-11-03 |
 | 70 | 👑 **Fibonacci**<br>[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci, DP, Unbounded Knapsack (Permutation) | [C++](problems/0070.md) | O(N) | O(1) | 2026-09-25 |
