@@ -28,15 +28,6 @@
 class Solution {
 public:
     int longestString(int x, int y, int z) {
-        // 取 x 和 y 的最小值，用來交替配對成 AABB
-        const int mn = std::min(x, y);
-        
-        // 如果 x 和 y 數量相等，可以完美交替 (例如 AABBAABB)
-        if (x == y) {
-            return (mn * 2 + z) * 2;
-        }
-        
-        // 如果 x 和 y 數量不等，其中一方可以多放一個 (例如 AABBAABBAA 或 BBAABBAABB)
-        return (mn * 2 + 1 + z) * 2;
+        return (x == y) ? 2 * (x + y + z) : 2 * (2 * min(x, y) + 1+ z);
     }
 };

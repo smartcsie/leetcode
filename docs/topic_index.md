@@ -111,6 +111,7 @@
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math Prime, Trial Division | [C++](problems/2614.md) | O(N\*sqrt(M)) | O(1) | 2026-09-23 |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | Math Formula | [C++](problems/2645.md) | O(N) | O(1) | 2026-10-24 |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 Easy | Math, Brute Force | [C++](problems/2652.md) | O(N) | O(1) | 2026-09-16 |
+| 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Math | [C++](problems/2745.md) | O(1) | O(1) | 2026-11-04 |
 | 2761 | 👑 **Sieve Algorithm**<br>[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math Prime, Sieve | [C++](problems/2761.md) | O(NloglogN) | O(N) | 2026-10-08 |
 | 2807 | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/) | 🟡 Medium | Math Geometry | [C++](problems/2807.md) | O(N) | O(N) | 2026-09-23 |
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](problems/2843.md) | O(N\*D) | O(1) | 2026-09-16 |
@@ -785,7 +786,6 @@
 | 2600 | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/) | 🟢 Easy | Greedy | [C++](problems/2600.md) | O(1) | O(1) | 2026-10-24 |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | Greedy Validity Repair | [C++](problems/2645.md) | O(N) | O(1) | 2026-10-24 |
 | 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 Easy | Greedy | [C++](problems/2656.md) | O(N) | O(1) | 2026-09-25 |
-| 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 Medium | Greedy, Math, Brainteaser | [C++](problems/2745.md) | O(1) | O(1) | 2026-10-04 |
 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 Easy | Greedy | [C++](problems/2815.md) | O(N\*D) | O(1) | 2026-10-30 |
 | 2864 | 👑 **String Concatenation**<br>[Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 Easy | Greedy String Construction | [C++](problems/2864.md) | O(N) | O(1) | 2026-10-18 |
 | 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/2966.md) | O(NlogN) | O(1) | 2026-10-24 |
