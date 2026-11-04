@@ -14,12 +14,17 @@ solutions:
   mastered_date: '2026-09-14'
   note: '> **如果p q 都為空，回傳true**<br>
 
-    > **p q 不為空且值相等且 isSameTree(p左子樹和q左子樹) 且 isSameTree(p右子樹和q右子樹)**<br>'
+    > **p q 不為空且值相等且 isSameTree(p左子樹和q左子樹) 且 isSameTree(p右子樹和q右子樹)**<br>
+
+    > ****<br>'
   is_best: true
   related:
   - 101
   - 572
   attempts:
   - date: '2026-09-14'
+    result: 對
+    reason: null
+  - date: '2026-11-04'
     result: 對
     reason: null
