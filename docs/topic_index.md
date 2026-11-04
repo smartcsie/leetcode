@@ -107,7 +107,6 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 34 | 👑 **lower_bound,upper_bound**<br>[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | 🟡 Medium | Binary Search Build In | [C++](problems/0034.md) | O(logN) | O(1) | 2026-09-15 |
-| 69 | 👑<br>[Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | Binary Search | [C++](problems/0069.md) | O(logN) | O(1) | 2026-10-04 |
 | 278 | 👑 **Binary Search Find Left Bound**<br>[First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | Binary Search Find Left Bound | [C++](problems/0278.md) | O(logN) | O(1) | 2026-09-26 |
 | 300 | 👑 **LIS**<br>[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search Build In, Binary Search | [C++](problems/0300.md) | O(NlogN) | O(N) | 2026-11-03 |
 | 704 | 👑 **Binary Search**<br>[Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](problems/0704.md) | O(logN) | O(1) | 2026-09-14 |
