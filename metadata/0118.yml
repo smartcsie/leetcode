@@ -6,9 +6,14 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array
-  - DP
   topics:
   - dynamic-programming
   time: O(N²)
   space: O(1)
   familiarity: 生疏
+  attempts:
+  - date: '2026-11-04'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Pascal’s triangle

@@ -11,6 +11,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 50 | 👑 **Fast exponentiation**<br>[Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math | [C++](problems/0050.md) | O(logN) | O(1) | 2026-11-04 |
 | 62 | 👑 **DP on Grid**<br>[Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination | [C++](problems/0062.md) | O(min(M,N)) | O(1) | 2026-10-08 |
 | 67 | 👑 **String Number Addition**<br>[Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](problems/0067.md) | O(max(M,N)) | O(1) | 2026-10-17 |
 | 204 | 👑 **Prime / Sieve**<br>[Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math Prime, Sieve | [C++](problems/0204.md) | O(NloglogN) | O(N) | 2026-10-16 |
@@ -111,6 +112,7 @@
 | 278 | 👑 **Binary Search Find Left Bound**<br>[First Bad Version](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | Binary Search Find Left Bound | [C++](problems/0278.md) | O(logN) | O(1) | 2026-09-26 |
 | 300 | 👑 **LIS**<br>[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence) | 🟡 Medium | Binary Search Build In, Binary Search | [C++](problems/0300.md) | O(NlogN) | O(N) | 2026-11-03 |
 | 704 | 👑 **Binary Search**<br>[Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 Easy | Binary Search | [C++](problems/0704.md) | O(logN) | O(1) | 2026-09-14 |
+| 1201 | 👑 **Inclusion–exclusion**<br>[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/) | 🟡 Medium | Binary Search | [C++](problems/1201.md) | O(log(2E9)) | O(1) | 2026-11-04 |
 
 ---
 
@@ -145,6 +147,7 @@
 | 167 | 👑 **Two Pointers Opposite**<br>[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) | 2026-11-04 |
 | 344 | 👑 **Two Pointers Swap**<br>[Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0344.md) | O(N) | O(1) | 2026-09-15 |
 | 392 | 👑 **Two Pointers Same**<br>[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/0392.md) | O(N) | O(1) | 2026-09-15 |
+| 633 | 👑 **Fermat’s theorem on sums of two squares**<br>[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0633.md) | O(√C) | O(1) | 2026-11-04 |
 | 917 | 👑 **Two Pointers Swap**<br>[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0917.md) | O(N) | O(1) | 2026-09-16 |
 | 3823 | 👑 **char ispunct**<br>[Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 Easy | Two Pointers Swap | [C++](problems/3823.md) | O(N) | O(1) | 2026-10-13 |
 
@@ -174,6 +177,8 @@
 | 53 | 👑 **Kadane**<br>[Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 Medium | Dp Kadane | [C++](problems/0053.md) | O(N) | O(1) | 2026-11-04 |
 | 70 | 👑 **Fibonacci**<br>[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci, DP, Unbounded Knapsack (Permutation) | [C++](problems/0070.md) | O(N) | O(1) | 2026-09-25 |
 | 96 | 👑 **Catalan numbers**<br>[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 Medium | Dynamic Programming, Math | [C++](problems/0096.md) | O(N²) | O(N) | 2026-11-04 |
+| 118 | 👑 **Pascal’s triangle**<br>[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 Easy | Array | [C++](problems/0118.md) | O(N²) | O(1) | 2026-11-04 |
+| 279 | 👑 **Lagrange’s four-square theorem**<br>[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | Dp Knapsack, Unbounded Knapsack | [C++](problems/0279.md) | O(N\*√N) | O(N) | 2026-11-04 |
 | 1143 | 👑 **LCS**<br>[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dp Lcs | [C++](problems/1143.md) | O(M\*N) | O(M\*N) | 2026-11-03 |
 
 ---
