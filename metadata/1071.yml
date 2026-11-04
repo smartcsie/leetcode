@@ -6,8 +6,6 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Gcd
-  - String
-  - GCD
   topics:
   - math-gcd
   time: O(N+M)
@@ -21,3 +19,8 @@ solutions:
   - date: '2026-10-08'
     result: 對
     reason: null
+  - date: '2026-11-04'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Euclidean algorithm
