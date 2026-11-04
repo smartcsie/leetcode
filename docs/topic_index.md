@@ -121,7 +121,6 @@
 | 205 | 👑 **Strings Isomorphic**<br>[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 Easy | Hash Table Mapping, Hash Table | [C++](problems/0205.md) | O(N) | O(1) | 2026-09-16 |
 | 217 | 👑 **unordered_set**<br>[Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0217.md) | O(N) | O(N) | 2026-09-26 |
 | 217 | 👑 **unique**<br>[Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 Easy | Hash Table Uniqueness | [C++](problems/0217.md) | O(NlogN) | O(logN) | 2026-09-26 |
-| 219 | 👑<br>[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table Existence | [C++](problems/0219.md) | O(N) | O(min(N,K)) | 2026-10-16 |
 | 383 | 👑 **compare count one side limit**<br>[Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 Easy | Hash Table Intersection, Hash Table | [C++](problems/0383.md) | O(M+N) | O(1) | 2026-09-20 |
 | 819 | 👑 **vector transform**<br>[Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 Easy | Hash Table Counting, Hash Table | [C++](problems/0819.md) | O(M+N) | O(M+N) | 2026-10-07 |
 | 1496 | 👑 **vector has no built-in hash, use set instead of unordered_set.**<br>[Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Table Uniqueness, Hash Set, Coordinates | [C++](problems/1496.md) | O(N) | O(N) | 2026-10-05 |
