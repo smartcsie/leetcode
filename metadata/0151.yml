@@ -19,6 +19,9 @@ solutions:
   - date: '2026-10-21'
     result: 對
     reason: null
+  - date: '2026-11-04'
+    result: 對
+    reason: null
 - file: Solution_0151_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -39,4 +42,8 @@ solutions:
   - date: '2026-10-21'
     result: 對
     reason: null
+  - date: '2026-11-04'
+    result: 對
+    reason: null
   is_representative: true
+  representative_tag: String reverse

@@ -140,8 +140,8 @@
 | 27 | 👑 **Fast Slow Pointer Swap**<br>[Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0027.md) | O(N) | O(1) | 2026-10-22 |
 | 75 | 👑 **Dutch National Flag Problem**<br>[Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 Medium | Two Pointers Partition | [C++](problems/0075.md) | O(N) | O(1) | 2026-10-20 |
 | 141 | 👑 **List fast slow pointer**<br>[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 Easy | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0141.md) | O(N) | O(1) | 2026-11-04 |
-| 151 | 👑<br>[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Two Pointers Same | [C++](problems/0151.md) | O(N) | O(1) | 2026-10-21 |
-| 167 | 👑<br>[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) | 2026-09-24 |
+| 151 | 👑 **String reverse**<br>[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | Two Pointers Same | [C++](problems/0151.md) | O(N) | O(1) | 2026-11-04 |
+| 167 | 👑 **Two Pointers Opposite**<br>[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 Medium | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) | 2026-11-04 |
 | 344 | 👑 **Two Pointers Swap**<br>[Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0344.md) | O(N) | O(1) | 2026-09-15 |
 | 392 | 👑 **Two Pointers Same**<br>[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Two Pointers Same, Two Pointers | [C++](problems/0392.md) | O(N) | O(1) | 2026-09-15 |
 | 917 | 👑 **Two Pointers Swap**<br>[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 Easy | Two Pointers Swap, Two Pointers | [C++](problems/0917.md) | O(N) | O(1) | 2026-09-16 |
