@@ -21,7 +21,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | Design, Stack | [C++](../problems/0173.md) | O(1) | O(H) | 2026-10-04 |
-| 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](../problems/0208.md) | O(L) | O(N \* L) | 2026-10-04 |
+| 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](../problems/0208.md) | O(L) | O(N \* L) | 2026-11-04 |
 
 ## 🟢 熟悉（5）
 
