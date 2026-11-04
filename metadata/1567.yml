@@ -6,10 +6,13 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Dp Kadane
-  - Dynamic Programming Kadane
   topics:
   - dp-kadane
   time: O(N)
   space: O(1)
-  familiarity: 練習過
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-11-04'
+  attempts:
+  - date: '2026-11-04'
+    result: 對
+    reason: null

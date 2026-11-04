@@ -734,6 +734,7 @@
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci, DP | [C++](problems/1137.md) | O(N) | O(1) | 2026-09-26 |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 Easy | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](problems/1137.md) | O(N) | O(N) | 2026-09-26 |
 | 1143 | 👑 **LCS**<br>[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence) | 🟡 Medium | Dp Lcs | [C++](problems/1143.md) | O(M\*N) | O(M\*N) | 2026-11-03 |
+| 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 Medium | Dp Kadane | [C++](problems/1567.md) | O(N) | O(1) | 2026-11-04 |
 
 ---
 
