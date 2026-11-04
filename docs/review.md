@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 994 題　🔴 生疏：201 題　🟠 再練習：27 題　🟡 練習過：42 題　🟣 易忘：102 題　🟢 熟練：622 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 994 題　🔴 生疏：201 題　🟠 再練習：27 題　🟡 練習過：42 題　🟣 易忘：101 題　🟢 熟練：623 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 393 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 392 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（34）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（35）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（33）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（5）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（35）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[📄 Other（1）](#review-other)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -25,7 +25,7 @@
 | 🟣 易忘 | 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](problems/0208.md) | O(L) | O(N \* L) | 2026-10-04 |
 
 <a id="review-math"></a>
-#### 🔢 Math（34）
+#### 🔢 Math（33）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -42,7 +42,6 @@
 | 🟣 易忘 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math Permutation, Factorial | [C++](problems/0060.md) | O(N²) | O(N) | 2026-10-04 |
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](problems/0342.md) | O(1) | O(1) | 2026-10-08 |
 | 🟣 易忘 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](problems/0343.md) | O(1) | O(1) | 2026-10-04 |
-| 🟣 易忘 | 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | Math Combination, Combinatorics | [C++](problems/0357.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](problems/0396.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 Easy | Math Formula, Binary Search | [C++](problems/0441.md) | O(logN) | O(1) | 2026-10-18 |
 | 🟣 易忘 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | Math Game Theory, Game Theory | [C++](problems/0810.md) | O(N) | O(1) | 2026-10-04 |
@@ -614,7 +613,7 @@
 | [linked-list](topics/linked-list.md) | 0 | 2 | 3 | 4 | 8 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [math](topics/math.md) | 0 | 4 | 0 | 9 | 26 | 0 | 39 |
-| [math-combination](topics/math-combination.md) | 0 | 2 | 1 | 2 | 0 | 0 | 5 |
+| [math-combination](topics/math-combination.md) | 0 | 2 | 1 | 1 | 1 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 0 | 0 | 2 | 40 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 0 | 0 | 2 | 2 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 0 | 0 | 0 | 3 | 6 | 0 | 9 |
