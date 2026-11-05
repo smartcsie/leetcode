@@ -10,24 +10,15 @@ solutions:
   - hash-table-existence
   time: O(NlogN)
   space: O(N)
-  familiarity: 易忘
-  note: '> 兩種做法<br>
-
-    > 或是存數對的前面<br>
-
-    > if(seen.count(x - k))  ans.insert(x - k);<br>
-
-    > if(seen.count(x + k))  ans.insert(x);<br>
-
-    > 或是存數對的後面<br>
-
-    > if(seen.count(x - k))  ans.insert(x);<br>
-
-    > if(seen.count(x + k))  ans.insert(x + k);<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-05'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-11-05'
     result: 對
     reason: null

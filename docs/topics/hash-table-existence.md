@@ -18,20 +18,20 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | 🟢 Easy | Hash Table Existence | [C++](../problems/0594.md) | O(N) | O(N) |  |
 
-## 🟣 易忘（2）
+## 🟣 易忘（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) | 2026-10-04 |
-| 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Existence | [C++](../problems/0532.md) | O(NlogN) | O(N) | 2026-10-07 |
 
-## 🟢 熟悉（15）
+## 🟢 熟悉（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Table Existence | [C++](../problems/0001.md) | O(N) | O(N) | 2026-09-15 |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 Easy | Hash Table Existence | [C++](../problems/0160.md) | O(M + N) | O(M) | 2026-10-21 |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 Easy | Hash Table Existence | [C++](../problems/0219.md) | O(N) | O(min(N,K)) | 2026-11-04 |
+| 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 Medium | Hash Table Existence | [C++](../problems/0532.md) | O(NlogN) | O(N) | 2026-11-05 |
 | 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 Easy | Hash Table Existence | [C++](../problems/0888.md) | O(A+B) | O(B) | 2026-09-17 |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 Easy | Hash Table Existence, Hash Table | [C++](../problems/1346.md) | O(N) | O(N) |  |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 Easy | Hash Table Existence | [C++](../problems/1640.md) | O(N) | O(N) | 2026-11-05 |
