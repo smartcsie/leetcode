@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 994 題　🔴 生疏：201 題　🟠 再練習：25 題　🟡 練習過：41 題　🟣 易忘：101 題　🟢 熟練：626 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 994 題　🔴 生疏：201 題　🟠 再練習：24 題　🟡 練習過：41 題　🟣 易忘：101 題　🟢 熟練：627 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 389 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 388 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（30）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（35）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（30）](#review-math)　[📊 Bit Manipulation（35）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（11）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（34）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -423,13 +423,12 @@
 | 🟣 易忘 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 Easy | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) | 2026-10-04 |
 
 <a id="review-greedy"></a>
-#### 🧩 Greedy（35）
+#### 🧩 Greedy（34）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟡 練習過 | 402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | 🟡 Medium | Greedy Digit Construction | [C++](problems/0402.md) | O(N) | O(N) |  |
 | 🟡 練習過 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 Easy | Greedy Sorting Decision, Sorting | [C++](problems/1005.md) | O(NlogN) | O(1) |  |
-| 🟠 再練習 | 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 Medium | Greedy, State Machine | [C++](problems/1529.md) | O(N) | O(1) | 2026-10-04 |
 | 🔴 生疏 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | 🟡 Medium | Greedy Prefix Suffix | [C++](problems/0045.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 135 | [Candy](https://leetcode.com/problems/candy/) | 🔴 Hard | Greedy Fractional Knapsack | [C++](problems/0135.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | 🟡 Medium | Greedy Sorting Decision | [C++](problems/0406.md) | O(N²) | O(N) |  |
@@ -589,7 +588,7 @@
 | [greedy-job-sequencing](topics/greedy-job-sequencing.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [greedy-optimal-partitioning](topics/greedy-optimal-partitioning.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-parity-contribution](topics/greedy-parity-contribution.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
-| [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 1 | 0 | 0 | 1 | 0 | 5 |
+| [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 0 | 0 | 0 | 2 | 0 | 5 |
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 0 | 0 | 2 | 0 | 6 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 3 | 0 | 0 | 0 | 1 | 0 | 4 |
 | [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 0 | 1 | 0 | 12 | 0 | 15 |
