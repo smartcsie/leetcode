@@ -10,4 +10,11 @@ solutions:
   - greedy-prefix-suffix
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-05'
+  related:
+  - 55
+  attempts:
+  - date: '2026-11-05'
+    result: 對
+    reason: null
