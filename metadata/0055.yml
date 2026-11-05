@@ -17,10 +17,15 @@ solutions:
     > **如果 i > reach表示不可到達，if(i > reach) return false;**<br>
 
     > **如果到了結尾，可以先回傳，if(reach >= n - 1) return true;**<br>'
+  related:
+  - 45
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-11-04'
+    result: 對
+    reason: null
+  - date: '2026-11-05'
     result: 對
     reason: null
