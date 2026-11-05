@@ -6,9 +6,14 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Combination
-  - Combinatorics
   topics:
   - math-combination
   time: O(N)
   space: O(1)
   familiarity: 練習過
+  attempts:
+  - date: '2026-11-05'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Combination C(n,2)
