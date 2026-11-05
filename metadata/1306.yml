@@ -16,3 +16,20 @@ solutions:
   - date: '2026-11-05'
     result: 對
     reason: null
+  - date: '2026-11-05'
+    result: 對
+    reason: null
+- file: Solution_1306_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Graph Dfs
+  topics:
+  - graph-dfs
+  time: O(N)
+  space: O(N)
+  familiarity: 熟練
+  mastered_date: '2026-11-05'
+  attempts:
+  - date: '2026-11-05'
+    result: 對
+    reason: null

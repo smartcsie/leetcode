@@ -574,7 +574,7 @@
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 0 | 0 | 1 | 2 | 9 | 0 | 12 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 0 | 10 |
 | [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
-| [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
 | [graph-mst](topics/graph-mst.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [greedy](topics/greedy.md) | 1 | 0 | 0 | 2 | 16 | 0 | 19 |
