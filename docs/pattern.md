@@ -6,7 +6,9 @@
 
 ---
 
-## Binary_Search.cpp
+## 二分搜尋
+
+### Binary Search
 
 ```cpp
 int binarySearch(vector<int>& nums, int target) {
@@ -27,7 +29,7 @@ int binarySearch(vector<int>& nums, int target) {
 }
 ```
 
-## Binary_Search_Open.cpp
+### Binary Search Open
 
 ```cpp
 int binarySearch(vector<int>& nums, int target) {
@@ -46,32 +48,19 @@ int binarySearch(vector<int>& nums, int target) {
 }
 ```
 
-## Bitmask_Subset_Enumeration.cpp
+---
+
+## 數論／數學
+
+### GCD
 
 ```cpp
-for (int mask = 0; mask < (1 << n); mask++) {
-    for (int i = 0; i < n; i++) {
-        if (mask & (1 << i)) {
-            // 第 i 個元素被選中
-        }
-    }
+int gcd(int a, int b) {
+    return b == 0 ? abs(a) : gcd(b, a % b);
 }
 ```
 
-## Brian_Kernighan.cpp
-
-```cpp
-int countSetBits(int n) {
-    int count = 0;
-    while (n > 0) {
-        n &= (n - 1); // Clears the rightmost set bit
-        count++;
-    }
-    return count;
-}
-```
-
-## Combination.cpp
+### Combination
 
 ```cpp
 long C(int n, int k) {
@@ -85,7 +74,7 @@ long C(int n, int k) {
 }
 ```
 
-## Factor_Enumeration.cpp
+### Factor Enumeration
 
 ```cpp
 vector<int> factor(int n) {
@@ -100,15 +89,120 @@ vector<int> factor(int n) {
 }
 ```
 
-## GCD.cpp
+### isPrime
 
 ```cpp
-int gcd(int a, int b) {
-    return b == 0 ? abs(a) : gcd(b, a % b);
+bool isPrime(int n) {
+    if (n < 2) return false;
+    if (n == 2 || n == 3) return true;
+    if (n % 2 == 0 || n % 3 == 0) return false; 
+    for (int i = 5; i * i <= n; i += 6) {
+        if (n % i == 0 || n % (i + 2) == 0) return false;
+    }
+    return true;
 }
 ```
 
-## Is_Subsequence.cpp
+### getPrimes
+
+```cpp
+vector<bool> getPrimes(int n) {
+    vector<bool> isPrime(n + 1, true);
+    isPrime[0] = false;
+    if (n >= 1) isPrime[1] = false;
+    for(int p = 2; p * p <= n; p++) {
+        if(isPrime[p]) {
+            for(int i = p * p; i <= n; i += p) {
+                isPrime[i] = false;
+            }
+        }
+    }
+    return isPrime;
+}
+```
+
+### getPrimeFactor
+
+```cpp
+unordered_set<int> getPrimeFactor(int n) {
+    unordered_set<int> fators;
+    for(int p = 2; p * p <= n; p++) {
+        while(n % p == 0) {
+            fators.insert(p);
+            n /= p;
+        }
+    }
+    if(n > 1) fators.insert(n);
+    return fators;
+}
+```
+
+### getPrimeFactors
+
+```cpp
+std::vector<int> getPrimeFactors(long long n) {
+    std::vector<int> result;
+    // 處理 2
+    while (n % 2 == 0) {
+        result.push_back(2);
+        n /= 2;
+    }
+    // 處理奇數因子
+    for (long long i = 3; i * i <= n; i += 2) {
+        while (n % i == 0) {
+            result.push_back(i);
+            n /= i;
+        }
+    }
+    // 處理剩下的質數
+    if (n > 1) result.push_back(n); 
+    return result;
+}
+```
+
+---
+
+## 位元運算
+
+### Bitmask Subset Enumeration
+
+```cpp
+for (int mask = 0; mask < (1 << n); mask++) {
+    for (int i = 0; i < n; i++) {
+        if (mask & (1 << i)) {
+            // 第 i 個元素被選中
+        }
+    }
+}
+```
+
+### Brian Kernighan
+
+```cpp
+int countSetBits(int n) {
+    int count = 0;
+    while (n > 0) {
+        n &= (n - 1); // Clears the rightmost set bit
+        count++;
+    }
+    return count;
+}
+```
+
+### isVowel
+
+```cpp
+static bool isVowel(char c) {
+    unsigned d = (c | 0x20) - 'a';             // 轉小寫後的字母序號
+    return d < 26 && ((0x104111 >> d) & 1);    // bit 0,4,8,14,20 = a,e,i,o,u
+}
+```
+
+---
+
+## 字串
+
+### Is Subsequence
 
 ```cpp
 bool isSubsequence(const string& s, const string& t) {
@@ -123,40 +217,53 @@ bool isSubsequence(const string& s, const string& t) {
 }
 ```
 
-## LCS
+### isPalindrome
 
 ```cpp
- int longestCommonSubsequence(string text1, string text2) {
-        string& s = text1;
-        string& t = text2;
-        int m = s.size(), n = t.size();
-        vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
-        for(int i = 1; i <= m; i++) {
-            for(int j = 1; j <= n; j++) {
-                if(s[i - 1] == t[j - 1]) dp[i][j] = dp[i - 1][j - 1] + 1;
-                else dp[i][j] = max(dp[i  - 1][j], dp[i][j - 1]);
-            }
+bool isPalindrome(const std::string &s) {
+    if (s.empty()) return true; // 空字串通常被定義為回文
+    int left = 0;
+    int right = static_cast<int>(s.length()) - 1;
+    while (left < right) {
+        if (s[left++] != s[right--]) {
+            return false;
         }
-        return dp[m][n];
     }
+    return true;
+}
 ```
 
-## Permutation
+---
+
+## 陣列／矩陣
+
+### prefixSum
 
 ```cpp
-void permute(vector<int>& nums, int start, vector<vector<int>>& res) {
-        if(start == nums.size()) {
-            res.emplace_back(nums);
-        }
-        for(int i = start; i < nums.size(); i++) {
-            swap(nums[start], nums[i]);
-            permute(nums, start + 1, res);
-            swap(nums[start], nums[i]);
-        }
-    }
+vector<int> prefixes(n + 1, 0);
+for(int i = 0; i < n; i++) {
+    prefixes[i + 1] = prefixes[i] + nums[i];
+}
 ```
 
-## Transport_Matrix.cpp
+### longestOnes
+
+```cpp
+class Solution {
+public:
+    int findMaxConsecutiveOnes(vector<int>& nums) {
+        int max_ones = 0;
+        int ones = 0;
+        for(const int& num : nums) {
+            ones = (num & 1) ? ones + 1 : 0;
+            max_ones = max(max_ones, ones);
+        }
+        return max_ones;
+    }
+};
+```
+
+### Transport Matrix
 
 ```cpp
 class Solution {
@@ -172,7 +279,11 @@ public:
 };
 ```
 
-## Tree_BFS.cpp
+---
+
+## 樹
+
+### Tree BFS
 
 ```cpp
 //不需要處理每一個level
@@ -198,7 +309,7 @@ vector<int> levelOrder(TreeNode *root) {
     vector<int> vec;
     while (!q.empty()) {
         // 每一個level 開始
-	      for(int = q.size() - 1; i >=0; i--) {
+	      for(int i = q.size() - 1; i >= 0; i--) {
             TreeNode *node = q.front();
             q.pop();              
             vec.push_back(node->val); 
@@ -210,126 +321,39 @@ vector<int> levelOrder(TreeNode *root) {
 }
 ```
 
-## getPrimeFactor
+---
+
+## 回溯／動態規劃
+
+### Permutation
 
 ```cpp
-unordered_set<int> getPrimeFactor(int n) {
-    unordered_set<int> fators;
-    for(int p = 2; p * p <= n; x++) {
-        while(n % x == 0) {
-            fators.insert(p);
-            n /= p;
+void permute(vector<int>& nums, int start, vector<vector<int>>& res) {
+        if(start == nums.size()) {
+            res.emplace_back(nums);
+        }
+        for(int i = start; i < nums.size(); i++) {
+            swap(nums[start], nums[i]);
+            permute(nums, start + 1, res);
+            swap(nums[start], nums[i]);
         }
     }
-    if(n > 1) fators.insert(n);
-    return fators;
-}
 ```
 
-## getPrimeFactors
+### LCS
 
 ```cpp
-std::vector<int> getPrimeFactors(long long n) {
-    std::vector<int> result;
-    // 處理 2
-    while (n % 2 == 0) {
-        result.push_back(2);
-        n /= 2;
-    }
-    // 處理奇數因子
-    for (long long i = 3; i * i <= n; i += 2) {
-        while (n % i == 0) {
-            result.push_back(i);
-            n /= i;
-        }
-    }
-    // 處理剩下的質數
-    if (n > 1) result.push_back(n); 
-    return result;
-}
-```
-
-## getPrimes.cpp
-
-```cpp
-vector<bool> getPrimes(int n) {
-    bitset<n + 1> isPrime;
-    isPrime.set();
-    isPrime.reset(0);
-    isPrime.reset(1);
-    for(int p = 2; p *p <= n; p++) {
-        if(isPrime[p]) {
-            for(int i = p*p; i <= n; i += p) {
-                isPrime.reset(i);;
+ int longestCommonSubsequence(string text1, string text2) {
+        string& s = text1;
+        string& t = text2;
+        int m = s.size(), n = t.size();
+        vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
+        for(int i = 1; i <= m; i++) {
+            for(int j = 1; j <= n; j++) {
+                if(s[i - 1] == t[j - 1]) dp[i][j] = dp[i - 1][j - 1] + 1;
+                else dp[i][j] = max(dp[i  - 1][j], dp[i][j - 1]);
             }
         }
+        return dp[m][n];
     }
-    return isPrime;
-}
 ```
-
-## isPalindrome
-
-```cpp
-bool isPalindrome(const std::string &s) {
-    if (s.empty()) return true; // 空字串通常被定義為回文
-    int left = 0;
-    int right = static_cast<int>(s.length()) - 1;
-    while (left < right) {
-        if (s[left++] != s[right--]) {
-            return false;
-        }
-    }
-    return true;
-}
-```
-
-## isPrime.cpp
-
-```cpp
-bool isPrime(int n) {
-    if (n < 2) return false;
-    if (n == 2 || n == 3) return true;
-    if (n % 2 == 0 || n % 3 == 0) return false; 
-    for (int i = 5; i * i <= n; i += 6) {
-        if (n % i == 0 || n % (i + 2) == 0) return false;
-    }
-    return true;
-}
-```
-
-## isVowel.cpp
-
-```cpp
-static bool isVowel(char c) {
-    int lower = c | 0x20;
-    return (0x104111 >> (c - 'a')) & 1;
-}
-```
-
-## longestOnes.cpp
-
-```cpp
-class Solution {
-public:
-    int findMaxConsecutiveOnes(vector<int>& nums) {
-        int max_ones = 0;
-        int ones = 0;
-        for(const int& num : nums) {
-            ones = (num & 1) ? ones + 1 : 0;
-            max_ones = max(max_ones, ones);
-        }
-        return max_ones;
-    }
-};
-```
-
-## prefixSum
-
-```cpp
-vector<int> prefixes(n + 1, 0);
-for(int i = 0; i < n; i++) {
-    prefixes[i + 1] = prefixes[i] + nums[i];
-}
-```
-
