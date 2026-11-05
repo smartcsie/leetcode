@@ -10,11 +10,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math Combination | [C++](../problems/3084.md) | O(N) | O(1) | 2026-10-12 |
 
-## 🟡 練習過（1）
+## 🟡 練習過（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 Easy | Math Combination | [C++](../problems/0119.md) | O(N) | O(1) | 2026-11-05 |
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（1）
 
@@ -22,9 +20,10 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Math Combination, Math (Contribution) | [C++](../problems/1588.md) | O(N) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination | [C++](../problems/0062.md) | O(min(M,N)) | O(1) | 2026-11-05 |
+| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 Easy | Math Combination | [C++](../problems/0119.md) | O(N) | O(1) | 2026-11-05 |
 | 357 | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/) | 🟡 Medium | Math Combination | [C++](../problems/0357.md) | O(N) | O(1) | 2026-11-04 |

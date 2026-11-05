@@ -10,10 +10,14 @@ solutions:
   - math-combination
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-11-05'
   related:
   - 62
   attempts:
+  - date: '2026-11-05'
+    result: 對
+    reason: null
   - date: '2026-11-05'
     result: 對
     reason: null
