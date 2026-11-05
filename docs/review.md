@@ -577,7 +577,7 @@
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-mst](topics/graph-mst.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 1 | 0 | 0 | 2 | 15 | 0 | 18 |
+| [greedy](topics/greedy.md) | 1 | 0 | 0 | 2 | 16 | 0 | 19 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 2 | 0 | 1 | 0 | 6 | 0 | 9 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 3 | 0 | 0 | 0 | 1 | 0 | 4 |
@@ -587,7 +587,7 @@
 | [greedy-job-sequencing](topics/greedy-job-sequencing.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [greedy-optimal-partitioning](topics/greedy-optimal-partitioning.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-parity-contribution](topics/greedy-parity-contribution.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
-| [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 2 | 0 | 0 | 0 | 3 | 0 | 5 |
+| [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 2 | 0 | 0 | 0 | 2 | 0 | 4 |
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 0 | 0 | 2 | 0 | 6 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 3 | 0 | 0 | 0 | 1 | 0 | 4 |
 | [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 0 | 1 | 0 | 12 | 0 | 15 |

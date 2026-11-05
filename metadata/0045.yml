@@ -5,9 +5,9 @@ solutions:
 - file: Solution_0045.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy Prefix Suffix
+  - Greedy
   topics:
-  - greedy-prefix-suffix
+  - greedy
   time: O(N)
   space: O(1)
   familiarity: 熟練
@@ -15,6 +15,9 @@ solutions:
   related:
   - 55
   attempts:
+  - date: '2026-11-05'
+    result: 對
+    reason: null
   - date: '2026-11-05'
     result: 對
     reason: null
