@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 994 題　🔴 生疏：200 題　🟠 再練習：24 題　🟡 練習過：41 題　🟣 易忘：101 題　🟢 熟練：628 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 995 題　🔴 生疏：200 題　🟠 再練習：24 題　🟡 練習過：41 題　🟣 易忘：101 題　🟢 熟練：629 題　⚪ 未標記：0 題
 
 ---
 
@@ -573,7 +573,7 @@
 | [dynamic-programming](topics/dynamic-programming.md) | 4 | 0 | 0 | 1 | 0 | 0 | 5 |
 | [fast-slow-pointers](topics/fast-slow-pointers.md) | 0 | 0 | 1 | 2 | 9 | 0 | 12 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 0 | 10 |
-| [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+| [graph-bfs](topics/graph-bfs.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
 | [graph-dfs](topics/graph-dfs.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-mst](topics/graph-mst.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |

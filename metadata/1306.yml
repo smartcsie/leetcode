@@ -1,0 +1,18 @@
+number: 1306
+title: Jump Game III
+url: https://leetcode.com/problems/jump-game-iii/
+solutions:
+- file: Solution_1306.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Graph Bfs
+  topics:
+  - graph-bfs
+  time: O(N)
+  space: O(N)
+  familiarity: 熟練
+  mastered_date: '2026-11-05'
+  attempts:
+  - date: '2026-11-05'
+    result: 對
+    reason: null

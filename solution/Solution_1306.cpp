@@ -1,0 +1,36 @@
+/**
+ * 題目：1306. Jump Game III
+ * 難度：中等 (Medium)
+ * 描述：給定一個非負整數陣列 arr 和起始位置 start，每次可以從當前位置 i
+ * 跳到 i + arr[i] 或 i - arr[i]，判斷是否能跳到值為 0 的位置。
+ *
+ * 時間複雜度：O(N)
+ * 空間複雜度：O(N)
+ *
+ * 解法思路：
+ * （BFS）：
+ * 1. 從 start 開始做 BFS，每次往 i + arr[i] 和 i - arr[i] 兩個方向跳。
+ * 2. 若跳到的位置值為 0，回傳 true。
+ * 3. 用 seen 陣列記錄已訪問的位置，避免重複走訪造成無限迴圈。
+ * 4. BFS 結束後仍未找到 0，回傳 false。
+ *
+ * 注意：先檢查 arr[cur] == 0 再標記 seen，
+ * 確保起始位置本身為 0 時也能正確回傳 true。
+ */
+class Solution {
+public:
+    bool canReach(vector<int>& arr, int start) {
+        int n = arr.size();
+        queue<int> q({start});
+        vector<bool> seen(n);
+        while (!q.empty()) {
+            int cur = q.front(); q.pop();
+            if (arr[cur] == 0) return true;
+            if (seen[cur]) continue;
+            if (cur - arr[cur] >= 0) q.push(cur - arr[cur]);
+            if (cur + arr[cur] < n)  q.push(cur + arr[cur]);
+            seen[cur] = true;
+        }
+        return false;
+    }
+};
