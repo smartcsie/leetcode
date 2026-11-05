@@ -17,11 +17,16 @@ solutions:
     > **總步數為 (m-1) + (n-1)，從中選取 m-1 步向下走**。<br>
 
     > **C(m + n - 2, m - 1)** <br>'
+  related:
+  - 119
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-08'
+    result: 對
+    reason: null
+  - date: '2026-11-05'
     result: 對
     reason: null
   - date: '2026-11-05'

@@ -11,7 +11,12 @@ solutions:
   time: O(N)
   space: O(1)
   familiarity: 練習過
+  related:
+  - 62
   attempts:
+  - date: '2026-11-05'
+    result: 對
+    reason: null
   - date: '2026-11-05'
     result: 對
     reason: null
