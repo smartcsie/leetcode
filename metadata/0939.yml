@@ -6,13 +6,18 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Hash Table Uniqueness
-  - Hash Table
   topics:
   - hash-table-uniqueness
   time: O(N²)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-11-05'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-05'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: unordered_set in unordered_map

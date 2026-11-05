@@ -6,11 +6,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | Hash Table Uniqueness, Hash Set, Greedy | [C++](../problems/3487.md) | O(N) | O(N) |  |
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | Hash Table Uniqueness, Hash Table | [C++](../problems/0939.md) | O(N²) | O(N) | 2026-10-04 |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（0）
 
@@ -20,7 +18,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（22）
+## 🟢 熟悉（23）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -33,6 +31,7 @@
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0575.md) | O(N) | O(K) | 2026-10-28 |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](../problems/0859.md) | O(N) | O(1) | 2026-10-07 |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0884.md) | O(N+M) | O(N+M) | 2026-09-26 |
+| 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 Medium | Hash Table Uniqueness | [C++](../problems/0939.md) | O(N²) | O(N) | 2026-11-05 |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 Easy | Hash Table Uniqueness | [C++](../problems/0961.md) | O(N) | O(1) | 2026-10-24 |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 Easy | Hash Table Uniqueness, Hash Table, Counting | [C++](../problems/1207.md) | O(N) | O(N) | 2026-09-26 |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 Easy | Hash Table Uniqueness, Hash Set, Coordinates | [C++](../problems/1496.md) | O(N) | O(N) | 2026-10-05 |
