@@ -23,20 +23,21 @@ class Solution {
 public:
     bool isNStraightHand(vector<int>& hand, int groupSize) {
         int n = hand.size();
-        if(n % groupSize != 0) return false;
-        map<int, int> counts;
-        for(const int& card : hand) counts[card]++;
-        for(auto it = counts.begin(); it != counts.end();) {
-            int card = it->first;
-            int count = it->second;
-            if(count == 0) {
-                ++it;
-                continue;
-            }
-            for(int i = card; i < card + groupSize; i++) {
-                auto itNextCard = counts.find(i);
-                if(itNextCard == counts.end() || itNextCard->second < count) return false;
-                itNextCard->second -= count;
+        if(n % groupSize) return false;
+        unordered_map<int, int> counts;
+        vector<int> keys;
+        for(const int& card : hand) {
+            if(!counts.contains(card)) keys.push_back(card);
+            counts[card]++;
+        }
+        sort(keys.begin(), keys.end());
+        for(const int& key : keys) {
+            int count = counts[key];
+            if(count == 0) continue;
+            for(int i = key ; i < key + groupSize; i++) {
+                auto itNext = counts.find(i);
+                if(itNext == counts.end() || itNext->second < count) return false;
+                itNext->second -= count;
             }
         }
         return true;

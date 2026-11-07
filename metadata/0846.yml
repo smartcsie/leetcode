@@ -5,14 +5,19 @@ solutions:
 - file: Solution_0846.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy Priority Queue
+  - Greedy Frequency Merging
   topics:
-  - greedy-priority-queue
+  - greedy-frequency-merging
   time: O(N log N)
   space: O(N)
   familiarity: 熟練
   mastered_date: '2026-11-07'
+  related:
+  - 1296
   attempts:
+  - date: '2026-11-07'
+    result: 對
+    reason: null
   - date: '2026-11-07'
     result: 對
     reason: null

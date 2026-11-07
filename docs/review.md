@@ -573,14 +573,14 @@
 | [greedy-coin-change](topics/greedy-coin-change.md) | 0 | 0 | 0 | 0 | 1 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 2 | 0 | 1 | 0 | 6 | 0 | 9 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 3 | 0 | 0 | 0 | 1 | 0 | 4 |
-| [greedy-frequency-merging](topics/greedy-frequency-merging.md) | 1 | 0 | 0 | 0 | 3 | 0 | 4 |
+| [greedy-frequency-merging](topics/greedy-frequency-merging.md) | 1 | 0 | 0 | 0 | 4 | 0 | 5 |
 | [greedy-graph](topics/greedy-graph.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-interval-scheduling](topics/greedy-interval-scheduling.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [greedy-job-sequencing](topics/greedy-job-sequencing.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [greedy-optimal-partitioning](topics/greedy-optimal-partitioning.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-parity-contribution](topics/greedy-parity-contribution.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
 | [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 1 | 0 | 0 | 0 | 2 | 0 | 3 |
-| [greedy-priority-queue](topics/greedy-priority-queue.md) | 1 | 0 | 0 | 0 | 4 | 0 | 5 |
+| [greedy-priority-queue](topics/greedy-priority-queue.md) | 1 | 0 | 0 | 0 | 3 | 0 | 4 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 3 | 0 | 0 | 0 | 1 | 0 | 4 |
 | [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 2 | 0 | 1 | 0 | 13 | 0 | 16 |
 | [greedy-string-construction](topics/greedy-string-construction.md) | 2 | 0 | 0 | 0 | 5 | 0 | 7 |
