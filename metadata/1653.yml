@@ -5,9 +5,14 @@ solutions:
 - file: Solution_1653.cpp
   difficulty: 🟡 Medium
   tags:
-  - Greedy Prefix Suffix
+  - Dp State Machine
   topics:
-  - greedy-prefix-suffix
+  - dp-state-machine
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-07'
+  attempts:
+  - date: '2026-11-07'
+    result: 對
+    reason: null

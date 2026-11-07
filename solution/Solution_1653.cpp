@@ -27,17 +27,14 @@
  *    只看目前的 dp 值）。
  * 4. 掃描完整個字串，dp 就是答案。
  */
+
 class Solution {
 public:
     int minimumDeletions(string s) {
+        int b = 0;
         int dp = 0;
-        int countB = 0;
-        for (char c : s) {
-            if (c == 'b') {
-                countB++;
-            } else {
-                dp = min(dp + 1, countB);
-            }
+        for(const char& c : s) {
+            (c == 'b') ? b++ : dp = min(b, dp + 1);
         }
         return dp;
     }
