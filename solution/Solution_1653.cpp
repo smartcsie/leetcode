@@ -34,7 +34,8 @@ public:
         int b = 0;
         int dp = 0;
         for(const char& c : s) {
-            (c == 'b') ? b++ : dp = min(b, dp + 1);
+            if(c == 'b') b++;
+            else dp = min(b, dp + 1);
         }
         return dp;
     }
