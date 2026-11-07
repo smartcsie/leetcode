@@ -21,11 +21,12 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（12）
+## 🟢 熟悉（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0462.md) | O(N log N) | O(1) | 2026-11-04 |
+| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0621.md) | O(N) | O(1) | 2026-11-07 |
 | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0881.md) | O(N log N) | O(1) | 2026-10-25 |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 Medium | Greedy Sorting Decision | [C++](../problems/0945.md) | O(NlogN) | O(1) | 2026-10-30 |
 | 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 Easy | Greedy Sorting Decision | [C++](../problems/0976.md) | O(N log N) | O(1) | 2026-10-29 |
