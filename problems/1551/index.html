@@ -5043,10 +5043,11 @@
 <h1 id="1551-minimum-operations-to-make-array-equal">1551. Minimum Operations to Make Array Equal<a class="headerlink" href="#1551-minimum-operations-to-make-array-equal" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/minimum-operations-to-make-array-equal/">在 LeetCode 上查看</a></p>
 <h2 id="math-formula">解法：math-formula<a class="headerlink" href="#math-formula" title="Permanent link">&para;</a></h2>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Math Formula　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟣 易忘</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Math Formula　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-10-29</strong> 對</li>
+<li>✅ <strong>2026-11-09</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1551. Minimum Operations to Make Array Equal</span>
@@ -5073,16 +5074,26 @@
 <a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="k">public</span><span class="o">:</span>
 <a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">minOperations</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">        </span><span class="c1">// n 最大 10^4，n * n 最大 10^8，不會超出 int 範圍</span>
-<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&amp;</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">?</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">4</span><span class="p">;</span>
 <a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>n分別減去前面n/2個之和</strong><br>
+<strong>n是odd，(n^2-1)/4</strong><br>
+<strong>n是odd，n^2/4</strong><br>
+<strong>假設n=6，數列為1 3 5 7 9 11，結果為5 + 3 + 1 = 9</strong><br>
+<strong>推導 (n-1)+(n-3)+(n-5) = (2n-n)*(n/2)/2 = n^2/4</strong><br>
+<strong>假設n=5，數列為1 3 5 7 9，結果為4 + 2 = 6</strong><br>
+<strong>推導 (n-1)+(n-3) = [((n - 1) + 2) * (n - 1)/2] /2</strong><br></p>
+</blockquote>
 <hr />
 <h2 id="greedy">解法：greedy<a class="headerlink" href="#greedy" title="Permanent link">&para;</a></h2>
 <p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Greedy　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-10-29</strong> 對</li>
+<li>✅ <strong>2026-11-09</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cm">/**</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cm"> * 題目：1551. Minimum Operations to Make Array Equal</span>
@@ -5124,8 +5135,7 @@
 <a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><strong>n剛好會是所有數的平均數</strong><br>
-<strong>n分別減去前面的數之和</strong><br></p>
+<p><strong>n分別減去前面n/2個之和</strong><br></p>
 </blockquote>
 <hr />
 
