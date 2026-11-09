@@ -12,41 +12,42 @@
  * 3. 維護前三大唯一值，確保重複發現的質數不會影響累加結果。
  */
 
+#define ll long long 
 class Solution {
 private:
-    void updateMax(long long val, long long& m1, long long& m2, long long& m3) {
-        if (val == m1 || val == m2 || val == m3) return;
-        if (val > m1) { 
-            m3 = m2; m2 = m1; m1 = val; 
-        } else if (val > m2) { 
-            m3 = m2; m2 = val; 
-        } else if (val > m3) { 
-            m3 = val; 
+    void update(ll val, ll& mx1, ll& mx2 , ll& mx3) {
+        if(val == mx1 || val == mx2 || val == mx3) return;
+        if(val > mx1) {
+            mx3 = mx2;
+            mx2 = mx1;
+            mx1 = val;
+        } else if(val > mx2) {
+            mx3 = mx2;
+            mx2 = val;
+        } else if(val > mx3) {
+            mx3 = val;
         }
     }
-    bool isPrime(long long n) {
+    bool isPrime(ll& n) {
         if(n < 2) return false;
         if(n == 2 || n == 3) return true;
         if(n % 2 == 0 || n % 3 == 0) return false;
-        for(long long i = 5; i * i <= n; i += 6) {
-            if(n % i == 0 || n % (i + 2) == 0) {
-                return false;
-            }
+        for(ll x = 5; x * x <= n; x += 6) {
+            if(n % x == 0 || n % (x + 2) == 0) return false;
         }
         return true;
     }
 public:
     long long sumOfLargestPrimes(string s) {
-        long long max1 = 0, max2 = 0, max3 = 0;
+        ll mx1 = 0, mx2 = 0, mx3 = 0;
         int n = s.size();
-        for(int i = 0;i < n; i++) {
-            long long curNum = 0;
-            for(int j = i;j < n; j++) {
-                curNum = curNum * 10 + (s[j] - '0');
-                if(isPrime(curNum)) updateMax(curNum, max1, max2, max3);
-                if (curNum > 1e10) break;
+        for(int i = 0; i < n; i++) {
+            for(int j = 1; j <= n - i; j++) {
+                string str = s.substr(i, j);
+                ll val = stoll(str);
+                if(isPrime(val)) update(val, mx1, mx2, mx3);
             }
         }
-        return max1 + max2 + max3;
+        return mx1 + mx2 + mx3;
     }
 };

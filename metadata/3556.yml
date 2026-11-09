@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Math Prime
-  - Brute Force
   topics:
   - math-prime
   time: O(N²*sqrt(M))
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
   note: '> **if (val == m1 || val == m2 || val == m3) return;**<br>
 
     > *#define ll long long**<br>'
@@ -28,3 +28,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-09'
+    result: 對
+    reason: null
