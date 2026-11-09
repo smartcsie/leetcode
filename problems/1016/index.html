@@ -5042,46 +5042,120 @@
 
 <h1 id="1016-binary-string-with-substrings-representing-1-to-n">1016. Binary String With Substrings Representing 1 To N<a class="headerlink" href="#1016-binary-string-with-substrings-representing-1-to-n" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Bit Manipulation, Bit Manipulation, Sliding Window　<strong>時間:</strong> O(N<em>LEN)　</em><em>空間:</em><em> O(1)　</em><em>熟悉度:</em>* 🟡 練習過</p>
+<h2 id="string">解法：string<a class="headerlink" href="#string" title="Permanent link">&para;</a></h2>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> String　<strong>時間:</strong> O(N<em>LEN)　</em><em>空間:</em><em> O(1)　</em><em>熟悉度:</em><em> 🟢 熟練　🏆 </em><em>最佳解</em><em>　👑 </em><em>代表題（int to binary string by format）</em>*</p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-11-09</strong> 對</li>
+</ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1016. Binary String With Substrings Representing 1 To N</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：中等 (Medium)</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="cm"> * 描述：給定一個二進位字串 s 和一個正整數 n。</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> * 如果從 1 到 n 的每個整數的二進位表示形式都是 s 的子字串，則返回 true，否則返回 false。</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：Medium</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="cm"> * 描述：給定二進位字串 s 與正整數 n。若 1 到 n 的每個整數的二進位表示</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> *       （不含前導 0）都是 s 的子字串，回傳 true，否則回傳 false。</span>
 <a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> *</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(N*LEN)</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 空間複雜度：O(1)</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 分類主題：string</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 技巧：只檢查 (n/2, n] 這一半, 長度上界提早剪枝 n &gt; 2 * s.size(), std::format(&quot;{:b}&quot;) 轉二進位字串</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> *</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 解法思路：</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> * 1. 邊界剪枝（Math Pruning）：</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="cm"> * - 一個長度為 M 的字串 `s` 最多只能包含不同長度的子字串，且最大可能的 N 有其實際物理限制。</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="cm"> * - 當 N 超過一定範圍（此處為 1511，因字串長度上限或位元組限制），不可能在合理長度的字串中包含所有二進位，直接返回 false。</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="cm"> * 2. 逆向迴圈與子字串包含性質：</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="cm"> * - 不需要從 1 檢查到 N。如果大數字（例如介於 `n` 到 `n/2 + 1` 之間）的二進位字串存在於 `s` 中，</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="cm"> * 通常其右側截斷的小數字也必然存在（或是透過檢查後半段即可涵蓋所有必要條件）。</span>
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="cm"> * 3. 實作細節：</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="cm"> * - 使用 `std::bitset&lt;32&gt;` 將整數轉換為 32 位元二進位字串。</span>
-<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="cm"> * - 利用 `substr(binary.find(&quot;1&quot;))` 去除前導零。</span>
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="cm"> * - 使用 `s.find(binary)` 檢查該二進位字串是否存在於 `s` 中。</span>
-<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="cm"> */</span>
-<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>
-<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="k">public</span><span class="o">:</span>
-<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">queryString</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">s</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">1000</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
-<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">/</span><span class="mi">2</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">--</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">            </span><span class="n">string</span><span class="w"> </span><span class="n">binary</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">bitset</span><span class="o">&lt;</span><span class="mi">32</span><span class="o">&gt;</span><span class="p">(</span><span class="n">i</span><span class="p">).</span><span class="n">to_string</span><span class="p">();</span>
-<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">            </span><span class="c1">// 移除前導零</span>
-<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">            </span><span class="n">binary</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">binary</span><span class="p">.</span><span class="n">substr</span><span class="p">(</span><span class="n">binary</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="sc">&#39;1&#39;</span><span class="p">));</span>
-<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">binary</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">string</span><span class="o">::</span><span class="n">npos</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
-<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">        </span><span class="p">}</span>
-<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
-<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="p">};</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 時間複雜度：O(L^2 log L) 的量級，L 為 s 的長度</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> *   剪枝後 n &lt;= 2L，迴圈約 n/2 &lt;= L 次，每次 find 最壞約 O(L * log n)</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="cm"> * 空間複雜度：O(log n)，只存一個二進位字串</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="cm"> *</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="cm"> * 解法思路：剪枝 + 只檢查後一半</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="cm"> * 1. 只需檢查 (n/2, n]：</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="cm"> *    任何整數 x 的二進位，去掉最後一位就是 x / 2 的二進位，</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="cm"> *    所以 x 是 s 的子字串，則 x / 2 也一定是（它是 x 的前綴）。</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="cm"> *    因此 (n/2, n] 都在 s 裡，就代表 [1, n/2] 也都在，不用再檢查。</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="cm"> * 2. 長度剪枝：n &gt; 2 * s.size() 直接回傳 false。</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="cm"> *    (n/2, n] 共有 ceil(n/2) 個不同的數，每個都是 s 的一段子字串。</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="cm"> *    這些數的二進位表示彼此不會互為前綴</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="cm"> *    （若 y 是 x 的前綴，則 y = x / 2 &lt;= n / 2，不在檢查範圍內），</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="cm"> *    所以它們必須從 s 的不同起點開始，至少需要 ceil(n/2) 個起點，</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="cm"> *    即 s.size() &gt;= ceil(n/2)。反過來 n &gt; 2L 時一定不可能全部包含。</span>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="cm"> * 3. 剪枝之後 n &lt;= 2L，題目 L &lt;= 1000，所以迴圈最多約 1000 次。</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="cm"> * 4. 由大到小檢查，較大的數位元較長、較難在 s 中出現，能更早失敗。</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="cm"> * 5. std::format 需要 C++20 與 &lt;format&gt;。</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="cm"> */</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">queryString</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">s</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">size</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">num</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">num</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="o">--</span><span class="n">num</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a><span class="w">            </span><span class="n">string</span><span class="w"> </span><span class="n">b_str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">format</span><span class="p">(</span><span class="s">&quot;{:b}&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">num</span><span class="p">);</span>
+<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">b_str</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">string</span><span class="o">::</span><span class="n">npos</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">                </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="w">            </span><span class="p">}</span>
+<a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><strong>轉二進制，string binary = bitset&lt;32&gt;(i).to_string();</strong></p>
+<p><strong>int轉binary string，string b_str = std::format("{:b}", num);</strong></p>
 </blockquote>
+<hr />
+<h2 id="string_1">解法：string<a class="headerlink" href="#string_1" title="Permanent link">&para;</a></h2>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> String　<strong>時間:</strong> O(L^2 log L)　<strong>空間:</strong> O(logn)　<strong>熟悉度:</strong> 🟢 熟練　👑 <strong>代表題（int to binary string by bitset）</strong></p>
+<p><strong>📅 練習歷程:</strong></p>
+<ul>
+<li>✅ <strong>2026-11-09</strong> 對</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cm">/**</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cm"> * 題目：1016. Binary String With Substrings Representing 1 To N</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="cm"> * 難度：Medium</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="cm"> * 描述：給定二進位字串 s 與正整數 n。若 1 到 n 的每個整數的二進位表示</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="cm"> *       （不含前導 0）都是 s 的子字串，回傳 true，否則回傳 false。</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="cm"> *</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="cm"> * 分類主題：string</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="cm"> * 技巧：只檢查 (n/2, n] 這一半, 長度上界提早剪枝 n &gt; 2 * s.size(), bitset&lt;32&gt; 轉二進位並去掉前導 0</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="cm"> *</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="cm"> * 時間複雜度：O(L^2 log L) 的量級，L 為 s 的長度</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="cm"> *   剪枝後 n &lt;= 2L，迴圈約 n/2 &lt;= L 次，每次 find 最壞約 O(L * log n)</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="cm"> * 空間複雜度：O(log n)，只存一個二進位字串（bitset 固定 32 位元）</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="cm"> *</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="cm"> * 解法思路：剪枝 + 只檢查後一半</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="cm"> * 1. 只需檢查 (n/2, n]：</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="cm"> *    任何整數 x 的二進位，去掉最後一位就是 x / 2 的二進位，</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="cm"> *    所以 x 是 s 的子字串，則 x / 2 也一定是（它是 x 的前綴）。</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="cm"> *    因此 (n/2, n] 都在 s 裡，就代表 [1, n/2] 也都在，不用再檢查。</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="cm"> * 2. 長度剪枝：n &gt; 2 * s.size() 直接回傳 false。</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="cm"> *    (n/2, n] 共有 ceil(n/2) 個數，彼此的二進位不會互為前綴</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="cm"> *    （若 y 是 x 的前綴，則 y &lt;= x / 2 &lt;= n / 2，不在檢查範圍內），</span>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="cm"> *    所以它們必須從 s 的不同起點開始，至少需要 ceil(n/2) 個起點，</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="cm"> *    即 s.size() &gt;= ceil(n/2)，反過來 n &gt; 2L 時不可能全部包含。</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="cm"> * 3. 轉二進位字串：bitset&lt;32&gt;(i).to_string() 會得到 32 位、含前導 0 的字串，</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="cm"> *    用 find(&#39;1&#39;) 找到第一個 1 的位置，substr 去掉前導 0。</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="cm"> *    i &gt;= 1 時一定有 1，所以 find(&#39;1&#39;) 不會回傳 npos。</span>
+<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="cm"> * 4. 由大到小檢查，較大的數位元較長、較難在 s 中出現，能更早失敗。</span>
+<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="cm"> */</span>
+<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">queryString</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">s</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a><span class="w">        </span><span class="c1">// 剪枝：s 的長度不足以容納 (n/2, n] 這麼多個起點不同的子字串</span>
+<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="w"> </span><span class="n">s</span><span class="p">.</span><span class="n">size</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a><span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a>
+<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="w">        </span><span class="c1">// 只檢查 (n/2, n]，由大到小</span>
+<a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="o">/</span><span class="mi">2</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">--</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a><span class="w">            </span><span class="n">string</span><span class="w"> </span><span class="n">binary</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">bitset</span><span class="o">&lt;</span><span class="mi">32</span><span class="o">&gt;</span><span class="p">(</span><span class="n">i</span><span class="p">).</span><span class="n">to_string</span><span class="p">();</span><span class="w">  </span><span class="c1">// 32 位二進位字串，含前導 0</span>
+<a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a><span class="w">            </span><span class="n">binary</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">binary</span><span class="p">.</span><span class="n">substr</span><span class="p">(</span><span class="n">binary</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="sc">&#39;1&#39;</span><span class="p">));</span><span class="w">   </span><span class="c1">// 去掉前導 0，得到 i 的二進位表示</span>
+<a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a>
+<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a><span class="w">            </span><span class="c1">// 找不到就代表 s 沒有包含這個整數的二進位表示</span>
+<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="n">find</span><span class="p">(</span><span class="n">binary</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">string</span><span class="o">::</span><span class="n">npos</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a><span class="p">};</span>
+</code></pre></div>
+<blockquote>
+<p><strong>int轉binary string，string binary = bitset&lt;32&gt;(i).to_string();</strong>
+<strong>binary = binary.substr(binary.find('1'));</strong></p>
+</blockquote>
+<hr />
 
 
 
