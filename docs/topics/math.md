@@ -14,11 +14,10 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（10）
+## 🟣 易忘（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math | [C++](../problems/0050.md) | O(logN) | O(1) | 2026-11-04 |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](../problems/0342.md) | O(1) | O(1) | 2026-10-08 |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](../problems/0343.md) | O(1) | O(1) | 2026-10-04 |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](../problems/0396.md) | O(N) | O(1) | 2026-10-04 |
@@ -29,10 +28,11 @@
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](../problems/2894.md) | O(1) | O(1) | 2026-10-04 |
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math | [C++](../problems/3084.md) | O(N) | O(1) | 2026-10-12 |
 
-## 🟢 熟悉（30）
+## 🟢 熟悉（31）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math | [C++](../problems/0050.md) | O(logN) | O(1) | 2026-11-09 |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](../problems/0066.md) | O(N) | O(1) | 2026-10-17 |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](../problems/0067.md) | O(max(M,N)) | O(1) | 2026-10-17 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](../problems/0137.md) | O(N) | O(N) | 2026-11-09 |
