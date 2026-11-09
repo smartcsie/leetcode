@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math
-  - Brute Force
   topics:
   - math
   time: O(N²)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -20,6 +20,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-04'
+    result: 對
+    reason: null
+  - date: '2026-11-09'
     result: 對
     reason: null
   is_representative: true

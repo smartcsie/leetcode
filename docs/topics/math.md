@@ -4,11 +4,9 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math, Brute Force | [C++](../problems/1925.md) | O(N²) | O(1) | 2026-11-04 |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（0）
 
@@ -27,7 +25,7 @@
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | Math, Enumeration | [C++](../problems/2310.md) | O(10) | O(1) | 2026-10-04 |
 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](../problems/2894.md) | O(1) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（32）
+## 🟢 熟悉（33）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -53,6 +51,7 @@
 | 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 Easy | Math, Construction | [C++](../problems/1374.md) | O(N) | O(N) | 2026-10-08 |
 | 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | Math | [C++](../problems/1753.md) | O(1) | O(1) | 2026-11-04 |
 | 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 Medium | Math | [C++](../problems/1780.md) | O(log₃N) | O(1) | 2026-10-08 |
+| 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math | [C++](../problems/1925.md) | O(N²) | O(1) | 2026-11-09 |
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math, String | [C++](../problems/1980.md) | O(N²) | O(N) | 2026-09-20 |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 Easy | Math | [C++](../problems/2119.md) | O(1) | O(1) | 2026-10-16 |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 Medium | Math | [C++](../problems/2177.md) | O(1) | O(1) | 2026-09-20 |
