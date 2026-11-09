@@ -12,14 +12,13 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（2）
+## 🟣 易忘（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation, String Simulation | [C++](../problems/1404.md) | O(N) | O(1) | 2026-10-04 |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) | 2026-10-04 |
 
-## 🟢 熟悉（40）
+## 🟢 熟悉（41）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -36,6 +35,7 @@
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/1281.md) | O(logN) | O(1) | 2026-09-14 |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/1317.md) | O(N\*logN) | O(1) | 2026-09-23 |
 | 1399 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation, Counting | [C++](../problems/1399.md) | O(N \* D) | O(1) | 2026-09-23 |
+| 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 Medium | Bit Manipulation | [C++](../problems/1404.md) | O(N) | O(1) | 2026-11-09 |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 Easy | Math Digit Decomposition, Simulation, Hash Table | [C++](../problems/1742.md) | O(N\*D) | O(1) | 2026-09-16 |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/1837.md) | O(logₖN) | O(1) | 2026-09-17 |
 | 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](../problems/1880.md) | O(N) | O(1) | 2026-09-17 |

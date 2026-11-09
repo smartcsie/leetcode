@@ -23,24 +23,18 @@
 
 class Solution {
 public:
-    int numSteps(std::string s) {
-        int ans = 0;
+    int numSteps(string s) {
+        int steps = 0;
         int carry = 0;
-        
-        // 從最低位（右側）向左掃描到索引 1
-        for (int i = s.size() - 1; i > 0; i--) {
-            int bit = (s[i] - '0') + carry;
-            
-            // 若為奇數：需要「加 1」再「除以 2」，共 2 步，並產生進位
-            if (bit & 1) {
+        for(auto it = s.rbegin(); it!= s.rend() - 1; it++) {
+            int cur_bit = (*it - '0') + carry;
+            if(cur_bit & 1) {
+                steps += 2;
                 carry = 1;
-                ans += 2; 
-            } else { // 若為偶數：只需「除以 2」，共 1 步
-                ans += 1;
+            } else {
+                steps += 1;
             }
         }
-        
-        // 加上最後殘留的進位對最高位帶來的額外步驟
-        return ans + carry;
+        return steps + carry;
     }
 };
