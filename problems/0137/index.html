@@ -5043,10 +5043,11 @@
 <h1 id="137-single-number-ii">137. Single Number II<a class="headerlink" href="#137-single-number-ii" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/single-number-ii">在 LeetCode 上查看</a></p>
 <h2 id="bit-manipulation">解法：bit-manipulation<a class="headerlink" href="#bit-manipulation" title="Permanent link">&para;</a></h2>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Bit Manipulation, Bit-Manipulation　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習　🏆 <strong>最佳解</strong></p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Bit Manipulation　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練　🏆 <strong>最佳解</strong>　👑 <strong>代表題（Finite State Machine）</strong></p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-11-09</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：137. Single Number II</span>
@@ -5090,10 +5091,11 @@ return one;** <br>
 </blockquote>
 <hr />
 <h2 id="math">解法：math<a class="headerlink" href="#math" title="Permanent link">&para;</a></h2>
-<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Math, Hash Set　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🟠 再練習</p>
+<p><strong>難度:</strong> 🟡 Medium　<strong>標籤:</strong> Math, Hash Set　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(N)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習</li>
+<li>✅ <strong>2026-11-09</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cm">/**</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cm"> * 題目：137. Single Number II (只出現一次的數字 II)</span>
@@ -5138,9 +5140,9 @@ return one;** <br>
 <a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p>先travsal nums，num加到sum_all，num順便insert到unique_set(unordered_set<int>)<br>
-(3 * sum_unique - sum_all) / 2<br>
-此題有三種解法，位元有限狀態機是最佳解<br></p>
+<p><strong>先travsal nums，num加到sum_all，num順便insert unique_set(unordered_set<int>)</strong><br>
+<strong>(3 * sum_unique - sum_all) / 2</strong><br>
+<strong>此題有三種解法，位元有限狀態機是最佳解</strong><br></p>
 </blockquote>
 <hr />
 
