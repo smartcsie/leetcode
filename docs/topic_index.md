@@ -27,7 +27,7 @@
 | 1281 | 👑 **Digit Decomposition**<br>[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](problems/1281.md) | O(logN) | O(1) | 2026-09-14 |
 | 1295 | 👑 **number digits**<br>[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 Easy | Math | [C++](problems/1295.md) | O(N) | O(1) | 2026-09-20 |
 | 1344 | 👑 **cast int into double**<br>[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 Medium | Math | [C++](problems/1344.md) | O(1) | O(1) | 2026-10-08 |
-| 1492 | 👑 **Factor Enumeration**<br>[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | Math Factor Enumeration | [C++](problems/1492.md) | O(√N) | O(1) | 2026-10-04 |
+| 1492 | 👑 **Factor Enumeration**<br>[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 Medium | Math Factor Enumeration | [C++](problems/1492.md) | O(√N) | O(1) | 2026-11-09 |
 | 1925 | 👑 **Pythagorean triples**<br>[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math | [C++](problems/1925.md) | O(N²) | O(1) | 2026-11-09 |
 | 1979 | 👑 **GCD**<br>[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 Easy | Math Gcd, GCD | [C++](problems/1979.md) | O(N) | O(1) | 2026-09-14 |
 | 1980 | 👑 **Cantor's Diagonal Argument**<br>[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 Medium | Math, String | [C++](problems/1980.md) | O(N²) | O(N) | 2026-09-20 |

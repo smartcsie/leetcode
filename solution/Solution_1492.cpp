@@ -14,10 +14,12 @@
 class Solution {
 public:
     int kthFactor(int n, int k) {
-        for(int i = 1; i * i <= n; i++) 
-            if(n % i == 0 && --k == 0) return i;
-        for(int i = static_cast<int>(sqrt(n)) - 1; i >= 1 ; i--) 
-            if(n % i == 0 && i * i != n && --k == 0) return n / i;
+        for(int x = 1; x * x <= n; x++) {
+            if(n % x == 0 && --k == 0) return x;
+        }
+        for(int x = static_cast<int>(sqrt(n)); x >= 1; x--) {
+            if(n % x == 0 && x * x != n && --k == 0) return n / x;
+        }
         return -1;
     }
 };
