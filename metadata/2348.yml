@@ -1,0 +1,22 @@
+number: 2348
+title: Number of Zero-Filled Subarrays
+url: https://leetcode.com/problems/number-of-zero-filled-subarrays/
+solutions:
+- file: Solution_2348.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Array Continuous Counting
+  topics:
+  - array-continuous-counting
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
+  related:
+  - 1513
+  tricks:
+  - Consecutive Count Contribution
+  attempts:
+  - date: '2026-11-09'
+    result: 對
+    reason: null

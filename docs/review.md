@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 995 題　🔴 生疏：194 題　🟠 再練習：22 題　🟡 練習過：40 題　🟣 易忘：99 題　🟢 熟練：640 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 996 題　🔴 生疏：194 題　🟠 再練習：22 題　🟡 練習過：40 題　🟣 易忘：99 題　🟢 熟練：641 題　⚪ 未標記：0 題
 
 ---
 
@@ -517,7 +517,7 @@
 | [2d-array](topics/2d-array.md) | 0 | 0 | 0 | 0 | 20 | 0 | 20 |
 | [array](topics/array.md) | 1 | 0 | 0 | 3 | 23 | 0 | 27 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 1 | 9 | 0 | 12 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 1 | 10 | 0 | 13 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 2 | 0 | 3 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 0 | 0 | 0 | 0 | 25 | 0 | 25 |
