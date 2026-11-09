@@ -6,18 +6,20 @@ solutions:
   difficulty: 🔴 Hard
   tags:
   - Math Game Theory
-  - Game Theory
   topics:
   - math-game-theory
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
   note: '> **val == 0，一開始整體 XOR 就是 0，Alice 必勝**<br>
 
     > **數字個數是偶數，Alice 也會贏**<br>'
   is_best: true
-  tricks: null
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-09'
+    result: 對
+    reason: null
