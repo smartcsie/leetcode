@@ -10,7 +10,8 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
   related:
   - 1512
   tricks:
@@ -34,20 +35,25 @@ solutions:
   - date: '2026-10-12'
     result: 對
     reason: null
+  - date: '2026-11-09'
+    result: 對
+    reason: null
 - file: Solution_3084_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math Combination
+  - Array Continuous Counting
   topics:
-  - math-combination
+  - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
   related:
   - 1513
   tricks:
   - Combination C(n
   - 2)
+  - Cumulative Count Contribution (no reset)
   attempts:
   - date: '2026-10-02'
     result: 對
@@ -65,6 +71,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-11-09'
     result: 對
     reason: null
   is_representative: true

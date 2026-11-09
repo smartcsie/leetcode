@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 996 題　🔴 生疏：194 題　🟠 再練習：22 題　🟡 練習過：40 題　🟣 易忘：98 題　🟢 熟練：642 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 996 題　🔴 生疏：194 題　🟠 再練習：21 題　🟡 練習過：40 題　🟣 易忘：98 題　🟢 熟練：643 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 374 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 372 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（28）](#review-math)　[📊 Bit Manipulation（34）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（26）](#review-math)　[📊 Bit Manipulation（34）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -25,14 +25,13 @@
 | 🟣 易忘 | 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](problems/0208.md) | O(L) | O(N \* L) | 2026-11-04 |
 
 <a id="review-math"></a>
-#### 🔢 Math（28）
+#### 🔢 Math（26）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟡 練習過 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math Permutation | [C++](problems/0060.md) | O(N × N!) | O(N) |  |
 | 🟠 再練習 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime, Prime, Palindrome Construction | [C++](problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-10-04 |
 | 🟠 再練習 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 Easy | Math, Brute Force | [C++](problems/1925.md) | O(N²) | O(1) | 2026-11-04 |
-| 🟠 再練習 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math Combination | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-12 |
 | 🟠 再練習 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math Prime, Brute Force | [C++](problems/3556.md) | O(N²\*sqrt(M)) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math Permutation, Factorial | [C++](problems/0060.md) | O(N²) | O(N) | 2026-10-04 |
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 Easy | Math | [C++](problems/0342.md) | O(1) | O(1) | 2026-10-08 |
@@ -53,7 +52,6 @@
 | 🟣 易忘 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | Math Prime, Prime Factorization | [C++](problems/2521.md) | O(N\*sqrt(M)) | O(K) | 2026-10-04 |
 | 🟣 易忘 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | Math Formula | [C++](problems/2645.md) | O(N) | O(1) | 2026-10-24 |
 | 🟣 易忘 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](problems/2894.md) | O(1) | O(1) | 2026-10-04 |
-| 🟣 易忘 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-12 |
 | 🟣 易忘 | 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](problems/3227.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | Math Game Theory | [C++](problems/3232.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math Prime, Prefix Sum | [C++](problems/3770.md) | O(RloglogR) | O(R) | 2026-10-04 |
@@ -516,7 +514,7 @@
 | [2d-array](topics/2d-array.md) | 0 | 0 | 0 | 0 | 20 | 0 | 20 |
 | [array](topics/array.md) | 1 | 0 | 0 | 3 | 23 | 0 | 27 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 0 | 11 | 0 | 13 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 0 | 12 | 0 | 14 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 2 | 0 | 3 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 0 | 0 | 0 | 0 | 25 | 0 | 25 |
@@ -588,8 +586,8 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 1 | 0 | 0 | 0 | 19 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 0 | 2 | 3 | 4 | 8 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
-| [math](topics/math.md) | 0 | 2 | 0 | 8 | 28 | 0 | 38 |
-| [math-combination](topics/math-combination.md) | 0 | 1 | 0 | 1 | 4 | 0 | 6 |
+| [math](topics/math.md) | 0 | 1 | 0 | 8 | 29 | 0 | 38 |
+| [math-combination](topics/math-combination.md) | 0 | 0 | 0 | 1 | 4 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 0 | 0 | 2 | 40 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 0 | 0 | 2 | 2 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 0 | 0 | 0 | 3 | 6 | 0 | 9 |

@@ -19,7 +19,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（11）
+## 🟢 熟悉（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -34,3 +34,4 @@
 | 1909 | [Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/1909.md) | O(N) | O(1) | 2026-10-31 |
 | 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/2210.md) | O(N) | O(1) | 2026-10-31 |
 | 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | 🟡 Medium | Array Continuous Counting | [C++](../problems/2348.md) | O(N) | O(1) | 2026-11-09 |
+| 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/3084.md) | O(N) | O(1) | 2026-11-09 |

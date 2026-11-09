@@ -35,7 +35,6 @@
 | 2413 | 👑 **lcm**<br>[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 Easy | Math Gcd | [C++](problems/2413.md) | O(1) | O(1) | 2026-09-22 |
 | 2521 | 👑 **Prime Factorization**<br>[Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | Math Prime, Prime Factorization | [C++](problems/2521.md) | O(N\*sqrt(M)) | O(K) | 2026-10-04 |
 | 2761 | 👑 **Sieve Algorithm**<br>[Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/) | 🟡 Medium | Math Prime, Sieve | [C++](problems/2761.md) | O(NloglogN) | O(N) | 2026-10-08 |
-| 3084 | 👑 **Direct Frequency Counting**<br>[Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Math Combination | [C++](problems/3084.md) | O(N) | O(1) | 2026-10-12 |
 | 3131 | 👑 **max_element**<br>[Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 Easy | Math, Array | [C++](problems/3131.md) | O(N) | O(1) | 2026-09-20 |
 
 ---
@@ -106,6 +105,7 @@
 | 2089 | 👑 **vector iota**<br>[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 Easy | Array Linear Scan, Counting | [C++](problems/2089.md) | O(N) | O(1) | 2026-09-15 |
 | 2133 | 👑 **2D Negative Marking**<br>[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 Easy | Array Negative Marking | [C++](problems/2133.md) | O(N²) | O(1) | 2026-10-16 |
 | 2923 | 👑 **Vector Count**<br>[Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 Easy | 2d Array, Math | [C++](problems/2923.md) | O(N²) | O(1) | 2026-09-20 |
+| 3084 | 👑 **Direct Frequency Counting**<br>[Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 Easy | Array Continuous Counting | [C++](problems/3084.md) | O(N) | O(1) | 2026-11-09 |
 | 3512 | 👑 **Accumulate Sum**<br>[Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 Easy | Array Linear Scan | [C++](problems/3512.md) | O(N) | O(1) | 2026-09-13 |
 
 ---
