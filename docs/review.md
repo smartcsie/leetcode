@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 996 題　🔴 生疏：194 題　🟠 再練習：22 題　🟡 練習過：40 題　🟣 易忘：99 題　🟢 熟練：641 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 996 題　🔴 生疏：194 題　🟠 再練習：22 題　🟡 練習過：40 題　🟣 易忘：98 題　🟢 熟練：642 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 375 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 374 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（28）](#review-math)　[📊 Bit Manipulation（34）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（23）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（28）](#review-math)　[📊 Bit Manipulation（34）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -123,7 +123,7 @@
 | 🟣 易忘 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 Medium | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) | 2026-10-04 |
 
 <a id="review-array"></a>
-#### 🍱 Array（23）
+#### 🍱 Array（22）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -143,7 +143,6 @@
 | 🟣 易忘 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 Medium | Array, Simulation | [C++](problems/0054.md) | O(M\*N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 Medium | Array, Simulation | [C++](problems/0059.md) | O(N²) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 Medium | Array Prefix Sum, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) | 2026-10-07 |
-| 🟣 易忘 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting, Greedy | [C++](problems/0696.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum | [C++](problems/0930.md) | O(N) | O(N) | 2026-10-04 |
 | 🟣 易忘 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 Medium | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) | 2026-10-04 |
@@ -517,7 +516,7 @@
 | [2d-array](topics/2d-array.md) | 0 | 0 | 0 | 0 | 20 | 0 | 20 |
 | [array](topics/array.md) | 1 | 0 | 0 | 3 | 23 | 0 | 27 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 1 | 0 | 0 | 0 | 1 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 1 | 10 | 0 | 13 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 0 | 2 | 0 | 0 | 11 | 0 | 13 |
 | [array-difference-array](topics/array-difference-array.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 0 | 0 | 2 | 0 | 3 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 0 | 0 | 0 | 0 | 25 | 0 | 25 |

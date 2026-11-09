@@ -6,17 +6,19 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array Continuous Counting
-  - Greedy
   topics:
   - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 易忘
-  note: '> 如果前後字元相等，用curEquals計數目前連續個0或1的個數，**if(s[i] == s[i - 1]) cur++;** <br>
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
+  note: '> **如果前後字元相等，用curEquals計數目前連續個0或1的個數，if(s[i] == s[i - 1]) cur++;** <br>
 
-    > 如果前後字元不相等，找出比較短那一半的長度， **min(pre, cur)** ，0001111 =3 ，111100 = 2<br>
+    > **如果前後字元不相等，找出比較短那一半的長度， min(pre, cur)** ，0001111 =3 ，111100 = 2**<br>
 
-    > ans計算總共字串，**ans += min(pre, cur);**， 因為如果 0011 = 2，字串有 01和0011剛好2種<br>'
+    > **ans計算總共字串，**ans += min(pre, cur);， 因為如果 0011 = 2，字串有 01和0011剛好2種**<br>'
+  related:
+  - 1759
   attempts:
   - date: '2026-10-02'
     result: 對
@@ -24,3 +26,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-09'
+    result: 對
+    reason: null
