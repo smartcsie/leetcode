@@ -12,9 +12,18 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-16'
+  related:
+  - 485
+  - 674
   tricks:
   - Linear Scan with Streak Reset
   attempts:
   - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-11-09'
+    result: 對
+    reason: null
+  - date: '2026-11-09'
     result: 對
     reason: null
