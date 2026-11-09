@@ -6,18 +6,23 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Math Game Theory
-  - Game Theory
   topics:
   - math-game-theory
   time: O(N)
   space: O(1)
-  familiarity: 易忘
-  note: '> 如果是奇數的vowel，Alice直接刪除含全部的vowel<br>
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
+  note: '> **Alice 會輸 就是完全沒有 vowel**<br>
 
-    > 如果是偶數的vowel，Alice刪除奇數的vowel<br>'
+    > **如果是奇數的vowel，Alice直接刪除含全部的vowel**<br>
+
+    > **如果是偶數的vowel，Alice刪除奇數的vowel**<br>'
   related:
   - 1025
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-09'
+    result: 對
+    reason: null
