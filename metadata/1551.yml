@@ -12,11 +12,12 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-10-29'
-  note: '> **n剛好會是所有數的平均數**<br>
-
-    > **n分別減去前面的數之和**<br>'
+  note: '> **n分別減去前面n/2個之和**<br>'
   attempts:
   - date: '2026-10-29'
+    result: 對
+    reason: null
+  - date: '2026-11-09'
     result: 對
     reason: null
 - file: Solution_1551_1.cpp
@@ -27,8 +28,25 @@ solutions:
   - math-formula
   time: O(1)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
+  note: '> **n分別減去前面n/2個之和**<br>
+
+    > **n是odd，(n^2-1)/4**<br>
+
+    > **n是odd，n^2/4**<br>
+
+    > **假設n=6，數列為1 3 5 7 9 11，結果為5 + 3 + 1 = 9**<br>
+
+    > **推導 (n-1)+(n-3)+(n-5) = (2n-n)*(n/2)/2 = n^2/4**<br>
+
+    > **假設n=5，數列為1 3 5 7 9，結果為4 + 2 = 6**<br>
+
+    > **推導 (n-1)+(n-3) = [((n - 1) + 2) * (n - 1)/2] /2**<br>'
   attempts:
   - date: '2026-10-29'
+    result: 對
+    reason: null
+  - date: '2026-11-09'
     result: 對
     reason: null

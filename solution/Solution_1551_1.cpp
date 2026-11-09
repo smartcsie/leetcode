@@ -23,6 +23,6 @@ class Solution {
 public:
     int minOperations(int n) {
         // n 最大 10^4，n * n 最大 10^8，不會超出 int 範圍
-        return n * n / 4;
+        return (n & 1) ? (n * n - 1) / 4 : n * n / 4;
     }
 };
