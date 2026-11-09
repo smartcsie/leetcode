@@ -20,13 +20,10 @@ class Solution {
 public:
     int countHomogenous(string s) {
         constexpr int MOD = 1e9 + 7;
-        int count = 1;
-        char prev = 0;
-        int ans = 0;
-        for(const char& c : s) {
-            count = c == prev ? count + 1 : 1;
-            ans = (ans + count) % MOD;
-            prev = c;
+        int ans = 1, cur = 1;
+        for(int i = 1; i < s.size(); i++) {
+            cur = (s[i - 1] == s[i]) ? cur + 1 : 1;
+            ans = (ans + cur) % MOD;
         }
         return ans;
     }

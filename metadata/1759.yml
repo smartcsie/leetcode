@@ -6,7 +6,6 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Array Continuous Counting
-  - String
   topics:
   - array-continuous-counting
   time: O(N)
@@ -14,6 +13,8 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-10-02'
   note: '> **記得 ans  %= MOD;**<br>'
+  related:
+  - 696
   tricks:
   - consecutive count contribution
   attempts:
@@ -21,5 +22,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-02'
+    result: 對
+    reason: null
+  - date: '2026-11-09'
     result: 對
     reason: null
