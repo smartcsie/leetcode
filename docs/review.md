@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 996 題　🔴 生疏：194 題　🟠 再練習：18 題　🟡 練習過：39 題　🟣 易忘：91 題　🟢 熟練：654 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 996 題　🔴 生疏：194 題　🟠 再練習：18 題　🟡 練習過：39 題　🟣 易忘：90 題　🟢 熟練：655 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 362 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 361 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（17）](#review-math)　[📊 Bit Manipulation（33）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（16）](#review-math)　[📊 Bit Manipulation（33）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -25,7 +25,7 @@
 | 🟣 易忘 | 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](problems/0208.md) | O(L) | O(N \* L) | 2026-11-04 |
 
 <a id="review-math"></a>
-#### 🔢 Math（17）
+#### 🔢 Math（16）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -44,7 +44,6 @@
 | 🟣 易忘 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | Math Prime, Prime Factorization | [C++](problems/2521.md) | O(N\*sqrt(M)) | O(K) | 2026-10-04 |
 | 🟣 易忘 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 Medium | Math Formula | [C++](problems/2645.md) | O(N) | O(1) | 2026-10-24 |
 | 🟣 易忘 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 Easy | Math, Arithmetic Progression | [C++](problems/2894.md) | O(1) | O(1) | 2026-10-04 |
-| 🟣 易忘 | 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | Math Game Theory | [C++](problems/3232.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 Medium | Math Prime, Prefix Sum | [C++](problems/3770.md) | O(RloglogR) | O(R) | 2026-10-04 |
 
 <a id="review-bit-manipulation"></a>
@@ -581,7 +580,7 @@
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 0 | 0 | 0 | 42 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 0 | 0 | 1 | 3 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 0 | 0 | 0 | 2 | 7 | 0 | 9 |
-| [math-game-theory](topics/math-game-theory.md) | 0 | 0 | 0 | 1 | 5 | 0 | 6 |
+| [math-game-theory](topics/math-game-theory.md) | 0 | 0 | 0 | 0 | 6 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 0 | 0 | 0 | 0 | 9 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |
