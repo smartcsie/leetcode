@@ -1,0 +1,47 @@
+/**
+ * 題目：1016. Binary String With Substrings Representing 1 To N
+ * 難度：Medium
+ * 描述：給定二進位字串 s 與正整數 n。若 1 到 n 的每個整數的二進位表示
+ *       （不含前導 0）都是 s 的子字串，回傳 true，否則回傳 false。
+ *
+ * 分類主題：string
+ * 技巧：只檢查 (n/2, n] 這一半, 長度上界提早剪枝 n > 2 * s.size(), bitset<32> 轉二進位並去掉前導 0
+ *
+ * 時間複雜度：O(L^2 log L) 的量級，L 為 s 的長度
+ *   剪枝後 n <= 2L，迴圈約 n/2 <= L 次，每次 find 最壞約 O(L * log n)
+ * 空間複雜度：O(log n)，只存一個二進位字串（bitset 固定 32 位元）
+ *
+ * 解法思路：剪枝 + 只檢查後一半
+ * 1. 只需檢查 (n/2, n]：
+ *    任何整數 x 的二進位，去掉最後一位就是 x / 2 的二進位，
+ *    所以 x 是 s 的子字串，則 x / 2 也一定是（它是 x 的前綴）。
+ *    因此 (n/2, n] 都在 s 裡，就代表 [1, n/2] 也都在，不用再檢查。
+ * 2. 長度剪枝：n > 2 * s.size() 直接回傳 false。
+ *    (n/2, n] 共有 ceil(n/2) 個數，彼此的二進位不會互為前綴
+ *    （若 y 是 x 的前綴，則 y <= x / 2 <= n / 2，不在檢查範圍內），
+ *    所以它們必須從 s 的不同起點開始，至少需要 ceil(n/2) 個起點，
+ *    即 s.size() >= ceil(n/2)，反過來 n > 2L 時不可能全部包含。
+ * 3. 轉二進位字串：bitset<32>(i).to_string() 會得到 32 位、含前導 0 的字串，
+ *    用 find('1') 找到第一個 1 的位置，substr 去掉前導 0。
+ *    i >= 1 時一定有 1，所以 find('1') 不會回傳 npos。
+ * 4. 由大到小檢查，較大的數位元較長、較難在 s 中出現，能更早失敗。
+ */
+class Solution {
+public:
+    bool queryString(string s, int n) {
+        // 剪枝：s 的長度不足以容納 (n/2, n] 這麼多個起點不同的子字串
+        if (n > 2 * (int) s.size()) {
+            return false;
+        }
+
+        // 只檢查 (n/2, n]，由大到小
+        for(int i = n; i > n /2 ; i--) {
+            string binary = bitset<32>(i).to_string();  // 32 位二進位字串，含前導 0
+            binary = binary.substr(binary.find('1'));   // 去掉前導 0，得到 i 的二進位表示
+
+            // 找不到就代表 s 沒有包含這個整數的二進位表示
+            if(s.find(binary) == string::npos) return false;
+        }
+        return true;
+    }
+};

@@ -5,12 +5,37 @@ solutions:
 - file: Solution_1016.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
-  - Bit Manipulation
-  - Sliding Window
+  - String
   topics:
-  - bit-manipulation
+  - string
   time: O(N*LEN)
   space: O(1)
-  familiarity: 練習過
-  note: '> **轉二進制，string binary = bitset<32>(i).to_string();**'
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
+  note: '> **int轉binary string，string b_str = std::format("{:b}", num);**'
+  is_best: true
+  attempts:
+  - date: '2026-11-09'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: int to binary string by format
+- file: Solution_1016_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  topics:
+  - string
+  time: O(L^2 log L)
+  space: O(logn)
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
+  note: '> **int轉binary string，string binary = bitset<32>(i).to_string();**
+
+    > **binary = binary.substr(binary.find(''1''));**'
+  attempts:
+  - date: '2026-11-09'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: int to binary string by bitset
