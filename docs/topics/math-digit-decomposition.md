@@ -12,13 +12,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（1）
+## 🟣 易忘（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](../problems/2180.md) | O(D) | O(1) | 2026-10-04 |
+目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（41）
+## 🟢 熟悉（42）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -40,6 +38,7 @@
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/1837.md) | O(logₖN) | O(1) | 2026-09-17 |
 | 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](../problems/1880.md) | O(N) | O(1) | 2026-09-17 |
 | 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/2160.md) | O(1) | O(1) | 2026-10-16 |
+| 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/2180.md) | O(D) | O(1) | 2026-11-09 |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 Medium | Math Digit Decomposition, Simulation | [C++](../problems/2443.md) | O(NlogN) | O(1) | 2026-09-17 |
 | 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 Easy | Math Digit Decomposition, Math | [C++](../problems/2535.md) | O(N\*logM) | O(1) | 2026-09-16 |
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 Easy | Math Digit Decomposition, Digit Manipulation | [C++](../problems/2544.md) | O(logN) | O(logN) | 2026-09-14 |

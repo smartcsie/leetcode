@@ -10,15 +10,16 @@
  * 時間複雜度：O(D)
  * 空間複雜度：O(1)
  */
+
 class Solution {
 public:
     int countEven(int num) {
-        int digitsSum = 0;
-        int n = num;
-        while(n > 0) {
-            digitsSum += n % 10;
-            n /= 10;
+        bool odd_digit = false;
+        int x = num;
+        while(x > 0) {
+            odd_digit ^= (x & 1);
+            x /= 10;
         }
-        return (num - digitsSum % 2) / 2;
+        return odd_digit ? (num - 1) / 2 : num / 2;
     }
 };

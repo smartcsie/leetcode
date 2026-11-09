@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 996 題　🔴 生疏：194 題　🟠 再練習：20 題　🟡 練習過：40 題　🟣 易忘：93 題　🟢 熟練：649 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 996 題　🔴 生疏：194 題　🟠 再練習：20 題　🟡 練習過：40 題　🟣 易忘：92 題　🟢 熟練：650 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 366 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 365 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（20）](#review-math)　[📊 Bit Manipulation（34）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（19）](#review-math)　[📊 Bit Manipulation（34）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（20）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -25,7 +25,7 @@
 | 🟣 易忘 | 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](problems/0208.md) | O(L) | O(N \* L) | 2026-11-04 |
 
 <a id="review-math"></a>
-#### 🔢 Math（20）
+#### 🔢 Math（19）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -40,7 +40,6 @@
 | 🟣 易忘 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | Math | [C++](problems/1185.md) | O(1) | O(1) | 2026-11-04 |
 | 🟣 易忘 | 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 Medium | Math, Simulation, Greedy | [C++](problems/1375.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 Easy | Math Combination, Math (Contribution) | [C++](problems/1588.md) | O(N) | O(1) | 2026-10-04 |
-| 🟣 易忘 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 Easy | Math, Digit Manipulation | [C++](problems/2180.md) | O(D) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 Medium | Math, Enumeration | [C++](problems/2310.md) | O(10) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 2507 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 Medium | Math Factor Enumeration, Prime Factorization | [C++](problems/2507.md) | O(logN\*sqrt(N)) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 Medium | Math Prime, Prime Factorization | [C++](problems/2521.md) | O(N\*sqrt(M)) | O(K) | 2026-10-04 |
@@ -582,7 +581,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
 | [math](topics/math.md) | 0 | 0 | 0 | 7 | 31 | 0 | 38 |
 | [math-combination](topics/math-combination.md) | 0 | 0 | 0 | 1 | 4 | 0 | 5 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 0 | 0 | 1 | 41 | 0 | 42 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 0 | 0 | 0 | 42 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 0 | 0 | 1 | 3 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 0 | 0 | 0 | 2 | 7 | 0 | 9 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 0 | 0 | 2 | 4 | 0 | 6 |
