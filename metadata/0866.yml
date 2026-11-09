@@ -6,14 +6,21 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Math Prime
-  - Prime
-  - Palindrome Construction
   topics:
   - math-prime
   time: O(sqrt(10^9))
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-11-09'
+  note: '>**if (8 <= n && n <= 11) return 11;**<br>
+
+    >**這行程式碼是為了解決 11 是全天下唯一一個「偶數長度的質數迴文數」這個邊界特例。**<br>'
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-09'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Palindrome Construction

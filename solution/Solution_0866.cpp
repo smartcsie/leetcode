@@ -28,32 +28,27 @@ private:
         if(n < 2) return false;
         if(n == 2 || n == 3) return true;
         if(n % 2 == 0 || n % 3 == 0) return false;
-        for(int i = 5; i *i <= n; i += 6) {
-            if(n % i == 0 || n % (i + 2) == 0) return false;
+        for(int x = 5; x * x <= n; x += 6) {
+            if(n % x == 0 || n % (x + 2) == 0) return false;
         }
         return true;
     }
     int makePalindrome(int n) {
-        int palindrome = n;
+        int p = n;
         n /= 10;
         while(n > 0) {
-            palindrome = palindrome * 10 + (n % 10);
+            p = p * 10 + (n % 10);
             n /= 10;
         }
-        return palindrome;
+        return p;
     }
 public:
     int primePalindrome(int n) {
-        if (8 <= n && n <= 11)
-            return 11;
-
-        for (int i = 1; i < 100000; i++) {
-            int p = makePalindrome(i);
-
-            if (p >= n && isPrime(p))
-                return p;
+        if (8 <= n && n <= 11) return 11;
+        for(int x = 1; x < 100000; x++) {
+            int p = makePalindrome(x);
+            if(p >= n && isPrime(p)) return p; 
         }
-
         return -1;
     }
 };
