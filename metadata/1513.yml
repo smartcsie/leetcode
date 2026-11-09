@@ -6,8 +6,6 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Array Continuous Counting
-  - String
-  - Dynamic Programming
   topics:
   - array-continuous-counting
   time: O(N)
@@ -17,9 +15,12 @@ solutions:
   related:
   - 2348
   tricks:
-  - Consecutive Count Contribution
+  - Cumulative Count Contribution (reset 0)
   attempts:
   - date: '2026-10-02'
+    result: 對
+    reason: null
+  - date: '2026-11-09'
     result: 對
     reason: null
   - date: '2026-11-09'

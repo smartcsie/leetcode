@@ -19,6 +19,8 @@ solutions:
     > **ans計算總共字串，**ans += min(pre, cur);， 因為如果 0011 = 2，字串有 01和0011剛好2種**<br>'
   related:
   - 1759
+  tricks:
+  - Cumulative Count Contribution (reset 1)
   attempts:
   - date: '2026-10-02'
     result: 對
@@ -26,6 +28,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-09'
+    result: 對
+    reason: null
   - date: '2026-11-09'
     result: 對
     reason: null

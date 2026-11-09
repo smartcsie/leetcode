@@ -16,12 +16,15 @@ solutions:
   related:
   - 696
   tricks:
-  - consecutive count contribution
+  - Cumulative Count Contribution (reset 1)
   attempts:
   - date: '2026-10-02'
     result: 對
     reason: null
   - date: '2026-10-02'
+    result: 對
+    reason: null
+  - date: '2026-11-09'
     result: 對
     reason: null
   - date: '2026-11-09'

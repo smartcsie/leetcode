@@ -27,7 +27,7 @@
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/0696.md) | O(N) | O(1) | 2026-11-09 |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/0830.md) | O(N) | O(1) | 2026-10-15 |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/1446.md) | O(N) | O(1) | 2026-09-16 |
-| 1513 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 Medium | Array Continuous Counting, String, Dynamic Programming | [C++](../problems/1513.md) | O(N) | O(1) | 2026-11-09 |
+| 1513 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 Medium | Array Continuous Counting | [C++](../problems/1513.md) | O(N) | O(1) | 2026-11-09 |
 | 1759 | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟡 Medium | Array Continuous Counting | [C++](../problems/1759.md) | O(N) | O(1) | 2026-11-09 |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 Easy | Array Continuous Counting | [C++](../problems/1800.md) | O(N) | O(1) | 2026-10-15 |
 | 1869 | [Longer Contiguous Segments of Ones than Zeros](https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros/) | 🟢 Easy | Array Continuous Counting, Simulation, Linear Scan | [C++](../problems/1869.md) | O(N) | O(1) | 2026-09-17 |
