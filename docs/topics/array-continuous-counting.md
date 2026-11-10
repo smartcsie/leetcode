@@ -23,7 +23,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array Continuous Counting | [C++](../problems/0485.md) | O(N) | O(1) | 2026-11-09 |
+| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 Easy | Array Continuous Counting | [C++](../problems/0485.md) | O(N) | O(1) | 2026-11-10 |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/0696.md) | O(N) | O(1) | 2026-11-09 |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/0830.md) | O(N) | O(1) | 2026-10-15 |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 Easy | Array Continuous Counting | [C++](../problems/1446.md) | O(N) | O(1) | 2026-11-09 |

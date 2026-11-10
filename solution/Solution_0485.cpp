@@ -15,12 +15,12 @@
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
-        int max_ones = 0;
-        int ones = 0;
-        for(const int& num : nums) {
-            ones = (num & 1) ? ones + 1 : 0;
-            max_ones = max(max_ones, ones);
+        int count = 0;
+        int maxCount = 0;
+        for(const int& x : nums) {
+            count = (x & 1) ? count + 1 : 0;
+            maxCount = max(maxCount, count);
         }
-        return max_ones;
+        return maxCount;
     }
 };
