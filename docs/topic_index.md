@@ -187,7 +187,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 53 | 👑 **Kadane**<br>[Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 M | Dp Kadane | [C++](problems/0053.md) | O(N) | O(1) |
-| 70 | 👑 **Fibonacci**<br>[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 E | Dp Fibonacci, Dynamic Programming Fibonacci, DP, Unbounded Knapsack (Permutation) | [C++](problems/0070.md) | O(N) | O(1) |
+| 70 | 👑 **Fibonacci**<br>[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 E | Dp Fibonacci | [C++](problems/0070.md) | O(N) | O(1) |
 | 96 | 👑 **Catalan numbers**<br>[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees) | 🟡 M | Dynamic Programming, Math | [C++](problems/0096.md) | O(N²) | O(N) |
 | 118 | 👑 **Pascal’s triangle**<br>[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | 🟢 E | Array | [C++](problems/0118.md) | O(N²) | O(1) |
 | 279 | 👑 **Lagrange’s four-square theorem**<br>[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](problems/0279.md) | O(N\*√N) | O(N) |

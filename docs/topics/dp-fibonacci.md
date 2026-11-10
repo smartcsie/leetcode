@@ -24,7 +24,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 E | Dp Fibonacci, Dynamic Programming Fibonacci, DP, Unbounded Knapsack (Permutation) | [C++](../problems/0070.md) | O(N) | O(1) |  |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 E | Dp Fibonacci | [C++](../problems/0070.md) | O(N) | O(1) |  |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 E | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](../problems/0070.md) | O(N) | O(N) |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 M | Dp Fibonacci | [C++](../problems/0198.md) | O(N) | O(1) |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 M | Dp Fibonacci | [C++](../problems/0198.md) | O(N) | O(N) |  |
