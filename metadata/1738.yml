@@ -12,3 +12,4 @@ solutions:
   time: O(M*N)
   space: O(M*N)
   familiarity: 生疏
+  official_solution: no-solution

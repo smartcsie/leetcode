@@ -31,6 +31,7 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: vector insert vector
+  official_solution: no-solution
 - file: Solution_1929_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -52,3 +53,4 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: vector resize
+  official_solution: no-solution

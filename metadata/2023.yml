@@ -13,3 +13,4 @@ solutions:
   time: O(N*L)
   space: O(N)
   familiarity: 生疏
+  official_solution: no-solution

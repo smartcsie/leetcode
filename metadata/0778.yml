@@ -11,3 +11,4 @@ solutions:
   time: O(N² log N)
   space: O(N²)
   familiarity: 生疏
+  official_solution: no-solution

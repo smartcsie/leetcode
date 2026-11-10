@@ -11,3 +11,4 @@ solutions:
   time: O(∏(balls[i]+1))
   space: O(K)
   familiarity: 生疏
+  official_solution: no-solution

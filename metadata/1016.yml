@@ -20,6 +20,7 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: int to binary string by format
+  official_solution: no-solution
 - file: Solution_1016_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -39,3 +40,4 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: int to binary string by bitset
+  official_solution: no-solution

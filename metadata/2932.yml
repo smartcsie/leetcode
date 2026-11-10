@@ -12,3 +12,4 @@ solutions:
   time: O(NlogN+N²)
   space: O(logN)
   familiarity: 生疏
+  official_solution: no-solution

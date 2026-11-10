@@ -1,0 +1,3938 @@
+{
+ "day-of-the-week": {
+  "frontend_id": 1185,
+  "has_editorial": false
+ },
+ "two-sum": {
+  "frontend_id": 1,
+  "has_editorial": true
+ },
+ "add-two-numbers": {
+  "frontend_id": 2,
+  "has_editorial": true
+ },
+ "longest-substring-without-repeating-characters": {
+  "frontend_id": 3,
+  "has_editorial": true
+ },
+ "median-of-two-sorted-arrays": {
+  "frontend_id": 4,
+  "has_editorial": true
+ },
+ "longest-palindromic-substring": {
+  "frontend_id": 5,
+  "has_editorial": true
+ },
+ "reverse-integer": {
+  "frontend_id": 7,
+  "has_editorial": true
+ },
+ "string-to-integer-atoi": {
+  "frontend_id": 8,
+  "has_editorial": true
+ },
+ "palindrome-number": {
+  "frontend_id": 9,
+  "has_editorial": true
+ },
+ "regular-expression-matching": {
+  "frontend_id": 10,
+  "has_editorial": true
+ },
+ "container-with-most-water": {
+  "frontend_id": 11,
+  "has_editorial": true
+ },
+ "integer-to-roman": {
+  "frontend_id": 12,
+  "has_editorial": true
+ },
+ "roman-to-integer": {
+  "frontend_id": 13,
+  "has_editorial": true
+ },
+ "longest-common-prefix": {
+  "frontend_id": 14,
+  "has_editorial": true
+ },
+ "3sum": {
+  "frontend_id": 15,
+  "has_editorial": true
+ },
+ "3sum-closest": {
+  "frontend_id": 16,
+  "has_editorial": true
+ },
+ "letter-combinations-of-a-phone-number": {
+  "frontend_id": 17,
+  "has_editorial": true
+ },
+ "4sum": {
+  "frontend_id": 18,
+  "has_editorial": true
+ },
+ "remove-nth-node-from-end-of-list": {
+  "frontend_id": 19,
+  "has_editorial": true
+ },
+ "valid-parentheses": {
+  "frontend_id": 20,
+  "has_editorial": true
+ },
+ "merge-two-sorted-lists": {
+  "frontend_id": 21,
+  "has_editorial": true
+ },
+ "generate-parentheses": {
+  "frontend_id": 22,
+  "has_editorial": true
+ },
+ "merge-k-sorted-lists": {
+  "frontend_id": 23,
+  "has_editorial": true
+ },
+ "swap-nodes-in-pairs": {
+  "frontend_id": 24,
+  "has_editorial": true
+ },
+ "reverse-nodes-in-k-group": {
+  "frontend_id": 25,
+  "has_editorial": true
+ },
+ "remove-duplicates-from-sorted-array": {
+  "frontend_id": 26,
+  "has_editorial": true
+ },
+ "remove-element": {
+  "frontend_id": 27,
+  "has_editorial": true
+ },
+ "find-the-index-of-the-first-occurrence-in-a-string": {
+  "frontend_id": 28,
+  "has_editorial": true
+ },
+ "divide-two-integers": {
+  "frontend_id": 29,
+  "has_editorial": true
+ },
+ "next-permutation": {
+  "frontend_id": 31,
+  "has_editorial": true
+ },
+ "longest-valid-parentheses": {
+  "frontend_id": 32,
+  "has_editorial": true
+ },
+ "search-in-rotated-sorted-array": {
+  "frontend_id": 33,
+  "has_editorial": true
+ },
+ "find-first-and-last-position-of-element-in-sorted-array": {
+  "frontend_id": 34,
+  "has_editorial": true
+ },
+ "search-insert-position": {
+  "frontend_id": 35,
+  "has_editorial": true
+ },
+ "valid-sudoku": {
+  "frontend_id": 36,
+  "has_editorial": true
+ },
+ "sudoku-solver": {
+  "frontend_id": 37,
+  "has_editorial": true
+ },
+ "combination-sum": {
+  "frontend_id": 39,
+  "has_editorial": true
+ },
+ "combination-sum-ii": {
+  "frontend_id": 40,
+  "has_editorial": true
+ },
+ "first-missing-positive": {
+  "frontend_id": 41,
+  "has_editorial": true
+ },
+ "multiply-strings": {
+  "frontend_id": 43,
+  "has_editorial": true
+ },
+ "wildcard-matching": {
+  "frontend_id": 44,
+  "has_editorial": true
+ },
+ "jump-game-ii": {
+  "frontend_id": 45,
+  "has_editorial": true
+ },
+ "permutations": {
+  "frontend_id": 46,
+  "has_editorial": true
+ },
+ "permutations-ii": {
+  "frontend_id": 47,
+  "has_editorial": true
+ },
+ "rotate-image": {
+  "frontend_id": 48,
+  "has_editorial": true
+ },
+ "group-anagrams": {
+  "frontend_id": 49,
+  "has_editorial": true
+ },
+ "n-queens": {
+  "frontend_id": 51,
+  "has_editorial": true
+ },
+ "maximum-subarray": {
+  "frontend_id": 53,
+  "has_editorial": true
+ },
+ "spiral-matrix": {
+  "frontend_id": 54,
+  "has_editorial": true
+ },
+ "jump-game": {
+  "frontend_id": 55,
+  "has_editorial": true
+ },
+ "merge-intervals": {
+  "frontend_id": 56,
+  "has_editorial": true
+ },
+ "insert-interval": {
+  "frontend_id": 57,
+  "has_editorial": true
+ },
+ "length-of-last-word": {
+  "frontend_id": 58,
+  "has_editorial": true
+ },
+ "spiral-matrix-ii": {
+  "frontend_id": 59,
+  "has_editorial": true
+ },
+ "permutation-sequence": {
+  "frontend_id": 60,
+  "has_editorial": true
+ },
+ "rotate-list": {
+  "frontend_id": 61,
+  "has_editorial": true
+ },
+ "unique-paths": {
+  "frontend_id": 62,
+  "has_editorial": true
+ },
+ "unique-paths-ii": {
+  "frontend_id": 63,
+  "has_editorial": true
+ },
+ "minimum-path-sum": {
+  "frontend_id": 64,
+  "has_editorial": true
+ },
+ "valid-number": {
+  "frontend_id": 65,
+  "has_editorial": true
+ },
+ "plus-one": {
+  "frontend_id": 66,
+  "has_editorial": true
+ },
+ "add-binary": {
+  "frontend_id": 67,
+  "has_editorial": true
+ },
+ "sqrtx": {
+  "frontend_id": 69,
+  "has_editorial": true
+ },
+ "climbing-stairs": {
+  "frontend_id": 70,
+  "has_editorial": true
+ },
+ "edit-distance": {
+  "frontend_id": 72,
+  "has_editorial": true
+ },
+ "set-matrix-zeroes": {
+  "frontend_id": 73,
+  "has_editorial": true
+ },
+ "search-a-2d-matrix": {
+  "frontend_id": 74,
+  "has_editorial": true
+ },
+ "sort-colors": {
+  "frontend_id": 75,
+  "has_editorial": true
+ },
+ "combinations": {
+  "frontend_id": 77,
+  "has_editorial": true
+ },
+ "subsets": {
+  "frontend_id": 78,
+  "has_editorial": true
+ },
+ "word-search": {
+  "frontend_id": 79,
+  "has_editorial": true
+ },
+ "remove-duplicates-from-sorted-array-ii": {
+  "frontend_id": 80,
+  "has_editorial": true
+ },
+ "search-in-rotated-sorted-array-ii": {
+  "frontend_id": 81,
+  "has_editorial": true
+ },
+ "remove-duplicates-from-sorted-list-ii": {
+  "frontend_id": 82,
+  "has_editorial": true
+ },
+ "remove-duplicates-from-sorted-list": {
+  "frontend_id": 83,
+  "has_editorial": true
+ },
+ "maximal-rectangle": {
+  "frontend_id": 85,
+  "has_editorial": true
+ },
+ "partition-list": {
+  "frontend_id": 86,
+  "has_editorial": true
+ },
+ "merge-sorted-array": {
+  "frontend_id": 88,
+  "has_editorial": true
+ },
+ "gray-code": {
+  "frontend_id": 89,
+  "has_editorial": true
+ },
+ "subsets-ii": {
+  "frontend_id": 90,
+  "has_editorial": true
+ },
+ "decode-ways": {
+  "frontend_id": 91,
+  "has_editorial": true
+ },
+ "reverse-linked-list-ii": {
+  "frontend_id": 92,
+  "has_editorial": true
+ },
+ "binary-tree-inorder-traversal": {
+  "frontend_id": 94,
+  "has_editorial": true
+ },
+ "unique-binary-search-trees-ii": {
+  "frontend_id": 95,
+  "has_editorial": true
+ },
+ "unique-binary-search-trees": {
+  "frontend_id": 96,
+  "has_editorial": true
+ },
+ "interleaving-string": {
+  "frontend_id": 97,
+  "has_editorial": true
+ },
+ "validate-binary-search-tree": {
+  "frontend_id": 98,
+  "has_editorial": true
+ },
+ "recover-binary-search-tree": {
+  "frontend_id": 99,
+  "has_editorial": true
+ },
+ "same-tree": {
+  "frontend_id": 100,
+  "has_editorial": true
+ },
+ "symmetric-tree": {
+  "frontend_id": 101,
+  "has_editorial": true
+ },
+ "binary-tree-level-order-traversal": {
+  "frontend_id": 102,
+  "has_editorial": true
+ },
+ "binary-zigzag-level-order-traversal": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "maximum-depth-of-binary-tree": {
+  "frontend_id": 104,
+  "has_editorial": true
+ },
+ "construct-binary-tree-from-preorder-and-inorder-traversal": {
+  "frontend_id": 105,
+  "has_editorial": true
+ },
+ "construct-binary-tree-from-inorder-and-postorder-traversal": {
+  "frontend_id": 106,
+  "has_editorial": true
+ },
+ "binary-tree-level-order-traversal-ii": {
+  "frontend_id": 107,
+  "has_editorial": true
+ },
+ "convert-sorted-array-to-binary-search-tree": {
+  "frontend_id": 108,
+  "has_editorial": true
+ },
+ "convert-sorted-list-to-binary-search-tree": {
+  "frontend_id": 109,
+  "has_editorial": true
+ },
+ "balanced-binary-tree": {
+  "frontend_id": 110,
+  "has_editorial": true
+ },
+ "minimum-depth-of-binary-tree": {
+  "frontend_id": 111,
+  "has_editorial": true
+ },
+ "path-sum": {
+  "frontend_id": 112,
+  "has_editorial": true
+ },
+ "path-sum-ii": {
+  "frontend_id": 113,
+  "has_editorial": true
+ },
+ "flatten-binary-tree-to-linked-list": {
+  "frontend_id": 114,
+  "has_editorial": true
+ },
+ "distinct-subsequences": {
+  "frontend_id": 115,
+  "has_editorial": true
+ },
+ "populating-next-right-pointers-in-each-node": {
+  "frontend_id": 116,
+  "has_editorial": true
+ },
+ "populating-next-right-pointers-in-each-node-ii": {
+  "frontend_id": 117,
+  "has_editorial": true
+ },
+ "pascals-triangle": {
+  "frontend_id": 118,
+  "has_editorial": true
+ },
+ "pascal-triangle-ii": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "triangle": {
+  "frontend_id": 120,
+  "has_editorial": true
+ },
+ "best-time-to-buy-and-sell-stock": {
+  "frontend_id": 121,
+  "has_editorial": true
+ },
+ "best-time-to-buy-and-sell-stock-ii": {
+  "frontend_id": 122,
+  "has_editorial": true
+ },
+ "best-time-to-buy-and-sell-stock-iii": {
+  "frontend_id": 123,
+  "has_editorial": true
+ },
+ "binary-tree-maximum-path-sum": {
+  "frontend_id": 124,
+  "has_editorial": true
+ },
+ "valid-palindrome": {
+  "frontend_id": 125,
+  "has_editorial": true
+ },
+ "word-ladder": {
+  "frontend_id": 127,
+  "has_editorial": true
+ },
+ "longest-consecutive-sequence": {
+  "frontend_id": 128,
+  "has_editorial": true
+ },
+ "sum-root-to-leaf-numbers": {
+  "frontend_id": 129,
+  "has_editorial": true
+ },
+ "palindrome-partitioning": {
+  "frontend_id": 131,
+  "has_editorial": true
+ },
+ "gas-station": {
+  "frontend_id": 134,
+  "has_editorial": true
+ },
+ "candy": {
+  "frontend_id": 135,
+  "has_editorial": true
+ },
+ "single-number": {
+  "frontend_id": 136,
+  "has_editorial": true
+ },
+ "single-number-ii": {
+  "frontend_id": 137,
+  "has_editorial": true
+ },
+ "word-break": {
+  "frontend_id": 139,
+  "has_editorial": true
+ },
+ "linked-list-cycle": {
+  "frontend_id": 141,
+  "has_editorial": true
+ },
+ "linked-list-cycle-ii": {
+  "frontend_id": 142,
+  "has_editorial": true
+ },
+ "reorder-list": {
+  "frontend_id": 143,
+  "has_editorial": true
+ },
+ "binary-tree-preorder-traversal": {
+  "frontend_id": 144,
+  "has_editorial": true
+ },
+ "binary-tree-postorder-traversal": {
+  "frontend_id": 145,
+  "has_editorial": true
+ },
+ "lru-cache": {
+  "frontend_id": 146,
+  "has_editorial": true
+ },
+ "insertion-sort-list": {
+  "frontend_id": 147,
+  "has_editorial": true
+ },
+ "sort-list": {
+  "frontend_id": 148,
+  "has_editorial": true
+ },
+ "evaluate-reverse-polish-notation": {
+  "frontend_id": 150,
+  "has_editorial": true
+ },
+ "reverse-words-in-a-string": {
+  "frontend_id": 151,
+  "has_editorial": true
+ },
+ "maximum-product-subarray": {
+  "frontend_id": 152,
+  "has_editorial": true
+ },
+ "find-minimum-in-rotated-sorted-array": {
+  "frontend_id": 153,
+  "has_editorial": true
+ },
+ "find-minimum-in-rotated-sorted-array-ii": {
+  "frontend_id": 154,
+  "has_editorial": true
+ },
+ "min-stack": {
+  "frontend_id": 155,
+  "has_editorial": true
+ },
+ "intersection-of-two-linked-lists": {
+  "frontend_id": 160,
+  "has_editorial": true
+ },
+ "find-peak-element": {
+  "frontend_id": 162,
+  "has_editorial": true
+ },
+ "maximum-gap": {
+  "frontend_id": 164,
+  "has_editorial": true
+ },
+ "two-sum-ii-input-array-is-sorted": {
+  "frontend_id": 167,
+  "has_editorial": true
+ },
+ "excel-sheet-column-title": {
+  "frontend_id": 168,
+  "has_editorial": true
+ },
+ "majority-element": {
+  "frontend_id": 169,
+  "has_editorial": true
+ },
+ "excel-sheet-column-number": {
+  "frontend_id": 171,
+  "has_editorial": true
+ },
+ "factorial-trailing-zeroes": {
+  "frontend_id": 172,
+  "has_editorial": true
+ },
+ "binary-search-tree-iterator": {
+  "frontend_id": 173,
+  "has_editorial": true
+ },
+ "largest-number": {
+  "frontend_id": 179,
+  "has_editorial": true
+ },
+ "duplicate-emails": {
+  "frontend_id": 182,
+  "has_editorial": true
+ },
+ "best-time-to-buy-and-sell-stock-iv": {
+  "frontend_id": 188,
+  "has_editorial": true
+ },
+ "rotate-array": {
+  "frontend_id": 189,
+  "has_editorial": true
+ },
+ "reverse-bits": {
+  "frontend_id": 190,
+  "has_editorial": true
+ },
+ "number-of-1-bits": {
+  "frontend_id": 191,
+  "has_editorial": true
+ },
+ "house-robber": {
+  "frontend_id": 198,
+  "has_editorial": true
+ },
+ "binary-tree-right-side-view": {
+  "frontend_id": 199,
+  "has_editorial": true
+ },
+ "number-of-islands": {
+  "frontend_id": 200,
+  "has_editorial": true
+ },
+ "bitwise-and-of-numbers-range": {
+  "frontend_id": 201,
+  "has_editorial": true
+ },
+ "remove-linked-list-elements": {
+  "frontend_id": 203,
+  "has_editorial": true
+ },
+ "isomorphic-strings": {
+  "frontend_id": 205,
+  "has_editorial": true
+ },
+ "reverse-linked-list": {
+  "frontend_id": 206,
+  "has_editorial": true
+ },
+ "course-schedule": {
+  "frontend_id": 207,
+  "has_editorial": true
+ },
+ "implement-trie": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "minimum-size-subarray-sum": {
+  "frontend_id": 209,
+  "has_editorial": true
+ },
+ "house-robber-ii": {
+  "frontend_id": 213,
+  "has_editorial": true
+ },
+ "kth-largest-element-in-an-array": {
+  "frontend_id": 215,
+  "has_editorial": true
+ },
+ "combination-sum-iii": {
+  "frontend_id": 216,
+  "has_editorial": true
+ },
+ "contains-duplicate": {
+  "frontend_id": 217,
+  "has_editorial": true
+ },
+ "contains-duplicate-ii": {
+  "frontend_id": 219,
+  "has_editorial": true
+ },
+ "contains-duplicate-iii": {
+  "frontend_id": 220,
+  "has_editorial": true
+ },
+ "maximal-square": {
+  "frontend_id": 221,
+  "has_editorial": true
+ },
+ "count-complete-tree-nodes": {
+  "frontend_id": 222,
+  "has_editorial": true
+ },
+ "implement-stack-using-queues": {
+  "frontend_id": 225,
+  "has_editorial": true
+ },
+ "invert-binary-tree": {
+  "frontend_id": 226,
+  "has_editorial": true
+ },
+ "summary-ranges": {
+  "frontend_id": 228,
+  "has_editorial": true
+ },
+ "majority-element-ii": {
+  "frontend_id": 229,
+  "has_editorial": true
+ },
+ "kth-smallest-element-in-a-bst": {
+  "frontend_id": 230,
+  "has_editorial": true
+ },
+ "power-of-two": {
+  "frontend_id": 231,
+  "has_editorial": true
+ },
+ "implement-queue-using-stacks": {
+  "frontend_id": 232,
+  "has_editorial": true
+ },
+ "number-of-digit-one": {
+  "frontend_id": 233,
+  "has_editorial": true
+ },
+ "palindrome-linked-list": {
+  "frontend_id": 234,
+  "has_editorial": true
+ },
+ "lowest-common-ancestor-of-a-binary-search-tree": {
+  "frontend_id": 235,
+  "has_editorial": true
+ },
+ "lowest-common-ancestor-of-a-binary-tree": {
+  "frontend_id": 236,
+  "has_editorial": true
+ },
+ "delete-node-in-a-linked-list": {
+  "frontend_id": 237,
+  "has_editorial": true
+ },
+ "product-of-array-except-self": {
+  "frontend_id": 238,
+  "has_editorial": true
+ },
+ "sliding-window-maximum": {
+  "frontend_id": 239,
+  "has_editorial": true
+ },
+ "valid-anagram": {
+  "frontend_id": 242,
+  "has_editorial": true
+ },
+ "binary-tree-path": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "add-digits": {
+  "frontend_id": 258,
+  "has_editorial": true
+ },
+ "single-number-iii": {
+  "frontend_id": 260,
+  "has_editorial": true
+ },
+ "ugly-number": {
+  "frontend_id": 263,
+  "has_editorial": true
+ },
+ "ugly-number-ii": {
+  "frontend_id": 264,
+  "has_editorial": true
+ },
+ "missing-number": {
+  "frontend_id": 268,
+  "has_editorial": true
+ },
+ "h-index-ii": {
+  "frontend_id": 275,
+  "has_editorial": true
+ },
+ "first-bad-version": {
+  "frontend_id": 278,
+  "has_editorial": true
+ },
+ "perfect-squares": {
+  "frontend_id": 279,
+  "has_editorial": true
+ },
+ "move-zeroes": {
+  "frontend_id": 283,
+  "has_editorial": true
+ },
+ "find-the-duplicate-number": {
+  "frontend_id": 287,
+  "has_editorial": true
+ },
+ "word-pattern": {
+  "frontend_id": 290,
+  "has_editorial": true
+ },
+ "nim-game": {
+  "frontend_id": 292,
+  "has_editorial": true
+ },
+ "longest-increasing-subsequence": {
+  "frontend_id": 300,
+  "has_editorial": true
+ },
+ "range-sum-query-immutable": {
+  "frontend_id": 303,
+  "has_editorial": true
+ },
+ "range-sum-query-2d-immutable": {
+  "frontend_id": 304,
+  "has_editorial": true
+ },
+ "best-time-to-buy-and-sell-stock-with-cooldown": {
+  "frontend_id": 309,
+  "has_editorial": true
+ },
+ "burst-balloons": {
+  "frontend_id": 312,
+  "has_editorial": true
+ },
+ "super-ugly-number": {
+  "frontend_id": 313,
+  "has_editorial": false
+ },
+ "remove-duplicate-letters": {
+  "frontend_id": 316,
+  "has_editorial": true
+ },
+ "maximum-product-of-word-lengths": {
+  "frontend_id": 318,
+  "has_editorial": true
+ },
+ "coin-change": {
+  "frontend_id": 322,
+  "has_editorial": true
+ },
+ "wiggle-sort-ii": {
+  "frontend_id": 324,
+  "has_editorial": false
+ },
+ "power-of-three": {
+  "frontend_id": 326,
+  "has_editorial": true
+ },
+ "odd-even-linked-list": {
+  "frontend_id": 328,
+  "has_editorial": true
+ },
+ "house-robber-iii": {
+  "frontend_id": 337,
+  "has_editorial": true
+ },
+ "counting-bits": {
+  "frontend_id": 338,
+  "has_editorial": true
+ },
+ "power-of-four": {
+  "frontend_id": 342,
+  "has_editorial": true
+ },
+ "integer-break": {
+  "frontend_id": 343,
+  "has_editorial": true
+ },
+ "reverse-string": {
+  "frontend_id": 344,
+  "has_editorial": true
+ },
+ "reverse-vowels-of-a-string": {
+  "frontend_id": 345,
+  "has_editorial": true
+ },
+ "top-k-frequent-elements": {
+  "frontend_id": 347,
+  "has_editorial": true
+ },
+ "intersection-of-two-arrays": {
+  "frontend_id": 349,
+  "has_editorial": true
+ },
+ "intersection-of-two-arrays-ii": {
+  "frontend_id": 350,
+  "has_editorial": true
+ },
+ "russian-doll-envelopes": {
+  "frontend_id": 354,
+  "has_editorial": true
+ },
+ "count-numbers-with-unique-digits": {
+  "frontend_id": 357,
+  "has_editorial": false
+ },
+ "water-and-jug-problem": {
+  "frontend_id": 365,
+  "has_editorial": false
+ },
+ "valid-perfect-square": {
+  "frontend_id": 367,
+  "has_editorial": true
+ },
+ "sum-of-two-integers": {
+  "frontend_id": 371,
+  "has_editorial": true
+ },
+ "find-k-pairs-with-smallest-sum": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "guess-number-higher-or-lower": {
+  "frontend_id": 374,
+  "has_editorial": true
+ },
+ "guess-number-higher-or-lower-ii": {
+  "frontend_id": 375,
+  "has_editorial": true
+ },
+ "combination-sum-iv": {
+  "frontend_id": 377,
+  "has_editorial": true
+ },
+ "kth-smallest-element-in-a-sorted-matrix": {
+  "frontend_id": 378,
+  "has_editorial": true
+ },
+ "ransom-note": {
+  "frontend_id": 383,
+  "has_editorial": true
+ },
+ "first-unique-character-in-a-string": {
+  "frontend_id": 387,
+  "has_editorial": true
+ },
+ "find-the-difference": {
+  "frontend_id": 389,
+  "has_editorial": true
+ },
+ "is-subsequence": {
+  "frontend_id": 392,
+  "has_editorial": true
+ },
+ "rotate-function": {
+  "frontend_id": 396,
+  "has_editorial": true
+ },
+ "integer-replacement": {
+  "frontend_id": 397,
+  "has_editorial": false
+ },
+ "binary-watch": {
+  "frontend_id": 401,
+  "has_editorial": true
+ },
+ "remove-k-digits": {
+  "frontend_id": 402,
+  "has_editorial": true
+ },
+ "sum-of-left-leaves": {
+  "frontend_id": 404,
+  "has_editorial": true
+ },
+ "queue-reconstruction-by-height": {
+  "frontend_id": 406,
+  "has_editorial": true
+ },
+ "longest-palindrome": {
+  "frontend_id": 409,
+  "has_editorial": true
+ },
+ "split-array-largest-sum": {
+  "frontend_id": 410,
+  "has_editorial": true
+ },
+ "fizz-buzz": {
+  "frontend_id": 412,
+  "has_editorial": true
+ },
+ "third-maximum-number": {
+  "frontend_id": 414,
+  "has_editorial": true
+ },
+ "add-strings": {
+  "frontend_id": 415,
+  "has_editorial": true
+ },
+ "partition-equal-subset-sum": {
+  "frontend_id": 416,
+  "has_editorial": true
+ },
+ "maximum-xor-of-two-numbers-in-an-array": {
+  "frontend_id": 421,
+  "has_editorial": true
+ },
+ "longest-repeating-character-replacement": {
+  "frontend_id": 424,
+  "has_editorial": true
+ },
+ "n-ary-tree-level-order-traversal": {
+  "frontend_id": 429,
+  "has_editorial": true
+ },
+ "number-of-segments-in-a-string": {
+  "frontend_id": 434,
+  "has_editorial": true
+ },
+ "non-overlapping-intervals": {
+  "frontend_id": 435,
+  "has_editorial": true
+ },
+ "path-sum-iii": {
+  "frontend_id": 437,
+  "has_editorial": true
+ },
+ "arranging-coins": {
+  "frontend_id": 441,
+  "has_editorial": true
+ },
+ "find-all-duplicates-in-an-array": {
+  "frontend_id": 442,
+  "has_editorial": true
+ },
+ "string-compression": {
+  "frontend_id": 443,
+  "has_editorial": true
+ },
+ "add-two-numbers-ii": {
+  "frontend_id": 445,
+  "has_editorial": true
+ },
+ "arithmetic-slices-ii-subsequence": {
+  "frontend_id": 446,
+  "has_editorial": true
+ },
+ "find-all-numbers-disappeared-in-an-array": {
+  "frontend_id": 448,
+  "has_editorial": true
+ },
+ "sort-characters-by-frequency": {
+  "frontend_id": 451,
+  "has_editorial": true
+ },
+ "minimum-number-of-arrows-to-burst-balloons": {
+  "frontend_id": 452,
+  "has_editorial": true
+ },
+ "minimum-moves-to-equal-array-elements": {
+  "frontend_id": 453,
+  "has_editorial": true
+ },
+ "4sum-ii": {
+  "frontend_id": 454,
+  "has_editorial": true
+ },
+ "assign-cookies": {
+  "frontend_id": 455,
+  "has_editorial": true
+ },
+ "repeated-substring-pattern": {
+  "frontend_id": 459,
+  "has_editorial": true
+ },
+ "hamming-distance": {
+  "frontend_id": 461,
+  "has_editorial": true
+ },
+ "minimum-moves-to-equal-array-elements-ii": {
+  "frontend_id": 462,
+  "has_editorial": true
+ },
+ "can-i-win": {
+  "frontend_id": 464,
+  "has_editorial": false
+ },
+ "ones-and-zeros": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "number-complement": {
+  "frontend_id": 476,
+  "has_editorial": true
+ },
+ "total-hamming-distance": {
+  "frontend_id": 477,
+  "has_editorial": true
+ },
+ "predict-the-winner": {
+  "frontend_id": 486,
+  "has_editorial": true
+ },
+ "target-sum": {
+  "frontend_id": 494,
+  "has_editorial": true
+ },
+ "next-greater-element-i": {
+  "frontend_id": 496,
+  "has_editorial": true
+ },
+ "keyboard-row": {
+  "frontend_id": 500,
+  "has_editorial": false
+ },
+ "find-mode-in-binary-search-tree": {
+  "frontend_id": 501,
+  "has_editorial": true
+ },
+ "ipo": {
+  "frontend_id": 502,
+  "has_editorial": true
+ },
+ "next-greater-element-ii": {
+  "frontend_id": 503,
+  "has_editorial": true
+ },
+ "base-7": {
+  "frontend_id": 504,
+  "has_editorial": false
+ },
+ "relative-ranks": {
+  "frontend_id": 506,
+  "has_editorial": true
+ },
+ "perfect-number": {
+  "frontend_id": 507,
+  "has_editorial": true
+ },
+ "fibonacci-number": {
+  "frontend_id": 509,
+  "has_editorial": true
+ },
+ "find-bottom-left-tree-value": {
+  "frontend_id": 513,
+  "has_editorial": true
+ },
+ "find-largest-value-in-each-tree-row": {
+  "frontend_id": 515,
+  "has_editorial": true
+ },
+ "longest-palindromic-subsequence": {
+  "frontend_id": 516,
+  "has_editorial": true
+ },
+ "coin-change-ii": {
+  "frontend_id": 518,
+  "has_editorial": true
+ },
+ "detect-capital": {
+  "frontend_id": 520,
+  "has_editorial": true
+ },
+ "continuous-subarray-sum": {
+  "frontend_id": 523,
+  "has_editorial": true
+ },
+ "longest-word-in-dictionary-through-deleting": {
+  "frontend_id": 524,
+  "has_editorial": true
+ },
+ "beautiful-arrangement": {
+  "frontend_id": 526,
+  "has_editorial": true
+ },
+ "minimum-absolute-difference-in-bst": {
+  "frontend_id": 530,
+  "has_editorial": true
+ },
+ "k-diff-pairs-in-an-array": {
+  "frontend_id": 532,
+  "has_editorial": true
+ },
+ "convert-bst-to-greater-tree": {
+  "frontend_id": 538,
+  "has_editorial": true
+ },
+ "minimum-time-difference": {
+  "frontend_id": 539,
+  "has_editorial": true
+ },
+ "single-element-in-a-sorted-array": {
+  "frontend_id": 540,
+  "has_editorial": true
+ },
+ "reverse-string-ii": {
+  "frontend_id": 541,
+  "has_editorial": true
+ },
+ "diameter-of-binary-tree": {
+  "frontend_id": 543,
+  "has_editorial": true
+ },
+ "number-of-provinces": {
+  "frontend_id": 547,
+  "has_editorial": true
+ },
+ "next-greater-element-iii": {
+  "frontend_id": 556,
+  "has_editorial": true
+ },
+ "reverse-words-in-a-string-iii": {
+  "frontend_id": 557,
+  "has_editorial": true
+ },
+ "maximum-depth-of-n-ary-tree": {
+  "frontend_id": 559,
+  "has_editorial": true
+ },
+ "subarray-sum-equals-k": {
+  "frontend_id": 560,
+  "has_editorial": true
+ },
+ "array-partition": {
+  "frontend_id": 561,
+  "has_editorial": true
+ },
+ "binary-tree-tilt": {
+  "frontend_id": 563,
+  "has_editorial": true
+ },
+ "reshape-the-matrix": {
+  "frontend_id": 566,
+  "has_editorial": true
+ },
+ "permutation-in-string": {
+  "frontend_id": 567,
+  "has_editorial": true
+ },
+ "subtree-of-another-tree": {
+  "frontend_id": 572,
+  "has_editorial": true
+ },
+ "distribute-candies": {
+  "frontend_id": 575,
+  "has_editorial": true
+ },
+ "shortest-unsorted-continuous-subarray": {
+  "frontend_id": 581,
+  "has_editorial": true
+ },
+ "delete-operation-for-two-strings": {
+  "frontend_id": 583,
+  "has_editorial": true
+ },
+ "n-ary-tree-preorder-traversal": {
+  "frontend_id": 589,
+  "has_editorial": true
+ },
+ "n-ary-tree-postorder-traversal": {
+  "frontend_id": 590,
+  "has_editorial": true
+ },
+ "longest-harmonious-subsequence": {
+  "frontend_id": 594,
+  "has_editorial": true
+ },
+ "minimum-index-sum-of-two-lists": {
+  "frontend_id": 599,
+  "has_editorial": true
+ },
+ "can-place-flowers": {
+  "frontend_id": 605,
+  "has_editorial": true
+ },
+ "construct-string-from-binary-tree": {
+  "frontend_id": 606,
+  "has_editorial": true
+ },
+ "valid-triangle-number": {
+  "frontend_id": 611,
+  "has_editorial": true
+ },
+ "merge-two-binary-trees": {
+  "frontend_id": 617,
+  "has_editorial": true
+ },
+ "task-scheduler": {
+  "frontend_id": 621,
+  "has_editorial": true
+ },
+ "maximum-distance-in-arrays": {
+  "frontend_id": 624,
+  "has_editorial": true
+ },
+ "maximum-product-of-three-numbers": {
+  "frontend_id": 628,
+  "has_editorial": true
+ },
+ "course-schedule-iii": {
+  "frontend_id": 630,
+  "has_editorial": true
+ },
+ "sum-of-square-numbers": {
+  "frontend_id": 633,
+  "has_editorial": true
+ },
+ "average-of-levels-in-binary-tree": {
+  "frontend_id": 637,
+  "has_editorial": true
+ },
+ "shopping-offers": {
+  "frontend_id": 638,
+  "has_editorial": false
+ },
+ "maximum-average-subarray-i": {
+  "frontend_id": 643,
+  "has_editorial": true
+ },
+ "set-mismatch": {
+  "frontend_id": 645,
+  "has_editorial": true
+ },
+ "maximum-length-of-pair-chain": {
+  "frontend_id": 646,
+  "has_editorial": true
+ },
+ "palindromic-substrings": {
+  "frontend_id": 647,
+  "has_editorial": true
+ },
+ "replace-words": {
+  "frontend_id": 648,
+  "has_editorial": true
+ },
+ "find-duplicate-subtrees": {
+  "frontend_id": 652,
+  "has_editorial": true
+ },
+ "two-sum-iv-input-is-a-bst": {
+  "frontend_id": 653,
+  "has_editorial": true
+ },
+ "maximum-width-of-binary-tree": {
+  "frontend_id": 662,
+  "has_editorial": true
+ },
+ "maximum-swap": {
+  "frontend_id": 670,
+  "has_editorial": true
+ },
+ "second-minimum-node-in-a-binary-tree": {
+  "frontend_id": 671,
+  "has_editorial": false
+ },
+ "number-of-longest-increasing-subsequence": {
+  "frontend_id": 673,
+  "has_editorial": true
+ },
+ "longest-continuous-increasing-subsequence": {
+  "frontend_id": 674,
+  "has_editorial": true
+ },
+ "valid-parenthesis-string": {
+  "frontend_id": 678,
+  "has_editorial": true
+ },
+ "valid-palindrome-ii": {
+  "frontend_id": 680,
+  "has_editorial": true
+ },
+ "baseball-game": {
+  "frontend_id": 682,
+  "has_editorial": true
+ },
+ "longest-univalue-path": {
+  "frontend_id": 687,
+  "has_editorial": true
+ },
+ "knight-probability-in-chessboard": {
+  "frontend_id": 688,
+  "has_editorial": true
+ },
+ "top-k-frequent-words": {
+  "frontend_id": 692,
+  "has_editorial": true
+ },
+ "binary-number-with-alternating-bits": {
+  "frontend_id": 693,
+  "has_editorial": true
+ },
+ "count-binary-substrings": {
+  "frontend_id": 696,
+  "has_editorial": true
+ },
+ "degree-of-an-array": {
+  "frontend_id": 697,
+  "has_editorial": true
+ },
+ "partition-to-k-equal-sum-subsets": {
+  "frontend_id": 698,
+  "has_editorial": true
+ },
+ "search-in-a-binary-search-tree": {
+  "frontend_id": 700,
+  "has_editorial": true
+ },
+ "insert-into-a-binary-search-tree": {
+  "frontend_id": 701,
+  "has_editorial": true
+ },
+ "kth-largest-element-in-a-stream": {
+  "frontend_id": 703,
+  "has_editorial": true
+ },
+ "binary-search": {
+  "frontend_id": 704,
+  "has_editorial": true
+ },
+ "design-hashset": {
+  "frontend_id": 705,
+  "has_editorial": true
+ },
+ "design-hashmap": {
+  "frontend_id": 706,
+  "has_editorial": true
+ },
+ "to-lower-case": {
+  "frontend_id": 709,
+  "has_editorial": true
+ },
+ "minimum-ascii-delete-sum-for-two-strings": {
+  "frontend_id": 712,
+  "has_editorial": true
+ },
+ "best-time-to-buy-and-sell-stock-with-transaction-fee": {
+  "frontend_id": 714,
+  "has_editorial": true
+ },
+ "maximum-length-of-repeated-subarray": {
+  "frontend_id": 718,
+  "has_editorial": true
+ },
+ "find-pivot-index": {
+  "frontend_id": 724,
+  "has_editorial": true
+ },
+ "self-dividing-numbers": {
+  "frontend_id": 728,
+  "has_editorial": true
+ },
+ "monotone-increasing-digits": {
+  "frontend_id": 738,
+  "has_editorial": false
+ },
+ "daily-temperatures": {
+  "frontend_id": 739,
+  "has_editorial": true
+ },
+ "network-delay-time": {
+  "frontend_id": 743,
+  "has_editorial": true
+ },
+ "find-smallest-letter-greater-than-target": {
+  "frontend_id": 744,
+  "has_editorial": true
+ },
+ "min-cost-climbing-stairs": {
+  "frontend_id": 746,
+  "has_editorial": true
+ },
+ "largest-number-at-least-twice-of-others": {
+  "frontend_id": 747,
+  "has_editorial": false
+ },
+ "shortest-completing-word": {
+  "frontend_id": 748,
+  "has_editorial": false
+ },
+ "prime-number-of-set-bits-in-binary-representation": {
+  "frontend_id": 762,
+  "has_editorial": false
+ },
+ "partition-labels": {
+  "frontend_id": 763,
+  "has_editorial": true
+ },
+ "couples-holding-hands": {
+  "frontend_id": 765,
+  "has_editorial": true
+ },
+ "reorganize-string": {
+  "frontend_id": 767,
+  "has_editorial": true
+ },
+ "jewels-and-stones": {
+  "frontend_id": 771,
+  "has_editorial": true
+ },
+ "swap-adjacent-in-lr-string": {
+  "frontend_id": 777,
+  "has_editorial": false
+ },
+ "swim-in-rising-water": {
+  "frontend_id": 778,
+  "has_editorial": false
+ },
+ "minimum-distance-between-bst-nodes": {
+  "frontend_id": 783,
+  "has_editorial": true
+ },
+ "letter-case-permutation": {
+  "frontend_id": 784,
+  "has_editorial": true
+ },
+ "k-th-smallest-prime-fraction": {
+  "frontend_id": 786,
+  "has_editorial": true
+ },
+ "cheapest-flights-within-k-stops": {
+  "frontend_id": 787,
+  "has_editorial": true
+ },
+ "custom-sort-string": {
+  "frontend_id": 791,
+  "has_editorial": true
+ },
+ "rotate-string": {
+  "frontend_id": 796,
+  "has_editorial": true
+ },
+ "unique-morse-code-words": {
+  "frontend_id": 804,
+  "has_editorial": true
+ },
+ "number-of-lines-to-write-string": {
+  "frontend_id": 806,
+  "has_editorial": true
+ },
+ "soup-servings": {
+  "frontend_id": 808,
+  "has_editorial": true
+ },
+ "chalkboard-xor-game": {
+  "frontend_id": 810,
+  "has_editorial": true
+ },
+ "largest-triangle-area": {
+  "frontend_id": 812,
+  "has_editorial": false
+ },
+ "most-common-word": {
+  "frontend_id": 819,
+  "has_editorial": true
+ },
+ "shortest-distance-to-a-character": {
+  "frontend_id": 821,
+  "has_editorial": true
+ },
+ "positions-of-large-groups": {
+  "frontend_id": 830,
+  "has_editorial": true
+ },
+ "flipping-an-image": {
+  "frontend_id": 832,
+  "has_editorial": true
+ },
+ "find-and-replace-in-string": {
+  "frontend_id": 833,
+  "has_editorial": false
+ },
+ "rectangle-overlap": {
+  "frontend_id": 836,
+  "has_editorial": true
+ },
+ "new-21-game": {
+  "frontend_id": 837,
+  "has_editorial": false
+ },
+ "backspace-string-compare": {
+  "frontend_id": 844,
+  "has_editorial": true
+ },
+ "hand-of-straights": {
+  "frontend_id": 846,
+  "has_editorial": true
+ },
+ "shortest-path-visiting-all-nodes": {
+  "frontend_id": 847,
+  "has_editorial": true
+ },
+ "shifting-letters": {
+  "frontend_id": 848,
+  "has_editorial": true
+ },
+ "peak-index-in-a-mountain-array": {
+  "frontend_id": 852,
+  "has_editorial": true
+ },
+ "buddy-strings": {
+  "frontend_id": 859,
+  "has_editorial": true
+ },
+ "lemonade-change": {
+  "frontend_id": 860,
+  "has_editorial": true
+ },
+ "all-nodes-distance-k-in-binary-tree": {
+  "frontend_id": 863,
+  "has_editorial": true
+ },
+ "transpose-matrix": {
+  "frontend_id": 867,
+  "has_editorial": true
+ },
+ "binary-gap": {
+  "frontend_id": 868,
+  "has_editorial": true
+ },
+ "minimum-number-of-refueling-stops": {
+  "frontend_id": 871,
+  "has_editorial": true
+ },
+ "leaf-similar-trees": {
+  "frontend_id": 872,
+  "has_editorial": true
+ },
+ "middle-of-the-linked-list": {
+  "frontend_id": 876,
+  "has_editorial": true
+ },
+ "stone-game": {
+  "frontend_id": 877,
+  "has_editorial": true
+ },
+ "boats-to-save-people": {
+  "frontend_id": 881,
+  "has_editorial": true
+ },
+ "uncommon-words-from-two-sentences": {
+  "frontend_id": 884,
+  "has_editorial": true
+ },
+ "fair-candy-swap": {
+  "frontend_id": 888,
+  "has_editorial": true
+ },
+ "construct-binary-tree-from-preorder-and-postorder-traversal": {
+  "frontend_id": 889,
+  "has_editorial": true
+ },
+ "monotonic-array": {
+  "frontend_id": 896,
+  "has_editorial": true
+ },
+ "increasing-order-search-tree": {
+  "frontend_id": 897,
+  "has_editorial": true
+ },
+ "bitwise-or-s-of-subarrays": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "orderly-queue": {
+  "frontend_id": 899,
+  "has_editorial": true
+ },
+ "numbers-at-most-n-given-digit-set": {
+  "frontend_id": 902,
+  "has_editorial": true
+ },
+ "sort-array-by-parity": {
+  "frontend_id": 905,
+  "has_editorial": true
+ },
+ "sort-an-array": {
+  "frontend_id": 912,
+  "has_editorial": true
+ },
+ "x-of-a-kind-in-a-deck-of-cards": {
+  "frontend_id": 914,
+  "has_editorial": true
+ },
+ "word-subsets": {
+  "frontend_id": 916,
+  "has_editorial": true
+ },
+ "reverse-only-letters": {
+  "frontend_id": 917,
+  "has_editorial": true
+ },
+ "maximum-subarray-sum-circular": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "minimum-add-to-make-parentheses-valid": {
+  "frontend_id": 921,
+  "has_editorial": true
+ },
+ "sort-array-by-parity-ii": {
+  "frontend_id": 922,
+  "has_editorial": true
+ },
+ "flip-string-to-monotone-increasing": {
+  "frontend_id": 926,
+  "has_editorial": true
+ },
+ "binary-subarrays-with-sum": {
+  "frontend_id": 930,
+  "has_editorial": true
+ },
+ "minimum-falling-path-sum": {
+  "frontend_id": 931,
+  "has_editorial": true
+ },
+ "range-sum-of-bst": {
+  "frontend_id": 938,
+  "has_editorial": true
+ },
+ "minimum-area-rectangle": {
+  "frontend_id": 939,
+  "has_editorial": false
+ },
+ "distinct-subsequences-ii": {
+  "frontend_id": 940,
+  "has_editorial": true
+ },
+ "valid-mountain-array": {
+  "frontend_id": 941,
+  "has_editorial": true
+ },
+ "di-string-match": {
+  "frontend_id": 942,
+  "has_editorial": true
+ },
+ "find-the-shortest-superstring": {
+  "frontend_id": 943,
+  "has_editorial": true
+ },
+ "delete-columns-to-make-sorted": {
+  "frontend_id": 944,
+  "has_editorial": true
+ },
+ "minimum-increment-to-make-array-unique": {
+  "frontend_id": 945,
+  "has_editorial": true
+ },
+ "largest-time-for-given-digits": {
+  "frontend_id": 949,
+  "has_editorial": true
+ },
+ "flip-equivalent-binary-trees": {
+  "frontend_id": 951,
+  "has_editorial": true
+ },
+ "n-repeated-element-in-size-2n-array": {
+  "frontend_id": 961,
+  "has_editorial": true
+ },
+ "univalued-binary-tree": {
+  "frontend_id": 965,
+  "has_editorial": true
+ },
+ "binary-tree-cameras": {
+  "frontend_id": 968,
+  "has_editorial": true
+ },
+ "powerful-integers": {
+  "frontend_id": 970,
+  "has_editorial": true
+ },
+ "k-closest-points-to-origin": {
+  "frontend_id": 973,
+  "has_editorial": true
+ },
+ "largest-perimeter-triangle": {
+  "frontend_id": 976,
+  "has_editorial": true
+ },
+ "squares-of-a-sorted-array": {
+  "frontend_id": 977,
+  "has_editorial": true
+ },
+ "unique-paths-iii": {
+  "frontend_id": 980,
+  "has_editorial": true
+ },
+ "minimum-cost-for-tickets": {
+  "frontend_id": 983,
+  "has_editorial": true
+ },
+ "string-without-aaa-or-bbb": {
+  "frontend_id": 984,
+  "has_editorial": true
+ },
+ "interval-list-intersections": {
+  "frontend_id": 986,
+  "has_editorial": true
+ },
+ "smallest-string-starting-from-leaf": {
+  "frontend_id": 988,
+  "has_editorial": true
+ },
+ "add-to-array-form-of-integer": {
+  "frontend_id": 989,
+  "has_editorial": true
+ },
+ "cousins-in-binary-tree": {
+  "frontend_id": 993,
+  "has_editorial": true
+ },
+ "find-the-town-judge": {
+  "frontend_id": 997,
+  "has_editorial": true
+ },
+ "minimum-cost-to-merge-stones": {
+  "frontend_id": 1000,
+  "has_editorial": false
+ },
+ "find-common-characters": {
+  "frontend_id": 1002,
+  "has_editorial": true
+ },
+ "check-if-word-is-valid-after-substitutions": {
+  "frontend_id": 1003,
+  "has_editorial": false
+ },
+ "max-consecutive-ones-iii": {
+  "frontend_id": 1004,
+  "has_editorial": true
+ },
+ "maximize-sum-of-array-after-k-negations": {
+  "frontend_id": 1005,
+  "has_editorial": false
+ },
+ "construct-binary-search-tree-from-preorder-traversal": {
+  "frontend_id": 1008,
+  "has_editorial": true
+ },
+ "complement-of-base-10-integer": {
+  "frontend_id": 1009,
+  "has_editorial": true
+ },
+ "numbers-with-repeated-digits": {
+  "frontend_id": 1012,
+  "has_editorial": false
+ },
+ "partition-array-into-three-parts-with-equal-sum": {
+  "frontend_id": 1013,
+  "has_editorial": false
+ },
+ "smallest-integer-divisible-by-k": {
+  "frontend_id": 1015,
+  "has_editorial": true
+ },
+ "binary-string-with-substrings-representing-1-to-n": {
+  "frontend_id": 1016,
+  "has_editorial": false
+ },
+ "convert-to-base-2": {
+  "frontend_id": 1017,
+  "has_editorial": false
+ },
+ "binary-prefix-divisible-by-5": {
+  "frontend_id": 1018,
+  "has_editorial": true
+ },
+ "next-greater-node-in-linked-list": {
+  "frontend_id": 1019,
+  "has_editorial": true
+ },
+ "remove-outermost-parentheses": {
+  "frontend_id": 1021,
+  "has_editorial": true
+ },
+ "sum-of-root-to-leaf-binary-numbers": {
+  "frontend_id": 1022,
+  "has_editorial": true
+ },
+ "divisor-game": {
+  "frontend_id": 1025,
+  "has_editorial": false
+ },
+ "maximum-difference-between-node-and-ancestor": {
+  "frontend_id": 1026,
+  "has_editorial": true
+ },
+ "two-city-scheduling": {
+  "frontend_id": 1029,
+  "has_editorial": true
+ },
+ "uncrossed-lines": {
+  "frontend_id": 1035,
+  "has_editorial": true
+ },
+ "binary-search-tree-to-greater-sum-tree": {
+  "frontend_id": 1038,
+  "has_editorial": true
+ },
+ "minimum-score-triangulation-of-polygon": {
+  "frontend_id": 1039,
+  "has_editorial": true
+ },
+ "last-stone-weight": {
+  "frontend_id": 1046,
+  "has_editorial": true
+ },
+ "remove-all-adjacent-duplicates-in-string": {
+  "frontend_id": 1047,
+  "has_editorial": true
+ },
+ "last-stone-weight-ii": {
+  "frontend_id": 1049,
+  "has_editorial": false
+ },
+ "height-checker": {
+  "frontend_id": 1051,
+  "has_editorial": true
+ },
+ "lexicographically-smallest-equivalent-string": {
+  "frontend_id": 1061,
+  "has_editorial": true
+ },
+ "greatest-common-divisor-of-strings": {
+  "frontend_id": 1071,
+  "has_editorial": true
+ },
+ "occurrences-after-bigram": {
+  "frontend_id": 1078,
+  "has_editorial": false
+ },
+ "smallest-subsequence-of-distinct-characters": {
+  "frontend_id": 1081,
+  "has_editorial": true
+ },
+ "duplicate-zeros": {
+  "frontend_id": 1089,
+  "has_editorial": true
+ },
+ "shortest-common-supersequence": {
+  "frontend_id": 1092,
+  "has_editorial": true
+ },
+ "car-pooling": {
+  "frontend_id": 1094,
+  "has_editorial": true
+ },
+ "defanging-an-ip-address": {
+  "frontend_id": 1108,
+  "has_editorial": false
+ },
+ "corporate-flight-bookings": {
+  "frontend_id": 1109,
+  "has_editorial": false
+ },
+ "relative-sort-array": {
+  "frontend_id": 1122,
+  "has_editorial": true
+ },
+ "smallest-sufficient-team": {
+  "frontend_id": 1125,
+  "has_editorial": true
+ },
+ "minimum-cost-tree-from-leaf-values": {
+  "frontend_id": 1130,
+  "has_editorial": false
+ },
+ "n-th-tribonacci-number": {
+  "frontend_id": 1137,
+  "has_editorial": true
+ },
+ "stone-game-ii": {
+  "frontend_id": 1140,
+  "has_editorial": true
+ },
+ "longest-common-subsequence": {
+  "frontend_id": 1143,
+  "has_editorial": true
+ },
+ "find-words-that-can-be-formed-by-characters": {
+  "frontend_id": 1160,
+  "has_editorial": true
+ },
+ "maximum-level-sum-of-a-binary-tree": {
+  "frontend_id": 1161,
+  "has_editorial": true
+ },
+ "compare-strings-by-frequency-of-the-smallest-character": {
+  "frontend_id": 1170,
+  "has_editorial": false
+ },
+ "maximum-number-of-balloons": {
+  "frontend_id": 1189,
+  "has_editorial": true
+ },
+ "minimum-absolute-difference": {
+  "frontend_id": 1200,
+  "has_editorial": true
+ },
+ "ugly-number-iii": {
+  "frontend_id": 1201,
+  "has_editorial": false
+ },
+ "unique-number-of-occurrences": {
+  "frontend_id": 1207,
+  "has_editorial": true
+ },
+ "remove-all-adjacent-duplicates-in-string-ii": {
+  "frontend_id": 1209,
+  "has_editorial": true
+ },
+ "minimum-moves-to-reach-target-with-rotations": {
+  "frontend_id": 1210,
+  "has_editorial": false
+ },
+ "path-with-maximum-gold": {
+  "frontend_id": 1219,
+  "has_editorial": true
+ },
+ "check-if-it-is-a-straight-line": {
+  "frontend_id": 1232,
+  "has_editorial": true
+ },
+ "circular-permutation-in-binary-representation": {
+  "frontend_id": 1238,
+  "has_editorial": false
+ },
+ "maximum-length-of-a-concatenated-string-with-unique-characters": {
+  "frontend_id": 1239,
+  "has_editorial": true
+ },
+ "minimum-swaps-to-make-strings-equal": {
+  "frontend_id": 1247,
+  "has_editorial": false
+ },
+ "count-number-of-nice-subarrays": {
+  "frontend_id": 1248,
+  "has_editorial": true
+ },
+ "check-if-it-is-a-good-array": {
+  "frontend_id": 1250,
+  "has_editorial": false
+ },
+ "cells-with-odd-values-in-a-matrix": {
+  "frontend_id": 1252,
+  "has_editorial": false
+ },
+ "maximum-score-words-formed-by-letters": {
+  "frontend_id": 1255,
+  "has_editorial": true
+ },
+ "shift-2d-grid": {
+  "frontend_id": 1260,
+  "has_editorial": true
+ },
+ "count-square-submatrices-with-all-ones": {
+  "frontend_id": 1277,
+  "has_editorial": true
+ },
+ "subtract-the-product-and-sum-of-digits-of-an-integer": {
+  "frontend_id": 1281,
+  "has_editorial": false
+ },
+ "element-appearing-more-than-25-in-sorted-array": {
+  "frontend_id": 1287,
+  "has_editorial": true
+ },
+ "remove-covered_intervals": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "convert-binary-number-in-a-linked-list-to-integer": {
+  "frontend_id": 1290,
+  "has_editorial": true
+ },
+ "sequential-digits": {
+  "frontend_id": 1291,
+  "has_editorial": true
+ },
+ "find-numbers-with-even-number-of-digits": {
+  "frontend_id": 1295,
+  "has_editorial": true
+ },
+ "divide-array-in-sets-of-k-consecutive-numbers": {
+  "frontend_id": 1296,
+  "has_editorial": false
+ },
+ "replace-elements-with-greatest-element-on-right-side": {
+  "frontend_id": 1299,
+  "has_editorial": false
+ },
+ "deepest-leaves-sum": {
+  "frontend_id": 1302,
+  "has_editorial": true
+ },
+ "find-n-unique-integers-sum-up-to-zero": {
+  "frontend_id": 1304,
+  "has_editorial": true
+ },
+ "all-elements-in-two-binary-search-trees": {
+  "frontend_id": 1305,
+  "has_editorial": true
+ },
+ "jump-game-iii": {
+  "frontend_id": 1306,
+  "has_editorial": true
+ },
+ "decrypt-string-from-alphabet-to-integer-mapping": {
+  "frontend_id": 1309,
+  "has_editorial": false
+ },
+ "minimum-insertion-steps-to-make-a-string-palindrome": {
+  "frontend_id": 1312,
+  "has_editorial": true
+ },
+ "sum-of-nodes-with-even-valued-grandparent": {
+  "frontend_id": 1315,
+  "has_editorial": true
+ },
+ "convert-integer-to-the-sum-of-two-no-zero-integers": {
+  "frontend_id": 1317,
+  "has_editorial": true
+ },
+ "minimum-flips-to-make-a-or-b-equal-to-c": {
+  "frontend_id": 1318,
+  "has_editorial": true
+ },
+ "maximum-69-number": {
+  "frontend_id": 1323,
+  "has_editorial": true
+ },
+ "remove-palindromic-subsequences": {
+  "frontend_id": 1332,
+  "has_editorial": true
+ },
+ "reduce-array-size-to-the-half": {
+  "frontend_id": 1338,
+  "has_editorial": true
+ },
+ "number-of-steps-to-reduce-a-number-to-zero": {
+  "frontend_id": 1342,
+  "has_editorial": true
+ },
+ "angle-between-hands-of-a-clock": {
+  "frontend_id": 1344,
+  "has_editorial": true
+ },
+ "check-if-n-and-its-double-exist": {
+  "frontend_id": 1346,
+  "has_editorial": true
+ },
+ "minimum-number-of-steps-to-make-two-strings-anagram": {
+  "frontend_id": 1347,
+  "has_editorial": true
+ },
+ "count-negative-numbers-in-a-sorted-matrix": {
+  "frontend_id": 1351,
+  "has_editorial": true
+ },
+ "sort-integers-by-the-number-of-1-bits": {
+  "frontend_id": 1356,
+  "has_editorial": true
+ },
+ "number-of-substrings-containing-all-three-characters": {
+  "frontend_id": 1358,
+  "has_editorial": true
+ },
+ "how-many-numbers-are-smaller-than-the-current-number": {
+  "frontend_id": 1365,
+  "has_editorial": false
+ },
+ "maximum-sum-bst-in-binary-tree": {
+  "frontend_id": 1373,
+  "has_editorial": false
+ },
+ "generate-a-string-with-characters-that-have-odd-counts": {
+  "frontend_id": 1374,
+  "has_editorial": false
+ },
+ "number-of-times-binary-string-is-prefix-aligned": {
+  "frontend_id": 1375,
+  "has_editorial": false
+ },
+ "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree": {
+  "frontend_id": 1379,
+  "has_editorial": true
+ },
+ "balance-a-binary-search-tree": {
+  "frontend_id": 1382,
+  "has_editorial": true
+ },
+ "sort-integers-by-the-power-value": {
+  "frontend_id": 1387,
+  "has_editorial": false
+ },
+ "create-target-array-in-the-given-order": {
+  "frontend_id": 1389,
+  "has_editorial": false
+ },
+ "longest-happy-prefix": {
+  "frontend_id": 1392,
+  "has_editorial": false
+ },
+ "find-lucky-integer-in-an-array": {
+  "frontend_id": 1394,
+  "has_editorial": true
+ },
+ "count-largest-group": {
+  "frontend_id": 1399,
+  "has_editorial": true
+ },
+ "number-of-steps-to-reduce-a-number-in-binary-representation-to-one": {
+  "frontend_id": 1404,
+  "has_editorial": true
+ },
+ "longest-happy-string": {
+  "frontend_id": 1405,
+  "has_editorial": true
+ },
+ "stone-game-iii": {
+  "frontend_id": 1406,
+  "has_editorial": true
+ },
+ "string-matching-in-an-array": {
+  "frontend_id": 1408,
+  "has_editorial": true
+ },
+ "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n": {
+  "frontend_id": 1415,
+  "has_editorial": true
+ },
+ "reformat-the-string": {
+  "frontend_id": 1417,
+  "has_editorial": false
+ },
+ "maximum-score-after-splitting-a-string": {
+  "frontend_id": 1422,
+  "has_editorial": true
+ },
+ "constrained-subsequence-sum": {
+  "frontend_id": 1425,
+  "has_editorial": true
+ },
+ "kids-with-the-greatest-number-of-candies": {
+  "frontend_id": 1431,
+  "has_editorial": true
+ },
+ "number-of-ways-to-wear-different-hats-to-each-other": {
+  "frontend_id": 1434,
+  "has_editorial": true
+ },
+ "destination-city": {
+  "frontend_id": 1436,
+  "has_editorial": true
+ },
+ "check-if-to-all-1s-are-at-least-length-k-places-away": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "count-triplets-that-can-form-two-arrays-of-equal-xor": {
+  "frontend_id": 1442,
+  "has_editorial": true
+ },
+ "consecutive-characters": {
+  "frontend_id": 1446,
+  "has_editorial": true
+ },
+ "count-good-nodes-in-binary-tree": {
+  "frontend_id": 1448,
+  "has_editorial": true
+ },
+ "check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "maximum-number-of-vowels-in-a-substring-of-given-length": {
+  "frontend_id": 1456,
+  "has_editorial": true
+ },
+ "make-two-arrays-equal-by-reversing-subarrays": {
+  "frontend_id": 1460,
+  "has_editorial": true
+ },
+ "check-if-a-string-contains-all-binary-codes-of-size-k": {
+  "frontend_id": 1461,
+  "has_editorial": true
+ },
+ "maximum-product-of-two-elements-in-an-array": {
+  "frontend_id": 1464,
+  "has_editorial": true
+ },
+ "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls": {
+  "frontend_id": 1467,
+  "has_editorial": false
+ },
+ "shuffle-the-array": {
+  "frontend_id": 1470,
+  "has_editorial": true
+ },
+ "final-prices-with-a-special-discount-in-a-shop": {
+  "frontend_id": 1475,
+  "has_editorial": true
+ },
+ "running-sum-of-1d-array": {
+  "frontend_id": 1480,
+  "has_editorial": true
+ },
+ "least-number-of-unique-integers-after-k-removals": {
+  "frontend_id": 1481,
+  "has_editorial": true
+ },
+ "xor-operation-in-an-array": {
+  "frontend_id": 1486,
+  "has_editorial": false
+ },
+ "average-salary-excluding-the-minimum-and-maximum-salary": {
+  "frontend_id": 1491,
+  "has_editorial": true
+ },
+ "the-kth-factor-of-n": {
+  "frontend_id": 1492,
+  "has_editorial": false
+ },
+ "longest-subarray-of-1s-after-deleting-one-element": {
+  "frontend_id": 1493,
+  "has_editorial": true
+ },
+ "path-crossing": {
+  "frontend_id": 1496,
+  "has_editorial": true
+ },
+ "check-if-array-pairs-are-divisible-by-k": {
+  "frontend_id": 1497,
+  "has_editorial": true
+ },
+ "stone-game-iv": {
+  "frontend_id": 1510,
+  "has_editorial": true
+ },
+ "number-of-good-pairs": {
+  "frontend_id": 1512,
+  "has_editorial": true
+ },
+ "number-of-substrings-with-only-1s": {
+  "frontend_id": 1513,
+  "has_editorial": true
+ },
+ "count-odd-numbers-in-an-interval-range": {
+  "frontend_id": 1523,
+  "has_editorial": true
+ },
+ "number-of-sub-arrays-with-odd-sum": {
+  "frontend_id": 1524,
+  "has_editorial": true
+ },
+ "shuffle-string": {
+  "frontend_id": 1528,
+  "has_editorial": false
+ },
+ "minimum-suffix-flips": {
+  "frontend_id": 1529,
+  "has_editorial": false
+ },
+ "number-of-good-leaf-nodes-pairs": {
+  "frontend_id": 1530,
+  "has_editorial": true
+ },
+ "string-compression-ii": {
+  "frontend_id": 1531,
+  "has_editorial": true
+ },
+ "count-good-triplets": {
+  "frontend_id": 1534,
+  "has_editorial": true
+ },
+ "kth-missing-positive-number": {
+  "frontend_id": 1539,
+  "has_editorial": true
+ },
+ "make-the-string-great": {
+  "frontend_id": 1544,
+  "has_editorial": true
+ },
+ "find-kth-bit-in-nth-binary-string": {
+  "frontend_id": 1545,
+  "has_editorial": true
+ },
+ "three-consecutive-odds": {
+  "frontend_id": 1550,
+  "has_editorial": true
+ },
+ "minimum-operations-to-make-array-equal": {
+  "frontend_id": 1551,
+  "has_editorial": true
+ },
+ "maximum-length-of-subarray-with-positive-product": {
+  "frontend_id": 1567,
+  "has_editorial": false
+ },
+ "matrix-diagonal-sum": {
+  "frontend_id": 1572,
+  "has_editorial": true
+ },
+ "replace-all-s-to-avoid-consecutive-repeating-characters": {
+  "frontend_id": 1576,
+  "has_editorial": false
+ },
+ "special-positions-in-a-binary-matrix": {
+  "frontend_id": 1582,
+  "has_editorial": true
+ },
+ "minimum-cost-to-connect-all-points": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "sum-of-all-odd-length-subarrays": {
+  "frontend_id": 1588,
+  "has_editorial": true
+ },
+ "rearrange-spaces-between-words": {
+  "frontend_id": 1592,
+  "has_editorial": false
+ },
+ "split-a-string-into-the-max-number-of-unique-substrings": {
+  "frontend_id": 1593,
+  "has_editorial": true
+ },
+ "special-array-with-x-elements-greater-than-or-equal-x": {
+  "frontend_id": 1608,
+  "has_editorial": true
+ },
+ "even-odd-tree": {
+  "frontend_id": 1609,
+  "has_editorial": true
+ },
+ "maximum-nesting-depth-of-the-parentheses": {
+  "frontend_id": 1614,
+  "has_editorial": true
+ },
+ "largest-substring-between-two-equal-characters": {
+  "frontend_id": 1624,
+  "has_editorial": true
+ },
+ "slowest-key": {
+  "frontend_id": 1629,
+  "has_editorial": true
+ },
+ "path-with-minimum-effort": {
+  "frontend_id": 1631,
+  "has_editorial": true
+ },
+ "sort-array-by-increasing-frequency": {
+  "frontend_id": 1636,
+  "has_editorial": true
+ },
+ "check-array-formation-through-concatenation": {
+  "frontend_id": 1640,
+  "has_editorial": true
+ },
+ "count-sorted-vowel-strings": {
+  "frontend_id": 1641,
+  "has_editorial": true
+ },
+ "minimum-deletions-to-make-character-frequencies-unique": {
+  "frontend_id": 1647,
+  "has_editorial": true
+ },
+ "minimum-deletions-to-make-string-balanced": {
+  "frontend_id": 1653,
+  "has_editorial": true
+ },
+ "check-if-two-string-arrays-are-equivalent": {
+  "frontend_id": 1662,
+  "has_editorial": true
+ },
+ "maximum-repeating-substring": {
+  "frontend_id": 1668,
+  "has_editorial": false
+ },
+ "goal-parser-interpretation": {
+  "frontend_id": 1678,
+  "has_editorial": false
+ },
+ "concatenation-of-consecutive-binary-numbers": {
+  "frontend_id": 1680,
+  "has_editorial": true
+ },
+ "count-the-number-of-consistent-strings": {
+  "frontend_id": 1684,
+  "has_editorial": true
+ },
+ "sum-of-absolute-differences-in-a-sorted-array": {
+  "frontend_id": 1685,
+  "has_editorial": true
+ },
+ "jump-game-vi": {
+  "frontend_id": 1696,
+  "has_editorial": true
+ },
+ "determine-if-string-halves-are-alike": {
+  "frontend_id": 1704,
+  "has_editorial": true
+ },
+ "maximum-units-on-a-truck": {
+  "frontend_id": 1710,
+  "has_editorial": true
+ },
+ "decode-xored-array": {
+  "frontend_id": 1720,
+  "has_editorial": false
+ },
+ "swapping-nodes-in-a-linked-list": {
+  "frontend_id": 1721,
+  "has_editorial": true
+ },
+ "find-the-highest-altitude": {
+  "frontend_id": 1732,
+  "has_editorial": true
+ },
+ "find-kth-largest-xor-coordinate-value": {
+  "frontend_id": 1738,
+  "has_editorial": false
+ },
+ "maximum-number-of-balls-in-a-box": {
+  "frontend_id": 1742,
+  "has_editorial": false
+ },
+ "sum-of-unique-elements": {
+  "frontend_id": 1748,
+  "has_editorial": false
+ },
+ "minimum-length-of-string-after-deleting-similar-ends": {
+  "frontend_id": 1750,
+  "has_editorial": true
+ },
+ "check-if-array-is-sorted-and-rotated": {
+  "frontend_id": 1752,
+  "has_editorial": true
+ },
+ "maximum-score-from-removing-stones": {
+  "frontend_id": 1753,
+  "has_editorial": false
+ },
+ "minimum-changes-to-make-alternating-binary-string": {
+  "frontend_id": 1758,
+  "has_editorial": true
+ },
+ "count-number-of-homogenous-substrings": {
+  "frontend_id": 1759,
+  "has_editorial": true
+ },
+ "merge-strings-alternately": {
+  "frontend_id": 1768,
+  "has_editorial": true
+ },
+ "maximum-score-from-performing-multiplication-operations": {
+  "frontend_id": 1770,
+  "has_editorial": true
+ },
+ "find-nearest-point-that-has-the-same-x-or-y-coordinate": {
+  "frontend_id": 1779,
+  "has_editorial": false
+ },
+ "check-if-number-is-a-sum-of-powers-of-three": {
+  "frontend_id": 1780,
+  "has_editorial": true
+ },
+ "check-if-binary-string-has-at-most-one-segment-of-ones": {
+  "frontend_id": 1784,
+  "has_editorial": true
+ },
+ "minimum-elements-to-add-to-form-a-given-sum": {
+  "frontend_id": 1785,
+  "has_editorial": false
+ },
+ "check-if-one-string-swap-can-make-strings-equal": {
+  "frontend_id": 1790,
+  "has_editorial": true
+ },
+ "second-largest-digit-in-a-string": {
+  "frontend_id": 1796,
+  "has_editorial": false
+ },
+ "maximum-ascending-subarray-sum": {
+  "frontend_id": 1800,
+  "has_editorial": true
+ },
+ "number-of-different-integers-in-a-string": {
+  "frontend_id": 1805,
+  "has_editorial": false
+ },
+ "determine-color-of-a-chessboard-square": {
+  "frontend_id": 1812,
+  "has_editorial": false
+ },
+ "minimum-absolute-sum-difference": {
+  "frontend_id": 1818,
+  "has_editorial": false
+ },
+ "sign-of-the-product-of-an-array": {
+  "frontend_id": 1822,
+  "has_editorial": true
+ },
+ "check-if-the-sentence-is-pangram": {
+  "frontend_id": 1832,
+  "has_editorial": true
+ },
+ "sum-of-digits-in-base-k": {
+  "frontend_id": 1837,
+  "has_editorial": false
+ },
+ "longest-substring-of-all-vowels-in-order": {
+  "frontend_id": 1839,
+  "has_editorial": false
+ },
+ "replace-all-digits-with-characters": {
+  "frontend_id": 1844,
+  "has_editorial": false
+ },
+ "minimum-distance-to-the-target-element": {
+  "frontend_id": 1848,
+  "has_editorial": true
+ },
+ "minimum-interval-to-include-each-query": {
+  "frontend_id": 1851,
+  "has_editorial": false
+ },
+ "maximum-population-year": {
+  "frontend_id": 1854,
+  "has_editorial": false
+ },
+ "sorting-the-sentence": {
+  "frontend_id": 1859,
+  "has_editorial": false
+ },
+ "sum-of-all-subset-xor-totals": {
+  "frontend_id": 1863,
+  "has_editorial": true
+ },
+ "longer-contiguous-segments-of-ones-than-zeros": {
+  "frontend_id": 1869,
+  "has_editorial": false
+ },
+ "substrings-of-size-three-with-distinct-characters": {
+  "frontend_id": 1876,
+  "has_editorial": false
+ },
+ "minimize-maximum-pair-sum-in-array": {
+  "frontend_id": 1877,
+  "has_editorial": true
+ },
+ "check-if-word-equals-summation-of-two-words": {
+  "frontend_id": 1880,
+  "has_editorial": false
+ },
+ "maximum-value-after-insertion": {
+  "frontend_id": 1881,
+  "has_editorial": false
+ },
+ "determine-whether-matrix-can-be-obtained-by-rotation": {
+  "frontend_id": 1886,
+  "has_editorial": true
+ },
+ "check-if-all-the-integers-in-a-range-are-covered": {
+  "frontend_id": 1893,
+  "has_editorial": false
+ },
+ "redistribute-characters-to-make-all-strings-equal": {
+  "frontend_id": 1897,
+  "has_editorial": true
+ },
+ "largest-odd-number-in-string": {
+  "frontend_id": 1903,
+  "has_editorial": true
+ },
+ "remove-one-element-to-make-the-array-strictly-increasing": {
+  "frontend_id": 1909,
+  "has_editorial": false
+ },
+ "remove-all-occurrences-of-a-substring": {
+  "frontend_id": 1910,
+  "has_editorial": true
+ },
+ "maximum-product-difference-between-two-pairs": {
+  "frontend_id": 1913,
+  "has_editorial": true
+ },
+ "build-array-from-permutation": {
+  "frontend_id": 1920,
+  "has_editorial": true
+ },
+ "count-square-sum-triples": {
+  "frontend_id": 1925,
+  "has_editorial": true
+ },
+ "sum-game": {
+  "frontend_id": 1927,
+  "has_editorial": true
+ },
+ "concatenation-of-array": {
+  "frontend_id": 1929,
+  "has_editorial": false
+ },
+ "unique-length-3-palindromic-subsequences": {
+  "frontend_id": 1930,
+  "has_editorial": true
+ },
+ "maximum-number-of-words-you-can-type": {
+  "frontend_id": 1935,
+  "has_editorial": true
+ },
+ "add-minimum-number-of-rungs": {
+  "frontend_id": 1936,
+  "has_editorial": false
+ },
+ "check-if-all-characters-have-equal-number-of-occurrences": {
+  "frontend_id": 1941,
+  "has_editorial": false
+ },
+ "sum-of-digits-of-string-after-convert": {
+  "frontend_id": 1945,
+  "has_editorial": true
+ },
+ "maximum-compatibility-score-sum": {
+  "frontend_id": 1947,
+  "has_editorial": false
+ },
+ "three-divisors": {
+  "frontend_id": 1952,
+  "has_editorial": false
+ },
+ "delete-characters-to-make-fancy-string": {
+  "frontend_id": 1957,
+  "has_editorial": true
+ },
+ "check-if-string-is-a-prefix-of-array": {
+  "frontend_id": 1961,
+  "has_editorial": false
+ },
+ "minimum-number-of-swaps-to-make-the-string-balanced": {
+  "frontend_id": 1963,
+  "has_editorial": true
+ },
+ "find-the-longest-valid-obstacle-course-at-each-position": {
+  "frontend_id": 1964,
+  "has_editorial": true
+ },
+ "number-of-strings-that-appear-as-substrings-in-word": {
+  "frontend_id": 1967,
+  "has_editorial": true
+ },
+ "find-greatest-common-divisor-of-array": {
+  "frontend_id": 1979,
+  "has_editorial": true
+ },
+ "find-unique-binary-string": {
+  "frontend_id": 1980,
+  "has_editorial": true
+ },
+ "minimum-difference-between-highest-and-lowest-of-k-scores": {
+  "frontend_id": 1984,
+  "has_editorial": true
+ },
+ "find-the-kth-largest-integer-in-the-array": {
+  "frontend_id": 1985,
+  "has_editorial": false
+ },
+ "minimum-number-of-work-sessions-to-finish-the-tasks": {
+  "frontend_id": 1986,
+  "has_editorial": false
+ },
+ "number-of-unique-good-subsequences": {
+  "frontend_id": 1987,
+  "has_editorial": false
+ },
+ "count-special-quadruplets": {
+  "frontend_id": 1995,
+  "has_editorial": false
+ },
+ "reverse-prefix-of-word": {
+  "frontend_id": 2000,
+  "has_editorial": true
+ },
+ "number-of-pairs-of-interchangeable-rectangles": {
+  "frontend_id": 2001,
+  "has_editorial": false
+ },
+ "count-number-of-pairs-with-absolute-difference-k": {
+  "frontend_id": 2006,
+  "has_editorial": false
+ },
+ "convert-1d-array-into-2d-array": {
+  "frontend_id": 2022,
+  "has_editorial": true
+ },
+ "number-of-pairs-of-strings-with-concatenation-equal-to-target": {
+  "frontend_id": 2023,
+  "has_editorial": false
+ },
+ "minimum-moves-to-convert-string": {
+  "frontend_id": 2027,
+  "has_editorial": false
+ },
+ "two-out-of-three": {
+  "frontend_id": 2032,
+  "has_editorial": false
+ },
+ "partition-array-into-two-arrays-to-minimize-sum-difference": {
+  "frontend_id": 2035,
+  "has_editorial": false
+ },
+ "check-if-numbers-are-ascending-in-a-sentence": {
+  "frontend_id": 2042,
+  "has_editorial": false
+ },
+ "count-number-of-maximum-bitwise-or-subsets": {
+  "frontend_id": 2044,
+  "has_editorial": true
+ },
+ "kth-distinct-string-in-an-array": {
+  "frontend_id": 2053,
+  "has_editorial": true
+ },
+ "smallest-index-with-equal-value": {
+  "frontend_id": 2057,
+  "has_editorial": false
+ },
+ "count-vowel-substrings-of-a-string": {
+  "frontend_id": 2062,
+  "has_editorial": false
+ },
+ "vowels-of-all-substrings": {
+  "frontend_id": 2063,
+  "has_editorial": false
+ },
+ "minimized-maximum-of-products-distributed-to-any-store": {
+  "frontend_id": 2064,
+  "has_editorial": true
+ },
+ "check-whether-two-strings-are-almost-equivalent": {
+  "frontend_id": 2068,
+  "has_editorial": true
+ },
+ "count-common-words-with-one-occurrence": {
+  "frontend_id": 2085,
+  "has_editorial": false
+ },
+ "find-target-indices-after-sorting-array": {
+  "frontend_id": 2089,
+  "has_editorial": true
+ },
+ "finding-3-digit-even-numbers": {
+  "frontend_id": 2094,
+  "has_editorial": true
+ },
+ "delete-the-middle-node-of-a-linked-list": {
+  "frontend_id": 2095,
+  "has_editorial": true
+ },
+ "find-first-palindromic-string-in-the-array": {
+  "frontend_id": 2108,
+  "has_editorial": true
+ },
+ "adding-spaces-to-a-string": {
+  "frontend_id": 2109,
+  "has_editorial": true
+ },
+ "minimum-operations-to-make-the-array-k-increasing": {
+  "frontend_id": 2111,
+  "has_editorial": false
+ },
+ "maximum-number-of-words-found-in-sentences": {
+  "frontend_id": 2114,
+  "has_editorial": false
+ },
+ "check-if-a-parentheses-string-can-be-valid": {
+  "frontend_id": 2116,
+  "has_editorial": true
+ },
+ "a-number-after-a-double-reversal": {
+  "frontend_id": 2119,
+  "has_editorial": false
+ },
+ "check-if-all-as-appears-before-all-bs": {
+  "frontend_id": 2124,
+  "has_editorial": false
+ },
+ "maximum-twin-sum-of-a-linked-list": {
+  "frontend_id": 2130,
+  "has_editorial": true
+ },
+ "check-if-every-row-and-column-contains-all-numbers": {
+  "frontend_id": 2133,
+  "has_editorial": false
+ },
+ "divide-a-string-into-groups-of-size-k": {
+  "frontend_id": 2138,
+  "has_editorial": true
+ },
+ "count-elements-with-strictly-smaller-and-greater-elements": {
+  "frontend_id": 2148,
+  "has_editorial": false
+ },
+ "rearrange-array-elements-by-sign": {
+  "frontend_id": 2149,
+  "has_editorial": true
+ },
+ "find-all-lonely-numbers-in-the-array": {
+  "frontend_id": 2150,
+  "has_editorial": false
+ },
+ "keep-multiplying-found-values-by-two": {
+  "frontend_id": 2154,
+  "has_editorial": true
+ },
+ "minimum-sum-of-four-digit-number-after-splitting-digits": {
+  "frontend_id": 2160,
+  "has_editorial": false
+ },
+ "sort-even-and-odd-indices-independently": {
+  "frontend_id": 2164,
+  "has_editorial": false
+ },
+ "count-operations-to-obtain-zero": {
+  "frontend_id": 2169,
+  "has_editorial": true
+ },
+ "count-equal-and-divisible-pairs-in-an-array": {
+  "frontend_id": 2176,
+  "has_editorial": true
+ },
+ "find-three-consecutive-integers-that-sum-to-a-given-number": {
+  "frontend_id": 2177,
+  "has_editorial": false
+ },
+ "maximum-split-of-positive-even-integers": {
+  "frontend_id": 2178,
+  "has_editorial": false
+ },
+ "count-integers-with-even-digit-sum": {
+  "frontend_id": 2180,
+  "has_editorial": false
+ },
+ "merge-nodes-in-between-zeros": {
+  "frontend_id": 2181,
+  "has_editorial": true
+ },
+ "construct-string-with-repeat-limit": {
+  "frontend_id": 2182,
+  "has_editorial": true
+ },
+ "counting-words-with-a-given-prefix": {
+  "frontend_id": 2185,
+  "has_editorial": true
+ },
+ "sort-the-jumbled-numbers": {
+  "frontend_id": 2191,
+  "has_editorial": true
+ },
+ "append-k-integers-with-minimal-sum": {
+  "frontend_id": 2195,
+  "has_editorial": false
+ },
+ "divide-array-into-equal-pairs": {
+  "frontend_id": 2206,
+  "has_editorial": true
+ },
+ "minimum-operations-to-halve-array-sum": {
+  "frontend_id": 2208,
+  "has_editorial": false
+ },
+ "count-hills-and-valleys-in-an-array": {
+  "frontend_id": 2210,
+  "has_editorial": true
+ },
+ "find-the-difference-of-two-arrays": {
+  "frontend_id": 2215,
+  "has_editorial": true
+ },
+ "minimum-bit-flips-to-convert-number": {
+  "frontend_id": 2220,
+  "has_editorial": true
+ },
+ "find-players-with-zero-or-one-losses": {
+  "frontend_id": 2225,
+  "has_editorial": true
+ },
+ "largest-number-after-digit-swaps-by-parity": {
+  "frontend_id": 2231,
+  "has_editorial": false
+ },
+ "add-two-integers": {
+  "frontend_id": 2235,
+  "has_editorial": false
+ },
+ "root-equals-sum-of-children": {
+  "frontend_id": 2236,
+  "has_editorial": false
+ },
+ "find-closest-number-to-zero": {
+  "frontend_id": 2239,
+  "has_editorial": false
+ },
+ "calculate-digit-sum-of-a-string": {
+  "frontend_id": 2243,
+  "has_editorial": true
+ },
+ "difference-between-maximum-and-minimum-price-sum": {
+  "frontend_id": 2538,
+  "has_editorial": false
+ },
+ "intersection-of-multiple-arrays": {
+  "frontend_id": 2248,
+  "has_editorial": false
+ },
+ "count-prefixes-of-a-given-string": {
+  "frontend_id": 2255,
+  "has_editorial": false
+ },
+ "minimum-average-difference": {
+  "frontend_id": 2256,
+  "has_editorial": true
+ },
+ "remove-digit-from-number-to-maximize-result": {
+  "frontend_id": 2259,
+  "has_editorial": false
+ },
+ "largest-3-same-digit-number-in-string": {
+  "frontend_id": 2264,
+  "has_editorial": true
+ },
+ "count-number-of-texts": {
+  "frontend_id": 2266,
+  "has_editorial": false
+ },
+ "largest-combination-with-bitwise-and-greater-than-zero": {
+  "frontend_id": 2275,
+  "has_editorial": true
+ },
+ "percentage-of-letter-in-string": {
+  "frontend_id": 2278,
+  "has_editorial": false
+ },
+ "maximum-bags-with-full-capacity-of-rocks": {
+  "frontend_id": 2279,
+  "has_editorial": true
+ },
+ "check-if-number-has-equal-digit-count-and-digit-value": {
+  "frontend_id": 2283,
+  "has_editorial": false
+ },
+ "rearrange-characters-to-make-target-string": {
+  "frontend_id": 2287,
+  "has_editorial": false
+ },
+ "min-max-game": {
+  "frontend_id": 2293,
+  "has_editorial": false
+ },
+ "fair-distribution-of-cookies": {
+  "frontend_id": 2305,
+  "has_editorial": true
+ },
+ "greatest-english-letter-in-upper-and-lower-case": {
+  "frontend_id": 2309,
+  "has_editorial": false
+ },
+ "sum-of-numbers-with-units-digit-k": {
+  "frontend_id": 2310,
+  "has_editorial": false
+ },
+ "maximum-xor-after-operations": {
+  "frontend_id": 2317,
+  "has_editorial": false
+ },
+ "check-if-matrix-is-x-matrix": {
+  "frontend_id": 2319,
+  "has_editorial": false
+ },
+ "evaluate-boolean-binary-tree": {
+  "frontend_id": 2331,
+  "has_editorial": true
+ },
+ "maximum-number-of-pairs-in-array": {
+  "frontend_id": 2341,
+  "has_editorial": false
+ },
+ "max-sum-of-a-pair-with-equal-sum-of-digits": {
+  "frontend_id": 2342,
+  "has_editorial": true
+ },
+ "number-of-zero-filled-subarrays": {
+  "frontend_id": 2348,
+  "has_editorial": true
+ },
+ "first-letter-to-appear-twice": {
+  "frontend_id": 2351,
+  "has_editorial": false
+ },
+ "equal-row-and-column-pairs": {
+  "frontend_id": 2352,
+  "has_editorial": true
+ },
+ "make-array-zero-by-subtracting-equal-amounts": {
+  "frontend_id": 2357,
+  "has_editorial": false
+ },
+ "count-special-integers": {
+  "frontend_id": 2376,
+  "has_editorial": false
+ },
+ "removing-stars-from-a-string": {
+  "frontend_id": 2390,
+  "has_editorial": true
+ },
+ "find-subarrays-with-equal-sum": {
+  "frontend_id": 2395,
+  "has_editorial": false
+ },
+ "strictly-palindromic-number": {
+  "frontend_id": 2396,
+  "has_editorial": false
+ },
+ "maximum-rows-covered-by-columns": {
+  "frontend_id": 2397,
+  "has_editorial": false
+ },
+ "check-distances-between-same-letters": {
+  "frontend_id": 2399,
+  "has_editorial": false
+ },
+ "most-frequent-even-element": {
+  "frontend_id": 2404,
+  "has_editorial": false
+ },
+ "smallest-subarrays-with-maximum-bitwise-or": {
+  "frontend_id": 2411,
+  "has_editorial": true
+ },
+ "smallest-even-multiple": {
+  "frontend_id": 2413,
+  "has_editorial": false
+ },
+ "reverse-odd-levels-of-binary-tree": {
+  "frontend_id": 2415,
+  "has_editorial": true
+ },
+ "sort-the-people": {
+  "frontend_id": 2418,
+  "has_editorial": true
+ },
+ "longest-subarray-with-maximum-bitwise-and": {
+  "frontend_id": 2419,
+  "has_editorial": true
+ },
+ "bitwise-xor-of-all-pairings": {
+  "frontend_id": 2425,
+  "has_editorial": true
+ },
+ "number-of-common-factors": {
+  "frontend_id": 2427,
+  "has_editorial": false
+ },
+ "minimize-xor": {
+  "frontend_id": 2429,
+  "has_editorial": true
+ },
+ "find-the-original-array-of-prefix-xor": {
+  "frontend_id": 2433,
+  "has_editorial": true
+ },
+ "largest-positive-integer-that-exists-with-its-negative": {
+  "frontend_id": 2441,
+  "has_editorial": true
+ },
+ "count-number-of-distinct-integers-after-reverse-operations": {
+  "frontend_id": 2442,
+  "has_editorial": false
+ },
+ "sum-of-number-and-its-reverse": {
+  "frontend_id": 2443,
+  "has_editorial": false
+ },
+ "odd-string-difference": {
+  "frontend_id": 2451,
+  "has_editorial": false
+ },
+ "average-value-of-even-numbers-that-are-divisible-by-three": {
+  "frontend_id": 2455,
+  "has_editorial": false
+ },
+ "apply-operations-to-an-array": {
+  "frontend_id": 2460,
+  "has_editorial": true
+ },
+ "convert-the-temperature": {
+  "frontend_id": 2469,
+  "has_editorial": false
+ },
+ "minimum-number-of-operations-to-sort-a-binary-tree-by-level": {
+  "frontend_id": 2471,
+  "has_editorial": true
+ },
+ "closest-nodes-queries-in-a-binary-search-tree": {
+  "frontend_id": 2476,
+  "has_editorial": false
+ },
+ "difference-between-ones-and-zeros-in-row-and-column": {
+  "frontend_id": 2482,
+  "has_editorial": true
+ },
+ "pivot-integer": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "remove-nodes-from-linked-list": {
+  "frontend_id": 2487,
+  "has_editorial": true
+ },
+ "circular-sentence": {
+  "frontend_id": 2490,
+  "has_editorial": true
+ },
+ "divide-players-into-teams-of-equal-skill": {
+  "frontend_id": 2491,
+  "has_editorial": true
+ },
+ "maximum-value-of-a-string-in-an-array": {
+  "frontend_id": 2496,
+  "has_editorial": false
+ },
+ "smallest-value-after-replacing-with-sum-of-prime-factors": {
+  "frontend_id": 2507,
+  "has_editorial": false
+ },
+ "count-the-digits-that-divide-a-number": {
+  "frontend_id": 2520,
+  "has_editorial": false
+ },
+ "distinct-prime-factors-of-product-of-array": {
+  "frontend_id": 2521,
+  "has_editorial": false
+ },
+ "closest-prime-numbers-in-range": {
+  "frontend_id": 2523,
+  "has_editorial": true
+ },
+ "maximum-count-of-positive-integer-and-negative-integer": {
+  "frontend_id": 2529,
+  "has_editorial": true
+ },
+ "difference-between-element-sum-and-digit-sum-of-an-array": {
+  "frontend_id": 2535,
+  "has_editorial": false
+ },
+ "minimum-common-value": {
+  "frontend_id": 2540,
+  "has_editorial": true
+ },
+ "alternating-digit-sum": {
+  "frontend_id": 2544,
+  "has_editorial": false
+ },
+ "sort-the-students-by-their-kth-score": {
+  "frontend_id": 2545,
+  "has_editorial": false
+ },
+ "separate-the-digits-in-an-array": {
+  "frontend_id": 2553,
+  "has_editorial": true
+ },
+ "maximum-number-of-integers-to-choose-from-a-range-i": {
+  "frontend_id": 2554,
+  "has_editorial": true
+ },
+ "count-vowel-strings-in-ranges": {
+  "frontend_id": 2559,
+  "has_editorial": true
+ },
+ "find-the-array-concatenation-value": {
+  "frontend_id": 2562,
+  "has_editorial": false
+ },
+ "merge-two-2d-arrays-by-summing-values": {
+  "frontend_id": 2570,
+  "has_editorial": true
+ },
+ "minimum-operations-to-reduce-an-integer-to-0": {
+  "frontend_id": 2571,
+  "has_editorial": false
+ },
+ "left-and-right-sum-differences": {
+  "frontend_id": 2574,
+  "has_editorial": true
+ },
+ "split-with-minimum-sum": {
+  "frontend_id": 2578,
+  "has_editorial": false
+ },
+ "kth-largest-sum-in-a-binary-tree": {
+  "frontend_id": 2583,
+  "has_editorial": true
+ },
+ "count-the-number-of-vowel-strings-in-range": {
+  "frontend_id": 2586,
+  "has_editorial": false
+ },
+ "number-of-even-and-odd-bits": {
+  "frontend_id": 2595,
+  "has_editorial": false
+ },
+ "k-items-with-the-maximum-sum": {
+  "frontend_id": 2600,
+  "has_editorial": false
+ },
+ "form-smallest-number-from-two-digit-arrays": {
+  "frontend_id": 2605,
+  "has_editorial": false
+ },
+ "find-the-longest-balanced-substring-of-a-binary-string": {
+  "frontend_id": 2609,
+  "has_editorial": false
+ },
+ "prime-in-diagonal": {
+  "frontend_id": 2614,
+  "has_editorial": false
+ },
+ "find-the-width-of-columns-of-a-grid": {
+  "frontend_id": 2639,
+  "has_editorial": false
+ },
+ "row-with-maximum-ones": {
+  "frontend_id": 2643,
+  "has_editorial": false
+ },
+ "minimum-additions-to-make-valid-string": {
+  "frontend_id": 2645,
+  "has_editorial": false
+ },
+ "sum-multiples": {
+  "frontend_id": 2652,
+  "has_editorial": false
+ },
+ "maximum-sum-with-exactly-k-elements": {
+  "frontend_id": 2656,
+  "has_editorial": false
+ },
+ "create-hello-world-function": {
+  "frontend_id": 2667,
+  "has_editorial": true
+ },
+ "find-the-distinct-difference-array": {
+  "frontend_id": 2670,
+  "has_editorial": false
+ },
+ "number-of-senior-citizens": {
+  "frontend_id": 2678,
+  "has_editorial": true
+ },
+ "neighboring-bitwise-xor": {
+  "frontend_id": 2683,
+  "has_editorial": true
+ },
+ "extra-characters-in-a-string": {
+  "frontend_id": 2707,
+  "has_editorial": true
+ },
+ "remove-trailing-zeros-from-a-string": {
+  "frontend_id": 2710,
+  "has_editorial": false
+ },
+ "minimize-string-length": {
+  "frontend_id": 2716,
+  "has_editorial": false
+ },
+ "check-if-the-number-is-fascinating": {
+  "frontend_id": 2729,
+  "has_editorial": false
+ },
+ "neither-minimum-nor-maximum": {
+  "frontend_id": 2733,
+  "has_editorial": false
+ },
+ "construct-the-longest-new-string": {
+  "frontend_id": 2745,
+  "has_editorial": false
+ },
+ "prime-pairs-with-target-sum": {
+  "frontend_id": 2761,
+  "has_editorial": false
+ },
+ "check-if-array-is-good": {
+  "frontend_id": 2784,
+  "has_editorial": true
+ },
+ "sort-vowels-in-a-string": {
+  "frontend_id": 2785,
+  "has_editorial": true
+ },
+ "insert-greatest-common-divisors-in-linked-list": {
+  "frontend_id": 2807,
+  "has_editorial": true
+ },
+ "max-pair-sum-in-an-array": {
+  "frontend_id": 2815,
+  "has_editorial": false
+ },
+ "count-pairs-whose-sum-is-less-than-target": {
+  "frontend_id": 2824,
+  "has_editorial": false
+ },
+ "sorting-three-groups": {
+  "frontend_id": 2826,
+  "has_editorial": false
+ },
+ "check-if-a-string-is-an-acronym-of-words": {
+  "frontend_id": 2828,
+  "has_editorial": false
+ },
+ "check-if-strings-can-be-made-equal-with-operations-i": {
+  "frontend_id": 2839,
+  "has_editorial": true
+ },
+ "count-symmetric-integers": {
+  "frontend_id": 2843,
+  "has_editorial": true
+ },
+ "minimum-right-shifts-to-sort-the-array": {
+  "frontend_id": 2855,
+  "has_editorial": false
+ },
+ "sum-of-values-at-indices-with-k-set-bits": {
+  "frontend_id": 2859,
+  "has_editorial": false
+ },
+ "maximum-odd-binary-number": {
+  "frontend_id": 2864,
+  "has_editorial": true
+ },
+ "divisible-and-non-divisible-sums-difference": {
+  "frontend_id": 2894,
+  "has_editorial": true
+ },
+ "find-the-k-or-of-an-array": {
+  "frontend_id": 2917,
+  "has_editorial": false
+ },
+ "find-champion-i": {
+  "frontend_id": 2923,
+  "has_editorial": false
+ },
+ "maximum-strong-pair-xor-i": {
+  "frontend_id": 2932,
+  "has_editorial": false
+ },
+ "make-three-strings-equal": {
+  "frontend_id": 2937,
+  "has_editorial": false
+ },
+ "find-words-containing-character": {
+  "frontend_id": 2942,
+  "has_editorial": true
+ },
+ "find-common-elements-between-two-arrays": {
+  "frontend_id": 2956,
+  "has_editorial": false
+ },
+ "find-missing-and-repeated-values": {
+  "frontend_id": 2965,
+  "has_editorial": true
+ },
+ "divide-array-into-arrays-with-max-difference": {
+  "frontend_id": 2966,
+  "has_editorial": true
+ },
+ "minimum-number-game": {
+  "frontend_id": 2974,
+  "has_editorial": false
+ },
+ "check-if-bitwise-or-has-trailing-zeros": {
+  "frontend_id": 2980,
+  "has_editorial": false
+ },
+ "count-elements-with-maximum-frequency": {
+  "frontend_id": 3005,
+  "has_editorial": true
+ },
+ "find-if-array-can-be-sorted": {
+  "frontend_id": 3011,
+  "has_editorial": true
+ },
+ "minimum-number-of-pushes-to-type-word-i": {
+  "frontend_id": 3014,
+  "has_editorial": true
+ },
+ "minimum-number-of-pushes-to-type-word-ii": {
+  "frontend_id": 3016,
+  "has_editorial": true
+ },
+ "number-of-changing-keys": {
+  "frontend_id": 3019,
+  "has_editorial": false
+ },
+ "distribute-elements-into-two-arrays-i": {
+  "frontend_id": 3069,
+  "has_editorial": true
+ },
+ "find-the-sum-of-encrypted-integers": {
+  "frontend_id": 3079,
+  "has_editorial": false
+ },
+ "existence-of-a-substring-in-a-string-and-its-reverse": {
+  "frontend_id": 3083,
+  "has_editorial": false
+ },
+ "count-substrings-starting-and-ending-with-given-character": {
+  "frontend_id": 3084,
+  "has_editorial": false
+ },
+ "maximum-length-substring-with-two-occurrences": {
+  "frontend_id": 3090,
+  "has_editorial": true
+ },
+ "harshad-number": {
+  "frontend_id": 3099,
+  "has_editorial": false
+ },
+ "score-of-a-string": {
+  "frontend_id": 3110,
+  "has_editorial": true
+ },
+ "latest-time-you-can-obtain-after-replacing-characters": {
+  "frontend_id": 3114,
+  "has_editorial": false
+ },
+ "count-the-number-of-special-characters-i": {
+  "frontend_id": 3120,
+  "has_editorial": true
+ },
+ "count-the-number-of-special-characters-ii": {
+  "frontend_id": 3121,
+  "has_editorial": true
+ },
+ "find-the-integer-added-to-array-i": {
+  "frontend_id": 3131,
+  "has_editorial": false
+ },
+ "find-the-integer-added-to-array-ii": {
+  "frontend_id": 3132,
+  "has_editorial": false
+ },
+ "minimum-array-end": {
+  "frontend_id": 3133,
+  "has_editorial": true
+ },
+ "valid-word": {
+  "frontend_id": 3136,
+  "has_editorial": true
+ },
+ "check-if-grid-satisfies-conditions": {
+  "frontend_id": 3142,
+  "has_editorial": false
+ },
+ "special-array-i": {
+  "frontend_id": 3151,
+  "has_editorial": true
+ },
+ "find-the-xor-of-numbers-which-appear-twice": {
+  "frontend_id": 3158,
+  "has_editorial": false
+ },
+ "find-the-number-of-good-pairs-i": {
+  "frontend_id": 3162,
+  "has_editorial": false
+ },
+ "minimum-number-of-chairs-in-a-waiting-room": {
+  "frontend_id": 3168,
+  "has_editorial": false
+ },
+ "clear-digits": {
+  "frontend_id": 3174,
+  "has_editorial": true
+ },
+ "find-the-encrypted-string": {
+  "frontend_id": 3210,
+  "has_editorial": false
+ },
+ "lexicographically-smallest-string-after-a-swap": {
+  "frontend_id": 3216,
+  "has_editorial": false
+ },
+ "number-of-bit-changes-to-make-two-integers-equal": {
+  "frontend_id": 3226,
+  "has_editorial": false
+ },
+ "check-if-two-chessboard-squares-have-the-same-color": {
+  "frontend_id": 3274,
+  "has_editorial": false
+ },
+ "convert-date-to-binary": {
+  "frontend_id": 3280,
+  "has_editorial": false
+ },
+ "the-two-sneaky-numbers-of-digitville": {
+  "frontend_id": 3289,
+  "has_editorial": true
+ },
+ "minimum-element-after-replacement-with-digit-sum": {
+  "frontend_id": 3300,
+  "has_editorial": true
+ },
+ "find-the-k-th-character-in-string-game-i": {
+  "frontend_id": 3304,
+  "has_editorial": true
+ },
+ "count-of-substrings-containing-every-vowel-and-k-consonants-ii": {
+  "frontend_id": 3306,
+  "has_editorial": true
+ },
+ "construct-the-minimum-bitwise-array-i": {
+  "frontend_id": 3314,
+  "has_editorial": true
+ },
+ "count-substrings-with-k-frequency-characters-i": {
+  "frontend_id": 3325,
+  "has_editorial": false
+ },
+ "check-balanced-string": {
+  "frontend_id": 3340,
+  "has_editorial": false
+ },
+ "smallest-divisible-digit-product-i": {
+  "frontend_id": 3345,
+  "has_editorial": true
+ },
+ "minimum-positive-sum-subarray": {
+  "frontend_id": 3364,
+  "has_editorial": false
+ },
+ "smallest-number-with-all-set-bits": {
+  "frontend_id": 3370,
+  "has_editorial": true
+ },
+ "count-subarrays-of-length-three-with-a-condition": {
+  "frontend_id": 3392,
+  "has_editorial": true
+ },
+ "substring-matching-pattern": {
+  "frontend_id": 3407,
+  "has_editorial": false
+ },
+ "zigzag-grid-traversal-with-skip": {
+  "frontend_id": 3417,
+  "has_editorial": false
+ },
+ "count-partitions-with-even-sum-difference": {
+  "frontend_id": 3432,
+  "has_editorial": true
+ },
+ "find-valid-pair-of-adjacent-digits-in-string": {
+  "frontend_id": 3438,
+  "has_editorial": false
+ },
+ "maximum-difference-between-even-and-odd-frequency-i": {
+  "frontend_id": 3442,
+  "has_editorial": true
+ },
+ "sum-of-good-numbers": {
+  "frontend_id": 3452,
+  "has_editorial": false
+ },
+ "find-special-substring-of-length-k": {
+  "frontend_id": 3456,
+  "has_editorial": false
+ },
+ "check-if-digits-are-equal-in-string-after-operations-i": {
+  "frontend_id": 3461,
+  "has_editorial": true
+ },
+ "transform-array-by-parity": {
+  "frontend_id": 3467,
+  "has_editorial": false
+ },
+ "fruits-into-baskets-ii": {
+  "frontend_id": 3477,
+  "has_editorial": true
+ },
+ "unique-3-digit-even-numbers": {
+  "frontend_id": 3483,
+  "has_editorial": true
+ },
+ "maximum-unique-subarray-sum-after-deletion": {
+  "frontend_id": 3487,
+  "has_editorial": true
+ },
+ "reverse-degree-of-a-string": {
+  "frontend_id": 3498,
+  "has_editorial": true
+ },
+ "minimum-operations-to-make-array-sum-divisible-by-k": {
+  "frontend_id": 3512,
+  "has_editorial": true
+ },
+ "number-of-unique-xor-triplets-i": {
+  "frontend_id": 3513,
+  "has_editorial": true
+ },
+ "number-of-unique-xor-triplets-ii": {
+  "frontend_id": 3514,
+  "has_editorial": true
+ },
+ "smallest-palindromic-rearrangement-i": {
+  "frontend_id": 3517,
+  "has_editorial": true
+ },
+ "maximum-product-of-two-digits": {
+  "frontend_id": 3536,
+  "has_editorial": true
+ },
+ "find-most-frequent-vowel-and-consonant": {
+  "frontend_id": 3541,
+  "has_editorial": true
+ },
+ "smallest-index-with-digit-sum-equal-to-index": {
+  "frontend_id": 3550,
+  "has_editorial": true
+ },
+ "minimum-swaps-to-sort-by-digit-sum": {
+  "frontend_id": 3551,
+  "has_editorial": true
+ },
+ "sum-of-largest-prime-substrings": {
+  "frontend_id": 3556,
+  "has_editorial": false
+ },
+ "check-if-any-element-has-prime-frequency": {
+  "frontend_id": 3591,
+  "has_editorial": false
+ },
+ "split-array-by-prime-indices": {
+  "frontend_id": 3618,
+  "has_editorial": false
+ },
+ "check-divisibility-by-digit-sum-and-product": {
+  "frontend_id": 3622,
+  "has_editorial": true
+ },
+ "trionic-array-i": {
+  "frontend_id": 3637,
+  "has_editorial": true
+ },
+ "gcd-of-odd-and-even-sums": {
+  "frontend_id": 3658,
+  "has_editorial": true
+ },
+ "find-the-least-frequent-digit": {
+  "frontend_id": 3663,
+  "has_editorial": false
+ },
+ "smallest-absent-positive-greater-than-average": {
+  "frontend_id": 3678,
+  "has_editorial": false
+ },
+ "maximize-sum-of-at-most-k-distinct-elements": {
+  "frontend_id": 3684,
+  "has_editorial": false
+ },
+ "bitwise-or-of-even-numbers-in-an-array": {
+  "frontend_id": 3688,
+  "has_editorial": false
+ },
+ "compute-decimal-representation": {
+  "frontend_id": 3697,
+  "has_editorial": false
+ },
+ "compute-alternating-sum": {
+  "frontend_id": 3701,
+  "has_editorial": false
+ },
+ "longest-subsequence-with-non-zero-bitwise-xor": {
+  "frontend_id": 3702,
+  "has_editorial": true
+ },
+ "longest-balanced-substring-i": {
+  "frontend_id": 3713,
+  "has_editorial": true
+ },
+ "smallest-missing-multiple-of-k": {
+  "frontend_id": 3718,
+  "has_editorial": true
+ },
+ "lexicographically-smallest-string-after-reverse": {
+  "frontend_id": 3722,
+  "has_editorial": false
+ },
+ "remove-zeros-in-decimal-representation": {
+  "frontend_id": 3726,
+  "has_editorial": false
+ },
+ "maximum-alternating-sum-of-squares": {
+  "frontend_id": 3727,
+  "has_editorial": true
+ },
+ "find-missing-elements": {
+  "frontend_id": 3731,
+  "has_editorial": true
+ },
+ "minimum-number-of-flips-to-reverse-binary-string": {
+  "frontend_id": 3750,
+  "has_editorial": false
+ },
+ "concatenate-non-zero-digits-and-multiply-by-sum-i": {
+  "frontend_id": 3754,
+  "has_editorial": true
+ },
+ "count-elements-with-at-least-k-greater-values": {
+  "frontend_id": 3759,
+  "has_editorial": false
+ },
+ "sort-integers-by-binary-reflection": {
+  "frontend_id": 3769,
+  "has_editorial": false
+ },
+ "largest-prime-from-consecutive-prime-sum": {
+  "frontend_id": 3770,
+  "has_editorial": false
+ },
+ "reverse-words-with-same-vowel-count": {
+  "frontend_id": 3775,
+  "has_editorial": false
+ },
+ "mirror-distance-of-an-integer": {
+  "frontend_id": 3783,
+  "has_editorial": true
+ },
+ "reverse-string-prefix": {
+  "frontend_id": 3794,
+  "has_editorial": false
+ },
+ "largest-even-number": {
+  "frontend_id": 3798,
+  "has_editorial": false
+ },
+ "vowel-consonant-score": {
+  "frontend_id": 3813,
+  "has_editorial": false
+ },
+ "rotate-non-negative-elements": {
+  "frontend_id": 3819,
+  "has_editorial": false
+ },
+ "reverse-letters-then-special-characters-in-a-string": {
+  "frontend_id": 3823,
+  "has_editorial": false
+ },
+ "count-monobit-integers": {
+  "frontend_id": 3827,
+  "has_editorial": false
+ },
+ "weighted-word-mapping": {
+  "frontend_id": 3838,
+  "has_editorial": true
+ },
+ "first-element-with-unique-frequency": {
+  "frontend_id": 3843,
+  "has_editorial": false
+ },
+ "trim-trailing-vowels": {
+  "frontend_id": 3856,
+  "has_editorial": false
+ },
+ "minimum-capacity-box": {
+  "frontend_id": 3861,
+  "has_editorial": false
+ },
+ "first-unique-even-element": {
+  "frontend_id": 3866,
+  "has_editorial": false
+ },
+ "sum-of-gcd-of-formed-pairs": {
+  "frontend_id": 3867,
+  "has_editorial": true
+ },
+ "first-matching-character-from-both-ends": {
+  "frontend_id": 3884,
+  "has_editorial": false
+ },
+ "traffic-signal-color": {
+  "frontend_id": 3894,
+  "has_editorial": false
+ },
+ "count-digit-appearances": {
+  "frontend_id": 3895,
+  "has_editorial": false
+ },
+ "valid-digit-number": {
+  "frontend_id": 3908,
+  "has_editorial": false
+ },
+ "sort-vowels-by-frequency": {
+  "frontend_id": 3913,
+  "has_editorial": false
+ },
+ "3925": {
+  "frontend_id": null,
+  "has_editorial": null
+ },
+ "count-valid-word-occurrences": {
+  "frontend_id": 3926,
+  "has_editorial": false
+ },
+ "check-adjacent-digit-differences": {
+  "frontend_id": 3931,
+  "has_editorial": false
+ },
+ "minimum-swaps-to-move-zeros-to-end": {
+  "frontend_id": 3936,
+  "has_editorial": false
+ },
+ "limit-occurrences-in-sorted-array": {
+  "frontend_id": 3940,
+  "has_editorial": false
+ },
+ "digit-frequency-score": {
+  "frontend_id": 3945,
+  "has_editorial": false
+ },
+ "exactly-one-consecutive-set-bits-pair": {
+  "frontend_id": 3950,
+  "has_editorial": false
+ },
+ "check-good-integer": {
+  "frontend_id": 3959,
+  "has_editorial": false
+ },
+ "create-grid-with-exactly-one-path": {
+  "frontend_id": 3963,
+  "has_editorial": true
+ },
+ "valid-subarrays-with-matching-sum-digits-i": {
+  "frontend_id": 3969,
+  "has_editorial": false
+ },
+ "unique-middle-element": {
+  "frontend_id": 3978,
+  "has_editorial": false
+ },
+ "sum-of-integers-with-maximum-digit-range": {
+  "frontend_id": 3982,
+  "has_editorial": false
+ },
+ "number-of-elapsed-seconds-between-two-times": {
+  "frontend_id": 3986,
+  "has_editorial": false
+ },
+ "rearrange-string-to-avoid-character-pair": {
+  "frontend_id": 3992,
+  "has_editorial": false
+ }
+}

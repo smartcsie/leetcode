@@ -23,6 +23,7 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: Zeller’s congruence
+  official_solution: no-solution
 - file: Solution_1185_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -36,3 +37,4 @@ solutions:
   - date: '2026-11-09'
     result: 對
     reason: null
+  official_solution: no-solution

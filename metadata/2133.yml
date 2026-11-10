@@ -43,6 +43,7 @@ solutions:
   - date: '2026-10-16'
     result: 對
     reason: null
+  official_solution: no-solution
 - file: Solution_2133_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -84,6 +85,7 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: 2D Negative Marking
+  official_solution: no-solution
 - file: Solution_2133_2.cpp
   difficulty: 🟢 Easy
   tags:
@@ -107,3 +109,4 @@ solutions:
   - date: '2026-10-16'
     result: 對
     reason: null
+  official_solution: no-solution

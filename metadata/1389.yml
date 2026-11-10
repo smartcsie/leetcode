@@ -26,3 +26,4 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: vector insert element
+  official_solution: no-solution

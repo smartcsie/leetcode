@@ -25,3 +25,4 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: string find_first_not_of
+  official_solution: no-solution

@@ -11,3 +11,4 @@ solutions:
   time: O(N*log(max_VAL))
   space: O(1)
   familiarity: 練習過
+  official_solution: no-solution

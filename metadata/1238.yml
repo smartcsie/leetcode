@@ -11,3 +11,4 @@ solutions:
   time: O(2^N)
   space: O(2^N)
   familiarity: 生疏
+  official_solution: no-solution

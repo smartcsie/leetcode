@@ -13,3 +13,4 @@ solutions:
   space: O(2^(N/2))
   familiarity: 生疏
   tricks: null
+  official_solution: no-solution

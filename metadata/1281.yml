@@ -19,3 +19,4 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: Digit Decomposition
+  official_solution: no-solution

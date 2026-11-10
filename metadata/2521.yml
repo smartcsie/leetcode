@@ -21,3 +21,4 @@ solutions:
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
   is_representative: true
   representative_tag: Prime Factorization
+  official_solution: no-solution

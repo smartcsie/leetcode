@@ -22,6 +22,7 @@ solutions:
   - date: '2026-11-04'
     result: 對
     reason: null
+  official_solution: no-solution
 - file: Solution_1753_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -49,3 +50,4 @@ solutions:
   - date: '2026-11-04'
     result: 對
     reason: null
+  official_solution: no-solution

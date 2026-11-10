@@ -31,3 +31,4 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: Remove Trailing
+  official_solution: no-solution

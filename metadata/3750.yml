@@ -14,3 +14,4 @@ solutions:
   note: '> 先求binary string的r，取n和r的Hamming Distance<br>
 
     <br><br>'
+  official_solution: no-solution

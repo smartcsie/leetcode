@@ -21,3 +21,4 @@ solutions:
 
     > 直接計算nums[right]右移次數，每次次數直接*10，當作nums[left]的multiplier<br>'
   familiarity: 生疏
+  official_solution: no-solution

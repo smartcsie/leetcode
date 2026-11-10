@@ -30,3 +30,4 @@ solutions:
     reason: null
   is_representative: true
   representative_tag: Bézout's Identity
+  official_solution: no-solution

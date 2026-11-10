@@ -11,3 +11,4 @@ solutions:
   time: O(∏(needs[i]+1))
   space: O(∏(needs[i]+1))
   familiarity: 生疏
+  official_solution: no-solution

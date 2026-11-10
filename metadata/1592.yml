@@ -13,3 +13,4 @@ solutions:
   space: O(N)
   familiarity: 練習過
   note: '> **注意邊界條件if(segs == 1)，return word + string(space, '' '');**<br>'
+  official_solution: no-solution

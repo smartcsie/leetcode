@@ -11,3 +11,4 @@ solutions:
   time: O(D²)
   space: O(1)
   familiarity: 生疏
+  official_solution: no-solution

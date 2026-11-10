@@ -11,3 +11,4 @@ solutions:
   time: O(N)
   space: O(最長連續按鍵長度)
   familiarity: 生疏
+  official_solution: no-solution
