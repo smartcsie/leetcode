@@ -14,6 +14,6 @@
 class Solution {
 public:
     int arrangeCoins(int n) {
-        return (int)((-1 + sqrt(1 + 8LL * n)) / 2);
+        return static_cast<int>(sqrt(2 * static_cast<long>(n) + 0.25) - 0.5);
     }
 };

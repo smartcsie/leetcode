@@ -6,17 +6,37 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Formula
-  - Binary Search
   topics:
   - math-formula
   time: O(logN)
   space: O(1)
-  familiarity: 易忘
-  note: '> **return (int)((-1 + sqrt(1 + 8 * (long)n)) / 2);** <br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-10'
+  note: '> **return static_cast<int>(sqrt(2 * static_cast<long>(n) + 0.25) - 0.5);**
+    <br>'
+  official_solution: pending
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-18'
+    result: 對
+    reason: null
+  - date: '2026-11-10'
+    result: 對
+    reason: null
+- file: Solution_0441_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search
+  topics:
+  - binary-search
+  time: O(logN)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-10'
+  official_solution: synced
+  attempts:
+  - date: '2026-11-10'
     result: 對
     reason: null
