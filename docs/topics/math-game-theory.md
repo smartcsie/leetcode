@@ -25,4 +25,4 @@
 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | Math Game Theory | [C++](../problems/1025.md) | O(1) | O(1) | 2026-10-23 |
 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](../problems/1927.md) | O(N) | O(1) | 2026-10-23 |
 | 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | Math Game Theory | [C++](../problems/3227.md) | O(N) | O(1) | 2026-11-10 |
-| 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | Math Game Theory | [C++](../problems/3232.md) | O(N) | O(1) | 2026-11-09 |
+| 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | Math Game Theory | [C++](../problems/3232.md) | O(N) | O(1) | 2026-11-10 |

@@ -13,10 +13,14 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-11-09'
   note: '> **Alice可以選個位數或雙位數，只有一種狀況，Alice不可能贏，個位數和和雙位數和相等**<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-11-09'
+    result: 對
+    reason: null
+  - date: '2026-11-10'
     result: 對
     reason: null
