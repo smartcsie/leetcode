@@ -20,7 +20,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 E | Tree | [C++](../problems/0100.md) | O(N) | O(H) |  |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 E | Tree | [C++](../problems/0100.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 E | Tree | [C++](../problems/0226.md) | O(N) | O(H) |  |
 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 M | Tree | [C++](../problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) |  |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 E | Tree | [C++](../problems/2236.md) | O(1) | O(1) | ❌ 官方沒有解答 |
