@@ -12,10 +12,14 @@ solutions:
   topics:
   - design
   time: O(1)
-  space: O(Capacity)
+  space: O(C)
   familiarity: 再練習
   is_best: true
+  official_solution: null
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-10'
+    result: 對
+    reason: null
