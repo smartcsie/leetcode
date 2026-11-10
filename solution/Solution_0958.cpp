@@ -19,18 +19,24 @@
  * 核心觀察：
  * 完全二元樹的 BFS 序列中，第一個 null 之後不會再出現非 null 節點。
  */
+
 class Solution {
 public:
     bool isCompleteTree(TreeNode* root) {
         if(!root) return true;
+        bool nullFound = false;
         queue<TreeNode*> q({root});
-        while(q.front()) {
+        while(!q.empty()) {
             TreeNode* node = q.front();
             q.pop();
-            q.push(node->left);
-            q.push(node->right);
+            if(node == nullptr) {
+                nullFound = true;
+            } else {
+                if(nullFound) return false;
+                q.push(node->left);
+                q.push(node->right);
+            }
         }
-        while(!q.empty() && !q.front()) q.pop();
-        return q.empty();
+        return true;
     }
 };

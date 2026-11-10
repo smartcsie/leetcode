@@ -701,6 +701,15 @@ function addSolutionBlock(prefill) {
           🏆 標記為這題的最佳解
         </label>
       </div>
+      <div class="field">
+        <label>官方 Premium 解答 <span class="hint">(選填，與官方解答的同步狀態)</span></label>
+        <select class="sol-official-solution" style="max-width: 220px;">
+          <option value="">（未設定）</option>
+          <option value="synced">✅ 已同步官方解答</option>
+          <option value="no-solution">❌ 官方沒有解答</option>
+          <option value="pending" selected>⏳ 尚未同步</option>
+        </select>
+      </div>
     </div>
     <div class="field-row">
       <div class="field" style="flex: 0 0 200px;">
@@ -841,6 +850,7 @@ async function loadExistingProblem() {
       block.querySelector('.sol-note').value = sol.note || '';
       block.querySelector('.sol-code').value = sol.code || '';
       block.querySelector('.sol-is-best').checked = !!sol.is_best;
+      block.querySelector('.sol-official-solution').value = sol.official_solution || '';
       block.querySelector('.sol-related').value = (sol.related || []).join(', ');
       block.querySelector('.sol-tricks').value = (sol.tricks || []).join(', ');
       block.querySelector('.sol-is-representative').checked = !!sol.is_representative;
@@ -959,6 +969,8 @@ function collectStructuredData() {
 
     const noteEl = block.querySelector('.sol-note');
     const note = noteEl ? noteEl.value.trim() : '';
+    const officialSolutionEl = block.querySelector('.sol-official-solution');
+    const officialSolution = officialSolutionEl ? officialSolutionEl.value : '';
     const isBestEl = block.querySelector('.sol-is-best');
     const isBest = isBestEl ? isBestEl.checked : false;
     const relatedEl = block.querySelector('.sol-related');
@@ -996,6 +1008,7 @@ function collectStructuredData() {
       mastered_date: masteredDate,
       note: note || null,
       is_best: isBest || null,
+      official_solution: officialSolution || null,
       related: related.length ? related : null,
       tricks: tricks.length ? tricks : null,
       attempts: solAttempts.length ? solAttempts : null,
@@ -1030,6 +1043,7 @@ function buildYamlPreview(data) {
     lines.push(`  space: ${sol.space}`);
     if (sol.familiarity) lines.push(`  familiarity: ${sol.familiarity}`);
     if (sol.is_best) lines.push(`  is_best: true`);
+    if (sol.official_solution) lines.push(`  official_solution: ${sol.official_solution}`);
     if (sol.is_representative) {
       lines.push(`  is_representative: true`);
       if (sol.representative_tag) lines.push(`  representative_tag: ${sol.representative_tag}`);

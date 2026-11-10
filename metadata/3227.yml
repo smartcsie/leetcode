@@ -17,6 +17,7 @@ solutions:
     > **如果是奇數的vowel，Alice直接刪除含全部的vowel**<br>
 
     > **如果是偶數的vowel，Alice刪除奇數的vowel**<br>'
+  official_solution: synced
   related:
   - 1025
   attempts:
@@ -26,3 +27,8 @@ solutions:
   - date: '2026-11-09'
     result: 對
     reason: null
+  - date: '2026-11-10'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: any_of lemma

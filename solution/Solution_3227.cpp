@@ -21,9 +21,8 @@
 class Solution {
 public:
     bool doesAliceWin(string s) {
-        for(const char& c : s) {
-            if((0x104111 >> (c - 'a')) & 1) return true;
-        }
-        return false;
+        return any_of(s.begin(), s.end(), [](char c) {
+            return ((0x104111 >> (c - 'a')) & 1);
+        });
     }
 };

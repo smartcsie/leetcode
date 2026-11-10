@@ -6,13 +6,14 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Tree Bfs Level Order
-  - BFS
-  - Level Order Traversal
   topics:
   - tree-bfs-level-order
   time: O(N)
   space: O(N)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-11-10'
+  note: '> **連續BFS travsal，到結束前都不應該遇到nullptr節點**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-14'
     result: 對
@@ -21,6 +22,9 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-06'
+    result: 對
+    reason: null
+  - date: '2026-11-10'
     result: 對
     reason: null
 - file: Solution_0958_1.cpp
@@ -32,8 +36,12 @@ solutions:
   time: O(N)
   space: O(”)
   familiarity: 易忘
+  official_solution: null
   attempts:
   - date: '2026-10-06'
+    result: 對
+    reason: null
+  - date: '2026-11-10'
     result: 對
     reason: null
 - file: Solution_0958_2.cpp
@@ -46,7 +54,11 @@ solutions:
   space: O(N)
   familiarity: 熟練
   mastered_date: '2026-09-14'
+  official_solution: null
   attempts:
   - date: '2026-10-06'
+    result: 對
+    reason: null
+  - date: '2026-11-10'
     result: 對
     reason: null
