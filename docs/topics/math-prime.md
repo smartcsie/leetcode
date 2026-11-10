@@ -33,5 +33,5 @@
 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 Medium | Math Prime | [C++](../problems/3556.md) | O(N²\*sqrt(M)) | O(1) | 2026-11-09 |
 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 Easy | Math Prime, Hash Table | [C++](../problems/3591.md) | O(N+KloglogK) | O(K) | 2026-09-23 |
 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 Easy | Math Prime, Sieve | [C++](../problems/3618.md) | O(N+RloglogR) | O(R) | 2026-09-23 |
-| 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | Math Prime | [C++](../problems/3765.md) | O(D\*sqrt(N)) | O(D) | 2026-10-23 |
-| 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math Prime, Sieve | [C++](../problems/3918.md) | O(RloglogR) | O(R) | 2026-09-23 |
+| 3765 | [Complete Prime Number](https://leetcode.com/problems/complete-prime-number/) | 🟢 Easy | Math Prime | [C++](../problems/3765.md) | O(D\*sqrt(N)) | O(D) | 2026-11-10 |
+| 3918 | [Sum of Primes Between Number and Its Reverse](https://leetcode.com/problems/sum-of-primes-between-number-and-its-reverse/) | 🟡 Medium | Math Prime, Sieve | [C++](../problems/3918.md) | O(RloglogR) | O(R) | 2026-11-10 |

@@ -17,6 +17,7 @@ solutions:
     > ** int prefix = stoi(s.substr(0, i)); **<br>
 
     > ** int suffix = stoi(s.substr(n - i, i));**<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-24'
     result: 對
@@ -31,5 +32,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-23'
+    result: 對
+    reason: null
+  - date: '2026-11-10'
     result: 對
     reason: null
