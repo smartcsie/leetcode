@@ -25,7 +25,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math Prime, Sieve | [C++](../problems/0204.md) | O(NloglogN) | O(N) | 2026-10-16 |
 | 762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Math Prime | [C++](../problems/0762.md) | O(NlogK) | O(1) | 2026-09-22 |
-| 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime | [C++](../problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-11-09 |
+| 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime | [C++](../problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-11-10 |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math Prime | [C++](../problems/1952.md) | O(√N) | O(1) | 2026-10-08 |
 | 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | 🟡 Medium | Math Prime | [C++](../problems/2523.md) | O(NloglogN) | O(N) | 2026-10-08 |
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 Easy | Math Prime, Trial Division | [C++](../problems/2614.md) | O(N\*sqrt(M)) | O(1) | 2026-09-23 |

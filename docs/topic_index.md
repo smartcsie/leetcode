@@ -21,7 +21,7 @@
 | 365 | 👑 **Bézout's Identity**<br>[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 Medium | Math Gcd | [C++](problems/0365.md) | O(log(min(x,y))) | O(1) | 2026-10-16 |
 | 507 | 👑 **Mersenne Prime**<br>[Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 Easy | Math | [C++](problems/0507.md) | O(1) | O(1) | 2026-10-23 |
 | 812 | 👑 **Shoelace formula**<br>[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | 🟢 Easy | Math Formula | [C++](problems/0812.md) | O(N³) | O(1) | 2026-11-04 |
-| 866 | 👑 **Palindrome Construction**<br>[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime | [C++](problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-11-09 |
+| 866 | 👑 **Palindrome Construction**<br>[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime | [C++](problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-11-10 |
 | 949 | 👑 **next_permutation**<br>[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 Medium | Math Permutation | [C++](problems/0949.md) | O(1) | O(1) | 2026-10-22 |
 | 1071 | 👑 **Euclidean algorithm**<br>[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 Easy | Math Gcd | [C++](problems/1071.md) | O(N+M) | O(N+M) | 2026-11-04 |
 | 1185 | 👑 **Zeller’s congruence**<br>[Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 Easy | Math | [C++](problems/1185.md) | O(1) | O(1) | 2026-11-09 |
