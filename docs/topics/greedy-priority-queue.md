@@ -4,7 +4,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1851 | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | 🔴 Hard | Greedy Priority Queue | [C++](../problems/1851.md) | O((N+Q) log N) | O(N) |  |
+| 1851 | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | 🔴 H | Greedy Priority Queue | [C++](../problems/1851.md) | O((N+Q) log N) | O(N) |  |
 
 ## 🟠 再練習（0）
 
@@ -22,6 +22,6 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | Greedy Priority Queue | [C++](../problems/1405.md) | O((a+b+c) log 3) | O(1) | 2026-10-31 |
-| 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 Medium | Greedy Priority Queue | [C++](../problems/1753.md) | O((a+b+c) log 3) | O(1) | 2026-11-04 |
-| 2208 | [Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/) | 🟡 Medium | Greedy Priority Queue | [C++](../problems/2208.md) | O(N + K log N) | O(N) | 2026-10-30 |
+| 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 M | Greedy Priority Queue | [C++](../problems/1405.md) | O((a+b+c) log 3) | O(1) | 2026-10-31 |
+| 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 M | Greedy Priority Queue | [C++](../problems/1753.md) | O((a+b+c) log 3) | O(1) | 2026-11-04 |
+| 2208 | [Minimum Operations to Halve Array Sum](https://leetcode.com/problems/minimum-operations-to-halve-array-sum/) | 🟡 M | Greedy Priority Queue | [C++](../problems/2208.md) | O(N + K log N) | O(N) | 2026-10-30 |

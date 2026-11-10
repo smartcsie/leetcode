@@ -20,9 +20,9 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 Easy | Math Game Theory | [C++](../problems/0292.md) | O(1) | O(1) | 2026-10-23 |
-| 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 Hard | Math Game Theory | [C++](../problems/0810.md) | O(N) | O(1) | 2026-11-09 |
-| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 Easy | Math Game Theory | [C++](../problems/1025.md) | O(1) | O(1) | 2026-10-23 |
-| 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 Medium | Math Game Theory, Game Theory | [C++](../problems/1927.md) | O(N) | O(1) | 2026-10-23 |
-| 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 Medium | Math Game Theory | [C++](../problems/3227.md) | O(N) | O(1) | 2026-11-10 |
-| 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 Easy | Math Game Theory | [C++](../problems/3232.md) | O(N) | O(1) | 2026-11-10 |
+| 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 E | Math Game Theory | [C++](../problems/0292.md) | O(1) | O(1) | 2026-10-23 |
+| 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 H | Math Game Theory | [C++](../problems/0810.md) | O(N) | O(1) | 2026-11-09 |
+| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 E | Math Game Theory | [C++](../problems/1025.md) | O(1) | O(1) | 2026-10-23 |
+| 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 M | Math Game Theory, Game Theory | [C++](../problems/1927.md) | O(N) | O(1) | 2026-10-23 |
+| 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/) | 🟡 M | Math Game Theory | [C++](../problems/3227.md) | O(N) | O(1) | 2026-11-10 |
+| 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 E | Math Game Theory | [C++](../problems/3232.md) | O(N) | O(1) | 2026-11-10 |

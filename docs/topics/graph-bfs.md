@@ -4,7 +4,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | Graph Bfs | [C++](../problems/0127.md) | O(N·L·26) | O(N·L) |  |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 H | Graph Bfs | [C++](../problems/0127.md) | O(N·L·26) | O(N·L) |  |
 
 ## 🟠 再練習（0）
 
@@ -22,4 +22,4 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | 🟡 Medium | Graph Bfs | [C++](../problems/1306.md) | O(N) | O(N) | 2026-11-05 |
+| 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | 🟡 M | Graph Bfs | [C++](../problems/1306.md) | O(N) | O(N) | 2026-11-05 |

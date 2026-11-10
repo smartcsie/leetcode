@@ -59,6 +59,17 @@ def official_solution_badge(value):
     return _OFFICIAL_SOLUTION_BADGE.get(value, escape_cell(value))
 
 
+# 難度只在「顯示」時縮寫（🟢 Easy -> 🟢 E），metadata 裡仍然存完整的
+# 「🟢 Easy」，solution-generator.html 載入／存檔不受影響。
+_DIFFICULTY_SHORT = {'Easy': 'E', 'Medium': 'M', 'Hard': 'H'}
+
+
+def short_difficulty(value):
+    if not value:
+        return ''
+    return re.sub(r'\b(Easy|Medium|Hard)\b', lambda m: _DIFFICULTY_SHORT[m.group(1)], str(value))
+
+
 GROUPS = [
     (r'^design$', '🎨 Design'),
     (r'^math', '🔢 Math'),
@@ -220,7 +231,7 @@ def build_problem_page(problem, solution_dir):
         if sol.get('official_solution'):
             official_badge = f"　**官方解答:** {official_solution_badge(sol.get('official_solution'))}"
 
-        info = (f"**難度:** {sol.get('difficulty','')}　"
+        info = (f"**難度:** {short_difficulty(sol.get('difficulty',''))}　"
                 f"**標籤:** {tags_str}　"
                 f"**時間:** {sol.get('time','')}　"
                 f"**空間:** {sol.get('space','')}{familiarity_badge}{best_badge}{crown_badge}{official_badge}")
@@ -324,7 +335,7 @@ def build_topic_indexes(problems, topics_out_dir):
             title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             lines.append(f"| {r['number']} | {title_cell} | "
-                         f"{escape_cell(r['difficulty'])} | {tags_str} | {file_cell} | "
+                         f"{escape_cell(short_difficulty(r['difficulty']))} | {tags_str} | {file_cell} | "
                          f"{escape_cell(r['time'])} | {escape_cell(r['space'])} | "
                          f"{escape_cell(r['date'])} |")
         return lines
@@ -498,7 +509,7 @@ def _build_combined_review_section(rows, id_prefix):
             title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             badge = _FAMILIARITY_BADGE.get(r['familiarity'], escape_cell(r['familiarity']))
-            lines.append(f"| {badge} | {r['number']} | {title_cell} | {escape_cell(r['difficulty'])} | "
+            lines.append(f"| {badge} | {r['number']} | {title_cell} | {escape_cell(short_difficulty(r['difficulty']))} | "
                          f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | "
                          f"{escape_cell(r['space'])} | {escape_cell(r.get('date', ''))} | "
                          f"{official_solution_badge(r.get('official_solution'))} |")
@@ -712,7 +723,7 @@ def build_topic_index_page(problems, docs_dir):
                 title_cell = link_part
             page_link = f"problems/{r['number']:04d}.md"
             file_cell = f"[C++]({page_link})" if r['file'] else ''
-            lines.append(f"| {r['number']} | {title_cell} | {escape_cell(r['difficulty'])} | "
+            lines.append(f"| {r['number']} | {title_cell} | {escape_cell(short_difficulty(r['difficulty']))} | "
                          f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | "
                          f"{escape_cell(r['space'])} | {escape_cell(r['date'])} |")
             total += 1

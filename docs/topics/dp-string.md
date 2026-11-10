@@ -4,8 +4,8 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | Dp String | [C++](../problems/0010.md) | O(M) | O(M) |  |
-| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | 🔴 Hard | Dp String | [C++](../problems/0044.md) | O(M) | O(M) |  |
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 H | Dp String | [C++](../problems/0010.md) | O(M) | O(M) |  |
+| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | 🔴 H | Dp String | [C++](../problems/0044.md) | O(M) | O(M) |  |
 
 ## 🟠 再練習（0）
 

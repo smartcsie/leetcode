@@ -4,7 +4,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | 🟡 Medium | Greedy Prefix Suffix | [C++](../problems/0763.md) | O(N) | O(1) |  |
+| 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | 🟡 M | Greedy Prefix Suffix | [C++](../problems/0763.md) | O(N) | O(1) |  |
 
 ## 🟠 再練習（0）
 
@@ -22,5 +22,5 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | 🟡 Medium | Greedy Prefix Suffix | [C++](../problems/0134.md) | O(N) | O(1) | 2026-10-30 |
-| 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 Medium | Greedy Prefix Suffix | [C++](../problems/1529.md) | O(N) | O(1) | 2026-11-05 |
+| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | 🟡 M | Greedy Prefix Suffix | [C++](../problems/0134.md) | O(N) | O(1) | 2026-10-30 |
+| 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 M | Greedy Prefix Suffix | [C++](../problems/1529.md) | O(N) | O(1) | 2026-11-05 |

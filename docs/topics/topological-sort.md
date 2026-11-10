@@ -4,7 +4,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | Topological Sort | [C++](../problems/0207.md) | O(V+E) | O(V+E) |  |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 M | Topological Sort | [C++](../problems/0207.md) | O(V+E) | O(V+E) |  |
 
 ## 🟠 再練習（0）
 

@@ -16,7 +16,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 Medium | Trie | [C++](../problems/0648.md) | O(N\*L+M\*K) | O(D\*L) | 2026-10-29 |
+| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 M | Trie | [C++](../problems/0648.md) | O(N\*L+M\*K) | O(D\*L) | 2026-10-29 |
 
 ## 🟢 熟悉（0）
 

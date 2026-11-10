@@ -4,7 +4,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1584 | [Minimum Cost to Connect All Points](https://leetcode.com/problems/minimum-cost-to-connect-all-points/) | 🟡 Medium | Graph Mst | [C++](../problems/1584.md) | O(N²) | O(N) | 2026-10-30 |
+| 1584 | [Minimum Cost to Connect All Points](https://leetcode.com/problems/minimum-cost-to-connect-all-points/) | 🟡 M | Graph Mst | [C++](../problems/1584.md) | O(N²) | O(N) | 2026-10-30 |
 
 ## 🟠 再練習（0）
 

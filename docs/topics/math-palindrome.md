@@ -20,5 +20,5 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | Math Palindrome | [C++](../problems/0009.md) | O(logN) | O(1) | 2026-10-23 |
-| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 Medium | Math Palindrome | [C++](../problems/2396.md) | O(1) | O(1) | 2026-10-23 |
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 E | Math Palindrome | [C++](../problems/0009.md) | O(logN) | O(1) | 2026-10-23 |
+| 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 M | Math Palindrome | [C++](../problems/2396.md) | O(1) | O(1) | 2026-10-23 |
