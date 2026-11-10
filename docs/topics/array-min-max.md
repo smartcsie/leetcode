@@ -16,7 +16,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（6）
+## 🟢 熟悉（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26,3 +26,4 @@
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 E | Array Min Max, Greedy, Simulation | [C++](../problems/1464.md) | O(N) | O(1) |  |
 | 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | 🟢 E | Array Min Max | [C++](../problems/1629.md) | O(N) | O(1) |  |
 | 1913 | [Maximum Product Difference Between Two Pairs](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | 🟢 E | Array Min Max | [C++](../problems/1913.md) | O(N) | O(1) |  |
+| 3736 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | 🟢 E | Array Min Max | [C++](../problems/3736.md) | O(N) | O(1) | ✅ 已同步官方解答 |

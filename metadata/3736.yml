@@ -1,0 +1,19 @@
+number: 3736
+title: Minimum Moves to Equal Array Elements III
+url: https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/
+solutions:
+- file: Solution_3736.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Array Min Max
+  topics:
+  - array-min-max
+  time: O(N)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-10'
+  official_solution: synced
+  attempts:
+  - date: '2026-11-10'
+    result: 對
+    reason: null
