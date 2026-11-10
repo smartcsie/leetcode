@@ -23,7 +23,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math Prime, Sieve | [C++](../problems/0204.md) | O(NloglogN) | O(N) | 2026-10-16 |
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 Medium | Math Prime | [C++](../problems/0204.md) | O(NloglogN) | O(N) | 2026-11-10 |
 | 762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 Easy | Math Prime | [C++](../problems/0762.md) | O(NlogK) | O(1) | 2026-09-22 |
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 Medium | Math Prime | [C++](../problems/0866.md) | O(sqrt(10^9)) | O(1) | 2026-11-10 |
 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 Easy | Math Prime | [C++](../problems/1952.md) | O(√N) | O(1) | 2026-10-08 |

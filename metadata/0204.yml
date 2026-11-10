@@ -6,15 +6,18 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Math Prime
-  - Sieve
   topics:
   - math-prime
   time: O(NloglogN)
   space: O(N)
   familiarity: 熟練
   mastered_date: '2026-10-16'
+  official_solution: synced
   attempts:
   - date: '2026-10-16'
+    result: 對
+    reason: null
+  - date: '2026-11-10'
     result: 對
     reason: null
   is_representative: true
