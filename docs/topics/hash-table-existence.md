@@ -22,7 +22,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](../problems/0202.md) | O(logN) | O(1) | 2026-10-04 |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence | [C++](../problems/0202.md) | O(logN) | O(1) | 2026-11-10 |
 
 ## 🟢 熟悉（16）
 

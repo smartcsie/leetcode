@@ -1,34 +1,43 @@
 /**
- * 題目：202. Happy Number (快樂數)
+ * 題目：202. Happy Number
  * 難度：簡單 (Easy)
- * 描述：判斷一個數字 n 是不是快樂數。
- * 演算法思路：
- * 1. 根據題目定義，重複計算位數平方和。
- * 2. 如果結果變為 1，則是快樂數。
- * 3. 如果結果開始「循環重複」，則永遠不會變為 1，不是快樂數。
- * 4. 使用 std::unordered_set 儲存每一次計算出來的 sum，
- * 每次得到新結果時，檢查是否已存在於集合中以判斷是否進入死循環。
+ * 描述：對一個數反覆執行「各位數字的平方和」運算，
+ * 若最終結果為 1 則為快樂數，否則會陷入無限循環。
  *
  * 時間複雜度：O(logN)
- * 空間複雜度：O(logN)
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：
+ * （Floyd 快慢指針偵測循環）：
+ * 不快樂數最終會進入循環，快樂數最終會到達 1。
+ * 用快慢指針偵測是否有循環：
+ * - slow 每次走一步
+ * - fast 每次走兩步
+ * - 若 fast == 1：是快樂數
+ * - 若 fast == slow：進入循環，不是快樂數
+ *
+ * 與 unordered_set 版本的差異：
+ * 不需要額外空間記錄已見過的數字，空間複雜度 O(1)。
  */
-
 class Solution {
 public:
     bool isHappy(int n) {
-        unordered_set<int> repeat_set;
-
-        while(n != 1) {
-            int sum = 0;
-            while(n) {
-                sum += (n%10) * (n%10);
-                n /= 10;
-            }
-            n = sum;
-            if(repeat_set.contains(n)) break;
-            repeat_set.insert(n);
+        int slow = n;
+        int fast = getNext(n);
+        while (fast != 1 && slow != fast) {
+            slow = getNext(slow);
+            fast = getNext(getNext(fast));
         }
-
-        return (n == 1);
+        return fast == 1;
+    }
+private:
+    int getNext(int n) {
+        int totalSum = 0;
+        while (n > 0) {
+            int d = n % 10;
+            n /= 10;
+            totalSum += d * d;
+        }
+        return totalSum;
     }
 };

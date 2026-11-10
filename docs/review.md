@@ -9,9 +9,9 @@
 
 ## 📝 複習清單（依分類）
 
-目前共有 358 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 359 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（15）](#review-math)　[📊 Bit Manipulation（33）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（18）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（16）](#review-math)　[📊 Bit Manipulation（33）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（18）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -25,12 +25,13 @@
 | 🟣 易忘 | 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 Medium | Design | [C++](problems/0208.md) | O(L) | O(N \* L) | 2026-11-04 |
 
 <a id="review-math"></a>
-#### 🔢 Math（15）
+#### 🔢 Math（16）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟡 練習過 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math Permutation | [C++](problems/0060.md) | O(N × N!) | O(N) |  |
 | 🟣 易忘 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 Medium | Math Permutation, Factorial | [C++](problems/0060.md) | O(N²) | O(N) | 2026-10-04 |
+| 🟣 易忘 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Math | [C++](problems/0202.md) | O(logN) | O(1) | 2026-11-10 |
 | 🟣 易忘 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](problems/0343.md) | O(1) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](problems/0396.md) | O(N) | O(1) | 2026-10-04 |
 | 🟣 易忘 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math, Hash Table | [C++](problems/0970.md) | O(log_X(BOUND)\*log_Y(BOUND)) | O(S) | 2026-10-04 |
@@ -236,7 +237,7 @@
 | 🔴 生疏 | 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 Medium | Hash Table, String, Single-Pass | [C++](problems/2023.md) | O(N\*L) | O(N) |  |
 | 🔴 生疏 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 Medium | Hash Table Uniqueness, Hash Set, Greedy | [C++](problems/3487.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 Medium | String, Hash Map | [C++](problems/3926.md) | O(N+M) | O(N) |  |
-| 🟣 易忘 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence, Hash Table, Fast-Slow Pointers | [C++](problems/0202.md) | O(logN) | O(1) | 2026-10-04 |
+| 🟣 易忘 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Hash Table Existence | [C++](problems/0202.md) | O(logN) | O(1) | 2026-11-10 |
 
 <a id="review-stack"></a>
 #### 📚 Stack（11）
@@ -572,7 +573,7 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 1 | 0 | 0 | 0 | 19 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 0 | 2 | 3 | 4 | 8 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
-| [math](topics/math.md) | 0 | 0 | 0 | 7 | 31 | 0 | 38 |
+| [math](topics/math.md) | 0 | 0 | 0 | 8 | 31 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 0 | 0 | 0 | 1 | 4 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 0 | 0 | 0 | 42 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 0 | 0 | 1 | 3 | 0 | 4 |

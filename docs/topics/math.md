@@ -12,10 +12,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（8）
+## 🟣 易忘（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 Easy | Math | [C++](../problems/0202.md) | O(logN) | O(1) | 2026-11-10 |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | Math, Greedy | [C++](../problems/0343.md) | O(1) | O(1) | 2026-10-04 |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 Medium | Math, Array | [C++](../problems/0396.md) | O(N) | O(1) | 2026-10-04 |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 Medium | Math, Hash Table | [C++](../problems/0970.md) | O(log_X(BOUND)\*log_Y(BOUND)) | O(S) | 2026-10-04 |
