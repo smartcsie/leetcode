@@ -2,9 +2,9 @@
 
 ## 🔴 生疏（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 M | Sorting Radix Sort | [C++](../problems/0164.md) | O(N \* D) | O(N) | 2026-10-29 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | 🟡 M | Sorting Radix Sort | [C++](../problems/0164.md) | O(N \* D) | O(N) | 2026-10-29 |  |
 
 ## 🟠 再練習（0）
 

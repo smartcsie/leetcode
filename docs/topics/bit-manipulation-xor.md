@@ -6,38 +6,38 @@
 
 ## 🟠 再練習（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 M | Bit Manipulation | [C++](../problems/0260.md) | O(N) | O(1) | 2026-10-04 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 M | Bit Manipulation | [C++](../problems/0260.md) | O(N) | O(1) | 2026-10-04 |  |
 
 ## 🟡 練習過（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 M | Bit Manipulation Xor, Prefix XOR | [C++](../problems/1442.md) | O(N²) | O(1) |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 M | Bit Manipulation Xor, Prefix XOR | [C++](../problems/1442.md) | O(N²) | O(1) |  |  |
 
 ## 🟣 易忘（5）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 M | Bit Manipulation Xor, Hash Set | [C++](../problems/0421.md) | O(N\*L) | O(N) | 2026-10-04 |
-| 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 E | Bit Manipulation Xor, Math, Combinatorics | [C++](../problems/1863.md) | O(N) | O(1) | 2026-10-04 |
-| 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 M | Bit Manipulation, Math | [C++](../problems/2425.md) | O(N+M) | O(1) | 2026-10-04 |
-| 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/2683.md) | O(N) | O(1) | 2026-10-16 |
-| 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 H | Bit Manipulation Xor | [C++](../problems/3514.md) | O(MlogM) | O(M) | 2026-10-04 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 M | Bit Manipulation Xor, Hash Set | [C++](../problems/0421.md) | O(N\*L) | O(N) | 2026-10-04 |  |
+| 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 E | Bit Manipulation Xor, Math, Combinatorics | [C++](../problems/1863.md) | O(N) | O(1) | 2026-10-04 |  |
+| 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 M | Bit Manipulation, Math | [C++](../problems/2425.md) | O(N+M) | O(1) | 2026-10-04 |  |
+| 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/2683.md) | O(N) | O(1) | 2026-10-16 |  |
+| 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 H | Bit Manipulation Xor | [C++](../problems/3514.md) | O(MlogM) | O(M) | 2026-10-04 |  |
 
 ## 🟢 熟悉（11）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 E | Bit Manipulation Xor, Bit-Manipulation | [C++](../problems/0136.md) | O(N) | O(1) | 2026-09-14 |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0268.md) | O(N) | O(1) | 2026-10-16 |
-| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0389.md) | O(N) | O(N) | 2026-09-17 |
-| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0461.md) | O(N) | O(1) | 2026-09-21 |
-| 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/1318.md) | O(log(max(a,b,c))) | O(1) | 2026-09-18 |
-| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 E | Bit Manipulation, Simulation | [C++](../problems/1486.md) | O(N) | O(1) | 2026-09-18 |
-| 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 E | Bit Manipulation Xor, Simulation | [C++](../problems/1720.md) | O(N) | O(N) | 2026-09-18 |
-| 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 M | Bit Manipulation, Greedy | [C++](../problems/2429.md) | O(1) | O(1) | 2026-09-18 |
-| 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 M | Bit Manipulation Xor, Prefix XOR Inverse | [C++](../problems/2433.md) | O(N) | O(N) | 2026-09-18 |
-| 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 E | Bit Manipulation Xor, Bit Manipulation | [C++](../problems/3158.md) | O(N) | O(1) | 2026-09-18 |
-| 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 M | Bit Manipulation Xor, Greedy | [C++](../problems/3702.md) | O(N) | O(1) | 2026-10-07 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 E | Bit Manipulation Xor, Bit-Manipulation | [C++](../problems/0136.md) | O(N) | O(1) | 2026-09-14 |  |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0268.md) | O(N) | O(1) | 2026-10-16 |  |
+| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0389.md) | O(N) | O(N) | 2026-09-17 |  |
+| 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0461.md) | O(N) | O(1) | 2026-09-21 |  |
+| 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/1318.md) | O(log(max(a,b,c))) | O(1) | 2026-09-18 |  |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 E | Bit Manipulation, Simulation | [C++](../problems/1486.md) | O(N) | O(1) | 2026-09-18 | ❌ 官方沒有解答 |
+| 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 E | Bit Manipulation Xor, Simulation | [C++](../problems/1720.md) | O(N) | O(N) | 2026-09-18 | ❌ 官方沒有解答 |
+| 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 M | Bit Manipulation, Greedy | [C++](../problems/2429.md) | O(1) | O(1) | 2026-09-18 |  |
+| 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 M | Bit Manipulation Xor, Prefix XOR Inverse | [C++](../problems/2433.md) | O(N) | O(N) | 2026-09-18 |  |
+| 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 E | Bit Manipulation Xor, Bit Manipulation | [C++](../problems/3158.md) | O(N) | O(1) | 2026-09-18 | ❌ 官方沒有解答 |
+| 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 M | Bit Manipulation Xor, Greedy | [C++](../problems/3702.md) | O(N) | O(1) | 2026-10-07 |  |

@@ -18,6 +18,6 @@
 
 ## 🟢 熟悉（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 E | Greedy Coin Change | [C++](../problems/0860.md) | O(N) | O(1) | 2026-09-17 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 E | Greedy Coin Change | [C++](../problems/0860.md) | O(N) | O(1) | 2026-09-17 |  |

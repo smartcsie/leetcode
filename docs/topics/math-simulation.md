@@ -18,7 +18,7 @@
 
 ## 🟢 熟悉（2）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 E | Math Simulation | [C++](../problems/2293.md) | O(N) | O(N) | 2026-10-23 |
-| 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 E | Math Simulation, Logic Control | [C++](../problems/3894.md) | O(1) | O(1) | 2026-09-23 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 E | Math Simulation | [C++](../problems/2293.md) | O(N) | O(N) | 2026-10-23 | ❌ 官方沒有解答 |
+| 3894 | [Traffic Signal Color](https://leetcode.com/problems/traffic-signal-color/) | 🟢 E | Math Simulation, Logic Control | [C++](../problems/3894.md) | O(1) | O(1) | 2026-09-23 | ❌ 官方沒有解答 |

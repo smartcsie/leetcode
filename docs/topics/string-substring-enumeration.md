@@ -14,9 +14,9 @@
 
 ## 🟣 易忘（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 M | Math, Brute Force | [C++](../problems/3713.md) | O(N^2) | O(1) | 2026-10-04 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 M | Math, Brute Force | [C++](../problems/3713.md) | O(N^2) | O(1) | 2026-10-04 |  |
 
 ## 🟢 熟悉（0）
 

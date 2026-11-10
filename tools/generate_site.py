@@ -315,6 +315,7 @@ def build_topic_indexes(problems, topics_out_dir):
                     'space': sol.get('space', ''),
                     'familiarity': sol.get('familiarity'),
                     'date': get_latest_attempt_date(sol),
+                    'official_solution': sol.get('official_solution') or '',
                 })
 
     os.makedirs(topics_out_dir, exist_ok=True)
@@ -327,8 +328,8 @@ def build_topic_indexes(problems, topics_out_dir):
     notes_dir = os.path.join(os.path.dirname(os.path.normpath(topics_out_dir)), 'notes')
 
     def render_table(sub_rows):
-        lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |",
-                 "| --- | --- | --- | --- | --- | --- | --- | --- |"]
+        lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |",
+                 "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
         for r in sub_rows:
             tags_str = escape_cell(', '.join(r['tags']))
             page_link = f"../problems/{r['number']:04d}.md"
@@ -337,7 +338,8 @@ def build_topic_indexes(problems, topics_out_dir):
             lines.append(f"| {r['number']} | {title_cell} | "
                          f"{escape_cell(short_difficulty(r['difficulty']))} | {tags_str} | {file_cell} | "
                          f"{escape_cell(r['time'])} | {escape_cell(r['space'])} | "
-                         f"{escape_cell(r['date'])} |")
+                         f"{escape_cell(r['date'])} | "
+                         f"{official_solution_badge(r.get('official_solution'))} |")
         return lines
 
     for topic, rows in topic_rows.items():
@@ -502,16 +504,15 @@ def _build_combined_review_section(rows, id_prefix):
         lines.append(f'<a id="{anchor}"></a>')
         lines.append(f'#### {group}（{len(group_rows)}）')
         lines.append('')
-        lines.append('| 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |')
-        lines.append('| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |')
+        lines.append('| 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 複習日期 | 官方解答 |')
+        lines.append('| --- | --- | --- | --- | --- | --- | --- | --- |')
         for r in group_rows:
             page_link = f"problems/{r['number']:04d}.md"
             title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             badge = _FAMILIARITY_BADGE.get(r['familiarity'], escape_cell(r['familiarity']))
             lines.append(f"| {badge} | {r['number']} | {title_cell} | {escape_cell(short_difficulty(r['difficulty']))} | "
-                         f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | "
-                         f"{escape_cell(r['space'])} | {escape_cell(r.get('date', ''))} | "
+                         f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r.get('date', ''))} | "
                          f"{official_solution_badge(r.get('official_solution'))} |")
         lines.append('')
 

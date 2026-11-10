@@ -18,6 +18,6 @@
 
 ## 🟢 熟悉（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 E | Sql, Database | [C++](../problems/0182.md) | O(N) | O(N) | 2026-09-25 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 E | Sql, Database | [C++](../problems/0182.md) | O(N) | O(N) | 2026-09-25 |  |

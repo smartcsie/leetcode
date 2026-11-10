@@ -2,14 +2,14 @@
 
 ## 🔴 生疏（6）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 698 | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | 🟡 M | Dp Bitmask | [C++](../problems/0698.md) | O(2^N \* N) | O(2^N) |  |
-| 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | 🔴 H | Dp Bitmask | [C++](../problems/0847.md) | O(N² \* 2^N) | O(N \* 2^N) |  |
-| 943 | [Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) | 🔴 H | Dp Bitmask | [C++](../problems/0943.md) | O(N² \* 2^N) | O(N \* 2^N) |  |
-| 1125 | [Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) | 🔴 H | Dp Digit | [C++](../problems/1125.md) | O(2^M \* N) | O(2^M) |  |
-| 1434 | [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) | 🔴 H | Dp Digit | [C++](../problems/1434.md) | O(40 \* 2^N \* 平均每頂帽子對應的人數) | O(40 \* 2^N) |  |
-| 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | 🟡 M | Dp Bitmask | [C++](../problems/1986.md) | O(3^N) | O(2^N) |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 698 | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | 🟡 M | Dp Bitmask | [C++](../problems/0698.md) | O(2^N \* N) | O(2^N) |  |  |
+| 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | 🔴 H | Dp Bitmask | [C++](../problems/0847.md) | O(N² \* 2^N) | O(N \* 2^N) |  |  |
+| 943 | [Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) | 🔴 H | Dp Bitmask | [C++](../problems/0943.md) | O(N² \* 2^N) | O(N \* 2^N) |  |  |
+| 1125 | [Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team/) | 🔴 H | Dp Digit | [C++](../problems/1125.md) | O(2^M \* N) | O(2^M) |  |  |
+| 1434 | [Number of Ways to Wear Different Hats to Each Other](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other/) | 🔴 H | Dp Digit | [C++](../problems/1434.md) | O(40 \* 2^N \* 平均每頂帽子對應的人數) | O(40 \* 2^N) |  |  |
+| 1986 | [Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | 🟡 M | Dp Bitmask | [C++](../problems/1986.md) | O(3^N) | O(2^N) |  | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（0）
 
@@ -25,9 +25,9 @@
 
 ## 🟢 熟悉（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 E | Dp Bitmask | [C++](../problems/0338.md) | O(N) | O(N) | 2026-10-22 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 E | Dp Bitmask | [C++](../problems/0338.md) | O(N) | O(N) | 2026-10-22 |  |
 
 ---
 

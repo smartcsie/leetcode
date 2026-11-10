@@ -18,8 +18,8 @@
 
 ## 🟢 熟悉（3）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 M | Array Difference Array, Difference Array, Sweep Line | [C++](../problems/1094.md) | O(N+M) | O(M) | 2026-10-15 |
-| 1109 | [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | 🟡 M | Array Difference Array | [C++](../problems/1109.md) | O(N+K) | O(N) | 2026-10-15 |
-| 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 E | Array Difference Array | [C++](../problems/1854.md) | O(N+Y) | O(Y) | 2026-10-15 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 M | Array Difference Array, Difference Array, Sweep Line | [C++](../problems/1094.md) | O(N+M) | O(M) | 2026-10-15 |  |
+| 1109 | [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | 🟡 M | Array Difference Array | [C++](../problems/1109.md) | O(N+K) | O(N) | 2026-10-15 | ❌ 官方沒有解答 |
+| 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 E | Array Difference Array | [C++](../problems/1854.md) | O(N+Y) | O(Y) | 2026-10-15 | ❌ 官方沒有解答 |

@@ -2,11 +2,11 @@
 
 ## 🔴 生疏（3）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | 🔴 H | Greedy Graph | [C++](../problems/0778.md) | O(N² log N) | O(N²) |  |
-| 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 M | Greedy Graph | [C++](../problems/0787.md) | O(K \* E) | O(N) |  |
-| 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | 🟡 M | Greedy Graph | [C++](../problems/1631.md) | O(M\*N log(M\*N)) | O(M\*N) |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 778 | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | 🔴 H | Greedy Graph | [C++](../problems/0778.md) | O(N² log N) | O(N²) |  | ❌ 官方沒有解答 |
+| 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 M | Greedy Graph | [C++](../problems/0787.md) | O(K \* E) | O(N) |  |  |
+| 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | 🟡 M | Greedy Graph | [C++](../problems/1631.md) | O(M\*N log(M\*N)) | O(M\*N) |  |  |
 
 ## 🟠 再練習（0）
 
