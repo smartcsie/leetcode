@@ -35,7 +35,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 E | String | [C++](../problems/0014.md) | O(S) | O(1) |  |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 E | String | [C++](../problems/0058.md) | O(N) | O(1) |  |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 E | String | [C++](../problems/0058.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | 🟢 E | String | [C++](../problems/0500.md) | O(L) | O(1) | ❌ 官方沒有解答 |
 | 806 | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | 🟢 E | String | [C++](../problems/0806.md) | O(N) | O(1) |  |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](../problems/1016.md) | O(N\*LEN) | O(1) | ❌ 官方沒有解答 |
