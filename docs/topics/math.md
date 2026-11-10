@@ -29,7 +29,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math | [C++](../problems/0050.md) | O(logN) | O(1) | 2026-11-09 |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math | [C++](../problems/0050.md) | O(logN) | O(1) | 2026-11-10 |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Math | [C++](../problems/0066.md) | O(N) | O(1) | 2026-10-17 |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](../problems/0067.md) | O(max(M,N)) | O(1) | 2026-10-17 |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 Medium | Math, Hash Set | [C++](../problems/0137.md) | O(N) | O(N) | 2026-11-09 |

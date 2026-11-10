@@ -13,14 +13,14 @@
  */
 
 class Solution {
-    double myPow(double x, long n) {
+    double myPow(double x, long long n) {
         if(n == 0) return 1;
         if(n < 0) return 1 / myPow(x, -n);
-        if(n & 1) return x * myPow(x, n - 1);
+        if(n & 1) return x * myPow(x * x, (n - 1) / 2);
         return myPow(x * x, n /2);
     }
 public:
     double myPow(double x, int n) {
-        return myPow(x, static_cast<long>(n));
+        return myPow(x, static_cast<long long>(n));
     }
 };

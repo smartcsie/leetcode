@@ -11,7 +11,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 50 | 👑 **Fast exponentiation**<br>[Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math | [C++](problems/0050.md) | O(logN) | O(1) | 2026-11-09 |
+| 50 | 👑 **Fast exponentiation**<br>[Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 Medium | Math | [C++](problems/0050.md) | O(logN) | O(1) | 2026-11-10 |
 | 62 | 👑 **DP on Grid**<br>[Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | Math Combination | [C++](problems/0062.md) | O(min(M,N)) | O(1) | 2026-11-05 |
 | 67 | 👑 **String Number Addition**<br>[Add Binary](https://leetcode.com/problems/add-binary) | 🟢 Easy | Math | [C++](problems/0067.md) | O(max(M,N)) | O(1) | 2026-10-17 |
 | 89 | 👑 **Gray code**<br>[Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 Medium | Math Formula | [C++](problems/0089.md) | O(2ᴺ) | O(1) | 2026-11-04 |
