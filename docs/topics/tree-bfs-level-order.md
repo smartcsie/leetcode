@@ -16,7 +16,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（18）
+## 🟢 熟悉（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -31,7 +31,6 @@
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | 🟡 Medium | Tree, BFS | [C++](../problems/0515.md) | O(N) | O(W) | 2026-09-14 |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 Easy | Tree Bfs Level Order, BFS | [C++](../problems/0637.md) | O(N) | O(W) | 2026-09-14 |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/0662.md) | O(N) | O(W) | 2026-10-05 |
-| 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | Tree Bfs Level Order | [C++](../problems/0958.md) | O(N) | O(N) | 2026-11-10 |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 Medium | Tree Bfs Level Order | [C++](../problems/0958.md) | O(N) | O(N) | 2026-11-10 |
 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 Easy | Tree Bfs Level Order | [C++](../problems/0993.md) | O(N) | O(W) | 2026-10-23 |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 Medium | Tree Bfs Level Order, BFS | [C++](../problems/1161.md) | O(N) | O(W) | 2026-09-14 |
