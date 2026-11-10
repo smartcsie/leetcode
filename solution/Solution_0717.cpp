@@ -11,16 +11,14 @@
  * 2. 移除不必要的變數以節省空間。
  */
 
-#include <vector>
-
 class Solution {
 public:
-    bool isOneBitCharacter(std::vector<int>& bits) {
+    bool isOneBitCharacter(vector<int>& bits) {
         int n = bits.size();
-        int i = 0;
-        while (i < n - 1) {
-            i += (bits[i] == 1) ? 2 : 1;
+        int idx = 0;
+        while(idx < n - 1) {
+            idx += bits[idx] + 1;
         }
-        return i == n - 1;
+        return idx == n - 1;
     }
 };
