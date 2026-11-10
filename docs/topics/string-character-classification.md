@@ -6,10 +6,10 @@
 
 ## 🟠 再練習（2）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/1957.md) | O(N) | O(N) | 2026-10-04 |  |
-| 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | 2026-10-04 | ❌ 官方沒有解答 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/1957.md) | O(N) | O(N) |  |
+| 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | ❌ 官方沒有解答 |
 
 ## 🟡 練習過（0）
 
@@ -21,34 +21,34 @@
 
 ## 🟢 熟悉（29）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 E | String Character Classification | [C++](../problems/0434.md) | O(N) | O(1) | 2026-09-25 |  |
-| 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 E | String Character Classification | [C++](../problems/0520.md) | O(N) | O(1) | 2026-09-20 |  |
-| 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 E | String Character Classification | [C++](../problems/0709.md) | O(N) | O(1) | 2026-09-20 |  |
-| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 M | String Character Classification, Hash Table, Counting | [C++](../problems/1347.md) | O(N) | O(1) | 2026-09-26 |  |
-| 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 E | String Character Classification | [C++](../problems/1455.md) | O(N) | O(W) | 2026-09-21 |  |
-| 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 E | String Character Classification, Parsing | [C++](../problems/1678.md) | O(N) | O(N) | 2026-09-21 | ❌ 官方沒有解答 |
-| 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 E | String Character Classification | [C++](../problems/1704.md) | O(N) | O(1) | 2026-10-11 |  |
-| 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 E | String Character Classification | [C++](../problems/1784.md) | O(N) | O(1) | 2026-09-24 |  |
-| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 E | String Character Classification, Hash Table | [C++](../problems/1796.md) | O(N) | O(1) | 2026-09-23 | ❌ 官方沒有解答 |
-| 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 E | String Character Classification | [C++](../problems/1903.md) | O(N) | O(1) | 2026-09-21 |  |
-| 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 E | String Character Classification, Stream | [C++](../problems/1935.md) | O(N\*M) | O(1) | 2026-09-25 |  |
-| 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 E | String Character Classification | [C++](../problems/2124.md) | O(N) | O(1) | 2026-09-21 | ❌ 官方沒有解答 |
-| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 E | String Character Classification, Simulation | [C++](../problems/2185.md) | O(N\*M) | O(1) | 2026-09-21 |  |
-| 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 E | String Character Classification | [C++](../problems/2255.md) | O(N\*M) | O(1) | 2026-09-21 | ❌ 官方沒有解答 |
-| 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 E | String Character Classification, Counting | [C++](../problems/2278.md) | O(N) | O(1) | 2026-09-20 | ❌ 官方沒有解答 |
-| 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 E | String Character Classification, Hash Table, Array | [C++](../problems/2399.md) | O(N) | O(1) | 2026-09-20 | ❌ 官方沒有解答 |
-| 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 E | String Character Classification | [C++](../problems/2490.md) | O(N) | O(1) | 2026-09-21 |  |
-| 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 E | String Character Classification, String, Simulation | [C++](../problems/2496.md) | O(N\*L) | O(1) | 2026-10-11 | ❌ 官方沒有解答 |
-| 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 E | String Character Classification | [C++](../problems/2586.md) | O(N) | O(1) | 2026-09-20 | ❌ 官方沒有解答 |
-| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 E | String Character Classification | [C++](../problems/2678.md) | O(N) | O(1) | 2026-09-20 |  |
-| 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 E | String Character Classification | [C++](../problems/2710.md) | O(N) | O(1) | 2026-09-21 | ❌ 官方沒有解答 |
-| 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 E | String Character Classification | [C++](../problems/2839.md) | O(1) | O(1) | 2026-10-19 |  |
-| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 E | String Character Classification | [C++](../problems/3110.md) | O(N) | O(1) | 2026-09-20 |  |
-| 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 M | String Character Classification, String Processing | [C++](../problems/3121.md) | O(N) | O(1) | 2026-09-20 |  |
-| 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 E | String Character Classification, Validation | [C++](../problems/3136.md) | O(N) | O(1) | 2026-09-20 |  |
-| 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 E | String Character Classification, String | [C++](../problems/3798.md) | O(N) | O(1) | 2026-09-21 | ❌ 官方沒有解答 |
-| 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 E | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | 2026-10-19 | ❌ 官方沒有解答 |
-| 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 E | String Character Classification | [C++](../problems/3856.md) | O(N) | O(1) | 2026-09-21 | ❌ 官方沒有解答 |
-| 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 E | String Character Classification, Math | [C++](../problems/3931.md) | O(N) | O(1) | 2026-09-20 | ❌ 官方沒有解答 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 E | String Character Classification | [C++](../problems/0434.md) | O(N) | O(1) |  |
+| 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 E | String Character Classification | [C++](../problems/0520.md) | O(N) | O(1) |  |
+| 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 E | String Character Classification | [C++](../problems/0709.md) | O(N) | O(1) |  |
+| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 M | String Character Classification, Hash Table, Counting | [C++](../problems/1347.md) | O(N) | O(1) |  |
+| 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 E | String Character Classification | [C++](../problems/1455.md) | O(N) | O(W) |  |
+| 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 E | String Character Classification, Parsing | [C++](../problems/1678.md) | O(N) | O(N) | ❌ 官方沒有解答 |
+| 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 E | String Character Classification | [C++](../problems/1704.md) | O(N) | O(1) |  |
+| 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 E | String Character Classification | [C++](../problems/1784.md) | O(N) | O(1) |  |
+| 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 E | String Character Classification, Hash Table | [C++](../problems/1796.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 E | String Character Classification | [C++](../problems/1903.md) | O(N) | O(1) |  |
+| 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 E | String Character Classification, Stream | [C++](../problems/1935.md) | O(N\*M) | O(1) |  |
+| 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 E | String Character Classification | [C++](../problems/2124.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 E | String Character Classification, Simulation | [C++](../problems/2185.md) | O(N\*M) | O(1) |  |
+| 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 E | String Character Classification | [C++](../problems/2255.md) | O(N\*M) | O(1) | ❌ 官方沒有解答 |
+| 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 E | String Character Classification, Counting | [C++](../problems/2278.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 E | String Character Classification, Hash Table, Array | [C++](../problems/2399.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 E | String Character Classification | [C++](../problems/2490.md) | O(N) | O(1) |  |
+| 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 E | String Character Classification, String, Simulation | [C++](../problems/2496.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
+| 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 E | String Character Classification | [C++](../problems/2586.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 E | String Character Classification | [C++](../problems/2678.md) | O(N) | O(1) |  |
+| 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 E | String Character Classification | [C++](../problems/2710.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 E | String Character Classification | [C++](../problems/2839.md) | O(1) | O(1) |  |
+| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 E | String Character Classification | [C++](../problems/3110.md) | O(N) | O(1) |  |
+| 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 M | String Character Classification, String Processing | [C++](../problems/3121.md) | O(N) | O(1) |  |
+| 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 E | String Character Classification, Validation | [C++](../problems/3136.md) | O(N) | O(1) |  |
+| 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 E | String Character Classification, String | [C++](../problems/3798.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 E | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 E | String Character Classification | [C++](../problems/3856.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 E | String Character Classification, Math | [C++](../problems/3931.md) | O(N) | O(1) | ❌ 官方沒有解答 |

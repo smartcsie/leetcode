@@ -18,9 +18,9 @@
 
 ## 🟢 熟悉（4）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 E | Tree | [C++](../problems/0100.md) | O(N) | O(H) | 2026-11-04 |  |
-| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 E | Tree | [C++](../problems/0226.md) | O(N) | O(H) | 2026-09-15 |  |
-| 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 M | Tree | [C++](../problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) | 2026-10-24 |  |
-| 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 E | Tree | [C++](../problems/2236.md) | O(1) | O(1) | 2026-09-26 | ❌ 官方沒有解答 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 E | Tree | [C++](../problems/0100.md) | O(N) | O(H) |  |
+| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 E | Tree | [C++](../problems/0226.md) | O(N) | O(H) |  |
+| 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 M | Tree | [C++](../problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) |  |
+| 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 E | Tree | [C++](../problems/2236.md) | O(1) | O(1) | ❌ 官方沒有解答 |

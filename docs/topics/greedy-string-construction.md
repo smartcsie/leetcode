@@ -2,10 +2,10 @@
 
 ## 🔴 生疏（2）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 899 | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | 🔴 H | Greedy String Construction | [C++](../problems/0899.md) | O(N²) | O(N) |  |  |
-| 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) | 🟡 M | Greedy String Construction | [C++](../problems/1061.md) | O(N + M \* α(26)) | O(26) |  |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 899 | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | 🔴 H | Greedy String Construction | [C++](../problems/0899.md) | O(N²) | O(N) |  |
+| 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) | 🟡 M | Greedy String Construction | [C++](../problems/1061.md) | O(N + M \* α(26)) | O(26) |  |
 
 ## 🟠 再練習（0）
 
@@ -21,10 +21,10 @@
 
 ## 🟢 熟悉（5）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 M | Greedy String Construction, Recursion, String Construction | [C++](../problems/0984.md) | O(A + B) | O(A + B) | 2026-09-25 |  |
-| 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 E | Greedy String Construction | [C++](../problems/1576.md) | O(N) | O(1) | 2026-10-25 | ❌ 官方沒有解答 |
-| 2182 | [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | 🟡 M | Greedy String Construction | [C++](../problems/2182.md) | O(N) | O(1) | 2026-11-04 |  |
-| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Greedy String Construction | [C++](../problems/2864.md) | O(N) | O(1) | 2026-10-18 |  |
-| 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 E | Greedy String Construction, String | [C++](../problems/3216.md) | O(N) | O(1) | 2026-10-24 | ❌ 官方沒有解答 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 M | Greedy String Construction, Recursion, String Construction | [C++](../problems/0984.md) | O(A + B) | O(A + B) |  |
+| 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 E | Greedy String Construction | [C++](../problems/1576.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2182 | [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | 🟡 M | Greedy String Construction | [C++](../problems/2182.md) | O(N) | O(1) |  |
+| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Greedy String Construction | [C++](../problems/2864.md) | O(N) | O(1) |  |
+| 3216 | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/) | 🟢 E | Greedy String Construction, String | [C++](../problems/3216.md) | O(N) | O(1) | ❌ 官方沒有解答 |

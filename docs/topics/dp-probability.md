@@ -2,12 +2,12 @@
 
 ## 🔴 生疏（4）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 688 | [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | 🟡 M | Dp Probability | [C++](../problems/0688.md) | O(K | O(N²) |  |  |
-| 808 | [Soup Servings](https://leetcode.com/problems/soup-servings/) | 🟡 M | Dp Probability | [C++](../problems/0808.md) | O((N/25)²) | O((N/25)²) |  |  |
-| 837 | [New 21 Game](https://leetcode.com/problems/new-21-game/) | 🟡 M | Dp Probability | [C++](../problems/0837.md) | O(N) | O(N) |  | ❌ 官方沒有解答 |
-| 1467 | [Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) | 🔴 H | Dp Probability | [C++](../problems/1467.md) | O(∏(balls[i]+1)) | O(K) |  | ❌ 官方沒有解答 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 688 | [Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard/) | 🟡 M | Dp Probability | [C++](../problems/0688.md) | O(K | O(N²) |  |
+| 808 | [Soup Servings](https://leetcode.com/problems/soup-servings/) | 🟡 M | Dp Probability | [C++](../problems/0808.md) | O((N/25)²) | O((N/25)²) |  |
+| 837 | [New 21 Game](https://leetcode.com/problems/new-21-game/) | 🟡 M | Dp Probability | [C++](../problems/0837.md) | O(N) | O(N) | ❌ 官方沒有解答 |
+| 1467 | [Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) | 🔴 H | Dp Probability | [C++](../problems/1467.md) | O(∏(balls[i]+1)) | O(K) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（0）
 

@@ -2,9 +2,9 @@
 
 ## 🔴 生疏（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 M | Array, Kadane's Algorithm | [C++](../problems/0918.md) | O(N) | O(1) |  |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-subarray-sum-circular/) | 🟡 M | Array, Kadane's Algorithm | [C++](../problems/0918.md) | O(N) | O(1) |  |
 
 ## 🟠 再練習（0）
 
@@ -20,13 +20,13 @@
 
 ## 🟢 熟悉（5）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 M | Dp Kadane | [C++](../problems/0053.md) | O(N) | O(1) | 2026-11-04 |  |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 M | Dp Kadane | [C++](../problems/0053.md) | O(N) | O(N) | 2026-11-04 |  |
-| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 M | Dp Kadane, Array | [C++](../problems/0152.md) | O(N) | O(1) | 2026-11-04 |  |
-| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 E | Dp Kadane | [C++](../problems/0674.md) | O(N) | O(N) | 2026-11-09 |  |
-| 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 M | Dp Kadane | [C++](../problems/1567.md) | O(N) | O(1) | 2026-11-04 | ❌ 官方沒有解答 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 M | Dp Kadane | [C++](../problems/0053.md) | O(N) | O(1) |  |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 M | Dp Kadane | [C++](../problems/0053.md) | O(N) | O(N) |  |
+| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 M | Dp Kadane, Array | [C++](../problems/0152.md) | O(N) | O(1) |  |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 E | Dp Kadane | [C++](../problems/0674.md) | O(N) | O(N) |  |
+| 1567 | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/) | 🟡 M | Dp Kadane | [C++](../problems/1567.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 ---
 

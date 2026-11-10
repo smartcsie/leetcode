@@ -2,9 +2,9 @@
 
 ## 🔴 生疏（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 M | Graph Dfs, DFS, BFS, Union-Find | [C++](../problems/0200.md) | O(M×N) | O(1) |  |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 M | Graph Dfs, DFS, BFS, Union-Find | [C++](../problems/0200.md) | O(M×N) | O(1) |  |
 
 ## 🟠 再練習（0）
 
@@ -20,6 +20,6 @@
 
 ## 🟢 熟悉（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | 🟡 M | Graph Dfs | [C++](../problems/1306.md) | O(N) | O(N) | 2026-11-05 |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | 🟡 M | Graph Dfs | [C++](../problems/1306.md) | O(N) | O(N) |  |

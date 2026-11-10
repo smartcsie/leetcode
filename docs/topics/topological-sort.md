@@ -2,9 +2,9 @@
 
 ## 🔴 生疏（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 M | Topological Sort | [C++](../problems/0207.md) | O(V+E) | O(V+E) |  |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 M | Topological Sort | [C++](../problems/0207.md) | O(V+E) | O(V+E) |  |
 
 ## 🟠 再練習（0）
 

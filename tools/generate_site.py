@@ -59,6 +59,17 @@ def official_solution_badge(value):
     return _OFFICIAL_SOLUTION_BADGE.get(value, escape_cell(value))
 
 
+# 是否在表格（分類頁、複習清單、主題索引）顯示「複習日期」欄位。
+# 目前暫時關閉；之後想恢復，把這個改成 True 重新產生網站即可。
+# 這只影響顯示，metadata 裡的練習歷程（attempts）完全不受影響，
+# 主題索引「必須有複習日期才列出」的篩選條件也不變。
+SHOW_REVIEW_DATE = False
+
+
+def md_row(cells):
+    return '| ' + ' | '.join(cells) + ' |'
+
+
 # 難度只在「顯示」時縮寫（🟢 Easy -> 🟢 E），metadata 裡仍然存完整的
 # 「🟢 Easy」，solution-generator.html 載入／存檔不受影響。
 _DIFFICULTY_SHORT = {'Easy': 'E', 'Medium': 'M', 'Hard': 'H'}
@@ -328,18 +339,22 @@ def build_topic_indexes(problems, topics_out_dir):
     notes_dir = os.path.join(os.path.dirname(os.path.normpath(topics_out_dir)), 'notes')
 
     def render_table(sub_rows):
-        lines = ["| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |",
-                 "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+        header = ['#', '題目', '難度', '標籤', '解法檔案', '時間', '空間']
+        if SHOW_REVIEW_DATE:
+            header.append('複習日期')
+        header.append('官方解答')
+        lines = [md_row(header), md_row(['---'] * len(header))]
         for r in sub_rows:
             tags_str = escape_cell(', '.join(r['tags']))
             page_link = f"../problems/{r['number']:04d}.md"
             title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
-            lines.append(f"| {r['number']} | {title_cell} | "
-                         f"{escape_cell(short_difficulty(r['difficulty']))} | {tags_str} | {file_cell} | "
-                         f"{escape_cell(r['time'])} | {escape_cell(r['space'])} | "
-                         f"{escape_cell(r['date'])} | "
-                         f"{official_solution_badge(r.get('official_solution'))} |")
+            cells = [str(r['number']), title_cell, escape_cell(short_difficulty(r['difficulty'])),
+                     tags_str, file_cell, escape_cell(r['time']), escape_cell(r['space'])]
+            if SHOW_REVIEW_DATE:
+                cells.append(escape_cell(r['date']))
+            cells.append(official_solution_badge(r.get('official_solution')))
+            lines.append(md_row(cells))
         return lines
 
     for topic, rows in topic_rows.items():
@@ -504,16 +519,23 @@ def _build_combined_review_section(rows, id_prefix):
         lines.append(f'<a id="{anchor}"></a>')
         lines.append(f'#### {group}（{len(group_rows)}）')
         lines.append('')
-        lines.append('| 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 複習日期 | 官方解答 |')
-        lines.append('| --- | --- | --- | --- | --- | --- | --- | --- |')
+        header = ['分類', '#', '題目', '難度', '標籤', '解法檔案', '時間', '空間']
+        if SHOW_REVIEW_DATE:
+            header.append('複習日期')
+        header.append('官方解答')
+        lines.append(md_row(header))
+        lines.append(md_row(['---'] * len(header)))
         for r in group_rows:
             page_link = f"problems/{r['number']:04d}.md"
             title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
             file_cell = f"[C++]({page_link})" if r['file'] else ''
             badge = _FAMILIARITY_BADGE.get(r['familiarity'], escape_cell(r['familiarity']))
-            lines.append(f"| {badge} | {r['number']} | {title_cell} | {escape_cell(short_difficulty(r['difficulty']))} | "
-                         f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r.get('date', ''))} | "
-                         f"{official_solution_badge(r.get('official_solution'))} |")
+            cells = [badge, str(r['number']), title_cell, escape_cell(short_difficulty(r['difficulty'])),
+                     escape_cell(r['tags']), file_cell, escape_cell(r['time']), escape_cell(r['space'])]
+            if SHOW_REVIEW_DATE:
+                cells.append(escape_cell(r.get('date', '')))
+            cells.append(official_solution_badge(r.get('official_solution')))
+            lines.append(md_row(cells))
         lines.append('')
 
     return lines
@@ -712,8 +734,11 @@ def build_topic_index_page(problems, docs_dir):
     for group in ordered_groups:
         lines.append(f"## {group}")
         lines.append('')
-        lines.append("| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |")
-        lines.append("| --- | --- | --- | --- | --- | --- | --- | --- |")
+        header = ['#', '題目', '難度', '標籤', '解法檔案', '時間', '空間']
+        if SHOW_REVIEW_DATE:
+            header.append('複習日期')
+        lines.append(md_row(header))
+        lines.append(md_row(['---'] * len(header)))
         rows = sorted(by_group[group], key=lambda r: r['number'])
         for r in rows:
             link_part = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
@@ -724,9 +749,11 @@ def build_topic_index_page(problems, docs_dir):
                 title_cell = link_part
             page_link = f"problems/{r['number']:04d}.md"
             file_cell = f"[C++]({page_link})" if r['file'] else ''
-            lines.append(f"| {r['number']} | {title_cell} | {escape_cell(short_difficulty(r['difficulty']))} | "
-                         f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | "
-                         f"{escape_cell(r['space'])} | {escape_cell(r['date'])} |")
+            cells = [str(r['number']), title_cell, escape_cell(short_difficulty(r['difficulty'])),
+                     escape_cell(r['tags']), file_cell, escape_cell(r['time']), escape_cell(r['space'])]
+            if SHOW_REVIEW_DATE:
+                cells.append(escape_cell(r['date']))
+            lines.append(md_row(cells))
             total += 1
         lines.append('')
         lines.append('---')

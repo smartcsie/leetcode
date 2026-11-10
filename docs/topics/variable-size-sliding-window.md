@@ -2,18 +2,18 @@
 
 ## 🔴 生疏（10）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 M | Array, Sliding Window, Binary Search | [C++](../problems/0209.md) | O(N) | O(1) |  |  |
-| 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | 🟡 M | Sliding Window, Hash Table | [C++](../problems/0424.md) | O(N) | O(1) |  |  |
-| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | 🟡 M | Sliding Window | [C++](../problems/1004.md) | O(N) | O(1) |  |  |
-| 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | 🟡 M | Array, Two Pointers, Sliding Window | [C++](../problems/1248.md) | O(N) | O(1) |  |  |
-| 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 M | Sliding Window | [C++](../problems/1358.md) | O(N) | O(1) |  |  |
-| 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | 🟡 M | Sliding Window, Hash Set, Bit Manipulation | [C++](../problems/1461.md) | O(N\*K) | O(2^K) |  |  |
-| 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | 🟡 M | Variable Size Sliding Window, Sliding Window, Two Pointers | [C++](../problems/1839.md) | O(N) | O(1) |  | ❌ 官方沒有解答 |
-| 2062 | [Count Vowel Substrings](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) | 🟢 E | Math, Sliding Window | [C++](../problems/2062.md) | O(N) | O(1) |  | ❌ 官方沒有解答 |
-| 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) | 🟡 M | Sliding Window, Two Pointers, Difference Technique | [C++](../problems/3306.md) | O(N) | O(1) |  |  |
-| 3325 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/) | 🟡 M | Sliding Window, Two Pointers | [C++](../problems/3325.md) | O(N) | O(1) |  | ❌ 官方沒有解答 |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | 🟡 M | Array, Sliding Window, Binary Search | [C++](../problems/0209.md) | O(N) | O(1) |  |
+| 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | 🟡 M | Sliding Window, Hash Table | [C++](../problems/0424.md) | O(N) | O(1) |  |
+| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii) | 🟡 M | Sliding Window | [C++](../problems/1004.md) | O(N) | O(1) |  |
+| 1248 | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/) | 🟡 M | Array, Two Pointers, Sliding Window | [C++](../problems/1248.md) | O(N) | O(1) |  |
+| 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | 🟡 M | Sliding Window | [C++](../problems/1358.md) | O(N) | O(1) |  |
+| 1461 | [Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) | 🟡 M | Sliding Window, Hash Set, Bit Manipulation | [C++](../problems/1461.md) | O(N\*K) | O(2^K) |  |
+| 1839 | [Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/) | 🟡 M | Variable Size Sliding Window, Sliding Window, Two Pointers | [C++](../problems/1839.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2062 | [Count Vowel Substrings](https://leetcode.com/problems/count-vowel-substrings-of-a-string/) | 🟢 E | Math, Sliding Window | [C++](../problems/2062.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3306 | [Count of Substrings Containing Every Vowel and K Consonants II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii/) | 🟡 M | Sliding Window, Two Pointers, Difference Technique | [C++](../problems/3306.md) | O(N) | O(1) |  |
+| 3325 | [Count Substrings With K-Frequency Characters I](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-i/) | 🟡 M | Sliding Window, Two Pointers | [C++](../problems/3325.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（0）
 
@@ -25,9 +25,9 @@
 
 ## 🟣 易忘（1）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 M | Variable Size Sliding Window | [C++](../problems/0930.md) | O(N) | O(1) | 2026-10-04 |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 M | Variable Size Sliding Window | [C++](../problems/0930.md) | O(N) | O(1) |  |
 
 ## 🟢 熟悉（0）
 

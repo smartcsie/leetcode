@@ -2,10 +2,10 @@
 
 ## 🔴 生疏（2）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0406.md) | O(N²) | O(N) |  |  |
-| 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 M | Array, Greedy, Bit Manipulation | [C++](../problems/3011.md) | O(N) | O(1) |  |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0406.md) | O(N²) | O(N) |  |
+| 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 M | Array, Greedy, Bit Manipulation | [C++](../problems/3011.md) | O(N) | O(1) |  |
 
 ## 🟠 再練習（0）
 
@@ -21,22 +21,22 @@
 
 ## 🟢 熟悉（14）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0462.md) | O(N log N) | O(1) | 2026-11-04 |  |
-| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0621.md) | O(N) | O(1) | 2026-11-07 |  |
-| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0881.md) | O(N log N) | O(1) | 2026-10-25 |  |
-| 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0945.md) | O(NlogN) | O(1) | 2026-10-30 |  |
-| 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/0976.md) | O(N log N) | O(1) | 2026-10-29 |  |
-| 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 E | Greedy Sorting Decision, Sorting | [C++](../problems/1005.md) | O(NlogN) | O(1) | 2026-11-08 | ❌ 官方沒有解答 |
-| 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/1029.md) | O(NlogN) | O(1) | 2026-10-24 |  |
-| 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/1710.md) | O(N log N) | O(1) | 2026-10-30 |  |
-| 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/2231.md) | O(DlogD) | O(D) | 2026-10-23 | ❌ 官方沒有解答 |
-| 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/2279.md) | O(N log N) | O(N) | 2026-10-30 |  |
-| 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/2966.md) | O(NlogN) | O(1) | 2026-10-24 |  |
-| 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 M | Greedy Sorting Decision, Sorting, Counting | [C++](../problems/3014.md) | O(N+26log26) | O(1) | 2026-10-24 |  |
-| 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/3016.md) | O(N+26log26) | O(1) | 2026-10-24 |  |
-| 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/3727.md) | O(nlogn) | O(1) | 2026-10-13 |  |
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0462.md) | O(N log N) | O(1) |  |
+| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0621.md) | O(N) | O(1) |  |
+| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0881.md) | O(N log N) | O(1) |  |
+| 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0945.md) | O(NlogN) | O(1) |  |
+| 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/0976.md) | O(N log N) | O(1) |  |
+| 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 E | Greedy Sorting Decision, Sorting | [C++](../problems/1005.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
+| 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/1029.md) | O(NlogN) | O(1) |  |
+| 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/1710.md) | O(N log N) | O(1) |  |
+| 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/2231.md) | O(DlogD) | O(D) | ❌ 官方沒有解答 |
+| 2279 | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/2279.md) | O(N log N) | O(N) |  |
+| 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/2966.md) | O(NlogN) | O(1) |  |
+| 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 M | Greedy Sorting Decision, Sorting, Counting | [C++](../problems/3014.md) | O(N+26log26) | O(1) |  |
+| 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/3016.md) | O(N+26log26) | O(1) |  |
+| 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/3727.md) | O(nlogn) | O(1) |  |
 
 ---
 
