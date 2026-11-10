@@ -23,19 +23,22 @@
  */
 
 class Solution {
-private:
-    int getCount(TreeNode* root) {
+    int countNodes(TreeNode* root) {
         if(!root) return 0;
-        return 1 + getCount(root->left) + getCount(root->right);
+        return 1 + countNodes(root->left) + countNodes(root->right);
     }
-    bool dfs(TreeNode* root, int count, long long idx) {
-        if(!root) return true;
-        if(idx > count) return false;
-        return dfs(root->left, count, idx * 2) && dfs(root->right, count, idx * 2 + 1);
+    bool dfs(TreeNode* node, int index, int n) {
+        if(node == nullptr) {
+            return true;
+        }
+        if(index >= n) {
+            return false;
+        }
+        return dfs(node->left, 2 * index + 1, n) &&
+                dfs(node->right, 2 * index + 2, n);
     }
 public:
     bool isCompleteTree(TreeNode* root) {
-        int n = getCount(root);
-        return dfs(root, n, 1);
+        return dfs(root, 0, countNodes(root));
     }
 };

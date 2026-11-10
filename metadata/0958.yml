@@ -27,6 +27,9 @@ solutions:
   - date: '2026-11-10'
     result: 對
     reason: null
+  - date: '2026-11-10'
+    result: 對
+    reason: null
 - file: Solution_0958_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -35,10 +38,14 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(”)
-  familiarity: 易忘
-  official_solution: null
+  familiarity: 熟練
+  mastered_date: '2026-11-10'
+  official_solution: synced
   attempts:
   - date: '2026-10-06'
+    result: 對
+    reason: null
+  - date: '2026-11-10'
     result: 對
     reason: null
   - date: '2026-11-10'
@@ -57,6 +64,9 @@ solutions:
   official_solution: null
   attempts:
   - date: '2026-10-06'
+    result: 對
+    reason: null
+  - date: '2026-11-10'
     result: 對
     reason: null
   - date: '2026-11-10'
