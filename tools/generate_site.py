@@ -42,6 +42,22 @@ def escape_cell(value):
     return text
 
 
+# 官方 Premium 解答的同步狀態（metadata 每個解法的 official_solution 欄位，
+# 由 solution-generator.html 的「官方 Premium 解答」下拉選單與
+# update_official_solution.py 寫入）。值沒填就不顯示任何東西。
+_OFFICIAL_SOLUTION_BADGE = {
+    'synced': '✅ 已同步官方解答',
+    'better': '🌟 優於官方解答',
+    'no-solution': '❌ 官方沒有解答',
+    'pending': '⏳ 尚未同步',
+}
+
+
+def official_solution_badge(value):
+    if not value:
+        return ''
+    return _OFFICIAL_SOLUTION_BADGE.get(value, escape_cell(value))
+
 
 GROUPS = [
     (r'^design$', '🎨 Design'),
@@ -200,10 +216,14 @@ def build_problem_page(problem, solution_dir):
         if sol.get('is_representative') and sol.get('representative_tag'):
             crown_badge = f"　👑 **代表題（{escape_cell(sol['representative_tag'])}）**"
 
+        official_badge = ''
+        if sol.get('official_solution'):
+            official_badge = f"　**官方解答:** {official_solution_badge(sol.get('official_solution'))}"
+
         info = (f"**難度:** {sol.get('difficulty','')}　"
                 f"**標籤:** {tags_str}　"
                 f"**時間:** {sol.get('time','')}　"
-                f"**空間:** {sol.get('space','')}{familiarity_badge}{best_badge}{crown_badge}")
+                f"**空間:** {sol.get('space','')}{familiarity_badge}{best_badge}{crown_badge}{official_badge}")
         lines.append(info)
         lines.append('')
 
@@ -471,8 +491,8 @@ def _build_combined_review_section(rows, id_prefix):
         lines.append(f'<a id="{anchor}"></a>')
         lines.append(f'#### {group}（{len(group_rows)}）')
         lines.append('')
-        lines.append('| 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 |')
-        lines.append('| --- | --- | --- | --- | --- | --- | --- | --- | --- |')
+        lines.append('| 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 複習日期 | 官方解答 |')
+        lines.append('| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |')
         for r in group_rows:
             page_link = f"problems/{r['number']:04d}.md"
             title_cell = f"[{escape_cell(r['title'])}]({r['url']})" if r['url'] else escape_cell(r['title'])
@@ -480,7 +500,8 @@ def _build_combined_review_section(rows, id_prefix):
             badge = _FAMILIARITY_BADGE.get(r['familiarity'], escape_cell(r['familiarity']))
             lines.append(f"| {badge} | {r['number']} | {title_cell} | {escape_cell(r['difficulty'])} | "
                          f"{escape_cell(r['tags'])} | {file_cell} | {escape_cell(r['time'])} | "
-                         f"{escape_cell(r['space'])} | {escape_cell(r.get('date', ''))} |")
+                         f"{escape_cell(r['space'])} | {escape_cell(r.get('date', ''))} | "
+                         f"{official_solution_badge(r.get('official_solution'))} |")
         lines.append('')
 
     return lines
@@ -508,6 +529,7 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
                         'topics': ', '.join(topics_list),
                         'group': group,
                         'date': get_latest_attempt_date(sol),
+                        'official_solution': sol.get('official_solution') or '',
                     })
         result.sort(key=lambda r: r['number'])
         return result
