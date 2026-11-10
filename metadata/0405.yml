@@ -6,7 +6,6 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Digit Decomposition
-  - Bit Manipulation
   topics:
   - math-digit-decomposition
   time: O(1)
@@ -20,6 +19,7 @@ solutions:
     > **這樣可以確保負數在進行位元運算時，**<br>
 
     > **右移 (>>) 為邏輯右移（補 0），而不會觸發負數的算術右移（補 1）導致死迴圈。**<br>'
+  official_solution: no-solution
   tricks:
   - Casting
   attempts:
@@ -30,5 +30,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-15'
+    result: 對
+    reason: null
+  - date: '2026-11-10'
     result: 對
     reason: null

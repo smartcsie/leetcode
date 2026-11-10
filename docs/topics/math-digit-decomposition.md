@@ -24,7 +24,7 @@
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 Medium | Math Digit Decomposition, Math | [C++](../problems/0008.md) | O(N) | O(1) | 2026-10-17 |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](../problems/0168.md) | O(log26N) | O(1) | 2026-10-08 |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | Math Digit Decomposition, Base Conversion | [C++](../problems/0171.md) | O(N) | O(1) | 2026-09-17 |
-| 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math Digit Decomposition, Bit Manipulation | [C++](../problems/0405.md) | O(1) | O(1) | 2026-10-15 |
+| 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/0405.md) | O(1) | O(1) | 2026-11-10 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 Easy | Math Digit Decomposition, String | [C++](../problems/0504.md) | O(log₇N) | O(1) | 2026-10-08 |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 Easy | Math Digit Decomposition, Simulation | [C++](../problems/0728.md) | O(N\*D) | O(1) | 2026-10-23 |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 Easy | Math Digit Decomposition | [C++](../problems/0868.md) | O(logN) | O(1) | 2026-09-26 |
