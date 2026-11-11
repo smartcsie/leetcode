@@ -5,13 +5,19 @@ solutions:
 - file: Solution_3750.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Hamming Distance
   topics:
   - hamming-distance
   time: O(logN)
   space: O(1)
-  familiarity: 練習過
-  note: '> 先求binary string的r，取n和r的Hamming Distance<br>
-
-    <br><br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-11'
+  note: '> **先求n的reverse，取n和r的Hamming Distance**<br>'
   official_solution: no-solution
+  attempts:
+  - date: '2026-11-11'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
+    result: 對
+    reason: null
