@@ -16,7 +16,7 @@ solutions:
   note: '>**跟[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)一模一樣**<br>
 
     >*283 fast遇到不是0，則swap，此題是fast遇到不是val，則swap**<br>'
-  official_solution: null
+  official_solution: synced
   related:
   - 26
   - 80
@@ -30,6 +30,9 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-22'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null
   - date: '2026-11-11'
