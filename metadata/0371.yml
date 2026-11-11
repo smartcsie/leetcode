@@ -11,11 +11,17 @@ solutions:
   time: O(1)
   space: O(1)
   familiarity: 再練習
-  note: '> 同 2235.  [Add Two Integers](https://leetcode.com/problems/add-two-integers)
-    <br>'
+  note: '> **同 2235.  [Add Two Integers](https://leetcode.com/problems/add-two-integers)
+    **<br>
+
+    > **static_cast<unsigned int>要防止負數Undefined Behavior**<br>'
+  official_solution: null
   related:
   - 2235
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-11'
+    result: 對
+    reason: null
