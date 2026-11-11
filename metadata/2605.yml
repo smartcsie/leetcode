@@ -6,24 +6,20 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Bit Manipulation Mask
-  - Bitmask
   topics:
   - bit-manipulation-mask
-  time: O(N+M)
+  time: O(1)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-11-11'
   note: '> [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)
     <br>
 
     > **此題總共有四種作法**<br>
 
-    > [法一 int mask](../problems/2605.md)，Time:O(N+M)，Time:O(1)<br>
+    > [法一 int mask](../problems/2605.md)，Time:O(1)，Time:O(1)<br>
 
-    > [法二 雙迴圈暴力法](../problems/2605.md)，Time:O(N*M)，Time:O(1)<br>
-
-    > [法三 bitset](../problems/2605.md)，Time:O(N+M)，Time:O(1)<br>
-
-    > [法四 unordered_map](../problems/2605.md)，Time:O(N+M)，Time:O(M)<br>
+    > [法二 bitset](../problems/2605.md)，Time:O(1)，Time:O(1)<br>
 
     > 因為只有0~9，兩個mask 紀錄數字出現位置，int mask1 = 0, mask2 = 0;<br>
 
@@ -47,6 +43,8 @@ solutions:
 
 
     <br><br>'
+  is_best: true
+  official_solution: no-solution
   attempts:
   - date: '2026-09-17'
     result: 對
@@ -64,41 +62,13 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null
   is_representative: true
   representative_tag: __builtin_ctz
-  official_solution: no-solution
-- file: Solution_2605_1.cpp
-  difficulty: 🟢 Easy
-  tags:
-  - Hash Table Intersection
-  topics:
-  - hash-table-intersection
-  time: O(NM)
-  space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-12'
-  attempts:
-  - date: '2026-09-17'
-    result: 對
-    reason: null
-  - date: '2026-10-04'
-    result: 錯
-    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
-  - date: '2026-10-12'
-    result: 對
-    reason: null
-  - date: '2026-10-12'
-    result: 對
-    reason: null
-  - date: '2026-10-12'
-    result: 對
-    reason: null
-  - date: '2026-10-12'
-    result: 對
-    reason: null
-  official_solution: no-solution
 - file: Solution_2605_2.cpp
   difficulty: 🟢 Easy
   tags:
@@ -109,8 +79,7 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-17'
-  tricks:
-  - bitset
+  official_solution: no-solution
   attempts:
   - date: '2026-09-17'
     result: 對
@@ -127,34 +96,6 @@ solutions:
   - date: '2026-10-12'
     result: 對
     reason: null
-  official_solution: no-solution
-- file: Solution_2605_3.cpp
-  difficulty: 🟢 Easy
-  tags:
-  - Bit Manipulation Mask
-  topics:
-  - bit-manipulation-mask
-  time: O(N+M)
-  space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-12'
-  attempts:
-  - date: '2026-09-17'
+  - date: '2026-11-11'
     result: 對
     reason: null
-  - date: '2026-10-04'
-    result: 錯
-    reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
-  - date: '2026-10-12'
-    result: 對
-    reason: null
-  - date: '2026-10-12'
-    result: 對
-    reason: null
-  - date: '2026-10-12'
-    result: 對
-    reason: null
-  - date: '2026-10-12'
-    result: 對
-    reason: null
-  official_solution: no-solution
