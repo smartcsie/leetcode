@@ -12,7 +12,9 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-11-11'
-  note: '> 同 0371. [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)  <br>'
+  note: '> **同 0371. [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)**<br>
+
+    > **static_cast<unsigned int>要防止負數Undefined Behavior**<br>'
   official_solution: no-solution
   related:
   - 371
@@ -23,6 +25,9 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-16'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null
   - date: '2026-11-11'
