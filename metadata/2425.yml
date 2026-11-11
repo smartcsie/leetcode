@@ -5,18 +5,19 @@ solutions:
 - file: Solution_2425.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Manipulation
-  - Math
+  - Bit Manipulation Xor
   topics:
   - bit-manipulation-xor
   time: O(N+M)
   space: O(1)
-  familiarity: 易忘
-  note: '> 如果nums1 size是奇數，把所有nums2的element xor到 ans<br>
+  familiarity: 熟練
+  mastered_date: '2026-11-11'
+  note: '> **如果nums1 size是奇數，把所有nums2的element xor到 ans**<br>
 
-    > 如果nums2 size是奇數，把所有nums1的element xor到 ans<br>
+    > **如果nums2 size是奇數，把所有nums1的element xor到 ans**<br>
 
-    > 回傳 ans<br>'
+    > **回傳 ans**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-18'
     result: 對
@@ -24,3 +25,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-11'
+    result: 對
+    reason: null
