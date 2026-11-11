@@ -17,13 +17,7 @@
 class Solution {
 public:
     bool checkIfPangram(string sentence) {
-        string& s = sentence;
-        bitset<26> alpha;
-        if(s.size() < 26) return false;
-        for(const char& c : s) {
-            alpha.set(c - 'a');
-            if(alpha.count() == 26) return true;
-        }
-        return false;
+        unordered_set<char> set(sentence.begin(), sentence.end());
+        return set.size() == 26;
     }
 };

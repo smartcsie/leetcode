@@ -562,7 +562,7 @@
 | [greedy-string-construction](topics/greedy-string-construction.md) | 2 | 0 | 0 | 0 | 5 | 0 | 7 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 0 | 0 | 0 | 1 | 2 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 0 | 1 | 0 | 3 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 3 | 0 | 0 | 0 | 26 | 0 | 29 |
+| [hash-table-counting](topics/hash-table-counting.md) | 3 | 0 | 0 | 0 | 27 | 0 | 30 |
 | [hash-table-existence](topics/hash-table-existence.md) | 1 | 1 | 1 | 1 | 16 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 0 | 0 | 1 | 12 | 0 | 13 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 0 | 0 | 0 | 0 | 9 | 0 | 9 |
