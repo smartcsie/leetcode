@@ -12,7 +12,7 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（9）
+## 🟣 易忘（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24,9 +24,8 @@
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 E | Math | [C++](../problems/1185.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 M | Math, Simulation, Greedy | [C++](../problems/1375.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 M | Math, Enumeration | [C++](../problems/2310.md) | O(10) | O(1) | ❌ 官方沒有解答 |
-| 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 E | Math, Arithmetic Progression | [C++](../problems/2894.md) | O(1) | O(1) |  |
 
-## 🟢 熟悉（34）
+## 🟢 熟悉（35）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -62,5 +61,6 @@
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Math | [C++](../problems/2485.md) | O(1) | O(1) |  |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 E | Math, Brute Force | [C++](../problems/2652.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 M | Math | [C++](../problems/2745.md) | O(1) | O(1) | ❌ 官方沒有解答 |
+| 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 E | Math | [C++](../problems/2894.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 E | Math | [C++](../problems/3084.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3131 | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 E | Math, Array | [C++](../problems/3131.md) | O(N) | O(1) | ❌ 官方沒有解答 |

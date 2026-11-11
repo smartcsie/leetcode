@@ -22,16 +22,7 @@
 class Solution {
 public:
     int differenceOfSums(int n, int m) {
-        // 1. 計算 [1, n] 的等差級數總和
-        int total_sum = (1 + n) * n / 2;
-        
-        // 2. 計算小於等於 n 且能被 m 整除的個數 k
         int k = n / m;
-        
-        // 3. 計算所有能被 m 整除的數字總和 (num2)
-        int divisible_sum = m * (k + 1) * k / 2;
-        
-        // 4. 代入公式：num1 - num2 = (total_sum - divisible_sum) - divisible_sum
-        return total_sum - 2 * divisible_sum;
+        return (1 + n) * n / 2 - (1 + k) * k *m;
     }
 };
