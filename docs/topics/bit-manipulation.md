@@ -12,7 +12,7 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（9）
+## 🟣 易忘（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -22,11 +22,10 @@
 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 M | Bit Manipulation, Bit Manipulation, Array | [C++](../problems/0477.md) | O(31\*N) | O(1) |  |
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 M | Bit Manipulation, Bit Manipulation | [C++](../problems/1680.md) | O(N) | O(1) |  |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 M | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |  |
-| 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation, Bit Manipulation, Brainteaser | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 
-## 🟢 熟悉（31）
+## 🟢 熟悉（32）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -60,4 +59,5 @@
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 E | Bit Manipulation, Bit Manipulation | [C++](../problems/3151.md) | O(N) | O(1) |  |
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 E | Bit Manipulation, Math, String | [C++](../problems/3274.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) | O(logN) | O(1) |  |
+| 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Bit Manipulation | [C++](../problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |

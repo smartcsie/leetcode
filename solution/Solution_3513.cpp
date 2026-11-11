@@ -21,7 +21,7 @@ class Solution {
 public:
     int uniqueXorTriplets(std::vector<int>& nums) {
         auto n = nums.size();
-        if(n < 3) return n;
+        if(n <= 2) return n;
         return 1 << bit_width(n);
     }
 };

@@ -9,9 +9,9 @@
 
 ## 📝 複習清單（依分類）
 
-目前共有 349 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 348 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（15）](#review-math)　[📊 Bit Manipulation（26）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（17）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（17）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（15）](#review-math)　[📊 Bit Manipulation（25）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（17）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（17）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -46,7 +46,7 @@
 | 🟣 易忘 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 M | Math Prime, Prefix Sum | [C++](problems/3770.md) | O(RloglogR) | O(R) | ❌ 官方沒有解答 |
 
 <a id="review-bit-manipulation"></a>
-#### 📊 Bit Manipulation（26）
+#### 📊 Bit Manipulation（25）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -72,7 +72,6 @@
 | 🟣 易忘 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 M | Bit Manipulation Or | [C++](problems/2411.md) | O(N×30) | O(30) |  |
 | 🟣 易忘 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 M | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) |  |
 | 🟣 易忘 | 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 E | Bit Manipulation, Math | [C++](problems/3314.md) | O(N) | O(N) |  |
-| 🟣 易忘 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation, Bit Manipulation, Brainteaser | [C++](problems/3513.md) | O(logN) | O(1) |  |
 | 🟣 易忘 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](problems/3513.md) | O(logN) | O(1) |  |
 | 🟣 易忘 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](problems/3513.md) | O(logN) | O(1) |  |
 | 🟣 易忘 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 H | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) |  |
