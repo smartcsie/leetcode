@@ -10,8 +10,18 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 易忘
-  note: '> **!accumulate(derived.begin(), derived.end(), 0, bit_xor<int>());**'
+  familiarity: 熟練
+  mastered_date: '2026-11-11'
+  note: '> **!accumulate(derived.begin(), derived.end(), 0, bit_xor<int>());**<br>
+
+    > **令original = [a0, a1, a2, .... , an-1]**<br>
+
+    > **derived[0] = a0 ^ a1, derived[1] = a1 ^ a2,....derived[n-1] = an-1 ^ a0,**<br>
+
+    > **derived[0] ^ derived[0] ^ ..... ^ derived[n - 1] = **<br>
+
+    > **(a0 ^ a1) ^ (a1 ^ a2)  ^ ..... ^ (an- 1 ^ a0) = 0**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-18'
     result: 對
@@ -20,5 +30,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-16'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null
