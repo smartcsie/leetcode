@@ -15,10 +15,15 @@ solutions:
   official_solution: better
   related:
   - 26
+  tricks:
+  - Read-Write Two Pointers
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-11'
+    result: 對
+    reason: null
   - date: '2026-11-11'
     result: 對
     reason: null

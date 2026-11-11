@@ -152,6 +152,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
+| 26 | 👑 **Read-Write Two Pointers**<br>[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) |
 | 27 | 👑 **Fast Slow Pointer Swap**<br>[Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 E | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0027.md) | O(N) | O(1) |
 | 75 | 👑 **Dutch National Flag Problem**<br>[Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 M | Two Pointers Partition | [C++](problems/0075.md) | O(N) | O(1) |
 | 141 | 👑 **List fast slow pointer**<br>[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 E | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0141.md) | O(N) | O(1) |
