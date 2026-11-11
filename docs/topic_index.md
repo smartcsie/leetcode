@@ -209,7 +209,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 94 | 👑 **Inorder**<br>[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal, DFS | [C++](problems/0094.md) | O(N) | O(H) |
+| 94 | 👑 **Inorder**<br>[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) |
 | 102 | 👑 **BFS Level Order**<br>[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](problems/0102.md) | O(N) | O(W) |
 | 105 | 👑 **Construction**<br>[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](problems/0105.md) | O(N) | O(N) |
 | 108 | 👑 **Sorted Array to BST**<br>[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](problems/0108.md) | O(N) | O(logN) |

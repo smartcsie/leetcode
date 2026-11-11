@@ -16,23 +16,23 @@
  * 3. 彈出 Stack 頂端的節點（此時代表左子樹已經走到底或處理完畢），將其值加入結果集 `ans` 中。
  * 4. 將 `cur` 指向該節點的「右子樹」，準備進入下一輪迴圈處理右半邊。
  */
+
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> ans;
-        stack<TreeNode*> st;
-        TreeNode* cur = root;
-
-        while (cur || !st.empty()) {
-            while (cur) {
-                st.push(cur);
-                cur = cur->left;  // 一路往左走
+        vector<int> res;
+        stack<TreeNode*> stack;
+        TreeNode* curr = root;
+        while (curr != NULL || !stack.empty()) {
+            while (curr != NULL) {
+                stack.push(curr);
+                curr = curr->left;
             }
-            cur = st.top();
-            st.pop();
-            ans.push_back(cur->val);  // 處理節點
-            cur = cur->right;         // 轉向右子樹
+            curr = stack.top();
+            stack.pop();
+            res.push_back(curr->val);
+            curr = curr->right;
         }
-        return ans;
+        return res;
     }
 };

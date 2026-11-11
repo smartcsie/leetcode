@@ -9,9 +9,9 @@
 
 ## 📝 複習清單（依分類）
 
-目前共有 358 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 357 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（15）](#review-math)　[📊 Bit Manipulation（33）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（18）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（15）](#review-math)　[📊 Bit Manipulation（33）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（17）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（18）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（26）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -137,13 +137,12 @@
 | 🟣 易忘 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](problems/3432.md) | O(N) | O(1) |  |
 
 <a id="review-tree"></a>
-#### 🌳 Tree（18）
+#### 🌳 Tree（17）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟡 練習過 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 M | Binary Search Tree, BST, DFS | [C++](problems/1008.md) | O(N) | O(N) |  |
-| 🟣 易忘 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal, Tree, DFS | [C++](problems/0094.md) | O(N) | O(H) |  |
-| 🟣 易忘 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) |  |
+| 🟣 易忘 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](problems/0105.md) | O(N) | O(N) |  |
 | 🟣 易忘 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](problems/0106.md) | O(N) | O(N) |  |
 | 🟣 易忘 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 M | Tree, DFS | [C++](problems/0114.md) | O(N) | O(H) |  |

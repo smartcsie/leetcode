@@ -2,39 +2,28 @@ number: 94
 title: Binary Tree Inorder Traversal
 url: https://leetcode.com/problems/binary-tree-inorder-traversal
 solutions:
-- file: Solution_0094_1.cpp
-  difficulty: 🟢 Easy
-  tags:
-  - Tree Traversal
-  - Tree
-  - DFS
-  topics:
-  - tree-traversal
-  time: O(N)
-  space: O(H)
-  familiarity: 易忘
-  note: '> **root為空則return，遞迴左子樹，把root->val加入到result vector，遞迴右子樹**<br>'
-  is_best: true
-  attempts:
-  - date: '2026-10-04'
-    result: 錯
-    reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
 - file: Solution_0094.cpp
   difficulty: 🟢 Easy
   tags:
   - Tree Traversal
-  - DFS
   topics:
   - tree-traversal
   time: O(N)
   space: O(H)
   familiarity: 熟練
   mastered_date: '2026-09-15'
+  official_solution: synced
   attempts:
   - date: '2026-09-15'
     result: 對
     reason: null
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null
   is_representative: true
@@ -48,7 +37,14 @@ solutions:
   time: O(N)
   space: O(H)
   familiarity: 易忘
+  official_solution: synced
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-11'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
+    result: 對
+    reason: null

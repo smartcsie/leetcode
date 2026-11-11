@@ -12,12 +12,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（5）
+## 🟣 易忘（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal, Tree, DFS | [C++](../problems/0094.md) | O(N) | O(H) |  |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](../problems/0094.md) | O(N) | O(H) |  |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](../problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 E | Tree Traversal, DFS | [C++](../problems/0144.md) | O(N) | O(H) |  |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 E | Tree Traversal | [C++](../problems/0144.md) | O(N) | O(H) |  |
 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 E | Tree Traversal, DFS | [C++](../problems/0145.md) | O(N) | O(H) |  |
@@ -26,7 +25,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal, DFS | [C++](../problems/0094.md) | O(N) | O(H) |  |
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](../problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 E | Tree Traversal | [C++](../problems/0144.md) | O(N) | O(H) |  |
 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 E | Tree Traversal | [C++](../problems/0145.md) | O(N) | O(H) |  |
 | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | 🟡 M | Tree Traversal, BFS | [C++](../problems/0429.md) | O(N) | O(W) |  |
