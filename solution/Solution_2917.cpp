@@ -17,10 +17,14 @@ class Solution {
 public:
     int findKOr(vector<int>& nums, int k) {
         int ans = 0;
-        for(int i = 31; i >= 0; i --) {
+        for(int i = 0; i < 31; i++) {
             int count = 0;
-            for(const int& x : nums) if((x >> i) & 1) count++;
-            if(count >= k) ans |= 1 << i;
+            for(int num : nums) {
+                if(((num >> i) & 1) && ++count >=k) {
+                    ans |= 1 << i;
+                    break;
+                }
+            }
         }
         return ans;
     }
