@@ -6,14 +6,19 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Fast Slow Pointers
-  - Fast-Slow Pointers
   topics:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 易忘
-  tricks: null
+  familiarity: 熟練
+  mastered_date: '2026-11-11'
+  official_solution: better
+  related:
+  - 26
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-11'
+    result: 對
+    reason: null

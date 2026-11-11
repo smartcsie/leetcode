@@ -14,14 +14,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 M | Linked List, Fast-Slow Pointers | [C++](../problems/0142.md) | O(N) | O(1) |  |
 
-## 🟣 易忘（2）
+## 🟣 易忘（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 M | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0080.md) | O(N) | O(1) |  |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0287.md) | O(N) | O(1) |  |
 
-## 🟢 熟悉（11）
+## 🟢 熟悉（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -29,6 +28,7 @@
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](../problems/0026.md) | O(N) | O(1) |  |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](../problems/0026.md) | O(N) | O(1) |  |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 E | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0027.md) | O(N) | O(1) |  |
+| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 M | Fast Slow Pointers | [C++](../problems/0080.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 E | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0141.md) | O(N) | O(1) |  |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 E | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/0283.md) | O(N) | O(1) |  |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 E | Fast Slow Pointers | [C++](../problems/0283.md) | O(N) | O(1) |  |
