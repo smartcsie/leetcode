@@ -4,11 +4,9 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 M | Bit Manipulation | [C++](../problems/0371.md) | O(1) | O(1) |  |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（0）
 
@@ -29,7 +27,7 @@
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 
-## 🟢 熟悉（29）
+## 🟢 熟悉（30）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -37,6 +35,7 @@
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Bit Manipulation | [C++](../problems/0137.md) | O(N) | O(1) |  |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 E | Bit Manipulation, Bit-Manipulation | [C++](../problems/0190.md) | O(1) | O(1) |  |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 E | Bit Manipulation | [C++](../problems/0349.md) | O(N+M) | O(N) |  |
+| 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 M | Bit Manipulation | [C++](../problems/0371.md) | O(1) | O(1) |  |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation, Hash Table | [C++](../problems/0389.md) | O(N) | O(1) |  |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 E | Bit Manipulation | [C++](../problems/0401.md) | O(1) | O(1) |  |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 E | Bit Manipulation | [C++](../problems/0476.md) | O(logN) | O(1) |  |
