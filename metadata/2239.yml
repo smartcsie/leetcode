@@ -13,8 +13,11 @@ solutions:
   familiarity: 熟練
   mastered_date: '2026-09-14'
   is_best: true
+  official_solution: no-solution
   attempts:
   - date: '2026-09-14'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-11'
+    result: 對
+    reason: null
