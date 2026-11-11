@@ -14,7 +14,7 @@ solutions:
   mastered_date: '2026-10-22'
   official_solution: better
   related:
-  - 27
+  - 26
   - 80
   - 283
   - 2460
@@ -29,6 +29,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-22'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null
   - date: '2026-11-11'
@@ -72,6 +75,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-22'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null
   - date: '2026-11-11'

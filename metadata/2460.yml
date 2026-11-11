@@ -13,11 +13,19 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-10-18'
+  note: '>**跟[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)一模一樣**<br>
+
+    >**此題先處理一次double和0，再Move Zeroes**<br>'
+  official_solution: null
   related:
   - 26
   - 27
+  - 80
   - 283
   attempts:
   - date: '2026-10-18'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null
