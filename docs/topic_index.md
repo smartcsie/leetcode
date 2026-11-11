@@ -77,6 +77,7 @@
 | 461 | 👑 **__builtin_popcount**<br>[Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation | [C++](problems/0461.md) | O(K) | O(1) |
 | 461 | 👑 **Hamming Distance**<br>[Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation Xor | [C++](problems/0461.md) | O(N) | O(1) |
 | 2206 | 👑 **Number Frequency is Even**<br>[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 E | Bit Manipulation, Hash Table, Counting | [C++](problems/2206.md) | O(N) | O(1) |
+| 2235 | 👑 **Add Two Integers By Shift**<br>[Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 E | Bit Manipulation | [C++](problems/2235.md) | O(1) | O(1) |
 | 2317 | 👑 **Accumulate OR**<br>[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 M | Bit Manipulation Or | [C++](problems/2317.md) | O(N) | O(1) |
 | 2605 | 👑 **__builtin_ctz**<br>[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 E | Bit Manipulation Mask, Bitmask | [C++](problems/2605.md) | O(N+M) | O(1) |
 | 3120 | 👑 **accumulate lemma**<br>[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 E | Bit Manipulation And | [C++](problems/3120.md) | O(N) | O(1) |
