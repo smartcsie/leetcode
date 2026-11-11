@@ -19,9 +19,11 @@ class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
         int slow = 0;
-        for(int fast = 1; fast < nums.size(); fast++) {
-            if(nums[slow] != nums[fast]) swap(nums[++slow], nums[fast]);
+        for (int fast = 0; fast < nums.size(); ++fast) {
+            if (slow < 1 || nums[slow - 1] < nums[fast]) {
+                nums[slow++] = nums[fast];
+            }
         }
-        return slow + 1;
+        return slow;
     }
 };
