@@ -6,18 +6,19 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Bit Manipulation
-  - DP
   topics:
   - bit-manipulation
   time: O(N*S/W)
   space: O(S/W)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-11-11'
   note: '> **bits |= bits << num;是一個bit技巧，bit把num加進去，只要bit.test(k)或bit[k]表示此數可以被子數列相加**<br>
 
     > **舉例nums = [5, 8, 6, 7]，18 = 5 + 6 + 7，bit[18]會是1**<br>
 
     > **所以最後取 bits[sum >> 1]表示存在(sum / 2)數可以被nums 中的子集合相加;'
   is_best: true
+  official_solution: better
   attempts:
   - date: '2026-09-18'
     result: 對
@@ -25,6 +26,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-11'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: 0/1 Knapsack
 - file: Solution_0416_1.cpp
@@ -37,9 +41,13 @@ solutions:
   time: O(N*S)
   space: O(NS)
   familiarity: 練習過
+  official_solution: synced
   related:
   - 1049
   attempts:
   - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null

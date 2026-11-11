@@ -14,11 +14,10 @@
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
-        bitset<10001> bits(1);
         int sum = accumulate(nums.begin(), nums.end(), 0);
-        for(const int& num : nums) {
-            bits |= bits << num;
-        }
-        return (sum % 2 == 0) && bits[sum >> 1];
+        if (sum & 1) return false;
+        bitset<10001> bits(1);
+        for (int x : nums) bits |= bits << x;
+        return bits[sum >> 1];
     }
 };

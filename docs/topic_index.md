@@ -73,7 +73,7 @@
 | 136 | 👑 **Accumulate XOR**<br>[Single Number](https://leetcode.com/problems/single-number) | 🟢 E | Bit Manipulation Xor, Bit-Manipulation | [C++](problems/0136.md) | O(N) | O(1) |
 | 137 | 👑 **Finite State Machine**<br>[Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Bit Manipulation | [C++](problems/0137.md) | O(N) | O(1) |
 | 191 | 👑 **Brian Kernighan**<br>[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 E | Bit Manipulation And, Bit-Manipulation | [C++](problems/0191.md) | O(K) | O(1) |
-| 416 | 👑 **0/1 Knapsack**<br>[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 M | Bit Manipulation, DP | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) |
+| 416 | 👑 **0/1 Knapsack**<br>[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 M | Bit Manipulation | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) |
 | 461 | 👑 **__builtin_popcount**<br>[Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation | [C++](problems/0461.md) | O(K) | O(1) |
 | 461 | 👑 **Hamming Distance**<br>[Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation Xor | [C++](problems/0461.md) | O(N) | O(1) |
 | 2206 | 👑 **Number Frequency is Even**<br>[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 E | Bit Manipulation, Hash Table, Counting | [C++](problems/2206.md) | O(N) | O(1) |
