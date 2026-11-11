@@ -152,12 +152,13 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 26 | 👑 **Read-Write Two Pointers**<br>[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) |
+| 26 | 👑 **Read-Write Two Pointers Without Swap**<br>[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) |
 | 27 | 👑 **Fast Slow Pointer Swap**<br>[Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 E | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0027.md) | O(N) | O(1) |
 | 75 | 👑 **Dutch National Flag Problem**<br>[Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 M | Two Pointers Partition | [C++](problems/0075.md) | O(N) | O(1) |
 | 141 | 👑 **List fast slow pointer**<br>[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 E | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0141.md) | O(N) | O(1) |
 | 151 | 👑 **String reverse**<br>[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 M | Two Pointers Same | [C++](problems/0151.md) | O(N) | O(1) |
 | 167 | 👑 **Two Pointers Opposite**<br>[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) |
+| 283 | 👑 **Read-Write Two Pointers With Swap**<br>[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 E | Fast Slow Pointers | [C++](problems/0283.md) | O(N) | O(1) |
 | 344 | 👑 **Two Pointers Swap**<br>[Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/0344.md) | O(N) | O(1) |
 | 392 | 👑 **Two Pointers Same**<br>[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/0392.md) | O(N) | O(1) |
 | 633 | 👑 **Fermat’s theorem on sums of two squares**<br>[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0633.md) | O(√C) | O(1) |

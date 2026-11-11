@@ -6,13 +6,14 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Fast Slow Pointers
-  - Fast-Slow Pointers
   topics:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-18'
+  is_best: true
+  official_solution: synced
   related:
   - 27
   - 2460
@@ -23,6 +24,11 @@ solutions:
   - date: '2026-10-20'
     result: 對
     reason: null
+  - date: '2026-11-11'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Read-Write Two Pointers With Swap
 - file: Solution_0283_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -33,6 +39,7 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-10-20'
+  official_solution: null
   attempts:
   - date: '2026-09-18'
     result: 對
@@ -41,5 +48,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-20'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null

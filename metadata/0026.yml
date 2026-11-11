@@ -40,8 +40,11 @@ solutions:
   - date: '2026-11-11'
     result: 對
     reason: null
+  - date: '2026-11-11'
+    result: 對
+    reason: null
   is_representative: true
-  representative_tag: Read-Write Two Pointers
+  representative_tag: Read-Write Two Pointers Without Swap
 - file: Solution_0026_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -69,6 +72,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-22'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null
   - date: '2026-11-11'
