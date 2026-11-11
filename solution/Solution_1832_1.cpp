@@ -29,11 +29,10 @@
 class Solution {
 public:
     bool checkIfPangram(string sentence) {
-        string& s = sentence;
-        int ans = accumulate(s.begin(), s.end(), 0,[](int mask, char c) {
+        sint mask = 0;
+        for(char c : sentence) {
             mask |= 1 << (c - 'a');
-            return mask;
-        });
-        return ans == (1 << 26) - 1;
+        }
+        return mask == (1 << 26) - 1;
     }
 };

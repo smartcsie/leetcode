@@ -14,12 +14,16 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-17'
+  official_solution: null
   related:
   - 2716
   tricks:
   - bitset
   attempts:
   - date: '2026-09-17'
+    result: 對
+    reason: null
+  - date: '2026-11-11'
     result: 對
     reason: null
 - file: Solution_1832_1.cpp
@@ -30,9 +34,9 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 易忘
-  tricks:
-  - accumulate
+  familiarity: 熟練
+  mastered_date: '2026-11-11'
+  official_solution: synced
   attempts:
   - date: '2026-09-17'
     result: 對
@@ -40,3 +44,6 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-11'
+    result: 對
+    reason: null
