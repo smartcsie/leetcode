@@ -7,12 +7,16 @@ solutions:
   tags:
   - Bit Manipulation
   topics:
-  - bit-manipulation-and
+  - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 易忘
-  note: '> **n先mod 4等於t，檢查11(t & 3) == 3，檢查00(t ^ 3) == 3，符合就回傳false**<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  note: '>**x其實是讓n變成 11111......**<br>
+
+    >**(x & (x+1)) 會是0或INT_MAX**<br>'
   is_best: true
+  official_solution: better
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -21,6 +25,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-19'
+    result: 對
+    reason: null
+  - date: '2026-11-12'
     result: 對
     reason: null
 - file: Solution_0693_1.cpp
@@ -33,6 +40,7 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-10-07'
+  official_solution: null
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -41,5 +49,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-19'
+    result: 對
+    reason: null
+  - date: '2026-11-12'
     result: 對
     reason: null
