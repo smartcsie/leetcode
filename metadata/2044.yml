@@ -12,9 +12,11 @@ solutions:
   space: O(M)
   familiarity: 熟練
   mastered_date: '2026-11-12'
-  is_best: true
   official_solution: synced
   attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null
   - date: '2026-11-12'
     result: 對
     reason: null
@@ -31,6 +33,9 @@ solutions:
   is_best: true
   official_solution: synced
   attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null
   - date: '2026-11-12'
     result: 對
     reason: null
