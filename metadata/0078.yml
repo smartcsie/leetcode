@@ -6,23 +6,46 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Backtracking Combination
-  - Backtracking
-  - Recursion
   topics:
   - backtracking-combination
-  time: O(N*2ᴺ)
+  time: O(n2ᴺ)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  official_solution: synced
+  attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null
   is_representative: true
-  representative_tag: Bitmask Subset Enumeration
+  representative_tag: Backtracking Combination
 - file: Solution_0078_1.cpp
   difficulty: 🟡 Medium
   tags:
+  - Backtracking Combination
+  topics:
+  - backtracking-combination
+  time: O(n2ᴺ)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  official_solution: synced
+  attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null
+- file: Solution_0078_2.cpp
+  difficulty: 🟡 Medium
+  tags:
   - Bit Bitmask Subset Enumeration
-  - Bitmask
-  - Backtracking
   topics:
   - bit-bitmask-subset-enumeration
-  time: O(2ᴺ*N)
-  space: O(2^N*N)
-  familiarity: 練習過
+  time: O(n2ᴺ)
+  space: O(n)
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  official_solution: synced
+  attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null

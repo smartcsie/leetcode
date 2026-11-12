@@ -1,6 +1,6 @@
 # backtracking-combination
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,6 @@
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 M | Backtracking | [C++](../problems/0039.md) | O(N^(T/M)) | O(T/M) |  |
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 M | Backtracking, Sorting | [C++](../problems/0040.md) | O(2ᴺ) | O(N) |  |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 M | Backtracking | [C++](../problems/0077.md) | O(K\*C(N,K)) | O(K) |  |
-| 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 M | Backtracking Combination, Backtracking, Recursion | [C++](../problems/0078.md) | O(N\*2ᴺ) | O(N) |  |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 M | Backtracking Combination | [C++](../problems/0131.md) | O(N × 2^N) | O(N) |  |
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 M | Backtracking | [C++](../problems/0216.md) | O(C(9,K)) | O(K) |  |
 | 638 | [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | 🟡 M | Backtracking Combination | [C++](../problems/0638.md) | O(∏(needs[i]+1)) | O(∏(needs[i]+1)) | ❌ 官方沒有解答 |
@@ -33,9 +32,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 M | Backtracking Combination | [C++](../problems/0078.md) | O(n2ᴺ) | O(N) | ✅ 已同步官方解答 |
+| 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 M | Backtracking Combination | [C++](../problems/0078.md) | O(n2ᴺ) | O(1) | ✅ 已同步官方解答 |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 M | Backtracking Combination | [C++](../problems/0090.md) | O(n\*S) | O(n) | ✅ 已同步官方解答 |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 M | Backtracking Combination | [C++](../problems/0090.md) | O(n\*S) | O(n) | ✅ 已同步官方解答 |
