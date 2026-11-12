@@ -10,16 +10,13 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 再練習
-  note: '> [Single Number III](https://leetcode.com/problems/single-number-iii) <br>
-
-    > 兩數出現1次，其他出現兩次，xor_ab等於所有數XOR的結果<br>
-
-    > 算diff_bit，為a和b比較大的數的MSB，int diff_bit = 1;  while((xor_ab & diff_bit) == 0)  diff_bit
-    <<= 1;<br>
-
-    > 再travsal nums，如果num和diff_bit AND > 0，num XOR 到a，否則b<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  official_solution: synced
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-12'
+    result: 對
+    reason: null

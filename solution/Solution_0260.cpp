@@ -1,39 +1,47 @@
 /**
- * 題目：260. Single Number III (只出現一次的數字 III)
- * 難度：中等 (Medium)
- * 描述：一個陣列中除了兩個數字只出現一次外，其他數字都出現兩次。找出這兩個數字。
+ * 題目：260. Single Number III
+ * 難度：Medium
+ * 描述：給定整數陣列 nums，其中恰好有兩個元素只出現一次，其餘元素都出現兩次。
+ *       找出這兩個只出現一次的元素（順序不拘），
+ *       要求時間 O(n)、額外空間 O(1)。
  *
- * 時間複雜度：O(N)
+ * 分類主題：bit-manipulation-xor
+ * 技巧：全部 XOR 得到 a ^ b, 取最低位的 1 (x & -x) 當分組依據, 依該位元分成兩組各自 XOR, 轉成 unsigned 避免 INT_MIN 溢位
+ *
+ * 時間複雜度：O(N)，只掃兩遍
  * 空間複雜度：O(1)
  *
- * 解法思路：
- * (位元分組法)：
- * 1. 將陣列所有數字進行 XOR，得到 `xor_all`。因為出現兩次的數字 XOR 後為 0，
- * 所以 `xor_all` 最終等於 `a ^ b` (a, b 為那兩個只出現一次的數字)。
- * 2. 找到 `xor_all` 中任意一個為 1 的位元 (diff_bit)。
- * 這個位元代表 a 與 b 在該位元上是不同的。
- * 3. 再次遍歷陣列，根據 `num & diff_bit` 是否為 0，將陣列分為兩組：
- * - 包含 a 的一組
- * - 包含 b 的一組
- * (出現兩次的數字會被分到同一組並相互抵消，最後每組的 XOR 結果即為 a 和 b)
+ * 解法思路：XOR 分組
+ * 1. 設兩個只出現一次的數為 a、b。全部元素 XOR 起來，成對的數會抵消，
+ *    只剩 bitmask = a ^ b。
+ * 2. a 與 b 不同，所以 bitmask 一定不為 0，至少有一個位元是 1，
+ *    表示 a、b 在那個位元上不一樣（一個是 0、一個是 1）。
+ * 3. 取 bitmask 最低位的 1：diff = bitmask & (-bitmask)，
+ *    只保留這一個位元，其餘為 0。
+ * 4. 用 diff 把所有元素分成兩組：該位元為 1 的一組、為 0 的一組。
+ *    - a、b 一定被分到不同組。
+ *    - 成對的相同數字一定被分到同一組，XOR 後抵消。
+ * 5. 只要把「該位元為 1」那一組全部 XOR，就得到其中一個答案 x，
+ *    另一個答案是 bitmask ^ x（因為 bitmask = a ^ b）。
+ * 6. 轉成 unsigned 再取負：
+ *    bitmask 可能是 INT_MIN，對有號整數取負會溢位（未定義行為），
+ *    無號數取負是有明確定義的模運算，結果一樣是最低位的 1。
  */
-
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
-        int xorAll = accumulate(nums.begin(), nums.end(), 0, bit_xor<int>());
-        int differBit = 1;
-        while((xorAll & differBit) == 0) {
-            differBit <<= 1; 
-        }
-        int a = 0 , b = 0;
-        for(const int& num : nums) {
-            if(differBit & num) {
-                a ^= num;
-            } else {
-                b ^= num;
-            }
-        }
-        return {a, b};
+        // 全部 XOR：成對的抵消，剩下 a ^ b
+        int bitmask = accumulate(nums.begin(), nums.end(), 0, bit_xor<>());
+
+        // 取最低位的 1：a 與 b 在這個位元上一定不同；轉成 unsigned 避免 INT_MIN 取負溢位
+        unsigned int diff = static_cast<unsigned int>(bitmask) & -static_cast<unsigned int>(bitmask);
+
+        // 只 XOR 該位元為 1 的那一組，得到 a、b 其中之一
+        int x = accumulate(nums.begin(), nums.end(), 0, [&](int acc, int num) {
+            return (num & diff) != 0 ? (acc ^ num) : acc;
+        });
+
+        // 另一個數 = (a ^ b) ^ x
+        return {x, bitmask ^ x};
     }
 };

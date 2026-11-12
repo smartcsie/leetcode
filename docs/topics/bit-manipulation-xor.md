@@ -4,11 +4,9 @@
 
 目前沒有標記為生疏的解法。
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 M | Bit Manipulation | [C++](../problems/0260.md) | O(N) | O(1) |  |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（1）
 
@@ -24,11 +22,12 @@
 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 E | Bit Manipulation Xor, Math, Combinatorics | [C++](../problems/1863.md) | O(N) | O(1) |  |
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 H | Bit Manipulation Xor | [C++](../problems/3514.md) | O(MlogM) | O(M) |  |
 
-## 🟢 熟悉（13）
+## 🟢 熟悉（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 E | Bit Manipulation Xor, Bit-Manipulation | [C++](../problems/0136.md) | O(N) | O(1) |  |
+| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 M | Bit Manipulation | [C++](../problems/0260.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0268.md) | O(N) | O(1) |  |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0389.md) | O(N) | O(N) |  |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0461.md) | O(N) | O(1) |  |
