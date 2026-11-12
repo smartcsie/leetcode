@@ -5,19 +5,32 @@ solutions:
 - file: Solution_2044.cpp
   difficulty: 🟡 Medium
   tags:
-  - Backtracking Combination
+  - Bit Manipulation Or
   topics:
-  - backtracking-combination
-  time: O(2^N)
-  space: O(N)
-  familiarity: 生疏
+  - bit-manipulation-or
+  time: O(n*M)
+  space: O(M)
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
   is_best: true
+  official_solution: synced
+  attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null
 - file: Solution_2044_1.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Bitmask Subset Enumeration
+  - Backtracking Combination
   topics:
-  - bit-bitmask-subset-enumeration
-  time: O(N*2^N)
-  space: O(1)
-  familiarity: 練習過
+  - backtracking-combination
+  time: O(2^n)
+  space: O(n)
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  is_best: true
+  official_solution: synced
+  attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null

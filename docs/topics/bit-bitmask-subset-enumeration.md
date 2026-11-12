@@ -8,11 +8,10 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟡 練習過（2）
+## 🟡 練習過（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2044 | [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | 🟡 M | Bit Bitmask Subset Enumeration | [C++](../problems/2044.md) | O(N\*2^N) | O(1) |  |
 | 2397 | [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/) | 🟡 M | Bit Bitmask Subset Enumeration, Bitmask, Combinatorics | [C++](../problems/2397.md) | O(2ᴺ\*M+M\*N) | O(M) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（1）
