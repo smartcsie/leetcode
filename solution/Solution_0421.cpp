@@ -14,26 +14,26 @@
  * 3. 集合查找驗證 (Hash Set Lookup)：
  *    - 若 prefix ^ candidate 存在於 prefixes 集合中，代表這一位元可以達成，將 ans 更新為 candidate。
  */
+
 class Solution {
 public:
     int findMaximumXOR(vector<int>& nums) {
-        const int maxNum = ranges::max(nums);
-        if (maxNum == 0)
-        return 0;
-        const int maxBit = static_cast<int>(log2(maxNum));
+        int mx = *max_element(nums.begin(), nums.end());
+        int bits = bit_width(static_cast<unsigned int>(mx));
+        int bitMask = 0;
         int ans = 0;
-        int prefixMask = 0; 
-        for (int i = maxBit; i >= 0; --i) {
-            prefixMask |= 1 << i;
-            unordered_set<int> prefixes;
-       
-            for (const int num : nums) {
-                prefixes.insert(num & prefixMask);
+        for(int i = bits - 1; i >= 0; i--) {
+            bitMask |= 1 << i;
+            unordered_set<int> prefixs;
+            for(const int& num : nums) {
+                prefixs.insert(num & bitMask);
             }
-       
-            const int candidate = ans | 1 << i;
-            for (const int prefix : prefixes) {
-                if (prefixes.contains(prefix ^ candidate)) {
+            int candidate = ans | 1 << i;
+            for(const int& prefix : prefixs) {
+                //這裡原本是 存在兩數num1, num2 之prefix 有辦法
+                // prefix1 ^ prefix2 == candidate(最佳) 則更新 ans prefix
+                // 等價 prefixs.contains(prefix ^ candidate)
+                if(prefixs.contains(prefix ^ candidate)) {
                     ans = candidate;
                     break;
                 }
