@@ -10,13 +10,29 @@ solutions:
   - bit-manipulation-or
   time: O(1)
   space: O(1)
-  familiarity: 易忘
-  note: '> [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)<br>
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  note: '> **int diff = (a | b) ^ c，diff主要顯示哪些bit需要翻轉** <br>
 
-    > **int diff = (a | b) ^ c;** <br>
+    > **__builtin_popcount(diff)，計算至少需要翻轉的次數** <br>
 
-    > **int flips = __builtin_popcount(diff & ~c) + __builtin_popcount(a & b & diff);**
-    <br>'
+    > **__builtin_popcount(a & b & diff);因為a,b bit=1，需要多翻轉一次** <br>
+
+
+    > **a=0010，b=0110，c=0101**<br>
+
+    > **diff = (a | b) ^ c  = 0011**<br>
+
+    > **__builtin_popcount(diff) = 2**<br>
+
+    > **LSB + 和倒數第2位元至少需要翻轉一次**<br>
+
+    > **__builtin_popcount(a & b & diff) = 1**<br>
+
+    > **diff = (a | b) ^ c  = 0010**<br>
+
+    > **倒數第2位元需要多翻轉一次**<br>'
+  official_solution: synced
   tricks:
   - __builtin_popcount
   attempts:
@@ -26,6 +42,9 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-12'
+    result: 對
+    reason: null
 - file: Solution_1318_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -36,7 +55,11 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-09-18'
+  official_solution: null
   attempts:
   - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-11-12'
     result: 對
     reason: null

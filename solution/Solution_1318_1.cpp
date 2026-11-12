@@ -30,13 +30,19 @@
  *      布林運算式的結果是 1，代表要翻 1 次；否則是 0，不用翻）。
  * 4. 把每個 bit 位置算出來的翻轉次數加總，就是最終答案。
  */
+
 class Solution {
 public:
     int minFlips(int a, int b, int c) {
         int count = 0;
         while(a > 0 || b > 0 || c > 0) {
-            if((c & 1) == 0) count += (a & 1) + (b & 1);
-            else count += ((a & 1) == 0) && ((b & 1) == 0);
+            int bita = a & 1;
+            int bitb = b & 1;
+            int bitc = c & 1;
+            if((bita | bitb) ^ bitc) {
+                if((bita & bitb) & !bitc) count += 2;
+                else count += 1;
+            }
             a >>= 1;
             b >>= 1;
             c >>= 1;
