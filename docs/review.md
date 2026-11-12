@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：193 題　🟠 再練習：16 題　🟡 練習過：37 題　🟣 易忘：77 題　🟢 熟練：674 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：193 題　🟠 再練習：16 題　🟡 練習過：37 題　🟣 易忘：76 題　🟢 熟練：675 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 337 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 336 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（15）](#review-math)　[📊 Bit Manipulation（15）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（17）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（17）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（25）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（15）](#review-math)　[📊 Bit Manipulation（14）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（17）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（17）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（25）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -46,7 +46,7 @@
 | 🟣 易忘 | 3770 | [Largest Prime from Consecutive Prime Sum](https://leetcode.com/problems/largest-prime-from-consecutive-prime-sum/) | 🟡 M | Math Prime, Prefix Sum | [C++](problems/3770.md) | O(RloglogR) | O(R) | ❌ 官方沒有解答 |
 
 <a id="review-bit-manipulation"></a>
-#### 📊 Bit Manipulation（15）
+#### 📊 Bit Manipulation（14）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -55,7 +55,6 @@
 | 🟡 練習過 | 2397 | [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/) | 🟡 M | Bit Bitmask Subset Enumeration, Bitmask, Combinatorics | [C++](problems/2397.md) | O(2ᴺ\*M+M\*N) | O(M) | ❌ 官方沒有解答 |
 | 🟣 易忘 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 M | Bit Manipulation, Math | [C++](problems/0029.md) | O(log²N) | O(1) |  |
 | 🟣 易忘 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 M | Bit Manipulation | [C++](problems/0029.md) | O(log²N) | O(1) |  |
-| 🟣 易忘 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 M | Bit Manipulation, Bit Manipulation, Array | [C++](problems/0477.md) | O(31\*N) | O(1) |  |
 | 🟣 易忘 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 E | Bit Manipulation | [C++](problems/0693.md) | O(1) | O(1) |  |
 | 🟣 易忘 | 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 M | Bit Bitmask Subset Enumeration, Backtracking, Bitset | [C++](problems/1239.md) | O(2ᴺ) | O(2ᴺ) |  |
 | 🟣 易忘 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Or | [C++](problems/1318.md) | O(1) | O(1) |  |
@@ -498,7 +497,7 @@
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 3 | 0 | 0 | 1 | 0 | 0 | 4 |
 | [binary-search-tree](topics/binary-search-tree.md) | 0 | 0 | 1 | 1 | 14 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 1 | 0 | 1 | 1 | 1 | 0 | 4 |
-| [bit-manipulation](topics/bit-manipulation.md) | 0 | 0 | 1 | 4 | 30 | 0 | 35 |
+| [bit-manipulation](topics/bit-manipulation.md) | 0 | 0 | 1 | 3 | 31 | 0 | 35 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 0 | 0 | 2 | 6 | 0 | 8 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 0 | 2 | 5 | 0 | 7 |

@@ -6,16 +6,19 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Bit Manipulation
-  - Bit Manipulation
-  - Array
   topics:
   - bit-manipulation
   time: O(31*N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  official_solution: null
   related:
   - 338
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-12'
+    result: 對
+    reason: null
