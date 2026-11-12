@@ -14,9 +14,14 @@ solutions:
   mastered_date: '2026-11-12'
   note: '> 跟 [1239 Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)類似'
   official_solution: no-solution
+  related:
+  - 1239
   tricks:
   - accumulate lemma
   attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null
   - date: '2026-11-12'
     result: 對
     reason: null
