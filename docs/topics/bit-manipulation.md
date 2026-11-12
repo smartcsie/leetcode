@@ -34,7 +34,7 @@
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 E | Bit Manipulation | [C++](../problems/0401.md) | O(1) | O(1) |  |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 M | Bit Manipulation | [C++](../problems/0416.md) | O(N\*S/W) | O(S/W) | 🌟 優於官方解答 |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 E | Bit Manipulation | [C++](../problems/0476.md) | O(logN) | O(1) |  |
-| 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 M | Bit Manipulation | [C++](../problems/0477.md) | O(31\*N) | O(1) |  |
+| 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 M | Bit Manipulation | [C++](../problems/0477.md) | O(31\*N) | O(1) | ✅ 已同步官方解答 |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 E | Bit Manipulation | [C++](../problems/1009.md) | O(logN) | O(1) |  |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 E | Bit Manipulation, Math | [C++](../problems/1342.md) | O(1) | O(1) |  |
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 M | Backtracking Permutation | [C++](../problems/1545.md) | O(1) | O(1) | ✅ 已同步官方解答 |
