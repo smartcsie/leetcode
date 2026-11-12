@@ -6,13 +6,17 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Bit Bitmask Subset Enumeration
-  - Bitmask
-  - Combinatorics
   topics:
   - bit-bitmask-subset-enumeration
   time: O(2ᴺ*M+M*N)
   space: O(M)
-  familiarity: 練習過
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
   note: '> 跟 [1239 Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)類似'
-  tricks: null
   official_solution: no-solution
+  tricks:
+  - accumulate lemma
+  attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null

@@ -25,24 +25,25 @@
 class Solution {
 public:
     int maximumRows(vector<vector<int>>& matrix, int numSelect) {
-        int m = matrix.size();
-        int n = matrix[0].size();
-        vector<int> col_ones(m);
+        vector<vector<int>>& mat = matrix;
+        int m = mat.size();
+        int n = mat[0].size();
+        vector<int> colOnes(m, 0);
         for(int i = 0; i < m; i++) {
-            for(int j = 0; j < n; j++) {
-                if(matrix[i][j] == 1) col_ones[i] |= (1 << j);
-            }    
+            colOnes[i] = accumulate(mat[i].rbegin(), mat[i].rend(), 0, [](int acc, int bit) {
+                return (acc << 1) | bit;
+            });
         }
-        int max_covered = 0;
+        int maxCovered = 0;
         for(int col_mask = 0; col_mask < (1 << n); col_mask++) {
             if(__builtin_popcount(col_mask) == numSelect) {
-                int covered = 0;
-                for(int i = 0; i < m; i++) {
-                    if((col_mask & col_ones[i]) == col_ones[i]) covered++;
+                int coverd = 0;
+                for(const int& ones : colOnes) {
+                    if((col_mask & ones) == ones) coverd++;
                 }
-                max_covered = max(max_covered, covered);
-            }            
+                maxCovered = max(coverd, maxCovered);
+            }
         }
-        return max_covered;
+        return maxCovered;
     }
 };
