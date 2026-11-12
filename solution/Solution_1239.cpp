@@ -1,47 +1,54 @@
 /**
  * 題目：1239. Maximum Length of a Concatenated String with Unique Characters
- * 難度：中等 (Medium)
- * 描述：給定一個字串陣列 arr，請找出一個字串序列，其串接起來的字串包含唯一字元，
- * 並返回該串接字串的最大可能長度。
+ * 難度：Medium
+ * 描述：給定字串陣列 arr，從中選出若干個字串（按順序串接），
+ *       使串接後的字串每個字母都只出現一次，回傳可得的最大長度。
  *
- * 時間複雜度：O(2^N*N)
- * 空間複雜度：O(2^N)
+ * 分類主題：backtracking-combination
+ * 技巧：字串轉成 26 位元遮罩, 遮罩重疊就剪枝, 用 popcount(used) 當目前長度, 自己有重複字母的字預先丟掉
  *
- * 解法思路：
- * 1. 使用 `std::bitset<26>` 將 26 個英文字母的出現狀態壓縮成二進位位元。
- * 2. 宣告 `allBits` 儲存目前所有合法的不重複字元組合狀態（初始為一個空集合）。
- * 3. 走訪 `arr` 中的每一個字串 word：
- * - 先將 word 轉成 `wordBits`。若 word 本身有重複字元（即 `wordBits.count() < word.size()`），則直接跳過。
- * - 倒序走訪目前的 `allBits` 陣列，嘗試將當前 word 的 bitset 與已存在的組合進行合併。
- * - 利用 `(wordBits & bits).any()` 檢查是否有字元衝突（交集）：
- * - 若有衝突則跳過。
- * - 若無衝突，則將 `bits | wordBits` 透過 `push_back` 加入 `allBits` 中，並更新最大長度 `ans`。
- * 4. 迴圈結束後返回 `ans`。
+ * 時間複雜度：O(2^n)，n 為篩選後可用的字串數；遇到重疊就整棵子樹跳過，實際通常遠小於此
+ * 空間複雜度：O(n)，遞迴深度與遮罩陣列
+ *
+ * 解法思路：DFS 選或不選 + 重疊剪枝
+ * 1. 每個字串轉成 26 位元的遮罩，第 k 位為 1 代表含有第 k 個字母。
+ *    字串自己就有重複字母（轉換過程中某一位已經是 1）者不可能被選，直接丟掉。
+ * 2. dfs(start, used)：used 是目前已選字串的字母聯集。
+ *    因為所有已選字母都互不相同，所以目前串接長度就是 popcount(used)。
+ * 3. 從 start 開始往後挑下一個字串，若它的遮罩與 used 有重疊（&），
+ *    串接後會有重複字母，這個字串不能選，直接跳過。
+ * 4. 可以選就遞迴到 i + 1，used 更新為 used | masks[i]。
+ *    子集內的字串依索引遞增，同一組合不會以不同順序重複出現。
+ * 5. 每個節點本身就是一個合法組合，所以進入函式時就先用 popcount(used) 當候選答案，
+ *    再與子樹中更長的結果比較。
+ * 6. 衝突時直接跳過，比列舉全部 2^n 個子集再檢查更有效率：
+ *    包含衝突組合的所有情況都不會被走到。
  */
-
 class Solution {
-private:
-    void dfs(int idx, int curMask, int& mxLen,
-             vector<int>& masks, int n) {
-        mxLen = max(mxLen, __builtin_popcount(curMask));
-        for (int i = idx; i < n; i++) {
-            if (!(curMask & masks[i]))
-                dfs(i + 1, curMask | masks[i], mxLen, masks, n);
-        }
-    }
 public:
     int maxLength(vector<string>& arr) {
-        vector<int> masks;
-        for (const string& s : arr) {
-            int val = 0;
-            for (const char& c : s) {
-                if(val & (1 << (c - 'a'))) {val = -1; break;}
-                else val |= 1 << (c - 'a');
+        vector<int> masks;  // 每個可用字串的字母遮罩
+        for (const string& w : arr) {
+            int m = 0;
+            bool ok = true;
+            for (char c : w) {
+                int bit = 1 << (c - 'a');
+                if (m & bit) { ok = false; break; }  // 字自己有重複字母，整個丟掉
+                m |= bit;
             }
-            if(val != -1) masks.push_back(val);
+            if (ok) masks.push_back(m);
         }
-        int mxLen = 0, n = masks.size();
-        dfs(0, 0, mxLen, masks, n);
-        return mxLen;
+        return dfs(masks, 0, 0);
+    }
+
+private:
+    // start：這一層只能從 masks[start] 之後挑字串；used：目前已選字串的字母聯集
+    int dfs(const vector<int>& masks, int start, int used) {
+        int best = __builtin_popcount(used);  // 目前用到的不同字母數，就是目前長度
+        for (int i = start; i < masks.size(); i++) {
+            if (masks[i] & used) continue;    // 字母重疊，這條路不用走
+            best = max(best, dfs(masks, i + 1, used | masks[i]));
+        }
+        return best;
     }
 };

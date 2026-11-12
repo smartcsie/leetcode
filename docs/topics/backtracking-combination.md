@@ -31,7 +31,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -39,4 +39,5 @@
 | 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 M | Backtracking Combination | [C++](../problems/0078.md) | O(n2ᴺ) | O(1) | ✅ 已同步官方解答 |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 M | Backtracking Combination | [C++](../problems/0090.md) | O(n\*S) | O(n) | ✅ 已同步官方解答 |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 M | Backtracking Combination | [C++](../problems/0090.md) | O(n\*S) | O(n) | ✅ 已同步官方解答 |
+| 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 M | Backtracking Combination | [C++](../problems/1239.md) | O(2ᴺ) | O(n) |  |
 | 2044 | [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | 🟡 M | Backtracking Combination | [C++](../problems/2044.md) | O(2^n) | O(n) | ✅ 已同步官方解答 |

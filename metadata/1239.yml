@@ -5,15 +5,20 @@ solutions:
 - file: Solution_1239.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Bitmask Subset Enumeration
-  - Backtracking
-  - Bitset
+  - Backtracking Combination
   topics:
-  - bit-bitmask-subset-enumeration
+  - backtracking-combination
   time: O(2ᴺ)
-  space: O(2ᴺ)
-  familiarity: 易忘
+  space: O(n)
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  official_solution: null
+  related:
+  - 2397
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-12'
+    result: 對
+    reason: null

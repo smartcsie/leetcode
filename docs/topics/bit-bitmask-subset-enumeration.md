@@ -12,11 +12,9 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（1）
+## 🟣 易忘（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1239 | [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | 🟡 M | Bit Bitmask Subset Enumeration, Backtracking, Bitset | [C++](../problems/1239.md) | O(2ᴺ) | O(2ᴺ) |  |
+目前沒有標記為易忘的解法。
 
 ## 🟢 熟悉（2）
 
