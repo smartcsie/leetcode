@@ -5,18 +5,24 @@ solutions:
 - file: Solution_1863.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation Xor
-  - Math
-  - Combinatorics
+  - Bit Manipulation Or
   topics:
-  - bit-manipulation-xor
+  - bit-manipulation-or
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
   note: '> **所有子集XOR總和的總和，等於「全體元素的 Bitwise OR 」乘以 2^(N-1)。**<br>'
+  official_solution: synced
   tricks:
-  - accumulate
+  - accumulate or
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-12'
+    result: 對
+    reason: null
+  - date: '2026-11-12'
+    result: 對
+    reason: null

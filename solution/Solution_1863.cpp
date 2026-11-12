@@ -23,6 +23,6 @@ public:
         // 1. reduce(..., bit_or<int>())：計算整個 nums 陣列所有元素的位元 OR 聯集
         // 2. << (nums.size() - 1)：將 OR 結果向左位移 N-1 位（等同於乘以 2^(N-1)）
         int n = nums.size();
-        return accumulate(nums.begin(), nums.end(), 0, bit_or<int>()) << (n - 1);
+        return accumulate(nums.begin(), nums.end(), 0, bit_or<>()) << (n - 1);
     }
 };

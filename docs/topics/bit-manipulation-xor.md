@@ -14,11 +14,10 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 M | Bit Manipulation Xor, Prefix XOR | [C++](../problems/1442.md) | O(N²) | O(1) |  |
 
-## 🟣 易忘（2）
+## 🟣 易忘（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 E | Bit Manipulation Xor, Math, Combinatorics | [C++](../problems/1863.md) | O(N) | O(1) |  |
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 H | Bit Manipulation Xor | [C++](../problems/3514.md) | O(MlogM) | O(M) |  |
 
 ## 🟢 熟悉（15）
