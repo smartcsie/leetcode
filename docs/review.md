@@ -497,7 +497,7 @@
 | [binary-search-tree](topics/binary-search-tree.md) | 0 | 0 | 1 | 1 | 14 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 1 | 0 | 1 | 1 | 1 | 0 | 4 |
 | [bit-manipulation](topics/bit-manipulation.md) | 0 | 0 | 1 | 3 | 32 | 0 | 36 |
-| [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 0 | 0 | 1 | 7 | 0 | 8 |
+| [bit-manipulation-and](topics/bit-manipulation-and.md) | 0 | 0 | 0 | 1 | 6 | 0 | 7 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 0 | 0 | 0 | 0 | 3 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 0 | 0 | 0 | 2 | 5 | 0 | 7 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 0 | 0 | 1 | 3 | 14 | 0 | 18 |

@@ -30,12 +30,15 @@ solutions:
   - date: '2026-11-12'
     result: 對
     reason: null
+  - date: '2026-11-12'
+    result: 對
+    reason: null
 - file: Solution_0693_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation And
+  - Bit Manipulation
   topics:
-  - bit-manipulation-and
+  - bit-manipulation
   time: O(logn)
   space: O(1)
   familiarity: 熟練
@@ -49,6 +52,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-19'
+    result: 對
+    reason: null
+  - date: '2026-11-12'
     result: 對
     reason: null
   - date: '2026-11-12'
