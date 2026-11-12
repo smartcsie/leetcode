@@ -6,15 +6,14 @@ solutions:
   file: Solution_0090.cpp
   difficulty: 🟡 Medium
   tags:
-  - Bit Bitmask Subset Enumeration
-  - Sorting
-  - Hash Set (Duplicate De-duplication)
+  - Backtracking Combination
   topics:
-  - bit-bitmask-subset-enumeration
-  time: O(2ᴺ*Nlog(2ᴺ))
-  space: O(2ᴺ*N)
-  familiarity: 易忘
-  tricks: null
+  - backtracking-combination
+  time: O(n*S)
+  space: O(n)
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  official_solution: synced
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -22,4 +21,7 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-12'
+    result: 對
+    reason: null
 - *id001
