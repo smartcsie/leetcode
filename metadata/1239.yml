@@ -25,3 +25,22 @@ solutions:
   - date: '2026-11-12'
     result: 對
     reason: null
+  - date: '2026-11-12'
+    result: 對
+    reason: null
+- file: Solution_1239_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Backtracking Combination
+  topics:
+  - backtracking-combination
+  time: O(C(n, k) * m)
+  space: ''
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  official_solution: pending
+  attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null
+  representative_tag: O(m + n)
