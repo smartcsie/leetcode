@@ -7,11 +7,9 @@
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 H | Binary Search | [C++](../problems/0004.md) | O(log(min(M,N))) | O(1) |  |
 | 786 | [K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) | 🟡 M | Binary Search | [C++](../problems/0786.md) | O(N log(1/ε)) | O(1) |  |
 
-## 🟠 再練習（1）
+## 🟠 再練習（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 E | Binary Search | [C++](../problems/0367.md) | O(logN) | O(1) |  |
+目前沒有標記為再練習的解法。
 
 ## 🟡 練習過（0）
 
@@ -23,12 +21,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | 🟡 M | Binary Search | [C++](../problems/0081.md) | O(N) | O(1) |  |
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | 🟡 M | Binary Search, Binary Search | [C++](../problems/0033.md) | O(logN) | O(1) |  |
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | 🟡 M | Binary Search, Matrix | [C++](../problems/0074.md) | O(log(MN)) | O(1) |  |
+| 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 E | Binary Search | [C++](../problems/0367.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 E | Binary Search | [C++](../problems/0374.md) | O(logN) | O(1) |  |
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 E | Binary Search | [C++](../problems/0441.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | 🟢 E | Binary Search | [C++](../problems/0704.md) | O(logN) | O(1) |  |

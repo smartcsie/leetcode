@@ -1,0 +1,33 @@
+/**
+ * 題目：367. Valid Perfect Square
+ * 難度：Easy
+ * 描述：給定正整數 num，判斷它是否為完全平方數（某個整數的平方）。
+ *       不可使用內建的 sqrt 之類的函式。
+ *
+ * 分類主題：math-formula
+ * 技巧：牛頓法求整數平方根, 起點取 num 不需特判, 轉成 long long 避免平方溢位
+ *
+ * 時間複雜度：O(log n)
+ * 空間複雜度：O(1)
+ *
+ * 解法思路：牛頓法（整數版）
+ * 1. 目標是求 floor(sqrt(num))，再檢查它的平方是否剛好等於 num。
+ * 2. 迭代式 r = (r + num / r) / 2：
+ *    取 r 與 num / r 的平均，兩者一個偏大一個偏小，平均後會更接近平方根。
+ * 3. 起點必須 >= floor(sqrt(num))，數列才會嚴格遞減、不會低於答案。
+ *    取 r = num 一定滿足，而且 num >= 1 時 r 最小停在 floor(sqrt(num)) >= 1，
+ *    不會除以 0，所以不用特判小數字。
+ * 4. 迴圈在 r 的平方 <= num 時停止，此時 r 恰好是 floor(sqrt(num))。
+ * 5. 最後比較 r 的平方是否等於 num，相等就是完全平方數。
+ * 6. 溢位：r 最大為 num（約 2^31），平方約 4.6 * 10^18，
+ *    仍小於 long long 上限（約 9.2 * 10^18），所以用 long long 安全。
+ * 7. 迭代次數：前期每次大約減半，接近答案後收斂很快，整體是 O(log n)。
+ */
+class Solution {
+public:
+    bool isPerfectSquare(int num) {
+        long long r = num; // 起點必須 >= floor(sqrt(num))，取 num 本身最保險
+        while (r * r > num) r = (r + num / r) / 2; // 牛頓法：取 r 與 num / r 的平均
+        return r * r == num;
+    }
+};

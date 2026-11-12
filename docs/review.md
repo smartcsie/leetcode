@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：192 題　🟠 再練習：16 題　🟡 練習過：36 題　🟣 易忘：72 題　🟢 熟練：681 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：192 題　🟠 再練習：15 題　🟡 練習過：36 題　🟣 易忘：72 題　🟢 熟練：682 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 329 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 328 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（15）](#review-math)　[📊 Bit Manipulation（8）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（17）](#review-tree)　[🔍 Binary Search（18）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（17）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（24）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（15）](#review-math)　[📊 Bit Manipulation（8）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（17）](#review-tree)　[🔍 Binary Search（17）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（17）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（24）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -135,12 +135,11 @@
 | 🟣 易忘 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 M | Tree Dfs Global, DFS, Post-order | [C++](problems/1530.md) | O(N×D²) | O(H×D) |  |
 
 <a id="review-binary-search"></a>
-#### 🔍 Binary Search（18）
+#### 🔍 Binary Search（17）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟡 練習過 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 M | Binary Search Find Right Bound | [C++](problems/0611.md) | O(N²logN) | O(1) |  |
-| 🟠 再練習 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 E | Binary Search | [C++](problems/0367.md) | O(logN) | O(1) |  |
 | 🔴 生疏 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 H | Binary Search | [C++](problems/0004.md) | O(log(min(M,N))) | O(1) |  |
 | 🔴 生疏 | 220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | 🔴 H | Sliding Window, Ordered Map, Bucket | [C++](problems/0220.md) | O(Nlog(min(N,K))) | O(min(N,K)) |  |
 | 🔴 生疏 | 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | 🟡 M | Binary Search Find Right Bound | [C++](problems/0275.md) | O(log N) | O(1) |  |
@@ -483,7 +482,7 @@
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [binary-search](topics/binary-search.md) | 2 | 1 | 0 | 1 | 5 | 0 | 9 |
+| [binary-search](topics/binary-search.md) | 2 | 0 | 0 | 1 | 6 | 0 | 9 |
 | [binary-search-build-in](topics/binary-search-build-in.md) | 5 | 0 | 0 | 1 | 4 | 0 | 10 |
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 0 | 0 | 0 | 1 | 7 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 1 | 0 | 1 | 1 | 0 | 0 | 3 |
@@ -547,7 +546,7 @@
 | [math-combination](topics/math-combination.md) | 0 | 0 | 0 | 1 | 4 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 0 | 0 | 0 | 42 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 0 | 0 | 1 | 3 | 0 | 4 |
-| [math-formula](topics/math-formula.md) | 0 | 0 | 0 | 1 | 8 | 0 | 9 |
+| [math-formula](topics/math-formula.md) | 0 | 0 | 0 | 1 | 9 | 0 | 10 |
 | [math-game-theory](topics/math-game-theory.md) | 0 | 0 | 0 | 0 | 6 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 0 | 0 | 0 | 0 | 9 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 0 | 0 | 0 | 0 | 2 | 0 | 2 |

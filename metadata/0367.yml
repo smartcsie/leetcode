@@ -10,7 +10,10 @@ solutions:
   - binary-search
   time: O(logN)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  is_best: true
+  official_solution: synced
   attempts:
   - date: '2026-09-26'
     result: 對
@@ -18,3 +21,24 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-12'
+    result: 對
+    reason: null
+- file: Solution_0367_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math Formula
+  topics:
+  - math-formula
+  time: O(logN)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-12'
+  is_best: true
+  official_solution: synced
+  attempts:
+  - date: '2026-11-12'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Newton`s method

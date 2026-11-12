@@ -19,6 +19,7 @@
 | 204 | 👑 **Prime / Sieve**<br>[Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 M | Math Prime | [C++](problems/0204.md) | O(NloglogN) | O(N) |
 | 231 | 👑 **Brian Kernighan**<br>[Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 E | Math | [C++](problems/0231.md) | O(1) | O(1) |
 | 365 | 👑 **Bézout's Identity**<br>[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/) | 🟡 M | Math Gcd | [C++](problems/0365.md) | O(log(min(x,y))) | O(1) |
+| 367 | 👑 **Newton`s method**<br>[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 E | Math Formula | [C++](problems/0367.md) | O(logN) | O(1) |
 | 507 | 👑 **Mersenne Prime**<br>[Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 E | Math | [C++](problems/0507.md) | O(1) | O(1) |
 | 812 | 👑 **Shoelace formula**<br>[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | 🟢 E | Math Formula | [C++](problems/0812.md) | O(N³) | O(1) |
 | 866 | 👑 **Palindrome Construction**<br>[Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 M | Math Prime | [C++](problems/0866.md) | O(sqrt(10^9)) | O(1) |
