@@ -11,8 +11,7 @@ solutions:
   - backtracking-combination
   time: O(n*S)
   space: O(n)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   official_solution: synced
   attempts:
   - date: '2026-10-04'
@@ -25,6 +24,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-12'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null
 - *id001

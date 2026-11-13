@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：996 題　🟠 再練習：0 題　🟡 練習過：0 題　🟣 易忘：0 題　🟢 熟練：1 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：997 題　🟠 再練習：0 題　🟡 練習過：0 題　🟣 易忘：0 題　🟢 熟練：0 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 1093 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 1095 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（143）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（133）](#review-array)　[🌳 Tree（97）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（70）](#review-pointers)　[🔑 Hash Table（95）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（29）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（143）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（133）](#review-array)　[🌳 Tree（97）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（70）](#review-pointers)　[🔑 Hash Table（95）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -1164,7 +1164,7 @@
 | 🔴 生疏 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 M | Greedy Sorting Decision | [C++](problems/3727.md) | O(nlogn) | O(1) |  |
 
 <a id="review-backtracking"></a>
-#### 🔢 Backtracking（29）
+#### 🔢 Backtracking（31）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1180,6 +1180,8 @@
 | 🔴 生疏 | 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 M | Backtracking Combination | [C++](problems/0078.md) | O(n2ᴺ) | O(N) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 M | Backtracking Combination | [C++](problems/0078.md) | O(n2ᴺ) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 M | Backtracking Grid, DFS, Backtracking | [C++](problems/0079.md) | O(N\*3ᴸ) | O(L) |  |
+| 🔴 生疏 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 M | Backtracking Combination | [C++](problems/0090.md) | O(n\*S) | O(n) | ✅ 已同步官方解答 |
+| 🔴 生疏 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 M | Backtracking Combination | [C++](problems/0090.md) | O(n\*S) | O(n) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 M | Backtracking Combination | [C++](problems/0131.md) | O(N × 2^N) | O(N) |  |
 | 🔴 生疏 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | 🟡 M | Backtracking | [C++](problems/0216.md) | O(C(9,K)) | O(K) |  |
 | 🔴 生疏 | 526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | 🟡 M | Backtracking Permutation | [C++](problems/0526.md) | O(K) | O(N) |  |
@@ -1249,7 +1251,7 @@
 | [array-negative-marking](topics/array-negative-marking.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 0 | 19 |
 | [array-suffix-sum](topics/array-suffix-sum.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [backtracking-combination](topics/backtracking-combination.md) | 16 | 0 | 0 | 0 | 1 | 0 | 17 |
+| [backtracking-combination](topics/backtracking-combination.md) | 17 | 0 | 0 | 0 | 0 | 0 | 17 |
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
 | [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
