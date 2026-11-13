@@ -2,8 +2,7 @@ number: 90
 title: Subsets II
 url: https://leetcode.com/problems/subsets-ii/
 solutions:
-- &id001
-  file: Solution_0090.cpp
+- file: Solution_0090.cpp
   difficulty: 🟡 Medium
   tags:
   - Backtracking Combination
@@ -29,4 +28,6 @@ solutions:
   - date: '2026-11-13'
     result: 對
     reason: null
-- *id001
+  - date: '2026-11-13'
+    result: 對
+    reason: null
