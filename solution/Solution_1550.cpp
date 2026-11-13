@@ -14,8 +14,7 @@ public:
     bool threeConsecutiveOdds(const std::vector<int>& arr) {
         int count = 0;
         for(const int& x : arr) {
-            if(x & 1) count++;
-            else count = 0;
+            count = (x & 1) ? count + 1 : 0;
             if(count == 3) return true;
         }
         return false;
