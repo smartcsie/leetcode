@@ -11,12 +11,15 @@ solutions:
   time: O(N)
   space: O(N)
   familiarity: 再練習
-  note: '> 找 num/2 是否在hash set中 <br>
+  note: '> **找 num/2 是否在hash set中** <br>
 
-    > 用(seen.count(num / 2) && (num & 1) == 0)  <br>'
+    > **用(seen.count(num / 2) && (num & 1) == 0)**  <br>'
   is_best: true
   official_solution: synced
   attempts:
+  - date: '2026-11-13'
+    result: 對
+    reason: null
   - date: '2026-11-13'
     result: 對
     reason: null
