@@ -10,8 +10,13 @@ solutions:
   - hash-table-existence
   time: O(N+K)
   space: O(K)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
+  official_solution: better
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null
