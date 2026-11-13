@@ -14,7 +14,6 @@
 class Solution {
 public:
     vector<int> sumZero(int n) {
-        if(n == 1) return {0};
         vector<int> ans(n - 1);
         iota(ans.begin(), ans.end(), 1);
         ans.push_back(-(n * (n - 1) / 2));
