@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（40）
+## 🔴 生疏（37）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,9 +11,6 @@
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 E | Math | [C++](../problems/0258.md) | O(logn) | O(1) |  |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 E | Math | [C++](../problems/0263.md) | O(logN) | O(1) |  |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 E | Math | [C++](../problems/0268.md) | O(N) | O(1) |  |
-| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) |  |
-| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) |  |
-| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) |  |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math | [C++](../problems/0343.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math | [C++](../problems/0343.md) | O(logn) | O(1) | ✅ 已同步官方解答 |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 M | Math, Array | [C++](../problems/0396.md) | O(N) | O(1) |  |
@@ -49,15 +46,18 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟣 易忘（1）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Math | [C++](../problems/0137.md) | O(N) | O(N) |  |
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 E | Math | [C++](../problems/0231.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 E | Math | [C++](../problems/0326.md) | O(log₃N) | O(1) | ✅ 已同步官方解答 |
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
