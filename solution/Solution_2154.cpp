@@ -18,9 +18,12 @@
 class Solution {
 public:
     int findFinalValue(vector<int>& nums, int original) {
-        vector<bool> seen(1001, false);
-        for(const int& x :nums ) seen[x] = true;
-        while(original <= 1000 && seen[original]) original *= 2;
+        array<bool, 1001> seen;
+        seen.fill(false);
+        for(const int& x : nums) seen[x] = true;
+        while(original <= 1000 && seen[original]) {
+            original *= 2;
+        }
         return original;
     }
 };

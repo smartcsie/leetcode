@@ -10,8 +10,10 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
   note: '> **這一題，input size只有1000，用vector 紀錄比unordered_set高效率**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-27'
     result: 對
@@ -20,5 +22,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-05'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null

@@ -1,6 +1,6 @@
 # hash-table-existence
 
-## 🔴 生疏（18）
+## 🔴 生疏（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 E | Hash Table Existence | [C++](../problems/0888.md) | O(A+B) | O(B) |  |
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 E | Hash Table Existence | [C++](../problems/1640.md) | O(N) | O(N) |  |
 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 M | Hash Table Existence, Hash Table, Counting | [C++](../problems/2150.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 E | Hash Table Existence | [C++](../problems/2154.md) | O(N) | O(N) |  |
 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 M | Hash Table Existence, Hash Table | [C++](../problems/2342.md) | O(N\*logM) | O(N) |  |
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 E | Hash Table Existence, Hash Table | [C++](../problems/2395.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 E | Hash Table Existence, Hash Table | [C++](../problems/2441.md) | O(N) | O(N) |  |
@@ -33,8 +32,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 E | Hash Table Existence | [C++](../problems/0001.md) | O(N) | O(N) | ✅ 已同步官方解答 |
+| 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 E | Hash Table Existence | [C++](../problems/2154.md) | O(N) | O(N) | ✅ 已同步官方解答 |
