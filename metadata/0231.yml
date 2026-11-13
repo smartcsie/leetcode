@@ -38,5 +38,22 @@ solutions:
   - date: '2026-11-13'
     result: 對
     reason: null
+  - date: '2026-11-13'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Brian Kernighan
+- file: Solution_0231_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(1)
+  space: O(1)
+  familiarity: 易忘
+  official_solution: synced
+  attempts:
+  - date: '2026-11-13'
+    result: 對
+    reason: null
