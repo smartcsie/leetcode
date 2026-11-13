@@ -11,13 +11,18 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
   is_best: true
+  official_solution: null
   related:
   - 107
   - 199
   attempts:
   - date: '2026-09-14'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null
   is_representative: true
