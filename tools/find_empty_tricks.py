@@ -11,7 +11,7 @@ import yaml
 BASE = "/home/laurence/leetcode-docs/repo/metadata"
 
 # 要檢查的熟悉度，可自行調整
-TARGET_FAMILIARITY = {"熟練", "練習過", "易忘"}
+TARGET_FAMILIARITY = {"熟練", "易忘"}
 
 def main():
     found = {f: [] for f in TARGET_FAMILIARITY}
@@ -37,7 +37,7 @@ def main():
 
     total = sum(len(v) for v in found.values())
     print(f"\n tricks 為空：{total} 個\n")
-    for fam in ["熟練", "練習過", "易忘"]:
+    for fam in ["熟練", "易忘"]:
         problems = found[fam]
         if not problems:
             continue

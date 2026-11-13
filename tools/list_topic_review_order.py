@@ -3,7 +3,7 @@
 list_topic_review_order.py
 
 給定一個 topic slug，列出這個分類底下所有題目，依照複習優先順序排好：
-    生疏 > 易忘 > 再練習 > 練習過 > 熟練 > (未標記)
+    生疏 > 易忘 > 再練習 > 熟練 > (未標記)
 同一個熟悉度等級內，按題號排序。
 
 用法：
@@ -28,8 +28,7 @@ PRIORITY = {
     '生疏': 0,
     '易忘': 1,
     '再練習': 2,
-    '練習過': 3,
-    '熟練': 4,
+    '熟練': 3,
 }
 
 
@@ -75,7 +74,7 @@ def main():
                 continue  # 同一題有多個解法變體，只列一次
             seen_numbers.add(number)
             familiarity = sol.get('familiarity') or '未標記'
-            priority = PRIORITY.get(familiarity, 5)
+            priority = PRIORITY.get(familiarity, 4)
             rows.append((priority, number, title, familiarity))
             break  # 找到這個 topic 的其中一個解法就夠了，不用再檢查其他變體
 
