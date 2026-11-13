@@ -18,18 +18,17 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | 🟢 E | Hash Table Existence | [C++](../problems/0594.md) | O(N) | O(N) |  |
 
-## 🟣 易忘（1）
+## 🟣 易忘（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Hash Table Existence | [C++](../problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
+目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（16）
+## 🟢 熟悉（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 E | Hash Table Existence | [C++](../problems/0001.md) | O(N) | O(N) |  |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 E | Hash Table Existence | [C++](../problems/0160.md) | O(M + N) | O(M) |  |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Hash Table Existence | [C++](../problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 E | Hash Table Existence | [C++](../problems/0219.md) | O(N) | O(min(N,K)) |  |
 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 M | Hash Table Existence | [C++](../problems/0532.md) | O(NlogN) | O(N) |  |
 | 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 E | Hash Table Existence | [C++](../problems/0888.md) | O(A+B) | O(B) |  |

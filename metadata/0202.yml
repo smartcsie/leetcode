@@ -10,7 +10,9 @@ solutions:
   - hash-table-existence
   time: O(logN)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
+  is_best: true
   official_solution: synced
   tricks:
   - Floyd's Cycle Finding Algorithm
@@ -19,6 +21,9 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-11-10'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null
   is_representative: true
@@ -31,9 +36,13 @@ solutions:
   - math
   time: O(logN)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
   official_solution: synced
   attempts:
   - date: '2026-11-10'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null
