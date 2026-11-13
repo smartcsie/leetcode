@@ -12,12 +12,11 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（8）
+## 🟣 易忘（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Math | [C++](../problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
-| 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math, Greedy | [C++](../problems/0343.md) | O(1) | O(1) |  |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 M | Math, Array | [C++](../problems/0396.md) | O(N) | O(1) |  |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 M | Math, Hash Table | [C++](../problems/0970.md) | O(MN) | O(S) |  |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 E | Math | [C++](../problems/1185.md) | O(1) | O(1) | ❌ 官方沒有解答 |
@@ -25,7 +24,7 @@
 | 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 M | Math, Simulation, Greedy | [C++](../problems/1375.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 M | Math, Enumeration | [C++](../problems/2310.md) | O(10) | O(1) | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（35）
+## 🟢 熟悉（37）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -41,6 +40,8 @@
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) |  |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) |  |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) |  |
+| 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math | [C++](../problems/0343.md) | O(1) | O(1) | 🌟 優於官方解答 |
+| 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math | [C++](../problems/0343.md) | O(logn) | O(1) | ✅ 已同步官方解答 |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 E | Math, String | [C++](../problems/0412.md) | O(N) | O(1) |  |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 E | Math, String | [C++](../problems/0415.md) | O(max(N,M)) | O(max(N,M)) |  |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 E | Math | [C++](../problems/0507.md) | O(√N) | O(1) |  |

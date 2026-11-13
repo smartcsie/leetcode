@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：192 題　🟠 再練習：15 題　🟡 練習過：36 題　🟣 易忘：72 題　🟢 熟練：682 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：192 題　🟠 再練習：15 題　🟡 練習過：36 題　🟣 易忘：71 題　🟢 熟練：683 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 328 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 327 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（15）](#review-math)　[📊 Bit Manipulation（8）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（17）](#review-tree)　[🔍 Binary Search（17）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（17）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（24）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
+📌 **快速跳轉：** [🎨 Design（5）](#review-design)　[🔢 Math（14）](#review-math)　[📊 Bit Manipulation（8）](#review-bit-manipulation)　[🔗 String（18）](#review-string)　[🍱 Array（22）](#review-array)　[🌳 Tree（17）](#review-tree)　[🔍 Binary Search（17）](#review-binary-search)　[⛓️ Linked List（10）](#review-linked-list)　[👥 Pointers（17）](#review-pointers)　[🔑 Hash Table（8）](#review-hash-table)　[📚 Stack（11）](#review-stack)　[📚 Priority Queue（3）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（3）](#review-quick-select)　[🕸️ Graph（6）](#review-graph)　[📊 Sorting（17）](#review-sorting)　[🧩 Dynamic Programming（77）](#review-dynamic-programming)　[🧩 Greedy（27）](#review-greedy)　[🔢 Backtracking（24）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)
 
 <a id="review-design"></a>
 #### 🎨 Design（5）
@@ -25,14 +25,13 @@
 | 🟣 易忘 | 208 | [Implement Trie](https://leetcode.com/problems/implement-trie/) | 🟡 M | Design | [C++](problems/0208.md) | O(L) | O(N \* L) |  |
 
 <a id="review-math"></a>
-#### 🔢 Math（15）
+#### 🔢 Math（14）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟡 練習過 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 M | Math Permutation | [C++](problems/0060.md) | O(N × N!) | O(N) |  |
 | 🟣 易忘 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 🟡 M | Math Permutation, Factorial | [C++](problems/0060.md) | O(N²) | O(N) |  |
 | 🟣 易忘 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Math | [C++](problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
-| 🟣 易忘 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math, Greedy | [C++](problems/0343.md) | O(1) | O(1) |  |
 | 🟣 易忘 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 M | Math, Array | [C++](problems/0396.md) | O(N) | O(1) |  |
 | 🟣 易忘 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 M | Math, Hash Table | [C++](problems/0970.md) | O(MN) | O(S) |  |
 | 🟣 易忘 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 E | Math | [C++](problems/1185.md) | O(1) | O(1) | ❌ 官方沒有解答 |
@@ -542,7 +541,7 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 1 | 0 | 0 | 0 | 19 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 0 | 2 | 3 | 4 | 8 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
-| [math](topics/math.md) | 0 | 0 | 0 | 7 | 32 | 0 | 39 |
+| [math](topics/math.md) | 0 | 0 | 0 | 6 | 33 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 0 | 0 | 0 | 1 | 4 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 0 | 0 | 0 | 0 | 42 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 0 | 0 | 0 | 1 | 3 | 0 | 4 |
