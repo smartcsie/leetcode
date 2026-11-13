@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：997 題　🟠 再練習：0 題　🟡 練習過：0 題　🟣 易忘：0 題　🟢 熟練：0 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：996 題　🟠 再練習：0 題　🟡 練習過：0 題　🟣 易忘：0 題　🟢 熟練：1 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 1095 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 1094 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（143）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（133）](#review-array)　[🌳 Tree（97）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（70）](#review-pointers)　[🔑 Hash Table（95）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（142）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（133）](#review-array)　[🌳 Tree（97）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（70）](#review-pointers)　[🔑 Hash Table（95）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -30,7 +30,7 @@
 | 🔴 生疏 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 E | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) |  |
 
 <a id="review-math"></a>
-#### 🔢 Math（143）
+#### 🔢 Math（142）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -68,7 +68,6 @@
 | 🔴 生疏 | 367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | 🟢 E | Math Formula | [C++](problems/0367.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 M | Math, Array | [C++](problems/0396.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 E | Math Digit Decomposition | [C++](problems/0405.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 E | Math, String | [C++](problems/0412.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 E | Math, String | [C++](problems/0415.md) | O(max(N,M)) | O(max(N,M)) |  |
 | 🔴 生疏 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 E | Math Formula | [C++](problems/0441.md) | O(logN) | O(1) | ⏳ 尚未同步 |
 | 🔴 生疏 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 E | Math Digit Decomposition, String | [C++](problems/0504.md) | O(log₇N) | O(1) | ❌ 官方沒有解答 |
@@ -1315,7 +1314,7 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 20 | 0 | 0 | 0 | 0 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 39 | 0 | 0 | 0 | 0 | 0 | 39 |
+| [math](topics/math.md) | 38 | 0 | 0 | 0 | 0 | 0 | 38 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 42 | 0 | 0 | 0 | 0 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -1341,7 +1340,7 @@
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 16 | 0 | 0 | 0 | 0 | 0 | 16 |
-| [string](topics/string.md) | 35 | 0 | 0 | 0 | 0 | 0 | 35 |
+| [string](topics/string.md) | 35 | 0 | 0 | 0 | 1 | 0 | 36 |
 | [string-character-classification](topics/string-character-classification.md) | 31 | 0 | 0 | 0 | 0 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |

@@ -5,16 +5,20 @@ solutions:
 - file: Solution_0412.cpp
   difficulty: 🟢 Easy
   tags:
-  - Math
   - String
   topics:
-  - math
+  - string
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
+  official_solution: null
   tricks:
   - for loop
   attempts:
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null

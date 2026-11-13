@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（44）
+## 🔴 生疏（43）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,7 +20,6 @@
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math | [C++](../problems/0343.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math | [C++](../problems/0343.md) | O(logn) | O(1) | ✅ 已同步官方解答 |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 M | Math, Array | [C++](../problems/0396.md) | O(N) | O(1) |  |
-| 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 E | Math, String | [C++](../problems/0412.md) | O(N) | O(1) |  |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 E | Math, String | [C++](../problems/0415.md) | O(max(N,M)) | O(max(N,M)) |  |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 E | Math | [C++](../problems/0507.md) | O(√N) | O(1) |  |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 E | Math | [C++](../problems/0507.md) | O(1) | O(1) |  |
