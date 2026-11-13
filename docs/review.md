@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：977 題　🟠 再練習：1 題　🟣 易忘：0 題　🟢 熟練：19 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：976 題　🟠 再練習：1 題　🟣 易忘：1 題　🟢 熟練：19 題　⚪ 未標記：0 題
 
 ---
 
@@ -45,7 +45,6 @@
 | 🔴 生疏 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 E | Math | [C++](problems/0067.md) | O(max(M,N)) | O(1) |  |
 | 🔴 生疏 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 M | Math Formula | [C++](problems/0089.md) | O(2ᴺ) | O(1) |  |
 | 🔴 生疏 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 E | Math Combination | [C++](problems/0119.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Math, Hash Set | [C++](problems/0137.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 E | Math Digit Decomposition, Base Conversion | [C++](problems/0168.md) | O(log26N) | O(1) |  |
 | 🔴 生疏 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 E | Math Digit Decomposition, Base Conversion | [C++](problems/0171.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 M | Math Formula | [C++](problems/0172.md) | O(log₅N) | O(1) |  |
@@ -176,6 +175,7 @@
 | 🔴 生疏 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 E | Math Digit Decomposition | [C++](problems/3950.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 E | Math Digit Decomposition, Digit Manipulation | [C++](problems/3959.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 E | Math Digit Decomposition, Array | [C++](problems/3982.md) | O(N\*D) | O(N) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Math | [C++](problems/0137.md) | O(N) | O(N) |  |
 
 <a id="review-bit-manipulation"></a>
 #### 📊 Bit Manipulation（84）
@@ -187,7 +187,6 @@
 | 🔴 生疏 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 M | Bit Manipulation | [C++](problems/0036.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 M | Bit Bitmask Subset Enumeration | [C++](problems/0078.md) | O(n2ᴺ) | O(n) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 E | Bit Manipulation Xor, Bit-Manipulation | [C++](problems/0136.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Bit Manipulation | [C++](problems/0137.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 E | Bit Manipulation, Bit-Manipulation | [C++](problems/0190.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 E | Bit Manipulation And, Bit-Manipulation | [C++](problems/0191.md) | O(K) | O(1) |  |
 | 🔴 生疏 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 E | Bit Manipulation And | [C++](problems/0191.md) | O(1) | O(1) |  |
@@ -266,6 +265,7 @@
 | 🔴 生疏 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 M | Bit Manipulation Xor, Greedy | [C++](problems/3702.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3750 | [Minimum Number of Flips to Reverse Binary String](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) | 🟢 E | Hamming Distance | [C++](problems/3750.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Bit Manipulation | [C++](problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Bit Manipulation | [C++](problems/0137.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-string"></a>
 #### 🔗 String（75）
@@ -1240,7 +1240,7 @@
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [binary-search-tree](topics/binary-search-tree.md) | 16 | 0 | 0 | 0 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [bit-manipulation](topics/bit-manipulation.md) | 36 | 0 | 0 | 0 | 0 | 36 |
+| [bit-manipulation](topics/bit-manipulation.md) | 35 | 0 | 1 | 0 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 9 | 0 | 0 | 0 | 0 | 9 |
@@ -1293,7 +1293,7 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 19 | 0 | 0 | 1 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 38 | 0 | 0 | 0 | 0 | 38 |
+| [math](topics/math.md) | 37 | 0 | 1 | 0 | 0 | 38 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 42 | 0 | 0 | 0 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |

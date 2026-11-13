@@ -10,7 +10,7 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **int one = 0, two = 0;** <br>
 
     > **for(const int& num : nums) {** <br>
@@ -25,11 +25,15 @@ solutions:
 
     > 此題有三種解法，位元有限狀態機是最佳解<br>'
   is_best: true
+  official_solution: synced
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-11-09'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null
   is_representative: true
@@ -38,21 +42,24 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Math
-  - Hash Set
   topics:
   - math
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **先travsal nums，num加到sum_all，num順便insert unique_set(unordered_set<int>)**<br>
 
     > **(3 * sum_unique - sum_all) / 2**<br>
 
     > **此題有三種解法，位元有限狀態機是最佳解**<br>'
+  official_solution: null
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-11-09'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null

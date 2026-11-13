@@ -1,13 +1,12 @@
 # math
 
-## 🔴 生疏（43）
+## 🔴 生疏（42）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 M | Math | [C++](../problems/0050.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 E | Math | [C++](../problems/0066.md) | O(N) | O(1) |  |
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 E | Math | [C++](../problems/0067.md) | O(max(M,N)) | O(1) |  |
-| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Math, Hash Set | [C++](../problems/0137.md) | O(N) | O(N) |  |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Math | [C++](../problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 E | Math | [C++](../problems/0231.md) | O(1) | O(1) |  |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 E | Math | [C++](../problems/0258.md) | O(logn) | O(1) |  |
@@ -52,9 +51,11 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Math | [C++](../problems/0137.md) | O(N) | O(N) |  |
 
 ## 🟢 熟悉（0）
 
