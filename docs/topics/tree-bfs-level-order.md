@@ -1,6 +1,6 @@
 # tree-bfs-level-order
 
-## 🔴 生疏（16）
+## 🔴 生疏（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | 🟡 M | Tree, BFS | [C++](../problems/0515.md) | O(N) | O(W) |  |
 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 E | Tree Bfs Level Order, BFS | [C++](../problems/0637.md) | O(N) | O(W) |  |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](../problems/0662.md) | O(N) | O(W) |  |
-| 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 M | Tree Bfs Level Order | [C++](../problems/0958.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 E | Tree Bfs Level Order | [C++](../problems/0993.md) | O(N) | O(W) |  |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 M | Tree Bfs Level Order, BFS | [C++](../problems/1161.md) | O(N) | O(W) |  |
 | 1302 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | 🟡 M | Tree, BFS | [C++](../problems/1302.md) | O(N) | O(W) |  |
@@ -29,8 +28,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](../problems/0102.md) | O(N) | O(W) |  |
+| 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 M | Tree Bfs Level Order | [C++](../problems/0958.md) | O(N) | O(N) | ✅ 已同步官方解答 |

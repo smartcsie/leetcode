@@ -1,6 +1,6 @@
 # tree-dfs-path
 
-## 🔴 生疏（30）
+## 🔴 生疏（29）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24,7 +24,6 @@
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 E | Tree Dfs Path, DFS | [C++](../problems/0872.md) | O(N+M) | O(N+M) |  |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 E | Tree Dfs Path, DFS, In-order | [C++](../problems/0897.md) | O(N) | O(H) |  |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 E | Tree Dfs Path | [C++](../problems/0938.md) | O(N) | O(H) |  |
-| 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 M | Tree Dfs Path | [C++](../problems/0958.md) | O(N) | O(”) | ✅ 已同步官方解答 |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 E | Tree Dfs Path, DFS | [C++](../problems/0965.md) | O(N) | O(H) |  |
 | 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | 🟢 E | Tree Dfs Path | [C++](../problems/1022.md) | O(N) | O(H) |  |
 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | 🟡 M | Tree Dfs Path, DFS, Recursion | [C++](../problems/1026.md) | O(N) | O(H) |  |
@@ -43,9 +42,10 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0101.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 E | Tree Dfs Path | [C++](../problems/0104.md) | O(N) | O(logN) | ✅ 已同步官方解答 |
+| 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 M | Tree Dfs Path | [C++](../problems/0958.md) | O(N) | O(”) | ✅ 已同步官方解答 |

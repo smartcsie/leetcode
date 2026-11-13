@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：984 題　🟠 再練習：0 題　🟣 易忘：0 題　🟢 熟練：13 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：983 題　🟠 再練習：0 題　🟣 易忘：0 題　🟢 熟練：14 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 1081 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 1079 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（142）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（124）](#review-array)　[🌳 Tree（93）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（70）](#review-pointers)　[🔑 Hash Table（95）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（142）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（124）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（70）](#review-pointers)　[🔑 Hash Table（95）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -479,7 +479,7 @@
 | 🔴 生疏 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 E | Array, Brute Force | [C++](problems/3969.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-tree"></a>
-#### 🌳 Tree（93）
+#### 🌳 Tree（91）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -554,8 +554,6 @@
 | 🔴 生疏 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 E | Binary Search Tree | [C++](problems/0938.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 E | Tree Dfs Path | [C++](problems/0938.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 951 | [Flip Equivalent Binary Trees](https://leetcode.com/problems/flip-equivalent-binary-trees/) | 🟡 M | Tree | [C++](problems/0951.md) | O(min(N1, N2)) | O(min(N1, N2)) |  |
-| 🔴 生疏 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 M | Tree Bfs Level Order | [C++](problems/0958.md) | O(N) | O(N) | ✅ 已同步官方解答 |
-| 🔴 生疏 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 M | Tree Dfs Path | [C++](problems/0958.md) | O(N) | O(”) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 E | Tree Dfs Path, DFS | [C++](problems/0965.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | 🟡 M | Tree Dfs Backtracking, DFS | [C++](problems/0988.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 E | Tree Bfs Level Order | [C++](problems/0993.md) | O(N) | O(W) |  |
@@ -1335,11 +1333,11 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 3 | 0 | 0 | 1 | 0 | 4 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 15 | 0 | 0 | 1 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 14 | 0 | 0 | 2 | 0 | 16 |
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 28 | 0 | 0 | 2 | 0 | 30 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 27 | 0 | 0 | 3 | 0 | 30 |
 | [tree-traversal](topics/tree-traversal.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [trie](topics/trie.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |
