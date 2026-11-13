@@ -13,9 +13,7 @@ solutions:
   familiarity: 生疏
   note: '> **如果p q 都為空，回傳true**<br>
 
-    > **p q 不為空且值相等且 isSameTree(p左子樹和q左子樹) 且 isSameTree(p右子樹和q右子樹)**<br>
-
-    > ****<br>'
+    > **p q 不為空且值相等且 isSameTree(p左子樹和q左子樹) 且 isSameTree(p右子樹和q右子樹)**<br>'
   is_best: true
   official_solution: synced
   related:
@@ -32,5 +30,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-10'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null
