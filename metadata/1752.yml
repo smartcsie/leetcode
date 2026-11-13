@@ -10,12 +10,14 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
   note: '> **頭尾要檢查到**<br>
 
-    > **if(nums[i] > nums[(i+1) % n]) count++;**<br>
+    > **if(nums[i] > nums[(i+1) % n]) decrease++;**<br>
 
     > **if(count > 1) return false;**<br>'
+  official_solution: null
   related:
   - 2855
   attempts:
@@ -26,6 +28,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-06'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null
   is_representative: true
