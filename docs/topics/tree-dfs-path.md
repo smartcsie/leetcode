@@ -1,10 +1,9 @@
 # tree-dfs-path
 
-## 🔴 生疏（32）
+## 🔴 生疏（31）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 E | Tree Dfs Path, DFS | [C++](../problems/0101.md) | O(N) | O(H) |  |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 E | Tree Dfs Path, DFS | [C++](../problems/0104.md) | O(N) | O(H) |  |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 E | Tree Dfs Path | [C++](../problems/0110.md) | O(N) | O(H) |  |
 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 E | Tree Dfs Path, BFS, DFS | [C++](../problems/0111.md) | O(N) | O(H) |  |
@@ -45,6 +44,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0101.md) | O(N) | O(H) | ✅ 已同步官方解答 |
