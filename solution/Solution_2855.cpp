@@ -16,19 +16,22 @@
  *    - 2 個以上降序點：無法透過右移排序，回傳 -1。
  * 3. 用 % n 處理環狀比較（最後一個元素與第一個元素的大小關係）。
  */
+
 class Solution {
 public:
     int minimumRightShifts(vector<int>& nums) {
-        int count = 0;
+        int decrease = 0;
         int n = nums.size();
-        int ans = 0;
-        for (int i = 0; i < n; i++) {
-            if (nums[i] > nums[(i + 1) % n]) {
-                ans = n - (i + 1);  // 降序點在 i，右移 n-(i+1) 次
-                count++;
+        if(n == 1) return 0;
+        int mnIdx = -1;
+        int mn = INT_MAX;
+        for(int i = 1; i <= n; i++) {
+            if(nums[i - 1] > nums[i % n]) {
+                decrease++;
+                mnIdx = i % n;
             }
-            if (count == 2) return -1;  // 超過一個降序點，不可能排序
+            if(decrease > 1) return -1;
         }
-        return ans;
+        return (n - mnIdx) % n;
     }
 };

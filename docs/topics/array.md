@@ -1,6 +1,6 @@
 # array
 
-## 🔴 生疏（25）
+## 🔴 生疏（24）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21,7 +21,6 @@
 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 E | Array, Brute Force | [C++](../problems/1995.md) | O(N⁴) | O(1) | ❌ 官方沒有解答 |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 E | Array, Sorting | [C++](../problems/2148.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 E | Array, Two Pointers, Sorting | [C++](../problems/2824.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
-| 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 E | Array | [C++](../problems/2855.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 E | Array, Simulation | [C++](../problems/3069.md) | O(N) | O(N) |  |
 | 3162 | [Find the Number of Good Pairs I](https://leetcode.com/problems/find-the-number-of-good-pairs-i/) | 🟢 E | Array, Brute Force | [C++](../problems/3162.md) | O(N\*M) | O(1) | ❌ 官方沒有解答 |
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 E | Array | [C++](../problems/3289.md) | O(N^2) | O(1) |  |
@@ -38,9 +37,10 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | 🟢 E | Array | [C++](../problems/0717.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 E | Array | [C++](../problems/1752.md) | O(N) | O(1) |  |
+| 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 E | Array | [C++](../problems/2855.md) | O(N) | O(1) | ❌ 官方沒有解答 |
