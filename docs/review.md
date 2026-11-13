@@ -9,9 +9,9 @@
 
 ## 📝 複習清單（依分類）
 
-目前共有 1087 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 1086 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（142）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（126）](#review-array)　[🌳 Tree（97）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（70）](#review-pointers)　[🔑 Hash Table（95）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（142）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（125）](#review-array)　[🌳 Tree（97）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（70）](#review-pointers)　[🔑 Hash Table（95）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -349,7 +349,7 @@
 | 🔴 生疏 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 E | String, Simulation, Math | [C++](problems/3986.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-array"></a>
-#### 🍱 Array（126）
+#### 🍱 Array（125）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -376,7 +376,6 @@
 | 🔴 生疏 | 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | 🟢 E | 2d Array | [C++](problems/0566.md) | O(m | O(r |  |
 | 🔴 生疏 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 E | Array Min Max | [C++](problems/0628.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 E | Array Negative Marking | [C++](problems/0645.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 E | Array Linear Scan, Greedy | [C++](problems/0674.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 E | Array Continuous Counting | [C++](problems/0696.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 E | Array Continuous Counting, Hash Map, One-pass | [C++](problems/0697.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](problems/0724.md) | O(N) | O(1) |  |

@@ -98,7 +98,7 @@
 | 485 | 👑 **Linear Scan with Streak Reset**<br>[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 E | Array Continuous Counting | [C++](problems/0485.md) | O(N) | O(1) |
 | 560 | 👑 **Prefix State & Difference**<br>[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) | 🟡 M | Array Prefix Sum, Hash Table, Prefix Sum | [C++](problems/0560.md) | O(N) | O(N) |
 | 628 | 👑 **Array Min Max With Repeat**<br>[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 E | Array Min Max | [C++](problems/0628.md) | O(N) | O(1) |
-| 674 | 👑 **Longest Continuous Increasing Subsequence**<br>[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 E | Array Linear Scan, Greedy | [C++](problems/0674.md) | O(N) | O(1) |
+| 674 | 👑 **Longest Continuous Increasing Subsequence**<br>[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 E | Array Linear Scan | [C++](problems/0674.md) | O(N) | O(1) |
 | 867 | 👑 **Matrix Transpose**<br>[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 E | 2d Array, Matrix | [C++](problems/0867.md) | O(M\*N) | O(M\*N) |
 | 1389 | 👑 **vector insert element**<br>[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 E | Array | [C++](problems/1389.md) | O(N²) | O(N) |
 | 1513 | 👑 **Consecutive Count Contribution**<br>[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 M | Array Continuous Counting | [C++](problems/1513.md) | O(N) | O(1) |
