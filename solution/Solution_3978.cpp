@@ -24,7 +24,8 @@
 class Solution {
 public:
     bool isMiddleElementUnique(vector<int>& nums) {
-        int n = nums.size();
-        return count(nums.begin(), nums.end(), nums[n / 2]) == 1;
+        int midIdx = (nums.size() - 1) / 2;
+        int mid = nums[midIdx];
+        return count(nums.begin(), nums.end(), mid) == 1;
     }
 };

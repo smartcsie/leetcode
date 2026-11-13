@@ -10,8 +10,10 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
   is_best: true
+  official_solution: no-solution
   attempts:
   - date: '2026-09-21'
     result: 對
@@ -22,4 +24,6 @@ solutions:
   - date: '2026-10-06'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-13'
+    result: 對
+    reason: null
