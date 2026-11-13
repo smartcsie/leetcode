@@ -12,5 +12,5 @@ solutions:
   - dp-lis
   time: O(N²)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 生疏
   tricks: null

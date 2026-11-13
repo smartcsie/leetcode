@@ -11,8 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-17'
+  familiarity: 生疏
   note: '> **[overflow handle]累加數字超過 INT_MAX**<br>
 
     > **(1)處理多餘空白，while(i < n && s[i] == '' '') i++;**<br>

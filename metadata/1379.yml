@@ -10,8 +10,7 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-10-18'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

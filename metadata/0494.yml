@@ -11,7 +11,7 @@ solutions:
   - dp-knapsack
   time: O(N*S)
   space: O(S)
-  familiarity: 練習過
+  familiarity: 生疏
   note: '> **通常0-1 Knapsack問題都是求最大值或是最小值**<br>
 
     > **這一題例外是計數**<br>'

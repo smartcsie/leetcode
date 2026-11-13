@@ -10,8 +10,7 @@ solutions:
   - greedy-fractional-knapsack
   time: O(N log N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-25'
+  familiarity: 生疏
   note: '> **先排序資料，s和g都是**<br>
 
     > **s[i] <= g[j] 表示目前第j個cookie可以給第i個child**<br>

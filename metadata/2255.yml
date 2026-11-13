@@ -10,8 +10,7 @@ solutions:
   - string-character-classification
   time: O(N*M)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-21'
+  familiarity: 生疏
   note: '> **for(const string& word : words) {**
 
     > &emsp;&emsp;&emsp;&emsp**if(s.find(word) == 0) count++;**

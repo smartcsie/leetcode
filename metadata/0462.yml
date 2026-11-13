@@ -10,8 +10,7 @@ solutions:
   - greedy-sorting-decision
   time: O(N log N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-04'
+  familiarity: 生疏
   note: '> **所有數與中位數差之和**<br>'
   attempts:
   - date: '2026-11-04'

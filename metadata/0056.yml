@@ -10,8 +10,7 @@ solutions:
   - array-interval
   time: O(NlogN)
   space: O(logN)
-  familiarity: 熟練
-  mastered_date: '2026-10-15'
+  familiarity: 生疏
   note: '> **要sort interval的頭**<br>'
   attempts:
   - date: '2026-10-15'

@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-11'
+  familiarity: 生疏
   note: '> **令 m = bit_width(n)（n 的二進位位數）。n < 2^m，所以所有元素都小於 2^m，任何 XOR 結果也都小於 2^m，也就是結果最多落在
     [0, 2^m - 1]，共 2^m 種**<br>'
   official_solution: null

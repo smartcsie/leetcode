@@ -11,7 +11,7 @@ solutions:
   - design
   time: O(1)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

@@ -10,8 +10,7 @@ solutions:
   - dp-greedy-pointer
   time: O(N*K)
   space: O(N+K)
-  familiarity: 熟練
-  mastered_date: '2026-11-03'
+  familiarity: 生疏
   note: '> [264 Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)的擴展題<br>
 
     <br><br>'

@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation
   time: O(N*S/W)
   space: O(S/W)
-  familiarity: 熟練
-  mastered_date: '2026-11-11'
+  familiarity: 生疏
   note: '> **bits |= bits << num;是一個bit技巧，bit把num加進去，只要bit.test(k)或bit[k]表示此數可以被子數列相加**<br>
 
     > **舉例nums = [5, 8, 6, 7]，18 = 5 + 6 + 7，bit[18]會是1**<br>
@@ -40,7 +39,7 @@ solutions:
   - dp-knapsack
   time: O(N*S)
   space: O(NS)
-  familiarity: 練習過
+  familiarity: 生疏
   official_solution: synced
   related:
   - 1049

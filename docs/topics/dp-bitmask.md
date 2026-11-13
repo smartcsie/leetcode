@@ -1,9 +1,10 @@
 # dp-bitmask
 
-## 🔴 生疏（6）
+## 🔴 生疏（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 E | Dp Bitmask | [C++](../problems/0338.md) | O(N) | O(N) |  |
 | 698 | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | 🟡 M | Dp Bitmask | [C++](../problems/0698.md) | O(2^N \* N) | O(2^N) |  |
 | 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | 🔴 H | Dp Bitmask | [C++](../problems/0847.md) | O(N² \* 2^N) | O(N \* 2^N) |  |
 | 943 | [Find the Shortest Superstring](https://leetcode.com/problems/find-the-shortest-superstring/) | 🔴 H | Dp Bitmask | [C++](../problems/0943.md) | O(N² \* 2^N) | O(N \* 2^N) |  |
@@ -23,11 +24,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 338 | [Counting Bits](https://leetcode.com/problems/counting-bits) | 🟢 E | Dp Bitmask | [C++](../problems/0338.md) | O(N) | O(N) |  |
+目前沒有標記為熟悉的解法。
 
 ---
 

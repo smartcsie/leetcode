@@ -11,8 +11,7 @@ solutions:
   - binary-search
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-18'
+  familiarity: 生疏
   related:
   - 81
   attempts:

@@ -12,8 +12,7 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-03'
+  familiarity: 生疏
   tricks:
   - minmax_element
   - accumulate

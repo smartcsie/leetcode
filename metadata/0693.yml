@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   note: '>**x其實是讓n變成 11111......**<br>
 
     >**(x & (x+1)) 會是0或INT_MAX**<br>'
@@ -41,8 +40,7 @@ solutions:
   - bit-manipulation
   time: O(logn)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-07'
+  familiarity: 生疏
   official_solution: null
   attempts:
   - date: '2026-10-04'

@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation
   time: O(N1+N2+N3)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-17'
+  familiarity: 生疏
   note: '> 起一組vector<int> counts(101, 0)，nums1 數字 counts[num] |= 1，nums2 數字 counts[num]
     |= 2，nums3 數字 counts[num] |= 4<br>
 

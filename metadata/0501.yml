@@ -12,8 +12,7 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   related:
   - 697
   - 2404

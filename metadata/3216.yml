@@ -11,8 +11,7 @@ solutions:
   - greedy-string-construction
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-24'
+  familiarity: 生疏
   note: '> 前後兩個character找到相同parity且前面character比較大，做swap<br>
 
     > **for(int i = 1; i < s.size(); i++) {** <br>

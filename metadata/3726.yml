@@ -11,8 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-17'
+  familiarity: 生疏
   note: '> **跟 3697很像，差異是digit != 0 才 res += base * digit; base *= 10;**<br>'
   is_best: true
   tricks:

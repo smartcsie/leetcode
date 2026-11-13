@@ -11,8 +11,7 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-07'
+  familiarity: 生疏
   note: '> **subtracts為需要減去多少次1，就是1的個數**<br>
 
     > **divides為需要除多少次2才能變成1，就是要shift多少次才是1**<br>'

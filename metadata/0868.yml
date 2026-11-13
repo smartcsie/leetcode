@@ -10,8 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   note: '> **pre 紀錄上一次1的index，mx紀錄相鄰1的index最大值**<br>'
   attempts:
   - date: '2026-09-26'

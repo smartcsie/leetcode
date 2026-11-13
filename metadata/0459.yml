@@ -11,6 +11,6 @@ solutions:
   - string-kmp
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 生疏
   note: '> **去掉頭尾search**<br>'
   tricks: null

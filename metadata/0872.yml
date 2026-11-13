@@ -11,8 +11,7 @@ solutions:
   - tree-dfs-path
   time: O(N+M)
   space: O(N+M)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   note: '> preorder，inorder，postorder都可以'
   attempts:
   - date: '2026-09-25'

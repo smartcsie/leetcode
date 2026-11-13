@@ -11,8 +11,7 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-16'
+  familiarity: 生疏
   note: '> [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)<br>
 
     > 找出限定一個character swap，兩字串能否相等<br>
@@ -39,8 +38,7 @@ solutions:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-16'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-16'
     result: 對

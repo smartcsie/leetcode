@@ -10,8 +10,7 @@ solutions:
   - bit-bitmask-subset-enumeration
   time: O(2ᴺ*M+M*N)
   space: O(M)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   note: '> 跟 [1239 Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)類似'
   official_solution: no-solution
   related:

@@ -1,8 +1,10 @@
 # sql
 
-## 🔴 生疏（0）
+## 🔴 生疏（1）
 
-目前沒有標記為生疏的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 E | Sql, Database | [C++](../problems/0182.md) | O(N) | O(N) |  |
 
 ## 🟠 再練習（0）
 
@@ -16,8 +18,6 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | 🟢 E | Sql, Database | [C++](../problems/0182.md) | O(N) | O(N) |  |
+目前沒有標記為熟悉的解法。

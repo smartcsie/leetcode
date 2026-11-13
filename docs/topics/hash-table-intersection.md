@@ -1,22 +1,6 @@
 # hash-table-intersection
 
-## 🔴 生疏（0）
-
-目前沒有標記為生疏的解法。
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
-
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
-
-## 🟣 易忘（0）
-
-目前沒有標記為易忘的解法。
-
-## 🟢 熟悉（12）
+## 🔴 生疏（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -32,3 +16,19 @@
 | 2248 | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/) | 🟢 E | Hash Table Intersection, Hash Table | [C++](../problems/2248.md) | O(N\*M) | O(N) | ❌ 官方沒有解答 |
 | 2287 | [Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string/) | 🟢 E | Hash Table Intersection, Hash Table, Counting | [C++](../problems/2287.md) | O(N+M) | O(1) | ❌ 官方沒有解答 |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 M | Hash Table Intersection, Hash Map, Matrix Simulation | [C++](../problems/2352.md) | O(N³logN) | O(N²) |  |
+
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

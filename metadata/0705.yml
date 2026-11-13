@@ -11,8 +11,7 @@ solutions:
   - design
   time: O(1)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-22'
+  familiarity: 生疏
   note: '> **unordered_set和bitset被禁用**<br>'
   attempts:
   - date: '2026-10-04'

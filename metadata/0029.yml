@@ -11,7 +11,7 @@ solutions:
   - bit-manipulation
   time: O(log²N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   note: '> [overflow handle] INT_MIN / -1 溢位<br>'
   tricks:
   - overflow handle
@@ -27,7 +27,7 @@ solutions:
   - bit-manipulation
   time: O(log²N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   tricks:
   - overflow handle
   attempts:

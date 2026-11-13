@@ -10,8 +10,7 @@ solutions:
   - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-02'
+  familiarity: 生疏
   note: '> **記得 ans  %= MOD;**<br>'
   related:
   - 696

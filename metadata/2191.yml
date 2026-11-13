@@ -10,8 +10,7 @@ solutions:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-27'
+  familiarity: 生疏
   related:
   - 1356
   - 1636

@@ -10,8 +10,7 @@ solutions:
   - binary-search-find-left-bound
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   note: '> **物品可能是1 2 3 4 5(bad) 6(bad) 7(bad)**<br>
 
     > **如果 mid 落在 1 2 3 4 則往右找，left = mid + 1**<br>

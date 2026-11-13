@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation-or
   time: O(n*M)
   space: O(M)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   official_solution: synced
   attempts:
   - date: '2026-11-12'
@@ -28,8 +27,7 @@ solutions:
   - backtracking-combination
   time: O(2^n)
   space: O(n)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   is_best: true
   official_solution: synced
   attempts:

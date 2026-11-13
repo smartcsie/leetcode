@@ -1,22 +1,6 @@
 # math-digit-decomposition
 
-## 🔴 生疏（0）
-
-目前沒有標記為生疏的解法。
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
-
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
-
-## 🟣 易忘（0）
-
-目前沒有標記為易忘的解法。
-
-## 🟢 熟悉（42）
+## 🔴 生疏（42）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -62,3 +46,19 @@
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3950.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 E | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3959.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 E | Math Digit Decomposition, Array | [C++](../problems/3982.md) | O(N\*D) | O(N) | ❌ 官方沒有解答 |
+
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

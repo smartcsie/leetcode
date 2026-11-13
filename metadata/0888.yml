@@ -10,8 +10,7 @@ solutions:
   - hash-table-existence
   time: O(A+B)
   space: O(B)
-  familiarity: 熟練
-  mastered_date: '2026-09-17'
+  familiarity: 生疏
   tricks:
   - accumulate
   attempts:

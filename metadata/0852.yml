@@ -10,8 +10,7 @@ solutions:
   - binary-search-find-left-bound
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   note: '> **標準Binary Search** <br>
 
     > **尋找左側邊界**，用while (left < right)，同 0162 [Find Peak Element](https://leetcode.com/problems/find-peak-element)

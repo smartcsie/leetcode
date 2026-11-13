@@ -10,8 +10,7 @@ solutions:
   - array-interval
   time: O(NlogN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-16'
+  familiarity: 生疏
   note: '> **要sort interval的尾**<br>
 
     > **if(prevEnd <= itvs[i][0]) prevEnd = itvs[i][1];**<br>

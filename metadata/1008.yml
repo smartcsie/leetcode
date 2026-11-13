@@ -12,5 +12,5 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 生疏
   tricks: null

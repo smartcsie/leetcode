@@ -11,8 +11,7 @@ solutions:
   - hash-table-existence
   time: O(N²)
   space: O(N²)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   note: '> 起一個vector<int> counts(n * n + 1, 0);計數字出現頻率<br>
 
     > if(counts[i] == 0) missing = i; else if(counts[i] == 2) repeat = i;<br>

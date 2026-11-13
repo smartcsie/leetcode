@@ -10,8 +10,7 @@ solutions:
   - greedy-digit-construction
   time: O(D)
   space: O(D)
-  familiarity: 熟練
-  mastered_date: '2026-10-24'
+  familiarity: 生疏
   note: '>**先用last紀錄1~9最後面出現的index**<br>
 
     >**travsal string由左到右scan，只要右邊有比自己大，就交換**<br>

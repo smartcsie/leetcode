@@ -12,8 +12,7 @@ solutions:
   - greedy-string-construction
   time: O(A + B)
   space: O(A + B)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   is_best: true
   related:
   - 1405

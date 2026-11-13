@@ -10,8 +10,7 @@ solutions:
   - sorting
   time: O(NlogN)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-27'
+  familiarity: 生疏
   note: '> **最後要處理頭尾**<br>
 
     > **mn = min(mn, times.front() - times.back() + 1440);**<br>'

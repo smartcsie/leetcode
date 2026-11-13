@@ -10,8 +10,7 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   note: "> [Contains Duplicate](https://leetcode.com/problems/contains-duplicate)<br>\n\
     \ **此題總共有四種作法**<br>\n> [法一 Hashset Insert](../problems/0217.md)，一邊Insert，一邊檢查，Time:O(N)，Time:O(N)<br>\n\
     > [法二 Hashset 去重](../problems/0217.md)，全部塞入unordered_set，檢查個數和原nums個數，Time:O(N)，Time:O(N)<br>\n\
@@ -30,8 +29,7 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-26'
     result: 對
@@ -46,8 +44,7 @@ solutions:
   - hash-table-uniqueness
   time: O(NlogN)
   space: O(logN)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   is_best: true
   attempts:
   - date: '2026-09-26'
@@ -63,8 +60,7 @@ solutions:
   - hash-table-uniqueness
   time: O(NlogN)
   space: O(logN)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-26'
     result: 對

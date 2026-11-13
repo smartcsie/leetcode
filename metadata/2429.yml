@@ -11,8 +11,7 @@ solutions:
   - bit-manipulation-xor
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-18'
+  familiarity: 生疏
   note: '> **先計算ans的bit數目，要跟num2一樣，int bits =__builtin_popcount(num2);**
 
     > **ans和num1 XOR要有最小的值，就是先消耗num1大的1**

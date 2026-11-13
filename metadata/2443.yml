@@ -11,8 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(NlogN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-17'
+  familiarity: 生疏
   note: '> **注意 if(num == 0) return true;**<br>
 
     > **注意 for(int x = num / 2; x <= num; x++)**<br>'

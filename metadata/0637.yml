@@ -11,8 +11,7 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 熟練
-  mastered_date: '2026-09-14'
+  familiarity: 生疏
   note: '> sum要用double，否則會overflow<br>
 
     > if(!root) return {};保證至少一個node，永遠不會執行到<br>'

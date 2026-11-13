@@ -10,8 +10,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(W)
-  familiarity: 熟練
-  mastered_date: '2026-09-21'
+  familiarity: 生疏
   related:
   - 2185
   - 2255

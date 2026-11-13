@@ -1,28 +1,27 @@
 # array-interval
 
-## 🔴 生疏（0）
-
-目前沒有標記為生疏的解法。
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
-
-## 🟡 練習過（2）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | 🟡 M | Array Interval, Two Pointers, Interval Processing | [C++](../problems/0986.md) | O(M+N) | O(1) |  |
-| 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 M | Array Interval, Greedy | [C++](../problems/1288.md) | O(NlogN) | O(logN) |  |
-
-## 🟣 易忘（0）
-
-目前沒有標記為易忘的解法。
-
-## 🟢 熟悉（3）
+## 🔴 生疏（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 M | Array Interval | [C++](../problems/0056.md) | O(NlogN) | O(logN) |  |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | 🟡 M | Array Interval | [C++](../problems/0057.md) | O(N) | O(N) |  |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 M | Array Interval | [C++](../problems/0435.md) | O(NlogN) | O(1) |  |
+| 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | 🟡 M | Array Interval, Two Pointers, Interval Processing | [C++](../problems/0986.md) | O(M+N) | O(1) |  |
+| 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 M | Array Interval, Greedy | [C++](../problems/1288.md) | O(NlogN) | O(logN) |  |
+
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

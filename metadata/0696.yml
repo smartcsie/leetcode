@@ -10,8 +10,7 @@ solutions:
   - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-09'
+  familiarity: 生疏
   note: '> **如果前後字元相等，用curEquals計數目前連續個0或1的個數，if(s[i] == s[i - 1]) cur++;** <br>
 
     > **如果前後字元不相等，找出比較短那一半的長度， min(pre, cur)** ，0001111 =3 ，111100 = 2**<br>

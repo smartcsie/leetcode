@@ -11,8 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(N*D)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-23'
+  familiarity: 生疏
   note: '> **一定要用 x % digit**<br>'
   attempts:
   - date: '2026-09-17'

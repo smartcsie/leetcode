@@ -12,8 +12,7 @@ solutions:
   - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   note: '> **Reverse inorder**<br>
 
     > **同1038[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)**<br>'

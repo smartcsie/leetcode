@@ -10,8 +10,7 @@ solutions:
   - linked-list
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-19'
+  familiarity: 生疏
   note: '> **題目保證，被刪除的node不會是結尾節點**<br>
 
     > **The node to be deleted is not a tail node.**<br>'

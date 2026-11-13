@@ -10,8 +10,7 @@ solutions:
   - math-simulation
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-23'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-23'
     result: 對

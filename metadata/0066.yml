@@ -10,8 +10,7 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-16'
+  familiarity: 生疏
   note: '> **因為Plus One，carry 初始值 1** br>
 
     > **處理每個digit時，把digit加到carry，carry += digits[i];**<br>

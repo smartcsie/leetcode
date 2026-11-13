@@ -10,8 +10,7 @@ solutions:
   - hash-table-existence
   time: O(NlogN)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-11-05'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

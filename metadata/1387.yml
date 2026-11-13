@@ -10,7 +10,7 @@ solutions:
   - quick-select
   time: O(N*S)
   space: O(N+S)
-  familiarity: 再練習
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

@@ -1,50 +1,27 @@
 # string
 
-## 🔴 生疏（0）
-
-目前沒有標記為生疏的解法。
-
-## 🟠 再練習（3）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 M | String, Two Pointers | [C++](../problems/0524.md) | O(DlogD+D\*M) | O(1) |  |
-| 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 M | String, Counting Sort | [C++](../problems/0791.md) | O(N+M) | O(1) |  |
-| 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 M | String, String | [C++](../problems/1910.md) | O(N\*M) | O(N) |  |
-
-## 🟡 練習過（4）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 E | String, String | [C++](../problems/0944.md) | O(N\*M) | O(M) |  |
-| 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 E | String, Simulation | [C++](../problems/1592.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 E | Simulation, Recursion | [C++](../problems/3304.md) | O(K) | O(K) |  |
-| 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 E | String, Pattern Matching | [C++](../problems/3407.md) | O(N+M) | O(M) | ❌ 官方沒有解答 |
-
-## 🟣 易忘（4）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 M | String, String | [C++](../problems/0043.md) | O(M\*N) | O(M+N) |  |
-| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 E | String | [C++](../problems/0557.md) | O(N) | O(1) |  |
-| 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 E | String | [C++](../problems/3280.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 M | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
-
-## 🟢 熟悉（26）
+## 🔴 生疏（37）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 E | String | [C++](../problems/0014.md) | O(S) | O(1) |  |
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 M | String, String | [C++](../problems/0043.md) | O(M\*N) | O(M+N) |  |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 E | String | [C++](../problems/0058.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | 🟢 E | String | [C++](../problems/0500.md) | O(L) | O(1) | ❌ 官方沒有解答 |
+| 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 M | String, Two Pointers | [C++](../problems/0524.md) | O(DlogD+D\*M) | O(1) |  |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 E | String | [C++](../problems/0557.md) | O(N) | O(1) |  |
+| 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 M | String, Counting Sort | [C++](../problems/0791.md) | O(N+M) | O(1) |  |
 | 806 | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | 🟢 E | String | [C++](../problems/0806.md) | O(N) | O(1) |  |
+| 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 E | String, String | [C++](../problems/0944.md) | O(N\*M) | O(M) |  |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](../problems/1016.md) | O(N\*LEN) | O(1) | ❌ 官方沒有解答 |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](../problems/1016.md) | O(L^2 log L) | O(logn) | ❌ 官方沒有解答 |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 E | String | [C++](../problems/1108.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 E | String | [C++](../problems/1528.md) | O(N) | O(N) | ❌ 官方沒有解答 |
+| 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 E | String, Simulation | [C++](../problems/1592.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | String | [C++](../problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) |  |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 E | String | [C++](../problems/1758.md) | O(N) | O(1) |  |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 E | String, Sorting, Bucket Sort | [C++](../problems/1859.md) | O(N) | O(N) | ❌ 官方沒有解答 |
+| 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 M | String, String | [C++](../problems/1910.md) | O(N\*M) | O(N) |  |
 | 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 E | String, Simulation | [C++](../problems/1945.md) | O(N+K\*log(SUM)) | O(1) |  |
 | 1961 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | 🟢 E | String, Simulation | [C++](../problems/1961.md) | O(S) | O(S) | ❌ 官方沒有解答 |
 | 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 E | String, Brute Force | [C++](../problems/1967.md) | O(N\*M) | O(1) |  |
@@ -58,5 +35,25 @@
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 E | String | [C++](../problems/2937.md) | O(min(L1,L2,L3)) | O(1) | ❌ 官方沒有解答 |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 E | String | [C++](../problems/2942.md) | O(N\*L) | O(1) |  |
 | 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 E | String, Cyclic Shift | [C++](../problems/3210.md) | O(N) | O(N) | ❌ 官方沒有解答 |
+| 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 E | String | [C++](../problems/3280.md) | O(1) | O(1) | ❌ 官方沒有解答 |
+| 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 E | Simulation, Recursion | [C++](../problems/3304.md) | O(K) | O(K) |  |
+| 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 E | String, Pattern Matching | [C++](../problems/3407.md) | O(N+M) | O(M) | ❌ 官方沒有解答 |
 | 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 E | String | [C++](../problems/3498.md) | O(N) | O(1) |  |
+| 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 M | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 E | String, Simulation, Math | [C++](../problems/3986.md) | O(1) | O(1) | ❌ 官方沒有解答 |
+
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

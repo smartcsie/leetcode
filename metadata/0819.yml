@@ -11,8 +11,7 @@ solutions:
   - hash-table-counting
   time: O(M+N)
   space: O(M+N)
-  familiarity: 熟練
-  mastered_date: '2026-10-07'
+  familiarity: 生疏
   note: "> ** transform(s.begin(), s.end(), s.begin(), [](unsigned char c) {**<br>\n\
     \ > ** return ispunct(c) ? ' ' : tolower(c);**<br>\n > ** });**<br>"
   attempts:

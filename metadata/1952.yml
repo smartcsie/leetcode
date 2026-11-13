@@ -10,8 +10,7 @@ solutions:
   - math-prime
   time: O(√N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-08'
+  familiarity: 生疏
   note: '> **一個整數n若恰好有三個正因數，這個數字必然是一個「質數的平方」。**<br>
 
     > **三個正因數為1 p n，p*p=n且p為prime**<br>'

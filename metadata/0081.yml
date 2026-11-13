@@ -10,7 +10,7 @@ solutions:
   - binary-search
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   related:
   - 33
   tricks: null

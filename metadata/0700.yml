@@ -10,7 +10,6 @@ solutions:
   - binary-search-tree
   time: O(H)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   is_representative: true
   representative_tag: Binary Search Tree

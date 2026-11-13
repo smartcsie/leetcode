@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-11'
+  familiarity: 生疏
   note: '> **!accumulate(derived.begin(), derived.end(), 0, bit_xor<int>());**<br>
 
     > **令original = [a0, a1, a2, .... , an-1]**<br>

@@ -11,8 +11,7 @@ solutions:
   - string
   time: O(N+K*log(SUM))
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-11'
+  familiarity: 生疏
   note: '> charSum已經做 Transform #1 <br>
 
     > for (int i = 1; i < k; i++) <br>'

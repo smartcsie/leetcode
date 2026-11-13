@@ -12,8 +12,7 @@ solutions:
   - two-pointers-same
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-21'
+  familiarity: 生疏
   note: '> **第一個邊界小於n-2，後面兩個邊界小於n-1**<br>'
   attempts:
   - date: '2026-10-04'

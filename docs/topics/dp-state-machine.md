@@ -1,35 +1,33 @@
 # dp-state-machine
 
-## 🔴 生疏（5）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | 🔴 H | Dp State Machine | [C++](../problems/0123.md) | O(N) | O(1) |  |
-| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔴 H | Dp State Machine | [C++](../problems/0188.md) | O(N\*K) | O(K) |  |
-| 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🟡 M | Dp State Machine | [C++](../problems/0309.md) | O(N) | O(1) |  |
-| 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | 🟡 M | Dp State Machine | [C++](../problems/0714.md) | O(N) | O(1) |  |
-| 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 M | Dynamic Programming State Machine | [C++](../problems/0926.md) | O(N) | O(1) |  |
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
-
-## 🟡 練習過（2）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 E | Dp State Machine, Dynamic Programming State Machine | [C++](../problems/0121.md) | O(N) | O(1) |  |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 M | Dp State Machine | [C++](../problems/0122.md) | O(N) | O(1) |  |
+| 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | 🔴 H | Dp State Machine | [C++](../problems/0123.md) | O(N) | O(1) |  |
+| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔴 H | Dp State Machine | [C++](../problems/0188.md) | O(N\*K) | O(K) |  |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🟡 M | Dp State Machine | [C++](../problems/0309.md) | O(N) | O(1) |  |
+| 714 | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | 🟡 M | Dp State Machine | [C++](../problems/0714.md) | O(N) | O(1) |  |
+| 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | 🟡 M | Dynamic Programming State Machine | [C++](../problems/0926.md) | O(N) | O(1) |  |
+| 1653 | [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | 🟡 M | Dp State Machine | [C++](../problems/1653.md) | O(N) | O(1) |  |
+
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（0）
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1653 | [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | 🟡 M | Dp State Machine | [C++](../problems/1653.md) | O(N) | O(1) |  |
+目前沒有標記為熟悉的解法。
 
 ---
 

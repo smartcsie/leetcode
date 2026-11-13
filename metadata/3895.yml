@@ -10,8 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(N×D)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-14'
+  familiarity: 生疏
   note: '> 檢查nums中每一位是否等於digit<br>'
   is_best: true
   tricks:

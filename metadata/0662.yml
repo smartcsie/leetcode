@@ -11,8 +11,7 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 熟練
-  mastered_date: '2026-10-05'
+  familiarity: 生疏
   note: '> **It is guaranteed that the answer will in the range of a 32-bit signed
     integer.**<br>
 

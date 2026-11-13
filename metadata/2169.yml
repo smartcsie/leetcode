@@ -10,8 +10,7 @@ solutions:
   - math-factor-enumeration
   time: O(log(min(NUM1,NUM2)))
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-07'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

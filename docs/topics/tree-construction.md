@@ -1,8 +1,12 @@
 # tree-construction
 
-## 🔴 生疏（0）
+## 🔴 生疏（3）
 
-目前沒有標記為生疏的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](../problems/0105.md) | O(N) | O(N) |  |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](../problems/0106.md) | O(N) | O(N) |  |
+| 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](../problems/0889.md) | O(N) | O(N) |  |
 
 ## 🟠 再練習（0）
 
@@ -12,13 +16,9 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（3）
+## 🟣 易忘（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](../problems/0105.md) | O(N) | O(N) |  |
-| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](../problems/0106.md) | O(N) | O(N) |  |
-| 889 | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](../problems/0889.md) | O(N) | O(N) |  |
+目前沒有標記為易忘的解法。
 
 ## 🟢 熟悉（0）
 

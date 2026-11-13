@@ -10,8 +10,7 @@ solutions:
   - math-prime
   time: O(N²*sqrt(M))
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-09'
+  familiarity: 生疏
   note: '> **if (val == m1 || val == m2 || val == m3) return;**<br>
 
     > *#define ll long long**<br>'

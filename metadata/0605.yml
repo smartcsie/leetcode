@@ -10,8 +10,7 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-28'
+  familiarity: 生疏
   tricks:
   - 由左到右貪心種花
   - 檢查左右鄰居時注意邊界

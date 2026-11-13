@@ -10,8 +10,7 @@ solutions:
   - math-palindrome
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-23'
+  familiarity: 生疏
   note: '> **if((INT_MAX - d) / 10 < r)，防止下面這種case**<br>
 
     > **x = 1234567899 < INT_MAX，Palindrome  9987654321 > INT_MAX**<br>'

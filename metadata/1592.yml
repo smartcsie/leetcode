@@ -11,6 +11,6 @@ solutions:
   - string
   time: O(N)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 生疏
   note: '> **注意邊界條件if(segs == 1)，return word + string(space, '' '');**<br>'
   official_solution: no-solution

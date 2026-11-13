@@ -10,8 +10,7 @@ solutions:
   - hamming-distance
   time: O(K)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-21'
+  familiarity: 生疏
   note: '> x和y做互斥或成為z，取z的2進制1的個數<br>'
   related:
   - 2220
@@ -32,8 +31,7 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-18'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-18'
     result: 對

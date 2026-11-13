@@ -10,8 +10,7 @@ solutions:
   - stack
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-18'
+  familiarity: 生疏
   tricks:
   - parentheses check
   attempts:

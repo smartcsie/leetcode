@@ -10,8 +10,7 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-27'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-27'
     result: 對
@@ -24,8 +23,7 @@ solutions:
   - array
   time: O(N^2)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-27'
+  familiarity: 生疏
   note: '> **這一題size只有100，雙層迴圈暴力法最快**'
   is_best: true
   attempts:

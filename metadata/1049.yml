@@ -10,6 +10,6 @@ solutions:
   - dp-knapsack
   time: O(N*S)
   space: O(S)
-  familiarity: 練習過
+  familiarity: 生疏
   tricks: null
   official_solution: no-solution

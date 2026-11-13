@@ -12,8 +12,7 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-02'
+  familiarity: 生疏
   tricks:
   - for loop
   attempts:

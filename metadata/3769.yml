@@ -10,8 +10,7 @@ solutions:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-27'
+  familiarity: 生疏
   note: '> **排reflect不相等，reflect小的在前面**<br>
 
     > **排序頻率相等，數字小在前面**<br>'

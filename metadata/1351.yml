@@ -10,8 +10,7 @@ solutions:
   - binary-search-build-in
   time: O(RlogC)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-18'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-24'
     result: 對
@@ -36,8 +35,7 @@ solutions:
   - binary-search-find-left-bound
   time: O(R*logC)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-19'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-24'
     result: 對

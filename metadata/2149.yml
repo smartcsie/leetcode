@@ -10,8 +10,7 @@ solutions:
   - two-pointers-partition
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-13'
+  familiarity: 生疏
   note: '> **in place的交換會破壞相對順序，此題無法in place完成**<br>'
   attempts:
   - date: '2026-09-29'

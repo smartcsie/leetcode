@@ -10,8 +10,7 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-11-05'
+  familiarity: 生疏
   note: '> **用一組  array<int, 101> 紀錄每組vector第一個int和該組vector idx的對應 **<br>
 
     > **對arr使用index i，如果arr[i]在headToIdx[arr[i]]中找到，取出來，每個int開始比對，i往後走**<br>'

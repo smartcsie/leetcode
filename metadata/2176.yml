@@ -10,8 +10,7 @@ solutions:
   - array-linear-scan
   time: O(N^2)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-17'
+  familiarity: 生疏
   tricks:
   - for loop
   attempts:

@@ -10,8 +10,7 @@ solutions:
   - dp-grid-path
   time: O(M*N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-03'
+  familiarity: 生疏
   attempts:
   - date: '2026-11-03'
     result: 對

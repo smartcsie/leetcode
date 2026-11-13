@@ -1,31 +1,12 @@
 # dp-fibonacci
 
-## 🔴 生疏（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 2266 | [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | 🟡 M | Dp Fibonacci | [C++](../problems/2266.md) | O(N) | O(最長連續按鍵長度) | ❌ 官方沒有解答 |
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
-
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
-
-## 🟣 易忘（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 M | Dp Fibonacci | [C++](../problems/0091.md) | O(N) | O(N) |  |
-
-## 🟢 熟悉（12）
+## 🔴 生疏（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 E | Dp Fibonacci | [C++](../problems/0070.md) | O(N) | O(1) |  |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | 🟢 E | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](../problems/0070.md) | O(N) | O(N) |  |
+| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 M | Dp Fibonacci | [C++](../problems/0091.md) | O(N) | O(N) |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 M | Dp Fibonacci | [C++](../problems/0198.md) | O(N) | O(1) |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 M | Dp Fibonacci | [C++](../problems/0198.md) | O(N) | O(N) |  |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 M | Dp Fibonacci | [C++](../problems/0213.md) | O(N) | O(1) |  |
@@ -36,6 +17,23 @@
 | 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 E | Dp Fibonacci | [C++](../problems/0746.md) | O(N) | O(1) |  |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 E | Dp Fibonacci, Dynamic Programming Fibonacci, DP | [C++](../problems/1137.md) | O(N) | O(1) |  |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | 🟢 E | Dp Fibonacci, Dynamic Programming Fibonacci | [C++](../problems/1137.md) | O(N) | O(N) |  |
+| 2266 | [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | 🟡 M | Dp Fibonacci | [C++](../problems/2266.md) | O(N) | O(最長連續按鍵長度) | ❌ 官方沒有解答 |
+
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。
 
 ---
 

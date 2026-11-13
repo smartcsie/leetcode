@@ -10,8 +10,7 @@ solutions:
   - math
   time: O(log₃N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-08'
+  familiarity: 生疏
   note: '> **連除3，過程中，if(n % 3 == 2) return false;**<br>
 
     > **題目如果改成Powers of k，if(n % k >= 2) return false;**<br>'

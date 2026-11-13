@@ -11,8 +11,7 @@ solutions:
   - hash-table-counting
   time: O(N*K)
   space: O(N*K)
-  familiarity: 熟練
-  mastered_date: '2026-09-27'
+  familiarity: 生疏
   tricks:
   - important technology
   attempts:
@@ -33,8 +32,7 @@ solutions:
   - hash-table-mapping
   time: O(N*logK)
   space: O(N*K)
-  familiarity: 熟練
-  mastered_date: '2026-09-27'
+  familiarity: 生疏
   is_best: true
   attempts:
   - date: '2026-09-16'

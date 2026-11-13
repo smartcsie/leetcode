@@ -10,8 +10,7 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-04'
+  familiarity: 生疏
   note: '> **用一個reach更新最大能到達，reach = max(reach, i + nums[i]);**<br>
 
     > **如果 i > reach表示不可到達，if(i > reach) return false;**<br>

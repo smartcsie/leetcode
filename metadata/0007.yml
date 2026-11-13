@@ -10,8 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-17'
+  familiarity: 生疏
   note: '> **[overflow handle] 反轉後超過 INT_MAX** <br>
 
     > **x 本身是合法的 int，所以它反轉前的最高位最多是 2（因為 INT_MAX 開頭是 2）**<br>

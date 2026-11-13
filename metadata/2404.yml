@@ -12,8 +12,7 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   related:
   - 501
   - 697

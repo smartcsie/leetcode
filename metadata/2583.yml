@@ -12,8 +12,7 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-05'
+  familiarity: 生疏
   note: '> **BFS + QuickSelect**<br>
 
     > **注意邊界條件，if (k > sums.size()) return -1;**<br>

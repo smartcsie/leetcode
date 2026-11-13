@@ -11,7 +11,7 @@ solutions:
   - dp-knapsack
   time: O(N³)
   space: O(N+D)
-  familiarity: 練習過
+  familiarity: 生疏
   related:
   - 279
   - 322

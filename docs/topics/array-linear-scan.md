@@ -1,22 +1,6 @@
 # array-linear-scan
 
-## 🔴 生疏（0）
-
-目前沒有標記為生疏的解法。
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
-
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
-
-## 🟣 易忘（0）
-
-目前沒有標記為易忘的解法。
-
-## 🟢 熟悉（27）
+## 🔴 生疏（27）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -47,3 +31,19 @@
 | 3861 | [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/) | 🟢 E | Array Linear Scan, Linear Search | [C++](../problems/3861.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 E | Array Linear Scan, Simulation | [C++](../problems/3925.md) | O(N) | O(N) |  |
 | 3925 | [Concatenate Array With Reverse](https://example.com/problems/3925) | 🟢 E | Array Linear Scan | [C++](../problems/3925.md) | O(N) | O(N) |  |
+
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

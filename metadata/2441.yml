@@ -11,8 +11,7 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   is_best: true
   related:
   - 1
@@ -43,8 +42,7 @@ solutions:
   - two-pointers-swap
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-18'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-16'
     result: 對

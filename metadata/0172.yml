@@ -10,8 +10,7 @@ solutions:
   - math-formula
   time: O(log₅N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-08'
+  familiarity: 生疏
   note: '> **勒讓德定理 (Legendre''s Formula)**<br>
 
     > **在n!的所有因數中，總共有幾個質因數5**<br>'

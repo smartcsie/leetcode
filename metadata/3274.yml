@@ -12,8 +12,7 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-17'
+  familiarity: 生疏
   related:
   - 1812
   attempts:

@@ -10,7 +10,7 @@ solutions:
   - string-kmp
   time: O(N*M)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

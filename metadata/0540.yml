@@ -10,8 +10,7 @@ solutions:
   - binary-search-find-left-bound
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   note: '> **例子1 : 1 1 2 3 3， mid在2，2 3不相等，2可能是解答**<br>
 
     > **所以else right = mid;**<br>

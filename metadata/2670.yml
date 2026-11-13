@@ -11,8 +11,7 @@ solutions:
   - array-suffix-sum
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-29'
+  familiarity: 生疏
   note: '> **Input: [3, 2, 3, 4, 2]**<br>
 
     > **Output:[-2, -1, 0, 2, 3]**<br>

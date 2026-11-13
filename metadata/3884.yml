@@ -11,8 +11,7 @@ solutions:
   - two-pointers-opposite
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-21'
+  familiarity: 生疏
   note: '> [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/)
     <br>
 

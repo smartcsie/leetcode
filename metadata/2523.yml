@@ -10,8 +10,7 @@ solutions:
   - math-prime
   time: O(NloglogN)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-08'
+  familiarity: 生疏
   note: '> **先用Sieve Algorithm 算出 1 ~ right**<br>
 
     > 初始化變數 vector<int> ans = {-1, -1};  int prev = -1; int mn = INT_MAX;<br>

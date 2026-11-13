@@ -11,8 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(log₇N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-08'
+  familiarity: 生疏
   note: '> **先用bool紀錄正負號，因為有正負號，while(n != 0)，餘數mod 7，如果為負乘上-1，＋''0''轉char push_back到string尾端，最後reverse**<br>
 
     > **[注意]取餘數時，處理負號，-(num % 7) + ''0'' : (num % 7) + ''0'';**<br>'

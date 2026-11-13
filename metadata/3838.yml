@@ -12,8 +12,7 @@ solutions:
   - hash-table-mapping
   time: O(N*L)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-19'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-19'
     result: 對

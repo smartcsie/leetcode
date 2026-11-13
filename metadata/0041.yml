@@ -11,7 +11,7 @@ solutions:
   - array-negative-marking
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   tricks:
   - Cyclic Sort
   attempts:

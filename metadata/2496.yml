@@ -12,8 +12,7 @@ solutions:
   - string-character-classification
   time: O(N*L)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-11'
+  familiarity: 生疏
   note: '> any_of(str.begin(), str.end(), ::isalpha) 用法'
   attempts:
   - date: '2026-10-04'

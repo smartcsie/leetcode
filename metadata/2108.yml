@@ -11,8 +11,7 @@ solutions:
   - two-pointers-opposite
   time: O(N*L)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-29'
+  familiarity: 生疏
   note: '> **實做string isPalindromic，travsal vector<string>& words，第一個Palindromic回傳*<br>'
   attempts:
   - date: '2026-09-29'

@@ -1,21 +1,10 @@
 # dp-knapsack
 
-## 🔴 生疏（3）
+## 🔴 生疏（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0139.md) | O(N³) | O(N) |  |
-| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0983.md) | O(D log D) | O(D) |  |
-| 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 H | Dp Knapsack, 0-1 Knapsack | [C++](../problems/2035.md) | O(N \* 2^(N/2)) | O(2^(N/2)) | ❌ 官方沒有解答 |
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
-
-## 🟡 練習過（9）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0279.md) | O(N\*√N) | O(N) |  |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0322.md) | O(A\*N) | O(A) |  |
 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0377.md) | O(A\*N) | O(A) |  |
@@ -23,8 +12,18 @@
 | 474 | [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeros/) | 🟡 M | Dp Knapsack, 0-1 Knapsack | [C++](../problems/0474.md) | O(LM\*N) | O(M\*N) |  |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 M | Dp Knapsack, 0-1 Knapsack | [C++](../problems/0494.md) | O(N\*S) | O(S) |  |
 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0518.md) | O(N\*A) | O(A) |  |
+| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](../problems/0983.md) | O(D log D) | O(D) |  |
 | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 M | 0-1 Knapsack | [C++](../problems/1049.md) | O(N\*S) | O(S) | ❌ 官方沒有解答 |
+| 2035 | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/) | 🔴 H | Dp Knapsack, 0-1 Knapsack | [C++](../problems/2035.md) | O(N \* 2^(N/2)) | O(2^(N/2)) | ❌ 官方沒有解答 |
 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](../problems/2707.md) | O(N³) | O(N+D) |  |
+
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
 
 ## 🟣 易忘（0）
 

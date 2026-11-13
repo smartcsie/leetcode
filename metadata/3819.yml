@@ -11,8 +11,7 @@ solutions:
   - two-pointers-same
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-18'
+  familiarity: 生疏
   note: '> **注意devide by zero，if (nonNegs.empty()) return nums;**<br>
 
     > **left rotate，rotate(nums.begin(), nums.begin() + k, nums.end());**<br>

@@ -1,10 +1,13 @@
 # dp-grid-path
 
-## 🔴 生疏（3）
+## 🔴 生疏（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 M | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](../problems/0063.md) | O(M\*N) | O(N) |  |
+| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 M | Dp Grid Path | [C++](../problems/0064.md) | O(M\*N) | O(1) |  |
 | 120 | [Triangle](https://leetcode.com/problems/triangle/) | 🟡 M | Dp Grid Path | [C++](../problems/0120.md) | O(N²) | O(N) |  |
+| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 M | Dp Grid Path | [C++](../problems/0221.md) | O(M\*N) | O(M\*N) |  |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | 🟡 M | Dp Grid Path | [C++](../problems/0931.md) | O(N²) | O(N) |  |
 | 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | 🟡 M | Dynamic Programming Grid Path, Matrix | [C++](../problems/1277.md) | O(M\*N) | O(1) |  |
 
@@ -16,18 +19,13 @@
 
 目前沒有標記為練習過的解法。
 
-## 🟣 易忘（1）
+## 🟣 易忘（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 M | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](../problems/0063.md) | O(M\*N) | O(N) |  |
+目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 M | Dp Grid Path | [C++](../problems/0064.md) | O(M\*N) | O(1) |  |
-| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | 🟡 M | Dp Grid Path | [C++](../problems/0221.md) | O(M\*N) | O(M\*N) |  |
+目前沒有標記為熟悉的解法。
 
 ---
 

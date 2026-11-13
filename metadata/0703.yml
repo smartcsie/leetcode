@@ -10,8 +10,7 @@ solutions:
   - priority-queue
   time: O(NlogK)
   space: O(K)
-  familiarity: 熟練
-  mastered_date: '2026-10-28'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-28'
     result: 對

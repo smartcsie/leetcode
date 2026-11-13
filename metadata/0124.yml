@@ -12,7 +12,7 @@ solutions:
   - tree-dfs-global
   time: O(N)
   space: O(H)
-  familiarity: 易忘
+  familiarity: 生疏
   tricks: null
   attempts:
   - date: '2026-10-04'

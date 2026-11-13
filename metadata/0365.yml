@@ -10,8 +10,7 @@ solutions:
   - math-gcd
   time: O(log(min(x,y)))
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-16'
+  familiarity: 生疏
   note: '> **貝祖定理的應用 (Bézout''s Identity)**<br>'
   related:
   - 1250

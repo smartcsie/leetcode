@@ -10,8 +10,7 @@ solutions:
   - greedy-priority-queue
   time: O((a+b+c) log 3)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-30'
+  familiarity: 生疏
   note: '> **只推c1，沒推c2，是要保持Greedy原則*<br>
 
     > **每次只放一個字元，但每次都檢查**<br>

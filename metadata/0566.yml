@@ -10,8 +10,7 @@ solutions:
   - 2d-array
   time: O(m
   space: O(r
-  familiarity: 熟練
-  mastered_date: '2026-10-28'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-28'
     result: 對

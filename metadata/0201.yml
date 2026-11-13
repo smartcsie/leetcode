@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation-and
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-22'
+  familiarity: 生疏
   tricks:
   - Brian Kernighan's Algorithm
   attempts:

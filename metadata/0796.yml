@@ -10,8 +10,7 @@ solutions:
   - string-substring
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-11'
+  familiarity: 生疏
   note: '> **s.size() == goal.size() && (s + s).find(goal) != string::npos;** <br>'
   attempts:
   - date: '2026-10-04'

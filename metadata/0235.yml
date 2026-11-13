@@ -12,8 +12,7 @@ solutions:
   - binary-search-tree
   time: O(H)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-14'
+  familiarity: 生疏
   note: '> **if(root->val > p->val && root->val >  q->val)**<br>
 
     > **確定p q 在左側，return lowestCommonAncestor(root->left, p, q);**<br>
@@ -42,8 +41,7 @@ solutions:
   - binary-search-tree
   time: O(H)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-05'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

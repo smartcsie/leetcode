@@ -10,8 +10,7 @@ solutions:
   - math
   time: O(log₃N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-13'
+  familiarity: 生疏
   note: '> **(n > 0) && static_cast<int>(pow(3, 19)) % n == 0**<br>
 
     > 連除solution

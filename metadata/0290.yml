@@ -11,8 +11,7 @@ solutions:
   - hash-table-mapping
   time: O(N+M)
   space: O(N+M)
-  familiarity: 熟練
-  mastered_date: '2026-09-16'
+  familiarity: 生疏
   note: '>**s比較長判斷，if(idx >= pattern.size()) return false;**<br>
 
     >**pattern比較長判斷，最後判斷條件return idx == pattern.size();**<br>'

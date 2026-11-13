@@ -11,8 +11,7 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   note: '> **Reverse inorder**<br>
 
     > **同538[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)**<br>'

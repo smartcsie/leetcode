@@ -11,8 +11,7 @@ solutions:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-18'
+  familiarity: 生疏
   related:
   - 2000
   attempts:

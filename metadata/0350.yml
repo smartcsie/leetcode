@@ -10,8 +10,7 @@ solutions:
   - hash-table-intersection
   time: O(N+M)
   space: O(min(N,M))
-  familiarity: 熟練
-  mastered_date: '2026-10-05'
+  familiarity: 生疏
   tricks:
   - compare count one side limit
   attempts:

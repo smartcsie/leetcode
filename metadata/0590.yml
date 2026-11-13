@@ -10,8 +10,7 @@ solutions:
   - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   is_best: true
   attempts:
   - date: '2026-09-15'

@@ -11,7 +11,7 @@ solutions:
   - hash-table-existence
   time: O(N²)
   space: O(N²)
-  familiarity: 再練習
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

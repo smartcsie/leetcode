@@ -12,8 +12,7 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-07'
+  familiarity: 生疏
   note: '> ** 此題一定要交換至少一次**  <br>
 
     > ** s 和 goal 長度不一樣，傳回false**<br>

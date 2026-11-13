@@ -11,8 +11,7 @@ solutions:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-17'
+  familiarity: 生疏
   note: '>  **for(int i = 1; i <s.size(); i += 2) {** <br>
 
     >  &emsp;&emsp;&emsp;&emsp;**s[i] = s[i - 1] + s[i] - ''0'';** <br>

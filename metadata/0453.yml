@@ -10,8 +10,7 @@ solutions:
   - greedy-parity-contribution
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-25'
+  familiarity: 生疏
   note: '> **每個數減去最小數的總和**<br>'
   attempts:
   - date: '2026-10-04'

@@ -10,8 +10,7 @@ solutions:
   - greedy-sorting-decision
   time: O(DlogD)
   space: O(D)
-  familiarity: 熟練
-  mastered_date: '2026-10-23'
+  familiarity: 生疏
   note: '> **用to_string把int num轉成string s**<br>
 
     > **初始化 vector<vector<char>> chs(2);，travsal char，分成奇數，偶數**<br>

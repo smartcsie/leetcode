@@ -11,7 +11,7 @@ solutions:
   - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 易忘
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -24,8 +24,7 @@ solutions:
   - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   note: '> **root為空則return，把root->val加入到result vector，遞迴左子樹，遞迴右子樹**<br>'
   is_best: true
   attempts:
@@ -42,7 +41,7 @@ solutions:
   - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 易忘
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

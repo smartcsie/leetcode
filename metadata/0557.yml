@@ -11,8 +11,7 @@ solutions:
   - two-pointers-other
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-20'
+  familiarity: 生疏
   is_best: true
   attempts:
   - date: '2026-10-20'
@@ -32,7 +31,7 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   related:
   - 151
   attempts:

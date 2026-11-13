@@ -11,7 +11,7 @@ solutions:
   - dynamic-programming
   time: O(N²)
   space: O(N)
-  familiarity: 易忘
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

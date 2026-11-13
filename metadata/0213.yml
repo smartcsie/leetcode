@@ -10,8 +10,7 @@ solutions:
   - dp-fibonacci
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-03'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -27,8 +26,7 @@ solutions:
   - dp-fibonacci
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-11-03'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

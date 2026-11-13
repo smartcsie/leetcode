@@ -10,8 +10,7 @@ solutions:
   - math
   time: O(K)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-08'
+  familiarity: 生疏
   tricks:
   - module
   attempts:

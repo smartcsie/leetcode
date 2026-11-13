@@ -10,8 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-09'
+  familiarity: 生疏
   note: '> **odd需要+1和shift，所以steps+2，carry+1(因為1+1進位)**<br>
 
     > **even只需要shift，所以steps+1**<br>'

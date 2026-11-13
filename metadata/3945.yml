@@ -10,8 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-14'
+  familiarity: 生疏
   note: '> 用sum把十進制每個digit相加，最後return sum<br>'
   tricks:
   - digit sum

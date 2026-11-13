@@ -10,8 +10,7 @@ solutions:
   - array-prefix-sum
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-15'
+  familiarity: 生疏
   related:
   - 238
   attempts:

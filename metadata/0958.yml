@@ -10,8 +10,7 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-11-10'
+  familiarity: 生疏
   note: '> **連續BFS travsal，到結束前都不應該遇到nullptr節點**<br>'
   official_solution: synced
   attempts:
@@ -38,8 +37,7 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(”)
-  familiarity: 熟練
-  mastered_date: '2026-11-10'
+  familiarity: 生疏
   official_solution: synced
   attempts:
   - date: '2026-10-06'

@@ -10,7 +10,7 @@ solutions:
   - string-substring
   time: O(N+M*K)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 生疏
   is_best: true
   tricks: null
   official_solution: no-solution

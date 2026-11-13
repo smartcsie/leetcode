@@ -11,7 +11,7 @@ solutions:
   - array-prefix-sum
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   tricks: null
   attempts:
   - date: '2026-10-04'

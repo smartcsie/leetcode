@@ -10,8 +10,7 @@ solutions:
   - greedy-sorting-decision
   time: O(NlogN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-24'
+  familiarity: 生疏
   note: '>**nums.size()最小是3**<br>'
   attempts:
   - date: '2026-10-24'

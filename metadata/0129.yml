@@ -11,8 +11,7 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-10-04'
+  familiarity: 生疏
   related:
   - 257
   tricks:
@@ -38,8 +37,7 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-06'
+  familiarity: 生疏
   note: '> **ans不等於nullptr，表示找到答案**<br>'
   related:
   - 257

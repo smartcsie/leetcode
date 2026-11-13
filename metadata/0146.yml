@@ -13,7 +13,7 @@ solutions:
   - design
   time: O(1)
   space: O(C)
-  familiarity: 再練習
+  familiarity: 生疏
   is_best: true
   official_solution: null
   attempts:

@@ -10,8 +10,7 @@ solutions:
   - math-palindrome
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-23'
+  familiarity: 生疏
   note: '> **n >= 4 因為 n = 2，n = 3 是空範圍**;<br>
 
     > **2 <= b <= (n - 2) 因為 (n - 1) always true;**;<br>

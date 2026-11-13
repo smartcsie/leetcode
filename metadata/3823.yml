@@ -10,8 +10,7 @@ solutions:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-13'
+  familiarity: 生疏
   note: '> **ispunct交換一輪**<br>
 
     > **isalpha交換一輪**<br>'

@@ -10,8 +10,7 @@ solutions:
   - 2d-array
   time: O(m * n)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-27'
+  familiarity: 生疏
   tricks:
   - 構造法 直接蓋出唯一路徑
   - 路徑做成 L 形

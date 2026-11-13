@@ -11,8 +11,7 @@ solutions:
   - bit-manipulation-and
   time: O(K)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-19'
+  familiarity: 生疏
   note: '> 使用 **Brian Kernighan''s Algorithm** ，**n = n & (n - 1)**，有 build in function可以用<br>
 
     > **(1)** C++20，std::popcount(static_cast<unsigned int>(n)) 或  **(2)** 若編譯器(GCC/Clang)支援，
@@ -36,8 +35,7 @@ solutions:
   - bit-manipulation-and
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-14'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-19'
     result: 對

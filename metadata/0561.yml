@@ -12,7 +12,6 @@ solutions:
   - sorting
   time: O(NlogN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   is_representative: true
   representative_tag: Sorting

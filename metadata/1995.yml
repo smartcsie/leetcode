@@ -11,7 +11,7 @@ solutions:
   - array
   time: O(N⁴)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   note: '> **有最佳解**<br>'
   related:
   - 1534

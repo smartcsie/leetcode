@@ -10,8 +10,7 @@ solutions:
   - greedy
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-24'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

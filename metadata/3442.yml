@@ -10,8 +10,7 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-12'
+  familiarity: 生疏
   note: '> **用 max even frequency 減去 min even frequency**<br>'
   attempts:
   - date: '2026-10-04'

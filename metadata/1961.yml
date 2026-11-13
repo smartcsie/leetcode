@@ -11,8 +11,7 @@ solutions:
   - string
   time: O(S)
   space: O(S)
-  familiarity: 熟練
-  mastered_date: '2026-09-20'
+  familiarity: 生疏
   tricks:
   - string concatenate
   attempts:

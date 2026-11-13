@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation-or
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   note: '> **int diff = (a | b) ^ c，diff主要顯示哪些bit需要翻轉** <br>
 
     > **__builtin_popcount(diff)，計算至少需要翻轉的次數** <br>
@@ -53,8 +52,7 @@ solutions:
   - bit-manipulation-xor
   time: O(log(max(a,b,c)))
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-18'
+  familiarity: 生疏
   official_solution: null
   attempts:
   - date: '2026-09-18'

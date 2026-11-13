@@ -10,8 +10,7 @@ solutions:
   - binary-search-build-in
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   note: '> **lower_bound，upper_bound，重要基本練習題**<br>
 
     > **if(left == nums.size()，要找的數比所有數大**<br>

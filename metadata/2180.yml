@@ -10,8 +10,7 @@ solutions:
   - math-digit-decomposition
   time: O(D)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-09'
+  familiarity: 生疏
   note: '**如果digit sum是odd，return (sum - 1) / 2**<br>
 
     **如果digit sum是even，return sum / 2**<br>'

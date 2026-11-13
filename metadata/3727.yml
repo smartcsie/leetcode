@@ -10,8 +10,7 @@ solutions:
   - greedy-sorting-decision
   time: O(nlogn)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-13'
+  familiarity: 生疏
   tricks:
   - 依絕對值排序 自訂比較器
   - 雙指標

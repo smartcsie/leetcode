@@ -10,7 +10,7 @@ solutions:
   - sorting-counting-sort
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   attempts:
   - date: '2026-10-19'
     result: 對

@@ -11,8 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(N*logM)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-24'
+  familiarity: 生疏
   tricks:
   - digit sum
   attempts:

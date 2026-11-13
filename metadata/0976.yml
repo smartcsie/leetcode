@@ -10,8 +10,7 @@ solutions:
   - greedy-sorting-decision
   time: O(N log N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-29'
+  familiarity: 生疏
   tricks:
   - 排序後由大到小檢查相鄰三個數
   - 三角形不等式只需檢查兩短邊之和大於最長邊

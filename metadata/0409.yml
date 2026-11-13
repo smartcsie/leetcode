@@ -10,8 +10,7 @@ solutions:
   - greedy-frequency-merging
   time: O(N)
   space: O(K)
-  familiarity: 熟練
-  mastered_date: '2026-10-29'
+  familiarity: 生疏
   note: '> **對每個頻率，如果是偶數，直接加到res，如果是奇數，減1加到res**<br>
 
     > **如果頻率有奇數，最後res再+1**<br>'

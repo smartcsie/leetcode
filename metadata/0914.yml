@@ -10,8 +10,7 @@ solutions:
   - math-gcd
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-08'
+  familiarity: 生疏
   note: '> **先用 unordered_map算 count**<br>
 
     > **把所有count做gcd**<br>'

@@ -11,8 +11,7 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-07'
+  familiarity: 生疏
   note: '> **C(n,2)**<br>'
   related:
   - 1512

@@ -11,8 +11,7 @@ solutions:
   - array
   time: O(N³)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-17'
+  familiarity: 生疏
   related:
   - 3483
   tricks:

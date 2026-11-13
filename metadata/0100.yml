@@ -10,8 +10,7 @@ solutions:
   - tree
   time: O(N)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-14'
+  familiarity: 生疏
   note: '> **如果p q 都為空，回傳true**<br>
 
     > **p q 不為空且值相等且 isSameTree(p左子樹和q左子樹) 且 isSameTree(p右子樹和q右子樹)**<br>

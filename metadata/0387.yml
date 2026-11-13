@@ -11,8 +11,7 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   note: '> **第1個loop，統計字元出現頻頻率， **for(char c : s)  count[c-''a'']++; **<br>
 
     > **第2個loop，檢查頻率=1，return; **<br>'

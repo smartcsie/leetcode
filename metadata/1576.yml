@@ -10,8 +10,7 @@ solutions:
   - greedy-string-construction
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-25'
+  familiarity: 生疏
   note: '> 將字串中的 ''?'' 替換為合法字元，保證相鄰字元不重複遍歷字串，當遇到 ''?'' 時，從 ''a'', ''b'', ''c'' 中選出一個與左右相鄰皆不同的字元替換<br>
 
     > **for(char c = ''a''; c <= ''c''; c++) {** <br>

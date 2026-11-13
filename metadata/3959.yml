@@ -11,8 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-14'
+  familiarity: 生疏
   note: '> 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>
 
     >'

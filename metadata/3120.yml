@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-07'
+  familiarity: 生疏
   note: '> **要記錄char大小寫都有出現的字元數**<br>
 
     > **for(char c : word) {** <br>
@@ -44,8 +43,7 @@ solutions:
   - bit-manipulation-and
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-22'
+  familiarity: 生疏
   tricks:
   - accumulate lemma
   attempts:
@@ -71,8 +69,7 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-17'
+  familiarity: 生疏
   tricks:
   - bitset
   attempts:

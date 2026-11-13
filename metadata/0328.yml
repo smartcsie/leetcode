@@ -10,8 +10,7 @@ solutions:
   - two-pointers-same
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-20'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-20'
     result: 對

@@ -10,8 +10,7 @@ solutions:
   - hash-table-existence
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-13'
+  familiarity: 生疏
   is_best: true
   official_solution: synced
   tricks:
@@ -36,8 +35,7 @@ solutions:
   - math
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-13'
+  familiarity: 生疏
   official_solution: synced
   attempts:
   - date: '2026-11-10'

@@ -11,6 +11,6 @@ solutions:
   - string
   time: O(K)
   space: O(K)
-  familiarity: 練習過
+  familiarity: 生疏
   note: '> **執行次數，int times = static_cast<int>(ceil(log2(k)));** <br>'
   tricks: null

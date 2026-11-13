@@ -10,7 +10,7 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 生疏
   note: '> **ListNode *slow = head, *fast = head;，快慢指標slow找到中間前面的node**<br>
 
     > **ListNode *cur = slow->next;，cur指向後半段，slow->next = nullptr;中間切斷**<br>

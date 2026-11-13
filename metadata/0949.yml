@@ -10,8 +10,7 @@ solutions:
   - math-permutation
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-08'
+  familiarity: 生疏
   note: '> **[易忘記巧]next_permutation** <br>
 
     > **[易忘記巧]snprintf(buf, sizeof(buf), "%02d:%02d", max_time / 60, max_time % 60);

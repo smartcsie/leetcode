@@ -12,8 +12,7 @@ solutions:
   - hash-table-intersection
   time: O(N³logN)
   space: O(N²)
-  familiarity: 熟練
-  mastered_date: '2026-10-11'
+  familiarity: 生疏
   note: '> **使用 std::vector<int>當 map的key**<br>'
   tricks:
   - vector has no built-in hash

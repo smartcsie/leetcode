@@ -10,8 +10,7 @@ solutions:
   - dp-kadane
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   note: '> **注意初始化值是1**<br>'
   related:
   - 300
@@ -46,8 +45,7 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   related:
   - 485
   - 1446

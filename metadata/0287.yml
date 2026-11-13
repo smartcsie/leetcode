@@ -11,7 +11,7 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   note: '> Floyd''s Tortoise and Hare（快慢指標找環）'
   attempts:
   - date: '2026-09-25'
@@ -34,8 +34,7 @@ solutions:
   - array-negative-marking
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-14'
+  familiarity: 生疏
   note: '> **此題題目限制，看起來只有第一個fast slow pointer符合**<br>'
   attempts:
   - date: '2026-09-25'

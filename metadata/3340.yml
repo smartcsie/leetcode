@@ -11,8 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-14'
+  familiarity: 生疏
   note: '> **sum += (i % 2 == 0) ? num[i] - ''0'' : -(num[i] - ''0'');也可以**<br>'
   is_best: true
   attempts:

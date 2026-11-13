@@ -10,8 +10,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-20'
+  familiarity: 生疏
   note: '> **記得先判斷!s.empty()**<br>'
   related:
   - 1903

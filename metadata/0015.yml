@@ -12,7 +12,7 @@ solutions:
   - two-pointers-opposite
   time: O(N²)
   space: O(logN)
-  familiarity: 易忘
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

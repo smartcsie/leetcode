@@ -10,8 +10,7 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-18'
+  familiarity: 生疏
   is_best: true
   official_solution: synced
   related:

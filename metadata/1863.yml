@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation-or
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   note: '> **所有子集XOR總和的總和，等於「全體元素的 Bitwise OR 」乘以 2^(N-1)。**<br>'
   official_solution: synced
   tricks:

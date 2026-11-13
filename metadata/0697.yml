@@ -12,7 +12,7 @@ solutions:
   - array-continuous-counting
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 生疏
   related:
   - 501
   - 2404

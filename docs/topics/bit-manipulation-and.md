@@ -1,24 +1,6 @@
 # bit-manipulation-and
 
-## 🔴 生疏（0）
-
-目前沒有標記為生疏的解法。
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
-
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
-
-## 🟣 易忘（1）
-
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 M | Bit Manipulation And | [C++](../problems/3133.md) | O(1) | O(1) |  |
-
-## 🟢 熟悉（7）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -29,3 +11,20 @@
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 M | Bit Manipulation And, Greedy, Array | [C++](../problems/2419.md) | O(N) | O(1) |  |
 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 E | Bit Manipulation And | [C++](../problems/2595.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 E | Bit Manipulation And | [C++](../problems/3120.md) | O(N) | O(1) |  |
+| 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 M | Bit Manipulation And | [C++](../problems/3133.md) | O(1) | O(1) |  |
+
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

@@ -10,8 +10,7 @@ solutions:
   - string
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   note: '> **string res(s.size(), '' '');** <br>
 
     > **for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];** <br>'

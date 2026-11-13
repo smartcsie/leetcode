@@ -11,7 +11,7 @@ solutions:
   - math
   time: O(MN)
   space: O(S)
-  familiarity: 易忘
+  familiarity: 生疏
   official_solution: null
   attempts:
   - date: '2026-10-04'

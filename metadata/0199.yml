@@ -11,8 +11,7 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 熟練
-  mastered_date: '2026-09-14'
+  familiarity: 生疏
   note: '> **比102 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)多一個判斷**<br>'
   related:
   - 102

@@ -12,8 +12,7 @@ solutions:
   - tree-dfs-path
   time: O(min(N,M))
   space: O(min(N,M))
-  familiarity: 熟練
-  mastered_date: '2026-10-04'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-25'
     result: 對

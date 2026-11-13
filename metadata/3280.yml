@@ -10,7 +10,7 @@ solutions:
   - string
   time: O(1)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   tricks:
   - Format
   attempts:

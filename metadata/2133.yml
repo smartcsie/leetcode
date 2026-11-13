@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation
   time: O(N²)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-16'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-17'
     result: 對
@@ -52,8 +51,7 @@ solutions:
   - array-negative-marking
   time: O(N²)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-16'
+  familiarity: 生疏
   is_best: true
   attempts:
   - date: '2026-09-17'
@@ -94,8 +92,7 @@ solutions:
   - 2d-array
   time: O(N²)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-16'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-16'
     result: 對

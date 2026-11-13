@@ -11,8 +11,7 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-22'
+  familiarity: 生疏
   note: '>**跟[283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)一模一樣**<br>
 
     >*283 fast遇到不是0，則swap，此題是fast遇到不是val，則swap**<br>'

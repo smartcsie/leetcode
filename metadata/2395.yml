@@ -11,8 +11,7 @@ solutions:
   - hash-table-existence
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-16'
+  familiarity: 生疏
   tricks:
   - int count
   attempts:

@@ -10,8 +10,7 @@ solutions:
   - greedy-priority-queue
   time: O((a+b+c) log 3)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-04'
+  familiarity: 生疏
   attempts:
   - date: '2026-11-04'
     result: 對
@@ -31,8 +30,7 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-04'
+  familiarity: 生疏
   note: '> **邏輯如下**<br>
 
     > **int x = min({a, b, c});**<br>

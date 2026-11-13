@@ -10,8 +10,7 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-20'
+  familiarity: 生疏
   note: '> **取10進制位數，static_cast<int>(log10(x)) + 1**<br>'
   tricks:
   - number digits

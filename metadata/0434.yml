@@ -10,8 +10,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   note: '> **第一個segment，if(i == 0 && s[i] != '' '') segments++;**<br>
 
     > **第二個segment以後，*else if(i > 0 && s[i-1] == '' '' && s[i] != '' '') segments++;**<br>'

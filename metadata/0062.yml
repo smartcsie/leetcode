@@ -10,8 +10,7 @@ solutions:
   - math-combination
   time: O(min(M,N))
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-05'
+  familiarity: 生疏
   note: '> 在 **mxn** 的網格中，計算從左上角到右下角的總路徑數，<br>
 
     > **總步數為 (m-1) + (n-1)，從中選取 m-1 步向下走**。<br>

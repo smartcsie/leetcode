@@ -10,8 +10,7 @@ solutions:
   - backtracking-combination
   time: O(n2ᴺ)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   official_solution: synced
   attempts:
   - date: '2026-11-12'
@@ -27,8 +26,7 @@ solutions:
   - backtracking-combination
   time: O(n2ᴺ)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   official_solution: synced
   attempts:
   - date: '2026-11-12'
@@ -42,8 +40,7 @@ solutions:
   - bit-bitmask-subset-enumeration
   time: O(n2ᴺ)
   space: O(n)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   official_solution: synced
   attempts:
   - date: '2026-11-12'

@@ -10,7 +10,7 @@ solutions:
   - design
   time: O(L)
   space: O(N * L)
-  familiarity: 易忘
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

@@ -10,8 +10,7 @@ solutions:
   - hash-table-mapping
   time: O(N * L)
   space: O(N * L)
-  familiarity: 熟練
-  mastered_date: '2026-10-11'
+  familiarity: 生疏
   tricks:
   - Difference Array
   attempts:

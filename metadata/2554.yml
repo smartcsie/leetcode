@@ -10,8 +10,7 @@ solutions:
   - greedy-selection-constraints
   time: O(N+M)
   space: O(M)
-  familiarity: 熟練
-  mastered_date: '2026-10-24'
+  familiarity: 生疏
   note: '> **貪婪法法則，挑最小且不再banned的數，所以for loop 由小到大**<br>'
   attempts:
   - date: '2026-10-24'

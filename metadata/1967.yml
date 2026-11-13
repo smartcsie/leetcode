@@ -11,8 +11,7 @@ solutions:
   - string
   time: O(N*M)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-21'
+  familiarity: 生疏
   note: '> 用contains比find效能好<br>'
   attempts:
   - date: '2026-09-21'

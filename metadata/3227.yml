@@ -10,8 +10,7 @@ solutions:
   - math-game-theory
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-09'
+  familiarity: 生疏
   note: '> **Alice 會輸 就是完全沒有 vowel**<br>
 
     > **如果是奇數的vowel，Alice直接刪除含全部的vowel**<br>

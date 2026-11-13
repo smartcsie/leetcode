@@ -1,22 +1,6 @@
 # 2d-array
 
-## 🔴 生疏（0）
-
-目前沒有標記為生疏的解法。
-
-## 🟠 再練習（0）
-
-目前沒有標記為再練習的解法。
-
-## 🟡 練習過（0）
-
-目前沒有標記為練習過的解法。
-
-## 🟣 易忘（0）
-
-目前沒有標記為易忘的解法。
-
-## 🟢 熟悉（20）
+## 🔴 生疏（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -40,3 +24,19 @@
 | 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 E | 2d Array, Simulation | [C++](../problems/3142.md) | O(M\*N) | O(1) | ❌ 官方沒有解答 |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 E | 2d Array, Simulation | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
 | 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 E | 2d Array | [C++](../problems/3963.md) | O(m \* n) | O(1) |  |
+
+## 🟠 再練習（0）
+
+目前沒有標記為再練習的解法。
+
+## 🟡 練習過（0）
+
+目前沒有標記為練習過的解法。
+
+## 🟣 易忘（0）
+
+目前沒有標記為易忘的解法。
+
+## 🟢 熟悉（0）
+
+目前沒有標記為熟悉的解法。

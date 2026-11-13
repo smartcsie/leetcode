@@ -10,8 +10,7 @@ solutions:
   - tree
   time: O(min(N1, N2))
   space: O(min(N1, N2))
-  familiarity: 熟練
-  mastered_date: '2026-10-24'
+  familiarity: 生疏
   is_best: true
   attempts:
   - date: '2026-10-04'

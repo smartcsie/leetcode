@@ -10,8 +10,7 @@ solutions:
   - dp-lcs
   time: O(M*N)
   space: O(M*N)
-  familiarity: 熟練
-  mastered_date: '2026-11-03'
+  familiarity: 生疏
   note: '> **同1035[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/description/)**<br>'
   related:
   - 583

@@ -10,8 +10,7 @@ solutions:
   - dp-bitmask
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-22'
+  familiarity: 生疏
   related:
   - 338
   - 477

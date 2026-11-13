@@ -11,7 +11,7 @@ solutions:
   - dp-knapsack
   time: O(A*N)
   space: O(A)
-  familiarity: 練習過
+  familiarity: 生疏
   note: '>**給定一組物品（硬幣/完全平方數），每個物品可以重複選**<br>
 
     >**湊成目標值 target/amount，求最少選幾個**<br>

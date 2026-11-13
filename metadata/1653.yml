@@ -10,8 +10,7 @@ solutions:
   - dp-state-machine
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-07'
+  familiarity: 生疏
   attempts:
   - date: '2026-11-07'
     result: 對

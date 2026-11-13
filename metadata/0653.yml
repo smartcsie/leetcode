@@ -11,8 +11,7 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-25'
     result: 對
@@ -28,7 +27,7 @@ solutions:
   - binary-search-tree
   time: O(n)
   space: O(n)
-  familiarity: 易忘
+  familiarity: 生疏
   is_best: true
   tricks:
   - BST Iterator

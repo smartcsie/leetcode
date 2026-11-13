@@ -11,8 +11,7 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-18'
+  familiarity: 生疏
   related:
   - 2433
   attempts:

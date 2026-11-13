@@ -10,8 +10,7 @@ solutions:
   - stack
   time: O(N+M)
   space: O(N+M)
-  familiarity: 熟練
-  mastered_date: '2026-10-18'
+  familiarity: 生疏
   note: '> **ListNode* new_node = new ListNode(carry % 10, head);**<br>
 
     > **head = new_node;**<br>'

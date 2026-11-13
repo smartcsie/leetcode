@@ -10,8 +10,7 @@ solutions:
   - hamming-distance
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-11'
+  familiarity: 生疏
   note: '> **先求n的reverse，取n和r的Hamming Distance**<br>'
   official_solution: no-solution
   attempts:

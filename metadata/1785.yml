@@ -10,8 +10,7 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-24'
+  familiarity: 生疏
   note: '> **nums做summation，summation和goal取差值，即相減做abs **<br>
 
     > **上方結果除以limit取上界**<br>'

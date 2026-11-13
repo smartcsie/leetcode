@@ -10,8 +10,7 @@ solutions:
   - array-min-max
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   note: '> **不允許前三大有重覆**<br>
 
     > if(num > mx[1])<br>

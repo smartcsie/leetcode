@@ -10,8 +10,7 @@ solutions:
   - two-pointers-other
   time: O(N+M)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-21'
+  familiarity: 生疏
   is_best: true
   attempts:
   - date: '2026-10-04'
@@ -37,8 +36,7 @@ solutions:
   - stack
   time: O(M + N)
   space: O(M + N)
-  familiarity: 熟練
-  mastered_date: '2026-10-21'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-21'
     result: 對
@@ -54,8 +52,7 @@ solutions:
   - hash-table-existence
   time: O(M + N)
   space: O(M)
-  familiarity: 熟練
-  mastered_date: '2026-10-21'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-21'
     result: 對

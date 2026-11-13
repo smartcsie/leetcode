@@ -12,8 +12,7 @@ solutions:
   - tree-dfs-path
   time: O(N+M)
   space: O(N+M)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   tricks:
   - two way merge
   attempts:

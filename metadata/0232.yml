@@ -10,8 +10,7 @@ solutions:
   - design
   time: O(1)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-23'
+  familiarity: 生疏
   is_best: true
   attempts:
   - date: '2026-10-04'

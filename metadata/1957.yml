@@ -11,7 +11,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(N)
-  familiarity: 再練習
+  familiarity: 生疏
   attempts:
   - date: '2026-09-20'
     result: 對

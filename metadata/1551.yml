@@ -10,8 +10,7 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-29'
+  familiarity: 生疏
   note: '> **n分別減去前面n/2個之和**<br>'
   attempts:
   - date: '2026-10-29'
@@ -28,8 +27,7 @@ solutions:
   - math-formula
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-09'
+  familiarity: 生疏
   note: '> **n分別減去前面n/2個之和**<br>
 
     > **n是odd，(n^2-1)/4**<br>

@@ -1,8 +1,11 @@
 # dp-greedy-pointer
 
-## 🔴 生疏（0）
+## 🔴 生疏（2）
 
-目前沒有標記為生疏的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 M | Dp Greedy Pointer | [C++](../problems/0264.md) | O(N) | O(N) |  |
+| 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 M | Dp Greedy Pointer | [C++](../problems/0313.md) | O(N\*K) | O(N+K) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（0）
 
@@ -16,9 +19,6 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | 🟡 M | Dp Greedy Pointer | [C++](../problems/0264.md) | O(N) | O(N) |  |
-| 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | 🟡 M | Dp Greedy Pointer | [C++](../problems/0313.md) | O(N\*K) | O(N+K) | ❌ 官方沒有解答 |
+目前沒有標記為熟悉的解法。

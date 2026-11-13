@@ -11,6 +11,6 @@ solutions:
   - string
   time: O(N+M)
   space: O(M)
-  familiarity: 練習過
+  familiarity: 生疏
   tricks: null
   official_solution: no-solution

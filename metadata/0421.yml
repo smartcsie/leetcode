@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation-xor
   time: O(N*L)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   official_solution: null
   attempts:
   - date: '2026-10-04'
@@ -34,8 +33,7 @@ solutions:
   - trie
   time: O(N*L)
   space: O(N*L)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   note: '> **前綴 Trie 與前綴 HashSet 都是 O(N · L) 時間。官方的 O(1) 空間是把 L 與 M 當常數。**<br>
 
     > **實務上 Trie 用較多記憶體換較小的常數，HashSet 則是省記憶體。**<br>'

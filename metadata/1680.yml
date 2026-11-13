@@ -11,7 +11,7 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   tricks:
   - Brian Kernighan
   attempts:

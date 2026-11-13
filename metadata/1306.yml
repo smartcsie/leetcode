@@ -10,8 +10,7 @@ solutions:
   - graph-bfs
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-11-05'
+  familiarity: 生疏
   attempts:
   - date: '2026-11-05'
     result: 對
@@ -27,8 +26,7 @@ solutions:
   - graph-dfs
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-11-05'
+  familiarity: 生疏
   attempts:
   - date: '2026-11-05'
     result: 對

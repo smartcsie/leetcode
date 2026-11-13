@@ -11,8 +11,7 @@ solutions:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-18'
+  familiarity: 生疏
   note: '> 先travsal nums一次 counts紀錄出現次數<br>
 
     > 從1 ~ 51 counts次數為2的 xor到ans'

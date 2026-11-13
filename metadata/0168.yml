@@ -11,8 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(log26N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-08'
+  familiarity: 生疏
   note: '> **n--; // 先減 1，將 1-26 映射為 0-25**<br>'
   attempts:
   - date: '2026-09-17'

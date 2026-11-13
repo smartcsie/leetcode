@@ -10,8 +10,7 @@ solutions:
   - string
   time: O(N*LEN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-09'
+  familiarity: 生疏
   note: '> **int轉binary string，string b_str = std::format("{:b}", num);**'
   is_best: true
   attempts:
@@ -29,8 +28,7 @@ solutions:
   - string
   time: O(L^2 log L)
   space: O(logn)
-  familiarity: 熟練
-  mastered_date: '2026-11-09'
+  familiarity: 生疏
   note: '> **int轉binary string，string binary = bitset<32>(i).to_string();**
 
     > **binary = binary.substr(binary.find(''1''));**'

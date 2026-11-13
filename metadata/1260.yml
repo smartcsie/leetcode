@@ -11,8 +11,7 @@ solutions:
   - 2d-array
   time: O(M*N)
   space: O(K)
-  familiarity: 熟練
-  mastered_date: '2026-09-16'
+  familiarity: 生疏
   tricks:
   - 1D 2D transform
   attempts:

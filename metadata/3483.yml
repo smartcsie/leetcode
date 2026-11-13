@@ -10,8 +10,7 @@ solutions:
   - hash-table-uniqueness
   time: O(N³)
   space: O(U)
-  familiarity: 熟練
-  mastered_date: '2026-10-12'
+  familiarity: 生疏
   note: '> [for loop]'
   related:
   - 1534

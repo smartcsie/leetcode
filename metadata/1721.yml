@@ -10,8 +10,7 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-24'
+  familiarity: 生疏
   note: '> **fast從head出發，走k-1步，因為例如1->2->3，k=2，只有走到2，走2-1步**<br>
 
     > **fast走到k-1，為其中一個節點，另外一個節點繼續跟cur走到底**<br>
@@ -41,7 +40,7 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 易忘
+  familiarity: 生疏
   attempts:
   - date: '2026-09-25'
     result: 對

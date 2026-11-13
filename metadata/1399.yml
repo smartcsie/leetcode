@@ -12,8 +12,7 @@ solutions:
   - math-digit-decomposition
   time: O(N * D)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-23'
+  familiarity: 生疏
   is_best: true
   tricks:
   - running maximum with reset

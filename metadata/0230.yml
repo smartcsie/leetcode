@@ -10,8 +10,7 @@ solutions:
   - binary-search-tree
   time: O(K)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   tricks:
   - inorder travsal
   attempts:

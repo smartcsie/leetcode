@@ -10,8 +10,7 @@ solutions:
   - stack
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-31'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-31'
     result: 對

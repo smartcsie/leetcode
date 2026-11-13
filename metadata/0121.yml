@@ -11,7 +11,7 @@ solutions:
   - dp-state-machine
   time: O(N)
   space: O(1)
-  familiarity: 練習過
+  familiarity: 生疏
   note: '> **口袋只有 0 元，買一次賣一次就結束。**<br>
 
     > **buy = max(buy, -price);profit = max(profit, price);**<br>

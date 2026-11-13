@@ -10,8 +10,7 @@ solutions:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-19'
+  familiarity: 生疏
   note: '> **注意input size為奇數的陷阱，所以不能宣告為even和odd為size n/2**'
   attempts:
   - date: '2026-09-26'

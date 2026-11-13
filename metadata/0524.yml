@@ -11,7 +11,7 @@ solutions:
   - string
   time: O(DlogD+D*M)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 生疏
   note: '>'
   related:
   - 392

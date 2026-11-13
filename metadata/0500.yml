@@ -10,8 +10,7 @@ solutions:
   - string
   time: O(L)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-28'
+  familiarity: 生疏
   tricks:
   - 字母對應列號的查表
   - 位元遮罩記錄出現過的列

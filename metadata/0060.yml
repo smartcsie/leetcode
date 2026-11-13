@@ -11,7 +11,7 @@ solutions:
   - math-permutation
   time: O(N²)
   space: O(N)
-  familiarity: 易忘
+  familiarity: 生疏
   tricks: null
   attempts:
   - date: '2026-10-04'
@@ -25,7 +25,7 @@ solutions:
   - math-permutation
   time: O(N × N!)
   space: O(N)
-  familiarity: 練習過
+  familiarity: 生疏
   tricks:
   - iota
   - next_permutation

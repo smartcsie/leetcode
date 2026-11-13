@@ -10,8 +10,7 @@ solutions:
   - greedy-frequency-merging
   time: O(N log N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-29'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-29'
     result: 對

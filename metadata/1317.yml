@@ -11,8 +11,7 @@ solutions:
   - math-digit-decomposition
   time: O(N*logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-23'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-23'
     result: 對

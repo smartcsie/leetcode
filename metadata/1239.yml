@@ -10,8 +10,7 @@ solutions:
   - backtracking-combination
   time: O(2ᴺ)
   space: O(n)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   official_solution: synced
   related:
   - 2397
@@ -36,8 +35,7 @@ solutions:
   - backtracking-combination
   time: O(C(n, k) * m)
   space: ''
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   official_solution: pending
   attempts:
   - date: '2026-11-12'

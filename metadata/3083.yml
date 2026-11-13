@@ -11,8 +11,7 @@ solutions:
   - string-substring
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   note: '> **seen.insert({s[i], s[i-1]});要在前面，主要是偵測 "aa"，"bb"這種case**<br>'
   attempts:
   - date: '2026-09-26'

@@ -11,7 +11,7 @@ solutions:
   - dp-knapsack
   time: O(A*N)
   space: O(A)
-  familiarity: 練習過
+  familiarity: 生疏
   note: '> **vector<unsigned int> dp(target + 1, 0);，注意overflow**<br>
 
     > **建立 0 到 target 的 dp 表，dp[i] = 湊出 i 的組合數。**<br>

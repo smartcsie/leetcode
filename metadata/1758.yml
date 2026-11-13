@@ -10,8 +10,7 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-05'
+  familiarity: 生疏
   note: '> **count是算 01010101 ...需要修改的bit數**<br>
 
     > **(n - count)是算 10101010 ...需要修改的bit數**<br>

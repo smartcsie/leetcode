@@ -12,8 +12,7 @@ solutions:
   - linked-list
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   attempts:
   - date: '2026-09-25'
     result: 對
@@ -29,8 +28,7 @@ solutions:
   - linked-list
   time: ''
   space: ''
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   tricks:
   - reverse linked list
   - fast slow pointer

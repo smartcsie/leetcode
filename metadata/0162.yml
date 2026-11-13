@@ -10,8 +10,7 @@ solutions:
   - binary-search-find-left-bound
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-26'
+  familiarity: 生疏
   note: '> **尋找左側邊界**，用while (left < right)，同 0852 [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)<br>'
   attempts:
   - date: '2026-09-26'

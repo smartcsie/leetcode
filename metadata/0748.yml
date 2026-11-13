@@ -10,8 +10,7 @@ solutions:
   - hash-table-counting
   time: O(L + W)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-02'
+  familiarity: 生疏
   attempts:
   - date: '2026-11-02'
     result: 對

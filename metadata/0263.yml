@@ -10,8 +10,7 @@ solutions:
   - math
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-14'
+  familiarity: 生疏
   note: '> **注意邊界條件if(n <= 0) return false;**<br>'
   attempts:
   - date: '2026-09-14'

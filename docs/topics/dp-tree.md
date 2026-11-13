@@ -1,9 +1,10 @@
 # dp-tree
 
-## 🔴 生疏（3）
+## 🔴 生疏（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 M | Dp Tree | [C++](../problems/0337.md) | O(N) | O(H) |  |
 | 968 | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | 🔴 H | Dp Tree | [C++](../problems/0968.md) | O(N) | O(H) |  |
 | 1373 | [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) | 🔴 H | Dp Tree | [C++](../problems/1373.md) | O(N) | O(H) | ❌ 官方沒有解答 |
 | 2246 | [Difference Between Maximum and Minimum Price Sum](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/) | 🔴 H | Dp Tree | [C++](../problems/2246.md) | O(N) | O(N) |  |
@@ -20,11 +21,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（0）
 
-| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 M | Dp Tree | [C++](../problems/0337.md) | O(N) | O(H) |  |
+目前沒有標記為熟悉的解法。
 
 ---
 

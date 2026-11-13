@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation-mask
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-11'
+  familiarity: 生疏
   note: '> [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/)
     <br>
 
@@ -77,8 +76,7 @@ solutions:
   - bit-manipulation-mask
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-17'
+  familiarity: 生疏
   official_solution: no-solution
   attempts:
   - date: '2026-09-17'

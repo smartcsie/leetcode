@@ -10,8 +10,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-20'
+  familiarity: 生疏
   note: '> **Index 11和12是age，int age = 10 * (detail[11] - ''0'') + (detail[12] - ''0'');**
     <br>
 

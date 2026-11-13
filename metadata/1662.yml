@@ -11,8 +11,7 @@ solutions:
   - array
   time: O(N+M)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-18'
+  familiarity: 生疏
   is_best: true
   attempts:
   - date: '2026-09-18'
@@ -40,8 +39,7 @@ solutions:
   - string
   time: 時間複雜度：O(N*L)
   space: 時間複雜度：O(N*L)
-  familiarity: 熟練
-  mastered_date: '2026-09-18'
+  familiarity: 生疏
   tricks:
   - accumulate string
   attempts:

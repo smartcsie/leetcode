@@ -10,8 +10,7 @@ solutions:
   - binary-search
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   is_best: true
   official_solution: synced
   attempts:
@@ -32,8 +31,7 @@ solutions:
   - math-formula
   time: O(logN)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-11-12'
+  familiarity: 生疏
   is_best: true
   official_solution: synced
   attempts:

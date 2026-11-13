@@ -10,8 +10,7 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-10-11'
+  familiarity: 生疏
   note: '> **0->1，1->2，2->2，3->3...，6->3，7->4，**等於算(n+1)的bit數目**<br>
 
     > **return bit_width(static_cast<uint32_t>(n + 1));** <br>

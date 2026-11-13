@@ -11,8 +11,7 @@ solutions:
   - tree-dfs-backtracking
   time: O(N²)
   space: O(H²)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   related:
   - 129
   attempts:

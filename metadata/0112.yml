@@ -10,8 +10,7 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-25'
+  familiarity: 生疏
   note: '> **分葉子節點和非葉子節點處理**<br>'
   tricks:
   - tree path sum

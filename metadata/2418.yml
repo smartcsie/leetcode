@@ -10,8 +10,7 @@ solutions:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-25'
+  familiarity: 生疏
   note: '> **unordered_map<int, int>和vector<pair<int,string>>**<br>
 
     > **都不行直接greater<int>()，所以先排好heights，再unordered_map到name**<br>'
@@ -27,8 +26,7 @@ solutions:
   - sorting-custom-comparator
   time: O(NlogN)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-25'
+  familiarity: 生疏
   attempts:
   - date: '2026-10-04'
     result: 錯

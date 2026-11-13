@@ -10,8 +10,7 @@ solutions:
   - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 熟練
-  mastered_date: '2026-09-15'
+  familiarity: 生疏
   official_solution: synced
   attempts:
   - date: '2026-09-15'
@@ -36,7 +35,7 @@ solutions:
   - tree-traversal
   time: O(N)
   space: O(H)
-  familiarity: 易忘
+  familiarity: 生疏
   official_solution: synced
   attempts:
   - date: '2026-10-04'

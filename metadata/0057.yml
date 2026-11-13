@@ -10,8 +10,7 @@ solutions:
   - array-interval
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-10-15'
+  familiarity: 生疏
   note: '> **題目已經sort<br>**
 
     > **第一個while，把interval尾巴小於新interval頭都加入ans<br>**

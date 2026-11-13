@@ -11,8 +11,7 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 熟練
-  mastered_date: '2026-09-20'
+  familiarity: 生疏
   note: '> **大寫紀錄最左邊，小寫紀錄最右邊**<br>
 
     > **最後count計算所有char，小寫index在大寫前面(小於)**<br>'
