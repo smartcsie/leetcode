@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：982 題　🟠 再練習：0 題　🟣 易忘：0 題　🟢 熟練：15 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：981 題　🟠 再練習：1 題　🟣 易忘：0 題　🟢 熟練：15 題　⚪ 未標記：0 題
 
 ---
 
@@ -722,6 +722,7 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 E | Hash Table Existence | [C++](problems/1346.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 M | Hash Table Mapping, Hash Table, String | [C++](problems/0012.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 E | Hash Table Mapping, Hash Table, String | [C++](problems/0013.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Counting, Hash Table | [C++](problems/0049.md) | O(N\*K) | O(N\*K) |  |
@@ -760,7 +761,6 @@
 | 🔴 生疏 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 E | Hash Table Intersection | [C++](problems/1160.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 E | Hash Table Intersection | [C++](problems/1189.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 E | Hash Table Uniqueness, Hash Table, Counting | [C++](problems/1207.md) | O(N) | O(N) |  |
-| 🔴 生疏 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 E | Hash Table Existence, Hash Table | [C++](problems/1346.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](problems/1394.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1436 | [Destination City](https://leetcode.com/problems/destination-city) | 🟢 E | Hash Table Mapping | [C++](problems/1436.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 E | Hash Table Intersection, Hash Table | [C++](problems/1460.md) | O(N) | O(K) |  |
@@ -1292,7 +1292,7 @@
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 30 | 0 | 0 | 0 | 0 | 30 |
-| [hash-table-existence](topics/hash-table-existence.md) | 19 | 0 | 0 | 1 | 0 | 20 |
+| [hash-table-existence](topics/hash-table-existence.md) | 18 | 1 | 0 | 1 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 12 | 0 | 0 | 0 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 9 | 0 | 0 | 0 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 20 | 0 | 0 | 0 | 0 | 20 |

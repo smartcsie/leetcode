@@ -141,6 +141,7 @@
 | 383 | 👑 **compare count one side limit**<br>[Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 E | Hash Table Intersection, Hash Table | [C++](problems/0383.md) | O(M+N) | O(1) |
 | 819 | 👑 **vector transform**<br>[Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 E | Hash Table Counting, Hash Table | [C++](problems/0819.md) | O(M+N) | O(M+N) |
 | 939 | 👑 **unordered_set in unordered_map**<br>[Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 M | Hash Table Uniqueness | [C++](problems/0939.md) | O(N²) | O(N) |
+| 1346 | 👑 **Unordered Set**<br>[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 E | Hash Table Existence | [C++](problems/1346.md) | O(N) | O(N) |
 | 1496 | 👑 **vector has no built-in hash, use set instead of unordered_set.**<br>[Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 E | Hash Table Uniqueness, Hash Set, Coordinates | [C++](problems/1496.md) | O(N) | O(N) |
 | 1805 | 👑 **string find_first_not_of**<br>[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 E | Hash Table Uniqueness | [C++](problems/1805.md) | O(N) | O(N) |
 | 2001 | 👑 **Mathematical Transformation**<br>[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 M | Hash Table Counting, Hash Table | [C++](problems/2001.md) | O(N) | O(N) |
