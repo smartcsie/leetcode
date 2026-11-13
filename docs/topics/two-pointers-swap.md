@@ -1,6 +1,6 @@
 # two-pointers-swap
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12,7 +12,6 @@
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](../problems/0977.md) | O(N) | O(N) |  |
 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 E | Two Pointers Swap | [C++](../problems/1790.md) | O(N) | O(1) |  |
 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](../problems/2000.md) | O(N) | O(1) |  |
-| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 E | Two Pointers Swap, Hash Table | [C++](../problems/2441.md) | O(N) | O(N) |  |
 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](../problems/3467.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](../problems/3794.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3823 | [Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 E | Two Pointers Swap | [C++](../problems/3823.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -27,6 +26,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 E | Two Pointers Swap | [C++](../problems/2441.md) | O(N) | O(N) |  |

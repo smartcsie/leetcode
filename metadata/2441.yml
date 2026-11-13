@@ -6,13 +6,14 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Existence
-  - Hash Table
   topics:
   - hash-table-existence
   time: O(N)
-  space: O(N)
-  familiarity: 生疏
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
   is_best: true
+  official_solution: better
   related:
   - 1
   tricks:
@@ -33,16 +34,20 @@ solutions:
   - date: '2026-10-18'
     result: 對
     reason: null
+  - date: '2026-11-13'
+    result: 對
+    reason: null
 - file: Solution_2441_1.cpp
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Swap
-  - Hash Table
   topics:
   - two-pointers-swap
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
+  official_solution: null
   attempts:
   - date: '2026-09-16'
     result: 對
@@ -54,5 +59,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-18'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null

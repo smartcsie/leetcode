@@ -1,29 +1,33 @@
-/**
- * 題目：2441. Largest Positive Integer That Exists With Its Negative (與對應負數同時存在的最大正整數)
- * 難度：簡單 (Easy)
- * 描述：給你一個不包含 0 的整數陣列 nums，請你找出滿足下述條件的最大正整數 k：
- * 在陣列中同時存在 k 和 -k。如果不存在這樣的整數，回傳 -1。
- *
- * 時間複雜度：O(N)
- * 空間複雜度：O(N)
- *
- * 解法思路：
- * 1. 使用一個哈希表 (unordered_set) 來記錄我們掃描過的數字。
- * 2. 遍歷陣列中的每個數字 x：
- * - 檢查 -x 是否已經存在於集合中。
- * - 如果存在，代表 {x, -x} 這對組合出現了，此時取絕對值 |x| 並嘗試更新最大值 ans。
- * - 將當前數字 x 放入集合中。
- * 3. 遍歷結束後，ans 即為所求。
- */
+// 題目：2441. Largest Positive Integer That Exists With Its Negative
+// 難度：Easy
+// 時間複雜度：O(n)
+// 空間複雜度：O(1)（固定大小 1001 的陣列，與 n 無關）
+// 分類主題：array / hash-table
+// 技巧：bitmask 標記（用 1 表示見過正數，2 表示見過負數）
 
 class Solution {
 public:
     int findMaxK(vector<int>& nums) {
+        // count[v] 記錄絕對值為 v 的數字出現過哪些符號：
+        //   bit 0 (值 1) = 出現過 +v
+        //   bit 1 (值 2) = 出現過 -v
+        //   值 3 = 正負都出現過
+        // 題目保證 -1000 <= nums[i] <= 1000 且 nums[i] != 0，所以開 1001 格就夠
+        // {} 讓所有元素初始化為 0
+        array<uint8_t, 1001> count{};
+
+        // 沒有任何數字同時有正負時，題目要求回傳 -1
         int mx = -1;
-        unordered_set<int> seen;
+
         for(const int& x : nums) {
-            if(seen.contains(-x)) mx = max(mx, abs(x));
-            seen.insert(x);
+            int idx = abs(x);                      // 以絕對值當索引
+
+            // 正數標 1，負數標 2；用 |= 累積，重複出現同符號也不會影響結果
+            count[idx] |= (x > 0) ? 1 : 2;
+
+            // 兩種符號都見過（1 | 2 == 3），且比目前答案大就更新
+            // 一旦 == 3，無論 +v 或 -v 是後出現的，都會在第二個出現時當下判斷到
+            if(count[idx] == 3 && idx > mx) mx = idx;
         }
         return mx;
     }
