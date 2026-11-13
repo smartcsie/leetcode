@@ -1,6 +1,6 @@
 # array-linear-scan
 
-## 🔴 生疏（25）
+## 🔴 生疏（24）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 E | Array Linear Scan | [C++](../problems/1512.md) | O(N) | O(1) |  |
 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 E | Array Linear Scan | [C++](../problems/1608.md) | O(N + V) | O(V) |  |
 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 E | Array Linear Scan | [C++](../problems/1614.md) | O(N) | O(1) |  |
-| 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 E | Array Linear Scan, Math | [C++](../problems/1822.md) | O(N) | O(1) |  |
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 E | Array Linear Scan, Simulation | [C++](../problems/1848.md) | O(N) | O(1) |  |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 E | Array Linear Scan | [C++](../problems/1920.md) | O(N) | O(1) |  |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -38,8 +37,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 E | Array Linear Scan | [C++](../problems/0674.md) | O(N) | O(1) |  |
+| 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array) | 🟢 E | Array Linear Scan | [C++](../problems/1822.md) | O(N) | O(1) | ✅ 已同步官方解答 |

@@ -6,13 +6,14 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array Linear Scan
-  - Math
   topics:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
   note: '> **如果 nums.size() == 0，return 0，起一個變數sign = 1，尋訪nums，如果num < 0，sign = -sign**<br>'
+  official_solution: synced
   tricks:
   - vector scan
   attempts:
@@ -20,5 +21,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null
