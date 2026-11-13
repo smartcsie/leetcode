@@ -1,10 +1,9 @@
 # hash-table-existence
 
-## 🔴 生疏（20）
+## 🔴 生疏（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 E | Hash Table Existence | [C++](../problems/0001.md) | O(N) | O(N) |  |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 M | Hash Table Existence, Hash Table | [C++](../problems/0128.md) | O(N) | O(N) |  |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 E | Hash Table Existence | [C++](../problems/0160.md) | O(M + N) | O(M) |  |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Hash Table Existence | [C++](../problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
@@ -33,6 +32,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 E | Hash Table Existence | [C++](../problems/0001.md) | O(N) | O(N) | ✅ 已同步官方解答 |
