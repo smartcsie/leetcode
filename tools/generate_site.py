@@ -224,8 +224,6 @@ def build_problem_page(problem, solution_dir):
         familiarity_badge = ''
         if familiarity == '熟練':
             familiarity_badge = '　**熟悉度:** 🟢 熟練'
-        elif familiarity == '練習過':
-            familiarity_badge = '　**熟悉度:** 🟡 練習過'
         elif familiarity == '再練習':
             familiarity_badge = '　**熟悉度:** 🟠 再練習'
         elif familiarity == '生疏':
@@ -362,9 +360,8 @@ def build_topic_indexes(problems, topics_out_dir):
 
         unfamiliar_rows = [r for r in rows if r['familiarity'] == '生疏']
         redo_rows = [r for r in rows if r['familiarity'] == '再練習']
-        practiced_rows = [r for r in rows if r['familiarity'] == '練習過']
         forgetful_rows = [r for r in rows if r['familiarity'] == '易忘']
-        familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '再練習', '練習過', '易忘')]
+        familiar_rows = [r for r in rows if r['familiarity'] not in ('生疏', '再練習', '易忘')]
 
         lines = [f"# {topic}", '']
 
@@ -382,14 +379,6 @@ def build_topic_indexes(problems, topics_out_dir):
             lines.extend(render_table(redo_rows))
         else:
             lines.append('目前沒有標記為再練習的解法。')
-        lines.append('')
-
-        lines.append(f"## 🟡 練習過（{len(practiced_rows)}）")
-        lines.append('')
-        if practiced_rows:
-            lines.extend(render_table(practiced_rows))
-        else:
-            lines.append('目前沒有標記為練習過的解法。')
         lines.append('')
 
         lines.append(f"## 🟣 易忘（{len(forgetful_rows)}）")
@@ -476,21 +465,20 @@ def _group_anchor_id(group_title, prefix):
     return f'{prefix}-{ascii_part or "other"}'
 
 
-# 複習清單合併表的「分類」欄位 badge，以及排序用的優先度（練習過 > 再練習 >
+# 複習清單合併表的「分類」欄位 badge，以及排序用的優先度（再練習 >
 # 生疏 > 易忘），同一個主題分類（Array、Math...）底下的題目會先照這個順序排，
 # 再依題號排序。這個順序只影響 review.md 合併表的排列，跟 problem_status
-# 判斷題目整體熟悉度用的優先序（生疏 > 再練習 > 練習過 > 易忘 > 熟練）是分開的。
+# 判斷題目整體熟悉度用的優先序（生疏 > 再練習 > 易忘 > 熟練）是分開的。
 _FAMILIARITY_BADGE = {
     '生疏': '🔴 生疏',
     '再練習': '🟠 再練習',
-    '練習過': '🟡 練習過',
     '易忘': '🟣 易忘',
 }
-_FAMILIARITY_RANK = {'練習過': 0, '再練習': 1, '生疏': 2, '易忘': 3}
+_FAMILIARITY_RANK = {'再練習': 0, '生疏': 1, '易忘': 2}
 
 
 def _build_combined_review_section(rows, id_prefix):
-    """把「生疏／再練習／練習過／易忘」四份清單的解法合併，依大分類（Array、
+    """把「生疏／再練習／易忘」三份清單的解法合併，依大分類（Array、
     Math...）分組，每個分類只出一張表，表格第一欄用 badge 標示這筆解法屬於
     哪一份清單，同分類內先依清單優先度排，再依題號排序。"""
     grouped = OrderedDict()
@@ -499,7 +487,7 @@ def _build_combined_review_section(rows, id_prefix):
     for group_rows in grouped.values():
         group_rows.sort(key=lambda r: (_FAMILIARITY_RANK.get(r['familiarity'], 99), r['number']))
 
-    lines = [f'目前共有 {len(rows)} 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。', '']
+    lines = [f'目前共有 {len(rows)} 個解法標記為生疏／再練習／易忘，依分類整理如下。', '']
 
     quick_links = []
     for group in _GROUP_ORDER:
@@ -570,10 +558,9 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
 
     rows = collect_rows('生疏')
     zailianxi_rows = collect_rows('再練習')
-    lianxiguo_rows = collect_rows('練習過')
     forgetful_rows = collect_rows('易忘')
 
-    # 每一題的整體熟悉度：生疏 > 再練習 > 練習過 > 易忘 > 熟練 > 未標記（優先度由左到右，只要任一解法符合就算該題）
+    # 每一題的整體熟悉度：生疏 > 再練習 > 易忘 > 熟練 > 未標記（優先度由左到右，只要任一解法符合就算該題）
     problem_status = {}
     topic_stats = OrderedDict()
 
@@ -584,8 +571,6 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
             status = '生疏'
         elif '再練習' in statuses:
             status = '再練習'
-        elif '練習過' in statuses:
-            status = '練習過'
         elif '易忘' in statuses:
             status = '易忘'
         elif '熟練' in statuses:
@@ -599,24 +584,23 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
             for topic in to_list(sol.get('topics')):
                 problem_topics.add(topic)
         for topic in problem_topics:
-            stat = topic_stats.setdefault(topic, {'生疏': 0, '再練習': 0, '練習過': 0, '易忘': 0, '熟練': 0, '未標記': 0})
+            stat = topic_stats.setdefault(topic, {'生疏': 0, '再練習': 0, '易忘': 0, '熟練': 0, '未標記': 0})
             stat[status] += 1
 
     total_problems = len(problems)
     total_shengshu = sum(1 for s in problem_status.values() if s == '生疏')
     total_zailianxi = sum(1 for s in problem_status.values() if s == '再練習')
-    total_lianxiguo = sum(1 for s in problem_status.values() if s == '練習過')
     total_yiwang = sum(1 for s in problem_status.values() if s == '易忘')
     total_shulian = sum(1 for s in problem_status.values() if s == '熟練')
-    total_unmarked = total_problems - total_shengshu - total_zailianxi - total_lianxiguo - total_yiwang - total_shulian
+    total_unmarked = total_problems - total_shengshu - total_zailianxi - total_yiwang - total_shulian
 
     ac_info = load_ac_cache(ac_cache_path)
 
-    # 把生疏／再練習／練習過／易忘四份清單合併成一份，每筆解法各自帶著
+    # 把生疏／再練習／易忘三份清單合併成一份，每筆解法各自帶著
     # 自己的 familiarity，後面依分類（Array、Math...）分組、每個分類一張表。
     combined_rows = []
     for familiarity, flist in (('生疏', rows), ('再練習', zailianxi_rows),
-                               ('練習過', lianxiguo_rows), ('易忘', forgetful_rows)):
+                               ('易忘', forgetful_rows)):
         for r in flist:
             r2 = dict(r)
             r2['familiarity'] = familiarity
@@ -637,7 +621,7 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
 
     lines.append(f"- **目前收錄總題目數：** {total_problems} 題　"
                  f"🔴 生疏：{total_shengshu} 題　🟠 再練習：{total_zailianxi} 題　"
-                 f"🟡 練習過：{total_lianxiguo} 題　🟣 易忘：{total_yiwang} 題　"
+                 f"🟣 易忘：{total_yiwang} 題　"
                  f"🟢 熟練：{total_shulian} 題　⚪ 未標記：{total_unmarked} 題")
     lines.append('')
     lines.append('---')
@@ -649,21 +633,21 @@ def build_review_page(problems, docs_dir, ac_cache_path='leetcode_ac_cache.json'
 
     lines.append('---')
     lines.append('')
-    lines.append('## 📊 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計')
+    lines.append('## 📊 各分類生疏 / 再練習 / 易忘 / 熟練統計')
     lines.append('')
-    lines.append('| 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |')
-    lines.append('| --- | --- | --- | --- | --- | --- | --- | --- |')
+    lines.append('| 分類 | 🔴 生疏 | 🟠 再練習 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |')
+    lines.append('| --- | --- | --- | --- | --- | --- | --- |')
     for topic, stat in sorted(topic_stats.items()):
-        topic_total = (stat['生疏'] + stat['再練習'] + stat['練習過'] +
+        topic_total = (stat['生疏'] + stat['再練習'] +
                        stat['易忘'] + stat['熟練'] + stat['未標記'])
         lines.append(f"| [{topic}](topics/{topic}.md) | {stat['生疏']} | {stat['再練習']} | "
-                     f"{stat['練習過']} | {stat['易忘']} | {stat['熟練']} | {stat['未標記']} | {topic_total} |")
+                     f"{stat['易忘']} | {stat['熟練']} | {stat['未標記']} | {topic_total} |")
     lines.append('')
 
     with open(os.path.join(docs_dir, 'review.md'), 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
 
-    return len(rows) + len(zailianxi_rows) + len(lianxiguo_rows) + len(forgetful_rows)
+    return len(rows) + len(zailianxi_rows) + len(forgetful_rows)
 
 
 def get_latest_attempt_date(entity):
@@ -798,7 +782,7 @@ def main():
     print(f"\n寫入 {len(topic_rows)} 個 docs/topics/*.md")
 
     review_count = build_review_page(problems, docs_dir)
-    print(f"複習清單（練習過／再練習／生疏）: {review_count} 筆 -> docs/review.md")
+    print(f"複習清單（生疏／再練習／易忘）: {review_count} 筆 -> docs/review.md")
 
     topic_index_count = build_topic_index_page(problems, docs_dir)
     print(f"主題索引: {topic_index_count} 筆代表題 -> docs/topic_index.md")

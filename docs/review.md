@@ -3,13 +3,13 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：996 題　🟠 再練習：0 題　🟡 練習過：0 題　🟣 易忘：0 題　🟢 熟練：1 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：996 題　🟠 再練習：0 題　🟣 易忘：0 題　🟢 熟練：1 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 1094 個解法標記為生疏／再練習／練習過／易忘，依分類整理如下。
+目前共有 1094 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
 📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（142）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（133）](#review-array)　[🌳 Tree（97）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（70）](#review-pointers)　[🔑 Hash Table（95）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
@@ -1235,132 +1235,132 @@
 
 ---
 
-## 📊 各分類生疏 / 再練習 / 練習過 / 易忘 / 熟練統計
+## 📊 各分類生疏 / 再練習 / 易忘 / 熟練統計
 
-| 分類 | 🔴 生疏 | 🟠 再練習 | 🟡 練習過 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [2d-array](topics/2d-array.md) | 20 | 0 | 0 | 0 | 0 | 0 | 20 |
-| [array](topics/array.md) | 27 | 0 | 0 | 0 | 0 | 0 | 27 |
-| [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 14 | 0 | 0 | 0 | 0 | 0 | 14 |
-| [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 25 | 0 | 0 | 0 | 0 | 0 | 25 |
-| [array-min-max](topics/array-min-max.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [array-negative-marking](topics/array-negative-marking.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 0 | 19 |
-| [array-suffix-sum](topics/array-suffix-sum.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [backtracking-combination](topics/backtracking-combination.md) | 17 | 0 | 0 | 0 | 0 | 0 | 17 |
-| [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [binary-search](topics/binary-search.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
-| [binary-search-build-in](topics/binary-search-build-in.md) | 10 | 0 | 0 | 0 | 0 | 0 | 10 |
-| [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 8 | 0 | 0 | 0 | 0 | 0 | 8 |
-| [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [binary-search-tree](topics/binary-search-tree.md) | 16 | 0 | 0 | 0 | 0 | 0 | 16 |
-| [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [bit-manipulation](topics/bit-manipulation.md) | 36 | 0 | 0 | 0 | 0 | 0 | 36 |
-| [bit-manipulation-and](topics/bit-manipulation-and.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [bit-manipulation-or](topics/bit-manipulation-or.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 17 | 0 | 0 | 0 | 0 | 0 | 17 |
-| [design](topics/design.md) | 10 | 0 | 0 | 0 | 0 | 0 | 10 |
-| [dp-bitmask](topics/dp-bitmask.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [dp-fibonacci](topics/dp-fibonacci.md) | 8 | 0 | 0 | 0 | 0 | 0 | 8 |
-| [dp-game-theory](topics/dp-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [dp-greedy-pointer](topics/dp-greedy-pointer.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [dp-grid-path](topics/dp-grid-path.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [dp-kadane](topics/dp-kadane.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [dp-knapsack](topics/dp-knapsack.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
-| [dp-lcs](topics/dp-lcs.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
-| [dp-lis](topics/dp-lis.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [dp-probability](topics/dp-probability.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [dp-state-machine](topics/dp-state-machine.md) | 8 | 0 | 0 | 0 | 0 | 0 | 8 |
-| [dp-string](topics/dp-string.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [dp-tree](topics/dp-tree.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [dynamic-programming](topics/dynamic-programming.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
-| [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 0 | 10 |
-| [graph-bfs](topics/graph-bfs.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [graph-dfs](topics/graph-dfs.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [graph-mst](topics/graph-mst.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 19 | 0 | 0 | 0 | 0 | 0 | 19 |
-| [greedy-coin-change](topics/greedy-coin-change.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy-digit-construction](topics/greedy-digit-construction.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
-| [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [greedy-frequency-merging](topics/greedy-frequency-merging.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [greedy-graph](topics/greedy-graph.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [greedy-interval-scheduling](topics/greedy-interval-scheduling.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [greedy-job-sequencing](topics/greedy-job-sequencing.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [greedy-optimal-partitioning](topics/greedy-optimal-partitioning.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [greedy-parity-contribution](topics/greedy-parity-contribution.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 16 | 0 | 0 | 0 | 0 | 0 | 16 |
-| [greedy-string-construction](topics/greedy-string-construction.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 30 | 0 | 0 | 0 | 0 | 0 | 30 |
-| [hash-table-existence](topics/hash-table-existence.md) | 20 | 0 | 0 | 0 | 0 | 0 | 20 |
-| [hash-table-intersection](topics/hash-table-intersection.md) | 12 | 0 | 0 | 0 | 0 | 0 | 12 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 20 | 0 | 0 | 0 | 0 | 0 | 20 |
-| [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 0 | 17 |
-| [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 38 | 0 | 0 | 0 | 0 | 0 | 38 |
-| [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 0 | 5 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 42 | 0 | 0 | 0 | 0 | 0 | 42 |
-| [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [math-formula](topics/math-formula.md) | 10 | 0 | 0 | 0 | 0 | 0 | 10 |
-| [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 9 | 0 | 0 | 0 | 0 | 0 | 9 |
-| [math-geometry](topics/math-geometry.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [math-permutation](topics/math-permutation.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [math-prime](topics/math-prime.md) | 14 | 0 | 0 | 0 | 0 | 0 | 14 |
-| [math-simulation](topics/math-simulation.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [monotonic-stack](topics/monotonic-stack.md) | 8 | 0 | 0 | 0 | 0 | 0 | 8 |
-| [priority-queue](topics/priority-queue.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [queue](topics/queue.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [quick-select](topics/quick-select.md) | 8 | 0 | 0 | 0 | 0 | 0 | 8 |
-| [sorting](topics/sorting.md) | 14 | 0 | 0 | 0 | 0 | 0 | 14 |
-| [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [sorting-counting-sort](topics/sorting-counting-sort.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
-| [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 16 | 0 | 0 | 0 | 0 | 0 | 16 |
-| [string](topics/string.md) | 35 | 0 | 0 | 0 | 1 | 0 | 36 |
-| [string-character-classification](topics/string-character-classification.md) | 31 | 0 | 0 | 0 | 0 | 0 | 31 |
-| [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [string-substring](topics/string-substring.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [string-substring-enumeration](topics/string-substring-enumeration.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [tree](topics/tree.md) | 4 | 0 | 0 | 0 | 0 | 0 | 4 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 16 | 0 | 0 | 0 | 0 | 0 | 16 |
-| [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 30 | 0 | 0 | 0 | 0 | 0 | 30 |
-| [tree-traversal](topics/tree-traversal.md) | 7 | 0 | 0 | 0 | 0 | 0 | 7 |
-| [trie](topics/trie.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 16 | 0 | 0 | 0 | 0 | 0 | 16 |
-| [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 20 | 0 | 0 | 0 | 0 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 14 | 0 | 0 | 0 | 0 | 0 | 14 |
-| [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
-| [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 0 | 11 |
+| 分類 | 🔴 生疏 | 🟠 再練習 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
+| --- | --- | --- | --- | --- | --- | --- |
+| [2d-array](topics/2d-array.md) | 20 | 0 | 0 | 0 | 0 | 20 |
+| [array](topics/array.md) | 27 | 0 | 0 | 0 | 0 | 27 |
+| [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 14 | 0 | 0 | 0 | 0 | 14 |
+| [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
+| [array-linear-scan](topics/array-linear-scan.md) | 25 | 0 | 0 | 0 | 0 | 25 |
+| [array-min-max](topics/array-min-max.md) | 7 | 0 | 0 | 0 | 0 | 7 |
+| [array-negative-marking](topics/array-negative-marking.md) | 6 | 0 | 0 | 0 | 0 | 6 |
+| [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 19 |
+| [array-suffix-sum](topics/array-suffix-sum.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [backtracking-combination](topics/backtracking-combination.md) | 17 | 0 | 0 | 0 | 0 | 17 |
+| [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [backtracking-grid](topics/backtracking-grid.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [backtracking-permutation](topics/backtracking-permutation.md) | 5 | 0 | 0 | 0 | 0 | 5 |
+| [binary-search](topics/binary-search.md) | 9 | 0 | 0 | 0 | 0 | 9 |
+| [binary-search-build-in](topics/binary-search-build-in.md) | 10 | 0 | 0 | 0 | 0 | 10 |
+| [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 8 | 0 | 0 | 0 | 0 | 8 |
+| [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [binary-search-tree](topics/binary-search-tree.md) | 16 | 0 | 0 | 0 | 0 | 16 |
+| [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [bit-manipulation](topics/bit-manipulation.md) | 36 | 0 | 0 | 0 | 0 | 36 |
+| [bit-manipulation-and](topics/bit-manipulation-and.md) | 7 | 0 | 0 | 0 | 0 | 7 |
+| [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [bit-manipulation-or](topics/bit-manipulation-or.md) | 9 | 0 | 0 | 0 | 0 | 9 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 17 | 0 | 0 | 0 | 0 | 17 |
+| [design](topics/design.md) | 10 | 0 | 0 | 0 | 0 | 10 |
+| [dp-bitmask](topics/dp-bitmask.md) | 7 | 0 | 0 | 0 | 0 | 7 |
+| [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [dp-fibonacci](topics/dp-fibonacci.md) | 8 | 0 | 0 | 0 | 0 | 8 |
+| [dp-game-theory](topics/dp-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 6 |
+| [dp-greedy-pointer](topics/dp-greedy-pointer.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [dp-grid-path](topics/dp-grid-path.md) | 6 | 0 | 0 | 0 | 0 | 6 |
+| [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 6 |
+| [dp-kadane](topics/dp-kadane.md) | 5 | 0 | 0 | 0 | 0 | 5 |
+| [dp-knapsack](topics/dp-knapsack.md) | 12 | 0 | 0 | 0 | 0 | 12 |
+| [dp-lcs](topics/dp-lcs.md) | 11 | 0 | 0 | 0 | 0 | 11 |
+| [dp-lis](topics/dp-lis.md) | 7 | 0 | 0 | 0 | 0 | 7 |
+| [dp-probability](topics/dp-probability.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [dp-state-machine](topics/dp-state-machine.md) | 8 | 0 | 0 | 0 | 0 | 8 |
+| [dp-string](topics/dp-string.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [dp-tree](topics/dp-tree.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [dynamic-programming](topics/dynamic-programming.md) | 5 | 0 | 0 | 0 | 0 | 5 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 12 | 0 | 0 | 0 | 0 | 12 |
+| [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 10 |
+| [graph-bfs](topics/graph-bfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [graph-dfs](topics/graph-dfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [graph-mst](topics/graph-mst.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [greedy](topics/greedy.md) | 19 | 0 | 0 | 0 | 0 | 19 |
+| [greedy-coin-change](topics/greedy-coin-change.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [greedy-digit-construction](topics/greedy-digit-construction.md) | 9 | 0 | 0 | 0 | 0 | 9 |
+| [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [greedy-frequency-merging](topics/greedy-frequency-merging.md) | 5 | 0 | 0 | 0 | 0 | 5 |
+| [greedy-graph](topics/greedy-graph.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [greedy-interval-scheduling](topics/greedy-interval-scheduling.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [greedy-job-sequencing](topics/greedy-job-sequencing.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [greedy-optimal-partitioning](topics/greedy-optimal-partitioning.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [greedy-parity-contribution](topics/greedy-parity-contribution.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 16 | 0 | 0 | 0 | 0 | 16 |
+| [greedy-string-construction](topics/greedy-string-construction.md) | 7 | 0 | 0 | 0 | 0 | 7 |
+| [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [hash-table-counting](topics/hash-table-counting.md) | 30 | 0 | 0 | 0 | 0 | 30 |
+| [hash-table-existence](topics/hash-table-existence.md) | 20 | 0 | 0 | 0 | 0 | 20 |
+| [hash-table-intersection](topics/hash-table-intersection.md) | 12 | 0 | 0 | 0 | 0 | 12 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 9 | 0 | 0 | 0 | 0 | 9 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 20 | 0 | 0 | 0 | 0 | 20 |
+| [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
+| [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [math](topics/math.md) | 38 | 0 | 0 | 0 | 0 | 38 |
+| [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 42 | 0 | 0 | 0 | 0 | 42 |
+| [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [math-formula](topics/math-formula.md) | 10 | 0 | 0 | 0 | 0 | 10 |
+| [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 6 |
+| [math-gcd](topics/math-gcd.md) | 9 | 0 | 0 | 0 | 0 | 9 |
+| [math-geometry](topics/math-geometry.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [math-permutation](topics/math-permutation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [math-prime](topics/math-prime.md) | 14 | 0 | 0 | 0 | 0 | 14 |
+| [math-simulation](topics/math-simulation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [monotonic-stack](topics/monotonic-stack.md) | 8 | 0 | 0 | 0 | 0 | 8 |
+| [priority-queue](topics/priority-queue.md) | 7 | 0 | 0 | 0 | 0 | 7 |
+| [queue](topics/queue.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [quick-select](topics/quick-select.md) | 8 | 0 | 0 | 0 | 0 | 8 |
+| [sorting](topics/sorting.md) | 14 | 0 | 0 | 0 | 0 | 14 |
+| [sorting-bucket-sort](topics/sorting-bucket-sort.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [sorting-counting-sort](topics/sorting-counting-sort.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [sorting-custom-comparator](topics/sorting-custom-comparator.md) | 11 | 0 | 0 | 0 | 0 | 11 |
+| [sorting-cycle-decomposition](topics/sorting-cycle-decomposition.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [stack](topics/stack.md) | 16 | 0 | 0 | 0 | 0 | 16 |
+| [string](topics/string.md) | 35 | 0 | 0 | 1 | 0 | 36 |
+| [string-character-classification](topics/string-character-classification.md) | 31 | 0 | 0 | 0 | 0 | 31 |
+| [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [string-substring](topics/string-substring.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [string-substring-enumeration](topics/string-substring-enumeration.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [tree](topics/tree.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 16 | 0 | 0 | 0 | 0 | 16 |
+| [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 30 | 0 | 0 | 0 | 0 | 30 |
+| [tree-traversal](topics/tree-traversal.md) | 7 | 0 | 0 | 0 | 0 | 7 |
+| [trie](topics/trie.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 16 | 0 | 0 | 0 | 0 | 16 |
+| [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 0 | 3 |
+| [two-pointers-same](topics/two-pointers-same.md) | 20 | 0 | 0 | 0 | 0 | 20 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 14 | 0 | 0 | 0 | 0 | 14 |
+| [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
+| [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |
 
