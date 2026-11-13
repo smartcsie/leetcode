@@ -10,7 +10,8 @@ solutions:
   - math
   time: O(log₃N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-13'
   note: '> **(n > 0) && static_cast<int>(pow(3, 19)) % n == 0**<br>
 
     > 連除solution
@@ -20,7 +21,11 @@ solutions:
     > ** while((n % 3) == 0) n /= 3;**<br>
 
     > **return (n == 1);**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-13'
+    result: 對
+    reason: null
+  - date: '2026-11-13'
     result: 對
     reason: null
