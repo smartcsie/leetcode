@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：971 題　🟠 再練習：1 題　🟣 易忘：4 題　🟢 熟練：21 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：970 題　🟠 再練習：2 題　🟣 易忘：4 題　🟢 熟練：21 題　⚪ 未標記：0 題
 
 ---
 
@@ -352,6 +352,7 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 H | Array Negative Marking, Math | [C++](problems/0041.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 M | 2d Array | [C++](problems/0048.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 M | Array, Simulation | [C++](problems/0054.md) | O(M\*N) | O(1) |  |
@@ -393,7 +394,6 @@
 | 🔴 生疏 | 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 E | 2d Array, Math | [C++](problems/1252.md) | O(K+MN) | O(M+N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array, Simulation | [C++](problems/1260.md) | O(M\*N) | O(K) |  |
 | 🔴 生疏 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 M | Array Interval, Greedy | [C++](problems/1288.md) | O(NlogN) | O(logN) |  |
-| 🔴 生疏 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | 🟢 E | Array Linear Scan, Hash Table, String Parsing | [C++](problems/1309.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 E | Array Prefix Sum | [C++](problems/1365.md) | O(N+K) | O(K) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 E | Array Prefix Sum | [C++](problems/1422.md) | O(N) | O(1) |  |
@@ -1216,7 +1216,7 @@
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 20 | 0 | 0 | 0 | 0 | 20 |
-| [array](topics/array.md) | 19 | 0 | 0 | 8 | 0 | 27 |
+| [array](topics/array.md) | 18 | 1 | 0 | 8 | 0 | 27 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 14 | 0 | 0 | 1 | 0 | 15 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |

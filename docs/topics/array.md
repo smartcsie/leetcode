@@ -1,6 +1,6 @@
 # array
 
-## 🔴 生疏（19）
+## 🔴 生疏（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 M | Array, Simulation | [C++](../problems/0059.md) | O(N²) | O(1) |  |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 M | Array | [C++](../problems/0189.md) | O(N) | O(1) |  |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | 🟢 E | Array | [C++](../problems/0997.md) | O(n + T) | O(n) |  |
-| 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](../problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 E | Array | [C++](../problems/1470.md) | O(N) | O(N) |  |
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 E | Array, Sorting, Math | [C++](../problems/1491.md) | O(N) | O(1) |  |
 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 E | Array, Brute Force | [C++](../problems/1534.md) | O(N³) | O(1) |  |
@@ -24,9 +23,11 @@
 | 3477 | [Fruits Into Baskets II](https://leetcode.com/problems/fruits-into-baskets-ii/) | 🟢 E | Array, Simulation, Brute Force | [C++](../problems/3477.md) | O(N^2) | O(1) |  |
 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 E | Array, Brute Force | [C++](../problems/3969.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](../problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（0）
 
