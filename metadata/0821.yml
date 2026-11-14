@@ -6,12 +6,16 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array
-  - Two-Pass Scan
   topics:
   - array
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-14'
+  note: '>**初始化vector<int> ans(n, INT_MAX);**<br>
+
+    >**prev = INT_MAX，next = INT_MAX**<br>'
+  official_solution: null
   attempts:
   - date: '2026-09-18'
     result: 對
@@ -20,5 +24,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-11-14'
     result: 對
     reason: null

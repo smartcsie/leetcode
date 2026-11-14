@@ -15,9 +15,9 @@ public:
     vector<int> shortestToChar(string s, char c) {
         int n = s.size();
         vector<int> ans(n, INT_MAX);
-        for(int i = 0, pre = INT_MIN ; i < n; i++) {
-            if(s[i] == c) pre = i;
-            if(pre != INT_MIN) ans[i] = min(ans[i], i - pre);
+        for(int i = 0, prev = INT_MIN ; i < n; i++) {
+            if(s[i] == c) prev = i;
+            if(pre != INT_MIN) ans[i] = min(ans[i], i - prev);
         }
         for(int i = n - 1, next = INT_MAX ; i >= 0; i--) {
             if(s[i] == c) next = i;
