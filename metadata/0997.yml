@@ -10,11 +10,18 @@ solutions:
   - array
   time: O(n + T)
   space: O(n)
-  familiarity: 生疏
+  familiarity: 再練習
+  note: '> **別人相信自己，自己--，自己相信別人，別人++**br>
+
+    > **Judge條件，In-degree = 0，In-degree = n - 1++**br>'
+  official_solution: null
   attempts:
   - date: '2026-10-28'
     result: 對
     reason: null
   - date: '2026-10-28'
+    result: 對
+    reason: null
+  - date: '2026-11-14'
     result: 對
     reason: null

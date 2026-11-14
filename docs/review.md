@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：970 題　🟠 再練習：2 題　🟣 易忘：4 題　🟢 熟練：21 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：969 題　🟠 再練習：3 題　🟣 易忘：4 題　🟢 熟練：21 題　⚪ 未標記：0 題
 
 ---
 
@@ -352,6 +352,7 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | 🟢 E | Array | [C++](problems/0997.md) | O(n + T) | O(n) |  |
 | 🟠 再練習 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 H | Array Negative Marking, Math | [C++](problems/0041.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 M | 2d Array | [C++](problems/0048.md) | O(N²) | O(1) |  |
@@ -387,7 +388,6 @@
 | 🔴 生疏 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/0930.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 M | Array Prefix Sum | [C++](problems/0930.md) | O(N^2) | O(N) |  |
 | 🔴 生疏 | 986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | 🟡 M | Array Interval, Two Pointers, Interval Processing | [C++](problems/0986.md) | O(M+N) | O(1) |  |
-| 🔴 生疏 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | 🟢 E | Array | [C++](problems/0997.md) | O(n + T) | O(n) |  |
 | 🔴 生疏 | 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | 🟢 E | Array Linear Scan, Greedy, Prefix Sum | [C++](problems/1013.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 M | Array Difference Array, Difference Array, Sweep Line | [C++](problems/1094.md) | O(N+M) | O(M) |  |
 | 🔴 生疏 | 1109 | [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | 🟡 M | Array Difference Array | [C++](problems/1109.md) | O(N+K) | O(N) | ❌ 官方沒有解答 |
@@ -1216,7 +1216,7 @@
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 20 | 0 | 0 | 0 | 0 | 20 |
-| [array](topics/array.md) | 18 | 1 | 0 | 8 | 0 | 27 |
+| [array](topics/array.md) | 17 | 2 | 0 | 8 | 0 | 27 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 14 | 0 | 0 | 1 | 0 | 15 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
