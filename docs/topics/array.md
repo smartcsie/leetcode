@@ -1,13 +1,12 @@
 # array
 
-## 🔴 生疏（16）
+## 🔴 生疏（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 M | Array, Simulation | [C++](../problems/0054.md) | O(M\*N) | O(1) |  |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 M | Array, Simulation | [C++](../problems/0059.md) | O(N²) | O(1) |  |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 M | Array | [C++](../problems/0189.md) | O(N) | O(1) |  |
-| 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 E | Array, Sorting, Math | [C++](../problems/1491.md) | O(N) | O(1) |  |
 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 E | Array, Brute Force | [C++](../problems/1534.md) | O(N³) | O(1) |  |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | Array, String | [C++](../problems/1662.md) | O(N+M) | O(1) |  |
 | 1844 | [Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/) | 🟢 E | Array, In-place Manipulation | [C++](../problems/1844.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -33,7 +32,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -42,6 +41,7 @@
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 E | Array | [C++](../problems/0896.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1304 | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | 🟢 E | Array | [C++](../problems/1304.md) | O(N) | O(1) |  |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 E | Array | [C++](../problems/1389.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
+| 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 E | Array | [C++](../problems/1491.md) | O(N) | O(1) |  |
 | 1752 | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 E | Array | [C++](../problems/1752.md) | O(N) | O(1) |  |
 | 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/) | 🟢 E | Array | [C++](../problems/2855.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3978 | [Unique Middle Element](https://leetcode.com/problems/unique-middle-element/) | 🟢 E | Array | [C++](../problems/3978.md) | O(N) | O(1) | ❌ 官方沒有解答 |
