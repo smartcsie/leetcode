@@ -5,14 +5,15 @@ solutions:
 - file: Solution_1662.cpp
   difficulty: 🟢 Easy
   tags:
-  - Array
   - String
   topics:
-  - array
-  time: O(N+M)
+  - string
+  time: O(L)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-14'
   is_best: true
+  official_solution: null
   attempts:
   - date: '2026-09-18'
     result: 對
@@ -29,6 +30,9 @@ solutions:
   - date: '2026-09-18'
     result: 對
     reason: null
+  - date: '2026-11-14'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: string vector travsal
 - file: Solution_1662_1.cpp
@@ -39,7 +43,9 @@ solutions:
   - string
   time: 時間複雜度：O(N*L)
   space: 時間複雜度：O(N*L)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-14'
+  official_solution: null
   tricks:
   - accumulate string
   attempts:
@@ -53,6 +59,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-11-14'
     result: 對
     reason: null
   is_representative: true

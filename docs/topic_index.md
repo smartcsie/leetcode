@@ -54,6 +54,7 @@
 | 557 | 👑 **string reverse**<br>[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 E | String | [C++](problems/0557.md) | O(N) | O(1) |
 | 1016 | 👑 **int to binary string by format**<br>[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](problems/1016.md) | O(N\*LEN) | O(1) |
 | 1016 | 👑 **int to binary string by bitset**<br>[Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](problems/1016.md) | O(L^2 log L) | O(logn) |
+| 1662 | 👑 **string vector travsal**<br>[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | String | [C++](problems/1662.md) | O(L) | O(1) |
 | 1662 | 👑 **accumulate string**<br>[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | String | [C++](problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) |
 | 1910 | 👑 **String Erase**<br>[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 M | String, String | [C++](problems/1910.md) | O(N\*M) | O(N) |
 | 1967 | 👑 **String Contains**<br>[Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 E | String, Brute Force | [C++](problems/1967.md) | O(N\*M) | O(1) |
@@ -102,7 +103,6 @@
 | 867 | 👑 **Matrix Transpose**<br>[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 E | 2d Array, Matrix | [C++](problems/0867.md) | O(M\*N) | O(M\*N) |
 | 1389 | 👑 **vector insert element**<br>[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 E | Array | [C++](problems/1389.md) | O(N²) | O(N) |
 | 1513 | 👑 **Consecutive Count Contribution**<br>[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 M | Array Continuous Counting | [C++](problems/1513.md) | O(N) | O(1) |
-| 1662 | 👑 **string vector travsal**<br>[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | Array, String | [C++](problems/1662.md) | O(N+M) | O(1) |
 | 1752 | 👑 **Circular Array**<br>[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 E | Array | [C++](problems/1752.md) | O(N) | O(1) |
 | 1854 | 👑 **Difference Array**<br>[Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 E | Array Difference Array | [C++](problems/1854.md) | O(N+Y) | O(Y) |
 | 1929 | 👑 **vector insert vector**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) |

@@ -1,6 +1,6 @@
 # string
 
-## 🔴 生疏（37）
+## 🔴 生疏（36）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18,7 +18,6 @@
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 E | String | [C++](../problems/1108.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 E | String | [C++](../problems/1528.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 E | String, Simulation | [C++](../problems/1592.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | String | [C++](../problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) |  |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 E | String | [C++](../problems/1758.md) | O(N) | O(1) |  |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 E | String, Sorting, Bucket Sort | [C++](../problems/1859.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 M | String, String | [C++](../problems/1910.md) | O(N\*M) | O(N) |  |
@@ -50,8 +49,10 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 E | String | [C++](../problems/0412.md) | O(N) | O(1) |  |
+| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | String | [C++](../problems/1662.md) | O(L) | O(1) |  |
+| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | String | [C++](../problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) |  |

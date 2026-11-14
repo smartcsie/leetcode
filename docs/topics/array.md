@@ -1,6 +1,6 @@
 # array
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 M | Array, Simulation | [C++](../problems/0059.md) | O(N²) | O(1) |  |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 M | Array | [C++](../problems/0189.md) | O(N) | O(1) |  |
 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 E | Array, Brute Force | [C++](../problems/1534.md) | O(N³) | O(1) |  |
-| 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | Array, String | [C++](../problems/1662.md) | O(N+M) | O(1) |  |
 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 E | Array, Brute Force | [C++](../problems/1995.md) | O(N⁴) | O(1) | ❌ 官方沒有解答 |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 E | Array, Sorting | [C++](../problems/2148.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 E | Array, Two Pointers, Sorting | [C++](../problems/2824.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
