@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：969 題　🟠 再練習：3 題　🟣 易忘：4 題　🟢 熟練：21 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：968 題　🟠 再練習：4 題　🟣 易忘：4 題　🟢 熟練：21 題　⚪ 未標記：0 題
 
 ---
 
@@ -354,6 +354,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | 🟢 E | Array | [C++](problems/0997.md) | O(n + T) | O(n) |  |
 | 🟠 再練習 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 🟠 再練習 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 E | Array | [C++](problems/1470.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 H | Array Negative Marking, Math | [C++](problems/0041.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 M | 2d Array | [C++](problems/0048.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 M | Array, Simulation | [C++](problems/0054.md) | O(M\*N) | O(1) |  |
@@ -401,7 +402,6 @@
 | 🔴 生疏 | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 E | Array Linear Scan, Simulation | [C++](problems/1437.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 E | Array Continuous Counting | [C++](problems/1446.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 E | Array Min Max, Greedy, Simulation | [C++](problems/1464.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 E | Array | [C++](problems/1470.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](problems/1480.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | 🟢 E | Array, Sorting, Math | [C++](problems/1491.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 E | Array Linear Scan | [C++](problems/1512.md) | O(N) | O(1) |  |
@@ -1216,7 +1216,7 @@
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [2d-array](topics/2d-array.md) | 20 | 0 | 0 | 0 | 0 | 20 |
-| [array](topics/array.md) | 17 | 2 | 0 | 8 | 0 | 27 |
+| [array](topics/array.md) | 16 | 3 | 0 | 8 | 0 | 27 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 14 | 0 | 0 | 1 | 0 | 15 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
