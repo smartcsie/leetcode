@@ -1,6 +1,6 @@
 # 2d-array
 
-## 🔴 生疏（9）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 E | 2d Array, Simulation, Manhattan Distance | [C++](../problems/1779.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | 2d Array | [C++](../problems/2133.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 M | 2d Array, Prefix Sum, Matrix, Precomputation | [C++](../problems/2482.md) | O(M\*N) | O(M+N) |  |
-| 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 E | 2d Array, Simulation | [C++](../problems/3142.md) | O(M\*N) | O(1) | ❌ 官方沒有解答 |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 E | 2d Array, Simulation | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（3）
@@ -26,7 +25,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -37,4 +36,5 @@
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 E | 2d Array | [C++](../problems/2022.md) | O(M\*N) | O(1) | ✅ 已同步官方解答 |
 | 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 E | 2d Array | [C++](../problems/2639.md) | O(M\*N\*D) | O(1) | ❌ 官方沒有解答 |
 | 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 E | 2d Array | [C++](../problems/2923.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
+| 3142 | [Check if Grid Satisfies Conditions](https://leetcode.com/problems/check-if-grid-satisfies-conditions/) | 🟢 E | 2d Array | [C++](../problems/3142.md) | O(M\*N) | O(1) | ❌ 官方沒有解答 |
 | 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 E | 2d Array | [C++](../problems/3963.md) | O(m \* n) | O(1) | 🌟 優於官方解答 |

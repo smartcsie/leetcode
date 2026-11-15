@@ -17,12 +17,11 @@
 class Solution {
 public:
     bool satisfiesConditions(vector<vector<int>>& grid) {
-        for(int i = 1; i < grid[0].size(); i++) {
+        for(int i = 1; i < grid[0].size(); i++) 
             if(grid[0][i - 1] == grid[0][i]) return false;
-        }
-        for(int i = 1; i < grid.size(); i++) {
-            if(grid[i - 1] != grid[i]) return false;
-        }
+        vector<int> firstRow = grid[0];
+        for(const vector<int>& row : grid) 
+            if(row != firstRow) return false;
         return true;
     }
 };
