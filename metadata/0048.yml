@@ -11,7 +11,8 @@ solutions:
   time: O(N²)
   space: O(1)
   familiarity: 生疏
-  note: '> **先求matrix transpose，每個row再取reverse**<br>'
+  note: '> **先求matrix transpose，每個row再取reverse，順序不能相反**<br>'
+  official_solution: null
   related:
   - 867
   - 1886
@@ -26,6 +27,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-11-15'
     result: 對
     reason: null
   is_representative: true
