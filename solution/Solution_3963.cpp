@@ -27,11 +27,12 @@
 class Solution {
 public:
     vector<string> createGrid(int m, int n) {
-        vector<string> ans(m, string(n, '#'));  // 先全部設為障礙
-
-        for (int i = 0; i < m; i++) ans[i].back() = '.';  // 最後一行：由上往下的通道
-        for (int j = 0; j < n; j++) ans[0][j] = '.';      // 第 0 列：由左往右的通道
-
+        vector<string> ans(m);
+        ans[0] = string(n, '.');
+        string row = string(n - 1, '#') + string(1, '.');
+        for(int i = 1 ; i < m; i++) {
+            ans[i] = row;
+        }
         return ans;
     }
 };
