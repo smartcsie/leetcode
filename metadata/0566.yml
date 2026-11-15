@@ -10,8 +10,13 @@ solutions:
   - 2d-array
   time: O(m
   space: O(r
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-15'
+  official_solution: null
   attempts:
   - date: '2026-10-28'
+    result: 對
+    reason: null
+  - date: '2026-11-15'
     result: 對
     reason: null

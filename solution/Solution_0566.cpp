@@ -24,25 +24,11 @@
 class Solution {
 public:
     vector<vector<int>> matrixReshape(vector<vector<int>>& mat, int r, int c) {
-        int m = mat.size();     // 原矩陣列數
-        int n = mat[0].size();  // 原矩陣行數
-
-        // 尺寸相同，不需要重塑
-        if(m == r && n == c) return mat;
-
-        // 元素總數不同，無法重塑，回傳原矩陣
+       int m = mat.size();
+        int n = mat[0].size();
         if(m * n != r * c) return mat;
-
         vector<vector<int>> ans(r, vector<int>(c, 0));
-
-        for(int i = 0; i < m; i++) {
-            for(int j = 0; j < n; j++) {
-                int idx = i * n + j;  // (i, j) 在列優先順序下的一維編號
-                int k = idx / c;      // 對應到新矩陣的列
-                int l = idx % c;      // 對應到新矩陣的行
-                ans[k][l] = mat[i][j];
-            }
-        }
+        for(int i = 0; i < m * n; i++) ans[i / c][i % c] = mat[i / n][i % n];
         return ans;
     }
 };
