@@ -1,6 +1,6 @@
 # 2d-array
 
-## 🔴 生疏（8）
+## 🔴 生疏（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,15 +11,15 @@
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 E | 2d Array, Simulation, Manhattan Distance | [C++](../problems/1779.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | 2d Array | [C++](../problems/2133.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 M | 2d Array, Prefix Sum, Matrix, Precomputation | [C++](../problems/2482.md) | O(M\*N) | O(M+N) |  |
-| 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 E | 2d Array, Simulation | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（3）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 M | 2d Array | [C++](../problems/0048.md) | O(N²) | O(1) |  |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 E | 2d Array | [C++](../problems/0832.md) | O(N\*M) | O(1) | ✅ 已同步官方解答 |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 E | 2d Array | [C++](../problems/2319.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
+| 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 E | 2d Array | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（0）
 
