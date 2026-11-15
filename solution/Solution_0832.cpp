@@ -13,15 +13,14 @@
 
 class Solution {
 public:
-    std::vector<std::vector<int>> flipAndInvertImage(std::vector<std::vector<int>>& image) {
-        for (auto& row : image) {
-            // 1. 水平翻轉
-            std::reverse(row.begin(), row.end());
-            // 2. 取反 (XOR 1 也可以達成取反效果: val ^= 1)
-            for (int& val : row) {
-                val ^= 1; 
+    void rotate(vector<vector<int>>& matrix) {
+        for(int i = 0; i < matrix.size(); i++) {
+            for(int j = i + 1; j < matrix.size(); j++) {
+                swap(matrix[i][j], matrix[j][i]);
             }
         }
-        return image;
+        for(vector<int>& row : matrix) {
+            reverse(row.begin(), row.end());
+        }
     }
 };

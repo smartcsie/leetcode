@@ -6,17 +6,20 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - 2d Array
-  - Two Pointers
   topics:
   - 2d-array
   time: O(N*M)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
   is_best: true
+  official_solution: synced
   attempts:
   - date: '2026-09-16'
     result: 對
     reason: null
   - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-11-15'
     result: 對
     reason: null
