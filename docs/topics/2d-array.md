@@ -1,10 +1,9 @@
 # 2d-array
 
-## 🔴 生疏（20）
+## 🔴 生疏（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 M | 2d Array | [C++](../problems/0048.md) | O(N²) | O(1) |  |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 M | 2d Array, Matrix | [C++](../problems/0073.md) | O(M\*N) | O(1) |  |
 | 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | 🟢 E | 2d Array | [C++](../problems/0566.md) | O(m | O(r |  |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 E | 2d Array, Two Pointers | [C++](../problems/0832.md) | O(N\*M) | O(1) |  |
@@ -25,9 +24,11 @@
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 E | 2d Array, Simulation | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
 | 3963 | [Create Grid With Exactly One Path](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | 🟢 E | 2d Array | [C++](../problems/3963.md) | O(m \* n) | O(1) |  |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 M | 2d Array | [C++](../problems/0048.md) | O(N²) | O(1) |  |
 
 ## 🟣 易忘（0）
 
