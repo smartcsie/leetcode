@@ -14,19 +14,14 @@
 class Solution {
 public:
     vector<vector<int>> transpose(vector<vector<int>>& matrix) {
-        int m = matrix.size();
-        int n = matrix[0].size();
-        
-        // 優化：直接初始化 n x m 的二維向量，避免動態擴展空間
-        vector<vector<int>> res(n, vector<int>(m));
-        
-        for (int i = 0; i < m; ++i) {
-            for (int j = 0; j < n; ++j) {
-                // 原矩陣的 [i][j] 對應轉置後的 [j][i]
-                res[j][i] = matrix[i][j];
+        int rows = matrix.size();
+        int cols = matrix[0].size();
+        vector<vector<int>> ans(cols, vector<int>(rows, 0));
+        for(int r = 0; r < rows; r++) {
+            for(int c = 0; c < cols; c++) {
+                ans[c][r] = matrix[r][c];
             }
         }
-        
-        return res;
+        return ans;
     }
 };

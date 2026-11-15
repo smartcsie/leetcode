@@ -1,12 +1,11 @@
 # 2d-array
 
-## 🔴 生疏（12）
+## 🔴 生疏（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 M | 2d Array, Matrix | [C++](../problems/0073.md) | O(M\*N) | O(1) |  |
 | 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | 🟢 E | 2d Array | [C++](../problems/0566.md) | O(m | O(r |  |
-| 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 E | 2d Array, Matrix | [C++](../problems/0867.md) | O(M\*N) | O(M\*N) |  |
 | 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 E | 2d Array, Math | [C++](../problems/1252.md) | O(K+MN) | O(M+N) | ❌ 官方沒有解答 |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array, Simulation | [C++](../problems/1260.md) | O(M\*N) | O(K) |  |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 E | 2d Array | [C++](../problems/1572.md) | O(N) | O(1) |  |
@@ -29,10 +28,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 E | 2d Array | [C++](../problems/0867.md) | O(M\*N) | O(M\*N) | ✅ 已同步官方解答 |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 E | 2d Array | [C++](../problems/1886.md) | O(N²) | O(1) |  |
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 E | 2d Array | [C++](../problems/2022.md) | O(M\*N) | O(1) | ✅ 已同步官方解答 |
 | 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 E | 2d Array | [C++](../problems/2639.md) | O(M\*N\*D) | O(1) | ❌ 官方沒有解答 |
