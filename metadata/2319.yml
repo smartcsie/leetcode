@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - 2d Array
-  - Matrix
   topics:
   - 2d-array
   time: O(N²)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: no-solution
   attempts:
   - date: '2026-09-16'
     result: 對
@@ -19,4 +19,6 @@ solutions:
   - date: '2026-09-16'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-15'
+    result: 對
+    reason: null

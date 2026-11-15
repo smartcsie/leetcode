@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：959 題　🟠 再練習：6 題　🟣 易忘：4 題　🟢 熟練：28 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：958 題　🟠 再練習：7 題　🟣 易忘：4 題　🟢 熟練：28 題　⚪ 未標記：0 題
 
 ---
 
@@ -356,6 +356,7 @@
 | 🟠 再練習 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | 🟢 E | Array | [C++](problems/0997.md) | O(n + T) | O(n) |  |
 | 🟠 再練習 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 E | Array | [C++](problems/1470.md) | O(N) | O(N) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 E | 2d Array | [C++](problems/2319.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 H | Array Negative Marking, Math | [C++](problems/0041.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 M | Array, Simulation | [C++](problems/0054.md) | O(M\*N) | O(1) |  |
 | 🔴 生疏 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | 🟡 M | Array Interval | [C++](problems/0056.md) | O(NlogN) | O(logN) |  |
@@ -435,7 +436,6 @@
 | 🔴 生疏 | 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 E | Array Continuous Counting | [C++](problems/2210.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 E | Array Linear Scan | [C++](problems/2239.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 E | 2d Array, Matrix | [C++](problems/2319.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | 🟡 M | Array Continuous Counting | [C++](problems/2348.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 M | 2d Array, Prefix Sum, Matrix, Precomputation | [C++](problems/2482.md) | O(M\*N) | O(M+N) |  |
 | 🔴 生疏 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Array Linear Scan | [C++](problems/2485.md) | O(N) | O(1) |  |
@@ -1207,7 +1207,7 @@
 
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [2d-array](topics/2d-array.md) | 16 | 2 | 0 | 2 | 0 | 20 |
+| [2d-array](topics/2d-array.md) | 15 | 3 | 0 | 2 | 0 | 20 |
 | [array](topics/array.md) | 13 | 3 | 0 | 10 | 0 | 26 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 14 | 0 | 0 | 1 | 0 | 15 |
