@@ -6,12 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - 2d Array
-  - Simulation
   topics:
   - 2d-array
   time: O(M*N*D)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-15'
+  official_solution: no-solution
   tricks:
   - floor
   - log10
@@ -25,4 +26,6 @@ solutions:
   - date: '2026-10-15'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-15'
+    result: 對
+    reason: null

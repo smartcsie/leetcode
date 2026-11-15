@@ -20,22 +20,15 @@ public:
         int m = grid.size();
         int n = grid[0].size();
         vector<int> ans(n);
-        for(int j = 0; j < n; j++) {
-            int mx = 0;
-            for(int i = 0; i < m; i++) {
-                int val = grid[i][j];
-                int width = 0;
-                if(val == 0) width = 1;
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < m; j++) {
+                int width = (grid[j][i] < 0);
+                if(grid[j][i] == 0) width = 1;
                 else {
-                    if(val < 0) {
-                        width++;
-                        val = -val;
-                    }
-                    width += floor(log10(val)) + 1;
+                    for(int temp = grid[j][i]; temp != 0 ; temp /= 10) width++;
                 }
-                mx = max(mx, width);
+                ans[i] = max(ans[i], width);
             }
-            ans[j] = mx;
         }
         return ans;
     }
