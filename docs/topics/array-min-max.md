@@ -1,15 +1,16 @@
 # array-min-max
 
-## 🔴 生疏（2）
+## 🔴 生疏（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 E | Array Min Max, Linear Scan | [C++](../problems/0747.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | 🟢 E | Array Min Max | [C++](../problems/1629.md) | O(N) | O(1) |  |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 E | Array Min Max | [C++](../problems/0747.md) | O(N) | O(1) | 🌟 優於官方解答 |
 
 ## 🟣 易忘（0）
 

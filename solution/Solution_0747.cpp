@@ -26,21 +26,21 @@
  *    - 若次大值的兩倍仍小於等於最大值（nums[1]*2 <= nums[0]），
  *      代表最大值確實至少是所有其他數字的兩倍，回傳先前記錄的索引；否則回傳 -1。
  */
+
 class Solution {
 public:
     int dominantIndex(vector<int>& nums) {
-        int first = INT_MIN;
-        int second = INT_MIN;
-        int maxIdx = -1;
+        int mxIdx = -1;
+        int mx1 = -1, mx2 = -1;
         for(int i = 0; i < nums.size(); i++) {
-            if(nums[i] > first) {
-                second = first;
-                first = nums[i]; 
-                maxIdx = i;
-            } else if(nums[i] > second) {
-                second = nums[i]; 
+            if(nums[i] > mx1) {
+                mx2 = mx1;
+                mx1 = nums[i];
+                mxIdx = i;
+            } else if(nums[i] > mx2) {
+                mx2 = nums[i];
             }
         }
-        return first >= 2 * second ? maxIdx : -1;
+        return mx1 >= 2 * mx2 ? mxIdx : -1;
     }
 };

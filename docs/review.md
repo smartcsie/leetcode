@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：918 題　🟠 再練習：10 題　🟣 易忘：5 題　🟢 熟練：64 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：917 題　🟠 再練習：11 題　🟣 易忘：5 題　🟢 熟練：64 題　⚪ 未標記：0 題
 
 ---
 
@@ -352,6 +352,7 @@
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 M | 2d Array | [C++](problems/0048.md) | O(N²) | O(1) |  |
+| 🟠 再練習 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 E | Array Min Max | [C++](problems/0747.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 🟠 再練習 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 E | 2d Array | [C++](problems/0832.md) | O(N\*M) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | 🟢 E | Array | [C++](problems/0997.md) | O(n + T) | O(n) |  |
 | 🟠 再練習 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -379,7 +380,6 @@
 | 🔴 生疏 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 E | Array Continuous Counting | [C++](problems/0696.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 E | Array Continuous Counting, Hash Map, One-pass | [C++](problems/0697.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](problems/0724.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 E | Array Min Max, Linear Scan | [C++](problems/0747.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 E | Array Continuous Counting | [C++](problems/0830.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 848 | [Shifting Letters](https://leetcode.com/problems/shifting-letters/) | 🟡 M | Array Suffix Sum | [C++](problems/0848.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/0930.md) | O(N) | O(N) |  |
@@ -1176,7 +1176,7 @@
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 12 | 1 | 0 | 11 | 0 | 24 |
-| [array-min-max](topics/array-min-max.md) | 2 | 0 | 0 | 5 | 0 | 7 |
+| [array-min-max](topics/array-min-max.md) | 1 | 1 | 0 | 5 | 0 | 7 |
 | [array-negative-marking](topics/array-negative-marking.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 19 |
 | [array-suffix-sum](topics/array-suffix-sum.md) | 2 | 0 | 0 | 0 | 0 | 2 |
