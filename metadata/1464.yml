@@ -6,17 +6,20 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array Min Max
-  - Greedy
-  - Simulation
   topics:
   - array-min-max
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-16'
   note: '[比大小]'
+  official_solution: synced
   tricks:
   - Array Min Max With Repeat
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-11-16'
     result: 對
     reason: null
