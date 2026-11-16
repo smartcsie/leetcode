@@ -1,6 +1,6 @@
 # array-continuous-counting
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 E | Array Continuous Counting | [C++](../problems/0696.md) | O(N) | O(1) |  |
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 E | Array Continuous Counting, Hash Map, One-pass | [C++](../problems/0697.md) | O(N) | O(N) |  |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 E | Array Continuous Counting | [C++](../problems/0830.md) | O(N) | O(1) |  |
-| 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 E | Array Continuous Counting | [C++](../problems/1446.md) | O(N) | O(1) |  |
 | 1513 | [Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 M | Array Continuous Counting | [C++](../problems/1513.md) | O(N) | O(1) |  |
 | 1759 | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟡 M | Array Continuous Counting | [C++](../problems/1759.md) | O(N) | O(1) |  |
 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 E | Array Continuous Counting | [C++](../problems/1800.md) | O(N) | O(1) |  |
@@ -27,8 +26,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 E | Array Continuous Counting | [C++](../problems/1446.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 E | Array Continuous Counting | [C++](../problems/1550.md) | O(N) | O(1) | ✅ 已同步官方解答 |

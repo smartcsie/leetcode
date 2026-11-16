@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：929 題　🟠 再練習：9 題　🟣 易忘：4 題　🟢 熟練：55 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：928 題　🟠 再練習：9 題　🟣 易忘：4 題　🟢 熟練：56 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 1034 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 1033 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（141）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（91）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（85）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（141）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（90）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（85）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -348,7 +348,7 @@
 | 🔴 生疏 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 E | String, Simulation, Math | [C++](problems/3986.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-array"></a>
-#### 🍱 Array（91）
+#### 🍱 Array（90）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -395,7 +395,6 @@
 | 🔴 生疏 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | 🟢 E | Array Linear Scan, Hash Table, String Parsing | [C++](problems/1309.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 E | Array Prefix Sum | [C++](problems/1365.md) | O(N+K) | O(K) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 E | Array Prefix Sum | [C++](problems/1422.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 E | Array Continuous Counting | [C++](problems/1446.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 E | Array Min Max, Greedy, Simulation | [C++](problems/1464.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](problems/1480.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 E | Array Linear Scan | [C++](problems/1512.md) | O(N) | O(1) |  |
@@ -1182,7 +1181,7 @@
 | [2d-array](topics/2d-array.md) | 6 | 3 | 0 | 11 | 0 | 20 |
 | [array](topics/array.md) | 10 | 3 | 0 | 13 | 0 | 26 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 14 | 0 | 0 | 1 | 0 | 15 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 13 | 0 | 0 | 2 | 0 | 15 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 12 | 1 | 0 | 11 | 0 | 24 |

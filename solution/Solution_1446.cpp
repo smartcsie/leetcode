@@ -14,13 +14,12 @@
 class Solution {
 public:
     int maxPower(string s) {
-        int count = 1;
-        int mx = 0;
-        for(int i = 0; i < s.size(); i++) {
-            if(i == 0 || s[i] != s[i - 1]) count = 1;
-            else count++;
-            mx = max(mx, count);
+        int len = 1;
+        int mxLen = 1;
+        for(int i = 1 ;i < s.size(); i++) {
+            len = (s[i - 1] == s[i]) ? len + 1 : 1;
+            mxLen = max(len, mxLen);
         }
-        return mx;
+        return mxLen;
     }
 };
