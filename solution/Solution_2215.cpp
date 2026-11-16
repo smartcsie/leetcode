@@ -24,13 +24,14 @@
 class Solution {
 public:
     vector<vector<int>> findDifference(vector<int>& nums1, vector<int>& nums2) {
-        unordered_set set1(nums1.begin(), nums1.end());
-        unordered_set set2(nums2.begin(), nums2.end());
+        array<uint8_t, 2001> counts{};
+        for(const int& x : nums1) counts[x + 1000] |= 1;
+        for(const int& x : nums2) counts[x + 1000] |= 2;
         vector<vector<int>> ans(2);
-        ans[0].reserve(set1.size());
-        ans[1].reserve(set2.size());
-        for(const int& x : set1) if(!set2.count(x)) ans[0].push_back(x);
-        for(const int& x : set2) if(!set1.count(x)) ans[1].push_back(x);
+        for(int i = 0; i <= 2000; i++) {
+            if(counts[i] == 1) ans[0].push_back(i - 1000);
+            if(counts[i] == 2) ans[1].push_back(i - 1000);
+        }
         return ans;
     }
 };

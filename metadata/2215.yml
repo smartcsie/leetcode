@@ -10,8 +10,13 @@ solutions:
   - hash-table-intersection
   time: O(N+M)
   space: O(N+M)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-16'
+  official_solution: better
   attempts:
   - date: '2026-09-19'
+    result: 對
+    reason: null
+  - date: '2026-11-16'
     result: 對
     reason: null
