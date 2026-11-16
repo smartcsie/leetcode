@@ -740,7 +740,7 @@
 | 🔴 生疏 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 E | Hash Table Counting, Hash Map, Counting | [C++](problems/2283.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](problems/2341.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 M | Hash Table Existence, Hash Table | [C++](problems/2342.md) | O(N\*logM) | O(N) |  |
-| 🔴 生疏 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 E | Hash Table Counting, Hash Table | [C++](problems/2351.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 🔴 生疏 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 E | Hash Table Counting | [C++](problems/2351.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 M | Hash Table Intersection, Hash Map, Matrix Simulation | [C++](problems/2352.md) | O(N³logN) | O(N²) |  |
 | 🔴 生疏 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 E | Hash Table Uniqueness | [C++](problems/2357.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 E | Hash Table Existence, Hash Table | [C++](problems/2395.md) | O(N) | O(N) | ❌ 官方沒有解答 |

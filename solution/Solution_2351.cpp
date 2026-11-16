@@ -14,13 +14,11 @@
 class Solution {
 public:
     char repeatedCharacter(string s) {
-        char repeatedCharacter(string s) {
-        vector<int> counts(26, 0);
-        for(const char& c : s) {
+        array<uint8_t, 26> counts{};
+        for(char c : s) {
             counts[c - 'a']++;
             if(counts[c - 'a'] == 2) return c;
         }
         return ' ';
-    }
     }
 };

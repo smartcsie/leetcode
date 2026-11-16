@@ -20,7 +20,7 @@
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 M | Hash Table Counting | [C++](../problems/2225.md) | O(NlogN) | O(N) |  |
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 E | Hash Table Counting, Hash Map, Counting | [C++](../problems/2283.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](../problems/2341.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 E | Hash Table Counting, Hash Table | [C++](../problems/2351.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 E | Hash Table Counting | [C++](../problems/2351.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](../problems/2404.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 M | Hash Table Counting | [C++](../problems/2491.md) | O(NlogN) | O(1) |  |
 | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 E | Hash Table Counting | [C++](../problems/2570.md) | O(N+M) | O(1) |  |
