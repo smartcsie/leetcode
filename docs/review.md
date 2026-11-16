@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：922 題　🟠 再練習：9 題　🟣 易忘：5 題　🟢 熟練：61 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：921 題　🟠 再練習：10 題　🟣 易忘：5 題　🟢 熟練：61 題　⚪ 未標記：0 題
 
 ---
 
@@ -687,6 +687,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | Hash Table Uniqueness | [C++](problems/0884.md) | O(N+M) | O(N+M) | 🌟 優於官方解答 |
 | 🟠 再練習 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 E | Hash Table Existence | [C++](problems/1346.md) | O(N) | O(N) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 M | Hash Table Counting | [C++](problems/2225.md) | O(NlogN) | O(N) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 M | Hash Table Mapping, Hash Table, String | [C++](problems/0012.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 E | Hash Table Mapping, Hash Table, String | [C++](problems/0013.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Counting, Hash Table | [C++](problems/0049.md) | O(N\*K) | O(N\*K) |  |
@@ -736,7 +737,6 @@
 | 🔴 生疏 | 2068 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 E | Hash Table Intersection, Hash Table, Counting | [C++](problems/2068.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2085 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | 🟢 E | Hash Table Counting, Hash Map, Bitmask | [C++](problems/2085.md) | O(N+M) | O(N+M) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 M | Hash Table Existence, Hash Table, Counting | [C++](problems/2150.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 M | Hash Table Counting | [C++](problems/2225.md) | O(NlogN) | O(N) |  |
 | 🔴 生疏 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 E | Hash Table Counting, Hash Map, Counting | [C++](problems/2283.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](problems/2341.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 M | Hash Table Existence, Hash Table | [C++](problems/2342.md) | O(N\*logM) | O(N) |  |
@@ -1240,7 +1240,7 @@
 | [greedy-string-construction](topics/greedy-string-construction.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 0 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 27 | 0 | 1 | 2 | 0 | 30 |
+| [hash-table-counting](topics/hash-table-counting.md) | 26 | 1 | 1 | 2 | 0 | 30 |
 | [hash-table-existence](topics/hash-table-existence.md) | 15 | 1 | 0 | 4 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 6 | 0 | 0 | 6 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 8 | 0 | 0 | 1 | 0 | 9 |

@@ -17,14 +17,15 @@ public:
         vector<int> loses(100001, -1);
         for(const vector<int>& v : matches) {
             if(loses[v[0]] == -1) loses[v[0]] = 0;
-            if(loses[v[1]] == -1) loses[v[1]] = 1;
-            else loses[v[1]]++;
+            if(loses[v[1]] == -1) loses[v[1]] = 0;
+            loses[v[1]]++;
         }
         vector<vector<int>> ans(2);
         for(int i = 1; i <= 100000; i++) {
             if(loses[i] == 0) ans[0].push_back(i);
-            else if(loses[i] == 1) ans[1].push_back(i);
+            if(loses[i] == 1) ans[1].push_back(i);
         }
         return ans;
     }
 };
+
