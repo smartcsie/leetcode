@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：934 題　🟠 再練習：8 題　🟣 易忘：4 題　🟢 熟練：51 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：933 題　🟠 再練習：9 題　🟣 易忘：4 題　🟢 熟練：51 題　⚪ 未標記：0 題
 
 ---
 
@@ -357,6 +357,7 @@
 | 🟠 再練習 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | 🟢 E | Array | [C++](problems/0997.md) | O(n + T) | O(n) |  |
 | 🟠 再練習 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 E | Array | [C++](problems/1470.md) | O(N) | O(N) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 E | Array Linear Scan | [C++](problems/2643.md) | O(M\*N) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 E | 2d Array | [C++](problems/3417.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 H | Array Negative Marking, Math | [C++](problems/0041.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 M | Array, Simulation | [C++](problems/0054.md) | O(M\*N) | O(1) |  |
@@ -433,7 +434,6 @@
 | 🔴 生疏 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/2559.md) | O(N+Q) | O(N) |  |
 | 🔴 生疏 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 E | Array Prefix Sum | [C++](problems/2574.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2609 | [Find the Longest Balanced Substring](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 🟢 E | Greedy, Two Counters | [C++](problems/2609.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 E | Array Linear Scan, Matrix, Linear Scan | [C++](problems/2643.md) | O(M\*N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 E | Array Suffix Sum, Hash Set | [C++](problems/2670.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 E | Array, Two Pointers, Sorting | [C++](problems/2824.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3069 | [Distribute Elements Into Two Arrays I](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | 🟢 E | Array, Simulation | [C++](problems/3069.md) | O(N) | O(N) |  |
@@ -1189,7 +1189,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 14 | 0 | 0 | 1 | 0 | 15 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 14 | 0 | 0 | 10 | 0 | 24 |
+| [array-linear-scan](topics/array-linear-scan.md) | 13 | 1 | 0 | 10 | 0 | 24 |
 | [array-min-max](topics/array-min-max.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [array-negative-marking](topics/array-negative-marking.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 19 |
