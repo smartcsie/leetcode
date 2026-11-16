@@ -43,4 +43,4 @@
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 E | Array Linear Scan | [C++](../problems/2239.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 E | Array Linear Scan, Simulation | [C++](../problems/3168.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 E | Array Linear Scan | [C++](../problems/3168.md) | O(N) | O(1) | ❌ 官方沒有解答 |
