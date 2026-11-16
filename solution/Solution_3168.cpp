@@ -18,19 +18,12 @@
 class Solution {
 public:
     int minimumChairs(std::string s) {
-        int ans = 0;
         int count = 0;
-        
-        for (const char& c : s) {
-            if (c == 'E') {
-                count++;
-                // 即時更新最大需求
-                ans = std::max(ans, count);
-            } else {
-                count--;
-            }
+        int mx = 0;
+        for(char c : s) {
+            count = (c == 'E') ? count + 1 : count - 1;
+            mx = max(mx, count);
         }
-        
-        return ans;
+        return mx;
     }
 };

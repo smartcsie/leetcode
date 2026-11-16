@@ -1,6 +1,6 @@
 # array-linear-scan
 
-## 🔴 生疏（18）
+## 🔴 生疏（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16,7 +16,6 @@
 | 2176 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 E | Array Linear Scan | [C++](../problems/2176.md) | O(N^2) | O(1) |  |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Array Linear Scan | [C++](../problems/2485.md) | O(N) | O(1) |  |
 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 E | Array Linear Scan, Matrix, Linear Scan | [C++](../problems/2643.md) | O(M\*N) | O(1) | ❌ 官方沒有解答 |
-| 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 E | Array Linear Scan, Simulation | [C++](../problems/3168.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 E | Array Linear Scan | [C++](../problems/3512.md) | O(N) | O(1) |  |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 E | Array Linear Scan, Math | [C++](../problems/3701.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3861 | [Minimum Capacity Box](https://leetcode.com/problems/minimum-capacity-box/) | 🟢 E | Array Linear Scan, Linear Search | [C++](../problems/3861.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -31,7 +30,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（9）
+## 🟢 熟悉（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -44,3 +43,4 @@
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 E | Array Linear Scan | [C++](../problems/2239.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 E | Array Linear Scan, Simulation | [C++](../problems/3168.md) | O(N) | O(1) | ❌ 官方沒有解答 |
