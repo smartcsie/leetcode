@@ -16,17 +16,18 @@
 class Solution {
 public:
     int maxFrequencyElements(vector<int>& nums) {
-        vector<int> counts(101, 0);
-        int mx = 0, mxElements = 0;
+        array<uint8_t, 101> counts{};
+        int mxFreq = 0;
+        int mxCount = 0;
         for(const int& x : nums) {
             counts[x]++;
-            if(counts[x] > mx) {
-                mx = counts[x];
-                mxElements = 1;
-            } else if (counts[x] == mx) {
-                mxElements++;
+            if(static_cast<int>(counts[x]) > mxFreq) {
+                mxFreq = static_cast<int>(counts[x]);
+                mxCount = 1;
+            } else if(static_cast<int>(counts[x]) == mxFreq) {
+                mxCount++;
             }
         }
-        return mx * mxElements;
+        return mxFreq * mxCount;
     }
 };

@@ -1,6 +1,6 @@
 # hash-table-counting
 
-## 🔴 生疏（28）
+## 🔴 生疏（27）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24,7 +24,6 @@
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](../problems/2404.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 M | Hash Table Counting | [C++](../problems/2491.md) | O(NlogN) | O(1) |  |
 | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 E | Hash Table Counting | [C++](../problems/2570.md) | O(N+M) | O(1) |  |
-| 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](../problems/3005.md) | O(N) | O(1) |  |
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 E | Hash Table Counting | [C++](../problems/3289.md) | O(N) | O(1) |  |
 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 E | Hash Table Counting, Hash Map | [C++](../problems/3438.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 E | Hash Table Counting | [C++](../problems/3442.md) | O(N) | O(1) |  |
@@ -43,8 +42,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Hash Table Counting | [C++](../problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 E | Hash Table Counting | [C++](../problems/0771.md) | O(J+S) | O(J) | 🌟 優於官方解答 |
+| 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 E | Hash Table Counting | [C++](../problems/3005.md) | O(N) | O(1) | 🌟 優於官方解答 |
