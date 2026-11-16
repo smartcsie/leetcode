@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：921 題　🟠 再練習：10 題　🟣 易忘：5 題　🟢 熟練：61 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：920 題　🟠 再練習：10 題　🟣 易忘：5 題　🟢 熟練：62 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 1027 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 1026 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（141）](#review-math)　[📊 Bit Manipulation（83）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（90）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（80）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（141）](#review-math)　[📊 Bit Manipulation（83）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（89）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（80）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -347,7 +347,7 @@
 | 🔴 生疏 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 E | String, Simulation, Math | [C++](problems/3986.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-array"></a>
-#### 🍱 Array（90）
+#### 🍱 Array（89）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -439,7 +439,6 @@
 | 🔴 生疏 | 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 E | Prefix Sum, Sliding Window, Multiset | [C++](problems/3364.md) | O(NlogN) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](problems/3432.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3452 | [Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/) | 🟢 E | Array | [C++](problems/3452.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 3736 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | 🟢 E | Array Min Max | [C++](problems/3736.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 E | Array, Brute Force | [C++](problems/3969.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-tree"></a>
@@ -1179,7 +1178,7 @@
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 12 | 1 | 0 | 11 | 0 | 24 |
-| [array-min-max](topics/array-min-max.md) | 5 | 0 | 0 | 2 | 0 | 7 |
+| [array-min-max](topics/array-min-max.md) | 4 | 0 | 0 | 3 | 0 | 7 |
 | [array-negative-marking](topics/array-negative-marking.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 19 |
 | [array-suffix-sum](topics/array-suffix-sum.md) | 2 | 0 | 0 | 0 | 0 | 2 |
