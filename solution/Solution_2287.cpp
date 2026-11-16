@@ -21,16 +21,15 @@
 class Solution {
 public:
     int rearrangeCharacters(std::string s, std::string target) {
-        vector<int> countS(26, 0);
-        vector<int> countT(26, 0);
-        for(const char& c : s) countS[c - 'a']++;
-        for(const char& c : target) countT[c - 'a']++;
-        int ans = 101;
+        array<uint8_t, 26> countS{};
+        array<uint8_t, 26> countT{};
+        for(char c : s) countS[c - 'a']++;
+        for(char c : target) countT[c - 'a']++;
+        int mn = INT_MAX;
         for(int i = 0; i < 26; i++) {
-            if(countT[i]) {
-                ans = min(ans, countS[i] / countT[i]);
-            }
+            if(countT[i] == 0) continue;
+            mn = min(mn, countS[i] / countT[i]);
         }
-        return ans;
+        return mn == INT_MAX ? 0 : mn;
     }
 };
