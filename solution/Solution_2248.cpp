@@ -9,7 +9,7 @@
 class Solution {
 public:
     vector<int> intersection(vector<vector<int>>& nums) {
-        array<uint16_t, 1001> counts;
+        array<uint16_t, 1001> counts{};
         int n = nums.size();
         vector<int> ans;
         for(const vector<int>& v : nums) {
