@@ -10,12 +10,17 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
-  note: '> 全部加起來除以k取餘數，可以一邊加，一邊取餘數<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-16'
+  note: '> **全部加起來除以k取餘數，可以一邊加，一邊取餘數**<br>'
+  official_solution: no-solution
   tricks:
   - accumulate
   attempts:
   - date: '2026-09-13'
+    result: 對
+    reason: null
+  - date: '2026-11-16'
     result: 對
     reason: null
   is_representative: true
