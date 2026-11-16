@@ -22,20 +22,16 @@ class Solution {
 public:
     int numOfUnplacedFruits(std::vector<int>& fruits, std::vector<int>& baskets) {
         int n = fruits.size();
-        int ans = n; // 初始假設所有水果皆無法放置
-        
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                // 如果當前籃子的容量大於或等於水果大小
-                if (fruits[i] <= baskets[j]) {
-                    fruits[i] = 0;   // 標記該水果已被放置
-                    baskets[j] = 0;  // 標記該籃子已被使用
-                    ans--;           // 成功放置的水果數加一，未放置數減一
-                    break;           // 尋找下一個水果
+        int ans = n;
+        for(int i = 0; i < n ; i++) {
+            for(int j = 0; j < n ; j++) {
+                if(fruits[i] <= baskets[j]) {
+                    ans--;
+                    baskets[j] = 0;
+                    break;
                 }
             }
         }
-        
         return ans;
     }
 };
