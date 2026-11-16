@@ -1,6 +1,6 @@
 # hash-table-uniqueness
 
-## 🔴 生疏（23）
+## 🔴 生疏（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12,7 +12,6 @@
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0575.md) | O(N + V) | O(V) |  |
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0575.md) | O(N) | O(K) |  |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 E | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](../problems/0859.md) | O(N) | O(1) |  |
-| 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0884.md) | O(N+M) | O(N+M) |  |
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 M | Hash Table Uniqueness | [C++](../problems/0939.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0961.md) | O(N) | O(1) |  |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 E | Hash Table Uniqueness, Hash Table, Counting | [C++](../problems/1207.md) | O(N) | O(N) |  |
@@ -28,9 +27,11 @@
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 M | Hash Table Uniqueness, Hash Set, Greedy | [C++](../problems/3487.md) | O(N) | O(N) |  |
 | 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 E | Hash Table Uniqueness, Hash Table | [C++](../problems/3866.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0884.md) | O(N+M) | O(N+M) | 🌟 優於官方解答 |
 
 ## 🟣 易忘（0）
 

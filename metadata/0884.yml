@@ -10,8 +10,28 @@ solutions:
   - hash-table-uniqueness
   time: O(N+M)
   space: O(N+M)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: better
   attempts:
   - date: '2026-09-26'
     result: 對
     reason: null
+  - date: '2026-11-16'
+    result: 對
+    reason: null
+- file: Solution_0884_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String
+  topics:
+  - string
+  time: O(N+M)
+  space: O(N+M)
+  familiarity: 再練習
+  official_solution: synced
+  attempts:
+  - date: '2026-11-16'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: String split
