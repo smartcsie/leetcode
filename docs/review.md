@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：924 題　🟠 再練習：9 題　🟣 易忘：4 題　🟢 熟練：60 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：923 題　🟠 再練習：9 題　🟣 易忘：5 題　🟢 熟練：60 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 1029 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 1028 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（141）](#review-math)　[📊 Bit Manipulation（84）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（90）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（81）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（141）](#review-math)　[📊 Bit Manipulation（83）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（90）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（81）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -177,7 +177,7 @@
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-bit-manipulation"></a>
-#### 📊 Bit Manipulation（84）
+#### 📊 Bit Manipulation（83）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -217,7 +217,6 @@
 | 🔴 生疏 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 E | Bit Manipulation Or, Bit Manipulation | [C++](problems/1684.md) | O(N\*M) | O(1) |  |
 | 🔴 生疏 | 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 E | Bit Manipulation Xor, Simulation | [C++](problems/1720.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 E | Bit Manipulation, Math, String | [C++](problems/1812.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Bit Manipulation | [C++](problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 E | Bit Manipulation Or | [C++](problems/1863.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 E | Bit Manipulation, Bitset, Simulation | [C++](problems/1893.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 E | Bit Manipulation | [C++](problems/2032.md) | O(N1+N2+N3) | O(1) | ❌ 官方沒有解答 |
@@ -729,7 +728,6 @@
 | 🔴 生疏 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 M | Hash Table Counting | [C++](problems/1647.md) | O(N+KlogK) | O(K) |  |
 | 🔴 生疏 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 E | Hash Table Uniqueness, Simulation | [C++](problems/1790.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 E | Hash Table Uniqueness | [C++](problems/1805.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Hash Table Counting, String, Hash Table | [C++](problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](problems/1897.md) | O(N\*M) | O(1) |  |
 | 🔴 生疏 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 E | Hash Table Uniqueness, Hash Table, Counting | [C++](problems/1941.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 M | Hash Table Counting, Hash Table | [C++](problems/2001.md) | O(N) | O(N) | ❌ 官方沒有解答 |
@@ -767,6 +765,7 @@
 | 🔴 生疏 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 E | Hash Table Counting, Hash Table | [C++](problems/3843.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 E | Hash Table Uniqueness, Hash Table | [C++](problems/3866.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 M | String, Hash Map | [C++](problems/3926.md) | O(N+M) | O(N) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Hash Table Counting | [C++](problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-stack"></a>
 #### 📚 Stack（24）
@@ -1196,7 +1195,7 @@
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [binary-search-tree](topics/binary-search-tree.md) | 16 | 0 | 0 | 0 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [bit-manipulation](topics/bit-manipulation.md) | 35 | 0 | 1 | 0 | 0 | 36 |
+| [bit-manipulation](topics/bit-manipulation.md) | 34 | 0 | 2 | 0 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 9 | 0 | 0 | 0 | 0 | 9 |
@@ -1242,7 +1241,7 @@
 | [greedy-string-construction](topics/greedy-string-construction.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 0 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 29 | 0 | 0 | 1 | 0 | 30 |
+| [hash-table-counting](topics/hash-table-counting.md) | 28 | 0 | 1 | 1 | 0 | 30 |
 | [hash-table-existence](topics/hash-table-existence.md) | 15 | 1 | 0 | 4 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 6 | 0 | 0 | 6 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 8 | 0 | 0 | 1 | 0 | 9 |

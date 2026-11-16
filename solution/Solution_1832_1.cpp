@@ -29,10 +29,11 @@
 class Solution {
 public:
     bool checkIfPangram(string sentence) {
-        sint mask = 0;
+        int count = 0;
         for(char c : sentence) {
-            mask |= 1 << (c - 'a');
+            count |= 1 << (c - 'a');
+            if(count == (1 << 26) - 1) return true;
         }
-        return mask == (1 << 26) - 1;
+        return false;
     }
 };
