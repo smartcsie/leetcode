@@ -1,12 +1,11 @@
 # array
 
-## 🔴 生疏（13）
+## 🔴 生疏（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | 🟡 M | Array, Simulation | [C++](../problems/0054.md) | O(M\*N) | O(1) |  |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 🟡 M | Array, Simulation | [C++](../problems/0059.md) | O(N²) | O(1) |  |
-| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 M | Array | [C++](../problems/0189.md) | O(N) | O(1) |  |
 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 E | Array, Brute Force | [C++](../problems/1534.md) | O(N³) | O(1) |  |
 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 E | Array, Brute Force | [C++](../problems/1995.md) | O(N⁴) | O(1) | ❌ 官方沒有解答 |
 | 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) | 🟢 E | Array, Sorting | [C++](../problems/2148.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -30,10 +29,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（10）
+## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 M | Array | [C++](../problems/0189.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 717 | [1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/) | 🟢 E | Array | [C++](../problems/0717.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 821 | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | 🟢 E | Array | [C++](../problems/0821.md) | O(N) | O(1) |  |
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array) | 🟢 E | Array | [C++](../problems/0896.md) | O(N) | O(1) | ✅ 已同步官方解答 |
