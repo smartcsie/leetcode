@@ -15,12 +15,11 @@
 class Solution {
 public:
     int findClosestNumber(vector<int>& nums) {
-        int ans = nums[0];
-        for(const int& x : nums) {
-            if(abs(x) < abs(ans)  || (abs(x) == abs(ans) && x > ans)) {
-                ans = x;
-            }
+        int closest = nums[0];
+        for(const int& num : nums) {
+            if(abs(num) < abs(closest)) closest = num;
+            else if(abs(num) == abs(closest)) closest = max(num, closest);
         }
-        return ans;
+        return closest;
     }
 };
