@@ -1,12 +1,11 @@
 # hash-table-intersection
 
-## 🔴 生疏（12）
+## 🔴 生疏（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 E | Hash Table Intersection, Hash Table | [C++](../problems/0242.md) | O(N) | O(1) |  |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 E | Hash Table Intersection | [C++](../problems/0350.md) | O(N+M) | O(min(N,M)) |  |
-| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 E | Hash Table Intersection, Hash Table | [C++](../problems/0383.md) | O(M+N) | O(1) |  |
 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 E | Hash Table Intersection, Hash Table | [C++](../problems/0599.md) | O(N+M) | O(N) |  |
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 E | Hash Table Intersection | [C++](../problems/1160.md) | O(N) | O(1) |  |
 | 1189 | [Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/) | 🟢 E | Hash Table Intersection | [C++](../problems/1189.md) | O(N) | O(1) |  |
@@ -25,6 +24,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 E | Hash Table Intersection | [C++](../problems/0383.md) | O(M+N) | O(1) | 🌟 優於官方解答 |
