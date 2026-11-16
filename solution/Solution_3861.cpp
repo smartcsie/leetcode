@@ -13,14 +13,12 @@
 class Solution {
 public:
     int minimumIndex(std::vector<int>& capacity, int itemSize) {
-        int ans = -1;
-        int mn = INT_MAX;
+        int mnIdx = -1;
         for(int i = 0; i < capacity.size(); i++) {
-            if(capacity[i] >= itemSize && capacity[i] < mn) {
-                mn = capacity[i];
-                ans = i;
+            if(capacity[i] >= itemSize && (mnIdx == -1 || capacity[i] < capacity[mnIdx])) {
+                mnIdx = i;
             }
         }
-        return ans;
+        return mnIdx;
     }
 };
