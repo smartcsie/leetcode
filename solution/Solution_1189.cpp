@@ -18,15 +18,17 @@
 
 class Solution {
 public:
-    int maxNumberOfBalloons(std::string text) {
-        vector<int> countT(26, 0);
-        vector<int> countB(26, 0);
-        for(const char& c : text) countT[c - 'a']++;
-        for(const char& c : string("balloon")) countB[c - 'a']++;
-        int ans = INT_MAX;
+    int maxNumberOfBalloons(string text) {
+        array<uint16_t, 26> bs{};
+        array<uint16_t, 26> ts{};
+        int mn = INT_MAX;
+        for(char c : string_view("balloon")) bs[c - 'a']++;
+        for(char c : text) ts[c - 'a']++;
         for(int i = 0; i < 26; i++) {
-            if(countB[i]) ans = min(ans, countT[i] / countB[i]);
+            if(bs[i] == 0) continue;
+            mn = min(mn, ts[i] / bs[i]);
         }
-        return ans;
+        return (mn == INT_MAX) ? 0 : mn;
     }
 };
+
