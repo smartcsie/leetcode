@@ -19,10 +19,9 @@ public:
     int findLengthOfLCIS(vector<int>& nums) {
         int len = 1;
         int lcis = 1;
-        int n = nums.size();
-        for(int i = 1 ; i < n; i++) {
+        for(int i = 1 ; i < nums.size(); i++) {
             len = (nums[i - 1] < nums[i]) ? len + 1 : 1;
-            lcis = max(len, lcis);
+            lcis = max(lcis, len);
         }
         return lcis;
     }

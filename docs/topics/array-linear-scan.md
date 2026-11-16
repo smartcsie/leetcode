@@ -30,7 +30,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 E | Array Linear Scan | [C++](../problems/0674.md) | O(N) | O(1) |  |
+| 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 E | Array Linear Scan | [C++](../problems/0674.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | 🟢 E | Array Linear Scan | [C++](../problems/1431.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 E | Array Linear Scan | [C++](../problems/1437.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1437 | [Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-to-all-1s-are-at-least-length-k-places-away/) | 🟢 E | Array Linear Scan | [C++](../problems/1437.md) | O(N) | O(1) | ✅ 已同步官方解答 |
