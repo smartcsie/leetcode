@@ -6,13 +6,17 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Counting
-  - Hash Set
   topics:
   - hash-table-counting
   time: O(J+S)
   space: O(J)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-16'
+  official_solution: better
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-11-16'
     result: 對
     reason: null

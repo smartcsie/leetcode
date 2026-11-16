@@ -1,12 +1,11 @@
 # hash-table-counting
 
-## 🔴 生疏（30）
+## 🔴 生疏（29）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Counting, Hash Table | [C++](../problems/0049.md) | O(N\*K) | O(N\*K) |  |
 | 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | 🟢 E | Hash Table Counting | [C++](../problems/0748.md) | O(L + W) | O(1) | ❌ 官方沒有解答 |
-| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 E | Hash Table Counting, Hash Set | [C++](../problems/0771.md) | O(J+S) | O(J) |  |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 E | Hash Table Counting, Hash Table | [C++](../problems/0819.md) | O(M+N) | O(M+N) |  |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 M | Hash Table Counting, Hash Table, Counting | [C++](../problems/0916.md) | O(N \* L) | O(1) |  |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 E | Hash Table Counting, Hash Table, String | [C++](../problems/1002.md) | O(N\*K) | O(1) |  |
@@ -43,6 +42,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 E | Hash Table Counting | [C++](../problems/0771.md) | O(J+S) | O(J) | 🌟 優於官方解答 |
