@@ -6,18 +6,17 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Mapping
-  - Hash Set
   topics:
   - hash-table-mapping
   time: O(S)
   space: O(S)
-  familiarity: 生疏
-  note: '> 用一組 vector<string> morse 定義morse code mapping<br>
-
-    > 針對words每個string，轉為morsecode，放入unordered_set<string> unique_codes;<br>
-
-    > 因為unordered_set會去重覆，最後unique_codes.size();<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-16'
+  official_solution: synced
   attempts:
   - date: '2026-09-19'
+    result: 對
+    reason: null
+  - date: '2026-11-16'
     result: 對
     reason: null

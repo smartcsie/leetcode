@@ -13,17 +13,17 @@
 class Solution {
 public:
     int uniqueMorseRepresentations(vector<string>& words) {
-        static const vector<string> codes = { 
-            ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", 
-            "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", 
-            "..-", "...-", ".--", "-..-", "-.--", "--.."
-        };
-        unordered_set<string> uniqueCodes;
+        static constexpr array<string_view, 26> mapping = {".-","-...","-.-.","-..",".","..-.",
+                                        "--.","....","..",".---","-.-",".-..","--",
+                                        "-.","---",".--.","--.-",".-.","...","-",
+                                        "..-","...-",".--","-..-","-.--","--.."};
+        unordered_set<string> uniqueStr;
         for(const string& word : words) {
-            string code;
-            for(const char& c : word) code += codes[c - 'a'];
-            uniqueCodes.insert(code);
+            string s;
+            for(char c : word) 
+                s += mapping[c - 'a'];
+            uniqueStr.insert(s);
         }
-        return uniqueCodes.size();
+        return uniqueStr.size();
     }
 };
