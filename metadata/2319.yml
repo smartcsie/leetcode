@@ -10,7 +10,8 @@ solutions:
   - 2d-array
   time: O(N²)
   space: O(1)
-  familiarity: 再練習
+  familiarity: 熟練
+  mastered_date: '2026-11-16'
   official_solution: no-solution
   attempts:
   - date: '2026-09-16'
@@ -20,5 +21,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-15'
+    result: 對
+    reason: null
+  - date: '2026-11-16'
     result: 對
     reason: null

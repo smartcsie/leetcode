@@ -11,20 +11,19 @@
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 E | 2d Array, Simulation, Manhattan Distance | [C++](../problems/1779.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | 2d Array | [C++](../problems/2133.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（4）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | 🟡 M | 2d Array | [C++](../problems/0048.md) | O(N²) | O(1) |  |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 E | 2d Array | [C++](../problems/0832.md) | O(N\*M) | O(1) | ✅ 已同步官方解答 |
-| 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 E | 2d Array | [C++](../problems/2319.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 E | 2d Array | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（0）
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（10）
+## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -33,6 +32,7 @@
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 E | 2d Array | [C++](../problems/1572.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 E | 2d Array | [C++](../problems/1886.md) | O(N²) | O(1) |  |
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 E | 2d Array | [C++](../problems/2022.md) | O(M\*N) | O(1) | ✅ 已同步官方解答 |
+| 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 E | 2d Array | [C++](../problems/2319.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/) | 🟡 M | 2d Array | [C++](../problems/2482.md) | O(M\*N) | O(M+N) | ✅ 已同步官方解答 |
 | 2639 | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | 🟢 E | 2d Array | [C++](../problems/2639.md) | O(M\*N\*D) | O(1) | ❌ 官方沒有解答 |
 | 2923 | [Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 E | 2d Array | [C++](../problems/2923.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
