@@ -18,15 +18,14 @@
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-        vector<int> counts(1001, 0);
+        array<int, 1001> counts;
         vector<int> ans;
-        for(const int& x : nums1) counts[x]++;
-        for(const int& x : nums2) {
-            if(counts[x]) {
-                ans.push_back(x);
-                counts[x]--;
+        for(const int& num : nums1) counts[num]++;
+        for(const int& num : nums2) {
+            if(counts[num]-- > 0) {
+                ans.push_back(num);
             }
         }
-        return ans;
+        return ans; 
     }
 };
