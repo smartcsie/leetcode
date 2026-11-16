@@ -10,7 +10,8 @@ solutions:
   - array-min-max
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-16'
   note: '> **不允許前三大有重覆**<br>
 
     > if(num > mx[1])<br>
@@ -32,8 +33,12 @@ solutions:
     > **628是Array Min Max With Repeat**<br>
 
     > **此題是Array Min Max Without Repeat**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-11-16'
     result: 對
     reason: null
   is_representative: true

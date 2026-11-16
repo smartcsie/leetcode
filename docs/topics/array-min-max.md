@@ -1,10 +1,9 @@
 # array-min-max
 
-## 🔴 生疏（7）
+## 🔴 生疏（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 E | Array Min Max | [C++](../problems/0414.md) | O(N) | O(1) |  |
 | 628 | [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 E | Array Min Max | [C++](../problems/0628.md) | O(N) | O(1) |  |
 | 747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | 🟢 E | Array Min Max, Linear Scan | [C++](../problems/0747.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | 🟢 E | Array Min Max, Greedy, Simulation | [C++](../problems/1464.md) | O(N) | O(1) |  |
@@ -20,6 +19,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 E | Array Min Max | [C++](../problems/0414.md) | O(N) | O(1) | ✅ 已同步官方解答 |

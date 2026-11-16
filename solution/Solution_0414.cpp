@@ -14,19 +14,20 @@
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
-        vector<long> mx(3, LONG_MIN);
-        for(const int& num : nums) {
-            if(num > mx[0]) {
-                mx[2] = mx[1];
-                mx[1] = mx[0];
-                mx[0] = num;
-            } else if(num > mx[1] && num < mx[0]) {
-                mx[2] = mx[1];
-                mx[1] = num;
-            } else if(num > mx[2] && num < mx[1]) {
-                mx[2] = num;
-            } 
+        long max1 = LONG_MIN, max2 = LONG_MIN, max3 = LONG_MIN;
+        for(const int& x : nums) {
+            if(x == max1 || x == max2 || x== max3) continue;
+            if(x > max1) {
+                max3 = max2;
+                max2 = max1;
+                max1 = x;
+            } else if(x > max2) {
+                max3 = max2;
+                max2 = x;
+            } else if(x > max3) {
+                max3 = x;
+            }
         }
-        return mx[2] != LONG_MIN ? static_cast<int>(mx[2]) : static_cast<int>(mx[0]);
+        return max3 == LONG_MIN ? max1 : max3;
     }
 };
