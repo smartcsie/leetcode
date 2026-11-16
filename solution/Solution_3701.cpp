@@ -15,8 +15,8 @@ class Solution {
 public:
     int alternatingSum(vector<int>& nums) {
         int sum = 0;
-        for(int i = 0; i < nums.size(); i++) {
-            sum += (i & 1) ? -nums[i] : nums[i];
+        for(int i = 0, sign = 1; i < nums.size(); i++ , sign = -sign) {
+            sum += sign * nums[i]; 
         }
         return sum;
     }
