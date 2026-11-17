@@ -5047,6 +5047,7 @@
 <ul>
 <li>✅ <strong>2026-09-20</strong> 對</li>
 <li>✅ <strong>2026-11-17</strong> 對</li>
+<li>✅ <strong>2026-11-17</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：709. To Lower Case (轉換為小寫字母)</span>
@@ -5072,7 +5073,7 @@
 <a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><strong>for(char&amp; c : s ) if(isupper(c)) c += 32;</strong> <br></p>
+<p><strong>for(char&amp; c : s) { if(isupper(c)) c |= 32;}</strong> <br></p>
 </blockquote>
 
 
