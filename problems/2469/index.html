@@ -5042,10 +5042,11 @@
 
 <h1 id="2469-convert-the-temperature">2469. Convert the Temperature<a class="headerlink" href="#2469-convert-the-temperature" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/convert-the-temperature/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 E　<strong>標籤:</strong> Math　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏　<strong>官方解答:</strong> ❌ 官方沒有解答</p>
+<p><strong>難度:</strong> 🟢 E　<strong>標籤:</strong> Math　<strong>時間:</strong> O(1)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練　<strong>官方解答:</strong> ❌ 官方沒有解答</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-09-16</strong> 對</li>
+<li>✅ <strong>2026-11-17</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：2469. Convert the Temperature (溫度轉換)</span>
@@ -5064,17 +5065,11 @@
 <a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>
 <a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="k">public</span><span class="o">:</span>
 <a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span><span class="w"> </span><span class="n">convertTemperature</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">celsius</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="c1">// 直接計算並返回，編譯器在執行算術運算時已保留足夠的浮點精度</span>
-<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">            </span><span class="n">celsius</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">273.15</span><span class="p">,</span>
-<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">            </span><span class="n">celsius</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">1.80</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">32.00</span>
-<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">        </span><span class="p">};</span>
-<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="p">};</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span><span class="w"> </span><span class="n">ans</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="n">celsius</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">273.15</span><span class="w"> </span><span class="p">,</span><span class="w"> </span><span class="n">celsius</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">1.80</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">32.00</span><span class="p">};</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">ans</span><span class="p">;</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="p">};</span>
 </code></pre></div>
-<blockquote>
-<p>return { celsius + 273.15, celsius * 1.80 + 32.00 };<br></p>
-</blockquote>
 
 
 
