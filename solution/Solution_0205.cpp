@@ -10,13 +10,17 @@
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {
-        vector<int> s2t(128, 0);
-        vector<int> t2s(128, 0);
-        for(int i = 0; i < s.size(); i++) {
-            if(s2t[s[i]] && s2t[s[i]] != t[i]) return false;
-            if(t2s[t[i]] && t2s[t[i]] != s[i]) return false;
-            s2t[s[i]] = t[i];
-            t2s[t[i]] = s[i];
+        array<uint8_t, 128> s2t;
+        s2t.fill(255);
+        array<uint8_t, 128> t2s;
+        t2s.fill(255);
+        for(int i = 0 ; i < s.size(); i++) {
+            char cs = s[i];
+            char ct = t[i];
+            if(s2t[cs] != 255 && s2t[cs] != ct) return false;
+            else s2t[cs]= ct;
+            if(t2s[ct] != 255 && t2s[ct] != cs) return false;
+            else t2s[ct]= cs;
         }
         return true;
     }

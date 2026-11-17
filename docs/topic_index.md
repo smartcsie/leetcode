@@ -137,7 +137,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 👑 **Unordered Map**<br>[Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 E | Hash Table Existence | [C++](problems/0001.md) | O(N) | O(N) |
 | 202 | 👑 **Floyd's Cycle Finding Algorithm**<br>[Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Hash Table Existence | [C++](problems/0202.md) | O(logN) | O(1) |
-| 205 | 👑 **Strings Isomorphic**<br>[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 E | Hash Table Mapping, Hash Table | [C++](problems/0205.md) | O(N) | O(1) |
+| 205 | 👑 **Strings Isomorphic**<br>[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | 🟢 E | Hash Table Mapping | [C++](problems/0205.md) | O(N) | O(1) |
 | 217 | 👑 **unordered_set**<br>[Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 E | Hash Table Uniqueness | [C++](problems/0217.md) | O(N) | O(N) |
 | 217 | 👑 **unique**<br>[Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 E | Hash Table Uniqueness | [C++](problems/0217.md) | O(NlogN) | O(logN) |
 | 383 | 👑 **compare count one side limit**<br>[Ransom Note](https://leetcode.com/problems/ransom-note) | 🟢 E | Hash Table Intersection | [C++](problems/0383.md) | O(M+N) | O(1) |
