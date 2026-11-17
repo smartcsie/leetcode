@@ -10,12 +10,14 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
   note: '> **count是算 01010101 ...需要修改的bit數**<br>
 
     > **(n - count)是算 10101010 ...需要修改的bit數**<br>
 
     > **min(static_cast<int>(s.size()) - count, count)是抓 0101...和 1010...改比較少的為答案**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-21'
     result: 對
@@ -24,5 +26,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-05'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
