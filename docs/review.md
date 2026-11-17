@@ -775,7 +775,7 @@
 | 🔴 生疏 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 M | Stack, String | [C++](problems/1003.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 M | Linked List, Monotonic Stack | [C++](problems/1019.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 E | Stack | [C++](problems/1021.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack, String | [C++](problems/1047.md) | O(N) | O(N) |  |
+| 🔴 生疏 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack | [C++](problems/1047.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 E | Stack, String Parsing | [C++](problems/1078.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 M | Monotonic Stack, Greedy | [C++](problems/1081.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 M | String, Stack | [C++](problems/1209.md) | O(N) | O(N) |  |

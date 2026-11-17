@@ -13,7 +13,7 @@
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 M | Stack | [C++](../problems/0921.md) | O(N) | O(1) |  |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 M | Stack, String | [C++](../problems/1003.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 E | Stack | [C++](../problems/1021.md) | O(N) | O(1) |  |
-| 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack, String | [C++](../problems/1047.md) | O(N) | O(N) |  |
+| 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack | [C++](../problems/1047.md) | O(N) | O(N) |  |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 E | Stack, String Parsing | [C++](../problems/1078.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 M | String, Stack | [C++](../problems/1209.md) | O(N) | O(N) |  |
 | 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 E | Stack | [C++](../problems/1544.md) | O(N) | O(N) |  |

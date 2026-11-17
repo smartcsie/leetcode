@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Stack
-  - String
   topics:
   - stack
   time: O(N)
   space: O(N)
   familiarity: 生疏
+  official_solution: null
   tricks:
   - string stack
   attempts:
@@ -19,6 +19,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-21'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
   is_representative: true

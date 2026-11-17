@@ -185,7 +185,7 @@
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 20 | 👑 **Parentheses Check**<br>[Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 E | Stack | [C++](problems/0020.md) | O(N) | O(N) |
-| 1047 | 👑 **String Stack**<br>[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack, String | [C++](problems/1047.md) | O(N) | O(N) |
+| 1047 | 👑 **String Stack**<br>[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack | [C++](problems/1047.md) | O(N) | O(N) |
 
 ---
 
