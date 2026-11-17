@@ -10,14 +10,19 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
   note: '> **count計算uppercase個數**<br>
 
     > **全部小寫 count == 0，全部大寫 count == word.size()，第一個char大寫 count == 1 && isupper(word[0])**<br>'
+  official_solution: better
   tricks:
   - count_if
   attempts:
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
   is_representative: true

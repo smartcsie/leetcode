@@ -16,9 +16,7 @@
 class Solution {
 public:
     bool detectCapitalUse(string word) {
-        int lowers = count_if(word.begin(), word.end(), [](unsigned char c) {
-            return islower(c);
-        });
+        int lowers = count_if(word.begin(), word.end(), ::islower);
         int n = word.size();
         return lowers == 0 || lowers == n || (lowers == n - 1 && isupper(word[0]));
     }

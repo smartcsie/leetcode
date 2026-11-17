@@ -1,11 +1,10 @@
 # string-character-classification
 
-## 🔴 生疏（31）
+## 🔴 生疏（30）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 E | String Character Classification | [C++](../problems/0434.md) | O(N) | O(1) |  |
-| 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 E | String Character Classification | [C++](../problems/0520.md) | O(N) | O(1) |  |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 E | String Character Classification | [C++](../problems/0709.md) | O(N) | O(1) |  |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 M | String Character Classification, Hash Table, Counting | [C++](../problems/1347.md) | O(N) | O(1) |  |
 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 E | String Character Classification | [C++](../problems/1455.md) | O(N) | O(W) |  |
@@ -44,6 +43,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 E | String Character Classification | [C++](../problems/0520.md) | O(N) | O(1) | 🌟 優於官方解答 |
