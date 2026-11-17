@@ -1,6 +1,6 @@
 # hash-table-existence
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,6 @@
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 E | Hash Table Existence, Hash Table | [C++](../problems/2395.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 E | Hash Table Existence, Hashing | [C++](../problems/2965.md) | O(N²) | O(N²) |  |
 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 E | Hash Table Existence, Hash Set | [C++](../problems/3678.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 E | Hash Table Existence, Hash Table | [C++](../problems/3718.md) | O(N+M) | O(M) |  |
 
 ## 🟠 再練習（1）
 
@@ -29,7 +28,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -37,4 +36,5 @@
 | 2150 | [Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array) | 🟡 M | Hash Table Existence | [C++](../problems/2150.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two) | 🟢 E | Hash Table Existence | [C++](../problems/2154.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative) | 🟢 E | Hash Table Existence | [C++](../problems/2441.md) | O(N) | O(1) | 🌟 優於官方解答 |
+| 3718 | [Smallest Missing Multiple of K](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | 🟢 E | Hash Table Existence | [C++](../problems/3718.md) | O(N+M) | O(M) | 🌟 優於官方解答 |
 | 3731 | [Find Missing Elements](https://leetcode.com/problems/find-missing-elements/) | 🟢 E | Hash Table Existence | [C++](../problems/3731.md) | O(N+K) | O(K) | 🌟 優於官方解答 |

@@ -14,10 +14,10 @@
 class Solution {
 public:
     int missingMultiple(vector<int>& nums, int k) {
-        unordered_set sets(nums.begin(), nums.end());
-        for(int x = k;; x +=k) {
-            if(!sets.contains(x)) return x;
-        }
-        return -1;
+        bitset<101> seen;
+        for(const int& x : nums) seen.set(x);
+        int m;
+        for(m = k; m <= 100 && seen.test(m); m += k ) {}
+        return m;
     }
 };
