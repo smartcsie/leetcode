@@ -15,10 +15,7 @@
 class Solution {
 public:
     vector<double> convertTemperature(double celsius) {
-        // 直接計算並返回，編譯器在執行算術運算時已保留足夠的浮點精度
-        return {
-            celsius + 273.15,
-            celsius * 1.80 + 32.00
-        };
+        vector<double> ans = {celsius + 273.15 , celsius * 1.80 + 32.00};
+        return ans;
     }
 };

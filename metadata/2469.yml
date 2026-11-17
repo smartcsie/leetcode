@@ -10,10 +10,13 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  familiarity: 生疏
-  note: '> return { celsius + 273.15, celsius * 1.80 + 32.00 };<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-16'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-17'
+    result: 對
+    reason: null
