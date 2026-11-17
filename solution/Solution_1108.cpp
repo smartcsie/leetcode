@@ -13,15 +13,17 @@
 class Solution {
 public:
     string defangIPaddr(string address) {
-        string defang;
-        for(const char& c : address) {
+        string defanging(address.size() + 6 , ' ');
+        int idx = 0;
+        for(char c : address) {
             if(c == '.') {
-                defang.push_back('[');
-                defang.push_back('.');
-                defang.push_back(']');
+                defanging[idx++] = '[';
+                defanging[idx++] = '.';
+                defanging[idx++] = ']';
+            } else {
+                defanging[idx++] = c;
             }
-            else defang.push_back(c);
         }
-        return defang;
+        return defanging;
     }
 };

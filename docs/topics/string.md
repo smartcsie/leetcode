@@ -1,6 +1,6 @@
 # string
 
-## 🔴 生疏（36）
+## 🔴 生疏（35）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,6 @@
 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 E | String, String | [C++](../problems/0944.md) | O(N\*M) | O(M) |  |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](../problems/1016.md) | O(N\*LEN) | O(1) | ❌ 官方沒有解答 |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](../problems/1016.md) | O(L^2 log L) | O(logn) | ❌ 官方沒有解答 |
-| 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 E | String | [C++](../problems/1108.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 E | String | [C++](../problems/1528.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 E | String, Simulation | [C++](../problems/1592.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 E | String | [C++](../problems/1758.md) | O(N) | O(1) |  |
@@ -51,10 +50,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 E | String | [C++](../problems/0412.md) | O(N) | O(1) |  |
+| 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 E | String | [C++](../problems/1108.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | String | [C++](../problems/1662.md) | O(L) | O(1) |  |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | String | [C++](../problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) |  |
