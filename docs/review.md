@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：876 題　🟠 再練習：17 題　🟣 易忘：10 題　🟢 熟練：94 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：875 題　🟠 再練習：17 題　🟣 易忘：10 題　🟢 熟練：95 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 987 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 986 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（138）](#review-math)　[📊 Bit Manipulation（73）](#review-bit-manipulation)　[🔗 String（63）](#review-string)　[🍱 Array（86）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（73）](#review-bit-manipulation)　[🔗 String（63）](#review-string)　[🍱 Array（86）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -30,7 +30,7 @@
 | 🔴 生疏 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 E | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) |  |
 
 <a id="review-math"></a>
-#### 🔢 Math（138）
+#### 🔢 Math（137）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -117,7 +117,6 @@
 | 🔴 生疏 | 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 E | Math Simulation | [C++](problems/2293.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 M | Math, Enumeration | [C++](problems/2310.md) | O(10) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 M | Math Palindrome | [C++](problems/2396.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2413 | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 E | Math Gcd | [C++](problems/2413.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 E | Math Gcd | [C++](problems/2427.md) | O(min(A,B)) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 M | Math Digit Decomposition, Simulation | [C++](problems/2443.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 E | Math, Array | [C++](problems/2455.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -1213,7 +1212,7 @@
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 9 | 0 | 0 | 0 | 0 | 9 |
+| [math-gcd](topics/math-gcd.md) | 8 | 0 | 0 | 1 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
