@@ -10,21 +10,14 @@
  * 空間複雜度：O(1)
  */
 
-#include <vector>
-#include <string>
-
 class Solution {
 public:
-    std::vector<int> findWordsContaining(std::vector<std::string>& words, char x) {
+    vector<int> findWordsContaining(vector<string>& words, char x) {
         vector<int> ans;
-        ans.reserve(words.size());
-        for(int i = 0; i < words.size(); i++) {
-            for(const char& c : words[i]) {
-                if(c == x) {
-                    ans.push_back(i);
-                    break;
-                }
-            }
+        int n = words.size();
+        ans.reserve(n);
+        for(int i = 0 ; i < n; i++) {
+            if(words[i].find(x) != string::npos) ans.push_back(i);
         }
         return ans;
     }

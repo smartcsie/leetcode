@@ -12,7 +12,11 @@ solutions:
   space: O(1)
   familiarity: 生疏
   note: '> **對 vector<string> words中每個word，找尋char x是否存在，如果有，把index i push到result vector**<br>'
+  official_solution: null
   attempts:
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
