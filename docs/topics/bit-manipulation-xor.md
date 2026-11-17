@@ -1,11 +1,10 @@
 # bit-manipulation-xor
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 M | Bit Manipulation | [C++](../problems/0260.md) | O(N) | O(1) | ✅ 已同步官方解答 |
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0268.md) | O(N) | O(1) |  |
 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/0421.md) | O(N\*L) | O(N) |  |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/1318.md) | O(log(max(a,b,c))) | O(1) |  |
 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 M | Bit Manipulation Xor, Prefix XOR | [C++](../problems/1442.md) | O(N²) | O(1) |  |
@@ -23,9 +22,11 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0268.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟢 熟悉（3）
 
