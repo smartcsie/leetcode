@@ -6,14 +6,22 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Intersection
-  - Hash Table
-  - Counting
   topics:
   - hash-table-intersection
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  note: '> **此題有正負，注意要用int8_t，不能用uint8_t**<br>'
+  official_solution: synced
+  related:
+  - 242
   attempts:
   - date: '2026-09-20'
     result: 對
     reason: null
+  - date: '2026-11-17'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: array int8_t

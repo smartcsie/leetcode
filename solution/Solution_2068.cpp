@@ -21,12 +21,14 @@
 
 class Solution {
 public:
-    bool checkAlmostEquivalent(std::string word1, std::string word2) {
-        vector<int> count(26, 0);
-        for(const char& c : word1) count[c - 'a']++;
-        for(const char& c : word2) count[c - 'a']--;
+    bool checkAlmostEquivalent(string word1, string word2) {
+        array<int8_t, 26> counts{};
+        for(int i = 0; i < word1.size(); i++) {
+            counts[word1[i] - 'a']++;
+            counts[word2[i] - 'a']--;
+        }
         for(int i = 0; i < 26; i++) {
-            if(abs(count[i]) > 3) return false;
+            if(abs(counts[i]) >= 4) return false;
         }
         return true;
     }

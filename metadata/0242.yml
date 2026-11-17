@@ -12,8 +12,13 @@ solutions:
   space: O(1)
   familiarity: 再練習
   official_solution: synced
+  related:
+  - 2068
   attempts:
   - date: '2026-09-26'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
   - date: '2026-11-17'
