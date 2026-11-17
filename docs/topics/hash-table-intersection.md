@@ -1,19 +1,20 @@
 # hash-table-intersection
 
-## 🔴 生疏（6）
+## 🔴 生疏（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 E | Hash Table Intersection, Hash Table | [C++](../problems/0242.md) | O(N) | O(1) |  |
 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 E | Hash Table Intersection, Hash Table | [C++](../problems/0599.md) | O(N+M) | O(N) |  |
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 E | Hash Table Intersection | [C++](../problems/1160.md) | O(N) | O(1) |  |
 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 E | Hash Table Intersection, Hash Table | [C++](../problems/1460.md) | O(N) | O(K) |  |
 | 2068 | [Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 E | Hash Table Intersection, Hash Table, Counting | [C++](../problems/2068.md) | O(N) | O(1) |  |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 M | Hash Table Intersection, Hash Map, Matrix Simulation | [C++](../problems/2352.md) | O(N³logN) | O(N²) |  |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 E | Hash Table Intersection | [C++](../problems/0242.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（0）
 
