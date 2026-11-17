@@ -1,6 +1,6 @@
 # greedy-sorting-decision
 
-## 🔴 生疏（15）
+## 🔴 生疏（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,6 @@
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0621.md) | O(N) | O(1) |  |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0945.md) | O(NlogN) | O(1) |  |
 | 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/0976.md) | O(N log N) | O(1) |  |
-| 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 E | Greedy Sorting Decision, Sorting | [C++](../problems/1005.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/1029.md) | O(NlogN) | O(1) |  |
 | 1710 | [Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/1710.md) | O(N log N) | O(1) |  |
 | 2231 | [Largest Number After Digit Swaps by Parity](https://leetcode.com/problems/largest-number-after-digit-swaps-by-parity/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/2231.md) | O(DlogD) | O(D) | ❌ 官方沒有解答 |
@@ -20,9 +19,11 @@
 | 3016 | [Minimum Number of Pushes to Type Word II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/3016.md) | O(N+26log26) | O(1) |  |
 | 3727 | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/3727.md) | O(nlogn) | O(1) |  |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/1005.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（0）
 

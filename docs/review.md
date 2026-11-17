@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：907 題　🟠 再練習：13 題　🟣 易忘：6 題　🟢 熟練：71 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：906 題　🟠 再練習：14 題　🟣 易忘：6 題　🟢 熟練：71 題　⚪ 未標記：0 題
 
 ---
 
@@ -998,6 +998,7 @@
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 M | Greedy String Construction | [C++](problems/0984.md) | O(A + B) | O(A + B) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 E | Greedy Sorting Decision | [C++](problems/1005.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | 🟡 M | Greedy | [C++](problems/0045.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | 🟡 M | Greedy | [C++](problems/0055.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | 🟡 M | Greedy Prefix Suffix | [C++](problems/0134.md) | O(N) | O(1) |  |
@@ -1030,7 +1031,6 @@
 | 🔴 生疏 | 899 | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | 🔴 H | Greedy String Construction | [C++](problems/0899.md) | O(N²) | O(N) |  |
 | 🔴 生疏 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 M | Greedy Sorting Decision | [C++](problems/0945.md) | O(NlogN) | O(1) |  |
 | 🔴 生疏 | 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 E | Greedy Sorting Decision | [C++](problems/0976.md) | O(N log N) | O(1) |  |
-| 🔴 生疏 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 E | Greedy Sorting Decision, Sorting | [C++](problems/1005.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | 🟡 M | Greedy Sorting Decision | [C++](problems/1029.md) | O(NlogN) | O(1) |  |
 | 🔴 生疏 | 1061 | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/) | 🟡 M | Greedy String Construction | [C++](problems/1061.md) | O(N + M \* α(26)) | O(26) |  |
 | 🔴 生疏 | 1210 | [Minimum Moves to Reach Target With Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | 🔴 H | Greedy Coin Change | [C++](problems/1210.md) | O(N²) | O(N²) | ❌ 官方沒有解答 |
@@ -1223,7 +1223,7 @@
 | [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 4 | 0 | 0 | 0 | 0 | 4 |
-| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 15 | 0 | 0 | 1 | 0 | 16 |
+| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 14 | 1 | 0 | 1 | 0 | 16 |
 | [greedy-string-construction](topics/greedy-string-construction.md) | 6 | 1 | 0 | 0 | 0 | 7 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 0 | 0 | 4 |
