@@ -1,13 +1,12 @@
 # bit-manipulation-xor
 
-## 🔴 生疏（17）
+## 🔴 生疏（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 E | Bit Manipulation Xor, Bit-Manipulation | [C++](../problems/0136.md) | O(N) | O(1) |  |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 M | Bit Manipulation | [C++](../problems/0260.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0268.md) | O(N) | O(1) |  |
-| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0389.md) | O(N) | O(N) |  |
 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/0421.md) | O(N\*L) | O(N) |  |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0461.md) | O(N) | O(1) |  |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/1318.md) | O(log(max(a,b,c))) | O(1) |  |
@@ -30,6 +29,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0389.md) | O(N) | O(N) | 🌟 優於官方解答 |

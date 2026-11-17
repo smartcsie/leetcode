@@ -36,7 +36,9 @@
 class Solution {
 public:
     char findTheDifference(string s, string t) {
-        string u = s + t;
-        return accumulate(u.begin(), u.end(), 0, bit_xor<int>());
+        char c = 0;
+        c ^= accumulate(s.begin(), s.end(), 0, bit_xor<>());
+        c ^= accumulate(t.begin(), t.end(), 0, bit_xor<>());
+        return c;
     }
 };

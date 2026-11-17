@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（37）
+## 🔴 生疏（36）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,6 @@
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 M | Bit Manipulation | [C++](../problems/0036.md) | O(1) | O(1) |  |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 E | Bit Manipulation | [C++](../problems/0349.md) | O(N+M) | O(N) |  |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 M | Bit Manipulation | [C++](../problems/0371.md) | O(1) | O(1) |  |
-| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation, Hash Table | [C++](../problems/0389.md) | O(N) | O(1) |  |
 | 401 | [Binary Watch](https://leetcode.com/problems/binary-watch/) | 🟢 E | Bit Manipulation | [C++](../problems/0401.md) | O(1) | O(1) |  |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 M | Bit Manipulation | [C++](../problems/0416.md) | O(N\*S/W) | O(S/W) | 🌟 優於官方解答 |
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 E | Bit Manipulation | [C++](../problems/0476.md) | O(logN) | O(1) |  |
@@ -53,9 +52,10 @@
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Bit Manipulation | [C++](../problems/0137.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 E | Bit Manipulation | [C++](../problems/0190.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 E | Bit Manipulation | [C++](../problems/0190.md) | O(1) | O(1) |  |
+| 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation | [C++](../problems/0389.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Bit Manipulation | [C++](../problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
