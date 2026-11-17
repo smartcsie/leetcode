@@ -14,14 +14,16 @@ class Solution {
 public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
         int n = grid.size();
-        vector<int> counts(n * n + 1, 0);
-        for(const vector<int>& row : grid) {
-            for(const int& x : row)  counts[x]++;
+        vector<uint8_t> counts(n * n + 1, 0);
+        for(const vector<int>& vec : grid) {
+            for(const int& x : vec) {
+                counts[x]++;
+            }
         }
         vector<int> ans(2, 0);
-        for(int i = 1 ; i <= n * n; i++) {
-            if(counts[i] == 2) ans[0] = i;
+        for(int i = 1; i <= n * n; i++) {
             if(counts[i] == 0) ans[1] = i;
+            else if(counts[i] == 2) ans[0] = i;
         }
         return ans;
     }

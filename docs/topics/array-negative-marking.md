@@ -11,9 +11,11 @@
 | 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch) | 🟢 E | Array Negative Marking | [C++](../problems/0645.md) | O(N) | O(1) |  |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | Array Negative Marking | [C++](../problems/2133.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 E | Array Negative Marking | [C++](../problems/2965.md) | O(n²) | O(1) | 🌟 優於官方解答 |
 
 ## 🟣 易忘（0）
 
