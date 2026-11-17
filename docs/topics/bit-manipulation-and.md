@@ -1,11 +1,9 @@
 # bit-manipulation-and
 
-## 🔴 生疏（8）
+## 🔴 生疏（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 E | Bit Manipulation And, Bit-Manipulation | [C++](../problems/0191.md) | O(K) | O(1) |  |
-| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 E | Bit Manipulation And | [C++](../problems/0191.md) | O(1) | O(1) |  |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 M | Bit Manipulation | [C++](../problems/0201.md) | O(logN) | O(1) |  |
 | 2275 | [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | 🟡 M | Bit Manipulation And, Greedy | [C++](../problems/2275.md) | O(32\*N) | O(1) |  |
 | 2419 | [Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) | 🟡 M | Bit Manipulation And, Greedy, Array | [C++](../problems/2419.md) | O(N) | O(1) |  |
@@ -21,6 +19,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（2）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 E | Bit Manipulation And | [C++](../problems/0191.md) | O(K) | O(1) | ✅ 已同步官方解答 |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 E | Bit Manipulation And | [C++](../problems/0191.md) | O(1) | O(1) | 🌟 優於官方解答 |

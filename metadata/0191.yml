@@ -6,23 +6,27 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Bit Manipulation And
-  - Bit-Manipulation
   topics:
   - bit-manipulation-and
   time: O(K)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
   note: '> 使用 **Brian Kernighan''s Algorithm** ，**n = n & (n - 1)**，有 build in function可以用<br>
 
     > **(1)** C++20，std::popcount(static_cast<unsigned int>(n)) 或  **(2)** 若編譯器(GCC/Clang)支援，
     __builtin_popcount(n) <br>
 
     > [Brian Kernighan]'
+  official_solution: synced
   attempts:
   - date: '2026-09-14'
     result: 對
     reason: null
   - date: '2026-09-19'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
   is_representative: true
@@ -35,8 +39,13 @@ solutions:
   - bit-manipulation-and
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  official_solution: better
   attempts:
   - date: '2026-09-19'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
