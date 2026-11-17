@@ -10,7 +10,9 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  official_solution: no-solution
   tricks:
   - vector scan
   attempts:
@@ -20,4 +22,6 @@ solutions:
   - date: '2026-09-16'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-17'
+    result: 對
+    reason: null

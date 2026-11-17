@@ -1,6 +1,6 @@
 # array-linear-scan
 
-## 🔴 生疏（9）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 E | Array Linear Scan | [C++](../problems/1614.md) | O(N) | O(1) |  |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | 🟢 E | Array Linear Scan | [C++](../problems/1920.md) | O(N) | O(1) |  |
 | 2006 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 E | Array Linear Scan, Hash Table, Frequency Map | [C++](../problems/2006.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 E | Array Linear Scan | [C++](../problems/2057.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2176 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 E | Array Linear Scan | [C++](../problems/2176.md) | O(N^2) | O(1) |  |
 
 ## 🟠 再練習（2）
@@ -25,7 +24,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（16）
+## 🟢 熟悉（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -37,6 +36,7 @@
 | 1848 | [Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element/) | 🟢 E | Array Linear Scan | [C++](../problems/1848.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 E | Array Linear Scan | [C++](../problems/2057.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 E | Array Linear Scan | [C++](../problems/2239.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Array Linear Scan | [C++](../problems/2485.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 E | Array Linear Scan | [C++](../problems/3168.md) | O(N) | O(1) | ❌ 官方沒有解答 |
