@@ -10,7 +10,9 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  official_solution: synced
   attempts:
   - date: '2026-09-26'
     result: 對
@@ -21,6 +23,9 @@ solutions:
   - date: '2026-10-24'
     result: 對
     reason: null
+  - date: '2026-11-17'
+    result: 對
+    reason: null
 - file: Solution_0961_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -29,11 +34,16 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  official_solution: null
   attempts:
   - date: '2026-09-26'
     result: 對
     reason: null
   - date: '2026-10-24'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null

@@ -1,6 +1,6 @@
 # greedy
 
-## 🔴 生疏（19）
+## 🔴 生疏（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,6 @@
 | 397 | [Integer Replacement](https://leetcode.com/problems/integer-replacement/) | 🟡 M | Greedy, Bit Manipulation | [C++](../problems/0397.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | 🟢 E | Greedy | [C++](../problems/0605.md) | O(N) | O(1) |  |
 | 624 | [Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays) | 🟡 M | Greedy | [C++](../problems/0624.md) | O(N) | O(1) |  |
-| 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 E | Greedy | [C++](../problems/0961.md) | O(N) | O(1) |  |
 | 1210 | [Minimum Moves to Reach Target With Rotations](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/) | 🔴 H | Greedy Coin Change | [C++](../problems/1210.md) | O(N²) | O(N²) | ❌ 官方沒有解答 |
 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 M | Greedy | [C++](../problems/1551.md) | O(N) | O(1) |  |
 | 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 E | Greedy | [C++](../problems/1624.md) | O(N) | O(1) |  |
@@ -32,6 +31,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 E | Greedy | [C++](../problems/0961.md) | O(N) | O(1) | ✅ 已同步官方解答 |

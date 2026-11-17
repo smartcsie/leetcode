@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：909 題　🟠 再練習：12 題　🟣 易忘：6 題　🟢 熟練：70 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：908 題　🟠 再練習：12 題　🟣 易忘：6 題　🟢 熟練：71 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 1016 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 1014 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（140）](#review-math)　[📊 Bit Manipulation（83）](#review-bit-manipulation)　[🔗 String（71）](#review-string)　[🍱 Array（85）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（80）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（85）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（140）](#review-math)　[📊 Bit Manipulation（83）](#review-bit-manipulation)　[🔗 String（71）](#review-string)　[🍱 Array（85）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（79）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -671,7 +671,7 @@
 | 🔴 生疏 | 3992 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | 🟡 M | Two Pointers Swap, Two Pointers | [C++](problems/3992.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-hash-table"></a>
-#### 🔑 Hash Table（80）
+#### 🔑 Hash Table（79）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -705,7 +705,6 @@
 | 🔴 生疏 | 888 | [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/) | 🟢 E | Hash Table Existence | [C++](problems/0888.md) | O(A+B) | O(B) |  |
 | 🔴 生疏 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 M | Hash Table Counting, Hash Table, Counting | [C++](problems/0916.md) | O(N \* L) | O(1) |  |
 | 🔴 生疏 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 M | Hash Table Uniqueness | [C++](problems/0939.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 E | Hash Table Uniqueness | [C++](problems/0961.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 E | Hash Table Counting, Hash Table, String | [C++](problems/1002.md) | O(N\*K) | O(1) |  |
 | 🔴 生疏 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | 🟢 E | Hash Table Intersection | [C++](problems/1160.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 E | Hash Table Uniqueness, Hash Table, Counting | [C++](problems/1207.md) | O(N) | O(N) |  |
@@ -994,7 +993,7 @@
 | 🔴 生疏 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 M | Dp Lis, Dynamic Programming Lis, Longest Non-Decreasing Subsequence | [C++](problems/2826.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-greedy"></a>
-#### 🧩 Greedy（85）
+#### 🧩 Greedy（84）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1029,7 +1028,6 @@
 | 🔴 生疏 | 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | 🔴 H | Greedy Fractional Knapsack | [C++](problems/0871.md) | O(N log N) | O(N) |  |
 | 🔴 生疏 | 899 | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | 🔴 H | Greedy String Construction | [C++](problems/0899.md) | O(N²) | O(N) |  |
 | 🔴 生疏 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 M | Greedy Sorting Decision | [C++](problems/0945.md) | O(NlogN) | O(1) |  |
-| 🔴 生疏 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 E | Greedy | [C++](problems/0961.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 E | Greedy Sorting Decision | [C++](problems/0976.md) | O(N log N) | O(1) |  |
 | 🔴 生疏 | 984 | [String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 🟡 M | Greedy String Construction, Recursion, String Construction | [C++](problems/0984.md) | O(A + B) | O(A + B) |  |
 | 🔴 生疏 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 E | Greedy Sorting Decision, Sorting | [C++](problems/1005.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
@@ -1212,7 +1210,7 @@
 | [graph-dfs](topics/graph-dfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [graph-mst](topics/graph-mst.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 19 | 0 | 0 | 0 | 0 | 19 |
+| [greedy](topics/greedy.md) | 18 | 0 | 0 | 1 | 0 | 19 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 9 | 0 | 0 | 0 | 0 | 9 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 4 | 0 | 0 | 0 | 0 | 4 |
@@ -1233,7 +1231,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 15 | 1 | 0 | 4 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 6 | 0 | 0 | 6 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 8 | 0 | 0 | 1 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 17 | 1 | 0 | 2 | 0 | 20 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 16 | 1 | 0 | 3 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 33 | 0 | 4 | 1 | 0 | 38 |
