@@ -16,29 +16,22 @@
 
 class Solution {
 public:
-    int countCharacters(std::vector<std::string>& words, std::string chars) {
-        std::vector<int> counts(26, 0);
-        // 統計 chars 中每個字母的頻率
-        for (const char& c : chars) {
-            counts[c - 'a']++;
-        }
-        
-        int ans = 0;
-        for (const std::string& word : words) {
-            std::vector<int> temp = counts;
-            bool canForm = true;
-            
-            for (const char& c : word) {
-                // 若減去後小於 0，代表該字母已耗盡
-                if (--temp[c - 'a'] < 0) {
-                    canForm = false;
+    int countCharacters(vector<string>& words, string chars) {
+        array<uint8_t, 26> countChars{};
+        for(char c : chars) countChars[c - 'a']++;
+        int ans= 0;
+        for(const string& w : words) {
+            array<uint8_t, 26> counts = countChars;
+            bool form = true;
+            for(char c : w) {
+                if(counts[c - 'a'] == 0) {
+                    form = false;
                     break;
+                } else {
+                    counts[c - 'a']--;
                 }
             }
-            
-            if (canForm) {
-                ans += word.size();
-            }
+            if(form) ans += w.size();
         }
         return ans;
     }
