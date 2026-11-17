@@ -16,10 +16,10 @@ class Solution {
 public:
     int vowelStrings(vector<string>& words, int left, int right) {
         int count = 0;
-        for(int i = left ; i <= right; i++) {
-            char c1 = words[i].front();
-            char c2 = words[i].back();
-            if((0x104111 >> (c1 - 'a')) & 1 && (0x104111 >> (c2 - 'a')) & 1) count++;
+        for(int i = left; i <= right; i++) {
+            bool frontIsVowel = (0x104111 >> words[i].front() - 'a') & 1;
+            bool backIsVowel = (0x104111 >> words[i].back() - 'a') & 1;
+            if(frontIsVowel && backIsVowel) count++;
         }
         return count;
     }
