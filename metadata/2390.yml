@@ -6,12 +6,13 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Stack
-  - String
   topics:
   - stack
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  official_solution: synced
   related:
   - 1047
   - 3174
@@ -22,5 +23,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-21'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null

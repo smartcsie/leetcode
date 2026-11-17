@@ -1,6 +1,6 @@
 # stack
 
-## 🔴 生疏（15）
+## 🔴 生疏（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,6 @@
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 M | String, Stack | [C++](../problems/1209.md) | O(N) | O(N) |  |
 | 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 E | Stack | [C++](../problems/1544.md) | O(N) | O(N) |  |
 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 M | Stack, Greedy | [C++](../problems/1963.md) | O(N) | O(1) |  |
-| 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 M | Stack, String | [C++](../problems/2390.md) | O(N) | O(N) |  |
 | 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 E | Stack | [C++](../problems/3174.md) | O(N) | O(N) |  |
 
 ## 🟠 再練習（1）
@@ -30,6 +29,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 M | Stack | [C++](../problems/2390.md) | O(N) | O(N) | ✅ 已同步官方解答 |
