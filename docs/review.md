@@ -1258,7 +1258,7 @@
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 13 | 1 | 0 | 2 | 0 | 16 |
-| [string](topics/string.md) | 30 | 1 | 1 | 5 | 0 | 37 |
+| [string](topics/string.md) | 30 | 1 | 1 | 6 | 0 | 38 |
 | [string-character-classification](topics/string-character-classification.md) | 31 | 0 | 0 | 0 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |

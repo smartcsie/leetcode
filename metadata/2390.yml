@@ -28,3 +28,21 @@ solutions:
   - date: '2026-11-17'
     result: 對
     reason: null
+  - date: '2026-11-17'
+    result: 對
+    reason: null
+- file: Solution_2390_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - String
+  topics:
+  - string
+  time: O(n)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  official_solution: better
+  attempts:
+  - date: '2026-11-17'
+    result: 對
+    reason: null

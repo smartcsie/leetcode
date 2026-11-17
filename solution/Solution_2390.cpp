@@ -20,11 +20,13 @@
 class Solution {
 public:
     string removeStars(string s) {
-        string t;
-        for(const char& c : s) {
-            if(!t.empty() && c == '*') t.pop_back();
-            else t.push_back(c);
+        int top = 0;
+        for(char c : s) {
+            if(top > 0 && c == '*') {
+                top--;
+            }
+            else s[top++] = c;
         }
-        return t;
+        return s.substr(0, top);
     }
 };
