@@ -35,6 +35,9 @@ solutions:
   - date: '2026-11-17'
     result: 對
     reason: null
+  - date: '2026-11-17'
+    result: 對
+    reason: null
 - file: Solution_0476_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -50,3 +53,24 @@ solutions:
   - date: '2026-11-17'
     result: 對
     reason: null
+  - date: '2026-11-17'
+    result: 對
+    reason: null
+- file: Solution_0476_2.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(1)
+  space: O(1)
+  familiarity: 易忘
+  official_solution: pending
+  tricks:
+  - __builtin_clz
+  attempts:
+  - date: '2026-11-17'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: __builtin_clz

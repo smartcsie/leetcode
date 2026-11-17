@@ -42,12 +42,13 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟣 易忘（2）
+## 🟣 易忘（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Bit Manipulation | [C++](../problems/0137.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 E | Bit Manipulation | [C++](../problems/0190.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 E | Bit Manipulation | [C++](../problems/0476.md) | O(1) | O(1) | ⏳ 尚未同步 |
 
 ## 🟢 熟悉（7）
 

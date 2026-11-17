@@ -80,6 +80,7 @@
 | 416 | 👑 **0/1 Knapsack**<br>[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 M | Bit Manipulation | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) |
 | 461 | 👑 **__builtin_popcount**<br>[Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation | [C++](problems/0461.md) | O(K) | O(1) |
 | 461 | 👑 **Hamming Distance**<br>[Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation Xor | [C++](problems/0461.md) | O(N) | O(1) |
+| 476 | 👑 **__builtin_clz**<br>[Number Complement](https://leetcode.com/problems/number-complement) | 🟢 E | Bit Manipulation | [C++](problems/0476.md) | O(1) | O(1) |
 | 2206 | 👑 **Number Frequency is Even**<br>[Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 E | Bit Manipulation, Hash Table, Counting | [C++](problems/2206.md) | O(N) | O(1) |
 | 2235 | 👑 **Add Two Integers By Shift**<br>[Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 E | Bit Manipulation | [C++](problems/2235.md) | O(1) | O(1) |
 | 2317 | 👑 **Accumulate OR**<br>[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 M | Bit Manipulation Or | [C++](problems/2317.md) | O(N) | O(1) |
