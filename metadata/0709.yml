@@ -12,10 +12,13 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-11-17'
-  note: '> **for(char& c : s ) if(isupper(c)) c += 32;** <br>'
+  note: '> **for(char& c : s) { if(isupper(c)) c |= 32;}** <br>'
   official_solution: better
   attempts:
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
   - date: '2026-11-17'
