@@ -110,7 +110,7 @@
 | 1929 | 👑 **vector insert vector**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) |
 | 1929 | 👑 **vector resize**<br>[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](problems/1929.md) | O(N) | O(1) |
 | 2022 | 👑 **1D 2D transform**<br>[Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 E | 2d Array | [C++](problems/2022.md) | O(M\*N) | O(1) |
-| 2089 | 👑 **vector iota**<br>[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 E | Array Linear Scan, Counting | [C++](problems/2089.md) | O(N) | O(1) |
+| 2089 | 👑 **vector iota**<br>[Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 E | Array Linear Scan | [C++](problems/2089.md) | O(N) | O(1) |
 | 2133 | 👑 **2D Negative Marking**<br>[Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | Array Negative Marking | [C++](problems/2133.md) | O(N²) | O(1) |
 | 2923 | 👑 **Vector Count**<br>[Find Champion I](https://leetcode.com/problems/find-champion-i/) | 🟢 E | 2d Array | [C++](problems/2923.md) | O(N²) | O(1) |
 | 3084 | 👑 **Direct Frequency Counting**<br>[Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 E | Array Continuous Counting | [C++](problems/3084.md) | O(N) | O(1) |

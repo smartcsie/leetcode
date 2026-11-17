@@ -6,16 +6,19 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Array Linear Scan
-  - Counting
   topics:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: synced
   tricks:
   - iota
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
   is_representative: true

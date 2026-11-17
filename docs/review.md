@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：916 題　🟠 再練習：11 題　🟣 易忘：5 題　🟢 熟練：65 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：915 題　🟠 再練習：12 題　🟣 易忘：5 題　🟢 熟練：65 題　⚪ 未標記：0 題
 
 ---
 
@@ -356,6 +356,7 @@
 | 🟠 再練習 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | 🟢 E | Array | [C++](problems/0997.md) | O(n + T) | O(n) |  |
 | 🟠 再練習 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 E | Array | [C++](problems/1470.md) | O(N) | O(N) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 E | Array Linear Scan | [C++](problems/2089.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 E | Array Linear Scan | [C++](problems/2643.md) | O(M\*N) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 E | 2d Array | [C++](problems/3417.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 H | Array Negative Marking, Math | [C++](problems/0041.md) | O(N) | O(1) |  |
@@ -416,7 +417,6 @@
 | 🔴 生疏 | 1995 | [Count Special Quadruplets](https://leetcode.com/problems/count-special-quadruplets/) | 🟢 E | Array, Brute Force | [C++](problems/1995.md) | O(N⁴) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2006 | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | 🟢 E | Array Linear Scan, Hash Table, Frequency Map | [C++](problems/2006.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 E | Array Linear Scan | [C++](problems/2057.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 E | Array Linear Scan, Counting | [C++](problems/2089.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | Array Negative Marking | [C++](problems/2133.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | 2d Array | [C++](problems/2133.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2176 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 E | Array Linear Scan | [C++](problems/2176.md) | O(N^2) | O(1) |  |
@@ -1173,7 +1173,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 13 | 0 | 0 | 2 | 0 | 15 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 11 | 1 | 0 | 12 | 0 | 24 |
+| [array-linear-scan](topics/array-linear-scan.md) | 10 | 2 | 0 | 12 | 0 | 24 |
 | [array-min-max](topics/array-min-max.md) | 1 | 1 | 0 | 5 | 0 | 7 |
 | [array-negative-marking](topics/array-negative-marking.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 19 |
