@@ -9,12 +9,18 @@
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-        bitset<1001> bits1, bits2, bits3;
+        class Solution {
+public:
+    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+        bitset<1001> bits1, bits2;
         for(const int& x : nums1) bits1.set(x);
         for(const int& x : nums2) bits2.set(x);
-        bits3 = bits1 & bits2;
         vector<int> ans;
-        for(int i = 0 ; i <= 1000; i++) if(bits3.test(i)) ans.push_back(i);
+        for(int x = 0; x <= 1000; x++) {
+            if(bits1[x] && bits2[x]) ans.push_back(x);
+        }
         return ans;
+    }
+};
     }
 };
