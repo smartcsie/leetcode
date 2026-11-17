@@ -10,15 +10,19 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
   note: '> 如果vector<string> words size和 s size不同，return false<br>
 
     > for loop i 從 0 ~ s.size() - 1，if(words[i][0] != s[i]) return false;<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-20'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-17'
+    result: 對
+    reason: null
 - file: Solution_2828_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -27,13 +31,16 @@ solutions:
   - string
   time: ''
   space: ''
-  familiarity: 生疏
+  familiarity: 易忘
+  official_solution: no-solution
   tricks:
   - accumulate string
   attempts:
   - date: '2026-09-20'
     result: 對
     reason: null
+  - date: '2026-11-17'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: accumulate string
-  official_solution: no-solution

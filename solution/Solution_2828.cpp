@@ -15,18 +15,10 @@
 class Solution {
 public:
     bool isAcronym(vector<string>& words, string s) {
-        // 優化：縮寫長度必須與單字個數相同
-        if (words.size() != s.size()) {
-            return false;
+        if(words.size() != s.size()) return false;
+        for(int i = 0 ; i < s.size(); i++) {
+            if(words[i].front() != s[i]) return false;
         }
-        
-        // 逐一比對首字母
-        for (int i = 0; i < words.size(); i++) {
-            if (words[i][0] != s[i]) {
-                return false;
-            }
-        }
-        
         return true;
     }
 };
