@@ -10,8 +10,10 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
   note: '> **一直檢查最後一個digit是否是odd**<br>'
+  official_solution: null
   related:
   - 2710
   - 3798
@@ -26,5 +28,11 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-21'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
