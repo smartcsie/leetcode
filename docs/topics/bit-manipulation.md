@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（35）
+## 🔴 生疏（34）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,7 +20,6 @@
 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 M | Backtracking Permutation | [C++](../problems/1545.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 M | Bit Manipulation, Bit Manipulation | [C++](../problems/1680.md) | O(N) | O(1) |  |
 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 E | Bit Manipulation, Bitset, Simulation | [C++](../problems/1893.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
-| 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 E | Bit Manipulation | [C++](../problems/2032.md) | O(N1+N2+N3) | O(1) | ❌ 官方沒有解答 |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | Bit Manipulation | [C++](../problems/2133.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 E | Bit Manipulation, Hash Table, Counting | [C++](../problems/2206.md) | O(N) | O(1) |  |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 E | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) | ❌ 官方沒有解答 |
@@ -51,7 +50,7 @@
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Bit Manipulation | [C++](../problems/0137.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 E | Bit Manipulation | [C++](../problems/0190.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -59,3 +58,4 @@
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation | [C++](../problems/0389.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 E | Bit Manipulation | [C++](../problems/1812.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Bit Manipulation | [C++](../problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 E | Bit Manipulation | [C++](../problems/2032.md) | O(N1+N2+N3) | O(1) | ❌ 官方沒有解答 |

@@ -13,15 +13,19 @@
 class Solution {
 public:
     vector<int> twoOutOfThree(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3) {
-        vector<int> count(101, 0);
-        for(const int& x : nums1) count[x] |= 1;
-        for(const int& x : nums2) count[x] |= 2;
-        for(const int& x : nums3) count[x] |= 4;
+        class Solution {
+public:
+    vector<int> twoOutOfThree(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3) {
+        array<uint8_t, 101> counts{};
         vector<int> ans;
-        ans.reserve(101);
-        for(int i = 1; i<= 100; i++) {
-            if(__builtin_popcount(count[i]) > 1) ans.push_back(i);
+        for(const int& x : nums1) counts[x] |= 1;
+        for(const int& x : nums2) counts[x] |= 2;
+        for(const int& x : nums3) counts[x] |= 4;
+        for(int x = 1; x <= 100; x++) {
+            if(counts[x] == 3 || counts[x] == 6 || counts[x] == 5 || counts[x] == 7) ans.push_back(x);
         }
         return ans;
+    }
+};
     }
 };

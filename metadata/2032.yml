@@ -10,13 +10,15 @@ solutions:
   - bit-manipulation
   time: O(N1+N2+N3)
   space: O(1)
-  familiarity: 生疏
-  note: '> 起一組vector<int> counts(101, 0)，nums1 數字 counts[num] |= 1，nums2 數字 counts[num]
-    |= 2，nums3 數字 counts[num] |= 4<br>
-
-    > 因為三組陣列都有可能有重覆值，OR 就不用考慮重覆，最後算if (popcount((unsigned int)counts[i]) >= 2) res.push_back(i);<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  note: '> **起一組array<uint8_t, 101> counts{};，nums1 數字 counts[x] |= 1，nums2 數字 counts[x]
+    |= 2，nums3 數字 counts[x] |= 4**<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-17'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-17'
+    result: 對
+    reason: null
