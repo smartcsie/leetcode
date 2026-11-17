@@ -1,6 +1,6 @@
 # stack
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 M | Stack | [C++](../problems/0445.md) | O(N+M) | O(N+M) |  |
 | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 E | Stack | [C++](../problems/0682.md) | O(N) | O(N) |  |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 M | Stack | [C++](../problems/0921.md) | O(N) | O(1) |  |
-| 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 M | Stack, String | [C++](../problems/1003.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 E | Stack | [C++](../problems/1021.md) | O(N) | O(1) |  |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack | [C++](../problems/1047.md) | O(N) | O(N) |  |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 M | String, Stack | [C++](../problems/1209.md) | O(N) | O(N) |  |
@@ -29,8 +28,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 M | Stack | [C++](../problems/1003.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 M | Stack | [C++](../problems/2390.md) | O(N) | O(N) | ✅ 已同步官方解答 |

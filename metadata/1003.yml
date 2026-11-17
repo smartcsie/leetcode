@@ -6,12 +6,13 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Stack
-  - String
   topics:
   - stack
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  official_solution: no-solution
   tricks:
   - string stack
   attempts:
@@ -24,4 +25,6 @@ solutions:
   - date: '2026-10-19'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-17'
+    result: 對
+    reason: null
