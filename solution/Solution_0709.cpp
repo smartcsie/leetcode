@@ -15,7 +15,7 @@ class Solution {
 public:
     string toLowerCase(string s) {
         for(char& c : s) {
-            if(isalpha(c)) c |= 32;
+            if(isupper(c)) c |= 32;
         }
         return s;
     }
