@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：906 題　🟠 再練習：14 題　🟣 易忘：6 題　🟢 熟練：71 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：905 題　🟠 再練習：15 題　🟣 易忘：6 題　🟢 熟練：71 題　⚪ 未標記：0 題
 
 ---
 
@@ -760,6 +760,7 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 E | Stack | [C++](problems/1078.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 E | Stack | [C++](problems/0020.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 🔴 H | String, Stack, DP | [C++](problems/0032.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 H | Monotonic Stack | [C++](problems/0085.md) | O(M\*N) | O(N) |  |
@@ -776,7 +777,6 @@
 | 🔴 生疏 | 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 M | Linked List, Monotonic Stack | [C++](problems/1019.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 E | Stack | [C++](problems/1021.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack | [C++](problems/1047.md) | O(N) | O(N) |  |
-| 🔴 生疏 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 E | Stack, String Parsing | [C++](problems/1078.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 M | Monotonic Stack, Greedy | [C++](problems/1081.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 M | String, Stack | [C++](problems/1209.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 E | Array, Stack, Monotonic Stack | [C++](problems/1475.md) | O(N) | O(N) |  |
@@ -1259,7 +1259,7 @@
 | [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 16 | 0 | 0 | 0 | 0 | 16 |
+| [stack](topics/stack.md) | 15 | 1 | 0 | 0 | 0 | 16 |
 | [string](topics/string.md) | 30 | 1 | 1 | 5 | 0 | 37 |
 | [string-character-classification](topics/string-character-classification.md) | 31 | 0 | 0 | 0 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |

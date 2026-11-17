@@ -13,15 +13,19 @@
 class Solution {
 public:
     vector<string> findOcurrences(string text, string first, string second) {
-        vector<string> prev(2);
-        vector<string> target = {first, second};
-        istringstream iss(text);
-        string w;
+        string pre1, pre2;
         vector<string> ans;
-        while(iss >> w) {    
-            if(prev == target) ans.push_back(w);
-            prev[0] = prev[1];
-            prev[1] = w;
+        int n = text.size();
+        for(int i = 0, start = 0; i <= n; i++) {
+            if(i == n || text[i] == ' ') {
+                string str = text.substr(start, i - start);
+                if(pre1 == first && pre2 == second) {
+                    ans.push_back(str);
+                }
+                pre1 = pre2;
+                pre2 = str;
+                start = i + 1;
+            }
         }
         return ans;
     }
