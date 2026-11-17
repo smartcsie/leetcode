@@ -10,8 +10,10 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
   note: '> **記得先判斷!s.empty()**<br>'
+  official_solution: no-solution
   related:
   - 1903
   - 2710
@@ -26,4 +28,6 @@ solutions:
   - date: '2026-09-21'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-17'
+    result: 對
+    reason: null

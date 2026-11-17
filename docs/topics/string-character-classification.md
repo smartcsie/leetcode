@@ -1,6 +1,6 @@
 # string-character-classification
 
-## 🔴 生疏（29）
+## 🔴 生疏（28）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -31,7 +31,6 @@
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | ❌ 官方沒有解答 |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 E | String Character Classification, String | [C++](../problems/3798.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 E | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 E | String Character Classification | [C++](../problems/3856.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3931 | [Check Adjacent Digit Differences](https://leetcode.com/problems/check-adjacent-digit-differences/) | 🟢 E | String Character Classification, Math | [C++](../problems/3931.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（0）
@@ -42,9 +41,10 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 E | String Character Classification | [C++](../problems/0520.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 E | String Character Classification | [C++](../problems/0709.md) | O(N) | O(1) | 🌟 優於官方解答 |
+| 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 E | String Character Classification | [C++](../problems/3856.md) | O(N) | O(1) | ❌ 官方沒有解答 |
