@@ -1,6 +1,6 @@
 # array-linear-scan
 
-## 🔴 生疏（11）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 2057 | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/) | 🟢 E | Array Linear Scan | [C++](../problems/2057.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 E | Array Linear Scan, Counting | [C++](../problems/2089.md) | O(N) | O(1) |  |
 | 2176 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 E | Array Linear Scan | [C++](../problems/2176.md) | O(N^2) | O(1) |  |
-| 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Array Linear Scan | [C++](../problems/2485.md) | O(N) | O(1) |  |
 
 ## 🟠 再練習（1）
 
@@ -26,7 +25,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（15）
+## 🟢 熟悉（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -39,6 +38,7 @@
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array) | 🟢 E | Array Linear Scan | [C++](../problems/1929.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero) | 🟢 E | Array Linear Scan | [C++](../problems/2239.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Array Linear Scan | [C++](../problems/2485.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 3168 | [Minimum Number of Chairs](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/) | 🟢 E | Array Linear Scan | [C++](../problems/3168.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | 🟢 E | Array Linear Scan | [C++](../problems/3512.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3701 | [Compute Alternating Sum](https://leetcode.com/problems/compute-alternating-sum/) | 🟢 E | Array Linear Scan | [C++](../problems/3701.md) | O(N) | O(1) | ❌ 官方沒有解答 |

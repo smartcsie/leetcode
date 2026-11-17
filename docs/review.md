@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：917 題　🟠 再練習：11 題　🟣 易忘：5 題　🟢 熟練：64 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：916 題　🟠 再練習：11 題　🟣 易忘：5 題　🟢 熟練：65 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 1024 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 1022 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（141）](#review-math)　[📊 Bit Manipulation（83）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（87）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（80）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（140）](#review-math)　[📊 Bit Manipulation（83）](#review-bit-manipulation)　[🔗 String（75）](#review-string)　[🍱 Array（86）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（80）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -30,7 +30,7 @@
 | 🔴 生疏 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 E | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) |  |
 
 <a id="review-math"></a>
-#### 🔢 Math（141）
+#### 🔢 Math（140）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -123,7 +123,6 @@
 | 🔴 生疏 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 M | Math Digit Decomposition, Simulation | [C++](problems/2443.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 E | Math, Array | [C++](problems/2455.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 E | Math | [C++](problems/2469.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Math | [C++](problems/2485.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 2507 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 M | Math Factor Enumeration, Prime Factorization | [C++](problems/2507.md) | O(logN\*sqrt(N)) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2520 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 E | Math Factor Enumeration, Digit Manipulation | [C++](problems/2520.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 M | Math Prime, Prime Factorization | [C++](problems/2521.md) | O(N\*sqrt(M)) | O(K) | ❌ 官方沒有解答 |
@@ -347,7 +346,7 @@
 | 🔴 生疏 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 E | String, Simulation, Math | [C++](problems/3986.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-array"></a>
-#### 🍱 Array（87）
+#### 🍱 Array（86）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -424,7 +423,6 @@
 | 🔴 生疏 | 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 E | Array Continuous Counting | [C++](problems/2210.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | 🟡 M | Array Continuous Counting | [C++](problems/2348.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Array Linear Scan | [C++](problems/2485.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/2559.md) | O(N+Q) | O(N) |  |
 | 🔴 生疏 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 E | Array Prefix Sum | [C++](problems/2574.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2609 | [Find the Longest Balanced Substring](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 🟢 E | Greedy, Two Counters | [C++](problems/2609.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -1175,7 +1173,7 @@
 | [array-continuous-counting](topics/array-continuous-counting.md) | 13 | 0 | 0 | 2 | 0 | 15 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [array-linear-scan](topics/array-linear-scan.md) | 12 | 1 | 0 | 11 | 0 | 24 |
+| [array-linear-scan](topics/array-linear-scan.md) | 11 | 1 | 0 | 12 | 0 | 24 |
 | [array-min-max](topics/array-min-max.md) | 1 | 1 | 0 | 5 | 0 | 7 |
 | [array-negative-marking](topics/array-negative-marking.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 19 |
@@ -1188,7 +1186,7 @@
 | [binary-search-build-in](topics/binary-search-build-in.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 8 | 0 | 0 | 0 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 3 | 0 | 0 | 0 | 0 | 3 |
-| [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 0 | 0 | 4 |
+| [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 5 |
 | [binary-search-tree](topics/binary-search-tree.md) | 16 | 0 | 0 | 0 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [bit-manipulation](topics/bit-manipulation.md) | 34 | 0 | 2 | 0 | 0 | 36 |
@@ -1244,7 +1242,7 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 17 | 1 | 0 | 2 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 34 | 0 | 4 | 0 | 0 | 38 |
+| [math](topics/math.md) | 33 | 0 | 4 | 1 | 0 | 38 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 42 | 0 | 0 | 0 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |

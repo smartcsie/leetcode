@@ -10,21 +10,10 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  familiarity: 生疏
-  note: '> [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/)<br>
-
-    > Pivot integer為 summation開根號<br>
-
-    > int sum = n * (n + 1) / 2;<br>
-
-    > int x = static_cast<int>(sqrt(sum));<br>
-
-    > if(x * x == sum) return x;<br>
-
-    > return -1;<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
   is_best: true
-  tricks:
-  - Perfect Squares
+  official_solution: synced
   attempts:
   - date: '2026-10-03'
     result: 對
@@ -38,6 +27,9 @@ solutions:
   - date: '2026-10-12'
     result: 對
     reason: null
+  - date: '2026-11-17'
+    result: 對
+    reason: null
 - file: Solution_2485_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -46,8 +38,10 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
   note: '> **注意if(n == 1) return 1;**<br>'
+  official_solution: better
   attempts:
   - date: '2026-10-03'
     result: 對
@@ -59,5 +53,23 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
+    result: 對
+    reason: null
+- file: Solution_2485_2.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Binary Search On Answer
+  topics:
+  - binary-search-on-answer
+  time: O(logn)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
+  official_solution: synced
+  attempts:
+  - date: '2026-11-17'
     result: 對
     reason: null
