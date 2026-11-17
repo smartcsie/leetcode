@@ -20,7 +20,7 @@
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 E | String Character Classification, Hash Table, Array | [C++](../problems/2399.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 E | String Character Classification | [C++](../problems/2490.md) | O(N) | O(1) |  |
 | 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 E | String Character Classification, String, Simulation | [C++](../problems/2496.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
-| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 E | String Character Classification | [C++](../problems/2678.md) | O(N) | O(1) |  |
+| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 E | String Character Classification | [C++](../problems/2678.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 E | String Character Classification | [C++](../problems/2710.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 E | String Character Classification | [C++](../problems/2839.md) | O(1) | O(1) |  |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 E | String Character Classification | [C++](../problems/3110.md) | O(N) | O(1) |  |
