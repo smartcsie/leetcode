@@ -1,13 +1,12 @@
 # bit-manipulation
 
-## 🔴 生疏（38）
+## 🔴 生疏（37）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 M | Bit Manipulation, Math | [C++](../problems/0029.md) | O(log²N) | O(1) |  |
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 M | Bit Manipulation | [C++](../problems/0029.md) | O(log²N) | O(1) |  |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 M | Bit Manipulation | [C++](../problems/0036.md) | O(1) | O(1) |  |
-| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 E | Bit Manipulation, Bit-Manipulation | [C++](../problems/0190.md) | O(1) | O(1) |  |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 🟢 E | Bit Manipulation | [C++](../problems/0349.md) | O(N+M) | O(N) |  |
 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 M | Bit Manipulation | [C++](../problems/0371.md) | O(1) | O(1) |  |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation, Hash Table | [C++](../problems/0389.md) | O(N) | O(1) |  |
@@ -47,14 +46,16 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟣 易忘（1）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Bit Manipulation | [C++](../problems/0137.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 E | Bit Manipulation | [C++](../problems/0190.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 E | Bit Manipulation | [C++](../problems/0190.md) | O(1) | O(1) |  |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Bit Manipulation | [C++](../problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
