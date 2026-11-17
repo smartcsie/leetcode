@@ -23,18 +23,20 @@
  *    只能自己坐一艘，跟其他更重的人配對更不可能成功。
  * 4. 迴圈直到 i > j 為止，boats 就是答案。
  */
+
 class Solution {
 public:
     int numRescueBoats(vector<int>& people, int limit) {
-        vector<int>& p = people;
-        sort(p.begin(), p.end());
-        int left = 0, right = p.size() - 1;
-        int boat = 0;
+        sort(people.begin(), people.end());
+        int left = 0, right = people.size() - 1;
+        int boats = 0;
         while(left <= right) {
-            if(p[left] + p[right] <= limit) left++;
+            if(people[left] + people[right] <= limit) {
+                left++;
+            }
             right--;
-            boat++;
-        }
-        return boat;
+            boats++;
+        } 
+        return boats;
     }
 };

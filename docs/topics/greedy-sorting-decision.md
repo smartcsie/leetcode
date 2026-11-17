@@ -1,13 +1,12 @@
 # greedy-sorting-decision
 
-## 🔴 生疏（16）
+## 🔴 生疏（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0406.md) | O(N²) | O(N) |  |
 | 462 | [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0462.md) | O(N log N) | O(1) |  |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0621.md) | O(N) | O(1) |  |
-| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0881.md) | O(N log N) | O(1) |  |
 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0945.md) | O(NlogN) | O(1) |  |
 | 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | 🟢 E | Greedy Sorting Decision | [C++](../problems/0976.md) | O(N log N) | O(1) |  |
 | 1005 | [Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | 🟢 E | Greedy Sorting Decision, Sorting | [C++](../problems/1005.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
@@ -29,9 +28,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 M | Greedy Sorting Decision | [C++](../problems/0881.md) | O(N log N) | O(1) | ✅ 已同步官方解答 |
 
 ---
 

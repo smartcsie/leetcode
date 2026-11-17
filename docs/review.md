@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：910 題　🟠 再練習：12 題　🟣 易忘：6 題　🟢 熟練：69 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：909 題　🟠 再練習：12 題　🟣 易忘：6 題　🟢 熟練：70 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 1017 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 1016 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（140）](#review-math)　[📊 Bit Manipulation（83）](#review-bit-manipulation)　[🔗 String（71）](#review-string)　[🍱 Array（85）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（80）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（86）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（140）](#review-math)　[📊 Bit Manipulation（83）](#review-bit-manipulation)　[🔗 String（71）](#review-string)　[🍱 Array（85）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（80）](#review-hash-table)　[📚 Stack（24）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（85）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -994,7 +994,7 @@
 | 🔴 生疏 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 M | Dp Lis, Dynamic Programming Lis, Longest Non-Decreasing Subsequence | [C++](problems/2826.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-greedy"></a>
-#### 🧩 Greedy（86）
+#### 🧩 Greedy（85）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1027,7 +1027,6 @@
 | 🔴 生疏 | 846 | [Hand of Straights](https://leetcode.com/problems/hand-of-straights/) | 🟡 M | Greedy Frequency Merging | [C++](problems/0846.md) | O(N log N) | O(N) |  |
 | 🔴 生疏 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | 🟢 E | Greedy Coin Change | [C++](problems/0860.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | 🔴 H | Greedy Fractional Knapsack | [C++](problems/0871.md) | O(N log N) | O(N) |  |
-| 🔴 生疏 | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 M | Greedy Sorting Decision | [C++](problems/0881.md) | O(N log N) | O(1) |  |
 | 🔴 生疏 | 899 | [Orderly Queue](https://leetcode.com/problems/orderly-queue/) | 🔴 H | Greedy String Construction | [C++](problems/0899.md) | O(N²) | O(N) |  |
 | 🔴 生疏 | 945 | [Minimum Increment to Make Array Unique](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | 🟡 M | Greedy Sorting Decision | [C++](problems/0945.md) | O(NlogN) | O(1) |  |
 | 🔴 生疏 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 E | Greedy | [C++](problems/0961.md) | O(N) | O(1) |  |
@@ -1226,7 +1225,7 @@
 | [greedy-prefix-suffix](topics/greedy-prefix-suffix.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 4 | 0 | 0 | 0 | 0 | 4 |
-| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 16 | 0 | 0 | 0 | 0 | 16 |
+| [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 15 | 0 | 0 | 1 | 0 | 16 |
 | [greedy-string-construction](topics/greedy-string-construction.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 4 | 0 | 0 | 0 | 0 | 4 |
