@@ -74,7 +74,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 136 | 👑 **Accumulate XOR**<br>[Single Number](https://leetcode.com/problems/single-number) | 🟢 E | Bit Manipulation Xor, Bit-Manipulation | [C++](problems/0136.md) | O(N) | O(1) |
+| 136 | 👑 **Accumulate XOR**<br>[Single Number](https://leetcode.com/problems/single-number) | 🟢 E | Bit Manipulation Xor | [C++](problems/0136.md) | O(N) | O(1) |
 | 137 | 👑 **Finite State Machine**<br>[Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Bit Manipulation | [C++](problems/0137.md) | O(N) | O(1) |
 | 191 | 👑 **Brian Kernighan**<br>[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | 🟢 E | Bit Manipulation And | [C++](problems/0191.md) | O(K) | O(1) |
 | 416 | 👑 **0/1 Knapsack**<br>[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 M | Bit Manipulation | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) |

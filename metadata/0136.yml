@@ -6,19 +6,23 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Bit Manipulation Xor
-  - Bit-Manipulation
   topics:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-17'
   note: '> 所有num出現兩次，目標num出現一次，全部的數字XOR起來就是答案<br>'
+  official_solution: synced
   related:
   - 2317
   tricks:
   - accumulate
   attempts:
   - date: '2026-09-14'
+    result: 對
+    reason: null
+  - date: '2026-11-17'
     result: 對
     reason: null
   is_representative: true
