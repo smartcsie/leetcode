@@ -22,5 +22,5 @@ class Solution {
 public:
     bool squareIsWhite(std::string coordinates) {
         // 利用字元 ASCII 相加的奇偶性來判斷顏色
-        return (coordinates[0] + coordinates[1]) & 1;
+        return (coordinates[0] & 1) ^ (coordinates[1] & 1);
     }

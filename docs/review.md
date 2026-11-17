@@ -208,7 +208,7 @@
 | 🔴 生疏 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 M | Bit Manipulation, Bit Manipulation | [C++](problems/1680.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 E | Bit Manipulation Or, Bit Manipulation | [C++](problems/1684.md) | O(N\*M) | O(1) |  |
 | 🔴 生疏 | 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 E | Bit Manipulation Xor, Simulation | [C++](problems/1720.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 E | Bit Manipulation, Math, String | [C++](problems/1812.md) | O(1) | O(1) | ❌ 官方沒有解答 |
+| 🔴 生疏 | 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 E | Bit Manipulation | [C++](problems/1812.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 E | Bit Manipulation Or | [C++](problems/1863.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 E | Bit Manipulation, Bitset, Simulation | [C++](problems/1893.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 E | Bit Manipulation | [C++](problems/2032.md) | O(N1+N2+N3) | O(1) | ❌ 官方沒有解答 |
