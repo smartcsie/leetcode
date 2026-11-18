@@ -1,6 +1,6 @@
 # hash-table-uniqueness
 
-## 🔴 生疏（20）
+## 🔴 生疏（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,8 +8,6 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0217.md) | O(N) | O(N) |  |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0217.md) | O(NlogN) | O(logN) |  |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0217.md) | O(NlogN) | O(logN) |  |
-| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0575.md) | O(N + V) | O(V) |  |
-| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0575.md) | O(N) | O(K) |  |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 E | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](../problems/0859.md) | O(N) | O(1) |  |
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 M | Hash Table Uniqueness | [C++](../problems/0939.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 E | Hash Table Uniqueness, Hash Table, Counting | [C++](../problems/1207.md) | O(N) | O(N) |  |
@@ -35,10 +33,12 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0387.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0575.md) | O(N + V) | O(V) | 🌟 優於官方解答 |
+| 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0575.md) | O(N) | O(K) |  |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0961.md) | O(N) | O(1) |  |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 E | Hash Table Uniqueness | [C++](../problems/1748.md) | O(N) | O(N) | ❌ 官方沒有解答 |

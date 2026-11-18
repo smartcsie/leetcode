@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：861 題　🟠 再練習：18 題　🟣 易忘：13 題　🟢 熟練：105 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：860 題　🟠 再練習：18 題　🟣 易忘：13 題　🟢 熟練：106 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 972 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 970 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（83）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（83）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（71）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -638,7 +638,7 @@
 | 🟣 易忘 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Fast Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-hash-table"></a>
-#### 🔑 Hash Table（73）
+#### 🔑 Hash Table（71）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -661,8 +661,6 @@
 | 🔴 生疏 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 E | Hash Table Mapping, Hash Table | [C++](problems/0290.md) | O(N+M) | O(N+M) |  |
 | 🔴 生疏 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 M | Hash Table Existence, Hash Table | [C++](problems/0454.md) | O(N²) | O(N²) |  |
 | 🔴 生疏 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 M | Hash Table Existence | [C++](problems/0532.md) | O(NlogN) | O(N) |  |
-| 🔴 生疏 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 E | Hash Table Uniqueness | [C++](problems/0575.md) | O(N + V) | O(V) |  |
-| 🔴 生疏 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 E | Hash Table Uniqueness | [C++](problems/0575.md) | O(N) | O(K) |  |
 | 🔴 生疏 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | 🟢 E | Hash Table Existence | [C++](problems/0594.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | 🟢 E | Hash Table Intersection, Hash Table | [C++](problems/0599.md) | O(N+M) | O(N) |  |
 | 🔴 生疏 | 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | 🟢 E | Hash Table Counting | [C++](problems/0748.md) | O(L + W) | O(1) | ❌ 官方沒有解答 |
@@ -1189,7 +1187,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 12 | 2 | 0 | 6 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 3 | 1 | 0 | 8 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 7 | 0 | 0 | 2 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 16 | 1 | 0 | 3 | 0 | 20 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 15 | 1 | 0 | 4 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 31 | 0 | 5 | 2 | 0 | 38 |

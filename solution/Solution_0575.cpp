@@ -27,7 +27,7 @@ public:
         bitset<200001> counts;  // 預設全為 0；第 k 位元為 1 代表（k - 100000）這種糖出現過
 
         // 值域含負數，加上 100000 平移成非負索引後標記
-        for (const int& x : candyType) counts.set(x + 100000);
+        for (const int& x : candyType) counts.set(x + 1e5);
 
         int half = candyType.size() / 2;  // 最多能吃的顆數
 
