@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：865 題　🟠 再練習：18 題　🟣 易忘：11 題　🟢 熟練：103 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：864 題　🟠 再練習：18 題　🟣 易忘：12 題　🟢 熟練：103 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 977 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 976 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（72）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（86）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（86）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -173,7 +173,7 @@
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-bit-manipulation"></a>
-#### 📊 Bit Manipulation（72）
+#### 📊 Bit Manipulation（71）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -189,8 +189,6 @@
 | 🔴 生疏 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 M | Bit Manipulation | [C++](problems/0416.md) | O(N\*S/W) | O(S/W) | 🌟 優於官方解答 |
 | 🔴 生疏 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 M | Bit Manipulation Xor | [C++](problems/0421.md) | O(N\*L) | O(N) |  |
 | 🔴 生疏 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 M | Bit Manipulation | [C++](problems/0477.md) | O(31\*N) | O(1) | ✅ 已同步官方解答 |
-| 🔴 生疏 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Or | [C++](problems/1318.md) | O(1) | O(1) | ✅ 已同步官方解答 |
-| 🔴 生疏 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Xor | [C++](problems/1318.md) | O(log(max(a,b,c))) | O(1) |  |
 | 🔴 生疏 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 E | Bit Manipulation, Math | [C++](problems/1342.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 M | Bit Manipulation Xor, Prefix XOR | [C++](problems/1442.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 E | Bit Manipulation, Simulation | [C++](problems/1486.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -249,6 +247,7 @@
 | 🟣 易忘 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 E | Bit Manipulation | [C++](problems/0476.md) | O(1) | O(1) | ⏳ 尚未同步 |
 | 🟣 易忘 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 E | Bit Manipulation | [C++](problems/0693.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 🟣 易忘 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 E | Bit Manipulation | [C++](problems/1009.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 🟣 易忘 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Or | [C++](problems/1318.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-string"></a>
 #### 🔗 String（55）
@@ -1147,8 +1146,8 @@
 | [bit-manipulation](topics/bit-manipulation.md) | 26 | 0 | 6 | 4 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 6 | 0 | 0 | 1 | 0 | 7 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 3 | 0 | 0 | 0 | 0 | 3 |
-| [bit-manipulation-or](topics/bit-manipulation-or.md) | 9 | 0 | 0 | 0 | 0 | 9 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 13 | 0 | 1 | 3 | 0 | 17 |
+| [bit-manipulation-or](topics/bit-manipulation-or.md) | 8 | 0 | 1 | 0 | 0 | 9 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 12 | 0 | 2 | 3 | 0 | 17 |
 | [design](topics/design.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [dp-bitmask](topics/dp-bitmask.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 4 |

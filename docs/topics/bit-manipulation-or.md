@@ -1,10 +1,9 @@
 # bit-manipulation-or
 
-## 🔴 生疏（9）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Or | [C++](../problems/1318.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 E | Bit Manipulation Or, Bit Manipulation | [C++](../problems/1684.md) | O(N\*M) | O(1) |  |
 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 E | Bit Manipulation Or | [C++](../problems/1863.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 2044 | [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | 🟡 M | Bit Manipulation Or | [C++](../problems/2044.md) | O(n\*M) | O(M) | ✅ 已同步官方解答 |
@@ -18,9 +17,11 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Or | [C++](../problems/1318.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟢 熟悉（0）
 
