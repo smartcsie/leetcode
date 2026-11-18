@@ -9,9 +9,9 @@
 
 ## 📝 複習清單（依分類）
 
-目前共有 976 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 975 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（86）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（86）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -841,13 +841,12 @@
 | 🔴 生疏 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 M | Sorting Custom Comparator | [C++](problems/3913.md) | O(NlogN) | O(N) | ❌ 官方沒有解答 |
 
 <a id="review-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（108）
+#### 🧩 Dynamic Programming（107）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🔴 生疏 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 H | Dp String | [C++](problems/0010.md) | O(M) | O(M) |  |
 | 🔴 生疏 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | 🔴 H | Dp String | [C++](problems/0044.md) | O(M) | O(M) |  |
-| 🔴 生疏 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 M | Dp Kadane | [C++](problems/0053.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 M | Dp Kadane | [C++](problems/0053.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | 🟡 M | Dp Grid Path, Dynamic Programming Grid Path, DP | [C++](problems/0063.md) | O(M\*N) | O(N) |  |
 | 🔴 生疏 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 M | Dp Grid Path | [C++](problems/0064.md) | O(M\*N) | O(1) |  |

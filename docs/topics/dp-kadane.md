@@ -1,10 +1,9 @@
 # dp-kadane
 
-## 🔴 生疏（6）
+## 🔴 生疏（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 M | Dp Kadane | [C++](../problems/0053.md) | O(N) | O(1) |  |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 M | Dp Kadane | [C++](../problems/0053.md) | O(N) | O(N) |  |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 M | Dp Kadane, Array | [C++](../problems/0152.md) | O(N) | O(1) |  |
 | 674 | [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 E | Dp Kadane | [C++](../problems/0674.md) | O(N) | O(N) |  |
@@ -19,9 +18,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | 🟡 M | Dp Kadane | [C++](../problems/0053.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 ---
 
