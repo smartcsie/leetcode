@@ -21,21 +21,18 @@
 class Solution {
 public:
     int mostFrequentEven(vector<int>& nums) {
-        unordered_map<int, int> counts;
-        int mx = 0;
-        int ans = INT_MAX;
-        for(const int& num : nums) {
-            if((num & 1) == 0) {
-                counts[num]++;
-                if(counts[num] > mx) {
-                    mx = counts[num];
-                    ans = num;
-                } else if(counts[num] == mx) {
-                    ans = min(num, ans);
-                }
-                
+        array<uint16_t, 50001> counts{};
+        for(const int& x : nums) {
+            if(!(x & 1)) counts[x / 2]++;
+        }
+        int mxFreq = 0;
+        int ans = -1;
+        for(int x = 0; x <= 50000; x++) {
+            if(counts[x] > mxFreq) {
+                mxFreq = counts[x];
+                ans = x * 2;
             }
         }
-        return counts.empty() ? -1 : ans;
+        return ans;
     }
 };
