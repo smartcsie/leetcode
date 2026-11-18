@@ -10,10 +10,12 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-18'
   note: '> **檢查是否存在"ba"的case，如果有，return false**<br>
 
     > **return s.find("ba") == string::npos;** <br>'
+  official_solution: synced
   related:
   - 1784
   attempts:
@@ -29,4 +31,6 @@ solutions:
   - date: '2026-09-21'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-18'
+    result: 對
+    reason: null
