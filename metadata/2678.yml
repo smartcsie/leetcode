@@ -10,7 +10,8 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-18'
   note: '> **Index 11和12是age，int age = 10 * (detail[11] - ''0'') + (detail[12] - ''0'');**
     <br>
 
@@ -23,5 +24,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-17'
+    result: 對
+    reason: null
+  - date: '2026-11-18'
     result: 對
     reason: null

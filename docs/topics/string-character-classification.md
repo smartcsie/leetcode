@@ -1,6 +1,6 @@
 # string-character-classification
 
-## 🔴 生疏（20）
+## 🔴 生疏（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,6 @@
 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 E | String Character Classification | [C++](../problems/2255.md) | O(N\*M) | O(1) | ❌ 官方沒有解答 |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 E | String Character Classification | [C++](../problems/2490.md) | O(N) | O(1) |  |
 | 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 E | String Character Classification, String, Simulation | [C++](../problems/2496.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
-| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 E | String Character Classification | [C++](../problems/2678.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 E | String Character Classification | [C++](../problems/2710.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 E | String Character Classification | [C++](../problems/2839.md) | O(1) | O(1) |  |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 E | String Character Classification | [C++](../problems/3110.md) | O(N) | O(1) |  |
@@ -33,7 +32,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（11）
+## 🟢 熟悉（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -44,6 +43,7 @@
 | 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 E | String Character Classification | [C++](../problems/2278.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 E | String Character Classification | [C++](../problems/2399.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2586 | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range) | 🟢 E | String Character Classification | [C++](../problems/2586.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 E | String Character Classification | [C++](../problems/2678.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 E | String Character Classification | [C++](../problems/3798.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 E | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 E | String Character Classification | [C++](../problems/3856.md) | O(N) | O(1) | ❌ 官方沒有解答 |
