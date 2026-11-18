@@ -10,11 +10,13 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
-  note: '> 類似 3856[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/)
+  familiarity: 熟練
+  mastered_date: '2026-11-18'
+  note: '> **類似 3856[Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/)**
     <br>
 
-    > **while (!num.empty() && num.back() == ''0''){** <br>'
+    > **while (!num.empty() && num.back() == ''0'')** <br>'
+  official_solution: no-solution
   related:
   - 1903
   - 3798
@@ -28,6 +30,8 @@ solutions:
   - date: '2026-09-21'
     result: 對
     reason: null
+  - date: '2026-11-18'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Remove Trailing
-  official_solution: no-solution
