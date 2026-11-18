@@ -1,10 +1,9 @@
 # array-continuous-counting
 
-## 🔴 生疏（13）
+## 🔴 生疏（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 E | Array Continuous Counting | [C++](../problems/0485.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | 🟢 E | Array Continuous Counting | [C++](../problems/0696.md) | O(N) | O(1) |  |
 | 697 | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/) | 🟢 E | Array Continuous Counting, Hash Map, One-pass | [C++](../problems/0697.md) | O(N) | O(N) |  |
 | 830 | [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/) | 🟢 E | Array Continuous Counting | [C++](../problems/0830.md) | O(N) | O(1) |  |
@@ -26,9 +25,10 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | 🟢 E | Array Continuous Counting | [C++](../problems/0485.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1446 | [Consecutive Characters](https://leetcode.com/problems/consecutive-characters/) | 🟢 E | Array Continuous Counting | [C++](../problems/1446.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/) | 🟢 E | Array Continuous Counting | [C++](../problems/1550.md) | O(N) | O(1) | ✅ 已同步官方解答 |
