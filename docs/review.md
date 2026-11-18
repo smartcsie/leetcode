@@ -296,7 +296,7 @@
 | 🔴 生疏 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 E | String Character Classification | [C++](problems/2490.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 E | String Character Classification, String, Simulation | [C++](problems/2496.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 E | String Character Classification | [C++](problems/2710.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 E | String Character Classification | [C++](problems/2839.md) | O(1) | O(1) |  |
+| 🔴 生疏 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 E | String Character Classification | [C++](problems/2839.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 🔴 生疏 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 E | String | [C++](problems/2937.md) | O(min(L1,L2,L3)) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 E | String | [C++](problems/2942.md) | O(N\*L) | O(1) |  |
 | 🔴 生疏 | 3083 | [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | 🟢 E | String Substring, Array | [C++](problems/3083.md) | O(N) | O(1) | ❌ 官方沒有解答 |

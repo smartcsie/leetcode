@@ -18,7 +18,7 @@
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 E | String Character Classification | [C++](../problems/2490.md) | O(N) | O(1) |  |
 | 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 E | String Character Classification, String, Simulation | [C++](../problems/2496.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 E | String Character Classification | [C++](../problems/2710.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 E | String Character Classification | [C++](../problems/2839.md) | O(1) | O(1) |  |
+| 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 E | String Character Classification | [C++](../problems/2839.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 E | String Character Classification | [C++](../problems/3110.md) | O(N) | O(1) |  |
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 M | String Character Classification, String Processing | [C++](../problems/3121.md) | O(N) | O(1) |  |
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 E | String Character Classification, Validation | [C++](../problems/3136.md) | O(N) | O(1) |  |
