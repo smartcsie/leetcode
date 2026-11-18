@@ -10,7 +10,7 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '>**x其實是讓n變成 11111......**<br>
 
     >**(x & (x+1)) 會是0或INT_MAX**<br>'
@@ -32,6 +32,9 @@ solutions:
   - date: '2026-11-12'
     result: 對
     reason: null
+  - date: '2026-11-18'
+    result: 對
+    reason: null
 - file: Solution_0693_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -40,7 +43,8 @@ solutions:
   - bit-manipulation
   time: O(logn)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-18'
   official_solution: null
   attempts:
   - date: '2026-10-04'
@@ -56,5 +60,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-12'
+    result: 對
+    reason: null
+  - date: '2026-11-18'
     result: 對
     reason: null
