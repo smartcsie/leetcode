@@ -6,14 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Counting
-  - Hash Table
   topics:
   - hash-table-counting
   time: O(M+N)
   space: O(M+N)
-  familiarity: 生疏
-  note: "> ** transform(s.begin(), s.end(), s.begin(), [](unsigned char c) {**<br>\n\
-    \ > ** return ispunct(c) ? ' ' : tolower(c);**<br>\n > ** });**<br>"
+  familiarity: 再練習
+  official_solution: null
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -22,6 +20,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-11-18'
     result: 對
     reason: null
   is_representative: true

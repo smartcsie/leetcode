@@ -1,12 +1,11 @@
 # hash-table-counting
 
-## 🔴 生疏（24）
+## 🔴 生疏（23）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Counting, Hash Table | [C++](../problems/0049.md) | O(N\*K) | O(N\*K) |  |
 | 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | 🟢 E | Hash Table Counting | [C++](../problems/0748.md) | O(L + W) | O(1) | ❌ 官方沒有解答 |
-| 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 E | Hash Table Counting, Hash Table | [C++](../problems/0819.md) | O(M+N) | O(M+N) |  |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 M | Hash Table Counting, Hash Table, Counting | [C++](../problems/0916.md) | O(N \* L) | O(1) |  |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](../problems/1394.md) | O(N) | O(1) |  |
 | 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 M | Hash Table Counting, Hash Table, Remainder Counting | [C++](../problems/1497.md) | O(N+K) | O(K) |  |
@@ -29,10 +28,11 @@
 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 E | Hash Table Counting, Hash Table | [C++](../problems/3843.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 M | String, Hash Map | [C++](../problems/3926.md) | O(N+M) | O(N) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（1）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 E | Hash Table Counting | [C++](../problems/0819.md) | O(M+N) | O(M+N) |  |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 M | Hash Table Counting | [C++](../problems/2225.md) | O(NlogN) | O(N) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（1）

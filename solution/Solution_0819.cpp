@@ -10,25 +10,26 @@
 class Solution {
 public:
     string mostCommonWord(string paragraph, vector<string>& banned) {
-        string s = paragraph;
-        transform(s.begin(), s.end(), s.begin(), [](unsigned char c) {
-            return ispunct(c) ? ' ' : tolower(c);
-        });
-        unordered_set bannedSet(banned.begin(), banned.end());
-        unordered_map<string, int> counts;
-        istringstream iss(s);
-        string w;
-        while(iss >> w) {
-            if(!bannedSet.contains(w)) counts[w]++;
-        }
-        int mx = 0;
-        string ans;
-        for(const auto& [w, count] : counts) {
-            if(count > mx) {
-                mx = count;
-                ans = w;
+        unordered_set<string_view> bannedSet(banned.begin(), banned.end());
+        unordered_map<string_view, int> counts;
+        string_view all = paragraph, ans;       // 指向 paragraph 的緩衝區，下面原地修改也沒問題
+        int mx = 0, n = paragraph.size();
+
+        for (int i = 0, start = 0; i <= n; i++) {
+            if (i < n && isalpha((unsigned char)paragraph[i])) {
+                paragraph[i] |= 32;             // 字母一律轉小寫（'A'|32 == 'a'，小寫不變）
+                continue;                        // 還在單字中，繼續往後
             }
+            // 走到這裡：遇到非字母或字串結尾，單字結束
+            if (start < i) {
+                string_view word = all.substr(start, i - start);
+                if (!bannedSet.contains(word)) {
+                    int& c = ++counts[word];     // 只查一次雜湊
+                    if (c > mx) { mx = c; ans = word; }
+                }
+            }
+            start = i + 1;
         }
-        return ans;
+        return string(ans);
     }
 };
