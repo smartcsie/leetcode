@@ -5043,13 +5043,14 @@
 <h1 id="575-distribute-candies">575. Distribute Candies<a class="headerlink" href="#575-distribute-candies" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/distribute-candies/">在 LeetCode 上查看</a></p>
 <h2 id="hash-table-uniqueness">解法：hash-table-uniqueness<a class="headerlink" href="#hash-table-uniqueness" title="Permanent link">&para;</a></h2>
-<p><strong>難度:</strong> 🟢 E　<strong>標籤:</strong> Hash Table Uniqueness　<strong>時間:</strong> O(N + V)　<strong>空間:</strong> O(V)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟢 E　<strong>標籤:</strong> Hash Table Uniqueness　<strong>時間:</strong> O(N + V)　<strong>空間:</strong> O(V)　<strong>熟悉度:</strong> 🟢 熟練　<strong>官方解答:</strong> 🌟 優於官方解答</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-10-28</strong> 對</li>
 <li>✅ <strong>2026-10-28</strong> 對</li>
 <li>✅ <strong>2026-10-28</strong> 對</li>
 <li>✅ <strong>2026-10-28</strong> 對</li>
+<li>✅ <strong>2026-11-18</strong> 對</li>
 </ul>
 <p><strong>技巧:</strong> bitset</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
@@ -5081,7 +5082,7 @@
 <a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">        </span><span class="n">bitset</span><span class="o">&lt;</span><span class="mi">200001</span><span class="o">&gt;</span><span class="w"> </span><span class="n">counts</span><span class="p">;</span><span class="w">  </span><span class="c1">// 預設全為 0；第 k 位元為 1 代表（k - 100000）這種糖出現過</span>
 <a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>
 <a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">        </span><span class="c1">// 值域含負數，加上 100000 平移成非負索引後標記</span>
-<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="o">&amp;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">candyType</span><span class="p">)</span><span class="w"> </span><span class="n">counts</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">100000</span><span class="p">);</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="o">&amp;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">candyType</span><span class="p">)</span><span class="w"> </span><span class="n">counts</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">1e5</span><span class="p">);</span>
 <a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>
 <a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">half</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">candyType</span><span class="p">.</span><span class="n">size</span><span class="p">()</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w">  </span><span class="c1">// 最多能吃的顆數</span>
 <a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>
@@ -5092,11 +5093,12 @@
 </code></pre></div>
 <hr />
 <h2 id="hash-table-uniqueness_1">解法：hash-table-uniqueness<a class="headerlink" href="#hash-table-uniqueness_1" title="Permanent link">&para;</a></h2>
-<p><strong>難度:</strong> 🟢 E　<strong>標籤:</strong> Hash Table Uniqueness　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(K)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟢 E　<strong>標籤:</strong> Hash Table Uniqueness　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(K)　<strong>熟悉度:</strong> 🟢 熟練</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-10-28</strong> 對</li>
 <li>✅ <strong>2026-10-28</strong> 對</li>
+<li>✅ <strong>2026-11-18</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="cm">/**</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="cm"> * 題目：575. Distribute Candies</span>
