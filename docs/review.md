@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：867 題　🟠 再練習：17 題　🟣 易忘：10 題　🟢 熟練：103 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：866 題　🟠 再練習：18 題　🟣 易忘：10 題　🟢 熟練：103 題　⚪ 未標記：0 題
 
 ---
 
@@ -256,13 +256,13 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 E | String Character Classification | [C++](problems/0434.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | String | [C++](problems/0884.md) | O(N+M) | O(N+M) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 E | String | [C++](problems/0014.md) | O(S) | O(1) |  |
 | 🔴 生疏 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 E | String Kmp | [C++](problems/0028.md) | O(N\*M) | O(1) |  |
 | 🔴 生疏 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 M | String, String | [C++](problems/0043.md) | O(M\*N) | O(M+N) |  |
 | 🔴 生疏 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 E | String | [C++](problems/0058.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | 🔴 H | String State Machine, State Machine | [C++](problems/0065.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 E | String Character Classification | [C++](problems/0434.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 E | String Kmp, KMP | [C++](problems/0459.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | 🟢 E | String | [C++](problems/0500.md) | O(L) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 M | String, Two Pointers | [C++](problems/0524.md) | O(DlogD+D\*M) | O(1) |  |
@@ -1225,7 +1225,7 @@
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 13 | 1 | 0 | 2 | 0 | 16 |
 | [string](topics/string.md) | 28 | 1 | 1 | 8 | 0 | 38 |
-| [string-character-classification](topics/string-character-classification.md) | 17 | 0 | 0 | 14 | 0 | 31 |
+| [string-character-classification](topics/string-character-classification.md) | 16 | 1 | 0 | 14 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 3 | 0 | 0 | 0 | 0 | 3 |

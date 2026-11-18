@@ -10,10 +10,11 @@ solutions:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
-  note: '> **第一個segment，if(i == 0 && s[i] != '' '') segments++;**<br>
+  familiarity: 再練習
+  note: '> **第一種case，i==0 && s[i] != '' ''**<br>
 
-    > **第二個segment以後，*else if(i > 0 && s[i-1] == '' '' && s[i] != '' '') segments++;**<br>'
+    > **第二種case，s[i - 1] == '' '' && s[i] != '' '';**<br>'
+  official_solution: null
   attempts:
   - date: '2026-09-21'
     result: 對
@@ -22,6 +23,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-25'
+    result: 對
+    reason: null
+  - date: '2026-11-18'
     result: 對
     reason: null
   is_representative: true

@@ -17,8 +17,7 @@ public:
     int countSegments(string s) {
         int segments = 0;
         for(int i = 0; i < s.size(); i++) {
-            if(i == 0 && s[i] != ' ') segments++;
-            else if(i > 0 && s[i-1] == ' ' && s[i] != ' ') segments++;
+            if ((i == 0 || s[i - 1] == ' ') && s[i] != ' ') segments++;
         }
         return segments;
     }
