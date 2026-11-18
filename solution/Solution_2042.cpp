@@ -15,15 +15,16 @@
 class Solution {
 public:
     bool areNumbersAscending(string s) {
-        istringstream iss(s);
-        string w;
-        int pre = -1;
-        int cur = -1;
-        while(iss >> w) {
-            if(isdigit(w[0])) {
-                cur = stoi(w);
-                if(pre != -1 && cur <= pre) return false;
-                pre = cur;
+        int n = s.size();
+        int prev = -1;
+        for(int i = 0, start = 0; i <=n; i++) {
+            if(s[i] == ' ' || i == n) {
+                if(isdigit(s[start])) {
+                    int num = stoi(s.substr(start, i - start));
+                    if(num <= prev) return false;
+                    prev = num;
+                }
+                start = i + 1;
             }
         }
         return true;
