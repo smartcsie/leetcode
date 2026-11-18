@@ -6,13 +6,15 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Fast Slow Pointers
-  - Fast-Slow Pointers
   topics:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 生疏
-  note: '> Floyd''s Tortoise and Hare（快慢指標找環）'
+  familiarity: 易忘
+  note: '> **Floyd''s Tortoise and Hare（快慢指標找環）**<br>
+
+    > **此題有7種解法**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-25'
     result: 對
@@ -26,6 +28,11 @@ solutions:
   - date: '2026-10-14'
     result: 對
     reason: null
+  - date: '2026-11-18'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Floyd's Tortoise and Hare
 - file: Solution_0287_1.cpp
   difficulty: 🟡 Medium
   tags:
@@ -34,8 +41,10 @@ solutions:
   - array-negative-marking
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-18'
   note: '> **此題題目限制，看起來只有第一個fast slow pointer符合**<br>'
+  official_solution: better
   attempts:
   - date: '2026-09-25'
     result: 對
@@ -47,6 +56,9 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-14'
+    result: 對
+    reason: null
+  - date: '2026-11-18'
     result: 對
     reason: null
   is_representative: true

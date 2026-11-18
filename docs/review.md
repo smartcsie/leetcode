@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：864 題　🟠 再練習：18 題　🟣 易忘：12 題　🟢 熟練：103 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：863 題　🟠 再練習：18 題　🟣 易忘：13 題　🟢 熟練：103 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 975 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 974 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（86）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（85）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -311,7 +311,7 @@
 | 🟣 易忘 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](problems/2828.md) |  |  | ❌ 官方沒有解答 |
 
 <a id="review-array"></a>
-#### 🍱 Array（86）
+#### 🍱 Array（85）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -334,7 +334,6 @@
 | 🔴 生疏 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 E | Array Boyer Moore | [C++](problems/0169.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | 🟡 M | Array, Voting Algorithm | [C++](problems/0229.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/0238.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Array Negative Marking | [C++](problems/0287.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | 🟡 M | Array Prefix Sum, Matrix, Prefix Sum | [C++](problems/0304.md) | O(M\*N) | O(M\*N) |  |
 | 🔴 生疏 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 M | Array Interval | [C++](problems/0435.md) | O(NlogN) | O(1) |  |
 | 🔴 生疏 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | 🟡 M | Array Negative Marking | [C++](problems/0442.md) | O(N) | O(1) |  |
@@ -593,7 +592,6 @@
 | 🔴 生疏 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 E | Array, Two Pointers | [C++](problems/0228.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 E | Fast Slow Pointers | [C++](problems/0283.md) | O(N) | O(1) | ✅ 已同步官方解答 |
-| 🔴 生疏 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 M | Two Pointers Same | [C++](problems/0328.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/0344.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/0345.md) | O(N) | O(1) |  |
@@ -639,6 +637,7 @@
 | 🔴 生疏 | 3936 | [Minimum Swaps to Move Zeros to End](https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/) | 🟢 E | Two Pointers Swap | [C++](problems/3936.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/3940.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3992 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | 🟡 M | Two Pointers Swap, Two Pointers | [C++](problems/3992.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Fast Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-hash-table"></a>
 #### 🔑 Hash Table（73）
@@ -1128,7 +1127,7 @@
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 9 | 2 | 0 | 13 | 0 | 24 |
 | [array-min-max](topics/array-min-max.md) | 1 | 1 | 0 | 5 | 0 | 7 |
-| [array-negative-marking](topics/array-negative-marking.md) | 6 | 1 | 0 | 0 | 0 | 7 |
+| [array-negative-marking](topics/array-negative-marking.md) | 5 | 1 | 1 | 0 | 0 | 7 |
 | [array-prefix-sum](topics/array-prefix-sum.md) | 19 | 0 | 0 | 0 | 0 | 19 |
 | [array-suffix-sum](topics/array-suffix-sum.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [backtracking-combination](topics/backtracking-combination.md) | 17 | 0 | 0 | 0 | 0 | 17 |
@@ -1165,7 +1164,7 @@
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dp-tree](topics/dp-tree.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dynamic-programming](topics/dynamic-programming.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 12 | 0 | 0 | 0 | 0 | 12 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 11 | 0 | 1 | 0 | 0 | 12 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [graph-bfs](topics/graph-bfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [graph-dfs](topics/graph-dfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |

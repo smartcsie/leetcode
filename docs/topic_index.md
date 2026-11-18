@@ -168,6 +168,7 @@
 | 151 | 👑 **String reverse**<br>[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 M | Two Pointers Same | [C++](problems/0151.md) | O(N) | O(1) |
 | 167 | 👑 **Two Pointers Opposite**<br>[Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) |
 | 283 | 👑 **Read-Write Two Pointers With Swap**<br>[Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 E | Fast Slow Pointers | [C++](problems/0283.md) | O(N) | O(1) |
+| 287 | 👑 **Floyd's Tortoise and Hare**<br>[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Fast Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) |
 | 344 | 👑 **Two Pointers Swap**<br>[Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/0344.md) | O(N) | O(1) |
 | 392 | 👑 **Two Pointers Same**<br>[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/0392.md) | O(N) | O(1) |
 | 633 | 👑 **Fermat’s theorem on sums of two squares**<br>[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0633.md) | O(√C) | O(1) |
