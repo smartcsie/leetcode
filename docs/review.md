@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：871 題　🟠 再練習：17 題　🟣 易忘：10 題　🟢 熟練：99 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：870 題　🟠 再練習：17 題　🟣 易忘：10 題　🟢 熟練：100 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 982 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 981 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（73）](#review-bit-manipulation)　[🔗 String（59）](#review-string)　[🍱 Array（86）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（73）](#review-bit-manipulation)　[🔗 String（58）](#review-string)　[🍱 Array（86）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（73）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -252,7 +252,7 @@
 | 🟣 易忘 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 E | Bit Manipulation | [C++](problems/1009.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-string"></a>
-#### 🔗 String（59）
+#### 🔗 String（58）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -293,7 +293,6 @@
 | 🔴 生疏 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 E | String Character Classification, Simulation | [C++](problems/2185.md) | O(N\*M) | O(1) |  |
 | 🔴 生疏 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 E | String | [C++](problems/2243.md) | O(N\*logN) | O(N) |  |
 | 🔴 生疏 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 E | String Character Classification | [C++](problems/2255.md) | O(N\*M) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 E | String Character Classification, Hash Table, Array | [C++](problems/2399.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 E | String Character Classification | [C++](problems/2490.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2496 | [Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 E | String Character Classification, String, Simulation | [C++](problems/2496.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 E | String Character Classification | [C++](problems/2678.md) | O(N) | O(1) | ✅ 已同步官方解答 |
@@ -1229,7 +1228,7 @@
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 13 | 1 | 0 | 2 | 0 | 16 |
 | [string](topics/string.md) | 28 | 1 | 1 | 8 | 0 | 38 |
-| [string-character-classification](topics/string-character-classification.md) | 21 | 0 | 0 | 10 | 0 | 31 |
+| [string-character-classification](topics/string-character-classification.md) | 20 | 0 | 0 | 11 | 0 | 31 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 3 | 0 | 0 | 0 | 0 | 3 |
