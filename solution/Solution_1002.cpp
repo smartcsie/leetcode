@@ -10,16 +10,21 @@
 class Solution {
 public:
     vector<string> commonChars(vector<string>& words) {
-        int n = words.size();
-        vector<int> minFreq(26, INT_MAX);
-        for(const string& s : words) {
-            vector<int> freq(26, 0);
-            for(const char& c : s) freq[c - 'a']++;
-            for(int i = 0; i < 26; i++) minFreq[i] = min(minFreq[i], freq[i]);
-        }
+        array<uint8_t, 26> commons{};
+        array<uint8_t, 26> current{};
         vector<string> ans;
+        for(const char& c : words[0]) commons[c - 'a']++;
+        for(int i = 1; i < words.size(); i++) {
+            current.fill(0);
+            for(const char& c : words[i]) {
+                current[c - 'a']++;
+            }
+            for(int i = 0; i < 26; i++) {
+                commons[i] = min(commons[i], current[i]);
+            }
+        }
         for(int i = 0; i < 26; i++) {
-            while(minFreq[i]--)   ans.push_back(string(1, i + 'a'));
+            while(commons[i]-- > 0) ans.push_back(string(1, 'a' + i));
         }
         return ans;
     }
