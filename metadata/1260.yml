@@ -24,5 +24,23 @@ solutions:
   - date: '2026-11-19'
     result: 對
     reason: null
+  - date: '2026-11-19'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: 2d vector rotate in place
+- file: Solution_1260_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - 2d Array
+  topics:
+  - 2d-array
+  time: O(m × n)
+  space: O(m × n)
+  familiarity: 熟練
+  mastered_date: '2026-11-19'
+  official_solution: pending
+  attempts:
+  - date: '2026-11-19'
+    result: 對
+    reason: null
