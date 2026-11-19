@@ -21,18 +21,17 @@
 
 class Solution {
 public:
-    std::vector<int> smallerNumbersThanCurrent(std::vector<int>& nums) {
-        class Solution {
-public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-        array<int, 101> counts = {0};
+        array<uint16_t, 101> counts{};
         for(const int& x : nums) counts[x]++;
-        for(int i = 1; i <= 100; i++) counts[i] += counts[i - 1];
-        for(int& x : nums) {
-            if(x > 0) x = counts[x - 1];
+        for(int i = 1; i <=100; i++) {
+            counts[i] += counts[i - 1];
         }
-        return nums;
-    }
-};
+        vector<int> ans(nums.size());
+        for(int i = 0; i < nums.size(); i++) {
+            int x = nums[i];
+            if(x > 0) ans[i] = counts[x - 1];
+        }
+        return ans;
     }
 };

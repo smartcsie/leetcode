@@ -10,7 +10,9 @@ solutions:
   - array-prefix-sum
   time: O(N+K)
   space: O(K)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-19'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-27'
     result: 對
@@ -21,4 +23,6 @@ solutions:
   - date: '2026-10-15'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-19'
+    result: 對
+    reason: null

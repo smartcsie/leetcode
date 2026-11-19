@@ -1,6 +1,6 @@
 # array-prefix-sum
 
-## 🔴 生疏（20）
+## 🔴 生疏（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](../problems/0724.md) | O(N) | O(1) |  |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](../problems/0930.md) | O(N) | O(N) |  |
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | 🟡 M | Array Prefix Sum | [C++](../problems/0930.md) | O(N^2) | O(N) |  |
-| 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 E | Array Prefix Sum | [C++](../problems/1365.md) | O(N+K) | O(K) | ❌ 官方沒有解答 |
 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 E | Array Prefix Sum | [C++](../problems/1422.md) | O(N) | O(1) |  |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](../problems/1480.md) | O(N) | O(1) |  |
 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 M | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](../problems/1524.md) | O(N) | O(1) |  |
@@ -33,6 +32,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 E | Array Prefix Sum | [C++](../problems/1365.md) | O(N+K) | O(K) | ❌ 官方沒有解答 |
