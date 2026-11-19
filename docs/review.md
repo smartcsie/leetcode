@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：853 題　🟠 再練習：19 題　🟣 易忘：13 題　🟢 熟練：112 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：852 題　🟠 再練習：19 題　🟣 易忘：13 題　🟢 熟練：113 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 961 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 960 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（80）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（65）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（79）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（65）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -311,7 +311,7 @@
 | 🟣 易忘 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](problems/2828.md) |  |  | ❌ 官方沒有解答 |
 
 <a id="review-array"></a>
-#### 🍱 Array（80）
+#### 🍱 Array（79）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -348,7 +348,6 @@
 | 🔴 生疏 | 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | 🟢 E | Array Linear Scan, Greedy, Prefix Sum | [C++](problems/1013.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 M | Array Difference Array, Difference Array, Sweep Line | [C++](problems/1094.md) | O(N+M) | O(M) |  |
 | 🔴 生疏 | 1109 | [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | 🟡 M | Array Difference Array | [C++](problems/1109.md) | O(N+K) | O(N) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 E | 2d Array, Math | [C++](problems/1252.md) | O(K+MN) | O(M+N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array, Simulation | [C++](problems/1260.md) | O(M\*N) | O(K) |  |
 | 🔴 生疏 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 M | Array Interval, Greedy | [C++](problems/1288.md) | O(NlogN) | O(logN) |  |
 | 🔴 生疏 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | 🟢 E | Array Linear Scan, Hash Table, String Parsing | [C++](problems/1309.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -1106,7 +1105,7 @@
 
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [2d-array](topics/2d-array.md) | 6 | 3 | 0 | 11 | 0 | 20 |
+| [2d-array](topics/2d-array.md) | 5 | 3 | 0 | 11 | 0 | 19 |
 | [array](topics/array.md) | 10 | 3 | 0 | 13 | 0 | 26 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 12 | 0 | 0 | 3 | 0 | 15 |
@@ -1132,7 +1131,7 @@
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 6 | 0 | 0 | 1 | 0 | 7 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 8 | 0 | 1 | 0 | 0 | 9 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 12 | 0 | 2 | 3 | 0 | 17 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 12 | 0 | 2 | 4 | 0 | 18 |
 | [design](topics/design.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [dp-bitmask](topics/dp-bitmask.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 4 |

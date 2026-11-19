@@ -1,11 +1,10 @@
 # 2d-array
 
-## 🔴 生疏（6）
+## 🔴 生疏（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 M | 2d Array, Matrix | [C++](../problems/0073.md) | O(M\*N) | O(1) |  |
-| 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 E | 2d Array, Math | [C++](../problems/1252.md) | O(K+MN) | O(M+N) | ❌ 官方沒有解答 |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array, Simulation | [C++](../problems/1260.md) | O(M\*N) | O(K) |  |
 | 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 E | 2d Array | [C++](../problems/1582.md) | O(M\*N) | O(M+N) |  |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 E | 2d Array, Simulation, Manhattan Distance | [C++](../problems/1779.md) | O(N) | O(1) | ❌ 官方沒有解答 |

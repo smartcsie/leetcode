@@ -5,15 +5,18 @@ solutions:
 - file: Solution_1252.cpp
   difficulty: 🟢 Easy
   tags:
-  - 2d Array
-  - Math
+  - Bit Manipulation Xor
   topics:
-  - 2d-array
-  time: O(K+MN)
-  space: O(M+N)
-  familiarity: 生疏
+  - bit-manipulation-xor
+  time: O(L + m × n)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-19'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-16'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-19'
+    result: 對
+    reason: null

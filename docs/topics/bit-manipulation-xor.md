@@ -27,11 +27,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0268.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 136 | [Single Number](https://leetcode.com/problems/single-number) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0136.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0389.md) | O(N) | O(N) | 🌟 優於官方解答 |
 | 461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0461.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 1252 | [Cells with Odd Values...](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | 🟢 E | Bit Manipulation Xor | [C++](../problems/1252.md) | O(L + m × n) | O(1) | ❌ 官方沒有解答 |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/1318.md) | O(log(max(a,b,c))) | O(1) | ✅ 已同步官方解答 |
