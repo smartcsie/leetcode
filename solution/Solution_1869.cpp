@@ -16,16 +16,14 @@
 class Solution {
 public:
     bool checkZeroOnes(string s) {
-        int ones = 0, zeros = 0;
-        int max_ones = 0, max_zeros = 0;
+        uint8_t zeros = 0, ones = 0, mxZeros = 0, mxOnes = 0;
         for(const char& c : s) {
-            ones = (c & 1) ? ones + 1 : 0;
-            max_ones = max(max_ones, ones);
-            zeros = !(c & 1) ? zeros + 1 : 0;
-            max_zeros = max(max_zeros, zeros);
+            zeros = (c == '0') ? zeros + 1 : 0;
+            ones = (c == '1') ? ones + 1 : 0;
+            mxZeros = max(mxZeros, zeros);
+            mxOnes = max(mxOnes, ones);
         }
-        return max_ones > max_zeros;
-        
+        return mxOnes > mxZeros;
     }
 };
 
