@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：850 題　🟠 再練習：19 題　🟣 易忘：14 題　🟢 熟練：114 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：849 題　🟠 再練習：19 題　🟣 易忘：15 題　🟢 熟練：114 題　⚪ 未標記：0 題
 
 ---
 
@@ -644,8 +644,6 @@
 | 🟠 再練習 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 M | Hash Table Counting | [C++](problems/2225.md) | O(NlogN) | O(N) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 M | Hash Table Mapping, Hash Table, String | [C++](problems/0012.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 E | Hash Table Mapping, Hash Table, String | [C++](problems/0013.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Counting, Hash Table | [C++](problems/0049.md) | O(N\*K) | O(N\*K) |  |
-| 🔴 生疏 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Mapping | [C++](problems/0049.md) | O(N\*logK) | O(N\*K) |  |
 | 🔴 生疏 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 M | Hash Table Existence, Hash Table | [C++](problems/0128.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 E | Hash Table Existence | [C++](problems/0160.md) | O(M + N) | O(M) |  |
 | 🔴 生疏 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Hash Table Existence | [C++](problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
@@ -701,6 +699,8 @@
 | 🔴 生疏 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 E | Hash Table Counting, Hash Table | [C++](problems/3843.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 E | Hash Table Uniqueness, Hash Table | [C++](problems/3866.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 M | String, Hash Map | [C++](problems/3926.md) | O(N+M) | O(N) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Counting | [C++](problems/0049.md) | O(N\*K) | O(N\*K) | 🌟 優於官方解答 |
+| 🟣 易忘 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Mapping | [C++](problems/0049.md) | O(N\*logK) | O(N\*K) |  |
 | 🟣 易忘 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Hash Table Counting | [C++](problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-stack"></a>
@@ -1172,10 +1172,10 @@
 | [greedy-string-construction](topics/greedy-string-construction.md) | 6 | 1 | 0 | 0 | 0 | 7 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 3 | 0 | 0 | 1 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 23 | 2 | 1 | 4 | 0 | 30 |
+| [hash-table-counting](topics/hash-table-counting.md) | 22 | 2 | 2 | 4 | 0 | 30 |
 | [hash-table-existence](topics/hash-table-existence.md) | 12 | 2 | 0 | 6 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 3 | 1 | 0 | 8 | 0 | 12 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 7 | 0 | 0 | 2 | 0 | 9 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 6 | 0 | 1 | 2 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 14 | 1 | 0 | 5 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
