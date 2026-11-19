@@ -10,20 +10,18 @@
  * （對撞雙指針）：
  * 找到第一個不同位置 left 和最後一個不同位置 right，交換後驗證是否相等。
  */
+
 class Solution {
 public:
     bool areAlmostEqual(string s1, string s2) {
         if(s1 == s2) return true;
-        int left = 0;
-        int right = s1.size() - 1;
-        while(left < right) {
-            while(left < right && s1[left] == s2[left]) left++;
-            while(left < right && s1[right] == s2[right]) right--;
-            if(left < right) {
-                swap(s1[left++] , s1[right--]);
-                return s1 == s2;
-            }
+        int left = 0, right = s1.size() - 1;
+        while(s1[left] == s2[left]) left++;
+        while(s1[right] == s2[right]) right--;
+        if(left < right) {
+            swap(s1[left], s1[right]);
+            return s1 == s2;
         }
-        return s1 == s2;
-    }
+        return false;
+    }   
 };

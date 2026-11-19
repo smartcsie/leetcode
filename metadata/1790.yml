@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Uniqueness
-  - Simulation
   topics:
   - hash-table-uniqueness
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-19'
   note: '> [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)<br>
 
     > 找出限定一個character swap，兩字串能否相等<br>
@@ -24,10 +24,14 @@ solutions:
 
     > 最後產生兩種結果，一種是兩字串已經相等，一種是((diff.size() == 2) && (diff[0].first == diff[1].second)
     && (diff[0].second == diff[1].first));<br>'
+  official_solution: synced
   related:
   - 859
   attempts:
   - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-11-19'
     result: 對
     reason: null
 - file: Solution_1790_1.cpp
@@ -38,8 +42,14 @@ solutions:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-19'
+  is_best: true
+  official_solution: synced
   attempts:
   - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-11-19'
     result: 對
     reason: null

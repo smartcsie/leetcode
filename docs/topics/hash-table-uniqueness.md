@@ -1,6 +1,6 @@
 # hash-table-uniqueness
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 M | Hash Table Uniqueness | [C++](../problems/0939.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences) | 🟢 E | Hash Table Uniqueness, Hash Table, Counting | [C++](../problems/1207.md) | O(N) | O(N) |  |
 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 E | Hash Table Uniqueness, Hash Set, Coordinates | [C++](../problems/1496.md) | O(N) | O(N) |  |
-| 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 E | Hash Table Uniqueness, Simulation | [C++](../problems/1790.md) | O(N) | O(1) |  |
 | 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/1805.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 E | Hash Table Uniqueness, Hash Table, Counting | [C++](../problems/1941.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 E | Hash Table Uniqueness, Hash Table | [C++](../problems/2053.md) | O(N) | O(N) |  |
@@ -29,7 +28,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（9）
+## 🟢 熟悉（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -42,3 +41,4 @@
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0575.md) | O(N) | O(K) |  |
 | 961 | [N-Repeated Element](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0961.md) | O(N) | O(1) |  |
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 E | Hash Table Uniqueness | [C++](../problems/1748.md) | O(N) | O(N) | ❌ 官方沒有解答 |
+| 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/1790.md) | O(N) | O(1) | ✅ 已同步官方解答 |

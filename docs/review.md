@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：849 題　🟠 再練習：19 題　🟣 易忘：15 題　🟢 熟練：114 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：848 題　🟠 再練習：19 題　🟣 易忘：15 題　🟢 熟練：115 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 959 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 957 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（78）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（69）](#review-pointers)　[🔑 Hash Table（65）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（78）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（68）](#review-pointers)　[🔑 Hash Table（64）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -558,7 +558,7 @@
 | 🔴 生疏 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 M | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) |  |
 
 <a id="review-pointers"></a>
-#### 👥 Pointers（69）
+#### 👥 Pointers（68）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -610,7 +610,6 @@
 | 🔴 生疏 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/1417.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/1750.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/1768.md) | O(N+M) | O(1) |  |
-| 🔴 生疏 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 E | Two Pointers Swap | [C++](problems/1790.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/2000.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 M | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/2095.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 E | Two Pointers Opposite, Two Pointers | [C++](problems/2108.md) | O(N\*L) | O(1) |  |
@@ -633,7 +632,7 @@
 | 🟣 易忘 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Fast Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-hash-table"></a>
-#### 🔑 Hash Table（65）
+#### 🔑 Hash Table（64）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -667,7 +666,6 @@
 | 🔴 生疏 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 E | Hash Table Counting, Hash Table, Math | [C++](problems/1512.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 E | Hash Table Existence | [C++](problems/1640.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 M | Hash Table Counting | [C++](problems/1647.md) | O(N+KlogK) | O(K) |  |
-| 🔴 生疏 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 E | Hash Table Uniqueness, Simulation | [C++](problems/1790.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 E | Hash Table Uniqueness | [C++](problems/1805.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](problems/1897.md) | O(N\*M) | O(1) |  |
 | 🔴 生疏 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 E | Hash Table Uniqueness, Hash Table, Counting | [C++](problems/1941.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -1176,7 +1174,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 12 | 2 | 0 | 6 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 3 | 1 | 0 | 8 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 6 | 0 | 1 | 2 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 14 | 1 | 0 | 5 | 0 | 20 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 13 | 1 | 0 | 6 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 31 | 0 | 5 | 2 | 0 | 38 |
@@ -1225,7 +1223,7 @@
 | [two-pointers-other](topics/two-pointers-other.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 20 | 0 | 0 | 0 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 13 | 0 | 0 | 1 | 0 | 14 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 12 | 0 | 0 | 2 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |
 
