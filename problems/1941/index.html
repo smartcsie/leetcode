@@ -5042,52 +5042,46 @@
 
 <h1 id="1941-check-if-all-characters-have-equal-number-of-occurrences">1941. Check if All Characters Have Equal Number of Occurrences<a class="headerlink" href="#1941-check-if-all-characters-have-equal-number-of-occurrences" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 E　<strong>標籤:</strong> Hash Table Uniqueness, Hash Table, Counting　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏　<strong>官方解答:</strong> ❌ 官方沒有解答</p>
+<p><strong>難度:</strong> 🟢 E　<strong>標籤:</strong> Hash Table Uniqueness　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練　<strong>官方解答:</strong> ❌ 官方沒有解答</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-09-16</strong> 對</li>
 <li>✅ <strong>2026-09-16</strong> 對</li>
+<li>✅ <strong>2026-11-19</strong> 對</li>
 </ul>
 <p><strong>技巧:</strong> char count</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1941. Check if All Characters Have Equal Number of Occurrences (檢查所有字元出現次數是否相等)</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：簡單 (Easy)</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="cm"> * 描述：給你一個字串 s，如果 s 中所有出現過的字元，其出現次數都相同，則回傳 true；否則回傳 false。</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> *</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> * 時間複雜度：O(N)</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 空間複雜度：O(1)</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> *</span>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/*</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1941. Check if All Characters Have Equal Number of Occurrences</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="cm"> * 難度：Easy</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="cm"> * 描述：給定字串 s，若 s 中每個出現過的字元，出現次數都相同，回傳 true，否則回傳 false。</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="cm"> * 分類主題：hash-table-counting</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="cm"> * 技巧：固定大小計數陣列, 以第一個字元的次數當基準</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="cm"> * 時間複雜度：O(n + 26)，n 為字串長度</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="cm"> * 空間複雜度：O(1)（固定 26 格計數陣列）</span>
 <a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="cm"> * 解法思路：</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> * 1. 建立一個長度為 26 的整數陣列 count，用來儲存每個小寫字母出現的頻率。</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> * 2. 遍歷字串 s，將每個字元對應的索引（c - &#39;a&#39;）加 1。</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="cm"> * 3. 取得字串中第一個字元出現的次數作為基準頻率 (freq)。</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="cm"> * 4. 遍歷 count 陣列，對於任何出現次數大於 0 的字母，檢查其頻率是否等於 freq。</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="cm"> * 5. 若發現不相等的頻率，則立即回傳 false；若全部檢查完畢皆符合，則回傳 true。</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="cm"> */</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
-<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="k">public</span><span class="o">:</span>
-<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">areOccurrencesEqual</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">        </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">count</span><span class="p">(</span><span class="mi">26</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
-<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="kt">char</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">            </span><span class="n">count</span><span class="p">[</span><span class="n">c</span><span class="o">-</span><span class="sc">&#39;a&#39;</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
-<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="p">}</span>
-<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">freq</span><span class="w"> </span><span class="o">=</span><span class="w">   </span><span class="n">count</span><span class="p">[</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">-</span><span class="sc">&#39;a&#39;</span><span class="p">];</span>
-<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">26</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="n">count</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w">　</span><span class="n">count</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">freq</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">                </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
-<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">            </span><span class="p">}</span>
-<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">        </span><span class="p">}</span>
-<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
-<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="p">};</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="cm"> *   1. 用長度 26 的陣列統計每個小寫字母的出現次數</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="cm"> *   2. s 一定有出現過的字元，取 s[0] 的次數當作基準 freq</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="cm"> *   3. 掃過 26 個計數：沒出現過的（0）略過，出現過的必須等於 freq，否則回傳 false</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="cm"> *   4. 全部通過回傳 true</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="cm"> */</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="k">class</span><span class="w"> </span><span class="nc">Solution</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="k">public</span><span class="o">:</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">areOccurrencesEqual</span><span class="p">(</span><span class="n">string</span><span class="w"> </span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="c1">// 26 個小寫字母的出現次數，{} 初始化為全 0</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">        </span><span class="n">array</span><span class="o">&lt;</span><span class="kt">uint16_t</span><span class="p">,</span><span class="w"> </span><span class="mi">26</span><span class="o">&gt;</span><span class="w"> </span><span class="n">counts</span><span class="p">{};</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">char</span><span class="o">&amp;</span><span class="w"> </span><span class="n">c</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">s</span><span class="p">)</span><span class="w"> </span><span class="n">counts</span><span class="p">[</span><span class="n">c</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="sc">&#39;a&#39;</span><span class="p">]</span><span class="o">++</span><span class="p">;</span>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">        </span><span class="c1">// 以第一個字元的次數當基準（s 非空，所以它一定出現過）</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">freq</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">counts</span><span class="p">[</span><span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="sc">&#39;a&#39;</span><span class="p">];</span>
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">        </span><span class="k">for</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="o">&amp;</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">:</span><span class="w"> </span><span class="n">counts</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">            </span><span class="c1">// 沒出現的字母（0 次）不用比；出現過的次數必須與基準相同</span>
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">            </span><span class="k">if</span><span class="p">(</span><span class="n">count</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">count</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">freq</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span>
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span>
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="p">};</span>
 </code></pre></div>
-<blockquote>
-<p>第1個loop，統計字元出現頻頻率，<strong>for(char c : s)  count[c-'a']++;</strong> <br>
-因為要確認所有char頻率都一樣，所以以第一個字元為頻率比較基準，<strong>int freq =   count[s[0]-'a'];</strong> <br>
-第2個loop， 檢查所有非0頻率都相等</p>
-</blockquote>
-<p><br><br></p>
 
 
 
