@@ -17,10 +17,10 @@
 class Solution {
 public:
     int maxAscendingSum(vector<int>& nums) {
-        int mxSum = nums.front();
         int sum = nums.front();
+        int mxSum = nums.front();
         for(int i = 1; i < nums.size(); i++) {
-            sum = (nums[i] > nums[i - 1]) ? sum + nums[i] : nums[i];
+            sum = (nums[i - 1] < nums[i]) ? sum + nums[i] : nums[i];
             mxSum = max(mxSum, sum);
         }
         return mxSum;
