@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：845 題　🟠 再練習：20 題　🟣 易忘：15 題　🟢 熟練：117 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：843 題　🟠 再練習：20 題　🟣 易忘：15 題　🟢 熟練：119 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 955 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 953 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（77）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（68）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（75）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（68）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -311,7 +311,7 @@
 | 🟣 易忘 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](problems/2828.md) |  |  | ❌ 官方沒有解答 |
 
 <a id="review-array"></a>
-#### 🍱 Array（77）
+#### 🍱 Array（75）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -363,7 +363,6 @@
 | 🔴 生疏 | 1685 | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | 🟡 M | Array, Prefix Sum, Math | [C++](problems/1685.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](problems/1732.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/1738.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 1759 | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/) | 🟡 M | Array Continuous Counting | [C++](problems/1759.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 E | 2d Array, Simulation, Manhattan Distance | [C++](problems/1779.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1800 | [Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum) | 🟢 E | Array Continuous Counting | [C++](problems/1800.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 E | Array Difference Array | [C++](problems/1854.md) | O(N+Y) | O(Y) | ❌ 官方沒有解答 |
@@ -377,7 +376,6 @@
 | 🔴 生疏 | 2176 | [Count Equal and Divisible Pairs in an Array](https://leetcode.com/problems/count-equal-and-divisible-pairs-in-an-array/) | 🟢 E | Array Linear Scan | [C++](problems/2176.md) | O(N^2) | O(1) |  |
 | 🔴 生疏 | 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 E | Array Continuous Counting | [C++](problems/2210.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | 🟡 M | Array Continuous Counting | [C++](problems/2348.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/2559.md) | O(N+Q) | O(N) |  |
 | 🔴 生疏 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 E | Array Prefix Sum | [C++](problems/2574.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2609 | [Find the Longest Balanced Substring](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 🟢 E | Greedy, Two Counters | [C++](problems/2609.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -1103,7 +1101,7 @@
 | [2d-array](topics/2d-array.md) | 3 | 4 | 1 | 11 | 0 | 19 |
 | [array](topics/array.md) | 10 | 3 | 0 | 13 | 0 | 26 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [array-continuous-counting](topics/array-continuous-counting.md) | 11 | 0 | 0 | 4 | 0 | 15 |
+| [array-continuous-counting](topics/array-continuous-counting.md) | 9 | 0 | 0 | 6 | 0 | 15 |
 | [array-difference-array](topics/array-difference-array.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [array-interval](topics/array-interval.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [array-linear-scan](topics/array-linear-scan.md) | 9 | 2 | 0 | 13 | 0 | 24 |

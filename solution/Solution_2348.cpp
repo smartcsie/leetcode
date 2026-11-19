@@ -19,14 +19,16 @@
  *   x=0: zeros=2, ans=3  → "0","0","00"
  *   x=0: zeros=3, ans=6  → "0","0","0","00","00","000"
  */
+
 class Solution {
 public:
-    long long zeroFilledSubarray(vector<int>& nums) {
-        long long zeros = 0;
-        long long ans = 0;
-        for (const int& x : nums) {
-            zeros = (x == 0) ? zeros + 1 : 0;
-            ans += zeros;
+    int countHomogenous(string s) {
+        static constexpr int MOD = 1e9 +7;
+        int count = 1;
+        int ans = 1;
+        for(int i = 1; i < s.size(); i++) {
+            count = (s[i] == s[i - 1]) ? count + 1 : 1;
+            ans = (ans + count) % MOD;
         }
         return ans;
     }

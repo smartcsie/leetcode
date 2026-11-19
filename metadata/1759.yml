@@ -10,10 +10,13 @@ solutions:
   - array-continuous-counting
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-19'
   note: '> **記得 ans  %= MOD;**<br>'
+  official_solution: synced
   related:
   - 696
+  - 1513
   tricks:
   - Cumulative Count Contribution (reset 1)
   attempts:
@@ -27,5 +30,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-09'
+    result: 對
+    reason: null
+  - date: '2026-11-19'
     result: 對
     reason: null

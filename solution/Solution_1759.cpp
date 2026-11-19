@@ -19,11 +19,12 @@
 class Solution {
 public:
     int countHomogenous(string s) {
-        constexpr int MOD = 1e9 + 7;
-        int ans = 1, cur = 1;
+        static constexpr int MOD = 1e9 +7;
+        int count = 1;
+        int ans = 1;
         for(int i = 1; i < s.size(); i++) {
-            cur = (s[i - 1] == s[i]) ? cur + 1 : 1;
-            ans = (ans + cur) % MOD;
+            count = (s[i] == s[i - 1]) ? count + 1 : 1;
+            ans = (ans + count) % MOD;
         }
         return ans;
     }
