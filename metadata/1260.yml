@@ -6,15 +6,23 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - 2d Array
-  - Simulation
   topics:
   - 2d-array
   time: O(M*N)
   space: O(K)
-  familiarity: 生疏
+  familiarity: 易忘
+  official_solution: better
   tricks:
   - 1D 2D transform
   attempts:
   - date: '2026-09-16'
     result: 對
     reason: null
+  - date: '2026-11-19'
+    result: 對
+    reason: null
+  - date: '2026-11-19'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: 2d vector rotate in place

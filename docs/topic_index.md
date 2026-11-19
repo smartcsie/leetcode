@@ -105,6 +105,7 @@
 | 628 | 👑 **Array Min Max With Repeat**<br>[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers) | 🟢 E | Array Min Max | [C++](problems/0628.md) | O(N) | O(1) |
 | 674 | 👑 **Longest Continuous Increasing Subsequence**<br>[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | 🟢 E | Array Linear Scan | [C++](problems/0674.md) | O(N) | O(1) |
 | 867 | 👑 **Matrix Transpose**<br>[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 E | 2d Array | [C++](problems/0867.md) | O(M\*N) | O(M\*N) |
+| 1260 | 👑 **2d vector rotate in place**<br>[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array | [C++](problems/1260.md) | O(M\*N) | O(K) |
 | 1389 | 👑 **vector insert element**<br>[Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | 🟢 E | Array | [C++](problems/1389.md) | O(N²) | O(N) |
 | 1513 | 👑 **Consecutive Count Contribution**<br>[Number of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | 🟡 M | Array Continuous Counting | [C++](problems/1513.md) | O(N) | O(1) |
 | 1752 | 👑 **Circular Array**<br>[Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | 🟢 E | Array | [C++](problems/1752.md) | O(N) | O(1) |

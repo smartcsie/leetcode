@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：852 題　🟠 再練習：19 題　🟣 易忘：13 題　🟢 熟練：113 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：851 題　🟠 再練習：19 題　🟣 易忘：14 題　🟢 熟練：113 題　⚪ 未標記：0 題
 
 ---
 
@@ -348,7 +348,6 @@
 | 🔴 生疏 | 1013 | [Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/) | 🟢 E | Array Linear Scan, Greedy, Prefix Sum | [C++](problems/1013.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 M | Array Difference Array, Difference Array, Sweep Line | [C++](problems/1094.md) | O(N+M) | O(M) |  |
 | 🔴 生疏 | 1109 | [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | 🟡 M | Array Difference Array | [C++](problems/1109.md) | O(N+K) | O(N) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array, Simulation | [C++](problems/1260.md) | O(M\*N) | O(K) |  |
 | 🔴 生疏 | 1288 | [Remove Covered Intervals](https://leetcode.com/problems/remove-covered_intervals/) | 🟡 M | Array Interval, Greedy | [C++](problems/1288.md) | O(NlogN) | O(logN) |  |
 | 🔴 生疏 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | 🟢 E | Array Linear Scan, Hash Table, String Parsing | [C++](problems/1309.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | 🟢 E | Array Prefix Sum | [C++](problems/1365.md) | O(N+K) | O(K) | ❌ 官方沒有解答 |
@@ -394,6 +393,7 @@
 | 🔴 生疏 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](problems/3432.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3452 | [Sum of Good Numbers](https://leetcode.com/problems/sum-of-good-numbers/) | 🟢 E | Array | [C++](problems/3452.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3969 | [Valid Subarrays With Matching Sum Digits I](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/) | 🟢 E | Array, Brute Force | [C++](problems/3969.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array | [C++](problems/1260.md) | O(M\*N) | O(K) | 🌟 優於官方解答 |
 
 <a id="review-tree"></a>
 #### 🌳 Tree（91）
@@ -1105,7 +1105,7 @@
 
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [2d-array](topics/2d-array.md) | 5 | 3 | 0 | 11 | 0 | 19 |
+| [2d-array](topics/2d-array.md) | 4 | 3 | 1 | 11 | 0 | 19 |
 | [array](topics/array.md) | 10 | 3 | 0 | 13 | 0 | 26 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 12 | 0 | 0 | 3 | 0 | 15 |

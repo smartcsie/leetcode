@@ -1,11 +1,10 @@
 # 2d-array
 
-## 🔴 生疏（5）
+## 🔴 生疏（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | 🟡 M | 2d Array, Matrix | [C++](../problems/0073.md) | O(M\*N) | O(1) |  |
-| 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array, Simulation | [C++](../problems/1260.md) | O(M\*N) | O(K) |  |
 | 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 E | 2d Array | [C++](../problems/1582.md) | O(M\*N) | O(M+N) |  |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 E | 2d Array, Simulation, Manhattan Distance | [C++](../problems/1779.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | 2d Array | [C++](../problems/2133.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
@@ -18,9 +17,11 @@
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | 🟢 E | 2d Array | [C++](../problems/0832.md) | O(N\*M) | O(1) | ✅ 已同步官方解答 |
 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 E | 2d Array | [C++](../problems/3417.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array | [C++](../problems/1260.md) | O(M\*N) | O(K) | 🌟 優於官方解答 |
 
 ## 🟢 熟悉（11）
 

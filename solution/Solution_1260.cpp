@@ -1,34 +1,29 @@
-/**
- * 題目：1260. Shift 2D Grid
- * 難度：簡單 (Easy)
- * 描述：將一個 m x n 的網格循環右移 k 次。
- *
- * 時間複雜度：O(M*N)
- * 空間複雜度：O(K)
- *
- * 解法思路：
- * 1. 網格共有 N = m * n 個元素。
- * 2. 實際位移量為 k % N，避免不必要的重複循環。
- * 3. 處理「右移」問題的技巧：
- * - 先暫存最後 k 個元素（即將被移到最前面的部分）。
- * - 將其餘元素向後平移 k 個位置。
- * - 將暫存的元素填入空出來的前 k 個位置。
- * 4. 使用一維轉二維公式：row = idx / colCount, col = idx % colCount。
- */
-
 class Solution {
 public:
     vector<vector<int>> shiftGrid(vector<vector<int>>& grid, int k) {
-        int r = grid.size();
-        int c = grid[0].size();
-        int n = r * c;
-        k %= n;
-        if(k == 0) return grid; 
-        vector<vector<int>> ans(r, vector<int>(c));
-        for(int i = 0; i < n ; i++) {
-            int j = (i - k + n) % n;
-            ans[i / c][i % c] = grid[j / c][j % c]; 
+        int r = grid.size();       // 列數
+        int c = grid[0].size();    // 欄數
+        int n = r * c;             // 總格數（攤平後的一維長度）
+        k %= n;                    // 位移 n 次等於沒動；也避免 k > n 時索引變負
+
+        // 暫存「會被擠到最前面」的最後 k 個元素
+        // 一維索引 idx 對應格子 grid[idx / c][idx % c]
+        vector<int> backup(k);
+        for(int i = 0; i < k; i++) {
+            backup[i] = grid[(n - k + i) / c][(n - k + i) % c];
         }
-        return ans;
+
+        // 由後往前搬：位置 i 的新值 = 原本位置 i - k 的值
+        // 從後往前寫，來源 i - k 一定還沒被覆蓋，所以可以原地進行
+        for(int i = n - 1; i >= k; i--) {
+            grid[i / c][i % c] = grid[(i - k) / c][(i - k) % c];
+        }
+
+        // 把暫存的最後 k 個元素放回最前面 k 格
+        for(int i = 0; i < k; i++) {
+            grid[i / c][i % c] = backup[i];
+        }
+
+        return grid;
     }
 };
