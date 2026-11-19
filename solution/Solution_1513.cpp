@@ -21,14 +21,13 @@
 class Solution {
 public:
     int numSub(std::string s) {
-        constexpr int MOD = 1e9 + 7;
-        int ans = 0;
+        static constexpr int MOD = 1e9 +7;
         int count = 0;
-        for (char c : s) {
+        int ans = 0;
+        for(const char& c : s) {
             count = (c == '1') ? count + 1 : 0;
             ans = (ans + count) % MOD;
         }
-        
         return ans;
     }
 };
