@@ -1,12 +1,11 @@
 # array-difference-array
 
-## 🔴 生疏（3）
+## 🔴 生疏（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 M | Array Difference Array, Difference Array, Sweep Line | [C++](../problems/1094.md) | O(N+M) | O(M) |  |
 | 1109 | [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/) | 🟡 M | Array Difference Array | [C++](../problems/1109.md) | O(N+K) | O(N) | ❌ 官方沒有解答 |
-| 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 E | Array Difference Array | [C++](../problems/1854.md) | O(N+Y) | O(Y) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（0）
 
@@ -16,6 +15,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1854 | [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/) | 🟢 E | Array Difference Array | [C++](../problems/1854.md) | O(N+Y) | O(Y) | ❌ 官方沒有解答 |

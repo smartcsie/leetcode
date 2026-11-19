@@ -13,19 +13,19 @@
 class Solution {
 public:
     int maximumPopulation(vector<vector<int>>& logs) {
-        array<int, 2051> population = {};
+        constexpr int BASE = 1950;
+        array<int8_t, 101> population{};
         for(const vector<int>& log : logs) {
-            population[log[0]]++;
-            population[log[1]]--;
+            population[log[0] - BASE]++;
+            population[log[1] - BASE]--;
         }
-        int mx = 0;
-        int mxYear = 0;
-        int cur = 0;
-        for(int i = 1950; i <= 2050; i++) {
+
+        int cur = 0, mx = 0, mxYear = 0;
+        for(int i = 0; i <= 100; i++) {
             cur += population[i];
             if(cur > mx) {
                 mx = cur;
-                mxYear = i;
+                mxYear = i+ BASE;
             }
         }
         return mxYear;
