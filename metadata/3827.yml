@@ -5,17 +5,18 @@ solutions:
 - file: Solution_3827.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Math
   topics:
-  - bit-manipulation
+  - math
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **0->1，1->2，2->2，3->3...，6->3，7->4，**等於算(n+1)的bit數目**<br>
 
     > **return bit_width(static_cast<uint32_t>(n + 1));** <br>
 
     > **另解static_cast<int>(log2(n + 1)) + 1;**<br>'
+  official_solution: no-solution
   tricks:
   - log2
   - bit_width
@@ -29,4 +30,6 @@ solutions:
   - date: '2026-10-11'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-20'
+    result: 對
+    reason: null

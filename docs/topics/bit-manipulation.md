@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（28）
+## 🔴 生疏（27）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -31,7 +31,6 @@
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 E | Bit Manipulation, Math, String | [C++](../problems/3274.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) | O(logN) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
-| 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Bit Manipulation | [C++](../problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（1）
 
