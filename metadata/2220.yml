@@ -5,20 +5,23 @@ solutions:
 - file: Solution_2220.cpp
   difficulty: 🟢 Easy
   tags:
-  - Bit Manipulation
+  - Hamming Distance
   topics:
   - hamming-distance
   time: O(log(max(START,GOAL)))
   space: O(1)
-  familiarity: 生疏
-  note: '> start和goal的Hamming Distance<br>
-
-    <br><br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-20'
+  note: '> **start和goal的Hamming Distance**<br>'
+  official_solution: better
   related:
   - 461
   tricks:
   - __builtin_popcount
   attempts:
   - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-11-20'
     result: 對
     reason: null
