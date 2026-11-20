@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：840 題　🟠 再練習：20 題　🟣 易忘：15 題　🟢 熟練：122 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：839 題　🟠 再練習：20 題　🟣 易忘：15 題　🟢 熟練：123 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 950 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 949 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（71）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（72）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（68）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（70）](#review-bit-manipulation)　[🔗 String（55）](#review-string)　[🍱 Array（72）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（68）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -173,7 +173,7 @@
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-bit-manipulation"></a>
-#### 📊 Bit Manipulation（71）
+#### 📊 Bit Manipulation（70）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -191,7 +191,6 @@
 | 🔴 生疏 | 477 | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | 🟡 M | Bit Manipulation | [C++](problems/0477.md) | O(31\*N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | 🟢 E | Bit Manipulation, Math | [C++](problems/1342.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 1442 | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | 🟡 M | Bit Manipulation Xor, Prefix XOR | [C++](problems/1442.md) | O(N²) | O(1) |  |
-| 🔴 生疏 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 E | Bit Manipulation, Simulation | [C++](problems/1486.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1545 | [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/) | 🟡 M | Backtracking Permutation | [C++](problems/1545.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 M | Bit Manipulation, Bit Manipulation | [C++](problems/1680.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1684 | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings) | 🟢 E | Bit Manipulation Or, Bit Manipulation | [C++](problems/1684.md) | O(N\*M) | O(1) |  |
@@ -1121,7 +1120,7 @@
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 6 | 0 | 0 | 1 | 0 | 7 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 8 | 0 | 1 | 0 | 0 | 9 |
-| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 12 | 0 | 2 | 4 | 0 | 18 |
+| [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 11 | 0 | 2 | 5 | 0 | 18 |
 | [design](topics/design.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [dp-bitmask](topics/dp-bitmask.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 4 |
