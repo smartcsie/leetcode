@@ -18,7 +18,7 @@ public:
         // 例：bits = 3 -> 1000 - 1 = 111
         // 用 1L（64 位元）做位移：num 最大 2^31 - 1 時 bits = 31，
         // 若用 int 的 1 << 31 會溢位（C++20 前是未定義行為）
-        long mask = (1L << bits) - 1;
+        int mask = (1u << bits) - 1;
 
         // 全 1 減去 num 等於把 num 每個 bit 翻轉（不會借位）
         // 例：111 - 101 = 010；等價於 mask ^ num
