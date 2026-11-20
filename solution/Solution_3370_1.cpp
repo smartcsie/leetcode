@@ -20,6 +20,6 @@ class Solution {
 public:
     int smallestNumber(int n) {
         int bits = bit_width(static_cast<unsigned int>(n));
-        return (1 << bits) - 1;
+        return (1u << bits) - 1;
     }
 };
