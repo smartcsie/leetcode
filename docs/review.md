@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：829 題　🟠 再練習：22 題　🟣 易忘：19 題　🟢 熟練：127 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：828 題　🟠 再練習：22 題　🟣 易忘：20 題　🟢 熟練：127 題　⚪ 未標記：0 題
 
 ---
 
@@ -227,7 +227,6 @@
 | 🔴 生疏 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 M | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 E | Bit Manipulation, Bit Manipulation | [C++](problems/3151.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 E | Bit Manipulation Xor, Bit Manipulation | [C++](problems/3158.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 3226 | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) | 🟢 E | Hamming Distance | [C++](problems/3226.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 E | Bit Manipulation, Math | [C++](problems/3314.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](problems/3513.md) | O(logN) | O(1) |  |
 | 🔴 生疏 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 H | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) |  |
@@ -241,6 +240,7 @@
 | 🟣 易忘 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 E | Bit Manipulation | [C++](problems/0693.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 🟣 易忘 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 E | Bit Manipulation | [C++](problems/1009.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 1318 | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | 🟡 M | Bit Manipulation Or | [C++](problems/1318.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 🟣 易忘 | 3226 | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) | 🟢 E | Hamming Distance | [C++](problems/3226.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🟣 易忘 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](problems/3370.md) |  |  | 🌟 優於官方解答 |
 
 <a id="review-string"></a>
@@ -1156,7 +1156,7 @@
 | [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 14 | 1 | 0 | 1 | 0 | 16 |
 | [greedy-string-construction](topics/greedy-string-construction.md) | 6 | 1 | 0 | 0 | 0 | 7 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
-| [hamming-distance](topics/hamming-distance.md) | 1 | 1 | 0 | 2 | 0 | 4 |
+| [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 22 | 2 | 2 | 4 | 0 | 30 |
 | [hash-table-existence](topics/hash-table-existence.md) | 12 | 2 | 0 | 6 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 3 | 1 | 0 | 8 | 0 | 12 |
