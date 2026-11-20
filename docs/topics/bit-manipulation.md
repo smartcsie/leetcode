@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（29）
+## 🔴 生疏（28）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18,7 +18,6 @@
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | Bit Manipulation | [C++](../problems/2133.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 E | Bit Manipulation, Hash Table, Counting | [C++](../problems/2206.md) | O(N) | O(1) |  |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 E | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 E | Bit Manipulation, Hash Table, Bit Manipulation | [C++](../problems/2309.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 M | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |  |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 E | Bit Manipulation, Hash Set | [C++](../problems/2716.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 E | Bit Manipulation | [C++](../problems/2716.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -34,9 +33,11 @@
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Bit Manipulation | [C++](../problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 E | Bit Manipulation | [C++](../problems/2309.md) |  |  | ⏳ 尚未同步 |
 
 ## 🟣 易忘（5）
 
@@ -48,7 +49,7 @@
 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/0693.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 E | Bit Manipulation | [C++](../problems/1009.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（11）
+## 🟢 熟悉（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -63,3 +64,4 @@
 | 1812 | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/) | 🟢 E | Bit Manipulation | [C++](../problems/1812.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Bit Manipulation | [C++](../problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 E | Bit Manipulation | [C++](../problems/2032.md) | O(N1+N2+N3) | O(1) | ❌ 官方沒有解答 |
+| 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 E | Bit Manipulation | [C++](../problems/2309.md) | O(N) | O(1) | ❌ 官方沒有解答 |

@@ -22,15 +22,16 @@
 class Solution {
 public:
     std::string greatestLetter(std::string s) {
-        bitset<26> upper, lower, greatest;
+        int mx = 0;
+        bitset<26> lower;
+        bitset<26> upper;
         for(const char& c : s) {
-            if(isupper(c)) upper.set(c - 'A');
-            else lower.set(c - 'a');
+            if(islower(c)) lower.set(c - 'a');
+            else upper.set(c - 'A');
+            if(lower.test((c | 32) - 'a') && upper.test((c | 32) - 'a')) {
+                mx = max(mx, (c & (~32)));
+            }
         }
-        greatest = upper & lower;
-        for(int i = 25; i >=0; i--) {
-            if(greatest.test(i)) return string(1, i + 'A');
-        }
-        return "";
+        return mx == 0 ? "" : string(1, mx);
     }
 };
