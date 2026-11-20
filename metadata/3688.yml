@@ -10,10 +10,14 @@ solutions:
   - bit-manipulation-or
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-20'
   note: '> **int res = 0，把所有even number OR 到ans上**<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-19'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-20'
+    result: 對
+    reason: null
