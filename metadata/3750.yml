@@ -10,7 +10,7 @@ solutions:
   - hamming-distance
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
   note: '> **先求n的reverse，取n和r的Hamming Distance**<br>'
   official_solution: no-solution
   attempts:
@@ -18,5 +18,11 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-11'
+    result: 對
+    reason: null
+  - date: '2026-11-20'
+    result: 對
+    reason: null
+  - date: '2026-11-20'
     result: 對
     reason: null
