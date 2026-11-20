@@ -21,10 +21,10 @@ public:
         // 建立 bits 個 1 的遮罩：(1 << bits) - 1
         // 例：bits = 3 -> 1000 - 1 = 111
         // 用 1L（64 位元）做位移，避免 bits = 31 時 1 << 31 在 int 溢位
-        long mask = (1L << bits) - 1;
+        int mask = (1u << bits) - 1;
 
         // 全 1 減去 n 等於把 n 每個 bit 翻轉（不會借位）
         // 例：111 - 101 = 010；等價於 mask ^ n
-        return static_cast<int>(mask - n);
+        return mask - n;
     }
 };

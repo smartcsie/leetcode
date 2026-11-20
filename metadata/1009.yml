@@ -23,6 +23,9 @@ solutions:
   - date: '2026-11-17'
     result: 對
     reason: null
+  - date: '2026-11-20'
+    result: 對
+    reason: null
 - file: Solution_1009_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -40,6 +43,9 @@ solutions:
   - date: '2026-11-17'
     result: 對
     reason: null
+  - date: '2026-11-20'
+    result: 對
+    reason: null
 - file: Solution_1009_2.cpp
   difficulty: 🟢 Easy
   tags:
@@ -52,5 +58,8 @@ solutions:
   official_solution: synced
   attempts:
   - date: '2026-11-17'
+    result: 對
+    reason: null
+  - date: '2026-11-20'
     result: 對
     reason: null
