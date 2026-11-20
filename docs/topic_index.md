@@ -87,6 +87,7 @@
 | 2317 | 👑 **Accumulate OR**<br>[Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations) | 🟡 M | Bit Manipulation Or | [C++](problems/2317.md) | O(N) | O(1) |
 | 2605 | 👑 **__builtin_ctz**<br>[Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 E | Bit Manipulation Mask | [C++](problems/2605.md) | O(1) | O(1) |
 | 3120 | 👑 **accumulate lemma**<br>[Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 E | Bit Manipulation And | [C++](problems/3120.md) | O(N) | O(1) |
+| 3370 | 👑 **bit mask**<br>[Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](problems/3370.md) | O(1) | O(1) |
 
 ---
 

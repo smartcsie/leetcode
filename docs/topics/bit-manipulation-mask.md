@@ -1,12 +1,11 @@
 # bit-manipulation-mask
 
-## 🔴 生疏（3）
+## 🔴 生疏（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 E | Bit Manipulation Mask | [C++](../problems/2605.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 E | Bit Manipulation Mask | [C++](../problems/2605.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation Mask | [C++](../problems/3370.md) | O(logN) | O(1) |  |
 
 ## 🟠 再練習（0）
 
@@ -18,6 +17,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | 🟡 M | Bit Manipulation | [C++](../problems/0318.md) | O(N\*L+N^2) | O(N) |  |
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation Mask | [C++](../problems/3370.md) | O(logN) | O(1) |  |

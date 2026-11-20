@@ -10,9 +10,14 @@ solutions:
   - bit-manipulation-mask
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-20'
+  official_solution: null
   attempts:
   - date: '2026-09-22'
+    result: 對
+    reason: null
+  - date: '2026-11-20'
     result: 對
     reason: null
 - file: Solution_3370_1.cpp
@@ -21,10 +26,46 @@ solutions:
   - Bit Manipulation
   topics:
   - bit-manipulation
-  time: O(logN)
+  time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-20'
+  official_solution: better
   attempts:
   - date: '2026-09-22'
+    result: 對
+    reason: null
+  - date: '2026-11-20'
+    result: 對
+    reason: null
+- file: Solution_3370_2.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: O(1)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-20'
+  official_solution: pending
+  attempts:
+  - date: '2026-11-20'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: bit mask
+- file: Solution_3370_3.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Bit Manipulation
+  topics:
+  - bit-manipulation
+  time: ''
+  space: ''
+  familiarity: 易忘
+  official_solution: better
+  attempts:
+  - date: '2026-11-20'
     result: 對
     reason: null

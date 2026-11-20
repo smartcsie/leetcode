@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（27）
+## 🔴 生疏（26）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -29,7 +29,6 @@
 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 E | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) |  |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 E | Bit Manipulation, Bit Manipulation | [C++](../problems/3151.md) | O(N) | O(1) |  |
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 E | Bit Manipulation, Math, String | [C++](../problems/3274.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) | O(logN) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 
 ## 🟠 再練習（1）
@@ -38,7 +37,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 E | Bit Manipulation | [C++](../problems/2309.md) |  |  | ⏳ 尚未同步 |
 
-## 🟣 易忘（5）
+## 🟣 易忘（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -47,8 +46,9 @@
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 E | Bit Manipulation | [C++](../problems/0476.md) | O(1) | O(1) | ⏳ 尚未同步 |
 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/0693.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 E | Bit Manipulation | [C++](../problems/1009.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) |  |  | 🌟 優於官方解答 |
 
-## 🟢 熟悉（12）
+## 🟢 熟悉（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -64,3 +64,5 @@
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Bit Manipulation | [C++](../problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 E | Bit Manipulation | [C++](../problems/2032.md) | O(N1+N2+N3) | O(1) | ❌ 官方沒有解答 |
 | 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 E | Bit Manipulation | [C++](../problems/2309.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) | O(1) | O(1) | 🌟 優於官方解答 |
+| 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) | O(1) | O(1) | ⏳ 尚未同步 |
