@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Bit Manipulation Xor
-  - Simulation
   topics:
   - bit-manipulation-xor
   time: O(N)
   space: O(N)
   familiarity: 生疏
+  official_solution: no-solution
   related:
   - 2433
   attempts:
@@ -21,4 +21,6 @@ solutions:
   - date: '2026-09-18'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-20'
+    result: 對
+    reason: null
