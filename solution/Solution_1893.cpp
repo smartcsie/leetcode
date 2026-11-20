@@ -21,9 +21,10 @@ public:
     bool isCovered(std::vector<std::vector<int>>& ranges, int left, int right) {
         bitset<51> seen;
         for(const vector<int>& range : ranges) {
-            for(int i = range[0]; i <= range[1]; i++) seen.set(i);
+            for(int i = range.front(); i <= range.back(); i++) seen.set(i);
         }
-        for(int i = left; i <= right; i++) if(!seen.test(i)) return false;
+        for(int x = left; x <= right; x++) 
+            if(!seen.test(x)) return false;
         return true;
     }
 };

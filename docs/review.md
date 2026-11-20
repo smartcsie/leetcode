@@ -195,7 +195,7 @@
 | 🔴 生疏 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 M | Bit Manipulation, Bit Manipulation | [C++](problems/1680.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 E | Bit Manipulation Xor | [C++](problems/1720.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1863 | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) | 🟢 E | Bit Manipulation Or | [C++](problems/1863.md) | O(N) | O(1) | ✅ 已同步官方解答 |
-| 🔴 生疏 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 E | Bit Manipulation, Bitset, Simulation | [C++](problems/1893.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
+| 🔴 生疏 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 E | Bit Manipulation | [C++](problems/1893.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2044 | [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | 🟡 M | Bit Manipulation Or | [C++](problems/2044.md) | O(n\*M) | O(M) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | Bit Manipulation | [C++](problems/2133.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 E | Bit Manipulation, Hash Table, Counting | [C++](problems/2206.md) | O(N) | O(1) |  |
