@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：836 題　🟠 再練習：21 題　🟣 易忘：15 題　🟢 熟練：125 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：835 題　🟠 再練習：21 題　🟣 易忘：16 題　🟢 熟練：125 題　⚪ 未標記：0 題
 
 ---
 
@@ -182,7 +182,6 @@
 | 🔴 生疏 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | 🟡 M | Bit Manipulation | [C++](problems/0029.md) | O(log²N) | O(1) |  |
 | 🔴 生疏 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | 🟡 M | Bit Manipulation | [C++](problems/0036.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 78 | [Subsets](https://leetcode.com/problems/subsets) | 🟡 M | Bit Bitmask Subset Enumeration | [C++](problems/0078.md) | O(n2ᴺ) | O(n) | ✅ 已同步官方解答 |
-| 🔴 生疏 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 M | Bit Manipulation | [C++](problems/0201.md) | O(logN) | O(1) |  |
 | 🔴 生疏 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii) | 🟡 M | Bit Manipulation | [C++](problems/0260.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 318 | [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | 🟡 M | Bit Manipulation, Bitmask | [C++](problems/0318.md) | O(N\*L+N^2) | O(N) |  |
 | 🔴 生疏 | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers) | 🟡 M | Bit Manipulation | [C++](problems/0371.md) | O(1) | O(1) |  |
@@ -240,6 +239,7 @@
 | 🔴 生疏 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Bit Manipulation | [C++](problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🟣 易忘 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Bit Manipulation | [C++](problems/0137.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | 🟢 E | Bit Manipulation | [C++](problems/0190.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 🟣 易忘 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 M | Bit Manipulation | [C++](problems/0201.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 E | Bit Manipulation Xor | [C++](problems/0268.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 E | Bit Manipulation | [C++](problems/0476.md) | O(1) | O(1) | ⏳ 尚未同步 |
 | 🟣 易忘 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 E | Bit Manipulation | [C++](problems/0693.md) | O(1) | O(1) | 🌟 優於官方解答 |
@@ -1115,7 +1115,7 @@
 | [binary-search-tree](topics/binary-search-tree.md) | 16 | 0 | 0 | 0 | 0 | 16 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [bit-manipulation](topics/bit-manipulation.md) | 25 | 1 | 6 | 4 | 0 | 36 |
-| [bit-manipulation-and](topics/bit-manipulation-and.md) | 6 | 0 | 0 | 1 | 0 | 7 |
+| [bit-manipulation-and](topics/bit-manipulation-and.md) | 5 | 0 | 1 | 1 | 0 | 7 |
 | [bit-manipulation-mask](topics/bit-manipulation-mask.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [bit-manipulation-or](topics/bit-manipulation-or.md) | 7 | 0 | 1 | 1 | 0 | 9 |
 | [bit-manipulation-xor](topics/bit-manipulation-xor.md) | 11 | 0 | 2 | 5 | 0 | 18 |

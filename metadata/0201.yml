@@ -10,7 +10,8 @@ solutions:
   - bit-manipulation-and
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  official_solution: synced
   tricks:
   - Brian Kernighan's Algorithm
   attempts:
@@ -21,5 +22,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-22'
+    result: 對
+    reason: null
+  - date: '2026-11-20'
     result: 對
     reason: null
