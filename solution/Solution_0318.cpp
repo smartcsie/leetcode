@@ -21,21 +21,29 @@
 
 public:
     int maxProduct(vector<string>& words) {
-        int n = words.size();
-        vector<int> masks(n ,0);
-        vector<int> sizes(n ,0);
-        for(int i = 0; i < n; i++) {
-            for(const char& c : words[i]) {
-                masks[i] |= 1 << (c - 'a');
-                sizes[i] = static_cast<int>(words[i].size());
+        const size_t n = words.size();
+        std::vector<uint32_t> masks(n, 0);
+        std::vector<uint32_t> lens(n);
+
+        for (size_t i = 0; i < n; ++i) {
+            uint32_t m = 0;
+            for (char c : words[i]) {
+                m |= 1U << (c - 'a');
+            }
+            masks[i] = m;
+            lens[i] = static_cast<uint32_t>(words[i].size());
+        }
+
+        uint32_t ans = 0;
+        for (size_t i = 0; i < n; ++i) {
+            const uint32_t mi = masks[i];
+            const uint32_t li = lens[i];
+            for (size_t j = i + 1; j < n; ++j) {
+                if ((mi & masks[j]) == 0) {
+                    ans = std::max(ans, li * lens[j]);
+                }
             }
         }
-        int ans = 0;
-        for(int i = 0; i < n-1; i++) {
-            for(int j = i + 1; j < n; j++) {
-                if(!(masks[i] & masks[j])) ans = max(ans, sizes[i] * sizes[j]);
-            }
-        }
-        return ans;
+        return static_cast<int>(ans);
     }
 };

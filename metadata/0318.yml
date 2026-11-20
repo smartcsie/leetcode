@@ -6,13 +6,16 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Bit Manipulation
-  - Bitmask
   topics:
   - bit-manipulation-mask
   time: O(N*L+N^2)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
+  official_solution: null
   attempts:
   - date: '2026-09-26'
+    result: 對
+    reason: null
+  - date: '2026-11-20'
     result: 對
     reason: null
