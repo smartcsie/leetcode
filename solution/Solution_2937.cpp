@@ -13,14 +13,14 @@
 class Solution {
 public:
     int findMinimumOperations(string s1, string s2, string s3) {
-        int len = 0;
-        int m = s1.size();
-        int n = s2.size();
-        int o = s3.size();
-        for( int i = 0; i < min({m , n , o}); i++) {
-            if(s1[i] == s2[i] && s2[i] == s3[i]) len++;
-            else break;
+        int count = 0;
+        int n1 = s1.size();
+        int n2 = s2.size();
+        int n3 = s3.size();
+        for(int i = 0; i < min({n1, n2, n3}); i++) {
+            if(s1[i] != s2[i] || s1[i] != s3[i] || s2[i] != s3[i]) break;
+            count++;
         }
-        return  len == 0 ? -1 : m + n + o - 3 * len;
+        return count == 0 ? -1 : n1 + n2 + n3 - 3* count;
     }
 };
