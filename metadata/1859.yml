@@ -6,15 +6,19 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - String
-  - Sorting
-  - Bucket Sort
   topics:
   - string
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-21'
+  official_solution: no-solution
+  tricks:
+  - string split
   attempts:
   - date: '2026-09-26'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-21'
+    result: 對
+    reason: null

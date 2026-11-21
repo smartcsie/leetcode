@@ -14,20 +14,23 @@
 class Solution {
 public:
     string sortSentence(string s) {
-        istringstream iss(s);
-        string word;
-        vector<string> words(9);
-        int  n = 0;
-        while(iss >> word) {
-            int idx = word.back() - '0' - 1;
-            word.pop_back();
-            words[idx] = word;
-            n++;
+        string_view sv = s;
+        array<pair<int, int>, 10> idxs;
+        idxs.fill({-1, -1});
+        int n = s.size();
+        for(int i = 0, start = 0; i <= n; i++) {
+            if(i == n || s[i] == ' ') {
+                int idx = s[i - 1] - '0';
+                idxs[idx] = {start, i - start - 1};
+                start = i + 1;
+            }
         }
         string ans;
-        for(int i = 0; i < n ; i++) {
-            ans += words[i];
-            if(i != n - 1) ans.push_back(' ');
+        ans.reserve(n); 
+        for(int i = 1; i <= 9; i++) {
+            if(idxs[i].first == -1) continue;
+            if(!ans.empty()) ans.push_back(' ');
+            ans += sv.substr(idxs[i].first, idxs[i].second);
         }
         return ans;
     }
