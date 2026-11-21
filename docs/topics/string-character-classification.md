@@ -1,12 +1,11 @@
 # string-character-classification
 
-## 🔴 生疏（16）
+## 🔴 生疏（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 M | String Character Classification, Hash Table, Counting | [C++](../problems/1347.md) | O(N) | O(1) |  |
 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 E | String Character Classification | [C++](../problems/1455.md) | O(N) | O(W) |  |
-| 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 E | String Character Classification, Parsing | [C++](../problems/1678.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 E | String Character Classification | [C++](../problems/1704.md) | O(N) | O(1) |  |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 E | String Character Classification | [C++](../problems/1784.md) | O(N) | O(1) |  |
 | 1796 | [Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/) | 🟢 E | String Character Classification, Hash Table | [C++](../problems/1796.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -31,12 +30,13 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（14）
+## 🟢 熟悉（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 E | String Character Classification | [C++](../problems/0520.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 E | String Character Classification | [C++](../problems/0709.md) | O(N) | O(1) | 🌟 優於官方解答 |
+| 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 E | String Character Classification | [C++](../problems/1678.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 E | String Character Classification | [C++](../problems/1903.md) | O(N) | O(1) |  |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 E | String Character Classification | [C++](../problems/2124.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 E | String Character Classification | [C++](../problems/2278.md) | O(N) | O(1) | ❌ 官方沒有解答 |
