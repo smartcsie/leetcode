@@ -6,13 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Swap
-  - Two Pointers
   topics:
   - two-pointers-swap
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 再練習
   note: '> **注意while(left <= right) 是**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -23,3 +23,11 @@ solutions:
   - date: '2026-10-13'
     result: 對
     reason: null
+  - date: '2026-11-21'
+    result: 對
+    reason: null
+  - date: '2026-11-21'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Iterator

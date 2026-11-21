@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：814 題　🟠 再練習：26 題　🟣 易忘：20 題　🟢 熟練：137 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：813 題　🟠 再練習：27 題　🟣 易忘：20 題　🟢 熟練：137 題　⚪ 未標記：0 題
 
 ---
 
@@ -540,6 +540,7 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap | [C++](problems/0977.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 H | Two Pointers Same | [C++](problems/0004.md) | O(log(M+N)) | O(1) |  |
 | 🔴 生疏 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 M | Two Pointers Center Expansion, Expand Around Center, Two Pointers | [C++](problems/0005.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 M | Two Pointers Opposite, Two Pointers, Greedy | [C++](problems/0011.md) | O(N) | O(1) |  |
@@ -581,7 +582,6 @@
 | 🔴 生疏 | 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/0922.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 E | Two Pointers Opposite, Two Pointers | [C++](problems/0941.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 E | Two Pointers Opposite, Two Pointers | [C++](problems/0942.md) | O(N) | O(N) |  |
-| 🔴 生疏 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/0977.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 E | Array, Two Pointers | [C++](problems/1089.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | 🟢 E | Two Pointers Opposite | [C++](problems/1332.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/1417.md) | O(N) | O(N) | ❌ 官方沒有解答 |
@@ -1199,7 +1199,7 @@
 | [two-pointers-other](topics/two-pointers-other.md) | 1 | 1 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 20 | 0 | 0 | 0 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 12 | 0 | 0 | 2 | 0 | 14 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 11 | 1 | 0 | 2 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |
 
