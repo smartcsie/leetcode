@@ -14,17 +14,14 @@
 
 
 class Solution {
-private:
-    bool isVowel(char c) {
-        return (0x104111 >> ((c | 32) - 'a')) & 1;
-    }
 public:
     bool halvesAreAlike(string s) {
+        int left = 0;
+        int right = s.size() - 1;
         int count = 0;
-        int half = s.size() / 2;
-        for(int i = 0; i < half; i++) {
-            if(isVowel(s[i])) count++;
-            if(isVowel(s[half + i])) count--;
+        while(left < right) {
+            if((0x104111 >> ((s[left++] | 32) - 'a')) & 1) count++;
+            if((0x104111 >> ((s[right--] | 32) - 'a')) & 1) count--;
         }
         return count == 0;
     }
