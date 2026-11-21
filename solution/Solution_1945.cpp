@@ -12,36 +12,23 @@
  */
 
 class Solution {
-private:
-    // 計算初步轉換的數字和
-    int charSum(const std::string& s) {
-        int sum = 0;
-        for (const char& c : s) {
-            int num = c - 'a' + 1;
-            // 直接計算該數的個位與十位之和 (因為 num 最大為 26，sum 最多為 2+6=8)
-            sum += (num >= 10) ? (num / 10) + (num % 10) : num;
-        }
-        return sum;
-    }
-
-    // 計算整數的位數之和
-    int digitSum(int n) {
-        int sum = 0;
-        while (n > 0) {
-            sum += n % 10;
-            n /= 10;
-        }
-        return sum;
-    }
-
 public:
-    int getLucky(std::string s, int k) {
-        // 先進行第一次轉換
-        int sum = charSum(s);
-        
-        // 若 k > 1，則繼續進行後續轉換
-        for (int i = 1; i < k; i++) {
-            sum = digitSum(sum);
+    int getLucky(string s, int k) {
+        int sum = 0;
+        for(const char& c : s) {
+            int num = c - 'a' + 1;
+            if(num >= 10) sum += (num / 10) + num %10;
+            else sum += num;
+        }
+        k--;
+        while(k > 0) {
+            int n = sum;
+            sum = 0;
+            while(n > 0) {
+                sum += n % 10;
+                n /= 10;
+            }
+            k--;
         }
         return sum;
     }
