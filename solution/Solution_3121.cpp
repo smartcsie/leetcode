@@ -15,18 +15,21 @@
 
 class Solution {
 public:
-    int numberOfSpecialChars(std::string word) {
-        /vector<int> lowers(26, -1);
-        vector<int> uppers(26, -1);
-        int n = word.size();
-        int ans = 0;
-        for(int i = 0, j = n - 1; i < n && j >= 0; i++, j--) {
-            if(islower(word[i])) lowers[word[i] - 'a']= i;
-            if(isupper(word[j])) uppers[word[j] - 'A']= j;
+    int numberOfSpecialChars(string word) {
+        uint32_t lower = 0;   // 出現過的小寫字母
+        uint32_t upper = 0;   // 出現過的大寫字母
+        uint32_t bad = 0;     // 小寫出現在大寫之後的字母（失格）
+
+        for(char c : word) {
+            if(islower(c)) {
+                int b = c - 'a';
+                if(upper & (1u << b)) bad |= 1u << b;   // 對應的大寫已經出現過，這個小寫來得太晚
+                lower |= 1u << b;
+            } else {
+                upper |= 1u << (c - 'A');
+            }
         }
-        for(int i = 0; i < 26; i++) {
-            if(lowers[i] > -1 && uppers[i] > -1 && (lowers[i] < uppers[i])) ans++;
-        }
-        return ans;
+        // 大小寫都出現過，且沒有失格的字母數量
+        return popcount(lower & upper & ~bad);
     }
 };

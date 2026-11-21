@@ -6,16 +6,16 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - String Character Classification
-  - String Processing
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
-  note: '> **大寫紀錄最左邊，小寫紀錄最右邊**<br>
-
-    > **最後count計算所有char，小寫index在大寫前面(小於)**<br>'
+  familiarity: 再練習
+  official_solution: better
   attempts:
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-11-21'
     result: 對
     reason: null
