@@ -27,20 +27,21 @@
 class Solution {
 public:
     vector<string> findWords(vector<string>& words) {
+        static constexpr array<uint8_t, 26> rowNums = {  2, 3 ,3, 2, 1, 2, 2 ,2 ,      //h
+                                        1, 2, 2, 2, 3, 3, 1, 1 ,       //p
+                                        1, 1, 2, 1, 1, 3, 1, 3, 1, 3};
         vector<string> ans;
-        static constexpr string_view rows = "23321222122233111121131313";
+        ans.reserve(words.size());
         for(const string& word : words) {
-            bool oneRow = true;
-            int idx1 = (word[0] | 32) - 'a';
-            char first = rows[idx1];
+            bool sameRow = true;
+            int row = rowNums[(word[0] | 32) - 'a'];
             for(const char& c : word) {
-                int idx2 = (c | 32) - 'a';
-                if(rows[idx2] ^ first) {
-                    oneRow = false;
+                if(rowNums[(c | 32) - 'a'] != row) {
+                    sameRow = false;
                     break;
                 }
             }
-            if(oneRow) ans.push_back(word);
+            if(sameRow) ans.push_back(word);
         }
         return ans;
     }

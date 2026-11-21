@@ -1,13 +1,12 @@
 # string
 
-## 🔴 生疏（29）
+## 🔴 生疏（28）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 E | String | [C++](../problems/0014.md) | O(S) | O(1) |  |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 M | String, String | [C++](../problems/0043.md) | O(M\*N) | O(M+N) |  |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 E | String | [C++](../problems/0058.md) | O(N) | O(1) | ✅ 已同步官方解答 |
-| 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | 🟢 E | String | [C++](../problems/0500.md) | O(L) | O(1) | ❌ 官方沒有解答 |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 M | String, Two Pointers | [C++](../problems/0524.md) | O(DlogD+D\*M) | O(1) |  |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 E | String | [C++](../problems/0557.md) | O(N) | O(1) |  |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 M | String, Counting Sort | [C++](../problems/0791.md) | O(N+M) | O(1) |  |
@@ -46,11 +45,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](../problems/2828.md) |  |  | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（10）
+## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 E | String | [C++](../problems/0412.md) | O(N) | O(1) |  |
+| 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | 🟢 E | String | [C++](../problems/0500.md) | O(L) | O(1) | ❌ 官方沒有解答 |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | 🟢 E | String | [C++](../problems/1108.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | String | [C++](../problems/1662.md) | O(L) | O(1) |  |
 | 1662 | [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | 🟢 E | String | [C++](../problems/1662.md) | 時間複雜度：O(N\*L) | 時間複雜度：O(N\*L) |  |
