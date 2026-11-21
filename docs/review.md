@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：821 題　🟠 再練習：23 題　🟣 易忘：20 題　🟢 熟練：133 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：820 題　🟠 再練習：24 題　🟣 易忘：20 題　🟢 熟練：133 題　⚪ 未標記：0 題
 
 ---
 
@@ -251,6 +251,7 @@
 | 🟠 再練習 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 E | String Character Classification | [C++](problems/0434.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 E | String | [C++](problems/0557.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | String | [C++](problems/0884.md) | O(N+M) | O(N+M) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 E | String Character Classification | [C++](problems/1784.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 E | String | [C++](problems/0014.md) | O(S) | O(1) |  |
 | 🔴 生疏 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 E | String Kmp | [C++](problems/0028.md) | O(N\*M) | O(1) |  |
 | 🔴 生疏 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 M | String, String | [C++](problems/0043.md) | O(M\*N) | O(M+N) |  |
@@ -268,7 +269,6 @@
 | 🔴 生疏 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 E | String Character Classification | [C++](problems/1455.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string) | 🟢 E | String | [C++](problems/1528.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 E | String, Simulation | [C++](problems/1592.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 E | String Character Classification | [C++](problems/1784.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 M | String, String | [C++](problems/1910.md) | O(N\*M) | O(N) |  |
 | 🔴 生疏 | 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 E | String Character Classification, Stream | [C++](problems/1935.md) | O(N\*M) | O(1) |  |
 | 🔴 生疏 | 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 E | String, Simulation | [C++](problems/1945.md) | O(N+K\*log(SUM)) | O(1) |  |
@@ -1184,7 +1184,7 @@
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 13 | 1 | 0 | 2 | 0 | 16 |
 | [string](topics/string.md) | 24 | 2 | 1 | 11 | 0 | 38 |
-| [string-character-classification](topics/string-character-classification.md) | 13 | 1 | 0 | 16 | 0 | 30 |
+| [string-character-classification](topics/string-character-classification.md) | 12 | 2 | 0 | 16 | 0 | 30 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 3 | 0 | 0 | 0 | 0 | 3 |
