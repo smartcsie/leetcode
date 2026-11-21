@@ -19,12 +19,12 @@
 
 class Solution {
 public:
-    int maximumValue(std::vector<std::string>& strs) {
-        int maxVal = 0;
-        for(const string& str : strs) {
-            int val = any_of(str.begin(), str.end(), ::isalpha) ? str.size() : stoi(str);
-            maxVal = max(maxVal, val);
+    int maximumValue(vector<string>& strs) {
+        int mx = 0;
+        for(const string& s : strs) {
+            if(all_of(s.begin(), s.end(), ::isdigit)) mx = max(mx, stoi(s));
+            else mx = max(mx, static_cast<int>(s.size()));
         }
-        return maxVal;
+        return mx;
     }
 };

@@ -6,14 +6,14 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - String Character Classification
-  - String
-  - Simulation
   topics:
   - string-character-classification
   time: O(N*L)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-21'
   note: '> any_of(str.begin(), str.end(), ::isalpha) 用法'
+  official_solution: no-solution
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -21,6 +21,8 @@ solutions:
   - date: '2026-10-11'
     result: 對
     reason: null
+  - date: '2026-11-21'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: any_of
-  official_solution: no-solution
