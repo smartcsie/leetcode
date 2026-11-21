@@ -5,16 +5,17 @@ solutions:
 - file: Solution_3083.cpp
   difficulty: 🟢 Easy
   tags:
-  - String Substring
-  - Array
+  - Bit Manipulation
   topics:
-  - string-substring
+  - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 生疏
-  note: '> **seen.insert({s[i], s[i-1]});要在前面，主要是偵測 "aa"，"bb"這種case**<br>'
+  familiarity: 再練習
+  official_solution: no-solution
   attempts:
   - date: '2026-09-26'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-21'
+    result: 對
+    reason: null

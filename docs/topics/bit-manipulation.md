@@ -30,11 +30,12 @@
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 E | Bit Manipulation, Bit Manipulation | [C++](../problems/3151.md) | O(N) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 
-## 🟠 再練習（1）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 E | Bit Manipulation | [C++](../problems/2309.md) |  |  | ⏳ 尚未同步 |
+| 3083 | [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | 🟢 E | Bit Manipulation | [C++](../problems/3083.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（6）
 
