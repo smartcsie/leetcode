@@ -1,11 +1,10 @@
 # two-pointers-other
 
-## 🔴 生疏（2）
+## 🔴 生疏（1）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 E | Two Pointers Other | [C++](../problems/0160.md) | O(N+M) | O(1) |  |
-| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 E | Two Pointers Other, Two Pointers | [C++](../problems/0557.md) | O(N) | O(1) |  |
 
 ## 🟠 再練習（0）
 
@@ -15,6 +14,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 E | Two Pointers Other | [C++](../problems/0557.md) | O(N) | O(1) | ✅ 已同步官方解答 |

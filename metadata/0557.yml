@@ -6,13 +6,14 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Other
-  - Two Pointers
   topics:
   - two-pointers-other
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-21'
   is_best: true
+  official_solution: synced
   attempts:
   - date: '2026-10-20'
     result: 對
@@ -23,6 +24,9 @@ solutions:
   - date: '2026-10-21'
     result: 對
     reason: null
+  - date: '2026-11-21'
+    result: 對
+    reason: null
 - file: Solution_0557_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -31,7 +35,9 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  is_best: true
+  official_solution: synced
   related:
   - 151
   attempts:
@@ -45,6 +51,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-21'
+    result: 對
+    reason: null
+  - date: '2026-11-21'
     result: 對
     reason: null
   is_representative: true
