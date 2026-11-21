@@ -1,6 +1,6 @@
 # string
 
-## 🔴 生疏（24）
+## 🔴 生疏（23）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,7 +20,6 @@
 | 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 E | String | [C++](../problems/2138.md) | O(N) | O(N) |  |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 E | String | [C++](../problems/2243.md) | O(N\*logN) | O(N) |  |
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 E | String | [C++](../problems/2937.md) | O(min(L1,L2,L3)) | O(1) | ❌ 官方沒有解答 |
-| 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 E | String | [C++](../problems/2942.md) | O(N\*L) | O(1) |  |
 | 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 E | String, Cyclic Shift | [C++](../problems/3210.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 E | String | [C++](../problems/3280.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 E | Simulation, Recursion | [C++](../problems/3304.md) | O(K) | O(K) |  |
@@ -42,7 +41,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](../problems/2828.md) |  |  | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（14）
+## 🟢 熟悉（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -60,3 +59,4 @@
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | 🟢 E | String | [C++](../problems/2264.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 M | String | [C++](../problems/2390.md) | O(n) | O(1) | 🌟 優於官方解答 |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](../problems/2828.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 E | String | [C++](../problems/2942.md) | O(N\*L) | O(1) | ✅ 已同步官方解答 |
