@@ -6,13 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Digit Decomposition
-  - Base Conversion
   topics:
   - math-digit-decomposition
   time: O(log26N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
   note: '> **n--; // 先減 1，將 1-26 映射為 0-25**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-17'
     result: 對
@@ -21,5 +21,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-08'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null

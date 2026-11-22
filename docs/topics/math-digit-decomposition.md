@@ -1,12 +1,11 @@
 # math-digit-decomposition
 
-## 🔴 生疏（42）
+## 🔴 生疏（41）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 M | Math Digit Decomposition | [C++](../problems/0007.md) | O(logN) | O(1) |  |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 M | Math Digit Decomposition, Math | [C++](../problems/0008.md) | O(N) | O(1) |  |
-| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 E | Math Digit Decomposition, Base Conversion | [C++](../problems/0168.md) | O(log26N) | O(1) |  |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 E | Math Digit Decomposition, Base Conversion | [C++](../problems/0171.md) | O(N) | O(1) |  |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0405.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 E | Math Digit Decomposition, String | [C++](../problems/0504.md) | O(log₇N) | O(1) | ❌ 官方沒有解答 |
@@ -47,9 +46,11 @@
 | 3959 | [Check Good Integer](https://leetcode.com/problems/check-good-integer/) | 🟢 E | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3959.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 3982 | [Sum of Integers with Maximum Digit Range](https://leetcode.com/problems/sum-of-integers-with-maximum-digit-range/) | 🟢 E | Math Digit Decomposition, Array | [C++](../problems/3982.md) | O(N\*D) | O(N) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0168.md) | O(log26N) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（0）
 

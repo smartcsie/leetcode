@@ -16,16 +16,13 @@
 class Solution {
 public:
     std::string convertToTitle(int columnNumber) {
-        std::string ans;
-        int n = columnNumber;
-        
-        while (n > 0) {
-            n--; // 先減 1，將 1-26 映射為 0-25
-            ans.push_back((n % 26) + 'A');
-            n /= 26;
+        string ans;
+        while(columnNumber > 0) {
+            --columnNumber;
+            ans.push_back(columnNumber % 26+ 'A');
+            columnNumber /= 26;
         }
-        
-        std::reverse(ans.begin(), ans.end());
+        reverse(ans.begin(), ans.end());
         return ans;
     }
 };

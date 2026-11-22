@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：812 題　🟠 再練習：27 題　🟣 易忘：20 題　🟢 熟練：138 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：811 題　🟠 再練習：28 題　🟣 易忘：20 題　🟢 熟練：138 題　⚪ 未標記：0 題
 
 ---
 
@@ -34,6 +34,7 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 E | Math Digit Decomposition | [C++](problems/0168.md) | O(log26N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 M | Math Digit Decomposition | [C++](problems/0007.md) | O(logN) | O(1) |  |
 | 🔴 生疏 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 M | Math Digit Decomposition, Math | [C++](problems/0008.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 E | Math Palindrome | [C++](problems/0009.md) | O(logN) | O(1) |  |
@@ -45,7 +46,6 @@
 | 🔴 生疏 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 E | Math | [C++](problems/0067.md) | O(max(M,N)) | O(1) |  |
 | 🔴 生疏 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 M | Math Formula | [C++](problems/0089.md) | O(2ᴺ) | O(1) |  |
 | 🔴 生疏 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 E | Math Combination | [C++](problems/0119.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 E | Math Digit Decomposition, Base Conversion | [C++](problems/0168.md) | O(log26N) | O(1) |  |
 | 🔴 生疏 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 E | Math Digit Decomposition, Base Conversion | [C++](problems/0171.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 M | Math Formula | [C++](problems/0172.md) | O(log₅N) | O(1) |  |
 | 🔴 生疏 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Math | [C++](problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
@@ -1154,7 +1154,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 31 | 0 | 6 | 2 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 42 | 0 | 0 | 0 | 0 | 42 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 41 | 1 | 0 | 0 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 6 |
