@@ -1,6 +1,6 @@
 # string
 
-## 🔴 生疏（22）
+## 🔴 生疏（21）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](../problems/1016.md) | O(L^2 log L) | O(logn) | ❌ 官方沒有解答 |
 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 E | String, Simulation | [C++](../problems/1592.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 M | String, String | [C++](../problems/1910.md) | O(N\*M) | O(N) |  |
-| 1961 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | 🟢 E | String, Simulation | [C++](../problems/1961.md) | O(S) | O(S) | ❌ 官方沒有解答 |
 | 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 E | String, Brute Force | [C++](../problems/1967.md) | O(N\*M) | O(1) |  |
 | 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 E | String | [C++](../problems/2138.md) | O(N) | O(N) |  |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 E | String | [C++](../problems/2243.md) | O(N\*logN) | O(N) |  |
@@ -40,7 +39,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](../problems/2828.md) |  |  | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（16）
+## 🟢 熟悉（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -54,6 +53,7 @@
 | 1758 | [Minimum Changes To Make Alternating Binary String](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | 🟢 E | String | [C++](../problems/1758.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1859 | [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence) | 🟢 E | String | [C++](../problems/1859.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1945 | [Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/) | 🟢 E | String | [C++](../problems/1945.md) | O(N+K\*log(SUM)) | O(1) | 🌟 優於官方解答 |
+| 1961 | [Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | 🟢 E | String | [C++](../problems/1961.md) | O(S) | O(S) | ❌ 官方沒有解答 |
 | 2042 | [Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) | 🟢 E | String | [C++](../problems/2042.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) | 🟢 E | String | [C++](../problems/2114.md) | O(N\*M) | O(1) | ❌ 官方沒有解答 |
 | 2264 | [Largest 3-Same-Digit Number in String](https://leetcode.com/problems/largest-3-same-digit-number-in-string/) | 🟢 E | String | [C++](../problems/2264.md) | O(N) | O(1) | ✅ 已同步官方解答 |

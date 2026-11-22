@@ -18,9 +18,9 @@ public:
     bool isPrefixString(string s, vector<string>& words) {
         string t;
         for(const string& word : words) {
-            t += word;
-            if(t == s) return true;
-            if(t.size() > s.size()) break;
+            t.append(word);
+            if(s == t) return true;
+            if(t.size() > s.size()) return false;
         }
         return false;
     }
