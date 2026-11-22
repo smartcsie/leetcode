@@ -15,14 +15,12 @@ class Solution {
 public:
     int alternateDigitSum(int n) {
         int sign = 1;
-        int ans = 0;
-        int count = 0;
+        int sum = 0;
         while(n > 0) {
-            ans += (n % 10) * sign;
-            sign = -sign;
-            count++;
+            sum += sign * (n % 10);
             n /= 10;
+            sign = -sign;
         }
-        return count % 2 == 0 ? -ans : ans;
+        return -sign * sum;
     }
 };

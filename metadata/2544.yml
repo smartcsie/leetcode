@@ -6,15 +6,18 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Digit Decomposition
-  - Digit Manipulation
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(logN)
-  familiarity: 生疏
-  note: '> **sign=1，每一次加sign*(n % 10)後，sign*=-1，count++計算digit個數，最後出迴圈，count如果是偶數，sum多一個負號**。<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  note: '> **用sign判斷最後是否要*(-1)，如果sign最後是正的，要多*(-1)**。<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-14'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null

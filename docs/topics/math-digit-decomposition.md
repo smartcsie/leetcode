@@ -1,6 +1,6 @@
 # math-digit-decomposition
 
-## 🔴 生疏（37）
+## 🔴 生疏（36）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,7 +20,6 @@
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 E | Math Digit Decomposition | [C++](../problems/2180.md) | O(D) | O(1) | ❌ 官方沒有解答 |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 M | Math Digit Decomposition, Simulation | [C++](../problems/2443.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
 | 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 E | Math Digit Decomposition, Math | [C++](../problems/2535.md) | O(N\*logM) | O(1) | ❌ 官方沒有解答 |
-| 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 E | Math Digit Decomposition, Digit Manipulation | [C++](../problems/2544.md) | O(logN) | O(logN) | ❌ 官方沒有解答 |
 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 E | Math Digit Decomposition, Math | [C++](../problems/2553.md) | O(N\*log(max_VAL)) | O(N\*log(max_VAL)) |  |
 | 2843 | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/) | 🟢 E | Math Digit Decomposition, Simulation | [C++](../problems/2843.md) | O(N\*D) | O(1) |  |
 | 3079 | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | 🟢 E | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3079.md) | O(N\*D) | O(D) | ❌ 官方沒有解答 |
@@ -52,7 +51,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（6）
+## 🟢 熟悉（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -62,3 +61,4 @@
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 E | Math Digit Decomposition | [C++](../problems/0504.md) | O(log₇N) | O(1) | ❌ 官方沒有解答 |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 E | Math Digit Decomposition | [C++](../problems/1295.md) | O(n · d) | O(1) | ✅ 已同步官方解答 |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 E | Math Digit Decomposition | [C++](../problems/1742.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
+| 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 E | Math Digit Decomposition | [C++](../problems/2544.md) | O(logN) | O(logN) | ❌ 官方沒有解答 |
