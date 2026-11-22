@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（28）
+## 🔴 生疏（27）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,6 @@
 | 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 M | Math | [C++](../problems/1753.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 1780 | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/) | 🟡 M | Math | [C++](../problems/1780.md) | O(log₃N) | O(1) |  |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 E | Math | [C++](../problems/1925.md) | O(N²) | O(1) |  |
-| 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 M | Math, String | [C++](../problems/1980.md) | O(N²) | O(N) |  |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 E | Math | [C++](../problems/2119.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 M | Math, Enumeration | [C++](../problems/2310.md) | O(10) | O(1) | ❌ 官方沒有解答 |
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 E | Math, Array | [C++](../problems/2455.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -48,7 +47,7 @@
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Math | [C++](../problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（13）
+## 🟢 熟悉（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -62,6 +61,7 @@
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 E | Math | [C++](../problems/1295.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 M | Math | [C++](../problems/1344.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 E | Math | [C++](../problems/1374.md) | O(N) | O(N) | ❌ 官方沒有解答 |
+| 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 M | Math | [C++](../problems/1980.md) | O(N²) | O(N) | ✅ 已同步官方解答 |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 M | Math | [C++](../problems/2177.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 E | Math | [C++](../problems/2469.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Math | [C++](../problems/2485.md) | O(1) | O(1) | ✅ 已同步官方解答 |

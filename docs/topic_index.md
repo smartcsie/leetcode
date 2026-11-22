@@ -33,7 +33,7 @@
 | 1880 | 👑 **accumulate string lemma**<br>[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 E | Math Digit Decomposition, Math | [C++](problems/1880.md) | O(N) | O(1) |
 | 1925 | 👑 **Pythagorean triples**<br>[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 E | Math | [C++](problems/1925.md) | O(N²) | O(1) |
 | 1979 | 👑 **GCD**<br>[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 E | Math Gcd, GCD | [C++](problems/1979.md) | O(N) | O(1) |
-| 1980 | 👑 **Cantor's Diagonal Argument**<br>[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 M | Math, String | [C++](problems/1980.md) | O(N²) | O(N) |
+| 1980 | 👑 **Cantor's Diagonal Argument**<br>[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 M | Math | [C++](problems/1980.md) | O(N²) | O(N) |
 | 2119 | 👑 **Module**<br>[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 E | Math | [C++](problems/2119.md) | O(1) | O(1) |
 | 2413 | 👑 **lcm**<br>[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 E | Math Gcd | [C++](problems/2413.md) | O(1) | O(1) |
 | 2521 | 👑 **Prime Factorization**<br>[Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 M | Math Prime, Prime Factorization | [C++](problems/2521.md) | O(N\*sqrt(M)) | O(K) |
