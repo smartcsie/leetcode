@@ -10,14 +10,16 @@
  * 時間複雜度：O(N*D)
  * 空間複雜度：O(1)
  */
+
 class Solution {
 public:
-    int countDigitOccurrences(vector& nums, int digit) {
+    int countDigitOccurrences(vector<int>& nums, int digit) {
         int count = 0;
-        for(int& num : nums) {
-            while(num > 0) {
-                if(num % 10 == digit) count++;
-                num /= 10;
+        for(int& x : nums) {
+            int n = x;
+            while(n > 0) {
+                if(n % 10 == digit) count++;
+                n /= 10;
             }
         }
         return count;

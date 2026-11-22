@@ -5,18 +5,22 @@ solutions:
 - file: Solution_3895.cpp
   difficulty: 🟢 Easy
   tags:
-  - Digit Manipulation
+  - Math Digit Decomposition
   topics:
   - math-digit-decomposition
   time: O(N×D)
   space: O(1)
-  familiarity: 生疏
-  note: '> 檢查nums中每一位是否等於digit<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  note: '> **檢查nums中每一位是否等於digit**<br>'
   is_best: true
+  official_solution: no-solution
   tricks:
   - digit scan
   attempts:
   - date: '2026-09-14'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null

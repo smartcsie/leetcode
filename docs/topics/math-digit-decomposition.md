@@ -1,6 +1,6 @@
 # math-digit-decomposition
 
-## 🔴 生疏（34）
+## 🔴 生疏（33）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -32,7 +32,6 @@
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 E | Math Digit Decomposition, Digit Extraction | [C++](../problems/3726.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3754.md) | O(N) | O(1) |  |
 | 3783 | [Mirror Distance of an Integer](https://leetcode.com/problems/mirror-distance-of-an-integer/) | 🟢 E | Math Digit Decomposition, Simulation | [C++](../problems/3783.md) | O(log10(N)) | O(1) |  |
-| 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 E | Digit Manipulation | [C++](../problems/3895.md) | O(N×D) | O(1) | ❌ 官方沒有解答 |
 | 3908 | [Valid Digit Number](https://leetcode.com/problems/valid-digit-number/) | 🟢 E | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3908.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 3945 | [Digit Frequency Score](https://leetcode.com/problems/digit-frequency-score/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3945.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 3950 | [Exactly One Consecutive Set Bits Pair](https://leetcode.com/problems/exactly-one-consecutive-set-bits-pair/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3950.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
@@ -49,7 +48,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（9）
+## 🟢 熟悉（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -62,3 +61,4 @@
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 E | Math Digit Decomposition | [C++](../problems/2544.md) | O(logN) | O(logN) | ❌ 官方沒有解答 |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3340.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3550.md) | O(N \* D) | O(1) | ✅ 已同步官方解答 |
+| 3895 | [Count Digit Appearances](https://leetcode.com/problems/count-digit-appearances/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3895.md) | O(N×D) | O(1) | ❌ 官方沒有解答 |
