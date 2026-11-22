@@ -1,6 +1,6 @@
 # hash-table-counting
 
-## 🔴 生疏（18）
+## 🔴 生疏（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,7 +20,6 @@
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 E | Hash Table Counting | [C++](../problems/3289.md) | O(N) | O(1) |  |
 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 E | Hash Table Counting, Hash Map | [C++](../problems/3438.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 E | Hash Table Counting | [C++](../problems/3442.md) | O(N) | O(1) |  |
-| 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 E | Hash Table Counting, Hash Table | [C++](../problems/3843.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 M | String, Hash Map | [C++](../problems/3926.md) | O(N+M) | O(N) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（3）
@@ -38,7 +37,7 @@
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Counting | [C++](../problems/0049.md) | O(N\*K) | O(N\*K) | 🌟 優於官方解答 |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Hash Table Counting | [C++](../problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（7）
+## 🟢 熟悉（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,3 +48,4 @@
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 E | Hash Table Counting | [C++](../problems/2404.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 E | Hash Table Counting | [C++](../problems/3005.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 E | Hash Table Counting | [C++](../problems/3541.md) | O(N) | O(1) | 🌟 優於官方解答 |
+| 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 E | Hash Table Counting | [C++](../problems/3843.md) | O(N) | O(N) | ❌ 官方沒有解答 |
