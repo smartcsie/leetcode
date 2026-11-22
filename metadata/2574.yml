@@ -10,7 +10,8 @@ solutions:
   - array-prefix-sum
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: synced
   related:
   - 238
   attempts:
@@ -33,5 +34,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-15'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null

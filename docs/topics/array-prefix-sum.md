@@ -1,6 +1,6 @@
 # array-prefix-sum
 
-## 🔴 生疏（19）
+## 🔴 生疏（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,13 +20,14 @@
 | 1738 | [Find Kth Largest XOR Coordinate Value](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](../problems/1738.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](../problems/2256.md) | O(N) | O(1) |  |
 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](../problems/2559.md) | O(N+Q) | O(N) |  |
-| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 E | Array Prefix Sum | [C++](../problems/2574.md) | O(N) | O(1) |  |
 | 3364 | [Minimum Positive Sum Subarray](https://leetcode.com/problems/minimum-positive-sum-subarray/) | 🟢 E | Prefix Sum, Sliding Window, Multiset | [C++](../problems/3364.md) | O(NlogN) | O(N) | ❌ 官方沒有解答 |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | 🟢 E | Array Prefix Sum, Prefix Sum | [C++](../problems/3432.md) | O(N) | O(1) |  |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 E | Array Prefix Sum | [C++](../problems/2574.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（0）
 

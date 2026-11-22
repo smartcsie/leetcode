@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：786 題　🟠 再練習：29 題　🟣 易忘：21 題　🟢 熟練：161 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：785 題　🟠 再練習：30 題　🟣 易忘：21 題　🟢 熟練：161 題　⚪ 未標記：0 題
 
 ---
 
@@ -284,6 +284,7 @@
 | 🟠 再練習 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side) | 🟢 E | Array | [C++](problems/1299.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | 🟢 E | Array | [C++](problems/1470.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | 🟢 E | Array Linear Scan | [C++](problems/2089.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 E | Array Prefix Sum | [C++](problems/2574.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2643 | [Row With Maximum Ones](https://leetcode.com/problems/row-with-maximum-ones/) | 🟢 E | Array Linear Scan | [C++](problems/2643.md) | O(M\*N) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | 🟢 E | Array Negative Marking | [C++](problems/2965.md) | O(n²) | O(1) | 🌟 優於官方解答 |
 | 🟠 再練習 | 3417 | [Zigzag Grid Traversal With Skip](https://leetcode.com/problems/zigzag-grid-traversal-with-skip/) | 🟢 E | 2d Array | [C++](problems/3417.md) | O(M\*N) | O(M\*N) | ❌ 官方沒有解答 |
@@ -335,7 +336,6 @@
 | 🔴 生疏 | 2210 | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/) | 🟢 E | Array Continuous Counting | [C++](problems/2210.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2256 | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/2256.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2559 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges) | 🟡 M | Array Prefix Sum, Prefix Sum | [C++](problems/2559.md) | O(N+Q) | O(N) |  |
-| 🔴 生疏 | 2574 | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/) | 🟢 E | Array Prefix Sum | [C++](problems/2574.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2609 | [Find the Longest Balanced Substring](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/) | 🟢 E | Greedy, Two Counters | [C++](problems/2609.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2670 | [Find the Distinct Difference Array](https://leetcode.com/problems/find-the-distinct-difference-array/) | 🟢 E | Array Suffix Sum, Hash Set | [C++](problems/2670.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2824 | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/) | 🟢 E | Array, Two Pointers, Sorting | [C++](problems/2824.md) | O(N²) | O(1) | ❌ 官方沒有解答 |
@@ -1062,7 +1062,7 @@
 | [array-linear-scan](topics/array-linear-scan.md) | 9 | 2 | 0 | 13 | 0 | 24 |
 | [array-min-max](topics/array-min-max.md) | 1 | 1 | 0 | 6 | 0 | 8 |
 | [array-negative-marking](topics/array-negative-marking.md) | 2 | 1 | 1 | 3 | 0 | 7 |
-| [array-prefix-sum](topics/array-prefix-sum.md) | 18 | 0 | 0 | 1 | 0 | 19 |
+| [array-prefix-sum](topics/array-prefix-sum.md) | 17 | 1 | 0 | 1 | 0 | 19 |
 | [array-suffix-sum](topics/array-suffix-sum.md) | 1 | 0 | 0 | 1 | 0 | 2 |
 | [backtracking-combination](topics/backtracking-combination.md) | 17 | 0 | 0 | 0 | 0 | 17 |
 | [backtracking-constraint](topics/backtracking-constraint.md) | 3 | 0 | 0 | 0 | 0 | 3 |
