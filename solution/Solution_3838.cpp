@@ -17,13 +17,12 @@ class Solution {
 public:
     string mapWordWeights(vector<string>& words, vector<int>& weights) {
         string ans;
-        for(const string& word : words) {
+        ans.reserve(words.size());
+        for(const string&  word : words) {
             int sum = 0;
-            for(const char& c : word) {
-                sum += weights[c - 'a'];
-            }
-            char appendc = (26 - (sum % 26) - 1)+ 'a';
-            ans.push_back(appendc);
+            for(const char& c : word) sum += weights[c - 'a'];
+            char c = 'z' - (sum % 26);
+            ans.push_back(c);
         }
         return ans;
     }
