@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：765 題　🟠 再練習：33 題　🟣 易忘：21 題　🟢 熟練：178 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：764 題　🟠 再練習：34 題　🟣 易忘：21 題　🟢 熟練：178 題　⚪ 未標記：0 題
 
 ---
 
@@ -576,6 +576,7 @@
 | 🟠 再練習 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | Hash Table Uniqueness | [C++](problems/0884.md) | O(N+M) | O(N+M) | 🌟 優於官方解答 |
 | 🟠 再練習 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 E | Hash Table Existence | [C++](problems/1346.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 M | Hash Table Counting | [C++](problems/2225.md) | O(NlogN) | O(N) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 E | Hash Table Existence | [C++](problems/3678.md) | O(n + V) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 E | Hash Table Mapping | [C++](problems/3838.md) | O(N\*L) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 12 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman) | 🟡 M | Hash Table Mapping, Hash Table, String | [C++](problems/0012.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 13 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer) | 🟢 E | Hash Table Mapping, Hash Table, String | [C++](problems/0013.md) | O(N) | O(1) |  |
@@ -624,7 +625,6 @@
 | 🔴 生疏 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 M | Hash Table Uniqueness, Hash Set, Greedy | [C++](problems/3487.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 3541 | [Find Most Frequent Vowel and Consonant](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | 🟢 E | Hash Table Counting, Hash Table, Frequency Counting | [C++](problems/3541.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 E | Hash Table Counting, Hash Table, Frequency Counting | [C++](problems/3663.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 E | Hash Table Existence, Hash Set | [C++](problems/3678.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3843 | [First Element with Unique Frequency](https://leetcode.com/problems/first-element-with-unique-frequency/) | 🟢 E | Hash Table Counting, Hash Table | [C++](problems/3843.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 E | Hash Table Uniqueness, Hash Table | [C++](problems/3866.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 M | String, Hash Map | [C++](problems/3926.md) | O(N+M) | O(N) | ❌ 官方沒有解答 |
@@ -1101,7 +1101,7 @@
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 20 | 2 | 2 | 6 | 0 | 30 |
-| [hash-table-existence](topics/hash-table-existence.md) | 12 | 2 | 0 | 6 | 0 | 20 |
+| [hash-table-existence](topics/hash-table-existence.md) | 11 | 3 | 0 | 6 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 3 | 1 | 0 | 8 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 4 | 1 | 1 | 3 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 12 | 1 | 0 | 7 | 0 | 20 |

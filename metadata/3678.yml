@@ -6,12 +6,15 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Existence
-  - Hash Set
   topics:
   - hash-table-existence
-  time: O(N)
-  space: O(N)
-  familiarity: 生疏
+  time: O(n + V)
+  space: O(1)
+  familiarity: 再練習
+  note: '>**只需要檢查正數，所以bitset<102> seen;**<br>
+
+    >**答案有可能是101，所以for(int x = max(1, (sum/n) + 1); x <= 101;x++)**<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -19,4 +22,6 @@ solutions:
   - date: '2026-10-12'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null

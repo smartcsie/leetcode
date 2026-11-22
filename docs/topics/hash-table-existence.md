@@ -1,6 +1,6 @@
 # hash-table-existence
 
-## 🔴 生疏（12）
+## 🔴 生疏（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15,13 +15,13 @@
 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 E | Hash Table Existence | [C++](../problems/1640.md) | O(N) | O(N) |  |
 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 M | Hash Table Existence, Hash Table | [C++](../problems/2342.md) | O(N\*logM) | O(N) |  |
 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 E | Hash Table Existence, Hash Table | [C++](../problems/2395.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 E | Hash Table Existence, Hash Set | [C++](../problems/3678.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（1）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 E | Hash Table Existence | [C++](../problems/1346.md) | O(N) | O(N) | ✅ 已同步官方解答 |
+| 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 E | Hash Table Existence | [C++](../problems/3678.md) | O(n + V) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（0）
 
