@@ -10,14 +10,13 @@
 class Solution {
 public:
     string destCity(vector<vector<string>>& paths) {
-        unordered_map<string, string> s2d;
-        for(const vector<string>& path : paths ) {
-            s2d[path[0]] = path[1];
+        unordered_set<string> startCitys;
+        for(vector<string>& p : paths) {
+            startCitys.insert(p[0]);
         }
-        string city = paths[0][0];
-        while(s2d.count(city)) {
-            city = s2d[city];
+        for(vector<string>& p : paths) {
+            if(!startCitys.contains(p[1])) return p[1];
         }
-        return city;
+        return "";
     }
 };
