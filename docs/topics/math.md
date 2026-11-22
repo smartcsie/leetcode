@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（33）
+## 🔴 生疏（32）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12,7 +12,6 @@
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math | [C++](../problems/0343.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math | [C++](../problems/0343.md) | O(logn) | O(1) | ✅ 已同步官方解答 |
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | 🟡 M | Math, Array | [C++](../problems/0396.md) | O(N) | O(1) |  |
-| 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 E | Math, String | [C++](../problems/0415.md) | O(max(N,M)) | O(max(N,M)) |  |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 E | Math | [C++](../problems/0507.md) | O(√N) | O(1) |  |
 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 E | Math | [C++](../problems/0507.md) | O(1) | O(1) |  |
 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 M | Math, Hash Table | [C++](../problems/0970.md) | O(MN) | O(S) |  |
@@ -53,7 +52,7 @@
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Math | [C++](../problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -63,5 +62,6 @@
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 E | Math | [C++](../problems/0326.md) | O(log₃N) | O(1) | ✅ 已同步官方解答 |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 E | Math | [C++](../problems/0415.md) | O(max(N,M)) | O(max(N,M)) | ✅ 已同步官方解答 |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 E | Math | [C++](../problems/2469.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Math | [C++](../problems/2485.md) | O(1) | O(1) | ✅ 已同步官方解答 |
