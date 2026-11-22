@@ -6,13 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Counting
-  - Hash Table
-  - Math
   topics:
   - hash-table-counting
-  time: O(N)
-  space: O(N)
-  familiarity: 生疏
+  time: O(n + V)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  official_solution: better
   related:
   - 2001
   tricks:
@@ -33,6 +33,9 @@ solutions:
   - date: '2026-11-05'
     result: 對
     reason: null
+  - date: '2026-11-22'
+    result: 對
+    reason: null
 - file: Solution_1512_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -41,7 +44,9 @@ solutions:
   - array-linear-scan
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  official_solution: synced
   attempts:
   - date: '2026-10-07'
     result: 對
@@ -53,5 +58,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-05'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null

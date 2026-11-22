@@ -1,13 +1,12 @@
 # hash-table-counting
 
-## 🔴 生疏（21）
+## 🔴 生疏（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 748 | [Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/) | 🟢 E | Hash Table Counting | [C++](../problems/0748.md) | O(L + W) | O(1) | ❌ 官方沒有解答 |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 M | Hash Table Counting, Hash Table, Counting | [C++](../problems/0916.md) | O(N \* L) | O(1) |  |
 | 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 M | Hash Table Counting, Hash Table, Remainder Counting | [C++](../problems/1497.md) | O(N+K) | O(K) |  |
-| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 E | Hash Table Counting, Hash Table, Math | [C++](../problems/1512.md) | O(N) | O(N) |  |
 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 M | Hash Table Counting | [C++](../problems/1647.md) | O(N+KlogK) | O(K) |  |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 E | Hash Table Counting, Hash Table, Counting | [C++](../problems/1897.md) | O(N\*M) | O(1) |  |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 M | Hash Table Counting, Hash Table | [C++](../problems/2001.md) | O(N) | O(N) | ❌ 官方沒有解答 |
@@ -40,12 +39,13 @@
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Counting | [C++](../problems/0049.md) | O(N\*K) | O(N\*K) | 🌟 優於官方解答 |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Hash Table Counting | [C++](../problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 🟢 E | Hash Table Counting | [C++](../problems/0771.md) | O(J+S) | O(J) | 🌟 優於官方解答 |
 | 1002 | [Find Common Characters](https://leetcode.com/problems/find-common-characters) | 🟢 E | Hash Table Counting | [C++](../problems/1002.md) | O(N\*K) | O(1) | ✅ 已同步官方解答 |
 | 1394 | [Find Lucky Integer in an Array](https://leetcode.com/problems/find-lucky-integer-in-an-array) | 🟢 E | Hash Table Counting | [C++](../problems/1394.md) | O(N) | O(1) | 🌟 優於官方解答 |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 E | Hash Table Counting | [C++](../problems/1512.md) | O(n + V) | O(1) | 🌟 優於官方解答 |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 E | Hash Table Counting | [C++](../problems/2404.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 E | Hash Table Counting | [C++](../problems/3005.md) | O(N) | O(1) | 🌟 優於官方解答 |
