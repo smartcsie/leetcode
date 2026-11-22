@@ -10,8 +10,10 @@ solutions:
   - two-pointers-partition
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
   note: '> **in place的交換會破壞相對順序，此題無法in place完成**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-29'
     result: 對
@@ -20,5 +22,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-13'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null
