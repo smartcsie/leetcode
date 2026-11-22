@@ -16,19 +16,16 @@
 class Solution {
 public:
     int maxDifference(string s) {
-        vector<int> freq(26, 0);
-        int maxOdd = 0, minEven = INT_MAX;
-        for(char& c : s) {
-            freq[c - 'a']++;
+        array<uint8_t, 26> counts{};
+        int odd = 0 , even = 101;
+        for(const char& c : s) {
+            counts[c - 'a']++;
         }
         for(int i = 0; i < 26; i++) {
-            if(freq[i] == 0) continue;
-            if(freq[i] & 1) {
-                maxOdd = max(maxOdd, freq[i]);
-            } else {
-                minEven = min(minEven, freq[i]);
-            }
+            if(counts[i] == 0) continue;
+            if(counts[i] & 1) odd = max(odd, (int)counts[i]);
+            else even = min(even, (int)counts[i]);
         }
-        return maxOdd - minEven ;
+        return odd - even;
     }
 };

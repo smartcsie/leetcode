@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：760 題　🟠 再練習：35 題　🟣 易忘：21 題　🟢 熟練：181 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：759 題　🟠 再練習：36 題　🟣 易忘：21 題　🟢 熟練：181 題　⚪ 未標記：0 題
 
 ---
 
@@ -576,6 +576,7 @@
 | 🟠 再練習 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | Hash Table Uniqueness | [C++](problems/0884.md) | O(N+M) | O(N+M) | 🌟 優於官方解答 |
 | 🟠 再練習 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 E | Hash Table Existence | [C++](problems/1346.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 M | Hash Table Counting | [C++](problems/2225.md) | O(NlogN) | O(N) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 E | Hash Table Counting | [C++](problems/3442.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 E | Hash Table Counting | [C++](problems/3663.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 E | Hash Table Existence | [C++](problems/3678.md) | O(n + V) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/) | 🟢 E | Hash Table Mapping | [C++](problems/3838.md) | O(N\*L) | O(1) | ✅ 已同步官方解答 |
@@ -621,7 +622,6 @@
 | 🔴 生疏 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 E | Hash Table Uniqueness | [C++](problems/2784.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 E | Hash Table Counting | [C++](problems/3289.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 E | Hash Table Counting, Hash Map | [C++](problems/3438.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 E | Hash Table Counting | [C++](problems/3442.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 E | Hash Table Uniqueness | [C++](problems/3483.md) | O(N³) | O(U) |  |
 | 🔴 生疏 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 M | Hash Table Uniqueness, Hash Set, Greedy | [C++](problems/3487.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 M | String, Hash Map | [C++](problems/3926.md) | O(N+M) | O(N) | ❌ 官方沒有解答 |
@@ -1097,7 +1097,7 @@
 | [greedy-string-construction](topics/greedy-string-construction.md) | 6 | 1 | 0 | 0 | 0 | 7 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 2 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 17 | 3 | 2 | 8 | 0 | 30 |
+| [hash-table-counting](topics/hash-table-counting.md) | 16 | 4 | 2 | 8 | 0 | 30 |
 | [hash-table-existence](topics/hash-table-existence.md) | 11 | 3 | 0 | 6 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 3 | 1 | 0 | 8 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 4 | 1 | 1 | 3 | 0 | 9 |

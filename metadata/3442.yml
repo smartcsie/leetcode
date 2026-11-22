@@ -10,8 +10,9 @@ solutions:
   - hash-table-counting
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
   note: '> **用 max even frequency 減去 min even frequency**<br>'
+  official_solution: null
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -20,5 +21,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null

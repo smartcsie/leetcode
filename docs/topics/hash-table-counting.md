@@ -1,6 +1,6 @@
 # hash-table-counting
 
-## 🔴 生疏（17）
+## 🔴 生疏（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19,15 +19,15 @@
 | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 E | Hash Table Counting | [C++](../problems/2570.md) | O(N+M) | O(1) |  |
 | 3289 | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | 🟢 E | Hash Table Counting | [C++](../problems/3289.md) | O(N) | O(1) |  |
 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 E | Hash Table Counting, Hash Map | [C++](../problems/3438.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 E | Hash Table Counting | [C++](../problems/3442.md) | O(N) | O(1) |  |
 | 3926 | [Count Valid Word Occurrences](https://leetcode.com/problems/count-valid-word-occurrences/) | 🟡 M | String, Hash Map | [C++](../problems/3926.md) | O(N+M) | O(N) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（3）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 E | Hash Table Counting | [C++](../problems/0819.md) | O(M+N) | O(M+N) |  |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 M | Hash Table Counting | [C++](../problems/2225.md) | O(NlogN) | O(N) | ✅ 已同步官方解答 |
+| 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 E | Hash Table Counting | [C++](../problems/3442.md) | O(N) | O(1) |  |
 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 E | Hash Table Counting | [C++](../problems/3663.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（2）
