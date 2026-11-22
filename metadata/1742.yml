@@ -6,17 +6,19 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Digit Decomposition
-  - Simulation
-  - Hash Table
   topics:
   - math-digit-decomposition
   time: O(N*D)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  official_solution: no-solution
   tricks:
   - frequency count
   attempts:
   - date: '2026-09-16'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null

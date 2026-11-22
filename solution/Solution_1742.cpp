@@ -20,18 +20,18 @@
 class Solution {
 public:
     int countBalls(int lowLimit, int highLimit) {
-        int ans = 0;
-        vector<int> counts(46, 0);
+        array<int, 46> boxes{};
+        int mx = 0;
         for(int x = lowLimit; x <= highLimit; x++) {
-            int d = 0;
             int y = x;
+            int num = 0;
             while(y > 0) {
-                d += y % 10;
+                num += y % 10;
                 y /= 10;
             }
-            counts[d]++;
-            ans = max(ans, counts[d]);
+            boxes[num]++;
+            mx = max(mx, boxes[num]);
         }
-        return ans;
+        return mx;
     }
 };

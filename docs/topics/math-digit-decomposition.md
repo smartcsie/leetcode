@@ -1,6 +1,6 @@
 # math-digit-decomposition
 
-## 🔴 生疏（38）
+## 🔴 生疏（37）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 E | Math Digit Decomposition, Simulation | [C++](../problems/1317.md) | O(N\*logN) | O(1) |  |
 | 1399 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/) | 🟢 E | Math Digit Decomposition, Digit Manipulation, Counting | [C++](../problems/1399.md) | O(N \* D) | O(1) |  |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 M | Bit Manipulation | [C++](../problems/1404.md) | O(N) | O(1) |  |
-| 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 E | Math Digit Decomposition, Simulation, Hash Table | [C++](../problems/1742.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 E | Math Digit Decomposition | [C++](../problems/1837.md) | O(logₖN) | O(1) | ❌ 官方沒有解答 |
 | 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 E | Math Digit Decomposition, Math | [C++](../problems/1880.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 E | Math Digit Decomposition | [C++](../problems/2160.md) | O(1) | O(1) | ❌ 官方沒有解答 |
@@ -53,7 +52,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（5）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -62,3 +61,4 @@
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0405.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 E | Math Digit Decomposition | [C++](../problems/0504.md) | O(log₇N) | O(1) | ❌ 官方沒有解答 |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 E | Math Digit Decomposition | [C++](../problems/1295.md) | O(n · d) | O(1) | ✅ 已同步官方解答 |
+| 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 E | Math Digit Decomposition | [C++](../problems/1742.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
