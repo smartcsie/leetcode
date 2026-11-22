@@ -1,6 +1,6 @@
 # string-character-classification
 
-## 🔴 生疏（7）
+## 🔴 生疏（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/1957.md) | O(N) | O(N) |  |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 E | String Character Classification, Simulation | [C++](../problems/2185.md) | O(N\*M) | O(1) |  |
 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 E | String Character Classification | [C++](../problems/2255.md) | O(N\*M) | O(1) | ❌ 官方沒有解答 |
-| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 E | String Character Classification | [C++](../problems/3110.md) | O(N) | O(1) |  |
 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 E | String Character Classification, Validation | [C++](../problems/3136.md) | O(N) | O(1) |  |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | ❌ 官方沒有解答 |
 
@@ -24,7 +23,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（20）
+## 🟢 熟悉（21）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -44,6 +43,7 @@
 | 2678 | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens) | 🟢 E | String Character Classification | [C++](../problems/2678.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 2710 | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 E | String Character Classification | [C++](../problems/2710.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2839 | [Check if Strings Can be Made Equal With Operations I](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/) | 🟢 E | String Character Classification | [C++](../problems/2839.md) | O(1) | O(1) | 🌟 優於官方解答 |
+| 3110 | [Score of a String](https://leetcode.com/problems/score-of-a-string) | 🟢 E | String Character Classification | [C++](../problems/3110.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 3798 | [Largest Even Number](https://leetcode.com/problems/largest-even-number/) | 🟢 E | String Character Classification | [C++](../problems/3798.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3813 | [Vowel-Consonant Score](https://leetcode.com/problems/vowel-consonant-score/) | 🟢 E | String Character Classification | [C++](../problems/3813.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3856 | [Trim Trailing Vowels](https://leetcode.com/problems/trim-trailing-vowels/) | 🟢 E | String Character Classification | [C++](../problems/3856.md) | O(N) | O(1) | ❌ 官方沒有解答 |
