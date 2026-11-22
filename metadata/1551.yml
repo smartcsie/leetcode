@@ -10,13 +10,18 @@ solutions:
   - greedy
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
   note: '> **n分別減去前面n/2個之和**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-10-29'
     result: 對
     reason: null
   - date: '2026-11-09'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null
 - file: Solution_1551_1.cpp
@@ -27,7 +32,7 @@ solutions:
   - math-formula
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **n分別減去前面n/2個之和**<br>
 
     > **n是odd，(n^2-1)/4**<br>
@@ -41,10 +46,14 @@ solutions:
     > **假設n=5，數列為1 3 5 7 9，結果為4 + 2 = 6**<br>
 
     > **推導 (n-1)+(n-3) = [((n - 1) + 2) * (n - 1)/2] /2**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-10-29'
     result: 對
     reason: null
   - date: '2026-11-09'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null

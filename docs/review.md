@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：802 題　🟠 再練習：28 題　🟣 易忘：20 題　🟢 熟練：147 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：801 題　🟠 再練習：28 題　🟣 易忘：21 題　🟢 熟練：147 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 923 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 922 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（129）](#review-math)　[📊 Bit Manipulation（65）](#review-bit-manipulation)　[🔗 String（44）](#review-string)　[🍱 Array（72）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（66）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（129）](#review-math)　[📊 Bit Manipulation（65）](#review-bit-manipulation)　[🔗 String（44）](#review-string)　[🍱 Array（72）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（66）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -87,7 +87,6 @@
 | 🔴 生疏 | 1399 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/) | 🟢 E | Math Digit Decomposition, Digit Manipulation, Counting | [C++](problems/1399.md) | O(N \* D) | O(1) |  |
 | 🔴 生疏 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 M | Bit Manipulation | [C++](problems/1404.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1492 | [The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 M | Math Factor Enumeration | [C++](problems/1492.md) | O(√N) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 M | Math Formula | [C++](problems/1551.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 E | Math Combination, Math (Contribution) | [C++](problems/1588.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 E | Math Digit Decomposition, Simulation, Hash Table | [C++](problems/1742.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 M | Math | [C++](problems/1753.md) | O(1) | O(1) | ❌ 官方沒有解答 |
@@ -162,6 +161,7 @@
 | 🟣 易忘 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 E | Math | [C++](problems/0326.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 🟣 易忘 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 M | Math Formula | [C++](problems/1551.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Math | [C++](problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-bit-manipulation"></a>
@@ -902,7 +902,7 @@
 | 🔴 生疏 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 M | Dp Lis, Dynamic Programming Lis, Longest Non-Decreasing Subsequence | [C++](problems/2826.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 <a id="review-greedy"></a>
-#### 🧩 Greedy（84）
+#### 🧩 Greedy（83）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -951,7 +951,6 @@
 | 🔴 生疏 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 M | Greedy Priority Queue | [C++](problems/1405.md) | O((a+b+c) log 3) | O(1) |  |
 | 🔴 生疏 | 1529 | [Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips/) | 🟡 M | Greedy Prefix Suffix | [C++](problems/1529.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1531 | [String Compression II](https://leetcode.com/problems/string-compression-ii/) | 🔴 H | Greedy Optimal Partitioning | [C++](problems/1531.md) | O(N² \* K) | O(N \* K) |  |
-| 🔴 生疏 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 M | Greedy | [C++](problems/1551.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1576 | [Replace All ?'s](https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/) | 🟢 E | Greedy String Construction | [C++](problems/1576.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1624 | [Largest Substring Between Two Equal Characters](https://leetcode.com/problems/largest-substring-between-two-equal-characters/) | 🟢 E | Greedy | [C++](problems/1624.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1631 | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | 🟡 M | Greedy Graph | [C++](problems/1631.md) | O(M\*N log(M\*N)) | O(M\*N) |  |
@@ -1119,7 +1118,7 @@
 | [graph-dfs](topics/graph-dfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [graph-mst](topics/graph-mst.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [graph-shortest-path](topics/graph-shortest-path.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [greedy](topics/greedy.md) | 18 | 0 | 0 | 1 | 0 | 19 |
+| [greedy](topics/greedy.md) | 17 | 0 | 1 | 1 | 0 | 19 |
 | [greedy-coin-change](topics/greedy-coin-change.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [greedy-digit-construction](topics/greedy-digit-construction.md) | 9 | 0 | 0 | 0 | 0 | 9 |
 | [greedy-fractional-knapsack](topics/greedy-fractional-knapsack.md) | 4 | 0 | 0 | 0 | 0 | 4 |
@@ -1147,7 +1146,7 @@
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 38 | 1 | 0 | 4 | 0 | 43 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
-| [math-formula](topics/math-formula.md) | 9 | 0 | 0 | 1 | 0 | 10 |
+| [math-formula](topics/math-formula.md) | 8 | 0 | 1 | 1 | 0 | 10 |
 | [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 8 | 0 | 0 | 1 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 1 | 0 | 2 |
