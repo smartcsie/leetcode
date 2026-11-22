@@ -1,6 +1,6 @@
 # hash-table-uniqueness
 
-## 🔴 生疏（12）
+## 🔴 生疏（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,6 @@
 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 E | Hash Table Uniqueness | [C++](../problems/2784.md) | O(N) | O(N) |  |
 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/3483.md) | O(N³) | O(U) |  |
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 M | Hash Table Uniqueness, Hash Set, Greedy | [C++](../problems/3487.md) | O(N) | O(N) |  |
-| 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 E | Hash Table Uniqueness, Hash Table | [C++](../problems/3866.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（1）
 
@@ -27,7 +26,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（11）
+## 🟢 熟悉（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -42,3 +41,4 @@
 | 1748 | [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements) | 🟢 E | Hash Table Uniqueness | [C++](../problems/1748.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1790 | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/1790.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 E | Hash Table Uniqueness | [C++](../problems/1941.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/3866.md) | O(N) | O(1) | ❌ 官方沒有解答 |

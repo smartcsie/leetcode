@@ -14,13 +14,13 @@
 class Solution {
 public:
     int firstUniqueEven(vector<int>& nums) {
-        int seen[101] = {0};
-        for(const int& num : nums) {
-            if((num & 1) == 0) seen[num]++;
+        array<uint8_t, 51> counts{};
+        for(const int& x : nums) {
+            if(!(x & 1)) counts[x / 2]++;
         }
-        for(const int& num : nums) {
-            if(seen[num] == 1) return num;
-        } 
+        for(const int& x : nums) {
+            if(!(x & 1) && counts[x / 2] == 1) return x;
+        }
         return -1;
     }
 };
