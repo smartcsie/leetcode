@@ -1,13 +1,12 @@
 # math-prime
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 M | Math Prime | [C++](../problems/0204.md) | O(NloglogN) | O(N) | ✅ 已同步官方解答 |
 | 762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 E | Math Prime | [C++](../problems/0762.md) | O(NlogK) | O(1) | ❌ 官方沒有解答 |
 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 M | Math Prime | [C++](../problems/0866.md) | O(sqrt(10^9)) | O(1) | 🌟 優於官方解答 |
-| 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 E | Math Prime | [C++](../problems/1952.md) | O(√N) | O(1) | ❌ 官方沒有解答 |
 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 M | Math Prime, Prime Factorization | [C++](../problems/2521.md) | O(N\*sqrt(M)) | O(K) | ❌ 官方沒有解答 |
 | 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | 🟡 M | Math Prime | [C++](../problems/2523.md) | O(NloglogN) | O(N) |  |
 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 E | Math Prime, Trial Division | [C++](../problems/2614.md) | O(N\*sqrt(M)) | O(1) | ❌ 官方沒有解答 |
@@ -27,6 +26,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 E | Math Prime | [C++](../problems/1952.md) | O(√N) | O(1) | ❌ 官方沒有解答 |

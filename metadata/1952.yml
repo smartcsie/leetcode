@@ -10,10 +10,16 @@ solutions:
   - math-prime
   time: O(√N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
   note: '> **一個整數n若恰好有三個正因數，這個數字必然是一個「質數的平方」。**<br>
 
-    > **三個正因數為1 p n，p*p=n且p為prime**<br>'
+    > **三個正因數為1,root,n，root*root=n且root為prime**<br>
+
+    > **root*root=n是檢查root是一個因數**<br>
+
+    > **root為prime檢查root沒有其他因數**<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -21,4 +27,6 @@ solutions:
   - date: '2026-10-08'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null

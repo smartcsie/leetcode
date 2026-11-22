@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：800 題　🟠 再練習：28 題　🟣 易忘：21 題　🟢 熟練：148 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：799 題　🟠 再練習：28 題　🟣 易忘：21 題　🟢 熟練：149 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 921 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 920 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（128）](#review-math)　[📊 Bit Manipulation（65）](#review-bit-manipulation)　[🔗 String（44）](#review-string)　[🍱 Array（72）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（66）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（127）](#review-math)　[📊 Bit Manipulation（65）](#review-bit-manipulation)　[🔗 String（44）](#review-string)　[🍱 Array（72）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（66）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -30,7 +30,7 @@
 | 🔴 生疏 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 E | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) |  |
 
 <a id="review-math"></a>
-#### 🔢 Math（128）
+#### 🔢 Math（127）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -94,7 +94,6 @@
 | 🔴 生疏 | 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 E | Math Digit Decomposition, Math | [C++](problems/1880.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 E | Math | [C++](problems/1925.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 M | Math Game Theory, Game Theory | [C++](problems/1927.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 1952 | [Three Divisors](https://leetcode.com/problems/three-divisors) | 🟢 E | Math Prime | [C++](problems/1952.md) | O(√N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 E | Math Gcd, GCD | [C++](problems/1979.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 M | Math, String | [C++](problems/1980.md) | O(N²) | O(N) |  |
 | 🔴 生疏 | 2063 | [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) | 🟡 M | Math Combination | [C++](problems/2063.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -1151,7 +1150,7 @@
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 1 | 0 | 2 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [math-prime](topics/math-prime.md) | 14 | 0 | 0 | 0 | 0 | 14 |
+| [math-prime](topics/math-prime.md) | 13 | 0 | 0 | 1 | 0 | 14 |
 | [math-simulation](topics/math-simulation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 8 | 0 | 0 | 0 | 0 | 8 |
