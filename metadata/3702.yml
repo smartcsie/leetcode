@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Bit Manipulation Xor
-  - Greedy
   topics:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
   note: '> **三種case**<br>
 
     > **case 1 : nums 全為 0，回傳 0**<br>
@@ -21,6 +21,7 @@ solutions:
     > **case 3 : nums 全部 xor 的結果為 0，拿掉一個元素即可，回傳 nums.size() - 1**<br>
 
     > **case 2到case 3 是因為拿掉一個元素就不會為0了**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-18'
     result: 對
@@ -29,5 +30,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-07'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null

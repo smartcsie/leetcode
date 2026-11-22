@@ -21,13 +21,8 @@ class Solution {
 public:
     int longestSubsequence(std::vector<int>& nums) {
         int n = nums.size();
-        int count = 0;
-        int xorVal = 0;
-        for(const int& x : nums) {
-            if(x == 0) count++;
-            xorVal ^= x;
-        }
-        if(count == n) return 0;
-        return (xorVal == 0) ? n - 1: n;
+        if(count(nums.begin(), nums.end(), 0) == n) return 0;
+        int xorVal= accumulate(nums.begin(), nums.end(), 0, bit_xor<>());
+        return xorVal == 0 ? (n - 1) : n;
     }
 };
