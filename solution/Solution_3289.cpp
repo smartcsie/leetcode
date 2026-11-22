@@ -12,13 +12,13 @@
 
 class Solution {
 public:
-    std::vector<int> getSneakyNumbers(std::vector<int>& nums) {
-        vector<int> counts(101);
-        vector<int> ans;
+    vector<int> getSneakyNumbers(vector<int>& nums) {
+        array<uint8_t, 101> counts{};
         for(const int& x : nums) counts[x]++;
-        for(int i =0; i <= 100; i++) {
-            if(counts[i] > 1) ans.push_back(i);
+        vector<int> ans;
+        for(int i = 0; i <= 100; i++) {
+            if(counts[i] == 2) ans.push_back(i);
         }
-        return ans;    
+        return ans;
     }
 };
