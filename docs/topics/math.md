@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（31）
+## 🔴 生疏（30）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19,7 +19,6 @@
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 E | Math | [C++](../problems/1018.md) | O(N) | O(1) |  |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 E | Math | [C++](../problems/1185.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 E | Math | [C++](../problems/1185.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 M | Math | [C++](../problems/1344.md) | O(1) | O(1) |  |
 | 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 E | Math, Construction | [C++](../problems/1374.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1375 | [Number of Times Binary String Is Prefix-Aligned](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) | 🟡 M | Math, Simulation, Greedy | [C++](../problems/1375.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 1753 | [Maximum Score From Removing Stones](https://leetcode.com/problems/maximum-score-from-removing-stones/) | 🟡 M | Math | [C++](../problems/1753.md) | O(1) | O(1) | ❌ 官方沒有解答 |
@@ -51,7 +50,7 @@
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Math | [C++](../problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（10）
+## 🟢 熟悉（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -63,5 +62,6 @@
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 415 | [Add Strings](https://leetcode.com/problems/add-strings) | 🟢 E | Math | [C++](../problems/0415.md) | O(max(N,M)) | O(max(N,M)) | ✅ 已同步官方解答 |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 E | Math | [C++](../problems/1295.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 M | Math | [C++](../problems/1344.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 E | Math | [C++](../problems/2469.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2485 | [Find the Pivot Integer](https://leetcode.com/problems/pivot-integer/) | 🟢 E | Math | [C++](../problems/2485.md) | O(1) | O(1) | ✅ 已同步官方解答 |
