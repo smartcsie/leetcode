@@ -156,7 +156,7 @@
 | 2068 | 👑 **array int8_t**<br>[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 E | Hash Table Intersection | [C++](problems/2068.md) | O(N) | O(1) |
 | 2352 | 👑 **iterator find**<br>[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 M | Hash Table Intersection, Hash Map, Matrix Simulation | [C++](problems/2352.md) | O(N³logN) | O(N²) |
 | 2404 | 👑 **Running Maximum With Reset**<br>[Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 E | Hash Table Counting | [C++](problems/2404.md) | O(N) | O(N) |
-| 3663 | 👑 **Minimal Frequency**<br>[Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 E | Hash Table Counting, Hash Table, Frequency Counting | [C++](problems/3663.md) | O(logN) | O(1) |
+| 3663 | 👑 **Minimal Frequency**<br>[Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 E | Hash Table Counting | [C++](problems/3663.md) | O(logN) | O(1) |
 
 ---
 

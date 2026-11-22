@@ -14,20 +14,18 @@
 class Solution {
 public:
     int getLeastFrequentDigit(int n) {
-        vector<int> counts(10, 0);
-        int mn = INT_MAX;
-        int ans;
+        array<uint8_t, 10> counts{};
         while(n > 0) {
-            int d = n % 10;
-            counts[d]++;
+            counts[n % 10]++;
             n /= 10;
         }
-        for(int i = 0; i <= 9; i++) {
-            if(counts[i] && counts[i] < mn) {
+        int mn = INT_MAX;
+        int ans;
+        for(int i = 0; i <= 9; i++) 
+            if(counts[i] > 0 && counts[i] < mn) {
                 mn = counts[i];
                 ans = i;
             }
-        }
         return ans;
     }
 };

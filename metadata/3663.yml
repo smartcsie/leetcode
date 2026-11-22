@@ -6,13 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Counting
-  - Hash Table
-  - Frequency Counting
   topics:
   - hash-table-counting
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: no-solution
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -23,6 +22,8 @@ solutions:
   - date: '2026-10-05'
     result: 對
     reason: null
+  - date: '2026-11-22'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Minimal Frequency
-  official_solution: no-solution
