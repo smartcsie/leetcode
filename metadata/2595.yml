@@ -11,12 +11,13 @@ solutions:
   time: O(logN)
   space: O(1)
   familiarity: 生疏
-  note: '> [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits)<br>
-
-    > for(int i = 0; n > 0; n >>= 1, i ^= 1) res[i] += (n & 1);<br>'
+  note: '> **for(int i = 0; n > 0; n >>= 1, i ^= 1) res[i] += (n & 1);**<br>'
   is_best: true
+  official_solution: no-solution
   attempts:
   - date: '2026-09-19'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null
