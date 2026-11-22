@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：811 題　🟠 再練習：28 題　🟣 易忘：20 題　🟢 熟練：138 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：810 題　🟠 再練習：28 題　🟣 易忘：20 題　🟢 熟練：139 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 932 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 931 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（138）](#review-math)　[📊 Bit Manipulation（65）](#review-bit-manipulation)　[🔗 String（44）](#review-string)　[🍱 Array（72）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（66）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（137）](#review-math)　[📊 Bit Manipulation（65）](#review-bit-manipulation)　[🔗 String（44）](#review-string)　[🍱 Array（72）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（66）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（84）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -30,7 +30,7 @@
 | 🔴 生疏 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 E | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) |  |
 
 <a id="review-math"></a>
-#### 🔢 Math（138）
+#### 🔢 Math（137）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -46,7 +46,6 @@
 | 🔴 生疏 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | 🟢 E | Math | [C++](problems/0067.md) | O(max(M,N)) | O(1) |  |
 | 🔴 生疏 | 89 | [Gray Code](https://leetcode.com/problems/gray-code/) | 🟡 M | Math Formula | [C++](problems/0089.md) | O(2ᴺ) | O(1) |  |
 | 🔴 生疏 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 E | Math Combination | [C++](problems/0119.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 E | Math Digit Decomposition, Base Conversion | [C++](problems/0171.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 M | Math Formula | [C++](problems/0172.md) | O(log₅N) | O(1) |  |
 | 🔴 生疏 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Math | [C++](problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 M | Math Prime | [C++](problems/0204.md) | O(NloglogN) | O(N) | ✅ 已同步官方解答 |
@@ -1154,7 +1153,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 31 | 0 | 6 | 2 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 41 | 1 | 0 | 0 | 0 | 42 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 40 | 1 | 0 | 1 | 0 | 42 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [math-game-theory](topics/math-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 6 |

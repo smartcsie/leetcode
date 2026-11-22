@@ -6,15 +6,41 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Digit Decomposition
-  - Base Conversion
   topics:
   - math-digit-decomposition
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  official_solution: synced
   tricks:
   - accumulate char
   attempts:
   - date: '2026-09-17'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
+    result: 對
+    reason: null
+- file: Solution_0171_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math Digit Decomposition
+  topics:
+  - math-digit-decomposition
+  time: O(n)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  is_best: true
+  official_solution: synced
+  attempts:
+  - date: '2026-11-22'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null
