@@ -6,16 +6,19 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Digit Decomposition
-  - String
   topics:
   - math-digit-decomposition
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
   note: '> **sum += (i % 2 == 0) ? num[i] - ''0'' : -(num[i] - ''0'');也可以**<br>'
   is_best: true
+  official_solution: no-solution
   attempts:
   - date: '2026-09-14'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null
