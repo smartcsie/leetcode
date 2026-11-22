@@ -17,6 +17,11 @@
 class Solution {
 public:
     int gcdOfOddEvenSums(int n) {
+        /*
+        oddSum =  [1 + (2 * n - 1)] * n / 2 = (2n^2)/ 2 = n^2
+        evenSum = [2 + (2 * n)] * n / 2 = (2n^2 + 2*n)/ 2 = n^2 + n
+        gcd(n^2, n^2 + n) = gcd(n^2, n) = n
+        */
         return n;
     }
 };
