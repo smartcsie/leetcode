@@ -13,21 +13,21 @@
 
 class Solution {
 private:
-    bool isPrime(int n){
+    bool isPrime(int n) {
         if(n < 2) return false;
         if(n == 2 || n == 3) return true;
-        if(n % 2 == 0 || n % 3 == 0) return false; 
-        for(int i = 5; i * i <= n; i += 6) {
-            if(n % i == 0 || n % (i + 2) == 0) return false;
+        if(n % 2 == 0 || n % 3 == 0) return false;
+        for(int p = 5; p * p <= n; p += 6) {
+            if(n % p == 0 || n % (p + 2) == 0) return false;
         }
         return true;
     }
 public:
     bool checkPrimeFrequency(vector<int>& nums) {
-        vector<int> counts(101);
+        array<uint8_t, 101> counts{};
         for(const int& x : nums) counts[x]++;
-        for(int i = 0; i <= 100; i++) {
-            if(counts[i] && isPrime(counts[i])) return true;
+        for(int x = 0; x <=100; x++) {
+            if(isPrime(counts[x])) return true;
         }
         return false;
     }
