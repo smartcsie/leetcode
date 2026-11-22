@@ -1,6 +1,6 @@
 # math-digit-decomposition
 
-## 🔴 生疏（35）
+## 🔴 生疏（34）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27,7 +27,6 @@
 | 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 E | Math Digit Decomposition, Simulation | [C++](../problems/3300.md) | O(N\*logM) | O(1) |  |
 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 E | Math Digit Decomposition, Brute Force, Digit Manipulation | [C++](../problems/3345.md) | O(K×D) | O(1) |  |
 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 E | Math Digit Decomposition, Simulation, Digit Manipulation | [C++](../problems/3461.md) | O(N²) | O(N) |  |
-| 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3550.md) | O(N \* D) | O(1) |  |
 | 3622 | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | 🟢 E | Math Digit Decomposition, Digit Manipulation | [C++](../problems/3622.md) | O(logN) | O(1) |  |
 | 3697 | [Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3697.md) | O(logN) | [Note](#3697-compute-decimal-representation) | ❌ 官方沒有解答 |
 | 3726 | [Remove Zeros in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation) | 🟢 E | Math Digit Decomposition, Digit Extraction | [C++](../problems/3726.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
@@ -50,7 +49,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -62,3 +61,4 @@
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 E | Math Digit Decomposition | [C++](../problems/1742.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 E | Math Digit Decomposition | [C++](../problems/2544.md) | O(logN) | O(logN) | ❌ 官方沒有解答 |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3340.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3550.md) | O(N \* D) | O(1) | ✅ 已同步官方解答 |

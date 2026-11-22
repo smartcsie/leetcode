@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：793 題　🟠 再練習：28 題　🟣 易忘：21 題　🟢 熟練：155 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：792 題　🟠 再練習：28 題　🟣 易忘：21 題　🟢 熟練：156 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 914 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 913 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（121）](#review-math)　[📊 Bit Manipulation（65）](#review-bit-manipulation)　[🔗 String（44）](#review-string)　[🍱 Array（72）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（66）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（120）](#review-math)　[📊 Bit Manipulation（65）](#review-bit-manipulation)　[🔗 String（44）](#review-string)　[🍱 Array（72）](#review-array)　[🌳 Tree（91）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（66）](#review-pointers)　[🔑 Hash Table（63）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -30,7 +30,7 @@
 | 🔴 生疏 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 E | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) |  |
 
 <a id="review-math"></a>
-#### 🔢 Math（121）
+#### 🔢 Math（120）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -127,7 +127,6 @@
 | 🔴 生疏 | 3300 | [Minimum Element After Replacement With Digit Sum](https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/) | 🟢 E | Math Digit Decomposition, Simulation | [C++](problems/3300.md) | O(N\*logM) | O(1) |  |
 | 🔴 生疏 | 3345 | [Smallest Divisible Digit Product I](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | 🟢 E | Math Digit Decomposition, Brute Force, Digit Manipulation | [C++](problems/3345.md) | O(K×D) | O(1) |  |
 | 🔴 生疏 | 3461 | [Check If Digits Are Equal in String After Operations I](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | 🟢 E | Math Digit Decomposition, Simulation, Digit Manipulation | [C++](problems/3461.md) | O(N²) | O(N) |  |
-| 🔴 生疏 | 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 E | Math Digit Decomposition | [C++](problems/3550.md) | O(N \* D) | O(1) |  |
 | 🔴 生疏 | 3556 | [Sum of Largest Prime Substrings](https://leetcode.com/problems/sum-of-largest-prime-substrings/) | 🟡 M | Math Prime | [C++](problems/3556.md) | O(N²\*sqrt(M)) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3591 | [Check if Any Element Has Prime Frequency](https://leetcode.com/problems/check-if-any-element-has-prime-frequency/) | 🟢 E | Math Prime, Hash Table | [C++](problems/3591.md) | O(N+KloglogK) | O(K) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3618 | [Split Array by Prime Indices](https://leetcode.com/problems/split-array-by-prime-indices/) | 🟢 E | Math Prime, Sieve | [C++](problems/3618.md) | O(N+RloglogR) | O(R) | ❌ 官方沒有解答 |
@@ -1136,7 +1135,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 24 | 0 | 6 | 9 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 35 | 1 | 0 | 7 | 0 | 43 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 34 | 1 | 0 | 8 | 0 | 43 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 8 | 0 | 1 | 1 | 0 | 10 |
 | [math-game-theory](topics/math-game-theory.md) | 5 | 0 | 0 | 1 | 0 | 6 |
