@@ -10,10 +10,12 @@ solutions:
   - string
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
   note: '> **string res(s.size(), '' '');** <br>
 
     > **for(int i = 0 ; i < s.size(); i++) res[indices[i]] = s[i];** <br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-26'
     result: 對
@@ -27,4 +29,6 @@ solutions:
   - date: '2026-09-26'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null
