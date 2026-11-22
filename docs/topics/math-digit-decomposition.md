@@ -53,7 +53,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -61,3 +61,4 @@
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0171.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0405.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 E | Math Digit Decomposition | [C++](../problems/0504.md) | O(log₇N) | O(1) | ❌ 官方沒有解答 |
+| 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 E | Math Digit Decomposition | [C++](../problems/1295.md) | O(n · d) | O(1) | ✅ 已同步官方解答 |

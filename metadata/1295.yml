@@ -10,8 +10,10 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
   note: '> **取10進制位數，static_cast<int>(log10(x)) + 1**<br>'
+  official_solution: synced
   tricks:
   - number digits
   - log10
@@ -19,5 +21,23 @@ solutions:
   - date: '2026-09-20'
     result: 對
     reason: null
+  - date: '2026-11-22'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: number digits
+- file: Solution_1295_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math Digit Decomposition
+  topics:
+  - math-digit-decomposition
+  time: O(n · d)
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  official_solution: synced
+  attempts:
+  - date: '2026-11-22'
+    result: 對
+    reason: null
