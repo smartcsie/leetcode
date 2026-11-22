@@ -10,12 +10,16 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
-  note: '> 用sum把十進制每個digit相加，最後return sum<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  note: '> **用sum把十進制每個digit相加，最後return sum**<br>'
+  official_solution: no-solution
   tricks:
   - digit sum
   attempts:
   - date: '2026-09-14'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null
