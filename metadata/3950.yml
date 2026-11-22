@@ -10,14 +10,18 @@ solutions:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
-  note: '> 如果 (n & 3) == 3，count++，如果count > 1  return false，n >>= 1，迴圈出來，return count
-    == 1<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  note: '> **如果 (n & 3) == 3，count++，如果count > 1  return false，n >>= 1，迴圈出來，return
+    count == 1**<br>'
   is_best: true
+  official_solution: no-solution
   tricks:
   - shift
   attempts:
   - date: '2026-09-14'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null
