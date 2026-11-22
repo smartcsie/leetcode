@@ -10,7 +10,8 @@ solutions:
   - bit-manipulation
   time: O(N*L)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
   official_solution: no-solution
   tricks:
   - bitaset
@@ -19,5 +20,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-20'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null
