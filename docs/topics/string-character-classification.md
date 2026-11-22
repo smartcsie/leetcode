@@ -1,10 +1,9 @@
 # string-character-classification
 
-## 🔴 生疏（9）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 M | String Character Classification, Hash Table, Counting | [C++](../problems/1347.md) | O(N) | O(1) |  |
 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 E | String Character Classification | [C++](../problems/1455.md) | O(N) | O(W) |  |
 | 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 E | String Character Classification, Stream | [C++](../problems/1935.md) | O(N\*M) | O(1) |  |
 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/1957.md) | O(N) | O(N) |  |
@@ -26,12 +25,13 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（18）
+## 🟢 熟悉（19）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | 🟢 E | String Character Classification | [C++](../problems/0520.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case) | 🟢 E | String Character Classification | [C++](../problems/0709.md) | O(N) | O(1) | 🌟 優於官方解答 |
+| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | 🟡 M | String Character Classification | [C++](../problems/1347.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | 🟢 E | String Character Classification | [C++](../problems/1678.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1704 | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/) | 🟢 E | String Character Classification | [C++](../problems/1704.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 E | String Character Classification | [C++](../problems/1903.md) | O(N) | O(1) |  |
