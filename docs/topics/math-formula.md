@@ -1,6 +1,6 @@
 # math-formula
 
-## 🔴 生疏（10）
+## 🔴 生疏（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 441 | [Arranging Coins](https://leetcode.com/problems/arranging-coins/) | 🟢 E | Math Formula | [C++](../problems/0441.md) | O(logN) | O(1) | ⏳ 尚未同步 |
 | 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | 🟢 E | Math Formula | [C++](../problems/0812.md) | O(N³) | O(1) | ❌ 官方沒有解答 |
 | 836 | [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/) | 🟡 M | Math Formula, Geometry | [C++](../problems/0836.md) | O(1) | O(1) |  |
-| 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 E | Math Formula | [C++](../problems/1523.md) | O(1) | O(1) |  |
 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 M | Math Formula | [C++](../problems/1551.md) | O(1) | O(1) |  |
 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 M | Math Formula | [C++](../problems/2645.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
@@ -23,6 +22,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1523 | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) | 🟢 E | Math Formula | [C++](../problems/1523.md) | O(1) | O(1) | ✅ 已同步官方解答 |
