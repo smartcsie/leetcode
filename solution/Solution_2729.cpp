@@ -19,20 +19,20 @@
  *    - 走訪完 n、2n、3n 的所有位數後，檢查 bitset 中被設定的數字數量是否恰好為 9，
  *      代表 1~9 每個數字都各出現了一次。
  */
+
 class Solution {
 public:
     bool isFascinating(int n) {
         bitset<10> seen;
-        for(int x : {n, 2 * n, 3* n}) {
-            int t = x;
-            while(t > 0) {
-                int d = t % 10;
-                if(d == 0) return false;
-                if(seen.test(d)) return false;
+        for(int x : {n , 2* n, 3* n}) {
+            int y = x;
+            while(y > 0) {
+                int d = y % 10;
+                if(d == 0 || seen.test(d)) return false;
                 seen.set(d);
-                t /= 10;
+                y /= 10;
             }
         }
-        return seen.count() == 9;
+        return true;
     }
 };

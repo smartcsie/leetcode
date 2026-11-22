@@ -18,7 +18,7 @@
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 E | Bit Manipulation, Hash Table, Counting | [C++](../problems/2206.md) | O(N) | O(1) |  |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 E | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 M | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |  |
-| 2729 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/) | 🟢 E | Bit Manipulation, Math, Digit Manipulation | [C++](../problems/2729.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
+| 2729 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/) | 🟢 E | Bit Manipulation | [C++](../problems/2729.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 E | Bit Manipulation, Built-in Function | [C++](../problems/2859.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 E | Bit Manipulation, Bit Manipulation | [C++](../problems/3151.md) | O(N) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |

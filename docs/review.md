@@ -190,7 +190,7 @@
 | 🔴 生疏 | 2595 | [Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits) | 🟢 E | Bit Manipulation And | [C++](problems/2595.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 E | Bit Manipulation Mask | [C++](problems/2605.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2605 | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/) | 🟢 E | Bit Manipulation Mask | [C++](problems/2605.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2729 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/) | 🟢 E | Bit Manipulation, Math, Digit Manipulation | [C++](problems/2729.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
+| 🔴 生疏 | 2729 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/) | 🟢 E | Bit Manipulation | [C++](problems/2729.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 E | Bit Manipulation, Built-in Function | [C++](problems/2859.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 E | Bit Manipulation Or | [C++](problems/2917.md) | O(N\*log(max_VAL)) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 M | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) |  |

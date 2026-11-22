@@ -6,15 +6,16 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Bit Manipulation
-  - Math
-  - Digit Manipulation
   topics:
   - bit-manipulation
   time: O(logN)
   space: O(1)
   familiarity: 生疏
+  official_solution: no-solution
   attempts:
   - date: '2026-09-17'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null
