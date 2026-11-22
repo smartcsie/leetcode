@@ -6,17 +6,20 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Counting
-  - Hash Table
-  - Frequency Counting
   topics:
   - hash-table-counting
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  official_solution: better
   tricks:
   - vowel
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null
   representative_tag: Vowel

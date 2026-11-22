@@ -14,14 +14,14 @@
 class Solution {
 public:
     int maxFreqSum(string s) {
-        vector<int> counts(26, 0);
-        int vowel = 0;
-        int consonant = 0;
-        for(const char c : s) {
+        array<uint8_t, 26> counts{};
+        int mxVowel = 0;
+        int mxConsonant = 0;
+        for(const char& c : s) {
             counts[c - 'a']++;
-            if((0x104111 >> (c - 'a')) & 1) vowel = max(vowel, counts[c - 'a']);
-            else consonant = max(consonant, counts[c - 'a']);
+            if((0x104111 >> (c - 'a')) & 1) mxVowel = max(mxVowel, (int)counts[c - 'a']);
+            else mxConsonant = max(mxConsonant, (int)counts[c - 'a']);
         }
-        return vowel + consonant;
+        return mxVowel + mxConsonant;
     }
 };
