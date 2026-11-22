@@ -6,12 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math
-  - Construction
   topics:
   - math
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  official_solution: no-solution
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -22,4 +23,6 @@ solutions:
   - date: '2026-10-08'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null
