@@ -11,20 +11,16 @@
  * 2. 從最大數值開始反向遍歷，確保第一個匹配到的就是「最大」的幸運數。
  */
 
-#include <vector>
-
-using namespace std;
-
 class Solution {
 public:
     int findLucky(vector<int>& arr) {
-        vector<int> counts(501, 0);
-        for(const int& x : arr) {
-            counts[x]++;
-        }
-        for(int i = 500; i >= 1; i--) {
-            if(counts[i] == i) return i;
+        array<uint16_t, 501> counts{};
+        for(const int& x : arr) counts[x]++;
+        for(int x = 500; x >= 1; x--) {
+            if(counts[x] == x) return x;
         }
         return -1;
     }
 };
+
+
