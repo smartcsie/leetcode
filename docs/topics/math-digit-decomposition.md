@@ -1,12 +1,11 @@
 # math-digit-decomposition
 
-## 🔴 生疏（40）
+## 🔴 生疏（39）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 M | Math Digit Decomposition | [C++](../problems/0007.md) | O(logN) | O(1) |  |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 M | Math Digit Decomposition, Math | [C++](../problems/0008.md) | O(N) | O(1) |  |
-| 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0405.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 E | Math Digit Decomposition, String | [C++](../problems/0504.md) | O(log₇N) | O(1) | ❌ 官方沒有解答 |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 E | Math Digit Decomposition, Simulation | [C++](../problems/0728.md) | O(N\*D) | O(1) |  |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0868.md) | O(logN) | O(1) |  |
@@ -55,9 +54,10 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0171.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0171.md) | O(n) | O(1) | ✅ 已同步官方解答 |
+| 405 | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0405.md) | O(1) | O(1) | ❌ 官方沒有解答 |

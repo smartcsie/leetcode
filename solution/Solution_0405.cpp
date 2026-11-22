@@ -16,16 +16,16 @@
 class Solution {
 public:
     string toHex(int num) {
-        if (num == 0) return "0";
-        unsigned int n = static_cast<unsigned int>(num);
-        string hex;
-        while(n != 0) {
-            int d = n & 15; 
-            char c = (d >= 10) ? d - 10 + 'a' : d + '0';
-            hex.push_back(c);
+        if(num == 0) return "0";
+        unsigned int n = num;
+        string ans;
+        while(n > 0) {
+            int digit = n & 0xf;
+            if(digit <= 9) ans.push_back(digit + '0');
+            else ans.push_back(digit - 10 + 'a');
             n >>= 4;
         }
-        reverse(hex.begin(), hex.end());
-        return hex;
+        reverse(ans.begin(), ans.end());
+        return ans;
     }
 };
