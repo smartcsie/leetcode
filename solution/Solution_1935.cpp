@@ -14,17 +14,19 @@
 
 class Solution {
 public:
-    int canBeTypedWords(std::string text, std::string brokenLetters) {
-        int mask = 0;
-        for(const char& c : brokenLetters) mask |= 1 << (c - 'a');
-        int ans = 0;
-        string word;
-        istringstream iss(text);
-        while(iss >> word){
-            int submask = 0;
-            for(const char& c : word) submask |= 1 << (c - 'a');
-            if(!(mask & submask)) ans++;
+    int canBeTypedWords(string text, string brokenLetters) {
+        bitset<26> broken;
+        for(const char& c : brokenLetters) broken.set(c - 'a');
+        int n =  text.size();
+        bool pass = true;
+        int canType = 0;
+        for(int i = 0, start = 0; i <= n; i++) {
+            if(islower(text[i]) && broken.test(text[i] - 'a')) pass = false;
+            if(i == n || text[i] == ' ') {
+                if(pass) canType++;
+                pass = true;
+            }
         }
-        return ans;
+        return canType;
     }
 };
