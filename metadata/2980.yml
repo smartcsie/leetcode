@@ -6,15 +6,17 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Bit Manipulation Or
-  - Math
   topics:
   - bit-manipulation-or
   time: O(N)
   space: O(1)
   familiarity: 生疏
   note: '> **travsal nums，至少出現兩個even number，return true**<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-19'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null

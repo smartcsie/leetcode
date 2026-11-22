@@ -192,7 +192,7 @@
 | 🔴 生疏 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 E | Bit Manipulation, Built-in Function | [C++](problems/2859.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2917 | [Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array) | 🟢 E | Bit Manipulation Or | [C++](problems/2917.md) | O(N\*log(max_VAL)) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 E | Bit Manipulation, Hash Table, Bitset | [C++](problems/2956.md) | O(N+M) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | 🟢 E | Bit Manipulation Or, Math | [C++](problems/2980.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 🔴 生疏 | 2980 | [Check if Bitwise OR Has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/) | 🟢 E | Bit Manipulation Or | [C++](problems/2980.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 E | Bit Manipulation | [C++](problems/3019.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 E | Bit Manipulation | [C++](problems/3120.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 E | Bit Manipulation And | [C++](problems/3120.md) | O(N) | O(1) |  |
