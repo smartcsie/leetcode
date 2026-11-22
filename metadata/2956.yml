@@ -6,15 +6,16 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Bit Manipulation
-  - Hash Table
-  - Bitset
   topics:
   - bit-manipulation
   time: O(N+M)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: no-solution
   attempts:
   - date: '2026-09-17'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null

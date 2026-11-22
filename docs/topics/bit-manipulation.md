@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（19）
+## 🔴 生疏（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,15 +20,15 @@
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 M | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |  |
 | 2729 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/) | 🟢 E | Bit Manipulation, Math, Digit Manipulation | [C++](../problems/2729.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 E | Bit Manipulation, Built-in Function | [C++](../problems/2859.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 E | Bit Manipulation, Hash Table, Bitset | [C++](../problems/2956.md) | O(N+M) | O(1) | ❌ 官方沒有解答 |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 E | Bit Manipulation, Bit Manipulation | [C++](../problems/3151.md) | O(N) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 E | Bit Manipulation | [C++](../problems/2309.md) |  |  | ⏳ 尚未同步 |
+| 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 E | Bit Manipulation | [C++](../problems/2956.md) | O(N+M) | O(1) | ❌ 官方沒有解答 |
 | 3083 | [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | 🟢 E | Bit Manipulation | [C++](../problems/3083.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（6）
