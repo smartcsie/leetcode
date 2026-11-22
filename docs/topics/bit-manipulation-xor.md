@@ -1,6 +1,6 @@
 # bit-manipulation-xor
 
-## 🔴 生疏（9）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +10,6 @@
 | 2425 | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/2425.md) | O(N+M) | O(1) | ✅ 已同步官方解答 |
 | 2429 | [Minimize XOR](https://leetcode.com/problems/minimize-xor/) | 🟡 M | Bit Manipulation, Greedy | [C++](../problems/2429.md) | O(1) | O(1) |  |
 | 2433 | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/) | 🟡 M | Bit Manipulation Xor, Prefix XOR Inverse | [C++](../problems/2433.md) | O(N) | O(N) |  |
-| 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 E | Bit Manipulation Xor | [C++](../problems/3158.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 H | Bit Manipulation Xor | [C++](../problems/3514.md) | O(MlogM) | O(M) |  |
 | 3702 | [Longest Subsequence With Non-Zero Bitwise XOR](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | 🟡 M | Bit Manipulation Xor, Greedy | [C++](../problems/3702.md) | O(N) | O(1) |  |
 
@@ -24,7 +23,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number) | 🟢 E | Bit Manipulation Xor | [C++](../problems/0268.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（8）
+## 🟢 熟悉（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -36,3 +35,4 @@
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | 🟢 E | Bit Manipulation | [C++](../problems/1486.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 1720 | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/) | 🟢 E | Bit Manipulation Xor | [C++](../problems/1720.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2683 | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/) | 🟡 M | Bit Manipulation Xor | [C++](../problems/2683.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 E | Bit Manipulation Xor | [C++](../problems/3158.md) | O(N) | O(1) | ❌ 官方沒有解答 |
