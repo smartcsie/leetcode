@@ -6,17 +6,16 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Bit Manipulation Xor
-  - Bit Manipulation
   topics:
   - bit-manipulation-xor
   time: O(N)
   space: O(1)
   familiarity: 生疏
-  note: '> 先travsal nums一次 counts紀錄出現次數<br>
-
-    > 從1 ~ 51 counts次數為2的 xor到ans'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-18'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null

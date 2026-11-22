@@ -16,12 +16,12 @@
 class Solution {
 public:
     int duplicateNumbersXOR(std::vector<int>& nums) {
-        vector<int> counts(51, 0);
-        for(const int& x : nums) counts[x]++;
-        int ans = 0;
-        for(int i = 1; i <= 50; i++) {
-            if(counts[i] == 2) ans ^= i;
+        int xorVal = 0;
+        bitset<51> seen;
+        for(const int& x : nums) {
+            if(seen.test(x)) xorVal ^= x;
+            else seen.set(x);
         }
-        return ans;
+        return xorVal;
     }
 };

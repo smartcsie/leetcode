@@ -195,7 +195,7 @@
 | 🔴 生疏 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 E | Bit Manipulation, Hash Table, Bitset | [C++](problems/2956.md) | O(N+M) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 M | Bit Manipulation And | [C++](problems/3133.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 E | Bit Manipulation, Bit Manipulation | [C++](problems/3151.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 E | Bit Manipulation Xor, Bit Manipulation | [C++](problems/3158.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 🔴 生疏 | 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/) | 🟢 E | Bit Manipulation Xor | [C++](problems/3158.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3314 | [Construct the Minimum Bitwise Array I](https://leetcode.com/problems/construct-the-minimum-bitwise-array-i/) | 🟢 E | Bit Manipulation, Math | [C++](problems/3314.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](problems/3513.md) | O(logN) | O(1) |  |
 | 🔴 生疏 | 3514 | [Number of Unique XOR Triplets II](https://leetcode.com/problems/number-of-unique-xor-triplets-ii/) | 🔴 H | Bit Manipulation Xor | [C++](problems/3514.md) | O(MlogM) | O(M) |  |
