@@ -1,10 +1,9 @@
 # two-pointers-opposite
 
-## 🔴 生疏（15）
+## 🔴 生疏（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 M | Two Pointers Opposite, Two Pointers, Greedy | [C++](../problems/0011.md) | O(N) | O(1) |  |
 | 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 M | Two Pointers Opposite, Two Pointers, Sorting | [C++](../problems/0015.md) | O(N²) | O(logN) |  |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 M | Array, Two Pointers, Sorting | [C++](../problems/0016.md) | O(N²) | O(1) |  |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](../problems/0018.md) | O(N³) | O(1) |  |
@@ -20,9 +19,11 @@
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 E | Two Pointers | [C++](../problems/2562.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 E | Two Pointers Opposite, Two-Pointers | [C++](../problems/3884.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 M | Two Pointers Opposite | [C++](../problems/0011.md) | O(N) | O(1) |  |
 
 ## 🟣 易忘（0）
 

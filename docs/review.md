@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：787 題　🟠 再練習：28 題　🟣 易忘：21 題　🟢 熟練：161 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：786 題　🟠 再練習：29 題　🟣 易忘：21 題　🟢 熟練：161 題　⚪ 未標記：0 題
 
 ---
 
@@ -517,10 +517,10 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 M | Two Pointers Opposite | [C++](problems/0011.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap | [C++](problems/0977.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 H | Two Pointers Same | [C++](problems/0004.md) | O(log(M+N)) | O(1) |  |
 | 🔴 生疏 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 M | Two Pointers Center Expansion, Expand Around Center, Two Pointers | [C++](problems/0005.md) | O(N²) | O(1) |  |
-| 🔴 生疏 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 M | Two Pointers Opposite, Two Pointers, Greedy | [C++](problems/0011.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 M | Two Pointers Opposite, Two Pointers, Sorting | [C++](problems/0015.md) | O(N²) | O(logN) |  |
 | 🔴 生疏 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 M | Array, Two Pointers, Sorting | [C++](problems/0016.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0018.md) | O(N³) | O(1) |  |
@@ -1170,7 +1170,7 @@
 | [tree-traversal](topics/tree-traversal.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [trie](topics/trie.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [two-pointers-opposite](topics/two-pointers-opposite.md) | 15 | 0 | 0 | 1 | 0 | 16 |
+| [two-pointers-opposite](topics/two-pointers-opposite.md) | 14 | 1 | 0 | 1 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 1 | 1 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 20 | 0 | 0 | 0 | 0 | 20 |
