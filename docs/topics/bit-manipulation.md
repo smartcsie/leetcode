@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（22）
+## 🔴 生疏（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -22,8 +22,6 @@
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 E | Bit Manipulation, Built-in Function | [C++](../problems/2859.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 E | Bit Manipulation, Hash Table, Bitset | [C++](../problems/2956.md) | O(N+M) | O(1) | ❌ 官方沒有解答 |
 | 3019 | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/) | 🟢 E | Bit Manipulation | [C++](../problems/3019.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 E | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) |  |
-| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 E | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) |  |
 | 3151 | [Special Array I](https://leetcode.com/problems/special-array-i) | 🟢 E | Bit Manipulation, Bit Manipulation | [C++](../problems/3151.md) | O(N) | O(1) |  |
 | 3513 | [Number of Unique XOR Triplets I](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) | 🟡 M | Bit Manipulation | [C++](../problems/3513.md) | O(logN) | O(1) |  |
 
@@ -45,7 +43,7 @@
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 E | Bit Manipulation | [C++](../problems/1009.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) |  |  | 🌟 優於官方解答 |
 
-## 🟢 熟悉（18）
+## 🟢 熟悉（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -64,6 +62,8 @@
 | 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 E | Bit Manipulation | [C++](../problems/2309.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 E | Bit Manipulation | [C++](../problems/2716.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 E | Bit Manipulation | [C++](../problems/2716.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 E | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) | 🌟 優於官方解答 |
+| 3120 | [Count the Number of Special Characters I](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | 🟢 E | Bit Manipulation | [C++](../problems/3120.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 E | Bit Manipulation | [C++](../problems/3274.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) | O(1) | O(1) | ⏳ 尚未同步 |

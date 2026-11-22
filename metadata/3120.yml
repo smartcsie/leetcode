@@ -10,7 +10,8 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
   note: '> **要記錄char大小寫都有出現的字元數**<br>
 
     > **for(char c : word) {** <br>
@@ -22,6 +23,7 @@ solutions:
     > **}** <br>
 
     > **return __builtin_popcount(lower & upper);** <br>'
+  official_solution: better
   attempts:
   - date: '2026-09-17'
     result: 對
@@ -35,6 +37,9 @@ solutions:
   - date: '2026-10-22'
     result: 對
     reason: null
+  - date: '2026-11-22'
+    result: 對
+    reason: null
 - file: Solution_3120_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -43,7 +48,8 @@ solutions:
   - bit-manipulation-and
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: better
   tricks:
   - accumulate lemma
   attempts:
@@ -59,6 +65,9 @@ solutions:
   - date: '2026-10-22'
     result: 對
     reason: null
+  - date: '2026-11-22'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: accumulate lemma
 - file: Solution_3120_2.cpp
@@ -69,7 +78,9 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  official_solution: better
   tricks:
   - bitset
   attempts:
@@ -80,5 +91,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-22'
+    result: 對
+    reason: null
+  - date: '2026-11-22'
     result: 對
     reason: null
