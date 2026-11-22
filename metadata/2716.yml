@@ -6,13 +6,15 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Bit Manipulation
-  - Hash Set
   topics:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 生疏
-  note: '> 就是計算相異字元個數，用bitset<26> bits紀錄，最後回傳 bits.count()<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  note: '> **就是計算相異字元個數，用bitset<26> bits紀錄，最後回傳 bits.count()**<br>'
+  is_best: true
+  official_solution: no-solution
   related:
   - 1832
   attempts:
@@ -22,7 +24,9 @@ solutions:
   - date: '2026-09-17'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null
 - file: Solution_2716_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -31,7 +35,9 @@ solutions:
   - bit-manipulation
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-22'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-17'
     result: 對
@@ -39,4 +45,6 @@ solutions:
   - date: '2026-09-17'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-22'
+    result: 對
+    reason: null

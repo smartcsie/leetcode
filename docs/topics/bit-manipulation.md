@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（24）
+## 🔴 生疏（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18,8 +18,6 @@
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 E | Bit Manipulation, Hash Table, Counting | [C++](../problems/2206.md) | O(N) | O(1) |  |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 E | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 M | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |  |
-| 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 E | Bit Manipulation, Hash Set | [C++](../problems/2716.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 E | Bit Manipulation | [C++](../problems/2716.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2729 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/) | 🟢 E | Bit Manipulation, Math, Digit Manipulation | [C++](../problems/2729.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 E | Bit Manipulation, Built-in Function | [C++](../problems/2859.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 E | Bit Manipulation, Hash Table, Bitset | [C++](../problems/2956.md) | O(N+M) | O(1) | ❌ 官方沒有解答 |
@@ -47,7 +45,7 @@
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 E | Bit Manipulation | [C++](../problems/1009.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) |  |  | 🌟 優於官方解答 |
 
-## 🟢 熟悉（16）
+## 🟢 熟悉（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -64,6 +62,8 @@
 | 1893 | [Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | 🟢 E | Bit Manipulation | [C++](../problems/1893.md) | O(N\*L) | O(1) | ❌ 官方沒有解答 |
 | 2032 | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/) | 🟢 E | Bit Manipulation | [C++](../problems/2032.md) | O(N1+N2+N3) | O(1) | ❌ 官方沒有解答 |
 | 2309 | [Greatest English Letter in Upper and Lower Case](https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/) | 🟢 E | Bit Manipulation | [C++](../problems/2309.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 E | Bit Manipulation | [C++](../problems/2716.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 2716 | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/) | 🟢 E | Bit Manipulation | [C++](../problems/2716.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3274 | [Check if Two Chessboard Squares Have the Same Color](https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/) | 🟢 E | Bit Manipulation | [C++](../problems/3274.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) | O(1) | O(1) | ⏳ 尚未同步 |
