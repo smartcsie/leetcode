@@ -1,6 +1,6 @@
 # hash-table-uniqueness
 
-## 🔴 生疏（11）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12,15 +12,15 @@
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 E | Hash Table Uniqueness, Hash Table | [C++](../problems/2053.md) | O(N) | O(N) |  |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/2357.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 M | Hash Table Uniqueness, Hash Table, Math, Bitset | [C++](../problems/2442.md) | O(N\*D) | O(M) | ❌ 官方沒有解答 |
-| 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 E | Hash Table Uniqueness | [C++](../problems/2784.md) | O(N) | O(N) |  |
 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/3483.md) | O(N³) | O(U) |  |
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 M | Hash Table Uniqueness, Hash Set, Greedy | [C++](../problems/3487.md) | O(N) | O(N) |  |
 
-## 🟠 再練習（1）
+## 🟠 再練習（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | Hash Table Uniqueness | [C++](../problems/0884.md) | O(N+M) | O(N+M) | 🌟 優於官方解答 |
+| 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 E | Hash Table Uniqueness | [C++](../problems/2784.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（0）
 

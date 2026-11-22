@@ -11,11 +11,13 @@
 class Solution {
 public:
     bool isGood(vector<int>& nums) {
+        array<uint8_t, 201> counts{};
         int n = nums.size();
-        array<int, 201> counts{};
-        for (int x : nums) {
-            int limit = (x == n - 1) ? 2 : 1;  
-            if (x > n - 1 || ++counts[x] > limit) return false;
+        for(const int& x : nums) {
+            if(x >= n ) return false;
+            if(x == n - 1 && counts[x] >= 2) return false;
+            if(x < n - 1 && counts[x] >= 1) return false;
+            counts[x]++;
         }
         return true;
     }

@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：758 題　🟠 再練習：36 題　🟣 易忘：21 題　🟢 熟練：182 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：757 題　🟠 再練習：37 題　🟣 易忘：21 題　🟢 熟練：182 題　⚪ 未標記：0 題
 
 ---
 
@@ -575,6 +575,7 @@
 | 🟠 再練習 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | Hash Table Uniqueness | [C++](problems/0884.md) | O(N+M) | O(N+M) | 🌟 優於官方解答 |
 | 🟠 再練習 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 E | Hash Table Existence | [C++](problems/1346.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 M | Hash Table Counting | [C++](problems/2225.md) | O(NlogN) | O(N) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 E | Hash Table Uniqueness | [C++](problems/2784.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 E | Hash Table Counting | [C++](problems/3442.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 E | Hash Table Counting | [C++](problems/3663.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 3678 | [Smallest Absent Positive Greater Than Average](https://leetcode.com/problems/smallest-absent-positive-greater-than-average/) | 🟢 E | Hash Table Existence | [C++](problems/3678.md) | O(n + V) | O(1) | ❌ 官方沒有解答 |
@@ -618,7 +619,6 @@
 | 🔴 生疏 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 E | Hash Table Mapping | [C++](problems/2451.md) | O(N \* L) | O(N \* L) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 M | Hash Table Counting | [C++](problems/2491.md) | O(NlogN) | O(1) |  |
 | 🔴 生疏 | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 E | Hash Table Counting | [C++](problems/2570.md) | O(N+M) | O(1) |  |
-| 🔴 生疏 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 E | Hash Table Uniqueness | [C++](problems/2784.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 E | Hash Table Counting, Hash Map | [C++](problems/3438.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 E | Hash Table Uniqueness | [C++](problems/3483.md) | O(N³) | O(U) |  |
 | 🔴 生疏 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 M | Hash Table Uniqueness, Hash Set, Greedy | [C++](problems/3487.md) | O(N) | O(N) |  |
@@ -1099,7 +1099,7 @@
 | [hash-table-existence](topics/hash-table-existence.md) | 11 | 3 | 0 | 6 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 3 | 1 | 0 | 8 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 4 | 1 | 1 | 3 | 0 | 9 |
-| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 11 | 1 | 0 | 8 | 0 | 20 |
+| [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 10 | 2 | 0 | 8 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 24 | 0 | 6 | 9 | 0 | 39 |
