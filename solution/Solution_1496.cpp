@@ -17,19 +17,21 @@
  * 因為 vector<int> 沒有預設 hash function，
  * 若要用 unordered_set 需自訂 hash。
  */
+
 class Solution {
 public:
     bool isPathCrossing(string path) {
-        set<vector<int>> visited;
-        visited.insert({0, 0});
-        vector<int> cur(2, 0);
-        for (const char& c : path) {
-            if      (c == 'N') cur[0] += 1;
-            else if (c == 'S') cur[0] -= 1;
-            else if (c == 'E') cur[1] += 1;
-            else if (c == 'W') cur[1] -= 1;
-            if (visited.contains(cur)) return true;
-            visited.insert(cur);
+        unordered_set<int> travsal;
+        int x = 0 , y = 0;
+        travsal.insert(0);
+        for(const char c : path) {
+            if(c == 'N') y++;
+            else if(c == 'S') y--;
+            else if(c == 'E') x++;
+            else if(c == 'W') x--;
+            int key = x * 20001 + y;
+            if(travsal.contains(key)) return true;
+            travsal.insert(key);
         }
         return false;
     }
