@@ -5048,6 +5048,7 @@
 <li>❌ <strong>2026-10-04</strong> 錯　批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習</li>
 <li>✅ <strong>2026-10-07</strong> 對</li>
 <li>✅ <strong>2026-11-23</strong> 對</li>
+<li>✅ <strong>2026-11-23</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/*</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：1497. Check If Array Pairs Are Divisible by k</span>
@@ -5096,6 +5097,12 @@
 <a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="w">    </span><span class="p">}</span>
 <a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="p">};</span>
 </code></pre></div>
+<blockquote>
+<p><strong>檢查三種情況</strong><br>
+<strong>第一種餘數為0，只需要判斷counts[0]是否為偶數</strong><br>
+<strong>第二種餘數為k/2且k為even，需要判斷counts[k/2]是否為偶數</strong><br>
+<strong>第三種餘數為i，需要判斷counts[i]是否等於counts[k - i]</strong><br></p>
+</blockquote>
 
 
 
