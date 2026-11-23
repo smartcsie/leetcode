@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：746 題　🟠 再練習：39 題　🟣 易忘：21 題　🟢 熟練：191 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：745 題　🟠 再練習：40 題　🟣 易忘：21 題　🟢 熟練：191 題　⚪ 未標記：0 題
 
 ---
 
@@ -220,6 +220,7 @@
 | 🟠 再練習 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | String | [C++](problems/0884.md) | O(N+M) | O(N+M) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 E | String Character Classification | [C++](problems/1784.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 M | String Character Classification | [C++](problems/3121.md) | O(N) | O(1) | 🌟 優於官方解答 |
+| 🟠 再練習 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 E | String | [C++](problems/3280.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 E | String | [C++](problems/0014.md) | O(S) | O(1) |  |
 | 🔴 生疏 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | 🟢 E | String Kmp | [C++](problems/0028.md) | O(N\*M) | O(1) |  |
 | 🔴 生疏 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 M | String, String | [C++](problems/0043.md) | O(M\*N) | O(M+N) |  |
@@ -243,7 +244,6 @@
 | 🔴 生疏 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 E | String | [C++](problems/2243.md) | O(N\*logN) | O(N) |  |
 | 🔴 生疏 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 E | String Character Classification | [C++](problems/2255.md) | O(N\*M) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3136 | [Valid Word](https://leetcode.com/problems/valid-word/) | 🟢 E | String Character Classification, Validation | [C++](problems/3136.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 E | String | [C++](problems/3280.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 E | Simulation, Recursion | [C++](problems/3304.md) | O(K) | O(K) |  |
 | 🔴 生疏 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 E | String, Pattern Matching | [C++](problems/3407.md) | O(N+M) | O(M) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3713 | [Longest Balanced Substring I](https://leetcode.com/problems/longest-balanced-substring-i/) | 🟡 M | Math, Brute Force | [C++](problems/3713.md) | O(N^2) | O(1) |  |
@@ -1119,7 +1119,7 @@
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 13 | 1 | 0 | 2 | 0 | 16 |
-| [string](topics/string.md) | 17 | 2 | 1 | 18 | 0 | 38 |
+| [string](topics/string.md) | 16 | 3 | 1 | 18 | 0 | 38 |
 | [string-character-classification](topics/string-character-classification.md) | 6 | 3 | 0 | 21 | 0 | 30 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |

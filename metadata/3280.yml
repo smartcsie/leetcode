@@ -10,7 +10,8 @@ solutions:
   - string
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: no-solution
   tricks:
   - Format
   attempts:
@@ -20,6 +21,8 @@ solutions:
   - date: '2026-10-22'
     result: 對
     reason: null
+  - date: '2026-11-23'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Format
-  official_solution: no-solution

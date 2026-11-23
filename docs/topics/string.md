@@ -1,6 +1,6 @@
 # string
 
-## 🔴 生疏（18）
+## 🔴 生疏（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17,18 +17,18 @@
 | 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 E | String, Brute Force | [C++](../problems/1967.md) | O(N\*M) | O(1) |  |
 | 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 E | String | [C++](../problems/2138.md) | O(N) | O(N) |  |
 | 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 🟢 E | String | [C++](../problems/2243.md) | O(N\*logN) | O(N) |  |
-| 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 E | String | [C++](../problems/3280.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 E | Simulation, Recursion | [C++](../problems/3304.md) | O(K) | O(K) |  |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 E | String, Pattern Matching | [C++](../problems/3407.md) | O(N+M) | O(M) | ❌ 官方沒有解答 |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 M | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 E | String, Simulation, Math | [C++](../problems/3986.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 E | String | [C++](../problems/0557.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | String | [C++](../problems/0884.md) | O(N+M) | O(N+M) | ✅ 已同步官方解答 |
+| 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 E | String | [C++](../problems/3280.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（1）
 
