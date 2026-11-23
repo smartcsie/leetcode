@@ -14,12 +14,13 @@
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
-        unordered_map<int, int> freqs;
-        for(const int& x : arr) freqs[x]++;
-        unordered_set<int> uniqueSet;
-        for(const auto& [num, freq] : freqs) {
-            if(uniqueSet.contains(freq)) return false;
-            uniqueSet.insert(freq);
+        array<uint16_t, 2001> counts{};
+        bitset<2001> freqs;
+        for(const int& x : arr) counts[x + 1000]++;
+        for(const int& count : counts) {
+            if(count == 0) continue;
+            if(freqs.test(count)) return false;
+            freqs.set(count);
         }
         return true;
     }
