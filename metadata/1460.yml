@@ -10,10 +10,14 @@ solutions:
   - hash-table-intersection
   time: O(N)
   space: O(K)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-23'
   official_solution: synced
   attempts:
   - date: '2026-10-18'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null
   - date: '2026-11-23'
