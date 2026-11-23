@@ -10,7 +10,7 @@ solutions:
   - math
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
   note: '> **因為Plus One，carry 初始值 1** br>
 
     > **處理每個digit時，把digit加到carry，carry += digits[i];**<br>
@@ -18,6 +18,7 @@ solutions:
     > **新的digit，carry % 10，新的carry， carry /= 10**<br>
 
     > **最後檢查MSB是否有進位，有的話使用vector insert** br>'
+  official_solution: null
   related:
   - 2
   - 67
@@ -34,5 +35,25 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-17'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
+    result: 對
+    reason: null
+- file: Solution_0066_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Math
+  topics:
+  - math
+  time: O(n)
+  space: O(1)
+  familiarity: 再練習
+  official_solution: synced
+  attempts:
+  - date: '2026-11-23'
     result: 對
     reason: null

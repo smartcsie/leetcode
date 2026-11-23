@@ -1,11 +1,10 @@
 # math
 
-## 🔴 生疏（27）
+## 🔴 生疏（26）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | 🟡 M | Math | [C++](../problems/0050.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
-| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 E | Math | [C++](../problems/0066.md) | O(N) | O(1) |  |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Math | [C++](../problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 E | Math | [C++](../problems/0258.md) | O(logn) | O(1) |  |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 E | Math | [C++](../problems/0263.md) | O(logN) | O(1) |  |
@@ -32,9 +31,12 @@
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 E | Math | [C++](../problems/3084.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3131 | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 E | Math, Array | [C++](../problems/3131.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（0）
+## 🟠 再練習（2）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 E | Math | [C++](../problems/0066.md) | O(N) | O(1) |  |
+| 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 E | Math | [C++](../problems/0066.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（6）
 
