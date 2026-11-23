@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：735 題　🟠 再練習：43 題　🟣 易忘：24 題　🟢 熟練：195 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：734 題　🟠 再練習：43 題　🟣 易忘：25 題　🟢 熟練：195 題　⚪ 未標記：0 題
 
 ---
 
@@ -372,7 +372,6 @@
 | 🔴 生疏 | 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | 🟡 M | Tree Traversal, BFS | [C++](problems/0429.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 M | Tree Dfs Global, DFS, Prefix Sum | [C++](problems/0437.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 E | Binary Search Tree, DFS, BST | [C++](problems/0501.md) | O(N) | O(H) |  |
-| 🔴 生疏 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 M | Tree, BFS, DFS | [C++](problems/0513.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 E | Binary Search Tree, DFS, BST | [C++](problems/0530.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | 🟡 M | Tree Traversal, BST, Reverse In-order Traversal | [C++](problems/0538.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 E | Tree Dfs Global, DFS | [C++](problems/0543.md) | O(N) | O(H) |  |
@@ -421,6 +420,7 @@
 | 🔴 生疏 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 M | Tree Bfs Level Order, BFS, Math | [C++](problems/2583.md) | O(N) | O(N) |  |
 | 🟣 易忘 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](problems/0404.md) | O(N) | O(H) |  |
 | 🟣 易忘 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](problems/0404.md) | O(n) | O(1) | ✅ 已同步官方解答 |
+| 🟣 易忘 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 M | Tree Dfs Path | [C++](problems/0513.md) | O(n) | O(n) | ✅ 已同步官方解答 |
 
 <a id="review-binary-search"></a>
 #### 🔍 Binary Search（34）
@@ -1124,11 +1124,11 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 3 | 0 | 0 | 1 | 0 | 4 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 10 | 1 | 0 | 5 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 9 | 1 | 1 | 5 | 0 | 16 |
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 26 | 1 | 0 | 3 | 0 | 30 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 26 | 1 | 1 | 3 | 0 | 31 |
 | [tree-traversal](topics/tree-traversal.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [trie](topics/trie.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |

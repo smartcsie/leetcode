@@ -36,12 +36,13 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟣 易忘（2）
+## 🟣 易忘（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](../problems/0404.md) | O(N) | O(H) |  |
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](../problems/0404.md) | O(n) | O(1) | ✅ 已同步官方解答 |
+| 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 M | Tree Dfs Path | [C++](../problems/0513.md) | O(n) | O(n) | ✅ 已同步官方解答 |
 
 ## 🟢 熟悉（3）
 

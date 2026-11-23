@@ -5,15 +5,32 @@ solutions:
 - file: Solution_0513.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
-  - BFS
-  - DFS
+  - Tree Bfs Level Order
   topics:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-23'
+  official_solution: synced
   attempts:
   - date: '2026-09-14'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
+    result: 對
+    reason: null
+- file: Solution_0513_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Tree Dfs Path
+  topics:
+  - tree-dfs-path
+  time: O(n)
+  space: O(n)
+  familiarity: 易忘
+  official_solution: synced
+  attempts:
+  - date: '2026-11-23'
     result: 對
     reason: null
