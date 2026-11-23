@@ -18,15 +18,15 @@ public:
         vector<int> ans;
         queue<TreeNode*> q({root});
         while(!q.empty()) {
-            long mx = LONG_MIN;
+            int mx = INT_MIN;
             for(int i = q.size() - 1; i >= 0; i--) {
                 TreeNode* node = q.front();
                 q.pop();
-                mx = max(mx, static_cast<long>(node->val));
+                mx = max(mx, node->val);
                 if(node->left) q.push(node->left);
                 if(node->right) q.push(node->right);
             }
-            ans.push_back(static_cast<int>(mx));
+            ans.push_back(mx);
         }
         return ans;
     }

@@ -5,14 +5,19 @@ solutions:
 - file: Solution_0515.cpp
   difficulty: 🟡 Medium
   tags:
-  - Tree
-  - BFS
+  - Tree Bfs Level Order
   topics:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-23'
+  note: '> **node範圍最小INT_MIN，mx預設INT_MIN就可以**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-14'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null
