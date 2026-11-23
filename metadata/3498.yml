@@ -10,12 +10,14 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 生疏
-  note: '> [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string)
-    <br>
-
-    > travsal字串 ， degree +=  (26 - (s[i] - ''a'')) * (i + 1);<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-23'
+  note: '> **travsal字串 ， degree +=  (26 - (s[i] - ''a'')) * (i + 1);**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null

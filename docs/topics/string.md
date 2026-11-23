@@ -1,6 +1,6 @@
 # string
 
-## 🔴 生疏（19）
+## 🔴 生疏（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,7 +20,6 @@
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 E | String | [C++](../problems/3280.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 3304 | [Find the K-th Character in String Game I](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i/) | 🟢 E | Simulation, Recursion | [C++](../problems/3304.md) | O(K) | O(K) |  |
 | 3407 | [Substring Matching Pattern](https://leetcode.com/problems/substring-matching-pattern/) | 🟢 E | String, Pattern Matching | [C++](../problems/3407.md) | O(N+M) | O(M) | ❌ 官方沒有解答 |
-| 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 E | String | [C++](../problems/3498.md) | O(N) | O(1) |  |
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 M | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 E | String, Simulation, Math | [C++](../problems/3986.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
@@ -37,7 +36,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](../problems/2828.md) |  |  | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（19）
+## 🟢 熟悉（20）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -60,3 +59,4 @@
 | 2937 | [Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal/) | 🟢 E | String | [C++](../problems/2937.md) | O(min(L1,L2,L3)) | O(1) | ❌ 官方沒有解答 |
 | 2942 | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/) | 🟢 E | String | [C++](../problems/2942.md) | O(N\*L) | O(1) | ✅ 已同步官方解答 |
 | 3210 | [Find the Encrypted String](https://leetcode.com/problems/find-the-encrypted-string/) | 🟢 E | String | [C++](../problems/3210.md) | O(N) | O(N) | ❌ 官方沒有解答 |
+| 3498 | [Reverse Degree of a String](https://leetcode.com/problems/reverse-degree-of-a-string) | 🟢 E | String | [C++](../problems/3498.md) | O(N) | O(1) | ✅ 已同步官方解答 |
