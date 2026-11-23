@@ -10,10 +10,11 @@ solutions:
   - math-formula
   time: O(log₅N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **勒讓德定理 (Legendre''s Formula)**<br>
 
     > **在n!的所有因數中，總共有幾個質因數5**<br>'
+  official_solution: null
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -22,5 +23,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-18'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null
