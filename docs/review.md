@@ -593,7 +593,7 @@
 | 🔴 生疏 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 E | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](problems/0859.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 M | Hash Table Counting, Hash Table, Counting | [C++](problems/0916.md) | O(N \* L) | O(1) |  |
 | 🔴 生疏 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 M | Hash Table Uniqueness | [C++](problems/0939.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 E | Hash Table Intersection, Hash Table | [C++](problems/1460.md) | O(N) | O(K) |  |
+| 🔴 生疏 | 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 E | Hash Table Intersection | [C++](problems/1460.md) | O(N) | O(K) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 1496 | [Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 E | Hash Table Uniqueness, Hash Set, Coordinates | [C++](problems/1496.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 M | Hash Table Counting, Hash Table, Remainder Counting | [C++](problems/1497.md) | O(N+K) | O(K) |  |
 | 🔴 生疏 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 E | Hash Table Existence | [C++](problems/1640.md) | O(N) | O(N) |  |

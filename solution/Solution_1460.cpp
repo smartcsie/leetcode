@@ -14,11 +14,14 @@
 class Solution {
 public:
     bool canBeEqual(vector<int>& target, vector<int>& arr) {
-        vector<int> counts(1001, 0);
-        for(int i = 0; i < target.size(); i ++) {
-            counts[target[i]]++;
-            counts[arr[i]]--;
+        array<uint16_t, 1001> counts{};
+        uint16_t diff = 0;
+        for(const int& x : target) {
+            if(++counts[x] == 1) diff++;
         }
-        return count(counts.begin(), counts.end(), 0) == 1001;
+        for(const int& x : arr) {
+            if(--counts[x] == 0) diff--;
+        }
+        return diff == 0;
     }
 };

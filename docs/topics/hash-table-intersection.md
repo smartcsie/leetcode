@@ -4,7 +4,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 E | Hash Table Intersection, Hash Table | [C++](../problems/1460.md) | O(N) | O(K) |  |
+| 1460 | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | 🟢 E | Hash Table Intersection | [C++](../problems/1460.md) | O(N) | O(K) | ✅ 已同步官方解答 |
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 M | Hash Table Intersection, Hash Map, Matrix Simulation | [C++](../problems/2352.md) | O(N³logN) | O(N²) |  |
 
 ## 🟠 再練習（1）
