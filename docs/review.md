@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：738 題　🟠 再練習：42 題　🟣 易忘：24 題　🟢 熟練：193 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：737 題　🟠 再練習：42 題　🟣 易忘：24 題　🟢 熟練：194 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 872 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 871 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（116）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（70）](#review-array)　[🌳 Tree（90）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（65）](#review-pointers)　[🔑 Hash Table（50）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（116）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（70）](#review-array)　[🌳 Tree（89）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（65）](#review-pointers)　[🔑 Hash Table（50）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -329,7 +329,7 @@
 | 🟣 易忘 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array | [C++](problems/1260.md) | O(M\*N) | O(K) | 🌟 優於官方解答 |
 
 <a id="review-tree"></a>
-#### 🌳 Tree（90）
+#### 🌳 Tree（89）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -386,7 +386,6 @@
 | 🔴 生疏 | 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | 🟢 E | Tree Traversal | [C++](problems/0590.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 E | Tree Dfs Path | [C++](problems/0606.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 E | Tree Dfs Path, DFS, Recursion | [C++](problems/0617.md) | O(min(N,M)) | O(min(N,M)) |  |
-| 🔴 生疏 | 637 | [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | 🟢 E | Tree Bfs Level Order, BFS | [C++](problems/0637.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | 🟡 M | Trie | [C++](problems/0648.md) | O(N\*L+M\*K) | O(D\*L) |  |
 | 🔴 生疏 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | 🟡 M | Tree Dfs Global, DFS, Hash Table, Serialization | [C++](problems/0652.md) | O(N²) | O(N²) |  |
 | 🔴 生疏 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 E | Binary Search Tree, Hash Table | [C++](problems/0653.md) | O(N) | O(N) |  |
@@ -1126,7 +1125,7 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 3 | 0 | 0 | 1 | 0 | 4 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 13 | 0 | 0 | 3 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 12 | 0 | 0 | 4 | 0 | 16 |
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |

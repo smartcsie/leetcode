@@ -6,16 +6,20 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Tree Bfs Level Order
-  - BFS
   topics:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 生疏
-  note: '> sum要用double，否則會overflow<br>
+  familiarity: 熟練
+  mastered_date: '2026-11-23'
+  note: '> **sum要用double，否則會overflow**<br>
 
-    > if(!root) return {};保證至少一個node，永遠不會執行到<br>'
+    > **if(!root) return {};保證至少一個node，永遠不會執行到**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-14'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null
