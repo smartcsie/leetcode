@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：741 題　🟠 再練習：41 題　🟣 易忘：23 題　🟢 熟練：192 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：740 題　🟠 再練習：41 題　🟣 易忘：24 題　🟢 熟練：192 題　⚪ 未標記：0 題
 
 ---
 
@@ -48,8 +48,6 @@
 | 🔴 生疏 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascal-triangle-ii/) | 🟢 E | Math Combination | [C++](problems/0119.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Math | [C++](problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | 🟡 M | Math Prime | [C++](problems/0204.md) | O(NloglogN) | O(N) | ✅ 已同步官方解答 |
-| 🔴 生疏 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 E | Math Formula | [C++](problems/0258.md) | O(1) | O(1) |  |
-| 🔴 生疏 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 E | Math | [C++](problems/0258.md) | O(logn) | O(1) |  |
 | 🔴 生疏 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number) | 🟢 E | Math | [C++](problems/0263.md) | O(logN) | O(1) |  |
 | 🔴 生疏 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math | [C++](problems/0343.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 🔴 生疏 | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 M | Math | [C++](problems/0343.md) | O(logn) | O(1) | ✅ 已同步官方解答 |
@@ -144,6 +142,8 @@
 | 🟣 易忘 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | 🟡 M | Math | [C++](problems/0137.md) | O(N) | O(N) |  |
 | 🟣 易忘 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | 🟡 M | Math Formula | [C++](problems/0172.md) | O(log₅N) | O(1) |  |
 | 🟣 易忘 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | 🟢 E | Math | [C++](problems/0231.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 🟣 易忘 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 E | Math Formula | [C++](problems/0258.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 🟣 易忘 | 258 | [Add Digits](https://leetcode.com/problems/add-digits) | 🟢 E | Math | [C++](problems/0258.md) | O(logn) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 E | Math Game Theory | [C++](problems/0292.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 E | Math | [C++](problems/0326.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
@@ -1093,11 +1093,11 @@
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 8 | 2 | 0 | 10 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [math](topics/math.md) | 23 | 1 | 6 | 9 | 0 | 39 |
+| [math](topics/math.md) | 22 | 1 | 7 | 9 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 31 | 1 | 0 | 11 | 0 | 43 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
-| [math-formula](topics/math-formula.md) | 7 | 0 | 2 | 1 | 0 | 10 |
+| [math-formula](topics/math-formula.md) | 6 | 0 | 3 | 1 | 0 | 10 |
 | [math-game-theory](topics/math-game-theory.md) | 4 | 0 | 1 | 1 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 2 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 1 | 0 | 2 |

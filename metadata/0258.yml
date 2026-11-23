@@ -10,8 +10,9 @@ solutions:
   - math-formula
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **(num - 1) % 9 + 1** <br>'
+  official_solution: synced
   tricks:
   - math formula
   attempts:
@@ -33,6 +34,9 @@ solutions:
   - date: '2026-10-18'
     result: 對
     reason: null
+  - date: '2026-11-23'
+    result: 對
+    reason: null
 - file: Solution_0258_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -41,7 +45,8 @@ solutions:
   - math
   time: O(logn)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
+  official_solution: synced
   attempts:
   - date: '2026-10-08'
     result: 對
@@ -53,5 +58,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-18'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null
