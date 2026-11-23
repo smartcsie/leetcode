@@ -6,15 +6,15 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Mapping
-  - Hash Table
   topics:
   - hash-table-mapping
   time: O(N+M)
   space: O(N+M)
-  familiarity: 生疏
-  note: '>**s比較長判斷，if(idx >= pattern.size()) return false;**<br>
+  familiarity: 再練習
+  note: '>**s比較長判斷，if (pIdx == pattern.size()) return false;**<br>
 
-    >**pattern比較長判斷，最後判斷條件return idx == pattern.size();**<br>'
+    >**pattern比較長判斷，最後判斷條件return pIdx == pattern.size();**<br>'
+  official_solution: synced
   related:
   - 205
   tricks:
@@ -24,5 +24,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null

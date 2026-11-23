@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：757 題　🟠 再練習：37 題　🟣 易忘：21 題　🟢 熟練：182 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：756 題　🟠 再練習：38 題　🟣 易忘：21 題　🟢 熟練：182 題　⚪ 未標記：0 題
 
 ---
 
@@ -571,6 +571,7 @@
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | 🟢 E | Hash Table Intersection | [C++](problems/0242.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 E | Hash Table Mapping | [C++](problems/0290.md) | O(N+M) | O(N+M) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | 🟢 E | Hash Table Counting | [C++](problems/0819.md) | O(M+N) | O(M+N) |  |
 | 🟠 再練習 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | Hash Table Uniqueness | [C++](problems/0884.md) | O(N+M) | O(N+M) | 🌟 優於官方解答 |
 | 🟠 再練習 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 E | Hash Table Existence | [C++](problems/1346.md) | O(N) | O(N) | ✅ 已同步官方解答 |
@@ -586,7 +587,6 @@
 | 🔴 生疏 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 E | Hash Table Existence | [C++](problems/0160.md) | O(M + N) | O(M) |  |
 | 🔴 生疏 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | 🟢 E | Hash Table Existence | [C++](problems/0202.md) | O(logN) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | 🟢 E | Hash Table Existence | [C++](problems/0219.md) | O(N) | O(min(N,K)) |  |
-| 🔴 生疏 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern) | 🟢 E | Hash Table Mapping, Hash Table | [C++](problems/0290.md) | O(N+M) | O(N+M) |  |
 | 🔴 生疏 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii) | 🟡 M | Hash Table Existence, Hash Table | [C++](problems/0454.md) | O(N²) | O(N²) |  |
 | 🔴 生疏 | 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | 🟡 M | Hash Table Existence | [C++](problems/0532.md) | O(NlogN) | O(N) |  |
 | 🔴 生疏 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | 🟢 E | Hash Table Existence | [C++](problems/0594.md) | O(N) | O(N) |  |
@@ -1098,7 +1098,7 @@
 | [hash-table-counting](topics/hash-table-counting.md) | 15 | 4 | 2 | 9 | 0 | 30 |
 | [hash-table-existence](topics/hash-table-existence.md) | 11 | 3 | 0 | 6 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 3 | 1 | 0 | 8 | 0 | 12 |
-| [hash-table-mapping](topics/hash-table-mapping.md) | 4 | 1 | 1 | 3 | 0 | 9 |
+| [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 2 | 1 | 3 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 10 | 2 | 0 | 8 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
