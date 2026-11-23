@@ -18,20 +18,21 @@
 class Solution {
 public:
     vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
-        unordered_map<string, int> r2i;
-        for(int i = 0; i < list1.size(); i++) r2i[list1[i]] = i;
-        int minIdx = 2001;
         vector<string> ans;
-        for(int idx2 = 0; idx2 < list2.size(); idx2++) {
-            string& restaurant = list2[idx2];
-            if(r2i.contains(restaurant)) {
-                int idx1 = r2i[restaurant];
-                if(idx1 + idx2 < minIdx) {
-                    minIdx = idx1 + idx2;
-                    ans = {restaurant};
-                } else if(idx1 + idx2 == minIdx) {
-                    ans.push_back(restaurant);
-                } 
+        unordered_map<string, int> maps;
+        for(int i = 0; i < list1.size(); i++) {
+            maps[list1[i]] = i;
+        }
+        int minIdx = 2001;
+        for(int i = 0; i < list2.size(); i++) {
+            if(maps.contains(list2[i])) {
+                int j = maps[list2[i]];
+                if((i + j) < minIdx) {
+                    minIdx = i + j;
+                    ans = {list2[i]};
+                } else if((i + j) == minIdx) {
+                    ans.push_back(list2[i]);
+                }
             }
         }
         return ans;
