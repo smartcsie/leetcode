@@ -10,9 +10,10 @@ solutions:
   - math-game-theory
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **只有「4 的倍數」是必敗局面**<br>'
   is_best: true
+  official_solution: synced
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -21,5 +22,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-23'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null
