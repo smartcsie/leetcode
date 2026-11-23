@@ -15,18 +15,15 @@
 class Solution {
 public:
     bool isValid(string word) {
-        int n = word.size(); 
+        int n = word.size();
         if(n < 3) return false;
-        int vowels = 0;
-        int consonant = 0;
+        bool vowel = false, consonant = false;
         for(const char& c : word) {
-            if(!isalnum(c)) return false;
-            else if(isdigit(c)) continue;
-            else if(isalpha(c)) {
-                if(0x104111 >> ((c | 32) - 'a') & 1)  vowels++;
-                else consonant++;
-            }
+            if(ispunct(c) || isspace(c)) return false;
+            if(isdigit(c)) continue;
+            if((0x104111 >> ((c | 32) -'a')) & 1) vowel = true;
+            else consonant = true;
         }
-        return vowels >= 1 && consonant >= 1;
+        return vowel && consonant;
     }
 };

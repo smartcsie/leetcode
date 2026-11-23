@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - String Character Classification
-  - Validation
   topics:
   - string-character-classification
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-23'
   note: '> **如果是不是數字不是字母return false;**<br>
 
     > **如果是數字，continue**<br>
@@ -19,6 +19,7 @@ solutions:
     > **如果是大小寫字母，代入isVowel，計數vowel或consonant**<br>
 
     > *最後 (vowel >= 1) && (consonant >= 1)**<br>'
+  official_solution: synced
   tricks:
   - isalnum
   - isdigit
@@ -29,6 +30,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-20'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null
   is_representative: true
