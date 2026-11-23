@@ -1,6 +1,6 @@
 # tree-bfs-level-order
 
-## 🔴 生疏（12）
+## 🔴 生疏（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,6 @@
 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | 🟢 E | Tree Bfs Level Order, BFS | [C++](../problems/0107.md) | O(N) | O(W) |  |
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | 🟡 M | Tree Bfs Level Order, BFS, Queue | [C++](../problems/0117.md) | O(N) | O(N) |  |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](../problems/0199.md) | O(N) | O(W) |  |
-| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Bfs Level Order | [C++](../problems/0404.md) | O(N) | O(W) |  |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 M | Tree, BFS, DFS | [C++](../problems/0513.md) | O(N) | O(W) |  |
 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](../problems/0662.md) | O(N) | O(W) |  |
 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 E | Tree Bfs Level Order | [C++](../problems/0993.md) | O(N) | O(W) |  |
@@ -17,9 +16,11 @@
 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](../problems/1609.md) | O(N) | O(W) |  |
 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 M | Tree Bfs Level Order, BFS, Math | [C++](../problems/2583.md) | O(N) | O(N) |  |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Bfs Level Order | [C++](../problems/0404.md) | O(N) | O(W) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（0）
 

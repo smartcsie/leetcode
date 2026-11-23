@@ -244,6 +244,7 @@
 | 129 | 👑 **DFS Early Return**<br>[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 M | Tree Dfs Path | [C++](problems/0129.md) | O(N) | O(N) |
 | 144 | 👑 **Preorder**<br>[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) |
 | 145 | 👑 **Postorder**<br>[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0145.md) | O(N) | O(H) |
+| 404 | 👑 **Morris Traversal**<br>[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](problems/0404.md) | O(n) | O(1) |
 | 543 | 👑 **DP on Tree**<br>[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 E | Tree Dfs Global, DFS | [C++](problems/0543.md) | O(N) | O(H) |
 | 617 | 👑 **Tree merge**<br>[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 E | Tree Dfs Path, DFS, Recursion | [C++](problems/0617.md) | O(min(N,M)) | O(min(N,M)) |
 | 653 | 👑 **BST Iterator**<br>[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 E | Binary Search Tree | [C++](problems/0653.md) | O(n) | O(n) |

@@ -10,7 +10,8 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 易忘
+  official_solution: null
   attempts:
   - date: '2026-09-25'
     result: 對
@@ -24,15 +25,19 @@ solutions:
   - date: '2026-10-23'
     result: 對
     reason: null
+  - date: '2026-11-23'
+    result: 對
+    reason: null
 - file: Solution_0404_1.cpp
   difficulty: 🟢 Easy
   tags:
   - Tree Dfs Path
   topics:
   - tree-dfs-path
-  time: O(N)
-  space: O(H)
-  familiarity: 生疏
+  time: O(n)
+  space: O(1)
+  familiarity: 易忘
+  official_solution: synced
   attempts:
   - date: '2026-09-25'
     result: 對
@@ -43,6 +48,11 @@ solutions:
   - date: '2026-10-23'
     result: 對
     reason: null
+  - date: '2026-11-23'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: Morris Traversal
 - file: Solution_0404_2.cpp
   difficulty: 🟢 Easy
   tags:
@@ -51,8 +61,13 @@ solutions:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 生疏
+  familiarity: 再練習
+  note: '>**不能放在for loop 外面，不然無法處理到中間的左葉節點**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-10-23'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null
