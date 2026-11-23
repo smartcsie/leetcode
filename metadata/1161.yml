@@ -6,14 +6,17 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Tree Bfs Level Order
-  - BFS
   topics:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
   familiarity: 生疏
   is_best: true
+  official_solution: null
   attempts:
   - date: '2026-09-14'
+    result: 對
+    reason: null
+  - date: '2026-11-23'
     result: 對
     reason: null

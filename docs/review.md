@@ -411,7 +411,7 @@
 | 🔴 生疏 | 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | 🟢 E | Tree Dfs Path | [C++](problems/1022.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | 🟡 M | Tree Dfs Path, DFS, Recursion | [C++](problems/1026.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 M | Binary Search Tree, BST | [C++](problems/1038.md) | O(N) | O(H) |  |
-| 🔴 生疏 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 M | Tree Bfs Level Order, BFS | [C++](problems/1161.md) | O(N) | O(W) |  |
+| 🔴 生疏 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) | 🟡 M | Tree Bfs Level Order | [C++](problems/1161.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 1302 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | 🟡 M | Tree, BFS | [C++](problems/1302.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees) | 🟡 M | Tree Dfs Path, In-order Traversal, Two Pointers | [C++](problems/1305.md) | O(N+M) | O(N+M) |  |
 | 🔴 生疏 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | 🟡 M | Tree Dfs Path, DFS, Recursion | [C++](problems/1315.md) | O(N) | O(H) |  |

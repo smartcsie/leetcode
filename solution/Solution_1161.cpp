@@ -12,13 +12,14 @@
  * 3. 即時更新 `maxSum` 與對應的 `minLevel`，無需額外空間存儲與排序。
  */
 
+class Solution {
 public:
     int maxLevelSum(TreeNode* root) {
-        if(root && !root->left && !root->right) return root->val;
+        if(!root) return 0;
         queue<TreeNode*> q({root});
+        int mx = -1e6;
+        int mxLevel;
         int level = 1;
-        int maxSum = INT_MIN;
-        int minLevel;
         while(!q.empty()) {
             int levelSum = 0;
             for(int i = q.size() - 1; i >= 0; i--) {
@@ -28,12 +29,12 @@ public:
                 if(node->left) q.push(node->left);
                 if(node->right) q.push(node->right);
             }
-            if(levelSum > maxSum) {
-                minLevel = level;
-                maxSum = levelSum;
+            if(levelSum > mx) {
+                mx = levelSum;
+                mxLevel = level;
             }
             level++;
         }
-        return minLevel;
+        return mxLevel;
     }
 };
