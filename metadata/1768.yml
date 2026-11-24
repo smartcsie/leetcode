@@ -6,14 +6,18 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Same
-  - Two Pointers
   topics:
   - two-pointers-same
   time: O(N+M)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-24'
   note: '> 共用一個 i'
+  official_solution: synced
   attempts:
   - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-11-24'
     result: 對
     reason: null

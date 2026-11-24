@@ -10,12 +10,13 @@
 class Solution {
 public:
     string mergeAlternately(string word1, string word2) {
-        string ans, &w1 = word1, & w2 = word2;
-        int m = w1.size(), n = w2.size();
-        ans.reserve(m + n);
-        for(int i = 0; i <max(m, n); i++) {
-            if(i < m) ans.push_back(w1[i]);
-            if(i < n) ans.push_back(w2[i]);
+        string ans(word1.size() + word2.size(), ' ');
+        auto it1 = word1.begin();
+        auto it2 = word2.begin();
+        auto it3 = ans.begin();
+        while(it3 != ans.end()) {
+            if(it1 != word1.end()) *it3++ = *it1++;
+            if(it2 != word2.end()) *it3++ = *it2++;
         }
         return ans;
     }
