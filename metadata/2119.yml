@@ -10,8 +10,10 @@ solutions:
   - math
   time: O(1)
   space: O(1)
-  familiarity: 生疏
-  note: '> 條件 **num == 0 || num % 10 != 0**。<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-24'
+  note: '> **條件 **num == 0 || num % 10 != 0**。<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-22'
     result: 對
@@ -25,6 +27,8 @@ solutions:
   - date: '2026-10-16'
     result: 對
     reason: null
+  - date: '2026-11-24'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Module
-  official_solution: no-solution
