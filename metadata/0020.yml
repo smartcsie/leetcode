@@ -10,7 +10,9 @@ solutions:
   - stack
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-24'
+  official_solution: synced
   tricks:
   - parentheses check
   attempts:
@@ -21,6 +23,9 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-18'
+    result: 對
+    reason: null
+  - date: '2026-11-24'
     result: 對
     reason: null
   is_representative: true

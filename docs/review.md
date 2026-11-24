@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：719 題　🟠 再練習：44 題　🟣 易忘：27 題　🟢 熟練：207 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：718 題　🟠 再練習：44 題　🟣 易忘：27 題　🟢 熟練：208 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 858 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 857 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（109）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（65）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（109）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（65）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -604,12 +604,11 @@
 | 🟣 易忘 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Hash Table Counting | [C++](problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-stack"></a>
-#### 📚 Stack（22）
+#### 📚 Stack（21）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 E | Stack | [C++](problems/1078.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 E | Stack | [C++](problems/0020.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | 🔴 H | String, Stack, DP | [C++](problems/0032.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 H | Monotonic Stack | [C++](problems/0085.md) | O(M\*N) | O(N) |  |
 | 🔴 生疏 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 M | Stack | [C++](problems/0150.md) | O(N) | O(N) |  |
@@ -1103,7 +1102,7 @@
 | [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 13 | 1 | 0 | 2 | 0 | 16 |
+| [stack](topics/stack.md) | 12 | 1 | 0 | 3 | 0 | 16 |
 | [string](topics/string.md) | 16 | 3 | 1 | 18 | 0 | 38 |
 | [string-character-classification](topics/string-character-classification.md) | 5 | 3 | 0 | 22 | 0 | 30 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
