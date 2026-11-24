@@ -21,15 +21,14 @@
 
 class Solution {
 public:
-    vector<int> numberOfPairs(std::vector<int>& nums) {
-        vector<int> counts(101, 0);
+    vector<int> numberOfPairs(vector<int>& nums) {
+        array<uint8_t, 101> counts;
+        int pairs = 0;
         for(const int& x : nums) counts[x]++;
-        vector<int> ans(2, 0);
-        for(int i = 0; i <= 100; i++) {
-            if(!counts[i]) continue;
-            ans[0] += counts[i] / 2;
-            ans[1] += counts[i] & 1;
+        for(const int& count : counts) {
+            if(count == 0) continue;
+            pairs += count / 2;
         }
-        return ans;
+        return {pairs, static_cast<int>(nums.size()) - 2 * pairs};
     }
 };
