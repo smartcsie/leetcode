@@ -1,6 +1,6 @@
 # math-digit-decomposition
 
-## 🔴 生疏（26）
+## 🔴 生疏（25）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 M | Math Digit Decomposition, Math | [C++](../problems/0008.md) | O(N) | O(1) |  |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 E | Math Digit Decomposition, Simulation | [C++](../problems/0728.md) | O(N\*D) | O(1) |  |
 | 868 | [Binary Gap](https://leetcode.com/problems/binary-gap/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0868.md) | O(logN) | O(1) |  |
-| 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) |  |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 E | Math Digit Decomposition, Digit Manipulation | [C++](../problems/1281.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 1317 | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | 🟢 E | Math Digit Decomposition, Simulation | [C++](../problems/1317.md) | O(N\*logN) | O(1) |  |
 | 1399 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/) | 🟢 E | Math Digit Decomposition, Digit Manipulation, Counting | [C++](../problems/1399.md) | O(N \* D) | O(1) |  |
@@ -37,10 +36,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0168.md) | O(log26N) | O(1) | ✅ 已同步官方解答 |
 
-## 🟣 易忘（1）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 E | Math Digit Decomposition | [C++](../problems/0989.md) | O(max(n, d)) | O(1) | ✅ 已同步官方解答 |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 M | Math Digit Decomposition | [C++](../problems/1017.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟢 熟悉（16）

@@ -1,26 +1,29 @@
-/**
+/*
  * 題目：989. Add to Array-Form of Integer
- * 難度：簡單 (Easy)
- * 描述：將陣列形式表示的整數 num 與整數 k 相加，回傳相加後的陣列形式結果。
- * 核心概念：
- * - 從陣列最低位開始，逐位與 k 相加並處理進位。
- * - 利用 k 同時承載「待加數值」與「進位」兩種角色。
- * - 迴圈持續到陣列位數耗盡且 k 歸零為止。
- * - 最後反轉結果陣列，恢復高位在前的正確順序。
- *
- * 時間複雜度：O(max(N,logK)
- * 空間複雜度：O(max(N,logK)
+ * 難度：Easy
+ * 描述：整數的陣列形式是由左到右依序存放各位數字的陣列（例如 1321 → [1,3,2,1]）。給定陣列形式的整數 num 與整數 k，回傳 num + k 的陣列形式。
+ * 分類主題：array
+ * 技巧：模擬直式加法, 從個位數開始處理進位, 原地覆蓋, 超出長度時在前面補位
+ * 時間複雜度：O(max(n, d))，n 為 num 長度，d 為 k 的位數（超出 n 的部分用 insert 補前面，k 位數很少，可忽略）
+ * 空間複雜度：O(1)（原地修改 num，不含補位的新增元素）
+ * 解法思路：
+ *   1. 模擬直式加法：從 num 的最後一位（個位數）往前，同時取 k 的個位數
+ *   2. 每一位的總和 = num 這一位 + k 這一位 + 上一位的進位，結果位數 = 總和 % 10，進位 = 總和 / 10
+ *   3. 迴圈條件是 num 還有位數、k 還有位數、或還有進位，三者任一成立就繼續
+ *   4. i 仍在 num 範圍內時，直接覆蓋 num[i]
+ *   5. i 已超出範圍（k 比 num 長，或最高位產生進位）時，把結果插入 num 的最前面
+ *   6. 直接修改並回傳 num
  */
 class Solution {
 public:
     vector<int> addToArrayForm(vector<int>& num, int k) {
-        vector<int> ans;
-        for(int i =  num.size() - 1; i >=0 || k > 0; i--) {
-            if(i >= 0) k += num[i];
-            ans.push_back(k % 10);
-            k /= 10;
+        for(int i = num.size() - 1, carry = 0; i >= 0 || k > 0 || carry > 0; i--) {
+            if(i >= 0) carry += num[i];          // num 這一位
+            if(k > 0) { carry += k % 10; k /= 10; }  // k 這一位
+            if(i >= 0) num[i] = carry % 10;      // 還在 num 範圍內：原地覆蓋
+            else num.insert(num.begin(), carry % 10);  // 超出範圍：補在最前面
+            carry /= 10;
         }
-        reverse(ans.begin(), ans.end());
-        return ans;
+        return num;
     }
 };

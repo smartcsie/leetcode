@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：723 題　🟠 再練習：44 題　🟣 易忘：26 題　🟢 熟練：204 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：722 題　🟠 再練習：44 題　🟣 易忘：27 題　🟢 熟練：204 題　⚪ 未標記：0 題
 
 ---
 
@@ -67,7 +67,6 @@
 | 🔴 生疏 | 914 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | 🟢 E | Math Gcd | [C++](problems/0914.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 M | Math Permutation | [C++](problems/0949.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 M | Math, Hash Table | [C++](problems/0970.md) | O(MN) | O(S) |  |
-| 🔴 生疏 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 E | Math Digit Decomposition | [C++](problems/0989.md) | O(max(N,logK)) | O(max(N,logK)) |  |
 | 🔴 生疏 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 M | Math | [C++](problems/1015.md) | O(K) | O(1) |  |
 | 🔴 生疏 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | 🟢 E | Math | [C++](problems/1018.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 E | Math Game Theory | [C++](problems/1025.md) | O(1) | O(1) | ❌ 官方沒有解答 |
@@ -140,6 +139,7 @@
 | 🟣 易忘 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) | 🟢 E | Math | [C++](problems/0326.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 🟣 易忘 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 E | Math Digit Decomposition | [C++](problems/0989.md) | O(max(n, d)) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 M | Math Digit Decomposition | [C++](problems/1017.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🟣 易忘 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 M | Math Formula | [C++](problems/1551.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Math | [C++](problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
@@ -1083,7 +1083,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 19 | 2 | 7 | 11 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 26 | 1 | 1 | 15 | 0 | 43 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 25 | 1 | 2 | 15 | 0 | 43 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 5 | 0 | 3 | 1 | 0 | 9 |
 | [math-game-theory](topics/math-game-theory.md) | 4 | 0 | 1 | 1 | 0 | 6 |
