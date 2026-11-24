@@ -6,13 +6,17 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Hash Table Uniqueness
-  - Hash Table
   topics:
   - hash-table-uniqueness
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-24'
+  official_solution: synced
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-11-24'
     result: 對
     reason: null
