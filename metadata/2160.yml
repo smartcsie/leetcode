@@ -10,8 +10,10 @@ solutions:
   - math-digit-decomposition
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-24'
   note: '> **貪心組合：最小的兩個當十位數，其餘當個位數**<br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-10-02'
     result: 對
@@ -22,4 +24,6 @@ solutions:
   - date: '2026-10-16'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-24'
+    result: 對
+    reason: null
