@@ -6,14 +6,17 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Digit Decomposition
-  - Math
   topics:
   - math-digit-decomposition
   time: O(N*logM)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-24'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-16'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-24'
+    result: 對
+    reason: null

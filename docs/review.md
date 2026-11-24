@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：728 題　🟠 再練習：43 題　🟣 易忘：26 題　🟢 熟練：200 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：727 題　🟠 再練習：43 題　🟣 易忘：26 題　🟢 熟練：201 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 865 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 864 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（111）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（70）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（65）](#review-pointers)　[🔑 Hash Table（50）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（110）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（70）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（65）](#review-pointers)　[🔑 Hash Table（50）](#review-hash-table)　[📚 Stack（22）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -30,7 +30,7 @@
 | 🔴 生疏 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 E | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) |  |
 
 <a id="review-math"></a>
-#### 🔢 Math（111）
+#### 🔢 Math（110）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -100,7 +100,6 @@
 | 🔴 生疏 | 2520 | [Count the Digits That Divide a Number](https://leetcode.com/problems/count-the-digits-that-divide-a-number/) | 🟢 E | Math Factor Enumeration, Digit Manipulation | [C++](problems/2520.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2521 | [Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 M | Math Prime, Prime Factorization | [C++](problems/2521.md) | O(N\*sqrt(M)) | O(K) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2523 | [Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range/) | 🟡 M | Math Prime | [C++](problems/2523.md) | O(NloglogN) | O(N) |  |
-| 🔴 生疏 | 2535 | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | 🟢 E | Math Digit Decomposition, Math | [C++](problems/2535.md) | O(N\*logM) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2553 | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array) | 🟢 E | Math Digit Decomposition, Math | [C++](problems/2553.md) | O(N\*log(max_VAL)) | O(N\*log(max_VAL)) |  |
 | 🔴 生疏 | 2614 | [Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal/) | 🟢 E | Math Prime, Trial Division | [C++](problems/2614.md) | O(N\*sqrt(M)) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 M | Math Formula | [C++](problems/2645.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -1087,7 +1086,7 @@
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 20 | 1 | 7 | 11 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [math-digit-decomposition](topics/math-digit-decomposition.md) | 27 | 1 | 1 | 14 | 0 | 43 |
+| [math-digit-decomposition](topics/math-digit-decomposition.md) | 26 | 1 | 1 | 15 | 0 | 43 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 6 | 0 | 3 | 1 | 0 | 10 |
 | [math-game-theory](topics/math-game-theory.md) | 4 | 0 | 1 | 1 | 0 | 6 |
