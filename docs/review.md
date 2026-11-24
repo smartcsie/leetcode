@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：716 題　🟠 再練習：44 題　🟣 易忘：27 題　🟢 熟練：210 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：715 題　🟠 再練習：44 題　🟣 易忘：27 題　🟢 熟練：211 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 855 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 854 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（109）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（63）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（109）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（62）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -480,7 +480,7 @@
 | 🔴 生疏 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 M | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) |  |
 
 <a id="review-pointers"></a>
-#### 👥 Pointers（63）
+#### 👥 Pointers（62）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -519,7 +519,6 @@
 | 🔴 生疏 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 E | Two Pointers Opposite | [C++](problems/0680.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | 🟡 M | Two Pointers Same, Two Pointers | [C++](problems/0777.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 E | Two Pointers Same | [C++](problems/0844.md) | O(N+M) | O(1) |  |
-| 🔴 生疏 | 905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/0905.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 917 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/0917.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 922 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/0922.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 E | Two Pointers Opposite, Two Pointers | [C++](problems/0941.md) | O(N) | O(1) |  |
@@ -1121,7 +1120,7 @@
 | [two-pointers-other](topics/two-pointers-other.md) | 1 | 1 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 2 | 0 | 0 | 1 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 20 | 0 | 0 | 0 | 0 | 20 |
-| [two-pointers-swap](topics/two-pointers-swap.md) | 10 | 1 | 0 | 3 | 0 | 14 |
+| [two-pointers-swap](topics/two-pointers-swap.md) | 9 | 1 | 0 | 4 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |
 
