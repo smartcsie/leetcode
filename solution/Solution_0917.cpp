@@ -14,13 +14,11 @@
 class Solution {
 public:
     string reverseOnlyLetters(string s) {
-        if(s.size() == 1) return s;
-        int left = 0;
-        int right = n -1;
+        int left = 0, right = s.size() - 1;
         while(left < right) {
             while(left < right && !isalpha(s[left])) left++;
             while(left < right && !isalpha(s[right])) right--;
-            swap(s[left++], s[right--]);
+            if(left < right) swap(s[left++], s[right--]);
         }
         return s;
     }
