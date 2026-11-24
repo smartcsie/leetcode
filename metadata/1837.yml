@@ -10,11 +10,11 @@ solutions:
   - math-digit-decomposition
   time: O(logₖN)
   space: O(1)
-  familiarity: 生疏
-  note: '> [Base]
-
-    > K進制的位數和，一直 % k加到sum，while(n > 0) {  sum = n % k + sum; n /= k; }  return sum
-    <br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-24'
+  note: '> **K進制的位數和，一直 % k加到sum，while(n > 0) {  sum = n % k + sum; n /= k; }  return
+    sum **<br>'
+  official_solution: no-solution
   related:
   - 504
   - 1017
@@ -22,4 +22,6 @@ solutions:
   - date: '2026-09-17'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-24'
+    result: 對
+    reason: null
