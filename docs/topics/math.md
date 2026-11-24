@@ -1,6 +1,6 @@
 # math
 
-## 🔴 生疏（23）
+## 🔴 生疏（22）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24,16 +24,16 @@
 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 E | Math, Array | [C++](../problems/2455.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | 🟢 E | Math, Brute Force | [C++](../problems/2652.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2745 | [Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string/) | 🟡 M | Math | [C++](../problems/2745.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 E | Math | [C++](../problems/2894.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 3084 | [Count Substrings...](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character/) | 🟢 E | Math | [C++](../problems/3084.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3131 | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/) | 🟢 E | Math, Array | [C++](../problems/3131.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 E | Math | [C++](../problems/0066.md) | O(N) | O(1) |  |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 E | Math | [C++](../problems/0066.md) | O(n) | O(1) | ✅ 已同步官方解答 |
+| 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 E | Math | [C++](../problems/2894.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（7）
 
