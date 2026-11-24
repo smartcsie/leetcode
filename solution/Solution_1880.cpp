@@ -17,15 +17,13 @@
 class Solution {
 public:
     bool isSumEqual(string firstWord, string secondWord, string targetWord) {
-        int x = accumulate(firstWord.begin(), firstWord.end(),0 ,[](int sum, char& c) {
-            return sum * 10 + c - 'a';
-        });
-        int y = accumulate(secondWord.begin(), secondWord.end(),0 ,[](int sum, char& c) {
-            return sum * 10 + c - 'a';
-        });
-        int z = accumulate(targetWord.begin(), targetWord.end(),0 ,[](int sum, char& c) {
-            return sum * 10 + c - 'a';
-        });
-        return x + y == z;
+        auto charSum = [](int sum, const char& c) {
+            sum = sum * 10 + (c - 'a');
+            return sum;
+        };
+        int sum1 = accumulate(firstWord.begin(), firstWord.end(), 0, charSum);
+        int sum2 = accumulate(secondWord.begin(), secondWord.end(), 0, charSum);
+        int sum = accumulate(targetWord.begin(), targetWord.end(), 0, charSum);
+        return sum1 + sum2 == sum;
     }
 };

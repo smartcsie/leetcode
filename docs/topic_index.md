@@ -30,7 +30,7 @@
 | 1295 | 👑 **number digits**<br>[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 E | Math | [C++](problems/1295.md) | O(N) | O(1) |
 | 1344 | 👑 **cast int into double**<br>[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 M | Math | [C++](problems/1344.md) | O(1) | O(1) |
 | 1492 | 👑 **Factor Enumeration**<br>[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 M | Math Factor Enumeration | [C++](problems/1492.md) | O(√N) | O(1) |
-| 1880 | 👑 **accumulate string lemma**<br>[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 E | Math Digit Decomposition, Math | [C++](problems/1880.md) | O(N) | O(1) |
+| 1880 | 👑 **accumulate string lemma**<br>[Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 E | Math Digit Decomposition | [C++](problems/1880.md) | O(N) | O(1) |
 | 1925 | 👑 **Pythagorean triples**<br>[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 E | Math | [C++](problems/1925.md) | O(N²) | O(1) |
 | 1979 | 👑 **GCD**<br>[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 E | Math Gcd, GCD | [C++](problems/1979.md) | O(N) | O(1) |
 | 1980 | 👑 **Cantor's Diagonal Argument**<br>[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 M | Math | [C++](problems/1980.md) | O(N²) | O(N) |

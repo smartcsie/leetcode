@@ -1,6 +1,6 @@
 # math-digit-decomposition
 
-## 🔴 生疏（30）
+## 🔴 生疏（29）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 1399 | [Count Largest Group](https://leetcode.com/problems/count-largest-group/) | 🟢 E | Math Digit Decomposition, Digit Manipulation, Counting | [C++](../problems/1399.md) | O(N \* D) | O(1) |  |
 | 1404 | [Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) | 🟡 M | Bit Manipulation | [C++](../problems/1404.md) | O(N) | O(1) |  |
 | 1837 | [Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k) | 🟢 E | Math Digit Decomposition | [C++](../problems/1837.md) | O(logₖN) | O(1) | ❌ 官方沒有解答 |
-| 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 E | Math Digit Decomposition, Math | [C++](../problems/1880.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | 🟢 E | Math Digit Decomposition | [C++](../problems/2160.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2180 | [Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/) | 🟢 E | Math Digit Decomposition | [C++](../problems/2180.md) | O(D) | O(1) | ❌ 官方沒有解答 |
 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 M | Math Digit Decomposition, Simulation | [C++](../problems/2443.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
@@ -47,7 +46,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 M | Math Digit Decomposition | [C++](../problems/1017.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（12）
+## 🟢 熟悉（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -57,6 +56,7 @@
 | 504 | [Base 7](https://leetcode.com/problems/base-7) | 🟢 E | Math Digit Decomposition | [C++](../problems/0504.md) | O(log₇N) | O(1) | ❌ 官方沒有解答 |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 E | Math Digit Decomposition | [C++](../problems/1295.md) | O(n · d) | O(1) | ✅ 已同步官方解答 |
 | 1742 | [Maximum Number of Balls in a Box](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) | 🟢 E | Math Digit Decomposition | [C++](../problems/1742.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
+| 1880 | [Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words/) | 🟢 E | Math Digit Decomposition | [C++](../problems/1880.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2544 | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/) | 🟢 E | Math Digit Decomposition | [C++](../problems/2544.md) | O(logN) | O(logN) | ❌ 官方沒有解答 |
 | 3340 | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3340.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 3550 | [Smallest Index With Digit Sum Equal to Index](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | 🟢 E | Math Digit Decomposition | [C++](../problems/3550.md) | O(N \* D) | O(1) | ✅ 已同步官方解答 |
