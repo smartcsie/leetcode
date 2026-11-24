@@ -6,18 +6,16 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Math Digit Decomposition
-  - '504'
-  - '1837'
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
-  note: '> [Base]
-
-    > **[注意]和轉二進制一樣，差異再往右shift加負號，n  = -(n >> 1);**<br>
-
-    > **[注意]要記得做reverse，reverse(ans.begin(), ans.end());**<br>'
+  familiarity: 易忘
+  note: '> **n = -(n >> 1);**<br>'
+  official_solution: no-solution
+  related:
+  - 504
+  - 1837
   attempts:
   - date: '2026-10-04'
     result: 錯
@@ -25,4 +23,6 @@ solutions:
   - date: '2026-10-08'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-24'
+    result: 對
+    reason: null
