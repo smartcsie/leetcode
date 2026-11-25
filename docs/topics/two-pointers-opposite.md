@@ -1,6 +1,6 @@
 # two-pointers-opposite
 
-## 🔴 生疏（13）
+## 🔴 生疏（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12,17 +12,17 @@
 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 M | Two Pointers Opposite | [C++](../problems/0611.md) | O(N²) | O(1) |  |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](../problems/0633.md) | O(√C) | O(1) |  |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 E | Two Pointers Opposite | [C++](../problems/0680.md) | O(N) | O(1) |  |
-| 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 E | Two Pointers Opposite, Two Pointers | [C++](../problems/0941.md) | O(N) | O(1) |  |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 E | Two Pointers Opposite, Two Pointers | [C++](../problems/0942.md) | O(N) | O(N) |  |
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | 🟢 E | Two Pointers Opposite | [C++](../problems/1332.md) | O(N) | O(1) |  |
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 E | Two Pointers | [C++](../problems/2562.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 E | Two Pointers Opposite, Two-Pointers | [C++](../problems/3884.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 M | Two Pointers Opposite | [C++](../problems/0011.md) | O(N) | O(1) |  |
+| 941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array) | 🟢 E | Two Pointers Opposite | [C++](../problems/0941.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 M | Two Pointers Opposite | [C++](../problems/1750.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（0）

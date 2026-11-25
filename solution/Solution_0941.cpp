@@ -17,10 +17,11 @@ class Solution {
 public:
     bool validMountainArray(vector<int>& arr) {
         int n = arr.size();
-        if(n <= 2) return false;
-        int left = 0, right = n - 1;
-        while(left < n - 1 && arr[left] < arr[left + 1]) left++;
-        while(right > 0 && arr[right] < arr[right - 1]) right--;
-        return left < n - 1 && right > 0 && left == right;
+        if(n < 3) return false;
+        int idx = 0;
+        while(idx + 1 < n && arr[idx] < arr[idx + 1]) idx++;
+        if(idx == 0 || idx == n - 1) return false;
+        while(idx + 1 < n && arr[idx] > arr[idx + 1]) idx++;
+        return idx == n - 1;
     }
 };
