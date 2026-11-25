@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - String Character Classification
-  - Two Pointers
   topics:
   - string-character-classification
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: synced
   attempts:
   - date: '2026-09-20'
     result: 對
@@ -19,3 +19,26 @@ solutions:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
+  - date: '2026-11-25'
+    result: 對
+    reason: null
+- file: Solution_1957_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers Same
+  topics:
+  - two-pointers-same
+  time: O(n)
+  space: O(1)
+  familiarity: 再練習
+  official_solution: synced
+  related:
+  - 26
+  - 27
+  - 80
+  - 283
+  - 2460
+  attempts:
+  - date: '2026-11-25'
+    result: 對
+    reason: null

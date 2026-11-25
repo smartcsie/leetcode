@@ -16,6 +16,7 @@ solutions:
   - 26
   - 27
   - 283
+  - 1957
   - 2460
   tricks:
   - Read-Write Two Pointers Without Swap
@@ -39,5 +40,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-11'
+    result: 對
+    reason: null
+  - date: '2026-11-25'
     result: 對
     reason: null

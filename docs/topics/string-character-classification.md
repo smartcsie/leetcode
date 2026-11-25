@@ -1,21 +1,21 @@
 # string-character-classification
 
-## 🔴 生疏（5）
+## 🔴 生疏（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 E | String Character Classification | [C++](../problems/1455.md) | O(N) | O(W) |  |
-| 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/1957.md) | O(N) | O(N) |  |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 E | String Character Classification, Simulation | [C++](../problems/2185.md) | O(N\*M) | O(1) |  |
 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 E | String Character Classification | [C++](../problems/2255.md) | O(N\*M) | O(1) | ❌ 官方沒有解答 |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（3）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 434 | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | 🟢 E | String Character Classification | [C++](../problems/0434.md) | O(N) | O(1) |  |
 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 E | String Character Classification | [C++](../problems/1784.md) | O(N) | O(1) |  |
+| 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | String Character Classification | [C++](../problems/1957.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 M | String Character Classification | [C++](../problems/3121.md) | O(N) | O(1) | 🌟 優於官方解答 |
 
 ## 🟣 易忘（0）

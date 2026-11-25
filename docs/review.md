@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：707 題　🟠 再練習：46 題　🟣 易忘：30 題　🟢 熟練：214 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：706 題　🟠 再練習：47 題　🟣 易忘：30 題　🟢 熟練：214 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 853 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 854 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（36）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（60）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（36）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（61）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -213,6 +213,7 @@
 | 🟠 再練習 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | String | [C++](problems/0884.md) | O(N+M) | O(N+M) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 E | String | [C++](problems/0944.md) | O(N\*M) | O(M) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1784 | [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) | 🟢 E | String Character Classification | [C++](problems/1784.md) | O(N) | O(1) |  |
+| 🟠 再練習 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | String Character Classification | [C++](problems/1957.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 3121 | [Count the Number of Special Characters II](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) | 🟡 M | String Character Classification | [C++](problems/3121.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 🟠 再練習 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 E | String | [C++](problems/3280.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 E | String | [C++](problems/0014.md) | O(S) | O(1) |  |
@@ -229,7 +230,6 @@
 | 🔴 生疏 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 E | String Character Classification | [C++](problems/1455.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 E | String, Simulation | [C++](problems/1592.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 M | String, String | [C++](problems/1910.md) | O(N\*M) | O(N) |  |
-| 🔴 生疏 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | String Character Classification, Two Pointers | [C++](problems/1957.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1967 | [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 E | String, Brute Force | [C++](problems/1967.md) | O(N\*M) | O(1) |  |
 | 🔴 生疏 | 2138 | [Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/) | 🟢 E | String | [C++](problems/2138.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 E | String Character Classification, Simulation | [C++](problems/2185.md) | O(N\*M) | O(1) |  |
@@ -480,12 +480,13 @@
 | 🔴 生疏 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 M | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) |  |
 
 <a id="review-pointers"></a>
-#### 👥 Pointers（60）
+#### 👥 Pointers（61）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 M | Two Pointers Opposite | [C++](problems/0011.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap | [C++](problems/0977.md) | O(N) | O(N) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | Two Pointers Same | [C++](problems/1957.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 H | Two Pointers Same | [C++](problems/0004.md) | O(log(M+N)) | O(1) |  |
 | 🔴 生疏 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 M | Two Pointers Center Expansion, Expand Around Center, Two Pointers | [C++](problems/0005.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 M | Two Pointers Opposite, Two Pointers, Sorting | [C++](problems/0015.md) | O(N²) | O(logN) |  |
@@ -530,7 +531,7 @@
 | 🔴 生疏 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 M | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/2095.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 M | Two Pointers Same, Two Pointers | [C++](problems/2109.md) | O(N+M) | O(N+M) |  |
 | 🔴 生疏 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 M | Fast Slow Pointers | [C++](problems/2130.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers, Simulation | [C++](problems/2460.md) | O(N) | O(1) |  |
+| 🔴 生疏 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](problems/2460.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/2540.md) | O(N+M) | O(1) |  |
 | 🔴 生疏 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 E | Two Pointers | [C++](problems/2562.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Two Pointers Same | [C++](problems/2864.md) | O(N) | O(1) |  |
@@ -1100,7 +1101,7 @@
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [stack](topics/stack.md) | 12 | 1 | 0 | 3 | 0 | 16 |
 | [string](topics/string.md) | 15 | 4 | 1 | 18 | 0 | 38 |
-| [string-character-classification](topics/string-character-classification.md) | 5 | 3 | 0 | 22 | 0 | 30 |
+| [string-character-classification](topics/string-character-classification.md) | 4 | 4 | 0 | 22 | 0 | 30 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 1 | 0 | 0 | 3 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [string-substring](topics/string-substring.md) | 1 | 0 | 1 | 0 | 0 | 2 |
@@ -1118,7 +1119,7 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 14 | 1 | 0 | 1 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 1 | 1 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 2 | 0 | 0 | 1 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 19 | 0 | 0 | 1 | 0 | 20 |
+| [two-pointers-same](topics/two-pointers-same.md) | 19 | 1 | 0 | 1 | 0 | 21 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 8 | 1 | 0 | 5 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |

@@ -6,7 +6,6 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Fast Slow Pointers
-  - Simulation
   topics:
   - fast-slow-pointers
   time: O(N)
@@ -21,10 +20,14 @@ solutions:
   - 27
   - 80
   - 283
+  - 1957
   attempts:
   - date: '2026-10-18'
     result: 對
     reason: null
   - date: '2026-11-11'
+    result: 對
+    reason: null
+  - date: '2026-11-25'
     result: 對
     reason: null

@@ -25,9 +25,11 @@
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](../problems/3819.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](../problems/3940.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | Two Pointers Same | [C++](../problems/1957.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（0）
 

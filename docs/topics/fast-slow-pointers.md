@@ -13,7 +13,7 @@
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 E | Fast Slow Pointers | [C++](../problems/0283.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 M | Fast Slow Pointers, Fast-Slow Pointers | [C++](../problems/2095.md) | O(N) | O(1) |  |
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 M | Fast Slow Pointers | [C++](../problems/2130.md) | O(N) | O(1) |  |
-| 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers, Simulation | [C++](../problems/2460.md) | O(N) | O(1) |  |
+| 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](../problems/2460.md) | O(N) | O(1) |  |
 
 ## 🟠 再練習（0）
 

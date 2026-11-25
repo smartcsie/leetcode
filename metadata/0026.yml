@@ -13,9 +13,10 @@ solutions:
   familiarity: 生疏
   official_solution: better
   related:
-  - 26
+  - 27
   - 80
   - 283
+  - 1957
   - 2460
   attempts:
   - date: '2026-09-29'
@@ -43,6 +44,12 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-11'
+    result: 對
+    reason: null
+  - date: '2026-11-25'
+    result: 對
+    reason: null
+  - date: '2026-11-25'
     result: 對
     reason: null
   is_representative: true
