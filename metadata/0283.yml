@@ -10,7 +10,8 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-25'
   is_best: true
   official_solution: synced
   related:
@@ -35,5 +36,8 @@ solutions:
   - date: '2026-11-25'
     result: 對
     reason: null
+  - date: '2026-11-25'
+    result: 對
+    reason: null
   is_representative: true
-  representative_tag: Read-Write Two Pointers With Swap
+  representative_tag: Fast Slow Pointer With Swap
