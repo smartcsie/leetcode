@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：699 題　🟠 再練習：50 題　🟣 易忘：30 題　🟢 熟練：218 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：698 題　🟠 再練習：51 題　🟣 易忘：30 題　🟢 熟練：218 題　⚪ 未標記：0 題
 
 ---
 
@@ -487,6 +487,7 @@
 | 🟠 再練習 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 M | Two Pointers Opposite | [C++](problems/0011.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 🟠 再練習 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 E | Two Pointers Partition | [C++](problems/0088.md) | O(M+N) | O(1) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 M | Two Pointers Same | [C++](problems/0328.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap | [C++](problems/0977.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | Two Pointers Same | [C++](problems/1957.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](problems/2460.md) | O(N) | O(1) |  |
@@ -506,7 +507,6 @@
 | 🔴 生疏 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 E | Two Pointers Other | [C++](problems/0160.md) | O(N+M) | O(1) |  |
 | 🔴 生疏 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 E | Array, Two Pointers | [C++](problems/0228.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 M | Two Pointers Same | [C++](problems/0328.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/0345.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/0392.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 M | Two Pointers | [C++](problems/0443.md) | O(N) | O(1) |  |
@@ -1115,7 +1115,7 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 14 | 1 | 0 | 1 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 1 | 1 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 0 | 1 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 19 | 1 | 0 | 1 | 0 | 21 |
+| [two-pointers-same](topics/two-pointers-same.md) | 18 | 2 | 0 | 1 | 0 | 21 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 8 | 1 | 0 | 5 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |

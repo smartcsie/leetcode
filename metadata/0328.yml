@@ -10,8 +10,12 @@ solutions:
   - two-pointers-same
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: synced
   attempts:
   - date: '2026-10-20'
+    result: 對
+    reason: null
+  - date: '2026-11-25'
     result: 對
     reason: null

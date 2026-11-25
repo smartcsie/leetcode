@@ -20,7 +20,7 @@ public:
 
         ListNode* odd = head;          // 奇數鏈起點
         ListNode* even = head->next;   // 偶數鏈起點
-        ListNode* evenHead = even;     // 保留偶數鏈起點，用於最後合併
+        ListNode* evenHead = head->next; // 保留偶數鏈起點，用於最後合併
 
         // 遍歷直到偶數鏈沒有下一個節點
         while (even && even->next) {
