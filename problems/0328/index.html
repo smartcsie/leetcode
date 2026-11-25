@@ -5042,10 +5042,11 @@
 
 <h1 id="328-odd-even-linked-list">328. Odd Even Linked List<a class="headerlink" href="#328-odd-even-linked-list" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/odd-even-linked-list/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟡 M　<strong>標籤:</strong> Two Pointers Same　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏</p>
+<p><strong>難度:</strong> 🟡 M　<strong>標籤:</strong> Two Pointers Same　<strong>時間:</strong> O(N)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟠 再練習　<strong>官方解答:</strong> ✅ 已同步官方解答</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-10-20</strong> 對</li>
+<li>✅ <strong>2026-11-25</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：328. Odd Even Linked List (奇偶鏈結串列)</span>
@@ -5069,7 +5070,7 @@
 <a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
 <a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">odd</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">head</span><span class="p">;</span><span class="w">          </span><span class="c1">// 奇數鏈起點</span>
 <a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">even</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">head</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span><span class="w">   </span><span class="c1">// 偶數鏈起點</span>
-<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">evenHead</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">even</span><span class="p">;</span><span class="w">     </span><span class="c1">// 保留偶數鏈起點，用於最後合併</span>
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a><span class="w">        </span><span class="n">ListNode</span><span class="o">*</span><span class="w"> </span><span class="n">evenHead</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">head</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">;</span><span class="w"> </span><span class="c1">// 保留偶數鏈起點，用於最後合併</span>
 <a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>
 <a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">        </span><span class="c1">// 遍歷直到偶數鏈沒有下一個節點</span>
 <a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">even</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">even</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
