@@ -10,11 +10,12 @@ solutions:
   - math-game-theory
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **偶勝奇敗，n是偶數時Alice可以選擇1，必勝**<br>
 
     > **n 為奇數時的性質：奇數的因數必為奇數**<br>'
   is_best: true
+  official_solution: no-solution
   related:
   - 3227
   attempts:
@@ -24,4 +25,20 @@ solutions:
   - date: '2026-10-23'
     result: 對
     reason: null
+  - date: '2026-11-25'
+    result: 對
+    reason: null
+- file: Solution_1025_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Dp Game Theory
+  topics:
+  - dp-game-theory
+  time: O(n^2)
+  space: O(n)
+  familiarity: 易忘
   official_solution: no-solution
+  attempts:
+  - date: '2026-11-25'
+    result: 對
+    reason: null

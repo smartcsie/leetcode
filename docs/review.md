@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：712 題　🟠 再練習：44 題　🟣 易忘：27 題　🟢 熟練：214 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：711 題　🟠 再練習：44 題　🟣 易忘：28 題　🟢 熟練：214 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 851 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 852 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（60）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（107）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（60）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -68,7 +68,6 @@
 | 🔴 生疏 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 M | Math Permutation | [C++](problems/0949.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 M | Math, Hash Table | [C++](problems/0970.md) | O(MN) | O(S) |  |
 | 🔴 生疏 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 M | Math | [C++](problems/1015.md) | O(K) | O(1) |  |
-| 🔴 生疏 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 E | Math Game Theory | [C++](problems/1025.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 E | Math Gcd | [C++](problems/1071.md) | O(N+M) | O(N+M) |  |
 | 🔴 生疏 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 E | Math | [C++](problems/1185.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 E | Math | [C++](problems/1185.md) | O(1) | O(1) | ❌ 官方沒有解答 |
@@ -140,6 +139,7 @@
 | 🟣 易忘 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 E | Math Digit Decomposition | [C++](problems/0989.md) | O(max(n, d)) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 M | Math Digit Decomposition | [C++](problems/1017.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 E | Math Game Theory | [C++](problems/1025.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🟣 易忘 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 M | Math Formula | [C++](problems/1551.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Math | [C++](problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
@@ -718,7 +718,7 @@
 | 🔴 生疏 | 3913 | [Sort Vowels by Frequency](https://leetcode.com/problems/sort-vowels-by-frequency/) | 🟡 M | Sorting Custom Comparator | [C++](problems/3913.md) | O(NlogN) | O(N) | ❌ 官方沒有解答 |
 
 <a id="review-dynamic-programming"></a>
-#### 🧩 Dynamic Programming（107）
+#### 🧩 Dynamic Programming（108）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -829,6 +829,7 @@
 | 🔴 生疏 | 2376 | [Count Special Integers](https://leetcode.com/problems/count-special-integers/) | 🔴 H | Dp Digit | [C++](problems/2376.md) | O(D²) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](problems/2707.md) | O(N³) | O(N+D) |  |
 | 🔴 生疏 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 M | Dp Lis, Dynamic Programming Lis, Longest Non-Decreasing Subsequence | [C++](problems/2826.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 E | Dp Game Theory | [C++](problems/1025.md) | O(n^2) | O(n) | ❌ 官方沒有解答 |
 
 <a id="review-greedy"></a>
 #### 🧩 Greedy（83）
@@ -1027,7 +1028,7 @@
 | [dp-bitmask](topics/dp-bitmask.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [dp-digit](topics/dp-digit.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dp-fibonacci](topics/dp-fibonacci.md) | 8 | 0 | 0 | 0 | 0 | 8 |
-| [dp-game-theory](topics/dp-game-theory.md) | 6 | 0 | 0 | 0 | 0 | 6 |
+| [dp-game-theory](topics/dp-game-theory.md) | 6 | 0 | 1 | 0 | 0 | 7 |
 | [dp-greedy-pointer](topics/dp-greedy-pointer.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [dp-grid-path](topics/dp-grid-path.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 6 |
@@ -1076,7 +1077,7 @@
 | [math-digit-decomposition](topics/math-digit-decomposition.md) | 25 | 1 | 2 | 15 | 0 | 43 |
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 5 | 0 | 3 | 1 | 0 | 9 |
-| [math-game-theory](topics/math-game-theory.md) | 4 | 0 | 1 | 1 | 0 | 6 |
+| [math-game-theory](topics/math-game-theory.md) | 3 | 0 | 2 | 1 | 0 | 6 |
 | [math-gcd](topics/math-gcd.md) | 7 | 0 | 0 | 2 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 2 | 0 | 3 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 0 | 2 |

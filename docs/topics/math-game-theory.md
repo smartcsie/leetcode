@@ -1,11 +1,10 @@
 # math-game-theory
 
-## 🔴 生疏（4）
+## 🔴 生疏（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 H | Math Game Theory | [C++](../problems/0810.md) | O(N) | O(1) |  |
-| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 E | Math Game Theory | [C++](../problems/1025.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 1927 | [Sum Game](https://leetcode.com/problems/sum-game/) | 🟡 M | Math Game Theory, Game Theory | [C++](../problems/1927.md) | O(N) | O(1) |  |
 | 3232 | [Find if Digit Game Can Be Won](https://leetcode.com/problems/find-if-digit-game-can-be-won/) | 🟢 E | Math Game Theory | [C++](../problems/3232.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
@@ -13,11 +12,12 @@
 
 目前沒有標記為再練習的解法。
 
-## 🟣 易忘（1）
+## 🟣 易忘（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | 🟢 E | Math Game Theory | [C++](../problems/0292.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 E | Math Game Theory | [C++](../problems/1025.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟢 熟悉（1）
 
