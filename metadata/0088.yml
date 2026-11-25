@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Partition
-  - Two Pointers
   topics:
   - two-pointers-partition
   time: O(M+N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: synced
   attempts:
   - date: '2026-09-29'
     result: 對
@@ -20,5 +20,8 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-11-25'
     result: 對
     reason: null
