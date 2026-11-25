@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：710 題　🟠 再練習：44 題　🟣 易忘：29 題　🟢 熟練：214 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：709 題　🟠 再練習：45 題　🟣 易忘：29 題　🟢 熟練：214 題　⚪ 未標記：0 題
 
 ---
 
@@ -37,6 +37,7 @@
 | 🟠 再練習 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 E | Math | [C++](problems/0066.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 E | Math | [C++](problems/0066.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | 🟢 E | Math Digit Decomposition | [C++](problems/0168.md) | O(log26N) | O(1) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 E | Math Gcd | [C++](problems/2427.md) | O(min(A,B)) | O(1) | ❌ 官方沒有解答 |
 | 🟠 再練習 | 2894 | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/) | 🟢 E | Math | [C++](problems/2894.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 M | Math Digit Decomposition | [C++](problems/0007.md) | O(logN) | O(1) |  |
 | 🔴 生疏 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | 🟡 M | Math Digit Decomposition, Math | [C++](problems/0008.md) | O(N) | O(1) |  |
@@ -89,7 +90,6 @@
 | 🔴 生疏 | 2293 | [Min Max Game](https://leetcode.com/problems/min-max-game/) | 🟢 E | Math Simulation | [C++](problems/2293.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2310 | [Sum of Numbers With Units Digit K](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/) | 🟡 M | Math, Enumeration | [C++](problems/2310.md) | O(10) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2396 | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/) | 🟡 M | Math Palindrome | [C++](problems/2396.md) | O(1) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 E | Math Gcd | [C++](problems/2427.md) | O(min(A,B)) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2443 | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/) | 🟡 M | Math Digit Decomposition, Simulation | [C++](problems/2443.md) | O(NlogN) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2455 | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | 🟢 E | Math, Array | [C++](problems/2455.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2507 | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/) | 🟡 M | Math Factor Enumeration, Prime Factorization | [C++](problems/2507.md) | O(logN\*sqrt(N)) | O(1) | ❌ 官方沒有解答 |
@@ -1078,7 +1078,7 @@
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 5 | 0 | 3 | 1 | 0 | 9 |
 | [math-game-theory](topics/math-game-theory.md) | 3 | 0 | 2 | 1 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 6 | 0 | 1 | 2 | 0 | 9 |
+| [math-gcd](topics/math-gcd.md) | 5 | 1 | 1 | 2 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 2 | 0 | 3 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 2 | 0 | 0 | 0 | 0 | 2 |

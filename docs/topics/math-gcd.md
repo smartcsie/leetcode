@@ -1,6 +1,6 @@
 # math-gcd
 
-## 🔴 生疏（6）
+## 🔴 生疏（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,12 +8,13 @@
 | 914 | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/) | 🟢 E | Math Gcd | [C++](../problems/0914.md) | O(N) | O(N) |  |
 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 E | Math Gcd | [C++](../problems/1071.md) | O(N+M) | O(N+M) |  |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 E | Math Gcd, GCD | [C++](../problems/1979.md) | O(N) | O(1) |  |
-| 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 E | Math Gcd | [C++](../problems/2427.md) | O(min(A,B)) | O(1) | ❌ 官方沒有解答 |
 | 3867 | [Sum of GCD of Formed Pairs](leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | 🟡 M | Math Gcd, GCD | [C++](../problems/3867.md) | O(NlogN) | O(N) |  |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2427 | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/) | 🟢 E | Math Gcd | [C++](../problems/2427.md) | O(min(A,B)) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（1）
 
