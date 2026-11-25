@@ -176,6 +176,7 @@
 | 344 | 👑 **Two Pointers Swap**<br>[Reverse String](https://leetcode.com/problems/reverse-string) | 🟢 E | Two Pointers Swap | [C++](problems/0344.md) | O(N) | O(1) |
 | 392 | 👑 **Two Pointers Same**<br>[Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/0392.md) | O(N) | O(1) |
 | 633 | 👑 **Fermat’s theorem on sums of two squares**<br>[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0633.md) | O(√C) | O(1) |
+| 876 | 👑 **List Fast Slow Pointer**<br>[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 E | Fast Slow Pointers | [C++](problems/0876.md) | O(N) | O(1) |
 | 917 | 👑 **Two Pointers Swap**<br>[Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters/) | 🟢 E | Two Pointers Swap | [C++](problems/0917.md) | O(N) | O(1) |
 | 977 | 👑 **Iterator**<br>[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap | [C++](problems/0977.md) | O(N) | O(N) |
 | 3823 | 👑 **char ispunct**<br>[Reverse Letters Then Special Characters](leetcode.com/problems/reverse-letters-then-special-characters-in-a-string) | 🟢 E | Two Pointers Swap | [C++](problems/3823.md) | O(N) | O(1) |

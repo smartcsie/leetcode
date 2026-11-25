@@ -12,7 +12,7 @@ solutions:
   space: O(1)
   familiarity: 熟練
   mastered_date: '2026-11-24'
-  official_solution: null
+  official_solution: synced
   related:
   - 141
   tricks:
@@ -27,3 +27,8 @@ solutions:
   - date: '2026-11-24'
     result: 對
     reason: null
+  - date: '2026-11-25'
+    result: 對
+    reason: null
+  is_representative: true
+  representative_tag: List Fast Slow Pointer

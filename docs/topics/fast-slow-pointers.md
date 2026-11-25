@@ -30,4 +30,4 @@
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 M | Fast Slow Pointers | [C++](../problems/0080.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | 🟢 E | Fast Slow Pointers | [C++](../problems/0141.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | 🟢 E | Fast Slow Pointers | [C++](../problems/0283.md) | O(N) | O(1) | ✅ 已同步官方解答 |
-| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 E | Fast Slow Pointers | [C++](../problems/0876.md) | O(N) | O(1) |  |
+| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | 🟢 E | Fast Slow Pointers | [C++](../problems/0876.md) | O(N) | O(1) | ✅ 已同步官方解答 |
