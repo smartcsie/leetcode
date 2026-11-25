@@ -10,16 +10,15 @@
 class Solution {
 public:
     vector<int> applyOperations(vector<int>& nums) {
-        for(int i = 0; i < nums.size() - 1; i++) {
-            if(nums[i] == nums[i+1]) {
-                nums[i] *= 2;
-                nums[i+1] = 0;
+        int n = nums.size();
+        for(int fast = 0, slow = 0; fast < n; fast++) {
+            // 先對 nums[i] 做這一步操作（與後一個相等就加倍，後一個歸零）
+            if(fast + 1 < n && nums[fast] == nums[fast + 1]) {
+                nums[fast] *= 2;
+                nums[fast + 1] = 0;
             }
-        }
-        for(int fast = 0 , slow = 0; fast < nums.size(); fast++) {
-            if(nums[fast] != 0) {
-                swap(nums[fast], nums[slow++]);
-            }
+            // 操作完 nums[i] 就定案了，非 0 的往前搬到 slow
+            if(nums[fast] != 0) swap(nums[slow++], nums[fast]);
         }
         return nums;
     }

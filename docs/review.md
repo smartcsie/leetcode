@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：702 題　🟠 再練習：48 題　🟣 易忘：30 題　🟢 熟練：217 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：701 題　🟠 再練習：49 題　🟣 易忘：30 題　🟢 熟練：217 題　⚪ 未標記：0 題
 
 ---
 
@@ -488,6 +488,7 @@
 | 🟠 再練習 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 🟠 再練習 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap | [C++](problems/0977.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | Two Pointers Same | [C++](problems/1957.md) | O(n) | O(1) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](problems/2460.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 H | Two Pointers Same | [C++](problems/0004.md) | O(log(M+N)) | O(1) |  |
 | 🔴 生疏 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 M | Two Pointers Center Expansion, Expand Around Center, Two Pointers | [C++](problems/0005.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 M | Two Pointers Opposite, Two Pointers, Sorting | [C++](problems/0015.md) | O(N²) | O(logN) |  |
@@ -528,7 +529,6 @@
 | 🔴 生疏 | 2095 | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) | 🟡 M | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/2095.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 M | Two Pointers Same, Two Pointers | [C++](problems/2109.md) | O(N+M) | O(N+M) |  |
 | 🔴 生疏 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 M | Fast Slow Pointers | [C++](problems/2130.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](problems/2460.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/2540.md) | O(N+M) | O(1) |  |
 | 🔴 生疏 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 E | Two Pointers | [C++](problems/2562.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Two Pointers Same | [C++](problems/2864.md) | O(N) | O(1) |  |
@@ -1041,7 +1041,7 @@
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dp-tree](topics/dp-tree.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dynamic-programming](topics/dynamic-programming.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 6 | 1 | 1 | 4 | 0 | 12 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 5 | 2 | 1 | 4 | 0 | 12 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [graph-bfs](topics/graph-bfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [graph-dfs](topics/graph-dfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
