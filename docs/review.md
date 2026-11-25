@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：705 題　🟠 再練習：48 題　🟣 易忘：30 題　🟢 熟練：214 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：704 題　🟠 再練習：48 題　🟣 易忘：30 題　🟢 熟練：215 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 854 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 853 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（36）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（61）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（36）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（60）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -480,7 +480,7 @@
 | 🔴 生疏 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 M | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) |  |
 
 <a id="review-pointers"></a>
-#### 👥 Pointers（61）
+#### 👥 Pointers（60）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -494,7 +494,6 @@
 | 🔴 生疏 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 M | Array, Two Pointers, Sorting | [C++](problems/0016.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0018.md) | O(N³) | O(1) |  |
 | 🔴 生疏 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 M | Fast Slow Pointers | [C++](problems/0019.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 E | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0027.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 M | Array, Two Pointers | [C++](problems/0031.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 M | Two Pointers Partition | [C++](problems/0075.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | 🟡 M | Fast Slow Pointers | [C++](problems/0080.md) | O(N) | O(1) | 🌟 優於官方解答 |
@@ -1044,7 +1043,7 @@
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dp-tree](topics/dp-tree.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dynamic-programming](topics/dynamic-programming.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 9 | 1 | 1 | 1 | 0 | 12 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 8 | 1 | 1 | 2 | 0 | 12 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [graph-bfs](topics/graph-bfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [graph-dfs](topics/graph-dfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
