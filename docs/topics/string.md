@@ -1,6 +1,6 @@
 # string
 
-## 🔴 生疏（17）
+## 🔴 生疏（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,6 @@
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 E | String | [C++](../problems/0058.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 M | String, Two Pointers | [C++](../problems/0524.md) | O(DlogD+D\*M) | O(1) |  |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 M | String, Counting Sort | [C++](../problems/0791.md) | O(N+M) | O(1) |  |
-| 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 E | String, String | [C++](../problems/0944.md) | O(N\*M) | O(M) |  |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](../problems/1016.md) | O(N\*LEN) | O(1) | ❌ 官方沒有解答 |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](../problems/1016.md) | O(L^2 log L) | O(logn) | ❌ 官方沒有解答 |
 | 1592 | [Rearrange Spaces Between Words](https://leetcode.com/problems/rearrange-spaces-between-words/) | 🟢 E | String, Simulation | [C++](../problems/1592.md) | O(N) | O(N) | ❌ 官方沒有解答 |
@@ -22,12 +21,13 @@
 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 M | String, Brute Force | [C++](../problems/3722.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 E | String, Simulation, Math | [C++](../problems/3986.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（3）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | 🟢 E | String | [C++](../problems/0557.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 884 | [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences) | 🟢 E | String | [C++](../problems/0884.md) | O(N+M) | O(N+M) | ✅ 已同步官方解答 |
+| 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 E | String | [C++](../problems/0944.md) | O(N\*M) | O(M) | ✅ 已同步官方解答 |
 | 3280 | [Convert Date to Binary](https://leetcode.com/problems/convert-date-to-binary/) | 🟢 E | String | [C++](../problems/3280.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟣 易忘（1）
