@@ -1,6 +1,6 @@
 # linked-list
 
-## 🔴 生疏（19）
+## 🔴 生疏（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,6 @@
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 M | Linked List, Recursion | [C++](../problems/0024.md) | O(N) | O(N) |  |
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 H | Linked List | [C++](../problems/0025.md) | O(N) | O(1) |  |
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | 🟡 M | Linked List, Two Pointers | [C++](../problems/0082.md) | O(N) | O(1) |  |
-| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 🟢 E | Linked List | [C++](../problems/0083.md) | O(N) | O(1) |  |
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 M | Linked List | [C++](../problems/0092.md) | O(N) | O(1) |  |
 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 M | Linked List | [C++](../problems/0143.md) | O(N) | O(1) |  |
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | 🟢 E | Linked List | [C++](../problems/0203.md) | O(N) | O(1) |  |
@@ -24,9 +23,11 @@
 | 2181 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | 🟡 M | Linked List | [C++](../problems/2181.md) | O(N) | O(1) |  |
 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 M | Linked List, Monotonic Stack, Recursion | [C++](../problems/2487.md) | O(N) | O(N) |  |
 
-## 🟠 再練習（0）
+## 🟠 再練習（1）
 
-目前沒有標記為再練習的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 🟢 E | Linked List | [C++](../problems/0083.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（0）
 

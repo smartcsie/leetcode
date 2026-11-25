@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：692 題　🟠 再練習：56 題　🟣 易忘：30 題　🟢 熟練：219 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：691 題　🟠 再練習：57 題　🟣 易忘：30 題　🟢 熟練：219 題　⚪ 未標記：0 題
 
 ---
 
@@ -458,13 +458,13 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 🟢 E | Linked List | [C++](problems/0083.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 M | Linked List, Math | [C++](problems/0002.md) | O(max(N,M)) | O(max(N,M)) |  |
 | 🔴 生疏 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 E | Linked List | [C++](problems/0021.md) | O(N+M) | O(1) |  |
 | 🔴 生疏 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 M | Linked List, Recursion | [C++](problems/0024.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 H | Linked List | [C++](problems/0025.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list) | 🟡 M | Linked List, Two Pointers | [C++](problems/0061.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | 🟡 M | Linked List, Two Pointers | [C++](problems/0082.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 🟢 E | Linked List | [C++](problems/0083.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | 🟡 M | Linked List | [C++](problems/0092.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 M | Linked List | [C++](problems/0143.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | 🟢 E | Linked List | [C++](problems/0203.md) | O(N) | O(1) |  |
@@ -1067,7 +1067,7 @@
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 0 | 10 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 2 | 1 | 3 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 7 | 2 | 0 | 11 | 0 | 20 |
-| [linked-list](topics/linked-list.md) | 17 | 0 | 0 | 0 | 0 | 17 |
+| [linked-list](topics/linked-list.md) | 16 | 1 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 18 | 2 | 7 | 12 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
