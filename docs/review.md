@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：706 題　🟠 再練習：47 題　🟣 易忘：30 題　🟢 熟練：214 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：705 題　🟠 再練習：48 題　🟣 易忘：30 題　🟢 熟練：214 題　⚪ 未標記：0 題
 
 ---
 
@@ -485,6 +485,7 @@
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 M | Two Pointers Opposite | [C++](problems/0011.md) | O(N) | O(1) |  |
+| 🟠 再練習 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 🟠 再練習 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap | [C++](problems/0977.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | Two Pointers Same | [C++](problems/1957.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 H | Two Pointers Same | [C++](problems/0004.md) | O(log(M+N)) | O(1) |  |
@@ -493,7 +494,6 @@
 | 🔴 生疏 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest) | 🟡 M | Array, Two Pointers, Sorting | [C++](problems/0016.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0018.md) | O(N³) | O(1) |  |
 | 🔴 生疏 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 M | Fast Slow Pointers | [C++](problems/0019.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 🔴 生疏 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 E | Fast Slow Pointers, Fast-Slow Pointers | [C++](problems/0027.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 M | Array, Two Pointers | [C++](problems/0031.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 M | Two Pointers Partition | [C++](problems/0075.md) | O(N) | O(1) |  |
@@ -1044,7 +1044,7 @@
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dp-tree](topics/dp-tree.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dynamic-programming](topics/dynamic-programming.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 10 | 0 | 1 | 1 | 0 | 12 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 9 | 1 | 1 | 1 | 0 | 12 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [graph-bfs](topics/graph-bfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [graph-dfs](topics/graph-dfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
