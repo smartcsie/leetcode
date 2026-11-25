@@ -6,18 +6,20 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Same
-  - Two Pointers
-  - State Transition
   topics:
   - two-pointers-same
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
   note: '> **第一個邊界小於n-2，後面兩個邊界小於n-1**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「易忘」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-21'
+    result: 對
+    reason: null
+  - date: '2026-11-25'
     result: 對
     reason: null

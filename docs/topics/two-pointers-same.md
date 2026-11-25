@@ -1,6 +1,6 @@
 # two-pointers-same
 
-## 🔴 生疏（18）
+## 🔴 生疏（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19,17 +19,17 @@
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 M | Two Pointers Same, Two Pointers | [C++](../problems/2109.md) | O(N+M) | O(N+M) |  |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 E | Two Pointers Same, Two Pointers | [C++](../problems/2540.md) | O(N+M) | O(1) |  |
 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Two Pointers Same | [C++](../problems/2864.md) | O(N) | O(1) |  |
-| 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 E | Two Pointers Same, Two Pointers, State Transition | [C++](../problems/3637.md) | O(N) | O(1) |  |
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](../problems/3819.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](../problems/3940.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
-## 🟠 再練習（3）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 M | Two Pointers Same | [C++](../problems/0328.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 E | Two Pointers Same | [C++](../problems/0392.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | Two Pointers Same | [C++](../problems/1957.md) | O(n) | O(1) | ✅ 已同步官方解答 |
+| 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 E | Two Pointers Same | [C++](../problems/3637.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 ## 🟣 易忘（0）
 
