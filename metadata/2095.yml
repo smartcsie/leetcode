@@ -6,22 +6,26 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Fast Slow Pointers
-  - Fast-Slow Pointers
   topics:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-25'
   note: '> **跟876的差異是，876不用刪除，只要傳回slow**<br>
 
     > **本題要刪除slow node 所以slow 往前一步，需建立dummy**<br>
 
     > **邊界條件，if(!head || !head->next) return nullptr;**<br>'
+  official_solution: synced
   related:
   - 876
   tricks:
   - list fast slow pointer
   attempts:
   - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-11-25'
     result: 對
     reason: null
