@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：697 題　🟠 再練習：52 題　🟣 易忘：30 題　🟢 熟練：218 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：696 題　🟠 再練習：53 題　🟣 易忘：30 題　🟢 熟練：218 題　⚪ 未標記：0 題
 
 ---
 
@@ -489,6 +489,7 @@
 | 🟠 再練習 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 E | Two Pointers Partition | [C++](problems/0088.md) | O(M+N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 M | Two Pointers Same | [C++](problems/0328.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | 🟢 E | Two Pointers Swap | [C++](problems/0345.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 E | Two Pointers Same | [C++](problems/0392.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap | [C++](problems/0977.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | Two Pointers Same | [C++](problems/1957.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](problems/2460.md) | O(N) | O(1) |  |
@@ -508,7 +509,6 @@
 | 🔴 生疏 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 E | Two Pointers Other | [C++](problems/0160.md) | O(N+M) | O(1) |  |
 | 🔴 生疏 | 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0167.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges) | 🟢 E | Array, Two Pointers | [C++](problems/0228.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/0392.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) | 🟡 M | Two Pointers | [C++](problems/0443.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 541 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | 🟢 E | Two Pointers Same | [C++](problems/0541.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 611 | [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | 🟡 M | Two Pointers Opposite | [C++](problems/0611.md) | O(N²) | O(1) |  |
@@ -759,7 +759,6 @@
 | 🔴 生疏 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | 🔴 H | Dp Lis | [C++](problems/0354.md) | O(N log N) | O(N) |  |
 | 🔴 生疏 | 375 | [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | 🟡 M | Dp Interval | [C++](problems/0375.md) | O(N³) | O(N²) |  |
 | 🔴 生疏 | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](problems/0377.md) | O(A\*N) | O(A) |  |
-| 🔴 生疏 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 E | Dp Lcs, Dynamic Programming Lcs, DP, LCS | [C++](problems/0392.md) | O(S\*T) | O(S\*T) |  |
 | 🔴 生疏 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 M | Dp Knapsack, 0-1 Knapsack | [C++](problems/0416.md) | O(N\*S) | O(NS) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 446 | [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) | 🔴 H | Dp Subsequences | [C++](problems/0446.md) | O(N²) | O(N²) |  |
 | 🔴 生疏 | 464 | [Can I Win](https://leetcode.com/problems/can-i-win/) | 🟡 M | Dp Game Theory | [C++](problems/0464.md) | O(2^N \* N) | O(2^N) | ❌ 官方沒有解答 |
@@ -827,6 +826,7 @@
 | 🔴 生疏 | 2376 | [Count Special Integers](https://leetcode.com/problems/count-special-integers/) | 🔴 H | Dp Digit | [C++](problems/2376.md) | O(D²) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 M | Dp Knapsack, Unbounded Knapsack | [C++](problems/2707.md) | O(N³) | O(N+D) |  |
 | 🔴 生疏 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | 🟡 M | Dp Lis, Dynamic Programming Lis, Longest Non-Decreasing Subsequence | [C++](problems/2826.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | 🟢 E | Dp Lcs | [C++](problems/0392.md) | O(S\*T) | O(S\*T) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 E | Dp Game Theory | [C++](problems/1025.md) | O(n^2) | O(n) | ❌ 官方沒有解答 |
 
 <a id="review-greedy"></a>
@@ -1032,7 +1032,7 @@
 | [dp-interval](topics/dp-interval.md) | 6 | 0 | 0 | 0 | 0 | 6 |
 | [dp-kadane](topics/dp-kadane.md) | 5 | 0 | 0 | 0 | 0 | 5 |
 | [dp-knapsack](topics/dp-knapsack.md) | 12 | 0 | 0 | 0 | 0 | 12 |
-| [dp-lcs](topics/dp-lcs.md) | 11 | 0 | 0 | 0 | 0 | 11 |
+| [dp-lcs](topics/dp-lcs.md) | 10 | 1 | 0 | 0 | 0 | 11 |
 | [dp-lis](topics/dp-lis.md) | 7 | 0 | 0 | 0 | 0 | 7 |
 | [dp-probability](topics/dp-probability.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dp-state-machine](topics/dp-state-machine.md) | 8 | 0 | 0 | 0 | 0 | 8 |
@@ -1115,7 +1115,7 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 14 | 1 | 0 | 1 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 1 | 1 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 0 | 1 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 18 | 2 | 0 | 1 | 0 | 21 |
+| [two-pointers-same](topics/two-pointers-same.md) | 17 | 3 | 0 | 1 | 0 | 21 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 7 | 2 | 0 | 5 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |
