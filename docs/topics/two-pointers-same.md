@@ -1,6 +1,6 @@
 # two-pointers-same
 
-## 🔴 生疏（16）
+## 🔴 生疏（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17,7 +17,6 @@
 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 E | Array, Two Pointers | [C++](../problems/1089.md) | O(N) | O(1) |  |
 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](../problems/1417.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 M | Two Pointers Same, Two Pointers | [C++](../problems/2109.md) | O(N+M) | O(N+M) |  |
-| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Two Pointers Same | [C++](../problems/2864.md) | O(N) | O(1) |  |
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](../problems/3819.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](../problems/3940.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 

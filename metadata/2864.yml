@@ -10,7 +10,9 @@ solutions:
   - greedy-string-construction
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-25'
+  official_solution: better
   attempts:
   - date: '2026-09-21'
     result: 對
@@ -21,21 +23,28 @@ solutions:
   - date: '2026-10-18'
     result: 對
     reason: null
+  - date: '2026-11-25'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: String Concatenation
 - file: Solution_2864_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Two Pointers Same
+  - Fast Slow Pointers
   topics:
-  - two-pointers-same
+  - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: better
   attempts:
   - date: '2026-09-21'
     result: 對
     reason: null
   - date: '2026-10-18'
+    result: 對
+    reason: null
+  - date: '2026-11-25'
     result: 對
     reason: null

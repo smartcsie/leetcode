@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：690 題　🟠 再練習：57 題　🟣 易忘：30 題　🟢 熟練：220 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：689 題　🟠 再練習：58 題　🟣 易忘：30 題　🟢 熟練：220 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 848 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 847 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（36）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（55）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（36）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（55）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -495,6 +495,7 @@
 | 🟠 再練習 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 M | Two Pointers Opposite | [C++](problems/1750.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | Two Pointers Same | [C++](problems/1957.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](problems/2460.md) | O(N) | O(1) |  |
+| 🟠 再練習 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Fast Slow Pointers | [C++](problems/2864.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 🟠 再練習 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 E | Two Pointers Same | [C++](problems/3637.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 H | Two Pointers Same | [C++](problems/0004.md) | O(log(M+N)) | O(1) |  |
 | 🔴 生疏 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 M | Two Pointers Center Expansion, Expand Around Center, Two Pointers | [C++](problems/0005.md) | O(N²) | O(1) |  |
@@ -529,7 +530,6 @@
 | 🔴 生疏 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 M | Two Pointers Same, Two Pointers | [C++](problems/2109.md) | O(N+M) | O(N+M) |  |
 | 🔴 生疏 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 M | Fast Slow Pointers | [C++](problems/2130.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 E | Two Pointers | [C++](problems/2562.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Two Pointers Same | [C++](problems/2864.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/3467.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/3794.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/3819.md) | O(N) | O(N) | ❌ 官方沒有解答 |
@@ -828,7 +828,7 @@
 | 🟣 易忘 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 E | Dp Game Theory | [C++](problems/1025.md) | O(n^2) | O(n) | ❌ 官方沒有解答 |
 
 <a id="review-greedy"></a>
-#### 🧩 Greedy（83）
+#### 🧩 Greedy（82）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -905,7 +905,6 @@
 | 🔴 生疏 | 2645 | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/) | 🟡 M | Greedy Validity Repair | [C++](problems/2645.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2656 | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/) | 🟢 E | Greedy | [C++](problems/2656.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2815 | [Max Pair Sum in an Array](https://leetcode.com/problems/max-pair-sum-in-an-array/) | 🟢 E | Greedy | [C++](problems/2815.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Greedy String Construction | [C++](problems/2864.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2966 | [Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference/) | 🟡 M | Greedy Sorting Decision | [C++](problems/2966.md) | O(NlogN) | O(1) |  |
 | 🔴 生疏 | 3011 | [Find if Array Can Be Sorted](https://leetcode.com/problems/find-if-array-can-be-sorted/) | 🟡 M | Array, Greedy, Bit Manipulation | [C++](problems/3011.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3014 | [Minimum Number of Pushes to Type Word I](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | 🟡 M | Greedy Sorting Decision, Sorting, Counting | [C++](problems/3014.md) | O(N+26log26) | O(1) |  |
@@ -1038,7 +1037,7 @@
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dp-tree](topics/dp-tree.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dynamic-programming](topics/dynamic-programming.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 3 | 2 | 1 | 6 | 0 | 12 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 3 | 3 | 1 | 6 | 0 | 13 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [graph-bfs](topics/graph-bfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [graph-dfs](topics/graph-dfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
@@ -1058,7 +1057,7 @@
 | [greedy-priority-queue](topics/greedy-priority-queue.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [greedy-selection-constraints](topics/greedy-selection-constraints.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [greedy-sorting-decision](topics/greedy-sorting-decision.md) | 14 | 1 | 0 | 1 | 0 | 16 |
-| [greedy-string-construction](topics/greedy-string-construction.md) | 6 | 1 | 0 | 0 | 0 | 7 |
+| [greedy-string-construction](topics/greedy-string-construction.md) | 5 | 2 | 0 | 0 | 0 | 7 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 11 | 5 | 2 | 12 | 0 | 30 |
@@ -1113,7 +1112,7 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 12 | 3 | 0 | 1 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 1 | 1 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 0 | 1 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 15 | 4 | 0 | 2 | 0 | 21 |
+| [two-pointers-same](topics/two-pointers-same.md) | 14 | 4 | 0 | 2 | 0 | 20 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 7 | 2 | 0 | 5 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |

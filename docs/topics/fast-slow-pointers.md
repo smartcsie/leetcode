@@ -8,12 +8,13 @@
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 M | Linked List, Fast-Slow Pointers | [C++](../problems/0142.md) | O(N) | O(1) |  |
 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 M | Fast Slow Pointers | [C++](../problems/2130.md) | O(N) | O(1) |  |
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](../problems/0026.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](../problems/2460.md) | O(N) | O(1) |  |
+| 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Fast Slow Pointers | [C++](../problems/2864.md) | O(N) | O(1) | 🌟 優於官方解答 |
 
 ## 🟣 易忘（1）
 
