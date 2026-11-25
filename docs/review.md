@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：709 題　🟠 再練習：45 題　🟣 易忘：29 題　🟢 熟練：214 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：708 題　🟠 再練習：45 題　🟣 易忘：30 題　🟢 熟練：214 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 852 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 853 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（35）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（60）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（36）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（60）](#review-pointers)　[🔑 Hash Table（47）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（83）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -204,7 +204,7 @@
 | 🟣 易忘 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](problems/3370.md) |  |  | 🌟 優於官方解答 |
 
 <a id="review-string"></a>
-#### 🔗 String（35）
+#### 🔗 String（36）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -222,7 +222,6 @@
 | 🔴 生疏 | 459 | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern) | 🟢 E | String Kmp, KMP | [C++](problems/0459.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 M | String, Two Pointers | [C++](problems/0524.md) | O(DlogD+D\*M) | O(1) |  |
 | 🔴 生疏 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 M | String, Counting Sort | [C++](problems/0791.md) | O(N+M) | O(1) |  |
-| 🔴 生疏 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 E | String Substring | [C++](problems/0796.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | 🟡 M | String | [C++](problems/0833.md) | O(N+M\*K) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | 🟢 E | String, String | [C++](problems/0944.md) | O(N\*M) | O(M) |  |
 | 🔴 生疏 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](problems/1016.md) | O(N\*LEN) | O(1) | ❌ 官方沒有解答 |
@@ -242,6 +241,8 @@
 | 🔴 生疏 | 3722 | [Lexicographically Smallest String After Reverse](https://leetcode.com/problems/lexicographically-smallest-string-after-reverse/) | 🟡 M | String, Brute Force | [C++](problems/3722.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 E | String Character Classification, Two Pointers | [C++](problems/3775.md) | O(N\*L) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3986 | [Number of Elapsed Seconds Between Two Times](https://leetcode.com/problems/number-of-elapsed-seconds-between-two-times/) | 🟢 E | String, Simulation, Math | [C++](problems/3986.md) | O(1) | O(1) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 E | String Substring | [C++](problems/0796.md) | O(N) | O(N) | ✅ 已同步官方解答 |
+| 🟣 易忘 | 796 | [Rotate String](https://leetcode.com/problems/rotate-string) | 🟢 E | String Kmp | [C++](problems/0796.md) | O(n) | O(n) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](problems/2828.md) |  |  | ❌ 官方沒有解答 |
 
 <a id="review-array"></a>
@@ -1100,9 +1101,9 @@
 | [stack](topics/stack.md) | 12 | 1 | 0 | 3 | 0 | 16 |
 | [string](topics/string.md) | 16 | 3 | 1 | 18 | 0 | 38 |
 | [string-character-classification](topics/string-character-classification.md) | 5 | 3 | 0 | 22 | 0 | 30 |
-| [string-kmp](topics/string-kmp.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [string-kmp](topics/string-kmp.md) | 2 | 0 | 1 | 0 | 0 | 3 |
 | [string-state-machine](topics/string-state-machine.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [string-substring](topics/string-substring.md) | 2 | 0 | 0 | 0 | 0 | 2 |
+| [string-substring](topics/string-substring.md) | 1 | 0 | 1 | 0 | 0 | 2 |
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 3 | 0 | 0 | 1 | 0 | 4 |

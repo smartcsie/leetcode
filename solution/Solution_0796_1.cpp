@@ -1,0 +1,40 @@
+/*
+ * 題目：796. Rotate String
+ * 難度：Easy
+ * 描述：給定兩個字串 s 與 goal。每次「位移」把 s 最左邊的字元移到最右邊。判斷 s 經過若干次位移後，是否能變成 goal。
+ * 分類主題：string-kmp
+ * 技巧：字串加倍 s + s, KMP 字串匹配, lps 失配回退表
+ * 時間複雜度：O(n)
+ * 空間複雜度：O(n)
+ * 解法思路：
+ *   1. 長度不同一定不行，直接回傳 false
+ *   2. s 旋轉任意次的結果，都是 s + s 中長度為 n 的子字串，所以問題變成「goal 是否為 s + s 的子字串」
+ *   3. 建 goal 的 lps 陣列：lps[i] 為 goal[0..i] 最長的相同前綴與後綴長度
+ *   4. 在 s + s 上掃描：字元相符 j 往前，失配時 j 退回 lps[j - 1]，不必從頭比對
+ *   5. j 達到 n 表示 goal 完整出現，回傳 true；掃完仍沒有則回傳 false
+ */
+class Solution {
+public:
+    bool rotateString(string s, string goal) {
+        int n = s.size();
+        if(n != (int)goal.size()) return false;   // 長度不同一定不行
+
+        // 1. 建 goal 的 lps（最長相同前後綴長度）陣列
+        vector<int> lps(n, 0);
+        for(int i = 1, len = 0; i < n; i++) {
+            while(len > 0 && goal[i] != goal[len]) len = lps[len - 1];  // 不符：退回上一個可用的前綴
+            if(goal[i] == goal[len]) len++;
+            lps[i] = len;
+        }
+
+        // 2. 在 s + s 裡用 KMP 找 goal
+        //    s 旋轉後得到的所有字串，都是 s + s 的長度為 n 的子字串
+        string text = s + s;
+        for(int i = 0, j = 0; i < 2 * n; i++) {
+            while(j > 0 && text[i] != goal[j]) j = lps[j - 1];   // 失配：goal 指標退回
+            if(text[i] == goal[j]) j++;
+            if(j == n) return true;                              // goal 完整匹配
+        }
+        return false;
+    }
+};

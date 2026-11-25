@@ -10,12 +10,30 @@ solutions:
   - string-substring
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **s.size() == goal.size() && (s + s).find(goal) != string::npos;** <br>'
+  official_solution: synced
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-11'
+    result: 對
+    reason: null
+  - date: '2026-11-25'
+    result: 對
+    reason: null
+- file: Solution_0796_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - String Kmp
+  topics:
+  - string-kmp
+  time: O(n)
+  space: O(n)
+  familiarity: 易忘
+  official_solution: synced
+  attempts:
+  - date: '2026-11-25'
     result: 對
     reason: null
