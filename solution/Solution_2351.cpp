@@ -16,8 +16,7 @@ public:
     char repeatedCharacter(string s) {
         array<uint8_t, 26> counts{};
         for(char c : s) {
-            counts[c - 'a']++;
-            if(counts[c - 'a'] == 2) return c;
+            if(++counts[c - 'a'] == 2) return c;
         }
         return ' ';
     }
