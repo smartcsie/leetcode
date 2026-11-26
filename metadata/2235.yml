@@ -10,7 +10,7 @@ solutions:
   - bit-manipulation
   time: O(1)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **同 0371. [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)**<br>
 
     > **static_cast<unsigned int>要防止負數Undefined Behavior**<br>'
@@ -30,6 +30,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-11'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
     result: 對
     reason: null
   is_representative: true

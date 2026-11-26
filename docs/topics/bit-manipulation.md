@@ -1,6 +1,6 @@
 # bit-manipulation
 
-## 🔴 生疏（18）
+## 🔴 生疏（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16,7 +16,6 @@
 | 1680 | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) | 🟡 M | Bit Manipulation, Bit Manipulation | [C++](../problems/1680.md) | O(N) | O(1) |  |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | Bit Manipulation | [C++](../problems/2133.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 2206 | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs) | 🟢 E | Bit Manipulation, Hash Table, Counting | [C++](../problems/2206.md) | O(N) | O(1) |  |
-| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 E | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2411 | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/) | 🟡 M | Bit Manipulation Or | [C++](../problems/2411.md) | O(N×30) | O(30) |  |
 | 2729 | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/) | 🟢 E | Bit Manipulation | [C++](../problems/2729.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 2859 | [Sum of Values at Indices With K Set Bits](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/) | 🟢 E | Bit Manipulation, Built-in Function | [C++](../problems/2859.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -31,7 +30,7 @@
 | 2956 | [Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays/) | 🟢 E | Bit Manipulation | [C++](../problems/2956.md) | O(N+M) | O(1) | ❌ 官方沒有解答 |
 | 3083 | [Existence of a Substring in a String and Its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | 🟢 E | Bit Manipulation | [C++](../problems/3083.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
-## 🟣 易忘（6）
+## 🟣 易忘（7）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -40,6 +39,7 @@
 | 476 | [Number Complement](https://leetcode.com/problems/number-complement) | 🟢 E | Bit Manipulation | [C++](../problems/0476.md) | O(1) | O(1) | ⏳ 尚未同步 |
 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/0693.md) | O(1) | O(1) | 🌟 優於官方解答 |
 | 1009 | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer) | 🟢 E | Bit Manipulation | [C++](../problems/1009.md) | O(1) | O(1) | ✅ 已同步官方解答 |
+| 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers) | 🟢 E | Bit Manipulation | [C++](../problems/2235.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 3370 | [Smallest Number With All Set Bits](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | 🟢 E | Bit Manipulation | [C++](../problems/3370.md) |  |  | 🌟 優於官方解答 |
 
 ## 🟢 熟悉（21）
