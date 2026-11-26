@@ -1,6 +1,6 @@
 # stack
 
-## 🔴 生疏（11）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -10,7 +10,6 @@
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 M | Stack | [C++](../problems/0445.md) | O(N+M) | O(N+M) |  |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 M | Stack | [C++](../problems/0921.md) | O(N) | O(1) |  |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 E | Stack | [C++](../problems/1021.md) | O(N) | O(1) |  |
-| 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack | [C++](../problems/1047.md) | O(N) | O(N) |  |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 M | String, Stack | [C++](../problems/1209.md) | O(N) | O(N) |  |
 | 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 E | Stack | [C++](../problems/1544.md) | O(N) | O(N) |  |
 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 M | Stack, Greedy | [C++](../problems/1963.md) | O(N) | O(1) |  |
@@ -22,9 +21,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | 🟢 E | Stack | [C++](../problems/1078.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 
-## 🟣 易忘（0）
+## 🟣 易忘（1）
 
-目前沒有標記為易忘的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack | [C++](../problems/1047.md) | O(N) | O(N) |  |
 
 ## 🟢 熟悉（4）
 

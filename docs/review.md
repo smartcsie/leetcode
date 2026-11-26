@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：659 題　🟠 再練習：64 題　🟣 易忘：33 題　🟢 熟練：241 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：658 題　🟠 再練習：64 題　🟣 易忘：34 題　🟢 熟練：241 題　⚪ 未標記：0 題
 
 ---
 
@@ -591,13 +591,13 @@
 | 🔴 生疏 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 M | Stack | [C++](problems/0921.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 M | Linked List, Monotonic Stack | [C++](problems/1019.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 E | Stack | [C++](problems/1021.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack | [C++](problems/1047.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1081 | [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | 🟡 M | Monotonic Stack, Greedy | [C++](problems/1081.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | 🟡 M | String, Stack | [C++](problems/1209.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | 🟢 E | Array, Stack, Monotonic Stack | [C++](problems/1475.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1544 | [Make The String Great](https://leetcode.com/problems/make-the-string-great/) | 🟢 E | Stack | [C++](problems/1544.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1963 | [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | 🟡 M | Stack, Greedy | [C++](problems/1963.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3174 | [Clear Digits](https://leetcode.com/problems/clear-digits/) | 🟢 E | Stack | [C++](problems/3174.md) | O(N) | O(N) |  |
+| 🟣 易忘 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack | [C++](problems/1047.md) | O(N) | O(N) |  |
 
 <a id="review-priority-queue"></a>
 #### 📚 Priority Queue（7）
@@ -1071,7 +1071,7 @@
 | [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 11 | 1 | 0 | 4 | 0 | 16 |
+| [stack](topics/stack.md) | 10 | 1 | 1 | 4 | 0 | 16 |
 | [string](topics/string.md) | 13 | 4 | 1 | 20 | 0 | 38 |
 | [string-character-classification](topics/string-character-classification.md) | 3 | 4 | 0 | 23 | 0 | 30 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 1 | 0 | 0 | 3 |

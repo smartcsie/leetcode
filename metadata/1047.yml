@@ -10,7 +10,7 @@ solutions:
   - stack
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 易忘
   official_solution: null
   tricks:
   - string stack
@@ -22,6 +22,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-17'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
     result: 對
     reason: null
   is_representative: true

@@ -20,11 +20,12 @@
 class Solution {
 public:
     string removeDuplicates(string s) {
-        string t;
-        for(const char& c : s) {
-            if(!t.empty() && t.back() == c) t.pop_back();
-            else t.push_back(c);
+        int top = 0;                                  // 堆疊大小，s[0..top) 是目前的內容
+        for(char c : s) {
+            if(top > 0 && s[top - 1] == c) top--;     // 和堆疊頂端相同，等於 pop
+            else s[top++] = c;                        // 否則 push
         }
-        return t;
+        s.resize(top);                                // 只保留堆疊裡的部分
+        return s;
     }
 };
