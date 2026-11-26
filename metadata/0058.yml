@@ -10,7 +10,8 @@ solutions:
   - string
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-26'
   official_solution: synced
   attempts:
   - date: '2026-09-20'
@@ -29,5 +30,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-10'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
     result: 對
     reason: null

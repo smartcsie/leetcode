@@ -1,12 +1,11 @@
 # string
 
-## 🔴 生疏（16）
+## 🔴 生疏（15）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix) | 🟢 E | String | [C++](../problems/0014.md) | O(S) | O(1) |  |
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | 🟡 M | String, String | [C++](../problems/0043.md) | O(M\*N) | O(M+N) |  |
-| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 E | String | [C++](../problems/0058.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | 🟡 M | String, Two Pointers | [C++](../problems/0524.md) | O(DlogD+D\*M) | O(1) |  |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | 🟡 M | String, Counting Sort | [C++](../problems/0791.md) | O(N+M) | O(1) |  |
 | 1016 | [Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) | 🟡 M | String | [C++](../problems/1016.md) | O(N\*LEN) | O(1) | ❌ 官方沒有解答 |
@@ -36,10 +35,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](../problems/2828.md) |  |  | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（20）
+## 🟢 熟悉（21）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | 🟢 E | String | [C++](../problems/0058.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | 🟢 E | String | [C++](../problems/0412.md) | O(N) | O(1) |  |
 | 500 | [Keyboard Row](https://leetcode.com/problems/keyboard-row/) | 🟢 E | String | [C++](../problems/0500.md) | O(L) | O(1) | ❌ 官方沒有解答 |
 | 806 | [Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/) | 🟢 E | String | [C++](../problems/0806.md) | O(N) | O(1) | ✅ 已同步官方解答 |
