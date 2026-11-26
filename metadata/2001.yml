@@ -10,8 +10,7 @@ solutions:
   - math
   time: O(N)
   space: O(N)
-  familiarity: 熟練
-  mastered_date: '2026-11-26'
+  familiarity: 再練習
   note: '> **C(n,2)**<br>
 
     > 1LL，1.0<br>'
@@ -38,6 +37,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-12'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
     result: 對
     reason: null
   - date: '2026-11-26'
