@@ -6,16 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Swap
-  - Two Pointers
   topics:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 生疏
-  note: '> [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/)
-    <br>
-
-    > 905[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)的擴展<br>
+  familiarity: 熟練
+  mastered_date: '2026-11-26'
+  note: '> 905[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity)的擴展<br>
 
     > 多了最後把元素改成0(even)和1(odd)， **for(int& num : nums) num &= 1** <br>
 
@@ -26,8 +23,11 @@ solutions:
 
 
     <br><br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-16'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-26'
+    result: 對
+    reason: null
