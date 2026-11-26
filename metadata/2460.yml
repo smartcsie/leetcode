@@ -21,6 +21,7 @@ solutions:
   - 80
   - 283
   - 1957
+  - 3940
   attempts:
   - date: '2026-10-18'
     result: 對
@@ -32,5 +33,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-11-25'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
     result: 對
     reason: null

@@ -22,6 +22,9 @@ solutions:
   - date: '2026-11-25'
     result: 對
     reason: null
+  - date: '2026-11-26'
+    result: 對
+    reason: null
 - file: Solution_1957_1.cpp
   difficulty: 🟢 Easy
   tags:
@@ -38,7 +41,11 @@ solutions:
   - 80
   - 283
   - 2460
+  - 3940
   attempts:
   - date: '2026-11-25'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
     result: 對
     reason: null
