@@ -15,22 +15,22 @@
 class Solution {
 public:
     string reformat(string s) {
-        int digits = 0;
-        for (const char& c : s) isdigit(c) digits++;
-        int alphas = s.size() - digits;
-        if (abs(alphas - digits) > 1) return "";
-        bool digitMore = (digits > alphas);
-        string ans(s.size(), ' ');
-        int evenIdx = 0, oddIdx = 1;
-        for (const char& c : s) {
-            if (digitMore == isdigit(c)) {
-                ans[evenIdx] = c;
-                evenIdx += 2;
-            } else {
-                ans[oddIdx] = c;
-                oddIdx += 2;
-            }
+        string alphas;
+        string digits;
+        for(const char& c : s) {
+            if(islower(c)) alphas.push_back(c);
+            else digits.push_back(c);
         }
+        int alphaSize = alphas.size();
+        int digitSize = digits.size();
+        if(abs(alphaSize - digitSize) > 1) return "";
+        string ans;
+        for(int i = 0; i < min(alphaSize, digitSize); i++) {
+            ans.push_back(alphas[i]);
+            ans.push_back(digits[i]);
+        }
+        if(alphaSize > digitSize) ans.push_back(alphas.back());
+        if(alphaSize < digitSize) ans.insert(ans.begin(), digits.back());
         return ans;
     }
 };

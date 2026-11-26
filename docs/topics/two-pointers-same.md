@@ -1,6 +1,6 @@
 # two-pointers-same
 
-## 🔴 生疏（13）
+## 🔴 生疏（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,6 @@
 | 777 | [Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) | 🟡 M | Two Pointers Same, Two Pointers | [C++](../problems/0777.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare) | 🟢 E | Two Pointers Same | [C++](../problems/0844.md) | O(N+M) | O(1) |  |
 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | 🟢 E | Array, Two Pointers | [C++](../problems/1089.md) | O(N) | O(1) |  |
-| 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](../problems/1417.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 M | Two Pointers Same, Two Pointers | [C++](../problems/2109.md) | O(N+M) | O(N+M) |  |
 
 ## 🟠 再練習（6）
@@ -33,10 +32,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 E | Two Pointers Same | [C++](../problems/1417.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately) | 🟢 E | Two Pointers Same | [C++](../problems/1768.md) | O(N+M) | O(1) | ✅ 已同步官方解答 |
 | 2540 | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value) | 🟢 E | Two Pointers Same | [C++](../problems/2540.md) | O(N+M) | O(1) | ✅ 已同步官方解答 |
 | 3819 | [Rotate Non Negative Elements](https://leetcode.com/problems/rotate-non-negative-elements/) | 🟢 E | Two Pointers Same | [C++](../problems/3819.md) | O(N) | O(N) | ❌ 官方沒有解答 |
