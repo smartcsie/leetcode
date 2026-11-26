@@ -10,8 +10,10 @@ solutions:
   - hash-table-uniqueness
   time: O(N)
   space: O(N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-26'
   note: '> **不重複的元素個數 - 0 的個數（因為 0 不需要被減去**<br>'
+  official_solution: no-solution
   tricks:
   - remove duplicates
   attempts:
@@ -27,4 +29,6 @@ solutions:
   - date: '2026-10-18'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-26'
+    result: 對
+    reason: null

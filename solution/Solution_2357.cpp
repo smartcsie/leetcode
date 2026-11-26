@@ -19,8 +19,8 @@
 class Solution {
 public:
     int minimumOperations(vector<int>& nums) {
-        unordered_set<int> seen;
-        for(const int& x : nums) if(x != 0) seen.insert(x);
-        return seen.size();
+        bitset<101> seen;
+        for(const int& x : nums) if(x > 0 ) seen.set(x);
+        return seen.count();
     }
 };
