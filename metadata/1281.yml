@@ -6,16 +6,19 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Math Digit Decomposition
-  - Digit Manipulation
   topics:
   - math-digit-decomposition
   time: O(logN)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-26'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-14'
     result: 對
     reason: null
+  - date: '2026-11-26'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Digit Decomposition
-  official_solution: no-solution

@@ -26,7 +26,7 @@
 | 949 | 👑 **next_permutation**<br>[Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 M | Math Permutation | [C++](problems/0949.md) | O(1) | O(1) |
 | 1071 | 👑 **Euclidean algorithm**<br>[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 E | Math Gcd | [C++](problems/1071.md) | O(N+M) | O(N+M) |
 | 1185 | 👑 **Zeller’s congruence**<br>[Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 E | Math | [C++](problems/1185.md) | O(1) | O(1) |
-| 1281 | 👑 **Digit Decomposition**<br>[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 E | Math Digit Decomposition, Digit Manipulation | [C++](problems/1281.md) | O(logN) | O(1) |
+| 1281 | 👑 **Digit Decomposition**<br>[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 E | Math Digit Decomposition | [C++](problems/1281.md) | O(logN) | O(1) |
 | 1295 | 👑 **number digits**<br>[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | 🟢 E | Math | [C++](problems/1295.md) | O(N) | O(1) |
 | 1344 | 👑 **cast int into double**<br>[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 M | Math | [C++](problems/1344.md) | O(1) | O(1) |
 | 1492 | 👑 **Factor Enumeration**<br>[The kth Factor of n](https://leetcode.com/problems/the-kth-factor-of-n/) | 🟡 M | Math Factor Enumeration | [C++](problems/1492.md) | O(√N) | O(1) |
