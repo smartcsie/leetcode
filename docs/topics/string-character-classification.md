@@ -1,11 +1,10 @@
 # string-character-classification
 
-## 🔴 生疏（4）
+## 🔴 生疏（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1455 | [Check If a Word Occurs As a Prefix](https://leetcode.com/problems/check-if-word-occurs-as-a-prefix-of-any-word-in-a-sentence/) | 🟢 E | String Character Classification | [C++](../problems/1455.md) | O(N) | O(W) |  |
-| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 E | String Character Classification, Simulation | [C++](../problems/2185.md) | O(N\*M) | O(1) |  |
 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 E | String Character Classification | [C++](../problems/2255.md) | O(N\*M) | O(1) | ❌ 官方沒有解答 |
 | 3775 | [Reverse Words With Same Vowel Count](https://leetcode.com/problems/reverse-words-with-same-vowel-count/) | 🟢 E | String Character Classification, Two Pointers | [C++](../problems/3775.md) | O(N\*L) | O(N) | ❌ 官方沒有解答 |
 
@@ -22,7 +21,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（22）
+## 🟢 熟悉（23）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -34,6 +33,7 @@
 | 1903 | [Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/) | 🟢 E | String Character Classification | [C++](../problems/1903.md) | O(N) | O(1) |  |
 | 1935 | [Maximum Number of Words You Can Type](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) | 🟢 E | String Character Classification | [C++](../problems/1935.md) | O(N\*M) | O(1) | 🌟 優於官方解答 |
 | 2124 | [Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs) | 🟢 E | String Character Classification | [C++](../problems/2124.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 E | String Character Classification | [C++](../problems/2185.md) | O(N\*M) | O(1) |  |
 | 2278 | [Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string/) | 🟢 E | String Character Classification | [C++](../problems/2278.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2399 | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/) | 🟢 E | String Character Classification | [C++](../problems/2399.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2490 | [Circular Sentence](https://leetcode.com/problems/circular-sentence) | 🟢 E | String Character Classification | [C++](../problems/2490.md) | O(N) | O(1) | ✅ 已同步官方解答 |

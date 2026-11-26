@@ -62,7 +62,7 @@
 | 1910 | 👑 **String Erase**<br>[Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | 🟡 M | String, String | [C++](problems/1910.md) | O(N\*M) | O(N) |
 | 1961 | 👑 **string append**<br>[Check If String Is a Prefix of Array](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/) | 🟢 E | String | [C++](problems/1961.md) | O(S) | O(S) |
 | 1967 | 👑 **String Contains**<br>[Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) | 🟢 E | String, Brute Force | [C++](problems/1967.md) | O(N\*M) | O(1) |
-| 2185 | 👑 **String Find**<br>[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 E | String Character Classification, Simulation | [C++](problems/2185.md) | O(N\*M) | O(1) |
+| 2185 | 👑 **String Find**<br>[Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | 🟢 E | String Character Classification | [C++](problems/2185.md) | O(N\*M) | O(1) |
 | 2255 | 👑 **String Prefix**<br>[Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/) | 🟢 E | String Character Classification | [C++](problems/2255.md) | O(N\*M) | O(1) |
 | 2496 | 👑 **any_of**<br>[Maximum Value of a String in an Array](https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/) | 🟢 E | String Character Classification | [C++](problems/2496.md) | O(N\*L) | O(1) |
 | 2710 | 👑 **Remove Trailing**<br>[Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/) | 🟢 E | String Character Classification | [C++](problems/2710.md) | O(N) | O(1) |
