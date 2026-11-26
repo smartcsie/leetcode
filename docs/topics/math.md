@@ -46,7 +46,7 @@
 | 342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | 🟢 E | Math | [C++](../problems/0342.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Math | [C++](../problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 
-## 🟢 熟悉（17）
+## 🟢 熟悉（18）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -63,6 +63,7 @@
 | 1344 | [Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock/) | 🟡 M | Math | [C++](../problems/1344.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | 🟢 E | Math | [C++](../problems/1374.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 1980 | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 M | Math | [C++](../problems/1980.md) | O(N²) | O(N) | ✅ 已同步官方解答 |
+| 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 M | Math | [C++](../problems/2001.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2119 | [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 E | Math | [C++](../problems/2119.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number) | 🟡 M | Math | [C++](../problems/2177.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | 🟢 E | Math | [C++](../problems/2469.md) | O(1) | O(1) | ❌ 官方沒有解答 |

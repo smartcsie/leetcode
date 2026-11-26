@@ -5,14 +5,17 @@ solutions:
 - file: Solution_2001.cpp
   difficulty: 🟡 Medium
   tags:
-  - Hash Table Counting
-  - Hash Table
+  - Math
   topics:
-  - hash-table-counting
+  - math
   time: O(N)
   space: O(N)
-  familiarity: 生疏
-  note: '> **C(n,2)**<br>'
+  familiarity: 熟練
+  mastered_date: '2026-11-26'
+  note: '> **C(n,2)**<br>
+
+    > 1LL，1.0<br>'
+  official_solution: no-solution
   related:
   - 1512
   tricks:
@@ -37,6 +40,8 @@ solutions:
   - date: '2026-10-12'
     result: 對
     reason: null
+  - date: '2026-11-26'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Mathematical Transformation
-  official_solution: no-solution

@@ -16,13 +16,15 @@
 class Solution {
 public:
     long long interchangeableRectangles(vector<vector<int>>& rectangles) {
-        unordered_map<double, int> count;
-        long long res = 0;
-        for(const vector<int>& rectangle : rectangles) {
-            double ratio = (double) rectangle[0] / rectangle[1];
-            res += count[ratio];
-            count[ratio]++;
+        long long pairs = 0;
+        unordered_map<double, int> counts;
+        for(const vector<int>& r : rectangles) {
+            double key = static_cast<double>(r[0]) / r[1];
+            counts[key]++;
         }
-        return res;
+        for(const auto& [key, count] : counts) {
+            if(count >= 2) pairs += static_cast<long long>(count) * (count - 1) / 2;
+        }
+        return pairs;
     }
 };

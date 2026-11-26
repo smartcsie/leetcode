@@ -1,12 +1,11 @@
 # hash-table-counting
 
-## 🔴 生疏（9）
+## 🔴 生疏（8）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/) | 🟡 M | Hash Table Counting, Hash Table, Counting | [C++](../problems/0916.md) | O(N \* L) | O(1) |  |
 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 M | Hash Table Counting | [C++](../problems/1647.md) | O(N+KlogK) | O(K) |  |
-| 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 M | Hash Table Counting, Hash Table | [C++](../problems/2001.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 M | Hash Table, String, Single-Pass | [C++](../problems/2023.md) | O(N\*L) | O(N) | ❌ 官方沒有解答 |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 E | Hash Table Counting | [C++](../problems/2351.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 M | Hash Table Counting | [C++](../problems/2491.md) | O(NlogN) | O(1) |  |

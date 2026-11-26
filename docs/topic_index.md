@@ -34,6 +34,7 @@
 | 1925 | 👑 **Pythagorean triples**<br>[Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | 🟢 E | Math | [C++](problems/1925.md) | O(N²) | O(1) |
 | 1979 | 👑 **GCD**<br>[Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | 🟢 E | Math Gcd, GCD | [C++](problems/1979.md) | O(N) | O(1) |
 | 1980 | 👑 **Cantor's Diagonal Argument**<br>[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string) | 🟡 M | Math | [C++](problems/1980.md) | O(N²) | O(N) |
+| 2001 | 👑 **Mathematical Transformation**<br>[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 M | Math | [C++](problems/2001.md) | O(N) | O(N) |
 | 2119 | 👑 **Module**<br>[A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 E | Math | [C++](problems/2119.md) | O(1) | O(1) |
 | 2413 | 👑 **lcm**<br>[Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/) | 🟢 E | Math Gcd | [C++](problems/2413.md) | O(1) | O(1) |
 | 2521 | 👑 **Prime Factorization**<br>[Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/) | 🟡 M | Math Prime, Prime Factorization | [C++](problems/2521.md) | O(N\*sqrt(M)) | O(K) |
@@ -153,7 +154,6 @@
 | 1346 | 👑 **Unordered Set**<br>[Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist) | 🟢 E | Hash Table Existence | [C++](problems/1346.md) | O(N) | O(N) |
 | 1496 | 👑 **vector has no built-in hash, use set instead of unordered_set.**<br>[Path Crossing](https://leetcode.com/problems/path-crossing/) | 🟢 E | Hash Table Uniqueness | [C++](problems/1496.md) | O(N) | O(N) |
 | 1805 | 👑 **string find_first_not_of**<br>[Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 E | Hash Table Uniqueness | [C++](problems/1805.md) | O(N) | O(N) |
-| 2001 | 👑 **Mathematical Transformation**<br>[Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 M | Hash Table Counting, Hash Table | [C++](problems/2001.md) | O(N) | O(N) |
 | 2068 | 👑 **array int8_t**<br>[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/) | 🟢 E | Hash Table Intersection | [C++](problems/2068.md) | O(N) | O(1) |
 | 2352 | 👑 **iterator find**<br>[Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 M | Hash Table Intersection, Hash Map, Matrix Simulation | [C++](problems/2352.md) | O(N³logN) | O(N²) |
 | 2404 | 👑 **Running Maximum With Reset**<br>[Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 E | Hash Table Counting | [C++](problems/2404.md) | O(N) | O(N) |
