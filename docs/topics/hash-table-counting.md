@@ -1,6 +1,6 @@
 # hash-table-counting
 
-## 🔴 生疏（10）
+## 🔴 生疏（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 1647 | [Minimum Deletions...](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | 🟡 M | Hash Table Counting | [C++](../problems/1647.md) | O(N+KlogK) | O(K) |  |
 | 2001 | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) | 🟡 M | Hash Table Counting, Hash Table | [C++](../problems/2001.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 M | Hash Table, String, Single-Pass | [C++](../problems/2023.md) | O(N\*L) | O(N) | ❌ 官方沒有解答 |
-| 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 E | Hash Table Counting, Hash Map, Counting | [C++](../problems/2283.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice) | 🟢 E | Hash Table Counting | [C++](../problems/2351.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 M | Hash Table Counting | [C++](../problems/2491.md) | O(NlogN) | O(1) |  |
 | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 E | Hash Table Counting | [C++](../problems/2570.md) | O(N+M) | O(1) |  |
@@ -32,7 +31,7 @@
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 M | Hash Table Counting | [C++](../problems/0049.md) | O(N\*K) | O(N\*K) | 🌟 優於官方解答 |
 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Hash Table Counting | [C++](../problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（13）
+## 🟢 熟悉（14）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -43,6 +42,7 @@
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs) | 🟢 E | Hash Table Counting | [C++](../problems/1512.md) | O(n + V) | O(1) | 🌟 優於官方解答 |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | 🟢 E | Hash Table Counting | [C++](../problems/1897.md) | O(N\*M) | O(1) | ✅ 已同步官方解答 |
 | 2085 | [Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/) | 🟢 E | Hash Table Counting | [C++](../problems/2085.md) | O(N+M) | O(N+M) | ❌ 官方沒有解答 |
+| 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | 🟢 E | Hash Table Counting | [C++](../problems/2283.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2341 | [Maximum Number of Pairs in Array](https://leetcode.com/problems/maximum-number-of-pairs-in-array/) | 🟢 E | Hash Table Counting | [C++](../problems/2341.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2404 | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element) | 🟢 E | Hash Table Counting | [C++](../problems/2404.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 3005 | [Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency) | 🟢 E | Hash Table Counting | [C++](../problems/3005.md) | O(N) | O(1) | 🌟 優於官方解答 |
