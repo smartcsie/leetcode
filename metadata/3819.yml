@@ -6,21 +6,24 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Same
-  - Two Pointers
   topics:
   - two-pointers-same
   time: O(N)
   space: O(N)
-  familiarity: 生疏
-  note: '> **注意devide by zero，if (nonNegs.empty()) return nums;**<br>
+  familiarity: 熟練
+  mastered_date: '2026-11-26'
+  note: '> **注意devide by zero，if(n == 0) return nums;**<br>
 
     > **left rotate，rotate(nums.begin(), nums.begin() + k, nums.end());**<br>
 
     > **right rotate，rotate(nums.rbegin(), nums.rbegin() + k, nums.rend());**<br>'
+  official_solution: no-solution
   tricks:
   - rotate
   attempts:
   - date: '2026-10-18'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-26'
+    result: 對
+    reason: null

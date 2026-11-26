@@ -11,37 +11,21 @@
  * 2. 透過 range-based for loop 與 reference 寫回原陣列，提升可讀性。
  */
 
-#include <vector>
-#include <algorithm>
-
 class Solution {
 public:
     vector<int> rotateElements(vector<int>& nums, int k) {
-        // 1. 預先收集非負數，並使用 reserve 減少開銷
-        vector<int> nonNegs;
-        nonNegs.reserve(nums.size()); 
-        for(const int num : nums) {
-            if(num >= 0) nonNegs.push_back(num);
+        vector<int> nonNeg;
+        for(const int& x : nums) {
+            if(x >= 0) nonNeg.push_back(x);
         }
-        
-        // 若無非負數或無需旋轉，直接返回
-        if (nonNegs.empty()) return nums;
-        
-        // 2. 規範化 k 的值，確保 rotate 不會越界
-        int n = static_cast<int>(nonNegs.size());
+        int n = nonNeg.size();
+        if(n == 0) return nums;
         k %= n;
-        
-        // 3. 使用標準庫原地旋轉，效率極高 (三段翻轉法)
-        rotate(nonNegs.begin(), nonNegs.begin() + k, nonNegs.end());
-        
-        // 4. 將旋轉後的結果放回原陣列
-        int j = 0;
-        for(int& num : nums) {
-            if(num >= 0) {
-                num = nonNegs[j++];
-            }
+        rotate(nonNeg.begin(), nonNeg.begin() + k, nonNeg.end());
+        int idx = 0;
+        for(int& x : nums) {
+            if(x >= 0) x = nonNeg[idx++];
         }
-        
         return nums;
     }
 };
