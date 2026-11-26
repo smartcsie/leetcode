@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：680 題　🟠 再練習：60 題　🟣 易忘：30 題　🟢 熟練：227 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：679 題　🟠 再練習：61 題　🟣 易忘：30 題　🟢 熟練：227 題　⚪ 未標記：0 題
 
 ---
 
@@ -486,6 +486,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | 🟡 M | Two Pointers Opposite | [C++](problems/0011.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 E | Fast Slow Pointers | [C++](problems/0026.md) | O(N) | O(1) | 🌟 優於官方解答 |
+| 🟠 再練習 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 M | Two Pointers Partition | [C++](problems/0075.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | 🟢 E | Two Pointers Partition | [C++](problems/0088.md) | O(M+N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | 🟡 M | Two Pointers Same | [C++](problems/0328.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | 🟢 E | Two Pointers Swap | [C++](problems/0345.md) | O(N) | O(1) | ✅ 已同步官方解答 |
@@ -506,7 +507,6 @@
 | 🔴 生疏 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 M | Two Pointers Opposite, Two Pointers | [C++](problems/0018.md) | O(N³) | O(1) |  |
 | 🔴 生疏 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | 🟡 M | Fast Slow Pointers | [C++](problems/0019.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | 🟡 M | Array, Two Pointers | [C++](problems/0031.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | 🟡 M | Two Pointers Partition | [C++](problems/0075.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 86 | [Partition List](https://leetcode.com/problems/partition-list/) | 🟡 M | Linked List, Two Pointers | [C++](problems/0086.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | 🟢 E | Two Pointers Opposite, Two Pointers | [C++](problems/0125.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | 🟡 M | Linked List, Fast-Slow Pointers | [C++](problems/0142.md) | O(N) | O(1) |  |
@@ -1104,7 +1104,7 @@
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 10 | 3 | 0 | 3 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 1 | 1 | 0 | 0 | 0 | 2 |
-| [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 0 | 1 | 0 | 3 |
+| [two-pointers-partition](topics/two-pointers-partition.md) | 0 | 2 | 0 | 1 | 0 | 3 |
 | [two-pointers-same](topics/two-pointers-same.md) | 12 | 5 | 0 | 3 | 0 | 20 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 3 | 2 | 0 | 9 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
