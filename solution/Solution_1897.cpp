@@ -14,20 +14,15 @@
 
 class Solution {
 public:
-    bool makeEqual(std::vector<std::string>& words) {
-        std::vector<int> counts(26, 0);
+    bool makeEqual(vector<string>& words) {
+        array<uint16_t, 26> counts{};
         int n = words.size();
-        // 1. 計算所有單字中每個字元的總出現頻率
-        for (const std::string& word : words) {
-            for (const char& c : word) {
-                counts[c - 'a']++;
-            }
+        for(const string& word : words) {
+            for(const char& c : word) counts[c - 'a']++;
         }
-        // 2. 檢查總頻率是否皆能被 n 整除
-        for (int count : counts) {
-            if (count % n != 0) {
-                return false;
-            }
+        for(int i = 0; i < 26; i++) {
+            if(counts[i] == 0) continue;
+            if((counts[i] % n) != 0) return false;;
         }
         return true;
     }
