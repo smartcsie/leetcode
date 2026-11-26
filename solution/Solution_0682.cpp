@@ -13,24 +13,13 @@
 class Solution {
 public:
     int calPoints(vector<string>& operations) {
-        vector<int> scores;
-        // 預分配空間以避免多次重新配置記憶體
-        scores.reserve(operations.size());
-        
-        for (const string& op : operations) {
-            if (op == "C") {
-                scores.pop_back();
-            } else if (op == "D") {
-                scores.push_back(scores.back() * 2);
-            } else if (op == "+") {
-                // scores.back() 是最後一個元素，*(scores.end() - 2) 是倒數第二個
-                scores.push_back(scores.back() + *(scores.end() - 2));
-            } else {
-                scores.push_back(stoi(op));
-            }
+        vector<int> st;
+        for(const string& op : operations) {
+            if(!st.empty() && op[0] == 'C') st.pop_back();
+            else if(!st.empty() && op[0] == 'D') st.push_back(st.back() * 2);
+            else if(st.size() >= 2 && op[0] == '+') st.push_back(st.back() + st[st.size() - 2]);
+            else st.push_back(stoi(op));
         }
-        
-        // 使用 accumulate 計算總和
-        return accumulate(scores.begin(), scores.end(), 0);
+        return accumulate(st.begin(), st.end(), 0);
     }
 };

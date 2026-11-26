@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：660 題　🟠 再練習：64 題　🟣 易忘：33 題　🟢 熟練：240 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：659 題　🟠 再練習：64 題　🟣 易忘：33 題　🟢 熟練：241 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 827 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 826 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（107）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（47）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（107）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（47）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（20）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -574,7 +574,7 @@
 | 🟣 易忘 | 1832 | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/) | 🟢 E | Hash Table Counting | [C++](problems/1832.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-stack"></a>
-#### 📚 Stack（21）
+#### 📚 Stack（20）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -587,7 +587,6 @@
 | 🔴 生疏 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 M | Stack | [C++](problems/0445.md) | O(N+M) | O(N+M) |  |
 | 🔴 生疏 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | 🟢 E | Array, Hash Table, Stack, Monotonic Stack | [C++](problems/0496.md) | O(N+M) | O(N) |  |
 | 🔴 生疏 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii) | 🟡 M | Array, Stack, Monotonic Stack | [C++](problems/0503.md) | O(N) | O(N) |  |
-| 🔴 生疏 | 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 E | Stack | [C++](problems/0682.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures) | 🟡 M | Stack, Monotonic Stack | [C++](problems/0739.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 M | Stack | [C++](problems/0921.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 🟡 M | Linked List, Monotonic Stack | [C++](problems/1019.md) | O(N) | O(N) |  |
@@ -1072,7 +1071,7 @@
 | [sorting-implementation](topics/sorting-implementation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [sorting-radix-sort](topics/sorting-radix-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [sql](topics/sql.md) | 1 | 0 | 0 | 0 | 0 | 1 |
-| [stack](topics/stack.md) | 12 | 1 | 0 | 3 | 0 | 16 |
+| [stack](topics/stack.md) | 11 | 1 | 0 | 4 | 0 | 16 |
 | [string](topics/string.md) | 13 | 4 | 1 | 20 | 0 | 38 |
 | [string-character-classification](topics/string-character-classification.md) | 3 | 4 | 0 | 23 | 0 | 30 |
 | [string-kmp](topics/string-kmp.md) | 2 | 0 | 1 | 0 | 0 | 3 |

@@ -1,6 +1,6 @@
 # stack
 
-## 🔴 生疏（12）
+## 🔴 生疏（11）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 M | Stack | [C++](../problems/0150.md) | O(N) | O(N) |  |
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | 🟢 E | Stack | [C++](../problems/0160.md) | O(M + N) | O(M + N) |  |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii) | 🟡 M | Stack | [C++](../problems/0445.md) | O(N+M) | O(N+M) |  |
-| 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 E | Stack | [C++](../problems/0682.md) | O(N) | O(N) |  |
 | 921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | 🟡 M | Stack | [C++](../problems/0921.md) | O(N) | O(1) |  |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | 🟢 E | Stack | [C++](../problems/1021.md) | O(N) | O(1) |  |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | 🟢 E | Stack | [C++](../problems/1047.md) | O(N) | O(N) |  |
@@ -27,10 +26,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | 🟢 E | Stack | [C++](../problems/0020.md) | O(N) | O(N) | ✅ 已同步官方解答 |
+| 682 | [Baseball Game](https://leetcode.com/problems/baseball-game) | 🟢 E | Stack | [C++](../problems/0682.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | 🟡 M | Stack | [C++](../problems/1003.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 2390 | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) | 🟡 M | Stack | [C++](../problems/2390.md) | O(N) | O(N) | ✅ 已同步官方解答 |
