@@ -10,11 +10,15 @@ solutions:
   - fast-slow-pointers
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: synced
   tricks:
   - stack
   attempts:
   - date: '2026-10-17'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
     result: 對
     reason: null
 - file: Solution_2130_1.cpp
@@ -25,8 +29,9 @@ solutions:
   - linked-list
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
   is_best: true
+  official_solution: synced
   related:
   - 143
   tricks:
@@ -34,5 +39,8 @@ solutions:
   - list fast slow pointer
   attempts:
   - date: '2026-10-17'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
     result: 對
     reason: null

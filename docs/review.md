@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：681 題　🟠 再練習：59 題　🟣 易忘：30 題　🟢 熟練：227 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：680 題　🟠 再練習：60 題　🟣 易忘：30 題　🟢 熟練：227 題　⚪ 未標記：0 題
 
 ---
 
@@ -459,6 +459,7 @@
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 🟠 再練習 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | 🟢 E | Linked List | [C++](problems/0083.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 M | Linked List | [C++](problems/2130.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | 🟡 M | Linked List, Math | [C++](problems/0002.md) | O(max(N,M)) | O(max(N,M)) |  |
 | 🔴 生疏 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 E | Linked List | [C++](problems/0021.md) | O(N+M) | O(1) |  |
 | 🔴 生疏 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | 🟡 M | Linked List, Recursion | [C++](problems/0024.md) | O(N) | O(N) |  |
@@ -475,7 +476,6 @@
 | 🔴 生疏 | 1290 | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | 🟢 E | Linked List, Bit Manipulation | [C++](problems/1290.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1721 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list) | 🟡 M | Linked List | [C++](problems/1721.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1721 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list) | 🟡 M | Linked List | [C++](problems/1721.md) | O(N) | O(1) |  |
-| 🔴 生疏 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 M | Linked List | [C++](problems/2130.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2181 | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | 🟡 M | Linked List | [C++](problems/2181.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 M | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) |  |
 
@@ -494,6 +494,7 @@
 | 🟠 再練習 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | 🟢 E | Two Pointers Swap | [C++](problems/0977.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1750 | [Minimum Length of String After Deleting Similar Ends](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | 🟡 M | Two Pointers Opposite | [C++](problems/1750.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | Two Pointers Same | [C++](problems/1957.md) | O(n) | O(1) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 M | Fast Slow Pointers | [C++](problems/2130.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](problems/2460.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Fast Slow Pointers | [C++](problems/2864.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 🟠 再練習 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 E | Two Pointers Same | [C++](problems/3637.md) | O(N) | O(1) | ✅ 已同步官方解答 |
@@ -529,7 +530,6 @@
 | 🔴 生疏 | 1417 | [Reformat The String](https://leetcode.com/problems/reformat-the-string/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/1417.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2000 | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/2000.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 2109 | [Adding Spaces to a String](https://leetcode.com/problems/adding-spaces-to-a-string) | 🟡 M | Two Pointers Same, Two Pointers | [C++](problems/2109.md) | O(N+M) | O(N+M) |  |
-| 🔴 生疏 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 M | Fast Slow Pointers | [C++](problems/2130.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/3794.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🟣 易忘 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Fast Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
@@ -1030,7 +1030,7 @@
 | [dp-subsequences](topics/dp-subsequences.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dp-tree](topics/dp-tree.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [dynamic-programming](topics/dynamic-programming.md) | 5 | 0 | 0 | 0 | 0 | 5 |
-| [fast-slow-pointers](topics/fast-slow-pointers.md) | 3 | 3 | 1 | 6 | 0 | 13 |
+| [fast-slow-pointers](topics/fast-slow-pointers.md) | 2 | 4 | 1 | 6 | 0 | 13 |
 | [fixed-size-sliding-window](topics/fixed-size-sliding-window.md) | 10 | 0 | 0 | 0 | 0 | 10 |
 | [graph-bfs](topics/graph-bfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [graph-dfs](topics/graph-dfs.md) | 2 | 0 | 0 | 0 | 0 | 2 |
@@ -1058,7 +1058,7 @@
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 0 | 10 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 2 | 1 | 3 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 7 | 2 | 0 | 11 | 0 | 20 |
-| [linked-list](topics/linked-list.md) | 16 | 1 | 0 | 0 | 0 | 17 |
+| [linked-list](topics/linked-list.md) | 15 | 2 | 0 | 0 | 0 | 17 |
 | [linked-list-circular](topics/linked-list-circular.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [math](topics/math.md) | 18 | 2 | 7 | 12 | 0 | 39 |
 | [math-combination](topics/math-combination.md) | 5 | 0 | 0 | 0 | 0 | 5 |
