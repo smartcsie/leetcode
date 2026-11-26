@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：667 題　🟠 再練習：63 題　🟣 易忘：31 題　🟢 熟練：236 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：666 題　🟠 再練習：63 題　🟣 易忘：31 題　🟢 熟練：237 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 831 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 830 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（109）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（49）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（108）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（49）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -30,7 +30,7 @@
 | 🔴 生疏 | 2667 | [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/) | 🟢 E | Greedy, Closure, Function Design | [C++](problems/2667.md) | O(1) | O(1) |  |
 
 <a id="review-math"></a>
-#### 🔢 Math（109）
+#### 🔢 Math（108）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -61,7 +61,6 @@
 | 🔴 生疏 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 E | Math | [C++](problems/0507.md) | O(√N) | O(1) |  |
 | 🔴 生疏 | 507 | [Perfect Number](https://leetcode.com/problems/perfect-number/) | 🟢 E | Math | [C++](problems/0507.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | 🟢 E | Math Digit Decomposition, Simulation | [C++](problems/0728.md) | O(N\*D) | O(1) |  |
-| 🔴 生疏 | 762 | [Prime Number of Set Bits](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | 🟢 E | Math Prime | [C++](problems/0762.md) | O(NlogK) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 810 | [Chalkboard XOR Game](https://leetcode.com/problems/chalkboard-xor-game/) | 🔴 H | Math Game Theory | [C++](problems/0810.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 812 | [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/) | 🟢 E | Math Formula | [C++](problems/0812.md) | O(N³) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 866 | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome/) | 🟡 M | Math Prime | [C++](problems/0866.md) | O(sqrt(10^9)) | O(1) | 🌟 優於官方解答 |
@@ -1061,7 +1060,7 @@
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 2 | 0 | 3 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
-| [math-prime](topics/math-prime.md) | 12 | 0 | 0 | 2 | 0 | 14 |
+| [math-prime](topics/math-prime.md) | 11 | 0 | 0 | 3 | 0 | 14 |
 | [math-simulation](topics/math-simulation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [monotonic-queue](topics/monotonic-queue.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [monotonic-stack](topics/monotonic-stack.md) | 8 | 0 | 0 | 0 | 0 | 8 |
