@@ -6,22 +6,16 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Opposite
-  - Two-Pointers
   topics:
   - two-pointers-opposite
   time: O(N)
   space: O(1)
   familiarity: 生疏
-  note: '> [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/)
-    <br>
-
-    > 兩個index 往中間走，int left = 0; int right = nums.size() - 1;<br>
-
-    > 字元相等，return left，if(s[left] == s[right]) return left;<br>
-
-    <br><br>'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-21'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-26'
+    result: 對
+    reason: null

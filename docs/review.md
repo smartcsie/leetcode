@@ -533,7 +533,7 @@
 | 🔴 生疏 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 E | Two Pointers | [C++](problems/2562.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/3467.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/3794.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 E | Two Pointers Opposite, Two-Pointers | [C++](problems/3884.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 🔴 生疏 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 E | Two Pointers Opposite | [C++](problems/3884.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🟣 易忘 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Fast Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-hash-table"></a>

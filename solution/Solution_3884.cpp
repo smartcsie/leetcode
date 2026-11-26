@@ -13,21 +13,11 @@
 
 class Solution {
 public:
-    int firstMatchingIndex(std::string s) {
-        int left = 0;
-        int right = s.size() - 1;
-        
-        // 雙指標向中間收斂
-        while (left <= right) {
-            // 如果兩端字元相等，返回左側指標位置
-            if (s[left] == s[right]) {
-                return left;
-            }
-            left++;
-            right--;
+    int firstMatchingIndex(string s) {
+        int n = s.size();
+        for(int i = 0; i <= n / 2; i++) {
+            if(s[i] == s[n - 1 - i]) return i;
         }
-        
-        // 若遍歷完成仍無匹配，返回 -1
         return -1;
     }
 };

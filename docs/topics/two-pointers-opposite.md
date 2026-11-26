@@ -15,7 +15,7 @@
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 E | Two Pointers Opposite, Two Pointers | [C++](../problems/0942.md) | O(N) | O(N) |  |
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | 🟢 E | Two Pointers Opposite | [C++](../problems/1332.md) | O(N) | O(1) |  |
 | 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 E | Two Pointers | [C++](../problems/2562.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
-| 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 E | Two Pointers Opposite, Two-Pointers | [C++](../problems/3884.md) | O(N) | O(1) | ❌ 官方沒有解答 |
+| 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 E | Two Pointers Opposite | [C++](../problems/3884.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（3）
 
