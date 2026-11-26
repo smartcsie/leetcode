@@ -13,9 +13,10 @@
 class Solution {
 public:
     string reversePrefix(string word, char ch) {
-        size_t idx = word.find(ch);
-        if(idx == string::npos) return word;
-        int left = 0, right = idx;
+        size_t pos = word.find(ch);
+        if(pos == string::npos) return word;
+        int left = 0;
+        int right = pos;
         while(left < right) swap(word[left++], word[right--]);
         return word;
     }

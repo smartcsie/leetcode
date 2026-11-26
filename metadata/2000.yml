@@ -6,12 +6,13 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Two Pointers Swap
-  - Two Pointers
   topics:
   - two-pointers-swap
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-26'
+  official_solution: synced
   related:
   - 3794
   attempts:
@@ -22,5 +23,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-18'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
     result: 對
     reason: null
