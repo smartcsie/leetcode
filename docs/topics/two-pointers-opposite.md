@@ -1,6 +1,6 @@
 # two-pointers-opposite
 
-## 🔴 生疏（11）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,6 @@
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 E | Two Pointers Opposite | [C++](../problems/0680.md) | O(N) | O(1) |  |
 | 942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | 🟢 E | Two Pointers Opposite, Two Pointers | [C++](../problems/0942.md) | O(N) | O(N) |  |
 | 1332 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/) | 🟢 E | Two Pointers Opposite | [C++](../problems/1332.md) | O(N) | O(1) |  |
-| 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 E | Two Pointers | [C++](../problems/2562.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
 
 ## 🟠 再練習（3）
 
@@ -28,9 +27,10 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（2）
+## 🟢 熟悉（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2108 | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | 🟢 E | Two Pointers Opposite | [C++](../problems/2108.md) | O(N\*L) | O(1) | ✅ 已同步官方解答 |
+| 2562 | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/) | 🟢 E | Two Pointers Opposite | [C++](../problems/2562.md) | O(N\*D) | O(1) | ❌ 官方沒有解答 |
 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 E | Two Pointers Opposite | [C++](../problems/3884.md) | O(N) | O(1) | ❌ 官方沒有解答 |

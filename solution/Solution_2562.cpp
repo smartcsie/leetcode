@@ -1,36 +1,36 @@
-/**
+/*
  * 題目：2562. Find the Array Concatenation Value
- * 難度：簡單 (Easy)
- * 描述：計算陣列的串接值（頭尾串接後之總和）。
- * 優化重點：
- * 1. 移除 `log10` 與 `pow`：這些浮點運算昂貴且容易有精度誤差，改用乘法迴圈。
- * 2. 條件優化：處理單數個元素的特殊情況（中間單一元素無需串接）。
- *
- * 時間複雜度：O(N*D)
+ * 難度：Easy
+ * 描述：陣列的串聯值初始為 0。每次把第一個與最後一個元素「串接」（例如 15 和 49 得到 1549）加到串聯值並從陣列移除；只剩一個元素時直接加上它的值。回傳最後的串聯值。
+ * 分類主題：two-pointers-opposite
+ * 技巧：對向雙指標, 數字串接 (x × 10 的位數次方 + y), 位數計算
+ * 時間複雜度：O(n)
  * 空間複雜度：O(1)
+ * 解法思路：
+ *   1. 第一個與最後一個元素成對處理，用 left、right 從兩端往中間移動
+ *   2. 兩個數 x、y 串接 = x × 10 的 (y 的位數) 次方 + y
+ *   3. y 的位數 = floor(log10(y)) + 1（y 至少為 1）
+ *   4. left == right 時只剩一個元素，直接加上該元素
+ *   5. 串聯值用 long long 累加，避免溢位
  */
-
 class Solution {
-private:
-    long long getMultiplier(int n) {
-        long long multiplier = 1;
-        while(n > 0) {
-            n /= 10;
-            multiplier *= 10;
-        }
-        return multiplier;
-    }
 public:
     long long findTheArrayConcVal(vector<int>& nums) {
         long long sum = 0;
         int left = 0;
         int right = nums.size() - 1;
         while(left <= right) {
-            long long  multiplier = getMultiplier(nums[right]);
-            if(left < right) sum += nums[left] * multiplier;
-            sum += nums[right];
-            left++;
-            right--;
+            if(left == right) {
+                // 只剩一個元素：直接加上它的值
+                sum += nums[left++];
+            } else {
+                int x = nums[left++];    // 前面的數
+                int y = nums[right--];   // 後面的數
+                // y 的位數：floor(log10(y)) + 1，例如 49 → 2
+                int digits = static_cast<int>(log10(y)) + 1;
+                // 串接：x 往左移 digits 位再加上 y，例如 15 與 49 → 15 × 100 + 49 = 1549
+                sum += x * static_cast<long long>(pow(10, digits)) + y;
+            }
         }
         return sum;
     }
