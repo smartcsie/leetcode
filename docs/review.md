@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：686 題　🟠 再練習：58 題　🟣 易忘：30 題　🟢 熟練：223 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：685 題　🟠 再練習：59 題　🟣 易忘：30 題　🟢 熟練：223 題　⚪ 未標記：0 題
 
 ---
 
@@ -497,6 +497,7 @@
 | 🟠 再練習 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](problems/2460.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Fast Slow Pointers | [C++](problems/2864.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 🟠 再練習 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 E | Two Pointers Same | [C++](problems/3637.md) | O(N) | O(1) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 E | Two Pointers Same | [C++](problems/3940.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 H | Two Pointers Same | [C++](problems/0004.md) | O(log(M+N)) | O(1) |  |
 | 🔴 生疏 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 M | Two Pointers Center Expansion, Expand Around Center, Two Pointers | [C++](problems/0005.md) | O(N²) | O(1) |  |
 | 🔴 生疏 | 15 | [3Sum](https://leetcode.com/problems/3sum) | 🟡 M | Two Pointers Opposite, Two Pointers, Sorting | [C++](problems/0015.md) | O(N²) | O(logN) |  |
@@ -533,7 +534,6 @@
 | 🔴 生疏 | 3467 | [Transform Array by Parity](https://leetcode.com/problems/transform-array-by-parity/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/3467.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3794 | [Reverse String Prefix](https://leetcode.com/problems/reverse-string-prefix/) | 🟢 E | Two Pointers Swap, Two Pointers | [C++](problems/3794.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3884 | [First Matching Character From Both Ends](https://leetcode.com/problems/first-matching-character-from-both-ends/description/) | 🟢 E | Two Pointers Opposite, Two-Pointers | [C++](problems/3884.md) | O(N) | O(1) | ❌ 官方沒有解答 |
-| 🔴 生疏 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 E | Two Pointers Same, Two Pointers | [C++](problems/3940.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3992 | [Rearrange String to Avoid Character Pair](https://leetcode.com/problems/rearrange-string-to-avoid-character-pair/) | 🟡 M | Two Pointers Swap, Two Pointers | [C++](problems/3992.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🟣 易忘 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Fast Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
@@ -1109,7 +1109,7 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 12 | 3 | 0 | 1 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 1 | 1 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 1 | 1 | 0 | 1 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 13 | 4 | 0 | 3 | 0 | 20 |
+| [two-pointers-same](topics/two-pointers-same.md) | 12 | 5 | 0 | 3 | 0 | 20 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 5 | 2 | 0 | 7 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |
