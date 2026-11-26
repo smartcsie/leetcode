@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：661 題　🟠 再練習：63 題　🟣 易忘：33 題　🟢 熟練：240 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：660 題　🟠 再練習：64 題　🟣 易忘：33 題　🟢 熟練：240 題　⚪ 未標記：0 題
 
 ---
 
@@ -540,6 +540,7 @@
 | 🟠 再練習 | 1497 | [Check If Array Pairs Are Divisible by k](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | 🟡 M | Hash Table Counting | [C++](problems/1497.md) | O(N+K) | O(K) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1640 | [Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/) | 🟢 E | Hash Table Existence | [C++](problems/1640.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | 🟡 M | Hash Table Counting | [C++](problems/2225.md) | O(NlogN) | O(N) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 M | Hash Table Intersection | [C++](problems/2352.md) | O(N³logN) | O(N²) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2784 | [Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good) | 🟢 E | Hash Table Uniqueness | [C++](problems/2784.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 3442 | [Maximum Difference Between Even and Odd Frequency I](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) | 🟢 E | Hash Table Counting | [C++](problems/3442.md) | O(N) | O(1) |  |
 | 🟠 再練習 | 3663 | [Find The Least Frequent Digit](https://leetcode.com/problems/find-the-least-frequent-digit/) | 🟢 E | Hash Table Counting | [C++](problems/3663.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
@@ -561,7 +562,6 @@
 | 🔴 生疏 | 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 E | Hash Table Uniqueness | [C++](problems/1805.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2023 | [Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/) | 🟡 M | Hash Table, String, Single-Pass | [C++](problems/2023.md) | O(N\*L) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | 🟡 M | Hash Table Existence, Hash Table | [C++](problems/2342.md) | O(N\*logM) | O(N) |  |
-| 🔴 生疏 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | 🟡 M | Hash Table Intersection, Hash Map, Matrix Simulation | [C++](problems/2352.md) | O(N³logN) | O(N²) |  |
 | 🔴 生疏 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 E | Hash Table Existence, Hash Table | [C++](problems/2395.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 E | Hash Table Mapping | [C++](problems/2451.md) | O(N \* L) | O(N \* L) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 M | Hash Table Counting | [C++](problems/2491.md) | O(NlogN) | O(1) |  |
@@ -1042,7 +1042,7 @@
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 2 | 0 | 4 |
 | [hash-table-counting](topics/hash-table-counting.md) | 6 | 6 | 2 | 15 | 0 | 29 |
 | [hash-table-existence](topics/hash-table-existence.md) | 9 | 4 | 0 | 7 | 0 | 20 |
-| [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 0 | 10 | 0 | 12 |
+| [hash-table-intersection](topics/hash-table-intersection.md) | 0 | 2 | 0 | 10 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 2 | 1 | 3 | 0 | 9 |
 | [hash-table-uniqueness](topics/hash-table-uniqueness.md) | 5 | 2 | 0 | 13 | 0 | 20 |
 | [linked-list](topics/linked-list.md) | 15 | 2 | 0 | 0 | 0 | 17 |

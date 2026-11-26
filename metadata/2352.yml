@@ -6,14 +6,13 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Hash Table Intersection
-  - Hash Map
-  - Matrix Simulation
   topics:
   - hash-table-intersection
   time: O(N³logN)
   space: O(N²)
-  familiarity: 生疏
+  familiarity: 再練習
   note: '> **使用 std::vector<int>當 map的key**<br>'
+  official_solution: synced
   tricks:
   - vector has no built-in hash
   - use map instead of unordered_map.
@@ -28,6 +27,9 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-11'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
     result: 對
     reason: null
   is_representative: true

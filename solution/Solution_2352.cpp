@@ -22,18 +22,17 @@ public:
     int equalPairs(vector<vector<int>>& grid) {
         int n = grid.size();
         map<vector<int>, int> counts;
-        for(const vector<int>& row : grid) {
-            counts[row]++;
-        }
         int ans = 0;
-        for(int j = 0; j < n ; j++) {
+        for(int i = 0; i < n ; i++) {
+            counts[grid[i]]++;
+        }
+        for(int i = 0; i < n ; i++) {
             vector<int> col(n);
-            for(int i = 0; i < n ; i++) {
-                col[i] = grid[i][j];
+            for(int j = 0; j < n ; j++) {
+                col[j] = grid[j][i];
             }
-            auto it = counts.find(col);
-            if(it != counts.end()) ans += it->second;
+            ans += counts[col];
         }
         return ans;
-    }
+    }   
 };
