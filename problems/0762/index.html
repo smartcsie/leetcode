@@ -5042,10 +5042,11 @@
 
 <h1 id="762-prime-number-of-set-bits">762. Prime Number of Set Bits<a class="headerlink" href="#762-prime-number-of-set-bits" title="Permanent link">&para;</a></h1>
 <p><a href="https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/">在 LeetCode 上查看</a></p>
-<p><strong>難度:</strong> 🟢 E　<strong>標籤:</strong> Math Prime　<strong>時間:</strong> O(NlogK)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🔴 生疏　<strong>官方解答:</strong> ❌ 官方沒有解答</p>
+<p><strong>難度:</strong> 🟢 E　<strong>標籤:</strong> Math Prime　<strong>時間:</strong> O(NlogK)　<strong>空間:</strong> O(1)　<strong>熟悉度:</strong> 🟢 熟練　<strong>官方解答:</strong> ❌ 官方沒有解答</p>
 <p><strong>📅 練習歷程:</strong></p>
 <ul>
 <li>✅ <strong>2026-09-22</strong> 對</li>
+<li>✅ <strong>2026-11-26</strong> 對</li>
 </ul>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="cm">/**</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="cm"> * 題目：762. Prime Number of Set Bits in Binary Representation</span>
@@ -5082,10 +5083,9 @@
 <a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="p">};</span>
 </code></pre></div>
 <blockquote>
-<p><a href="https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/">Prime Number of Set Bits</a><br>
-對於範圍在 [1, 1e6] 的數字，其二進位長度最多不超過 20 位（因為 2^20 &gt; 1e6) <br>
-isPrime只要判斷 if(n == 2 || n == 3 || n == 5 || n == 7 || n == 11 || n == 13 || n == 17 || n == 19) <br>
-[left , right]範圍內 int bits = __builtin_popcount(i); if(isPrime(bits)) count++;<br></p>
+<p><strong>對於範圍在 [1, 1e6] 的數字，其二進位長度最多不超過 20 位（因為 2^20 &gt; 1e6) </strong><br>
+<strong>isPrime只要判斷 if(n == 2 || n == 3 || n == 5 || n == 7 || n == 11 || n == 13 || n == 17 || n == 19) </strong><br>
+<strong>[left , right]範圍內 int bits = __builtin_popcount(i); if(isPrime(bits)) count++;</strong><br></p>
 </blockquote>
 
 
