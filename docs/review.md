@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：673 題　🟠 再練習：62 題　🟣 易忘：30 題　🟢 熟練：232 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：672 題　🟠 再練習：63 題　🟣 易忘：30 題　🟢 熟練：232 題　⚪ 未標記：0 題
 
 ---
 
@@ -11,7 +11,7 @@
 
 目前共有 835 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（109）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（36）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（48）](#review-pointers)　[🔑 Hash Table（41）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（109）](#review-math)　[📊 Bit Manipulation（54）](#review-bit-manipulation)　[🔗 String（36）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（88）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（49）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（21）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -481,7 +481,7 @@
 | 🔴 生疏 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | 🟡 M | Linked List, Monotonic Stack, Recursion | [C++](problems/2487.md) | O(N) | O(N) |  |
 
 <a id="review-pointers"></a>
-#### 👥 Pointers（48）
+#### 👥 Pointers（49）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -498,6 +498,7 @@
 | 🟠 再練習 | 1957 | [Delete Characters...](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) | 🟢 E | Two Pointers Same | [C++](problems/1957.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2130 | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) | 🟡 M | Fast Slow Pointers | [C++](problems/2130.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array) | 🟢 E | Fast Slow Pointers | [C++](problems/2460.md) | O(N) | O(1) |  |
+| 🟠 再練習 | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 E | Two Pointers Same | [C++](problems/2570.md) | O(m + n) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 2864 | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/) | 🟢 E | Fast Slow Pointers | [C++](problems/2864.md) | O(N) | O(1) | 🌟 優於官方解答 |
 | 🟠 再練習 | 3637 | [Trionic Array I](https://leetcode.com/problems/trionic-array-i/) | 🟢 E | Two Pointers Same | [C++](problems/3637.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 3940 | [Limit Occurrences in Sorted Array](https://leetcode.com/problems/limit-occurrences-in-sorted-array/) | 🟢 E | Two Pointers Same | [C++](problems/3940.md) | O(N) | O(1) | ❌ 官方沒有解答 |
@@ -535,7 +536,7 @@
 | 🟣 易忘 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | 🟡 M | Fast Slow Pointers | [C++](problems/0287.md) | O(N) | O(1) | ✅ 已同步官方解答 |
 
 <a id="review-hash-table"></a>
-#### 🔑 Hash Table（41）
+#### 🔑 Hash Table（40）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -572,7 +573,6 @@
 | 🔴 生疏 | 2395 | [Find Subarrays With Equal Sum](https://leetcode.com/problems/find-subarrays-with-equal-sum/) | 🟢 E | Hash Table Existence, Hash Table | [C++](problems/2395.md) | O(N) | O(N) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2451 | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/) | 🟢 E | Hash Table Mapping | [C++](problems/2451.md) | O(N \* L) | O(N \* L) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2491 | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | 🟡 M | Hash Table Counting | [C++](problems/2491.md) | O(NlogN) | O(1) |  |
-| 🔴 生疏 | 2570 | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/) | 🟢 E | Hash Table Counting | [C++](problems/2570.md) | O(N+M) | O(1) |  |
 | 🔴 生疏 | 3438 | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/) | 🟢 E | Hash Table Counting, Hash Map | [C++](problems/3438.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 E | Hash Table Uniqueness | [C++](problems/3483.md) | O(N³) | O(U) |  |
 | 🔴 生疏 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 M | Hash Table Uniqueness, Hash Set, Greedy | [C++](problems/3487.md) | O(N) | O(N) |  |
@@ -1048,7 +1048,7 @@
 | [greedy-string-construction](topics/greedy-string-construction.md) | 5 | 2 | 0 | 0 | 0 | 7 |
 | [greedy-validity-repair](topics/greedy-validity-repair.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [hamming-distance](topics/hamming-distance.md) | 0 | 1 | 1 | 2 | 0 | 4 |
-| [hash-table-counting](topics/hash-table-counting.md) | 7 | 5 | 2 | 15 | 0 | 29 |
+| [hash-table-counting](topics/hash-table-counting.md) | 6 | 6 | 2 | 15 | 0 | 29 |
 | [hash-table-existence](topics/hash-table-existence.md) | 9 | 4 | 0 | 7 | 0 | 20 |
 | [hash-table-intersection](topics/hash-table-intersection.md) | 1 | 1 | 0 | 10 | 0 | 12 |
 | [hash-table-mapping](topics/hash-table-mapping.md) | 3 | 2 | 1 | 3 | 0 | 9 |
@@ -1100,7 +1100,7 @@
 | [two-pointers-opposite](topics/two-pointers-opposite.md) | 10 | 3 | 0 | 3 | 0 | 16 |
 | [two-pointers-other](topics/two-pointers-other.md) | 1 | 1 | 0 | 0 | 0 | 2 |
 | [two-pointers-partition](topics/two-pointers-partition.md) | 0 | 2 | 0 | 1 | 0 | 3 |
-| [two-pointers-same](topics/two-pointers-same.md) | 12 | 5 | 0 | 3 | 0 | 20 |
+| [two-pointers-same](topics/two-pointers-same.md) | 12 | 6 | 0 | 3 | 0 | 21 |
 | [two-pointers-swap](topics/two-pointers-swap.md) | 3 | 2 | 0 | 9 | 0 | 14 |
 | [union-find](topics/union-find.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [variable-size-sliding-window](topics/variable-size-sliding-window.md) | 11 | 0 | 0 | 0 | 0 | 11 |

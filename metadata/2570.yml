@@ -10,7 +10,9 @@ solutions:
   - hash-table-counting
   time: O(N+M)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-26'
+  official_solution: synced
   attempts:
   - date: '2026-09-18'
     result: 對
@@ -19,5 +21,23 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-13'
+    result: 對
+    reason: null
+  - date: '2026-11-26'
+    result: 對
+    reason: null
+- file: Solution_2570_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Two Pointers Same
+  topics:
+  - two-pointers-same
+  time: O(m + n)
+  space: O(1)
+  familiarity: 再練習
+  is_best: true
+  official_solution: synced
+  attempts:
+  - date: '2026-11-26'
     result: 對
     reason: null
