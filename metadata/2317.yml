@@ -10,8 +10,9 @@ solutions:
   - bit-manipulation-or
   time: O(N)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> 所有元素之間AND，再把所有結果XOR，等於所有元素直接OR'
+  official_solution: no-solution
   related:
   - 136
   tricks:
@@ -20,6 +21,8 @@ solutions:
   - date: '2026-09-14'
     result: 對
     reason: null
+  - date: '2026-11-26'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Accumulate OR
-  official_solution: no-solution
