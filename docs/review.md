@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：666 題　🟠 再練習：63 題　🟣 易忘：31 題　🟢 熟練：237 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：665 題　🟠 再練習：63 題　🟣 易忘：32 題　🟢 熟練：237 題　⚪ 未標記：0 題
 
 ---
 
@@ -69,7 +69,6 @@
 | 🔴 生疏 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | 🟡 M | Math Permutation | [C++](problems/0949.md) | O(1) | O(1) |  |
 | 🔴 生疏 | 970 | [Powerful Integers](https://leetcode.com/problems/powerful-integers/) | 🟡 M | Math, Hash Table | [C++](problems/0970.md) | O(MN) | O(S) |  |
 | 🔴 生疏 | 1015 | [Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k/) | 🟡 M | Math | [C++](problems/1015.md) | O(K) | O(1) |  |
-| 🔴 生疏 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 E | Math Gcd | [C++](problems/1071.md) | O(N+M) | O(N+M) |  |
 | 🔴 生疏 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 E | Math | [C++](problems/1185.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1185 | [Day of the Week](https://leetcode.com/problems/day-of-the-week/) | 🟢 E | Math | [C++](problems/1185.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | 🟢 E | Math Digit Decomposition, Digit Manipulation | [C++](problems/1281.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
@@ -139,6 +138,7 @@
 | 🟣 易忘 | 989 | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/) | 🟢 E | Math Digit Decomposition | [C++](problems/0989.md) | O(max(n, d)) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 1017 | [Convert to Base -2](https://leetcode.com/problems/convert-to-base-2) | 🟡 M | Math Digit Decomposition | [C++](problems/1017.md) | O(logN) | O(1) | ❌ 官方沒有解答 |
 | 🟣 易忘 | 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/) | 🟢 E | Math Game Theory | [C++](problems/1025.md) | O(1) | O(1) | ❌ 官方沒有解答 |
+| 🟣 易忘 | 1071 | [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | 🟢 E | Math Gcd | [C++](problems/1071.md) | O(N+M) | O(N+M) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 1250 | [Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/) | 🔴 H | Math Gcd | [C++](problems/1250.md) | O(N log M) | O(1) | ❌ 官方沒有解答 |
 | 🟣 易忘 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | 🟡 M | Math Formula | [C++](problems/1551.md) | O(1) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 3827 | [Count Monobit Integers](https://leetcode.com/problems/count-monobit-integers/) | 🟢 E | Math | [C++](problems/3827.md) | O(1) | O(1) | ❌ 官方沒有解答 |
@@ -1056,7 +1056,7 @@
 | [math-factor-enumeration](topics/math-factor-enumeration.md) | 4 | 0 | 0 | 0 | 0 | 4 |
 | [math-formula](topics/math-formula.md) | 5 | 0 | 3 | 1 | 0 | 9 |
 | [math-game-theory](topics/math-game-theory.md) | 3 | 0 | 2 | 1 | 0 | 6 |
-| [math-gcd](topics/math-gcd.md) | 5 | 1 | 1 | 2 | 0 | 9 |
+| [math-gcd](topics/math-gcd.md) | 4 | 1 | 2 | 2 | 0 | 9 |
 | [math-geometry](topics/math-geometry.md) | 1 | 0 | 0 | 2 | 0 | 3 |
 | [math-palindrome](topics/math-palindrome.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [math-permutation](topics/math-permutation.md) | 2 | 0 | 0 | 0 | 0 | 2 |
