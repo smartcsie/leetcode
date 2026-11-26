@@ -19,18 +19,18 @@
 
 class Solution {
 public:
-    int countDistinctIntegers(std::vector<int>& nums) {
-        unordered_set<int> seen;
-        for(const int& x : nums){
-            seen.insert(x);
+    int countDistinctIntegers(vector<int>& nums) {
+        bitset<1000001> seen;
+        for(const int& x : nums) {
+            seen.set(x);
             int y = 0;
-            int t = x;
-            while(t > 0) {
-                y = y * 10 + t % 10;
-                t /= 10;
+            int temp = x;
+            while(temp > 0) {
+                y = y * 10 + (temp % 10);
+                temp /= 10;
             }
-            seen.insert(y);
+            seen.set(y);
         }
-        return seen.size();
+        return seen.count();
     }
 };

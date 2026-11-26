@@ -6,16 +6,17 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Hash Table Uniqueness
-  - Hash Table
-  - Math
-  - Bitset
   topics:
   - hash-table-uniqueness
   time: O(N*D)
   space: O(M)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-26'
+  official_solution: no-solution
   attempts:
   - date: '2026-09-29'
     result: 對
     reason: null
-  official_solution: no-solution
+  - date: '2026-11-26'
+    result: 對
+    reason: null

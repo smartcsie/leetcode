@@ -1,13 +1,12 @@
 # hash-table-uniqueness
 
-## 🔴 生疏（6）
+## 🔴 生疏（5）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 859 | [Buddy Strings](https://leetcode.com/problems/buddy-strings/) | 🟢 E | Hash Table Uniqueness, Hash Table, Two Pointers | [C++](../problems/0859.md) | O(N) | O(1) |  |
 | 939 | [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) | 🟡 M | Hash Table Uniqueness | [C++](../problems/0939.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 | 1805 | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/1805.md) | O(N) | O(N) | ❌ 官方沒有解答 |
-| 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 M | Hash Table Uniqueness, Hash Table, Math, Bitset | [C++](../problems/2442.md) | O(N\*D) | O(M) | ❌ 官方沒有解答 |
 | 3483 | [Unique 3-Digit Even Numbers](https://leetcode.com/problems/unique-3-digit-even-numbers/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/3483.md) | O(N³) | O(U) |  |
 | 3487 | [Maximum Unique Subarray Sum After Deletion](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion/) | 🟡 M | Hash Table Uniqueness, Hash Set, Greedy | [C++](../problems/3487.md) | O(N) | O(N) |  |
 
@@ -22,7 +21,7 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（16）
+## 🟢 熟悉（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -41,4 +40,5 @@
 | 1941 | [Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences) | 🟢 E | Hash Table Uniqueness | [C++](../problems/1941.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2053 | [Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/2053.md) | O(N) | O(N) | ✅ 已同步官方解答 |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/2357.md) | O(N) | O(N) | ❌ 官方沒有解答 |
+| 2442 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 M | Hash Table Uniqueness | [C++](../problems/2442.md) | O(N\*D) | O(M) | ❌ 官方沒有解答 |
 | 3866 | [First Unique Even Element](https://leetcode.com/problems/first-unique-even-element/) | 🟢 E | Hash Table Uniqueness | [C++](../problems/3866.md) | O(N) | O(1) | ❌ 官方沒有解答 |
