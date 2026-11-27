@@ -6,16 +6,16 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Tree Bfs Level Order
-  - BFS
   topics:
   - tree-bfs-level-order
   time: O(N)
   space: O(W)
-  familiarity: 生疏
+  familiarity: 易忘
   note: '> **It is guaranteed that the answer will in the range of a 32-bit signed
     integer.**<br>
 
     > **表示最後一層在signed integer，所以index要用unsigned int**<br>'
+  official_solution: synced
   tricks:
   - overflow handle
   attempts:
@@ -37,5 +37,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-05'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null

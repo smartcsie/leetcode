@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：645 題　🟠 再練習：70 題　🟣 易忘：35 題　🟢 熟練：247 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：644 題　🟠 再練習：70 題　🟣 易忘：36 題　🟢 熟練：247 題　⚪ 未標記：0 題
 
 ---
 
@@ -365,7 +365,6 @@
 | 🔴 生疏 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | 🟡 M | Tree Dfs Global, DFS, Hash Table, Serialization | [C++](problems/0652.md) | O(N²) | O(N²) |  |
 | 🔴 生疏 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 E | Binary Search Tree, Hash Table | [C++](problems/0653.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 E | Binary Search Tree | [C++](problems/0653.md) | O(n) | O(n) |  |
-| 🔴 生疏 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](problems/0662.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 E | Tree Dfs Path, DFS | [C++](problems/0671.md) | O(N) | O(H) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 M | Tree Dfs Global, DFS | [C++](problems/0687.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 M | Binary Search Tree, Binary Search Tree | [C++](problems/0701.md) | O(H) | O(H) |  |
@@ -400,6 +399,7 @@
 | 🟣 易忘 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](problems/0404.md) | O(N) | O(H) |  |
 | 🟣 易忘 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](problems/0404.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 M | Tree Dfs Path | [C++](problems/0513.md) | O(n) | O(n) | ✅ 已同步官方解答 |
+| 🟣 易忘 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 M | Tree Bfs Level Order | [C++](problems/0662.md) | O(N) | O(W) | ✅ 已同步官方解答 |
 
 <a id="review-binary-search"></a>
 #### 🔍 Binary Search（34）
@@ -1073,7 +1073,7 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 2 | 0 | 0 | 2 | 0 | 4 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 7 | 2 | 1 | 6 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 6 | 2 | 2 | 6 | 0 | 16 |
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |
