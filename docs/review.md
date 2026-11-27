@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：653 題　🟠 再練習：65 題　🟣 易忘：34 題　🟢 熟練：245 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：651 題　🟠 再練習：67 題　🟣 易忘：34 題　🟢 熟練：245 題　⚪ 未標記：0 題
 
 ---
 
@@ -319,7 +319,9 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 M | Tree Dfs Path | [C++](problems/0199.md) | O(n) | O(h) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](problems/0235.md) | O(H) | O(1) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 M | Tree Dfs Path | [C++](problems/0236.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Bfs Level Order | [C++](problems/0404.md) | O(N) | O(W) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
@@ -347,10 +349,8 @@
 | 🔴 生疏 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 E | Tree Traversal, DFS | [C++](problems/0145.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0145.md) | O(N) | O(H) |  |
-| 🔴 生疏 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](problems/0199.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟢 E | Tree Dfs Path | [C++](problems/0222.md) | O(log²N) | O(logN) |  |
 | 🔴 生疏 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 M | Binary Search Tree | [C++](problems/0230.md) | O(K) | O(H) |  |
-| 🔴 生疏 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 M | Tree Dfs Path, DFS, Recursion | [C++](problems/0236.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-path) | 🟢 E | Tree Dfs Backtracking, DFS | [C++](problems/0257.md) | O(N²) | O(H²) |  |
 | 🔴 生疏 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 M | Trie | [C++](problems/0421.md) | O(N\*L) | O(N\*L) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 M | Tree Dfs Global, DFS, Prefix Sum | [C++](problems/0437.md) | O(N) | O(H) |  |
@@ -1075,11 +1075,11 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 2 | 0 | 0 | 2 | 0 | 4 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 9 | 1 | 1 | 5 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 8 | 2 | 1 | 5 | 0 | 16 |
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 25 | 1 | 1 | 5 | 0 | 32 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 24 | 3 | 1 | 5 | 0 | 33 |
 | [tree-traversal](topics/tree-traversal.md) | 6 | 0 | 0 | 1 | 0 | 7 |
 | [trie](topics/trie.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |

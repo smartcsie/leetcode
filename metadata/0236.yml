@@ -6,13 +6,11 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Tree Dfs Path
-  - DFS
-  - Recursion
   topics:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 再練習
   note: '> **如果root為空或是p q其中一個為root，那就回傳root**<br>
 
     > ** TreeNode* left遞迴找左邊**<br>
@@ -22,9 +20,13 @@ solutions:
     > **if(left && right)表示p q分別在左右，回傳root**<br>
 
     > **否則傳回left或right不為nullptr的**<br>'
+  official_solution: synced
   related:
   - 235
   attempts:
   - date: '2026-09-14'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null
