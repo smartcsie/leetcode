@@ -1,11 +1,10 @@
 # tree-dfs-path
 
-## 🔴 生疏（22）
+## 🔴 生疏（21）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 E | Tree Dfs Path | [C++](../problems/0110.md) | O(N) | O(H) |  |
-| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 E | Tree Dfs Path, BFS, DFS | [C++](../problems/0111.md) | O(N) | O(H) |  |
 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 M | Tree, DFS | [C++](../problems/0114.md) | O(N) | O(H) |  |
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 M | Tree Dfs Path | [C++](../problems/0116.md) | O(N) | O(1) |  |
 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟢 E | Tree Dfs Path | [C++](../problems/0222.md) | O(log²N) | O(logN) |  |
@@ -27,10 +26,11 @@
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree) | 🟢 E | Tree Dfs Path, DFS, Recursion | [C++](../problems/2331.md) | O(N) | O(H) |  |
 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 M | Tree Dfs Path | [C++](../problems/2415.md) | O(N) | O(H) |  |
 
-## 🟠 再練習（2）
+## 🟠 再練習（3）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0111.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 M | Tree Dfs Path | [C++](../problems/0199.md) | O(n) | O(h) | ✅ 已同步官方解答 |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 M | Tree Dfs Path | [C++](../problems/0236.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 

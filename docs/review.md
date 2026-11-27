@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：646 題　🟠 再練習：69 題　🟣 易忘：35 題　🟢 熟練：247 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：645 題　🟠 再練習：70 題　🟣 易忘：35 題　🟢 熟練：247 題　⚪ 未標記：0 題
 
 ---
 
@@ -322,6 +322,7 @@
 | 🟠 再練習 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](problems/0108.md) | O(N) | O(logN) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 M | Binary Search Tree | [C++](problems/0109.md) | O(NlogN) | O(logN) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 M | Binary Search Tree | [C++](problems/0109.md) | O(n) | O(logn) | ⏳ 尚未同步 |
+| 🟠 再練習 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 E | Tree Dfs Path | [C++](problems/0111.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 M | Tree Dfs Path | [C++](problems/0199.md) | O(n) | O(h) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](problems/0235.md) | O(H) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 M | Tree Dfs Path | [C++](problems/0236.md) | O(N) | O(H) | ✅ 已同步官方解答 |
@@ -335,7 +336,6 @@
 | 🔴 生疏 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](problems/0105.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](problems/0106.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 E | Tree Dfs Path | [C++](problems/0110.md) | O(N) | O(H) |  |
-| 🔴 生疏 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 E | Tree Dfs Path, BFS, DFS | [C++](problems/0111.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 M | Tree Dfs Backtracking, DFS, Backtracking | [C++](problems/0113.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | 🟡 M | Tree, DFS | [C++](problems/0114.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 M | Tree Dfs Path | [C++](problems/0116.md) | O(N) | O(1) |  |
@@ -1077,7 +1077,7 @@
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 22 | 3 | 2 | 6 | 0 | 33 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 21 | 4 | 2 | 6 | 0 | 33 |
 | [tree-traversal](topics/tree-traversal.md) | 6 | 0 | 0 | 1 | 0 | 7 |
 | [trie](topics/trie.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |

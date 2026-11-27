@@ -239,7 +239,7 @@
 | 102 | 👑 **BFS Level Order**<br>[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](problems/0102.md) | O(N) | O(W) |
 | 105 | 👑 **Construction**<br>[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](problems/0105.md) | O(N) | O(N) |
 | 108 | 👑 **Sorted Array to BST**<br>[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](problems/0108.md) | O(N) | O(logN) |
-| 111 | 👑 **Binary Tree Min Depth**<br>[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 E | Tree Dfs Path, BFS, DFS | [C++](problems/0111.md) | O(N) | O(H) |
+| 111 | 👑 **Binary Tree Min Depth**<br>[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 E | Tree Dfs Path | [C++](problems/0111.md) | O(N) | O(H) |
 | 112 | 👑 **DFS Path**<br>[Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 E | Tree Dfs Path | [C++](problems/0112.md) | O(N) | O(H) |
 | 113 | 👑 **DFS Backtracking**<br>[Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 M | Tree Dfs Backtracking, DFS, Backtracking | [C++](problems/0113.md) | O(N) | O(H) |
 | 129 | 👑 **DFS Early Return**<br>[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 M | Tree Dfs Path | [C++](problems/0129.md) | O(n) | O(1) |
