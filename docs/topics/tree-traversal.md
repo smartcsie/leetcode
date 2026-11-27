@@ -1,6 +1,6 @@
 # tree-traversal
 
-## 🔴 生疏（11）
+## 🔴 生疏（10）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 E | Tree Traversal | [C++](../problems/0144.md) | O(N) | O(H) |  |
 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 E | Tree Traversal, DFS | [C++](../problems/0145.md) | O(N) | O(H) |  |
 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 E | Tree Traversal | [C++](../problems/0145.md) | O(N) | O(H) |  |
-| 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | 🟡 M | Tree Traversal, BFS | [C++](../problems/0429.md) | O(N) | O(W) |  |
 | 538 | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | 🟡 M | Tree Traversal, BST, Reverse In-order Traversal | [C++](../problems/0538.md) | O(N) | O(H) |  |
 | 589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | 🟢 E | Tree Traversal | [C++](../problems/0589.md) | O(N) | O(H) |  |
 | 590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | 🟢 E | Tree Traversal | [C++](../problems/0590.md) | O(N) | O(H) |  |
@@ -24,6 +23,8 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（0）
+## 🟢 熟悉（1）
 
-目前沒有標記為熟悉的解法。
+| # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | 🟡 M | Tree Traversal | [C++](../problems/0429.md) | O(N) | O(W) | ✅ 已同步官方解答 |
