@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：643 題　🟠 再練習：70 題　🟣 易忘：36 題　🟢 熟練：248 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：642 題　🟠 再練習：70 題　🟣 易忘：36 題　🟢 熟練：249 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 818 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 817 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（107）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（80）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（47）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（20）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（107）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（79）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（47）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（20）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -315,7 +315,7 @@
 | 🟣 易忘 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array | [C++](problems/1260.md) | O(M\*N) | O(K) | 🌟 優於官方解答 |
 
 <a id="review-tree"></a>
-#### 🌳 Tree（80）
+#### 🌳 Tree（79）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -347,7 +347,6 @@
 | 🔴 生疏 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 E | Tree Traversal, DFS | [C++](problems/0145.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0145.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 222 | [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | 🟢 E | Tree Dfs Path | [C++](problems/0222.md) | O(log²N) | O(logN) |  |
-| 🔴 生疏 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 M | Binary Search Tree | [C++](problems/0230.md) | O(K) | O(H) |  |
 | 🔴 生疏 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-path) | 🟢 E | Tree Dfs Backtracking, DFS | [C++](problems/0257.md) | O(N²) | O(H²) |  |
 | 🔴 生疏 | 421 | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | 🟡 M | Trie | [C++](problems/0421.md) | O(N\*L) | O(N\*L) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | 🟡 M | Tree Dfs Global, DFS, Prefix Sum | [C++](problems/0437.md) | O(N) | O(H) |  |
@@ -983,7 +982,7 @@
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 8 | 0 | 0 | 0 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 5 |
-| [binary-search-tree](topics/binary-search-tree.md) | 11 | 3 | 0 | 1 | 0 | 15 |
+| [binary-search-tree](topics/binary-search-tree.md) | 10 | 3 | 0 | 2 | 0 | 15 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [bit-manipulation](topics/bit-manipulation.md) | 16 | 4 | 8 | 8 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 3 | 1 | 1 | 2 | 0 | 7 |

@@ -10,7 +10,9 @@ solutions:
   - binary-search-tree
   time: O(K)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-27'
+  official_solution: synced
   tricks:
   - inorder travsal
   attempts:
@@ -21,5 +23,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-25'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null
