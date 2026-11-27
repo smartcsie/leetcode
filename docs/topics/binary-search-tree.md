@@ -1,6 +1,6 @@
 # binary-search-tree
 
-## 🔴 生疏（13）
+## 🔴 生疏（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8,7 +8,6 @@
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 M | Binary Search Tree | [C++](../problems/0099.md) | O(N) | O(1) |  |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 M | Binary Search Tree | [C++](../problems/0230.md) | O(K) | O(H) |  |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 E | Binary Search Tree, DFS, BST | [C++](../problems/0501.md) | O(N) | O(H) |  |
-| 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 E | Binary Search Tree, DFS, BST | [C++](../problems/0530.md) | O(N) | O(H) |  |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 E | Binary Search Tree, Hash Table | [C++](../problems/0653.md) | O(N) | O(N) |  |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 E | Binary Search Tree | [C++](../problems/0653.md) | O(n) | O(n) |  |
 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 M | Binary Search Tree, Binary Search Tree | [C++](../problems/0701.md) | O(H) | O(H) |  |
@@ -31,8 +30,9 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（1）
+## 🟢 熟悉（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](../problems/0235.md) | O(H) | O(H) | ✅ 已同步官方解答 |
+| 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 E | Binary Search Tree | [C++](../problems/0530.md) | O(N) | O(H) | ✅ 已同步官方解答 |
