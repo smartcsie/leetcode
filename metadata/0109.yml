@@ -10,7 +10,7 @@ solutions:
   - binary-search-tree
   time: O(NlogN)
   space: O(logN)
-  familiarity: 生疏
+  familiarity: 再練習
   note: '> **prev->next = nullptr 切斷後：**<br>
 
     > **head → 左半段的頭 → 遞迴建左子樹**<br>
@@ -18,6 +18,7 @@ solutions:
     > **slow → 當前 root**<br>
 
     > **slow->next → 右半段的頭 → 遞迴建右子樹**<br>'
+  official_solution: synced
   attempts:
   - date: '2026-09-27'
     result: 對
@@ -26,5 +27,23 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-18'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
+    result: 對
+    reason: null
+- file: Solution_0109_1.cpp
+  difficulty: 🟡 Medium
+  tags:
+  - Binary Search Tree
+  topics:
+  - binary-search-tree
+  time: O(n)
+  space: O(logn)
+  familiarity: 再練習
+  is_best: true
+  official_solution: pending
+  attempts:
+  - date: '2026-11-27'
     result: 對
     reason: null
