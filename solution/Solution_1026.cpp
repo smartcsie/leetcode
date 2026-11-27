@@ -19,20 +19,16 @@
  * 4. 初始化：
  *    - 從根節點開始遞迴時，minVal 與 maxVal 都先設為 root->val 本身，作為路徑的起點。
  */
+
 class Solution {
-private:
-    void dfs(TreeNode* root, int mn, int mx, int& maxDiff) {
-        if(!root) return;
-        mn = min(mn, root->val);
-        mx = max(mx, root->val);
-        maxDiff = max(maxDiff, mx - mn);
-        dfs(root->left, mn, mx, maxDiff);
-        dfs(root->right, mn, mx, maxDiff);
+    int dfs(TreeNode* node, int mn, int mx) {
+        if (!node) return mx - mn;
+        mn = min(mn, node->val);
+        mx = max(mx, node->val);
+        return max(dfs(node->left, mn, mx), dfs(node->right, mn, mx));
     }
 public:
     int maxAncestorDiff(TreeNode* root) {
-        int ans = 0;
-        dfs(root, INT_MAX, INT_MIN, ans);
-        return ans;
+        return dfs(root, root->val, root->val);
     }
 };

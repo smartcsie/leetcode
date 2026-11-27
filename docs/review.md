@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：632 題　🟠 再練習：73 題　🟣 易忘：36 題　🟢 熟練：256 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：631 題　🟠 再練習：74 題　🟣 易忘：36 題　🟢 熟練：256 題　⚪ 未標記：0 題
 
 ---
 
@@ -329,6 +329,7 @@
 | 🟠 再練習 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 M | Binary Search Tree | [C++](problems/0701.md) | O(H) | O(H) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 E | Binary Search Tree | [C++](problems/0938.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 E | Binary Search Tree | [C++](problems/0938.md) | O(N) | O(H) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | 🟡 M | Tree Dfs Path | [C++](problems/1026.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 M | Tree Bfs Level Order | [C++](problems/1609.md) | O(N) | O(W) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
@@ -375,7 +376,6 @@
 | 🔴 生疏 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | 🟡 M | Tree Dfs Backtracking, DFS | [C++](problems/0988.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | 🟢 E | Tree Bfs Level Order | [C++](problems/0993.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 M | Binary Search Tree, BST, DFS | [C++](problems/1008.md) | O(N) | O(N) |  |
-| 🔴 生疏 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | 🟡 M | Tree Dfs Path, DFS, Recursion | [C++](problems/1026.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 M | Binary Search Tree, BST | [C++](problems/1038.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 1302 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | 🟡 M | Tree, BFS | [C++](problems/1302.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees) | 🟡 M | Tree Dfs Path, In-order Traversal, Two Pointers | [C++](problems/1305.md) | O(N+M) | O(N+M) |  |
@@ -1068,7 +1068,7 @@
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 15 | 4 | 2 | 11 | 0 | 32 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 14 | 5 | 2 | 11 | 0 | 32 |
 | [tree-traversal](topics/tree-traversal.md) | 6 | 0 | 0 | 1 | 0 | 7 |
 | [trie](topics/trie.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |
