@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：639 題　🟠 再練習：71 題　🟣 易忘：36 題　🟢 熟練：251 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：638 題　🟠 再練習：72 題　🟣 易忘：36 題　🟢 熟練：251 題　⚪ 未標記：0 題
 
 ---
 
@@ -327,6 +327,7 @@
 | 🟠 再練習 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](problems/0235.md) | O(H) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 M | Tree Dfs Path | [C++](problems/0236.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Bfs Level Order | [C++](problems/0404.md) | O(N) | O(W) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 M | Binary Search Tree | [C++](problems/0701.md) | O(H) | O(H) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 M | Tree Bfs Level Order | [C++](problems/1609.md) | O(N) | O(W) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
@@ -366,7 +367,6 @@
 | 🔴 生疏 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 E | Binary Search Tree | [C++](problems/0653.md) | O(n) | O(n) |  |
 | 🔴 生疏 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 E | Tree Dfs Path, DFS | [C++](problems/0671.md) | O(N) | O(H) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 M | Tree Dfs Global, DFS | [C++](problems/0687.md) | O(N) | O(H) |  |
-| 🔴 生疏 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 M | Binary Search Tree, Binary Search Tree | [C++](problems/0701.md) | O(H) | O(H) |  |
 | 🔴 生疏 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 E | Binary Search Tree, DFS, BST | [C++](problems/0783.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 M | Tree Dfs Path, DFS, Hash Table | [C++](problems/0863.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 E | Tree Dfs Path, DFS | [C++](problems/0872.md) | O(N+M) | O(N+M) |  |
@@ -980,7 +980,7 @@
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 8 | 0 | 0 | 0 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 5 |
-| [binary-search-tree](topics/binary-search-tree.md) | 10 | 3 | 0 | 2 | 0 | 15 |
+| [binary-search-tree](topics/binary-search-tree.md) | 9 | 4 | 0 | 2 | 0 | 15 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [bit-manipulation](topics/bit-manipulation.md) | 16 | 4 | 8 | 8 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 3 | 1 | 1 | 2 | 0 | 7 |

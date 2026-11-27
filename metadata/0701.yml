@@ -6,12 +6,12 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Binary Search Tree
-  - Binary Search Tree
   topics:
   - binary-search-tree
   time: O(H)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: synced
   attempts:
   - date: '2026-09-25'
     result: 對
@@ -20,6 +20,9 @@ solutions:
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-05'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null
   is_representative: true
