@@ -21,19 +21,17 @@
 
 class Solution {
 private:
-    void dfs(TreeNode* root, int mx, int& ans) {
+    void dfs(TreeNode* root, int mx, int& count) {
         if(!root) return;
-        if(root->val >= mx) {
-            mx = max(mx, root->val);
-            ans++;
-        } 
-        dfs(root->left, mx, ans);
-        dfs(root->right, mx, ans);
+        if(root->val >= mx) count++;
+        mx =  max(mx, root->val);
+        dfs(root->left, mx, count);
+        dfs(root->right, mx, count);
     }
 public:
     int goodNodes(TreeNode* root) {
-        int ans = 0;
-        dfs(root, INT_MIN, ans);
-        return ans;
+        int count = 0;
+        dfs(root, INT_MIN, count);
+        return count;
     }
 };
