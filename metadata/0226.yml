@@ -10,18 +10,20 @@ solutions:
   - tree
   time: O(N)
   space: O(H)
-  familiarity: 生疏
-  note: '> [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
-    <br>
-
-    root為空則return，swap左右子樹的node，invertTree遞迴左子樹，invertTree遞迴右子樹<br>
+  familiarity: 熟練
+  mastered_date: '2026-11-27'
+  note: '> **root為空則return，swap左右子樹的node，invertTree遞迴左子樹，invertTree遞迴右子樹**<br>
 
 
 
 
     <br><br>'
   is_best: true
+  official_solution: synced
   attempts:
   - date: '2026-09-15'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null
