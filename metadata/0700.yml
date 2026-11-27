@@ -5,11 +5,32 @@ solutions:
 - file: Solution_0700.cpp
   difficulty: 🟢 Easy
   tags:
-  - Binary Search Tree
+  - Tree Dfs Path
   topics:
-  - binary-search-tree
+  - tree-dfs-path
   time: O(H)
-  space: O(H)
-  familiarity: 生疏
+  space: O(1)
+  familiarity: 熟練
+  mastered_date: '2026-11-27'
+  official_solution: synced
+  attempts:
+  - date: '2026-11-27'
+    result: 對
+    reason: null
   is_representative: true
   representative_tag: Binary Search Tree
+- file: Solution_0700_1.cpp
+  difficulty: 🟢 Easy
+  tags:
+  - Tree Dfs Path
+  topics:
+  - tree-dfs-path
+  time: O(h)
+  space: O(h)
+  familiarity: 熟練
+  mastered_date: '2026-11-27'
+  official_solution: synced
+  attempts:
+  - date: '2026-11-27'
+    result: 對
+    reason: null

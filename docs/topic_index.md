@@ -249,6 +249,7 @@
 | 543 | 👑 **DP on Tree**<br>[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 E | Tree Dfs Global, DFS | [C++](problems/0543.md) | O(N) | O(H) |
 | 617 | 👑 **Tree merge**<br>[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 E | Tree Dfs Path, DFS, Recursion | [C++](problems/0617.md) | O(min(N,M)) | O(min(N,M)) |
 | 653 | 👑 **BST Iterator**<br>[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 E | Binary Search Tree | [C++](problems/0653.md) | O(n) | O(n) |
+| 700 | 👑 **Binary Search Tree**<br>[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 E | Tree Dfs Path | [C++](problems/0700.md) | O(H) | O(1) |
 | 701 | 👑 **BST insert**<br>[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 M | Binary Search Tree, Binary Search Tree | [C++](problems/0701.md) | O(H) | O(H) |
 | 1305 | 👑 **Two Way Merge**<br>[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees) | 🟡 M | Tree Dfs Path, In-order Traversal, Two Pointers | [C++](problems/1305.md) | O(N+M) | O(N+M) |
 | 2583 | 👑 **nth_element kth largest**<br>[Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 M | Tree Bfs Level Order, BFS, Math | [C++](problems/2583.md) | O(N) | O(N) |

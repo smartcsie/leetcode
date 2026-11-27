@@ -43,11 +43,13 @@
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](../problems/0404.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 M | Tree Dfs Path | [C++](../problems/0513.md) | O(n) | O(n) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（4）
+## 🟢 熟悉（6）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0101.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 E | Tree Dfs Path | [C++](../problems/0104.md) | O(N) | O(logN) | ✅ 已同步官方解答 |
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0559.md) | O(N) | O(H) | ✅ 已同步官方解答 |
+| 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0700.md) | O(H) | O(1) | ✅ 已同步官方解答 |
+| 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0700.md) | O(h) | O(h) | ✅ 已同步官方解答 |
 | 958 | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | 🟡 M | Tree Dfs Path | [C++](../problems/0958.md) | O(N) | O(”) | ✅ 已同步官方解答 |

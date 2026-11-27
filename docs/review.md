@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：655 題　🟠 再練習：65 題　🟣 易忘：34 題　🟢 熟練：243 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：654 題　🟠 再練習：65 題　🟣 易忘：34 題　🟢 熟練：244 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 823 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 822 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（107）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（85）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（47）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（20）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（107）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（84）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（47）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（20）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -315,7 +315,7 @@
 | 🟣 易忘 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array | [C++](problems/1260.md) | O(M\*N) | O(K) | 🌟 優於官方解答 |
 
 <a id="review-tree"></a>
-#### 🌳 Tree（85）
+#### 🌳 Tree（84）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -372,7 +372,6 @@
 | 🔴 生疏 | 662 | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](problems/0662.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 E | Tree Dfs Path, DFS | [C++](problems/0671.md) | O(N) | O(H) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | 🟡 M | Tree Dfs Global, DFS | [C++](problems/0687.md) | O(N) | O(H) |  |
-| 🔴 生疏 | 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](problems/0700.md) | O(H) | O(H) |  |
 | 🔴 生疏 | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree) | 🟡 M | Binary Search Tree, Binary Search Tree | [C++](problems/0701.md) | O(H) | O(H) |  |
 | 🔴 生疏 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 E | Binary Search Tree, DFS, BST | [C++](problems/0783.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 M | Tree Dfs Path, DFS, Hash Table | [C++](problems/0863.md) | O(N) | O(N) |  |
@@ -988,7 +987,7 @@
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 8 | 0 | 0 | 0 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 5 |
-| [binary-search-tree](topics/binary-search-tree.md) | 15 | 1 | 0 | 0 | 0 | 16 |
+| [binary-search-tree](topics/binary-search-tree.md) | 14 | 1 | 0 | 0 | 0 | 15 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [bit-manipulation](topics/bit-manipulation.md) | 16 | 4 | 8 | 8 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 3 | 1 | 1 | 2 | 0 | 7 |
@@ -1081,7 +1080,7 @@
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 25 | 1 | 1 | 4 | 0 | 31 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 25 | 1 | 1 | 5 | 0 | 32 |
 | [tree-traversal](topics/tree-traversal.md) | 6 | 0 | 0 | 1 | 0 | 7 |
 | [trie](topics/trie.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |
