@@ -1,6 +1,6 @@
 # tree-dfs-path
 
-## 🔴 生疏（18）
+## 🔴 生疏（17）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,7 +11,6 @@
 | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0572.md) | O(N\*M) | O(H) |  |
 | 606 | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | 🟢 E | Tree Dfs Path | [C++](../problems/0606.md) | O(N) | O(H) |  |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 E | Tree Dfs Path, DFS, Recursion | [C++](../problems/0617.md) | O(min(N,M)) | O(min(N,M)) |  |
-| 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 E | Tree Dfs Path, DFS | [C++](../problems/0671.md) | O(N) | O(H) | ❌ 官方沒有解答 |
 | 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 M | Tree Dfs Path, DFS, Hash Table | [C++](../problems/0863.md) | O(N) | O(N) |  |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 E | Tree Dfs Path, DFS, In-order | [C++](../problems/0897.md) | O(N) | O(H) |  |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 E | Tree Dfs Path | [C++](../problems/0938.md) | O(N) | O(H) |  |
@@ -40,7 +39,7 @@
 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](../problems/0404.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 M | Tree Dfs Path | [C++](../problems/0513.md) | O(n) | O(n) | ✅ 已同步官方解答 |
 
-## 🟢 熟悉（11）
+## 🟢 熟悉（12）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,6 +48,7 @@
 | 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 E | Tree Dfs Path | [C++](../problems/0112.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 M | Tree Dfs Path | [C++](../problems/0129.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0559.md) | O(N) | O(H) | ✅ 已同步官方解答 |
+| 671 | [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/) | 🟢 E | Tree Dfs Path | [C++](../problems/0671.md) | O(N) | O(H) | ❌ 官方沒有解答 |
 | 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0700.md) | O(H) | O(1) | ✅ 已同步官方解答 |
 | 700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree) | 🟢 E | Tree Dfs Path | [C++](../problems/0700.md) | O(h) | O(h) | ✅ 已同步官方解答 |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees) | 🟢 E | Tree Dfs Path | [C++](../problems/0872.md) | O(N+M) | O(N+M) | ✅ 已同步官方解答 |
