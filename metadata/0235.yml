@@ -6,13 +6,12 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Binary Search Tree
-  - DFS
-  - BST
   topics:
   - binary-search-tree
   time: O(H)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-27'
   note: '> **if(root->val > p->val && root->val >  q->val)**<br>
 
     > **確定p q 在左側，return lowestCommonAncestor(root->left, p, q);**<br>
@@ -24,6 +23,7 @@ solutions:
     > **確定p q 在一左一右，return root;**<br>
 
     > **也可以用236解法，但236是O(N)，本解法是O(h)，還是比較好**<br>'
+  official_solution: synced
   related:
   - 236
   attempts:
@@ -31,6 +31,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-05'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null
 - file: Solution_0235_1.cpp
@@ -41,11 +44,16 @@ solutions:
   - binary-search-tree
   time: O(H)
   space: O(1)
-  familiarity: 生疏
+  familiarity: 再練習
+  is_best: true
+  official_solution: synced
   attempts:
   - date: '2026-10-04'
     result: 錯
     reason: 批次補紀錄：目前標記為「再練習」，先留一筆紀錄方便之後追蹤複習
   - date: '2026-10-05'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null
