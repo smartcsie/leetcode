@@ -1,6 +1,6 @@
 # tree-dfs-path
 
-## 🔴 生疏（17）
+## 🔴 生疏（16）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13,7 +13,6 @@
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | 🟢 E | Tree Dfs Path, DFS, Recursion | [C++](../problems/0617.md) | O(min(N,M)) | O(min(N,M)) |  |
 | 863 | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | 🟡 M | Tree Dfs Path, DFS, Hash Table | [C++](../problems/0863.md) | O(N) | O(N) |  |
 | 897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | 🟢 E | Tree Dfs Path, DFS, In-order | [C++](../problems/0897.md) | O(N) | O(H) |  |
-| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 E | Tree Dfs Path | [C++](../problems/0938.md) | O(N) | O(H) |  |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree) | 🟢 E | Tree Dfs Path, DFS | [C++](../problems/0965.md) | O(N) | O(H) |  |
 | 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) | 🟢 E | Tree Dfs Path | [C++](../problems/1022.md) | O(N) | O(H) |  |
 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/) | 🟡 M | Tree Dfs Path, DFS, Recursion | [C++](../problems/1026.md) | O(N) | O(H) |  |

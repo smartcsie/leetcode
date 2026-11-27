@@ -10,7 +10,8 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: synced
   attempts:
   - date: '2026-09-25'
     result: 對
@@ -27,15 +28,19 @@ solutions:
   - date: '2026-10-17'
     result: 對
     reason: null
+  - date: '2026-11-27'
+    result: 對
+    reason: null
 - file: Solution_0938_1.cpp
   difficulty: 🟢 Easy
   tags:
-  - Tree Dfs Path
+  - Binary Search Tree
   topics:
-  - tree-dfs-path
+  - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: synced
   attempts:
   - date: '2026-09-25'
     result: 對
@@ -47,5 +52,8 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-17'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null
