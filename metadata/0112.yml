@@ -10,8 +10,10 @@ solutions:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-27'
   note: '> **分葉子節點和非葉子節點處理**<br>'
+  official_solution: synced
   tricks:
   - tree path sum
   attempts:
@@ -22,6 +24,12 @@ solutions:
     result: 對
     reason: null
   - date: '2026-09-25'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null
   is_representative: true
