@@ -27,7 +27,7 @@
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | 🟢 E | 2d Array | [C++](../problems/0566.md) | O(m | O(r |  |
+| 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | 🟢 E | 2d Array | [C++](../problems/0566.md) | O(m \* n) | O(r \* c) |  |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 E | 2d Array | [C++](../problems/0867.md) | O(M\*N) | O(M\*N) | ✅ 已同步官方解答 |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array | [C++](../problems/1260.md) | O(m × n) | O(m × n) | ⏳ 尚未同步 |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 E | 2d Array | [C++](../problems/1572.md) | O(N) | O(1) | 🌟 優於官方解答 |
