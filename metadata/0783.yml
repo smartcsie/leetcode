@@ -6,19 +6,22 @@ solutions:
   difficulty: 🟢 Easy
   tags:
   - Binary Search Tree
-  - DFS
-  - BST
   topics:
   - binary-search-tree
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-27'
   note: '> **同530[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)**'
+  official_solution: synced
   related:
   - 530
   tricks:
   - inorder travsal
   attempts:
   - date: '2026-09-25'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null

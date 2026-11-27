@@ -1,6 +1,6 @@
 # binary-search-tree
 
-## 🔴 生疏（10）
+## 🔴 生疏（9）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9,7 +9,6 @@
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 E | Binary Search Tree, DFS, BST | [C++](../problems/0501.md) | O(N) | O(H) |  |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 E | Binary Search Tree, Hash Table | [C++](../problems/0653.md) | O(N) | O(N) |  |
 | 653 | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | 🟢 E | Binary Search Tree | [C++](../problems/0653.md) | O(n) | O(n) |  |
-| 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 E | Binary Search Tree, DFS, BST | [C++](../problems/0783.md) | O(N) | O(H) |  |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst) | 🟢 E | Binary Search Tree | [C++](../problems/0938.md) | O(N) | O(H) |  |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | 🟡 M | Binary Search Tree, BST, DFS | [C++](../problems/1008.md) | O(N) | O(N) |  |
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 M | Binary Search Tree, BST | [C++](../problems/1038.md) | O(N) | O(H) |  |
@@ -29,10 +28,11 @@
 
 目前沒有標記為易忘的解法。
 
-## 🟢 熟悉（3）
+## 🟢 熟悉（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 M | Binary Search Tree | [C++](../problems/0230.md) | O(K) | O(H) | ✅ 已同步官方解答 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](../problems/0235.md) | O(H) | O(H) | ✅ 已同步官方解答 |
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 E | Binary Search Tree | [C++](../problems/0530.md) | O(N) | O(H) | ✅ 已同步官方解答 |
+| 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | 🟢 E | Binary Search Tree | [C++](../problems/0783.md) | O(N) | O(H) | ✅ 已同步官方解答 |
