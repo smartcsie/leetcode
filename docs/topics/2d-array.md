@@ -1,10 +1,9 @@
 # 2d-array
 
-## 🔴 生疏（3）
+## 🔴 生疏（2）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 E | 2d Array | [C++](../problems/1582.md) | O(M\*N) | O(M+N) |  |
 | 1779 | [Find Nearest Point That Has the Same X or Y Coordinate](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/) | 🟢 E | 2d Array, Simulation, Manhattan Distance | [C++](../problems/1779.md) | O(N) | O(1) | ❌ 官方沒有解答 |
 | 2133 | [Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers) | 🟢 E | 2d Array | [C++](../problems/2133.md) | O(N²) | O(N) | ❌ 官方沒有解答 |
 
@@ -23,7 +22,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array | [C++](../problems/1260.md) | O(M\*N) | O(K) | 🌟 優於官方解答 |
 
-## 🟢 熟悉（12）
+## 🟢 熟悉（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -31,6 +30,7 @@
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | 🟢 E | 2d Array | [C++](../problems/0867.md) | O(M\*N) | O(M\*N) | ✅ 已同步官方解答 |
 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array | [C++](../problems/1260.md) | O(m × n) | O(m × n) | ⏳ 尚未同步 |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum) | 🟢 E | 2d Array | [C++](../problems/1572.md) | O(N) | O(1) | 🌟 優於官方解答 |
+| 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 E | 2d Array | [C++](../problems/1582.md) | O(M\*N) | O(M+N) | ✅ 已同步官方解答 |
 | 1886 | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) | 🟢 E | 2d Array | [C++](../problems/1886.md) | O(N²) | O(1) |  |
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array) | 🟢 E | 2d Array | [C++](../problems/2022.md) | O(M\*N) | O(1) | ✅ 已同步官方解答 |
 | 2319 | [Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix/) | 🟢 E | 2d Array | [C++](../problems/2319.md) | O(N²) | O(1) | ❌ 官方沒有解答 |

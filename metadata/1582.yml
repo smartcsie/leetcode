@@ -10,11 +10,16 @@ solutions:
   - 2d-array
   time: O(M*N)
   space: O(M+N)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-27'
+  official_solution: synced
   tricks:
   - matrix row sum
   - matrix column sum
   attempts:
   - date: '2026-09-16'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null

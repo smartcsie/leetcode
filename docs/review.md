@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：634 題　🟠 再練習：73 題　🟣 易忘：36 題　🟢 熟練：254 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：633 題　🟠 再練習：73 題　🟣 易忘：36 題　🟢 熟練：255 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 812 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 811 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（107）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（74）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（47）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（20）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（107）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（67）](#review-array)　[🌳 Tree（74）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（47）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（20）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -241,7 +241,7 @@
 | 🟣 易忘 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words) | 🟢 E | String | [C++](problems/2828.md) |  |  | ❌ 官方沒有解答 |
 
 <a id="review-array"></a>
-#### 🍱 Array（68）
+#### 🍱 Array（67）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -283,7 +283,6 @@
 | 🔴 生疏 | 1422 | [Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string/) | 🟢 E | Array Prefix Sum | [C++](problems/1422.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1524 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 🟡 M | Array Prefix Sum, Prefix Sum, Combinatorics | [C++](problems/1524.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/) | 🟢 E | Array, Brute Force | [C++](problems/1534.md) | O(N³) | O(1) |  |
-| 🔴 生疏 | 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) | 🟢 E | 2d Array | [C++](problems/1582.md) | O(M\*N) | O(M+N) |  |
 | 🔴 生疏 | 1588 | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/) | 🟢 E | Array, Prefix Sum | [C++](problems/1588.md) | O(N²) | O(N) |  |
 | 🔴 生疏 | 1608 | [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | 🟢 E | Array Linear Scan | [C++](problems/1608.md) | O(N + V) | O(V) |  |
 | 🔴 生疏 | 1614 | [Maximum Nesting Depth of the Parentheses](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | 🟢 E | Array Linear Scan | [C++](problems/1614.md) | O(N) | O(1) |  |
@@ -957,7 +956,7 @@
 
 | 分類 | 🔴 生疏 | 🟠 再練習 | 🟣 易忘 | 🟢 熟練 | ⚪ 未標記 | 總數 |
 | --- | --- | --- | --- | --- | --- | --- |
-| [2d-array](topics/2d-array.md) | 3 | 4 | 1 | 11 | 0 | 19 |
+| [2d-array](topics/2d-array.md) | 2 | 4 | 1 | 12 | 0 | 19 |
 | [array](topics/array.md) | 9 | 3 | 0 | 14 | 0 | 26 |
 | [array-boyer-moore](topics/array-boyer-moore.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [array-continuous-counting](topics/array-continuous-counting.md) | 7 | 0 | 0 | 8 | 0 | 15 |
