@@ -10,7 +10,8 @@ solutions:
   - binary-search-tree
   time: O(N)
   space: O(logN)
-  familiarity: 生疏
+  familiarity: 再練習
+  official_solution: synced
   related:
   - 1382
   attempts:
@@ -18,6 +19,9 @@ solutions:
     result: 對
     reason: null
   - date: '2026-10-03'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null
   is_representative: true

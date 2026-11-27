@@ -1,12 +1,11 @@
 # binary-search-tree
 
-## 🔴 生疏（14）
+## 🔴 生疏（13）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 M | Binary Search Tree | [C++](../problems/0098.md) | O(N) | O(H) |  |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | 🟡 M | Binary Search Tree | [C++](../problems/0099.md) | O(N) | O(1) |  |
-| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](../problems/0108.md) | O(N) | O(logN) |  |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | 🟡 M | Binary Search Tree | [C++](../problems/0230.md) | O(K) | O(H) |  |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree) | 🟢 E | Binary Search Tree, DFS, BST | [C++](../problems/0501.md) | O(N) | O(H) |  |
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | 🟢 E | Binary Search Tree, DFS, BST | [C++](../problems/0530.md) | O(N) | O(H) |  |
@@ -19,10 +18,11 @@
 | 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | 🟡 M | Binary Search Tree, BST | [C++](../problems/1038.md) | O(N) | O(H) |  |
 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 M | Binary Search Tree, BST | [C++](../problems/1382.md) | O(N) | O(N) |  |
 
-## 🟠 再練習（3）
+## 🟠 再練習（4）
 
 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](../problems/0108.md) | O(N) | O(logN) | ✅ 已同步官方解答 |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 M | Binary Search Tree | [C++](../problems/0109.md) | O(NlogN) | O(logN) | ✅ 已同步官方解答 |
 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 M | Binary Search Tree | [C++](../problems/0109.md) | O(n) | O(logn) | ⏳ 尚未同步 |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](../problems/0235.md) | O(H) | O(1) | ✅ 已同步官方解答 |

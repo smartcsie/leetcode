@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：648 題　🟠 再練習：68 題　🟣 易忘：35 題　🟢 熟練：246 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：647 題　🟠 再練習：69 題　🟣 易忘：35 題　🟢 熟練：246 題　⚪ 未標記：0 題
 
 ---
 
@@ -319,6 +319,7 @@
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 🟠 再練習 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](problems/0108.md) | O(N) | O(logN) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 M | Binary Search Tree | [C++](problems/0109.md) | O(NlogN) | O(logN) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | 🟡 M | Binary Search Tree | [C++](problems/0109.md) | O(n) | O(logn) | ⏳ 尚未同步 |
 | 🟠 再練習 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 M | Tree Dfs Path | [C++](problems/0199.md) | O(n) | O(h) | ✅ 已同步官方解答 |
@@ -334,7 +335,6 @@
 | 🔴 生疏 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](problems/0105.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | 🟡 M | Tree Construction, Recursion | [C++](problems/0106.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | 🟢 E | Tree Bfs Level Order, BFS | [C++](problems/0107.md) | O(N) | O(W) |  |
-| 🔴 生疏 | 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](problems/0108.md) | O(N) | O(logN) |  |
 | 🔴 生疏 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 E | Tree Dfs Path | [C++](problems/0110.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 E | Tree Dfs Path, BFS, DFS | [C++](problems/0111.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 M | Tree Dfs Backtracking, DFS, Backtracking | [C++](problems/0113.md) | O(N) | O(H) |  |
@@ -985,7 +985,7 @@
 | [binary-search-find-left-bound](topics/binary-search-find-left-bound.md) | 8 | 0 | 0 | 0 | 0 | 8 |
 | [binary-search-find-right-bound](topics/binary-search-find-right-bound.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [binary-search-on-answer](topics/binary-search-on-answer.md) | 4 | 0 | 0 | 1 | 0 | 5 |
-| [binary-search-tree](topics/binary-search-tree.md) | 13 | 2 | 0 | 0 | 0 | 15 |
+| [binary-search-tree](topics/binary-search-tree.md) | 12 | 3 | 0 | 0 | 0 | 15 |
 | [bit-bitmask-subset-enumeration](topics/bit-bitmask-subset-enumeration.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [bit-manipulation](topics/bit-manipulation.md) | 16 | 4 | 8 | 8 | 0 | 36 |
 | [bit-manipulation-and](topics/bit-manipulation-and.md) | 3 | 1 | 1 | 2 | 0 | 7 |
