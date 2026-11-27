@@ -3,7 +3,7 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：640 題　🟠 再練習：70 題　🟣 易忘：36 題　🟢 熟練：251 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：639 題　🟠 再練習：71 題　🟣 易忘：36 題　🟢 熟練：251 題　⚪ 未標記：0 題
 
 ---
 
@@ -327,6 +327,7 @@
 | 🟠 再練習 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | 🟢 E | Binary Search Tree | [C++](problems/0235.md) | O(H) | O(1) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | 🟡 M | Tree Dfs Path | [C++](problems/0236.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🟠 再練習 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Bfs Level Order | [C++](problems/0404.md) | O(N) | O(W) | ✅ 已同步官方解答 |
+| 🟠 再練習 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 M | Tree Bfs Level Order | [C++](problems/1609.md) | O(N) | O(W) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0094.md) | O(N) | O(H) | ✅ 已同步官方解答 |
 | 🔴 生疏 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 M | Binary Search Tree | [C++](problems/0098.md) | O(N) | O(H) |  |
@@ -386,7 +387,6 @@
 | 🔴 生疏 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | 🟡 M | Tree Dfs Path, DFS, Recursion | [C++](problems/1315.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 1382 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | 🟡 M | Binary Search Tree, BST | [C++](problems/1382.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 1530 | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/) | 🟡 M | Tree Dfs Global, DFS, Post-order | [C++](problems/1530.md) | O(N×D²) | O(H×D) |  |
-| 🔴 生疏 | 1609 | [Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | 🟡 M | Tree Bfs Level Order, BFS | [C++](problems/1609.md) | O(N) | O(W) |  |
 | 🔴 生疏 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | 🟢 E | Tree | [C++](problems/2236.md) | O(1) | O(1) | ❌ 官方沒有解答 |
 | 🔴 生疏 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree) | 🟢 E | Tree Dfs Path, DFS, Recursion | [C++](problems/2331.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 M | Tree Dfs Path | [C++](problems/2415.md) | O(N) | O(H) |  |
@@ -1069,7 +1069,7 @@
 | [string-substring-enumeration](topics/string-substring-enumeration.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [topological-sort](topics/topological-sort.md) | 1 | 0 | 0 | 0 | 0 | 1 |
 | [tree](topics/tree.md) | 2 | 0 | 0 | 2 | 0 | 4 |
-| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 6 | 2 | 2 | 6 | 0 | 16 |
+| [tree-bfs-level-order](topics/tree-bfs-level-order.md) | 5 | 3 | 2 | 6 | 0 | 16 |
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |
