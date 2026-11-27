@@ -6,12 +6,13 @@ solutions:
   difficulty: 🟡 Medium
   tags:
   - Tree Dfs Path
-  - DFS
   topics:
   - tree-dfs-path
   time: O(N)
   space: O(H)
-  familiarity: 生疏
+  familiarity: 熟練
+  mastered_date: '2026-11-27'
+  official_solution: synced
   related:
   - 257
   tricks:
@@ -29,20 +30,27 @@ solutions:
   - date: '2026-10-06'
     result: 對
     reason: null
+  - date: '2026-11-27'
+    result: 對
+    reason: null
 - file: Solution_0129_1.cpp
   difficulty: 🟡 Medium
   tags:
   - Tree Dfs Path
   topics:
   - tree-dfs-path
-  time: O(N)
-  space: O(N)
-  familiarity: 生疏
+  time: O(n)
+  space: O(1)
+  familiarity: 易忘
   note: '> **ans不等於nullptr，表示找到答案**<br>'
+  official_solution: synced
   related:
   - 257
   attempts:
   - date: '2026-10-06'
+    result: 對
+    reason: null
+  - date: '2026-11-27'
     result: 對
     reason: null
   is_representative: true

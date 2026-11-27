@@ -3,15 +3,15 @@
 ## 📊 總覽
 
 - **LeetCode 網站 AC 總數：** 980 / 4046 題（最後更新：2026-09-08 17:55）
-- **目前收錄總題目數：** 997 題　🔴 生疏：651 題　🟠 再練習：67 題　🟣 易忘：34 題　🟢 熟練：245 題　⚪ 未標記：0 題
+- **目前收錄總題目數：** 997 題　🔴 生疏：650 題　🟠 再練習：67 題　🟣 易忘：35 題　🟢 熟練：245 題　⚪ 未標記：0 題
 
 ---
 
 ## 📝 複習清單（依分類）
 
-目前共有 821 個解法標記為生疏／再練習／易忘，依分類整理如下。
+目前共有 820 個解法標記為生疏／再練習／易忘，依分類整理如下。
 
-📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（107）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（83）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（47）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（20）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
+📌 **快速跳轉：** [🎨 Design（10）](#review-design)　[🔢 Math（107）](#review-math)　[📊 Bit Manipulation（53）](#review-bit-manipulation)　[🔗 String（33）](#review-string)　[🍱 Array（68）](#review-array)　[🌳 Tree（82）](#review-tree)　[🔍 Binary Search（34）](#review-binary-search)　[⛓️ Linked List（20）](#review-linked-list)　[👥 Pointers（47）](#review-pointers)　[🔑 Hash Table（40）](#review-hash-table)　[📚 Stack（20）](#review-stack)　[📚 Priority Queue（7）](#review-priority-queue)　[📚 Queue（2）](#review-queue)　[📚 Quick Select（8）](#review-quick-select)　[🕸️ Graph（8）](#review-graph)　[📊 Sorting（38）](#review-sorting)　[🧩 Dynamic Programming（108）](#review-dynamic-programming)　[🧩 Greedy（82）](#review-greedy)　[🔢 Backtracking（31）](#review-backtracking)　[🔢 Sliding Window（21）](#review-sliding-window)　[🔢 SQL（1）](#review-sql)
 
 <a id="review-design"></a>
 #### 🎨 Design（10）
@@ -315,7 +315,7 @@
 | 🟣 易忘 | 1260 | [Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/) | 🟢 E | 2d Array | [C++](problems/1260.md) | O(M\*N) | O(K) | 🌟 優於官方解答 |
 
 <a id="review-tree"></a>
-#### 🌳 Tree（83）
+#### 🌳 Tree（82）
 
 | 分類 | # | 題目 | 難度 | 標籤 | 解法檔案 | 時間 | 空間 | 官方解答 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -342,8 +342,6 @@
 | 🔴 生疏 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | 🟡 M | Tree Dfs Path | [C++](problems/0116.md) | O(N) | O(1) |  |
 | 🔴 生疏 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | 🟡 M | Tree Bfs Level Order, BFS, Queue | [C++](problems/0117.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | 🔴 H | Tree Dfs Global, Recursion, DP | [C++](problems/0124.md) | O(N) | O(H) |  |
-| 🔴 生疏 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 M | Tree Dfs Path, DFS | [C++](problems/0129.md) | O(N) | O(H) |  |
-| 🔴 生疏 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 M | Tree Dfs Path | [C++](problems/0129.md) | O(N) | O(N) |  |
 | 🔴 生疏 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 E | Tree Traversal, DFS | [C++](problems/0144.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) |  |
@@ -399,6 +397,7 @@
 | 🔴 生疏 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree) | 🟢 E | Tree Dfs Path, DFS, Recursion | [C++](problems/2331.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 2415 | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/) | 🟡 M | Tree Dfs Path | [C++](problems/2415.md) | O(N) | O(H) |  |
 | 🔴 生疏 | 2583 | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/) | 🟡 M | Tree Bfs Level Order, BFS, Math | [C++](problems/2583.md) | O(N) | O(N) |  |
+| 🟣 易忘 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 M | Tree Dfs Path | [C++](problems/0129.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](problems/0404.md) | O(N) | O(H) |  |
 | 🟣 易忘 | 404 | [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](problems/0404.md) | O(n) | O(1) | ✅ 已同步官方解答 |
 | 🟣 易忘 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value) | 🟡 M | Tree Dfs Path | [C++](problems/0513.md) | O(n) | O(n) | ✅ 已同步官方解答 |
@@ -1079,7 +1078,7 @@
 | [tree-construction](topics/tree-construction.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-backtracking](topics/tree-dfs-backtracking.md) | 3 | 0 | 0 | 0 | 0 | 3 |
 | [tree-dfs-global](topics/tree-dfs-global.md) | 7 | 0 | 0 | 0 | 0 | 7 |
-| [tree-dfs-path](topics/tree-dfs-path.md) | 24 | 3 | 1 | 5 | 0 | 33 |
+| [tree-dfs-path](topics/tree-dfs-path.md) | 23 | 3 | 2 | 5 | 0 | 33 |
 | [tree-traversal](topics/tree-traversal.md) | 6 | 0 | 0 | 1 | 0 | 7 |
 | [trie](topics/trie.md) | 2 | 0 | 0 | 0 | 0 | 2 |
 | [two-pointers-center-expansion](topics/two-pointers-center-expansion.md) | 2 | 0 | 0 | 0 | 0 | 2 |

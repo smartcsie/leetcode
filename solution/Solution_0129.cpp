@@ -25,27 +25,21 @@
 
 class Solution {
 private:
-    void dfs(TreeNode* root, int curSum, int& sum) {
-        if (!root) return;
-        
-        // 將路徑值推進一位並加上當前節點值
-        curSum = curSum * 10 + root->val;
-        
-        // 檢查是否為葉節點
-        if (!root->left && !root->right) {
-            sum += curSum;
+    void dfs(TreeNode* root, long cur, long& sum) {
+        if(!root) return;
+        cur = 10 * cur + root->val;
+        if(!root->left && !root->right) {
+            sum += cur;
             return;
         }
-        
-        // 若非葉節點，繼續向下遞迴
-        if (root->left) dfs(root->left, curSum, sum);
-        if (root->right) dfs(root->right, curSum, sum);
-    }
+        if(root->left) dfs(root->left, cur, sum);
+        if(root->right) dfs(root->right, cur, sum);
 
+    }
 public:
     int sumNumbers(TreeNode* root) {
-        int sum = 0;
+        long sum = 0;
         dfs(root, 0, sum);
-        return sum;
+        return static_cast<int>(sum);
     }
 };

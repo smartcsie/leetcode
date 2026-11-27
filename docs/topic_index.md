@@ -242,7 +242,7 @@
 | 111 | 👑 **Binary Tree Min Depth**<br>[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | 🟢 E | Tree Dfs Path, BFS, DFS | [C++](problems/0111.md) | O(N) | O(H) |
 | 112 | 👑 **DFS Path**<br>[Path Sum](https://leetcode.com/problems/path-sum/) | 🟢 E | Tree Dfs Path | [C++](problems/0112.md) | O(N) | O(H) |
 | 113 | 👑 **DFS Backtracking**<br>[Path Sum II](https://leetcode.com/problems/path-sum-ii) | 🟡 M | Tree Dfs Backtracking, DFS, Backtracking | [C++](problems/0113.md) | O(N) | O(H) |
-| 129 | 👑 **DFS Early Return**<br>[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 M | Tree Dfs Path | [C++](problems/0129.md) | O(N) | O(N) |
+| 129 | 👑 **DFS Early Return**<br>[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | 🟡 M | Tree Dfs Path | [C++](problems/0129.md) | O(n) | O(1) |
 | 144 | 👑 **Preorder**<br>[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0144.md) | O(N) | O(H) |
 | 145 | 👑 **Postorder**<br>[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | 🟢 E | Tree Traversal | [C++](problems/0145.md) | O(N) | O(H) |
 | 404 | 👑 **Morris Traversal**<br>[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | 🟢 E | Tree Dfs Path | [C++](problems/0404.md) | O(n) | O(1) |
